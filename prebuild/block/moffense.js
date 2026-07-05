@@ -202,7 +202,18 @@ export const makeMonsterOffenseBlock = ({marked2, flags, convertEncodedInfo, may
 		output.push(`web="${web}"`);
 	}
 	whirlwind && output.push(`whirlwind="${whirlwind}"`);
-	return flag ? `${maybeClear}<Offense ${output.join(" ")} />\n` : "<Header sub>Offense</Header><p><em>Error.</em></p>\n";
+	if(flag) {
+		let potential = `${maybeClear}<Offense ${output.join(" ")} />`;
+		let final = "";
+		let m;
+		while(m = potential.match(/(^.*?)=\{(?:<>|")([^<>"]+)(?:<[/]>|")\}(.*$)/)) {
+			const [,pre,text,post] = m;
+			final = final + `${pre}="${text}"`;
+			potential = post;
+		}
+		return final + potential + "\n";
+	}
+	return "<Header sub>Offense</Header><p><em>Error.</em></p>\n";
 };
 
 const checkIfDupe = (input, $collection) => {
@@ -471,7 +482,15 @@ export const makeMonsterSpellBlock = ({marked2, convertEncodedInfo, maybeClear, 
 	let count = flags.$spellblocks || 0;
 	count++;
 	flags.$spellblocks = count;
-	return `${maybeClear}<SpellBlock id="${count}" ${output.join(" ")} />\n`;
+	let potential = `${maybeClear}<SpellBlock id="${count}" ${output.join(" ")} />`;
+	let final = "";
+	let m;
+	while(m = potential.match(/(^.*?)=\{(?:<>|")([^<>"]+)(?:<[/]>|")\}(.*$)/)) {
+		const [,pre,text,post] = m;
+		final = final + `${pre}="${text}"`;
+		potential = post;
+	}
+	return final + potential + "\n";
 };
 
 export const makeMonsterFootnoteBlock = ({marked2, convertEncodedInfo, text}) => {

@@ -55,7 +55,15 @@ export const makeMonsterEcologyBlock = ({marked2, flags, convertEncodedInfo, may
 			output.push(`treasure={{"${treasure}":false}}`);
 		}
 	}
-	return `${maybeClear}<Ecology ${output.join(" ")} />\n`;
+	let potential = `${maybeClear}<Ecology ${output.join(" ")} />`;
+	let final = "";
+	let m;
+	while(m = potential.match(/(^.*?)=\{(?:<>|")([^<>"]+)(?:<[/]>|")\}(.*$)/)) {
+		const [,pre,text,post] = m;
+		final = final + `${pre}="${text}"`;
+		potential = post;
+	}
+	return final + potential + "\n";
 };
 
 export default makeMonsterEcologyBlock;

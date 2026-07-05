@@ -45,7 +45,7 @@ const _poppet_poppet_tiny = {title: "Tiny Poppet", jsx: <><Header full><span>Pop
 <div className="reduce">
 <Info source={[["Adventurer's Armory 2",30]]} xp="135" n tiny construct init={2} dv={60} llv pcp={-3} />
 <Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[5,"1d10"]} fort="+0" ref="+2" will="-3" immune={<Link to="/umr/construct_traits">construct traits</Link>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
-<Offense sp={20} melee="slam +2 (1d2-1)" space={"2-1/2"} reach={"0"} />
+<Offense sp={20} melee="slam +2 (1d2-1)" space="2-1/2" reach="0" />
 <Stats atts={[8,14,0,0,5,1]} bab={1} cmb={1} cmd={10} />
 </div>
 <Header sub>Description</Header>
@@ -104,7 +104,7 @@ const _primeval_sea_creature_kronosaurus = {title: "Kronosaurus (Primeval Sea Cr
 <div className="reduce">
 <Info source={[["Pathfinder #60: From Hell's Heart",88]]} xp="9,600" n gargantuan animal init={1} llv scent pcp={20} />
 <Defense ac={[23,7,22]} mod="+1 Dex, +16 natural, -4 size" hp={[138,"12d8+84"]} fort="+15" ref="+9" will="+7" />
-<Offense sw={60} melee={<>bite +19 (3d8+19/19-20 plus <Link to="/umr/grab">grab</Link>)</>} space={"20"} reach={"20"} swallow="3d6+12 damage, AC 18, 13 hp" />
+<Offense sw={60} melee={<>bite +19 (3d8+19/19-20 plus <Link to="/umr/grab">grab</Link>)</>} space="20" reach="20" swallow="3d6+12 damage, AC 18, 13 hp" />
 <Stats atts={[36,13,24,2,13,9]} bab={9} cmb={26} cmbP="+30 grapple" cmd={37} cmdP="can't be tripped" feats={["Endurance",["Improved Critical"," (bite)"],"Iron Will","Power Attack",["Skill Focus"," (Perception)"],["Weapon Focus"," (bite)"]]} skills={{"per":{"b":20},"swim":{"b":26}}} />
 <Ecology env="warm oceans" org="solitary, pair, or school (3-8)" treasure={{"X":false}} />
 </div>
@@ -117,7 +117,7 @@ const _primeval_sea_creature_nothosaur = {title: "Nothosaur (Primeval Sea Creatu
 <div className="reduce">
 <Info source={[["Pathfinder #60: From Hell's Heart",88]]} xp="1,600" n large animal init={1} llv pcp={11} />
 <Defense ac={[18,10,17]} mod="+1 Dex, +8 natural, -1 size" hp={[57,"6d8+30"]} fort="+9" ref="+6" will="+4" />
-<Offense sp={20} sw={40} melee="bite +10 (1d8+6), tail slap +7 (1d8+3)" space={"10"} reach={"10"} />
+<Offense sp={20} sw={40} melee="bite +10 (1d8+6), tail slap +7 (1d8+3)" space="10" reach="10" />
 <Stats atts={[23,12,18,2,15,7]} bab={4} cmb={11} cmd={22} cmdP="26 vs. trip" feats={["Multiattack","Toughness",["Weapon Focus"," (bite)"]]} skills={{"per":{"b":11},"swim":{"b":14}}} sq="sprint" />
 <Ecology env="any water" org="solitary, pair, or herd (3-12)" treasure={{"X":false}} />
 </div>
@@ -132,7 +132,7 @@ const _primeval_sea_creature_zeuglodon = {title: "Zeuglodon (Primeval Sea Creatu
 <div className="reduce">
 <Info source={[["Pathfinder #60: From Hell's Heart",89]]} xp="6,400" n gargantuan animal init={8} llv pcp={20} />
 <Defense ac={[25,11,20]} mod="+4 Dex, +1 dodge, +14 natural, -4 size" hp={[115,"11d8+66"]} fort="+13" ref="+11" will="+6" />
-<Offense sw={60} melee={<>bite +17 (2d8+19 plus <Link to="/umr/grab">grab</Link>)</>} space={"20"} reach={"20"} specAtt={[["thrash","thrash"]]} />
+<Offense sw={60} melee={<>bite +17 (2d8+19 plus <Link to="/umr/grab">grab</Link>)</>} space="20" reach="20" specAtt={[["thrash","thrash"]]} />
 <Stats atts={[37,18,22,1,13,6]} bab={8} cmb={25} cmbP="+29 grapple" cmd={40} cmdP="can't be tripped" feats={["Dodge","Improved Initiative","Iron Will","Lunge","Power Attack","Run"]} skills={{"per":{"b":20},"swim":{"b":27}}} racial="+8 Perception" sq={<Link to="/umr/hold_breath">hold breath</Link>} />
 <Ecology env="warm oceans" org="solitary or pair" treasure={{"X":false}} />
 </div>
@@ -171,7 +171,7 @@ const _proto_shoggoth_proto_shoggoth_synctium = {title: "Proto-Shoggoth Synctium
 <div className="reduce">
 <Info source={[["Pathfinder #112: The Whisper Out of Time",90]]} xp="38,400" cn large ooze init={11} llv tremorsense={60} aav pcp={19} />
 <Defense ac={[28,16,21]} mod="+7 Dex, +12 natural, -1 size" hp={[200,"16d8+128"]} fh="5" fort="+15" ref="+12" will="+10" dr="5/-" immune={<>blindness, cold, deafness, disease, infestation, mind-affecting effects, <Link to="/umr/ooze_traits">ooze traits</Link>, sonic</>} resist="acid 10, electricity 10, fire 10" sr="25" />
-<Offense sp={40} cl={30} sw={40} melee={<>4 slams +22 (2d6+11/19-20 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"10"} specAtt={[["distracting cacophony","distracting cacophony"]]} constrict="2d6+11" />
+<Offense sp={40} cl={30} sw={40} melee={<>4 slams +22 (2d6+11/19-20 plus <Link to="/umr/grab">grab</Link>)</>} space="10" reach="10" specAtt={[["distracting cacophony","distracting cacophony"]]} constrict="2d6+11" />
 <Stats atts={[32,24,27,1,16,10]} bab={12} cmb={24} cmbP="+26 sunder" cmd={41} cmdP="43 vs. sunder" feats={["Cleave","Great Cleave","Great Fortitude",["Improved Critical"," (slam)"],"Improved Initiative","Improved Sunder","Iron Will","Power Attack"]} skills={{"climb":{"b":19}}} sq={<><Link to="/umr/compression">compression</Link>, merge</>} />
 <Ecology env="any" org="solitary or mass (2-6)" treasure={{"I":false}} />
 </div>
@@ -192,7 +192,7 @@ const _pseudodragon = {title: "Pseudodragon", jsx: <><p><em>This housecat-sized 
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",229]]} xp="400" ng tiny dragon init={2} dv={60} llv blindsense={60} pcp={6} />
 <Defense ac={[16,14,14]} mod="+2 Dex, +2 natural, +2 size" hp={[15,"2d12+2"]} fort="+4" ref="+5" will="+4" immune="paralysis, sleep" sr="12" />
-<Offense sp={15} fl={60} flP="good" melee="sting +6 (1d3-2 plus poison), bite +6 (1d2-2)" space={"2-1/2"} reach={"0"} reachP={"5 ft. with tail"} />
+<Offense sp={15} fl={60} flP="good" melee="sting +6 (1d3-2 plus poison), bite +6 (1d2-2)" space="2-1/2" reach="0" reachP="5 ft. with tail" />
 <Stats atts={[7,15,13,10,12,10]} bab={2} cmb={2} cmd={10} cmdP="14 vs. trip" feats={["Weapon Finesse"]} skills={{"diplo":{"b":5},"fly":{"b":15},"per":{"b":6}}} racial="+4 Stealth (improves to +8 in forests)" lang={["D",";",[<><Link to="/umr/telepathy">telepathy</Link> (60 ft.)</>]]} />
 <Ecology env="temperate forests" org="solitary, pair, or clutch (3-5)" treasure={{"S":false}} />
 </div>
@@ -209,7 +209,7 @@ const _pseudosphinx = {title: "Pseudosphinx", jsx: <><p><em>This small creature 
 <div className="reduce">
 <Info source={[["Familiar Folio",29]]} xp="600" n tiny magicalBeast init={2} dv={60} llv pcp={11} />
 <Defense ac={[15,14,13]} mod="+2 Dex, +1 natural, +2 size" hp={[16,"3d10"]} fort="+3" ref="+5" will="+6" dr="5/magic" sr="13" />
-<Offense sp={20} fl={30} flP="average" melee="bite +2 (1d3-3), 2 claws +2 (1d2-3)" space={"2-1/2"} reach={"0"} specAtt={[["aided insight","aided insight"]]} />
+<Offense sp={20} fl={30} flP="average" melee="bite +2 (1d3-3), 2 claws +2 (1d2-3)" space="2-1/2" reach="0" specAtt={[["aided insight","aided insight"]]} />
 <SpellBlock id="1" sla={{"cl":5,"con":"+6","content":[{"constant":true,"content":<Link to="/spell/comprehend_languages">comprehend languages</Link>},{"will":true,"content":<><Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/detect_secret_doors">detect secret doors</Link></>},{"day":3,"content":<><Link to="/spell/burning_hands">burning hands</Link>, <Link to="/spell/cause_fear">cause fear</Link>, <Link to="/spell/identify">identify</Link>, <Link to="/spell/vanish">vanish</Link></>}]}} />
 <Stats atts={[5,14,11,9,16,12]} bab={3} cmb={3} cmd={10} feats={["Alertness","Iron Will"]} skills={{"fly":{"b":6},"per":{"b":11},"sm":{"b":5}}} lang={["C","Sx"]} />
 <Ecology env="warm deserts" org="solitary" treasure={{"S":false}} />
@@ -226,7 +226,7 @@ const _pseudowyvern = {title: "Pseudowyvern", jsx: <><p><em>The sinuous tail of 
 <div className="reduce">
 <Info source={[["Legacy of Dragons",27]]} xp="600" n tiny dragon init={2} dv={60} llv scent pcp={7} />
 <Defense ac={[17,14,15]} mod="+2 Dex, +3 Natural, +2 Size" hp={[22,"3d12+3"]} fort="+4" ref="+5" will="+4" immune="paralysis, sleep" />
-<Offense sp={10} fl={60} flP="good" melee="sting +7 (1d2-1 plus poison), bite +7 (1d3-1)" space={"2-1/2"} reach={"0"} reachP={"5 ft. with sting"} />
+<Offense sp={10} fl={60} flP="good" melee="sting +7 (1d2-1 plus poison), bite +7 (1d3-1)" space="2-1/2" reach="0" reachP="5 ft. with sting" />
 <Stats atts={[8,14,13,7,12,9]} bab={3} cmb={3} cmd={12} feats={["Flyby Attack","Weapon Finesse"]} skills={{"fly":{"b":16},"per":{"b":7},"sm":{"b":7},"stl":{"b":16}}} lang={["D"]} />
 <Ecology env="temperate or warm forests or hills" org="solitary, pair, or flight (3-6)" treasure={{"S":false}} />
 </div>
@@ -263,7 +263,7 @@ const _psyche_serpent = {title: "Psyche Serpent", jsx: <><p><em>A spiral pattern
 <div className="reduce">
 <Info source={[["Occult Bestiary",44]]} xp="600" n tiny magicalBeast init={3} dv={60} llv pcp={7} />
 <Defense ac={[17,15,14]} mod="+3 Dex, +2 natural, +2 size" hp={[19,"3d10+3"]} fort="+4" ref="+6" will="+2" />
-<Offense sp={40} melee="bite +8 (1d3-2 plus poison)" space={"2-1/2"} reach={"0"} />
+<Offense sp={40} melee="bite +8 (1d3-2 plus poison)" space="2-1/2" reach="0" />
 <SpellBlock id="1" psy={{"pe":5,"cl":6,"content":<><Link to="/spell/charm_person">charm person</Link> (1 PE, DC 13), <Link to="/spell/detect_thoughts">detect thoughts</Link> (2 PE, DC 13), <Link to="/spell/invisibility">invisibility</Link> (2 PE, self only)</>,"con":"+8"}} />
 <Stats atts={[6,16,13,13,13,14]} bab={3} cmb={4} cmd={12} feats={[["Skill Focus"," (Diplomacy)"],"Weapon Finesse"]} skills={{"diplo":{"b":12},"sm":{"b":4}}} racial="+4 Diplomacy" lang={["C"]} sq="hypnotic hood, painless bite" />
 <Ecology env="any temperate or warm" org="solitary" treasure={{"S":false}} />
@@ -337,7 +337,7 @@ const _qlippoth_augnagar = {title: "Augnagar (Qlippoth)", jsx: <><p><em>This eno
 <div className="reduce">
 <Info source={[["Bestiary 2",219]]} xp="38,400" ce huge outsider subs={["chaotic","evil","extraplanar","qlippoth"]} init={3} senSpell={["true seeing"]} dv={60} scent blindsight={30} pcp={22} />
 <Defense ac={[29,7,29]} mod="-1 Dex, +22 natural, -2 size" hp={[203,"14d10+126"]} fort="+18" ref="+10" will="+9" dr="10/lawful" immune="cold, poison, mind-affecting effects" resist="acid 10, electricity 10, fire 10" />
-<Offense sp={50} cl={50} fl={50} flP="average" melee="bite +23 (2d6+11 plus 1d8 bleed and rotting curse), 3 claws +23 (1d8+11 plus 1d8 bleed)" space={"15"} reach={"15"} reachP={"30 ft. with claws"} specAtt={[["horrific appearance DC 21","horrific appearance (DC 21)"]]} />
+<Offense sp={50} cl={50} fl={50} flP="average" melee="bite +23 (2d6+11 plus 1d8 bleed and rotting curse), 3 claws +23 (1d8+11 plus 1d8 bleed)" space="15" reach="15" reachP="30 ft. with claws" specAtt={[["horrific appearance DC 21","horrific appearance (DC 21)"]]} />
 <SpellBlock id="1" sla={{"cl":14,"con":"+18","content":[{"constant":true,"content":<Link to="/spell/true_seeing">true seeing</Link>},{"day":3,"content":<><Link to="/spell/dimension_door">dimension door</Link>, <Link to="/spell/protection_from_law">protection from law</Link></>},{"day":1,"content":<Link to="/spell/waves_of_exhaustion">waves of exhaustion</Link>}]}} />
 <Stats atts={[32,9,28,5,20,19]} bab={14} cmb={27} cmd={36} cmdP="44 vs. trip" feats={["Flyby Attack","Hover","Improved Initiative","Improved Vital Strike","Lightning Reflexes","Power Attack","Vital Strike"]} skills={{"climb":{"b":19},"per":{"b":22},"stl":{"b":24}}} racial="+16 Stealth" lang={["A",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} />
 <Ecology env={<>any (<Link to="/rule/the_abyss">the Abyss</Link>)</>} org="solitary" treasure={{"S":false}} />
@@ -357,7 +357,7 @@ const _qlippoth_behimiron = {title: "Behimiron (Qlippoth)", jsx: <><p><em>This m
 <div className="reduce">
 <Info source={[["Bestiary 6",224]]} xp="25,600" ce huge outsider subs={["chaotic","evil","extraplanar","qlippoth"]} init={9} dv={60} pcp={23} />
 <Defense ac={[28,13,23]} mod="+5 Dex, +15 natural, -2 size" hp={[189,"14d10+112"]} fort="+17" ref="+11" will="+15" def={[["spines","spines"]]} dr="10/lawful" immune="cold, mind-affecting effects, negative energy, poison" resist="acid 10, electricity 10, fire 10" sr="24" />
-<Offense sp={30} melee="bite +23 (4d6+11), slam +23 (2d8+16), 4 antennae +18 touch (rot)" space={"15"} reach={"15"} reachP={"20 ft. with slam"} specAtt={[["create spawn","create spawn"],["horrific appearance DC 20","horrific appearance (DC 20)"],["rot","rot"]]} />
+<Offense sp={30} melee="bite +23 (4d6+11), slam +23 (2d8+16), 4 antennae +18 touch (rot)" space="15" reach="15" reachP="20 ft. with slam" specAtt={[["create spawn","create spawn"],["horrific appearance DC 20","horrific appearance (DC 20)"],["rot","rot"]]} />
 <SpellBlock id="1" sla={{"cl":13,"con":"+16","content":[{"will":true,"content":<><Link to="/spell/ray_of_exhaustion">ray of exhaustion</Link> (DC 16)</>},{"day":3,"content":<><Link to="/spell/enervation">enervation</Link>, <Link to="/spell/hold_monster">hold monster</Link> (DC 18)</>},{"day":1,"content":<Link to="/spell/power_word_stun">power word stun</Link>}]}} />
 <Stats atts={[32,21,26,7,22,17]} bab={14} cmb={27} cmd={42} cmdP="can't be tripped" feats={["Blind-Fight","Combat Casting","Combat Reflexes","Improved Initiative","Lightning Reflexes","Power Attack","Vital Strike"]} skills={{"climb":{"b":28},"k":{"p":15},"per":{"b":23},"stl":{"b":14}}} lang={["A",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} />
 <Ecology env={<>any (<Link to="/rule/the_abyss">the Abyss</Link>)</>} org="solitary, pair, or cluster (3-6)" treasure={{"I":false}} />
@@ -378,7 +378,7 @@ const _qlippoth_cataboligne = {title: "Cataboligne (Qlippoth)", jsx: <><p><em>Sp
 <div className="reduce">
 <Info source={[["Bestiary 6",225]]} xp="76,800" ce gargantuan outsider subs={["chaotic","evil","extraplanar","qlippoth"]} init={9} dv={60} blindsight={120} pcp={26} />
 <Defense ac={[31,31,26]} mod="+5 Dex, +20 natural, -4 size" hp={[241,"21d10+126"]} fort="+18" ref="+17" will="+11" def={[["deflective carapace","deflective carapace"]]} dr="15/cold iron and lawful" immune="cold, mind-affecting effects, poison" resist="acid 10, electricity 10, fire 10" sr="27" />
-<Offense sp={50} melee="bite +26 (4d8+7 plus poison), 2 slams +31 (3d6+14/19-20)" space={"20"} reach={"20"} specAtt={[["demolish","demolish"],["devastating strike","devastating strike"],["disintegration beam","disintegration beam"],["horrific appearance DC 24","horrific appearance (DC 24)"]]} />
+<Offense sp={50} melee="bite +26 (4d8+7 plus poison), 2 slams +31 (3d6+14/19-20)" space="20" reach="20" specAtt={[["demolish","demolish"],["devastating strike","devastating strike"],["disintegration beam","disintegration beam"],["horrific appearance DC 24","horrific appearance (DC 24)"]]} />
 <Stats atts={[38,21,22,3,14,19]} bab={21} cmb={39} cmbP="+41 bull rush, +43 sunder" cmd={54} cmdP="56 vs. bull rush and sunder" feats={["Awesome Blow","Bleeding Critical","Combat Reflexes","Critical Focus","Greater Sunder","Improved Bull Rush",["Improved Critical"," (slam)"],"Improved Initiative","Improved Sunder","Iron Will","Power Attack"]} skills={{"per":{"b":26},"swim":{"b":38}}} lang={["A",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} />
 <Ecology env={<>any (<Link to="/rule/the_abyss">the Abyss</Link>)</>} org="solitary, pair, or siege (3-4)" treasure={{"I":false}} />
 </div>
@@ -399,9 +399,9 @@ const _qlippoth_cataboligne = {title: "Cataboligne (Qlippoth)", jsx: <><p><em>Sp
 const _qlippoth_chernobue = {title: "Chernobue (Qlippoth)", jsx: <><p><em>This slippery, writhing mass of tentacles and stalked mouths has one huge hideous eye and a fanged maw for a belly.</em></p>
 <Header full><span>Chernobue</span><span>CR 12</span></Header>
 <div className="reduce">
-<Info source={[["Bestiary 2",220]]} xp="19,200" ce large outsider subs={["chaotic","evil","extraplanar","qlippoth"]} init={4} dv={60} scent pcp={18} aura={"misfortune (30 ft.)"} />
+<Info source={[["Bestiary 2",220]]} xp="19,200" ce large outsider subs={["chaotic","evil","extraplanar","qlippoth"]} init={4} dv={60} scent pcp={18} aura="misfortune (30 ft.)" />
 <Defense ac={[27,13,23]} mod="+4 Dex, +14 natural, -1 size" hp={[150,"12d10+84"]} fort="+15" ref="+10" will="+11" dr="10/lawful" immune="cold, poison, mind-affecting effects" resist="acid 10, electricity 10, fire 10" sr="23" weak={["light vulnerability"]} />
-<Offense sp={40} melee="2 slams +19 (1d6+8/19-20 plus 1 Con damage), bite +19 (2d6+8 plus poison), 2 tentacles +14 (1d6+4)" space={"10"} reach={"5"} reachP={"10 ft. with slams and tentacles"} specAtt={[["horrific appearance DC 20","horrific appearance (DC 20)"]]} />
+<Offense sp={40} melee="2 slams +19 (1d6+8/19-20 plus 1 Con damage), bite +19 (2d6+8 plus poison), 2 tentacles +14 (1d6+4)" space="10" reach="5" reachP="10 ft. with slams and tentacles" specAtt={[["horrific appearance DC 20","horrific appearance (DC 20)"]]} />
 <SpellBlock id="1" sla={{"cl":12,"con":"+16","content":[{"constant":true,"content":<><Link to="/spell/air_walk">air walk</Link>, <Link to="/spell/arcane_sight">arcane sight</Link></>},{"will":true,"content":<><Link to="/spell/chaos_hammer">chaos hammer</Link> (DC 18), <Link to="/spell/darkness">darkness</Link></>},{"day":3,"content":<><Link to="/spell/confusion">confusion</Link> (DC 18), <Link to="/feat/quickened">quickened</Link> <em>darkness</em>, <Link to="/spell/dispel_magic">dispel magic</Link>, <Link to="/spell/protection_from_law">protection from law</Link></>},{"day":1,"content":<><Link to="/spell/plane_shift">plane shift</Link> (DC 21)</>}]}} />
 <Stats atts={[26,18,24,13,17,19]} bab={12} cmb={21} cmd={35} cmdP="39 vs. trip" feats={["Blind-Fight",["Improved Critical"," (slam)"],"Lightning Reflexes","Power Attack",["Quicken Spell-Like Ability"," (darkness)"],"Vital Strike"]} skills={{"acro":{"b":19,"x":"+23 jump"},"ea":{"b":19},"intm":{"b":19},"k":{"p":16},"per":{"b":18},"sm":{"b":18},"stl":{"b":15}}} lang={["A",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} />
 <Ecology env={<>any (<Link to="/rule/the_abyss">the Abyss</Link>)</>} org="solitary, pair, or gang (3-6)" treasure={{"S":false}} />
@@ -421,7 +421,7 @@ const _qlippoth_cythnigot = {title: "Cythnigot (Qlippoth)", jsx: <><p><em>This s
 <div className="reduce">
 <Info source={[["Bestiary 2",221]]} xp="600" ce tiny outsider subs={["chaotic","evil","extraplanar","qlippoth"]} init={1} senSpell={["detect law","detect magic"]} dv={60} pcp={5} />
 <Defense ac={[14,13,13]} mod="+1 Dex, +1 natural, +2 size" hp={[16,"3d10"]} fort="+1" ref="+6" will="+2" dr="5/cold iron or lawful" immune="cold, poison, mind-affecting effects" resist="acid 10, electricity 10, fire 10" />
-<Offense sp={40} fl={60} flP="good" melee="bite +6 (1d6+1 plus spores)" space={"2-1/2"} reach={"0"} specAtt={[["horrific appearance 10 feet DC 9","horrific appearance (10 feet, DC 9)"]]} />
+<Offense sp={40} fl={60} flP="good" melee="bite +6 (1d6+1 plus spores)" space="2-1/2" reach="0" specAtt={[["horrific appearance 10 feet DC 9","horrific appearance (10 feet, DC 9)"]]} />
 <SpellBlock id="1" sla={{"cl":6,"con":"+4","content":[{"constant":true,"content":<><Link to="/spell/detect_law">detect law</Link>, <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/fly">fly</Link></>},{"day":1,"content":<><Link to="/spell/soften_earth_and_stone">soften earth and stone</Link>, <Link to="/spell/warp_wood">warp wood</Link></>},{"per":"week","content":<><Link to="/spell/commune">commune</Link> (six questions)</>}]}} />
 <Stats atts={[12,12,11,11,8,7]} bab={3} cmb={2} cmd={13} cmdP="21 vs. trip" feats={["Lightning Reflexes","Weapon Finesse"]} skills={{"acro":{"b":7,"x":"+11 jump"},"fly":{"b":15},"k":{"n":6},"per":{"b":5},"stl":{"b":15}}} lang={["A",";",[<><Link to="/umr/telepathy">telepathy</Link> (touch)</>]]} />
 <Ecology env={<>any (<Link to="/rule/the_abyss">the Abyss</Link>)</>} org="solitary or bloom (2-12)" treasure={{"S":false}} />
@@ -490,7 +490,7 @@ const _qlippoth_gorgoros = {title: "Gorgoros (Qlippoth)", jsx: <><p><em>Numerous
 <div className="reduce">
 <Info source={[["Bestiary 6",228]]} xp="6,400" ce large outsider subs={["chaotic","evil","extraplanar","qlippoth"]} init={8} dv={60} pcp={20} />
 <Defense ac={[23,13,19]} mod="+4 Dex, +10 natural, -1 size" hp={[114,"12d10+48"]} fort="+12" ref="+12" will="+11" def={[["freedom of movement",<em>freedom of movement</em>]]} dr="10/cold iron or lawful" immune="cold, mind-affecting effects, poison" resist="acid 10, electricity 10, fire 10" sr="20" />
-<Offense sp={40} br={40} spExtra="earth glide" melee="bite +21 (4d6+15)" space={"10"} reach={"10"} specAtt={[["feast of stone","feast of stone"],["gaze","gaze"],["horrific appearance DC 22","horrific appearance (DC 22)"],["writhing tails","writhing tails"]]} />
+<Offense sp={40} br={40} spExtra="earth glide" melee="bite +21 (4d6+15)" space="10" reach="10" specAtt={[["feast of stone","feast of stone"],["gaze","gaze"],["horrific appearance DC 22","horrific appearance (DC 22)"],["writhing tails","writhing tails"]]} />
 <SpellBlock id="1" sla={{"cl":9,"con":"+13","content":[{"constant":true,"content":<Link to="/spell/freedom_of_movement">freedom of movement</Link>},{"will":true,"content":<><Link to="/spell/soften_earth_and_stone">soften earth and stone</Link>, <Link to="/spell/stone_shape">stone shape</Link></>},{"day":1,"content":<><Link to="/spell/transmute_rock_to_mud">transmute rock to mud</Link>, <Link to="/spell/wall_of_stone">wall of stone</Link></>}]}} />
 <Stats atts={[30,19,18,15,20,19]} bab={12} cmb={23} cmd={37} cmdP="can't be tripped" feats={[["Ability Focus"," (horrific appearance)"],"Combat Reflexes","Improved Initiative","Iron Will","Power Attack","Vital Strike"]} skills={{"acro":{"b":19},"bluff":{"b":19},"climb":{"b":19}}} lang={["A","Ak",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} />
 <Ecology env={<>any (<Link to="/rule/the_abyss">the Abyss</Link>)</>} org="solitary, pair, or circle (3-7)" treasure={{"S":false}} />
@@ -530,7 +530,7 @@ const _qlippoth_iathavos = {title: "Iathavos (Qlippoth)", jsx: <><p><em>This imm
 <div className="reduce">
 <Info source={[["Bestiary 2",222]]} xp="307,200" ce colossal outsider subs={["chaotic","evil","extraplanar","qlippoth"]} init={-1} dv={60} llv aav pcp={37} aura={<><Link to="/umr/stench">stench</Link> (DC 32, 10 rounds), cloak of chaos (DC 26)</>} />
 <Defense ac={[37,7,37]} mod="+4 deflection, -1 Dex, +2 insight, +30 natural, -8 size" hp={[372,"24d10+240"]} fh="15" fort="+28" ref="+15" will="+28" def={[["ichor","ichor"],["never surprised or flat-footed","never surprised or flat-footed"]]} dr="15/cold iron and lawful" immune="cold, poison, mind-affecting effects" resist="acid 30, electricity 10, fire 10" sr="31" />
-<Offense sp={20} fl={50} flP="perfect" melee={<>2 claws +31 (4d6+15/19-20 plus <Link to="/umr/grab">grab</Link>), 4 wings +26 (2d8+7)</>} space={"30"} reach={"30"} specAtt={[["abyssal transformation","abyssal transformation"],["entropic beams","entropic beams"],["horrific appearance DC 30","horrific appearance (DC 30)"]]} />
+<Offense sp={20} fl={50} flP="perfect" melee={<>2 claws +31 (4d6+15/19-20 plus <Link to="/umr/grab">grab</Link>), 4 wings +26 (2d8+7)</>} space="30" reach="30" specAtt={[["abyssal transformation","abyssal transformation"],["entropic beams","entropic beams"],["horrific appearance DC 30","horrific appearance (DC 30)"]]} />
 <SpellBlock id="1" sla={{"cl":20,"con":"+28","content":[{"constant":true,"content":<><Link to="/spell/cloak_of_chaos">cloak of chaos</Link> (DC 26), <Link to="/spell/foresight">foresight</Link>, <Link to="/spell/freedom_of_movement">freedom of movement</Link>, <Link to="/spell/true_seeing">true seeing</Link></>},{"will":true,"content":<><Link to="/spell/dimension_door">dimension door</Link>, <Link to="/spell/dispel_law">dispel law</Link>, <Link to="/spell/greater_dispel_magic">greater dispel magic</Link>, <Link to="/spell/magic_missile">magic missile</Link>, <Link to="/spell/plane_shift">plane shift</Link> (DC 25), <Link to="/spell/wind_walk">wind walk</Link>, <Link to="/spell/word_of_recall">word of recall</Link></>},{"day":3,"content":<><Link to="/spell/black_tentacles">black tentacles</Link>, <Link to="/spell/dimensional_lock">dimensional lock</Link>, <Link to="/spell/horrid_wilting">horrid wilting</Link> (DC 26), <Link to="/spell/insanity">insanity</Link> (DC 25), <Link to="/spell/word_of_chaos">word of chaos</Link> (DC 25)</>},{"day":1,"content":<><Link to="/feat/quickened">quickened</Link> <em>heal</em>, <Link to="/spell/imprisonment">imprisonment</Link> (DC 27)</>}]}} />
 <Stats atts={[40,8,31,29,30,27]} bab={24} cmb={47} cmbP="+51 grapple" cmd={62} cmdP="can't be tripped" feats={["Awesome Blow","Critical Focus","Greater Vital Strike","Improved Bull Rush",["Improved Critical"," (claw)"],"Improved Vital Strike","Lightning Reflexes","Power Attack",["Quicken Spell-Like Ability"," (heal)"],"Spell Penetration","Staggering Critical","Vital Strike"]} skills={{"bluff":{"b":35},"ea":{"b":23},"fly":{"b":26},"intm":{"b":35},"k":{"g":33,"a":36,"p":36},"per":{"b":37},"sm":{"b":37},"spc":{"b":36},"stl":{"b":10},"umd":{"b":35}}} lang={["A",";",[<><Link to="/umr/telepathy">telepathy</Link> 300 ft.</>]]} />
 <Ecology env={<>any (<Link to="/rule/the_abyss">the Abyss</Link>)</>} org="solitary" treasure={{"D":false}} />
@@ -574,7 +574,7 @@ const _qlippoth_shoggti = {title: "Shoggti (Qlippoth)", jsx: <><p><em>This pale 
 <div className="reduce">
 <Info source={[["Bestiary 2",225]]} xp="3,200" ce large outsider subs={["chaotic","evil","extraplanar","qlippoth"]} init={7} dv={60} pcp={18} />
 <Defense ac={[21,12,18]} mod="+3 Dex, +9 natural, -1 size" hp={[80,"7d10+42"]} fort="+11" ref="+5" will="+9" unc dr="10/cold iron or lawful" immune="cold, poison, mind-affecting effects" resist="acid 10, electricity 10, fire 10" />
-<Offense sp={30} melee={<>bite +12 (1d8+6), 4 tentacles +8 (1d4+3 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"10"} specAtt={[["braincloud","braincloud"],["horrific appearance DC 15","horrific appearance (DC 15)"]]} constrict="1d4+6" />
+<Offense sp={30} melee={<>bite +12 (1d8+6), 4 tentacles +8 (1d4+3 plus <Link to="/umr/grab">grab</Link>)</>} space="10" reach="10" specAtt={[["braincloud","braincloud"],["horrific appearance DC 15","horrific appearance (DC 15)"]]} constrict="1d4+6" />
 <SpellBlock id="1" sla={{"cl":7,"con":"+9","content":[{"constant":true,"content":<Link to="/spell/tongues">tongues</Link>},{"will":true,"content":<><Link to="/spell/command">command</Link> (DC 13)</>},{"day":3,"content":<><Link to="/spell/charm_person">charm person</Link> (DC 13), <Link to="/spell/protection_from_law">protection from law</Link></>},{"day":1,"content":<><Link to="/spell/charm_monster">charm monster</Link> (DC 16), <Link to="/spell/dimension_door">dimension door</Link></>}]}} />
 <Stats atts={[22,16,23,12,19,15]} bab={7} cmb={14} cmbP="+18 grapple" cmd={27} cmdP="31 vs. trip" feats={["Combat Reflexes","Improved Initiative",["Skill Focus"," (Use Magic Device)"],["Weapon Focus"," (tentacles)"]]} skills={{"ea":{"b":13},"intm":{"b":16},"k":{"p":11},"per":{"b":18},"sm":{"b":14},"stl":{"b":9},"umd":{"b":19}}} racial="+4 Intimidate, +4 Perception, +4 Use Magic Device" lang={["A",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} />
 <Ecology env={<>any (<Link to="/rule/the_abyss">the Abyss</Link>)</>} org="solitary, pair, or slaver band (3-10 plus 6-12 slaves of various races)" treasure={{"S":false}} />
@@ -612,9 +612,9 @@ const _qlippoth_thognorok = {title: "Thognorok (Qlippoth)", jsx: <><p><em>This o
 const _qlippoth_thulgant = {title: "Thulgant (Qlippoth)", jsx: <><p><em>This monster has ten spidery legs, a head writhing with dripping tentacles above a clutch of red eyes, and three whipping stingers.</em></p>
 <Header full><span>Thulgant</span><span>CR 18</span></Header>
 <div className="reduce">
-<Info source={[["Bestiary 2",226]]} xp="153,600" ce large outsider subs={["chaotic","evil","extraplanar","qlippoth"]} init={12} senSpell={["true seeing"]} dv={60} pcp={31} aura={"cloak of chaos (DC 25)"} />
+<Info source={[["Bestiary 2",226]]} xp="153,600" ce large outsider subs={["chaotic","evil","extraplanar","qlippoth"]} init={12} senSpell={["true seeing"]} dv={60} pcp={31} aura="cloak of chaos (DC 25)" />
 <Defense ac={[33,25,21]} mod="+4 deflection, +12 Dex, +8 natural, -1 size" hp={[290,"20d10+180"]} fh="10" fort="+25" ref="+30" will="+18" def={[["displacement","displacement"],["freedom of movement",<em>freedom of movement</em>]]} eva dr="15/cold iron and lawful" immune="acid, cold, poison, mind-affecting effects" resist="electricity 10, fire 10" sr="25 vs. lawful spells and creatures" />
-<Offense sp={40} cl={40} fl={60} flP="good" melee="3 stings +27 (1d6+8/19-20 plus ability drain), 5 tentacles +22 (1d6+4 plus 2d6 acid)" space={"10"} reach={"10"} specAtt={[["horrific appearance DC 27","horrific appearance (DC 27)"],["savage stingers","savage stingers"]]} />
+<Offense sp={40} cl={40} fl={60} flP="good" melee="3 stings +27 (1d6+8/19-20 plus ability drain), 5 tentacles +22 (1d6+4 plus 2d6 acid)" space="10" reach="10" specAtt={[["horrific appearance DC 27","horrific appearance (DC 27)"],["savage stingers","savage stingers"]]} />
 <SpellBlock id="1" sla={{"cl":18,"con":"+25","content":[{"constant":true,"content":<><Link to="/spell/cloak_of_chaos">cloak of chaos</Link> (DC 25), <Link to="/spell/displacement">displacement</Link>, <Link to="/spell/freedom_of_movement">freedom of movement</Link>, <Link to="/spell/true_seeing">true seeing</Link></>},{"will":true,"content":<><Link to="/spell/dimension_door">dimension door</Link>, <Link to="/spell/greater_dispel_magic">greater dispel magic</Link>, <Link to="/spell/telekinesis">telekinesis</Link> (DC 22)</>},{"day":3,"content":<><Link to="/feat/quickened">quickened</Link> <em>dimension door</em>, <Link to="/spell/flesh_to_stone">flesh to stone</Link> (DC 23), <Link to="/spell/word_of_chaos">word of chaos</Link> (DC 24)</>},{"day":1,"content":<><Link to="/spell/binding">binding</Link> (DC 25), <Link to="/spell/plane_shift">plane shift</Link> (DC 24), <Link to="/spell/telekinetic_sphere">telekinetic sphere</Link> (DC 25), <Link to="/spell/temporal_stasis">temporal stasis</Link> (DC 25)</>}]}} />
 <Stats atts={[26,34,29,24,27,25]} bab={20} cmb={29} cmd={55} cmdP="71 vs. trip" feats={["Combat Expertise","Combat Reflexes","Critical Focus","Greater Vital Strike",["Improved Critical"," (sting)"],"Improved Vital Strike","Lightning Reflexes",["Quicken Spell-Like Ability"," (dimension door)"],"Staggering Critical","Vital Strike"]} skills={{"acro":{"b":35,"x":"+39 jump"},"bluff":{"b":30},"climb":{"b":36},"intm":{"b":27},"k":{"h":30,"a":27},"per":{"b":31},"sm":{"b":31},"spc":{"b":27},"stl":{"b":31},"umd":{"b":30}}} lang={["A",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} sq="demon hunter" />
 <Ecology env={<>any (<Link to="/rule/the_abyss">the Abyss</Link>)</>} org="solitary, pair, or patrol (3-4)" treasure={{"D":false}} />
@@ -653,7 +653,7 @@ const _qlippoth_vexenion = {title: "Vexenion (Qlippoth)", jsx: <><p><em>This blo
 <div className="reduce">
 <Info source={[["Pathfinder #134: It Came from Hollow Mountain",86]]} xp="2,400" ce large outsider subs={["chaotic","qlippoth","evil","extraplanar"]} init={8} senSpell={["see invisibility"]} dv={60} pcp={12} />
 <Defense ac={[19,13,15]} mod="+4 Dex, +6 natural, -1 size" hp={[76,"8d10+32"]} fort="+10" ref="+6" will="+9" amorph aav dr="5/cold iron or lawful" immune="acid, cold, mind-affecting effects, poison" resist="electricity 10, fire 10" sr="17" />
-<Offense sp={30} cl={30} melee={<>4 tentacles +11 (1d6+3 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"10"} specAtt={[["absorption 2d6 acid damage AC 13 7 hp","absorption (2d6 acid damage, AC 13, 7 hp)"],["horrific appearance DC 17","horrific appearance (DC 17)"]]} />
+<Offense sp={30} cl={30} melee={<>4 tentacles +11 (1d6+3 plus <Link to="/umr/grab">grab</Link>)</>} space="10" reach="10" specAtt={[["absorption 2d6 acid damage AC 13 7 hp","absorption (2d6 acid damage, AC 13, 7 hp)"],["horrific appearance DC 17","horrific appearance (DC 17)"]]} />
 <SpellBlock id="1" sla={{"cl":6,"con":"+9","content":[{"constant":true,"content":<Link to="/spell/see_invisibility">see invisibility</Link>},{"day":3,"content":<Link to="/spell/acid_arrow">acid arrow</Link>},{"day":1,"content":<><Link to="/spell/slow">slow</Link> (DC 16)</>}]}} />
 <Stats atts={[16,18,19,11,12,17]} bab={8} cmb={12} cmbP="+16 grapple" cmd={26} cmdP="can't be tripped" feats={["Improved Initiative","Iron Will","Vital Strike",["Weapon Focus"," (tentacles)"]]} skills={{"acro":{"b":15},"climb":{"b":22},"per":{"b":12}}} lang={["AX",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} sq={<><Link to="/umr/compression">compression</Link>, stony form, tentacular versatility</>} />
 <Ecology env={<>any (<Link to="/rule/the_abyss">the Abyss</Link>)</>} org="solitary, pair, or hunger (3-6)" treasure={{"S":false}} />
@@ -697,7 +697,7 @@ const _rukh = {title: "Rukh", jsx: <><p><em>This gigantic two-headed vulture has
 <div className="reduce">
 <Info source={[["Bestiary 4",228],["Pathfinder #21: The Jackal's Price",84]]} xp="9,600" n gargantuan magicalBeast init={2} llv pcp={32} />
 <Defense ac={[23,8,21]} mod="+2 Dex, +15 natural, -4 size" hp={[147,"14d10+70"]} fort="+14" ref="+11" will="+7" />
-<Offense sp={40} fl={80} flP="average" melee={<>2 bites +23 (2d8+12 plus <Link to="/umr/grab">grab</Link>), 2 talons +23 (2d6+12)</>} space={"20"} reach={"15"} swallow="2d8+12 bludgeoning and 1d6 acid damage, AC 17, 14 hp" />
+<Offense sp={40} fl={80} flP="average" melee={<>2 bites +23 (2d8+12 plus <Link to="/umr/grab">grab</Link>), 2 talons +23 (2d6+12)</>} space="20" reach="15" swallow="2d8+12 bludgeoning and 1d6 acid damage, AC 17, 14 hp" />
 <Stats atts={[34,15,20,2,13,11]} bab={14} cmb={30} cmbP="+34 grapple" cmd={38} feats={["Flyby Attack","Iron Will",["Skill Focus"," (Perception)"],"Snatch",["Weapon Focus"," (bite)"],"Weapon Focus (talon)","Wingover"]} skills={{"fly":{"b":-4},"per":{"b":32}}} racial="+8 Perception" />
 <Ecology env="warm deserts or mountains" org="solitary, pair, or nest (2 adults and 1d4 juveniles)" treasure={{"I":false}} />
 </div>
@@ -709,7 +709,7 @@ const _rukh_juvenile_rukh = {title: "Juvenile Rukh", jsx: <><Header full><span>J
 <div className="reduce">
 <Info source={[["Bestiary 4",228],["Pathfinder #21: The Jackal's Price",84]]} xp="800" n large magicalBeast init={2} llv pcp={17} />
 <Defense ac={[15,11,13]} mod="+2 Dex, +4 natural, -1 size" hp={[37,"5d10+10"]} fort="+6" ref="+6" will="+2" />
-<Offense sp={20} fl={40} flP="poor" melee="2 bites +7 (1d8+2), 2 talons +6 (1d6+2)" space={"10"} reach={"5"} />
+<Offense sp={20} fl={40} flP="poor" melee="2 bites +7 (1d8+2), 2 talons +6 (1d6+2)" space="10" reach="5" />
 <Stats atts={[14,15,14,2,13,11]} bab={5} cmb={8} cmd={20} feats={["Flyby Attack","Snatch",["Weapon Focus"," (bite)"]]} skills={{"fly":{"b":-4},"per":{"b":17}}} racial="+8 Perception" />
 <Ecology env="warm mountains or deserts" org="pair or flock (3d4)" treasure={{"I":false}} />
 </div>
@@ -746,7 +746,7 @@ const _rusalka = {title: "Rusalka", jsx: <><p><em>This beguiling female figure i
 <div className="reduce">
 <Info source={[["Bestiary 3",232]]} xp="19,200" ne medium fey subs={["aquatic"]} init={10} llv pcp={22} />
 <Defense ac={[25,17,18]} mod="+6 Dex, +1 dodge, +8 natural" hp={[150,"20d6+80"]} fort="+12" ref="+18" will="+15" dr="15/cold iron" immune="fire" sr="23" />
-<Offense sp={30} sw={60} melee={<>staggering touch +16 (stagger), 4 tresses +16 (2d6+5 plus <Link to="/umr/grab">grab</Link>)</>} space={"5"} reach={"5"} reachP={"15 ft. with tresses"} specAtt={[["beckoning call","beckoning call"],["tresses","tresses"]]} constrict="2d6+7" />
+<Offense sp={30} sw={60} melee={<>staggering touch +16 (stagger), 4 tresses +16 (2d6+5 plus <Link to="/umr/grab">grab</Link>)</>} space="5" reach="5" reachP="15 ft. with tresses" specAtt={[["beckoning call","beckoning call"],["tresses","tresses"]]} constrict="2d6+7" />
 <SpellBlock id="1" sla={{"cl":20,"con":"+27","content":[{"constant":true,"content":<><Link to="/spell/blur">blur</Link>, <Link to="/spell/water_walk">water walk</Link></>},{"will":true,"content":<><Link to="/spell/entangle">entangle</Link> (DC 18), <Link to="/spell/fog_cloud">fog cloud</Link>, <Link to="/spell/invisibility">invisibility</Link></>},{"day":3,"content":<><Link to="/feat/quickened">quickened</Link> <em>charm monster</em> (DC 21), <Link to="/spell/control_water">control water</Link></>},{"day":1,"content":<><Link to="/spell/summon_natures_ally_vi">summon nature's ally VI</Link> (water elementals only)</>}]}} />
 <Stats atts={[20,23,19,12,13,24]} bab={10} cmb={16} cmbP="+23 tresses, +27 grapple with tresses" cmd={32} feats={["Agile Maneuvers","Combat Reflexes","Dodge","Great Fortitude","Improved Initiative","Iron Will",["Quicken Spell-Like Ability"," (charm monster)"],["Skill Focus"," (Perception)"],"Skill Focus (Stealth)","Weapon Finesse"]} skills={{"acro":{"b":14},"bluff":{"b":24},"diplo":{"b":15},"perf":{"of":"dance","b":14},"sm":{"b":15},"spc":{"b":18},"stl":{"b":27},"swim":{"b":31}}} lang={["C","S"]} sq={<Link to="/umr/amphibious">amphibious</Link>} />
 <Ecology env="any water" org="solitary, pair, or eddy (3-6)" treasure={{"S":false}} />
@@ -837,7 +837,7 @@ const _sagari = {title: "Sagari", jsx: <><p><em>This unsettling creature has the
 <div className="reduce">
 <Info source={[["Bestiary 3",234]]} xp="200" ne tiny aberration init={2} dv={60} pcp={4} />
 <Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[7,"1d8+3"]} fort="+3" ref="+4" will="+2" />
-<Offense sp={10} fl={30} flP="perfect" melee="bite +1 (1d4-1), tentacle +1 (1d4-1)" space={"2-1/2"} reach={"2-1/2"} specAtt={[["baleful whinny","baleful whinny"],["lashing strike","lashing strike"]]} />
+<Offense sp={10} fl={30} flP="perfect" melee="bite +1 (1d4-1), tentacle +1 (1d4-1)" space="2-1/2" reach="2-1/2" specAtt={[["baleful whinny","baleful whinny"],["lashing strike","lashing strike"]]} />
 <Stats atts={[8,15,17,6,11,14]} bab={0} cmb={0} cmd={9} cmdP="can't be tripped" feats={["Lightning Reflexes"]} skills={{"fly":{"b":14},"per":{"b":4},"stl":{"b":14}}} lang={["Ak"]} sq="flight" />
 <Ecology env="any forests" org="solitary, pair, herd (3-8), or harras (9-16)" treasure={{"X":false}} />
 </div>
@@ -912,7 +912,7 @@ const _sahkil_kimenhul = {title: "Kimenhul (Sahkil)", jsx: <><p><em>Three monstr
 <div className="reduce">
 <Info source={[["Bestiary 5",214]]} xp="307,200" ne huge outsider subs={["evil","extraplanar","sahkil"]} init={9} senSpell={["true seeing"]} dv={60} llv pcp={37} />
 <Defense ac={[37,17,28]} mod="+9 Dex, +20 natural, -2 size" hp={[362,"25d10+225"]} fh="20" fort="+23" ref="+17" will="+23; +8 vs. mind-affecting effects" def={[["mind blank",<em>mind blank</em>]]} aav dr="15/good" immune="death effects, disease, fear effects, poison" resist="cold 20, electricity 20, sonic 20" sr="31" />
-<Offense sp={50} cl={50} melee={<>3 bites +35 (2d8+11 plus <Link to="/umr/grab">grab</Link>), 4 claws +35 (1d8+11/19-20 plus 1d3 Charisma bleed)</>} space={"15"} reach={"15"} specAtt={[["eternal fear","eternal fear"],["look of fear 120 ft DC 32","look of fear (120 ft., DC 32)"],["snatch between","snatch between"],["spirit touch","spirit touch"],["unsettled mind","unsettled mind"]]} bleed="1d3 Charisma" trample="2d8+16, DC 33" />
+<Offense sp={50} cl={50} melee={<>3 bites +35 (2d8+11 plus <Link to="/umr/grab">grab</Link>), 4 claws +35 (1d8+11/19-20 plus 1d3 Charisma bleed)</>} space="15" reach="15" specAtt={[["eternal fear","eternal fear"],["look of fear 120 ft DC 32","look of fear (120 ft., DC 32)"],["snatch between","snatch between"],["spirit touch","spirit touch"],["unsettled mind","unsettled mind"]]} bleed="1d3 Charisma" trample="2d8+16, DC 33" />
 <SpellBlock id="1" sla={{"cl":20,"con":"+28","content":[{"constant":true,"content":<><Link to="/spell/detect_thoughts">detect thoughts</Link> (DC 20), <Link to="/spell/mind_blank">mind blank</Link>, <Link to="/spell/true_seeing">true seeing</Link></>},{"will":true,"content":<><Link to="/spell/air_walk">air walk</Link>, <Link to="/spell/enervation">enervation</Link>, <Link to="/spell/greater_teleport">greater teleport</Link> (self plus 50 lbs. of objects only), <Link to="/spell/magic_circle_against_good">magic circle against good</Link>, <Link to="/spell/tongues">tongues</Link></>},{"day":3,"content":<><Link to="/spell/blasphemy">blasphemy</Link> (DC 25), <Link to="/spell/crushing_despair">crushing despair</Link> (DC 24), <Link to="/spell/dispel_magic">dispel magic</Link>, <Link to="/spell/fear">fear</Link> (DC 24), <Link to="/spell/malicious_spite">malicious spite</Link> (DC 24), <Link to="/spell/suggestion">suggestion</Link> (DC 21)</>},{"day":1,"content":<><Link to="/spell/antipathy">antipathy</Link> (DC 28), <Link to="/spell/eyebite">eyebite</Link> (DC 26), <Link to="/umr/summon">summon</Link> (level 9; any one CR 19 or lower sahkil 100%), <Link to="/spell/symbol_of_fear">symbol of fear</Link> (DC 26), <Link to="/spell/weird">weird</Link> (DC 29)</>}]}} />
 <Stats atts={[33,29,29,22,28,26]} bab={25} cmb={38} cmbP="+42 trip" cmd={57} cmdP="61 vs. trip" feats={["Combat Expertise","Combat Reflexes","Critical Focus","Dazing Assault","Dazzling Display","Greater Trip",["Improved Critical"," (claw)"],"Improved Trip","Power Attack","Staggering Critical","Stunning Critical",["Weapon Focus"," (bite)"],"Weapon Focus (claw)"]} skills={{"acro":{"b":26},"bluff":{"b":36},"climb":{"b":37},"diplo":{"b":36},"sm":{"b":37},"spc":{"b":31},"stl":{"b":29},"umd":{"b":33}}} lang={["A","Ce","I",";",[<><Link to="/umr/telepathy">telepathy</Link> 300 ft.</>]]} sq="easy to call, emotional focus, skip between" />
 <Ecology env={<>any (<Link to="/rule/ethereal_plane">Ethereal Plane</Link>)</>} org="solitary" treasure={{"S":false}} />
@@ -980,7 +980,7 @@ const _sahkil_qolok = {title: "Qolok (Sahkil)", jsx: <><p><em>Terrible jaws ring
 <div className="reduce">
 <Info source={[["Bestiary 5",217]]} xp="76,800" ne large outsider subs={["evil","extraplanar","sahkil"]} init={8} senSpell={["true seeing"]} dv={60} llv pcp={27} />
 <Defense ac={[31,13,27]} mod="+4 Dex, +18 natural, -1 size" hp={[243,"18d10+144"]} fh="5" fort="+16" ref="+17" will="+17; +8 vs. mind-affecting effects" dr="10/good" immune="death effects, disease, divinations, fear effects, poison" resist="cold 10, electricity 10, sonic 10" sr="27" />
-<Offense sp={40} melee={<>2 slams +26 (1d8+9), tongue +26 (2d6+9 plus <Link to="/umr/grab">grab</Link>), bite +26 (1d8+9), 2 claws +26 (1d6+9)</>} space={"10"} reach={"10"} reachP={"15 ft. with tongue, 5 ft. with bite"} specAtt={[["instill phobia","instill phobia"],["look of fear 30 ft DC 26","look of fear (30 ft., DC 26)"],["spirit touch","spirit touch"],["tongue","tongue"]]} swallow="16d6 bludgeoning damage and frightened, AC 19, 24 hp" />
+<Offense sp={40} melee={<>2 slams +26 (1d8+9), tongue +26 (2d6+9 plus <Link to="/umr/grab">grab</Link>), bite +26 (1d8+9), 2 claws +26 (1d6+9)</>} space="10" reach="10" reachP="15 ft. with tongue, 5 ft. with bite" specAtt={[["instill phobia","instill phobia"],["look of fear 30 ft DC 26","look of fear (30 ft., DC 26)"],["spirit touch","spirit touch"],["tongue","tongue"]]} swallow="16d6 bludgeoning damage and frightened, AC 19, 24 hp" />
 <SpellBlock id="1" sla={{"cl":18,"con":"+23","content":[{"constant":true,"content":<><Link to="/spell/mind_blank">mind blank</Link>, <Link to="/spell/true_seeing">true seeing</Link></>},{"will":true,"content":<><Link to="/spell/air_walk">air walk</Link>, <Link to="/spell/calm_emotions">calm emotions</Link> (DC 19), <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/detect_good">detect good</Link>, <Link to="/spell/greater_dispel_magic">greater dispel magic</Link>, <Link to="/spell/greater_teleport">greater teleport</Link> (self plus 50 lbs. of objects only), <Link to="/spell/magic_circle_against_good">magic circle against good</Link>, <Link to="/spell/suggestion">suggestion</Link> (DC 18)</>},{"day":3,"content":<><Link to="/spell/blink">blink</Link>, <Link to="/spell/deeper_darkness">deeper darkness</Link>, <Link to="/spell/disintegrate">disintegrate</Link> (DC 21), <Link to="/spell/mass_suggestion">mass suggestion</Link> (DC 21), <Link to="/spell/nondetection">nondetection</Link></>},{"day":1,"content":<><em>mind blank</em>, <Link to="/spell/plane_shift">plane shift</Link> (DC 22), <Link to="/umr/summon">summon</Link> (level 7; 1d3 pakalchis 40%)</>}]}} />
 <Stats atts={[28,19,27,16,22,21]} bab={18} cmb={28} cmbP="+32 trip" cmd={42} cmdP="44 vs. trip" feats={["Combat Expertise","Combat Reflexes","Great Fortitude","Greater Trip","Improved Initiative","Improved Trip","Intimidating Prowess","Lightning Reflexes","Power Attack"]} skills={{"bluff":{"b":26},"diplo":{"b":26},"sm":{"b":27},"spc":{"b":15},"stl":{"b":21},"umd":{"b":17}}} lang={["A","Ce","I",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} sq="easy to call, emotional focus, skip between" />
 <Ecology env={<>any (<Link to="/rule/ethereal_plane">Ethereal Plane</Link>)</>} org="solitary or terror (2-6)" treasure={{"S":false}} />
@@ -1017,7 +1017,7 @@ const _sahkil_ximtal = {title: "Ximtal (Sahkil)", jsx: <><p><em>A rat's head spr
 <div className="reduce">
 <Info source={[["Bestiary 6",244]]} xp="102,400" ne large outsider subs={["evil","extraplanar","sahkil"]} init={11} senSpell={["detect good","detect magic","true seeing"]} dv={60} sid pcp={27} />
 <Defense ac={[33,17,25]} mod="+7 Dex, +1 dodge, +16 natural, -1 size" hp={[279,"18d10+180"]} fort="+21" ref="+13" will="+17" dr="15/good" immune="death effects, disease, fear effects, poison" resist="cold 15, electricity 15, sonic 15" sr="28" />
-<Offense sp={50} cl={20} fl={60} flP="good" melee={<>bite +31 (2d8+14 plus disease), 2 claws +31 (3d6+14/19-20 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"10"} reachP={"15 ft. with claws"} specAtt={[["disease","disease"],["isolation","isolation"],["look of fear 60 ft DC 25","look of fear (60 ft., DC 25)"],["miasma","miasma"]]} constrict="3d6+14" />
+<Offense sp={50} cl={20} fl={60} flP="good" melee={<>bite +31 (2d8+14 plus disease), 2 claws +31 (3d6+14/19-20 plus <Link to="/umr/grab">grab</Link>)</>} space="10" reach="10" reachP="15 ft. with claws" specAtt={[["disease","disease"],["isolation","isolation"],["look of fear 60 ft DC 25","look of fear (60 ft., DC 25)"],["miasma","miasma"]]} constrict="3d6+14" />
 <SpellBlock id="1" sla={{"cl":17,"con":"+23","content":[{"constant":true,"content":<><Link to="/spell/detect_good">detect good</Link>, <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/fly">fly</Link>, <Link to="/spell/greater_magic_fang">greater magic fang</Link>, <Link to="/spell/true_seeing">true seeing</Link></>},{"will":true,"content":<><Link to="/spell/feast_on_fear">feast on fear</Link> (DC 23), <Link to="/spell/putrefy_food_and_drink">putrefy food and drink</Link> (DC 16)</>},{"day":3,"content":<><Link to="/spell/cloudkill">cloudkill</Link> (DC 21), <Link to="/feat/quickened">quickened</Link> <em>displacement</em>, <Link to="/spell/suggestion">suggestion</Link> (DC 19)</>},{"day":1,"content":<><Link to="/spell/horrid_wilting">horrid wilting</Link> (DC 24), <Link to="/spell/imprisonment">imprisonment</Link> (DC 25), <Link to="/spell/maze">maze</Link>, <Link to="/spell/sequester">sequester</Link></>}]}} />
 <Stats atts={[30,25,30,15,22,23]} bab={18} cmb={29} cmd={47} cmdP="can't be tripped" feats={["Blind-Fight","Combat Reflexes","Critical Focus","Dodge",["Improved Critical"," (claw)"],"Improved Initiative","Power Attack",["Quicken Spell-Like Ability"," (displacement)"],"Staggering Critical"]} skills={{"bluff":{"b":27},"climb":{"b":18},"intm":{"b":27},"k":{"a":23,"p":23},"per":{"b":27},"sm":{"b":27},"spc":{"b":23},"stl":{"b":24}}} lang={["A","Ce","I",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} sq="despoil, easy to call, emotional focus, skip between, spirit touch" />
 <Ecology env={<>any (<Link to="/rule/ethereal_plane">Ethereal Plane</Link>)</>} org="solitary, pair, or fright (3-6)" treasure={{"S":false}} />
@@ -1329,7 +1329,7 @@ const _salamander = {title: "Salamander", jsx: <><p><em>This snake-bodied humano
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",240]]} xp="2,400" ce medium outsider subs={["extraplanar","fire"]} init={1} dv={60} pcp={16} />
 <Defense ac={[18,11,17]} mod="+1 Dex, +7 natural" hp={[76,"8d10+32"]} fort="+10" ref="+7" will="+6" dr="10/magic" immune="fire" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to cold</>]} />
-<Offense sp={20} melee={<>spear +11/+6 (1d8+4/&times;3 plus 1d6 fire), tail slap +6 (2d6+1 plus 1d6 fire and <Link to="/umr/grab">grab</Link>)</>} space={"5"} reach={"5"} reachP={"10 ft. with tail"} specAtt={[["heat","heat"]]} constrict="2d6+4 plus 1d6 fire" />
+<Offense sp={20} melee={<>spear +11/+6 (1d8+4/&times;3 plus 1d6 fire), tail slap +6 (2d6+1 plus 1d6 fire and <Link to="/umr/grab">grab</Link>)</>} space="5" reach="5" reachP="10 ft. with tail" specAtt={[["heat","heat"]]} constrict="2d6+4 plus 1d6 fire" />
 <Stats atts={[16,13,18,14,15,13]} bab={8} cmb={11} cmbP="+15 grapple" cmd={22} cmdP="can't be tripped" feats={["Cleave","Iron Will","Power Attack",["Skill Focus"," (Perception)"]]} skills={{"acro":{"b":12},"bluff":{"b":12},"craft":{"of":"weaponsmithing","b":17},"intm":{"b":12},"k":{"p":13},"per":{"b":16},"sm":{"b":13},"stl":{"b":12}}} racial="+4 Craft (armorsmithing, blacksmithing, and weaponsmithing)" lang={["C","Ig"]} />
 <Ecology env={<>any (<Link to="/rule/plane_of_fire">Plane of Fire</Link>)</>} org="solitary, pair, or cluster (3-5)" treasure={{"S":[["Wsp"]],"final":"other non-flammable treasure"}} />
 </div>
@@ -1344,7 +1344,7 @@ const _salamander = {title: "Salamander", jsx: <><p><em>This snake-bodied humano
 const _sandman = {title: "Sandman", jsx: <><p><em>A whirling cloud of fine desert sand piles up upon itself, forming into the shape of a humanoid figure.</em></p>
 <Header full><span>Sandman</span><span>CR 3</span></Header>
 <div className="reduce">
-<Info source={[["Bestiary 2",236]]} xp="800" ne medium outsider subs={["earth","elemental","extraplanar"]} init={5} dv={60} tremorsense={30} pcp={7} aura={"sleep (20 ft., DC 14)"} />
+<Info source={[["Bestiary 2",236]]} xp="800" ne medium outsider subs={["earth","elemental","extraplanar"]} init={5} dv={60} tremorsense={30} pcp={7} aura="sleep (20 ft., DC 14)" />
 <Defense ac={[15,11,14]} mod="+1 Dex, +4 natural" hp={[30,"4d10+8"]} fort="+6" ref="+5" will="+3" amorph dr="10/bludgeoning" immune={<><Link to="/subtype/elemental">elemental</Link> traits</>} />
 <Offense sp={30} br={30} melee="slam +6 (1d6+3 plus sleep)" />
 <Stats atts={[14,13,15,10,11,10]} bab={4} cmb={6} cmd={17} feats={["Improved Initiative","Iron Will"]} skills={{"acro":{"b":8},"climb":{"b":9},"k":{"p":7},"per":{"b":7},"sm":{"b":7},"stl":{"b":8,"x":"+12 in sand"}}} racial="+4 Stealth in sand" lang={["T"]} sq={<><Link to="/umr/compression">compression</Link>, sand form</>} />

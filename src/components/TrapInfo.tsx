@@ -4,7 +4,7 @@ import { IdContext } from './contexts';
 import { ThLink } from './Link';
 import ScrollContainer from './ScrollContainer';
 
-interface BaseProps {
+interface TrapInfoProps {
 	id: string
 	eff: ReactNode
 	cr: string
@@ -18,8 +18,6 @@ interface BaseProps {
 	manual?: boolean
 	start?: boolean
 }
-
-type TrapInfoProps = BaseProps;
 
 export const TrapInfo: FC<PropsWithChildren<TrapInfoProps>> = (props) => {
 	const {

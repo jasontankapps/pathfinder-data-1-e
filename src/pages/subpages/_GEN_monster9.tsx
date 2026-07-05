@@ -57,7 +57,7 @@ const _dwiergeth = {title: "Dwiergeth", jsx: <><p><em>This beast's bulbous body 
 <div className="reduce">
 <Info source={[["Bestiary 5",102],["The Worldwound",54]]} xp="25,600" ce large aberration subs={["extraplanar"]} init={11} dv={60} pcp={16} />
 <Defense ac={[28,17,20]} mod="+7 Dex, +1 dodge, +11 natural, -1 size" hp={[175,"13d8+117"]} fort="+13" ref="+11" will="+15" aav dr="10/lawful" immune="blindness, dazzling, poison, visual effects" resist="cold 20, fire 20" sr="24" />
-<Offense sp={60} cl={60} melee={<>2 bites +19 (4d6+11/19-20 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"10"} specAtt={[["forever gullet","forever gullet"]]} fSwallow swallow="8d6 slashing damage, AC 15, 17 hp" />
+<Offense sp={60} cl={60} melee={<>2 bites +19 (4d6+11/19-20 plus <Link to="/umr/grab">grab</Link>)</>} space="10" reach="10" specAtt={[["forever gullet","forever gullet"]]} fSwallow swallow="8d6 slashing damage, AC 15, 17 hp" />
 <SpellBlock id="1" sla={{"cl":13,"con":"+16","content":[{"constant":true,"content":<Link to="/spell/feather_fall">feather fall</Link>},{"will":true,"content":<><Link to="/spell/gust_of_wind">gust of wind</Link> (DC 15)</>},{"day":1,"content":<><Link to="/spell/control_winds">control winds</Link> (DC 18), <Link to="/spell/wind_wall">wind wall</Link></>}]}} />
 <Stats atts={[32,25,28,5,24,17]} bab={9} cmb={21} cmbP="+25 grapple" cmd={39} cmdP="43 vs. trip" feats={["Combat Reflexes","Dodge",["Improved Critical"," (bite)"],"Improved Initiative","Mobility","Spring Attack","Wind Stance"]} skills={{"climb":{"b":29},"per":{"b":16}}} lang={["A"]} />
 <Ecology env={<>cold mountains (Material Plane or <Link to="/rule/the_abyss">the Abyss</Link>)</>} org="solitary, pair, or pack (3-6)" treasure={{"I":false}} />
@@ -105,7 +105,7 @@ const _eagle_giant_eagle = {title: "Giant Eagle", jsx: <><p><em>This immense eag
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",118]]} xp="800" ng large magicalBeast init={3} llv pcp={15} />
 <Defense ac={[15,12,12]} mod="+3 Dex, +3 natural, -1 size" hp={[26,"4d10+4"]} fort="+5" ref="+7" will="+3" eva />
-<Offense sp={10} fl={80} flP="average" melee="2 claws +7 (1d8+4), bite +7 (1d6+4)" space={"10"} reach={"5"} />
+<Offense sp={10} fl={80} flP="average" melee="2 claws +7 (1d8+4), bite +7 (1d6+4)" space="10" reach="5" />
 <Stats atts={[18,17,12,10,15,11]} bab={4} cmb={9} cmd={22} feats={["Alertness","Flyby Attack"]} skills={{"fly":{"b":8},"per":{"b":15},"sm":{"b":4}}} racial="+4 Perception" lang={["AuX"]} />
 <Ecology env="temperate mountains" org="solitary, pair, or eyrie (3-12)" treasure={{"X":false}} />
 </div>
@@ -135,7 +135,7 @@ const _ebon_acolytus = {title: "Ebon Acolytus", jsx: <><p><em>A chilling statue 
 <div className="reduce">
 <Info source={[["Pathfinder #30: The Twice-Damned Prince",82]]} xp="3,200" n large construct init={-1} dv={60} llv pcp={0} />
 <Defense ac={[20,8,20]} mod="-1 Dex, +12 natural, -1 size" hp={[79,"9d10+30"]} fort="+3" ref="+2" will="+3" immune={<Link to="/umr/construct_traits">construct traits</Link>} />
-<Offense sp={30} melee="dagger +14 (1d6+9/19-20) or 2 slams +14 (1d6+6)" space={"10"} reach={"10"} specAtt={[["prostration","prostration"],["sacrifice","sacrifice"]]} />
+<Offense sp={30} melee="dagger +14 (1d6+9/19-20) or 2 slams +14 (1d6+6)" space="10" reach="10" specAtt={[["prostration","prostration"],["sacrifice","sacrifice"]]} />
 <Stats atts={[22,8,10,10,11,1]} bab={9} cmb={16} cmd={25} />
 <Ecology env="any" org="solitary" treasure={{"I":false}} />
 </div>
@@ -172,7 +172,7 @@ const _ecorche = {title: "Ecorche", jsx: <><p><em>This brawny creature has had i
 <div className="reduce">
 <Info source={[["Bestiary 3",109]]} xp="76,800" ce large undead init={9} dv={60} pcp={25} aura={<><Link to="/umr/frightful_presence">frightful presence</Link> (60 ft., DC 26)</>} />
 <Defense ac={[30,14,25]} mod="+5 Dex, +16 natural, -1 size" hp={[209,"22d8+110"]} fh="5" fort="+12" ref="+12" will="+15" chanRes="+2" dr="15/good and silver" immune={<>acid, <Link to="/umr/undead_traits">undead traits</Link></>} />
-<Offense sp={30} melee="2 claws +27 (3d6+11/19-20)" space={"10"} reach={"10"} bleed="1 Con drain" rend="2 claws, 3d6+11 plus bleed and seize skin" />
+<Offense sp={30} melee="2 claws +27 (3d6+11/19-20)" space="10" reach="10" bleed="1 Con drain" rend="2 claws, 3d6+11 plus bleed and seize skin" />
 <Stats atts={[32,20,0,9,11,21]} bab={16} cmb={28} cmd={43} feats={["Awesome Blow","Blinding Critical","Combat Reflexes","Critical Focus","Improved Bull Rush",["Improved Critical"," (claw)"],"Improved Initiative","Iron Will","Power Attack","Stand Still",["Weapon Focus"," (claw)"]]} skills={{"dis":{"b":30},"stl":{"b":26}}} lang={["C"]} sq="wear skin" />
 <Ecology env="any land" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
@@ -202,7 +202,7 @@ const _eel_giant_moray_eel = {title: "Giant Moray Eel", jsx: <><p><em>This sixte
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",119]]} xp="1,600" n large animal subs={["aquatic"]} init={6} llv scent pcp={7} />
 <Defense ac={[19,11,17]} mod="+2 Dex, +8 natural, -1 size" hp={[52,"7d8+21"]} fort="+8" ref="+9" will="+3" />
-<Offense sw={30} melee={<>bite +11 (2d6+9 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"10"} specAtt={[["gnaw","gnaw"]]} />
+<Offense sw={30} melee={<>bite +11 (2d6+9 plus <Link to="/umr/grab">grab</Link>)</>} space="10" reach="10" specAtt={[["gnaw","gnaw"]]} />
 <Stats atts={[22,14,16,1,12,8]} bab={5} cmb={12} cmbP="+16 grapple" cmd={24} cmdP="can't be tripped" feats={["Improved Initiative","Lightning Reflexes",["Skill Focus"," (Stealth)"],["Weapon Focus"," (bite)"]]} skills={{"ea":{"b":10},"per":{"b":7},"stl":{"b":8},"swim":{"b":14}}} racial="+8 Escape Artist" />
 <Ecology env="warm oceans" org="solitary, pair, or nest (3-6)" treasure={{"X":false}} />
 </div>
@@ -233,7 +233,7 @@ const _egregore = {title: "Egregore", jsx: <><p><em>Within a swirl of light, a c
 <div className="reduce">
 <Info source={[["Bestiary 5",104]]} xp="9,600" n large aberration init={7} dv={60} lifesense pcp={21} aura={<><Link to="/umr/mental_static">mental static</Link> (30 ft., DC 22)</>} />
 <Defense ac={[27,13,23]} mod="+4 armor, +3 Dex, +1 dodge, +6 natural, +4 shield, -1 size" hp={[123,"13d8+65"]} fh="5" fort="+10" ref="+9" will="+15" amorph dr="5/-" sr="21" />
-<Offense sp={30} fl={40} flP="perfect" melee="4 light tentacles +14 (1d8+6)" space={"10"} reach={"10"} specAtt={[["hypnotic oscillation","hypnotic oscillation"],["light tentacles","light tentacles"]]} />
+<Offense sp={30} fl={40} flP="perfect" melee="4 light tentacles +14 (1d8+6)" space="10" reach="10" specAtt={[["hypnotic oscillation","hypnotic oscillation"],["light tentacles","light tentacles"]]} />
 <SpellBlock id="1" sla={{"cl":13,"con":"+19","content":[{"constant":true,"content":<><Link to="/spell/mage_armor">mage armor</Link>, <Link to="/spell/mental_barrier_i">mental barrier I</Link></>},{"will":true,"content":<Link to="/spell/cure_moderate_wounds">cure moderate wounds</Link>}]}} />
 <SpellBlock id="2" psy={{"pe":24,"cl":13,"content":<><Link to="/spell/heal">heal</Link> (6 PE), <Link to="/spell/mass_bears_endurance">mass bear's endurance</Link> (6 PE), <Link to="/spell/mass_bulls_strength">mass bull's strength</Link> (6 PE)</>,"con":"+19"}} />
 <Stats atts={[22,17,18,19,20,23]} bab={9} cmb={16} cmd={30} feats={["Combat Reflexes","Dodge","Great Fortitude","Improved Initiative","Iron Will","Lightning Reflexes","Toughness"]} skills={{"bluff":{"b":19},"ea":{"b":19},"fly":{"b":25},"intm":{"b":22},"k":{"a":20},"per":{"b":21},"sm":{"b":18},"spc":{"b":20}}} lang={["A","Ce","C","I",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} sq="cult mind, psychic conduit" />
@@ -269,7 +269,7 @@ const _eidolon_unfettered = {title: "Unfettered Eidolon", jsx: <><p><em>This biz
 <div className="reduce">
 <Info source={[["Bestiary 3",110]]} xp="4,800" cn medium outsider subs={["extraplanar"]} init={4} dv={60} pcp={13} />
 <Defense ac={[26,14,22]} mod="+4 Dex, +12 natural" hp={[85,"10d10+30"]} fort="+7" ref="+11" will="+9" impEva />
-<Offense sp={20} cl={20} fl={40} flP="good" melee="bite +14 (1d6+3 plus 1d6 electricity), gore +14 (1d6+3 plus 1d6 electricity), tail slap +12 (1d6+1 plus 1d6 electricity)" space={"5"} reach={"5"} reachP={"10 ft. with bite"} />
+<Offense sp={20} cl={20} fl={40} flP="good" melee="bite +14 (1d6+3 plus 1d6 electricity), gore +14 (1d6+3 plus 1d6 electricity), tail slap +12 (1d6+1 plus 1d6 electricity)" space="5" reach="5" reachP="10 ft. with bite" />
 <Stats atts={[16,19,14,7,10,11]} bab={10} cmb={13} cmd={27} cmdP="can't be tripped" feats={["Combat Reflexes","Great Fortitude","Iron Will","Multiattack","Toughness","Weapon Finesse"]} skills={{"bluff":{"b":13},"climb":{"b":11},"k":{"p":6},"per":{"b":13},"sm":{"b":8},"stl":{"b":12}}} lang={["C"]} sq="evolution points (bite, climb, energy attacks, flight [2], gore, improved evasion, improved natural armor [2], reach [bite], tail, tail slap)" />
 <Ecology env="any" org="solitary" treasure={{"S":false}} />
 </div>
@@ -334,7 +334,7 @@ const _ekekeh = {title: "Ekekeh", jsx: <><p><em>This creature looks like a gille
 <div className="reduce">
 <Info source={[["The First World, Realm of the Fey",60]]} xp="1,200" ng large fey subs={["aquatic"]} init={7} dv={60} llv lifesense pcp={9} />
 <Defense ac={[15,12,12]} mod="+3 Dex, +3 natural, -1 size" hp={[33,"6d6+12"]} fort="+4" ref="+8" will="+5" def={[["bioelectric shield","bioelectric shield"]]} dr="5/cold iron" immune="electricity" resist="cold 5" />
-<Offense sw={80} spExtra="telekinetic levitation" melee="bite +6 (1d8+1 plus 3d6 electricity)" space={"10"} reach={"5"} />
+<Offense sw={80} spExtra="telekinetic levitation" melee="bite +6 (1d8+1 plus 3d6 electricity)" space="10" reach="5" />
 <SpellBlock id="1" sla={{"cl":5,"con":"+6","content":[{"constant":true,"content":<Link to="/spell/mage_hand">mage hand</Link>},{"day":3,"content":<><Link to="/spell/lightning_bolt">lightning bolt</Link> (DC 14)</>}]}} />
 <Stats atts={[12,16,15,12,11,13]} bab={3} cmb={5} cmd={18} cmdP="can't be tripped" feats={["Improved Initiative","Weapon Finesse",["Weapon Focus"," (BIte)"]]} skills={{"acro":{"b":12},"diplo":{"b":10},"stl":{"b":8},"swim":{"b":18},"umd":{"b":8}}} lang={["Aq",["Ekekeh"],["First Speech"]]} />
 <Ecology env="any oceans (First World)" org="solitary, pair, family (3-6), or pod (7-18)" treasure={{"S":false}} />
@@ -367,7 +367,7 @@ const _elder_wyrm = {title: "Elder Wyrm", jsx: <><p><em>This mighty, two-headed 
 <div className="reduce">
 <Info source={[["Bestiary 6",108]]} xp="1,228,800" n colossal dragon init={16} senSpell={["true seeing"]} dv={300} llv scent pcp={49} aura={<><Link to="/umr/frightful_presence">frightful presence</Link> (300 ft., DC 33)</>} />
 <Defense ac={[42,14,30]} mod="+12 Dex, +28 natural, -8 size" hp={[528,"32d12+320"]} fh="20" fort="+28" ref="+30" will="+24" dr="20/epic" immune="acid, charm, curses, electricity, fear, paralysis, petrification, sleep" resist="cold 30, fire 30, sonic 30" sr="35" />
-<Offense sp={50} cl={50} fl={250} flP="poor" sw={50} melee="2 bites +40 (4d8+16/19-20 plus myth-drinker), 2 claws +40 (2d8+16), 2 tail slaps +35 (4d6+8/19-20)" space={"30"} reach={"30"} specAtt={[["breath weapon","breath weapon"],["godslayer","godslayer"],["swift tail","swift tail"],["synchronized strike","synchronized strike"],["tail snap","tail snap"]]} rend="2 bites, 4d8+16 plus myth-drinker" />
+<Offense sp={50} cl={50} fl={250} flP="poor" sw={50} melee="2 bites +40 (4d8+16/19-20 plus myth-drinker), 2 claws +40 (2d8+16), 2 tail slaps +35 (4d6+8/19-20)" space="30" reach="30" specAtt={[["breath weapon","breath weapon"],["godslayer","godslayer"],["swift tail","swift tail"],["synchronized strike","synchronized strike"],["tail snap","tail snap"]]} rend="2 bites, 4d8+16 plus myth-drinker" />
 <SpellBlock id="1" sla={{"cl":20,"con":"+27","content":[{"constant":true,"content":<Link to="/spell/true_seeing">true seeing</Link>},{"per":"month","content":<Link to="/spell/miracle">miracle</Link>}]}} />
 <SpellBlock id="2" known={{"cl":20,"con":"+27","known":"Sorcerer","l9":[6,<><Link to="/spell/dominate_monster">dominate monster</Link> (DC 26), <Link to="/spell/foresight">foresight</Link>, <Link to="/spell/time_stop">time stop</Link></>],"l8":[6,<><Link to="/spell/greater_prying_eyes">greater prying eyes</Link>, <Link to="/spell/maze">maze</Link>, <Link to="/spell/sunburst">sunburst</Link> (DC 25)</>],"l7":[7,<><Link to="/spell/greater_arcane_sight">greater arcane sight</Link>, <Link to="/spell/greater_scrying">greater scrying</Link> (DC 24), <Link to="/spell/greater_teleport">greater teleport</Link></>],"l6":[7,<><Link to="/spell/disintegrate">disintegrate</Link> (DC 23), <Link to="/spell/mass_suggestion">mass suggestion</Link> (DC 23), <Link to="/spell/shadow_walk">shadow walk</Link> (DC 23)</>],"l5":[7,<><Link to="/spell/cone_of_cold">cone of cold</Link> (DC 22), <Link to="/spell/feeblemind">feeblemind</Link> (DC 22), <Link to="/spell/hold_monster">hold monster</Link> (DC 22), <Link to="/spell/wall_of_force">wall of force</Link></>],"l4":[7,<><Link to="/spell/arcane_eye">arcane eye</Link>, <Link to="/spell/bestow_curse">bestow curse</Link> (DC 21), <Link to="/spell/dimension_door">dimension door</Link>, <Link to="/spell/stone_shape">stone shape</Link></>],"l3":[8,<><Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link>, <Link to="/spell/dispel_magic">dispel magic</Link>, <Link to="/spell/haste">haste</Link>, <Link to="/spell/ray_of_exhaustion">ray of exhaustion</Link> (DC 20)</>],"l2":[8,<><Link to="/spell/blur">blur</Link>, <Link to="/spell/glitterdust">glitterdust</Link> (DC 19), <Link to="/spell/invisibility">invisibility</Link>, <Link to="/spell/mirror_image">mirror image</Link>, <Link to="/spell/whispering_wind">whispering wind</Link></>],"l1":[8,<><Link to="/spell/alarm">alarm</Link>, <Link to="/spell/comprehend_languages">comprehend languages</Link>, <Link to="/spell/expeditious_retreat">expeditious retreat</Link>, <Link to="/spell/shield">shield</Link>, <Link to="/spell/unseen_servant">unseen servant</Link></>],"l0":[0,<><Link to="/spell/arcane_mark">arcane mark</Link>, <Link to="/spell/bleed">bleed</Link> (DC 17), <Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/ghost_sound">ghost sound</Link> (DC 17), <Link to="/spell/mage_hand">mage hand</Link>, <Link to="/spell/message">message</Link>, <Link to="/spell/prestidigitation">prestidigitation</Link>, <Link to="/spell/read_magic">read magic</Link></>]}} />
 <Stats atts={[43,34,30,17,22,25]} bab={32} cmb={56} cmd={78} cmdP="86 vs. trip" feats={["Alertness","Arcane Strike","Combat Reflexes","Empower Spell","Flyby Attack","Greater Spell Penetration","Greater Vital Strike","Hover",["Improved Critical"," (bite, tail slap)"],"Improved Initiative","Improved Vital Strike","Lunge","Power Attack","Quicken Spell","Vital Strike"]} skills={{"acro":{"b":44},"bluff":{"b":42},"climb":{"b":24},"diplo":{"b":42},"fly":{"b":0},"umd":{"b":42}}} racial="+4 Perception" lang={["A","Ak","Ce","C","D","I","U"]} sq="impossible coordination" />
@@ -416,25 +416,25 @@ const _aether_elemental = {hasJL:true,title: "Aether Elemental", jsx: <><div cla
 <Header full id="large-aether-elemental"><span>Large Aether Elemental</span><span>CR 5</span></Header>
 <Info source={[["Bestiary 5",106]]} xp="1,600" n large outsider subs={["aether","elemental","extraplanar"]} init={11} dv={60} blindsense={60} pcp={11} />
 <Defense ac={[20,20,13]} mod="+4 deflection, +7 Dex, -1 size" hp={[76,"8d10+32"]} fort="+10" ref="+13" will="+4" def={[["telekinetic deflection","telekinetic deflection"]]} dr="5/-" immune={<><Link to="/subtype/elemental">elemental</Link> traits, force</>} />
-<Offense fl={60} flP="good" melee="2 slams +10 (1d8+3)" ranged="telekinetic throw +14 (4d6+6)" space={"10"} reach={"10"} specAtt={[["telekinetic maneuver","telekinetic maneuver"],["telekinetic throw DC 16","telekinetic throw (DC 16)"]]} />
+<Offense fl={60} flP="good" melee="2 slams +10 (1d8+3)" ranged="telekinetic throw +14 (4d6+6)" space="10" reach="10" specAtt={[["telekinetic maneuver","telekinetic maneuver"],["telekinetic throw DC 16","telekinetic throw (DC 16)"]]} />
 <Stats atts={[16,25,18,6,11,11]} bab={8} cmb={12} cmd={33} feats={[["Improved Initiative",<sup>B</sup>],"Improved Iron Will","Iron Will","Point-Blank Shot","Precise Shot"]} skills={{"acro":{"b":18},"fly":{"b":20},"per":{"b":11},"stl":{"b":14}}} lang={["Aq","Au","Ig","T"]} sq="telekinetic invisibility" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Header full id="huge-aether-elemental"><span>Huge Aether Elemental</span><span>CR 7</span></Header>
 <Info source={[["Bestiary 5",106]]} xp="3,200" n huge outsider subs={["aether","elemental","extraplanar"]} init={13} dv={60} blindsense={60} pcp={13} />
 <Defense ac={[22,22,13]} mod="+5 deflection, +9 Dex, -2 size" hp={[105,"10d10+50"]} fort="+12" ref="+16" will="+5" def={[["telekinetic deflection","telekinetic deflection"]]} dr="5/-" immune={<><Link to="/subtype/elemental">elemental</Link> traits, force</>} />
-<Offense fl={60} flP="good" melee="2 slams +12 (2d6+4)" ranged="telekinetic throw +17 (6d6+7/19-20)" space={"15"} reach={"15"} specAtt={[["telekinetic maneuver","telekinetic maneuver"],["telekinetic throw DC 17","telekinetic throw (DC 17)"]]} />
+<Offense fl={60} flP="good" melee="2 slams +12 (2d6+4)" ranged="telekinetic throw +17 (6d6+7/19-20)" space="15" reach="15" specAtt={[["telekinetic maneuver","telekinetic maneuver"],["telekinetic throw DC 17","telekinetic throw (DC 17)"]]} />
 <Stats atts={[18,29,20,6,11,11]} bab={10} cmb={16} cmd={40} feats={[["Improved Critical"," (telekinetic throw)"],["Improved Initiative",<sup>B</sup>],"Improved Iron Will","Iron Will","Point-Blank Shot","Precise Shot"]} skills={{"acro":{"b":22},"fly":{"b":22},"per":{"b":13},"stl":{"b":14}}} lang={["Aq","Au","Ig","T"]} sq="telekinetic invisibility" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Header full id="greater-aether-elemental"><span>Greater Aether Elemental</span><span>CR 9</span></Header>
 <Info source={[["Bestiary 5",107]]} xp="6,400" n huge outsider subs={["aether","elemental","extraplanar"]} init={14} dv={60} blindsense={60} pcp={16} />
 <Defense ac={[24,24,14]} mod="+6 deflection, +10 Dex, -2 size" hp={[149,"13d10+78"]} fort="+14" ref="+18" will="+6" def={[["telekinetic deflection","telekinetic deflection"]]} dr="10/-" immune={<><Link to="/subtype/elemental">elemental</Link> traits, force</>} />
-<Offense fl={60} flP="good" melee="2 slams +16 (2d8+5)" ranged="telekinetic throw +21 (8d6+7/19-20)" space={"15"} reach={"15"} specAtt={[["telekinetic maneuver","telekinetic maneuver"],["telekinetic throw DC 18","telekinetic throw (DC 18)"]]} />
+<Offense fl={60} flP="good" melee="2 slams +16 (2d8+5)" ranged="telekinetic throw +21 (8d6+7/19-20)" space="15" reach="15" specAtt={[["telekinetic maneuver","telekinetic maneuver"],["telekinetic throw DC 18","telekinetic throw (DC 18)"]]} />
 <Stats atts={[20,31,22,8,11,11]} bab={13} cmb={20} cmd={46} feats={["Deadly Aim",["Improved Critical"," (telekinetic throw)"],["Improved Initiative",<sup>B</sup>],"Improved Iron Will","Improved Precise Shot","Iron Will","Point-Blank Shot","Precise Shot"]} skills={{"acro":{"b":26},"fly":{"b":26},"k":{"p":15},"per":{"b":16},"stl":{"b":18}}} lang={["Aq","Au","Ig","T"]} sq="telekinetic invisibility" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Header full id="elder-aether-elemental"><span>Elder Aether Elemental</span><span>CR 11</span></Header>
 <Info source={[["Bestiary 5",107]]} xp="12,800" n huge outsider subs={["aether","elemental","extraplanar"]} init={15} dv={60} blindsense={60} pcp={19} />
 <Defense ac={[26,26,15]} mod="+7 deflection, +11 Dex, -2 size" hp={[200,"16d10+112"]} fort="+17" ref="+21" will="+7" def={[["telekinetic deflection","telekinetic deflection"]]} dr="10/-" immune={<><Link to="/subtype/elemental">elemental</Link> traits, force</>} />
-<Offense fl={60} flP="good" melee="2 slams +20 (2d8+6)" ranged="telekinetic throw +25 (10d6+7/19-20)" space={"15"} reach={"15"} specAtt={[["telekinetic maneuver","telekinetic maneuver"],["telekinetic throw DC 19","telekinetic throw (DC 19)"]]} />
+<Offense fl={60} flP="good" melee="2 slams +20 (2d8+6)" ranged="telekinetic throw +25 (10d6+7/19-20)" space="15" reach="15" specAtt={[["telekinetic maneuver","telekinetic maneuver"],["telekinetic throw DC 19","telekinetic throw (DC 19)"]]} />
 <Stats atts={[22,33,24,10,11,11]} bab={16} cmb={24} cmd={51} feats={["Combat Reflexes","Deadly Aim",["Improved Critical"," (telekinetic throw)"],["Improved Initiative",<sup>B</sup>],"Improved Iron Will","Improved Precise Shot","Iron Will","Point-Blank Shot","Precise Shot"]} skills={{"acro":{"b":30},"ea":{"b":30},"fly":{"b":30},"k":{"p":19},"per":{"b":19},"stl":{"b":22}}} lang={["Aq","Au","Ig","T"]} sq="telekinetic invisibility" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 </div>
@@ -525,25 +525,25 @@ const _air_elemental = {hasJL:true,title: "Air Elemental", jsx: <><div className
 <Header full id="large-air-elemental"><span>Large Air Elemental</span><span>CR 5</span></Header>
 <Info source={[["Pathfinder RPG Bestiary",120]]} xp="1,600" n large outsider subs={["air","elemental","extraplanar"]} init={11} dv={60} pcp={11} />
 <Defense ac={[21,17,13]} mod="+7 Dex, +1 dodge, +4 natural, -1 size" hp={[68,"8d10+24"]} fort="+9" ref="+13" will="+2" def={[["air mastery","air mastery"]]} dr="5/-" immune={<><Link to="/subtype/elemental">elemental</Link> traits</>} />
-<Offense fl={100} flP="perfect" melee="2 slams +14 (1d8+4)" space={"10"} reach={"10"} whirlwind="DC 18" />
+<Offense fl={100} flP="perfect" melee="2 slams +14 (1d8+4)" space="10" reach="10" whirlwind="DC 18" />
 <Stats atts={[18,25,16,6,11,11]} bab={8} cmb={13} cmd={31} feats={["Combat Reflexes","Dodge","Flyby Attack",["Improved Initiative",<sup>B</sup>],"Mobility",["Weapon Finesse",<sup>B</sup>]]} skills={{"acro":{"b":15},"ea":{"b":15},"fly":{"b":21},"k":{"p":5},"per":{"b":11},"stl":{"b":11}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Header full id="huge-air-elemental"><span>Huge Air Elemental</span><span>CR 7</span></Header>
 <Info source={[["Pathfinder RPG Bestiary",120]]} xp="3,200" n huge outsider subs={["air","elemental","extraplanar"]} init={13} dv={60} pcp={13} />
 <Defense ac={[22,18,12]} mod="+9 Dex, +1 dodge, +4 natural, -2 size" hp={[95,"10d10+40"]} fort="+11" ref="+16" will="+5" def={[["air mastery","air mastery"]]} dr="5/-" immune={<><Link to="/subtype/elemental">elemental</Link> traits</>} />
-<Offense fl={100} flP="perfect" melee="2 slams +17 (2d6+6)" space={"15"} reach={"15"} whirlwind="DC 21" />
+<Offense fl={100} flP="perfect" melee="2 slams +17 (2d6+6)" space="15" reach="15" whirlwind="DC 21" />
 <Stats atts={[22,29,18,6,11,11]} bab={10} cmb={18} cmd={38} feats={["Combat Reflexes","Dodge","Flyby Attack",["Improved Initiative",<sup>B</sup>],"Iron Will","Mobility",["Weapon Finesse",<sup>B</sup>]]} skills={{"acro":{"b":18},"ea":{"b":18},"fly":{"b":23},"k":{"p":7},"per":{"b":13},"stl":{"b":9}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Header full id="greater-air-elemental"><span>Greater Air Elemental</span><span>CR 9</span></Header>
 <Info source={[["Pathfinder RPG Bestiary",120]]} xp="6,400" n huge outsider subs={["air","elemental","extraplanar"]} init={14} dv={60} pcp={16} />
 <Defense ac={[25,19,14]} mod="+10 Dex, +1 dodge, +6 natural, -2 size" hp={[123,"13d10+52"]} fort="+12" ref="+18" will="+6" def={[["air mastery","air mastery"]]} dr="10/-" immune={<><Link to="/subtype/elemental">elemental</Link> traits</>} />
-<Offense fl={100} flP="perfect" melee="2 slams +21 (2d8+7)" space={"15"} reach={"15"} whirlwind="DC 23" />
+<Offense fl={100} flP="perfect" melee="2 slams +21 (2d8+7)" space="15" reach="15" whirlwind="DC 23" />
 <Stats atts={[24,31,18,8,11,11]} bab={13} cmb={22} cmd={43} feats={["Blind-Fight","Combat Reflexes","Dodge","Flyby Attack",["Improved Initiative",<sup>B</sup>],"Iron Will","Mobility","Power Attack",["Weapon Finesse",<sup>B</sup>]]} skills={{"acro":{"b":25},"ea":{"b":23},"fly":{"b":27},"k":{"p":12},"per":{"b":16},"stl":{"b":15}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Header full id="elder-air-elemental"><span>Elder Air Elemental</span><span>CR 11</span></Header>
 <Info source={[["Pathfinder RPG Bestiary",121]]} xp="12,800" n huge outsider subs={["air","elemental","extraplanar"]} init={15} dv={60} pcp={19} />
 <Defense ac={[28,20,16]} mod="+11 Dex, +1 dodge, +8 natural, -2 size" hp={[152,"16d10+64"]} fort="+14" ref="+21" will="+7" def={[["air mastery","air mastery"]]} dr="10/-" immune={<><Link to="/subtype/elemental">elemental</Link> traits</>} />
-<Offense fl={100} flP="perfect" melee="2 slams +25 (2d8+9)" space={"15"} reach={"15"} whirlwind="DC 27" />
+<Offense fl={100} flP="perfect" melee="2 slams +25 (2d8+9)" space="15" reach="15" whirlwind="DC 27" />
 <Stats atts={[28,33,18,10,11,11]} bab={16} cmb={27} cmd={49} feats={["Blind-Fight","Cleave","Combat Reflexes","Dodge","Flyby Attack",["Improved Initiative",<sup>B</sup>],"Iron Will","Mobility","Power Attack",["Weapon Finesse",<sup>B</sup>]]} skills={{"acro":{"b":30},"ea":{"b":30},"fly":{"b":34},"k":{"p":19},"per":{"b":19},"stl":{"b":22}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 </div>
@@ -614,25 +614,25 @@ const _earth_elemental = {hasJL:true,title: "Earth Elemental", jsx: <><div class
 <Header full id="large-earth-elemental"><span>Large Earth Elemental</span><span>CR 5</span></Header>
 <Info source={[["Pathfinder RPG Bestiary",122]]} xp="1,600" n large outsider subs={["earth","elemental","extraplanar"]} init={-1} dv={60} tremorsense={60} pcp={11} />
 <Defense ac={[18,8,18]} mod="-1 Dex, +10 natural, -1 size" hp={[68,"8d10+24"]} fort="+9" ref="+1" will="+6" dr="5/-" immune="elemental traits" />
-<Offense sp={20} br={20} spExtra="earth glide" melee="2 slams +14 (2d6+7)" space={"10"} reach={"10"} specAtt={[["earth mastery","earth mastery"]]} />
+<Offense sp={20} br={20} spExtra="earth glide" melee="2 slams +14 (2d6+7)" space="10" reach="10" specAtt={[["earth mastery","earth mastery"]]} />
 <Stats atts={[24,8,17,6,11,11]} bab={8} cmb={16} cmd={25} feats={["Cleave","Greater Bull Rush",["Improved Bull Rush",<sup>B</sup>],"Improved Overrun","Power Attack"]} skills={{"app":{"b":6},"climb":{"b":15},"k":{"d":3},"per":{"b":11},"stl":{"b":5}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Header full id="huge-earth-elemental"><span>Huge Earth Elemental</span><span>CR 7</span></Header>
 <Info source={[["Pathfinder RPG Bestiary",122]]} xp="3,200" n huge outsider subs={["earth","elemental","extraplanar"]} init={-1} dv={60} tremorsense={60} pcp={13} />
 <Defense ac={[19,7,19]} mod="-1 Dex, +12 natural, -2 size" hp={[95,"10d10+40"]} fort="+11" ref="+2" will="+7" dr="5/-" immune="elemental traits" />
-<Offense sp={20} br={20} spExtra="earth glide" melee="2 slams +17 (2d8+9)" space={"15"} reach={"15"} specAtt={[["earth mastery","earth mastery"]]} />
+<Offense sp={20} br={20} spExtra="earth glide" melee="2 slams +17 (2d8+9)" space="15" reach="15" specAtt={[["earth mastery","earth mastery"]]} />
 <Stats atts={[28,8,19,6,11,11]} bab={10} cmb={21} cmd={30} feats={["Awesome Blow","Cleave","Greater Bull Rush",["Improved Bull Rush",<sup>B</sup>],"Improved Overrun","Power Attack"]} skills={{"app":{"b":6},"climb":{"b":18},"k":{"d":4},"per":{"b":13},"stl":{"b":4}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Header full id="greater-earth-elemental"><span>Greater Earth Elemental</span><span>CR 9</span></Header>
 <Info source={[["Pathfinder RPG Bestiary",123]]} xp="6,400" n huge outsider subs={["earth","elemental","extraplanar"]} init={-1} dv={60} tremorsense={60} pcp={16} />
 <Defense ac={[21,7,21]} mod="-1 Dex, +14 natural, -2 size" hp={[136,"13d10+65"]} fort="+13" ref="+3" will="+8" dr="10/-" immune="elemental traits" />
-<Offense sp={20} br={20} spExtra="earth glide" melee="2 slams +21 (2d10+10)" space={"15"} reach={"15"} specAtt={[["earth mastery","earth mastery"]]} />
+<Offense sp={20} br={20} spExtra="earth glide" melee="2 slams +21 (2d10+10)" space="15" reach="15" specAtt={[["earth mastery","earth mastery"]]} />
 <Stats atts={[30,8,21,8,11,11]} bab={13} cmb={25} cmd={34} feats={["Awesome Blow","Cleave","Greater Bull Rush","Greater Overrun",["Improved Bull Rush",<sup>B</sup>],"Improved Overrun","Improved Sunder","Power Attack"]} skills={{"app":{"b":10},"climb":{"b":25},"k":{"d":10},"per":{"b":16},"stl":{"b":7}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Header full id="elder-earth-elemental"><span>Elder Earth Elemental</span><span>CR 11</span></Header>
 <Info source={[["Pathfinder RPG Bestiary",123]]} xp="12,800" n huge outsider subs={["earth","elemental","extraplanar"]} init={-1} dv={60} tremorsense={60} pcp={19} />
 <Defense ac={[23,7,23]} mod="-1 Dex, +16 natural, -2 size" hp={[168,"16d10+80"]} fort="+15" ref="+4" will="+10" dr="10/-" immune="elemental traits" />
-<Offense sp={20} br={20} spExtra="earth glide" melee="2 slams +26 (2d10+12/19-20)" space={"15"} reach={"15"} specAtt={[["earth mastery","earth mastery"]]} />
+<Offense sp={20} br={20} spExtra="earth glide" melee="2 slams +26 (2d10+12/19-20)" space="15" reach="15" specAtt={[["earth mastery","earth mastery"]]} />
 <Stats atts={[34,8,21,10,11,11]} bab={16} cmb={30} cmd={39} feats={["Awesome Blow","Cleave","Greater Bull Rush","Greater Overrun",["Improved Bull Rush",<sup>B</sup>],["Improved Critical"," (slam)"],"Improved Overrun","Improved Sunder","Power Attack"]} skills={{"app":{"b":19},"climb":{"b":31},"k":{"d":19},"per":{"b":19},"stl":{"b":10}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 </div>
@@ -701,25 +701,25 @@ const _fire_elemental = {hasJL:true,title: "Fire Elemental", jsx: <><div classNa
 <Header full id="large-fire-elemental"><span>Large Fire Elemental</span><span>CR 5</span></Header>
 <Info source={[["Pathfinder RPG Bestiary",124]]} xp="1,600" n large outsider subs={["elemental","extraplanar","fire"]} init={9} dv={60} pcp={11} />
 <Defense ac={[19,15,13]} mod="+5 Dex, +1 dodge, +4 natural, -1 size" hp={[60,"8d10+16"]} fort="+8" ref="+11" will="+4" dr="5/-" immune="elemental traits, fire" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to cold</>]} />
-<Offense sp={50} melee="2 slams +12 (1d8+2 plus burn)" space={"10"} reach={"10"} burn="1d8, DC 16" />
+<Offense sp={50} melee="2 slams +12 (1d8+2 plus burn)" space="10" reach="10" burn="1d8, DC 16" />
 <Stats atts={[14,21,14,6,11,11]} bab={8} cmb={11} cmd={27} feats={["Dodge",["Improved Initiative",<sup>B</sup>],"Iron Will","Mobility","Spring Attack",["Weapon Finesse",<sup>B</sup>]]} skills={{"acro":{"b":14},"climb":{"b":9},"ea":{"b":12},"intm":{"b":9},"k":{"p":5},"per":{"b":11}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Header full id="huge-fire-elemental"><span>Huge Fire Elemental</span><span>CR 7</span></Header>
 <Info source={[["Pathfinder RPG Bestiary",124]]} xp="3,200" n huge outsider subs={["elemental","extraplanar","fire"]} init={11} dv={60} pcp={13} />
 <Defense ac={[21,16,13]} mod="+7 Dex, +1 dodge, +5 natural, -2 size" hp={[85,"10d10+30"]} fort="+10" ref="+14" will="+5" dr="5/-" immune="elemental traits, fire" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to cold</>]} />
-<Offense sp={60} melee="2 slams +15 (2d6+4 plus burn)" space={"15"} reach={"15"} burn="2d6, DC 18" />
+<Offense sp={60} melee="2 slams +15 (2d6+4 plus burn)" space="15" reach="15" burn="2d6, DC 18" />
 <Stats atts={[18,25,16,6,11,11]} bab={10} cmb={16} cmd={34} feats={["Combat Reflexes","Dodge",["Improved Initiative",<sup>B</sup>],"Iron Will","Mobility","Spring Attack",["Weapon Finesse",<sup>B</sup>]]} skills={{"acro":{"b":16},"climb":{"b":13},"ea":{"b":16},"intm":{"b":9},"k":{"p":7},"per":{"b":13}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Header full id="greater-fire-elemental"><span>Greater Fire Elemental</span><span>CR 9</span></Header>
 <Info source={[["Pathfinder RPG Bestiary",124]]} xp="6,400" n huge outsider subs={["elemental","extraplanar","fire"]} init={12} dv={60} pcp={16} />
 <Defense ac={[23,17,14]} mod="+8 Dex, +1 dodge, +6 natural, -2 size" hp={[123,"13d10+52"]} fort="+12" ref="+16" will="+6" dr="10/-" immune="elemental traits, fire" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to cold</>]} />
-<Offense sp={60} melee="2 slams +19 (2d8+7 plus burn)" space={"15"} reach={"15"} burn="2d8, DC 20" />
+<Offense sp={60} melee="2 slams +19 (2d8+7 plus burn)" space="15" reach="15" burn="2d8, DC 20" />
 <Stats atts={[24,27,18,8,11,11]} bab={13} cmb={22} cmd={41} feats={["Blind-Fight","Combat Reflexes","Dodge",["Improved Initiative",<sup>B</sup>],"Iron Will","Mobility","Spring Attack",["Weapon Finesse",<sup>B</sup>],"Wind Stance"]} skills={{"acro":{"b":23},"climb":{"b":20},"ea":{"b":21},"intm":{"b":15},"k":{"p":10},"per":{"b":16}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Header full id="elder-fire-elemental"><span>Elder Fire Elemental</span><span>CR 11</span></Header>
 <Info source={[["Pathfinder RPG Bestiary",125]]} xp="12,800" n huge outsider subs={["elemental","extraplanar","fire"]} init={13} dv={60} pcp={19} />
 <Defense ac={[26,18,16]} mod="+9 Dex, +1 dodge, +8 natural, -2 size" hp={[152,"16d10+64"]} fort="+14" ref="+19" will="+7" dr="10/-" immune="elemental traits, fire" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to cold</>]} />
-<Offense sp={60} melee="2 slams +23 (2d8+8 plus burn)" space={"15"} reach={"15"} burn="2d10, DC 22" />
+<Offense sp={60} melee="2 slams +23 (2d8+8 plus burn)" space="15" reach="15" burn="2d10, DC 22" />
 <Stats atts={[26,29,18,10,11,11]} bab={16} cmb={26} cmd={46} feats={["Blind-Fight","Combat Reflexes","Dodge",["Improved Initiative",<sup>B</sup>],"Iron Will","Lightning Stance","Mobility","Spring Attack",["Weapon Finesse",<sup>B</sup>],"Wind Stance"]} skills={{"acro":{"b":28},"climb":{"b":27},"ea":{"b":28},"intm":{"b":19},"k":{"p":19},"per":{"b":19}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 </div>
@@ -750,22 +750,22 @@ const _ice_elemental = {hasJL:true,title: "Ice Elemental", jsx: <><div className
 <Header full id="large-ice-elemental"><span>Large Ice Elemental</span><span>CR 5</span></Header>
 <Info source={[["Bestiary 2",114]]} xp="1,600" n large outsider subs={["air","cold","elemental","extraplanar","water"]} init={5} sen={["snow vision"]} dv={60} pcp={11} />
 <Defense ac={[17,10,16]} mod="+1 Dex, +7 natural, -1 size" hp={[68,"8d10+24"]} fort="+9" ref="+7" will="+2" dr="5/-" immune="cold, elemental traits" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
-<Offense sp={20} br={20} brP="ice and snow only" sw={60} melee="2 slams +12 (1d8+5 plus 1d6 cold)" space={"10"} reach={"10"} specAtt={[["numbing cold DC 17","numbing cold (DC 17)"]]} />
+<Offense sp={20} br={20} brP="ice and snow only" sw={60} melee="2 slams +12 (1d8+5 plus 1d6 cold)" space="10" reach="10" specAtt={[["numbing cold DC 17","numbing cold (DC 17)"]]} />
 <Stats atts={[20,12,17,6,11,11]} bab={8} cmb={14} cmd={25} cmdP="can't be tripped" feats={["Cleave","Great Cleave","Improved Initiative","Power Attack"]} skills={{"intm":{"b":11},"k":{"p":9},"per":{"b":11},"stl":{"b":8},"swim":{"b":13}}} sq="ice glide, icewalking" />
 <Header full id="huge-ice-elemental"><span>Huge Ice Elemental</span><span>CR 7</span></Header>
 <Info source={[["Bestiary 2",114]]} xp="3,200" n huge outsider subs={["air","cold","elemental","extraplanar","water"]} init={7} sen={["snow vision"]} dv={60} pcp={13} />
 <Defense ac={[20,12,16]} mod="+3 Dex, +1 dodge, +8 natural, -2 size" hp={[95,"10d10+40"]} fort="+11" ref="+10" will="+3" dr="5/-" immune="cold, elemental traits" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
-<Offense sp={20} br={20} brP="ice and snow only" sw={60} melee="2 slams +15 (2d6+7 plus 1d8 cold)" space={"15"} reach={"15"} specAtt={[["numbing cold DC 19","numbing cold (DC 19)"]]} />
+<Offense sp={20} br={20} brP="ice and snow only" sw={60} melee="2 slams +15 (2d6+7 plus 1d8 cold)" space="15" reach="15" specAtt={[["numbing cold DC 19","numbing cold (DC 19)"]]} />
 <Stats atts={[24,16,19,6,11,11]} bab={10} cmb={19} cmd={33} cmdP="can't be tripped" feats={["Cleave","Dodge","Great Cleave","Improved Initiative","Power Attack"]} skills={{"intm":{"b":13},"k":{"p":11},"per":{"b":13},"stl":{"b":8},"swim":{"b":15}}} sq="ice glide, icewalking" />
 <Header full id="greater-ice-elemental"><span>Greater Ice Elemental</span><span>CR 9</span></Header>
 <Info source={[["Bestiary 2",115]]} xp="6,400" n huge outsider subs={["air","cold","elemental","extraplanar","water"]} init={8} sen={["snow vision"]} dv={60} pcp={16} />
 <Defense ac={[23,13,18]} mod="+4 Dex, +1 dodge, +10 natural, -2 size" hp={[123,"13d10+52"]} fort="+12" ref="+14" will="+4" dr="10/-" immune="cold, elemental traits" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
-<Offense sp={20} br={20} brP="ice and snow only" sw={60} melee="2 slams +20 (2d8+9 plus 2d6 cold)" space={"15"} reach={"15"} specAtt={[["numbing cold DC 20","numbing cold (DC 20)"]]} />
+<Offense sp={20} br={20} brP="ice and snow only" sw={60} melee="2 slams +20 (2d8+9 plus 2d6 cold)" space="15" reach="15" specAtt={[["numbing cold DC 20","numbing cold (DC 20)"]]} />
 <Stats atts={[28,18,19,8,11,11]} bab={13} cmb={24} cmd={39} cmdP="can't be tripped" feats={["Cleave","Combat Reflexes","Dodge","Improved Initiative","Lightning Reflexes","Power Attack","Vital Strike"]} skills={{"ea":{"b":20},"intm":{"b":16},"k":{"p":15},"per":{"b":16},"stl":{"b":12},"swim":{"b":17}}} sq="ice glide, icewalking" />
 <Header full id="elder-ice-elemental"><span>Elder Ice Elemental</span><span>CR 11</span></Header>
 <Info source={[["Bestiary 2",115]]} xp="12,800" n huge outsider subs={["air","cold","elemental","extraplanar","water"]} init={9} sen={["snow vision"]} dv={60} pcp={19} />
 <Defense ac={[24,14,18]} mod="+5 Dex, +1 dodge, +10 natural, -2 size" hp={[152,"16d10+64"]} fort="+14" ref="+17" will="+5" dr="10/-" immune="cold, elemental traits" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
-<Offense sp={20} br={20} brP="ice and snow only" sw={60} melee="2 slams +24 (2d10+10/19-20 plus 2d8 cold)" space={"15"} reach={"15"} specAtt={[["numbing cold DC 22","numbing cold (DC 22)"]]} />
+<Offense sp={20} br={20} brP="ice and snow only" sw={60} melee="2 slams +24 (2d10+10/19-20 plus 2d8 cold)" space="15" reach="15" specAtt={[["numbing cold DC 22","numbing cold (DC 22)"]]} />
 <Stats atts={[30,20,19,10,11,11]} bab={16} cmb={28} cmd={44} cmdP="can't be tripped" feats={["Cleave","Combat Reflexes","Dodge",["Improved Critical"," (slam)"],"Improved Initiative","Lightning Reflexes","Power Attack","Vital Strike"]} skills={{"ea":{"b":24},"intm":{"b":19},"k":{"p":19},"per":{"b":19},"stl":{"b":16},"swim":{"b":37}}} sq="ice glide, icewalking" />
 </div>
 </>};
@@ -796,25 +796,25 @@ const _lightning_elemental = {hasJL:true,title: "Lightning Elemental", jsx: <><d
 <Header full id="large-lightning-elemental"><span>Large Lightning Elemental</span><span>CR 5</span></Header>
 <Info source={[["Bestiary 2",116]]} xp="1,600" n large outsider subs={["air","elemental","extraplanar"]} init={10} dv={60} pcp={11} />
 <Defense ac={[18,16,11]} mod="+6 Dex, +1 dodge, +2 natural, -1 size" hp={[60,"8d10+16"]} fort="+8" ref="+12" will="+2" dr="5/-" immune="electricity, elemental traits" />
-<Offense fl={100} flP="perfect" melee="2 slams +13 (1d8+3 plus 1d6 electricity)" space={"10"} reach={"10"} specAtt={[["metal mastery","metal mastery"],["spark leap","spark leap"]]} />
+<Offense fl={100} flP="perfect" melee="2 slams +13 (1d8+3 plus 1d6 electricity)" space="10" reach="10" specAtt={[["metal mastery","metal mastery"],["spark leap","spark leap"]]} />
 <Stats atts={[16,23,14,6,11,11]} bab={8} cmb={12} cmd={29} feats={["Dodge","Flyby Attack","Improved Initiative","Mobility",["Weapon Finesse",<sup>B</sup>]]} skills={{"acro":{"b":17},"ea":{"b":17},"fly":{"b":12},"k":{"p":9},"per":{"b":11}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Header full id="huge-lightning-elemental"><span>Huge Lightning Elemental</span><span>CR 7</span></Header>
 <Info source={[["Bestiary 2",116]]} xp="3,200" n huge outsider subs={["air","elemental","extraplanar"]} init={12} dv={60} pcp={13} />
 <Defense ac={[19,17,10]} mod="+8 Dex, +1 dodge, +2 natural, -2 size" hp={[85,"10d10+30"]} fort="+10" ref="+15" will="+5" dr="5/-" immune="electricity, elemental traits" />
-<Offense fl={100} flP="perfect" melee="2 slams +16 (2d6+5 plus 1d8 electricity)" space={"15"} reach={"15"} specAtt={[["metal mastery","metal mastery"],["spark leap","spark leap"]]} />
+<Offense fl={100} flP="perfect" melee="2 slams +16 (2d6+5 plus 1d8 electricity)" space="15" reach="15" specAtt={[["metal mastery","metal mastery"],["spark leap","spark leap"]]} />
 <Stats atts={[20,27,16,6,11,11]} bab={10} cmb={17} cmd={36} feats={["Dodge","Flyby Attack","Improved Initiative","Iron Will","Mobility",["Weapon Finesse",<sup>B</sup>]]} skills={{"acro":{"b":21},"ea":{"b":21},"fly":{"b":12},"k":{"p":11},"per":{"b":13}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Header full id="greater-lightning-elemental"><span>Greater Lightning Elemental</span><span>CR 9</span></Header>
 <Info source={[["Bestiary 2",117]]} xp="6,400" n huge outsider subs={["air","elemental","extraplanar"]} init={13} dv={60} pcp={16} />
 <Defense ac={[22,18,12]} mod="+9 Dex, +1 dodge, +4 natural, -2 size" hp={[110,"13d10+39"]} fort="+11" ref="+17" will="+6" dr="10/-" immune="electricity, elemental traits" />
-<Offense fl={100} flP="perfect" melee="2 slams +20 (2d8+6 plus 2d6 electricity)" space={"15"} reach={"15"} specAtt={[["metal mastery","metal mastery"],["spark leap","spark leap"]]} />
+<Offense fl={100} flP="perfect" melee="2 slams +20 (2d8+6 plus 2d6 electricity)" space="15" reach="15" specAtt={[["metal mastery","metal mastery"],["spark leap","spark leap"]]} />
 <Stats atts={[22,29,16,8,11,11]} bab={13} cmb={21} cmd={41} feats={["Blind-Fight","Dodge","Flyby Attack","Improved Initiative","Iron Will","Mobility","Power Attack",["Weapon Finesse",<sup>B</sup>]]} skills={{"acro":{"b":25},"ea":{"b":25},"fly":{"b":13},"intm":{"b":16},"k":{"p":15},"per":{"b":16}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Header full id="elder-lightning-elemental"><span>Elder Lightning Elemental</span><span>CR 11</span></Header>
 <Info source={[["Bestiary 2",117]]} xp="12,800" n huge outsider subs={["air","elemental","extraplanar"]} init={14} dv={60} pcp={19} />
 <Defense ac={[25,19,14]} mod="+10 Dex, +1 dodge, +6 natural, -2 size" hp={[136,"16d10+48"]} fort="+13" ref="+20" will="+7" dr="10/-" immune="electricity, elemental traits" />
-<Offense fl={100} flP="perfect" melee="2 slams +24 (2d8+8 plus 2d8 electricity)" space={"15"} reach={"15"} specAtt={[["metal mastery","metal mastery"],["spark leap","spark leap"]]} />
+<Offense fl={100} flP="perfect" melee="2 slams +24 (2d8+8 plus 2d8 electricity)" space="15" reach="15" specAtt={[["metal mastery","metal mastery"],["spark leap","spark leap"]]} />
 <Stats atts={[26,31,16,10,11,11]} bab={16} cmb={26} cmd={47} feats={["Blind-Fight","Combat Reflexes","Dodge","Flyby Attack","Improved Initiative","Iron Will","Mobility","Power Attack",["Weapon Finesse",<sup>B</sup>]]} skills={{"acro":{"b":29},"ea":{"b":29},"fly":{"b":14},"intm":{"b":19},"k":{"p":19},"per":{"b":19},"stl":{"b":21}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 </div>
@@ -844,22 +844,22 @@ const _magma_elemental = {hasJL:true,title: "Magma Elemental", jsx: <><div class
 <Header full id="large-magma-elemental"><span>Large Magma Elemental</span><span>CR 5</span></Header>
 <Info source={[["Bestiary 2",118]]} xp="1,600" n large outsider subs={["earth","elemental","extraplanar","fire"]} init={3} dv={60} pcp={11} />
 <Defense ac={[16,8,16]} mod="-1 Dex, +8 natural, -1 size" hp={[60,"8d10+16"]} fort="+8" ref="+5" will="+2" dr="5/-" immune="fire, elemental traits" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to cold</>]} />
-<Offense sp={20} br={20} spExtra="earth glide" melee="2 slams +11 (1d8+4 plus burn)" space={"10"} reach={"10"} specAtt={[["lava puddle","lava puddle"]]} burn="1d6, DC 14" />
+<Offense sp={20} br={20} spExtra="earth glide" melee="2 slams +11 (1d8+4 plus burn)" space="10" reach="10" specAtt={[["lava puddle","lava puddle"]]} burn="1d6, DC 14" />
 <Stats atts={[18,8,15,6,11,11]} bab={8} cmb={13} cmd={22} feats={["Cleave","Improved Bull Rush","Improved Initiative","Power Attack"]} skills={{"climb":{"b":15},"k":{"d":9},"per":{"b":11},"stl":{"b":6}}} sq="earth glide" />
 <Header full id="huge-magma-elemental"><span>Huge Magma Elemental</span><span>CR 7</span></Header>
 <Info source={[["Bestiary 2",118]]} xp="3,200" n huge outsider subs={["earth","elemental","extraplanar","fire"]} init={3} dv={60} pcp={13} />
 <Defense ac={[17,7,17]} mod="-1 Dex, +10 natural, -2 size" hp={[85,"10d10+30"]} fort="+10" ref="+6" will="+3" dr="5/-" immune="fire, elemental traits" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to cold</>]} />
-<Offense sp={20} br={20} spExtra="earth glide" melee="2 slams +14 (2d6+6 plus burn)" space={"15"} reach={"15"} specAtt={[["lava puddle","lava puddle"]]} burn="1d8, DC 16" />
+<Offense sp={20} br={20} spExtra="earth glide" melee="2 slams +14 (2d6+6 plus burn)" space="15" reach="15" specAtt={[["lava puddle","lava puddle"]]} burn="1d8, DC 16" />
 <Stats atts={[22,8,17,6,11,11]} bab={10} cmb={18} cmd={27} feats={["Cleave","Greater Bull Rush","Improved Bull Rush","Improved Initiative","Power Attack"]} skills={{"climb":{"b":19},"k":{"d":11},"per":{"b":13},"stl":{"b":4}}} sq="earth glide" />
 <Header full id="greater-magma-elemental"><span>Greater Magma Elemental</span><span>CR 9</span></Header>
 <Info source={[["Bestiary 2",119]]} xp="6,400" n huge outsider subs={["earth","elemental","extraplanar","fire"]} init={3} dv={60} pcp={16} />
 <Defense ac={[19,7,19]} mod="-1 Dex, +12 natural, -2 size" hp={[123,"13d10+52"]} fort="+12" ref="+7" will="+4" dr="10/-" immune="fire, elemental traits" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to cold</>]} />
-<Offense sp={20} br={20} spExtra="earth glide" melee="2 slams +18 (2d8+7 plus burn)" space={"15"} reach={"15"} specAtt={[["lava puddle","lava puddle"]]} burn="2d6, DC 18" />
+<Offense sp={20} br={20} spExtra="earth glide" melee="2 slams +18 (2d8+7 plus burn)" space="15" reach="15" specAtt={[["lava puddle","lava puddle"]]} burn="2d6, DC 18" />
 <Stats atts={[24,8,19,8,11,11]} bab={13} cmb={22} cmd={31} feats={["Cleave","Greater Bull Rush","Greater Overrun","Improved Bull Rush","Improved Initiative","Improved Overrun","Power Attack"]} skills={{"climb":{"b":23},"intm":{"b":16},"k":{"d":15},"per":{"b":16},"stl":{"b":7}}} sq="earth glide" />
 <Header full id="elder-magma-elemental"><span>Elder Magma Elemental</span><span>CR 11</span></Header>
 <Info source={[["Bestiary 2",119]]} xp="12,800" n huge outsider subs={["earth","elemental","extraplanar","fire"]} init={3} dv={60} pcp={19} />
 <Defense ac={[25,7,25]} mod="-1 Dex, +18 natural, -2 size" hp={[152,"16d10+64"]} fort="+14" ref="+9" will="+5" dr="10/-" immune="fire, elemental traits" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to cold</>]} />
-<Offense sp={20} br={20} spExtra="earth glide" melee="2 slams +22 (3d6+8 plus burn)" space={"15"} reach={"15"} specAtt={[["lava puddle","lava puddle"]]} burn="3d6, DC 20" />
+<Offense sp={20} br={20} spExtra="earth glide" melee="2 slams +22 (3d6+8 plus burn)" space="15" reach="15" specAtt={[["lava puddle","lava puddle"]]} burn="3d6, DC 20" />
 <Stats atts={[26,8,19,10,11,11]} bab={16} cmb={26} cmd={35} feats={["Cleave","Greater Bull Rush","Greater Overrun","Improved Bull Rush","Improved Initiative","Improved Overrun","Power Attack","Vital Strike"]} skills={{"climb":{"b":27},"intm":{"b":19},"k":{"d":19},"per":{"b":19},"stl":{"b":10}}} sq="earth glide" />
 </div>
 </>};
@@ -887,22 +887,22 @@ const _mud_elemental = {hasJL:true,title: "Mud Elemental", jsx: <><div className
 <Header full id="large-mud-elemental"><span>Large Mud Elemental</span><span>CR 5</span></Header>
 <Info source={[["Bestiary 2",120]]} xp="1,600" n large outsider subs={["earth","elemental","extraplanar","water"]} init={1} dv={60} tremorsense={30} pcp={11} />
 <Defense ac={[17,10,16]} mod="+1 Dex, +7 natural, -1 size" hp={[68,"8d10+24"]} fort="+9" ref="+7" will="+2" dr="5/-" immune="acid, elemental traits" />
-<Offense sp={20} br={10} sw={30} spExtra="earth glide" melee="2 slams +12 (1d8+5 plus entrap)" space={"10"} reach={"10"} entrap="DC 17, 10 minutes, hardness 10, hp 10" />
+<Offense sp={20} br={10} sw={30} spExtra="earth glide" melee="2 slams +12 (1d8+5 plus entrap)" space="10" reach="10" entrap="DC 17, 10 minutes, hardness 10, hp 10" />
 <Stats atts={[20,12,17,4,11,11]} bab={8} cmb={14} cmd={25} feats={["Cleave","Great Cleave","Greater Bull Rush","Improved Bull Rush","Power Attack"]} skills={{"climb":{"b":12}}} />
 <Header full id="huge-mud-elemental"><span>Huge Mud Elemental</span><span>CR 7</span></Header>
 <Info source={[["Bestiary 2",120]]} xp="3,200" n huge outsider subs={["earth","elemental","extraplanar","water"]} init={3} dv={60} tremorsense={30} pcp={13} />
 <Defense ac={[20,12,16]} mod="+3 Dex, +1 dodge, +8 natural, -2 size" hp={[95,"10d10+40"]} fort="+11" ref="+10" will="+3" dr="5/-" immune="acid, elemental traits" />
-<Offense sp={20} br={10} sw={30} spExtra="earth glide" melee="2 slams +15 (2d6+7 plus entrap)" space={"15"} reach={"15"} entrap="DC 19, 10 minutes, hardness 5, hp 15" />
+<Offense sp={20} br={10} sw={30} spExtra="earth glide" melee="2 slams +15 (2d6+7 plus entrap)" space="15" reach="15" entrap="DC 19, 10 minutes, hardness 5, hp 15" />
 <Stats atts={[24,16,19,6,11,11]} bab={10} cmb={19} cmd={33} feats={["Cleave","Dodge","Great Cleave","Greater Bull Rush","Improved Bull Rush","Power Attack"]} skills={{"climb":{"b":17}}} />
 <Header full id="greater-mud-elemental"><span>Greater Mud Elemental</span><span>CR 9</span></Header>
 <Info source={[["Bestiary 2",121]]} xp="6,400" n huge outsider subs={["earth","elemental","extraplanar","water"]} init={4} dv={60} tremorsense={30} pcp={16} />
 <Defense ac={[22,13,17]} mod="+4 Dex, +1 dodge, +9 natural, -2 size" hp={[123,"13d10+52"]} fort="+12" ref="+14" will="+4" dr="10/-" immune="acid, elemental traits" />
-<Offense sp={20} br={10} sw={30} spExtra="earth glide" melee="2 slams +20 (2d8+9 plus entrap)" space={"15"} reach={"15"} entrap="DC 20, 10 minutes, hardness 10, hp 15" />
+<Offense sp={20} br={10} sw={30} spExtra="earth glide" melee="2 slams +20 (2d8+9 plus entrap)" space="15" reach="15" entrap="DC 20, 10 minutes, hardness 10, hp 15" />
 <Stats atts={[28,18,19,8,11,11]} bab={13} cmb={24} cmd={39} feats={["Awesome Blow","Cleave","Dodge","Great Cleave","Greater Bull Rush","Improved Bull Rush","Lightning Reflexes","Power Attack"]} skills={{"climb":{"b":25}}} />
 <Header full id="elder-mud-elemental"><span>Elder Mud Elemental</span><span>CR 11</span></Header>
 <Info source={[["Bestiary 2",121]]} xp="12,800" n huge outsider subs={["earth","elemental","extraplanar","water"]} init={5} dv={60} tremorsense={30} pcp={19} />
 <Defense ac={[23,14,17]} mod="+5 Dex, +1 dodge, +9 natural, -2 size" hp={[152,"16d10+64"]} fort="+14" ref="+17" will="+5" dr="10/-" immune="acid, elemental traits" />
-<Offense sp={20} br={10} sw={30} spExtra="earth glide" melee="2 slams +24 (2d10+10/19-20 plus entrap)" space={"15"} reach={"15"} entrap="DC 22, 10 minutes, hardness 5, hp 15" />
+<Offense sp={20} br={10} sw={30} spExtra="earth glide" melee="2 slams +24 (2d10+10/19-20 plus entrap)" space="15" reach="15" entrap="DC 22, 10 minutes, hardness 5, hp 15" />
 <Stats atts={[30,20,19,10,11,11]} bab={16} cmb={28} cmd={44} feats={["Awesome Blow","Cleave","Dodge","Great Cleave","Greater Bull Rush","Improved Bull Rush",["Improved Critical"," (slams)"],"Lightning Reflexes","Power Attack"]} skills={{"climb":{"b":29}}} />
 </div>
 </>};
@@ -985,22 +985,22 @@ const _water_elemental = {hasJL:true,title: "Water Elemental", jsx: <><div class
 <Header full id="large-water-elemental"><span>Large Water Elemental</span><span>CR 5</span></Header>
 <Info source={[["Pathfinder RPG Bestiary",126]]} xp="1,600" n large outsider subs={["elemental","extraplanar","water"]} init={2} dv={60} pcp={9} />
 <Defense ac={[18,12,15]} mod="+2 Dex, +1 dodge, +6 natural, -1 size" hp={[68,"8d10+24"]} fort="+9" ref="+8" will="+2" dr="5/-" immune="elemental traits" />
-<Offense sp={20} sw={90} melee="2 slams +12 (1d8+5)" space={"10"} reach={"10"} specAtt={[["drench","drench"],["vortex DC 19","vortex (DC 19)"],["water mastery","water mastery"]]} />
+<Offense sp={20} sw={90} melee="2 slams +12 (1d8+5)" space="10" reach="10" specAtt={[["drench","drench"],["vortex DC 19","vortex (DC 19)"],["water mastery","water mastery"]]} />
 <Stats atts={[20,14,17,6,11,11]} bab={8} cmb={14} cmd={27} feats={["Cleave","Dodge","Great Cleave","Power Attack"]} skills={{"acro":{"b":9},"ea":{"b":11},"k":{"p":5},"per":{"b":9},"stl":{"b":5},"swim":{"b":24}}} />
 <Header full id="huge-water-elemental"><span>Huge Water Elemental</span><span>CR 7</span></Header>
 <Info source={[["Pathfinder RPG Bestiary",126]]} xp="3,200" n huge outsider subs={["elemental","extraplanar","water"]} init={4} dv={60} pcp={13} />
 <Defense ac={[21,13,16]} mod="+4 Dex, +1 dodge, +8 natural, -2 size" hp={[95,"10d10+40"]} fort="+11" ref="+11" will="+3" dr="5/-" immune="elemental traits" />
-<Offense sp={20} sw={90} melee="2 slams +15 (2d6+7)" space={"15"} reach={"15"} specAtt={[["drench","drench"],["vortex DC 22","vortex (DC 22)"],["water mastery","water mastery"]]} />
+<Offense sp={20} sw={90} melee="2 slams +15 (2d6+7)" space="15" reach="15" specAtt={[["drench","drench"],["vortex DC 22","vortex (DC 22)"],["water mastery","water mastery"]]} />
 <Stats atts={[24,18,19,6,11,11]} bab={10} cmb={19} cmd={34} feats={["Cleave","Dodge","Great Cleave","Improved Bull Rush","Power Attack"]} skills={{"acro":{"b":11},"ea":{"b":15},"k":{"p":7},"per":{"b":13},"stl":{"b":3},"swim":{"b":26}}} />
 <Header full id="greater-water-elemental"><span>Greater Water Elemental</span><span>CR 9</span></Header>
 <Info source={[["Pathfinder RPG Bestiary",127]]} xp="6,400" n huge outsider subs={["elemental","extraplanar","water"]} init={5} dv={60} pcp={16} />
 <Defense ac={[23,14,17]} mod="+5 Dex, +1 dodge, +9 natural, -2 size" hp={[123,"13d10+52"]} fort="+12" ref="+15" will="+4" dr="10/-" immune="elemental traits" />
-<Offense sp={20} sw={90} melee="2 slams +20 (2d8+9)" space={"15"} reach={"15"} specAtt={[["drench","drench"],["vortex DC 25","vortex (DC 25)"],["water mastery","water mastery"]]} />
+<Offense sp={20} sw={90} melee="2 slams +20 (2d8+9)" space="15" reach="15" specAtt={[["drench","drench"],["vortex DC 25","vortex (DC 25)"],["water mastery","water mastery"]]} />
 <Stats atts={[28,20,19,8,11,11]} bab={13} cmb={24} cmd={40} feats={["Cleave","Dodge","Great Cleave","Improved Bull Rush","Improved Sunder","Lightning Reflexes","Power Attack"]} skills={{"acro":{"b":18},"ea":{"b":20},"k":{"p":12},"per":{"b":16},"stl":{"b":10},"swim":{"b":30}}} />
 <Header full id="elder-water-elemental"><span>Elder Water Elemental</span><span>CR 11</span></Header>
 <Info source={[["Pathfinder RPG Bestiary",127]]} xp="12,800" n huge outsider subs={["elemental","extraplanar","water"]} init={6} dv={60} pcp={19} />
 <Defense ac={[24,15,17]} mod="+6 Dex, +1 dodge, +9 natural, -2 size" hp={[152,"16d10+64"]} fort="+14" ref="+18" will="+5" dr="10/-" immune="elemental traits" />
-<Offense sp={20} sw={90} melee="2 slams +24 (2d10+10/19-20)" space={"15"} reach={"15"} specAtt={[["drench","drench"],["vortex DC 28","vortex (DC 28)"],["water mastery","water mastery"]]} />
+<Offense sp={20} sw={90} melee="2 slams +24 (2d10+10/19-20)" space="15" reach="15" specAtt={[["drench","drench"],["vortex DC 28","vortex (DC 28)"],["water mastery","water mastery"]]} />
 <Stats atts={[30,22,19,10,11,11]} bab={16} cmb={28} cmd={45} feats={["Cleave","Dodge","Great Cleave","Improved Bull Rush",["Improved Critical"," (slam)"],"Improved Sunder","Lightning Reflexes","Power Attack"]} skills={{"acro":{"b":25},"ea":{"b":25},"k":{"p":19},"per":{"b":19},"stl":{"b":17},"swim":{"b":37}}} />
 </div>
 </>};
@@ -1009,7 +1009,7 @@ const _shadow_rat = {title: "Shadow Rat", jsx: <><p><em>This creature appears as
 <div className="reduce">
 <Info source={[["Pathfinder #91: Battle of Bloodmarch Hills",31],["Tome of Horrors Complete (PF)",504]]} xp="200" n tiny undead init={2} dv={60} scent pcp={8} />
 <Defense ac={[14,14,13]} mod="+2 Dex, +1 natural, +2 size" hp={[5,"1d8+1"]} fort="+1" ref="+2" will="+3" def={[["incorporeal form","incorporeal form"],["shadow blend","shadow blend"]]} immune={<Link to="/umr/undead_traits">undead traits</Link>} />
-<Offense sp={40} cl={15} melee={<>bite +4 (1d3-2 plus 1d2 <Link to="/rule/strength_damage">Strength damage</Link> and disease)</>} space={"2-1/2"} reach={"0"} />
+<Offense sp={40} cl={15} melee={<>bite +4 (1d3-2 plus 1d2 <Link to="/rule/strength_damage">Strength damage</Link> and disease)</>} space="2-1/2" reach="0" />
 <Stats atts={[6,15,0,2,12,13]} bab={0} cmb={0} cmd={8} cmdP="12 vs. trip" feats={[["Skill Focus"," (Perception)"],["Weapon Finesse",<sup>B</sup>]]} skills={{"climb":{"b":10},"per":{"b":8},"stl":{"b":14}}} racial="+4 Stealth; uses Dex to modify Climb" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Ecology env="underground" org="pack (6-11) or swarm (12-20)" treasure={{"X":false}} />
@@ -1046,7 +1046,7 @@ const _shadow_rat_swarm = {title: "Shadow Rat Swarm", jsx: <><p><em>A squirming 
 <div className="reduce">
 <Info source={[["Pathfinder #91: Battle of Bloodmarch Hills",52],["Tome of Horrors Complete (PF)",586]]} xp="1,200" ne tiny undead subs={["swarm"]} init={6} dv={60} scent pcp={10} />
 <Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[39,"6d8+12"]} fort="+4" ref="+6" will="+6" def={[["half damage from piercing and slashing","half damage from piercing and slashing"],["incorporeal form","incorporeal form"],["shadow blend","shadow blend"],["swarm traits","swarm traits"]]} immune={<Link to="/umr/undead_traits">undead traits</Link>} />
-<Offense sp={40} cl={15} melee={<>swarm (2d6 plus 1d4 <Link to="/rule/strength_damage">Strength damage</Link> and disease)</>} space={"10"} reach={"0"} distraction={15} />
+<Offense sp={40} cl={15} melee={<>swarm (2d6 plus 1d4 <Link to="/rule/strength_damage">Strength damage</Link> and disease)</>} space="10" reach="0" distraction={15} />
 <Stats atts={[6,15,0,2,12,15]} bab={4} cmb={null} cmd={null} feats={["Improved Initiative","Lightning Reflexes",["Skill Focus"," (Perception)"]]} skills={{"climb":{"b":10},"per":{"b":10},"stl":{"b":20}}} racial="+4 Stealth; uses Dex to modify Climb" />
 <Ecology env="underground" org="solitary, pack (2-4 swarms), or nest (5-8 swarms)" treasure={{"X":false}} />
 </div>

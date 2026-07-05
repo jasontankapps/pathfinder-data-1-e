@@ -275,9 +275,18 @@ export const makeMonsterStatisticsBlock = ({flags, marked2, convertEncodedInfo, 
 	// FAITH LINE
 	//
 	faith && output.push(`faith="${faith}"`);
-	return flag ?
-		`${maybeClear}<Stats ${output.join(" ")} />\n`
-	: "<Header sub>Statistics</Header><p><em>Error.</em></p>\n";
+	if(flag) {
+		let potential = `${maybeClear}<Stats ${output.join(" ")} />`;
+		let final = "";
+		let m;
+		while(m = potential.match(/(^.*?)=\{(?:<>|")([^<>"]+)(?:<[/]>|")\}(.*$)/)) {
+			const [,pre,text,post] = m;
+			final = final + `${pre}="${text}"`;
+			potential = post;
+		}
+		return final + potential + "\n";
+	}
+	return "<Header sub>Statistics</Header><p><em>Error.</em></p>\n";
 };
 
 export default makeMonsterStatisticsBlock;

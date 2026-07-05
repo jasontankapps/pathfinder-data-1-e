@@ -12,7 +12,7 @@ const _howler = {title: "Howler", jsx: <><p><em>This vile predator has a hide as
 <div className="reduce">
 <Info source={[["Bestiary 2",159]]} xp="800" ce large outsider subs={["chaotic","evil","extraplanar"]} init={6} dv={60} pcp={13} />
 <Defense ac={[15,11,13]} mod="+2 Dex, +4 natural, -1 size" hp={[37,"5d10+10"]} fort="+6" ref="+6" will="+3" def={[["quill defense","quill defense"]]} />
-<Offense sp={60} melee="bite +8 (1d8+4), quills +3 (1d4+2 plus pain)" space={"10"} reach={"5"} specAtt={[["howl","howl"]]} />
+<Offense sp={60} melee="bite +8 (1d8+4), quills +3 (1d4+2 plus pain)" space="10" reach="5" specAtt={[["howl","howl"]]} />
 <Stats atts={[18,15,15,6,14,11]} bab={5} cmb={10} cmd={22} feats={["Combat Reflexes","Improved Initiative",["Skill Focus"," (Perception)"]]} skills={{"acro":{"b":10,"x":"+22 jump"},"climb":{"b":12},"per":{"b":13},"stl":{"b":6}}} lang={["AX"]} />
 <Ecology env={<>any land (<Link to="/rule/the_abyss">the Abyss</Link>)</>} org="solitary or pack (2-4)" treasure={{"I":false}} />
 </div>
@@ -29,7 +29,7 @@ const _howler = {title: "Howler", jsx: <><p><em>This vile predator has a hide as
 const _huecuva = {title: "Huecuva", jsx: <><p><em>Rotting vestments hang across the withered flesh of this walking corpse, and its mouth hangs open in a silent scream.</em></p>
 <Header full><span>Huecuva</span><span>CR 2</span></Header>
 <div className="reduce">
-<Info source={[["Bestiary 3",150],["Bonus Bestiary",12]]} xp="600" ce medium undead init={6} dv={60} pcp={5} aura={"faithlessness (30 ft.)"} />
+<Info source={[["Bestiary 3",150],["Bonus Bestiary",12]]} xp="600" ce medium undead init={6} dv={60} pcp={5} aura="faithlessness (30 ft.)" />
 <Defense ac={[15,12,13]} mod="+2 Dex, +3 natural" hp={[16,"3d8+3"]} fort="+2" ref="+3" will="+4" dr="5/magic or silver" immune={<Link to="/umr/undead_traits">undead traits</Link>} />
 <Offense sp={30} melee="2 claws +4 (1d4+1 plus disease)" />
 <Stats atts={[13,14,0,4,12,12]} bab={2} cmb={3} cmd={15} feats={["Improved Initiative",["Weapon Focus"," (claw)"]]} skills={{"per":{"b":5},"stl":{"b":7}}} sq="false humanity" />
@@ -65,7 +65,7 @@ const _griefgall = {title: "Griefgall", jsx: <><p><em>Thorn-tipped tendrils and 
 <div className="reduce">
 <Info source={[["Bestiary 5",133]]} xp="2,400" ne tiny plant init={8} llv aav pcp={16} />
 <Defense ac={[17,17,12]} mod="+4 Dex, +1 dodge, +2 size" hp={[58,"9d8+18"]} fort="+8" ref="+7" will="+5" dr="5/slashing" immune={<Link to="/umr/plant_traits">plant traits</Link>} weak={["cold lethargy"]} />
-<Offense sp={5} br={5} cl={5} melee="tendrils +12 (1d2-3 plus paralysis)" space={"2-1/2"} reach={"0"} reachP={"5 ft. with tendrils"} specAtt={[["parasitize","parasitize"]]} paralysis="1d3 minutes, DC 16" />
+<Offense sp={5} br={5} cl={5} melee="tendrils +12 (1d2-3 plus paralysis)" space="2-1/2" reach="0" reachP="5 ft. with tendrils" specAtt={[["parasitize","parasitize"]]} paralysis="1d3 minutes, DC 16" />
 <SpellBlock id="1" psy={{"pe":12,"cl":9,"content":<><Link to="/spell/crushing_despair">crushing despair</Link> (4 PE, DC 16), <Link to="/spell/feast_on_fear">feast on fear</Link> (5 PE, DC 17), <Link to="/spell/miserable_pity">miserable pity</Link> (affects host and self; 2 PE, DC 14), <Link to="/spell/overwhelming_grief">overwhelming grief</Link> (4 PE, DC 16), <Link to="/spell/terrible_remorse">terrible remorse</Link> (4 PE, DC 16)</>,"con":"+11"}} />
 <Stats atts={[4,19,14,4,15,15]} bab={6} cmb={8} cmd={16} cmdP="can't be tripped" feats={["Dodge","Improved Initiative",["Skill Focus"," (Perception)"],"Skill Focus (Stealth)","Weapon Finesse"]} skills={{"climb":{"b":5},"per":{"b":16},"stl":{"b":19}}} lang={[["Aklo (speaks through host only)"]]} sq={<><Link to="/umr/freeze">freeze</Link>, germinate</>} />
 <Ecology env="temperate or warm forests or urban" org="solitary or infestation (2-5)" treasure={{"I":false}} />
@@ -84,7 +84,7 @@ const _griffon = {title: "Griffon", jsx: <><p><em>This majestic beast has the bo
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",168]]} xp="1,200" n large magicalBeast init={2} dv={60} llv scent pcp={12} />
 <Defense ac={[17,11,15]} mod="+2 Dex, +6 natural, -1 size" hp={[42,"5d10+15"]} fort="+7" ref="+6" will="+4" />
-<Offense sp={30} fl={80} flP="average" melee="bite +8 (1d6+3), 2 talons +7 (1d6+3)" space={"10"} reach={"5"} pounce rake="2 claws +7, 1d4+3" />
+<Offense sp={30} fl={80} flP="average" melee="bite +8 (1d6+3), 2 talons +7 (1d6+3)" space="10" reach="5" pounce rake="2 claws +7, 1d4+3" />
 <Stats atts={[16,15,16,5,13,8]} bab={5} cmb={9} cmd={21} cmdP="25 vs. trip" feats={["Iron Will",["Skill Focus"," (Perception)"],["Weapon Focus"," (bite)"]]} skills={{"acro":{"b":10},"fly":{"b":6},"per":{"b":12}}} racial="+4 Acrobatics, +4 Perception" lang={["CX"]} />
 <Ecology env="temperate hills" org="solitary, pair, or pride (6-10)" treasure={{"I":false}} />
 </div>
@@ -100,7 +100,7 @@ const _grig = {title: "Grig", jsx: <><p><em>Perched on the prickly legs of a cri
 <div className="reduce">
 <Info source={[["Bestiary 2",147]]} xp="400" ng tiny fey init={4} llv pcp={5} />
 <Defense ac={[17,17,12]} mod="+4 Dex, +1 dodge, +2 size" hp={[4,"1d6+1"]} fort="+1" ref="+6" will="+3" dr="5/cold iron" sr="16" />
-<Offense sp={30} fl={40} flP="average" melee="short sword -1 (1d3-3/19-20)" ranged="longbow +6 (1d4-3/&times;3)" space={"2-1/2"} reach={"0"} specAtt={[["fiddle","fiddle"]]} />
+<Offense sp={30} fl={40} flP="average" melee="short sword -1 (1d3-3/19-20)" ranged="longbow +6 (1d4-3/&times;3)" space="2-1/2" reach="0" specAtt={[["fiddle","fiddle"]]} />
 <SpellBlock id="1" sla={{"cl":9,"con":"+11","content":[{"day":3,"content":<><Link to="/spell/disguise_self">disguise self</Link>, <Link to="/spell/entangle">entangle</Link> (DC 13), <Link to="/spell/invisibility">invisibility</Link> (self only), <Link to="/spell/pyrotechnics">pyrotechnics</Link> (DC 14)</>}]}} />
 <Stats atts={[5,18,13,10,13,14]} bab={0} cmb={2} cmd={10} cmdP="16 vs. trip" feats={["Dodge"]} skills={{"acro":{"b":8,"x":"+12 jump"},"ea":{"b":8},"fly":{"b":12},"per":{"b":5},"perf":{"of":"string","b":6},"stl":{"b":16}}} racial="+4 Acrobatics when jumping" lang={["C","S"]} />
 <Ecology env="temperate forests" org="solitary, gang (2-5), or band (6-11)" treasure={{"N":[["Wss"],["Wlb20"]],"final":"other treasure"}} />
@@ -118,7 +118,7 @@ const _grimslake = {title: "Grimslake", jsx: <><p><em>This maggot-like creature 
 <div className="reduce">
 <Info source={[["Bestiary 5",136],["The Worldwound",55]]} xp="2,400" ce large aberration subs={["extraplanar"]} init={5} dv={60} tremorsense={30} pcp={13} />
 <Defense ac={[19,10,18]} mod="+1 Dex, +9 natural, -1 size" hp={[68,"8d8+32"]} fh="5" fort="+6" ref="+5" will="+10" def={[["slashing scales","slashing scales"]]} immune="disease" resist="acid 10, fire 10" />
-<Offense sp={20} br={20} cl={20} melee={<>bite +12 (2d6+7 plus <Link to="/umr/grab">grab</Link>), sting +12 (1d6+7 plus grab)</>} space={"10"} reach={"10"} specAtt={[["marrow drain","marrow drain"],["penetrating jaws","penetrating jaws"]]} constrict="1d6+6" />
+<Offense sp={20} br={20} cl={20} melee={<>bite +12 (2d6+7 plus <Link to="/umr/grab">grab</Link>), sting +12 (1d6+7 plus grab)</>} space="10" reach="10" specAtt={[["marrow drain","marrow drain"],["penetrating jaws","penetrating jaws"]]} constrict="1d6+6" />
 <SpellBlock id="1" sla={{"cl":6,"con":"+6","content":[{"day":3,"content":<><Link to="/spell/death_knell">death knell</Link> (DC 12), <Link to="/spell/ray_of_exhaustion">ray of exhaustion</Link> (DC 13)</>},{"day":1,"content":<><Link to="/spell/slow">slow</Link> (DC 13)</>}]}} />
 <Stats atts={[24,13,19,6,14,11]} bab={6} cmb={14} cmbP="+18 grapple" cmd={25} cmdP="can't be tripped" feats={["Improved Initiative","Iron Will","Lightning Reflexes","Step Up"]} skills={{"climb":{"b":26},"per":{"b":13}}} lang={["A"]} />
 <Ecology env="any" org="solitary, pair, or tangle (3-10)" treasure={{"I":false}} />
@@ -192,7 +192,7 @@ const _grisantian_lion = {title: "Grisantian Lion", jsx: <><p><em>This massive l
 <div className="reduce">
 <Info source={[["Pathfinder #132: The Six-Legend Soul",86]]} xp="38,400" cn huge magicalBeast init={9} dv={60} llv scent pcp={11} />
 <Defense ac={[29,13,24]} mod="+5 Dex, +16 natural, -2 size" hp={[184,"16d10+96"]} fort="+16" ref="+15" will="+8" dr="10/epic" immune="disease, poison" resist="fire 10" />
-<Offense sp={40} melee={<>bite +23 (3d6+13 plus <Link to="/umr/grab">grab</Link>), 2 claws +23 (1d8+9)</>} space={"15"} reach={"10"} specAtt={[["powerful bite","powerful bite"],["tearing claws","tearing claws"]]} pounce rake="2 claws +23, 1d8+9" />
+<Offense sp={40} melee={<>bite +23 (3d6+13 plus <Link to="/umr/grab">grab</Link>), 2 claws +23 (1d8+9)</>} space="15" reach="10" specAtt={[["powerful bite","powerful bite"],["tearing claws","tearing claws"]]} pounce rake="2 claws +23, 1d8+9" />
 <Stats atts={[29,21,22,4,12,11]} bab={16} cmb={27} cmbP="+31 sunder" cmd={42} cmdP="44 vs. sunder, 46 vs. trip" feats={["Greater Sunder","Improved Initiative","Improved Sunder","Iron Will","Power Attack","Run",["Skill Focus"," (Perception)"],"Vital Strike"]} skills={{"acro":{"b":16,"x":"+20 when jumping"},"climb":{"b":16},"per":{"b":11},"stl":{"b":8}}} racial="+4 Acrobatics, +4 Stealth" lang={["CX"]} />
 <Ecology env="warm plains or hills" org="solitary" treasure={{"I":false}} />
 </div>
@@ -235,7 +235,7 @@ const _grootslang = {title: "Grootslang", jsx: <><p><em>This enormous beast has 
 <div className="reduce">
 <Info source={[["Bestiary 3",144],["Pathfinder #42: Sanctum of the Serpent God",84]]} xp="76,800" ce gargantuan magicalBeast init={4} dv={120} scent pcp={28} />
 <Defense ac={[31,11,26]} mod="+4 Dex, +1 dodge, +20 natural, -4 size" hp={[283,"21d10+168"]} fort="+20" ref="+16" will="+12" dr="10/magic" sr="27" />
-<Offense sp={40} sw={30} melee="bite +30 (4d8+13/19-20), 2 stomps +27 (2d6+6), tail slap +27 (2d6+6)" space={"20"} reach={"20"} specAtt={[["impaling bite","impaling bite"],["thunderous stomp DC 28","thunderous stomp (DC 28)"]]} trample="2d6+19, DC 33" />
+<Offense sp={40} sw={30} melee="bite +30 (4d8+13/19-20), 2 stomps +27 (2d6+6), tail slap +27 (2d6+6)" space="20" reach="20" specAtt={[["impaling bite","impaling bite"],["thunderous stomp DC 28","thunderous stomp (DC 28)"]]} trample="2d6+19, DC 33" />
 <Stats atts={[36,19,26,15,20,15]} bab={21} cmb={38} cmd={53} cmdP="55 vs. trip" feats={["Awesome Blow","Bleeding Critical","Cleave","Critical Focus","Dodge","Improved Bull Rush",["Improved Critical"," (bite)"],"Mobility","Multiattack","Power Attack","Spring Attack"]} skills={{"acro":{"b":15,"x":"+19 when jumping"},"bluff":{"b":4},"intm":{"b":15},"per":{"b":28},"sm":{"b":13},"stl":{"b":10},"swim":{"b":45}}} lang={["Aq","C","D"]} sq={<>aquatic elusion, <Link to="/umr/hold_breath">hold breath</Link></>} />
 <Ecology env="warm lakes and rivers" org="solitary" treasure={{"D":[],"final":"at least 50% gems"}} />
 </div>
@@ -290,7 +290,7 @@ const _guardian_scroll = {title: "Guardian Scroll", jsx: <><p><em>This innocuous
 <div className="reduce">
 <Info source={[["Bestiary 5",138],["Pathfinder #79: The Half-Dead City",82]]} xp="800" n tiny construct init={2} dv={60} llv pcp={0} />
 <Defense ac={[15,15,12]} mod="+2 Dex, +1 dodge, +2 size" hp={[27,"5d10"]} fort="+1" ref="+5" will="+1" dr="5/magic" immune={<>bludgeoning, crushing, and falling damage, <Link to="/umr/construct_traits">construct traits</Link></>} weak={["susceptible to mind-affecting effects",<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
-<Offense sp={10} fl={40} flP="perfect" melee="slice +9 (1d4+3 plus 1d2 bleed and grab)" space={"2-1/2"} reach={"0"} specAtt={[["smothering wrap","smothering wrap"]]} bleed="1d2" constrict="1d4+3" grab="Medium" />
+<Offense sp={10} fl={40} flP="perfect" melee="slice +9 (1d4+3 plus 1d2 bleed and grab)" space="2-1/2" reach="0" specAtt={[["smothering wrap","smothering wrap"]]} bleed="1d2" constrict="1d4+3" grab="Medium" />
 <Stats atts={[14,15,0,4,10,12]} bab={5} cmb={5} cmbP="+9 grapple" cmd={18} feats={["Dodge","Flyby Attack","Lightning Reflexes"]} skills={{"acro":{"b":4},"fly":{"b":20}}} lang={["CX"]} />
 <Ecology env="any" org="solitary, pair, or collection (3-6)" treasure={{"X":false}} />
 </div>
@@ -307,7 +307,7 @@ const _guardian_scroll = {title: "Guardian Scroll", jsx: <><p><em>This innocuous
 const _guecubu = {title: "Guecubu", jsx: <><p><em>A skeletal carcass pulls itself from the ground, its body formed as much from earth and soil as from bones and rotting flesh.</em></p>
 <Header full><span>Guecubu</span><span>CR 8</span></Header>
 <div className="reduce">
-<Info source={[["Bestiary 3",145]]} xp="4,800" ce medium undead subs={["earth"]} init={8} dv={60} tremorsense={60} pcp={18} aura={"broken ground (30 ft., DC 20)"} />
+<Info source={[["Bestiary 3",145]]} xp="4,800" ce medium undead subs={["earth"]} init={8} dv={60} tremorsense={60} pcp={18} aura="broken ground (30 ft., DC 20)" />
 <Defense ac={[21,15,16]} mod="+4 Dex, +1 dodge, +6 natural" hp={[104,"11d8+55"]} fh="5" fort="+8" ref="+7" will="+11" chanRes="+2" dr="5/bludgeoning" immune={<>electricity, <Link to="/umr/undead_traits">undead traits</Link></>} resist="cold 10" />
 <Offense sp={30} br={15} spExtra="earth glide" melee="bite +14 (1d8+6 plus misfortune), 2 slams +14 (1d6+6 plus misfortune)" />
 <SpellBlock id="1" sla={{"cl":8,"con":"+13","content":[{"will":true,"content":<Link to="/spell/stone_shape">stone shape</Link>},{"day":3,"content":<><Link to="/spell/soften_earth_and_stone">soften earth and stone</Link>, <Link to="/spell/spike_growth">spike growth</Link> (DC 18)</>},{"day":1,"content":<><Link to="/spell/spike_stones">spike stones</Link> (DC 19), <Link to="/spell/transmute_mud_to_rock">transmute mud to rock</Link> (DC 20), <Link to="/spell/transmute_rock_to_mud">transmute rock to mud</Link> (DC 20)</>}]}} />
@@ -327,7 +327,7 @@ const _gug = {title: "Gug", jsx: <><p><em>This towering menace has a horrible, v
 <div className="reduce">
 <Info source={[["Bestiary 2",151],["Pathfinder #11: Skeletons of Scarwall",82]]} xp="9,600" ce large aberration init={1} dv={60} pcp={27} />
 <Defense ac={[24,10,23]} mod="+1 Dex, +14 natural, -1 size" hp={[127,"15d8+60"]} fort="+9" ref="+6" will="+12" immune="disease, poison" />
-<Offense sp={40} cl={20} melee="bite +17 (1d8+7), 4 claws +17 (1d6+7)" space={"10"} reach={"15"} rend="2 claws, 1d6+10" />
+<Offense sp={40} cl={20} melee="bite +17 (1d8+7), 4 claws +17 (1d6+7)" space="10" reach="15" rend="2 claws, 1d6+10" />
 <Stats atts={[25,12,18,11,16,11]} bab={11} cmb={19} cmd={30} feats={["Awesome Blow","Blind-Fight","Combat Reflexes","Greater Bull Rush","Improved Bull Rush","Lunge","Power Attack",["Skill Focus"," (Perception)"]]} skills={{"climb":{"b":15},"ea":{"b":13},"k":{"d":10},"per":{"b":27}}} racial="+4 Escape Artist" lang={["U"]} sq={<Link to="/umr/compression">compression</Link>} />
 <Ecology env="any underground" org="solitary, pair, or camp (3-10)" treasure={{"S":false}} />
 </div>
@@ -346,7 +346,7 @@ const _gunpowder_ooze = {title: "Gunpowder Ooze", jsx: <><p><em>This lurching ma
 <div className="reduce">
 <Info source={[["Bestiary 5",139],["Wardens of the Reborn Forge",63]]} xp="38,400" n large ooze init={0} pcp={-5} />
 <Defense ac={[9,9,9]} mod="-1 size" hp={[230,"20d8+140"]} fort="+13" ref="+6" will="+1" split="slashing or fire, 46 hp" immune={<>cold, <Link to="/umr/ooze_traits">ooze traits</Link></>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
-<Offense sp={20} cl={20} melee={<>slam +23 (2d6+13 plus <Link to="/umr/grab">grab</Link> and gunpowder residue)</>} ranged="blast +14 touch (4d6+7 plus gunpowder residue)" space={"10"} reach={"10"} specAtt={[["blast","blast"],["combust","combust"],["gunpowder residue","gunpowder residue"]]} constrict="2d6+13" />
+<Offense sp={20} cl={20} melee={<>slam +23 (2d6+13 plus <Link to="/umr/grab">grab</Link> and gunpowder residue)</>} ranged="blast +14 touch (4d6+7 plus gunpowder residue)" space="10" reach="10" specAtt={[["blast","blast"],["combust","combust"],["gunpowder residue","gunpowder residue"]]} constrict="2d6+13" />
 <Stats atts={[28,11,24,0,1,1]} bab={15} cmb={25} cmbP="+29 grapple" cmd={35} cmdP="can't be tripped" skills={{"climb":{"b":17}}} />
 <Ecology env="any land" org="solitary" treasure={{"X":false}} />
 </div>
@@ -362,7 +362,7 @@ const _gunpowder_ooze = {title: "Gunpowder Ooze", jsx: <><p><em>This lurching ma
 const _hallowed_lynx = {title: "Hallowed Lynx", jsx: <><p><em>Within a halo of brilliant, glowing orbs are the distinctive features of a compact feline with tufted ears, a short tail, and keen, piercing eyes.</em></p>
 <Header full><span>Hallowed Lynx</span><span>CR 17</span></Header>
 <div className="reduce">
-<Info source={[["Pathfinder #138: Rise of New Thassilon",88]]} xp="102,400" ne small magicalBeast init={5} senSpell={["arcane sight"]} dv={60} llv scent pcp={0} aura={"hallowed lights (60 ft., DC 26)"} />
+<Info source={[["Pathfinder #138: Rise of New Thassilon",88]]} xp="102,400" ne small magicalBeast init={5} senSpell={["arcane sight"]} dv={60} llv scent pcp={0} aura="hallowed lights (60 ft., DC 26)" />
 <Defense ac={[29,17,23]} mod="+5 Dex, +1 dodge, +12 natural, +1 size" hp={[241,"23d10+115"]} fort="+17" ref="+20" will="+14" immune="blindness, fire, light effects" />
 <Offense sp={40} cl={20} melee="bite +29 (1d6+1), 2 claws +29 (1d6+1)" ranged="blinding orb +24 touch (10d8 plus blindness)" specAtt={[["blinding orb DC 26","blinding orb (DC 26)"],["release shining child","release shining child"]]} pounce rake="2 claws +29, 1d6+1" sneak="+6d6" />
 <SpellBlock id="1" sla={{"cl":23,"con":"+28","content":[{"constant":true,"content":<Link to="/spell/arcane_sight">arcane sight</Link>},{"will":true,"content":<><Link to="/spell/daylight">daylight</Link>, <Link to="/spell/major_image">major image</Link> (DC 18), <Link to="/spell/mirror_image">mirror image</Link>, <Link to="/spell/rainbow_pattern">rainbow pattern</Link> (DC 19)</>},{"day":3,"content":<><Link to="/feat/quickened">quickened</Link> <em>dispel magic</em>, <Link to="/spell/prismatic_spray">prismatic spray</Link> (DC 22), <Link to="/spell/scintillating_pattern">scintillating pattern</Link></>}]}} />
@@ -408,7 +408,7 @@ const _hangman_tree = {title: "Hangman Tree", jsx: <><p><em>This sinister tree l
 <div className="reduce">
 <Info source={[["Bestiary 2",152]]} xp="3,200" ne huge plant init={3} blindsight={60} pcp={11} />
 <Defense ac={[20,7,20]} mod="-1 Dex, +13 natural, -2 size" hp={[84,"8d8+48"]} fort="+12" ref="+3" will="+5" immune={<Link to="/umr/plant_traits">plant traits</Link>} sr="18" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense sp={10} melee={<>3 vines +11 (1d6+7 plus <Link to="/umr/grab">grab</Link> and pull)</>} space={"15"} reach={"15"} specAtt={[["hallucinatory spores","hallucinatory spores"],["vines","vines"]]} constrict="1d6+7" pull="vine, 5 feet" strangle swallow="2d6+7 bludgeoning damage, AC 16, 8 hp" />
+<Offense sp={10} melee={<>3 vines +11 (1d6+7 plus <Link to="/umr/grab">grab</Link> and pull)</>} space="15" reach="15" specAtt={[["hallucinatory spores","hallucinatory spores"],["vines","vines"]]} constrict="1d6+7" pull="vine, 5 feet" strangle swallow="2d6+7 bludgeoning damage, AC 16, 8 hp" />
 <Stats atts={[25,8,23,7,12,10]} bab={6} cmb={15} cmbP="+19 grapple" cmd={24} feats={["Improved Initiative","Iron Will","Lightning Reflexes",["Skill Focus"," (Perception)"]]} skills={{"per":{"b":11},"stl":{"b":-2}}} lang={["S"]} />
 <Ecology env="temperate forests" org="solitary or pair" treasure={{"S":false}} />
 </div>
@@ -467,7 +467,7 @@ const _harionago = {title: "Harionago", jsx: <><p><em>This deathly pale beauty's
 <div className="reduce">
 <Info source={[["Bestiary 4",149]]} xp="12,800" ne medium undead init={9} dv={60} pcp={20} />
 <Defense ac={[25,15,20]} mod="+5 Dex, +10 natural" hp={[147,"14d8+84"]} fort="+10" ref="+9" will="+12" chanRes="+2" dr="10/magic" immune={<Link to="/umr/undead_traits">undead traits</Link>} />
-<Offense sp={30} melee="2 claws +15 (1d6+4/19-20 plus paralysis), 4 hair barbs +12 (1d6+2/19-20 plus bleed)" space={"5"} reach={"5"} reachP={"10 ft. with hair barbs"} specAtt={[["infectious laughter","infectious laughter"]]} bleed="5" paralysis="1d4+1 rounds, DC 23" />
+<Offense sp={30} melee="2 claws +15 (1d6+4/19-20 plus paralysis), 4 hair barbs +12 (1d6+2/19-20 plus bleed)" space="5" reach="5" reachP="10 ft. with hair barbs" specAtt={[["infectious laughter","infectious laughter"]]} bleed="5" paralysis="1d4+1 rounds, DC 23" />
 <SpellBlock id="1" sla={{"cl":14,"con":"+20","content":[{"day":3,"content":<><Link to="/spell/feather_fall">feather fall</Link>, <Link to="/spell/levitate">levitate</Link>, <Link to="/spell/ray_of_enfeeblement">ray of enfeeblement</Link> (DC 17), <Link to="/spell/unnatural_lust">unnatural lust</Link> (DC 18)</>},{"day":1,"content":<><Link to="/spell/charm_monster">charm monster</Link> (DC 19), <Link to="/spell/vampiric_touch">vampiric touch</Link> (DC 19)</>}]}} />
 <Stats atts={[19,20,0,15,17,22]} bab={10} cmb={14} cmd={29} feats={["Combat Reflexes",["Improved Critical"," (claw)"],"Improved Critical (hair barb)","Improved Initiative",["Improved Natural Attack"," (hair barb)"],"Multiattack","Weapon Finesse"]} skills={{"bluff":{"b":20},"dis":{"b":23},"perf":{"of":"sing","b":10},"sm":{"b":20},"stl":{"b":22}}} lang={["C","E","S"]} />
 <Ecology env="any land" org="solitary" treasure={{"S":false}} />
@@ -500,7 +500,7 @@ const _havero_havero_tentacle = {title: "Havero Tentacle", jsx: <><Header full><
 <div className="reduce">
 <Info source={[["Curse of the Crimson Throne",473]]} xp="2,400" ne large aberration init={1} blindsense={60} pcp={5} />
 <Defense ac={[19,10,18]} mod="+1 Dex, +9 natural, -1 size" hp={[66,"7d8+35"]} fort="+7" ref="+3" will="+10" dr="5/slashing" immune="cold, mind-affecting effects, poison, vision-based effects" resist="acid 10, fire 10" />
-<Offense melee={<>tentacle +13 (2d6+13 plus <Link to="/umr/grab">grab</Link>)</>} space={"5"} reach={"60"} constrict="2d6+9" />
+<Offense melee={<>tentacle +13 (2d6+13 plus <Link to="/umr/grab">grab</Link>)</>} space="5" reach="60" constrict="2d6+9" />
 <Stats atts={[28,12,20,0,20,10]} bab={5} cmb={15} cmd={26} sq={<Link to="/umr/no_breath">no breath</Link>} />
 </div>
 <Header sub>Description</Header>
@@ -511,7 +511,7 @@ const _heart_thief = {title: "Heart Thief", jsx: <><p><em>Dozens of antlers crow
 <div className="reduce">
 <Info source={[["Seers of the Drowned City",57]]} xp="6,400" ce large outsider subs={["chaotic","evil","native"]} init={7} dv={60} pcp={19} />
 <Defense ac={[24,12,21]} mod="+3 Dex, +12 natural, -1 size" hp={[115,"12d10+48"]} fort="+12" ref="+7" will="+12" dr="10/silver" immune="disease, fire, poison, fear" resist="acid 10, cold 10" sr="20" />
-<Offense sp={40} cl={20} melee={<>2 claws +17 (1d8+6/19-20 plus <Link to="/umr/grab">grab</Link>), gore +17 (2d6+6)</>} space={"10"} reach={"10"} specAtt={[["disemboweling critical","disemboweling critical"],["harvest heart","harvest heart"]]} rend="2 claws, 2d6+6" />
+<Offense sp={40} cl={20} melee={<>2 claws +17 (1d8+6/19-20 plus <Link to="/umr/grab">grab</Link>), gore +17 (2d6+6)</>} space="10" reach="10" specAtt={[["disemboweling critical","disemboweling critical"],["harvest heart","harvest heart"]]} rend="2 claws, 2d6+6" />
 <SpellBlock id="1" sla={{"cl":9,"con":"+14","content":[{"constant":true,"content":<><Link to="/spell/pass_without_trace">pass without trace</Link>, <Link to="/spell/speak_with_animals">speak with animals</Link></>},{"will":true,"content":<><Link to="/spell/atavism">atavism</Link> (DC 19), <Link to="/spell/dominate_animal">dominate animal</Link> (DC 18), <Link to="/spell/transport_via_plants">transport via plants</Link> (self plus 50 lbs. of objects only)</>},{"day":3,"content":<><Link to="/spell/air_walk">air walk</Link>, <Link to="/spell/snare">snare</Link>, <Link to="/spell/spike_stones">spike stones</Link> (DC 19), <Link to="/spell/summon_natures_ally_vii">summon nature's ally VII</Link> (animals only)</>},{"day":1,"content":<><Link to="/umr/summon">summon</Link> (level 3; 1 <Link to="/monster/baykok">baykok</Link> 35%)</>}]}} />
 <Stats atts={[23,16,19,17,18,20]} bab={12} cmb={19} cmd={32} feats={["Blind-Fight","Combat Casting",["Improved Critical"," (claws)"],"Improved Initiative","Power Attack","Vital Strike"]} skills={{"bluff":{"b":20},"climb":{"b":14},"craft":{"of":"trap","b":18},"ha":{"b":20},"k":{"n":18},"per":{"b":19}}} lang={["A","Ak","C","Dr","S",";",[<em>speak with animals</em>]]} />
 <Ecology env="any forest" org="solitary, pair, or hunt (3-5)" treasure={{"S":false}} />
@@ -529,7 +529,7 @@ const _heartrot_tree = {title: "Heartrot Tree", jsx: <><p><em>Fungus drips from 
 <div className="reduce">
 <Info source={[["Pathfinder #119: Prisoners of the Blight",86]]} xp="25,600" ne huge plant init={4} llv blindsense={60} pcp={14} />
 <Defense ac={[28,8,28]} mod="+20 natural, -2 size" hp={[184,"16d8+112"]} fort="+17" ref="+7" will="+5" aav dr="10/slashing" immune={<><Link to="/umr/plant_traits">plant traits</Link>, poison</>} />
-<Offense sp={10} melee="2 tendrils +20 (2d6+9/19-20), slam +20 (1d8+13/19-20 plus disease)" space={"15"} reach={"15"} specAtt={[["disease","disease"]]} />
+<Offense sp={10} melee="2 tendrils +20 (2d6+9/19-20), slam +20 (1d8+13/19-20 plus disease)" space="15" reach="15" specAtt={[["disease","disease"]]} />
 <Stats atts={[29,10,24,2,11,3]} bab={12} cmb={23} cmd={33} cmdP="can't be tripped" feats={[["Improved Critical"," (slam, tendril)"],"Improved Initiative","Lightning Reflexes","Power Attack",["Skill Focus"," (Perception)"],["Weapon Focus"," (slam, tendril)"]]} skills={{"per":{"b":14},"stl":{"b":3,"x":"+11 in forests"}}} racial="+8 Stealth in forests" sq="hardy stump, virulent roots" />
 <Ecology env="any forest or underground" org="solitary, pair, or festering grove (6-12)" treasure={{"I":false}} />
 </div>
@@ -586,7 +586,7 @@ const _hell_hound_nessian_warhound = {title: "Nessian Warhound (Hell Hound)", js
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",173]]} xp="6,400" le large outsider subs={["evil","extraplanar","fire","lawful"]} init={6} dv={60} scent pcp={12} />
 <Defense ac={[24,11,22]} mod="+6 armor, +2 Dex, +7 natural, -1 size" hp={[126,"12d10+60"]} fort="+13" ref="+10" will="+5" immune="fire" weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to cold</>]} />
-<Offense sp={40} melee="bite +20 (2d6+12/19-20 plus 2d6 fire)" space={"10"} reach={"10"} brWeap="30-ft. cone, once every 1d4 rounds, 10d6 fire damage, Reflex DC 21 half" />
+<Offense sp={40} melee="bite +20 (2d6+12/19-20 plus 2d6 fire)" space="10" reach="10" brWeap="30-ft. cone, once every 1d4 rounds, 10d6 fire damage, Reflex DC 21 half" />
 <Stats atts={[27,15,21,4,12,6]} bab={12} cmb={21} cmd={33} cmdP="37 vs. trip" feats={["Alertness",["Improved Critical"," (bite)"],"Improved Initiative",["Skill Focus"," (Stealth, Survival)"],["Weapon Focus"," (bite)"]]} skills={{"acro":{"b":16},"per":{"b":12}}} racial="+5 Stealth" lang={["I"]} />
 <Ecology env={<>any (<Link to="/rule/hell">Hell</Link>)</>} org="solitary, pair, or pack (3-6)" treasure={{"S":[["+2","Acs","Abd"]]}} />
 </div>
@@ -599,7 +599,7 @@ const _hellcat = {title: "Hellcat", jsx: <><p><em>This eerie beast appears to be
 <div className="reduce">
 <Info source={[["Bestiary 2",153]]} xp="3,200" le large outsider subs={["evil","extraplanar","lawful"]} init={9} dv={60} scent pcp={18} />
 <Defense ac={[21,15,15]} mod="+5 Dex, +1 dodge, +6 natural, -1 size" hp={[85,"9d10+36"]} fort="+10" ref="+13" will="+5" def={[["invisible in light","invisible in light"]]} dr="5/good" resist="fire 10" sr="18" />
-<Offense sp={40} melee={<>bite +13 (1d8+5), 2 claws +13 (1d6+5/19-20 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"5"} pounce rake="2 claws +13, 1d6+5/19-20" />
+<Offense sp={40} melee={<>bite +13 (1d8+5), 2 claws +13 (1d6+5/19-20 plus <Link to="/umr/grab">grab</Link>)</>} space="10" reach="5" pounce rake="2 claws +13, 1d6+5/19-20" />
 <Stats atts={[21,21,19,10,14,10]} bab={9} cmb={15} cmbP="+19 grapple" cmd={31} cmdP="35 vs. trip" feats={["Combat Reflexes","Dodge","Improved Initiative","Lightning Reflexes","Mobility"]} skills={{"acro":{"b":17,"x":"+21 jump"},"climb":{"b":17}}} racial="+4 Perception, +4 Stealth" lang={["IX",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} />
 <Ecology env={<>any land (<Link to="/rule/hell">Hell</Link>)</>} org="solitary, pair, or pack (3-8)" treasure={{"S":false}} />
 </div>
@@ -635,7 +635,7 @@ const _hellwasp_swarm = {title: "Hellwasp Swarm", jsx: <><p><em>This hideous, bu
 <div className="reduce">
 <Info source={[["Bestiary 3",146]]} xp="4,800" le diminutive vermin subs={["extraplanar","swarm"]} init={10} dv={60} pcp={4} />
 <Defense ac={[21,21,14]} mod="+6 Dex, +1 dodge, +4 size" hp={[90,"12d8+36"]} fort="+10" ref="+10" will="+7" dr="10/good" immune="swarm traits, weapon damage" resist="fire 10" />
-<Offense sp={5} fl={40} flP="good" melee="swarm (3d6 plus distraction and poison)" space={"10"} reach={"0"} specAtt={[["inhabit","inhabit"]]} distraction={18} />
+<Offense sp={5} fl={40} flP="good" melee="swarm (3d6 plus distraction and poison)" space="10" reach="0" specAtt={[["inhabit","inhabit"]]} distraction={18} />
 <Stats atts={[1,22,14,6,13,9]} bab={9} cmb={null} cmd={null} feats={[["Ability Focus"," (poison)"],"Dodge","Improved Initiative","Iron Will",["Skill Focus"," (Perception)"],"Toughness"]} skills={{"fly":{"b":25},"per":{"b":4},"stl":{"b":24}}} lang={["I"]} />
 <Ecology env={<>any (<Link to="/rule/hell">Hell</Link>)</>} org="solitary, pair, or infestation (3-6)" treasure={{"I":false}} />
 </div>
@@ -672,7 +672,7 @@ const _herd_animal_aurochs = {title: "Aurochs (Herd Animal)", jsx: <><p><em>This
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",174]]} xp="600" n large animal init={0} llv scent pcp={9} />
 <Defense ac={[13,9,13]} mod="+4 natural, -1 size" hp={[22,"3d8+9"]} fort="+6" ref="+3" will="+1" />
-<Offense sp={40} melee="gore +7 (1d8+9)" space={"10"} reach={"5"} specAtt={[["stampede","stampede"]]} trample="2d6+9, DC 17" />
+<Offense sp={40} melee="gore +7 (1d8+9)" space="10" reach="5" specAtt={[["stampede","stampede"]]} trample="2d6+9, DC 17" />
 <Stats atts={[23,10,17,2,11,4]} bab={2} cmb={9} cmd={19} cmdP="23 vs. trip" feats={["Endurance",["Skill Focus"," (Perception)"]]} skills={{"per":{"b":9}}} />
 <Ecology env="temperate plains" org="solitary, pair, or herd (3-30)" treasure={{"X":false}} />
 </div>
@@ -687,7 +687,7 @@ const _herd_animal_oxen = {title: "Oxen (Herd Animal)", jsx: <><p>Per <Link to="
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",174]]} xp="600" n large animal init={0} llv scent pcp={9} />
 <Defense ac={[13,9,13]} mod="+4 natural, -1 size" hp={[22,"3d8+9"]} fort="+6" ref="+3" will="+1" />
-<Offense sp={40} melee="gore +2 (1d8+6)" space={"10"} reach={"5"} specAtt={[["stampede","stampede"]]} trample="2d6+6, DC 17" />
+<Offense sp={40} melee="gore +2 (1d8+6)" space="10" reach="5" specAtt={[["stampede","stampede"]]} trample="2d6+6, DC 17" />
 <Stats atts={[23,10,17,2,11,4]} bab={2} cmb={9} cmd={19} cmdP="23 vs. trip" feats={["Endurance",["Skill Focus"," (Perception)"]]} skills={{"per":{"b":9}}} sq="docile" />
 <Ecology env="temperate plains" org="solitary, pair, or herd (3-30)" treasure={{"X":false}} />
 </div>
@@ -703,7 +703,7 @@ const _herd_animal_bison = {title: "Bison (Herd Animal)", jsx: <><p><em>This cre
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",174]]} xp="1,200" n large animal init={0} llv scent pcp={8} />
 <Defense ac={[17,9,17]} mod="+8 natural, -1 size" hp={[42,"5d8+20"]} fort="+8" ref="+4" will="+1" />
-<Offense sp={40} melee="gore +10 (2d6+12)" space={"10"} reach={"5"} specAtt={[["stampede see aurochs",<>stampede (see <Link to="/monster/aurochs">aurochs</Link>)</>]]} trample="2d6+12, DC 20" />
+<Offense sp={40} melee="gore +10 (2d6+12)" space="10" reach="5" specAtt={[["stampede see aurochs",<>stampede (see <Link to="/monster/aurochs">aurochs</Link>)</>]]} trample="2d6+12, DC 20" />
 <Stats atts={[27,10,19,2,11,4]} bab={3} cmb={12} cmd={22} cmdP="26 vs. trip" feats={["Endurance","Improved Bull Rush","Power Attack"]} skills={{"per":{"b":8}}} />
 <Ecology env="cold or temperate plains" org="solitary, pair, or herd (3-30)" treasure={{"X":false}} />
 </div>
@@ -718,7 +718,7 @@ const _yak = {title: "Yak (Herd Animal)", jsx: <><p><em>These shaggy-haired rela
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",174]]} xp="1,200" n large animal init={0} llv scent pcp={8} />
 <Defense ac={[17,9,17]} mod="+8 natural, -1 size" hp={[42,"5d8+20"]} fort="+8" ref="+4" will="+1" />
-<Offense sp={40} melee="gore +10 (2d6+12)" space={"10"} reach={"5"} specAtt={[["stampede see aurochs",<>stampede (see <Link to="/monster/aurochs">aurochs</Link>)</>]]} trample="2d6+12, DC 20" />
+<Offense sp={40} melee="gore +10 (2d6+12)" space="10" reach="5" specAtt={[["stampede see aurochs",<>stampede (see <Link to="/monster/aurochs">aurochs</Link>)</>]]} trample="2d6+12, DC 20" />
 <Stats atts={[27,10,19,2,11,4]} bab={3} cmb={12} cmd={22} cmdP="26 vs. trip" feats={["Endurance","Improved Bull Rush","Power Attack"]} skills={{"per":{"b":8}}} />
 <Ecology env="cold or temperate plains" org="solitary, pair, or herd (3-30)" treasure={{"X":false}} />
 </div>
@@ -761,7 +761,7 @@ const _herd_animal_giraffe = {title: "Giraffe (Herd Animal)", jsx: <><p><em>This
 <div className="reduce">
 <Info source={[["Bestiary 4",150]]} xp="800" n huge animal init={2} llv pcp={8} />
 <Defense ac={[16,10,14]} mod="+2 Dex, +6 natural, -2 size" hp={[30,"4d8+12"]} fort="+7" ref="+6" will="+2" />
-<Offense sp={50} melee="2 hooves +6 (1d8+5), slam +1 (1d8+2)" space={"15"} reach={"10"} />
+<Offense sp={50} melee="2 hooves +6 (1d8+5), slam +1 (1d8+2)" space="15" reach="10" />
 <Stats atts={[20,15,16,2,13,7]} bab={3} cmb={10} cmd={22} cmdP="26 vs. trip" feats={["Endurance","Run"]} skills={{"per":{"b":8}}} />
 <Ecology env="warm plains" org="solitary, pair, or herd (3-10)" treasure={{"X":false}} />
 </div>
@@ -791,7 +791,7 @@ const _herd_animal_river_elk = {title: "River Elk (Herd Animal)", jsx: <><p><em>
 <div className="reduce">
 <Info source={[["Pathfinder #31: Stolen Land",80]]} xp="600" n large animal init={2} llv pcp={8} />
 <Defense ac={[13,11,11]} mod="+2 Dex, +2 natural, -1 size" hp={[25,"3d8+12"]} fort="+7" ref="+7" will="+3" />
-<Offense sp={50} sw={30} melee="gore +4 (1d8+3) or 2 hooves -1 (1d6+1)" space={"10"} reach={"5"} />
+<Offense sp={50} sw={30} melee="gore +4 (1d8+3) or 2 hooves -1 (1d6+1)" space="10" reach="5" />
 <Stats atts={[17,15,18,2,15,6]} bab={2} cmb={6} cmd={18} cmdP="22 vs. trip" feats={["Endurance","Lightning Reflexes",["Run",<sup>B</sup>]]} skills={{"per":{"b":8},"swim":{"b":11}}} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Ecology env="cold or temperate plains" org="solitary, pair, or herd (3-50)" treasure={{"X":false}} />
@@ -822,7 +822,7 @@ const _herd_animal_stag = {title: "Stag (Herd Animal)", jsx: <><p><em>Majestic a
 const _herecite_herecite_of_asmodeus = {title: "Herecite of Asmodeus", jsx: <><p><em>A palpable sense of despair clings to the rotting frame of this decaying man. Tears of blood run from his eye sockets, yet his expression is one of unquenched rage.</em></p>
 <Header full><span>Herecite of Asmodeus</span><span>CR 9</span></Header>
 <div className="reduce">
-<Info source={[["Pathfinder #100: A Song of Silver",116],["Bestiary 6",154]]} xp="6,400" le medium undead init={8} senSpell={["detect good","see invisibility"]} dv={60} pcp={20} aura={"desecration (30 ft.)"} />
+<Info source={[["Pathfinder #100: A Song of Silver",116],["Bestiary 6",154]]} xp="6,400" le medium undead init={8} senSpell={["detect good","see invisibility"]} dv={60} pcp={20} aura="desecration (30 ft.)" />
 <Defense ac={[24,19,20]} mod="+4 Dex, +5 natural, +5 profane" hp={[138,"12d8+84"]} fort="+11" ref="+10" will="+11" def={[["profane insight","profane insight"]]} chanRes="+6" dr="10/good" immune={<Link to="/umr/undead_traits">undead traits</Link>} sr="20 (24 vs. divine spells)" />
 <Offense sp={40} melee={<>+2 <Link to="/magic-enh/unholy">unholy</Link> heavy mace +19/+14 (1d8+10/19-20 plus faith-stealing strike), slam +12 (1d8+5 plus faith-stealing strike) or 2 slams +17 (1d8+8 plus faith-stealing strike)</>} specAtt={[["faith-stealing strike","faith-stealing strike"]]} />
 <SpellBlock id="1" sla={{"cl":10,"con":"+15","content":[{"constant":true,"content":<><Link to="/spell/detect_good">detect good</Link>, <Link to="/spell/see_invisibility">see invisibility</Link></>},{"will":true,"content":<><Link to="/spell/burning_hands">burning hands</Link> (DC 16), <Link to="/spell/disguise_self">disguise self</Link></>},{"day":3,"content":<><Link to="/spell/invisibility">invisibility</Link>, <Link to="/spell/produce_flame">produce flame</Link>, <Link to="/spell/unholy_blight">unholy blight</Link> (DC 19)</>},{"day":1,"content":<><Link to="/spell/confusion">confusion</Link> (DC 19), <Link to="/spell/fireball">fireball</Link> (DC 18), <Link to="/spell/nondetection">nondetection</Link>, <Link to="/spell/wall_of_fire">wall of fire</Link></>}]}} />
@@ -881,7 +881,7 @@ const _hippocampus = {title: "Hippocampus", jsx: <><p><em>This creature has the 
 <div className="reduce">
 <Info source={[["Bestiary 2",155]]} xp="400" n large magicalBeast subs={["aquatic"]} init={-1} dv={60} llv scent pcp={6} />
 <Defense ac={[12,8,12]} mod="-1 Dex, +4 natural, -1 size" hp={[15,"2d10+4"]} fort="+5" ref="+2" will="+1" />
-<Offense sp={5} sw={60} melee="bite +4 (1d4+3), tail slap -1 (1d4+1)" space={"10"} reach={"5"} />
+<Offense sp={5} sw={60} melee="bite +4 (1d4+3), tail slap -1 (1d4+1)" space="10" reach="5" />
 <Stats atts={[16,9,15,2,12,11]} bab={2} cmb={6} cmd={15} feats={["Endurance"]} skills={{"per":{"b":6},"swim":{"b":11}}} sq="water dependency" />
 <Ecology env="any water" org="solitary, pair, or school (3-16)" treasure={{"X":false}} />
 </div>
@@ -897,7 +897,7 @@ const _hippogriff = {title: "Hippogriff", jsx: <><p><em>This large, brown, horse
 <div className="reduce">
 <Info source={[["Bestiary 2",156]]} xp="600" n large magicalBeast init={2} dv={60} llv scent pcp={9} />
 <Defense ac={[14,12,11]} mod="+2 Dex, +1 dodge, +2 natural, -1 size" hp={[22,"3d10+6"]} fort="+5" ref="+5" will="+2" />
-<Offense sp={40} fl={100} flP="average" melee="bite +4 (1d6+2), 2 claws +4 (1d4+2)" space={"10"} reach={"5"} />
+<Offense sp={40} fl={100} flP="average" melee="bite +4 (1d6+2), 2 claws +4 (1d4+2)" space="10" reach="5" />
 <Stats atts={[15,15,14,2,12,9]} bab={3} cmb={6} cmd={19} feats={["Dodge","Wingover"]} skills={{"fly":{"b":5},"per":{"b":9}}} racial="+4 Perception" />
 <Ecology env="temperate hills or plains" org="solitary, pair, or flight (7-12)" treasure={{"X":false}} />
 </div>
@@ -913,7 +913,7 @@ const _hippopotamus = {title: "Hippopotamus", jsx: <><p><em>This fleshy behemoth
 <div className="reduce">
 <Info source={[["Heart of the Jungle",60],["Bestiary 2",157]]} xp="1,600" n large animal init={4} llv scent pcp={8} />
 <Defense ac={[17,9,17]} mod="+8 natural, -1 size" hp={[59,"7d8+28"]} fort="+8 (+10 vs. nonmagical disease)" ref="+5" will="+3" def={[["blood sweat","blood sweat"]]} />
-<Offense sp={40} melee="bite +8 (2d8+12)" space={"10"} reach={"5"} capsize trample="1d8+6, DC 17" />
+<Offense sp={40} melee="bite +8 (2d8+12)" space="10" reach="5" capsize trample="1d8+6, DC 17" />
 <Stats atts={[19,10,16,2,13,5]} bab={5} cmb={10} cmd={20} feats={["Endurance","Improved Initiative","Power Attack",["Skill Focus"," (bite)"]]} skills={{"per":{"b":8},"stl":{"b":1,"x":"+11 underwater"},"swim":{"b":11}}} racial="+10 Stealth underwater" sq={<Link to="/umr/hold_breath">hold breath</Link>} />
 <Ecology env="warm rivers" org="solitary, pair, or bloat (3-20)" treasure={{"X":false}} />
 </div>
@@ -930,7 +930,7 @@ const _hippopotamus_behemoth_hippopotamus = {title: "Behemoth Hippopotamus", jsx
 <div className="reduce">
 <Info source={[["Bestiary 2",157]]} xp="9,600" n huge animal init={3} llv pcp={12} />
 <Defense ac={[23,7,23]} mod="-1 Dex, +16 natural, -2 size" hp={[133,"14d8+70"]} fort="+14 (+16 vs. nonmagical disease)" ref="+8" will="+7" def={[["blood sweathippopotamus",<Link to="/monster/hippopotamus">blood sweat</Link>]]} />
-<Offense sp={50} melee={<>bite +17 (4d8+13/19-20 plus <Link to="/umr/grab">grab</Link>)</>} space={"15"} reach={"15"} capsize trample="2d6+13, DC 26" />
+<Offense sp={50} melee={<>bite +17 (4d8+13/19-20 plus <Link to="/umr/grab">grab</Link>)</>} space="15" reach="15" capsize trample="2d6+13, DC 26" />
 <Stats atts={[29,8,20,2,13,5]} bab={10} cmb={21} cmbP="+25 grapple" cmd={30} cmdP="34 vs. trip" feats={["Diehard","Endurance",["Improved Critical"," (bite)"],"Improved Initiative","Iron Will","Power Attack",["Skill Focus"," (Perception)"]]} skills={{"per":{"b":12},"stl":{"b":2,"x":"+12 underwater"},"swim":{"b":13}}} racial="+10 Stealth underwater" sq={<Link to="/umr/hold_breath">hold breath</Link>} />
 <Ecology env="warm rivers" org="solitary or bloat (2-8)" treasure={{"X":false}} />
 </div>
@@ -942,7 +942,7 @@ const _hiracapath = {title: "Hiracapath", jsx: <><p><em>Silvery armor in the sha
 <div className="reduce">
 <Info source={[["Pathfinder #104: Wrath of Thrune",88]]} xp="3,200" lg large outsider subs={["extraplanar","good","lawful"]} init={1} dv={60} scent pcp={12} />
 <Defense ac={[18,10,17]} mod="+1 Dex, +8 natural, -1 size" hp={[94,"9d10+45"]} fort="+11" ref="+6" will="+9" dr="5/evil" resist="electricity 5, fire 5" />
-<Offense sp={40} melee="gore +14 (1d8+6), 2 hooves +12 (1d6+3)" space={"10"} reach={"5"} specAtt={[["nonlethal mastery","nonlethal mastery"]]} powCh="gore, 2d8+9" />
+<Offense sp={40} melee="gore +14 (1d8+6), 2 hooves +12 (1d6+3)" space="10" reach="5" specAtt={[["nonlethal mastery","nonlethal mastery"]]} powCh="gore, 2d8+9" />
 <SpellBlock id="1" sla={{"cl":9,"con":"+12","content":[{"constant":true,"content":<Link to="/spell/air_walk">air walk</Link>},{"day":1,"content":<><Link to="/spell/plane_shift">plane shift</Link> (self only)</>}]}} />
 <Stats atts={[22,12,21,3,16,17]} bab={9} cmb={16} cmbP="+20 bull rush" cmd={27} cmdP="29 vs. bull rush, 31 vs. trip" feats={["Greater Bull Rush","Improved Bull Rush","Lightning Reflexes","Multiattack","Power Attack"]} skills={{"intm":{"b":12},"per":{"b":12}}} lang={["CeX"]} sq="glorious nimbus" />
 <Ecology env={<>any (<Link to="/rule/heaven">Heaven</Link>)</>} org="solitary or herd (3-16)" treasure={{"X":false}} />
@@ -968,7 +968,7 @@ const _hive_mind_beetle_swarm = {title: "Hive Mind Beetle Swarm", jsx: <><p><em>
 <div className="reduce">
 <Info source={[["Occult Bestiary",29]]} xp="25,600" ln diminutive magicalBeast subs={["swarm"]} init={7} dv={60} llv pcp={28} />
 <Defense ac={[25,25,14]} mod="+3 Dex, +8 dodge, +4 size" hp={[170,"20d10+60"]} fort="+16" ref="+15" will="+9" def={[["swarm traits","swarm traits"]]} immune="electricity, weapon damage" weak={["exposed nerves"]} />
-<Offense sp={5} fl={30} flP="perfect" melee="swarm (8d6 electricity plus distraction)" space={"10"} reach={"0"} distraction={24} />
+<Offense sp={5} fl={30} flP="perfect" melee="swarm (8d6 electricity plus distraction)" space="10" reach="0" distraction={24} />
 <SpellBlock id="1" sla={{"cl":14,"con":"+11","content":[{"constant":true,"content":<Link to="/spell/thought_echo">thought echo</Link>},{"will":true,"content":<Link to="/spell/shocking_grasp">shocking grasp</Link>}]}} />
 <SpellBlock id="2" psy={{"pe":15,"cl":14,"content":<><Link to="/spell/explode_head">explode head</Link> (5 PE, DC 18), <Link to="/spell/greater_synaptic_pulse">greater synaptic pulse</Link> (5 PE, DC 18), <Link to="/spell/lightning_bolt">lightning bolt</Link> (3 PE, DC 19), <Link to="/spell/mental_barrier_iii">mental barrier III</Link> (4 PE), <Link to="/spell/mind_probe">mind probe</Link> (4 PE, DC 16), <Link to="/spell/mind_thrust_iv">mind thrust IV</Link> (4 PE, DC 16), <Link to="/spell/synapse_overload">synapse overload</Link> (5 PE, DC 17), <Link to="/spell/synaptic_scramble">synaptic scramble</Link> (4 PE, DC 17), <Link to="/spell/thought_shield_iv">thought shield IV</Link> (5 PE)</>,"con":"+16"}} />
 <Stats atts={[1,16,14,15,12,5]} bab={20} cmb={null} cmd={null} feats={[["Ability Focus"," (distraction)"],"Flyby Attack","Great Fortitude","Greater Spell Penetration","Improved Initiative","Iron Will",["Spell Focus"," (enchantment)"],"Spell Focus (evocation)","Spell Penetration","Toughness"]} skills={{"fly":{"b":40},"k":{"n":22},"per":{"b":28},"spc":{"b":22}}} racial="+4 Perception" lang={[[<><em>thought echo</em> (can't speak)</>]]} sq="reflexive dodge" />
@@ -987,7 +987,7 @@ const _hive_hive_brute = {title: "Hive Brute", jsx: <><p><em>This hulking, four-
 <div className="reduce">
 <Info source={[["Nidal, Land of Shadows",56]]} xp="4,800" ne large aberration subs={["hive"]} init={6} sen={["hive mind"]} blindsight={10} blindsense={60} pcp={14} />
 <Defense ac={[21,11,19]} mod="+2 Dex, +10 natural, -1 size" hp={[102,"12d8+48"]} fort="+7" ref="+8" will="+11" def={[["corrosive blood 1d6 acid","corrosive blood (1d6 acid)"],["heat adaptability","heat adaptability"]]} immune="acid" />
-<Offense sp={40} cl={20} melee="bite +15 (1d8+7), 2 claws +15 (1d6+7/19-20), tail slap +10 (1d8+3)" space={"10"} reach={"10"} specAtt={[["acid spray","acid spray"],["death throes 12d6 DC 19","death throes (12d6, DC 19)"]]} />
+<Offense sp={40} cl={20} melee="bite +15 (1d8+7), 2 claws +15 (1d6+7/19-20), tail slap +10 (1d8+3)" space="10" reach="10" specAtt={[["acid spray","acid spray"],["death throes 12d6 DC 19","death throes (12d6, DC 19)"]]} />
 <Stats atts={[24,15,16,6,13,3]} bab={9} cmb={17} cmd={29} cmdP="33 vs trip" feats={[["Improved Critical"," (claw)"],"Improved Initiative","Iron Will","Lightning Reflexes","Toughness","Vital Strike"]} skills={{"climb":{"b":15},"per":{"b":14}}} lang={["AkX"]} sq="blind" />
 <Ecology env="any" org={<>solitary, pair, or hive (1-10 plus 1-50 hive workers and <Link to="/monster/hive_warrior">warriors</Link> plus 1 <Link to="/monster/hive_queen">queen</Link></>} treasure={{"I":false}} />
 </div>
@@ -1003,7 +1003,7 @@ const _hive_hive_larva_swarm = {title: "Hive Larva Swarm", jsx: <><p><em>This ma
 <div className="reduce">
 <Info source={[["Horror Adventures",236]]} xp="1,600" n fine aberration subs={["hive","swarm"]} init={2} sen={["hive mind"]} blindsight={10} blindsense={60} pcp={0} />
 <Defense ac={[20,20,18]} mod="+2 Dex, +8 Size" hp={[52,"7d8+21"]} fort="+5" ref="+4" will="+5" def={[["corrosive blood 1d4","corrosive blood (1d4)"],["heat adaptability","heat adaptability"],["swarm traits","swarm traits"]]} immune="acid, mind-affecting effects, weapon damage" />
-<Offense sp={10} cl={10} melee="swarm (2d6 plus distraction and poison)" space={"10"} reach={"10"} specAtt={[["death throes 7d6 DC 16","death throes (7d6, DC 16)"],["infest","infest"],["poison","poison"]]} />
+<Offense sp={10} cl={10} melee="swarm (2d6 plus distraction and poison)" space="10" reach="10" specAtt={[["death throes 7d6 DC 16","death throes (7d6, DC 16)"],["infest","infest"],["poison","poison"]]} />
 <Stats atts={[1,15,16,0,10,1]} bab={5} cmb={null} cmd={null} sq="blind" />
 <Ecology env="any" org={<>solitary or hive (1-20 plus 1-50 hive workers and <Link to="/monster/hive_warrior">warriors</Link> and 1 <Link to="/monster/hive_queen">queen</Link>)</>} treasure={{"I":false}} />
 </div>
@@ -1022,7 +1022,7 @@ const _hive_hive_queen = {title: "Hive Queen", jsx: <><p><em>Black, chitinous ar
 <div className="reduce">
 <Info source={[["Horror Adventures",236]]} xp="9,600" ne huge aberration subs={["hive"]} init={8} sen={["hive mind"]} blindsight={10} blindsense={60} pcp={22} />
 <Defense ac={[26,12,22]} mod="+4 Dex, +14 Natural, -2 size" hp={[127,"15d8+60"]} fort="+9" ref="+9" will="+13" def={[["corrosive blood 1d8 acid","corrosive blood (1d8 acid)"],["heat adaptability","heat adaptability"]]} immune="acid" />
-<Offense sp={50} cl={20} melee="bite +18 (2d6+9/19-20), 2 claws +18 (1d10+9/19-20), tail slap +16 (2d6+4)" space={"15"} reach={"15"} reachP={"20 ft. with tail slap"} specAtt={[["death throes 15d6 DC 21","death throes (15d6, DC 21)"]]} />
+<Offense sp={50} cl={20} melee="bite +18 (2d6+9/19-20), 2 claws +18 (1d10+9/19-20), tail slap +16 (2d6+4)" space="15" reach="15" reachP="20 ft. with tail slap" specAtt={[["death throes 15d6 DC 21","death throes (15d6, DC 21)"]]} />
 <Stats atts={[28,19,19,15,18,6]} bab={11} cmb={22} cmd={36} feats={["Combat Reflexes",["Improved Critical"," (bite)"],"Improved Critical (claw)","Improved Initiative","Improved Vital Strike","Multiattack","Power Attack","Vital Strike"]} skills={{"climb":{"b":35}}} lang={["Ak","CX",";",[<><Link to="/umr/telepathy">telepathy</Link> 1 mile (hive)</>]]} sq="blind, egg layer" />
 <Ecology env="any" org={<>solitary or hive (1 plus 1-20 <Link to="/monster/hive_larva_swarm">larva swarms</Link> and 1-50 hive workers and <Link to="/monster/hive_warrior">warriors</Link>)</>} treasure={{"I":false}} />
 </div>
@@ -1055,7 +1055,7 @@ const _hivemind_rat_swarm = {title: "Hivemind Rat Swarm", jsx: <><p><em>A swarm 
 <div className="reduce">
 <Info source={[["Bestiary 6",156]]} xp="4,800" n tiny magicalBeast subs={["swarm"]} init={6} dv={60} llv scent thoughtsense={60} pcp={16} />
 <Defense ac={[20,20,18]} mod="+2 Dex, +6 insight, +2 size" hp={[76,"9d10+27"]} fort="+8" ref="+10" will="+4" def={[["swarm traits","swarm traits"]]} />
-<Offense sp={15} cl={15} sw={15} melee="swarm (2d6 plus disease and distraction)" space={"10"} reach={"0"} specAtt={[["disease","disease"],["psychic spellcasting","psychic spellcasting"]]} distraction={16} />
+<Offense sp={15} cl={15} sw={15} melee="swarm (2d6 plus disease and distraction)" space="10" reach="0" specAtt={[["disease","disease"],["psychic spellcasting","psychic spellcasting"]]} distraction={16} />
 <SpellBlock id="1" known={{"cl":6,"con":"+9","known":"Psychic","l3":[4,<><Link to="/spell/synaptic_pulse">synaptic pulse</Link> (DC 16)</>],"l2":[6,<><Link to="/spell/paranoia">paranoia</Link> (DC 15), <Link to="/spell/spontaneous_immolation">spontaneous immolation</Link> (DC 16)</>],"l1":[7,<><Link to="/spell/charm_animal">charm animal</Link> (DC 14), <Link to="/spell/charm_person">charm person</Link> (DC 14), <Link to="/spell/mind_thrust_i">mind thrust I</Link> (DC 14), <Link to="/spell/unseen_servant">unseen servant</Link></>],"l0":[0,<><Link to="/spell/bleed">bleed</Link> (DC 13), <Link to="/spell/daze">daze</Link> (DC 13), <Link to="/spell/ghost_sound">ghost sound</Link> (DC 13), <Link to="/spell/haunted_fey_aspect">haunted fey aspect</Link> (DC 13), <Link to="/spell/mage_hand">mage hand</Link>, <Link to="/spell/open_close">open/close</Link>, <Link to="/spell/telekinetic_projectile">telekinetic projectile</Link> (DC 13)</>]}} />
 <Stats atts={[2,15,14,17,13,10]} bab={9} cmb={null} cmd={null} feats={["Combat Casting","Improved Initiative","Lightning Reflexes",["Skill Focus"," (Perception)"],"Toughness"]} skills={{"acro":{"b":14},"climb":{"b":14}}} racial="+10 Stealth when hiding the nexus" lang={["Ak","C","Gb","H",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} sq="hivemind nexus" />
 <Ecology env="any" org="solitary or infestation (2-5 swarms)" treasure={{"X":false}} />
@@ -1239,7 +1239,7 @@ const _hodag = {title: "Hodag", jsx: <><p><em>Spikes cover the body of this vagu
 <div className="reduce">
 <Info source={[["Bestiary 3",148],["Pathfinder #32: Rivers Run Red",84]]} xp="2,400" n large magicalBeast init={2} dv={60} llv scent pcp={7} />
 <Defense ac={[19,11,17]} mod="+2 Dex, +8 natural, -1 size" hp={[60,"8d10+16"]} fort="+8" ref="+8" will="+5" ferocity />
-<Offense sp={30} br={15} melee="bite +11 (1d8+4), 2 claws +11 (1d6+4), tail slap +11 (1d4+4)" space={"10"} reach={"10"} specAtt={[["spiked tail","spiked tail"],["toss","toss"]]} />
+<Offense sp={30} br={15} melee="bite +11 (1d8+4), 2 claws +11 (1d6+4), tail slap +11 (1d4+4)" space="10" reach="10" specAtt={[["spiked tail","spiked tail"],["toss","toss"]]} />
 <Stats atts={[19,14,15,7,12,10]} bab={8} cmb={13} cmd={25} cmdP="29 vs. trip" feats={["Improved Iron Will","Iron Will","Power Attack","Vital Strike"]} skills={{"climb":{"b":10}}} lang={["CX"]} sq="trackless" />
 <Ecology env="temperate forests or marshes" org="solitary" treasure={{"I":false}} />
 </div>
@@ -1286,9 +1286,9 @@ const _hollow_one = {title: "Hollow One", jsx: <><p><em>The faint chemical smell
 const _hollow_serpent = {title: "Hollow Serpent", jsx: <><p><em>An unseen breeze stirs the desiccated scales of this immense snakeskin, causing the shedding's frayed, dried edges to flutter with a semblance of life. Pinpoints of unholy green light flare behind the intact eye lenses as the head starts to rise. The same glow behind those long-dead eyes illuminates a gaping mouth and bony fangs. Then a terrifying, painful hiss assaults your mind as the serpent slithers forward with a silent, unearthly grace.</em></p>
 <Header full><span>Hollow Serpent</span><span>CR 16</span></Header>
 <div className="reduce">
-<Info source={[["Pathfinder #42: Sanctum of the Serpent God",86],["Bestiary 3",149]]} xp="76,800" ne large undead subs={["reptilian"]} init={9} dv={60} lifesense pcp={17} aura={"desiccation (30 ft., 1d4 Cha damage, Fort DC 26 negates)"} />
+<Info source={[["Pathfinder #42: Sanctum of the Serpent God",86],["Bestiary 3",149]]} xp="76,800" ne large undead subs={["reptilian"]} init={9} dv={60} lifesense pcp={17} aura="desiccation (30 ft., 1d4 Cha damage, Fort DC 26 negates)" />
 <Defense ac={[31,19,21]} mod="+9 Dex, +1 dodge, +12 natural, -1 size" hp={[230,"20d8+140"]} fh="10" fort="+14" ref="+17" will="+18" chanRes="+4" dr="10/magic and silver" immune={<Link to="/umr/undead_traits">undead traits</Link>} sr="27" />
-<Offense sp={50} cl={50} melee={<>bite +23 (4d10+10 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"10"} specAtt={[["dissonant hiss","dissonant hiss"],["life-stealing coils","life-stealing coils"]]} chEn={{"d6":8,"dc":24,"perDay":9,"pos":false}} constrict="4d10+10 plus energy drain" eDrain="1 level, DC 26" />
+<Offense sp={50} cl={50} melee={<>bite +23 (4d10+10 plus <Link to="/umr/grab">grab</Link>)</>} space="10" reach="10" specAtt={[["dissonant hiss","dissonant hiss"],["life-stealing coils","life-stealing coils"]]} chEn={{"d6":8,"dc":24,"perDay":9,"pos":false}} constrict="4d10+10 plus energy drain" eDrain="1 level, DC 26" />
 <SpellBlock id="1" sla={{"cl":16,"con":"+22","content":[{"constant":true,"content":<><Link to="/spell/deathwatch">deathwatch</Link>, <Link to="/spell/freedom_of_movement">freedom of movement</Link></>},{"day":1,"content":<><Link to="/spell/horrid_wilting">horrid wilting</Link> (DC 24), <Link to="/spell/waves_of_exhaustion">waves of exhaustion</Link></>}]}} />
 <Stats atts={[25,29,0,6,19,22]} bab={15} cmb={25} cmbP="+29 grapple" cmd={43} cmdP="can't be tripped" feats={["Agile Maneuvers","Channel Smite","Dodge","Great Fortitude","Iron Will","Lightning Reflexes","Lunge","Toughness","Vital Strike","Weapon Finesse"]} skills={{"climb":{"b":28},"ea":{"b":19},"per":{"b":17},"stl":{"b":18}}} lang={["Ak",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} />
 <Ecology env="any underground" org="solitary, pair, or nest (3-8)" treasure={{"D":false}} />

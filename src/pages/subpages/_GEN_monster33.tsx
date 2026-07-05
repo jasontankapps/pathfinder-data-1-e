@@ -13,7 +13,7 @@ const _golem_adamantine_golem = {title: "Adamantine Golem", jsx: <><p><em>This h
 <div className="reduce">
 <Info source={[["Bestiary 2",134]]} xp="204,800" n huge construct init={-1} dv={60} llv pcp={0} />
 <Defense ac={[33,7,33]} mod="-1 Dex, +26 natural, -2 size" hp={[205,"30d10+40"]} fh="10" fort="+10" ref="+9" will="+10" def={[["indestructible","indestructible"]]} dr="15/epic" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={30} melee="2 slams +41 (6d10+13/19-20)" space={"15"} reach={"15"} specAtt={[["destructive strike","destructive strike"]]} trample="6d10+19, DC 38" />
+<Offense sp={30} melee="2 slams +41 (6d10+13/19-20)" space="15" reach="15" specAtt={[["destructive strike","destructive strike"]]} trample="6d10+19, DC 38" />
 <Stats atts={[36,9,0,0,11,1]} bab={30} cmb={45} cmd={54} />
 <Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
@@ -36,7 +36,7 @@ const _golem_alchemical_golem = {title: "Alchemical Golem", jsx: <><p><em>A rick
 <div className="reduce">
 <Info source={[["Bestiary 2",135]]} xp="6,400" n large construct init={4} dv={60} llv pcp={0} />
 <Defense ac={[23,13,19]} mod="+4 Dex, +10 natural, -1 size" hp={[96,"12d10+30"]} fort="+4" ref="+8" will="+4" dr="10/adamantine or bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={30} melee="2 slams +19 (2d8+8 plus alchemy)" ranged="bomb +15 (8d6 energy damage)" space={"10"} reach={"10"} specAtt={[["alchemy","alchemy"],["bombs","bombs"],["splash","splash"]]} />
+<Offense sp={30} melee="2 slams +19 (2d8+8 plus alchemy)" ranged="bomb +15 (8d6 energy damage)" space="10" reach="10" specAtt={[["alchemy","alchemy"],["bombs","bombs"],["splash","splash"]]} />
 <Stats atts={[27,18,0,0,11,1]} bab={12} cmb={21} cmd={35} />
 <Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
@@ -56,7 +56,7 @@ const _golem_behemoth_golem = {title: "Behemoth Golem", jsx: <><Header full><spa
 <div className="reduce">
 <Info source={[["Lost Kingdoms",40]]} xp="102,400" n colossal construct init={-1} dv={60} llv pcp={2} />
 <Defense ac={[31,1,31]} mod="-1 Dex, +30 natural, -8 size" hp={[206,"23d10+80"]} fort="+7" ref="+6" will="+9" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={30} melee="gore +31 (4d8+16), 2 slams +31 (3d6+16)" space={"30"} reach={"30"} specAtt={[["quake","quake"]]} trample="3d6+24, DC 37" />
+<Offense sp={30} melee="gore +31 (4d8+16), 2 slams +31 (3d6+16)" space="30" reach="30" specAtt={[["quake","quake"]]} trample="3d6+24, DC 37" />
 <Stats atts={[42,9,0,0,15,1]} bab={23} cmb={47} cmd={56} cmdP="60 vs. trip" sq="castle" />
 <Ecology env="temperate and warm deserts" org="solitary" treasure={{"I":false}} />
 </div>
@@ -109,7 +109,7 @@ const _golem_bone_golem = {title: "Bone Golem", jsx: <><p><em>This horrific huma
 <div className="reduce">
 <Info source={[["Bestiary 3",133]]} xp="4,800" n large construct init={6} dv={60} llv pcp={0} />
 <Defense ac={[21,11,19]} mod="+2 Dex, +10 natural, -1 size" hp={[90,"11d10+30"]} fort="+3" ref="+5" will="+3" dr="5/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={30} melee="bite +14 (1d8+4), 2 slams +14 (2d6+4)" space={"10"} reach={"10"} specAtt={[["bone prison ranged touch 12","bone prison (ranged touch +12)"]]} />
+<Offense sp={30} melee="bite +14 (1d8+4), 2 slams +14 (2d6+4)" space="10" reach="10" specAtt={[["bone prison ranged touch 12","bone prison (ranged touch +12)"]]} />
 <Stats atts={[18,15,0,0,10,1]} bab={11} cmb={16} cmbP="+20 disarm or grapple" cmd={28} feats={[["Improved Initiative",<sup>B</sup>]]} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
@@ -134,7 +134,7 @@ const _golem_brass_golem = {title: "Brass Golem", jsx: <><p><em>This towering br
 <div className="reduce">
 <Info source={[["Bestiary 3",134],["Pathfinder #24: The Final Wish",84]]} xp="38,400" n huge construct init={0} senSpell={["see invisibility"]} dv={60} llv pcp={1} />
 <Defense ac={[30,8,30]} mod="+22 natural, -2 size" hp={[150,"20d10+40"]} fort="+6" ref="+6" will="+7" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, fire, magic</>} />
-<Offense sp={40} melee="brass falchion +29 (3d6+11/18-20 plus 2d6 fire), slam +29 (2d6+11 plus 2d6 fire)" space={"15"} reach={"15"} brWeap="DC 20" heat="2d6 fire" />
+<Offense sp={40} melee="brass falchion +29 (3d6+11/18-20 plus 2d6 fire), slam +29 (2d6+11 plus 2d6 fire)" space="15" reach="15" brWeap="DC 20" heat="2d6 fire" />
 <SpellBlock id="1" sla={{"cl":17,"con":"+12","content":[{"constant":true,"content":<Link to="/spell/see_invisibility">see invisibility</Link>}]}} />
 <Stats atts={[32,11,0,0,13,1]} bab={20} cmb={33} cmd={43} sq="death throes, brass falchion" />
 <Ecology env="any" org="solitary or watch (2-4)" treasure={{"X":false}} />
@@ -160,7 +160,7 @@ const _golem_cannon_golem = {title: "Cannon Golem", jsx: <><p><em>This collectio
 <div className="reduce">
 <Info source={[["Bestiary 3",135]]} xp="51,200" n large construct init={7} dv={60} llv pcp={2} />
 <Defense ac={[31,16,24]} mod="+7 Dex, +15 natural, -1 size" hp={[140,"20d10+30"]} fort="+6" ref="+13" will="+8" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={30} melee="2 slams +29 (2d10+10)" ranged="cannon +26/+21 (6d6+7/19-20/&times;4)" space={"10"} reach={"10"} specAtt={[["cannon","cannon"]]} />
+<Offense sp={30} melee="2 slams +29 (2d10+10)" ranged="cannon +26/+21 (6d6+7/19-20/&times;4)" space="10" reach="10" specAtt={[["cannon","cannon"]]} />
 <Stats atts={[30,24,0,0,15,2]} bab={20} cmb={31} cmd={48} feats={[["Improved Critical",<><sup>B</sup> (cannon)</>]]} sq="alloyed, blasting critical, gun training" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Ecology env="any land" org="solitary or pair" treasure={{"X":false}} />
@@ -213,7 +213,7 @@ const _golem_clay_golem = {title: "Clay Golem", jsx: <><p><em>This lumbering fig
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",159]]} xp="9,600" n large construct init={-1} dv={60} llv pcp={0} />
 <Defense ac={[24,8,24]} mod="-1 Dex, +16 natural, -1 size" hp={[101,"13d10+30"]} fort="+4" ref="+3" will="+4" dr="10/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={20} melee="2 slams +19 (2d10+7 plus cursed wound)" space={"10"} reach={"10"} specAtt={[["berserk","berserk"],["haste","haste"]]} />
+<Offense sp={20} melee="2 slams +19 (2d10+7 plus cursed wound)" space="10" reach="10" specAtt={[["berserk","berserk"],["haste","haste"]]} />
 <Stats atts={[24,9,0,0,11,1]} bab={13} cmb={21} cmd={30} />
 <Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
@@ -240,7 +240,7 @@ const _golem_clockwork_golem = {title: "Clockwork Golem", jsx: <><p><em>A vaguel
 <div className="reduce">
 <Info source={[["Bestiary 2",137]]} xp="19,200" n large construct init={1} dv={60} llv pcp={0} />
 <Defense ac={[26,10,25]} mod="+1 Dex, +16 natural, -1 size" hp={[118,"16d10+30"]} fort="+5" ref="+6" will="+5" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={30} melee={<>2 slams +23 (2d10+8 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"10"} specAtt={[["death burst","death burst"],["grind","grind"],["wall of gears","wall of gears"]]} />
+<Offense sp={30} melee={<>2 slams +23 (2d10+8 plus <Link to="/umr/grab">grab</Link>)</>} space="10" reach="10" specAtt={[["death burst","death burst"],["grind","grind"],["wall of gears","wall of gears"]]} />
 <Stats atts={[27,12,0,0,11,1]} bab={16} cmb={25} cmbP="+29 grapple" cmd={36} />
 <Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
@@ -265,7 +265,7 @@ const _golem_coral_golem = {title: "Coral Golem", jsx: <><p><em>This tall creatu
 <div className="reduce">
 <Info source={[["Bestiary 4",131],["Isles of the Shackles",47]]} xp="6,400" n large construct init={0} dv={60} llv pcp={0} />
 <Defense ac={[21,9,21]} mod="+12 natural, -1 size" hp={[96,"12d10+30"]} fort="+4" ref="+4" will="+4" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={30} melee="2 claws +18 (1d6+10/19-20 plus bleed)" space={"10"} reach={"10"} bleed="1d6" />
+<Offense sp={30} melee="2 claws +18 (1d6+10/19-20 plus bleed)" space="10" reach="10" bleed="1d6" />
 <Stats atts={[24,11,0,0,11,1]} bab={12} cmb={20} cmd={30} feats={[["Improved Critical",<><sup>B</sup> (claw)</>]]} sq="aquatic reconstruction, powerful blows (slam)" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Ecology env="warm oceans or coastlines" org="solitary or gang (2-5)" treasure={{"X":false}} />
@@ -291,7 +291,7 @@ const _golem_crystal_golem = {title: "Crystal Golem", jsx: <><p><em>This burly h
 <div className="reduce">
 <Info source={[["Bestiary 5",126]]} xp="12,800" n large construct init={1} dv={60} llv thoughtsense={60} pcp={3} />
 <Defense ac={[26,10,25]} mod="+1 Dex, +16 natural, -1 size" hp={[112,"15d10+30"]} fort="+5" ref="+6" will="+8" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={20} melee="2 slams +21 (2d8+7)" space={"10"} reach={"10"} />
+<Offense sp={20} melee="2 slams +21 (2d8+7)" space="10" reach="10" />
 <SpellBlock id="1" sla={{"cl":14,"con":"+17","content":[{"constant":true,"content":<Link to="/spell/ethereal_fists">ethereal fists</Link>}]}} />
 <SpellBlock id="2" psy={{"pe":12,"cl":14,"content":<><Link to="/spell/explode_head">explode head</Link> (5 PE, DC 18), <Link to="/spell/mind_thrust_ii">mind thrust II</Link> (2 PE, DC 15)</>,"con":"+17"}} />
 <Stats atts={[25,12,0,0,17,1]} bab={15} cmb={23} cmd={34} sq="psychic amplification" />
@@ -317,7 +317,7 @@ const _golem_dragonhide_golem = {title: "Dragonhide Golem", jsx: <><p><em>This m
 <div className="reduce">
 <Info source={[["Construct Handbook",42]]} xp="76,800" n huge construct init={2} dv={60} llv pcp={26} />
 <Defense ac={[31,10,29]} mod="+2 Dex, +21 natural, -2 size" hp={[155,"21d10+40"]} fort="+7" ref="+9" will="+7" dr="15/adamantine and magic" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={50} melee="bite +31 (2d8+12), 2 claws +31 (2d6+12), tail slap +26 (2d6+18)" space={"15"} reach={"15"} specAtt={[["berserk","berserk"],["powerful tail","powerful tail"],["rampage","rampage"]]} brWeap="copper, red" />
+<Offense sp={50} melee="bite +31 (2d8+12), 2 claws +31 (2d6+12), tail slap +26 (2d6+18)" space="15" reach="15" specAtt={[["berserk","berserk"],["powerful tail","powerful tail"],["rampage","rampage"]]} brWeap="copper, red" />
 <Stats atts={[34,14,0,0,11,1]} bab={21} cmb={35} cmd={47} sq="draconic grafts (dragon-like senses, grafted head [copper], powerful tail)" />
 <Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
@@ -409,9 +409,9 @@ const _golem_dragonhide_golem = {title: "Dragonhide Golem", jsx: <><p><em>This m
 const _golem_equine_bone_golem = {title: "Equine Bone Golem", jsx: <><p><em>This mass of bones is shaped like a horse, with bizarre limbs.</em></p>
 <Header full><span>Equine Bone Golem</span><span>CR 10</span></Header>
 <div className="reduce">
-<Info source={[["Tombs of Golarion",13]]} xp="9,600" text={"Advanced variant bone golem"} n large construct init={6} dv={60} llv pcp={0} />
+<Info source={[["Tombs of Golarion",13]]} xp="9,600" text="Advanced variant bone golem" n large construct init={6} dv={60} llv pcp={0} />
 <Defense ac={[23,11,21]} mod="+2 Dex, +12 natural, -1 size" hp={[118,"16d10+30"]} fort="+5" ref="+7" will="+5" dr="5/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={40} melee="bite +21 (1d8+6), 2 hooves +16 (2d6+3 plus staggered)" space={"10"} reach={"5"} specAtt={[["bone prison ranged touch 17","bone prison (ranged touch +17)"],["staggering stomp","staggering stomp"]]} trample="2d6+9, DC 24" />
+<Offense sp={40} melee="bite +21 (1d8+6), 2 hooves +16 (2d6+3 plus staggered)" space="10" reach="5" specAtt={[["bone prison ranged touch 17","bone prison (ranged touch +17)"],["staggering stomp","staggering stomp"]]} trample="2d6+9, DC 24" />
 <Stats atts={[22,15,0,0,10,1]} bab={16} cmb={23} cmd={35} cmdP="39 vs. trip" feats={[["Improved Initiative",<sup>B</sup>]]} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 </div>
@@ -432,7 +432,7 @@ const _golem_flesh_golem = {title: "Flesh Golem", jsx: <><p><em>A hideous monstr
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",160]]} xp="3,200" n large construct init={-1} dv={60} llv pcp={0} />
 <Defense ac={[20,8,20]} mod="-1 Dex, +12 natural, -1 size" hp={[79,"9d10+30"]} fort="+3" ref="+2" will="+3" dr="5/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={30} melee="2 slams +13 (2d8+5)" space={"10"} reach={"10"} specAtt={[["berserk","berserk"]]} />
+<Offense sp={30} melee="2 slams +13 (2d8+5)" space="10" reach="10" specAtt={[["berserk","berserk"]]} />
 <Stats atts={[20,9,0,0,11,1]} bab={9} cmb={15} cmd={24} lang={null} />
 <Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
@@ -464,7 +464,7 @@ const _golem_fossil_golem = {title: "Fossil Golem", jsx: <><p><em>Fossilized bon
 <div className="reduce">
 <Info source={[["Bestiary 3",136]]} xp="19,200" n huge construct init={1} dv={60} llv pcp={0} />
 <Defense ac={[26,9,25]} mod="+1 Dex, +17 natural, -2 size" hp={[122,"15d10+40"]} fort="+5" ref="+6" will="+5" dr="10/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={30} melee="2 bites +20 (6d6+7 plus petrification)" space={"15"} reach={"15"} />
+<Offense sp={30} melee="2 bites +20 (6d6+7 plus petrification)" space="15" reach="15" />
 <Stats atts={[25,13,0,0,10,1]} bab={15} cmb={24} cmd={35} feats={[["Combat Reflexes",<sup>B</sup>]]} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
@@ -489,7 +489,7 @@ const _golem_glass_golem = {title: "Glass Golem", jsx: <><p><em>This jagged cons
 <div className="reduce">
 <Info source={[["Bestiary 2",138]]} xp="4,800" n large construct init={-1} dv={60} llv pcp={0} />
 <Defense ac={[21,8,21]} mod="-1 Dex, +13 natural, -1 size" hp={[96,"12d10+30"]} fort="+4" ref="+3" will="+4" def={[["reflect spells","reflect spells"]]} dr="5/adamantine" immune={<>magic, <Link to="/umr/construct_traits">construct traits</Link></>} />
-<Offense sp={30} melee="2 slams +16 (2d8+5 plus bleed)" space={"10"} reach={"10"} specAtt={[["dazzling brightness","dazzling brightness"]]} bleed="1d8" />
+<Offense sp={30} melee="2 slams +16 (2d8+5 plus bleed)" space="10" reach="10" specAtt={[["dazzling brightness","dazzling brightness"]]} bleed="1d8" />
 <Stats atts={[20,9,0,0,11,1]} bab={12} cmb={18} cmd={27} />
 <Ecology env="any land" org="solitary or gang (2-5)" treasure={{"X":false}} />
 </div>
@@ -518,7 +518,7 @@ const _golem_gold_golem = {title: "Gold Golem", jsx: <><p><em>This golden statue
 <div className="reduce">
 <Info source={[["Bestiary 6",140]]} xp="51,200" n large construct init={4} dv={60} llv pcp={0} />
 <Defense ac={[30,13,26]} mod="+4 Dex, +17 natural, -1 size" hp={[156,"23d10+30"]} fort="+7" ref="+11" will="+7" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={30} melee="2 slams +34 (4d8+12 plus prismatic surge)" space={"10"} reach={"10"} />
+<Offense sp={30} melee="2 slams +34 (4d8+12 plus prismatic surge)" space="10" reach="10" />
 <Stats atts={[34,18,0,0,11,1]} bab={23} cmb={36} cmd={50} sq="death throes" />
 <Ecology env="any" org="solitary or procession (2-5)" treasure={{"X":false}} />
 </div>
@@ -608,7 +608,7 @@ const _golem_inubrix_golem = {title: "Inubrix Golem", jsx: <><p><em>This hulking
 <div className="reduce">
 <Info source={[["Construct Handbook",44]]} xp="38,400" n large construct init={3} senSpell={["true seeing"]} dv={60} llv pcp={0} />
 <Defense ac={[28,12,25]} mod="+3 Dex, +16 natural, -1 size" hp={[140,"20d10+30"]} fort="+6" ref="+9" will="+6" dr="10/bludgeoning and magic" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={30} spExtra={<em>air walk</em>} melee="4 claws +26 (1d6+7)" space={"10"} reach={"10"} brWeap="15-ft. cone, see below, Reflex DC 20 half, usable every 1d4 rounds" rend="2 claws, 1d6+10" />
+<Offense sp={30} spExtra={<em>air walk</em>} melee="4 claws +26 (1d6+7)" space="10" reach="10" brWeap="15-ft. cone, see below, Reflex DC 20 half, usable every 1d4 rounds" rend="2 claws, 1d6+10" />
 <SpellBlock id="1" sla={{"cl":20,"con":"+15","content":[{"constant":true,"content":<><Link to="/spell/air_walk">air walk</Link>, <Link to="/spell/true_seeing">true seeing</Link></>}]}} />
 <Stats atts={[24,16,0,0,11,1]} bab={20} cmb={28} cmd={41} />
 <Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
@@ -641,9 +641,9 @@ const _golem_inubrix_golem = {title: "Inubrix Golem", jsx: <><p><em>This hulking
 const _golem_ioun_golem = {title: "Ioun Golem", jsx: <><p><em>This four-armed metal construct has a roughly humanoid shape, with the obvious exception of a missing head. Veins of brass overlay a body of meshed platinum and silver, with intricate circular grooves visible above, below, and between its twin sets of arms.</em></p>
 <Header full><span>Ioun Golem</span><span>CR 17</span></Header>
 <div className="reduce">
-<Info source={[["Pathfinder #126: Beyond the Veiled Past",88]]} xp="102,400" n large construct init={9} dv={60} llv pcp={0} aura={"ioun attraction (60 ft.)"} />
+<Info source={[["Pathfinder #126: Beyond the Veiled Past",88]]} xp="102,400" n large construct init={9} dv={60} llv pcp={0} aura="ioun attraction (60 ft.)" />
 <Defense ac={[33,18,24]} mod="+9 Dex, +15 natural, -1 size" hp={[156,"23d10+30"]} fort="+7" ref="+16" will="+7" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={40} melee="4 slams +32 (3d10+10)" space={"10"} reach={"10"} specAtt={[["ioun surge","ioun surge"]]} />
+<Offense sp={40} melee="4 slams +32 (3d10+10)" space="10" reach="10" specAtt={[["ioun surge","ioun surge"]]} />
 <Stats atts={[30,28,0,0,11,1]} bab={23} cmb={34} cmd={53} sq="gem receptacle" />
 <Ecology env="any" org="solitary" treasure={{"S":[],"final":"‹magic-wondrous/ioun stone«s› &#91&up to 6&#93&"}} />
 </div>
@@ -676,7 +676,7 @@ const _golem_iron_golem = {title: "Iron Golem", jsx: <><p><em>This iron automato
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",162]]} xp="25,600" n large construct init={-1} dv={60} llv pcp={0} />
 <Defense ac={[28,8,28]} mod="-1 Dex, +20 natural, -1 size" hp={[129,"18d10+30"]} fort="+6" ref="+5" will="+6" dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={20} melee="2 slams +28 (2d10+16/19-20)" space={"10"} reach={"10"} specAtt={[["breath weapon","breath weapon"],["powerful blows","powerful blows"]]} />
+<Offense sp={20} melee="2 slams +28 (2d10+16/19-20)" space="10" reach="10" specAtt={[["breath weapon","breath weapon"],["powerful blows","powerful blows"]]} />
 <Stats atts={[32,9,0,0,11,1]} bab={18} cmb={30} cmd={39} />
 <Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
@@ -730,7 +730,7 @@ const _golem_lead_golem = {title: "Lead Golem", jsx: <><p><em>Resembling an unea
 <div className="reduce">
 <Info source={[["Bestiary 5",127]]} xp="9,600" n large construct init={-2} dv={60} llv pcp={0} />
 <Defense ac={[26,7,26]} mod="-2 Dex, +19 natural, -1 size" hp={[107,"14d10+30"]} fort="+4" ref="+2" will="+4" dr="10/adamantine" immune={<>acid, <Link to="/umr/construct_traits">construct traits</Link>, electricity, magic</>} />
-<Offense sp={20} melee="2 slams +21 (2d10+8)" space={"10"} reach={"10"} specAtt={[["retributive miasma","retributive miasma"]]} />
+<Offense sp={20} melee="2 slams +21 (2d10+8)" space="10" reach="10" specAtt={[["retributive miasma","retributive miasma"]]} />
 <Stats atts={[26,7,0,0,11,1]} bab={14} cmb={23} cmd={31} cmdP="39 vs. bull rush, reposition" sq="divination screen, intractable density" />
 <Ecology env="any" org="solitary or curtain (2-4)" treasure={{"X":false}} />
 </div>
@@ -755,9 +755,9 @@ const _golem_lead_golem = {title: "Lead Golem", jsx: <><p><em>Resembling an unea
 const _golem_magnetitie_golem = {title: "Magnetitie Golem", jsx: <><p><em>This vaguely humanoid mass of polished black metal lumbers forward, with all manner of metallic objects clinging to its body.</em></p>
 <Header full><span>Magnetitie Golem</span><span>CR 10</span></Header>
 <div className="reduce">
-<Info source={[["Pathfinder #95: Anvil of Fire",88]]} xp="9,600" n large construct init={-1} dv={60} llv pcp={1} aura={"magnetic field (30 ft.)"} />
+<Info source={[["Pathfinder #95: Anvil of Fire",88]]} xp="9,600" n large construct init={-1} dv={60} llv pcp={1} aura="magnetic field (30 ft.)" />
 <Defense ac={[24,8,24]} mod="-1 Dex, +16 natural, -1 size" hp={[101,"13d10+30"]} fort="+4" ref="+3" will="+5" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={20} melee="2 slams +20 (2d10+8 plus inescapable grip and magnetic disarm)" space={"10"} reach={"10"} specAtt={[["inescapable grip","inescapable grip"],["magnetic disarm","magnetic disarm"]]} />
+<Offense sp={20} melee="2 slams +20 (2d10+8 plus inescapable grip and magnetic disarm)" space="10" reach="10" specAtt={[["inescapable grip","inescapable grip"],["magnetic disarm","magnetic disarm"]]} />
 <Stats atts={[27,9,0,0,12,1]} bab={13} cmb={22} cmbP="+26 grapple" cmd={31} />
 <Ecology env="any" org="solitary or gang (2-4)" treasure={{"I":[],"final":"metal objects stuck to the golem"}} />
 </div>
@@ -788,9 +788,9 @@ const _golem_magnetitie_golem = {title: "Magnetitie Golem", jsx: <><p><em>This v
 const _golem_marrowstone_golem = {title: "Marrowstone Golem", jsx: <><p><em>Thin veins of black rock crisscross the frame of this hulking construct.</em></p>
 <Header full><span>Marrowstone Golem</span><span>CR 8</span></Header>
 <div className="reduce">
-<Info source={[["Inner Sea Bestiary",17]]} xp="4,800" n large construct init={0} dv={60} llv pcp={0} aura={"necrotic field (30 ft.)"} />
+<Info source={[["Inner Sea Bestiary",17]]} xp="4,800" n large construct init={0} dv={60} llv pcp={0} aura="necrotic field (30 ft.)" />
 <Defense ac={[21,9,21]} mod="+12 natural, -1 size" hp={[85,"10d10+30"]} fort="+3" ref="+3" will="+3" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={30} melee="2 slams +14 (2d6+5 plus 2d6 negative energy)" space={"10"} reach={"10"} specAtt={[["create spawn","create spawn"]]} />
+<Offense sp={30} melee="2 slams +14 (2d6+5 plus 2d6 negative energy)" space="10" reach="10" specAtt={[["create spawn","create spawn"]]} />
 <Stats atts={[20,11,0,0,11,1]} bab={10} cmb={16} cmd={26} />
 <Ecology env="any underground (Darklands)" org="solitary or gang (2-5)" treasure={{"X":false}} />
 </div>
@@ -849,7 +849,7 @@ const _golem_mithral_golem = {title: "Mithral Golem", jsx: <><p><em>Made of poli
 <div className="reduce">
 <Info source={[["Bestiary 2",139]]} xp="76,800" n huge construct init={7} dv={60} llv pcp={0} />
 <Defense ac={[32,16,24]} mod="+7 Dex, +1 dodge, +16 natural, -2 size" hp={[172,"24d10+40"]} fort="+8" ref="+15" will="+8" dr="15/adamantine, evasion" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={50} melee="2 slams +33 (4d10+11)" space={"15"} reach={"15"} specAtt={[["fluid form","fluid form"],["quickness","quickness"]]} />
+<Offense sp={50} melee="2 slams +33 (4d10+11)" space="15" reach="15" specAtt={[["fluid form","fluid form"],["quickness","quickness"]]} />
 <Stats atts={[33,24,0,0,11,1]} bab={24} cmb={37} cmd={55} feats={[["Dodge",<sup>B</sup>],["Mobility",<sup>B</sup>],["Run",<sup>B</sup>],["Spring Attack",<sup>B</sup>]]} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
@@ -873,9 +873,9 @@ const _golem_mithral_golem = {title: "Mithral Golem", jsx: <><p><em>Made of poli
 const _golem_noqual_golem = {title: "Noqual Golem", jsx: <><p><em>Pale green metal makes up the body of this automaton. Despite its towering size, it moves with lithe quickness.</em></p>
 <Header full><span>Noqual Golem</span><span>CR 18</span></Header>
 <div className="reduce">
-<Info source={[["Inner Sea Bestiary",18]]} xp="153,600" n huge construct init={2} dv={60} llv pcp={0} aura={"impeded magic (60 ft.)"} />
+<Info source={[["Inner Sea Bestiary",18]]} xp="153,600" n huge construct init={2} dv={60} llv pcp={0} aura="impeded magic (60 ft.)" />
 <Defense ac={[32,10,30]} mod="+2 Dex, +22 natural, -2 size" hp={[202,"25d10+65"]} fort="+8" ref="+10" will="+8; +8 vs. spells, spell-like abilities, and supernatural abilities" def={[["spell absorption","spell absorption"]]} dr="15/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={40} melee="2 slams +36 (4d8+19/19-20 plus spell sunder)" space={"15"} reach={"15"} specAtt={[["construct bane","construct bane"]]} />
+<Offense sp={40} melee="2 slams +36 (4d8+19/19-20 plus spell sunder)" space="15" reach="15" specAtt={[["construct bane","construct bane"]]} />
 <Stats atts={[36,15,0,0,11,1]} bab={25} cmb={40} cmd={52} feats={[["Toughness",<sup>B</sup>]]} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Ecology env="any (Numeria, Thassilon)" org="solitary or pair" treasure={{"X":false}} />
@@ -904,7 +904,7 @@ const _golem_obsidian_golem = {title: "Obsidian Golem", jsx: <><p><em>This statu
 <div className="reduce">
 <Info source={[["Bestiary 6",141]]} xp="19,200" n large construct init={0} dv={60} llv pcp={0} />
 <Defense ac={[27,9,27]} mod="+18 natural, -1 size" hp={[123,"17d10+30"]} fort="+5" ref="+5" will="+5" def={[["jagged body","jagged body"]]} dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={20} melee="2 claws +25 (2d12+9 plus bleed)" space={"10"} reach={"10"} specAtt={[["obsidian spray","obsidian spray"]]} bleed="2d6" />
+<Offense sp={20} melee="2 claws +25 (2d12+9 plus bleed)" space="10" reach="10" specAtt={[["obsidian spray","obsidian spray"]]} bleed="2d6" />
 <Stats atts={[28,10,0,0,11,1]} bab={17} cmb={27} cmd={37} sq="death throes" />
 <Ecology env="any" org="solitary or eruption (2-5)" treasure={{"X":false}} />
 </div>
@@ -930,7 +930,7 @@ const _golem_panthereon = {title: "Panthereon", jsx: <><p><em>This finely sculpt
 <div className="reduce">
 <Info source={[["Pathfinder #82: Secrets of the Sphinx",88]]} xp="12,800" n large construct init={3} senSpell={["true seeing"]} dv={60} llv pcp={2} />
 <Defense ac={[24,8,24]} mod="-1 Dex, +16 natural, -1 size" hp={[118,"16d10+30"]} fort="+5" ref="+4" will="+7" dr="10/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={30} melee="bite +22 (4d6+7 plus cursed wound), 2 slams +22 (1d10+7)" space={"10"} reach={"10"} reachP={"5 ft. with bite"} specAtt={[["cursed wound","cursed wound"],["eye beam","eye beam"],["haste","haste"]]} />
+<Offense sp={30} melee="bite +22 (4d6+7 plus cursed wound), 2 slams +22 (1d10+7)" space="10" reach="10" reachP="5 ft. with bite" specAtt={[["cursed wound","cursed wound"],["eye beam","eye beam"],["haste","haste"]]} />
 <SpellBlock id="1" sla={{"cl":11,"con":"+6","content":[{"constant":true,"content":<Link to="/spell/true_seeing">true seeing</Link>}]}} />
 <Stats atts={[24,9,0,0,15,1]} bab={16} cmb={24} cmd={33} feats={["Improved Initiative"]} />
 <Ecology env="any" org="solitary or pride (2-4)" treasure={{"X":false}} />
@@ -977,7 +977,7 @@ const _golem_quantium_golem = {title: "Quantium Golem", jsx: <><p><em>This tower
 <div className="reduce">
 <Info source={[["Inner Sea Bestiary",19]]} xp="307,200" n gargantuan construct init={-2} sen={["link"]} dv={60} llv pcp={0} />
 <Defense ac={[37,4,37]} mod="-2 Dex, +33 natural, -4 size" hp={[375,"30d10+210"]} fort="+10" ref="+8" will="+10" dr="20/adamantine and bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={20} melee="+5 bastard sword +46/+41/+36/+31 (4d8+20/19-20)" space={"20"} reach={"20"} specAtt={[["eldritch surge","eldritch surge"]]} />
+<Offense sp={20} melee="+5 bastard sword +46/+41/+36/+31 (4d8+20/19-20)" space="20" reach="20" specAtt={[["eldritch surge","eldritch surge"]]} />
 <Stats atts={[40,7,0,0,11,1]} bab={30} cmb={49} cmd={57} feats={["Whirlwind Attack"]} sq="urban defender" />
 <Ecology env="any (Quantium)" org="solitary or pair" treasure={{"S":[["+5","Wbs"]],"final":"other treasure"}} />
 </div>
@@ -1000,9 +1000,9 @@ const _golem_quantium_golem = {title: "Quantium Golem", jsx: <><p><em>This tower
 const _golem_quintessence_golem = {title: "Quintessence Golem", jsx: <><p><em>This partially humanoid creature appears to be carved of smoky glass. Ghostly, screaming faces swirl within its immense body.</em></p>
 <Header full><span>Quintessence Golem</span><span>CR 20</span></Header>
 <div className="reduce">
-<Info source={[["Bestiary 6",142]]} xp="307,200" n huge construct subs={["extraplanar"]} init={10} dv={60} llv lifesense pcp={0} aura={"soul siphon (100 ft.)"} />
+<Info source={[["Bestiary 6",142]]} xp="307,200" n huge construct subs={["extraplanar"]} init={10} dv={60} llv lifesense pcp={0} aura="soul siphon (100 ft.)" />
 <Defense ac={[36,18,26]} mod="+10 Dex, +18 natural, -2 size" hp={[376,"32d10+200"]} fh="20" fort="+10" ref="+20" will="+10" dr="15/epic" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={30} fl={60} flP="perfect" melee="2 slams +45 (5d10+22 plus energy drain)" space={"15"} reach={"15"} eDrain="2 levels, DC 26" />
+<Offense sp={30} fl={60} flP="perfect" melee="2 slams +45 (5d10+22 plus energy drain)" space="15" reach="15" eDrain="2 levels, DC 26" />
 <Stats atts={[40,31,0,0,11,21]} bab={32} cmb={49} cmd={69} skills={{"fly":{"b":14}}} sq="powerful blows (slam), soul infused" />
 <Ecology env="any" org="solitary" treasure={{"X":false}} />
 </div>
@@ -1027,7 +1027,7 @@ const _golem_robot_golem = {title: "Robot Golem", jsx: <><p><em>Though corroded 
 <div className="reduce">
 <Info source={[["Numeria, Land of Fallen Stars",49]]} xp="12,800" n large construct init={0} dv={60} llv pcp={0} />
 <Defense ac={[27,9,27]} mod="+18 natural, -1 size" hp={[112,"15d10+30"]} fort="+5" ref="+5" will="+5" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={20} melee="2 slams +22 (2d10+8)" space={"10"} reach={"10"} specAtt={[["rend construct 2 slams 2d1012","rend construct (2 slams, 2d10+12)"],["shockwave 30-ft-radius spread 8d6 electricity Reflex DC 19 for half usable every 1d4 rounds","shockwave (30-ft.-radius spread, 8d6 electricity, Reflex DC 19 for half, usable every 1d4 rounds)"]]} />
+<Offense sp={20} melee="2 slams +22 (2d10+8)" space="10" reach="10" specAtt={[["rend construct 2 slams 2d1012","rend construct (2 slams, 2d10+12)"],["shockwave 30-ft-radius spread 8d6 electricity Reflex DC 19 for half usable every 1d4 rounds","shockwave (30-ft.-radius spread, 8d6 electricity, Reflex DC 19 for half, usable every 1d4 rounds)"]]} />
 <Stats atts={[26,11,0,0,11,1]} bab={15} cmb={24} cmd={34} />
 <Ecology env="any (Numeria)" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
@@ -1052,7 +1052,7 @@ const _golem_sand_golem = {title: "Sand Golem", jsx: <><p><em>This towering crea
 <div className="reduce">
 <Info source={[["Construct Handbook",46]]} xp="6,400" n large construct init={2} dv={60} llv pcp={0} />
 <Defense ac={[23,11,21]} mod="+2 Dex, +12 natural, -1 size" hp={[96,"12d10+30"]} fort="+4" ref="+6" will="+4" amorph dr="10/bludgeoning" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to electricity</>]} />
-<Offense sp={30} melee={<>2 slams +18 (2d6+7 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"10"} specAtt={[["clutching sands","clutching sands"],["sand blast","sand blast"]]} constrict="2d6+10" />
+<Offense sp={30} melee={<>2 slams +18 (2d6+7 plus <Link to="/umr/grab">grab</Link>)</>} space="10" reach="10" specAtt={[["clutching sands","clutching sands"],["sand blast","sand blast"]]} constrict="2d6+10" />
 <Stats atts={[24,15,0,0,10,1]} bab={12} cmb={20} cmbP="+24 grapple" cmd={32} sq={<Link to="/umr/compression">compression</Link>} />
 <Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
@@ -1084,7 +1084,7 @@ const _golem_sand_golem = {title: "Sand Golem", jsx: <><p><em>This towering crea
 </>};
 const _golem_sentient_wax_golem = {title: "Sentient Wax Golem", jsx: <><Header full><span>Sentient Wax Golem</span><span>CR 4</span></Header>
 <div className="reduce">
-<Info source={[["Pathfinder #47: Ashes at Dawn",90]]} xp="1,200" text={"Commoner 1"} n medium construct init={3} dv={60} llv pcp={6} />
+<Info source={[["Pathfinder #47: Ashes at Dawn",90]]} xp="1,200" text="Commoner 1" n medium construct init={3} dv={60} llv pcp={6} />
 <Defense ac={[15,9,15]} mod="-1 Dex, +6 natural" hp={[47,"4d10+1d6+21",5]} fort="+3" ref="+2" will="+1" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} weak={[<><Link to="/umr/vulnerable">vulnerable</Link> to fire</>]} />
 <Offense sp={30} melee="slam +6 (1d6+3)" />
 <Stats atts={[14,9,0,10,11,1]} bab={4} cmb={6} cmd={15} feats={["Great Fortitude","Improved Initiative","Lightning Reflexes"]} skills={{"app":{"b":6},"craft":{"of":"carpentry","b":7},"dis":{"b":7,"x":"+17 to appear as the individual it was crafted to resemble"}}} racial="+12 Disguise" lang={["C"]} sq="conditional sentience" />
@@ -1116,9 +1116,9 @@ const _golem_sentient_wax_golem = {title: "Sentient Wax Golem", jsx: <><Header f
 const _golem_shadow_golem = {title: "Shadow Golem", jsx: <><p><em>This towering humanoid figure seems to be made of solidified shadows. Two pale orbs glare from its otherwise blank visage.</em></p>
 <Header full><span>Shadow Golem</span><span>CR 14</span></Header>
 <div className="reduce">
-<Info source={[["Pathfinder #102: Breaking the Bones of Hell",88]]} xp="38,400" n large construct init={4} dv={60} llv sid pcp={0} aura={"shadow (60 ft.)"} />
+<Info source={[["Pathfinder #102: Breaking the Bones of Hell",88]]} xp="38,400" n large construct init={4} dv={60} llv sid pcp={0} aura="shadow (60 ft.)" />
 <Defense ac={[29,19,25]} mod="+6 deflection, +4 Dex, +10 Natural, -1 Size" hp={[151,"22d10+30"]} fort="+7" ref="+11" will="+7" def={[["immunity to magic","immunity to magic"]]} dr="15/adamantine and slashing" immune={<>cold, <Link to="/umr/construct_traits">construct traits</Link></>} />
-<Offense sp={50} melee="2 claws +33 (3d10+12)" space={"10"} reach={"10"} specAtt={[["breath weapon","breath weapon"]]} />
+<Offense sp={50} melee="2 claws +33 (3d10+12)" space="10" reach="10" specAtt={[["breath weapon","breath weapon"]]} />
 <SpellBlock id="1" sla={{"cl":20,"con":"+15","content":[{"constant":true,"content":<Link to="/spell/air_walk">air walk</Link>}]}} />
 <Stats atts={[34,19,0,0,11,1]} bab={22} cmb={35} cmd={55} skills={{"stl":{"b":0,"x":"+16 in dim light"}}} racial="+16 Stealth in dim light" />
 <Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
@@ -1150,7 +1150,7 @@ const _golem_stone_golem = {title: "Stone Golem", jsx: <><p><em>This towering st
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",163]]} xp="12,800" n large construct init={-1} dv={60} llv pcp={0} />
 <Defense ac={[26,8,26]} mod="-1 Dex, +18 natural, -1 size" hp={[107,"14d10+30"]} fort="+4" ref="+3" will="+4" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={20} melee="2 slams +22 (2d10+9)" space={"10"} reach={"10"} specAtt={[["slow","slow"]]} />
+<Offense sp={20} melee="2 slams +22 (2d10+9)" space="10" reach="10" specAtt={[["slow","slow"]]} />
 <Stats atts={[28,9,0,0,11,1]} bab={14} cmb={24} cmd={33} />
 <Ecology env="any" org="solitary or gang (2-4)" treasure={{"X":false}} />
 </div>
@@ -1174,7 +1174,7 @@ const _golem_viridium_golem = {title: "Viridium Golem", jsx: <><p><em>This green
 <div className="reduce">
 <Info source={[["Bestiary 6",143]]} xp="153,600" n huge construct init={5} dv={60} llv pcp={0} />
 <Defense ac={[33,13,28]} mod="+5 Dex, +20 natural, -2 size" hp={[222,"28d10+68"]} fort="+9" ref="+14" will="+9" dr="20/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, magic</>} />
-<Offense sp={30} melee="sword +38 (4d6+12/19-20 plus bleed and disease), shield +38 (4d6+12/&times;3 plus disease and stun), 2 slams +38 (2d6+12 plus disease)" space={"15"} reach={"15"} bleed="4d6" />
+<Offense sp={30} melee="sword +38 (4d6+12/19-20 plus bleed and disease), shield +38 (4d6+12/&times;3 plus disease and stun), 2 slams +38 (2d6+12 plus disease)" space="15" reach="15" bleed="4d6" />
 <Stats atts={[35,20,0,0,11,1]} bab={28} cmb={42} cmd={57} feats={["Toughness"]} />
 <Ecology env="any" org="solitary or plague (2-4)" treasure={{"X":false}} />
 </div>
@@ -1267,7 +1267,7 @@ const _hag_eye_ooze_coven_ooze = {title: "Coven Ooze (Hag Eye Ooze)", jsx: <><p>
 <div className="reduce">
 <Info source={[["Pathfinder #72: The Witch Queen's Revenge",86]]} xp="6,400" n large ooze init={-5} blindsight={60} pcp={7} />
 <Defense ac={[4,4,4]} mod="-5 Dex, -1 size" hp={[115,"11d8+66"]} fort="+9" ref="-2" will="-1" def={[["split","split"]]} immune={<>acid, cold, <Link to="/umr/ooze_traits">ooze traits</Link></>} resist="fire 10" />
-<Offense sp={30} cl={20} melee="slam +11 (1d8+4/19-20)" space={"10"} reach={"10"} specAtt={[["absorb flesh","absorb flesh"],["hag eye ray","hag eye ray"]]} engulf="DC 18, 1d4 Con drain" />
+<Offense sp={30} cl={20} melee="slam +11 (1d8+4/19-20)" space="10" reach="10" specAtt={[["absorb flesh","absorb flesh"],["hag eye ray","hag eye ray"]]} engulf="DC 18, 1d4 Con drain" />
 <Stats atts={[16,1,22,2,3,1]} bab={8} cmb={12} cmd={17} cmdP="can't be tripped" feats={["Cleave","Great Cleave",["Improved Critical"," (slam)"],"Power Attack",["Skill Focus"," (Perception)"],["Weapon Focus"," (slam)"]]} skills={{"climb":{"b":12}}} sq="suction" />
 <Ecology env="temperate marshes or underground" org="solitary" treasure={{"X":false}} />
 </div>
@@ -1285,7 +1285,7 @@ const _hag_annis_hag = {title: "Annis Hag", jsx: <><p><em>This repulsive, hunchb
 <div className="reduce">
 <Info source={[["Bestiary 3",16],["Bonus Bestiary",11]]} xp="2,400" ce large monstrousHumanoid init={1} dv={60} pcp={13} />
 <Defense ac={[20,10,19]} mod="+1 Dex, +10 natural, -1 size" hp={[66,"7d10+28"]} fort="+8" ref="+6" will="+6" dr="5/bludgeoning" sr="17" />
-<Offense sp={40} melee={<>bite +13 (1d6+7), 2 claws +13 (1d6+7 plus <Link to="/umr/grab">grab</Link>)</>} space={"10"} reach={"10"} rend="2 claws, 2d6+10" />
+<Offense sp={40} melee={<>bite +13 (1d6+7), 2 claws +13 (1d6+7 plus <Link to="/umr/grab">grab</Link>)</>} space="10" reach="10" rend="2 claws, 2d6+10" />
 <SpellBlock id="1" sla={{"cl":7,"con":"+7","content":[{"day":3,"content":<><Link to="/spell/alter_self">alter self</Link>, <Link to="/spell/fog_cloud">fog cloud</Link></>}]}} />
 <Stats atts={[25,12,18,13,13,10]} bab={7} cmb={15} cmbP="+19 grapple" cmd={26} feats={["Alertness","Blind-Fight","Great Fortitude","Intimidating Prowess"]} skills={{"bluff":{"b":7},"diplo":{"b":7},"sm":{"b":3},"stl":{"b":7}}} lang={["C","G"]} />
 <Ecology env="cold marshes" org="solitary or coven (3 hags of any kind)" treasure={{"S":false}} />
@@ -1487,7 +1487,7 @@ const _hag_night_hag = {title: "Night Hag", jsx: <><p><em>Grisly fetishes and th
 const _hag_sea_hag = {title: "Sea Hag", jsx: <><p><em>Hair like rotting seaweed drapes this ancient witch. Loose, algae-colored skin sags off her starved frame.</em></p>
 <Header full><span>Sea Hag</span><span>CR 4</span></Header>
 <div className="reduce">
-<Info source={[["Pathfinder RPG Bestiary",243]]} xp="1,200" ce medium monstrousHumanoid subs={["aquatic"]} init={3} dv={60} pcp={11} aura={"horrific appearance (60 ft.)"} />
+<Info source={[["Pathfinder RPG Bestiary",243]]} xp="1,200" ce medium monstrousHumanoid subs={["aquatic"]} init={3} dv={60} pcp={11} aura="horrific appearance (60 ft.)" />
 <Defense ac={[16,13,13]} mod="+3 Dex, +3 natural" hp={[38,"4d10+16"]} fort="+5" ref="+7" will="+5" sr="15" />
 <Offense sp={30} sw={40} melee="2 claws +8 (1d6+4)" specAtt={[["evil eye","evil eye"]]} />
 <Stats atts={[19,16,18,12,13,15]} bab={4} cmb={8} cmd={21} feats={[["Skill Focus"," (Bluff, Perception)"]]} skills={{"bluff":{"b":9},"k":{"of":"any one","b":5},"per":{"b":11},"stl":{"b":10},"swim":{"b":19}}} lang={["C","G"]} sq={<Link to="/umr/amphibious">amphibious</Link>} />
@@ -1593,7 +1593,7 @@ const _iron_rhinoceros = {title: "Iron Rhinoceros", jsx: <><p><em>Dangling chain
 <div className="reduce">
 <Info source={[["Pathfinder #95: Anvil of Fire",86]]} xp="12,800" n huge construct init={1} dv={60} llv pcp={14} />
 <Defense ac={[25,9,24]} mod="+1 Dex, +16 natural, -2 size" hp={[131,"14d10+54"]} fort="+6" ref="+7" will="+4" dr="10/adamantine" immune={<><Link to="/umr/construct_traits">construct traits</Link>, fire</>} />
-<Offense sp={40} melee={<>gore +21 (3d8+9/19-20), 2 chains +19 (2d6+4 plus <Link to="/umr/grab">grab</Link>)</>} space={"15"} reach={"10"} reachP={"20 ft. with chains"} specAtt={[["grasping chains","grasping chains"],["powerful drag","powerful drag"]]} powCh="gore, 6d8+16 or scooping charge" swallow="2d6 fire damage, AC 18, 13 hp" trample="2d6+8 plus grasping chains, DC 26" />
+<Offense sp={40} melee={<>gore +21 (3d8+9/19-20), 2 chains +19 (2d6+4 plus <Link to="/umr/grab">grab</Link>)</>} space="15" reach="10" reachP="20 ft. with chains" specAtt={[["grasping chains","grasping chains"],["powerful drag","powerful drag"]]} powCh="gore, 6d8+16 or scooping charge" swallow="2d6 fire damage, AC 18, 13 hp" trample="2d6+8 plus grasping chains, DC 26" />
 <Stats atts={[28,12,0,1,11,5]} bab={14} cmb={25} cmbP="+29 grapple" cmd={36} cmdP="40 vs. trip" feats={["Great Fortitude",["Improved Critical"," (gore)"],"Intimidating Prowess","Lightning Reflexes","Multiattack","Power Attack","Toughness"]} skills={{"intm":{"b":4},"per":{"b":14}}} />
 <Ecology env="warm mountains or underground" org="solitary" treasure={{"X":false}} />
 </div>

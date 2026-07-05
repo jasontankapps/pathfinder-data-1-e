@@ -1,7 +1,7 @@
 import isALink from "../get-all-links.js";
 import { convertTextToLink } from "../tests/checkForEncodedLink.js";
 
-const makeRoomBlock = ({marked2, convertEncodedInfo, id, maybeClear, text, attrs, logError, team}) => {
+const makeRoomBlock = ({marked2, convertEncodedInfo, id, maybeClear, text, attrs, logError}) => {
 	const {
 		eGp, eGoods, eMagic, eInfluence, eLabor, e,
 		cGoods, cMagic, cInfluence, cLabor, c,
@@ -13,128 +13,89 @@ const makeRoomBlock = ({marked2, convertEncodedInfo, id, maybeClear, text, attrs
 	// START CODE
 	//
 	const output = [
-		`${maybeClear}<div className="sideNoteWrap startAlign noIcon">`,
-		`<table><tbody>`
+		`${maybeClear}<RoomInfo id="${id}"`
 	];
-	//
-	// ADD A TITLE LINE IF NEEDED
-	//
-	if(text) {
-		output.push(
-			"<tr>",
-			`<th colSpan={4} scope="col" className="title">${text}</th>`,
-			"</tr>"
-		);
-	}
 	//
 	// CONFIGURE EARNINGS
 	//
-	const earn = [];
 	if(earnings) {
-		earn.push(earnings);
+		output.push(`earnings="${earnings}"`)
 	} else {
-		eGp && earn.push("gp");
-		eGoods && earn.push("Goods");
-		eInfluence && earn.push("Influence");
-		eLabor && earn.push("Labor");
-		eMagic && earn.push("Magic");
+		const earn = [];
+		eGoods && earn.push(`eGoods`);
+		eInfluence && earn.push(`eInf`);
+		eLabor && earn.push(`eLabor`);
+		eMagic && earn.push(`eMagic`);
+		eGp && earn.push(`eGp`);
 		if(earn.length > 0) {
 			if(!e) {
 				logError("---> Missing `e` earnings value");
 			} else {
-				const pop = earn.pop();
-				if(!pop) {
-					logError("---> Missing ALL earnings?");
-				} else {
-					earn.push(`${earn.length ? "or " : ""}${pop} +${e}`);
-				}
+				output.push(`e={${e}}`, ...earn);
 			}
 		}
 	}
-	earn.length && output.push(
-		`<tr><th scope="row">Earnings</th><td colSpan={3}>${
-			earn.length === 2 ? earn.join(" ") : earn.join(", ")
-		}</td></tr>`
-	);
 	//
 	// BENEFIT
 	//
 	benefit && output.push(
-		`<tr><th scope="row">Benefit</th><td colSpan={3}>${marked2.parseInline(convertEncodedInfo(benefit))}</td></tr>`
+		`benefit={<>${marked2.parseInline(convertEncodedInfo(benefit))}</>}`
 	);
 	//
 	// CONFIGURE CREATION COSTS
 	//
 	const costs = [];
 	if(create) {
-		costs.push(create);
-		costs.length && output.push(
-			`<tr><th scope="row">Create</th><td colSpan={3}>${create}</td></tr>`
-		);
+		output.push(`create="${create}"`)
 	} else if (!c) {
 		logError("---> Missing `c` create value");
 	} else {
-		cGoods && costs.push(`${cGoods} Goods`);
-		cInfluence && costs.push(`${cInfluence} Influence`);
-		cLabor && costs.push(`${cLabor} Labor`);
-		cMagic && costs.push(`${cMagic} Magic`);
-		costs.length && output.push(
-			`<tr><th scope="row">Create</th><td colSpan={3}>${
-				costs.join(", ")
-			} (${
-				Intl.NumberFormat("en-US").format(c)
-			} gp)</td></tr>`
-		);
+		cGoods && output.push(`cGoods={${cGoods}}`);
+		cInfluence && output.push(`cInf={${cInfluence}}`);
+		cLabor && output.push(`cLabor={${cLabor}}`);
+		cMagic && output.push(`cMagic={${cMagic}}`);
+		output.push(`c={${c}}`);
 	}
 	//
 	// CONFIGURE TIME AND SIZE
 	//
 	output.push(
-		`<tr>`,
-		`<th id="${id}-time">Time</th>`,
-		`<td headers=\"${id}-time">${time || `${t} days`}</td>`,
-		`<th id="${id}-size">Size</th>`,
-		`<td headers="${id}-size">${
-			team ? (s === 1 ? "1 person" : `${s} people`) : (size || `${s1}-${s2} squares`)
-		}</td>`,
-		`</tr>`
+		t ? `t={${t}}` : `time="${time}"`,
+		s ? `s={${s}}` : (size ? `size="${size}"` : `s1={${s1}} s2={${s2}}`)
 	);
 	//
 	// UPGRADES FROM/TO
 	//
-	from && output.push(
-		`<tr><th scope="row">Upgrades From</th><td colSpan={3}>${
-			marked2.parseInline(convertEncodedInfo(
-				from.split("~").map(bit => {
-					if(!isALink("misc", convertTextToLink(bit))) {
-						logError(`::room Unable to find [misc/${bit}]`);
-						return "[error]";
-					}
-					return `‹misc/${bit}›`;
-				}).join(", ")
-			))
-		}</td></tr>`
-	);
-	to && output.push(
-		`<tr><th scope="row">Upgrades To</th><td colSpan={3}>${
-			marked2.parseInline(convertEncodedInfo(
-				to.split("~").map(bit => {
-					if(!isALink("misc", convertTextToLink(bit))) {
-						logError(`::room Unable to find [misc/${bit}]`);
-						return "[error]";
-					}
-					return `‹misc/${bit}›`;
-				}).join(", ")
-			))
-		}</td></tr>`
-	);
+	if(from) {
+		from.split("~").every(bit => {
+			if(!isALink("misc", convertTextToLink(bit))) {
+				logError(`::room Unable to find [misc/${bit}]`);
+				return false;
+			}
+			return true;
+		}) && output.push(`from="${from}"`);
+	}
+	if(to) {
+		to.split("~").every(bit => {
+			if(!isALink("misc", convertTextToLink(bit))) {
+				logError(`::room Unable to find [misc/${bit}]`);
+				return false;
+			}
+			return true;
+		}) && output.push(`to="${to}"`);
+	}
 	//
-	// END CODE BLOCK
+	// ADD A TITLE LINE IF NEEDED
 	//
-	output.push(
-		`</tbody></table></div>`
-	);
-	return output.join("");
+	let potential = output.join(" ") + (text ? `>${text}</RoomInfo>` : " />");
+	let final = "";
+	let m;
+	while(m = potential.match(/(^.*?)=\{(?:<>|")([^<>"]+)(?:<[/]>|")\}(.*$)/)) {
+		const [,pre,text,post] = m;
+		final = final + `${pre}="${text}"`;
+		potential = post;
+	}
+	return final + potential + "\n";
 }
 
 export default makeRoomBlock;

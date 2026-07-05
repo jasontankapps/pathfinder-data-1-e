@@ -176,7 +176,7 @@ const makeMonsterInfoBlock = ({marked2, flags, parseSOURCE, convertEncodedInfo, 
 		let potential = `${maybeClear}<Info ${output.join(" ")} />`;
 		let final = "";
 		let m;
-		while(m = potential.match(/(^.*?)=\{<>([^<>"]+)<[/]>\}(.*$)/)) {
+		while(m = potential.match(/(^.*?)=\{(?:<>|")([^<>"]+)(?:<[/]>|")\}(.*$)/)) {
 			const [,pre,text,post] = m;
 			final = final + `${pre}="${text}"`;
 			potential = post;

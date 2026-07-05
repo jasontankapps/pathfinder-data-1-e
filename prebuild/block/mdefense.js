@@ -200,7 +200,15 @@ const makeMonsterDefenseBlock = ({marked2, flags, convertEncodedInfo, maybeClear
 		output.push(`weak={[${w.map(bit => doConvert(bit[1])).join(",")}]}`);
 	}
 	if(flag) {
-		return `${maybeClear}<Defense ${output.join(" ")} />\n`;
+		let potential = `${maybeClear}<Defense ${output.join(" ")} />`;
+		let final = "";
+		let m;
+		while(m = potential.match(/(^.*?)=\{(?:<>|")([^<>"]+)(?:<[/]>|")\}(.*$)/)) {
+			const [,pre,text,post] = m;
+			final = final + `${pre}="${text}"`;
+			potential = post;
+		}
+		return final + potential + "\n";
 	}
 	return "<Header sub>Defense</Header><p><em>Error.</em></p>\n";
 };

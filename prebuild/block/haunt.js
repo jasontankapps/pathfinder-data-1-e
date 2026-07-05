@@ -44,7 +44,7 @@ const makeHauntBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, tex
 	let potential = output.join("");
 	let final = "";
 	let m;
-	while(m = potential.match(/(^.*?)=\{<>([^<>"]+)<[/]>\}(.*$)/)) {
+	while(m = potential.match(/(^.*?)=\{(?:<>|")([^<>"]+)(?:<[/]>|")\}(.*$)/)) {
 		const [,pre,text,post] = m;
 		final = final + `${pre}="${text}"`;
 		potential = post;

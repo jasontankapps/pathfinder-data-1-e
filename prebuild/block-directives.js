@@ -575,7 +575,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"earnings", "create", "time", "size", "to", "from"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
-				const id = prefix + makeValidID(text + "-room");
+				const id = makeValidID(text + "-room");
+				flags.room = true;
 				return makeRoomBlock({marked2, convertEncodedInfo, id, maybeClear, text, attrs, logError});
 			} else if (n === "team") {
 				// Teams
@@ -586,8 +587,9 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"t", "s", "to", "from"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
-				const id = prefix + makeValidID(text + "-team");
-				return makeRoomBlock({marked2, convertEncodedInfo, id, maybeClear, text, attrs, logError, team: true});
+				const id = makeValidID(text + "-team");
+				flags.room = true;
+				return makeRoomBlock({marked2, convertEncodedInfo, id, maybeClear, text, attrs, logError});
 			} else if (n === "rtraits") {
 				churn(n, attrs, [
  					"clear",

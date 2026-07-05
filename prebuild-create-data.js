@@ -1164,6 +1164,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	groupFlags.aff && imports.push(`import AffInfo from '../../components/AfflictionInfo';`);
 	groupFlags.trap && imports.push(`import TrapInfo from '../../components/TrapInfo';`);
 	groupFlags.haunt && imports.push(`import HauntInfo from '../../components/HauntInfo';`);
+	groupFlags.room && imports.push(`import RoomInfo from '../../components/RoomInfo';`);
 	groupFlags.spellinfo && imports.push(`import SpellInfo from '../../components/SpellInfo';`);
 	// Add saved info;
 	const allprops = [];

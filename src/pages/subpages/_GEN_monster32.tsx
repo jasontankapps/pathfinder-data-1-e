@@ -38,9 +38,9 @@ const _gremlin_drexin = {title: "Drexin (Gremlin)", jsx: <><p><em>This pale, spi
 const _gremlin_erinat = {title: "Erinat (Gremlin)", jsx: <><p><em>The pockets of this urchin are stuffed with worthless objects.</em></p>
 <Header full><span>Erinat</span><span>CR 2</span></Header>
 <div className="reduce">
-<Info source={[["Andoran, Birthplace of Freedom",56]]} xp="600" ce tiny fey init={3} llv pcp={5} aura={"discordant (20 ft.)"} />
+<Info source={[["Andoran, Birthplace of Freedom",56]]} xp="600" ce tiny fey init={3} llv pcp={5} aura="discordant (20 ft.)" />
 <Defense ac={[15,15,12]} mod="+3 Dex, +2 size" hp={[19,"3d6+9"]} fort="+3" ref="+6" will="+2" dr="5/cold iron" sr="13" />
-<Offense sp={30} melee="spiked chain +6 (1d4+3)" space={"2-1/2"} reach={"0"} reachP={"5 ft. with spiked chain"} specAtt={[["lashing chains","lashing chains"],["malicious mischief","malicious mischief"]]} />
+<Offense sp={30} melee="spiked chain +6 (1d4+3)" space="2-1/2" reach="0" reachP="5 ft. with spiked chain" specAtt={[["lashing chains","lashing chains"],["malicious mischief","malicious mischief"]]} />
 <SpellBlock id="1" sla={{"cl":3,"con":"+5","content":[{"will":true,"content":<><Link to="/spell/alter_self">alter self</Link> (Small humanoid child only), <Link to="/spell/ghost_sound">ghost sound</Link> (DC 12)</>},{"day":1,"content":<><Link to="/spell/lesser_confusion">lesser confusion</Link> (DC 13), <Link to="/spell/murderous_command">murderous command</Link> (DC 13), <Link to="/spell/rage">rage</Link></>}]}} />
 <Stats atts={[14,16,15,8,9,14]} bab={1} cmb={2} cmd={14} feats={["Power Attack",["Skill Focus"," (Stealth)"],["Toughness",<sup>B</sup>],["Weapon Finesse",<sup>B</sup>]]} skills={{"acro":{"b":9},"bluff":{"b":8},"per":{"b":5},"soh":{"b":13},"stl":{"b":20}}} racial="+4 Sleight of Hand" lang={["Ak","C","U"]} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
@@ -79,7 +79,7 @@ const _gremlin_grimple = {title: "Grimple (Gremlin)", jsx: <><p><em>This putrid-
 <div className="reduce">
 <Info source={[["Bestiary 4",142],["Fey Revisited",15]]} xp="135" cn tiny fey init={1} llv pcp={4} />
 <Defense ac={[13,13,12]} mod="+1 Dex, +2 size" hp={[4,"1d6+1"]} fort="+1" ref="+3" will="+2" dr="2/cold iron" />
-<Offense sp={20} cl={20} fl={20} flP="clumsy" melee="bite +3 (1d3-4)" ranged="rock +3 (1d2-4)" space={"2-1/2"} reach={"0"} specAtt={[["putrid vomit","putrid vomit"]]} />
+<Offense sp={20} cl={20} fl={20} flP="clumsy" melee="bite +3 (1d3-4)" ranged="rock +3 (1d2-4)" space="2-1/2" reach="0" specAtt={[["putrid vomit","putrid vomit"]]} />
 <SpellBlock id="1" sla={{"cl":1,"con":"-1","content":[{"will":true,"content":<Link to="/spell/prestidigitation">prestidigitation</Link>},{"day":3,"content":<><Link to="/spell/grease">grease</Link> (DC 9), <Link to="/spell/mage_hand">mage hand</Link>, <Link to="/spell/open_close">open/close</Link></>}]}} />
 <Stats atts={[3,13,12,10,11,6]} bab={0} cmb={-1} cmd={5} feats={[["Skill Focus"," (Stealth)"],["Weapon Finesse",<sup>B</sup>]]} skills={{"climb":{"b":13},"fly":{"b":1}}} lang={["U"]} sq="gremlin lice" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
@@ -99,7 +99,7 @@ const _gremlin_haniver = {title: "Haniver (Gremlin)", jsx: <><p><em>This small, 
 <div className="reduce">
 <Info source={[["Bestiary 4",143],["Pathfinder #25: The Bastards of Erebus",76]]} xp="200" n tiny fey subs={["aquatic"]} init={5} dv={60} llv pcp={4} />
 <Defense ac={[13,13,12]} mod="+1 Dex, +2 size" hp={[4,"1d6+1"]} fort="+1" ref="+3" will="+2" dr="2/cold iron" sr="11" />
-<Offense sp={10} fl={20} flP="average" sw={20} melee="bite +1 (1d3-1)" space={"2-1/2"} reach={"0"} specAtt={[["misplacement","misplacement"]]} />
+<Offense sp={10} fl={20} flP="average" sw={20} melee="bite +1 (1d3-1)" space="2-1/2" reach="0" specAtt={[["misplacement","misplacement"]]} />
 <SpellBlock id="1" sla={{"cl":1,"con":"+2","content":[{"will":true,"content":<><Link to="/spell/prestidigitation">prestidigitation</Link>, <Link to="/spell/ventriloquism">ventriloquism</Link> (DC 12)</>},{"day":1,"content":<><Link to="/spell/scare">scare</Link> (DC 13)</>}]}} />
 <Stats atts={[9,13,12,8,11,12]} bab={0} cmb={-1} cmd={8} feats={["Improved Initiative"]} skills={{"dd":{"b":3},"dis":{"b":5},"fly":{"b":5}}} racial="+2 Disable Device, +2 Sleight of Hand" lang={["C","S"]} sq={<Link to="/umr/amphibious">amphibious</Link>} />
 <Ecology env="temperate coasts" org="solitary, pair, or swarm (4-12)" treasure={{"I":false}} />
@@ -142,7 +142,7 @@ const _gremlin_jinkin = {title: "Jinkin (Gremlin)", jsx: <><p><em>Grimacing like
 <div className="reduce">
 <Info source={[["Bestiary 2",142],["Pathfinder #19: Howl of the Carrion King",82]]} xp="400" ce tiny fey init={4} dv={120} llv pcp={6} />
 <Defense ac={[18,17,13]} mod="+4 Dex, +1 dodge, +1 natural, +2 size" hp={[6,"1d6+3"]} fort="+0" ref="+6" will="+4" dr="5/cold iron" sr="12" />
-<Offense sp={40} melee="short sword +6 (1d3-4/19-20), bite +1 (1d2-4)" space={"2-1/2"} reach={"0"} specAtt={[["tinker","tinker"]]} sneak="+1d6" />
+<Offense sp={40} melee="short sword +6 (1d3-4/19-20), bite +1 (1d2-4)" space="2-1/2" reach="0" specAtt={[["tinker","tinker"]]} sneak="+1d6" />
 <SpellBlock id="1" sla={{"cl":1,"con":"+3","content":[{"will":true,"content":<Link to="/spell/prestidigitation">prestidigitation</Link>},{"per":"hour","content":<><Link to="/spell/dimension_door">dimension door</Link> (self plus 5 lbs. only)</>}]}} />
 <Stats atts={[3,19,11,14,14,15]} bab={0} cmb={2} cmd={9} feats={["Dodge","Toughness","Weapon Finesse"]} skills={{"bluff":{"b":6},"craft":{"of":"traps","b":10},"dd":{"b":9},"ea":{"b":8},"per":{"b":6},"soh":{"b":8},"stl":{"b":16},"umd":{"b":6}}} racial="+4 Craft (traps), +4 Disable Device" lang={["U"]} />
 <Ecology env="any underground or urban" org={<>solitary, pair, mob (3-12), or infestation (13-20 with 1-3 sorcerers of 1st-3rd level, 1 rogue leader of 2nd-4th level, 2-8 trained <Link to="/monster/stirge">stirges</Link>, 2-5 trained <Link to="/monster/darkmantle">darkmantles</Link>, and 1-2 trained <Link to="/monster/dire_bat">dire bats</Link>)</>} treasure={{"S":[["Wss"]],"final":"other treasure"}} />
@@ -161,7 +161,7 @@ const _gremlin_jinkin = {title: "Jinkin (Gremlin)", jsx: <><p><em>Grimacing like
 const _gremlin_monaciello = {title: "Monaciello (Gremlin)", jsx: <><p><em>Dressed in red robes like those of a monk, this little monster displays a sharp-toothed smile and flips a gold coin in its hand.</em></p>
 <Header full><span>Monaciello</span><span>CR 1</span></Header>
 <div className="reduce">
-<Info source={[["Bestiary 4",144]]} xp="400" ce small fey init={2} llv pcp={6} aura={"stymie channeling (20 ft.; DC 12)"} />
+<Info source={[["Bestiary 4",144]]} xp="400" ce small fey init={2} llv pcp={6} aura="stymie channeling (20 ft.; DC 12)" />
 <Defense ac={[13,13,11]} mod="+2 Dex, +1 size" hp={[14,"2d6+7"]} fort="+2" ref="+5" will="+4; +4 vs. divine magic" dr="5/cold iron" sr="12" />
 <Offense sp={30} melee="bite +4 (1d4-2), dagger +4 (1d3-2/19-20)" />
 <SpellBlock id="1" sla={{"cl":3,"con":"+4","content":[{"will":true,"content":<><Link to="/spell/prestidigitation">prestidigitation</Link>, <Link to="/spell/putrefy_food_and_drink">putrefy food and drink</Link> (DC 11), <Link to="/spell/ghost_sound">ghost sound</Link> (DC 12), <Link to="/spell/silent_image">silent image</Link> (DC 12)</>},{"day":1,"content":<Link to="/spell/glitterdust">glitterdust</Link>}]}} />
@@ -204,7 +204,7 @@ const _gremlin_nuno = {title: "Nuno (Gremlin)", jsx: <><p><em>This withered, eye
 <div className="reduce">
 <Info source={[["Bestiary 5",132]]} xp="200" ne tiny fey init={2} tremorsense={30} pcp={6} />
 <Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[3,"1d6"]} fort="+0" ref="+4" will="+4" def={[["ant affinity","ant affinity"]]} dr="2/cold iron" />
-<Offense sp={20} br={10} melee="slam +0 (1d2-2)" space={"2-1/2"} reach={"0"} specAtt={[["nunos curse","nuno's curse"]]} />
+<Offense sp={20} br={10} melee="slam +0 (1d2-2)" space="2-1/2" reach="0" specAtt={[["nunos curse","nuno's curse"]]} />
 <Stats atts={[6,15,10,13,14,15]} bab={0} cmb={0} cmd={8} feats={[["Ability Focus"," (nuno's curse)"]]} skills={{"bluff":{"b":6},"k":{"d":6},"per":{"b":6}}} racial="+4 Knowledge (dungeoneering)" lang={["Ak","S","T"]} sq="wax locator" />
 <Ecology env="any warm land or underground" org="solitary" treasure={{"S":false}} />
 </div>
@@ -222,9 +222,9 @@ const _gremlin_nuno = {title: "Nuno (Gremlin)", jsx: <><p><em>This withered, eye
 const _gremlin_pugwampi = {title: "Pugwampi (Gremlin)", jsx: <><p><em>As if the world's most revolting lapdog had somehow learned to walk on its back legs, this sickly creature slinks forward carefully.</em></p>
 <Header full><span>Pugwampi</span><span>CR 1/2</span></Header>
 <div className="reduce">
-<Info source={[["Bestiary 2",144],["Pathfinder #19: Howl of the Carrion King",83]]} xp="200" ne tiny fey init={5} dv={120} llv pcp={6} aura={"unluck (20 ft.)"} />
+<Info source={[["Bestiary 2",144],["Pathfinder #19: Howl of the Carrion King",83]]} xp="200" ne tiny fey init={5} dv={120} llv pcp={6} aura="unluck (20 ft.)" />
 <Defense ac={[13,13,12]} mod="+1 Dex, +2 size" hp={[6,"1d6+3"]} fort="+0" ref="+3" will="+4" dr="2/cold iron" sr="7" />
-<Offense sp={30} melee="dagger +3 (1d2-4/19-20)" ranged="shortbow +3 (1d3-4/&times;3)" space={"2-1/2"} reach={"0"} />
+<Offense sp={30} melee="dagger +3 (1d2-4/19-20)" ranged="shortbow +3 (1d3-4/&times;3)" space="2-1/2" reach="0" />
 <SpellBlock id="1" sla={{"cl":1,"con":"-1","content":[{"will":true,"content":<><Link to="/spell/prestidigitation">prestidigitation</Link>, <Link to="/spell/speak_with_animals">speak with animals</Link></>},{"day":1,"content":<><Link to="/spell/shatter">shatter</Link> (DC 10)</>}]}} />
 <Stats atts={[3,13,11,10,14,6]} bab={0} cmb={-1} cmd={5} feats={["Improved Initiative",["Toughness",<sup>B</sup>],["Weapon Finesse",<sup>B</sup>]]} skills={{"bluff":{"b":2},"craft":{"of":"traps","b":4},"dd":{"b":2},"per":{"b":6,"x":"+2 to listen"},"ride":{"b":2},"stl":{"b":17}}} racial="+4 Stealth, -4 Perception when listening" lang={["Gl","U"]} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
@@ -243,7 +243,7 @@ const _gremlin_vexgit = {title: "Vexgit (Gremlin)", jsx: <><p><em>With a head li
 <div className="reduce">
 <Info source={[["Bestiary 2",145],["Pathfinder #19: Howl of the Carrion King",84]]} xp="400" le tiny fey init={1} dv={120} llv pcp={5} />
 <Defense ac={[15,13,14]} mod="+1 Dex, +2 natural, +2 size" hp={[8,"1d6+5"]} fort="+2" ref="+3" will="+3" dr="5/cold iron" sr="12" />
-<Offense sp={20} cl={20} melee="warhammer +0 (1d4-2/&times;3), bite -2 (1d3-2)" space={"2-1/2"} reach={"0"} specAtt={[["speedy sabotage","speedy sabotage"],["wrecking crew","wrecking crew"]]} />
+<Offense sp={20} cl={20} melee="warhammer +0 (1d4-2/&times;3), bite -2 (1d3-2)" space="2-1/2" reach="0" specAtt={[["speedy sabotage","speedy sabotage"],["wrecking crew","wrecking crew"]]} />
 <SpellBlock id="1" sla={{"cl":1,"con":"+1","content":[{"will":true,"content":<Link to="/spell/prestidigitation">prestidigitation</Link>},{"per":"hour","content":<><Link to="/spell/rusting_grasp">rusting grasp</Link>, <Link to="/spell/snare">snare</Link></>}]}} />
 <Stats atts={[6,13,14,12,13,11]} bab={0} cmb={-1} cmd={7} feats={[["Skill Focus"," (Disable Device)"],["Toughness",<sup>B</sup>],["Weapon Finesse",<sup>B</sup>]]} skills={{"app":{"b":2},"climb":{"b":13},"craft":{"of":"traps","b":5},"dd":{"b":9},"k":{"e":2},"per":{"b":5},"stl":{"b":13,"x":"+17 in metal or stony areas, +9 when moving"}}} racial="+4 Disable Device, +4 Stealth in metal or stony areas, -4 Stealth when moving" lang={["U"]} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
@@ -283,7 +283,7 @@ const _walrus_emperor_walrus = {title: "Emperor Walrus", jsx: <><p><em>Thick fol
 <div className="reduce">
 <Info source={[["Bestiary 4",271]]} xp="4,800" n gargantuan animal init={-1} llv pcp={16} />
 <Defense ac={[20,5,20]} mod="-1 Dex, +15 natural, -4 size" hp={[126,"12d8+72"]} fort="+14" ref="+7" will="+8" />
-<Offense sp={20} sw={60} melee={<>bite +16 (4d6+15/19-20) or slam +15 (2d6+15 plus <Link to="/umr/trip">trip</Link>)</>} space={"20"} reach={"15"} />
+<Offense sp={20} sw={60} melee={<>bite +16 (4d6+15/19-20) or slam +15 (2d6+15 plus <Link to="/umr/trip">trip</Link>)</>} space="20" reach="15" />
 <Stats atts={[31,9,22,2,15,6]} bab={9} cmb={23} cmd={32} cmdP="can't be tripped" feats={["Diehard","Endurance",["Improved Critical"," (bite)"],"Iron Will","Vital Strike",["Weapon Focus"," (bite)"]]} skills={{"per":{"b":16},"swim":{"b":22}}} sq={<Link to="/umr/hold_breath">hold breath</Link>} />
 <Ecology env="cold oceans" org={<>solitary, pair, or herd (1-3 and 5-20 <Link to="/monster/walrus">walruses</Link>)</>} treasure={{"X":false}} />
 </div>
@@ -296,7 +296,7 @@ const _walrus_walrus_b4 = {title: "Walrus (B4)", jsx: <><p><em>Two long tusks ju
 <div className="reduce">
 <Info source={[["Bestiary 4",271]]} xp="800" n large animal init={0} llv pcp={7} />
 <Defense ac={[17,9,17]} mod="+8 natural, -1 size" hp={[30,"4d8+12"]} fort="+7" ref="+4" will="+2" />
-<Offense sp={10} sw={40} melee="bite +8 (1d8+7)" space={"10"} reach={"5"} />
+<Offense sp={10} sw={40} melee="bite +8 (1d8+7)" space="10" reach="5" />
 <Stats atts={[21,11,16,2,13,6]} bab={3} cmb={9} cmd={19} cmdP="can't be tripped" feats={["Endurance",["Weapon Focus"," (bite)"]]} skills={{"per":{"b":7},"swim":{"b":17}}} sq={<Link to="/umr/hold_breath">hold breath</Link>} />
 <Ecology env="cold oceans" org="solitary, pair, or herd (3-24)" treasure={{"X":false}} />
 </div>
@@ -313,7 +313,7 @@ const _walrus_walrus_aa = {title: "Walrus (AA)", jsx: <><p><em>This bulky, thick
 <div className="reduce">
 <Info source={[["Animal Archive",29]]} xp="1,200" n large animal init={0} llv pcp={6} />
 <Defense ac={[17,9,17]} mod="+8 natural, -1 size" hp={[42,"5d8+20"]} fort="+8" ref="+6" will="+1" />
-<Offense sp={20} sw={40} melee="gore +8 (1d8+9/19-20)" space={"10"} reach={"5"} />
+<Offense sp={20} sw={40} melee="gore +8 (1d8+9/19-20)" space="10" reach="5" />
 <Stats atts={[23,11,18,2,10,9]} bab={3} cmb={10} cmd={20} cmdP="24 vs. trip" feats={["Improved Bull Rush","Lightning Reflexes","Power Attack"]} skills={{"per":{"b":6},"swim":{"b":19}}} sq={<>fatal gore, <Link to="/umr/hold_breath">hold breath</Link></>} />
 <Ecology env="cold coastlines" org="solitary, pair, or herd (3-20)" treasure={{"X":false}} />
 </div>
@@ -364,7 +364,7 @@ const _giant_ash_giant = {title: "Ash Giant", jsx: <><p><em>Towering above a typ
 <div className="reduce">
 <Info source={[["Bestiary 3",126]]} xp="12,800" cn large humanoid subs={["giant"]} init={2} llv pcp={8} />
 <Defense ac={[25,11,23]} mod="+4 armor, +2 Dex, +10 natural, -1 size" hp={[147,"14d8+84"]} fort="+15" ref="+6" will="+5" rockCt immune="disease, poison" />
-<Offense sp={40} spP="30 ft. in armor" melee="Huge club +20/+15 (2d6+11 plus disease), slam +15 (1d8+5 plus disease) or 2 slams +20 (1d8+11 plus disease)" ranged="rock +12 (1d8+16 plus disease)" space={"10"} reach={"10"} specAtt={[["disease","disease"]]} rockTh="120 ft." />
+<Offense sp={40} spP="30 ft. in armor" melee="Huge club +20/+15 (2d6+11 plus disease), slam +15 (1d8+5 plus disease) or 2 slams +20 (1d8+11 plus disease)" ranged="rock +12 (1d8+16 plus disease)" space="10" reach="10" specAtt={[["disease","disease"]]} rockTh="120 ft." />
 <Stats atts={[33,14,23,9,12,10]} bab={10} cmb={22} cmd={34} feats={["Catch Off-Guard","Cleave","Great Cleave","Point-Blank Shot","Power Attack","Precise Shot","Self-Sufficient"]} skills={{"climb":{"b":14},"intm":{"b":6},"per":{"b":8}}} lang={["C","G"]} sq="oversized weapon, vermin empathy +14" />
 <Ecology env="any wastelands" org="solitary, gang (2-5), band (6-9), raid (9-12 plus 1d4 giant vermin), or tribe (13-30 plus 35% noncombatants, plus 1 barbarian or fighter chief of 6th-8th level and 6-8 giant vermin)" treasure={{"S":[["Ah"],["H","Wc"]],"final":"other treasure"}} />
 </div>
@@ -383,7 +383,7 @@ const _giant_cave_giant = {title: "Cave Giant", jsx: <><p><em>Bestial tusks jut 
 <div className="reduce">
 <Info source={[["Bestiary 3",127]]} xp="2,400" ce large humanoid subs={["giant"]} init={0} dv={120} llv pcp={5} />
 <Defense ac={[19,9,19]} mod="+4 armor, +6 natural, -1 size" hp={[67,"9d8+27"]} fort="+9" ref="+3" will="+3" rockCt ferocity weak={[<Link to="/umr/light_sensitivity">light sensitivity</Link>]} />
-<Offense sp={40} spP="30 ft. in armor" melee="battleaxe +12/+7 (2d6+9/&times;3) or 2 slams +11 (1d8+6)" ranged="rock +6 (1d8+9)" space={"10"} reach={"10"} rockTh="100 ft." />
+<Offense sp={40} spP="30 ft. in armor" melee="battleaxe +12/+7 (2d6+9/&times;3) or 2 slams +11 (1d8+6)" ranged="rock +6 (1d8+9)" space="10" reach="10" rockTh="100 ft." />
 <Stats atts={[23,10,17,6,10,7]} bab={6} cmb={13} cmd={23} feats={["Cleave","Improved Sunder","Power Attack","Vital Strike",["Weapon Focus"," (battleaxe)"]]} skills={{"climb":{"b":7},"intm":{"b":7},"per":{"b":5}}} lang={["G"]} sq="axe wielder" />
 <Ecology env="any underground" org={<>solitary, gang (2-5), band (6-8 plus 1-2 <Link to="/monster/monitor_lizard">monitor lizards</Link>), raiding party (9-12 plus 1-4 monitor lizards), or tribe (13-20 plus 30% noncombatants, plus 1 barbarian, fighter, or ranger chief of 3rd-5th level; 2-9 monitor lizards; 1-4 <Link to="/monster/giant_frilled_lizard">giant frilled lizards</Link>; and 10-15 dwarf, orc, or <Link to="/monster/troglodyte">troglodyte</Link> slaves)</>} treasure={{"S":[["Wba"],["Ah"]],"final":"other treasure"}} />
 </div>
@@ -400,7 +400,7 @@ const _giant_cliff_giant = {title: "Cliff Giant", jsx: <><p><em>This giant has a
 <div className="reduce">
 <Info source={[["Bestiary 4",126]]} xp="6,400" ng large humanoid subs={["giant"]} init={5} llv tremorsense={30} pcp={15} />
 <Defense ac={[23,10,22]} mod="+4 armor, +1 Dex, +9 natural, -1 size" hp={[133,"14d8+70"]} fort="+9" ref="+7" will="+11" rockCt resist="acid 10, fire 10" />
-<Offense sp={40} melee="greatclub +17/+12 (2d8+12) or 2 slams +17 (1d8+8)" ranged="rock +12 (1d8+8)" space={"10"} reach={"10"} rockTh="120 ft." />
+<Offense sp={40} melee="greatclub +17/+12 (2d8+12) or 2 slams +17 (1d8+8)" ranged="rock +12 (1d8+8)" space="10" reach="10" rockTh="120 ft." />
 <SpellBlock id="1" sla={{"cl":14,"con":"+15","content":[{"will":true,"content":<><Link to="/spell/detect_poison">detect poison</Link>, <Link to="/spell/know_direction">know direction</Link></>},{"day":3,"content":<><Link to="/spell/animal_messenger">animal messenger</Link>, <Link to="/spell/cure_moderate_wounds">cure moderate wounds</Link>, <Link to="/spell/detect_animals_or_plants">detect animals or plants</Link>, <Link to="/spell/speak_with_animals">speak with animals</Link>, <Link to="/spell/stone_shape">stone shape</Link></>},{"day":1,"content":<Link to="/spell/commune_with_nature">commune with nature</Link>}]}} />
 <Stats atts={[26,13,21,13,14,12]} bab={10} cmb={19} cmd={30} feats={["Improved Initiative","Lightning Reflexes",["Martial Weapon Proficiency"," (greatclub)"],"Power Attack",["Skill Focus"," (Climb)"],"Skill Focus (Perception)",["Weapon Focus"," (rock)"]]} skills={{"climb":{"b":18},"diplo":{"b":8},"k":{"g":5},"per":{"b":15}}} racial="+4 Knowledge (geography)" lang={["C","G","T"]} sq="earth attunement" />
 <Ecology env="temperate or warm deserts or plains" org="solitary, pair or family (3-5 plus 2-3 non-combatants)" treasure={{"S":[["Ah"],["Wgc"]],"final":"other treasure"}} />
@@ -416,9 +416,9 @@ const _giant_cliff_giant = {title: "Cliff Giant", jsx: <><p><em>This giant has a
 const _giant_cloud_giant = {title: "Cloud Giant", jsx: <><p><em>This towering giant has finely chiseled features. Her skin is pale and smooth, and her long wispy hair flutters as if in a breeze.</em></p>
 <Header full><span>Cloud Giant</span><span>CR 11</span></Header>
 <div className="reduce">
-<Info source={[["Pathfinder RPG Bestiary",147]]} xp="12,800" al={"NG or NE"} huge humanoid subs={["giant"]} init={1} llv scent pcp={17} />
+<Info source={[["Pathfinder RPG Bestiary",147]]} xp="12,800" al="NG or NE" huge humanoid subs={["giant"]} init={1} llv scent pcp={17} />
 <Defense ac={[25,9,24]} mod="+4 armor, +1 Dex, +12 natural, -2 size" hp={[168,"16d8+96"]} fort="+16" ref="+6" will="+10" rockCt />
-<Offense sp={50} melee="morningstar +22/+17/+12 (4d6+18) or 2 slams +22 (2d6+12)" ranged="rock +12 (2d6+18)" space={"15"} reach={"15"} rockTh="140 ft." />
+<Offense sp={50} melee="morningstar +22/+17/+12 (4d6+18) or 2 slams +22 (2d6+12)" ranged="rock +12 (2d6+18)" space="15" reach="15" rockTh="140 ft." />
 <SpellBlock id="1" sla={{"cl":16,"content":[{"will":true,"content":<><Link to="/spell/levitate">levitate</Link> (self plus 2,000 lbs.), <Link to="/spell/obscuring_mist">obscuring mist</Link></>},{"day":1,"content":<Link to="/spell/fog_cloud">fog cloud</Link>}]}} />
 <Stats atts={[35,13,23,12,16,12]} bab={12} cmb={26} cmd={37} feats={["Awesome Blow","Cleave","Great Cleave","Improved Bull Rush","Improved Overrun","Intimidating Prowess","Iron Will","Power Attack"]} skills={{"climb":{"b":19},"craft":{"of":"any one","b":10}}} lang={["C","G"]} sq="oversized weapon" />
 <Ecology env="temperate mountains" org={<>solitary, gang (2-5), family (2-5 plus 35% noncombatants plus 1 sorcerer or cleric of 4th-7th level and 2-5 <Link to="/monster/griffon">griffons</Link>), or tribe (6-20 plus 1 sorcerer or cleric oracle of 7th-12th level and 2-5 griffons)</>} treasure={{"S":[["Acs"],["Wms"]],"final":"other treasure"}} />
@@ -435,7 +435,7 @@ const _giant_desert_giant = {title: "Desert Giant", jsx: <><p><em>Loose robes co
 <div className="reduce">
 <Info source={[["Bestiary 3",128]]} xp="6,400" ln large humanoid subs={["giant"]} init={3} llv pcp={9} />
 <Defense ac={[24,13,20]} mod="+2 armor, +3 Dex, +1 dodge, +9 natural, -1 size" hp={[123,"13d8+65"]} fort="+9" ref="+11" will="+5" rockCt immune="fire" />
-<Offense sp={50} melee="mwk scimitars +16/+16/+11/+11 (1d8+8/15-20) or 2 slams +16 (1d8+8)" ranged="rock +12 (1d8+12)" space={"10"} reach={"10"} specAtt={[["scimitar training","scimitar training"]]} rockTh="100 ft." />
+<Offense sp={50} melee="mwk scimitars +16/+16/+11/+11 (1d8+8/15-20) or 2 slams +16 (1d8+8)" ranged="rock +12 (1d8+12)" space="10" reach="10" specAtt={[["scimitar training","scimitar training"]]} rockTh="100 ft." />
 <Stats atts={[26,17,21,13,12,10]} bab={9} cmb={18} cmd={32} cmdP="36 vs. disarm and sunder" feats={["Combat Reflexes","Dodge",["Improved Critical"," (scimitar)"],"Improved Two-Weapon Fighting","Mobility","Two-Weapon Fighting",["Weapon Focus"," (scimitar)"]]} skills={{"acro":{"b":16,"x":"+24 when jumping"},"intm":{"b":11},"per":{"b":9}}} lang={["C","G"]} sq="sandwalking" />
 <Ecology env="warm desert" org="solitary, gang (2-4), band (5-8), raiding party (9-12 plus 1 fighter of 1st-3rd level), or tribe (10-30 plus 35% noncombatants, 1-3 clerics of 2nd-4th level, 2-4 fighters of 1st-3rd level, and 1 fighter sheik of 4th-6th level, 50% chance of 10-20 human slaves)" treasure={{"S":[["2","Mw","Wscs"],["Al"]],"final":"other treasure"}} />
 </div>
@@ -452,7 +452,7 @@ const _giant_eclipse_giant = {title: "Eclipse Giant", jsx: <><p><em>Symbolic rep
 <div className="reduce">
 <Info source={[["Bestiary 5",121]]} xp="204,800" n gargantuan humanoid subs={["giant"]} init={0} llv sid pcp={41} />
 <Defense ac={[32,6,32]} mod="+26 natural, -4 size" hp={[312,"25d8+200"]} fort="+16" ref="+15" will="+21" rockCt immune="death effects" />
-<Offense sp={50} melee="mwk longsword +34/+29/+24/+19 (4d6+27/19-20)" ranged="rock +15 (3d6+27 plus imbue rock)" space={"20"} reach={"20"} specAtt={[["imbue rock","imbue rock"],["rock throwing",<Link to="/umr/rock_throwing">rock throwing</Link>]]} />
+<Offense sp={50} melee="mwk longsword +34/+29/+24/+19 (4d6+27/19-20)" ranged="rock +15 (3d6+27 plus imbue rock)" space="20" reach="20" specAtt={[["imbue rock","imbue rock"],["rock throwing",<Link to="/umr/rock_throwing">rock throwing</Link>]]} />
 <SpellBlock id="1" sla={{"cl":20,"con":"+24","content":[{"will":true,"content":<><Link to="/spell/daylight">daylight</Link>, <Link to="/spell/deeper_darkness">deeper darkness</Link>, <Link to="/spell/harm">harm</Link> (DC 20), <Link to="/spell/heal">heal</Link></>},{"day":3,"content":<><Link to="/feat/quickened">quickened</Link> <em>harm</em> (DC 20), <em>quickened</em> <em>heal</em></>},{"day":1,"content":<><Link to="/spell/lunar_veil">lunar veil</Link>, <Link to="/spell/polar_midnight">polar midnight</Link></>}]}} />
 <Stats atts={[46,11,27,13,24,18]} bab={18} cmb={40} cmbP="+44 bull rush" cmd={50} cmdP="52 vs. bull rush" feats={["Awesome Blow","Combat Casting","Greater Bull Rush","Greater Vital Strike","Improved Bull Rush","Improved Vital Strike",["Martial Weapon Proficiency"," (longsword)"],"Power Attack",["Quicken Spell-Like Ability"," (harm, heal)"],["Skill Focus"," (Perception)"],"Vital Strike",["Weapon Focus"," (longsword)"]]} skills={{"intm":{"b":32},"k":{"a":16},"per":{"b":41}}} lang={["Ak","C","G"]} sq="eclipse empowered" />
 <Ecology env="temperate plains" org="solitary, pair, or family (3-5 plus 2-3 noncombatants)" treasure={{"S":[["Mw","Wls"]],"final":"other treasure"}} />
@@ -471,7 +471,7 @@ const _giant_hill_giant = {title: "Hill Giant", jsx: <><p><em>This hunched giant
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",150]]} xp="3,200" ce large humanoid subs={["giant"]} init={-1} llv pcp={6} />
 <Defense ac={[21,8,21]} mod="+4 armor, -1 Dex, +9 natural, -1 size" hp={[85,"10d8+40"]} fort="+11" ref="+2" will="+3" rockCt />
-<Offense sp={40} spP="30 ft. in armor" melee="greatclub +14/+9 (2d8+10) or 2 slams +13 (1d8+7)" ranged="rock +6 (1d8+10)" space={"10"} reach={"10"} rockTh="120 ft." />
+<Offense sp={40} spP="30 ft. in armor" melee="greatclub +14/+9 (2d8+10) or 2 slams +13 (1d8+7)" ranged="rock +6 (1d8+10)" space="10" reach="10" rockTh="120 ft." />
 <Stats atts={[25,8,19,6,10,7]} bab={7} cmb={15} cmd={24} feats={["Cleave","Intimidating Prowess",["Martial Weapon Proficiency"," (greatclub)"],"Power Attack",["Weapon Focus"," (greatclub)"]]} skills={{"climb":{"b":10},"intm":{"b":12},"per":{"b":6}}} lang={["G"]} />
 <Ecology env="temperate hills" org={<>solitary, gang (2-5), band (6-8), raiding party (9-12 plus 1d4 <Link to="/monster/dire_wolves">dire wolves</Link>), or tribe (13-30 plus 35% noncombatants plus 1 barbarian or fighter chief of 4th-6th level, 11-16 dire wolves, 1-4 <Link to="/monster/ogre">ogres</Link>, and 13-20 <Link to="/monster/orc">orc</Link> slaves)</>} treasure={{"S":[["Ah"],["Wgc"]],"final":"other treasure"}} />
 </div>
@@ -486,7 +486,7 @@ const _giant_jungle_giant = {title: "Jungle Giant", jsx: <><p><em>This towering,
 <div className="reduce">
 <Info source={[["Bestiary 3",129]]} xp="9,600" n huge humanoid subs={["giant"]} init={4} llv pcp={15} />
 <Defense ac={[24,16,20]} mod="+4 deflection, +4 Dex, +8 natural, -2 size" hp={[127,"15d8+60"]} fort="+9" ref="+13" will="+7" def={[["spell storing","spell storing"],["warding tattoos","warding tattoos"]]} rockCt immune="disease, poison" />
-<Offense sp={40} melee="2 slams +17 (2d6+8)" ranged="mwk composite longbow +15/+10/+5 (3d6+8/19-20/&times;3)" space={"15"} reach={"15"} />
+<Offense sp={40} melee="2 slams +17 (2d6+8)" ranged="mwk composite longbow +15/+10/+5 (3d6+8/19-20/&times;3)" space="15" reach="15" />
 <Stats atts={[26,19,19,10,14,11]} bab={11} cmb={21} cmd={39} feats={["Deadly Aim",["Improved Critical"," (longbow)"],"Improved Precise Shot","Point-Blank Shot","Precise Shot","Rapid Shot",["Skill Focus"," (Stealth)"],["Weapon Focus"," (longbow)"]]} skills={{"climb":{"b":12},"craft":{"of":"bows","b":8},"per":{"b":15}}} racial="+4 Climb, +8 Stealth in forests" lang={["C","G"]} sq="archery expert" />
 <Ecology env="warm forests" org={<>solitary, hunting party (2-9 plus 1-3 <Link to="/monster/girallon">girallons</Link>), or tribe (10-40, plus 35% noncombatants, 1-3 druids or sorcerers of 2nd-5th level, 1 ranger or barbarian of 3rd-7th level, and 2-8 girallons)</>} treasure={{"S":[["Mw","Wcl40+8"]],"final":"other treasure"}} />
 </div>
@@ -503,7 +503,7 @@ const _giant_marsh_giant = {title: "Marsh Giant", jsx: <><p><em>Cold, black eyes
 <div className="reduce">
 <Info source={[["Bestiary 2",129],["Pathfinder #5: Sins of the Saviors",82]]} xp="4,800" ce large humanoid subs={["giant"]} init={3} llv pcp={11} />
 <Defense ac={[21,12,18]} mod="+3 Dex, +9 natural, -1 size" hp={[102,"12d8+48"]} fort="+12" ref="+7" will="+8" rockCt />
-<Offense sp={40} sw={20} melee="gaff +16/+11 (2d6+12) or 2 slams +16 (1d6+8)" ranged="rock +12 (2d6+9)" space={"10"} reach={"10"} rockTh="120 ft." />
+<Offense sp={40} sw={20} melee="gaff +16/+11 (2d6+12) or 2 slams +16 (1d6+8)" ranged="rock +12 (2d6+9)" space="10" reach="10" rockTh="120 ft." />
 <SpellBlock id="1" sla={{"cl":12,"con":"+13","content":[{"day":3,"content":<><Link to="/spell/augury">augury</Link>, <Link to="/spell/bestow_curse">bestow curse</Link> (DC 15), <Link to="/spell/fog_cloud">fog cloud</Link></>}]}} />
 <Stats atts={[27,17,19,8,15,12]} bab={9} cmb={18} cmd={31} feats={["Combat Reflexes","Improved Iron Will","Improved Sunder","Iron Will","Power Attack","Vital Strike"]} skills={{"per":{"b":11},"stl":{"b":5,"x":"+13 in swamps"},"swim":{"b":16}}} racial="+8 Stealth in swamps" lang={["B","G"]} />
 <Ecology env="temperate marshes" org={<>solitary, gang (2-6), or tribe (7-22, plus 20% noncombatants plus 1 cleric or witch leader of 4th-8th level, 1-3 barbarian or fighter champions of 2nd-5th level, 2-12 <Link to="/monster/merrow">merrows</Link>, 10-20 <Link to="/monster/boggard">boggards</Link>, and 6-12 <Link to="/monster/giant_frog">giant frogs</Link>)</>} treasure={{"S":[],"final":"‹eq-weapon/boarding_>gaff›, other treasure"}} />
@@ -517,9 +517,9 @@ const _giant_marsh_giant = {title: "Marsh Giant", jsx: <><p><em>Cold, black eyes
 const _giant_moon_giant = {title: "Moon Giant", jsx: <><p><em>This giant's gray skin sparkles as if with reflected light and is pocked with what look like impact craters on its rock-like surface.</em></p>
 <Header full><span>Moon Giant</span><span>CR 15</span></Header>
 <div className="reduce">
-<Info source={[["Bestiary 5",122]]} xp="51,200" ln huge humanoid subs={["giant"]} init={8} senSpell={["true seeing"]} llv pcp={28} aura={"lunar (60 ft., DC 23)"} />
+<Info source={[["Bestiary 5",122]]} xp="51,200" ln huge humanoid subs={["giant"]} init={8} senSpell={["true seeing"]} llv pcp={28} aura="lunar (60 ft., DC 23)" />
 <Defense ac={[32,12,28]} mod="+4 Dex, +20 natural, -2 size" hp={[220,"21d8+126"]} fort="+15" ref="+13" will="+18" def={[["improved rock catching","improved rock catching"]]} resist="cold 30, fire 30" />
-<Offense sp={50} melee="2 slams +29 (3d6+16)" ranged="rock +19/+14/+9 (2d6+24 plus impact crater)" space={"15"} reach={"15"} specAtt={[["impact crater","impact crater"]]} rockTh="180 ft." />
+<Offense sp={50} melee="2 slams +29 (3d6+16)" ranged="rock +19/+14/+9 (2d6+24 plus impact crater)" space="15" reach="15" specAtt={[["impact crater","impact crater"]]} rockTh="180 ft." />
 <SpellBlock id="1" sla={{"cl":20,"con":"+23","content":[{"constant":true,"content":<Link to="/spell/true_seeing">true seeing</Link>},{"will":true,"content":<><Link to="/spell/dancing_lights">dancing lights</Link>, <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/message">message</Link></>},{"day":3,"content":<><Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link>, <Link to="/spell/control_water">control water</Link>, <Link to="/spell/divination">divination</Link></>},{"day":1,"content":<><Link to="/spell/commune">commune</Link>, <Link to="/spell/dream">dream</Link>, <Link to="/spell/scrying">scrying</Link> (DC 18)</>}]}} />
 <Stats atts={[42,19,22,16,19,17]} bab={15} cmb={33} cmd={47} feats={["Combat Reflexes","Far Shot","Great Fortitude","Improved Initiative","Iron Will","Lightning Reflexes","Point-Blank Shot","Power Attack","Precise Shot","Quick Draw",["Weapon Focus"," (rock)"]]} skills={{"k":{"a":24,"n":24},"per":{"b":28},"sm":{"b":25},"stl":{"b":17,"x":"+25 in rocky terrain"}}} racial="+8 Stealth in rocky terrain" lang={["C","G","T"]} />
 <Ecology env="warm hills or mountains" org="solitary, pair, or cult (2-5 plus 35% noncombatants and one oracle of 4th-7th level)" treasure={{"S":false}} />
@@ -542,7 +542,7 @@ const _giant_mountain_giant = {title: "Mountain Giant", jsx: <><p><em>This giant
 <div className="reduce">
 <Info source={[["Bestiary 6",133]]} xp="153,600" ce gargantuan humanoid subs={["giant"]} init={5} llv sid pcp={29} aura={<><Link to="/umr/frightful_presence">frightful presence</Link> (60 ft., DC 24, 10 rounds)</>} />
 <Defense ac={[33,11,28]} mod="+4 armor, +5 Dex, +17 natural, +1 shield, -4 size" hp={[297,"22d8+198"]} fort="+18" ref="+12" will="+20" rockCt immune="cold, fear, mind-affecting effects, poison" />
-<Offense sp={50} melee="+2 warhammer +27/+22/+17/+12 (4d6+17/19-20/&times;3), +1 dagger +26 (2d6+16/19-20) or 2 slams +27 (2d6+15)" ranged="rock +18 (4d6+15)" space={"20"} reach={"20"} specAtt={[["devour","devour"],["impale","impale"]]} rockTh="160 ft." swallow="3d6+11 bludgeoning, AC 18, 29 hp" />
+<Offense sp={50} melee="+2 warhammer +27/+22/+17/+12 (4d6+17/19-20/&times;3), +1 dagger +26 (2d6+16/19-20) or 2 slams +27 (2d6+15)" ranged="rock +18 (4d6+15)" space="20" reach="20" specAtt={[["devour","devour"],["impale","impale"]]} rockTh="160 ft." swallow="3d6+11 bludgeoning, AC 18, 29 hp" />
 <SpellBlock id="1" sla={{"cl":18,"con":"+21","content":[{"will":true,"content":<><Link to="/spell/deeper_darkness">deeper darkness</Link>, <Link to="/spell/invisibility">invisibility</Link></>},{"day":3,"content":<Link to="/spell/dimension_door">dimension door</Link>},{"day":1,"content":<><Link to="/spell/mislead">mislead</Link> (DC 19)</>}]}} />
 <Stats atts={[41,21,29,16,24,16]} bab={16} cmb={35} cmd={50} feats={["Critical Focus","Double Slice","Great Fortitude",["Improved Critical"," (warhammer)"],"Improved Vital Strike","Power Attack",["Skill Focus"," (Stealth)"],"Staggering Critical","Two-Weapon Defense","Two-Weapon Fighting","Vital Strike"]} skills={{"intm":{"b":25},"k":{"n":25},"per":{"b":29}}} racial="+8 Stealth in mountains or underground" lang={["C","G","T"]} />
 <Ecology env="any mountains" org="solitary or pair" treasure={{"S":[["+2","Al"],["+1","Wd"],["+2","Wwh"]],"final":"other treasure"}} />
@@ -557,9 +557,9 @@ const _giant_mountain_giant = {title: "Mountain Giant", jsx: <><p><em>This giant
 const _giant_ocean_giant = {title: "Ocean Giant", jsx: <><p><em>This blue-skinned giant's clothing and beard whip about like sails caught in a storm.</em></p>
 <Header full><span>Ocean Giant</span><span>CR 14</span></Header>
 <div className="reduce">
-<Info source={[["Bestiary 4",127]]} xp="38,400" al={"CG or CE"} huge humanoid subs={["aquatic","giant"]} init={4} llv pcp={24} />
+<Info source={[["Bestiary 4",127]]} xp="38,400" al="CG or CE" huge humanoid subs={["aquatic","giant"]} init={4} llv pcp={24} />
 <Defense ac={[28,8,28]} mod="+20 natural, -2 size" hp={[218,"19d8+133"]} fort="+18" ref="+8" will="+10" resist="cold 30, electricity 30" />
-<Offense sp={50} sw={40} melee="mwk trident +29/+24/+19 (3d6+22) or 2 slams +27 (2d6+15)" ranged="rock +13 (2d8+22)" space={"15"} reach={"15"} specAtt={[["conch focus","conch focus"]]} rockTh="110 ft." />
+<Offense sp={50} sw={40} melee="mwk trident +29/+24/+19 (3d6+22) or 2 slams +27 (2d6+15)" ranged="rock +13 (2d8+22)" space="15" reach="15" specAtt={[["conch focus","conch focus"]]} rockTh="110 ft." />
 <SpellBlock id="1" sla={{"cl":14,"con":"+18","content":[{"constant":true,"content":<Link to="/spell/freedom_of_movement">freedom of movement</Link>},{"day":3,"content":<><Link to="/spell/aqueous_orb">aqueous orb</Link> (DC 17), <Link to="/spell/control_winds">control winds</Link> (DC 19), <Link to="/spell/shout">shout</Link> (DC 18), <Link to="/spell/summon_natures_ally_vii">summon nature's ally VII</Link> (swimming creatures only), <Link to="/spell/water_breathing">water breathing</Link></>},{"day":1,"content":<><Link to="/spell/vortex">vortex</Link> (DC 20)</>}]}} />
 <Stats atts={[40,11,25,12,15,18]} bab={14} cmb={31} cmbP="+33 bull rush" cmd={41} cmdP="43 vs. bull rush" feats={[["Augment Summoning",<><sup>B</sup> (with conch)</>],"Combat Reflexes","Critical Focus","Improved Bull Rush","Improved Initiative","Iron Will","Lightning Reflexes",["Martial Weapon Proficiency"," (trident)"],"Power Attack","Vital Strike",["Weapon Focus"," (trident)"]]} skills={{"intm":{"b":17},"k":{"n":11},"per":{"b":24},"swim":{"b":24}}} lang={["Aq","C","G"]} sq={<Link to="/umr/amphibious">amphibious</Link>} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
@@ -577,7 +577,7 @@ const _giant_plague_giant = {title: "Plague Giant", jsx: <><p><em>This oversized
 <div className="reduce">
 <Info source={[["Bestiary 6",134]]} xp="38,400" ne huge humanoid subs={["giant"]} init={9} llv pcp={26} />
 <Defense ac={[29,13,24]} mod="+5 Dex, +16 natural, -2 size" hp={[207,"18d8+126"]} fort="+15" ref="+11" will="+18" rockCt immune="disease" />
-<Offense sp={50} melee="mwk flail +23/+18/+13 (3d6+11 plus disease), slam +17 (1d8+5 plus disease) or 2 slams +22 (1d8+11 plus disease)" ranged="rock +17 (2d8+16) or corpse +17 (2d6+16 plus disease)" space={"15"} reach={"15"} specAtt={[["hurl corpse","hurl corpse"]]} rockTh="140 ft." />
+<Offense sp={50} melee="mwk flail +23/+18/+13 (3d6+11 plus disease), slam +17 (1d8+5 plus disease) or 2 slams +22 (1d8+11 plus disease)" ranged="rock +17 (2d8+16) or corpse +17 (2d6+16 plus disease)" space="15" reach="15" specAtt={[["hurl corpse","hurl corpse"]]} rockTh="140 ft." />
 <SpellBlock id="1" sla={{"cl":15,"con":"+18","content":[{"will":true,"content":<><Link to="/spell/contagion">contagion</Link> (DC 17), <Link to="/spell/death_knell">death knell</Link> (DC 15)</>},{"day":3,"content":<><Link to="/spell/plague_carrier">plague carrier</Link> (DC 18), <Link to="/spell/plague_storm">plague storm</Link> (DC 20), <Link to="/spell/wither_limb">wither limb</Link> (DC 19)</>},{"day":1,"content":<><Link to="/umr/summon">summon</Link> (level 6; 1 tick swarm 100%)</>}]}} />
 <Stats atts={[32,20,25,15,20,17]} bab={13} cmb={26} cmbP="+30 disarm and trip" cmd={41} cmdP="43 vs. disarm and trip" feats={["Combat Casting","Combat Expertise","Great Fortitude","Greater Disarm","Greater Trip","Improved Disarm","Improved Initiative","Improved Trip","Iron Will"]} skills={{"heal":{"b":26},"k":{"r":20},"per":{"b":26}}} lang={["C","G"]} />
 <Ecology env="any land" org={<>solitary, pair, or colony (3-16 plus 1-3 oracles or witches of 5th-9th level, 2-5 rogues of 5th-9th level, and one high priest cleric of 7th-10th level along with 2-5 <Link to="/monster/leukodaemon">leukodaemons</Link> and 1-4 <Link to="/monster/ghole">gholes</Link>)</>} treasure={{"S":[["Mw","Wlf"]],"final":"4 rocks or corpses, other treasure"}} />
@@ -593,9 +593,9 @@ const _giant_plague_giant = {title: "Plague Giant", jsx: <><p><em>This oversized
 const _giant_river_giant = {title: "River Giant", jsx: <><p><em>This slender giant dresses in simple clothes and has swirling patterns on her green skin.</em></p>
 <Header full><span>River Giant</span><span>CR 6</span></Header>
 <div className="reduce">
-<Info source={[["Bestiary 4",128]]} xp="2,400" al={"CG or CE"} large humanoid subs={["giant"]} init={4} llv pcp={6} />
+<Info source={[["Bestiary 4",128]]} xp="2,400" al="CG or CE" large humanoid subs={["giant"]} init={4} llv pcp={6} />
 <Defense ac={[19,9,19]} mod="+3 armor, +7 natural, -1 size" hp={[68,"8d8+32"]} fort="+10" ref="+2" will="+2" rockCt />
-<Offense sp={40} melee="spear +11/+6 (2d6+7/&times;3) or 2 slams +10 (1d8+5)" ranged="rock +6 (1d8+5)" space={"10"} reach={"10"} rockTh="100 ft." />
+<Offense sp={40} melee="spear +11/+6 (2d6+7/&times;3) or 2 slams +10 (1d8+5)" ranged="rock +6 (1d8+5)" space="10" reach="10" rockTh="100 ft." />
 <Stats atts={[20,11,19,9,10,8]} bab={6} cmb={12} cmbP="+14 bull rush" cmd={22} cmdP="24 vs. bull rush" feats={["Improved Bull Rush","Improved Initiative",["Martial Weapon Proficiency"," (spear)"],["Weapon Focus"," (spear)"]]} skills={{"acro":{"b":0,"x":"+4 when boating"},"per":{"b":6},"swim":{"b":10}}} racial="+4 Acrobatics when boating, +4 Profession (sailor), +4 Survival when boating, +4 Swim" lang={["C","G"]} sq={<Link to="/umr/hold_breath">hold breath</Link>} />
 <Ecology env="any rivers" org={<>solitary, pair, or family (3-5 plus 1d2 <Link to="/monster/crocodile">crocodiles</Link>, <Link to="/monster/grizzly_bear">grizzly bears</Link>, or <Link to="/monster/tiger">tigers</Link>)</>} treasure={{"S":[["Wsp"],["Al"]],"final":"other treasure"}} />
 </div>
@@ -611,7 +611,7 @@ const _giant_rune_giant = {title: "Rune Giant", jsx: <><p><em>This giant's skin 
 <div className="reduce">
 <Info source={[["Bestiary 2",130],["Pathfinder #6: Spires of Xin-Shalast",86]]} xp="102,400" le gargantuan humanoid subs={["giant"]} init={0} llv pcp={29} />
 <Defense ac={[30,6,30]} mod="+9 armor, +15 natural, -4 size" hp={[270,"20d8+180"]} fort="+15" ref="+6" will="+20" immune="cold, electricity, fire" />
-<Offense sp={35} spP="50 ft. without armor" spExtra={<em>air walk</em>} melee="mwk longsword +27/+22/+17 (4d6+22/17-20) or 2 slams +26 (2d6+15)" ranged="mwk spear +12/+7/+2 (4d6+15/&times;3)" space={"20"} reach={"20"} specAtt={[["command giants","command giants"],["runes","runes"],["spark shower","spark shower"]]} />
+<Offense sp={35} spP="50 ft. without armor" spExtra={<em>air walk</em>} melee="mwk longsword +27/+22/+17 (4d6+22/17-20) or 2 slams +26 (2d6+15)" ranged="mwk spear +12/+7/+2 (4d6+15/&times;3)" space="20" reach="20" specAtt={[["command giants","command giants"],["runes","runes"],["spark shower","spark shower"]]} />
 <SpellBlock id="1" sla={{"cl":20,"con":"+24","content":[{"constant":true,"content":<Link to="/spell/air_walk">air walk</Link>},{"will":true,"content":<><Link to="/spell/charm_person">charm person</Link> (DC 15), <Link to="/spell/suggestion">suggestion</Link> (DC 17)</>},{"day":3,"content":<><Link to="/spell/mass_charm_monster">mass charm monster</Link> (DC 22), <Link to="/spell/dominate_person">dominate person</Link> (DC 19)</>},{"day":1,"content":<><Link to="/spell/demand">demand</Link> (DC 22), <Link to="/spell/true_seeing">true seeing</Link></>}]}} />
 <Stats atts={[41,11,28,14,23,18]} bab={15} cmb={34} cmd={44} feats={["Awesome Blow","Critical Focus","Improved Bull Rush",["Improved Critical"," (longsword)"],"Improved Vital Strike","Iron Will","Power Attack","Quick Draw","Staggering Critical","Vital Strike"]} skills={{"acro":{"b":15,"x":"+23 jump"},"craft":{"of":"any one","b":25},"k":{"h":12},"per":{"b":29}}} lang={["C","G","T"]} />
 <Ecology env="cold mountains" org={<>solitary, pair, patrol (3-6), squad (7-12), or company (13-30 plus 2-4 fighters or rogues of 2nd-4th level, 1 oracle or sorcerer of 5th-8th level, 1 ranger or monk commander of 5th-6th level, 10-20 <Link to="/monster/yeti">yetis</Link>, 1-4 <Link to="/monster/cloud_giant">cloud giants</Link>, 8-12 <Link to="/monster/frost_giant">frost giants</Link>, 10-16 <Link to="/monster/stone_giant">stone giants</Link>, 4-8 <Link to="/monster/lamia_matriarch">lamia matriarchs</Link>, and 1-2 <Link to="/monster/adult_blue_dragon">adult blue dragons</Link>)</>} treasure={{"S":[["Mw","Afp"],["Mw","Wls"],["3","Mw","Wsps"]],"final":"other treasure"}} />
@@ -629,7 +629,7 @@ const _giant_shadow_giant = {title: "Shadow Giant", jsx: <><p><em>This giant's s
 <div className="reduce">
 <Info source={[["Inner Sea Bestiary",15],["Bestiary 6",135]]} xp="25,600" le large humanoid subs={["extraplanar","giant"]} init={2} dv={120} llv pcp={14} />
 <Defense ac={[28,11,26]} mod="+5 armor, +2 Dex, +12 natural, -1 size" hp={[218,"19d8+133"]} fort="+18" ref="+8" will="+7" def={[["shadow cloak","shadow cloak"]]} rockCt />
-<Offense sp={30} melee="mwk great terbutje +23/+23/+18/+13 (2d8+12/19-20 plus energy drain) or 2 slams +25 (1d8+12 plus energy drain)" ranged="rock +16 (1d8+12/19-20)" space={"10"} reach={"10"} eDrain="1 level, DC 21" rockTh="180 ft." />
+<Offense sp={30} melee="mwk great terbutje +23/+23/+18/+13 (2d8+12/19-20 plus energy drain) or 2 slams +25 (1d8+12 plus energy drain)" ranged="rock +16 (1d8+12/19-20)" space="10" reach="10" eDrain="1 level, DC 21" rockTh="180 ft." />
 <Stats atts={[34,15,24,10,12,15]} bab={14} cmb={27} cmd={39} feats={["Cleave","Combat Reflexes","Double Slice","Great Cleave","Improved Bull Rush",["Improved Critical"," (great terbutje)"],"Improved Critical (rock)","Power Attack","Two-Weapon Fighting","Vital Strike"]} skills={{"climb":{"b":21},"intm":{"b":15},"per":{"b":14,"x":"+18 in dim light"},"stl":{"b":4,"x":"+12 in dim light"}}} racial="+4 Perception in dim light, +8 Stealth in dim light" lang={["G","Sh"]} sq="militant" />
 <Ecology env="any (Plane of Shadow)" org="solitary, gang (2-5), family (6-13 plus 35% noncombatants, 1 cleric or witch shaman of 5th-8th level, and 1 fighter or barbarian chief of 7th-10th level), or company (14-33 plus 1 fighter or barbarian chief of 7th-10th level)" treasure={{"S":[["+1","MG","Abp"],["Mw","W-great terbutje"]],"final":"gold jewelry and adornments worth 500 gp, other treasure"}} />
 </div>
@@ -645,7 +645,7 @@ const _giant_slag_giant = {title: "Slag Giant", jsx: <><p><em>Soot, ash, and coa
 <div className="reduce">
 <Info source={[["Bestiary 4",129]]} xp="3,200" ln large humanoid subs={["giant"]} init={1} llv pcp={9} />
 <Defense ac={[20,10,19]} mod="+3 armor, +1 Dex, +7 natural, -1 size" hp={[85,"10d8+40"]} fort="+11" ref="+6" will="+4" rockCt resist="fire 30" />
-<Offense sp={40} melee="warhammer +15/+10 (2d6+12/&times;3) or 2 slams +14 (1d8+8)" ranged="rock +8 (1d8+8)" space={"10"} reach={"10"} rockTh="120 ft." />
+<Offense sp={40} melee="warhammer +15/+10 (2d6+12/&times;3) or 2 slams +14 (1d8+8)" ranged="rock +8 (1d8+8)" space="10" reach="10" rockTh="120 ft." />
 <Stats atts={[27,12,19,10,12,10]} bab={7} cmb={16} cmbP="+18 sunder" cmd={29} cmdP="31 vs. sunder" feats={["Improved Sunder","Lightning Reflexes",["Martial Weapon Proficiency"," (warhammer)"],"Power Attack",["Weapon Focus"," (warhammer)"]]} skills={{"craft":{"of":"armor","b":12},"intm":{"b":8},"per":{"b":9}}} racial="+4 Craft (armor), +4 Craft (weapons)" lang={["C","G"]} sq="shattering blow" />
 <Ecology env="warm mountains or underground" org={<>solitary, pair, mining expedition (3-7), or tribe (5-20 plus 25% noncombatants and 1 cleric, or 1 fighter of 4th to 6th level plus 1-3 <Link to="/monster/giant_frilled_lizard">giant frilled lizards</Link>)</>} treasure={{"S":[["Wwh"],["Asl"]],"final":"other treasure"}} />
 </div>
@@ -661,7 +661,7 @@ const _giant_stone_giant = {title: "Stone Giant", jsx: <><p><em>This giant has c
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",151]]} xp="4,800" n large humanoid subs={["giant"]} init={2} dv={60} llv pcp={12} />
 <Defense ac={[22,11,20]} mod="+2 Dex, +11 natural, -1 size" hp={[102,"12d8+48"]} fort="+12" ref="+6" will="+7" def={[["improved rock catching","improved rock catching"]]} />
-<Offense sp={40} melee="greatclub +16/+11 (2d8+12) or 2 slams +16 (1d8+8)" ranged="rock +11/+6 (1d8+12)" space={"10"} reach={"10"} rockTh="180 ft." />
+<Offense sp={40} melee="greatclub +16/+11 (2d8+12) or 2 slams +16 (1d8+8)" ranged="rock +11/+6 (1d8+12)" space="10" reach="10" rockTh="180 ft." />
 <Stats atts={[27,15,19,10,12,10]} bab={9} cmb={18} cmd={30} feats={["Iron Will",["Martial Weapon Proficiency"," (greatclub)"],"Point-Blank Shot","Power Attack","Precise Shot","Quick Draw"]} skills={{"climb":{"b":12},"intm":{"b":12},"per":{"b":12},"stl":{"b":4,"x":"+12 in rocky terrain"}}} racial="+8 Stealth in rocky terrain" lang={["C","G"]} />
 <Ecology env="temperate mountains" org={<>solitary, gang (2-5), band (4-8), hunting party (9-12 plus 1 elder), or tribe (13-30 plus 35% noncombatants, 1-3 elders, and 4-6 <Link to="/monster/dire_bear">dire bears</Link>)</>} treasure={{"S":[["Wgc"]],"final":"other treasure"}} />
 </div>
@@ -679,7 +679,7 @@ const _giant_storm_giant = {title: "Storm Giant", jsx: <><p><em>This giant is a 
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",152]]} xp="25,600" cg huge humanoid subs={["giant"]} init={2} llv pcp={27} />
 <Defense ac={[28,10,26]} mod="+6 armor, +2 Dex, +12 natural, -2 size" hp={[199,"19d8+114"]} fort="+17" ref="+8" will="+13" rockCt immune="electricity" />
-<Offense sp={50} sw={40} swP="35 ft., swim 30 ft. in armor" melee="mwk greatsword +27/+22/+17 (4d6+21/17-20) or 2 slams +26 (2d6+14)" ranged="mwk composite longbow +15/+10/+5 (3d6+14/&times;3)" space={"15"} reach={"15"} />
+<Offense sp={50} sw={40} swP="35 ft., swim 30 ft. in armor" melee="mwk greatsword +27/+22/+17 (4d6+21/17-20) or 2 slams +26 (2d6+14)" ranged="mwk composite longbow +15/+10/+5 (3d6+14/&times;3)" space="15" reach="15" />
 <SpellBlock id="1" sla={{"cl":15,"content":[{"constant":true,"content":<Link to="/spell/freedom_of_movement">freedom of movement</Link>},{"day":2,"content":<><Link to="/spell/control_weather">control weather</Link>, <Link to="/spell/levitate">levitate</Link></>},{"day":1,"content":<><Link to="/spell/call_lightning">call lightning</Link> (DC 15), <Link to="/spell/chain_lightning">chain lightning</Link> (DC 18)</>}]}} />
 <Stats atts={[39,14,23,16,20,15]} bab={14} cmb={30} cmd={42} feats={["Awesome Blow","Cleave","Combat Reflexes","Improved Bull Rush",["Improved Critical"," (greatsword)"],"Improved Sunder","Improved Vital Strike","Iron Will","Power Attack","Vital Strike"]} skills={{"acro":{"b":18},"climb":{"b":17}}} lang={["Au","C","D","G"]} sq="militant, water breathing" />
 <Ecology env="any warm" org={<>solitary or family (2-5 plus 1 sorcerer or cleric of 7th-10th level, 1-2 <Link to="/monster/roc">rocs</Link>, 2-6 <Link to="/monster/griffon">griffons</Link>, and 2-8 <Link to="/monster/shark">sharks</Link>)</>} treasure={{"S":[["Mw","Abp"],["Mw","Wcl20+14"],["Mw","Wgs"]],"final":"other treasure"}} />
@@ -695,9 +695,9 @@ const _giant_storm_giant = {title: "Storm Giant", jsx: <><p><em>This giant is a 
 const _giant_sun_giant = {title: "Sun Giant", jsx: <><p><em>This giant has the arms and armor of an ancient warrior. Her golden skin and flame-colored hair amplify the light around her.</em></p>
 <Header full><span>Sun Giant</span><span>CR 16</span></Header>
 <div className="reduce">
-<Info source={[["Bestiary 5",123]]} xp="76,800" al={"CG or CE"} huge humanoid subs={["giant"]} init={3} llv pcp={31} aura={"solar (60 ft., DC 24)"} />
+<Info source={[["Bestiary 5",123]]} xp="76,800" al="CG or CE" huge humanoid subs={["giant"]} init={3} llv pcp={31} aura="solar (60 ft., DC 24)" />
 <Defense ac={[31,11,28]} mod="+5 armor, +3 Dex, +15 natural, -2 size" hp={[241,"23d8+138"]} fort="+19" ref="+12" will="+14" rockCt immune="blind, dazzled, fire" resist="cold 30, electricity 30" />
-<Offense sp={35} spP="50 ft. without armor" melee="mwk heavy mace +31/+26/+21/+16 (3d6+22) or 2 slams +30 (2d6+15)" ranged="mwk atlatl +19/+14/+9/+4 (2d6+15 plus sun dart)" space={"15"} reach={"15"} specAtt={[["sun dart","sun dart"]]} />
+<Offense sp={35} spP="50 ft. without armor" melee="mwk heavy mace +31/+26/+21/+16 (3d6+22) or 2 slams +30 (2d6+15)" ranged="mwk atlatl +19/+14/+9/+4 (2d6+15 plus sun dart)" space="15" reach="15" specAtt={[["sun dart","sun dart"]]} />
 <SpellBlock id="1" sla={{"cl":21,"con":"+24","content":[{"will":true,"content":<><Link to="/spell/daylight">daylight</Link>, <Link to="/spell/eagle_eye">eagle eye</Link>, <Link to="/spell/remove_blindness_deafness">remove blindness/deafness</Link>, <Link to="/spell/sunburst">sunburst</Link> (DC 21)</>},{"day":3,"content":<><Link to="/feat/quickened">quickened</Link> <em>blistering invective</em> (DC 15)</>},{"day":1,"content":<><Link to="/spell/flame_strike">flame strike</Link> (DC 18), <Link to="/spell/waves_of_exhaustion">waves of exhaustion</Link></>}]}} />
 <Stats atts={[40,16,23,15,20,17]} bab={17} cmb={34} cmd={47} feats={["Greater Vital Strike","Improved Vital Strike","Iron Will","Lightning Reflexes",["Martial Weapon Proficiency"," (atlatl)"],"Point-Blank Shot","Power Attack","Precise Shot","Quick Draw",["Quicken Spell-Like Ability"," (blistering invective)"],["Rapid Reload"," (atlatl)"],"Vital Strike"]} skills={{"climb":{"b":25}}} lang={["C","G","Ig"]} />
 <Ecology env="warm deserts or mountains" org="solitary, pair, or family (3-5 plus 35% noncombatants and 1 cleric of 7th-10th level)" treasure={{"S":[["Mw","W-atlatl"],["Mw","Wms"],["Mw","Asm"]],"final":"other treasure"}} />
@@ -715,7 +715,7 @@ const _giant_taiga_giant = {title: "Taiga Giant", jsx: <><p><em>This muscular gi
 <div className="reduce">
 <Info source={[["Bestiary 2",131],["Pathfinder #4: Fortress of the Stone Giants",84]]} xp="19,200" cn huge humanoid subs={["giant"]} init={2} llv pcp={13} />
 <Defense ac={[26,14,24]} mod="+4 armor, +4 deflection, +2 Dex, +8 natural, -2 size" hp={[157,"15d8+90"]} fort="+15" ref="+9" will="+10" rockCt immune="enchantment and illusion spells" />
-<Offense sp={30} spP="40 ft. without armor" melee="spear +19/+14/+9 (3d6+15/&times;3) or 2 slams +19 (1d8+10)" ranged="rock +12 (2d6+15) or spear +11 (3d6+10/&times;3)" space={"15"} reach={"15"} rockTh="140 ft." />
+<Offense sp={30} spP="40 ft. without armor" melee="spear +19/+14/+9 (3d6+15/&times;3) or 2 slams +19 (1d8+10)" ranged="rock +12 (2d6+15) or spear +11 (3d6+10/&times;3)" space="15" reach="15" rockTh="140 ft." />
 <Stats atts={[31,14,22,12,17,15]} bab={11} cmb={23} cmd={39} feats={["Alertness","Cleave","Endurance","Iron Will","Lightning Reflexes","Power Attack","Self-Sufficient",["Shot on the Run",<sup>B</sup>],"Vital Strike"]} skills={{"climb":{"b":15},"k":{"r":11},"per":{"b":13}}} racial="+6 Stealth in undergrowth" lang={["C","G"]} sq="spirit summoning" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Ecology env="cold mountains or forests" org={<>solitary, warband (2-7), or tribe (20-50 plus 30% noncombatants, 1 druid or oracle of 3rd-5th level, 2-4 barbarian or ranger hunters of 3rd-5th level, 1 chieftain barbarian or fighter of 4th-7th level, 2-6 <Link to="/monster/dire_bear">dire bears</Link>, 2-6 <Link to="/monster/dire_tiger">dire tigers</Link>, and 8-12 <Link to="/monster/stone_giant">stone giants</Link>)</>} treasure={{"S":[["Ah"],["Wsp"]],"final":"other treasure"}} />
@@ -732,7 +732,7 @@ const _giant_tomb_giant = {title: "Tomb Giant", jsx: <><p><em>This towering, lea
 <div className="reduce">
 <Info source={[["Pathfinder #94: Ice Tomb of the Giant Queen",84],["Bestiary 6",136]]} xp="19,200" ne large humanoid subs={["giant"]} init={3} dv={60} llv pcp={15} />
 <Defense ac={[28,12,25]} mod="+6 armor, +3 Dex, +10 natural, -1 size" hp={[162,"13d8+104"]} fort="+16" ref="+7" will="+10" def={[["negative energy affinity","negative energy affinity"]]} rockCt immune="death effects, paralysis" />
-<Offense sp={40} spP="30 ft. in armor" melee="mwk scythe +20/+15 (2d6+16/19-20/&times;4 plus energy drain) or 2 slams +19 (1d6+11 plus energy drain)" ranged="rock +12 (1d8+11)" space={"10"} reach={"10"} eDrain="1 level, DC 18" rockTh="120 ft." />
+<Offense sp={40} spP="30 ft. in armor" melee="mwk scythe +20/+15 (2d6+16/19-20/&times;4 plus energy drain) or 2 slams +19 (1d6+11 plus energy drain)" ranged="rock +12 (1d8+11)" space="10" reach="10" eDrain="1 level, DC 18" rockTh="120 ft." />
 <SpellBlock id="1" sla={{"cl":12,"con":"+14","content":[{"constant":true,"content":<Link to="/spell/deathwatch">deathwatch</Link>},{"will":true,"content":<Link to="/spell/detect_undead">detect undead</Link>},{"day":3,"content":<><Link to="/spell/make_whole">make whole</Link>, <Link to="/spell/sculpt_corpse">sculpt corpse</Link></>},{"day":1,"content":<><Link to="/spell/animate_dead">animate dead</Link>, <Link to="/spell/control_undead">control undead</Link> (DC 19)</>}]}} />
 <Stats atts={[32,17,26,13,19,14]} bab={9} cmb={21} cmbP="+23 trip" cmd={34} cmdP="36 vs. trip" feats={["Combat Expertise",["Improved Critical"," (scythe)"],"Improved Iron Will","Improved Trip","Iron Will",["Martial Weapon Proficiency"," (scythe)"],"Power Attack"]} skills={{"climb":{"b":12},"k":{"r":14},"per":{"b":15}}} lang={["C","G"]} sq="corpse stitcher, sinister synergy" />
 <Ecology env="any land or underground" org="solitary, pair, or cabal (3-13)" treasure={{"S":[["Mw","Abp"],["Mw","Wsy"]]}} />
@@ -758,7 +758,7 @@ const _giant_vault_giant = {title: "Vault Giant", jsx: <><p><em>This saurian gia
 <div className="reduce">
 <Info source={[["Pathfinder #120: Vault of the Onyx Citadel",84]]} xp="102,400" le gargantuan humanoid subs={["aquatic","giant","reptilian"]} init={6} dv={120} llv scent pcp={29} />
 <Defense ac={[32,8,30]} mod="+2 Dex, +24 natural, -4 size" hp={[270,"20d8+180"]} fort="+15" ref="+10" will="+20" immune="cold, mind-affecting effects" sr="28" />
-<Offense sp={50} sw={60} melee="+1 returning spear +26/+21/+16 (4d6+20/19-20/&times;3), bite +19 (2d8+6), or bite +24 (2d8+13), 2 claws +24 (2d6+13)" ranged="+1 returning spear +15 (4d6+14/19-20/&times;3)" space={"20"} reach={"20"} specAtt={[["tail swat","tail swat"]]} />
+<Offense sp={50} sw={60} melee="+1 returning spear +26/+21/+16 (4d6+20/19-20/&times;3), bite +19 (2d8+6), or bite +24 (2d8+13), 2 claws +24 (2d6+13)" ranged="+1 returning spear +15 (4d6+14/19-20/&times;3)" space="20" reach="20" specAtt={[["tail swat","tail swat"]]} />
 <SpellBlock id="1" psy={{"pe":20,"cl":19,"content":<><Link to="/spell/anticipate_thoughts">anticipate thoughts</Link> (2 PE, DC 17), <Link to="/spell/greater_synaptic_pulse">greater synaptic pulse</Link> (5 PE, DC 20), <Link to="/spell/mental_barrier_iv">mental barrier IV</Link> (5 PE), <Link to="/spell/mindlink">mindlink</Link> (1 PE), <Link to="/spell/mind_probe">mind probe</Link> (4 PE, DC 19), <Link to="/spell/mind_thrust_v">mind thrust V</Link> (5 PE, DC 20), <Link to="/spell/riding_possession">riding possession</Link> (4 PE, DC 19)</>,"con":"+24"}} />
 <Stats atts={[36,15,29,20,23,16]} bab={15} cmb={32} cmbP="+34 bull rush" cmd={44} cmdP="46 vs. bull rush" feats={["Combat Reflexes","Critical Focus","Improved Bull Rush",["Improved Critical"," (spear)"],"Improved Initiative","Iron Will","Lightning Reflexes","Power Attack","Vital Strike",["Weapon Focus"," (spear)"]]} skills={{"acro":{"b":12,"x":"+20 when jumping"},"climb":{"b":36}}} lang={["Aq","C","D","G","U"]} sq={<Link to="/umr/amphibious">amphibious</Link>} />
 <Ecology env="any coastal (Sightless Sea)" org="solitary, pair, hunting party (3-9), or war band (10-18 plus 1 mesmerist or psychic of 3rd-6th level)" treasure={{"S":[["G","+1","ER","Wsp"]],"final":"other treasure"}} />
@@ -783,7 +783,7 @@ const _giant_wood_giant = {title: "Wood Giant", jsx: <><p><em>Standing tall and 
 <div className="reduce">
 <Info source={[["Bestiary 2",132]]} xp="2,400" cg large humanoid subs={["giant"]} init={5} llv pcp={11} />
 <Defense ac={[20,14,15]} mod="+2 armor, +5 Dex, +4 natural, -1 size" hp={[67,"9d8+27"]} fort="+9" ref="+8" will="+7" rockCt />
-<Offense sp={40} melee="longsword +10/+5 (2d6+5/19-20) or 2 slams +10 (1d6+5)" ranged="mwk composite longbow +9/+9/+4 (2d6+5/&times;3)" space={"10"} reach={"10"} />
+<Offense sp={40} melee="longsword +10/+5 (2d6+5/19-20) or 2 slams +10 (1d6+5)" ranged="mwk composite longbow +9/+9/+4 (2d6+5/&times;3)" space="10" reach="10" />
 <SpellBlock id="1" sla={{"cl":7,"con":"+8","content":[{"constant":true,"content":<><Link to="/spell/pass_without_trace">pass without trace</Link>, <Link to="/spell/speak_with_animals">speak with animals</Link></>},{"day":3,"content":<><Link to="/spell/charm_animal">charm animal</Link> (DC 12), <Link to="/spell/quench">quench</Link>, <Link to="/spell/tree_shape">tree shape</Link></>},{"day":1,"content":<><Link to="/spell/enlarge_person">enlarge person</Link> (self only), <Link to="/spell/spike_growth">spike growth</Link></>}]}} />
 <Stats atts={[20,21,17,14,15,12]} bab={6} cmb={12} cmd={27} feats={["Deadly Aim","Iron Will","Point-Blank Shot","Precise Shot","Rapid Shot"]} skills={{"acro":{"b":11,"x":"+15 when jumping"},"climb":{"b":14},"k":{"n":8},"per":{"b":11}}} racial="+4 Stealth in forests" lang={["C","G","S",";",[<em>speak with animals</em>]]} />
 <Ecology env="temperate forests" org={<>solitary, gang (2-4), hunting party (5-9, plus 1-4 <Link to="/monster/dire_wolves">dire wolves</Link>), or clan (10-40, plus 35% noncombatants, 1-3 druids or witches of 2nd-4th level, 1 ranger chieftain of 3rd-7th level, 4-10 dire wolves, and 2-8 <Link to="/monster/giant_eagle">giant eagles</Link>)</>} treasure={{"S":[["Al"],["Wls"],["Mw","Wcl20"]],"final":"other treasure"}} />
@@ -799,7 +799,7 @@ const _genie_djinni = {title: "Djinni (Genie)", jsx: <><p><em>This creature stan
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",139]]} xp="1,600" cg large outsider subs={["air","extraplanar"]} init={8} dv={60} pcp={12} />
 <Defense ac={[19,14,14]} mod="+4 Dex, +1 dodge, +5 natural, -1 size" hp={[52,"7d10+14"]} fort="+4" ref="+9" will="+7" immune="acid" />
-<Offense sp={20} fl={60} flP="perfect" melee="2 slams +10 (1d8+4) or mwk scimitar +11/+6 (1d8+4/18-20)" space={"10"} reach={"10"} specAtt={[["air mastery","air mastery"]]} whirlwind="1/10 minutes, 10-50 ft. tall, 1d8+4 damage, DC 17" />
+<Offense sp={20} fl={60} flP="perfect" melee="2 slams +10 (1d8+4) or mwk scimitar +11/+6 (1d8+4/18-20)" space="10" reach="10" specAtt={[["air mastery","air mastery"]]} whirlwind="1/10 minutes, 10-50 ft. tall, 1d8+4 damage, DC 17" />
 <SpellBlock id="1" sla={{"cl":9,"content":[{"will":true,"content":<><Link to="/spell/invisibility">invisibility</Link> (self only), <Link to="/spell/plane_shift">plane shift</Link> (willing targets to elemental planes, Astral Plane, or Material Plane only)</>},{"day":1,"content":<><Link to="/spell/create_food_and_water">create food and water</Link>, <em>create wine</em>|as <Link to="/spell/create_water">create water</Link> but wine instead, <Link to="/spell/gaseous_form">gaseous form</Link> (for up to 1 hour), <Link to="/spell/major_creation">major creation</Link> (created vegetable matter is permanent), <Link to="/spell/persistent_image">persistent image</Link> (DC 17), <Link to="/spell/wind_walk">wind walk</Link></>}]}} />
 <Stats atts={[18,19,14,14,15,15]} bab={7} cmb={12} cmd={27} feats={["Combat Casting","Combat Reflexes","Dodge",["Improved Initiative",<sup>B</sup>],"Wind Stance"]} skills={{"app":{"b":12},"craft":{"of":"any one","b":12},"fly":{"b":20},"k":{"p":12},"per":{"b":12},"sm":{"b":12},"spc":{"b":12},"stl":{"b":10}}} lang={["Aq","Au","C","Ig","T",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
@@ -819,7 +819,7 @@ const _genie_efreeti = {title: "Efreeti (Genie)", jsx: <><p><em>This muscular gi
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",140]]} xp="4,800" le large outsider subs={["extraplanar","fire"]} init={7} senSpell={["detect magic"]} dv={60} pcp={15} />
 <Defense ac={[21,13,17]} mod="+3 Dex, +1 dodge, +8 natural, -1 size" hp={[95,"10d10+40"]} fort="+7" ref="+10" will="+9" immune="fire" />
-<Offense sp={20} fl={40} flP="perfect" melee="2 slams +15 (1d8+6 plus 1d6 fire) or mwk falchion +16/+11 (2d6+9/18-20)" space={"10"} reach={"10"} specAtt={[["change size","change size"],["heat","heat"]]} />
+<Offense sp={20} fl={40} flP="perfect" melee="2 slams +15 (1d8+6 plus 1d6 fire) or mwk falchion +16/+11 (2d6+9/18-20)" space="10" reach="10" specAtt={[["change size","change size"],["heat","heat"]]} />
 <SpellBlock id="1" sla={{"cl":11,"content":[{"constant":true,"content":<Link to="/spell/detect_magic">detect magic</Link>},{"will":true,"content":<><Link to="/spell/plane_shift">plane shift</Link> (willing targets to elemental planes, Astral Plane, or Material Plane only), <Link to="/spell/produce_flame">produce flame</Link>, <Link to="/spell/pyrotechnics">pyrotechnics</Link> (DC 14), <Link to="/spell/scorching_ray">scorching ray</Link></>},{"day":3,"content":<><Link to="/spell/invisibility">invisibility</Link>, <Link to="/feat/quickened">quickened</Link> <em>scorching ray</em>, <Link to="/spell/wall_of_fire">wall of fire</Link> (DC 16)</>},{"day":1,"content":<>grant up to 3 <Link to="/spell/wish">wishes</Link> (to non-genies only), <Link to="/spell/gaseous_form">gaseous form</Link>, <Link to="/spell/permanent_image">permanent image</Link> (DC 18)</>}]}} />
 <Stats atts={[23,17,18,12,14,15]} bab={10} cmb={17} cmd={31} feats={["Combat Casting","Combat Reflexes","Deceitful","Dodge",["Improved Initiative",<sup>B</sup>],["Quicken Spell-Like Ability"," (scorching ray)"]]} skills={{"bluff":{"b":19},"craft":{"of":"any one","b":14},"dis":{"b":10},"sm":{"b":15},"spc":{"b":14},"stl":{"b":8}}} lang={["Au","Aq","C","Ig","T",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} sq={<><Link to="/umr/change_shape">change shape</Link> (humanoid or giant; <Link to="/spell/alter_self">alter self</Link> or <Link to="/spell/giant_form_i">giant form I</Link>)</>} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
@@ -861,7 +861,7 @@ const _genie_marid = {title: "Marid (Genie)", jsx: <><p><em>This being resembles
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",142]]} xp="6,400" cn large outsider subs={["extraplanar","water"]} init={8} dv={60} pcp={17} />
 <Defense ac={[23,14,18]} mod="+4 Dex, +1 dodge, +9 natural, -1 size" hp={[114,"12d10+48"]} fort="+10" ref="+12" will="+10" />
-<Offense sp={20} sw={60} melee="2 slams +17 (2d6+6) or mwk trident +18/+13/+8 (2d6+9)" space={"10"} reach={"10"} specAtt={[["vortex 110 minutes 10-50 ft tall 1d84 damage DC 22","vortex (1/10 minutes, 10-50 ft. tall, 1d8+4 damage, DC 22)"],["water mastery","water mastery"],["waters fury","water's fury"]]} />
+<Offense sp={20} sw={60} melee="2 slams +17 (2d6+6) or mwk trident +18/+13/+8 (2d6+9)" space="10" reach="10" specAtt={[["vortex 110 minutes 10-50 ft tall 1d84 damage DC 22","vortex (1/10 minutes, 10-50 ft. tall, 1d8+4 damage, DC 22)"],["water mastery","water mastery"],["waters fury","water's fury"]]} />
 <SpellBlock id="1" sla={{"cl":12,"content":[{"constant":true,"content":<><Link to="/spell/detect_evil">detect evil</Link>, <Link to="/spell/detect_good">detect good</Link>, <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/water_walk">water walk</Link></>},{"will":true,"content":<><Link to="/spell/create_water">create water</Link>, <Link to="/spell/invisibility">invisibility</Link>, <Link to="/spell/plane_shift">plane shift</Link> (willing targets to elemental planes, Astral Plane, or Material Plane only), <Link to="/spell/purify_food_and_drink">purify food and drink</Link> (liquids only), <Link to="/spell/quench">quench</Link></>},{"day":5,"content":<><Link to="/spell/control_water">control water</Link>, <Link to="/spell/gaseous_form">gaseous form</Link>, <Link to="/spell/obscuring_mist">obscuring mist</Link>, <Link to="/spell/water_breathing">water breathing</Link></>},{"day":3,"content":<Link to="/spell/see_invisibility">see invisibility</Link>},{"day":1,"content":<><Link to="/spell/persistent_image">persistent image</Link> (DC 18)</>},{"per":"year","content":<>grant 1 <Link to="/spell/wish">wish</Link> (to non-genies only)</>}]}} />
 <Stats atts={[23,19,18,14,15,16]} bab={12} cmb={19} cmd={34} feats={["Combat Casting","Combat Reflexes","Dodge","Great Fortitude",["Improved Initiative",<sup>B</sup>],"Improved Natural Attack","Power Attack"]} skills={{"craft":{"of":"any one","b":17},"diplo":{"b":18},"sm":{"b":17},"spc":{"b":17},"stl":{"b":15},"swim":{"b":29}}} lang={["Aq","Au","C","Ig","T",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} sq={<><Link to="/umr/change_shape">change shape</Link> (water elemental, humanoid or giant; <Link to="/spell/alter_self">alter self</Link>, <Link to="/spell/elemental_body_iii">elemental body III</Link>, or <Link to="/spell/giant_form_i">giant form I</Link>)</>} />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
@@ -882,7 +882,7 @@ const _genie_shaitan = {title: "Shaitan (Genie)", jsx: <><p><em>This being resem
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",143],["Pathfinder #18: Descent into Midnight",86]]} xp="3,200" ln large outsider subs={["earth","extraplanar"]} init={5} dv={60} tremorsense={60} pcp={14} />
 <Defense ac={[20,10,19]} mod="+1 Dex, +10 natural, -1 size" hp={[85,"9d10+36"]} fort="+10" ref="+4" will="+8" immune="electricity" />
-<Offense sp={20} br={60} cl={20} melee="2 slams +13 (2d6+5) or mwk scimitar +14/+9 (1d8+7/18-20)" space={"10"} reach={"10"} specAtt={[["earth mastery","earth mastery"],["metalmorph","metalmorph"],["stone curse","stone curse"]]} />
+<Offense sp={20} br={60} cl={20} melee="2 slams +13 (2d6+5) or mwk scimitar +14/+9 (1d8+7/18-20)" space="10" reach="10" specAtt={[["earth mastery","earth mastery"],["metalmorph","metalmorph"],["stone curse","stone curse"]]} />
 <SpellBlock id="1" sla={{"cl":9,"content":[{"will":true,"content":<><Link to="/spell/meld_into_stone">meld into stone</Link>, <Link to="/spell/plane_shift">plane shift</Link> (willing targets to elemental planes, Astral Plane, or Material Plane only), <Link to="/spell/soften_earth_and_stone">soften earth and stone</Link>, <Link to="/spell/stone_shape">stone shape</Link>, <Link to="/spell/veil">veil</Link> (self only)</>},{"day":3,"content":<><Link to="/feat/quickened">quickened</Link> <em>glitterdust</em> (DC 14), <Link to="/spell/stoneskin">stoneskin</Link>, <Link to="/spell/rusting_grasp">rusting grasp</Link>, <Link to="/spell/stone_tell">stone tell</Link>, <Link to="/spell/wall_of_stone">wall of stone</Link></>},{"day":1,"content":<><Link to="/spell/transmute_mud_to_rock">transmute mud to rock</Link>, <Link to="/spell/transmute_rock_to_mud">transmute rock to mud</Link></>}]}} />
 <Stats atts={[20,13,19,14,14,15]} bab={9} cmb={15} cmd={26} feats={["Combat Casting","Greater Bull Rush","Improved Bull Rush",["Improved Initiative",<sup>B</sup>],"Power Attack",["Quicken Spell-Like Ability"," (glitterdust)"]]} skills={{"app":{"b":14},"bluff":{"b":14},"climb":{"b":25},"craft":{"of":"gemcutting","b":14},"k":{"e":14},"per":{"b":14},"sm":{"b":14},"spc":{"b":14}}} lang={["Aq","Au","C","Ig","T",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} sq="stone glide" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
@@ -903,7 +903,7 @@ const _genie_touched_horse = {title: "Genie-Touched Horse", jsx: <><p><em>This m
 <div className="reduce">
 <Info source={[["Qadira, Jewel of the East",60]]} xp="2,400" n large magicalBeast init={2} dv={60} llv scent pcp={9} />
 <Defense ac={[19,11,17]} mod="+2 Dex, +8 natural, -1 size" hp={[73,"7d10+35"]} fort="+10" ref="+7" will="+5" resist="energy 10 (see genie-touched abilities)" />
-<Offense sp={60} melee="bite +12 (1d8+6), 2 hooves +11 (1d6+3)" space={"10"} reach={"5"} />
+<Offense sp={60} melee="bite +12 (1d8+6), 2 hooves +11 (1d6+3)" space="10" reach="5" />
 <Stats atts={[22,15,20,4,17,11]} bab={7} cmb={14} cmd={26} feats={["Endurance","Multiattack","Run",["Weapon Focus"," (hooves)"]]} skills={{"acro":{"b":7},"per":{"b":9}}} lang={[["see below"]]} sq="genie-touched abilities" />
 <Ecology env="warm plains" org="solitary, pair, or herd (3-10)" treasure={{"X":false}} />
 </div>
@@ -970,7 +970,7 @@ const _gargoyle_four_armed_gargoyle = {title: "Four-Armed Gargoyle", jsx: <><p><
 <div className="reduce">
 <Info source={[["Pathfinder #48: Shadows of Gallowspire",84]]} xp="6,400" ce large monstrousHumanoid subs={["earth"]} init={1} dv={60} pcp={15} />
 <Defense ac={[24,10,23]} mod="+1 Dex, +14 natural, -1 size" hp={[105,"10d10+50"]} fort="+10" ref="+8" will="+9" dr="10/magic" />
-<Offense sp={40} fl={60} flP="average" melee="bite +15 (1d8+6), 4 claws +15 (1d6+6/19-20), gore +15 (1d4+6)" space={"10"} reach={"10"} rend="1d6+6" />
+<Offense sp={40} fl={60} flP="average" melee="bite +15 (1d8+6), 4 claws +15 (1d6+6/19-20), gore +15 (1d4+6)" space="10" reach="10" rend="1d6+6" />
 <Stats atts={[23,12,20,8,15,11]} bab={10} cmb={17} cmd={28} feats={["Great Fortitude","Hover",["Improved Critical"," (claws)"],"Power Attack",["Skill Focus"," (Fly)"]]} skills={{"fly":{"b":18},"per":{"b":15},"stl":{"b":10}}} racial="+2 Stealth (+6 in stony environs)" lang={["C","T"]} sq={<Link to="/umr/freeze">freeze</Link>} />
 </div>
 <Header sub>Special Abilities</Header>
@@ -1002,7 +1002,7 @@ const _gargoyle_gargoyle_guardian = {title: "Gargoyle Guardian", jsx: <><p><em>T
 <div className="reduce">
 <Info source={[["Pathfinder #48: Shadows of Gallowspire",84]]} xp="4,800" n large construct init={2} dv={60} llv pcp={0} />
 <Defense ac={[22,11,20]} mod="+2 Dex, +11 natural, -1 size" hp={[90,"11d10+30"]} fort="+3" ref="+5" will="+3" dr="5/adamantine" immune={<Link to="/umr/construct_traits">construct traits</Link>} />
-<Offense sp={30} fl={60} flP="poor" melee="1 bite +16 (1d8+6), 2 claw +16 (1d6+6)" space={"10"} reach={"10"} specAtt={[["snatch","snatch"]]} />
+<Offense sp={30} fl={60} flP="poor" melee="1 bite +16 (1d8+6), 2 claw +16 (1d6+6)" space="10" reach="10" specAtt={[["snatch","snatch"]]} />
 <Stats atts={[22,14,0,0,10,1]} bab={11} cmb={18} cmd={30} skills={{"stl":{"b":2}}} racial="+6 Stealth in stony environs" sq={<Link to="/umr/freeze">freeze</Link>} />
 <Ecology env="any land" org="solitary or wing (2-8)" treasure={{"X":false}} />
 </div>
@@ -1051,7 +1051,7 @@ const _gar_giant_gar = {title: "Giant Gar", jsx: <><p><em>This fish is enormous 
 <div className="reduce">
 <Info source={[["Bestiary 2",128]]} xp="2,400" n huge animal subs={["aquatic"]} init={4} llv pcp={11} />
 <Defense ac={[19,8,19]} mod="+11 natural, -2 size" hp={[73,"7d8+42"]} fort="+11" ref="+7" will="+5" />
-<Offense sw={60} melee={<>bite +13 (2d6+15 plus <Link to="/umr/grab">grab</Link>)</>} space={"15"} reach={"15"} swallow="2d6+10 bludgeoning damage, AC 15, hp 7" />
+<Offense sw={60} melee={<>bite +13 (2d6+15 plus <Link to="/umr/grab">grab</Link>)</>} space="15" reach="15" swallow="2d6+10 bludgeoning damage, AC 15, hp 7" />
 <Stats atts={[30,10,23,1,13,2]} bab={5} cmb={17} cmbP="+21 grapple" cmd={27} cmdP="can't be tripped" feats={["Improved Initiative","Iron Will","Lightning Reflexes","Power Attack"]} skills={{"per":{"b":11},"swim":{"b":18}}} />
 <Ecology env="temperate freshwater" org="solitary, pair, or school (3-6)" treasure={{"X":false}} />
 </div>
@@ -1106,9 +1106,9 @@ const _ganzi = {title: "Ganzi", jsx: <><p><em>This dark-skinned woman moves with
 const _homunculus = {title: "Homunculus", jsx: <><p><em>This vaguely humanoid creature is about the size of a cat but looks more like a toothy, winged devil.</em></p>
 <Header full><span>Homunculus</span><span>CR 1</span></Header>
 <div className="reduce">
-<Info source={[["Pathfinder RPG Bestiary",176]]} xp="400" al={"Any alignment (same as creator)"} tiny construct init={2} dv={60} llv pcp={3} />
+<Info source={[["Pathfinder RPG Bestiary",176]]} xp="400" al="Any alignment (same as creator)" tiny construct init={2} dv={60} llv pcp={3} />
 <Defense ac={[14,14,12]} mod="+2 Dex, +2 size" hp={[11,"2d10"]} fort="+0" ref="+4" will="+1" immune={<Link to="/umr/construct_traits">construct traits</Link>} />
-<Offense sp={20} fl={50} flP="good" melee="1 bite +3 (1d4-1 plus poison)" space={"2-1/2"} reach={"0"} />
+<Offense sp={20} fl={50} flP="good" melee="1 bite +3 (1d4-1 plus poison)" space="2-1/2" reach="0" />
 <Stats atts={[8,15,0,10,12,7]} bab={2} cmb={2} cmd={11} feats={["Lightning Reflexes"]} skills={{"fly":{"b":10},"per":{"b":3},"stl":{"b":12}}} lang={["CX",";",["telepathic link"]]} />
 <Ecology env="any" org="solitary" treasure={{"X":false}} />
 </div>
@@ -1130,7 +1130,7 @@ const _hooded_harbinger = {title: "Hooded Harbinger", jsx: <><p><em>This creatur
 <div className="reduce">
 <Info source={[["Pathfinder #112: The Whisper Out of Time",88]]} xp="19,200" ce medium aberration init={8} senSpell={["see invisibility"]} dv={60} pcp={21} aura={<>profane reek (DC 21), <Link to="/umr/unnatural_aura">unnatural aura</Link> (30 ft.)</>} />
 <Defense ac={[27,17,23]} mod="+4 Dex, +10 natural, +3 profane" hp={[161,"17d8+85"]} fort="+12" ref="+11" will="+13" dr="10/lawful and slashing" immune="death effects, mind-affecting effects, poison" resist="cold 10" sr="23" />
-<Offense sp={30} melee={<>2 slams +20 (2d6+8/19-20 plus <Link to="/umr/trip">trip</Link>) or melee touch +20 (bloodless touch)</>} space={"5"} reach={"10"} specAtt={[["manifest Yellow Sign","manifest Yellow Sign"],["prophetic utterance","prophetic utterance"]]} chEn={{"perDay":3,"dc":21,"d6":"command","pos":false}} />
+<Offense sp={30} melee={<>2 slams +20 (2d6+8/19-20 plus <Link to="/umr/trip">trip</Link>) or melee touch +20 (bloodless touch)</>} space="5" reach="10" specAtt={[["manifest Yellow Sign","manifest Yellow Sign"],["prophetic utterance","prophetic utterance"]]} chEn={{"perDay":3,"dc":21,"d6":"command","pos":false}} />
 <SpellBlock id="1" sla={{"cl":15,"con":"+18","content":[{"constant":true,"content":<><Link to="/spell/see_invisibility">see invisibility</Link>, <Link to="/spell/tongues">tongues</Link></>},{"will":true,"content":<><Link to="/spell/detect_good">detect good</Link>, <Link to="/spell/detect_law">detect law</Link></>},{"day":3,"content":<><Link to="/spell/confusion">confusion</Link> (DC 17), <Link to="/spell/mass_hold_person">mass hold person</Link> (DC 20), <Link to="/spell/plane_shift">plane shift</Link>, <Link to="/spell/silence">silence</Link> (DC 15), <Link to="/spell/teleport">teleport</Link> (self plus 50 lbs. of objects only)</>},{"day":1,"content":<Link to="/spell/freedom_of_movement">freedom of movement</Link>}]}} />
 <Stats atts={[26,18,21,16,13,17]} bab={12} cmb={20} cmd={34} feats={["Bleeding Critical","Combat Casting","Combat Reflexes",["Command Undead",<sup>B</sup>],"Critical Focus","Great Fortitude",["Improved Critical"," (slam)"],"Improved Initiative","Iron Will","Lightning Reflexes"]} skills={{"acro":{"b":24},"climb":{"b":28},"ea":{"b":24},"intm":{"b":31},"k":{"r":27},"per":{"b":21},"stl":{"b":24}}} racial="+4 Knowledge (religion), +8 Intimidate" lang={["Ak","C",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft., <em>tongues</em></>]]} sq="terrible visage" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
@@ -1176,7 +1176,7 @@ const _hook_fly_hook_fly_swarm = {title: "Hook Fly Swarm", jsx: <><p><em>The tin
 <div className="reduce">
 <Info source={[["Gallows of Madness",60]]} xp="400" n diminutive vermin subs={["swarm"]} init={1} dv={60} pcp={0} />
 <Defense ac={[15,15,14]} mod="+1 Dex, +4 size" hp={[11,"2d8+2"]} fort="+4" ref="+1" will="+0" def={[["swarm traits","swarm traits"]]} immune="mind-affecting effects, weapon damage" />
-<Offense sp={10} fl={30} flP="average" melee="swarm (1d6 plus bleed and distraction)" space={"10"} reach={"0"} bleed="1" distraction={12} />
+<Offense sp={10} fl={30} flP="average" melee="swarm (1d6 plus bleed and distraction)" space="10" reach="0" bleed="1" distraction={12} />
 <Stats atts={[1,12,12,0,11,1]} bab={1} cmb={null} cmd={null} skills={{"fly":{"b":7}}} sq="gestate" />
 <Ecology env="any" org="solitary, pair, or cloud (3-6)" treasure={{"X":false}} />
 </div>
@@ -1198,7 +1198,7 @@ const _hookfang_worm = {title: "Hookfang Worm", jsx: <><p><em>This long, orange,
 <div className="reduce">
 <Info source={[["Bestiary 6",249]]} xp="3,200" n huge vermin subs={["aquatic"]} init={8} dv={60} tremorsense={30} pcp={3} />
 <Defense ac={[20,12,16]} mod="+4 Dex, +8 natural, -2 size" hp={[85,"9d8+45"]} fort="+11" ref="+7" will="+6" immune="mind-affecting effects" />
-<Offense sp={20} sw={50} melee={<>bite +12 (2d8+12 plus <Link to="/umr/grab">grab</Link> and poison)</>} space={"15"} reach={"15"} specAtt={[["sudden bite","sudden bite"]]} constrict="2d8+12" />
+<Offense sp={20} sw={50} melee={<>bite +12 (2d8+12 plus <Link to="/umr/grab">grab</Link> and poison)</>} space="15" reach="15" specAtt={[["sudden bite","sudden bite"]]} constrict="2d8+12" />
 <Stats atts={[27,19,21,0,16,2]} bab={6} cmb={16} cmd={30} cmdP="can't be tripped" feats={["Improved Initiative"]} skills={{"swim":{"b":16}}} />
 <Ecology env="any oceans" org="solitary, pair, or shoal (3-8)" treasure={{"X":false}} />
 </div>
@@ -1232,7 +1232,7 @@ const _horse = {title: "Horse", jsx: <><p><em>This proud horse thunders across t
 <div className="reduce">
 <Info source={[["Pathfinder RPG Bestiary",177]]} xp="400" n large animal init={2} llv scent pcp={6} />
 <Defense ac={[11,11,9]} mod="+2 Dex, -1 size" hp={[15,"2d8+6"]} fort="+6" ref="+5" will="+1" />
-<Offense sp={50} melee="2 hooves -2 (1d4+1)" space={"10"} reach={"5"} />
+<Offense sp={50} melee="2 hooves -2 (1d4+1)" space="10" reach="5" />
 <Stats atts={[16,14,17,2,13,7]} bab={1} cmb={5} cmd={17} cmdP="21 vs. trip" feats={["Endurance",["Run",<sup>B</sup>]]} skills={{"per":{"b":6}}} sq="docile" />
 <p className="spells indented"><sup><strong>B</strong></sup> Bonus feat.</p>
 <Ecology env="temperate plains" org="solitary, pair, or herd (3-30)" treasure={{"X":false}} />
@@ -1267,7 +1267,7 @@ const _isonade = {title: "Isonade", jsx: <><p><em>This massive horror looks like
 <div className="reduce">
 <Info source={[["Bestiary 5",147]]} xp="51,200" ce gargantuan magicalBeast subs={["aquatic"]} init={1} dv={120} keenScent pcp={28} />
 <Defense ac={[28,8,26]} mod="+1 Dex, +1 dodge, +20 natural, -4 size" hp={[230,"20d10+120"]} fort="+18" ref="+13" will="+13" sr="26" />
-<Offense sw={100} melee={<>bite +29 (2d8+12 plus <Link to="/umr/grab">grab</Link>), 2 fins +28 (2d8+12 plus grab), tail slap +23 (2d8+6 plus grab)</>} space={"20"} reach={"20"} reachP={"30 ft. with tail slap"} specAtt={[["hooked appendages","hooked appendages"]]} capsize fSwallow swallow="3d6 bludgeoning damage, AC 20, 23 hp" />
+<Offense sw={100} melee={<>bite +29 (2d8+12 plus <Link to="/umr/grab">grab</Link>), 2 fins +28 (2d8+12 plus grab), tail slap +23 (2d8+6 plus grab)</>} space="20" reach="20" reachP="30 ft. with tail slap" specAtt={[["hooked appendages","hooked appendages"]]} capsize fSwallow swallow="3d6 bludgeoning damage, AC 20, 23 hp" />
 <Stats atts={[34,13,22,13,20,9]} bab={20} cmb={36} cmbP="+40 drag, grapple" cmd={48} cmdP="50 vs. drag" feats={["Combat Expertise","Dodge","Greater Drag","Improved Drag","Improved Vital Strike","Iron Will","Mobility",["Skill Focus"," (Stealth)"],"Spring Attack","Vital Strike",["Weapon Focus"," (bite)"]]} skills={{"per":{"b":28},"stl":{"b":18,"x":"+28 in deep water"},"swim":{"b":43}}} racial="+10 Stealth in deep water" lang={["Aq","C"]} />
 <Ecology env="any oceans" org="solitary" treasure={{"X":false}} />
 </div>
@@ -1284,7 +1284,7 @@ const _ixion_worm = {title: "Ixion Worm", jsx: <><p><em>A cyclopean face stretch
 <div className="reduce">
 <Info source={[["Pathfinder #106: For Queen and Empire",90]]} xp="25,600" le large outsider subs={["evil","extraplanar","lawful"]} init={4} senSpell={["true seeing"]} dv={60} llv pcp={23} />
 <Defense ac={[27,14,22]} mod="+4 Dex, +1 dodge, +13 natural, -1 size" hp={[187,"15d10+105"]} fort="+16" ref="+9" will="+14" resist="fire 10, sonic 10" sr="24" />
-<Offense sp={30} melee={<>bite +20 (2d6+6 plus energy drain and <Link to="/umr/grab">grab</Link>), slam +20 (1d8+6)</>} space={"10"} reach={"5"} specAtt={[["euphoric gaze 3day wheel form only","euphoric gaze (3/day; wheel form only)"],["hypnotic wheel DC 22 wheel form only","hypnotic wheel (DC 22; wheel form only)"]]} constrict="2d6+9; serpentine form only" eDrain="2 levels, DC 22" powCh="slam, 2d8+9; wheel form only" />
+<Offense sp={30} melee={<>bite +20 (2d6+6 plus energy drain and <Link to="/umr/grab">grab</Link>), slam +20 (1d8+6)</>} space="10" reach="5" specAtt={[["euphoric gaze 3day wheel form only","euphoric gaze (3/day; wheel form only)"],["hypnotic wheel DC 22 wheel form only","hypnotic wheel (DC 22; wheel form only)"]]} constrict="2d6+9; serpentine form only" eDrain="2 levels, DC 22" powCh="slam, 2d8+9; wheel form only" />
 <SpellBlock id="1" sla={{"cl":14,"con":"+19","content":[{"constant":true,"content":<Link to="/spell/true_seeing">true seeing</Link>},{"will":true,"content":<><Link to="/spell/castigate">castigate</Link> (DC 17), <Link to="/spell/enthrall">enthrall</Link> (DC 17), <Link to="/spell/hypnotism">hypnotism</Link> (DC 17), <Link to="/spell/lock_gaze">lock gaze</Link> (DC 16), <Link to="/spell/mage_hand">mage hand</Link></>},{"day":3,"content":<><Link to="/spell/mass_suggestion">mass suggestion</Link> (DC 20), <Link to="/spell/miserable_pity">miserable pity</Link> (DC 18), <Link to="/spell/persistent_image">persistent image</Link> (DC 19), <Link to="/spell/telekinesis">telekinesis</Link> (DC 20)</>},{"day":1,"content":<><Link to="/spell/synapse_overload">synapse overload</Link> (DC 21)</>}]}} />
 <Stats atts={[22,19,24,15,20,21]} bab={15} cmb={22} cmbP="+26 bull rush, +26 grapple, +26 overrun" cmd={37} cmdP="39 vs. bull rush, 39 vs. overrun" feats={["Dodge","Greater Bull Rush","Greater Overrun","Improved Bull Rush","Improved Overrun","Mobility","Power Attack","Spring Attack"]} skills={{"bluff":{"b":23},"diplo":{"b":23},"sm":{"b":23},"spc":{"b":20},"stl":{"b":18}}} lang={["Ce","C","I",";",[<><Link to="/umr/telepathy">telepathy</Link> 100 ft.</>]]} sq="dual form" />
 <Ecology env={<>any (<Link to="/rule/hell">Hell</Link>)</>} org="solitary, pair, or caravan (4-6)" treasure={{"S":false}} />
@@ -1311,7 +1311,7 @@ const _isitoq = {title: "Isitoq", jsx: <><p><em>This bloodshot eyeball trails st
 <div className="reduce">
 <Info source={[["Bestiary 4",159]]} xp="200" ne diminutive undead init={1} dv={60} pcp={7} />
 <Defense ac={[15,15,14]} mod="+1 Dex, +4 size" hp={[9,"2d8"]} fort="+0" ref="+1" will="+5" immune={<Link to="/umr/undead_traits">undead traits</Link>} />
-<Offense sp={5} fl={60} flP="perfect" melee="slam +6 (1d2-3), 2 wings +6 (1d1-3 plus daze)" space={"1"} reach={"0"} specAtt={[["daze","daze"],["tears of anguish","tears of anguish"]]} />
+<Offense sp={5} fl={60} flP="perfect" melee="slam +6 (1d2-3), 2 wings +6 (1d1-3 plus daze)" space="1" reach="0" specAtt={[["daze","daze"],["tears of anguish","tears of anguish"]]} />
 <Stats atts={[4,13,0,7,14,11]} bab={1} cmb={-2} cmd={5} cmdP="can't be tripped" feats={["Weapon Finesse"]} skills={{"fly":{"b":15},"per":{"b":7},"stl":{"b":18}}} lang={["CX"]} sq="visual sensor" />
 <Ecology env="any" org="solitary or gang (2-8)" treasure={{"X":false}} />
 </div>
