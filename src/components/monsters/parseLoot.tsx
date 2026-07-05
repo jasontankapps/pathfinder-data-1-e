@@ -209,25 +209,25 @@ const getWeapon = (input: string, b1: string, b2: string) => {
 	if(m) {
 		return ["heavy_crossbow", "heavy crossbow", ` with ${m[1]} bolts`];
 	}
-	if(m = input.match(/^rhc([0-9]+)$/)) {
+	if((m = input.match(/^rhc([0-9]+)$/))) {
 		return ["repeating_heavy_crossbow", "repeating heavy crossbow", ` with ${m[1]} bolts`];
 	}
-	if(m = input.match(/^rlc([0-9]+)$/)) {
+	if((m = input.match(/^rlc([0-9]+)$/))) {
 		return ["repeating_light_crossbow", "repeating light crossbow", ` with ${m[1]} bolts`];
 	}
-	if(m = input.match(/^lc([0-9]+)$/)) {
+	if((m = input.match(/^lc([0-9]+)$/))) {
 		return ["light_crossbow", "light crossbow", ` with ${m[1]} bolts`];
 	}
-	if(m = input.match(/^uhc([0-9]+)$/)) {
+	if((m = input.match(/^uhc([0-9]+)$/))) {
 		return ["underwater_heavy_crossbow", "underwater heavy crossbow", ` with ${m[1]} bolts`];
 	}
-	if(m = input.match(/^m([0-9]+)$/)) {
+	if((m = input.match(/^m([0-9]+)$/))) {
 		return ["musket", "musket", ` with ${m[1]} bullets`];
 	}
-	if(m = input.match(/^hand([0-9]+)$/)) {
+	if((m = input.match(/^hand([0-9]+)$/))) {
 		return ["hand_crossbow", "hand crossbow", ` with ${m[1]} bolts`];
 	}
-	if(m = input.match(/^csb([0-9]+)?(?:\+([0-9]+))?$/)) {
+	if((m = input.match(/^csb([0-9]+)?(?:\+([0-9]+))?$/))) {
 		const [, arr, bonus] = m;
 		if(arr && bonus) {
 			return ["composite_shortbow", "composite shortbow", ` ${b1}+${bonus} Str${b2} with ${arr} arrows`]
@@ -238,10 +238,10 @@ const getWeapon = (input: string, b1: string, b2: string) => {
 		}
 		return ["composite_shortbow", "composite shortbow"];
 	}
-	if(m = input.match(/^cls([0-9]+)$/)) {
+	if((m = input.match(/^cls([0-9]+)$/))) {
 		return ["composite_longbow", "composite longbows", ` with ${m[1]} arrows`];
 	}
-	if(m = input.match(/^cl([0-9]+)?(?:\+([0-9]+))?$/)) {
+	if((m = input.match(/^cl([0-9]+)?(?:\+([0-9]+))?$/))) {
 		const [, arr, bonus] = m;
 		if(arr && bonus) {
 			return ["composite_longbow", "composite longbow", ` ${b1}+${bonus} Str${b2} with ${arr} arrows`]
@@ -252,19 +252,19 @@ const getWeapon = (input: string, b1: string, b2: string) => {
 		}
 		return ["composite_longbow", "composite longbow"];
 	}
-	if(m = input.match(/^sb([0-9]+)$/)) {
+	if((m = input.match(/^sb([0-9]+)$/))) {
 		return ["shortbow", "shortbow", ` with ${m[1]} arrows`];
 	}
-	if(m = input.match(/^lb([0-9]+)$/)) {
+	if((m = input.match(/^lb([0-9]+)$/))) {
 		return ["longbow", "longbow", ` with ${m[1]} arrows`];
 	}
-	if(m = input.match(/^sng([0-9]+)$/)) {
+	if((m = input.match(/^sng([0-9]+)$/))) {
 		return ["sling", "sling", ` with ${m[1]} bullets`];
 	}
-	if(m = input.match(/^sng([0-9]+)s$/)) {
+	if((m = input.match(/^sng([0-9]+)s$/))) {
 		return ["sling", "sling", ` with ${m[1]} stones`];
 	}
-	if(m = input.match(/^-(.+)$/)) {
+	if((m = input.match(/^-(.+)$/))) {
 		return [convertTextToLink(m[1]), m[1]];
 	}
 	return [input + " [error]"];
@@ -362,7 +362,7 @@ const parseLoot = (input: (string[]|ReactNode)[], id: string, treasure: boolean 
  			let m: RegExpMatchArray | null | string = "";
 			if(SIZES.includes(bit as SIZE)) {
 				return getSize(bit as SIZE);
-			} else if (m = bit.match(/^[-+]?[0-9]+$/)) {
+			} else if ((m = bit.match(/^[-+]?[0-9]+$/))) {
 				return bit;
 			}
 			let l = "";
@@ -387,20 +387,28 @@ const parseLoot = (input: (string[]|ReactNode)[], id: string, treasure: boolean 
 					return makeLink("magic-staff", "staff of power", "staff_of_power");
 				case "MA":
 					m = "adamantine";
+					// falls through
 				case "MS":
 					m = m || "silver";
+					// falls through
 				case "MN":
 					m = m || "bone";
+					// falls through
 				case "MB":
 					m = m || "bronze";
+					// falls through
 				case "MD":
 					m = m || "darkwood";
+					// falls through
 				case "MM":
 					m = m || "mithral";
+					// falls through
 				case "MO":
 					m = m || "obsidian";
+					// falls through
 				case "MG":
 					m = m || "gold";
+					// falls through
 				case "MC":
 					m = m || "cold iron";
 					l = (m as string) || "cold_iron";
@@ -408,33 +416,43 @@ const parseLoot = (input: (string[]|ReactNode)[], id: string, treasure: boolean 
 				case "WIhh":
 					m = "handy haversack";
 					l = "handy_haversack";
+					// falls through
 				case "WImaul":
 					m = m || "maul of the titans";
 					l = l || "maul_of_the_titans";
+					// falls through
 				case "WIhbw2":
 					m = m || "headband of inspired wisdom +2";
 					l = l || "headband_of_inspired_wisdom_2";
+					// falls through
 				case "WIhbw4":
 					m = m || "headband of inspired wisdom +4";
 					l = l || "headband_of_inspired_wisdom_4";
+					// falls through
 				case "WIhbms2":
 					m = m || "headband of mental superiority +2";
 					l = l || "headband_of_mental_superiority_2";
+					// falls through
 				case "WIhbms6":
 					m = m || "headband of mental superiority +6";
 					l = l || "headband_of_mental_superiority_6";
+					// falls through
 				case "WIhbvi2":
 					m = m || "headband of vast intelligence +2";
 					l = l || "headband_of_vast_intelligence_2";
+					// falls through
 				case "WIhbvi4":
 					m = m || "headband of vast intelligence +4";
 					l = l || "headband_of_vast_intelligence_4";
+					// falls through
 				case "WIhbac2":
 					m = m || "headband of alluring charisma +2";
 					l = l || "headband_of_alluring_charisma_2";
+					// falls through
 				case "WIhbac4":
 					m = m || "headband of alluring charisma +4";
 					l = l || "headband_of_alluring_charisma_4";
+					// falls through
 				case "WIhbac6":
 					m = m || "headband of alluring charisma +6";
 					l = l || "headband_of_alluring_charisma_6";
@@ -442,6 +460,7 @@ const parseLoot = (input: (string[]|ReactNode)[], id: string, treasure: boolean 
 				case "PXmsv":
 					m = "medium spider venom";
 					l = "medium_spider_venom";
+					// falls through
 				case "PXdrow":
 					m = m || "drow poison";
 					l = l || "drow_poison";
@@ -449,102 +468,110 @@ const parseLoot = (input: (string[]|ReactNode)[], id: string, treasure: boolean 
 				case "Qat":
 					m = "antitoxin";
 					l = m;
+					// falls through
 				case "Qtts":
 					m = m || "tindertwigs";
 					l = l || "tindertwig";
+					// falls through
 				case "Qsss":
 					m = m || "smokesticks";
 					l = l || "smokestick";
+					// falls through
 				case "Qsks":
 					m = m || "sacks";
 					l = l || "sack";
+					// falls through
 				case "Qsrs":
 					m = m || "sunrods";
 					l = l || "sunrod";
+					// falls through
 				case "Qbp":
 					m = m || "backpack";
 					l = l || m;
+					// falls through
 				case "Qhk":
 					m = m || "healer's kit";
 					l = l || "healers_kit";
+					// falls through
 				case "Qmtt":
 					m = m || "mwk thieves' tools";
 					l = l || "thieves_tools_mwk";
+					// falls through
 				case "Qscp":
 					m = m || "spell component pouch";
 					l = l || "spell_component_pouch";
 					return makeLink("eq-misc", m as string, l);
 			}
-			const test = (m = bit.match(/^(.+)[/](.+)$/)) ? m[1] : bit;
+			const test = ((m = bit.match(/^(.+)[/](.+)$/))) ? m[1] : bit;
 			const end = m ? ` ${b1}${m[2]}${b2}` : "";
-			if(m = test.match(/^WD(.+)$/)) {
+			if((m = test.match(/^WD(.+)$/))) {
 				return <>wand of {makeLink("spell", m[1], convertTextToLink(m[1]))}{end}</>;
-			} else if (m = test.match(/^AF(.+)$/)) {
+			} else if ((m = test.match(/^AF(.+)$/))) {
 				return <>{makeLink("magic-artifact", m[1], convertTextToLink(m[1]))}{end}</>;
-			} else if (m = test.match(/^P(.+)$/)) {
+			} else if ((m = test.match(/^P(.+)$/))) {
 				return <>potion of {makeLink("spell", m[1], convertTextToLink(m[1]))}{end}</>;
-			} else if (m = test.match(/^S(.+)$/)) {
+			} else if ((m = test.match(/^S(.+)$/))) {
 				return <>scroll of {makeLink("spell", m[1], convertTextToLink(m[1]))}{end}</>;
-			} else if (m = test.match(/^O(.+)$/)) {
+			} else if ((m = test.match(/^O(.+)$/))) {
 				return <>oil of {makeLink("spell", m[1], convertTextToLink(m[1]))}{end}</>;
-			} else if (m = test.match(/^M-(.+)$/)) {
+			} else if ((m = test.match(/^M-(.+)$/))) {
 				return <>{makeLink("eq-material", m[1], convertTextToLink(m[1]))}{end}</>;
-			} else if (m = test.match(/^Q(.+)$/)) {
+			} else if ((m = test.match(/^Q(.+)$/))) {
 				return <>{makeLink("eq-misc", m[1], convertTextToLink(m[1]))}{end}</>;
-			} else if (m = test.match(/^PX-(.+)$/)) {
+			} else if ((m = test.match(/^PX-(.+)$/))) {
 				return <>{makeLink("eq-poison", m[1], convertTextToLink(m[1]))}{end}</>;
-			} else if (m = test.match(/^WI-(.+)$/)) {
+			} else if ((m = test.match(/^WI-(.+)$/))) {
 				return <>{makeLink("magic-wondrous", m[1], convertTextToLink(m[1]))}{end}</>;
-			} else if (m = test.match(/^STF(.+)$/)) {
+			} else if ((m = test.match(/^STF(.+)$/))) {
 				return <>{makeLink("magic-staff", m[1], convertTextToLink(m[1]))}{end}</>;
-			} else if (m = test.match(/^ROD(.+)$/)) {
+			} else if ((m = test.match(/^ROD(.+)$/))) {
 				return <>{makeLink("magic-rod", m[1], convertTextToLink(m[1]))}{end}</>;
-			} else if (m = test.match(/^BANE-(.+)$/)) {
+			} else if ((m = test.match(/^BANE-(.+)$/))) {
 				return <>{m[1]}-{makeLink("magic-enh", "bane")}{end}</>;
-			} else if (m = test.match(/^MWslay-(.+)$/)) {
+			} else if ((m = test.match(/^MWslay-(.+)$/))) {
 				return <>{m[1]}-{makeLink("magic-weapon", "slaying arrow", "slaying_arrow")}{end}</>;
-			} else if (m = test.match(/^MWgslay-(.+)$/)) {
+			} else if ((m = test.match(/^MWgslay-(.+)$/))) {
 				return <>{m[1]}-{makeLink("magic-weapon", "greater slaying arrow", "greater_slaying_arrow")}{end}</>;
-			} else if (m = test.match(/^Rfom([0-9]+)$/)) {
+			} else if ((m = test.match(/^Rfom([0-9]+)$/))) {
 				return <>{makeLink("magic-ring", "ring of freedom of movement", "ring_of_freedom_of_movement")}{end}</>;
-			} else if (m = test.match(/^IO(.+)$/)) {
+			} else if ((m = test.match(/^IO(.+)$/))) {
 				l = `${m[1]}`;
 				return <>{makeLink("magic-ioun", l, convertTextToLink(l))} ioun stone</>;
-			} else if (m = test.match(/^Rprot([0-9]+)$/)) {
+			} else if ((m = test.match(/^Rprot([0-9]+)$/))) {
 				l = `ring of protection +${m[1]}`;
 				return makeLink("magic-ring", l, convertTextToLink(l));
-			} else if (m = test.match(/^WIfist([0-9]+)$/)) {
+			} else if ((m = test.match(/^WIfist([0-9]+)$/))) {
 				l = `amulet of mighty fists +${m[1]}`;
 				return makeLink("magic-wondrous", l, convertTextToLink(l));
-			} else if (m = test.match(/^WIamu([0-9]+)$/)) {
+			} else if ((m = test.match(/^WIamu([0-9]+)$/))) {
 				l = `amulet of natural armor +${m[1]}`;
 				return makeLink("magic-wondrous", l, convertTextToLink(l));
-			} else if (m = test.match(/^WIboa([0-9]+)$/)) {
+			} else if ((m = test.match(/^WIboa([0-9]+)$/))) {
 				l = `bracers of armor +${m[1]}`;
 				return makeLink("magic-wondrous", l, convertTextToLink(l));
-			} else if (m = test.match(/^WIclk([0-9]+)$/)) {
+			} else if ((m = test.match(/^WIclk([0-9]+)$/))) {
 				l = `cloak of resistance +${m[1]}`;
 				return makeLink("magic-wondrous", l, convertTextToLink(l));
-			} else if (m = test.match(/^WIhbmp([0-9]+)([iwc])([iwc])$/)) {
+			} else if ((m = test.match(/^WIhbmp([0-9]+)([iwc])([iwc])$/))) {
 				const [, plus, s1, s2] = m;
 				const o: {[key: string]: string} = {i: "Int", w: "Wis", c: "Cha"};
 				l = `headband of mental prowess +${plus}`;
 				return <>{makeLink("magic-wondrous", l, convertTextToLink(l))} {b1}{o[s1]}, {o[s2]}{b2}{end}</>;
-			} else if (m = test.match(/^WIbopm([0-9]+)([sdc])([sdc])$/)) {
+			} else if ((m = test.match(/^WIbopm([0-9]+)([sdc])([sdc])$/))) {
 				const [, plus, s1, s2] = m;
 				const o: {[key: string]: string} = {s: "Str", d: "Dex", c: "Con"};
 				l = `belt of physical might +${plus}`;
 				return <>{makeLink("magic-wondrous", l, convertTextToLink(l))} {b1}{o[s1]}, {o[s2]}{b2}</>;
-			} else if (m = test.match(/^WIboid([0-9]+)$/)) {
+			} else if ((m = test.match(/^WIboid([0-9]+)$/))) {
 				l = `belt of incredible dexterity +${m[1]}`;
 				return <>{makeLink("magic-wondrous", l, convertTextToLink(l))}</>;
-			} else if (m = test.match(/^WIbomc([0-9]+)$/)) {
+			} else if ((m = test.match(/^WIbomc([0-9]+)$/))) {
 				l = `belt of mighty constitution +${m[1]}`;
 				return <>{makeLink("magic-wondrous", l, convertTextToLink(l))}</>;
-			} else if (m = test.match(/^WIbogs([0-9]+)$/)) {
+			} else if ((m = test.match(/^WIbogs([0-9]+)$/))) {
 				l = `belt of giant strength +${m[1]}`;
 				return <>{makeLink("magic-wondrous", l, convertTextToLink(l))}</>;
-			} else if (m = test.match(/^WIbopp([0-9]+)$/)) {
+			} else if ((m = test.match(/^WIbopp([0-9]+)$/))) {
 				l = `belt of physical perfection +${m[1]}`;
 				return <>{makeLink("magic-wondrous", l, convertTextToLink(l))}</>;
 			} else if (test.startsWith("WI-")) {

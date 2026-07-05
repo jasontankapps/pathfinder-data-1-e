@@ -30,11 +30,12 @@ const setProp = <T extends Element>(el: T | null = null): Setter<T> => {
 //   ElementSetter is a function that can be used to modify the referenced Element
 export const useElement = <T extends Element>(extraFunc?: (node: T | null) => void): [T | null, ElementRef<T>, Setter<T>] => {
 	const [el, setEl] = useState<T | null>(null);
-	const [func, setFunc] = useState<Setter<T>>(setProp());
+	const func = useCallback<Setter<T>>((prop, value) => {
+		setProp(el)(prop, value);
+	}, [el]);
 	const ref: ElementRef<T> = useCallback((node: T | null) => {
 		if(node && node !== el) {
 			setEl(node);
-			setFunc(setProp(node));
 			extraFunc && extraFunc(node);
 		}
 	}, [el, extraFunc]);

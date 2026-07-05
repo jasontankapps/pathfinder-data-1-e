@@ -101,7 +101,7 @@ export const AffInfo: FC<PropsWithChildren<AffInfoProps>> = (props) => {
 	const rows = 2
 		+ (children ? 1 : 0)
 		+ (freq ? (
-			1 + ((onset || track) ? 1 : 0) + (track ? 1 : 0) + (track2 ? 1 : 0)
+			2 + (track ? 1 : 0) + (track2 ? 1 : 0)
 		) : 0)
 		+ (eff ? 1 : 0)
 		+ ((eff1 && eff2) ? 2 : 0)
@@ -122,9 +122,7 @@ export const AffInfo: FC<PropsWithChildren<AffInfoProps>> = (props) => {
 				<tr>{children ? "" : iconLine}<th scope="row">Type</th><td colSpan={3}>{supertype}</td></tr>
 				<tr><th scope="row">Save DC</th><td colSpan={3}>{save}</td></tr>
 				{freq ? (<>
-					{(onset || track) ? (
-						<tr><th scope="row">Onset</th><td colSpan={3}>{onset || "immediate"}</td></tr>
-					) : ""}
+					<tr><th scope="row">Onset</th><td colSpan={3}>{onset || "immediate"}</td></tr>
 					<tr><th scope="row">Frequency</th><td colSpan={3}>{freq}</td></tr>
 					{track ? (
 						<tr><th scope="row">Track</th><td colSpan={3}>{track}</td></tr>

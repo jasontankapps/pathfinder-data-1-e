@@ -59,22 +59,22 @@ export const checkForEncodedLink = (input: string, options: Options = {}): false
 	}
 	let matched = matchedx, linkpre = "", linkpost = "", textpre = "", textpost = "";
 	// pre_>link
-	if(m = matched.match(/(^[^<]*?)>(.*$)/)) {
+	if((m = matched.match(/(^[^<]*?)>(.*$)/))) {
 		matched = m[2];
 		linkpre = m[1];
 	}
 	// post<_link
-	if(m = matched.match(/(^.*)<([^>]*$)/)) {
+	if((m = matched.match(/(^.*)<([^>]*$)/))) {
 		matched = m[1];
 		linkpost = m[2];
 	}
 	// pre»text
-	if(m = matched.match(/(^[^«]*?)»(.*$)/)) {
+	if((m = matched.match(/(^[^«]*?)»(.*$)/))) {
 		matched = m[2];
 		textpre = m[1];
 	}
 	// post«text
-	if(m = matched.match(/(^.*?)«([^»]*$)/)) {
+	if((m = matched.match(/(^.*?)«([^»]*$)/))) {
 		matched = m[1];
 		textpost = m[2];
 	}
@@ -82,7 +82,7 @@ export const checkForEncodedLink = (input: string, options: Options = {}): false
 	let temp = matched;
 	let linkmatched = "";
 	matched = "";
-	while(m = temp.match(/^(.*?)(?:«(.*?)»|<(.*?)>)(.*)$/)) {
+	while((m = temp.match(/^(.*?)(?:«(.*?)»|<(.*?)>)(.*)$/))) {
 		const [, pre, extraText, extraLink, post] = m;
 		matched += pre + (extraText || "");
 		linkmatched += pre + (extraLink || "");
@@ -131,14 +131,15 @@ export const checkForEncodedLink = (input: string, options: Options = {}): false
 // The advanced forms can be used together.
 //   ‹rule/special_>Pre »Link/Text« Stuff<_info› => [Pre Link/Text Stuff](rule/special_link_text_info)
 
-const convertLinks = (input: string[]): string => {
+const convertLinks = (input: string[] | string): string => {
 	// Converts ‹some/Link: Text/s› into [Link: Texts](some/link_text)
-	let output: string[] = [];
+	const output: string[] = [];
 	let m: false | EncodedLinkOutput = false;
-	input.forEach(line => {
+	const tester = typeof input === "string" ? [input] : input;
+	tester.forEach(line => {
 		let converted = "";
 		let base = line;
-		while(m = checkForEncodedLink(base)) {
+		while((m = checkForEncodedLink(base))) {
 			const {pre, link, text, post} = m;
 			converted += `${pre}[${text}](${link})`;
 			base = post;

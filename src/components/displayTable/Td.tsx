@@ -4,6 +4,7 @@ import {
 } from 'react';
 import Markdown from 'react-markdown';
 import { ColumnDataType, LinkFormat } from '../../types';
+import convertLinks from '../convertLinks';
 import components from './Components';
 
 interface TdProps {
@@ -13,7 +14,7 @@ interface TdProps {
 }
 
 const Td: FC<PropsWithChildren<TdProps>> = ({ datum, align }) => {
-	const text = Array.isArray(datum) ? `[${datum[0]}](/${datum[2]}/${datum[1]})` : String(datum);
+	const text = Array.isArray(datum) ? `[${datum[0]}](/${datum[2]}/${datum[1]})` : convertLinks(String(datum));
 	return (
 		<div className={"cell" + (align === "end" ? " ion-text-end" : (align === "start" ? " ion-text-start" : ""))}>
 			<Markdown components={components}>{text}</Markdown>

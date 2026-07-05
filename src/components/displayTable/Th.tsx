@@ -47,7 +47,7 @@ const Th: FC<ThProps> = ({index, sorter, sortState = true, children, active, sor
 		sorter(index, newDescending);
 		setUseNormalSort(newDescending);
 	}, [index, sorter, useNormalSort, active]);
-	const markdown = useMemo(() => convertLinks([children]), [children]);
+	const markdown = useMemo(() => convertLinks(children), [children]);
 	if(sortable) {
 		return (
 			<div className="cell cell-header ion-activatable sortable" onClick={onClick} style={getStyle(size)}>
