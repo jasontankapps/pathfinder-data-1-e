@@ -3336,9 +3336,9 @@
 					{ "col": 1, "equals": [ "Normal", "Flawed", "Cracked" ] }
 				],
 				"data": [
-					[ [ "Dull Gray", "dull_gray" ], "Normal", null, 25 ],
-					[ [ "Dull Gray", "dull_gray" ], "Flawed", null, 25 ],
-					[ [ "Dull Gray", "dull_gray" ], "Cracked", null, 25 ],
+					[ [ "Dull Gray", "dull_gray_stone" ], "Normal", null, 25 ],
+					[ [ "Dull Gray", "dull_gray_stone" ], "Flawed", null, 25 ],
+					[ [ "Dull Gray", "dull_gray_stone" ], "Cracked", null, 25 ],
 					[ [ "Amethyst Pyramid", "amethyst_pyramid" ], "Cracked", "+2 Knowledge (religion) to identify undead", 150 ],
 					[ [ "Gold Nodule", "gold_nodule" ], "Cracked", "+1 competence bonus to Linguistics checks", 150 ],
 					[ [ "Deep Red Sphere", "deep_red_sphere" ], "Cracked", "+1 competence bonus on one Dexterity-based skill", 200 ],

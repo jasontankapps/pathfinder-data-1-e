@@ -4,6 +4,7 @@ import { useLocation } from 'wouter';
 import { LinkFormat } from '../../types';
 import { useAppDispatch } from '../../store/hooks';
 import { goTo } from '../../store/historySlice';
+//import getLink from '../getLink';
 
 interface TdRouterLinkProps {
 	datum: LinkFormat
@@ -15,6 +16,7 @@ const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum, align }
 	const dispatch = useAppDispatch();
 	const [ text, property, link ] = datum;
 	const to = `/${link}/${property}`;
+//	const to = getLink(`${link}/${property}`);
 	return (
 		<div className={
 			"cell ion-activatable cell-link" + (

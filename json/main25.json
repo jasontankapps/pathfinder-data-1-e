@@ -182,7 +182,7 @@
 					[ [ "Cernunnos", "cernunnos" ], "Empyreal Lords", { "sort": 6, "data": "CG" }, "Fertility, seasons, wild animals", "Longbow", "Animal, Chaos, Good, Plant", "Azata, Feather, Fur, Growth", "" ],
 					[ [ "Ceyannan", "ceyannan" ], "Psychopomp Usher", { "sort": 4, "data": "N" }, "Final words, lost souls, and searches", "Quarterstaff", "Community, Repose, Protection, Strength", "N/A", "" ],
 					[ [ "Chadali", "chadali" ], "Empyreal Lords", { "sort": 6, "data": "CG" }, "Fate, safety, serendipity", "Net", "Chaos, Good, Luck, Protection", "Azata, Defense, Fate, Purity", "" ],
-					[ [ "Chaldira", "chaldira" ], "Halfling Deities", { "sort": 3, "data": "NG" }, "Battle, luck, mischief", "Short sword", "Good, Luck, Trickery, War", "Agathion, Fate, Friendship, Tactics", "" ],
+					[ [ "Chaldira", "chaldira_zuzaristan" ], "Halfling Deities", { "sort": 3, "data": "NG" }, "Battle, luck, mischief", "Short sword", "Good, Luck, Trickery, War", "Agathion, Fate, Friendship, Tactics", "" ],
 					[ [ "Chamiaholom", "chamiaholom" ], "Sahkil Tormentors", { "sort": 8, "data": "CE" }, "Domination, hopelessness, mortality", "Quarterstaff", "Death, Evil, Magic, Repose", "Fear, Murder, Sahkil, Souls, Undead", "" ],
 					[ [ "Charg", "charg" ], "Sahkil Tormentors", { "sort": 8, "data": "CE" }, "Catastrophic decline, detrimental complacency, monsters", "Falchion", "Destruction, Evil, Madness, Strength", "Catastrophe, Fear, Ferocity, Nightmare, Sahkil", "" ],
 					[ [ "Charon", "charon" ], "Horsemen", { "sort": 5, "data": "NE" }, "Death", "Quarterstaff", "Death, Evil, Knowledge, Water", "Daemon, Ice, Memory, Undead", "" ],
