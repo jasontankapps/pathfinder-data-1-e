@@ -142,12 +142,14 @@ const checkForBadTables = (tables, objectDescription) => {
 							if(
 								bit !== null
 								&& typeof bit !== correspondingType[k]
-								&& (
-									!Array.isArray(bit)
-									|| bit.length !== 2
-									|| typeof bit[1] !== "string"
-									|| typeof bit[0] !== correspondingType[k]
-								)
+								&& (Array.isArray(bit) ? (
+									(bit.length > 3 || bit.length < 1 || bit.some(str => typeof str !== "string"))
+								) : (
+									typeof bit !== "object"
+									|| bit.sort === undefined
+									|| typeof bit.sort !== correspondingType[k]
+									|| (bit.data !== undefined && (typeof bit.data !== "string"))
+								))
 							) {
 								found = `Type mismatch at ${tableDesc}.data[${j}][${k}] (expecting ${correspondingType[k]})-> ${line}`;
 								return true;
@@ -165,7 +167,11 @@ const checkForBadTables = (tables, objectDescription) => {
 					filter && (
 						checkExact.some(equals => {
 							const [fi, col, ...etc] = equals;
-							const targets = data.map(d => Array.isArray(d[col]) ? d[col][0] : d[col]);
+							const targets = data.map(
+								d => Array.isArray(d[col]) ? d[col][0] : (
+									typeof d[col] === "object" ? (d[col] || {}).sort : d[col]
+								)
+							);
 							const missing = [];
 							etc.forEach(e => {
 								if(targets.every(t => t !== e)) {
@@ -180,7 +186,11 @@ const checkForBadTables = (tables, objectDescription) => {
 						})
 						|| checkHas.some(has => {
 							const [fi, col, regex, ...etc] = has;
-							const targets = data.map(d => Array.isArray(d[col]) ? d[col][0] : d[col]);
+							const targets = data.map(
+								d => Array.isArray(d[col]) ? d[col][0] : (
+									typeof d[col] === "object" ? (d[col] || {}).sort : d[col]
+								)
+							);
 							const missing = [];
 							etc.forEach(e => {
 								if(targets.every(t => {

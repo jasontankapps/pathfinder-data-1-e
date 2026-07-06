@@ -1617,7 +1617,7 @@ const _knowledge_arcana = {hasJL:true,title: "Knowledge (arcana)", jsx: <><div c
 </tr>
 </thead>
 <tbody><tr>
-<td>Identify auras while using detect magic</td>
+<td>Identify auras while using <Link to="/spell/detect_magic">detect magic</Link></td>
 <td>15 + spell level</td>
 </tr>
 <tr>

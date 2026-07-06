@@ -223,7 +223,7 @@ const Menu: React.FC = () => {
 		]));
 
 	return (
-		<IonMenu contentId="main" type="overlay">
+		<IonMenu contentId="main" type="overlay" swipeGesture={false}>
 			<IonContent>
 				<IonList id="menu-list">
 					<IonListHeader>Pf Data 1e</IonListHeader>

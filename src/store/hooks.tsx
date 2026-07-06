@@ -12,15 +12,6 @@ type ElementRef<T extends Element> = (node: T | null) => void;
 
 type Setter<T extends Element> = (x: keyof T, y: any) => void;
 
-const setProp = <T extends Element>(el: T | null = null): Setter<T> => {
-	if(el === null) {
-		return () => {};
-	}
-	return (prop: keyof T, value: any) => {
-		el[prop] = value;
-	}
-};
-
 // Must define T as an Element when using the hook
 // Takes optional argument extraFunc (T | null) => void
 //   The extraFunc function will be called whenever the reference is set or changes 
@@ -31,7 +22,15 @@ const setProp = <T extends Element>(el: T | null = null): Setter<T> => {
 export const useElement = <T extends Element>(extraFunc?: (node: T | null) => void): [T | null, ElementRef<T>, Setter<T>] => {
 	const [el, setEl] = useState<T | null>(null);
 	const func = useCallback<Setter<T>>((prop, value) => {
-		setProp(el)(prop, value);
+		if(el !== null) {
+			try {
+				el[prop] = value;
+			}
+			catch(e) {
+				console.log("cannot set [", prop, "] to [", value, "]");
+				console.log(el);
+			}
+		}
 	}, [el]);
 	const ref: ElementRef<T> = useCallback((node: T | null) => {
 		if(node && node !== el) {
