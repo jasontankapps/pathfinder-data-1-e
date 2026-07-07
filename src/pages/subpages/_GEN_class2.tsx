@@ -855,8 +855,8 @@ const _hunter = {hasJL:true,title: "Hunter", jsx: <><div className="jumpList" id
 <Pair single id="chaotic-evil-good-and-lawful-spells">Chaotic, Evil, Good, and Lawful Spells</Pair>
 <Pair title="Passive Ability">You can't cast spells of an alignment opposed to your own or your deity's (if you have one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.</Pair>
 </Ability>
-<Ability id="class-hunter-animal-companion-ex" icon={["stairs-goal"]}>
-<Pair single id="class-hunter-animal-companion-ex">Animal Companion (Ex)</Pair>
+<Ability id="animal-companion-ex" icon={["stairs-goal"]}>
+<Pair single id="animal-companion-ex">Animal Companion (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You form a bond with an <Link to="/sidekick/animal_companion">animal companion</Link>. You may begin play with <Link to="/ability/druid_companions">any of the animals available to a druid</Link>. This animal is a loyal companion that accompanies you on your adventures. This ability functions like the druid <em>animal companion</em> ability. Your effective druid level is equal to your hunter level. If you receive an animal companion from more than one source, your effective druid levels stack for the purposes of determining the companion's statistics and abilities.</p>
 <p>If you release your companion from service or your animal companion perishes, you may gain a new one by performing a ceremony requiring 24 uninterrupted hours of prayer in the environment where the new companion typically lives. While your animal companion is dead, any animal you summon with a <em>summon nature's ally</em> spell remains for 1 minute per level instead of 1 round per level. You cannot have more than one <em>summon nature's ally</em> spell active in this way at one time. If this ability is used again, any existing <em>summon nature's ally</em> immediately ends.</p>
@@ -869,8 +869,8 @@ const _hunter = {hasJL:true,title: "Hunter", jsx: <><div className="jumpList" id
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You count your total hunter level as both druid levels and ranger levels for the purpose of qualifying for feats, traits, and options that modify or improve an animal companion.</Pair>
 </Ability>
-<Ability id="class-hunter-animal-focus-su" icon={["upgrade"]}>
-<Pair single id="class-hunter-animal-focus-su">Animal Focus (Su)</Pair>
+<Ability id="animal-focus-su" icon={["upgrade"]}>
+<Pair single id="animal-focus-su">Animal Focus (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">1 minute/day per hunter level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
 <Pair title="Swift Action"><p>You can take on the <Link to="/ability/animal_foci">aspect of an animal</Link>. You must select one type of animal to emulate, gaining a bonus or special ability based on the type of animal emulated and your hunter level. You can emulate only one animal at a time.</p>
@@ -1541,8 +1541,8 @@ const _inquisitor = {hasJL:true,title: "Inquisitor", jsx: <><div className="jump
 <Pair single id="chaotic-evil-good-and-lawful-spells">Chaotic, Evil, Good, and Lawful Spells</Pair>
 <Pair title="Passive Ability">You can't cast spells of an alignment opposed to your own or your deity's (if you have one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.</Pair>
 </Ability>
-<Ability id="class-inquisitor-domain" icon={["stairs-goal"]}>
-<Pair single id="class-inquisitor-domain">Domain</Pair>
+<Ability id="domain" icon={["stairs-goal"]}>
+<Pair single id="domain">Domain</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You can select <Link to="/ability/domains">one domain</Link> from among those belonging to your deity, or <Link to="/ability/inquisitions">an inquisition</Link>. You can select an alignment domain only if your alignment matches that domain.</p>
 <p>Like a cleric's deity, your deity influences your alignment, what magic you can perform, and your values. Although not as tied to the tenets of the deity as a cleric, you must still hold such guidelines in high regard, despite that fact you can go against them if it serves the greater good of the faith.</p>
@@ -1550,8 +1550,8 @@ const _inquisitor = {hasJL:true,title: "Inquisitor", jsx: <><div className="jump
 </Pair>
 <Pair title="Special">With the GM's approval, you can be devoted to an ideal instead of a deity, selecting one domain to represent your personal inclination and abilities. The restriction on alignment domains still applies.</Pair>
 </Ability>
-<Ability id="class-inquisitor-judgment-su" icon={["stairs-goal"]}>
-<Pair single id="class-inquisitor-judgment-su" flavor={<>You can pronounce <Link to="/ability/judgments">judgment</Link> upon your foes.</>}>Judgment (Su)</Pair>
+<Ability id="judgment-su" icon={["stairs-goal"]}>
+<Pair single id="judgment-su" flavor={<>You can pronounce <Link to="/ability/judgments">judgment</Link> upon your foes.</>}>Judgment (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">Once a day.</Pair>
 <Pair title="Swift Action"><p>Starting when the judgment is made, you receive a bonus or special ability based on the type of judgment made.</p>
@@ -2025,8 +2025,8 @@ const _investigator = {hasJL:true,title: "Investigator", jsx: <><div className="
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={4}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td><Link to="/eq-weapon/hand_crossbow">hand crossbow</Link></td><td><Link to="/eq-weapon/rapier">rapier</Link></td></tr><tr><td><Link to="/eq-weapon/sap">sap</Link></td><td><Link to="/eq-weapon/shortbow">shortbow</Link></td></tr><tr><td><Link to="/eq-weapon/short_sword">short sword</Link></td><td><Link to="/eq-weapon/sword_cane">sword cane</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light armor</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">No</td></tr></tbody></table>
-<Ability id="class-investigator-alchemy-su" icon={["upgrade","magic-swirl"]}>
-<Pair single id="class-investigator-alchemy-su">Alchemy (Su)</Pair>
+<Ability id="alchemy-su" icon={["upgrade","magic-swirl"]}>
+<Pair single id="alchemy-su">Alchemy (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">When using Craft (alchemy) to create an alchemical item, you gain a competence bonus equal to your class level on the Craft (alchemy) check. In addition, you can use Craft (alchemy) to identify potions as if using <Link to="/spell/detect_magic">detect magic</Link>. You must hold the potion for 1 round to make such a check.</Pair>
 <Pair title="Extracts"><p>You can prepare an extract of any formula you know. To learn or use an extract, you must have an Intelligence score equal to at least 10 + the extract's level. The DC for a saving throw against your extract is 10 + the extract level + the your Intelligence modifier.</p>
@@ -2096,8 +2096,8 @@ const _investigator = {hasJL:true,title: "Investigator", jsx: <><div className="
 <Pair title="Move-Equivalent Action">You can study a single enemy that you can see. You add 1/2 your investigator level as an insight bonus on melee attack rolls and as a bonus on damage rolls against the creature.</Pair>
 <Pair title="Special">The bonus on damage rolls is <Link to="/misc/precision_damage">precision damage</Link>, and is not multiplied on a critical hit. You can only have one target of studied combat at a time, and once a creature has become a target of this, it cannot become the target of your <em>studied combat</em> again for 24 hours unless you expend one use of inspiration when using this ability.</Pair>
 </Ability>
-<Ability id="class-investigator-studied-strike-ex" icon={["mailed-fist"]}>
-<Pair single id="class-investigator-studied-strike-ex">Studied Strike (Ex)</Pair>
+<Ability id="studied-strike-ex" icon={["mailed-fist"]}>
+<Pair single id="studied-strike-ex">Studied Strike (Ex)</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Free Action"><p>Upon successfully hitting your <em>studied target</em> with a melee attack, you deal 1d6 additional damage. This is <Link to="/misc/precision_damage">precision damage</Link>, and is not multiplied on a critical hit; creatures that are immune to sneak attacks are also immune to <em>studied strike.</em></p>
 <p>If your attack used a weapon that deals nonlethal damage (like a <Link to="/eq-weapon/sap">sap</Link>, <Link to="/eq-weapon/whip">whip</Link>, or an unarmed strike), you may choose to have the additional damage from studied strike be nonlethal damage instead of lethal damage. If you chose to make an attack with a lethal weapon instead deal nonlethal damage (with the usual -4 penalty), the studied strike damage may also deal nonlethal damage.</p>
@@ -2361,8 +2361,8 @@ const _kineticist = {hasJL:true,title: "Kineticist", jsx: <><div className="jump
 <Pair title="Passive Ability">You choose one primary <Link to="/ability/elements">element</Link> on which to focus. This element determines how you access the raw power of the Ethereal Plane, and grants you access to specific wild talents and additional class skills.</Pair>
 <Pair title="Ability">You gain your selected element's basic utility wild talent as a bonus wild talent.</Pair>
 </Ability>
-<Ability id="class-kineticist-wild-talents" icon={["stairs-goal"]}>
-<Pair single id="class-kineticist-wild-talents">Wild Talents</Pair>
+<Ability id="wild-talents" icon={["stairs-goal"]}>
+<Pair single id="wild-talents">Wild Talents</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You can use wild talents - magical abilities similar to spells but drawn from your innate psychic talent and usable at will. Wild talents are typically spell-like abilities (though some are supernatural abilities), and take a <strong className="hl">standard action</strong> to use unless otherwise noted.</p>
 <p>A wild talent always has the elemental descriptor or descriptors (aether, air, earth, fire, or water) matching its Element entry. A wild talent that can be used with any of several elements gains the appropriate elemental descriptor when used with an element. For example, the <Link to="/kinetic/wall">wall</Link> wild talent gains the earth descriptor when used by a geokineticist (a kineticist that focuses on the element of earth).</p>
@@ -2372,8 +2372,8 @@ const _kineticist = {hasJL:true,title: "Kineticist", jsx: <><div className="jump
 </Pair>
 <Pair title="Special">Unless otherwise noted, the DC for a saving throw against a wild talent is equal to 10 + the wild talent's effective spell level + your Constitution modifier. You use your Constitution modifier on all <Link to="/rule/concentration">concentration</Link> checks for wild talents.</Pair>
 </Ability>
-<Ability id="class-kineticist-burn-ex" icon={["stairs-goal"]}>
-<Pair single id="class-kineticist-burn-ex">Burn (Ex)</Pair>
+<Ability id="burn-ex" icon={["stairs-goal"]}>
+<Pair single id="burn-ex">Burn (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You can overexert yourself to channel more power than normal, pushing past the limit of what is safe for your body by accepting <em>burn</em>. Some of your wild talents allow you to accept burn in exchange for a greater effect, while others require you to accept a certain amount of burn to use that talent at all.</p>
 <p>For each point of burn you accept, you take 1 point of nonlethal damage per character level. This damage can't be healed by any means other than getting a full night's rest, which removes all burn and associated nonlethal damage. Nonlethal damage from burn can't be reduced or redirected, and a kineticist incapable of taking nonlethal damage can't accept burn. A kineticist who has accepted burn never benefits from abilities that allow her to ignore or alter the effects she receives from nonlethal damage.</p>
@@ -2381,8 +2381,8 @@ const _kineticist = {hasJL:true,title: "Kineticist", jsx: <><div className="jump
 <Pair title="Usage">You can accept a number of points of burn per round equal to <Link to="/misc/one_third">one-third</Link> of your kineticist level.</Pair>
 <Pair title="Special">You can't choose to accept burn if it would raise your total points of burn higher than 3 + your Constitution modifier (though you can be forced to accept more burn from a source outside your control).</Pair>
 </Ability>
-<Ability id="class-kineticist-kinetic-blast-sp" icon={["stairs-goal"]}>
-<Pair single id="class-kineticist-kinetic-blast-sp">Kinetic Blast (Sp)</Pair>
+<Ability id="kinetic-blast-sp" icon={["stairs-goal"]}>
+<Pair single id="kinetic-blast-sp">Kinetic Blast (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain a <Link to="/ability/simple_kinetic_blasts">kinetic blast wild talent</Link> of your choice. This kinetic blast must be a simple blast that matches your element.</Pair>
 <Pair title="Standard Action">You can unleash a kinetic blast at a single target up to a range of 30 feet. You must have at least one hand free to aim the blast (or one prehensile appendage, if you lack hands).</Pair>
@@ -2401,8 +2401,8 @@ const _kineticist = {hasJL:true,title: "Kineticist", jsx: <><div className="jump
 <Pair title="Full-Round Action">Gathering power in this way reduces the total burn cost of a blast wild talent used on your next turn by 2 points (to a minimum of 0 points). If you do so, you can also gather power as a <strong className="hl">move action</strong> during your next turn to reduce the burn cost by a total of 3 points.</Pair>
 <Pair title="Special">This ability can never reduce the burn cost of a wild talent below 0 points. If you take damage during or after gathering power and before using the kinetic blast that releases it, you must succeed at a <Link to="/rule/concentration">concentration</Link> check (DC = 10 + damage taken + effective spell level of your kinetic blast) or lose the energy in a wild surge that forces you to accept a number of points of burn equal to the number of points by which your gathered power would have reduced the burn cost.</Pair>
 </Ability>
-<Ability id="class-kineticist-infusion-su" icon={["stairs-goal"]}>
-<Pair single id="class-kineticist-infusion-su">Infusion (Su)</Pair>
+<Ability id="infusion-su" icon={["stairs-goal"]}>
+<Pair single id="infusion-su">Infusion (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You gain an <Link to="/ability/infusion_wild_talents">infusion wild talent</Link> from the list of options available based on your elemental focus.</p>
 <p>By using infusions along with your kinetic blasts, you can alter your kinetic blasts to suit your needs. Infusions come in two types, each of which changes a kinetic blast differently: a <strong className="hl">substance</strong> infusion causes an additional effect, while a <strong className="hl">form</strong> infusion causes the kinetic blast to manifest in a different way. Each infusion can alter only certain kinds of kinetic blasts, which are listed in its Associated Blasts entry.</p>

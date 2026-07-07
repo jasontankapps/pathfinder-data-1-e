@@ -545,8 +545,8 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You gain <Link to="/feat/scribe_scroll">Scribe Scroll</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="class-skald-raging-song-su" extraClasses="hasSubs" icon={["stairs-goal","aura"]}>
-<Pair single id="class-skald-raging-song-su" flavor="A skald is trained to use music, oration, and similar performances to inspire his allies to feats of strength and ferocity.">Raging Song (Su)</Pair>
+<Ability id="raging-song-su" extraClasses="hasSubs" icon={["stairs-goal","aura"]}>
+<Pair single id="raging-song-su" flavor="A skald is trained to use music, oration, and similar performances to inspire his allies to feats of strength and ferocity.">Raging Song (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">1 + twice your skald level + your Cha modifier rounds/day.</Pair>
 <Pair title="Standard Action"><p>Each round, you can produce any one of the types of raging song that you have mastered, as indicated by your level.</p>
@@ -557,8 +557,8 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="At 7th Level">You can begin a raging song as a <strong className="hl">move-equivalent action</strong>.</Pair>
 <Pair title="At 13th Level">You can begin a raging song as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="class-skald-inspired-rage-su" extraClasses="subAbility" icon={["upgrade","broken-shield","aura"]}>
-<Pair single id="class-skald-inspired-rage-su">Inspired Rage (Su)</Pair>
+<Ability id="inspired-rage-su" extraClasses="subAbility" icon={["upgrade","broken-shield","aura"]}>
+<Pair single id="inspired-rage-su">Inspired Rage (Su)</Pair>
 <Pair title="At 1st Level"><p>Affected allies gain a +2 morale bonus to Strength and Constitution and a +1 morale bonus on Will saving throws, but also take a -1 penalty to AC. The bonuses increase as you gain levels.</p>
 <p>While under the effects of <em>inspired rage,</em> allies other than you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration. (Unlike the barbarian's <em>rage</em> ability, those affected are not fatigued after the song ends.)</p>
 <p>If an ally has her own rage class ability (such as barbarian's <em>rage,</em> bloodrager's <em>bloodrage,</em> or skald's <em>inspired rage</em>), she may use the Strength, Constitution, and Will saving throw bonuses, as well as AC penalties, based on her own ability and level instead of those from you (still suffering no fatigue afterward). However, <em>inspired rage</em> does not allow the ally to activate abilities dependent on other <em>rage</em> class abilities, such as <em>rage powers, blood casting,</em> or <em>bloodrager bloodlines;</em> the ally must activate her own <em>rage</em> class ability in order to use these features.</p>
@@ -586,8 +586,8 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="At 14th Level">You can temporarily revive dead allies to continue fighting, with the same limitations as <Link to="/spell/raise_dead">raise dead</Link>. You select a dead ally within 60 feet and expend 1 round of <em>raging song</em> to bring that ally back to life. The revived ally is alive but <Link to="/misc/staggered">staggered</Link>. Each round, you may expend another 1 round of <em>raging song</em> to keep that ally alive for another round. The ally automatically dies if you end this performance or are interrupted. You may revive multiple allies with this ability (either at the same time or over successive rounds) but must expend 1 round of <em>raging song</em> per revived ally per round to maintain the effect.</Pair>
 </Ability>
 <aside><p>A skald may learn <Link to="/ability/bardic_masterpieces">bardic masterpieces</Link> and <Link to="/ability/sagas">sagas</Link>.</p>
-</aside><Ability id="class-skald-versatile-performance-ex" icon={["upgrade"]}>
-<Pair single id="class-skald-versatile-performance-ex">Versatile Performance (Ex)</Pair>
+</aside><Ability id="versatile-performance-ex" icon={["upgrade"]}>
+<Pair single id="versatile-performance-ex">Versatile Performance (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability"><p>You choose one type of Perform skill associated with the skald class. You can use your bonus in that skill in place of your bonus in the associated skills listed below. When substituting in this way, you skald use your total Perform skill bonus, including class skill bonus, in place of the associated skill's bonus, whether or not you have ranks in that skill or if it is a class skill.</p>
 <p>The types of Perform and their associated skills are:</p>
@@ -608,8 +608,8 @@ const _skald = {hasJL:true,title: "Skald", jsx: <><div className="jumpList" id="
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You gain a +4 bonus on saving throws made against bardic performance, as well as all sonic or language-dependent effects.</Pair>
 </Ability>
-<Ability id="class-skald-rage-powers-ex" icon={["stairs-goal"]}>
-<Pair single id="class-skald-rage-powers-ex">Rage Powers (Ex)</Pair>
+<Ability id="rage-powers-ex" icon={["stairs-goal"]}>
+<Pair single id="rage-powers-ex">Rage Powers (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">You learn a <Link to="/ability/rage_powers">rage power</Link> that affects you and any allies under the influence of your <em>inspired rage.</em></Pair>
 <Pair title="Info"><p>When starting an <em>inspired rage,</em> you choose which rage powers (if any) to add to the song, and all affected allies gain the benefit of these rage powers, using your level as their effective barbarian level. You use your skald level as your barbarian level for the purpose of selecting rage powers that require a minimum barbarian level. If the rage power's effects depend on your ability modifier (such as <Link to="/ragepower/lesser_spirit_totem">lesser spirit totem</Link>), affected allies use your ability modifier instead of their own for the purposes of this effect.</p>
@@ -2236,8 +2236,8 @@ const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of knacks, or 0-level psychic spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Knacks cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
-<Ability id="class-spiritualist-phantom" icon={["stairs-goal"]}>
-<Pair single id="class-spiritualist-phantom">Phantom</Pair>
+<Ability id="phantom" icon={["stairs-goal"]}>
+<Pair single id="phantom">Phantom</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You begin play with the aid of a powerful and versatile spirit entity called a <Link to="/sidekick/phantom">phantom</Link>. The phantom forms a link with you; forever after, you can either harbor the creature within your consciousness or manifest it as an ectoplasmic or incorporeal entity. A phantom has the same alignment as you, and it can speak all the languages you can.</p>
 <p>Each phantom has an <Link to="/ability/emotional_focus">emotional focus</Link> - a powerful emotion based on some experience in life that keeps it tethered to the Material and Ethereal planes. This emotional focus also grants the phantom abilities that it can use while manifested. The type of each ability and its power are determined by your level.</p>
@@ -2259,8 +2259,8 @@ const _spiritualist = {hasJL:true,title: "Spiritualist", jsx: <><div className="
 <Pair title="At 12th Level">The bonus on saving throws becomes +8.</Pair>
 <Pair title="Special">When a mind-affecting effect is shunted into the phantom's consciousness, spells such as <em>dispel magic</em> and <Link to="/spell/break_enchantment">break enchantment</Link> can be cast on you to end the effect's duration as if you were affected by the mind-affecting effect.</Pair>
 </Ability>
-<Ability id="class-spiritualist-etheric-tether-su" icon={["stairs-goal"]}>
-<Pair single id="class-spiritualist-etheric-tether-su">Etheric Tether (Su)</Pair>
+<Ability id="etheric-tether-su" icon={["stairs-goal"]}>
+<Pair single id="etheric-tether-su">Etheric Tether (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You can force the phantom to manifest in an area around you by pushing the phantom's consciousness though the veil of ethereal essence, allowing it to fully manifest in either ectoplasmic or incorporeal form.</p>
 <p>This tether is limited. When the phantom is fully manifested, you and it must remain within 50 feet of one another for the phantom's manifestation to stay stable with little to no concentration on your part. You can stretch the limited tether, but only when the phantom is in ectoplasmic form. When you start your turn and your ectoplasmic phantom is more than 50 feet away from you (but closer than 100 feet), you must concentrate on the link as a <strong className="hl">full-round action</strong> that <strong className="hl">provokes attacks of opportunity</strong> or the ectoplasmic phantom immediately returns to the Ethereal Plane and cannot be summoned from that plane for 24 hours. This <Link to="/rule/concentration">concentration</Link> can be interrupted as if it were a spell. Treat this effect's spell level as equal to 1 + 1 per 10 feet farther than 50 feet that the phantom is from you (maximum spell level 6th). If the tether is interrupted or the check fails, the phantom immediately snaps back into your consciousness.</p>
@@ -2869,8 +2869,8 @@ const _vigilante = {hasJL:true,title: "Vigilante", jsx: <><div className="jumpLi
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th className="sw">Shields?</th><td colSpan={2} className="se">Yes, except tower shields</td></tr></tbody></table>
-<Ability id="class-vigilante-dual-identity-ex" icon={["stairs-goal","armor-upgrade"]}>
-<Pair single id="class-vigilante-dual-identity-ex">Dual Identity (Ex)</Pair>
+<Ability id="dual-identity-ex" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="dual-identity-ex">Dual Identity (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You hide your true identity, allowing you to move about social circles and nobility without carrying the stigma of your ruthless actions. In effect, you have two identities: one is a polite member of society while the other is a skilled and cunning warrior. To keep up this charade, you usually have two names: your true name, used in polite company, and your vigilante name, used to strike fear in the hearts of those who oppose you. Knowledge checks about one do not reveal information about the other, unless your true identity is revealed to the world at large.</p>
 <p>You can start each day in either of your identities, referred to simply as <strong className="hl">social</strong> or <strong className="hl">vigilante</strong>. Changing from one identity to another takes 1 minute and must be done out of sight from other creatures to preserve your secret. Changing identities is more than just changing outfits and clothing (although that is certainly a part of it); the process often also involves applying make-up, altering your hair, and adjusting other personal effects. Furthermore, the change is as much a state of mind as of body, so items such as a <Link to="/magic-wondrous/hat_of_disguise">hat of disguise</Link> and similar spells and effects that change the user's appearance do not reduce the time required to change identities. Most <em>social talents</em> require you to be in your social identity, but a vigilante who uses <em>vigilante talents</em> in his social identity risks exposing his secret.</p>

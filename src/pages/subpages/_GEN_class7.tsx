@@ -339,8 +339,8 @@ const _ranger = {hasJL:true,title: "Ranger", jsx: <><div className="jumpList" id
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">You gain <Link to="/feat/endurance">Endurance</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="class-ranger-favored-terrain-ex" icon={["upgrade"]}>
-<Pair single id="class-ranger-favored-terrain-ex">Favored Terrain (Ex)</Pair>
+<Ability id="favored-terrain-ex" icon={["upgrade"]}>
+<Pair single id="favored-terrain-ex">Favored Terrain (Ex)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability"><p>You may select a type of terrain from the list below. You gain a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival skill checks when you are in this terrain. When traveling through your favored terrain, you leave no trail and cannot be tracked (though you may leave a trail if you so choose).</p>
 <ul>
@@ -371,15 +371,15 @@ const _ranger = {hasJL:true,title: "Ranger", jsx: <><div className="jumpList" id
 <Pair single id="companions-bond">Companions Bond</Pair>
 <Pair title="Move-Equivalent Action">You grant half your favored enemy bonus against a single target of the appropriate type to all allies within 30 feet who can see or hear you. This bonus lasts for a number of rounds equal to your Wisdom modifier (minimum 1). This bonus does not stack with any favored enemy bonuses possessed by your allies; they use whichever bonus is higher.</Pair>
 </Ability>
-<Ability id="class-ranger-animal-companion" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
-<Pair single id="class-ranger-animal-companion">Animal Companion</Pair>
+<Ability id="animal-companion" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Pair single id="animal-companion">Animal Companion</Pair>
 <Pair title="Ability"><p>You select an <Link to="/sidekick/animal_companion">animal companion</Link> from the list below. This animal is a loyal companion that accompanies you on your adventures as appropriate for its kind. Your animal companion shares your favored enemy and favored terrain bonuses.</p>
 <p><strong className="hl">List of possible companions:</strong> <Link to="/companion/antelope">Antelope</Link>, <Link to="/companion/armorfish">Armorfish</Link>, <Link to="/companion/baboon">Baboon</Link>, <Link to="/companion/badger">Badger</Link>, <Link to="/companion/bird">Bird (Eagle, Hawk, or Owl)</Link>, <Link to="/companion/bustard">Bustard</Link>, <Link to="/companion/camel">Camel</Link>, <Link to="/companion/capybara">Capybara</Link>, <Link to="/companion/cheetah">Cheetah</Link>, <Link to="/companion/constrictor_snake">Constrictor Snake</Link>, <Link to="/companion/dire_rat">Dire Rat</Link>, <Link to="/companion/dog">Dog</Link>, <Link to="/companion/elk">Elk</Link>, <Link to="/companion/falcon">Falcon</Link>, <Link to="/companion/giant_gecko">Giant Gecko</Link>, <Link to="/companion/hobbe_hound">Hobbe Hound</Link>, <Link to="/companion/horse">Horse</Link>, <Link to="/companion/kangaroo">Kangaroo</Link>, <Link to="/companion/leopard">Leopard</Link>, <Link to="/companion/marsupial_devil">Marsupial Devil</Link>, <Link to="/companion/pony">Pony</Link>, <Link to="/companion/ram">Ram</Link>, <Link to="/companion/reef_snake">Reef Snake</Link>, <Link to="/companion/reindeer">Reindeer</Link>, <Link to="/companion/shark">Shark</Link>, <Link to="/companion/spitting_cobra">Spitting Cobra</Link>, <Link to="/companion/stag">Stag</Link>, <Link to="/companion/stingray">Stingray</Link>, <Link to="/companion/trumpeter_swan">Swan, Trumpeter</Link>, <Link to="/companion/thylacine">Thylacine</Link>, <Link to="/companion/viper">Viper</Link>, <Link to="/companion/wolf">Wolf</Link>, <Link to="/companion/wolfdog">Wolfdog</Link>, <Link to="/companion/yak">Yak</Link>, <Link to="/companion/zebra">Zebra</Link>.</p><p>If the campaign takes place wholly or partly in an aquatic environment, you may choose from <strong className="hl">this list</strong> instead: <Link to="/companion/armorfish">Armorfish</Link>, <Link to="/companion/reef_snake">Reef Snake</Link>, <Link to="/companion/shark">Shark</Link>, <Link to="/companion/stingray">Stingray</Link>.</p>
 </Pair>
 <Pair title="Special">This ability functions like the druid <Link to="/ability/animal_companion">animal companion</Link> ability (which is part of the Nature Bond class feature), except that your effective druid level is equal to your ranger level - 3.</Pair>
 </Ability>
-<Ability id="class-ranger-spells" icon={["magic-swirl"]}>
-<Pair single id="class-ranger-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}>
+<Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You gain the ability to cast a small number of divine spells which are drawn from the <Link to="/main/ranger_spell">ranger spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Wisdom modifier. You must choose and prepare your spells in advance. Like other spellcasters, you can cast only a certain number of spells of each spell level per day. In addition, you receive <Link to="/rule/bonus_spells">bonus spells per day</Link> if you have a high Wisdom score.</Pair>
 <Pair title="Usage">To prepare or cast a spell, you must have a Wisdom score equal to at least 10 + the spell level.</Pair>

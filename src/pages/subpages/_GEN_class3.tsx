@@ -285,8 +285,8 @@ const _unchained_monk = {hasJL:true,title: "Unchained Monk", jsx: <><div classNa
 <Pair title="At 20th Level">You can <Link to="/rule/paralyze">paralyze</Link> the target for 1d6+1 rounds.</Pair>
 <Pair title="Special">You must choose which condition will apply before the attack roll is made. These effects do not stack with themselves (a creature fatigued by Stunning Fist cannot become <Link to="/misc/exhausted">exhausted</Link> if hit by Stunning Fist again), but additional hits do increase the duration.</Pair>
 </Ability>
-<Ability id="class-unchained_monk-unarmed-strike-ex" icon={["mailed-fist"]}>
-<Pair single id="class-unchained_monk-unarmed-strike-ex">Unarmed Strike (Ex)</Pair>
+<Ability id="unarmed-strike-ex" icon={["mailed-fist"]}>
+<Pair single id="unarmed-strike-ex">Unarmed Strike (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You gain <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. Your attacks can be with fists, elbows, knees, and feet. This means that you can make unarmed strikes with your hands full. There is no such thing as an off-hand attack when you're striking unarmed. You can apply your full Strength bonus on damage rolls for all your unarmed strikes. Your unarmed strikes deal lethal damage, although you can choose to deal nonlethal damage with no penalty on the attack roll. You can make this choice while grappling as well.</p>
 <p>You also deal more damage with your unarmed strikes than a normal person would. The unarmed damage values listed on the table above are for Medium monks only.</p>
@@ -997,8 +997,8 @@ const _occultist = {hasJL:true,title: "Occultist", jsx: <><div className="jumpLi
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn one knack, or 0-level psychic spell, each time you select an implement school (including when you again select a school that you have already learned to use). These spells are cast like any other spell, but they can be cast any number of times per day. Knacks cast using any other spell slots because of metamagic feats applied to them, for example, consume spell slots as normal.</Pair>
 </Ability>
-<Ability id="class-occultist-implements-su" icon={["magic-swirl"]}>
-<Pair single id="class-occultist-implements-su">Implements (Su)</Pair>
+<Ability id="implements-su" icon={["magic-swirl"]}>
+<Pair single id="implements-su">Implements (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You learn to use two <Link to="/ability/implements">implement schools</Link>. Each implement school adds one spell per spell level of that school of magic to your spell list. No spells from any other school are considered to be on your spell list until you select the associated implement school. You can't use spell trigger or spell completion magic items from unknown schools without succeeding at the appropriate Use Magic Device check.</p>
 <p>Each implement school is represented by a small list of objects. Every day, you select one item from that school's list to be your implement for the day for each implement school you know. You need only one such item to cast spells of the corresponding school, unless you selected that implement school multiple times, in which case you need one item for each set of spells gained from that school. Implements don't need to be magic items, and nonmagical implements don't take up a magic item slot even if they're worn. Implements that are not magic items are often of some historical value or of personal significance to you, such as the finger bone of a saint, the broken scepter of a long-dead king, the skull of a mentor's familiar, or the glass eye of an uncanny ancestor.</p>
@@ -1012,8 +1012,8 @@ const _occultist = {hasJL:true,title: "Occultist", jsx: <><div className="jumpLi
 <Pair title="At 18th Level">You learn to use one additional implement school.</Pair>
 <Pair title="Special">You can select an implement school more than once in order to learn additional spells from the associated school.</Pair>
 </Ability>
-<Ability id="class-occultist-mental-focus-su" icon={["magic-swirl"]}>
-<Pair single id="class-occultist-mental-focus-su" flavor="An occultist can invest a portion of his mental focus into his chosen implements for the day, allowing him to utilize a variety of abilities depending on the implements and the amount of mental focus invested in them.">Mental Focus (Su)</Pair>
+<Ability id="mental-focus-su" icon={["magic-swirl"]}>
+<Pair single id="mental-focus-su" flavor="An occultist can invest a portion of his mental focus into his chosen implements for the day, allowing him to utilize a variety of abilities depending on the implements and the amount of mental focus invested in them.">Mental Focus (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You have a number of points of mental focus equal to your occultist level + your Intelligence modifier; these points refresh each day. You can divide this mental focus between your implements in any way you desire. If an implement is lost or destroyed, the focus invested in it is lost as well, though you still refresh those points of focus normally.</p>
 <p>Once mental focus is invested inside an implement, the implement gains the <strong className="hl">resonant power</strong> of its implement school, and you can expend the mental focus stored in the implement to activate the associated focus powers you know. If a resonant power grants a bonus that varies based on the amount of mental focus invested in the implement, the bonus is determined when the focus is invested, and is not reduced or altered by expending the mental focus invested in the item. Once all of the mental focus in an implement has been expended, it loses its resonant power until mental focus is once again invested in the implement.</p>
@@ -1064,8 +1064,8 @@ const _occultist = {hasJL:true,title: "Occultist", jsx: <><div className="jumpLi
 <Pair title="Ability">You learn how to draw magic circles. To draw a circle, you must have chalk, salt, blood, powdered silver, or some other appropriate substance at hand (although you can press a magic circle into a softer surface such as dirt or clay). Drawing a circle takes 1 minute and requires you to expend 1 point of mental focus (either generic focus or focus from any one of your implements). Once completed, this circle functions as a permanent <Link to="/spell/magic_circle">magic circle</Link> against any alignment of your choosing. The circle can't be against a component of your alignment (if you are lawful good, for example, it can't be a <em>against good</em> or <em>against law</em>).</Pair>
 <Pair title="Special">The circle remains until its form is physically broken (for example, if the lines are smeared or the salt is scattered). Only a living creature can break the circle; environmental effects can't break it. You can have only one circle created in this way at a time. If you create a second circle, the first one loses all its magic powers. This type of magic circle can't normally be focused inward to bind an outsider.</Pair>
 </Ability>
-<Ability id="class-occultist-outside-contact-su" icon={["magic-swirl"]}>
-<Pair single id="class-occultist-outside-contact-su">Outside Contact (Su)</Pair>
+<Ability id="outside-contact-su" icon={["magic-swirl"]}>
+<Pair single id="outside-contact-su">Outside Contact (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability"><p>You learn the true name of one particular outsider. This outsider can have no more than 3 Hit Dice. Whenever you create a <em>magic circle,</em> you can expend 1 additional point of mental focus to focus the circle inward and lure that outsider to the circle (similar to using <Link to="/spell/lesser_planar_binding">lesser planar binding</Link>).</p>
 <p>While bound, you can bargain with the outsider for one piece of information. This requires a payment of at least 20 gp (or items of at least that value that are of interest to the outsider). The bargaining requires you to attempt a Diplomacy or Intimidate check opposed by the outsider's Sense Motive check. Succeeding at the check by 5 or more reduces this cost to 10 gp. Failure increases the price to 30 gp, whereas failure by 5 or more allows the outsider to escape without giving any information (or receiving payment). The information gained can be anything that might be learned through a <Link to="/spell/divination">divination</Link> spell. The information is always correct but is frequently cryptic. It typically takes the outsider 1d3 hours to gather the information, at which point it returns of its own accord to deliver the information as promised. The outsider always resents being used in this way, even if you and the outsider share an alignment component. After you bargain with the outsider, the magic circle loses all power and the outsider is sent back to its home plane.</p>
@@ -2132,8 +2132,8 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <Pair title="Ability">At will, you can use <Link to="/spell/detect_evil">detect evil</Link>, as the spell.</Pair>
 <Pair title="Move-Equivalent Action">You can concentrate on a single item or individual within 60 feet and determine if it is evil, learning the strength of its aura as if having studied it for 3 rounds. While focusing on one individual or object, you do not <em>detect evil</em> in any other object or individual within range.</Pair>
 </Ability>
-<Ability id="class-paladin-smite-evil-su" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="class-paladin-smite-evil-su">Smite Evil (Su)</Pair>
+<Ability id="smite-evil-su" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="smite-evil-su">Smite Evil (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Swift Action"><p>You can call out to the powers of good to aid you in your struggle against evil, choosing one target within sight to smite. If you target a creature that is not evil, the smite is wasted with no effect.</p>
 <p>If this target is evil, you add your Charisma bonus (if any) on your attack rolls and add your paladin level to all damage rolls made against the target of your smite. If the target of <em>smite evil</em> is an <Link to="/type/outsider">outsider</Link> with the <Link to="/subtype/evil">evil</Link> subtype, an evil-aligned <Link to="/type/dragon">dragon</Link>, an <Link to="/type/undead">undead</Link> creature, or a creature with levels in <Link to="/class/antipaladin">antipaladin</Link>, the bonus to damage on the first successful attack increases to 2 points of damage per paladin level. Regardless of the target, <em>smite evil</em> attacks automatically bypass any DR the creature might possess.</p>
@@ -2203,8 +2203,8 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <Pair title="Special">Creatures healed by channeled energy cannot exceed their maximum hit point total - all excess healing is lost.</Pair>
 </Ability>
 <aside><p>Some deities may endow their mortal servants with the power to channel energies in other ways that more closely mirror their particular focus. If you serve a deity, you may choose one of these <Link to="/ability/variant_channeling">variant channeling abilities</Link> instead.</p>
-</aside><Ability id="class-paladin-spells" icon={["magic-swirl"]}>
-<Pair single id="class-paladin-spells">Spells</Pair>
+</aside><Ability id="spells" icon={["magic-swirl"]}>
+<Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You gain the ability to cast a small number of divine spells which are drawn from the <Link to="/main/paladin_spell">paladin spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier. You must choose and prepare your spells in advance. Like other spellcasters, you can cast only a certain number of spells of each spell level per day. In addition, you receive <Link to="/rule/bonus_spells">bonus spells per day</Link> if you have a high Charisma score.</Pair>
 <Pair title="Usage">To prepare or cast a spell, you must have a Charisma score equal to at least 10 + the spell level.</Pair>
@@ -2218,8 +2218,8 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">This bond can take one of two forms: bonded weapon or bonded mount. Once the form is chosen, it cannot be changed.</Pair>
 </Ability>
-<Ability id="class-paladin-bonded-weapon" extraClasses="subAbility numbered" icon={["mailed-fist"]}>
-<Pair single id="class-paladin-bonded-weapon">Bonded Weapon</Pair>
+<Ability id="bonded-weapon" extraClasses="subAbility numbered" icon={["mailed-fist"]}>
+<Pair single id="bonded-weapon">Bonded Weapon</Pair>
 <Pair title="Usage">Once per day.</Pair>
 <Pair title="Choice"><p>The first type of bond allows the paladin to enhance your weapon as a <strong className="hl">standard action</strong> by calling upon the aid of a celestial spirit for 1 minute per paladin level. This is a spell-like ability. When called, the spirit causes the weapon to shed light as a <Link to="/eq-misc/torch">torch</Link> and grants the weapon a +1 enhancement bonus.</p>
 <p>For every three levels beyond 5th, the weapon gains another +1 enhancement bonus, to a maximum of +6 at 20th level. These bonuses can be added to the weapon, stacking with existing weapon bonuses to a maximum of +5, or they can be used to add any of the following weapon properties: <Link to="/magic-enh/axiomatic">axiomatic</Link>, <Link to="/magic-enh/brilliant_energy">brilliant energy</Link>, <Link to="/magic-enh/defending">defending</Link>, <Link to="/magic-enh/disruption">disruption</Link>, <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/flaming_burst">flaming burst</Link>, <Link to="/magic-enh/holy">holy</Link>, <Link to="/magic-enh/keen">keen</Link>, <Link to="/magic-enh/merciful">merciful</Link>, and <Link to="/magic-enh/speed">speed</Link>. Adding these properties consumes an amount of bonus equal to the property's cost. These bonuses are added to any properties the weapon already has, but duplicate abilities do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. The bonus and properties granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again.</p>
@@ -2230,8 +2230,8 @@ const _paladin = {hasJL:true,title: "Paladin", jsx: <><div className="jumpList" 
 <Pair title="At 13th Level">You can use this ability three times a day.</Pair>
 <Pair title="At 17th Level">You can use this ability four times a day.</Pair>
 </Ability>
-<Ability id="class-paladin-bonded-mount" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
-<Pair single id="class-paladin-bonded-mount">Bonded Mount</Pair>
+<Ability id="bonded-mount" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Pair single id="bonded-mount">Bonded Mount</Pair>
 <Pair title="Usage">Once per day.</Pair>
 <Pair title="Choice"><p>The second type of bond allows you to gain the service of an unusually intelligent, strong, and loyal steed to serve you in your crusade against evil. This mount functions as a druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using your level as your effective druid level. Bonded mounts have an Intelligence of at least 6. This mount may come from the following lists:</p>
 <blockquote>

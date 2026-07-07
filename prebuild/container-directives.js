@@ -46,12 +46,12 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 						},
 						...etc
 					};
-					const jlid = prefix + (
+					const jlid = (
 						attrs.id
 						|| title.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, "")
 					);
 					if(jl) {
-						addToJumpList(title, jlid, jl);
+						addToJumpList(title, prefix + jlid, jl);
 					}
 					return makeAbilityBlock({
 						marked2,

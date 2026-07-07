@@ -451,8 +451,8 @@ const _medium = {hasJL:true,title: "Medium", jsx: <><div className="jumpList" id
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You learn a number of knacks, or 0-level psychic spells. These spells are cast like any other spell, but they don't consume slots and can be used again. Knacks cast using other spell slots, such as those due to metamagic feats, consume slots normally.</Pair>
 </Ability>
-<Ability id="class-medium-spirit-su" icon={["stairs-goal","upgrade"]}>
-<Pair single id="class-medium-spirit-su" flavor="A medium serves as a vessel to channel spirits - astral echoes of powerful souls from ages past that live on in myth and legend.">Spirit (Su)</Pair>
+<Ability id="spirit-su" icon={["stairs-goal","upgrade"]}>
+<Pair single id="spirit-su" flavor="A medium serves as a vessel to channel spirits - astral echoes of powerful souls from ages past that live on in myth and legend.">Spirit (Su)</Pair>
 <Pair title="Ability"><p>Each day, you can channel a <Link to="/ability/spirits">spirit</Link> through a ritual known as a seance. Seances take 1 hour to perform and require your concentration. At the end of a seance, you invite a local spirit to inhabit you and serve as your spirit for that day. You gain the spirit's listed seance boon and lesser spirit power for 24 hours.</p>
 <p>Though you can choose the legend to which the spirit you channel belongs, you must channel that spirit from an appropriate location. Each spirit has a favored location it usually inhabits, though spirits may also be present at other locations appropriate to their legends; such locations are listed in each legend's <strong>Favored Locations</strong> entry.</p>
 <p>You can invite your allies to participate in your seance: <em>shared seance</em> and certain spirit powers affect other participants. A character counts as participating so long as she maintains physical contact with another participating character and willfully opens herself to the spirit; unlike you, other participating characters can take other actions during this time. Only creatures with an Intelligence score of at least 3 can participate in a seance.</p>
@@ -483,8 +483,8 @@ const _medium = {hasJL:true,title: "Medium", jsx: <><div className="jumpList" id
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">All allies who participate in your seance gain the channeled spirit's seance boon for 24 hours.</Pair>
 </Ability>
-<Ability id="class-medium-taboo-ex" icon={["upgrade"]}>
-<Pair single id="class-medium-taboo-ex">Taboo (Ex)</Pair>
+<Ability id="taboo-ex" icon={["upgrade"]}>
+<Pair single id="taboo-ex">Taboo (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability"><p>During your daily seance, you can accept a taboo in order to appease your spirit. Each spirit lists example taboos, and the GM may allow additional taboos as well. Accepting a taboo allows you to use your spirit surge ability twice without incurring influence. You can select only a single taboo.</p>
 <p>You are not magically prevented from breaking your taboo, but if you break the taboo for any reason, you take a -2 penalty on attack rolls, damage rolls, ability checks, skill checks, and saving throws for 1 hour and your spirit gains 1 point of influence over you. If you continue violating the taboo while taking the penalty, the duration of the penalty extends, but the spirit doesn't gain additional influence over you.</p>
@@ -767,8 +767,8 @@ const _samurai = {hasJL:true,title: "Samurai", jsx: <><div className="jumpList" 
 <Pair title="Swift Action">You choose one target within sight to challenge. Your melee attacks deal extra damage when made against the target of your <em>challenge.</em> This extra damage is equal to your level. Challenging a foe requires much of your concentration. You take a -2 penalty to your Armor Class, except against attacks made by the target of your <em>challenge.</em></Pair>
 <Pair title="Special">The <em>challenge</em> remains in effect until the target is dead or unconscious or until the combat ends. Your <em>challenge</em> also includes another effect which is listed in the section describing your <em>order.</em></Pair>
 </Ability>
-<Ability id="class-samurai-mount-ex" icon={["stairs-goal"]}>
-<Pair single id="class-samurai-mount-ex" flavor="A samurai gains the service of a loyal and trusty steed to carry him into battle.">Mount (Ex)</Pair>
+<Ability id="mount-ex" icon={["stairs-goal"]}>
+<Pair single id="mount-ex" flavor="A samurai gains the service of a loyal and trusty steed to carry him into battle.">Mount (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>Your mount functions as a druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using your samurai level as your effective druid level. The creature must be one that you are capable of riding and that is suitable as a mount. You do not take an armor check penalty on Ride checks while riding your mount. The mount is always considered combat trained and begins play with <Link to="/feat/light_armor_proficiency">Light Armor Proficiency</Link> as a bonus feat. Your mount does not gain the <em>share spells</em> special ability.</p>
 <p>Medium samurai mounts: <Link to="/companion/camel">camel</Link> or a <Link to="/companion/horse">horse</Link>. Small samurai mounts: <Link to="/companion/pony">pony</Link> or a <Link to="/companion/wolf">wolf</Link>. At 4th level, you add <Link to="/companion/boar">boar</Link> and <Link to="/companion/dog">dog</Link> to this list. The GM may approve other animals as suitable mounts.</p>
@@ -1297,8 +1297,8 @@ const _shaman = {hasJL:true,title: "Shaman", jsx: <><div className="jumpList" id
 <Pair title="At 16th Level">You gain the abilities listed for the <em>true</em> version of your selected spirit.</Pair>
 <Pair title="Special">If you take levels in another class that grants a mystery (such as the oracle), the spirit and mystery must match, even if that means one of them must change. Subject to GM discretion, you can change your former mystery or spirit to make them conform.</Pair>
 </Ability>
-<Ability id="class-shaman-spirit-animal-ex" icon={["stairs-goal"]}>
-<Pair single id="class-shaman-spirit-animal-ex">Spirit Animal (Ex)</Pair>
+<Ability id="spirit-animal-ex" icon={["stairs-goal"]}>
+<Pair single id="spirit-animal-ex">Spirit Animal (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You form a close bond with a spirit animal tied to your chosen <em>spirit.</em> This animal is your conduit to the spirit world, guiding you along the path to enlightenment.</p>
 <p>You must commune with your spirit animal each day to prepare your spells. While the spirit animal does not store the spells like a witch's familiar does, the spirit animal serves as your conduit to divine power. If your spirit animal is slain, you cannot prepare new spells or use your spirit magic class feature until the spirit animal is replaced.</p>
@@ -1772,8 +1772,8 @@ const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpLi
 <Pair title="Ability">You receive <Link to="/feat/weapon_focus">Weapon Focus</Link> as a bonus feat (you can choose any weapon, not just your deity's favored weapon).</Pair>
 </Ability>
 <aside><p>A warpriest may receive the <Link to="/feat/modified_weapon_proficiency">Modified Weapon Proficiency</Link> feat instead of Weapon Focus, but only if he selects his deity's favored weapon. -- <em><Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 11</Link></em></p>
-</aside><Ability id="class-warpriest-sacred-weapon-su" icon={["upgrade"]}>
-<Pair single id="class-warpriest-sacred-weapon-su" flavor="Weapons wielded by a warpriest are charged with the power of his faith.">Sacred Weapon (Su)</Pair>
+</aside><Ability id="sacred-weapon-su" icon={["upgrade"]}>
+<Pair single id="sacred-weapon-su" flavor="Weapons wielded by a warpriest are charged with the power of his faith.">Sacred Weapon (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">Whenever you hit with your sacred weapon, the weapon damage is based on your size and level and not the weapon type. (Only Medium warpriest damage is listed above; see the table below if you are Small or Large.) You can decide to use the weapon's base damage instead of the sacred weapon damage - this must be declared before the attack roll is made. (If the weapon's base damage exceeds the sacred weapon damage, its damage is unchanged.) This increase in damage does not affect any other aspect of the weapon, and doesn't apply to alchemical items, bombs, or other weapons that only deal energy damage.</Pair>
 <Pair title="Ability">In addition to the favored weapon of your deity, you can designate a weapon as a sacred weapon by selecting that weapon with the Weapon Focus feat; if you have multiple Weapon Focus feats, this ability applies to all of them.</Pair>
@@ -1880,8 +1880,8 @@ const _warpriest = {hasJL:true,title: "Warpriest", jsx: <><div className="jumpLi
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 <Pair title="Special">Creatures that take damage from channeled energy must succeed at a Will saving throw to halve the damage. The save DC is 10 + 1/2 your warpriest level + your Wisdom modifier.</Pair>
 </Ability>
-<Ability id="class-warpriest-sacred-armor-su" icon={["armor-upgrade"]}>
-<Pair single id="class-warpriest-sacred-armor-su">Sacred Armor (Su)</Pair>
+<Ability id="sacred-armor-su" icon={["armor-upgrade"]}>
+<Pair single id="sacred-armor-su">Sacred Armor (Su)</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Swift Action">You grant your armor a +1 enhancement bonus.</Pair>
 <Pair title="Usage">1 minute/day per warpriest level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
@@ -2846,16 +2846,16 @@ const _wizard = {hasJL:true,title: "Wizard", jsx: <><div className="jumpList" id
 <Pair single id="familiar">Familiar</Pair>
 <Pair title="Ability">A <Link to="/sidekick/familiar">familiar</Link> is a magical pet that enhances your skills and senses and can aid you in magic. The full rules for familiars can be found <Link to="/ability/familiars">here</Link>.</Pair>
 </Ability>
-<Ability id="class-wizard-bonded-object" extraClasses="subAbility numbered" icon={["magic-swirl"]}>
-<Pair single id="class-wizard-bonded-object">Bonded Object</Pair>
+<Ability id="bonded-object" extraClasses="subAbility numbered" icon={["magic-swirl"]}>
+<Pair single id="bonded-object">Bonded Object</Pair>
 <Pair title="Ability"><p>If you select a bonded object, you begin play with one at no cost. Objects that are the subject of an arcane bond must fall into one of the following categories: amulet, ring, staff, wand, or weapon. These objects are always masterwork quality. Weapons acquired at 1st level are not made of any special material. If the object is an amulet or ring, it must be worn to have effect, while staves, wands, and weapons must be wielded. If you attempt to cast a spell without your bonded object worn or in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level. If the object is a ring or amulet, it occupies the <Link to="/rule/neck_slot">ring or neck slot</Link> accordingly.</p>
 <p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities. The bonded object cannot be used to cast spells from your opposition schools.</p>
 <p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). If the bonded object is a wand, it loses its wand abilities when its last charge is consumed, but it is not destroyed and it retains all of its bonded object properties and can be used to craft a new wand. The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>
 <p>If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. You can designate an existing magic item as your bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.</p>
 </Pair>
 </Ability>
-<Ability id="class-wizard-arcane-school" icon={["magic-swirl"]}>
-<Pair single id="class-wizard-arcane-school" flavor="A wizard can choose to specialize in one school of magic, gaining additional spells and powers based on that school.">Arcane School</Pair>
+<Ability id="arcane-school" icon={["magic-swirl"]}>
+<Pair single id="arcane-school" flavor="A wizard can choose to specialize in one school of magic, gaining additional spells and powers based on that school.">Arcane School</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice"><p>If you choose to specialize in one school of magic, you must select two other schools as your <strong className="hl">opposition schools</strong>, representing knowledge sacrificed in one area of arcane lore to gain mastery in another. If you prepare spells from your opposition schools, you must use two spell slots of that level to prepare the spell. For example, a wizard with evocation as an opposition school must expend two of his available 3rd-level spell slots to prepare a <Link to="/spell/fireball">fireball</Link>. In addition, you take a -4 penalty on any skill checks made when crafting a magic item that has a spell from one of your opposition schools as a prerequisite.</p>
 <p>Each arcane school gives you a number of school powers. In addition, you receive an additional spell slot of each spell level you can cast, from 1st on up. Each day, you can prepare a spell from your specialty school in that slot. This spell must be in your spellbook. You can select a spell modified by a metamagic feat to prepare in your school slot, but it uses up a higher-level spell slot.</p>

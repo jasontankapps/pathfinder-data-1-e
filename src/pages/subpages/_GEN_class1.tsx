@@ -320,8 +320,8 @@ const _alchemist = {hasJL:true,title: "Alchemist", jsx: <><div className="jumpLi
 <Pair title="Ability">When using Craft (alchemy) to create an alchemical item, you gain a competence bonus equal to your class level on the Craft (alchemy) check. In addition, you can use Craft (alchemy) to identify potions as if using <Link to="/spell/detect_magic">detect magic</Link>. You must hold the potion for 1 round to make such a check.</Pair>
 <Pair title="Info">Alchemists are not only masters of creating mundane alchemical substances such as alchemist's fire and smokesticks, but also can create three special types of magical items - extracts, bombs, and mutagens. <strong className="hl">Extracts</strong> are magical potion-like concoctions, <strong className="hl">bombs</strong> are explosive splash weapons, and <strong className="hl">mutagens</strong> are transformative elixirs that you drink to enhance your physical abilities - each of these are detailed in their own sections below.</Pair>
 </Ability>
-<Ability id="class-alchemist-extracts" icon={["magic-swirl"]}>
-<Pair single id="class-alchemist-extracts">Extracts</Pair>
+<Ability id="extracts" icon={["magic-swirl"]}>
+<Pair single id="extracts">Extracts</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">You can create only a certain number of extracts of each level per day. In addition, you receive <Link to="/rule/determine_bonuses">bonus extracts per day</Link> if you have a high Intelligence score, in the same way a wizard receives bonus spells per day.</Pair>
 <Pair title="Ability">You can prepare an extract of any formula you know. To learn or use an extract, you must have an Intelligence score equal to at least 10 + the extract's level. The DC for a saving throw against your extract is 10 + the extract level + the your Intelligence modifier.</Pair>
@@ -338,8 +338,8 @@ const _alchemist = {hasJL:true,title: "Alchemist", jsx: <><div className="jumpLi
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You receive <Link to="/feat/brew_potion">Brew Potion</Link> as a bonus feat. You can brew potions of any formulae you know (up to 3rd level), using your alchemist level as your caster level. The spell must be one that can be made into a potion. You do not need to meet the prerequisites for this feat.</Pair>
 </Ability>
-<Ability id="class-alchemist-bomb-su" icon={["smoking-finger"]}>
-<Pair single id="class-alchemist-bomb-su">Bomb (Su)</Pair>
+<Ability id="bomb-su" icon={["smoking-finger"]}>
+<Pair single id="bomb-su">Bomb (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">You can use a number of bombs each day equal to your class level + your Intelligence modifier.</Pair>
 <Pair title="Standard Action">You can make and throw bombs. Drawing the components of, creating, and throwing a bomb is a single action. Thrown bombs have a range of 20 feet and use the <Link to="/rule/throw_splash_weapon">Throw Splash Weapon special attack</Link>. On a direct hit, your bomb inflicts 1d6 points of fire damage + additional damage equal to your Intelligence modifier (this bonus damage is not multiplied on a critical hit or by using feats such as <Link to="/feat/vital_strike">Vital Strike</Link>).</Pair>
@@ -363,8 +363,8 @@ const _alchemist = {hasJL:true,title: "Alchemist", jsx: <><div className="jumpLi
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You gain the <Link to="/feat/throw_anything">Throw Anything</Link> feat as a bonus feat. You add your Intelligence modifier to damage done with splash weapons, including the splash damage if any. (This bonus damage is already included in the bomb class feature.)</Pair>
 </Ability>
-<Ability id="class-alchemist-mutagen-su" icon={["upgrade"]}>
-<Pair single id="class-alchemist-mutagen-su">Mutagen (Su)</Pair>
+<Ability id="mutagen-su" icon={["upgrade"]}>
+<Pair single id="mutagen-su">Mutagen (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Standard Action">You can drink a mutagen to heighten your physical prowess at the cost of your personality. You gain a +2 natural armor bonus, a +4 alchemical bonus to a physical stat, and a -2 penalty to a mental stat. See below for details.</Pair>
 <Pair title="Usage">A mutagen lasts for 10 minutes per alchemist level.</Pair>
@@ -786,8 +786,8 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Pair title="Ability">At will, you can use <Link to="/spell/detect_good">detect good</Link>, as the spell.</Pair>
 <Pair title="Move-Equivalent Action">You can concentrate on a single item or individual within 60 feet and determine if it is good, learning the strength of its aura as if having studied it for 3 rounds. While focusing on one individual or object, you do not <em>detect good</em> in any other object or individual within range.</Pair>
 </Ability>
-<Ability id="class-antipaladin-smite-good-su" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="class-antipaladin-smite-good-su">Smite Good (Su)</Pair>
+<Ability id="smite-good-su" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="smite-good-su">Smite Good (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Swift Action"><p>You can call out to the dark powers to crush the forces of good, choosing one target within sight to smite. If you target a creature that is not good, the smite is wasted with no effect.</p>
 <p>If your target is good, you add your Charisma bonus (if any) on your attack rolls and add your antipaladin level on all damage rolls made against the target of your smite. If the target of <em>smite good</em> is an <Link to="/type/outsider">outsider</Link> with the <Link to="/subtype/good">good</Link> subtype, a good-aligned <Link to="/type/dragon">dragon</Link>, or a good creature with levels of <Link to="/class/cleric">cleric</Link> or <Link to="/class/paladin">paladin</Link>, the bonus to damage on the first successful attack increases to 2 points of damage per antipaladin level. Regardless of the target, <em>smite good</em> attacks automatically bypass any DR the creature might possess.</p>
@@ -806,8 +806,8 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Passive Ability">You gain a bonus equal to your Charisma bonus (if any) on all saving throws.</Pair>
 </Ability>
-<Ability id="class-antipaladin-touch-of-corruption-su" icon={["magic-palm","remedy"]}>
-<Pair single id="class-antipaladin-touch-of-corruption-su">Touch of Corruption (Su)</Pair>
+<Ability id="touch-of-corruption-su" icon={["magic-palm","remedy"]}>
+<Pair single id="touch-of-corruption-su">Touch of Corruption (Su)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">Half your antipaladin level, plus your Cha modifier, times/day.</Pair>
 <Pair title="Standard Action"><p>You surround your hand with a fiendish flame, causing terrible wounds to open on those you touch. As a touch attack, you can cause 1d6 points of damage for every two antipaladin levels you possess.</p>
@@ -826,8 +826,8 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">You do not take any damage or take any penalty from diseases. You can still contract diseases and spread them to others, but you're otherwise immune to their effects.</Pair>
 </Ability>
-<Ability id="class-antipaladin-cruelty-su" icon={["upgrade"]}>
-<Pair single id="class-antipaladin-cruelty-su">Cruelty (Su)</Pair>
+<Ability id="cruelty-su" icon={["upgrade"]}>
+<Pair single id="cruelty-su">Cruelty (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability"><p>Select one cruelty from the list below. Once a cruelty is chosen, it can't be changed. Each cruelty adds an effect to your <em>touch of corruption</em> ability. Whenever you use <em>touch of corruption</em> to deal damage to one target, the target also receives the additional effect from one of the cruelties you possess. This choice is made when the touch is used. The target receives a Fortitude save to avoid this cruelty. If the save is successful, the target takes the damage as normal, but not the effects of the cruelty. The DC of this save is equal to 10 + <Link to="/misc/half">half</Link> your level + your Charisma modifier.</p>
 <p>At 3rd level, you start with these cruelties.</p>
@@ -886,8 +886,8 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Pair title="Special">Creatures healed by channeled energy cannot exceed their maximum hit point total - all excess healing is lost.</Pair>
 </Ability>
 <aside><p>Some deities may endow their mortal servants with the power to channel energies in other ways that more closely mirror their particular focus. If you serve a deity, you may choose one of these <Link to="/ability/variant_channeling">variant channeling abilities</Link> instead.</p>
-</aside><Ability id="class-antipaladin-spells" icon={["magic-swirl"]}>
-<Pair single id="class-antipaladin-spells">Spells</Pair>
+</aside><Ability id="spells" icon={["magic-swirl"]}>
+<Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">You gain the ability to cast a small number of divine spells which are drawn from the <Link to="/main/antipaladin_spell">antipaladin spell list</Link>. The DC for a saving throw against spells you cast is 10 + the spell level + your Charisma modifier. You must choose and prepare your spells in advance. Like other spellcasters, you can cast only a certain number of spells of each spell level per day. Your base daily spell allotment is the same as that of a paladin. In addition, you receive <Link to="/rule/bonus_spells">bonus spells per day</Link> if you have a high Charisma score.</Pair>
 <Pair title="Usage">To prepare or cast a spell, you must have a Charisma score equal to at least 10 + the spell level.</Pair>
@@ -901,8 +901,8 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">This boon can take one of two forms. Once the form is chosen, it cannot be changed.</Pair>
 </Ability>
-<Ability id="class-antipaladin-weapon-bond" extraClasses="subAbility numbered" icon={["mailed-fist"]}>
-<Pair single id="class-antipaladin-weapon-bond">Weapon Bond</Pair>
+<Ability id="weapon-bond" extraClasses="subAbility numbered" icon={["mailed-fist"]}>
+<Pair single id="weapon-bond">Weapon Bond</Pair>
 <Pair title="Usage">Once per day.</Pair>
 <Pair title="Choice"><p>The first type of bond allows you to enhance your weapon as a <strong className="hl">standard action</strong> by calling upon the aid of a fiendish spirit for 1 minute per antipaladin level. When called, the spirit causes the weapon to shed unholy light as a <Link to="/eq-misc/torch">torch</Link> and grants the weapon a +1 enhancement bonus.</p>
 <p>For every three levels beyond 5th, the weapon gains another +1 enhancement bonus, to a maximum of +6 at 20th level. These bonuses can be added to the weapon, stacking with existing weapon bonuses to a maximum of +5, or they can be used to add any of the following weapon properties: <Link to="/magic-enh/anarchic">anarchic</Link>, <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/flaming_burst">flaming burst</Link>, <Link to="/magic-enh/keen">keen</Link>, <Link to="/magic-enh/speed">speed</Link>, <Link to="/magic-enh/unholy">unholy</Link>, <Link to="/magic-enh/vicious">vicious</Link>, <Link to="/magic-enh/vorpal">vorpal</Link>, and <Link to="/magic-enh/wounding">wounding</Link>. Adding these properties consumes an amount of bonus equal to the property's cost. These bonuses are added to any properties the weapon already has, but duplicate abilities do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. The bonus and properties granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again.</p>
@@ -913,8 +913,8 @@ const _antipaladin = {hasJL:true,title: "Antipaladin", jsx: <><div className="ju
 <Pair title="At 13th Level">You can use this ability three times a day.</Pair>
 <Pair title="At 17th Level">You can use this ability four times a day.</Pair>
 </Ability>
-<Ability id="class-antipaladin-fiendish-servant" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
-<Pair single id="class-antipaladin-fiendish-servant">Fiendish Servant</Pair>
+<Ability id="fiendish-servant" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Pair single id="fiendish-servant">Fiendish Servant</Pair>
 <Pair title="Usage">Once per day.</Pair>
 <Pair title="Choice"><p>The second type of bond allows you to gain the service of a fiendish servant. This functions as <Link to="/spell/summon_monster_iii">summon monster III</Link>, except the duration is permanent and you can only gain the service of a single creature and that creature must either have the <Link to="/subtype/chaotic">chaotic</Link> and <Link to="/subtype/evil">evil</Link> subtypes or it must be a <Link to="/template/fiendish">fiendish</Link> animal. Once selected, the choice is set, but it may be changed whenever you gain a level.</p>
 <p>As a full-round action, you may magically call your servant to your side. This ability is the equivalent of a spell of a level equal to one-third your antipaladin level. The servant immediately appears adjacent to you.</p>
@@ -1630,8 +1630,8 @@ const _arcanist = {hasJL:true,title: "Arcanist", jsx: <><div className="jumpList
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={1}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>No</td></tr><tr><th>Shields?</th><td colSpan={2}>No</td></tr><tr><td colSpan={3} className="sw se">Armor interferes with your gestures, which can cause your spells with somatic components to fail (see <Link to="/rule/arcane_spells_and_armor">Arcane Spells and Armor</Link>).</td></tr></tbody></table>
-<Ability id="class-arcanist-spells" icon={["magic-swirl"]}>
-<Pair single id="class-arcanist-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}>
+<Pair single id="spells">Spells</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You cast arcane spells drawn from the <Link to="/main/spells_arcanist">sorcerer/wizard</Link> spell list. You must prepare your spells ahead of time, but unlike a wizard, your spells are not expended when they're cast. Instead, you can cast any spell that you have prepared consuming a spell slot of the appropriate level, assuming you haven't yet used up your spell slots per day for that level. In addition, you receive <Link to="/rule/bonus_spells">bonus spells per day</Link> if you have a high Intelligence score. The DC for a saving throw against spells you cast is 10 + the spell level + your Intelligence modifier.</Pair>
 <Pair title="Usage">To learn, prepare, or cast a spell, you must have an Intelligence score equal to at least 10 + the spell level.</Pair>
@@ -2255,8 +2255,8 @@ const _bard = {hasJL:true,title: "Bard", jsx: <><div className="jumpList" id="cl
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">You add <Link to="/misc/half">half</Link> your class level (minimum 1) to all Knowledge skill checks and may make all Knowledge skill checks untrained.</Pair>
 </Ability>
-<Ability id="class-bard-bardic-performance" icon={["stairs-goal"]}>
-<Pair single id="class-bard-bardic-performance" flavor="You are trained to use the Perform skill to create magical effects on those around you, including yourself if desired.">Bardic Performance</Pair>
+<Ability id="bardic-performance" icon={["stairs-goal"]}>
+<Pair single id="bardic-performance" flavor="You are trained to use the Perform skill to create magical effects on those around you, including yourself if desired.">Bardic Performance</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">2 + twice your bard level + your Cha modifier rounds/day.</Pair>
 <Pair title="Standard Action"><p>Each round, you can produce any one of the types of bardic performance that you have mastered, as indicated by your level.</p>
@@ -2271,8 +2271,8 @@ const _bard = {hasJL:true,title: "Bard", jsx: <><div className="jumpList" id="cl
 </Ability>
 <aside><p><strong className="hl" id="class-bard-bardic-masterpieces" data-hash-target>Bardic Masterpieces:</strong> Talented bards can learn or create <Link to="/ability/bardic_masterpieces">masterpieces</Link>, unusual applications of the bardic performance ability requiring special training. Each masterpiece has an associated cost to learn it. Typically, a bard must spend one of his bard spells known of a specific spell level or select it in place of a feat.</p>
 <p>Also, a bard may learn <Link to="/ability/sagas">saga</Link>, which are useable with his bardic performance ability.</p>
-</aside><Ability id="class-bard-versatile-performance-ex" icon={["stairs-goal"]}>
-<Pair single id="class-bard-versatile-performance-ex">Versatile Performance (Ex)</Pair>
+</aside><Ability id="versatile-performance-ex" icon={["stairs-goal"]}>
+<Pair single id="versatile-performance-ex">Versatile Performance (Ex)</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Choice"><p>You can choose one type of Perform skill, using your bonus in that skill in place of your bonus in associated skills. When substituting in this way, you use your total Perform skill bonus, including class skill bonus, in place of its associated skill's bonus, whether or not you have ranks in that skill or if it is a class skill.</p>
 <p>The types of Perform and their associated skills are:</p>
@@ -2818,8 +2818,8 @@ const _bloodrager = {hasJL:true,title: "Bloodrager", jsx: <><div className="jump
 </tr>
 </tbody></table></ScrollContainer>
 <table className="class p"><thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead><tbody><tr><th scope="row" rowSpan={2}>Weapons</th><td colSpan={2}>All <Link to="/main/equipment_weapons_simple">simple weapons</Link></td></tr><tr><td colSpan={2}>All <Link to="/main/equipment_weapons_martial">martial weapons</Link></td></tr><tr><th>Armor?</th><td colSpan={2}>Light and Medium armors</td></tr><tr><th>Shields?</th><td colSpan={2}>Yes, except tower shields</td></tr><tr><td colSpan={3} className="sw se">You can cast bloodrager spells while wearing light armor or medium armor without incurring the normal arcane spell failure chance. This does not affect the arcane spell failure chance for arcane spells received from other classes. Like other arcane spellcasters, heavy armor or wielding a shield incurs a chance of arcane spell failure if the spell in question has somatic components.</td></tr></tbody></table>
-<Ability id="class-bloodrager-bloodline" icon={["magic-swirl","upgrade"]}>
-<Pair single id="class-bloodrager-bloodline">Bloodline</Pair>
+<Ability id="bloodline" icon={["magic-swirl","upgrade"]}>
+<Pair single id="bloodline">Bloodline</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice">You must pick one <Link to="/ability/bloodrager_bloodlines">bloodline</Link> upon taking your first level of bloodrager. Once made, this choice cannot be changed. You immediately gain its 1st-level power.</Pair>
 <Pair title="Info"><p>Each bloodrager has a source of magic somewhere in his heritage that empowers his bloodrages, bonus feats, and bonus spells. Sometimes this source reflects a distant blood relationship to a powerful being, or is due to an extreme event involving such a creature somewhere in his family's past. Regardless of the source, this influence manifests in a number of ways.</p>

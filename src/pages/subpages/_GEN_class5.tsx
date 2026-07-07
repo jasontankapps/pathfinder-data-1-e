@@ -198,8 +198,8 @@ const _cavalier = {hasJL:true,title: "Cavalier", jsx: <><div className="jumpList
 <Pair title="At 19th Level">You can <em>challenge</em> 7 times a day.</Pair>
 <Pair title="Special">The challenge remains in effect until the target is dead or unconscious or until the combat ends. Each challenge also includes another effect which is listed in the section describing your <em>order.</em></Pair>
 </Ability>
-<Ability id="class-cavalier-mount-ex" icon={["stairs-goal"]}>
-<Pair single id="class-cavalier-mount-ex">Mount (Ex)</Pair>
+<Ability id="mount-ex" icon={["stairs-goal"]}>
+<Pair single id="mount-ex">Mount (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You gain the service of a loyal and trusty steed to carry you into battle. This mount functions as a druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using your level as your effective druid level. The creature must be one that you are capable of riding and is suitable as a mount. This mount may come from the following list:</p>
 <p><strong>Medium Cavaliers:</strong> <Link to="/companion/axe_beak">Axe Beak</Link>, <Link to="/companion/camel">Camel</Link>, <Link to="/companion/elk">Elk</Link>, <Link to="/companion/giraffe">Giraffe</Link>, <Link to="/companion/horse">Horse</Link>, <Link to="/companion/giant_seahorse">Giant Seahorse</Link>, <Link to="/companion/giant_tortoise">Giant Tortoise</Link>, <Link to="/companion/zebra">Zebra</Link>; <strong>Small Cavaliers:</strong> <Link to="/companion/antelope">Antelope</Link>, <Link to="/companion/boar">Boar</Link> (requires 4th level), <Link to="/companion/capybara">Capybara</Link>, <Link to="/companion/dog">Dog</Link> (requires 4th level), <Link to="/companion/kangaroo">Kangaroo</Link>, <Link to="/companion/giant_gecko">Giant Gecko</Link>, <Link to="/companion/pony">Pony</Link>, <Link to="/companion/ram">Ram</Link>, Reindeer (uses elk statistics), <Link to="/companion/stag">Stag</Link>, <Link to="/companion/giant_weasel">Giant Weasel</Link>, <Link to="/companion/wolf">Wolf</Link>, <Link to="/companion/wolfdog">Wolfdog</Link></p>
@@ -764,8 +764,8 @@ const _cleric = {hasJL:true,title: "Cleric", jsx: <><div className="jumpList" id
 <Pair title="Special">Creatures healed by channeled energy cannot exceed their maximum hit point total - all excess healing is lost.</Pair>
 </Ability>
 <aside><p>Some deities may endow their mortal servants with the power to channel energies in other ways that more closely mirror their particular focus. You may choose one of these <Link to="/ability/variant_channeling">variant channeling abilities</Link> instead.</p>
-</aside><Ability id="class-cleric-domains" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="class-cleric-domains" flavor="A cleric's deity influences her alignment, what magic she can perform, her values, and how others see her.">Domains</Pair>
+</aside><Ability id="domains" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="domains" flavor="A cleric's deity influences her alignment, what magic she can perform, her values, and how others see her.">Domains</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice"><p>You choose two <Link to="/ability/domains">domains</Link> from among those belonging to your deity. You can select an alignment domain (<Link to="/domain/chaos">Chaos</Link>, <Link to="/domain/evil">Evil</Link>, <Link to="/domain/good">Good</Link>, or <Link to="/domain/law">Law</Link>) only if your alignment matches that domain. If you are not devoted to a particular deity, you still select two domains to represent your spiritual inclinations and abilities (subject to GM approval). The restriction on alignment domains still applies.</p>
 <p>Each domain grants a number of <strong className="hl">domain powers</strong>, dependent upon your cleric level, as well as a number of bonus spells. You gain one <strong className="hl">domain spell slot</strong> for each level of cleric spell you can cast, from 1st on up. Each day, you can prepare one of the spells from your two domains in that slot. If a domain spell is not on the cleric spell list, you can prepare it only in your domain spell slot. Domain spells cannot be used to cast spells spontaneously.</p>
@@ -1687,8 +1687,8 @@ const _monk = {hasJL:true,title: "Monk", jsx: <><div className="jumpList" id="cl
 <Pair title="At 4th Level">You gain an additional bonus to your AC and CMD equal to <Link to="/misc/one_fourth">one-fourth</Link> of your monk level.</Pair>
 <Pair title="Special">You lose these bonuses when you are immobilized or <Link to="/misc/helpless">helpless</Link>, when you wear any armor, when you carry a shield, or when you carry a medium or heavy load.</Pair>
 </Ability>
-<Ability id="class-monk-flurry-of-blows-ex" icon={["mailed-fist"]}>
-<Pair single id="class-monk-flurry-of-blows-ex">Flurry of Blows (Ex)</Pair>
+<Ability id="flurry-of-blows-ex" icon={["mailed-fist"]}>
+<Pair single id="flurry-of-blows-ex">Flurry of Blows (Ex)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You can make a flurry of blows as a full-attack action. When doing so you may make one additional attack using any combination of unarmed strikes or attacks with a special monk weapon (kama, nunchaku, quarterstaff, sai, shuriken, and siangham) as if using the <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link> feat (even if you do not meet the prerequisites for the feat). For the purpose of these attacks, your base attack bonus from your monk class levels is equal to your monk level. For all other purposes, such as qualifying for a feat or a prestige class, you use your normal base attack bonus.</p>
 <p>You apply your full Strength bonus to your damage rolls for all successful attacks made with flurry of blows, whether the attacks are made with an off-hand or with a weapon wielded in both hands. You may substitute <Link to="/rule/disarm">disarm</Link>, <Link to="/rule/sunder">sunder</Link>, and <Link to="/rule/trip">trip</Link> combat maneuvers for unarmed attacks as part of a flurry of blows. You cannot use any weapon other than an unarmed strike or a special monk weapon as part of a flurry of blows. You cannot use natural weapons (if you have any) as part of a flurry of blows, nor can you make natural attacks in addition to your flurry of blows attacks.</p>
@@ -1696,8 +1696,8 @@ const _monk = {hasJL:true,title: "Monk", jsx: <><div className="jumpList" id="cl
 <Pair title="At 8th Level">You can make two additional attacks when you use flurry of blows, as if using <Link to="/feat/improved_two_weapon_fighting">Improved Two-Weapon Fighting</Link> (even if you do not meet the prerequisites for the feat).</Pair>
 <Pair title="At 15th Level">You can make three additional attacks when you use flurry of blows, as if using <Link to="/feat/greater_two_weapon_fighting">Greater Two-Weapon Fighting</Link> (even if you do not meet the prerequisites for the feat).</Pair>
 </Ability>
-<Ability id="class-monk-unarmed-strike" icon={["mailed-fist"]}>
-<Pair single id="class-monk-unarmed-strike">Unarmed Strike</Pair>
+<Ability id="unarmed-strike" icon={["mailed-fist"]}>
+<Pair single id="unarmed-strike">Unarmed Strike</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>You gain <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. Your attacks may be with fist, elbows, knees, and feet. This means that you may make unarmed strikes with your hands full. There is no such thing as an off-hand attack for your unarmed strikes, so you apply your full Strength bonus on damage rolls for all your unarmed strikes.</p>
 <p>You also deal more damage with your unarmed strikes than a normal person would. The unarmed damage values listed on the table above are for Medium monks only.</p>
