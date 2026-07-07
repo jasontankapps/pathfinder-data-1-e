@@ -1,43 +1,110 @@
-import {IonRippleEffect} from '@ionic/react';
-import Link from '../../components/Link';
+import {IonRippleEffect,IonIcon} from '@ionic/react';
+import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import ByLevelPop from '../../components/ByLevelPop';
 const _calamity_caller = {title: "Calamity Caller", jsx: <><h2 id="arc-warpriest-calamity_caller-calamity-caller">Calamity Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 12</Link><br/>While all elves feel a deep connection to nature, some elven priests take this bond further, using their link to call down the wrath of nature upon their enemies. Ekujae are most inclined to harness this connection, but any elf can wield their bond to nature in this way.</p>
-<p>Calamity caller is a warpriest archetype that is available only to <Link to="/race/elves">elves</Link>.</p>
-<p><strong>Catastrophic Blessing:</strong> A calamity caller must select a disaster blessing (<Link to="/blessing/earthquake">Earthquake</Link>, <Link to="/blessing/flood">Flood</Link>, <Link to="/blessing/tornado">Tornado</Link>, or <Link to="/blessing/wildfire">Wildfire</Link>) as one of his two blessings, even if the calamity caller's deity does not grant the disaster blessing's associated domain.</p>
-<p>This alters <strong className="hl">blessings</strong>.</p>
-<p><strong>Calamity (Su):</strong> As a standard action, a calamity caller can cause a 5-foot square within 30 feet to suffer a calamity. A calamity deals 1d6 damage plus an additional 1d6 damage for every 2 warpriest levels he has beyond 1st to creatures within that square. The type of calamity determines what type of damage the calamity deals (see below). An affected creature can attempt a saving throw to reduce this damage by half (DC = 10 + half the calamity caller's warpriest level + the calamity caller's Wisdom modifier); the type of save is determined by the calamity. The calamity caller can use this ability at will.</p>
-<p>At 4th level, a calamity caller can create an enhanced calamity when he uses this ability. An enhanced calamity deals twice the calamity's normal damage; in addition, a creature that fails its save suffers an additional effect (see below). At 8th level and again at 12th level and 16th level, effects created by an enhanced calamity that last for 1 or more rounds persist for 1 additional round. The calamity caller can create an enhanced calamity once per day for every 2 warpriest levels he has. A creature must take damage from the calamity to suffer these additional effects.</p>
-<p>The calamities available to calamity callers, the type of damage they deal, the saving throw to resist the damage, and the secondary effect they cause when enhanced, are listed below.</p>
-<blockquote className="hanging">
-<p><strong>Acid Rain:</strong> A brief rain shower deals acid damage to the target square, with a Fortitude save for half damage. A creature that fails its save against enhanced acid rain continues to dissolve for 1 round, automatically taking half the original damage.</p>
-<p><strong>Blizzard:</strong> Hail deals cold damage to the target square, with a Fortitude save for half damage. A creature that fails its save against an enhanced blizzard is blinded for 1 round.</p>
-<p><strong>Deadfall:</strong> A tree branch, stone boulder, or other heavy object falls on the target square. A deadfall deals bludgeoning damage, with a Reflex save for half damage. A creature that fails its save against an enhanced deadfall is knocked prone; at 12th level, the target is also confused for 1 round.</p>
-<p><strong>Flash Flood:</strong> A brief surge of stormy water deals bludgeoning damage to the target square, with a Reflex save for half damage. An enhanced flash flood does not cause additional effects; instead, an enhanced flash flood targets creatures in a 5-foot radius. At 12th level, the area increases to a 10-foot radius; at 16th level, the area increases to a 15-foot radius.</p>
-<p><strong>Lightning Strike:</strong> A bolt of lightning deals electricity damage to the target square, with a Reflex save for half damage. A creature that fails its save against an enhanced lightning strike is staggered for 1 round by electrical impulses.</p>
-<p><strong>Thorny Vines:</strong> Vines covered with thick thorns wrap around the target square. The thorny vines deal piercing damage, with a Reflex save for half damage. A creature that fails its save against enhanced thorny vines is entangled for 1 round.</p>
-<p><strong>Volcanic Rift:</strong> A magmatic rift emits a plume of fire into the air, dealing fire damage to the target square, with a Fortitude save for half damage. An enhanced volcanic rift also emits poisonous and corrosive gases; a creature that fails its save against the enhanced volcanic rift is sickened for 1 round.</p>
-</blockquote>
-<p>This replaces <strong className="hl">focus weapon</strong>, <strong className="hl">sacred weapon</strong>, and <strong className="hl">bonus feats</strong>.</p>
-<p><strong>Aspect of Disaster (Su):</strong> At 20th level, a creature affected by a calamity caller's enhanced calamity does not receive a save to reduce the damage or avoid the calamity's effects.</p>
-<p>This replaces <strong className="hl">aspect of war</strong>.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-warpriest-calamity_caller--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="catastrophic-blessing" icon={["info"]}>
+<Pair single id="catastrophic-blessing">Catastrophic Blessing</Pair>
+<Pair hl title="Alters">Blessings</Pair>
+<Pair title="Ability">A calamity caller must select a disaster blessing (<Link to="/blessing/earthquake">Earthquake</Link>, <Link to="/blessing/flood">Flood</Link>, <Link to="/blessing/tornado">Tornado</Link>, or <Link to="/blessing/wildfire">Wildfire</Link>) as one of his two blessings, even if the calamity caller's deity does not grant the disaster blessing's associated domain.</Pair>
+</Ability>
+<Ability id="calamity-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="calamity-su">Calamity (Su)</Pair>
+<Pair hl title="Replaces">Focus weapon, sacred weapon, bonus feats</Pair>
+<Pair title="Standard Action">A calamity caller can cause a 5-foot square within 30 feet to suffer a calamity. A calamity deals 1d6 damage to creatures within that square. The type of calamity determines what type of damage the calamity deals (see below). An affected creature can attempt a saving throw to reduce this damage by half (DC = 10 + half the calamity caller's warpriest level + the calamity caller's Wisdom modifier); the type of save is determined by the calamity. The calamity caller can use this ability at will.</Pair>
+<Pair title="At 3rd Level">The amount of damage becomes 2d6.</Pair>
+<Pair title="At 4th Level">A calamity caller can create an enhanced calamity when he uses this ability. An enhanced calamity deals twice the calamity's normal damage; in addition, a creature that fails its save suffers an additional effect (see below). A creature must take damage from the calamity to suffer these additional effects. The calamity caller can create an <em>enhanced calamity</em> once per day for every 2 warpriest levels he has.</Pair>
+<Pair title="At 5th Level">The amount of damage increases to 3d6.</Pair>
+<Pair title="At 7th Level">The amount of damage becomes 4d6.</Pair>
+<Pair title="At 8th Level">Effects created by an <em>enhanced calamity</em> that last for 1 or more rounds persist for 1 additional round.</Pair>
+<Pair title="At 9th Level">The amount of damage increases to 5d6.</Pair>
+<Pair title="At 11th Level">The amount of damage becomes 6d6.</Pair>
+<Pair title="At 12th Level">Enhanced effects now persist for 2 additional rounds.</Pair>
+<Pair title="At 13th Level">The amount of damage increases to 7d6.</Pair>
+<Pair title="At 15th Level">The amount of damage becomes 8d6.</Pair>
+<Pair title="At 16th Level">Enhanced effects now persist for 3 additional rounds.</Pair>
+<Pair title="At 17th Level">The amount of damage increases to 9d6.</Pair>
+<Pair title="At 19th Level">The amount of damage becomes 10d6.</Pair>
+<Pair title="Special">The calamities available to calamity callers, the type of damage they deal, the saving throw to resist the damage, and the secondary effect they cause when enhanced, are listed below.</Pair>
+</Ability>
+<Ability id="acid-rain" extraClasses="subAbility" icon={["bowman"]}>
+<Pair single id="acid-rain">Acid Rain</Pair>
+<Pair title="Ability">A brief rain shower deals acid damage to the target square, with a Fortitude save for half damage. A creature that fails its save against <em>enhanced</em> acid rain continues to dissolve for 1 round, automatically taking half the original damage.</Pair>
+</Ability>
+<Ability id="blizzard" extraClasses="subAbility" icon={["bowman"]}>
+<Pair single id="blizzard">Blizzard</Pair>
+<Pair title="Ability">Hail deals cold damage to the target square, with a Fortitude save for half damage. A creature that fails its save against an <em>enhanced</em> blizzard is <Link to="/misc/blinded">blinded</Link> for 1 round.</Pair>
+</Ability>
+<Ability id="deadfall" extraClasses="subAbility" icon={["bowman"]}>
+<Pair single id="deadfall">Deadfall</Pair>
+<Pair title="Ability">A tree branch, stone boulder, or other heavy object falls on the target square. A deadfall deals bludgeoning damage, with a Reflex save for half damage. A creature that fails its save against an <em>enhanced</em> deadfall is knocked <Link to="/rule/prone">prone</Link>.</Pair>
+<Pair title="At 12th Level">The target is also <Link to="/misc/confused">confused</Link> for 1 round.</Pair>
+</Ability>
+<Ability id="flash-flood" extraClasses="subAbility" icon={["bowman"]}>
+<Pair single id="flash-flood">Flash Flood</Pair>
+<Pair title="Ability">A brief surge of stormy water deals bludgeoning damage to the target square, with a Reflex save for half damage. An <em>enhanced</em> flash flood does not cause additional effects; instead, an <em>enhanced</em> flash flood targets creatures in a 5-foot radius.</Pair>
+<Pair title="At 12th Level">The area increases to a 10-foot radius.</Pair>
+<Pair title="At 16th Level">The area increases to a 15-foot radius.</Pair>
+</Ability>
+<Ability id="lightning-strike" extraClasses="subAbility" icon={["bowman"]}>
+<Pair single id="lightning-strike">Lightning Strike</Pair>
+<Pair title="Ability">A bolt of lightning deals electricity damage to the target square, with a Reflex save for half damage. A creature that fails its save against an <em>enhanced</em> lightning strike is <Link to="/misc/staggered">staggered</Link> for 1 round by electrical impulses.</Pair>
+</Ability>
+<Ability id="thorny-vines" extraClasses="subAbility" icon={["bowman"]}>
+<Pair single id="thorny-vines">Thorny Vines</Pair>
+<Pair title="Ability">Vines covered with thick thorns wrap around the target square. The thorny vines deal piercing damage, with a Reflex save for half damage. A creature that fails its save against <em>enhanced</em> thorny vines is <Link to="/rule/entangled">entangled</Link> for 1 round.</Pair>
+</Ability>
+<Ability id="volcanic-rift" extraClasses="subAbility" icon={["bowman"]}>
+<Pair single id="volcanic-rift">Volcanic Rift</Pair>
+<Pair title="Ability">A magmatic rift emits a plume of fire into the air, dealing fire damage to the target square, with a Fortitude save for half damage. An <em>enhanced</em> volcanic rift also emits poisonous and corrosive gases; a creature that fails its save against the <em>enhanced</em> volcanic rift is <Link to="/rule/sickened">sickened</Link> for 1 round.</Pair>
+</Ability>
+<Ability id="aspect-of-disaster-su" icon={["armor-downgrade"]}>
+<Pair single id="aspect-of-disaster-su">Aspect of Disaster (Su)</Pair>
+<Pair hl title="Replaces">Aspect of war</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Passive Ability">A creature affected by a calamity caller's <em>enhanced calamity</em> does not receive a save to reduce the damage or avoid the calamity's effects.</Pair>
+</Ability>
 </>};
 const _champion_of_the_faith = {title: "Champion of the Faith", jsx: <><h2 id="arc-warpriest-champion_of_the_faith-champion-of-the-faith">Champion of the Faith</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 128</Link><br/>Champions of the faith are crusaders who use the power of their divine patron to annihilate the faith's enemies.</p>
-<p><strong>Chosen Alignment:</strong> At 1st level, a champion of the faith must select one of the following as his chosen alignment: chaos, evil, good, or law. This choice must be one of the alignments shared by the champion of the faith and his deity. Champions of the faith who are neutral with no other alignment components (or whose deity is) can choose any of the above alignments for this purpose. Additionally, a champion of the faith must select the blessing corresponding to his chosen alignment, even if it's not on his deity's list of domains.</p>
+<Ability id="chosen-alignment" icon={["info"]}>
+<Pair single id="chosen-alignment">Chosen Alignment</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Choice"><p>A champion of the faith must select one of the following as his chosen alignment: chaos, evil, good, or law. This choice must be one of the alignments shared by the champion of the faith and his deity. Champions of the faith who are neutral with no other alignment components (or whose deity is) can choose any of the above alignments for this purpose. Additionally, a champion of the faith must select the blessing corresponding to his chosen alignment, even if it's not on his deity's list of domains.</p>
 <p>His chosen alignment's opposite is referred to as his opposed alignment. Good and evil oppose one another, just as law and chaos oppose one another.</p>
-<p><strong>Sacred Weapon (Su):</strong> At 1st level, a champion of the faith gains the sacred weapon class feature as normal. However, this ability does not grant the 4th-level ability to enhance the champion of the faith's weapon with divine power, nor does it grant any subsequent increases to that ability. Instead, at 4th level, any sacred weapon wielded by a champion of the faith counts as having his chosen alignment for the purposes of overcoming damage reduction.</p>
-<p>At 12th level, once per day as a swift action, a champion of the faith can enhance any one sacred weapon with a weapon special ability based on his chosen alignment (<Link to="/magic-enh/anarchic">anarchic</Link> for chaos, <Link to="/magic-enh/unholy">unholy</Link> for evil, <Link to="/magic-enh/holy">holy</Link> for good, and <Link to="/magic-enh/axiomatic">axiomatic</Link> for law). This effect lasts for 1 minute. He can use this ability one additional time per day at 16th and 20th levels.</p>
-<p>This ability alters <strong className="hl">sacred weapon</strong>.</p>
-<p><strong>Detect Alignment (Sp):</strong> At 3rd level, a champion of the faith can detect his opposed alignment. As a move action, the champion of the faith can focus on a single item or creature within 60 feet and determine whether it possesses the opposed alignment, as <Link to="/spell/detect_evil">detect chaos/evil/good/law</Link>, learning the strength of the aura as if he had studied it for 3 rounds. The champion of the faith does not detect alignment in any other object or creature when using this ability in this way.</p>
-<p>This ability replaces the <strong className="hl">bonus feat</strong> gained at 3rd level.</p>
-<p><strong>Smite (Su):</strong> At 4th level, a champion of the faith can focus his powers against his chosen foes. As a swift action, the champion of the faith chooses one target within sight to smite. If this target is of his opposed alignment, the champion of the faith adds his Charisma bonus (if any) to his attack rolls and adds his warpriest level to all damage rolls made against the target of his smite. If the target of his smite is an outsider with the subtype corresponding to his opposed alignment, the bonus to damage on the first successful attack increases to 2 points of damage per warpriest level the champion of the faith possesses. Regardless of the target, smite attacks automatically bypass any DR the target possesses.</p>
-<p>In addition, while smite is in effect, the champion of the faith gains a deflection bonus equal to his Charisma modifier (if any) to his AC against attacks made by the target of the smite. If the smite targets a creature that's not of the champion of the faith's opposed alignment, the smite is wasted with no effect.</p>
-<p>The smite effect remains until the target of the smite is dead or the next time the champion of the faith regains spells. The champion of the faith can use this ability once per day, plus one additional time per day for every 4 levels beyond 4th (to a maximum of five times per day at 20th level). Using this ability consumes two uses of his fervor ability.</p>
-<p>This ability replaces <strong className="hl">channel energy</strong>.</p>
+</Pair>
+</Ability>
+<Ability id="sacred-weapon-su" icon={["broken-shield","upgrade"]}>
+<Pair single id="sacred-weapon-su">Sacred Weapon (Su)</Pair>
+<Pair hl title="Alters">Sacred weapon</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Info">A champion of the faith gains the <em>sacred weapon</em> class feature as normal. However, this ability does not grant the 4th-level ability to enhance the champion of the faith's weapon with divine power, nor does it grant any subsequent increases to that ability.</Pair>
+<Pair title="At 4th Level">Any <em>sacred weapon</em> wielded by a champion of the faith counts as having his chosen alignment for the purposes of overcoming damage reduction.</Pair>
+<Pair title="At 12th Level">Once per day as a <strong className="hl">swift action</strong>, a champion of the faith can enhance any one <em>sacred weapon</em> with a weapon special ability based on his chosen alignment (<Link to="/magic-enh/anarchic">anarchic</Link> for chaos, <Link to="/magic-enh/unholy">unholy</Link> for evil, <Link to="/magic-enh/holy">holy</Link> for good, and <Link to="/magic-enh/axiomatic">axiomatic</Link> for law). This effect lasts for 1 minute.</Pair>
+<Pair title="At 16th Level">He can use this ability twice a day.</Pair>
+<Pair title="At 20th Level">He can use this three times a day.</Pair>
+</Ability>
+<Ability id="detect-alignment-sp" icon={["magic-swirl"]}>
+<Pair single id="detect-alignment-sp" flavor="A champion of the faith can detect his opposed alignment.">Detect Alignment (Sp)</Pair>
+<Pair hl title="Replaces">Bonus feat gained at 3rd level</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Move-Equivalent Action">The champion of the faith can focus on a single item or creature within 60 feet and determine whether it possesses his opposed alignment, as <Link to="/spell/detect_evil">detect chaos/evil/good/law</Link>, learning the strength of the aura as if he had studied it for 3 rounds. The champion of the faith does not detect alignment in any other object or creature when using this ability in this way.</Pair>
+</Ability>
+<Ability id="smite-su" icon={["armor-downgrade","armor-upgrade"]}>
+<Pair single id="smite-su" flavor="A champion of the faith can focus his powers against his chosen foes.">Smite (Su)</Pair>
+<Pair hl title="Replaces">Channel energy</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Usage">1 time/day per four warpriest levels<ByLevelPop levels={[[4,1],[8,2],[12,3],[16,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Swift Action"><p>The champion of the faith chooses one target within sight to <em>smite.</em> If this target is of his opposed alignment, the champion of the faith adds his Charisma bonus (if any) to his attack rolls and adds his warpriest level to all damage rolls made against the target of his <em>smite.</em> If the target of his <em>smite</em> is an <Link to="/type/outsider">outsider</Link> with the subtype corresponding to his opposed alignment, the bonus to damage on the first successful attack increases to 2 points of damage per warpriest level the champion of the faith possesses. Regardless of the target, <em>smite</em> attacks automatically bypass any DR the target possesses.</p>
+<p>In addition, while <em>smite</em> is in effect, the champion of the faith gains a deflection bonus equal to his Charisma modifier (if any) to his AC against attacks made by the target of the <em>smite.</em> If the <em>smite</em> targets a creature that's not of the champion of the faith's opposed alignment, the <em>smite</em> is wasted with no effect.</p>
+<p>The <em>smite</em> effect remains until the target of the <em>smite</em> is dead or the next time the champion of the faith regains spells.</p>
+</Pair>
+<Pair title="Special">Using this ability consumes two uses of his <em>fervor</em> ability.</Pair>
+</Ability>
 </>};
 const _cult_leader = {title: "Cult Leader", jsx: <><h2 id="arc-warpriest-cult_leader-cult-leader">Cult Leader</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 128</Link><br/>Referred to as fanatics, lunatics, or obsessives, cultists see themselves as genuine devotees of their deity. And the hierarchs of those devotees, the cult leaders, are the most fanatical of them all. Cult leaders are known for turning reasonable hearts toward corrupted teachings and striking at those that get in the way of their agenda.</p>
@@ -45,53 +112,149 @@ const _cult_leader = {title: "Cult Leader", jsx: <><h2 id="arc-warpriest-cult_le
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (engineering), Ride, Survival, Swim</Pair></Ability>
-<p><strong>Skill Ranks per Level:</strong> 4 + Int modifier.</p>
-<p><strong>Weapon and Armor Proficiency:</strong> Cult leaders are proficient with all simple weapons, plus the <Link to="/eq-weapon/hand_crossbow">hand crossbow</Link>, <Link to="/eq-weapon/rapier">rapier</Link>, <Link to="/eq-weapon/sap">sap</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link>, and <Link to="/eq-weapon/short_sword">short sword</Link>, as well as the favored weapon of their deity. They are proficient with light armor and light shields. The cult leader does not gain <Link to="/feat/weapon_focus">Weapon Focus</Link> as a bonus feat as a warpriest normally would.</p>
-<p>This replaces the warpriest's <strong className="hl">weapon and armor proficiencies</strong>.</p>
-<p><strong>Well-Hidden (Ex):</strong> A cult leader gains a +2 bonus on Disguise and Stealth checks.</p>
-<p>This ability replaces <strong className="hl">focus weapon</strong>.</p>
-<p><strong>Sneak Attack (Ex):</strong> At 3rd level, a cult leader gains the <Link to="/ability/sneak_attack">sneak attack</Link> ability, as the rogue class feature. If he already has sneak attack from another class, the extra damage from the classes that grant sneak attack stack for the purpose of determining the sneak attack's extra damage dice. This extra damage is 1d6 at 3rd level and increases by 1d6 every 3 levels thereafter.</p>
-<p>This ability replaces the <strong className="hl">bonus feats</strong> gained at 3rd, 9th, and 15th levels.</p>
-<p><strong>Enthrall (Sp):</strong> At 4th level, a cult leader can cast <Link to="/spell/enthrall">enthrall</Link>. Using this ability consumes two uses of his fervor ability.</p>
-<p>This ability replaces <strong className="hl">channel energy</strong>.</p>
-<p><strong>Hide in Plain Sight (Su):</strong> At 12th level, a cult leader can use the Stealth skill even while being observed. As long as he is within 10 feet of an area of <Link to="/rule/dim_light">dim light</Link>, a cult leader can hide himself from view in the open without anything to actually hide behind. He cannot, however, hide in his own shadow.</p>
-<p>This ability replaces the <strong className="hl">bonus feat</strong> gained at 12th level.</p>
+<Ability id="skill-ranks-per-level" icon={["upgrade"]}>
+<Pair single id="skill-ranks-per-level">Skill Ranks per Level</Pair>
+<Pair title="Info">4 + Int modifier.</Pair>
+</Ability>
+<Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
+<Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
+<Pair hl title="Replaces">Weapon and armor proficiencies</Pair>
+<Pair title="Info">Cult leaders are proficient with all simple weapons, plus the <Link to="/eq-weapon/hand_crossbow">hand crossbow</Link>, <Link to="/eq-weapon/rapier">rapier</Link>, <Link to="/eq-weapon/sap">sap</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link>, and <Link to="/eq-weapon/short_sword">short sword</Link>, as well as the favored weapon of their deity. They are proficient with light armor and light shields. The cult leader does not gain <Link to="/feat/weapon_focus">Weapon Focus</Link> as a bonus feat as a warpriest normally would.</Pair>
+</Ability>
+<Ability id="well-hidden-ex" icon={["upgrade"]}>
+<Pair single id="well-hidden-ex">Well-Hidden (Ex)</Pair>
+<Pair hl title="Replaces">Focus weapon</Pair>
+<Pair title="Passive Ability">A cult leader gains a +2 bonus on Disguise and Stealth checks.</Pair>
+</Ability>
+<Ability id="sneak-attack-ex" icon={["stairs-goal"]}>
+<Pair single id="sneak-attack-ex">Sneak Attack (Ex)</Pair>
+<Pair hl title="Replaces">Bonus feats gained at 3rd, 9th, and 15th levels</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A cult leader gains the <Link to="/ability/sneak_attack">sneak attack</Link> ability, as the rogue class feature. If he already has sneak attack from another class, the extra damage from the classes that grant sneak attack stack for the purpose of determining the sneak attack's extra damage dice. This extra damage is 1d6.</Pair>
+<Pair title="At 6th Level">The damage becomes 2d6.</Pair>
+<Pair title="At 9th Level">The damage increases to 3d6.</Pair>
+<Pair title="At 12th Level">The damage becomes 4d6.</Pair>
+<Pair title="At 15th Level">The damage increases to 5d6.</Pair>
+<Pair title="At 18th Level">The damage becomes 6d6.</Pair>
+</Ability>
+<Ability id="enthrall-sp" icon={["magic-swirl"]}>
+<Pair single id="enthrall-sp">Enthrall (Sp)</Pair>
+<Pair hl title="Replaces">Channel energy</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A cult leader can cast <Link to="/spell/enthrall">enthrall</Link>. Using this ability consumes two uses of his <em>fervor</em> ability.</Pair>
+</Ability>
+<Ability id="hide-in-plain-sight-su" icon={["stairs-goal"]}>
+<Pair single id="hide-in-plain-sight-su">Hide in Plain Sight (Su)</Pair>
+<Pair hl title="Replaces">Bonus feat gained at 12th level</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">A cult leader can use the Stealth skill even while being observed. As long as he is within 10 feet of an area of <Link to="/rule/dim_light">dim light</Link>, a cult leader can hide himself from view in the open without anything to actually hide behind. He cannot, however, hide in his own shadow.</Pair>
+</Ability>
 </>};
 const _disenchanter = {title: "Disenchanter", jsx: <><h2 id="arc-warpriest-disenchanter-disenchanter">Disenchanter</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 129</Link><br/>While many warpriests focus on threats to the body, the disenchanter focuses on dangers to the mind and the soul. Using the power of his patron, the disenchanter seeks to keep the powers of magic in check.</p>
-<p><strong>Bonus Feats (Ex):</strong> Whenever a disenchanter gains a bonus feat, he must choose from the following list: <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_counterspell">Improved Counterspell</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Spellcraft), or <Link to="/feat/spell_focus">Spell Focus</Link> (abjuration). At 6th level, he adds the following feats to this list: Dispel Synergy, <Link to="/feat/improved_great_fortitude">Improved Great Fortitude</Link>, <Link to="/feat/improved_iron_will">Improved Iron Will</Link>, and <Link to="/feat/improved_lightning_reflexes">Improved Lightning Reflexes</Link>. At 12th level, he adds the following feats to this list: <Link to="/feat/destructive_dispel">Destructive Dispel</Link>, <Link to="/feat/dispelling_critical">Dispelling Critical</Link>, <Link to="/feat/parry_spell">Parry Spell</Link>, and <Link to="/feat/ray_shield">Ray Shield</Link>. He need not meet the prerequisites for these feats.</p>
-<p>This ability alters <strong className="hl">bonus feats</strong>.</p>
-<p><strong>Mystic Interference (Su):</strong> At 4th level, a disenchanter can channel a <Link to="/misc/burst">burst</Link> of pure abjuration magic to grant protection to himself and all allies with 30 feet. Affected creatures receive a +1 bonus on saving throws against spells and spell-like abilities for a number of rounds equal to his warpriest level. This is a sacred bonus if the warpriest is good-aligned or able to spontaneously cast cure spells, and a profane bonus if the warpriest is evil-aligned or able to spontaneously cast inflict spells. Using this ability consumes two uses of his fervor ability. At 8th level and every 4 levels thereafter, the bonus granted by mystic interference increases by 1 (to a maximum of +5 at 20th level).</p>
-<p>This ability replaces <strong className="hl">channel energy</strong>.</p>
-<p><strong>Banish Enchantment (Su):</strong> At 6th level, a disenchanter learns to focus his mystic interference. As a standard action, he can consume two uses of his fervor ability to target a single creature within 30 feet with a targeted <Link to="/spell/dispel_magic">dispel magic</Link>.</p>
-<p>This ability replaces the <strong className="hl">bonus feat</strong> gained at 6th level.</p>
+<Ability id="bonus-feats-ex" icon={["info"]}>
+<Pair single id="bonus-feats-ex">Bonus Feats (Ex)</Pair>
+<Pair hl title="Alters">Bonus feats</Pair>
+<Pair title="Info">Whenever a disenchanter gains a bonus feat, he must choose from the following list: <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_counterspell">Improved Counterspell</Link>, <Link to="/feat/iron_will">Iron Will</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Spellcraft), or <Link to="/feat/spell_focus">Spell Focus</Link> (abjuration).</Pair>
+<Pair title="At 6th Level">He adds the following feats to this list: <Link to="/feat/dispel_synergy">Dispel Synergy</Link>, <Link to="/feat/improved_great_fortitude">Improved Great Fortitude</Link>, <Link to="/feat/improved_iron_will">Improved Iron Will</Link>, and <Link to="/feat/improved_lightning_reflexes">Improved Lightning Reflexes</Link>.</Pair>
+<Pair title="At 12th Level">He adds the following feats to this list: <Link to="/feat/destructive_dispel">Destructive Dispel</Link>, <Link to="/feat/dispelling_critical">Dispelling Critical</Link>, <Link to="/feat/parry_spell">Parry Spell</Link>, and <Link to="/feat/ray_shield">Ray Shield</Link>.</Pair>
+<Pair title="Special">He need not meet the prerequisites for these feats.</Pair>
+</Ability>
+<Ability id="mystic-interference-su" icon={["armor-upgrade","shield-reflect"]}>
+<Pair single id="mystic-interference-su">Mystic Interference (Su)</Pair>
+<Pair hl title="Replaces">Channel energy</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">A disenchanter can channel a <Link to="/misc/burst">burst</Link> of pure abjuration magic to grant protection to himself and all allies with 30 feet. Affected creatures receive a bonus on saving throws against spells and spell-like abilities for a number of rounds equal to his warpriest level. The bonus is equal to <Link to="/misc/one_fourth">one-fourth</Link> of his warpriest level. This is a sacred bonus if the warpriest is good-aligned or able to spontaneously cast <em>cure</em> spells, and a profane bonus if the warpriest is evil-aligned or able to spontaneously cast <em>inflict</em> spells. Using this ability consumes two uses of his <em>fervor</em> ability.</Pair>
+</Ability>
+<Ability id="banish-enchantment-su" icon={["magic-swirl"]}>
+<Pair single id="banish-enchantment-su" flavor="A disenchanter learns to focus his mystic interference.">Banish Enchantment (Su)</Pair>
+<Pair hl title="Replaces">Bonus feat gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Standard Action">He can consume two uses of his <em>fervor</em> ability to target a single creature within 30 feet with a targeted <Link to="/spell/dispel_magic">dispel magic</Link>.</Pair>
+</Ability>
 </>};
 const _divine_champion = {title: "Divine Champion", jsx: <><h2 id="arc-warpriest-divine_champion-divine-champion">Divine Champion</h2>
 <p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology pg. 14</Link><br/>Divine champions are unswervingly devoted to their causes, and specialize in bringing battle to the enemies of their faiths. They are similar to divine paragons in many ways, but tend to focus more on their deity's combat prowess rather than seeking to become a physical manifestation of the deity's will.</p>
-<p><strong>Devotion:</strong> A divine champion's power comes from his close connection to his deity. He must worship a deity, and must maintain the same alignment as that deity.</p>
-<p><strong>Obedient Champion:</strong> At 3rd level, the divine champion gains <Link to="/feat/deific_obedience">Deific Obedience</Link> as a bonus feat, even if he doesn't meet the feat's prerequisites. When a divine champion gains boons from this feat, he gains the appropriate sentinel boon offered by his deity, rather than gaining the exalted boon.</p>
-<p>This replaces the <strong className="hl">bonus feat</strong> gained at 3rd level.</p>
-<p><strong>Know the Infidel (Ex):</strong> At 6th level, the divine champion becomes an expert at combating enemies of his faith. He must choose a deity whose alignment is opposed to his own deity's alignment in at least one way (good versus evil or law versus chaos); preferably, he should choose a <Link to="/main/faiths_alignments">deity whose alignment</Link> diametrically opposes that of his own deity. If the divine champion worships a deity whose alignment is neutral, he must instead select a deity whose alignment is chaotic evil, chaotic good, lawful evil, or lawful good. The choice of this enemy deity is subject to GM approval. At the GM's discretion, the divine champion may be allowed to choose a philosophy or religious organization that's not affiliated with a deity, such as the <Link to="/faith/green_faith">Green Faith</Link>, the <Link to="/trait/pure_legion_recruit">Pure Legion</Link>, or the <Link to="/rule/whispering_way">Whispering Way</Link>, but only if that philosophy or religious organization is an enemy of the divine champion's deity. The divine champion gains a +2 bonus on Bluff, Intimidate, Knowledge, Perception, and Sense Motive checks against followers of the enemy faith, as well as a +2 bonus on weapon attack and damage rolls made against them. Additionally, he can attempt Knowledge skill checks relating to the deity and its church untrained, even if the DC is higher than 10.</p>
-<p>Every 6 warpriest levels thereafter (12th and 18th level), the divine champion can select an additional deity to oppose. In addition, at each such interval, the bonus against the followers of any one deity he selected previously (including the one just selected, if so desired) increases by +2.</p>
-<p>This replaces the <strong className="hl">bonus feats</strong> gained at 6th, 12th, and 18th levels.</p>
-<p><strong>Fervent Boon (Sp):</strong> Beginning at 9th level, a divine champion can call upon his deity for minor boons. By expending one or more uses of his fervor ability, he can cast one of the spell-like abilities included in his deity's first sentinel boon. By expending one use of fervor, he can cast the spell-like ability that the boon normally grants three uses of per day; by expending two uses of fervor he can cast the spell-like ability that the boon normally grants twice per day; and by expending three uses of fervor, he can cast the spell-like ability that the boon normally grants once per day. These uses don't count against any uses granted by the boon.</p>
-<p>This replaces the <strong className="hl">bonus feat</strong> gained at 9th level.</p>
+<Ability id="devotion" icon={["info"]}>
+<Pair single id="devotion">Devotion</Pair>
+<Pair title="Info">A divine champion's power comes from his close connection to his deity. He must worship a deity, and must maintain the same alignment as that deity.</Pair>
+</Ability>
+<Ability id="obedient-champion" icon={["stairs-goal"]}>
+<Pair single id="obedient-champion">Obedient Champion</Pair>
+<Pair hl title="Replaces">Bonus feat gained at 3rd level</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">The divine champion gains <Link to="/feat/deific_obedience">Deific Obedience</Link> as a bonus feat, even if he doesn't meet the feat's prerequisites. When a divine champion gains boons from this feat, he gains the appropriate <strong>sentinel</strong> boon offered by his deity, rather than gaining the <strong>exalted</strong> boon.</Pair>
+</Ability>
+<Ability id="know-the-infidel-ex" icon={["upgrade"]}>
+<Pair single id="know-the-infidel-ex" flavor="The divine champion becomes an expert at combating enemies of his faith.">Know the Infidel (Ex)</Pair>
+<Pair hl title="Replaces">Bonus feats gained at 6th, 12th, and 18th levels</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Choice"><p>He must choose a deity whose alignment is opposed to his own deity's alignment in at least one way (good versus evil or law versus chaos); preferably, he should choose a <Link to="/main/faiths_alignments">deity whose alignment</Link> diametrically opposes that of his own deity. If the divine champion worships a deity whose alignment is neutral, he must instead select a deity whose alignment is chaotic evil, chaotic good, lawful evil, or lawful good.</p>
+<p>The choice of this enemy deity is subject to GM approval. At the GM's discretion, the divine champion may be allowed to choose a philosophy or religious organization that's not affiliated with a deity, such as the <Link to="/faith/green_faith">Green Faith</Link>, the <Link to="/trait/pure_legion_recruit">Pure Legion</Link>, or the <Link to="/rule/whispering_way">Whispering Way</Link>, but only if that philosophy or religious organization is an enemy of the divine champion's deity.</p>
+</Pair>
+<Pair title="Ability">The divine champion gains a +2 bonus on Bluff, Intimidate, Knowledge, Perception, and Sense Motive checks against followers of the enemy faith, as well as a +2 bonus on weapon attack and damage rolls made against them. Additionally, he can attempt Knowledge skill checks relating to the deity and its church untrained, even if the DC is higher than 10.</Pair>
+<Pair title="At 12th Level">The divine champion can select an additional deity to oppose. In addition, the bonus against the followers of any one deity he selected previously (including the one just selected, if so desired) increases by +2.</Pair>
+<Pair title="At 18th Level">The divine champion can select an additional deity to oppose. In addition, the bonus against the followers of any one deity he selected previously (including the one just selected, if so desired) increases by +2.</Pair>
+</Ability>
+<Ability id="fervent-boon-sp" icon={["magic-swirl"]}>
+<Pair single id="fervent-boon-sp" flavor="A divine champion can call upon his deity for minor boons.">Fervent Boon (Sp)</Pair>
+<Pair hl title="Replaces">Bonus feat gained at 9th level</Pair>
+<Pair title="Gained">At 9th Level</Pair>
+<Pair title="Ability"><p>By spending <em>fervor,</em> he can cast one of the spell-like abilities included in his deity's first <strong>sentinel</strong> boon.</p>
+<p>By expending one use of <em>fervor,</em> he can cast the spell-like ability that the boon normally grants three uses of per day; by expending two uses of <em>fervor</em> he can cast the spell-like ability that the boon normally grants twice per day; and by expending three uses of <em>fervor,</em> he can cast the spell-like ability that the boon normally grants once per day. These uses don't count against any uses granted by the boon.</p>
+</Pair>
+</Ability>
 </>};
 const _divine_commander = {title: "Divine Commander", jsx: <><h2 id="arc-warpriest-divine_commander-divine-commander">Divine Commander</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 129</Link><br/>Some warpriests are called to lead great armies and face legions of foes. These divine commanders live for war and fight for glory. Their hearts quicken at battle cries, and they charge forth with their deity's symbol held high. These leaders of armies do so to promote the agenda of their faith, and lead armies of devoted followers willing to give their lives for the cause. (Several of the divine commander's abilities reference and interact with the <Link to="/rule/mass_combat">mass combat rules</Link>.)</p>
-<p><strong>Mount (Ex):</strong> A divine commander gains the service of a loyal and trusty steed to carry her into battle. This mount functions as a druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using the divine commander's level as her effective druid level. The creature must be one that she is capable of riding and must be suitable as a mount. A Medium divine commander can select a <Link to="/companion/camel">camel</Link> or a <Link to="/companion/horse">horse</Link>. A Small divine commander can select a <Link to="/companion/pony">pony</Link> or <Link to="/companion/wolf">wolf</Link>, but can also select a <Link to="/companion/boar">boar</Link> or a <Link to="/companion/dog">dog</Link> if she is at least 4th level. (The GM might approve other animals as suitable mounts.)</p>
-<p>A divine commander does not take an armor check penalty on Ride checks while riding this mount. The mount is always considered combat trained, and begins play with <Link to="/feat/light_armor_proficiency">Light Armor Proficiency</Link> as a bonus feat. A divine commander's mount does not gain the share spells special ability. Should a divine commander's mount die, she can find another mount to serve her after 1 week of mourning. This new mount does not gain the link, evasion, devotion, or improved evasion special abilities until the next time the divine commander gains a level.</p>
-<p>This ability replaces <strong className="hl">blessings</strong>.</p>
-<p><strong>Battle Tactician (Ex):</strong> At 3rd level, a divine commander gains a <Link to="/main/teamwork_feat">teamwork feat</Link> as a bonus feat. She must meet the prerequisites for this feat. As a standard action, the divine commander can grant this feat to all allies within 30 feet who can see and hear her. Allies retain the use of this bonus feat for 4 rounds, plus 1 round for every 2 levels beyond 3rd that the divine commander possesses. Allies do not need to meet the prerequisites of this bonus feat. The divine commander can use this ability once per day at 3rd level, plus one additional time per day at 9th and 15th levels.</p>
-<p>This ability replaces the <strong className="hl">bonus feat</strong> gained at 3rd level.</p>
-<p><strong>Blessed Mount (Su):</strong> At 6th level, a divine commander's mount becomes a creature blessed by his deity. The divine commander's mount gains either the <Link to="/template/celestial">celestial</Link>, <Link to="/template/entropic">entropic</Link>, <Link to="/template/fiendish">fiendish</Link>, or <Link to="/template/resolute">resolute</Link> template, matching the alignment of the warpriest's deity (celestial for good, entropic for chaotic, fiendish for evil, and resolute for lawful). If the deity matches more than one alignment, the divine commander can select which of the two templates the mount receives. Once the type of template is selected, it cannot be changed.</p>
+<Ability id="mount-ex" icon={["stairs-goal"]}>
+<Pair single id="mount-ex">Mount (Ex)</Pair>
+<Pair hl title="Replaces">Blessings</Pair>
+<Pair title="Ability"><p>A divine commander gains the service of a loyal and trusty steed to carry her into battle. This mount functions as a druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using the divine commander's level as her effective druid level. The creature must be one that she is capable of riding and must be suitable as a mount.</p>
+<p>A Medium divine commander can select a <Link to="/companion/camel">camel</Link> or a <Link to="/companion/horse">horse</Link>. A Small divine commander can select a <Link to="/companion/pony">pony</Link> or <Link to="/companion/wolf">wolf</Link>, but can also select a <Link to="/companion/boar">boar</Link> or a <Link to="/companion/dog">dog</Link> if she is at least 4th level. (The GM might approve other animals as suitable mounts.)</p>
+<p>A divine commander does not take an armor check penalty on Ride checks while riding this mount. The mount is always considered combat trained, and begins play with <Link to="/feat/light_armor_proficiency">Light Armor Proficiency</Link> as a bonus feat. A divine commander's mount does not gain the <em>share spells</em> special ability. Should a divine commander's mount die, she can find another mount to serve her after 1 week of mourning. This new mount does not gain the <em>link, evasion, devotion,</em> or <em>improved evasion</em> special abilities until the next time the divine commander gains a level.</p>
+</Pair>
+</Ability>
+<Ability id="battle-tactician-ex" icon={["stairs-goal"]}>
+<Pair single id="battle-tactician-ex">Battle Tactician (Ex)</Pair>
+<Pair hl title="Replaces">Bonus feat gained at 3rd level</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A divine commander gains a <Link to="/main/teamwork_feat">teamwork feat</Link> as a bonus feat. She must meet the prerequisites for this feat.</Pair>
+<Pair title="Standard Action">The divine commander can grant this feat to all allies within 30 feet who can see and hear her. Allies retain the use of this bonus feat for 4 rounds. Allies do not need to meet the prerequisites of this bonus feat.</Pair>
+<Pair title="Usage">1 time/day + 1 per six warpriest levels beyond 3rd<ByLevelPop levels={[[3,1],[9,2],[15,3]]} unit="time" postText="/day" /></Pair>
+<Pair title="At 5th Level">The amount of time allies gain this feat becomes 5 rounds.</Pair>
+<Pair title="At 7th Level">The amount of time allies gain this feat increases to 6 rounds.</Pair>
+<Pair title="At 9th Level">The amount of time allies gain this feat becomes 7 rounds.</Pair>
+<Pair title="At 11th Level">The amount of time allies gain this feat increases to 8 rounds.</Pair>
+<Pair title="At 13th Level">The amount of time allies gain this feat becomes 9 rounds.</Pair>
+<Pair title="At 15th Level">The amount of time allies gain this feat increases to 10 rounds.</Pair>
+<Pair title="At 17th Level">The amount of time allies gain this feat becomes 11 rounds.</Pair>
+<Pair title="At 19th Level">The amount of time allies gain this feat increases to 12 rounds.</Pair>
+</Ability>
+<Ability id="blessed-mount-su" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="blessed-mount-su">Blessed Mount (Su)</Pair>
+<Pair hl title="Replaces">Bonus feat gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability"><p>A divine commander's mount becomes a creature blessed by his deity. The divine commander's mount gains either the <Link to="/template/celestial">celestial</Link>, <Link to="/template/entropic">entropic</Link>, <Link to="/template/fiendish">fiendish</Link>, or <Link to="/template/resolute">resolute</Link> template, matching the alignment of the warpriest's deity (celestial for good, entropic for chaotic, fiendish for evil, and resolute for lawful). If the deity matches more than one alignment, the divine commander can select which of the two templates the mount receives. Once the type of template is selected, it cannot be changed.</p>
 <p>If the divine commander's deity is neutral with no other alignment components, the mount receives spell resistance equal to the divine commander's level + 5, as well as resistance 10 against two types of energy damage of the divine commander's choice.</p>
-<p>If a divine commander's mount dies and the divine commander finds another mount, the new mount becomes a blessed mount the next time the divine commander gains a level.</p>
-<p>This ability replaces the <strong className="hl">bonus feat</strong> gained at 6th level.</p>
-<p><strong>Greater Battle Tactician (Ex):</strong> At 12th level, the divine commander gains an additional teamwork feat as a bonus feat. She must meet the prerequisites for this feat. The divine commander can grant this feat to her allies using the battle tactician ability. Additionally, using the battle tactician ability is now a swift action.</p>
-<p>This ability replaces the <strong className="hl">bonus feat</strong> gained at 12th level.</p>
-<p><strong>Bless Army (Su):</strong> At 15th level, a divine commander can raise her holy symbol high and give a blessing to the army she is leading. The divine commander's army gains a +1 bonus to the army's <Link to="/rule/mass_combat_quick_reference_guide">OM and DV</Link>. This is a sacred bonus if the warpriest is good-aligned or able to spontaneously cast cure spells, and it is a profane bonus if the warpriest is evil-aligned or able to spontaneously cast inflict spells. Using this ability requires the divine commander to expend two uses of her fervor ability. This bonus lasts for 1 battle, and it must be performed during the tactics phase of the battle. If this is performed when a mass combat is not imminent, the fervor is spent without granting any bonus.</p>
-<p>This ability replaces the <strong className="hl">bonus feat</strong> gained at 15th level.</p>
+<p>If a divine commander's mount dies and the divine commander finds another mount, the new mount becomes a <em>blessed mount</em> the next time the divine commander gains a level.</p>
+</Pair>
+</Ability>
+<Ability id="greater-battle-tactician-ex" icon={["stairs-goal"]}>
+<Pair single id="greater-battle-tactician-ex">Greater Battle Tactician (Ex)</Pair>
+<Pair hl title="Replaces">Bonus feat gained at 12th level</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability"><p>The divine commander gains an additional teamwork feat as a bonus feat. She must meet the prerequisites for this feat. The divine commander can grant this feat to her allies using the <em>battle tactician</em> ability.</p>
+<p>Additionally, using the <em>battle tactician</em> ability is now a <strong className="hl">swift action</strong>.</p>
+</Pair>
+</Ability>
+<Ability id="bless-army-su" icon={["upgrade","shield-reflect"]}>
+<Pair single id="bless-army-su">Bless Army (Su)</Pair>
+<Pair hl title="Replaces">Bonus feat gained at 15th level</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">A divine commander can raise her holy symbol high and give a blessing to the army she is leading. The divine commander's army gains a +1 bonus to the army's <Link to="/rule/om_and_dv">OM and DV</Link>. This is a sacred bonus if the warpriest is good-aligned or able to spontaneously cast <em>cure</em> spells, and it is a profane bonus if the warpriest is evil-aligned or able to spontaneously cast <em>inflict</em> spells.</Pair>
+<Pair title="Special">Using this ability requires the divine commander to expend two uses of her <em>fervor</em> ability. This bonus lasts for 1 battle, and it must be performed during the <em>tactics</em> phase of the battle. If this is performed when a mass combat is not imminent, the fervor is spent without granting any bonus.</Pair>
+</Ability>
 </>};
 const _feral_champion = {title: "Feral Champion", jsx: <><h2 id="arc-warpriest-feral_champion-feral-champion">Feral Champion</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 97</Link><br/>When a warpriest devotes himself to a god of the natural world, he is sometimes blessed with supernatural powers that allow him to evoke animalistic power and fury.</p>
