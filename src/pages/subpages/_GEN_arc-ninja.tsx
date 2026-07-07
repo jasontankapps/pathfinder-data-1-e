@@ -135,8 +135,8 @@ const _petal_ninja = {title: "Petal Ninja", jsx: <><h2 id="arc-ninja-petal_ninja
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/heal">Heal</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Appraise</Pair></Ability>
-<Ability id="arc-ninja-petal_ninja-blossom-shower-ex" icon={["stairs-goal","armor-upgrade","armor-downgrade"]}>
-<Pair single id="arc-ninja-petal_ninja-blossom-shower-ex">Blossom Shower (Ex)</Pair>
+<Ability id="blossom-shower-ex" icon={["stairs-goal","armor-upgrade","armor-downgrade"]}>
+<Pair single id="blossom-shower-ex">Blossom Shower (Ex)</Pair>
 <Pair hl title="Replaces">Ninja trick gained at 2nd level</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Standard Action">A petal ninja can spend 1 ki point to create a <Link to="/misc/burst">burst</Link> of flower petals in a 15-foot radius centered on a point within 20 feet. A blossom shower lasts for a number of rounds equal to half the petal ninja's level (minimum 1 round).</Pair>

@@ -316,8 +316,8 @@ const _hag_riven = {title: "Hag-Riven", jsx: <><h2 id="arc-bloodrager-hag_riven-
 </>};
 const _id_rager = {title: "Id Rager", jsx: <><h2 id="arc-bloodrager-id_rager-id-rager">Id Rager</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 23</Link><br/>An id rager lacks a supernatural taint to his blood, instead drawing power from pure emotion.</p>
-<Ability id="arc-bloodrager-id_rager-atavistic-avatar-su" icon={["stairs-goal"]}>
-<Pair single id="arc-bloodrager-id_rager-atavistic-avatar-su">Atavistic Avatar (Su)</Pair>
+<Ability id="atavistic-avatar-su" icon={["stairs-goal"]}>
+<Pair single id="atavistic-avatar-su">Atavistic Avatar (Su)</Pair>
 <Pair hl title="Replaces">Bloodline, all bloodline spells, all bloodline powers</Pair>
 <Pair title="Choice"><p>An id rager chooses one emotional focus to define his core: anger, dedication, despair, fear, hatred, jealousy, kindness, remorse, whimsey, or zeal. He gains <Link to="/feat/skill_focus">Skill Focus</Link> as a bonus feat in one skill associated with his atavistic focus.</p>
 <ul>
@@ -388,8 +388,8 @@ const _prowler_at_worlds_end = {title: "Prowler at World's End", jsx: <><h2 id="
 <Pair title="At 16th Level">He gains its greater power.</Pair>
 <Pair title="Special">A prowler's spirit surge bonus never advances beyond 1d6.</Pair>
 </Ability>
-<Ability id="arc-bloodrager-prowler_at_worlds_end-spirit-su" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
-<Pair single id="arc-bloodrager-prowler_at_worlds_end-spirit-su" flavor="Text from the medium class">Spirit (Su)</Pair>
+<Ability id="spirit-su" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="spirit-su" flavor="Text from the medium class">Spirit (Su)</Pair>
 <Pair title="Ability"><p>Each day, you can channel a <Link to="/ability/spirits">spirit</Link> through a ritual known as a seance. Seances take 1 hour to perform and require your concentration. At the end of a seance, you invite a local spirit to inhabit you and serve as your spirit for that day. You gain the spirit's listed seance boon and lesser spirit power for 24 hours.</p>
 <p>Though you can choose the legend to which the spirit you channel belongs, you must channel that spirit from an appropriate location. Each spirit has a favored location it usually inhabits, though spirits may also be present at other locations appropriate to their legends; such locations are listed in each legend's <strong>Favored Locations</strong> entry.</p>
 <p>You can invite your allies to participate in your seance: <em>shared seance</em> and certain spirit powers affect other participants. A character counts as participating so long as she maintains physical contact with another participating character and willfully opens herself to the spirit; unlike you, other participating characters can take other actions during this time. Only creatures with an Intelligence score of at least 3 can participate in a seance.</p>

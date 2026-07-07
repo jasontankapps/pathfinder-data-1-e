@@ -701,8 +701,8 @@ const _fey = {title: "Fey", jsx: <><h2 id="blrgbloodline-fey-fey-bloodline">Fey 
 <Pair title="Gained">At 12th Level</Pair>
 <Pair title="Passive Ability">While <em>bloodraging</em> you're treated as if you are under the effects of <em>haste.</em></Pair>
 </Ability>
-<Ability id="blrgbloodline-fey-one-with-nature-su" icon={["magic-swirl","armor-upgrade"]}>
-<Pair single id="blrgbloodline-fey-one-with-nature-su">One with Nature (Su)</Pair>
+<Ability id="one-with-nature-su" icon={["magic-swirl","armor-upgrade"]}>
+<Pair single id="one-with-nature-su">One with Nature (Su)</Pair>
 <Pair title="Gained">At 16th Level</Pair>
 <Pair title="Usage">Three times a day.</Pair>
 <Pair title="Move-Equivalent Action"><p>You can transport yourself from one tree to another tree, as <Link to="/spell/tree_stride">tree stride</Link> with half the transport range.</p>
@@ -752,8 +752,8 @@ const _hag = {title: "Hag", jsx: <><h2 id="blrgbloodline-hag-hag-bloodline">Hag 
 <Pair title="Usage">3 times/day.</Pair>
 <Pair title="Standard Action">You can cast <em>bestow curse</em> as a spell-like ability. You count as a hag for the purposes of joining a coven; the coven must contain at least one hag.</Pair>
 </Ability>
-<Ability id="blrgbloodline-hag-curse-conduit-su" icon={["armor-upgrade","mailed-fist"]}>
-<Pair single id="blrgbloodline-hag-curse-conduit-su">Curse Conduit (Su)</Pair>
+<Ability id="curse-conduit-su" icon={["armor-upgrade","mailed-fist"]}>
+<Pair single id="curse-conduit-su">Curse Conduit (Su)</Pair>
 <Pair title="Gained">At 20th Level</Pair>
 <Pair title="Ability"><p>You gain immunity to negative energy damage and all spells with the curse descriptor.</p>
 <p>Whenever you confirm a critical hit with a melee weapon, you can immediately target your opponent with a <em>bestow curse</em> spell or spell-like ability as a free action.</p>

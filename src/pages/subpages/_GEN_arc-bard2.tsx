@@ -28,8 +28,8 @@ const _geisha = {title: "Geisha", jsx: <><h2 id="arc-bard-geisha-geisha">Geisha<
 </>};
 const _hatharat_agent = {title: "Hatharat Agent", jsx: <><h2 id="arc-bard-hatharat_agent-hatharat-agent">Hatharat Agent</h2>
 <p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East pg. 47</Link><br/>Although the Hatharat employs all manner of specialists, bards who take up the role of agent are among its most infamous and widespread.</p>
-<Ability id="arc-bard-hatharat_agent-called-favor-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-bard-hatharat_agent-called-favor-ex">Called Favor (Ex)</Pair>
+<Ability id="called-favor-ex" icon={["stairs-goal"]}>
+<Pair single id="called-favor-ex">Called Favor (Ex)</Pair>
 <Pair hl title="Replaces">Bardic knowledge</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>A Hatharat agent can use his contacts to ask for a favor from various individuals who have benefited from Hatharat aid in the past. The agent must spend 1d4 hours in an urban area with a population of at least 200 people to use this ability, and must succeed at a DC 20 Diplomacy check to secure the favor. Once an attempt to call in a favor has been made, whether or not the Diplomacy check was successful, the Hatharat agent must wait 2d6 days before attempting to call in a new favor, so as to not overtax the favors owed the society as a whole.</p>
@@ -201,8 +201,8 @@ const _lotus_geisha = {title: "Lotus Geisha", jsx: <><h2 id="arc-bard-lotus_geis
 <Pair hl title="Alters">Weapon proficiencies</Pair>
 <Pair title="Info">A lotus geisha is proficient with all simple weapons, plus the <Link to="/eq-weapon/butterfly_sword">butterfly sword</Link>, <Link to="/eq-weapon/fighting_fan">fighting fan</Link>, <Link to="/eq-weapon/iron_brush">iron brush</Link>, <Link to="/eq-weapon/sai">sai</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link>, and <Link to="/eq-weapon/shuriken">shuriken</Link>.</Pair>
 </Ability>
-<Ability id="arc-bard-lotus_geisha-enrapturing-performance-su" icon={["stairs-goal"]}>
-<Pair single id="arc-bard-lotus_geisha-enrapturing-performance-su">Enrapturing Performance (Su)</Pair>
+<Ability id="enrapturing-performance-su" icon={["stairs-goal"]}>
+<Pair single id="enrapturing-performance-su">Enrapturing Performance (Su)</Pair>
 <Pair hl title="Replaces">Well-versed</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability"><p>A lotus geisha gains the ability to execute an <em>enrapturing performance</em> in addition to her bardic performance ability. An <em>enrapturing performance</em> is exactly like a bardic performance with the following exceptions.</p>
@@ -323,8 +323,8 @@ const _magician = {title: "Magician", jsx: <><h2 id="arc-bard-magician-magician"
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A magician gains the <em>arcane bond</em> ability as a <Link to="/class/wizard">wizard</Link>. He may not choose a familiar or a weapon as a bonded item.</Pair>
 </Ability>
-<Ability id="arc-bard-magician-arcane-bond-bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
-<Pair single id="arc-bard-magician-arcane-bond-bonded-object" flavor="Relevant text from the wizard ability.">Arcane Bond: Bonded Object</Pair>
+<Ability id="arcane-bond-bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="arcane-bond-bonded-object" flavor="Relevant text from the wizard ability.">Arcane Bond: Bonded Object</Pair>
 <Pair title="Ability"><p>If you select a bonded object, you begin play with one at no cost. Objects that are the subject of an arcane bond must fall into one of the following categories: amulet, ring, staff, wand, or weapon. These objects are always masterwork quality. If the object is an amulet or ring, it must be worn to have effect, while staves, wands, and weapons must be wielded. If you attempt to cast a spell without your bonded object worn or in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level. If the object is a ring or amulet, it occupies the <Link to="/rule/neck_slot">ring or neck slot</Link> accordingly.</p>
 <p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities. The bonded object cannot be used to cast spells from your opposition schools.</p>
 <p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). If the bonded object is a wand, it loses its wand abilities when its last charge is consumed, but it is not destroyed and it retains all of its bonded object properties and can be used to craft a new wand. The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>
@@ -709,8 +709,8 @@ const _ringleader_ui = {title: "Ringleader (UI)", jsx: <><h2 id="arc-bard-ringle
 <Pair title="At 8th Level">The ringleader's ally gains a competence bonus on an additional skill (for a total of two skills). In addition, he can end the effect to reroll a check with one of the affected skills (the reroll still applies the bonus from inspire competence). Each ally can only use this latter ability once per day, regardless of the number of skills affected and the number of times they are affected by inspire competence.</Pair>
 <Pair title="At 14th Level">The ringleader's ally gains a competence bonus on an additional skill (for a total of three skills). In addition, he can take 10 on the affected skills when stressed or distracted.</Pair>
 </Ability>
-<Ability id="arc-bard-ringleader_ui-inspired-plan-su" icon={["upgrade"]}>
-<Pair single id="arc-bard-ringleader_ui-inspired-plan-su">Inspired Plan (Su)</Pair>
+<Ability id="inspired-plan-su" icon={["upgrade"]}>
+<Pair single id="inspired-plan-su">Inspired Plan (Su)</Pair>
 <Pair hl title="Replaces">Versatile performance</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability"><p>A ringleader can alter his performance so it affects a single ally at a later time. The ringleader must explain his plan to that ally for a number of minutes equal to the number of bardic performance rounds he expends on the effect, and use audible and/or visual components according to the performance altered. This costs the ringleader the chosen number of rounds of bardic performance.</p>

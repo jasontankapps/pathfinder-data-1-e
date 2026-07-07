@@ -107,8 +107,8 @@ const _blighted_defiler = {title: "Blighted Defiler", jsx: <><h2 id="arc-kinetic
 <Pair hl title="Alters">Alignment</Pair>
 <Pair title="Info">Blighted defilers must be evil in order to use <em>steal power,</em> since defiling the land and reaping the vulnerable for power is a particularly vile act. Nonevil blighted defilers can continue to gain kineticist levels and use their other abilities.</Pair>
 </Ability>
-<Ability id="arc-kineticist-blighted_defiler-steal-power-su" icon={["magic-swirl"]}>
-<Pair single id="arc-kineticist-blighted_defiler-steal-power-su">Steal Power (Su)</Pair>
+<Ability id="steal-power-su" icon={["magic-swirl"]}>
+<Pair single id="steal-power-su">Steal Power (Su)</Pair>
 <Pair hl title="Alters">Gather power</Pair>
 <Pair title="Usage">Strength modifier times/day</Pair>
 <Pair title="Ability"><p>A blighted defiler can draw energy from the surrounding land to <em>gather power,</em> gaining one of the three following benefits.</p>
@@ -120,8 +120,8 @@ const _blighted_defiler = {title: "Blighted Defiler", jsx: <><h2 id="arc-kinetic
 <p>When a blighted defiler uses <em>steal power,</em> she afflicts the area within a radius of 250 feet per kineticist level (maximum 5,000 feet at 20th level) by stunting plants as the stunt growth option from <Link to="/spell/diminish_plants">diminish plants</Link>, weakening and killing minor wildlife (creatures too small or insignificant to themselves have statistics), and reducing the rate of live birth among the other surviving creatures in the area. If a blighted defiler uses <em>steal power</em> in an area that overlaps a previous use of her <em>steal power</em> within the same month, she expends a daily use and the remaining area is still blighted as above, but she doesn't gain any benefits. <em>Steal power</em> doesn't work in barren landscapes, the void of space, or other places without enough life to steal.</p>
 </Pair>
 </Ability>
-<Ability id="arc-kineticist-blighted_defiler-elemental-might-ex" icon={["info","upgrade","broken-shield"]}>
-<Pair single id="arc-kineticist-blighted_defiler-elemental-might-ex">Elemental Might (Ex)</Pair>
+<Ability id="elemental-might-ex" icon={["info","upgrade","broken-shield"]}>
+<Pair single id="elemental-might-ex">Elemental Might (Ex)</Pair>
 <Pair hl title="Alters">The key ability score of wild talents, elemental overflow</Pair>
 <Pair title="Info"><p>A blighted defiler uses her Strength modifier instead of her Constitution modifier to determine her damage with wild talents, the DCs of Constitution-based wild talents, the durations of wild talents with Constitution-based durations, her bonus on <Link to="/rule/concentration">concentration</Link> checks for wild talents, and other Constitution-based effects of her wild talents. She can't use abilities to substitute her Strength modifier for another ability score when determining damage from wild talents.</p>
 <p>A blighted defiler gains attack and damage bonuses from <em>elemental overflow</em> based on her current burn total + the number of times she successfully used <em>steal power</em> that day. For instance, a 9th-level blighted defiler who used <em>steal power</em> twice and had 1 point of burn would add a +3 bonus on attack rolls and a +6 bonus on damage rolls. A blighted defiler does not gain size bonuses to physical ability scores or a chance to ignore critical hits and sneak attacks from <em>elemental overflow.</em></p>
@@ -253,8 +253,8 @@ const _dark_elementalist = {title: "Dark Elementalist", jsx: <><h2 id="arc-kinet
 <Pair title="Passive Ability">A dark elementalist's base Will save bonus from the kineticist class is equal to 2 + 1/2 her kineticist level, and her base Reflex and Fortitude save bonuses are equal to <Link to="/misc/one_third">one-third</Link> of her kineticist level.</Pair>
 <Pair title="Info">A dark elementalist uses her Intelligence modifier instead of her Constitution modifier to determine her damage with wild talents, the DCs of Constitution-based wild talents, the durations of wild talents with Constitution-based durations, her bonus on <Link to="/rule/concentration">concentration</Link> checks for wild talents, and any other Constitution-based effects of all her wild talents.</Pair>
 </Ability>
-<Ability id="arc-kineticist-dark_elementalist-soul-power" icon={["armor-upgrade","magic-swirl","upgrade","broken-shield"]}>
-<Pair single id="arc-kineticist-dark_elementalist-soul-power">Soul Power</Pair>
+<Ability id="soul-power" icon={["armor-upgrade","magic-swirl","upgrade","broken-shield"]}>
+<Pair single id="soul-power">Soul Power</Pair>
 <Pair hl title="Replaces">Internal buffer</Pair>
 <Pair hl title="Alters">Burn, elemental overflow</Pair>
 <Pair title="Ability"><p>A dark elementalist uses the souls of others to protect herself from the dangers of burn. She can't choose to accept burn if doing so would raise her total number of points of burn above 3. However, a number of times per day equal to her Intelligence modifier, as a <strong className="hl">full-round action</strong> she can gather up the soul of a sentient creature with a CR equal to or higher than her character level, as long as that creature died in the past minute. When she does, some of her existing burn is unloaded into the departing soul, racking it with unspeakable torment, but reducing her current burn total by 1 point. A soul used in this way cannot be brought back to life as if it died of a death effect. Using a soul like this doesn't heal the nonlethal damage from that point of burn immediately, but does enable the dark elementalist to heal the nonlethal damage from that point of burn normally.</p>
@@ -623,8 +623,8 @@ const _psammokinetic = {title: "Psammokinetic", jsx: <><h2 id="arc-kineticist-ps
 <Pair single id="alignment">Alignment</Pair>
 <Pair title="Info">A psammokinetic kineticist must be lawful in alignment. If the psammokinetic ever becomes nonlawful, she cannot gain any additional levels with this archetype and loses access to the <em>ki pool</em> class feature granted by this archetype.</Pair>
 </Ability>
-<Ability id="arc-kineticist-psammokinetic-burning-winds-su" icon={["info","stairs-goal","broken-shield"]}>
-<Pair single id="arc-kineticist-psammokinetic-burning-winds-su">Burning Winds (Su)</Pair>
+<Ability id="burning-winds-su" icon={["info","stairs-goal","broken-shield"]}>
+<Pair single id="burning-winds-su">Burning Winds (Su)</Pair>
 <Pair hl title="Alters">Elemental focus</Pair>
 <Pair title="ability"><p>A psammokinetic must select air as her <Link to="/ability/elements">elemental focus</Link>. In place of the <Link to="/kinetic/air_blast">air blast</Link> and <Link to="/kinetic/electric_blast">electric blast</Link> normally granted to an aerokinetic, the psammokinetic gains a <em>sand blast</em> or <em>sirocco blast.</em> Except as noted below, <em>sand blast</em> functions as <em>air blast,</em> and <em>sirocco blast</em> functions as <em>electric blast</em> (including when determining what infusion wild talents the psammokinetic can use with each blast). The psammokinetic is also treated as having the fire element type for the purposes of meeting the prerequisites for the <Link to="/kinetic/cold_adaptation">cold adaptation</Link>, <Link to="/kinetic/flame_shield">flame shield</Link>, <Link to="/kinetic/heat_adaptation">heat adaptation</Link>, and <Link to="/kinetic/heat_wave">heat wave</Link> utility wild talents.</p>
 <blockquote>
@@ -634,8 +634,8 @@ const _psammokinetic = {title: "Psammokinetic", jsx: <><h2 id="arc-kineticist-ps
 </Pair>
 <Pair title="Special">A psammokinetic cannot take the <Link to="/kinetic/chain">chain</Link>, <Link to="/kinetic/magnetic_infusion">magnetic infusion</Link>, or <Link to="/kinetic/thundering_infusion">thundering infusion</Link> wild talents or the <Link to="/kinetic/aerial_adaptation">aerial adaptation</Link> or <Link to="/kinetic/celerity">celerity</Link> utility wild talents.</Pair>
 </Ability>
-<Ability id="arc-kineticist-psammokinetic-ki-pool-su" icon={["stairs-goal","upgrade","armor-upgrade"]}>
-<Pair single id="arc-kineticist-psammokinetic-ki-pool-su">Ki Pool (Su)</Pair>
+<Ability id="ki-pool-su" icon={["stairs-goal","upgrade","armor-upgrade"]}>
+<Pair single id="ki-pool-su">Ki Pool (Su)</Pair>
 <Pair hl title="Replaces">Elemental overflow</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability"><p>A psammokinetic gains a pool of ki points, supernatural energy she can use to accomplish amazing feats. The number of points in a psammokinetic's <em>ki pool</em> is equal to <Link to="/misc/half">half</Link> her kineticist level plus her Constitution modifier. As long as she has at least 1 point in her <em>ki pool,</em> she gains a bonus on damage rolls with kinetic blasts. This bonus is equal to one-third of her kineticist level. The <em>kinetic blade</em> infusion does not add the bonus damage from this ability.</p>
@@ -684,8 +684,8 @@ const _psychokineticist = {title: "Psychokineticist", jsx: <><h2 id="arc-kinetic
 </>};
 const _terrakineticist = {title: "Terrakineticist", jsx: <><h2 id="arc-kineticist-terrakineticist-terrakineticist">Terrakineticist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 63</Link><br/>Terrakineticists have a stunted ability that allows them to access the Elemental Planes, but they've learned how to turn this limited talent into an incredible strength by tapping into the ambient elemental nature of the land surrounding them.</p>
-<Ability id="arc-kineticist-terrakineticist-terrakinesis" icon={["stairs-goal","upgrade","broken-shield"]}>
-<Pair single id="arc-kineticist-terrakineticist-terrakinesis">Terrakinesis</Pair>
+<Ability id="terrakinesis" icon={["stairs-goal","upgrade","broken-shield"]}>
+<Pair single id="terrakinesis">Terrakinesis</Pair>
 <Pair hl title="Alters">Elemental focus, kinetic blast</Pair>
 <Pair title="Ability"><p>Whenever a terrakineticist gains a wild talent that isn't a universal talent, she chooses one wild talent of the appropriate level from each of the six <Link to="/ability/elements">elements</Link> (aether, air, fire, earth, water, and wood).<sup><InnerLink showBacklink="backlink-arc-kineticist-terrakineticist-fake-fn-1" id="arc-kineticist-terrakineticist-fake-fn-1" data-hash-target to="arc-kineticist-terrakineticist-fake-fn-1-target">1</InnerLink></sup> She can use wild talents of the same element that she chose in this way to meet prerequisites for these wild talents. Instead of gaining one kineticist blast, a terrakineticist chooses one simple blast from each element that has more than one simple blast.</p>
 <p>When in a corresponding terrain, as determined by the ranger <Link to="/ability/favored_terrain">favored terrain</Link> categories, her element changes to the corresponding element (granting her class skills, basic utility wild talent, simple blast, and elemental defense as appropriate), and she gains all the wild talents she selected from the corresponding element.</p>

@@ -527,8 +527,8 @@ const _involutionist = {title: "Involutionist", jsx: <><h2 id="arc-spiritualist-
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Info">An involutionist is a divine spellcaster. Her spells use verbal components instead of thought components and somatic components instead of emotional components. An involutionist's spirit phantom is her conduit to the divine, and it serves as her divine focus; the involutionist must either be within 5 feet on her spirit phantom or absorb her phantom into her consciousness to cast spells that require a divine focus.</Pair>
 </Ability>
-<Ability id="arc-spiritualist-involutionist-spirit-phantom" icon={["magic-swirl"]}>
-<Pair single id="arc-spiritualist-involutionist-spirit-phantom" flavor="An involutionist's phantom is manifested from her own psyche and invested into the spirit-stuff of the world around her.">Spirit Phantom</Pair>
+<Ability id="spirit-phantom" icon={["magic-swirl"]}>
+<Pair single id="spirit-phantom" flavor="An involutionist's phantom is manifested from her own psyche and invested into the spirit-stuff of the world around her.">Spirit Phantom</Pair>
 <Pair hl title="Replaces">Phantom's emotional focus</Pair>
 <Pair hl title="Alters">Phantom</Pair>
 <Pair title="Ability"><p>Rather than an emotional focus, the involutionist selects a spirit from those available to the <Link to="/class/shaman">shaman</Link>. A spirit phantom always has <Link to="/misc/good_saves">good Fortitude and Reflex saves</Link>, and it gains a number of ranks equal to the phantom's Hit Dice in two skills depending on the spirit it represents, as summarized on the table below.</p>
@@ -1290,8 +1290,8 @@ const _soul_warden = {title: "Soul Warden", jsx: <><h2 id="arc-spiritualist-soul
 </>};
 const _totem_spiritualist = {title: "Totem Spiritualist", jsx: <><h2 id="arc-spiritualist-totem_spiritualist-totem-spiritualist">Totem Spiritualist</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 6</Link><br/>The god callers of Sarkoris had numerous traditions mixing naturalism with the arcane and occult arts. One of the few traditions to survive to the present day is that of the totem spiritualists. These specialized spiritualists call upon phantoms that are manifestations of animals and personifications of nature.</p>
-<Ability id="arc-spiritualist-totem_spiritualist-phantom-animal" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-spiritualist-totem_spiritualist-phantom-animal">Phantom Animal</Pair>
+<Ability id="phantom-animal" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="phantom-animal">Phantom Animal</Pair>
 <Pair hl title="Replaces">Phantom</Pair>
 <Pair title="Ability"><p>A totem spiritualist calls upon spirits of nature known as phantom animals to assist her in her journeys. A phantom animal functions like an <Link to="/sidekick/animal_companion">animal companion</Link> except as noted in the descriptions below.</p>
 <p>A totem spiritualist begins play with a phantom animal. The phantom animal uses the statistics of an <Link to="/ability/animal_companion">animal companion</Link> and follows the standard animal companion progression in regard to Hit Dice, base attack bonus, saving throws, skills, feats, natural armor bonus, Strength and Dexterity bonuses, and <Link to="/ability/bonus_tricks">bonus tricks</Link>, but not its special abilities. A phantom animal instead gains the special abilities of <Link to="/sidekick/phantom">a standard phantom</Link>. A phantom animal is capable of becoming harbored in the spiritualist's consciousness or becoming fully or partially manifested. A phantom animal is otherwise considered a phantom for the purposes of all feats and abilities.</p>
@@ -1384,8 +1384,8 @@ const _ward_spiritualist = {title: "Ward Spiritualist", jsx: <><h2 id="arc-spiri
 <Pair hl title="Alters">Phantom</Pair>
 <Pair title="Info">The ward spiritualist's phantom is less powerful than most, but it has an innate connection to its ward. The ward spiritualist's phantom is a kami phantom, functioning as normal for a <Link to="/sidekick/phantom">phantom</Link>, except that its base attack bonus is equal to three-quarters its Hit Dice (as a <Link to="/class/rogue">rogue</Link>) and its Hit Dice are d8s instead of d10s. Additionally, a kami phantom cannot manifest as incorporeal, only ectoplasmic.</Pair>
 </Ability>
-<Ability id="arc-spiritualist-ward_spiritualist-ward-implement-su" icon={["stairs-goal"]}>
-<Pair single id="arc-spiritualist-ward_spiritualist-ward-implement-su">Ward Implement (Su)</Pair>
+<Ability id="ward-implement-su" icon={["stairs-goal"]}>
+<Pair single id="ward-implement-su">Ward Implement (Su)</Pair>
 <Pair hl title="Replaces">Bonded senses, phantom recall, greater spiritual interference</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Ability"><p>The ward spiritualist gains a single implement school of her choice, as an <Link to="/class/occultist">occultist</Link>, along with its resonant focus power and base focus power. The ward spiritualist does not gain additional spells from her ward implement, and it always starts each day with mental focus invested equal to half her class level (minimum 1).</p>
@@ -1416,8 +1416,8 @@ const _ward_spiritualist = {title: "Ward Spiritualist", jsx: <><h2 id="arc-spiri
 <Pair title="At 13th Level">Her unarmed damage is that of an 8th-level unchained monk, and her unarmed strikes gain the benefits of <em>spirit-bound blade</em> for the duration of the <em>merged manifestation.</em></Pair>
 <Pair title="At 18th Level">Her unarmed damage is that of a 12th level unchained monk, and she can use <em>flurry of blows</em> as an 11th-level unchained monk.</Pair>
 </Ability>
-<Ability id="arc-spiritualist-ward_spiritualist-unarmed-strike-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
-<Pair single id="arc-spiritualist-ward_spiritualist-unarmed-strike-ex" flavor="Text from the unchained monk class ability.">Unarmed Strike (Ex)</Pair>
+<Ability id="unarmed-strike-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="unarmed-strike-ex" flavor="Text from the unchained monk class ability.">Unarmed Strike (Ex)</Pair>
 <Pair title="Ability"><p>You gain <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat. Your attacks can be with fists, elbows, knees, and feet. This means that you can make unarmed strikes with your hands full. There is no such thing as an off-hand attack when you're striking unarmed. You can apply your full Strength bonus on damage rolls for all your unarmed strikes. Your unarmed strikes deal lethal damage, although you can choose to deal nonlethal damage with no penalty on the attack roll. You can make this choice while grappling as well.</p>
 </Pair>
 <Pair title="At 1st Level">Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.</Pair>

@@ -6,8 +6,8 @@ import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
 const _antiquarian = {title: "Antiquarian", jsx: <><h2 id="arc-investigator-antiquarian-antiquarian">Antiquarian</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 16</Link><br/>Antiquarians are collectors, explorers, and scholars who delve into ruined places in search of lost lore and artifacts.</p>
-<Ability id="arc-investigator-antiquarian-relic-magic-su" icon={["spell-book"]}>
-<Pair single id="arc-investigator-antiquarian-relic-magic-su">Relic Magic (Su)</Pair>
+<Ability id="relic-magic-su" icon={["spell-book"]}>
+<Pair single id="relic-magic-su">Relic Magic (Su)</Pair>
 <Pair hl title="Alters">Alchemy (including Extracts)</Pair>
 <Pair title="Ability"><p>Antiquarians emulate Arustun, founder of the Jistka Imperium, by exploring and recording the remnants of lost civilizations. Rather than using extracts, an antiquarian carries a collection of holy and unholy symbols, charms, and trinkets. Though an antiquarian may never know who or what grants him his power, he can produce magical effects all the same. Relic magic functions as the <em>alchemy</em> class feature, except as noted below.</p>
 <p>An antiquarian begins play with a collection of religious trinkets that functions as his formula book and weighs 2 pounds total, with each trinket functioning as a formula. Adding new trinkets has the same cost and time requirement as adding formulae to a formula book. An antiquarian can study a wizard's spellbook or alchemist's formula book to learn formulae, but an antiquarian's trinket collection is too esoteric for anyone except another antiquarian to learn spells from. An antiquarian prepares spells by meditating and charging relics with supernatural power, which has the same requirements and limitations as preparing extracts. However, instead of creating extracts, an antiquarian casts spells as though he were an arcane spellcaster, which means he can affect other creatures with his spells. An antiquarian does not suffer from arcane spell failure.</p>
@@ -68,8 +68,8 @@ const _bonded_investigator = {title: "Bonded Investigator", jsx: <><h2 id="arc-i
 </>};
 const _cartographer = {title: "Cartographer", jsx: <><h2 id="arc-investigator-cartographer-cartographer">Cartographer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 56</Link><br/>Cartographers are eager trailblazers who explore uncharted terrain, study landmarks, and find new paths through the wilderness. They record this information meticulously so that those who follow in their footsteps can travel swiftly and safely within the studied area. Rather than studying poisons like many investigators do, cartographers use their alchemical expertise to create better inks that allow them to draw maps with incredible level of detail.</p>
-<Ability id="arc-investigator-cartographer-studied-terrain-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-cartographer-studied-terrain-ex">Studied Terrain (Ex)</Pair>
+<Ability id="studied-terrain-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="studied-terrain-ex">Studied Terrain (Ex)</Pair>
 <Pair hl title="Replaces">Poison lore, poison resistance</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability"><p>A cartographer can expend one use of <em>inspiration</em> to sketch a map and take notes of his surroundings. Drawing the map takes 10 minutes. While he is within the studied area, the cartographer can use <em>inspiration</em> on Acrobatics, Climb, Fly, Ride, Stealth, Survival, and Swim checks without expending a use of <em>inspiration,</em> provided he is trained in the skill. If he already has the ability to use <em>inspiration</em> on any of these skills without expending a use of <em>inspiration,</em> he gains an additional +1 bonus on checks with that skill while in the studied area.</p>
@@ -110,8 +110,8 @@ const _cipher = {title: "Cipher", jsx: <><h2 id="arc-investigator-cipher-cipher"
 <Pair title="Passive Ability">A cipher removes Bluff, Diplomacy, Intimidate, and Perform from his list of class skills, and he can never use them with <em>inspiration,</em> regardless of any talents or other abilities he might have.</Pair>
 <Pair title="Ability">A cipher can use his <em>inspiration</em> on any Disguise, Escape Artist, Knowledge (local), Sleight of Hand, and Stealth check without expending a use of <em>inspiration,</em> provided he is trained in the skill, instead of the normal investigator ability to use <em>inspiration</em> on any Knowledge, Linguistics, or Spellcraft check without expending a use of <em>inspiration.</em></Pair>
 </Ability>
-<Ability id="arc-investigator-cipher-inattention-blindness-su" icon={["stairs-goal","armor-upgrade"]}>
-<Pair single id="arc-investigator-cipher-inattention-blindness-su" flavor="A cipher can blind nearby creatures to his presence.">Inattention Blindness (Su)</Pair>
+<Ability id="inattention-blindness-su" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="inattention-blindness-su" flavor="A cipher can blind nearby creatures to his presence.">Inattention Blindness (Su)</Pair>
 <Pair hl title="Replaces">Trapfinding, poison lore, poison resistance, poison immunity, trap sense</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>A creature who would become aware of a cipher's presence when the cipher is within 10 feet per cipher level must succeed at a Perception check against a DC equal to 10 + the cipher's investigator level + his Intelligence modifier or the creature ignores the investigator as though it had not become aware of his presence. The cipher can spend a use of <em>inspiration</em> to raise the DC by 1d6. The affected creature continues to ignore the cipher until he attacks, moves out of range, directly interacts with the creature, interacts with another creature or object in a way the affected creature notices, or otherwise specifically draws attention to himself. If the cipher does none of these things, the affected creature can attempt another Perception check at the same DC for each minute the cipher remains in range.</p>
@@ -126,8 +126,8 @@ const _cipher = {title: "Cipher", jsx: <><h2 id="arc-investigator-cipher-cipher"
 <Pair title="At 17th Level">The cipher can now affect 6 creatures at the same time.</Pair>
 <Pair title="At 20th Level">The cipher can now "blind" 7 creatures at the same time.</Pair>
 </Ability>
-<Ability id="arc-investigator-cipher-null-aura-su-sp" icon={["armor-upgrade"]}>
-<Pair single id="arc-investigator-cipher-null-aura-su-sp">Null Aura (Su, Sp)</Pair>
+<Ability id="null-aura-su-sp" icon={["armor-upgrade"]}>
+<Pair single id="null-aura-su-sp">Null Aura (Su, Sp)</Pair>
 <Pair hl title="Replaces">Swift alchemy, investigator talent gained at 9th level</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability"><p>A cipher becomes much harder to notice with divinations. He gains a +4 bonus on saving throws against divination spells, spell-like abilities, and effects.</p>
@@ -363,8 +363,8 @@ const _forensic_physician = {title: "Forensic Physician", jsx: <><h2 id="arc-inv
 <Pair title="At 15th Level">This bonus increases to +10.</Pair>
 <Pair title="At 18th Level">This bonus becomes +12.</Pair>
 </Ability>
-<Ability id="arc-investigator-forensic_physician-blood-lore-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-forensic_physician-blood-lore-ex">Blood Lore (Ex)</Pair>
+<Ability id="blood-lore-ex" icon={["stairs-goal"]}>
+<Pair single id="blood-lore-ex">Blood Lore (Ex)</Pair>
 <Pair hl title="Replaces">Investigator talent gained at 5th level</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability"><p>A forensic physician can study a sample of blood and learn about its origins by attempting a Heal check with a DC of 20 for a creature very familiar to the forensic physician (generally common PC races for a PC forensic physician), 25 if the creature is somewhat familiar to the forensic physician (typically a commonly known monster, but not the subject of many investigations), and 30 or more for rarer creatures. This allows the forensic physician to identify the race of creature that spilled the blood, and the creature's age and gender (if any).</p>
@@ -556,8 +556,8 @@ const _infiltrator = {title: "Infiltrator", jsx: <><h2 id="arc-investigator-infi
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Passive Ability">When <Link to="/skill/disguise">disguising</Link> himself as a different gender, race, age category, or size category, an infiltrator reduces the penalties for each by -2. For example, if the infiltrator disguises himself as a female two age categories older than himself, he would take a -2 to the check instead of a -6. Also, an infiltrator can disguise himself with 1d3 minutes of work (instead of the normal 1d3 &times; 10 minutes of work).</Pair>
 </Ability>
-<Ability id="arc-investigator-infiltrator-voice-mimicry-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-infiltrator-voice-mimicry-ex">Voice Mimicry (Ex)</Pair>
+<Ability id="voice-mimicry-ex" icon={["stairs-goal"]}>
+<Pair single id="voice-mimicry-ex">Voice Mimicry (Ex)</Pair>
 <Pair hl title="Replaces">Poison lore</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability"><p>An infiltrator learns to mimic voices and sounds around him. Using this ability requires a special Disguise check, and creatures hearing the voice can make a Perception check to discover the ruse. An infiltrator can attempt to emulate any creature or other sound he's heard clearly for at least 1 minute. The bonuses or penalties to this special Disguise check are modified in the following ways, all of which are cumulative.</p>
@@ -705,8 +705,8 @@ const _majordomo = {title: "Majordomo", jsx: <><h2 id="arc-investigator-majordom
 <Pair title="At 19th Level">She gains a seventh teamwork feat and can use her <em>delegate</em> ability seven times a day.</Pair>
 <Pair title="Special">A majordomo can't take the <Link to="/invtalent/alchemist_discovery">alchemist discovery</Link> investigator talent or any discovery that affects or involves alchemy</Pair>
 </Ability>
-<Ability id="arc-investigator-majordomo-inspired-manager-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-majordomo-inspired-manager-ex" flavor="A majordomo knows how to make just about any work task more efficient, from cleaning a great hall after a big party to crafting a magic item.">Inspired Manager (Ex)</Pair>
+<Ability id="inspired-manager-ex" icon={["upgrade"]}>
+<Pair single id="inspired-manager-ex" flavor="A majordomo knows how to make just about any work task more efficient, from cleaning a great hall after a big party to crafting a magic item.">Inspired Manager (Ex)</Pair>
 <Pair hl title="Replaces">All instances of trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability"><p>Whenever an ally begins a workday task such as Craft, Profession, magic item creation, <Link to="/rule/adding_spells_to_a_wizards_spellbook">spell research</Link>, managing a kingdom, using the <Link to="/rule/downtime">downtime</Link> rules, or other similar tasks, the majordomo can spend one use of <em>inspiration</em> and 1 minute of planning to create a plan for that ally. If the ally chooses to follow the majordomo's plan and attempts the task on the same day, if the task would normally take at least 4 hours, it instead takes 30 minutes less time, and if the task would normally take at least 8 hours, it instead takes 1 hour less time.</p>
@@ -733,8 +733,8 @@ const _malice_binder = {title: "Malice Binder", jsx: <><h2 id="arc-investigator-
 <Pair title="At 1st Level">The malice binder gains <Link to="/feat/improved_steal">Improved Steal</Link> as a bonus feat.</Pair>
 <Pair title="At 3rd Level">He can use <em>inspiration</em> to improve a steal combat maneuver check by spending one use of <em>inspiration</em> rather than two.</Pair>
 </Ability>
-<Ability id="arc-investigator-malice_binder-fettering-su" extraClasses="hasSubs" icon={["magic-swirl"]}>
-<Pair single id="arc-investigator-malice_binder-fettering-su">Fettering (Su)</Pair>
+<Ability id="fettering-su" extraClasses="hasSubs" icon={["magic-swirl"]}>
+<Pair single id="fettering-su">Fettering (Su)</Pair>
 <Pair hl title="Replaces">Alchemy</Pair>
 <Pair title="Ability"><p>A malice binder forgoes alchemy for the study of sympathetic magic that allows him to hinder foes. Fetters rely on the magical resonance of creatures capable of casting spells (spellcasters and creatures with spell-like abilities) which saturates even their hair and clothing. Fetters cannot target a creature with no magical ability.</p>
 <p>Every fetter requires a token taken from his desired target: a few hairs, a lost tooth, nail clippings, a scrap of clothing, or a small treasured possession with some significance. An investigator can obtain a single token in any of the following ways: a successful Sleight of Hand check against an unsuspecting target, a successful <Link to="/rule/steal">steal</Link> combat maneuver, or a successful Perception check (DC = 15 + the creature's CR) to search an area his target occupied for at least 2 hours. Malice binders can search such a location for additional tokens, but each subsequent Perception check increases the DC by 5, regardless of success or failure. Tokens rely on the magic that clings to spellcasters and creatures with spell-like abilities; they must be carefully preserved as soon as they are recovered and before they can be used. Preparing a token requires a <strong className="hl">move action</strong>, and a malice binder can maintain one prepared token per class level. Each token can be used only to power a fetter targeting the creature it came from, and it is consumed in the process.</p>
@@ -818,8 +818,8 @@ const _mastermind = {title: "Mastermind", jsx: <><h2 id="arc-investigator-master
 <Pair hl title="Alters">Inspiration</Pair>
 <Pair title="Ability">A mastermind can use <em>inspiration</em> on any Diplomacy and Intimidate checks without expending a use of <em>inspiration,</em> but can't do so for Linguistics or Spellcraft checks.</Pair>
 </Ability>
-<Ability id="arc-investigator-mastermind-a-quiet-word-ex" icon={["upgrade"]}>
-<Pair single id="arc-investigator-mastermind-a-quiet-word-ex" flavor="A mastermind's reputation precedes him.">A Quiet Word (Ex)</Pair>
+<Ability id="a-quiet-word-ex" icon={["upgrade"]}>
+<Pair single id="a-quiet-word-ex" flavor="A mastermind's reputation precedes him.">A Quiet Word (Ex)</Pair>
 <Pair hl title="Replaces">Trapfinding, trap sense</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">1 time/day + 1 per three investigator levels<ByLevelPop levels={[[1,1],[3,2],[6,3],[9,4],[12,5],[15,6],[18,7]]} unit="time" postText="/day" /></Pair>
@@ -956,8 +956,8 @@ const _psychic_detective = {title: "Psychic Detective", jsx: <><h2 id="arc-inves
 <Ability icon={["skills"]} id="undefined">
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="Removed Skills">Acrobatics, Climb, Perform</Pair></Ability>
-<Ability id="arc-investigator-psychic_detective-spells" icon={["magic-swirl"]}>
-<Pair single id="arc-investigator-psychic_detective-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}>
+<Pair single id="spells">Spells</Pair>
 <Pair title="Ability"><p>A psychic detective casts psychic spells drawn from the <Link to="/main/spells_psychic">psychic class spell list</Link> and augmented by a select set of additional spells (see <em>Psychic Detective Spells</em> below). Only spells from the psychic class spell list of 6th level or lower and psychic detective spells are considered to be part of the psychic detective's spell list. If a spell appears on both the psychic detective and psychic class spell lists, the psychic detective uses the spell level from the psychic detective spell list. She can cast any spell she knows without preparing it ahead of time. To learn or cast a spell, a psychic detective must have an Intelligence score equal to at least 10 + the spell's level. The saving throw DC against a psychic detective's spell is 10 + the spell's level + the psychic detective's Intelligence modifier.</p>
 <p>Like other spellcasters, a psychic detective can cast only a certain number of spells of each spell level per day. She knows the same number of spells and receives the same number of spells slots per day as a <Link to="/class/bard">bard</Link> of her investigator level, and knows and uses 0-level knacks as a bard uses cantrips. In addition, she receives <Link to="/rule/bonus_spells">bonus spells per day</Link> if she has a high Intelligence score.</p>
 <p>At 5th level and every 3 levels thereafter, a psychic detective can choose to learn a new spell in place of one she already knows, using the same rules as a bard. In effect, the psychic detective loses the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least 1 level lower than the highest-level spell the psychic detective can cast.</p>
@@ -1005,8 +1005,8 @@ const _questioner = {title: "Questioner", jsx: <><h2 id="arc-investigator-questi
 <Pair hl title="Alters">Inspiration</Pair>
 <Pair title="Ability">A questioner can use <em>inspiration</em> on any Knowledge, Linguistics, or Stealth checks he attempts without expending a use of <em>inspiration,</em> provided he's trained in that skill.</Pair>
 </Ability>
-<Ability id="arc-investigator-questioner-spells" icon={["magic-swirl"]}>
-<Pair single id="arc-investigator-questioner-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}>
+<Pair single id="spells">Spells</Pair>
 <Pair hl title="Replaces">Alchemy</Pair>
 <Pair title="Ability"><p>A questioner casts arcane spells drawn from the <Link to="/main/bard_spell">bard spell list</Link>. He can cast any spell he knows without preparing it ahead of time. To learn or cast a spell, a questioner must have an Intelligence score equal to at least 10 + the spell's level. The saving throw DC against a questioner's spell is equal to 10 + the spell's level + the questioner's Intelligence modifier.</p>
 <p>Like other spellcasters, a questioner can cast only a certain number of spells of each spell level per day. He knows the same number of spells and receives the same number of spell slots per day as a <Link to="/class/bard">bard</Link> of his investigator level, including for cantrips. In addition, he receives <Link to="/rule/bonus_spells">bonus spells per day</Link> if he has a high Intelligence score.</p>
@@ -1111,8 +1111,8 @@ const _ruthless_agent = {title: "Ruthless Agent", jsx: <><h2 id="arc-investigato
 </>};
 const _scavenger = {title: "Scavenger", jsx: <><h2 id="arc-investigator-scavenger-scavenger">Scavenger</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 21</Link><br/>Scavengers are masters of systems: how they fit together, why they work, and how to make the most of their parts. However, scavengers generally lack other investigative talents such as social skills or an understanding of history and lore. The ratfolk of Numeria excel at this art, but nearly every warren across Golarion boasts at least a few resourceful scavengers.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-investigator-scavenger--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ratfolk">Ratfolk</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-investigator-scavenger-gadgetry-su" icon={["upgrade","stairs-goal"]}>
-<Pair single id="arc-investigator-scavenger-gadgetry-su">Gadgetry (Su)</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-investigator-scavenger--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ratfolk">Ratfolk</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="gadgetry-su" icon={["upgrade","stairs-goal"]}>
+<Pair single id="gadgetry-su">Gadgetry (Su)</Pair>
 <Pair hl title="Alters">Alchemy</Pair>
 <Pair title="Ability"><p>A scavenger is a master of mechanical arts rather than alchemical ones, and he gains a competence bonus on Craft (clockwork) checks equal to his class level. He can use Knowledge (engineering) to identify wondrous items as if using <Link to="/spell/detect_magic">detect magic</Link> and Spellcraft. A scavenger does not gain any bonuses to or special uses of the Craft (alchemy) skill.</p>
 <p>Rather than prepare his extracts as consumable liquids, a scavenger constructs small, single-use devices infused with bits of his own magic aura to achieve the same effects. Alchemist and investigator discoveries that affect extracts result in identical effects on a scavenger's gadgets (such as the <Link to="/discovery/infusion">infusion</Link> discovery, which would allow another creature to use a gadget, just as it would allow that creature to use an extract).</p>
@@ -1172,8 +1172,8 @@ const _skeptic = {title: "Skeptic", jsx: <><h2 id="arc-investigator-skeptic-skep
 </>};
 const _sleuth = {title: "Sleuth", jsx: <><h2 id="arc-investigator-sleuth-sleuth">Sleuth</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 101</Link><br/>A sleuth is an investigator who relies on good fortune and guile rather than alchemy. Having no mystical energy intrinsic to her, she must forgo the more magical aspects of alchemy to solve her mysteries with wits, gumption, and the fickle consideration of luck.</p>
-<Ability id="arc-investigator-sleuth-sleuths-luck-ex" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-investigator-sleuth-sleuths-luck-ex">Sleuth's Luck (Ex)</Pair>
+<Ability id="sleuths-luck-ex" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="sleuths-luck-ex">Sleuth's Luck (Ex)</Pair>
 <Pair hl title="Replaces">Alchemy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>A sleuth gains a fluctuating pool of luck, measuring her ability to get out of scrapes. At the start of each day, a sleuth has a number of luck points equal to her Charisma modifier (minimum 1). Her luck goes up or down throughout the day, but usually cannot go higher than her Charisma modifier (minimum 1), though feats, magic items, and spells that grant either <em>grit</em> or <em>panache</em> points can also grant a sleuth luck points equal to the amount of <em>grit</em> or <em>panache</em> they grant. A sleuth spends luck to accomplish <em>deeds</em> (see below), and regains luck in the following ways.</p>
@@ -1279,8 +1279,8 @@ const _star_watcher = {title: "Star Watcher", jsx: <><h2 id="arc-investigator-st
 <Pair hl title="Alters">Weapon and armor proficiency</Pair>
 <Pair title="Ability">A star watcher gains proficiency with the <Link to="/eq-weapon/starknife">starknife</Link>, but not with the rapier.</Pair>
 </Ability>
-<Ability id="arc-investigator-star_watcher-astrology-su" icon={["magic-swirl","broken-shield"]}>
-<Pair single id="arc-investigator-star_watcher-astrology-su">Astrology (Su)</Pair>
+<Ability id="astrology-su" icon={["magic-swirl","broken-shield"]}>
+<Pair single id="astrology-su">Astrology (Su)</Pair>
 <Pair hl title="Alters">Alchemy</Pair>
 <Pair title="Ability"><p>A star watcher studies a symbolic language of the heavens known as <em>astrology.</em> Equal parts art form and science, <em>astrology</em> can be used to read the future and affect it in subtle ways. Much like an alchemist or investigator, a star watcher collects formulae in a formula book. However, the formulae resemble star charts, and unlike alchemists or normal investigators, he uses these formulae along with personal details and astronomical measurements to make horoscopes - magical calculations stored much like scrolls - in which he can store spells. In many ways, the star watcher's horoscopes function like extracts, with the following exceptions.</p>
 <p>A star watcher's horoscope is always keyed to a specific creature that must be willing and present when the star watcher prepares the horoscope. Only the creature to which a horoscope is keyed can activate it and be affected by it. A horoscope is "cast" by reading it as a <strong className="hl">standard action</strong>, though a star watcher can draw and read a horoscope as a single <strong className="hl">standard action</strong>.</p>
@@ -1392,8 +1392,8 @@ const _toxin_codexer = {title: "Toxin Codexer", jsx: <><h2 id="arc-investigator-
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A toxin codexer gains the <em>poison lore</em> ability at 1st level. This ability is otherwise identical to the investigator's <em>poison lore</em> class feature.</Pair>
 </Ability>
-<Ability id="arc-investigator-toxin_codexer-synthetic-venom-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-investigator-toxin_codexer-synthetic-venom-ex">Synthetic Venom (Ex)</Pair>
+<Ability id="synthetic-venom-ex" icon={["stairs-goal"]}>
+<Pair single id="synthetic-venom-ex">Synthetic Venom (Ex)</Pair>
 <Pair hl title="Alters">Alchemy and replaces, trapfinding, investigator talent gained at 3rd level</Pair>
 <Pair title="Ability"><p>When a toxin codexer prepares his extracts, he can use his slots to prepare short-lived poisons instead of extracts. The following poisons can be prepared into extract slots:</p>
 <blockquote>
@@ -1402,8 +1402,8 @@ const _toxin_codexer = {title: "Toxin Codexer", jsx: <><h2 id="arc-investigator-
 <p>The Fortitude save DC of these poisons is 10 + the toxin codexer's Intelligence modifier + the extract level of the poison. Poisons created in this way are unstable and become inert after 1 day if not used. Once the poison is administered to a target, the duration is as normal for that poison's type, even if longer than 1 day. These poisons can be applied to weapons (if applicable) only by the toxin codexer, unless he has the <Link to="/discovery/infusion">infusion</Link> alchemist discovery.</p>
 </Pair>
 </Ability>
-<Ability id="arc-investigator-toxin_codexer-modify-toxin-ex" icon={["armor-upgrade","armor-downgrade","remedy"]}>
-<Pair single id="arc-investigator-toxin_codexer-modify-toxin-ex">Modify Toxin (Ex)</Pair>
+<Ability id="modify-toxin-ex" icon={["armor-upgrade","armor-downgrade","remedy"]}>
+<Pair single id="modify-toxin-ex">Modify Toxin (Ex)</Pair>
 <Pair hl title="Replaces">Keen recollection, trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability"><p>A toxin codexer learns to unlock both the beneficial and detrimental side effects of his poisons. These effects apply even if the target succeeds at her save against the poison, but they still count as poison effects. A modified toxin becomes inert if not used within 1 hour.</p>

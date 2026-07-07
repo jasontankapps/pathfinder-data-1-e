@@ -143,8 +143,8 @@ const _blightwarden = {title: "Blightwarden", jsx: <><h2 id="arc-ranger-blightwa
 <Pair title="Info">A blightwarden's first <em>favored enemy</em> is always a special type of creature: <em>blighted.</em> His bonuses from his first <em>favored enemy</em> apply to creatures with one or more of the following templates: <Link to="/template/blighted_fey">blighted fey</Link>, <Link to="/template/fungal_creature">fungal creature</Link>, <Link to="/template/fungoid">fungoid</Link>, <Link to="/template/mana_wastes_mutant">Mana Wastes mutant</Link>, <Link to="/template/mutant">mutant</Link>, <Link to="/template/mutant_goblin">mutant goblin</Link>, and <Link to="/template/plagued_beast">plagued beast</Link>. Additionally, the bonuses apply against creatures with the <Link to="/subtype/blight">blight</Link> subtype.</Pair>
 <Pair title="Special">Each time the blightwarden gains a new <em>favored enemy,</em> his additional +2 bonus always applies to this first <em>favored enemy.</em></Pair>
 </Ability>
-<Ability id="arc-ranger-blightwarden-emulate-taint-ex-su-or-sp" icon={["stairs-goal"]}>
-<Pair single id="arc-ranger-blightwarden-emulate-taint-ex-su-or-sp">Emulate Taint (Ex, Su, or Sp)</Pair>
+<Ability id="emulate-taint-ex-su-or-sp" icon={["stairs-goal"]}>
+<Pair single id="emulate-taint-ex-su-or-sp">Emulate Taint (Ex, Su, or Sp)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Standard Action"><p>Once per day, a blightwarden can examine visible evidence of a creature that has been affected by a natural or supernatural blight. This might include visible tracks left by a creature with the <em>fungal creature</em> template, or a dead creature with the <em>blighted fey</em> template, or any similar evidence left by any creature as described in the <em>hunt the blighted</em> ability.</p>
 <p>When the blightwarden does this, for the next 24 hours, he can use any one extraordinary, supernatural, or spell-like ability granted by the template (or the <em>blight</em> subtype) for a number of minutes equal to his ranger level. This duration need not be used all at once, but they must be spent in 1-minute increments. Saving throw DCs for this ability are calculated as if the blightwarden had the relevant template (for example, the DC of an ability from the <em>blighted fey</em> template would be equal to 10 + half the blightwarden's Hit Dice + his Constitution modifier). He cannot use abilities that would create a permanent effect beyond this ability's duration, and can never use more than one ability from a template or subtype in this way during a single 24-hour period.</p>
@@ -330,8 +330,8 @@ const _dandy = {title: "Dandy", jsx: <><h2 id="arc-ranger-dandy-dandy">Dandy</h2
 <Pair title="Ability">A dandy can attempt the appropriate Knowledge checks untrained to identify such people from the selected country.</Pair>
 <Pair title="Special">A dandy gains additional favored nations, and can increase the bonuses of one of his current favored nations, in the same way he would with a normal ranger's <em>favored enemy.</em></Pair>
 </Ability>
-<Ability id="arc-ranger-dandy-rumor-empathy-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-ranger-dandy-rumor-empathy-ex">Rumor Empathy (Ex)</Pair>
+<Ability id="rumor-empathy-ex" icon={["stairs-goal"]}>
+<Pair single id="rumor-empathy-ex">Rumor Empathy (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Ability"><p>A dandy can alter the flow and spread of <Link to="/rule/rumors">rumors</Link> in his favor. This functions similarly to <em>wild empathy,</em> except that it takes 1 day (8 hours of work), instead of 1 minute, and it affects the general tenor of a rumor instead of a wild animal.</p>
 <p>A successful <em>rumor empathy</em> check allows the dandy to increase or decrease the rumor's tone by one step. For example, he could make an indifferent rumor friendly and thus positive toward its target, or an unfriendly rumor hostile and thus even more negative toward its target than it was originally.</p>
@@ -757,8 +757,8 @@ const _galvanic_saboteur = {title: "Galvanic Saboteur", jsx: <><h2 id="arc-range
 <Pair title="At 18th Level">The ranger gains this luck bonus to AC against attacks that target his touch AC as long as his opponent's type matches his 4th <em>favored enemy.</em></Pair>
 <Pair title="Special">A galvanic saboteur's animal companion (if he chose one for his <em>hunter's bond</em>) also gains this luck bonus.</Pair>
 </Ability>
-<Ability id="arc-ranger-galvanic_saboteur-technological-trapsmith-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-ranger-galvanic_saboteur-technological-trapsmith-ex">Technological Trapsmith (Ex)</Pair>
+<Ability id="technological-trapsmith-ex" icon={["stairs-goal"]}>
+<Pair single id="technological-trapsmith-ex">Technological Trapsmith (Ex)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability"><p>A galvanic saboteur can rig technological traps using the remains of destroyed constructs with the clockwork or robot subtype. To successfully rig such a trap, the ranger must spend 1 minute working on the destroyed construct and succeed at a Disable Device check (DC = 10 + the construct's HD). On a failure, the trap doesn't function and the construct's remains are ruined. On a success, the ranger creates a mechanical trap with the following statistics.</p>
@@ -883,8 +883,8 @@ const _hooded_champion = {title: "Hooded Champion", jsx: <><h2 id="arc-ranger-ho
 <Pair title="Ability">The hooded champion gains the <Link to="/class/swashbuckler">swashbuckler's</Link> panache class feature. He regains panache through critical hits and killing blows when using a bow of any kind, rather than when using a light or one-handed piercing melee weapon.</Pair>
 <Pair title="Special">If the hooded champion has this ability and the panache ability from another class or archetype, the panache points from the two sources do not stack, but the hooded champion regains panache in any way either class feature allows him to. For example, a character with a Charisma score of 16 who has both the hooded champion's and the swashbuckler's panache has a base of 3 panache points, and regains panache from critical hits and killing blows from both bows and light or one-handed piercing melee weapons.</Pair>
 </Ability>
-<Ability id="arc-ranger-hooded_champion-panache-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
-<Pair single id="arc-ranger-hooded_champion-panache-ex" flavor="Text from the swashbuckler ability">Panache (Ex)</Pair>
+<Ability id="panache-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="panache-ex" flavor="Text from the swashbuckler ability">Panache (Ex)</Pair>
 <Pair title="Ability"><p>At the start of each day, you gain a number of panache points equal to your Charisma modifier (minimum 1). Your panache goes up or down throughout the day, but usually cannot go higher than your Charisma modifier (minimum 1), though feats and magic items can affect this maximum. You spend panache to accomplish deeds, and regain panache in the following ways.</p>
 <p>Each time you confirm a critical hit, you regain 1 panache point. Confirming a critical hit on a <Link to="/misc/helpless">helpless</Link> or unaware creature or a creature that has fewer Hit Dice than <Link to="/misc/half">half</Link> your character level doesn't restore panache.</p>
 <p>When you reduce a creature to 0 or fewer hit points while in combat, you regain 1 panache point. Destroying an unattended object, reducing a helpless or unaware creature to 0 or fewer hit points, or reducing a creature that has fewer Hit Dice than half your character level to 0 or fewer hit points doesn't restore any panache.</p>
@@ -1351,8 +1351,8 @@ const _planar_scout = {title: "Planar Scout", jsx: <><h2 id="arc-ranger-planar_s
 </>};
 const _poison_darter = {title: "Poison Darter", jsx: <><h2 id="arc-ranger-poison_darter-poison-darter">Poison Darter</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 9</Link><br/>In dense jungles, foliage and tight spaces hinder all but the most deceptively humble weapons: <Link to="/eq-weapon/blowgun">blowguns</Link> and poison.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-poison_darter--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/grippli">Grippli</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="arc-ranger-poison_darter-debilitating-venom-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-ranger-poison_darter-debilitating-venom-ex" flavor="A poison darter can concoct potent toxins that he can apply to his weapons.">Debilitating Venom (Ex)</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-poison_darter--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/grippli">Grippli</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="debilitating-venom-ex" icon={["stairs-goal"]}>
+<Pair single id="debilitating-venom-ex" flavor="A poison darter can concoct potent toxins that he can apply to his weapons.">Debilitating Venom (Ex)</Pair>
 <Pair hl title="Replaces">Favored enemy, master hunter</Pair>
 <Pair title="Usage">A number of times/day equal to <Link to="/misc/half">half</Link> his ranger level + his Wisdom modifier</Pair>
 <Pair title="Info">If he has the <em>toxic skin</em> alternate racial trait*, he can expend a daily use of that poison to employ his <em>debilitating venom</em> ability an additional time.</Pair>
@@ -1444,8 +1444,8 @@ const _realm_wanderer = {title: "Realm Wanderer", jsx: <><h2 id="arc-ranger-real
 <Pair hl title="Replaces">Track</Pair>
 <Pair title="Ability">A realm wanderer adds half his level (minimum 1) to Diplomacy checks to influence a creature's attitude, to make requests of creatures, and for similar uses of the skill. He also adds half his level (minimum 1) to Bluff checks to deceive, lie, or convey secret messages.</Pair>
 </Ability>
-<Ability id="arc-ranger-realm_wanderer-queens-bond-ex" icon={["broken-shield"]}>
-<Pair single id="arc-ranger-realm_wanderer-queens-bond-ex">Queen's Bond (Ex)</Pair>
+<Ability id="queens-bond-ex" icon={["broken-shield"]}>
+<Pair single id="queens-bond-ex">Queen's Bond (Ex)</Pair>
 <Pair hl title="Alters">Hunter's bond</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability"><p>A realm wanderer must choose an animal companion for his <em>hunter's bond.</em> This <Link to="/ability/animal_companion">animal companion</Link> gains the <Link to="/template/fiendish">fiendish</Link> template, likely either due to time it spent near a gate to Hell or due to infernal influences in its place of birth. Due to this insidious influence, this <Link to="/sidekick/animal_companion">animal companion</Link> always takes a penalty on attack rolls equal to <Link to="/misc/one_fifth">one-fifth</Link> of the realm wanderer's level (minimum 1).</p>

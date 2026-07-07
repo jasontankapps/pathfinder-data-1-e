@@ -240,8 +240,8 @@ const _iron_tyrant = {title: "Iron Tyrant", jsx: <><h2 id="arc-antipaladin-iron_
 <Pair title="Standard Action">An iron tyrant can enhance his armor by calling upon a fiendish spirit's aid. This bond lasts for 1 minute per antipaladin level. When called, the spirit causes the armor to shed unholy light like a <Link to="/eq-misc/torch">torch</Link>.</Pair>
 <Pair title="Special">If a suit of bonded armor with a fiendish spirit is destroyed, the iron tyrant loses the use of this ability for 30 days, or until he gains a level, whichever comes first. During this 30-day period, the iron tyrant takes a -1 penalty on attack rolls and weapon damage rolls.</Pair>
 </Ability>
-<Ability id="arc-antipaladin-iron_tyrant-at-5th-level" extraClasses="subAbility" icon={["armor-upgrade"]}>
-<Pair single id="arc-antipaladin-iron_tyrant-at-5th-level">At 5th Level</Pair>
+<Ability id="at-5th-level" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="at-5th-level">At 5th Level</Pair>
 <Pair title="Usage">Once per day.</Pair>
 <Pair title="Ability"><p>The spirit grants the armor a +1 enhancement bonus. For every 3 antipaladin levels beyond 5th, the armor gains another +1 enhancement bonus, to a maximum of +6 at 20th level. These bonuses stack with existing armor enhancement bonuses to a maximum of +5, or they can be used to add any of the following armor special abilities. Adding these special abilities consumes an amount of bonus equal to the special ability's base price modifier (or +4 for <em>unrighteous</em>), as shown below. These special abilities are added to any special abilities the armor already has, but duplicate abilities do not stack. If the armor is not magical, at least a +1 enhancement bonus must be added before any other special abilities can be added.</p>
 <ul>

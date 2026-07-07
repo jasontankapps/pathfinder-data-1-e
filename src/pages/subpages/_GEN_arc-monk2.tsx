@@ -98,8 +98,8 @@ const _qinggong_monk = {hasJL:true,title: "Qinggong Monk", jsx: <><div className
 <Pair single id="spells">Spells</Pair>
 <Pair title="Info">These ki powers duplicate the effects of a spell, and are spell-like abilities. A qinggong monk's class level is the caster level for these spell-like abilities, and she uses Wisdom to determine her <Link to="/rule/concentration">concentration</Link> check bonus.</Pair>
 </Ability>
-<Ability id="arc-monk-qinggong_monk-list-of-ki-powers" icon={["info"]}>
-<Pair single id="arc-monk-qinggong_monk-list-of-ki-powers">List of Ki Powers</Pair>
+<Ability id="list-of-ki-powers" icon={["info"]}>
+<Pair single id="list-of-ki-powers">List of Ki Powers</Pair>
 <Pair title="Ability"><p>All ki powers have a minimum monk level requirement to select them. A monk who does not meet this requirement cannot select that ki power.</p>
 <p>Most ki powers require the monk to spend ki points; the exact amount is listed after the ki power. Ki powers that cost 0 ki do not require the monk to have any ki points in her <em>ki pool</em> to use the ability.</p>
 <p>The saving throw against a monk's ki power, if any, is equal to 10 + 1/2 the monk's level + the monk's Wisdom bonus.</p>

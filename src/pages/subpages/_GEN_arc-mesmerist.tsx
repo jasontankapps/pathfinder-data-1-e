@@ -25,8 +25,8 @@ const _aromaphile = {title: "Aromaphile", jsx: <><h2 id="arc-mesmerist-aromaphil
 <Pair title="At 19th Level">The aromaphile selects a new <em>debilitating aroma.</em></Pair>
 <Pair title="Special">The aromaphile chooses one option each time he gains a new debilitating aroma improvement, and the choice can't be changed later. The aromaphile can't choose the same debilitating aroma more than once unless otherwise noted.</Pair>
 </Ability>
-<Ability id="arc-mesmerist-aromaphile-aromatic-manipulation-su" icon={["magic-palm","remedy","armor-downgrade"]}>
-<Pair single id="arc-mesmerist-aromaphile-aromatic-manipulation-su">Aromatic Manipulation (Su)</Pair>
+<Ability id="aromatic-manipulation-su" icon={["magic-palm","remedy","armor-downgrade"]}>
+<Pair single id="aromatic-manipulation-su">Aromatic Manipulation (Su)</Pair>
 <Pair hl title="Replaces">Mental potency</Pair>
 <Pair hl title="Alters">Touch treatment</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
@@ -41,8 +41,8 @@ const _aromaphile = {title: "Aromaphile", jsx: <><h2 id="arc-mesmerist-aromaphil
 </>};
 const _autohypnotist = {title: "Autohypnotist", jsx: <><h2 id="arc-mesmerist-autohypnotist-autohypnotist">Autohypnotist</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 17</Link><br/>An autohypnotist has incredibly powerful psychic abilities that he can't entirely control. As a result, maintaining his powers against an opponent hinders him as much as his target.</p>
-<Ability id="arc-mesmerist-autohypnotist-autohypnosis-su" icon={["upgrade","broken-shield"]}>
-<Pair single id="arc-mesmerist-autohypnotist-autohypnosis-su">Autohypnosis (Su)</Pair>
+<Ability id="autohypnosis-su" icon={["upgrade","broken-shield"]}>
+<Pair single id="autohypnosis-su">Autohypnosis (Su)</Pair>
 <Pair hl title="Alters">Hypnotic stare</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>An autohypnotist has mastered techniques that make his <em>hypnotic stare</em> ability more potent, but at a terrible cost - the autohypnotist succumbs to his own power when he uses it. Whenever the autohypnotist focuses his stare on an opponent, the penalties that opponent takes from the <em>hypnotic stare</em> (as well as any <em>bold stare</em> improvements or stare feats that the autohypnotist has) increase by 1. However, the autohypnotist takes the same penalties as his target while focusing his stare, including those of any <em>bold stare</em> improvements he has.</p>
@@ -62,8 +62,8 @@ const _chart_caster = {title: "Chart Caster", jsx: <><h2 id="arc-mesmerist-chart
 <Ability icon={["skills"]} id="undefined">
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair></Ability>
-<Ability id="arc-mesmerist-chart_caster-subject-of-the-stars-su" icon={["broken-shield","stairs-goal"]}>
-<Pair single id="arc-mesmerist-chart_caster-subject-of-the-stars-su">Subject of the Stars (Su)</Pair>
+<Ability id="subject-of-the-stars-su" icon={["broken-shield","stairs-goal"]}>
+<Pair single id="subject-of-the-stars-su">Subject of the Stars (Su)</Pair>
 <Pair hl title="Alters">Mesmerist tricks, manifold tricks</Pair>
 <Pair title="Ability"><p>A chart caster cannot implant tricks as a standard action. Instead, he can spend 5 minutes to implant multiple tricks in a single willing target. The number of tricks he can implant per day is unchanged from the regular mesmerist class, but he can apply as many of those tricks as he chooses on a single use of this ability.</p>
 <p>If implanting tricks in himself, the caster merely spends 5 minutes in contemplation; otherwise, he consults star charts while ritually asking the creature questions, and still must touch them to do so. He can select multiple instances of the same trick to implant in a single subject.</p>
@@ -609,8 +609,8 @@ const _toxitician = {title: "Toxitician", jsx: <><h2 id="arc-mesmerist-toxiticia
 <Pair hl title="Replaces">Consummate liar</Pair>
 <Pair title="Passive Ability">A toxitician adds 1/2 his class level (minimum 1) as a bonus on all Sleight of Hands checks.</Pair>
 </Ability>
-<Ability id="arc-mesmerist-toxitician-injections-su" icon={["magic-swirl","magic-palm"]}>
-<Pair single id="arc-mesmerist-toxitician-injections-su">Injections (Su)</Pair>
+<Ability id="injections-su" icon={["magic-swirl","magic-palm"]}>
+<Pair single id="injections-su">Injections (Su)</Pair>
 <Pair hl title="Replaces">Hypnotic stare</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>The toxitician uses his skill with alchemy and his own psychic powers to create injections. The toxitician can create a number of injections per day equal to his mesmerist level + his Charisma modifier. It takes 1 hour to create the injections. An injection is inert until the toxitician attempts to use it, taking a <strong className="hl">swift action</strong> to infuse it with his psychic power to activate it.</p>
@@ -686,8 +686,8 @@ const _umbral_mesmerist = {title: "Umbral Mesmerist", jsx: <><h2 id="arc-mesmeri
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Info">An umbral mesmerist can cast one fewer spell of each level than normal. If this reduces the number of spells for a level to 0, he can cast spells of that level only if his Charisma score allows <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</Pair>
 </Ability>
-<Ability id="arc-mesmerist-umbral_mesmerist-shadow-summoning-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-mesmerist-umbral_mesmerist-shadow-summoning-sp">Shadow Summoning (Sp)</Pair>
+<Ability id="shadow-summoning-sp" icon={["magic-swirl"]}>
+<Pair single id="shadow-summoning-sp">Shadow Summoning (Sp)</Pair>
 <Pair hl title="Replaces">Mesmerist tricks gained at 1st, 4th, 8th, 12th, 16th, and 20th levels</Pair>
 <Pair title="Usage">3 + Charisma modifier times/day</Pair>
 <Pair title="Ability"><p>An umbral mesmerist gains the ability to summon quasi-real creatures as per the <Link to="/spell/summon_monster_i">summon monster I</Link> spell. The umbral mesmerist can use this ability as a <strong className="hl">standard action</strong>, and the creatures remain for 1 minute per level (instead of 1 round per level). The creatures summoned are only partly real, but have normal effects unless a creature affected by the illusion succeeds at a Will save to disbelieve (as per <Link to="/spell/shadow_conjuration">shadow conjuration</Link>.) The DC for this save is equal to 10 + 1/2 the umbral mesmerist's mesmerist level + the umbral mesmerist's Charisma modifier. This is an illusion with the shadow descriptor.</p>

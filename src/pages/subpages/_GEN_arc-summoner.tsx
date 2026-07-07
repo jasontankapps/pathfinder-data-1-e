@@ -201,8 +201,8 @@ const _first_worlder = {title: "First Worlder", jsx: <><h2 id="arc-summoner-firs
 <Pair title="Ability">At levels where a summoner would gain a more powerful <em>summon monster</em> spell as a spell-like ability, he instead gains the equivalent <em>summon nature's ally</em> spell (at 19th level, he can use <Link to="/spell/summon_natures_ally_ix">summon nature's ally IX</Link> or <Link to="/spell/gate">gate</Link>).</Pair>
 <Pair title="Special">When a first worlder gains a <em>summon nature's ally</em> spell as a spell-like ability, he adds it to his class spell list (he must still select it as a spell known if he wants to cast it as an actual spell).</Pair>
 </Ability>
-<Ability id="arc-summoner-first_worlder-fey-summons-su" icon={["magic-swirl"]}>
-<Pair single id="arc-summoner-first_worlder-fey-summons-su">Fey Summons (Su)</Pair>
+<Ability id="fey-summons-su" icon={["magic-swirl"]}>
+<Pair single id="fey-summons-su">Fey Summons (Su)</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability"><p>A first worlder adds the following creatures to the lists of what he can summon with his <em>summon nature's ally</em> spell-like ability:</p>
 <Block>
@@ -213,8 +213,8 @@ const _first_worlder = {title: "First Worlder", jsx: <><h2 id="arc-summoner-firs
 <Row><Cell><em>Summon nature's ally VII</em></Cell><Cell><Link to="/monster/nymph">Nymph</Link>.</Cell></Row></Block>
 </Pair>
 </Ability>
-<Ability id="arc-summoner-first_worlder-eidolon" icon={["stairs-goal"]}>
-<Pair single id="arc-summoner-first_worlder-eidolon">Eidolon</Pair>
+<Ability id="eidolon" icon={["stairs-goal"]}>
+<Pair single id="eidolon">Eidolon</Pair>
 <Pair hl title="Replaces">Eidolon</Pair>
 <Pair title="Info"><p>Instead of an outsider, a first worlder's eidolon has the <Link to="/type/fey">fey</Link> creature type and the <Link to="/subtype/extraplanar">extraplanar</Link> subtype. Its statistics are changed from a standard eidolon as follows:</p>
 <Block>
@@ -275,8 +275,8 @@ const _leshy_caller = {title: "Leshy Caller", jsx: <><h2 id="arc-summoner-leshy_
 <Pair single id="type">Type</Pair>
 <Pair title="Info">The eidolon is still an outsider, and its statistics don't change, but it also counts as a plant. As it isn't truly a plant, it doesn't gain the plant immunities.</Pair>
 </Ability>
-<Ability id="arc-summoner-leshy_caller-base-form" extraClasses="hasSubs" icon={["info"]}>
-<Pair single id="arc-summoner-leshy_caller-base-form">Base Form</Pair>
+<Ability id="base-form" extraClasses="hasSubs" icon={["info"]}>
+<Pair single id="base-form">Base Form</Pair>
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Info"><p>The leshy caller chooses one of the base forms listed below for her eidolon. When the eidolon is summoned in an environment matching one of these base forms, the leshy caller can change the eidolon's base form to the matching form by sacrificing one daily use of her <em>summon nature's ally</em> ability as a <strong className="hl">free action</strong>.</p>
 <p>Plant eidolon base forms are as follows.</p>
@@ -360,8 +360,8 @@ const _morphic_savant = {title: "Morphic Savant", jsx: <><h2 id="arc-summoner-mo
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Ability">A morphic savant's eidolon must be of a chaotic alignment. The morphic savant's eidolon has three base forms: biped, quadruped, and serpentine. Each form has the same feats and skills, but has its own set of evolutions. When the summoner meditates and regains his spell slots for the day, he can select any of the three base forms of his eidolon. The eidolon has 1 fewer evolution point than normal for an eidolon of the morphic savant's summoner level, and has 1 fewer skill point per Hit Die.</Pair>
 </Ability>
-<Ability id="arc-summoner-morphic_savant-morphic-monsters" icon={["info","magic-swirl","broken-shield","upgrade"]}>
-<Pair single id="arc-summoner-morphic_savant-morphic-monsters">Morphic Monsters</Pair>
+<Ability id="morphic-monsters" icon={["info","magic-swirl","broken-shield","upgrade"]}>
+<Pair single id="morphic-monsters">Morphic Monsters</Pair>
 <Pair hl title="Alters">Summon monster</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Info"><p>Since a morphic savant's power is drawn from planar energies aligned with chaos, all the creatures he summons must be of a chaotic alignment. If a creature would normally be celestial or fiendish, it is instead an <Link to="/template/entropic">entropic creature</Link>.</p>
@@ -452,8 +452,8 @@ const _shadow_caller = {title: "Shadow Caller", jsx: <><h2 id="arc-summoner-shad
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Use Magic Device</Pair></Ability>
-<Ability id="arc-summoner-shadow_caller-shadow-summoning-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-summoner-shadow_caller-shadow-summoning-sp">Shadow Summoning (Sp)</Pair>
+<Ability id="shadow-summoning-sp" icon={["magic-swirl"]}>
+<Pair single id="shadow-summoning-sp">Shadow Summoning (Sp)</Pair>
 <Pair hl title="Replaces"> summon monster spell-like</Pair>
 <Pair title="Ability"><p>When a shadow caller uses his <em>summon monster</em> ability or casts the <Link to="/spell/summon_monster">summon monster</Link> spell, he typically summons creatures from the Shadow Plane or creatures closely associated with shadow. When a creature on the <em>summon monster</em> spell list indicates that it is summoned with either the celestial or the fiendish template based on the alignment of the caster, the creature summoned by the shadow caller has the <Link to="/template/shadow">shadow</Link> creature template instead. Furthermore, the <em>summon monster</em> lists are modified in the following ways (these changes also apply to using a higher-level <em>summon</em> spell to summon multiple creatures from a lower-level list).</p>
 <Block>
@@ -547,8 +547,8 @@ const _storm_caller = {title: "Storm Caller", jsx: <><h2 id="arc-summoner-storm_
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Info">A storm caller must select the <Link to="/evolution/resistance">resistance</Link> (electricity) or <Link to="/evolution/immunity">immunity</Link> (electricity) evolution for his eidolon. If the eidolon has neither of these evolutions, it becomes <Link to="/misc/nauseated">nauseated</Link> until it regains one of them.</Pair>
 </Ability>
-<Ability id="arc-summoner-storm_caller-summon-storms-fury-sp" icon={["broken-shield","magic-swirl","spell-book"]}>
-<Pair single id="arc-summoner-storm_caller-summon-storms-fury-sp">Summon Storm's Fury (Sp)</Pair>
+<Ability id="summon-storms-fury-sp" icon={["broken-shield","magic-swirl","spell-book"]}>
+<Pair single id="summon-storms-fury-sp">Summon Storm's Fury (Sp)</Pair>
 <Pair hl title="Alters">Summon monster I-IX</Pair>
 <Pair title="Ability"><p>A storm caller can summon creatures infused with the power of the storm to help him. This functions as the summoner's <em>summon monster I-IX</em> abilities, except the storm caller can summon only the following creatures at the indicated spell levels:</p>
 <Block size="tiny">
@@ -655,8 +655,8 @@ const _story_summoner = {title: "Story Summoner", jsx: <><h2 id="arc-summoner-st
 </>};
 const _synthesist = {title: "Synthesist", jsx: <><h2 id="arc-summoner-synthesist-synthesist">Synthesist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 81</Link><br/>Rather than summon an eidolon to serve by his side, the synthesist fuses his eidolon's essence to his own. Instead of two creatures, the synthesist is a fusion of the summoner and eidolon into a single being.</p>
-<Ability id="arc-summoner-synthesist-fused-eidolon" icon={["stairs-goal","upgrade","armor-upgrade","broken-shield"]}>
-<Pair single id="arc-summoner-synthesist-fused-eidolon">Fused Eidolon</Pair>
+<Ability id="fused-eidolon" icon={["stairs-goal","upgrade","armor-upgrade","broken-shield"]}>
+<Pair single id="fused-eidolon">Fused Eidolon</Pair>
 <Pair hl title="Replaces">Eidolon, bond senses, life bond</Pair>
 <Pair title="Ability"><p>A synthesist summons the essence of a powerful outsider to meld with his own being. The synthesist wears the eidolon like translucent, living armor. The eidolon mimics all of the synthesist's movements, and the synthesist perceives through the eidolon's senses and speaks through its voice, as the two are now one creature. The synthesist directs all of the eidolon's actions while fused, perceives through its senses, and speaks through its voice, as the two are now one creature.</p>
 <p>While fused with his eidolon, the synthesist uses the eidolon's Strength, Dexterity, and Constitution, but retains his own Intelligence, Wisdom, and Charisma. The synthesist gains the eidolon's hit points as <Link to="/rule/temporary_hit_points">temporary hit points</Link>. When these hit points reach 0, the eidolon is killed and sent back to its home plane. The synthesist uses the eidolon's base attack bonus, and gains the eidolon's armor and natural armor bonuses and modifiers to ability scores. The synthesist also gains access to the eidolon's special abilities and the eidolon's evolutions. The synthesist is still limited to the eidolon's maximum number of natural attacks. The eidolon has no skills or feats of its own. The eidolon must be at least the same size as the synthesist. The eidolon must have <Link to="/evolution/limbs">limbs</Link> for the synthesist to cast spells with somatic components. The eidolon's temporary hit points can be restored with the <Link to="/spell/rejuvenate_eidolon">rejuvenate eidolon</Link> spell.</p>
@@ -789,8 +789,8 @@ const _wild_caller_arg = {title: "Wild Caller (ARG)", jsx: <><h2 id="arc-summone
 <Pair hl title="Alters">Spell list of the summoner</Pair>
 <Pair title="Info">A wild caller does not have access to <em>summon monster</em> spells. Instead, he swaps out those spells on his spell list with <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spells of the same level.</Pair>
 </Ability>
-<Ability id="arc-summoner-wild_caller_arg-eidolon" icon={["upgrade","broken-shield"]}>
-<Pair single id="arc-summoner-wild_caller_arg-eidolon" flavor="The eidolon of a wild caller tends to take more natural and more savage forms than other summoners' eidolons.">Eidolon</Pair>
+<Ability id="eidolon" icon={["upgrade","broken-shield"]}>
+<Pair single id="eidolon" flavor="The eidolon of a wild caller tends to take more natural and more savage forms than other summoners' eidolons.">Eidolon</Pair>
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Info"><p>A wild caller gains <Link to="/misc/one_fourth">one-fourth</Link> of his class level as bonus evolution points in his eidolon's evolution pool, but his eidolon cannot take the following evolutions.</p>
 <Block>
@@ -828,8 +828,8 @@ const _wild_caller_hotw = {title: "Wild Caller (HotW)", jsx: <><h2 id="arc-summo
 <Pair single id="type">Type</Pair>
 <Pair title="Info">The eidolon has the <Link to="/type/plant">plant</Link> creature type and <Link to="/subtype/extraplanar">extraplanar</Link> subtype. Unlike other plant creatures, the eidolon is not immune to mind-affecting or polymorph effects, though it does gain immunity to paralysis, poison, sleep effects, and stunning.</Pair>
 </Ability>
-<Ability id="arc-summoner-wild_caller_hotw-base-form" extraClasses="hasSubs" icon={["info"]}>
-<Pair single id="arc-summoner-wild_caller_hotw-base-form">Base Form</Pair>
+<Ability id="base-form" extraClasses="hasSubs" icon={["info"]}>
+<Pair single id="base-form">Base Form</Pair>
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Info"><p>The wild caller chooses one of the base forms listed below for his plant eidolon. When the eidolon is summoned in an environment matching one of these base forms, the wild caller can choose to change the eidolon's base form to the matching form by sacrificing one daily use of his <em>summon nature's ally</em> ability as a <strong className="hl">free action</strong>.</p>
 <p>Plant eidolon base forms are as follows.</p>

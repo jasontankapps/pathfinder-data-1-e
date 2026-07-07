@@ -6,8 +6,8 @@ import ScrollContainer from '../../components/ScrollContainer';
 import AffInfo from '../../components/AfflictionInfo';
 const _aerochemist = {title: "Aerochemist", jsx: <><h2 id="arc-alchemist-aerochemist-aerochemist">Aerochemist</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 27</Link><br/>Although the specifics of the Aeromantic Infadibulum are lost to time, aerochemists are able to emulate and replicate aspects of this lost magic. Aerochemists use scraps of Shory's magic in their concoctions to gain personal powers of flight.</p>
-<Ability id="arc-alchemist-aerochemist-aeromantic-concoction-su" icon={["stairs-goal","upgrade"]}>
-<Pair single id="arc-alchemist-aerochemist-aeromantic-concoction-su">Aeromantic Concoction (Su)</Pair>
+<Ability id="aeromantic-concoction-su" icon={["stairs-goal","upgrade"]}>
+<Pair single id="aeromantic-concoction-su">Aeromantic Concoction (Su)</Pair>
 <Pair hl title="Replaces">Mutagen, swift poisoning, persistent mutagen</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>An aerochemist learns to craft a special alchemical concoction. It takes 10 minutes to brew a dose of this concoction, and once brewed, it remains potent until used. An aerochemist can maintain only 1 dose of this concoction at a time: if he brews a second dose, any existing concoction becomes inert. As with an extract or bomb, an aeromantic concoction that is not in the aerochemist's possession becomes inert until he picks it up again. Anyone other than the aerochemist who attempts to drink his aeromantic concoction is affected in the same fashion as is a non-alchemist who drinks an alchemist's mutagen.</p>
@@ -289,8 +289,8 @@ const _blood_alchemist = {title: "Blood Alchemist", jsx: <><h2 id="arc-alchemist
 <Pair title="Usage">He can use this ability once for each spell level each day (for example, a 13th-level blood alchemist can use lifeblood to gain additional 1st-, 2nd-, 3rd-, 4th-, and 5th level extracts).</Pair>
 <Pair title="Special">A blood alchemist can't take the mutagen or cognatogen discoveries.</Pair>
 </Ability>
-<Ability id="arc-alchemist-blood_alchemist-alchemical-circles-sp-su" icon={["magic-swirl"]}>
-<Pair single id="arc-alchemist-blood_alchemist-alchemical-circles-sp-su">Alchemical Circles (Sp, Su)</Pair>
+<Ability id="alchemical-circles-sp-su" icon={["magic-swirl"]}>
+<Pair single id="alchemical-circles-sp-su">Alchemical Circles (Sp, Su)</Pair>
 <Pair hl title="Replaces">Bombs</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>A blood alchemist gains a blood pool with a number of points equal to his alchemist level + his Intelligence modifier. He can spend 1 point from his blood pool to draw a complex alchemical circle in blood on the ground or on another permanent fixture in a process that takes 1 minute. Depending on his alchemist level, the alchemical circle can have one of several effects.</p>
@@ -736,8 +736,8 @@ const _ectoplasm_master = {title: "Ectoplasm Master", jsx: <><h2 id="arc-alchemi
 </>};
 const _eldritch_poisoner = {title: "Eldritch Poisoner", jsx: <><h2 id="arc-alchemist-eldritch_poisoner-eldritch-poisoner">Eldritch Poisoner</h2>
 <p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets pg. 28</Link><br/>Eldritch poisoners are masters of the toxic arts, synthesizing lethal and incapacitating poisons with uncanny speed and expertise.</p>
-<Ability id="arc-alchemist-eldritch_poisoner-arcanotoxin-su" icon={["stairs-goal"]}>
-<Pair single id="arc-alchemist-eldritch_poisoner-arcanotoxin-su" flavor="An eldritch poisoner can blend volatile chemicals and her own personal magic to create deadly poisons known as arcanotoxins.">Arcanotoxin (Su)</Pair>
+<Ability id="arcanotoxin-su" icon={["stairs-goal"]}>
+<Pair single id="arcanotoxin-su" flavor="An eldritch poisoner can blend volatile chemicals and her own personal magic to create deadly poisons known as arcanotoxins.">Arcanotoxin (Su)</Pair>
 <Pair hl title="Replaces">Bomb</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">Alchemist level + Intelligence modifier times/day</Pair>
@@ -984,8 +984,8 @@ const _fire_bomber = {title: "Fire Bomber", jsx: <><h2 id="arc-alchemist-fire_bo
 </>};
 const _first_world_innovator = {title: "First World Innovator", jsx: <><h2 id="arc-alchemist-first_world_innovator-first-world-innovator">First World Innovator</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 6</Link><br/>The First World's energies slowly leak into the Material Plane, haphazardly infusing mundane reagents with unpredictable power. Those who can harness these unusual substances - called primal reagents - walk a fine line between genius and catastrophe.</p>
-<Ability id="arc-alchemist-first_world_innovator-primal-reagents-su" icon={["stairs-goal","upgrade"]}>
-<Pair single id="arc-alchemist-first_world_innovator-primal-reagents-su">Primal Reagents (Su)</Pair>
+<Ability id="primal-reagents-su" icon={["stairs-goal","upgrade"]}>
+<Pair single id="primal-reagents-su">Primal Reagents (Su)</Pair>
 <Pair hl title="Replaces">Brew Potion, poison use, swift poisoning, poison immunity</Pair>
 <Pair title="Ability"><p>By spending 10 minutes patrolling his surroundings after recovering his daily extract slots, a First World innovator can gather a number of doses of primal reagents equal to <Link to="/misc/half">half</Link> his alchemist level + his Intelligence modifier. Primal reagents retain their potency until the next time the First World innovator regains his extract slots. As part of the same action used to consume an extract, imbibe a potion, throw a bomb, or drink his mutagen, the First World innovator can expend 1 dose of primal reagents for additional effects as described below.</p>
 <p><strong className="hl">Bomb:</strong> Expending 1 dose can change either the bomb's damage type or its damage dealt. When changing the damage type, the bomb deals acid (1), cold (2), electricity (3), or fire (4) damage (roll 1d4 to determine the type randomly) instead of its normal damage. When changing the bomb's damage dealt, the bomb's die size <Link to="/misc/by_one_step">increases by one step</Link> (for example, increasing 1d6 to 1d8), but it deals 1 less point of damage per die rolled.</p>

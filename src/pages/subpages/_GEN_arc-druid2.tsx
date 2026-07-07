@@ -58,8 +58,8 @@ const _naga_aspirant = {title: "Naga Aspirant", jsx: <><h2 id="arc-druid-naga_as
 <Pair title="Prerequisites">The druid's naga form must have at least one poison-based natural attack.</Pair>
 <Pair title="Passive Ability">The druid gains immunity to all poisons.</Pair>
 </Ability>
-<Ability id="arc-druid-naga_aspirant-poisonous-sting-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
-<Pair single id="arc-druid-naga_aspirant-poisonous-sting-ex">Poisonous Sting (Ex)</Pair>
+<Ability id="poisonous-sting-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="poisonous-sting-ex">Poisonous Sting (Ex)</Pair>
 <Pair title="Prerequisites">The naga form's tail must have a <em>sting.</em></Pair>
 <Pair title="Passive Ability"><p>The druid's stinger becomes venomous.</p>
 <AffInfo type="Sting-injury" save="Fort 10 + 1/2 the druid's level + her Con modifier" freq="1 round" eff="sleep for 2d4 minutes" cure1 icon="p" />
@@ -83,8 +83,8 @@ const _naga_aspirant = {title: "Naga Aspirant", jsx: <><h2 id="arc-druid-naga_as
 <Pair title="Passive Ability">The druid's enhancement bonus to her natural armor increases by +2.</Pair>
 <Pair title="Special">The druid may select this ability more than once. Its effects stack.</Pair>
 </Ability>
-<Ability id="arc-druid-naga_aspirant-venomous-bite-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
-<Pair single id="arc-druid-naga_aspirant-venomous-bite-ex">Venomous Bite (Ex)</Pair>
+<Ability id="venomous-bite-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="venomous-bite-ex">Venomous Bite (Ex)</Pair>
 <Pair title="Passive Ability"><p>The naga form's bite attack becomes poisonous.</p>
 <AffInfo type="Bite-injury" save="Fort 10 + 1/2 the druid's level + her Con modifier" freq="1/round for 6 rounds" eff={<>1 <Link to="/rule/con_damage">Con damage</Link></>} cure1 icon="p" />
 </Pair>
@@ -198,8 +198,8 @@ const _nithveil_adept = {title: "Nithveil Adept", jsx: <><h2 id="arc-druid-nithv
 </>};
 const _pack_lord = {title: "Pack Lord", jsx: <><h2 id="arc-druid-pack_lord-pack-lord">Pack Lord</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 38</Link><br/>Some druids bond with many animal companions rather than just one, achieving a level of communion rare even in druidic circles and leading their pack brothers and pack sisters with total authority.</p>
-<Ability id="arc-druid-pack_lord-pack-bond-ex" icon={["broken-shield"]}>
-<Pair single id="arc-druid-pack_lord-pack-bond-ex">Pack Bond (Ex)</Pair>
+<Ability id="pack-bond-ex" icon={["broken-shield"]}>
+<Pair single id="pack-bond-ex">Pack Bond (Ex)</Pair>
 <Pair hl title="Replaces">Nature bond</Pair>
 <Pair title="Choice">A pack lord druid may not select a domain and must choose an animal companion.</Pair>
 <Pair title="Passive Ability">The druid gains a +2 bonus on <em>wild empathy</em> and Handle Animal checks made regarding her animal companion.</Pair>
@@ -278,8 +278,8 @@ const _planar_extremist = {title: "Planar Extremist", jsx: <><h2 id="arc-druid-p
 <Pair single id="domain-option">Domain Option</Pair>
 <Pair title="Ability">The first is a close tie to the plane to which she is aligned, granting the planar extremist one of the domains of her alignment (for example, a lawful good planar extremist could take either the <Link to="/domain/law">Law</Link> or <Link to="/domain/good">Good</Link> domain). This option otherwise functions as a druid's <em>nature bond</em> if she chose a close tie to the natural world.</Pair>
 </Ability>
-<Ability id="arc-druid-planar_extremist-outsider-option" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
-<Pair single id="arc-druid-planar_extremist-outsider-option">Outsider Option</Pair>
+<Ability id="outsider-option" extraClasses="subAbility numbered" icon={["stairs-goal"]}>
+<Pair single id="outsider-option">Outsider Option</Pair>
 <Pair title="Ability"><p>The second option is to form a close bond with an outsider from an Outer Plane. The abilities of this outsider companion are determined using the rules for <Link to="/sidekick/unchained_eidolon">eidolons</Link> for the <Link to="/class/unchained_summoner">unchained summoner</Link> class, as if the planar extremist were a summoner of her druid level, except the outsider companion gains no additional evolution pool (only the evolutions from its base form and base evolutions for its subtype), and it must be of a <Link to="/ability/unchained_eidolon_subtypes">subtype</Link> whose alignment exactly matches the alignment of the planar extremist. The planar extremist can summon her outsider companion with the same 1-minute ritual a summoner normally uses to do so, but she can't cast <em>summon monster</em> spells if she currently has her outsider companion summoned, and she can't summon her companion if she already has a creature summoned through other means.</p>
 <p>As the planar ally gains class levels, her eidolon's base statistics and base evolutions increase as if her druid level were her summoner level. The eidolon gains the <em>darkvision, link, share spells, evasion, ability score increase, devotion, multiattack,</em> and <em>improved evasion</em> abilities at the appropriate levels, but never gains an evolution pool. Abilities and spells that grant additional evolution points to eidolons do not function for her outsider companion, though any abilities that would grant evolution points to an animal companion do work. The planar extremist does not gain life link or any other class features a summoner gains in relation to her eidolon.</p>
 </Pair>
@@ -560,8 +560,8 @@ const _saurian_shaman = {title: "Saurian Shaman", jsx: <><h2 id="arc-druid-sauri
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Ability">A saurian shaman can use <em>wild empathy</em> with dinosaurs and reptiles as a <strong className="hl">full-round action</strong> with a +4 bonus.</Pair>
 </Ability>
-<Ability id="arc-druid-saurian_shaman-totem-transformation-su" icon={["upgrade","magic-swirl"]}>
-<Pair single id="arc-druid-saurian_shaman-totem-transformation-su">Totem Transformation (Su)</Pair>
+<Ability id="totem-transformation-su" icon={["upgrade","magic-swirl"]}>
+<Pair single id="totem-transformation-su">Totem Transformation (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 minute/day per druid level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
@@ -705,8 +705,8 @@ const _serpent_shaman = {title: "Serpent Shaman", jsx: <><h2 id="arc-druid-serpe
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Ability">A serpent shaman can use <em>wild empathy</em> with reptiles as a <strong className="hl">full-round action</strong> with a +4 bonus.</Pair>
 </Ability>
-<Ability id="arc-druid-serpent_shaman-totem-transformation-su" icon={["upgrade","magic-swirl"]}>
-<Pair single id="arc-druid-serpent_shaman-totem-transformation-su">Totem Transformation (Su)</Pair>
+<Ability id="totem-transformation-su" icon={["upgrade","magic-swirl"]}>
+<Pair single id="totem-transformation-su">Totem Transformation (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 minute/day per druid level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
@@ -757,8 +757,8 @@ const _shark_shaman = {title: "Shark Shaman", jsx: <><h2 id="arc-druid-shark_sha
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Ability">A shark shaman can use <em>wild empathy</em> with fish as a <strong className="hl">full-round action</strong> with a +4 bonus.</Pair>
 </Ability>
-<Ability id="arc-druid-shark_shaman-totem-transformation-su" icon={["upgrade","magic-swirl"]}>
-<Pair single id="arc-druid-shark_shaman-totem-transformation-su">Totem Transformation (Su)</Pair>
+<Ability id="totem-transformation-su" icon={["upgrade","magic-swirl"]}>
+<Pair single id="totem-transformation-su">Totem Transformation (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 minute/day per druid level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
@@ -1035,8 +1035,8 @@ const _supernaturalist = {hasJL:true,title: "Supernaturalist", jsx: <><div class
 <Pair single id="influence-penalty">Influence Penalty</Pair>
 <Pair title="Passive Ability">You become wild and savage, taking a penalty equal to your spirit bonus on caster level checks, Charisma- and Intelligence-based ability checks, and skill checks.</Pair>
 </Ability>
-<Ability id="arc-druid-supernaturalist-taboos" extraClasses="subAbility" icon={["broken-shield"]}>
-<Pair single id="arc-druid-supernaturalist-taboos">Taboos</Pair>
+<Ability id="taboos" extraClasses="subAbility" icon={["broken-shield"]}>
+<Pair single id="taboos">Taboos</Pair>
 <Pair title="Choice"><p>Choose one:</p>
 <ul>
 <li>You must not speak (except with animals and plants)</li>
@@ -1045,8 +1045,8 @@ const _supernaturalist = {hasJL:true,title: "Supernaturalist", jsx: <><div class
 </ul>
 </Pair>
 </Ability>
-<Ability id="arc-druid-supernaturalist-totem-transformation-lesser-su" extraClasses="subAbility" icon={["upgrade"]}>
-<Pair single id="arc-druid-supernaturalist-totem-transformation-lesser-su">Totem Transformation (Lesser, Su)</Pair>
+<Ability id="totem-transformation-lesser-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="totem-transformation-lesser-su">Totem Transformation (Lesser, Su)</Pair>
 <Pair title="Ability"><p>You gain any of the following abilities possessed by the animal you select as your animal spirit:</p>
 <ul>
 <li><Link to="/umr/natural_weapons">Bite</Link> (1d6 for a Medium druid)</li>
@@ -1088,8 +1088,8 @@ const _supernaturalist = {hasJL:true,title: "Supernaturalist", jsx: <><div class
 <Pair single id="plant-companion">Plant companion</Pair>
 <Pair title="Ability">A supernaturalist can form a close bond with a plant companion. A supernaturalist may begin play with any of the plants listed under <strong>Plant Companions</strong> in the <Link to="/arc-druid/treesinger">treesinger</Link> archetype. This plant is a loyal companion that accompanies the supernaturalist on her adventures. Except for the companion being a creature of the plant type, drawn from the list of plant companions, this ability otherwise works like the standard druid's animal companion ability.</Pair>
 </Ability>
-<Ability id="arc-druid-supernaturalist-green-empathy-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-druid-supernaturalist-green-empathy-ex">Green Empathy (Ex)</Pair>
+<Ability id="green-empathy-ex" icon={["stairs-goal"]}>
+<Pair single id="green-empathy-ex">Green Empathy (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>A supernaturalist can improve the attitude of a plant creature. This ability functions just like a Diplomacy check made to improve the attitude of a person. The supernaturalist rolls 1d20 and adds her druid level and her Charisma modifier to determine the <em>green empathy</em> check result. The typical wild plant creature has a starting attitude of indifferent.</p>
@@ -1334,8 +1334,8 @@ const _treesinger = {title: "Treesinger", jsx: <><h2 id="arc-druid-treesinger-tr
 <Pair single id="plant-companion">Plant companion</Pair>
 <Pair title="Ability">A treesinger can form a close bond with a plant companion. A treesinger may begin play with any of the plants listed below in <InnerLink toTop to="arc-druid-treesinger-plant-companions">Plant Companions</InnerLink>. This plant is a loyal companion that accompanies the treesinger on her adventures. Except for the companion being a creature of the plant type, drawn from the list of plant companions, this ability otherwise works like the standard druid's animal companion ability.</Pair>
 </Ability>
-<Ability id="arc-druid-treesinger-green-empathy-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-druid-treesinger-green-empathy-ex">Green Empathy (Ex)</Pair>
+<Ability id="green-empathy-ex" icon={["stairs-goal"]}>
+<Pair single id="green-empathy-ex">Green Empathy (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>A treesinger can improve the attitude of a plant creature. This ability functions just like a Diplomacy check made to improve the attitude of a person. The treesinger rolls 1d20 and adds her druid level and her Charisma modifier to determine the <em>green empathy</em> check result. The typical wild plant creature has a starting attitude of indifferent.</p>
@@ -1480,8 +1480,8 @@ const _urban_druid = {title: "Urban Druid", jsx: <><h2 id="arc-druid-urban_druid
 </>};
 const _urushiol = {title: "Urushiol", jsx: <><h2 id="arc-druid-urushiol-urushiol">Urushiol</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 27</Link><br/>When an urushiol druid forms a bond with nature, it takes a vastly different form than for most druids. His body becomes increasingly toxic, allowing him to secrete a deadly poison through his pores.</p>
-<Ability id="arc-druid-urushiol-toxic-secretions-su" icon={["stairs-goal"]}>
-<Pair single id="arc-druid-urushiol-toxic-secretions-su">Toxic Secretions (Su)</Pair>
+<Ability id="toxic-secretions-su" icon={["stairs-goal"]}>
+<Pair single id="toxic-secretions-su">Toxic Secretions (Su)</Pair>
 <Pair hl title="Replaces">Nature bond, resist nature's lure</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>An urushiol's body becomes capable of producing a single dose of poison per day. The urushiol is immune to his own poison and cannot accidentally poison himself when applying his own poison or attacking with a weapon coated with it. Regardless of the delivery method he chooses, his poison has the following base statistics.</p>
@@ -1548,8 +1548,8 @@ const _wolf_shaman = {title: "Wolf Shaman", jsx: <><h2 id="arc-druid-wolf_shaman
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Ability">A wolf shaman can use <em>wild empathy</em> with canines as a <strong className="hl">full-round action</strong> with a +4 bonus.</Pair>
 </Ability>
-<Ability id="arc-druid-wolf_shaman-totem-transformation-su" icon={["upgrade","magic-swirl"]}>
-<Pair single id="arc-druid-wolf_shaman-totem-transformation-su">Totem Transformation (Su)</Pair>
+<Ability id="totem-transformation-su" icon={["upgrade","magic-swirl"]}>
+<Pair single id="totem-transformation-su">Totem Transformation (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 minute/day per druid level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>

@@ -989,8 +989,8 @@ const _tinkerer = {title: "Tinkerer", jsx: <><h2 id="arc-alchemist-tinkerer-tink
 <Pair title="At 20th Level">The tinkerer can now heal 5d6 hit points.</Pair>
 <Pair title="Special">A tinkerer cannot choose the <em>cognatogen</em> or <em>mutagen</em> discoveries.</Pair>
 </Ability>
-<Ability id="arc-alchemist-tinkerer-tinkering-ex" icon={["upgrade","armor-upgrade","mailed-fist"]}>
-<Pair single id="arc-alchemist-tinkerer-tinkering-ex">Tinkering (Ex)</Pair>
+<Ability id="tinkering-ex" icon={["upgrade","armor-upgrade","mailed-fist"]}>
+<Pair single id="tinkering-ex">Tinkering (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance +2, poison use, poison resistance +4</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability"><p>A tinkerer can spend 1 hour working on her clockwork spy familiar to enhance it with one of the options from the following list.</p>
@@ -1016,8 +1016,8 @@ const _tinkerer = {title: "Tinkerer", jsx: <><h2 id="arc-alchemist-tinkerer-tink
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">The tinkerer turns her familiar into a <Link to="/monster/clockwork_familiar">clockwork familiar</Link> that takes any form she wishes. She must choose which type of item is installed in the clockwork familiar. She gains the clockwork familiar at no cost, as if she were a 7th-level spellcaster with the <Link to="/feat/improved_familiar">Improved Familiar</Link> feat.</Pair>
 </Ability>
-<Ability id="arc-alchemist-tinkerer-greater-tinkering-ex" icon={["mailed-fist","armor-upgrade","stairs-goal"]}>
-<Pair single id="arc-alchemist-tinkerer-greater-tinkering-ex">Greater Tinkering (Ex)</Pair>
+<Ability id="greater-tinkering-ex" icon={["mailed-fist","armor-upgrade","stairs-goal"]}>
+<Pair single id="greater-tinkering-ex">Greater Tinkering (Ex)</Pair>
 <Pair hl title="Replaces">Poison resistance +6</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability"><p>A tinkerer can spend 1 hour working on her familiar to enhance it with one of the options from the following list. A tinkerer can change the enhancement applied to her familiar, but doing so takes 1 hour.</p>

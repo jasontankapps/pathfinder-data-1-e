@@ -93,8 +93,8 @@ const _arcane_duelist = {title: "Arcane Duelist", jsx: <><h2 id="arc-bard-arcane
 <Pair title="Ability">An arcane duelist gains the arcane bond ability as a <Link to="/class/wizard">wizard</Link>, using a weapon as his bonded item, allowing him to cast any one additional spell that he knows once per day.</Pair>
 <Pair title="Special">He may use the hand holding his bonded weapon for somatic components.</Pair>
 </Ability>
-<Ability id="arc-bard-arcane_duelist-bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
-<Pair single id="arc-bard-arcane_duelist-bonded-object" flavor="Relevant text from the wizard ability.">Bonded Object</Pair>
+<Ability id="bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="bonded-object" flavor="Relevant text from the wizard ability.">Bonded Object</Pair>
 <Pair title="Ability"><p>You begin play with a bonded object at no cost. This object is always masterwork quality. Weapons acquired at 1st level are not made of any special material. Weapons must be wielded to have an effect. If you attempt to cast a spell without your bonded object in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
 <p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities.</p>
 <p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>
@@ -535,8 +535,8 @@ const _chelish_diva = {title: "Chelish Diva", jsx: <><h2 id="arc-bard-chelish_di
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Standard Action">The Chelish diva can spend 1 round of bardic performance to direct a burst of sonically charged words at a creature or object. This performance deals 1d4 points of damage + the diva's level to an object, or half this damage to a living creature.</Pair>
 </Ability>
-<Ability id="arc-bard-chelish_diva-scathing-tirade-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
-<Pair single id="arc-bard-chelish_diva-scathing-tirade-su">Scathing Tirade (Su)</Pair>
+<Ability id="scathing-tirade-su" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="scathing-tirade-su">Scathing Tirade (Su)</Pair>
 <Pair hl title="Replaces">Dirge of doom</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability"><p>A Chelish diva can use her performance to verbally lash out at another creature, causing it to become <Link to="/misc/frightened">frightened</Link>. To be affected, the target enemy must be within 30 feet and be able to see and hear the diva's performance. The effect persists for as long as the enemy is within 30 feet and the diva continues her performance, plus 1d4 rounds.</p>
@@ -790,8 +790,8 @@ const _dawnflower_dervish = {title: "Dawnflower Dervish", jsx: <><h2 id="arc-bar
 <Pair hl title="Replaces">Proficiency with the rapier and whip</Pair>
 <Pair title="Ability">Dawnflower dervishes gain weapon proficiency with the <Link to="/eq-weapon/scimitar">scimitar</Link>.</Pair>
 </Ability>
-<Ability id="arc-bard-dawnflower_dervish-battle-dance" icon={["stairs-goal"]}>
-<Pair single id="arc-bard-dawnflower_dervish-battle-dance">Battle Dance</Pair>
+<Ability id="battle-dance" icon={["stairs-goal"]}>
+<Pair single id="battle-dance">Battle Dance</Pair>
 <Pair hl title="Alters">Bardic performance</Pair>
 <Pair title="Ability"><p>A Dawnflower dervish is trained in the use of the Perform skill, especially dance, to create magical effects on himself. This works like bardic performance, except that the Dawnflower dervish's performances grant double their normal bonuses, but these bonuses only affect him. He does not need to be able to see or hear his own performance. Battle dancing is treated as bardic performance for the purposes of feats, abilities, and effects that affect bardic performance, except that battle dancing does not benefit from the <Link to="/feat/lingering_performance">Lingering Performance</Link> feat or any other ability that allows a bardic performance to grant bonuses after it has ended. The benefits of battle dancing apply only when the bard is wearing light or no armor. Like bardic performance, battle dancing cannot be maintained at the same time as other performance abilities.</p>
 <p>Starting a battle dance is a <strong className="hl">move action</strong>, but it can be maintained each round as a <strong className="hl">free action</strong>. Changing a battle dance from one effect to another requires the Dawnflower dervish to stop the previous performance and start the new one as a move action. Like a bard, a Dawnflower dervish's performance ends immediately if he is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a free action each round. A Dawnflower dervish cannot perform more than one battle dance at a time.</p>
@@ -863,8 +863,8 @@ const _dervish_dancer = {title: "Dervish Dancer", jsx: <><h2 id="arc-bard-dervis
 <Pair hl title="Replaces">Proficiency with the rapier and whip</Pair>
 <Pair title="Ability">Dervish dancers gain weapon proficiency with the <Link to="/eq-weapon/scimitar">scimitar</Link> and <Link to="/eq-weapon/kukri">kukri</Link>.</Pair>
 </Ability>
-<Ability id="arc-bard-dervish_dancer-battle-dance" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-bard-dervish_dancer-battle-dance">Battle Dance</Pair>
+<Ability id="battle-dance" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="battle-dance">Battle Dance</Pair>
 <Pair hl title="Alters">Bardic performance</Pair>
 <Pair title="Ability"><p>A dervish dancer is trained in the use of the Perform skill, especially dance, to create magical effects on himself. This works like bardic performance, except the dervish dancer only affects himself, and does not need to be able to see or hear his own performance. Battle dancing is treated as bardic performance for the purposes of feats, abilities, effects, and the like that affect bardic performance, except that <em>battle dancing</em> does not benefit from the <Link to="/feat/lingering_performance">Lingering Performance</Link> feat or any other ability that allows a bardic performance to grant bonuses after it has ended. Battle dancing benefits apply only when the bard is wearing light or no armor. Like bardic performance, it cannot be maintained at the same time as other performance abilities.</p>
 <p>Starting a <em>battle dance</em> is a <strong className="hl">move action</strong>, but it can be maintained each round as a <strong className="hl">free action</strong>. Changing a <em>battle dance</em> from one effect to another requires the dervish dancer to stop the previous performance and start the new one as a move action. Like a bard, a dervish dancer's performance ends immediately if he is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a free action each round. A dervish dancer cannot perform more than one <em>battle dance</em> at a time.</p>
@@ -1497,8 +1497,8 @@ const _fortune_teller = {title: "Fortune-Teller", jsx: <><h2 id="arc-bard-fortun
 <Pair hl title="Alters">Spell list</Pair>
 <Pair title="Info">Add the following spells to the fortune-teller's bard spell list. He doesn't automatically gain them and must still select them as spells known if he wants to use them. 0-<Link to="/spell/guidance">guidance</Link>; 1st-<Link to="/spell/object_reading">object reading</Link>; 2nd-<Link to="/spell/augury">augury</Link>; 3rd-<Link to="/spell/analyze_aura">analyze aura</Link>; 4th-<Link to="/spell/divination">divination</Link>; 5th-<Link to="/spell/retrocognition">retrocognition</Link>; 6th-<Link to="/spell/true_seeing">true seeing</Link>, <Link to="/spell/vision">vision</Link>.</Pair>
 </Ability>
-<Ability id="arc-bard-fortune_teller-oracular-performance" icon={["magic-swirl"]}>
-<Pair single id="arc-bard-fortune_teller-oracular-performance" flavor="A fortune-teller can use Perform (oratory) to read a fortune as part of a bardic performance.">Oracular Performance</Pair>
+<Ability id="oracular-performance" icon={["magic-swirl"]}>
+<Pair single id="oracular-performance" flavor="A fortune-teller can use Perform (oratory) to read a fortune as part of a bardic performance.">Oracular Performance</Pair>
 <Pair hl title="Replaces">Countersong, distraction</Pair>
 <Pair hl title="Alters">Bardic performance</Pair>
 <Pair title="Ability"><p>Once per hour when the bard performs a fortune-telling using a fortune-teller's deck, a crystal ball, or a similar item, he can read the fortune of one subject of the bardic performance. This is part of the same action used to activate the performance. The fortune-teller rolls d%, adds his bard level to the result, and consults the list below. The outcome depends on whether the chosen creature is an ally (for a beneficial performance) or an enemy (for a detrimental performance).</p>
@@ -1534,8 +1534,8 @@ const _fortune_teller = {title: "Fortune-Teller", jsx: <><h2 id="arc-bard-fortun
 <Pair single id="bardic-performance">Bardic Performance</Pair>
 <Pair title="Info">A fortune-teller gains the following bardic performance.</Pair>
 </Ability>
-<Ability id="arc-bard-fortune_teller-transparent-fate-su" extraClasses="subAbility" icon={["armor-downgrade","aura"]}>
-<Pair single id="arc-bard-fortune_teller-transparent-fate-su">Transparent Fate (Su)</Pair>
+<Ability id="transparent-fate-su" extraClasses="subAbility" icon={["armor-downgrade","aura"]}>
+<Pair single id="transparent-fate-su">Transparent Fate (Su)</Pair>
 <Pair hl title="Replaces">Dirge of doom</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability"><p>The fortune-teller can cause all enemies within 30 feet to have their near future revealed for all to see. A successful Will saving throw (DC = 10 <Link to="/misc/half">half</Link> the fortune-teller's level the fortune-teller's Cha modifier) negates the effect. This ability causes any creature attacked by an affected enemy to gain a +2 bonus to AC and on saving throws against the attack.</p>

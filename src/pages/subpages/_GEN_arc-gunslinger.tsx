@@ -329,8 +329,8 @@ const _experimental_gunsmith = {title: "Experimental Gunsmith", jsx: <><h2 id="a
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An experimental gunsmith begins play with an experimental firearm. This acts as the gunslinger's gunsmith ability, but the firearm the experimental gunsmith begins with has one <em>innovation</em> (see below). Further, the experimental gunsmith is treated as having the <Link to="/feat/gunsmithing">Gunsmithing</Link> feat, but only in regard to his beginning firearm (or the construction of a replacement firearm of the same design, if the original is lost). This ability otherwise works like the standard gunslinger's abilities.</Pair>
 </Ability>
-<Ability id="arc-gunslinger-experimental_gunsmith-innovations-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-gunslinger-experimental_gunsmith-innovations-ex">Innovations (Ex)</Pair>
+<Ability id="innovations-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="innovations-ex">Innovations (Ex)</Pair>
 <Pair hl title="Replaces">Gun training</Pair>
 <Pair title="Ability"><p>An experimental gunsmith starts play with one innovation she can make to her experimental firearms, selected from the list below. This innovation is a radical change to the typical design of a firearm, and comes with both additional benefits and noteworthy drawbacks. The experimental gunsmith can maintain only one experimental firearm modified with one or more innovations, as it requires constant adjustments and much of her time is spent maintaining the weapon.</p>
 <p>If the experimental gunsmith takes the Gunsmithing feat, she can create other firearms using a single innovation she knows (or add one innovation to an existing firearm), though such weapons become unreliable over time. The misfire value of such weapons increases by 1 for each week after its creation, although the experimental gunsmith can return the misfire rate to normal by spending 1 day maintaining the weapon and spending 50 gp in raw materials. For the purposes of crafting such firearms, each innovation is treated as the masterwork weapon quality (with a value of 300 gp).</p>
@@ -516,8 +516,8 @@ const _gun_scavenger = {title: "Gun Scavenger", jsx: <><h2 id="arc-gunslinger-gu
 <Pair single id="deeds">Deeds</Pair>
 <Pair title="Info">A gun scavenger gains the following deeds at the listed level.</Pair>
 </Ability>
-<Ability id="arc-gunslinger-gun_scavenger-change-out-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
-<Pair single id="arc-gunslinger-gun_scavenger-change-out-ex">Change Out (Ex)</Pair>
+<Ability id="change-out-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="change-out-ex">Change Out (Ex)</Pair>
 <Pair hl title="Replaces"><Link to="/deed/quick_clear">Quick clear</Link> deed</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Full-Round Action"><p>A gun scavenger can remove the broken condition from a single firearm she is currently wielding, as long as that condition was gained by a firearm misfire. When she does, she can replace the broken part with a specialized, short-lived component that does one of the following.</p>
@@ -782,8 +782,8 @@ const _planar_rifter = {title: "Planar Rifter", jsx: <><h2 id="arc-gunslinger-pl
 <Pair single id="deeds">Deeds</Pair>
 <Pair title="Info">A planar rifter gains the following deeds.</Pair>
 </Ability>
-<Ability id="arc-gunslinger-planar_rifter-infused-bullet-su" extraClasses="subAbility" icon={["magic-swirl"]}>
-<Pair single id="arc-gunslinger-planar_rifter-infused-bullet-su">Infused Bullet (Su)</Pair>
+<Ability id="infused-bullet-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="infused-bullet-su">Infused Bullet (Su)</Pair>
 <Pair hl title="Replaces"><Link to="/deed/deadeye">Deadeye</Link> deed</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>A planar rifter's bullets carry the essence of a plane to which his grit pool is attuned, striking true against creatures that shrink from that plane's nature. As long as he has at least 1 point in his grit pool, he gains the following benefits.</p>
@@ -842,8 +842,8 @@ const _scatter_gunner = {title: "Scatter Gunner", jsx: <><h2 id="arc-gunslinger-
 <Pair title="Passive Ability">As long as a scatter gunner has at least 1 grit point when making a scattering shot, he takes a penalty equal to his Wisdom modifier on his attack rolls against any allies in the area.</Pair>
 <Pair title="Ability">He can spend 1 grit point when making a scattering shot to automatically miss a number of creatures equal to his Wisdom modifier.</Pair>
 </Ability>
-<Ability id="arc-gunslinger-scatter_gunner-scatter-artist-ex" extraClasses="subAbility" icon={["upgrade"]}>
-<Pair single id="arc-gunslinger-scatter_gunner-scatter-artist-ex">Scatter Artist (Ex)</Pair>
+<Ability id="scatter-artist-ex" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="scatter-artist-ex">Scatter Artist (Ex)</Pair>
 <Pair hl title="Replaces"><Link to="/deed/utility_shot">Utility shot</Link> deed</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability"><p>When using a firearm to make a scattering shot, a scatter gunner can spend 1 grit point to add one of the following effects to his attack.</p>

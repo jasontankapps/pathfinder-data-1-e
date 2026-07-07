@@ -112,8 +112,8 @@ const _apex_species = {title: "Apex Species", jsx: <><h2 id="arc-companion-apex_
 <Pair title="At 18th Level">The bonus becomes +4.</Pair>
 <Pair title="Special">The animal companion does not gain additional favored terrains.</Pair>
 </Ability>
-<Ability id="arc-companion-apex_species-natural-selection-ex" icon={["armor-upgrade"]}>
-<Pair single id="arc-companion-apex_species-natural-selection-ex">Natural Selection (Ex)</Pair>
+<Ability id="natural-selection-ex" icon={["armor-upgrade"]}>
+<Pair single id="natural-selection-ex">Natural Selection (Ex)</Pair>
 <Pair hl title="Replaces">Devotion, Improved Evasion</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability"><p>The apex species gains an ability based on their favored terrain, as follows:</p>
@@ -125,8 +125,8 @@ const _apex_species = {title: "Apex Species", jsx: <><h2 id="arc-companion-apex_
 <p><em><strong>Swamp, Urban:</strong></em> The apex species gains a +4 racial bonus on saves against disease and poison. At 15th level, the apex species becomes immune to disease and poison.</p>
 </Pair>
 </Ability>
-<Ability id="arc-companion-apex_species-master-of-the-wild-ex" icon={["stairs-goal","armor-upgrade"]}>
-<Pair single id="arc-companion-apex_species-master-of-the-wild-ex">Master of the Wild (Ex)</Pair>
+<Ability id="master-of-the-wild-ex" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="master-of-the-wild-ex">Master of the Wild (Ex)</Pair>
 <Pair hl title="Replaces">Multiattack</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Ability"><p>The apex species gains an ability based on its favored terrain, as follows.</p>

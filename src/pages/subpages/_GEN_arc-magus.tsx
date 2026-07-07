@@ -168,8 +168,8 @@ const _bladebound = {title: "Bladebound", jsx: <><h2 id="arc-magus-bladebound-bl
 <Pair title="Ability">The bladebound magus' gains a powerful sentient weapon called a <strong className="hl">black blade</strong>, whose weapon type is chosen by the magus. A magus with this class feature cannot take the <Link to="/arcana/familiar">familiar</Link> magus arcana, and cannot have a familiar of any kind, even from another class.</Pair>
 <Pair title="Special">Instead of the normal <em>arcane pool</em> amount, the bladebound magus's <em>arcane pool</em> has a number of points equal to <Link to="/misc/one_third">one-third</Link> of his magus level (minimum 1) plus his Intelligence bonus.</Pair>
 </Ability>
-<Ability id="arc-magus-bladebound-black-blade-basics" icon={["info"]}>
-<Pair single id="arc-magus-bladebound-black-blade-basics">Black Blade Basics</Pair>
+<Ability id="black-blade-basics" icon={["info"]}>
+<Pair single id="black-blade-basics">Black Blade Basics</Pair>
 <Pair title="Info"><p>A <em>black blade</em> is bonded to a particular magus, much like a familiar, but in more of a partnership than a master-servant relationship.</p>
 <blockquote>
 <p><strong className="hl">Intelligence:</strong> This is the intelligence score of the <em>black blade.</em> It starts at 10 and increases by 1 for every two levels of the bladebound magus (at 3rd level, 5th level, and so on).</p>
@@ -226,8 +226,8 @@ const _bladebound = {title: "Bladebound", jsx: <><h2 id="arc-magus-bladebound-bl
 <Pair title="Gained">At 17th Level</Pair>
 <Pair title="Free Action">A magus can expend an arcane point from his weapon's <em>arcane pool;</em> he then gains SR equal to his <em>black blade's</em> ego until the start of his next turn.</Pair>
 </Ability>
-<Ability id="arc-magus-bladebound-life-drinker-su" extraClasses="subAbility" icon={["stairs-goal","remedy"]}>
-<Pair single id="arc-magus-bladebound-life-drinker-su">Life Drinker (Su)</Pair>
+<Ability id="life-drinker-su" extraClasses="subAbility" icon={["stairs-goal","remedy"]}>
+<Pair single id="life-drinker-su">Life Drinker (Su)</Pair>
 <Pair title="Gained">At 19th Level</Pair>
 <Pair title="Ability"><p>Each time the magus kills a living creature with the <em>black blade,</em> he can pick one of the following effects:</p>
 <ul>
@@ -311,8 +311,8 @@ const _eldritch_archer = {title: "Eldritch Archer", jsx: <><h2 id="arc-magus-eld
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">An eldritch archer gains a <em>bonded object</em> as per the <Link to="/class/wizard">wizard's</Link> <em>arcane bonded object;</em> it must be a ranged weapon, and it can't be used to cast a spell once per day. Holding her bonded item does not prevent the eldritch archer from providing somatic components for her spells.</Pair>
 </Ability>
-<Ability id="arc-magus-eldritch_archer-bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
-<Pair single id="arc-magus-eldritch_archer-bonded-object" flavor="Text from the wizard class">Bonded Object</Pair>
+<Ability id="bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="bonded-object" flavor="Text from the wizard class">Bonded Object</Pair>
 <Pair title="Ability"><p>If you select a bonded object, you begin play with one at no cost. These objects are always masterwork quality. Weapons acquired at 1st level are not made of any special material. If you attempt to cast a spell without your bonded object wielded, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
 <p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>
 <p>If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. You can designate an existing magic item as his bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.</p>
@@ -339,8 +339,8 @@ const _eldritch_archer = {title: "Eldritch Archer", jsx: <><h2 id="arc-magus-eld
 </>};
 const _eldritch_scion = {title: "Eldritch Scion", jsx: <><h2 id="arc-magus-eldritch_scion-eldritch-scion">Eldritch Scion</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 104</Link><br/>Unlike typical magi, eldritch scions do not study tomes of magic or spend time learning to combine martial and magical skills. Rather, eldritch scions find that their spells and abilities come to them instinctively.</p>
-<Ability id="arc-magus-eldritch_scion-spells" icon={["magic-swirl"]}>
-<Pair single id="arc-magus-eldritch_scion-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}>
+<Pair single id="spells">Spells</Pair>
 <Pair hl title="Replaces">Spells</Pair>
 <Pair title="Ability"><p>An eldritch scion casts arcane spells drawn from the magus spell list. He can cast any spell he knows without preparing it ahead of time. To learn or cast a spell, an eldritch scion must have a Charisma score equal to at least 10 + the spell's level. The DC for a saving throw against an eldritch scion's spell is 10 + the spell's level + the eldritch scion's Charisma modifier. An eldritch scion can cast only a certain number of spells of each spell level per day. His base daily spell allotment is the same as a bard of the same level. In addition, he receives bonus spells per day if he has a high Charisma score.</p>
 <p>An eldritch scion's selection of spells is limited. He has the same number of spells known as a bard of the same level, and can choose new spells to replace old ones at 5th level and every 3 class levels after that, just as a bard does. See the <Link to="/class/bard">bard</Link> for more information on swapping spells known.</p>
@@ -352,8 +352,8 @@ const _eldritch_scion = {title: "Eldritch Scion", jsx: <><h2 id="arc-magus-eldri
 <Pair title="Ability">An eldritch scion gains a <Link to="/ability/bloodrager_bloodlines">bloodrager bloodline</Link>. The bloodline is selected at 1st level, and this choice cannot be changed. An eldritch scion's effective bloodrager level for his bloodline abilities is equal to his eldritch scion level. He does not gain any bonus feats, and he gains bonus spells from his bloodline at different levels (see the <em>bonus spells</em> class feature below). To use any ability that normally functions when in a bloodrage, an eldritch scion must spend a point from his <em>eldritch pool</em> (see below).</Pair>
 <Pair title="Special">If an eldritch scion takes levels in another class that grant a bloodline, the bloodlines must be the same type, even if that means that the bloodline of one of the classes must change. Subject to GM discretion, an eldritch scion can change his former bloodline to make them conform.</Pair>
 </Ability>
-<Ability id="arc-magus-eldritch_scion-eldritch-pool-su" icon={["magic-swirl"]}>
-<Pair single id="arc-magus-eldritch_scion-eldritch-pool-su">Eldritch Pool (Su)</Pair>
+<Ability id="eldritch-pool-su" icon={["magic-swirl"]}>
+<Pair single id="eldritch-pool-su">Eldritch Pool (Su)</Pair>
 <Pair hl title="Replaces">Arcane pool</Pair>
 <Pair title="Ability"><p>An eldritch scion gains an <em>eldritch pool</em> of personal magical energy, equal to 1/2 his magus level (minimum 1) + his Charisma modifier. As a <strong className="hl">swift action</strong>, he can spend a point of eldritch energy to enter a state of mystical focus for 2 rounds. This allows him to use abilities from his bloodrager bloodline as though he were in a bloodrage, though he gains none of the other benefits or drawbacks of bloodraging.</p>
 <p>Additionally, any magus's class feature or spell from the magus spell list that normally uses a calculation based on Intelligence is instead based on Charisma for an eldritch scion. For example, an eldritch scion with the <Link to="/arcana/arcane_accuracy">arcane accuracy</Link> magus arcana grants himself an insight bonus on attacks equal to his Charisma bonus, not his Intelligence bonus. This has no effect on the eldritch scion's skills or skill points.</p>
@@ -893,8 +893,8 @@ const _magic_warrior = {title: "Magic Warrior", jsx: <><h2 id="arc-magus-magic_w
 </>};
 const _mindblade = {title: "Mindblade", jsx: <><h2 id="arc-magus-mindblade-mindblade">Mindblade</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 121</Link><br/>A mindblade blends psychic talent and martial skill to lethal effect. By forming weapons with her mind, she always has the right tool for any situation.</p>
-<Ability id="arc-magus-mindblade-spells" icon={["magic-swirl"]}>
-<Pair single id="arc-magus-mindblade-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}>
+<Pair single id="spells">Spells</Pair>
 <Pair hl title="Replaces">Spellcasting</Pair>
 <Pair title="Ability"><p>A mindblade casts spells from the magus spell list as psychic spells. She can cast any spell she knows without preparing it ahead of time. To learn or cast a spell, a mindblade must have an Intelligence score equal to at least 10 + the spell's level. The saving throw DC to resist a mindblade's spell is equal to 10 + the spell's level + the mindblade's Intelligence modifier.</p>
 <p>Like other spellcasters, a mindblade can cast only a certain number of spells of each spell level per day. She knows the same number of spells and receives the same number of spells slots per day as a <Link to="/class/bard">bard</Link> of her magus level, and knows and uses 0-level knacks as a bard uses cantrips. In addition, she receives <Link to="/rule/bonus_spells">bonus spells per day</Link> if she has a high Intelligence score.</p>
@@ -1080,8 +1080,8 @@ const _sigilus = {title: "Sigilus", jsx: <><h2 id="arc-magus-sigilus-sigilus">Si
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 59</Link><br/>Traditionally, the <Link to="/rule/cyphermages">Cyphermages</Link> have harbored something of a resistance toward physical combat, preferring to rely upon the power of magic to solve problems and defeat foes. Many of the organization's traditionalists hold prejudices against those who rely upon martial skills, and this prejudice has bled over to those who mix magic with combat, such as <Link to="/pclass/eldritch_knight">eldritch knights</Link> and magi. With the organization's recent change to its traditions, though, its numbers have grown more welcoming of these traditions, and magi in particular, have developed a unique method of incorporating their lore.</p>
 <p>When a magus joins the ranks of the Cyphermages, she can learn the art of infusing her <em>arcane pool</em> with the secrets of ancient Thassilonian magic. Such an individual becomes known as a sigilus. While the mysteries of ancient Thassilon drive her spellcraft, the sigilus makes little effort to understand the academic and philosophic aspects of runes. Instead, she focuses almost entirely upon their practical application.</p>
 <p>A sigilus manipulates the discoveries of wizards and other more sagacious Cyphermages, using those findings to create special sigils that allow her to transfer spell effects into different objects for later use. Her craft builds upon traditions founded by the runelords that allowed them to infuse magic into their flesh, but rather than infusing magic into her body, the sigilus infuses it into a weapon. More interested in the exploration of Thassilonian ruins than academic research, sigiluses serve the Cyphermages by engaging in fieldwork and recovering artifacts. They work alongside more studious Cyphermages, sometimes serving as bodyguards or as regulatory agents who make sure no member gains too much power through the acquisition of potent Thassilonian secrets.</p>
-<Ability id="arc-magus-sigilus-inscribe-rune-su" icon={["upgrade","broken-shield"]}>
-<Pair single id="arc-magus-sigilus-inscribe-rune-su">Inscribe Rune (Su)</Pair>
+<Ability id="inscribe-rune-su" icon={["upgrade","broken-shield"]}>
+<Pair single id="inscribe-rune-su">Inscribe Rune (Su)</Pair>
 <Pair hl title="Replaces">Spellstrike</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability"><p>A sigilus learns how to magically inscribe a Thassilonian rune onto a weapon. The rune to be inscribed must be chosen from the seven runes that symbolize the seven schools of Thassilonian magic (see <Link to="/arc-wizard/thassilonian_specialist">Thassilonian Specialist</Link> for a list). Note that due to the nature of magus spells, certain runes (and thus certain schools of magic) are more appropriate for inscription than others - the runes for conjuration, evocation, illusion, and transmutation are the strongest choices, while those for abjuration, enchantment, and necromancy are less enticing. Inscribing a rune takes 10 minutes.</p>
@@ -1109,8 +1109,8 @@ const _skirnir = {title: "Skirnir", jsx: <><h2 id="arc-magus-skirnir-skirnir">Sk
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A skirnir gains a shield (except for a tower shield) as an <em>arcane bond</em> item. This is identical to the <Link to="/class/wizard">wizard</Link> class ability, but the skirnir may only bond with a shield, not a familiar or other item.</Pair>
 </Ability>
-<Ability id="arc-magus-skirnir-bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
-<Pair single id="arc-magus-skirnir-bonded-object" flavor="Relevant text from the wizard ability.">Bonded Object</Pair>
+<Ability id="bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="bonded-object" flavor="Relevant text from the wizard ability.">Bonded Object</Pair>
 <Pair title="Ability"><p>You begin play with a bonded object at no cost. This object is always masterwork quality. Weapons acquired at 1st level are not made of any special material. If the object is an amulet or ring, it must be worn to have effect, while staves, wands, and weapons must be wielded. If you attempt to cast a spell without your bonded object in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
 <p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities.</p>
 <p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>
@@ -1196,8 +1196,8 @@ const _soul_forger = {title: "Soul Forger", jsx: <><h2 id="arc-magus-soul_forger
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A soul forger gains a weapon as an <em>arcane bond</em> item. This is identical to the <Link to="/class/wizard">wizard</Link> class ability, but the soul forger must select a weapon.</Pair>
 </Ability>
-<Ability id="arc-magus-soul_forger-bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
-<Pair single id="arc-magus-soul_forger-bonded-object" flavor="Relevant text from the wizard ability.">Bonded Object</Pair>
+<Ability id="bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="bonded-object" flavor="Relevant text from the wizard ability.">Bonded Object</Pair>
 <Pair title="Ability"><p>You begin play with a bonded object at no cost. This object is always masterwork quality. Weapons acquired at 1st level are not made of any special material. Weapons must be wielded to have an effect. If you attempt to cast a spell without your bonded object in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
 <p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities.</p>
 <p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>

@@ -52,8 +52,8 @@ const _cloaked_wolf = {title: "Cloaked Wolf", jsx: <><h2 id="arc-inquisitor-cloa
 <Pair title="At 1st Level">Whenever she attempts a Sense Motive check to avoid being surprised by a foe using Bluff to conceal the attack, the cloaked wolf can always act during the surprise round, regardless of the result of the check.</Pair>
 <Pair title="At 2nd Level">She adds her Wisdom modifier (in addition to her Dexterity modifier) to her initiative checks during any such encounter.</Pair>
 </Ability>
-<Ability id="arc-inquisitor-cloaked_wolf-unleashed-fury-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-inquisitor-cloaked_wolf-unleashed-fury-ex">Unleashed Fury (Ex)</Pair>
+<Ability id="unleashed-fury-ex" icon={["stairs-goal"]}>
+<Pair single id="unleashed-fury-ex">Unleashed Fury (Ex)</Pair>
 <Pair hl title="Replaces">Solo tactics, teamwork feats</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A cloaked wolf can transition between parley and combat in the blink of an eye. She gains <Link to="/feat/quick_draw">Quick Draw</Link> as a bonus feat.</Pair>
@@ -547,8 +547,8 @@ const _living_grimoire = {title: "Living Grimoire", jsx: <><h2 id="arc-inquisito
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">When wielding the <em>holy book</em> as a weapon, he deals base damage as if it were a <Link to="/eq-material/cold_iron">cold iron</Link> <Link to="/eq-weapon/light_mace">light mace</Link> (but see <em>Sacred Word</em> below), is considered proficient with the book, takes no <Link to="/misc/improvised_weapon">improvised weapon</Link> penalty, and gains a +1 bonus on attack rolls with the book. The tome serves as his holy symbol and divine focus, and can be enchanted as a magic weapon. He can replace his bonded tome with another book at any time, though he must perform a 24-hour binding ritual to attune himself to the new book.</Pair>
 </Ability>
-<Ability id="arc-inquisitor-living_grimoire-spells" icon={["magic-swirl"]}>
-<Pair single id="arc-inquisitor-living_grimoire-spells">Spells</Pair>
+<Ability id="spells" icon={["magic-swirl"]}>
+<Pair single id="spells">Spells</Pair>
 <Pair hl title="Replaces">Cunning initiative</Pair>
 <Pair hl title="Alters">Orisons, spellcasting</Pair>
 <Pair title="Ability"><p>A living grimoire must prepare his spells ahead of time, and can know any number of inquisitor spells. He uses Intelligence instead of Wisdom as his key spellcasting ability score (to determine his spell DCs, <Link to="/rule/bonus_spells">bonus spells</Link> per day, modifier on concentration checks, and so on), and to determine the effects and number of uses of his domain powers.</p>
@@ -615,8 +615,8 @@ const _oathkeeper = {title: "Oathkeeper", jsx: <><h2 id="arc-inquisitor-oathkeep
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/appraise">Appraise</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature)</Pair></Ability>
-<Ability id="arc-inquisitor-oathkeeper-divine-witness-su" icon={["stairs-goal"]}>
-<Pair single id="arc-inquisitor-oathkeeper-divine-witness-su">Divine Witness (Su)</Pair>
+<Ability id="divine-witness-su" icon={["stairs-goal"]}>
+<Pair single id="divine-witness-su">Divine Witness (Su)</Pair>
 <Pair hl title="Replaces">Monster lore</Pair>
 <Pair title="Ability"><p>Every oathkeeper inquisitor develops a unique personal symbol, which she can use to seal an agreement between two or more willing parties. The agreement, whether it's a trade contract, a truce, or a political marriage, must be as detailed as possible and then signed in the oathkeeper's presence by every creature involved. Creatures must sign of their own free will - any magical or physical coercion will cause the contract to crumble into ash when the oathkeeper attempts to place her seal upon it. So long as no mystic or physical force is influencing any participating creature, the oathkeeper can mystically seal the arrangement with her personal symbol, binding all signing parties into upholding their ends of the bargain for the length of time spelled out in the agreement.</p>
 <p>Should any oathbound creature break the exact wording of the contract, the agreement is dissolved and the offending creature is cursed, taking a penalty on all d20 rolls equal to the oathkeeper's Wisdom modifier for a number of weeks equal to the oathkeeper's inquisitor level. Furthermore, the inquisitor's symbol appears as a mystic symbol on the offending creature's throat and hands, allowing the oathkeeper to know the creature's location at all times, as per the <Link to="/spell/discern_location">discern location</Link> spell.</p>
@@ -734,8 +734,8 @@ const _relic_hunter = {title: "Relic Hunter", jsx: <><h2 id="arc-inquisitor-reli
 <Pair title="At 19th Level">She can learn a new relic school.</Pair>
 <Pair title="Special">Relics do not need to be magic items, and nonmagical relics do not take up a magic item slot. Relics that are not magic items are often of some religious significance to the relic hunter or her church, such as the battered shield of a saint, a bishop's robe, or the finger bone of a church martyr.</Pair>
 </Ability>
-<Ability id="arc-inquisitor-relic_hunter-deific-focus-su" icon={["magic-swirl"]}>
-<Pair single id="arc-inquisitor-relic_hunter-deific-focus-su">Deific Focus (Su)</Pair>
+<Ability id="deific-focus-su" icon={["magic-swirl"]}>
+<Pair single id="deific-focus-su">Deific Focus (Su)</Pair>
 <Pair hl title="Replaces">Domain, bane, greater bane, second judgment, third judgment</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>A relic hunter learns to invest divine power into her chosen relics. This acts like the occultist's <em>focus powers</em> and <em>mental focus</em> class features, with the following adjustments.</p>
@@ -775,8 +775,8 @@ const _royal_accuser = {title: "Royal Accuser", jsx: <><h2 id="arc-inquisitor-ro
 <Pair title="At 9th Level">He gains a 2nd favored enemy.</Pair>
 <Pair title="At 15th Level">He gains a 3rd favored enemy.</Pair>
 </Ability>
-<Ability id="arc-inquisitor-royal_accuser-informed-hunch-su" icon={["magic-swirl"]}>
-<Pair single id="arc-inquisitor-royal_accuser-informed-hunch-su">Informed Hunch (Su)</Pair>
+<Ability id="informed-hunch-su" icon={["magic-swirl"]}>
+<Pair single id="informed-hunch-su">Informed Hunch (Su)</Pair>
 <Pair hl title="Replaces">Teamwork feat granted at 6th level</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability"><p>Once per day, a royal accuser can contemplate an ongoing investigation he is involved in and potentially know whether his hunches are on the right track. This functions as <Link to="/spell/augury">augury</Link>, except if it succeeds, the royal accuser gets one of the following results in place of weal, woe, or weal and woe. The royal accuser treats his inquisitor level as his caster level.</p>
@@ -862,8 +862,8 @@ const _sanctified_slayer = {title: "Sanctified Slayer", jsx: <><h2 id="arc-inqui
 <Pair title="Free Action">You can discard this connection to a studied target, allowing you to study another target in its place.</Pair>
 <Pair title="At 7th Level">You can now choose to study a target as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="arc-inquisitor-sanctified_slayer-sneak-attack-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-inquisitor-sanctified_slayer-sneak-attack-ex">Sneak Attack (Ex)</Pair>
+<Ability id="sneak-attack-ex" icon={["stairs-goal"]}>
+<Pair single id="sneak-attack-ex">Sneak Attack (Ex)</Pair>
 <Pair hl title="Replaces">Later iterations of the <em>judgment</em> ability</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability"><p>If a sanctified slayer catches an opponent unable to defend itself effectively from her attack, she can strike a vital spot to deal extra damage. The sanctified slayer's attack deals 1d6 additional damage anytime her target would be denied a Dexterity bonus to AC (whether or not the target actually has a Dexterity bonus), or when the sanctified slayer <Link to="/rule/flanks">flanks</Link> her target. Should a sanctified slayer score a critical hit with the sneak attack, this extra damage is not multiplied. Ranged attacks can count as sneak attacks only if the target is within 30 feet.</p>
@@ -979,8 +979,8 @@ const _suit_seeker = {title: "Suit Seeker", jsx: <><h2 id="arc-inquisitor-suit_s
 <Pair single id="domain">Domain</Pair>
 <Pair title="Choice">A suit seeker must select the <Link to="/domain/knowledge">Knowledge</Link> or <Link to="/domain/luck">Luck</Link> domain; the Memory or Fate subdomain; or the <Link to="/inquisition/fate">Fate</Link>, <Link to="/inquisition/fervor">Fervor</Link>, or <Link to="/inquisition/illumination">Illumination</Link> inquisition.</Pair>
 </Ability>
-<Ability id="arc-inquisitor-suit_seeker-improvised-array-su" extraClasses="hasSubs" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="arc-inquisitor-suit_seeker-improvised-array-su">Improvised Array (Su)</Pair>
+<Ability id="improvised-array-su" extraClasses="hasSubs" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="improvised-array-su">Improvised Array (Su)</Pair>
 <Pair hl title="Alters">Judgment, second judgment, third judgment</Pair>
 <Pair title="At 1st Level">The suit seeker can call upon the harrow to help her choose an appropriate judgment and bolster her effectiveness with that judgment. As part of activating her <em>judgment</em> ability, the suit seeker can draw an impromptu array of two cards from a complete <Link to="/eq-misc/harrow_deck">harrow deck</Link> she owns. Once drawn, the array remains the same until the <em>judgment</em> effect ends, though the inquisitor can change her <em>judgment</em> at any time as a <strong className="hl">swift action</strong>, as normal. The act of drawing an <em>improvised array</em> requires a free hand, though the suit seeker can keep a drawn array in her belt or otherwise on her person to perform actions with both hands while still maintaining the cards' benefits.</Pair>
 <Pair title="At 8th Level">When a suit seeker gains her <em>second judgment,</em> she can forgo pronouncing a second <em>judgment</em> and instead draw four cards for her <em>improvised array.</em></Pair>

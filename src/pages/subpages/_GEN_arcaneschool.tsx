@@ -167,8 +167,8 @@ const _divination = {hasJL:true,title: "Divination", jsx: <><div className="jump
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Free Action">At the beginning of your turn, you may roll a single d20. At any point before your next turn, you may use the result of this roll as the result of any d20 roll you are required to make. If you do not use the d20 result before your next turn, it is lost.</Pair>
 </Ability>
-<Ability id="arcaneschool-divination-foretell-su" icon={["upgrade","armor-downgrade"]}>
-<Pair single id="arcaneschool-divination-foretell-su">Foretell (Su)</Pair>
+<Ability id="foretell-su" icon={["upgrade","armor-downgrade"]}>
+<Pair single id="foretell-su">Foretell (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level</Pair>
 <Pair title="Standard Action"><p>You can utter a prediction of the immediate future. While your foretelling is in effect, you emit a 30-foot aura of fortune that aids your allies or hinders your enemies, as chosen by you at the time of prediction.</p>
@@ -249,8 +249,8 @@ const _enchantment = {hasJL:true,title: "Enchantment", jsx: <><div className="ju
 <Pair title="Usage">3 + Int modifier times/day</Pair>
 <Pair title="Standard Action">You can charm a living creature by touching it. Creatures with more Hit Dice than your wizard level are unaffected, as are creatures in combat and those with an attitude of hostile toward you. Creatures receive a Will saving throw to negate the effect. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. Creatures that fail their save are affected by <Link to="/spell/charm_monster">charm monster</Link> for a number of rounds equal to 1/2 your wizard level (minimum 1). This is a mind-affecting effect.</Pair>
 </Ability>
-<Ability id="arcaneschool-enchantment-shape-emotions-su" icon={["upgrade","armor-downgrade"]}>
-<Pair single id="arcaneschool-enchantment-shape-emotions-su">Shape Emotions (Su)</Pair>
+<Ability id="shape-emotions-su" icon={["upgrade","armor-downgrade"]}>
+<Pair single id="shape-emotions-su">Shape Emotions (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
 <Pair title="Standard Action"><p>You can emit a 30-foot aura to either ward off or welcome emotional influence.</p>
@@ -367,8 +367,8 @@ const _illusion = {hasJL:true,title: "Illusion", jsx: <><div className="jumpList
 <p><strong>Class Skills:</strong> A mage of the veil gains Bluff, Disguise, and Stealth as class skills.</p>
 <p><strong>Associated School:</strong> Illusion.</p>
 <p><strong>Replacement Powers:</strong> The following school powers replace the <em>blinding ray</em> and <em>invisibility field</em> powers of the illusion school.</p>
-<Ability id="arcaneschool-illusion-face-in-the-crowd-sp" icon={["magic-swirl"]}>
-<Pair single id="arcaneschool-illusion-face-in-the-crowd-sp">Face in the Crowd (Sp)</Pair>
+<Ability id="face-in-the-crowd-sp" icon={["magic-swirl"]}>
+<Pair single id="face-in-the-crowd-sp">Face in the Crowd (Sp)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">1 minute/day per wizard level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
 <Pair title="Standard Action"><p>You can cause yourself to appear so normal, mundane, and unexceptional that you blend in to your surroundings. All creatures within 30 feet treat you as if you belonged there, effectively ignoring you. Creatures outside of this area may notice that you appear out of place, but as soon as they approach within 30 feet they are affected by the magic and no longer think something is amiss. If you interact with an affected creature in any way, it gains a Will save (DC 10 + 1/2 your wizard level + your Intelligence modifier) to disbelieve the illusion and notice you. This is a mind-affecting phantasm effect.</p>

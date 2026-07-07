@@ -527,8 +527,8 @@ const _child_of_acavna_and_amaznen = {title: "Child of Acavna and Amaznen", jsx:
 <Pair hl title="Alters">Skills</Pair>
 <Pair title="Info">A child of Acavna and Amaznen gains 4 skill ranks + a number of skill ranks equal to her Intelligence modifier at each level, instead of the normal 2 skill ranks + her Intelligence modifier at each level. Furthermore, <Link to="/skill/knowledge">Knowledge</Link> (arcana, religion) (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), and <Link to="/skill/spellcraft">Spellcraft</Link> (INT) are all class skills for the child of Acavna and Amaznen.</Pair>
 </Ability>
-<Ability id="arc-fighter-child_of_acavna_and_amaznen-lore-of-acavna-and-amaznen-ex" icon={["spell-book","upgrade"]}>
-<Pair single id="arc-fighter-child_of_acavna_and_amaznen-lore-of-acavna-and-amaznen-ex">Lore of Acavna and Amaznen (Ex)</Pair>
+<Ability id="lore-of-acavna-and-amaznen-ex" icon={["spell-book","upgrade"]}>
+<Pair single id="lore-of-acavna-and-amaznen-ex">Lore of Acavna and Amaznen (Ex)</Pair>
 <Pair hl title="Replaces">Bonus feat gained at 2nd level</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability"><p>A child of Acavna and Amaznen is further initiated into the arcane secrets passed down from Azlant. This gives her minor spellcasting abilities and access to lore collected to give her an edge against the enemies of humanity.</p>
@@ -547,8 +547,8 @@ const _child_of_acavna_and_amaznen = {title: "Child of Acavna and Amaznen", jsx:
 <Pair title="At 15th Level">The reduction increases to 30%.</Pair>
 <Pair title="Special">In addition, if she has <Link to="/feat/arcane_armor_training">Arcane Armor Training</Link> or <Link to="/feat/arcane_armor_mastery">Arcane Armor Mastery</Link>, rather than having their normal effects, each of those feats increases the arcane spell failure reduction of her eldritch armor training by 10%.</Pair>
 </Ability>
-<Ability id="arc-fighter-child_of_acavna_and_amaznen-spells" icon={["spell-book"]}>
-<Pair single id="arc-fighter-child_of_acavna_and_amaznen-spells">Spells</Pair>
+<Ability id="spells" icon={["spell-book"]}>
+<Pair single id="spells">Spells</Pair>
 <Pair hl title="Replaces">Weapon training, bonus feats gained at 8th, 12th, 16th, and 20th level</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="ability"><p>The spellcasting ability of a child of Acavna and Amaznen increases to allow her to cast a limited number of spells drawn from the <Link to="/main/bloodrager_spell">bloodrager spell list</Link>. She automatically adds to her spellbook a number of 1st-level bloodrager spells equal to 3 + her Intelligence modifier. Her caster level for these spells is equal to her fighter level, and the bloodrager class spell list is considered to be her class spell list for the purposes of meeting prerequisites and using magic items.</p>
@@ -885,8 +885,8 @@ const _dragonheir_scion = {title: "Dragonheir Scion", jsx: <><h2 id="arc-fighter
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Handle Animal, Ride</Pair></Ability>
-<Ability id="arc-fighter-dragonheir_scion-draconic-bloodline-su" icon={["stairs-goal"]}>
-<Pair single id="arc-fighter-dragonheir_scion-draconic-bloodline-su" flavor="Each dragonheir scion can draw her lineage back to the influence of a great draconic progenitor.">Draconic Bloodline (Su)</Pair>
+<Ability id="draconic-bloodline-su" icon={["stairs-goal"]}>
+<Pair single id="draconic-bloodline-su" flavor="Each dragonheir scion can draw her lineage back to the influence of a great draconic progenitor.">Draconic Bloodline (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice"><p>A dragonheir scion must select one of the chromatic or metallic dragon types. Once chosen, this cannot be changed. A number of dragonheir scion's abilities deal damage and grant resistances based on her dragon type, as noted below.</p>
 <ScrollContainer id="arc-fighter-dragonheir_scion--table-0"><table>
@@ -1325,8 +1325,8 @@ const _gloomblade = {title: "Gloomblade", jsx: <><h2 id="arc-fighter-gloomblade-
 <Pair title="At 18th Level">The weapon's enhancement bonus increases to +5.</Pair>
 <Pair title="Special">He retains proficiency in light and medium armor</Pair>
 </Ability>
-<Ability id="arc-fighter-gloomblade-shadow-weapon-training-ex" icon={["broken-shield"]}>
-<Pair single id="arc-fighter-gloomblade-shadow-weapon-training-ex">Shadow Weapon Training (Ex)</Pair>
+<Ability id="shadow-weapon-training-ex" icon={["broken-shield"]}>
+<Pair single id="shadow-weapon-training-ex">Shadow Weapon Training (Ex)</Pair>
 <Pair hl title="Alters">Weapon training</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability">A gloomblade gains weapon training, except that he does not select a weapon group; instead, the bonus applies to the shadow weapons he creates. A gloomblade does not select additional weapon groups as he gains levels.</Pair>
@@ -1486,8 +1486,8 @@ const _lore_warden_pfs_field_guide = {title: "Lore Warden (PFS Field Guide)", js
 </>};
 const _martial_master = {title: "Martial Master", jsx: <><h2 id="arc-fighter-martial_master-martial-master">Martial Master</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 93</Link><br/>There are those who learn the fighting arts though countless hours of repetition and training, while others seem to pick up new stances and forms as if they were born to them.</p>
-<Ability id="arc-fighter-martial_master-martial-flexibility-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-fighter-martial_master-martial-flexibility-ex">Martial Flexibility (Ex)</Pair>
+<Ability id="martial-flexibility-ex" icon={["stairs-goal"]}>
+<Pair single id="martial-flexibility-ex">Martial Flexibility (Ex)</Pair>
 <Pair hl title="Replaces">Weapon training, weapon mastery</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Usage">3 times/day + 1 per two fighter levels<ByLevelPop levels={[[5,4],[6,5],[8,6],[10,7],[12,8],[14,9],[16,10],[18,11],[20,12]]} unit="time" postText="/day" /></Pair>
@@ -1543,8 +1543,8 @@ const _mobile_fighter = {title: "Mobile Fighter", jsx: <><h2 id="arc-fighter-mob
 </>};
 const _molthuni_defender = {title: "Molthuni Defender", jsx: <><h2 id="arc-fighter-molthuni_defender-molthuni-defender">Molthuni Defender</h2>
 <p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook pg. 6</Link><br/>Molthuni defenders occupy and protect contested territory in their war against Nirmathas. These heavily armored soldiers don't train for maneuverability, but rather for immovability. Taking advantage of their weighty armor, Molthuni defenders can hold back an onslaught of enemies intent on breaking through their line. The majority of Molthuni defenders were laborers who joined the military to gain citizenship, though a noteworthy minority are from stouter non-human races.</p>
-<Ability id="arc-fighter-molthuni_defender-armored-defense-ex" icon={["armor-upgrade","armor-downgrade","upgrade"]}>
-<Pair single id="arc-fighter-molthuni_defender-armored-defense-ex">Armored Defense (Ex)</Pair>
+<Ability id="armored-defense-ex" icon={["armor-upgrade","armor-downgrade","upgrade"]}>
+<Pair single id="armored-defense-ex">Armored Defense (Ex)</Pair>
 <Pair hl title="Replaces">Armor training 1 through 4</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability"><p>A Molthuni defender gains a bonus to his CMD against bull rush, dirty trick, drag, grapple, overrun, reposition, and trip combat maneuver checks. This bonus also applies to the DC of foes' Acrobatics checks to move through squares he threatens. This bonus is +1 when the Molthuni defender is wearing medium armor, and +3 when he is wearing heavy armor.</p>
@@ -1564,8 +1564,8 @@ const _mutation_warrior = {title: "Mutation Warrior", jsx: <><h2 id="arc-fighter
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A mutation warrior discovers how to create a mutagen that he can imbibe in order to heighten his physical prowess at the cost of his personality. This ability functions as the <Link to="/class/alchemist">alchemist's</Link> mutagen ability, using his fighter level as his alchemist level.</Pair>
 </Ability>
-<Ability id="arc-fighter-mutation_warrior-mutagen-su" extraClasses="subAbility" icon={["upgrade"]}>
-<Pair single id="arc-fighter-mutation_warrior-mutagen-su" flavor="Text from the alchemist class">Mutagen (Su)</Pair>
+<Ability id="mutagen-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="mutagen-su" flavor="Text from the alchemist class">Mutagen (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Standard Action">You can drink a mutagen to heighten your physical prowess at the cost of your personality. You gain a +2 natural armor bonus, a +4 alchemical bonus to a physical stat, and a -2 penalty to a mental stat. See below for details.</Pair>
 <Pair title="Usage">A mutagen lasts for 10 minutes per alchemist level.</Pair>

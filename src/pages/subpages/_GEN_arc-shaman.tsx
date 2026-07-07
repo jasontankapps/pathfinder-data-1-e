@@ -21,8 +21,8 @@ const _animist = {title: "Animist", jsx: <><h2 id="arc-shaman-animist-animist">A
 <Pair plain title="8th"><Link to="/spell/trap_the_soul">Trap the soul</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/soul_bind">Soul bind</Link></Pair>
 </Ability>
-<Ability id="arc-shaman-animist-wrangle-condition" icon={["remedy"]}>
-<Pair single id="arc-shaman-animist-wrangle-condition">Wrangle Condition</Pair>
+<Ability id="wrangle-condition" icon={["remedy"]}>
+<Pair single id="wrangle-condition">Wrangle Condition</Pair>
 <Pair hl title="Replaces">2nd-level hex</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability"><p>The animist interacts directly with unwholesome spirits of the ills that trouble him or his people. To the animist, negative conditions manifest as anthropomorphic spirits or are caused by such spirits (visited upon the creature by bad magic). Either way, the animist can attempt to persuade the spirit to leave its victim alone, thus performing a miraculous healing. As the animist grows in power, he can simply inform these spirits that they are unwelcome and command them to depart.</p>
@@ -244,8 +244,8 @@ const _name_keeper = {title: "Name-Keeper", jsx: <><h2 id="arc-shaman-name_keepe
 <Pair hl title="Replaces">Spirit animal</Pair>
 <Pair title="Ability">A name-keeper forms a powerful bond with a damaged <Link to="/magic-wondrous/wayfinder">wayfinder</Link> inherited from another Pathfinder. It functions for her alone. This functions as a <Link to="/class/wizard">wizard's</Link> bonded object except it can be used to cast shaman spells (instead of wizard spells).</Pair>
 </Ability>
-<Ability id="arc-shaman-name_keeper-bonded-object" extraClasses="subAbility numbered" icon={["magic-swirl"]}>
-<Pair single id="arc-shaman-name_keeper-bonded-object" flavor="Text from the wizard ability.">Bonded Object</Pair>
+<Ability id="bonded-object" extraClasses="subAbility numbered" icon={["magic-swirl"]}>
+<Pair single id="bonded-object" flavor="Text from the wizard ability.">Bonded Object</Pair>
 <Pair title="Ability"><p>If you attempt to cast a spell without your bonded object worn or in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
 <p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities. The bonded object cannot be used to cast spells from your opposition schools.</p>
 <p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). If the bonded object is a wand, it loses its wand abilities when its last charge is consumed, but it is not destroyed and it retains all of its bonded object properties and can be used to craft a new wand. The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary item of the appropriate type.</p>

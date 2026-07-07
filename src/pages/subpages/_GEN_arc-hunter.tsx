@@ -141,8 +141,8 @@ const _chameleon_adept = {title: "Chameleon Adept", jsx: <><h2 id="arc-hunter-ch
 </>};
 const _colluding_scoundrel = {title: "Colluding Scoundrel", jsx: <><h2 id="arc-hunter-colluding_scoundrel-colluding-scoundrel">Colluding Scoundrel</h2>
 <p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook pg. 11</Link><br/>The colluding scoundrel is a canny and conniving skirmisher, manipulating her enemies and leveraging her allies for her own benefit. A Free Captain ordering her crew to occupy foes and thus expose the enemy to her attacks might take this archetype, and colluding scoundrels have proven to be formidable members of the Wasp Queens, as their giant wasp companions draw out opponents to fall under the Wasp Queens' stinging blades. In any case, the colluding scoundrel rarely concerns herself overmuch with her allies' well-being.</p>
-<Ability id="arc-hunter-colluding_scoundrel-scapegoat-ex" icon={["armor-downgrade"]}>
-<Pair single id="arc-hunter-colluding_scoundrel-scapegoat-ex" flavor="A colluding scoundrel is adept at redirecting a foe's hostility toward another creature, creating openings for her own attacks.">Scapegoat (Ex)</Pair>
+<Ability id="scapegoat-ex" icon={["armor-downgrade"]}>
+<Pair single id="scapegoat-ex" flavor="A colluding scoundrel is adept at redirecting a foe's hostility toward another creature, creating openings for her own attacks.">Scapegoat (Ex)</Pair>
 <Pair hl title="Replaces">Animal focus</Pair>
 <Pair title="Usage">1 time/day per hunter level</Pair>
 <Pair title="Swift Action"><p>A colluding scoundrel can target one foe within 30 feet and designate one willing ally adjacent to that foe as a scapegoat. For the following minute, the target takes a -2 penalty on attacks against any creature other than the designated scapegoat, and the target has a 10% spell failure chance on spells that don't target the scapegoat or include the scapegoat in their area of effect.</p>
@@ -260,8 +260,8 @@ const _divine_hunter = {title: "Divine Hunter", jsx: <><h2 id="arc-hunter-divine
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
-<Ability id="arc-hunter-divine_hunter-domain" icon={["magic-swirl"]}>
-<Pair single id="arc-hunter-divine_hunter-domain">Domain</Pair>
+<Ability id="domain" icon={["magic-swirl"]}>
+<Pair single id="domain">Domain</Pair>
 <Pair hl title="Replaces">Teamwork feats</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability"><p>A divine hunter learns to call upon the power of her deity. The divine hunter must select one <Link to="/ability/domains">domain</Link> from those available to her deity. She gains the granted powers of this domain, using her hunter level - 2 as her cleric level for determining when the powers are gained and what effects they have. Once she chooses this domain, it cannot be changed.</p>
@@ -287,8 +287,8 @@ const _feral_hunter = {title: "Feral Hunter", jsx: <><h2 id="arc-hunter-feral_hu
 <Pair single id="solitary">Solitary</Pair>
 <Pair title="Info">Unlike most hunters, a feral hunter does not gain an animal companion.</Pair>
 </Ability>
-<Ability id="arc-hunter-feral_hunter-feral-focus-su" icon={["stairs-goal"]}>
-<Pair single id="arc-hunter-feral_hunter-feral-focus-su">Feral Focus (Su)</Pair>
+<Ability id="feral-focus-su" icon={["stairs-goal"]}>
+<Pair single id="feral-focus-su">Feral Focus (Su)</Pair>
 <Pair hl title="Replaces">Hunter tactics, speak with master</Pair>
 <Pair hl title="Alters">Animal focus</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -510,8 +510,8 @@ const _forester = {title: "Forester", jsx: <><h2 id="arc-hunter-forester-foreste
 </>};
 const _packmaster = {title: "Packmaster", jsx: <><h2 id="arc-hunter-packmaster-packmaster">Packmaster</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 96</Link><br/>Some hunters form bonds with packs of well-trained creatures. Whether such a hunter is a northern berserker running with a pack of timber wolves or a savage warrior dashing through the jungle alongside her herd of dimetrodons, the packmaster revels in the thrill of the hunt and the glory of the kill. A packmaster is more comfortable in groups than alone, and although her animal companions may be weaker than a typical hunter's, what they lack in strength they make up for in numbers.</p>
-<Ability id="arc-hunter-packmaster-pack-bond-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-hunter-packmaster-pack-bond-ex">Pack Bond (Ex)</Pair>
+<Ability id="pack-bond-ex" icon={["stairs-goal"]}>
+<Pair single id="pack-bond-ex">Pack Bond (Ex)</Pair>
 <Pair hl title="Replaces">Animal companion</Pair>
 <Pair hl title="Alters">Precise companion, woodland stride, teamwork feats</Pair>
 <Pair title="Ability"><p>A packmaster can have more than one animal companion, but she must divide her effective druid level between her companions to determine the abilities of each one. For example, a 4th-level packmaster can have one 4th-level animal companion, two 2nd-level companions, one 3rd-level companion and one 1st-level companion, or four 1st-level companions.</p>
@@ -760,8 +760,8 @@ const _plant_master = {title: "Plant Master", jsx: <><h2 id="arc-hunter-plant_ma
 </>};
 const _primal_companion_hunter = {title: "Primal Companion Hunter", jsx: <><h2 id="arc-hunter-primal_companion_hunter-primal-companion-hunter">Primal Companion Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 97</Link><br/>Most hunters are skilled at awakening the primal beasts inside themselves. However, some can instead activate the primal essence within their animal companion. These primal companion hunters bestow upon their companions the ability to suddenly manifest new and terrifying powers - throwbacks to long-extinct beasts, bizarre mutations from extreme environments, or new abilities crafted from generations of selective breeding.</p>
-<Ability id="arc-hunter-primal_companion_hunter-primal-transformation-su" icon={["stairs-goal"]}>
-<Pair single id="arc-hunter-primal_companion_hunter-primal-transformation-su">Primal Transformation (Su)</Pair>
+<Ability id="primal-transformation-su" icon={["stairs-goal"]}>
+<Pair single id="primal-transformation-su">Primal Transformation (Su)</Pair>
 <Pair hl title="Replaces">Animal focus</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">1 minute/day per hunter level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
@@ -927,8 +927,8 @@ const _totem_bonded = {title: "Totem-Bonded", jsx: <><h2 id="arc-hunter-totem_bo
 <Pair title="Ability">The totem-bonded adopts a powerful animal native to the region - often one suited to the cold tundra - selected from the following list: <Link to="/companion/aurochs">aurochs</Link>, <Link to="/companion/badger">badger</Link>, <Link to="/companion/bear">bear</Link>, <Link to="/companion/big_cat">big cat</Link>, <Link to="/companion/elk">elk</Link>, <Link to="/companion/giant_raven">giant raven</Link>, <Link to="/companion/mastodon">mastodon</Link>, <Link to="/companion/rhinoceros">rhinoceros</Link>, <Link to="/companion/walrus">walrus</Link>, <Link to="/companion/wolf">wolf</Link>, or any creature categorized as <Link to="/family/megafauna">megafauna</Link>. At the GM's discretion, she can select other animal companions.</Pair>
 <Pair title="At 7th Level">If the animal companion's natural size is Large but it is normally available as a Medium animal companion at 7th level (such as a bear), the totem-bonded can have the companion increase in size. To generate statistics for such a creature, apply the following modifications: <strong>Size</strong> Large; <strong>AC</strong> +1 natural armor; <strong>Ability Scores</strong> <em>Str</em> +4, <em>Dex</em> -2, <em>Con</em> +2. Increase the damage of each of the companion's natural attacks <Link to="/misc/by_one_die">by one die size</Link>.</Pair>
 </Ability>
-<Ability id="arc-hunter-totem_bonded-shared-strength-su" icon={["upgrade"]}>
-<Pair single id="arc-hunter-totem_bonded-shared-strength-su">Shared Strength (Su)</Pair>
+<Ability id="shared-strength-su" icon={["upgrade"]}>
+<Pair single id="shared-strength-su">Shared Strength (Su)</Pair>
 <Pair hl title="Replaces">Animal focus</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">1 minute/day per hunter level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
@@ -1021,8 +1021,8 @@ const _urban_hunter = {title: "Urban Hunter", jsx: <><h2 id="arc-hunter-urban_hu
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Knowledge (nature), Survival</Pair></Ability>
-<Ability id="arc-hunter-urban_hunter-animal-companion-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-hunter-urban_hunter-animal-companion-ex">Animal Companion (Ex)</Pair>
+<Ability id="animal-companion-ex" icon={["stairs-goal"]}>
+<Pair single id="animal-companion-ex">Animal Companion (Ex)</Pair>
 <Pair hl title="Alters">Animal companion</Pair>
 <Pair title="Ability"><p>Urban hunters have animal companions that are domesticated animals or animals native to a major city. The urban hunter must select her animal companion from the following list: <Link to="/companion/axe_beak">axe beak</Link>, <Link to="/companion/badger">badger</Link>, <Link to="/companion/bird">bird</Link>, <Link to="/companion/camel">camel</Link>, <Link to="/companion/dire_rat">dire rat</Link>, <Link to="/companion/dog">dog</Link>, <Link to="/companion/horse">horse</Link>, <Link to="/companion/llama">llama</Link>, <Link to="/companion/ostrich">ostrich</Link>, <Link to="/companion/pony">pony</Link>, <Link to="/companion/ram">ram</Link>, or <Link to="/companion/trumpeter_swan">trumpeter swan</Link>. In urban settings, an urban hunter's animal companion seems domesticated and likely harmless to anyone who has not seen it in combat (potentially reducing the DC of Diplomacy checks to convince anyone to allow it into secure areas). It draws no more attention than a friendly dog, loyal horse, or similar tame animal.</p>
 <p>Creatures who have never seen the animal companion make an attack must succeed at a Sense Motive check (opposed by the animal companion's Stealth check) to realize the animal companion is a potential threat. The hunter can calm those who witness her animal companion's attacks (so long as they were not injured) with a successful Handle Animal check (DC = 15 + the target's Will save modifier).</p>

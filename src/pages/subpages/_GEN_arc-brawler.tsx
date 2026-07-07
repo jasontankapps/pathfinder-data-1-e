@@ -78,8 +78,8 @@ const _constructed_pugilist = {title: "Constructed Pugilist", jsx: <><h2 id="arc
 <Ability icon={["skills"]} id="undefined">
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/craft">Craft (weapons)</Link> (INT)</Pair></Ability>
-<Ability id="arc-brawler-constructed_pugilist-constructed-limb-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-brawler-constructed_pugilist-constructed-limb-ex">Constructed Limb (Ex)</Pair>
+<Ability id="constructed-limb-ex" icon={["stairs-goal"]}>
+<Pair single id="constructed-limb-ex">Constructed Limb (Ex)</Pair>
 <Pair title="Ability"><p>A constructed pugilist begins play with a special prosthetic limb built for fighting and typically made of iron, steel, stone, or wood, with the corresponding hardness and hit points (<Link to="/rule/breaking_things">see Table 7-13</Link>). She treats attacks with this limb as unarmed strikes that gain all the benefits of the brawler's unarmed strike class feature. She treats the limb as a light weapon and is proficient with it. Removing or reattaching the constructed limb takes 10 minutes.</p>
 <p>The constructed pugilist can improve her constructed limb as if it were a normal melee weapon. For the purpose of rebuilding the limb as a masterwork weapon, rebuilding the limb out of a special material, or adding certain magical special abilities to it, the limb counts as a one-handed melee weapon that costs 60 gp and weighs 6 pounds - though it is specially fitted to the constructed pugilist and can't be resold or used by anyone else. A constructed limb can benefit from either its own enhancement bonus and special abilities or those granted by an <Link to="/magic-wondrous/amulet_of_mighty_fists">amulet of mighty fists</Link>, but if it would benefit from both simultaneously, it benefits only from the source with the higher effective enhancement bonus (the limb benefits from its own abilities in the case of a tie).</p>
 </Pair>
@@ -255,8 +255,8 @@ const _mutagenic_mauler = {title: "Mutagenic Mauler", jsx: <><h2 id="arc-brawler
 <Pair title="At 16th Level">The damage bonus becomes +4.</Pair>
 <Pair title="Special">A mutagenic mauler counts as an alchemist for the purpose of imbibing a mutagen prepared by someone else.</Pair>
 </Ability>
-<Ability id="arc-brawler-mutagenic_mauler-mutagen-su" extraClasses="subAbility" icon={["upgrade"]}>
-<Pair single id="arc-brawler-mutagenic_mauler-mutagen-su" flavor="Text from the alchemist class">Mutagen (Su)</Pair>
+<Ability id="mutagen-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="mutagen-su" flavor="Text from the alchemist class">Mutagen (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Standard Action">You can drink a mutagen to heighten your physical prowess at the cost of your personality. You gain a +2 natural armor bonus, a +4 alchemical bonus to a physical stat, and a -2 penalty to a mental stat. See below for details.</Pair>
 <Pair title="Usage">A mutagen lasts for 10 minutes per alchemist level.</Pair>
@@ -291,8 +291,8 @@ const _shield_champion = {title: "Shield Champion", jsx: <><h2 id="arc-brawler-s
 <Pair title="At 7th Level">A shield champion can use a thrown shield to perform a bull rush, dirty trick, disarm, reposition, or trip <Link to="/rule/combat_maneuvers">combat maneuver</Link> as if she were making a melee shield bash attack.</Pair>
 <Pair title="At 11th Level">A shield champion gains <Link to="/feat/shield_master">Shield Master</Link> as a bonus feat. She must meet all prerequisites before selecting that feat.</Pair>
 </Ability>
-<Ability id="arc-brawler-shield_champion-returning-shield-ex" icon={["bowman","stairs-goal"]}>
-<Pair single id="arc-brawler-shield_champion-returning-shield-ex">Returning Shield (Ex)</Pair>
+<Ability id="returning-shield-ex" icon={["bowman","stairs-goal"]}>
+<Pair single id="returning-shield-ex">Returning Shield (Ex)</Pair>
 <Pair hl title="Replaces">Brawler's strike</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability"><p>A shield champion can throw a shield so it ricochets off her target (and possibly other solid objects) to return to her at the end of her turn. This ability functions whether or not the shield champion hits her opponent or moves on her turn. The shield deals no damage to targets it bounces off other than the original target of the shield champion's attack. Other circumstances can prevent the shield from returning to the shield champion, such as an opponent using a <Link to="/rule/readied_action">readied action</Link> to catch the shield, or the shield sticking to a <Link to="/monster/mimic">mimic's</Link> adhesive. The shield champion can opt to not have a thrown shield return to her, in which case it falls to the ground as it normally would. If the shield has the <Link to="/magic-enh/returning">returning</Link> weapon special ability, she can use either that or this ability.</p>

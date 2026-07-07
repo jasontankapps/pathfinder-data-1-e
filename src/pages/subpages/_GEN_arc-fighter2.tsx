@@ -38,8 +38,8 @@ const _opportunist = {title: "Opportunist", jsx: <><h2 id="arc-fighter-opportuni
 <Pair single id="alchemical-refinement-ex">Alchemical Refinement (Ex)</Pair>
 <Pair title="Ability">The opportunist increases the save DC of any alchemical item he crafts by an amount equal to <Link to="/misc/one_third">one-third</Link> of his fighter level. Doing so increases the raw material cost to craft that item by 10 gp for every +1 increase. This bonus applies only when the opportunist uses the crafted alchemical item himself; it functions as a normal item of its type for all other users.</Pair>
 </Ability>
-<Ability id="arc-fighter-opportunist-bombs-ex" extraClasses="subAbility" icon={["stairs-goal","smoking-finger"]}>
-<Pair single id="arc-fighter-opportunist-bombs-ex">Bombs (Ex)</Pair>
+<Ability id="bombs-ex" extraClasses="subAbility" icon={["stairs-goal","smoking-finger"]}>
+<Pair single id="bombs-ex">Bombs (Ex)</Pair>
 <Pair title="Ability"><p>The opportunist can make a number of bombs per day equal to his Intelligence modifier (minimum 1). These bombs act as <Link to="/class/alchemist">alchemist's</Link> bombs and deal 1d6 points of fire damage, plus an additional 1d6 points for every 3 fighter levels the opportunist has.</p>
 <blockquote>
 <p><em>Text from the alchemist class:</em></p>
@@ -758,8 +758,8 @@ const _steelbound_fighter = {title: "Steelbound Fighter", jsx: <><h2 id="arc-fig
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Choice">A steelbound fighter selects one type of weapon (such as <Link to="/eq-weapon/short_sword">short swords</Link>, <Link to="/eq-weapon/longbow">longbows</Link>, or <Link to="/eq-weapon/heavy_flail">heavy flails</Link>). He gains <Link to="/feat/weapon_focus">Weapon Focus</Link> with that specific weapon. Whenever he isn't wielding or carrying at least one weapon of this type (the weapon can be broken but not destroyed), a steelbound fighter takes a -2 penalty to his Wisdom score and can't benefit from his fighter class abilities (excluding bonus feats gained from fighter levels). Once the steelbound fighter's weapon awakens (see <em>steelbound awakening</em> below), these penalties apply whenever the fighter isn't carrying or wielding that particular weapon.</Pair>
 </Ability>
-<Ability id="arc-fighter-steelbound_fighter-steelbound-awakening-su" icon={["stairs-goal"]}>
-<Pair single id="arc-fighter-steelbound_fighter-steelbound-awakening-su">Steelbound Awakening (Su)</Pair>
+<Ability id="steelbound-awakening-su" icon={["stairs-goal"]}>
+<Pair single id="steelbound-awakening-su">Steelbound Awakening (Su)</Pair>
 <Pair hl title="Replaces">Weapon training</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability"><p>One nonintelligent weapon carried by the steelbound fighter becomes possessed by the latent spiritual energies that cling to his soul, transforming that weapon into an <Link to="/rule/intelligent_items">intelligent weapon</Link>. The weapon must be of the type the fighter chose at 1st level as his steelbound weapon. The steelbound weapon grants its wielder <Link to="/feat/alertness">Alertness</Link> as a bonus feat as long as the weapon is wielded. A steelbound fighter gains a +1 bonus on attack rolls and damage rolls with his steelbound weapon.</p>
@@ -1481,8 +1481,8 @@ const _warlord = {title: "Warlord", jsx: <><h2 id="arc-fighter-warlord-warlord">
 <Pair title="At 15th Level">The warlord again gains a +1 dodge bonus.</Pair>
 <Pair title="Special">He loses these bonuses when he wears any armor, when he carries a shield, or when he carries a medium or heavy load.</Pair>
 </Ability>
-<Ability id="arc-fighter-warlord-weapon-training-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-fighter-warlord-weapon-training-ex">Weapon Training (Ex)</Pair>
+<Ability id="weapon-training-ex" icon={["stairs-goal"]}>
+<Pair single id="weapon-training-ex">Weapon Training (Ex)</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability"><p>A warlord adds the following <Link to="/ability/weapon_groups">weapon group</Link> to those he can choose from when using weapon training.</p>
 <p><strong className="hl">Barsoomian:</strong> Halberd, radium pistol, rapier, radium rifle, longspear, longsword, shortspear, spear, Thark rifle, trident, whip.</p>

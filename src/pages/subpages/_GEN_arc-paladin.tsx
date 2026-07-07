@@ -76,8 +76,8 @@ const _chaos_knight = {title: "Chaos Knight", jsx: <><h2 id="arc-paladin-chaos_k
 <Pair title="Standard Action">He can touch a creature to grant that creature a new saving throw against one mind-affecting effect, with a bonus on the save equal to <Link to="/misc/one_third">one-third</Link> the chaos knight's level (minimum +0).</Pair>
 <Pair title="Special">If the chaos knight targets himself, he can use this ability as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
-<Ability id="arc-paladin-chaos_knight-blessings-of-the-maelstrom-su" icon={["shield-reflect","armor-upgrade","upgrade"]}>
-<Pair single id="arc-paladin-chaos_knight-blessings-of-the-maelstrom-su" flavor="A chaos knight can harness the unpredictable essence of the Maelstrom to bless a creature.">Blessings of the Maelstrom (Su)</Pair>
+<Ability id="blessings-of-the-maelstrom-su" icon={["shield-reflect","armor-upgrade","upgrade"]}>
+<Pair single id="blessings-of-the-maelstrom-su" flavor="A chaos knight can harness the unpredictable essence of the Maelstrom to bless a creature.">Blessings of the Maelstrom (Su)</Pair>
 <Pair hl title="Replaces">Mercy</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability"><p>When he uses his <em>entropic touch</em> ability, the chaos knight can grant the touched creature a blessing from the table below that lasts for a number of rounds equal to 1 + the chaos knight's Charisma modifier (minimum 1 round). The creature rolls 1d4 and compares the result to the table below to determine the blessing. If the chaos knight targets himself with the blessing, he can roll twice and choose his preferred result.</p>
@@ -646,8 +646,8 @@ const _holy_gun = {title: "Holy Gun", jsx: <><h2 id="arc-paladin-holy_gun-holy-g
 </>};
 const _holy_tactician = {title: "Holy Tactician", jsx: <><h2 id="arc-paladin-holy_tactician-holy-tactician">Holy Tactician</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 64</Link><br/>The holy tactician inspires her allies on the field of battle. Her place is at their side against overwhelming odds, and her guidance brings out their true potential.</p>
-<Ability id="arc-paladin-holy_tactician-weals-champion-su" icon={["upgrade"]}>
-<Pair single id="arc-paladin-holy_tactician-weals-champion-su">Weal's Champion (Su)</Pair>
+<Ability id="weals-champion-su" icon={["upgrade"]}>
+<Pair single id="weals-champion-su">Weal's Champion (Su)</Pair>
 <Pair hl title="Replaces">Smite evil</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">1 time/day + 1 per three paladin levels beyond 1st<ByLevelPop levels={[[1,1],[4,2],[7,3],[10,4],[13,5],[16,6],[19,7]]} unit="time" postText="/day" /></Pair>
@@ -760,8 +760,8 @@ const _hunting_paladin = {title: "Hunting Paladin", jsx: <><h2 id="arc-paladin-h
 </>};
 const _invigorator = {title: "Invigorator", jsx: <><h2 id="arc-paladin-invigorator-invigorator">Invigorator</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 24</Link><br/>Invigorators devote themselves to keeping their allies bodily whole. These selfless paladins believe the best way to combat evil is by bolstering the health and spirits of those who fight alongside them. They play vital roles and often command troops among martial faiths, such as those of <Link to="/faith/iomedae">Iomedae</Link> and <Link to="/faith/torag">Torag</Link>.</p>
-<Ability id="arc-paladin-invigorator-bestow-hope-su" icon={["armor-upgrade","shield-reflect"]}>
-<Pair single id="arc-paladin-invigorator-bestow-hope-su">Bestow Hope (Su)</Pair>
+<Ability id="bestow-hope-su" icon={["armor-upgrade","shield-reflect"]}>
+<Pair single id="bestow-hope-su">Bestow Hope (Su)</Pair>
 <Pair hl title="Replaces">Smite evil</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Charisma modifier times/day</Pair>
@@ -1110,8 +1110,8 @@ const _pearl_seeker = {title: "Pearl Seeker", jsx: <><h2 id="arc-paladin-pearl_s
 <Pair title="At 16th Level">She gains <Link to="/spell/seamantle">seamantle</Link> as a bonus 4th-level spell known.</Pair>
 <Pair title="Special">She also adds <Link to="/spell/hydraulic_push">hydraulic push</Link> and <Link to="/spell/hydraulic_torrent">hydraulic torrent</Link> (as a 1st and 3rd level spells, respectively) to her paladin spell list (but must learn these spells as normal).</Pair>
 </Ability>
-<Ability id="arc-paladin-pearl_seeker-divine-hippocampus" icon={["info"]}>
-<Pair single id="arc-paladin-pearl_seeker-divine-hippocampus">Divine Hippocampus</Pair>
+<Ability id="divine-hippocampus" icon={["info"]}>
+<Pair single id="divine-hippocampus">Divine Hippocampus</Pair>
 <Pair hl title="Replaces">Channel positive energy</Pair>
 <Pair hl title="Alters">Divine bond</Pair>
 <Pair title="Gained">At 5th Level</Pair>
@@ -1166,8 +1166,8 @@ const _sacred_servant = {title: "Sacred Servant", jsx: <><h2 id="arc-paladin-sac
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">When a sacred servant gains the ability to cast spells, she also chooses one <Link to="/ability/domains">domain</Link> associated with her deity. Her effective <Link to="/class/cleric">cleric</Link> level for this domain is equal to her paladin level - 3. In addition, she also gains one domain spell slot for each level of paladin spells she can cast. Every day she must prepare the domain spell from her chosen domain in that spell slot.</Pair>
 </Ability>
-<Ability id="arc-paladin-sacred_servant-divine-bond-su" icon={["upgrade","hazard-sign"]}>
-<Pair single id="arc-paladin-sacred_servant-divine-bond-su" flavor={<>Instead of forming a <em>divine bond</em> with her weapon or a mount, a sacred servant forms a bond with her holy symbol.</>}>Divine Bond (Su)</Pair>
+<Ability id="divine-bond-su" icon={["upgrade","hazard-sign"]}>
+<Pair single id="divine-bond-su" flavor={<>Instead of forming a <em>divine bond</em> with her weapon or a mount, a sacred servant forms a bond with her holy symbol.</>}>Divine Bond (Su)</Pair>
 <Pair hl title="Alters">Divine bond</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Standard Action"><p>Once a day, a sacred servant can bind a celestial spirit to her holy symbol for 1 minute per paladin level. When called, the spirit causes the sacred servant's holy symbol to shed light like a <Link to="/eq-misc/torch">torch</Link>.</p>
@@ -1464,8 +1464,8 @@ const _tempered_champion = {title: "Tempered Champion", jsx: <><h2 id="arc-palad
 <Pair title="At 20th Level">The tempered champion gains another bonus feat from the list above.</Pair>
 <Pair title="Special">If a feat requires choosing a weapon or weapon group, the tempered champion must choose her deity's favored weapon, or its group. The tempered champion must meet the feat's prerequisites, but treats her tempered champion levels as fighter levels for this purpose.</Pair>
 </Ability>
-<Ability id="arc-paladin-tempered_champion-sacred-weapon-su" extraClasses="subAbility" icon={["upgrade"]}>
-<Pair single id="arc-paladin-tempered_champion-sacred-weapon-su" flavor="Relevant text from the warpriest ability">Sacred Weapon (Su)</Pair>
+<Ability id="sacred-weapon-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="sacred-weapon-su" flavor="Relevant text from the warpriest ability">Sacred Weapon (Su)</Pair>
 <Pair title="Passive Ability"><p>Whenever you hit with your sacred weapon, the weapon damage is based on your size and level and not the weapon type. You can decide to use the weapon's base damage instead of the sacred weapon damage - this must be declared before the attack roll is made. (If the weapon's base damage exceeds the sacred weapon damage, its damage is unchanged.) This increase in damage does not affect any other aspect of the weapon, and doesn't apply to alchemical items, bombs, or other weapons that only deal energy damage.</p>
 <ScrollContainer id="arc-paladin-tempered_champion--table-0"><table>
 <thead>
@@ -1779,8 +1779,8 @@ const _virtuous_bravo = {title: "Virtuous Bravo", jsx: <><h2 id="arc-paladin-vir
 <Pair title="Ability">A virtuous bravo gains the <Link to="/class/swashbuckler">swashbuckler's</Link> <em>panache</em> class feature along with the following swashbuckler deeds: <Link to="/swashdeed/dodging_panache">dodging panache</Link>, <Link to="/swashdeed/menacing_swordplay">menacing swordplay</Link>, <Link to="/swashdeed/opportune_parry_and_riposte">opportune parry and riposte</Link>, <Link to="/swashdeed/precise_strike">precise strike</Link>, and <Link to="/swashdeed/swashbuckler_initiative">swashbuckler initiative</Link>.</Pair>
 <Pair title="Special">The virtuous bravo's paladin levels stack with any swashbuckler levels when using these deeds.</Pair>
 </Ability>
-<Ability id="arc-paladin-virtuous_bravo-panache-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
-<Pair single id="arc-paladin-virtuous_bravo-panache-ex" flavor="Text from the swashbuckler ability">Panache (Ex)</Pair>
+<Ability id="panache-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="panache-ex" flavor="Text from the swashbuckler ability">Panache (Ex)</Pair>
 <Pair title="Ability"><p>At the start of each day, you gain a number of panache points equal to your Charisma modifier (minimum 1). Your panache goes up or down throughout the day, but usually cannot go higher than your Charisma modifier (minimum 1), though feats and magic items can affect this maximum. You spend panache to accomplish deeds, and regain panache in the following ways.</p>
 <p>Each time you confirm a critical hit with a light or one-handed piercing melee weapon, you regain 1 panache point. Confirming a critical hit on a <Link to="/misc/helpless">helpless</Link> or unaware creature or a creature that has fewer Hit Dice than <Link to="/misc/half">half</Link> your character level doesn't restore panache.</p>
 <p>When you reduce a creature to 0 or fewer hit points with a light or one-handed piercing melee weapon attack while in combat, you regain 1 panache point. Destroying an unattended object, reducing a helpless or unaware creature to 0 or fewer hit points, or reducing a creature that has fewer Hit Dice than half your character level to 0 or fewer hit points doesn't restore any panache.</p>

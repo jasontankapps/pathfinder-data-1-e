@@ -52,8 +52,8 @@ const _blade_adept = {title: "Blade Adept", jsx: <><h2 id="arc-arcanist-blade_ad
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">This ability works like a <Link to="/class/wizard">wizard's</Link> <em>arcane bond</em> ability save that the blade adept must bond to a one-handed piercing or slashing melee weapon. Additionally, the blade adept gains proficiency with the weapon if it is a simple or martial weapon.</Pair>
 </Ability>
-<Ability id="arc-arcanist-blade_adept-bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
-<Pair single id="arc-arcanist-blade_adept-bonded-object" flavor="Text from the wizard class">Bonded Object</Pair>
+<Ability id="bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="bonded-object" flavor="Text from the wizard class">Bonded Object</Pair>
 <Pair title="Ability"><p>If you select a bonded object, you begin play with one at no cost. These objects are always masterwork quality. Weapons acquired at 1st level are not made of any special material. If you attempt to cast a spell without your bonded object wielded, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
 <p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>
 <p>If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. You can designate an existing magic item as his bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.</p>
@@ -212,8 +212,8 @@ const _harrowed_society_student = {title: "Harrowed Society Student", jsx: <><h2
 <Pair title="Ability">A Harrowed Society student can select a <Link to="/main/spells_divination">divination</Link> spell from the spell list of any class, including classes that cast divine or psychic spells, and add it to her list of spells known. This spell must be at least 1 level lower than the highest-level spell she can cast.</Pair>
 <Pair title="Special">At every odd-numbered level beyond 5th (7th, 9th, 11th, and so on), a Harrowed Society student can select a new divination spell, following the same restrictions as above. She casts these spells as arcane spells, using her normal spell slots, but must use a harrow deck as an additional focus component. If such a spell is normally a psychic spell with an emotion or thought component, she must also add that component.</Pair>
 </Ability>
-<Ability id="arc-arcanist-harrowed_society_student-trump-card-su" icon={["upgrade","armor-upgrade","remedy","armor-downgrade"]}>
-<Pair single id="arc-arcanist-harrowed_society_student-trump-card-su">Trump Card (Su)</Pair>
+<Ability id="trump-card-su" icon={["upgrade","armor-upgrade","remedy","armor-downgrade"]}>
+<Pair single id="trump-card-su">Trump Card (Su)</Pair>
 <Pair hl title="Replaces">The 9th-level arcanist exploit</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Standard Action"><p>A Harrowed Society student can expend 1 point from her arcane reservoir and draw a card from her harrow deck to learn her own fate or that of an ally within 30 feet. The target's fate depends on the suit of the card drawn from the deck.</p>
@@ -245,8 +245,8 @@ const _magaambyan_initiate = {title: "Magaambyan Initiate", jsx: <><h2 id="arc-a
 <Pair title="Ability">At each class level, she chooses one spell from the <Link to="/main/spells_druid">druid</Link> spell list or one spell with the good descriptor from the <Link to="/main/spells_cleric">cleric</Link> spell list. The spell must be of a spell level that she can cast, and cannot be a spell that already appears on her arcanist spell list. A Magaambyan initiate can cast a spell that she has chosen with this ability as if it were on her spell list and prepared by expending a number of points from her <em>arcane reservoir</em> equal to <Link to="/misc/half">half</Link> the spell's level (minimum 1) and expending a spell slot of the spell's level.</Pair>
 <Pair title="Special">At 4th level and every 2 levels thereafter, a Magaambyan initiate can choose to lose a spell that she has chosen with this ability in exchange for a new spell of the same spell level that meets the same requirements.</Pair>
 </Ability>
-<Ability id="arc-arcanist-magaambyan_initiate-spell-mastery" icon={["stairs-goal"]}>
-<Pair single id="arc-arcanist-magaambyan_initiate-spell-mastery">Spell Mastery</Pair>
+<Ability id="spell-mastery" icon={["stairs-goal"]}>
+<Pair single id="spell-mastery">Spell Mastery</Pair>
 <Pair hl title="Replaces">The arcanist exploit gained at 5th level</Pair>
 <Pair title="Gained">At 5th Level</Pair>
 <Pair title="Ability"><p>A Magaambyan initiate gains <Link to="/feat/spell_mastery">Spell Mastery</Link> as a bonus feat. Her arcanist levels count as wizard levels for the purpose of satisfying feat prerequisites, both when selecting this bonus feat and when selecting feats gained from character advancement. If she uses her arcanist level to satisfy the prerequisites for Spell Mastery, she can prepare spells selected with this feat as arcanist spells without referring to a spellbook, but not as wizard spells.</p>
@@ -282,8 +282,8 @@ const _occultist = {title: "Occultist", jsx: <><h2 id="arc-arcanist-occultist-oc
 </>};
 const _school_savant = {title: "School Savant", jsx: <><h2 id="arc-arcanist-school_savant-school-savant">School Savant</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 78</Link><br/>Some arcanists specialize in a school of magic and trade flexibility for focus. School savants are able to prepare more spells per day than typical arcanists, but their selection is more limited.</p>
-<Ability id="arc-arcanist-school_savant-school-focus-su" icon={["magic-swirl"]}>
-<Pair single id="arc-arcanist-school_savant-school-focus-su">School Focus (Su)</Pair>
+<Ability id="school-focus-su" icon={["magic-swirl"]}>
+<Pair single id="school-focus-su">School Focus (Su)</Pair>
 <Pair hl title="Replaces">The arcanist exploits gained at 1st, 3rd, and 7th levels</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>A school savant chooses <Link to="/ability/arcane_schools">a school of magic</Link>. The arcanist gains the abilities granted by that school, as the arcane school class feature of the <Link to="/class/wizard">wizard</Link>, treating her arcanist level as her wizard level for these abilities. She can also further specialize by selecting a subschool. In addition, the arcanist can prepare one additional spell per day of each level she can cast, but this spell must be chosen from the selected school.</p>

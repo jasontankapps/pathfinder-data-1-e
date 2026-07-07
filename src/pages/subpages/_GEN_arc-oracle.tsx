@@ -257,8 +257,8 @@ const _elementalist_oracle = {title: "Elementalist Oracle", jsx: <><h2 id="arc-o
 <Pair title="At 10th Level">You gain another language chosen from this list.</Pair>
 <Pair title="At 15th Level">You gain another language chosen from this list.</Pair>
 </Ability>
-<Ability id="arc-oracle-elementalist_oracle-elemental-form-su" extraClasses="subAbility" icon={["stairs-goal"]}>
-<Pair single id="arc-oracle-elementalist_oracle-elemental-form-su">Elemental Form (Su)</Pair>
+<Ability id="elemental-form-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="elemental-form-su">Elemental Form (Su)</Pair>
 <Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability"><p>You gain the <Link to="/subtype/air">air</Link>, <Link to="/subtype/earth">earth</Link>, <Link to="/subtype/fire">fire</Link>, or <Link to="/subtype/water">water</Link> subtype and an associated ability:</p>
 <ul>
@@ -403,8 +403,8 @@ const _keleshite_prophet = {title: "Keleshite Prophet", jsx: <><h2 id="arc-oracl
 <Pair single id="revelations">Revelations</Pair>
 <Pair title="Info">A Keleshite prophet must take the following revelation at 1st level.</Pair>
 </Ability>
-<Ability id="arc-oracle-keleshite_prophet-divining-dance-su" extraClasses="subAbility" icon={["upgrade","magic-swirl"]}>
-<Pair single id="arc-oracle-keleshite_prophet-divining-dance-su">Divining Dance (Su)</Pair>
+<Ability id="divining-dance-su" extraClasses="subAbility" icon={["upgrade","magic-swirl"]}>
+<Pair single id="divining-dance-su">Divining Dance (Su)</Pair>
 <Pair title="Ability"><p>Once per day, you can perform a sacred meditative dance that gives you great clarity of mind and prepares you for what lies ahead. This dance must last for at least 1 minute, uninterrupted, and you can take no other actions during the dance.</p>
 <p>When you dance, attempt a Perform (dance) check; the results of the check determine the benefits you gain for the next 24 hours, as listed below. You can always choose the benefit from a lower result, if you wish (for example, if your Perform [dance] result is 15, you can choose to gain a +1 bonus on your divinations' saving throws instead of choosing to use <em>augury</em> once as a spell-like ability).</p>
 <ScrollContainer id="arc-oracle-keleshite_prophet--table-0"><table>
@@ -969,8 +969,8 @@ const _tree_soul = {title: "Tree Soul", jsx: <><h2 id="arc-oracle-tree_soul-tree
 </>};
 const _warsighted = {title: "Warsighted", jsx: <><h2 id="arc-oracle-warsighted-warsighted">Warsighted</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 106</Link><br/>A warsighted's unique gifts are not in strange magical revelations, but in her ability to adapt in the midst of a battle with new fighting techniques. The warsighted is a master of combat, as dedicated as a fighter and as flexible as a brawler.</p>
-<Ability id="arc-oracle-warsighted-martial-flexibility-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-oracle-warsighted-martial-flexibility-ex">Martial Flexibility (Ex)</Pair>
+<Ability id="martial-flexibility-ex" icon={["stairs-goal"]}>
+<Pair single id="martial-flexibility-ex">Martial Flexibility (Ex)</Pair>
 <Pair hl title="Replaces">Revelations gained at 1st, 7th, 11th, and 15th levels</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>A warsighted can use a <strong className="hl">move action</strong> to gain the benefit of a <Link to="/main/combat_feat">combat feat</Link> she doesn't possess. This effect lasts for 1 minute. The warsighted must otherwise meet all the feat's prerequisites. She can use this ability a number of times per day equal to 3 + <Link to="/misc/half">half</Link> her oracle level.</p>

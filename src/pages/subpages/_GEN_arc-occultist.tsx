@@ -399,8 +399,8 @@ const _haunt_collector = {title: "Haunt Collector", jsx: <><h2 id="arc-occultist
 <Pair title="At 12th Level">He can use this ability twice a day.</Pair>
 <Pair title="At 16th Level">He may use this ability three times a day.</Pair>
 </Ability>
-<Ability id="arc-occultist-haunt_collector-extricate-haunt-su" icon={["magic-swirl"]}>
-<Pair single id="arc-occultist-haunt_collector-extricate-haunt-su">Extricate Haunt (Su)</Pair>
+<Ability id="extricate-haunt-su" icon={["magic-swirl"]}>
+<Pair single id="extricate-haunt-su">Extricate Haunt (Su)</Pair>
 <Pair hl title="Replaces">Magic circles, binding circles, fast circles</Pair>
 <Pair title="Usage">1 + Intelligence modifier times/day</Pair>
 <Pair title="Ability"><p>The haunt collector can temporarily exorcise his haunted implements' possessing entities to spontaneously create phenomena similar to <Link to="/rule/haunts">haunts</Link> and imbue them with spells the occultist knows. As a <strong className="hl">full-round action</strong> that provokes attacks of opportunity, the haunt collector expends 1 point of mental focus to extricate an implement's spirit and infuse an adjacent square with its ghostly presence while granting it the power to deliver a spell from the implement's associated school (whose range is touch or greater) on the haunt collector's behalf. This action consumes the spell just as if it had been cast, but the energy is held in check by the created haunt until triggered by conditions set forth by the haunt collector. The conditions needed to trigger the haunt's spell effect must be clear, although they can be general, using the guidelines of the <Link to="/spell/magic_mouth">magic mouth</Link> spell. The haunt is stationary, and once the conditions for the trigger are met, the spell is discharged normally, though it now originates from the haunt's square.</p>
@@ -743,8 +743,8 @@ const _secret_broker = {title: "Secret Broker", jsx: <><h2 id="arc-occultist-sec
 </>};
 const _shair = {title: "Sha'ir", jsx: <><h2 id="arc-occultist-shair-shair">Sha'ir</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 102</Link><br/>Sha'irs delve into the occult not through power over objects but instead via their connection with minor servitor genies from the elemental planes. A sha'ir's jin is both a precious ally and a living implement for its master.</p>
-<Ability id="arc-occultist-shair-jin-su" icon={["stairs-goal","broken-shield","spell-book"]}>
-<Pair single id="arc-occultist-shair-jin-su">Jin (Su)</Pair>
+<Ability id="jin-su" icon={["stairs-goal","broken-shield","spell-book"]}>
+<Pair single id="jin-su">Jin (Su)</Pair>
 <Pair hl title="Replaces">Implements</Pair>
 <Pair hl title="Alters">Mental focus, spellcasting, implement mastery</Pair>
 <Pair title="Gained">At 1st Level</Pair>

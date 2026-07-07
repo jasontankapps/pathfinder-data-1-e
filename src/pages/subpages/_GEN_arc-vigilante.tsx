@@ -172,8 +172,8 @@ const _brute = {title: "Brute", jsx: <><h2 id="arc-vigilante-brute-brute">Brute<
 <Pair hl title="Alters">Armor and weapon proficiencies</Pair>
 <Pair title="Info">A brute isn't proficient with medium armor or martial weapons. However, he gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> as a bonus feat.</Pair>
 </Ability>
-<Ability id="arc-vigilante-brute-brute-form-ex" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-vigilante-brute-brute-form-ex">Brute Form (Ex)</Pair>
+<Ability id="brute-form-ex" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="brute-form-ex">Brute Form (Ex)</Pair>
 <Pair hl title="Replaces">Vigilante specialization</Pair>
 <Pair title="Ability"><p>Though it is sometimes difficult to maintain, a brute has a measure of control over his abilities.</p>
 <p>While in his vigilante identity, a brute becomes one size category larger, gaining no ability score adjustments but otherwise gaining <Link to="/rule/adding_racial_hit_dice">all adjustments</Link> for his new size, including <Link to="/rule/big_and_little_creatures_in_combat">additional reach</Link>, if appropriate.</p>
@@ -474,8 +474,8 @@ const _experimenter = {title: "Experimenter", jsx: <><h2 id="arc-vigilante-exper
 <Pair title="Ability">He can take <Link to="/ability/discoveries">alchemical discoveries</Link> in place of vigilante talents, but only discoveries that affect his mutagen (including <em>cognatogen</em> discoveries).</Pair>
 <Pair title="Special">When an experimenter is confused, dazed, frightened, panicked, or stunned, he must attempt a Will save (DC = 20 + his vigilante level) each round at the start of his turn. If he fails, he transforms as if he had consumed his mutagen (determine which ability score gets the bonus randomly). This doesn't consume his mutagen, and lasts a number of rounds equal to 3 + his vigilante level, after which the transformation ends and he becomes <Link to="/misc/fatigued">fatigued</Link>. While transformed in this way, he is <Link to="/misc/confused">confused</Link>, and he rerolls any result of "act normally." Since the confusion is part of the mutagenic transformation, abilities that prevent or remove confusion don't apply to this effect, though abilities that end the effect of a mutagen work normally. He forgets everything that happened while he was involuntarily transformed.</Pair>
 </Ability>
-<Ability id="arc-vigilante-experimenter-mutagen-su" extraClasses="subAbility" icon={["upgrade"]}>
-<Pair single id="arc-vigilante-experimenter-mutagen-su" flavor="Text from the alchemist class">Mutagen (Su)</Pair>
+<Ability id="mutagen-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="mutagen-su" flavor="Text from the alchemist class">Mutagen (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Standard Action">You can drink a mutagen to heighten your physical prowess at the cost of your personality. You gain a +2 natural armor bonus, a +4 alchemical bonus to a physical stat, and a -2 penalty to a mental stat. See below for details.</Pair>
 <Pair title="Usage">A mutagen lasts for 10 minutes per alchemist level.</Pair>
@@ -965,8 +965,8 @@ const _psychometrist = {title: "Psychometrist", jsx: <><h2 id="arc-vigilante-psy
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">Like an occultist, a psychometrist has <em>mental focus</em> he can invest into his implements each day to allow him to utilize abilities tied to them. A psychometrist has a number of points of <em>mental focus</em> equal to <Link to="/misc/half">half</Link> his vigilante level plus his Intelligence modifier.</Pair>
 </Ability>
-<Ability id="arc-vigilante-psychometrist-mental-focus-su" extraClasses="subAbility" icon={["magic-swirl"]}>
-<Pair single id="arc-vigilante-psychometrist-mental-focus-su" flavor="Relevant text from the occultist class ability.">Mental Focus (Su)</Pair>
+<Ability id="mental-focus-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="mental-focus-su" flavor="Relevant text from the occultist class ability.">Mental Focus (Su)</Pair>
 <Pair title="Ability"><p>You have a number of points of mental focus; these points refresh each day. You can divide this mental focus between your implements in any way you desire. If an implement is lost or destroyed, the focus invested in it is lost as well, though you still refresh those points of focus normally.</p>
 <p>Once mental focus is invested inside an implement, you can expend the mental focus stored in the implement to activate the associated focus powers you know.</p>
 <p>You refresh your mental focus once each day after receiving at least 8 hours of sleep. After refreshing your mental focus, you must spend 1 hour preparing your implements and investing them with this power. Mental focus that is not used before the next time you refresh your focus is lost.</p>

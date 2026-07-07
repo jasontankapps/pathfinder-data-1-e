@@ -10,8 +10,8 @@ const _fiend_keeper = {title: "Fiend Keeper", jsx: <><h2 id="arc-medium-fiend_ke
 <Pair hl title="Alters">Spirit</Pair>
 <Pair title="Ability">A fiend keeper serves as the vessel for a powerful evil spirit that fights and bargains for dominance. The legends a fiend keeper channels are all aspects of this evil presence. Willingly performing an evil act automatically grants the evil spirit 1 point of influence over him. <Link to="/spell/protection_from_evil">Protection from evil</Link> temporarily suppresses all the spirit's benefits while the fiend keeper is under the spell's effects. When the spirit gains at least 3 points of influence over the fiend keeper, in addition to the penalties associated with each legend, he gains an evil aura as per a <Link to="/class/cleric">cleric</Link> of his level and treats his alignment as evil for the purposes of resisting or being vulnerable to spells and abilities (such as <Link to="/spell/unholy_blight">unholy blight</Link> or a paladin's <em>smite evil</em> class ability).</Pair>
 </Ability>
-<Ability id="arc-medium-fiend_keeper-dark-communion-su" extraClasses="hasSubs" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-medium-fiend_keeper-dark-communion-su">Dark Communion (Su)</Pair>
+<Ability id="dark-communion-su" extraClasses="hasSubs" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="dark-communion-su">Dark Communion (Su)</Pair>
 <Pair hl title="Replaces">Haunt channeler, location channel, connection channel, ask the spirits</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Full-Round Action"><p>A fiend keeper can entice the evil spirit to lend him its knowledge or its power a number of times per day equal to his class level.</p>
@@ -67,8 +67,8 @@ const _kami_medium = {title: "Kami Medium", jsx: <><h2 id="arc-medium-kami_mediu
 <Pair title="Ability">A kami medium gains the <em>taboo</em> ability at 1st level.</Pair>
 <Pair title="Special">Regardless of which kami he channels, each day he must accept the <em>hierophant taboo</em> to strongly revere nature and avoid metal armor. The kami medium gains two free uses of <em>spirit surge</em> from accepting this <em>taboo,</em> as normal.</Pair>
 </Ability>
-<Ability id="arc-medium-kami_medium-ofuda-su" icon={["magic-swirl"]}>
-<Pair single id="arc-medium-kami_medium-ofuda-su">Ofuda (Su)</Pair>
+<Ability id="ofuda-su" icon={["magic-swirl"]}>
+<Pair single id="ofuda-su">Ofuda (Su)</Pair>
 <Pair hl title="Alters">Spellcasting</Pair>
 <Pair title="Ability"><p>A kami medium uses ofudas - psychically charged prayer scrolls - to focus his spells. Each of his spells gains an ofuda as an additional inexpensive material component, and the ofuda replaces the divine focus for spells the kami medium gains via the <em>divine surge</em> spirit power. Unless the spell involves a touch attack or ranged touch attack, the kami medium doesn't need to attempt an attack roll to place an ofuda on an unwilling target; the ofuda simply appears on affected targets. For instantaneous spells, the ofuda is consumed during the casting, but for spells with any other duration, the ofuda remains on the target or targets throughout the duration and then disintegrates when the duration expires.</p>
 <p>A kami medium's spells can't be dispelled by <Link to="/spell/dispel_magic">dispel magic</Link> or <Link to="/spell/greater_dispel_magic">greater dispel magic</Link>, but removing or destroying the ofuda ends the duration immediately. An ofuda must be displayed prominently and can't be hidden (though a creature bearing an ofuda can hide normally). A successful <Link to="/rule/steal">steal</Link> or <Link to="/rule/grapple">grapple</Link> combat maneuver check to remove an item is sufficient to remove an ofuda from an unwilling target, and a <strong className="hl">standard action</strong> automatically removes it from a willing target. An ofuda counts as an object made of paper with 5 hit points per medium level. The target of the spell can't see, harm, or remove the ofuda attached to her, though her allies can do so. If the spell is harmless, the target can see her ofuda.</p>
@@ -202,8 +202,8 @@ const _nexian_channeler = {title: "Nexian Channeler", jsx: <><h2 id="arc-medium-
 </>};
 const _outer_channeler = {title: "Outer Channeler", jsx: <><h2 id="arc-medium-outer_channeler-outer-channeler">Outer Channeler</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 12</Link><br/>Rather than invite strange entities and departed souls into their bodies, outer channelers invite extraplanar entities to inhabit them, allowing the likes of angels and demons to use them as vessels in exchange for power. However, this bond always comes with a cost.</p>
-<Ability id="arc-medium-outer_channeler-outsider-invocation-su" icon={["stairs-goal"]}>
-<Pair single id="arc-medium-outer_channeler-outsider-invocation-su">Outsider Invocation (Su)</Pair>
+<Ability id="outsider-invocation-su" icon={["stairs-goal"]}>
+<Pair single id="outsider-invocation-su">Outsider Invocation (Su)</Pair>
 <Pair hl title="Alters">Spirit, spirit power (intermediate)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>An outer channeler chooses one outsider subtype from among those listed below. His alignment must be within one step of the outsider's alignment in order to choose it, and once chosen it cannot be changed. Instead of channeling spirits, an outer channeler invokes outsiders of his chosen subtype during his <em>seance.</em></p>
@@ -335,8 +335,8 @@ const _rivethun_spirit_channeler = {title: "Rivethun Spirit Channeler", jsx: <><
 <Pair hl title="Alters">Spirit</Pair>
 <Pair title="Ability">Rather than channel the legend of a single spirit for 24 hours, a rivethun spirit channeler can invite a nearby local spirit into her body for 24 hours. This functions exactly like the <em>spirit dance</em> ability of the <Link to="/arc-medium/spirit_dancer">spirit dancer</Link> medium archetype, except the rivethun spirit channeler doesn't need to find an appropriate location to channel her spirits since she invites nearby spirits into her body instead of channeling a legend.</Pair>
 </Ability>
-<Ability id="arc-medium-rivethun_spirit_channeler-text-from-the-spirit-dancer-ability" extraClasses="subAbility" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-medium-rivethun_spirit_channeler-text-from-the-spirit-dancer-ability">Text from the Spirit Dancer ability</Pair>
+<Ability id="text-from-the-spirit-dancer-ability" extraClasses="subAbility" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="text-from-the-spirit-dancer-ability">Text from the Spirit Dancer ability</Pair>
 <Pair title="Ability"><p>Each day during his <em>seance,</em> a spirit dancer makes all his spirit power choices as if he were channeling one spirit of each of the six legends. He can't choose to channel a weaker spirit to reduce his influence from <em>spirit surge.</em> He does not always possess the <em>seance</em> boon, spirit bonus, spirit powers, or <em>spirit surge</em> ability from any of these six spirits.</p>
 <p>Instead, he can enter a spirit dance as a <strong className="hl">free action</strong> to gain the aforementioned abilities from one of the six spirits he prepared during his <em>seance</em> for the duration of his spirit dance. He can spirit dance for a total number of rounds per day equal to his Charisma modifier + double his medium level; these rounds don't need to be consecutive.</p>
 <p>After his spirit dance ends, the spirit dancer takes a -2 penalty on attack rolls, saving throws, and skill checks for 1 minute and can't enter a spirit dance again during that time. He also can't enter a spirit dance while <Link to="/misc/shaken">shaken</Link>, <Link to="/misc/frightened">frightened</Link>, or <Link to="/misc/panicked">panicked</Link>.</p>
@@ -355,8 +355,8 @@ const _rivethun_spirit_channeler = {title: "Rivethun Spirit Channeler", jsx: <><
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A rivethun spirit channeler can interact directly with unwholesome spirits of the ills that trouble her or her allies. This functions like the <Link to="/arc-shaman/animist">animist shaman's</Link> <em>wrangle condition</em> ability.</Pair>
 </Ability>
-<Ability id="arc-medium-rivethun_spirit_channeler-text-from-the-animist-ability" extraClasses="subAbility" icon={["remedy"]}>
-<Pair single id="arc-medium-rivethun_spirit_channeler-text-from-the-animist-ability">Text from the Animist ability</Pair>
+<Ability id="text-from-the-animist-ability" extraClasses="subAbility" icon={["remedy"]}>
+<Pair single id="text-from-the-animist-ability">Text from the Animist ability</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability"><p>The animist interacts directly with unwholesome spirits of the ills that trouble him or his people. To the animist, negative conditions manifest as anthropomorphic spirits or are caused by such spirits (visited upon the creature by bad magic). Either way, the animist can attempt to persuade the spirit to leave its victim alone, thus performing a miraculous healing. As the animist grows in power, he can simply inform these spirits that they are unwelcome and command them to depart.</p>
 <p>The animist can attempt a Diplomacy check to persuade the condition's spirit to leave. Conditions the animist can affect are ranked from minor to dire, with each category having an accompanying Diplomacy DC (see below). The animist cannot take 10 or 20 on the check or receive aid from any creature except another shaman. Failure by 5 or less means the condition spirit is willing to leave the target and transfer to the animist for the rest of the duration or until cured; this happens only if the animist is willing. Failure by 10 or more means that not only is the target inflicted with the condition, but the animist is as well (whether or not he is willing) for the remaining duration or until cured.</p>
@@ -383,8 +383,8 @@ const _rivethun_spirit_channeler = {title: "Rivethun Spirit Channeler", jsx: <><
 </>};
 const _spirit_dancer = {title: "Spirit Dancer", jsx: <><h2 id="arc-medium-spirit_dancer-spirit-dancer">Spirit Dancer</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 94</Link><br/>A spirit dancer enacts an exuberant dance to the spirits, accepting many roles in the shifting dance and changing dance partners quickly.</p>
-<Ability id="arc-medium-spirit_dancer-spirit-dance-su" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-medium-spirit_dancer-spirit-dance-su">Spirit Dance (Su)</Pair>
+<Ability id="spirit-dance-su" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="spirit-dance-su">Spirit Dance (Su)</Pair>
 <Pair hl title="Replaces">Spirit bonus, spirit surge</Pair>
 <Pair hl title="Alters">Spirit</Pair>
 <Pair title="Ability"><p>Each day during his <em>seance,</em> a spirit dancer makes all his spirit power choices as if he were channeling one spirit of each of the six legends. He can't choose to channel a weaker spirit to reduce his influence from <em>spirit surge.</em> He does not always possess the <em>seance</em> boon, spirit bonus, spirit powers, or <em>spirit surge</em> ability from any of these six spirits.</p>
@@ -432,8 +432,8 @@ const _spirit_eater = {title: "Spirit Eater", jsx: <><h2 id="arc-medium-spirit_e
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability">A spirit eater medium treats his attacks as if they had the <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon property.</Pair>
 </Ability>
-<Ability id="arc-medium-spirit_eater-consume-spirit-su" icon={["stairs-goal","upgrade"]}>
-<Pair single id="arc-medium-spirit_eater-consume-spirit-su">Consume Spirit (Su)</Pair>
+<Ability id="consume-spirit-su" icon={["stairs-goal","upgrade"]}>
+<Pair single id="consume-spirit-su">Consume Spirit (Su)</Pair>
 <Pair hl title="Replaces">Location channel, connection channel</Pair>
 <Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability"><p>A spirit eater can attempt to consume an incorporeal creature and house it within his body. If he reduces an incorporeal creature to 0 hit points or fewer, he can instead leave the creature at 1 hit point and consume the creature as an <strong className="hl">immediate action</strong>. A consumed creature is contained in the spirit eater's body and grants him a +1 bonus on either attack rolls, saving throws, or skill checks, chosen by the spirit eater, and a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the consumed creature's Hit Dice.</p>
@@ -514,8 +514,8 @@ const _uda_wendo = {title: "Uda Wendo", jsx: <><h2 id="arc-medium-uda_wendo-uda-
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Perform</Pair></Ability>
-<Ability id="arc-medium-uda_wendo-wendo-su" icon={["stairs-goal","spell-book","broken-shield","hazard-sign"]}>
-<Pair single id="arc-medium-uda_wendo-wendo-su">Wendo (Su)</Pair>
+<Ability id="wendo-su" icon={["stairs-goal","spell-book","broken-shield","hazard-sign"]}>
+<Pair single id="wendo-su">Wendo (Su)</Pair>
 <Pair hl title="Alters">Spirit</Pair>
 <Pair title="Ability"><p>Rather than channeling spirits, an uda wendo channels the <Link to="/faith/wendo">wendo</Link>, otherworldly entities that walk among mortals. This functions like channeling a spirit, except instead of requiring a favored location to channel a wendo, an uda wendo must offer the wendo a sacrifice worth at least 50 gp per Hit Die the uda wendo has. Alternatively, the uda wendo can instead accept 1 point of burn, as per the <Link to="/class/kineticist">kineticist</Link> class ability, instead of sacrificing material wealth.</p>
 <p>While channeling a wendo, the uda wendo gains the 1st-level domain power of one <Link to="/ability/druid_domains">druid animal or terrain domain</Link>, or the 1st-level domain power of one of the following cleric domains: <Link to="/domain/air">Air</Link>, <Link to="/domain/animal">Animal</Link>, <Link to="/domain/community">Community</Link>, <Link to="/domain/darkness">Darkness</Link>, <Link to="/domain/death">Death</Link>, <Link to="/domain/destruction">Destruction</Link>, <Link to="/domain/earth">Earth</Link>, <Link to="/domain/fire">Fire</Link>, <Link to="/domain/healing">Healing</Link>, <Link to="/domain/knowledge">Knowledge</Link>, <Link to="/domain/protection">Protection</Link>, <Link to="/domain/rune">Rune</Link>, <Link to="/domain/strength">Strength</Link>, <Link to="/domain/sun">Sun</Link>, <Link to="/domain/trickery">Trickery</Link>, <Link to="/domain/war">War</Link>, <Link to="/domain/water">Water</Link>, or <Link to="/domain/weather">Weather</Link>. The uda wendo has an effective cleric or druid level equal to 1/2 his medium level (minimum 1st) for the purpose of this ability. In addition, he adds all spells from his chosen domain that are of a spell level he can cast (including modifications to the uda wendo's spellcasting from the <em>archmage arcana</em> or <em>divine surge</em> lesser spirit powers) to his medium spell list and medium spells known as medium spells of their domain spell level.</p>
@@ -539,8 +539,8 @@ const _uda_wendo = {title: "Uda Wendo", jsx: <><h2 id="arc-medium-uda_wendo-uda-
 </>};
 const _vessel_of_the_failed = {title: "Vessel of the Failed", jsx: <><h2 id="arc-medium-vessel_of_the_failed-vessel-of-the-failed">Vessel of the Failed</h2>
 <p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine pg. 7</Link><br/>A vessel of the failed channels the spirits of those who attempted the Test of the Starstone but failed; these spirits grant the medium abilities wrought from the spirits' ultimate shortcomings. A vessel of the failed intimately understands the shaky line between success and failure and embraces walking that line to gain power from the spirits he calls.</p>
-<Ability id="arc-medium-vessel_of_the_failed-will-of-the-failed-su" icon={["stairs-goal","broken-shield"]}>
-<Pair single id="arc-medium-vessel_of_the_failed-will-of-the-failed-su">Will of the Failed (Su)</Pair>
+<Ability id="will-of-the-failed-su" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="will-of-the-failed-su">Will of the Failed (Su)</Pair>
 <Pair hl title="Alters">Spirit, spirit mastery</Pair>
 <Pair title="Ability"><p>A vessel of the failed is intimately familiar with the supernatural stubbornness of the brash heroes who have met their demise pursuing the Test of the Starstone, and he can tap into this strength when he needs it the most.</p>
 <p>When a spirit attains 5 or more points of influence over the vessel of the failed, the vessel can attempt a Will saving throw (DC = 15 + half the vessel's class level) to avoid completely losing control to the spirit. The first time in a single 24-hour <em>seance</em> period that the vessel succeeds at this saving throw, he is <Link to="/misc/deafened">deafened</Link> until he awakens the next day with the spirit gone. The second time the vessel succeeds at this saving throw during that period, he is also <Link to="/misc/blinded">blinded</Link>. The third time, he is also <Link to="/misc/staggered">staggered</Link>. These conditions are unavoidable and cannot be removed through magic or any other method. (If he wishes, the vessel of the failed can choose to forgo this saving throw and lose control to the spirit as normal.)</p>
@@ -563,8 +563,8 @@ const _vessel_of_the_failed = {title: "Vessel of the Failed", jsx: <><h2 id="arc
 <Pair title="Ability">Each time a vessel of the failed breaks a <em>taboo</em> he has accepted, he can allow his spirit to gain 1 additional point of influence over him. When he does so, the penalty he takes on attack rolls, damage rolls, ability checks, skill checks, and saving throws changes from -2 to -1. This influence is in addition to the influence the spirit normally gains for breaking the <em>taboo</em> in the first place.</Pair>
 <Pair title="Special">If the vessel continues violating the <em>taboo</em> while taking a reduced penalty, the duration of the reduced penalty extends, but the spirit doesn't gain additional influence over the vessel.</Pair>
 </Ability>
-<Ability id="arc-medium-vessel_of_the_failed-spiritual-swan-song-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-medium-vessel_of_the_failed-spiritual-swan-song-sp" flavor="When the circumstances are right, the vessel of the failed can become a conduit for his spirit's brush with divinity.">Spiritual Swan Song (Sp)</Pair>
+<Ability id="spiritual-swan-song-sp" icon={["magic-swirl"]}>
+<Pair single id="spiritual-swan-song-sp" flavor="When the circumstances are right, the vessel of the failed can become a conduit for his spirit's brush with divinity.">Spiritual Swan Song (Sp)</Pair>
 <Pair hl title="Replaces">Trance of three</Pair>
 <Pair title="Gained">At 15th Level</Pair>
 <Pair title="Ability"><p>Whenever the vessel makes a successful saving throw via the <em>will of the failed</em> ability to avoid completely losing control to his spirit, the vessel gains one use of a spell-like ability tied to the spirit's legend, as noted below.</p>

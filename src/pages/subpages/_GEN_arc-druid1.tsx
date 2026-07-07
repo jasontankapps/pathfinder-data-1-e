@@ -11,8 +11,8 @@ const _aerie_protector = {title: "Aerie Protector", jsx: <><h2 id="arc-druid-aer
 <Pair hl title="Alters">Weapon and armor proficiency</Pair>
 <Pair title="Info">Aerie protectors are proficient with <Link to="/eq-weapon/javelin">javelins</Link> and <Link to="/eq-weapon/shortbow">shortbows</Link> but not with scimitars or scythes. Aerie protectors are not proficient with medium armor.</Pair>
 </Ability>
-<Ability id="arc-druid-aerie_protector-nature-bond" icon={["info"]}>
-<Pair single id="arc-druid-aerie_protector-nature-bond">Nature Bond</Pair>
+<Ability id="nature-bond" icon={["info"]}>
+<Pair single id="nature-bond">Nature Bond</Pair>
 <Pair hl title="Alters">Nature bond</Pair>
 <Pair title="Choice"><p>If the aerie protector chooses an animal companion as her nature bond, she must choose an animal with a fly speed. She can use spells or other effects to alter her companion's fly speed, but it must be able to fly on its own before it becomes her companion.</p>
 <p>If the aerie protector chooses a domain as her nature bond, she must choose the <Link to="/domain/air">Air</Link>, <Link to="/druiddomain/eagle">Eagle</Link>, <Link to="/domain/earth">Earth</Link>, <Link to="/druiddomain/mountain">Mountain</Link>, or <Link to="/domain/weather">Weather</Link> domain.</p>
@@ -102,8 +102,8 @@ const _ape_shaman = {title: "Ape Shaman", jsx: <><h2 id="arc-druid-ape_shaman-ap
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Ability">An ape shaman can use <em>wild empathy</em> with apes and other primates as a <strong className="hl">full-round action</strong> with a +4 bonus.</Pair>
 </Ability>
-<Ability id="arc-druid-ape_shaman-totem-transformation-su" icon={["upgrade","magic-swirl"]}>
-<Pair single id="arc-druid-ape_shaman-totem-transformation-su">Totem Transformation (Su)</Pair>
+<Ability id="totem-transformation-su" icon={["upgrade","magic-swirl"]}>
+<Pair single id="totem-transformation-su">Totem Transformation (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 minute/day per druid level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
@@ -278,8 +278,8 @@ const _bat_shaman = {title: "Bat Shaman", jsx: <><h2 id="arc-druid-bat_shaman-ba
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Ability">A bat shaman can use <em>wild empathy</em> with bats as a <strong className="hl">full-round action</strong> with a +4 bonus.</Pair>
 </Ability>
-<Ability id="arc-druid-bat_shaman-totem-transformation-su" icon={["upgrade","magic-swirl"]}>
-<Pair single id="arc-druid-bat_shaman-totem-transformation-su">Totem Transformation (Su)</Pair>
+<Ability id="totem-transformation-su" icon={["upgrade","magic-swirl"]}>
+<Pair single id="totem-transformation-su">Totem Transformation (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 minute/day per druid level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
@@ -328,8 +328,8 @@ const _bear_shaman = {title: "Bear Shaman", jsx: <><h2 id="arc-druid-bear_shaman
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Ability">A bear shaman can use <em>wild empathy</em> with bears and wolverines as a <strong className="hl">full-round action</strong> with a +4 bonus.</Pair>
 </Ability>
-<Ability id="arc-druid-bear_shaman-totem-transformation-su" icon={["upgrade","magic-swirl"]}>
-<Pair single id="arc-druid-bear_shaman-totem-transformation-su">Totem Transformation (Su)</Pair>
+<Ability id="totem-transformation-su" icon={["upgrade","magic-swirl"]}>
+<Pair single id="totem-transformation-su">Totem Transformation (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 minute/day per druid level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
@@ -411,8 +411,8 @@ const _boar_shaman = {title: "Boar Shaman", jsx: <><h2 id="arc-druid-boar_shaman
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Ability">A boar shaman can use <em>wild empathy</em> with porcine creatures as a <strong className="hl">full-round action</strong> with a +4 bonus.</Pair>
 </Ability>
-<Ability id="arc-druid-boar_shaman-totem-transformation-su" icon={["upgrade","magic-swirl"]}>
-<Pair single id="arc-druid-boar_shaman-totem-transformation-su">Totem Transformation (Su)</Pair>
+<Ability id="totem-transformation-su" icon={["upgrade","magic-swirl"]}>
+<Pair single id="totem-transformation-su">Totem Transformation (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 minute/day per druid level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
@@ -636,8 +636,8 @@ const _devolutionist = {title: "Devolutionist", jsx: <><h2 id="arc-druid-devolut
 <Pair title="Ability">A devolutionist can spend 1 minute with a willing or restrained domesticated animal to undo the effects of domestication, transforming it into a wild animal and causing it to lose any tricks it knew. The animal no longer recognizes any humanoids as friends or allies and gladly tears former playmates apart for food. Handle Animal checks don't work on an undomesticated creature, though <em>wild empathy</em> does.</Pair>
 <Pair title="Special">This ability doesn't function on animal companions, special mounts, or the like, and other exceptional domesticated animals can attempt a Will save (DC = 10 + <Link to="/misc/half">half</Link> the devolutionist's druid level + her Wisdom modifier) to negate the effect and become immune to it for 24 hours. Though this ability is instantaneous, <Link to="/spell/break_enchantment">break enchantment</Link>, <Link to="/spell/limited_wish">limited wish</Link>, <Link to="/spell/miracle">miracle</Link>, or <Link to="/spell/wish">wish</Link> can reverse the effects.</Pair>
 </Ability>
-<Ability id="arc-druid-devolutionist-devolution-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-druid-devolutionist-devolution-sp">Devolution (Sp)</Pair>
+<Ability id="devolution-sp" icon={["magic-swirl"]}>
+<Pair single id="devolution-sp">Devolution (Sp)</Pair>
 <Pair hl title="Replaces">Venom immunity</Pair>
 <Pair title="Gained">At 9th Level</Pair>
 <Pair title="Ability"><p>A devolutionist can perform a 24-hour ritual to irrevocably transform a humanoid or animal into a devolved feral state. There is no saving throw, but the target must be present and stay relatively still for the entire ritual, which typically requires a willing or restrained target. An affected humanoid's Intelligence score is instantly reduced to 2; its type changes to <Link to="/type/animal">animal</Link>; it loses all spellcasting and abilities that require intelligence; it can't wield manufactured weapons; it gains two <Link to="/umr/natural_attacks">claw attacks</Link> and a bite attack (all dealing 1d4 points of damage for a Medium humanoid or 1d3 for Small humanoids); and it can't use skills other than Acrobatics, Climb, Escape Artist, Fly, Intimidate, Perception, Stealth, Survival, and Swim.</p>
@@ -648,8 +648,8 @@ const _devolutionist = {title: "Devolutionist", jsx: <><h2 id="arc-druid-devolut
 </>};
 const _dinosaur_druid = {title: "Dinosaur Druid", jsx: <><h2 id="arc-druid-dinosaur_druid-dinosaur-druid">Dinosaur Druid</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 47</Link><br/>A dinosaur druid speaks for the spirit of prehistoric nature, even taking the form of great beasts of legend.</p>
-<Ability id="arc-druid-dinosaur_druid-summon-dinosaur-sp" icon={["magic-swirl"]}>
-<Pair single id="arc-druid-dinosaur_druid-summon-dinosaur-sp">Summon Dinosaur (Sp)</Pair>
+<Ability id="summon-dinosaur-sp" icon={["magic-swirl"]}>
+<Pair single id="summon-dinosaur-sp">Summon Dinosaur (Sp)</Pair>
 <Pair hl title="Alters">Spontaneous casting</Pair>
 <Pair title="Ability"><p>A dinosaur druid can summon a wide range of dinosaurs and related prehistoric beasts using <Link to="/spell/summon_natures_ally">summon nature's ally</Link> spells. She adds the following options to these spells when using <em>spontaneous casting</em> to cast such a spell.</p>
 <div className="hanging">
@@ -711,8 +711,8 @@ const _dragon_shaman = {title: "Dragon Shaman", jsx: <><h2 id="arc-druid-dragon_
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Ability">A dragon shaman can use her <em>wild empathy</em> ability with lizards as a <strong className="hl">full-round action</strong> with a +4 bonus.</Pair>
 </Ability>
-<Ability id="arc-druid-dragon_shaman-totem-transformation-su" icon={["upgrade","magic-swirl"]}>
-<Pair single id="arc-druid-dragon_shaman-totem-transformation-su">Totem Transformation (Su)</Pair>
+<Ability id="totem-transformation-su" icon={["upgrade","magic-swirl"]}>
+<Pair single id="totem-transformation-su">Totem Transformation (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 minute/day per druid level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
@@ -790,8 +790,8 @@ const _eagle_shaman = {title: "Eagle Shaman", jsx: <><h2 id="arc-druid-eagle_sha
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Ability">An eagle shaman can use <em>wild empathy</em> with birds as a <strong className="hl">full-round action</strong> with a +4 bonus.</Pair>
 </Ability>
-<Ability id="arc-druid-eagle_shaman-totem-transformation-su" icon={["upgrade","magic-swirl"]}>
-<Pair single id="arc-druid-eagle_shaman-totem-transformation-su">Totem Transformation (Su)</Pair>
+<Ability id="totem-transformation-su" icon={["upgrade","magic-swirl"]}>
+<Pair single id="totem-transformation-su">Totem Transformation (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 minute/day per druid level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
@@ -830,8 +830,8 @@ const _eagle_shaman = {title: "Eagle Shaman", jsx: <><h2 id="arc-druid-eagle_sha
 </>};
 const _elemental_ally = {title: "Elemental Ally", jsx: <><h2 id="arc-druid-elemental_ally-elemental-ally">Elemental Ally</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook pg. 16</Link><br/>An elemental ally is a druid who has crafted powerful bonds of trust and friendship with one ally from each of the four primary elemental planes. Elemental allies are most common in Qadira, where they are considered similar to genie-binders.</p>
-<Ability id="arc-druid-elemental_ally-elemental-eidolons" icon={["stairs-goal"]}>
-<Pair single id="arc-druid-elemental_ally-elemental-eidolons">Elemental Eidolons</Pair>
+<Ability id="elemental-eidolons" icon={["stairs-goal"]}>
+<Pair single id="elemental-eidolons">Elemental Eidolons</Pair>
 <Pair hl title="Replaces">Nature's bond, wild shape</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>An elemental ally has four elemental eidolons she can summon, one each for the elements of air, earth, fire, and water. Their abilities and statistics are determined using the rules for <Link to="/eidolon/elemental">elemental</Link> eidolons for the <Link to="/class/unchained_summoner">unchained summoner</Link> class, as if the elemental ally were a summoner of her druid level, except they gain no additional evolution pool (just those evolutions from their base form and base evolutions from their subtype).</p>
@@ -839,8 +839,8 @@ const _elemental_ally = {title: "Elemental Ally", jsx: <><h2 id="arc-druid-eleme
 <p>As the elemental ally gains levels, her elemental eidolons' base statistics and base evolutions increase as if her druid level were her summoner level. The eidolons gain the <em>darkvision, link, share spells, evasion, ability score increase, devotion, multiattack,</em> and <em>improved evasion</em> abilities at the appropriate levels, but never gain an evolution pool. Abilities and spells that grant additional evolution points to eidolons do not function for elemental eidolons, though any ability that would grant evolution points to an animal companion does work. The elemental ally does not gain <em>life link</em> or any other class features a summoner gains in relation to her eidolon.</p>
 </Pair>
 </Ability>
-<Ability id="arc-druid-elemental_ally-elemental-empathy-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-druid-elemental_ally-elemental-empathy-ex">Elemental Empathy (Ex)</Pair>
+<Ability id="elemental-empathy-ex" icon={["stairs-goal"]}>
+<Pair single id="elemental-empathy-ex">Elemental Empathy (Ex)</Pair>
 <Pair hl title="Replaces">Wild empathy</Pair>
 <Pair title="Ability"><p>An elemental ally can improve the attitude of a creature of the elemental subtype. This ability functions just like a Diplomacy check to improve the attitude of a person. The elemental ally rolls 1d20 and adds her druid level and her Charisma modifier to determine the <em>elemental empathy</em> check result.</p>
 <p>To use <em>elemental empathy,</em> the elemental ally and the elemental must be able to study each other, which means that they must be within 30 feet of one another under normal conditions. Generally, influencing an elemental in this way takes 1 minute, but as with influencing people, it might take more or less time.</p>
@@ -982,8 +982,8 @@ const _fungal_pilgrim = {title: "Fungal Pilgrim", jsx: <><h2 id="arc-druid-funga
 <Pair hl title="Alters">Nature bond</Pair>
 <Pair title="Choice">A fungal pilgrim must select the <Link to="/domain/plant">Plant</Link> domain for her nature bond if she does not select an animal companion.</Pair>
 </Ability>
-<Ability id="arc-druid-fungal_pilgrim-spore-spawning" icon={["magic-swirl"]}>
-<Pair single id="arc-druid-fungal_pilgrim-spore-spawning">Spore Spawning</Pair>
+<Ability id="spore-spawning" icon={["magic-swirl"]}>
+<Pair single id="spore-spawning">Spore Spawning</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Info">The fungal pilgrim <strong className="hl">only</strong> gets this ability if they selected the Plant domain as their <em>nature bond.</em></Pair>
@@ -1051,8 +1051,8 @@ const _goliath_druid = {title: "Goliath Druid", jsx: <><h2 id="arc-druid-goliath
 <Pair title="At 12th Level">When taking the form of a giant, the goliath druid's <em>wild shape</em> functions as <Link to="/spell/giant_form_i">giant form I</Link>.</Pair>
 <Pair title="At 14th Level">The goliath druid can also use <em>wild shape</em> to change into a Huge giant. When taking the form of a giant, the goliath druid's <em>wild shape</em> functions as <Link to="/spell/giant_form_ii">giant form II</Link>.</Pair>
 </Ability>
-<Ability id="arc-druid-goliath_druid-primal-summons" icon={["upgrade"]}>
-<Pair single id="arc-druid-goliath_druid-primal-summons">Primal Summons</Pair>
+<Ability id="primal-summons" icon={["upgrade"]}>
+<Pair single id="primal-summons">Primal Summons</Pair>
 <Pair hl title="Replaces">Venom immunity, a thousand faces</Pair>
 <Pair title="Ability"><p>A goliath druid adds the following creatures to the list of creatures she can normally summon using <em>summon nature's ally</em> spells.</p>
 <div className="hanging">
@@ -1133,8 +1133,8 @@ const _halcyon_druid = {title: "Halcyon Druid", jsx: <><h2 id="arc-druid-halcyon
 <Pair hl title="Replaces">Nature bond</Pair>
 <Pair title="Ability">A halcyon druid forms a powerful bond with a mask, which functions identically to a <Link to="/class/wizard">wizard's</Link> <em>bonded object</em> except that it can be used to cast druid spells (including those gained from class abilities) instead of wizard spells. A <em>bonded mask</em> must be worn to have an effect, and it occupies the <Link to="/rule/head_slot">head slot</Link>. A halcyon druid can enhance her mask with abilities appropriate for a head slot item, and can designate an existing head slot item as her <em>bonded mask</em> (but only if it covers her face).</Pair>
 </Ability>
-<Ability id="arc-druid-halcyon_druid-bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
-<Pair single id="arc-druid-halcyon_druid-bonded-object" flavor="Text from the wizard class">Bonded Object</Pair>
+<Ability id="bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="bonded-object" flavor="Text from the wizard class">Bonded Object</Pair>
 <Pair title="Ability"><p>If you select a bonded object, you begin play with one at no cost. These objects are always masterwork quality. If you attempt to cast a spell without your bonded object worn, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
 <p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities. The bonded object cannot be used to cast spells from your opposition schools.</p>
 <p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>
@@ -1247,8 +1247,8 @@ const _kraken_caller = {title: "Kraken Caller", jsx: <><h2 id="arc-druid-kraken_
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">A kraken caller gains a +4 bonus on saving throws against the spell-like and supernatural abilities of creatures with the aquatic subtype.</Pair>
 </Ability>
-<Ability id="arc-druid-kraken_caller-wild-shape-su" icon={["broken-shield","magic-swirl","mailed-fist"]}>
-<Pair single id="arc-druid-kraken_caller-wild-shape-su">Wild Shape (Su)</Pair>
+<Ability id="wild-shape-su" icon={["broken-shield","magic-swirl","mailed-fist"]}>
+<Pair single id="wild-shape-su">Wild Shape (Su)</Pair>
 <Pair hl title="Alters">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability"><p>A kraken caller's options for <em>wild shape</em> are limited to animals with the aquatic or water subtype or that have the amphibious special quality. The kraken caller can alternatively expend a daily use of <em>wild shape</em> to grow two tentacles out of her body while otherwise retaining her own form. This effect lasts for 10 minutes per level, or until the kraken caller changes back.</p>
@@ -1321,8 +1321,8 @@ const _life_channeler = {title: "Life Channeler", jsx: <><h2 id="arc-druid-life_
 <Pair title="Choice">A life channeler must choose the <Link to="/domain/plant">Plant</Link> domain with her <em>nature bond</em> (she can select the Growth subdomain if she wishes).</Pair>
 <Pair title="Ability">When she performs a <Link to="/misc/coup_de_grace">coup de grace</Link> that kills a sentient humanoid creature (not a summoned creature), she can do so ritualistically in order to affect the area centered on the body with the enrichment version of <Link to="/spell/plant_growth">plant growth</Link>. The sacrifice is a death effect.</Pair>
 </Ability>
-<Ability id="arc-druid-life_channeler-wicker-talismans-su" icon={["magic-swirl","stairs-goal"]}>
-<Pair single id="arc-druid-life_channeler-wicker-talismans-su">Wicker Talismans (Su)</Pair>
+<Ability id="wicker-talismans-su" icon={["magic-swirl","stairs-goal"]}>
+<Pair single id="wicker-talismans-su">Wicker Talismans (Su)</Pair>
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability"><p>A life channeler gains a selection of wicker talismans that can store and convert the life energy of sentient creatures into the growth, health, and fertility of plants around her. The life channeler gains one wicker talisman corresponding to each level of druid spells she can cast, starting with 1st-level spells. These talismans are initially empty, but can hold life energy.</p>
@@ -1357,8 +1357,8 @@ const _lion_shaman = {title: "Lion Shaman", jsx: <><h2 id="arc-druid-lion_shaman
 <Pair hl title="Alters">Wild empathy</Pair>
 <Pair title="Ability">A lion shaman can use <em>wild empathy</em> with felines as a <strong className="hl">full-round action</strong> with a +4 bonus.</Pair>
 </Ability>
-<Ability id="arc-druid-lion_shaman-totem-transformation-su" icon={["upgrade","magic-swirl"]}>
-<Pair single id="arc-druid-lion_shaman-totem-transformation-su">Totem Transformation (Su)</Pair>
+<Ability id="totem-transformation-su" icon={["upgrade","magic-swirl"]}>
+<Pair single id="totem-transformation-su">Totem Transformation (Su)</Pair>
 <Pair hl title="Replaces">Woodland stride</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">1 minute/day per druid level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>

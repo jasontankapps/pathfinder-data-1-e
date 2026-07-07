@@ -658,8 +658,8 @@ const _invested_regent = {hasJL:true,title: "Invested Regent", jsx: <><div class
 <Pair title="At 14th Level">He can select a 4th vested power.</Pair>
 <Pair title="At 18th Level">He can select a 5th vested power.</Pair>
 </Ability>
-<Ability id="arc-monk-invested_regent-vested-powers" extraClasses="hasSubs" icon={["info"]}>
-<Pair single id="arc-monk-invested_regent-vested-powers">Vested Powers</Pair>
+<Ability id="vested-powers" extraClasses="hasSubs" icon={["info"]}>
+<Pair single id="vested-powers">Vested Powers</Pair>
 <Pair title="Info"><p>Vested powers are abilities that draw on an invested regent's <em>investiture pool.</em> Vested powers are divided into two categories: feats and spells.</p>
 <p>All vested powers have a minimum level requirement to select them. An invested regent who hasn't reached the required monk level cannot select that vested power.</p>
 <p>Most vested powers require the invested regent to spend <em>investiture points;</em> the exact amount is listed after the vested power. Vested powers that cost 0 <em>investiture points</em> don't require the invested regent to have any <em>investiture points</em> in his <em>investiture pool</em> to use the ability. The saving throw against an invested regent's vested power, if any, is equal to 10 + 1/2 the invested regent's monk level + his Charisma bonus.</p>
@@ -1004,8 +1004,8 @@ const _invested_regent_uc = {hasJL:true,title: "Invested Regent (Unchained)", to
 <Pair title="At 14th Level">He can select a 4th vested power.</Pair>
 <Pair title="At 18th Level">He can select a 5th vested power.</Pair>
 </Ability>
-<Ability id="arc-monk-invested_regent_uc-vested-powers" extraClasses="hasSubs" icon={["info"]}>
-<Pair single id="arc-monk-invested_regent_uc-vested-powers">Vested Powers</Pair>
+<Ability id="vested-powers" extraClasses="hasSubs" icon={["info"]}>
+<Pair single id="vested-powers">Vested Powers</Pair>
 <Pair title="Info"><p>Vested powers are abilities that draw on an invested regent's <em>investiture pool.</em> Vested powers are divided into two categories: feats and spells.</p>
 <p>All vested powers have a minimum level requirement to select them. An invested regent who hasn't reached the required monk level cannot select that vested power.</p>
 <p>Most vested powers require the invested regent to spend <em>investiture points;</em> the exact amount is listed after the vested power. Vested powers that cost 0 <em>investiture points</em> don't require the invested regent to have any <em>investiture points</em> in his <em>investiture pool</em> to use the ability. The saving throw against an invested regent's vested power, if any, is equal to 10 + 1/2 the invested regent's monk level + his Charisma bonus.</p>
@@ -1459,8 +1459,8 @@ const _kata_master = {title: "Kata Master", jsx: <><h2 id="arc-monk-kata_master-
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">A kata master gains the <Link to="/class/swashbuckler">swashbuckler's</Link> <em>panache</em> class ability. At the start of each day, a kata master gains a number of <em>panache</em> points equal to her Charisma bonus (minimum 1). Her <em>panache</em> goes up or down throughout the day, but usually cannot go higher than his Charisma bonus (minimum 1). A kata master gains the swashbuckler's <Link to="/swashdeed/derring_do">derring-do</Link> and <Link to="/swashdeed/dodging_panache">dodging panache</Link> deeds. A kata master can use an unarmed strike or monk special weapon in place of a light or one-handed piercing melee weapon for granted swashbuckler class features and deeds.</Pair>
 </Ability>
-<Ability id="arc-monk-kata_master-panache-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
-<Pair single id="arc-monk-kata_master-panache-ex" flavor="Text from the swashbuckler class">Panache (Ex)</Pair>
+<Ability id="panache-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="panache-ex" flavor="Text from the swashbuckler class">Panache (Ex)</Pair>
 <Pair title="Ability"><p>You spend panache to accomplish deeds, and regain panache in the following ways.</p>
 <p>Each time you confirm a critical hit with a light or one-handed piercing melee weapon, you regain 1 panache point. Confirming a critical hit on a <Link to="/misc/helpless">helpless</Link> or unaware creature or a creature that has fewer Hit Dice than <Link to="/misc/half">half</Link> your character level doesn't restore panache.</p>
 <p>When you reduce a creature to 0 or fewer hit points with a light or one-handed piercing melee weapon attack while in combat, you regain 1 panache point. Destroying an unattended object, reducing a helpless or unaware creature to 0 or fewer hit points, or reducing a creature that has fewer Hit Dice than half your character level to 0 or fewer hit points doesn't restore any panache.</p>

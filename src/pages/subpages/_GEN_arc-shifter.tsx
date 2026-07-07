@@ -133,8 +133,8 @@ const _dragonblood_shifter = {title: "Dragonblood Shifter", jsx: <><h2 id="arc-s
 <Pair single id="dragon-attacks">Dragon Attacks</Pair>
 <Pair title="Ability">A shifter that uses <strong className="hl">alternate natural attacks</strong> can choose from Bite (B, P, S), Tail slap (B), or Wing (B).</Pair>
 </Ability>
-<Ability id="arc-shifter-dragonblood_shifter-draconic-aspect-su" icon={["armor-upgrade","stairs-goal","tornado-discs"]}>
-<Pair single id="arc-shifter-dragonblood_shifter-draconic-aspect-su">Draconic Aspect (Su)</Pair>
+<Ability id="draconic-aspect-su" icon={["armor-upgrade","stairs-goal","tornado-discs"]}>
+<Pair single id="draconic-aspect-su">Draconic Aspect (Su)</Pair>
 <Pair hl title="Replaces">Shifter aspect</Pair>
 <Pair title="Usage">3 minutes/day + 1 minute per shifter level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
 <Pair title="Swift Action"><p>A dragonblood shifter can temporarily imbue her body with draconic majesty. When activating this ability, the shifter must select one of the chromatic or metallic dragon types from the table below. Her draconic aspect abilities grant resistances and deal a type of damage based on the chosen dragon type. While shifted into this form, she gains the <Link to="/umr/scent">scent</Link> ability and energy <Link to="/umr/resistance">resistance</Link> 5 against the energy type that corresponds to her selected dragon type.</p>
@@ -596,8 +596,8 @@ const _rageshaper = {title: "Rageshaper", jsx: <><h2 id="arc-shifter-rageshaper-
 <Pair hl title="Alters">Alignment</Pair>
 <Pair title="Info">A rageshaper can be any nonlawful alignment. A rageshaper who becomes lawful cannot take any further levels in rageshaper, but he does not lose access to any rageshaper abilities he has already gained.</Pair>
 </Ability>
-<Ability id="arc-shifter-rageshaper-devastating-form-su" extraClasses="hasSubs" icon={["upgrade"]}>
-<Pair single id="arc-shifter-rageshaper-devastating-form-su">Devastating Form (Su)</Pair>
+<Ability id="devastating-form-su" extraClasses="hasSubs" icon={["upgrade"]}>
+<Pair single id="devastating-form-su">Devastating Form (Su)</Pair>
 <Pair hl title="Replaces">Wild shape, shifter aspect</Pair>
 <Pair title="Ability"><p>A rageshaper can enter a state of intense fury, transforming into a living engine of destruction. This ability functions as the <Link to="/class/barbarian">barbarian's</Link> <em>rage</em> class feature, except entering this state of fury requires a <strong className="hl">full-round action</strong> that provokes attacks of opportunity and has additional effects as noted below. At the start of the rageshaper's next turn, he not only gains the benefit of <em>rage</em> but also grows one size category larger (though worn equipment and held items do not increase in size).</p>
 <p>Armor or clothing the rageshaper wears that doesn't accommodate his changing size immediately gains the <Link to="/misc/broken">broken</Link> condition. If insufficient room is available to accommodate this change, the rageshaper attains the maximum possible size for the available space and can attempt a Strength check (using his increased Strength) to burst any enclosures in the process. If the check fails, he is constrained but not harmed by the materials enclosing him.</p>
@@ -793,8 +793,8 @@ const _swarm_shifter = {title: "Swarm Shifter", jsx: <><h2 id="arc-shifter-swarm
 <Pair single id="crawling">Crawling</Pair>
 <Pair title="Ability">The swarm shifter gains <Link to="/umr/tremorsense">tremorsense</Link> with a range of 60 feet and a +4 bonus on Perception checks.</Pair>
 </Ability>
-<Ability id="arc-shifter-swarm_shifter-flying" extraClasses="subAbility" icon={["mailed-fist"]}>
-<Pair single id="arc-shifter-swarm_shifter-flying">Flying</Pair>
+<Ability id="flying" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="flying">Flying</Pair>
 <Pair title="Ability"><p>The swarm shifter's claws change to venomous stingers that deliver poison on each attack.</p>
 <AffInfo type="Poison; Claw-injury" save="Fort 10 + 1/2 the swarm shifter's level + her Con modifier" freq="1/round for 6 rounds" eff={<>1d3 <Link to="/rule/dex_damage">Dex damage</Link></>} cure2c icon="p" />
 </Pair>

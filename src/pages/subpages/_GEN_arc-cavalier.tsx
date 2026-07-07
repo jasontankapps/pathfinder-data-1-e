@@ -11,8 +11,8 @@ const _beast_rider = {title: "Beast Rider", jsx: <><h2 id="arc-cavalier-beast_ri
 <Pair single id="armor-proficiency">Armor Proficiency</Pair>
 <Pair title="Info">A beast rider is proficient with light and medium armor, and with shields (with the exception of tower shields).</Pair>
 </Ability>
-<Ability id="arc-cavalier-beast_rider-exotic-mount-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-cavalier-beast_rider-exotic-mount-ex">Exotic Mount (Ex)</Pair>
+<Ability id="exotic-mount-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="exotic-mount-ex">Exotic Mount (Ex)</Pair>
 <Pair hl title="Replaces">Mount, expert trainer</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>A beast rider forms a bond with a strong, loyal companion that permits him to ride it as a mount. This mount functions as a druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using the beast rider's level as his effective druid level. The animal chosen as a mount must be large enough to carry the beast rider (Medium or Large for a Small character; Large or Huge for a Medium character).</p>
@@ -60,8 +60,8 @@ const _castellan = {title: "Castellan", jsx: <><h2 id="arc-cavalier-castellan-ca
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">The castellan forms a bond with an <Link to="/sidekick/animal_companion">animal companion</Link> that serves as a guard. While most castellans select birds or canines, the castellan can choose any animal companions available to <Link to="/class/ranger">rangers</Link>. This ability functions like the <Link to="/class/druid">druid</Link> <em>nature bond</em> ability, except that the castellan's effective druid level is equal to his cavalier level - 3 and his animal companion doesn't gain the <em>share spells</em> special ability.</Pair>
 </Ability>
-<Ability id="arc-cavalier-castellan-ranger-animal-companions" extraClasses="subAbility" icon={["stairs-goal"]}>
-<Pair single id="arc-cavalier-castellan-ranger-animal-companions">Ranger Animal Companions</Pair>
+<Ability id="ranger-animal-companions" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="ranger-animal-companions">Ranger Animal Companions</Pair>
 <Pair title="Choice"><div className="columnar">
 <ul>
 <li><Link to="/companion/antelope">Antelope</Link></li>
@@ -172,8 +172,8 @@ const _circuit_judge = {title: "Circuit Judge", jsx: <><h2 id="arc-cavalier-circ
 <Pair title="At 9th Level">The circuit judge can select another community within the range in which she gains this ability's bonus. She can measure from that community (as well as previous communities) to determine whether she gains this ability's bonus on the relevant skill checks.</Pair>
 <Pair title="At 17th Level">The circuit judge can select a third community within the range, following the above restrictions and gaining the above's benefits.</Pair>
 </Ability>
-<Ability id="arc-cavalier-circuit_judge-sentence-ex" icon={["stairs-goal","upgrade","broken-shield"]}>
-<Pair single id="arc-cavalier-circuit_judge-sentence-ex">Sentence (Ex)</Pair>
+<Ability id="sentence-ex" icon={["stairs-goal","upgrade","broken-shield"]}>
+<Pair single id="sentence-ex">Sentence (Ex)</Pair>
 <Pair hl title="Replaces">Challenge</Pair>
 <Pair title="Usage">Twice per day at 1st level, plus two additional times per day for every 3 cavalier levels beyond 1st, to a maximum of 14 times per day at 19th level.</Pair>
 <Pair title="Swift Action"><p>The circuit judge can choose one target within sight to <em>sentence.</em><sup><InnerLink showBacklink="backlink-arc-cavalier-circuit_judge-fake-fn-1" id="arc-cavalier-circuit_judge-fake-fn-1" data-hash-target to="arc-cavalier-circuit_judge-fake-fn-1-target">1</InnerLink></sup> The circuit judge gains the potential for a variety of bonuses related to that target. The circuit judge chooses the form of these benefits from the following list of inquisitor <Link to="/ability/judgments">judgments</Link>: destruction, justice, protection, purity, or smiting.</p>
@@ -292,8 +292,8 @@ const _daring_champion = {title: "Daring Champion", jsx: <><h2 id="arc-cavalier-
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability">A daring champion gains the <Link to="/class/swashbuckler">swashbuckler's</Link> <em>panache</em> class feature, along with the following swashbuckler deeds: <Link to="/swashdeed/dodging_panache">dodging panache</Link>, <Link to="/swashdeed/precise_strike">precise strike</Link>, and <Link to="/swashdeed/swashbuckler_initiative">swashbuckler initiative</Link>.</Pair>
 </Ability>
-<Ability id="arc-cavalier-daring_champion-panache-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
-<Pair single id="arc-cavalier-daring_champion-panache-ex" flavor="Text from the swashbuckler class">Panache (Ex)</Pair>
+<Ability id="panache-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="panache-ex" flavor="Text from the swashbuckler class">Panache (Ex)</Pair>
 <Pair title="Ability"><p>You spend panache to accomplish deeds, and regain panache in the following ways.</p>
 <p>Each time you confirm a critical hit with a light or one-handed piercing melee weapon, you regain 1 panache point. Confirming a critical hit on a <Link to="/misc/helpless">helpless</Link> or unaware creature or a creature that has fewer Hit Dice than <Link to="/misc/half">half</Link> your character level doesn't restore panache.</p>
 <p>When you reduce a creature to 0 or fewer hit points with a light or one-handed piercing melee weapon attack while in combat, you regain 1 panache point. Destroying an unattended object, reducing a helpless or unaware creature to 0 or fewer hit points, or reducing a creature that has fewer Hit Dice than half your character level to 0 or fewer hit points doesn't restore any panache.</p>
@@ -314,8 +314,8 @@ const _daring_champion = {title: "Daring Champion", jsx: <><h2 id="arc-cavalier-
 </>};
 const _daring_general = {title: "Daring General", jsx: <><h2 id="arc-cavalier-daring_general-daring-general">Daring General</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 24</Link><br/>Most cavaliers are great tacticians, but some stand above the rest for their ability to lead troops under their command, and inspire them to great accomplishments. Those cavaliers most gifted at command often become daring generals.</p>
-<Ability id="arc-cavalier-daring_general-aides-de-camp-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-cavalier-daring_general-aides-de-camp-ex">Aides-de-Camp (Ex)</Pair>
+<Ability id="aides-de-camp-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="aides-de-camp-ex">Aides-de-Camp (Ex)</Pair>
 <Pair hl title="Replaces">Bonus feats gained at 6th, 12th, and 18th levels</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability"><p>A daring general gains a modified version of the <Link to="/feat/leadership">Leadership</Link> feat, even if he doesn't meet the prerequisites. All followers that the daring general gains as a result of this version of the Leadership feat can only have levels in the <Link to="/npcclass/warrior">warrior</Link> class.</p>
@@ -463,8 +463,8 @@ const _emissary = {title: "Emissary", jsx: <><h2 id="arc-cavalier-emissary-emiss
 </>};
 const _esquire = {title: "Esquire", jsx: <><h2 id="arc-cavalier-esquire-esquire">Esquire</h2>
 <p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions pg. 30</Link><br/>The esquire is a roving knight who acquires the services of a faithful follower - an aide-de-camp-who serves as the esquire's assistant, spear carrier, and guard.</p>
-<Ability id="arc-cavalier-esquire-aide-de-camp-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-cavalier-esquire-aide-de-camp-ex">Aide-de-Camp (Ex)</Pair>
+<Ability id="aide-de-camp-ex" icon={["stairs-goal"]}>
+<Pair single id="aide-de-camp-ex">Aide-de-Camp (Ex)</Pair>
 <Pair hl title="Replaces">Mount</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability"><p>An esquire acquires the services of a loyal aide-de-camp. This NPC functions similarly to a cohort (as the <Link to="/feat/leadership">Leadership</Link> feat), though the aide-de-camp must advance in a class that grants proficiency with all martial weapons and cannot multiclass until the esquire reaches 7th level (though the aide-de-camp can select an archetype). If the aide-de-camp is a cavalier, he must follow the same order as the esquire.</p>
@@ -614,8 +614,8 @@ const _gendarme = {title: "Gendarme", jsx: <><h2 id="arc-cavalier-gendarme-genda
 </>};
 const _ghost_rider = {title: "Ghost Rider", jsx: <><h2 id="arc-cavalier-ghost_rider-ghost-rider">Ghost Rider</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 117</Link><br/>Ghost riders are conflicted warriors who use the powers of the phantasmal dead even while seeking out and banishing the corruption of undeath from plagued communities. Their strange abilities mark them as outsiders and stoic loners, and they stay in one place only long enough to help the afflicted before riding off to unknown destinations.</p>
-<Ability id="arc-cavalier-ghost_rider-ghost-mount-su" icon={["stairs-goal"]}>
-<Pair single id="arc-cavalier-ghost_rider-ghost-mount-su">Ghost Mount (Su)</Pair>
+<Ability id="ghost-mount-su" icon={["stairs-goal"]}>
+<Pair single id="ghost-mount-su">Ghost Mount (Su)</Pair>
 <Pair hl title="Replaces">Mount</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>A ghost rider gains the ability to manifest a special mount of conjured ectoplasm rather than one of flesh and bone. This spectral companion functions like a spiritualist's <Link to="/sidekick/phantom">phantom</Link> companion, using the ghost rider's cavalier level as her effective <Link to="/class/spiritualist">spiritualist</Link> level. The phantom takes the form of a ghostly creature analogous to one of a cavalier's normal mount options for her size and class level, such as a Large horse for a Medium ghost rider or a wolf for a Small ghost rider. A ghost rider must choose a mount that is capable of bearing her weight, that has four or more legs, and that lacks a fly speed (although the GM may allow mounts with a swim speed in certain environments). The GM might approve other animals as suitable mounts.</p>
@@ -797,8 +797,8 @@ const _huntmaster = {title: "Huntmaster", jsx: <><h2 id="arc-cavalier-huntmaster
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Info">A huntmaster is not proficient with heavy armor. Huntmasters are proficient with all simple and martial weapons, plus the <Link to="/eq-weapon/net">net</Link> and <Link to="/eq-weapon/whip">whip</Link>.</Pair>
 </Ability>
-<Ability id="arc-cavalier-huntmaster-hunting-pack-ex" icon={["stairs-goal","upgrade"]}>
-<Pair single id="arc-cavalier-huntmaster-hunting-pack-ex">Hunting Pack (Ex)</Pair>
+<Ability id="hunting-pack-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="hunting-pack-ex">Hunting Pack (Ex)</Pair>
 <Pair hl title="Replaces">Mount</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>A huntmaster forms a close bond with an animal companion. This animal companion functions as a druid's <Link to="/ability/animal_companion">animal companion</Link>, using the cavalier's level as his effective druid level. He can choose either a <Link to="/companion/bird">bird</Link> or a <Link to="/companion/dog">dog</Link> when selecting his animal companion.</p>
@@ -1158,8 +1158,8 @@ const _saurian_champion = {title: "Saurian Champion", jsx: <><h2 id="arc-cavalie
 <Pair hl title="Replaces">Order</Pair>
 <Pair title="Info">A saurian champion hails from primeval lands where the civilized orders hold little sway. He does not select an <em>order</em> or gain any <em>order</em>-related benefits.</Pair>
 </Ability>
-<Ability id="arc-cavalier-saurian_champion-dinosaur-mount-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-cavalier-saurian_champion-dinosaur-mount-ex">Dinosaur Mount (Ex)</Pair>
+<Ability id="dinosaur-mount-ex" icon={["stairs-goal"]}>
+<Pair single id="dinosaur-mount-ex">Dinosaur Mount (Ex)</Pair>
 <Pair hl title="Replaces">Tactician, greater tactician, master tactician</Pair>
 <Pair hl title="Alters">Mount</Pair>
 <Pair title="Ability"><p>A saurian champion bonds with a dinosaur companion that willingly serves as his mount. This mount functions as a cavalier's normal mount with the following adjustments:</p>
@@ -1216,8 +1216,8 @@ const _sister_in_arms = {title: "Sister-in-Arms", jsx: <><h2 id="arc-cavalier-si
 <Pair hl title="Alters">Challenge</Pair>
 <Pair title="Info">Sisters-in-arms vigilantly protect their allies, weakening their focus on their challenged foe. A sister-in-arms adds only <Link to="/misc/half">half</Link> her cavalier level (minimum 1) to damage rolls against her <em>challenge</em> target.</Pair>
 </Ability>
-<Ability id="arc-cavalier-sister_in_arms-maidens-order-ex" icon={["info","stairs-goal"]}>
-<Pair single id="arc-cavalier-sister_in_arms-maidens-order-ex">Maiden's Order (Ex)</Pair>
+<Ability id="maidens-order-ex" icon={["info","stairs-goal"]}>
+<Pair single id="maidens-order-ex">Maiden's Order (Ex)</Pair>
 <Pair hl title="Replaces">Mount</Pair>
 <Pair hl title="Alters">Order</Pair>
 <Pair title="Ability"><p>All sisters-in-arms share a talent for aiding and inspiring their fellow Gray Maidens, strengthened by training and the bond of sisterhood. Generally, those loyal to Queen Ileosa refer to their pledge as the <em>order of the fanged crown,</em> while those who have forsaken the cruel queen call it the <em>order of the scarlet rose.</em> In either case, the benefits are the same.</p>
@@ -1371,8 +1371,8 @@ const _strategist = {title: "Strategist", jsx: <><h2 id="arc-cavalier-strategist
 </>};
 const _verdivant = {title: "Verdivant", jsx: <><h2 id="arc-cavalier-verdivant-verdivant">Verdivant</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 15</Link><br/>Some <Link to="/race/vine_leshy">vine leshy</Link> spirits are vibrant enough to project this animus beyond their own bodies. Called verdivants, these leshys explore the world atop unique companions formed from the leshy's vines and animated by their nearly boundless energy. Both mount and rider brim with new growth, sporting bright flowers, whipping tendrils, clouds of pollen, and other manifestations charged with nature's power. This archetype is typically available only to vine leshys, but with the GM's permission, other races can take it as well.</p>
-<Ability id="arc-cavalier-verdivant-plant-mount-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-cavalier-verdivant-plant-mount-ex">Plant Mount (Ex)</Pair>
+<Ability id="plant-mount-ex" icon={["stairs-goal"]}>
+<Pair single id="plant-mount-ex">Plant Mount (Ex)</Pair>
 <Pair hl title="Replaces">Expert trainer</Pair>
 <Pair hl title="Alters">Mount</Pair>
 <Pair title="Ability"><p>A verdivant buds off and cultivates his vines into an animal form, imbuing them with limited intelligence. The verdivant selects a mount appropriate for his size as normal, but this mount is a plant with the <Link to="/subtype/leshy">leshy</Link> subtype and has the same immunities as a vine leshy.</p>
@@ -1440,8 +1440,8 @@ const _verdivant = {title: "Verdivant", jsx: <><h2 id="arc-cavalier-verdivant-ve
 </>};
 const _vermin_tamer = {title: "Vermin Tamer", jsx: <><h2 id="arc-cavalier-vermin_tamer-vermin-tamer">Vermin Tamer</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 17</Link><br/>Due to the strange terrain, the lack of sunlight, and numerous other hazards, keeping a traditional mount in the Darklands can prove difficult. Cavaliers native to or traveling the region may choose to tame local creatures instead. Those who can overcome their revulsion and distrust of Sekamina's strange fauna often find that such partnerships with native creatures serve both rider and mount well. While these mounts may be harder to handle than typical mounts, their versatility and adaptations prove indispensable.</p>
-<Ability id="arc-cavalier-vermin_tamer-darklands-mount-ex" icon={["stairs-goal"]}>
-<Pair single id="arc-cavalier-vermin_tamer-darklands-mount-ex">Darklands Mount (Ex)</Pair>
+<Ability id="darklands-mount-ex" icon={["stairs-goal"]}>
+<Pair single id="darklands-mount-ex">Darklands Mount (Ex)</Pair>
 <Pair hl title="Alters">Mount</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>A vermin tamer chooses a creature native to the Darklands as his mount. This functions as a cavalier's mount. He can choose a <Link to="/companion/giant_beetle">giant beetle</Link>, <Link to="/companion/giant_centipede">giant centipede</Link>, <Link to="/companion/giant_gecko">giant gecko</Link>, <Link to="/companion/giant_slug">giant slug</Link>, or <Link to="/companion/giant_spider">giant spider</Link> as his mount. These mounts (except the giant gecko) and the rules for vermin companions are detailed <Link to="/ability/druid_companions">here, under Vermin Companions</Link>.</p>

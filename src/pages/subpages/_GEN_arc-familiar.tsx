@@ -304,8 +304,8 @@ const _occult_messenger = {title: "Occult Messenger", jsx: <><h2 id="arc-familia
 </>};
 const _parasite = {title: "Parasite", jsx: <><h2 id="arc-familiar-parasite-parasite">Parasite</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 21</Link><br/>Most familiars are still something akin to normal animals, conduits for power rather than powers themselves. The parasite is one of the more disturbing exceptions.</p>
-<Ability id="arc-familiar-parasite-infest-su" icon={["stairs-goal"]}>
-<Pair single id="arc-familiar-parasite-infest-su">Infest (Su)</Pair>
+<Ability id="infest-su" icon={["stairs-goal"]}>
+<Pair single id="infest-su">Infest (Su)</Pair>
 <Pair hl title="Replaces">Improved evasion, share spells</Pair>
 <Pair title="Full-Round Action"><p>A parasite can infest a willing or helpless target at least two size categories larger than the parasite. This deals 1d6 points of <Link to="/rule/constitution_damage">Constitution damage</Link> as the parasite burrows through viscera before attaching itself to the target's brain or spinal cord (or equivalent). There, the parasite curls up, with no ability to see or hear anything itself, but with access to its host's senses.</p>
 <p>Despite the gaping wound, this process is curiously painless. Assuming that the location of the wound and the resultant blood is not obvious (most parasites infest from the back for this reason), the victim must succeed at a Heal or Sense Motive check opposed by the familiar's Bluff check to notice that something is amiss.</p>

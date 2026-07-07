@@ -228,8 +228,8 @@ const _bold_schemer = {title: "Bold Schemer", jsx: <><h2 id="arc-skald-bold_sche
 <Pair hl title="Alters">Bardic knowledge</Pair>
 <Pair title="Info">A bold schemer's <em>bardic knowledge</em> does not apply to Knowledge (arcana), Knowledge (dungeoneering), or Knowledge (planes).</Pair>
 </Ability>
-<Ability id="arc-skald-bold_schemer-skald-of-twists-and-turns-su" icon={["upgrade"]}>
-<Pair single id="arc-skald-bold_schemer-skald-of-twists-and-turns-su" flavor="A bold schemer becomes increasingly adept at infiltration and devising cunning strategies to overcome enemy fortifications.">Skald of Twists and Turns (Su)</Pair>
+<Ability id="skald-of-twists-and-turns-su" icon={["upgrade"]}>
+<Pair single id="skald-of-twists-and-turns-su" flavor="A bold schemer becomes increasingly adept at infiltration and devising cunning strategies to overcome enemy fortifications.">Skald of Twists and Turns (Su)</Pair>
 <Pair hl title="Replaces">Uncanny dodge, improved uncanny dodge, damage reduction</Pair>
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Ability"><p>A bold schemer can spend 8 hours observing a physical location (such as a fortress, a walled city, or perhaps even a section of an underground dungeon or cavern complex), contemplating methods to infiltrate the location and engage its defenders in battle in ways that subvert their defensive advantages.</p>
@@ -317,8 +317,8 @@ const _elegist = {title: "Elegist", jsx: <><h2 id="arc-skald-elegist-elegist">El
 <Pair title="Ability">By using music, oration, and similar performances, an elegist can call forth a physical manifestation of the sorrow of his tales. This functions as a <Link to="/class/spiritualist">spiritualist's</Link> phantom with the <Link to="/emotionalfocus/despair">despair</Link> focus. He can manifest his melancholic apparition as a <strong className="hl">standard action</strong> and dismiss it as a <strong className="hl">free action</strong>. The <Link to="/sidekick/phantom">phantom</Link> appears adjacent to the skald and can act immediately. The melancholic apparition is immediately dismissed if the elegist is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a <strong className="hl">free action</strong> each round to maintain the performance that keeps the phantom manifested.</Pair>
 <Pair title="Special">Unlike a spiritualist's phantom, a melancholic apparition can't be harbored in the elegist's consciousness. When manifested, the melancholic apparition has the same number of hit points it had when previously manifested that day. It regains all of its hit points when the elegist regains his spells for the day. If the melancholic apparition is slain, the elegist can manifest it again in the same day by spending a number of additional rounds of this ability equal to <Link to="/misc/half">half</Link> his skald level (minimum 1); the melancholic apparition returns with half its normal total of hit points.</Pair>
 </Ability>
-<Ability id="arc-skald-elegist-phantom" extraClasses="subAbility" icon={["stairs-goal"]}>
-<Pair single id="arc-skald-elegist-phantom" flavor="Relevant text from the spiritualist ability.">Phantom</Pair>
+<Ability id="phantom" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="phantom" flavor="Relevant text from the spiritualist ability.">Phantom</Pair>
 <Pair title="Ability"><p>You can manifest the phantom as an ectoplasmic or incorporeal entity. A phantom has the same alignment as you, and it can speak all the languages you can. Each phantom has an <Link to="/ability/emotional_focus">emotional focus</Link> - a powerful emotion based on some experience in life that keeps it tethered to the Material and Ethereal planes. This emotional focus also grants the phantom abilities that it can use while manifested. The type of each ability and its power are determined by your level. The emotional focus determines which bonus skill ranks the phantom gains. It also determines the saving throws of the manifested phantom and the special abilities the phantom gains as it increases in level.</p>
 <p>The phantom does not heal naturally, and can be healed only with magic or by being tended to with the Heal skill while fully manifested in ectoplasmic form. If the phantom is banished to the Ethereal Plane, it can't manifest again for 24 hours.</p>
 <p>While fully manifested, a phantom can't be returned to the Ethereal Plane by means of <Link to="/spell/dispel_magic">dispel magic</Link>, but spells such as <Link to="/spell/dismissal">dismissal</Link> and <Link to="/spell/banishment">banishment</Link> work normally.</p>
@@ -393,8 +393,8 @@ const _herald_of_the_horn = {title: "Herald of the Horn", jsx: <><h2 id="arc-ska
 <Pair single id="arcane" flavor="Relevant text from the sorcerer bloodline.">Arcane</Pair>
 <Pair title="Ability">Your sorcerer levels stack with any wizard levels you possess when determining the powers of your bonded object. Once per day, your bonded item allows you to cast any one of your spells known (unlike a wizard's bonded item, which allows him to cast any one spell in his spellbook).</Pair>
 </Ability>
-<Ability id="arc-skald-herald_of_the_horn-bonded-object" extraClasses="subAbility" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="arc-skald-herald_of_the_horn-bonded-object" flavor="Relevant text from the wizard ability.">Bonded Object</Pair>
+<Ability id="bonded-object" extraClasses="subAbility" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="bonded-object" flavor="Relevant text from the wizard ability.">Bonded Object</Pair>
 <Pair title="Ability"><p>You begin play with a bonded object at no cost. This object is always masterwork quality. If you attempt to cast a spell without your bonded object in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
 <p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities.</p>
 <p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>
@@ -526,8 +526,8 @@ const _red_tongue = {title: "Red Tongue", jsx: <><h2 id="arc-skald-red_tongue-re
 </>};
 const _serpent_herald = {title: "Serpent Herald", jsx: <><h2 id="arc-skald-serpent_herald-serpent-herald">Serpent Herald</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 28</Link><br/>Warrior bands devoted to <Link to="/faith/ragadahn">Ragadahn</Link> are often led by a serpent herald, whose deep roars shake the earth itself. Rumors tell of waves of snakes slithering forth from their nests in awe as these bellowing commanders take on serpentine features.</p>
-<Ability id="arc-skald-serpent_herald-serpentine-rage-su" icon={["upgrade","armor-upgrade","stairs-goal","mailed-fist"]}>
-<Pair single id="arc-skald-serpent_herald-serpentine-rage-su">Serpentine Rage (Su)</Pair>
+<Ability id="serpentine-rage-su" icon={["upgrade","armor-upgrade","stairs-goal","mailed-fist"]}>
+<Pair single id="serpentine-rage-su">Serpentine Rage (Su)</Pair>
 <Pair hl title="Replaces">Rage power gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability"><p>A serpent herald can call down Ragadahn's features onto his allies. Allies affected by the serpent herald's <em>inspired rage</em> ability gain a serpentine aspect of the serpent herald's choice (all affected allies gain the same aspect). The serpent herald may choose from the following aspects:</p>
@@ -571,8 +571,8 @@ const _spell_warrior = {title: "Spell Warrior", jsx: <><h2 id="arc-skald-spell_w
 <Pair single id="weapon-song-su">Weapon Song (Su)</Pair>
 <Pair title="Ability">A spell warrior gains the following <em>raging song,</em> allowing him to grant his ally's weapons enhancement bonuses and special powers.</Pair>
 </Ability>
-<Ability id="arc-skald-spell_warrior-enhance-weapons-su" extraClasses="subAbility" icon={["upgrade"]}>
-<Pair single id="arc-skald-spell_warrior-enhance-weapons-su">Enhance Weapons (Su)</Pair>
+<Ability id="enhance-weapons-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="enhance-weapons-su">Enhance Weapons (Su)</Pair>
 <Pair hl title="Replaces">Inspired rage</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>The spell warrior can grant an enhancement bonus to the weapons (including ammunition) of allies within 60 feet. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of his skald level. The maximum bonus gained is based upon the number of weapons affected: +5 to one weapon, +4 to two weapons, +3 to three weapons, or +2 to four or more weapons. Fifty pieces of ammunition count as one weapon for this purpose. The wielder of a weapon enhanced by this <em>raging song</em> counts as if he were under the effect of an <em>inspired rage raging song</em> for all purposes involving the skald's rage powers.</p>

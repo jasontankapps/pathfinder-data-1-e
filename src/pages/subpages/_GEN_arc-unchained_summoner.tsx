@@ -77,8 +77,8 @@ const _devil_binder = {title: "Devil Binder", jsx: <><h2 id="arc-unchained_summo
 <Pair single id="smite-chaos-su" flavor="Text from the hellknight class ability.">Smite Chaos (Su)</Pair>
 <Pair title="Ability">This ability functions as the paladin's <em>smite evil</em> class feature but against chaotic-aligned creatures. This ability is twice as effective against outsiders with the chaotic subtype, chaotic-aligned aberrations, and fey.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-devil_binder-smite-evil-su" extraClasses="subAbility" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="arc-unchained_summoner-devil_binder-smite-evil-su" flavor="Relevant text from the paladin class ability.">Smite Evil (Su)</Pair>
+<Ability id="smite-evil-su" extraClasses="subAbility" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="smite-evil-su" flavor="Relevant text from the paladin class ability.">Smite Evil (Su)</Pair>
 <Pair title="Swift Action"><p>You can call out to the powers of good to aid you in your struggle against evil, choosing one target within sight to smite. If you target a creature that is not evil, the smite is wasted with no effect.</p>
 <p>If this target is evil, you add your Charisma bonus (if any) on your attack rolls and add your paladin level to all damage rolls made against the target of your smite. If the target of <em>smite evil</em> is an <Link to="/type/outsider">outsider</Link> with the <Link to="/subtype/evil">evil</Link> subtype, an evil-aligned <Link to="/type/dragon">dragon</Link>, an <Link to="/type/undead">undead</Link> creature, or a creature with levels in <Link to="/class/antipaladin">antipaladin</Link>, the bonus to damage on the first successful attack increases to 2 points of damage per paladin level. Regardless of the target, <em>smite evil</em> attacks automatically bypass any DR the creature might possess.</p>
 <p>In addition, while <em>smite evil</em> is in effect, you gain a deflection bonus equal to your Charisma modifier (if any) to your AC against attacks made by the target of the smite.</p>
@@ -142,8 +142,8 @@ const _fey_caller = {title: "Fey Caller", jsx: <><h2 id="arc-unchained_summoner-
 <Pair single id="fey-eidolon">Fey Eidolon</Pair>
 <Pair title="Info">A fey caller's eidolon is still an outsider, and its base statistics don't change, but it also counts as a <Link to="/type/fey">fey</Link>. A fey caller's eidolon has the new subtype below.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-fey_caller-fey" extraClasses="subAbility" icon={["info","stairs-goal","magic-swirl","armor-upgrade"]}>
-<Pair single id="arc-unchained_summoner-fey_caller-fey">Fey</Pair>
+<Ability id="fey" extraClasses="subAbility" icon={["info","stairs-goal","magic-swirl","armor-upgrade"]}>
+<Pair single id="fey">Fey</Pair>
 <Pair title="Description"><p>Fey eidolons are whimsical and mysterious creatures, prone to flights of fancy, odd compulsions, and alien humor. While some creatures from the faerie realms have truly unusual shapes, the ones close enough to the human mind to serve as eidolons tend to look like idealized humanoids with unusual features that set them apart, such as pointed ears or gossamer wings.</p>
 <p>Fey eidolons usually choose to bond with mortals for their own mysterious reasons that vary as much as their disparate temperaments; occasionally, their need may be immediate, such as when a <Link to="/monster/dryad">dryad</Link> whose tree is dying decides to bond with a summoner instead and become something new. On the other hand, a <Link to="/monster/redcap">redcap</Link> just looking for bloodshed might connect with an equally sadistic summoner. Whatever their reasons, they tend to have strong bonds of loyalty to their summoners entangled with equally strong emotional attachments, even evil fey eidolons.</p>
 </Pair>
@@ -205,8 +205,8 @@ const _leshy_caller = {title: "Leshy Caller", jsx: <><h2 id="arc-unchained_summo
 <Pair single id="type">Type</Pair>
 <Pair title="Info">The eidolon is still an outsider, and its statistics don't change, but it also counts as a plant. As it isn't truly a plant, it doesn't gain the plant immunities.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-leshy_caller-base-form" extraClasses="hasSubs" icon={["info"]}>
-<Pair single id="arc-unchained_summoner-leshy_caller-base-form">Base Form</Pair>
+<Ability id="base-form" extraClasses="hasSubs" icon={["info"]}>
+<Pair single id="base-form">Base Form</Pair>
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Info"><p>The leshy caller chooses one of the base forms listed below for her eidolon. When the eidolon is summoned in an environment matching one of these base forms, the leshy caller can change the eidolon's base form to the matching form by sacrificing one daily use of her <em>summon nature's ally</em> ability as a <strong className="hl">free action</strong>.</p>
 <p>Plant eidolon base forms are as follows.</p>
@@ -267,8 +267,8 @@ const _morphic_savant = {title: "Morphic Savant", jsx: <><h2 id="arc-unchained_s
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Ability">A morphic savant's eidolon must have the <Link to="/eidolon/azata">azata</Link>, <Link to="/eidolon/demon">demon</Link>, or <Link to="/eidolon/protean">protean</Link> subtype. The morphic savant's eidolon has three base forms: biped, quadruped, and serpentine. Each form has the same feats and skills, but has its own set of <Link to="/ability/unchained_evolutions">evolutions</Link>. When the summoner meditates and regains his spell slots for the day, he can select any of the three base forms of his eidolon. The eidolon has 1 fewer evolution point than normal for an eidolon of the morphic savant's summoner level, and has 1 fewer skill point per Hit Die.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-morphic_savant-morphic-monsters" icon={["info","magic-swirl","broken-shield","upgrade"]}>
-<Pair single id="arc-unchained_summoner-morphic_savant-morphic-monsters">Morphic Monsters</Pair>
+<Ability id="morphic-monsters" icon={["info","magic-swirl","broken-shield","upgrade"]}>
+<Pair single id="morphic-monsters">Morphic Monsters</Pair>
 <Pair hl title="Alters">Summon monster</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Info"><p>Since a morphic savant's power is drawn from planar energies aligned with chaos, all the creatures he summons must be of a chaotic alignment. If a creature would normally be celestial or fiendish, it is instead an <Link to="/template/entropic">entropic creature</Link>.</p>
@@ -325,8 +325,8 @@ const _storm_caller = {title: "Storm Caller", jsx: <><h2 id="arc-unchained_summo
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Info">A storm caller must select an eidolon subtype that gains <Link to="/unchevolution/resistance">resistance</Link> or <Link to="/unchevolution/immunity">immunity</Link> to electricity at 1st level, such as the <Link to="/eidolon/elemental">elemental</Link> eidolon or <Link to="/eidolon/genie">genie</Link> eidolon. If the eidolon has neither of these evolutions, it becomes <Link to="/misc/nauseated">nauseated</Link> until it regains one of them.</Pair>
 </Ability>
-<Ability id="arc-unchained_summoner-storm_caller-summon-storms-fury-sp" icon={["broken-shield","magic-swirl","spell-book"]}>
-<Pair single id="arc-unchained_summoner-storm_caller-summon-storms-fury-sp">Summon Storm's Fury (Sp)</Pair>
+<Ability id="summon-storms-fury-sp" icon={["broken-shield","magic-swirl","spell-book"]}>
+<Pair single id="summon-storms-fury-sp">Summon Storm's Fury (Sp)</Pair>
 <Pair hl title="Alters">Summon monster I-IX</Pair>
 <Pair title="Ability"><p>A storm caller can summon creatures infused with the power of the storm to help him. This functions as the summoner's <em>summon monster I-IX</em> abilities, except the storm caller can summon only the following creatures at the indicated spell levels:</p>
 <Block size="tiny">

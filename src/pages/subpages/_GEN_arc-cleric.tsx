@@ -217,8 +217,8 @@ const _crashing_wave = {title: "Crashing Wave", jsx: <><h2 id="arc-cleric-crashi
 <Pair hl title="Alters">Bonus languages</Pair>
 <Pair title="Info">A crashing wave's bonus language options include Aquan in addition to the bonus languages available to the character from her race. The crashing wave does not gain Abyssal, Celestial, or Infernal as bonus language options.</Pair>
 </Ability>
-<Ability id="arc-cleric-crashing_wave-balanced-channel-su" icon={["aura","smoking-finger","remedy"]}>
-<Pair single id="arc-cleric-crashing_wave-balanced-channel-su" flavor="A crashing wave can channel the pure balance of the ocean - its wildness, its calm, its cruelty, and its gentleness.">Balanced Channel (Su)</Pair>
+<Ability id="balanced-channel-su" icon={["aura","smoking-finger","remedy"]}>
+<Pair single id="balanced-channel-su" flavor="A crashing wave can channel the pure balance of the ocean - its wildness, its calm, its cruelty, and its gentleness.">Balanced Channel (Su)</Pair>
 <Pair hl title="Replaces">Channel energy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">3 + Cha modifier times/day</Pair>
@@ -292,8 +292,8 @@ const _demonic_apostle = {title: "Demonic Apostle", jsx: <><h2 id="arc-cleric-de
 </>};
 const _divine_paragon = {title: "Divine Paragon", jsx: <><h2 id="arc-cleric-divine_paragon-divine-paragon">Divine Paragon</h2>
 <p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology pg. 15</Link><br/>Divine paragons strive to emulate their god's ideals as closely as possible. They might see themselves as an incarnation of their deity in the flesh, or they could simply seek to embody the physical and spiritual ideals set forth by their deity. Many divine paragons go as far as to alter their appearance, as best as possible, to look similar to their chosen deity, but such a level of devotion is not required by the archetype.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-cleric-divine_paragon--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A divine paragon is intensely devoted to a single deity, and her alignment must be identical to her deity's alignment.</td></tr></tbody></table></ScrollContainer></div><Ability id="arc-cleric-divine_paragon-devoted-domain" icon={["stairs-goal","upgrade","hazard-sign"]}>
-<Pair single id="arc-cleric-divine_paragon-devoted-domain">Devoted Domain</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-cleric-divine_paragon--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A divine paragon is intensely devoted to a single deity, and her alignment must be identical to her deity's alignment.</td></tr></tbody></table></ScrollContainer></div><Ability id="devoted-domain" icon={["stairs-goal","upgrade","hazard-sign"]}>
+<Pair single id="devoted-domain">Devoted Domain</Pair>
 <Pair hl title="Alters">Domains</Pair>
 <Pair title="Ability"><p>A divine paragon gains <Link to="/feat/deific_obedience">Deific Obedience</Link> as a bonus feat, even if she doesn't meet the feat's prerequisites. She gains access to her boons at an accelerated rate (see below) rather than the standard HD-based rate granted by Deific Obedience (and as such cannot benefit from the accelerated rate granted by the <Link to="/feat/diverse_obedience">Diverse Obedience</Link> feat).</p>
 <p>When the divine paragon selects her domains, she must designate one of the two domains she gains as her devoted domain. She gains all of this domain's granted powers and domain spells normally. For her other domain, she gains only its domain spells - she does not gain any of the granted powers of that domain. Instead, she must choose from the evangelist, exalted, or sentinel boons granted by her deity.</p>
@@ -368,24 +368,24 @@ const _ecclesitheurge = {title: "Ecclesitheurge", jsx: <><h2 id="arc-cleric-eccl
 <Pair single id="blessing-of-the-faithful-su">Blessing of the Faithful (Su)</Pair>
 <Pair title="Standard Action">The ecclesitheurge can bless one ally within close range (25 ft. + 5 ft./2 levels). A blessed ally gains a +2 sacred or profane bonus (depending on whether the ecclesitheurge channels positive or negative energy) on attack rolls, skill checks, ability checks, or saving throws or to AC until the ecclesitheurge's next turn. The ecclesitheurge can expend 1 use of <em>channel energy</em> when activating this ability to increase the duration to a number of rounds equal to the number of dice of his channel energy.</Pair>
 </Ability>
-<Ability id="arc-cleric-ecclesitheurge-domain-mastery" icon={["stairs-goal","magic-swirl"]}>
-<Pair single id="arc-cleric-ecclesitheurge-domain-mastery">Domain Mastery</Pair>
+<Ability id="domain-mastery" icon={["stairs-goal","magic-swirl"]}>
+<Pair single id="domain-mastery">Domain Mastery</Pair>
 <Pair hl title="Alters">The normal domain ability</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>When an ecclesitheurge first chooses his cleric domains, he designates one as his primary domain and the other as his secondary domain. An ecclesitheurge can use his non-domain spell slots to prepare spells from his primary domain's spell list.</p>
 <p>Each day when he prepares spells, an ecclesitheurge can select a different domain granted by his deity to gain access to that domain's spell list instead of his secondary domain spell list. He does not lose access to his actual secondary domain's granted powers or gain access to the other domain's granted powers. For example, an ecclesitheurge of <Link to="/faith/sarenrae">Sarenrae</Link> with <Link to="/domain/glory">Glory</Link> as his primary domain and <Link to="/domain/good">Good</Link> as his secondary domain can choose to gain access to the <Link to="/domain/healing">Healing</Link> domain; until the next time he prepares spells, he uses the Healing domain spell list as his secondary domain spell list instead of the Good domain spell list, but still keeps the granted powers of the Good domain and does not gain the granted powers of the Healing domain.</p>
 </Pair>
 </Ability>
-<Ability id="arc-cleric-ecclesitheurge-bonded-holy-symbol-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-cleric-ecclesitheurge-bonded-holy-symbol-su">Bonded Holy Symbol (Su)</Pair>
+<Ability id="bonded-holy-symbol-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="bonded-holy-symbol-su">Bonded Holy Symbol (Su)</Pair>
 <Pair hl title="Replaces">The increase to channel energy gained at 3rd level</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability"><p>An ecclesitheurge forms a powerful bond with a holy symbol of his deity, which functions identically to a <Link to="/class/wizard">wizard's</Link> <em>bonded object</em> except it can be used to cast cleric and domain spells (instead of wizard spells) and the ecclesitheurge can grant his <em>bonded holy symbol</em> only magic abilities appropriate for a holy symbol or a <Link to="/rule/neck_slot">neck slot</Link> item.</p>
 <p>As with a wizard's <em>bonded item,</em> an ecclesitheurge can add additional magic abilities to his <em>bonded holy symbol</em> as if he had the required item creation feat (typically <Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link>), provided he meets the feat's level prerequisites. For example, an ecclesitheurge with a <em>bonded holy symbol</em> who wants to add a wondrous amulet ability, like <Link to="/magic-wondrous/amulet_of_natural_armor">amulet of natural armor</Link>, to his <em>bonded holy symbol</em> must be at least 3rd level to do so. The magic properties of a <em>bonded holy symbol,</em> including any magic abilities the ecclesitheurge added to the object, function for only the ecclesitheurge. If a <em>bonded holy symbol's</em> owner dies or the item is replaced, the object loses all enhancements the ecclesitheurge added using this ability.</p>
 </Pair>
 </Ability>
-<Ability id="arc-cleric-ecclesitheurge-bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
-<Pair single id="arc-cleric-ecclesitheurge-bonded-object" flavor="Text from the wizard class">Bonded Object</Pair>
+<Ability id="bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="bonded-object" flavor="Text from the wizard class">Bonded Object</Pair>
 <Pair title="Ability"><p>If you select a bonded object, you begin play with one at no cost. These objects are always masterwork quality. If you attempt to cast a spell without your bonded object worn or in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level.</p>
 <p>A bonded object can be used once per day to cast any one spell that you have in your spellbook and are capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by you, including casting time, duration, and other effects dependent on your level. This spell cannot be modified by metamagic feats or other abilities.</p>
 <p>If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. You can designate an existing magic item as your bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.</p>
@@ -474,8 +474,8 @@ const _fiendish_vessel = {title: "Fiendish Vessel", jsx: <><h2 id="arc-cleric-fi
 <Pair title="Info">A fiendish vessel must select the <Link to="/domain/daemon">Daemon</Link>, <Link to="/domain/demon">Demon</Link>, or <Link to="/domain/devil">Devil</Link> subdomain as one of her domain choices, based on the fiendish patron she chooses to serve.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
-<Ability id="arc-cleric-fiendish_vessel-channel-evil-su" icon={["aura"]}>
-<Pair single id="arc-cleric-fiendish_vessel-channel-evil-su">Channel Evil (Su)</Pair>
+<Ability id="channel-evil-su" icon={["aura"]}>
+<Pair single id="channel-evil-su">Channel Evil (Su)</Pair>
 <Pair hl title="Replaces">Channel energy</Pair>
 <Pair title="Standard Action"><p>A fiendish vessel, rather than channeling positive or negative energy, instead channels the pure evil power of her fiendish patron. This ability is similar to channeling negative energy, but instead of healing undead and dealing damage to living creatures, this blast of evil energy automatically heals evil creatures and debilitates good creatures within its burst.</p>
 <p>Channeling this evil causes a <Link to="/misc/burst">burst</Link> that affects all creatures in a 30-foot radius centered on the fiendish vessel. In the case of evil creatures, the amount of damage healed is equal to 1d4 points of damage and increases by 1d4 at every two levels beyond 1st (to a maximum of 10d4 at 19th level). Good creatures in the burst receive a Will saving throw to negate this damage. Good creatures that fail their saving throws are <Link to="/misc/sickened">sickened</Link> for 1d4 rounds. Good creatures with a number of Hit Dice less than or equal to the fiendish vessel's class level - 5 that fail their saving throws are <Link to="/misc/nauseated">nauseated</Link> for 1 round and then sickened for 1d4 rounds instead. The DC of this save is equal to 10 + <Link to="/misc/half">half</Link> the fiendish vessel's level + the fiendish vessel's Charisma bonus. Neutral creatures are unaffected by this burst of evil energy.</p>
@@ -483,8 +483,8 @@ const _fiendish_vessel = {title: "Fiendish Vessel", jsx: <><h2 id="arc-cleric-fi
 </Pair>
 <Pair title="Special">For the purposes of feats that affect channel energy, this ability counts as channeling negative energy. If the feat changes the way the fiendish vessel channels or deals damage with her channeling, use the amount of damage this ability heals evil creatures to determine the damage-dealing potential of the affected ability. For instance, if a 5th-level fiendish vessel takes the <Link to="/feat/channel_smite">Channel Smite</Link> feat, her channeling deals an additional 3d4 points of damage to living creatures on a successful hit (though they may save to negate the damage).</Pair>
 </Ability>
-<Ability id="arc-cleric-fiendish_vessel-fiendish-familiar" extraClasses="hasSubs" icon={["stairs-goal"]}>
-<Pair single id="arc-cleric-fiendish_vessel-fiendish-familiar">Fiendish Familiar</Pair>
+<Ability id="fiendish-familiar" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="fiendish-familiar">Fiendish Familiar</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Ability"><p>A fiendish vessel's patron rewards her with a fiendish servant. The fiendish vessel gains an <Link to="/monster/imp">imp</Link>, <Link to="/monster/quasit">quasit</Link>, or <Link to="/monster/cacodaemon">cacodaemon</Link> <Link to="/ability/familiar">familiar</Link> based on the patron she worships. This ability is identical to the <Link to="/class/wizard">wizard's</Link> arcane bond with a familiar and the <Link to="/feat/improved_familiar">Improved Familiar</Link> feat, using the fiendish vessel's character level in place of the wizard level.</p>
 <p>This tiny fiend acts like a perverse, manifest moral compass. Furthermore, this familiar can act as a living divine focus and unholy symbol for her spellcasting if the fiendish vessel so desires, which means that when she uses her <em>channel evil</em> ability, its burst can be centered on the familiar instead, as long as that familiar is within 30 feet and line of sight. A fiendish vessel's familiar tends to be fawning and subservient to the fiendish vessel. Should her familiar die, the fiendish vessel's patron replaces the familiar with an identical one within 1 week, without the need for a special ritual. Furthermore, the fiendish familiar gains the following special abilities beyond the standard familiar special abilities.</p>
@@ -661,8 +661,8 @@ const _herald_caller = {title: "Herald Caller", jsx: <><h2 id="arc-cleric-herald
 <Pair single id="call-heralds-su" flavor="A herald caller can channel stored spell energy into summoning spells that she hasn't prepared ahead of time.">Call Heralds (Su)</Pair>
 <Pair title="Ability">She can lose a prepared spell in order to cast any <Link to="/spell/summon_monster">summon monster</Link> spell of the same level or lower. She gains a bonus on <Link to="/rule/concentration">concentration</Link> checks to cast a <em>summon monster</em> spell defensively. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> her cleric level.</Pair>
 </Ability>
-<Ability id="arc-cleric-herald_caller-divine-heralds-su" icon={["broken-shield","upgrade"]}>
-<Pair single id="arc-cleric-herald_caller-divine-heralds-su">Divine Heralds (Su)</Pair>
+<Ability id="divine-heralds-su" icon={["broken-shield","upgrade"]}>
+<Pair single id="divine-heralds-su">Divine Heralds (Su)</Pair>
 <Pair title="Ability"><p>A herald caller can use <em>summon monster</em> spells only to summon creatures particularly appropriate to her deity. This includes all creatures listed as <em>summon monster</em> options for priests of her deity, creatures whose alignment matches at least one aspect of her deity's alignment, and creatures of an elemental subtype that matches a domain granted by the deity (if any). When summoning a creature that is normally summoned with the <Link to="/template/celestial">celestial</Link> or <Link to="/template/fiendish">fiendish</Link> template, a herald caller of a chaotic deity can instead summon it with the <Link to="/template/entropic">entropic</Link> template, and a herald caller of a lawful deity can instead summon it with the <Link to="/template/resolute">resolute</Link> template.</p>
 <p>Because of these summoned monsters' strong ties to the herald caller's deity, the herald caller also gains specific benefits with creatures she summons with <em>summon monster</em> spells gained from her cleric spell list. The herald caller and her summoned monsters can understand each other's spoken words as if they shared a common language (though this doesn't give summoned monsters the ability to speak if they normally lack it). Whenever the herald caller uses <em>channel energy</em> to heal, she can include all of her summoned monsters, even if they are out of her normal <em>channel energy</em> radius or of a creature type that would not normally be affected. If she <em>channels energy</em> to deal damage, she can exclude any of her summoned monsters that would normally be affected.</p>
 </Pair>
@@ -675,8 +675,8 @@ const _herald_caller = {title: "Herald Caller", jsx: <><h2 id="arc-cleric-herald
 </>};
 const _hidden_priest = {title: "Hidden Priest", jsx: <><h2 id="arc-cleric-hidden_priest-hidden-priest">Hidden Priest</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 35</Link><br/>Practicing one's religion is not always legal. For example, most lands outlaw worshiping fiends. Taldor has banned the faith of <Link to="/faith/sarenrae">Sarenrae</Link> from being openly worshiped. Rahadoum flat-out forbids all religions within its borders. But as time has shown again and again, mere laws are poor deterrents to the worship of dedicated members of such faiths, whether the zealous wish to subvert authority, free the spirits of the oppressed, or merely enjoy the right to practice their beliefs. Clerics in these circumstances must conceal their true natures, practice their magic in secret, and always be on guard for betrayal and discovery. A hidden priest has the following class features.</p>
-<Ability id="arc-cleric-hidden_priest-false-arcanist-ex" icon={["upgrade"]}>
-<Pair single id="arc-cleric-hidden_priest-false-arcanist-ex">False Arcanist (Ex)</Pair>
+<Ability id="false-arcanist-ex" icon={["upgrade"]}>
+<Pair single id="false-arcanist-ex">False Arcanist (Ex)</Pair>
 <Pair hl title="Replaces">One of the cleric's two 1st-level domain powers (her choice)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>A hidden priest is able to disguise his cleric spellcasting, presenting it as arcane magic of some kind. Typically, this is as alchemist, bard, sorcerer, or wizard magic, and the cleric disguises the words and gestures of the cleric spell with accoutrements appropriate to his apparent profession. He must make a skill check (DC 10 + twice the level of the spell) to disguise his casting and successfully cast the spell. The type of skill check depends on the type of caster he pretends to be: Craft (alchemy) for alchemist, Perform for bard, Knowledge (arcana) for sorcerer or wizard. Using Spellcraft to identify the spell works normally, though unless the observer beats the DC by 10 or more, she doesn't suspect the source of the magic is divine.</p>
@@ -810,8 +810,8 @@ const _idealist = {title: "Idealist", jsx: <><h2 id="arc-cleric-idealist-idealis
 <Pair title="Info">This includes Positive and Negative Energy Planes, Material Plane or a Demiplane.</Pair>
 <Pair title="Special">Work with your GM to select three spells that match the themes of the deity you worship.</Pair>
 </Ability>
-<Ability id="arc-cleric-idealist-invoke-realm-su" icon={["magic-swirl"]}>
-<Pair single id="arc-cleric-idealist-invoke-realm-su">Invoke Realm (Su)</Pair>
+<Ability id="invoke-realm-su" icon={["magic-swirl"]}>
+<Pair single id="invoke-realm-su">Invoke Realm (Su)</Pair>
 <Pair hl title="Alters">Channel energy</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability"><p>When an idealist <em>channels energy,</em> she channels raw essence rather than positive or negative energy, superimposing a portion of her deity's planar realm over her location. This effect extends out to a radius of 10 feet, plus 5 feet for every 2 cleric levels she has beyond 1st, to a maximum radius of 55 feet at 19th level. This effect lasts for 1 round plus 1 round per point of the idealist's Charisma bonus. While this effect is active, the idealist gains a +1 bonus on Diplomacy checks against creatures who worship her deity and a bonus on Intimidate checks against creatures who do not. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> her cleric level.</p>
@@ -1041,8 +1041,8 @@ const _stoic_caregiver = {title: "Stoic Caregiver", jsx: <><h2 id="arc-cleric-st
 <Pair hl title="Alters">Domains</Pair>
 <Pair title="Info">A stoic caregiver chooses only one domain.</Pair>
 </Ability>
-<Ability id="arc-cleric-stoic_caregiver-midwife-training-su" icon={["upgrade","armor-upgrade"]}>
-<Pair single id="arc-cleric-stoic_caregiver-midwife-training-su" flavor="A stoic caregiver is an expert at caring for lives that are in the process of being formed as well as the bodies of those who expect to usher new life into the world.">Midwife Training (Su)</Pair>
+<Ability id="midwife-training-su" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="midwife-training-su" flavor="A stoic caregiver is an expert at caring for lives that are in the process of being formed as well as the bodies of those who expect to usher new life into the world.">Midwife Training (Su)</Pair>
 <Pair title="Ability"><p>The stoic caregiver gains a +2 bonus on Heal checks to treat expectant mothers and children. Any Heal check by the stoic caregiver that deals damage to the patient always deals the minimum amount of damage.</p>
 <p>Whenever a stoic caregiver stops bleeding with the Heal skill or magical healing, or restores hit points with a healing spell or channeled positive energy, the healed creature gains partial resistance to bleed damage and negative energy for a number of minutes equal to <Link to="/misc/half">half</Link> the stoic caregiver's cleric level. Any bleed damage a target takes during that time is halved. Additionally, when protected creatures take negative energy damage (such as from an evil cleric's or an antipaladin's negative channeled energy, or spells such as <Link to="/spell/inflict_light_wounds">inflict light wounds</Link>), the amount of that damage is reduced by 5.</p>
 </Pair>
@@ -1059,8 +1059,8 @@ const _stoic_caregiver = {title: "Stoic Caregiver", jsx: <><h2 id="arc-cleric-st
 </>};
 const _theologian = {title: "Theologian", jsx: <><h2 id="arc-cleric-theologian-theologian">Theologian</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 32</Link><br/>A theologian is an expert on one particular area of her religion. She is so focused on that area that she eschews the broader sweep of her deity's dogma and focuses intensely upon that aspect of it, embodying its power in all she does. Theologians tend to be more zealous than other clerics, and many crusades are started by theologians. A theologian has the following class features.</p>
-<Ability id="arc-cleric-theologian-focused-domain" icon={["broken-shield","upgrade","magic-swirl"]}>
-<Pair single id="arc-cleric-theologian-focused-domain">Focused Domain</Pair>
+<Ability id="focused-domain" icon={["broken-shield","upgrade","magic-swirl"]}>
+<Pair single id="focused-domain">Focused Domain</Pair>
 <Pair hl title="Replaces">Domains</Pair>
 <Pair title="Ability"><p>A theologian chooses only one domain from her deity's portfolio rather than the normal two domains. All level-dependent effects of the granted powers from the theologian's domain function as if she were two cleric levels higher than her actual cleric level. This does not allow her to gain domain-granted powers earlier than normal.</p>
 <p>A theologian can prepare domain spells using her non-domain slots. She cannot use her spontaneous casting ability on domain spells, even if they are prepared in non-domain slots. In all other respects, this works like and replaces the standard cleric domain ability.</p>
@@ -1077,8 +1077,8 @@ const _theologian = {title: "Theologian", jsx: <><h2 id="arc-cleric-theologian-t
 </>};
 const _triadic_priest = {title: "Triadic Priest", jsx: <><h2 id="arc-cleric-triadic_priest-triadic-priest">Triadic Priest</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven pg. 19</Link><br/>Power comes not just from communion with one's deity, but also from the formation of divine triumvirates. At the head of these groups are triadic priests. Although witch covens and changelings are the most likely to pursue this tradition, the practice sometimes appears among other faiths.</p>
-<Ability id="arc-cleric-triadic_priest-triadic-bond-su" icon={["stairs-goal"]}>
-<Pair single id="arc-cleric-triadic_priest-triadic-bond-su">Triadic Bond (Su)</Pair>
+<Ability id="triadic-bond-su" icon={["stairs-goal"]}>
+<Pair single id="triadic-bond-su">Triadic Bond (Su)</Pair>
 <Pair title="Ability"><p>A triadic priest can perform a 10-minute ritual with exactly two allies in order to create an enduring bond between them that lasts until the triadic priest either dissolves the bond (a process that takes 1 minute of concentration) or creates a new bond. When performing the bonding ritual, the triadic priest can also include any of her allies' familiars or spirit animals; these creatures gain the benefits of the <em>bonded channeler</em> ability and the drawbacks of being in the bond, but they are not treated as bonded allies for the purpose of the triadic priest's <em>bonded domain.</em> Only intelligent and fully independent creatures can serve as her two bonded companions. Animal companions, eidolons, familiars, phantoms, and similar nonsentient or dependent creatures are not suitable.</p>
 <p>The bonded allies gain numerous benefits and can help empower the triadic priest's spellcasting, as noted in the abilities below. However, if a bonded ally dies, the other members of the bond must each succeed at a Fortitude save (DC = 10 + the triadic priest's class level) or gain 1 permanent <Link to="/rule/negative_level">negative level</Link>.</p>
 </Pair>
