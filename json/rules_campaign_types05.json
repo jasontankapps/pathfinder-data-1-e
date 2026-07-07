@@ -1195,6 +1195,8 @@
 			"sample_armies"
 		]
 	},
+	"om_and_dv": { "redirect": "mass_combat_quick_reference_guide" },
+	"morale_checks": { "redirect": "mass_combat_quick_reference_guide" },
 	"beyond_the_kingdom": {
 		"name": "Beyond the Kingdom",
 		"subtitle": "Mass Combat",

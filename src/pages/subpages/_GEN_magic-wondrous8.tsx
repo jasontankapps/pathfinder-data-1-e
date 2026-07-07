@@ -882,7 +882,7 @@ const _horn_of_antagonism = {title: "Horn of Antagonism", jsx: <><h2 id="magic-w
 </>};
 const _horn_of_assured_victory = {title: "Horn of Assured Victory", jsx: <><h2 id="magic-wondrous-horn_of_assured_victory-horn-of-assured-victory">Horn of Assured Victory</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_74_sword_of_valor">Pathfinder #74: Sword of Valor pg. 62</Link><br/><strong>Aura</strong> moderate enchantment; <strong>CL</strong> 11th<br/><strong>Slot</strong> none; <strong>Price</strong> 13,000 gp; <strong>Weight</strong> 3 lbs.</p>
-<p>This coiled battle horn is crafted from fine brass. When blown, its clarion call can be heard clearly up to a range of 2 miles, cutting through any weather condition short of a windstorm. Once per day, the commander of an army can blow the horn to bolster the troops. This grants the army a +2 bonus on <Link to="/rule/mass_combat_quick_reference_guide">OM checks and Morale checks</Link>. The army also gains an additional number of hit points equal to its ACR for that battle.</p>
+<p>This coiled battle horn is crafted from fine brass. When blown, its clarion call can be heard clearly up to a range of 2 miles, cutting through any weather condition short of a windstorm. Once per day, the commander of an army can blow the horn to bolster the troops. This grants the army a +2 bonus on <Link to="/rule/morale_checks">OM checks and Morale checks</Link>. The army also gains an additional number of hit points equal to its ACR for that battle.</p>
 <h3 id="magic-wondrous-horn_of_assured_victory-construction">Construction</h3>
 <p><strong>Requirements</strong> <Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link>, <Link to="/spell/aid">aid</Link>; <strong>Cost</strong> 6,500 gp</p>
 </>};

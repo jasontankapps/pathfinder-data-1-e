@@ -596,7 +596,7 @@ const _insightful_gaze = {title: "Insightful Gaze", jsx: <><h2 id="feat-insightf
 </>};
 const _inspirational_commander = {title: "Inspirational Commander", jsx: <><h2 id="feat-inspirational_commander-inspirational-commander">Inspirational Commander</h2>
 <p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns pg. 27</Link></p>
-<p>Armies under your command enjoy higher morale thanks to your excellent leadership.<br/><strong>Prerequisites:</strong> Charisma 13.<br/><strong>Benefit:</strong> You or any army that is under your command gains a +2 bonus on <Link to="/rule/mass_combat_quick_reference_guide">Morale checks</Link>. Additionally, you gain two additional <Link to="/rule/boons">boons</Link> of your choice.</p>
+<p>Armies under your command enjoy higher morale thanks to your excellent leadership.<br/><strong>Prerequisites:</strong> Charisma 13.<br/><strong>Benefit:</strong> You or any army that is under your command gains a +2 bonus on <Link to="/rule/morale_checks">Morale checks</Link>. Additionally, you gain two additional <Link to="/rule/boons">boons</Link> of your choice.</p>
 </>};
 const _inspired_alchemy = {title: "Inspired Alchemy", jsx: <><h2 id="feat-inspired_alchemy-inspired-alchemy">Inspired Alchemy</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 151</Link></p>
