@@ -244,6 +244,7 @@ section[data-footnotes] ol li p {
 	display: contents;
 }
 
+.hlBlock strong,
 :is(strong,div).hl,
 :is(strong,span).bigHl {
 	color: var(--ion-color-tertiary);
@@ -253,8 +254,7 @@ section[data-footnotes] ol li p {
 	font-size: 1.25em;
 }
 
-strong.hl a,
-div.hl a {
+:is(.hlBlock strong, strong.hl, div.hl) a {
 	color: var(--ion-color-secondary);
 }
 

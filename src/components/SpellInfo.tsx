@@ -376,11 +376,11 @@ const parseLevels = (input: Levels) => {
 	if(wiz !== undefined) { levels.push("wizard " + wiz); }
 	const levs = levels.join(" ");
 	if(faith) {
-		return <><strong>Level</strong> {levs} (<Link to={
+		return <>{levs} (<Link to={
 			"/faith/" + faith.replace(" ", "_").toLowerCase()
 		}>{faith}</Link>; see below)</>;
 	}
-	return <><strong>Level</strong> {levs}</>;
+	return levs;
 };
 
 const parseSource = (input: string, id: string) => {
@@ -408,7 +408,7 @@ const parseRange = (input: Ranges) => {
 	if(rMed) { range = "medium (100 ft. + 10 ft./level)"; }
 	if(rText) { range = "see text"; }
 	if(range) {
-		return <><strong>Range</strong> {range}</>;
+		return <p><strong>Range</strong> {range}</p>;
 	}
 	return "";
 }
@@ -447,9 +447,9 @@ const SpellInfo: FC<SpellInfoProps> = (props) => {
 	} = props;
 	const cId = useContext(IdContext) + id;
 	const etc = id ? {id: cId + id, "data-hash-target": true} : {};
-	return (
-		<div {...etc}>
-			{source ? <p><strong>Source</strong> {...parseSource(source, id)}</p> : ""}
+	return (<>
+		{source ? <p><strong>Source</strong> {...parseSource(source, id)}</p> : ""}
+		<div {...etc} className="simpleStatblock hlBlock striped constrained">
 			<p><strong>School</strong> {
 				typeof school === "string" ? parseSchools(school) : school
 			}{
@@ -468,7 +468,7 @@ const SpellInfo: FC<SpellInfoProps> = (props) => {
 			{ dur ? <p><strong>Duration</strong> {dur}</p> : "" }
 			{ save ? <p><strong>Saving Throw</strong> {save}; <strong>Spell Resistance</strong> {resist}</p> : "" }
 		</div>
-	);
+	</>);
 };
 
 export default SpellInfo;
