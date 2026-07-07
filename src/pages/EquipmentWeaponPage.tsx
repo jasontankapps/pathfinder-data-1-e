@@ -1,4 +1,4 @@
-import { Suspense, lazy } from 'react';
+import { lazy } from 'react';
 import { useParams } from 'wouter';
 import data from '../json/_GEN_eq-weapon.json';
 import ErrorPage from './ErrorPage';
