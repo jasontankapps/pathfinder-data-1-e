@@ -503,12 +503,12 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				churn(n, attrs, [
 					"clear", "all", "all0", "save", "from", "extra"
 				], [ /^l[0-9]$/ ], logError);
-				flags.icon = true;
-				flags.link = true;
+				flags.spelllist = true;
 				const marked2 = makeNewMarkedInstance();
+				const id = makeValidID(text || "Spell List Block")
 				return makeSpellListBlock({
 					marked2, text, convertEncodedInfo,
-					maybeClear, attrs, temp
+					maybeClear, attrs, temp, id
 				});
 			} else if (n === "class") {
 				churn(n, attrs, [

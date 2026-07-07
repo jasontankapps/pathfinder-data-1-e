@@ -1,10 +1,11 @@
-import {IonRippleEffect,IonIcon} from '@ionic/react';
+import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
+import SpellList from '../../components/SpellList';
 const _evil = {hasJL:true,title: "Evil", jsx: <><div className="jumpList" id="domain-evil-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="domain-evil-cannibalism-subdomain">Cannibalism Subdomain</InnerLink></li><li><InnerLink toTop to="domain-evil-corruption-subdomain">Corruption Subdomain</InnerLink></li><li><InnerLink toTop to="domain-evil-daemon-subdomain">Daemon Subdomain</InnerLink></li><li><InnerLink toTop to="domain-evil-demodand-subdomain">Demodand Subdomain</InnerLink></li><li><InnerLink toTop to="domain-evil-demon-subdomain">Demon Subdomain</InnerLink></li><li><InnerLink toTop to="domain-evil-devil-subdomain">Devil Subdomain</InnerLink></li><li><InnerLink toTop to="domain-evil-fear-subdomain">Fear Subdomain</InnerLink></li><li><InnerLink toTop to="domain-evil-kyton-subdomain">Kyton Subdomain</InnerLink></li><li><InnerLink toTop to="domain-evil-plague-subdomain">Plague Subdomain</InnerLink></li><li><InnerLink toTop to="domain-evil-sahkil-subdomain">Sahkil Subdomain</InnerLink></li></ul></div><h2 id="domain-evil-evil">Evil</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 43</Link></p>
 <p><strong>Deities:</strong> <Link to="/faith/abraxas">Abraxas</Link>, <Link to="/faith/achaekek">Achaekek</Link>, <Link to="/faith/aesdurath">Aesdurath</Link>, <Link to="/faith/ah_pook">Ah Pook</Link>, <Link to="/faith/ahriman">Ahriman</Link>, <Link to="/faith/ajids">Ajids</Link>, <Link to="/faith/aksha">Aksha</Link>, <Link to="/faith/akuma">Akuma</Link>, <Link to="/faith/alazhra">Alazhra</Link>, <Link to="/faith/aldinach">Aldinach</Link>, <Link to="/faith/alichino">Alichino</Link>, <Link to="/faith/alocer">Alocer</Link>, <Link to="/faith/ananshea">Ananshea</Link>, <Link to="/faith/andak">Andak</Link>, <Link to="/faith/andirifkhu">Andirifkhu</Link>, <Link to="/faith/angazhan">Angazhan</Link>, <Link to="/faith/anogetz">Anogetz</Link>, <Link to="/faith/apep">Apep</Link>, <Link to="/faith/apollyon">Apollyon</Link>, <Link to="/faith/arazni">Arazni</Link>, <Link to="/faith/ardad_lili">Ardad Lili</Link>, <Link to="/faith/areshkagal">Areshkagal</Link>, <Link to="/faith/arlachramas">Arlachramas</Link>, <Link to="/faith/aroggus">Aroggus</Link>, <Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/atlach_nacha">Atlach-Nacha</Link>, <Link to="/faith/ayrzul">Ayrzul</Link>, <Link to="/faith/baalzebul">Baalzebul</Link>, <Link to="/faith/baphomet">Baphomet</Link>, <Link to="/faith/barbariccia">Barbariccia</Link>, <Link to="/faith/barbatos">Barbatos</Link>, <Link to="/faith/barravoclair">Barravoclair</Link>, <Link to="/faith/belial">Belial</Link>, <Link to="/faith/bifrons">Bifrons</Link>, <Link to="/faith/bohga">Bohga</Link>, <Link to="/faith/braismois">Braismois</Link>, <Link to="/faith/bundha">Bundha</Link>, <Link to="/faith/caera">Caera</Link>, <Link to="/faith/cagnazzo">Cagnazzo</Link>, <Link to="/faith/calcabrina">Calcabrina</Link>, <Link to="/faith/camazotz">Camazotz</Link>, <Link to="/faith/chamiaholom">Chamiaholom</Link>, <Link to="/faith/charg">Charg</Link>, <Link to="/faith/charon">Charon</Link>, <Link to="/faith/chaugnar_faugn">Chaugnar Faugn</Link>, <Link to="/faith/chavazvug">Chavazvug</Link>, <Link to="/faith/chimon">Chimon</Link>, <Link to="/faith/chinostes_evil_aspect">Chinostes (Evil Aspect)</Link>, <Link to="/faith/chugarra">Chugarra</Link>, <Link to="/faith/chupurvagasti">Chupurvagasti</Link>, <Link to="/faith/circiatto">Circiatto</Link>, <Link to="/faith/cixyron">Cixyron</Link>, <Link to="/faith/corosbel">Corosbel</Link>, <Link to="/faith/crocell">Crocell</Link>, <Link to="/faith/cthulhu">Cthulhu</Link>, <Link to="/faith/cyth_vsug">Cyth-V'sug</Link>, <Link to="/faith/dachzerul">Dachzerul</Link>, <Link to="/faith/daclau_sar">Daclau-Sar</Link>, <Link to="/faith/dagon">Dagon</Link>, <Link to="/faith/dahak">Dahak</Link>, <Link to="/faith/deskari">Deskari</Link>, <Link to="/faith/deumus">Deumus</Link>, <Link to="/faith/dhalavei">Dhalavei</Link>, <Link to="/faith/diceid">Diceid</Link>, <Link to="/faith/dispater">Dispater</Link>, <Link to="/faith/doloras">Doloras</Link>, <Link to="/faith/dradjit">Dradjit</Link>, <Link to="/faith/draghignazzo">Draghignazzo</Link>, <Link to="/faith/dretha">Dretha</Link>, <Link to="/faith/droskar">Droskar</Link>, <Link to="/faith/ealdeez">Ealdeez</Link>, <Link to="/faith/eaqueo">Eaqueo</Link>, <Link to="/faith/eiseth">Eiseth</Link>, <Link to="/faith/eligos">Eligos</Link>, <Link to="/faith/farfarello">Farfarello</Link>, <Link to="/faith/fharaas">Fharaas</Link>, <Link to="/faith/flauros">Flauros</Link>, <Link to="/faith/folca">Folca</Link>, <Link to="/faith/fumeiyoshi">Fumeiyoshi</Link>, <Link to="/faith/furcas">Furcas</Link>, <Link to="/faith/gaap">Gaap</Link>, <Link to="/faith/gavidya">Gavidya</Link>, <Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/geon">Geon</Link>, <Link to="/faith/geryon">Geryon</Link>, <Link to="/faith/ghatanothoa">Ghatanothoa</Link>, <Link to="/faith/ghlaunder">Ghlaunder</Link>, <Link to="/faith/gogunta">Gogunta</Link>, <Link to="/faith/graffiacane">Graffiacane</Link>, <Link to="/faith/guyuku">Guyuku</Link>, <Link to="/faith/gyronna">Gyronna</Link>, <Link to="/faith/haagenti">Haagenti</Link>, <Link to="/faith/haborym">Haborym</Link>, <Link to="/faith/hadregash">Hadregash</Link>, <Link to="/faith/haggakal">Haggakal</Link>, <Link to="/faith/hastrikhal">Hastrikhal</Link>, <Link to="/faith/hastur">Hastur</Link>, <Link to="/faith/hataam">Hataam</Link>, <Link to="/faith/hshurha">Hshurha</Link>, <Link to="/faith/hudima">Hudima</Link>, <Link to="/faith/hydim">Hydim</Link>, <Link to="/faith/iaozrael">Iaozrael</Link>, <Link to="/faith/iggeret">Iggeret</Link>, <Link to="/faith/inkariax">Inkariax</Link>, <Link to="/faith/inma">Inma</Link>, <Link to="/faith/ioramvol">Ioramvol</Link>, <Link to="/faith/isph_aun_vuln">Isph-Aun-Vuln</Link>, <Link to="/faith/ithaqua">Ithaqua</Link>, <Link to="/faith/izyagna">Izyagna</Link>, <Link to="/faith/jacarkas">Jacarkas</Link>, <Link to="/faith/jezelda">Jezelda</Link>, <Link to="/faith/jiraviddain">Jiraviddain</Link>, <Link to="/faith/jubilex">Jubilex</Link>, <Link to="/faith/jyotah">Jyotah</Link>, <Link to="/faith/kabriri">Kabriri</Link>, <Link to="/faith/kaikyton">Kaikyton</Link>, <Link to="/faith/kalma">Kalma</Link>, <Link to="/faith/kelizandri">Kelizandri</Link>, <Link to="/faith/kitumu">Kitumu</Link>, <Link to="/faith/kostchtchie">Kostchtchie</Link>, <Link to="/faith/kroakoth">Kro'akoth</Link>, <Link to="/faith/kunkarna">Kunkarna</Link>, <Link to="/faith/lady_nanbyo">Lady Nanbyo</Link>, <Link to="/faith/laivatiniel">Laivatiniel</Link>, <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/faith/lanishra">Lanishra</Link>, <Link to="/faith/lao_shu_po">Lao Shu Po</Link>, <Link to="/faith/libicocco">Libicocco</Link>, <Link to="/faith/lissala">Lissala</Link>, <Link to="/faith/llamolaek">Llamolaek</Link>, <Link to="/faith/lorcan">Lorcan</Link>, <Link to="/faith/lorthact">Lorthact</Link>, <Link to="/faith/losarkur">Losarkur</Link>, <Link to="/faith/maeha">Maeha</Link>, <Link to="/faith/mahathallah">Mahathallah</Link>, <Link to="/faith/malacoda">Malacoda</Link>, <Link to="/faith/malthus">Malthus</Link>, <Link to="/faith/mammon">Mammon</Link>, <Link to="/faith/mazmezz">Mazmezz</Link>, <Link to="/faith/menxyr">Menxyr</Link>, <Link to="/faith/mephistopheles">Mephistopheles</Link>, <Link to="/faith/mestama">Mestama</Link>, <Link to="/faith/minderhal">Minderhal</Link>, <Link to="/faith/mneoc">Mneoc</Link>, <Link to="/faith/moloch">Moloch</Link>, <Link to="/faith/mordiggian">Mordiggian</Link>, <Link to="/faith/morrobahn">Morrobahn</Link>, <Link to="/faith/murnath">Murnath</Link>, <Link to="/faith/muronna">Muronna</Link>, <Link to="/faith/mursha">Mursha</Link>, <Link to="/faith/nalmungder">Nalmungder</Link>, <Link to="/faith/nameless">Nameless</Link>, <Link to="/faith/nataka">Nataka</Link>, <Link to="/faith/nergal">Nergal</Link>, <Link to="/faith/nhimbaloth">Nhimbaloth</Link>, <Link to="/faith/nightripper">Nightripper</Link>, <Link to="/faith/nocticula">Nocticula</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/nulgreth">Nulgreth</Link>, <Link to="/faith/nurgal">Nurgal</Link>, <Link to="/faith/nyarlathotep_black_pharaoh">Nyarlathotep (Black Pharaoh)</Link>, <Link to="/faith/nyarlathotep_faceless_sphinx">Nyarlathotep (Faceless Sphinx)</Link>, <Link to="/faith/nyarlathotep_haunter_of_the_dark">Nyarlathotep (Haunter of the Dark)</Link>, <Link to="/faith/oaur_ooung">Oaur-Ooung</Link>, <Link to="/faith/onamahli">Onamahli</Link>, <Link to="/faith/ongalte">Ongalte</Link>, <Link to="/faith/onmyuza">Onmyuza</Link>, <Link to="/faith/orcus">Orcus</Link>, <Link to="/faith/orgesh">Orgesh</Link>, <Link to="/faith/ose">Ose</Link>, <Link to="/faith/osolmyr">Osolmyr</Link>, <Link to="/faith/otikaya">Otikaya</Link>, <Link to="/faith/ovonovo">Ovonovo</Link>, <Link to="/faith/ozranvial">Ozranvial</Link>, <Link to="/faith/pavnuri">Pavnuri</Link>, <Link to="/faith/pazuzu">Pazuzu</Link>, <Link to="/faith/pirias">Pirias</Link>, <Link to="/faith/prihasta">Prihasta</Link>, <Link to="/faith/quindiovatos">Quindiovatos</Link>, <Link to="/faith/raetorgash">Raetorgash</Link>, <Link to="/faith/ragadahn">Ragadahn</Link>, <Link to="/faith/rahu">Rahu</Link>, <Link to="/faith/rasvocel">Rasvocel</Link>, <Link to="/faith/ravana">Ravana</Link>, <Link to="/faith/rhan_tegoth">Rhan-Tegoth</Link>, <Link to="/faith/roqorolos">Roqorolos</Link>, <Link to="/faith/rovagug">Rovagug</Link>, <Link to="/faith/ruapceras">Ruapceras</Link>, <Link to="/faith/rubicante">Rubicante</Link>, <Link to="/faith/rull">Rull</Link>, <Link to="/faith/ruzel">Ruzel</Link>, <Link to="/faith/rytara">Rytara</Link>, <Link to="/faith/sabnach">Sabnach</Link>, <Link to="/faith/scal">Scal</Link>, <Link to="/faith/scarmiglione">Scarmiglione</Link>, <Link to="/faith/set">Set</Link>, <Link to="/faith/sezelrian">Sezelrian</Link>, <Link to="/faith/shamira">Shamira</Link>, <Link to="/faith/shawnari">Shawnari</Link>, <Link to="/faith/shax">Shax</Link>, <Link to="/faith/shiggarreb">Shiggarreb</Link>, <Link to="/faith/shivaska">Shivaska</Link>, <Link to="/faith/shub_niggurath">Shub-Niggurath</Link>, <Link to="/faith/sicva">Sicva</Link>, <Link to="/faith/sifkesh">Sifkesh</Link>, <Link to="/faith/sithhud">Sithhud</Link>, <Link to="/faith/slandrais">Slandrais</Link>, <Link to="/faith/socothbenoth">Socothbenoth</Link>, <Link to="/faith/stygidvod">Stygidvod</Link>, <Link to="/faith/sugroz">Sugroz</Link>, <Link to="/faith/surpa">Surpa</Link>, <Link to="/faith/szuriel">Szuriel</Link>, <Link to="/faith/tamede">Tamede</Link>, <Link to="/faith/taraksun">Taraksun</Link>, <Link to="/faith/thamir_gixx">Thamir Gixx</Link>, <Link to="/faith/the_green_mother">The Green Mother</Link>, <Link to="/faith/thremyr">Thremyr</Link>, <Link to="/faith/thuskchoon">Thuskchoon</Link>, <Link to="/faith/titivilus">Titivilus</Link>, <Link to="/faith/treerazer">Treerazer</Link>, <Link to="/faith/trelmarixian">Trelmarixian</Link>, <Link to="/faith/tresmalvos">Tresmalvos</Link>, <Link to="/faith/tsathoggua">Tsathoggua</Link>, <Link to="/faith/uaransaph">Uaransaph</Link>, <Link to="/faith/ulon">Ulon</Link>, <Link to="/faith/urazra">Urazra</Link>, <Link to="/faith/urgathoa">Urgathoa</Link>, <Link to="/faith/uruskreil">Uruskreil</Link>, <Link to="/faith/urxehl">Urxehl</Link>, <Link to="/faith/ushitora">Ushitora</Link>, <Link to="/faith/uzumae">Uzumae</Link>, <Link to="/faith/vapula">Vapula</Link>, <Link to="/faith/varg">Varg</Link>, <Link to="/faith/velgaas">Velgaas</Link>, <Link to="/faith/venkelvore">Venkelvore</Link>, <Link to="/faith/verex">Verex</Link>, <Link to="/faith/vermilion_mother">Vermilion Mother</Link>, <Link to="/faith/vevelor">Vevelor</Link>, <Link to="/faith/vibhishah">Vibhishah</Link>, <Link to="/faith/vois">Vois</Link>, <Link to="/faith/vorasha">Vorasha</Link>, <Link to="/faith/wylgart">Wylgart</Link>, <Link to="/faith/xhamen_dor">Xhamen-Dor</Link>, <Link to="/faith/xhasnaphar">Xhasnaphar</Link>, <Link to="/faith/xiquiripat">Xiquiripat</Link>, <Link to="/faith/xoveron">Xoveron</Link>, <Link to="/faith/xsistaid">Xsistaid</Link>, <Link to="/faith/yabu">Yabu</Link>, <Link to="/faith/yaezhing">Yaezhing</Link>, <Link to="/faith/yamasoth">Yamasoth</Link>, <Link to="/faith/yan_gant_y_tan">Yan-gant-y-tan</Link>, <Link to="/faith/ydersius">Ydersius</Link>, <Link to="/faith/yhidothrus">Yhidothrus</Link>, <Link to="/faith/ymeri">Ymeri</Link>, <Link to="/faith/zabha">Zabha</Link>, <Link to="/faith/zaebos">Zaebos</Link>, <Link to="/faith/zagresh">Zagresh</Link>, <Link to="/faith/zaigasnar">Zaigasnar</Link>, <Link to="/faith/zarongel">Zarongel</Link>, <Link to="/faith/zelishkar">Zelishkar</Link>, <Link to="/faith/zepar">Zepar</Link>, <Link to="/faith/zevgavizeb">Zevgavizeb</Link>, <Link to="/faith/zipacna">Zipacna</Link>, <Link to="/faith/zogmugot">Zogmugot</Link>, <Link to="/faith/zon_kuthon">Zon-Kuthon</Link>, <Link to="/faith/zura">Zura</Link>, <Link to="/faith/zurapadyn">Zurapadyn</Link>, <Link to="/faith/zursvaater">Zursvaater</Link>, <Link to="/faith/zyphus">Zyphus</Link></p><p><strong className="hl">Granted Powers:</strong> You are sinister and cruel, and have wholly pledged your soul to the cause of evil.</p>
@@ -19,15 +20,8 @@ const _evil = {hasJL:true,title: "Evil", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">1 time/day + 1 per four cleric levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Standard Action">You can give a weapon touched the <Link to="/magic-enh/unholy">unholy</Link> special weapon quality for a number of rounds equal to 1/2 your cleric level.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/protection_from_good">protection from good<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><Link to="/spell/align_weapon">align weapon<IonRippleEffect /></Link> (evil only)</td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/magic_circle_against_good">magic circle against good<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/unholy_blight">unholy blight<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/dispel_good">dispel good<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/create_undead">create undead<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/blasphemy">blasphemy<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/unholy_aura">unholy aura<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td><Link to="/spell/summon_monster_ix">summon monster IX<IonRippleEffect /></Link> (evil spell only)</td></tr></tbody></table><h3 id="domain-evil-cannibalism-subdomain" data-hash-target>Cannibalism Subdomain</h3>
+<SpellList id="domain-spells" links={[[1,"protection from good","protection_from_good"],[2,"align weapon","align_weapon",<>evil only</>],[3,"magic circle against good","magic_circle_against_good"],[4,"unholy blight","unholy_blight"],[5,"dispel good","dispel_good"],[6,"create undead","create_undead"],[7,"blasphemy","blasphemy"],[8,"unholy aura","unholy_aura"],[9,"summon monster IX","summon_monster_ix",<>evil spell only</>]]}>Domain Spells</SpellList>
+<h3 id="domain-evil-cannibalism-subdomain" data-hash-target>Cannibalism Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption pg. 18</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/faith/rovagug">Rovagug</Link>, <Link to="/faith/urgathoa">Urgathoa</Link></p><Ability id="consume-the-enemy-su" icon={["mailed-fist"]}>
 <Pair single id="consume-the-enemy-su">Consume the Enemy (Su)</Pair>
@@ -36,15 +30,8 @@ const _evil = {hasJL:true,title: "Evil", jsx: <><div className="jumpList" id="do
 <Pair title="Full-Round Action">As an <Link to="/spelldef/evil">evil</Link> act, you can bite a helpless living or freshly killed creature, dealing 1d3 points of damage. By consuming the creature's flesh, you gain a profane bonus on saving throw DCs for all spells, spell-like abilities, and supernatural abilities you use against creatures of the same type (and subtype, if humanoid or outsider) as the cannibalized creature. The profane bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your cleric level. This effect lasts for a number of minutes equal to 1/2 your cleric level or until you use this ability against a different creature.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/magic_fang">magic fang<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/enemys_heart">enemy's heart<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/greater_magic_fang">greater magic fang<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>unholy blight</em></td></tr>
-<tr><th scope="row">5th</th><td><em>dispel good</em></td></tr>
-<tr><th scope="row">6th</th><td><em>create undead</em></td></tr>
-<tr><th scope="row">7th</th><td><em>blasphemy</em></td></tr>
-<tr><th scope="row">8th</th><td><em>unholy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>summon monster IX (evil spell only)</em></td></tr></tbody></table><h3 id="domain-evil-corruption-subdomain" data-hash-target>Corruption Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={1} links={[[1,"magic fang","magic_fang"],[2,"enemy's heart","enemys_heart"],[3,"greater magic fang","greater_magic_fang"],[4,"unholy blight",false],[5,"dispel good",false],[6,"create undead",false],[7,"blasphemy",false],[8,"unholy aura",false],[9,"summon monster IX",false,<>evil spell only</>]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-evil-corruption-subdomain" data-hash-target>Corruption Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption pg. 18</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/dahak">Dahak</Link>, <Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/gyronna">Gyronna</Link>, <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/faith/rovagug">Rovagug</Link>, <Link to="/faith/urgathoa">Urgathoa</Link>, <Link to="/faith/velgaas">Velgaas</Link>, <Link to="/faith/zipacna">Zipacna</Link></p><Ability id="spark-malfeasance-su" icon={["smoking-finger"]}>
 <Pair single id="spark-malfeasance-su">Spark Malfeasance (Su)</Pair>
@@ -53,15 +40,8 @@ const _evil = {hasJL:true,title: "Evil", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">1 time/day + 1 per four cleric levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Ability">You can awaken the sinful desires of a target within 30 feet with a ranged touch attack. The target suffers extreme guilt and is <Link to="/misc/sickened">sickened</Link> for a number of rounds equal to 1/2 your cleric level. To end the effect earlier, the target can willingly commit an evil act (if it is of good alignment) or attempt a Will save (DC = 10 + 1/2 your cleric level + your Wisdom modifier) at the beginning of its turn each round. Creatures that succeed at their saving throws are immune to this ability for 24 hours.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>protection from good</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/suggestion">suggestion<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>magic circle against good</em></td></tr>
-<tr><th scope="row">4th</th><td><em>unholy blight</em></td></tr>
-<tr><th scope="row">5th</th><td><em>dispel good</em></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/greater_bestow_curse">greater bestow curse<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>blasphemy</em></td></tr>
-<tr><th scope="row">8th</th><td><em>unholy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>summon monster IX (evil spell only)</em></td></tr></tbody></table><h3 id="domain-evil-daemon-subdomain" data-hash-target>Daemon Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={2} links={[[1,"protection from good",false],[2,"suggestion","suggestion"],[3,"magic circle against good",false],[4,"unholy blight",false],[5,"dispel good",false],[6,"greater bestow curse","greater_bestow_curse"],[7,"blasphemy",false],[8,"unholy aura",false],[9,"summon monster IX",false,<>evil spell only</>]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-evil-daemon-subdomain" data-hash-target>Daemon Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 88</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/aesdurath">Aesdurath</Link>, <Link to="/faith/ajids">Ajids</Link>, <Link to="/faith/alazhra">Alazhra</Link>, <Link to="/faith/anogetz">Anogetz</Link>, <Link to="/faith/apollyon">Apollyon</Link>, <Link to="/faith/arlachramas">Arlachramas</Link>, <Link to="/faith/braismois">Braismois</Link>, <Link to="/faith/charon">Charon</Link>, <Link to="/faith/cixyron">Cixyron</Link>, <Link to="/faith/corosbel">Corosbel</Link>, <Link to="/faith/diceid">Diceid</Link>, <Link to="/faith/droskar">Droskar</Link>, <Link to="/faith/ealdeez">Ealdeez</Link>, <Link to="/faith/folca">Folca</Link>, <Link to="/faith/fumeiyoshi">Fumeiyoshi</Link>, <Link to="/faith/geon">Geon</Link>, <Link to="/faith/hastrikhal">Hastrikhal</Link>, <Link to="/faith/jacarkas">Jacarkas</Link>, <Link to="/faith/laivatiniel">Laivatiniel</Link>, <Link to="/faith/lao_shu_po">Lao Shu Po</Link>, <Link to="/faith/llamolaek">Llamolaek</Link>, <Link to="/faith/mneoc">Mneoc</Link>, <Link to="/faith/nalmungder">Nalmungder</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/osolmyr">Osolmyr</Link>, <Link to="/faith/pavnuri">Pavnuri</Link>, <Link to="/faith/roqorolos">Roqorolos</Link>, <Link to="/faith/ruapceras">Ruapceras</Link>, <Link to="/faith/scal">Scal</Link>, <Link to="/faith/set">Set</Link>, <Link to="/faith/slandrais">Slandrais</Link>, <Link to="/faith/stygidvod">Stygidvod</Link>, <Link to="/faith/szuriel">Szuriel</Link>, <Link to="/faith/tamede">Tamede</Link>, <Link to="/faith/trelmarixian">Trelmarixian</Link>, <Link to="/faith/tresmalvos">Tresmalvos</Link>, <Link to="/faith/uaransaph">Uaransaph</Link>, <Link to="/faith/ulon">Ulon</Link>, <Link to="/faith/urgathoa">Urgathoa</Link>, <Link to="/faith/venkelvore">Venkelvore</Link>, <Link to="/faith/vorasha">Vorasha</Link>, <Link to="/faith/xsistaid">Xsistaid</Link>, <Link to="/faith/zaigasnar">Zaigasnar</Link>, <Link to="/faith/zarongel">Zarongel</Link>, <Link to="/faith/zelishkar">Zelishkar</Link>, <Link to="/faith/zyphus">Zyphus</Link></p><p><Link to="/family/daemon">Daemons</Link> are a race of neutral evil outsiders.</p>
 <Ability id="whispering-evil-su" icon={["aura"]}>
@@ -71,15 +51,8 @@ const _evil = {hasJL:true,title: "Evil", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
 <Pair title="Standard Action">You can whisper a hypnotizing litany of empty promises. Each enemy within a 30-foot <Link to="/misc/emanation">emanation</Link> that can hear you must succeed on a Will saving throw or become <Link to="/misc/fascinated">fascinated</Link> for as long as you continue the litany.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/cause_fear">cause fear<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><em>align weapon (evil only)</em></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/vampiric_touch">vampiric touch<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>unholy blight</em></td></tr>
-<tr><th scope="row">5th</th><td><em>dispel good</em></td></tr>
-<tr><th scope="row">6th</th><td><Link to="/spell/planar_binding">planar binding<IonRippleEffect /></Link> (daemons only)</td></tr>
-<tr><th scope="row">7th</th><td><em>blasphemy</em></td></tr>
-<tr><th scope="row">8th</th><td><em>unholy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>summon monster IX (evil spell only)</em></td></tr></tbody></table><h3 id="domain-evil-demodand-subdomain" data-hash-target>Demodand Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={3} links={[[1,"cause fear","cause_fear"],[2,"align weapon",false,<>evil only</>],[3,"vampiric touch","vampiric_touch"],[4,"unholy blight",false],[5,"dispel good",false],[6,"planar binding","planar_binding",<>daemons only</>],[7,"blasphemy",false],[8,"unholy aura",false],[9,"summon monster IX",false,<>evil spell only</>]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-evil-demodand-subdomain" data-hash-target>Demodand Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption pg. 19</Link></p>
 <p><strong className="hl">Associated Domains:</strong> Chaos, Evil<br/><strong className="hl">Associated Deities:</strong> <Link to="/faith/rovagug">Rovagug</Link>, <Link to="/faith/yaezhing">Yaezhing</Link></p>
 <Ability id="faith-stealing-strike-su" icon={["mailed-fist"]}>
@@ -88,15 +61,8 @@ const _evil = {hasJL:true,title: "Evil", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Ability">You can make a single melee attack using your highest base attack bonus against a creature capable of casting divine spells. If you damage the creature, it must succeed at a Will save (DC = 10 + 1/2 your cleric level + your Wisdom modifier) or be unable to cast any divine spells for 1 round. If you do not damage your target with the attack, this ability is expended with no effect.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>protection from good</em></td></tr>
-<tr><th scope="row">2nd</th><td><Link to="/spell/align_weapon">align weapon<IonRippleEffect /></Link> (chaos or evil only)</td></tr>
-<tr><th scope="row">3rd</th><td><em>magic circle against good</em></td></tr>
-<tr><th scope="row">4th</th><td><em>unholy blight</em></td></tr>
-<tr><th scope="row">5th</th><td><em>dispel good</em></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/corrosive_consumption">corrosive consumption<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>blasphemy</em></td></tr>
-<tr><th scope="row">8th</th><td><em>unholy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>summon monster IX (evil spell only)</em></td></tr></tbody></table><h3 id="domain-evil-demon-subdomain" data-hash-target>Demon Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={4} links={[[1,"protection from good",false],[2,"align weapon","align_weapon",<>chaos or evil only</>],[3,"magic circle against good",false],[4,"unholy blight",false],[5,"dispel good",false],[6,"corrosive consumption","corrosive_consumption"],[7,"blasphemy",false],[8,"unholy aura",false],[9,"summon monster IX",false,<>evil spell only</>]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-evil-demon-subdomain" data-hash-target>Demon Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 89</Link></p>
 <p><strong className="hl">Associated Domains:</strong> Chaos, Evil<br/><strong className="hl">Associated Deities:</strong> <Link to="/faith/abraxas">Abraxas</Link>, <Link to="/faith/aldinach">Aldinach</Link>, <Link to="/faith/andirifkhu">Andirifkhu</Link>, <Link to="/faith/angazhan">Angazhan</Link>, <Link to="/faith/apep">Apep</Link>, <Link to="/faith/areshkagal">Areshkagal</Link>, <Link to="/faith/baphomet">Baphomet</Link>, <Link to="/faith/camazotz">Camazotz</Link>, <Link to="/faith/cyth_vsug">Cyth-V'sug</Link>, <Link to="/faith/daclau_sar">Daclau-Sar</Link>, <Link to="/faith/dagon">Dagon</Link>, <Link to="/faith/dahak">Dahak</Link>, <Link to="/faith/deskari">Deskari</Link>, <Link to="/faith/dretha">Dretha</Link>, <Link to="/faith/flauros">Flauros</Link>, <Link to="/faith/ghlaunder">Ghlaunder</Link>, <Link to="/faith/gogunta">Gogunta</Link>, <Link to="/faith/gyronna">Gyronna</Link>, <Link to="/faith/haagenti">Haagenti</Link>, <Link to="/faith/haggakal">Haggakal</Link>, <Link to="/faith/izyagna">Izyagna</Link>, <Link to="/faith/jezelda">Jezelda</Link>, <Link to="/faith/jubilex">Jubilex</Link>, <Link to="/faith/kabriri">Kabriri</Link>, <Link to="/faith/kitumu">Kitumu</Link>, <Link to="/faith/kostchtchie">Kostchtchie</Link>, <Link to="/faith/kroakoth">Kro'akoth</Link>, <Link to="/faith/lady_nanbyo">Lady Nanbyo</Link>, <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/faith/lanishra">Lanishra</Link>, <Link to="/faith/mazmezz">Mazmezz</Link>, <Link to="/faith/menxyr">Menxyr</Link>, <Link to="/faith/mestama">Mestama</Link>, <Link to="/faith/murnath">Murnath</Link>, <Link to="/faith/nightripper">Nightripper</Link>, <Link to="/faith/nocticula">Nocticula</Link>, <Link to="/faith/nulgreth">Nulgreth</Link>, <Link to="/faith/nurgal">Nurgal</Link>, <Link to="/faith/orcus">Orcus</Link>, <Link to="/faith/ovonovo">Ovonovo</Link>, <Link to="/faith/pazuzu">Pazuzu</Link>, <Link to="/faith/rovagug">Rovagug</Link>, <Link to="/faith/rull">Rull</Link>, <Link to="/faith/sezelrian">Sezelrian</Link>, <Link to="/faith/shamira">Shamira</Link>, <Link to="/faith/shax">Shax</Link>, <Link to="/faith/shivaska">Shivaska</Link>, <Link to="/faith/sifkesh">Sifkesh</Link>, <Link to="/faith/sithhud">Sithhud</Link>, <Link to="/faith/socothbenoth">Socothbenoth</Link>, <Link to="/faith/thamir_gixx">Thamir Gixx</Link>, <Link to="/faith/thremyr">Thremyr</Link>, <Link to="/faith/treerazer">Treerazer</Link>, <Link to="/faith/urazra">Urazra</Link>, <Link to="/faith/urxehl">Urxehl</Link>, <Link to="/faith/varg">Varg</Link>, <Link to="/faith/xoveron">Xoveron</Link>, <Link to="/faith/ydersius">Ydersius</Link>, <Link to="/faith/yhidothrus">Yhidothrus</Link>, <Link to="/faith/zagresh">Zagresh</Link>, <Link to="/faith/zevgavizeb">Zevgavizeb</Link>, <Link to="/faith/zogmugot">Zogmugot</Link>, <Link to="/faith/zura">Zura</Link></p>
 <p><Link to="/family/demon">Demons</Link> are a race of chaotic evil outsiders.</p>
@@ -106,15 +72,8 @@ const _evil = {hasJL:true,title: "Evil", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Swift Action">You can give yourself an enhancement bonus equal to 1/2 your cleric level (minimum +1) on melee attacks, melee damage rolls, and combat maneuver checks. This bonus lasts for 1 round. During this round, you take a -2 penalty to AC.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/doom">doom<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><em>align weapon (evil only)</em></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/rage">rage<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>unholy blight</em></td></tr>
-<tr><th scope="row">5th</th><td><em>dispel good</em></td></tr>
-<tr><th scope="row">6th</th><td><Link to="/spell/planar_binding">planar binding<IonRippleEffect /></Link> (demons only)</td></tr>
-<tr><th scope="row">7th</th><td><em>blasphemy</em></td></tr>
-<tr><th scope="row">8th</th><td><em>unholy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>summon monster IX (evil spell only)</em></td></tr></tbody></table><h3 id="domain-evil-devil-subdomain" data-hash-target>Devil Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={5} links={[[1,"doom","doom"],[2,"align weapon",false,<>evil only</>],[3,"rage","rage"],[4,"unholy blight",false],[5,"dispel good",false],[6,"planar binding","planar_binding",<>demons only</>],[7,"blasphemy",false],[8,"unholy aura",false],[9,"summon monster IX",false,<>evil spell only</>]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-evil-devil-subdomain" data-hash-target>Devil Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 90</Link></p>
 <p><strong className="hl">Associated Domains:</strong> Evil, Law<br/><strong className="hl">Associated Deities:</strong> <Link to="/faith/achaekek">Achaekek</Link>, <Link to="/faith/alichino">Alichino</Link>, <Link to="/faith/alocer">Alocer</Link>, <Link to="/faith/ardad_lili">Ardad Lili</Link>, <Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/baalzebul">Baalzebul</Link>, <Link to="/faith/barbariccia">Barbariccia</Link>, <Link to="/faith/barbatos">Barbatos</Link>, <Link to="/faith/belial">Belial</Link>, <Link to="/faith/bifrons">Bifrons</Link>, <Link to="/faith/cagnazzo">Cagnazzo</Link>, <Link to="/faith/calcabrina">Calcabrina</Link>, <Link to="/faith/circiatto">Circiatto</Link>, <Link to="/faith/crocell">Crocell</Link>, <Link to="/faith/deumus">Deumus</Link>, <Link to="/faith/dispater">Dispater</Link>, <Link to="/faith/doloras">Doloras</Link>, <Link to="/faith/draghignazzo">Draghignazzo</Link>, <Link to="/faith/eaqueo">Eaqueo</Link>, <Link to="/faith/eiseth">Eiseth</Link>, <Link to="/faith/eligos">Eligos</Link>, <Link to="/faith/farfarello">Farfarello</Link>, <Link to="/faith/furcas">Furcas</Link>, <Link to="/faith/gaap">Gaap</Link>, <Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/geryon">Geryon</Link>, <Link to="/faith/graffiacane">Graffiacane</Link>, <Link to="/faith/haborym">Haborym</Link>, <Link to="/faith/hadregash">Hadregash</Link>, <Link to="/faith/iaozrael">Iaozrael</Link>, <Link to="/faith/jiraviddain">Jiraviddain</Link>, <Link to="/faith/kalma">Kalma</Link>, <Link to="/faith/libicocco">Libicocco</Link>, <Link to="/faith/lissala">Lissala</Link>, <Link to="/faith/lorcan">Lorcan</Link>, <Link to="/faith/lorthact">Lorthact</Link>, <Link to="/faith/losarkur">Losarkur</Link>, <Link to="/faith/mahathallah">Mahathallah</Link>, <Link to="/faith/malacoda">Malacoda</Link>, <Link to="/faith/malthus">Malthus</Link>, <Link to="/faith/mammon">Mammon</Link>, <Link to="/faith/mephistopheles">Mephistopheles</Link>, <Link to="/faith/minderhal">Minderhal</Link>, <Link to="/faith/moloch">Moloch</Link>, <Link to="/faith/nergal">Nergal</Link>, <Link to="/faith/ose">Ose</Link>, <Link to="/faith/pirias">Pirias</Link>, <Link to="/faith/quindiovatos">Quindiovatos</Link>, <Link to="/faith/rasvocel">Rasvocel</Link>, <Link to="/faith/rubicante">Rubicante</Link>, <Link to="/faith/ruzel">Ruzel</Link>, <Link to="/faith/sabnach">Sabnach</Link>, <Link to="/faith/scarmiglione">Scarmiglione</Link>, <Link to="/faith/sicva">Sicva</Link>, <Link to="/faith/titivilus">Titivilus</Link>, <Link to="/faith/uruskreil">Uruskreil</Link>, <Link to="/faith/vapula">Vapula</Link>, <Link to="/faith/vois">Vois</Link>, <Link to="/faith/wylgart">Wylgart</Link>, <Link to="/faith/xhasnaphar">Xhasnaphar</Link>, <Link to="/faith/yaezhing">Yaezhing</Link>, <Link to="/faith/yan_gant_y_tan">Yan-gant-y-tan</Link>, <Link to="/faith/zaebos">Zaebos</Link>, <Link to="/faith/zepar">Zepar</Link>, <Link to="/faith/zon_kuthon">Zon-Kuthon</Link></p>
 <p><Link to="/family/devil">Devils</Link> are a race of lawful evil outsiders.</p>
@@ -124,15 +83,8 @@ const _evil = {hasJL:true,title: "Evil", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Ability">You can cause a creature to become more susceptible to corruption as a melee touch attack. Creatures touched take a -2 penalty on all saving throws and must roll all opposed skill checks twice, taking the worse result. This effect lasts for a number of rounds equal to 1/2 your cleric level (minimum 1).</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/command">command<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><em>align weapon (evil only)</em></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/suggestion">suggestion<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>unholy blight</em></td></tr>
-<tr><th scope="row">5th</th><td><em>dispel good</em></td></tr>
-<tr><th scope="row">6th</th><td><Link to="/spell/planar_binding">planar binding<IonRippleEffect /></Link> (devils only)</td></tr>
-<tr><th scope="row">7th</th><td><em>blasphemy</em></td></tr>
-<tr><th scope="row">8th</th><td><em>unholy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>summon monster IX (evil spell only)</em></td></tr></tbody></table><h3 id="domain-evil-fear-subdomain" data-hash-target>Fear Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={6} links={[[1,"command","command"],[2,"align weapon",false,<>evil only</>],[3,"suggestion","suggestion"],[4,"unholy blight",false],[5,"dispel good",false],[6,"planar binding","planar_binding",<>devils only</>],[7,"blasphemy",false],[8,"unholy aura",false],[9,"summon monster IX",false,<>evil spell only</>]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-evil-fear-subdomain" data-hash-target>Fear Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/book_of_the_damned">Book of the Damned pg. 180</Link>, <Link to="/source/inner_sea_gods">Inner Sea Gods pg. 225</Link>, <Link to="/source/blood_of_fiends">Blood of Fiends pg. 15</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/ah_pook">Ah Pook</Link>, <Link to="/faith/ahriman">Ahriman</Link>, <Link to="/faith/aksha">Aksha</Link>, <Link to="/faith/akuma">Akuma</Link>, <Link to="/faith/ananshea">Ananshea</Link>, <Link to="/faith/andak">Andak</Link>, <Link to="/faith/apep">Apep</Link>, <Link to="/faith/aroggus">Aroggus</Link>, <Link to="/faith/ayrzul">Ayrzul</Link>, <Link to="/faith/barbariccia">Barbariccia</Link>, <Link to="/faith/bundha">Bundha</Link>, <Link to="/faith/caera">Caera</Link>, <Link to="/faith/camazotz">Camazotz</Link>, <Link to="/faith/chamiaholom">Chamiaholom</Link>, <Link to="/faith/charg">Charg</Link>, <Link to="/faith/chugarra">Chugarra</Link>, <Link to="/faith/chupurvagasti">Chupurvagasti</Link>, <Link to="/faith/circiatto">Circiatto</Link>, <Link to="/faith/dachzerul">Dachzerul</Link>, <Link to="/faith/dradjit">Dradjit</Link>, <Link to="/faith/fharaas">Fharaas</Link>, <Link to="/faith/geon">Geon</Link>, <Link to="/faith/graffiacane">Graffiacane</Link>, <Link to="/faith/guyuku">Guyuku</Link>, <Link to="/faith/hataam">Hataam</Link>, <Link to="/faith/hshurha">Hshurha</Link>, <Link to="/faith/hudima">Hudima</Link>, <Link to="/faith/iggeret">Iggeret</Link>, <Link to="/faith/inkariax">Inkariax</Link>, <Link to="/faith/ioramvol">Ioramvol</Link>, <Link to="/faith/isph_aun_vuln">Isph-Aun-Vuln</Link>, <Link to="/faith/jacarkas">Jacarkas</Link>, <Link to="/faith/jyotah">Jyotah</Link>, <Link to="/faith/kaikyton">Kaikyton</Link>, <Link to="/faith/kelizandri">Kelizandri</Link>, <Link to="/faith/kitumu">Kitumu</Link>, <Link to="/faith/kunkarna">Kunkarna</Link>, <Link to="/faith/mneoc">Mneoc</Link>, <Link to="/faith/morrobahn">Morrobahn</Link>, <Link to="/faith/mursha">Mursha</Link>, <Link to="/faith/nameless">Nameless</Link>, <Link to="/faith/nhimbaloth">Nhimbaloth</Link>, <Link to="/faith/oaur_ooung">Oaur-Ooung</Link>, <Link to="/faith/onamahli">Onamahli</Link>, <Link to="/faith/orgesh">Orgesh</Link>, <Link to="/faith/otikaya">Otikaya</Link>, <Link to="/faith/ozranvial">Ozranvial</Link>, <Link to="/faith/prihasta">Prihasta</Link>, <Link to="/faith/raetorgash">Raetorgash</Link>, <Link to="/faith/rahu">Rahu</Link>, <Link to="/faith/ravana">Ravana</Link>, <Link to="/faith/rytara">Rytara</Link>, <Link to="/faith/shawnari">Shawnari</Link>, <Link to="/faith/shiggarreb">Shiggarreb</Link>, <Link to="/faith/sugroz">Sugroz</Link>, <Link to="/faith/surpa">Surpa</Link>, <Link to="/faith/uzumae">Uzumae</Link>, <Link to="/faith/varg">Varg</Link>, <Link to="/faith/velgaas">Velgaas</Link>, <Link to="/faith/vermilion_mother">Vermilion Mother</Link>, <Link to="/faith/vibhishah">Vibhishah</Link>, <Link to="/faith/vorasha">Vorasha</Link>, <Link to="/faith/xhasnaphar">Xhasnaphar</Link>, <Link to="/faith/xiquiripat">Xiquiripat</Link>, <Link to="/faith/ymeri">Ymeri</Link>, <Link to="/faith/zabha">Zabha</Link>, <Link to="/faith/zepar">Zepar</Link>, <Link to="/faith/zipacna">Zipacna</Link></p><Ability id="feed-on-fear-su" icon={["mailed-fist"]}>
 <Pair single id="feed-on-fear-su">Feed on Fear (Su)</Pair>
@@ -141,15 +93,8 @@ const _evil = {hasJL:true,title: "Evil", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">1 time/day + 1 per four cleric levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Immediate Action">Upon successfully landing a melee attack on a creature that is already suffering from a fear effect, you can deal 2d6 extra points of damage and gain an equal amount of <Link to="/rule/temporary_hit_points">temporary hit points</Link>. These temporary hit points last for 24 hours or until lost.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/cause_fear">cause fear<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><em>align weapon (evil only)</em></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/scare">scare<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/fear">fear<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td><em>dispel good</em></td></tr>
-<tr><th scope="row">6th</th><td><em>create undead</em></td></tr>
-<tr><th scope="row">7th</th><td><em>blasphemy</em></td></tr>
-<tr><th scope="row">8th</th><td><em>unholy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>summon monster IX (evil spell only)</em></td></tr></tbody></table><h3 id="domain-evil-kyton-subdomain" data-hash-target>Kyton Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={7} links={[[1,"cause fear","cause_fear"],[2,"align weapon",false,<>evil only</>],[3,"scare","scare"],[4,"fear","fear"],[5,"dispel good",false],[6,"create undead",false],[7,"blasphemy",false],[8,"unholy aura",false],[9,"summon monster IX",false,<>evil spell only</>]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-evil-kyton-subdomain" data-hash-target>Kyton Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption pg. 19</Link></p>
 <p><strong className="hl">Associated Domains:</strong> Evil, Law<br/><strong className="hl">Associated Deities:</strong> <Link to="/faith/zon_kuthon">Zon-Kuthon</Link></p>
 <Ability id="pain-is-power-su" icon={["armor-upgrade"]}>
@@ -159,15 +104,8 @@ const _evil = {hasJL:true,title: "Evil", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">1 time/day + 1 per four cleric levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Immediate Action">After taking damage from any source, you may attempt a DC 25 <Link to="/rule/concentration">concentration</Link> check. If you succeed, you gain the benefits of a <Link to="/spell/blessing_of_fervor">blessing of fervor</Link> spell for a number of rounds equal to 1/2 your cleric level. If you fail, this ability is expended with no effect.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/delay_pain">delay pain<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/instrument_of_agony">instrument of agony<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/agonize">agonize<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>unholy blight</em></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/symbol_of_pain">symbol of pain<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td><em>create undead</em></td></tr>
-<tr><th scope="row">7th</th><td><em>blasphemy</em></td></tr>
-<tr><th scope="row">8th</th><td><em>unholy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>summon monster IX (evil spell only)</em></td></tr></tbody></table><h3 id="domain-evil-plague-subdomain" data-hash-target>Plague Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={8} links={[[1,"delay pain","delay_pain"],[2,"instrument of agony","instrument_of_agony"],[3,"agonize","agonize"],[4,"unholy blight",false],[5,"symbol of pain","symbol_of_pain"],[6,"create undead",false],[7,"blasphemy",false],[8,"unholy aura",false],[9,"summon monster IX",false,<>evil spell only</>]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-evil-plague-subdomain" data-hash-target>Plague Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 19</Link></p>
 <p><strong className="hl">Associated Domains:</strong> Death, Evil<br/><strong className="hl">Associated Deities:</strong> <Link to="/faith/apollyon">Apollyon</Link>, <Link to="/faith/cyth_vsug">Cyth-V'sug</Link>, <Link to="/faith/ghlaunder">Ghlaunder</Link>, <Link to="/faith/urgathoa">Urgathoa</Link></p>
 <Ability id="touch-of-virulence-su" icon={["magic-palm"]}>
@@ -176,15 +114,8 @@ const _evil = {hasJL:true,title: "Evil", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">1 time/day + 1 per six cleric levels beyond 8th<ByLevelPop levels={[[8,1],[14,2],[20,3]]} unit="time" postText="/day" /></Pair>
 <Pair title="Standard Action">You can touch a diseased creature and exacerbate its condition. If it fails a Fortitude save (DC = 10 + 1/2 your cleric level + your Wisdom modifier), the creature takes damage as though it had failed its Fortitude save against the disease and any remaining onset time for the disease ends.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/ray_of_sickening">ray of sickening<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><em>align weapon (evil only)</em></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/contagion">contagion<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>unholy blight</em></td></tr>
-<tr><th scope="row">5th</th><td><em>dispel good</em></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/plague_storm">plague storm<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>blasphemy</em></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/horrid_wilting">horrid wilting<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td><em>summon monster IX (evil spell only)</em></td></tr></tbody></table><h3 id="domain-evil-sahkil-subdomain" data-hash-target>Sahkil Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={9} links={[[1,"ray of sickening","ray_of_sickening"],[2,"align weapon",false,<>evil only</>],[3,"contagion","contagion"],[4,"unholy blight",false],[5,"dispel good",false],[6,"plague storm","plague_storm"],[7,"blasphemy",false],[8,"horrid wilting","horrid_wilting"],[9,"summon monster IX",false,<>evil spell only</>]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-evil-sahkil-subdomain" data-hash-target>Sahkil Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_143_borne_by_the_suns_grace">Pathfinder #143: Borne by the Sun's Grace pg. 61</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/ah_pook">Ah Pook</Link>, <Link to="/faith/ananshea">Ananshea</Link>, <Link to="/faith/chamiaholom">Chamiaholom</Link>, <Link to="/faith/charg">Charg</Link>, <Link to="/faith/dachzerul">Dachzerul</Link>, <Link to="/faith/hataam">Hataam</Link>, <Link to="/faith/iggeret">Iggeret</Link>, <Link to="/faith/nameless">Nameless</Link>, <Link to="/faith/ozranvial">Ozranvial</Link>, <Link to="/faith/shawnari">Shawnari</Link>, <Link to="/faith/velgaas">Velgaas</Link>, <Link to="/faith/vermilion_mother">Vermilion Mother</Link>, <Link to="/faith/xiquiripat">Xiquiripat</Link>, <Link to="/faith/zipacna">Zipacna</Link></p><Ability id="touch-of-paranoia-su" icon={["magic-palm"]}>
 <Pair single id="touch-of-paranoia-su">Touch of Paranoia (Su)</Pair>
@@ -192,15 +123,8 @@ const _evil = {hasJL:true,title: "Evil", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Ability">You can imbue a target with great suspicion and doubt as a melee touch attack. A creature affected by your touch does not have allies and is not considered to be an ally to any other creature, including other creatures affected by this effect. The affected creature cannot move freely through its allies' spaces, <Link to="/rule/flank">flank</Link> creatures with them, cooperate with them using teamwork feats, or give or receive benefits from the <Link to="/rule/aid_another_2">aid another</Link> action or any spells or effect that affects only allies. This ability lasts for a number of rounds equal to 1/2 your cleric level (minimum 1).</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>protection from good</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/haunting_mists">haunting mists<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>magic circle against good</em></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/they_know">they know<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td><em>dispel good</em></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/phobia">phobia<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>blasphemy</em></td></tr>
-<tr><th scope="row">8th</th><td><em>unholy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>summon monster IX (evil spell only)</em></td></tr></tbody></table></>};
+<SpellList id="replacement-domain-spells" count={10} links={[[1,"protection from good",false],[2,"haunting mists","haunting_mists"],[3,"magic circle against good",false],[4,"they know","they_know"],[5,"dispel good",false],[6,"phobia","phobia"],[7,"blasphemy",false],[8,"unholy aura",false],[9,"summon monster IX",false,<>evil spell only</>]]}>Replacement Domain Spells</SpellList>
+</>};
 const _devil = {title: "Devil and Kyton", jsx: <><h2 id="domain-devil-devil-and-kyton">Devil and Kyton</h2>
 <p>These subdomains are associated with both the <Link to="/domain/law">Law</Link> and <Link to="/domain/evil">Evil</Link> domains.</p>
 </>};
@@ -222,15 +146,8 @@ const _glory = {hasJL:true,title: "Glory", jsx: <><div className="jumpList" id="
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
 <Pair title="Standard Action">You can emit a 30-foot aura of divine presence. All allies within this aura are treated as if under the effects of a <Link to="/spell/sanctuary">sanctuary</Link> spell with a DC equal to 10 + 1/2 your cleric level + your Wisdom modifier. If an ally leaves the area or makes an attack, the effect ends for that ally. If you make an attack, the effect ends for you and your allies.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/shield_of_faith">shield of faith<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/bless_weapon">bless weapon<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/searing_light">searing light<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/holy_smite">holy smite<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/righteous_might">righteous might<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/undeath_to_death">undeath to death<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/holy_sword">holy sword<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/holy_aura">holy aura<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/gate">gate<IonRippleEffect /></Link></td></tr></tbody></table><h3 id="domain-glory-chivalry-subdomain" data-hash-target>Chivalry Subdomain</h3>
+<SpellList id="domain-spells" links={[[1,"shield of faith","shield_of_faith"],[2,"bless weapon","bless_weapon"],[3,"searing light","searing_light"],[4,"holy smite","holy_smite"],[5,"righteous might","righteous_might"],[6,"undeath to death","undeath_to_death"],[7,"holy sword","holy_sword"],[8,"holy aura","holy_aura"],[9,"gate","gate"]]}>Domain Spells</SpellList>
+<h3 id="domain-glory-chivalry-subdomain" data-hash-target>Chivalry Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 21</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/shizuru">Shizuru</Link></p><Ability id="bolstering-touch-sp" icon={["shield-reflect"]}>
 <Pair single id="bolstering-touch-sp">Bolstering Touch (Sp)</Pair>
@@ -238,15 +155,8 @@ const _glory = {hasJL:true,title: "Glory", jsx: <><div className="jumpList" id="
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Standard Action">You can touch a willing creature, bracing it against frightening situations and allowing it to remain calm. The first fear effect that would affect the subject within the next hour is suppressed for the first 1d4 rounds of its effect. If you touch a creature currently suffering from an ongoing fear effect, this ability instead suppresses the ongoing fear effect for 1 round. The rounds during which the subject ignores the triggering fear effect still count against the effect's duration. If the fear effect is suppressed for longer than it lasts, the subject isn't affected by the fear effect at all.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/remove_fear">remove fear<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><em>bless weapon</em></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/heroism">heroism<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>holy smite</em></td></tr>
-<tr><th scope="row">5th</th><td><em>righteous might</em></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/greater_heroism">greater heroism<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>holy sword</em></td></tr>
-<tr><th scope="row">8th</th><td><em>holy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>gate</em></td></tr></tbody></table><h3 id="domain-glory-heroism-subdomain" data-hash-target>Heroism Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={1} links={[[1,"remove fear","remove_fear"],[2,"bless weapon",false],[3,"heroism","heroism"],[4,"holy smite",false],[5,"righteous might",false],[6,"greater heroism","greater_heroism"],[7,"holy sword",false],[8,"holy aura",false],[9,"gate",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-glory-heroism-subdomain" data-hash-target>Heroism Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 91</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/damerrich">Damerrich</Link>, <Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/myr">Myr</Link>, <Link to="/faith/osolmyr">Osolmyr</Link>, <Link to="/faith/ra">Ra</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>, <Link to="/faith/shizuru">Shizuru</Link>, <Link to="/faith/skode">Skode</Link></p><Ability id="aura-of-heroism-su" icon={["upgrade"]}>
 <Pair single id="aura-of-heroism-su">Aura of Heroism (Su)</Pair>
@@ -255,15 +165,8 @@ const _glory = {hasJL:true,title: "Glory", jsx: <><div className="jumpList" id="
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
 <Pair title="Swift Action">You can emit a 30-foot aura of heroism. Allies in the area are treated as if they were under the effects of <Link to="/spell/heroism">heroism</Link>.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>shield of faith</em></td></tr>
-<tr><th scope="row">2nd</th><td><em>bless weapon</em></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/heroism">heroism<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>holy smite</em></td></tr>
-<tr><th scope="row">5th</th><td><em>righteous might</em></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/greater_heroism">greater heroism<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>holy sword</em></td></tr>
-<tr><th scope="row">8th</th><td><em>holy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>gate</em></td></tr></tbody></table><h3 id="domain-glory-honor-subdomain" data-hash-target>Honor Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={2} links={[[1,"shield of faith",false],[2,"bless weapon",false],[3,"heroism","heroism"],[4,"holy smite",false],[5,"righteous might",false],[6,"greater heroism","greater_heroism"],[7,"holy sword",false],[8,"holy aura",false],[9,"gate",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-glory-honor-subdomain" data-hash-target>Honor Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 92</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/akuma">Akuma</Link>, <Link to="/faith/damerrich">Damerrich</Link>, <Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/jaidi">Jaidi</Link>, <Link to="/faith/myr">Myr</Link>, <Link to="/faith/quindiovatos">Quindiovatos</Link>, <Link to="/faith/ra">Ra</Link>, <Link to="/faith/rubicante">Rubicante</Link>, <Link to="/faith/shizuru">Shizuru</Link>, <Link to="/faith/smiad">Smiad</Link>, <Link to="/faith/uruskreil">Uruskreil</Link></p><Ability id="honor-bound-su" icon={["shield-reflect","armor-upgrade"]}>
 <Pair single id="honor-bound-su">Honor Bound (Su)</Pair>
@@ -271,15 +174,8 @@ const _glory = {hasJL:true,title: "Glory", jsx: <><div className="jumpList" id="
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Standard Action">With a touch, you can remind a creature of its duties and responsibilities, granting it a new saving throw against each enchantment (charm) or enchantment (compulsion) effect that currently affects it. If the saving throw is successful, the enchantment effect is ended. This power only affects effects that allow a save. If you fail a save against such an effect, you can use this ability as an <strong className="hl">immediate action</strong> to grant yourself an additional save. Once the target (either you or a touched creature) has made one additional save per effect, this ability has no further effect on that particular enchantment effect.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>shield of faith</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/zone_of_truth">zone of truth<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>searing light</em></td></tr>
-<tr><th scope="row">4th</th><td><em>holy smite</em></td></tr>
-<tr><th scope="row">5th</th><td><em>righteous might</em></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/geas_quest">geas/quest<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>holy sword</em></td></tr>
-<tr><th scope="row">8th</th><td><em>holy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>gate</em></td></tr></tbody></table><h3 id="domain-glory-hubris-subdomain" data-hash-target>Hubris Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={3} links={[[1,"shield of faith",false],[2,"zone of truth","zone_of_truth"],[3,"searing light",false],[4,"holy smite",false],[5,"righteous might",false],[6,"geas/quest","geas_quest"],[7,"holy sword",false],[8,"holy aura",false],[9,"gate",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-glory-hubris-subdomain" data-hash-target>Hubris Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology pg. 23</Link></p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="domain-glory--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>This subdomain requires the <Link to="/trait/acolyte_of_apocrypha">Acolyte of Apocrypha</Link> trait to access.</td></tr></tbody></table></ScrollContainer></div><p><strong className="hl">Associated Domains:</strong> Glory, Nobility<br/><strong className="hl">Associated Deities:</strong> <Link to="/faith/dispater">Dispater</Link>, <Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/jaidz">Jaidz</Link>, <Link to="/faith/lissala">Lissala</Link>, <Link to="/faith/olheon">Olheon</Link>, <Link to="/faith/ydersius">Ydersius</Link></p>
 <Ability id="class-skill" icon={["skills"]}>
@@ -294,16 +190,8 @@ const _glory = {hasJL:true,title: "Glory", jsx: <><div className="jumpList" id="
 <Pair title="Usage">1 time/day + 1 per four cleric levels beyond 6th<ByLevelPop levels={[[6,1],[10,2],[14,3],[18,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Swift Action">You can petition your divine patron for far greater power than you deserve. This ability can be used only as you cast a spell that has a reduced (but not negated) effect on a successful save. The saving throw DC of the spell increases by 2, and you gain a +2 bonus on caster level checks to overcome spell resistance with the spell. Any creature that succeeds at the saving throw instead avoids the effect entirely. If half or more of the targets are unaffected, you become <Link to="/misc/shaken">shaken</Link> for a number of rounds equal to the spell's level. If all of the targets are unaffected, you instead lose the ability to cast divine spells, channel energy, and use domain powers for 1d4+1 rounds; you can end this loss by loudly apologizing to your patron deity as a <strong className="hl">full-round action</strong> that provokes attacks of opportunity.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>shield of faith</em></td></tr>
-<tr><th scope="row">2nd</th><td><em>bless weapon</em></td></tr>
-<tr><th scope="row">3rd</th><td><em>searing light</em></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/hollow_heroism">hollow heroism<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td><em>righteous might</em></td></tr>
-<tr><th scope="row">6th</th><td><em>undeath to death</em></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/greater_hollow_heroism">greater hollow heroism<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td><em>holy aura</em></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/overwhelming_presence">overwhelming presence<IonRippleEffect /></Link></td></tr>
-<tr><td colSpan={2}>If you are evil, replace the domain spells <em>bless weapon</em> and <em>holy aura</em> with <Link to="/spell/aid">aid</Link> and <Link to="/spell/unholy_aura">unholy aura</Link> respectively.</td></tr></tbody></table><h3 id="domain-glory-legend-subdomain" data-hash-target>Legend Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={4} links={[[1,"shield of faith",false],[2,"bless weapon",false],[3,"searing light",false],[4,"hollow heroism","hollow_heroism"],[5,"righteous might",false],[6,"undeath to death",false],[7,"greater hollow heroism","greater_hollow_heroism"],[8,"holy aura",false],[9,"overwhelming presence","overwhelming_presence"]]} extra={<>If you are evil, replace the domain spells <em>bless weapon</em> and <em>holy aura</em> with <Link to="/spell/aid">aid</Link> and <Link to="/spell/unholy_aura">unholy aura</Link> respectively.</>}>Replacement Domain Spells</SpellList>
+<h3 id="domain-glory-legend-subdomain" data-hash-target>Legend Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology pg. 23</Link></p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="domain-glory--table-1"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>This subdomain requires the <Link to="/trait/acolyte_of_apocrypha">Acolyte of Apocrypha</Link> trait to access.</td></tr></tbody></table></ScrollContainer></div><p><strong className="hl">Associated Deities:</strong> <Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/shizuru">Shizuru</Link></p><Ability id="bonus-feat" icon={["stairs-goal"]}>
 <Pair single id="bonus-feat">Bonus Feat</Pair>
@@ -317,16 +205,8 @@ const _glory = {hasJL:true,title: "Glory", jsx: <><div className="jumpList" id="
 <Pair title="Usage">1 time/day + 1 per four cleric levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Move-Equivalent Action">You can extol the virtues of yourself or an ally within 60 feet that you can see. This causes the target to shed light like a <Link to="/eq-misc/torch">torch</Link> for 1 minute, and while the effect lasts, you can expend a daily use of your <em>touch of glory</em> domain ability as an immediate action to add 1d6 to an attack, saving throw, skill check, or ability check attempted by the target; for a roll to confirm a critical hit or save against a fear effect, you instead add 1d12.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>shield of faith</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/aid">aid<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/contagious_zeal">contagious zeal<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/righteous_vigor">righteous vigor<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td><em>righteous might</em></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/unshakeable_zeal">unshakeable zeal<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>holy sword</em></td></tr>
-<tr><th scope="row">8th</th><td><em>holy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>gate</em></td></tr>
-<tr><td colSpan={2}>If you are evil, replace the domain spells <em>holy smite, holy sword,</em> and <em>holy aura</em> with <Link to="/spell/unholy_blight">unholy blight</Link>, <Link to="/spell/unholy_sword">unholy sword</Link>, and <Link to="/spell/unholy_aura">unholy aura</Link> respectively.</td></tr></tbody></table></>};
+<SpellList id="replacement-domain-spells" count={5} links={[[1,"shield of faith",false],[2,"aid","aid"],[3,"contagious zeal","contagious_zeal"],[4,"righteous vigor","righteous_vigor"],[5,"righteous might",false],[6,"unshakeable zeal","unshakeable_zeal"],[7,"holy sword",false],[8,"holy aura",false],[9,"gate",false]]} extra={<>If you are evil, replace the domain spells <em>holy smite, holy sword,</em> and <em>holy aura</em> with <Link to="/spell/unholy_blight">unholy blight</Link>, <Link to="/spell/unholy_sword">unholy sword</Link>, and <Link to="/spell/unholy_aura">unholy aura</Link> respectively.</>}>Replacement Domain Spells</SpellList>
+</>};
 const _hubris = {title: "Hubris", jsx: <><h2 id="domain-hubris-hubris">Hubris</h2>
 <p>This subdomain is associated with both the <Link to="/domain/glory">Glory</Link> and <Link to="/domain/nobility">Nobility</Link> domains.</p>
 </>};
@@ -344,15 +224,8 @@ const _good = {hasJL:true,title: "Good", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">1 time/day + 1 per four cleric levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Standard Action">You can give a weapon you touch the <Link to="/magic-enh/holy">holy</Link> special weapon quality for a number of rounds equal to 1/2 your cleric level.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/protection_from_evil">protection from evil<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><Link to="/spell/align_weapon">align weapon<IonRippleEffect /></Link> (good only)</td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/magic_circle_against_evil">magic circle against evil<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/holy_smite">holy smite<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/dispel_evil">dispel evil<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/blade_barrier">blade barrier<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/holy_word">holy word<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/holy_aura">holy aura<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td><Link to="/spell/summon_monster_ix">summon monster IX<IonRippleEffect /></Link> (good spell only)</td></tr></tbody></table><h3 id="domain-good-agathion-subdomain" data-hash-target>Agathion Subdomain</h3>
+<SpellList id="domain-spells" links={[[1,"protection from evil","protection_from_evil"],[2,"align weapon","align_weapon",<>good only</>],[3,"magic circle against evil","magic_circle_against_evil"],[4,"holy smite","holy_smite"],[5,"dispel evil","dispel_evil"],[6,"blade barrier","blade_barrier"],[7,"holy word","holy_word"],[8,"holy aura","holy_aura"],[9,"summon monster IX","summon_monster_ix",<>good spell only</>]]}>Domain Spells</SpellList>
+<h3 id="domain-good-agathion-subdomain" data-hash-target>Agathion Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 86</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/arshea">Arshea</Link>, <Link to="/faith/benorus">Benorus</Link>, <Link to="/faith/bes">Bes</Link>, <Link to="/faith/bharnarol">Bharnarol</Link>, <Link to="/faith/chaldira">Chaldira</Link>, <Link to="/faith/cihua_couatl">Cihua Couatl</Link>, <Link to="/faith/dalenydra">Dalenydra</Link>, <Link to="/faith/eritrice">Eritrice</Link>, <Link to="/faith/halcamora">Halcamora</Link>, <Link to="/faith/irez">Irez</Link>, <Link to="/faith/isis">Isis</Link>, <Link to="/faith/jaidi">Jaidi</Link>, <Link to="/faith/jaidz">Jaidz</Link>, <Link to="/faith/khepri">Khepri</Link>, <Link to="/faith/korada">Korada</Link>, <Link to="/faith/kurgess">Kurgess</Link>, <Link to="/faith/lorris">Lorris</Link>, <Link to="/faith/lythertida">Lythertida</Link>, <Link to="/faith/mazludeh">Mazludeh</Link>, <Link to="/faith/neith">Neith</Link>, <Link to="/faith/ondisso">Ondisso</Link>, <Link to="/faith/qi_zhong">Qi Zhong</Link>, <Link to="/faith/rowdrosh">Rowdrosh</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>, <Link to="/faith/seramaydiel">Seramaydiel</Link>, <Link to="/faith/shei">Shei</Link>, <Link to="/faith/shelyn">Shelyn</Link>, <Link to="/faith/shelyn_pre_earthfall">Shelyn (pre-Earthfall)</Link>, <Link to="/faith/trudd">Trudd</Link>, <Link to="/faith/uskyeria">Uskyeria</Link>, <Link to="/faith/ylimancha">Ylimancha</Link></p><p><Link to="/family/agathion">Agathions</Link> are a race of neutral good outsiders.</p>
 <Ability id="protective-aura-su" icon={["shield-reflect"]}>
@@ -362,15 +235,8 @@ const _good = {hasJL:true,title: "Good", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
 <Pair title="Standard Action">You can emit a 30-foot protective aura. Allies in this aura receive a +2 deflection bonus to AC and a +2 resistance bonus on all saving throws. In addition, allies in the area gain the benefits of <Link to="/spell/protection_from_evil">protection from evil</Link> (although the AC bonus and saving throw bonus do not stack with those granted by this effect).</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/shield_of_faith">shield of faith<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><em>align weapon (good only)</em></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/tongues">tongues<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>holy smite</em></td></tr>
-<tr><th scope="row">5th</th><td><em>dispel evil</em></td></tr>
-<tr><th scope="row">6th</th><td><Link to="/spell/planar_ally">planar ally<IonRippleEffect /></Link> (agathions only)</td></tr>
-<tr><th scope="row">7th</th><td><em>holy word</em></td></tr>
-<tr><th scope="row">8th</th><td><em>holy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>summon monster IX (good spell only)</em></td></tr></tbody></table><h3 id="domain-good-archon-subdomain" data-hash-target>Archon Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={1} links={[[1,"shield of faith","shield_of_faith"],[2,"align weapon",false,<>good only</>],[3,"tongues","tongues"],[4,"holy smite",false],[5,"dispel evil",false],[6,"planar ally","planar_ally",<>agathions only</>],[7,"holy word",false],[8,"holy aura",false],[9,"summon monster IX",false,<>good spell only</>]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-good-archon-subdomain" data-hash-target>Archon Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 86</Link></p>
 <p><strong className="hl">Associated Domains:</strong> Good, Law<br/><strong className="hl">Associated Deities:</strong> <Link to="/faith/aesocar">Aesocar</Link>, <Link to="/faith/andoletta">Andoletta</Link>, <Link to="/faith/angradd">Angradd</Link>, <Link to="/faith/apsu">Apsu</Link>, <Link to="/faith/arqueros">Arqueros</Link>, <Link to="/faith/damerrich">Damerrich</Link>, <Link to="/faith/easivra">Easivra</Link>, <Link to="/faith/eldas">Eldas</Link>, <Link to="/faith/erastil">Erastil</Link>, <Link to="/faith/falayna">Falayna</Link>, <Link to="/faith/folgrit">Folgrit</Link>, <Link to="/faith/ghenshau">Ghenshau</Link>, <Link to="/faith/grundinnar">Grundinnar</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/kelinahat">Kelinahat</Link>, <Link to="/faith/kroina">Kroina</Link>, <Link to="/faith/lymnieris">Lymnieris</Link>, <Link to="/faith/mazludeh">Mazludeh</Link>, <Link to="/faith/myr">Myr</Link>, <Link to="/faith/neshen">Neshen</Link>, <Link to="/faith/olheon">Olheon</Link>, <Link to="/faith/osiris">Osiris</Link>, <Link to="/faith/ragathiel">Ragathiel</Link>, <Link to="/faith/shizuru">Shizuru</Link>, <Link to="/faith/smiad">Smiad</Link>, <Link to="/faith/svarozic">Svarozic</Link>, <Link to="/faith/tanagaar">Tanagaar</Link>, <Link to="/faith/torag">Torag</Link>, <Link to="/faith/tsukiyo">Tsukiyo</Link>, <Link to="/faith/vildeis">Vildeis</Link>, <Link to="/faith/wadjet">Wadjet</Link>, <Link to="/faith/winlas">Winlas</Link>, <Link to="/faith/zohls">Zohls</Link></p>
 <p><Link to="/family/archon">Archons</Link> are a race of lawful good outsiders.</p>
@@ -381,15 +247,8 @@ const _good = {hasJL:true,title: "Good", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
 <Pair title="Standard Action">You can emit a 30-foot aura of menace. Enemies in this aura take a -2 penalty to AC and on attacks and saves as long as they remain inside the aura.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/divine_favor">divine favor<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><em>align weapon (good only)</em></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/prayer">prayer<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>holy smite</em></td></tr>
-<tr><th scope="row">5th</th><td><em>dispel evil</em></td></tr>
-<tr><th scope="row">6th</th><td><Link to="/spell/planar_ally">planar ally<IonRippleEffect /></Link> (archon only)</td></tr>
-<tr><th scope="row">7th</th><td><em>holy word</em></td></tr>
-<tr><th scope="row">8th</th><td><em>holy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>summon monster IX (good spell only)</em></td></tr></tbody></table><h3 id="domain-good-azata-subdomain" data-hash-target>Azata Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={2} links={[[1,"divine favor","divine_favor"],[2,"align weapon",false,<>good only</>],[3,"prayer","prayer"],[4,"holy smite",false],[5,"dispel evil",false],[6,"planar ally","planar_ally",<>archon only</>],[7,"holy word",false],[8,"holy aura",false],[9,"summon monster IX",false,<>good spell only</>]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-good-azata-subdomain" data-hash-target>Azata Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 87</Link></p>
 <p><strong className="hl">Associated Domains:</strong> Chaos, Good<br/><strong className="hl">Associated Deities:</strong> <Link to="/faith/ashava">Ashava</Link>, <Link to="/faith/black_butterfly">Black Butterfly</Link>, <Link to="/faith/calistria">Calistria</Link>, <Link to="/faith/cayden_cailean">Cayden Cailean</Link>, <Link to="/faith/cernunnos">Cernunnos</Link>, <Link to="/faith/chadali">Chadali</Link>, <Link to="/faith/chucaro">Chucaro</Link>, <Link to="/faith/desna">Desna</Link>, <Link to="/faith/elion">Elion</Link>, <Link to="/faith/findeladlara">Findeladlara</Link>, <Link to="/faith/hathor">Hathor</Link>, <Link to="/faith/hembad">Hembad</Link>, <Link to="/faith/immonhiel">Immonhiel</Link>, <Link to="/faith/jalaijatali">Jalaijatali</Link>, <Link to="/faith/keltheald">Keltheald</Link>, <Link to="/faith/ketephys">Ketephys</Link>, <Link to="/faith/kofusachi">Kofusachi</Link>, <Link to="/faith/lalaci">Lalaci</Link>, <Link to="/faith/marishi">Marishi</Link>, <Link to="/faith/mazludeh">Mazludeh</Link>, <Link to="/faith/milani">Milani</Link>, <Link to="/faith/picoperi">Picoperi</Link>, <Link to="/faith/pulura">Pulura</Link>, <Link to="/faith/reymenda">Reymenda</Link>, <Link to="/faith/selket">Selket</Link>, <Link to="/faith/sinashakti">Sinashakti</Link>, <Link to="/faith/skode">Skode</Link>, <Link to="/faith/skrymir">Skrymir</Link>, <Link to="/faith/thisamet">Thisamet</Link>, <Link to="/faith/tolc">Tolc</Link>, <Link to="/faith/valani">Valani</Link>, <Link to="/faith/yuelral">Yuelral</Link></p>
 <p><Link to="/family/azata">Azatas</Link> are a race of chaotic good outsiders.</p>
@@ -399,15 +258,8 @@ const _good = {hasJL:true,title: "Good", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Standard Action">With a touch, you can imbue creatures with the spirit of Elysium, lifting their spirits and freeing them from bonds. The creatures touched can immediately reroll any failed saving throws against spells and spell-like abilities of the enchantment (charm) and enchantment (compulsion) subschools. In addition, targets receive a +2 sacred bonus on such saving throws and a +2 sacred bonus on CMB checks to escape a grapple. Finally, targets can ignore up to 5 feet of <Link to="/rule/difficult_terrain">difficult terrain</Link> each round, as if they had the <Link to="/feat/nimble_moves">Nimble Moves</Link> feat. These bonuses last for a number of rounds equal to 1/2 your cleric level (minimum 1), although the saving throw reroll only applies when the creature is touched.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/expeditious_retreat">expeditious retreat<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><em>align weapon (good only)</em></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/fly">fly<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>holy smite</em></td></tr>
-<tr><th scope="row">5th</th><td><em>dispel evil</em></td></tr>
-<tr><th scope="row">6th</th><td><Link to="/spell/planar_ally">planar ally<IonRippleEffect /></Link> (azata only)</td></tr>
-<tr><th scope="row">7th</th><td><em>holy word</em></td></tr>
-<tr><th scope="row">8th</th><td><em>holy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>summon monster IX (good spell only)</em></td></tr></tbody></table><h3 id="domain-good-friendship-subdomain" data-hash-target>Friendship Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={3} links={[[1,"expeditious retreat","expeditious_retreat"],[2,"align weapon",false,<>good only</>],[3,"fly","fly"],[4,"holy smite",false],[5,"dispel evil",false],[6,"planar ally","planar_ally",<>azata only</>],[7,"holy word",false],[8,"holy aura",false],[9,"summon monster IX",false,<>good spell only</>]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-good-friendship-subdomain" data-hash-target>Friendship Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods pg. 225</Link>, <Link to="/source/blood_of_angels">Blood of Angels pg. 27</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/chaldira">Chaldira</Link>, <Link to="/faith/elion">Elion</Link>, <Link to="/faith/findeladlara">Findeladlara</Link>, <Link to="/faith/grundinnar">Grundinnar</Link>, <Link to="/faith/lymnieris">Lymnieris</Link>, <Link to="/faith/lythertida">Lythertida</Link>, <Link to="/faith/omrataji">Omrataji</Link>, <Link to="/faith/seramaydiel">Seramaydiel</Link>, <Link to="/faith/sinashakti">Sinashakti</Link>, <Link to="/faith/upion_and_warrik">Upion and Warrik</Link></p><Ability id="powerful-bond-su" icon={["magic-swirl"]}>
 <Pair single id="powerful-bond-su">Powerful Bond (Su)</Pair>
@@ -415,15 +267,8 @@ const _good = {hasJL:true,title: "Good", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Free Action">You can open a link to communicate telepathically with a single ally within 60 feet. The telepathic link is two-way and lasts for 1 minute. Unlike normal telepathy, this ability requires a shared language.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>protection from evil</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/shield_other">shield other<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>magic circle against evil</em></td></tr>
-<tr><th scope="row">4th</th><td><em>holy smite</em></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/telepathic_bond">telepathic bond<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td><em>blade barrier</em></td></tr>
-<tr><th scope="row">7th</th><td><em>holy word</em></td></tr>
-<tr><th scope="row">8th</th><td><em>holy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>summon monster IX (good spell only)</em></td></tr></tbody></table><h3 id="domain-good-redemption-subdomain" data-hash-target>Redemption Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={4} links={[[1,"protection from evil",false],[2,"shield other","shield_other"],[3,"magic circle against evil",false],[4,"holy smite",false],[5,"telepathic bond","telepathic_bond"],[6,"blade barrier",false],[7,"holy word",false],[8,"holy aura",false],[9,"summon monster IX",false,<>good spell only</>]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-good-redemption-subdomain" data-hash-target>Redemption Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity pg. 21</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/sarenrae">Sarenrae</Link></p><Ability id="aura-of-sanctification-su" icon={["aura"]}>
 <Pair single id="aura-of-sanctification-su">Aura of Sanctification (Su)</Pair>
@@ -432,15 +277,8 @@ const _good = {hasJL:true,title: "Good", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
 <Pair title="Immediate Action">You can emit a 30-foot-radius aura of sanctification. Within this aura, effects that are specifically harmful to good-aligned creatures are inverted so that they no longer harm good creatures and instead harm evil creatures. Similarly, effects that are specifically beneficial to evil creatures instead become beneficial only to good creatures.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>protection from evil</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/qualm">qualm<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>magic circle against evil</em></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/forced_repentance">forced repentance<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/atonement">atonement<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td><em>blade barrier</em></td></tr>
-<tr><th scope="row">7th</th><td><em>holy word</em></td></tr>
-<tr><th scope="row">8th</th><td><em>holy aura</em></td></tr>
-<tr><th scope="row">9th</th><td><em>summon monster IX (good spell only)</em></td></tr></tbody></table></>};
+<SpellList id="replacement-domain-spells" count={5} links={[[1,"protection from evil",false],[2,"qualm","qualm"],[3,"magic circle against evil",false],[4,"forced repentance","forced_repentance"],[5,"atonement","atonement"],[6,"blade barrier",false],[7,"holy word",false],[8,"holy aura",false],[9,"summon monster IX",false,<>good spell only</>]]}>Replacement Domain Spells</SpellList>
+</>};
 const _archon = {title: "Archon", jsx: <><h2 id="domain-archon-archon">Archon</h2>
 <p>This subdomain is associated with both the <Link to="/domain/good">Good</Link> and <Link to="/domain/law">Law</Link> domains.</p>
 </>};
@@ -457,15 +295,8 @@ const _healing = {hasJL:true,title: "Healing", jsx: <><div className="jumpList" 
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Passive Ability">At 6th level, all of your <Link to="/main/cure_spells">cure spells</Link> are treated as if they were empowered, increasing the amount of damage healed by half (+50%). This does not apply to damage dealt to undead with a cure spell. This does not stack with the <Link to="/feat/empower_spell">Empower Spell</Link> metamagic feat.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/cure_light_wounds">cure light wounds<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/cure_moderate_wounds">cure moderate wounds<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/cure_serious_wounds">cure serious wounds<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/cure_critical_wounds">cure critical wounds<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/breath_of_life">breath of life<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/heal">heal<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/regenerate">regenerate<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/mass_cure_critical_wounds">mass cure critical wounds<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/mass_heal">mass heal<IonRippleEffect /></Link></td></tr></tbody></table><h3 id="domain-healing-medicine-subdomain" data-hash-target>Medicine Subdomain</h3>
+<SpellList id="domain-spells" links={[[1,"cure light wounds","cure_light_wounds"],[2,"cure moderate wounds","cure_moderate_wounds"],[3,"cure serious wounds","cure_serious_wounds"],[4,"cure critical wounds","cure_critical_wounds"],[5,"breath of life","breath_of_life"],[6,"heal","heal"],[7,"regenerate","regenerate"],[8,"mass cure critical wounds","mass_cure_critical_wounds"],[9,"mass heal","mass_heal"]]}>Domain Spells</SpellList>
+<h3 id="domain-healing-medicine-subdomain" data-hash-target>Medicine Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology pg. 24</Link></p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="domain-healing--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>This subdomain requires the <Link to="/trait/acolyte_of_apocrypha">Acolyte of Apocrypha</Link> trait to access.</td></tr></tbody></table></ScrollContainer></div><p><strong className="hl">Associated Deities:</strong> <Link to="/faith/dalenydra">Dalenydra</Link>, <Link to="/faith/immonhiel">Immonhiel</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/korada">Korada</Link>, <Link to="/faith/qi_zhong">Qi Zhong</Link>, <Link to="/faith/sarenrae">Sarenrae</Link></p><Ability id="blessed-surgery-su" icon={["remedy","rolling-dices"]}>
 <Pair single id="blessed-surgery-su" flavor="Your divine patron guides your healing hands, allowing you to perform minor miracles with mundane cures.">Blessed Surgery (Su)</Pair>
@@ -473,15 +304,8 @@ const _healing = {hasJL:true,title: "Healing", jsx: <><div className="jumpList" 
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Ability">You can use this ability when using the Heal skill in order to roll the check twice and take the higher result. When you're using this ability, any use of the Heal skill requiring 1 hour instead takes at most 1 minute.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/diagnose_disease">diagnose disease<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/placebo_effect">placebo effect<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>cure serious wounds</em></td></tr>
-<tr><th scope="row">4th</th><td><em>cure critical wounds</em></td></tr>
-<tr><th scope="row">5th</th><td><em>breath of life</em></td></tr>
-<tr><th scope="row">6th</th><td><em>heal</em></td></tr>
-<tr><th scope="row">7th</th><td><em>regenerate</em></td></tr>
-<tr><th scope="row">8th</th><td><em>mass cure critical wounds</em></td></tr>
-<tr><th scope="row">9th</th><td><em>mass heal</em></td></tr></tbody></table><h3 id="domain-healing-restoration-subdomain" data-hash-target>Restoration Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={1} links={[[1,"diagnose disease","diagnose_disease"],[2,"placebo effect","placebo_effect"],[3,"cure serious wounds",false],[4,"cure critical wounds",false],[5,"breath of life",false],[6,"heal",false],[7,"regenerate",false],[8,"mass cure critical wounds",false],[9,"mass heal",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-healing-restoration-subdomain" data-hash-target>Restoration Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 95</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/aesocar">Aesocar</Link>, <Link to="/faith/barravoclair">Barravoclair</Link>, <Link to="/faith/bolka">Bolka</Link>, <Link to="/faith/cihua_couatl">Cihua Couatl</Link>, <Link to="/faith/dalenydra">Dalenydra</Link>, <Link to="/faith/immonhiel">Immonhiel</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/jiraviddain">Jiraviddain</Link>, <Link to="/faith/korada">Korada</Link>, <Link to="/faith/lythertida">Lythertida</Link>, <Link to="/faith/marishi">Marishi</Link>, <Link to="/faith/milani">Milani</Link>, <Link to="/faith/osiris">Osiris</Link>, <Link to="/faith/qi_zhong">Qi Zhong</Link>, <Link to="/faith/raetorgash">Raetorgash</Link>, <Link to="/faith/reymenda">Reymenda</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>, <Link to="/faith/sekhmet">Sekhmet</Link>, <Link to="/faith/selket">Selket</Link></p><Ability id="restorative-touch-su" icon={["remedy"]}>
 <Pair single id="restorative-touch-su" flavor="You can touch a creature, letting the healing power of your deity flow through you to relieve the creature of a minor condition.">Restorative Touch (Su)</Pair>
@@ -489,15 +313,8 @@ const _healing = {hasJL:true,title: "Healing", jsx: <><div className="jumpList" 
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Standard Action">Your touch can remove the <Link to="/misc/dazed">dazed</Link>, <Link to="/misc/fatigued">fatigued</Link>, <Link to="/misc/shaken">shaken</Link>, <Link to="/misc/sickened">sickened</Link>, or <Link to="/misc/staggered">staggered</Link> condition. You choose which condition is removed.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>cure light wounds</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/remove_disease">remove disease<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>cure serious wounds</em></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/neutralize_poison">neutralize poison<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/break_enchantment">break enchantment<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td><em>heal</em></td></tr>
-<tr><th scope="row">7th</th><td><em>regenerate</em></td></tr>
-<tr><th scope="row">8th</th><td><em>mass cure critical wounds</em></td></tr>
-<tr><th scope="row">9th</th><td><em>mass heal</em></td></tr></tbody></table><h3 id="domain-healing-resurrection-subdomain" data-hash-target>Resurrection Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={2} links={[[1,"cure light wounds",false],[2,"remove disease","remove_disease"],[3,"cure serious wounds",false],[4,"neutralize poison","neutralize_poison"],[5,"break enchantment","break_enchantment"],[6,"heal",false],[7,"regenerate",false],[8,"mass cure critical wounds",false],[9,"mass heal",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-healing-resurrection-subdomain" data-hash-target>Resurrection Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 96</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/aerekostes">Aerekostes</Link>, <Link to="/faith/aesocar">Aesocar</Link>, <Link to="/faith/barravoclair">Barravoclair</Link>, <Link to="/faith/dalenydra">Dalenydra</Link>, <Link to="/faith/immonhiel">Immonhiel</Link>, <Link to="/faith/isis">Isis</Link>, <Link to="/faith/lorcan">Lorcan</Link>, <Link to="/faith/osiris">Osiris</Link>, <Link to="/faith/osolmyr">Osolmyr</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/qi_zhong">Qi Zhong</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>, <Link to="/faith/shei">Shei</Link>, <Link to="/faith/vildeis">Vildeis</Link></p><Ability id="gift-of-life-su" icon={["remedy"]}>
 <Pair single id="gift-of-life-su">Gift of Life (Su)</Pair>
@@ -506,15 +323,8 @@ const _healing = {hasJL:true,title: "Healing", jsx: <><div className="jumpList" 
 <Pair title="Usage">1 time/day + 1 per four cleric levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Standard Action">You can touch a creature that has died within the past minute to grant it a few moments of life. The dead creature returns to life for a number of rounds equal to your cleric level. Creatures returned to life in this way have a number of hit points equal to half your cleric level, and continue to be affected by any still-active spells, conditions, or afflictions present at the time of their death. At the end of this time, the creature dies again. The creature is free to act as it sees fit during this time. You are granted no control over it.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>cure light wounds</em></td></tr>
-<tr><th scope="row">2nd</th><td><em>cure moderate wounds</em></td></tr>
-<tr><th scope="row">3rd</th><td><em>cure serious wounds</em></td></tr>
-<tr><th scope="row">4th</th><td><em>cure critical wounds</em></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/raise_dead">raise dead<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td><em>heal</em></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/resurrection">resurrection<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td><em>mass cure critical wounds</em></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/true_resurrection">true resurrection<IonRippleEffect /></Link></td></tr></tbody></table><h3 id="domain-healing-variant-domain-powers" data-hash-target>Variant Domain Powers</h3>
+<SpellList id="replacement-domain-spells" count={3} links={[[1,"cure light wounds",false],[2,"cure moderate wounds",false],[3,"cure serious wounds",false],[4,"cure critical wounds",false],[5,"raise dead","raise_dead"],[6,"heal",false],[7,"resurrection","resurrection"],[8,"mass cure critical wounds",false],[9,"true resurrection","true_resurrection"]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-healing-variant-domain-powers" data-hash-target>Variant Domain Powers</h3>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook</Link><br/>A cleric (or any other character capable of selecting a domain) who worships the deity in question can choose to gain the variant domain power upon first gaining the domain in question, but the choice to replace the domain power must be made immediately upon gaining access to that domain and cannot be changed thereafter.</p>
 <h4 id="domain-healing-irori">Irori</h4>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 8</Link></p>
@@ -543,15 +353,8 @@ const _knowledge = {hasJL:true,title: "Knowledge", jsx: <><div className="jumpLi
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
 <Pair title="Standard Action">You can use <Link to="/spell/clairvoyance_clairaudience">clairvoyance/clairaudience</Link> at will as a spell-like ability using your cleric level as the caster level.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/comprehend_languages">comprehend languages<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/detect_thoughts">detect thoughts<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/speak_with_dead">speak with dead<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/divination">divination<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/true_seeing">true seeing<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/find_the_path">find the path<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/legend_lore">legend lore<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/discern_location">discern location<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/foresight">foresight<IonRippleEffect /></Link></td></tr></tbody></table><h3 id="domain-knowledge-aeon-subdomain" data-hash-target>Aeon Subdomain</h3>
+<SpellList id="domain-spells" links={[[1,"comprehend languages","comprehend_languages"],[2,"detect thoughts","detect_thoughts"],[3,"speak with dead","speak_with_dead"],[4,"divination","divination"],[5,"true seeing","true_seeing"],[6,"find the path","find_the_path"],[7,"legend lore","legend_lore"],[8,"discern location","discern_location"],[9,"foresight","foresight"]]}>Domain Spells</SpellList>
+<h3 id="domain-knowledge-aeon-subdomain" data-hash-target>Aeon Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance pg. 16</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/sivanah">Sivanah</Link></p><p><Link to="/family/aeon">Aeons</Link> are a race of neutral outsiders.</p>
 <Ability id="void-form-su" icon={["upgrade"]}>
@@ -561,15 +364,8 @@ const _knowledge = {hasJL:true,title: "Knowledge", jsx: <><div className="jumpLi
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
 <Pair title="Standard Action">You can become semi-tangible. While in this form, you are immune to critical hits and gain a deflection bonus to AC equal to <Link to="/misc/one_fourth">one-fourth</Link> of your cleric level.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/sanctuary">sanctuary<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><em>detect thoughts</em></td></tr>
-<tr><th scope="row">3rd</th><td><em>speak with dead</em></td></tr>
-<tr><th scope="row">4th</th><td><em>divination</em></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/telepathic_bond">telepathic bond<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td><Link to="/spell/planar_binding">planar binding<IonRippleEffect /></Link> (aeons only)</td></tr>
-<tr><th scope="row">7th</th><td><em>legend lore</em></td></tr>
-<tr><th scope="row">8th</th><td><em>discern location</em></td></tr>
-<tr><th scope="row">9th</th><td><em>foresight</em></td></tr></tbody></table><h3 id="domain-knowledge-education-subdomain" data-hash-target>Education Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={1} links={[[1,"sanctuary","sanctuary"],[2,"detect thoughts",false],[3,"speak with dead",false],[4,"divination",false],[5,"telepathic bond","telepathic_bond"],[6,"planar binding","planar_binding",<>aeons only</>],[7,"legend lore",false],[8,"discern location",false],[9,"foresight",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-knowledge-education-subdomain" data-hash-target>Education Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 18</Link></p>
 <p><strong className="hl">Associated Domains:</strong> Community, Knowledge<br/><strong className="hl">Associated Deities:</strong> <Link to="/faith/abraxas">Abraxas</Link>, <Link to="/faith/andoletta">Andoletta</Link>, <Link to="/faith/bergelmir">Bergelmir</Link>, <Link to="/faith/bharnarol">Bharnarol</Link>, <Link to="/faith/elion">Elion</Link>, <Link to="/faith/erastil">Erastil</Link>, <Link to="/faith/eritrice">Eritrice</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/shei">Shei</Link>, <Link to="/faith/svarozic">Svarozic</Link></p>
 <Ability id="teaching-moment-su" icon={["rolling-dices"]}>
@@ -579,15 +375,8 @@ const _knowledge = {hasJL:true,title: "Knowledge", jsx: <><div className="jumpLi
 <Pair title="Usage">1 time/day + 1 per four cleric levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Immediate Action">When you or an ally within 30 feet rolls a natural 1 or a natural 20 on an attack roll, an ability check, a skill check, or a saving throw, you can grant all allies within 30 feet special insights that help them overcome similar challenges. Once during the next minute, each affected creature can choose to roll twice and take the better result before attempting an attack roll, ability check, skill check, or saving throw.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/know_the_enemy">know the enemy<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/foxs_cunning">fox's cunning<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>speak with dead</em></td></tr>
-<tr><th scope="row">4th</th><td><em>divination</em></td></tr>
-<tr><th scope="row">5th</th><td><em>true seeing</em></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/battlemind_link">battlemind link<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>legend lore</em></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/circle_of_clarity">circle of clarity<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td><em>foresight</em></td></tr></tbody></table><h3 id="domain-knowledge-espionage-subdomain" data-hash-target>Espionage Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={2} links={[[1,"know the enemy","know_the_enemy"],[2,"fox's cunning","foxs_cunning"],[3,"speak with dead",false],[4,"divination",false],[5,"true seeing",false],[6,"battlemind link","battlemind_link"],[7,"legend lore",false],[8,"circle of clarity","circle_of_clarity"],[9,"foresight",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-knowledge-espionage-subdomain" data-hash-target>Espionage Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 18</Link></p>
 <p><strong className="hl">Associated Domains:</strong> Knowledge, Trickery<br/><strong className="hl">Associated Deities:</strong> <Link to="/faith/droskar">Droskar</Link>, <Link to="/faith/erecura">Erecura</Link>, <Link to="/faith/kelinahat">Kelinahat</Link>, <Link to="/faith/norgorber">Norgorber</Link></p>
 <Ability id="deep-cover-su" icon={["armor-upgrade"]}>
@@ -595,15 +384,8 @@ const _knowledge = {hasJL:true,title: "Knowledge", jsx: <><div className="jumpLi
 <Pair hl title="Replaces">The <InnerLink toTop to="domain-knowledge-lore">lore keeper</InnerLink> power of the Knowledge domain</Pair>
 <Pair title="Ability">When you prepare your spells, you can also choose one cover identity - whether that of a real person or a fictitious one. You can assume the disguise of your cover identity in half the normal amount of time. When targeted by a spell or effect that would compromise your chosen disguise (such as <Link to="/spell/detect_evil">detect evil</Link>, <Link to="/spell/detect_thoughts">detect thoughts</Link>, or <Link to="/spell/zone_of_truth">zone of truth</Link>), as an immediate action you can force the creature using the ability to attempt a Will save (DC = 10 + 1/2 your cleric level + your Wisdom modifier). If the creature fails, it gains false information in keeping with your cover identity. You can use this false information ability a number of times per day equal to 3 + your Wisdom modifier.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>comprehend languages</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/anonymous_interaction">anonymous interaction<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>speak with dead</em></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/zone_of_silence">zone of silence<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td><em>true seeing</em></td></tr>
-<tr><th scope="row">6th</th><td><em>find the path</em></td></tr>
-<tr><th scope="row">7th</th><td><em>legend lore</em></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/mind_blank">mind blank<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td><em>foresight</em></td></tr></tbody></table><h3 id="domain-knowledge-memory-subdomain" data-hash-target>Memory Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={3} links={[[1,"comprehend languages",false],[2,"anonymous interaction","anonymous_interaction"],[3,"speak with dead",false],[4,"zone of silence","zone_of_silence"],[5,"true seeing",false],[6,"find the path",false],[7,"legend lore",false],[8,"mind blank","mind_blank"],[9,"foresight",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-knowledge-memory-subdomain" data-hash-target>Memory Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 93</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/abraxas">Abraxas</Link>, <Link to="/faith/aerekostes">Aerekostes</Link>, <Link to="/faith/andoletta">Andoletta</Link>, <Link to="/faith/bergelmir">Bergelmir</Link>, <Link to="/faith/braismois">Braismois</Link>, <Link to="/faith/calcabrina">Calcabrina</Link>, <Link to="/faith/calistria">Calistria</Link>, <Link to="/faith/charon">Charon</Link>, <Link to="/faith/crocell">Crocell</Link>, <Link to="/faith/dranngvit">Dranngvit</Link>, <Link to="/faith/erecura">Erecura</Link>, <Link to="/faith/eritrice">Eritrice</Link>, <Link to="/faith/fandarra">Fandarra</Link>, <Link to="/faith/farfarello">Farfarello</Link>, <Link to="/faith/fharaas">Fharaas</Link>, <Link to="/faith/hydim">Hydim</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/kabriri">Kabriri</Link>, <Link to="/faith/kroina">Kroina</Link>, <Link to="/faith/lissala">Lissala</Link>, <Link to="/faith/lissala_pre_earthfall">Lissala (pre-Earthfall)</Link>, <Link to="/faith/malthus">Malthus</Link>, <Link to="/faith/mazludeh">Mazludeh</Link>, <Link to="/faith/mephistopheles">Mephistopheles</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/nyarlathotep_black_pharaoh">Nyarlathotep (Black Pharaoh)</Link>, <Link to="/faith/nyarlathotep_faceless_sphinx">Nyarlathotep (Faceless Sphinx)</Link>, <Link to="/faith/nyarlathotep_haunter_of_the_dark">Nyarlathotep (Haunter of the Dark)</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/qi_zhong">Qi Zhong</Link>, <Link to="/faith/rytara">Rytara</Link>, <Link to="/faith/shawnari">Shawnari</Link>, <Link to="/faith/sivanah">Sivanah</Link>, <Link to="/faith/stygidvod">Stygidvod</Link>, <Link to="/faith/the_lost_prince">The Lost Prince</Link>, <Link to="/faith/thoth">Thoth</Link>, <Link to="/faith/titivilus">Titivilus</Link>, <Link to="/faith/ulon">Ulon</Link>, <Link to="/faith/vapula">Vapula</Link>, <Link to="/faith/velgaas">Velgaas</Link>, <Link to="/faith/yog_sothoth">Yog-Sothoth</Link>, <Link to="/faith/yuelral">Yuelral</Link></p><Ability id="recall-su" icon={["rolling-dices","upgrade"]}>
 <Pair single id="recall-su">Recall (Su)</Pair>
@@ -611,15 +393,8 @@ const _knowledge = {hasJL:true,title: "Knowledge", jsx: <><div className="jumpLi
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Standard Action">With a touch, you can cause a creature to recall some bit of forgotten lore or information. The creature can retry any Knowledge skill check it has made within the past minute, gaining an insight bonus on the check equal to your Wisdom modifier.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>comprehend languages</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/memory_lapse">memory lapse<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>speak with dead</em></td></tr>
-<tr><th scope="row">4th</th><td><em>divination</em></td></tr>
-<tr><th scope="row">5th</th><td><em>true seeing</em></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/modify_memory">modify memory<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>legend lore</em></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/moment_of_prescience">moment of prescience<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td><em>foresight</em></td></tr></tbody></table><h3 id="domain-knowledge-thought-subdomain" data-hash-target>Thought Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={4} links={[[1,"comprehend languages",false],[2,"memory lapse","memory_lapse"],[3,"speak with dead",false],[4,"divination",false],[5,"true seeing",false],[6,"modify memory","modify_memory"],[7,"legend lore",false],[8,"moment of prescience","moment_of_prescience"],[9,"foresight",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-knowledge-thought-subdomain" data-hash-target>Thought Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 97</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/abraxas">Abraxas</Link>, <Link to="/faith/amaznen">Amaznen</Link>, <Link to="/faith/bharnarol">Bharnarol</Link>, <Link to="/faith/brigh">Brigh</Link>, <Link to="/faith/erecura">Erecura</Link>, <Link to="/faith/eritrice">Eritrice</Link>, <Link to="/faith/fandarra">Fandarra</Link>, <Link to="/faith/farfarello">Farfarello</Link>, <Link to="/faith/hydim">Hydim</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/kelinahat">Kelinahat</Link>, <Link to="/faith/kroina">Kroina</Link>, <Link to="/faith/lissala">Lissala</Link>, <Link to="/faith/lissala_pre_earthfall">Lissala (pre-Earthfall)</Link>, <Link to="/faith/maat">Maat</Link>, <Link to="/faith/magdh">Magdh</Link>, <Link to="/faith/mephistopheles">Mephistopheles</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/ng">Ng</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/nyarlathotep_black_pharaoh">Nyarlathotep (Black Pharaoh)</Link>, <Link to="/faith/nyarlathotep_faceless_sphinx">Nyarlathotep (Faceless Sphinx)</Link>, <Link to="/faith/nyarlathotep_haunter_of_the_dark">Nyarlathotep (Haunter of the Dark)</Link>, <Link to="/faith/pavnuri">Pavnuri</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/ptah">Ptah</Link>, <Link to="/faith/rytara">Rytara</Link>, <Link to="/faith/sivanah">Sivanah</Link>, <Link to="/faith/slandrais">Slandrais</Link>, <Link to="/faith/thuskchoon">Thuskchoon</Link>, <Link to="/faith/tsathoggua">Tsathoggua</Link>, <Link to="/faith/ulon">Ulon</Link>, <Link to="/faith/vapula">Vapula</Link>, <Link to="/faith/velgaas">Velgaas</Link>, <Link to="/faith/yog_sothoth">Yog-Sothoth</Link>, <Link to="/faith/zohls">Zohls</Link></p><Ability id="read-minds-su" icon={["magic-swirl"]}>
 <Pair single id="read-minds-su">Read Minds (Su)</Pair>
@@ -628,15 +403,8 @@ const _knowledge = {hasJL:true,title: "Knowledge", jsx: <><div className="jumpLi
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
 <Pair title="Standard Action">You can broaden your mental spectrum to encompass those around you. Doing so allows you to read the mind of every creature within 30 feet as if you had cast <Link to="/spell/detect_thoughts">detect thoughts</Link>. This ability allows you to read the surface thoughts of any creature that you are aware of after only 1 round of concentration. Creatures in this area are allowed a Will save to negate the effect. The DC of this Will save is 10 + 1/2 your cleric level + your Wisdom modifier.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>comprehend languages</em></td></tr>
-<tr><th scope="row">2nd</th><td><em>detect thoughts</em></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/seek_thoughts">seek thoughts<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>divination</em></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/telepathic_bond">telepathic bond<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td><em>find the path</em></td></tr>
-<tr><th scope="row">7th</th><td><em>legend lore</em></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/mind_blank">mind blank<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td><em>foresight</em></td></tr></tbody></table></>};
+<SpellList id="replacement-domain-spells" count={5} links={[[1,"comprehend languages",false],[2,"detect thoughts",false],[3,"seek thoughts","seek_thoughts"],[4,"divination",false],[5,"telepathic bond","telepathic_bond"],[6,"find the path",false],[7,"legend lore",false],[8,"mind blank","mind_blank"],[9,"foresight",false]]}>Replacement Domain Spells</SpellList>
+</>};
 const _espionage = {title: "Espionage", jsx: <><h2 id="domain-espionage-espionage">Espionage</h2>
 <p>This subdomain is associated with both the <Link to="/domain/knowledge">Knowledge</Link> and <Link to="/domain/trickery">Trickery</Link> domains.</p>
 </>};
@@ -659,15 +427,8 @@ const _travel = {hasJL:true,title: "Travel", jsx: <><div className="jumpList" id
 <Pair title="Move-Equivalent Action">You can teleport. You must have line of sight to your destination to use this ability. You can bring other willing creatures with you, but you must expend an equal amount of distance for each creature brought.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/longstrider">longstrider<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/locate_object">locate object<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/fly">fly<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/dimension_door">dimension door<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/teleport">teleport<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/find_the_path">find the path<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/greater_teleport">greater teleport<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/phase_door">phase door<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/astral_projection">astral projection<IonRippleEffect /></Link></td></tr></tbody></table><h3 id="domain-travel-exploration-subdomain" data-hash-target>Exploration Subdomain</h3>
+<SpellList id="domain-spells" links={[[1,"longstrider","longstrider"],[2,"locate object","locate_object"],[3,"fly","fly"],[4,"dimension door","dimension_door"],[5,"teleport","teleport"],[6,"find the path","find_the_path"],[7,"greater teleport","greater_teleport"],[8,"phase door","phase_door"],[9,"astral projection","astral_projection"]]}>Domain Spells</SpellList>
+<h3 id="domain-travel-exploration-subdomain" data-hash-target>Exploration Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 90</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/aegirran">Aegirran</Link>, <Link to="/faith/apsu">Apsu</Link>, <Link to="/faith/cayden_cailean">Cayden Cailean</Link>, <Link to="/faith/chimon">Chimon</Link>, <Link to="/faith/count_ranalc">Count Ranalc</Link>, <Link to="/faith/desna">Desna</Link>, <Link to="/faith/dranngvit">Dranngvit</Link>, <Link to="/faith/eligos">Eligos</Link>, <Link to="/faith/elion">Elion</Link>, <Link to="/faith/folca">Folca</Link>, <Link to="/faith/hanspur">Hanspur</Link>, <Link to="/faith/hathor">Hathor</Link>, <Link to="/faith/jaidz">Jaidz</Link>, <Link to="/faith/kelizandri">Kelizandri</Link>, <Link to="/faith/keltheald">Keltheald</Link>, <Link to="/faith/kofusachi">Kofusachi</Link>, <Link to="/faith/morrobahn">Morrobahn</Link>, <Link to="/faith/ng">Ng</Link>, <Link to="/faith/nocticula_redeemed">Nocticula (Redeemed)</Link>, <Link to="/faith/onos">Onos</Link>, <Link to="/faith/pharimia">Pharimia</Link>, <Link to="/faith/quindiovatos">Quindiovatos</Link>, <Link to="/faith/sinashakti">Sinashakti</Link>, <Link to="/faith/socothbenoth">Socothbenoth</Link>, <Link to="/faith/sun_wukong">Sun Wukong</Link>, <Link to="/faith/tolc">Tolc</Link>, <Link to="/faith/wadjet">Wadjet</Link>, <Link to="/faith/yog_sothoth">Yog-Sothoth</Link>, <Link to="/faith/zohls">Zohls</Link></p><Ability id="door-sight-su" icon={["magic-swirl"]}>
 <Pair single id="door-sight-su">Door Sight (Su)</Pair>
@@ -675,15 +436,8 @@ const _travel = {hasJL:true,title: "Travel", jsx: <><div className="jumpList" id
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Ability">You can lay your hand upon any surface and see what is on the other side, as if using <Link to="/spell/clairvoyance">clairvoyance</Link>. Using this power takes 1 minute, during which time you must be touching the surface you want to see through. You can keep looking for as long as 10 minutes with each use of this power, but must touch the surface and take no other action the entire time. The surface cannot be thicker than 6 inches plus 1 inch per cleric level you possess.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/expeditious_retreat">expeditious retreat<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><em>locate object</em></td></tr>
-<tr><th scope="row">3rd</th><td><em>fly</em></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/locate_creature">locate creature<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td><em>teleport</em></td></tr>
-<tr><th scope="row">6th</th><td><em>find the path</em></td></tr>
-<tr><th scope="row">7th</th><td><em>greater teleport</em></td></tr>
-<tr><th scope="row">8th</th><td><em>phase door</em></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/world_wave">world wave<IonRippleEffect /></Link></td></tr></tbody></table><h3 id="domain-travel-portal-subdomain" data-hash-target>Portal Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={1} links={[[1,"expeditious retreat","expeditious_retreat"],[2,"locate object",false],[3,"fly",false],[4,"locate creature","locate_creature"],[5,"teleport",false],[6,"find the path",false],[7,"greater teleport",false],[8,"phase door",false],[9,"world wave","world_wave"]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-travel-portal-subdomain" data-hash-target>Portal Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology pg. 25</Link></p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="domain-travel--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>This subdomain requires the <Link to="/trait/acolyte_of_apocrypha">Acolyte of Apocrypha</Link> trait to access.</td></tr></tbody></table></ScrollContainer></div><p><strong className="hl">Associated Deities:</strong> <Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/alseta">Alseta</Link>, <Link to="/faith/barbatos">Barbatos</Link>, <Link to="/faith/onos">Onos</Link>, <Link to="/faith/yog_sothoth">Yog-Sothoth</Link></p><Ability id="sacred-threshold-su" icon={["magic-swirl"]}>
 <Pair single id="sacred-threshold-su">Sacred Threshold (Su)</Pair>
@@ -696,15 +450,8 @@ const _travel = {hasJL:true,title: "Travel", jsx: <><div className="jumpList" id
 <Pair hl title="Replaces">The <InnerLink toTop to="domain-travel-feet">agile feet</InnerLink> power of the Travel domain</Pair>
 <Pair title="Passive Ability">When you cast a spell with the teleportation descriptor, treat your caster level as 3 higher for the purpose of determining how many additional creatures you can bring with you. In addition, you and any creatures you teleport gain a number of temporary hit points equal to your level that disappear after you reach your destination; these offset any damage you might take from teleportation mishaps or attempting to teleport into a solid body.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/open_and_shut">open and shut<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/knock">knock<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/urban_step">urban step<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>dimension door</em></td></tr>
-<tr><th scope="row">5th</th><td><em>teleport</em></td></tr>
-<tr><th scope="row">6th</th><td><em>find the path</em></td></tr>
-<tr><th scope="row">7th</th><td><em>greater teleport</em></td></tr>
-<tr><th scope="row">8th</th><td><em>phase door</em></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/teleportation_circle">teleportation circle<IonRippleEffect /></Link></td></tr></tbody></table><h3 id="domain-travel-trade-subdomain" data-hash-target>Trade Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={2} links={[[1,"open and shut","open_and_shut"],[2,"knock","knock"],[3,"urban step","urban_step"],[4,"dimension door",false],[5,"teleport",false],[6,"find the path",false],[7,"greater teleport",false],[8,"phase door",false],[9,"teleportation circle","teleportation_circle"]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-travel-trade-subdomain" data-hash-target>Trade Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 97</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/apsu">Apsu</Link>, <Link to="/faith/barbatos">Barbatos</Link>, <Link to="/faith/cagnazzo">Cagnazzo</Link>, <Link to="/faith/hanspur">Hanspur</Link>, <Link to="/faith/hathor">Hathor</Link>, <Link to="/faith/kofusachi">Kofusachi</Link>, <Link to="/faith/kurgess">Kurgess</Link>, <Link to="/faith/matravash">Matravash</Link>, <Link to="/faith/ng">Ng</Link>, <Link to="/faith/pharimia">Pharimia</Link>, <Link to="/faith/ptah">Ptah</Link>, <Link to="/faith/rowdrosh">Rowdrosh</Link>, <Link to="/faith/wadjet">Wadjet</Link></p><Ability id="silver-tongued-haggler-su" icon={["upgrade"]}>
 <Pair single id="silver-tongued-haggler-su">Silver-Tongued Haggler (Su)</Pair>
@@ -712,15 +459,8 @@ const _travel = {hasJL:true,title: "Travel", jsx: <><div className="jumpList" id
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Free Action">Whenever you make a Bluff, Diplomacy, or Sense Motive check, you can grant yourself a bonus on the roll equal to 1/2 your cleric level (minimum +1).</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/floating_disk">floating disk<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><em>locate object</em></td></tr>
-<tr><th scope="row">3rd</th><td><em>fly</em></td></tr>
-<tr><th scope="row">4th</th><td><em>dimension door</em></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/overland_flight">overland flight<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td><em>find the path</em></td></tr>
-<tr><th scope="row">7th</th><td><em>greater teleport</em></td></tr>
-<tr><th scope="row">8th</th><td><em>phase door</em></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/gate">gate<IonRippleEffect /></Link></td></tr></tbody></table></>};
+<SpellList id="replacement-domain-spells" count={3} links={[[1,"floating disk","floating_disk"],[2,"locate object",false],[3,"fly",false],[4,"dimension door",false],[5,"overland flight","overland_flight"],[6,"find the path",false],[7,"greater teleport",false],[8,"phase door",false],[9,"gate","gate"]]}>Replacement Domain Spells</SpellList>
+</>};
 const _trickery = {hasJL:true,title: "Trickery", jsx: <><div className="jumpList" id="domain-trickery-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="domain-trickery-ambush-subdomain">Ambush Subdomain</InnerLink></li><li><InnerLink toTop to="domain-trickery-deception-subdomain">Deception Subdomain</InnerLink></li><li><InnerLink toTop to="domain-trickery-espionage-subdomain">Espionage Subdomain</InnerLink></li><li><InnerLink toTop to="domain-trickery-greed-subdomain">Greed Subdomain</InnerLink></li><li><InnerLink toTop to="domain-trickery-innuendo-subdomain">Innuendo Subdomain</InnerLink></li><li><InnerLink toTop to="domain-trickery-thievery-subdomain">Thievery Subdomain</InnerLink></li><li><InnerLink toTop to="domain-trickery-variant-domain-powers">Variant Domain Powers</InnerLink></li></ul></div><h2 id="domain-trickery-trickery">Trickery</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 48</Link></p>
 <p><strong>Deities:</strong> <Link to="/faith/achaekek">Achaekek</Link>, <Link to="/faith/aesdurath">Aesdurath</Link>, <Link to="/faith/aksha">Aksha</Link>, <Link to="/faith/alichino">Alichino</Link>, <Link to="/faith/andirifkhu">Andirifkhu</Link>, <Link to="/faith/areshkagal">Areshkagal</Link>, <Link to="/faith/aroggus">Aroggus</Link>, <Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/bastet">Bastet</Link>, <Link to="/faith/besmara">Besmara</Link>, <Link to="/faith/braismois">Braismois</Link>, <Link to="/faith/bundha">Bundha</Link>, <Link to="/faith/caera">Caera</Link>, <Link to="/faith/calistria">Calistria</Link>, <Link to="/faith/camazotz">Camazotz</Link>, <Link to="/faith/chaldira">Chaldira</Link>, <Link to="/faith/chimon">Chimon</Link>, <Link to="/faith/chupurvagasti">Chupurvagasti</Link>, <Link to="/faith/corosbel">Corosbel</Link>, <Link to="/faith/dachzerul">Dachzerul</Link>, <Link to="/faith/dahak">Dahak</Link>, <Link to="/faith/dhalavei">Dhalavei</Link>, <Link to="/faith/dispater">Dispater</Link>, <Link to="/faith/dradjit">Dradjit</Link>, <Link to="/faith/droskar">Droskar</Link>, <Link to="/faith/erecura">Erecura</Link>, <Link to="/faith/folca">Folca</Link>, <Link to="/faith/gavidya">Gavidya</Link>, <Link to="/faith/grandmother_spider">Grandmother Spider</Link>, <Link to="/faith/hudima">Hudima</Link>, <Link to="/faith/isph_aun_vuln">Isph-Aun-Vuln</Link>, <Link to="/faith/jezelda">Jezelda</Link>, <Link to="/faith/jyotah">Jyotah</Link>, <Link to="/faith/khepri">Khepri</Link>, <Link to="/faith/kroakoth">Kro'akoth</Link>, <Link to="/faith/kunkarna">Kunkarna</Link>, <Link to="/faith/laivatiniel">Laivatiniel</Link>, <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/faith/lao_shu_po">Lao Shu Po</Link>, <Link to="/faith/lorthact">Lorthact</Link>, <Link to="/faith/mahathallah">Mahathallah</Link>, <Link to="/faith/menxyr">Menxyr</Link>, <Link to="/faith/mestama">Mestama</Link>, <Link to="/faith/muronna">Muronna</Link>, <Link to="/faith/mursha">Mursha</Link>, <Link to="/faith/nalmungder">Nalmungder</Link>, <Link to="/faith/nivi_rhombodazzle">Nivi Rhombodazzle</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/nyarlathotep_black_pharaoh">Nyarlathotep (Black Pharaoh)</Link>, <Link to="/faith/otikaya">Otikaya</Link>, <Link to="/faith/pazuzu">Pazuzu</Link>, <Link to="/faith/picoperi">Picoperi</Link>, <Link to="/faith/prihasta">Prihasta</Link>, <Link to="/faith/ravana">Ravana</Link>, <Link to="/faith/ruzel">Ruzel</Link>, <Link to="/faith/sifkesh">Sifkesh</Link>, <Link to="/faith/sivanah">Sivanah</Link>, <Link to="/faith/skrymir">Skrymir</Link>, <Link to="/faith/ssilameshnik">Ssila'meshnik</Link>, <Link to="/faith/sun_wukong">Sun Wukong</Link>, <Link to="/faith/surpa">Surpa</Link>, <Link to="/faith/thamir_gixx">Thamir Gixx</Link>, <Link to="/faith/the_lantern_king">The Lantern King</Link>, <Link to="/faith/titivilus">Titivilus</Link>, <Link to="/faith/ulon">Ulon</Link>, <Link to="/faith/verex">Verex</Link>, <Link to="/faith/vibhishah">Vibhishah</Link>, <Link to="/faith/xhamen_dor">Xhamen-Dor</Link>, <Link to="/faith/yaezhing">Yaezhing</Link>, <Link to="/faith/ydajisk">Ydajisk</Link>, <Link to="/faith/zabha">Zabha</Link>, <Link to="/faith/zepar">Zepar</Link>, <Link to="/faith/zogmugot">Zogmugot</Link>, <Link to="/faith/zursvaater">Zursvaater</Link></p><p><strong className="hl">Granted Powers:</strong> You are a master of illusions and deceptions.</p>
@@ -738,15 +478,8 @@ const _trickery = {hasJL:true,title: "Trickery", jsx: <><div className="jumpList
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Standard Action">You can create an illusion that hides the appearance of yourself and any number of allies within 30 feet for 1 round per cleric level. This ability otherwise functions like the spell <Link to="/spell/veil">veil</Link>. The save DC to disbelive this effect is equal to 10 + 1/2 your cleric level + your Wisdom modifier.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/disguise_self">disguise self<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/invisibility">invisibility<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/nondetection">nondetection<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/confusion">confusion<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/false_vision">false vision<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/mislead">mislead<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/screen">screen<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/mass_invisibility">mass invisibility<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/time_stop">time stop<IonRippleEffect /></Link></td></tr></tbody></table><h3 id="domain-trickery-ambush-subdomain" data-hash-target>Ambush Subdomain</h3>
+<SpellList id="domain-spells" links={[[1,"disguise self","disguise_self"],[2,"invisibility","invisibility"],[3,"nondetection","nondetection"],[4,"confusion","confusion"],[5,"false vision","false_vision"],[6,"mislead","mislead"],[7,"screen","screen"],[8,"mass invisibility","mass_invisibility"],[9,"time stop","time_stop"]]}>Domain Spells</SpellList>
+<h3 id="domain-trickery-ambush-subdomain" data-hash-target>Ambush Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion pg. 13</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/kroakoth">Kro'akoth</Link></p><p><strong className="hl">Replacement Power:</strong> Note: Only creatures with the <Link to="/trait/kobold_faith">Kobold Faith</Link> trait can take this subdomain.</p>
 <Ability id="chameleon-aspect-su" icon={["upgrade"]}>
@@ -755,15 +488,8 @@ const _trickery = {hasJL:true,title: "Trickery", jsx: <><div className="jumpList
 <Pair title="Usage">3 + Wis modifier rounds/day</Pair>
 <Pair title="Swift Action">You can subtly alter the color of your scales, blending them with the surrounding environment. While under the effect of this power, you gain <Link to="/rule/concealment">concealment</Link> from creatures more than 10 feet away (attacks have a 20% miss chance), and total concealment from creatures more than 40 feet away (attacks have a 50% miss chance).</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/alarm">alarm<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><em>invisibility</em></td></tr>
-<tr><th scope="row">3rd</th><td><em>nondetection</em></td></tr>
-<tr><th scope="row">4th</th><td><em>confusion</em></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/illusory_wall">illusory wall<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/veil">veil<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>screen</em></td></tr>
-<tr><th scope="row">8th</th><td><em>mass invisibility</em></td></tr>
-<tr><th scope="row">9th</th><td><em>time stop</em></td></tr></tbody></table><h3 id="domain-trickery-deception-subdomain" data-hash-target>Deception Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={1} links={[[1,"alarm","alarm"],[2,"invisibility",false],[3,"nondetection",false],[4,"confusion",false],[5,"illusory wall","illusory_wall"],[6,"veil","veil"],[7,"screen",false],[8,"mass invisibility",false],[9,"time stop",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-trickery-deception-subdomain" data-hash-target>Deception Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 89</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/achaekek">Achaekek</Link>, <Link to="/faith/aksha">Aksha</Link>, <Link to="/faith/alichino">Alichino</Link>, <Link to="/faith/andirifkhu">Andirifkhu</Link>, <Link to="/faith/areshkagal">Areshkagal</Link>, <Link to="/faith/aroggus">Aroggus</Link>, <Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/bastet">Bastet</Link>, <Link to="/faith/besmara">Besmara</Link>, <Link to="/faith/braismois">Braismois</Link>, <Link to="/faith/bundha">Bundha</Link>, <Link to="/faith/caera">Caera</Link>, <Link to="/faith/calistria">Calistria</Link>, <Link to="/faith/camazotz">Camazotz</Link>, <Link to="/faith/chimon">Chimon</Link>, <Link to="/faith/chupurvagasti">Chupurvagasti</Link>, <Link to="/faith/corosbel">Corosbel</Link>, <Link to="/faith/dachzerul">Dachzerul</Link>, <Link to="/faith/dahak">Dahak</Link>, <Link to="/faith/dispater">Dispater</Link>, <Link to="/faith/dradjit">Dradjit</Link>, <Link to="/faith/droskar">Droskar</Link>, <Link to="/faith/erecura">Erecura</Link>, <Link to="/faith/folca">Folca</Link>, <Link to="/faith/gavidya">Gavidya</Link>, <Link to="/faith/hudima">Hudima</Link>, <Link to="/faith/isph_aun_vuln">Isph-Aun-Vuln</Link>, <Link to="/faith/jezelda">Jezelda</Link>, <Link to="/faith/jyotah">Jyotah</Link>, <Link to="/faith/khepri">Khepri</Link>, <Link to="/faith/kroakoth">Kro'akoth</Link>, <Link to="/faith/kunkarna">Kunkarna</Link>, <Link to="/faith/laivatiniel">Laivatiniel</Link>, <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/faith/lorthact">Lorthact</Link>, <Link to="/faith/mahathallah">Mahathallah</Link>, <Link to="/faith/mestama">Mestama</Link>, <Link to="/faith/muronna">Muronna</Link>, <Link to="/faith/mursha">Mursha</Link>, <Link to="/faith/nalmungder">Nalmungder</Link>, <Link to="/faith/nivi_rhombodazzle">Nivi Rhombodazzle</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/nyarlathotep_black_pharaoh">Nyarlathotep (Black Pharaoh)</Link>, <Link to="/faith/otikaya">Otikaya</Link>, <Link to="/faith/pazuzu">Pazuzu</Link>, <Link to="/faith/picoperi">Picoperi</Link>, <Link to="/faith/prihasta">Prihasta</Link>, <Link to="/faith/ravana">Ravana</Link>, <Link to="/faith/scarmiglione">Scarmiglione</Link>, <Link to="/faith/sifkesh">Sifkesh</Link>, <Link to="/faith/sivanah">Sivanah</Link>, <Link to="/faith/skrymir">Skrymir</Link>, <Link to="/faith/sun_wukong">Sun Wukong</Link>, <Link to="/faith/surpa">Surpa</Link>, <Link to="/faith/the_lantern_king">The Lantern King</Link>, <Link to="/faith/titivilus">Titivilus</Link>, <Link to="/faith/ulon">Ulon</Link>, <Link to="/faith/verex">Verex</Link>, <Link to="/faith/vibhishah">Vibhishah</Link>, <Link to="/faith/xhamen_dor">Xhamen-Dor</Link>, <Link to="/faith/yaezhing">Yaezhing</Link>, <Link to="/faith/zabha">Zabha</Link></p><Ability id="sudden-shift-sp" icon={["stairs-goal"]}>
 <Pair single id="sudden-shift-sp">Sudden Shift (Sp)</Pair>
@@ -771,15 +497,8 @@ const _trickery = {hasJL:true,title: "Trickery", jsx: <><div className="jumpList
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Immediate Action">In the blink of an eye, you can appear somewhere else. After you are missed by a melee attack, you can teleport up to 10 feet to a space that you can see. This space must be inside the reach of the creature that attacked you.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>disguise self</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/mirror_image">mirror image<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>nondetection</em></td></tr>
-<tr><th scope="row">4th</th><td><em>confusion</em></td></tr>
-<tr><th scope="row">5th</th><td><em>false vision</em></td></tr>
-<tr><th scope="row">6th</th><td><em>mislead</em></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/project_image">project image<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td><em>mass invisibility</em></td></tr>
-<tr><th scope="row">9th</th><td><em>time stop</em></td></tr></tbody></table><h3 id="domain-trickery-espionage-subdomain" data-hash-target>Espionage Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={2} links={[[1,"disguise self",false],[2,"mirror image","mirror_image"],[3,"nondetection",false],[4,"confusion",false],[5,"false vision",false],[6,"mislead",false],[7,"project image","project_image"],[8,"mass invisibility",false],[9,"time stop",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-trickery-espionage-subdomain" data-hash-target>Espionage Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 18</Link></p>
 <p><strong className="hl">Associated Domains:</strong> Knowledge, Trickery<br/><strong className="hl">Associated Deities:</strong> <Link to="/faith/droskar">Droskar</Link>, <Link to="/faith/erecura">Erecura</Link>, <Link to="/faith/kelinahat">Kelinahat</Link>, <Link to="/faith/norgorber">Norgorber</Link></p>
 <Ability id="deep-cover-su" icon={["armor-upgrade"]}>
@@ -787,15 +506,8 @@ const _trickery = {hasJL:true,title: "Trickery", jsx: <><div className="jumpList
 <Pair hl title="Replaces">The <InnerLink toTop to="domain-trickery-cat">copycat</InnerLink> power of the Trickery domain</Pair>
 <Pair title="Ability">When you prepare your spells, you can also choose one cover identity - whether that of a real person or a fictitious one. You can assume the disguise of your cover identity in half the normal amount of time. When targeted by a spell or effect that would compromise your chosen disguise (such as <Link to="/spell/detect_evil">detect evil</Link>, <Link to="/spell/detect_thoughts">detect thoughts</Link>, or <Link to="/spell/zone_of_truth">zone of truth</Link>), as an immediate action you can force the creature using the ability to attempt a Will save (DC = 10 + 1/2 your cleric level + your Wisdom modifier). If the creature fails, it gains false information in keeping with your cover identity. You can use this false information ability a number of times per day equal to 3 + your Wisdom modifier.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>disguise self</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/anonymous_interaction">anonymous interaction<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>nondetection</em></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/zone_of_silence">zone of silence<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td><em>false vision</em></td></tr>
-<tr><th scope="row">6th</th><td><em>mislead</em></td></tr>
-<tr><th scope="row">7th</th><td><em>screen</em></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/mind_blank">mind blank<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td><em>time stop</em></td></tr></tbody></table><h3 id="domain-trickery-greed-subdomain" data-hash-target>Greed Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={3} links={[[1,"disguise self",false],[2,"anonymous interaction","anonymous_interaction"],[3,"nondetection",false],[4,"zone of silence","zone_of_silence"],[5,"false vision",false],[6,"mislead",false],[7,"screen",false],[8,"mind blank","mind_blank"],[9,"time stop",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-trickery-greed-subdomain" data-hash-target>Greed Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption pg. 19</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/dahak">Dahak</Link>, <Link to="/faith/lao_shu_po">Lao Shu Po</Link>, <Link to="/faith/norgorber">Norgorber</Link></p><Ability id="more-for-me-su" icon={["magic-swirl"]}>
 <Pair single id="more-for-me-su">More for Me (Su)</Pair>
@@ -803,15 +515,8 @@ const _trickery = {hasJL:true,title: "Trickery", jsx: <><div className="jumpList
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Immediate Action">When another character within 30 feet casts a spell with a range greater than touch, you can attempt a caster level check (DC = 15 + the spell's level). If you succeed at the check, you receive the spell's benefit instead of one of the spell's intended targets (chosen by you). If you are already a target of the spell, you are affected as though you were targeted by the same spell twice (which may or may not benefit you; remember that bonuses from the same source do not stack). This ability does not grant you knowledge of the spell being cast.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>disguise self</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/masterwork_transformation">masterwork transformation<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>nondetection</em></td></tr>
-<tr><th scope="row">4th</th><td><em>confusion</em></td></tr>
-<tr><th scope="row">5th</th><td><em>false vision</em></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/guards_and_wards">guards and wards<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>screen</em></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/create_demiplane">create demiplane<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td><em>time stop</em></td></tr></tbody></table><h3 id="domain-trickery-innuendo-subdomain" data-hash-target>Innuendo Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={4} links={[[1,"disguise self",false],[2,"masterwork transformation","masterwork_transformation"],[3,"nondetection",false],[4,"confusion",false],[5,"false vision",false],[6,"guards and wards","guards_and_wards"],[7,"screen",false],[8,"create demiplane","create_demiplane"],[9,"time stop",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-trickery-innuendo-subdomain" data-hash-target>Innuendo Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance pg. 17</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/besmara">Besmara</Link>, <Link to="/faith/calistria">Calistria</Link>, <Link to="/faith/sivanah">Sivanah</Link>, <Link to="/faith/sun_wukong">Sun Wukong</Link></p><Ability id="fools-privilege-su" icon={["armor-upgrade"]}>
 <Pair single id="fools-privilege-su">Fool's Privilege (Su)</Pair>
@@ -819,15 +524,8 @@ const _trickery = {hasJL:true,title: "Trickery", jsx: <><div className="jumpList
 <Pair title="Usage">1 time/day + 1 per four cleric levels beyond 1st<ByLevelPop levels={[[1,1],[5,2],[9,3],[13,4],[17,5]]} unit="time" postText="/day" /></Pair>
 <Pair title="Swift Action">You can use this power when you fail a Bluff, Diplomacy, or Intimidate check outside of combat. You suffer no negative effects due to the failed check, and the next round you can attempt the check again without the usual penalty for a failed attempt.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/sow_thought">sow thought<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><em>invisibility</em></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/suggestion">suggestion<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>confusion</em></td></tr>
-<tr><th scope="row">5th</th><td><em>false vision</em></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/mass_suggestion">mass suggestion<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>screen</em></td></tr>
-<tr><th scope="row">8th</th><td><em>mass invisibility</em></td></tr>
-<tr><th scope="row">9th</th><td><em>time stop</em></td></tr></tbody></table><h3 id="domain-trickery-thievery-subdomain" data-hash-target>Thievery Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={5} links={[[1,"sow thought","sow_thought"],[2,"invisibility",false],[3,"suggestion","suggestion"],[4,"confusion",false],[5,"false vision",false],[6,"mass suggestion","mass_suggestion"],[7,"screen",false],[8,"mass invisibility",false],[9,"time stop",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-trickery-thievery-subdomain" data-hash-target>Thievery Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 96</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/achaekek">Achaekek</Link>, <Link to="/faith/alichino">Alichino</Link>, <Link to="/faith/andirifkhu">Andirifkhu</Link>, <Link to="/faith/areshkagal">Areshkagal</Link>, <Link to="/faith/bastet">Bastet</Link>, <Link to="/faith/besmara">Besmara</Link>, <Link to="/faith/calistria">Calistria</Link>, <Link to="/faith/dahak">Dahak</Link>, <Link to="/faith/droskar">Droskar</Link>, <Link to="/faith/gavidya">Gavidya</Link>, <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/faith/lao_shu_po">Lao Shu Po</Link>, <Link to="/faith/lorthact">Lorthact</Link>, <Link to="/faith/mahathallah">Mahathallah</Link>, <Link to="/faith/mestama">Mestama</Link>, <Link to="/faith/muronna">Muronna</Link>, <Link to="/faith/nivi_rhombodazzle">Nivi Rhombodazzle</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/nyarlathotep_black_pharaoh">Nyarlathotep (Black Pharaoh)</Link>, <Link to="/faith/ruzel">Ruzel</Link>, <Link to="/faith/sun_wukong">Sun Wukong</Link>, <Link to="/faith/thamir_gixx">Thamir Gixx</Link>, <Link to="/faith/the_lantern_king">The Lantern King</Link>, <Link to="/faith/verex">Verex</Link>, <Link to="/faith/zogmugot">Zogmugot</Link></p><Ability id="thief-of-the-gods-su" icon={["rolling-dices"]}>
 <Pair single id="thief-of-the-gods-su">Thief of the Gods (Su)</Pair>
@@ -836,15 +534,8 @@ const _trickery = {hasJL:true,title: "Trickery", jsx: <><div className="jumpList
 <Pair title="Usage">1 time/day per two cleric levels<ByLevelPop levels={[[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="time" postText="/day" /></Pair>
 <Pair title="Free Action">When you make a Disable Device or Sleight of Hand check, you can roll twice and take the higher result.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>disguise self</em></td></tr>
-<tr><th scope="row">2nd</th><td><em>invisibility</em></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/locate_object">locate object<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>confusion</em></td></tr>
-<tr><th scope="row">5th</th><td><em>false vision</em></td></tr>
-<tr><th scope="row">6th</th><td><em>mislead</em></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/ethereal_jaunt">ethereal jaunt<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td><em>mass invisibility</em></td></tr>
-<tr><th scope="row">9th</th><td><em>time stop</em></td></tr></tbody></table><h3 id="domain-trickery-variant-domain-powers" data-hash-target>Variant Domain Powers</h3>
+<SpellList id="replacement-domain-spells" count={6} links={[[1,"disguise self",false],[2,"invisibility",false],[3,"locate object","locate_object"],[4,"confusion",false],[5,"false vision",false],[6,"mislead",false],[7,"ethereal jaunt","ethereal_jaunt"],[8,"mass invisibility",false],[9,"time stop",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-trickery-variant-domain-powers" data-hash-target>Variant Domain Powers</h3>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook</Link><br/>A cleric (or any other character capable of selecting a domain) who worships the deity in question can choose to gain the variant domain power upon first gaining the domain in question, but the choice to replace the domain power must be made immediately upon gaining access to that domain and cannot be changed thereafter.</p>
 <h4 id="domain-trickery-asmodeus">Asmodeus</h4>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 8</Link></p>
@@ -863,38 +554,24 @@ const _void = {hasJL:true,title: "Void", jsx: <><div className="jumpList" id="do
 <Pair single id="mind">Guarded Mind (Ex)</Pair>
 <Pair title="Passive Ability">You gain a +2 insight bonus on saving throws against all mind-affecting effects.</Pair>
 </Ability>
-<Ability id="domain-void-part" icon={["magic-swirl"]}>
-<Pair single id="domain-void-part">Part the Veil (Su)</Pair>
+<Ability id="part" icon={["magic-swirl"]}>
+<Pair single id="part">Part the Veil (Su)</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Usage">1 time/day per two cleric levels<ByLevelPop levels={[[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="time" postText="/day" /></Pair>
 <Pair title="Swift Action"><p>You can lace spells you cast with the raw madness that waits in the outer darkness. Activating this ability must be done as you cast a spell that targets a single creature and that allows a Will saving throw to negate or reduce the spell's primary effect. If the target fails to resist the spell, the target is also <Link to="/misc/confused">confused</Link> for a number of rounds equal to the spell's level as visions of the void cause temporary insanity.</p>
 <p>The victim must succeed at a new saving throw each round to end the effect; these additional saving throws apply only to the additional confusion effect and not to the original spell effect. Part the veil is a mind-affecting effect.</p>
 </Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/feather_fall">feather fall<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/levitate">levitate<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/fly">fly<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/lesser_planar_binding">lesser planar binding<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/overland_flight">overland flight<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/planar_binding">planar binding<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/reverse_gravity">reverse gravity<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/greater_planar_binding">greater planar binding<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/interplanetary_teleport">interplanetary teleport<IonRippleEffect /></Link></td></tr></tbody></table><h3 id="domain-void-dark-tapestry-subdomain" data-hash-target>Dark Tapestry Subdomain</h3>
+<SpellList id="domain-spells" links={[[1,"feather fall","feather_fall"],[2,"levitate","levitate"],[3,"fly","fly"],[4,"lesser planar binding","lesser_planar_binding"],[5,"overland flight","overland_flight"],[6,"planar binding","planar_binding"],[7,"reverse gravity","reverse_gravity"],[8,"greater planar binding","greater_planar_binding"],[9,"interplanetary teleport","interplanetary_teleport"]]}>Domain Spells</SpellList>
+<h3 id="domain-void-dark-tapestry-subdomain" data-hash-target>Dark Tapestry Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 49</Link>, <Link to="/source/people_of_the_stars">People of the Stars pg. 23</Link>, <Link to="/source/inner_sea_gods">Inner Sea Gods pg. 224</Link>, <Link to="/source/pathfinder_46_wake_of_the_watcher">Pathfinder #46: Wake of the Watcher pg. 62</Link>, <Link to="/source/paizo_blog___golarion_day_subdomains">Paizo Blog - Golarion Day Subdomains pg. 1</Link>, <Link to="/source/bestiary_4">Bestiary 4 pg. 135</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/azathoth">Azathoth</Link>, <Link to="/faith/cthulhu">Cthulhu</Link>, <Link to="/faith/hastur">Hastur</Link>, <Link to="/faith/nhimbaloth">Nhimbaloth</Link>, <Link to="/faith/rhan_tegoth">Rhan-Tegoth</Link>, <Link to="/faith/shub_niggurath">Shub-Niggurath</Link>, <Link to="/faith/yog_sothoth">Yog-Sothoth</Link></p><Ability id="it-came-from-beyond-su" icon={["upgrade"]}>
 <Pair single id="it-came-from-beyond-su">It Came from Beyond (Su)</Pair>
 <Pair hl title="Replaces">The <InnerLink toTop to="domain-void-mind">guarded mind</InnerLink> power of the Void domain</Pair>
 <Pair title="Passive Ability">Once per day when you cast a summoning spell, any one creature you summon is more powerful than normal. The creature gains the <Link to="/template/advanced">advanced creature</Link> simple template. If you summon more than one creature with a spell, only one of the summoned creatures gains the advanced creature simple template. A summoned creature that gains the advanced creature simple template in this manner looks unusually deformed or hideous. This ability only works on spells you cast as a cleric - it does not work on spellcasting abilities gained from any other spellcasting classes you might have.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>feather fall</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/summon_monster_ii">summon monster II<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>fly</em></td></tr>
-<tr><th scope="row">4th</th><td><em>lesser planar binding</em></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/summon_monster_v">summon monster V<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td><em>planar binding</em></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/insanity">insanity<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td><em>greater planar binding</em></td></tr>
-<tr><th scope="row">9th</th><td><em>interplanetary teleport</em></td></tr></tbody></table><h3 id="domain-void-isolation-subdomain" data-hash-target>Isolation Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={1} links={[[1,"feather fall",false],[2,"summon monster II","summon_monster_ii"],[3,"fly",false],[4,"lesser planar binding",false],[5,"summon monster V","summon_monster_v"],[6,"planar binding",false],[7,"insanity","insanity"],[8,"greater planar binding",false],[9,"interplanetary teleport",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-void-isolation-subdomain" data-hash-target>Isolation Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/book_of_the_damned">Book of the Damned pg. 181</Link>, <Link to="/source/horror_adventures">Horror Adventures pg. 49</Link>, <Link to="/source/inner_sea_gods">Inner Sea Gods pg. 225</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/ah_pook">Ah Pook</Link>, <Link to="/faith/atlach_nacha">Atlach-Nacha</Link>, <Link to="/faith/iggeret">Iggeret</Link>, <Link to="/faith/inkariax">Inkariax</Link>, <Link to="/faith/maeha">Maeha</Link>, <Link to="/faith/mneoc">Mneoc</Link>, <Link to="/faith/nhimbaloth">Nhimbaloth</Link>, <Link to="/faith/nocticula_redeemed">Nocticula (Redeemed)</Link>, <Link to="/faith/roqorolos">Roqorolos</Link>, <Link to="/faith/shawnari">Shawnari</Link>, <Link to="/faith/uaransaph">Uaransaph</Link></p><Ability id="aura-of-isolation-su" icon={["armor-downgrade"]}>
 <Pair single id="aura-of-isolation-su">Aura of Isolation (Su)</Pair>
@@ -902,30 +579,16 @@ const _void = {hasJL:true,title: "Void", jsx: <><div className="jumpList" id="do
 <Pair title="Usage">3 + Wis modifier rounds/day; these rounds need not be consecutive</Pair>
 <Pair title="Standard Action">You can create a 20-foot aura that causes enemies within to be overcome with feelings of isolation and loss. Your enemies treat the aura as <Link to="/rule/difficult_terrain">difficult terrain</Link>, as they become sluggish within its area of effect. Furthermore, while within the aura, your enemies can't <Link to="/rule/flank">flank</Link> with one another, nor can they use or benefit from the <Link to="/rule/aid_another_2">aid another</Link> action. This is a mind-affecting emotion effect.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>feather fall</em></td></tr>
-<tr><th scope="row">2nd</th><td><em>levitate</em></td></tr>
-<tr><th scope="row">3rd</th><td><em>fly</em></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/crushing_despair">crushing despair<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td><em>overland flight</em></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/wall_of_force">wall of force<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>reverse gravity</em></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/prismatic_wall">prismatic wall<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td><em>interplanetary teleport</em></td></tr></tbody></table><h3 id="domain-void-stars-subdomain" data-hash-target>Stars Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={2} links={[[1,"feather fall",false],[2,"levitate",false],[3,"fly",false],[4,"crushing despair","crushing_despair"],[5,"overland flight",false],[6,"wall of force","wall_of_force"],[7,"reverse gravity",false],[8,"prismatic wall","prismatic_wall"],[9,"interplanetary teleport",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-void-stars-subdomain" data-hash-target>Stars Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 49</Link>, <Link to="/source/bestiary_4">Bestiary 4 pg. 135</Link>, <Link to="/source/paizo_blog___golarion_day_subdomains">Paizo Blog - Golarion Day Subdomains pg. 1</Link>, <Link to="/source/pathfinder_46_wake_of_the_watcher">Pathfinder #46: Wake of the Watcher pg. 62</Link>, <Link to="/source/inner_sea_gods">Inner Sea Gods pg. 227</Link>, <Link to="/source/people_of_the_stars">People of the Stars pg. 23</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/azathoth">Azathoth</Link>, <Link to="/faith/black_butterfly">Black Butterfly</Link>, <Link to="/faith/cthulhu">Cthulhu</Link>, <Link to="/faith/groetus">Groetus</Link>, <Link to="/faith/hastur">Hastur</Link>, <Link to="/faith/maat">Maat</Link>, <Link to="/faith/maeha">Maeha</Link>, <Link to="/faith/pulura">Pulura</Link>, <Link to="/faith/rhan_tegoth">Rhan-Tegoth</Link>, <Link to="/faith/shub_niggurath">Shub-Niggurath</Link>, <Link to="/faith/yog_sothoth">Yog-Sothoth</Link></p><Ability id="the-stars-are-right-su" icon={["magic-swirl"]}>
 <Pair single id="the-stars-are-right-su">The Stars Are Right (Su)</Pair>
 <Pair hl title="Replaces">The <InnerLink toTop to="domain-void-part">part the veil</InnerLink> power of the Void domain</Pair>
 <Pair title="Passive Ability">If you prepare your cleric spells while the stars are visible to you, you may spontaneously cast any of your Stars subdomain domain spells by swapping out a spell of an equal spell level. Any Stars subdomain spells that you cast while the stars are visible to you heal you of damage equal to the spell's level as you cast the spell.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>feather fall</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/hypnotic_pattern">hypnotic pattern<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>fly</em></td></tr>
-<tr><th scope="row">4th</th><td><em>lesser planar binding</em></td></tr>
-<tr><th scope="row">5th</th><td><em>overland flight</em></td></tr>
-<tr><th scope="row">6th</th><td><em>planar binding</em></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/sunbeam">sunbeam<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td><em>greater planar binding</em></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/meteor_swarm">meteor swarm<IonRippleEffect /></Link></td></tr></tbody></table></>};
+<SpellList id="replacement-domain-spells" count={3} links={[[1,"feather fall",false],[2,"hypnotic pattern","hypnotic_pattern"],[3,"fly",false],[4,"lesser planar binding",false],[5,"overland flight",false],[6,"planar binding",false],[7,"sunbeam","sunbeam"],[8,"greater planar binding",false],[9,"meteor swarm","meteor_swarm"]]}>Replacement Domain Spells</SpellList>
+</>};
 const _war = {hasJL:true,title: "War", jsx: <><div className="jumpList" id="domain-war-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="domain-war-blood-subdomain">Blood Subdomain</InnerLink></li><li><InnerLink toTop to="domain-war-duels-subdomain">Duels Subdomain</InnerLink></li><li><InnerLink toTop to="domain-war-tactics-subdomain">Tactics Subdomain</InnerLink></li></ul></div><h2 id="domain-war-war">War</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 48</Link></p>
 <p><strong>Deities:</strong> <Link to="/faith/acavna">Acavna</Link>, <Link to="/faith/achaekek">Achaekek</Link>, <Link to="/faith/ajids">Ajids</Link>, <Link to="/faith/akuma">Akuma</Link>, <Link to="/faith/angradd">Angradd</Link>, <Link to="/faith/arqueros">Arqueros</Link>, <Link to="/faith/besmara">Besmara</Link>, <Link to="/faith/chaldira">Chaldira</Link>, <Link to="/faith/chaugnar_faugn">Chaugnar Faugn</Link>, <Link to="/faith/chugarra">Chugarra</Link>, <Link to="/faith/cihua_couatl">Cihua Couatl</Link>, <Link to="/faith/deskari">Deskari</Link>, <Link to="/faith/eiseth">Eiseth</Link>, <Link to="/faith/flauros">Flauros</Link>, <Link to="/faith/fumeiyoshi">Fumeiyoshi</Link>, <Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/hadregash">Hadregash</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/izyagna">Izyagna</Link>, <Link to="/faith/kitumu">Kitumu</Link>, <Link to="/faith/kostchtchie">Kostchtchie</Link>, <Link to="/faith/malacoda">Malacoda</Link>, <Link to="/faith/moloch">Moloch</Link>, <Link to="/faith/mrtyu">Mrtyu</Link>, <Link to="/faith/neith">Neith</Link>, <Link to="/faith/nergal">Nergal</Link>, <Link to="/faith/nulgreth">Nulgreth</Link>, <Link to="/faith/psomeira">Psomeira</Link>, <Link to="/faith/rovagug">Rovagug</Link>, <Link to="/faith/ruapceras">Ruapceras</Link>, <Link to="/faith/sekhmet">Sekhmet</Link>, <Link to="/faith/shiggarreb">Shiggarreb</Link>, <Link to="/faith/smiad">Smiad</Link>, <Link to="/faith/sobek">Sobek</Link>, <Link to="/faith/szuriel">Szuriel</Link>, <Link to="/faith/tamede">Tamede</Link>, <Link to="/faith/thremyr">Thremyr</Link>, <Link to="/faith/urazra">Urazra</Link>, <Link to="/faith/urgathoa">Urgathoa</Link>, <Link to="/faith/varg">Varg</Link>, <Link to="/faith/xiquiripat">Xiquiripat</Link>, <Link to="/faith/ydersius">Ydersius</Link>, <Link to="/faith/ymeri">Ymeri</Link>, <Link to="/faith/zelishkar">Zelishkar</Link>, <Link to="/faith/zursvaater">Zursvaater</Link>, <Link to="/faith/zyphus">Zyphus</Link></p><p><strong className="hl">Granted Powers:</strong> You are a crusader for your god, always ready and willing to fight to defend your faith.</p>
@@ -940,15 +603,8 @@ const _war = {hasJL:true,title: "War", jsx: <><div className="jumpList" id="doma
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
 <Pair title="Swift Action">You gain the use of one <Link to="/main/combat_feat">combat feat</Link>. You can change the feat chosen each time you use this ability. You must meet the prerequisites to use this feat.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/magic_weapon">magic weapon<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/spiritual_weapon">spiritual weapon<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/magic_vestment">magic vestment<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/divine_power">divine power<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/flame_strike">flame strike<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/blade_barrier">blade barrier<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/power_word_blind">power word blind<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/power_word_stun">power word stun<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/power_word_kill">power word kill<IonRippleEffect /></Link></td></tr></tbody></table><h3 id="domain-war-blood-subdomain" data-hash-target>Blood Subdomain</h3>
+<SpellList id="domain-spells" links={[[1,"magic weapon","magic_weapon"],[2,"spiritual weapon","spiritual_weapon"],[3,"magic vestment","magic_vestment"],[4,"divine power","divine_power"],[5,"flame strike","flame_strike"],[6,"blade barrier","blade_barrier"],[7,"power word blind","power_word_blind"],[8,"power word stun","power_word_stun"],[9,"power word kill","power_word_kill"]]}>Domain Spells</SpellList>
+<h3 id="domain-war-blood-subdomain" data-hash-target>Blood Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 87</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/achaekek">Achaekek</Link>, <Link to="/faith/ajids">Ajids</Link>, <Link to="/faith/akuma">Akuma</Link>, <Link to="/faith/chaugnar_faugn">Chaugnar Faugn</Link>, <Link to="/faith/chugarra">Chugarra</Link>, <Link to="/faith/deskari">Deskari</Link>, <Link to="/faith/eiseth">Eiseth</Link>, <Link to="/faith/flauros">Flauros</Link>, <Link to="/faith/fumeiyoshi">Fumeiyoshi</Link>, <Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/hadregash">Hadregash</Link>, <Link to="/faith/izyagna">Izyagna</Link>, <Link to="/faith/kitumu">Kitumu</Link>, <Link to="/faith/nergal">Nergal</Link>, <Link to="/faith/nulgreth">Nulgreth</Link>, <Link to="/faith/ovonovo">Ovonovo</Link>, <Link to="/faith/rovagug">Rovagug</Link>, <Link to="/faith/sekhmet">Sekhmet</Link>, <Link to="/faith/shiggarreb">Shiggarreb</Link>, <Link to="/faith/sobek">Sobek</Link>, <Link to="/faith/szuriel">Szuriel</Link>, <Link to="/faith/tamede">Tamede</Link>, <Link to="/faith/thremyr">Thremyr</Link>, <Link to="/faith/urazra">Urazra</Link>, <Link to="/faith/urgathoa">Urgathoa</Link>, <Link to="/faith/xiquiripat">Xiquiripat</Link>, <Link to="/faith/zura">Zura</Link>, <Link to="/faith/zursvaater">Zursvaater</Link>, <Link to="/faith/zyphus">Zyphus</Link></p><Ability id="wounding-blade-su" icon={["upgrade"]}>
 <Pair single id="wounding-blade-su">Wounding Blade (Su)</Pair>
@@ -957,15 +613,8 @@ const _war = {hasJL:true,title: "War", jsx: <><div className="jumpList" id="doma
 <Pair title="Usage">1 time/day + 1 per four cleric levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Standard Action">You can give a weapon that you touch the <Link to="/magic-enh/wounding">wounding</Link> special weapon quality for a number of rounds equal to 1/2 your cleric level.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>magic weapon</em></td></tr>
-<tr><th scope="row">2nd</th><td><em>spiritual weapon</em></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/vampiric_touch">vampiric touch<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>divine power</em></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/wall_of_thorns">wall of thorns<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td><em>blade barrier</em></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/mass_inflict_serious_wounds">mass inflict serious wounds<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td><em>power word stun</em></td></tr>
-<tr><th scope="row">9th</th><td><em>power word kill</em></td></tr></tbody></table><h3 id="domain-war-duels-subdomain" data-hash-target>Duels Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={1} links={[[1,"magic weapon",false],[2,"spiritual weapon",false],[3,"vampiric touch","vampiric_touch"],[4,"divine power",false],[5,"wall of thorns","wall_of_thorns"],[6,"blade barrier",false],[7,"mass inflict serious wounds","mass_inflict_serious_wounds"],[8,"power word stun",false],[9,"power word kill",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-war-duels-subdomain" data-hash-target>Duels Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 18</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/besmara">Besmara</Link>, <Link to="/faith/chaldira_zuzaristan">Chaldira Zuzaristan</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/iomedae">Iomedae</Link></p><Ability id="divine-challenge-su" icon={["upgrade"]}>
 <Pair single id="divine-challenge-su">Divine Challenge (Su)</Pair>
@@ -973,15 +622,8 @@ const _war = {hasJL:true,title: "War", jsx: <><div className="jumpList" id="doma
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Swift Action">You can challenge a visible foe within 30 feet, gaining a +1 sacred bonus to your AC against that creature's attacks and a bonus equal to 1/2 your cleric level on Bluff skill checks to feint against it. These bonuses last for a number of rounds equal to 1/2 your cleric level.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>magic weapon</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/warding_weapon">warding weapon<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>magic vestment</em></td></tr>
-<tr><th scope="row">4th</th><td><em>divine power</em></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/dance_of_a_hundred_cuts">dance of a hundred cuts<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td><em>blade barrier</em></td></tr>
-<tr><th scope="row">7th</th><td><em>power word blind</em></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/dance_of_a_thousand_cuts">dance of a thousand cuts<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td><em>power word kill</em></td></tr></tbody></table><h3 id="domain-war-tactics-subdomain" data-hash-target>Tactics Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={2} links={[[1,"magic weapon",false],[2,"warding weapon","warding_weapon"],[3,"magic vestment",false],[4,"divine power",false],[5,"dance of a hundred cuts","dance_of_a_hundred_cuts"],[6,"blade barrier",false],[7,"power word blind",false],[8,"dance of a thousand cuts","dance_of_a_thousand_cuts"],[9,"power word kill",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-war-tactics-subdomain" data-hash-target>Tactics Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 96</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/acavna">Acavna</Link>, <Link to="/faith/achaekek">Achaekek</Link>, <Link to="/faith/akuma">Akuma</Link>, <Link to="/faith/angradd">Angradd</Link>, <Link to="/faith/arqueros">Arqueros</Link>, <Link to="/faith/besmara">Besmara</Link>, <Link to="/faith/chaldira">Chaldira</Link>, <Link to="/faith/chaugnar_faugn">Chaugnar Faugn</Link>, <Link to="/faith/cihua_couatl">Cihua Couatl</Link>, <Link to="/faith/deskari">Deskari</Link>, <Link to="/faith/fumeiyoshi">Fumeiyoshi</Link>, <Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/izyagna">Izyagna</Link>, <Link to="/faith/kostchtchie">Kostchtchie</Link>, <Link to="/faith/malacoda">Malacoda</Link>, <Link to="/faith/moloch">Moloch</Link>, <Link to="/faith/neith">Neith</Link>, <Link to="/faith/psomeira">Psomeira</Link>, <Link to="/faith/ruapceras">Ruapceras</Link>, <Link to="/faith/shiggarreb">Shiggarreb</Link>, <Link to="/faith/smiad">Smiad</Link>, <Link to="/faith/szuriel">Szuriel</Link>, <Link to="/faith/thremyr">Thremyr</Link>, <Link to="/faith/urazra">Urazra</Link>, <Link to="/faith/varg">Varg</Link>, <Link to="/faith/ydersius">Ydersius</Link>, <Link to="/faith/ymeri">Ymeri</Link>, <Link to="/faith/zelishkar">Zelishkar</Link></p><Ability id="seize-the-initiative-su" icon={["rolling-dices"]}>
 <Pair single id="seize-the-initiative-su">Seize the Initiative (Su)</Pair>
@@ -989,15 +631,8 @@ const _war = {hasJL:true,title: "War", jsx: <><div className="jumpList" id="doma
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Ability">Whenever you and your allies roll for initiative, you can grant one ally within 30 feet the ability to roll twice and take either result. This decision is made before results are revealed.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>magic weapon</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/aid">aid<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>magic vestment</em></td></tr>
-<tr><th scope="row">4th</th><td><em>divine power</em></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/greater_command">greater command<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td><em>blade barrier</em></td></tr>
-<tr><th scope="row">7th</th><td><em>power word blind</em></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/greater_planar_ally">greater planar ally<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td><em>power word kill</em></td></tr></tbody></table></>};
+<SpellList id="replacement-domain-spells" count={3} links={[[1,"magic weapon",false],[2,"aid","aid"],[3,"magic vestment",false],[4,"divine power",false],[5,"greater command","greater_command"],[6,"blade barrier",false],[7,"power word blind",false],[8,"greater planar ally","greater_planar_ally"],[9,"power word kill",false]]}>Replacement Domain Spells</SpellList>
+</>};
 const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="domain-water-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="domain-water-flotsam-subdomain">Flotsam Subdomain</InnerLink></li><li><InnerLink toTop to="domain-water-flowing-subdomain">Flowing Subdomain</InnerLink></li><li><InnerLink toTop to="domain-water-ice-subdomain">Ice Subdomain</InnerLink></li><li><InnerLink toTop to="domain-water-oceans-subdomain">Oceans Subdomain</InnerLink></li><li><InnerLink toTop to="domain-water-rivers-subdomain">Rivers Subdomain</InnerLink></li></ul></div><h2 id="domain-water-water">Water</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 48</Link></p>
 <p><strong>Deities:</strong> <Link to="/faith/aegirran">Aegirran</Link>, <Link to="/faith/besmara">Besmara</Link>, <Link to="/faith/bokrug">Bokrug</Link>, <Link to="/faith/charon">Charon</Link>, <Link to="/faith/crocell">Crocell</Link>, <Link to="/faith/dagon">Dagon</Link>, <Link to="/faith/gaap">Gaap</Link>, <Link to="/faith/geryon">Geryon</Link>, <Link to="/faith/ghatanothoa">Ghatanothoa</Link>, <Link to="/faith/gogunta">Gogunta</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/guyuku">Guyuku</Link>, <Link to="/faith/hanspur">Hanspur</Link>, <Link to="/faith/hataam">Hataam</Link>, <Link to="/faith/hei_feng">Hei Feng</Link>, <Link to="/faith/inkariax">Inkariax</Link>, <Link to="/faith/jalaijatali">Jalaijatali</Link>, <Link to="/faith/jubilex">Jubilex</Link>, <Link to="/faith/kelizandri">Kelizandri</Link>, <Link to="/faith/matravash">Matravash</Link>, <Link to="/faith/naderi">Naderi</Link>, <Link to="/faith/neith">Neith</Link>, <Link to="/faith/oaur_ooung">Oaur-Ooung</Link>, <Link to="/faith/onos">Onos</Link>, <Link to="/faith/orgesh">Orgesh</Link>, <Link to="/faith/ovonovo">Ovonovo</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/pharimia">Pharimia</Link>, <Link to="/faith/ragadahn">Ragadahn</Link>, <Link to="/faith/roqorolos">Roqorolos</Link>, <Link to="/faith/scarmiglione">Scarmiglione</Link>, <Link to="/faith/sobek">Sobek</Link>, <Link to="/faith/speakers_of_the_depths">Speakers of the Depths</Link>, <Link to="/faith/the_pale_horse">The Pale Horse</Link>, <Link to="/faith/thremyr">Thremyr</Link>, <Link to="/faith/tolc">Tolc</Link>, <Link to="/faith/tresmalvos">Tresmalvos</Link>, <Link to="/faith/uzumae">Uzumae</Link>, <Link to="/faith/valmallos">Valmallos</Link>, <Link to="/faith/vorasha">Vorasha</Link>, <Link to="/faith/wadjet">Wadjet</Link>, <Link to="/faith/yamatsumi">Yamatsumi</Link>, <Link to="/faith/ylimancha">Ylimancha</Link>, <Link to="/faith/zogmugot">Zogmugot</Link></p><p><strong className="hl">Granted Powers:</strong> You can manipulate water and mist and ice, conjure creatures of water, and resist cold.</p>
@@ -1012,15 +647,8 @@ const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="
 <Pair title="At 12th Level">The resistance increases to 20.</Pair>
 <Pair title="At 20th Level">You gain <Link to="/umr/immunity">immunity</Link> to cold.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/obscuring_mist">obscuring mist<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/fog_cloud">fog cloud<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/water_breathing">water breathing<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/control_water">control water<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/ice_storm">ice storm<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/cone_of_cold">cone of cold<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><Link to="/spell/elemental_body_iv">elemental body IV<IonRippleEffect /></Link> (water only)</td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/horrid_wilting">horrid wilting<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td><Link to="/spell/elemental_swarm">elemental swarm<IonRippleEffect /></Link> (water spell only)</td></tr></tbody></table><h3 id="domain-water-flotsam-subdomain" data-hash-target>Flotsam Subdomain</h3>
+<SpellList id="domain-spells" links={[[1,"obscuring mist","obscuring_mist"],[2,"fog cloud","fog_cloud"],[3,"water breathing","water_breathing"],[4,"control water","control_water"],[5,"ice storm","ice_storm"],[6,"cone of cold","cone_of_cold"],[7,"elemental body IV","elemental_body_iv",<>water only</>],[8,"horrid wilting","horrid_wilting"],[9,"elemental swarm","elemental_swarm",<>water spell only</>]]}>Domain Spells</SpellList>
+<h3 id="domain-water-flotsam-subdomain" data-hash-target>Flotsam Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/book_of_the_damned">Book of the Damned pg. 180</Link>, <Link to="/source/goblins_of_golarion">Goblins of Golarion pg. 27</Link>, <Link to="/source/inner_sea_gods">Inner Sea Gods pg. 225</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/jalaijatali">Jalaijatali</Link>, <Link to="/faith/jubilex">Jubilex</Link>, <Link to="/faith/tresmalvos">Tresmalvos</Link>, <Link to="/faith/zogmugot">Zogmugot</Link></p><Ability id="sift-su" icon={["stairs-goal"]}>
 <Pair single id="sift-su">Sift (Su)</Pair>
@@ -1030,30 +658,16 @@ const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="
 <Pair title="At 12th Level">The objects that you retrieve are not broken.</Pair>
 <Pair title="At 20th Level">You can retrieve objects worth up to 5,000 gp.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>obscuring mist</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/make_whole">make whole<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>water breathing</em></td></tr>
-<tr><th scope="row">4th</th><td><em>control water</em></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/major_creation">major creation<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/animate_objects">animate objects<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>elemental body IV (water only)</em></td></tr>
-<tr><th scope="row">8th</th><td><em>horrid wilting</em></td></tr>
-<tr><th scope="row">9th</th><td><em>elemental swarm (water spell only)</em></td></tr></tbody></table><h3 id="domain-water-flowing-subdomain" data-hash-target>Flowing Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={1} links={[[1,"obscuring mist",false],[2,"make whole","make_whole"],[3,"water breathing",false],[4,"control water",false],[5,"major creation","major_creation"],[6,"animate objects","animate_objects"],[7,"elemental body IV",false,<>water only</>],[8,"horrid wilting",false],[9,"elemental swarm",false,<>water spell only</>]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-water-flowing-subdomain" data-hash-target>Flowing Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance pg. 17</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/yamatsumi">Yamatsumi</Link></p><Ability id="go-with-the-flow-su" icon={["magic-palm"]}>
 <Pair single id="go-with-the-flow-su">Go with the Flow (Su)</Pair>
 <Pair hl title="Replaces">The <InnerLink toTop to="domain-water-icicle">icicle</InnerLink> ability of the Water domain</Pair>
 <Pair title="Standard Action">You can touch a creature to suppress its strong emotions. The target is affected as the <Link to="/spell/calm_emotions">calm emotions</Link> spell, except it can still take violent actions and violent actions against the target do not end the effect. This effect lasts a number of rounds equal to 1/2 your cleric level (minimum 1). You can use this ability a number times per day equal to 3 + your Wisdom modifier.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>obscuring mist</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/cats_grace">cat's grace<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>water breathing</em></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/freedom_of_movement">freedom of movement<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td><em>ice storm</em></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/fluid_form">fluid form<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>elemental body IV (water only)</em></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/mind_blank">mind blank<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td><em>elemental swarm (water spell only)</em></td></tr></tbody></table><h3 id="domain-water-ice-subdomain" data-hash-target>Ice Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={2} links={[[1,"obscuring mist",false],[2,"cat's grace","cats_grace"],[3,"water breathing",false],[4,"freedom of movement","freedom_of_movement"],[5,"ice storm",false],[6,"fluid form","fluid_form"],[7,"elemental body IV",false,<>water only</>],[8,"mind blank","mind_blank"],[9,"elemental swarm",false,<>water spell only</>]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-water-ice-subdomain" data-hash-target>Ice Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 92</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/charon">Charon</Link>, <Link to="/faith/inkariax">Inkariax</Link>, <Link to="/faith/ithaqua">Ithaqua</Link>, <Link to="/faith/kostchtchie">Kostchtchie</Link>, <Link to="/faith/orgesh">Orgesh</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/sithhud">Sithhud</Link>, <Link to="/faith/thremyr">Thremyr</Link>, <Link to="/faith/tolc">Tolc</Link>, <Link to="/faith/uzumae">Uzumae</Link>, <Link to="/faith/yamatsumi">Yamatsumi</Link></p><Ability id="body-of-ice-su" icon={["upgrade"]}>
 <Pair single id="body-of-ice-su">Body of Ice (Su)</Pair>
@@ -1062,15 +676,8 @@ const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
 <Pair title="Standard Action">You can transmute your body and equipment to ice for a period of time. You can end the transmutation with a free action on your turn. When you take on the form of ice, you are <Link to="/umr/immune">immune</Link> to cold and have DR 5/-, but you take twice the normal amount of damage from fire.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>obscuring mist</em></td></tr>
-<tr><th scope="row">2nd</th><td><em>fog cloud</em></td></tr>
-<tr><th scope="row">3rd</th><td><em>water breathing</em></td></tr>
-<tr><th scope="row">4th</th><td><em>control water</em></td></tr>
-<tr><th scope="row">5th</th><td><em>ice storm</em></td></tr>
-<tr><th scope="row">6th</th><td><em>cone of cold</em></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/freezing_sphere">freezing sphere<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td><em>horrid wilting</em></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/polar_ray">polar ray<IonRippleEffect /></Link></td></tr></tbody></table><h3 id="domain-water-oceans-subdomain" data-hash-target>Oceans Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={3} links={[[1,"obscuring mist",false],[2,"fog cloud",false],[3,"water breathing",false],[4,"control water",false],[5,"ice storm",false],[6,"cone of cold",false],[7,"freezing sphere","freezing_sphere"],[8,"horrid wilting",false],[9,"polar ray","polar_ray"]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-water-oceans-subdomain" data-hash-target>Oceans Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 94</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/aegirran">Aegirran</Link>, <Link to="/faith/besmara">Besmara</Link>, <Link to="/faith/bokrug">Bokrug</Link>, <Link to="/faith/crocell">Crocell</Link>, <Link to="/faith/dagon">Dagon</Link>, <Link to="/faith/gaap">Gaap</Link>, <Link to="/faith/geryon">Geryon</Link>, <Link to="/faith/ghatanothoa">Ghatanothoa</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/guyuku">Guyuku</Link>, <Link to="/faith/hei_feng">Hei Feng</Link>, <Link to="/faith/kelizandri">Kelizandri</Link>, <Link to="/faith/neith">Neith</Link>, <Link to="/faith/oaur_ooung">Oaur-Ooung</Link>, <Link to="/faith/onos">Onos</Link>, <Link to="/faith/orgesh">Orgesh</Link>, <Link to="/faith/ovonovo">Ovonovo</Link>, <Link to="/faith/pharimia">Pharimia</Link>, <Link to="/faith/ragadahn">Ragadahn</Link>, <Link to="/faith/roqorolos">Roqorolos</Link>, <Link to="/faith/speakers_of_the_depths">Speakers of the Depths</Link>, <Link to="/faith/ylimancha">Ylimancha</Link>, <Link to="/faith/zogmugot">Zogmugot</Link></p><Ability id="surge-su" icon={["barbed-arrow"]}>
 <Pair single id="surge-su">Surge (Su)</Pair>
@@ -1078,15 +685,8 @@ const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Standard Action">You can cause a mighty wave to appear that pushes or pulls a single creature. Make a combat maneuver check against the target, using your cleric level + your Wisdom modifier as your CMB. If successful, you may pull or push the creature as if using the <Link to="/rule/bull_rush">bull rush</Link> or <Link to="/rule/drag">drag</Link> combat maneuver.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>obscuring mist</em></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/slipstream">slipstream<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/water_walk">water walk<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td><em>control water</em></td></tr>
-<tr><th scope="row">5th</th><td><em>ice storm</em></td></tr>
-<tr><th scope="row">6th</th><td><em>cone of cold</em></td></tr>
-<tr><th scope="row">7th</th><td><em>elemental body IV (water only)</em></td></tr>
-<tr><th scope="row">8th</th><td><em>horrid wilting</em></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/tsunami">tsunami<IonRippleEffect /></Link></td></tr></tbody></table><h3 id="domain-water-rivers-subdomain" data-hash-target>Rivers Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={4} links={[[1,"obscuring mist",false],[2,"slipstream","slipstream"],[3,"water walk","water_walk"],[4,"control water",false],[5,"ice storm",false],[6,"cone of cold",false],[7,"elemental body IV",false,<>water only</>],[8,"horrid wilting",false],[9,"tsunami","tsunami"]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-water-rivers-subdomain" data-hash-target>Rivers Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/book_of_the_damned">Book of the Damned pg. 181</Link>, <Link to="/source/inner_sea_gods">Inner Sea Gods pg. 226</Link>, <Link to="/source/pathfinder_80_empty_graves">Pathfinder #80: Empty Graves pg. 65</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/crocell">Crocell</Link>, <Link to="/faith/gaap">Gaap</Link>, <Link to="/faith/gogunta">Gogunta</Link>, <Link to="/faith/hanspur">Hanspur</Link>, <Link to="/faith/hataam">Hataam</Link>, <Link to="/faith/jalaijatali">Jalaijatali</Link>, <Link to="/faith/sobek">Sobek</Link>, <Link to="/faith/wadjet">Wadjet</Link></p><Ability id="current-flow-su" icon={["upgrade"]}>
 <Pair single id="current-flow-su">Current Flow (Su)</Pair>
@@ -1094,15 +694,8 @@ const _water = {hasJL:true,title: "Water", jsx: <><div className="jumpList" id="
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Free Action">You can increase either your base speed or your swim speed by 10 feet. While swimming, you gain a bonus on Swim checks equal to half your class level (minimum 1). These effects last for a number of rounds equal to your Wisdom modifier (minimum 1).</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/hydraulic_push">hydraulic push<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/slipstream">slipstream<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td><em>water breathing</em></td></tr>
-<tr><th scope="row">4th</th><td><em>control water</em></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/elemental_body_ii">elemental body II<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/fluid_form">fluid form<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>elemental body IV (water only)</em></td></tr>
-<tr><th scope="row">8th</th><td><em>horrid wilting</em></td></tr>
-<tr><th scope="row">9th</th><td><em>elemental swarm (water spell only)</em></td></tr></tbody></table></>};
+<SpellList id="replacement-domain-spells" count={5} links={[[1,"hydraulic push","hydraulic_push"],[2,"slipstream","slipstream"],[3,"water breathing",false],[4,"control water",false],[5,"elemental body II","elemental_body_ii"],[6,"fluid form","fluid_form"],[7,"elemental body IV",false,<>water only</>],[8,"horrid wilting",false],[9,"elemental swarm",false,<>water spell only</>]]}>Replacement Domain Spells</SpellList>
+</>};
 const _weather = {hasJL:true,title: "Weather", jsx: <><div className="jumpList" id="domain-weather-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="domain-weather-monsoon-subdomain">Monsoon Subdomain</InnerLink></li><li><InnerLink toTop to="domain-weather-seasons-subdomain">Seasons Subdomain</InnerLink></li><li><InnerLink toTop to="domain-weather-storms-subdomain">Storms Subdomain</InnerLink></li></ul></div><h2 id="domain-weather-weather">Weather</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 48</Link></p>
 <p><strong>Deities:</strong> <Link to="/faith/aegirran">Aegirran</Link>, <Link to="/faith/besmara">Besmara</Link>, <Link to="/faith/bokrug">Bokrug</Link>, <Link to="/faith/daikitsu">Daikitsu</Link>, <Link to="/faith/diceid">Diceid</Link>, <Link to="/faith/elion">Elion</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/halcamora">Halcamora</Link>, <Link to="/faith/hataam">Hataam</Link>, <Link to="/faith/hei_feng">Hei Feng</Link>, <Link to="/faith/hshurha">Hshurha</Link>, <Link to="/faith/imot">Imot</Link>, <Link to="/faith/ithaqua">Ithaqua</Link>, <Link to="/faith/ketephys">Ketephys</Link>, <Link to="/faith/maat">Maat</Link>, <Link to="/faith/nataka">Nataka</Link>, <Link to="/faith/ng">Ng</Link>, <Link to="/faith/psomeira">Psomeira</Link>, <Link to="/faith/pulura">Pulura</Link>, <Link to="/faith/rasvocel">Rasvocel</Link>, <Link to="/faith/roqorolos">Roqorolos</Link>, <Link to="/faith/rovagug">Rovagug</Link>, <Link to="/faith/rull">Rull</Link>, <Link to="/faith/set">Set</Link>, <Link to="/faith/sithhud">Sithhud</Link>, <Link to="/faith/trelmarixian">Trelmarixian</Link>, <Link to="/faith/urxehl">Urxehl</Link>, <Link to="/faith/valani">Valani</Link>, <Link to="/faith/vermilion_mother">Vermilion Mother</Link>, <Link to="/faith/vois">Vois</Link>, <Link to="/faith/vonymos">Vonymos</Link>, <Link to="/faith/yan_gant_y_tan">Yan-gant-y-tan</Link></p><p><strong className="hl">Granted Powers:</strong> With power over storm and sky, you can call down the wrath of the gods upon the world below.</p>
@@ -1116,15 +709,8 @@ const _weather = {hasJL:true,title: "Weather", jsx: <><div className="jumpList" 
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Standard Action">You can call down a number of bolts of lightning per day equal to your cleric level. You can call down as many bolts as you want with a single action, but no creature can be the target of more than one bolt and no two targets can be more than 30 feet apart. This ability otherwise functions as <em>call lightning.</em></Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/obscuring_mist">obscuring mist<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td className="ion-activatable"><Link to="/spell/fog_cloud">fog cloud<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/call_lightning">call lightning<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/sleet_storm">sleet storm<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/ice_storm">ice storm<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/control_winds">control winds<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td className="ion-activatable"><Link to="/spell/control_weather">control weather<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/whirlwind">whirlwind<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/storm_of_vengeance">storm of vengeance<IonRippleEffect /></Link></td></tr></tbody></table><h3 id="domain-weather-monsoon-subdomain" data-hash-target>Monsoon Subdomain</h3>
+<SpellList id="domain-spells" links={[[1,"obscuring mist","obscuring_mist"],[2,"fog cloud","fog_cloud"],[3,"call lightning","call_lightning"],[4,"sleet storm","sleet_storm"],[5,"ice storm","ice_storm"],[6,"control winds","control_winds"],[7,"control weather","control_weather"],[8,"whirlwind","whirlwind"],[9,"storm of vengeance","storm_of_vengeance"]]}>Domain Spells</SpellList>
+<h3 id="domain-weather-monsoon-subdomain" data-hash-target>Monsoon Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology pg. 25</Link></p>
 <div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="domain-weather--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>This subdomain requires the <Link to="/trait/acolyte_of_apocrypha">Acolyte of Apocrypha</Link> trait to access.</td></tr></tbody></table></ScrollContainer></div><p><strong className="hl">Associated Deities:</strong> <Link to="/faith/daikitsu">Daikitsu</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/hei_feng">Hei Feng</Link>, <Link to="/faith/rull">Rull</Link></p><Ability id="refreshing-rain-su" icon={["remedy"]}>
 <Pair single id="refreshing-rain-su">Refreshing Rain (Su)</Pair>
@@ -1133,15 +719,8 @@ const _weather = {hasJL:true,title: "Weather", jsx: <><div className="jumpList" 
 <Pair title="Usage">1 time/day + 1 per four cleric levels beyond 8th<ByLevelPop levels={[[8,1],[12,2],[16,3],[20,4]]} unit="time" postText="/day" /></Pair>
 <Pair title="Standard Action">You can call a brief shower of rain in a 30-foot radius. Creatures in the area are healed of an amount of nonlethal damage equal to double your cleric level and are no longer <Link to="/misc/exhausted">exhausted</Link>, <Link to="/misc/fatigued">fatigued</Link>, <Link to="/misc/nauseated">nauseated</Link>, or <Link to="/misc/sickened">sickened</Link>.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>obscuring mist</em></td></tr>
-<tr><th scope="row">2nd</th><td><em>fog cloud</em></td></tr>
-<tr><th scope="row">3rd</th><td className="ion-activatable"><Link to="/spell/hydraulic_torrent">hydraulic torrent<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/control_water">control water<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/fickle_winds">fickle winds<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td><em>control winds</em></td></tr>
-<tr><th scope="row">7th</th><td><em>control weather</em></td></tr>
-<tr><th scope="row">8th</th><td><em>whirlwind</em></td></tr>
-<tr><th scope="row">9th</th><td className="ion-activatable"><Link to="/spell/tsunami">tsunami<IonRippleEffect /></Link></td></tr></tbody></table><h3 id="domain-weather-seasons-subdomain" data-hash-target>Seasons Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={1} links={[[1,"obscuring mist",false],[2,"fog cloud",false],[3,"hydraulic torrent","hydraulic_torrent"],[4,"control water","control_water"],[5,"fickle winds","fickle_winds"],[6,"control winds",false],[7,"control weather",false],[8,"whirlwind",false],[9,"tsunami","tsunami"]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-weather-seasons-subdomain" data-hash-target>Seasons Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 96</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/aegirran">Aegirran</Link>, <Link to="/faith/daikitsu">Daikitsu</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/halcamora">Halcamora</Link>, <Link to="/faith/hataam">Hataam</Link>, <Link to="/faith/ketephys">Ketephys</Link>, <Link to="/faith/maat">Maat</Link>, <Link to="/faith/nataka">Nataka</Link>, <Link to="/faith/ng">Ng</Link>, <Link to="/faith/psomeira">Psomeira</Link>, <Link to="/faith/pulura">Pulura</Link>, <Link to="/faith/rasvocel">Rasvocel</Link>, <Link to="/faith/trelmarixian">Trelmarixian</Link>, <Link to="/faith/valani">Valani</Link>, <Link to="/faith/vois">Vois</Link></p><Ability id="untouched-by-the-seasons-su" icon={["shield-reflect"]}>
 <Pair single id="untouched-by-the-seasons-su">Untouched by the Seasons (Su)</Pair>
@@ -1149,15 +728,8 @@ const _weather = {hasJL:true,title: "Weather", jsx: <><div className="jumpList" 
 <Pair title="Usage">3 + Wis modifier times/day</Pair>
 <Pair title="Standard Action">By touching a creature, you can grant it the benefits of <Link to="/spell/endure_elements">endure elements</Link>, which last for 1 hour per cleric level.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td className="ion-activatable"><Link to="/spell/goodberry">goodberry<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">2nd</th><td><em>fog cloud</em></td></tr>
-<tr><th scope="row">3rd</th><td><em>call lightning</em></td></tr>
-<tr><th scope="row">4th</th><td className="ion-activatable"><Link to="/spell/blight">blight<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">5th</th><td><em>ice storm</em></td></tr>
-<tr><th scope="row">6th</th><td><em>control winds</em></td></tr>
-<tr><th scope="row">7th</th><td><em>control weather</em></td></tr>
-<tr><th scope="row">8th</th><td className="ion-activatable"><Link to="/spell/sunburst">sunburst<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">9th</th><td><em>storm of vengeance</em></td></tr></tbody></table><h3 id="domain-weather-storms-subdomain" data-hash-target>Storms Subdomain</h3>
+<SpellList id="replacement-domain-spells" count={2} links={[[1,"goodberry","goodberry"],[2,"fog cloud",false],[3,"call lightning",false],[4,"blight","blight"],[5,"ice storm",false],[6,"control winds",false],[7,"control weather",false],[8,"sunburst","sunburst"],[9,"storm of vengeance",false]]}>Replacement Domain Spells</SpellList>
+<h3 id="domain-weather-storms-subdomain" data-hash-target>Storms Subdomain</h3>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 96</Link></p>
 <p><strong className="hl">Associated Deities:</strong> <Link to="/faith/aegirran">Aegirran</Link>, <Link to="/faith/besmara">Besmara</Link>, <Link to="/faith/bokrug">Bokrug</Link>, <Link to="/faith/diceid">Diceid</Link>, <Link to="/faith/hataam">Hataam</Link>, <Link to="/faith/hei_feng">Hei Feng</Link>, <Link to="/faith/hshurha">Hshurha</Link>, <Link to="/faith/ithaqua">Ithaqua</Link>, <Link to="/faith/rasvocel">Rasvocel</Link>, <Link to="/faith/roqorolos">Roqorolos</Link>, <Link to="/faith/rovagug">Rovagug</Link>, <Link to="/faith/rull">Rull</Link>, <Link to="/faith/set">Set</Link>, <Link to="/faith/sithhud">Sithhud</Link>, <Link to="/faith/tolc">Tolc</Link>, <Link to="/faith/urxehl">Urxehl</Link>, <Link to="/faith/valani">Valani</Link>, <Link to="/faith/vois">Vois</Link>, <Link to="/faith/yan_gant_y_tan">Yan-gant-y-tan</Link></p><Ability id="gale-aura-su" icon={["armor-downgrade"]}>
 <Pair single id="gale-aura-su">Gale Aura (Su)</Pair>
@@ -1166,13 +738,6 @@ const _weather = {hasJL:true,title: "Weather", jsx: <><div className="jumpList" 
 <Pair title="Usage">1 round/day per cleric level; these rounds need not be consecutive</Pair>
 <Pair title="Standard Action">You can create a 30-foot aura of gale-like winds that slows the progress of enemies. Creatures in the aura cannot take a 5-foot step. Enemies in the aura treat each square that brings them closer to you as <Link to="/rule/difficult_terrain">difficult terrain</Link>. They can move normally in any other direction.</Pair>
 </Ability>
-<table className="basic spellList"><thead><tr><th colSpan={2}>Replacement Domain Spells</th></tr></thead><tbody><tr><th scope="row">1st</th><td><em>obscuring mist</em></td></tr>
-<tr><th scope="row">2nd</th><td><em>fog cloud</em></td></tr>
-<tr><th scope="row">3rd</th><td><em>call lightning</em></td></tr>
-<tr><th scope="row">4th</th><td><em>sleet storm</em></td></tr>
-<tr><th scope="row">5th</th><td className="ion-activatable"><Link to="/spell/call_lightning_storm">call lightning storm<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">6th</th><td className="ion-activatable"><Link to="/spell/sirocco">sirocco<IonRippleEffect /></Link></td></tr>
-<tr><th scope="row">7th</th><td><em>control weather</em></td></tr>
-<tr><th scope="row">8th</th><td><em>whirlwind</em></td></tr>
-<tr><th scope="row">9th</th><td><em>storm of vengeance</em></td></tr></tbody></table></>};
+<SpellList id="replacement-domain-spells" count={3} links={[[1,"obscuring mist",false],[2,"fog cloud",false],[3,"call lightning",false],[4,"sleet storm",false],[5,"call lightning storm","call_lightning_storm"],[6,"sirocco","sirocco"],[7,"control weather",false],[8,"whirlwind",false],[9,"storm of vengeance",false]]}>Replacement Domain Spells</SpellList>
+</>};
 export default {evil:_evil,devil:_devil,glory:_glory,hubris:_hubris,good:_good,archon:_archon,healing:_healing,knowledge:_knowledge,espionage:_espionage,travel:_travel,trickery:_trickery,void:_void,war:_war,water:_water,weather:_weather}
