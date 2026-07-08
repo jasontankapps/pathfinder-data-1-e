@@ -804,12 +804,17 @@ const _goblin_goblin_vulture_pilot = {title: "Goblin Vulture Pilot", jsx: <><Hea
 <Header sub>Description</Header>
 <p>Strapped to her giant vulture companion, the goblin vulture pilot is a peerless scout and saboteur. Enemies find goblin vulture pilots tough to pin down as they lob explosive bombs from the air. Vulture pilots are braver, more disciplined, and more patient than most goblins, as they have to sneak into giant vulture nests to steal eggs, resist the temptation to eat those eggs, and raise the hatchlings to be loyal mounts. Many pilots die in flying accidents; the lucky ones often discover how to craft extracts of bouncy body, levitate, or similar effects to help them survive the inevitable crashes.</p>
 <p>Goblin vulture pilots take great pride in their abilities, and often wear their mounts' feathers as headdresses or paint themselves with guano as marks of status.</p>
-<h3>Giant Vulture</h3>
-<p>Giant vulture animal companion<br/>N Medium animal<br/><strong>Init</strong> +3; <strong>Senses</strong> low-light vision; Perception +7</p>
-<p><em>Defense</em><br/><strong>AC</strong> 19, touch 13, flat-footed 16 (+3 Dex, +6 natural)<br/><strong>hp</strong> 26 (4d8+8)<br/><strong>Fort</strong> +6, <strong>Reflex</strong> +7, <strong>Will</strong> +3, +4 vs. disease<br/><strong>Defensive Abilities</strong> <Link to="/ability/evasion">evasion</Link></p>
-<p><em>Offense</em><br/><strong>Speed</strong> 10 ft., fly 50 ft. (average)<br/><strong>Melee</strong> bite +5 (1d8+3)</p>
-<p><em>Tactics</em><br/><strong>Base Statistics</strong> Without <em>barkskin,</em> the giant vulture's statistics are AC 17, touch 13, flat-footed 14.</p>
-<p><em>Statistics</em><br/><strong>Str</strong> 14, <strong>Dex</strong> 16, <strong>Con</strong> 14, <strong>Int</strong> 2, <strong>Wis</strong> 15, <strong>Cha</strong> 7<br/><strong>Base Atk</strong> +3; CMB +5; CMD 18<br/><strong>Feats</strong> <Link to="/feat/flyby_attack">Flyby Attack</Link>, <Link to="/feat/power_attack">Power Attack</Link><br/><strong>Skills</strong> Fly +10~Perception +7 SQ tricks (attack, come, defend, down, guard, stay)<br/><strong>Gear</strong> <Link to="/eq-misc/flying_straps">flying straps</Link></p>
+<blockquote>
+<Header full><span>Giant Vulture</span><span>CR 3</span></Header>
+<div className="reduce">
+<Info xp="none given" text={<><Link to="/monster/giant_vulture">Giant vulture</Link> <Link to="/sidekick/animal_companion">animal companion</Link></>} n medium animal init={3} llv pcp={7} />
+<Defense ac={[19,13,16]} mod="+3 Dex, +6 natural" hp={[26,"4d8+8"]} fort="+6" ref="+7" will="+3; +4 against disease" eva />
+<Offense sp={10} fl={50} flP="average" melee="bite +5 (1d8+3)" />
+<Header sub>Tactics</Header>
+<p><strong>Base Statistics</strong> Without <em>barkskin,</em> the giant vulture's statistics are AC 17, touch 13, flat-footed 14.</p>
+<Stats atts={[14,16,14,2,15,7]} bab={3} cmb={5} cmd={18} feats={["Flyby Attack","Power Attack"]} skills={{"fly":{"b":10},"per":{"b":7}}} racial="+4 Ride, +4 Stealth" lang={["C","G","Gl","Gb"]} sq="tricks (attack, come, defend, down, guard, stay)" gear={[["Qflying straps"]]} />
+</div>
+</blockquote>
 </>};
 const _goblin_grizzled_rider = {title: "Grizzled Rider", jsx: <><Header full><span>Grizzled Rider</span><span>CR 5</span></Header>
 <div className="reduce">

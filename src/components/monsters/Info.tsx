@@ -96,7 +96,7 @@ const Source: FC<SourceProps> = ({id, source}) => {
 	}
 	return (
 		<p><strong>Sources</strong> {
-			mapNodes(source.map(([title, page], i) => <Link key={`${id}-sourceline-${i}`} to={"/source/" + convertTextToLink(title)}>{title}{page ? " " + page : ""}</Link>), `${id}-source`)
+			mapNodes(source.map(([title, page], i) => <Link key={`${id}-sourceline-${i}`} to={"/source/" + convertTextToLink(title)}>{title}{page ? " pg. " + page : ""}</Link>), `${id}-source`)
 		}</p>
 	);
 };

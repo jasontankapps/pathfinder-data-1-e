@@ -630,7 +630,7 @@ const _aura_goggles = {title: "Aura goggles", jsx: <><h2 id="eq-misc-aura_goggle
 </>};
 const _riding_animals = {title: "Riding Animals", jsx: <><h2 id="eq-misc-riding_animals-riding-animals">Riding Animals</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 14</Link><br/><strong>Price</strong> Varies; <strong>Weight</strong> -</p>
-<p>When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size. In addition, most of these animals can be purchased already trained for combat.</p>
+<p>When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size. In addition, most of these animals can be purchased already trained for combat (see the Combat Training purpose in the list of <Link to="/ability/animal_tricks">animal tricks</Link>).</p>
 <ScrollContainer id="eq-misc-riding_animals--table-0"><table>
 <thead>
 <tr>

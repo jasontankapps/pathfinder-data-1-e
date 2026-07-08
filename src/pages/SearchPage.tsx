@@ -316,9 +316,9 @@ const SearchPage: FC = () => {
 		});
 	}, [fuse]);
 
-	searchBar && searchtext && !searchBar.value && searchBar.getInputElement().then(input => {
+	searchBar && searchText && !searchBar.value && searchBar.getInputElement().then(input => {
 		if(!input.value) {
-			input.value = searchtext;
+			input.value = searchText;
 		}
 	});
 
@@ -364,7 +364,7 @@ const SearchPage: FC = () => {
 					>
 					</IonSearchbar>
 					<IonButtons slot="end">
-						<IonButton onClick={clearInput} disabled={searchText === ""}>
+						<IonButton onClick={clearInput}>
 							<IonIcon slot="icon-only" icon={close} />
 						</IonButton>
 						<IonButton onClick={() => setFilterOpen(true)} color={filter.length && filter.length < 12 ? "tertiary" : undefined}>
