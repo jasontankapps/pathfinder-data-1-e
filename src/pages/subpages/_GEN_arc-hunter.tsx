@@ -309,7 +309,6 @@ const _feral_hunter = {title: "Feral Hunter", jsx: <><h2 id="arc-hunter-feral_hu
 </Ability>
 <Ability id="wild-shape-su" extraClasses="subAbility" icon={["stairs-goal"]}>
 <Pair single id="wild-shape-su" flavor="Relevant text from the druid class ability.">Wild Shape (Su)</Pair>
-<Pair title="Gained">At 4th Level</Pair>
 <Pair title="Usage">Once a day.</Pair>
 <Pair title="Standard Action">You gain the ability to turn yourself into any Small or Medium animal and back again. Your options for new forms include all creatures with the <Link to="/main/monsters_animals">animal</Link> type. This ability functions like the <Link to="/spell/beast_shape_i">beast shape I</Link> spell, except as noted here. The effect lasts for 1 hour per druid level, or until you change back. The form chosen must be that of an animal with which you are familiar.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
