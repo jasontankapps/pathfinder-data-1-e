@@ -776,12 +776,12 @@
 					{ "header": "Skill Ranks" },
 					{ "header": "Spellcasting" },
 					{ "header": "Spontaneous Casting" },
-					{ "header": "Weapon/Armor Proficiency" }
+					{ "header": "Weapon Proficiency" }
 				],
 				"data": [
 					[ [ "Calamity Caller", "calamity_caller" ], null, null, "X", "X", null, "X", null, null, null, null, null, null, null, null, null, null, null, "X", null, "X", null, null, null, null ],
 					[ [ "Champion of the Faith", "champion_of_the_faith" ], null, null, null, null, null, null, "X", null, null, null, null, null, null, "X", null, null, null, null, null, "X", null, null, null, null ],
-					[ [ "Cult Leader", "cult_leader" ], null, null, null, null, null, null, "X", null, "X", "X", "X", null, null, "X", "X", null, null, "X", null, null, "X", null, null, "X" ],
+					[ [ "Cult Leader", "cult_leader" ], null, "X", null, null, null, null, "X", null, "X", "X", "X", null, null, "X", "X", null, null, "X", null, null, "X", null, null, "X" ],
 					[ [ "Disenchanter", "disenchanter" ], null, null, null, null, null, "X", null, "X", null, null, null, null, null, "X", null, null, null, null, null, null, null, null, null, null ],
 					[ [ "Divine Champion", "divine_champion" ], null, null, null, null, null, null, "X", "X", "X", "X", null, "X", null, null, null, null, null, null, null, null, null, null, null, null ],
 					[ [ "Divine Commander", "divine_commander" ], null, null, null, "X", null, null, "X", "X", null, "X", "X", null, null, null, null, null, null, null, null, null, null, null, null, null ],
@@ -790,11 +790,11 @@
 					[ [ "Forgepriest", "forgepriest" ], null, null, null, "X", null, "X", "X", "X", null, null, null, null, null, "X", null, null, null, null, null, null, null, "X", null, null ],
 					[ [ "Jistkan Magistrate", "jistkan_magistrate" ], null, null, null, "X", null, null, null, null, null, null, null, null, "X", "X", "X", null, null, null, null, null, null, null, "X", null ],
 					[ [ "Liberty's Blade", "libertys_blade" ], null, null, null, "X", null, null, null, null, null, null, null, null, null, "X", null, null, null, null, "X", "X", null, null, null, null ],
-					[ [ "Mantis Zealot", "mantis_zealot" ], "X", null, "X", null, null, null, null, null, null, null, null, null, null, null, null, "X", null, null, "X", "X", null, null, null, "X" ],
+					[ [ "Mantis Zealot", "mantis_zealot" ], "X", "X", "X", null, null, null, null, null, null, null, null, null, null, null, null, "X", null, null, "X", "X", null, null, null, "X" ],
 					[ [ "Molthuni Arsenal Chaplain", "molthuni_arsenal_chaplain" ], null, null, null, "X", null, null, null, null, null, null, null, null, null, "X", null, null, null, null, "X", "X", null, null, null, null ],
 					[ [ "Proclaimer", "proclaimer" ], "X", null, null, null, null, null, null, null, null, null, null, null, null, "X", null, "X", "X", null, "X", null, null, null, "X", null ],
-					[ [ "Proselytizer", "proselytizer" ], null, null, null, "X", "X", null, "X", null, null, null, null, null, null, null, null, null, null, null, "X", "X", null, null, null, "X" ],
-					[ [ "Sacred Fist", "sacred_fist" ], null, null, null, null, null, null, "X", "X", "X", "X", null, "X", null, null, "X", null, null, "X", "X", "X", null, null, null, "X" ],
+					[ [ "Proselytizer", "proselytizer" ], null, "X", null, "X", "X", null, "X", null, null, null, null, null, null, null, null, null, null, null, "X", "X", null, null, null, "X" ],
+					[ [ "Sacred Fist", "sacred_fist" ], null, "X", null, null, null, null, "X", "X", "X", "X", null, "X", null, null, "X", null, null, "X", "X", "X", null, null, null, "X" ],
 					[ [ "Shieldbearer", "shieldbearer" ], null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", "X", "X", null, null, null, null ],
 					[ [ "Sixth Wing Bulwark", "sixth_wing_bulwark" ], null, "X", null, null, null, null, null, "X", null, "X", null, "X", null, null, null, null, null, "X", "X", "X", null, null, null, null ]
 				],

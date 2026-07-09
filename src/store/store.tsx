@@ -462,6 +462,25 @@ const migrations = {
 			scroll,
 			displayTable
 		};
+	},
+	23: (state: any) => {
+		const {displayTable: dt, ...unchangedState} = state;
+		const displayTable = {...dt};
+		// Remove info regarding adjusted tables
+		const tables = [
+			"cavalier", "bloodrager", "fighter", "occultist",
+			"paladin", "skald", "slayer", "swashbuckler",
+			"vigilante", "cleric", "druid", "warpriest",
+			"shifter", "magus", "brawler", "rogue", "monk"
+		];
+		tables.forEach(xid => {
+			const id = xid + " archetypes";
+			delete displayTable[id];
+		});
+		return {
+			...unchangedState,
+			displayTable
+		};
 	}
 };
 
@@ -479,7 +498,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<InitialAppState> = {
 	key: 'root-pf-data',
-	version: 22,
+	version: 23,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),

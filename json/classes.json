@@ -1448,7 +1448,7 @@
 					{ "header": "Spellcasting" },
 					{ "header": "Uncanny Dodge" },
 					{ "header": "Improved Uncanny Dodge" },
-					{ "header": "Weapon/Armor Proficiency" }
+					{ "header": "Weapon Proficiency" }
 				],
 				"data": [
 					[ [ "Ancestral Harbinger", "ancestral_harbinger" ], null, null, null, null, null, "X", null, "X", null, "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", "X", null ],
@@ -1459,7 +1459,7 @@
 					[ [ "Crossblooded Rager", "crossblooded_rager" ], null, null, null, null, null, null, null, null, null, null, "X", null, null, null, null, null, "X", "X", null, null, null, null, null, null, null, null, "X", null, null, null, null ],
 					[ [ "Enlightened Bloodrager", "enlightened_bloodrager" ], null, null, null, null, null, null, null, null, null, null, null, "X", "X", "X", null, null, null, "X", null, null, "X", "X", "X", null, null, null, null, "X", null, null, null ],
 					[ [ "Greenrager", "greenrager" ], null, null, "X", null, null, "X", "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
-					[ [ "Hag-Riven", "hag_riven" ], null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", null, null, null, null, "X", null, null, null, "X", "X", "X" ],
+					[ [ "Hag-Riven", "hag_riven" ], "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", null, null, null, null, "X", null, null, null, "X", "X", "X" ],
 					[ [ "Id Rager", "id_rager" ], null, null, null, "X", "X", null, null, null, null, null, "X", null, null, "X", null, null, null, null, null, null, null, null, null, "X", null, null, null, "X", null, null, null ],
 					[ [ "Metamagic Rager", "metamagic_rager" ], null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", null ],
 					[ [ "Primalist", "primalist" ], null, null, null, "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
@@ -1469,7 +1469,7 @@
 					[ [ "Steelblood", "steelblood" ], "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", null, null, null, null, "X", null, null, null, "X", "X", null ],
 					[ [ "Symbol Striker", "symbol_striker" ], null, null, null, null, null, "X", "X", "X", null, "X", null, null, null, null, null, null, null, null, "X", null, null, null, null, null, "X", null, null, null, null, null, null ],
 					[ [ "Untouchable Rager", "untouchable_rager" ], null, "X", null, null, null, null, null, null, null, null, null, null, null, "X", null, null, null, null, null, null, null, null, null, "X", null, null, null, "X", null, null, null ],
-					[ [ "Urban Bloodrager", "urban_bloodrager" ], null, null, "X", null, null, null, null, null, null, null, null, null, null, "X", null, null, null, null, "X", "X", null, null, null, null, null, null, null, null, null, null, "X" ]
+					[ [ "Urban Bloodrager", "urban_bloodrager" ], "X", null, "X", null, null, null, null, null, null, null, null, null, null, "X", null, null, null, null, "X", "X", null, null, null, null, null, null, null, null, null, null, "X" ]
 				],
 				"initialColumn": 0,
 				"nullValue": "&nbsp;"
