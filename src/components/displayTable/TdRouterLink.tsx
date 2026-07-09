@@ -4,7 +4,7 @@ import { useLocation } from 'wouter';
 import { LinkFormat } from '../../types';
 import { useAppDispatch } from '../../store/hooks';
 import { goTo } from '../../store/historySlice';
-//import getLink from '../getLink';
+import maybeBreakText from '../maybeBreakText';
 
 interface TdRouterLinkProps {
 	datum: LinkFormat
@@ -27,7 +27,7 @@ const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum, align }
 		} onClick={
 			() => { navigate(to); dispatch(goTo(to)); }
 		}>
-			{text}
+			{maybeBreakText(text)}
 			<IonRippleEffect />
 		</div>
 	);

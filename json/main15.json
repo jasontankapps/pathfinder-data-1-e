@@ -51,7 +51,7 @@
 					{ "header": "CMD", "type": "num", "size": 3.5 }
 				],
 				"data": [
-					[ [ "Butterfly/Moth (Familiar)", "familiar_butterfly_moth" ], { "sort": -10, "data": "0" }, "vermin", { "sort": 1, "data": "diminutive" }, { "sort": 4, "data": "N" }, "This graceful winged insect is a riot of color that glides through the air like a flittering dream.", 1, 13, 4, { "sort": -1 }, 12, 7, 0, -3, 2 ],
+					[ [ "Butterfly/&wbr&Moth (Familiar)", "familiar_butterfly_moth" ], { "sort": -10, "data": "0" }, "vermin", { "sort": 1, "data": "diminutive" }, { "sort": 4, "data": "N" }, "This graceful winged insect is a riot of color that glides through the air like a flittering dream.", 1, 13, 4, { "sort": -1 }, 12, 7, 0, -3, 2 ],
 					[ [ "Slug, Leopard (Familiar)", "familiar_leopard_slug" ], { "sort": -10, "data": "0" }, "vermin", { "sort": 1, "data": "diminutive" }, { "sort": 4, "data": "N" }, "This dark-yellow, hand-length slug is covered in a pattern of black spots and stripes.", 1, 4, 12, { "sort": -1 }, 7, 9, 0, -7, -2 ],
 					[ [ "Bat (Familiar)", "familiar_bat" ], { "sort": -8, "data": "1/8" }, "animal", { "sort": 1, "data": "diminutive" }, { "sort": 4, "data": "N" }, null, 1, 15, 6, 2, 14, 5, 0, -2, 3 ],
 					[ [ "Centipede, House (Familiar)", "familiar_house_centipede" ], { "sort": -8, "data": "1/8" }, "vermin", { "sort": 2, "data": "tiny" }, { "sort": 4, "data": "N" }, null, 1, 17, 10, { "sort": -1 }, 10, 2, 0, 1, 6 ],
