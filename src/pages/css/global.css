@@ -224,7 +224,7 @@ section[data-footnotes] ol li::before {
 	display: inline-block;
 	padding: 0;
 	padding-inline-end: 0.25rem;
-	min-width: 40px; /* Matches base style */
+	min-inline-size: 40px; /* Matches base style */
 	box-sizing: border-box;
 	text-align: end;
 	content: counter(index, numeric) '.';
@@ -311,7 +311,7 @@ div.jumpList {
 	padding-inline: 0.625rem;
 	padding-block: 0.25rem;
 	margin-block-start: 0;
-	max-width: calc(60% - 1rem - 0.25rem);
+	max-inline-size: calc(60% - 1rem - 0.25rem);
 	z-index: 2;
 	position: relative;
 }

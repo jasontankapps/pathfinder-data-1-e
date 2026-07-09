@@ -18,22 +18,22 @@ div.finder {
 	flex-flow: row nowrap;
 	align-items: center;
 	justify-content: center;
-	max-height: 3.5rem;
+	max-block-size: 3.5rem;
 	overflow: hidden;
 	transition:
 		transform ease-out 0.5s,
-		max-height ease-out 0.5s,
+		max-block-size ease-out 0.5s,
 		padding-block ease-out 0.5s,
 		opacity 0s;
 }
 div.finder.hidden {
 	transform: translateY(-2rem);
-	max-height: 0;
+	max-block-size: 0;
 	padding-block: 0;
 	opacity: 0;
 	transition:
 		transform ease-in 0.5s,
-		max-height ease-in 0.5s,
+		max-block-size ease-in 0.5s,
 		padding-block ease-in 0.5s,
 		opacity 0s 0.5s;
 }
@@ -42,7 +42,7 @@ div.finder > * {
 }
 div.finder ion-searchbar {
 	margin-inline-end: 0.5rem;
-	height: 2rem;
+	block-size: 2rem;
 	flex: 1 1 50%;
 }
 div.finder ion-searchbar input {

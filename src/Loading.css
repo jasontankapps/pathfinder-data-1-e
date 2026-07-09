@@ -5,7 +5,7 @@ div.loadingPage {
 	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
-	height: 100%;
+	block-size: 100%;
 }
 div.loadingPage ion-text {
 	display: block;

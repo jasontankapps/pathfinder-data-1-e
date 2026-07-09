@@ -16,7 +16,7 @@ ion-modal ion-item.item ion-label.picker {
 ion-modal ion-item.item ion-label.picker ion-text.pickedText {
 	color: var(--pickedColor, var(--ion-color-primary));
 	border-bottom: 1px solid var(--pickedColor, var(--ion-color-primary));
-	min-width: 2rem;
+	min-inline-size: 2rem;
 	display: inline-block;
 	text-align: center;
 	margin-inline: 1rem;
@@ -42,6 +42,6 @@ ion-modal.pickerSheet ion-content::part(scroll) {
 	flex-flow: row wrap;
 	justify-content: safe center;
 	align-content: safe center;
-	min-height: calc(1.25rem * 12);
+	min-block-size: calc(1.25rem * 12);
 	width: 100%;
 }

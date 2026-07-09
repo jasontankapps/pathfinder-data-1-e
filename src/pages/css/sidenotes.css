@@ -12,11 +12,11 @@ div.sideNoteWrap.startAlign {
 	padding-inline-start: 1rem;
 }
 div.sideNoteWrap div.tableWrap {
-	max-width: calc(100% - 1.75rem);
+	max-inline-size: calc(100% - 1.75rem);
 	margin: 0 0 0 auto;
 }
 div.sideNoteWrap.startAlign div.tableWrap {
-	max-width: calc(100% - 1.75rem);
+	max-inline-size: calc(100% - 1.75rem);
 	margin: 0 auto 0 0;
 }
 div.sideNoteWrap + div.sideNoteWrap {

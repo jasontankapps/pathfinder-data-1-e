@@ -106,7 +106,7 @@ ion-list.aboutPage p.icons {
 ion-list.aboutPage ion-icon {
 	color: var(--ion-text-color);
 	width: 2rem;
-	height: 2rem;
+	block-size: 2rem;
 }
 ion-list.aboutPage ion-item ion-label p {
 	margin-block: 1rem;

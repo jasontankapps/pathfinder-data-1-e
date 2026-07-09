@@ -36,8 +36,8 @@ div.ability.indent2 {
 	margin-inline-start: 2.25rem;
 }
 div.ability div.sideNoteWrap div.tableWrap {
-	max-width: 100%;
-	width: auto;
+	max-inline-size: 100%;
+	inline-size: auto;
 }
 div.ability div.table {
 	border-color: var(--ab-contrast-subheader);
@@ -139,9 +139,9 @@ div.abEnd p:last-child {
 div.abStart {
 	float: inline-start;
 	text-align: end;
-	width: min-content;
-	min-width: 25%;
-	max-width: 75%;
+	inline-size: min-content;
+	min-inline-size: 25%;
+	max-inline-size: 75%;
 	background-color: var(--ab-subheader);
 	margin: 0;
 	margin-inline-end: 0.5rem;
@@ -166,7 +166,7 @@ div.abPair:last-child {
 div.abSingle,
 div.abPair,
 div.abStart {
-	min-height: 1.75rem;
+	min-block-size: 1.75rem;
 }
 div.ability.hasSubs {
 	margin-block-start: 1rem;
@@ -235,8 +235,8 @@ div:is(.ability, .subAbility) div.box {
 	padding-inline: 0.5rem;
 }
 div.ability div.box div.tableWrap {
-	width: auto;
-	max-width: calc(
+	inline-size: auto;
+	max-inline-size: calc(
 		100vw
 		- 1rem    /* .box padding */
 		- 2rem    /* div.basicContent.simple padding */
@@ -246,7 +246,7 @@ div.ability div.box div.tableWrap {
 	);
 }
 div.subAbility div.box div.tableWrap {
-	max-width: calc(
+	max-inline-size: calc(
 		100vw
 		- 1rem    /* .box padding */
 		- 2rem    /* div.basicContent.simple padding */

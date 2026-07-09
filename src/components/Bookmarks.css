@@ -33,7 +33,7 @@ div.basicContent.bookmarks ion-item.divider {
 }
 
 div.basicContent.bookmarks ion-item.divider div.dummy {
-	width: 1em;
+	inline-size: 1em;
 }
 
 div.basicContent.bookmarks ion-item.divider ion-label {
@@ -44,17 +44,17 @@ div.basicContent.bookmarks ion-item.divider ion-label {
 }
 
 div.basicContent.bookmarks ion-item.divider ion-label ion-icon {
-	width: 100%;
+	inline-size: 100%;
 }
 
 ion-item#colorCircleItems::part(native) div.item-inner {
 	display: block;
-	height: 100%;
+	block-size: 100%;
 }
 
 div#colorCircles {
 	padding-block: 0.5rem;
-	height: calc(100% - 3.25rem);
+	block-size: calc(100% - 3.25rem);
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
@@ -72,8 +72,8 @@ div#colorCircles div.select-circle {
 	border-radius: 100%;
 	border-width: 0;
 	border-style: solid;
-	height: 2rem;
-	width: 2rem;
+	block-size: 2rem;
+	inline-size: 2rem;
 	margin: 1rem;
 	cursor: pointer;
 	box-sizing: border-box;
@@ -83,11 +83,11 @@ div#colorCircles div.select-circle.selected {
 	background: var(--ion-text-color) !important;
 	cursor: pointer;
 	margin: 0.5rem;
-	height: 3rem;
-	width: 3rem;
+	block-size: 3rem;
+	inline-size: 3rem;
 }
 div#postCircles {
-	height: 2.5rem;
+	block-size: 2.5rem;
 	margin: 0;
 	padding: 0.75rem 3rem;
 	display: flex;
@@ -533,7 +533,7 @@ div.basicContent.bookmarks.importExport div.block > * {
 	text-align: center;
 }
 div.basicContent.bookmarks.importExport div.block ion-list {
-	width: min-content;
+	inline-size: min-content;
 	margin: 0 auto;
 	padding-block: 0;
 	margin-bottom: 1rem;
@@ -560,15 +560,15 @@ div.basicContent.bookmarks.importExport div.block ion-list ion-toggle::part(labe
 	margin-inline-end: 0.5rem;
 }
 div.basicContent.bookmarks.importExport div.block ion-list ion-toggle::part(track) {
-	width: 1.5rem;
-	height: 0.75rem;
+	inline-size: 1.5rem;
+	block-size: 0.75rem;
 }
 div.basicContent.bookmarks.importExport div.block ion-textarea {
 	margin-block: 0.5rem;
 	padding-inline: 1rem;
 	text-align: start;
-	height: 45vh;
-	min-height: 5rem;
+	block-size: 45vh;
+	min-block-size: 5rem;
 }
 div.basicContent.bookmarks.importExport div.block ion-textarea .native-wrapper {
 	background: transparent;

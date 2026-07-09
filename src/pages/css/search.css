@@ -5,7 +5,7 @@ div.search div.searchResult {
 	border-width: 0 0 0.0625rem;
 	border-style: solid;
 	background: var(--ion-item-background);
-	height: 4.375rem;
+	block-size: 4.375rem;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
@@ -29,7 +29,7 @@ div.search div.searchResult a h3 {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	max-width: 100%;
+	max-inline-size: 100%;
 	border-block-start-width: 0;
 	border-block-end-width: 0;
 }

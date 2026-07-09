@@ -56,7 +56,7 @@ div.prevNext div.next {
 	position: relative;
 	background-color: var(--background-faint);
 	padding-inline: 0.5rem;
-	width: max-content;
+	inline-size: max-content;
 }
 div.prevNext div.prev {
 	border-radius: 0 1rem 1rem 0 / 0 1rem 1rem 0;
