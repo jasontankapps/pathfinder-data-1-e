@@ -6,39 +6,95 @@ import InnerLink from '../../components/InnerLink';
 import AffInfo from '../../components/AfflictionInfo';
 const _alley_witch = {title: "Alley Witch", jsx: <><h2 id="arc-witch-alley_witch-alley-witch">Alley Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 20</Link><br/>Some witches find their spark of magic in the long, dark shadows and forgotten places within the city.</p>
-<p><strong>Child of the Streets:</strong> An alley witch gains Bluff and Knowledge (local) as class skills, but loses Knowledge (nature) and Knowledge (planes) as class skills.</p>
-<p>This alters the witch's <strong className="hl">class skills</strong>.</p>
-<p><strong>Crowd Patron:</strong> An alley witch draws power not from a patron, but from the crowd of minds around her. She doesn't select a patron at 1st level; instead, she gains the following bonus spells at the listed levels.</p>
-<p>2nd-<Link to="/spell/ears_of_the_city">ears of the city</Link>, 4th-<Link to="/spell/alter_self">alter self</Link>, 6th-<Link to="/spell/witness">witness</Link>, 8th-<Link to="/spell/shadow_step">shadow step</Link>, 10th-<Link to="/spell/mages_private_sanctum">mage's private sanctum</Link>, 12th-<Link to="/spell/heroes_feast">heroes' feast</Link>, 14th-<Link to="/spell/limited_wish">limited wish</Link>, 16th-<Link to="/spell/create_demiplane">create demiplane</Link>, 18th-<Link to="/spell/shades">shades</Link>.</p>
-<p>This ability alters <strong className="hl">witch's familiar</strong>.</p>
-<p><strong>Speak to the City:</strong> An alley witch builds a special rapport with a single city. At 1st level, she can select one settlement whose type is <Link to="/rule/the_settlement_stat_block">large town size or larger</Link>. Within this settlement, she gains a +2 bonus on initiative checks, as well as Knowledge (local), Perception, Stealth, and Sense Motive checks. At 6th level and every 5 witch levels thereafter, this bonus increases by 2. The alley witch can build a rapport with a new city after 30 days of remaining there; this severs her bond to her previous settlement.</p>
-<p>This ability replaces the witch's 1st-level <strong className="hl">hex</strong>.</p>
-<p><strong>Hex Trader:</strong> At 6th level, once per day as a full-round action, an alley witch can bind a hex she knows into a feather, bead, or other small token. Any creature holding this token can use that hex once as if using a potion, targeting itself or a creature it touches. While a hex is sealed into a token, the alley witch loses her ability to use that hex until the token is used or she can recover the token. If a hex can be used in increments (like the <Link to="/hex/disguise">disguise</Link> hex), the alley witch decides how many increments the token contains when making it. If a hex has no set duration, it lasts for 1 minute once activated.</p>
-<p>This ability replaces the witch's 6th-level <strong className="hl">hex</strong>.</p>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
+<Pair title="Removed Skills">Knowledge (nature), Knowledge (planes)</Pair></Ability>
+<Ability id="crowd-patron" icon={["info","spell-book"]}>
+<Pair single id="crowd-patron">Crowd Patron</Pair>
+<Pair hl title="Alters">Patron, patron spells</Pair>
+<Pair title="Info">An alley witch draws power not from a patron, but from the crowd of minds around her. She doesn't select a patron at 1st level; instead, she gains the following bonus spells at the listed witch levels.</Pair>
+<Pair plain title="2nd"><Link to="/spell/ears_of_the_city">Ears of the city</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/alter_self">Alter self</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/witness">Witness</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/shadow_step">Shadow step</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/mages_private_sanctum">Mage's private sanctum</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/heroes_feast">Heroes' feast</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/limited_wish">Limited wish</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/create_demiplane">Create demiplane</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/shades">Shades</Link></Pair>
+</Ability>
+<Ability id="speak-to-the-city" icon={["upgrade"]}>
+<Pair single id="speak-to-the-city" flavor="An alley witch builds a special rapport with a single city.">Speak to the City</Pair>
+<Pair hl title="Replaces">1st-level hex</Pair>
+<Pair title="Choice">At 1st level, she can select one settlement whose type is <Link to="/rule/the_settlement_stat_block">large town size or larger</Link>.</Pair>
+<Pair title="Passive Ability">Within this settlement, she gains a +2 bonus on initiative checks, as well as Knowledge (local), Perception, Stealth, and Sense Motive checks.</Pair>
+<Pair title="At 6th Level">This bonus becomes +4.</Pair>
+<Pair title="At 11th Level">This bonus increases to +6.</Pair>
+<Pair title="At 16th Level">This bonus becomes +8.</Pair>
+<Pair title="Special">The alley witch can build a rapport with a new city after 30 days of remaining there; this severs her bond to her previous settlement.</Pair>
+</Ability>
+<Ability id="hex-trader" icon={["magic-swirl"]}>
+<Pair single id="hex-trader">Hex Trader</Pair>
+<Pair hl title="Replaces">6th-level hex</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Full-Round Action">Once per day, an alley witch can bind a hex she knows into a feather, bead, or other small token. Any creature holding this token can use that hex once as if using a potion, targeting itself or a creature it touches.</Pair>
+<Pair title="Special">While a hex is sealed into a token, the alley witch loses her ability to use that hex until the token is used or she can recover the token. If a hex can be used in increments (like the <Link to="/hex/disguise">disguise</Link> hex), the alley witch decides how many increments the token contains when making it. If a hex has no set duration, it lasts for 1 minute once activated.</Pair>
+</Ability>
 </>};
 const _ashiftah = {title: "Ashiftah", jsx: <><h2 id="arc-witch-ashiftah-ashiftah">Ashiftah</h2>
 <p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East pg. 14</Link><br/>Qadira's armies strike terror into foes, but tales of something even more terrible than desert dervishes or charging cavalry haunt foot soldiers serving Qadira's neighbors. Known in Taldane as a "battle witch," an ashiftah drifts like a phantom among the enemy armies, calling down disaster upon their heads and weakening their resolve. Qadiran ashiftahs usually go veiled, and even their cohorts in the Imperial Forces superstitiously believe that seeing their faces brings misfortune.</p>
-<p><strong>Protecting Veil:</strong> An ashiftah's veil is not merely a uniform, but a magical vestment imbued with power. Its ability to hold spells functions identically to a witch's familiar. An ashiftah must veil herself and commune with her patron each day to prepare her spells and cannot prepare spells not stored in the veil.</p>
-<p>This ability replaces <strong className="hl">familiar</strong>.</p>
-<p><strong>Ghostwalk (Su):</strong> Starting at 2nd level, as a move action after using a hex, an ashiftah can become invisible as per <Link to="/spell/vanish">vanish</Link> and can then take a 5-foot step. Using ghostwalk doesn't provoke attacks of opportunity.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 2nd level.</p>
-<p><strong>Deliver Touch Spells (Su):</strong> Starting at 3rd level, an ashiftah can use her veil to deliver touch spells. After casting a touch spell, as a full-round action, she can tear a strip from her veil and whisper to it, designating a target. She then releases the scrap of fabric, which drifts on the wind to the target and delivers the spell as a ranged touch attack. The target must be within 20 feet of the witch. The veil mends itself after the spell is delivered.</p>
-<p><strong>Fog of War (Sp):</strong> At 6th level, as a standard action, an ashiftah can blanket a 20-foot-radius area of the battlefield in a clammy mist that functions as per <Link to="/spell/barrow_haze">barrow haze</Link>, allowing her to treat any area within the mist as within 30 feet for purposes of her hexes, as long as some part of that area is within 30 feet of her.</p>
-<p>This replaces the <strong className="hl">hex</strong> gained at 6th level.</p>
+<Ability id="protecting-veil" icon={["info","hazard-sign"]}>
+<Pair single id="protecting-veil">Protecting Veil</Pair>
+<Pair hl title="Replaces">Familiar</Pair>
+<Pair title="Ability">An ashiftah's veil is not merely a uniform, but a magical vestment imbued with power. Its ability to hold spells functions identically to a witch's familiar. An ashiftah must veil herself and commune with her patron each day to prepare her spells and cannot prepare spells not stored in the veil.</Pair>
+</Ability>
+<Ability id="ghostwalk-su" icon={["magic-swirl"]}>
+<Pair single id="ghostwalk-su">Ghostwalk (Su)</Pair>
+<Pair hl title="Replaces">Hex gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Move-Equivalent Action">After using a hex, an ashiftah can become invisible as per <Link to="/spell/vanish">vanish</Link> and can then take a 5-foot step.</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
+</Ability>
+<Ability id="deliver-touch-spells-su" icon={["smoking-finger"]}>
+<Pair single id="deliver-touch-spells-su" flavor="An ashiftah can use her veil to deliver touch spells.">Deliver Touch Spells (Su)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Full-Round Action">After casting a touch spell, she can tear a strip from her veil and whisper to it, designating a target. She then releases the scrap of fabric, which drifts on the wind to the target and delivers the spell as a ranged touch attack. The target must be within 20 feet of the witch. The veil mends itself after the spell is delivered.</Pair>
+</Ability>
+<Ability id="fog-of-war-sp" icon={["magic-swirl"]}>
+<Pair single id="fog-of-war-sp">Fog of War (Sp)</Pair>
+<Pair hl title="Replaces">Hex gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Standard Action">An ashiftah can blanket a 20-foot-radius area of the battlefield in a clammy mist that functions as per <Link to="/spell/barrow_haze">barrow haze</Link>, allowing her to treat any area within the mist as within 30 feet for purposes of her hexes, as long as some part of that area is within 30 feet of her.</Pair>
+</Ability>
 </>};
 const _beast_bonded = {title: "Beast-Bonded", jsx: <><h2 id="arc-witch-beast_bonded-beast-bonded">Beast-Bonded</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 83</Link><br/>While all witches are intimately tied to their familiars, a beast-bonded witch's craft focuses specifically on her familiar bond and developing the relationship with her patron through her familiar.</p>
-<p><strong>Transfer Feats (Ex):</strong> Whenever the beast-bonded witch is capable of learning a new feat, she may choose to instead have her familiar learn the feat as a bonus feat. The familiar must meet the prerequisites for any feats that it learns this way. If her familiar is lost or dies, the witch can reclaim the feat slots and select new feats for herself, or apply the slots toward her new familiar.</p>
-<p><strong>Enhanced Familiar (Su):</strong> At 4th level, the beast-bonded witch's connection with her familiar strengthens. For the purposes of determining her familiar's powers and abilities, she treats her familiar as if she were one level higher than her actual witch level.</p>
-<p>This ability replaces the witch's 4th-level <strong className="hl">hex</strong>.</p>
-<p><strong>Familiar Form (Sp):</strong> At 8th level, a beast-bonded witch may take the shape of her familiar (or a giant version of her familiar or a similar kind of animal) as if using <Link to="/spell/beast_shape_ii">beast shape II</Link>. For example, a witch with a rat familiar can turn into a Tiny rat, Small dire rat, or a larger rodent; one with a cat familiar can turn into a Tiny cat or a Large feline such as a tiger or lion; one with a monkey familiar can turn into a Tiny monkey or a Large gorilla, and so on. The witch can remain in animal form for a number of minutes per day equal to her level.</p>
-<p>This ability replaces the witch's 8th-level <strong className="hl">hex</strong>.</p>
-<p><strong>Twin Soul (Su):</strong> At 10th-level, if the witch or her familiar is gravely injured or about to die, the soul of the dying one immediately transfers to the other's body. The two souls share the surviving body peaceably, can communicate freely, and both retain their ability to think and reason. The host may allow the guest soul to take over the body temporarily or reclaim it as a move action. They can persist in this state indefinitely, or the guest can return to its own body (if available) by touch, transfer into a suitable vessel (such as a <Link to="/spell/clone">clone</Link>), or take over another body as if using <Link to="/spell/magic_jar">magic jar</Link> (with no receptacle).</p>
-<p>This replaces the witch's <strong className="hl">major hex</strong> at 10th-level.</p>
-<p><strong>Hexes:</strong> The following witch hexes complement the beast-bonded archetype: <Link to="/hex/beast_of_ill_omen">beast of ill omen</Link>, <Link to="/hex/charm">charm</Link>, <Link to="/hex/feral_speech">feral speech</Link>, <Link to="/hex/ward">ward</Link>.</p>
-<p><strong>Major Hexes:</strong> The following major hex complements the beast-bonded archetype: <Link to="/hex/beast_eye">beast eye</Link>.</p>
-<p><strong>Grand Hexes:</strong> The following grand hex complements the beast-bonded archetype: <Link to="/hex/forced_reincarnation">forced reincarnation</Link>.</p>
-</>};
+<Ability id="transfer-feats-ex" icon={["info"]}>
+<Pair single id="transfer-feats-ex">Transfer Feats (Ex)</Pair>
+<Pair title="Ability">Whenever the beast-bonded witch is capable of learning a new feat, she may choose to instead have her familiar learn the feat as a bonus feat. The familiar must meet the prerequisites for any feats that it learns this way.</Pair>
+<Pair title="Special">If her familiar is lost or dies, the witch can reclaim the feat slots and select new feats for herself, or apply the slots toward her new familiar.</Pair>
+</Ability>
+<Ability id="enhanced-familiar-su" icon={["upgrade"]}>
+<Pair single id="enhanced-familiar-su" flavor="The beast-bonded witch's connection with her familiar strengthens.">Enhanced Familiar (Su)</Pair>
+<Pair hl title="Replaces">4th-level hex</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Info">For the purposes of determining her familiar's powers and abilities, she treats her familiar as if she were one level higher than her actual witch level.</Pair>
+</Ability>
+<Ability id="familiar-form-sp" icon={["magic-swirl"]}>
+<Pair single id="familiar-form-sp">Familiar Form (Sp)</Pair>
+<Pair hl title="Replaces">8th-level hex</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">1 minute/day per witch level</Pair>
+<Pair title="Ability">A beast-bonded witch may take the shape of her familiar (or a giant version of her familiar or a similar kind of animal) as if using <Link to="/spell/beast_shape_ii">beast shape II</Link>. For example, a witch with a rat familiar can turn into a Tiny rat, Small dire rat, or a larger rodent; one with a cat familiar can turn into a Tiny cat or a Large feline such as a tiger or lion; one with a monkey familiar can turn into a Tiny monkey or a Large gorilla, and so on.</Pair>
+</Ability>
+<Ability id="twin-soul-su" icon={["remedy"]}>
+<Pair single id="twin-soul-su">Twin Soul (Su)</Pair>
+<Pair hl title="Replaces">Major hex at 10th-level</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">If the witch or her familiar is gravely injured or about to die, the soul of the dying one immediately transfers to the other's body. The two souls share the surviving body peaceably, can communicate freely, and both retain their ability to think and reason. The host may allow the guest soul to take over the body temporarily or reclaim it as a <strong className="hl">move action</strong>. They can persist in this state indefinitely, or the guest can return to its own body (if available) by touch, transfer into a suitable vessel (such as a <Link to="/spell/clone">clone</Link>), or take over another body as if using <Link to="/spell/magic_jar">magic jar</Link> (with no receptacle).</Pair>
+</Ability>
+<p><strong className="hl">The following witch hexes complement this archetype:</strong> <Link to="/hex/beast_of_ill_omen">Beast of ill omen</Link>, <Link to="/hex/charm">charm</Link>, <Link to="/hex/feral_speech">feral speech</Link>, <Link to="/hex/ward">ward</Link></p><p><strong className="hl">The following major hex complements this archetype:</strong> <Link to="/hex/beast_eye">Beast eye</Link></p><p><strong className="hl">The following grand hex complements this archetype:</strong> <Link to="/hex/forced_reincarnation">Forced reincarnation</Link></p></>};
 const _bonded_witch = {title: "Bonded Witch", jsx: <><h2 id="arc-witch-bonded_witch-bonded-witch">Bonded Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 43</Link><br/>While all witches commune with the unknown, the blend of human ingenuity and adept learning mixed with elven blood gives some half-elves a unique conduit to channel the powers of the arcane. Bonded witches forsake familiars as vessels of power in favor of a specific object that grants them powers above and beyond those of their patron alone, as they tap into the powerful magic of the item itself. A bonded witch has the following class features.</p>
 <p><strong>Bonded Item (Sp):</strong> At 1st level, a bonded witch gains a bonded item instead of a familiar. This bonded item is similar to a <Link to="/class/wizard">wizard's</Link> arcane bond bonded item, and follows all the rules of such an item with the following exceptions.</p>

@@ -1025,7 +1025,7 @@
 					{ "header": "Weapon Proficiency" }
 				],
 				"data": [
-					[ [ "Alley Witch", "alley_witch" ], null, null, null, null, null, "X", null, "X", null, null, "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+					[ [ "Alley Witch", "alley_witch" ], null, null, null, null, null, null, null, "X", null, null, "X", null, null, null, null, null, null, null, null, null, "X", "X", null, null, null, null, null, null ],
 					[ [ "Ashiftah", "ashiftah" ], null, null, null, null, null, "X", null, null, "X", null, "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
 					[ [ "Beast-Bonded", "beast_bonded" ], null, null, null, null, null, null, null, null, null, "X", null, "X", "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
 					[ [ "Bonded Witch", "bonded_witch" ], null, null, null, null, null, "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
