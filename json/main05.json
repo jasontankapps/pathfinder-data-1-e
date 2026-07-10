@@ -759,6 +759,7 @@
 	},
 	"equipment_weapons_light": {
 		"title": "Light Weapons",
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			":::item",
 			"",
@@ -904,6 +905,7 @@
 	"light_weapon": { "redirect": "equipment_weapons_light" },
 	"equipment_weapons_one_handed": {
 		"title": "One-Handed Weapons",
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			":::item",
 			"",
@@ -1023,6 +1025,7 @@
 	"one_handed_melee_weapon": { "redirect": "equipment_weapons_one_handed" },
 	"equipment_weapons_two_handed": {
 		"title": "Two-Handed Weapons",
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			":::item",
 			"",
@@ -1167,6 +1170,7 @@
 	"two_handed_melee_weapon": { "redirect": "equipment_weapons_two_handed" },
 	"equipment_weapons_ranged": {
 		"title": "Ranged Weapons",
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			":::item",
 			"",
@@ -1289,6 +1293,7 @@
 	"ranged_weapon": { "redirect": "equipment_weapons_ranged" },
 	"equipment_weapons_ammunition": {
 		"title": "Ammunition",
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			":::item",
 			"",

@@ -1632,6 +1632,7 @@
 			"vehicles"
 		]
 	},
+	"milk_venom": { "redirect": "harvesting_poisons" },
 	"crafting_antivenom": {
 		"name": "Crafting Antivenom",
 		"tags": "poison",

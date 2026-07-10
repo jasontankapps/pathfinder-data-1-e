@@ -3558,7 +3558,7 @@ const _use_magic_device = {hasJL:true,title: "Use Magic Device", jsx: <><div cla
 <p>Normally, to cast a spell from a scroll, you must have the scroll's spell on your class spell list. Use Magic Device allows you to use a scroll as if you had a particular spell on your class spell list. The DC is equal to 20 + the caster level of the spell you are trying to cast from the scroll. In addition, casting a spell from a scroll requires a minimum score (10 + spell level) in the appropriate ability. If you don't have a sufficient score in that ability, you must emulate the ability score with a separate Use Magic Device check.</p>
 <p>This use of the skill also applies to other <Link to="/misc/spell_completion">spell completion</Link> magic items.</p>
 <h4 id="skill-use_magic_device-use-a-wand-staff-or-other-spell-trigger-item">Use a Wand, Staff, or Other Spell Trigger Item</h4>
-<p>Normally, to use a wand (or any other <Link to="/rule/spell_trigger">spell trigger</Link> item), you must have the wand's spell on your class spell list. This use of the skill allows you to use a wand as if you had a particular spell on your class spell list. Failing the roll does not expend a charge.</p>
+<p>Normally, to use a wand (or any other <Link to="/misc/spell_trigger">spell trigger</Link> item), you must have the wand's spell on your class spell list. This use of the skill allows you to use a wand as if you had a particular spell on your class spell list. Failing the roll does not expend a charge.</p>
 </div>
 <div className="semiheaderGroup"><h3 id="skill-use_magic_device-action">Action</h3>
 <p>None. The Use Magic Device check is made as part of the action (if any) required to activate the magic item.</p>

@@ -26,7 +26,7 @@
 			"",
 			"::ab[Thorny Vines]{next icon=ranged ability=\"Vines covered with thick thorns wrap around the target square. The thorny vines deal piercing damage, with a Reflex save for half damage. A creature that fails its save against *enhanced* thorny vines is ‹rule/entangled› for 1 round.\"}",
 			"",
-			"::ab[Volcanic Rift]{next icon=ranged ability=\"A magmatic rift emits a plume of fire into the air, dealing fire damage to the target square, with a Fortitude save for half damage. An *enhanced* volcanic rift also emits poisonous and corrosive gases; a creature that fails its save against the *enhanced* volcanic rift is ‹rule/sickened› for 1 round.\"}",
+			"::ab[Volcanic Rift]{next icon=ranged ability=\"A magmatic rift emits a plume of fire into the air, dealing fire damage to the target square, with a Fortitude save for half damage. An *enhanced* volcanic rift also emits poisonous and corrosive gases; a creature that fails its save against the *enhanced* volcanic rift is ‹misc/sickened› for 1 round.\"}",
 			"",
 			"::ab[Aspect of Disaster (Su)]{l=20 icon=lower passive=\"A creature affected by a calamity caller's *enhanced calamity* does not receive a save to reduce the damage or avoid the calamity's effects.\" replace=\"Aspect of war\"}"
 		]

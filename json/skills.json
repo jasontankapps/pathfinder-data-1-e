@@ -598,7 +598,6 @@
 		"name": "Craft (any)",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Ultimate Wilderness",
 			"Technology Guide",
 			"Pathfinder Unchained"
 		],
@@ -1686,7 +1685,6 @@
 		"name": "Heal",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Ultimate Wilderness",
 			"Occult Adventures",
 			"Technology Guide",
 			"Pathfinder Unchained"
@@ -4143,7 +4141,6 @@
 		"name": "Spellcraft",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Ultimate Wilderness",
 			"Pathfinder Unchained"
 		],
 		"description": [
@@ -4332,7 +4329,6 @@
 			"PRPG Core Rulebook",
 			"Heroes of the Wild",
 			"Occult Adventures",
-			"Ultimate Wilderness",
 			"Pathfinder Unchained",
 			"Aquatic Adventures"
 		],
@@ -4718,7 +4714,7 @@
 			"",
 			"#### Use a Wand, Staff, or Other Spell Trigger Item",
 			"",
-			"Normally, to use a wand (or any other ‹rule/spell trigger› item), you must have the wand's spell on your class spell list. This use of the skill allows you to use a wand as if you had a particular spell on your class spell list. Failing the roll does not expend a charge.",
+			"Normally, to use a wand (or any other ‹misc/spell trigger› item), you must have the wand's spell on your class spell list. This use of the skill allows you to use a wand as if you had a particular spell on your class spell list. Failing the roll does not expend a charge.",
 			"",
 			":::",
 			"",

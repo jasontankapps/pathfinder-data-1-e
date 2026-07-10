@@ -1096,10 +1096,6 @@
 	},
 	"skills": {
 		"title": "Skills",
-		"sources": [
-			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
-		],
 		"description": [
 			"::main[Acrobatics]{to=\"skill/acrobatics\" bottom=\"Dexterity-based; Armor Check Penalty\"}",
 			"",

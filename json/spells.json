@@ -1690,7 +1690,7 @@
 			"",
 			"::spell{id=1 source=\"Potions and Poisons/11\" abjuration alc=1 drd=1 hnt=1 inv=1 rgr=1 sha=1 wit=1 ctSt cV cS cMp=\"a small drop of antitoxin\" rTouch target=\"creature touched\" durRL=1 fort srY harmless}",
 			"",
-			"The target's skin secretes a small amount of venom-resistant oils for the spell's duration. The target cannot accidentally poison itself while applying poison. Additionally, the target does not risk exposure to a creature's poison when attempting to milk venom."
+			"The target's skin secretes a small amount of venom-resistant oils for the spell's duration. The target cannot accidentally poison itself while applying poison. Additionally, the target does not risk exposure to a creature's poison when attempting to ‹rule/milk venom›."
 		]
 	},
 	"anywhere_but_here": {

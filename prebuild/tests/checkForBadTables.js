@@ -143,12 +143,28 @@ const checkForBadTables = (tables, objectDescription) => {
 								bit !== null
 								&& typeof bit !== correspondingType[k]
 								&& (Array.isArray(bit) ? (
-									(bit.length > 3 || bit.length < 1 || bit.some(str => typeof str !== "string"))
+									(
+										bit.length > 3
+										|| bit.length < 1
+										|| bit.some(str => typeof str !== "string")
+									)
 								) : (
 									typeof bit !== "object"
-									|| bit.sort === undefined
-									|| typeof bit.sort !== correspondingType[k]
-									|| (bit.data !== undefined && (typeof bit.data !== "string"))
+									|| (
+										bit.sort === undefined
+										|| (typeof bit.sort !== correspondingType[k])
+										|| (
+											bit.data !== undefined && (
+												Array.isArray(bit.data)
+												? (
+													bit.data.length > 3
+													|| bit.data.length < 1
+													|| bit.data.some(str => typeof str !== "string")
+												)
+												: typeof bit.data !== "string"
+											)
+										)
+									)
 								))
 							) {
 								found = `Type mismatch at ${tableDesc}.data[${j}][${k}] (expecting ${correspondingType[k]})-> ${line}`;

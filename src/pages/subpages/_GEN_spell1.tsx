@@ -663,7 +663,7 @@ const _antithetical_constraint = {title: "Antithetical Constraint", jsx: <><h2 i
 </>};
 const _antitoxin_touch = {title: "Antitoxin Touch", jsx: <><h2 id="spell-antitoxin_touch-antitoxin-touch">Antitoxin Touch</h2>
 <SpellInfo id="1" source="Potions and Poisons/11" school="abjur" alc={1} drd={1} hnt={1} inv={1} rgr={1} sha={1} wit={1} ct="1 standard action" comp="V, S, M (a small drop of antitoxin)" rTouch target="creature touched" dur="1 round/level" save="Fortitude negates (harmless)" resist="yes (harmless)" />
-<p>The target's skin secretes a small amount of venom-resistant oils for the spell's duration. The target cannot accidentally poison itself while applying poison. Additionally, the target does not risk exposure to a creature's poison when attempting to milk venom.</p>
+<p>The target's skin secretes a small amount of venom-resistant oils for the spell's duration. The target cannot accidentally poison itself while applying poison. Additionally, the target does not risk exposure to a creature's poison when attempting to <Link to="/rule/milk_venom">milk venom</Link>.</p>
 </>};
 const _anywhere_but_here = {title: "Anywhere but Here", jsx: <><h2 id="spell-anywhere_but_here-anywhere-but-here">Anywhere but Here</h2>
 <SpellInfo id="1" source="Planar Adventures/38" school="conj" subschools={["tele"]} arc={4} mag={4} psy={4} sor={4} sum={4} usm={4} wit={4} wiz={4} ct="1 standard action" comp="V" rTouch target="you and up to four willing creatures, none of whom can be on their home plane" dur="instantaneous" save="Will negates (harmless)" resist="no" />

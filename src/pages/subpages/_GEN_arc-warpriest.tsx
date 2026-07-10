@@ -60,7 +60,7 @@ const _calamity_caller = {title: "Calamity Caller", jsx: <><h2 id="arc-warpriest
 </Ability>
 <Ability id="volcanic-rift" extraClasses="subAbility" icon={["bowman"]}>
 <Pair single id="volcanic-rift">Volcanic Rift</Pair>
-<Pair title="Ability">A magmatic rift emits a plume of fire into the air, dealing fire damage to the target square, with a Fortitude save for half damage. An <em>enhanced</em> volcanic rift also emits poisonous and corrosive gases; a creature that fails its save against the <em>enhanced</em> volcanic rift is <Link to="/rule/sickened">sickened</Link> for 1 round.</Pair>
+<Pair title="Ability">A magmatic rift emits a plume of fire into the air, dealing fire damage to the target square, with a Fortitude save for half damage. An <em>enhanced</em> volcanic rift also emits poisonous and corrosive gases; a creature that fails its save against the <em>enhanced</em> volcanic rift is <Link to="/misc/sickened">sickened</Link> for 1 round.</Pair>
 </Ability>
 <Ability id="aspect-of-disaster-su" icon={["armor-downgrade"]}>
 <Pair single id="aspect-of-disaster-su">Aspect of Disaster (Su)</Pair>

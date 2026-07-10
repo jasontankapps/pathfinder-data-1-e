@@ -1620,7 +1620,7 @@
 			{
 				"id": "skald spells table 0 1",
 				"filter": [
-					{ "col": 1, "range": [0, 6] },
+					{ "col": 1, "range": [0, 1] },
 					{ "col": 2, "equals": [
 						"universal",
 						"abjuration",
