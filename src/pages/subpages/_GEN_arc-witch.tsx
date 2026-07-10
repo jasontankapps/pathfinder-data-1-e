@@ -4,6 +4,7 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
+import ByLevelPop from '../../components/ByLevelPop';
 import AffInfo from '../../components/AfflictionInfo';
 const _alley_witch = {title: "Alley Witch", jsx: <><h2 id="arc-witch-alley_witch-alley-witch">Alley Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 20</Link><br/>Some witches find their spark of magic in the long, dark shadows and forgotten places within the city.</p>
@@ -52,7 +53,7 @@ const _ashiftah = {title: "Ashiftah", jsx: <><h2 id="arc-witch-ashiftah-ashiftah
 </Ability>
 <Ability id="ghostwalk-su" icon={["magic-swirl"]}>
 <Pair single id="ghostwalk-su">Ghostwalk (Su)</Pair>
-<Pair hl title="Replaces">Hex gained at 2nd level</Pair>
+<Pair hl title="Replaces">2nd-level hex</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Move-Equivalent Action">After using a hex, an ashiftah can become invisible as per <Link to="/spell/vanish">vanish</Link> and can then take a 5-foot step.</Pair>
 <Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
@@ -64,7 +65,7 @@ const _ashiftah = {title: "Ashiftah", jsx: <><h2 id="arc-witch-ashiftah-ashiftah
 </Ability>
 <Ability id="fog-of-war-sp" icon={["magic-swirl"]}>
 <Pair single id="fog-of-war-sp">Fog of War (Sp)</Pair>
-<Pair hl title="Replaces">Hex gained at 6th level</Pair>
+<Pair hl title="Replaces">6th-level hex</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Standard Action">An ashiftah can blanket a 20-foot-radius area of the battlefield in a clammy mist that functions as per <Link to="/spell/barrow_haze">barrow haze</Link>, allowing her to treat any area within the mist as within 30 feet for purposes of her hexes, as long as some part of that area is within 30 feet of her.</Pair>
 </Ability>
@@ -102,7 +103,7 @@ const _bonded_witch = {title: "Bonded Witch", jsx: <><h2 id="arc-witch-bonded_wi
 <Pair single id="bonded-item-sp">Bonded Item (Sp)</Pair>
 <Pair hl title="Replaces">Familiar</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="zzzz"><p>A bonded witch gains a bonded item instead of a familiar. This bonded item is similar to a <Link to="/class/wizard">wizard's</Link> <em>arcane bond</em> bonded item, and follows all the rules of such an item with the following exceptions.</p>
+<Pair title="Ability"><p>A bonded witch gains a bonded item instead of a familiar. This bonded item is similar to a <Link to="/class/wizard">wizard's</Link> <em>arcane bond</em> bonded item, and follows all the rules of such an item with the following exceptions.</p>
 <p>A bonded witch's bonded item serves as a vessel for her spells and a conduit for communication with her patron. A bonded witch must commune with her bonded item each day to prepare her spells. The bonded item stores all of the spells that the bonded witch knows, and the bonded witch cannot prepare spells that are not stored within it. A bonded witch starts with the same number of spells and gains new spells the same way as a witch, and can even add spells by learning them from scrolls in the same way, but a bonded witch cannot learn spells from another bonded item.</p>
 </Pair>
 <Pair title="At 2nd Level"><p>Since a bonded witch does not have a spellbook, starting at 2nd level, a bonded witch's bonded item can be used once per day to cast a spell dependent on the type of bonded object chosen by the bonded witch. The spell is treated like any other spell cast by the bonded witch, including its casting time, duration, and other effects dependent of the bonded witch's level. This spell cannot be further modified by metamagic feats or any other ability.</p>
@@ -250,136 +251,400 @@ const _coral_witch = {title: "Coral Witch", jsx: <><h2 id="arc-witch-coral_witch
 </Ability>
 <Ability id="immovability-ex" icon={["armor-upgrade"]}>
 <Pair single id="immovability-ex">Immovability (Ex)</Pair>
-<Pair hl title="Replaces">Hex gained at 8th level</Pair>
+<Pair hl title="Replaces">8th-level hex</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">A coral witch can naturally emulate coral's ability to affix itself in place. At the end of any round in which the coral witch did not move from her space and is standing on solid ground, she adds her class level to her CMD against any <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/overrun">overrun</Link>, and <Link to="/rule/reposition">reposition</Link> combat maneuvers, <Link to="/rule/grapple">grapple</Link> attempts to move her, and attempts to <Link to="/umr/pull">pull</Link> or <Link to="/umr/push">push</Link> her. This bonus lasts until the start of the coral witch's next turn.</Pair>
 </Ability>
 <p><strong className="hl">The following witch hexes complement this archetype:</strong> <Link to="/hex/evil_eye">Evil eye</Link>, <Link to="/hex/feral_speech">feral speech</Link>, <Link to="/hex/water_lung">water lung</Link></p><p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/beast_eye">Beast eye</Link>, <Link to="/hex/hags_eye">hag's eye</Link>, <Link to="/hex/weather_control">weather control</Link></p><p><strong className="hl">The following grand hex complements this archetype:</strong> <Link to="/hex/life_giver">Life giver</Link></p></>};
 const _demon_sworn = {title: "Demon-Sworn", jsx: <><h2 id="arc-witch-demon_sworn-demon-sworn">Demon-Sworn</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 16</Link><br/>The drow are among the best known creatures on Golarion who were "saved" by demonic intervention, but they're far from the only ones. In the depths of the Darklands, as well as similarly inhospitable locales on Golarion, many seek the succor of demons as a means of survival. Such pacts are often made in haste, without a true understanding of the lifelong effects they'll have on those who make them.</p>
-<p><strong>Demonic Pact:</strong> A demon-sworn makes a pact with a demonic entity, forever binding her to the forces of the Abyss and corrupting her connection with her patron. At the indicated levels, she gains the spells below in place of her normal patron spells: 2nd-<Link to="/spell/protection_from_good">protection from good</Link>, 6th-<Link to="/spell/unholy_blight">unholy blight</Link>, 10th-<Link to="/spell/dispel_good">dispel good</Link>, 14th-<Link to="/spell/blasphemy">blasphemy</Link>, 18th-<Link to="/spell/unholy_aura">unholy aura</Link>. Casting spells with the evil descriptor from this replacement list has no effect on the demonsworn's alignment.</p>
-<p>This ability modifies <strong className="hl">patron spells</strong>.</p>
-<p><strong>Cruel Hex:</strong> A demon-sworn always inflicts some pain, whether she wants to or not. Each hex deals 1d4 points of nonlethal damage to creatures affected by it, in addition to any damage the hex normally deals.</p>
-<p>For major hexes, the damage increases to 2d4. For grand hexes, the damage increases to 4d4. Each die result of a natural 4 deals 1 point of lethal damage to the demon-sworn.</p>
-<p>This ability alters the witch's <strong className="hl">hex</strong>, <strong className="hl">major hex</strong>, and <strong className="hl">grand hex</strong>.</p>
-<p><strong>Manifest Pact (Ex):</strong> At 6th level, the demon-sworn gains <Link to="/feat/improved_familiar">Improved Familiar</Link> as a bonus feat. The associated familiar is made up of the tiny amount of soul matter lost when the demon-sworn made her pact with demonic powers. The familiar must be a <Link to="/monster/quasit">quasit</Link>, regardless of the demon-sworn's actual alignment, and it manifests by eating its way out of the demon-sworn's former familiar. The quasit knows all spells known to the previous familiar. It loyally serves the demon-sworn, despite any conflicts of alignment, obeying its mistress to the best of its abilities.</p>
-<p>This familiar cannot be replaced, and if slain, the ritual to replace the lost familiar recreates the same quasit, along with the same spells previously known. Replacing the familiar in this fashion also imparts the demon-sworn with 1 permanent negative level, as if she had been hit by an energy-draining creature.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 6th level.</p>
+<Ability id="demonic-pact" icon={["info","spell-book"]}>
+<Pair single id="demonic-pact">Demonic Pact</Pair>
+<Pair hl title="Alters">Patron spells</Pair>
+<Pair title="Info">A demon-sworn makes a pact with a demonic entity, forever binding her to the forces of the Abyss and corrupting her connection with her patron. At the indicated witch levels, she gains the spells below in place of her normal patron spells.</Pair>
+<Pair plain title="2nd"><Link to="/spell/protection_from_good">Protection from good</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/unholy_blight">Unholy blight</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/dispel_good">Dispel good</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/blasphemy">Blasphemy</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/unholy_aura">Unholy aura</Link></Pair>
+<Pair title="Special">Casting spells with the evil descriptor from this replacement list has no effect on the demonsworn's alignment.</Pair>
+</Ability>
+<Ability id="cruel-hex" icon={["upgrade"]}>
+<Pair single id="cruel-hex" flavor="A demon-sworn always inflicts some pain, whether she wants to or not.">Cruel Hex</Pair>
+<Pair hl title="Alters">Hex, major hex, grand hex</Pair>
+<Pair title="Ability">Each hex deals 1d4 points of nonlethal damage to creatures affected by it, in addition to any damage the hex normally deals. For major hexes, the damage increases to 2d4. For grand hexes, the damage increases to 4d4.</Pair>
+<Pair title="Special">Each die result of a natural 4 deals 1 point of lethal damage to the demon-sworn.</Pair>
+</Ability>
+<Ability id="manifest-pact-ex" icon={["stairs-goal"]}>
+<Pair single id="manifest-pact-ex">Manifest Pact (Ex)</Pair>
+<Pair hl title="Replaces">6th-level hex</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability"><p>The demon-sworn gains <Link to="/feat/improved_familiar">Improved Familiar</Link> as a bonus feat. The associated familiar is made up of the tiny amount of soul matter lost when the demon-sworn made her pact with demonic powers. The familiar must be a <Link to="/monster/quasit">quasit</Link>, regardless of the demon-sworn's actual alignment, and it manifests by eating its way out of the demon-sworn's former familiar. The quasit knows all spells known to the previous familiar. It loyally serves the demon-sworn, despite any conflicts of alignment, obeying its mistress to the best of its abilities.</p>
+<p>This familiar cannot be replaced, and if slain, the ritual to replace the lost familiar recreates the same quasit, along with the same spells previously known. Replacing the familiar in this fashion also imparts the demon-sworn with 1 permanent <Link to="/rule/negative_level">negative level</Link>, as if she had been hit by an energy-draining creature.</p>
+</Pair>
+</Ability>
 </>};
 const _dimensional_occultist = {title: "Dimensional Occultist", jsx: <><h2 id="arc-witch-dimensional_occultist-dimensional-occultist">Dimensional Occultist</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 28</Link><br/>While dimensional occultist witches are not all associated with the Pathfinders, enough of them are to warrant mention here. A dimensional occultist sacrifices some of her mastery over hexes in return for increased planar lore. She spends much of her time researching and communing with otherplanar spirits, often through her familiar or via the study of ancient texts, and has an increased mastery over various conjurations and other extraplanar effects. She can even travel between dimensions as she gains power. A dimensional occultist has the following class features.</p>
-<p><strong>Patron:</strong> A dimensional occultist witch does not have the same freedom of choice among her patrons as do other witches - she must select the Dimensions patron when she gains this archetype. The Dimensions patron provides the following bonus spells: 2nd-<Link to="/spell/hold_portal">hold portal</Link>, 4th-<Link to="/spell/rope_trick">rope trick</Link>, 6th-<Link to="/spell/blink">blink</Link>, 8th-<Link to="/spell/dimensional_anchor">dimensional anchor</Link>, 10th-<Link to="/spell/lesser_planar_binding">lesser planar binding</Link>, 12th-<Link to="/spell/planar_binding">planar binding</Link>, 14th-<Link to="/spell/banishment">banishment</Link>, 16th-<Link to="/spell/greater_planar_binding">greater planar binding</Link>, 18th-<Link to="/spell/gate">gate</Link>.</p>
-<p><strong>Dimensional Augmentation (Su):</strong> At 2nd level, a dimensional occultist can augment her spells by incorporating complex mathematical equations and formulae into the casting, typically by inscribing these equations with chalk or charcoal onto a solid surface (although scribing them on paper or into wet sand works fine as well). Augmenting a spell in this way adds both a somatic component (the actual scribing of the equations) and a material component (the writing stylus and ink, chalk, charcoal, or other medium) to the spell, and increases its casting time to a number of rounds equal to the spell's level (if the spell's casting time is already 1 minute or more, the casting time is not altered). As a result, using dimensional augmentation to cast a spell isn't a good option in the heat of combat. Augmenting a spell in this manner increases its effective caster level by +1. A dimensional occultist can augment her spells in this manner once per day at 2nd level, plus one additional time per day for every even-numbered witch level she gains.</p>
-<p>This ability replaces the witch's <strong className="hl">hex</strong> gained at 2nd level.</p>
-<p><strong>Commune with Familiar (Sp):</strong> At 8th level, a dimensional occultist can use her familiar as a link between herself and strange, otherworldly intelligences on other planes. Once per week, she may use this link to cast <Link to="/spell/contact_other_plane">contact other plane</Link> as a spell-like ability, at a caster level equal to her witch level. The entity contacted replies to the witch via her familiar (which speaks in a strange disembodied voice), via telepathic contact, or by some similarly disconcerting method of communication. When a witch uses this method to contact other planes, she gains a +4 bonus on the Intelligence check to avoid the decrease to Intelligence and Charisma. If she still fails the save, the Intelligence/Charisma decrease lasts only 24 hours rather than a number of weeks.</p>
-<p>This ability replaces the witch's <strong className="hl">hex</strong> gained at 8th level.</p>
-<p><strong>Dimensional Waypoints (Ex):</strong> At 12th level, a dimensional occultist can create a dimensional waypoint by spending 2d4 minutes inscribing a number of equations on a solid surface (such as a wall, tree, stone floor, or structure) with a writing instrument. The exact configuration of these equations is unique to each witch. From that point on, when she uses dimensional travel to travel to that location, she does so without any chance of mishap. <Link to="/spell/teleport">Teleport</Link> always sends the witch to this spot, and even <Link to="/spell/plane_shift">plane shift</Link>, if used to travel to that site, is precisely accurate. Once a dimensional waypoint is set, it remains active for that witch despite the condition of the inscription or even that of the surface upon which it was inscribed - it is the act of inscribing the waypoint, not the waypoint itself, that matters. At 12th level, and then again every two witch levels thereafter, the dimensional occultist can maintain an additional waypoint. She can replace a waypoint she's already set by simply using that waypoint's unique equation at a new site.</p>
-<p>This ability replaces the witch's <strong className="hl">hex</strong> gained at 12th level.</p>
+<Ability id="patron" icon={["broken-shield"]}>
+<Pair single id="patron">Patron</Pair>
+<Pair title="Info">A dimensional occultist witch does not have the same freedom of choice among her patrons as do other witches - she must select the Dimensions patron when she gains this archetype. The Dimensions patron provides the following bonus spells at the listed witch levels.</Pair>
+<Pair plain title="2nd"><Link to="/spell/hold_portal">Hold portal</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/rope_trick">Rope trick</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/blink">Blink</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/dimensional_anchor">Dimensional anchor</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/lesser_planar_binding">Lesser planar binding</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/planar_binding">Planar binding</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/banishment">Banishment</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/greater_planar_binding">Greater planar binding</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/gate">Gate</Link></Pair>
+</Ability>
+<Ability id="dimensional-augmentation-su" icon={["upgrade"]}>
+<Pair single id="dimensional-augmentation-su">Dimensional Augmentation (Su)</Pair>
+<Pair hl title="Replaces">2nd-level hex</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Usage">1 time/day per two witch levels<ByLevelPop levels={[[2,1],[4,2],[6,3],[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability"><p>A dimensional occultist can augment her spells by incorporating complex mathematical equations and formulae into the casting, typically by inscribing these equations with chalk or charcoal onto a solid surface (although scribing them on paper or into wet sand works fine as well).</p>
+<p>Augmenting a spell in this way adds both a somatic component (the actual scribing of the equations) and a material component (the writing stylus and ink, chalk, charcoal, or other medium) to the spell, and increases its casting time to a number of rounds equal to the spell's level (if the spell's casting time is already 1 minute or more, the casting time is not altered). As a result, using dimensional augmentation to cast a spell isn't a good option in the heat of combat. Augmenting a spell in this manner increases its effective caster level by +1.</p>
+</Pair>
+</Ability>
+<Ability id="commune-with-familiar-sp" icon={["magic-swirl"]}>
+<Pair single id="commune-with-familiar-sp" flavor="A dimensional occultist can use her familiar as a link between herself and strange, otherworldly intelligences on other planes.">Commune with Familiar (Sp)</Pair>
+<Pair hl title="Replaces">8th-level hex</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">Once per week, she may cast <Link to="/spell/contact_other_plane">contact other plane</Link> as a spell-like ability, at a caster level equal to her witch level. The entity contacted replies to the witch via her familiar (which speaks in a strange disembodied voice), via telepathic contact, or by some similarly disconcerting method of communication. When a witch uses this method to contact other planes, she gains a +4 bonus on the Intelligence check to avoid the decrease to Intelligence and Charisma. If she still fails the save, the Intelligence/Charisma decrease lasts only 24 hours rather than a number of weeks.</Pair>
+</Ability>
+<Ability id="dimensional-waypoints-ex" icon={["upgrade","magic-swirl"]}>
+<Pair single id="dimensional-waypoints-ex">Dimensional Waypoints (Ex)</Pair>
+<Pair hl title="Replaces">12th-level hex</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability"><p>A dimensional occultist can create a dimensional waypoint by spending 2d4 minutes inscribing a number of equations on a solid surface (such as a wall, tree, stone floor, or structure) with a writing instrument. The exact configuration of these equations is unique to each witch. From that point on, when she uses dimensional travel to travel to that location, she does so without any chance of mishap. <Link to="/spell/teleport">Teleport</Link> always sends the witch to this spot, and even <Link to="/spell/plane_shift">plane shift</Link>, if used to travel to that site, is precisely accurate.</p>
+<p>Once a dimensional waypoint is set, it remains active for that witch despite the condition of the inscription or even that of the surface upon which it was inscribed - it is the act of inscribing the waypoint, not the waypoint itself, that matters.</p>
+</Pair>
+<Pair title="At 14th Level">The dimensional occultist can maintain 2 waypoints.</Pair>
+<Pair title="At 16th Level">The dimensional occultist can maintain 3 waypoints.</Pair>
+<Pair title="At 18th Level">The dimensional occultist can maintain 4 waypoints.</Pair>
+<Pair title="At 20th Level">The dimensional occultist can maintain 5 waypoints.</Pair>
+<Pair title="Special">She can replace a waypoint she's already set by simply using that waypoint's unique equation at a new site.</Pair>
+</Ability>
 </>};
 const _dreamweaver = {title: "Dreamweaver", jsx: <><h2 id="arc-witch-dreamweaver-dreamweaver">Dreamweaver</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 185</Link><br/>A changeling dreamweaver draws upon her hag heritage to ply the dream realms in order to touch mortal minds and souls, for good or ill. A dreamweaver witch has the following class features.</p>
-<Ability icon={["skills"]} id="undefined">
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-witch-dreamweaver--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/changeling">Changeling</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Heal</Pair></Ability>
-<p><strong>Patron:</strong> A dreamweaver's patron is normally <Link to="/patron/portents">portents</Link> or <Link to="/patron/stars">stars</Link>.</p>
-<p><strong>Spells:</strong> A dreamweaver replaces some of her patron's spells with the following: 2nd-<Link to="/spell/sow_thought">sow thought</Link>, 4th-<Link to="/spell/dust_of_twilight">dust of twilight</Link>, 6th-<Link to="/spell/deep_slumber">deep slumber</Link>, 8th-<Link to="/spell/modify_memory">modify memory</Link>, 10th-<Link to="/spell/dream">dream</Link>, 12th-<Link to="/spell/cloak_of_dreams">cloak of dreams</Link>, 14th-<Link to="/spell/ethereal_jaunt">ethereal jaunt</Link>, 16th-<Link to="/spell/moment_of_prescience">moment of prescience</Link>, 18th-<Link to="/spell/astral_projection">astral projection</Link>.</p>
-<p><strong>Dream Spinner (Su):</strong> At 2nd level, when a dreamweaver casts a mind-affecting spell on a target that is sleeping because of her <Link to="/hex/slumber">slumber</Link> hex or a spell she cast, she adds +1 to the mind-affecting spell's DC. If the target succeeds at the saving throw against the spell, it does not wake up, nor does it have any recollection of having resisted a spell. If appropriate, the dreamweaver may incorporate elements of a mind-affecting spell (i.e., sow thought, suggestion, and so on) into the target's subconscious so it believes the spell's effects originated in its dreams (the details of how these elements fit into the dream is up to the GM).</p>
-<p>This ability replaces the witch's <strong className="hl">hex</strong> gained at 2nd level.</p>
-<p><strong>Dream Thief (Su):</strong> At 6th level, a dreamweaver can alter the sleeping mind of any creature that is sleeping because of her slumber hex or a spell she cast. She can reshape one of the target's memories as if using <em>modify memory.</em> Alternatively, she may insert herself into the dreaming memories of the target, prompting the target's mind to show her some specific information; the dreamer's subconscious may resist, or try to deceive her with out-of-context memories, similar to the way a corpse can resist when questioned with <Link to="/spell/speak_with_dead">speak with dead</Link>. A Will save negates either effect (DC equal to that of the witch's hex). Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</p>
-<p>This ability replaces the witch's <strong className="hl">hex</strong> gained at 6th level.</p>
-<p><strong>Dream Possession (Su):</strong> At 10th level, a dreamweaver can take control of any creature that is sleeping because of her slumber hex or a spell she cast. This effect functions as <Link to="/spell/magic_jar">magic jar</Link>, using the witch's familiar acting as the soul receptacle. A Will save negates either effect (DC equal to that of the witch's hex). Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</p>
-<p>This ability replaces the witch's <strong className="hl">hex</strong> gained at 10th level.</p>
-<p><strong>Hexes:</strong> The following hexes complement the dreamweaver archetype: <Link to="/hex/charm">charm</Link>, slumber; <Link to="/hex/beast_of_ill_omen">beast of ill-omen</Link>.</p>
-<p><strong>Major Hexes:</strong> The following major hexes complement the dreamweaver archetype: <Link to="/hex/nightmares">nightmares</Link>, <Link to="/hex/vision">vision</Link>.</p>
-<p><strong>Grand Hexes:</strong> The following major hexes complement the dreamweaver archetype: <Link to="/hex/eternal_slumber">eternal slumber</Link>; <Link to="/hex/dire_prophecy">dire prophecy</Link>.</p>
-</>};
+<Ability id="patron" icon={["info"]}>
+<Pair single id="patron">Patron</Pair>
+<Pair title="Info">A dreamweaver's patron is normally <Link to="/patron/portents">portents</Link> or <Link to="/patron/stars">stars</Link>.</Pair>
+</Ability>
+<Ability id="spells" icon={["spell-book"]}>
+<Pair single id="spells">Spells</Pair>
+<Pair title="Info">A dreamweaver replaces some of her patron's spells at the following witch levels.</Pair>
+<Pair plain title="2nd"><Link to="/spell/sow_thought">Sow thought</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/dust_of_twilight">Dust of twilight</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/deep_slumber">Deep slumber</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/modify_memory">Modify memory</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/dream">Dream</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/cloak_of_dreams">Cloak of dreams</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/ethereal_jaunt">Ethereal jaunt</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/moment_of_prescience">Moment of prescience</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/astral_projection">Astral projection</Link></Pair>
+</Ability>
+<Ability id="dream-spinner-su" icon={["upgrade"]}>
+<Pair single id="dream-spinner-su">Dream Spinner (Su)</Pair>
+<Pair hl title="Replaces">2nd-level hex</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">When a dreamweaver casts a mind-affecting spell on a target that is sleeping because of her <Link to="/hex/slumber">slumber</Link> hex or a spell she cast, she adds +1 to the mind-affecting spell's DC. If the target succeeds at the saving throw against the spell, it does not wake up, nor does it have any recollection of having resisted a spell. If appropriate, the dreamweaver may incorporate elements of a mind-affecting spell (i.e., <em>sow thought,</em> <Link to="/spell/suggestion">suggestion</Link>, and so on) into the target's subconscious so it believes the spell's effects originated in its dreams (the details of how these elements fit into the dream is up to the GM).</Pair>
+</Ability>
+<Ability id="dream-thief-su" icon={["magic-swirl"]}>
+<Pair single id="dream-thief-su">Dream Thief (Su)</Pair>
+<Pair hl title="Replaces">6th-level hex</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">A dreamweaver can alter the sleeping mind of any creature that is sleeping because of her <em>slumber</em> hex or a spell she cast. She can reshape one of the target's memories as if using <em>modify memory.</em> Alternatively, she may insert herself into the dreaming memories of the target, prompting the target's mind to show her some specific information; the dreamer's subconscious may resist, or try to deceive her with out-of-context memories, similar to the way a corpse can resist when questioned with <Link to="/spell/speak_with_dead">speak with dead</Link>.</Pair>
+<Pair title="Special">A Will save negates either effect (DC equal to that of the witch's hex). Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</Pair>
+</Ability>
+<Ability id="dream-possession-su" icon={["magic-swirl"]}>
+<Pair single id="dream-possession-su">Dream Possession (Su)</Pair>
+<Pair hl title="Replaces">10th-level hex</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">A dreamweaver can take control of any creature that is sleeping because of her <em>slumber</em> hex or a spell she cast. This effect functions as <Link to="/spell/magic_jar">magic jar</Link>, using the witch's familiar acting as the soul receptacle.</Pair>
+<Pair title="Special">A Will save negates either effect (DC equal to that of the witch's hex). Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</Pair>
+</Ability>
+<p><strong className="hl">The following hexes complement this archetype:</strong> <Link to="/hex/charm">Charm</Link>, <Link to="/hex/slumber">slumber</Link>, <Link to="/hex/beast_of_ill_omen">beast of ill-omen</Link></p><p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/nightmares">Nightmares</Link>, <Link to="/hex/vision">vision</Link></p><p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/eternal_slumber">Eternal slumber</Link>, <Link to="/hex/dire_prophecy">dire prophecy</Link></p></>};
 const _flood_walker = {title: "Flood Walker", jsx: <><h2 id="arc-witch-flood_walker-flood-walker">Flood Walker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 89</Link><br/>Witches who dwell in floodplains or along the banks of predictably dangerous rivers can tap into the underlying potential of surging waters in order to enhance their eerie powers.</p>
-<p><strong>Alignment:</strong> Flood walkers exult in the final gasp for air of a drowning victim and must be evil in alignment. A flood walker who becomes nonevil loses access to all abilities granted by this archetype but does not regain any abilities this archetype replaced.</p>
+<Ability id="alignment" icon={["hazard-sign"]}>
+<Pair single id="alignment">Alignment</Pair>
+<Pair title="Info">Flood walkers exult in the final gasp for air of a drowning victim and must be evil in alignment. A flood walker who becomes nonevil loses access to all abilities granted by this archetype but does not regain any abilities this archetype replaced.</Pair>
+</Ability>
 <Ability icon={["skills"]} id="undefined">
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/swim">Swim</Link> (STR)</Pair>
 <Pair title="Removed Skills">Fly, Heal</Pair></Ability>
-<p><strong>Patron Spells:</strong> Regardless of which patron a flood walker selects, he replaces some of his patron spells with the following: 4th-<Link to="/spell/aboleths_lung">aboleth's lung</Link>, 10th-<Link to="/spell/suffocation">suffocation</Link>, 16th-<Link to="/spell/seamantle">seamantle</Link>, 18th-<Link to="/spell/mass_suffocation">mass suffocation</Link>.</p>
-<p>This alters the witch's <strong className="hl">patron spells</strong>.</p>
-<p><strong>Gasping Breath Aura (Su):</strong> A creature attempting to hold its breath within 30 feet of a flood walker is treated as having taken a standard or full-round action when determining how long it can hold its breath, regardless of the number and type of actions it takes in a round. At 5th level, increase the DC of Swim checks attempted within 30 feet of the flood walker by 5, and creatures actively engaged in combat or a similarly strenuous activity use air twice as quickly within the aura. The flood walker can exempt creatures within this aura from these increased penalties.</p>
-<p>This replaces the <strong className="hl">hex</strong> gained at 1st level.</p>
-<p><strong>River Stride (Su):</strong> At 6th level, a flood walker and his familiar can walk on the surface of water and other liquids as if under the effects of a <Link to="/spell/water_walk">water walk</Link> spell. The flood walker chooses at the beginning of his turn each round whether this ability is active or suppressed (for himself and his familiar separately), allowing him to walk on water or swim.</p>
-<p>This replaces the <strong className="hl">hex</strong> gained at 6th level.</p>
-<p><strong>Breath Siphon (Su):</strong> At 10th level, a flood walker gains strength from his patron when creatures suffocate or drown. Whenever a creature with an Intelligence of 3 or higher asphyxiates or drowns within 30 feet of him, the flood walker gains the benefit of a <Link to="/spell/death_knell">death knell</Link> spell for 1 hour. If a flood walker drowns such a victim himself (such as by holding a grappled or helpless creature under water until it dies or by killing it with a suffocation spell), the duration is doubled, and the flood walker gains 4d8 temporary hit points and a +6 enhancement bonus to Strength instead of the usual temporary hit points and enhancement bonus to Strength from death knell. Like death knell itself, this is an evil act.</p>
-<p>This replaces the <strong className="hl">hex</strong> gained at 10th level.</p>
-<p><strong>Hexes:</strong> The following witch hexes complement the flood walker archetype: <Link to="/hex/blight">blight</Link>, <Link to="/hex/prehensile_hair">prehensile hair</Link>, <Link to="/hex/swamp_hag">swamp hag</Link>, <Link to="/hex/water_lung">water lung</Link>.</p>
-<p><strong>Major Hexes:</strong> The following major hex complements the flood walker archetype: <Link to="/hex/weather_control">weather control</Link>.</p>
-<p><strong>Grand Hexes:</strong> The following grand hex complements the flood walker archetype: <Link to="/hex/natural_disaster">natural disaster</Link>.</p>
-</>};
+<Ability id="patron-spells" icon={["spell-book"]}>
+<Pair single id="patron-spells">Patron Spells</Pair>
+<Pair hl title="Alters">Patron spells</Pair>
+<Pair title="Info">Regardless of which patron a flood walker selects, he replaces some of his patron spells with the following at the listed witch level.</Pair>
+<Pair plain title="4th"><Link to="/spell/aboleths_lung">Aboleth's lung</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/suffocation">Suffocation</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/seamantle">Seamantle</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/mass_suffocation">Mass suffocation</Link></Pair>
+</Ability>
+<Ability id="gasping-breath-aura-su" icon={["aura","armor-downgrade"]}>
+<Pair single id="gasping-breath-aura-su">Gasping Breath Aura (Su)</Pair>
+<Pair hl title="Replaces">1st-level hex</Pair>
+<Pair title="Passive Ability">A creature attempting to <Link to="/misc/hold_its_breath">hold its breath</Link> within 30 feet of a flood walker is treated as having taken a standard or full-round action when determining how long it can hold its breath, regardless of the number and type of actions it takes in a round.</Pair>
+<Pair title="At 5th Level">Increase the DC of Swim checks attempted within 30 feet of the flood walker by 5, and creatures actively engaged in combat or a similarly strenuous activity use air twice as quickly within the aura. The flood walker can exempt creatures within this aura from these increased penalties.</Pair>
+</Ability>
+<Ability id="river-stride-su" icon={["stairs-goal"]}>
+<Pair single id="river-stride-su">River Stride (Su)</Pair>
+<Pair hl title="Replaces">6th-level hex</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">A flood walker and his familiar can walk on the surface of water and other liquids as if under the effects of a <Link to="/spell/water_walk">water walk</Link> spell. The flood walker chooses at the beginning of his turn each round whether this ability is active or suppressed (for himself and his familiar separately), allowing him to walk on water or swim.</Pair>
+</Ability>
+<Ability id="breath-siphon-su" icon={["upgrade"]}>
+<Pair single id="breath-siphon-su" flavor="A flood walker gains strength from his patron when creatures suffocate or drown.">Breath Siphon (Su)</Pair>
+<Pair hl title="Replaces">10th-level hex</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">Whenever a creature with an Intelligence of 3 or higher asphyxiates or drowns within 30 feet of him, the flood walker gains the benefit of a <Link to="/spell/death_knell">death knell</Link> spell for 1 hour. If a flood walker drowns such a victim himself (such as by holding a grappled or helpless creature under water until it dies or by killing it with a <em>suffocation</em> spell), the duration is doubled, and the flood walker gains 4d8 <Link to="/rule/temporary_hit_points">temporary hit points</Link> and a +6 enhancement bonus to Strength instead of the usual temporary hit points and enhancement bonus to Strength from <em>death knell.</em> Like <em>death knell</em> itself, this is an evil act.</Pair>
+</Ability>
+<p><strong className="hl">The following witch hexes complement this archetype:</strong> <Link to="/hex/blight">Blight</Link>, <Link to="/hex/prehensile_hair">prehensile hair</Link>, <Link to="/hex/swamp_hag">swamp hag</Link>, <Link to="/hex/water_lung">water lung</Link></p><p><strong className="hl">The following major hex complements this archetype:</strong> <Link to="/hex/weather_control">Weather control</Link></p><p><strong className="hl">The following grand hex complements this archetype:</strong> <Link to="/hex/natural_disaster">Natural disaster</Link></p></>};
 const _gingerbread_witch = {title: "Gingerbread Witch", jsx: <><h2 id="arc-witch-gingerbread_witch-gingerbread-witch">Gingerbread Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 72</Link><br/>A sweet tooth lures the gingerbread witch's victims to doom.</p>
-<p><strong>Gingerbread Familiar (Ex):</strong> A gingerbread witch concocts her familiar out of gingerbread, sugar, and other confections. It has the shape of the original animal or vermin, but its type changes to <Link to="/type/construct">construct</Link>. As a construct, it gains 60-foot darkvision and construct immunities, it loses any special abilities the animal or vermin has other than movement speed, and it doesn't provide the usual familiar benefit (for instance, a gingerbread toad doesn't provide 3 bonus hit points). With a supply of flour and sugar at hand, the gingerbread witch can spend 8 hours and use her cauldron to restore her familiar to full health at no cost, unless the familiar is destroyed, in which case she must follow the usual rules for replacing her familiar. A gingerbread witch can never gain an improved familiar.</p>
-<p>This ability alters <strong className="hl">familiar</strong>.</p>
-<p><strong>Cauldron Cook (Ex):</strong> A gingerbread witch gains the cauldron and child-scent hexes at 1st level. When brewing potions with her cauldron, she can create small candies, pastries, or similar edible items identical in effect and application to normal potions. At 10th level, she gains the <Link to="/hex/cook_people">cook people</Link> hex.</p>
-<p>This ability replaces the <strong className="hl">hexes</strong> gained at 1st and 10th levels.</p>
-<p><strong>Tricky Treats Hex (Sp):</strong> At 4th level, a gingerbread witch learns a unique hex that lets her create a piece of candy or a similar sweet as a full-round action. If eaten by the witch or a single creature she designates when she creates it, the sweet functions as <Link to="/spell/goodberry">goodberry</Link> or a <Link to="/spell/polypurpose_panacea">polypurpose panacea</Link> (as determined at creation).</p>
-<p>Anyone else that eats the sweet becomes nauseated (Fortitude negates); a creature nauseated by the sweet can attempt a new saving throw each round at the end of its turn to end this effect. A creature that fails its initial save is also affected as per the scar hex for a number of days equal to the witch's witch level, except that at extended range, the witch can use only harmful hexes on the creature. She can create a number of sweets each day equal to her Intelligence modifier + her level. These sweets retain their potency for 24 hours and then turn to crumbs.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 4th level.</p>
-<p><strong>Confection Conjuring (Sp):</strong> At 8th level, a gingerbread witch can use <Link to="/spell/shadow_conjuration">shadow conjuration</Link> as a spell-like ability. Items and creatures she conjures appear to be made of fanciful foodstuffs, and because of this, sentient creatures gain a +2 bonus on Will saves to disbelieve the illusion. However, they otherwise function as described for the shadow conjuration spell. For every 3 witch levels beyond 8th, the gingerbread witch can duplicate conjuration (creation) and conjuration (summoning) spells of 1 level higher, up to a maximum of 7th-level spell effects at 20th level (though they are still only 20% real). The witch can use this ability once per day for every 4 witch levels she has.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 8th level.</p>
-<p><strong>Gruesome Gobbler (Ex):</strong> At 12th level, a gingerbread witch gains a bite attack that deals 1d6 points of damage for a Medium witch. As a full-round action, she can make a single bite attack that deals double base damage (2d6 for a Medium witch) and functions as if she had the grab and swallow whole special attacks, allowing her to grab and swallow a creature of her size or smaller. Her stomach doesn't deal damage to swallowed creatures, but a living creature she swallows must succeed at a Fortitude save (DC = 10 + 1/2 her witch level + Constitution modifier) at the beginning of each of its turns or become nauseated for 1 round.</p>
-<p>If a gingerbread witch successfully swallows a creature, her torso distends grotesquely and she is treated as if she were carrying a heavy load if the creature is the same size and a medium load if it's one size smaller; regardless, she can swallow only one such creature at a time. Creatures two or more sizes smaller do not distend her belly, though every four creatures of a smaller size count as one creature one size category larger (she can swallow 4 Tiny, 16 Diminutive, or 64 Fine creatures). She can regurgitate a swallowed creature of her choice as a move action, leaving it prone in an adjacent open square. If she is struck with a confirmed critical hit while she has a creature swallowed, the swallowed creatures each take half as much damage as the witch does (this doesn't reduce the damage the gingerbread witch takes).</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 12th level.</p>
-<p><strong>Horrible Hunger (Sp):</strong> At 16th level, a gingerbread witch can affect a target as if she had cast <Link to="/spell/feast_of_ashes">feast of ashes</Link> on it, but with her hex DC instead of the spell's DC. This hunger is so intense that any creature can offer the target food as a standard action and the target is compelled to eat it, as if the creature offering it had cast <Link to="/spell/beguiling_gift">beguiling gift</Link> (with a DC and caster level equal to that of the witch's hexes). She can use this ability once per day for every 4 witch levels she has.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 16th level.</p>
+<Ability id="gingerbread-familiar-ex" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="gingerbread-familiar-ex">Gingerbread Familiar (Ex)</Pair>
+<Pair hl title="Alters">Familiar</Pair>
+<Pair title="Ability">A gingerbread witch concocts her familiar out of gingerbread, sugar, and other confections. It has the shape of the original animal or vermin, but its type changes to construct. As a construct, it gains 60-foot darkvision and <Link to="/type/construct">construct</Link> immunities, it loses any special abilities the animal or vermin has other than movement speed, and it doesn't provide the usual familiar benefit (for instance, a gingerbread <Link to="/monster/toad">toad</Link> doesn't provide 3 bonus hit points).</Pair>
+<Pair title="Special">With a supply of flour and sugar at hand, the gingerbread witch can spend 8 hours and use her cauldron to restore her familiar to full health at no cost, unless the familiar is destroyed, in which case she must follow the usual rules for replacing her familiar. A gingerbread witch can never gain an improved familiar.</Pair>
+</Ability>
+<Ability id="cauldron-cook-ex" icon={["stairs-goal"]}>
+<Pair single id="cauldron-cook-ex">Cauldron Cook (Ex)</Pair>
+<Pair hl title="Replaces">1st- and 10th-level hexes</Pair>
+<Pair title="Ability">A gingerbread witch gains the <Link to="/hex/cauldron">cauldron</Link> and <Link to="/hex/child_scent">child-scent</Link> hexes at 1st level. When brewing potions with her cauldron, she can create small candies, pastries, or similar edible items identical in effect and application to normal potions.</Pair>
+<Pair title="At 10th Level">She gains the <Link to="/hex/cook_people">cook people</Link> hex.</Pair>
+</Ability>
+<Ability id="tricky-treats-hex-sp" icon={["stairs-goal","remedy"]}>
+<Pair single id="tricky-treats-hex-sp">Tricky Treats Hex (Sp)</Pair>
+<Pair hl title="Replaces">4th-level hex</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability"><p>A gingerbread witch learns a unique hex that lets her create a piece of candy or a similar sweet as a <strong className="hl">full-round action</strong>. If eaten by the witch or a single creature she designates when she creates it, the sweet functions as <Link to="/spell/goodberry">goodberry</Link> or a <Link to="/spell/polypurpose_panacea">polypurpose panacea</Link> (as determined at creation).</p>
+<p>Anyone else that eats the sweet becomes <Link to="/misc/nauseated">nauseated</Link> (Fortitude negates); a creature nauseated by the sweet can attempt a new saving throw each round at the end of its turn to end this effect. A creature that fails its initial save is also affected as per the <Link to="/hex/scar">scar</Link> hex for a number of days equal to the witch's witch level, except that at extended range, the witch can use only harmful hexes on the creature.</p>
+</Pair>
+<Pair title="Special">She can create a number of sweets each day equal to her Intelligence modifier + her level. These sweets retain their potency for 24 hours and then turn to crumbs.</Pair>
+</Ability>
+<Ability id="confection-conjuring-sp" icon={["magic-swirl"]}>
+<Pair single id="confection-conjuring-sp">Confection Conjuring (Sp)</Pair>
+<Pair hl title="Replaces">8th-level hex</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">1 time/day per four witch levels<ByLevelPop levels={[[8,2],[12,3],[16,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">A gingerbread witch can use <Link to="/spell/shadow_conjuration">shadow conjuration</Link> as a spell-like ability. Items and creatures she conjures appear to be made of fanciful foodstuffs, and because of this, sentient creatures gain a +2 bonus on Will saves to disbelieve the illusion. However, they otherwise function as described for the <em>shadow conjuration</em> spell.</Pair>
+<Pair title="At 11th Level">The gingerbread witch can duplicate 4th-level conjuration (creation) and conjuration (summoning) spells (though they are still only 20% real).</Pair>
+<Pair title="At 14th Level">The gingerbread witch can duplicate 5th-level conjuration (creation) and conjuration (summoning) spells (though they are still only 20% real).</Pair>
+<Pair title="At 17th Level">The gingerbread witch can duplicate 6th-level conjuration (creation) and conjuration (summoning) spells (though they are still only 20% real).</Pair>
+<Pair title="At 20th Level">The gingerbread witch can duplicate 7th-level conjuration (creation) and conjuration (summoning) spells (though they are still only 20% real).</Pair>
+</Ability>
+<Ability id="gruesome-gobbler-ex" icon={["mailed-fist"]}>
+<Pair single id="gruesome-gobbler-ex">Gruesome Gobbler (Ex)</Pair>
+<Pair hl title="Replaces">12th-level hex</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">A gingerbread witch gains a <Link to="/umr/bite_attack">bite attack</Link> that deals 1d6 points of damage for a Medium witch.</Pair>
+<Pair title="Full-Round Action"><p>She can make a single bite attack that deals double base damage (2d6 for a Medium witch) and functions as if she had the <Link to="/umr/grab">grab</Link> and <Link to="/umr/swallow_whole">swallow whole</Link> special attacks, allowing her to grab and swallow a creature of her size or smaller. Her stomach doesn't deal damage to swallowed creatures, but a living creature she swallows must succeed at a Fortitude save (DC = 10 + 1/2 her witch level + Constitution modifier) at the beginning of each of its turns or become nauseated for 1 round.</p>
+<p>If a gingerbread witch successfully swallows a creature, her torso distends grotesquely and she is treated as if she were <Link to="/rule/heavy_load">carrying a heavy load</Link> if the creature is the same size and a medium load if it's one size smaller; regardless, she can swallow only one such creature at a time. Creatures two or more sizes smaller do not distend her belly, though every four creatures of a smaller size count as one creature one size category larger (she can swallow 4 Tiny, 16 Diminutive, or 64 Fine creatures).</p>
+</Pair>
+<Pair title="Move-Equivalent Action">She can regurgitate a swallowed creature of her choice, leaving it <Link to="/rule/prone">prone</Link> in an adjacent open square.</Pair>
+<Pair title="Special">If she is struck with a confirmed critical hit while she has a creature swallowed, the swallowed creatures each take half as much damage as the witch does (this doesn't reduce the damage the gingerbread witch takes).</Pair>
+</Ability>
+<Ability id="horrible-hunger-sp" icon={["magic-swirl"]}>
+<Pair single id="horrible-hunger-sp">Horrible Hunger (Sp)</Pair>
+<Pair hl title="Replaces">16th-level hex</Pair>
+<Pair title="Gained">At 16th Level</Pair>
+<Pair title="Usage">1 time/day per four witch levels<ByLevelPop levels={[[16,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">A gingerbread witch can affect a target as if she had cast <Link to="/spell/feast_of_ashes">feast of ashes</Link> on it, but with her hex DC instead of the spell's DC. This hunger is so intense that any creature can offer the target food as a <strong className="hl">standard action</strong> and the target is compelled to eat it, as if the creature offering it had cast <Link to="/spell/beguiling_gift">beguiling gift</Link> (with a DC and caster level equal to that of the witch's hexes).</Pair>
+</Ability>
 </>};
 const _gravewalker = {title: "Gravewalker", jsx: <><h2 id="arc-witch-gravewalker-gravewalker">Gravewalker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 84</Link><br/>Having much in common with necromancers, the gravewalker is obsessed with the occult manipulations of the dead, particularly mindless undead such as zombies. Unlike the creations of standard necromancers, a gravewalker's creations remain forever tied to her will, and she can produce vile apparitions of tremendous power.</p>
-<p><strong>Spells:</strong> A gravewalker replaces some of her patron spells with the following: 4th-<Link to="/spell/command_undead">command undead</Link>, 6th-<Link to="/spell/animate_dead">animate dead</Link>, 12th-<Link to="/spell/create_undead">create undead</Link>, 14th-<Link to="/spell/control_undead">control undead</Link>, 16th-<Link to="/spell/create_greater_undead">create greater undead</Link>. These replace the patron spells.</p>
-<p><strong>Spell Poppet:</strong> Each gravewalker carries around a gristly, inanimate poppet stitched from human skin and stuffed with shards of bone, fingernails, and grave dirt. A gravewalker's spells come from the will of evil spirits residing in the poppet, and its ability to hold spells functions in a manner identical to the way a witch's spells are granted by her familiar. The gravewalker must commune with her poppet each day to prepare her spells and cannot prepare spells that are not stored in the poppet.</p>
-<p>This ability replaces <strong className="hl">familiar</strong>. The following familiar ability works differently for a gravewalker:</p>
-<blockquote>
-<p><strong>Deliver Touch Spells (Su):</strong> At 3rd level or higher, a gravewalker can use her poppet to deliver touch spells. After casting a touch spell, as a full-round action, the witch can designate a target and stab a pin into her poppet, delivering the spell as a ranged touch attack. The target must be within range of her aura of desecration ability (see below).</p>
-</blockquote>
-<p><strong>Aura of Desecration (Su):</strong> At first level, a gravewalker can create a 20-foot-radius aura of evil power. This aura increases the DC of channeled negative energy by +1 and the turn resistance of undead by +1. At 3rd level and every 2 levels thereafter, the radius of the aura increases by 5 feet, to a maximum of 70 feet at 20th level.</p>
-<p>This ability replaces the witch's 1st-level <strong className="hl">hex</strong>.</p>
-<p><strong>Bonethrall (Su):</strong> At first level, a gravewalker can take control of an undead creature within her aura of desecration by forcing her will upon it (Will negates, using her hex DC). If it fails the save, the creature falls under her control as if she had used <em>command undead</em> (once control is established, the undead remain controlled even if outside the witch's aura). Intelligent undead receive a new saving throw each day to resist her command. The witch can control up to 1 HD of undead creatures per caster level. If an undead creature is under the control of another creature, the witch must make an opposed Charisma check whenever her orders conflict with that creature's.</p>
-<p>This replaces the witch's <strong className="hl">hex</strong> gained at 4th level.</p>
-<p><strong>Possess Undead (Sp):</strong> A gravewalker may take direct control of one of her undead minions within her aura of desecration, as if using <Link to="/spell/magic_jar">magic jar</Link>; the witch's poppet acts as the soul receptacle for this ability. The minion gets no saving throw against this ability.</p>
-<p>This replaces the witch's <strong className="hl">hex</strong> gained at 8th level.</p>
-<p><strong>Hexes:</strong> The following witch hexes complement the gravewalker archetype: <Link to="/hex/beast_of_ill_omen">beast of ill-omen</Link>, <Link to="/hex/evil_eye">evil eye</Link>, <Link to="/hex/misfortune">misfortune</Link>.</p>
-<p><strong>Major Hexes:</strong> The following major hexes complement the gravewalker archetype: <Link to="/hex/ice_tomb">ice tomb</Link>, <Link to="/hex/infected_wounds">infected wounds</Link>, <Link to="/hex/waxen_image">waxen image</Link>.</p>
-<p><strong>Grand Hexes:</strong> The following grand hexes complement the gravewalker archetype: <Link to="/hex/death_curse">death curse</Link>, <Link to="/hex/summon_spirit">summon spirit</Link>.</p>
-</>};
+<Ability id="spells" icon={["spell-book"]}>
+<Pair single id="spells">Spells</Pair>
+<Pair hl title="Alters">Patron spells</Pair>
+<Pair title="Info">A gravewalker replaces some of her patron spells at the following witch levels.</Pair>
+<Pair plain title="4th"><Link to="/spell/command_undead">Command undead</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/animate_dead">Animate dead</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/create_undead">Create undead</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/control_undead">Control undead</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/create_greater_undead">Create greater undead</Link></Pair>
+</Ability>
+<Ability id="spell-poppet" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="spell-poppet">Spell Poppet</Pair>
+<Pair hl title="Replaces">Familiar</Pair>
+<Pair title="Ability">Each gravewalker carries around a gristly, inanimate poppet stitched from human skin and stuffed with shards of bone, fingernails, and grave dirt. A gravewalker's spells come from the will of evil spirits residing in the poppet, and its ability to hold spells functions in a manner identical to the way a witch's spells are granted by her familiar. The gravewalker must commune with her poppet each day to prepare her spells and cannot prepare spells that are not stored in the poppet.</Pair>
+<Pair title="Special">The following familiar ability works differently for a gravewalker.</Pair>
+</Ability>
+<Ability id="deliver-touch-spells-su" extraClasses="subAbility" icon={["smoking-finger"]}>
+<Pair single id="deliver-touch-spells-su">Deliver Touch Spells (Su)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability">A gravewalker can use her poppet to deliver touch spells. After casting a touch spell, as a <strong className="hl">full-round action</strong>, the witch can designate a target and stab a pin into her poppet, delivering the spell as a ranged touch attack. The target must be within range of her <em>aura of desecration</em> ability (see below).</Pair>
+</Ability>
+<Ability id="aura-of-desecration-su" icon={["aura","upgrade"]}>
+<Pair single id="aura-of-desecration-su">Aura of Desecration (Su)</Pair>
+<Pair hl title="Replaces">1st-level hex</Pair>
+<Pair title="At 1st Level">A gravewalker can create a 20-foot-radius aura of evil power. This aura increases the DC of channeled negative energy by +1 and the turn resistance of undead by +1.</Pair>
+<Pair title="At 3rd Level">The radius of the aura becomes 25 feet.</Pair>
+<Pair title="At 5th Level">The radius of the aura increases to 30 feet.</Pair>
+<Pair title="At 7th Level">The radius of the aura becomes 35 feet.</Pair>
+<Pair title="At 9th Level">The radius of the aura increases to 40 feet.</Pair>
+<Pair title="At 11th Level">The radius of the aura becomes 45 feet.</Pair>
+<Pair title="At 13th Level">The radius of the aura increases to 50 feet.</Pair>
+<Pair title="At 15th Level">The radius of the aura becomes 55 feet.</Pair>
+<Pair title="At 17th Level">The radius of the aura increases to 60 feet.</Pair>
+<Pair title="At 19th Level">The radius of the aura becomes 65 feet.</Pair>
+<Pair title="At 20th Level">The radius of the aura increases to 70 feet.</Pair>
+</Ability>
+<Ability id="bonethrall-su" icon={["magic-swirl"]}>
+<Pair single id="bonethrall-su">Bonethrall (Su)</Pair>
+<Pair hl title="Replaces">4th-level hex</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A gravewalker can take control of an undead creature within her <em>aura of desecration</em> by forcing her will upon it (Will negates, using her hex DC). If it fails the save, the creature falls under her control as if she had used <em>command undead</em> (once control is established, the undead remain controlled even if outside the witch's <em>aura</em>). Intelligent undead receive a new saving throw each day to resist her command.</Pair>
+<Pair title="Special">The witch can control up to 1 HD of undead creatures per caster level. If an undead creature is under the control of another creature, the witch must make an opposed Charisma check whenever her orders conflict with that creature's.</Pair>
+</Ability>
+<Ability id="possess-undead-sp" icon={["magic-swirl"]}>
+<Pair single id="possess-undead-sp">Possess Undead (Sp)</Pair>
+<Pair hl title="Replaces">8th-level hex</Pair>
+<Pair title="At 8th Level">A gravewalker may take direct control of one of her undead minions within her <em>aura of desecration,</em> as if using <Link to="/spell/magic_jar">magic jar</Link>; the witch's poppet acts as the soul receptacle for this ability. The minion gets no saving throw against this ability.</Pair>
+</Ability>
+<p><strong className="hl">The following witch hexes complement this archetype:</strong> <Link to="/hex/beast_of_ill_omen">Beast of ill-omen</Link>, <Link to="/hex/evil_eye">evil eye</Link>, <Link to="/hex/misfortune">misfortune</Link></p><p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/ice_tomb">Ice tomb</Link>, <Link to="/hex/infected_wounds">infected wounds</Link>, <Link to="/hex/waxen_image">waxen image</Link></p><p><strong className="hl">The following grand hexes complement this archetype:</strong> <Link to="/hex/death_curse">Death curse</Link>, <Link to="/hex/summon_spirit">summon spirit</Link></p></>};
 const _hag_of_gyronna = {title: "Hag of Gyronna", jsx: <><h2 id="arc-witch-hag_of_gyronna-hag-of-gyronna">Hag of Gyronna</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River pg. 23</Link><br/>Only female witches dare dedicate themselves to the <Link to="/faith/gyronna">Angry Hag</Link>, and those who do so are feared for their ability to bend minds and sow discord. Some say these witches can watch their enemies from afar and can even corrupt the minds of the most innocent or loyal, including newborn babes and cherished pets.</p>
-<p><strong>Patron:</strong> A hag of Gyronna must choose <Link to="/patron/deception">Deception</Link>, <Link to="/patron/trickery">Trickery</Link>, <Link to="/patron/vengeance">Vengeance</Link>, or <Link to="/patron/water">Water</Link> as her witch patron.</p>
-<p><strong>Spells:</strong> A hag of Gyronna replaces several of her patron spells with the following: 2nd-<Link to="/spell/doom">doom</Link>, 6th-<Link to="/spell/obscure_object">obscure object</Link>, 10th-<Link to="/spell/commune">commune</Link>, 14th-<Link to="/spell/repulsion">repulsion</Link>, 18th-<Link to="/spell/shapechange">shapechange</Link>.</p>
-<p><strong>Curdle Thoughts (Su):</strong> At 2nd level, a hag of Gyronna can insert negative emotions into the mind of a single target. She gains a +2 bonus on Diplomacy and Bluff checks to sow suspicion, hatred, or other forms of animosity. In addition, a hag of Gyronna can choose to increase the save DC of any spell with the fear descriptor she casts by 2. She can increase a spell's DC in this way a number of times per day equal to half her witch level.</p>
-<p>This ability replaces the witch's 2nd-level <strong className="hl">hex</strong>.</p>
-<p><strong>Sunder Hope (Su):</strong> At 8th level, a hag of Gyronna can violently dismiss her curses to counter magical boons and impose her own capricious whims. Once per day, after the hag of Gyronna has successfully affected a creature within 30 feet with a mind-affecting spell, spell-like ability, or hex with a duration of longer than 1 round, she can choose to dismiss the mind-affecting effect as an immediate action. If she dismisses this effect in response to another creature targeting her victim with a beneficial spell or ability, the witch's effect is dismissed and the caster of the beneficial spell or ability must succeed at a Will save (DC = 10 + 1/2 the witch's level + her Intelligence modifier) or the spell or ability is wasted to no effect and the targeted victim takes 1d4 points of <Link to="/rule/wisdom_damage">Wisdom damage</Link>. At 14th and 20th levels, a hag of Gyronna can use this ability an additional time per day.</p>
-<p>This ability replaces the witch's 8th-level <strong className="hl">hex</strong>.</p>
-<p><strong>Hag Crony (Su):</strong> At 12th level, a hag of Gyronna gains a blessing from the Angry Hag in the form of an alliance with a <Link to="/monster/night_hag">night hag</Link>. Once per week, the hag of Gyronna can as a full-round action summon the night hag from the Shadow Plane. The night hag serves the hag of Gyronna to the best of its ability as long as the witch's commands are consistent with the night hag's alignment and goals, but flees back to its native plane after a number of rounds equal to the witch's level or upon losing half or more of its hit points. The night hag may provide the hag of Gyronna with other favors or gifts at the GM's discretion. At 15th and 18th levels, a hag of Gyronna can call upon her hag crony an additional time per week.</p>
-<p>This ability replaces the witch's 12th-level hex.</p>
+<Ability id="patron" icon={["info"]}>
+<Pair single id="patron">Patron</Pair>
+<Pair title="Choice">A hag of Gyronna must choose <Link to="/patron/deception">Deception</Link>, <Link to="/patron/trickery">Trickery</Link>, <Link to="/patron/vengeance">Vengeance</Link>, or <Link to="/patron/water">Water</Link> as her witch patron.</Pair>
+</Ability>
+<Ability id="spells" icon={["spell-book"]}>
+<Pair single id="spells">Spells</Pair>
+<Pair title="Info">A hag of Gyronna replaces several of her patron spells at the following witch levels.</Pair>
+<Pair plain title="2nd"><Link to="/spell/doom">Doom</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/obscure_object">Obscure object</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/commune">Commune</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/repulsion">Repulsion</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/shapechange">Shapechange</Link></Pair>
+</Ability>
+<Ability id="curdle-thoughts-su" icon={["upgrade"]}>
+<Pair single id="curdle-thoughts-su">Curdle Thoughts (Su)</Pair>
+<Pair hl title="Replaces">2nd-level hex</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">A hag of Gyronna can insert negative emotions into the mind of a single target. She gains a +2 bonus on Diplomacy and Bluff checks to sow suspicion, hatred, or other forms of animosity.</Pair>
+<Pair title="Ability">A hag of Gyronna can choose to increase the save DC of any spell with the fear descriptor she casts by 2.</Pair>
+<Pair title="Usage">1 time/day per two witch levels<ByLevelPop levels={[[2,1],[4,2],[6,3],[8,4],[10,5],[12,6],[14,7],[16,8],[18,9],[20,10]]} unit="time" postText="/day" /></Pair>
+</Ability>
+<Ability id="sunder-hope-su" icon={["armor-downgrade"]}>
+<Pair single id="sunder-hope-su" flavor="A hag of Gyronna can violently dismiss her curses to counter magical boons and impose her own capricious whims.">Sunder Hope (Su)</Pair>
+<Pair hl title="Replaces">8th-level hex</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per six witch levels beyond 8th<ByLevelPop levels={[[8,1],[14,2],[20,3]]} unit="time" postText="/day" /></Pair>
+<Pair title="Immediate Action">After the hag of Gyronna has successfully affected a creature within 30 feet with a mind-affecting spell, spell-like ability, or hex with a duration of longer than 1 round, she can choose to dismiss the mind-affecting effect. If she dismisses this effect in response to another creature targeting her victim with a beneficial spell or ability, the witch's effect is dismissed and the caster of the beneficial spell or ability must succeed at a Will save (DC = 10 + 1/2 the witch's level + her Intelligence modifier) or the spell or ability is wasted to no effect and the targeted victim takes 1d4 points of <Link to="/rule/wisdom_damage">Wisdom damage</Link>.</Pair>
+</Ability>
+<Ability id="hag-crony-su" icon={["stairs-goal"]}>
+<Pair single id="hag-crony-su" flavor={<>A hag of Gyronna gains a blessing from the Angry Hag in the form of an alliance with a <Link to="/monster/night_hag">night hag</Link>.</>}>Hag Crony (Su)</Pair>
+<Pair hl title="Replaces">12th-level hex</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Full-Round Action">Once per week, the hag of Gyronna can summon the night hag from the Shadow Plane. The night hag serves the hag of Gyronna to the best of its ability as long as the witch's commands are consistent with the night hag's alignment and goals, but flees back to its native plane after a number of rounds equal to the witch's level or upon losing half or more of its hit points. The night hag may provide the hag of Gyronna with other favors or gifts at the GM's discretion.</Pair>
+<Pair title="At 15th Level">She can call upon her crony 2 times a week.</Pair>
+<Pair title="At 18th Level">She can call upon her crony 3 times a week.</Pair>
+</Ability>
 </>};
 const _hagbound = {title: "Hagbound", jsx: <><h2 id="arc-witch-hagbound-hagbound">Hagbound</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven pg. 16</Link><br/>Whether a <Link to="/race/changeling">changeling</Link> in the process of succumbing to her mother's call, a witch cursed by a hag to become her instrument of torment, a vain and petty witch overeager for power, or some other unfortunate soul, a hagbound witch finds its soul has been infected by a hag's spite and powerful, corrupt arcane magic. Her mind and body begin to transform to reflect her new being. Hagbound witches suffer a slow transformative taint that is similar to the <Link to="/corruption/accursed">accursed corruption</Link> and make ideal candidates for this additional power - and tragedy.</p>
-<p><strong>Hagbound:</strong> A hagbound can take this archetype only if her first character level is a witch level, and she must select one of the following patrons: <Link to="/patron/deception">Deception</Link>, <Link to="/patron/jynx">Jynx</Link>, <Link to="/patron/moon">Moon</Link>, <Link to="/patron/occult">Occult</Link>, <Link to="/patron/plague">Plague</Link>, <Link to="/patron/shadow">Shadow</Link>, <Link to="/patron/strength">Strength</Link>, <Link to="/patron/vengeance">Vengeance</Link>, or <Link to="/patron/winter">Winter</Link>. She can escape her inevitable fate only by removing the hag's hold on her soul, typically with <Link to="/spell/miracle">miracle</Link> or an effect of similar power. Until then, she can't take levels in any class other than witch and her alignment can never become good. Removing the hag's hold causes her to lose this archetype and become a normal witch.</p>
-<p><strong>Hag's Claws (Ex):</strong> A hagbound's hands grow into a pair of hideous claws that deal 1d4 points of damage for a Medium hagbound (1d3 for a Small creature).</p>
-<p>This replaces the <strong className="hl">hex</strong> gained at 1st level.</p>
-<p><strong>Hunched Muscle (Ex):</strong> At 2nd level, warty growths and knobby muscles twist the hagbound's body. She gains a +2 size bonus to her Strength score. This bonus increases by 2 at 8th level and 14th level, to a maximum of +6.</p>
-<p>This replaces the <strong className="hl">hexes</strong> gained at 2nd, 8th, and 14th levels.</p>
-<p><strong>Vain Glamour (Sp):</strong> At 4th level, the hagbound gains the ability to disguise her hideous form behind various pleasing shapes. This allows her to magically disguise herself at will, as per <Link to="/spell/disguise_self">disguise self</Link>. At 12th level, she can transform herself at will rather than spin illusions, as per <Link to="/spell/alter_self">alter self</Link>.</p>
-<p>This replaces the <strong className="hl">hexes</strong> gained at 4th and 12th levels.</p>
-<p><strong>Vile Curse (Sp):</strong> At 10th level, the hagbound becomes exceptionally skilled at cursing others. She can cast <Link to="/spell/bestow_curse">bestow curse</Link> at will, but its duration becomes 24 hours. Once a creature has been affected by this ability, it is immune to the witch's vile curse ability for 24 hours. If the witch learns some secret fear or vulnerability of her target and tailors the curse to exploit this, her target takes a -2 penalty on its Will saving throw against the effect.</p>
-<p>This replaces the <strong className="hl">hex</strong> gained at 10th level.</p>
-<p><strong>Hag Transformation:</strong> At 20th level, the hagbound transforms into a true hag, purging all goodness and light from her in exchange for dark power. Her alignment becomes evil if it isn't already. Her type changes to <Link to="/type/monstrous_humanoid">monstrous humanoid</Link>, and she gains darkvision 60 feet; immunity to charm, fear, and spell effects; and the ability to join a coven. She gains spell resistance 31, and she grants this benefit to her other coven members.</p>
-<p>This replaces the <strong className="hl">hex</strong> gained at 20th level.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-witch-hagbound--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must be a 1st-level witch with no other class levels</td></tr></tbody></table></ScrollContainer></div><Ability id="hagbound" icon={["info","hazard-sign"]}>
+<Pair single id="hagbound">Hagbound</Pair>
+<Pair title="Info">The witch must select one of the following patrons: <Link to="/patron/deception">Deception</Link>, <Link to="/patron/jynx">Jynx</Link>, <Link to="/patron/moon">Moon</Link>, <Link to="/patron/occult">Occult</Link>, <Link to="/patron/plague">Plague</Link>, <Link to="/patron/shadow">Shadow</Link>, <Link to="/patron/strength">Strength</Link>, <Link to="/patron/vengeance">Vengeance</Link>, or <Link to="/patron/winter">Winter</Link>.</Pair>
+<Pair title="Special">She can escape her inevitable fate only by removing the hag's hold on her soul, typically with <Link to="/spell/miracle">miracle</Link> or an effect of similar power. Until then, she can't take levels in any class other than witch and her alignment can never become good. Removing the hag's hold causes her to lose this archetype and become a normal witch.</Pair>
+</Ability>
+<Ability id="hags-claws-ex" icon={["mailed-fist"]}>
+<Pair single id="hags-claws-ex">Hag's Claws (Ex)</Pair>
+<Pair hl title="Replaces">1st-level hex</Pair>
+<Pair title="Ability">A hagbound's hands grow into a pair of <Link to="/umr/natural_attacks">hideous claws</Link> that deal 1d4 points of damage for a Medium hagbound (1d3 for a Small creature).</Pair>
+</Ability>
+<Ability id="hunched-muscle-ex" icon={["upgrade"]}>
+<Pair single id="hunched-muscle-ex">Hunched Muscle (Ex)</Pair>
+<Pair hl title="Replaces">2nd-, 8th-, and 14th-level hexes</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">Warty growths and knobby muscles twist the hagbound's body. She gains a +2 size bonus to her Strength score.</Pair>
+<Pair title="At 8th Level">This bonus becomes +4.</Pair>
+<Pair title="At 14th Level">This bonus increases to +6.</Pair>
+</Ability>
+<Ability id="vain-glamour-sp" icon={["magic-swirl"]}>
+<Pair single id="vain-glamour-sp">Vain Glamour (Sp)</Pair>
+<Pair hl title="Replaces">4th- and 12th-level hexes</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Ability">The hagbound gains the ability to disguise her hideous form behind various pleasing shapes. This allows her to magically disguise herself at will, as per <Link to="/spell/disguise_self">disguise self</Link>.</Pair>
+<Pair title="At 12th Level">She can transform herself at will rather than spin illusions, as per <Link to="/spell/alter_self">alter self</Link>.</Pair>
+</Ability>
+<Ability id="vile-curse-sp" icon={["magic-swirl"]}>
+<Pair single id="vile-curse-sp" flavor="The hagbound becomes exceptionally skilled at cursing others.">Vile Curse (Sp)</Pair>
+<Pair hl title="Replaces">10th-level hex</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">She can cast <Link to="/spell/bestow_curse">bestow curse</Link> at will, but its duration becomes 24 hours.</Pair>
+<Pair title="Special">Once a creature has been affected by this ability, it is immune to the witch's vile curse ability for 24 hours. If the witch learns some secret fear or vulnerability of her target and tailors the curse to exploit this, her target takes a -2 penalty on its Will saving throw against the effect.</Pair>
+</Ability>
+<Ability id="hag-transformation" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="hag-transformation">Hag Transformation</Pair>
+<Pair hl title="Replaces">20th-level hex</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">The hagbound transforms into a true hag, purging all goodness and light from her in exchange for dark power. Her alignment becomes evil if it isn't already. Her type changes to <Link to="/type/monstrous_humanoid">monstrous humanoid</Link>, and she gains darkvision 60 feet; immunity to charm, fear, and spell effects; and the ability to join a coven. She gains spell resistance 31, and she grants this benefit to her other coven members.</Pair>
+</Ability>
 </>};
 const _havocker = {title: "Havocker", jsx: <><h2 id="arc-witch-havocker-havocker">Havocker</h2>
 <p><strong>Sources</strong> <Link to="/source/magic_tactics_toolbox">Magic Tactics Toolbox pg. 11</Link><br/>Although most witches are guided to subtle curses and debilitating hexes by their mysterious patrons, some are instead taught the secrets of harnessing raw, destructive elemental power.</p>
-<p><strong>Patron Element:</strong> A havocker's patron grants her the ability to devastate her foes with a specific element. At 1st level, rather than selecting a standard patron and gaining patron spells, the witch selects a specific <Link to="/class/kineticist">kineticist</Link> <Link to="/ability/elements">element</Link>, which represents the shadowy forces from which she gains her familiar and class powers. The havocker gains the elemental focus and kinetic blast class features with the associated element, using her witch level as her effective kineticist level. If the havocker takes levels in another class that grants an elemental focus, the elemental focuses must be the same type, even if that means that the elemental focus of one of the classes must change. Subject to GM discretion, the havocker can change her former elemental focus to make them conform.</p>
-<p>This ability alters the witch's <strong className="hl">familiar</strong> and replaces the witch's 1st-level <strong className="hl">hex</strong>.</p>
-<p><strong>Infusion:</strong> At 2nd level and every 4 witch levels thereafter, the havocker gains an <Link to="/ability/infusion_wild_talents">infusion wild talent</Link> from the list of options available based on her elemental focus, functioning as the kineticist ability of the same name. A havocker must meet the prerequisites of the infusion wild talent and can't accept burn (but see the spellburn ability below).</p>
-<p>This ability replaces the witch's <strong className="hl">hexes</strong> from 2nd level on, <strong className="hl">major hex</strong>, and <strong className="hl">grand hex</strong>.</p>
-<p><strong>Spellburn:</strong> Beginning at 2nd level, a havocker can channel stored spell energy into her kinetic blast to increase the blast's overall utility and power. To use her infusions, the havocker must lose a prepared witch spell to apply the infusion to her kinetic blast. Any spell sacrificed is required to have a spell level equal to or greater than the infusion's effective spell level. The havocker cannot accept additional burn if the infusion would allow her to do so.</p>
+<Ability id="patron-element" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="patron-element" flavor="A havocker's patron grants her the ability to devastate her foes with a specific element.">Patron Element</Pair>
+<Pair hl title="Replaces">1st-level hex</Pair>
+<Pair hl title="Alters">Familiar</Pair>
+<Pair title="Choice">At 1st level, rather than selecting a standard patron and gaining patron spells, the witch selects a specific <Link to="/class/kineticist">kineticist</Link> <Link to="/ability/elements">element</Link>, which represents the shadowy forces from which she gains her familiar and class powers.</Pair>
+<Pair title="Ability">The havocker gains the <em>elemental focus</em> and <em>kinetic blast</em> class features with the associated element, using her witch level as her effective kineticist level.</Pair>
+<Pair title="Special">If the havocker takes levels in another class that grants an <em>elemental focus,</em> the <em>elemental focuses</em> must be the same type, even if that means that the <em>elemental focus</em> of one of the classes must change. Subject to GM discretion, the havocker can change her former <em>elemental focus</em> to make them conform.</Pair>
+</Ability>
+<Ability id="elemental-focus-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="elemental-focus-su" flavor="Relevant text from the kineticist class ability.">Elemental Focus (Su)</Pair>
+<Pair title="Passive Ability">You choose one primary element on which to focus.</Pair>
+<Pair title="Ability">You gain your selected element's basic utility wild talent as a bonus wild talent.</Pair>
+</Ability>
+<Ability id="kinetic-blast-sp" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="kinetic-blast-sp" flavor="Relevant text from the kineticist class ability.">Kinetic Blast (Sp)</Pair>
+<Pair title="Ability">You gain a <Link to="/ability/simple_kinetic_blasts">kinetic blast wild talent</Link> of your choice. This kinetic blast must be a simple blast that matches your element.</Pair>
+<Pair title="Standard Action">You can unleash a kinetic blast at a single target up to a range of 30 feet. You must have at least one hand free to aim the blast (or one prehensile appendage, if you lack hands).</Pair>
+<Pair title="Special"><p>All damage from a kinetic blast is treated as magic for the purpose of bypassing damage reduction.</p>
+<p>Kinetic blasts count as a type of weapon for the purpose of feats such as <Link to="/feat/weapon_focus">Weapon Focus</Link>. You are never considered to be wielding or gripping the kinetic blast (regardless of effects from <em>form infusions</em>), and you can't use <Link to="/feat/vital_strike">Vital Strike</Link> feats with kinetic blasts.</p>
+<p>Even the weakest kinetic blast involves a sizable mass of elemental matter or energy, so kinetic blasts always deal full damage to swarms of any size (though only area blasts deal extra damage to swarms).</p>
+<p>A readied kinetic blast can be used to <Link to="/rule/counterspells">counterspell</Link> any spell of equal or lower level that shares its descriptor.</p>
+<p>A kinetic blast that deals energy damage of any type (including force) has the corresponding descriptor.</p>
+</Pair>
+</Ability>
+<Ability id="infusion" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="infusion">Infusion</Pair>
+<Pair hl title="Replaces">All 2nd-level and higher hexes, major hex, grand hex</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">The havocker gains an <Link to="/ability/infusion_wild_talents">infusion wild talent</Link> from the list of options available based on her elemental focus, functioning as the kineticist ability of the same name. A havocker must meet the prerequisites of the infusion wild talent and can't accept burn (but see the <em>spellburn</em> ability below).</Pair>
+<Pair title="At 6th Level">She gains another infusion wild talent.</Pair>
+<Pair title="At 10th Level">She gains another infusion wild talent.</Pair>
+<Pair title="At 14th Level">She gains another infusion wild talent.</Pair>
+<Pair title="At 18th Level">She gains another infusion wild talent.</Pair>
+</Ability>
+<Ability id="infusion-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="infusion-su" flavor="Relevant text from the kineticist class ability.">Infusion (Su)</Pair>
+<Pair title="Ability"><p>You gain an <Link to="/ability/infusion_wild_talents">infusion wild talent</Link> from the list of options available based on your elemental focus.</p>
+<p>By using infusions along with your kinetic blasts, you can alter your kinetic blasts to suit your needs. Infusions come in two types, each of which changes a kinetic blast differently: a <strong className="hl">substance</strong> infusion causes an additional effect, while a <strong className="hl">form</strong> infusion causes the kinetic blast to manifest in a different way. Each infusion can alter only certain kinds of kinetic blasts, which are listed in its Associated Blasts entry.</p>
+<p>Each time you use one of your kinetic blast wild talents, you can apply up to one associated form infusion and up to one associated substance infusion. Some infusions change the action required to activate a kinetic blast or entirely transform the kinetic blast's normal effects. The burn cost listed in each infusion's Burn entry is added to the burn cost of the kinetic blast the infusion modifies.</p>
+<p>The DC for a save against an infusion is based on the associated kinetic blast's effective spell level, not the level of the infusion. The DCs for form infusions are calculated using your Dexterity modifier instead of your Constitution modifier.</p>
+</Pair>
+<Pair title="Special">When you modify a kinetic blast with a form infusion and a substance infusion that both require saving throws, each target first attempts a saving throw against the form infusion. If a target succeeds and a successful save negates the infusion's effects, the entire kinetic blast is negated; otherwise, the target then attempts a saving throw against the substance infusion. If your form and substance infusions both alter the kinetic blast's damage, apply the substance infusion's alteration first.</Pair>
+</Ability>
+<Ability id="spellburn" icon={["magic-swirl"]}>
+<Pair single id="spellburn">Spellburn</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A havocker can channel stored spell energy into her kinetic blast to increase the blast's overall utility and power. To use her infusions, the havocker must lose a prepared witch spell to apply the infusion to her kinetic blast. Any spell sacrificed is required to have a spell level equal to or greater than the infusion's effective spell level.</Pair>
+<Pair title="Special">The havocker cannot accept additional burn if the infusion would allow her to do so.</Pair>
+</Ability>
 </>};
 const _hedge_witch = {title: "Hedge Witch", jsx: <><h2 id="arc-witch-hedge_witch-hedge-witch">Hedge Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 84</Link><br/>Among witches, there are those who devote themselves to the care of others and restrict their practices to the healing arts. They often take the place of clerics in rural communities and may wander the countryside servicing the needs of several small communities.</p>
