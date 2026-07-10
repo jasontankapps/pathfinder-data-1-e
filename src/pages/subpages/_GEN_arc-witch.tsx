@@ -1,4 +1,5 @@
-import Link from '../../components/Link';
+import {IonIcon} from '@ionic/react';
+import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
@@ -97,57 +98,163 @@ const _beast_bonded = {title: "Beast-Bonded", jsx: <><h2 id="arc-witch-beast_bon
 <p><strong className="hl">The following witch hexes complement this archetype:</strong> <Link to="/hex/beast_of_ill_omen">Beast of ill omen</Link>, <Link to="/hex/charm">charm</Link>, <Link to="/hex/feral_speech">feral speech</Link>, <Link to="/hex/ward">ward</Link></p><p><strong className="hl">The following major hex complements this archetype:</strong> <Link to="/hex/beast_eye">Beast eye</Link></p><p><strong className="hl">The following grand hex complements this archetype:</strong> <Link to="/hex/forced_reincarnation">Forced reincarnation</Link></p></>};
 const _bonded_witch = {title: "Bonded Witch", jsx: <><h2 id="arc-witch-bonded_witch-bonded-witch">Bonded Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 43</Link><br/>While all witches commune with the unknown, the blend of human ingenuity and adept learning mixed with elven blood gives some half-elves a unique conduit to channel the powers of the arcane. Bonded witches forsake familiars as vessels of power in favor of a specific object that grants them powers above and beyond those of their patron alone, as they tap into the powerful magic of the item itself. A bonded witch has the following class features.</p>
-<p><strong>Bonded Item (Sp):</strong> At 1st level, a bonded witch gains a bonded item instead of a familiar. This bonded item is similar to a <Link to="/class/wizard">wizard's</Link> arcane bond bonded item, and follows all the rules of such an item with the following exceptions.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-witch-bonded_witch--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/half_elf">Half-elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="bonded-item-sp" extraClasses="hasSubs" icon={["magic-swirl","spell-book"]}>
+<Pair single id="bonded-item-sp">Bonded Item (Sp)</Pair>
+<Pair hl title="Replaces">Familiar</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="zzzz"><p>A bonded witch gains a bonded item instead of a familiar. This bonded item is similar to a <Link to="/class/wizard">wizard's</Link> <em>arcane bond</em> bonded item, and follows all the rules of such an item with the following exceptions.</p>
 <p>A bonded witch's bonded item serves as a vessel for her spells and a conduit for communication with her patron. A bonded witch must commune with her bonded item each day to prepare her spells. The bonded item stores all of the spells that the bonded witch knows, and the bonded witch cannot prepare spells that are not stored within it. A bonded witch starts with the same number of spells and gains new spells the same way as a witch, and can even add spells by learning them from scrolls in the same way, but a bonded witch cannot learn spells from another bonded item.</p>
-<p>Since a bonded witch does not have a spellbook, starting at 2nd level, a bonded witch's bonded item can be used once per day to cast a spell dependent on the type of bonded object chosen by the bonded witch. The spell is treated like any other spell cast by the bonded witch, including its casting time, duration, and other effects dependent of the bonded witch's level. This spell cannot be further modified by metamagic feats or any other ability. As the bonded witch gains levels, the bonded item gains new spells that the bonded witch can cast in this way. She can cast any one of these spells once per day using her bonded object, but gains greater flexibility in what spells she can cast, and gains more powerful spells as she gains new levels. The bonded item spells associated with each item type are as follows.</p>
-<blockquote>
-<p><strong>Amulet:</strong> 2nd-<Link to="/spell/stone_fist">stone fist</Link>; 4th-<Link to="/spell/bears_endurance">bear's endurance</Link>; 6th-<Link to="/spell/burst_of_speed">burst of speed</Link>; 8th-<Link to="/spell/mnemonic_enhancer">mnemonic enhancer</Link>; 10th-<Link to="/spell/stoneskin">stoneskin</Link>; 12th-<Link to="/spell/monstrous_physique_iv">monstrous physique IV</Link>; 14th-<Link to="/spell/firebrand">firebrand</Link>; 16th-<Link to="/spell/iron_body">iron body</Link>; 18th-<Link to="/spell/overwhelming_presence">overwhelming presence</Link>.</p>
-<p><strong>Ring:</strong> 2nd-<Link to="/spell/shield">shield</Link>; 4th-<Link to="/spell/ablative_barrier">ablative barrier</Link>; 6th-<Link to="/spell/protection_from_energy">protection from energy</Link>; 8th-<Link to="/spell/nondetection">nondetection</Link>; 10th-<Link to="/spell/life_bubble">life bubble</Link>; 12th-<Link to="/spell/resinous_skin">resinous skin</Link>; 14th-<Link to="/spell/antimagic_field">antimagic field</Link>; 16th-<Link to="/spell/deflection">deflection</Link>; 18th-<Link to="/spell/spell_immunity">spell immunity</Link>.</p>
-<p><strong>Staff:</strong> 2nd-<Link to="/spell/shillelagh">shillelagh</Link>; 4th-<Link to="/spell/warp_wood">warp wood</Link>; 6th-<Link to="/spell/plant_growth">plant growth</Link>; 8th-<Link to="/spell/arboreal_hammer">arboreal hammer</Link>; 10th-<Link to="/spell/passwall">passwall</Link>; 12th-<Link to="/spell/move_earth">move earth</Link>; 14th-<Link to="/spell/changestaff">changestaff</Link>; 16th-<Link to="/spell/control_plants">control plants</Link>; 18th-<Link to="/spell/wooden_phalanx">wooden phalanx</Link>.</p>
-<p><strong>Wand:</strong> 2nd-<Link to="/spell/magic_missile">magic missile</Link>; 4th-<Link to="/spell/knock">knock</Link>; 6th-<Link to="/spell/fireball">fireball</Link>; 8th-<Link to="/spell/restoration">restoration</Link>; 10th-<Link to="/feat/maximized">maximized</Link> <Link to="/spell/scorching_ray">scorching ray</Link>; 12th-<Link to="/spell/mass_bulls_strength">mass bull's strength</Link>; 14th-<Link to="/spell/greater_restoration">greater restoration</Link>; 16th-<Link to="/feat/empowered">empowered</Link> and maximized fireball; 18th-empowered and maximized <Link to="/spell/fire_shield">fire shield</Link>.</p>
-<p><strong>Weapon:</strong> 2nd-<Link to="/spell/warding_weapon">warding weapon</Link>; 4th-<Link to="/spell/versatile_weapon">versatile weapon</Link>; 6th-<Link to="/spell/greater_magic_weapon">greater magic weapon</Link>; 8th-<Link to="/spell/telekinetic_charge">telekinetic charge</Link>; 10th-<Link to="/spell/energy_siege_shot">energy siege shot</Link>; 12th-<Link to="/spell/blade_barrier">blade barrier</Link>; 14th-<Link to="/spell/arcane_cannon">arcane cannon</Link>; 16th-<Link to="/spell/earthquake">earthquake</Link>; 18th-<Link to="/spell/ride_the_lightning">ride the lightning</Link>.</p>
-</blockquote>
-<p>This ability replaces the witch's <strong className="hl">familiar</strong> class feature.</p>
+</Pair>
+<Pair title="At 2nd Level"><p>Since a bonded witch does not have a spellbook, starting at 2nd level, a bonded witch's bonded item can be used once per day to cast a spell dependent on the type of bonded object chosen by the bonded witch. The spell is treated like any other spell cast by the bonded witch, including its casting time, duration, and other effects dependent of the bonded witch's level. This spell cannot be further modified by metamagic feats or any other ability.</p>
+<p>As the bonded witch gains levels, the bonded item gains new spells that the bonded witch can cast in this way. She can cast any one of these spells once per day using her bonded object, but gains greater flexibility in what spells she can cast, and gains more powerful spells as she gains new levels. The bonded item spells associated with each item type listed below.</p>
+</Pair>
+</Ability>
+<Ability id="amulet" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="amulet">Amulet</Pair>
+<Pair plain title="2nd"><Link to="/spell/stone_fist">Stone fist</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/bears_endurance">Bear's endurance</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/burst_of_speed">Burst of speed</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/mnemonic_enhancer">Mnemonic enhancer</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/stoneskin">Stoneskin</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/monstrous_physique_iv">Monstrous physique IV</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/firebrand">Firebrand</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/iron_body">Iron body</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/overwhelming_presence">Overwhelming presence</Link></Pair>
+</Ability>
+<Ability id="ring" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="ring">Ring</Pair>
+<Pair plain title="2nd"><Link to="/spell/shield">Shield</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/ablative_barrier">Ablative barrier</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/protection_from_energy">Protection from energy</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/nondetection">Nondetection</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/life_bubble">Life bubble</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/resinous_skin">Resinous skin</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/antimagic_field">Antimagic field</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/deflection">Deflection</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/spell_immunity">Spell immunity</Link></Pair>
+</Ability>
+<Ability id="staff" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="staff">Staff</Pair>
+<Pair plain title="2nd"><Link to="/spell/shillelagh">Shillelagh</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/warp_wood">Warp wood</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/plant_growth">Plant growth</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/arboreal_hammer">Arboreal hammer</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/passwall">Passwall</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/move_earth">Move earth</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/changestaff">Changestaff</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/control_plants">Control plants</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/wooden_phalanx">Wooden phalanx</Link></Pair>
+</Ability>
+<Ability id="wand" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="wand">Wand</Pair>
+<Pair plain title="2nd"><Link to="/spell/magic_missile">Magic missile</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/knock">Knock</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/fireball">Fireball</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/restoration">Restoration</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/scorching_ray">Scorching ray</Link> (<Link to="/feat/maximized">maximized</Link>)</Pair>
+<Pair plain title="12th"><Link to="/spell/mass_bulls_strength">Mass bull's strength</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/greater_restoration">Greater restoration</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/fireball">Fireball</Link> (<Link to="/feat/empowered">empowered</Link> and maximized)</Pair>
+<Pair plain title="18th"><Link to="/spell/fire_shield">Fire shield</Link> (empowered and maximized)</Pair>
+</Ability>
+<Ability id="weapon" extraClasses="subAbility" icon={["spell-book"]}>
+<Pair single id="weapon">Weapon</Pair>
+<Pair plain title="2nd"><Link to="/spell/warding_weapon">Warding weapon</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/versatile_weapon">Versatile weapon</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/greater_magic_weapon">Greater magic weapon</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/telekinetic_charge">Telekinetic charge</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/energy_siege_shot">Energy siege shot</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/blade_barrier">Blade barrier</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/arcane_cannon">Arcane cannon</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/earthquake">Earthquake</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/ride_the_lightning">Ride the lightning</Link></Pair>
+</Ability>
+<Ability id="bonded-object" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="bonded-object" flavor="Relevant text from the wizard class ability.">Bonded Object</Pair>
+<Pair title="Ability"><p>If you select a bonded object, you begin play with one at no cost. Objects must fall into one of the following categories: amulet, ring, staff, wand, or weapon. These objects are always masterwork quality. Weapons acquired at 1st level are not made of any special material. If the object is an amulet or ring, it must be worn to have effect, while staves, wands, and weapons must be wielded. If you attempt to cast a spell without your bonded object worn or in hand, you must make a <Link to="/rule/concentration">concentration</Link> check or lose the spell. The DC for this check is equal to 20 + the spell's level. If the object is a ring or amulet, it occupies the <Link to="/rule/neck_slot">ring or neck slot</Link> accordingly.</p>
+<p>You can add additional magic abilities to your bonded object as if you have the required item creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link>). If the bonded object is a wand, it loses its wand abilities when its last charge is consumed, but it is not destroyed and it retains all of its bonded object properties and can be used to craft a new wand. The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>
+<p>If a bonded object is damaged, it is restored to full hit points the next time you prepare your spells. If the object is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. You can designate an existing magic item as your bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.</p>
+</Pair>
+</Ability>
 </>};
 const _bouda = {title: "Bouda", jsx: <><h2 id="arc-witch-bouda-bouda">Bouda</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 92</Link><br/>These strange and often solitary witches have a strong connection to curses, the evil eye, and hyenas.</p>
-<p><strong>Alignment:</strong> Because of the dark nature of her magic, a bouda must be of an evil alignment. If a character with the bouda archetype ceases to be evil, she loses the ability to use all alternate class features granted by this archetype (but still retains all other witch class features), though she's still considered to be a bouda when taking further levels in the witch class. A bouda regains use of all archetype alternate class features if she atones for her violations (see the <Link to="/spell/atonement">atonement</Link>).</p>
-<p><strong>Fetish:</strong> A bouda keeps a small fetish: sometimes a carved idol, other times a necklace adorned with teeth or bones. A bouda's spells come from the will of evil spirits residing in the fetish, and its ability to hold spells functions in a manner identical to the way a witch's spells are granted by her familiar. The bouda must commune with her fetish each day to prepare her spells and can only prepare spells stored in the fetish.</p>
-<p>At 3rd level, a bouda can use her fetish to deliver touch spells a number of times per day equal to one-fourth her witch level (minimum 1). When casting a touch spell, as a free action she can use this ability. When she does, she can deliver her spell as a ranged touch spell within a range of 30 feet. At 10th level, she can deliver these spells within a range of 60 feet. At 15th level and higher, she can deliver these spells within a range of 90 feet.</p>
-<p>This ability replaces the <strong className="hl">familiar</strong> class feature.</p>
-<p><strong>Bouda's Eye (Su):</strong> A bouda's gaze can bestow ill fortune on her enemies. This hex can affect a creature within 30 feet that the bouda can see. The target takes a -2 penalty on one of the following (bouda's choice): AC, ability checks, attack rolls, saving throws, or skill checks. The hex lasts for a number of rounds equal to 3 + the bouda's Intelligence modifier. A successful Will saving throw reduces the duration of the hex to 1 round. Once per day when the bouda uses this hex, she can impose two different penalties on the target instead of just one. If the bouda takes the <Link to="/hex/evil_eye">evil eye</Link> hex, it increases the number of different penalties she can impose on the hex's target by 1. At 8th level, the penalties imposed by this hex increase to -4. This is a mind-affecting effect.</p>
-<p>This hex must be taken as a bouda's 1st-level hex, and only a bouda can take this hex.</p>
-<p><strong>Hyena Shape (Su):</strong> At 10th level, a bouda gains the ability to turn into a hyena or dire hyena and back again a number of times per day equal to her Intelligence modifier. This ability functions as <Link to="/spell/beast_shape_ii">beast shape II</Link>, except for the following. The effect lasts for 1 hour per witch level, or until the bouda changes back. Changing form (to animal or back) is a standard action that does not provoke attacks of opportunity. At 20th level, a bouda can change her form at will. If a bouda dies while in hyena shape, she does not revert back to her true form.</p>
-<p>The bouda does not lose the ability to speak while in animal form, and can communicate with hyenas and dire hyenas as if under the effects of <Link to="/spell/speak_with_animals">speak with animals</Link>. Furthermore, while in this form, the bouda gains the benefit of the <Link to="/feat/natural_spell">Natural Spell</Link> feat, even if she does not meet the prerequisites.</p>
-<p>This ability replaces the <strong className="hl">major hex</strong> granted at 10th level.</p>
+<Ability id="alignment" icon={["hazard-sign"]}>
+<Pair single id="alignment">Alignment</Pair>
+<Pair title="Info">Because of the dark nature of her magic, a bouda must be of an evil alignment. If a character with the bouda archetype ceases to be evil, she loses the ability to use all alternate class features granted by this archetype (but still retains all other witch class features), though she's still considered to be a bouda when taking further levels in the witch class. A bouda regains use of all archetype alternate class features if she atones for her violations (see the spell <Link to="/spell/atonement">atonement</Link>).</Pair>
+</Ability>
+<Ability id="fetish" icon={["info","smoking-finger"]}>
+<Pair single id="fetish">Fetish</Pair>
+<Pair hl title="Replaces">Familiar</Pair>
+<Pair title="Ability">A bouda keeps a small fetish: sometimes a carved idol, other times a necklace adorned with teeth or bones. A bouda's spells come from the will of evil spirits residing in the fetish, and its ability to hold spells functions in a manner identical to the way a witch's spells are granted by her familiar. The bouda must commune with her fetish each day to prepare her spells and can only prepare spells stored in the fetish.</Pair>
+<Pair title="At 3rd Level">A bouda can use her fetish to deliver touch spells a number of times per day equal to one-fourth her witch level (minimum 1). When casting a touch spell, as a free action she can use this ability. When she does, she can deliver her spell as a ranged touch spell within a range of 30 feet.</Pair>
+<Pair title="At 10th Level">She can deliver these spells within a range of 60 feet.</Pair>
+<Pair title="At 15th Level">She can deliver these spells within a range of 90 feet.</Pair>
+</Ability>
+<Ability id="boudas-eye-su" icon={["bowman","armor-downgrade"]}>
+<Pair single id="boudas-eye-su">Bouda's Eye (Su)</Pair>
+<Pair hl title="Replaces">1st-level hex</Pair>
+<Pair title="Ability"><p>A bouda's gaze can bestow ill fortune on her enemies. This hex can affect a creature within 30 feet that the bouda can see. The target takes a -2 penalty on one of the following (bouda's choice): AC, ability checks, attack rolls, saving throws, or skill checks. The hex lasts for a number of rounds equal to 3 + the bouda's Intelligence modifier. A successful Will saving throw reduces the duration of the hex to 1 round.</p>
+<p>Once per day when the bouda uses this hex, she can impose two different penalties on the target instead of just one. If the bouda takes the <Link to="/hex/evil_eye">evil eye</Link> hex, it increases the number of different penalties she can impose on the hex's target by 1.</p>
+</Pair>
+<Pair title="At 8th Level">The penalties imposed by this hex increase to -4.</Pair>
+<Pair title="Special">This hex must be taken as a bouda's 1st-level hex, and only a bouda can take this hex. This is a mind-affecting effect.</Pair>
+</Ability>
+<Ability id="hyena-shape-su" icon={["stairs-goal"]}>
+<Pair single id="hyena-shape-su">Hyena Shape (Su)</Pair>
+<Pair hl title="Replaces">Major hex granted at 10th level</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">A bouda gains the ability to turn into a <Link to="/monster/hyena">hyena</Link> or <Link to="/monster/dire_hyena">dire hyena</Link> and back again a number of times per day equal to her Intelligence modifier. This ability functions as <Link to="/spell/beast_shape_ii">beast shape II</Link>, except for the following. The effect lasts for 1 hour per witch level, or until the bouda changes back. Changing form (to animal or back) is a <strong className="hl">standard action</strong> that does not provoke attacks of opportunity.</Pair>
+<Pair title="At 20th Level">At 20th level, a bouda can change her form at will.</Pair>
+<Pair title="Special">The bouda does not lose the ability to speak while in animal form, and can communicate with hyenas and dire hyenas as if under the effects of <Link to="/spell/speak_with_animals">speak with animals</Link>. Furthermore, while in this form, the bouda gains the benefit of the <Link to="/feat/natural_spell">Natural Spell</Link> feat, even if she does not meet the prerequisites. If a bouda dies while in hyena shape, she does not revert back to her true form.</Pair>
+</Ability>
 </>};
 const _cartomancer = {title: "Cartomancer", jsx: <><h2 id="arc-witch-cartomancer-cartomancer">Cartomancer</h2>
 <p><strong>Sources</strong> <Link to="/source/the_harrow_handbook">The Harrow Handbook pg. 15</Link><br/>More than mere playing cards, harrow decks allow individuals to communicate with powers beyond mortal ken. A witch who serves the spirits of the harrow in exchange for mystical power is known as a cartomancer. Rather than connecting with a familiar, a cartomancer communes with her patron through a consecrated harrow deck.</p>
-<p><strong>Spell Deck:</strong> Each cartomancer carries a special <Link to="/eq-misc/harrow_deck">harrow deck</Link> that allows her to communicate with her patron. Its ability to hold spells functions identically to the way a witch's spells are granted by her familiar. The cartomancer must consult her harrow deck each day to prepare her spells and cannot prepare spells that are not stored in the deck. The spell deck cannot be used for this purpose if any cards are missing.</p>
-<p>This ability replaces the witch's <strong className="hl">familiar</strong>. The following familiar ability works differently for a cartomancer.</p>
-<blockquote>
-<p><strong>Deliver Touch Spells (Su):</strong> At 3rd level, when the cartomancer uses the Deadly Dealer feat with a card from her spell deck, the card is not destroyed and gains the <Link to="/magic-enh/returning">returning</Link> weapon special ability.</p>
-<p>In addition, the cartomancer can deliver a touch spell with a thrown card. This uses the Deadly Dealer feat (see below), except the attack is resolved as a ranged touch attack and the card deals no damage of its own. This ability can be used with any card (not just one from the cartomancer's spell deck).</p>
-</blockquote>
-<p><strong>Deadly Dealer:</strong> At 2nd level, a cartomancer gains the <Link to="/feat/deadly_dealer">Deadly Dealer</Link> feat as a bonus feat, even if she does not meet the prerequisites. The cartomancer gains the benefits of the <Link to="/feat/arcane_strike">Arcane Strike</Link> feat, but only for the purposes of using Deadly Dealer.</p>
-<p>This replaces the witch's 2nd-level <strong className="hl">hex</strong>.</p>
-<p><strong>Hexes:</strong> The following witch hexes complement the cartomancer archetype: <Link to="/hex/evil_eye">evil eye</Link>, <Link to="/hex/fortune">fortune</Link>, <Link to="/hex/misfortune">misfortune</Link>, <Link to="/hex/soothsayer">soothsayer</Link>.</p>
-<p><strong>Major Hexes:</strong> The following major hexes complement the cartomancer archetype: <Link to="/hex/harrowing_curse">harrowing curse</Link>, <Link to="/hex/vision">vision</Link>.</p>
-<p><strong>Grand Hexes:</strong> The following grand hex complements the cartomancer archetype: <Link to="/hex/dire_prophecy">dire prophecy</Link>.</p>
-</>};
+<Ability id="spell-deck" extraClasses="hasSubs" icon={["info","magic-swirl"]}>
+<Pair single id="spell-deck">Spell Deck</Pair>
+<Pair hl title="Replaces">Familiar</Pair>
+<Pair title="Info">Each cartomancer carries a special <Link to="/eq-misc/harrow_deck">harrow deck</Link> that allows her to communicate with her patron. Its ability to hold spells functions identically to the way a witch's spells are granted by her familiar. The cartomancer must consult her harrow deck each day to prepare her spells and cannot prepare spells that are not stored in the deck. The spell deck cannot be used for this purpose if any cards are missing.</Pair>
+</Ability>
+<Ability id="deadly-dealer" icon={["stairs-goal"]}>
+<Pair single id="deadly-dealer">Deadly Dealer</Pair>
+<Pair hl title="Replaces">2nd-level hex</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A cartomancer gains the <Link to="/feat/deadly_dealer">Deadly Dealer</Link> feat as a bonus feat, even if she does not meet the prerequisites. The cartomancer gains the benefits of the <Link to="/feat/arcane_strike">Arcane Strike</Link> feat, but only for the purposes of using Deadly Dealer.</Pair>
+</Ability>
+<Ability id="deliver-touch-spells-su" extraClasses="subAbility" icon={["stairs-goal","smoking-finger"]}>
+<Pair single id="deliver-touch-spells-su" flavor="The following familiar ability works differently for a cartomancer.">Deliver Touch Spells (Su)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
+<Pair title="Ability"><p>When the cartomancer uses the Deadly Dealer feat with a card from her spell deck, the card is not destroyed and gains the <Link to="/magic-enh/returning">returning</Link> weapon special ability.</p>
+<p>In addition, the cartomancer can deliver a touch spell with a thrown card. This uses the Deadly Dealer feat (see above), except the attack is resolved as a ranged touch attack and the card deals no damage of its own. This ability can be used with any card (not just one from the cartomancer's spell deck).</p>
+</Pair>
+</Ability>
+<p><strong className="hl">The following witch hexes complement this archetype:</strong> <Link to="/hex/evil_eye">Evil eye</Link>, <Link to="/hex/fortune">fortune</Link>, <Link to="/hex/misfortune">misfortune</Link>, <Link to="/hex/soothsayer">soothsayer</Link></p><p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/harrowing_curse">Harrowing curse</Link>, <Link to="/hex/vision">vision</Link></p><p><strong className="hl">The following grand hex complements this archetype:</strong> <Link to="/hex/dire_prophecy">Dire prophecy</Link></p></>};
 const _coral_witch = {title: "Coral Witch", jsx: <><h2 id="arc-witch-coral_witch-coral-witch">Coral Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 22</Link><br/>Coral witches inhabit shallow coasts and reefs where great masses of coral grow. They use their magic to fashion familiars from living coral and emulate the unyielding tenacity of these durable marine organisms. Many coral witches actively patrol and protect their home reefs from predators and help to rebuild the reefs after natural disasters. Although most coral witches are aquatic creatures such as <Link to="/race/gillmen">gillmen</Link> and <Link to="/race/locathah">locathahs</Link>, surface creatures with a deep connection to the sea sometimes become coral witches as well.</p>
-<p><strong>Patron:</strong> A coral witch's patron is normally <Link to="/patron/endurance">endurance</Link>, <Link to="/patron/healing">healing</Link>, or <Link to="/patron/water">water</Link>, although a coral witch can select any patron other than those associated with fire.</p>
-<p><strong>Coral Familiar (Ex):</strong> A coral witch crafts her familiar out of living coral, coaxing the tiny organisms to grow in the shape of a larger animal or vermin. The coral witch chooses a familiar as normal, but its type changes to <Link to="/type/vermin">vermin</Link> (<Link to="/subtype/aquatic">aquatic</Link>) and it gains the amphibious special quality. The coral witch's familiar has an Intelligence score as normal for the witch's level, but it has immunity to mind-affecting effects. When underwater near a coral reef of any size, a coral witch can spend 8 hours to restore her familiar to full health at no cost, unless the familiar is killed, in which case she must follow the usual rules for replacing her familiar. A coral witch can never gain an improved familiar.</p>
-<p>This ability alters witch's <strong className="hl">familiar</strong>.</p>
-<p><strong>Waves Spirit Hex:</strong> A coral witch can select hexes from the shaman's <Link to="/shamanspirit/waves">waves spirit</Link> as if they were witch hexes. She uses her witch level as her shaman level to determine the effect of the hex and Intelligence instead of Wisdom to determine its DC.</p>
-<p>This ability alters <strong className="hl">hex</strong>.</p>
-<p><strong>Immovability (Ex):</strong> At 8th level, a coral witch can naturally emulate coral's ability to affix itself in place. At the end of any round in which the coral witch did not move from her space and is standing on solid ground, she adds her class level to her CMD against any bull rush, overrun, and reposition combat maneuvers, grapple attempts to move her, and attempts to pull or push her. This bonus lasts until the start of the coral witch's next turn.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 8th level.</p>
-<p><strong>Hexes:</strong> The following witch hexes complement the coral witch archetype: <Link to="/hex/evil_eye">evil eye</Link>, <Link to="/hex/feral_speech">feral speech</Link>, <Link to="/hex/water_lung">water lung</Link>.</p>
-<p><strong>Major Hexes:</strong> The following major hexes complement the coral witch archetype: <Link to="/hex/beast_eye">beast eye</Link>, <Link to="/hex/hags_eye">hag's eye</Link>, <Link to="/hex/weather_control">weather control</Link>.</p>
-<p><strong>Grand Hexes:</strong> The following grand hex complements the coral witch archetype: <Link to="/hex/life_giver">life giver</Link>.</p>
-</>};
+<Ability id="patron" icon={["info"]}>
+<Pair single id="patron">Patron</Pair>
+<Pair title="Info">A coral witch's patron is normally <Link to="/patron/endurance">endurance</Link>, <Link to="/patron/healing">healing</Link>, or <Link to="/patron/water">water</Link>, although a coral witch can select any patron other than those associated with fire.</Pair>
+</Ability>
+<Ability id="coral-familiar-ex" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="coral-familiar-ex">Coral Familiar (Ex)</Pair>
+<Pair hl title="Alters">Familiar</Pair>
+<Pair title="Ability">A coral witch crafts her familiar out of living coral, coaxing the tiny organisms to grow in the shape of a larger animal or vermin. The coral witch chooses a familiar as normal, but its type changes to <Link to="/type/vermin">vermin</Link> (<Link to="/subtype/aquatic">aquatic</Link>) and it gains the <Link to="/umr/amphibious">amphibious</Link> special quality. The coral witch's familiar has an Intelligence score as normal for the witch's level, but it has immunity to mind-affecting effects.</Pair>
+<Pair title="Ability">When underwater near a coral reef of any size, a coral witch can spend 8 hours to restore her familiar to full health at no cost, unless the familiar is killed, in which case she must follow the usual rules for replacing her familiar.</Pair>
+<Pair title="Special">A coral witch can never gain an improved familiar.</Pair>
+</Ability>
+<Ability id="waves-spirit-hex" icon={["stairs-goal"]}>
+<Pair single id="waves-spirit-hex">Waves Spirit Hex</Pair>
+<Pair hl title="Alters">Hex</Pair>
+<Pair title="Ability">A coral witch can select hexes from the shaman's <Link to="/shamanspirit/waves">waves spirit</Link> as if they were witch hexes. She uses her witch level as her shaman level to determine the effect of the hex and Intelligence instead of Wisdom to determine its DC.</Pair>
+</Ability>
+<Ability id="immovability-ex" icon={["armor-upgrade"]}>
+<Pair single id="immovability-ex">Immovability (Ex)</Pair>
+<Pair hl title="Replaces">Hex gained at 8th level</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">A coral witch can naturally emulate coral's ability to affix itself in place. At the end of any round in which the coral witch did not move from her space and is standing on solid ground, she adds her class level to her CMD against any <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/overrun">overrun</Link>, and <Link to="/rule/reposition">reposition</Link> combat maneuvers, <Link to="/rule/grapple">grapple</Link> attempts to move her, and attempts to <Link to="/umr/pull">pull</Link> or <Link to="/umr/push">push</Link> her. This bonus lasts until the start of the coral witch's next turn.</Pair>
+</Ability>
+<p><strong className="hl">The following witch hexes complement this archetype:</strong> <Link to="/hex/evil_eye">Evil eye</Link>, <Link to="/hex/feral_speech">feral speech</Link>, <Link to="/hex/water_lung">water lung</Link></p><p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/beast_eye">Beast eye</Link>, <Link to="/hex/hags_eye">hag's eye</Link>, <Link to="/hex/weather_control">weather control</Link></p><p><strong className="hl">The following grand hex complements this archetype:</strong> <Link to="/hex/life_giver">Life giver</Link></p></>};
 const _demon_sworn = {title: "Demon-Sworn", jsx: <><h2 id="arc-witch-demon_sworn-demon-sworn">Demon-Sworn</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 16</Link><br/>The drow are among the best known creatures on Golarion who were "saved" by demonic intervention, but they're far from the only ones. In the depths of the Darklands, as well as similarly inhospitable locales on Golarion, many seek the succor of demons as a means of survival. Such pacts are often made in haste, without a true understanding of the lifelong effects they'll have on those who make them.</p>
 <p><strong>Demonic Pact:</strong> A demon-sworn makes a pact with a demonic entity, forever binding her to the forces of the Abyss and corrupting her connection with her patron. At the indicated levels, she gains the spells below in place of her normal patron spells: 2nd-<Link to="/spell/protection_from_good">protection from good</Link>, 6th-<Link to="/spell/unholy_blight">unholy blight</Link>, 10th-<Link to="/spell/dispel_good">dispel good</Link>, 14th-<Link to="/spell/blasphemy">blasphemy</Link>, 18th-<Link to="/spell/unholy_aura">unholy aura</Link>. Casting spells with the evil descriptor from this replacement list has no effect on the demonsworn's alignment.</p>
