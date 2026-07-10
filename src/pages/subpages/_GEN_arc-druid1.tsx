@@ -817,15 +817,9 @@ const _eagle_shaman = {title: "Eagle Shaman", jsx: <><h2 id="arc-druid-eagle_sha
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Passive Ability">An eagle shaman gains <em>wild shape,</em> but the ability functions at her druid level - 2. If she takes on the form of an eagle or roc, she instead uses her druid level + 2.</Pair>
-</Ability>
-<Ability id="bonus-feat" icon={["stairs-goal"]}>
-<Pair single id="bonus-feat">Bonus Feat</Pair>
-<Pair hl title="Replaces">Venom immunity</Pair>
-<Pair title="Gained">At 9th Level</Pair>
-<Pair title="Ability">An eagle shaman gains one of the following bonus feats: <Link to="/feat/flyby_attack">Flyby Attack</Link>, <Link to="/feat/improved_lightning_reflexes">Improved Lightning Reflexes</Link>, <Link to="/feat/lightning_reflexes">Lightning Reflexes</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Perception), or <Link to="/feat/wind_stance">Wind Stance</Link>.</Pair>
-<Pair title="At 13th Level">The druid gains another feat from the list above.</Pair>
-<Pair title="At 17th Level">The druid gains a third bonus feat from the list above.</Pair>
-<Pair title="Special">She must meet the prerequisites for these bonus feats.</Pair>
+<Pair title="Special"><p><a href="https://paizo.com/paizo/faq/v5748nruor1fn#v5748eaic9raj">From the FAQ</a> (link opens in outside browser): The lack of suitable giant bird stat blocks in official Paizo products hinders the rules options for this archetype.</p>
+<p>To remedy this problem, an eagle shaman druid can use <em>wild shape</em> to take the form of a Medium eagle (as if applying the giant creature simple template to a Small eagle), and can use <em>wild shape</em> to take the form of a Huge roc (as if applying the young creature simple template to a Gargantuan roc). Abilities of the assumed form are determined by which <em>beast shape</em> spell the <em>wild shape</em> ability functions as, as determined by the eagle shaman's effective druid level.</p>
+</Pair>
 </Ability>
 </>};
 const _elemental_ally = {title: "Elemental Ally", jsx: <><h2 id="arc-druid-elemental_ally-elemental-ally">Elemental Ally</h2>
