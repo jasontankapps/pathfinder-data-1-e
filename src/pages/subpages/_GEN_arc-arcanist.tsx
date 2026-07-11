@@ -256,6 +256,9 @@ const _magaambyan_initiate = {title: "Magaambyan Initiate", jsx: <><h2 id="arc-a
 </Ability>
 </>};
 const _occultist = {title: "Occultist", jsx: <><h2 id="arc-arcanist-occultist-occultist">Occultist</h2>
+<blockquote>
+<p><em><strong>Note:</strong> This is an arcanist archetype, and has no relation to the <Link to="/class/occultist">occultist</Link> occult class.</em></p>
+</blockquote>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 78</Link><br/>Not all arcanists peer inward to discern the deepest secrets of magic. Some look outward, connecting with extraplanar creatures and bartering for secrets, power, and favor.</p>
 <Ability id="planar-spells" icon={["spell-book"]}>
 <Pair single id="planar-spells">Planar Spells</Pair>

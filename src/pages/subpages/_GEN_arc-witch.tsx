@@ -648,94 +648,217 @@ const _havocker = {title: "Havocker", jsx: <><h2 id="arc-witch-havocker-havocker
 </>};
 const _hedge_witch = {title: "Hedge Witch", jsx: <><h2 id="arc-witch-hedge_witch-hedge-witch">Hedge Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 84</Link><br/>Among witches, there are those who devote themselves to the care of others and restrict their practices to the healing arts. They often take the place of clerics in rural communities and may wander the countryside servicing the needs of several small communities.</p>
-<p><strong>Patron:</strong> A hedge witch's <Link to="/ability/patrons">patron</Link> is normally one with a healing theme.</p>
-<p><strong>Spontaneous Healing (Su):</strong> A hedge witch can channel stored spell energy into healing spells that she did not prepare ahead of time. The witch can "lose" any prepared spell that is not an orison in order to cast any <Link to="/main/cure_spells">cure spell</Link> of the same spell level or lower, even if she doesn't know that cure spell.</p>
-<p>This replaces the witch's <strong className="hl">hex</strong> gained at 4th level.</p>
-<p><strong>Empathic Healing (Su):</strong> A hedge witch can minister to a diseased or poisoned target, redirecting the affliction into herself. For a poisoned target, the witch must tend to him as a standard action; he makes his next saving throw against the poison as normal, but the witch suffers the effects of the failed save instead of the poisoned creature. For a diseased target, the witch must tend to the sick person for an hour; he makes his next saving throw against the disease as normal, but the witch suffers the effects of the failed save instead of the diseased creature. The witch does not actually become poisoned or diseased (and is not contagious and does not need to be cured), but suffers the effects of the affliction as if she had been. The witch normally uses this ability to extend the life of someone near death, giving him time to recover. This ability has no effect if the witch is immune to disease or poison.</p>
-<p>This replaces the witch's <strong className="hl">hex</strong> gained at 8th level.</p>
-<p><strong>Hexes:</strong> The following witch hexes complement the hedge witch archetype: <Link to="/hex/cauldron">cauldron</Link>, <Link to="/hex/feral_speech">feral speech</Link>, <Link to="/hex/healing">healing</Link>, <Link to="/hex/tongues">tongues</Link>.</p>
-<p><strong>Major Hexes:</strong> The following major hexes complement the hedge witch archetype: <Link to="/hex/major_healing">major healing</Link>, <Link to="/hex/weather_control">weather control</Link>, <Link to="/hex/witchs_brew">witch's brew</Link>.</p>
-<p><strong>Grand Hexes:</strong> The following grand hex complements the hedge witch archetype: <Link to="/hex/life_giver">life giver</Link>.</p>
-</>};
+<Ability id="patron" icon={["info"]}>
+<Pair single id="patron">Patron</Pair>
+<Pair title="Info">A hedge witch's <Link to="/ability/patrons">patron</Link> is normally one with a <Link to="/patron/healing">healing</Link> theme.</Pair>
+</Ability>
+<Ability id="spontaneous-healing-su" icon={["magic-swirl"]}>
+<Pair single id="spontaneous-healing-su" flavor="A hedge witch can channel stored spell energy into healing spells that she did not prepare ahead of time.">Spontaneous Healing (Su)</Pair>
+<Pair hl title="Replaces">4th-level hex</Pair>
+<Pair title="Ability">The witch can "lose" any prepared spell that is not an orison in order to cast any <Link to="/main/cure_spells">cure spell</Link> of the same spell level or lower, even if she doesn't know that cure spell.</Pair>
+</Ability>
+<Ability id="empathic-healing-su" icon={["remedy"]}>
+<Pair single id="empathic-healing-su">Empathic Healing (Su)</Pair>
+<Pair hl title="Replaces">8th-level hex</Pair>
+<Pair title="Ability"><p>A hedge witch can minister to a diseased or poisoned target, redirecting the affliction into herself. For a poisoned target, the witch must tend to him as a <strong className="hl">standard action</strong>; he makes his next saving throw against the poison as normal, but the witch suffers the effects of the failed save instead of the poisoned creature.</p>
+<p>For a diseased target, the witch must tend to the sick person for an hour; he makes his next saving throw against the disease as normal, but the witch suffers the effects of the failed save instead of the diseased creature.</p>
+</Pair>
+<Pair title="Special">The witch does not actually become poisoned or diseased (and is not contagious and does not need to be cured), but suffers the effects of the affliction as if she had been. The witch normally uses this ability to extend the life of someone near death, giving him time to recover. This ability has no effect if the witch is immune to disease or poison.</Pair>
+</Ability>
+<p><strong className="hl">The following witch hexes complement this archetype:</strong> <Link to="/hex/cauldron">Cauldron</Link>, <Link to="/hex/feral_speech">feral speech</Link>, <Link to="/hex/healing">healing</Link>, <Link to="/hex/tongues">tongues</Link></p><p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/major_healing">Major healing</Link>, <Link to="/hex/weather_control">weather control</Link>, <Link to="/hex/witchs_brew">witch's brew</Link></p><p><strong className="hl">The following grand hex complements this archetype:</strong> <Link to="/hex/life_giver">Life giver</Link></p></>};
 const _herb_witch = {title: "Herb Witch", jsx: <><h2 id="arc-witch-herb_witch-herb-witch">Herb Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 89</Link>, <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 11</Link><br/>Some witches dedicate their lives to the mastery of herb lore. Herb witches brew foul-tasting medicines, sweet poisons, and other concoctions from the untamed plants of the wild.</p>
-<p><strong>Patron Spells:</strong> An herb witch must choose a patron with a theme compatible with the needs of the natural world, selected from the following list: <Link to="/patron/ancestors">ancestors</Link>, <Link to="/patron/animals">animals</Link>, <Link to="/patron/death">death</Link>, <Link to="/patron/elements">elements</Link>, <Link to="/patron/healing">healing</Link>, <Link to="/patron/plague">plague</Link>, <Link to="/patron/strength">strength</Link>, <Link to="/patron/time">time</Link>, <Link to="/patron/water">water</Link>, <Link to="/patron/winter">winter</Link>, <Link to="/patron/wisdom">wisdom</Link>, or <Link to="/patron/woodlands">woodlands</Link>.</p>
-<p>This alters the witch's <strong className="hl">patron spells</strong>.</p>
-<p><strong>Herb Lore (Ex):</strong> Herb witches are masters of herbalism, and they can use what they gather from garden or grove to duplicate many of the effects of alchemy. An herb witch can attempt Profession (herbalist) checks in place of Craft (alchemy) checks, and she gains a bonus on Profession (herbalist) checks equal to half her class level.</p>
-<p>Herb witches are adept at brewing thick herbal cure-alls called remedies. An herb witch prepares these remedies while communing with her familiar, during which she can prepare a number of remedies equal to 3 + her Intelligence modifier (minimum 1 remedy). A remedy becomes inert if it leaves the herb witch's possession, reactivating as soon as it returns to her keeping. A witch can never have more remedies than 3 + her Intelligence modifier.</p>
-<p>As a standard action, the herb witch can administer a remedy to herself or a creature within reach which consumes the remedy. The herb witch attempts a Profession (herbalist) check against the save DC of any one disease or poison currently afflicting the consumer. If she is successful, the affliction is suppressed for 1 minute. At 10th level, if she exceeds the DC of the check by 10 or more, the affliction immediately ends. If the disease or poison doesn't allow saving throws, the remedy is ineffective.</p>
-<p>An herb witch can also use a remedy to attempt to remove the blinded, deafened, fatigued, nauseated, sickened, and staggered conditions. This requires a Profession (herbalist) check with a DC equal to the spell or effect that caused the condition, or a DC 25 check if the condition was caused by an effect that doesn't allow a saving throw. If the herb witch succeeds, the condition is removed unless the condition is permanent; at 10th level, if the herb witch succeeds by 10 or more, her remedy can remove a permanent condition.</p>
-<p>Only a single condition, disease, or poison can be removed with each application of a remedy, and a creature can only benefit from one herbal remedy each day, whether or not the herb witch succeeds at her skill check.</p>
-<p>This replaces the <strong className="hl">hexes</strong> gained at 1st and 10th levels.</p>
-<p><strong>Hexes:</strong> An herb witch must select <Link to="/hex/cauldron">cauldron</Link> as her hex at 2nd level. The following witch hexes complement the herb witch archetype: <Link to="/hex/fortune">fortune</Link>, <Link to="/hex/healing">healing</Link>, <Link to="/hex/poison_steep">poison steep</Link>, <Link to="/hex/swamp_hag">swamp hag</Link>.</p>
-<p><strong>Major Hexes:</strong> The following major hexes complement the herb witch archetype: <Link to="/hex/major_healing">major healing</Link>, <Link to="/hex/weather_control">weather control</Link>, <Link to="/hex/witchs_brew">witch's brew</Link>.</p>
-<p><strong>Grand Hexes:</strong> The following grand hex complements the herb witch archetype: <Link to="/hex/life_giver">life giver</Link>.</p>
-</>};
+<Ability id="patron" icon={["info"]}>
+<Pair single id="patron">Patron</Pair>
+<Pair hl title="Alters">Patron</Pair>
+<Pair title="Info">An herb witch must choose a patron with a theme compatible with the needs of the natural world, selected from the following list: <Link to="/patron/ancestors">ancestors</Link>, <Link to="/patron/animals">animals</Link>, <Link to="/patron/death">death</Link>, <Link to="/patron/elements">elements</Link>, <Link to="/patron/healing">healing</Link>, <Link to="/patron/plague">plague</Link>, <Link to="/patron/strength">strength</Link>, <Link to="/patron/time">time</Link>, <Link to="/patron/water">water</Link>, <Link to="/patron/winter">winter</Link>, <Link to="/patron/wisdom">wisdom</Link>, or <Link to="/patron/woodlands">woodlands</Link>.</Pair>
+</Ability>
+<Ability id="herb-lore-ex" icon={["stairs-goal","upgrade"]}>
+<Pair single id="herb-lore-ex">Herb Lore (Ex)</Pair>
+<Pair hl title="Replaces">1st- and 10th-level hexes</Pair>
+<Pair title="Ability">Herb witches are masters of herbalism, and they can use what they gather from garden or grove to duplicate many of the effects of alchemy. An herb witch can attempt Profession (herbalist) checks in place of Craft (alchemy) checks, and she gains a bonus on Profession (herbalist) checks equal to half her class level.</Pair>
+<Pair title="Remedy"><p>Herb witches are adept at brewing thick herbal cure-alls called remedies. An herb witch prepares these remedies while communing with her familiar, during which she can prepare a number of remedies equal to 3 + her Intelligence modifier (minimum 1 remedy). A remedy becomes inert if it leaves the herb witch's possession, reactivating as soon as it returns to her keeping. A witch can never have more remedies than 3 + her Intelligence modifier.</p>
+<p>As a <strong className="hl">standard action</strong>, the herb witch can administer a remedy to herself or a creature within reach which consumes the remedy. The herb witch attempts a Profession (herbalist) check against the save DC of any one disease or poison currently afflicting the consumer. If she is successful, the affliction is suppressed for 1 minute.</p>
+<p>An herb witch can also use a remedy to attempt to remove the blinded, deafened, fatigued, nauseated, sickened, and staggered conditions. This requires a Profession (herbalist) check with a DC equal to the spell or effect that caused the condition, or a DC 25 check if the condition was caused by an effect that doesn't allow a saving throw. If the herb witch succeeds, the condition is removed unless the condition is permanent.</p>
+</Pair>
+<Pair title="At 10th Level">While attempting to remedy a disease or poison, if she exceeds the DC of the check by 10 or more, the affliction immediately ends. While attempting to remedy a condition, if the herb witch succeeds by 10 or more, she can remove a permanent condition.</Pair>
+<Pair title="Special">If the disease or poison doesn't allow saving throws, the remedy is ineffective. Only a single condition, disease, or poison can be removed with each application of a remedy, and a creature can only benefit from one herbal remedy each day, whether or not the herb witch succeeds at her skill check.</Pair>
+</Ability>
+<Ability id="hexes" icon={["info"]}>
+<Pair single id="hexes">Hexes</Pair>
+<Pair title="Info">An herb witch must select <Link to="/hex/cauldron">cauldron</Link> as her hex at 2nd level.</Pair>
+</Ability>
+<p><strong className="hl">The following witch hexes complement complement this archetype:</strong> <Link to="/hex/fortune">Fortune</Link>, <Link to="/hex/healing">healing</Link>, <Link to="/hex/poison_steep">poison steep</Link>, <Link to="/hex/swamp_hag">swamp hag</Link></p><p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/major_healing">Major healing</Link>, <Link to="/hex/weather_control">weather control</Link>, <Link to="/hex/witchs_brew">witch's brew</Link></p><p><strong className="hl">The following grand hex complements this archetype:</strong> <Link to="/hex/life_giver">Life giver</Link></p></>};
 const _hex_channeler = {title: "Hex Channeler", jsx: <><h2 id="arc-witch-hex_channeler-hex-channeler">Hex Channeler</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 132</Link><br/>A hex channeler is a witch who devotes herself to either life - healing the wounded and destroying the undead - or death, slaying the living and aiding undead.</p>
-<p><strong>Channel Energy (Su):</strong> At 2nd level, a hex channeler can call upon her patron to release a <Link to="/ability/channel_energy">wave of energy</Link> from herself or her familiar. A good witch channels positive energy (like a good cleric), and an evil witch channels negative energy (like an evil cleric). A witch who is neither good nor evil must choose whether she channels positive or negative energy; once this choice is made, it cannot be reversed.</p>
-<p>Channeling energy causes a <Link to="/misc/burst">burst</Link> that affects all creatures of one type (either undead or living) in a 30-foot radius centered on the witch. The witch can channel energy a number of times per day equal to 3 + her Charisma modifier (minimum 1). This otherwise functions as a cleric using channel energy, except the witch does not require a holy symbol to use this ability. The hex channeler uses her witch level as her cleric level for all other effects dependent upon channel energy (except increasing the amount of damage healed or dealt). The hex channeler can choose whether or not to include herself or her familiar in this effect.</p>
-<p>This burst heals or deals 1d6 points of damage. Every time the hex channeler is able to learn a new hex (including major or grand hexes, but not hexes gained through the <Link to="/feat/extra_hex">Extra Hex</Link> feat), she can instead increase her channel energy amount by 1d6.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 2nd level.</p>
-<p><strong>Hexes:</strong> The following witch hexes complement the hex channeler archetype: <Link to="/hex/blight">blight</Link>, <Link to="/hex/healing">healing</Link>, <Link to="/hex/poison_steep">poison steep</Link>, and <Link to="/hex/ward">ward</Link>.</p>
-<p><strong>Major Hexes:</strong> The following major hexes complement the hex channeler archetype: <Link to="/hex/agony">agony</Link>, <Link to="/hex/cook_people">cook people</Link>, <Link to="/hex/infected_wounds">infected wounds</Link>, <Link to="/hex/major_healing">major healing</Link>, and <Link to="/hex/retribution">retribution</Link>.</p>
-<p><strong>Grand Hexes:</strong> The following grand hexes complement the hex channeler archetype: <Link to="/hex/death_curse">death curse</Link>, <Link to="/hex/dire_prophecy">dire prophecy</Link>, <Link to="/hex/life_giver">life giver</Link>, and <Link to="/hex/summon_spirit">summon spirit</Link>.</p>
-</>};
+<Ability id="channel-energy-su" icon={["aura"]}>
+<Pair single id="channel-energy-su">Channel Energy (Su)</Pair>
+<Pair hl title="Replaces">2nd-level hex</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day (minimum 1)</Pair>
+<Pair title="Ability"><p>A hex channeler can call upon her patron to release a wave of energy from herself or her familiar. A good witch channels positive energy (like a good cleric), and an evil witch channels negative energy (like an evil cleric). A witch who is neither good nor evil must choose whether she channels positive or negative energy; once this choice is made, it cannot be reversed.</p>
+<p><em>Channeling energy</em> causes a <Link to="/misc/burst">burst</Link> that affects all creatures of one type (either undead or living) in a 30-foot radius centered on the witch. This otherwise functions as a cleric using <Link to="/ability/channel_energy">channel energy</Link>, except the witch does not require a holy symbol to use this ability. The hex channeler uses her witch level as her cleric level for all other effects dependent upon <em>channel energy</em> (except increasing the amount of damage healed or dealt). The hex channeler can choose whether or not to include herself or her familiar in this effect.</p>
+</Pair>
+<Pair title="Special">This burst heals or deals 1d6 points of damage. Every time the hex channeler is able to learn a new hex (including <em>major</em> or <em>grand hexes,</em> but not hexes gained through the <Link to="/feat/extra_hex">Extra Hex</Link> feat), she can instead increase her channel energy amount by 1d6.</Pair>
+</Ability>
+<p><strong className="hl">The following witch hexes complement this archetype:</strong> <Link to="/hex/blight">Blight</Link>, <Link to="/hex/healing">healing</Link>, <Link to="/hex/poison_steep">poison steep</Link>, <Link to="/hex/ward">ward</Link></p><p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/agony">Agony</Link>, <Link to="/hex/cook_people">cook people</Link>, <Link to="/hex/infected_wounds">infected wounds</Link>, <Link to="/hex/major_healing">major healing</Link>, <Link to="/hex/retribution">retribution</Link></p><p><strong className="hl">The following grand hexes complement this archetype:</strong> <Link to="/hex/death_curse">Death curse</Link>, <Link to="/hex/dire_prophecy">dire prophecy</Link>, <Link to="/hex/life_giver">life giver</Link>, <Link to="/hex/summon_spirit">summon spirit</Link></p></>};
 const _invoker = {title: "Invoker", jsx: <><h2 id="arc-witch-invoker-invoker">Invoker</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 14</Link><br/>The invoker uses her familiar to summon facets of her mysterious patron directly into her body, enhancing her skills and granting her powerful abilities. Whether these spiritual enhancements come from a single entity or a host of spiritual forces associated with the witch's patron can vary, and in many cases, a particular invoker never learns the truth of this matter.</p>
-<p><strong>Invoke Patron (Su):</strong> At 1st level, an invoker can invite spirits associated with her <Link to="/ability/patrons">patron's</Link> themes into her body and mind as a swift action. This functions like a hunter's <Link to="/ability/animal_focus">animal focus</Link>, except she emulates facets of her patron, chosen from the list below. The invoker can use this ability for a number of minutes per day equal to her level; this duration need not be consecutive, but it must be spent in 1-minute increments.</p>
-<p>This replaces the witch's 1st-, 8th-, and 16th-level <strong className="hl">hexes</strong>.</p>
-<blockquote className="hanging">
-<p><strong>Bondage:</strong> The invoker gains a +2 enhancement bonus to her Strength. This bonus increases to +4 at 8th level and +6 at 16th level.</p>
-<p><strong>Bridge:</strong> The invoker treats other creatures as if their damage reduction and spell resistance were 2 lower. This increases to 5 lower at 8th level and 10 lower at 16th level.</p>
-<p><strong>Crisis:</strong> The invoker gains a +2 enhancement bonus to her Constitution. This bonus increases to +4 at 8th level and +6 at 16th level.</p>
-<p><strong>Curiosity:</strong> The DCs of the invoker's hexes and patron spells increase by 1. These DCs increase by an additional 1 at 8th level and 16th level.</p>
-<p><strong>Decisions:</strong> The invoker gains a +2 enhancement bonus to Dexterity. This bonus increases to +4 at 8th level and +6 at 16th level.</p>
-<p><strong>Fortune:</strong> The invoker gains a +1 resistance bonus on saving throws. This bonus increases to +3 at 8th level and +5 at 16th level.</p>
-<p><strong>Paradise:</strong> The invoker gains a +3 competence bonus on Acrobatics checks and <Link to="/rule/concentration">concentration</Link> checks. This bonus increases to +6 at 8th level and +9 at 16th level.</p>
-<p><strong>Rapture:</strong> The invoker can increase the duration of any spell she casts on herself by 1 round. This applies only to spells with a duration other than instantaneous. This increases to 2 rounds at 8th level and 3 rounds at 16th level.</p>
-<p><strong>Reckoning:</strong> The invoker adds an insight bonus on damage rolls from attacks made with spells and natural attacks, gaining 1 point of damage per die rolled. At 8th level, the invoker gains a +4 bonus to confirm critical hits threatened with spells and natural attacks. At 16th level, the critical threat range of the invoker's spells and natural attacks doubles, as if from <Link to="/feat/improved_critical">Improved Critical</Link>.</p>
-<p><strong>Revelation:</strong> The invoker gains a +1 insight bonus on attack rolls made with weapons. This bonus increases to +2 at 8th level and +3 at 16th level.</p>
-</blockquote>
-<p><strong>Second Invocation (Su):</strong> At 10th level, whenever an invoker uses her invoke patron ability, she selects two different facets of her patron for herself instead of one. Otherwise, this functions like a hunter's second animal focus ability.</p>
-<p>This ability replaces the witch's 10th-level <strong className="hl">hex</strong>.</p>
+<Ability id="invoke-patron-su" icon={["stairs-goal"]}>
+<Pair single id="invoke-patron-su">Invoke Patron (Su)</Pair>
+<Pair hl title="Replaces">1st-, 8th- and 16th-level hexes</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">1 minute/day per witch level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Swift Action">An invoker can invite spirits associated with her <Link to="/ability/patrons">patron's</Link> themes into her body and mind. This functions like a hunter's <Link to="/ability/animal_focus">animal focus</Link>, except she emulates facets of her patron, chosen from the list below.</Pair>
+</Ability>
+<Ability id="bondage" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Pair single id="bondage">Bondage</Pair>
+<Pair title="Passive Ability">The invoker gains a +2 enhancement bonus to her Strength.</Pair>
+<Pair title="At 8th Level">This bonus increases to +4.</Pair>
+<Pair title="At 16th Level">This bonus increases to +6.</Pair>
+</Ability>
+<Ability id="bridge" extraClasses="subAbility numbered" icon={["armor-downgrade"]}>
+<Pair single id="bridge">Bridge</Pair>
+<Pair title="Passive Ability">The invoker treats other creatures as if their damage reduction and spell resistance were 2 lower.</Pair>
+<Pair title="At 8th Level">DR and SR are now 5 lower.</Pair>
+<Pair title="At 16th Level">DR and SR are now 10 lower.</Pair>
+</Ability>
+<Ability id="crisis" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Pair single id="crisis">Crisis</Pair>
+<Pair title="Passive Ability">The invoker gains a +2 enhancement bonus to her Constitution.</Pair>
+<Pair title="At 8th Level">This bonus increases to +4.</Pair>
+<Pair title="At 16th Level">This bonus increases to +6.</Pair>
+</Ability>
+<Ability id="curiosity" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Pair single id="curiosity">Curiosity</Pair>
+<Pair title="Passive Ability">The DCs of the invoker's hexes and patron spells increase by 1.</Pair>
+<Pair title="At 8th Level">The DCs now increase by 2.</Pair>
+<Pair title="At 16th Level">The DCs now increase by 3.</Pair>
+</Ability>
+<Ability id="decisions" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Pair single id="decisions">Decisions</Pair>
+<Pair title="Passive Ability">The invoker gains a +2 enhancement bonus to Dexterity.</Pair>
+<Pair title="At 8th Level">This bonus increases to +4.</Pair>
+<Pair title="At 16th Level">This bonus increases to +6.</Pair>
+</Ability>
+<Ability id="fortune" extraClasses="subAbility numbered" icon={["armor-upgrade"]}>
+<Pair single id="fortune">Fortune</Pair>
+<Pair title="Passive Ability">The invoker gains a +1 resistance bonus on saving throws.</Pair>
+<Pair title="At 8th Level">This bonus increases to +3.</Pair>
+<Pair title="At 16th Level">This bonus increases to +5.</Pair>
+</Ability>
+<Ability id="paradise" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Pair single id="paradise">Paradise</Pair>
+<Pair title="Passive Ability">The invoker gains a +3 competence bonus on Acrobatics checks and <Link to="/rule/concentration">concentration</Link> checks.</Pair>
+<Pair title="At 8th Level">This bonus increases to +6.</Pair>
+<Pair title="At 16th Level">This bonus increases to +9.</Pair>
+</Ability>
+<Ability id="rapture" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Pair single id="rapture">Rapture</Pair>
+<Pair title="Passive Ability">The invoker can increase the duration of any spell she casts on herself by 1 round. This applies only to spells with a duration other than instantaneous.</Pair>
+<Pair title="At 8th Level">This increases to 2 rounds.</Pair>
+<Pair title="At 16th Level">This increases to 3 rounds.</Pair>
+</Ability>
+<Ability id="reckoning" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Pair single id="reckoning">Reckoning</Pair>
+<Pair title="Passive Ability">The invoker adds an insight bonus on damage rolls from attacks made with spells and natural attacks, gaining 1 point of damage per die rolled.</Pair>
+<Pair title="At 8th Level">The invoker gains a +4 bonus to confirm critical hits threatened with spells and natural attacks.</Pair>
+<Pair title="At 16th Level">The critical threat range of the invoker's spells and natural attacks doubles, as if from <Link to="/feat/improved_critical">Improved Critical</Link>.</Pair>
+</Ability>
+<Ability id="revelation" extraClasses="subAbility numbered" icon={["upgrade"]}>
+<Pair single id="revelation">Revelation</Pair>
+<Pair title="Passive Ability">The invoker gains a +1 insight bonus on attack rolls made with weapons.</Pair>
+<Pair title="At 8th Level">This bonus increases to +2.</Pair>
+<Pair title="At 16th Level">This bonus increases to +3.</Pair>
+</Ability>
+<Ability id="second-invocation-su" icon={["upgrade"]}>
+<Pair single id="second-invocation-su">Second Invocation (Su)</Pair>
+<Pair hl title="Replaces">10th-level hex</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">Whenever an invoker uses her <em>invoke patron</em> ability, she selects two different facets of her patron for herself instead of one. Otherwise, this functions like a hunter's <em>second animal focus</em> ability.</Pair>
+</Ability>
 </>};
 const _jinx_witch = {title: "Jinx Witch", jsx: <><h2 id="arc-witch-jinx_witch-jinx-witch">Jinx Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 25</Link><br/>The common perception of tengus as good luck charms has its roots in the first great empire to unify Tian Xia 7,000 years ago, when tengus were superstitious and skittish folk inhabiting the continent's central mountain ranges. Jinx witches specialize in calling down subtle misfortunes and deceiving enemies and allies alike. While they lack any ability to truly eliminate bad luck, they are uniquely gifted at making others believe otherwise. Many of these ancient traditions have been forgotten as tengus spread across the world and assimilated into other cultures, but a rare few tengus still practice this curious art of misdirection and dealing in ill fortune. A jinx witch's patron is normally <Link to="/patron/deception">Deception</Link>, <Link to="/patron/shadow">Shadow</Link>, or <Link to="/patron/trickery">Trickery</Link>.</p>
 <Ability icon={["skills"]} id="undefined">
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair></Ability>
-<p><strong>Spell Awareness (Ex):</strong> A jinx witch is skilled at identifying hostile spells and effects that target her. She adds 1/2 her witch level to Spellcraft checks to identify spells being cast if she is targeted by the spell.</p>
-<p><strong>Jinx-Eating (Su):</strong> At 2nd level, a jinx witch learns to absorb (or "eat") antagonistic magical effects targeting her. If a jinx witch succeeds at a Will or Fortitude saving throw that negates a hostile spell effect, she can consume the spell energy as an immediate action. The witch treats her caster level as 1 higher when casting the next prepared spell she casts after eating a jinx in this manner. If the spell cast is of the same school as the eaten spell, the witch instead treats her caster level as 2 higher. A jinx witch can store only one eaten spell at a time, and can use this ability a number of times each day equal to 3 + her Intelligence modifier. If the jinx witch uses this ability to eat a spell that targets more than one creature or that creates an area of effect, it uses 2 of her daily uses of the ability and all other targets or creatures in the area of effect receive a +2 bonus on their respective saving throws. If the jinx witch does not use the bonus provided by an eaten spell within 1 hour, the stored energy dissipates harmlessly.</p>
-<p>This ability replaces the witch's <strong className="hl">hex</strong> normally gained at 2nd level.</p>
-<p><strong>Jinx-Gorging (Su):</strong> At 6th level, when the jinx witch applies a bonus from a spell consumed with her jinx-eating ability to a spell of the same school as the eaten spell, and of the same or lower spell level, she does not expend the prepared spell slot. She cannot affect the spell with metamagic or other effects that would change its effective spell level.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> normally gained at 6th level.</p>
-<p><strong>Jinx-Feast (Su):</strong> At 10th level, when the jinx witch uses her jinx-eating ability, she also gains the ability to cast the eaten spell as a spell-like ability, using her witch level as her caster level and her Intelligence modifier to determine the spell-like ability's saving throw DC. If the eaten spell is not on her spell list or is of a spell level higher than the witch is capable of casting herself, she must succeed at a <Link to="/rule/concentration">concentration</Link> check (DC = 20 + the spell's level) in order to cast it; failing this check results in the loss of the spell-like ability with no effect.</p>
-<p>This ability replaces the major <strong className="hl">hex</strong> gained at 10th level.</p>
-<p><strong>Hexes:</strong> The following witch hexes complement the jinx witch archetype: <Link to="/hex/beast_of_ill_omen">beast of ill omen</Link>, <Link to="/hex/evil_eye">evil eye</Link>, <Link to="/hex/fortune">fortune</Link>, and <Link to="/hex/misfortune">misfortune</Link>.</p>
-<p><strong>Major Hexes:</strong> The following major hexes complement the jinx witch archetype: <Link to="/hex/hags_eye">hag's eye</Link>, <Link to="/hex/retribution">retribution</Link>, and <Link to="/hex/waxen_image">waxen image</Link>.</p>
-<p><strong>Grand Hexes:</strong> The following grand hexes complement the jinx witch archetype: <Link to="/hex/death_curse">death curse</Link>, <Link to="/hex/dire_prophecy">dire prophecy</Link>, and <Link to="/hex/natural_disaster">natural disaster</Link>.</p>
-</>};
+<Ability id="spell-awareness-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="spell-awareness-ex" flavor="A jinx witch is skilled at identifying hostile spells and effects that target her.">Spell Awareness (Ex)</Pair>
+<Pair title="Passive Ability">She adds 1/2 her witch level to Spellcraft checks to identify spells being cast if she is targeted by the spell.</Pair>
+</Ability>
+<Ability id="jinx-eating-su" icon={["stairs-goal","upgrade"]}>
+<Pair single id="jinx-eating-su" flavor="A jinx witch learns to absorb (or &quot;eat&quot;) antagonistic magical effects targeting her.">Jinx-Eating (Su)</Pair>
+<Pair hl title="Replaces">Hex normally gained at 2nd level</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Usage">3 + Intelligence modifier times/day</Pair>
+<Pair title="Immediate Action">If a jinx witch succeeds at a Will or Fortitude saving throw that negates a hostile spell effect, she can consume the spell energy.</Pair>
+<Pair title="Ability">The witch treats her caster level as 1 higher when casting the next prepared spell she casts after eating a jinx in this manner. If the spell cast is of the same school as the eaten spell, the witch instead treats her caster level as 2 higher. A jinx witch can store only one eaten spell at a time.</Pair>
+<Pair title="Special">If the jinx witch uses this ability to eat a spell that targets more than one creature or that creates an area of effect, it uses 2 of her daily uses of the ability and all other targets or creatures in the area of effect receive a +2 bonus on their respective saving throws. If the jinx witch does not use the bonus provided by an eaten spell within 1 hour, the stored energy dissipates harmlessly.</Pair>
+</Ability>
+<Ability id="jinx-gorging-su" icon={["upgrade"]}>
+<Pair single id="jinx-gorging-su">Jinx-Gorging (Su)</Pair>
+<Pair hl title="Replaces">Hex normally gained at 6th level</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">When the jinx witch applies a bonus from a spell consumed with her <em>jinx-eating</em> ability to a spell of the same school as the eaten spell, and of the same or lower spell level, she does not expend the prepared spell slot.</Pair>
+<Pair title="Special">She cannot affect the spell with metamagic or other effects that would change its effective spell level.</Pair>
+</Ability>
+<Ability id="jinx-feast-su" icon={["magic-swirl"]}>
+<Pair single id="jinx-feast-su">Jinx-Feast (Su)</Pair>
+<Pair hl title="Replaces">10th-level hex</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">When the jinx witch uses her <em>jinx-eating</em> ability, she also gains the ability to cast the eaten spell as a spell-like ability, using her witch level as her caster level and her Intelligence modifier to determine the spell-like ability's saving throw DC.</Pair>
+<Pair title="Special">If the eaten spell is not on her spell list or is of a spell level higher than the witch is capable of casting herself, she must succeed at a <Link to="/rule/concentration">concentration</Link> check (DC = 20 + the spell's level) in order to cast it; failing this check results in the loss of the spell-like ability with no effect.</Pair>
+</Ability>
+<p><strong className="hl">The following witch hexes complement this archetype:</strong> <Link to="/hex/beast_of_ill_omen">Beast of ill omen</Link>, <Link to="/hex/evil_eye">evil eye</Link>, <Link to="/hex/fortune">fortune</Link>, <Link to="/hex/misfortune">misfortune</Link></p><p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/hags_eye">Hag's eye</Link>, <Link to="/hex/retribution">retribution</Link>, <Link to="/hex/waxen_image">waxen image</Link></p><p><strong className="hl">The following grand hexes complement this archetype:</strong> <Link to="/hex/death_curse">Death curse</Link>, <Link to="/hex/dire_prophecy">dire prophecy</Link>, <Link to="/hex/natural_disaster">natural disaster</Link></p></>};
 const _ley_line_guardian = {title: "Ley Line Guardian", jsx: <><h2 id="arc-witch-ley_line_guardian-ley-line-guardian">Ley Line Guardian</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 125</Link><br/>Some witches tap into the power of their patrons not through a special connection with a familiar, but rather directly through the vast network of ley lines that crosses the planes. These witches can harness the latent powers of ley lines without even needing to be near one of the points where ley lines' powers are accessible to mortal spellcasters.</p>
-<p><strong>Ley Line Powered:</strong> Instead of preparing her spells, a ley line guardian draws the power casting spells directly from ley lines. A ley line guardian is a spontaneous spellcaster. She knows the same number of spells and receives the same number of spell slots per day as a <Link to="/class/sorcerer">sorcerer</Link> of her witch level. Bonus spells granted by a ley line guardian's patron are added to the ley line guardian's total spells known at the appropriate levels.</p>
-<p>This ability alters the witch's <strong className="hl">spellcasting</strong>.</p>
-<p><strong>Conduit Surge (Su):</strong> At 1st level, a ley line guardian is adept at channeling energy from ley lines to enhance her own spells. As a swift action, she can increase her effective caster level for the next spell she casts in that round by 1d4-1 levels. After performing a conduit surge, the ley line guardian must succeed at a Fortitude save (DC = 10 + level of spell cast + number of additional caster levels granted) or become staggered for a number of minutes equal to the level of the spell cast. At 8th level, the caster level increase becomes 1d4. She can use this ability a number of times per day equal to 3 + her Charisma modifier.</p>
-<p>This ability replaces <strong className="hl">familiar</strong> and the <strong className="hl">hexes</strong> gained at 1st and 8th levels.</p>
+<Ability id="ley-line-powered" icon={["info","magic-swirl"]}>
+<Pair single id="ley-line-powered">Ley Line Powered</Pair>
+<Pair hl title="Alters">Spellcasting</Pair>
+<Pair title="Info">Instead of preparing her spells, a ley line guardian draws the power casting spells directly from ley lines. A ley line guardian is a spontaneous spellcaster. She knows the same number of spells and receives the same number of spell slots per day as a <Link to="/class/sorcerer">sorcerer</Link> of her witch level. Bonus spells granted by a ley line guardian's patron are added to the ley line guardian's total spells known at the appropriate levels.</Pair>
+</Ability>
+<Ability id="conduit-surge-su" icon={["upgrade"]}>
+<Pair single id="conduit-surge-su" flavor="A ley line guardian is adept at channeling energy from ley lines to enhance her own spells.">Conduit Surge (Su)</Pair>
+<Pair hl title="Replaces">Familiar, 1st- and 8th-level hexes</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Swift Action">She can increase her effective caster level for the next spell she casts in that round by 1d4-1 levels. After performing a <em>conduit surge,</em> the ley line guardian must succeed at a Fortitude save (DC = 10 + level of spell cast + number of additional caster levels granted) or become <Link to="/misc/staggered">staggered</Link> for a number of minutes equal to the level of the spell cast.</Pair>
+<Pair title="At 8th Level">The caster level increase becomes 1d4.</Pair>
+</Ability>
 </>};
 const _medium = {title: "Medium", jsx: <><h2 id="arc-witch-medium-medium">Medium</h2>
+<blockquote>
+<p><em><strong>Note:</strong> This is a witch archetype, and has no relation to the <Link to="/class/medium">medium</Link> occult class.</em></p>
+</blockquote>
 <p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 20</Link><br/>Mediums tap into the spiritual power of those who have yet to find their final rest. Their ability to interact with these souls allows mediums to learn about the physical world through the experiences of those who came before them. Eventually, mediums of immeasurable power learn to walk alongside the very souls that haunt their dreams and visions.</p>
-<p><strong>Patron:</strong> A medium has a limited choice of patrons, and must select one of the following themes: <Link to="/patron/ancestors">ancestors</Link>, <Link to="/patron/death">death</Link>, <Link to="/patron/occult">occult</Link>, or <Link to="/patron/spirits">spirits</Link>.</p>
-<p><strong>Ectoplasmic Aptitude (Su):</strong> At 2nd level, the medium can sling spells at ghosts and spirits as surely as at corporeal foes. She gains the <Link to="/feat/ectoplasmic_spell">Ectoplasmic Spell</Link> metamagic feat as a bonus feat. In addition, as an immediate action a number of times per day equal to her Intelligence modifier, the medium can apply the Ectoplasmic Spell feat to any spell she is casting without increasing its spell level.</p>
-<p>This ability replaces the witch's <strong className="hl">hex</strong> gained at 2nd level.</p>
-<p><strong>Shared Subconscious (Su):</strong> At 6th level, a medium can temporarily link her subconscious to that of an undead creature in order to gain preternatural knowledge. As long as the medium is within 100 feet of an intelligent undead creature, as a swift action she can target said creature and attempt any trained Knowledge check. If the target has ranks in the same Knowledge skill, it also attempts the Knowledge check (if it doesn't have ranks, this effect fails). If the target's result is higher than the medium's, the medium may choose to use the undead creature's Knowledge result instead of her own, learning any information the undead creature has about the subject in question. This ability does not allow a medium to attempt a previously failed Knowledge check again.</p>
-<p>This replaces the witch's <strong className="hl">hex</strong> gained at 6th level.</p>
-<p><strong>Soul Walker (Ex):</strong> At 20th level, a medium can drift into the spirit world, becoming incorporeal for 1 minute per class level. When she does so, the medium gains the incorporeal subtype, taking only half damage from corporeal magical attacks and no damage from nonmagical weapons and objects. Her spells deal only half damage to corporeal creatures, but spells and abilities that do not deal damage function normally. The duration of this ability need not be continuous, but it must be used in 1-minute increments.</p>
-<p>This replaces the witch's <strong className="hl">hex</strong> gained at 20th level.</p>
-<p><strong>Hexes:</strong> The following witch hexes complement the medium archetype: <Link to="/hex/charm">charm</Link>, <Link to="/hex/healing">healing</Link>, <Link to="/hex/scar">scar</Link>, <Link to="/hex/tongues">tongues</Link>, <Link to="/hex/ward">ward</Link>.</p>
-<p><strong>Major Hexes:</strong> The following major hexes complement the medium archetype: <Link to="/hex/speak_in_dreams">speak in dreams</Link>, <Link to="/hex/vision">vision</Link>.</p>
-<p><strong>Grand Hexes:</strong> The following grand hex complements the medium archetype: <Link to="/hex/summon_spirit">summon spirit</Link>.</p>
-</>};
+<Ability id="patron" icon={["broken-shield"]}>
+<Pair single id="patron">Patron</Pair>
+<Pair title="Choice">A medium has a limited choice of patrons, and must select one of the following themes: <Link to="/patron/ancestors">ancestors</Link>, <Link to="/patron/death">death</Link>, <Link to="/patron/occult">occult</Link>, or <Link to="/patron/spirits">spirits</Link>.</Pair>
+</Ability>
+<Ability id="ectoplasmic-aptitude-su" icon={["stairs-goal","upgrade"]}>
+<Pair single id="ectoplasmic-aptitude-su" flavor="The medium can sling spells at ghosts and spirits as surely as at corporeal foes.">Ectoplasmic Aptitude (Su)</Pair>
+<Pair hl title="Replaces">2nd-level hex</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">She gains the <Link to="/feat/ectoplasmic_spell">Ectoplasmic Spell</Link> metamagic feat as a bonus feat.</Pair>
+<Pair title="Immediate Action">The medium can apply the Ectoplasmic Spell feat to any spell she is casting without increasing its spell level.</Pair>
+<Pair title="Usage">Intelligence modifier times/day</Pair>
+</Ability>
+<Ability id="shared-subconscious-su" icon={["upgrade"]}>
+<Pair single id="shared-subconscious-su" flavor="A medium can temporarily link her subconscious to that of an undead creature in order to gain preternatural knowledge.">Shared Subconscious (Su)</Pair>
+<Pair hl title="Replaces">6th-level hex</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Swift Action">As long as the medium is within 100 feet of an intelligent undead creature, she can target said creature and attempt any trained Knowledge check. If the target has ranks in the same Knowledge skill, it also attempts the Knowledge check (if it doesn't have ranks, this effect fails). If the target's result is higher than the medium's, the medium may choose to use the undead creature's Knowledge result instead of her own, learning any information the undead creature has about the subject in question.</Pair>
+<Pair title="Special">This ability does not allow a medium to attempt a previously failed Knowledge check again.</Pair>
+</Ability>
+<Ability id="soul-walker-ex" icon={["stairs-goal"]}>
+<Pair single id="soul-walker-ex">Soul Walker (Ex)</Pair>
+<Pair hl title="Replaces">20th-level hex</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Usage">1 minute/day per witch level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Ability">A medium can drift into the spirit world, becoming incorporeal. When she does so, the medium gains the <Link to="/subtype/incorporeal">incorporeal</Link> subtype, taking only half damage from corporeal magical attacks and no damage from nonmagical weapons and objects. Her spells deal only half damage to corporeal creatures, but spells and abilities that do not deal damage function normally.</Pair>
+</Ability>
+<p><strong className="hl">The following witch hexes complement this archetype:</strong> <Link to="/hex/charm">Charm</Link>, <Link to="/hex/healing">healing</Link>, <Link to="/hex/scar">scar</Link>, <Link to="/hex/tongues">tongues</Link>, <Link to="/hex/ward">ward</Link></p><p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/speak_in_dreams">Speak in dreams</Link>, <Link to="/hex/vision">vision</Link></p><p><strong className="hl">The following grand hex complements this archetype:</strong> <Link to="/hex/summon_spirit">Summon spirit</Link></p></>};
 const _mirror_witch = {hasJL:true,title: "Mirror Witch", jsx: <><div className="jumpList" id="arc-witch-mirror_witch-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arc-witch-mirror_witch-patron-mirror">Patron Mirror</InnerLink></li></ul></div><h2 id="arc-witch-mirror_witch-mirror-witch">Mirror Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 152</Link><br/>After being locked away and denied her former familiar, the queen learned to talk to her patron via mirror magic.</p>
 <p><strong>Patron Mirror (Su):</strong> At 1st level, a mirror witch creates a direct link to the power of her patron. She chooses a patron as normal, but instead of gaining a familiar that serves as the conduit to her patron, she uses a mirror (worth at least 10 gp) to speak to a fragment of her patron's power. This fragment teaches her magic and acts as a counselor.</p>
