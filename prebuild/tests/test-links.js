@@ -9,9 +9,9 @@ const [ , source ] = sources;
 const checkForMalformedLinks = (line) => {
 	let m;
 	// 1: what follows isn't a ‹‹verbatim/link››
-	if(m = line.match(/‹‹(?![^‹›/]+[/][^‹›/]+››)/)) {
+	if(m = line.match(/‹‹(?![^‹›/]+[/][^‹›]+››)/)) {
 		return `Malformed ‹‹verbatim/link››: ${m[0]}\n\t\t => "${line}"`;
-	} else if(m = line.match(/‹‹[^‹›/]+[/][^‹›/]+››/)) {
+	} else if(m = line.match(/‹‹[^‹›/]+[/][^‹›]+››/)) {
 		return; //correctly formed; ignore
 	}
 	// 1: what follows isn't a ‹valid/link›

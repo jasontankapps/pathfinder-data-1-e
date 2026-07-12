@@ -680,7 +680,7 @@ const makeAbilityBlock = ({
 				const spells = bit.split("~").map(line => {
 					const [text, extra] = line.split("|");
 					const test = convertTextToLink(text);
-					if(!isALink("spell", convertTextToLink(text))) {
+					if(!isALink("spell", test)) {
 						logError(`Unable to parse [${line}] as a valid spell`);
 						return "[ERROR]";
 					}
