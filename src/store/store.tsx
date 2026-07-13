@@ -463,7 +463,7 @@ const migrations = {
 			displayTable
 		};
 	},
-	23: (state: any) => {
+	24: (state: any) => {
 		const {displayTable: dt, ...unchangedState} = state;
 		const displayTable = {...dt};
 		// Remove info regarding adjusted tables
@@ -471,7 +471,8 @@ const migrations = {
 			"cavalier", "bloodrager", "fighter", "occultist",
 			"paladin", "skald", "slayer", "swashbuckler",
 			"vigilante", "cleric", "druid", "warpriest",
-			"shifter", "magus", "brawler", "rogue", "monk"
+			"shifter", "magus", "brawler", "rogue", "monk",
+			"wizard"
 		];
 		tables.forEach(xid => {
 			const id = xid + " archetypes";
@@ -498,7 +499,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<InitialAppState> = {
 	key: 'root-pf-data',
-	version: 23,
+	version: 24,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),

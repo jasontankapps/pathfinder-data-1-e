@@ -1,20 +1,4 @@
 {
-	"absalom_arcanamirium_crafter": {
-		"name": "Absalom: Arcanamirium Crafter",
-		"sources": [ "Inner Sea Primer" ],
-		"description": [
-			"## Absalom: Arcanamirium Crafter",
-			"",
-			"‹SOURCE Inner Sea Primer/28›  ",
-			"The most famous magical college of the Inner Sea region, the Arcanamirium of Absalom teaches a broad array of specialties, but its most intensive specialty is no specialization at all. It is one of the primary training academies of universalist magic on Golarion, and the wizards who graduate from the school become well respected, well paid, and highly sought-after in their homelands. An Arcanamirium crafter is one of the builders of the arcane world, assembling magic items with facility, skill, and power. He is intimately familiar with the craft and practice of imbuing items with arcane power, and works with precision even early in his career to help create some of the most powerful magic items of Golarion.",
-			"",
-			"**Associated School:** ‹arcaneschool/Universalist›.",
-			"",
-			"**Replacement Power:** The following school power replaces the hand of the apprentice power of the universalist school.",
-			"",
-			">**Metacharge (Ex):** As an Arcanamirium crafter, you gain a bonus feat at 3rd level, which must be an ‹main/item creation feat› or ‹main/metamagic feat›. You must still meet all prerequisites for a bonus feat, including caster level minimums. When using metamagic feats to create magic items, your skill and understanding of the principles involved in the item's creation give you a +2 bonus on the skill check made to create the item."
-		]
-	},
 	"arcane_bomber": {
 		"name": "Arcane Bomber",
 		"sources": [ "Ultimate Combat" ],
@@ -113,32 +97,6 @@
 			"**Reshape Bond (Sp):** At 10th level, a bonded wizard can repair her bonded item or turn it into another object once per day as a full-round action. Transforming it functions as ‹spell/polymorph any object›, but does not alter the item's magical properties (including its item slot), while repairing it functions as ‹spell/make whole›. The wizard may also sacrifice a prepared spell in order to repair an additional 1d6 points of damage per level of the sacrificed spell.",
 			"",
 			"This replaces the wizard's @HL[bonus feat] normally gained at 10th level."
-		]
-	},
-	"cheliax_egorian_academy_infernal_binder": {
-		"name": "Cheliax: Egorian Academy Infernal Binder",
-		"sources": [ "Inner Sea Primer" ],
-		"description": [
-			"## Cheliax: Egorian Academy Infernal Binder",
-			"",
-			"‹SOURCE Inner Sea Primer/29›  ",
-			"The prestigious Egorian Academy of the Magical Arts in Cheliax's capital city teaches a full spectrum of magic, both specialized and universalist, but the college is best known for its Infernal Binding program in the school of conjuration. An infernal binder learns the Names of Hell, and can use those powers to summon and bind devils to do her bidding. If she makes a single mistake in the binding, she opens herself to an eternity of torment. Egorian Academy wizards are recognized across Avistan as premier practitioners of the arcane arts. Many hold high positions in magical colleges across Golarion, but most seek to return one day to teach at their alma mater in Egorian.",
-			"",
-			"**Associated School:** ‹arcaneschool/Conjuration›.",
-			"",
-			"**Suggested Opposition Schools:** Divination, illusion, or transmutation.",
-			"",
-			"**Alignment:** Lawful Evil, Lawful Neutral, Neutral Evil, or Neutral.",
-			"",
-			"**Requirements:** An infernal binder must choose a ‹ability/familiar› as her arcane bond at 1st level.",
-			"",
-			"**Replacement Powers:** The following school powers replace the acid dart and dimensional steps powers of the conjuration school.",
-			"",
-			">**Planar Knowledge (Ex):** As an infernal binder, you gain a +3 bonus on Knowledge (planes) checks.",
-			">",
-			">**Assume Control (Su):** At 1st level, you can attempt to gain control over a summoned creature by disrupting the bond between it and the caster who summoned it. You must make a caster level check (1d20 + caster level) equal to 10 + the summoning caster's level. If you know the summoned creature's name, you receive a +2 circumstance bonus on the check. If the check is successful, you can control the summoned creature as if you had summoned it for a number of rounds equal to 1/2 your wizard level (minimum 1 round). This does not increase the duration of the original summoning. The original summoning caster can attempt to regain control of the summoned creature as a standard action by making a caster level check against your caster level + 10. When your control ends, the creature reverts to the control of its summoner. At 9th level, you can use this ability to bargain with called creatures as if you were the caster who conjured them. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
-			"",
-			"**Imp Familiar (Ex):** At 7th level, you gain ‹feat/Improved Familiar› as a bonus feat, and must take an ‹monster/imp› as a familiar. The imp replaces your current familiar."
 		]
 	},
 	"chronomancer": {
@@ -481,32 +439,6 @@
 			"**Primal Surge (Su):** At 10th level, whenever a primalist triggers a primal magic event, she rolls the percentile dice twice to determine the event that occurs and chooses which one of the two possible events occurs. She becomes resistant to the effects of primal magic events. Anytime an event would affect her, the GM rolls 1d20 + the event's CR against a DC of 11 + her wizard level. If this roll fails, the event does not affect her, similar to a creature with spell resistance ignoring magical effects with an SR check. If the primal magic event is duplicating the effects of a spell that does not allow spell resistance (such as create pit), this resistance does not apply.",
 			"",
 			"This ability replaces @HL[the wizard bonus feat acquired at 10th level]."
-		]
-	},
-	"qadira_mage_of_the_veil": {
-		"name": "Qadira: Mage of the Veil",
-		"sources": [ "Inner Sea Primer" ],
-		"description": [
-			"## Qadira: Mage of the Veil",
-			"",
-			"‹SOURCE Inner Sea Primer/29›  ",
-			"The city of Katheer is home to a great number of arcane colleges in the Qadiran tradition. Magic has a proud history in this land; its many schools compete with one another to find the best route to understanding the secrets of power.",
-			"",
-			"Among these is the focused school of veil magic. Rather than controlling the elements or transforming the environment, mages of the veil focus on much more subtle magic-blending into their surroundings to watch, observe, and gather secrets, or fading from view completely for the sake of solitude. Most graduates of this college enter the service of the satrap as spies, scouts, or infiltrators.",
-			"",
-			"**Associated School:** ‹arcaneschool/Illusion›.",
-			"",
-			"**Requirements:** A mage of the veil must select ‹spell/disguise self› as one of his spells known at 1st level.",
-			"",
-			"::cskill{gain=bluff~dis~stl}",
-			"",
-			"**Replacement Powers:** The following school powers replace the blinding ray and invisibility field powers of the illusion school.",
-			"",
-			">**Face in the Crowd (Sp):** At 1st level as a standard action, you can cause yourself to appear so normal, mundane, and unexceptional that you blend in to your surroundings. All creatures within 30 feet treat you as if you belonged there, effectively ignoring you. Creatures outside of this area may notice that you appear out of place, but as soon as they approach within 30 feet they are affected by the magic and no longer think something is amiss. If you interact with an affected creature in any way, it gains a Will save (DC 10 + 1/2 your wizard level + your Intelligence modifier) to disbelieve the illusion and notice you. The effect lasts for a number of minutes equal to your wizard level, or until the illusion is dispelled. The minutes do not need to be consecutive, but must be used in 1-minute increments. This is a mind-affecting phantasm effect.",
-			">",
-			">This ability does not turn you invisible and opponents are not considered flat-footed. It does not allow you to disguise yourself as a specific individual, type of person, or member of another race, so you cannot blend into a group of uniformed guards or appear as a member of an individual's family, and a human cannot blend into a group of gnolls. You can blend in with any group made up of different types of people, such as a crowd of courtiers in a king's throne room, and you can disguise yourself (either through magic or more mundane means) to appear as a specific type of person or another race (such as a uniformed guard or a gnoll) before using this ability.",
-			">",
-			">**Master of the Veil (Sp):** At 8th level, you can create an illusion that hides the appearance of yourself and any number of allies within 30 feet for 1 round per wizard level. This ability otherwise functions like the spell ‹spell/veil›. The rounds do not need to be consecutive."
 		]
 	},
 	"runesage": {
