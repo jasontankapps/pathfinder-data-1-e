@@ -202,7 +202,7 @@ const _bouda = {title: "Bouda", jsx: <><h2 id="arc-witch-bouda-bouda">Bouda</h2>
 </Ability>
 <Ability id="hyena-shape-su" icon={["stairs-goal"]}>
 <Pair single id="hyena-shape-su">Hyena Shape (Su)</Pair>
-<Pair hl title="Replaces">Major hex granted at 10th level</Pair>
+<Pair hl title="Replaces">10th-level major hex</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">A bouda gains the ability to turn into a <Link to="/monster/hyena">hyena</Link> or <Link to="/monster/dire_hyena">dire hyena</Link> and back again a number of times per day equal to her Intelligence modifier. This ability functions as <Link to="/spell/beast_shape_ii">beast shape II</Link>, except for the following. The effect lasts for 1 hour per witch level, or until the bouda changes back. Changing form (to animal or back) is a <strong className="hl">standard action</strong> that does not provoke attacks of opportunity.</Pair>
 <Pair title="At 20th Level">At 20th level, a bouda can change her form at will.</Pair>
@@ -788,7 +788,7 @@ const _jinx_witch = {title: "Jinx Witch", jsx: <><h2 id="arc-witch-jinx_witch-ji
 </Ability>
 <Ability id="jinx-eating-su" icon={["stairs-goal","upgrade"]}>
 <Pair single id="jinx-eating-su" flavor="A jinx witch learns to absorb (or &quot;eat&quot;) antagonistic magical effects targeting her.">Jinx-Eating (Su)</Pair>
-<Pair hl title="Replaces">Hex normally gained at 2nd level</Pair>
+<Pair hl title="Replaces">2nd-level hex</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Usage">3 + Intelligence modifier times/day</Pair>
 <Pair title="Immediate Action">If a jinx witch succeeds at a Will or Fortitude saving throw that negates a hostile spell effect, she can consume the spell energy.</Pair>
@@ -797,7 +797,7 @@ const _jinx_witch = {title: "Jinx Witch", jsx: <><h2 id="arc-witch-jinx_witch-ji
 </Ability>
 <Ability id="jinx-gorging-su" icon={["upgrade"]}>
 <Pair single id="jinx-gorging-su">Jinx-Gorging (Su)</Pair>
-<Pair hl title="Replaces">Hex normally gained at 6th level</Pair>
+<Pair hl title="Replaces">6th-level hex</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Ability">When the jinx witch applies a bonus from a spell consumed with her <em>jinx-eating</em> ability to a spell of the same school as the eaten spell, and of the same or lower spell level, she does not expend the prepared spell slot.</Pair>
 <Pair title="Special">She cannot affect the spell with metamagic or other effects that would change its effective spell level.</Pair>
@@ -1246,195 +1246,558 @@ const _patron_familiars = {title: "Patron Familiars", jsx: <><h2 id="arc-witch-p
 </>};
 const _putrefactor = {title: "Putrefactor", jsx: <><h2 id="arc-witch-putrefactor-putrefactor">Putrefactor</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven pg. 16</Link><br/>Some witches find their patrons while in the throes of despair and grief, when all they desire is to see the veneer of civilization peel back to reveal the filth and rot that underlies all things. The arcane power they inherit is bleak and tainted, eating them from the inside out and transforming them into living avatars of entropy.</p>
-<p><strong>Infestation of Entropy:</strong> A putrefactor's body hosts various pests - insects, rats, or other scavengers - as part of her connection with her patron. She treats the infestation as her familiar, and she communes with the infestation to prepare spells. She still selects a familiar, which must be a <Link to="/monster/house_centipede">house centipede</Link>, <Link to="/monster/rat">rat</Link>, <Link to="/monster/scarlet_spider">scarlet spider</Link>, or <Link to="/monster/toad">toad</Link>; the familiar crawls within her among the other vermin. A putrefactor must be of chaotic alignment and must choose one of the following patrons: <Link to="/patron/animals">Animals</Link>, <Link to="/patron/death">Death</Link>, <Link to="/patron/plague">Plague</Link>, or <Link to="/patron/rot">Rot</Link>.</p>
-<p>This alters the witch's <strong className="hl">familiar</strong> and <strong className="hl">patron</strong>.</p>
-<p><strong>Disgorge Familiar (Ex):</strong> As a standard action, a putrefactor can cough up her familiar, allowing it to act as a separate entity. She can also devour it again as a standard action when the familiar is within reach. While within her, the familiar cannot be targeted for effects or take any action, but effects affecting it persist, and their duration continues until the next time she disgorges it.</p>
-<p>This replaces the <strong className="hl">hex</strong> gained at 1st level.</p>
-<p><strong>Verminous Blood (Ex):</strong> At 2nd level, the swarming creatures within a putrefactor begin to replace her bodily fluids. Whenever she takes slashing or piercing damage from a melee attack, the creatures spill out and bite the attacker, dealing 1d6 points of damage, which count as damage from a Diminutive swarm. A creature can take damage from this ability only once per round. This damage increases by 1d6 at 8th level and every 4 levels thereafter.</p>
-<p>This replaces the <strong className="hl">hex</strong> gained at 2nd level.</p>
-<p><strong>Putrefied Innards (Ex):</strong> At 4th level, the infestation begins assuming various functions of the witch's organs. She gains a 25% chance to negate the extra damage from critical hits and sneak attacks, as per the <Link to="/magic-enh/light_fortification">light fortification</Link> magic armor ability. At 10th level, this increases to a 50% chance (as per <Link to="/magic-enh/moderate_fortification">moderate fortification</Link>), and at 16th level it increases to a 75% chance (as per <Link to="/magic-enh/heavy_fortification">heavy fortification</Link>). Whenever the putrefactor negates additional damage from a melee attack in this way, the attacker takes damage as if exposed to her verminous blood, even if it has already been targeted by this ability this round.</p>
-<p>This replaces the <strong className="hl">hexes</strong> gained at 4th, 10th, and 16th level.</p>
-<p><strong>Disgorge Swarm (Ex):</strong> At 6th level, while her familiar is inside her, the putrefactor can disgorge all the crawling creatures within her at once as a standard action, retaining only her familiar. When she does, she loses 2 hit points per class level and forms a spider swarm as per the spell <Link to="/spell/vomit_swarm">vomit swarm</Link>. The swarm gains the Armor Class and saving throw bonuses of her familiar. The swarm deals her verminous blood damage instead of its normal damage; while the swarm lasts, the putrefactor loses access to her verminous blood ability. The witch can target creatures with her hexes as if she occupied both the swarm's space and her own. When the duration ends, the swarm tries its best to return to her and crawl back into her body, restoring hit points equal to its current hit points, up to her maximum hit points. If the swarm dies or cannot return to her once the spell's duration ends, the witch does not regain any of her spent hit points. Once she reabsorbs the swarm, she can't disgorge it again for 1 hour.</p>
-<p>This replaces the <strong className="hl">hex</strong> gained at 6th level.</p>
+<Ability id="infestation-of-entropy" icon={["info"]}>
+<Pair single id="infestation-of-entropy">Infestation of Entropy</Pair>
+<Pair hl title="Alters">Familiar, patron</Pair>
+<Pair title="Info">A putrefactor's body hosts various pests - insects, rats, or other scavengers - as part of her connection with her patron. She treats the infestation as her familiar, and she communes with the infestation to prepare spells. She still selects a familiar, which must be a <Link to="/monster/house_centipede">house centipede</Link>, <Link to="/monster/rat">rat</Link>, <Link to="/monster/scarlet_spider">scarlet spider</Link>, or <Link to="/monster/toad">toad</Link>; the familiar crawls within her among the other vermin.</Pair>
+<Pair title="Choice">A putrefactor must be of chaotic alignment and must choose one of the following patrons: <Link to="/patron/animals">Animals</Link>, <Link to="/patron/death">Death</Link>, <Link to="/patron/plague">Plague</Link>, or <Link to="/patron/rot">Rot</Link>.</Pair>
+</Ability>
+<Ability id="disgorge-familiar-ex" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="disgorge-familiar-ex">Disgorge Familiar (Ex)</Pair>
+<Pair hl title="Replaces">1st-level hex</Pair>
+<Pair title="Standard Action">A putrefactor can cough up her familiar, allowing it to act as a separate entity. She can also devour it again as a standard action when the familiar is within reach.</Pair>
+<Pair title="Info">While within her, the familiar cannot be targeted for effects or take any action, but effects affecting it persist, and their duration continues until the next time she disgorges it.</Pair>
+</Ability>
+<Ability id="verminous-blood-ex" icon={["armor-upgrade","mailed-fist"]}>
+<Pair single id="verminous-blood-ex" flavor="The swarming creatures within a putrefactor begin to replace her bodily fluids.">Verminous Blood (Ex)</Pair>
+<Pair hl title="Replaces">2nd-level hex</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">Whenever she takes slashing or piercing damage from a melee attack, the creatures spill out and bite the attacker, dealing 1d6 points of damage, which count as damage from a Diminutive <Link to="/subtype/swarm">swarm</Link>. A creature can take damage from this ability only once per round.</Pair>
+<Pair title="At 12th Level">This damage becomes 2d6.</Pair>
+<Pair title="At 20th Level">This damage increases to 3d6.</Pair>
+</Ability>
+<Ability id="putrefied-innards-ex" icon={["armor-upgrade"]}>
+<Pair single id="putrefied-innards-ex" flavor="The infestation begins assuming various functions of the witch's organs.">Putrefied Innards (Ex)</Pair>
+<Pair hl title="Replaces">4th-, 10th-, and 16th-level hexes</Pair>
+<Pair title="At 4th Level">She gains a 25% chance to negate the extra damage from critical hits and sneak attacks, as per the <Link to="/magic-enh/light_fortification">light fortification</Link> magic armor ability.</Pair>
+<Pair title="At 10th Level">This increases to a 50% chance (as per <Link to="/magic-enh/moderate_fortification">moderate fortification</Link>).</Pair>
+<Pair title="At 16th Level">This increases to a 75% chance (as per <Link to="/magic-enh/heavy_fortification">heavy fortification</Link>).</Pair>
+<Pair title="Special">Whenever the putrefactor negates additional damage from a melee attack in this way, the attacker takes damage as if exposed to her <em>verminous blood,</em> even if it has already been targeted by this ability this round.</Pair>
+</Ability>
+<Ability id="disgorge-swarm-ex" icon={["magic-swirl"]}>
+<Pair single id="disgorge-swarm-ex">Disgorge Swarm (Ex)</Pair>
+<Pair hl title="Replaces">6th-level hex</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Standard Action">While her familiar is inside her, the putrefactor can disgorge all the crawling creatures within her at once, retaining only her familiar. When she does, she loses 2 hit points per class level and forms a spider swarm as per the spell <Link to="/spell/vomit_swarm">vomit swarm</Link>. The swarm gains the Armor Class and saving throw bonuses of her familiar. The swarm deals her <em>verminous blood</em> damage instead of its normal damage; while the swarm lasts, the putrefactor loses access to her <em>verminous blood</em> ability.</Pair>
+<Pair title="Special">The witch can target creatures with her hexes as if she occupied both the swarm's space and her own. When the duration ends, the swarm tries its best to return to her and crawl back into her body, restoring hit points equal to its current hit points, up to her maximum hit points. If the swarm dies or cannot return to her once the spell's duration ends, the witch does not regain any of her spent hit points. Once she reabsorbs the swarm, she can't disgorge it again for 1 hour.</Pair>
+</Ability>
 </>};
 const _rhetorician = {title: "Rhetorician", jsx: <><h2 id="arc-witch-rhetorician-rhetorician">Rhetorician</h2>
 <p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology pg. 25</Link><br/>Rhetoricians feel driven to engage in debate, learn as much as they can about their potential foes, and seek ways to use information and quick talking to handle problems before resorting to raw violence. Regardless of their shadowy patrons, rhetoricians are granted a series of spells through their familiars that boost their ability to outtalk and outthink their foes, leading some to believe they are destined to be emissaries for their patrons once some long-term plans of their patrons' come to fruition.</p>
-<p><strong>Debater (Ex):</strong> A rhetorician is an expert at making counterarguments and treating everything as a debate. When an opponent attempts a Diplomacy check to change another target's attitude or request aid, the rhetorician can attempt to make a counterargument to negate the opponent's efforts. The rhetorician attempts a Diplomacy check as an immediate action, with a DC equal to the result of the opponent's Diplomacy check. The target of the opponent's Diplomacy check must be able to see and hear the rhetorician. If the rhetorician's Diplomacy check is successful, the opponent's Diplomacy check fails.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 1st level.</p>
-<p><strong>Eldritch Glibness:</strong> At 2nd level and every two witch levels thereafter, a rhetorician gains the following spells as spells known at the spell levels listed in parentheses. These spells are automatically added to the list of spells stored by her familiar. She treats these as being on the witch class spell list: 2nd-<Link to="/spell/confusion_lesser">confusion, lesser</Link> (1st), 4th-<Link to="/spell/detect_thoughts">detect thoughts</Link> (2nd), 6th-<Link to="/spell/glibness">glibness</Link> (3rd), 8th-<Link to="/spell/sculpt_sound">sculpt sound</Link> (4th), 10th-<Link to="/spell/modify_memory">modify memory</Link> (5th), 12th-<Link to="/spell/symbol_of_persuasion">symbol of persuasion</Link> (6th), 14th-<Link to="/spell/song_of_discord">song of discord</Link> (7th), 16th-<Link to="/spell/greater_shout">greater shout</Link> (8th), 18th-<Link to="/spell/weird">weird</Link> (9th).</p>
-<p>This ability replaces all <strong className="hl">the spells the witch gains from her patron</strong>.</p>
-<p><strong>Public Speaker (Ex):</strong> A rhetorician gains Perform as a class skill. In addition, she is trained to project her voice with great skill and effect; the DC to hear her speak in difficult conditions is reduced by an amount equal to her class level + her Intelligence modifier (minimum 0).</p>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perform">Perform</Link> (CHA)</Pair></Ability>
+<Ability id="debater-ex" icon={["armor-downgrade"]}>
+<Pair single id="debater-ex" flavor="A rhetorician is an expert at making counterarguments and treating everything as a debate.">Debater (Ex)</Pair>
+<Pair hl title="Replaces">1st-level hex</Pair>
+<Pair title="Ability">When an opponent attempts a Diplomacy check to change another target's attitude or request aid, the rhetorician can attempt to make a counterargument to negate the opponent's efforts. The rhetorician attempts a Diplomacy check as an <strong className="hl">immediate action</strong>, with a DC equal to the result of the opponent's Diplomacy check. The target of the opponent's Diplomacy check must be able to see and hear the rhetorician. If the rhetorician's Diplomacy check is successful, the opponent's Diplomacy check fails.</Pair>
+</Ability>
+<Ability id="eldritch-glibness" icon={["spell-book"]}>
+<Pair single id="eldritch-glibness">Eldritch Glibness</Pair>
+<Pair hl title="Replaces">All spells granted by the witch's patron</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A rhetorician gains the following spells as spells known at the given witch levels, and at the spell levels listed in parentheses. These spells are automatically added to the list of spells stored by her familiar. She treats these as being on the witch class spell list.</Pair>
+<Pair plain title="2nd"><Link to="/spell/confusion_lesser">Confusion, lesser</Link> (1st)</Pair>
+<Pair plain title="4th"><Link to="/spell/detect_thoughts">Detect thoughts</Link> (2nd)</Pair>
+<Pair plain title="6th"><Link to="/spell/glibness">Glibness</Link> (3rd)</Pair>
+<Pair plain title="8th"><Link to="/spell/sculpt_sound">Sculpt sound</Link> (4th)</Pair>
+<Pair plain title="10th"><Link to="/spell/modify_memory">Modify memory</Link> (5th)</Pair>
+<Pair plain title="12th"><Link to="/spell/symbol_of_persuasion">Symbol of persuasion</Link> (6th)</Pair>
+<Pair plain title="14th"><Link to="/spell/song_of_discord">Song of discord</Link> (7th)</Pair>
+<Pair plain title="16th"><Link to="/spell/greater_shout">Greater shout</Link> (8th)</Pair>
+<Pair plain title="18th"><Link to="/spell/weird">Weird</Link> (9th)</Pair>
+</Ability>
+<Ability id="public-speaker-ex" icon={["upgrade"]}>
+<Pair single id="public-speaker-ex">Public Speaker (Ex)</Pair>
+<Pair title="Ability">A rhetorician is trained to project her voice with great skill and effect; the DC to hear her speak in difficult conditions is reduced by an amount equal to her class level + her Intelligence modifier (minimum 0).</Pair>
+</Ability>
 </>};
 const _scarred_witch_doctor = {title: "Scarred Witch Doctor", jsx: <><h2 id="arc-witch-scarred_witch_doctor-scarred-witch-doctor">Scarred Witch Doctor</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 140</Link><br/>The scarred witch doctor draws power from her ability to endure pain and suffering. She mutilates her own flesh, inflicting horrific scars, in order to attract the attention of her patron. Rather than call forth a familiar, she creates a repulsive fetish mask that she uses as a repository for her power. A scarred witch doctor has the following class features.</p>
-<p><strong>Fierce Intelligence:</strong> A scarred witch doctor treats her Intelligence score as 2 points higher when determining the highest level of spells she can cast, the number of spells she can cast per day, her spell save DCs, her number of spells known at 1st level, and any effects of her hexes determined by her Intelligence.</p>
-<p><strong>Hex Scar:</strong> Whenever a scarred witch doctor learns a hex, she must carve or brand a symbol in her flesh to represent this hex. She can disguise these scars with mundane or magical means, but they cannot be permanently removed.</p>
-<p><strong>Fetish Mask (Su):</strong> At 1st level, a scarred witch doctor forms a bond with a wooden mask. As she gains power, her connection to this mask causes it to grow ever more hideous and grotesque as it absorbs the weight of the self-induced pain that underlies her magic. Her spells derive from the insights her patron grants her while she's enduring the cuts, burns, and other sorts of mutilations she inflicts upon herself. Her fetish mask acts in all ways like a witch's familiar for the purpose of preparing and gaining spells. Rather than communing with a familiar to prepare spells each day, a scarred witch doctor hangs her mask on a wall, tree branch, or something similar and contemplates the agony it represents.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-witch-scarred_witch_doctor--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/orc">Orc</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="fierce-intelligence" icon={["upgrade"]}>
+<Pair single id="fierce-intelligence">Fierce Intelligence</Pair>
+<Pair title="Passive Ability">A scarred witch doctor treats her Intelligence score as 2 points higher when determining the highest level of spells she can cast, the number of spells she can cast per day, her spell save DCs, her number of spells known at 1st level, and any effects of her hexes determined by her Intelligence.</Pair>
+</Ability>
+<Ability id="hex-scar" icon={["info"]}>
+<Pair single id="hex-scar">Hex Scar</Pair>
+<Pair title="Info">Whenever a scarred witch doctor learns a hex, she must carve or brand a symbol in her flesh to represent this hex. She can disguise these scars with mundane or magical means, but they cannot be permanently removed.</Pair>
+</Ability>
+<Ability id="fetish-mask-su" icon={["stairs-goal"]}>
+<Pair single id="fetish-mask-su">Fetish Mask (Su)</Pair>
+<Pair hl title="Replaces">Familiar</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability"><p>A scarred witch doctor forms a bond with a wooden mask. As she gains power, her connection to this mask causes it to grow ever more hideous and grotesque as it absorbs the weight of the self-induced pain that underlies her magic. Her spells derive from the insights her patron grants her while she's enduring the cuts, burns, and other sorts of mutilations she inflicts upon herself. Her fetish mask acts in all ways like a witch's familiar for the purpose of preparing and gaining spells. Rather than communing with a familiar to prepare spells each day, a scarred witch doctor hangs her mask on a wall, tree branch, or something similar and contemplates the agony it represents.</p>
 <p>When wearing her fetish mask, a scarred witch doctor gains a +2 circumstance bonus on Heal and Intimidate checks and gains a +2 bonus on saving throws against effects that specifically cause pain or have the pain descriptor. If the mask is destroyed, the witch doctor can create another fetish mask (which almost immediately adopts the shocking appearance of the original) for the same price and time it takes a witch to replace a dead familiar.</p>
-<p>At 5th level, the scarred witch doctor gains the ability to add magical abilities to her mask as if she had the <Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link> feat.</p>
-<p>This ability otherwise functions like and replaces the standard witch familiar.</p>
-<p><strong>Scarshield (Su):</strong> At 1st level, a scarred witch doctor learns how to harden her mutilated skin, gaining an enhancement bonus to her natural armor bonus equal to 1/2 her class level (minimum +1). She can use this ability for a number of minutes per day equal to her class level. These minutes do not need to be consecutive but she must spend them in 1-minute increments.</p>
-<p>This ability replaces the witch's 1st-level <strong className="hl">hex</strong>.</p>
-<p><strong>Hexes:</strong> The following hexes complement the scarred witch doctor archetype: <Link to="/hex/evil_eye">evil eye</Link>, <Link to="/hex/misfortune">misfortune</Link>, <Link to="/hex/scar">scar</Link>, <Link to="/hex/unnerve_beasts">unnerve beasts</Link>.</p>
-<p><strong>Major Hexes:</strong> The following major hexes complement the scarred witch doctor archetype: <Link to="/hex/agony">agony</Link>, <Link to="/hex/nightmares">nightmares</Link>, <Link to="/hex/cook_people">cook people</Link>, <Link to="/hex/infected_wounds">infected wounds</Link>.</p>
-<p><strong>Grand Hexes:</strong> The following grand hexes complement the scarred witch doctor archetype: <Link to="/hex/death_curse">death curse</Link>, <Link to="/hex/natural_disaster">natural disaster</Link>, <Link to="/hex/dire_prophecy">dire prophecy</Link>.</p>
-</>};
+</Pair>
+<Pair title="At 5th Level">The scarred witch doctor gains the ability to add magical abilities to her mask as if she had the <Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link> feat.</Pair>
+<Pair title="Special">This ability otherwise functions like and replaces the standard witch familiar.</Pair>
+</Ability>
+<Ability id="scarshield-su" icon={["armor-upgrade"]}>
+<Pair single id="scarshield-su">Scarshield (Su)</Pair>
+<Pair hl title="Replaces">1st-level hex</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">1 minute/day per witch level; these minutes need not be consecutive, but they must be spent in 1-minute increments</Pair>
+<Pair title="Passive Ability">A scarred witch doctor learns how to harden her mutilated skin, gaining an enhancement bonus to her natural armor bonus equal to 1/2 her class level (minimum +1).</Pair>
+</Ability>
+<p><strong className="hl">The following hexes complement this archetype:</strong> <Link to="/hex/evil_eye">Evil eye</Link>, <Link to="/hex/misfortune">misfortune</Link>, <Link to="/hex/scar">scar</Link>, <Link to="/hex/unnerve_beasts">unnerve beasts</Link></p><p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/agony">Agony</Link>, <Link to="/hex/nightmares">nightmares</Link>, <Link to="/hex/cook_people">cook people</Link>, <Link to="/hex/infected_wounds">infected wounds</Link></p><p><strong className="hl">The following grand hexes complement this archetype:</strong> <Link to="/hex/death_curse">Death curse</Link>, <Link to="/hex/natural_disaster">natural disaster</Link>, <Link to="/hex/dire_prophecy">dire prophecy</Link></p></>};
 const _sea_witch = {title: "Sea Witch", jsx: <><h2 id="arc-witch-sea_witch-sea-witch">Sea Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 85</Link><br/>A sea witch's affinities are tied to the vast oceans and the rolling waves. Her magic concerns the moon, tides, water, and winds, and she is most at peace when she is upon or near the sea.</p>
-<p><strong>Patron:</strong> A sea witch cannot choose a patron whose interests or theme opposes that of water (for example, earth or fire).</p>
-<p><strong>Spells:</strong> A sea witch replaces some of her patron spells with the following: 2nd-<Link to="/spell/touch_of_the_sea">touch of the sea</Link>, 4th-<Link to="/spell/gust_of_wind">gust of wind</Link>, 6th-<Link to="/spell/water_breathing">water breathing</Link>, 8th-<Link to="/spell/control_water">control water</Link>, 10th-<Link to="/spell/cloudkill">cloudkill</Link>, 12th-<Link to="/spell/control_winds">control winds</Link>, 14th-<Link to="/spell/control_weather">control weather</Link>, 16th-<Link to="/spell/vortex">vortex</Link>, 18th-<Link to="/spell/tsunami">tsunami</Link>.</p>
-<p><strong>Know Direction (Sp):</strong> So long as she near a sizable body of water (at least a lake with a diameter of 1 mile or more), a sea witch may cast <Link to="/spell/know_direction">know direction</Link> at will as a spell-like ability.</p>
-<p><strong>Sea Creature Empathy (Ex):</strong> A sea witch can influence the attitude of water-dwelling animals and animals that live along coasts and shores, including birds, as if using <Link to="/ability/wild_empathy">wild empathy</Link>. The sea witch uses her witch level as her <Link to="/class/druid">druid</Link> level for this ability. If the sea witch has wild empathy from another class, her witch levels stack with the other class's levels to determine her wild empathy bonus for these kinds of creatures.</p>
-<p>This ability replaces the witch's 1st-level <strong className="hl">hex</strong>.</p>
-<p><strong>Hexes:</strong> The following witch hexes complement the sea witch archetype: <Link to="/hex/charm">charm</Link>, <Link to="/hex/flight">flight</Link>, <Link to="/hex/water_lung">water lung</Link>.</p>
-<p><strong>Major Hexes:</strong> The following major hexes complement the sea witch archetype: <Link to="/hex/hags_eye">hag's eye</Link>, <Link to="/hex/hidden_home">hidden home</Link>, <Link to="/hex/weather_control">weather control</Link>.</p>
-<p><strong>Grand Hexes:</strong> The following grand hex complements the sea witch archetype: <Link to="/hex/natural_disaster">natural disaster</Link>.</p>
-</>};
+<Ability id="patron" icon={["broken-shield"]}>
+<Pair single id="patron">Patron</Pair>
+<Pair title="Info">A sea witch cannot choose a patron whose interests or theme opposes that of water (for example, earth or fire).</Pair>
+</Ability>
+<Ability id="spells" icon={["spell-book"]}>
+<Pair single id="spells">Spells</Pair>
+<Pair title="Info">A sea witch replaces some of her patron spells at the listed witch levels.</Pair>
+<Pair plain title="2nd"><Link to="/spell/touch_of_the_sea">Touch of the sea</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/gust_of_wind">Gust of wind</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/water_breathing">Water breathing</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/control_water">Control water</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/cloudkill">Cloudkill</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/control_winds">Control winds</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/control_weather">Control weather</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/vortex">Vortex</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/tsunami">Tsunami</Link></Pair>
+</Ability>
+<Ability id="know-direction-sp" icon={["magic-swirl"]}>
+<Pair single id="know-direction-sp">Know Direction (Sp)</Pair>
+<Pair title="Ability">So long as she near a sizable body of water (at least a lake with a diameter of 1 mile or more), a sea witch may cast <Link to="/spell/know_direction">know direction</Link> at will as a spell-like ability.</Pair>
+</Ability>
+<Ability id="sea-creature-empathy-ex" icon={["stairs-goal"]}>
+<Pair single id="sea-creature-empathy-ex">Sea Creature Empathy (Ex)</Pair>
+<Pair hl title="Replaces">1st-level hex</Pair>
+<Pair title="Ability">A sea witch can influence the attitude of water-dwelling animals and animals that live along coasts and shores, including birds, as if using <Link to="/ability/wild_empathy">wild empathy</Link>. The sea witch uses her witch level as her <Link to="/class/druid">druid</Link> level for this ability. If the sea witch has <em>wild empathy</em> from another class, her witch levels stack with the other class's levels to determine her wild empathy bonus for these kinds of creatures.</Pair>
+</Ability>
+<p><strong className="hl">The following witch hexes complement this archetype:</strong> <Link to="/hex/charm">Charm</Link>, <Link to="/hex/flight">flight</Link>, <Link to="/hex/water_lung">water lung</Link></p><p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/hags_eye">Hag's eye</Link>, <Link to="/hex/hidden_home">hidden home</Link>, <Link to="/hex/weather_control">weather control</Link></p><p><strong className="hl">The following grand hex complements this archetype:</strong> <Link to="/hex/natural_disaster">Natural disaster</Link></p></>};
 const _season_witch = {title: "Season Witch", jsx: <><h2 id="arc-witch-season_witch-season-witch">Season Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 90</Link><br/>Season witches gain their power from the cyclical and mystical exchange of energy passed from one season of nature to another. Often, season witches carry bitter grudges against their fellow witches, with many believing that the season prior to their chosen focus is inferior and the season that replaces their favored time is an usurper of time, but at other times season witches work together, understanding that all are a part of the cycle of the natural world.</p>
-<p><strong>Season of the Witch (Su):</strong> A season witch observes the cycles of life through symbolic festivals and the very real passage of time. Their covens celebrate the seasons and their impact on magic. These seasonal cycles alter their magic and mind-set, focusing their spells and hexes on a predominant energy type and philosophy.</p>
+<Ability id="season-of-the-witch-su" extraClasses="hasSubs" icon={["info"]}>
+<Pair single id="season-of-the-witch-su">Season of the Witch (Su)</Pair>
+<Pair hl title="Alters">Patron, 1st-level hex</Pair>
+<Pair title="Info"><p>A season witch observes the cycles of life through symbolic festivals and the very real passage of time. Their covens celebrate the seasons and their impact on magic. These seasonal cycles alter their magic and mind-set, focusing their spells and hexes on a predominant energy type and philosophy.</p>
 <p>A season witch makes a commitment to embody the sacred symbolism of a season year round, and learns her spells through communion with nature, divining secrets from shapes in the clouds or the play of leaves on the wind. At 1st level, a season witch chooses the season that defines her abilities as her patron; this choice also provides her certain benefits.</p>
-<blockquote>
-<p>A spring witch has dominion over the renewing spirit of life and youth. The save DCs of her spells that deal electricity damage increase by 1. At 1st level, she gains either the <Link to="/hex/charm">charm</Link> hex or <Link to="/hex/disguise">disguise</Link> hex as a bonus hex.</p>
-<p>A summer witch has dominion over growth, the harvest, and toil. The save DCs of her spells that deal fire damage increase by 1. At 1st level, she gains either the <Link to="/hex/fortune">fortune</Link> hex or <Link to="/hex/misfortune">misfortune</Link> hex as a bonus hex.</p>
-<p>An autumn witch has dominion over the provision of the land and the passing of life. The save DCs of her spells that deal acid damage increase by 1. At 1st level, she gains either the <Link to="/hex/blight">blight</Link> hex or <Link to="/hex/slumber">slumber</Link> hex as a bonus hex.</p>
-<p>A winter witch has dominion over hearth and home. The save DCs of her spells that deal cold damage increase by 1. At 1st level, she gains either the <Link to="/hex/healing">healing</Link> hex or <Link to="/hex/ward">ward</Link> hex as a bonus hex.</p>
-</blockquote>
-<p>This alters <strong className="hl">patron</strong> and the <strong className="hl">hex</strong> gained at 1st level.</p>
-<p><strong>Hexes:</strong> The following hexes complement the season witch archetype: <Link to="/hex/flight">flight</Link> (spring), <Link to="/hex/summers_heat">summer's heat</Link> (summer), <Link to="/hex/poison_steep">poison steep</Link> (autumn), <Link to="/hex/no_place_like_home">no place like home</Link> (winter).</p>
-<p><strong>Major Hexes:</strong> The following major hexes complement the season witch archetype: <Link to="/hex/speak_in_dreams">speak in dreams</Link> (spring), <Link to="/hex/agony">agony</Link> (summer), <Link to="/hex/hoarfrost">hoarfrost</Link> (autumn), <Link to="/hex/major_healing">major healing</Link> (winter).</p>
-<p><strong>Grand Hexes:</strong> The following grand hexes complement the season witch archetype: <Link to="/hex/forced_reincarnation">forced reincarnation</Link> (spring), <Link to="/hex/natural_disaster">natural disaster</Link> (summer), <Link to="/hex/death_curse">death curse</Link> (autumn), <Link to="/hex/life_giver">life giver</Link> (winter).</p>
-</>};
+</Pair>
+</Ability>
+<Ability id="spring" extraClasses="subAbility" icon={["upgrade","stairs-goal"]}>
+<Pair single id="spring">Spring</Pair>
+<Pair title="Info">A spring witch has dominion over the renewing spirit of life and youth.</Pair>
+<Pair title="Passive Ability">The save DCs of her spells that deal electricity damage increase by 1.</Pair>
+<Pair title="At 1st Level">She gains either the <Link to="/hex/charm">charm</Link> hex or <Link to="/hex/disguise">disguise</Link> hex as a bonus hex.</Pair>
+</Ability>
+<Ability id="summer" extraClasses="subAbility" icon={["upgrade","stairs-goal"]}>
+<Pair single id="summer">Summer</Pair>
+<Pair title="Info">A summer witch has dominion over growth, the harvest, and toil.</Pair>
+<Pair title="Passive Ability">The save DCs of her spells that deal fire damage increase by 1.</Pair>
+<Pair title="At 1st Level">She gains either the <Link to="/hex/fortune">fortune</Link> hex or <Link to="/hex/misfortune">misfortune</Link> hex as a bonus hex.</Pair>
+</Ability>
+<Ability id="autumn" extraClasses="subAbility" icon={["upgrade","stairs-goal"]}>
+<Pair single id="autumn">Autumn</Pair>
+<Pair title="Info">An autumn witch has dominion over the provision of the land and the passing of life.</Pair>
+<Pair title="Passive Ability">The save DCs of her spells that deal acid damage increase by 1.</Pair>
+<Pair title="At 1st Level">She gains either the <Link to="/hex/blight">blight</Link> hex or <Link to="/hex/slumber">slumber</Link> hex as a bonus hex.</Pair>
+</Ability>
+<Ability id="winter" extraClasses="subAbility" icon={["upgrade","stairs-goal"]}>
+<Pair single id="winter">Winter</Pair>
+<Pair title="Info">A winter witch has dominion over hearth and home.</Pair>
+<Pair title="Passive Ability">The save DCs of her spells that deal cold damage increase by 1.</Pair>
+<Pair title="At 1st Level">She gains either the <Link to="/hex/healing">healing</Link> hex or <Link to="/hex/ward">ward</Link> hex as a bonus hex.</Pair>
+</Ability>
+<p><strong className="hl">The following hexes complement this archetype:</strong> <Link to="/hex/flight">Flight</Link> (spring), <Link to="/hex/summers_heat">summer's heat</Link> (summer), <Link to="/hex/poison_steep">poison steep</Link> (autumn), <Link to="/hex/no_place_like_home">no place like home</Link> (winter)</p><p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/speak_in_dreams">Speak in dreams</Link> (spring), <Link to="/hex/agony">agony</Link> (summer), <Link to="/hex/hoarfrost">hoarfrost</Link> (autumn), <Link to="/hex/major_healing">major healing</Link> (winter)</p><p><strong className="hl">The following grand hexes complement this archetype:</strong> <Link to="/hex/forced_reincarnation">Forced reincarnation</Link> (spring), <Link to="/hex/natural_disaster">natural disaster</Link> (summer), <Link to="/hex/death_curse">death curse</Link> (autumn), <Link to="/hex/life_giver">life giver</Link> (winter)</p></>};
 const _seducer = {title: "Seducer", jsx: <><h2 id="arc-witch-seducer-seducer">Seducer</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 16</Link><br/>These charismatic witches, often devotees of the Green Mother, rely on their otherworldly charms to achieve their aims. A seducer focuses on enchantments, turning enemies into friends and friends into toys for her amusement.</p>
-<p><strong>Patron:</strong> A seducer must select deception, enchantment, plant, thorns, or trickery as her patron.</p>
-<p><strong>Otherworldly Allure:</strong> A seducer's power comes from her allure. She uses her Charisma rather than her Intelligence score for the purpose of all class features and effects related to her witch class, such as bonus spells per day, the maximum spell level she can cast, and save DCs of her spells and hexes.</p>
-<p><strong>Fey Charm (Su):</strong> A seducer gains the <Link to="/hex/charm">charm</Link> hex at 1st level. The save DC of this hex is increased by 1. If the target is (or could be) sexually attracted to the seducer, the save DC is instead increased by 2. If she and the target have had willing sexual relations in the past 24 hours, the save DC is instead increased by 3.</p>
-<p>This ability alters the <strong className="hl">hex</strong> gained at 1st level.</p>
-<p><strong>Seducer's Kiss (Su):</strong> At 6th level, a seducer can kiss another creature as a melee touch attack. The target must succeed at a Will save (DC 10 + half the seducer's level + her Charisma modifier) or be staggered for 1 round. If the target is (or could be) sexually attracted to the seducer, the save DC is increased by 2. If the seducer and the target have had willing sexual relations in the past 24 hours, the save DC is instead increased by 4. Whether or not the creature succeeds at this save, it cannot be the target of this ability again for 1 day. At 10th level, this ability causes the target to become stunned for 1 round, then staggered for an additional round. This is a mind-affecting charm effect.</p>
-<p>This ability replaces the <strong className="hl">hex</strong> gained at 6th level.</p>
-<p><strong>Garden of Delight (Su):</strong> At 8th level, the seducer can create a magical bower once per day. This functions as <Link to="/spell/tiny_hut">tiny hut</Link> with a caster level equal to the seducer's witch level, but the interior is a lush garden. Those who rest for 8 hours within the garden heal at twice the usual rate. In addition, any creature engaging in willing sexual relations with the seducer in this garden gains a +2 morale bonus on saving throws for the next 24 hours. This bonus does not apply on saving throws against the seducer's spells or abilities.</p>
-<p>This replaces the <strong className="hl">hex</strong> gained at 8th level.</p>
+<Ability id="patron" icon={["info"]}>
+<Pair single id="patron">Patron</Pair>
+<Pair title="Info">A seducer must select <Link to="/patron/deception">deception</Link>, <Link to="/patron/enchantment">enchantment</Link>, <Link to="/patron/plant">plant</Link>, <Link to="/patron/thorns">thorns</Link>, or <Link to="/patron/trickery">trickery</Link> as her patron.</Pair>
+</Ability>
+<Ability id="otherworldly-allure" icon={["upgrade"]}>
+<Pair single id="otherworldly-allure">Otherworldly Allure</Pair>
+<Pair title="Info">A seducer's power comes from her allure. She uses her Charisma rather than her Intelligence score for the purpose of all class features and effects related to her witch class, such as <Link to="/rule/bonus_spells">bonus spells</Link> per day, the maximum spell level she can cast, and save DCs of her spells and hexes.</Pair>
+</Ability>
+<Ability id="fey-charm-su" icon={["stairs-goal","upgrade"]}>
+<Pair single id="fey-charm-su">Fey Charm (Su)</Pair>
+<Pair hl title="Alters">1st-level hex</Pair>
+<Pair title="Ability">A seducer gains the <Link to="/hex/charm">charm</Link> hex at 1st level. The save DC of this hex is increased by 1. If the target is (or could be) sexually attracted to the seducer, the save DC is instead increased by 2. If she and the target have had willing sexual relations in the past 24 hours, the save DC is instead increased by 3.</Pair>
+</Ability>
+<Ability id="seducers-kiss-su" icon={["magic-palm"]}>
+<Pair single id="seducers-kiss-su">Seducer's Kiss (Su)</Pair>
+<Pair hl title="Replaces">6th-level hex</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability">A seducer can kiss another creature as a melee touch attack. The target must succeed at a Will save (DC 10 + half the seducer's level + her Charisma modifier) or be <Link to="/misc/staggered">staggered</Link> for 1 round. If the target is (or could be) sexually attracted to the seducer, the save DC is increased by 2. If the seducer and the target have had willing sexual relations in the past 24 hours, the save DC is instead increased by 4. Whether or not the creature succeeds at this save, it cannot be the target of this ability again for 1 day.</Pair>
+<Pair title="At 10th Level">This ability causes the target to become <Link to="/misc/stunned">stunned</Link> for 1 round, then staggered for an additional round. This is a mind-affecting charm effect.</Pair>
+</Ability>
+<Ability id="garden-of-delight-su" icon={["magic-swirl","remedy","upgrade"]}>
+<Pair single id="garden-of-delight-su">Garden of Delight (Su)</Pair>
+<Pair hl title="Replaces">8th-level hex</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">The seducer can create a magical bower once per day. This functions as <Link to="/spell/tiny_hut">tiny hut</Link> with a caster level equal to the seducer's witch level, but the interior is a lush garden. Those who rest for 8 hours within the garden heal at twice the usual rate. In addition, any creature engaging in willing sexual relations with the seducer in this garden gains a +2 morale bonus on saving throws for the next 24 hours. This bonus does not apply on saving throws against the seducer's spells or abilities.</Pair>
+</Ability>
 </>};
 const _synergist = {title: "Synergist", jsx: <><h2 id="arc-witch-synergist-synergist">Synergist</h2>
 <p><strong>Sources</strong> <Link to="/source/familiar_folio">Familiar Folio pg. 9</Link><br/>Synergists gain the ability to combine their forms with their familiars' in order to create something more powerful than either alone.</p>
-<p><strong>Symbiosis (Su):</strong> At 1st level, a synergist gains the ability to meld or unmeld with her familiar as a standard action. While the familiar is melded, its body becomes part of the synergist's and can't be targeted or affected by any means (including ongoing effects), though the familiar can still communicate its feelings empathically. The symbiosis causes the synergist to adopt some basic physical features of the familiar and grants additional abilities based on the synergist's level.</p>
-<p>At 1st level, during symbiosis the synergist gains darkvision or low-light vision if the familiar possesses it.</p>
-<p>At 5th level, during symbiosis the synergist gains any abilities the familiar possesses that are listed under <Link to="/spell/beast_shape_i">beast shape I</Link>, except flight.</p>
-<p>At 8th level, during symbiosis the synergist gains any abilities the familiar possesses that are listed under <Link to="/spell/beast_shape_ii">beast shape II.</Link> If the familiar can fly, the synergist can fly for a total of 1 minute per witch level she possesses per day while in symbiosis. This duration need not be consecutive, but it must be spent in 1-minute intervals.</p>
-<p>Additionally, during symbiosis the synergist gains a single natural attack of a type possessed by its familiar. The attack deals 1d6 points of damage if a primary attack (1d6 for Small synergists) and 1d4 points of damage if a secondary attack (1d3 for Small synergists).</p>
-<p>At 11th level, during symbiosis the synergist gains any abilities the familiar possesses that are listed under <Link to="/spell/beast_shape_iii">beast shape III</Link>. If the familiar can fly, the synergist can fly for an unlimited amount of time each day while in symbiosis.</p>
-<p>At 14th level, during symbiosis the synergist gains any abilities the familiar possesses that are listed under <Link to="/spell/beast_shape_iv">beast shape IV</Link>. If the familiar has multiple natural attacks, the synergist gains them all, rather than just one.</p>
-<p>This ability replaces the <strong className="hl">hexes</strong> gained at 1st, 8th, and 14th level.</p>
+<Ability id="symbiosis-su" icon={["stairs-goal","upgrade","mailed-fist"]}>
+<Pair single id="symbiosis-su">Symbiosis (Su)</Pair>
+<Pair hl title="Replaces">1st-, 8th-, and 14th-level hexes</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A synergist gains the ability to meld or unmeld with her familiar as a <strong className="hl">standard action</strong>. While the familiar is melded, its body becomes part of the synergist's and can't be targeted or affected by any means (including ongoing effects), though the familiar can still communicate its feelings empathically. The symbiosis causes the synergist to adopt some basic physical features of the familiar and grants additional abilities based on the synergist's level.</Pair>
+<Pair title="At 1st Level">During symbiosis the synergist gains darkvision or low-light vision if the familiar possesses it.</Pair>
+<Pair title="At 5th Level">During symbiosis the synergist gains any abilities the familiar possesses that are listed under <Link to="/spell/beast_shape_i">beast shape I</Link>, except flight.</Pair>
+<Pair title="At 8th Level"><p>During symbiosis the synergist gains any abilities the familiar possesses that are listed under <Link to="/spell/beast_shape_ii">beast shape II.</Link> If the familiar can fly, the synergist can fly for a total of 1 minute per witch level she possesses per day while in symbiosis. This duration need not be consecutive, but it must be spent in 1-minute intervals.</p>
+<p>Additionally, during symbiosis the synergist gains a single <Link to="/umr/natural_attack">natural attack</Link> of a type possessed by its familiar. The attack deals 1d6 points of damage if a primary attack (1d6 for Small synergists) and 1d4 points of damage if a secondary attack (1d3 for Small synergists).</p>
+</Pair>
+<Pair title="At 11th Level">During symbiosis the synergist gains any abilities the familiar possesses that are listed under <Link to="/spell/beast_shape_iii">beast shape III</Link>. If the familiar can fly, the synergist can fly for an unlimited amount of time each day while in symbiosis.</Pair>
+<Pair title="At 14th Level">During symbiosis the synergist gains any abilities the familiar possesses that are listed under <Link to="/spell/beast_shape_iv">beast shape IV</Link>. If the familiar has multiple natural attacks, the synergist gains them all, rather than just one.</Pair>
+</Ability>
 </>};
 const _tatterdemalion = {title: "Tatterdemalion", jsx: <><h2 id="arc-witch-tatterdemalion-tatterdemalion">Tatterdemalion</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 73</Link><br/>Some witches can bend the warp and weft of fabric and thread.</p>
-<p><strong>Weapon Proficiency:</strong> A tatterdemalion is proficient with bolas, nets, and whips.</p>
-<p>This alters the witch's <strong className="hl">weapon proficiencies</strong>.</p>
-<p><strong>Cantrips:</strong> A tatterdemalion must choose mage hand, open/ close, and prestidigitation as her prepared cantrips at 1st level, and they require a piece of cloth, string, rope, or other woven material (including clothing) as a focus. Any action she takes with these cantrips must involve the focus. Starting at 2nd level, she can choose any cantrip for her remaining cantrip.</p>
-<p>This alters the witch's <strong className="hl">cantrips</strong>.</p>
-<p><strong>Dancing Strings (Su):</strong> A tatterdemalion adds animate rope to her class spell list and spells her familiar knows. She can control her clothing and cloth, rope, or woven fabric she wears in a manner otherwise identical to the <Link to="/hex/prehensile_hair">prehensile hair</Link> hex.</p>
-<p>This alters <strong className="hl">spells</strong> and replaces the <strong className="hl">hex</strong> gained at 1st level.</p>
-<p><strong>Witchweaver:</strong> A tatterdemalion gains the following unique hexes, with a caster level equal to her witch level.</p>
-<blockquote>
-<p><strong>Moth-Eaten (Sp):</strong> At 4th level, a tatterdemalion can make a touch attack that damages leather, rope, or cloth like <Link to="/spell/rusting_grasp">rusting grasp</Link> damages metal, once per day per witch level.</p>
-<p><strong>Lace Weaver (Sp):</strong> At 8th level, a tatterdemalion can create cloth as per minor creation or create one 5-foot cube of tangled skeins of cloth per witch level, affecting the target areas as per <Link to="/spell/web">web</Link>, once per day for every 4 witch levels she has.</p>
-<p><strong>Sinister Stitching (Su):</strong> At 12th level, once per day for every 4 witch levels she has, a tatterdemalion can conjure enchanted threads to hinder a creature she can see (Fortitude negates). The tatterdemalion can choose to either sew shut the target's eyes (blinding it) or mouth (preventing speech, bite attacks, breath weapons, verbal components, command words, and the like). The target can end the effect with a successful Strength check (DC = 15 + 1/2 the tatterdemalion's witch level) as a standard action, or by slashing the stitches with a magic slashing weapon as a full-round action that provokes attacks of opportunity. Either way, the victim takes 1d4 points of bleed damage and either is dazzled (for stitched eyes) or takes a -2 penalty on bite attack and damage rolls and a 20% chance of spell failure with verbal components (for a stitched mouth). Either residual effect lasts 1 minute per witch level. Any creature can safely remove the enchanted threads with a minute of work and a successful DC 25 Heal check.</p>
-<p><strong>Unravel (Su):</strong> At 16th level, once per day when a tatterdemalion is hit by a melee or ranged attack, she can unravel herself as an immediate action, causing her body and gear to appear to collapse into a bundle of tattered rags and strands while she teleports to any open square within 30 feet. She takes no damage from the triggering attack, but she must have line of effect to the target square. She can use this ability twice per day at 20th level.</p>
-</blockquote>
-<p>These replace the hexes gained at 4th, 8th, 12th, and 16th levels.</p>
+<Ability id="weapon-proficiency" icon={["stairs-goal"]}>
+<Pair single id="weapon-proficiency">Weapon Proficiency</Pair>
+<Pair hl title="Alters">Weapon proficiencies</Pair>
+<Pair title="Ability">A tatterdemalion is proficient with <Link to="/eq-weapon/bolas">bolas</Link>, <Link to="/eq-weapon/net">nets</Link>, and <Link to="/eq-weapon/whip">whips</Link>.</Pair>
+</Ability>
+<Ability id="cantrips" icon={["broken-shield","spell-book"]}>
+<Pair single id="cantrips">Cantrips</Pair>
+<Pair hl title="Alters">Cantrips</Pair>
+<Pair title="Info">A tatterdemalion must choose <Link to="/spell/mage_hand">mage hand</Link>, <Link to="/spell/open_close">open/close</Link>, and <Link to="/spell/prestidigitation">prestidigitation</Link> as her prepared cantrips at 1st level, and they require a piece of cloth, string, rope, or other woven material (including clothing) as a focus. Any action she takes with these cantrips must involve the focus.</Pair>
+<Pair title="Special">Starting at 2nd level, she can choose any cantrip for her remaining cantrip.</Pair>
+</Ability>
+<Ability id="dancing-strings-su" icon={["spell-book"]}>
+<Pair single id="dancing-strings-su">Dancing Strings (Su)</Pair>
+<Pair hl title="Replaces">1st-level hex</Pair>
+<Pair hl title="Alters">Spells</Pair>
+<Pair title="Info">A tatterdemalion adds <Link to="/spell/animate_rope">animate rope</Link> to her class spell list and spells her familiar knows. She can control her clothing and cloth, rope, or woven fabric she wears in a manner otherwise identical to the <Link to="/hex/prehensile_hair">prehensile hair</Link> hex.</Pair>
+</Ability>
+<Ability id="witchweaver" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="witchweaver">Witchweaver</Pair>
+<Pair hl title="Replaces">4th-, 8th-, 12th-, and 16th-level hexes</Pair>
+<Pair title="Ability">A tatterdemalion gains the following unique hexes, with a caster level equal to her witch level.</Pair>
+</Ability>
+<Ability id="moth-eaten-sp" extraClasses="subAbility" icon={["magic-palm"]}>
+<Pair single id="moth-eaten-sp">Moth-Eaten (Sp)</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Usage">1 time/day per witch level</Pair>
+<Pair title="Ability">A tatterdemalion can make a touch attack that damages leather, rope, or cloth like <Link to="/spell/rusting_grasp">rusting grasp</Link> damages metal.</Pair>
+</Ability>
+<Ability id="lace-weaver-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="lace-weaver-sp">Lace Weaver (Sp)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">1 time/day per four witch levels<ByLevelPop levels={[[8,2],[12,3],[16,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">A tatterdemalion can create cloth as per <Link to="/spell/minor_creation">minor creation</Link> or create one 5-foot cube of tangled skeins of cloth per witch level, affecting the target areas as per <Link to="/spell/web">web</Link>.</Pair>
+</Ability>
+<Ability id="sinister-stitching-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="sinister-stitching-su">Sinister Stitching (Su)</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Usage">1 time/day per four witch levels<ByLevelPop levels={[[12,3],[16,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability">Once per day for every 4 witch levels she has, a tatterdemalion can conjure enchanted threads to hinder a creature she can see (Fortitude negates). The tatterdemalion can choose to either sew shut the target's eyes (<Link to="/misc/blind">blinding</Link> it) or mouth (preventing speech, bite attacks, breath weapons, verbal components, command words, and the like).</Pair>
+<Pair title="Special"><p>The target can end the effect with a successful Strength check (DC = 15 + 1/2 the tatterdemalion's witch level) as a <strong className="hl">standard action</strong>, or by slashing the stitches with a magic slashing weapon as a <strong className="hl">full-round action</strong> that provokes attacks of opportunity. Either way, the victim takes 1d4 points of <Link to="/rule/bleed">bleed</Link> damage and either is <Link to="/misc/dazzled">dazzled</Link> (for stitched eyes) or takes a -2 penalty on bite attack and damage rolls and a 20% chance of spell failure with verbal components (for a stitched mouth). Either residual effect lasts 1 minute per witch level.</p>
+<p>Any creature can safely remove the enchanted threads with a minute of work and a successful DC 25 Heal check.</p>
+</Pair>
+</Ability>
+<Ability id="unravel-su" extraClasses="subAbility" icon={["magic-swirl","armor-upgrade"]}>
+<Pair single id="unravel-su">Unravel (Su)</Pair>
+<Pair title="Gained">At 16th Level</Pair>
+<Pair title="Immediate Action">Once per day when a tatterdemalion is hit by a melee or ranged attack, she can unravel herself, causing her body and gear to appear to collapse into a bundle of tattered rags and strands while she teleports to any open square within 30 feet. She takes no damage from the triggering attack, but she must have line of effect to the target square.</Pair>
+<Pair title="At 20th Level">She can use this ability twice per day.</Pair>
+</Ability>
 </>};
 const _vellemancer = {title: "Vellemancer", jsx: <><h2 id="arc-witch-vellemancer-vellemancer">Vellemancer</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven pg. 17</Link><br/>While the popular stereotype envisions witches as wicked spellcasters sowing misery, many people turn to the arcane to heal others and better the world. The vellemancer is a guide, using her witchcraft to empower and teach others. She rarely dispenses every gift a needy soul asks, but she instead offers the advice, opportunities, and tools people require to achieve their own dreams.</p>
-<p><strong>Keen Counselor:</strong> The vellemancer is a guide and counselor. She adds Diplomacy and Sense Motive to her list of class skills. If a vellemancer's alignment becomes evil, she loses access to all the unique abilities provided by this archetype.</p>
-<p><strong>Invested Hex (Su):</strong> At 2nd level, a vellemancer learns to invest magical aid into a willing creature. Each day, she can implant a number of hexes equal to half her witch level (minimum 1) plus her Intelligence bonus (if any). Any given creature can have only one hex implanted at a given time, and implanting a new hex ends the previous one (the witch still loses the use of this ability she spent on the previous hex). Only beneficial hexes capable of affecting another creature can be implanted with invested hex, and this counts against the uses per day of hexes with limited uses per day or per creature.</p>
-<p>To implant a hex, the vellemancer must take a standard action and touch a willing creature. The vellemancer can activate the hex as a free action, or the hex can activate automatically when a single predetermined condition is met (decided when the hex is implanted). The subject must be within medium range (100 feet + 10 feet per level) for the witch to trigger the hex, but a predetermined condition can activate the hex regardless of range. An implanted hex lasts until the next time the witch regains her spells. Once triggered, a hex is no longer implanted and can't be triggered again.</p>
-<p>This replaces the <strong className="hl">hex</strong> normally gained at 2nd level.</p>
-<p><strong>Wishgranter (Su):</strong> Beginning at 6th level, a vellemancer can borrow mental strength from others' hopes and dreams to empower her own spellcasting. A creature can make a wish as a free action at any time, even during the vellemancer's turn. The vellemancer must be able to hear and understand a wish in order to use it as a spell component. A spell that doesn't normally have a verbal component gains one when cast using this ability. A wish doesn't need to mention the name of a specific spell, but it must describe an outcome that can be accomplished by casting a spell the vellemancer knows (for example, wishing to be more likable could supply the verbal component for <Link to="/spell/alter_self">alter self</Link>, <Link to="/spell/eagles_splendor">eagle's splendor</Link>, or even <Link to="/spell/baleful_polymorph">baleful polymorph</Link>, depending on the results). A vellemancer gains a +1 bonus to her caster level when using a creature's wish as a verbal component in this manner, but she cannot include herself as a target of such spells. She can be affected by such a spell if it affects an area rather than one or more targets. A vellemancer is under no compulsion to grant a creature's wish. Once the vellemancer grants a creature's wish using this ability, she cannot use this ability to grant that creature any further wishes for 24 hours.</p>
-<p>This replaces the <strong className="hl">hex</strong> gained at 6th level.</p>
-<p><strong>Expanded Wishgranter (Su):</strong> At 8th level, the vellemancer adds the following spells to her familiar for free: <Link to="/spell/bears_endurance">bear's endurance</Link>, <Link to="/spell/bulls_strength">bull's strength</Link>, <Link to="/spell/cats_grace">cat's grace</Link>, <em>eagle's splendor,</em> <Link to="/spell/foxs_cunning">fox's cunning</Link>, and <Link to="/spell/owls_wisdom">owl's wisdom</Link>. The vellemancer can cast these spells only as part of her wishgranter ability, but she can sacrifice any prepared spell of 2nd level or lower to spontaneously cast one of these spells.</p>
-<p>This replaces the <strong className="hl">hex</strong> normally gained at 8th level.</p>
+<Ability icon={["skills"]} id="undefined">
+<Pair id="undefined" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair></Ability>
+<Ability id="keen-counselor" icon={["hazard-sign"]}>
+<Pair single id="keen-counselor">Keen Counselor</Pair>
+<Pair title="Info">The vellemancer is a guide and counselor. If a vellemancer's alignment becomes evil, she loses access to all the unique abilities provided by this archetype.</Pair>
+</Ability>
+<Ability id="invested-hex-su" icon={["magic-swirl"]}>
+<Pair single id="invested-hex-su" flavor="A vellemancer learns to invest magical aid into a willing creature.">Invested Hex (Su)</Pair>
+<Pair hl title="Replaces">2nd-level hex</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability"><p>Each day, she can implant a number of hexes equal to half her witch level (minimum 1) plus her Intelligence bonus (if any). Any given creature can have only one hex implanted at a given time, and implanting a new hex ends the previous one (the witch still loses the use of this ability she spent on the previous hex). Only beneficial hexes capable of affecting another creature can be implanted with <em>invested hex,</em> and this counts against the uses per day of hexes with limited uses per day or per creature.</p>
+<p>To implant a hex, the vellemancer must take a <strong className="hl">standard action</strong> and touch a willing creature. The vellemancer can activate the hex as a <strong className="hl">free action</strong>, or the hex can activate automatically when a single predetermined condition is met (decided when the hex is implanted). The subject must be within medium range (100 feet + 10 feet per level) for the witch to trigger the hex, but a predetermined condition can activate the hex regardless of range. An implanted hex lasts until the next time the witch regains her spells. Once triggered, a hex is no longer implanted and can't be triggered again.</p>
+</Pair>
+</Ability>
+<Ability id="wishgranter-su" icon={["magic-swirl"]}>
+<Pair single id="wishgranter-su" flavor="A vellemancer can borrow mental strength from others' hopes and dreams to empower her own spellcasting.">Wishgranter (Su)</Pair>
+<Pair hl title="Replaces">6th-level hex</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability"><p>A creature can make a wish as a  at any time, even during the vellemancer's turn. The vellemancer must be able to hear and understand a wish in order to use it as a spell component. A spell that doesn't normally have a verbal component gains one when cast using this ability. A wish doesn't need to mention the name of a specific spell, but it must describe an outcome that can be accomplished by casting a spell the vellemancer knows (for example, wishing to be more likable could supply the verbal component for <Link to="/spell/alter_self">alter self</Link>, <Link to="/spell/eagles_splendor">eagle's splendor</Link>, or even <Link to="/spell/baleful_polymorph">baleful polymorph</Link>, depending on the results).</p>
+<p>A vellemancer gains a +1 bonus to her caster level when using a creature's wish as a verbal component in this manner, but she cannot include herself as a target of such spells. She can be affected by such a spell if it affects an area rather than one or more targets.</p>
+</Pair>
+<Pair title="Special">A vellemancer is under no compulsion to grant a creature's wish. Once the vellemancer grants a creature's wish using this ability, she cannot use this ability to grant that creature any further wishes for 24 hours.</Pair>
+</Ability>
+<Ability id="expanded-wishgranter-su" icon={["spell-book"]}>
+<Pair single id="expanded-wishgranter-su">Expanded Wishgranter (Su)</Pair>
+<Pair hl title="Replaces">8th-level hex</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">The vellemancer adds the following spells to her familiar for free: <Link to="/spell/bears_endurance">bear's endurance</Link>, <Link to="/spell/bulls_strength">bull's strength</Link>, <Link to="/spell/cats_grace">cat's grace</Link>, <em>eagle's splendor,</em> <Link to="/spell/foxs_cunning">fox's cunning</Link>, and <Link to="/spell/owls_wisdom">owl's wisdom</Link>. The vellemancer can cast these spells only as part of her <em>wishgranter</em> ability, but she can sacrifice any prepared spell of 2nd level or lower to spontaneously cast one of these spells.</Pair>
+</Ability>
 </>};
 const _veneficus_witch = {title: "Veneficus Witch", jsx: <><h2 id="arc-witch-veneficus_witch-veneficus-witch">Veneficus Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River pg. 8</Link><br/>Veneficus witches specialize in poisons - brewing both magical and traditional concoctions, and applying them to weapons, traps or even her potent hexes. Whether they're members of Daggermark's Poisoners' Guild or followers of Gyronna, veneficus witches are commonly found in the River Kingdoms.</p>
-<p><strong>Poisoner:</strong> A veneficus witch can select the following alchemist <Link to="/ability/discoveries">discoveries</Link> as hexes, major hexes, or grand hexes, as indicated below. The witch's effective alchemist level is equal to her witch level for the purpose of qualifying for these discoveries.</p>
-<p><strong>Hexes:</strong> <Link to="/discovery/concentrate_poison">Concentrate poison</Link>, <Link to="/discovery/poison_conversion">poison conversion</Link>, <Link to="/discovery/sticky_poison">sticky poison</Link>.</p>
-<p><strong>Major Hexes:</strong> <Link to="/discovery/malignant_poison">Malignant poison</Link>, <Link to="/discovery/nauseating_flesh">nauseating flesh</Link>.</p>
-<p><strong>Grand Hexes:</strong> <Link to="/discovery/poison_touch">Poison touch</Link> (grand discovery).</p>
-<p><strong>Poison Use (Ex):</strong> At 2nd level, a veneficus witch cannot accidentally poison herself when applying poison to a weapon.</p>
-<p><strong>Toxic Words (Ex):</strong> At 2nd level, whenever a veneficus witch targets a single creature with a hex, she can imbue her hex with a dose of injury or contact poison she is holding. The DCs of her hex and the poison are each reduced by 2; if the creature fails its save against the hex, the poison is expended and the creature must succeed at a Fortitude save against the poison or become poisoned. At 10th level, the DC of the witch's hex and poison are each reduced by only 1 and the witch can imbue her hexes with inhaled and ingested poisons as well.</p>
-<p>This ability replaces the witch's 2nd- and 10th-level <strong className="hl">hexes</strong>.</p>
-<p><strong>Hexes:</strong> The following witch hexes complement the veneficus witch archetype: <Link to="/hex/blight">blight</Link>, <Link to="/hex/cauldron">cauldron</Link>, <Link to="/hex/disguise">disguise</Link>, <Link to="/hex/poison_steep">poison steep</Link>.</p>
-<p><strong>Major Hexes:</strong> The following major hexes complement the veneficus witch archetype: <Link to="/hex/cook_people">cook people</Link>, <Link to="/hex/witchs_brew">witch's brew</Link>.</p>
-<p><strong>Grand Hex:</strong> The following grand hex complements the veneficus witch archetype: <Link to="/hex/eternal_slumber">eternal slumber</Link>.</p>
-</>};
+<Ability id="poisoner" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="poisoner">Poisoner</Pair>
+<Pair title="Ability">A veneficus witch can select the following alchemist <Link to="/ability/discoveries">discoveries</Link> as hexes, major hexes, or grand hexes, as indicated below. The witch's effective alchemist level is equal to her witch level for the purpose of qualifying for these discoveries.</Pair>
+</Ability>
+<Ability id="hexes" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="hexes">Hexes</Pair>
+<Pair title="Choice"><Link to="/discovery/concentrate_poison">Concentrate poison</Link>, <Link to="/discovery/poison_conversion">poison conversion</Link>, <Link to="/discovery/sticky_poison">sticky poison</Link>.</Pair>
+</Ability>
+<Ability id="major-hexes" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="major-hexes">Major Hexes</Pair>
+<Pair title="Choice"><Link to="/discovery/malignant_poison">Malignant poison</Link>, <Link to="/discovery/nauseating_flesh">nauseating flesh</Link>.</Pair>
+</Ability>
+<Ability id="grand-hexes" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="grand-hexes">Grand Hexes</Pair>
+<Pair title="Choice"><Link to="/discovery/poison_touch">Poison touch</Link> (grand discovery).</Pair>
+</Ability>
+<Ability id="poison-use-ex" icon={["armor-upgrade"]}>
+<Pair single id="poison-use-ex">Poison Use (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Passive Ability">A veneficus witch cannot accidentally poison herself when applying poison to a weapon.</Pair>
+</Ability>
+<Ability id="toxic-words-ex" icon={["upgrade","broken-shield"]}>
+<Pair single id="toxic-words-ex">Toxic Words (Ex)</Pair>
+<Pair hl title="Replaces">2nd- and 10th-level hexes</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">Whenever a veneficus witch targets a single creature with a hex, she can imbue her hex with a dose of injury or contact poison she is holding. The DCs of her hex and the poison are each reduced by 2; if the creature fails its save against the hex, the poison is expended and the creature must succeed at a Fortitude save against the poison or become poisoned.</Pair>
+<Pair title="At 10th Level">The DC of the witch's hex and poison are each reduced by only 1 and the witch can imbue her hexes with inhaled and ingested poisons as well.</Pair>
+</Ability>
+<p><strong className="hl">The following witch hexes complement this archetype:</strong> <Link to="/hex/blight">Blight</Link>, <Link to="/hex/cauldron">cauldron</Link>, <Link to="/hex/disguise">disguise</Link>, <Link to="/hex/poison_steep">poison steep</Link></p><p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/cook_people">Cook people</Link>, <Link to="/hex/witchs_brew">witch's brew</Link></p><p><strong className="hl">The following grand hex complements this archetype:</strong> <Link to="/hex/eternal_slumber">Eternal slumber</Link></p></>};
 const _venom_siphoner = {title: "Venom Siphoner", jsx: <><h2 id="arc-witch-venom_siphoner-venom-siphoner">Venom Siphoner</h2>
-<p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 10</Link><br/>Witches are no strangers to poisons, using them alongside their various brews, curses, spells, and other tools of the trade. A number of witches are masters of poison, receiving toxic gifts that allow them and their familiars to use poison in unparalleled manners.</p>
-<p><strong>Poisonous Familiar (Ex):</strong> The venom siphoner chooses either her familiar's bite attack or its claw attacks; once chosen, this selection can't be changed. The chosen natural attack gains the following poison ability:</p>
-<AffInfo type="Natural attack-injury" save="Fort 10 + 1/2 the witch's level + her Int modifier" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link></>} cure1 icon="p">Siphoner Poison</AffInfo>
-<p>Familiars without an appropriate natural attack instead gain the ability to spit the poison as a ranged touch attack. This spit attack deals no damage, but it exposes the struck creature to the poison, forcing it to attempt a saving throw to resist the poison as normal. If the familiar already has a poison, the witch can instead empower its poison. An empowered poison's frequency increases by 50%. If the witch ever replaces her familiar, she must choose how this ability applies to her new familiar as soon as she receives it.</p>
-<p>This replaces the <strong className="hl">hex</strong> gained at 1st level and the familiar's <strong className="hl">alertness</strong> special ability.</p>
-<p><strong>Venom Expert (Ex):</strong> At 2nd level, a venom siphoner does not risk exposure to her familiar's poison when attempting to <Link to="/rule/harvesting_poisons">milk venom</Link> from it.</p>
-<p>This replaces the <strong className="hl">hex</strong> gained at 2nd level.</p>
-<p><strong>Toxic Blood (Ex):</strong> At 6th level, the venom siphoner's blood becomes toxic, empowering her abilities. Any creature that deals bleed damage to her with a natural, light, or one-handed weapon is automatically exposed to the same poison granted to her familiar and must succeed at the save or be affected by the poison. Additionally, when casting spells that have a single target and require a Fortitude save, she can cause the spell to deliver this poison as a free action; a target who succeeds at the save against the spell also avoids being affected by the poison. She can cause spells to deliver poison in this way a number of times per day equal to 3 + her Intelligence modifier. This ability refreshes when the venom siphoner communes with her familiar to prepare her daily spells.</p>
-<p>This replaces the <strong className="hl">hex</strong> gained at 6th level.</p>
+<p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 10</Link><br/>Witches are no strangers to <Link to="/rule/poisons">poisons</Link>, using them alongside their various brews, curses, spells, and other tools of the trade. A number of witches are masters of poison, receiving toxic gifts that allow them and their familiars to use poison in unparalleled manners.</p>
+<Ability id="poisonous-familiar-ex" icon={["mailed-fist"]}>
+<Pair single id="poisonous-familiar-ex">Poisonous Familiar (Ex)</Pair>
+<Pair hl title="Replaces">1st-level hex, the familiar's alertness special ability</Pair>
+<Pair title="Choice">The venom siphoner chooses either her familiar's bite attack or its claw attacks; once chosen, this selection can't be changed.</Pair>
+<Pair title="Ability"><p>The chosen natural attack gains the poison ability below. Familiars without an appropriate natural attack instead gain the ability to spit the poison as a ranged touch attack. This spit attack deals no damage, but it exposes the struck creature to the poison, forcing it to attempt a saving throw to resist the poison as normal.</p>
+<AffInfo type="Natural attack or ranged touch attack-injury" save="Fort 10 + 1/2 the witch's level + her Int modifier" freq="1/round for 6 rounds" eff={<>1d2 <Link to="/rule/dex_damage">Dex damage</Link></>} cure1 icon="p">Siphoner Poison</AffInfo>
+<p>If the familiar already has a poison, the witch can instead <em>empower</em> its poison. An empowered poison's frequency increases by 50%.</p>
+</Pair>
+<Pair title="Special">If the witch ever replaces her familiar, she must choose how this ability applies to her new familiar as soon as she receives it.</Pair>
+</Ability>
+<Ability id="venom-expert-ex" icon={["armor-upgrade"]}>
+<Pair single id="venom-expert-ex">Venom Expert (Ex)</Pair>
+<Pair hl title="Replaces">2nd-level hex</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Ability">A venom siphoner does not risk exposure to her familiar's poison when attempting to <Link to="/rule/milk_venom">milk venom</Link> from it.</Pair>
+</Ability>
+<Ability id="toxic-blood-ex" icon={["armor-upgrade"]}>
+<Pair single id="toxic-blood-ex" flavor="The venom siphoner's blood becomes toxic, empowering her abilities.">Toxic Blood (Ex)</Pair>
+<Pair hl title="Replaces">6th-level hex</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Passive Ability">Any creature that deals <Link to="/rule/bleed">bleed</Link> damage to her with a natural, light, or one-handed weapon is automatically exposed to the same poison granted to her familiar and must succeed at the save or be affected by the poison.</Pair>
+<Pair title="Ability">Additionally, when casting spells that have a single target and require a Fortitude save, she can cause the spell to deliver this poison as a <strong className="hl">free action</strong>; a target who succeeds at the save against the spell also avoids being affected by the poison.</Pair>
+<Pair title="Usage">3 + Intelligence modifier times/day</Pair>
+<Pair title="Special">This ability refreshes when the venom siphoner communes with her familiar to prepare her daily spells.</Pair>
+</Ability>
 </>};
 const _white_haired_witch = {title: "White-Haired Witch", jsx: <><h2 id="arc-witch-white_haired_witch-white-haired-witch">White-Haired Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer pg. 23</Link><br/>A white-haired witch concentrates her mysterious powers on improving her prowess in melee, using feats of agility and her prehensile hair to deal extreme damage. The white-haired witch is an archetype of the witch class.</p>
-<p><strong>White Hair (Su):</strong> At 1st level, a white-haired witch gains the ability to use her hair as a weapon. This functions as a primary <Link to="/umr/natural_attack">natural attack</Link> with a reach of 5 feet. The hair deals 1d4 points of damage (1d3 for a Small witch) plus the witch's Intelligence modifier. In addition, whenever the hair strikes a foe, the witch can attempt to grapple that foe with her hair as a free action without provoking an attack of opportunity, using her Intelligence modifier in place of her Strength modifier when making the combat maneuver check. When a white-haired witch grapples a foe in this way, she does not gain the grappled condition.</p>
-<p>At 4th level and every four levels thereafter, a whitehaired witch's hair adds 5 feet to its reach, to a maximum of 30 feet at 20th level.</p>
-<p>The hair cannot be sundered or attacked as a separate creature. In addition, a white-haired witch further improves her ability to control her hair as she progresses in level, gaining the following abilities.</p>
-<blockquote>
-<p><strong>Constrict (Ex):</strong> At 2nd level, when the white-haired witch's hair successfully grapples an opponent, it can begin constricting her victim as a free action, dealing damage equal to that of its attack.</p>
-<p><strong>Trip (Ex):</strong> At 4th level, a white-haired witch who successfully strikes a foe with her hair can attempt a combat maneuver check to trip the creature as a free action.</p>
-<p><strong>Pull (Ex):</strong> At 6th level, a white-haired witch who successfully strikes a foe with her hair can attempt a combat maneuver check to pull the creature 5 feet closer to her as a free action.</p>
-<p><strong>Strangle (Ex):</strong> At 8th level, when the white-haired witch's hair is grappling with an opponent, that creature is considered strangled, and cannot speak or cast spells with verbal components.</p>
-</blockquote>
-<p>This ability replaces <strong className="hl">hex</strong>.</p>
-<p><strong>Rogue Talents:</strong> At 10th level, a white-haired witch learns a rogue talent, using her white-haired witch level in place of her rogue level. At 12th level and for every two levels thereafter, she gains an additional rogue talent. A whitehaired witch cannot select an individual rogue talent more than once, and can select from among the following: <Link to="/talent/assault_leader">assault leader</Link>, <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link>, <Link to="/talent/positioning_attack">positioning attack</Link>, <Link to="/talent/resiliency">resiliency</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, and <Link to="/talent/weapon_training">weapon training</Link>. At 18th level and 20th level, a white-haired witch can choose from among the following advanced rogue talents: <Link to="/talent/another_day">another day</Link>, <Link to="/talent/defensive_roll">defensive roll</Link>, <Link to="/talent/improved_evasion">improved evasion</Link>, <Link to="/talent/opportunist">opportunist</Link>, <Link to="/talent/redirect_attack">redirect attack</Link>, <Link to="/talent/slippery_mind">slippery mind</Link>, and <Link to="/talent/thoughtful_reexamining">thoughtful reexamining</Link>.</p>
-<p>This ability replaces <strong className="hl">major hex</strong> and <strong className="hl">grand hex</strong>.</p>
+<Ability id="white-hair-su" extraClasses="hasSubs" icon={["mailed-fist"]}>
+<Pair single id="white-hair-su">White Hair (Su)</Pair>
+<Pair hl title="Replaces">Hex</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A white-haired witch gains the ability to use her hair as a weapon. This functions as a primary <Link to="/umr/natural_attack">natural attack</Link> with a reach of 5 feet. The hair deals 1d4 points of damage (1d3 for a Small witch) plus the witch's Intelligence modifier. In addition, whenever the hair strikes a foe, the witch can attempt to <Link to="/rule/grapple">grapple</Link> that foe with her hair as a <strong className="hl">free action</strong> without provoking an attack of opportunity, using her Intelligence modifier in place of her Strength modifier when making the combat maneuver check. When a white-haired witch grapples a foe in this way, she does not gain the <Link to="/rule/grappled">grappled</Link> condition.</Pair>
+<Pair title="At 4th Level">Her hair's reach becomes 10 feet.</Pair>
+<Pair title="At 8th Level">Her hair's reach increases to 15 feet.</Pair>
+<Pair title="At 12th Level">Her hair's reach becomes 20 feet.</Pair>
+<Pair title="At 16th Level">Her hair's reach increases to 25 feet.</Pair>
+<Pair title="At 20th Level">Her hair's reach becomes 30 feet.</Pair>
+<Pair title="Special">The hair cannot be <Link to="/rule/sunder">sundered</Link> or attacked as a separate creature. In addition, a white-haired witch further improves her ability to control her hair as she progresses in level, gaining the following abilities.</Pair>
+</Ability>
+<Ability id="constrict-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="constrict-ex">Constrict (Ex)</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Free Action">When the white-haired witch's hair successfully grapples an opponent, it can begin constricting her victim, dealing damage equal to that of its attack.</Pair>
+</Ability>
+<Ability id="trip-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="trip-ex">Trip (Ex)</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Free Action">A white-haired witch who successfully strikes a foe with her hair can attempt a combat maneuver check to <Link to="/rule/trip">trip</Link> the creature.</Pair>
+</Ability>
+<Ability id="pull-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="pull-ex">Pull (Ex)</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Free Action">A white-haired witch who successfully strikes a foe with her hair can attempt a combat maneuver check to pull the creature 5 feet closer to her.</Pair>
+</Ability>
+<Ability id="strangle-ex" extraClasses="subAbility" icon={["mailed-fist"]}>
+<Pair single id="strangle-ex">Strangle (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">When the white-haired witch's hair is grappling with an opponent, that creature is considered <Link to="/umr/strangle">strangled</Link>, and cannot speak or cast spells with verbal components.</Pair>
+</Ability>
+<Ability id="rogue-talents" icon={["stairs-goal"]}>
+<Pair single id="rogue-talents">Rogue Talents</Pair>
+<Pair hl title="Replaces">Major hex, grand hex</Pair>
+<Pair title="At 10th Level">A white-haired witch learns a rogue talent, using her white-haired witch level in place of her rogue level. She can select from the following talents: <Link to="/talent/assault_leader">assault leader</Link>, <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link>, <Link to="/talent/positioning_attack">positioning attack</Link>, <Link to="/talent/resiliency">resiliency</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, and <Link to="/talent/weapon_training">weapon training</Link>.</Pair>
+<Pair title="At 12th Level">She gains an additional rogue talent. A whitehaired witch cannot select an individual rogue talent more than once.</Pair>
+<Pair title="At 14th Level">She gains an additional rogue talent.</Pair>
+<Pair title="At 16th Level">She gains an additional rogue talent.</Pair>
+<Pair title="At 18th Level">She gains an additional rogue talent. She can now choose from among the following advanced rogue talents, too: <Link to="/talent/another_day">another day</Link>, <Link to="/talent/defensive_roll">defensive roll</Link>, <Link to="/talent/improved_evasion">improved evasion</Link>, <Link to="/talent/opportunist">opportunist</Link>, <Link to="/talent/redirect_attack">redirect attack</Link>, <Link to="/talent/slippery_mind">slippery mind</Link>, and <Link to="/talent/thoughtful_reexamining">thoughtful reexamining</Link>.</Pair>
+<Pair title="At 20th Level">She gains an additional rogue talent.</Pair>
+</Ability>
 </>};
 const _winter_witch = {title: "Winter Witch", jsx: <><h2 id="arc-witch-winter_witch-winter-witch">Winter Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/reign_of_winter_players_guide">Reign of Winter Player's Guide pg. 11</Link>, <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 43</Link><br/>The descendents of Baba Yaga rule the frozen realm of Irrisen, and possess a unique power stemming from their otherworldly origin and their ties to cold magic. This power is partly magical, partly political, and partly cultural. Known as winter witches, these scions of Baba Yaga have not bothered to hide their secrets from outsiders, for they understand that those who see winter witches not native to Irrisen working their frozen magic will simply assume the witches are agents of Irrisen. By opening up their traditions to those who have no direct blood connection to Baba Yaga or the ruling families of Irrisen, they spread the notoriety and infamy of their wintry magic far beyond what they could accomplish on their own. While winter witches are most commonly encountered in Irrisen, they could be encountered in any part of the Inner Sea region, where they work to increase Irrisen's notoriety with each frozen spell and manipulative hex they cast. A winter witch has the following class features.</p>
-<p><strong>Familiar:</strong> Winter witches must choose a familiar that is native to the frozen north, even if they themselves operate in other regions. Traditionally, this limits winter witch <Link to="/ability/familiar">familiar</Link> choices to bat, cat, fox, hawk, owl, rat, raven, or weasel. A winter witch who gains the <Link to="/feat/improved_familiar">Improved Familiar</Link> feat can select any familiar she desires, save for familiars with the fire subtype.</p>
-<p><strong>Cantrips:</strong> A winter witch adds <Link to="/spell/ray_of_frost">ray of frost</Link> to her spell list, but does not automatically learn this cantrip.</p>
-<p><strong>Patron:</strong> A winter witch must choose her patron from one of the following patron themes: <Link to="/patron/ancestors">ancestors</Link>, <Link to="/patron/deception">deception</Link>, <Link to="/patron/enchantment">enchantment</Link>, <Link to="/patron/endurance">endurance</Link>, <Link to="/patron/moon">moon</Link>, <Link to="/patron/occult">occult</Link>, <Link to="/patron/portents">portents</Link>, <Link to="/patron/stars">stars</Link>, <Link to="/patron/transformation">transformation</Link>, <Link to="/patron/trickery">trickery</Link>, <Link to="/patron/vengeance">vengeance</Link>, <Link to="/patron/water">water</Link>, <Link to="/patron/winter">winter</Link>, or <Link to="/patron/wisdom">wisdom</Link>.</p>
-<p><strong>Ice Magic:</strong> When a winter witch casts a spell with the cold descriptor, the save DC of the spell increases by 1. A winter witch cannot learn or cast spells with the fire descriptor at all.</p>
-<p><strong>Cold Flesh (Ex):</strong> At 1st level, a winter witch gains <Link to="/spell/endure_elements">endure elements</Link> as a constant spell-like ability, but only against cold temperatures. At 4th level, she gains cold resistance 5, making her comfortable in near-freezing temperatures. At 9th-level, this increases to cold resistance 10, and at 14th level, it becomes immunity to cold.</p>
-<p>This replaces the witch's 4th-level <strong className="hl">hex</strong>.</p>
-<p><strong>Hexes:</strong> The following hexes complement the winter witch archetype: <Link to="/hex/beast_eye">beast eye</Link>, <Link to="/hex/blight">blight</Link>, <Link to="/hex/cook_people">cook people</Link>, <Link to="/hex/evil_eye">evil eye</Link>, <Link to="/hex/feral_speech">feral speech</Link>, <Link to="/hex/hags_eye">hag's eye</Link>, <Link to="/hex/hoarfrost">hoarfrost</Link>, <Link to="/hex/ice_tomb">ice tomb</Link>, <Link to="/hex/witchs_hut">witch's hut</Link>.</p>
-<p>A winter witch can select the following hexes:</p>
-<blockquote>
-<p><strong>Frostfoot (Su):</strong> This ability works like the <Link to="/spell/spider_climb">spider climb</Link> spell, but the surfaces the witch climbs must be icy. The witch can move across icy surfaces without penalty and does not need to make Acrobatics checks to run or charge on ice. She can move across regular snow without penalty, and heavy snow costs her only 2 squares of movement instead of 4.</p>
-<p><strong>Frozen Caress (Su):</strong> Whenever the winter witch casts a touch spell, she can infuse the magic with cold as a swift action. This grants the spell the cold descriptor, and adds 1d4 points of cold damage to the spell's effect. If the touch spell allows a saving throw, a successful save negates this additional cold damage.</p>
-</blockquote>
+<Ability id="familiar" icon={["info"]}>
+<Pair single id="familiar">Familiar</Pair>
+<Pair title="Info">Winter witches must choose a familiar that is native to the frozen north, even if they themselves operate in other regions. Traditionally, this limits winter witch <Link to="/ability/familiar">familiar</Link> choices to bat, cat, fox, hawk, owl, rat, raven, or weasel.</Pair>
+<Pair title="Special">A winter witch who gains the <Link to="/feat/improved_familiar">Improved Familiar</Link> feat can select any familiar she desires, save for familiars with the fire subtype.</Pair>
+</Ability>
+<Ability id="cantrips" icon={["spell-book"]}>
+<Pair single id="cantrips">Cantrips</Pair>
+<Pair title="Info">A winter witch adds <Link to="/spell/ray_of_frost">ray of frost</Link> to her spell list, but does not automatically learn this cantrip.</Pair>
+</Ability>
+<Ability id="patron" icon={["info"]}>
+<Pair single id="patron">Patron</Pair>
+<Pair title="Info">A winter witch must choose her patron from one of the following patron themes: <Link to="/patron/ancestors">ancestors</Link>, <Link to="/patron/deception">deception</Link>, <Link to="/patron/enchantment">enchantment</Link>, <Link to="/patron/endurance">endurance</Link>, <Link to="/patron/moon">moon</Link>, <Link to="/patron/occult">occult</Link>, <Link to="/patron/portents">portents</Link>, <Link to="/patron/stars">stars</Link>, <Link to="/patron/transformation">transformation</Link>, <Link to="/patron/trickery">trickery</Link>, <Link to="/patron/vengeance">vengeance</Link>, <Link to="/patron/water">water</Link>, <Link to="/patron/winter">winter</Link>, or <Link to="/patron/wisdom">wisdom</Link>.</Pair>
+</Ability>
+<Ability id="ice-magic" icon={["upgrade","broken-shield"]}>
+<Pair single id="ice-magic">Ice Magic</Pair>
+<Pair title="Passive Ability">When a winter witch casts a spell with the cold descriptor, the save DC of the spell increases by 1. A winter witch cannot learn or cast spells with the fire descriptor at all.</Pair>
+</Ability>
+<Ability id="cold-flesh-ex" icon={["armor-upgrade"]}>
+<Pair single id="cold-flesh-ex">Cold Flesh (Ex)</Pair>
+<Pair hl title="Replaces">4th-level hex</Pair>
+<Pair title="At 1st Level">A winter witch gains <Link to="/spell/endure_elements">endure elements</Link> as a constant spell-like ability, but only against cold temperatures.</Pair>
+<Pair title="At 4th Level">She gains cold resistance 5, making her comfortable in near-freezing temperatures.</Pair>
+<Pair title="At 9th Level">This increases to cold resistance 10.</Pair>
+<Pair title="At 14th Level">It becomes immunity to cold.</Pair>
+</Ability>
+<p><strong className="hl">The following hexes complement this archetype:</strong> <Link to="/hex/beast_eye">Beast eye</Link>, <Link to="/hex/blight">blight</Link>, <Link to="/hex/cook_people">cook people</Link>, <Link to="/hex/evil_eye">evil eye</Link>, <Link to="/hex/feral_speech">feral speech</Link>, <Link to="/hex/hags_eye">hag's eye</Link>, <Link to="/hex/hoarfrost">hoarfrost</Link>, <Link to="/hex/ice_tomb">ice tomb</Link>, <Link to="/hex/witchs_hut">witch's hut</Link></p><Ability id="hexes" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="hexes">Hexes</Pair>
+<Pair title="Ability">A winter witch can select the following hexes.</Pair>
+</Ability>
+<Ability id="frostfoot-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="frostfoot-su">Frostfoot (Su)</Pair>
+<Pair title="Ability">This ability works like the <Link to="/spell/spider_climb">spider climb</Link> spell, but the surfaces the witch climbs must be icy. The witch can move across icy surfaces without penalty and does not need to make <Link to="/skill/acrobatics">Acrobatics</Link> checks to run or charge on ice. She can move across regular <Link to="/rule/snow">snow</Link> without penalty, and heavy snow costs her only 2 squares of movement instead of 4.</Pair>
+</Ability>
+<Ability id="frozen-caress-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="frozen-caress-su">Frozen Caress (Su)</Pair>
+<Pair title="Swift Action">Whenever the winter witch casts a touch spell, she can infuse the magic with cold. This grants the spell the <Link to="/spelldef/cold">cold</Link> descriptor, and adds 1d4 points of cold damage to the spell's effect. If the touch spell allows a saving throw, a successful save negates this additional cold damage.</Pair>
+</Ability>
 </>};
 const _witch_watcher = {title: "Witch-Watcher", jsx: <><h2 id="arc-witch-witch_watcher-witch-watcher">Witch-Watcher</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 9</Link><br/>For reasons known only to them, witch-watchers offer protection to nobles across Golarion. While they serve openly in Irrisen and Varisia, they watch from the shadows in courts in Brevoy, Mendev, the River Kingdoms, and Ustalav, where their presence is barely tolerated.</p>
-<p><strong>Diminished Spellcasting:</strong> A witch-watcher gains one fewer spell of each level than normal. If this reduces the number to zero, she can cast spells of that level only if her Intelligence score is high enough to grant <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</p>
-<p>This alters the witch's <strong className="hl">spellcasting</strong>.</p>
-<p><strong>Covenant Ally (Su):</strong> Once per day when preparing her spells, a witch-watcher makes a covenant with her patron to provide protection to a single creature, known as her covenant ally. As a standard action when her covenant ally is within 30 feet, a witch-watcher can grant it one of the abilities listed below. Unless otherwise noted, each ability lasts for a number of minutes equal to the witch-watcher's Intelligence modifier. She can grant a number of abilities per day equal to 1/2 her witch level (minimum 1).</p>
-<blockquote>
-<p><strong>Health:</strong> The covenant ally gains a number of temporary hit points equal to the witch-watcher's witch level her Intelligence modifier (minimum 1). The temporary hit points from this ability do not stack with themselves, but additional uses cause the total number of temporary hit points and the duration to reset.</p>
-<p><strong>Safeguard:</strong> The covenant ally gains a deflection bonus to AC or a resistance bonus on saving throws equal to 1/2 the witch-watcher's witch level (minimum 1). When given, this bonus can be divided between the AC and saving throws as the witch-watcher wishes, up to a maximum of for either.</p>
-<p><strong>Solace:</strong> The witch-watcher temporarily disrupts a spell affecting her covenant ally by succeeding at a dispel check against the spell, as per <Link to="/spell/dispel_magic">dispel magic</Link>. The ability suppresses a spell effect for a number of rounds equal to the witchwatcher's Intelligence modifier (minimum 1). If the spell affects multiple creatures, this ability suppresses the spell effect only for the covenant ally. At the end of this duration, the spell resumes and the suppressed rounds do not count against its total duration. This ability has no effect on spells that are instantaneous or have a duration of permanent.</p>
-<p><strong>Spell Resistance:</strong> The covenant ally gains spell resistance equal to 6 the witch-watcher's witch level for a number of rounds equal to the witch-watcher's Intelligence modifier. At 10th level, the spell resistance increases to 11 the witch-watcher's witch level. The spell resistance cannot be suppressed, but it doesn't affect spells cast by the witch-watcher.</p>
-</blockquote>
+<Ability id="diminished-spellcasting" icon={["broken-shield"]}>
+<Pair single id="diminished-spellcasting">Diminished Spellcasting</Pair>
+<Pair hl title="Alters">Spellcasting</Pair>
+<Pair title="Info">A witch-watcher gains one fewer spell of each level than normal. If this reduces the number to zero, she can cast spells of that level only if her Intelligence score is high enough to grant <Link to="/rule/bonus_spells">bonus spells</Link> of that level.</Pair>
+</Ability>
+<Ability id="covenant-ally-su" extraClasses="hasSubs" icon={["shield-reflect"]}>
+<Pair single id="covenant-ally-su">Covenant Ally (Su)</Pair>
+<Pair title="Ability">Once per day when preparing her spells, a witch-watcher makes a covenant with her patron to provide protection to a single creature, known as her <em>covenant ally.</em></Pair>
+<Pair title="Standard Action">When her <em>covenant ally</em> is within 30 feet, a witch-watcher can grant it one of the abilities listed below.</Pair>
+<Pair title="Special">Unless otherwise noted, each ability lasts for a number of minutes equal to the witch-watcher's Intelligence modifier. She can grant a number of abilities per day equal to 1/2 her witch level (minimum 1).</Pair>
+</Ability>
+<Ability id="health" extraClasses="subAbility" icon={["remedy"]}>
+<Pair single id="health">Health</Pair>
+<Pair title="Ability">The <em>covenant ally</em> gains a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the witch-watcher's witch level + her Intelligence modifier (minimum 1). The temporary hit points from this ability do not stack with themselves, but additional uses cause the total number of temporary hit points and the duration to reset.</Pair>
+</Ability>
+<Ability id="safeguard" extraClasses="subAbility" icon={["shield-reflect"]}>
+<Pair single id="safeguard">Safeguard</Pair>
+<Pair title="Passive Ability">The <em>covenant ally</em> gains a deflection bonus to AC or a resistance bonus on saving throws equal to 1/2 the witch-watcher's witch level (minimum 1). When given, this bonus can be divided between the AC and saving throws as the witch-watcher wishes, up to a maximum of +5 for either.</Pair>
+</Ability>
+<Ability id="solace" extraClasses="subAbility" icon={["shield-reflect"]}>
+<Pair single id="solace">Solace</Pair>
+<Pair title="Ability"><p>The witch-watcher temporarily disrupts a spell affecting her <em>covenant ally</em> by succeeding at a dispel check against the spell, as per <Link to="/spell/dispel_magic">dispel magic</Link>. The ability suppresses a spell effect for a number of rounds equal to the witch-watcher's Intelligence modifier (minimum 1). If the spell affects multiple creatures, this ability suppresses the spell effect only for the <em>covenant ally.</em></p>
+<p>At the end of this duration, the spell resumes and the suppressed rounds do not count against its total duration.</p>
+</Pair>
+<Pair title="Special">This ability has no effect on spells that are instantaneous or have a duration of permanent.</Pair>
+</Ability>
+<Ability id="spell-resistance" extraClasses="subAbility" icon={["shield-reflect"]}>
+<Pair single id="spell-resistance">Spell Resistance</Pair>
+<Pair title="Passive Ability">The <em>covenant ally</em> gains spell resistance equal to 6 + the witch-watcher's witch level for a number of rounds equal to the witch-watcher's Intelligence modifier.</Pair>
+<Pair title="At 10th Level">The spell resistance increases to 11 + the witch-watcher's witch level.</Pair>
+<Pair title="Special">The spell resistance cannot be suppressed, but it doesn't affect spells cast by the witch-watcher.</Pair>
+</Ability>
 </>};
 const _wyrm_witch = {title: "Wyrm Witch", jsx: <><h2 id="arc-witch-wyrm_witch-wyrm-witch">Wyrm Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons pg. 15</Link><br/>Though a dragon derives no power from accumulating precious metals and gems, its desire to acquire and maintain vast piles of valuables is an important part of its personality. Some witch covens, particularly those in rich mercantile nations like Druma or Katapesh, have learned to use treasure to access other draconic powers.</p>
-<p><strong>Draconic Patronage:</strong> A wyrmwitch must select one of the following patrons when he gains this archetype. Only witches with the wyrmwitch archetype can select these patrons</p>
-<blockquote className="hanging">
-<p><strong>Chromatic:</strong> 2nd - <Link to="/spell/cause_fear">cause fear</Link>, 4th - <Link to="/spell/hold_person">hold person</Link>, 6th - <Link to="/spell/suggestion">suggestion</Link>, 8th - <Link to="/spell/aura_of_doom">aura of doom</Link>, 10th - <Link to="/spell/dominate_person">dominate person</Link>, 12th - <Link to="/spell/geas_quest">geas/quest</Link>, 14th - <Link to="/spell/mass_hold_person">mass hold person</Link>, 16th - <Link to="/spell/frightful_aspect">frightful aspect</Link>, 18th - <Link to="/spell/overwhelming_presence">overwhelming presence</Link></p>
-<p><strong>Esoteric:</strong> 2nd - <Link to="/spell/memory_lapse">memory lapse</Link>, 4th - <Link to="/spell/psychic_reading">psychic reading</Link>, 6th - <Link to="/spell/nondetection">nondetection</Link>, 8th - <Link to="/spell/hypercognition">hypercognition</Link>, 10th - <Link to="/spell/mind_probe">mind probe</Link>, 12th - <Link to="/spell/telepathy">telepathy</Link>, 14th - <Link to="/spell/insanity">insanity</Link>, 16th - <Link to="/spell/screen">screen</Link>, 18th - <Link to="/spell/bilocation">bilocation</Link></p>
-<p><strong>Imperial:</strong> 2nd - <Link to="/spell/endure_elements">endure elements</Link>, 4th - <Link to="/spell/gust_of_wind">gust of wind</Link>, 6th - <Link to="/spell/hydraulic_torrent">hydraulic torrent</Link>, 8th - <Link to="/spell/obsidian_flow">obsidian flow</Link>, 10th - <Link to="/spell/fickle_winds">fickle winds</Link>, 12th - <Link to="/spell/move_earth">move earth</Link>, 14th - <Link to="/spell/reverse_gravity">reverse gravity</Link>, 16th - <Link to="/spell/wall_of_lava">wall of lava</Link>, 18th - <Link to="/spell/world_wave">world wave</Link></p>
-<p><strong>Metallic:</strong> 2nd - <Link to="/spell/protection_from_evil">protection from evil</Link>, 4th - <Link to="/spell/weapon_of_awe">weapon of awe</Link>, 6th - <Link to="/spell/heroism">heroism</Link>, 8th - <Link to="/spell/dispel_evil">dispel evil</Link>, 10th - <Link to="/spell/commune">commune</Link>, 12th - <Link to="/spell/greater_heroism">greater heroism</Link>, 14th - <Link to="/spell/limited_wish">limited wish</Link>, 16th - <Link to="/spell/holy_aura">holy aura</Link>, 18th - <Link to="/spell/miracle">miracle</Link></p>
-<p><strong>Outer:</strong> 2nd - <Link to="/spell/deja_vu">deja vu</Link>, 4th - <Link to="/spell/darkness">darkness</Link>, 6th - <Link to="/spell/blink">blink</Link>, 8th - <Link to="/spell/black_tentacles">black tentacles</Link>, 10th - <Link to="/spell/mindwipe">mindwipe</Link>, 12th - <Link to="/spell/shadow_walk">shadow walk</Link>, 14th - <Link to="/spell/lunar_veil">lunar veil</Link>, 16th - <Link to="/spell/orb_of_the_void">orb of the void</Link>, 18th - <Link to="/spell/weird">weird</Link></p>
-<p><strong>Primal:</strong> 2nd - <Link to="/spell/burning_hands">burning hands</Link>, 4th - <Link to="/spell/elemental_touch">elemental touch</Link>, 6th - <Link to="/spell/elemental_aura">elemental aura</Link>, 8th - <Link to="/spell/planar_adaptation">planar adaptation</Link>, 10th - <Link to="/spell/elemental_body_ii">elemental body II</Link>, 12th - <Link to="/spell/chain_lightning">chain lightning</Link>, 14th - <Link to="/spell/vortex">vortex</Link>, 16th - <Link to="/spell/polar_ray">polar ray</Link>, 18th - <Link to="/spell/fiery_body">fiery body</Link></p>
-</blockquote>
-<p><strong>Wyrmwitch's Hoard:</strong> Unlike traditional witches, a wyrmwitch does not have a familiar. Instead, a wyrmwitch develops a metaphysical link with a bonded hoard of treasure that serves as a conduit to the wyrmwitch's patron. A wyrmwitch's hoard must have a value of 50 gp plus 100 gp for every character level he has beyond 1st. Only nonmagical objects that are not alchemical items, weapons, armor, or useful tools can be part of a wyrmwitch's hoard. If the hoard falls below this value, the wyrmwitch cannot sleep on his hoard (see below) or add new spells to it until its value is restored.</p>
+<Ability id="draconic-patronage" icon={["info"]}>
+<Pair single id="draconic-patronage">Draconic Patronage</Pair>
+<Pair title="Choice">A wyrmwitch must select one of the following patrons when he gains this archetype. The patron grants spells at the listed witch level.</Pair>
+<Pair title="Special">Only witches with the wyrmwitch archetype can select these patrons.</Pair>
+</Ability>
+<Ability id="chromatic" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="chromatic">Chromatic</Pair>
+<Pair plain title="2nd"><Link to="/spell/cause_fear">Cause fear</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/hold_person">Hold person</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/suggestion">Suggestion</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/aura_of_doom">Aura of doom</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/dominate_person">Dominate person</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/geas_quest">Geas/quest</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/mass_hold_person">Mass hold person</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/frightful_aspect">Frightful aspect</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/overwhelming_presence">Overwhelming presence</Link></Pair>
+</Ability>
+<Ability id="esoteric" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="esoteric">Esoteric</Pair>
+<Pair plain title="2nd"><Link to="/spell/memory_lapse">Memory lapse</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/psychic_reading">Psychic reading</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/nondetection">Nondetection</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/hypercognition">Hypercognition</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/mind_probe">Mind probe</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/telepathy">Telepathy</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/insanity">Insanity</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/screen">Screen</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/bilocation">Bilocation</Link></Pair>
+</Ability>
+<Ability id="imperial" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="imperial">Imperial</Pair>
+<Pair plain title="2nd"><Link to="/spell/endure_elements">Endure elements</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/gust_of_wind">Gust of wind</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/hydraulic_torrent">Hydraulic torrent</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/obsidian_flow">Obsidian flow</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/fickle_winds">Fickle winds</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/move_earth">Move earth</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/reverse_gravity">Reverse gravity</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/wall_of_lava">Wall of lava</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/world_wave">World wave</Link></Pair>
+</Ability>
+<Ability id="metallic" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="metallic">Metallic</Pair>
+<Pair plain title="2nd"><Link to="/spell/protection_from_evil">Protection from evil</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/weapon_of_awe">Weapon of awe</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/heroism">Heroism</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/dispel_evil">Dispel evil</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/commune">Commune</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/greater_heroism">Greater heroism</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/limited_wish">Limited wish</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/holy_aura">Holy aura</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/miracle">Miracle</Link></Pair>
+</Ability>
+<Ability id="outer" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="outer">Outer</Pair>
+<Pair plain title="2nd"><Link to="/spell/deja_vu">Deja vu</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/darkness">Darkness</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/blink">Blink</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/black_tentacles">Black tentacles</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/mindwipe">Mindwipe</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/shadow_walk">Shadow walk</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/lunar_veil">Lunar veil</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/orb_of_the_void">Orb of the void</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/weird">Weird</Link></Pair>
+</Ability>
+<Ability id="primal" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="primal">Primal</Pair>
+<Pair plain title="2nd"><Link to="/spell/burning_hands">Burning hands</Link></Pair>
+<Pair plain title="4th"><Link to="/spell/elemental_touch">Elemental touch</Link></Pair>
+<Pair plain title="6th"><Link to="/spell/elemental_aura">Elemental aura</Link></Pair>
+<Pair plain title="8th"><Link to="/spell/planar_adaptation">Planar adaptation</Link></Pair>
+<Pair plain title="10th"><Link to="/spell/elemental_body_ii">Elemental body II</Link></Pair>
+<Pair plain title="12th"><Link to="/spell/chain_lightning">Chain lightning</Link></Pair>
+<Pair plain title="14th"><Link to="/spell/vortex">Vortex</Link></Pair>
+<Pair plain title="16th"><Link to="/spell/polar_ray">Polar ray</Link></Pair>
+<Pair plain title="18th"><Link to="/spell/fiery_body">Fiery body</Link></Pair>
+</Ability>
+<Ability id="wyrmwitchs-hoard" icon={["info"]}>
+<Pair single id="wyrmwitchs-hoard">Wyrmwitch's Hoard</Pair>
+<Pair hl title="Replaces">Witch's familiar</Pair>
+<Pair title="Ability"><p>Unlike traditional witches, a wyrmwitch does not have a familiar. Instead, a wyrmwitch develops a metaphysical link with a bonded hoard of treasure that serves as a conduit to the wyrmwitch's patron. A wyrmwitch's hoard must have a value of 50 gp plus 100 gp for every character level he has beyond 1st. Only nonmagical objects that are not alchemical items, weapons, armor, or useful tools can be part of a wyrmwitch's hoard. If the hoard falls below this value, the wyrmwitch cannot sleep on his hoard (see below) or add new spells to it until its value is restored.</p>
 <p>A wyrmwitch's spells come from this link with his hoard, and its ability to hold spells functions in a manner identical to the way a witch's spells are normally granted by a familiar. A wyrmwitch can add spells to his hoard in a similar fashion to the way conventional witches store spells in their familiars. A witch's familiar and a wyrmwitch's hoard can exchange spells in the same way two normal witch familiars do. Also, a witch can add a spell to his hoard from a wizard's spellbook, if the spellbook is kept in the hoard and the spell is on the witch's class spell list. The wyrmwitch must sleep on the spellbook in his hoard for a number of days equal to the spell's level, after which he must succeed at a Spellcraft check (DC = 15 + spell level) to learn the spell. No matter the result, the spell is erased from the spellbook.</p>
 <p>A wyrmwitch must commune with his hoard to ready his body and mind for casting spells. If he does not spend at least 8 hours resting atop his hoard prior to preparing spells, he must attempt a <Link to="/rule/concentration">concentration</Link> check anytime he attempts to cast a spell (DC = 20 + the spell's level). If the wyrmwitch does prepare spells after properly sleeping on his hoard, he gains the ability to call on his hoard to cast any one spell it is holding and that he is capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by the wyrmwitch, including when determining casting time, duration, and other effects dependent on the wyrmwitch's level. This spell cannot be modified by metamagic feats or other abilities.</p>
-<p>This ability replaces <strong className="hl">witch's familiar</strong>.</p>
+</Pair>
+</Ability>
 </>};
 export default {alley_witch:_alley_witch,ashiftah:_ashiftah,beast_bonded:_beast_bonded,bonded_witch:_bonded_witch,bouda:_bouda,cartomancer:_cartomancer,coral_witch:_coral_witch,demon_sworn:_demon_sworn,dimensional_occultist:_dimensional_occultist,dreamweaver:_dreamweaver,flood_walker:_flood_walker,gingerbread_witch:_gingerbread_witch,gravewalker:_gravewalker,hag_of_gyronna:_hag_of_gyronna,hagbound:_hagbound,havocker:_havocker,hedge_witch:_hedge_witch,herb_witch:_herb_witch,hex_channeler:_hex_channeler,invoker:_invoker,jinx_witch:_jinx_witch,ley_line_guardian:_ley_line_guardian,medium:_medium,mirror_witch:_mirror_witch,mountain_witch:_mountain_witch,nexian_spellspy:_nexian_spellspy,pact_witch:_pact_witch,patron_familiars:_patron_familiars,putrefactor:_putrefactor,rhetorician:_rhetorician,scarred_witch_doctor:_scarred_witch_doctor,sea_witch:_sea_witch,season_witch:_season_witch,seducer:_seducer,synergist:_synergist,tatterdemalion:_tatterdemalion,vellemancer:_vellemancer,veneficus_witch:_veneficus_witch,venom_siphoner:_venom_siphoner,white_haired_witch:_white_haired_witch,winter_witch:_winter_witch,witch_watcher:_witch_watcher,wyrm_witch:_wyrm_witch}
