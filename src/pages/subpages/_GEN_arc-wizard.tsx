@@ -1,181 +1,480 @@
-import Link from '../../components/Link';
+import {IonIcon} from '@ionic/react';
+import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
+import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 const _arcane_bomber = {title: "Arcane Bomber", jsx: <><h2 id="arc-wizard-arcane_bomber-arcane-bomber">Arcane Bomber</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 75</Link><br/>To many wizards, the experimentation of the alchemist seems quaint, if not dangerous or frightening. A few wizards take up the secrets of the bomb, however, fusing alchemy with their already considerable magical power.</p>
-<p><strong>Bomb (Su):</strong> At 1st level, the arcane bomber gains an ability nearly identical to the <Link to="/class/alchemist">alchemist's</Link> bomb ability. Unlike the alchemist, at 1st level, the arcane bomber chooses one type of energy from the following list: acid, cold, fire, and electricity. He can throw bombs of that type, but cannot modify them with discoveries. This ability stacks with the alchemist bomb ability to determine the level of bomb damage, but an arcane bomber that becomes an alchemist does not gain that class's bomb ability, nor does an alchemist that becomes an arcane bomber gain this bomb ability.</p>
-<p>This ability replaces <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Spellblast Bombs (Su):</strong> At 1st level, as a swift action, an arcane bomber can sacrifice one of his spells to empower the next bomb he throws during his turn. When he does, he gains a bonus to hit with the next bomb he throws before the end of his turn equal to the level of the spell he sacrificed, and a bonus to damage equal to twice the level of the spell.</p>
-<p>This ability replaces <strong className="hl">cantrips</strong>, but the arcana bomber gains the <Link to="/spell/detect_magic">detect magic</Link> and <Link to="/spell/read_magic">read magic</Link> cantrips and places them in his spellbook. He can cast either of these as 1st-level spells.</p>
-<p><strong>School of the Bomb:</strong> The creation and use of bombs is often so engrossing or intellectually taxing that an arcane bomber forsakes four schools of magic. These opposition schools are chosen at 1st level and cannot be changed later. An arcane bomber who prepares spells from his opposition school must use two spell slots of that level to prepare the spell. In addition, the arcane bomber takes a -4 penalty on any skill checks made when crafting a magic item that has a spell from one of his opposition schools.</p>
-<p>This ability replaces <strong className="hl">arcane school</strong>.</p>
+<Ability id="bomb-su" icon={["bowman"]}>
+<Pair single id="bomb-su">Bomb (Su)</Pair>
+<Pair hl title="Replaces">Arcane bond</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">The arcane bomber gains an ability nearly identical to the <Link to="/class/alchemist">alchemist's</Link> <em>bomb</em> ability. Unlike the alchemist, at 1st level, the arcane bomber chooses one type of energy from the following list: acid, cold, fire, and electricity. He can throw bombs of that type, but cannot modify them with discoveries. This ability stacks with the alchemist <em>bomb</em> ability to determine the level of bomb damage, but an arcane bomber that becomes an alchemist does not gain that class's <em>bomb</em> ability, nor does an alchemist that becomes an arcane bomber gain this <em>bomb</em> ability.</Pair>
+</Ability>
+<Ability id="bomb-su" extraClasses="subAbility" icon={["smoking-finger"]}>
+<Pair single id="bomb-su" flavor="Relevant text from the alchemist class ability.">Bomb (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">You can use a number of bombs each day equal to your class level + your Intelligence modifier.</Pair>
+<Pair title="Standard Action">You can make and throw bombs. Drawing the components of, creating, and throwing a bomb is a single action. Thrown bombs have a range of 20 feet and use the <Link to="/rule/throw_splash_weapon">Throw Splash Weapon special attack</Link>. On a direct hit, your bomb inflicts 1d6 points of fire damage + additional damage equal to your Intelligence modifier (this bonus damage is not multiplied on a critical hit or by using feats such as <Link to="/feat/vital_strike">Vital Strike</Link>).</Pair>
+<Pair title="Info"><p>In addition to magical extracts, alchemists are adept at swiftly mixing various volatile chemicals and infusing them with their magical reserves to create powerful bombs that they can hurl at their enemies. Bombs are unstable, and if not used in the round they are created, they degrade and become inert - their method of creation prevents large volumes of explosive material from being created and stored. In order to create a bomb, you must use a small vial containing an ounce of liquid catalyst - you can create this liquid catalyst from small amounts of chemicals from an alchemy lab, and these supplies can be readily refilled in the same manner as a spellcaster's component pouch. Most alchemists create a number of catalyst vials at the start of the day equal to the total number of bombs they can create in that day - once created, a catalyst vial remains usable by you for years.</p>
+<p>Bombs are considered weapons and can be selected using feats such as <Link to="/feat/point_blank_shot">Point-Blank Shot</Link> and <Link to="/feat/weapon_focus">Weapon Focus</Link>. Your bombs become inert if used or carried by anyone else.</p>
+</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>Yes</Pair>
+<Pair title="At 3rd Level">The base bomb damage becomes 2d6.</Pair>
+<Pair title="At 5th Level">The base bomb damage becomes 3d6.</Pair>
+<Pair title="At 7th Level">The base bomb damage becomes 4d6.</Pair>
+<Pair title="At 9th Level">The base bomb damage becomes 5d6.</Pair>
+<Pair title="At 11th Level">The base bomb damage becomes 6d6.</Pair>
+<Pair title="At 13th Level">The base bomb damage becomes 7d6.</Pair>
+<Pair title="At 15th Level">The base bomb damage becomes 8d6.</Pair>
+<Pair title="At 17th Level">The base bomb damage becomes 9d6.</Pair>
+<Pair title="At 19th Level">The base bomb damage becomes 10d6.</Pair>
+<Pair title="Special">Splash damage from your bomb is always equal to the bomb's minimum damage (so if the bomb would deal 1d6+4 points of fire damage on a direct hit, its splash damage would be 5 points of fire damage). Those caught in the splash damage can attempt a Reflex save for half damage, with a DC equal to 10 + <Link to="/misc/half">half</Link> your alchemist level + your Intelligence modifier.</Pair>
+</Ability>
+<Ability id="spellblast-bombs-su" icon={["upgrade","spell-book"]}>
+<Pair single id="spellblast-bombs-su">Spellblast Bombs (Su)</Pair>
+<Pair hl title="Replaces">Cantrips</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Swift Action">An arcane bomber can sacrifice one of his spells to empower the next bomb he throws during his turn. When he does, he gains a bonus to hit with the next bomb he throws before the end of his turn equal to the level of the spell he sacrificed, and a bonus to damage equal to twice the level of the spell.</Pair>
+<Pair title="Ability">The arcana bomber gains the <Link to="/spell/detect_magic">detect magic</Link> and <Link to="/spell/read_magic">read magic</Link> cantrips and places them in his spellbook. He can cast either of these as 1st-level spells.</Pair>
+</Ability>
+<Ability id="school-of-the-bomb" icon={["broken-shield"]}>
+<Pair single id="school-of-the-bomb">School of the Bomb</Pair>
+<Pair hl title="Replaces">Arcane school</Pair>
+<Pair title="Info">The creation and use of bombs is often so engrossing or intellectually taxing that an arcane bomber forsakes four schools of magic. These opposition schools are chosen at 1st level and cannot be changed later. An arcane bomber who prepares spells from his opposition school must use two spell slots of that level to prepare the spell.</Pair>
+<Pair title="Passive Ability">In addition, the arcane bomber takes a -4 penalty on any skill checks made when crafting a magic item that has a spell from one of his opposition schools.</Pair>
+</Ability>
 </>};
 const _arcane_physician = {title: "Arcane Physician", jsx: <><h2 id="arc-wizard-arcane_physician-arcane-physician">Arcane Physician</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 6</Link><br/>Arcane physicians use their scholarly knowledge and arcane mastery to achieve incredible feats of medicine. Most worship <Link to="/faith/qi_zhong">Qi Zhong</Link>, <Link to="/faith/nethys">Nethys</Link>, or other patrons of disparate sorts of magic.</p>
-<p><strong>Medicinal Alchemy:</strong> The arcane physician treats all spells of the healing subschool on the <Link to="/main/spells_alchemist">alchemist extract list</Link> as if they were on the wizard spell list for the purpose of activating magic items.</p>
-<p>Additionally, he can expend a spell slot of the appropriate level to meet the spell requirements for magic item construction (including potions) as if the expended spell slot contained any alchemist spell that belongs to the healing subschool. If the spell is on both the wizard and alchemist lists, the arcane physician may expend a slot equal to the spell's alchemist level instead of the spell's wizard level. At 8th level, the arcane physician can expend a spell slot of 1st level or higher as a standard action to alter a potion or <Link to="/main/equipment_alchemical">alchemical remedy</Link> held in hand. An alchemical remedy can become any other alchemical remedy of the same or lower price of the arcane physician's choice. A potion can change to contain any alchemist extract of the arcane physician's choice that belongs to the healing subschool and is of the same level as or lower than the expended spell slot. The extract must have no material component costing more than 1 gp, and it must be one that it is possible to make into a potion.</p>
-<p>This ability replaces <strong className="hl">arcane school</strong>.</p>
-<p><strong>Brew Potion:</strong> At 1st level, an arcane physician gains <Link to="/feat/brew_potion">Brew Potion</Link> as a bonus feat.</p>
-<p>This replaces <strong className="hl">scribe scroll</strong>.</p>
+<Ability id="medicinal-alchemy" icon={["spell-book","stairs-goal"]}>
+<Pair single id="medicinal-alchemy">Medicinal Alchemy</Pair>
+<Pair hl title="Replaces">Arcane school</Pair>
+<Pair title="Info">The arcane physician treats all spells of the healing subschool on the <Link to="/main/spells_alchemist">alchemist extract list</Link> as if they were on the wizard spell list for the purpose of activating magic items.</Pair>
+<Pair title="Ability">Additionally, he can expend a spell slot of the appropriate level to meet the spell requirements for magic item construction (including potions) as if the expended spell slot contained any alchemist spell that belongs to the healing subschool. If the spell is on both the wizard and alchemist lists, the arcane physician may expend a slot equal to the spell's alchemist level instead of the spell's wizard level.</Pair>
+<Pair title="At 8th Level">The arcane physician can expend a spell slot of 1st level or higher as a <strong className="hl">standard action</strong> to alter a potion or <Link to="/main/equipment_alchemical">alchemical remedy</Link> held in hand. An alchemical remedy can become any other alchemical remedy of the same or lower price of the arcane physician's choice. A potion can change to contain any alchemist extract of the arcane physician's choice that belongs to the healing subschool and is of the same level as or lower than the expended spell slot. The extract must have no material component costing more than 1 gp, and it must be one that it is possible to make into a potion.</Pair>
+</Ability>
+<Ability id="brew-potion" icon={["stairs-goal"]}>
+<Pair single id="brew-potion">Brew Potion</Pair>
+<Pair hl title="Replaces">Scribe scroll</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">An arcane physician gains <Link to="/feat/brew_potion">Brew Potion</Link> as a bonus feat.</Pair>
+</Ability>
 </>};
 const _arcane_warden = {title: "Arcane Warden", jsx: <><h2 id="arc-wizard-arcane_warden-arcane-warden">Arcane Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 14</Link><br/>In the aftermath of Earthfall, some elven wizards from Mierani chose to remain behind and provide aid to others. These elves were and still are highly honored by their kin, as they sacrificed the easy comfort and refuge of Castrovel to brave the wreckage of Earthfall in order to save what short-lived human lives they could. Although Golarion has long since recovered from Earthfall, the elven arcane warden traditions remain particularly useful for those who face long-term explorations of hostile environments - whether on Golarion or the planes beyond. The arcane wardens of today are wizards who specialize in the discovery or generation of places of safety and refuge.</p>
-<p><strong>Universal Magic:</strong> An arcane warden values all schools of magic and recognizes that, faced with an unpredictable world, versatility is one of the greatest tools for survival. All arcane warden wizards must be <Link to="/arcaneschool/universalist">universalists</Link>.</p>
-<p>This alters <strong className="hl">arcane school</strong>.</p>
+<Ability id="universal-magic" icon={["info"]}>
+<Pair single id="universal-magic">Universal Magic</Pair>
+<Pair hl title="Alters">Arcane school</Pair>
+<Pair title="Info">An arcane warden values all schools of magic and recognizes that, faced with an unpredictable world, versatility is one of the greatest tools for survival. All arcane warden wizards must be <Link to="/arcaneschool/universalist">universalists</Link>.</Pair>
+</Ability>
 <Ability icon={["skills"]} id="undefined">
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/heal">Heal</Link> (WIS), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/swim">Swim</Link> (STR)</Pair>
 <Pair title="Removed Skills">Appraise, Fly, Knowledge (nobility), Linguistics</Pair></Ability>
-<p><strong>Ready for Anything (Ex):</strong> Instead of crafting magical items or learning ways to manipulate metamagic, arcane wardens prefer to spend their time providing safety and refuge for others. At 1st level, an arcane warden gains a bonus feat associated with aiding allies or providing shelter. At 5th, 10th, 15th, and 20th levels, the arcane warden gains an additional bonus feat. The arcane warden must qualify for any feat he takes, and must choose from the following list: <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_great_fortitude">Improved Great Fortitude</Link>, <Link to="/feat/leadership">Leadership</Link>, <Link to="/feat/self_sufficient">Self-Sufficient</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Survival), <Link to="/feat/toughness">Toughness</Link>, or any <Link to="/main/teamwork_feat">teamwork feat</Link>.</p>
-<p>This replaces <strong className="hl">Scribe Scroll</strong> and the <strong className="hl">bonus feats</strong> gained at 5th, 10th, 15th, and 20th levels.</p>
-<p><strong>Generous Touch (Su):</strong> Arcane wardens are talented at enhancing the magical effects they create to bolster allies. When an arcane warden casts a spell with a target of "creature touched" on a willing target other than himself, he can cause the effects of the spell to last longer than normal. A spell with a duration of 1 round per level lasts an additional number of rounds equal to the arcane warden's Intelligence modifier (minimum of 1 additional round). A spell with a duration of 1 minute per level lasts for an additional number of minutes equal to the arcane warden's Intelligence modifier (minimum of 1 additional minute). Spells with different durations than this are not enhanced by this ability. Only one spell can be enhanced in this way on any individual creature at a time.</p>
-<p>This replaces the <strong className="hl">hand of the apprentice</strong> universalist school ability.</p>
-<p><strong>Restorative Shelter (Su):</strong> While an arcane warden can find refuge in many naturally occurring hideaways, his preferred places of rest are magically created cottages, homes, and even manors. An arcane warden learns the following spells: <Link to="/spell/mages_magnificent_mansion">mage's magnificent mansion</Link>, <Link to="/spell/rope_trick">rope trick</Link>, <Link to="/spell/secure_shelter">secure shelter</Link>, and <Link to="/spell/tiny_hut">tiny hut</Link>. These spells do not take up room in the arcane warden's spellbook, and he does not need his spellbook to prepare these spells. He must still be the appropriate level to prepare the spell in question. The arcane warden's caster level is treated as 2 higher than his actual caster level for the purposes of determining the duration of these spells and resolving attempts to dispel these spells. Any creature that spends at least 8 hours relaxing in one of these shelters gains a bonus equal to the level of the spell that created it on any saving throws against disease or poison effects made in the next 24 hours.</p>
-<p>This replaces the <strong className="hl">metamagic mastery</strong> universalist school ability.</p>
+<Ability id="ready-for-anything-ex" icon={["stairs-goal"]}>
+<Pair single id="ready-for-anything-ex" flavor="Instead of crafting magical items or learning ways to manipulate metamagic, arcane wardens prefer to spend their time providing safety and refuge for others.">Ready for Anything (Ex)</Pair>
+<Pair hl title="Replaces">Scribe Scroll, 5th-, 10th-, 15th-, and 20th-level bonus feats</Pair>
+<Pair title="At 1st Level">An arcane warden gains a bonus feat associated with aiding allies or providing shelter. The arcane warden must qualify for any feat he takes, and must choose from the following list: <Link to="/feat/alertness">Alertness</Link>, <Link to="/feat/endurance">Endurance</Link>, <Link to="/feat/great_fortitude">Great Fortitude</Link>, <Link to="/feat/improved_great_fortitude">Improved Great Fortitude</Link>, <Link to="/feat/leadership">Leadership</Link>, <Link to="/feat/self_sufficient">Self-Sufficient</Link>, <Link to="/feat/skill_focus">Skill Focus</Link> (Survival), <Link to="/feat/toughness">Toughness</Link>, or any <Link to="/main/teamwork_feat">teamwork feat</Link>.</Pair>
+<Pair title="At 5th Level">The arcane warden gains an additional bonus feat.</Pair>
+<Pair title="At 10th Level">The arcane warden gains an additional bonus feat.</Pair>
+<Pair title="At 15th Level">The arcane warden gains an additional bonus feat.</Pair>
+<Pair title="At 20th Level">The arcane warden gains an additional bonus feat.</Pair>
+</Ability>
+<Ability id="generous-touch-su" icon={["upgrade"]}>
+<Pair single id="generous-touch-su" flavor="Arcane wardens are talented at enhancing the magical effects they create to bolster allies.">Generous Touch (Su)</Pair>
+<Pair hl title="Replaces">Hand of the apprentice universalist school ability</Pair>
+<Pair title="Ability">When an arcane warden casts a spell with a target of "creature touched" on a willing target other than himself, he can cause the effects of the spell to last longer than normal. A spell with a duration of 1 round per level lasts an additional number of rounds equal to the arcane warden's Intelligence modifier (minimum of 1 additional round). A spell with a duration of 1 minute per level lasts for an additional number of minutes equal to the arcane warden's Intelligence modifier (minimum of 1 additional minute). Spells with different durations than this are not enhanced by this ability. Only one spell can be enhanced in this way on any individual creature at a time.</Pair>
+</Ability>
+<Ability id="restorative-shelter-su" icon={["spell-book","upgrade","armor-upgrade"]}>
+<Pair single id="restorative-shelter-su" flavor="While an arcane warden can find refuge in many naturally occurring hideaways, his preferred places of rest are magically created cottages, homes, and even manors.">Restorative Shelter (Su)</Pair>
+<Pair hl title="Replaces">Metamagic mastery universalist school ability</Pair>
+<Pair title="Ability">An arcane warden learns the following spells: <Link to="/spell/mages_magnificent_mansion">mage's magnificent mansion</Link>, <Link to="/spell/rope_trick">rope trick</Link>, <Link to="/spell/secure_shelter">secure shelter</Link>, and <Link to="/spell/tiny_hut">tiny hut</Link>. These spells do not take up room in the arcane warden's spellbook, and he does not need his spellbook to prepare these spells. He must still be the appropriate level to prepare the spell in question.</Pair>
+<Pair title="Special">The arcane warden's caster level is treated as 2 higher than his actual caster level for the purposes of determining the duration of these spells and resolving attempts to dispel these spells. Any creature that spends at least 8 hours relaxing in one of these shelters gains a bonus equal to the level of the spell that created it on any saving throws against disease or poison effects made in the next 24 hours.</Pair>
+</Ability>
 </>};
 const _bonded_wizard = {title: "Bonded Wizard", jsx: <><h2 id="arc-wizard-bonded_wizard-bonded-wizard">Bonded Wizard</h2>
 <p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions pg. 17</Link><br/>Many wizards form an arcane bond with an item, but for some this bond becomes a powerful mystic union.</p>
-<p><strong>Arcane Bond (Ex):</strong> A bonded wizard must select an item as her arcane bond. The bonded object's hit point and hardness increase by +1 per level the bonded wizard possesses.</p>
-<p><strong>Hidden Bond (Sp):</strong> A bonded wizard can change the appearance and magical aura of her bonded item at will, as if using <Link to="/spell/disguise_self">disguise self</Link> and <Link to="/spell/magic_aura">magic aura</Link>, but affecting only the item; for the purpose of disguise self, the item's item type (such as weapon or ring) is its creature type.</p>
-<p>This ability replaces <strong className="hl">Scribe Scroll</strong>.</p>
-<p><strong>Bonded Force (Su):</strong> At 5th level, a bonded wizard wearing or wielding her bonded object can channel magical energies through it to create tools, armor, and weapons from pure force. She gains a pool of force points equal to half his wizard level. She can expend 1 point from his force pool as a standard action to create an effect that acts as <Link to="/spell/mage_armor">mage armor</Link> (lasting 1 hour), <Link to="/spell/shield">shield</Link> (lasting 1 minute), or <Link to="/spell/spiritual_weapon">spiritual weapon</Link> (any simple or martial weapon, using her Intelligence modifier to determine its attack bonus rather than Wisdom and lasting 1 round per wizard level). These effects are visible; they take the appearance of armor, shields, or weapons as appropriate, and they always have some visual detail reminiscent of the wizard's bonded item (such as the pattern of a bonded ring appearing as decoration on a mage armor or shield effect).</p>
-<p>At 9th level, when the bonded wizard uses bonded force for mage armor, the armor bonus increases by 1; when she uses bonded force for shield, the shield bonus increases by 1; and she gains a +1 enhancement bonus on attack and damage rolls when using bonded force for spiritual weapon. The increases for mage armor and shield and the enhancement bonus for spiritual weapon improve by an additional 1 at 13th level and again at 17th level. When she uses bonded force for spiritual weapon, the bonded wizard can choose to reduce this enhancement bonus by 1 to double the spiritual weapon's critical threat range as the <Link to="/magic-enh/keen">keen</Link> weapon property, and for mage armor or shield, she can choose to reduce the armor or shield bonus by 1 to protect herself from critical hits and sneak attacks as the <Link to="/magic-enh/light_fortification">light fortification</Link> armor property.</p>
-<p>Alternatively, the bonded wizard can expend a point from her force pool to create a tool of force, which functions as a masterwork version of a simple tool of her choice that could be reproduced by a <Link to="/magic-wondrous/travelers_any_tool">traveler's any-tool</Link>. The tool has the same AC and durability as a spiritual weapon and lasts for 10 minutes. The circumstance bonus the tool of force grants to appropriate skill checks starts at +2 (as masterwork tools) and increases to +3 at 9th level, and by an additional +1 every 4 levels thereafter, to a maximum of +5 at 17th level.</p>
-<p>A bonded wizard can only have one instance of bonded force active at a time. If she uses this ability again, any previously created force construct immediately ends.</p>
-<p>This ability replaces a wizard's <strong className="hl">bonus feats</strong> normally gained at 5th and 15th level.</p>
-<p><strong>Reshape Bond (Sp):</strong> At 10th level, a bonded wizard can repair her bonded item or turn it into another object once per day as a full-round action. Transforming it functions as <Link to="/spell/polymorph_any_object">polymorph any object</Link>, but does not alter the item's magical properties (including its item slot), while repairing it functions as <Link to="/spell/make_whole">make whole</Link>. The wizard may also sacrifice a prepared spell in order to repair an additional 1d6 points of damage per level of the sacrificed spell.</p>
-<p>This replaces the wizard's <strong className="hl">bonus feat</strong> normally gained at 10th level.</p>
+<Ability id="arcane-bond-ex" icon={["info"]}>
+<Pair single id="arcane-bond-ex">Arcane Bond (Ex)</Pair>
+<Pair hl title="Alters">Arcane bond</Pair>
+<Pair title="Info">A bonded wizard must select an item as her <em>arcane bond.</em> The bonded object's hit point and hardness increase by +1 per level the bonded wizard possesses.</Pair>
+</Ability>
+<Ability id="hidden-bond-sp" icon={["magic-swirl"]}>
+<Pair single id="hidden-bond-sp">Hidden Bond (Sp)</Pair>
+<Pair hl title="Replaces">Scribe Scroll</Pair>
+<Pair title="Ability">A bonded wizard can change the appearance and magical aura of her bonded item at will, as if using <Link to="/spell/disguise_self">disguise self</Link> and <Link to="/spell/magic_aura">magic aura</Link>, but affecting only the item; for the purpose of <em>disguise self,</em> the item's item type (such as weapon or ring) is its creature type.</Pair>
+</Ability>
+<Ability id="bonded-force-su" icon={["magic-swirl"]}>
+<Pair single id="bonded-force-su">Bonded Force (Su)</Pair>
+<Pair hl title="Replaces">5th- and 15th-level bonus feats</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Info">A bonded wizard wearing or wielding her bonded object can channel magical energies through it to create tools, armor, and weapons from pure force. She gains a pool of force points equal to half his wizard level.</Pair>
+<Pair title="Standard Action">She can expend 1 point from his force pool to create an effect that acts as <Link to="/spell/mage_armor">mage armor</Link> (lasting 1 hour), <Link to="/spell/shield">shield</Link> (lasting 1 minute), or <Link to="/spell/spiritual_weapon">spiritual weapon</Link> (any simple or martial weapon, using her Intelligence modifier to determine its attack bonus rather than Wisdom and lasting 1 round per wizard level). These effects are visible; they take the appearance of armor, shields, or weapons as appropriate, and they always have some visual detail reminiscent of the wizard's bonded item (such as the pattern of a bonded ring appearing as decoration on a <em>mage armor</em> or <em>shield</em> effect).</Pair>
+<Pair title="Ability">Alternatively, the bonded wizard can expend a point from her force pool to create a <em>tool of force,</em> which functions as a masterwork version of a simple tool of her choice that could be reproduced by a <Link to="/magic-wondrous/travelers_any_tool">traveler's any-tool</Link>. The <em>tool</em> has the same AC and durability as a <em>spiritual weapon</em> and lasts for 10 minutes. The circumstance bonus the <em>tool of force</em> grants to appropriate skill checks starts at +2 (as masterwork tools).</Pair>
+<Pair title="At 9th Level"><p>When the bonded wizard uses <em>bonded force</em> for <em>mage armor,</em> the armor bonus increases by 1; when she uses <em>bonded force</em> for <em>shield,</em> the shield bonus increases by 1; and she gains a +1 enhancement bonus on attack and damage rolls when using <em>bonded force</em> for <em>spiritual weapon.</em></p>
+<p>The bonus for the <em>tool of force</em> increases to +3.</p>
+</Pair>
+<Pair title="At 13th Level">The increases for <em>mage armor</em> and <em>shield</em> and the enhancement bonus for <em>spiritual weapon</em> now improve by an additional 2, and the bonus for the <em>tool of force</em> becomes +4.</Pair>
+<Pair title="At 17th Level">The increases for <em>mage armor</em> and <em>shield</em> and the enhancement bonus for <em>spiritual weapon</em> now improve by an additional 3, and the bonus for the <em>tool of force</em> becomes +5.</Pair>
+<Pair title="Special">When she uses <em>bonded force</em> for <em>spiritual weapon,</em> the bonded wizard can choose to reduce this enhancement bonus by 1 to double the <em>spiritual weapon's</em> critical threat range as the <Link to="/magic-enh/keen">keen</Link> weapon property, and for <em>mage armor</em> or <em>shield,</em> she can choose to reduce the armor or shield bonus by 1 to protect herself from critical hits and sneak attacks as the <Link to="/magic-enh/light_fortification">light fortification</Link> armor property. A bonded wizard can only have one instance of <em>bonded force</em> active at a time. If she uses this ability again, any previously created force construct immediately ends.</Pair>
+</Ability>
+<Ability id="reshape-bond-sp" icon={["magic-swirl"]}>
+<Pair single id="reshape-bond-sp">Reshape Bond (Sp)</Pair>
+<Pair hl title="Replaces">10th-level bonus feat</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Full-Round Action">A bonded wizard can repair her bonded item or turn it into another object once per day. Transforming it functions as <Link to="/spell/polymorph_any_object">polymorph any object</Link>, but does not alter the item's magical properties (including its item slot), while repairing it functions as <Link to="/spell/make_whole">make whole</Link>. The wizard may also sacrifice a prepared spell in order to repair an additional 1d6 points of damage per level of the sacrificed spell.</Pair>
+</Ability>
 </>};
 const _chronomancer = {title: "Chronomancer", jsx: <><h2 id="arc-wizard-chronomancer-chronomancer">Chronomancer</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 30</Link><br/>Time is not an immutable force but an inscrutable phenomenon. Rare arcane scholars known as chronomancers demonstrate the ability to shift themselves in short bursts between the past, future, and alternate presents.</p>
-<p><strong>Temporal Pool (Su):</strong> A chronomancer gains a reservoir of temporal energy to manipulate the time stream in a variety of ways listed below. This temporal pool has a number of points equal to half his class level + his Intelligence modifier (minimum 1). This pool refreshes once per day when the chronomancer prepares his spells.</p>
-<p><strong>Forewarned:</strong> The chronomancer can expend 1 point from his temporal pool when he rolls initiative to allow himself or an ally within 30 feet to roll 1d4 and add it to that character's initiative result. At 5th level, the chronomancer can expend 2 points from his temporal pool as an immediate action to apply this benefit to a saving throw he has just rolled (but before the result is revealed). At 10th level, the die size increases to 1d6.</p>
-<p><strong>Rewind:</strong> As an immediate action after losing a spell due to a failed <Link to="/rule/concentration">concentration</Link> check or after casting a spell that had no effect (such as due to successful saving throws, a failed caster level check to overcome spell resistance, or other immunities), the chronomancer can expend a number of points from his temporal pool equal to half the spell's level (minimum 1) to immediately prepare the spell again, as if it had not been cast. Any material components expended in the original casting remain expended, as are actions used to cast the original spell.</p>
-<p><strong>Accelerate:</strong> At 10th level when casting a spell, the chronomancer can expend 2 points from his temporal pool to apply the effects of <Link to="/spell/haste">haste</Link> to one creature affected by the spell until the end of the chronomancer's next turn.</p>
-<p><strong>Complex Contingency:</strong> At 15th level, the chronomancer can specify two trigger conditions when casting <Link to="/spell/contingency">contingency</Link>. In addition, when the chronomancer's contingency would trigger, the chronomancer can expend 1 point from his temporal pool as an immediate action to prevent the contingency from triggering, saving the stored effect for later.</p>
-<p><strong>Parallel Self:</strong> At 20th level, if the chronomancer is killed, he can immediately expend 10 points from his temporal pool to summon an alternate version of himself from a parallel existence, appearing up to 30 feet away. This alternate version is identical to the chronomancer except he is a member of a random race, determined using the table that accompanies <Link to="/spell/reincarnate">reincarnate</Link>. The alternate version has half the chronomancer's total hit points (but not any temporary hit points) and those spells the chronomancer had prepared when he died. The alternate version has the same equipment as the chronomancer but does not bear any artifacts the chronomancer was carrying. Any expendable items, charges, or expensive material components the alternate version uses are also expended for the chronomancer. This alternate version remains for 1 minute before the duplicate and its equipment are ripped back to their reality.</p>
-<p>This ability replaces <strong className="hl">arcane bond</strong> and the <strong className="hl">bonus feats</strong> gained at 10th, 15th, and 20th levels.</p>
+<Ability id="temporal-pool-su" icon={["magic-swirl"]}>
+<Pair single id="temporal-pool-su">Temporal Pool (Su)</Pair>
+<Pair title="Ability">A chronomancer gains a reservoir of temporal energy to manipulate the time stream in a variety of ways listed below. This temporal pool has a number of points equal to half his class level + his Intelligence modifier (minimum 1). This pool refreshes once per day when the chronomancer prepares his spells.</Pair>
+</Ability>
+<Ability id="forewarned" icon={["rolling-dices","upgrade","armor-upgrade"]}>
+<Pair single id="forewarned">Forewarned</Pair>
+<Pair title="Ability">The chronomancer can expend 1 point from his temporal pool when he rolls initiative to allow himself or an ally within 30 feet to roll 1d4 and add it to that character's initiative result.</Pair>
+<Pair title="At 5th Level">The chronomancer can expend 2 points from his temporal pool as an <strong className="hl">immediate action</strong> to apply this benefit to a saving throw he has just rolled (but before the result is revealed).</Pair>
+<Pair title="At 10th Level">The die size increases to 1d6.</Pair>
+</Ability>
+<Ability id="rewind" icon={["magic-swirl"]}>
+<Pair single id="rewind">Rewind</Pair>
+<Pair title="Immediate Action">After losing a spell due to a failed <Link to="/rule/concentration">concentration</Link> check or after casting a spell that had no effect (such as due to successful saving throws, a failed caster level check to overcome spell resistance, or other immunities), the chronomancer can expend a number of points from his temporal pool equal to half the spell's level (minimum 1) to immediately prepare the spell again, as if it had not been cast. Any material components expended in the original casting remain expended, as are actions used to cast the original spell.</Pair>
+</Ability>
+<Ability id="accelerate" icon={["magic-swirl"]}>
+<Pair single id="accelerate">Accelerate</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">When casting a spell, the chronomancer can expend 2 points from his temporal pool to apply the effects of <Link to="/spell/haste">haste</Link> to one creature affected by the spell until the end of the chronomancer's next turn.</Pair>
+</Ability>
+<Ability id="complex-contingency" icon={["magic-swirl"]}>
+<Pair single id="complex-contingency">Complex Contingency</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">The chronomancer can specify two trigger conditions when casting <Link to="/spell/contingency">contingency</Link>.</Pair>
+<Pair title="Immediate Action">In addition, when the chronomancer's <em>contingency</em> would trigger, the chronomancer can expend 1 point from his temporal pool to prevent the <em>contingency</em> from triggering, saving the stored effect for later.</Pair>
+</Ability>
+<Ability id="parallel-self" icon={["magic-swirl"]}>
+<Pair single id="parallel-self">Parallel Self</Pair>
+<Pair hl title="Replaces">Arcane bond, 10th-, 15th-, and 20th-level bonus feats</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">If the chronomancer is killed, he can immediately expend 10 points from his temporal pool to summon an alternate version of himself from a parallel existence, appearing up to 30 feet away. This alternate version is identical to the chronomancer except he is a member of a random race, determined using the table that accompanies <Link to="/spell/reincarnate">reincarnate</Link>. The alternate version has half the chronomancer's total hit points (but not any <Link to="/rule/temporary_hit_points">temporary hit points</Link>) and those spells the chronomancer had prepared when he died. The alternate version has the same equipment as the chronomancer but does not bear any artifacts the chronomancer was carrying. Any expendable items, charges, or expensive material components the alternate version uses are also expended for the chronomancer. This alternate version remains for 1 minute before the duplicate and its equipment are ripped back to their reality.</Pair>
+</Ability>
 </>};
 const _clocksmith = {title: "Clocksmith", jsx: <><h2 id="arc-wizard-clocksmith-clocksmith">Clocksmith</h2>
 <p><strong>Sources</strong> <Link to="/source/construct_handbook">Construct Handbook pg. 10</Link><br/>Clocksmiths are oddities among wizard communities, pursuing the study and creation of clockwork constructs to near obsession. These wizards favor mechanical experiments over other arcane pursuits.</p>
-<p><strong>Clockwork Bond (Ex):</strong> A clocksmith forms a bond with one of his clockwork creations and begins play with a constructed familiar. He must select this familiar as his arcane bond. The constructed familiar functions as a typical familiar of its type except as noted here. The construct familiar is always a construct with the clockwork subtype. A construct familiar grants only half of its typical bonus (minimum +1 bonus) from its special familiar ability to its master.</p>
-<p>This alters <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Clockwork Expertise (Ex):</strong> A clocksmith is especially adept at dealing with clockworks. He gains a +2 bonus on saving throws against effects created by creatures of the clockwork subtype. This bonus increases to +4 at 8th level. Additionally, he treats his caster level as 1 higher when casting a spell that affects or targets only creatures of the clockwork subtype. At 8th level, he treats his caster level as 2 higher when casting such a spell.</p>
-<p>This replaces the <strong className="hl">school powers</strong> granted by the wizard's arcane school.</p>
-<p><strong>Craft Construct:</strong> A clocksmith gains <Link to="/feat/craft_construct">Craft Construct</Link> as a bonus feat, even if he does not meet the prerequisites. He can create any construct, but he increases the cost required to create constructs without the clockwork subtype by 50%.</p>
-<p>This replaces <strong className="hl">Scribe Scroll</strong>.</p>
-<p><strong>Familiar Tinkering (Ex):</strong> At 5th level, a clocksmith learns to improve upon his clockwork familiar. A clocksmith can grant his familiar 1 evolution point worth of <Link to="/ability/evolutions">eidolon evolutions</Link> for every 5 wizard levels he has, though he can't select any evolutions that require a specific base form. Each time the clocksmith gains a level, he can change his familiar's evolutions. These evolutions stack with those from the <Link to="/feat/evolved_familiar">Evolved Familiar</Link> feat.</p>
-<p>This replaces the <strong className="hl">bonus feats</strong> gained at 5th, 10th, 15th, and 20th levels.</p>
+<Ability id="clockwork-bond-ex" icon={["stairs-goal"]}>
+<Pair single id="clockwork-bond-ex">Clockwork Bond (Ex)</Pair>
+<Pair hl title="Alters">Arcane bond</Pair>
+<Pair title="Ability">A clocksmith forms a bond with one of his clockwork creations and begins play with a constructed familiar. He must select this familiar as his arcane bond. The constructed familiar functions as a typical familiar of its type except as noted here. The construct familiar is always a construct with the <Link to="/subtype/clockwork">clockwork</Link> subtype. A construct familiar grants only half of its typical bonus (minimum +1 bonus) from its special familiar ability to its master.</Pair>
+</Ability>
+<Ability id="clockwork-expertise-ex" icon={["armor-upgrade"]}>
+<Pair single id="clockwork-expertise-ex">Clockwork Expertise (Ex)</Pair>
+<Pair hl title="Replaces">School powers granted by the wizard's arcane school</Pair>
+<Pair title="Passive Ability">A clocksmith is especially adept at dealing with clockworks. He gains a +2 bonus on saving throws against effects created by creatures of the clockwork subtype. Additionally, he treats his caster level as 1 higher when casting a spell that affects or targets only creatures of the clockwork subtype.</Pair>
+<Pair title="At 8th Level">The bonus to saves becomes +4 and he treats his caster level as 2 higher when affecting clockwork creatures.</Pair>
+</Ability>
+<Ability id="craft-construct" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="craft-construct">Craft Construct</Pair>
+<Pair hl title="Replaces">Scribe Scroll</Pair>
+<Pair title="Ability">A clocksmith gains <Link to="/feat/craft_construct">Craft Construct</Link> as a bonus feat, even if he does not meet the prerequisites. He can create any construct, but he increases the cost required to create constructs without the clockwork subtype by 50%.</Pair>
+</Ability>
+<Ability id="familiar-tinkering-ex" icon={["upgrade"]}>
+<Pair single id="familiar-tinkering-ex">Familiar Tinkering (Ex)</Pair>
+<Pair hl title="Replaces">5th-, 10th-, 15th-, and 20th-level bonus feats</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">A clocksmith learns to improve upon his clockwork familiar. A clocksmith can grant his familiar an amount of evolution points equal to <Link to="/misc/one_fifth">one-fifth</Link> of his wizard level. He can use these points to grant his familar <Link to="/ability/evolutions">eidolon evolutions</Link>, though he can't select any evolutions that require a specific base form.</Pair>
+<Pair title="Special">Each time the clocksmith gains a level, he can change his familiar's evolutions. These evolutions stack with those from the <Link to="/feat/evolved_familiar">Evolved Familiar</Link> feat.</Pair>
+</Ability>
 </>};
 const _cruoromancer = {title: "Cruoromancer", jsx: <><h2 id="arc-wizard-cruoromancer-cruoromancer">Cruoromancer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 98</Link><br/>To those who know how to manipulate it, the blood of a dhampir can be a powerful component to magic. A cruoromancer infuses his necromantic magic with the power of his unique mixture of living blood and undead ichor. As his power increases in this strange arcane art, a cruoromancer finds potent ways to infuse his unique blood with necromancy spells. A cruoromancer has the following class features.</p>
-<p><strong>Blood Infusion (Su):</strong> When a cruoromancer casts a spell of the necromancy school, he can opt to infuse that spell with his undead-tainted blood as a swift action. As he increases in level, the power and effects of such infusions become more potent. Each time a cruoromancer uses blood infusion, he drains a portion of his own blood either by cutting himself with a blade or by opening a scab from a previous wound. When he does this, he takes an amount of damage equal to 1d4 + the level of the spell being infused. A cruoromancer can only affect a spell with a single type of blood infusion. At 1st level, he can infuse his necromancy spells in either of the following ways.</p>
-<blockquote>
-<p><strong>Focused Infusion:</strong> When the cruoromancer uses this infusion, he adds +1 to the DC of the infused necromancy spell.</p>
-<p><strong>Sickening Infusion:</strong> When the cruoromancer uses this infusion, any creature damaged by the infused necromancy spell becomes sickened for 1 round.</p>
-</blockquote>
-<p>This ability replaces <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Blood Command (Su):</strong> At 5th level, a cruoromancer can control up to 5 Hit Dice worth of undead creatures per caster level instead of the normal 4 Hit Dice of undead when casting the <Link to="/spell/animate_dead">animate dead</Link> spell. He also gains the following blood infusion ability.</p>
-<blockquote>
-<p><strong>Commanding Infusion:</strong> When using this infusion with animate dead, the cruoromancer can create a number of Hit Dice of undead equal to three times his caster level instead of twice his caster level.</p>
-</blockquote>
-<p>This ability replaces <strong className="hl">the 5th-level wizard bonus feat</strong>.</p>
-<p><strong>Blood Desecration (Su):</strong> At 10th level, a cruoromancer gains the following blood infusion.</p>
-<blockquote>
-<p><strong>Desecrating Infusion:</strong> When the cruoromancer uses this infusion, he can choose to center a desecrate effect on himself or a single target of the spell modified by this infusion (he chooses upon casting). This effect is like the <Link to="/spell/desecrate">desecrate</Link> spell, but lasts for 1 minute per caster level of the cruoromancer, and does not interact with altars, shrines, or permanent fixtures that boost the desecrate effect.</p>
-</blockquote>
-<p>This ability replaces <strong className="hl">the 10th-level wizard bonus feat</strong>.</p>
-<p><strong>Blood Ability (Su):</strong> At 15th level, a cruoromancer can choose to scry through a single undead creature he created with a spell modified by a commanding infusion. The undead creature is treated as if imbued with an <Link to="/spell/arcane_eye">arcane eye</Link> spell (caster level equal to the cruoromancer's wizard level).</p>
-<p>This ability replaces <strong className="hl">the 15th-level wizard bonus feat</strong>.</p>
-<p><strong>Perfect Infusion (Su):</strong> At 20th-level, a cruoromancer can use his blood infusions without taking damage.</p>
-<p>This ability replaces <strong className="hl">the 20th-level wizard bonus spell</strong>.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-wizard-cruoromancer--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/dhampir">Dhampir</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="blood-infusion-su" extraClasses="hasSubs" icon={["upgrade","broken-shield"]}>
+<Pair single id="blood-infusion-su">Blood Infusion (Su)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Swift Action">When a cruoromancer casts a spell of the necromancy school, he can opt to infuse that spell with his undead-tainted blood, choosing a <em>blood infusion</em> that he knows.</Pair>
+<Pair title="Special">Each time a cruoromancer uses <em>blood infusion,</em> he drains a portion of his own blood either by cutting himself with a blade or by opening a scab from a previous wound. When he does this, he takes an amount of damage equal to 1d4 + the level of the spell being infused. A cruoromancer can only affect a spell with a single type of <em>blood infusion.</em></Pair>
+</Ability>
+<Ability id="focused-infusion" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="focused-infusion">Focused Infusion</Pair>
+<Pair title="Passive Ability">When the cruoromancer uses this infusion, he adds +1 to the DC of the infused necromancy spell.</Pair>
+</Ability>
+<Ability id="sickening-infusion" extraClasses="subAbility" icon={["armor-downgrade"]}>
+<Pair single id="sickening-infusion">Sickening Infusion</Pair>
+<Pair hl title="Replaces">Arcane bond</Pair>
+<Pair title="Passive Ability">When the cruoromancer uses this infusion, any creature damaged by the infused necromancy spell becomes <Link to="/misc/sickened">sickened</Link> for 1 round.</Pair>
+</Ability>
+<Ability id="blood-command-su" extraClasses="hasSubs" icon={["upgrade"]}>
+<Pair single id="blood-command-su">Blood Command (Su)</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">A cruoromancer can control up to 5 Hit Dice worth of undead creatures per caster level instead of the normal 4 Hit Dice of undead when casting the <Link to="/spell/animate_dead">animate dead</Link> spell.</Pair>
+<Pair title="Special">He also gains the following <em>blood infusion</em> ability.</Pair>
+</Ability>
+<Ability id="commanding-infusion" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="commanding-infusion">Commanding Infusion</Pair>
+<Pair hl title="Replaces">5th-level bonus feat</Pair>
+<Pair title="Ability">When using this infusion with <em>animate dead,</em> the cruoromancer can create a number of Hit Dice of undead equal to three times his caster level instead of twice his caster level.</Pair>
+</Ability>
+<Ability id="blood-desecration-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="blood-desecration-su">Blood Desecration (Su)</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">A cruoromancer gains the following <em>blood infusion.</em></Pair>
+</Ability>
+<Ability id="desecrating-infusion" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="desecrating-infusion">Desecrating Infusion</Pair>
+<Pair hl title="Replaces">10th-level bonus feat</Pair>
+<Pair title="Ability">When the cruoromancer uses this infusion, he can choose to center a <em>desecrate</em> effect on himself or a single target of the spell modified by this infusion (he chooses upon casting). This effect is like the <Link to="/spell/desecrate">desecrate</Link> spell, but lasts for 1 minute per caster level of the cruoromancer, and does not interact with altars, shrines, or permanent fixtures that boost the <em>desecrate</em> effect.</Pair>
+</Ability>
+<Ability id="blood-ability-su" icon={["magic-swirl"]}>
+<Pair single id="blood-ability-su">Blood Ability (Su)</Pair>
+<Pair hl title="Replaces">15th-level bonus feat</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">A cruoromancer can choose to scry through a single undead creature he created with a spell modified by a <em>commanding infusion.</em> The undead creature is treated as if imbued with an <Link to="/spell/arcane_eye">arcane eye</Link> spell (caster level equal to the cruoromancer's wizard level).</Pair>
+</Ability>
+<Ability id="perfect-infusion-su" icon={["upgrade"]}>
+<Pair single id="perfect-infusion-su">Perfect Infusion (Su)</Pair>
+<Pair hl title="Replaces">The 20th-level wizard bonus spell</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">A cruoromancer can use his <em>blood infusions</em> without taking damage.</Pair>
+</Ability>
 </>};
 const _elder_mythos_scholar = {title: "Elder Mythos Scholar", jsx: <><h2 id="arc-wizard-elder_mythos_scholar-elder-mythos-scholar">Elder Mythos Scholar</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 74</Link><br/>Elder Mythos scholars risk their sanity to seek knowledge of alien and awful entities from beyond the stars.</p>
-<p><strong>Arcane Bond:</strong> An Elder Mythos scholar must choose to bond with an object, inscribing that object with eldritch runes.</p>
-<p>This alters <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Eldritch Knowledge (Su):</strong> An Elder Mythos scholar gains two fewer daily uses of his 1st-level arcane school ability, which is normally used a number of times per day equal to 3 + his Intelligence modifier. If he has no such ability, he can't take this archetype.</p>
-<p>When an Elder Mythos scholar attempts a Will save against confusion, fear, insanity, or madness, whether magical or mundane, he can spend 2 daily uses of that arcane school ability to apply his Intelligence modifier instead of his Wisdom modifier to the save. However, whenever he uses this ability, he is affected by a nightmare the next time he sleeps, with no saving throw. Until he sleeps and experiences the nightmare, he can't recover the spent uses of the arcane school ability by any means.</p>
-<p>This ability alters <strong className="hl">the 1st-level arcane school ability</strong>.</p>
-<p><strong>Eldritch Grimoire :</strong> An Elder Mythos scholar keeps copious notes on how to use magic against the servants of the Elder Mythos in his spellbook. Every spell he adds to his spellbook takes up an additional 1d6 pages and costs twice the normal amount to inscribe; however, when casting spells prepared from his grimoire, he gains a +2 bonus on caster level checks and increases the save DCs by 1 against the creatures listed in talisman of revealing below.</p>
-<p>This ability alters <strong className="hl">spellbook</strong>.</p>
-<p><strong>Talisman of Revealing:</strong> While wearing or wielding his bonded item, an Elder Mythos scholar can spontaneously cast a special <Link to="/spell/detect_aberration">detect aberration</Link> spell by sacrificing a prepared 1st-level spell. Instead of detecting aberrations, this spell detects creatures associated with the Elder Mythos, such as the following (or similar creatures, at the GM's discretion): <Link to="/monster/bhole">bhole</Link>, <Link to="/monster/colour_out_of_space">colour out of space</Link>, <Link to="/monster/deep_one">deep one</Link>, <Link to="/monster/elder_deep_one">elder deep one</Link>, <Link to="/monster/denizen_of_leng">denizen of Leng</Link>, <Link to="/monster/elder_thing">elder thing</Link>, <Link to="/monster/flying_polyp">flying polyp</Link>, <Link to="/monster/gug">gug</Link>, <Link to="/monster/hound_of_tindalos">hound of Tindalos</Link>, <Link to="/monster/leng_ghoul">Leng ghoul</Link>, <Link to="/monster/leng_spider">Leng spider</Link>, <Link to="/monster/mi_go">mi-go</Link>, <Link to="/monster/nightgaunt">nightgaunt</Link>, <Link to="/monster/ratling">ratling</Link>, <Link to="/monster/shantak">shantak</Link>, <Link to="/monster/shoggoth">shoggoth</Link>, <Link to="/monster/spawn_of_yog_sothoth">spawn of Yog-Sothoth</Link>, <Link to="/monster/star_spawn_of_cthulhu">star-spawn of Cthulhu</Link>, <Link to="/monster/voonith">voonith</Link>, <Link to="/monster/wendigo">wendigo</Link>, and <Link to="/monster/yithian">yithian</Link>. He gains a +2 circumstance bonus on Knowledge checks to identify such creatures and Spellcraft checks to identify effects they create. At 5th level, an Elder Mythos scholar adds <Link to="/spell/invisibility_purge">invisibility purge</Link> and <Link to="/spell/see_invisibility">see invisibility</Link> to his spellbook and can spontaneously cast either spell by sacrificing a prepared spell of the same or higher level while wearing or wielding his bonded item. At 10th level, he adds <Link to="/spell/banish_seeming">banish seeming</Link> and <Link to="/spell/true_seeing">true seeing</Link> to his spellbook as 5th-level spells and can spontaneously cast them in the same fashion.</p>
-<p>This replaces <strong className="hl">Scribe Scroll</strong> and <strong className="hl">the 5th- and 10th-level bonus feats</strong>.</p>
-<p><strong>Eldritch Infusion (Su):</strong> At 8th level, once each day while preparing spells, an Elder Mythos scholar can spend 1 extra hour to brew a tincture of hallucinogens and alien trace minerals. Though it has no effect for others, if he drinks it, the elixir expands his mind and perceptions into transitive dimensions, granting him a +4 alchemical bonus to his Intelligence score and reducing his Wisdom and Constitution scores by 2 for 10 minutes per wizard level he has. While under the effects of this elixir, he adds 1/2 his class level to his Perception checks against aberrations and creatures listed in talisman of revealing, but subtracts the same amount from all other Perception checks. His spells have a 20% failure chance, unless they summon, call, or contact a creature listed in talisman of revealing or otherwise affect only such creatures (for instance, a <Link to="/spell/fireball">fireball</Link> aimed at 3 gugs but not a fireball aimed at 3 gugs and a gnome).</p>
-<p>This ability replaces <strong className="hl">the school ability gained at 8th level</strong>.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-wizard-elder_mythos_scholar--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must have a 1st-level arcane school ability which is normally used a number of times per day equal to 3 + the wizard's Intelligence modifier.</td></tr></tbody></table></ScrollContainer></div><Ability id="arcane-bond" icon={["broken-shield"]}>
+<Pair single id="arcane-bond">Arcane Bond</Pair>
+<Pair hl title="Alters">Arcane bond</Pair>
+<Pair title="Info">An Elder Mythos scholar must choose to bond with an object, inscribing that object with eldritch runes.</Pair>
+</Ability>
+<Ability id="eldritch-knowledge-su" icon={["broken-shield","armor-upgrade"]}>
+<Pair single id="eldritch-knowledge-su">Eldritch Knowledge (Su)</Pair>
+<Pair hl title="Alters">The 1st-level arcane school ability</Pair>
+<Pair title="Info">An Elder Mythos scholar gains two fewer daily uses of his 1st-level arcane school ability, which is normally used a number of times per day equal to 3 + his Intelligence modifier.</Pair>
+<Pair title="Ability">When an Elder Mythos scholar attempts a Will save against confusion, fear, insanity, or madness, whether magical or mundane, he can spend 2 daily uses of that arcane school ability to apply his Intelligence modifier instead of his Wisdom modifier to the save. However, whenever he uses this ability, he is affected by a <Link to="/spell/nightmare">nightmare</Link> the next time he sleeps, with no saving throw. Until he sleeps and experiences the nightmare, he can't recover the spent uses of the arcane school ability by any means.</Pair>
+</Ability>
+<Ability id="eldritch-grimoire-" icon={["broken-shield","upgrade"]}>
+<Pair single id="eldritch-grimoire-">Eldritch Grimoire </Pair>
+<Pair hl title="Alters">Spellbook</Pair>
+<Pair title="Info">An Elder Mythos scholar keeps copious notes on how to use magic against the servants of the Elder Mythos in his spellbook. Every spell he adds to his spellbook takes up an additional 1d6 pages and costs twice the normal amount to inscribe; however, when casting spells prepared from his grimoire, he gains a +2 bonus on caster level checks and increases the save DCs by 1 against the creatures listed in <em>talisman of revealing</em> below.</Pair>
+</Ability>
+<Ability id="talisman-of-revealing" icon={["magic-swirl","upgrade","spell-book"]}>
+<Pair single id="talisman-of-revealing">Talisman of Revealing</Pair>
+<Pair hl title="Replaces">Scribe Scroll, the 5th- and 10th-level bonus feats</Pair>
+<Pair title="Ability">While wearing or wielding his <em>bonded item,</em> an Elder Mythos scholar can spontaneously cast a special <Link to="/spell/detect_aberration">detect aberration</Link> spell by sacrificing a prepared 1st-level spell. Instead of detecting aberrations, this spell detects creatures associated with the Elder Mythos, such as the following (or similar creatures, at the GM's discretion): <Link to="/monster/bhole">bhole</Link>, <Link to="/monster/colour_out_of_space">colour out of space</Link>, <Link to="/monster/deep_one">deep one</Link>, <Link to="/monster/elder_deep_one">elder deep one</Link>, <Link to="/monster/denizen_of_leng">denizen of Leng</Link>, <Link to="/monster/elder_thing">elder thing</Link>, <Link to="/monster/flying_polyp">flying polyp</Link>, <Link to="/monster/gug">gug</Link>, <Link to="/monster/hound_of_tindalos">hound of Tindalos</Link>, <Link to="/monster/leng_ghoul">Leng ghoul</Link>, <Link to="/monster/leng_spider">Leng spider</Link>, <Link to="/monster/mi_go">mi-go</Link>, <Link to="/monster/nightgaunt">nightgaunt</Link>, <Link to="/monster/ratling">ratling</Link>, <Link to="/monster/shantak">shantak</Link>, <Link to="/monster/shoggoth">shoggoth</Link>, <Link to="/monster/spawn_of_yog_sothoth">spawn of Yog-Sothoth</Link>, <Link to="/monster/star_spawn_of_cthulhu">star-spawn of Cthulhu</Link>, <Link to="/monster/voonith">voonith</Link>, <Link to="/monster/wendigo">wendigo</Link>, and <Link to="/monster/yithian">yithian</Link>.</Pair>
+<Pair title="Passive Ability">He gains a +2 circumstance bonus on Knowledge checks to identify such creatures and Spellcraft checks to identify effects they create.</Pair>
+<Pair title="At 5th Level">An Elder Mythos scholar adds <Link to="/spell/invisibility_purge">invisibility purge</Link> and <Link to="/spell/see_invisibility">see invisibility</Link> to his spellbook and can spontaneously cast either spell by sacrificing a prepared spell of the same or higher level while wearing or wielding his <em>bonded item.</em></Pair>
+<Pair title="At 10th Level">He adds <Link to="/spell/banish_seeming">banish seeming</Link> and <Link to="/spell/true_seeing">true seeing</Link> to his spellbook as 5th-level spells and can spontaneously cast them in the same fashion.</Pair>
+</Ability>
+<Ability id="eldritch-infusion-su" icon={["upgrade","broken-shield"]}>
+<Pair single id="eldritch-infusion-su">Eldritch Infusion (Su)</Pair>
+<Pair hl title="Replaces">The school gained at 8th level</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">Once each day while preparing spells, an Elder Mythos scholar can spend 1 extra hour to brew a tincture of hallucinogens and alien trace minerals. Though it has no effect for others, if he drinks it, the elixir expands his mind and perceptions into transitive dimensions, granting him a +4 alchemical bonus to his Intelligence score and reducing his Wisdom and Constitution scores by 2 for 10 minutes per wizard level he has.</Pair>
+<Pair title="Passive Ability">While under the effects of this elixir, he adds 1/2 his class level to his Perception checks against aberrations and creatures listed in talisman of revealing, but subtracts the same amount from all other Perception checks. His spells have a 20% failure chance, unless they summon, call, or contact a creature listed in talisman of revealing or otherwise affect only such creatures (for instance, a <Link to="/spell/fireball">fireball</Link> aimed at 3 gugs but not a fireball aimed at 3 gugs and a gnome).</Pair>
+</Ability>
 </>};
 const _exploiter_wizard = {title: "Exploiter Wizard", jsx: <><h2 id="arc-wizard-exploiter_wizard-exploiter-wizard">Exploiter Wizard</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 133</Link><br/>Contrary to traditional wizardly study, an exploiter wizard forgoes the tried and true methods of arcane focus and arcane schools for the exploits favored by an arcanist. Some wizards regard this blatant exploitation of arcane magic as somehow "cheating," but most exploiters believe this prejudice is close-minded and overly traditional.</p>
-<p><strong>Arcane Reservoir (Su):</strong> At 1st level, the exploiter wizard gains the <Link to="/class/arcanist">arcanist's</Link> arcane reservoir class feature. The exploiter wizard uses his wizard level as his arcanist level for determining how many arcane reservoir points he gains at each level.</p>
-<p>This ability replaces <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Exploiter Exploit:</strong> At 1st level and every 4 levels thereafter, the exploiter wizard gains a single <Link to="/ability/exploits">arcanist exploit</Link>. The exploiter wizard uses his wizard level as his arcanist level for determining the effects and DCs of his arcanist exploits.</p>
-<p>This ability replaces <strong className="hl">arcane school</strong>.</p>
+<Ability id="arcane-reservoir-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="arcane-reservoir-su">Arcane Reservoir (Su)</Pair>
+<Pair hl title="Replaces">Arcane bond</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">The exploiter wizard gains the <Link to="/class/arcanist">arcanist's</Link> <em>arcane reservoir</em> class feature. The exploiter wizard uses his wizard level as his arcanist level for determining how many <em>arcane reservoir</em> points he gains at each level.</Pair>
+</Ability>
+<Ability id="arcane-reservoir-su" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="arcane-reservoir-su" flavor="Relevant text from the arcanist class ability.">Arcane Reservoir (Su)</Pair>
+<Pair title="Passive Ability">You have an arcane reservoir that can hold a maximum amount of magical energy equal to 3 + your arcanist level. Each day, when preparing spells, your arcane reservoir fills with raw magical energy, gaining a number of points equal to 3 + <Link to="/misc/half">half</Link> your arcanist level. Any points you had from the previous day are lost. You can also regain these points through some arcanist exploits. The arcane reservoir can never hold more points than the maximum amount noted above; points gained in excess of this total are lost.</Pair>
+<Pair title="Free Action">You can expend 1 point from your arcane reservoir whenever you cast an arcanist spell. If you do, you can choose to increase the caster level by 1 or increase the spell's DC by 1. You can expend no more than 1 point from your reservoir on a given spell in this way.</Pair>
+</Ability>
+<Ability id="exploiter-exploit" icon={["stairs-goal"]}>
+<Pair single id="exploiter-exploit">Exploiter Exploit</Pair>
+<Pair hl title="Replaces">Arcane school</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">The exploiter wizard gains a single <Link to="/ability/exploits">arcanist exploit</Link>. The exploiter wizard uses his wizard level as his arcanist level for determining the effects and DCs of his arcanist exploits.</Pair>
+<Pair title="At 5th Level">The wizard gains another exploit.</Pair>
+<Pair title="At 9th Level">The wizard gains another exploit.</Pair>
+<Pair title="At 13th Level">The wizard gains another exploit.</Pair>
+<Pair title="At 17th Level">The wizard gains another exploit.</Pair>
+</Ability>
 </>};
 const _familiar_adept = {title: "Familiar Adept", jsx: <><h2 id="arc-wizard-familiar_adept-familiar-adept">Familiar Adept</h2>
 <p><strong>Sources</strong> <Link to="/source/familiar_folio">Familiar Folio pg. 8</Link><br/>Many wizards employ familiars to assist them, but only a few have unlocked the true power of their school of magic through the familiar itself.</p>
-<p><strong>Diminished Expertise:</strong> A familiar adept doesn't gain Scribe Scroll at 1st level or the wizard's bonus feats at 5th and 10th levels. He must also choose one additional opposition school, even if he is a universalist.</p>
-<p><strong>School Familiar (Ex):</strong> At 1st level, a familiar adept must select a familiar for his arcane bond. His familiar automatically gains the <Link to="/arc-familiar/school_familiar">school familiar</Link> archetype, but it cannot use its lesser school power until 4th level. At 8th level, it gains access to its greater school power.</p>
-<p>This ability alters <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Familiar Spells (Ex):</strong> A familiar adept stores his spells in his familiar rather than in a spellbook, exactly as a <Link to="/class/witch">witch</Link> does. His familiar can freely trade spells known with a witch's familiar, provided the spells traded are on both casters' class spell lists. The familiar adept's familiar uses the witch rules for familiars, including the increased cost of replacing the familiar.</p>
-<p>This ability alters <strong className="hl">spellbook</strong>.</p>
-<p><strong>Focused School (Ex):</strong> A familiar adept's training is focused more deeply on his familiar and his school of magic. At 1st level, 5th level, and every 5 levels thereafter, his familiar gains the ability to use the wizard's 1st-level school ability one time per day without it counting against the wizard's daily uses.</p>
+<Ability id="diminished-expertise" icon={["broken-shield"]}>
+<Pair single id="diminished-expertise">Diminished Expertise</Pair>
+<Pair hl title="Replaces">Scribe scroll, 5th- and 10th-level bonus feats</Pair>
+<Pair title="Info">A familiar must choose one additional opposition school, even if he is a universalist.</Pair>
+</Ability>
+<Ability id="school-familiar-ex" icon={["stairs-goal","broken-shield"]}>
+<Pair single id="school-familiar-ex">School Familiar (Ex)</Pair>
+<Pair hl title="Alters">Arcane bond</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A familiar adept must select a familiar for his <em>arcane bond.</em> His familiar automatically gains the <Link to="/arc-familiar/school_familiar">school familiar</Link> archetype, but it cannot use its <em>lesser school power</em> until 4th level. At 8th level, it gains access to its <em>greater school power.</em></Pair>
+</Ability>
+<Ability id="familiar-spells-ex" icon={["spell-book"]}>
+<Pair single id="familiar-spells-ex">Familiar Spells (Ex)</Pair>
+<Pair hl title="Alters">Spellbook</Pair>
+<Pair title="Ability">A familiar adept stores his spells in his familiar rather than in a spellbook, exactly as a <Link to="/class/witch">witch</Link> does. His familiar can freely trade spells known with a witch's familiar, provided the spells traded are on both casters' class spell lists. The familiar adept's familiar uses the witch rules for familiars, including the increased cost of replacing the familiar.</Pair>
+</Ability>
+<Ability id="focused-school-ex" icon={["upgrade"]}>
+<Pair single id="focused-school-ex">Focused School (Ex)</Pair>
+<Pair title="Ability">A familiar adept's training is focused more deeply on his familiar and his school of magic. His familiar gains the ability to use the wizard's 1st-level school ability additional times per day without it counting against the wizard's daily uses. The amount of additional uses is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> the wizard's class level.</Pair>
+</Ability>
 </>};
 const _first_world_caller = {title: "First World Caller", jsx: <><h2 id="arc-wizard-first_world_caller-first-world-caller">First World Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 17</Link><br/>Some wizards, typically First World <Link to="/race/gnome">gnomes</Link>, have mystical ties with the First World, the primordial home of the fey. This bond allows them to more easily conjure creatures and effects from the First World, giving them the nickname of First World callers.</p>
-<p><strong>Fey Familiar:</strong> A First World caller must select a familiar as his arcane bond. This familiar is often the fey creature that was created when the First World caller's soul passed through the First World on the way to being born. The familiar counts as both an animal and a fey for the purposes of effects that depend on its type, rather than counting as a magical beast. It gains only half the normal natural armor bonus for a familiar based on the First World caller's level (rounded down, minimum 0), and it doesn't grant its special familiar ability to its master. Instead, the familiar gains the <Link to="/template/fey_touched_creature">fey-touched creature</Link> template. At 10th level, the familiar grows a pair of delicate, gossamer wings, gaining a fly speed equal to its land speed and average maneuverability. If the familiar could already fly, its maneuverability improves by one step instead.</p>
-<p>This alters <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Fey Summoner:</strong> A First World caller is able to conjure fey creatures. He gains <Link to="/feat/augment_summoning">Augment Summoning</Link> as a bonus feat. He adds the following creatures to the <Link to="/spell/summon_monster">summon monster</Link> list of the same level, allowing him to summon them with the appropriate summon monster spell: 1st-<Link to="/monster/grimple">grimple</Link> (gremlin), <Link to="/monster/mite">mite</Link>, <Link to="/monster/sprite">sprite</Link>; 2nd-<Link to="/monster/atomie">atomie</Link>, <Link to="/monster/fuath">fuath</Link> (gremlin), <Link to="/monster/nixie">nixie</Link>; 3rd-<Link to="/monster/leprechaun">leprechaun</Link>, <Link to="/monster/nuglub">nuglub</Link> (gremlin), <Link to="/monster/pooka">pooka</Link>; 4th-<Link to="/monster/kelpie">kelpie</Link>, <Link to="/monster/korred">korred</Link>, <Link to="/monster/twigjack">twigjack</Link>; 5th-<Link to="/monster/lampad">lampad</Link>, <Link to="/monster/lurker_in_light">lurker in light</Link>, <Link to="/monster/swan_maiden">swan maiden</Link>; 6th-<Link to="/monster/cold_rider">cold rider</Link>, <Link to="/monster/oceanid">oceanid</Link>, <Link to="/monster/sangoi">sangoi</Link>; 7th-alp, <Link to="/monster/bogeyman">bogeyman</Link>, <Link to="/monster/ijiraq">ijiraq</Link>; 8th-<Link to="/monster/banelight">banelight</Link>, <Link to="/monster/fastachee">fastachee</Link>, <Link to="/monster/rusalka">rusalka</Link>; 9th-<Link to="/monster/ankou">ankou</Link>, <Link to="/monster/kamaitachie">kamaitachie</Link>, <Link to="/monster/wild_hunt_archer">wild hunt archer</Link>.</p>
-<p>This ability is a function of the First World caller himself, and it applies even if he uses a scroll, wand, or other magic item to cast a summon monster spell. If he creates such an item and it is used by another character, the spell functions as an ordinary summon monster spell.</p>
-<p>This replaces <strong className="hl">arcane school</strong> and <strong className="hl">Scribe Scroll</strong>.</p>
-<p><strong>Warp Reality (Su):</strong> At 10th level, a First World caller can reshape the nearby area at his whim, as he pulls in aspects of the mutable and primal First World. To use this ability, he must expend a spell slot of 5th level or higher as a standard action and succeed at a DC 15 Charisma check. If he succeeds, he can apply one of the following <Link to="/rule/planar_traits">planar traits</Link> to the area in a 60-foot radius for 2d4 minutes: normal gravity, heavy gravity, light gravity, mildly aligned (chaos, evil, good, or law), enhanced magic, or impeded magic. At 15th level, he can instead expend a slot of 7th level or higher and attempt a DC 20 Charisma check. If successfully, he can apply two planar traits from the previous list, or any one of the following traits: no gravity, subjective directional gravity, erratic time, fire-dominant, water-dominant, negative-dominant, positive-dominant, or wild magic.</p>
-<p>This replaces the <strong className="hl">bonus feats</strong> gained at 10th and 15th level.</p>
+<Ability id="fey-familiar" icon={["stairs-goal"]}>
+<Pair single id="fey-familiar">Fey Familiar</Pair>
+<Pair hl title="Alters">Arcane bond</Pair>
+<Pair title="Ability">A First World caller must select a familiar as his <em>arcane bond.</em> This familiar is often the fey creature that was created when the First World caller's soul passed through the First World on the way to being born. The familiar counts as both an animal and a fey for the purposes of effects that depend on its type, rather than counting as a magical beast. It gains only half the normal natural armor bonus for a familiar based on the First World caller's level (rounded down, minimum 0), and it doesn't grant its special familiar ability to its master. Instead, the familiar gains the <Link to="/template/fey_touched_creature">fey-touched creature</Link> template.</Pair>
+<Pair title="At 10th Level">The familiar grows a pair of delicate, gossamer wings, gaining a fly speed equal to its land speed and average maneuverability. If the familiar could already fly, its maneuverability improves by one step instead.</Pair>
+</Ability>
+<Ability id="fey-summoner" icon={["magic-swirl"]}>
+<Pair single id="fey-summoner">Fey Summoner</Pair>
+<Pair hl title="Replaces">Arcane school, Scribe Scroll</Pair>
+<Pair title="Ability"><p>A First World caller is able to conjure fey creatures. He gains <Link to="/feat/augment_summoning">Augment Summoning</Link> as a bonus feat. He adds the following creatures to the <Link to="/spell/summon_monster">summon monster</Link> list of the same level, allowing him to summon them with the appropriate <em>summon monster</em> spell.</p>
+<ul>
+<li>1st-<Link to="/monster/grimple">grimple</Link> (gremlin), <Link to="/monster/mite">mite</Link>, <Link to="/monster/sprite">sprite</Link></li>
+<li>2nd-<Link to="/monster/atomie">atomie</Link>, <Link to="/monster/fuath">fuath</Link> (gremlin), <Link to="/monster/nixie">nixie</Link></li>
+<li>3rd-<Link to="/monster/leprechaun">leprechaun</Link>, <Link to="/monster/nuglub">nuglub</Link> (gremlin), <Link to="/monster/pooka">pooka</Link></li>
+<li>4th-<Link to="/monster/kelpie">kelpie</Link>, <Link to="/monster/korred">korred</Link>, <Link to="/monster/twigjack">twigjack</Link></li>
+<li>5th-<Link to="/monster/lampad">lampad</Link>, <Link to="/monster/lurker_in_light">lurker in light</Link>, <Link to="/monster/swan_maiden">swan maiden</Link></li>
+<li>6th-<Link to="/monster/cold_rider">cold rider</Link>, <Link to="/monster/oceanid">oceanid</Link>, <Link to="/monster/sangoi">sangoi</Link></li>
+<li>7th-<Link to="/monster/alp">alp</Link>, <Link to="/monster/bogeyman">bogeyman</Link>, <Link to="/monster/ijiraq">ijiraq</Link></li>
+<li>8th-<Link to="/monster/banelight">banelight</Link>, <Link to="/monster/fastachee">fastachee</Link>, <Link to="/monster/rusalka">rusalka</Link></li>
+<li>9th-<Link to="/monster/ankou">ankou</Link>, <Link to="/monster/kamaitachie">kamaitachie</Link>, <Link to="/monster/wild_hunt_archer">wild hunt archer</Link>.</li>
+</ul>
+<p>This ability is a function of the First World caller himself, and it applies even if he uses a scroll, wand, or other magic item to cast a <em>summon monster</em> spell. If he creates such an item and it is used by another character, the spell functions as an ordinary <em>summon monster</em> spell.</p>
+</Pair>
+</Ability>
+<Ability id="warp-reality-su" icon={["magic-swirl"]}>
+<Pair single id="warp-reality-su">Warp Reality (Su)</Pair>
+<Pair hl title="Replaces">10th- and 15th-level bonus feats</Pair>
+<Pair title="At 10th Level">A First World caller can reshape the nearby area at his whim, as he pulls in aspects of the mutable and primal First World. To use this ability, he must expend a spell slot of 5th level or higher as a <strong className="hl">standard action</strong> and succeed at a DC 15 Charisma check. If he succeeds, he can apply one of the following <Link to="/rule/planar_traits">planar traits</Link> to the area in a 60-foot radius for 2d4 minutes: <em>normal gravity, heavy gravity, light gravity, mildly aligned</em> (chaos, evil, good, or law), <em>enhanced magic,</em> or <em>impeded magic.</em></Pair>
+<Pair title="At 15th Level">He can instead expend a slot of 7th level or higher and attempt a DC 20 Charisma check. If successful, he can apply two planar traits from the previous list, or any one of the following traits: <em>no gravity, subjective directional gravity, erratic time, fire-dominant, water-dominant, negative-dominant, positive-dominant,</em> or <em>wild magic.</em></Pair>
+</Ability>
 </>};
 const _hallowed_necromancer = {title: "Hallowed Necromancer", jsx: <><h2 id="arc-wizard-hallowed_necromancer-hallowed-necromancer">Hallowed Necromancer</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 74</Link><br/>Many wizards study necromancy to create undead, but some study the same arts to purge the stain of undeath.</p>
-<p><strong>Arcane School:</strong> A hallowed necromancer must specialize in the school of <Link to="/arcaneschool/necromancy">necromancy</Link> and swear never to create undead.</p>
-<p>This alters <strong className="hl">arcane school</strong> and <strong className="hl">spells</strong>.</p>
-<p><strong>Turn Undead (Su):</strong> A hallowed necromancer must select <Link to="/feat/turn_undead">Turn Undead</Link> as a bonus feat with her power over undead arcane school ability.</p>
-<p>This alters <strong className="hl">power over undead</strong>.</p>
-<p><strong>Positive Touch (Su):</strong> As a standard action, a hallowed necromancer can sacrifice a prepared spell of the necromancy school to spontaneously cast a <Link to="/main/cure_spells">cure spell</Link> of the same level or lower, counting the spell as a necromancy spell rather than a conjuration spell. This cure spell harms only undead; it doesn't heal the living. If the spell requires an attack roll, it as has a critical threat range of 19-20. A number of times per day equal to 3 + her Intelligence modifier, when she spontaneously casts a cure spell, she can either turn the effect into a ray and increase the range to close or remove the Will save but deal half the normal amount of damage.</p>
-<p>This ability replaces <strong className="hl">grave touch</strong> and <strong className="hl">Scribe Scroll</strong>.</p>
-<p><strong>Death Bane (Su):</strong> At 5th level, a hallowed necromancer's cure spells are <Link to="/feat/maximized">maximized</Link> when used to damage undead and the save DCs of her spells cast on undead creatures are 1 higher. She can expend 2 uses of positive touch as a swift action to imbue any weapon she wields with the undead-<Link to="/magic-enh/bane">bane</Link> or <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon special ability for 1 round per 5 wizard levels she has. These effects apply only against undead, and only while the hallowed necromancer wields the weapon. If the weapon is her arcane bond item, this ability costs only 1 use of positive touch.</p>
-<p>This ability replaces <strong className="hl">the bonus feat gained at 5th level</strong>.</p>
-<p><strong>Ghostbane (Su):</strong> At 10th level, a hallowed necromancer can expend 3 uses of her positive touch as a swift action while casting a spell to affect undead as if the spell were prepared with the <Link to="/feat/ectoplasmic_spell">Ectoplasmic Spell</Link>, <Link to="/feat/thanatopic_spell">Thanatopic Spell</Link>, or <Link to="/feat/threnodic_spell">Threnodic Spell</Link> feat.</p>
-<p>This ability replaces <strong className="hl">the bonus feat gained at 10th level</strong>.</p>
-<p><strong>Guarded Life (Su):</strong> At 15th level, when a hallowed necromancer fails a saving throw against a death effect, energy drain, a necromantic effect, or a negative energy effect, she can expend 2 uses of positive touch as an immediate action to reroll it. She must accept the result of the reroll even if it's worse. If she would take hit point damage from such an effect, as an immediate action she can instead expend 1 use of positive touch and sacrifice a prepared necromancy spell of 4th level or higher to reduce the damage she takes by an amount equal to her wizard level + 10 times the spell level.</p>
-<p>This ability replaces <strong className="hl">the 15th level bonus feat</strong>.</p>
+<Ability id="arcane-school" icon={["info"]}>
+<Pair single id="arcane-school">Arcane School</Pair>
+<Pair hl title="Alters">Arcane school, spells</Pair>
+<Pair title="Info">A hallowed necromancer must specialize in the school of <Link to="/arcaneschool/necromancy">necromancy</Link> and swear never to create undead.</Pair>
+</Ability>
+<Ability id="turn-undead-su" icon={["stairs-goal"]}>
+<Pair single id="turn-undead-su">Turn Undead (Su)</Pair>
+<Pair hl title="Alters">Power over undead necromancy school ability</Pair>
+<Pair title="Ability">A hallowed necromancer must select <Link to="/feat/turn_undead">Turn Undead</Link> as a bonus feat with her <em>power over undead</em> arcane school ability.</Pair>
+</Ability>
+<Ability id="positive-touch-su" icon={["magic-palm","smoking-finger"]}>
+<Pair single id="positive-touch-su">Positive Touch (Su)</Pair>
+<Pair hl title="Replaces">Grave touch necromancy school, Scribe Scroll</Pair>
+<Pair title="Standard Action">A hallowed necromancer can sacrifice a prepared spell of the necromancy school to spontaneously cast a <Link to="/main/cure_spells">cure spell</Link> of the same level or lower, counting the spell as a necromancy spell rather than a conjuration spell. This <em>cure</em> spell harms only undead; it doesn't heal the living. If the spell requires an attack roll, it has a critical threat range of 19-20.</Pair>
+<Pair title="Ability">A number of times per day equal to 3 + her Intelligence modifier, when she spontaneously casts a <em>cure</em> spell, she can either turn the effect into a ray and increase the <Link to="/rule/range">range</Link> to Close or remove the Will save but deal half the normal amount of damage.</Pair>
+</Ability>
+<Ability id="death-bane-su" icon={["upgrade"]}>
+<Pair single id="death-bane-su">Death Bane (Su)</Pair>
+<Pair hl title="Replaces">5th-level bonus feat</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Passive Ability">A hallowed necromancer's <em>cure</em> spells are <Link to="/feat/maximized">maximized</Link> when used to damage undead and the save DCs of her spells cast on undead creatures are 1 higher.</Pair>
+<Pair title="Swift Action"><p>She can expend 2 uses of <em>positive touch</em> to imbue any weapon she wields with the undead-<Link to="/magic-enh/bane">bane</Link> or <Link to="/magic-enh/ghost_touch">ghost touch</Link> weapon special ability for a number of rounds equal to <Link to="/misc/one_fifth">one-fifth</Link> her wizard level. These effects apply only against undead, and only while the hallowed necromancer wields the weapon.</p>
+<p>If the weapon is her <em>arcane bond</em> item, this ability costs only 1 use of <em>positive touch.</em></p>
+</Pair>
+</Ability>
+<Ability id="ghostbane-su" icon={["upgrade"]}>
+<Pair single id="ghostbane-su">Ghostbane (Su)</Pair>
+<Pair hl title="Replaces">10th-level bonus feat</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Swift Action">A hallowed necromancer can expend 3 uses of her <em>positive touch</em> while casting a spell to affect undead as if the spell were prepared with the <Link to="/feat/ectoplasmic_spell">Ectoplasmic Spell</Link>, <Link to="/feat/thanatopic_spell">Thanatopic Spell</Link>, or <Link to="/feat/threnodic_spell">Threnodic Spell</Link> feat.</Pair>
+</Ability>
+<Ability id="guarded-life-su" icon={["armor-upgrade","rolling-dices"]}>
+<Pair single id="guarded-life-su">Guarded Life (Su)</Pair>
+<Pair hl title="Replaces">15th-level bonus feat</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Immediate Action"><p>When a hallowed necromancer fails a saving throw against a death effect, energy drain, a necromantic effect, or a negative energy effect, she can expend 2 uses of <em>positive touch</em> to reroll it. She must accept the result of the reroll even if it's worse.</p>
+<p>If she would take hit point damage from such an effect, she can instead expend 1 use of <em>positive touch</em> and sacrifice a prepared necromancy spell of 4th level or higher to reduce the damage she takes by an amount equal to her wizard level + 10 times the spell level.</p>
+</Pair>
+</Ability>
 </>};
 const _instructor = {title: "Instructor", jsx: <><h2 id="arc-wizard-instructor-instructor">Instructor</h2>
 <p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions pg. 31</Link><br/>Whether serving as staff at a formal school of magic or simply acting as a wandering teacher, an instructor has an apprentice who trades service to the instructor for lessons in magic.</p>
-<p><strong>Apprentice (Ex):</strong> At 1st level, an instructor acquires the services of a loyal apprentice. She functions similarly to a cohort (see the <Link to="/feat/leadership">Leadership</Link> feat), though your apprentice begins as a 1st-level <Link to="/npcclass/commoner">commoner</Link> with <Link to="/feat/magical_aptitude">Magical Aptitude</Link> as their 1st-level feat and NPC ability scores (13, 12, 11, 10, 9, 8 before racial modifiers). When the instructor reaches 3rd level, if his Leadership score is at least 2, the apprentice becomes a 1st-level wizard of the same school specialization as the instructor, and she gains heroic ability scores (15, 14, 13, 12, 10, 8 before racial modifiers). The apprentice never gains item creation feats, but otherwise follows the normal rules for a cohort.</p>
+<Ability id="apprentice-ex" icon={["stairs-goal"]}>
+<Pair single id="apprentice-ex">Apprentice (Ex)</Pair>
+<Pair hl title="Replaces">Arcane bond</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">An instructor acquires the services of a loyal apprentice. She functions similarly to a cohort (see the <Link to="/feat/leadership">Leadership</Link> feat), though your apprentice begins as a 1st-level <Link to="/npcclass/commoner">commoner</Link> with <Link to="/feat/magical_aptitude">Magical Aptitude</Link> as their 1st-level feat and <Link to="/rule/step_1_the_basics_step_2_determine_ability_scores">NPC ability scores</Link> (13, 12, 11, 10, 9, 8 before racial modifiers).</Pair>
+<Pair title="At 3rd Level">If the instructor's Leadership score is at least 2, the apprentice becomes a 1st-level wizard of the same school specialization as the instructor, and she gains heroic ability scores (15, 14, 13, 12, 10, 8 before racial modifiers).</Pair>
+<Pair title="At 7th Level">An instructor may select the Leadership feat - using his Intelligence modifier to determine his Leadership score - but doing so only provides followers, never a second cohort.</Pair>
+<Pair title="Special"><p>The apprentice never gains item creation feats, but otherwise follows the normal rules for a cohort.</p>
 <p>Each time the instructor gains a level, he may dismiss his existing apprentice as graduated (or expelled, depending on her performance), and gain a new cohort following the same rules. If an apprentice dies in service to the instructor, the instructor takes a -2 penalty to his Leadership score. This penalty is reduced by 1 for every level the instructor gains after the death, to a minimum of 0.</p>
-<p>Because cohorts are most interested in the instructor's magical ability, the instructor uses his Intelligence modifier, rather than Charisma, to determine his Leadership score. At 7th level, an instructor may select the Leadership feat - using his Intelligence modifier to determine his Leadership score - but doing so only provides followers, never a second cohort.</p>
-<p>This ability replaces <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Trained Teamwork (Ex):</strong> Starting at 5th level, the instructor can take a <Link to="/main/teamwork_feat">teamwork feat</Link> as his wizard bonus feat. As long as his apprentice is within 60 feet, the apprentice gains all such teamwork feats as bonus feats. The apprentice does not have to meet the feat's prerequisites.</p>
-<p>This ability <strong className="hl">modifies the bonus feats</strong> gained at 5th, 10th, 15th, and 20th level.</p>
+<p>Because cohorts are most interested in the instructor's magical ability, the instructor uses his Intelligence modifier, rather than Charisma, to determine his Leadership score.</p>
+</Pair>
+</Ability>
+<Ability id="trained-teamwork-ex" icon={["stairs-goal"]}>
+<Pair single id="trained-teamwork-ex">Trained Teamwork (Ex)</Pair>
+<Pair hl title="Alters">5th-, 10th-, 15th-, and 20th-level bonus feats</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">The instructor can take a <Link to="/main/teamwork_feat">teamwork feat</Link> as a wizard bonus feat. As long as his apprentice is within 60 feet, the apprentice gains all such teamwork feats as bonus feats. The apprentice does not have to meet the feat's prerequisites.</Pair>
+</Ability>
 </>};
 const _pact_wizard_ff = {title: "Pact Wizard (FF)", jsx: <><h2 id="arc-wizard-pact_wizard_ff-pact-wizard-ff">Pact Wizard (FF)</h2>
 <p><strong>Sources</strong> <Link to="/source/familiar_folio">Familiar Folio pg. 8</Link><br/>Some wizards make bargains with beings from other realms in order to gain arcane power. These pact wizards have unparalleled access to extraplanar allies, but these bonds never come without strings attached.</p>
-<p><strong>Familiar (Ex):</strong> A pact wizard must select a <Link to="/ability/familiar">familiar</Link> for his arcane bond. The familiar's loyalty ultimately lies with the pact wizard's patron, and it reports back to the patron on the wizard's activities.</p>
-<p>This ability alters <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Pact Focus (Ex):</strong> At 1st level, a pact wizard must choose one additional opposition school, even if he is a universalist. A pact wizard can't pick conjuration as an opposition school.</p>
-<p>This ability alters <strong className="hl">arcane school</strong>.</p>
-<p><strong>Pact (Ex):</strong> A pact wizard enters into a bargain with an extraplanar being in order to gain increased wizardly powers. At 1st level, he selects a patron belonging to one specific subtype of outsider for which there exists an <Link to="/feat/improved_familiar">improved familiar</Link> option (such as devil or azata). The pact wizard can select a subtype of outsider even with a diametrically opposed alignment; in this case, the patron being offers the pact in an attempt to tempt or redeem the pact wizard. A pact wizard whose alignment shifts away from the chosen outsider subtype, who grossly abuses his familiar or any outsider of the chosen subtype, or who commits egregious acts against the alignment of the patron loses all the benefits of this archetype (but keeps the additional opposition school) until he receives an <Link to="/spell/atonement">atonement</Link>.</p>
-<p><strong>Aura (Ex):</strong> A pact wizard has an aura corresponding to the alignment of his chosen subtype as a cleric of his wizard level.</p>
-<p><strong>Pact Summons (Ex):</strong> A pact wizard can select <Link to="/feat/sacred_summons">Sacred Summons</Link> as a wizard bonus feat. He can use this feat only to summon outsiders of his chosen subtype.</p>
-<p><strong>True Form (Ex):</strong> At 7th level, a pact wizard's familiar reveals its true form, automatically transforming into an outsider improved familiar of the chosen subtype.</p>
+<Ability id="familiar-ex" icon={["info"]}>
+<Pair single id="familiar-ex">Familiar (Ex)</Pair>
+<Pair hl title="Alters">Arcane bond</Pair>
+<Pair title="Info">A pact wizard must select a <Link to="/ability/familiar">familiar</Link> for his arcane bond. The familiar's loyalty ultimately lies with the pact wizard's patron, and it reports back to the patron on the wizard's activities.</Pair>
+</Ability>
+<Ability id="pact-focus-ex" icon={["broken-shield"]}>
+<Pair single id="pact-focus-ex">Pact Focus (Ex)</Pair>
+<Pair hl title="Alters">Arcane school</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Info">A pact wizard must choose one additional opposition school, even if he is a universalist. A pact wizard can't pick <Link to="/arcaneschool/conjuration">conjuration</Link> as an opposition school.</Pair>
+</Ability>
+<Ability id="pact-ex" icon={["stairs-goal","hazard-sign"]}>
+<Pair single id="pact-ex" flavor="A pact wizard enters into a bargain with an extraplanar being in order to gain increased wizardly powers.">Pact (Ex)</Pair>
+<Pair title="At 1st Level">The wizard selects a patron belonging to one specific subtype of outsider for which there exists an <Link to="/feat/improved_familiar">improved familiar</Link> option (such as devil or azata). The pact wizard can select a subtype of outsider even with a diametrically opposed alignment; in this case, the patron being offers the pact in an attempt to tempt or redeem the pact wizard.</Pair>
+<Pair title="Special">A pact wizard whose alignment shifts away from the chosen outsider subtype, who grossly abuses his familiar or any outsider of the chosen subtype, or who commits egregious acts against the alignment of the patron loses all the benefits of this archetype (but keeps the additional opposition school) until he receives an <Link to="/spell/atonement">atonement</Link>.</Pair>
+</Ability>
+<Ability id="aura-ex" extraClasses="hasSubs" icon={["aura"]}>
+<Pair single id="aura-ex">Aura (Ex)</Pair>
+<Pair title="Passive Ability">A pact wizard has an aura corresponding to the alignment of his chosen subtype as a cleric of his wizard level.</Pair>
+</Ability>
+<Ability id="aura-ex" icon={["aura"]}>
+<Pair single id="aura-ex" flavor="Text from the cleric class ability.">Aura (Ex)</Pair>
+<Pair title="Passive Ability">If you are a cleric of a chaotic, evil, good, or lawful deity, you have a particularly powerful aura corresponding to your deity's alignment (see <Link to="/spell/detect_evil">detect evil</Link>).</Pair>
+</Ability>
+<Ability id="pact-summons-ex" icon={["upgrade"]}>
+<Pair single id="pact-summons-ex">Pact Summons (Ex)</Pair>
+<Pair title="Ability">A pact wizard can select <Link to="/feat/sacred_summons">Sacred Summons</Link> as a wizard bonus feat. He can use this feat only to summon outsiders of his chosen subtype.</Pair>
+</Ability>
+<Ability id="true-form-ex" icon={["upgrade"]}>
+<Pair single id="true-form-ex">True Form (Ex)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Ability">A pact wizard's familiar reveals its true form, automatically transforming into an outsider improved familiar of the chosen subtype.</Pair>
+</Ability>
 </>};
 const _pact_wizard_hhh = {title: "Pact Wizard (HHH)", jsx: <><h2 id="arc-wizard-pact_wizard_hhh-pact-wizard-hhh">Pact Wizard (HHH)</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 20</Link><br/>While the art of wizardry is usually a scholar's pursuit, there are those who seek mastery of arcane power without tedious study and monotonous research. Motivated by foolish ambition, such individuals turn to the greatest enigmas of the cosmos in the hopes of attaining greater power. Though few successfully attract the attention of these forces, those who do receive phenomenal arcane power for their efforts, but become the dutiful playthings and servants of the forces with which they consort.</p>
-<p><strong>Effortless Magic (Ex):</strong> Although a pact wizard still uses a spellbook to prepare his wizard spells, his close ties with his otherworldly patron allow him to do so nearly effortlessly. A pact wizard can prepare all of his spells in only 15 minutes, and his minimum preparation time is only 1 minute.</p>
-<p>This alters <strong className="hl">the wizard's spellcasting</strong>.</p>
-<p><strong>Patron Spells:</strong> At 1st level, a pact wizard must select a <Link to="/ability/patrons">patron</Link>. This functions like the <Link to="/class/witch">witch</Link> class ability of the same name, except the pact wizard automatically adds his patron's spells to his spellbook instead of to his familiar. In addition, the pact wizard can expend any prepared spell that isn't a spell prepared using the additional spell slot the wizard receives from his arcane school in order to spontaneously cast one of his patron's spells of the same level or lower.</p>
-<p>This ability replaces <strong className="hl">Scribe Scroll</strong>.</p>
-<p><strong>Great Power, Greater Expense (Ex):</strong> As a pact wizard grows in power, his choice of patron begins to affect his physical body. At 5th level, the pact wizard chooses one <Link to="/ability/oracle_curses">oracle curse</Link>, using 1/2 his character level as his effective oracle level when determining the effects of this curse. If an oracle curse would add spells to the oracle's list of spells known, the pact wizard instead add those spells to the wizard's spell list as well as to his spellbook.</p>
-<p>At 10th level, the pact wizard can invoke his patron's power to roll twice and take the better result when attempting any caster level check, <Link to="/rule/concentration">concentration</Link> check, initiative check, or saving throw. He can activate this ability as a free action before attempting the check, even if it isn't his turn. He can use this ability a number of times per day equal to 3 + half his Intelligence modifier. At 15th level, when the pact wizard invokes his patron's power to roll twice on a check, he adds his Intelligence bonus to the result as an insight bonus. When he applies metamagic feats to any spells he learned via his patron or curse, he treats that spell's final effective level as 1 lower (to a minimum level equal to the spell's original level).</p>
-<p>At 20th level, whenever the pact wizard invokes his patron's power to roll twice on a check and his result is a natural 20, he automatically succeeds, regardless of whether or not a check of that type would normally allow an automatic success.</p>
-<p>This ability replaces the <strong className="hl">bonus feats</strong> a wizard gains at 5th, 10th, 15th, and 20th level.</p>
+<Ability id="effortless-magic-ex" icon={["upgrade"]}>
+<Pair single id="effortless-magic-ex">Effortless Magic (Ex)</Pair>
+<Pair hl title="Alters">Spellcasting</Pair>
+<Pair title="Ability">Although a pact wizard still uses a spellbook to prepare his wizard spells, his close ties with his otherworldly patron allow him to do so nearly effortlessly. A pact wizard can prepare all of his spells in only 15 minutes, and his minimum preparation time is only 1 minute.</Pair>
+</Ability>
+<Ability id="patron-spells" icon={["stairs-goal","spell-book","magic-swirl"]}>
+<Pair single id="patron-spells">Patron Spells</Pair>
+<Pair hl title="Replaces">Scribe Scroll</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A pact wizard must select a <Link to="/ability/patrons">patron</Link>. This functions like the <Link to="/class/witch">witch</Link> class ability of the same name, except the pact wizard automatically adds his patron's spells to his spellbook instead of to his familiar.</Pair>
+<Pair title="Special">In addition, the pact wizard can expend any prepared spell that isn't a spell prepared using the additional spell slot the wizard receives from his arcane school in order to spontaneously cast one of his patron's spells of the same level or lower.</Pair>
+</Ability>
+<Ability id="great-power-greater-expense-ex" icon={["broken-shield","stairs-goal","spell-book","rolling-dices","armor-upgrade"]}>
+<Pair single id="great-power-greater-expense-ex" flavor="As a pact wizard grows in power, his choice of patron begins to affect his physical body.">Great Power, Greater Expense (Ex)</Pair>
+<Pair hl title="Replaces">5th-, 10th-, 15th-, and 20th-level bonus feats</Pair>
+<Pair title="At 5th Level">The pact wizard chooses one <Link to="/ability/oracle_curses">oracle curse</Link>, using <Link to="/misc/half">half</Link> his character level as his effective oracle level when determining the effects of this curse. If an oracle curse would add spells to the oracle's list of spells known, the pact wizard instead adds those spells to the wizard's spell list as well as to his spellbook.</Pair>
+<Pair title="At 10th Level"><p>The pact wizard can invoke his patron's power to roll twice and take the better result when attempting any caster level check, <Link to="/rule/concentration">concentration</Link> check, initiative check, or saving throw. He can activate this ability as a <strong className="hl">free action</strong> before attempting the check, even if it isn't his turn.</p>
+<p>He can use this ability a number of times per day equal to 3 + half his Intelligence modifier.</p>
+</Pair>
+<Pair title="At 15th Level">When the pact wizard invokes his patron's power to roll twice on a check, he adds his Intelligence bonus to the result as an insight bonus. When he applies metamagic feats to any spells he learned via his patron or curse, he treats that spell's final effective level as 1 lower (to a minimum level equal to the spell's original level).</Pair>
+<Pair title="At 20th Level">Whenever the pact wizard invokes his patron's power to roll twice on a check and his result is a natural 20, he automatically succeeds, regardless of whether or not a check of that type would normally allow an automatic success.</Pair>
+</Ability>
 </>};
 const _poleiheira_adherent = {title: "Poleiheira Adherent", jsx: <><h2 id="arc-wizard-poleiheira_adherent-poleiheira-adherent">Poleiheira Adherent</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 18</Link><br/>Poleiheira adherents are wizards who wish to emulate the explorations and discoveries of Arustun and partake in great odysseys as they seek to imitate his achievements. These adherents bond to a book in tribute to Arustun and his extensive journals - known as the Poleiheira. This allows them to record their travels as well as any lost magic and lore they encounter.</p>
