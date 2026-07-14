@@ -5,7 +5,7 @@ import checkForEncodedLink, { convertTextToLink } from "../tests/checkForEncoded
 import noteTags from "../noteTags.js";
 import isALink from "../get-all-links.js";
 
-const parseAtts = (attrs) => {
+const parseAtts = (attrs, hl) => {
 	const {
 		standard, move, free, immediate, swift,
 		passive, ability, ability2, ability3,
@@ -13,43 +13,45 @@ const parseAtts = (attrs) => {
 		goal, compbenefit, info, x, y, z, X, Y, Z
 	} = attrs;
 	if(passive) {
-		return [passive, "Passive Ability"];
+		return [passive, "Passive Ability", hl.indexOf("p")];
 	} else if (ability || ability2 || ability3) {
-		return [ability || ability2 || ability3, "Ability"];
+		return [ability || ability2 || ability3, "Ability", hl.indexOf(
+			ability ? "a" : (ability2 ? "2" : "3")
+		)];
 	} else if (standard) {
-		return [standard, "Standard Action"];
+		return [standard, "Standard Action", hl.indexOf("s")];
 	} else if (swift) {
-		return [swift, "Swift Action"];
+		return [swift, "Swift Action", hl.indexOf("w")];
 	} else if (move) {
-		return [move, "Move-Equivalent Action"];
+		return [move, "Move-Equivalent Action", hl.indexOf("m")];
 	} else if (fullround) {
-		return [fullround, "Full-Round Action"];
+		return [fullround, "Full-Round Action", hl.indexOf("r")];
 	} else if (immediate) {
-		return [immediate, "Immediate Action"];
+		return [immediate, "Immediate Action", hl.indexOf("i")];
 	} else if (free) {
-		return [free, "Free Action"];
+		return [free, "Free Action", hl.indexOf("f")];
 	} else if (info) {
-		return [info, "Info"];
+		return [info, "Info", hl.indexOf("n")];
 	} else if (note) {
-		return [note, "Note"];
+		return [note, "Note", hl.indexOf("N")];
 	} else if (choice) {
-		return [choice, "Choice"];
+		return [choice, "Choice", hl.indexOf("c")];
 	} else if (benefit) {
-		return [choice, "Benefit"];
+		return [choice, "Benefit", hl.indexOf("ben")];
 	} else if (normal) {
-		return [normal, "Normal"];
+		return [normal, "Normal", hl.indexOf("normal")];
 	} else if (goal) {
-		return [goal, "Goal"];
+		return [goal, "Goal", hl.indexOf("goal")];
 	} else if (compbenefit) {
-		return [compbenefit, "Completion Benefit"];
+		return [compbenefit, "Completion Benefit", hl.indexOf("compben")];
 	} else if (x || y || z || X || Y || Z) {
-		// These are already in [info, "title"] format
+		// These are already in [info, "title", index] format
 		return (x || y || z || X || Y || Z);
 	}
 	return false;
 };
 
-const parseXYZ = (etc, logError) => {
+const parseXYZ = (etc, logError, hl) => {
 	const result = {};
 	Object.entries(etc).forEach(([key, value]) => {
 		["x","y","z","X","Y","Z"].some(x => {
@@ -57,7 +59,7 @@ const parseXYZ = (etc, logError) => {
 				if(result[x]) {
 					logError(`Duplicate ${x}... attr`);
 				}
-				result[x] = [value, key.slice(1).replace(/_/g, " ")];
+				result[x] = [value, key.slice(1).replace(/_/g, " "), hl.indexOf(x)];
 				return true;
 			}
 			return false;
@@ -135,10 +137,11 @@ const makeAbilityBlock = ({
 		useF, useHD,
 		useUnit,
 		containerInfo, title,
-		replace, alter, type, prereq,
+		replace, alter, type, prereq, hl: hlString = "",
 		...etc
 	} = attrs;
-	const {x, y, z, X, Y, Z} = parseXYZ(etc, logError);
+	const hl = hlString.split(/~/);
+	const {x, y, z, X, Y, Z} = parseXYZ(etc, logError, hl);
 	const text = txt || title;
 	resetSwaps();
 	const output = [];
@@ -459,7 +462,7 @@ const makeAbilityBlock = ({
 	// TYPE/CATEGORY
 	//
 	type && output.push(
-		`<Pair title="Type">`
+		`<Pair title="Type"${hl.indexOf("type") >= 0 ? " hl" : ""}>`
 		+ doParse(type, false)
 		+ "</Pair>"
 	);
@@ -467,7 +470,7 @@ const makeAbilityBlock = ({
 	// PREREQUISITES
 	//
 	prereq && output.push(
-			`<Pair title="Prerequisites">`
+			`<Pair title="Prerequisites"${hl.indexOf("prereq") >= 0 ? " hl" : ""}>`
 			+ doParse(prereq, false)
 			+ "</Pair>"
 		);
@@ -503,7 +506,7 @@ const makeAbilityBlock = ({
 				}
 				const level = ordinal(i + 1);
 				output.push(
-					`<Pair title="At ${level} Level">`
+					`<Pair title="At ${level} Level"${hl.indexOf(`l${level}`) >= 0 ? " hl" : ""}>`
 					+ doParse(text, true)
 					+ "</Pair>"
 				);
@@ -515,7 +518,7 @@ const makeAbilityBlock = ({
 	} else if (l) {
 		// A single level shows when the ability is gained
 		output.push(
-			`<Pair title="Gained">`
+			`<Pair title="Gained"${hl.indexOf("l") >= 0 ? " hl" : ""}>`
 			+ `At ${ordinal(l)} Level`
 			+ "</Pair>"
 		);
@@ -618,7 +621,7 @@ const makeAbilityBlock = ({
 					return;
 			}
 			output.push(
-				`<Pair title="${title}">`
+				`<Pair title="${title}"${hl.indexOf(ab) >= 0 ? " hl" : ""}>`
 				+ (parsed ? what : doParse(what || "MISSING", true))
 				+ "</Pair>"
 			);
@@ -626,7 +629,7 @@ const makeAbilityBlock = ({
 	} else {
 		if(use) {
 			output.push(
-				`<Pair title="Usage">`
+				`<Pair title="Usage"${hl.indexOf("u") >= 0 ? " hl" : ""}>`
 				+ use
 				+ "</Pair>"
 			);
@@ -635,16 +638,16 @@ const makeAbilityBlock = ({
 			// This was pre-parsed and passed in from container-directives.
 			const {action, contents} = containerInfo;
 			output.push(
-				`<Pair title="${action}">`
+				`<Pair title="${action}"${hl.indexOf("C") >= 0 ? " hl" : ""}>`
 				+ contents
 				+ "</Pair>"
 			);
 		} else {
-			const ab = parseAtts({...attrs, x, y, z, X, Y, Z});
+			const ab = parseAtts({...attrs, x, y, z, X, Y, Z}, hl);
 			if(ab) {
-				const [description, title] = ab;
+				const [description, title, HL] = ab;
 				output.push(
-					`<Pair title="${title}">`
+					`<Pair title="${title}"${HL >= 0 ? " hl" : ""}>`
 					+ doParse(description, true)
 					+ "</Pair>"
 				);
@@ -656,7 +659,7 @@ const makeAbilityBlock = ({
 	//
 	if(provokes) {
 		output.push(
-				`<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>`
+				`<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}${hl.indexOf("provokes") >= 0 ? " hl" : ""}>`
 				+ (
 					provokes === "provokes" ? "Yes" : provokes
 				)
@@ -672,6 +675,7 @@ const makeAbilityBlock = ({
 	) {
 		// Spells granted based on character level
 		// Title should indicate how the spells are gained, what the level column means, etc.
+		const override = (hl.indexOf("spells") >= 0);
 		[s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20]
 			.forEach((bit, i) => {
 				if(!bit) {
@@ -688,7 +692,7 @@ const makeAbilityBlock = ({
 				}).join(", ");
 				const level = i && ordinal(i);
 				output.push(
-					`<Pair plain title="${level}">`
+					`<Pair plain title="${level}"${(override || (hl.indexOf(`s${i}`) >= 0)) ? " hl" : ""}>`
 					+ doParse(spells, false)
 					+ "</Pair>"
 				);
@@ -1000,8 +1004,9 @@ const makeAbilityBlock = ({
 			if(!text) {
 				return;
 			}
+			const level = i + 1;
 			output.push(
-				`<Pair title="At ${ordinal(i + 1)} Level">`
+				`<Pair title="At ${ordinal(level)} Level"${hl.indexOf(`imp${level}`) >= 0 ? " hl" : ""}>`
 				+ doParse(text, true)
 				+ "</Pair>"
 			);
@@ -1012,7 +1017,7 @@ const makeAbilityBlock = ({
 	//
 	if(special) {
 		output.push(
-				`<Pair title="Special">`
+				`<Pair title="Special"${hl.indexOf("spec") >= 0 ? " hl" : ""}>`
 				+ doParse(special, true)
 				+ "</Pair>"
 			);

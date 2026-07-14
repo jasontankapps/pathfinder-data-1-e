@@ -435,7 +435,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"normal", "goal", "compbenefit",
 					"provokes", "order",
 					"usage", "title",
-					"replace", "alter", "type", "prereq"
+					"replace", "alter", "type", "prereq", "hl"
 				], [
 					/^(s0|([sl]|imp)(1?[1-9]|[12]0))$/,
 					/^ability[23]?$/,
