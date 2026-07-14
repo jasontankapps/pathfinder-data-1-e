@@ -6,7 +6,7 @@ import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 const _arcane_bomber = {title: "Arcane Bomber", jsx: <><h2 id="arc-wizard-arcane_bomber-arcane-bomber">Arcane Bomber</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 75</Link><br/>To many wizards, the experimentation of the alchemist seems quaint, if not dangerous or frightening. A few wizards take up the secrets of the bomb, however, fusing alchemy with their already considerable magical power.</p>
-<Ability id="bomb-su" icon={["bowman"]}>
+<Ability id="bomb-su" extraClasses="hasSubs" icon={["bowman"]}>
 <Pair single id="bomb-su">Bomb (Su)</Pair>
 <Pair hl title="Replaces">Arcane bond</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -84,12 +84,12 @@ const _arcane_warden = {title: "Arcane Warden", jsx: <><h2 id="arc-wizard-arcane
 </Ability>
 <Ability id="generous-touch-su" icon={["upgrade"]}>
 <Pair single id="generous-touch-su" flavor="Arcane wardens are talented at enhancing the magical effects they create to bolster allies.">Generous Touch (Su)</Pair>
-<Pair hl title="Replaces">Hand of the apprentice universalist school ability</Pair>
+<Pair hl title="Replaces"><em>Hand of the apprentice</em> universalist school ability</Pair>
 <Pair title="Ability">When an arcane warden casts a spell with a target of "creature touched" on a willing target other than himself, he can cause the effects of the spell to last longer than normal. A spell with a duration of 1 round per level lasts an additional number of rounds equal to the arcane warden's Intelligence modifier (minimum of 1 additional round). A spell with a duration of 1 minute per level lasts for an additional number of minutes equal to the arcane warden's Intelligence modifier (minimum of 1 additional minute). Spells with different durations than this are not enhanced by this ability. Only one spell can be enhanced in this way on any individual creature at a time.</Pair>
 </Ability>
 <Ability id="restorative-shelter-su" icon={["spell-book","upgrade","armor-upgrade"]}>
 <Pair single id="restorative-shelter-su" flavor="While an arcane warden can find refuge in many naturally occurring hideaways, his preferred places of rest are magically created cottages, homes, and even manors.">Restorative Shelter (Su)</Pair>
-<Pair hl title="Replaces">Metamagic mastery universalist school ability</Pair>
+<Pair hl title="Replaces"><em>Metamagic mastery</em> universalist school ability</Pair>
 <Pair title="Ability">An arcane warden learns the following spells: <Link to="/spell/mages_magnificent_mansion">mage's magnificent mansion</Link>, <Link to="/spell/rope_trick">rope trick</Link>, <Link to="/spell/secure_shelter">secure shelter</Link>, and <Link to="/spell/tiny_hut">tiny hut</Link>. These spells do not take up room in the arcane warden's spellbook, and he does not need his spellbook to prepare these spells. He must still be the appropriate level to prepare the spell in question.</Pair>
 <Pair title="Special">The arcane warden's caster level is treated as 2 higher than his actual caster level for the purposes of determining the duration of these spells and resolving attempts to dispel these spells. Any creature that spends at least 8 hours relaxing in one of these shelters gains a bonus equal to the level of the spell that created it on any saving throws against disease or poison effects made in the next 24 hours.</Pair>
 </Ability>
@@ -361,12 +361,12 @@ const _hallowed_necromancer = {title: "Hallowed Necromancer", jsx: <><h2 id="arc
 </Ability>
 <Ability id="turn-undead-su" icon={["stairs-goal"]}>
 <Pair single id="turn-undead-su">Turn Undead (Su)</Pair>
-<Pair hl title="Alters">Power over undead necromancy school ability</Pair>
+<Pair hl title="Alters"><em>Power over undead</em> necromancy school ability</Pair>
 <Pair title="Ability">A hallowed necromancer must select <Link to="/feat/turn_undead">Turn Undead</Link> as a bonus feat with her <em>power over undead</em> arcane school ability.</Pair>
 </Ability>
 <Ability id="positive-touch-su" icon={["magic-palm","smoking-finger"]}>
 <Pair single id="positive-touch-su">Positive Touch (Su)</Pair>
-<Pair hl title="Replaces">Grave touch necromancy school, Scribe Scroll</Pair>
+<Pair hl title="Replaces"><em>Grave touch</em> necromancy school ability, Scribe Scroll</Pair>
 <Pair title="Standard Action">A hallowed necromancer can sacrifice a prepared spell of the necromancy school to spontaneously cast a <Link to="/main/cure_spells">cure spell</Link> of the same level or lower, counting the spell as a necromancy spell rather than a conjuration spell. This <em>cure</em> spell harms only undead; it doesn't heal the living. If the spell requires an attack roll, it has a critical threat range of 19-20.</Pair>
 <Pair title="Ability">A number of times per day equal to 3 + her Intelligence modifier, when she spontaneously casts a <em>cure</em> spell, she can either turn the effect into a ray and increase the <Link to="/rule/range">range</Link> to Close or remove the Will save but deal half the normal amount of damage.</Pair>
 </Ability>

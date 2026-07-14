@@ -475,7 +475,7 @@ const _experimenter = {title: "Experimenter", jsx: <><h2 id="arc-vigilante-exper
 <Pair title="Special">When an experimenter is confused, dazed, frightened, panicked, or stunned, he must attempt a Will save (DC = 20 + his vigilante level) each round at the start of his turn. If he fails, he transforms as if he had consumed his mutagen (determine which ability score gets the bonus randomly). This doesn't consume his mutagen, and lasts a number of rounds equal to 3 + his vigilante level, after which the transformation ends and he becomes <Link to="/misc/fatigued">fatigued</Link>. While transformed in this way, he is <Link to="/misc/confused">confused</Link>, and he rerolls any result of "act normally." Since the confusion is part of the mutagenic transformation, abilities that prevent or remove confusion don't apply to this effect, though abilities that end the effect of a mutagen work normally. He forgets everything that happened while he was involuntarily transformed.</Pair>
 </Ability>
 <Ability id="mutagen-su" extraClasses="subAbility" icon={["upgrade"]}>
-<Pair single id="mutagen-su" flavor="Text from the alchemist class">Mutagen (Su)</Pair>
+<Pair single id="mutagen-su" flavor="Text from the alchemist class ability.">Mutagen (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Standard Action">You can drink a mutagen to heighten your physical prowess at the cost of your personality. You gain a +2 natural armor bonus, a +4 alchemical bonus to a physical stat, and a -2 penalty to a mental stat. See below for details.</Pair>
 <Pair title="Usage">A mutagen lasts for 10 minutes per alchemist level.</Pair>
@@ -1327,7 +1327,7 @@ const _wildsoul = {hasJL:true,title: "Wildsoul", jsx: <><div className="jumpList
 </Ability>
 </>};
 const _zealot = {title: "Zealot", jsx: <><h2 id="arc-vigilante-zealot-zealot">Zealot</h2>
-<p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 62</Link><br/>Dedicated to a single deity, the zealot hunts the enemies of his faith in secret, often because his religion is outlawed or persecuted in the region.</p>
+<p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 62</Link>, <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 33</Link><br/>Dedicated to a single deity, the zealot hunts the enemies of his faith in secret, often because his religion is outlawed or persecuted in the region.</p>
 <Ability icon={["skills"]} id="undefined">
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair>
@@ -1384,10 +1384,10 @@ const _zealot = {title: "Zealot", jsx: <><h2 id="arc-vigilante-zealot-zealot">Ze
 <Pair title="Standard Action">The zealot can empower his holy symbol. If the zealot is of good alignment while in his vigilante identity (or worships a good deity), this works as if the holy symbol was the center of a <Link to="/spell/consecrate">consecrate</Link> effect. If the zealot is of evil alignment in his vigilante identity (or worships an evil deity), this works as if the holy symbol was the center of a <Link to="/spell/desecrate">desecrate</Link> effect. If the zealot is neutral in his vigilante identity and worships a neutral deity, he can choose whether this ability acts as per consecrate or desecrate, but once the choice is made, it cannot be changed.</Pair>
 <Pair title="At 10th Level">The zealot treats his holy symbol as a permanent fixture for the purpose of determining the consecration or desecration effects.</Pair>
 </Ability>
-<Ability id="harsh-judgment-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="harsh-judgment-su" extraClasses="subAbility" icon={["stairs-goal"]}>
 <Pair single id="harsh-judgment-su">Harsh Judgment (Su)</Pair>
 <Pair title="Usage">1 time/day + 1 per three vigilante levels beyond 1st<ByLevelPop levels={[[1,1],[4,2],[7,3],[10,4],[13,5],[16,6],[19,7]]} unit="time" postText="/day" /></Pair>
-<Pair title="Ability">A vigilante with this talent can pronounce <em>judgment</em> upon his foes as per the <Link to="/class/inquisitor">inquisitor</Link> class feature. He can choose from among the following inquisitor judgments: destruction, piercing, purity, and smiting. For the purpose of determining the bonuses provided by this ability, the vigilante's level stacks with levels in any other classes that grant <em>judgment</em> or <em>harsh judgment.</em> &mdash; <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg.33</Link></Pair>
+<Pair title="Ability">A vigilante with this talent can pronounce <em>judgment</em> upon his foes as per the <Link to="/class/inquisitor">inquisitor</Link> class feature. He can choose from among the following inquisitor judgments: <em>destruction, piercing, purity,</em> and <em>smiting.</em> For the purpose of determining the bonuses provided by this ability, the vigilante's level stacks with levels in any other classes that grant <em>judgment</em> or <em>harsh judgment.</em></Pair>
 </Ability>
 <Ability id="stalwart-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
 <Pair single id="stalwart-ex" flavor="A zealot with this talent can use mental and physical resilience to avoid certain attacks.">Stalwart (Ex)</Pair>

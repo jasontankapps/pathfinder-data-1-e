@@ -211,12 +211,12 @@ const _bouda = {title: "Bouda", jsx: <><h2 id="arc-witch-bouda-bouda">Bouda</h2>
 </>};
 const _cartomancer = {title: "Cartomancer", jsx: <><h2 id="arc-witch-cartomancer-cartomancer">Cartomancer</h2>
 <p><strong>Sources</strong> <Link to="/source/the_harrow_handbook">The Harrow Handbook pg. 15</Link><br/>More than mere playing cards, harrow decks allow individuals to communicate with powers beyond mortal ken. A witch who serves the spirits of the harrow in exchange for mystical power is known as a cartomancer. Rather than connecting with a familiar, a cartomancer communes with her patron through a consecrated harrow deck.</p>
-<Ability id="spell-deck" extraClasses="hasSubs" icon={["info","magic-swirl"]}>
+<Ability id="spell-deck" icon={["info","magic-swirl"]}>
 <Pair single id="spell-deck">Spell Deck</Pair>
 <Pair hl title="Replaces">Familiar</Pair>
 <Pair title="Info">Each cartomancer carries a special <Link to="/eq-misc/harrow_deck">harrow deck</Link> that allows her to communicate with her patron. Its ability to hold spells functions identically to the way a witch's spells are granted by her familiar. The cartomancer must consult her harrow deck each day to prepare her spells and cannot prepare spells that are not stored in the deck. The spell deck cannot be used for this purpose if any cards are missing.</Pair>
 </Ability>
-<Ability id="deadly-dealer" icon={["stairs-goal"]}>
+<Ability id="deadly-dealer" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="deadly-dealer">Deadly Dealer</Pair>
 <Pair hl title="Replaces">2nd-level hex</Pair>
 <Pair title="Gained">At 2nd Level</Pair>
@@ -584,7 +584,7 @@ const _hagbound = {title: "Hagbound", jsx: <><h2 id="arc-witch-hagbound-hagbound
 <Pair hl title="Replaces">10th-level hex</Pair>
 <Pair title="Gained">At 10th Level</Pair>
 <Pair title="Ability">She can cast <Link to="/spell/bestow_curse">bestow curse</Link> at will, but its duration becomes 24 hours.</Pair>
-<Pair title="Special">Once a creature has been affected by this ability, it is immune to the witch's vile curse ability for 24 hours. If the witch learns some secret fear or vulnerability of her target and tailors the curse to exploit this, her target takes a -2 penalty on its Will saving throw against the effect.</Pair>
+<Pair title="Special">Once a creature has been affected by this ability, it is immune to the witch's <em>vile curse</em> ability for 24 hours. If the witch learns some secret fear or vulnerability of her target and tailors the curse to exploit this, her target takes a -2 penalty on its Will saving throw against the effect.</Pair>
 </Ability>
 <Ability id="hag-transformation" icon={["stairs-goal","armor-upgrade"]}>
 <Pair single id="hag-transformation">Hag Transformation</Pair>
@@ -703,7 +703,7 @@ const _hex_channeler = {title: "Hex Channeler", jsx: <><h2 id="arc-witch-hex_cha
 <p><strong className="hl">The following witch hexes complement this archetype:</strong> <Link to="/hex/blight">Blight</Link>, <Link to="/hex/healing">healing</Link>, <Link to="/hex/poison_steep">poison steep</Link>, <Link to="/hex/ward">ward</Link></p><p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/agony">Agony</Link>, <Link to="/hex/cook_people">cook people</Link>, <Link to="/hex/infected_wounds">infected wounds</Link>, <Link to="/hex/major_healing">major healing</Link>, <Link to="/hex/retribution">retribution</Link></p><p><strong className="hl">The following grand hexes complement this archetype:</strong> <Link to="/hex/death_curse">Death curse</Link>, <Link to="/hex/dire_prophecy">dire prophecy</Link>, <Link to="/hex/life_giver">life giver</Link>, <Link to="/hex/summon_spirit">summon spirit</Link></p></>};
 const _invoker = {title: "Invoker", jsx: <><h2 id="arc-witch-invoker-invoker">Invoker</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 14</Link><br/>The invoker uses her familiar to summon facets of her mysterious patron directly into her body, enhancing her skills and granting her powerful abilities. Whether these spiritual enhancements come from a single entity or a host of spiritual forces associated with the witch's patron can vary, and in many cases, a particular invoker never learns the truth of this matter.</p>
-<Ability id="invoke-patron-su" icon={["stairs-goal"]}>
+<Ability id="invoke-patron-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="invoke-patron-su">Invoke Patron (Su)</Pair>
 <Pair hl title="Replaces">1st-, 8th- and 16th-level hexes</Pair>
 <Pair title="Gained">At 1st Level</Pair>
@@ -970,28 +970,34 @@ const _mirror_witch = {title: "Mirror Witch", jsx: <><h2 id="arc-witch-mirror_wi
 </Ability>
 <Ability id="seek-guidance-ex" extraClasses="subAbility" icon={["upgrade"]}>
 <Pair single id="seek-guidance-ex">Seek Guidance (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">Whenever the mirror witch consults with her patron fragment, she can spend 10 minutes instead of the usual 1 minute and attempt a single Knowledge check. She gains a +2 insight bonus on any Knowledge check she attempts during such a consultation.</Pair>
 </Ability>
 <Ability id="greater-omens-ex" extraClasses="subAbility" icon={["upgrade","magic-swirl"]}>
 <Pair single id="greater-omens-ex">Greater Omens (Ex)</Pair>
+<Pair title="Gained">At 3rd Level</Pair>
 <Pair title="Passive Ability">The number of times per day that the mirror witch can use <em>cryptic omens</em> increases by an amount equal to the Intelligence modifier of the patron mirror.</Pair>
 <Pair title="Ability">After consulting with her patron for 1 minute, she can expend a use of <em>cryptic omens</em> to gain the effects of <Link to="/spell/augury">augury</Link> instead of one of the usual three benefits.</Pair>
 </Ability>
 <Ability id="specialized-knowledge-ex" extraClasses="subAbility" icon={["upgrade"]}>
 <Pair single id="specialized-knowledge-ex">Specialized Knowledge (Ex)</Pair>
+<Pair title="Gained">At 5th Level</Pair>
 <Pair title="Choice">The mirror witch chooses a number of Knowledge skills equal to the patron mirror's Intelligence modifier (and chooses more as the mirror's Intelligence modifier increases).</Pair>
 <Pair title="Passive Ability">When the witch consults her patron fragment with seek guidance for a Knowledge skill of one of the chosen types, the insight bonus increases by an amount equal to the mirror's Intelligence modifier. For example, at 5th and 6th levels, she gains a +4 insight bonus on a chosen Knowledge skill instead of the normal +2.</Pair>
 </Ability>
 <Ability id="clairvoyanceclairaudience-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
 <Pair single id="clairvoyanceclairaudience-sp">Clairvoyance/Clairaudience (Sp)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
 <Pair title="Ability">By consulting her patron fragment for 10 minutes, the mirror witch can expend a single use of <em>cryptic omens</em> to cast <Link to="/spell/clairvoyance_clairaudience">clairvoyance/clairaudience</Link> as a spell-like ability with a caster level equal to her witch level.</Pair>
 </Ability>
 <Ability id="scrying-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
 <Pair single id="scrying-sp">Scrying (Sp)</Pair>
+<Pair title="Gained">At 11th Level</Pair>
 <Pair title="Ability">By consulting with her patron fragment for 1 hour, the mirror witch can expend a single use of <em>cryptic omens</em> to use <Link to="/spell/scrying">scrying</Link> as a spell-like ability with a caster level equal to her witch level, using the patron mirror as the focus.</Pair>
 </Ability>
 <Ability id="mirror-casting-su" extraClasses="subAbility" icon={["magic-swirl"]}>
 <Pair single id="mirror-casting-su">Mirror Casting (Su)</Pair>
+<Pair title="Gained">At 13th Level</Pair>
 <Pair title="Ability">When using the mirror's <em>scrying</em> ability, <Link to="/spell/detect_evil">detect chaos, detect evil, detect good, detect law</Link>, <Link to="/spell/detect_magic">detect magic</Link>, <Link to="/spell/message">message</Link>, <Link to="/spell/read_magic">read magic</Link>, and <Link to="/spell/tongues">tongues</Link> all function reliably through the sensor.</Pair>
 <Pair title="Ability">Also, if the mirror witch is at least 15th level, there is a 5% chance each of the following spells operates successfully through the sensor: cause fear, <Link to="/spell/charm_person">charm person</Link>, <Link to="/spell/command">command</Link>, <Link to="/spell/crushing_despair">crushing despair</Link>, <Link to="/spell/deep_slumber">deep slumber</Link>, <Link to="/spell/enthrall">enthrall</Link>, <Link to="/spell/fear">fear</Link>, <Link to="/spell/hold_person">hold person</Link>, <Link to="/spell/moonstruck">moonstruck</Link>, <Link to="/spell/seek_thoughts">seek thoughts</Link>, and <Link to="/spell/sleep">sleep</Link>; a creature that succeeds at its saving throw against one of these linked spells is forever immune to that particular mirror witch's attempts to cast that spell on that creature through her mirror.</Pair>
 </Ability>
@@ -1022,7 +1028,7 @@ const _mountain_witch = {title: "Mountain Witch", jsx: <><h2 id="arc-witch-mount
 <Pair title="Gained">At 2nd Level</Pair>
 <Pair title="Ability">A mountain witch can influence the attitude of mountain-dwelling animals, as the druid's <Link to="/ability/wild_empathy">wild empathy</Link> class feature but only on animals native to mountainous environments. The mountain witch uses her witch level as her druid level for this ability.</Pair>
 </Ability>
-<p><strong className="hl">The following witch hexes complement this archetype:</strong> <Link to="/hex/beast_of_ill_omen">Beast of ill-omen</Link>; and the stone spirit's <em>crystal sight, lodestone, metal curse, stone stability, and ward of stone</em> hexes.</p>
+<p><strong className="hl">The following witch hexes complement this archetype:</strong> <Link to="/hex/beast_of_ill_omen">Beast of ill-omen</Link>; and the stone spirit's <em>crystal sight, lodestone, metal curse, stone stability,</em> and <em>ward of stone</em> hexes.</p>
 <p><strong className="hl">The following major hexes complement this archetype:</strong> <Link to="/hex/beast_eye">Beast eye</Link>, <Link to="/hex/hidden_home">hidden home</Link>, <Link to="/hex/hoarfrost">hoarfrost</Link>, <Link to="/hex/weather_control">weather control</Link></p><p><strong className="hl">The following grand hexes complement this archetype:</strong> <Link to="/hex/eternal_slumber">Eternal slumber</Link>, <Link to="/hex/natural_disaster">natural disaster</Link>, <Link to="/hex/witchs_hut">witch's hut</Link></p></>};
 const _nexian_spellspy = {title: "Nexian Spellspy", jsx: <><h2 id="arc-witch-nexian_spellspy-nexian-spellspy">Nexian Spellspy</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 43</Link><br/>Among that nation's highly competitive arcane communities, Nexian spellspies are witches who use their familiars and divining talents to spy on their rivals and protect themselves from similar intrusions.</p>
@@ -1177,70 +1183,82 @@ const _patron_familiars = {title: "Patron Familiars", jsx: <><h2 id="arc-witch-p
 <Pair single id="spells">Spells</Pair>
 <Pair title="Info">The witch gains her patron spells 1 level later than she normally would - gaining the patron spell she'd normally receive at 2nd level at 3rd level instead, and so on.</Pair>
 </Ability>
-<hr/>
-<Ability id="patronagility-supernatural-speed-su" icon={["upgrade"]}>
-<Pair single id="patronagility-supernatural-speed-su"><Link to="/patron/agility">Agility</Link>-Supernatural Speed (Su)</Pair>
+<h3 id="arc-witch-patron_familiars-patron-familiars">Patron Familiars</h3>
+<Ability id="supernatural-speed-su" icon={["upgrade"]}>
+<Pair single id="supernatural-speed-su">Supernatural Speed (Su)</Pair>
+<Pair title="Patron" hl><Link to="/patron/agility">Agility</Link></Pair>
 <Pair title="Ability">The familiar is incredibly fast for its type. It gains an enhancement bonus of +10 feet to each of its movement speeds.</Pair>
 <Pair title="At 10th Level">This bonus becomes +20 feet.</Pair>
 <Pair title="At 20th Level">This bonus increases to +30 feet.</Pair>
 </Ability>
-<Ability id="patronanimals-animal-speaker-su" icon={["stairs-goal"]}>
-<Pair single id="patronanimals-animal-speaker-su"><Link to="/patron/animals">Animals</Link>-Animal Speaker (Su)</Pair>
+<Ability id="animal-speaker-su" icon={["stairs-goal"]}>
+<Pair single id="animal-speaker-su">Animal Speaker (Su)</Pair>
+<Pair title="Patron" hl><Link to="/patron/animals">Animals</Link></Pair>
 <Pair title="Ability">The familiar gains the ability to speak with animals of its kind at 1st level.</Pair>
 <Pair title="Special">If it would normally gain this ability at 7th level, the familiar gains the ability to speak with all animals (as though constantly under the effects of <Link to="/spell/speak_with_animals">speak with animals</Link>) at 7th level.</Pair>
 </Ability>
-<Ability id="patrondeception-distracting-su-and-sp" icon={["skills","magic-swirl"]}>
-<Pair single id="patrondeception-distracting-su-and-sp"><Link to="/patron/deception">Deception</Link>-Distracting (Su and Sp)</Pair>
+<Ability id="distracting-su-and-sp" icon={["skills","magic-swirl"]}>
+<Pair single id="distracting-su-and-sp">Distracting (Su and Sp)</Pair>
+<Pair title="Patron" hl><Link to="/patron/deception">Deception</Link></Pair>
 <Pair title="Ability">The familiar gains Bluff and Sense Motive as class skills.</Pair>
 <Pair title="At 10th Level">The familiar can throw its voice at will, as if using <Link to="/spell/ventriloquism">ventriloquism</Link>.</Pair>
 </Ability>
-<Ability id="patronelements-elemental-touch-su" icon={["armor-upgrade"]}>
-<Pair single id="patronelements-elemental-touch-su"><Link to="/patron/elements">Elements</Link>-Elemental Touch (Su)</Pair>
+<Ability id="elemental-touch-su" icon={["armor-upgrade"]}>
+<Pair single id="elemental-touch-su">Elemental Touch (Su)</Pair>
+<Pair title="Patron" hl><Link to="/patron/elements">Elements</Link></Pair>
 <Pair title="Ability">Choose an energy type: acid, cold, electricity, or fire. The familiar gains resistance 5 to the selected energy type.</Pair>
 <Pair title="Special">Whenever the familiar delivers a touch spell that deals energy damage, it can change the type of energy damage dealt to the selected energy type.</Pair>
 </Ability>
-<Ability id="patronendurance-endure-afflictions-su" icon={["armor-upgrade"]}>
-<Pair single id="patronendurance-endure-afflictions-su"><Link to="/patron/endurance">Endurance</Link>-Endure Afflictions (Su)</Pair>
+<Ability id="endure-afflictions-su" icon={["armor-upgrade"]}>
+<Pair single id="endure-afflictions-su">Endure Afflictions (Su)</Pair>
+<Pair title="Patron" hl><Link to="/patron/endurance">Endurance</Link></Pair>
 <Pair title="Passive Ability">The familiar is unnaturally talented at resisting bodily corruption. The familiar and any ally touching it gains a +2 resistance bonus on saving throws against nonmagical poisons and diseases.</Pair>
 <Pair title="At 10th Level">This bonus also applies against magical diseases and poisons.</Pair>
 <Pair title="At 20th Level">This bonus also applies against curses.</Pair>
 </Ability>
-<Ability id="patronplague-diseased-touch-ex" icon={["armor-downgrade"]}>
-<Pair single id="patronplague-diseased-touch-ex"><Link to="/patron/plague">Plague</Link>-Diseased Touch (Ex)</Pair>
+<Ability id="diseased-touch-ex" icon={["armor-downgrade"]}>
+<Pair single id="diseased-touch-ex">Diseased Touch (Ex)</Pair>
+<Pair title="Patron" hl><Link to="/patron/plague">Plague</Link></Pair>
 <Pair title="Ability">Once per day, the familiar can inflict <Link to="/disease/filth_fever">filth fever</Link> with its natural attacks for 1 round.</Pair>
 <Pair title="At 10th Level">The familiar can inflict <Link to="/disease/red_ache">red ache</Link> instead.</Pair>
 <Pair title="At 20th Level">It can inflict <Link to="/disease/demon_fever">demon fever</Link> instead.</Pair>
 <Pair title="Special">The familiar may be able to inflict other injury diseases instead at the GM's discretion.</Pair>
 </Ability>
-<Ability id="patronshadow-fearsome-shadows-sp" icon={["magic-swirl"]}>
-<Pair single id="patronshadow-fearsome-shadows-sp"><Link to="/patron/shadow">Shadow</Link>-Fearsome Shadows (Sp)</Pair>
+<Ability id="fearsome-shadows-sp" icon={["magic-swirl"]}>
+<Pair single id="fearsome-shadows-sp">Fearsome Shadows (Sp)</Pair>
+<Pair title="Patron" hl><Link to="/patron/shadow">Shadow</Link></Pair>
 <Pair title="Ability">Once per day, the familiar can use <Link to="/spell/cause_fear">cause fear</Link> as a spell-like ability as long as it is in an area of normal or <Link to="/rule/dim_light">dim light</Link>, affecting a single living creature with a number of Hit Dice up to the familiar's Intelligence score. Thus, creatures normally immune to <em>cause fear</em> because they have 6 or more Hit Dice may not be immune to the familiar's cause fear spell-like ability.</Pair>
 </Ability>
-<Ability id="patronstrength-strength-of-mind-su" icon={["upgrade"]}>
-<Pair single id="patronstrength-strength-of-mind-su"><Link to="/patron/strength">Strength</Link>-Strength of Mind (Su)</Pair>
+<Ability id="strength-of-mind-su" icon={["upgrade"]}>
+<Pair single id="strength-of-mind-su">Strength of Mind (Su)</Pair>
+<Pair title="Patron"><Link to="/patron/strength">Strength</Link></Pair>
 <Pair title="Standard Action">A number of times per day equal to its master's Intelligence modifier (minimum once per day), the familiar can swap its Strength and Intelligence scores. This effect lasts for a number of rounds equal to 1/2 the master's caster level.</Pair>
 </Ability>
-<Ability id="patrontransformation-shapechanging-familiar-su" icon={["magic-swirl"]}>
-<Pair single id="patrontransformation-shapechanging-familiar-su"><Link to="/patron/transformation">Transformation</Link>-Shapechanging Familiar (Su)</Pair>
+<Ability id="shapechanging-familiar-su" icon={["magic-swirl"]}>
+<Pair single id="shapechanging-familiar-su">Shapechanging Familiar (Su)</Pair>
+<Pair title="Patron" hl><Link to="/patron/transformation">Transformation</Link></Pair>
 <Pair title="Ability">The familiar is able to transform itself. For a number of minutes per day equal to its master's witch level, the familiar can alter its appearance so that it looks like a different creature of its type and size.</Pair>
 <Pair title="At 8th Level">The duration doubles.</Pair>
 <Pair title="At 16th Level">The duration is now tripled.</Pair>
 <Pair title="Special">This duration need not be consecutive, but it must be used in 1 minute increments. For instance, a cat familiar could appear as any Tiny animal. This change is purely cosmetic, and doesn't alter the familiar's statistics.</Pair>
 </Ability>
-<Ability id="patrontrickery-familiars-illusions-sp" icon={["magic-swirl"]}>
-<Pair single id="patrontrickery-familiars-illusions-sp"><Link to="/patron/trickery">Trickery</Link>-Familiar's Illusions (Sp)</Pair>
+<Ability id="familiars-illusions-sp" icon={["magic-swirl"]}>
+<Pair single id="familiars-illusions-sp">Familiar's Illusions (Sp)</Pair>
+<Pair title="Patron" hl><Link to="/patron/trickery">Trickery</Link></Pair>
 <Pair title="Ability">The familiar has a mischievous predilection toward simple illusions. Once per day, the familiar can use a 0-level <Link to="/main/spells_illusion">illusion spell</Link> on its master's spell list as a spell-like ability.</Pair>
 <Pair title="At 10th Level">It can also use a 1st-level illusion spell on its master's spell list once per day.</Pair>
 <Pair title="At 20th Level">It can also use a 2nd-level illusion spell on its master's spell list once per day.</Pair>
 </Ability>
-<Ability id="patronwater-amphibious-familiar-su" icon={["stairs-goal"]}>
-<Pair single id="patronwater-amphibious-familiar-su"><Link to="/patron/water">Water</Link>-Amphibious Familiar (Su)</Pair>
+<Ability id="amphibious-familiar-su" icon={["stairs-goal"]}>
+<Pair single id="amphibious-familiar-su">Amphibious Familiar (Su)</Pair>
+<Pair title="Patron" hl><Link to="/patron/water">Water</Link></Pair>
 <Pair title="Ability">The familiar can breathe water for a number of minutes per day equal to 1/2 its master's witch level. These minutes need not be consecutive, but they must be spent in 1-minute intervals. If the familiar can already breathe water, it can breathe air for the same duration.</Pair>
 <Pair title="At 10th Level">The familiar gains a swim speed of 30 feet (or a land speed of 30 feet if it already has a swim speed) while using this ability.</Pair>
 <Pair title="At 20th Level">The familiar can move through water as though under the effects of <Link to="/spell/freedom_of_movement">freedom of movement</Link> while using this ability.</Pair>
 </Ability>
-<Ability id="patronwisdom-preternatural-wisdom-su" icon={["upgrade"]}>
-<Pair single id="patronwisdom-preternatural-wisdom-su"><Link to="/patron/wisdom">Wisdom</Link>-Preternatural Wisdom (Su)</Pair>
+<Ability id="preternatural-wisdom-su" icon={["upgrade"]}>
+<Pair single id="preternatural-wisdom-su">Preternatural Wisdom (Su)</Pair>
+<Pair title="Patron" hl><Link to="/patron/wisdom">Wisdom</Link></Pair>
 <Pair title="Ability">The familiar gains a Wisdom score of 6. This score increases by 1 point at 3rd level and every 2 levels thereafter (at the same rate as its Intelligence score). This may cause a familiar whose Wisdom score is typically higher than 6 to start with a lower Wisdom score than normal.</Pair>
 </Ability>
 </>};
@@ -1664,7 +1682,7 @@ const _winter_witch = {title: "Winter Witch", jsx: <><h2 id="arc-witch-winter_wi
 <Pair title="At 9th Level">This increases to cold resistance 10.</Pair>
 <Pair title="At 14th Level">It becomes immunity to cold.</Pair>
 </Ability>
-<p><strong className="hl">The following hexes complement this archetype:</strong> <Link to="/hex/beast_eye">Beast eye</Link>, <Link to="/hex/blight">blight</Link>, <Link to="/hex/cook_people">cook people</Link>, <Link to="/hex/evil_eye">evil eye</Link>, <Link to="/hex/feral_speech">feral speech</Link>, <Link to="/hex/hags_eye">hag's eye</Link>, <Link to="/hex/hoarfrost">hoarfrost</Link>, <Link to="/hex/ice_tomb">ice tomb</Link>, <Link to="/hex/witchs_hut">witch's hut</Link></p><Ability id="hexes" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Ability id="hexes" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="hexes">Hexes</Pair>
 <Pair title="Ability">A winter witch can select the following hexes.</Pair>
 </Ability>
@@ -1676,7 +1694,7 @@ const _winter_witch = {title: "Winter Witch", jsx: <><h2 id="arc-witch-winter_wi
 <Pair single id="frozen-caress-su">Frozen Caress (Su)</Pair>
 <Pair title="Swift Action">Whenever the winter witch casts a touch spell, she can infuse the magic with cold. This grants the spell the <Link to="/spelldef/cold">cold</Link> descriptor, and adds 1d4 points of cold damage to the spell's effect. If the touch spell allows a saving throw, a successful save negates this additional cold damage.</Pair>
 </Ability>
-</>};
+<p><strong className="hl">The following hexes complement this archetype:</strong> <Link to="/hex/beast_eye">Beast eye</Link>, <Link to="/hex/blight">blight</Link>, <Link to="/hex/cook_people">cook people</Link>, <Link to="/hex/evil_eye">evil eye</Link>, <Link to="/hex/feral_speech">feral speech</Link>, <Link to="/hex/hags_eye">hag's eye</Link>, <Link to="/hex/hoarfrost">hoarfrost</Link>, <Link to="/hex/ice_tomb">ice tomb</Link>, <Link to="/hex/witchs_hut">witch's hut</Link></p></>};
 const _witch_watcher = {title: "Witch-Watcher", jsx: <><h2 id="arc-witch-witch_watcher-witch-watcher">Witch-Watcher</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 9</Link><br/>For reasons known only to them, witch-watchers offer protection to nobles across Golarion. While they serve openly in Irrisen and Varisia, they watch from the shadows in courts in Brevoy, Mendev, the River Kingdoms, and Ustalav, where their presence is barely tolerated.</p>
 <Ability id="diminished-spellcasting" icon={["broken-shield"]}>
@@ -1714,7 +1732,7 @@ const _witch_watcher = {title: "Witch-Watcher", jsx: <><h2 id="arc-witch-witch_w
 </>};
 const _wyrm_witch = {title: "Wyrm Witch", jsx: <><h2 id="arc-witch-wyrm_witch-wyrm-witch">Wyrm Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons pg. 15</Link><br/>Though a dragon derives no power from accumulating precious metals and gems, its desire to acquire and maintain vast piles of valuables is an important part of its personality. Some witch covens, particularly those in rich mercantile nations like Druma or Katapesh, have learned to use treasure to access other draconic powers.</p>
-<Ability id="draconic-patronage" icon={["info"]}>
+<Ability id="draconic-patronage" extraClasses="hasSubs" icon={["info"]}>
 <Pair single id="draconic-patronage">Draconic Patronage</Pair>
 <Pair title="Choice">A wyrmwitch must select one of the following patrons when he gains this archetype. The patron grants spells at the listed witch level.</Pair>
 <Pair title="Special">Only witches with the wyrmwitch archetype can select these patrons.</Pair>

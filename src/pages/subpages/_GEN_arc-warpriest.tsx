@@ -174,7 +174,7 @@ const _disenchanter = {title: "Disenchanter", jsx: <><h2 id="arc-warpriest-disen
 </Ability>
 </>};
 const _divine_champion = {title: "Divine Champion", jsx: <><h2 id="arc-warpriest-divine_champion-divine-champion">Divine Champion</h2>
-<p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology pg. 14</Link><br/>Divine champions are unswervingly devoted to their causes, and specialize in bringing battle to the enemies of their faiths. They are similar to divine paragons in many ways, but tend to focus more on their deity's combat prowess rather than seeking to become a physical manifestation of the deity's will.</p>
+<p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology pg. 14</Link><br/>Divine champions are unswervingly devoted to their causes, and specialize in bringing battle to the enemies of their faiths. They are similar to <Link to="/arc-cleric/divine_paragon">divine paragons</Link> in many ways, but tend to focus more on their deity's combat prowess rather than seeking to become a physical manifestation of the deity's will.</p>
 <Ability id="devotion" icon={["info"]}>
 <Pair single id="devotion">Devotion</Pair>
 <Pair title="Info">A divine champion's power comes from his close connection to his deity. He must worship a deity, and must maintain the same alignment as that deity.</Pair>
@@ -836,7 +836,7 @@ const _shieldbearer = {title: "Shieldbearer", jsx: <><h2 id="arc-warpriest-shiel
 </Ability>
 <Ability id="channel-energy-su" icon={["broken-shield","tornado-discs"]}>
 <Pair single id="channel-energy-su">Channel Energy (Su)</Pair>
-<Pair title="Info">The shieldbearer can *channel energy *only when carrying a shield, and the ability manifests as a 30-foot-cone <Link to="/misc/burst">burst</Link>, rather than as a radius.</Pair>
+<Pair title="Info">The shieldbearer can <em>channel energy</em> only when carrying a shield, and the ability manifests as a 30-foot-cone <Link to="/misc/burst">burst</Link>, rather than as a radius.</Pair>
 </Ability>
 </>};
 const _sixth_wing_bulwark = {title: "Sixth Wing Bulwark", jsx: <><h2 id="arc-warpriest-sixth_wing_bulwark-sixth-wing-bulwark">Sixth Wing Bulwark</h2>
