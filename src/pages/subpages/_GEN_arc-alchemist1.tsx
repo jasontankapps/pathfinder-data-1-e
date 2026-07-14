@@ -646,7 +646,7 @@ const _dragonblood_chymist = {title: "Dragonblood Chymist", jsx: <><h2 id="arc-a
 <Pair hl title="Replaces">Throw Anything</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Standard Action">A dragonblood chymist gains the <Link to="/discovery/breath_weapon_bomb">breath weapon bomb</Link> alchemist discovery but must apply this discovery to every bomb he creates.</Pair>
-<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>no</Pair>
+<Pair title={<>Provokes <Link to="/rule/aoo">AoO?</Link></>}>No</Pair>
 </Ability>
 <Ability id="draconic-resistances-ex" icon={["armor-upgrade"]}>
 <Pair single id="draconic-resistances-ex">Draconic Resistances (Ex)</Pair>

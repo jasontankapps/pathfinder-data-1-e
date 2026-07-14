@@ -16,7 +16,7 @@
 			"",
 			"::ab[Cunning Edge (Ex)]{head l=4 icon=power choice=\"An opportunist can select an edge from those listed below.\" imp8=\"He can select a second edge.\" imp12=\"He can select a third edge.\" imp16=\"He can select a fourth edge.\" imp20=\"He can select a fifth edge.\" replace=\"Bonus feats gained at 4th, 8th, 12th, 16th, and 20th levels\"}",
 			"",
-			"::ab[Alchemical Admixture (Ex)]{next icon=power provokes=Yes fullround=\"The opportunist can combine two alchemical weapons into a single vial. When thrown as a splash weapon, the mixture has the effects of both component substances and targets are affected as if hit by both. The mixture becomes inert after 1 hour. Combining identical alchemical weapons has no effect.\" useInc=fighter~4 useF=\"4~1\"}",
+			"::ab[Alchemical Admixture (Ex)]{next icon=power provokes fullround=\"The opportunist can combine two alchemical weapons into a single vial. When thrown as a splash weapon, the mixture has the effects of both component substances and targets are affected as if hit by both. The mixture becomes inert after 1 hour. Combining identical alchemical weapons has no effect.\" useInc=fighter~4 useF=\"4~1\"}",
 			"",
 			"::ab[Alchemical Refinement (Ex)]{next icon=lower ability=\"The opportunist increases the save DC of any alchemical item he crafts by an amount equal to ‹misc/one-third› of his fighter level. Doing so increases the raw material cost to craft that item by 10 gp for every +1 increase. This bonus applies only when the opportunist uses the crafted alchemical item himself; it functions as a normal item of its type for all other users.\"}",
 			"",
