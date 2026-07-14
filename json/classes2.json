@@ -84,6 +84,9 @@
 			"",
 			"::h3[Archetypes]{jl}",
 			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
+			"",
 			"::archetype[Aerial Assaulter]{c=fighter r=\"Class Skills; Bravery; 2nd, 12th-level Bonus Feat; Armor Mastery; Weapon Mastery\" e=\"Aerial assaulters leap to great heights and create higher ground where there is none.\"}",
 			"",
 			"::archetype[Airborne Ambusher]{c=fighter r=\"Weapon/Armor Proficiency; Class Skills; Bravery; Weapon Training 1-4\" e=\"(Strix Only) Driven by suspicion and hatred, strix doggedly guard their territories, making deadly use of their flight.\"}",
@@ -338,6 +341,7 @@
 	"hunter": {
 		"name": "Hunter",
 		"sources": [
+			"Advanced Player's Guide",
 			"Advanced Class Guide",
 			"Chronicle of Legends",
 			"Blood of the Beast",
@@ -485,6 +489,9 @@
 			"::altCapstone[Huntmaster (Ex)]{deepMagics greatBeast capstone=\"At 20th level, the hunter learns to control all manner of beasts. The hunter gains a second animal companion. Her level is considered four lower for the purposes of her second animal companion. The hunter can use her animal focus feature to grant each animal companion a different animal aspect.\"}",
 			"",
 			"::h3[Archetypes]{jl}",
+			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
 			"",
 			"::archetype[Aquatic Beastmaster]{c=hunter r=\"Animal Focus; Wild Empathy; Improved Empathic Link\" e=\"Hunters beneath the sea are just as committed as their surface-dwelling counterparts to working alongside their animal companions to eradicate threats.\"}",
 			"",
@@ -738,6 +745,9 @@
 			"",
 			"::h3[Archetypes]{jl}",
 			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
+			"",
 			"::archetype[Abolisher]{c=inquisitor r=\"Domains; Stern Gaze; Detect Alignment; Discern Lies\" e=\"Abolishers are incorruptible inquisitors who weed out creatures of alien, unnatural origins, finding and exposing aberrations for what they are.\"}",
 			"",
 			"::archetype[Cloaked Wolf]{c=inquisitor r=\"Class Skills; Stern Gaze; Cunning Initiative; Monster Lore; Solo Tactics; Teamwork Feats\" e=\"Some inquisitors are adept at appearing harmless until they throw off their unassuming facades and take their enemies by surprise.\"}",
@@ -903,6 +913,7 @@
 	"investigator": {
 		"name": "Investigator",
 		"sources": [
+			"Advanced Player's Guide",
 			"Advanced Class Guide",
 			"Chronicle of Legends",
 			"Plane-Hopper's Handbook",
@@ -1000,6 +1011,9 @@
 			"::altCapstone[Deadly Study (Ex)]{capstone=\"At 20th level, the investigator knows just how to hit where it hurts. The investigator increases the bonus from studied combat by 4, and his studied strike damage increases by 3d6.\"}",
 			"",
 			"::h3[Archetypes]{jl}",
+			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
 			"",
 			"::archetype[Antiquarian]{c=investigator r=\"Alchemy; Poison Lore; Poison Resistance; Poison Immunity; Swift Alchemy\" e=\"Antiquarians are collectors, explorers, and scholars who delve into ruined places in search of lost lore and artifacts.\"}",
 			"",
@@ -1162,6 +1176,7 @@
 	"kineticist": {
 		"name": "Kineticist",
 		"sources": [
+			"Advanced Player's Guide",
 			"Blood of Shadows",
 			"Blood of the Beast",
 			"Chronicle of Legends",
@@ -1293,6 +1308,9 @@
 			"::altCapstone[Unbridled Power (Su)]{capstone=\"At 20th level, the kineticist wields her chosen element like a knife, cutting through all opposition. The kineticist chooses one blast. Her damage with that blast increases by 2d6+2 (for physical blasts) or by 2d6 (for energy blasts), and the blast ignores the first 10 points of damage reduction or energy resistance that the target has.\"}",
 			"",
 			"::h3[Archetypes]{jl}",
+			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
 			"",
 			"::archetype[Aquakinetcist]{c=kineticist r=\"Elemental Focus; Expanded Element; Basic Hydrokinesis; 2nd, 6th-level Utility Wild Talent; Elemental Defense\" e=\"While all hydrokineticists have the ability to control water, aquakineticists' powers are tied to their determination to explore the world beneath the waves.\"}",
 			"",

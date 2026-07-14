@@ -2,6 +2,7 @@
 	"animal_companion": {
 		"name": "Animal Companion",
 		"sources": [
+			"Advanced Player's Guide",
 			"PRPG Core Rulebook",
 			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
@@ -136,6 +137,9 @@
 			":::",
 			"",
 			"::h3[Archetypes]{jl}",
+			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
 			"",
 			"::archetype[Aberrant Companion]{c=companion r=\"Devotion, Multiattack, Natural Armor Progression, Share Spells\" e=\"Though aberrant companions are touched by eldritch magic or mutated by strange influences, they are still loyal, if unnatural, allies.\"}",
 			"",
@@ -733,6 +737,9 @@
 			"**Scry on Familiar (Sp):** If the master is 13th level or higher, he may scry on his familiar (as if casting the *scrying* spell) once per day.",
 			"",
 			"::h3[Archetypes]{jl}",
+			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
 			"",
 			"::archetype[Ambassador]{c=familiar r=\"Alertness, Class Skills, Intelligence Score Progression\" e=\"An ambassador speaks on its master's behalf and sometimes on behalf of its master's patron or other extraplanar contacts.\"}",
 			"",

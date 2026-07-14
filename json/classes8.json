@@ -2,6 +2,7 @@
 	"brawler": {
 		"name": "Brawler",
 		"sources": [
+			"Advanced Player's Guide",
 			"Advanced Class Guide",
 			"Chronicle of Legends",
 			"Blood of the Beast",
@@ -92,6 +93,9 @@
 			"::altCapstone[Perfect Warrior (Ex)]{oldDogNewTricks capstone=\"At 20th level, the brawler has reached the highest levels of her art. The brawler's maneuver training increases by 2 and her dodge bonus to AC improves by 2. This replaces the 20th-level improvement to martial flexibility.\"}",
 			"",
 			"::h3[Archetypes]{jl}",
+			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
 			"",
 			"::archetype[Battle Dancer]{c=brawler r=\"Class Skills; Armor Proficiencies; Brawler's Cunning; Brawler's Flurry; AC Bonus; Knockout\" e=\"Battle dancers practice a martial art that emphasizes constant motion\"}",
 			"",
@@ -318,6 +322,9 @@
 			"",
 			"::h3[Archetypes]{jl}",
 			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
+			"",
 			"::archetype[Blood God Disciple]{c=summoner r=\"Summon Monster\" e=\"(Half-Orc) A half-orc summoner who devotes himself to one of the bloody orc gods may believe his eidolon is an avatar of that god rather than a mere supernatural creature.\"}",
 			"",
 			"::archetype[Blood Summoner]{c=summoner r=\"Class Skills; Shield Ally; Transposition; Greater Shield Ally; Merge Forms\" e=\"A blood summoner conjures an eidolon born from violence and blood.\"}",
@@ -424,6 +431,7 @@
 	"unchained_summoner": {
 		"name": "Unchained Summoner",
 		"sources": [
+			"Advanced Player's Guide",
 			"Pathfinder Unchained",
 			"Chronicle of Legends",
 			"Blood of the Beast"
@@ -540,6 +548,9 @@
 			"",
 			"::h3[Archetypes]{jl}",
 			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
+			"",
 			"::archetype[Construct Caller]{c=unchained_summoner r=\"Subtype; Summon Monster\" e=\"Construct callers use their mechanical and planar understandings to work planar energies as a tinkerer works parts\"}",
 			"",
 			"::archetype[Devil Binder]{c=unchained_summoner r=\"Alignment; Summon Monster I; Bond Senses; Shield Ally; Maker's Call; Transposition; Greater Shield Ally; Merge Forms; Twin Eidolon; Devotion\" e=\"A devil binder borrows extraplanar quintessence from her eidolon, gaining strange abilities for herself and evolving her eidolon's magical powers.\"}",
@@ -610,6 +621,7 @@
 	"mesmerist": {
 		"name": "Mesmerist",
 		"sources": [
+			"Advanced Player's Guide",
 			"Occult Adventures",
 			"Chronicle of Legends",
 			"Horror Adventures",
@@ -724,6 +736,9 @@
 			"::altCapstone[Piercing Gaze (Su)]{deepMagics capstone=\"At 20th level, the mesmerist's gaze carries with it something of the beyond. His stare penalty increases by 2.\"}",
 			"",
 			"::h3[Archetypes]{jl}",
+			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
 			"",
 			"::archetype[Aromaphile]{c=mesmerist r=\"Hypnotic Stare; Painful Stare; Towering Ego; Bold Stare; Touch Treatment; Mental Potency\" e=\"(Ghoran only) Rather than employ the baleful glares of the typical mesmerist, aromaphiles hypnotize others using an array of sickeningly sweet scents developed from their unique ghoran physiology.\"}",
 			"",
@@ -920,6 +935,9 @@
 			"::altCapstone[Masterful Talent (Ex)]{theRightSpot capstone=\"At 20th level, the rogue has been a thief, an actor, a merchant, a scout, a confessor, a friend, an assassin, and a dozen more things besides. The rogue gains a +4 bonus on all of her skills.\"}",
 			"",
 			"::h3[Archetypes]{jl}",
+			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
 			"",
 			"::archetype[Acrobat]{c=rogue r=\"Trapfinding; Trap Sense\" e=\"Whether they are daring thieves, infiltrating assassins, or intrepid spies, proper training in acrobatics is a valuable boon for rogues.\"}",
 			"",
@@ -1207,6 +1225,7 @@
 	"unchained_rogue": {
 		"name": "Unchained Rogue",
 		"sources": [
+			"Advanced Player's Guide",
 			"Pathfinder Unchained",
 			"Chronicle of Legends",
 			"Blood of the Beast",
@@ -1288,6 +1307,9 @@
 			"::ab[Master Strike (Ex)]{l=20 icon=boost-lower ability=\"Each time you deal *sneak attack* damage, you can choose one of the following three effects: the target can be put to sleep for 1d4 hours, ‹rule/paralyzed› for 2d6 rounds, or slain. Regardless of the effect chosen, the target receives a Fortitude save to negate the additional effect. The DC of this save is equal to 10 + 1/2 your rogue level + your Intelligence modifier.\" special=\"Once a creature has been the target of a master strike, regardless of whether or not the save is made, that creature is immune to that rogue's master strike for 24 hours. Creatures that are immune to *sneak attack* damage are also immune to this ability.\"}",
 			"",
 			"::h3[Archetypes]{jl}",
+			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
 			"",
 			"There are no official archetypes for the Unchained Rogue. You can use ‹class/rogue› archetypes if the features being replaced by the archetype match those of the unchained rogue.",
 			"",

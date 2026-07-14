@@ -175,6 +175,9 @@
 			"",
 			"::h3[Archetypes]{jl}",
 			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
+			"",
 			"::archetype[Abendego Diver]{c=ranger r=\"Weapon and Armor Proficiencies; Track; Wild Empathy; Favored Terrain; Woodland Stride; Swift Tracker; Master Hunter\" e=\"Named for the vicious and unending storm in the southern Arcadian Ocean, Abendego divers have pushed their bodies to their limits, holding their breath to expand their lung capacity and swimming until ocean travel is second nature to them.\"}",
 			"",
 			"::archetype[Battle Scout]{c=ranger r=\"Hunter's Bond; 2nd, 3rd, 4th Favored Enemies; Master Hunter\" e=\"Though regular outdoorsmen might suffice in many cases, some large forces look to battle scouts to keep the body of their troops safe and prepared for the terrain and whatever dangers that terrain hides.\"}",
@@ -413,6 +416,7 @@
 	"shifter": {
 		"name": "Shifter",
 		"sources": [
+			"Advanced Player's Guide",
 			"Blood of the Beast",
 			"Chronicle of Legends",
 			"Ultimate Wilderness",
@@ -515,6 +519,9 @@
 			"",
 			"::h3[Archetypes]{jl}",
 			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
+			"",
 			"::archetype[Adaptive Shifter]{c=shifter r=\"Shifter Claws; Shifter Aspect; Chimeric Aspect; Greater Chimeric Aspect; Final Aspect; Wild Empathy; Track; Woodland Stride; Trackless Step; Wild Shape\" e=\"Rather than emulate other animals entirely, some shifters learn to reshape their forms on the fly in response to a range of stimuli\"}",
 			"",
 			"::archetype[Dragonblood Shifter]{c=shifter r=\"Shifter Aspect; Wild Shape; Chimeric Aspect; Greater Chimeric Aspect; Final Aspect\" e=\"Dragonblood shifters draw upon the inherent strength and majesty of the true dragons, gaining a measure of their powers from their association.\"}",
@@ -597,6 +604,7 @@
 	"magus": {
 		"name": "Magus",
 		"sources": [
+			"Advanced Player's Guide",
 			"Ultimate Magic",
 			"Chronicle of Legends",
 			"Plane-Hopper's Handbook",
@@ -691,6 +699,9 @@
 			"::altCapstone[Legendary Blade (Su)]{walkingLibrary capstone=\"At 20th level, the magus can turn his weapon into a thing of terror and wonder. When the magus enhances his weapon with his arcane pool, he grants it an additional +2 enhancement bonus (for a total of +7).\"}",
 			"",
 			"::h3[Archetypes]{jl}",
+			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
 			"",
 			"::archetype[Armored Battlemage]{c=magus r=\"Spell Combat; Arcane Pool; 3rd, 18th-level Magus Arcana; Improved Spell Combat; Greater Spell Combat\" e=\"Armored battlemages learn to move and cast spells in even the most restrictive armors, and have developed new methods to magically enhance their armor.\"}",
 			"",
@@ -837,6 +848,7 @@
 	"gunslinger": {
 		"name": "Gunslinger",
 		"sources": [
+			"Advanced Player's Guide",
 			"Ultimate Combat",
 			"Chronicle of Legends",
 			"Advanced Race Guide",
@@ -941,6 +953,9 @@
 			"::altCapstone[Personal Armory (Ex)]{oldDogNewTricks capstone=\"At 20th level, there is not a gun in the world that the gunslinger can't fire. The gunslinger applies her gun training to all firearms, and her damage bonus from gun training increases to 1-1/2 times her Dexterity bonus.\"}",
 			"",
 			"::h3[Archetypes]{jl}",
+			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
 			"",
 			"::archetype[Black Powder Vaulter]{c=gunslinger r=\"Deadeye; Gunslinger's Dodge; Gunslinger Initiative; Startling Shot; Expert Loading\" e=\"Black powder vaulters like to get into the thick of the battle, maneuvering among the fray to find the most advantageous positions from which to kill their enemies.\"}",
 			"",
@@ -1149,6 +1164,9 @@
 			"",
 			"::h3[Archetypes]{jl}",
 			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
+			"",
 			"::archetype[Armored Hulk]{c=barbarian r=\"Fast Movement; Uncanny Dodge; Trap Sense; Improved Uncanny Dodge\" e=\"Some barbarians disdain the hides and leather used as armor by most of their kin. Instead they master the heaviest of armors, even those created by more civilized people, to gain greater protection and stability in battle.\"}",
 			"",
 			"::archetype[Beastkin Berserker]{c=barbarian r=\"Fast Movement; 4th, 8th, 12th-level Rage Power\" e=\"While some barbarians take on bestial aspects in their *rages,* the beastkin berserker descends so deeply into primal fury that she actually transforms into an animal.\"}",
@@ -1328,6 +1346,7 @@
 	"unchained_barbarian": {
 		"name": "Unchained Barbarian",
 		"sources": [
+			"Advanced Player's Guide",
 			"Pathfinder Unchained",
 			"Chronicle of Legends",
 			"Blood of the Beast"
@@ -1402,6 +1421,9 @@
 			"::altCapstone[Unstoppable (Ex)]{capstone=\"At 20th level, nothing can kill the barbarian, though not for lack of trying. The barbarian gains DR 3/- or increases the value of any existing damage reduction by 3. In addition, she gains energy resistance to acid, cold, electricity, and fire equal to her DR/- value.\"}",
 			"",
 			"::h3[Archetypes]{jl}",
+			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
 			"",
 			"When the *unchained* classes were introduced, they came with a note saying \"these classes should work with any of the archetypes from previous books as long as the classes still have the appropriate class features to replace.\" (*‹source/Pathfinder Unchained› pg. 8*) The *deepwater rager* archetype was printed with a note saying it works for the unchained barbarian, and *danger sense* above explicitly says it can be treated as *trap sense* for archetype purposes.",
 			"",

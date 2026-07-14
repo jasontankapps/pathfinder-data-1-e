@@ -2,6 +2,7 @@
 	"skald": {
 		"name": "Skald",
 		"sources": [
+			"Advanced Player's Guide",
 			"Advanced Class Guide",
 			"Blood of the Beast",
 			"Blood of the Sea",
@@ -167,6 +168,9 @@
 			"",
 			"::h3[Archetypes]{jl}",
 			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
+			"",
 			"::archetype[Augur]{c=skald r=\"Well-Versed; Versatile Performance; Spell Kenning\" e=\"Tales of Merivesta Olinchi are surprisingly common among the Bekyar of the Mwangi Expanse, who claim she spent some time studying their traditions and history.\"}",
 			"",
 			"::archetype[Bacchanal]{c=skald r=\"Scribe Scroll; Versatile Performance; Song of Marching; Dirge of Doom\" e=\"Bacchanals are skalds who use ecstatic dancing and ribald songs to influence the primal instincts of listeners.\"}",
@@ -299,6 +303,7 @@
 	"slayer": {
 		"name": "Slayer",
 		"sources": [
+			"Advanced Player's Guide",
 			"Advanced Class Guide",
 			"Chronicle of Legends",
 			"Blood of the Beast",
@@ -375,6 +380,9 @@
 			"::altCapstone[Against the Odds (Ex)]{theRightSpot capstone=\"At 20th level, the slayer is used to fighting when the numbers are not in his favor. When the slayer uses studied target, he can study up to two additional foes with the same action.\"}",
 			"",
 			"::h3[Archetypes]{jl}",
+			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
 			"",
 			"::archetype[Ankou's Shadow]{c=slayer r=\"Studied Target; Stalker; Quarry; Improved Quarry\" e=\"Ankou's shadow practice the deadliest skills of the First World's most feared enforcers: terrifying, winged fey assassins dispatched by the greatest lords of the First World to eliminate their rivals\"}",
 			"",
@@ -597,6 +605,9 @@
 			"",
 			"::h3[Archetypes]{jl}",
 			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
+			"",
 			"::archetype[Bloodline Familiars]{c=sorcerer r=\"Bloodline; Bloodline Spells; 1st-Level Bloodline Power\" e=\"Those with an inherent connection to magic often attract creatures who feel a similar instinctive pull toward magical forces.\"}",
 			"",
 			"::archetype[Crossblooded]{c=sorcerer r=\"Spells Known\" e=\"A crossblooded bloodline combines the powers of two distinct heritages.\"}",
@@ -675,6 +686,7 @@
 	"spiritualist": {
 		"name": "Spiritualist",
 		"sources": [
+			"Advanced Player's Guide",
 			"Occult Adventures",
 			"Chronicle of Legends",
 			"Plane-Hopper's Handbook",
@@ -820,6 +832,9 @@
 			"",
 			"::h3[Archetypes]{jl}",
 			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
+			"",
 			"::archetype[Drowned Channeler]{c=spiritualist r=\"Class Skills; Phantom; Shared Consciousness; Etheric Tether; Bonded Manifestation; Bonded Senses; Detect Undead; Calm Spirit; See Invisibility; Call Spirit\" e=\"When a drowned spirit doomed to a watery grave descends toward the evil of undeath and seeks refuge in a mortal shell, the result is an unusual spiritualist with powers that resonate with the drowned spirit's demise.\"}",
 			"",
 			"::archetype[Ectoplasmatist]{c=spiritualist r=\"Etheric Tether; Phantom; Shared Consciousness; Fused Consciousness; Spiritual Bond; Empowered Consciousness; Bonded Manifestation; Phantom Recall; Dual Bond; Spiritual Interference; Greater Spiritual Interference\" e=\"Instead of calling upon a phantom from the Ethereal Plane, an ectoplasmatist infuses herself with the mysterious substance called ectoplasm.\"}",
@@ -943,6 +958,7 @@
 	"swashbuckler": {
 		"name": "Swashbuckler",
 		"sources": [
+			"Advanced Player's Guide",
 			"Advanced Class Guide",
 			"Chronicle of Legends",
 			"Blood of the Beast"
@@ -1031,6 +1047,9 @@
 			"::altCapstone[Incredible Luck (Ex)]{oldDogNewTricks capstone=\"At 20th level, the swashbuckler has had so many close calls that she barely notices them anymore. The swashbuckler gains three additional uses of charmed life and can activate the ability as a @HLfree_action, even outside of her turn.\"}",
 			"",
 			"::h3[Archetypes]{jl}",
+			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
 			"",
 			"::archetype[Arrow Champion]{c=swashbuckler r=\"Panache; Opportune Parry and Riposte; Precise Strike; Swashbuckler Initiative; Swashbuckler Weapon Training; Swashbuckler Weapon Mastery\" e=\"Arrow champions combine a swashbuckler's agile style of combat with mastery over the bow\"}",
 			"",
@@ -1145,6 +1164,7 @@
 	"vigilante": {
 		"name": "Vigilante",
 		"sources": [
+			"Advanced Player's Guide",
 			"Ultimate Intrigue",
 			"Chronicle of Legends",
 			"Plane-Hopper's Handbook",
@@ -1232,6 +1252,9 @@
 			"::altCapstone[Past Your Limits (Ex)]{capstone=\"At 20th level, the vigilante has learned to stretch himself to do what he never thought he could before. The vigilante gains one additional social talent and one additional vigilante talent. This bonus vigilante talent is not subject to specialization requirements - a stalker can select an avenger-only talent, and vice versa. At the GM's discretion, the vigilante can instead select an archetype-only vigilante talent, such as the ‹arc-vigilante/cabalist«'s living shadow›.\"}",
 			"",
 			"::h3[Archetypes]{jl}",
+			"",
+			"‹SOURCE Advanced Player's Guide/72›  ",
+			"@archetypeDesc",
 			"",
 			"::archetype[Agathiel]{c=vigilante r=\"Dual Identity; Vigilante Specialization; 1st-level Social Talent; 6th-level Vigilante Talent\" e=\"Agathiels surrender a portion of their immortal souls to Nirvana in exchange for a measure of animalistic might to aid them in their righteous crusades.\"}",
 			"",
