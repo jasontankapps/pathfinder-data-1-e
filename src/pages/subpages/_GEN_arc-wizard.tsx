@@ -3,7 +3,7 @@ import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
-import InnerLink from '../../components/InnerLink';
+import ByLevelPop from '../../components/ByLevelPop';
 const _arcane_bomber = {title: "Arcane Bomber", jsx: <><h2 id="arc-wizard-arcane_bomber-arcane-bomber">Arcane Bomber</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 75</Link><br/>To many wizards, the experimentation of the alchemist seems quaint, if not dangerous or frightening. A few wizards take up the secrets of the bomb, however, fusing alchemy with their already considerable magical power.</p>
 <Ability id="bomb-su" extraClasses="hasSubs" icon={["bowman"]}>
@@ -166,7 +166,7 @@ const _clocksmith = {title: "Clocksmith", jsx: <><h2 id="arc-wizard-clocksmith-c
 <Ability id="clockwork-bond-ex" icon={["stairs-goal"]}>
 <Pair single id="clockwork-bond-ex">Clockwork Bond (Ex)</Pair>
 <Pair hl title="Alters">Arcane bond</Pair>
-<Pair title="Ability">A clocksmith forms a bond with one of his clockwork creations and begins play with a constructed familiar. He must select this familiar as his arcane bond. The constructed familiar functions as a typical familiar of its type except as noted here. The construct familiar is always a construct with the <Link to="/subtype/clockwork">clockwork</Link> subtype. A construct familiar grants only half of its typical bonus (minimum +1 bonus) from its special familiar ability to its master.</Pair>
+<Pair title="Ability">A clocksmith forms a bond with one of his clockwork creations and begins play with a constructed familiar. He must select this familiar as his <em>arcane bond.</em> The constructed familiar functions as a typical familiar of its type except as noted here. The construct familiar is always a construct with the <Link to="/subtype/clockwork">clockwork</Link> subtype. A construct familiar grants only half of its typical bonus (minimum +1 bonus) from its special familiar ability to its master.</Pair>
 </Ability>
 <Ability id="clockwork-expertise-ex" icon={["armor-upgrade"]}>
 <Pair single id="clockwork-expertise-ex">Clockwork Expertise (Ex)</Pair>
@@ -420,7 +420,7 @@ const _pact_wizard_ff = {title: "Pact Wizard (FF)", jsx: <><h2 id="arc-wizard-pa
 <Ability id="familiar-ex" icon={["info"]}>
 <Pair single id="familiar-ex">Familiar (Ex)</Pair>
 <Pair hl title="Alters">Arcane bond</Pair>
-<Pair title="Info">A pact wizard must select a <Link to="/ability/familiar">familiar</Link> for his arcane bond. The familiar's loyalty ultimately lies with the pact wizard's patron, and it reports back to the patron on the wizard's activities.</Pair>
+<Pair title="Info">A pact wizard must select a <Link to="/ability/familiar">familiar</Link> for his <em>arcane bond.</em> The familiar's loyalty ultimately lies with the pact wizard's patron, and it reports back to the patron on the wizard's activities.</Pair>
 </Ability>
 <Ability id="pact-focus-ex" icon={["broken-shield"]}>
 <Pair single id="pact-focus-ex">Pact Focus (Ex)</Pair>
@@ -478,116 +478,286 @@ const _pact_wizard_hhh = {title: "Pact Wizard (HHH)", jsx: <><h2 id="arc-wizard-
 </>};
 const _poleiheira_adherent = {title: "Poleiheira Adherent", jsx: <><h2 id="arc-wizard-poleiheira_adherent-poleiheira-adherent">Poleiheira Adherent</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 18</Link><br/>Poleiheira adherents are wizards who wish to emulate the explorations and discoveries of Arustun and partake in great odysseys as they seek to imitate his achievements. These adherents bond to a book in tribute to Arustun and his extensive journals - known as the Poleiheira. This allows them to record their travels as well as any lost magic and lore they encounter.</p>
-<p><strong>Bonded Book (Sp):</strong> A Poleiheira adherent forms a bond with a spellbook. This bonded book becomes intrinsically tied to a Poleiheira adherent's conscious and subconscious mind. The book always opens to the right page, and she can record any number of spells and other information in her bonded book - when she turns pages, more blank pages appear. Other wizards find it difficult to read the book, which displays information in a seemingly random order: the DC of all Spellcraft checks to copy or prepare spells from the book increases by 10.</p>
-<p>Each time a Poleiheira adherent attains a new wizard level, she gains four spells (rather than two) to add to the bonded book. The cost and time requirement for writing a new spell into the book are halved. The time to prepare spells is reduced to one third (20 minutes to prepare all spells, and 5 minutes to prepare up to one quarter of her spells). Once per day while holding the book in one hand, she can use it to cast any one spell she has written in the bonded book, even if the spell is not prepared.</p>
-<p>A Poleiheira adherent can replace a lost or destroyed bonded book in the same manner as a bonded item. The new bonded book retains a number of spells per spell level equal to the Poleiheira adherent's Intelligence modifier from the previous bonded book, as well as all the mundane information that was recorded in the previous bonded book. If a Poleiheira adherent replaces her bonded book or dies, the previous book reverts to an ordinary blank spellbook.</p>
-<p>This replaces <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Great Odyssey:</strong> A Poleiheira adherent specializes in exploration and travel rather than a particular school of magic. She gains the abilities below.</p>
-<p>This replaces <strong className="hl">arcane school</strong>.</p>
-<blockquote>
-<p><strong>Mount (Sp):</strong> A Poleiheira adherent can summon a magical steed to her side (per the <Link to="/spell/mount">mount</Link> spell) that lasts up to 2 hours per wizard level. The duration of this ability doesn't need to be consecutive, but it must be spent in 2-hour increments. When riding a mount summoned with this ability, a Poleiheira adherent can substitute Spellcraft checks for Ride checks.</p>
-<p><strong>Master Mariner (Su):</strong> At 8th level, a Poleiheira adherent can telekinetically control a boat or ship with such skill and finesse that she counts as a number of people equal to her wizard level for the purpose of determining how many <Link to="/rule/driving_vehicles">crew members are needed</Link> to move a water vehicle. When controlling a ship in this manner, she can substitute Spellcraft checks for Profession (sailor) checks.</p>
-</blockquote>
+<Ability id="bonded-book-sp" icon={["stairs-goal","spell-book","upgrade"]}>
+<Pair single id="bonded-book-sp">Bonded Book (Sp)</Pair>
+<Pair hl title="Replaces">Arcane bond</Pair>
+<Pair title="Info"><p>A Poleiheira adherent forms a bond with a spellbook. This bonded book becomes intrinsically tied to a Poleiheira adherent's conscious and subconscious mind. The book always opens to the right page, and she can record any number of spells and other information in her bonded book - when she turns pages, more blank pages appear. Other wizards find it difficult to read the book, which displays information in a seemingly random order: the DC of all Spellcraft checks to copy or prepare spells from the book increases by 10.</p>
+<p>Each time a Poleiheira adherent attains a new wizard level, she gains four spells (rather than two) to add to the bonded book. The cost and time requirement for writing a new spell into the book are halved. The time to prepare spells is reduced to one third (20 minutes to prepare all spells, and 5 minutes to prepare up to one quarter of her spells).</p>
+</Pair>
+<Pair title="Ability">Once per day while holding the book in one hand, she can use it to cast any one spell she has written in the bonded book, even if the spell is not prepared.</Pair>
+<Pair title="Special">A Poleiheira adherent can replace a lost or destroyed bonded book in the same manner as a bonded item. The new bonded book retains a number of spells per spell level equal to the Poleiheira adherent's Intelligence modifier from the previous bonded book, as well as all the mundane information that was recorded in the previous bonded book. If a Poleiheira adherent replaces her bonded book or dies, the previous book reverts to an ordinary blank spellbook.</Pair>
+</Ability>
+<Ability id="great-odyssey" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="great-odyssey">Great Odyssey</Pair>
+<Pair hl title="Replaces">Arcane school</Pair>
+<Pair title="Info">A Poleiheira adherent specializes in exploration and travel rather than a particular school of magic. She gains the abilities below.</Pair>
+</Ability>
+<Ability id="mount-sp" extraClasses="subAbility" icon={["stairs-goal","upgrade"]}>
+<Pair single id="mount-sp">Mount (Sp)</Pair>
+<Pair title="Ability">A Poleiheira adherent can summon a magical steed to her side (per the <Link to="/spell/mount">mount</Link> spell). When riding a mount summoned with this ability, a Poleiheira adherent can substitute Spellcraft checks for Ride checks.</Pair>
+<Pair title="Usage">The mount lasts up to 2 hours per wizard level. The duration of this ability doesn't need to be consecutive, but it must be spent in 2-hour increments.<ByLevelPop levels={[[1,2],[2,4],[3,6],[4,8],[5,10],[6,12],[7,14],[8,16],[9,18],[10,20],[11,22],[12,24],[13,26],[14,28],[15,30],[16,32],[17,34],[18,36],[19,38],[20,40]]} unit="hour" postText="/day" /></Pair>
+</Ability>
+<Ability id="master-mariner-su" extraClasses="subAbility" icon={["magic-swirl","upgrade"]}>
+<Pair single id="master-mariner-su">Master Mariner (Su)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">A Poleiheira adherent can telekinetically control a boat or ship with such skill and finesse that she counts as a number of people equal to her wizard level for the purpose of determining how many <Link to="/rule/driving_vehicles">crew members are needed</Link> to move a water vehicle. When controlling a ship in this manner, she can substitute Spellcraft checks for Profession (sailor) checks.</Pair>
+</Ability>
 </>};
 const _primalist = {title: "Primalist", jsx: <><h2 id="arc-wizard-primalist-primalist">Primalist</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 37</Link><br/>A primalist is a wizard who has spent a considerable amount of time studying the chaos that is <Link to="/rule/primal_magic">primal magic</Link> - she seeks order in chaos, and hopes to master the raw power of primal magic to bolster her own abilities. A primalist wizard has the following class features.</p>
-<p><strong>Primal Magic (Su):</strong> At 1st level, a primalist may attempt to channel primal magic as a swift action to cast a prepared spell without losing that spell from its spell slot. Essentially, a primalist is forcing primal magic into the world and attempting to shape it into a specific spell effect. To use this ability, she casts the spell as she would normally, but as the spell's effects take place, she makes a <Link to="/rule/concentration">concentration</Link> check (DC 20 + double the spell's level). If she fails this check, she expends the spell normally as if she had cast it, but its actual effects are replaced by a primal magic event with a CR equal to her caster level and she is staggered for 1 round per level of the spell she was attempting to cast. If she makes this check, she casts the spell normally and it is not expended from her prepared spell slot, allowing her to cast that spell again at a later point.</p>
-<p>You may use primal magic in this manner once per day. At 5th, 10th, 15th, and 20th level, you can use it an additional time per day.</p>
-<p>This ability replaces <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Enhance Primal Magic Event (Su):</strong> At 5th level, when a primalist triggers a primal magic event, as a swift action she can increase or decrease its CR by 1. If she makes a concentration check (DC = 15 + the primal magic event's CR), she can instead increase or decrease the CR by 2. If she reduces a primal magic event's CR to less than 1, the event is negated. She can choose to use this ability after she determines what primal magic event she triggers, but before she resolves the effects of that event.</p>
-<p>This ability replaces <strong className="hl">the wizard bonus feat acquired at 5th level</strong>.</p>
-<p><strong>Primal Surge (Su):</strong> At 10th level, whenever a primalist triggers a primal magic event, she rolls the percentile dice twice to determine the event that occurs and chooses which one of the two possible events occurs. She becomes resistant to the effects of primal magic events. Anytime an event would affect her, the GM rolls 1d20 + the event's CR against a DC of 11 + her wizard level. If this roll fails, the event does not affect her, similar to a creature with spell resistance ignoring magical effects with an SR check. If the primal magic event is duplicating the effects of a spell that does not allow spell resistance (such as create pit), this resistance does not apply.</p>
-<p>This ability replaces <strong className="hl">the wizard bonus feat acquired at 10th level</strong>.</p>
+<Ability id="primal-magic-su" icon={["magic-swirl"]}>
+<Pair single id="primal-magic-su">Primal Magic (Su)</Pair>
+<Pair hl title="Replaces">Arcane bond</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">1 time/day + 1 per five wizard levels<ByLevelPop levels={[[1,1],[5,2],[10,3],[15,4],[20,5]]} unit="time" postText="/day" /></Pair>
+<Pair title="Swift Action"><p>A primalist may attempt to channel primal magic to cast a prepared spell without losing that spell from its spell slot. Essentially, a primalist is forcing primal magic into the world and attempting to shape it into a specific spell effect.</p>
+<p>To use this ability, she casts the spell as she would normally, but as the spell's effects take place, she makes a <Link to="/rule/concentration">concentration</Link> check (DC 20 + double the spell's level). If she fails this check, she expends the spell normally as if she had cast it, but its actual effects are replaced by a <em>primal magic event</em> with a CR equal to her caster level and she is <Link to="/misc/staggered">staggered</Link> for 1 round per level of the spell she was attempting to cast. If she makes this check, she casts the spell normally and it is not expended from her prepared spell slot, allowing her to cast that spell again at a later point.</p>
+</Pair>
+</Ability>
+<Ability id="enhance-primal-magic-event-su" icon={["magic-swirl"]}>
+<Pair single id="enhance-primal-magic-event-su">Enhance Primal Magic Event (Su)</Pair>
+<Pair hl title="Replaces">5th-level bonus feat</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Swift Action">When a primalist triggers a <em>primal magic event,</em> she can increase or decrease its CR by 1. If she makes a concentration check (DC = 15 + the <em>primal magic event's</em> CR), she can instead increase or decrease the CR by 2. If she reduces a <em>primal magic event's</em> CR to less than 1, the <em>event</em> is negated.</Pair>
+<Pair title="Special">She can choose to use this ability after she determines what <em>primal magic event</em> she triggers, but before she resolves the effects of that <em>event.</em></Pair>
+</Ability>
+<Ability id="primal-surge-su" icon={["rolling-dices","armor-upgrade"]}>
+<Pair single id="primal-surge-su">Primal Surge (Su)</Pair>
+<Pair hl title="Replaces">10th-level bonus feat</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">Whenever a primalist triggers a <em>primal magic event,</em> she rolls the percentile dice twice to determine the <em>event</em> that occurs and chooses which one of the two possible events occurs.</Pair>
+<Pair title="Passive Ability">She becomes resistant to the effects of <em>primal magic events.</em> Anytime an <em>event</em> would affect her, the GM rolls 1d20 + the <em>event's</em> CR against a DC of 11 + her wizard level. If this roll fails, the <em>event</em> does not affect her, similar to a creature with spell resistance ignoring magical effects with an SR check. If the <em>primal magic event</em> is duplicating the effects of a spell that does not allow spell resistance (such as <Link to="/spell/create_pit">create pit</Link>), this resistance does not apply.</Pair>
+</Ability>
 </>};
 const _runesage = {title: "Runesage", jsx: <><h2 id="arc-wizard-runesage-runesage">Runesage</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 58</Link><br/>Runesages draw upon the mystic energies of ancient Thassilon. While they sometimes experiment with the same heinous techniques exploited by the runelords, runesages temper their explorations into classic Thassilonian mysteries with moderation and empathy, maintaining balance by using small gemstones as the foci for their spellcasting. Runesages are experts at identifying spell effects associated with Thassilonian magic. As most of Thassilon's mysteries remain buried, runesages remain ever curious and continue to seek out new locations that hide secrets caches of Thassilonian magic.</p>
-<p><strong>Runic Focus (Su):</strong> A runesage can use her knowledge of runes to create a runic focus, a small, semiprecious stone engraved with Thassilonian runes that she manipulates to alter her spellcasting abilities. In function, a runic focus behaves like an <Link to="/magic-wondrous/ioun_stone">ioun stone</Link>. To activate a runic focus, the runesage must meditate on it as she prepares her spells. Following spell preparation, she tosses the gemstone into the air, after which it orbits around her head. A runic focus remains in orbit until the next time the runesage prepares her spells. A runic focus automatically functions as a runesage's bonded object.</p>
-<p>A runesage does not have the option to specialize in an arcane school - all runesages must be <Link to="/arcaneschool/universalist">universalists</Link>. However, when a runesage creates a runic focus, she must choose one <Link to="/arc-wizard/thassilonian_specialist">Thassilonian school of magic</Link>. When she prepares her spells, she is treated as a Thassilonian magic specialist of her runic focus's school for the purposes of determining what spells she can prepare (including gaining two additional spell slots per spell level of her school, and being unable to prepare spells from her runic focus's two opposition schools). She does not gain the corresponding powers of that school, however, and always functions as a universalist wizard in this regard.</p>
-<p>A runic focus allows the runesage to augment spells of a single arcane school to which the runic focus is aligned. As long as a runic focus remains activated, the runesage doesn't require material components for any spell she casts from the runic focus's aligned arcane school, provided the component's cost never exceeds 10 gp &times; the runesage's caster level. If the spell requires a material component that surpasses the cost limit, the runesage must have the material component on hand to cast the spell, as normal.</p>
-<p>A runic focus has an AC of 24, 10 hit points, and hardness 5, as per an ioun stone. While the first runic focus a runesage creates is free, replacement runic foci can be created using the standard rules for replacing a bonded object for a wizard's arcane bond. When a runesage creates a new runic focus, she can focus it on a different school of Thassilonian magic than her previous focus as long as the new school is not one that was an oppositional school from her previous focus. For example, a runesage with a runic focus on necromancy could abandon that focus and replace it with a new focus on any school other than abjuration and enchantment (as these two schools are opposition schools to Thassilonian necromancy).</p>
-<p>This ability alters <strong className="hl">arcane bond</strong> and replaces <strong className="hl">arcane school</strong>.</p>
+<Ability id="runic-focus-su" icon={["stairs-goal"]}>
+<Pair single id="runic-focus-su">Runic Focus (Su)</Pair>
+<Pair hl title="Replaces">Arcane school</Pair>
+<Pair hl title="Alters">Arcane bond</Pair>
+<Pair title="Ability"><p>A runesage can use her knowledge of runes to create a runic focus, a small, semiprecious stone engraved with Thassilonian runes that she manipulates to alter her spellcasting abilities. In function, a runic focus behaves like an <Link to="/magic-wondrous/ioun_stone">ioun stone</Link>.</p>
+<p>To activate a runic focus, the runesage must meditate on it as she prepares her spells. Following spell preparation, she tosses the gemstone into the air, after which it orbits around her head. A runic focus remains in orbit until the next time the runesage prepares her spells. A runic focus automatically functions as a runesage's <em>bonded object.</em></p>
+<p>A runesage does not have the option to specialize in an arcane school - all runesages must be <Link to="/arcaneschool/universalist">universalists</Link>. However, when a runesage creates a runic focus, she must choose one <Link to="/arcaneschool/thassilonian_magic">Thassilonian school of magic</Link>. When she prepares her spells, she is treated as a Thassilonian magic specialist of her runic focus's school for the purposes of determining what spells she can prepare (including gaining two additional spell slots per spell level of her school, and being unable to prepare spells from her runic focus's two opposition schools). She does not gain the corresponding powers of that school, however, and always functions as a universalist wizard in this regard.</p>
+<p>A runic focus allows the runesage to augment spells of a single arcane school to which the runic focus is aligned. As long as a runic focus remains activated, the runesage doesn't require material components for any spell she casts from the runic focus's aligned arcane school, provided the component's cost never exceeds 10 gp &amp;times&amp; the runesage's caster level. If the spell requires a material component that surpasses the cost limit, the runesage must have the material component on hand to cast the spell, as normal.</p>
+<p>A runic focus has an AC of 24, 10 hit points, and hardness 5, as per an ioun stone. While the first runic focus a runesage creates is free, replacement runic foci can be created using the standard rules for replacing a bonded object for a wizard's <em>arcane bond.</em> When a runesage creates a new runic focus, she can focus it on a different school of Thassilonian magic than her previous focus as long as the new school is not one that was an oppositional school from her previous focus. For example, a runesage with a runic focus on necromancy could abandon that focus and replace it with a new focus on any school other than abjuration and enchantment (as these two schools are opposition schools to Thassilonian necromancy).</p>
+</Pair>
+</Ability>
 </>};
 const _scroll_scholar = {title: "Scroll Scholar", jsx: <><h2 id="arc-wizard-scroll_scholar-scroll-scholar">Scroll Scholar</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 26</Link><br/>A scroll scholar values knowledge and learning as much as her other abilities, trading a portion of her potential in her chosen class for greater breadth of skill at deciphering old texts, piecing together strange fragments of esoteric lore, and deciphering the hidden qualities of strange and unusual magical items. The scroll scholar archetype can be taken by either clerics or wizards - they give up <Link to="/arc-cleric/scroll_scholar">different class abilities</Link> for the new abilities granted by this archetype. A wizard must either be a <Link to="/arcaneschool/universalist">universalist</Link> wizard or a <Link to="/arcaneschool/divination">diviner</Link> wizard in order to take this archetype - other types of school specializations are not suited to this archetype's focus. A scroll scholar has the following class features.</p>
-<p><strong>Diligent Student (Ex):</strong> At 1st level, a scroll scholar chooses one Knowledge skill. This becomes a class skill if it is not already one. The scroll scholar adds half her class level to all Knowledge checks of this type (minimum 1). At 5th level and every five levels thereafter, a scroll scholar chooses 1 additional Knowledge skill to receive this bonus.</p>
-<p>This ability replaces <strong className="hl">diviner's fortune</strong> (if a diviner) or <strong className="hl">hand of the apprentice</strong> (if a universalist).</p>
-<p><strong>Secrets Revealed (Sp):</strong> At 5th level, a scroll scholar gains the ability to cast <Link to="/spell/comprehend_languages">comprehend languages</Link> and <Link to="/spell/identify">identify</Link> as spell-like abilities. Her caster level is equal to her character level in whatever class she took the scroll scholar archetype for. She can cast these spells once per day each at 5th level, twice per day each at 7th level, and three times per day each at 9th level. At 11th level, one of these spell-like abilities (scholar's choice) becomes a constant spell-like ability, and at 13th level, the second one becomes a constant spell-like ability.</p>
-<p>This ability replaces her <strong className="hl">bonus feat</strong> for 5th level.</p>
-<p><strong>Flash of Insight (Su):</strong> At 10th level, once per day, a scroll scholar can gain a +5 bonus on a single attack roll, caster level check, or saving throw as an immediate action. This decision must be made before the results of the roll are known, but can be made after the die is rolled. This ability can be used twice per day at 15th level, and 3 times per day at 20th level.</p>
-<p>This ability replaces the normal addition of <strong className="hl">a new 4th-level spell slot</strong> to the character's spells per day; from this point on, the wizard has one fewer 4th-level spell slot than other wizards.</p>
+<Ability id="diligent-student-ex" icon={["skills","upgrade"]}>
+<Pair single id="diligent-student-ex">Diligent Student (Ex)</Pair>
+<Pair hl title="Replaces">Diviner's fortune (if a diviner) or hand of the apprentice (if a universalist)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Choice">A scroll scholar chooses one <Link to="/skill/knowledge">Knowledge</Link> skill. This becomes a class skill if it is not already one.</Pair>
+<Pair title="Passive Ability">The scroll scholar adds <Link to="/misc/half">half</Link> her class level to all Knowledge checks of this type (minimum 1).</Pair>
+<Pair title="At 5th Level">A scroll scholar chooses 1 additional Knowledge skill to receive this bonus.</Pair>
+<Pair title="At 10th Level">A scroll scholar chooses 1 additional Knowledge skill to receive this bonus.</Pair>
+<Pair title="At 15th Level">A scroll scholar chooses 1 additional Knowledge skill to receive this bonus.</Pair>
+<Pair title="At 20th Level">A scroll scholar chooses 1 additional Knowledge skill to receive this bonus.</Pair>
+</Ability>
+<Ability id="secrets-revealed-sp" icon={["magic-swirl"]}>
+<Pair single id="secrets-revealed-sp">Secrets Revealed (Sp)</Pair>
+<Pair hl title="Replaces">5th-level bonus feat</Pair>
+<Pair title="At 5th Level">A scroll scholar gains the ability to cast <Link to="/spell/comprehend_languages">comprehend languages</Link> and <Link to="/spell/identify">identify</Link> as spell-like abilities. Her caster level is equal to her wizard class level. She can cast these spells once per day.</Pair>
+<Pair title="At 7th Level">She can cast them twice per day each.</Pair>
+<Pair title="At 11th Level">One of these spell-like abilities (scholar's choice) becomes a constant spell-like ability.</Pair>
+<Pair title="At 13th Level">The other spell becomes a constant spell-like ability.</Pair>
+<Pair title="At 9th Level">She can cast them three times per day each.</Pair>
+</Ability>
+<Ability id="flash-of-insight-su" icon={["upgrade"]}>
+<Pair single id="flash-of-insight-su">Flash of Insight (Su)</Pair>
+<Pair hl title="Replaces">The normal addition of a new 4th-level spell slot; from this point on, the wizard has one fewer 4th-level spell slot than other wizards</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Immediate Action">Once per day, a scroll scholar can gain a +5 bonus on a single attack roll, caster level check, or saving throw. This decision must be made before the results of the roll are known, but can be made after the die is rolled.</Pair>
+<Pair title="At 15th Level">This ability can be used twice per day.</Pair>
+<Pair title="At 20th Level">This ability can be used 3 times per day.</Pair>
+</Ability>
 </>};
 const _scrollmaster = {title: "Scrollmaster", jsx: <><h2 id="arc-wizard-scrollmaster-scrollmaster">Scrollmaster</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 89</Link><br/>To some wizards, a scroll is not just a written form of a spell, it is a physical weapon meant to be used in combat like a sword or a shield. These strange wizards enter battle armed with scrolls, often one in each in each hand, practicing combat techniques resembling some monk martial arts.</p>
-<p><strong>Scroll Blade (Su):</strong> A scrollmaster can wield any paper, parchment, or cloth scroll as if it were a melee weapon. In the hands of the wizard, the scroll acts as a <Link to="/eq-weapon/short_sword">short sword</Link> with an enhancement bonus equal to 1/2 the level of the highest-level wizard spell on the scroll; a scroll with only a cantrip or 1st-level spell on it counts as a masterwork short sword. The scrollmaster is proficient in this weapon, and feats and abilities that affect short swords (such as <Link to="/feat/weapon_focus">Weapon Focus</Link>) apply to this weapon. A scrollmaster cannot wield two scrollblades at the same time.</p>
-<p>Activating this ability is a free action. A scroll blade only retains its abilities in the hands of the scrollmaster. The scroll blade has hardness 0 and hit points equal to the highest-level wizard spell on the scroll. Each successful hit by the scroll blade reduces its hit points by 1; this damage cannot be repaired, but does not affect casting from the scroll. When its hit points reach 0, the scroll is destroyed.</p>
-<p>If a scroll contains a spell with a metamagic feat, this ability uses the original spell level of the spell (a scroll of empowered fireball counts as a 3rd-level spell).</p>
-<p>At 3rd level, when using a 4th-level or higher wizard scroll as a scroll blade, the scrollmaster can choose to reduce its enhancement bonus by 1 (minimum +1 enhancement bonus) to treat it as a reach weapon. For example, he could use a scroll of <Link to="/spell/charm_monster">charm monster</Link> (a 4th-level wizard spell) as either a +2 short sword or a +1 short sword with reach.</p>
-<p>At 5th level, when using a 4th-level or higher wizard scroll as a scroll blade, the scrollmaster can choose to reduce its enhancement bonus (to a minimum of a +1 enhancement bonus) to give any of the following weapon properties: <Link to="/magic-enh/defending">defending</Link>, <Link to="/magic-enh/frost">frost</Link>, <Link to="/magic-enh/icy_burst">icy burst</Link>, <Link to="/magic-enh/keen">keen</Link>, <Link to="/magic-enh/ki_focus">ki focus</Link>, <Link to="/magic-enh/shock">shock</Link>, <Link to="/magic-enh/shocking_burst">shocking burst</Link>, <Link to="/magic-enh/speed">speed</Link>. Adding any of these properties consumes an amount of enhancement bonus equal to the property's <Link to="/main/magic_enhancements">cost</Link>. The scrollmaster must know the prerequisite spell or spells to craft the weapon property in question (for example, he must know <Link to="/spell/haste">haste</Link> to be able to give his scroll blade the speed property).</p>
-<p>This ability replaces <strong className="hl">the wizard's arcane bond</strong>.</p>
-<p><strong>Scroll Shield (Su):</strong> A scrollmaster can wield any paper, parchment, or cloth scroll as if it were a <Link to="/eq-armor/light_wooden_shield">light wooden shield</Link>. In the hands of the wizard, the scroll grants a +1 shield bonus with an enhancement bonus equal to 1/2 the level of the highest-level wizard spell on the scroll; a scroll with only a cantrip or 1st-level spell counts as a masterwork light shield. The scroll shield has no armor check penalty, arcane spell failure chance, or maximum Dexterity bonus. The scrollmaster is considered proficient in this shield. A scrollmaster can use a scrollblade in one hand and a scroll shield in the other hand.</p>
-<p>Activating this ability is a free action. A scroll shield only retains its abilities in the hands of the scrollmaster. The scroll shield has hardness 0 and hit points equal to the highest-level wizard spell on the scroll. Each successful attack roll against the wizard reduces the scroll shield's hit points by 1; this damage cannot be repaired, but does not affect casting from the scroll. When its hit points reach 0, the scroll is destroyed.</p>
-<p>At 5th level, when using a 3rd-level or higher wizard scroll as a scroll shield, the scrollmaster can choose to reduce its enhancement bonus (to a minimum of a +1 enhancement bonus) to give it any of the following shield properties: <Link to="/magic-enh/ghost_touch_a">ghost touch</Link>, <Link to="/magic-enh/light_fortification">light fortification</Link>, <Link to="/magic-enh/moderate_fortification">moderate fortification</Link>. Adding any of these properties consumes an amount of bonus equal to the property's cost (see <Link to="/rule/magic_armor">Table 15-5: Shield Special Abilities</Link>). The scrollmaster must know the prerequisite spell or spells to craft the shield property in question (for example, he must know <Link to="/spell/limited_wish">limited wish</Link> to be able to give his scroll shield the fortification property).</p>
+<Ability id="scroll-blade-su" icon={["mailed-fist"]}>
+<Pair single id="scroll-blade-su">Scroll Blade (Su)</Pair>
+<Pair hl title="Replaces">Arcane bond</Pair>
+<Pair title="Ability"><p>A scrollmaster can wield any paper, parchment, or cloth scroll as if it were a melee weapon. In the hands of the wizard, the scroll acts as a <Link to="/eq-weapon/short_sword">short sword</Link> with an enhancement bonus equal to 1/2 the level of the highest-level wizard spell on the scroll; a scroll with only a cantrip or 1st-level spell on it counts as a <Link to="/rule/masterwork_w">masterwork</Link> short sword. The scrollmaster is proficient in this weapon, and feats and abilities that affect short swords (such as <Link to="/feat/weapon_focus">Weapon Focus</Link>) apply to this weapon. A scrollmaster cannot wield two scrollblades at the same time.</p>
+<p>Activating this ability is a <strong className="hl">free action</strong>. A scroll blade only retains its abilities in the hands of the scrollmaster. The scroll blade has hardness 0 and hit points equal to the highest-level wizard spell on the scroll. Each successful hit by the scroll blade reduces its hit points by 1; this damage cannot be repaired, but does not affect casting from the scroll. When its hit points reach 0, the scroll is destroyed.</p>
 <p>If a scroll contains a spell with a metamagic feat, this ability uses the original spell level of the spell (a scroll of <Link to="/feat/empowered">empowered</Link> <Link to="/spell/fireball">fireball</Link> counts as a 3rd-level spell).</p>
-<p><strong>Improved Scroll Casting (Su):</strong> At 10th level, the scrollmaster can cast a wizard spell from a scroll and use his own Intelligence score and relevant feats to set the DC for the spell, and can use his own caster level if it is higher than that of the scroll (similar to a caster using a staff). The scrollmaster must have already deciphered the writing on the scroll to use this ability.</p>
-<p>This ability replaces <strong className="hl">the 10th-level wizard bonus feat</strong>.</p>
+</Pair>
+<Pair title="At 3rd Level">When using a 4th-level or higher wizard scroll as a scroll blade, the scrollmaster can choose to reduce its enhancement bonus by 1 (minimum +1 enhancement bonus) to treat it as a <Link to="/misc/reach">reach</Link> weapon. For example, he could use a scroll of <Link to="/spell/charm_monster">charm monster</Link> (a 4th-level wizard spell) as either a +2 short sword or a +1 short sword with reach.</Pair>
+<Pair title="At 5th Level">when using a 4th-level or higher wizard scroll as a scroll blade, the scrollmaster can choose to reduce its enhancement bonus (to a minimum of a +1 enhancement bonus) to give any of the following weapon properties: <Link to="/magic-enh/defending">defending</Link>, <Link to="/magic-enh/frost">frost</Link>, <Link to="/magic-enh/icy_burst">icy burst</Link>, <Link to="/magic-enh/keen">keen</Link>, <Link to="/magic-enh/ki_focus">ki focus</Link>, <Link to="/magic-enh/shock">shock</Link>, <Link to="/magic-enh/shocking_burst">shocking burst</Link>, <Link to="/magic-enh/speed">speed</Link>. Adding any of these properties consumes an amount of enhancement bonus equal to the property's <Link to="/main/magic_enhancements">cost</Link>. The scrollmaster must know the prerequisite spell or spells to craft the weapon property in question (for example, he must know <Link to="/spell/haste">haste</Link> to be able to give his scroll blade the speed property).</Pair>
+</Ability>
+<Ability id="scroll-shield-su" icon={["armor-upgrade"]}>
+<Pair single id="scroll-shield-su">Scroll Shield (Su)</Pair>
+<Pair title="Ability"><p>A scrollmaster can wield any paper, parchment, or cloth scroll as if it were a <Link to="/eq-armor/light_wooden_shield">light wooden shield</Link>. In the hands of the wizard, the scroll grants a +1 shield bonus with an enhancement bonus equal to 1/2 the level of the highest-level wizard spell on the scroll; a scroll with only a cantrip or 1st-level spell counts as a <Link to="/rule/masterwork_a">masterwork</Link> light shield. The scroll shield has no armor check penalty, arcane spell failure chance, or maximum Dexterity bonus. The scrollmaster is considered proficient in this shield. A scrollmaster can use a scrollblade in one hand and a scroll shield in the other hand.</p>
+<p>Activating this ability is a <strong className="hl">free action</strong>. A scroll shield only retains its abilities in the hands of the scrollmaster. The scroll shield has hardness 0 and hit points equal to the highest-level wizard spell on the scroll. Each successful attack roll against the wizard reduces the scroll shield's hit points by 1; this damage cannot be repaired, but does not affect casting from the scroll. When its hit points reach 0, the scroll is destroyed.</p>
+<p>If a scroll contains a spell with a metamagic feat, this ability uses the original spell level of the spell (a scroll of <em>empowered fireball</em> counts as a 3rd-level spell).</p>
+</Pair>
+<Pair title="At 5th Level">When using a 3rd-level or higher wizard scroll as a scroll shield, the scrollmaster can choose to reduce its enhancement bonus (to a minimum of a +1 enhancement bonus) to give it any of the following shield properties: <Link to="/magic-enh/ghost_touch_a">ghost touch</Link>, <Link to="/magic-enh/light_fortification">light fortification</Link>, <Link to="/magic-enh/moderate_fortification">moderate fortification</Link>. Adding any of these properties consumes an amount of bonus equal to the property's cost (see <Link to="/rule/magic_armor">Table 15-5: Shield Special Abilities</Link>). The scrollmaster must know the prerequisite spell or spells to craft the shield property in question (for example, he must know <Link to="/spell/limited_wish">limited wish</Link> to be able to give his scroll shield the fortification property).</Pair>
+</Ability>
+<Ability id="improved-scroll-casting-su" icon={["magic-swirl","upgrade"]}>
+<Pair single id="improved-scroll-casting-su">Improved Scroll Casting (Su)</Pair>
+<Pair hl title="Replaces">10th-level bonus feat</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">The scrollmaster can cast a wizard spell from a scroll and use his own Intelligence score and relevant feats to set the DC for the spell, and can use his own caster level if it is higher than that of the scroll (similar to a caster using a <Link to="/rule/staves">staff</Link>).</Pair>
+<Pair title="Special">The scrollmaster must have already deciphered the writing on the scroll to use this ability.</Pair>
+</Ability>
 </>};
 const _shadowcaster = {title: "Shadowcaster", jsx: <><h2 id="arc-wizard-shadowcaster-shadowcaster">Shadowcaster</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 39</Link><br/>Trained in the dark mysteries of Nidal's Umbral Court and its Kuthonite dogma, your training allows you to harness the power of shadows to bolster your spellcasting. A shadowcaster has the following class features.</p>
-<p><strong>Shadow Spells (Su):</strong> At 1st level, a shadowcaster uses his shadow to prepare additional spells. He must spend his entire period of spell preparation in dim illumination to use this ability. He may prepare a number of additional spell levels of spells equal to the level of the highest-level wizard spell he can cast. For example, if he can cast 6th-level wizard spells, he could prepare six 1st-level spells, two 3rd level-spells, or any similar combination that adds up to a total of six spell levels. These spells are stored in his shadow. He can only cast these spells when he is in an area of normal light or <Link to="/rule/dim_light">dim light</Link>. He gains Shadowtongue as a bonus language.</p>
-<p>This ability replaces <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Shadowsight (Ex):</strong> At 5th level, a shadowcaster gains darkvision 60 feet.</p>
-<p>This ability replaces the shadowcaster's <strong className="hl">5th-level wizard bonus feat</strong>.</p>
-<p><strong>Shadowy Specialization (Ex):</strong> At 10th level, when a shadowcaster casts <Link to="/spell/shades">shades</Link>, <Link to="/spell/shadow_conjuration">shadow conjuration</Link>, <Link to="/spell/shadow_evocation">shadow evocation</Link>, and similar illusion spells that have a listed fraction of the strength of real effects, he increases the percentage of damage caused by the spell's effect or summoned creatures by one-fifth (+20%) against creatures that make their saving throw against the effect, up to a maximum of 100% of the strength. For example, shadow evocation and shadow conjuration deal 40% normal damage on a successful save instead of 20%.</p>
-<p>This ability replaces the shadowcaster's <strong className="hl">10th-level wizard bonus feat</strong>.</p>
+<Ability id="shadow-spells-su" icon={["magic-swirl","upgrade"]}>
+<Pair single id="shadow-spells-su">Shadow Spells (Su)</Pair>
+<Pair hl title="Replaces">Arcane bond</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A shadowcaster uses his shadow to prepare additional spells. He must spend his entire period of spell preparation in <Link to="/rule/illumination">dim illumination</Link> to use this ability.</Pair>
+<Pair title="Ability">He may prepare a number of additional spell levels of spells equal to the level of the highest-level wizard spell he can cast. For example, if he can cast 6th-level wizard spells, he could prepare six 1st-level spells, two 3rd level-spells, or any similar combination that adds up to a total of six spell levels. These spells are stored in his shadow. He can only cast these spells when he is in an area of normal light or dim light.</Pair>
+<Pair title="Special">He gains Shadowtongue as a bonus language.</Pair>
+</Ability>
+<Ability id="shadowsight-ex" icon={["stairs-goal"]}>
+<Pair single id="shadowsight-ex">Shadowsight (Ex)</Pair>
+<Pair hl title="Replaces">5th-level bonus feat</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">A shadowcaster gains darkvision 60 feet.</Pair>
+</Ability>
+<Ability id="shadowy-specialization-ex" icon={["upgrade"]}>
+<Pair single id="shadowy-specialization-ex">Shadowy Specialization (Ex)</Pair>
+<Pair hl title="Replaces">10th-level bonus feat</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">When a shadowcaster casts <Link to="/spell/shades">shades</Link>, <Link to="/spell/shadow_conjuration">shadow conjuration</Link>, <Link to="/spell/shadow_evocation">shadow evocation</Link>, and similar illusion spells that have a listed fraction of the strength of real effects, he increases the percentage of damage caused by the spell's effect or summoned creatures by one-fifth (+20%) against creatures that make their saving throw against the effect, up to a maximum of 100% of the strength. For example, <em>shadow evocation</em> and <em>shadow conjuration</em> deal 40% normal damage on a successful save instead of 20%.</Pair>
+</Ability>
 </>};
 const _siege_mage = {title: "Siege Mage", jsx: <><h2 id="arc-wizard-siege_mage-siege-mage">Siege Mage</h2>
-<p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 75</Link><br/>The siege mage combines his arcane mastery with a supernatural link to siege engines.</p>
-<p><strong>Siege Engineer:</strong> At 1st level, the siege mage gains <Link to="/feat/siege_engineer">Siege Engineer</Link> as a bonus feat, even though he does not meet the prerequisites for that feat.</p>
-<p>This ability replaces <strong className="hl">scribe scroll</strong>.</p>
-<p><strong>Siege Engine Bond (Su):</strong> At 1st level, a siege mage can bond with a single siege engine within 30 feet and line of sight as a standard action. He can utilize the power of this link to aim and fire the siege engine remotely (as long as he's within 30 feet), though it still requires a crew to reload the siege engine. At 10th level, he can reload, aim, and fire the siege engine purely by the power of this link, and no longer needs a crew to control the siege engine. It still takes the normal required amount of time and actions to control a siege engine in this manner.  The siege mage can end this bond with a free action. A siege mage can bond with a siege engine in this manner a number of times per day equal to his Intelligence modifier (minimum 1) but can only be bonded with one siege engine at a time.</p>
-<p>This ability replaces <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Empower Siege Engine (Su):</strong> As a swift action, a siege mage can sacrifice one of his spells to empower the next attack he makes before the end of his turn with a siege engine he is bonded with. When he does, the siege engine attack gains a bonus on its attack roll or targeting roll equal to the level of the spell he sacrificed, and a bonus to damage equal to 3 &times; the level of the spell.</p>
-<p>This ability replaces <strong className="hl">cantrips</strong>, but the siege mage gains the <Link to="/spell/detect_magic">detect magic</Link> and <Link to="/spell/read_magic">read magic</Link> cantrips and places them in his spellbook. He can cast either of these as 1st-level spells.</p>
-<p><strong>Siege School:</strong> The strange rituals needed to empower all forms of siege engines takes a level of dedication and perseverance that limits a wizard's time to unlock other arcane mysteries. At 1st level, the siege mage forsakes three schools of magic. Once chosen, these opposition schools cannot be changed. A siege mage who prepares spells from his opposition school must use two spell slots of that level to prepare the spell. In addition, the siege mage takes a -4 penalty on any skill checks made when crafting a magic item that has a spell from one of his opposition schools.</p>
-<p>This ability replaces <strong className="hl">arcane school</strong>.</p>
+<p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 75</Link><br/>The siege mage combines his arcane mastery with a supernatural link to <Link to="/rule/siege_engines">siege engines</Link>.</p>
+<Ability id="siege-engineer" icon={["stairs-goal"]}>
+<Pair single id="siege-engineer">Siege Engineer</Pair>
+<Pair hl title="Replaces">Scribe scroll</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">The siege mage gains <Link to="/feat/siege_engineer">Siege Engineer</Link> as a bonus feat, even though he does not meet the prerequisites for that feat.</Pair>
+</Ability>
+<Ability id="siege-engine-bond-su" icon={["bowman"]}>
+<Pair single id="siege-engine-bond-su">Siege Engine Bond (Su)</Pair>
+<Pair hl title="Replaces">Arcane bond</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Usage">Intelligence modifier times/day (minimum 1)</Pair>
+<Pair title="Standard Action">A siege mage can bond with a single <Link to="/main/equipment_siege_engines">siege engine</Link> within 30 feet and line of sight. He can utilize the power of this link to aim and fire the siege engine remotely (as long as he's within 30 feet), though it still requires a crew to reload the siege engine.</Pair>
+<Pair title="At 10th Level">He can reload, aim, and fire the siege engine purely by the power of this link, and no longer needs a crew to control the siege engine. It still takes the normal required amount of time and actions to control a siege engine in this manner.</Pair>
+<Pair title="Special">The siege mage can end this bond with a <strong className="hl">free action</strong>. A siege mage can only be bonded with one siege engine at a time.</Pair>
+</Ability>
+<Ability id="empower-siege-engine-su" icon={["upgrade","spell-book"]}>
+<Pair single id="empower-siege-engine-su">Empower Siege Engine (Su)</Pair>
+<Pair hl title="Replaces">Cantrips</Pair>
+<Pair title="Swift Action">A siege mage can sacrifice one of his spells to empower the next attack he makes before the end of his turn with a siege engine he is bonded with. When he does, the siege engine attack gains a bonus on its attack roll or targeting roll equal to the level of the spell he sacrificed, and a bonus to damage equal to 3 &times; the level of the spell.</Pair>
+<Pair title="Ability">The siege mage gains the <Link to="/spell/detect_magic">detect magic</Link> and <Link to="/spell/read_magic">read magic</Link> cantrips and places them in his spellbook. He can cast either of these as 1st-level spells.</Pair>
+</Ability>
+<Ability id="siege-school" icon={["broken-shield"]}>
+<Pair single id="siege-school" flavor="The strange rituals needed to empower all forms of siege engines takes a level of dedication and perseverance that limits a wizard's time to unlock other arcane mysteries.">Siege School</Pair>
+<Pair hl title="Replaces">Arcane school</Pair>
+<Pair title="At 1st Level">The siege mage forsakes three schools of magic. Once chosen, these opposition schools cannot be changed. A siege mage who prepares spells from his opposition school must use two spell slots of that level to prepare the spell. In addition, the siege mage takes a -4 penalty on any skill checks made when crafting a magic item that has a spell from one of his opposition schools.</Pair>
+</Ability>
 </>};
 const _spell_sage = {title: "Spell Sage", jsx: <><h2 id="arc-wizard-spell_sage-spell-sage">Spell Sage</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 133</Link><br/>A spell sage has mastered spells of all types, and is able to increase the effectiveness of his own spells and eventually even cast spells from other classes' spell lists. While most wizards focus on a school, the spell sage looks at the particular aspects of individual spells and is not afraid to modify them with interesting bits of insight to gain deeper understandings of the formulae.</p>
-<p><strong>Focused Spells (Su):</strong> At 1st level, once per day the spell sage's understanding of spells allows him to increase his caster level by 4 for a single spell cast. He can do this twice per day at 8th level, and three times per day at 16th level.</p>
-<p>This ability replaces <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Spell Study (Su):</strong> At 2nd level, the sage's understanding of the spells of bards, clerics, and druids is so great that he can use his own magic in an inefficient, roundabout way to duplicate those classes' spells. Once per day, a spell sage can spontaneously cast any spell on the <Link to="/main/spells_bard">bard</Link>, <Link to="/main/spells_cleric">cleric</Link>, or <Link to="/main/druid_spell">druid spell list</Link> as if it were a wizard spell he knew and had prepared. Casting the spell requires the spell sage to spend 1 full round per spell level of the desired spell (if the spell is on multiple spell lists indicated above, using the lowest level from among those lists) and requires expending two prepared spells of that spell level or higher; if the spell's casting time is normally 1 full round or longer, this is added to the spell sage's casting time. For example, if a spell sage wants to use spell study to cast cure light wounds (cleric spell level 1st), he must spend 2 full rounds casting and expend two prepared wizard spells of 1st level or higher.</p>
-<p>At 6th level and every 5 levels thereafter, a spell sage can use this ability an additional time per day (to a maximum of four times per day at 16th level).</p>
-<p>This ability replaces <strong className="hl">arcane school</strong>.</p>
+<Ability id="focused-spells-su" icon={["upgrade"]}>
+<Pair single id="focused-spells-su">Focused Spells (Su)</Pair>
+<Pair hl title="Replaces">Arcane bond</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">Once per day the spell sage's understanding of spells allows him to increase his caster level by 4 for a single spell cast.</Pair>
+<Pair title="At 8th Level">He can do this twice per day.</Pair>
+<Pair title="At 16th Level">He can do this three times per day.</Pair>
+</Ability>
+<Ability id="spell-study-su" icon={["magic-swirl"]}>
+<Pair single id="spell-study-su" flavor="The sage's understanding of the spells of bards, clerics, and druids is so great that he can use his own magic in an inefficient, roundabout way to duplicate those classes' spells.">Spell Study (Su)</Pair>
+<Pair hl title="Replaces">Arcane school</Pair>
+<Pair title="Gained">At 2nd Level</Pair>
+<Pair title="Usage">1 time/day + 1 per five wizard levels beyond 1st<ByLevelPop levels={[[1,1],[6,2],[11,3],[16,4]]} unit="time" postText="/day" /></Pair>
+<Pair title="Ability"><p>A spell sage can spontaneously cast any spell on the <Link to="/main/spells_bard">bard</Link>, <Link to="/main/spells_cleric">cleric</Link>, or <Link to="/main/druid_spell">druid spell list</Link> as if it were a wizard spell he knew and had prepared.</p>
+<p>Casting the spell requires the spell sage to spend 1 full round per spell level of the desired spell (if the spell is on multiple spell lists indicated above, using the lowest level from among those lists) and requires expending two prepared spells of that spell level or higher; if the spell's casting time is normally 1 full round or longer, this is added to the spell sage's casting time. For example, if a spell sage wants to use spell study to cast <Link to="/spell/cure_light_wounds">cure light wounds</Link> (cleric spell level 1st), he must spend 2 full rounds casting and expend two prepared wizard spells of 1st level or higher.</p>
+</Pair>
+</Ability>
 </>};
 const _spellbinder = {title: "Spellbinder", jsx: <><h2 id="arc-wizard-spellbinder-spellbinder">Spellbinder</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 25</Link><br/>A spellbinder is an elven wizard who forges an arcane bond between himself and one or more wizard spells. These spells become so well understood by the spellbinder that he can prepare them in spell slots that already have other spells prepared in them.</p>
-<p><strong>Spell Bond (Su):</strong> At 1st level, a spellbinder selects any one spell that he knows as a bonded spell. As a full-round action, the spellbinder may replace a spell of the same or higher level as his bonded spell with his bonded spell. For example, a spellbinder who selects <Link to="/spell/magic_missile">magic missile</Link> as his bonded spell could spend a full-round action to exchange any 1st-level or higher spell that he has prepared with magic missile. At 3rd level, and every two levels thereafter, a spellbinder may select another spell he knows and add it to his list of bonded spells, to a maximum of nine bonded spells at 17th level.</p>
-<p>Upon reaching 4th level, and every two levels thereafter, a spellbinder can choose to select a new spell as a bonded spell in place of one with which he is already bonded. In effect, the spellbinder loses the bond with the old spell (though it is still one of his spells known) in exchange for forging a spell bond with a new spell. The new spell's level must be the same as that of the spell being exchanged. A spellbinder may swap only one spell bond at any given level, and must choose whether or not to swap the spell bond at the same time that he gains two new spells known for the level.</p>
-<p>This ability replaces <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Discoveries:</strong> The following discoveries complement the spellbinder archetype: <Link to="/arcanedisc/fast_study">Fast Study</Link>, <Link to="/arcanedisc/split_slot">Split Slot</Link>.</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-wizard-spellbinder--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability id="spell-bond-su" icon={["magic-swirl"]}>
+<Pair single id="spell-bond-su">Spell Bond (Su)</Pair>
+<Pair hl title="Replaces">Arcane bond</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Choice">A spellbinder selects any one spell that he knows as a <em>bonded spell.</em></Pair>
+<Pair title="Full-Round Action">The spellbinder may replace a spell of the same or higher level as his <em>bonded spell</em> with his <em>bonded spell.</em> For example, a spellbinder who selects <Link to="/spell/magic_missile">magic missile</Link> as his <em>bonded spell</em> could spend a full-round action to exchange any 1st-level or higher spell that he has prepared with <em>magic missile.</em></Pair>
+<Pair title="At 3rd Level">A spellbinder may select another spell he knows and add it to his list of <em>bonded spells.</em></Pair>
+<Pair title="At 4th Level">A spellbinder can choose to select a new spell as a bonded spell in place of one with which he is already bonded. In effect, the spellbinder loses the bond with the old spell (though it is still one of his spells known) in exchange for forging a spell bond with a new spell. The new spell's level must be the same as that of the spell being exchanged.</Pair>
+<Pair title="At 5th Level">A spellbinder may select another spell he knows and add it to his list of <em>bonded spells.</em></Pair>
+<Pair title="At 6th Level">He may swap out a <em>bonded spell,</em> following the rules above.</Pair>
+<Pair title="At 7th Level">A spellbinder may select another spell he knows and add it to his list of <em>bonded spells.</em></Pair>
+<Pair title="At 8th Level">He may swap out a <em>bonded spell,</em> following the rules above.</Pair>
+<Pair title="At 9th Level">A spellbinder may select another spell he knows and add it to his list of <em>bonded spells.</em></Pair>
+<Pair title="At 10th Level">He may swap out a <em>bonded spell,</em> following the rules above.</Pair>
+<Pair title="At 11th Level">A spellbinder may select another spell he knows and add it to his list of <em>bonded spells.</em></Pair>
+<Pair title="At 12th Level">He may swap out a <em>bonded spell,</em> following the rules above.</Pair>
+<Pair title="At 13th Level">A spellbinder may select another spell he knows and add it to his list of <em>bonded spells.</em></Pair>
+<Pair title="At 14th Level">He may swap out a <em>bonded spell,</em> following the rules above.</Pair>
+<Pair title="At 15th Level">A spellbinder may select another spell he knows and add it to his list of <em>bonded spells.</em></Pair>
+<Pair title="At 16th Level">He may swap out a <em>bonded spell,</em> following the rules above.</Pair>
+<Pair title="At 17th Level">A spellbinder may select another spell he knows and add it to his list of <em>bonded spells.</em></Pair>
+<Pair title="At 18th Level">He may swap out a <em>bonded spell,</em> following the rules above.</Pair>
+<Pair title="At 20th Level">He may swap out a <em>bonded spell,</em> following the rules above.</Pair>
+<Pair title="Special">A spellbinder may swap only one spell bond at any given level, and must choose whether or not to swap the spell bond at the same time that he gains two new spells known for the level.</Pair>
+</Ability>
+<p><strong className="hl">The following arcane discoveries complement the spellbinder archetype:</strong> <Link to="/arcanedisc/fast_study">Fast Study</Link>, <Link to="/arcanedisc/split_slot">Split Slot</Link>.</p>
 </>};
 const _spellslinger = {title: "Spellslinger", jsx: <><h2 id="arc-wizard-spellslinger-spellslinger">Spellslinger</h2>
-<p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 75</Link><br/>While few contest the seductive allure of commanding arcane and occult powers, there are those wizards who become obsessed with the natural mysteries of black powder. Combining this emerging technology with their considerable arcane skills, they transform firearms into a powerful focus.</p>
-<p><strong>Arcane Gun (Su):</strong> The spellslinger gains the <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (firearms) feat, and one or two of his firearms can be arcane guns. Arcane guns are normal one-handed or two-handed firearms in the hands of others, as they were normal firearms before the spellslinger imbued them with magic. In a spellslinger's hands, they both fire projectiles (bullets and pellets) and cast magic. At 1st level, the spellslinger decides whether he wants to have one or two arcane guns at a time. If the spellslinger chooses to have only one arcane gun at a time, spells fired through the arcane gun that require an attack roll have a &times;3 critical hit multiplier.</p>
-<p>A spellslinger can cast any ranged touch attack, cone, line, or ray spells through his arcane gun. When he casts through the arcane gun, the gun's enhancement bonus (if any) is a bonus to the spell's attack rolls or to the spell's saving throw DCs. Yet there are dangers inherent to this method. If any of the spells' attack rolls result in a natural 1 (a misfire), or a natural 20 is rolled on any saving throw made against the spell by a target (an overload), the arcane gun gains the broken condition. If the arcane gun already has the broken condition, the gun explodes. When a gun explodes, it lets loose a blast of force, or if the spell has the acid, cold, electricity, or sonic descriptor, it deals that type of energy damage instead. In the case of spells with multiple descriptors, roll randomly among the descriptors to determine the type of damage dealt by the blast. The blast is centered on a single intersection within the spellslinger's space (spellslinger's choice) and deals 1d6 points of the appropriate energy damage or force damage per level of the spell cast. Any creature within the blast other than the spellslinger can make a Reflex saving throw to halve the damage. The Reflex save DC is calculated using the spell level of the spell being sacrificed.</p>
-<p>A spellslinger can attune his arcane guns at the start of each day. That attunement lasts until the spellslinger attunes to a new gun, even if a formally attuned gun is destroyed.</p>
-<p>This ability replaces <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Gunsmith:</strong> The spellslinger gains the <Link to="/feat/gunsmithing">Gunsmithing</Link> feat and a battered gun that is identical to the gun a gunslinger gains at first level. If the spellslinger chooses the ability to attune two arcane guns, he still only starts out with one gun. Like a gunslinger, a spellslinger can use the Gunsmithing feat to restore his battered gun.</p>
-<p>This ability replaces <strong className="hl">scribe scroll</strong>.</p>
-<p><strong>Mage Bullets (Su):</strong> A spellslinger is adept at transferring spell energy into his arcane gun attacks. As a swift action, he can sacrifice a spell and transform that energy into a weapon bonus equal to the level of the spell sacrificed on a single barrel of his firearm. With that weapon bonus the spellslinger can apply any of the following to his arcane bond: enhancement bonuses (up to +5) and <Link to="/magic-enh/dancing">dancing</Link>, <Link to="/magic-enh/defending">defending</Link>, <Link to="/magic-enh/distance">distance</Link>, <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/flaming_burst">flaming burst</Link>, <Link to="/magic-enh/frost">frost</Link>, <Link to="/magic-enh/ghost_touch">ghost touch</Link>, <Link to="/magic-enh/icy_burst">icy burst</Link>, <Link to="/magic-enh/merciful">merciful</Link>, <Link to="/magic-enh/seeking">seeking</Link>, <Link to="/magic-enh/shock">shock</Link>, <Link to="/magic-enh/shocking_burst">shocking burst</Link>, <Link to="/magic-enh/spell_storing">spell storing</Link>, <Link to="/magic-enh/thundering">thundering</Link>, <Link to="/magic-enh/vicious">vicious</Link>, and <Link to="/magic-enh/wounding">wounding</Link>. An arcane gun gains no benefit from having two of the same weapon special abilities on the same barrel. The effect of the mage bullets ability lasts for a number of minutes equal to the level of the spell sacrificed, or until this ability is used again to assign the barrel different enhancements.</p>
-<p>This ability replaces <strong className="hl">cantrips</strong>, but the spellslinger gains the <Link to="/spell/detect_magic">detect magic</Link> and <Link to="/spell/read_magic">read magic</Link> cantrips and places them in his spellbook. He can cast either of these as 1st-level spells.</p>
-<p><strong>School of the Gun:</strong> The rigor and care required by arcane guns is so great that a spellslinger forsakes four schools of magic. These opposition schools are chosen at 1st level and cannot be changed later. A spellslinger who prepares a spell from his opposition school must use two spell slots of that level to prepare the spell. In addition, the spellslinger takes a -4 penalty on any skill checks made when crafting a magic item that has a spell from one of his opposition schools as a prerequisite.</p>
-<p>This ability replaces <strong className="hl">arcane school</strong>.</p>
+<p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 75</Link><br/>While few contest the seductive allure of commanding arcane and occult powers, there are those wizards who become obsessed with the natural mysteries of black powder. Combining this emerging technology with their considerable arcane skills, they transform <Link to="/main/equipment_firearms">firearms</Link> into a powerful focus.</p>
+<Ability id="arcane-gun-su" icon={["stairs-goal","bowman","smoking-finger","upgrade"]}>
+<Pair single id="arcane-gun-su">Arcane Gun (Su)</Pair>
+<Pair hl title="Replaces">Arcane bond</Pair>
+<Pair title="Ability">The spellslinger gains the <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (firearms) feat, and one or two of his firearms can be <em>arcane guns. Arcane guns</em> are normal one-handed or two-handed firearms in the hands of others, as they were normal firearms before the spellslinger imbued them with magic. In a spellslinger's hands, they both fire projectiles (bullets and pellets) and cast magic.</Pair>
+<Pair title="Choice">At 1st level, the spellslinger decides whether he wants to have one or two <em>arcane guns</em> at a time. If the spellslinger chooses to have only one <em>arcane gun</em> at a time, spells fired through the <em>arcane gun</em> that require an attack roll have a &times;3 critical hit multiplier.</Pair>
+<Pair title="Ability"><p>A spellslinger can cast any ranged touch attack, cone, line, or ray spells through his <em>arcane gun.</em> When he casts through the <em>arcane gun,</em> the gun's enhancement bonus (if any) is a bonus to the spell's attack rolls or to the spell's saving throw DCs.</p>
+<p>Yet there are dangers inherent to this method. If any of the spells' attack rolls result in a natural 1 (a misfire), or a natural 20 is rolled on any saving throw made against the spell by a target (an overload), the <em>arcane gun</em> gains the <Link to="/misc/broken">broken</Link> condition. If the <em>arcane gun</em> already has the broken condition, the gun explodes.</p>
+<p>When a gun explodes, it lets loose a blast of force, or if the spell has the acid, cold, electricity, or sonic descriptor, it deals that type of energy damage instead. In the case of spells with multiple descriptors, roll randomly among the descriptors to determine the type of damage dealt by the blast. The blast is centered on a single intersection within the spellslinger's space (spellslinger's choice) and deals 1d6 points of the appropriate energy damage or force damage per level of the spell cast. Any creature within the blast other than the spellslinger can make a Reflex saving throw to halve the damage. The Reflex save DC is calculated using the spell level of the spell being sacrificed.</p>
+</Pair>
+<Pair title="Special">A spellslinger can attune his <em>arcane guns</em> at the start of each day. That attunement lasts until the spellslinger attunes to a new gun, even if a formally attuned gun is destroyed.</Pair>
+</Ability>
+<Ability id="gunsmith" icon={["stairs-goal"]}>
+<Pair single id="gunsmith">Gunsmith</Pair>
+<Pair hl title="Replaces">Scribe scroll</Pair>
+<Pair title="Ability">The spellslinger gains the <Link to="/feat/gunsmithing">Gunsmithing</Link> feat and a battered gun that is identical to the gun a <Link to="/class/gunslinger">gunslinger</Link> gains at first level.</Pair>
+<Pair title="Special">If the spellslinger chooses the ability to attune two <em>arcane guns,</em> he still only starts out with one gun. Like a gunslinger, a spellslinger can use the Gunsmithing feat to restore his battered gun.</Pair>
+</Ability>
+<Ability id="mage-bullets-su" icon={["upgrade"]}>
+<Pair single id="mage-bullets-su" flavor={<>A spellslinger is adept at transferring spell energy into his <em>arcane gun</em> attacks.</>}>Mage Bullets (Su)</Pair>
+<Pair hl title="Replaces">Cantrips</Pair>
+<Pair title="Ability">The spellslinger gains the <Link to="/spell/detect_magic">detect magic</Link> and <Link to="/spell/read_magic">read magic</Link> cantrips and places them in his spellbook. He can cast either of these as 1st-level spells.</Pair>
+<Pair title="Swift Action">He can sacrifice a spell and transform that energy into a weapon bonus equal to the level of the spell sacrificed on a single barrel of his firearm. With that weapon bonus the spellslinger can apply any of the following to his <em>arcane bond:</em> enhancement bonuses (up to +5) and <Link to="/magic-enh/dancing">dancing</Link>, <Link to="/magic-enh/defending">defending</Link>, <Link to="/magic-enh/distance">distance</Link>, <Link to="/magic-enh/flaming">flaming</Link>, <Link to="/magic-enh/flaming_burst">flaming burst</Link>, <Link to="/magic-enh/frost">frost</Link>, <Link to="/magic-enh/ghost_touch">ghost touch</Link>, <Link to="/magic-enh/icy_burst">icy burst</Link>, <Link to="/magic-enh/merciful">merciful</Link>, <Link to="/magic-enh/seeking">seeking</Link>, <Link to="/magic-enh/shock">shock</Link>, <Link to="/magic-enh/shocking_burst">shocking burst</Link>, <Link to="/magic-enh/spell_storing">spell storing</Link>, <Link to="/magic-enh/thundering">thundering</Link>, <Link to="/magic-enh/vicious">vicious</Link>, and <Link to="/magic-enh/wounding">wounding</Link>.</Pair>
+<Pair title="Special">An <em>arcane gun</em> gains no benefit from having two of the same weapon special abilities on the same barrel. The effect of the <em>mage bullets</em> ability lasts for a number of minutes equal to the level of the spell sacrificed, or until this ability is used again to assign the barrel different enhancements.</Pair>
+</Ability>
+<Ability id="school-of-the-gun" icon={["broken-shield"]}>
+<Pair single id="school-of-the-gun">School of the Gun</Pair>
+<Pair hl title="Replaces">Arcane school</Pair>
+<Pair title="Info">The rigor and care required by <em>arcane guns</em> is so great that a spellslinger forsakes four schools of magic. These opposition schools are chosen at 1st level and cannot be changed later. A spellslinger who prepares a spell from his opposition school must use two spell slots of that level to prepare the spell. In addition, the spellslinger takes a -4 penalty on any skill checks made when crafting a magic item that has a spell from one of his opposition schools as a prerequisite.</Pair>
+</Ability>
 </>};
 const _spirit_binder = {title: "Spirit Binder", jsx: <><h2 id="arc-wizard-spirit_binder-spirit-binder">Spirit Binder</h2>
 <p><strong>Sources</strong> <Link to="/source/familiar_folio">Familiar Folio pg. 9</Link><br/>While most wizards learn their arts through gradual study, spirit binders have made a sudden arcane breakthrough due to the traumatic experience of losing a loved one.</p>
-<p><strong>Soulbound Familiar (Ex):</strong> A spirit binder must select a familiar for his arcane bond. Unlike in a normal familiar-summoning ritual, a spirit binder created his special familiar through a dangerous ritual catalyzed by the death of a loved one. Before the loved one's spirit passed on to the Boneyard, the spirit binder was able to bind the spirit to an animal or vermin, which then became his familiar.</p>
+<Ability id="soulbound-familiar-ex" icon={["info","stairs-goal"]}>
+<Pair single id="soulbound-familiar-ex">Soulbound Familiar (Ex)</Pair>
+<Pair hl title="Alters">Arcane bond</Pair>
+<Pair title="Ability"><p>A spirit binder must select a <Link to="/ability/familiar">familiar</Link> for his <em>arcane bond.</em> Unlike in a normal familiar-summoning ritual, a spirit binder created his special familiar through a dangerous ritual catalyzed by the death of a loved one. Before the loved one's spirit passed on to the Boneyard, the spirit binder was able to bind the spirit to an animal or vermin, which then became his familiar.</p>
 <p>A soulbound familiar's personality is that of the lost loved one, rather than a servant of the spirit binder. It can have any alignment, even one that is diametrically opposed to the spirit binder's. A soulbound familiar has the base attack bonus and base saving throws of the loved one's favored class (using the spirit binder's level as its level). If the loved one died before the beginning of the campaign, the spirit binder selects the familiar's favored class at 1st level and it cannot be changed.</p>
-<p>This ability alters <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Arcane School:</strong> A spirit binder can't choose necromancy as an opposition school.</p>
-<p>This ability alters <strong className="hl">arcane school</strong>.</p>
-<p><strong>Lost Talents (Ex):</strong> A spirit binder's soulbound familiar possesses some of the ability of the lost loved one, and it is capable of learning more. At 1st level, 5th level, and every 5 levels thereafter, the spirit binder's familiar gains a new feat for which it meets the prerequisites.</p>
-<p>This ability replaces <strong className="hl">Scribe Scroll</strong> and <strong className="hl">the wizard's bonus feats</strong>.</p>
+</Pair>
+</Ability>
+<Ability id="arcane-school" icon={["broken-shield"]}>
+<Pair single id="arcane-school">Arcane School</Pair>
+<Pair hl title="Alters">Arcane school</Pair>
+<Pair title="Info">A spirit binder can't choose necromancy as an opposition school.</Pair>
+</Ability>
+<Ability id="lost-talents-ex" icon={["stairs-goal"]}>
+<Pair single id="lost-talents-ex" flavor="A spirit binder's soulbound familiar possesses some of the ability of the lost loved one, and it is capable of learning more.">Lost Talents (Ex)</Pair>
+<Pair hl title="Replaces">Scribe Scroll, bonus feats</Pair>
+<Pair title="At 1st Level">The spirit binder's familiar gains a new feat for which it meets the prerequisites.</Pair>
+<Pair title="At 5th Level">The familiar gains another such feat.</Pair>
+<Pair title="At 10th Level">The familiar gains another such feat.</Pair>
+<Pair title="At 15th Level">The familiar gains another such feat.</Pair>
+<Pair title="At 20th Level">The familiar gains another such feat.</Pair>
+</Ability>
 </>};
 const _spirit_whisperer = {title: "Spirit Whisperer", jsx: <><h2 id="arc-wizard-spirit_whisperer-spirit-whisperer">Spirit Whisperer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 133</Link><br/>Spirit whisperers are a breed apart among wizards, and are often mistaken for witches. While spirit whisperers do gain and store their spells by communing with familiars, the spirits they gain guidance from are somewhat closer to the world and more direct than the powers with which witches typically traffic. These wizards treat such spirits as mentors and friends, conversing with them rather than appeasing them in the effort to gain and use arcane knowledge.</p>
