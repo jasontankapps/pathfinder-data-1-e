@@ -668,7 +668,10 @@
 	},
 	"familiar": {
 		"name": "Familiar",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Advanced Player's Guide"
+		],
 		"description": [
 			"## Familiar",
 			"",

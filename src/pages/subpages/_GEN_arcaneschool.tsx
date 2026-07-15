@@ -963,4 +963,56 @@ const _wood = {hasJL:true,title: "Wood", jsx: <><div className="jumpList" id="ar
 <li>9th-<em>control plants,</em> <Link to="/spell/refuge">refuge</Link>, <Link to="/spell/winds_of_vengeance">winds of vengeance</Link>.</li>
 </ul>
 </>};
-export default {not_found:_not_found,abjuration:_abjuration,conjuration:_conjuration,divination:_divination,enchantment:_enchantment,evocation:_evocation,illusion:_illusion,necromancy:_necromancy,transmutation:_transmutation,universalist:_universalist,aether:_aether,air:_air,earth:_earth,fire:_fire,metal:_metal,void:_void,water:_water,wood:_wood}
+const _thassilonian_magic = {hasJL:true,title: "Thassilonian Magic", jsx: <><div className="jumpList" id="arcaneschool-thassilonian_magic-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="arcaneschool-thassilonian_magic-thassilonian-schools-of-magic">Thassilonian Schools of Magic</InnerLink></li></ul></div><h2 id="arcaneschool-thassilonian_magic-thassilonian-magic">Thassilonian Magic</h2>
+<p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 63</Link>, <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 17</Link><br/>Only wizards can truly follow the ancient philosophies created by Thassilon's runelords, for only wizards have the capability to specialize in a school of magic.</p>
+<p>The choice to specialize in a Thassilonian school of magic must be made when a character first becomes a wizard. Once the choice to do so is made, it cannot be changed.</p>
+<Ability id="benefits" icon={["spell-book"]}>
+<Pair single id="benefits">Benefits</Pair>
+<Pair title="Info">A Thassilonian specialist wizard receives two additional spell slots of each spell level he can cast. These bonus spell slots must both be used to prepare the same spell from the wizard's school of specialization, allowing the wizard to cast that spell twice (as he has prepared the spell twice). The wizard cannot use these slots to prepare two different spells, even if they are of the school he is specialized in.</Pair>
+</Ability>
+<Ability id="restrictions" icon={["broken-shield"]}>
+<Pair single id="restrictions">Restrictions</Pair>
+<Pair title="Info">A Thassilonian specialist does not get to customize his choice for opposition schools - that choice is selected for him when he chooses his specialization. These restrictions are more significant than those most wizards follow, and are known as prohibited schools. A Thassilonian wizard can never prepare a spell that is in one of his prohibited schools - he treats these spells as if they were not on the wizard spell list.</Pair>
+<Pair title="Special">If using a spell trigger or spell completion item to cast a spell from one of his prohibited schools, he must use the Use Magic Device skill to do so.</Pair>
+</Ability>
+<h3 id="arcaneschool-thassilonian_magic-thassilonian-schools-of-magic" data-hash-target>Thassilonian Schools of Magic</h3>
+<p>While the concept of wizard specializations along the classically recognized schools of magic certainly dates back to the time of Azlant, and perhaps beyond into the dim recesses of time before humanity rose to prominence, it was the runelords of Thassilon who explored school specialization to its full extreme.</p>
+<p><strong className="hl">Note:</strong> Thassilonian magic does not recognize divination and universal spells as separate schools that you can specialize in, but Thassilon specialists are not prohibited from using either type of spell.</p>
+<p>Focusing their research on the discovery that each school of magic was opposed by two specific opposition schools, the runelords developed methods of further enhancing their mastery over their chosen arcane specialties. Essentially, they defined these seven schools as much by what they couldn't do as by what they could. By excising "impurities" introduced by fixed oppositional schools, they traded arcane versatility for greater strength in their chosen fields. The seven schools of Thassilonian Magic are presented here.</p>
+<Ability id="envy" icon={["magic-swirl"]}>
+<Pair single id="envy" flavor="The art of suppressing magic other than your own.">Envy</Pair>
+<Pair title="Associated School" hl>Abjuration</Pair>
+<Pair title="Prohibited Schools">Evocation, necromancy</Pair>
+</Ability>
+<Ability id="gluttony" icon={["magic-swirl"]}>
+<Pair single id="gluttony" flavor="Magic that manipulates the physical body to provide for an unending hunger for life.">Gluttony</Pair>
+<Pair title="Associated School" hl>Necromancy</Pair>
+<Pair title="Prohibited Schools">Abjuration, enchantment</Pair>
+</Ability>
+<Ability id="greed" icon={["magic-swirl"]}>
+<Pair single id="greed" flavor="Magically transforming things into objects of greater value or utility, and enhancing the physical self.">Greed</Pair>
+<Pair title="Associated School" hl>Transmutation</Pair>
+<Pair title="Prohibited Schools">Enchantment, illusion</Pair>
+</Ability>
+<Ability id="lust" icon={["magic-swirl"]}>
+<Pair single id="lust" flavor="Magically controlling and dominating other creatures to satisfy your desires, and manipulating others' minds, emotions, and wills.">Lust</Pair>
+<Pair title="Associated School" hl>Enchantment</Pair>
+<Pair title="Prohibited Schools">Necromancy, transmutation</Pair>
+</Ability>
+<Ability id="pride" icon={["magic-swirl"]}>
+<Pair single id="pride" flavor="Perfecting your own appearance and domain through trickery and illusions.">Pride</Pair>
+<Pair title="Associated School" hl>Illusion</Pair>
+<Pair title="Prohibited Schools">Conjuration, transmutation</Pair>
+</Ability>
+<Ability id="sloth" icon={["magic-swirl"]}>
+<Pair single id="sloth" flavor="Calling agents and minions to perform your deeds for you, or creating what you need as you need it.">Sloth</Pair>
+<Pair title="Associated School" hl>Conjuration</Pair>
+<Pair title="Prohibited Schools">Evocation, illusion</Pair>
+</Ability>
+<Ability id="wrath" icon={["magic-swirl"]}>
+<Pair single id="wrath" flavor="Mastery of the raw destructive power of magic, and channeling those destructive forces.">Wrath</Pair>
+<Pair title="Associated School" hl>Evocation</Pair>
+<Pair title="Prohibited Schools">Abjuration, conjuration</Pair>
+</Ability>
+</>};
+export default {not_found:_not_found,abjuration:_abjuration,conjuration:_conjuration,divination:_divination,enchantment:_enchantment,evocation:_evocation,illusion:_illusion,necromancy:_necromancy,transmutation:_transmutation,universalist:_universalist,aether:_aether,air:_air,earth:_earth,fire:_fire,metal:_metal,void:_void,water:_water,wood:_wood,thassilonian_magic:_thassilonian_magic}

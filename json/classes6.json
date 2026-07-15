@@ -1257,8 +1257,6 @@
 			"",
 			"::archetype[Sword Binder]{c=wizard r=\"Arcane Bond; Arcane School; Bonus School Spell Slots; 10th-level Bonus Feat\" e=\"Sword binders follow a tradition of martial wizards who often worked with the Church of Aroden and the crowns of Taldor and then Cheliax.\"}",
 			"",
-			"::archetype[Thassilonian Specialist]{c=wizard r=\"Lose access to two schools of magic\" e=\"Specialist in a Thassilonian school of magic, this specialist sacrifices his connection with two schools in order to greatly strengthen his chosen specialty.\"}",
-			"",
 			"::archetype[Undead Master]{c=wizard r=\"Alignment; Arcane School; Arcane Bond; Scribe Scroll; 5th, 10th, 15th, 20th-level Bonus Feats\" e=\"Undead masters have great power over undeath.\"}",
 			"",
 			"::archetype[Wind Listener]{c=wizard r=\"Class Skills; Arcane School; Arcane Bond; 5th, 10th, 15th-level Bonus Feat\" e=\"(Sylph Only) The wind listener takes a sylph's natural curiosity to the extreme, enhancing his natural skill at subterfuge and eavesdropping with potent arcane magic.\"}",
@@ -1326,7 +1324,6 @@
 					[ [ "Spirit Binder", "spirit_binder" ], null, "X", "X", null, null, null, "X", null, null, null, null, null, null, null, null, "X", null, null ],
 					[ [ "Spirit Whisperer", "spirit_whisperer" ], null, "X", "X", null, null, null, "X", null, null, null, "X", null, null, null, null, null, "X", null ],
 					[ [ "Sword Binder", "sword_binder" ], null, "X", "X", null, null, null, null, null, "X", null, null, "X", null, null, null, null, null, null ],
-					[ [ "Thassilonian Specialist", "thassilonian_specialist" ], null, null, "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
 					[ [ "Undead Master", "undead_master" ], "X", "X", "X", null, null, null, null, "X", "X", "X", "X", null, null, null, null, "X", null, null ],
 					[ [ "Wind Listener", "wind_listener" ], null, "X", "X", null, null, null, null, "X", "X", "X", null, null, null, "X", null, null, null, null ],
 					[ [ "Worldseeker", "worldseeker" ], null, "X", null, null, "X", "X", null, "X", null, "X", null, null, null, null, null, "X", null, null ]

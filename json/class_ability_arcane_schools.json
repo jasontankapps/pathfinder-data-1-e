@@ -806,5 +806,46 @@
 			"- 8th-‹spell/mass charm monster›, ‹spell/euphoric tranquility›, *transmute metal to wood*",
 			"- 9th-*control plants,* ‹spell/refuge›, ‹spell/winds of vengeance›."
 		]
+	},
+	"thassilonian_magic": {
+		"name": "Thassilonian Magic",
+		"sources": [
+			"Adventurer's Guide",
+			"Inner Sea Magic"
+		],
+		"description": [
+			"## Thassilonian Magic",
+			"",
+			"‹SOURCE Adventurer's Guide/63;Inner Sea Magic/17›  ",
+			"Only wizards can truly follow the ancient philosophies created by Thassilon's runelords, for only wizards have the capability to specialize in a school of magic.",
+			"",
+			"The choice to specialize in a Thassilonian school of magic must be made when a character first becomes a wizard. Once the choice to do so is made, it cannot be changed.",
+			"",
+			"::ab[Benefits]{icon=learn info=\"A Thassilonian specialist wizard receives two additional spell slots of each spell level he can cast. These bonus spell slots must both be used to prepare the same spell from the wizard's school of specialization, allowing the wizard to cast that spell twice (as he has prepared the spell twice). The wizard cannot use these slots to prepare two different spells, even if they are of the school he is specialized in.\"}",
+			"",
+			"::ab[Restrictions]{icon=down info=\"A Thassilonian specialist does not get to customize his choice for opposition schools - that choice is selected for him when he chooses his specialization. These restrictions are more significant than those most wizards follow, and are known as prohibited schools. A Thassilonian wizard can never prepare a spell that is in one of his prohibited schools - he treats these spells as if they were not on the wizard spell list.\" special=\"If using a spell trigger or spell completion item to cast a spell from one of his prohibited schools, he must use the Use Magic Device skill to do so.\"}",
+			"",
+			"::h3[Thassilonian Schools of Magic]{jl}",
+			"",
+			"While the concept of wizard specializations along the classically recognized schools of magic certainly dates back to the time of Azlant, and perhaps beyond into the dim recesses of time before humanity rose to prominence, it was the runelords of Thassilon who explored school specialization to its full extreme.",
+			"",
+			"@HL[Note:] Thassilonian magic does not recognize divination and universal spells as separate schools that you can specialize in, but Thassilon specialists are not prohibited from using either type of spell.",
+			"",
+			"Focusing their research on the discovery that each school of magic was opposed by two specific opposition schools, the runelords developed methods of further enhancing their mastery over their chosen arcane specialties. Essentially, they defined these seven schools as much by what they couldn't do as by what they could. By excising \"impurities\" introduced by fixed oppositional schools, they traded arcane versatility for greater strength in their chosen fields. The seven schools of Thassilonian Magic are presented here.",
+			"",
+			"::ab[Envy]{icon=magic hl=x order=xy flavor=\"The art of suppressing magic other than your own.\" xAssociated_School=Abjuration yProhibited_Schools=\"Evocation, necromancy\"}",
+			"",
+			"::ab[Gluttony]{icon=magic hl=x order=xy flavor=\"Magic that manipulates the physical body to provide for an unending hunger for life.\" xAssociated_School=Necromancy yProhibited_Schools=\"Abjuration, enchantment\"}",
+			"",
+			"::ab[Greed]{icon=magic hl=x order=xy flavor=\"Magically transforming things into objects of greater value or utility, and enhancing the physical self.\" xAssociated_School=Transmutation yProhibited_Schools=\"Enchantment, illusion\"}",
+			"",
+			"::ab[Lust]{icon=magic hl=x order=xy flavor=\"Magically controlling and dominating other creatures to satisfy your desires, and manipulating others' minds, emotions, and wills.\" xAssociated_School=Enchantment yProhibited_Schools=\"Necromancy, transmutation\"}",
+			"",
+			"::ab[Pride]{icon=magic hl=x order=xy flavor=\"Perfecting your own appearance and domain through trickery and illusions.\" xAssociated_School=Illusion yProhibited_Schools=\"Conjuration, transmutation\"}",
+			"",
+			"::ab[Sloth]{icon=magic hl=x order=xy flavor=\"Calling agents and minions to perform your deeds for you, or creating what you need as you need it.\" xAssociated_School=Conjuration yProhibited_Schools=\"Evocation, illusion\"}",
+			"",
+			"::ab[Wrath]{icon=magic hl=x order=xy flavor=\"Mastery of the raw destructive power of magic, and channeling those destructive forces.\" xAssociated_School=Evocation yProhibited_Schools=\"Abjuration, conjuration\"}"
+		]
 	}
 }
