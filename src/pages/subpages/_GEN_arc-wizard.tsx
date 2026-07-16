@@ -266,7 +266,7 @@ const _elder_mythos_scholar = {title: "Elder Mythos Scholar", jsx: <><h2 id="arc
 </Ability>
 <Ability id="eldritch-infusion-su" icon={["upgrade","broken-shield"]}>
 <Pair single id="eldritch-infusion-su">Eldritch Infusion (Su)</Pair>
-<Pair hl title="Replaces">The school gained at 8th level</Pair>
+<Pair hl title="Replaces">The school ability gained at 8th level</Pair>
 <Pair title="Gained">At 8th Level</Pair>
 <Pair title="Ability">Once each day while preparing spells, an Elder Mythos scholar can spend 1 extra hour to brew a tincture of hallucinogens and alien trace minerals. Though it has no effect for others, if he drinks it, the elixir expands his mind and perceptions into transitive dimensions, granting him a +4 alchemical bonus to his Intelligence score and reducing his Wisdom and Constitution scores by 2 for 10 minutes per wizard level he has.</Pair>
 <Pair title="Passive Ability">While under the effects of this elixir, he adds 1/2 his class level to his Perception checks against aberrations and creatures listed in talisman of revealing, but subtracts the same amount from all other Perception checks. His spells have a 20% failure chance, unless they summon, call, or contact a creature listed in talisman of revealing or otherwise affect only such creatures (for instance, a <Link to="/spell/fireball">fireball</Link> aimed at 3 gugs but not a fireball aimed at 3 gugs and a gnome).</Pair>
@@ -761,65 +761,183 @@ const _spirit_binder = {title: "Spirit Binder", jsx: <><h2 id="arc-wizard-spirit
 </>};
 const _spirit_whisperer = {title: "Spirit Whisperer", jsx: <><h2 id="arc-wizard-spirit_whisperer-spirit-whisperer">Spirit Whisperer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 133</Link><br/>Spirit whisperers are a breed apart among wizards, and are often mistaken for witches. While spirit whisperers do gain and store their spells by communing with familiars, the spirits they gain guidance from are somewhat closer to the world and more direct than the powers with which witches typically traffic. These wizards treat such spirits as mentors and friends, conversing with them rather than appeasing them in the effort to gain and use arcane knowledge.</p>
-<p><strong>Arcane Bond (Ex):</strong> When a spirit whisperer chooses an arcane bond, he must choose the familiar arcane bond, and the familiar gains the spirit animal ability of his selected spirit (see spirit link, below). The spirit whisperer does not need a spellbook, but instead stores and prepares his spell by communing with the familiar as the <Link to="/class/witch">witch's</Link> familiar class feature.</p>
-<p>This ability alters <strong className="hl">arcane bond</strong> and replaces the <strong className="hl">spellbook</strong> class feature.</p>
-<p><strong>Spirit Link (Su):</strong> At 1st level, a spirit whisperer forms a mystical bond with a spirit. The spirit whisperer picks a spirit from the <Link to="/ability/shaman_spirits">shaman's list of spirits</Link>. At 1st level, he gains a spirit ability granted by that spirit. At 8th level, he gains the greater spirit ability granted by that spirit. At 20th level, the spirit whisperer gains the manifestation ability granted by the spirit. He uses his wizard level as his shaman level for determining the effects and DCs of abilities granted by the spirit. In addition, he uses his Intelligence modifier in place of his Wisdom modifier for these abilities. He does not gain hexes, spirit magic spells, or the true spirit ability typically granted to a shaman by these spirits.</p>
-<p>This ability replaces <strong className="hl">arcane school</strong> and <strong className="hl">the bonus feat gained at 20th level</strong>.</p>
-<p><strong>Spirit Hex:</strong> At 5th level, a spirit whisperer can select one hex from the list of those granted by his chosen spirit. He uses his wizard level as his shaman level when determining the effects and DC of this hex. In addition, he uses his Intelligence modifier in place of his Wisdom modifier for these hexes. At 10th and 15th level, he can select another hex from those granted by his spirit. Each hex selected in this way replaces the bonus feat gained at that level.</p>
-<p>This ability alters <strong className="hl">bonus feats</strong>.</p>
+<Ability id="arcane-bond-ex" icon={["info"]}>
+<Pair single id="arcane-bond-ex">Arcane Bond (Ex)</Pair>
+<Pair hl title="Replaces">Spellbook</Pair>
+<Pair hl title="Alters">Arcane bond</Pair>
+<Pair title="Info">When a spirit whisperer chooses an <em>arcane bond,</em> he must choose the familiar <em>arcane bond,</em> and the familiar gains the <em>spirit animal</em> ability of his selected spirit (see <em>spirit link,</em> below). The spirit whisperer does not need a spellbook, but instead stores and prepares his spell by communing with the familiar as the <Link to="/class/witch">witch's</Link> familiar class feature.</Pair>
+</Ability>
+<Ability id="spirit-link-su" icon={["stairs-goal"]}>
+<Pair single id="spirit-link-su">Spirit Link (Su)</Pair>
+<Pair hl title="Replaces">Arcane school, 20th-level bonus feat</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">A spirit whisperer forms a mystical bond with a spirit. The spirit whisperer picks a spirit from the <Link to="/ability/shaman_spirits">shaman's list of spirits</Link>.</Pair>
+<Pair title="At 1st Level">He gains a <em>spirit ability</em> granted by that spirit.</Pair>
+<Pair title="At 8th Level">He gains the <em>greater spirit ability</em> granted by that spirit.</Pair>
+<Pair title="At 20th Level">The spirit whisperer gains the <em>manifestation</em> ability granted by the spirit.</Pair>
+<Pair title="Special">He uses his wizard level as his shaman level for determining the effects and DCs of abilities granted by the spirit. In addition, he uses his Intelligence modifier in place of his Wisdom modifier for these abilities. He does not gain <em>hexes, spirit magic</em> spells, or the <em>true spirit</em> ability typically granted to a shaman by these spirits.</Pair>
+</Ability>
+<Ability id="spirit-hex" icon={["stairs-goal"]}>
+<Pair single id="spirit-hex">Spirit Hex</Pair>
+<Pair hl title="Alters">5th-, 10th-, and 15th-level bonus feats</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Ability">A spirit whisperer can select one <em>hex</em> from the list of those granted by his chosen spirit. He uses his wizard level as his shaman level when determining the effects and DC of this <em>hex.</em> In addition, he uses his Intelligence modifier in place of his Wisdom modifier for these <em>hexes.</em></Pair>
+<Pair title="At 10th Level">He can select another hex from those granted by his spirit.</Pair>
+<Pair title="At 15th Level">He can select another hex from those granted by his spirit.</Pair>
+</Ability>
 </>};
 const _sword_binder = {title: "Sword Binder", jsx: <><h2 id="arc-wizard-sword_binder-sword-binder">Sword Binder</h2>
 <p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology pg. 11</Link><br/>Sword binders follow a tradition of martial wizards who often worked with the Church of Aroden and the crowns of Taldor and then Cheliax. Once common in Absalom, Cheliax, and Taldor, where they were frequently battlefield commanders, historians, and expedition leaders, they have become much rarer over the past century.</p>
-<p><strong>Arcane Bond:</strong> A sword binder must choose a sword as his bonded item. He gains proficiency with it.</p>
-<p>This alters <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Sword of the Mage (Su):</strong> A sword binder can send his bound sword to strike his foes. He gains the hand of the apprentice ability of the <Link to="/arcaneschool/universalist">universalist</Link> school, but can use that ability only with his bound sword. His range with the ability is close (25 feet + 5 feet per 2 wizard levels he possesses), and he can use it a number of times per day equal to 3 + his Intelligence modifier + 1/2 his level.</p>
-<p>At 5th level, whenever the sword binder casts a spell with a range of touch from the wizard spell list, he can use his bonded sword to deliver the touch attack, including expending a daily use of hand of the apprentice to make the touch attack at range. This occurs as part of the same action as casting the spell. He gains all the attack bonuses that apply to his sword (including enhancement bonuses and relevant feats), but does not add his sword's damage or effects to the touch spell.</p>
-<p>At 8th level, when a sword binder casts a ranged touch spell or activates this ability to cast a touch spell through it, he can send his bound sword to deliver the spell and strike the target in one motion. Rather than a touch attack, he makes a ranged attack with the sword. If the sword hits, it deals normal weapon damage for hand of the apprentice and the spell automatically hits that target. If the sword misses, the spell lingers on the weapon and the sword binder can attempt to deliver the spell again by activating this ability as a standard action. If the sword binder drops or sheaths the weapon with the spell's charge still held, the charge dissipates to no effect.</p>
-<p>This ability replaces <strong className="hl">arcane school</strong> and <strong className="hl">bonus school spell slots</strong>.</p>
-<p><strong>Telekinetic Sword (Sp):</strong> At 10th level, a sword binder can control his bound sword (and only his sword) as per the sustained force option of <Link to="/spell/telekinesis">telekinesis</Link>. While the sword is flying in this way, the sword binder can monitor the area around the sword with <Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link> as a swift action. This ability can be used once per day at 10th level, and an additional time per day at 15th level and again at 20th level. This ability can be used for 2 rounds per sword binder level each day.</p>
-<p>This ability replaces <strong className="hl">the 10th level bonus feat</strong>.</p>
+<Ability id="arcane-bond" icon={["info","stairs-goal"]}>
+<Pair single id="arcane-bond">Arcane Bond</Pair>
+<Pair hl title="Alters">Arcane bond</Pair>
+<Pair title="Ability">A sword binder must choose a sword as his <em>bonded item.</em> He gains proficiency with it.</Pair>
+</Ability>
+<Ability id="sword-of-the-mage-su" extraClasses="hasSubs" icon={["bowman"]}>
+<Pair single id="sword-of-the-mage-su">Sword of the Mage (Su)</Pair>
+<Pair hl title="Replaces">Arcane school, bonus school spell slots</Pair>
+<Pair title="Ability">A sword binder can send his bound sword to strike his foes. He gains the <em>hand of the apprentice</em> ability of the <Link to="/arcaneschool/universalist">universalist</Link> school, but can use that ability only with his bound sword. His <Link to="/rule/range">range</Link> with the ability is close (25 feet + 5 feet per 2 wizard levels he possesses), and he can use it a number of times per day equal to 3 + his Intelligence modifier + <Link to="/misc/half">half</Link> his level.</Pair>
+<Pair title="At 5th Level">Whenever the sword binder casts a spell with a range of touch from the wizard spell list, he can use his bonded sword to deliver the touch attack, including expending a daily use of <em>hand of the apprentice</em> to make the touch attack at range. This occurs as part of the same action as casting the spell. He gains all the attack bonuses that apply to his sword (including enhancement bonuses and relevant feats), but does not add his sword's damage or effects to the touch spell.</Pair>
+<Pair title="At 8th Level">When a sword binder casts a ranged touch spell or activates this ability to cast a touch spell through it, he can send his bound sword to deliver the spell and strike the target in one motion. Rather than a touch attack, he makes a ranged attack with the sword. If the sword hits, it deals normal weapon damage for <em>hand of the apprentice</em> and the spell automatically hits that target. If the sword misses, the spell lingers on the weapon and the sword binder can attempt to deliver the spell again by activating this ability as a <strong className="hl">standard action</strong>. If the sword binder drops or sheaths the weapon with the spell's charge still held, the charge dissipates to no effect.</Pair>
+</Ability>
+<Ability id="hand-of-the-apprentice-su" extraClasses="subAbility" icon={["smoking-finger"]}>
+<Pair single id="hand-of-the-apprentice-su" flavor="Text from the universalist school ability.">Hand of the Apprentice (Su)</Pair>
+<Pair title="Standard Action">You cause your melee weapon to fly from your grasp and strike a foe before instantly returning to you. You can make a single attack using a melee weapon at a range of 30 feet. This attack is treated as a ranged attack with a thrown weapon, except that you add your Intelligence modifier on the attack roll instead of your Dexterity modifier (damage still relies on Strength). This ability cannot be used to perform a combat maneuver.</Pair>
+</Ability>
+<Ability id="telekinetic-sword-sp" icon={["magic-swirl"]}>
+<Pair single id="telekinetic-sword-sp">Telekinetic Sword (Sp)</Pair>
+<Pair hl title="Replaces">10th-level bonus feat</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Ability">A sword binder can control his <em>bound sword</em> (and only his sword) as per the <em>sustained force</em> option of <Link to="/spell/telekinesis">telekinesis</Link>.</Pair>
+<Pair title="Swift Action">While the sword is flying in this way, the sword binder can monitor the area around the sword with <Link to="/spell/clairaudience_clairvoyance">clairaudience/clairvoyance</Link>.</Pair>
+<Pair title="Usage">1 time/day + 1 per five wizard levels beyond 1st; 2 rounds per wizard level per day<ByLevelPop levels={[[10,1],[15,2],[20,3]]} unit="time" postText="/day" /></Pair>
+</Ability>
 </>};
 const _undead_master = {title: "Undead Master", jsx: <><h2 id="arc-wizard-undead_master-undead-master">Undead Master</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 75</Link><br/>Undead masters have great power over undeath.</p>
-<p><strong>Necromantic Focus:</strong> An undead master must be of an evil alignment. If he becomes nonevil, he can still use his powers but can't progress any further as a wizard. Most undead masters specialize in the necromancy school, and an undead master can't have necromancy as an opposition school.</p>
-<p>This alters <strong className="hl">arcane school</strong> and <strong className="hl">alignment</strong>.</p>
-<p><strong>Necropolitan (Ex):</strong> An undead master gains a bonus equal to half his wizard level (minimum +1) on Diplomacy and Knowledge checks regarding undead creatures. Because of his obsessive focus on the undead, he takes a -2 penalty when attempting such checks regarding living creatures.</p>
-<p><strong>Corpse Bond (Su):</strong> An undead master can forge an arcane bond with an object, but that object must be made at least partially of <Link to="/eq-material/bone">bone</Link>. Alternatively, he can animate a corpse companion, as per the <Link to="/arc-cleric/undead_lord">undead lord</Link> cleric archetype. He can't gain a familiar.</p>
-<p>This ability alters <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Command Undead (Su):</strong> An undead master gains <Link to="/feat/command_undead">Command Undead</Link> as a bonus feat, treating his wizard level as his cleric level. If he lacks the ability to channel negative energy for the purpose of Command Undead, he can expend 3 uses of any 1st-level arcane school ability that normally has a number of uses per day equal to 3 + his Intelligence modifier, rather than a use of channel energy. If he's a necromancer with the power over undead ability, he instead gains <Link to="/feat/improved_channel">Improved Channel</Link>.</p>
-<p>This ability replaces <strong className="hl">Scribe Scroll</strong>.</p>
-<p><strong>Reanimator (Su):</strong> An undead master adds the following spells to his spellbook at the given wizard levels: 1st-<Link to="/spell/repair_undead">repair undead</Link>; 3rd-<Link to="/spell/lesser_animate_dead">lesser animate dead</Link>; 5th-<Link to="/spell/animate_dead">animate dead</Link>; 7th-<Link to="/spell/undead_anatomy_i">undead anatomy I</Link>; 9th-<Link to="/spell/create_undead">create undead</Link>; 11th-<Link to="/spell/undeath_to_death">undeath to death</Link>; 13th-<Link to="/spell/create_greater_undead">create greater undead</Link>; 15th-<Link to="/spell/undead_anatomy_iv">undead anatomy IV</Link>; 17th-<Link to="/spell/cursed_earth">cursed earth</Link>. He can spontaneously cast any of these spells by sacrificing a prepared spell of the same level or higher. The undead master can cast lesser animate dead, animate dead, create undead, and create greater undead as if they were 1 level lower than their normal wizard spell level; this does not alter their level for the purpose of item crafting and the like.</p>
-<p>This ability replaces the <strong className="hl">bonus feats</strong> gained at 5th, 10th, and 15th levels.</p>
-<p><strong>Lich-Loved (Su):</strong> At 20th level, an undead master gains the benefits of the <Link to="/sorcbloodline/undead">undead</Link> sorcerer bloodline's one of us ability.</p>
-<p>This ability replaces the <strong className="hl">bonus feat</strong> gained at 20th level.</p>
+<Ability id="necromantic-focus" icon={["hazard-sign"]}>
+<Pair single id="necromantic-focus">Necromantic Focus</Pair>
+<Pair hl title="Alters">Arcane school, alignment</Pair>
+<Pair title="Info"><p>An undead master must be of an evil alignment. If he becomes nonevil, he can still use his powers but can't progress any further as a wizard.</p>
+<p>Most undead masters specialize in the <Link to="/arcaneschool/necromancy">necromancy</Link> school, and an undead master can't have necromancy as an opposition school.</p>
+</Pair>
+</Ability>
+<Ability id="necropolitan-ex" icon={["upgrade","broken-shield"]}>
+<Pair single id="necropolitan-ex">Necropolitan (Ex)</Pair>
+<Pair title="Passive Ability">An undead master gains a bonus equal to <Link to="/misc/half">half</Link> his wizard level (minimum +1) on Diplomacy and Knowledge checks regarding undead creatures. Because of his obsessive focus on the undead, he takes a -2 penalty when attempting such checks regarding living creatures.</Pair>
+</Ability>
+<Ability id="corpse-bond-su" extraClasses="hasSubs" icon={["info","broken-shield"]}>
+<Pair single id="corpse-bond-su">Corpse Bond (Su)</Pair>
+<Pair hl title="Alters">Arcane bond</Pair>
+<Pair title="Ability">An undead master can forge an <em>arcane bond</em> with an object, but that object must be made at least partially of <Link to="/eq-material/bone">bone</Link>. Alternatively, he can animate a <em>corpse companion,</em> as per the <Link to="/arc-cleric/undead_lord">undead lord</Link> cleric archetype. He can't gain a familiar.</Pair>
+</Ability>
+<Ability id="corpse-companion-su" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="corpse-companion-su" flavor={<>Text from the <em>undead lord</em> ability.</>}>Corpse Companion (Su)</Pair>
+<Pair title="Ability">With a ritual requiring 8 hours, an undead lord can animate a single <Link to="/template/skeleton">skeleton</Link> or <Link to="/template/zombie">zombie</Link> whose Hit Dice do not exceed her cleric level. This corpse companion automatically follows her commands and does not need to be controlled by her. She cannot have more than one corpse companion at a time. It does not count against the number of Hit Dice of undead controlled by other methods. She can use this ability to create a variant skeleton such as a bloody or burning skeleton, but its Hit Dice cannot exceed <Link to="/misc/half">half</Link> her cleric level. She can dismiss her companion as a <strong className="hl">standard action</strong>, which destroys it.</Pair>
+</Ability>
+<Ability id="command-undead-su" icon={["stairs-goal"]}>
+<Pair single id="command-undead-su">Command Undead (Su)</Pair>
+<Pair hl title="Replaces">Scribe Scroll</Pair>
+<Pair title="Ability">An undead master gains <Link to="/feat/command_undead">Command Undead</Link> as a bonus feat, treating his wizard level as his cleric level. If he lacks the ability to <Link to="/ability/channel_negative_energy">channel negative energy</Link> for the purpose of Command Undead, he can expend 3 uses of any 1st-level arcane school ability that normally has a number of uses per day equal to 3 + his Intelligence modifier, rather than a use of <em>channel energy.</em></Pair>
+<Pair title="Ability">If he's a necromancer with the <em>power over undead</em> ability, he instead gains <Link to="/feat/improved_channel">Improved Channel</Link>.</Pair>
+</Ability>
+<Ability id="reanimator-su" icon={["spell-book"]}>
+<Pair single id="reanimator-su">Reanimator (Su)</Pair>
+<Pair hl title="Replaces">5th-, 10th-, and 15th-level bonus feats</Pair>
+<Pair title="Ability">An undead master adds the following spells to his spellbook at the given wizard levels.</Pair>
+<Pair plain title="1st"><Link to="/spell/repair_undead">Repair undead</Link></Pair>
+<Pair plain title="3rd"><Link to="/spell/lesser_animate_dead">Lesser animate dead</Link></Pair>
+<Pair plain title="5th"><Link to="/spell/animate_dead">Animate dead</Link></Pair>
+<Pair plain title="7th"><Link to="/spell/undead_anatomy_i">Undead anatomy I</Link></Pair>
+<Pair plain title="9th"><Link to="/spell/create_undead">Create undead</Link></Pair>
+<Pair plain title="11th"><Link to="/spell/undeath_to_death">Undeath to death</Link></Pair>
+<Pair plain title="13th"><Link to="/spell/create_greater_undead">Create greater undead</Link></Pair>
+<Pair plain title="15th"><Link to="/spell/undead_anatomy_iv">Undead anatomy IV</Link></Pair>
+<Pair plain title="17th"><Link to="/spell/cursed_earth">Cursed earth</Link></Pair>
+<Pair title="Special">He can spontaneously cast any of these spells by sacrificing a prepared spell of the same level or higher. The undead master can cast <em>lesser animate dead, animate dead, create undead,</em> and <em>create greater undead</em> as if they were 1 level lower than their normal wizard spell level; this does not alter their level for the purpose of item crafting and the like.</Pair>
+</Ability>
+<Ability id="lich-loved-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="lich-loved-su">Lich-Loved (Su)</Pair>
+<Pair hl title="Replaces">20th-level bonus feat</Pair>
+<Pair title="Gained">At 20th Level</Pair>
+<Pair title="Ability">An undead master gains the benefits of the <Link to="/sorcbloodline/undead">undead</Link> sorcerer bloodline's <em>one of us</em> ability.</Pair>
+</Ability>
+<Ability id="one-of-us-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="one-of-us-ex" flavor={<>Text from the <em>undead</em> bloodline.</>}>One of Us (Ex)</Pair>
+<Pair title="Passive Ability">Your form begins to rot (the appearance of this decay is up to you) and undead see you as one of them. You gain immunity to cold, nonlethal damage, paralysis, and sleep. You also gain DR 5/-. Unintelligent undead do not notice you unless you attack them. You receive a +4 morale bonus on saving throws made against spells and spell-like abilities cast by undead.</Pair>
+</Ability>
 </>};
 const _wind_listener = {title: "Wind Listener", jsx: <><h2 id="arc-wizard-wind_listener-wind-listener">Wind Listener</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 158</Link><br/>The wind listener takes a sylph's natural curiosity to the extreme, enhancing his natural skill at subterfuge and eavesdropping with potent arcane magic. A wind listener has the following class features.</p>
-<Ability icon={["skills"]} id="undefined">
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-wizard-wind_listener--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/sylph">Sylph</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
 <Pair id="undefined" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perception">Perception</Link> (WIS)</Pair></Ability>
-<p><strong>Arcane School:</strong> A wind listener cannot select divination or illusion as a prohibited school.</p>
-<p><strong>Spontaneous Divination (Su):</strong> At 1st level, a wind listener can reshape stored spell energy into divination spells he did not prepare ahead of time. The wind listener can "lose" any prepared spell that is not a cantrip in order to cast a divination spell of the same spell level or lower. The new spell must be one the wind listener knows and is capable of casting. Spells cast with this ability increase their casting time to a full-round action (if the spell's normal casting time is longer than a full-round action, it remains unchanged).</p>
-<p>This ability replaces <strong className="hl">arcane bond</strong>.</p>
-<p><strong>Abjuration Sense (Ex):</strong> At 5th level, a wind listener develops a sixth sense for spotting spells designed to guard against his investigations. He gains a bonus on Perception checks equal to 1/2 his level to notice spells of the abjuration school and on Spellcraft checks to identify abjuration effects, spells, and magic items.</p>
-<p>This ability replaces <strong className="hl">the bonus feat gained at 5th level</strong>.</p>
-<p><strong>Wispy Form (Ex):</strong> At 10th level, the wind listener gains the ability to become airy and translucent as a standard action, gaining DR 10/magic and the effects of <Link to="/spell/greater_invisibility">greater invisibility</Link> for a number of rounds per day equal to his level. These rounds need not be consecutive. Like the <Link to="/umr/natural_invisibility">natural invisibility</Link> universal monster ability, this ability is not subject to <Link to="/spell/invisibility_purge">invisibility purge</Link>.</p>
-<p>This ability replaces <strong className="hl">the bonus feat gained at 10th level</strong>.</p>
-<p><strong>Listening to the Wind (Sp):</strong> At 15th level, the wind listener can call upon spirits of the air to uncover lost lore about a legendary person, place, or thing. Invoking the spirits takes 10 minutes, during which time the wind listener must be free of distractions and able to concentrate. Once called, the spirits seek out information on the subject of the wind listener's inquiries. This functions as the spell <Link to="/spell/legend_lore">legend lore</Link> (caster level equal to the wind listener's level), except that the wind listener is free to engage in other activities while spirits investigate on his behalf. The time required for the air spirits to return with this information is equal to what the casting time of the spell legend lore would have been if the wind listener had cast it. The wind listener can use this ability once per week, and only if he does not currently have air spirits searching for information. If the air spirits are currently searching for information, the wind listener can end their task early as a standard action, dismissing the magical effect and not returning any information.</p>
-<p>This ability replaces <strong className="hl">the bonus feat gained at 15th level</strong>.</p>
+<Ability id="arcane-school" icon={["broken-shield"]}>
+<Pair single id="arcane-school">Arcane School</Pair>
+<Pair title="Info">A wind listener cannot select divination or illusion as a prohibited school.</Pair>
+</Ability>
+<Ability id="spontaneous-divination-su" icon={["magic-swirl"]}>
+<Pair single id="spontaneous-divination-su" flavor="A wind listener can reshape stored spell energy into divination spells he did not prepare ahead of time.">Spontaneous Divination (Su)</Pair>
+<Pair hl title="Replaces">Arcane bond</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability">The wind listener can "lose" any prepared spell that is not a cantrip in order to cast a divination spell of the same spell level or lower. The new spell must be one the wind listener knows and is capable of casting. Spells cast with this ability increase their casting time to a <strong className="hl">full-round action</strong> (if the spell's normal casting time is longer than a full-round action, it remains unchanged).</Pair>
+</Ability>
+<Ability id="abjuration-sense-ex" icon={["upgrade"]}>
+<Pair single id="abjuration-sense-ex" flavor="A wind listener develops a sixth sense for spotting spells designed to guard against his investigations.">Abjuration Sense (Ex)</Pair>
+<Pair hl title="Replaces">5th-level bonus feat</Pair>
+<Pair title="Gained">At 5th Level</Pair>
+<Pair title="Passive Ability">He gains a bonus on Perception checks equal to 1/2 his level to notice spells of the abjuration school and on <Link to="/skill/spellcraft">Spellcraft</Link> checks to identify abjuration effects, spells, and magic items.</Pair>
+</Ability>
+<Ability id="wispy-form-ex" icon={["armor-upgrade","magic-swirl"]}>
+<Pair single id="wispy-form-ex">Wispy Form (Ex)</Pair>
+<Pair hl title="Replaces">10th-level bonus feat</Pair>
+<Pair title="Gained">At 10th Level</Pair>
+<Pair title="Usage">1 round/day per wizard level; these rounds need not be consecutive</Pair>
+<Pair title="Standard Action">The wind listener can become airy and translucent, gaining DR 10/magic and the effects of <Link to="/spell/greater_invisibility">greater invisibility</Link>. Like the <Link to="/umr/natural_invisibility">natural invisibility</Link> universal monster ability, this ability is not subject to <Link to="/spell/invisibility_purge">invisibility purge</Link>.</Pair>
+</Ability>
+<Ability id="listening-to-the-wind-sp" icon={["magic-swirl"]}>
+<Pair single id="listening-to-the-wind-sp" flavor="The wind listener can call upon spirits of the air to uncover lost lore about a legendary person, place, or thing.">Listening to the Wind (Sp)</Pair>
+<Pair hl title="Replaces">15th-level bonus feat</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Usage">Once per week</Pair>
+<Pair title="Ability"><p>Invoking the spirits takes 10 minutes, during which time the wind listener must be free of distractions and able to concentrate. Once called, the spirits seek out information on the subject of the wind listener's inquiries. This functions as the spell <Link to="/spell/legend_lore">legend lore</Link> (caster level equal to the wind listener's level), except that the wind listener is free to engage in other activities while spirits investigate on his behalf.</p>
+<p>The time required for the air spirits to return with this information is equal to what the casting time of the spell <em>legend lore</em> would have been if the wind listener had cast it.</p>
+</Pair>
+<Pair title="Special">The wizard can't use this ability if he currently has air spirits searching for information. If the air spirits are currently searching for information, the wind listener can end their task early as a <strong className="hl">standard action</strong>, dismissing the magical effect and not returning any information.</Pair>
+</Ability>
 </>};
 const _worldseeker = {title: "Worldseeker", jsx: <><h2 id="arc-wizard-worldseeker-worldseeker">Worldseeker</h2>
 <p><strong>Sources</strong> <Link to="/source/planar_adventures">Planar Adventures pg. 21</Link><br/>Worldseekers are wizards who travel to all corners of the Great Beyond. While neophytes must content themselves with study and practice, the most powerful worldseekers are movers and shakers throughout the Great Beyond, power players of whom even demigods take note. Worldseekers are rare sights on Golarion, but among those few, more are trained in Kyonin and Nex than any other nation; those in Kyonin explore the potential of using elf gates to travel beyond this realm, while those in Nex emulate some of the dimensional exploits of Nex's legendary founder.</p>
-<p>Most worldseekers prefer not to specialize in a school of magic, for having a diverse array of available spells is a boon when exploring the countless wonders of the Great Beyond. Those who do specialize usually do so as <Link to="/arcaneschool/conjuration">conjurers</Link>. Conjuration is a poor choice of oppositional school for a worldseeker.</p>
-<p><strong>Walk the Planes (Sp, Su):</strong> A worldseeker learns every plane's place in the Great Beyond and trains to survive even on the harshest of them. She gains a +2 bonus on Knowledge (planes) checks and is constantly under the effects of <Link to="/spell/endure_elements">endure elements</Link>.</p>
-<p>This replaces <strong className="hl">Scribe Scroll</strong>.</p>
-<p><strong>Planar Adaptation (Su):</strong> At 8th level, a worldseeker is continually protected from planar environments as by <Link to="/spell/planar_adaptation">planar adaptation</Link>. At 15th level, she can extend that benefit to all allies within 30 feet of her.</p>
-<p>This replaces <strong className="hl">the school ability normally gained at 6th or 8th level</strong>.</p>
-<p><strong>Planar Associates (Ex):</strong> A worldseeker's travels and dealings across the planes allow her to make connections she can call upon when necessary to gain assistance without needing to resort to <Link to="/spell/planar_binding">planar binding</Link>. A worldseeker must choose a <Link to="/ability/familiar">familiar</Link> for her arcane bond. At 5th level, she gains <Link to="/feat/improved_familiar">Improved Familiar</Link> as a bonus feat and must choose an outsider familiar that matches her alignment exactly; she can choose an outsider in this way even if it normally requires a 7th-level spellcaster as its master.</p>
-<p>At 7th level, a worldseeker automatically learns <Link to="/spell/lesser_planar_ally">lesser planar ally</Link> as a 4th-level wizard spell. She automatically learns <Link to="/spell/planar_ally">planar ally</Link> as a 6th-level wizard spell at 11th level, and <Link to="/spell/greater_planar_ally">greater planar ally</Link> as an 8th-level wizard spell at 15th level. She can swap out a prepared spell of an equal spell level to spontaneously cast any of these three spells (one 4th-level spell for lesser planar ally, a 6th-level spell for planar ally, and a 8th level spell for greater planar ally).</p>
+<p>Most worldseekers prefer not to specialize in a school of magic, for having a diverse array of available spells is a boon when exploring the countless wonders of the Great Beyond. Those who do specialize usually do so as <Link to="/arcaneschool/conjurer">conjurers</Link>. Conjuration is a poor choice of oppositional school for a worldseeker.</p>
+<Ability id="walk-the-planes-sp-su" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="walk-the-planes-sp-su" flavor="A worldseeker learns every plane's place in the Great Beyond and trains to survive even on the harshest of them.">Walk the Planes (Sp, Su)</Pair>
+<Pair hl title="Replaces">Scribe Scroll</Pair>
+<Pair title="Passive Ability">She gains a +2 bonus on Knowledge (planes) checks and is constantly under the effects of <Link to="/spell/endure_elements">endure elements</Link>.</Pair>
+</Ability>
+<Ability id="planar-adaptation-su" icon={["armor-upgrade","shield-reflect"]}>
+<Pair single id="planar-adaptation-su">Planar Adaptation (Su)</Pair>
+<Pair hl title="Replaces">The school ability normally gained at 6th or 8th level</Pair>
+<Pair title="At 8th Level">A worldseeker is continually protected from planar environments as by <Link to="/spell/planar_adaptation">planar adaptation</Link>.</Pair>
+<Pair title="At 15th Level">She can extend that benefit to all allies within 30 feet of her.</Pair>
+</Ability>
+<Ability id="planar-associates-ex" icon={["info","stairs-goal","spell-book","upgrade"]}>
+<Pair single id="planar-associates-ex">Planar Associates (Ex)</Pair>
+<Pair hl title="Replaces">5th-level bonus feat</Pair>
+<Pair hl title="Alters">Arcane bond</Pair>
+<Pair title="Info">A worldseeker's travels and dealings across the planes allow her to make connections she can call upon when necessary to gain assistance without needing to resort to <Link to="/spell/planar_binding">planar binding</Link>. A worldseeker must choose a <Link to="/ability/familiar">familiar</Link> for her <em>arcane bond.</em></Pair>
+<Pair title="At 5th Level">She gains <Link to="/feat/improved_familiar">Improved Familiar</Link> as a bonus feat and must choose an outsider familiar that matches her alignment exactly; she can choose an outsider in this way even if it normally requires a 7th-level spellcaster as its master.</Pair>
+<Pair title="At 7th Level">A worldseeker automatically learns <Link to="/spell/lesser_planar_ally">lesser planar ally</Link> as a 4th-level wizard spell.</Pair>
+<Pair title="At 11th Level">She automatically learns <Link to="/spell/planar_ally">planar ally</Link> as a 6th-level wizard spell.</Pair>
+<Pair title="At 15th Level">She automatically learns <Link to="/spell/greater_planar_ally">greater planar ally</Link> as an 8th-level wizard spell.</Pair>
+<Pair title="Special"><p>She can swap out a prepared spell of an equal spell level to spontaneously cast any of the three bonus spells (one 4th-level spell for <em>lesser planar ally,</em> a 6th-level spell for <em>planar ally,</em> and a 8th level spell for <em>greater planar ally</em>).</p>
 <p>The first time each day she casts one of these three spells, the worldseeker reduces the gp value of the material component cost by an amount equal to her caster level &times; 100 (to a minimum cost of 0 gp).</p>
-<p>This alters <strong className="hl">arcane bond</strong> and replaces <strong className="hl">the bonus feat gained at 5th level</strong>.</p>
-<p><strong>Planar Redoubt (Sp):</strong> At 15th level, a worldseeker creates a planar redoubt, a personal demiplane to which she can retreat to rest and plan. This functions like <Link to="/spell/lesser_create_demiplane">lesser create demiplane</Link>, except the demiplane is up to a single 50-foot cube in size and is permanent.</p>
-<p>This replaces <strong className="hl">the bonus feat gained at 15th level</strong>.</p>
+</Pair>
+</Ability>
+<Ability id="planar-redoubt-sp" icon={["magic-swirl"]}>
+<Pair single id="planar-redoubt-sp">Planar Redoubt (Sp)</Pair>
+<Pair hl title="Replaces">15th-level bonus feat</Pair>
+<Pair title="Gained">At 15th Level</Pair>
+<Pair title="Ability">A worldseeker creates a <em>planar redoubt,</em> a personal demiplane to which she can retreat to rest and plan. This functions like <Link to="/spell/lesser_create_demiplane">lesser create demiplane</Link>, except the demiplane is up to a single 50-foot cube in size and is permanent.</Pair>
+</Ability>
 </>};
 export default {arcane_bomber:_arcane_bomber,arcane_physician:_arcane_physician,arcane_warden:_arcane_warden,bonded_wizard:_bonded_wizard,chronomancer:_chronomancer,clocksmith:_clocksmith,cruoromancer:_cruoromancer,elder_mythos_scholar:_elder_mythos_scholar,exploiter_wizard:_exploiter_wizard,familiar_adept:_familiar_adept,first_world_caller:_first_world_caller,hallowed_necromancer:_hallowed_necromancer,instructor:_instructor,pact_wizard_ff:_pact_wizard_ff,pact_wizard_hhh:_pact_wizard_hhh,poleiheira_adherent:_poleiheira_adherent,primalist:_primalist,runesage:_runesage,scroll_scholar:_scroll_scholar,scrollmaster:_scrollmaster,shadowcaster:_shadowcaster,siege_mage:_siege_mage,spell_sage:_spell_sage,spellbinder:_spellbinder,spellslinger:_spellslinger,spirit_binder:_spirit_binder,spirit_whisperer:_spirit_whisperer,sword_binder:_sword_binder,undead_master:_undead_master,wind_listener:_wind_listener,worldseeker:_worldseeker}
