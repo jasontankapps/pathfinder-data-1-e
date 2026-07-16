@@ -2,6 +2,8 @@
 	"spells_abjuration": {
 		"title": "Abjuration Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -393,6 +395,8 @@
 	"spells_conjuration": {
 		"title": "Conjuration Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -931,6 +935,8 @@
 	"spells_divination": {
 		"title": "Divination Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -1269,6 +1275,8 @@
 	"spells_enchantment": {
 		"title": "Enchantment Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",

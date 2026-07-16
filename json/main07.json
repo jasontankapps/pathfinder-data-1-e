@@ -2,6 +2,8 @@
 	"spells_all": {
 		"title": "All Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",

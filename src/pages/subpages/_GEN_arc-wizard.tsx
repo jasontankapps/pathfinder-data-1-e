@@ -561,9 +561,9 @@ const _scroll_scholar = {title: "Scroll Scholar", jsx: <><h2 id="arc-wizard-scro
 <Pair hl title="Replaces">5th-level bonus feat</Pair>
 <Pair title="At 5th Level">A scroll scholar gains the ability to cast <Link to="/spell/comprehend_languages">comprehend languages</Link> and <Link to="/spell/identify">identify</Link> as spell-like abilities. Her caster level is equal to her wizard class level. She can cast these spells once per day.</Pair>
 <Pair title="At 7th Level">She can cast them twice per day each.</Pair>
+<Pair title="At 9th Level">She can cast them three times per day each.</Pair>
 <Pair title="At 11th Level">One of these spell-like abilities (scholar's choice) becomes a constant spell-like ability.</Pair>
 <Pair title="At 13th Level">The other spell becomes a constant spell-like ability.</Pair>
-<Pair title="At 9th Level">She can cast them three times per day each.</Pair>
 </Ability>
 <Ability id="flash-of-insight-su" icon={["upgrade"]}>
 <Pair single id="flash-of-insight-su">Flash of Insight (Su)</Pair>

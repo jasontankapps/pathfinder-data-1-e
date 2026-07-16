@@ -2,6 +2,8 @@
 	"spells_unchained_summoner": {
 		"title": "All Unchained Summoner Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -421,6 +423,8 @@
 	"spells_druid": {
 		"title": "All Druid Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			"::main[Druid Spells (Levels 0-1)]{endem=\"(142 spells)\" to=main/spells_druid_0_1}",
 			"",
 			"::main[Druid Spells (Level 2)]{endem=\"(166 spells)\" to=main/spells_druid_2}",
@@ -439,6 +443,8 @@
 	"spells_druid_0_1": {
 		"title": "Druid Spells Levels 0-1",
 		"description": [
+			"::main[Back to Druid Spells]{to=main/spells_druid rev}",
+			"",
 			"::main[Druid Spells Level 2]{to=main/spells_druid_2}",
 			"",
 			"::main[Druid Spells Level 3]{to=main/spells_druid_3}",
@@ -644,6 +650,8 @@
 	"spells_druid_2": {
 		"title": "Druid Spells Level 2",
 		"description": [
+			"::main[Back to Druid Spells]{to=main/spells_druid rev}",
+			"",
 			"::main[Druid Spells Levels 0-1]{to=main/spells_druid_0_1}",
 			"",
 			"::main[Druid Spells Level 3]{to=main/spells_druid_3}",
@@ -873,6 +881,8 @@
 	"spells_druid_3": {
 		"title": "Druid Spells Level 3",
 		"description": [
+			"::main[Back to Druid Spells]{to=main/spells_druid rev}",
+			"",
 			"::main[Druid Spells Levels 0-1]{to=main/spells_druid_0_1}",
 			"",
 			"::main[Druid Spells Level 2]{to=main/spells_druid_2}",
@@ -1081,6 +1091,8 @@
 	"spells_druid_4": {
 		"title": "Druid Spells Level 4",
 		"description": [
+			"::main[Back to Druid Spells]{to=main/spells_druid rev}",
+			"",
 			"::main[Druid Spells Levels 0-1]{to=main/spells_druid_0_1}",
 			"",
 			"::main[Druid Spells Level 2]{to=main/spells_druid_2}",
@@ -1251,6 +1263,8 @@
 	"spells_druid_5_6": {
 		"title": "Druid Spells Levels 5-6",
 		"description": [
+			"::main[Back to Druid Spells]{to=main/spells_druid rev}",
+			"",
 			"::main[Druid Spells Levels 0-1]{to=main/spells_druid_0_1}",
 			"",
 			"::main[Druid Spells Level 2]{to=main/spells_druid_2}",
@@ -1453,6 +1467,8 @@
 	"spells_druid_7_9": {
 		"title": "Druid Spells Levels 7-9",
 		"description": [
+			"::main[Back to Druid Spells]{to=main/spells_druid rev}",
+			"",
 			"::main[Druid Spells Levels 0-1]{to=main/spells_druid_0_1}",
 			"",
 			"::main[Druid Spells Level 2]{to=main/spells_druid_2}",
@@ -1611,6 +1627,8 @@
 	"spells_hunter": {
 		"title": "All Hunter Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			"::main[Hunter Spells (Levels 0-1)]{endem=\"(197 spells)\" to=main/spells_hunter_0_1}",
 			"",
 			"::main[Hunter Spells (Level 2)]{endem=\"(202 spells)\" to=main/spells_hunter_2}",
@@ -1625,6 +1643,8 @@
 	"spells_hunter_0_1": {
 		"title": "Hunter Spells Levels 0-1",
 		"description": [
+			"::main[Back to Hunter Spells]{to=main/spells_hunter rev}",
+			"",
 			"::main[Hunter Spells Level 2]{to=main/spells_hunter_2}",
 			"",
 			"::main[Hunter Spells Level 3]{to=main/spells_hunter_3}",
@@ -1883,6 +1903,8 @@
 	"spells_hunter_2": {
 		"title": "Hunter Spells Level 2",
 		"description": [
+			"::main[Back to Hunter Spells]{to=main/spells_hunter rev}",
+			"",
 			"::main[Hunter Spells Levels 0-1]{to=main/spells_hunter_0_1}",
 			"",
 			"::main[Hunter Spells Level 3]{to=main/spells_hunter_3}",
@@ -2144,6 +2166,8 @@
 	"spells_hunter_3": {
 		"title": "Hunter Spells Level 3",
 		"description": [
+			"::main[Back to Hunter Spells]{to=main/spells_hunter rev}",
+			"",
 			"::main[Hunter Spells Levels 0-1]{to=main/spells_hunter_0_1}",
 			"",
 			"::main[Hunter Spells Level 2]{to=main/spells_hunter_2}",
@@ -2380,6 +2404,8 @@
 	"spells_hunter_4_6": {
 		"title": "Hunter Spells Levels 4-6",
 		"description": [
+			"::main[Back to Hunter Spells]{to=main/spells_hunter rev}",
+			"",
 			"::main[Hunter Spells Levels 0-1]{to=main/spells_hunter_0_1}",
 			"",
 			"::main[Hunter Spells Level 2]{to=main/spells_hunter_2}",

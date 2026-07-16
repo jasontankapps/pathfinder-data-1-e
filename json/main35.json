@@ -2,6 +2,8 @@
 	"monsters_humanoids": {
 		"title": "Humanoids",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -354,6 +356,8 @@
 	"monsters_humanoids_giant": {
 		"title": "Giants",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -487,6 +491,8 @@
 	"monsters_humanoids_goblinoid": {
 		"title": "Goblinoids",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -568,6 +574,8 @@
 	"monsters_shapechanger": {
 		"title": "Shapechanger Monsters",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -727,6 +735,8 @@
 	"monsters_swarm": {
 		"title": "Swarms",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",

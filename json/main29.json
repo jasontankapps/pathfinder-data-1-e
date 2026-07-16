@@ -2,6 +2,8 @@
 	"spells_inquisitor": {
 		"title": "All Inquisitor Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			"::main[Inquisitor Spells (Levels 0-1)]{endem=\"(144 spells)\" to=main/spells_inquisitor_0_1}",
 			"",
 			"::main[Inquisitor Spells (Level 2)]{endem=\"(158 spells)\" to=main/spells_inquisitor_2}",
@@ -18,6 +20,8 @@
 	"spells_inquisitor_0_1": {
 		"title": "Inquisitor Spells Levels 0-1",
 		"description": [
+			"::main[Back to Inquisitor Spells]{to=main/spells_inquisitor rev}",
+			"",
 			"::main[Inquisitor Spells Level 2]{to=main/spells_inquisitor_2}",
 			"",
 			"::main[Inquisitor Spells Level 3]{to=main/spells_inquisitor_3}",
@@ -225,6 +229,8 @@
 	"spells_inquisitor_2": {
 		"title": "Inquisitor Spells Level 2",
 		"description": [
+			"::main[Back to Inquisitor Spells]{to=main/spells_inquisitor rev}",
+			"",
 			"::main[Inquisitor Spells Levels 0-1]{to=main/spells_inquisitor_0_1}",
 			"",
 			"::main[Inquisitor Spells Level 3]{to=main/spells_inquisitor_3}",
@@ -444,6 +450,8 @@
 	"spells_inquisitor_3": {
 		"title": "Inquisitor Spells Level 3",
 		"description": [
+			"::main[Back to Inquisitor Spells]{to=main/spells_inquisitor rev}",
+			"",
 			"::main[Inquisitor Spells Levels 0-1]{to=main/spells_inquisitor_0_1}",
 			"",
 			"::main[Inquisitor Spells Level 2]{to=main/spells_inquisitor_2}",
@@ -646,6 +654,8 @@
 	"spells_inquisitor_4": {
 		"title": "Inquisitor Spells Level 4",
 		"description": [
+			"::main[Back to Inquisitor Spells]{to=main/spells_inquisitor rev}",
+			"",
 			"::main[Inquisitor Spells Levels 0-1]{to=main/spells_inquisitor_0_1}",
 			"",
 			"::main[Inquisitor Spells Level 2]{to=main/spells_inquisitor_2}",
@@ -810,6 +820,8 @@
 	"spells_inquisitor_5_6": {
 		"title": "Inquisitor Spells Levels 5-6",
 		"description": [
+			"::main[Back to Inquisitor Spells]{to=main/spells_inquisitor rev}",
+			"",
 			"::main[Inquisitor Spells Levels 0-1]{to=main/spells_inquisitor_0_1}",
 			"",
 			"::main[Inquisitor Spells Level 2]{to=main/spells_inquisitor_2}",
@@ -983,6 +995,8 @@
 		"title": "All Medium Spells",
 		"searchgroup": "spell",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			"::main[Medium Spells (Levels 0-1)]{endem=\"(103 spells)\" to=main/spells_medium_0_1}",
 			"",
 			"::main[Medium Spells (Level 2)]{endem=\"(121 spells)\" to=main/spells_medium_2}",
@@ -995,6 +1009,8 @@
 		"title": "Medium Spells Levels 0-1",
 		"searchgroup": "spell",
 		"description": [
+			"::main[Back to Medium Spells]{to=main/spells_medium rev}",
+			"",
 			"::main[Medium Spells Level 2]{to=main/spells_medium_2}",
 			"",
 			"::main[Medium Spells Level 3+]{to=main/spells_medium_3_6}",
@@ -1436,6 +1452,8 @@
 		"title": "Medium Spells Level 2",
 		"searchgroup": "spell",
 		"description": [
+			"::main[Back to Medium Spells]{to=main/spells_medium rev}",
+			"",
 			"::main[Medium Spells Levels 0-1]{to=main/spells_medium_0_1}",
 			"",
 			"::main[Medium Spells Level 3+]{to=main/spells_medium_3_6}",
@@ -1614,6 +1632,8 @@
 		"title": "Medium Spells Level 3 and Above",
 		"searchgroup": "spell",
 		"description": [
+			"::main[Back to Medium Spells]{to=main/spells_medium rev}",
+			"",
 			"::main[Medium Spells Levels 0-1]{to=main/spells_medium_0_1}",
 			"",
 			"::main[Medium Spells Level 2]{to=main/spells_medium_2}",

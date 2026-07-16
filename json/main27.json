@@ -2,7 +2,9 @@
 	"magic_weapons": {
 		"title": "Magic Weapons",
 		"description": [
-			"::main[Magic Weapons]{to=rule/magic_weapons}",
+			"::main[Back to Magic Items]{to=main/magic rev}",
+			"",
+			"::main[Magic Weapons]{to=rule/magic_weapons bottom=\"Rules about magic weapons.\"}",
 			"",
 			":::item",
 			"",
@@ -520,7 +522,9 @@
 	"magic_rings": {
 		"title": "Magic Rings",
 		"description": [
-			"::main[Rings]{to=rule/rings}",
+			"::main[Back to Magic Items]{to=main/magic rev}",
+			"",
+			"::main[Rings]{to=rule/rings bottom=\"Rules about magic rings.\"}",
 			"",
 			":::item",
 			"",
@@ -768,7 +772,9 @@
 	"magic_rods": {
 		"title": "Magic Rods",
 		"description": [
-			"::main[Rods]{to=rule/rods}",
+			"::main[Back to Magic Items]{to=main/magic rev}",
+			"",
+			"::main[Rods]{to=rule/rods bottom=\"Rules about magic rods.\"}",
 			"",
 			":::item",
 			"",
@@ -1057,9 +1063,13 @@
 			"Ultimate Wilderness"
 		],
 		"description": [
-			":::item",
+			"::main[Back to Magic Items]{to=main/magic rev}",
+			"",
+			";;;item",
 			"",
 			"**Skip to:**",
+			"",
+			":::div{className=columnar}",
 			"",
 			"- [Altars](#altars)",
 			"- [Demonic Implants](#implants)",
@@ -1082,6 +1092,8 @@
 			"- [Thrones](#thrones)",
 			"",
 			":::",
+			"",
+			";;;",
 			"",
 			"::mainheader[Oils]{id=oils}",
 			"",
@@ -1633,7 +1645,9 @@
 	"magic_armor": {
 		"title": "Magic Armor",
 		"description": [
-			"::main[Magic Armor]{to=rule/magic_armor}",
+			"::main[Back to Magic Items]{to=main/magic rev}",
+			"",
+			"::main[Magic Armor]{to=rule/magic_armor bottom=\"Rules about magic armor.\"}",
 			"",
 			":::item",
 			"",
@@ -1896,7 +1910,9 @@
 	"magic_artifacts": {
 		"title": "Artifacts",
 		"description": [
-			"::main[Artifacts]{to=rule/artifacts}",
+			"::main[Back to Magic Items]{to=main/magic rev}",
+			"",
+			"::main[Artifacts]{to=rule/artifacts bottom=\"Rules about artifacts.\"}",
 			"",
 			":::item",
 			"",
@@ -2256,7 +2272,9 @@
 		"title": "Cursed Items",
 		"searchgroup": "magic",
 		"description": [
-			"::main[Cursed Magic Items]{to=rule/cursed_items}",
+			"::main[Back to Magic Items]{to=main/magic rev}",
+			"",
+			"::main[Cursed Magic Items]{to=rule/cursed_items bottom=\"Rules about cursed items.\"}",
 			"",
 			"::mainheader[Armor and Shields]",
 			"",
@@ -2448,6 +2466,8 @@
 	"magic_enhancements": {
 		"title": "Magic - Enhancements",
 		"description": [
+			"::main[Back to Magic Items]{to=main/magic rev}",
+			"",
 			":::item",
 			"",
 			"Adding an enhancement to armor, shields, and weapons raises the base price of the ‹rule/magic_>armor,« shield›, or ‹rule/magic_>weapon<s› being enhanced. This is either equivalent to a standard +1 (or other) bonus, or it's a fixed amount of gold.",
@@ -2820,6 +2840,10 @@
 	"magic_staves": {
 		"title": "Magic Staves",
 		"description": [
+			"::main[Back to Magic Items]{to=main/magic rev}",
+			"",
+			"::main[Magic Staves]{to=rule/staves bottom=\"Rules about magic staves.\"}",
+			"",
 			":::item",
 			"",
 			"‹table0›",

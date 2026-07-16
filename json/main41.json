@@ -2,6 +2,8 @@
 	"spells_shaman": {
 		"title": "All Shaman Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			"::main[Shaman Spells (Levels 0-1)]{endem=\"(119 spells)\" to=main/spells_shaman_0_1}",
 			"",
 			"::main[Shaman Spells (Level 2)]{endem=\"(126 spells)\" to=main/spells_shaman_2}",
@@ -20,6 +22,8 @@
 	"spells_shaman_0_1": {
 		"title": "Shaman Spells Levels 0-1",
 		"description": [
+			"::main[Back to Shaman Spells]{to=main/spells_shaman rev}",
+			"",
 			"::main[Shaman Spells Level 2]{to=main/spells_shaman_2}",
 			"",
 			"::main[Shaman Spells Level 3]{to=main/spells_shaman_3}",
@@ -203,6 +207,8 @@
 	"spells_shaman_2": {
 		"title": "Shaman Spells Level 2",
 		"description": [
+			"::main[Back to Shaman Spells]{to=main/spells_shaman rev}",
+			"",
 			"::main[Shaman Spells Levels 0-1]{to=main/spells_shaman_0_1}",
 			"",
 			"::main[Shaman Spells Level 3]{to=main/spells_shaman_3}",
@@ -391,6 +397,8 @@
 	"spells_shaman_3": {
 		"title": "Shaman Spells Level 3",
 		"description": [
+			"::main[Back to Shaman Spells]{to=main/spells_shaman rev}",
+			"",
 			"::main[Shaman Spells Levels 0-1]{to=main/spells_shaman_0_1}",
 			"",
 			"::main[Shaman Spells Level 2]{to=main/spells_shaman_2}",
@@ -565,6 +573,8 @@
 	"spells_shaman_4": {
 		"title": "Shaman Spells Level 4",
 		"description": [
+			"::main[Back to Shaman Spells]{to=main/spells_shaman rev}",
+			"",
 			"::main[Shaman Spells Levels 0-1]{to=main/spells_shaman_0_1}",
 			"",
 			"::main[Shaman Spells Level 2]{to=main/spells_shaman_2}",
@@ -730,6 +740,8 @@
 	"spells_shaman_5_6": {
 		"title": "Shaman Spells Levels 5-6",
 		"description": [
+			"::main[Back to Shaman Spells]{to=main/spells_shaman rev}",
+			"",
 			"::main[Shaman Spells Levels 0-1]{to=main/spells_shaman_0_1}",
 			"",
 			"::main[Shaman Spells Level 2]{to=main/spells_shaman_2}",
@@ -916,6 +928,8 @@
 	"spells_shaman_7_9": {
 		"title": "Shaman Spells Levels 7-9",
 		"description": [
+			"::main[Back to Shaman Spells]{to=main/spells_shaman rev}",
+			"",
 			"::main[Shaman Spells Levels 0-1]{to=main/spells_shaman_0_1}",
 			"",
 			"::main[Shaman Spells Level 2]{to=main/spells_shaman_2}",

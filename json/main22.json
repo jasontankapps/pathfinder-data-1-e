@@ -2,6 +2,8 @@
 	"spells_evocation": {
 		"title": "Evocation Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -428,6 +430,8 @@
 	"spells_illusion": {
 		"title": "Illusion Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -723,6 +727,8 @@
 	"spells_necromancy": {
 		"title": "Necromancy Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -1113,6 +1119,8 @@
 	"spells_transmutation": {
 		"title": "Transmutation Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",

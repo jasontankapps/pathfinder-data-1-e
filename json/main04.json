@@ -2,6 +2,8 @@
 	"traits_campaign": {
 		"title": "Campaign Traits",
 		"description": [
+			"::main[Back to Traits]{to=main/traits rev}",
+			"",
 			"::main[Generic Campaign]{to=main/traits_campaign_generic endem=\"(3 traits)\"}",
 			"",
 			"::main[Carrion Crown]{to=main/traits_campaign_carrion_crown endem=\"(6 traits)\"}",
@@ -58,6 +60,8 @@
 		"title": "Race Traits",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"::main[Back to Traits]{to=main/traits rev}",
+			"",
 			":::item",
 			"",
 			"‹SOURCE Ultimate Campaign›  ",
@@ -133,6 +137,10 @@
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
+				[
+					"::main[Back to Traits]{to=main/traits rev}",
+					""
+				],
 				{
 					"limit": "Drawback",
 					"join": [ "", "", "" ],
@@ -149,6 +157,8 @@
 		"title": "Drawback Traits",
 		"searchgroup": "trait",
 		"description": [
+			"::main[Back to Traits]{to=main/traits rev}",
+			"",
 			":::item",
 			"",
 			"Drawbacks are like traits in reverse. Instead of granting you a boon, they grant you a negative effect, typically in particular circumstances. If you choose to take a drawback, you get to offset this penalty by selecting an additional trait (following the same ‹rule/restrictions<_on_trait_selection› on trait selections). For example, you can take a campaign trait and a magic trait, then take a drawback and a combat trait, for a total of three traits and one drawback.",
@@ -252,6 +262,10 @@
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
+				[
+					"::main[Back to Traits]{to=main/traits rev}",
+					""
+				],
 				{
 					"limit": "Equipment",
 					"join": [ "", "", "" ],
@@ -270,6 +284,10 @@
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
+				[
+					"::main[Back to Traits]{to=main/traits rev}",
+					""
+				],
 				{
 					"limit": "Family",
 					"join": [ "", "", "" ],
@@ -288,6 +306,10 @@
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
+				[
+					"::main[Back to Traits]{to=main/traits rev}",
+					""
+				],
 				{
 					"limit": "Mount",
 					"join": [ "", "", "" ],
@@ -306,6 +328,10 @@
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
+				[
+					"::main[Back to Traits]{to=main/traits rev}",
+					""
+				],
 				{
 					"limit": "Cosmic",
 					"join": [ "", "", "" ],
@@ -322,6 +348,8 @@
 		"title": "Religion Traits",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
+			"::main[Back to Traits]{to=main/traits rev}",
+			"",
 			":::item",
 			"",
 			"‹SOURCE Advanced Player's Guide›  ",
@@ -371,6 +399,8 @@
 		"title": "Regional Traits",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"::main[Back to Traits]{to=main/traits rev}",
+			"",
 			":::item",
 			"",
 			"‹SOURCE Ultimate Campaign›  ",
@@ -968,6 +998,8 @@
 		"tags": "Artist of Battle in All Forms Charming Smile Cunning Soul Curator of Mystic Secrets Faith Unshakable and Unassailable Traveler of a Hundred Lands",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
+			"::main[Back to Traits]{to=main/traits rev}",
+			"",
 			":::item",
 			"",
 			"## Artist of Battle in All Forms",

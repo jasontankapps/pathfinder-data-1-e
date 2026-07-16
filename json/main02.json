@@ -85,12 +85,16 @@
 			"",
 			"::main[Versatile Brewing Feats]{to=main/feats_versatile_brewing endem=\"(4 feats)\"}",
 			"",
-			"::main[Alternate Rules Feats]{to=main/feats_optional_rules endem=\"(21 feats)\"}"
+			"::main[Alternate Rules Feats]{to=main/feats_optional_rules endem=\"(21 feats)\"}",
+			"",
+			"::main[Feats With Combat Tricks]{to=main/feats_with_combat_tricks endem=\"(547 feats)\"}"
 		]
 	},
 	"feats_general": {
 		"title": "Feats - General",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_basic).",
@@ -1704,6 +1708,8 @@
 		"title": "Feats - Critical",
 		"searchgroup": "rule",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_basic).",
@@ -1759,6 +1765,8 @@
 		"title": "Feats - Familiar",
 		"searchgroup": "rule",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_class).",
@@ -1781,6 +1789,8 @@
 		"title": "Feats - Blood Hex",
 		"searchgroup": "rule",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_class).",
@@ -1811,6 +1821,8 @@
 		],
 		"searchgroup": "rule",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			"::mainheader[Hero Point Feats]{id=heropoints}",
 			"",
 			":::item",
@@ -1897,6 +1909,8 @@
 		"title": "Feats - Achievement",
 		"searchgroup": "rule",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_roleplaying).",
@@ -1915,6 +1929,8 @@
 		"title": "Feats - Faction",
 		"searchgroup": "rule",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_roleplaying).",
@@ -1946,6 +1962,8 @@
 		"title": "Feats - Gathlain Court Titles",
 		"searchgroup": "rule",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_roleplaying).",
@@ -1964,6 +1982,8 @@
 		"title": "Feats - Alignment",
 		"searchgroup": "rule",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_roleplaying).",
@@ -1987,6 +2007,8 @@
 		"title": "Feats - Damnation",
 		"searchgroup": "rule",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"These feats have no prerequisites. Information about them can be found [here](rule/feats_roleplaying).",
@@ -2005,6 +2027,8 @@
 		"title": "Feats - Combination",
 		"searchgroup": "rule",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_other).",
@@ -2026,6 +2050,8 @@
 		"title": "Feats - Conduit",
 		"searchgroup": "rule",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_other).",
@@ -2063,6 +2089,8 @@
 		"title": "Feats - Performance",
 		"searchgroup": "rule",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_other).",
@@ -2092,6 +2120,8 @@
 		"title": "Feats - Origin",
 		"searchgroup": "rule",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_other).",
@@ -2116,6 +2146,8 @@
 		"sources": [ "Potions and Poisons" ],
 		"searchgroup": "rule",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"‹SOURCE Potions and Poisons/16›  ",

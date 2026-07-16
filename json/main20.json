@@ -2,6 +2,8 @@
 	"monsters_oozes": {
 		"title": "Oozes",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -119,6 +121,8 @@
 		"title": "Good Monsters",
 		"searchgroup": "monster",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			"::mainheader[Good Monsters]",
 			"",
 			":::item",
@@ -255,6 +259,8 @@
 		"title": "Evil Monsters",
 		"searchgroup": "monster",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			"::mainheader[Evil Monsters]",
 			"",
 			":::item",
@@ -547,6 +553,8 @@
 		"title": "Lawful Monsters",
 		"searchgroup": "monster",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			"::mainheader[Lawful Monsters]",
 			"",
 			":::item",
@@ -727,6 +735,8 @@
 		"title": "Chaotic Monsters",
 		"searchgroup": "monster",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			"::mainheader[Chaotic Monsters]",
 			"",
 			":::item",
@@ -909,6 +919,8 @@
 		"title": "Unique Monsters",
 		"searchgroup": "monster",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			"::mainheader[Names and Descriptions]",
 			"",
 			":::item",
@@ -1303,6 +1315,8 @@
 		"title": "Mythic Monsters",
 		"searchgroup": "monster",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			"::mainheader[Names and Descriptions]",
 			"",
 			":::item",

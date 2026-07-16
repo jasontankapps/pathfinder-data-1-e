@@ -2,6 +2,8 @@
 	"monsters_aberrations": {
 		"title": "Aberrations",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -209,6 +211,8 @@
 	"monsters_animals": {
 		"title": "Animals",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -543,6 +547,8 @@
 	"monsters_constructs": {
 		"title": "Constructs",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -762,6 +768,8 @@
 	"monsters_dragons": {
 		"title": "Dragons",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -982,6 +990,8 @@
 		"title": "Fey",
 		"searchgroup": "monster",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",

@@ -3,6 +3,8 @@
 		"title": "Feats - Combat",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_basic).",

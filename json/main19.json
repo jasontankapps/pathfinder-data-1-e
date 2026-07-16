@@ -2,6 +2,8 @@
 	"monsters_magical_beasts": {
 		"title": "Magical Beasts",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -286,6 +288,8 @@
 	"monsters_monstrous_humanoids": {
 		"title": "Monstrous Humanoids",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -472,6 +476,8 @@
 	"monsters_plants": {
 		"title": "Plants",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -627,6 +633,8 @@
 	"monsters_undead": {
 		"title": "Undead",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -886,6 +894,8 @@
 	"monsters_vermin": {
 		"title": "Vermin",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -1073,6 +1083,8 @@
 	"monsters_aquatic": {
 		"title": "Aquatic Monsters",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -1368,6 +1380,8 @@
 	"monsters_incorporeal": {
 		"title": "Incorporeal Monsters",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",

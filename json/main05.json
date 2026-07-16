@@ -92,6 +92,8 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"searchgroup": "equip",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"[Jump to the table](#armortable)",
@@ -220,6 +222,8 @@
 		"title": "Armor and Shield Enhancements",
 		"searchgroup": "equip",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -267,6 +271,8 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"searchgroup": "equip",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"[Jump to the table](#weaponstable)",
@@ -761,6 +767,8 @@
 		"title": "Light Weapons",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"[Jump to the table](#weaponstable)",
@@ -907,6 +915,8 @@
 		"title": "One-Handed Weapons",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"[Jump to the table](#weaponstable)",
@@ -1027,6 +1037,8 @@
 		"title": "Two-Handed Weapons",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"[Jump to the table](#weaponstable)",
@@ -1172,6 +1184,8 @@
 		"title": "Ranged Weapons",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"[Jump to the table](#weaponstable)",
@@ -1295,6 +1309,8 @@
 		"title": "Ammunition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"[Jump to the table](#weaponstable)",
@@ -1382,6 +1398,8 @@
 	"equipment_weapons_alchemical": {
 		"title": "Alchemical Weapons",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -1507,6 +1525,8 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"searchgroup": "equip",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"[Jump to the table](#wenhancetables)",
@@ -1559,6 +1579,8 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"searchgroup": "equip",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹SOURCE PRPG Core Rulebook›  ",
@@ -1659,6 +1681,8 @@
 	"equipment_adventuring_gear": {
 		"title": "Adventuring Gear",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -2116,6 +2140,8 @@
 	"equipment_animal_gear": {
 		"title": "Animal Gear",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -2193,6 +2219,8 @@
 	"equipment_class_kits": {
 		"title": "Class Kits",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -2339,6 +2367,8 @@
 	"equipment_tools": {
 		"title": "Tools",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -2537,6 +2567,8 @@
 			"Ultimate Equipment"
 		],
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"[Jump to the table](#reagentstable)",

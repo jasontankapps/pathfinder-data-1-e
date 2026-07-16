@@ -1068,6 +1068,8 @@
 	"magic_wondrous": {
 		"title": "Wondrous Items",
 		"description": [
+			"::main[Back to Magic Items]{to=main/magic rev}",
+			"",
 			"::mainheader[Wondrous Items by Slot]",
 			"",
 			"::main[Belt and Headband Items]{endem=\"(155 items)\" to=main/magic_wondrous_belt_headband}",
@@ -1179,6 +1181,8 @@
 		"title": "Spell Definitions",
 		"searchgroup": "rule",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			"::mainheader[Schools and Subschools]",
 			"",
 			"::main[Abjuration]{to=spelldef/abjuration}",
@@ -2184,6 +2188,8 @@
 		"title": "Monster Families",
 		"searchgroup": "monster",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			"::main[Aeon]{to=family/aeon}",
 			"",
 			"::main[Agathion]{to=family/agathion}",
@@ -2434,6 +2440,8 @@
 	"monster_templates": {
 		"title": "Monster Templates",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"*Summonable* indicates the template can be applied to a summoned creature.",

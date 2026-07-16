@@ -3,6 +3,8 @@
 		"title": "Warpriest Spells",
 		"searchgroup": "spell",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			"::main[Warpriest Spells (Levels 0-1)]{endem=\"(178 spells)\" to=main/spells_warpriest_0_1}",
 			"",
 			"::main[Warpriest Spells (Level 2)]{endem=\"(217 spells)\" to=main/spells_warpriest_2}",
@@ -17,6 +19,8 @@
 	"spells_warpriest_0_1": {
 		"title": "Warpriest Spells Levels 0-1",
 		"description": [
+			"::main[Back to Warpriest Spells]{to=main/spells_warpriest rev}",
+			"",
 			"::main[Warpriest Spells Level 2]{to=main/spells_warpriest_2}",
 			"",
 			"::main[Warpriest Spells Level 3]{to=main/spells_warpriest_3}",
@@ -258,6 +262,8 @@
 	"spells_warpriest_2": {
 		"title": "Warpriest Spells Level 2",
 		"description": [
+			"::main[Back to Warpriest Spells]{to=main/spells_warpriest rev}",
+			"",
 			"::main[Warpriest Spells Levels 0-1]{to=main/spells_warpriest_0_1}",
 			"",
 			"::main[Warpriest Spells Level 3]{to=main/spells_warpriest_3}",
@@ -536,6 +542,8 @@
 	"spells_warpriest_3": {
 		"title": "Warpriest Spells Level 3",
 		"description": [
+			"::main[Back to Warpriest Spells]{to=main/spells_warpriest rev}",
+			"",
 			"::main[Warpriest Spells Levels 0-1]{to=main/spells_warpriest_0_1}",
 			"",
 			"::main[Warpriest Spells Level 2]{to=main/spells_warpriest_2}",
@@ -796,6 +804,8 @@
 	"spells_warpriest_4": {
 		"title": "Warpriest Spells Level 4",
 		"description": [
+			"::main[Back to Warpriest Spells]{to=main/spells_warpriest rev}",
+			"",
 			"::main[Warpriest Spells Levels 0-1]{to=main/spells_warpriest_0_1}",
 			"",
 			"::main[Warpriest Spells Level 2]{to=main/spells_warpriest_2}",
@@ -1015,6 +1025,8 @@
 	"spells_warpriest_5_6": {
 		"title": "Warpriest Spells Levels 5-6",
 		"description": [
+			"::main[Back to Warpriest Spells]{to=main/spells_warpriest rev}",
+			"",
 			"::main[Warpriest Spells Levels 0-1]{to=main/spells_warpriest_0_1}",
 			"",
 			"::main[Warpriest Spells Level 2]{to=main/spells_warpriest_2}",
@@ -1308,6 +1320,8 @@
 		"title": "Bard Spells",
 		"searchgroup": "spell",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			"::main[Bard Spells (Levels 0-1)]{endem=\"(208 spells)\" to=main/spells_bard_0_1}",
 			"",
 			"::main[Bard Spells (Level 2)]{endem=\"(238 spells)\" to=main/spells_bard_2}",
@@ -1321,6 +1335,8 @@
 	"spells_bard_0_1": {
 		"title": "Bard Spells Levels 0-1",
 		"description": [
+			"::main[Back to Bard Spells]{to=main/spells_bard rev}",
+			"",
 			"::main[Bard Spells Level 2]{to=main/spells_bard_2}",
 			"",
 			"::main[Bard Spells Level 3-4]{to=main/spells_bard_3_4}",
@@ -1591,6 +1607,8 @@
 	"spells_bard_2": {
 		"title": "Bard Spells Level 2",
 		"description": [
+			"::main[Back to Bard Spells]{to=main/spells_bard rev}",
+			"",
 			"::main[Bard Spells Level 0-1]{to=main/spells_bard_0_1}",
 			"",
 			"::main[Bard Spells Level 3-4]{to=main/spells_bard_3_4}",
@@ -1888,6 +1906,8 @@
 	"spells_bard_3_4": {
 		"title": "Bard Spells Levels 3-4",
 		"description": [
+			"::main[Back to Bard Spells]{to=main/spells_bard rev}",
+			"",
 			"::main[Bard Spells Level 0-1]{to=main/spells_bard_0_1}",
 			"",
 			"::main[Bard Spells Level 2]{to=main/spells_bard_2}",
@@ -2233,6 +2253,8 @@
 	"spells_bard_5_6": {
 		"title": "Bard Spells Levels 5-6",
 		"description": [
+			"::main[Back to Bard Spells]{to=main/spells_bard rev}",
+			"",
 			"::main[Bard Spells Level 0-1]{to=main/spells_bard_0_1}",
 			"",
 			"::main[Bard Spells Level 2]{to=main/spells_bard_2}",
@@ -2433,6 +2455,8 @@
 		"title": "Occult Rituals",
 		"searchgroup": "spell",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			":::item",
 			"",
 			"Information about occult rituals can be found [here](rule/occult_rituals).",

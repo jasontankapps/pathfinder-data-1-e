@@ -2,6 +2,8 @@
 	"spells_ranger": {
 		"title": "All Ranger Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			"::main[Ranger Spells (Level 1)]{endem=\"(121 spells)\" to=main/spells_ranger_1}",
 			"",
 			"::main[Ranger Spells (Level 2)]{endem=\"(118 spells)\" to=main/spells_ranger_2}",
@@ -14,6 +16,8 @@
 	"spells_ranger_1": {
 		"title": "Ranger Spells Level 1",
 		"description": [
+			"::main[Back to Ranger Spells]{to=main/spells_ranger rev}",
+			"",
 			"::main[Ranger Spells Level 2]{to=main/spells_ranger_2}",
 			"",
 			"::main[Ranger Spells Level 3-4]{to=main/spells_ranger_3_4}",
@@ -192,6 +196,8 @@
 	"spells_ranger_2": {
 		"title": "Ranger Spells Level 2",
 		"description": [
+			"::main[Back to Ranger Spells]{to=main/spells_ranger rev}",
+			"",
 			"::main[Ranger Spells Level 1]{to=main/spells_ranger_1}",
 			"",
 			"::main[Ranger Spells Level 3-4]{to=main/spells_ranger_3_4}",
@@ -367,6 +373,8 @@
 	"spells_ranger_3_4": {
 		"title": "Ranger Spells Level 3-4",
 		"description": [
+			"::main[Back to Ranger Spells]{to=main/spells_ranger rev}",
+			"",
 			"::main[Ranger Spells Level 1]{to=main/spells_ranger_1}",
 			"",
 			"::main[Ranger Spells Level 2]{to=main/spells_ranger_2}",
@@ -575,6 +583,8 @@
 	"spells_investigator": {
 		"title": "All Investigator Formulae",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			"::main[Investigator Formulae (Levels 1-2)]{endem=\"(181 spells)\" to=main/spells_investigator_1_2}",
 			"",
 			"::main[Investigator Formulae (Level 3-6)]{endem=\"(221 spells)\" to=main/spells_investigator_3_6}"
@@ -584,7 +594,9 @@
 	"spells_investigator_1_2": {
 		"title": "Investigator Formulae Levels 1-2",
 		"description": [
-			"::main[Investigator Formulae Levels 3-6]{to=main/spells_investigator_3_6}",
+			"::main[Back to Investigator Formulae]{to=main/spells_investigator rev}",
+			"",
+			"::main[Investigator Spells Levels 3-6]{to=main/spells_investigator_3_6}",
 			"",
 			":::item",
 			"",
@@ -822,7 +834,9 @@
 	"spells_investigator_3_6": {
 		"title": "Investigator Formulae Levels 3-6",
 		"description": [
-			"::main[Investigator Formulae Levels 1-2]{to=main/spells_investigator_1_2}",
+			"::main[Back to Investigator Formulae]{to=main/spells_investigator rev}",
+			"",
+			"::main[Investigator Spells Levels 1-2]{to=main/spells_investigator_1_2}",
 			"",
 			":::item",
 			"",
@@ -1098,6 +1112,8 @@
 	"spells_adept": {
 		"title": "All Adept Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -1227,6 +1243,8 @@
 	"spells_mesmerist": {
 		"title": "All Mesmerist Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			"::main[Mesmerist Spells (Levels 0-1)]{endem=\"(128 spells)\" to=main/spells_mesmerist_0_1}",
 			"",
 			"::main[Mesmerist Spells (Level 2)]{endem=\"(137 spells)\" to=main/spells_mesmerist_2}",
@@ -1241,6 +1259,8 @@
 	"spells_mesmerist_0_1": {
 		"title": "Mesmerist Spells Levels 0-1",
 		"description": [
+			"::main[Back to Mesmerist Spells]{to=main/spells_mesmerist rev}",
+			"",
 			"::main[Mesmerist Spells Level 2]{to=main/spells_mesmerist_2}",
 			"",
 			"::main[Mesmerist Spells Levels 3-4]{to=main/spells_mesmerist_3_4}",
@@ -1429,6 +1449,8 @@
 	"spells_mesmerist_2": {
 		"title": "Mesmerist Spells Level 2",
 		"description": [
+			"::main[Back to Mesmerist Spells]{to=main/spells_mesmerist rev}",
+			"",
 			"::main[Mesmerist Spells Levels 0-1]{to=main/spells_mesmerist_0_1}",
 			"",
 			"::main[Mesmerist Spells Levels 3-4]{to=main/spells_mesmerist_3_4}",
@@ -1625,6 +1647,8 @@
 	"spells_mesmerist_3_4": {
 		"title": "Mesmerist Spells Levels 3-4",
 		"description": [
+			"::main[Back to Mesmerist Spells]{to=main/spells_mesmerist rev}",
+			"",
 			"::main[Mesmerist Spells Levels 0-1]{to=main/spells_mesmerist_0_1}",
 			"",
 			"::main[Mesmerist Spells Level 2]{to=main/spells_mesmerist_2}",
@@ -1875,6 +1899,8 @@
 	"spells_mesmerist_5_6": {
 		"title": "Mesmerist Spells Levels 5-6",
 		"description": [
+			"::main[Back to Mesmerist Spells]{to=main/spells_mesmerist rev}",
+			"",
 			"::main[Mesmerist Spells Levels 0-1]{to=main/spells_mesmerist_0_1}",
 			"",
 			"::main[Mesmerist Spells Level 2]{to=main/spells_mesmerist_2}",

@@ -3,6 +3,8 @@
 		"title": "Simple Weapons",
 		"searchgroup": "equip",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -86,6 +88,8 @@
 		"title": "Martial Weapons",
 		"searchgroup": "equip",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -224,6 +228,8 @@
 		"title": "Exotic/Special Weapons",
 		"searchgroup": "equip",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",

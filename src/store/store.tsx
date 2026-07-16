@@ -463,7 +463,7 @@ const migrations = {
 			displayTable
 		};
 	},
-	24: (state: any) => {
+	25: (state: any) => {
 		const {displayTable: dt, ...unchangedState} = state;
 		const displayTable = {...dt};
 		// Remove info regarding adjusted tables
@@ -499,7 +499,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<InitialAppState> = {
 	key: 'root-pf-data',
-	version: 24,
+	version: 25,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),

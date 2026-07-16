@@ -2,6 +2,8 @@
 	"spells_paladin": {
 		"title": "All Paladin Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -359,6 +361,8 @@
 		"title": "Alchemist Spells",
 		"searchgroup": "spell",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			"::main[Alchemist Formulae (Levels 1-2)]{endem=\"(184 formulae)\" to=main/spells_alchemist_1_2}",
 			"",
 			"::main[Alchemist Formulae (Levels 3-6)]{endem=\"(224 formulae)\" to=main/spells_alchemist_3_6}"
@@ -367,7 +371,9 @@
 	"spells_alchemist_1_2": {
 		"title": "Alchemist Formulae Levels 1-2",
 		"description": [
-			"::main[Alchemist Formulae Levels 3-6]{to=main/spells_alchemist_3_6}",
+			"::main[Back to Alchemist Formulae]{to=main/spells_alchemist rev}",
+			"",
+			"::main[Alchemist Spells Levels 3-6]{to=main/spells_alchemist_3_6}",
 			"",
 			":::item",
 			"",
@@ -608,7 +614,9 @@
 	"spells_alchemist_3_6": {
 		"title": "Alchemist Formulae Levels 3-6",
 		"description": [
-			"::main[Alchemist Formulae Levels 1-2]{to=main/spells_alchemist_1_2}",
+			"::main[Back to Alchemist Formulae]{to=main/spells_alchemist rev}",
+			"",
+			"::main[Alchemist Spells Levels 1-2]{to=main/spells_alchemist_1_2}",
 			"",
 			":::item",
 			"",
@@ -887,6 +895,8 @@
 	"spells_spiritualist": {
 		"title": "All Spiritualist Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			"::main[Spiritualist Spells (Levels 0-2)]{endem=\"(137 spells)\" to=main/spells_spiritualist_0_2}",
 			"",
 			"::main[Spiritualist Spells (Levels 3-4)]{endem=\"(163 spells)\" to=main/spells_spiritualist_3_4}",
@@ -899,6 +909,8 @@
 	"spells_spiritualist_0_2": {
 		"title": "Spiritualist Spells Levels 0-2",
 		"description": [
+			"::main[Back to Spiritualist Spells]{to=main/spells_spiritualist rev}",
+			"",
 			"::main[Spiritualist Spells Levels 3-4]{to=main/spells_spiritualist_3_4}",
 			"",
 			"::main[Spiritualist Spells Levels 5-6]{to=main/spells_spiritualist_5_6}",
@@ -1088,6 +1100,8 @@
 	"spells_spiritualist_3_4": {
 		"title": "Spiritualist Spells Levels 3-4",
 		"description": [
+			"::main[Back to Spiritualist Spells]{to=main/spells_spiritualist rev}",
+			"",
 			"::main[Spiritualist Spells Levels 0-2]{to=main/spells_spiritualist_0_2}",
 			"",
 			"::main[Spiritualist Spells Levels 5-6]{to=main/spells_spiritualist_5_6}",
@@ -1303,6 +1317,8 @@
 	"spells_spiritualist_5_6": {
 		"title": "Spiritualist Spells Levels 5-6",
 		"description": [
+			"::main[Back to Spiritualist Spells]{to=main/spells_spiritualist rev}",
+			"",
 			"::main[Spiritualist Spells Levels 0-2]{to=main/spells_spiritualist_0_2}",
 			"",
 			"::main[Spiritualist Spells Levels 3-4]{to=main/spells_spiritualist_3_4}",
@@ -1470,6 +1486,8 @@
 	"spells_bloodrager": {
 		"title": "All Bloodrager Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -1864,6 +1882,8 @@
 	"spells_summoner": {
 		"title": "All Summoner Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",

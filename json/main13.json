@@ -2,6 +2,8 @@
 	"feats_mythic": {
 		"title": "Mythic Feats",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			";;;item",
 			"",
 			"Only characters with mythic tiers or creatures with mythic ranks can take ‹rule/mythic feats›.",
@@ -202,6 +204,8 @@
 		"title": "Feats - Meditation",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_class).",
@@ -230,6 +234,8 @@
 		"title": "Feats - Weapon Mastery",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_mastery).",
@@ -261,6 +267,8 @@
 		"title": "Feats - Armor Mastery",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_mastery).",
@@ -286,6 +294,8 @@
 		"title": "Feats - Shield Mastery",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_mastery).",
@@ -314,6 +324,8 @@
 		"title": "Feats - Item Mastery",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_mastery).",
@@ -347,6 +359,8 @@
 		"title": "Feats - Monster",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_other).",
@@ -401,6 +415,8 @@
 		"title": "Feats - Teamwork",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_multiperson).",
@@ -621,6 +637,8 @@
 		"title": "Feats - Betrayal",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_multiperson).",
@@ -641,6 +659,8 @@
 		"title": "Feats - Teamwork, etc",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_multiperson).",
@@ -657,6 +677,8 @@
 		"title": "Feats - Mesmerist Tricks",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_class).",
@@ -677,6 +699,8 @@
 		"title": "Feats - Mesmerist Stares",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_class).",
@@ -707,6 +731,8 @@
 		"title": "Feats - Story",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_roleplaying).",
@@ -810,6 +836,8 @@
 		"title": "Feats - Style",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_class).",
@@ -928,6 +956,8 @@
 		"title": "Feats - Item Creation",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_basic).",
@@ -969,6 +999,8 @@
 		"title": "Feats - Metamagic",
 		"searchgroup": "rule",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_basic).",
@@ -1081,6 +1113,8 @@
 		"title": "Feats - Grit",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_class).",
@@ -1117,6 +1151,8 @@
 		"title": "Feats - Panache",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			":::item",
 			"",
 			"Information about these feats can be found [here](rule/feats_class).",
@@ -1142,6 +1178,8 @@
 		"title": "Feats with Combat Tricks",
 		"searchgroup": "feat",
 		"description": [
+			"::main[Back to Feats]{to=main/feats rev}",
+			"",
 			";;;item",
 			"",
 			"These feats have additional options that can be unlocked with the ‹feat/Combat Stamina› feat.",

@@ -2,6 +2,8 @@
 	"monsters_cr_0_1_2": {
 		"title": "Monsters CR 0 - 1/2",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -285,6 +287,8 @@
 	"monsters_cr_1_2": {
 		"title": "Monsters CR 1 and 2",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -708,6 +712,8 @@
 	"monsters_cr_3_4": {
 		"title": "Monsters CR 3 and 4",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",

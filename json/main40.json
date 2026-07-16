@@ -3,6 +3,8 @@
 		"title": "Oracle Spells",
 		"searchgroup": "spell",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			"::main[Oracle Spells (Levels 0-1)]{endem=\"(177 spells)\" to=main/spells_oracle_0_1}",
 			"",
 			"::main[Oracle Spells (Level 2)]{endem=\"(216 spells)\" to=main/spells_oracle_2}",
@@ -21,6 +23,8 @@
 	"spells_oracle_0_1": {
 		"title": "Oracle Spells Levels 0-1",
 		"description": [
+			"::main[Back to Oracle Spells]{to=main/spells_oracle rev}",
+			"",
 			"::main[Oracle Spells Level 2]{to=main/spells_cleric_2}",
 			"",
 			"::main[Oracle Spells Level 3]{to=main/spells_cleric_3}",
@@ -265,6 +269,8 @@
 	"spells_oracle_2": {
 		"title": "Oracle Spells Level 2",
 		"description": [
+			"::main[Back to Oracle Spells]{to=main/spells_oracle rev}",
+			"",
 			"::main[Oracle Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",
 			"::main[Oracle Spells Level 3]{to=main/spells_cleric_3}",
@@ -546,6 +552,8 @@
 	"spells_oracle_3": {
 		"title": "Oracle Spells Level 3",
 		"description": [
+			"::main[Back to Oracle Spells]{to=main/spells_oracle rev}",
+			"",
 			"::main[Oracle Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",
 			"::main[Oracle Spells Level 2]{to=main/spells_cleric_2}",
@@ -811,6 +819,8 @@
 	"spells_oracle_4": {
 		"title": "Oracle Spells Level 4",
 		"description": [
+			"::main[Back to Oracle Spells]{to=main/spells_oracle rev}",
+			"",
 			"::main[Oracle Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",
 			"::main[Oracle Spells Level 2]{to=main/spells_cleric_2}",
@@ -1036,6 +1046,8 @@
 	"spells_oracle_5": {
 		"title": "Oracle Spells Level 5",
 		"description": [
+			"::main[Back to Oracle Spells]{to=main/spells_oracle rev}",
+			"",
 			"::main[Oracle Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",
 			"::main[Oracle Spells Level 2]{to=main/spells_cleric_2}",
@@ -1230,6 +1242,8 @@
 	"spells_oracle_6_7": {
 		"title": "Oracle Spells Levels 6-7",
 		"description": [
+			"::main[Back to Oracle Spells]{to=main/spells_oracle rev}",
+			"",
 			"::main[Oracle Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",
 			"::main[Oracle Spells Level 2]{to=main/spells_cleric_2}",
@@ -1451,6 +1465,8 @@
 	"spells_oracle_8_9": {
 		"title": "Oracle Spells Levels 8-9",
 		"description": [
+			"::main[Back to Oracle Spells]{to=main/spells_oracle rev}",
+			"",
 			"::main[Oracle Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",
 			"::main[Oracle Spells Level 2]{to=main/spells_cleric_2}",

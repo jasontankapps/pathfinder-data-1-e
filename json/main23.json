@@ -2,6 +2,8 @@
 	"monsters_outsiders": {
 		"title": "Outsiders",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -628,6 +630,8 @@
 	"monsters_outsiders_elemental": {
 		"title": "Elementals",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -754,6 +758,8 @@
 	"monsters_outsiders_native": {
 		"title": "Native Outsiders",
 		"description": [
+			"::main[Back to Monsters]{to=main/monsters rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",

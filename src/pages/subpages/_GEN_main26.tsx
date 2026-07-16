@@ -1,7 +1,8 @@
 import {IonList,IonItem,IonLabel} from '@ionic/react';
 import Link from '../../components/Link';
+import MainLink from '../../components/MainLink';
 import ScrollContainer from '../../components/ScrollContainer';
-const _traits_combat = {title: "Combat Traits", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><h2 id="main-traits_combat-absalom-bouncer"><Link to="/trait/absalom_bouncer">Absalom Bouncer</Link></h2>
+const _traits_combat = {title: "Combat Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItem className="mainItem basic"><IonLabel><h2 id="main-traits_combat-absalom-bouncer"><Link to="/trait/absalom_bouncer">Absalom Bouncer</Link></h2>
 <p><strong>Type:</strong> Combat</p>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link><br/>You learned to fight while serving as a bodyguard in the taverns of Absalom, where keeping the patrons alive through bloody bar brawls was just part of your job. When you make an attack that deals nonlethal damage with an unarmed strike, you gain a +1 bonus on your damage roll.</p>
 </IonLabel></IonItem><IonItem className="mainItem basic"><IonLabel><h2 id="main-traits_combat-absolute-loyalty"><Link to="/trait/absolute_loyalty">Absolute Loyalty</Link></h2>
@@ -437,7 +438,7 @@ const _traits_combat = {title: "Combat Traits", jsx: <IonList lines="full"><IonI
 <p><strong>Type:</strong> Combat</p>
 <p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link><br/>You were trained from a young age to ambush the enemies of your order or organization, which makes you hard to trust for most outside your organization if they learn your affiliation. You gain a +1 trait bonus on attack rolls against flat-footed foes, as long as they have not seen you make an attack with this bonus before.</p>
 </IonLabel></IonItem></IonList>};
-const _traits_faith = {title: "Faith Traits", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><h2 id="main-traits_faith-abject-belief"><Link to="/trait/abject_belief">Abject Belief</Link></h2>
+const _traits_faith = {title: "Faith Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItem className="mainItem basic"><IonLabel><h2 id="main-traits_faith-abject-belief"><Link to="/trait/abject_belief">Abject Belief</Link></h2>
 <p><strong>Type:</strong> Faith</p>
 <p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link><br/>You cling tenaciously to a faith that is doubted by many, perhaps based around a god who has vanished, or was never a god in the first place. You refuse to forsake your beliefs despite all evidence, perhaps due to a need to belong, respect for tradition, or a religious experience. As a result, it is nearly impossible to convince you of your deity's absence. You gain a +2 trait bonus on Will saving throws against fear effects.</p>
 </IonLabel></IonItem><IonItem className="mainItem basic"><IonLabel><h2 id="main-traits_faith-acclimatize-alignment"><Link to="/trait/acclimatize_alignment">Acclimatize Alignment</Link></h2>
@@ -850,7 +851,7 @@ const _traits_faith = {title: "Faith Traits", jsx: <IonList lines="full"><IonIte
 <p><strong>Type:</strong> Faith</p>
 <p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link><br/>Your zeal is a danger to those of "lesser" faiths. While you have the destruction judgment active, you gain a +1 trait bonus on damage rolls when attacking a foe who can cast divine spells and worships a different deity than you.</p>
 </IonLabel></IonItem></IonList>};
-const _traits_social = {title: "Social Traits", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><h2 id="main-traits_social-acrobat"><Link to="/trait/acrobat">Acrobat</Link></h2>
+const _traits_social = {title: "Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItem className="mainItem basic"><IonLabel><h2 id="main-traits_social-acrobat"><Link to="/trait/acrobat">Acrobat</Link></h2>
 <p><strong>Type:</strong> Social</p>
 <p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link><br/>Having trained from a young age, you're capable of amazing feats of daring. You gain a +1 bonus on Acrobatics checks, and you take only a -2 penalty instead of the normal -5 penalty when using the Climb skill to attempt an accelerated climb.</p>
 </IonLabel></IonItem><IonItem className="mainItem basic"><IonLabel><h2 id="main-traits_social-adopted"><Link to="/trait/adopted">Adopted</Link></h2>
@@ -1352,7 +1353,7 @@ const _traits_social = {title: "Social Traits", jsx: <IonList lines="full"><IonI
 <p><strong>Type:</strong> Social</p>
 <p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link><br/>You have acquired an unusual breadth of life experience - more than others of your age, race, or culture. Once per day when attempting a skill check for a skill you're untrained in, you can roll twice and take the better result.</p>
 </IonLabel></IonItem></IonList>};
-const _traits_magic = {title: "Magic Traits", jsx: <IonList lines="full"><IonItem className="mainItem basic"><IonLabel><h2 id="main-traits_magic-acadamae-neophyte"><Link to="/trait/acadamae_neophyte">Acadamae Neophyte</Link></h2>
+const _traits_magic = {title: "Magic Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItem className="mainItem basic"><IonLabel><h2 id="main-traits_magic-acadamae-neophyte"><Link to="/trait/acadamae_neophyte">Acadamae Neophyte</Link></h2>
 <p><strong>Type:</strong> Magic</p>
 <p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link><br/>You have shown a significant talent for the magical arts, gaining the attention of the famed Acadamae of Korvosa. Whenever you succeed at a Knowledge (planes) check to identify a creature and its special powers or vulnerabilities, you gain one additional piece of useful information (as if your skill check result had been 5 higher).</p>
 </IonLabel></IonItem><IonItem className="mainItem basic"><IonLabel><h2 id="main-traits_magic-aeromantic-affinity"><Link to="/trait/aeromantic_affinity">Aeromantic Affinity</Link></h2>

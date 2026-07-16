@@ -3,6 +3,8 @@
 		"title": "NPCs",
 		"searchgroup": "monster",
 		"description": [
+			"::main[Back to Monsters and NPCs]{to=main/monsters rev}",
+			"",
 			"::mainheader[NPCs by Class]",
 			"",
 			"::main[Adepts, Aristocrats, Commoners, Experts, Warriors]{to=main/npcs_npc_classes}",
@@ -552,6 +554,8 @@
 		"title": "NPCs: NPC Classes",
 		"searchgroup": "monster",
 		"description": [
+			"::main[Back to Monsters and NPCs]{to=main/monsters rev}",
+			"",
 			"::mainheader[Adepts]",
 			"",
 			":::item",
@@ -912,6 +916,8 @@
 		"title": "NPCs: Core Divine Classes",
 		"searchgroup": "monster",
 		"description": [
+			"::main[Back to Monsters and NPCs]{to=main/monsters rev}",
+			"",
 			"::mainheader[Clerics]",
 			"",
 			":::item",
@@ -1124,6 +1130,8 @@
 		"title": "NPCs: Core Non-Spellcasters",
 		"searchgroup": "monster",
 		"description": [
+			"::main[Back to Monsters and NPCs]{to=main/monsters rev}",
+			"",
 			"::mainheader[Barbarians]",
 			"",
 			":::item",
@@ -1387,6 +1395,8 @@
 		"title": "NPCs: Non-Core Classes",
 		"searchgroup": "monster",
 		"description": [
+			"::main[Back to Monsters and NPCs]{to=main/monsters rev}",
+			"",
 			"::mainheader[Alchemist]",
 			"",
 			":::item",
@@ -1500,6 +1510,8 @@
 	"tech_armor": {
 		"title": "Technology - Armor",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -1555,6 +1567,8 @@
 	"tech_weapons": {
 		"title": "Technology - Weapons",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -1648,6 +1662,8 @@
 	"tech_cybertech": {
 		"title": "Technology - Cybertech",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -1701,6 +1717,8 @@
 	"tech_pharmaceuticals": {
 		"title": "Technology - Pharmaceuticals",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -1740,6 +1758,8 @@
 	"tech_artifacts": {
 		"title": "Technology - Artifacts",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -1782,6 +1802,8 @@
 		"title": "Technology - Miscellaneous",
 		"sources": [ "Technology Guide" ],
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"[Jump to the table](#misctechtable)",
@@ -1975,6 +1997,8 @@
 			"Ultimate Magic"
 		],
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"[Jump to the table](#spellbookstable)",
@@ -2098,6 +2122,10 @@
 		"title": "Siege Engines",
 		"searchgroup": "equip",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
+			"::main[Siege Engines]{to=rule/siege_engines bottom=\"Rules about siege engines.\"}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -2188,6 +2216,8 @@
 	"equipment_clothing": {
 		"title": "Clothing",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -2328,6 +2358,8 @@
 	"equipment_food_and_drink": {
 		"title": "Food, Drink, and Lodging",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -2445,6 +2477,8 @@
 	"equipment_entertainment_services": {
 		"title": "Entertainment and Services",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -2526,6 +2560,8 @@
 	"equipment_transport": {
 		"title": "Transportation",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -2592,6 +2628,8 @@
 	"equipment_mounts_pets": {
 		"title": "Mounts and Pets",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"‹table0›",
@@ -2832,6 +2870,8 @@
 	"equipment_illicit": {
 		"title": "Illicit Items",
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"These listings include black market items and instruments of torture.",
@@ -2906,6 +2946,8 @@
 		"title": "Poisons",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"::main[Back to Equipment]{to=main/equipment rev}",
+			"",
 			":::item",
 			"",
 			"[Jump to the table](#poisonstable)",

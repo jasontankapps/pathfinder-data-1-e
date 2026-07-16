@@ -2,6 +2,8 @@
 	"spells_sorcerer": {
 		"title": "All Sorcerer Spells",
 		"description": [
+			"::main[Back to Spells]{to=main/spells rev}",
+			"",
 			"::main[Sorcerer Spells (Level 0)]{endem=\"(35 spells)\" to=main/spells_sorcerer_0}",
 			"",
 			"::main[Sorcerer Spells (Level 1)]{endem=\"(244 spells)\" to=main/spells_sorcerer_1}",
@@ -25,6 +27,8 @@
 	"spells_sorcerer_0": {
 		"title": "Sorcerer Spells Level 0",
 		"description": [
+			"::main[Back to Sorcerer Spells]{to=main/spells_sorcerer rev}",
+			"",
 			"::main[Sorcerer Spells Level 1]{to=main/spells_sorcerer_1}",
 			"",
 			"::main[Sorcerer Spells Level 2]{to=main/spells_sorcerer_2}",
@@ -128,6 +132,8 @@
 	"spells_sorcerer_1": {
 		"title": "Sorcerer Spells Level 1",
 		"description": [
+			"::main[Back to Sorcerer Spells]{to=main/spells_sorcerer rev}",
+			"",
 			"::main[Sorcerer Spells Level 0]{to=main/spells_sorcerer_0}",
 			"",
 			"::main[Sorcerer Spells Level 2]{to=main/spells_sorcerer_2}",
@@ -441,6 +447,8 @@
 	"spells_sorcerer_2": {
 		"title": "Sorcerer Spells Level 2",
 		"description": [
+			"::main[Back to Sorcerer Spells]{to=main/spells_sorcerer rev}",
+			"",
 			"::main[Sorcerer Spells Level 0]{to=main/spells_sorcerer_0}",
 			"",
 			"::main[Sorcerer Spells Level 1]{to=main/spells_sorcerer_1}",
@@ -837,6 +845,8 @@
 	"spells_sorcerer_3": {
 		"title": "Sorcerer Spells Level 3",
 		"description": [
+			"::main[Back to Sorcerer Spells]{to=main/spells_sorcerer rev}",
+			"",
 			"::main[Sorcerer Spells Level 0]{to=main/spells_sorcerer_0}",
 			"",
 			"::main[Sorcerer Spells Level 1]{to=main/spells_sorcerer_1}",
@@ -1239,6 +1249,8 @@
 	"spells_sorcerer_4": {
 		"title": "Sorcerer Spells Level 4",
 		"description": [
+			"::main[Back to Sorcerer Spells]{to=main/spells_sorcerer rev}",
+			"",
 			"::main[Sorcerer Spells Level 0]{to=main/spells_sorcerer_0}",
 			"",
 			"::main[Sorcerer Spells Level 1]{to=main/spells_sorcerer_1}",
@@ -1589,6 +1601,8 @@
 	"spells_sorcerer_5": {
 		"title": "Sorcerer Spells Level 5",
 		"description": [
+			"::main[Back to Sorcerer Spells]{to=main/spells_sorcerer rev}",
+			"",
 			"::main[Sorcerer Spells Level 0]{to=main/spells_sorcerer_0}",
 			"",
 			"::main[Sorcerer Spells Level 1]{to=main/spells_sorcerer_1}",
@@ -1889,6 +1903,8 @@
 	"spells_sorcerer_6": {
 		"title": "Sorcerer Spells Level 6",
 		"description": [
+			"::main[Back to Sorcerer Spells]{to=main/spells_sorcerer rev}",
+			"",
 			"::main[Sorcerer Spells Level 0]{to=main/spells_sorcerer_0}",
 			"",
 			"::main[Sorcerer Spells Level 1]{to=main/spells_sorcerer_1}",
@@ -2118,6 +2134,8 @@
 	"spells_sorcerer_7": {
 		"title": "Sorcerer Spells Level 7",
 		"description": [
+			"::main[Back to Sorcerer Spells]{to=main/spells_sorcerer rev}",
+			"",
 			"::main[Sorcerer Spells Level 0]{to=main/spells_sorcerer_0}",
 			"",
 			"::main[Sorcerer Spells Level 1]{to=main/spells_sorcerer_1}",
@@ -2317,6 +2335,8 @@
 	"spells_sorcerer_8_9": {
 		"title": "Sorcerer Spells Levels 8-9",
 		"description": [
+			"::main[Back to Sorcerer Spells]{to=main/spells_sorcerer rev}",
+			"",
 			"::main[Sorcerer Spells Level 0]{to=main/spells_sorcerer_0}",
 			"",
 			"::main[Sorcerer Spells Level 1]{to=main/spells_sorcerer_1}",
