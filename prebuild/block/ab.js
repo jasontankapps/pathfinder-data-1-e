@@ -586,7 +586,7 @@ const makeAbilityBlock = ({
 					break;
 				case "N":
 					title = "Note";
-					what = info;
+					what = note;
 					break;
 				case "c":
 					title = "Choice";
