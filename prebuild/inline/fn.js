@@ -13,6 +13,13 @@ const convertEncodedInfo = (input) => {
 		.replace(/&(times|quot|[nm]dash|deg|[dD]agger|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;");
 };
 
+// Fake footnotes
+//   const { from, multi } = attrs;
+//   return fn({text: tag.slice(2), prefix, from, multi, makeNewMarkedInstance, flags});
+// @FN1                      - Link to footnote #1
+// @FN1-n                    - The nth link to footnote #1
+// @FN[Text]{from=1 multi=n} - The footnote itself.
+
 const fn = ({text, from, multi, prefix, makeNewMarkedInstance, flags}) => {
 	// Fake footnotes
 	flags.innerlink = true;
