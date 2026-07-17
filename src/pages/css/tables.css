@@ -79,14 +79,13 @@ div.tabular > div.row > div.cell {
 	text-align: center;
 	font-size: 0.875rem;
 	position: relative;
-	width: 100%;
-	block-size: 100%;
 	padding-block: 0.25rem;
 	padding-inline: 0.5rem;
-	overflow-wrap: break-word;
+	overflow: auto;
 }
 div.tabular > div.row > div.cell > p {
 	margin-block: 0 !important;
+	display: contents;
 }
 div.tabular > div.row > div.cell.ion-text-start {
 	align-items: flex-start;
@@ -113,7 +112,7 @@ div.tabular > div.row > div.cell-header {
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: flex-end;
 }
 div.tabular > div.row:first-child > div.cell-header {
 	font-weight: bold;

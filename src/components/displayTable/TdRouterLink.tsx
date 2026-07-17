@@ -1,17 +1,26 @@
 import { FC, PropsWithChildren } from 'react';
 import { IonRippleEffect } from '@ionic/react';
 import { useLocation } from 'wouter';
+import Markdown from 'react-markdown';
 import { LinkFormat } from '../../types';
 import { useAppDispatch } from '../../store/hooks';
 import { goTo } from '../../store/historySlice';
-import maybeBreakText from '../maybeBreakText';
+import components from './Components';
 
 interface TdRouterLinkProps {
 	datum: LinkFormat
 	align?: "start" | "end"
+	size?: number
 }
 
-const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum, align }) => {
+const getStyle = (size: number | undefined) => {
+	if(size === undefined) {
+		return undefined;
+	}
+	return { inlineSize: `${size}rem` };
+}
+
+const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum, align, size }) => {
 	const [, navigate ] = useLocation();
 	const dispatch = useAppDispatch();
 	const [ text, property, link ] = datum;
@@ -26,8 +35,8 @@ const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum, align }
 			)
 		} onClick={
 			() => { navigate(to); dispatch(goTo(to)); }
-		}>
-			{maybeBreakText(text)}
+		} style={getStyle(size)}>
+			<Markdown components={components}>{text}</Markdown>
 			<IonRippleEffect />
 		</div>
 	);

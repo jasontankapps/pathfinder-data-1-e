@@ -74,6 +74,7 @@ const findDisplayValue = (item: RawDatum, nullish: string, col: Column) => {
 	let display: string | number | LinkFormat = "";
 	let raw: string | number = "";
 	let plus = false;
+	let sortInfo = false;
 	if(item === null || item === "~~") {
 		display = nullish;
 		raw = display;
@@ -89,6 +90,7 @@ const findDisplayValue = (item: RawDatum, nullish: string, col: Column) => {
 		// Sort info
 		display = item.data || nullish;
 		raw = item.sort;
+		sortInfo = true;
 	}
 	switch(type) {
 		case "gp+":
@@ -97,16 +99,8 @@ const findDisplayValue = (item: RawDatum, nullish: string, col: Column) => {
 		case "gp":
 			// RawDatum is a number
 			if(typeof raw !== "number") {
-				if(display !== raw) {
-					if(typeof display !== "number") {
-						display = `Invalid GP${plus ? "+" : ""} number [${raw}/${display}]`;
-					} else {
-						display = translateGp(display, plus);
-					}
-				} else {
-					display = `Invalid GP${plus ? "+" : ""} number [${raw}]`;
-				}
-			} else {
+				display = `Invalid GP${plus ? "+" : ""} number [${raw}]`;
+			} else if(!sortInfo) {
 				display = translateGp(raw, plus);
 			}
 			break;
@@ -116,48 +110,24 @@ const findDisplayValue = (item: RawDatum, nullish: string, col: Column) => {
 		case "lbs":
 			// RawDatum is a number
 			if(typeof raw !== "number") {
-				if(display !== raw) {
-					if(typeof display !== "number") {
-						display = `Invalid LB${plus ? "+" : ""} number [${raw}/${display}]`;
-					} else {
-						display = `${plus && (display >= 0) ? "+" : ""}${display.toLocaleString()} lb${display === 1 ? "": "s"}.`;
-					}
-				} else {
-					display = `Invalid LB${plus ? "+" : ""} number [${raw}]`;
-				}
-			} else {
+				display = `Invalid LB${plus ? "+" : ""} number [${raw}]`;
+			} else if (!sortInfo) {
 				display = `${plus && (raw >= 0) ? "+" : ""}${raw.toLocaleString()} lb${raw === 1 ? "": "s"}.`;
 			}
 			break;
 		case "bonus":
 			// RawDatum is an interger
 			if(typeof raw !== "number") {
-				if(display !== raw) {
-					if(typeof display !== "number") {
-						display = `Invalid BONUS number [${raw}/${display}]`;
-					} else {
-						display = `${display >= 0 ? "+" : ""}${display.toLocaleString()}`;
-					}
-				} else {
-					display = `Invalid BONUS number [${raw}]`;
-				}
-			} else {
+				display = `Invalid BONUS number [${raw}]`;
+			} else if (!sortInfo) {
 				display = `${raw >= 0 ? "+" : ""}${raw.toLocaleString()}`;
 			}
 			break;
 		case "pct":
 			// RawDatum is a number
 			if(typeof raw !== "number") {
-				if(display !== raw) {
-					if(typeof display !== "number") {
-						display = `Invalid PCT number [${raw}/${display}]`;
-					} else {
-						display = display.toLocaleString() + "%";
-					}
-				} else {
-					display = `Invalid PCT number [${raw}]`;
-				}
-			} else {
+				display = `Invalid PCT number [${raw}]`;
+			} else if (!sortInfo) {
 				display = raw.toLocaleString() + "%";
 			}
 			break;
@@ -274,32 +244,35 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			.map(([row,]) => row.filter((cell, i) => hiddenHeaders.every(hCol => hCol !== i)) as SortableCell[]);
 	}, [sortedRowsWithBothOriginalIndices, hiddenHeaders, hiddenRows]);
 
-	const tableGridStyle = useMemo(() => {
+	const columnSizes = useMemo(() => {
 		if(columns.some(col => col.size === undefined)) {
+			return undefined;
+		}
+		// extra 1rem for every column
+		return columns.map(col => (col.size as number) + 1);
+	}, [columns]);
+
+	const tableGridStyle = useMemo(() => {
+		if(!columnSizes) {
 			const total = columns
 				.filter((cell, i) => hiddenHeaders.every(hCol => hCol !== i))
-				.map(() => "1fr");
+				.map(() => "minmax(0,1fr)");
 			return {
 				display: "grid",
 				gridTemplateColumns: total.join(" ")
 			};
 		}
-		const gtc: number[] = [];
-		const total = columns
-			.filter((cell, i) => hiddenHeaders.every(hCol => hCol !== i))
-			.map(cell => {
-				let {size = 0} = cell;
-				gtc.push(++size); // extra 1rem for every column
-				return size;
-			})
+		const visibleColumns = columnSizes
+			.filter((cell, i) => hiddenHeaders.every(hCol => hCol !== i));
+		const total = visibleColumns
 			.reduce((total, size) => total + size, 0);
 		const style = {
 			display: "grid",
-			gridTemplateColumns: gtc.join("rem ") + "rem",
-			width: `${total}rem`
+			gridTemplateColumns: visibleColumns.join("rem ") + "rem",
+			inlineSize: `${total}rem`
 		};
 		return style;
-	}, [columns, hiddenHeaders]);
+	}, [columns, hiddenHeaders, columnSizes]);
 
 	const sorter = (col: number) => {
 		return () => {
@@ -354,7 +327,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 								active={i === sortingColumn}
 								sorter={sorter(i)}
 								sortable={!col.unsortable}
-								size={col.size}
+								size={columnSizes && columnSizes[i]}
 							>{col.header}</Th>;
 						})
 					}</div>
@@ -365,14 +338,14 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 							}
 							const cells = row.map(cellInfo => {
 								const [, cell, j] = cellInfo;
-								const col = columns[j];
-								const { link = "", align } = col;
+								const { link = "", align } = columns[j];
 								if (link) {
 									return (
 										<TdRouterLink
 											datum={cell as LinkFormat}
 											align={align}
 											key={`table/${cId}/row/${i}/cell/link/${j}`}
+											size={columnSizes && columnSizes[j]}
 										/>
 									);
 								}
@@ -381,6 +354,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 										datum={cell}
 										align={align}
 										key={`table/${cId}/row/${i}/cell/${j}`}
+										size={columnSizes && columnSizes[j]}
 									/>
 								);
 							});

@@ -25,7 +25,7 @@ const a = (props: MDaProps) => {
 // Convert the specific phrase "&wbr&" into a <wbr /> element
 const span = (props: MDspanProps, tag = "span") => {
 	const { children, ...etc } = props;
-	if(children === "&wbr&") {
+	if(children === "wbr") {
 		return <wbr />;
 	}
 	switch (tag) {

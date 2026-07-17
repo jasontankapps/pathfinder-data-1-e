@@ -11,12 +11,22 @@ interface TdProps {
 	datum: string | number | LinkFormat
 	align?: "start" | "end"
 	type?: ColumnDataType
+	size?: number
 }
 
-const Td: FC<PropsWithChildren<TdProps>> = ({ datum, align }) => {
+const getStyle = (size: number | undefined) => {
+	if(size === undefined) {
+		return undefined;
+	}
+	return { inlineSize: `${size}rem` };
+}
+
+const Td: FC<PropsWithChildren<TdProps>> = ({ datum, align, size }) => {
 	const text = Array.isArray(datum) ? `[${datum[0]}](/${datum[2]}/${datum[1]})` : convertLinks(String(datum));
 	return (
-		<div className={"cell" + (align === "end" ? " ion-text-end" : (align === "start" ? " ion-text-start" : ""))}>
+		<div className={
+			"cell" + (align === "end" ? " ion-text-end" : (align === "start" ? " ion-text-start" : ""))
+		} style={getStyle(size)}>
 			<Markdown components={components}>{text}</Markdown>
 		</div>
 	);

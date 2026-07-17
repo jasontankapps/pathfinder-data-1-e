@@ -37,7 +37,7 @@ const getStyle = (size: number | undefined) => {
 	if(size === undefined) {
 		return undefined;
 	}
-	return { width: `${size + 1}rem` };
+	return { inlineSize: `${size}rem` };
 }
 
 const Th: FC<ThProps> = ({index, sorter, sortState = true, children, active, sortable, size}) => {
