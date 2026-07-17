@@ -166,7 +166,7 @@ const _psychic_magic = {title: "Psychic Magic", jsx: <><h2 id="umr-psychic_magic
 <p><strong>Format:</strong> Psychic Magic (Sp) (CL 10th; concentration +14) 12 PE-<Link to="/spell/charm_person">charm person</Link> (1 PE, DC 14), <Link to="/spell/disguise_self">disguise self</Link> (2 PE), <Link to="/spell/mind_thrust_iii">mind thrust III</Link> (3 PE, DC 16), <Link to="/spell/tower_of_iron_will_i">tower of iron will I</Link> (5 PE)<br/><strong>Location:</strong> before Spell-Like Abilities.</p>
 </>};
 const _fast_swallow = {title: "Fast Swallow", jsx: <><h2 id="umr-fast_swallow-fast-swallow-ex">Fast Swallow (Ex)</h2>
-<p><strong>Sources</strong> <Link to="/source/bestiary_5">Bestiary 5 pg. 293</Link><br/>The creature swallow whole as a free action at any time during its turn, not just at the start of its turn.</p>
+<p><strong>Sources</strong> <Link to="/source/bestiary_5">Bestiary 5 pg. 293</Link><br/>The creature can <Link to="/umr/swallow_whole">swallow whole</Link> as a free action at any time during its turn, not just at the start of its turn.</p>
 <p><strong>Format:</strong> fast swallow<br/><strong>Location:</strong> Special Attacks.</p>
 </>};
 const _dragon_blood = {title: "Dragon Blood", jsx: <><h2 id="umr-dragon_blood-dragon-blood-su-mythic">Dragon Blood (Su) [Mythic]</h2>

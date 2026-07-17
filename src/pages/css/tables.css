@@ -200,8 +200,9 @@ table tr p + p {
 }
 div.table > .tr > .td.cell-link,
 div.tabular > div.row > div.cell-link,
+div.tabular > div.row > div.cell-link p,
 table tr td.cell-link {
-	color: var(--ion-color-primary);
+	color: var(--ion-color-primary) !important;
 	cursor: pointer;
 }
 table thead tr th.sortable,

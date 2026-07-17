@@ -26,41 +26,96 @@
 	.settingsPage .cxl { display: initial; }
 }
 
+ion-content {
+	--base-width: calc(100vw - 3rem);
+}
+
+@media (60rem < width) {
+	ion-content {
+		--base-width: calc(100vw - 23rem);
+	}
+}
+
 .constraintXS ion-item:not(.mainItem) :is(ion-label, ion-label p),
-.constraintXS div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar, .table, .constrained), table.p) {
-	max-inline-size: 20rem;
+.constraintXS div.simple :is(
+	p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar, .table, .constrained), table.p
+),
+.constraintXS ion-item div:is(.p, .capstones, .columnar, .table, .constrained) {
+	max-inline-size: min(var(--base-width), 20rem);
+}
+.constraintXS div.tableWrap {
+	max-inline-size: min(calc(var(--base-width) - 2rem), 18rem);
+}
+.constraintXS div.tabular {
+	max-inline-size: min(calc(var(--base-width) - 4rem), 16rem);
 }
 .constraintXS .subAbility {
 	max-inline-size: 17.5rem !important;
 }
 
 .constraintS :is(ion-label,ion-label > p),
-.constraintS div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar, .table, .constrained), table.p) {
-	max-inline-size: 30rem;
+.constraintS div.simple :is(
+	p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar, .table, .constrained), table.p
+),
+.constraintS ion-item div:is(.p, .capstones, .columnar, .table, .constrained) {
+	max-inline-size: min(var(--base-width), 30rem);
+}
+.constraintS div.tableWrap {
+	max-inline-size: min(calc(var(--base-width) - 2rem), 28rem);
+}
+.constraintS div.tabular {
+	max-inline-size: min(calc(var(--base-width) - 4rem), 26rem);
 }
 .constraintS .subAbility {
 	max-inline-size: 27.5rem !important;
 }
 
 .constraintM :is(ion-label,ion-label > p),
-.constraintM div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar, .table, .constrained), table.p) {
-	max-inline-size: 40rem;
+.constraintM div.simple :is(
+	p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar, .table, .constrained), table.p
+),
+.constraintM ion-item div:is(.p, .capstones, .columnar, .table, .constrained) {
+	max-inline-size: min(var(--base-width), 40rem);
+}
+.constraintM div.tableWrap {
+	max-inline-size: min(calc(var(--base-width) - 2rem), 38rem);
+}
+.constraintM div.tabular {
+	max-inline-size: min(calc(var(--base-width) - 4rem), 36rem);
 }
 .constraintM .subAbility {
 	max-inline-size: 37.5rem !important;
 }
 
 .constraintL :is(ion-label,ion-label > p),
-.constraintL div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar, .table, .constrained), table.p) {
-	max-inline-size: 50rem;
+.constraintL div.simple :is(
+	p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar, .table, .constrained), table.p
+),
+.constraintL ion-item div:is(.p, .capstones, .columnar, .table, .constrained) {
+	max-inline-size: min(var(--base-width), 50rem);
+}
+.constraintL div.tableWrap {
+	max-inline-size: min(calc(var(--base-width) - 2rem), 48rem);
+}
+.constraintL div.tabular {
+	max-inline-size: min(calc(var(--base-width) - 4rem), 46rem);
 }
 .constraintL .subAbility {
 	max-inline-size: 47.5rem !important;
 }
 
 .constraintXL :is(ion-label,ion-label > p),
-.constraintXL div.simple :is(p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar, .table, .constrained), table.p) {
-	max-inline-size: 60rem;
+.constraintXL div.simple :is(
+	p, blockquote, td, th, li, aside, div:is(.p, .capstones, .columnar, .table, .constrained), table.p
+),
+.constraintXL ion-item div:is(.p, .capstones, .columnar, .table, .constrained) {
+	max-inline-size: min(var(--base-width), 60rem);
+}
+.constraintXL div.tableWrap {
+	max-inline-size: min(calc(var(--base-width) - 2rem), 58rem);
+}
+.constraintXL div.tabular {
+	max-inline-size: min(calc(var(--base-width) - 4rem), 56rem);
 }
 .constraintXL .subAbility {
 	max-inline-size: 57.5rem !important;
