@@ -7,8 +7,8 @@ import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 const _ancestral_aspirant = {title: "Ancestral Aspirant", jsx: <><h2 id="arc-occultist-ancestral_aspirant-ancestral-aspirant">Ancestral Aspirant</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 67</Link><br/>It is common for a noble to possess a deep pride for his family's past, but when such self-importance gives way to obsession, an ancestral aspirant is born. Ancestral aspirants perform all the typical social functions of a noble, but they fill their conversations with stories of the great deeds of their family forebears, and they spend their nights researching old histories and primary sources, hungry for more.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (planes), Profession</Pair></Ability>
 <Ability id="family-jewels" icon={["info"]}>
@@ -32,8 +32,8 @@ const _ancestral_aspirant = {title: "Ancestral Aspirant", jsx: <><h2 id="arc-occ
 </>};
 const _battle_host = {title: "Battle Host", jsx: <><h2 id="arc-occultist-battle_host-battle-host">Battle Host</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 100</Link><br/>Well versed in military history, battlefield lore, and the occult, a battle host forms a supernatural bond with a chosen weapon, suit of armor, or shield, from which he can channel psychic energy to cast spells, conjure the spirit of the object's former owner, increase his own physical might, and produce a number of other remarkable abilities.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair></Ability>
 <Ability id="weapon-and-armor-proficiency" icon={["stairs-goal"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
@@ -224,8 +224,8 @@ const _extemporaneous_channeler = {title: "Extemporaneous Channeler", jsx: <><h2
 </>};
 const _geomancer = {title: "Geomancer", jsx: <><h2 id="arc-occultist-geomancer-geomancer">Geomancer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 66</Link><br/>A geomancer studies every type of land, deriving power from the differences between types of terrain.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Disable Device, Knowledge (engineering), Knowledge (religion)</Pair></Ability>
 <Ability id="geomantic-focus-su" icon={["stairs-goal"]}>
@@ -413,8 +413,8 @@ const _haunt_collector = {title: "Haunt Collector", jsx: <><h2 id="arc-occultist
 </>};
 const _naturalist = {title: "Naturalist", jsx: <><h2 id="arc-occultist-naturalist-naturalist">Naturalist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 66</Link><br/>A naturalist eschews the contact with outsiders that other occultists use as the core of their work. Instead, he attunes his mind to the natural spirits that exist everywhere, just out of sight for the unawakened mind.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (planes)</Pair></Ability>
 <Ability id="natural-focus-su" icon={["upgrade","hazard-sign"]}>
@@ -574,8 +574,8 @@ const _planar_harmonizer = {title: "Planar Harmonizer", jsx: <><h2 id="arc-occul
 </>};
 const _psychodermist = {title: "Psychodermist", jsx: <><h2 id="arc-occultist-psychodermist-psychodermist">Psychodermist</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 25</Link><br/>Rather than tapping the psychic energy residing within esoteric items, psychodermists form supernatural bonds with trophies taken from creatures they have slain. Through these mementos, these occultists manifest not only their own magic, but also the unique powers of their fallen foes.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/heal">Heal</Link> (WIS), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Disable Device, Knowledge (engineering), Knowledge (history), Sleight of Hand</Pair></Ability>
 <Ability id="trophies-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
@@ -699,8 +699,8 @@ const _reliquarian = {title: "Reliquarian", jsx: <><h2 id="arc-occultist-reliqua
 </>};
 const _secret_broker = {title: "Secret Broker", jsx: <><h2 id="arc-occultist-secret_broker-secret-broker">Secret Broker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 68</Link><br/>Whether as spymasters, extortionists, political fixers, or puppet masters, secret brokers use their talents with objects to gain information, then leverage that information for their own purposes.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair></Ability>
 <Ability id="knowledge-is-power" icon={["broken-shield","info","upgrade"]}>
 <Pair single id="knowledge-is-power">Knowledge Is Power</Pair>
@@ -784,8 +784,8 @@ const _shair = {title: "Sha'ir", jsx: <><h2 id="arc-occultist-shair-shair">Sha'i
 </>};
 const _silksworn = {title: "Silksworn", jsx: <><h2 id="arc-occultist-silksworn-silksworn">Silksworn</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 29</Link><br/>Occultists who recognize that flashy garb and fashionable accoutrements can be just as powerful as psychically charged relics in the right situations are known as silksworn. They draw their power from wearing luxurious garments and can be found in many noble courts throughout Golarion, though they often keep their abilities secret. Silksworn are even found among the mystics and the magical practitioners of Nex, each seeking the patronage of one or more of the Arclords.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (engineering), Knowledge (planes)</Pair></Ability>
 <Ability id="spells" icon={["info"]}>

@@ -81,8 +81,8 @@ const _black_asp_uc = {title: "Black Asp (Unchained)", topLink: ["Unchained Monk
 const _brazen_disciple = {title: "Brazen Disciple", jsx: <><h2 id="arc-monk-brazen_disciple-brazen-disciple">Brazen Disciple</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 104</Link><br/>Of the three monasteries, the Monastery of Unblinking Flame has been the most successful in developing a specific and unique fighting style that sets its disciples apart from other monks. In order to be admitted into the Monastery of Unblinking Flame and become one of these disciples, a supplicant must prove his worth by outwitting an <Link to="/monster/efreeti">efreeti</Link>. Those who succeed often become monks known as the brazen disciples.</p>
 <p>Brazen disciples believe that the best way to prepare for this test is to emulate the efreeti's own duplicitous ways. By studying genie contracts, brazen disciples learn how to take advantage of loopholes, and by pondering riddles, they learn how to obfuscate truth. They use deception in their fighting style, and many go a step further, incorporating fire and smoke both mundane and magical. Though most brazen disciples focus on joining the <Link to="/rule/houses_of_perfection">Houses of Perfection</Link>, some become enamored with the efreet and instead seek out genie masters.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (religion), Ride, Swim</Pair></Ability>
 <Ability id="feinting-flurry-ex" icon={["mailed-fist","armor-downgrade"]}>
@@ -122,8 +122,8 @@ const _brazen_disciple = {title: "Brazen Disciple", jsx: <><h2 id="arc-monk-braz
 const _brazen_disciple_uc = {title: "Brazen Disciple (Unchained)", topLink: ["Unchained Monk","class/unchained_monk"], jsx: <><h2 id="arc-monk-brazen_disciple_uc-brazen-disciple">Brazen Disciple</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 104</Link><br/>Of the three monasteries, the Monastery of Unblinking Flame has been the most successful in developing a specific and unique fighting style that sets its disciples apart from other monks. In order to be admitted into the Monastery of Unblinking Flame and become one of these disciples, a supplicant must prove his worth by outwitting an <Link to="/monster/efreeti">efreeti</Link>. Those who succeed often become monks known as the brazen disciples.</p>
 <p>Brazen disciples believe that the best way to prepare for this test is to emulate the efreeti's own duplicitous ways. By studying genie contracts, brazen disciples learn how to take advantage of loopholes, and by pondering riddles, they learn how to obfuscate truth. They use deception in their fighting style, and many go a step further, incorporating fire and smoke both mundane and magical. Though most brazen disciples focus on joining the <Link to="/rule/houses_of_perfection">Houses of Perfection</Link>, some become enamored with the efreet and instead seek out genie masters.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (religion), Ride, Swim</Pair></Ability>
 <Ability id="feinting-flurry-ex" icon={["mailed-fist","armor-downgrade"]}>
@@ -548,8 +548,8 @@ const _hellcat = {title: "Hellcat", jsx: <><h2 id="arc-monk-hellcat-hellcat">Hel
 <Pair hl title="Alters">Alignment requirements</Pair>
 <Pair title="Info">A hellcat must be lawful evil or lawful neutral. A hellcat who becomes lawful good or nonlawful cannot gain new levels as a monk but retains all monk abilities.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Craft, Knowledge (history), Perform, Profession</Pair></Ability>
 <Ability id="weapon-proficiency" icon={["info"]}>
@@ -1401,8 +1401,8 @@ const _karmic_monk = {title: "Karmic Monk", jsx: <><h2 id="arc-monk-karmic_monk-
 <Pair hl title="Alters">Alignment requirement</Pair>
 <Pair title="Info">A karmic monk must be true neutral or of any lawful alignment.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Intimidate</Pair></Ability>
 <Ability id="karmic-strike-su" icon={["upgrade"]}>

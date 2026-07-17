@@ -35,8 +35,8 @@ const _abolisher = {title: "Abolisher", jsx: <><h2 id="arc-inquisitor-abolisher-
 </>};
 const _cloaked_wolf = {title: "Cloaked Wolf", jsx: <><h2 id="arc-inquisitor-cloaked_wolf-cloaked-wolf">Cloaked Wolf</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 28</Link><br/>Some inquisitors are adept at appearing harmless until they throw off their unassuming facades and take their enemies by surprise.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Intimidate</Pair></Ability>
 <Ability id="lure-prey-ex" icon={["upgrade"]}>
@@ -611,8 +611,8 @@ const _oathkeeper = {title: "Oathkeeper", jsx: <><h2 id="arc-inquisitor-oathkeep
 <Pair hl title="Alters">Alignment requirements</Pair>
 <Pair title="Info">An oathkeeper must be of a lawful alignment, and her alignment must be within one step of her deity's.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/appraise">Appraise</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature)</Pair></Ability>
 <Ability id="divine-witness-su" icon={["stairs-goal"]}>
@@ -752,8 +752,8 @@ const _relic_hunter = {title: "Relic Hunter", jsx: <><h2 id="arc-inquisitor-reli
 </>};
 const _royal_accuser = {title: "Royal Accuser", jsx: <><h2 id="arc-inquisitor-royal_accuser-royal-accuser">Royal Accuser</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 45</Link><br/>Royal accusers serve the prince of Ustalav, cutting through the nation's baroque politics and quietly facing its many threats.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature)</Pair></Ability>
 <Ability id="meticulous-inspection-ex" icon={["upgrade"]}>
@@ -971,8 +971,8 @@ const _spellbreaker = {title: "Spellbreaker", jsx: <><h2 id="arc-inquisitor-spel
 </>};
 const _suit_seeker = {title: "Suit Seeker", jsx: <><h2 id="arc-inquisitor-suit_seeker-suit-seeker">Suit Seeker</h2>
 <p><strong>Sources</strong> <Link to="/source/the_harrow_handbook">The Harrow Handbook pg. 22</Link><br/>Though surrounded by meaning and tradition revered by most harrowers, the harrow is a tool that could be abused. Those inquisitors known as suit seekers take grave offense at the misuse of this ancient power, and dedicate their considerable skills to hunting and eliminating any who would abuse the harrow's magic and the heritage it represents. No two suit seekers seem to share the same vision, though, and so most of these harrow-wielding inquisitors end up at odds with other diviners throughout Avistan and even one another.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-inquisitor-suit_seeker--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A suit seeker's alignment must be neutral on the good-evil axis, the lawful-chaotic axis, or both.</td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-inquisitor-suit_seeker--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>A suit seeker's alignment must be neutral on the good-evil axis, the lawful-chaotic axis, or both.</td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Ride, Survival</Pair></Ability>
 <Ability id="domain" icon={["info"]}>
@@ -1148,8 +1148,8 @@ const _traceless_operative = {title: "Traceless Operative", jsx: <><h2 id="arc-i
 </>};
 const _umbral_stalker = {title: "Umbral Stalker", jsx: <><h2 id="arc-inquisitor-umbral_stalker-umbral-stalker">Umbral Stalker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 31</Link><br/>As a consummate lurker in the shadows, an umbral stalker observes the enemies of her faith and strikes before the unfortunate victims even know she is skulking nearby.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Diplomacy</Pair></Ability>
 <Ability id="dark-descent-su" icon={["info"]}>
@@ -1185,8 +1185,8 @@ const _umbral_stalker = {title: "Umbral Stalker", jsx: <><h2 id="arc-inquisitor-
 </>};
 const _urban_infiltrator = {title: "Urban Infiltrator", jsx: <><h2 id="arc-inquisitor-urban_infiltrator-urban-infiltrator">Urban Infiltrator</h2>
 <p><strong>Sources</strong> <Link to="/source/magic_tactics_toolbox">Magic Tactics Toolbox pg. 18</Link><br/>Masters of secretly gathering information to further their faith's ends, urban infiltrators excel at operating within an unfriendly society or infiltrating an enemy cult. This archetype is popular among Cult of the <Link to="/faith/sarenrae">Dawnflower</Link> inquisitors operating in Taldor, but it is available to any inquisitor who prefers subtle investigation to forthright zeal.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (nature)</Pair></Ability>
 <Ability id="gifted-detective-ex" icon={["upgrade"]}>

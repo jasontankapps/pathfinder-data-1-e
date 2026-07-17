@@ -106,8 +106,8 @@ const _battle_scout = {title: "Battle Scout", jsx: <><h2 id="arc-ranger-battle_s
 </>};
 const _beast_master = {title: "Beast Master", jsx: <><h2 id="arc-ranger-beast_master-beast-master">Beast Master</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 124</Link><br/>Some rangers, particularly those in primitive lands or who were raised by animals, have unusually strong bonds with animals. Unique among rangers, they can bond with multiple animals of any kind, creating a menagerie of wild yet loyal creatures, like a strange family. A beast master has the following class features.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (geography), Profession, Spellcraft</Pair></Ability>
 <Ability id="animal-companion-ex" icon={["stairs-goal"]}>
@@ -253,8 +253,8 @@ const _cinderwalker = {title: "Cinderwalker", jsx: <><h2 id="arc-ranger-cinderwa
 </>};
 const _code_runner = {title: "Code Runner", jsx: <><h2 id="arc-ranger-code_runner-code-runner">Code Runner</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 40</Link><br/>A code runner specializes in the subtle and speedy transfer of secret messages. He performs long runs between distant lands, sometimes spanning continents and often traversing difficult terrain. He trains his mind both to memorize long messages and to resist any attempts to steal his covert communiques.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair>
 <Pair title="Removed Skills">Handle Animal, Heal</Pair></Ability>
 <Ability id="mnemonic-genius-ex" icon={["stairs-goal"]}>
@@ -272,8 +272,8 @@ const _code_runner = {title: "Code Runner", jsx: <><h2 id="arc-ranger-code_runne
 </>};
 const _corpse_hunter = {title: "Corpse Hunter", jsx: <><h2 id="arc-ranger-corpse_hunter-corpse-hunter">Corpse Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 24</Link><br/>Many rangers count the undead among their <em>favored enemies,</em> but some make a full-time job out of hunting down and destroying these walking corpses. A corpse hunter has the following class features.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature)</Pair></Ability>
 <Ability id="spells" icon={["spell-book"]}>
@@ -319,8 +319,8 @@ const _corpse_hunter = {title: "Corpse Hunter", jsx: <><h2 id="arc-ranger-corpse
 </>};
 const _dandy = {title: "Dandy", jsx: <><h2 id="arc-ranger-dandy-dandy">Dandy</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 41</Link><br/>The antithesis of the gruff and wild woodsmen, a dandy takes effort to master the subtle etiquette of noble courts, the whispers of dark rumors, and the customs of the cultured world. Nonetheless, he is still a ranger at heart, and he hunts for rumors and gossip throughout the grand ballrooms of the wealthy and powerful just as most rangers hunt for enemies in the wilderness.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (dungeoneering), Knowledge (geography), Knowledge (nature), Survival</Pair></Ability>
 <Ability id="favored-nation-ex" icon={["stairs-goal"]}>
@@ -452,8 +452,8 @@ const _divine_tracker = {title: "Divine Tracker", jsx: <><h2 id="arc-ranger-divi
 </>};
 const _dragon_hunter = {title: "Dragon Hunter", jsx: <><h2 id="arc-ranger-dragon_hunter-dragon-hunter">Dragon Hunter</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 22</Link><br/>The quintessential dragonslayers, dragon hunters are experts at forging through the wilds in search of great wyrms. Dragon hunters have the following class features.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT)</Pair></Ability>
 <Ability id="predatory-deduction-ex" icon={["stairs-goal"]}>
 <Pair single id="predatory-deduction-ex">Predatory Deduction (Ex)</Pair>
@@ -510,8 +510,8 @@ const _drake_warden = {title: "Drake Warden", jsx: <><h2 id="arc-ranger-drake_wa
 </>};
 const _dungeon_rover = {title: "Dungeon Rover", jsx: <><h2 id="arc-ranger-dungeon_rover-dungeon-rover">Dungeon Rover</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 22</Link><br/>These rangers specialize in surviving hostile subterranean environs. They are well equipped to avoid traps, spot secret passages, and deal with inimical dungeon tenants.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Ride</Pair></Ability>
 <Ability id="stone-scouting-ex" icon={["armor-upgrade"]}>
@@ -545,8 +545,8 @@ const _dungeon_rover = {title: "Dungeon Rover", jsx: <><h2 id="arc-ranger-dungeo
 </>};
 const _dusk_stalker = {title: "Dusk Stalker", jsx: <><h2 id="arc-ranger-dusk_stalker-dusk-stalker">Dusk Stalker</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 110</Link><br/>Hunters and guides through the Shadow Plane, dusk stalkers are rangers that thrive in shadow. Adept at hunting in dusk, darkness, and twilight, these rangers excel at manipulating shadows.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-dusk_stalker--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/fetchling">Fetchling</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ranger-dusk_stalker--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/fetchling">Fetchling</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature)</Pair></Ability>
 <Ability id="shadow-guide" icon={["broken-shield","upgrade"]}>
@@ -731,8 +731,8 @@ const _freebooter = {title: "Freebooter", jsx: <><h2 id="arc-ranger-freebooter-f
 </>};
 const _galvanic_saboteur = {title: "Galvanic Saboteur", jsx: <><h2 id="arc-ranger-galvanic_saboteur-galvanic-saboteur">Galvanic Saboteur</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River pg. 25</Link><br/>The transformation of the great warlord Kevoth-Kul into the hedonistic Black Sovereign a few decades ago was difficult for the people of Numeria to accept. Many Kellid locals blame Kevoth-Kul's change on the influence of the Technic League and view both the League and their mechanical minions with a mix of fear and distrust. Some Kellid rangers have since developed skills to defeat the League's robotic enforcers and devious arcanists.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (dungeoneering)</Pair></Ability>
 <Ability id="favored-enemy-ex" icon={["broken-shield"]}>
@@ -844,8 +844,8 @@ const _guide = {title: "Guide", jsx: <><h2 id="arc-ranger-guide-guide">Guide</h2
 </>};
 const _guildbreaker = {title: "Guildbreaker", jsx: <><h2 id="arc-ranger-guildbreaker-guildbreaker">Guildbreaker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 41</Link><br/>Some rangers aren't the type to put their steel and sweat behind fighting particular kinds of creatures. Instead, these shrewd warriors alter their focus and dedicate their efforts to dismantling enemy organizations. Guildbreakers stoke their enmity for their foes, and they train to track the movements of rival organizations, and even to infiltrate these groups to gather secret intelligence.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Handle Animal, Heal, Knowledge (geography)</Pair></Ability>
 <Ability id="favored-organization-ex" icon={["broken-shield","stairs-goal"]}>
@@ -1088,8 +1088,8 @@ const _infiltrator = {title: "Infiltrator", jsx: <><h2 id="arc-ranger-infiltrato
 </ol></section></>};
 const _jungle_lord = {title: "Jungle Lord", jsx: <><h2 id="arc-ranger-jungle_lord-jungle-lord">Jungle Lord</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_worldscape_4">Pathfinder Worldscape #4 pg. 25</Link><br/>Whether raised from birth under the jungle canopy in a native tribe or settlement, marooned as a child and reared by animals, or simply an ordinary person lost in the trackless tangle and forced to thrive in the wilderness or die, jungle lords are tempered by their harsh and unforgiving environments into something more than ordinary men and women. Their ordeals and experiences combine the physical prowess gained as a result of life hunting dangerous beasts with the wisdom gained from surviving countless natural dangers to earn them the respect of the jungle's denizens, man and animal alike.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Spellcraft</Pair></Ability>
 <Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
@@ -1272,8 +1272,8 @@ const _nirmathi_irregular = {title: "Nirmathi Irregular", jsx: <><h2 id="arc-ran
 </ol></section></>};
 const _planar_scout = {title: "Planar Scout", jsx: <><h2 id="arc-ranger-planar_scout-planar-scout">Planar Scout</h2>
 <p><strong>Sources</strong> <Link to="/source/planar_adventures">Planar Adventures pg. 17</Link><br/>Planar scouts are rangers specializing in traversing the planes - and surviving their journeys.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
 <Ability id="planar-empathy-ex" icon={["broken-shield","stairs-goal"]}>
@@ -1393,8 +1393,8 @@ const _poison_darter = {title: "Poison Darter", jsx: <><h2 id="arc-ranger-poison
 const _raven_master = {title: "Raven Master", jsx: <><h2 id="arc-ranger-raven_master-raven-master">Raven Master</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 175</Link><br/>While the <Link to="/rule/silver_ravens">Silver Ravens</Link> adopted their name as a way to honor the group of adventurers who defended Kintargo during the Chelish Civil War, some Silver Ravens have gone even farther, breeding and training actual ravens to serve both as living symbols of the organization and as fearsome weapons against House Thrune and its diabolic servants. These rangers, known as raven masters, eschew a ranger's usual connection to the natural world to form a mystic bond with their birds and to grant both animal and master a number of specialized abilities. Over time, the feathers of these raven companions take on a silvery sheen, causing them to resemble the birds produced by the figurines of wondrous power, which served as the original Silver Ravens' namesake.</p>
 <p>Raven masters serve as messengers and spies for the Silver Ravens, using their ravens to scout the border between Ravounel and Cheliax and report any suspicious Thrune troop movements. Outside of Cheliax, raven companions alight on the rooftops and window ledges of palaces and keeps to eavesdrop on tyrants and dictators, feeding these precious secrets to the raven master so that she can more efficiently foment and organize rebellion.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Climb, Heal, Intimidate, Ride, Swim</Pair></Ability>
 <Ability id="avian-empathy-ex" icon={["broken-shield"]}>
@@ -1435,8 +1435,8 @@ const _raven_master = {title: "Raven Master", jsx: <><h2 id="arc-ranger-raven_ma
 </>};
 const _realm_wanderer = {title: "Realm Wanderer", jsx: <><h2 id="arc-ranger-realm_wanderer-realm-wanderer">Realm Wanderer</h2>
 <p><strong>Sources</strong> <Link to="/source/distant_realms">Distant Realms pg. 22</Link><br/>Some of the most free-roaming rangers are those who tread between locales so varied that they may as well be separate worlds altogether - and quite often these disparate places are literally <Link to="/rule/hell">Hell</Link> and the Material Plane. Like the Queen of Dis, whom many of them admire, these rangers take to heart the lessons they've learned from their vastly contrasting experiences and know that creatively embracing this wisdom is sometimes the difference between life and death.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/bluff">Bluff</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Intimidate, Stealth</Pair></Ability>
 <Ability id="deceptive-subtlety-ex" icon={["upgrade"]}>
@@ -1813,8 +1813,8 @@ const _summit_sentinel = {title: "Summit Sentinel", jsx: <><h2 id="arc-ranger-su
 </>};
 const _sword_devil = {title: "Sword-Devil", jsx: <><h2 id="arc-ranger-sword_devil-sword-devil">Sword-Devil</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_worldscape_1">Pathfinder Worldscape #1 pg. 27</Link><br/>Agile, vengeful, and deadly, a sword-devil fights with precision and grace, channeling the difficult lessons of a star-crossed life into unparalleled battle prowess. Favoring speed and evasive techniques over brute force, sword-devils choose precision over power and acrobatics over armor. Charismatic and carefree, a sword-devil makes fast friends and inspires her companions to greatness, even while vowing a swift death upon her enemies.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Spellcraft</Pair></Ability>
 <Ability id="death-vow-ex" icon={["upgrade"]}>
@@ -1877,8 +1877,8 @@ const _sword_devil = {title: "Sword-Devil", jsx: <><h2 id="arc-ranger-sword_devi
 </>};
 const _tanglebriar_demonslayer = {title: "Tanglebriar Demonslayer", jsx: <><h2 id="arc-ranger-tanglebriar_demonslayer-tanglebriar-demonslayer">Tanglebriar Demonslayer</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_combat">Inner Sea Combat pg. 46</Link><br/>During the elves' long absence from Golarion, the nascent demon lord <Link to="/monster/treerazer">Treerazer</Link> took up residence in the Fierani Forest in what is now the Elven kingdom of Kyonin. Eventually, the demon's presence in the forest drew the elves back to Golarion, who sought to purge the fiendish blight from this once-sacred land. They defeated Treerazer but could not destroy him, forcing him instead into the southern reaches of the Fierani, a corrupted region of twisted plants and fiendish denizens called Tanglebriar. Even today, the <Link to="/race/elves">elves</Link> constantly battle to keep the corruption in the Tanglebriar from spreading to the rest of the Fierani Forest and beyond. Though they are sworn foes of Treerazer and his kin, Tanglebriar demonslayers are known to venture forth from Kyonin to broaden their expertise in the destruction of demons.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair></Ability>
 <Ability id="favored-enemy-ex" icon={["broken-shield","armor-upgrade"]}>
 <Pair single id="favored-enemy-ex">Favored Enemy (Ex)</Pair>
@@ -2069,8 +2069,8 @@ const _transporter = {title: "Transporter", jsx: <><h2 id="arc-ranger-transporte
 </ol></section></>};
 const _trapper = {title: "Trapper", jsx: <><h2 id="arc-ranger-trapper-trapper">Trapper</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 65</Link><br/>A trapper is a ranger who focuses exclusively on traps, rather than learning conventional magic. A trapper has the following class features.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</Pair></Ability>
 <Ability id="trapfinding" icon={["upgrade","stairs-goal"]}>
 <Pair single id="trapfinding">Trapfinding</Pair>
@@ -2125,8 +2125,8 @@ const _trophy_hunter = {title: "Trophy Hunter", jsx: <><h2 id="arc-ranger-trophy
 </>};
 const _urban_ranger = {title: "Urban Ranger", jsx: <><h2 id="arc-ranger-urban_ranger-urban-ranger">Urban Ranger</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 130</Link><br/>For the urban ranger, the streets and sewers of the city are just as dangerous as the barren wastelands or the deep forests. An urban ranger has the following class features.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (nature)</Pair></Ability>
 <Ability id="favored-community-ex" icon={["upgrade"]}>
@@ -2402,8 +2402,8 @@ const _wild_stalker = {title: "Wild Stalker", jsx: <><h2 id="arc-ranger-wild_sta
 </ol></section></>};
 const _wilderness_explorer = {title: "Wilderness Explorer", jsx: <><h2 id="arc-ranger-wilderness_explorer-wilderness-explorer">Wilderness Explorer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 74</Link><br/>Wilderness explorers are adept at making peaceful contact with remote societies.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Intimidate, Knowledge (dungeoneering)</Pair></Ability>
 <Ability id="cultural-contact-ex" icon={["stairs-goal"]}>
@@ -2470,8 +2470,8 @@ const _wilderness_medic = {title: "Wilderness Medic", jsx: <><h2 id="arc-ranger-
 </>};
 const _witchguard = {title: "Witchguard", jsx: <><h2 id="arc-ranger-witchguard-witchguard">Witchguard</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North pg. 25</Link><br/>Witchguards are the sworn defenders of the White Witches of Irrisen. Although the White Witches are spellcasters of immense power, even they cannot defend themselves against every attack. Witchguards dedicate their lives to protecting their charges, and they gain some arcane knowledge in return. They are trained to work closely with witches and defend their charges from harm. Witchguards learn magical abilities from the same patrons that grant witches their powers, though they can use their abilities to protect any kind of spellcaster, not just a witch. A witchguard is ready to face any foe that might threaten his charge, and he is ever prepared to lay down his life to protect the life of the person he is sworn to defend.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (dungeoneering)</Pair></Ability>
 <Ability id="defend-charge-ex" icon={["shield-reflect"]}>

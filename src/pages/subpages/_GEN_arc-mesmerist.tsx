@@ -59,8 +59,8 @@ const _autohypnotist = {title: "Autohypnotist", jsx: <><h2 id="arc-mesmerist-aut
 </>};
 const _chart_caster = {title: "Chart Caster", jsx: <><h2 id="arc-mesmerist-chart_caster-chart-caster">Chart Caster</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 10</Link><br/>Lirgeni astrologists would divine their futures by consulting star charts, but some had no talent for astrology and simply faked their results. When prophecy died with Aroden, a few Lirgeni survivors continued with this "reliable" method.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair></Ability>
 <Ability id="subject-of-the-stars-su" icon={["broken-shield","stairs-goal"]}>
 <Pair single id="subject-of-the-stars-su">Subject of the Stars (Su)</Pair>
@@ -305,8 +305,8 @@ const _eyebiter = {title: "Eyebiter", jsx: <><h2 id="arc-mesmerist-eyebiter-eyeb
 </>};
 const _fey_trickster = {title: "Fey Trickster", jsx: <><h2 id="arc-mesmerist-fey_trickster-fey-trickster">Fey Trickster</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 37</Link><br/>Most mesmerists draw psychic power from the Astral Plane, but a few gain their powers in an unusual way: from a brush with the fey. Prisoner-guests of the fey, these souls find themselves changed when they return to the mortal world, infused with the eldritch energy of their former hosts.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Appraise, Knowledge (dungeoneering), Profession</Pair></Ability>
 <Ability id="natures-lure" icon={["magic-swirl"]}>
@@ -714,8 +714,8 @@ const _umbral_mesmerist = {title: "Umbral Mesmerist", jsx: <><h2 id="arc-mesmeri
 </>};
 const _vexing_daredevil = {title: "Vexing Daredevil", jsx: <><h2 id="arc-mesmerist-vexing_daredevil-vexing-daredevil">Vexing Daredevil</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 98</Link><br/>Vexing daredevils train their psychic powers for combat, specializing in momentarily blinding and confusing their foes with sudden feints and tricks.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</Pair></Ability>
 <Ability id="martial-weapon-proficiency-ex" icon={["stairs-goal"]}>
 <Pair single id="martial-weapon-proficiency-ex">Martial Weapon Proficiency (Ex)</Pair>

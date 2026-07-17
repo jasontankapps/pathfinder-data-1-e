@@ -629,8 +629,8 @@ const _jinyiwei = {title: "Jinyiwei", jsx: <><h2 id="arc-investigator-jinyiwei-j
 </>};
 const _lamplighter = {title: "Lamplighter", jsx: <><h2 id="arc-investigator-lamplighter-lamplighter">Lamplighter</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 17</Link><br/>Lamplighters are investigators tasked with keeping the night streets safe and lit, and securing darkened areas against whatever dangers lurk in the shadows. They also investigate those who seek to hide their crimes from the light of day.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="Removed Skills">Perform, Profession</Pair></Ability>
 <Ability id="lamplighter-su" icon={["stairs-goal"]}>
 <Pair single id="lamplighter-su">Lamplighter (Su)</Pair>
@@ -845,8 +845,8 @@ const _mastermind = {title: "Mastermind", jsx: <><h2 id="arc-investigator-master
 </>};
 const _natural_philosopher = {title: "Natural Philosopher", jsx: <><h2 id="arc-investigator-natural_philosopher-natural-philosopher">Natural Philosopher</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 56</Link><br/>Natural philosophers are scholars, explorers, and survivalists who feel at home in nature, seldom longing for the comforts of the city. They eschew the fancy tools and weaponry of gentlefolk detectives and instead employ weapons that double as tools, materials available in nature, and methods better suited for untamed wilderness.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Perform</Pair></Ability>
 <Ability id="weapon-and-armor-proficiency" icon={["info"]}>
@@ -953,8 +953,8 @@ const _profiler = {title: "Profiler", jsx: <><h2 id="arc-investigator-profiler-p
 </>};
 const _psychic_detective = {title: "Psychic Detective", jsx: <><h2 id="arc-investigator-psychic_detective-psychic-detective">Psychic Detective</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 119</Link><br/>A psychic detective supplements her keen insight with occult skill to unravel mysteries both ordinary and supernatural.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="Removed Skills">Acrobatics, Climb, Perform</Pair></Ability>
 <Ability id="spells" icon={["magic-swirl"]}>
 <Pair single id="spells">Spells</Pair>

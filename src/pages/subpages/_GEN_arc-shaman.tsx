@@ -142,8 +142,8 @@ const _deep_shaman = {title: "Deep Shaman", jsx: <><h2 id="arc-shaman-deep_shama
 <Pair hl title="Alters">Spirit, spirit animal</Pair>
 <Pair title="Info">A deep shaman must choose the <Link to="/shamanspirit/waves">waves</Link> spirit. The deep shaman must choose a spirit animal with the <Link to="/subtype/aquatic">aquatic</Link> subtype, and it gains the <Link to="/umr/amphibious">amphibious</Link> special quality instead of gaining the ability to breathe in water.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/swim">Swim</Link> (STR)</Pair></Ability>
 <Ability id="aquatic-hexes-su" extraClasses="hasSubs" icon={["armor-downgrade"]}>
 <Pair single id="aquatic-hexes-su">Aquatic Hexes (Su)</Pair>
@@ -235,8 +235,8 @@ const _grasping_vine = {title: "Grasping Vine", jsx: <><h2 id="arc-shaman-graspi
 const _name_keeper = {title: "Name-Keeper", jsx: <><h2 id="arc-shaman-name_keeper-name-keeper">Name-Keeper</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 145</Link><br/>Pathfinders who perish in the pursuit of greater knowledge are commemorated on the Wall of Names, a curving monument of black glass at the Grand Lodge. Originally started as a humble memorial, the Wall of Names is now a moving testament to all those who have given their lives to further the cause of the <Link to="/rule/pathfinder_society">Pathfinder Society</Link>, and for many agents, an expedition to Absalom is as much a chance to visit the Wall of Names and seek out a vanished loved one, relation, or departed friend as it is an opportunity to visit the place where it all began.</p>
 <p>A decade ago, a small cadre of agents began studying the fallen names, correlating these adventurers with the quests they were on when they perished or went missing, and then took it upon themselves to finish these incomplete missions - but in so doing these agents made an unexpected discovery. In delving into the storied histories etched into the Wall of Names, these agents have discovered how to commune with the departed spirits of those whose names are memorialized on the monument. These mystical agents soon became known as name-keepers, and they pride themselves on helping their predecessors find peace while preventing other Pathfinders' names from being added to the wall.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature), Knowledge (planes), Survival</Pair></Ability>
 <Ability id="inherited-wayfinder-su" extraClasses="hasSubs" icon={["stairs-goal"]}>
@@ -426,8 +426,8 @@ const _serendipity_shaman = {title: "Serendipity Shaman", jsx: <><h2 id="arc-sha
 </ol></section></>};
 const _speaker_for_the_past = {title: "Speaker for the Past", jsx: <><h2 id="arc-shaman-speaker_for_the_past-speaker-for-the-past">Speaker for the Past</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 111</Link><br/>A speaker for the past is a shaman who specifically serves as the voice for spirits from her people's history. A speaker for the past is often an advocate of the ancestors of a specific group, the voice of experience, and a powerful resource that allows the past to aid the present.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</Pair></Ability>
 <Ability id="mysteries-of-the-past" icon={["spell-book"]}>
 <Pair single id="mysteries-of-the-past">Mysteries of the Past</Pair>
@@ -449,8 +449,8 @@ const _speaker_for_the_past = {title: "Speaker for the Past", jsx: <><h2 id="arc
 </>};
 const _spirit_warden = {title: "Spirit Warden", jsx: <><h2 id="arc-shaman-spirit_warden-spirit-warden">Spirit Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 112</Link><br/>Not all spirits deserve reverence and respect. Some are twisted and despicable. It's a spirit warden's duty to end these spirits' existence.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Diplomacy, Handle Animal</Pair></Ability>
 <Ability id="unnatural-mien-ex" icon={["upgrade"]}>
@@ -488,8 +488,8 @@ const _spirit_warden = {title: "Spirit Warden", jsx: <><h2 id="arc-shaman-spirit
 </>};
 const _true_silvered_throne = {title: "True Silvered Throne", jsx: <><h2 id="arc-shaman-true_silvered_throne-true-silvered-throne">True Silvered Throne</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 23</Link><br/>Members in good standing who have risen to a prestigious rank within the Esoteric Order of the Palatine Eye, true silvered thrones have managed to discover rituals and occult secrets within the lore of their order. They are scholars of ancient mysteries and keepers of forbidden secrets who go beyond simply learning eldritch traditions to make the occult a part of their very souls.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Handle Animal, Survival</Pair></Ability>
 <Ability id="occult-grimoire-ex" icon={["spell-book","hazard-sign"]}>

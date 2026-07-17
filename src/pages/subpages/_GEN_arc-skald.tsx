@@ -103,8 +103,8 @@ const _battle_scion = {title: "Battle Scion", jsx: <><h2 id="arc-skald-battle_sc
 </>};
 const _bekyar_demon_dancer = {title: "Bekyar Demon Dancer", jsx: <><h2 id="arc-skald-bekyar_demon_dancer-bekyar-demon-dancer">Bekyar Demon Dancer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins pg. 18</Link><br/>While the twisted power of the demon-worshiping Bekyar's skalds is great, it comes at a terrible price.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perform">Perform</Link> (dance) (CHA)</Pair></Ability>
 <Ability id="versatile-performance-ex" icon={["stairs-goal"]}>
 <Pair single id="versatile-performance-ex">Versatile Performance (Ex)</Pair>
@@ -219,8 +219,8 @@ const _boaster = {title: "Boaster", jsx: <><h2 id="arc-skald-boaster-boaster">Bo
 <p><strong className="hl">The following rage powers complement the boaster archetype:</strong> <Link to="/ragepower/boasting_taunt">boasting taunt</Link>, <Link to="/ragepower/come_and_get_me">come and get me</Link>, <Link to="/ragepower/fearless_rage">fearless rage</Link>, <Link to="/ragepower/fierce_fortitude">fierce fortitude</Link>, <Link to="/ragepower/intimidating_glare">intimidating glare</Link>, <Link to="/ragepower/raging_climber">raging climber</Link>, <Link to="/ragepower/raging_flier">raging flier</Link>, <Link to="/ragepower/raging_leaper">raging leaper</Link>, <Link to="/ragepower/raging_swimmer">raging swimmer</Link>, <Link to="/ragepower/sprint">sprint</Link>, <Link to="/ragepower/strength_surge">strength surge</Link>, <Link to="/ragepower/swift_foot">swift foot</Link></p></>};
 const _bold_schemer = {title: "Bold Schemer", jsx: <><h2 id="arc-skald-bold_schemer-bold-schemer">Bold Schemer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 48</Link><br/>The bold schemer combines wrath, wits, and daring to win battles and wars in unconventional ways, often through infiltration and deception. If raw force of arms is insufficient, she improvises ways to pull victory from the jaws of defeat.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Knowledge (arcana), Knowledge (dungeoneering), Knowledge (planes)</Pair></Ability>
 <Ability id="bardic-knowledge" icon={["broken-shield"]}>

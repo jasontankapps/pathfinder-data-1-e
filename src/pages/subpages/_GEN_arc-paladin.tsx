@@ -7,8 +7,8 @@ import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 const _banishing_warden = {title: "Banishing Warden", jsx: <><h2 id="arc-paladin-banishing_warden-banishing-warden">Banishing Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 18</Link><br/>The banishing warden is an expert at fighting all types of evil outsiders and sending them back to their native planes.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nobility)</Pair></Ability>
 <Ability id="smite-evil-su" icon={["broken-shield","upgrade"]}>
@@ -39,8 +39,8 @@ const _champion_of_the_cascade = {title: "Champion of the Cascade", jsx: <><h2 i
 <Pair hl title="Alters">Armor proficiency</Pair>
 <Pair title="Info">A champion of the cascade is proficient with light armor, medium armor, and shields (except tower shields).</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/swim">Swim</Link> (STR)</Pair>
 <Pair title="Removed Skills">Knowledge (nobility)</Pair></Ability>
 <Ability id="swiftsurge-ex" icon={["upgrade"]}>
@@ -291,8 +291,8 @@ const _divine_hunter = {title: "Divine Hunter", jsx: <><h2 id="arc-paladin-divin
 </>};
 const _dusk_knight = {title: "Dusk Knight", jsx: <><h2 id="arc-paladin-dusk_knight-dusk-knight">Dusk Knight</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_shadows">Blood of Shadows pg. 18</Link><br/>Some paladins focus their training to combat the shadows and use darkness to their advantage. Known as dusk knights, these paladins are primarily worshipers of <Link to="/faith/abadar">Abadar</Link>, but dusk knights who serve <Link to="/faith/iomedae">Iomedae</Link> and <Link to="/faith/irori">Irori</Link>, though rare, do exist.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Sense Motive</Pair></Ability>
 <Ability id="shadow-smite-su" icon={["armor-upgrade","broken-shield"]}>
@@ -380,8 +380,8 @@ const _empyreal_knight = {title: "Empyreal Knight", jsx: <><h2 id="arc-paladin-e
 </>};
 const _faithful_wanderer = {title: "Faithful Wanderer", jsx: <><h2 id="arc-paladin-faithful_wanderer-faithful-wanderer">Faithful Wanderer</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes pg. 18</Link><br/>While most paladins stride brazenly forth to battle evil in gleaming armor, faithful wanderers understand that to accomplish real change in Abyssal environments, a paladin must learn to be self-sufficient and unobtrusive and that she must pick her battles carefully, lest her mission end abruptly in a blaze of glory.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Diplomacy, Handle Animal, Knowledge (nobility), Ride</Pair></Ability>
 <Ability id="wanderers-lore" icon={["skills","upgrade"]}>
@@ -422,8 +422,8 @@ const _faithful_wanderer = {title: "Faithful Wanderer", jsx: <><h2 id="arc-palad
 </>};
 const _forest_preserver = {title: "Forest Preserver", jsx: <><h2 id="arc-paladin-forest_preserver-forest-preserver">Forest Preserver</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 70</Link><br/>Forest preservers are sacred defenders of the woodlands and of the wild creatures and natural beauty within them.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Diplomacy, Knowledge (nobility), Sense Motive</Pair></Ability>
 <Ability id="favored-terrain-ex" icon={["upgrade"]}>
@@ -538,8 +538,8 @@ const _gray_paladin = {title: "Gray Paladin", jsx: <><h2 id="arc-paladin-gray_pa
 <Pair hl title="Alters">Alignment restrictions</Pair>
 <Pair title="Info">A gray paladin can be lawful good, lawful neutral, or neutral good, though she must still follow a lawful good, neutral good, or lawful neutral deity.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
 <Ability id="weakened-grace" icon={["broken-shield","info"]}>
 <Pair single id="weakened-grace" flavor="A gray paladin's loosened code weakens her connection to the power that grants her paladin abilities.">Weakened Grace</Pair>
@@ -583,8 +583,8 @@ const _gray_paladin = {title: "Gray Paladin", jsx: <><h2 id="arc-paladin-gray_pa
 </>};
 const _holy_guide = {title: "Holy Guide", jsx: <><h2 id="arc-paladin-holy_guide-holy-guide">Holy Guide</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 107</Link><br/>A holy guide believes that it's his sacred calling to clear the roads of bandits between towns as well as to escort travelers to safety. He must enforce the rule of law in the wilderness and help those that cannot defend themselves against the many dangers of the area.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
 <Ability id="favored-terrain-ex" icon={["upgrade"]}>
 <Pair single id="favored-terrain-ex">Favored Terrain (Ex)</Pair>
@@ -721,8 +721,8 @@ const _hospitaler = {title: "Hospitaler", jsx: <><h2 id="arc-paladin-hospitaler-
 </>};
 const _hunting_paladin = {title: "Hunting Paladin", jsx: <><h2 id="arc-paladin-hunting_paladin-hunting-paladin">Hunting Paladin</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 70</Link><br/>Hunting paladins are tenacious trackers and stealthy stalkers in pursuit of evildoers.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Diplomacy, Heal, Knowledge (nobility), Spellcraft</Pair></Ability>
 <Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
@@ -793,8 +793,8 @@ const _invigorator = {title: "Invigorator", jsx: <><h2 id="arc-paladin-invigorat
 </>};
 const _iomedaen_enforcer = {title: "Iomedaen Enforcer", jsx: <><h2 id="arc-paladin-iomedaen_enforcer-iomedaen-enforcer">Iomedaen Enforcer</h2>
 <p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology pg. 6</Link><br/>Since the publication of The Majestic Book of the Prime Ascended, certain paladins have taken "Prime Commander" to heart and have developed their own methods of upholding the teachings in this book. Iomedaean enforcers have altered abilities that allow them to stand against the forces of chaos. They seek to maintain order and uphold the laws of just rulers and governments, pursuing any who break those laws or otherwise disrupt the peace. Still, they remain lawful good servants of <Link to="/faith/iomedae">Iomedae</Link>, and as such always seek to temper the justice they deliver with mercy.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Diplomacy, Knowledge (nobility)</Pair></Ability>
 <Ability id="detect-chaos-sp" icon={["magic-swirl"]}>
@@ -821,8 +821,8 @@ const _iomedaen_enforcer = {title: "Iomedaen Enforcer", jsx: <><h2 id="arc-palad
 </>};
 const _iroran_paladin = {title: "Iroran Paladin", jsx: <><h2 id="arc-paladin-iroran_paladin-iroran-paladin">Iroran Paladin</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_combat">Inner Sea Combat pg. 39</Link><br/>Iroran paladins meditate on self-perfection and train relentlessly, knowing that their example can inspire others to excel. <Link to="/faith/irori">Irori</Link> offers no universal paladin code; each paladin in his service creates his own code as part of his spiritual journey, seeing the adherence to such a self-formulated creed as one of the many tests one must face to reach perfection.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/swim">Swim</Link> (STR)</Pair></Ability>
 <Ability id="confident-defense-ex" icon={["armor-upgrade"]}>
 <Pair single id="confident-defense-ex">Confident Defense (Ex)</Pair>
@@ -888,8 +888,8 @@ const _iroran_paladin = {title: "Iroran Paladin", jsx: <><h2 id="arc-paladin-iro
 </>};
 const _knight_of_coins = {title: "Knight of Coins", jsx: <><h2 id="arc-paladin-knight_of_coins-knight-of-coins">Knight of Coins</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 28</Link><br/>Servants of gods who revere wealth, knights of coins promote fair trade and stable commerce between cities and between nations. Many of these knights are Abadarans, and some have also taken the sacred shield archetype. Regardless, knights of coins know that a prosperous city can uplift and enrich more people than pious prayers alone.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/appraise">Appraise</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</Pair></Ability>
 <Ability id="skills" icon={["info"]}>
 <Pair single id="skills">Skills</Pair>
@@ -1077,8 +1077,8 @@ const _pearl_seeker = {title: "Pearl Seeker", jsx: <><h2 id="arc-paladin-pearl_s
 <Pair hl title="Alters">Armor proficiency</Pair>
 <Pair title="Info">A pearl seeker is proficient with light and medium armor but not with shields.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/swim">Swim</Link> (STR)</Pair></Ability>
 <Ability id="seek-impressions-ex-sp" icon={["stairs-goal"]}>
 <Pair single id="seek-impressions-ex-sp" flavor="Pearl seekers gain their power from a rare resonant sensitivity to the vision-granting entity.">Seek Impressions (Ex, Sp)</Pair>
@@ -1251,8 +1251,8 @@ const _sacred_shield = {title: "Sacred Shield", jsx: <><h2 id="arc-paladin-sacre
 const _scion_of_talmandor = {title: "Scion of Talmandor", jsx: <><h2 id="arc-paladin-scion_of_talmandor-scion-of-talmandor">Scion of Talmandor</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 74</Link><br/>While all Steel Falcons are peerless proponents of the rights of the downtrodden, those who endeavor to make the spread of liberty as peaceful as possible often become scions of Talmandor, honoring the powerful avoral agathion who serves as the patron of the Steel Falcons. Talmandor is reluctant to act directly on behalf of the <Link to="/rule/eagle_knights">Eagle Knights</Link> and even more unwilling to accept their worship, preferring to lend assistance primarily by being a voice of reason and dispensing wise counsel when it is most needed. A scion of Talmandor attempts to exemplify this selfless altruism, offering assistance to the oppressed and facilitating the peaceful transfer of power from the few to the many.</p>
 <p>Scions of Talmandor look to the brutality of the revolution in Galt, Andoran's neighbor, as a cautionary tale and an unfortunate blemish on populism's short history. They also reject the Nirmathi notion of freedom, thinking it too individualistic; instead, they strive to build strong communities both at home and abroad. Wherever possible, a scion of Talmandor opts for peaceful, grassroots solutions to problems facing the many oppressed peoples of the Inner Sea region, encouraging them to take a central role in bettering their lot in life.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/fly">Fly</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Ride</Pair></Ability>
 <Ability id="scions-faith-ex" icon={["info"]}>
@@ -1557,8 +1557,8 @@ const _tortured_crusader = {title: "Tortured Crusader", jsx: <><h2 id="arc-palad
 <Pair hl title="Alters">Spellcasting, smite evil, lay on hands</Pair>
 <Pair title="Info">A tortured crusader uses Wisdom instead of Charisma as her key spellcasting ability score (to determine her spell DCs, bonus spells per day, bonus on concentration checks, and so on), and to determine the effects of <em>lay on hands.</em></Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Diplomacy, Handle Animal</Pair></Ability>
 <Ability id="self-sufficient" icon={["upgrade"]}>
@@ -1823,8 +1823,8 @@ const _warrior_of_the_holy_light = {title: "Warrior of the Holy Light", jsx: <><
 </>};
 const _wilderness_warden = {title: "Wilderness Warden", jsx: <><h2 id="arc-paladin-wilderness_warden-wilderness-warden">Wilderness Warden</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 71</Link><br/>Wilderness wardens are vigilant guardians of natural places of all kinds, from mountain peaks to tangled thickets.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/swim">Swim</Link> (STR)</Pair>
 <Pair title="Removed Skills">Diplomacy, Heal, Knowledge (nobility), Spellcraft</Pair></Ability>
 <Ability id="natural-defense-su" icon={["armor-upgrade"]}>

@@ -162,8 +162,8 @@ const _internal_alchemist = {title: "Internal Alchemist", jsx: <><h2 id="arc-alc
 </>};
 const _interrogator = {title: "Interrogator", jsx: <><h2 id="arc-alchemist-interrogator-interrogator">Interrogator</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 18</Link><br/>An interrogator extracts vital information from reluctant individuals using alchemical and traditional methods.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair></Ability>
 <Ability id="injections-su" icon={["magic-palm"]}>
 <Pair single id="injections-su">Injections (Su)</Pair>
@@ -236,8 +236,8 @@ const _mad_scientist = {title: "Mad Scientist", jsx: <><h2 id="arc-alchemist-mad
 </>};
 const _metamorph = {title: "Metamorph", jsx: <><h2 id="arc-alchemist-metamorph-metamorph">Metamorph</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 19</Link><br/>Metamorphs eschew traditional alchemy, focusing on internal chemistry and the transfiguration of living forms.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disguise">Disguise</Link> (CHA)</Pair></Ability>
 <Ability id="shapechanger-su" icon={["stairs-goal","magic-swirl"]}>
 <Pair single id="shapechanger-su">Shapechanger (Su)</Pair>
@@ -389,8 +389,8 @@ const _oenopion_researcher = {title: "Oenopion Researcher", jsx: <><h2 id="arc-a
 </>};
 const _oozemaster = {title: "Oozemaster", jsx: <><h2 id="arc-alchemist-oozemaster-oozemaster">Oozemaster</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 17</Link><br/>The oozemaster is a specialized alchemist who fights and ensnares oozes. An oozemaster carefully studies the characteristics of the oozes he hunts to help him create new and more effective mutagens and bombs.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature)</Pair></Ability>
 <Ability id="ooze-bomb-su" icon={["stairs-goal"]}>
@@ -892,8 +892,8 @@ const _reanimator = {title: "Reanimator", jsx: <><h2 id="arc-alchemist-reanimato
 </>};
 const _royal_alchemist = {title: "Royal Alchemist", jsx: <><h2 id="arc-alchemist-royal_alchemist-royal-alchemist">Royal Alchemist</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 11</Link><br/>Paranoia runs rampant among the noble courts of the Inner Sea. On account of this distrust, many rulers often hire specialized alchemists capable of concocting protections from both poisons and diseases for the nobles and their guests. The royal alchemist tradition began in the nation of Rahadoum shortly after the Oath Wars as a replacement for the protection once offered by the clerics and priests of the region. Today, royal alchemists are found in the courts of Cheliax, Galt, Taldor, and, surprisingly, Geb, where living visitors to the Blood Lords are offered protection from the death around them.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature), Survival</Pair></Ability>
 <Ability id="alchemical-antidote" icon={["stairs-goal","armor-upgrade"]}>
@@ -908,8 +908,8 @@ const _royal_alchemist = {title: "Royal Alchemist", jsx: <><h2 id="arc-alchemist
 </>};
 const _saboteur = {title: "Saboteur", jsx: <><h2 id="arc-alchemist-saboteur-saboteur">Saboteur</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 36</Link><br/>The saboteur is an alchemist who specializes in destroying the plans, materials, and allies of his enemies. A saboteur has focused his alchemical research toward new ways to conceal his presence, sow confusion, and blow up large structures.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-saboteur--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/gnome">Gnome</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-saboteur--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/gnome">Gnome</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature)</Pair></Ability>
 <Ability id="chameleon-mutagen-su" icon={["upgrade","broken-shield"]}>
@@ -1191,8 +1191,8 @@ const _wasteland_blightbreaker = {title: "Wasteland Blightbreaker", jsx: <><h2 i
 </>};
 const _winged_marauder = {title: "Winged Marauder", jsx: <><h2 id="arc-alchemist-winged_marauder-winged-marauder">Winged Marauder</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 104</Link><br/>Goblin alchemists have created a mixture of pheromones that they use to manipulate and entice giant vultures or dire bats to do their bidding. These goblins strap harnesses to the chests of these flying animals and hang beneath them, dropping flaming alchemical solutions on the helpless folks below.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-winged_marauder--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/goblin">Goblin</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-winged_marauder--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/goblin">Goblin</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/handle_animal">Handle Animal</Link> (CHA), <Link to="/skill/ride">Ride</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Disable Device, Sleight of Hand, Use Magic Device</Pair></Ability>
 <Ability id="flying-beast-tamer-ex" icon={["stairs-goal"]}>

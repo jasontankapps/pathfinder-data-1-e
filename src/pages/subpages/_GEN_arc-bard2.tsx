@@ -221,8 +221,8 @@ const _lotus_geisha = {title: "Lotus Geisha", jsx: <><h2 id="arc-bard-lotus_geis
 </>};
 const _luring_piper = {title: "Luring Piper", jsx: <><h2 id="arc-bard-luring_piper-luring-piper">Luring Piper</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 11</Link><br/>Some bards have an exceptional ability to use their musical performances to entrance the world's wilder creatures. These performers are so focused that they create melodies capable of leading animals and fey to their unwilling death.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
 <Ability id="fey-secrets" icon={["upgrade"]}>
 <Pair single id="fey-secrets">Fey Secrets</Pair>
@@ -951,8 +951,8 @@ const _silver_balladeer = {title: "Silver Balladeer", jsx: <><h2 id="arc-bard-si
 </>};
 const _solacer = {title: "Solacer", jsx: <><h2 id="arc-bard-solacer-solacer">Solacer</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 18</Link><br/>Solacers are experts in the healing arts as well as creators of performances that console the distraught, rally the stricken, raise spirits, and vanquish sorrow.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/heal">Heal</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Appraise</Pair></Ability>
 <Ability id="learned-physician-ex" icon={["upgrade","stairs-goal"]}>

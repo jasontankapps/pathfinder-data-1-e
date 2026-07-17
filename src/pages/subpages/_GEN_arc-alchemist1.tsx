@@ -45,8 +45,8 @@ const _alchemical_sapper = {title: "Alchemical Sapper", jsx: <><h2 id="arc-alche
 <Pair hl title="Alters">Extracts</Pair>
 <Pair title="Passive Ability">An alchemical sapper can prepare one fewer extract of each level than normal. If this reduces the number to 0, he can prepare extracts of that level only if his Intelligence allows bonus extracts of that level.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
 <Ability id="demolition-bomb-su" icon={["stairs-goal","bowman"]}>
 <Pair single id="demolition-bomb-su">Demolition Bomb (Su)</Pair>
@@ -112,8 +112,8 @@ const _alchemical_trapper = {title: "Alchemical Trapper", jsx: <><h2 id="arc-alc
 </>};
 const _aquachymist = {title: "Aquachymist", jsx: <><h2 id="arc-alchemist-aquachymist-aquachymist">Aquachymist</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 49</Link><br/>The principles of alchemy work equally well underwater and on land, but mixing solutions and keeping them pure is a tougher task beneath the waves. Aquachymists are those rare few alchemists of land-dwelling and aquatic races alike who strive to unlock new and fantastic secrets of alchemy that can be discovered only in the water's depths.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/swim">Swim</Link> (STR)</Pair>
 <Pair title="Removed Skills">Fly</Pair></Ability>
 <Ability id="sureseal-alchemy-su" icon={["upgrade"]}>
@@ -315,8 +315,8 @@ const _blood_alchemist = {title: "Blood Alchemist", jsx: <><h2 id="arc-alchemist
 </>};
 const _bogborn_alchemist = {title: "Bogborn Alchemist", jsx: <><h2 id="arc-alchemist-bogborn_alchemist-bogborn-alchemist">Bogborn Alchemist</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 191</Link><br/>Some grippli alchemists are particularly attuned to the swamps and the dangerous creatures that inhabit them; these serve as their laboratories and research subjects, respectively. These bogborn alchemists have the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-bogborn_alchemist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/grippli">Grippli</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-alchemist-bogborn_alchemist--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/grippli">Grippli</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/swim">Swim</Link> (STR)</Pair></Ability>
 <Ability id="amphibious-mutagen-ex" icon={["stairs-goal"]}>
 <Pair single id="amphibious-mutagen-ex">Amphibious Mutagen (Ex)</Pair>
@@ -449,8 +449,8 @@ const _concocter = {title: "Concocter", jsx: <><h2 id="arc-alchemist-concocter-c
 </>};
 const _construct_rider = {title: "Construct Rider", jsx: <><h2 id="arc-alchemist-construct_rider-construct-rider">Construct Rider</h2>
 <p><strong>Sources</strong> <Link to="/source/cohorts_and_companions">Cohorts and Companions pg. 12</Link><br/>A construct rider creates arcane devices to emulate and surpass weak flesh.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/ride">Ride</Link> (DEX), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT)</Pair></Ability>
 <Ability id="craft-mount-su" icon={["stairs-goal","magic-swirl"]}>
 <Pair single id="craft-mount-su">Craft Mount (Su)</Pair>
@@ -661,8 +661,8 @@ const _dragonblood_chymist = {title: "Dragonblood Chymist", jsx: <><h2 id="arc-a
 </>};
 const _ectochymist = {title: "Ectochymist", jsx: <><h2 id="arc-alchemist-ectochymist-ectochymist">Ectochymist</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 112</Link><br/>Ectochymists study the effects of alchemy on soul and spirit, focusing on fighting ghosts and other incorporeal creatures.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair></Ability>
 <Ability id="ectoplasmic-blanche-su" icon={["mailed-fist","magic-swirl"]}>
 <Pair single id="ectoplasmic-blanche-su">Ectoplasmic Blanche (Su)</Pair>
@@ -879,8 +879,8 @@ const _energist = {title: "Energist", jsx: <><h2 id="arc-alchemist-energist-ener
 </>};
 const _energy_scientist = {title: "Energy Scientist", jsx: <><h2 id="arc-alchemist-energy_scientist-energy-scientist">Energy Scientist</h2>
 <p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 30</Link><br/>Energy scientists fervently prepare themselves to overcome exposure to specific elemental hazards so that they can traverse the Elemental Planes in search of novel discoveries and reagents.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/swim">Swim</Link> (STR)</Pair></Ability>
 <Ability id="energy-bombs-su" icon={["stairs-goal","broken-shield"]}>
 <Pair single id="energy-bombs-su">Energy Bombs (Su)</Pair>

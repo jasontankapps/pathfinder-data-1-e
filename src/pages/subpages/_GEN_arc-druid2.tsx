@@ -133,8 +133,8 @@ const _nature_fang = {title: "Nature Fang", jsx: <><h2 id="arc-druid-nature_fang
 </>};
 const _nature_priest = {title: "Nature Priest", jsx: <><h2 id="arc-druid-nature_priest-nature-priest">Nature Priest</h2>
 <p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook pg. 23</Link><br/>Nature priests serve two masters: their deities and nature itself, and can call upon the power of both to fuel their divine abilities.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-nature_priest--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Like a cleric, a nature priest must worship a deity and her alignment must be within one step of her deity's.</td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-druid-nature_priest--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Like a cleric, a nature priest must worship a deity and her alignment must be within one step of her deity's.</td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (geography)</Pair></Ability>
 <Ability id="weapon-proficiencies" icon={["stairs-goal"]}>
@@ -167,8 +167,8 @@ const _nature_priest = {title: "Nature Priest", jsx: <><h2 id="arc-druid-nature_
 </>};
 const _nithveil_adept = {title: "Nithveil Adept", jsx: <><h2 id="arc-druid-nithveil_adept-nithveil-adept">Nithveil Adept</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 44</Link><br/>Nithveil adepts learn the secret magic of the First World fey in the moving, reality-phasing city of Nithveil, which appears on the new moon at seemingly random locations in the Grungir Forest in the Lands of the Linnorm Kings. The most common deities worshiped by these druids are the Green Mother and the Lantern King, Eldest patrons of intrigue and trickery.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS), <Link to="/skill/perform">Perform</Link> (CHA), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Info">This also replaces the Nature Sense ability</Pair></Ability>
 <Ability id="nature-bond-su" icon={["broken-shield","upgrade"]}>
@@ -798,8 +798,8 @@ const _shark_shaman = {title: "Shark Shaman", jsx: <><h2 id="arc-druid-shark_sha
 </>};
 const _skinshaper = {title: "Skinshaper", jsx: <><h2 id="arc-druid-skinshaper-skinshaper">Skinshaper</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 26</Link><br/>Using the same primal energy with which other druids assume animal forms, skinshapers can imitate some of the most dangerous beasts of all: humans and other humanoids. Rather than merely copying humanoids' shapes and abilities, skinshapers unlock brutal energies that push their borrowed bodies far beyond the capabilities of normal humanoid creatures. Their connection to humanoids bring skinshapers into settlements more often than typical druids, and their penchant for disguise allows them to excel at intrigue.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disguise">Disguise</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Ride</Pair></Ability>
 <Ability id="skinshaping-su" extraClasses="hasSubs" icon={["magic-swirl"]}>
@@ -947,8 +947,8 @@ const _storm_druid = {title: "Storm Druid", jsx: <><h2 id="arc-druid-storm_druid
 </>};
 const _sunrider = {title: "Sunrider", jsx: <><h2 id="arc-druid-sunrider-sunrider">Sunrider</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 13</Link><br/>Sunriders help their allies, be they fellow tribe members or fellow adventurers, to survive in harsh desert terrain, while simultaneously making it even harsher for their foes. They seem to share a single mind with their loyal steeds, and companions who ride with them become an eerily well-coordinated cavalry unit that traverses the treacherous desert sands with ease to wreak havoc upon invaders. Sunriders almost never leave their tribal homelands; those found outside Al-Zabrit are usually either exiles or emissaries sent to deal with issues that can't be addressed from their holds.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Profession</Pair></Ability>
 <Ability id="weapon-and-armor-proficiencies" icon={["stairs-goal","broken-shield"]}>
@@ -1100,8 +1100,8 @@ const _supernaturalist = {hasJL:true,title: "Supernaturalist", jsx: <><div class
 </>};
 const _survivor = {title: "Survivor", jsx: <><h2 id="arc-druid-survivor-survivor">Survivor</h2>
 <p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance pg. 24</Link><br/>The survivor embodies the neutral aspect of the natural world and eschews druidic magic in favor of more pragmatic and worldly survival methods.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
 <Ability id="weapon-proficiencies" icon={["stairs-goal"]}>
 <Pair single id="weapon-proficiencies">Weapon Proficiencies</Pair>

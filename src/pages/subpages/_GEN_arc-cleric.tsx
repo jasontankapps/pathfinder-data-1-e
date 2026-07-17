@@ -176,8 +176,8 @@ const _cloistered_cleric = {title: "Cloistered Cleric", jsx: <><h2 id="arc-cleri
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Info">Cloistered clerics are proficient with light armor and with the following weapons: <Link to="/eq-weapon/club">club</Link>, <Link to="/eq-weapon/heavy_mace">heavy mace</Link>, <Link to="/eq-weapon/light_mace">light mace</Link>, <Link to="/eq-weapon/quarterstaff">quarterstaff</Link>, and <Link to="/eq-weapon/sling">sling</Link>. They are not proficient with shields.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair>
 <Pair title="Info">She gains 4 + Int modifier skill ranks per level.</Pair></Ability>
 <Ability id="diminished-spellcasting" icon={["broken-shield"]}>
@@ -823,8 +823,8 @@ const _idealist = {title: "Idealist", jsx: <><h2 id="arc-cleric-idealist-idealis
 </>};
 const _iron_priest = {title: "Iron Priest", jsx: <><h2 id="arc-cleric-iron_priest-iron-priest">Iron Priest</h2>
 <p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 12</Link><br/>Iron priests preach of the messengers from beyond the stars, envoys of the divine brought to Golarion in a falling star. Iron priests can affect robots and other unliving constructs with channeled energy, but lack power over the undead. Appropriate deities for an Iron Priest include <Link to="/faith/brigh">Brigh</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/gorum">Gorum</Link>, and <Link to="/faith/haagenti">Haagenti</Link>. An iron priest has the following class features.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Knowledge (arcana), Knowledge (nobility), Knowledge (planes), Sense Motive</Pair></Ability>
 <Ability id="channel-energy-su" icon={["magic-swirl"]}>

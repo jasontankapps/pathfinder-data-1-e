@@ -164,8 +164,8 @@ const _courser = {title: "Courser", jsx: <><h2 id="arc-swashbuckler-courser-cour
 </>};
 const _daring_infiltrator = {title: "Daring Infiltrator", jsx: <><h2 id="arc-swashbuckler-daring_infiltrator-daring-infiltrator">Daring Infiltrator</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 124</Link><br/>Not known for their flashy entrances or for standing out in a crowd, a daring infiltrator uses stealth, disguise, and ruthless guile to pursue her goals. Some of these swashbucklers work to undermine evil organizations, while others are master thieves or mysterious assassins.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Diplomacy, Perform, Profession</Pair></Ability>
 <Ability id="bonus-feats" icon={["stairs-goal"]}>
@@ -211,8 +211,8 @@ const _daring_infiltrator = {title: "Daring Infiltrator", jsx: <><h2 id="arc-swa
 </>};
 const _dashing_thief = {title: "Dashing Thief", jsx: <><h2 id="arc-swashbuckler-dashing_thief-dashing-thief">Dashing Thief</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 51</Link><br/>The dashing thief relies on swift swordplay, dazzling charm, and spirited courage to commit audacious acts of thievery. Another thief might break into a noble's house by night, leaving none the wiser, but the dashing thief swings in through a window, charms the noble's servant into handing over the jewelry, and then duels her way out. <Link to="/rule/council_of_thieves">Council of Thieves</Link> heists often involve at least one dashing thief, as their attention-grabbing antics can provide a distraction for subtler agents, and their combat skills can be vital in tight spots. The majority of the Council's dashing thieves are personally trained by Sabriune Misraria - between her renounced family's lust-fueled intrigues and their numerous enslaved succubi, the drow heretic has numerous sources for the tricks and stunts she teaches her agents.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Fly, Ride</Pair></Ability>
 <Ability id="bold-thief-ex" icon={["upgrade","broken-shield"]}>
@@ -466,8 +466,8 @@ const _mysterious_avenger = {title: "Mysterious Avenger", jsx: <><h2 id="arc-swa
 <Pair single id="alignment">Alignment</Pair>
 <Pair title="Info">A mysterious avenger must be of a good alignment, and must be dedicated to the protection of the good and the powerless under her care. If she ceases to be good or betrays the trust of those she was sworn to protect, she loses her <em>secret identity</em> and <em>greater charmed life</em> class features. She can regain them if she atones for her violations by some means that the GM sees fit (possibly by way of the <Link to="/spell/atonement">atonement</Link> spell if the mysterious avenger is especially religious).</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disguise">Disguise</Link> (CHA)</Pair></Ability>
 <Ability id="weapon-and-armor-proficiency" icon={["broken-shield","stairs-goal"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
@@ -689,8 +689,8 @@ const _rondelero_swashbuckler = {title: "Rondelero Swashbuckler", jsx: <><h2 id=
 </>};
 const _rostland_bravo = {title: "Rostland Bravo", jsx: <><h2 id="arc-swashbuckler-rostland_bravo-rostland-bravo">Rostland Bravo</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 23</Link><br/>The Free City of Restov is host to numerous dueling schools, from the renowned Aldori Academy to tiny training grounds in blademasters' homes. Students of these schools are notoriously competitive, and street-corner duels at dawn and dusk are a constant of Restov life. In most cases, while these "lesser schools" do not teach official Aldori techniques, their methods mesh well with that signature style. Unsurprisingly, many students eventually train in the Aldori style, whether because they aspire to join the swordlords' ranks or simply for the challenge of mastering the legendary weapon. While some favor more technical approaches, others study flashier maneuvers, wielding the curved blade with artful flair. Disdainfully called "bravos" by classically trained rivals, students of this approach have claimed the label with pride. The Rostland bravos' most advanced techniques bear dragon-themed names as a snub to traditionalist Aldori swordlords, who have never forgotten their crushing defeat by Choral the Conqueror's dragons at the Valley of Fire.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="Removed Skills">Climb, Swim</Pair></Ability>
 <Ability id="aldori-swashbuckler-ex" icon={["stairs-goal","broken-shield"]}>
 <Pair single id="aldori-swashbuckler-ex">Aldori Swashbuckler (Ex)</Pair>
@@ -757,8 +757,8 @@ const _shackles_corsair = {title: "Shackles Corsair", jsx: <><h2 id="arc-swashbu
 </>};
 const _veiled_blade = {title: "Veiled Blade", jsx: <><h2 id="arc-swashbuckler-veiled_blade-veiled-blade">Veiled Blade</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 53</Link><br/>Veiled blades specialize in subtlety, not through clandestine sneaking but simply by appearing to be someone harmless and unarmed. When a fight breaks out, a veiled blade doffs that facade and pulls out her hidden trump cards. Those who have mastered the art of the veiled blade can even hide their weapons on their own bodies as brands.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disguise">Disguise</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Intimidate</Pair></Ability>
 <Ability id="deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
@@ -833,8 +833,8 @@ const _whirling_dervish = {title: "Whirling Dervish", jsx: <><h2 id="arc-swashbu
 </>};
 const _wildstrider = {title: "Wildstrider", jsx: <><h2 id="arc-swashbuckler-wildstrider-wildstrider">Wildstrider</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 96</Link><br/>Most swashbucklers call cities their home, but some prefer deserts, marshlands, mountains, or woods, where the rough terrain grants them an advantage, and have little interest in the comforts of an urban lifestyle.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/stealth">Stealth</Link> (DEX), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Knowledge (nobility), Sense Motive, Sleight of Hand</Pair></Ability>
 <Ability id="deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>

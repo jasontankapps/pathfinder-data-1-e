@@ -53,8 +53,8 @@ const _blood_god_disciple = {title: "Blood God Disciple", jsx: <><h2 id="arc-sum
 </>};
 const _blood_summoner = {title: "Blood Summoner", jsx: <><h2 id="arc-summoner-blood_summoner-blood-summoner">Blood Summoner</h2>
 <p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption pg. 24</Link><br/>A blood summoner conjures an eidolon born from violence and blood. These cruel spellcasters are common among the god-callers of now-shattered Sarkoris, where the influence of the Worldwound has warped them into beings of chilling malevolence.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/heal">Heal</Link> (WIS)</Pair></Ability>
 <Ability id="blood-offering-su" icon={["upgrade"]}>
 <Pair single id="blood-offering-su">Blood Offering (Su)</Pair>
@@ -229,8 +229,8 @@ const _first_worlder = {title: "First Worlder", jsx: <><h2 id="arc-summoner-firs
 </>};
 const _god_caller = {title: "God Caller", jsx: <><h2 id="arc-summoner-god_caller-god-caller">God Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 40</Link><br/>God callers follow a fractured tradition that originated in the now-lost nation of Sarkoris. They speak to an assortment of ancient divine powers to lead their communities and sometimes stir up reformations in faiths with ideals similar to their personal convictions.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (engineering), Knowledge (geography), Knowledge (nature), Use Magic Device</Pair></Ability>
 <Ability id="guidance-sp" icon={["magic-swirl","broken-shield"]}>
@@ -448,8 +448,8 @@ const _pyroclast = {title: "Pyroclast", jsx: <><h2 id="arc-summoner-pyroclast-py
 </>};
 const _shadow_caller = {title: "Shadow Caller", jsx: <><h2 id="arc-summoner-shadow_caller-shadow-caller">Shadow Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 110</Link><br/>While most summoners can call any manner of creature from across the planes to serve them in combat, supplementing the skills of their eidolon with a diverse range of creatures, others eschew this broad utility and instead concentrate upon calling forth entities from the <Link to="/rule/shadow_plane">Shadow Plane</Link>. A shadow caller has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-summoner-shadow_caller--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/fetchling">Fetchling</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-summoner-shadow_caller--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/fetchling">Fetchling</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Use Magic Device</Pair></Ability>
 <Ability id="shadow-summoning-sp" icon={["magic-swirl"]}>

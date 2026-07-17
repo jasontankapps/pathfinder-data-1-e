@@ -96,8 +96,8 @@ const _kami_medium = {title: "Kami Medium", jsx: <><h2 id="arc-medium-kami_mediu
 </>};
 const _medium_of_the_master = {title: "Medium of the Master", jsx: <><h2 id="arc-medium-medium_of_the_master-medium-of-the-master">Medium of the Master</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 5</Link><br/>A medium of the master forgoes a connection with most spirits to form a bond with the spirits of great martial artists.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Use Magic Device</Pair></Ability>
 <Ability id="armor-proficiency" icon={["broken-shield"]}>
@@ -510,8 +510,8 @@ const _storyteller = {title: "Storyteller", jsx: <><h2 id="arc-medium-storytelle
 </>};
 const _uda_wendo = {title: "Uda Wendo", jsx: <><h2 id="arc-medium-uda_wendo-uda-wendo">Uda Wendo</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 23</Link><br/>Primarily found among the various tribes of the Mwangi Expanse, uda wendo are powerful mediums who are sensitive to the presence and desires of the wendo, powerful and mysterious entities that walk Golarion while shaping fate and guiding destiny. Rather than simply communing with the wendo like some oracles do, an uda wendo invites the wendo to use his body as a vessel, gaining fantastic powers even while struggling to maintain control of his body against the crushing might of the wendo's presence.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Perform</Pair></Ability>
 <Ability id="wendo-su" icon={["stairs-goal","spell-book","broken-shield","hazard-sign"]}>

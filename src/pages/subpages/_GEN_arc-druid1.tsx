@@ -227,8 +227,8 @@ const _arctic_druid = {title: "Arctic Druid", jsx: <><h2 id="arc-druid-arctic_dr
 </>};
 const _ashvawg_tamer = {title: "Ashvawg Tamer", jsx: <><h2 id="arc-druid-ashvawg_tamer-ashvawg-tamer">Ashvawg Tamer</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_5_sins_of_the_saviors">Pathfinder #5: Sins of the Saviors pg. 71</Link><br/>The ashvawg tamer is a variant class that allows a druid to bond with strange and monstrous creatures. Given the unusual nature of these companions, the tamer also learns ways to strengthen his valuable ally. Most tamers worship <Link to="/faith/lamashtu">Lamashtu</Link>, the Demon Queen, though a few have discovered these practices independently. Tamers develop a stronger bond with their companion than some of the most powerful druids or rangers, and often travel to exotic locations to find strange specimens to tame, with bragging rights going to those with the most unusual creature.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Diplomacy, Heal</Pair></Ability>
 <Ability id="bestial-bond-sp" icon={["remedy","armor-downgrade"]}>
@@ -533,8 +533,8 @@ const _death_druid = {title: "Death Druid", jsx: <><h2 id="arc-druid-death_druid
 </>};
 const _defender_of_the_true_world = {title: "Defender of the True World", jsx: <><h2 id="arc-druid-defender_of_the_true_world-defender-of-the-true-world">Defender of the True World</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 10</Link><br/>Some druids specialize in protecting Golarion from the threat of First World inhabitants. They are devoted to tracking down, diverting, and slaying fey threats.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA)</Pair></Ability>
 <Ability id="bonus-languages" icon={["stairs-goal"]}>
 <Pair single id="bonus-languages">Bonus Languages</Pair>
@@ -858,8 +858,8 @@ const _feral_child = {title: "Feral Child", jsx: <><h2 id="arc-druid-feral_child
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Info">A feral child loses proficiency with the scimitar, scythe, and sickle and with shields.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Fly, Profession</Pair></Ability>
 <Ability id="illiteracy" icon={["broken-shield"]}>
@@ -1007,8 +1007,8 @@ const _fungal_pilgrim = {title: "Fungal Pilgrim", jsx: <><h2 id="arc-druid-funga
 const _goliath_druid = {title: "Goliath Druid", jsx: <><h2 id="arc-druid-goliath_druid-goliath-druid">Goliath Druid</h2>
 <p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook pg. 20</Link><br/>Goliath druids hone their spiritual and magical connections to nature's largest creatures, especially dinosaurs, giants, and megafauna, revering these massive creatures as living relics of a primeval time when all creatures were more in harmony with nature. Despite this respect, a goliath druid doesn't hesitate to infiltrate giant groups who defile nature and destroy them from within.</p>
 <p>Goliath druids have the following class features.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Craft, Profession, Ride</Pair></Ability>
 <Ability id="bonus-languages" icon={["info"]}>

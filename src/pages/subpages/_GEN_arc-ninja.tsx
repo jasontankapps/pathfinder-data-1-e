@@ -5,8 +5,8 @@ import Ability from '../../components/Ability';
 import ScrollContainer from '../../components/ScrollContainer';
 const _frozen_shadow = {title: "Frozen Shadow", jsx: <><h2 id="arc-ninja-frozen_shadow-frozen-shadow">Frozen Shadow</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 38</Link><br/>Frozen shadows belong to a rare ninja clan operating in Avistan, having migrated to the Lands of the Linnorm Kings decades ago. Most members are Tian, Ulfen, and Varki humans, and they work as thieves, power brokers, and spies loosely guided by secretive masters with unknown agendas.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Diplomacy</Pair></Ability>
 <Ability id="hardy-killer-ex" icon={["armor-upgrade"]}>
@@ -67,8 +67,8 @@ const _gunpowder_bombardier = {title: "Gunpowder Bombardier", jsx: <><h2 id="arc
 </>};
 const _hunting_serpent = {title: "Hunting Serpent", jsx: <><h2 id="arc-ninja-hunting_serpent-hunting-serpent">Hunting Serpent</h2>
 <p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 104</Link><br/>The order dispatches specially trained killers to hunt relentlessly and fight from the shadows.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Knowledge (nobility)</Pair></Ability>
 <Ability id="relentless-pursuit-ex" icon={["upgrade"]}>
@@ -131,8 +131,8 @@ const _mask_of_the_living_god = {title: "Mask of the Living God", jsx: <><h2 id=
 </>};
 const _petal_ninja = {title: "Petal Ninja", jsx: <><h2 id="arc-ninja-petal_ninja-petal-ninja">Petal Ninja</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 13</Link><br/>Petal ninjas are a secretive clan of <Link to="/race/ghoran">ghoran</Link> infiltrators, in touch with their plant-like nature to the point where they can change their forms, allowing them access into places that were previously impossible to reach.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ninja-petal_ninja--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ghoran">Ghoran</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-ninja-petal_ninja--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ghoran">Ghoran</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/heal">Heal</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Appraise</Pair></Ability>
 <Ability id="blossom-shower-ex" icon={["stairs-goal","armor-upgrade","armor-downgrade"]}>

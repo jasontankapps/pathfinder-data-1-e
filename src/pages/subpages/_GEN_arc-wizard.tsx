@@ -69,8 +69,8 @@ const _arcane_warden = {title: "Arcane Warden", jsx: <><h2 id="arc-wizard-arcane
 <Pair hl title="Alters">Arcane school</Pair>
 <Pair title="Info">An arcane warden values all schools of magic and recognizes that, faced with an unpredictable world, versatility is one of the greatest tools for survival. All arcane warden wizards must be <Link to="/arcaneschool/universalist">universalists</Link>.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/climb">Climb</Link> (STR), <Link to="/skill/heal">Heal</Link> (WIS), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/swim">Swim</Link> (STR)</Pair>
 <Pair title="Removed Skills">Appraise, Fly, Knowledge (nobility), Linguistics</Pair></Ability>
 <Ability id="ready-for-anything-ex" icon={["stairs-goal"]}>
@@ -869,8 +869,8 @@ const _undead_master = {title: "Undead Master", jsx: <><h2 id="arc-wizard-undead
 </>};
 const _wind_listener = {title: "Wind Listener", jsx: <><h2 id="arc-wizard-wind_listener-wind-listener">Wind Listener</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 158</Link><br/>The wind listener takes a sylph's natural curiosity to the extreme, enhancing his natural skill at subterfuge and eavesdropping with potent arcane magic. A wind listener has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-wizard-wind_listener--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/sylph">Sylph</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-wizard-wind_listener--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/sylph">Sylph</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perception">Perception</Link> (WIS)</Pair></Ability>
 <Ability id="arcane-school" icon={["broken-shield"]}>
 <Pair single id="arcane-school">Arcane School</Pair>

@@ -96,8 +96,8 @@ const _burglar = {title: "Burglar", jsx: <><h2 id="arc-rogue-burglar-burglar">Bu
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/fast_picks">Fast picks</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/nimble_climber">nimble climber</Link>, <Link to="/talent/quick_disable">quick disable</Link>, <Link to="/talent/trap_spotter">trap spotter</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/knock_out_blow">Knock-out blow</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/thoughtful_reexamining">thoughtful reexamining</Link></p></>};
 const _carnivalist = {title: "Carnivalist", jsx: <><h2 id="arc-rogue-carnivalist-carnivalist">Carnivalist</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 6</Link><br/>Carnivalists train their miniature minions to perform acts of larceny and often hide their true talents behind theatrical sideshows.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA)</Pair></Ability>
 <Ability id="familiar" icon={["stairs-goal"]}>
 <Pair single id="familiar">Familiar</Pair>
@@ -190,8 +190,8 @@ const _charlatan = {title: "Charlatan", jsx: <><h2 id="arc-rogue-charlatan-charl
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/black_market_connections">Black market connections</Link>, <Link to="/talent/coax_information">coax information</Link>, <Link to="/talent/convincing_lie">convincing lie</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/underhanded">underhanded</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/hard_minded">Hard minded</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link></p></>};
 const _consigliere = {title: "Consigliere", jsx: <><h2 id="arc-rogue-consigliere-consigliere">Consigliere</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 44</Link><br/>Consiglieres act as trusted mediators and administrators for crime families and various criminal organizations, and many serve as the right hand to the leaders of such groups. Other consiglieres prefer to work as independent operators and sell their advice and expertise to the highest bidder. Though some consiglieres insulate themselves from violence and criminal activities, many enjoy getting their hands dirty leading strike teams or gangs of hardened thugs.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
 <Ability id="convincing-attitude-ex" icon={["stairs-goal"]}>
@@ -223,8 +223,8 @@ const _consigliere = {title: "Consigliere", jsx: <><h2 id="arc-rogue-consigliere
 <p><strong>These rogue talents complement this archetype:</strong> <Link to="/talent/assault_leader">assault leader</Link>, <Link to="/talent/black_market_connections">black market connections</Link>, <Link to="/talent/shades_of_gray">shades of gray</Link>, <Link to="/talent/coax_information">coax information</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/certainty">certainty</Link> (Bluff; unchained rogue only)</p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/hard_minded">Hard minded</Link>, <Link to="/talent/opportunist">opportunist</Link>, <Link to="/talent/redirect_attack">redirect attack</Link>, <Link to="/talent/rumormonger">rumormonger</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/slippery_mind">slippery mind</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link></p></>};
 const _construct_saboteur = {title: "Construct Saboteur", jsx: <><h2 id="arc-rogue-construct_saboteur-construct-saboteur">Construct Saboteur</h2>
 <p><strong>Sources</strong> <Link to="/source/construct_handbook">Construct Handbook pg. 12</Link><br/>The construct saboteur harnesses arcane energy to combat the golems and eldritch guardians that prowl the depths of ancient ruins and forgotten tombs.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (local)</Pair></Ability>
 <Ability id="arcane-strike-ex" icon={["stairs-goal"]}>
@@ -336,8 +336,8 @@ const _dark_lurker = {title: "Dark Lurker", jsx: <><h2 id="arc-rogue-dark_lurker
 </>};
 const _deadly_courtesan = {title: "Deadly Courtesan", jsx: <><h2 id="arc-rogue-deadly_courtesan-deadly-courtesan">Deadly Courtesan</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 208</Link><br/>Skilled at manipulation and diversion, the deadly courtesan builds up those around her and periodically takes them down. She can be a spy, entertainer, assassin, bodyguard, or just an intimate to someone who needs it most. A deadly courtesan has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-rogue-deadly_courtesan--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/vishkanya">Vishkanya</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-rogue-deadly_courtesan--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/vishkanya">Vishkanya</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
 <Ability id="bardic-performance-su" icon={["stairs-goal"]}>
@@ -365,8 +365,8 @@ const _deadly_courtesan = {title: "Deadly Courtesan", jsx: <><h2 id="arc-rogue-d
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/charmer">Charmer</Link>, <Link to="/talent/coax_information">coax information</Link>, <Link to="/talent/convincing_lie">convincing lie</Link>, <Link to="/talent/deft_palm">deft palm</Link>, <Link to="/talent/fast_fingers">fast fingers</Link>, <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/talent/honeyed_words">honeyed words</Link>, <Link to="/talent/stand_up">stand up</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/master_of_disguise">Master of disguise</Link>, <Link to="/talent/rumormonger">rumormonger</Link>, <Link to="/talent/slippery_mind">slippery mind</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link></p></>};
 const _desert_raider = {title: "Desert Raider", jsx: <><h2 id="arc-rogue-desert_raider-desert-raider">Desert Raider</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 76</Link><br/>Desert raiders constantly threaten caravans that cross vast, desolate expanses. Some desert raiders are tribespeople who raid to supplement their hardscrabble existence, while others are career thieves who take to the desert to avoid the noose. To survive, a desert raider must learn the secrets of the deserts and become inured to their dangers. Though most often associated with hot deserts, desert raiders can also operate in tundra, where sunlight on snow can blind as easily as on sand.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Swim</Pair></Ability>
 <Ability id="desert-tracker-ex" icon={["armor-upgrade","upgrade"]}>
@@ -423,8 +423,8 @@ const _discretion_specialist = {title: "Discretion Specialist", jsx: <><h2 id="a
 const _dreamthief = {title: "Dreamthief", jsx: <><h2 id="arc-rogue-dreamthief-dreamthief">Dreamthief</h2>
 <p><strong>Sources</strong> <Link to="/source/planar_adventures">Planar Adventures pg. 12</Link><br/>The dreamthief is master of both waking and dreaming worlds. Each dreamthief bears a focused fragment of emotion, known as a dreamshard, within her soul. Some are born with such fragments, while others gain their dreamshards during traumatic moments, especially those involving nightmares, attacks by ethereal beings, or incidents that take place in the Dimension of Dreams. Whether a dreamshard is shaped from the dreamer's aggregated emotions or manifested from a repressed aspect of herself, this metaphysical crystal grants a dreamthief supernatural powers, which she supplements with skill and grace.</p>
 <p>Dreamthieves' powers grant them enhanced access to <Link to="/rule/dimension_of_dreams">dreamscapes</Link>. Using the unique power of her dreamshard, a knowledgeable dreamthief can crystallize and steal dreamers' deepest emotions. Such theft can alter dreamers in profound ways, whether for better or worse.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT)</Pair></Ability>
 <Ability id="dreamshard-focus-su" icon={["stairs-goal","magic-swirl"]}>
 <Pair single id="dreamshard-focus-su">Dreamshard Focus (Su)</Pair>
@@ -498,8 +498,8 @@ const _earthshadow = {title: "Earthshadow", jsx: <><h2 id="arc-rogue-earthshadow
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/extra_earthcraft">Extra earthcraft</Link>, <Link to="/talent/favored_terrain">favored terrain</Link>, <Link to="/talent/fortified_position">fortified position</Link>, <Link to="/talent/major_magic">major magic</Link>, <Link to="/talent/minor_magic">minor magic</Link>, <Link to="/talent/resiliency">resiliency</Link>, <Link to="/talent/trap_spotter">trap spotter</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/against_the_wall">Against the wall</Link>, <Link to="/talent/dispelling_attack">dispelling attack</Link>, <Link to="/talent/hide_in_plain_sight">hide in plain sight</Link>, <Link to="/talent/slippery_mind">slippery mind</Link>, <Link to="/talent/stony_skin">stony skin</Link></p></>};
 const _eldritch_raider = {title: "Eldritch Raider", jsx: <><h2 id="arc-rogue-eldritch_raider-eldritch-raider">Eldritch Raider</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 189</Link><br/>An eldritch raider is a rogue who seeks to unravel the mysteries of the destruction of the gillmen's homeland. They explore old ruins that date back to the days of the old human empire and track down relics and lore from its glory days. An eldritch raider has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-rogue-eldritch_raider--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/gillman">Gillman</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-rogue-eldritch_raider--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/gillman">Gillman</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair>
 <Pair title="Removed Skills">Disguise, Perform, Sleight of Hand</Pair></Ability>
 <Ability id="skill-ranks-per-level" icon={["broken-shield"]}>
@@ -537,8 +537,8 @@ const _eldritch_raider = {title: "Eldritch Raider", jsx: <><h2 id="arc-rogue-eld
 <p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/dispelling_attack">Dispelling attack</Link>, <Link to="/talent/familiar">familiar</Link>, <Link to="/talent/hard_minded">hard minded</Link>, <Link to="/talent/improved_evasion">improved evasion</Link>, <Link to="/talent/slippery_mind">slippery mind</Link>, <Link to="/talent/thoughtful_reexamining">thoughtful reexamining</Link></p></>};
 const _eldritch_scoundrel = {title: "Eldritch Scoundrel", jsx: <><h2 id="arc-rogue-eldritch_scoundrel-eldritch-scoundrel">Eldritch Scoundrel</h2>
 <p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology pg. 23</Link><br/>Students of arcane magic, legerdemain, and stealth, eldritch scoundrels are a rare breed of adventurer most commonly found seeking lost and valuable arcane writings in the ruins of fallen empires, such as Thassilon or the Jistka Imperium.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair>
 <Pair title="Removed Skills">Diplomacy, Disguise</Pair></Ability>
 <Ability id="armor-proficiencies" icon={["broken-shield"]}>
@@ -1071,8 +1071,8 @@ const _okeno_liberator = {title: "Okeno Liberator", jsx: <><h2 id="arc-rogue-oke
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/deft_palm">Deft palm</Link>, <Link to="/talent/fast_picks">fast picks</Link>, <Link to="/talent/fast_stealth">fast stealth</Link>, <Link to="/talent/quick_disguise">quick disguise</Link>, <Link to="/talent/slow_reactions">slow reactions</Link>, <Link to="/talent/underhanded">underhanded</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/defensive_roll">Defensive roll</Link>, <Link to="/talent/fast_tumble">fast tumble</Link>, <Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/skill_mastery">skill mastery</Link>, <Link to="/talent/weapon_snatcher">weapon snatcher</Link></p></>};
 const _phantom_thief = {title: "Phantom Thief", jsx: <><h2 id="arc-rogue-phantom_thief-phantom-thief">Phantom Thief</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 46</Link><br/>Also known as gentleman thieves or lady thieves, phantom thieves don't know the desperation of a hard life like many rogues. Instead, they come from the ranks of the elite, having grown bored with their finery, and seek thrills from acts of daring, skill, and crime. Phantom thieves don't need the money, so they often perform acts such as breaking into a secure vault for the thrill, leaving a calling card rather than robbing the place.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA), <Link to="/skill/heal">Heal</Link> (WIS), <Link to="/skill/ride">Ride</Link> (DEX), <Link to="/skill/spellcraft">Spellcraft</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair></Ability>
 <Ability id="refined-education-ex" icon={["upgrade"]}>
 <Pair single id="refined-education-ex">Refined Education (Ex)</Pair>
@@ -1211,8 +1211,8 @@ const _relic_raider = {title: "Relic Raider", jsx: <><h2 id="arc-rogue-relic_rai
 </>};
 const _river_rat = {title: "River Rat", jsx: <><h2 id="arc-rogue-river_rat-river-rat">River Rat</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 76</Link>, <Link to="/source/people_of_the_river">People of the River pg. 21</Link><br/>What highway robbers are to roads, river rats are to waterways. Skilled at hiding amid reeds and roots, these rogues strike the unwary from the shallows as others would from the shadows. Despite their strong association with banditry, river rats make excellent guides and hunters.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
 <Ability id="swamper-ex" icon={["upgrade"]}>
@@ -1532,8 +1532,8 @@ const _skulking_slayer = {title: "Skulking Slayer", jsx: <><h2 id="arc-rogue-sku
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Info">The skulking slayer gains proficiency with <Link to="/eq-weapon/greatclub">greatclubs</Link> and <Link to="/eq-weapon/whip">whips</Link>, but loses proficiency with rapiers and hand crossbows.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="Removed Skills">Disable Device, Linguistics, Sleight of Hand</Pair></Ability>
 <Ability id="skill-ranks-per-level" icon={["broken-shield"]}>
 <Pair single id="skill-ranks-per-level">Skill Ranks per Level</Pair>
@@ -1576,8 +1576,8 @@ const _skulking_slayer = {title: "Skulking Slayer", jsx: <><h2 id="arc-rogue-sku
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/combat_swipe">Combat swipe</Link>, <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/powerful_sneak">powerful sneak</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/crippling_strike">Crippling strike</Link>, <Link to="/talent/deadly_sneak">deadly sneak</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link></p></>};
 const _sly_saboteur = {title: "Sly Saboteur", jsx: <><h2 id="arc-rogue-sly_saboteur-sly-saboteur">Sly Saboteur</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 77</Link><br/>Sly saboteurs are irregular soldiers who specialize in sabotage and surprise attacks. Though they often face enemies with greater numbers or resources (or both), sly saboteurs have the advantage of knowing the local people and terrain. They might be rebels fighting against a corrupt government, or they might be members of a militia opposing an invading force. Some are environmentalists who sabotage the tools of industry in order to protect unspoiled nature.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
 <Ability id="scamper-ex" icon={["stairs-goal"]}>
@@ -1786,8 +1786,8 @@ const _swashbuckler = {title: "Swashbuckler", jsx: <><h2 id="arc-rogue-swashbuck
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/offensive_defense">Offensive defense</Link>, <Link to="/talent/positioning_attack">positioning attack</Link>, <Link to="/talent/powerful_sneak">powerful sneak</Link>, <Link to="/talent/weapon_training">weapon training</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/crippling_strike">Crippling strike</Link>, <Link to="/talent/entanglement_of_blades">entanglement of blades</Link>, <Link to="/talent/redirect_attack">redirect attack</Link></p></>};
 const _swordmaster = {title: "Swordmaster", jsx: <><h2 id="arc-rogue-swordmaster-swordmaster">Swordmaster</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 164</Link><br/>A swordmaster meditates to strengthen her spiritual connection to her blade. She strives to perfect her skills by mastering six deadly trances. A swordmaster has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-rogue-swordmaster--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/tengu">Tengu</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-rogue-swordmaster--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/tengu">Tengu</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Disguise, Knowledge (dungeoneering)</Pair></Ability>
 <Ability id="trance-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
@@ -1831,8 +1831,8 @@ const _swordmaster = {title: "Swordmaster", jsx: <><h2 id="arc-rogue-swordmaster
 <p><strong className="hl">These rogue talents complement this archetype:</strong> <Link to="/talent/befuddling_strike">Befuddling strike</Link>, <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/positioning_attack">positioning attack</Link>, <Link to="/talent/stand_up">stand up</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/weapon_training">weapon training</Link></p><p><strong className="hl">These advanced rogue talents complement this archetype:</strong> <Link to="/talent/confounding_blades">Confounding blades</Link>, <Link to="/talent/crippling_strike">crippling strike</Link>, <Link to="/talent/defensive_roll">defensive roll</Link>, <Link to="/talent/hunters_surprise">hunter's surprise</Link>, <Link to="/talent/redirect_attack">redirect attack</Link></p></>};
 const _sylvan_trickster = {title: "Sylvan Trickster", jsx: <><h2 id="arc-rogue-sylvan_trickster-sylvan-trickster">Sylvan Trickster</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 77</Link><br/>Sylvan tricksters are rogues who model themselves after the mischievous fey of legend. Though not spellcasters, sylvan tricksters learn minor magical abilities reminiscent of those favored by fey creatures. The journey for many sylvan tricksters began in childhood, learning at an elder's knee the stories of the fey and the secrets of how to resist their tricks. Sylvan tricksters often live in areas where the boundary with the First World is thin, and a few have even been there: voluntarily or not.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
 <Ability id="languages" icon={["stairs-goal"]}>

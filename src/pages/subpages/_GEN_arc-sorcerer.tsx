@@ -210,8 +210,8 @@ const _nine_tailed_heir = {title: "Nine-Tailed Heir", jsx: <><h2 id="arc-sorcere
 </>};
 const _razmiran_priest = {title: "Razmiran Priest", jsx: <><h2 id="arc-sorcerer-razmiran_priest-razmiran-priest">Razmiran Priest</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_magic">Inner Sea Magic pg. 38</Link><br/>The so-called "priests" of Razmir are magical charlatans - missionary servants of the Living God who spread his fervent devotion wherever they travel. Altered by Razmir's magic, he can perform feats impossible for other sorcerers. A Razmiran priest has the following class features.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/perform">Perform</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Appraise, Fly</Pair></Ability>
 <Ability id="false-piety-ex" icon={["stairs-goal","upgrade"]}>
@@ -236,8 +236,8 @@ const _razmiran_priest = {title: "Razmiran Priest", jsx: <><h2 id="arc-sorcerer-
 </>};
 const _seeker = {title: "Seeker", jsx: <><h2 id="arc-sorcerer-seeker-seeker">Seeker</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 29</Link><br/>Oracles and sorcerers gain their magical powers through strange and mysterious ways, be they chosen by fate or blood. While most might be content with their strange powers, some oracles and sorcerers join the <Link to="/rule/pathfinders">Pathfinders</Link> specifically to find out more about their mysteries and bloodlines and determine the genesis and history of their eldritch talents. These spellcasters are known among the Spells as seekers, after their obsession with researching ancient texts and obscure ruins for any clues they can find about their heritage and histories. A seeker has the following class features.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</Pair></Ability>
 <Ability id="tinkering-ex" icon={["upgrade","stairs-goal"]}>
 <Pair single id="tinkering-ex">Tinkering (Ex)</Pair>

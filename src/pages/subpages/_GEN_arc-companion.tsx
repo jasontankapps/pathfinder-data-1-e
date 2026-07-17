@@ -3,8 +3,8 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 const _aberrant_companion = {title: "Aberrant Companion", jsx: <><h2 id="arc-companion-aberrant_companion-aberrant-companion">Aberrant Companion</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 186</Link><br/>There's something oddly wrong about aberrant companions. Though they're touched by eldritch magic or mutated by strange influences, they are still loyal, if unnatural, allies.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
 <Ability id="not-quite-animal" icon={["armor-upgrade"]}>
 <Pair single id="not-quite-animal">Not Quite Animal</Pair>
@@ -232,8 +232,8 @@ const _charger = {title: "Charger", jsx: <><h2 id="arc-companion-charger-charger
 <Pair single id="animal-feats">Animal Feats</Pair>
 <Pair title="Passive Ability">In addition to the standard animal companion feats, a charger may select <Link to="/feat/charge_through">Charge Through</Link>, <Link to="/feat/greater_overrun">Greater Overrun</Link>, <Link to="/feat/improved_great_fortitude">Improved Great Fortitude</Link>, and <Link to="/feat/improved_iron_will">Improved Iron Will</Link>.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
 <Ability id="mounted-challenge-ex" icon={["upgrade"]}>
 <Pair single id="mounted-challenge-ex">Mounted Challenge (Ex)</Pair>
@@ -309,8 +309,8 @@ const _deathtouched_companion = {title: "Deathtouched Companion", jsx: <><h2 id=
 </>};
 const _draconic_companion = {title: "Draconic Companion", jsx: <><h2 id="arc-companion-draconic_companion-draconic-companion">Draconic Companion</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 188</Link><br/>Draconic companions bear a faint trace of dragon blood that grants them special abilities.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
 <Ability id="not-quite-animal" icon={["armor-upgrade"]}>
 <Pair single id="not-quite-animal">Not Quite Animal</Pair>
@@ -366,8 +366,8 @@ const _elemental_companion = {title: "Elemental Companion", jsx: <><h2 id="arc-c
 const _feytouched_companion = {title: "Feytouched Companion", jsx: <><h2 id="arc-companion-feytouched_companion-feytouched-companion">Feytouched Companion</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 188</Link><br/>Feytouched companions are strangely colored fauna native to the First World, the primal realm of the fey. They gain strange abilities tied to the fey.</p>
 <p><strong className="hl">Small:</strong> A feytouched companion must be an animal companion that normally starts as Small or smaller.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perform">Perform</Link> (CHA)</Pair></Ability>
 <Ability id="not-quite-animal" icon={["armor-upgrade"]}>
 <Pair single id="not-quite-animal">Not Quite Animal</Pair>

@@ -385,8 +385,8 @@ const _tyrant = {title: "Tyrant", jsx: <><h2 id="arc-antipaladin-tyrant-tyrant">
 <Pair hl title="Alters">Code of conduct and associated abilities, ex-antipaladins</Pair>
 <Pair title="Info">A tyrant must be of lawful evil alignment and loses all class features except proficiencies if he willingly and altruistically commits good acts. This does not mean the tyrant can't take actions someone else might qualify as good, only that such actions must always be in service of his own dark ambitions. A tyrant's code requires that he place his own sinister goals above all else, respect rightful authority even as he twists its loopholes to his own ends, impose tyranny, and punish all those who dare dissent. A tyrant can accept underlings of any alignment; he cares not who serves him, only that they are truly loyal to him. He can even work alongside good-aligned individuals, as long as he is secretly manipulating them.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Ride</Pair></Ability>
 <Ability id="diabolic-boon-sp" icon={["stairs-goal"]}>

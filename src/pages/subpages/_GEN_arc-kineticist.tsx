@@ -214,8 +214,8 @@ const _blood_kineticist = {title: "Blood Kineticist", jsx: <><h2 id="arc-kinetic
 </>};
 const _cinderlands_adept = {title: "Cinderlands Adept", jsx: <><h2 id="arc-kineticist-cinderlands_adept-cinderlands-adept">Cinderlands Adept</h2>
 <p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 28</Link><br/>Among the Sun Clan's most noted champions are those who can tame the flames and bend them to their will. These kineticists are skilled riders, able to wield both weapons and fire with deadly skill.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA), <Link to="/skill/ride">Ride</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Stealth, Use Magic Device</Pair></Ability>
 <Ability id="fire-focus-su" icon={["info"]}>
@@ -244,8 +244,8 @@ const _dark_elementalist = {title: "Dark Elementalist", jsx: <><h2 id="arc-kinet
 <Pair single id="alignment">Alignment</Pair>
 <Pair title="Info">Since harming souls is a wicked act, a dark elementalist must be of an evil alignment. If she becomes nonevil, she can't use any of her dark elementalist abilities other than <em>dark studies,</em> though she can still use her other kineticist class features.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair></Ability>
 <Ability id="dark-studies" icon={["armor-upgrade","broken-shield","info"]}>
 <Pair single id="dark-studies">Dark Studies</Pair>
@@ -387,8 +387,8 @@ const _elysiokineticist = {title: "Elysiokineticist", jsx: <><h2 id="arc-kinetic
 <Pair title="At 7th Level">She gains <Link to="/kinetic/verdant_blast">verdant blast</Link> and <Link to="/kinetic/wood_blast">wood blast</Link>, as well as a 3rd-level or lower wild talent of her choice.</Pair>
 <Pair title="At 15th Level">She gains a 7th-level wild talent of her choice.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/heal">Heal</Link> (WIS), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (nature)</Pair>
 <Pair title="Info">These replacements alter the class skills granted by the wood element.</Pair></Ability>
@@ -498,8 +498,8 @@ const _kinetic_chirurgeon = {title: "Kinetic Chirurgeon", jsx: <><h2 id="arc-kin
 </>};
 const _kinetic_knight = {title: "Kinetic Knight", jsx: <><h2 id="arc-kineticist-kinetic_knight-kinetic-knight">Kinetic Knight</h2>
 <p><strong>Sources</strong> <Link to="/source/psychic_anthology">Psychic Anthology pg. 25</Link><br/>A kinetic knight dons armor and wields a blade of elemental energy. The Phoenix Kindred counted many of these resolute warriors among their number, combining the Recursion Tablets' secrets with a warrior's ways. Today, most remaining Tian kinetic knights follow the philosophy of ichimeiyo. Kinetic knights are rarer in the Inner Sea region, but not unknown; many realize their elemental powers while training for battle.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Courtly</Pair>
+<Ability icon={["skills"]} id="courtly">
+<Pair id="courtly" single>Courtly</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Acrobatics, Stealth</Pair></Ability>
 <Ability id="elemental-blade-su" icon={["stairs-goal","upgrade","broken-shield"]}>
@@ -597,8 +597,8 @@ const _overwhelming_soul = {title: "Overwhelming Soul", jsx: <><h2 id="arc-kinet
 <Pair hl title="Alters">Key ability score of wild talents</Pair>
 <Pair title="Ability">An overwhelming soul uses her Charisma modifier instead of her Constitution modifier to determine her damage with wild talents, the DCs of Constitution-based wild talents, the duration of wild talents with a Constitution-based duration, her bonus on <Link to="/rule/concentration">concentration</Link> checks for wild talents, and the other Constitution-based effects of all her wild talents.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA)</Pair></Ability>
 <Ability id="mental-prowess-su" icon={["armor-upgrade","broken-shield"]}>
 <Pair single id="mental-prowess-su">Mental Prowess (Su)</Pair>
@@ -660,8 +660,8 @@ const _psammokinetic = {title: "Psammokinetic", jsx: <><h2 id="arc-kineticist-ps
 </>};
 const _psychokineticist = {title: "Psychokineticist", jsx: <><h2 id="arc-kineticist-psychokineticist-psychokineticist">Psychokineticist</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 56</Link><br/>While most kineticists channel elemental power through their bodies, rare kineticists, such as <em>elemental ascetics, overwhelming souls,</em> and <em>psychokineticists</em> channel such power through their minds. Psychokineticists lack an <em>overwhelming soul's</em> strong spirit, and so this energy ravages their minds but unleashes power locked in their ruptured emotions. Sometimes a psychokineticist inadvertently unleashes his power when he experiences an outburst of strong emotion, potentially making a psychokineticist an outcast or even an accidental killer.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair></Ability>
 <Ability id="emotional-intensity-ex" icon={["upgrade","broken-shield"]}>
 <Pair single id="emotional-intensity-ex">Emotional Intensity (Ex)</Pair>

@@ -44,8 +44,8 @@ const _black_powder_vaulter = {title: "Black Powder Vaulter", jsx: <><h2 id="arc
 </>};
 const _blatherskite = {title: "Blatherskite", jsx: <><h2 id="arc-gunslinger-blatherskite-blatherskite">Blatherskite</h2>
 <p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook pg. 9</Link><br/>A blatherskite talks big and feels powerful when holding a loaded gun, but when the gun jams or the situation gets too intense, he's the first to run for cover. He has an extraordinary talent for retreating from harm's way and fooling his enemies into thinking he is weaker than he is.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Handle Animal, Intimidate</Pair></Ability>
 <Ability id="deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
@@ -264,8 +264,8 @@ const _bushwhacker = {title: "Bushwhacker", jsx: <><h2 id="arc-gunslinger-bushwh
 </>};
 const _commando = {title: "Commando", jsx: <><h2 id="arc-gunslinger-commando-commando">Commando</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 91</Link><br/>Commandos are those rough and ready gunslingers who excel at hit-and-run tactics and leveraging their expertise in the wild against their enemies.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Knowledge (engineering), Knowledge (local), Sleight of Hand</Pair></Ability>
 <Ability id="deeds" extraClasses="hasSubs" icon={["stairs-goal"]}>
@@ -453,8 +453,8 @@ const _graveslinger = {title: "Graveslinger", jsx: <><h2 id="arc-gunslinger-grav
 </>};
 const _gulch_gunner = {title: "Gulch Gunner", jsx: <><h2 id="arc-gunslinger-gulch_gunner-gulch-gunner">Gulch Gunner</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 152</Link><br/>Ratfolk warfare often occurs in cramped, claustrophobic spaces such as the ratfolk's own underground warrens and heavily trapped gulch fortresses, or the subterranean tunnels of goblins and similar foes. Since these battlegrounds often have tight corners and few areas with long lines of sight, those ratfolk who seek to master the use of firearms almost inevitably become experts in close-quarters combat. These gulch gunners often specialize in proficiency with a single pistol (easily handled in tight spaces) and wander from warren to warren selling their tunnel-shooting skills to the highest bidder. A gulch gunner has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-gunslinger-gulch_gunner--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ratfolk">Ratfolk</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-gunslinger-gulch_gunner--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/ratfolk">Ratfolk</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (local), Ride, Swim</Pair></Ability>
 <Ability id="grit-ex" extraClasses="hasSubs" icon={["info"]}>
@@ -956,8 +956,8 @@ const _techslinger = {title: "Techslinger", jsx: <><h2 id="arc-gunslinger-techsl
 </>};
 const _thronewarden = {title: "Thronewarden", jsx: <><h2 id="arc-gunslinger-thronewarden-thronewarden">Thronewarden</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 8</Link><br/>As vigilant sentinels, thronewardens identify and head off trouble. First employed in the Grand Duchy of Alkenstar, they are now also found in the jungle courts of the Mwangi Expanse, the lesser chambers of Nex's Council of Three and Nine, and the Hurricane King's gatherings in the Shackles.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Bluff</Pair></Ability>
 <Ability id="hair-trigger-reflexes-ex" icon={["stairs-goal","upgrade"]}>
@@ -997,8 +997,8 @@ const _thronewarden = {title: "Thronewarden", jsx: <><h2 id="arc-gunslinger-thro
 const _wyrm_sniper = {title: "Wyrm Sniper", jsx: <><h2 id="arc-gunslinger-wyrm_sniper-wyrm-sniper">Wyrm Sniper</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 23</Link><br/>These long-shot artists are masters at taking down dragons with sharp shooting and light siege weaponry.</p>
 <p>The following are class features for wyrm snipers.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT)</Pair></Ability>
 <Ability id="artillery-proficiency" icon={["stairs-goal"]}>
 <Pair single id="artillery-proficiency">Artillery Proficiency</Pair>

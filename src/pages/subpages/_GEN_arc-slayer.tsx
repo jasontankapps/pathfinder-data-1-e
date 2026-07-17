@@ -273,8 +273,8 @@ const _covenbane = {title: "Covenbane", jsx: <><h2 id="arc-slayer-covenbane-cove
 </ol></section></>};
 const _cutthroat = {title: "Cutthroat", jsx: <><h2 id="arc-slayer-cutthroat-cutthroat">Cutthroat</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 119</Link><br/>Street-smart and extremely resourceful, cutthroats stalk city streets and alleyways, preying on those unfortunate enough to catch their eye. More opportunists than careful planners, they don't care who they rob or kill, and take advantage of whatever circumstances put them near a suitable target.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (geography), Survival</Pair></Ability>
 <Ability id="street-stalker-ex" icon={["upgrade"]}>
@@ -483,8 +483,8 @@ const _sczarni_executioner = {title: "Sczarni Executioner", jsx: <><h2 id="arc-s
 <Pair title="Prerequisites">A Sczarni executioner must be evil.</Pair>
 <Pair title="Info">If he ever becomes nonevil, he loses this archetype and becomes a regular slayer.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/appraise">Appraise</Link> (INT), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (geography), Ride, Survival</Pair></Ability>
 <Ability id="focused-killer-ex" icon={["upgrade","broken-shield"]}>
@@ -768,8 +768,8 @@ const _vanguard = {title: "Vanguard", jsx: <><h2 id="arc-slayer-vanguard-vanguar
 <p><strong className="hl">The following rogue talents complement the vanguard archetype:</strong> <Link to="/talent/combat_trick">combat trick</Link>, <Link to="/talent/finesse_rogue">finesse rogue</Link>, <Link to="/talent/hard_to_fool">hard to fool</Link>, <Link to="/talent/rogue_crawl">rogue crawl</Link>, <Link to="/talent/surprise_attack">surprise attack</Link>, <Link to="/talent/terrain_mastery">terrain mastery</Link>, <Link to="/talent/weapon_training">weapon training</Link></p><p><strong className="hl">The following advanced slayer talents complement the vanguard archetype:</strong> <Link to="/slayertalent/advanced_rogue_talent">advanced rogue talent</Link> (<Link to="/talent/feat">feat</Link>, <Link to="/talent/opportunist">opportunist</Link>, <Link to="/talent/unwitting_ally">unwitting ally</Link>), <Link to="/slayertalent/slayer_camouflage">slayer camouflage</Link></p></>};
 const _velvet_blade = {title: "Velvet Blade", jsx: <><h2 id="arc-slayer-velvet_blade-velvet-blade">Velvet Blade</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 70</Link><br/>Velvet blades specialize in infiltrating the upper echelons of society, mingling with nobles and courtiers, and killing them. Velvet blades are often born into the aristocracy, with an intricate understanding of the inner workings of upper-class society. Though a few velvet blades are unhinged maniacs who enjoy preying on their peers, most of these well-heeled slayers assume a professional demeanor and hire themselves out to other nobles or well-connected criminal organizations.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering)</Pair></Ability>
 <Ability id="armor-proficiency" icon={["broken-shield"]}>
@@ -806,8 +806,8 @@ const _velvet_blade = {title: "Velvet Blade", jsx: <><h2 id="arc-slayer-velvet_b
 </>};
 const _witch_killer = {title: "Witch Killer", jsx: <><h2 id="arc-slayer-witch_killer-witch-killer">Witch Killer</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 67</Link><br/>Born into cultures where magic users are hated and feared, witch killers devote their lives to purge the arcane taint from the world.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair></Ability>
 <Ability id="studied-witch-ex" icon={["upgrade","broken-shield"]}>
 <Pair single id="studied-witch-ex">Studied Witch (Ex)</Pair>

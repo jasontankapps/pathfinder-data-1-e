@@ -7,8 +7,8 @@ import ByLevelPop from '../../components/ByLevelPop';
 import AffInfo from '../../components/AfflictionInfo';
 const _alley_witch = {title: "Alley Witch", jsx: <><h2 id="arc-witch-alley_witch-alley-witch">Alley Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 20</Link><br/>Some witches find their spark of magic in the long, dark shadows and forgotten places within the city.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (nature), Knowledge (planes)</Pair></Ability>
 <Ability id="crowd-patron" icon={["info","spell-book"]}>
@@ -329,8 +329,8 @@ const _dimensional_occultist = {title: "Dimensional Occultist", jsx: <><h2 id="a
 </>};
 const _dreamweaver = {title: "Dreamweaver", jsx: <><h2 id="arc-witch-dreamweaver-dreamweaver">Dreamweaver</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 185</Link><br/>A changeling dreamweaver draws upon her hag heritage to ply the dream realms in order to touch mortal minds and souls, for good or ill. A dreamweaver witch has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-witch-dreamweaver--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/changeling">Changeling</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-witch-dreamweaver--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/changeling">Changeling</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Heal</Pair></Ability>
 <Ability id="patron" icon={["info"]}>
@@ -377,8 +377,8 @@ const _flood_walker = {title: "Flood Walker", jsx: <><h2 id="arc-witch-flood_wal
 <Pair single id="alignment">Alignment</Pair>
 <Pair title="Info">Flood walkers exult in the final gasp for air of a drowning victim and must be evil in alignment. A flood walker who becomes nonevil loses access to all abilities granted by this archetype but does not regain any abilities this archetype replaced.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS), <Link to="/skill/swim">Swim</Link> (STR)</Pair>
 <Pair title="Removed Skills">Fly, Heal</Pair></Ability>
 <Ability id="patron-spells" icon={["spell-book"]}>
@@ -779,8 +779,8 @@ const _invoker = {title: "Invoker", jsx: <><h2 id="arc-witch-invoker-invoker">In
 </>};
 const _jinx_witch = {title: "Jinx Witch", jsx: <><h2 id="arc-witch-jinx_witch-jinx-witch">Jinx Witch</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 25</Link><br/>The common perception of tengus as good luck charms has its roots in the first great empire to unify Tian Xia 7,000 years ago, when tengus were superstitious and skittish folk inhabiting the continent's central mountain ranges. Jinx witches specialize in calling down subtle misfortunes and deceiving enemies and allies alike. While they lack any ability to truly eliminate bad luck, they are uniquely gifted at making others believe otherwise. Many of these ancient traditions have been forgotten as tengus spread across the world and assimilated into other cultures, but a rare few tengus still practice this curious art of misdirection and dealing in ill fortune. A jinx witch's patron is normally <Link to="/patron/deception">Deception</Link>, <Link to="/patron/shadow">Shadow</Link>, or <Link to="/patron/trickery">Trickery</Link>.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair></Ability>
 <Ability id="spell-awareness-ex" icon={["upgrade","armor-upgrade"]}>
 <Pair single id="spell-awareness-ex" flavor="A jinx witch is skilled at identifying hostile spells and effects that target her.">Spell Awareness (Ex)</Pair>
@@ -1302,8 +1302,8 @@ const _putrefactor = {title: "Putrefactor", jsx: <><h2 id="arc-witch-putrefactor
 </>};
 const _rhetorician = {title: "Rhetorician", jsx: <><h2 id="arc-witch-rhetorician-rhetorician">Rhetorician</h2>
 <p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology pg. 25</Link><br/>Rhetoricians feel driven to engage in debate, learn as much as they can about their potential foes, and seek ways to use information and quick talking to handle problems before resorting to raw violence. Regardless of their shadowy patrons, rhetoricians are granted a series of spells through their familiars that boost their ability to outtalk and outthink their foes, leading some to believe they are destined to be emissaries for their patrons once some long-term plans of their patrons' come to fruition.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perform">Perform</Link> (CHA)</Pair></Ability>
 <Ability id="debater-ex" icon={["armor-downgrade"]}>
 <Pair single id="debater-ex" flavor="A rhetorician is an expert at making counterarguments and treating everything as a debate.">Debater (Ex)</Pair>
@@ -1520,8 +1520,8 @@ const _tatterdemalion = {title: "Tatterdemalion", jsx: <><h2 id="arc-witch-tatte
 </>};
 const _vellemancer = {title: "Vellemancer", jsx: <><h2 id="arc-witch-vellemancer-vellemancer">Vellemancer</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven pg. 17</Link><br/>While the popular stereotype envisions witches as wicked spellcasters sowing misery, many people turn to the arcane to heal others and better the world. The vellemancer is a guide, using her witchcraft to empower and teach others. She rarely dispenses every gift a needy soul asks, but she instead offers the advice, opportunities, and tools people require to achieve their own dreams.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair></Ability>
 <Ability id="keen-counselor" icon={["hazard-sign"]}>
 <Pair single id="keen-counselor">Keen Counselor</Pair>

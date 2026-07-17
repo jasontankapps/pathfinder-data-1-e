@@ -296,8 +296,8 @@ const _deep_marshal = {title: "Deep Marshal", jsx: <><h2 id="arc-magus-deep_mars
 </>};
 const _eldritch_archer = {title: "Eldritch Archer", jsx: <><h2 id="arc-magus-eldritch_archer-eldritch-archer">Eldritch Archer</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 11</Link><br/>The eldritch archer rains magical attacks down on her foes from the city walls.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perception">Perception</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Use Magic Device</Pair></Ability>
 <Ability id="arcane-pool-su" icon={["stairs-goal","broken-shield"]}>
@@ -860,8 +860,8 @@ const _kensai = {title: "Kensai", jsx: <><h2 id="arc-magus-kensai-kensai">Kensai
 const _magic_warrior = {title: "Magic Warrior", jsx: <><h2 id="arc-magus-magic_warrior-magic-warrior">Magic Warrior</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 123</Link>, <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 42</Link><br/>Trained in a tradition stretching back to Old-Mage Jatembe's Ten Magic Warriors, Magic Warriors renounce their identities to master magical might and serve as champions of culture and learning across the Mwangi Expanse and beyond. The original Ten Magic Warriors each directly served Old-Mage Jatembe as guardians, bodyguards, allies, and friends. Tales of their deeds are still told today in the <Link to="/rule/magaambya">Magaambya</Link>, and while they are long gone, the traditions that rose from these tales live on.</p>
 <p>While the original Ten Magic Warriors championed unusual skills drawn from various arcane spellcasting classes, often combined with martial classes or even prestige classes, the tradition today has been standardized over the course of the intervening centuries into an archetype followed strictly by magi. Even then, it's not uncommon for a Magic Warrior to multiclass with a martial class for a few levels or to become an <Link to="/pclass/eldritch_knight">eldritch knight</Link> to further bolster her combat powers. No one path is regarded as canonical for the magi of the Magic Warriors, and they value their diversity, looking to their brothers and sisters constantly for inspiration regarding new ways to defend the Magaambya and the people of the Mwangi Expanse from the multitude of dangers the world has to offer.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (planes)</Pair></Ability>
 <Ability id="nameless-mask-ex" icon={["armor-upgrade","broken-shield","hazard-sign"]}>
@@ -1026,8 +1026,8 @@ const _nature_bonded_magus = {title: "Nature-Bonded Magus", jsx: <><h2 id="arc-m
 </>};
 const _puppetmaster = {title: "Puppetmaster", jsx: <><h2 id="arc-magus-puppetmaster-puppetmaster">Puppetmaster</h2>
 <p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology pg. 27</Link><br/>Puppetmasters focus on using charm and illusion spells to control the senses of those for whom they perform.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/perform">Perform</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Climb, Ride, Swim</Pair></Ability>
 <Ability id="skills" icon={["info"]}>
@@ -1250,8 +1250,8 @@ const _soul_forger = {title: "Soul Forger", jsx: <><h2 id="arc-magus-soul_forger
 </>};
 const _spell_dancer = {title: "Spell Dancer", jsx: <><h2 id="arc-magus-spell_dancer-spell-dancer">Spell Dancer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 24</Link><br/>The strong emphasis on wizards within elven culture influences how even non-wizard elves see themselves. Many elven magi do not consider themselves masters of a blend of martial and magical talents, but rather a sub-category of wizards who study the effect of physical movement and techniques upon spellcasting ability. They believe their ability to cast spells while fighting is an outgrowth of the concept of the "spell dance," which itself is just another kind of wizardry. A spell dancer has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-magus-spell_dancer--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-magus-spell_dancer--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/elf">Elf</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/perform">Perform (dance)</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Intimidate, Ride</Pair></Ability>
 <Ability id="spell-dance-su" icon={["upgrade","armor-upgrade"]}>
@@ -1285,8 +1285,8 @@ const _spell_dancer = {title: "Spell Dancer", jsx: <><h2 id="arc-magus-spell_dan
 </>};
 const _spell_trapper = {title: "Spell Trapper", jsx: <><h2 id="arc-magus-spell_trapper-spell-trapper">Spell Trapper</h2>
 <p><strong>Sources</strong> <Link to="/source/magic_tactics_toolbox">Magic Tactics Toolbox pg. 15</Link><br/>Spell trappers are found in lands where hunting and magic are abundant, particularly the deserts of Thuvia and the harsh lands of Geb and Nex. They forsake much of their arcane skill and martial knowledge in exchange for the ability to conjure magical traps to hinder their foes.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Knowledge (planes)</Pair></Ability>
 <Ability id="diminished-arcana" icon={["broken-shield","stairs-goal"]}>

@@ -7,8 +7,8 @@ import InnerLink from '../../components/InnerLink';
 import ByLevelPop from '../../components/ByLevelPop';
 const _aerial_assaulter = {title: "Aerial Assaulter", jsx: <><h2 id="arc-fighter-aerial_assaulter-aerial-assaulter">Aerial Assaulter</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 27</Link><br/>As staunch believers in the value of higher ground, the Shory developed special fighting styles that capitalize on fighting from above. While many dismiss such techniques as a niche tactic, aerial assaulters leap to great heights and create higher ground where there is none.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/fly">Fly</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Ride, Swim</Pair></Ability>
 <Ability id="aerial-expertise-ex" icon={["upgrade"]}>
@@ -50,8 +50,8 @@ const _airborne_ambusher = {title: "Airborne Ambusher", jsx: <><h2 id="arc-fight
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Info">An airborne ambusher is not proficient with heavy armor or tower shields.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/fly">Fly</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Climb</Pair></Ability>
 <Ability id="combat-flyer-ex" icon={["upgrade"]}>
@@ -340,8 +340,8 @@ const _cad = {title: "Cad", jsx: <><h2 id="arc-fighter-cad-cad">Cad</h2>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Info">A cad is not proficient with medium armor, heavy armor, or tower shields.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair></Ability>
 <Ability id="dirty-maneuvers-ex" icon={["upgrade","armor-upgrade"]}>
 <Pair single id="dirty-maneuvers-ex" flavor="A cad becomes skilled at deceiving and discomfiting his opponents.">Dirty Maneuvers (Ex)</Pair>
@@ -414,8 +414,8 @@ const _calistrian_hunter = {title: "Calistrian Hunter", jsx: <><h2 id="arc-fight
 <Pair hl title="Replaces">Armor and weapon proficiencies</Pair>
 <Pair title="Info">A Calistrian hunter is proficient with all simple and martial weapons, plus the <Link to="/eq-weapon/whip">whip</Link>. In addition, the hunter is proficient with light and medium armor as well as shields (except tower shields).</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (engineering)</Pair></Ability>
 <Ability id="tenacious-tracker-ex" icon={["upgrade"]}>
@@ -464,8 +464,8 @@ const _calistrian_hunter = {title: "Calistrian Hunter", jsx: <><h2 id="arc-fight
 </>};
 const _cavern_sniper = {title: "Cavern Sniper", jsx: <><h2 id="arc-fighter-cavern_sniper-cavern-sniper">Cavern Sniper</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 104</Link><br/>Perfectly at home in the darkness, the cavern sniper capitalizes on stealth and ranged attacks imbued with his spell-like abilities to harass his opponents. The cavern sniper focuses on surprise, his innate magical abilities, and poison to take down unwary foes. The cavern sniper has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-fighter-cavern_sniper--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/drow">Drow</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-fighter-cavern_sniper--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/drow">Drow</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Intimidate</Pair></Ability>
 <Ability id="imbued-shot-su" icon={["magic-swirl"]}>
@@ -881,8 +881,8 @@ const _dirty_fighter = {title: "Dirty Fighter", jsx: <><h2 id="arc-fighter-dirty
 </>};
 const _dragonheir_scion = {title: "Dragonheir Scion", jsx: <><h2 id="arc-fighter-dragonheir_scion-dragonheir-scion">Dragonheir Scion</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons pg. 12</Link><br/>Dragonheir scions are the martially inclined humanoid descendants of those influenced by draconic power. Unlike their sorcerous brethren, dragonheir scions manifest their heritage in ways more suited to strength of arms and skill with steel than arcane energies. Those who follow this path are often the children of mighty dragon-blooded sorcerers and others who drew energy from their dragon blood, though they themselves might not exhibit spellcasting ability.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Handle Animal, Ride</Pair></Ability>
 <Ability id="draconic-bloodline-su" icon={["stairs-goal"]}>
@@ -1150,8 +1150,8 @@ const _druman_blackjacket = {title: "Druman Blackjacket", jsx: <><h2 id="arc-fig
 </>};
 const _eldritch_guardian = {title: "Eldritch Guardian", jsx: <><h2 id="arc-fighter-eldritch_guardian-eldritch-guardian">Eldritch Guardian</h2>
 <p><strong>Sources</strong> <Link to="/source/familiar_folio">Familiar Folio pg. 7</Link><br/>Eldritch guardians are trained to detect and give warning about magic threats to the people and places they protect.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/spellcraft">Spellcraft</Link> (INT), <Link to="/skill/use_magic_device">Use Magic Device</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Intimidate, Ride, Swim</Pair></Ability>
 <Ability id="familiar-ex" icon={["stairs-goal"]}>
@@ -1285,8 +1285,8 @@ const _free_hand_fighter = {title: "Free Hand Fighter", jsx: <><h2 id="arc-fight
 </>};
 const _gladiator = {title: "Gladiator", jsx: <><h2 id="arc-fighter-gladiator-gladiator">Gladiator</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 47</Link><br/>Most fighters battle out of necessity, with each battle a contest of life and death. Some, however, fight for glory and for the adulation of the crowd. The gladiator is both a cunning warrior and a consummate performer, knowing life and death are balanced not only on a sword's edge, but also on the cheers or jeers of the crowd.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perform">Perform (act, comedy, and dance)</Link> (CHA)</Pair></Ability>
 <Ability id="weapon-and-armor-proficiency" icon={["stairs-goal","armor-upgrade"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
@@ -1307,8 +1307,8 @@ const _gladiator = {title: "Gladiator", jsx: <><h2 id="arc-fighter-gladiator-gla
 </>};
 const _gloomblade = {title: "Gloomblade", jsx: <><h2 id="arc-fighter-gloomblade-gloomblade">Gloomblade</h2>
 <p><strong>Sources</strong> <Link to="/source/planar_adventures">Planar Adventures pg. 14</Link><br/>The Shadow Plane's substance is legendary for its versatility. In shadow-shrouded lands, secretive martial practitioners long ago learned to shape supernatural weapons from ribbons of pure darkness.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/acrobatics">Acrobatics</Link> (DEX), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/perception">Perception</Link> (WIS), <Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Climb, Handle Animal, Ride, Swim</Pair></Ability>
 <Ability id="shadow-weapon-su" icon={["stairs-goal","magic-swirl"]}>
@@ -1344,8 +1344,8 @@ const _gloomblade = {title: "Gloomblade", jsx: <><h2 id="arc-fighter-gloomblade-
 </>};
 const _high_guardian = {title: "High Guardian", jsx: <><h2 id="arc-fighter-high_guardian-high-guardian">High Guardian</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 8</Link><br/>As the shield that protects his lord from the myriad dangers around every corner, the high guardian pledges his life to keep his charge safe. High guardians epitomize personal devotion, making them especially popular among Taldan nobles envious of the emperor's <Link to="/rule/ulfen_guard">Ulfen Guard</Link>, as well as in the courts of the Lands of the Linnorm Kings, the war councils of Molthune and Lastwall, and the refined chambers of Osirion.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (engineering)</Pair></Ability>
 <Ability id="obligation-ex" icon={["stairs-goal","shield-reflect"]}>

@@ -6,8 +6,8 @@ import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 const _perfect_scholar = {title: "Perfect Scholar", jsx: <><h2 id="arc-monk-perfect_scholar-perfect-scholar">Perfect Scholar</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 44</Link><br/>Perfect scholars, often worshipers of Irori, hone their minds and bodies through the accumulation of knowledge. They study and annotate the holy texts of Irori and other philosophies as well as collect lore on anatomy, medicine, philosophy, martial arts, and history, among other topics of erudition.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair>
 <Pair title="Removed Skills">Intimidate, Perform</Pair></Ability>
 <Ability id="lore-ex" icon={["upgrade"]}>
@@ -38,8 +38,8 @@ const _perfect_scholar = {title: "Perfect Scholar", jsx: <><h2 id="arc-monk-perf
 </>};
 const _perfect_scholar_uc = {title: "Perfect Scholar (Unchained)", topLink: ["Unchained Monk","class/unchained_monk"], jsx: <><h2 id="arc-monk-perfect_scholar_uc-perfect-scholar">Perfect Scholar</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 44</Link><br/>Perfect scholars, often worshipers of Irori, hone their minds and bodies through the accumulation of knowledge. They study and annotate the holy texts of Irori and other philosophies as well as collect lore on anatomy, medicine, philosophy, martial arts, and history, among other topics of erudition.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair>
 <Pair title="Removed Skills">Intimidate, Perform</Pair></Ability>
 <Ability id="lore-ex" icon={["upgrade"]}>
@@ -848,8 +848,8 @@ const _qinggong_monk = {hasJL:true,title: "Qinggong Monk", jsx: <><div className
 </>};
 const _sage_counselor = {title: "Sage Counselor", jsx: <><h2 id="arc-monk-sage_counselor-sage-counselor">Sage Counselor</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 67</Link><br/>Sage counselors are ascetics and mystics who leave the confines of the monastery walls to advise secular people about spiritual truths and to seek knowledge of the outside world. They often find work as mentors teaching religion and martial arts, and some of them even become counselors for people in high places. Sage counselors often speak in metaphors, knowing that indirect persuasion is more effective than speaking plainly, and they use indirect tactics in combat as well.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Climb, Escape Artist, Perception</Pair></Ability>
 <Ability id="cunning-fist-ex" icon={["stairs-goal"]}>
@@ -878,8 +878,8 @@ const _sage_counselor = {title: "Sage Counselor", jsx: <><h2 id="arc-monk-sage_c
 </>};
 const _sage_counselor_uc = {title: "Sage Counselor (Unchained)", topLink: ["Unchained Monk","class/unchained_monk"], jsx: <><h2 id="arc-monk-sage_counselor_uc-sage-counselor">Sage Counselor</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 67</Link><br/>Sage counselors are ascetics and mystics who leave the confines of the monastery walls to advise secular people about spiritual truths and to seek knowledge of the outside world. They often find work as mentors teaching religion and martial arts, and some of them even become counselors for people in high places. Sage counselors often speak in metaphors, knowing that indirect persuasion is more effective than speaking plainly, and they use indirect tactics in combat as well.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Climb, Escape Artist, Perception</Pair></Ability>
 <Ability id="cunning-fist-ex" icon={["stairs-goal"]}>
@@ -1053,8 +1053,8 @@ const _scarred_monk = {title: "Scarred Monk", jsx: <><h2 id="arc-monk-scarred_mo
 </>};
 const _sensei = {title: "Sensei", jsx: <><h2 id="arc-monk-sensei-sensei">Sensei</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 60</Link><br/>The sensei is a revered teacher who imparts lessons on the oneness of mind, body, and spirit, along with occasional correction that is subtle and swift. Rather than using wisdom for his own benefit alone, he uses it to better those around him.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair></Ability>
 <Ability id="advice-ex" icon={["stairs-goal","upgrade"]}>
 <Pair single id="advice-ex">Advice (Ex)</Pair>
@@ -1082,8 +1082,8 @@ const _sensei = {title: "Sensei", jsx: <><h2 id="arc-monk-sensei-sensei">Sensei<
 </>};
 const _serpent_fire_adept = {title: "Serpent-Fire Adept", jsx: <><h2 id="arc-monk-serpent_fire_adept-serpent-fire-adept">Serpent-Fire Adept</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 20</Link><br/>A serpent-fire adept embraces the secrets of her chakras and mastery of their energetic flow.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/appraise">Appraise</Link> (INT), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/fly">Fly</Link> (DEX), <Link to="/skill/heal">Heal</Link> (WIS), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Climb, Intimidate, Knowledge (history), Perform, Ride, Swim</Pair></Ability>
 <Ability id="chakra-training" icon={["stairs-goal"]}>
@@ -1130,8 +1130,8 @@ const _serpent_fire_adept = {title: "Serpent-Fire Adept", jsx: <><h2 id="arc-mon
 </>};
 const _serpent_fire_adept_uc = {title: "Serpent-Fire Adept (Unchained)", topLink: ["Unchained Monk","class/unchained_monk"], jsx: <><h2 id="arc-monk-serpent_fire_adept_uc-serpent-fire-adept">Serpent-Fire Adept</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 20</Link><br/>A serpent-fire adept embraces the secrets of her chakras and mastery of their energetic flow.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/appraise">Appraise</Link> (INT), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/fly">Fly</Link> (DEX), <Link to="/skill/heal">Heal</Link> (WIS), <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Climb, Intimidate, Knowledge (history), Perform, Ride, Swim</Pair></Ability>
 <Ability id="chakra-training" icon={["stairs-goal"]}>
@@ -1354,8 +1354,8 @@ const _softstrike_monk_uc = {title: "Softstrike Monk (Unchained)", topLink: ["Un
 </>};
 const _sohei = {title: "Sohei", jsx: <><h2 id="arc-monk-sohei-sohei">Sohei</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 60</Link><br/>The sohei are masters of the horse and the hunt. A monastic soldier, the sohei is equally adept at combat afoot or on horseback. While skilled in unarmed techniques, many sohei favor weapons they can use while mounted on horseback or against others' horses.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA)</Pair></Ability>
 <Ability id="weapon-and-armor-proficiency" icon={["stairs-goal"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
@@ -1563,8 +1563,8 @@ const _student_of_stone = {title: "Student of Stone", jsx: <><h2 id="arc-monk-st
 </>};
 const _terra_cotta_monk = {title: "Terra-Cotta Monk", jsx: <><h2 id="arc-monk-terra_cotta_monk-terra-cotta-monk">Terra-Cotta Monk</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 22</Link><br/>Possessing a natural affinity for all things earthen, terracotta monks are experts at turning the stone around them against their enemies.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/disable_device">Disable Device</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Knowledge (history), Perform, Ride</Pair></Ability>
 <Ability id="trap-intuition-ex" icon={["stairs-goal","upgrade"]}>
@@ -1715,8 +1715,8 @@ const _underfoot_adept = {title: "Underfoot Adept", jsx: <><h2 id="arc-monk-unde
 </>};
 const _wanderer = {title: "Wanderer", jsx: <><h2 id="arc-monk-wanderer-wanderer">Wanderer</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 76</Link><br/>Some monks wander the world in humility to learn and to share wisdom and philosophy from their teachers with those they meet, often aiding those who are in need. A wanderer has the following class features.</p>
-<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-monk-wanderer--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/human">Human</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="arc-monk-wanderer--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td><Link to="/race/human">Human</Link></td></tr></tbody></table></ScrollContainer></div><Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
 <Ability id="far-traveler-ex" icon={["stairs-goal"]}>
 <Pair single id="far-traveler-ex">Far Traveler (Ex)</Pair>

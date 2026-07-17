@@ -103,8 +103,8 @@ const _brutal_pugilist = {title: "Brutal Pugilist", jsx: <><h2 id="arc-barbarian
 </>};
 const _brutish_swamper = {title: "Brutish Swamper", jsx: <><h2 id="arc-barbarian-brutish_swamper-brutish-swamper">Brutish Swamper</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 37</Link><br/>The hardy and insular denizens of the swamp produce warriors of narrow focus and great strength. The prejudice and misunderstanding with which civilized folk often regard barbarians is often even more pronounced in the case of these belligerent outcasts from society, in large part due to the fact that brutish swampers deliberately mock and antagonize the so-called "city folk." To a brutish swamper, an urban lifestyle is one that breeds weakness and lassitude in the body. The brutish swamper has little interest or patience in maintaining alliances or friendship with those who live such soft lifestyles, and this aggression only further encourages feelings of prejudice on both sides of the cultural divide. When a brutish swamper joins an adventuring party, they usually come to value the skills and talents of their more urbanized companions, but never fully understand the desire to live lives surrounded by creature comforts.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT)</Pair></Ability>
 <Ability id="marsh-march-ex" icon={["upgrade"]}>
 <Pair single id="marsh-march-ex">Marsh March (Ex)</Pair>
@@ -144,8 +144,8 @@ const _brutish_swamper = {title: "Brutish Swamper", jsx: <><h2 id="arc-barbarian
 </>};
 const _cave_dweller = {title: "Cave Dweller", jsx: <><h2 id="arc-barbarian-cave_dweller-cave-dweller">Cave Dweller</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 37</Link><br/>Unused to the light of the sun, cave dwellers use their subterranean expertise to protect their clans from the manifold dangers of deep caverns and tunnels. The typical cave dweller is perfectly content to live his entire life underground, and he may even view the light of the sun as particularly abhorrent or taboo. While this lifestyle doesn't in and of itself imply evil or sinister intent, many outlanders ignorantly assume that cave dwellers avoid the light of the sun for malicious reasons. In truth, cave dwellers are as capable of goodness and kindness as any other - they just see little reason to venture out of their preferred homelands. When a cave dweller joins an adventuring party, she may retain an inherent nervousness about sleeping under the open sky and may long for the familiar confines of a comforting cavern, but this rarely translates directly into a notable disadvantage. Indeed, many adventuring groups come to value the specialized talents and skills the cave dweller brings to the party.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Ride</Pair></Ability>
 <Ability id="tight-tunnels-ex" icon={["upgrade"]}>
@@ -650,8 +650,8 @@ const _mounted_fury = {title: "Mounted Fury", jsx: <><h2 id="arc-barbarian-mount
 </>};
 const _numerian_liberator = {title: "Numerian Liberator", jsx: <><h2 id="arc-barbarian-numerian_liberator-numerian-liberator">Numerian Liberator</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River pg. 6</Link><br/>The Kellid barbarians that roam Numeria's badlands have a healthy mistrust of technology and its corruptive influence. Since the cataclysmic Rain of Stars millennia ago, these warriors have developed numerous techniques and skills to protect themselves from the strange mechanical monsters that roam Numeria. While many native Kellids oppose the Technic League and its espousal of foul alien artifacts, the most stalwart and staunchly dedicated of these technophobic traditionalists refer to themselves as Numerian liberators.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/stealth">Stealth</Link> (DEX)</Pair>
 <Pair title="Removed Skills">Climb</Pair></Ability>
 <Ability id="hard-hitter-ex" icon={["upgrade"]}>
@@ -804,8 +804,8 @@ const _savage_barbarian = {title: "Savage Barbarian", jsx: <><h2 id="arc-barbari
 </>};
 const _savage_technologist = {title: "Savage Technologist", jsx: <><h2 id="arc-barbarian-savage_technologist-savage-technologist">Savage Technologist</h2>
 <p><strong>Sources</strong> <Link to="/source/technology_guide">Technology Guide pg. 13</Link><br/>Savage technologists exhort Kellids to rise up against the depredations of the Technic League. But rather than rejecting technology, they wield the League's own weapons against it. A savage technologist has the following class features.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Knowledge (nature), Handle Animal</Pair></Ability>
 <Ability id="weapon-and-armor-proficiency" icon={["stairs-goal","broken-shield"]}>
@@ -1266,8 +1266,8 @@ const _urban_barbarian = {title: "Urban Barbarian", jsx: <><h2 id="arc-barbarian
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair title="Passive Ability">An urban barbarian is not proficient with medium armor.</Pair>
 </Ability>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/profession">Profession</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (nature), Survival</Pair></Ability>
 <Ability id="crowd-control-ex" icon={["upgrade","armor-upgrade"]}>

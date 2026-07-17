@@ -66,8 +66,8 @@ const _anaphexia_thought_killer = {title: "Anaphexia Thought-Killer", jsx: <><h2
 </>};
 const _avenging_beast = {title: "Avenging Beast", jsx: <><h2 id="arc-vigilante-avenging_beast-avenging-beast">Avenging Beast</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 96</Link><br/>Some vigilantes turn to natural traditions and supernatural forces to transform into beasts, unleashing a primal fury on their foes before returning to an ordinary guise.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair>
 <Pair title="Removed Skills">Disable Device, Knowledge (engineering), Perform, Sleight of Hand</Pair></Ability>
 <Ability id="skill-ranks-per-level" icon={["broken-shield"]}>
@@ -237,8 +237,8 @@ const _brute = {title: "Brute", jsx: <><h2 id="arc-vigilante-brute-brute">Brute<
 </>};
 const _cabalist = {title: "Cabalist", jsx: <><h2 id="arc-vigilante-cabalist-cabalist">Cabalist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 55</Link><br/>Appearing to be an upstanding member of society, the cabalist clandestinely follows the tenets of a secret society. Practice with blood sacrifices, necromancy, and shadow magic gives a cabalist a reputation as a sinister and dangerous vigilante.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair>
 <Pair title="Removed Skills">Disable Device, Knowledge (engineering), Perception, Survival</Pair></Ability>
 <Ability id="skill-ranks-per-level" icon={["broken-shield"]}>
@@ -459,8 +459,8 @@ const _dragonscale_loyalist = {title: "Dragonscale Loyalist", jsx: <><h2 id="arc
 </>};
 const _experimenter = {title: "Experimenter", jsx: <><h2 id="arc-vigilante-experimenter-experimenter">Experimenter</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 70</Link><br/>Some vigilantes adopt lives of secrecy to hide their strange experiments from public view.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair></Ability>
 <Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
@@ -777,8 +777,8 @@ const _imperial_agent = {title: "Imperial Agent", jsx: <><h2 id="arc-vigilante-i
 </>};
 const _magical_child = {title: "Magical Child", jsx: <><h2 id="arc-vigilante-magical_child-magical-child">Magical Child</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 57</Link><br/>Some vigilantes, no matter their age, carry a spark of capricious whimsy under which flows a powerful current of magic and wonder. They keep these wondrous abilities secret, though they are aided in their endeavors by creatures just as magical as they are.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair>
 <Pair title="Removed Skills">Disable Device, Knowledge (engineering), Perception, Survival</Pair></Ability>
 <Ability id="skill-ranks-per-level" icon={["broken-shield"]}>
@@ -864,8 +864,8 @@ const _masked_maiden = {title: "Masked Maiden", jsx: <><h2 id="arc-vigilante-mas
 </>};
 const _mounted_fury = {title: "Mounted Fury", jsx: <><h2 id="arc-vigilante-mounted_fury-mounted-fury">Mounted Fury</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 58</Link><br/>Some vigilantes form special bonds with the creatures they use as steeds, considering these loyal and trusted mounts just as much heroes or antiheroes as they might be. Mounted furies often masquerade as anonymous stable hands or humble quartermasters to mask their vigilante activities.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Swim, Use Magic Device</Pair></Ability>
 <Ability id="thorough-change" icon={["broken-shield"]}>
@@ -937,8 +937,8 @@ const _mutated_defender = {title: "Mutated Defender", jsx: <><h2 id="arc-vigilan
 </>};
 const _psychometrist = {title: "Psychometrist", jsx: <><h2 id="arc-vigilante-psychometrist-psychometrist">Psychometrist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 59</Link><br/>Wise vigilantes know that there is power in certain seemingly unremarkable items. Psychometrists aren't spellcasters; instead, they collect strange items or create their own uncanny gadgets that seem to only work for them. Psychometrists often hide their clandestine activities behind the guise of an eccentric peddler, curator, tinker, or artificer.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (engineering)</Pair></Ability>
 <Ability id="occult-awareness" icon={["stairs-goal"]}>
@@ -1141,8 +1141,8 @@ const _teisatsu = {title: "Teisatsu", jsx: <><h2 id="arc-vigilante-teisatsu-teis
 </>};
 const _warlock = {title: "Warlock", jsx: <><h2 id="arc-vigilante-warlock-warlock">Warlock</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 60</Link><br/>Practicing magic in secret, the warlock obscures her arcane scholarship from public view. Her study of these arts allows her to hide her dual nature and enchant her enemies - or simply blast them with furious magical attacks.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair>
 <Pair title="Removed Skills">Disable Device, Knowledge (engineering), Perception, Survival</Pair></Ability>
 <Ability id="skill-ranks-per-level" icon={["broken-shield"]}>
@@ -1328,8 +1328,8 @@ const _wildsoul = {hasJL:true,title: "Wildsoul", jsx: <><div className="jumpList
 </>};
 const _zealot = {title: "Zealot", jsx: <><h2 id="arc-vigilante-zealot-zealot">Zealot</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 62</Link>, <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 33</Link><br/>Dedicated to a single deity, the zealot hunts the enemies of his faith in secret, often because his religion is outlawed or persecuted in the region.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/spellcraft">Spellcraft</Link> (INT)</Pair>
 <Pair title="Removed Skills">Disable Device, Knowledge (engineering), Perform, Sleight of Hand</Pair></Ability>
 <Ability id="skill-ranks-per-level" icon={["broken-shield"]}>

@@ -89,8 +89,8 @@ const _devil_binder = {title: "Devil Binder", jsx: <><h2 id="arc-unchained_summo
 </>};
 const _devil_impostor = {title: "Devil Impostor", jsx: <><h2 id="arc-unchained_summoner-devil_impostor-devil-impostor">Devil Impostor</h2>
 <p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil pg. 17</Link><br/>Some summoners can't abide the cruelty of devils, or simply can't outwit them, but must appear to do so to get by in Cheliax, the Outer Planes, or similar areas of infernal influence. Rather than risk binding true devils, they reshape their eidolons into deceptive forms.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
 <Ability id="bond-alignment-su" icon={["aura"]}>
 <Pair single id="bond-alignment-su">Bond Alignment (Su)</Pair>
@@ -130,8 +130,8 @@ const _devil_impostor = {title: "Devil Impostor", jsx: <><h2 id="arc-unchained_s
 </>};
 const _fey_caller = {title: "Fey Caller", jsx: <><h2 id="arc-unchained_summoner-fey_caller-fey-caller">Fey Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 71</Link><br/>The strange creatures known as fey hail from a variety of places, including the natural world and their own domains on other planes. Fey callers are summoners whose voices reach out into those strange faerie realms and call forth the fey who dwell there. The touch of the fey makes the fey caller different from those summoners who call other outsiders to their sides as eidolons.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/survival">Survival</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Knowledge (arcana), Knowledge (dungeoneering), Knowledge (engineering), Knowledge (geography), Knowledge (history), Knowledge (local), Knowledge (nobility), Knowledge (religion)</Pair></Ability>
 <Ability id="natures-call" icon={["info"]}>
@@ -162,8 +162,8 @@ const _fey_caller = {title: "Fey Caller", jsx: <><h2 id="arc-unchained_summoner-
 </ol></section></>};
 const _god_caller = {title: "God Caller", jsx: <><h2 id="arc-unchained_summoner-god_caller-god-caller">God Caller</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 40</Link><br/>God callers follow a fractured tradition that originated in the now-lost nation of Sarkoris. They speak to an assortment of ancient divine powers to lead their communities and sometimes stir up reformations in faiths with ideals similar to their personal convictions.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair>
 <Pair title="Removed Skills">Knowledge (dungeoneering), Knowledge (engineering), Knowledge (geography), Knowledge (nature), Use Magic Device</Pair></Ability>
 <Ability id="guidance-sp" icon={["magic-swirl","broken-shield"]}>

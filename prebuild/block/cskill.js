@@ -167,10 +167,11 @@ const makeClassSkillsAbilityBlock = ({
 	convertEncodedInfo,
 	maybeClear,
 	attrs,
+	id,
 	logError
 }) => {
 	const {
-		gain, lose, pre, post, preTitle, postTitle, id, preHL, postHL, noAlter
+		gain, lose, pre, post, preTitle, postTitle, preHL, postHL, noAlter
 	} = attrs;
 	const doParse = (input) => {
 		return marked2.parseInline(convertEncodedInfo(input));

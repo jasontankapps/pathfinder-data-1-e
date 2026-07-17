@@ -504,8 +504,8 @@ const _steelblood = {title: "Steelblood", jsx: <><h2 id="arc-bloodrager-steelblo
 </>};
 const _symbol_striker = {title: "Symbol Striker", jsx: <><h2 id="arc-bloodrager-symbol_striker-symbol-striker">Symbol Striker</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 7</Link><br/>Symbol strikers are honored warriors of Dongun Hold, a Sky Citadel in Alkenstar that was a site of frequent conflicts between the nations of Geb and Nex. The dwarven inhabitants used powerful magic explosives to seal the fortress against the outside world and prevent the Sky Citadel from becoming a pawn in the arcane wars between the two powers. Only with the arrival of Ancil Alkenstar in 4588 AR did Dongun Hold reopen itself to the outside world. By then, the constant exposure to strange runic energies and the long isolation had caused a unique form of rune-wielding berserker spellcaster to develop, though the symbol striker tradition has since spread beyond its origins.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/linguistics">Linguistics</Link> (INT)</Pair>
 <Pair title="Removed Skills">Handle Animal</Pair></Ability>
 <Ability id="rune-training-sp" icon={["magic-swirl","spell-book"]}>
@@ -547,8 +547,8 @@ const _untouchable_rager = {title: "Untouchable Rager", jsx: <><h2 id="arc-blood
 </>};
 const _urban_bloodrager = {title: "Urban Bloodrager", jsx: <><h2 id="arc-bloodrager-urban_bloodrager-urban-bloodrager">Urban Bloodrager</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 24</Link><br/>Like the <Link to="/arc-barbarian/urban_barbarian">urban barbarian</Link>, the urban bloodrager has learned to control her rage in so-called polite society. Though she lacks the untamed resilience of her wilder fellows, she's an expert at keeping her rage from causing collateral damage in crowds.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/linguistics">Linguistics</Link> (INT), <Link to="/skill/profession">Profession</Link> (WIS)</Pair>
 <Pair title="Removed Skills">Handle Animal, Knowledge (nature), Survival</Pair></Ability>
 <Ability id="weapon-and-armor-proficiency" icon={["broken-shield"]}>

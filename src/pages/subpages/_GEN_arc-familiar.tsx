@@ -5,8 +5,8 @@ import InnerLink from '../../components/InnerLink';
 const _ambassador = {title: "Ambassador", jsx: <><h2 id="arc-familiar-ambassador-ambassador">Ambassador</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 210</Link><br/>An ambassador speaks on its master's behalf and sometimes on behalf of its master's patron or other extraplanar contacts.</p>
 <p><strong className="hl">Special Requirement:</strong> An ambassador familiar must be able to speak at least one language, either as a special familiar ability (as in the case of a <Link to="/monster/raven">raven</Link> or <Link to="/monster/thrush">thrush</Link>) or by being an <Link to="/feat/improved_familiar">Improved Familiar</Link>. A familiar that can't speak (or can speak only to its master or other animals) can't be an ambassador.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/diplomacy">Diplomacy</Link> (CHA), <Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
 <Ability id="persuasive-ex" icon={["stairs-goal"]}>
 <Pair single id="persuasive-ex">Persuasive (Ex)</Pair>
@@ -22,8 +22,8 @@ const _ambassador = {title: "Ambassador", jsx: <><h2 id="arc-familiar-ambassador
 const _animal_exemplar = {title: "Animal Exemplar", jsx: <><h2 id="arc-familiar-animal_exemplar-animal-exemplar">Animal Exemplar</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 210</Link><br/>An animal exemplar is a paragon of its species, able to command the loyalty of others of its kind.</p>
 <p><strong className="hl">Special Requirement:</strong> An animal exemplar familiar cannot be an improved familiar, plant, vermin, or other non-animal themed familiar.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/handle_animal">Handle Animal</Link> (CHA)</Pair></Ability>
 <Ability id="influence-animals-ex-sp" icon={["upgrade","stairs-goal","magic-swirl"]}>
 <Pair single id="influence-animals-ex-sp">Influence Animals (Ex, Sp)</Pair>
@@ -59,8 +59,8 @@ const _arcane_amplifier = {title: "Arcane Amplifier", jsx: <><h2 id="arc-familia
 </>};
 const _decoy = {title: "Decoy", jsx: <><h2 id="arc-familiar-decoy-decoy">Decoy</h2>
 <p><strong>Sources</strong> <Link to="/source/familiar_folio">Familiar Folio pg. 10</Link><br/>A decoy misdirects its master's enemies, allowing the master to strike by surprise.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA)</Pair></Ability>
 <Ability id="deceitful" icon={["stairs-goal"]}>
 <Pair single id="deceitful">Deceitful</Pair>
@@ -83,8 +83,8 @@ const _decoy = {title: "Decoy", jsx: <><h2 id="arc-familiar-decoy-decoy">Decoy</
 </>};
 const _egotist = {title: "Egotist", jsx: <><h2 id="arc-familiar-egotist-egotist">Egotist</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 210</Link><br/>An egotist believes itself to be the real master in the relationship - the power behind the throne. It often attempts to communicate "orders" for its master as best it can, interfering in matters ranging from spell choices and tactical combat decisions to its master's love life.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
 <Ability id="song-of-myself-ex" icon={["stairs-goal"]}>
 <Pair single id="song-of-myself-ex">Song of Myself (Ex)</Pair>
@@ -148,8 +148,8 @@ const _elemental_familiar = {title: "Elemental Familiar", jsx: <><h2 id="arc-fam
 const _emissary = {title: "Emissary", jsx: <><h2 id="arc-familiar-emissary-emissary">Emissary</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 210</Link>, <Link to="/source/familiar_folio">Familiar Folio pg. 10</Link><br/>The emissary is touched by the divine, serving as a font of wisdom and a moral compass for its master.</p>
 <p><strong className="hl">Special Requirement:</strong> An emissary familiar can serve only a master who worships a single deity.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/heal">Heal</Link> (WIS), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT), <Link to="/skill/sense_motive">Sense Motive</Link> (WIS)</Pair></Ability>
 <Ability id="divine-guidance-sp" icon={["magic-swirl"]}>
 <Pair single id="divine-guidance-sp">Divine Guidance (Sp)</Pair>
@@ -186,8 +186,8 @@ const _figment = {title: "Figment", jsx: <><h2 id="arc-familiar-figment-figment"
 </>};
 const _infiltrator = {title: "Infiltrator", jsx: <><h2 id="arc-familiar-infiltrator-infiltrator">Infiltrator</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 211</Link>, <Link to="/source/animal_archive">Animal Archive pg. 20</Link><br/>Familiars can be skilled spies, and infiltrators are the very best of their kind at the subtle art of espionage.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA)</Pair></Ability>
 <Ability id="alertness-ex" icon={["stairs-goal"]}>
 <Pair single id="alertness-ex">Alertness (Ex)</Pair>
@@ -219,8 +219,8 @@ const _infiltrator = {title: "Infiltrator", jsx: <><h2 id="arc-familiar-infiltra
 </>};
 const _mascot = {title: "Mascot", jsx: <><h2 id="arc-familiar-mascot-mascot">Mascot</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 211</Link>, <Link to="/source/familiar_folio">Familiar Folio pg. 11</Link><br/>A familiar sometimes serves as the centerpiece of an adventuring party. Known as a mascot, this type of familiar eventually treats the entire party as its master.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/perform">Perform</Link> (CHA)</Pair></Ability>
 <Ability id="affinity-for-my-team-su" icon={["stairs-goal","upgrade"]}>
 <Pair single id="affinity-for-my-team-su">Affinity for My Team (Su)</Pair>
@@ -261,8 +261,8 @@ const _mascot = {title: "Mascot", jsx: <><h2 id="arc-familiar-mascot-mascot">Mas
 </>};
 const _mauler = {title: "Mauler", jsx: <><h2 id="arc-familiar-mauler-mauler">Mauler</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 212</Link>, <Link to="/source/familiar_folio">Familiar Folio pg. 11</Link><br/>While most familiars are scouts and assistants, the mauler familiar cares only for the thrill of battle. A mauler often serves a bloodthirsty or martial-minded master.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/intimidate">Intimidate</Link> (CHA)</Pair></Ability>
 <Ability id="bond-forged-in-blood-su" icon={["broken-shield","upgrade"]}>
 <Pair single id="bond-forged-in-blood-su">Bond Forged in Blood (Su)</Pair>
@@ -325,8 +325,8 @@ const _parasite = {title: "Parasite", jsx: <><h2 id="arc-familiar-parasite-paras
 </>};
 const _pilferer = {title: "Pilferer", jsx: <><h2 id="arc-familiar-pilferer-pilferer">Pilferer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 212</Link>, <Link to="/source/animal_archive">Animal Archive pg. 20</Link><br/>Some familiars are stealthy pilferers that perform tricks of thievery or simple spying on their master's behalf.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/disable_device">Disable Device</Link> (DEX), <Link to="/skill/escape_artist">Escape Artist</Link> (DEX), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX)</Pair></Ability>
 <Ability id="improved-steal-ex" icon={["stairs-goal"]}>
 <Pair single id="improved-steal-ex">Improved Steal (Ex)</Pair>
@@ -353,8 +353,8 @@ const _pilferer = {title: "Pilferer", jsx: <><h2 id="arc-familiar-pilferer-pilfe
 </>};
 const _prankster = {title: "Prankster", jsx: <><h2 id="arc-familiar-prankster-prankster">Prankster</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 212</Link><br/>Some familiars love to perform pranks on their unsuspecting masters, as well as on those around their masters - allies and enemies alike. While good-aligned pranksters' tricks are usually good natured except against foes, evil pranksters play tricks that are mean spirited or even downright cruel.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/bluff">Bluff</Link> (CHA), <Link to="/skill/disguise">Disguise</Link> (CHA), <Link to="/skill/perform">Perform (comedy)</Link> (CHA), <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX)</Pair></Ability>
 <Ability id="autonomous-link-ex" icon={["stairs-goal"]}>
 <Pair single id="autonomous-link-ex">Autonomous Link (Ex)</Pair>
@@ -413,8 +413,8 @@ const _protector = {title: "Protector", jsx: <><h2 id="arc-familiar-protector-pr
 </>};
 const _sage = {title: "Sage", jsx: <><h2 id="arc-familiar-sage-sage">Sage</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 213</Link>, <Link to="/source/familiar_folio">Familiar Folio pg. 11</Link><br/>Sages are masters of useful facts, able to recall them for their masters' benefit, though this leads many to become haughty and proud.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> (INT), <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> (INT), <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> (INT), <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> (INT), <Link to="/skill/knowledge_history">Knowledge (history)</Link> (INT), <Link to="/skill/knowledge_local">Knowledge (local)</Link> (INT), <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> (INT), <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> (INT), <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> (INT), <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> (INT)</Pair></Ability>
 <Ability id="dazzling-intellect-ex" icon={["upgrade","broken-shield"]}>
 <Pair single id="dazzling-intellect-ex">Dazzling Intellect (Ex)</Pair>
@@ -572,8 +572,8 @@ const _soulbound_familiar = {title: "Soulbound Familiar", jsx: <><h2 id="arc-fam
 </>};
 const _valet = {title: "Valet", jsx: <><h2 id="arc-familiar-valet-valet">Valet</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 213</Link>, <Link to="/source/animal_archive">Animal Archive pg. 21</Link><br/>A valet is a consummate personal servant, able to fetch, deliver, and perform for its master's every need.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/craft">Craft</Link> (INT), <Link to="/skill/perform">Perform</Link> (CHA), <Link to="/skill/profession">Profession</Link> (WIS)</Pair></Ability>
 <Ability id="able-assistant-ex" icon={["stairs-goal"]}>
 <Pair single id="able-assistant-ex">Able Assistant (Ex)</Pair>

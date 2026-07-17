@@ -696,8 +696,8 @@ const _court_fool = {title: "Court Fool", jsx: <><h2 id="arc-bard-court_fool-cou
 </>};
 const _cultivator = {title: "Cultivator", jsx: <><h2 id="arc-bard-cultivator-cultivator">Cultivator</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 40</Link><br/>Cultivators use music to promote plant growth and influence the behavior of plants both naturally and supernaturally. Most cultivators work in conjunction with local communities to maintain crops and oversee harvests, while others serve as wardens of unspoiled natural wonders.</p>
-<Ability icon={["skills"]} id="undefined">
-<Pair id="undefined" single>Class Skills</Pair>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
 <Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/survival">Survival</Link> (WIS)</Pair></Ability>
 <Ability id="plant-magic" icon={["spell-book"]}>
 <Pair single id="plant-magic">Plant Magic</Pair>
