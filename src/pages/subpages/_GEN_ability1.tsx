@@ -877,7 +877,7 @@ const _banners = {title: "Banners", topLink: ["Cavalier","class/cavalier"], jsx:
 </Ability>
 <Ability id="knave-standard-ex" icon={["armor-upgrade","upgrade","stairs-goal"]}>
 <Pair single id="knave-standard-ex">Knave Standard (Ex)</Pair>
-<Pair title="Passive Ability">An ally who benefits from this standard gains a +2 dodge bonus to AC against attacks of opportunity provoked by movement and a +1 morale bonus on attack rolls that benefit from <Link to="/misc/flanking">flanking</Link>.</Pair>
+<Pair title="Passive Ability">An ally who benefits from this standard gains a +2 dodge bonus to AC against attacks of opportunity provoked by movement and a +1 morale bonus on attack rolls that benefit from <Link to="/rule/flanking">flanking</Link>.</Pair>
 <Pair title="At 10th Level">The bonus to AC becomes +3.</Pair>
 <Pair title="At 14th Level">An ally benefiting from the banner gains <Link to="/ability/sneak_attack">sneak attack</Link> +1d6; this stacks with other sources of sneak attack.</Pair>
 <Pair title="At 15th Level">The bonus to AC increases to +4.</Pair>
@@ -997,7 +997,7 @@ const _bloodline_mutations = {title: "Bloodline Mutations", topLink: ["Sorcerer"
 <Ability id="blood-intensity" icon={["upgrade"]}>
 <Pair single id="blood-intensity">Blood Intensity</Pair>
 <Pair title="Replaces" hl>The sorcerer's 3rd-level bloodline power or the bloodrager's 8th-level bloodline power</Pair>
-<Pair title="Ability">Whenever you cast a bloodrager or sorcerer spell that deals damage, you can increase its maximum number of damage dice by an amount equal to your Strength or Charisma modifier, whichever is higher. This otherwise functions as &mdash; and does not stack with &mdash; the <Link to="/spell/intensified_spell">Intensified Spell</Link> feat.</Pair>
+<Pair title="Ability">Whenever you cast a bloodrager or sorcerer spell that deals damage, you can increase its maximum number of damage dice by an amount equal to your Strength or Charisma modifier, whichever is higher. This otherwise functions as &mdash; and does not stack with &mdash; the <Link to="/feat/intensified_spell">Intensified Spell</Link> feat.</Pair>
 <Pair title="Usage">1 time/day + 1 per four sorcerer or bloodrager levels beyond 3rd<ByLevelPop levels={[[3,1],[7,2],[11,3],[15,4],[19,5]]} unit="time" postText="/day" /></Pair>
 </Ability>
 <Ability id="blood-piercing" icon={["armor-downgrade"]}>
@@ -1510,21 +1510,43 @@ const _dares = {title: "Dares", topLink: ["Gunslinger","class/gunslinger"], jsx:
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <p>Dares are similar to deeds in that they grant a gunslinger or a swashbuckler extra abilities based on either grit or panache, but unlike deeds, dares become active when a member of these classes runs out of her respective pool, and become inactive when the character regains points of their respective pool. They grant the character a benefit and a new ability to regain or increase the ability to regain either grit or panache.</p>
 <p>A dare can be taken in place of one of the bonus feats one of those classes gains at 4th level and every 4 levels thereafter. A member of those classes can choose to have multiple dares, but can only pick one to be active each time she reaches 0 grit or panache points. Once chosen, the active dare cannot be changed until the gunslinger or swashbuckler reaches 0 grit or panache points again.</p>
-<hr/>
-<p><strong>Desperate Evasion (Ex):</strong> While this dare is active, you gain the <Link to="/ability/evasion">evasion</Link> class feature. If you already have this class feature, while this dare is active you roll twice when making a Reflex saving throw and take the higher result. You regain 1 grit point when you succeed at two Reflex saving throws while using this dare.</p>
-<p><strong>Frantically Nimble (Ex):</strong> While this dare is active, you gain a +2 dodge bonus to AC. You regain 1 grit point when any enemy making a ranged or melee attack against you misses you three consecutive times. The attacks need not come from the same enemy.</p>
-<p><strong>Out for Blood (Ex):</strong> While this dare is active, your critical threat range with firearms increases by 1 (20/&times;4 becomes 19-20/&times;4, 19-20/&times;2 becomes 18-20/&times;2, and so on). This effect does not stack with similar effects that modify a weapon's critical threat range.</p>
-<p><strong>Run Like Hell (Ex):</strong> While this dare is active, your speed increases by 10 feet, and you retain your Dexterity bonus to your AC while running. You regain 1 grit point the first time you are more than 100 feet away from your closest enemy.</p>
+<Ability id="desperate-evasion-ex" icon={["armor-upgrade","rolling-dices"]}>
+<Pair single id="desperate-evasion-ex">Desperate Evasion (Ex)</Pair>
+<Pair title="Passive Ability">While this dare is active, you gain the <Link to="/ability/evasion">evasion</Link> class feature. If you already have this class feature, while this dare is active you roll twice when making a Reflex saving throw and take the higher result. You regain 1 grit point when you succeed at two Reflex saving throws while using this dare.</Pair>
+</Ability>
+<Ability id="frantically-nimble-ex" icon={["armor-upgrade"]}>
+<Pair single id="frantically-nimble-ex">Frantically Nimble (Ex)</Pair>
+<Pair title="Passive Ability">While this dare is active, you gain a +2 dodge bonus to AC. You regain 1 grit point when any enemy making a ranged or melee attack against you misses you three consecutive times. The attacks need not come from the same enemy.</Pair>
+</Ability>
+<Ability id="out-for-blood-ex" icon={["upgrade"]}>
+<Pair single id="out-for-blood-ex">Out for Blood (Ex)</Pair>
+<Pair title="Passive Ability">While this dare is active, your critical threat range with firearms increases by 1 (20/&times;4 becomes 19-20/&times;4, 19-20/&times;2 becomes 18-20/&times;2, and so on). This effect does not stack with similar effects that modify a weapon's critical threat range.</Pair>
+</Ability>
+<Ability id="run-like-hell-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="run-like-hell-ex">Run Like Hell (Ex)</Pair>
+<Pair title="Passive Ability">While this dare is active, your speed increases by 10 feet, and you retain your Dexterity bonus to your AC while running. You regain 1 grit point the first time you are more than 100 feet away from your closest enemy.</Pair>
+</Ability>
 </>};
 const _swashbuckler_dares = {title: "Dares", topLink: ["Swashbuckler","class/swashbuckler"], jsx: <><h2 id="ability-swashbuckler_dares-dares">Dares</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <p>Dares are similar to deeds in that they grant a gunslinger or a swashbuckler extra abilities based on either grit or panache, but unlike deeds, dares become active when a member of these classes runs out of her respective pool, and become inactive when the character regains points of their respective pool. They grant the character a benefit and a new ability to regain or increase the ability to regain either grit or panache.</p>
 <p>A dare can be taken in place of one of the bonus feats one of those classes gains at 4th level and every 4 levels thereafter. A member of those classes can choose to have multiple dares, but can only pick one to be active each time she reaches 0 grit or panache points. Once chosen, the active dare cannot be changed until the gunslinger or swashbuckler reaches 0 grit or panache points again.</p>
-<hr/>
-<p><strong>Desperate Evasion (Ex):</strong> While this dare is active, you gain the <Link to="/ability/evasion">evasion</Link> class feature. If you already have this class feature, while this dare is active you roll twice when making a Reflex saving throw and take the higher result. You regain 1 panache point when you succeed at two Reflex saving throws while using this dare.</p>
-<p><strong>Frantically Nimble (Ex):</strong> While this dare is active, you gain a +2 dodge bonus to AC. You regain 1 panache point when any enemy making a ranged or melee attack against you misses you three consecutive times. The attacks need not come from the same enemy.</p>
-<p><strong>Out for Blood (Ex):</strong> While this dare is active, your critical threat range with light or one-handed piercing melee weapons increases by 1 (20/&times;4 becomes 19-20/&times;4, 19-20/&times;2 becomes 18-20/&times;2, and so on). This effect does not stack with similar effects that modify a weapon's critical threat range.</p>
-<p><strong>Run Like Hell (Ex):</strong> While this dare is active, your speed increases by 10 feet, and you retain your Dexterity bonus to your AC while running. You regain 1 panache point the first time you are more than 100 feet away from your closest enemy.</p>
+<Ability id="desperate-evasion-ex" icon={["armor-upgrade","rolling-dices"]}>
+<Pair single id="desperate-evasion-ex">Desperate Evasion (Ex)</Pair>
+<Pair title="Passive Ability">While this dare is active, you gain the <Link to="/ability/evasion">evasion</Link> class feature. If you already have this class feature, while this dare is active you roll twice when making a Reflex saving throw and take the higher result. You regain 1 panache point when you succeed at two Reflex saving throws while using this dare.</Pair>
+</Ability>
+<Ability id="frantically-nimble-ex" icon={["armor-upgrade"]}>
+<Pair single id="frantically-nimble-ex">Frantically Nimble (Ex)</Pair>
+<Pair title="Passive Ability">While this dare is active, you gain a +2 dodge bonus to AC. You regain 1 panache point when any enemy making a ranged or melee attack against you misses you three consecutive times. The attacks need not come from the same enemy.</Pair>
+</Ability>
+<Ability id="out-for-blood-ex" icon={["upgrade"]}>
+<Pair single id="out-for-blood-ex">Out for Blood (Ex)</Pair>
+<Pair title="Passive Ability">While this dare is active, your critical threat range with light or one-handed piercing melee weapons increases by 1 (20/&times;4 becomes 19-20/&times;4, 19-20/&times;2 becomes 18-20/&times;2, and so on). This effect does not stack with similar effects that modify a weapon's critical threat range.</Pair>
+</Ability>
+<Ability id="run-like-hell-ex" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="run-like-hell-ex">Run Like Hell (Ex)</Pair>
+<Pair title="Passive Ability">While this dare is active, your speed increases by 10 feet, and you retain your Dexterity bonus to your AC while running. You regain 1 panache point the first time you are more than 100 feet away from your closest enemy.</Pair>
+</Ability>
 </>};
 const _defense_wild_talents = {title: "Defense Wild Talents", topLink: ["Kineticist","class/kineticist"], jsx: <><h2 id="ability-defense_wild_talents-defense-wild-talents">Defense Wild Talents</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 16</Link><br/>A kineticist gains the defense wild talent from her primary element at 2nd level.</p>
