@@ -256,7 +256,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		if(!columnSizes) {
 			const total = columns
 				.filter((cell, i) => hiddenHeaders.every(hCol => hCol !== i))
-				.map(() => "minmax(0,1fr)");
+				.map(() => "minmax(min-content,1fr)");
 			return {
 				display: "grid",
 				gridTemplateColumns: total.join(" ")
