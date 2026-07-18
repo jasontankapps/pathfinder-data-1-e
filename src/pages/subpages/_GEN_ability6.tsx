@@ -2,6 +2,7 @@ import {IonRippleEffect} from '@ionic/react';
 import Link from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
+import {Block,Row,Cell} from '../../components/Block';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import AffInfo from '../../components/AfflictionInfo';
@@ -9,14 +10,20 @@ const _sagas = {title: "Sagas", topLink: ["Skald","class/skald"], jsx: <><h2 id=
 <p><strong>Sources</strong> <Link to="/source/magic_tactics_toolbox">Magic Tactics Toolbox pg. 19</Link><br/>Sagas are a form of lore-keeping and tale-telling common in Irrisen and the Lands of the Linnorm Kings. Specialized applications of a skald's <Link to="/ability/raging_song">raging song</Link> ability, sagas function much like <Link to="/ability/bardic_masterpieces">bardic masterpieces</Link> but are available only to skalds. Sagas are never purely artistic constructs; they are designed to preserve lore or commemorate historical figures, and are usually based in fact. Sagas therefore require ranks in Knowledge (history) as a prerequisite, as well. <Link to="/class/bard">Bards</Link> can learn sagas, using their <Link to="/ability/bardic_performance">bardic performance</Link> ability instead of raging song.</p>
 <h3 id="ability-sagas-lay-of-scholar-king">Lay of Scholar-King</h3>
 <p>Your tale of a scholarly king sharpens your intellect, but makes others treat you with contempt.</p>
-<p><strong>Prerequisites:</strong> Knowledge (history) 2 ranks, Perform (oratory) or Perform (sing) 4 ranks.<br/><strong>Cost:</strong> Feat or 2nd-level skald spell known.</p>
-<p><strong>Effect:</strong> You tell the sad tale of studious and introspective King Jarguut, son of Ethered. King Jarguut ruled the Linnorm Kingdom of Raemerrund, but his kingdom fractured when the thanes would not respect his intellect. While you maintain the performance, you can add your Charisma modifier (minimum +1) to Intelligence-based skill checks in addition to your Intelligence modifier, but you take your Intelligence bonus as a penalty on all Charisma-based skill checks (minimum -1).</p>
-<p><strong>Use:</strong> 1 raging song round per round.<br/><strong>Action:</strong> 1 minute</p>
+<Block>
+<Row><Cell>Prerequisites</Cell><Cell>Knowledge (history) 2 ranks, Perform (oratory) or Perform (sing) 4 ranks.</Cell></Row>
+<Row><Cell>Cost</Cell><Cell>Feat or 2nd-level skald spell known.</Cell></Row>
+<Row><Cell>Effect</Cell><Cell>You tell the sad tale of studious and introspective King Jarguut, son of Ethered. King Jarguut ruled the Linnorm Kingdom of Raemerrund, but his kingdom fractured when the thanes would not respect his intellect. While you maintain the performance, you can add your Charisma modifier (minimum +1) to Intelligence-based skill checks in addition to your Intelligence modifier, but you take your Intelligence bonus as a penalty on all Charisma-based skill checks (minimum -1).</Cell></Row>
+<Row><Cell>Use</Cell><Cell>1 raging song round per round.</Cell></Row>
+<Row><Cell>Action</Cell><Cell>1 minute</Cell></Row></Block>
 <h3 id="ability-sagas-saga-of-the-witch-queen">Saga of the Witch Queen</h3>
 <p>Your tale of Baba Yaga's inexorable return allows you to unerringly locate your target.</p>
-<p><strong>Prerequisites:</strong> Knowledge (history) 7 ranks, Perform (oratory) or Perform (sing) 15 ranks.<br/><strong>Cost:</strong> Feat or 5th-level skald spell known.</p>
-<p><strong>Effect:</strong> You tell the epic tale of the Baba Yaga, the Queen of Witches, who founded Irrisen after winning the Winter War. Once each century, she deposes one of her daughters as queen of Irrisen to install another daughter in her place. For 1,400 years, each reigning queen has known that her mother's return was a certainty. When you complete the performance, you name a creature you have seen or who once owned an item you have in your possession, and you immediately know the creature's location, as per <Link to="/spell/discern_location">discern location</Link>. At the same time, the creature learns your name and that you have determined its current whereabouts.</p>
-<p><strong>Use:</strong> 10 raging song rounds.<br/><strong>Action:</strong> 10 minutes</p>
+<Block>
+<Row><Cell>Prerequisites</Cell><Cell>Knowledge (history) 7 ranks, Perform (oratory) or Perform (sing) 15 ranks.</Cell></Row>
+<Row><Cell>Cost</Cell><Cell>Feat or 5th-level skald spell known.</Cell></Row>
+<Row><Cell>Effect</Cell><Cell>You tell the epic tale of the Baba Yaga, the Queen of Witches, who founded Irrisen after winning the Winter War. Once each century, she deposes one of her daughters as queen of Irrisen to install another daughter in her place. For 1,400 years, each reigning queen has known that her mother's return was a certainty. When you complete the performance, you name a creature you have seen or who once owned an item you have in your possession, and you immediately know the creature's location, as per <Link to="/spell/discern_location">discern location</Link>. At the same time, the creature learns your name and that you have determined its current whereabouts.</Cell></Row>
+<Row><Cell>Use</Cell><Cell>10 raging song rounds.</Cell></Row>
+<Row><Cell>Action</Cell><Cell>10 minutes</Cell></Row></Block>
 </>};
 const _sorcerer_bloodlines = {title: "Sorcerer Bloodlines", topLink: ["Sorcerer","class/sorcerer"], jsx: <><h2 id="ability-sorcerer_bloodlines-sorcerer-bloodlines">Sorcerer Bloodlines</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook</Link><br/>The following bloodlines represent only some of the possible sources of power that a sorcerer can draw upon. Unless otherwise noted, most sorcerers are assumed to have the <Link to="/sorcbloodline/arcane">arcane</Link> bloodline.</p>
@@ -500,7 +507,7 @@ const _favored_terrain = {title: "Favored Terrain", jsx: <><p><strong>Sources</s
 <td>Water (above and below the surface)</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p>At 8th level and every five levels thereafter, the ranger may select an additional favored terrain. In addition, at each such interval, the skill bonus and initiative bonus in any one favored terrain (including the one just selected, if so desired), increases by +2.</p>
+<p>At 8th level and every five levels thereafter (13th and 18th levels), the ranger may select an additional favored terrain. In addition, at each such interval, the skill bonus and initiative bonus in any one favored terrain (including the one just selected, if so desired), increases by +2.</p>
 <p>If a specific terrain falls into more than one category of favored terrain, the ranger's bonuses do not stack; he simply uses whichever bonus is higher.</p>
 </>};
 const _woodland_stride = {title: "Woodland Stride", jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook</Link><br/>Starting at 2nd level, a <Link to="/class/druid">druid</Link> may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at her normal speed and without taking damage or suffering any other impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede motion, however, still affect her.</p>
@@ -952,124 +959,321 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </div>};
 const _animal_tricks = {hasJL:true,title: "Animal Tricks", jsx: <><div className="jumpList" id="ability-animal_tricks-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="ability-animal_tricks-aid">Aid</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-attack">Attack</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-flank">Flank</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-maneuver">Maneuver</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-bombard">Bombard</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-break-out">Break Out</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-bury">Bury</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-come">Come</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-defend">Defend</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-deliver">Deliver</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-detect">Detect</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-down">Down</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-entertain">Entertain</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-exclusive">Exclusive</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-fetch">Fetch</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-flee">Flee</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-get-help">Get Help</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-guard">Guard</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-heel">Heel</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-hunt">Hunt</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-menace">Menace</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-perform">Perform</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-seek">Seek</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-serve">Serve</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-sneak">Sneak</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-stay">Stay</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-throw-rider">Throw Rider</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-track">Track</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-watch">Watch</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-work">Work</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-animal-training-purposes">Animal Training Purposes</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-air-support">Air Support</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-burglar">Burglar</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-combat-training">Combat Training</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-fighting">Fighting</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-guarding">Guarding</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-heavy-labor">Heavy Labor</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-hunting">Hunting</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-liberator">Liberator</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-servant">Servant</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-performance">Performance</InnerLink></li><li><InnerLink toTop to="ability-animal_tricks-riding">Riding</InnerLink></li></ul></div><h2 id="ability-animal_tricks-animal-tricks">Animal Tricks</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook</Link>, <Link to="/source/animal_archive">Animal Archive</Link>, <Link to="/source/ultimate_wilderness">Ultimate Wilderness</Link><br/>This is a list of tricks (and their associated DCs) that can be taught to animals using the <Link to="/skill/handle_animal">Handle Animal</Link> skill.</p>
-<hr/>
-<h3 id="ability-animal_tricks-aid" data-hash-target>Aid (DC 20)</h3>
-<p>The animal can use the aid another action to aid a specific ally in combat by attacking a specific foe the ally is fighting. You may point to a particular creature that you wish the animal to aid, and another that you want it make an attack roll against, and it will comply if able. The normal creature type restrictions governing the attack trick still apply.</p>
-<h3 id="ability-animal_tricks-attack" data-hash-target>Attack (DC 20)</h3>
-<p>The animal attacks apparent enemies. You may point to a particular creature that you wish the animal to attack, and it will comply if able. Normally, an animal will attack only humanoids, monstrous humanoids, giants, or other animals. Teaching an animal to attack all creatures (including such unnatural creatures as undead and aberrations) counts as two tricks.</p>
-<blockquote>
-<h3 id="ability-animal_tricks-flank" data-hash-target>Flank (DC 20)</h3>
-<p>You can instruct an animal to attack a foe you point to and always attempt to be adjacent to (and threatening) that foe. If you or an ally is also threatening the foe, the animal attempts to flank the foe, if possible. It always takes attacks of opportunity. The animal must know the <strong>attack</strong> trick before it can learn this trick.</p>
-<h3 id="ability-animal_tricks-maneuver" data-hash-target>Maneuver (DC 20)</h3>
-<p>The animal is trained to use a specific <Link to="/rule/combat_maneuver">combat maneuver</Link> on command. An animal must know the <strong>attack</strong> trick before it can be taught the maneuver trick, and it only performs maneuvers against targets it would normally attack. This trick can be taught to an animal multiple times. Each time it is taught, the animal can be commanded to use a different combat maneuver.</p>
-</blockquote>
-<h3 id="ability-animal_tricks-bombard" data-hash-target>Bombard (DC 20)</h3>
-<p>A flying animal can deliver projectiles on command, attempting to drop a specified item that it can carry (often alchemist's fire or some other incendiary) on a designated point or opponent, using its base attack bonus to determine its attack roll. The animal cannot throw the object, and must be able to fly directly over the target.</p>
-<h3 id="ability-animal_tricks-break-out" data-hash-target>Break Out (DC 20)</h3>
-<p>On command, the animal attempts to break or gnaw through any bars or bindings restricting itself, its handler, or a person indicated by the handler. If not effective on its own, this trick can grant the target character a +4 circumstance bonus on Escape Artist checks. The animal can also take certain basic actions like lifting a latch or bringing its master an unattended key. Weight and Strength restrictions still apply, and pickpocketing a key or picking any sort of lock is still far beyond the animal's ability.</p>
-<h3 id="ability-animal_tricks-bury" data-hash-target>Bury (DC 15)</h3>
-<p>An animal with this trick can be instructed to bury an object in its possession. The animal normally seeks a secluded place to bury its object. An animal with both <strong>bury</strong> and <InnerLink toTop to="ability-animal_tricks-fetch">fetch</InnerLink> can be instructed to fetch an item it has buried.</p>
-<h3 id="ability-animal_tricks-come" data-hash-target>Come (DC 15)</h3>
-<p>The animal comes to you, even if it normally would not do so.</p>
-<h3 id="ability-animal_tricks-defend" data-hash-target>Defend (DC 20)</h3>
-<p>The animal defends you (or is ready to defend you if no threat is present), even without any command being given. Alternatively, you can command the animal to defend another specific character.</p>
-<h3 id="ability-animal_tricks-deliver" data-hash-target>Deliver (DC 15)</h3>
-<p>The animal takes an object (one you or an ally gives it, or that it recovers with the fetch trick) to a place or person you indicate. If you indicate a place, the animal drops the item and returns to you. If you indicate a person, the animal stays adjacent to the person until the item is taken. (Retrieving an item from an animal using the deliver trick is a move action.)</p>
-<h3 id="ability-animal_tricks-detect" data-hash-target>Detect (DC 25)</h3>
-<p>The animal is trained to seek out the smells of explosives and poisons, unusual noises or echoes, air currents, and other common elements signifying potential dangers or secret passages. When commanded, the animal uses its Perception skill to try to pinpoint the source of anything that strikes it as unusual about a room or location. Note that because the animal is not intelligent, any number of strange mechanisms, doors, scents, or unfamiliar objects may catch the animal's attention, and it cannot attempt the same Perception check more than once in this way.</p>
-<h3 id="ability-animal_tricks-down" data-hash-target>Down (DC 15)</h3>
-<p>The animal breaks off from combat or otherwise backs down. An animal that doesn't know this trick continues to fight until it must flee (due to injury, a fear effect, or the like) or its opponent is defeated.</p>
-<h3 id="ability-animal_tricks-entertain" data-hash-target>Entertain (DC 25)</h3>
-<p>The animal can dance, sing, or perform some other impressive and enjoyable trick to entertain those around it. At the command of its owner, the animal can make a Perform check (or a Charisma check if it has no ranks in Perform) to show off its talent. Willing onlookers or those who fail an opposed Sense Motive check take a -2 penalty on Perception checks to notice anything but the animal entertaining them. Tricksters and con artists often teach their animals to perform this trick while they pickpocket viewers or sneak about unnoticed.</p>
-<h3 id="ability-animal_tricks-exclusive" data-hash-target>Exclusive (DC 20)</h3>
-<p>The animal takes directions only from the handler who taught it this trick. If an animal has both the exclusive and serve tricks, it takes directions only from the handler that taught it the exclusive trick and those creatures indicated by the trainer's serve command. An animal with the exclusive trick does not take trick commands from others even if it is friendly or helpful toward them (such as through the result of a <Link to="/spell/charm_animal">charm animal</Link> spell), though this does not prevent it from being controlled by other enchantment spells (such as <Link to="/spell/dominate_animal">dominate animal</Link>), and the animal still otherwise acts as a friendly or helpful creature when applicable.</p>
-<h3 id="ability-animal_tricks-fetch" data-hash-target>Fetch (DC 15)</h3>
-<p>The animal goes and gets something. If you do not point out a specific item, the animal fetches a random object.</p>
-<h3 id="ability-animal_tricks-flee" data-hash-target>Flee (DC 20)</h3>
-<p>The animal attempts to run away or hide as best it can, returning only when its handler commands it to do so. Until such a command is received, the animal does its best to track its handler and any creatures with him or her, remaining hidden but within range of its sight or hearing. This trick is particularly useful for thieves and adventurers in that it allows the animal to evade capture, then return later to help free its friends.</p>
-<h3 id="ability-animal_tricks-get-help" data-hash-target>Get Help (DC 20)</h3>
-<p>With this trick, a trainer can designate a number of creatures up to the animal's Intelligence score as "help." When the command is given, the animal attempts to find one of those people and bring her back to the handler, even if that means journeying a long distance to the last place it encountered the target creature.</p>
-<h3 id="ability-animal_tricks-guard" data-hash-target>Guard (DC 20)</h3>
-<p>The animal stays in place and prevents others from approaching.</p>
-<h3 id="ability-animal_tricks-heel" data-hash-target>Heel (DC 15)</h3>
-<p>The animal follows you closely, even to places where it normally wouldn't go.</p>
-<h3 id="ability-animal_tricks-hunt" data-hash-target>Hunt (DC 20)</h3>
-<p>This trick allows an animal to use its natural stalking or foraging instincts to find food and return it to the animal's handler. An animal with this trick may attempt Survival checks (or Wisdom checks if the animal has no ranks in Survival) to provide food for others or lead them to water and shelter (as the "get along in the wild" use of the Survival skill). An animal with this trick may use the <Link to="/rule/aid_another">aid another</Link> action to assist Survival checks made by its handler for these purposes.</p>
-<h3 id="ability-animal_tricks-menace" data-hash-target>Menace (DC 20)</h3>
-<p>A menacing animal attempts to keep a creature you indicate from moving. It does its best to intimidate the target, but only attacks if the target attempts to move from its present location or take any significant action (particularly a hostile-seeming one). As soon as the target stops moving, the animal ceases attacking, but continues to menace.</p>
-<h3 id="ability-animal_tricks-perform" data-hash-target>Perform (DC 15)</h3>
-<p>The animal performs a variety of simple tricks, such as sitting up, rolling over, roaring or barking, and so on.</p>
-<h3 id="ability-animal_tricks-seek" data-hash-target>Seek (DC 15)</h3>
-<p>The animal moves into an area and looks around for anything that is obviously alive or animate.</p>
-<h3 id="ability-animal_tricks-serve" data-hash-target>Serve (DC 15)</h3>
-<p>An animal with this trick willingly takes orders from a creature you designate. If the creature you tell the animal to serve knows what tricks the animal has, it can instruct the animal to perform these tricks using your Handle Animal bonus on the check instead of its own. The animal treats the designated ally as friendly. An animal can unlearn this trick with 1 week of training. This trick can be taught to an animal multiple times. Each time it is taught, the animal can serve an additional creature you designate.</p>
-<h3 id="ability-animal_tricks-sneak" data-hash-target>Sneak (DC 15)</h3>
-<p>The animal can be ordered to make Stealth checks in order to stay hidden and to continue using Stealth even when circumstances or its natural instincts would normally cause it to abandon secrecy.</p>
-<h3 id="ability-animal_tricks-stay" data-hash-target>Stay (DC 15)</h3>
-<p>The animal stays in place, waiting for you to return. It does not challenge other creatures that come by, though it still defends itself if it needs to.</p>
-<h3 id="ability-animal_tricks-throw-rider" data-hash-target>Throw Rider (DC 15)</h3>
-<p>The animal can attempt to fling a creature riding it to the ground. Treat this as a <Link to="/rule/trip">trip</Link> combat maneuver that applies to all creatures riding the animal, and that does not provoke attacks of opportunity. An animal that knows the <strong>throw rider</strong> and <InnerLink toTop to="ability-animal_tricks-exclusive">exclusive</InnerLink> tricks can be instructed to attempt to automatically throw anyone other than its trainer who attempts to ride it.</p>
-<h3 id="ability-animal_tricks-track" data-hash-target>Track (DC 20)</h3>
-<p>The animal tracks the scent presented to it. (This requires the animal to have the <Link to="/umr/scent">scent</Link> ability.)</p>
-<h3 id="ability-animal_tricks-watch" data-hash-target>Watch (DC 15)</h3>
-<p>The animal can be commanded to keep watch over a particular area, such as a campsite, and raise an alarm if it notices any sizable or dangerous creature entering the area. This trick is often included in the <InnerLink toTop to="ability-animal_tricks-guarding">Guarding</InnerLink> purpose.</p>
-<h3 id="ability-animal_tricks-work" data-hash-target>Work (DC 15)</h3>
-<p>The animal pulls or pushes a medium or heavy load.</p>
+<div style={{clear:"both"}}></div><Ability id="aid" icon={["mailed-fist"]}>
+<Pair single id="aid">Aid</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">The animal can use the <Link to="/rule/aid_another_2">aid another</Link> action to aid a specific ally in combat by attacking a specific foe the ally is fighting. You may point to a particular creature that you wish the animal to aid, and another that you want it make an attack roll against, and it will comply if able. The normal creature type restrictions governing the attack trick still apply.</Pair>
+</Ability>
+<Ability id="attack" icon={["mailed-fist"]}>
+<Pair single id="attack">Attack</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">The animal attacks apparent enemies. You may point to a particular creature that you wish the animal to attack, and it will comply if able. Normally, an animal will attack only humanoids, monstrous humanoids, giants, or other animals.</Pair>
+<Pair title="Special">Teaching an animal to attack all creatures (including such unnatural creatures as undead and aberrations) counts as two tricks.</Pair>
+</Ability>
+<Ability id="flank" extraClasses="indent" icon={["mailed-fist"]}>
+<Pair single id="flank">Flank</Pair>
+<Pair title="Prerequisites">The <em>attack</em> trick.</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">You can instruct an animal to attack a foe you point to and always attempt to be adjacent to (and threatening) that foe. If you or an ally is also threatening the foe, the animal attempts to flank the foe, if possible. It always takes attacks of opportunity.</Pair>
+</Ability>
+<Ability id="maneuver" extraClasses="indent" icon={["mailed-fist"]}>
+<Pair single id="maneuver">Maneuver</Pair>
+<Pair title="Prerequisites">The <em>attack</em> trick.</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">The animal is trained to use a specific <Link to="/rule/combat_maneuver">combat maneuver</Link> on command. An animal only performs maneuvers against targets it would normally attack.</Pair>
+<Pair title="Special">This trick can be taught to an animal multiple times. Each time it is taught, the animal can be commanded to use a different combat maneuver.</Pair>
+</Ability>
+<Ability id="bombard" icon={["bowman"]}>
+<Pair single id="bombard">Bombard</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">A flying animal can deliver projectiles on command, attempting to drop a specified item that it can carry (often <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link> or some other incendiary) on a designated point or opponent, using its base attack bonus to determine its attack roll. The animal cannot throw the object, and must be able to fly directly over the target.</Pair>
+</Ability>
+<Ability id="break-out" icon={["stairs-goal","upgrade"]}>
+<Pair single id="break-out">Break Out</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">On command, the animal attempts to break or gnaw through any bars or bindings restricting itself, its handler, or a person indicated by the handler. If not effective on its own, this trick can grant the target character a +4 circumstance bonus on Escape Artist checks. The animal can also take certain basic actions like lifting a latch or bringing its master an unattended key. Weight and Strength restrictions still apply, and pickpocketing a key or picking any sort of lock is still far beyond the animal's ability.</Pair>
+</Ability>
+<Ability id="bury" icon={["stairs-goal"]}>
+<Pair single id="bury">Bury</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">An animal with this trick can be instructed to bury an object in its possession. The animal normally seeks a secluded place to bury its object.</Pair>
+<Pair title="Special">An animal with both <em>bury</em> and <InnerLink toTop to="ability-animal_tricks-fetch">fetch</InnerLink> can be instructed to fetch an item it has buried.</Pair>
+</Ability>
+<Ability id="come" icon={["stairs-goal"]}>
+<Pair single id="come">Come</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">The animal comes to you, even if it normally would not do so.</Pair>
+</Ability>
+<Ability id="defend" icon={["shield-reflect"]}>
+<Pair single id="defend">Defend</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">The animal defends you (or is ready to defend you if no threat is present), even without any command being given. Alternatively, you can command the animal to defend another specific character.</Pair>
+</Ability>
+<Ability id="deliver" icon={["stairs-goal"]}>
+<Pair single id="deliver">Deliver</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">The animal takes an object (one you or an ally gives it, or that it recovers with the fetch trick) to a place or person you indicate. If you indicate a place, the animal drops the item and returns to you. If you indicate a person, the animal stays adjacent to the person until the item is taken.</Pair>
+<Pair title="Special">Retrieving an item from an animal using the <em>deliver</em> trick is a move action.</Pair>
+</Ability>
+<Ability id="detect" icon={["stairs-goal"]}>
+<Pair single id="detect">Detect</Pair>
+<Pair title="DC">25</Pair>
+<Pair title="Trick">The animal is trained to seek out the smells of explosives and poisons, unusual noises or echoes, air currents, and other common elements signifying potential dangers or secret passages. When commanded, the animal uses its <Link to="/skill/perception">Perception</Link> skill to try to pinpoint the source of anything that strikes it as unusual about a room or location.</Pair>
+<Pair title="Special">Note that because the animal is not intelligent, any number of strange mechanisms, doors, scents, or unfamiliar objects may catch the animal's attention, and it cannot attempt the same Perception check more than once in this way.</Pair>
+</Ability>
+<Ability id="down" icon={["mailed-fist"]}>
+<Pair single id="down">Down</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">The animal breaks off from combat or otherwise backs down. An animal that doesn't know this trick continues to fight until it must flee (due to injury, a fear effect, or the like) or its opponent is defeated.</Pair>
+</Ability>
+<Ability id="entertain" icon={["stairs-goal"]}>
+<Pair single id="entertain">Entertain</Pair>
+<Pair title="DC">25</Pair>
+<Pair title="Trick">The animal can dance, sing, or perform some other impressive and enjoyable trick to entertain those around it. At the command of its owner, the animal can make a <Link to="/skill/perform">Perform</Link> check (or a Charisma check if it has no ranks in Perform) to show off its talent. Willing onlookers or those who fail an opposed <Link to="/skill/sense_motive">Sense Motive</Link> check take a -2 penalty on Perception checks to notice anything but the animal entertaining them. Tricksters and con artists often teach their animals to perform this trick while they pickpocket viewers or sneak about unnoticed.</Pair>
+</Ability>
+<Ability id="exclusive" icon={["stairs-goal"]}>
+<Pair single id="exclusive">Exclusive</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">The animal takes directions only from the handler who taught it this trick. If an animal has both the <em>exclusive</em> and <InnerLink toTop to="ability-animal_tricks-serve">serve</InnerLink> tricks, it takes directions only from the handler that taught it the <em>exclusive</em> trick and those creatures indicated by the trainer's <em>serve</em> command.</Pair>
+<Pair title="Special">An animal with the <em>exclusive</em> trick does not take trick commands from others even if it is friendly or helpful toward them (such as through the result of a <Link to="/spell/charm_animal">charm animal</Link> spell), though this does not prevent it from being controlled by other enchantment spells (such as <Link to="/spell/dominate_animal">dominate animal</Link>), and the animal still otherwise acts as a friendly or helpful creature when applicable.</Pair>
+</Ability>
+<Ability id="fetch" icon={["stairs-goal"]}>
+<Pair single id="fetch">Fetch</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">The animal goes and gets something. If you do not point out a specific item, the animal fetches a random object.</Pair>
+</Ability>
+<Ability id="flee" icon={["armor-upgrade"]}>
+<Pair single id="flee">Flee</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">The animal attempts to run away or hide as best it can, returning only when its handler commands it to do so. Until such a command is received, the animal does its best to track its handler and any creatures with him or her, remaining hidden but within range of its sight or hearing. This trick is particularly useful for thieves and adventurers in that it allows the animal to evade capture, then return later to help free its friends.</Pair>
+</Ability>
+<Ability id="get-help" icon={["remedy"]}>
+<Pair single id="get-help">Get Help</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">With this trick, a trainer can designate a number of creatures up to the animal's Intelligence score as "help." When the command is given, the animal attempts to find one of those people and bring her back to the handler, even if that means journeying a long distance to the last place it encountered the target creature.</Pair>
+</Ability>
+<Ability id="guard" icon={["armor-upgrade"]}>
+<Pair single id="guard">Guard</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">The animal stays in place and prevents others from approaching.</Pair>
+</Ability>
+<Ability id="heel" icon={["stairs-goal"]}>
+<Pair single id="heel">Heel</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">The animal follows you closely, even to places where it normally wouldn't go.</Pair>
+</Ability>
+<Ability id="hunt" icon={["stairs-goal"]}>
+<Pair single id="hunt">Hunt</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">This trick allows an animal to use its natural stalking or foraging instincts to find food and return it to the animal's handler. An animal with this trick may attempt <Link to="/skill/survival">Survival</Link> checks (or Wisdom checks if the animal has no ranks in Survival) to provide food for others or lead them to water and shelter (as the "get along in the wild" use of the Survival skill).</Pair>
+<Pair title="Special">An animal with this trick may use the <Link to="/rule/aid_another">aid another</Link> action to assist Survival checks made by its handler for these purposes.</Pair>
+</Ability>
+<Ability id="menace" icon={["mailed-fist"]}>
+<Pair single id="menace">Menace</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">A menacing animal attempts to keep a creature you indicate from moving. It does its best to intimidate the target, but only attacks if the target attempts to move from its present location or take any significant action (particularly a hostile-seeming one). As soon as the target stops moving, the animal ceases attacking, but continues to menace.</Pair>
+</Ability>
+<Ability id="perform" icon={["stairs-goal"]}>
+<Pair single id="perform">Perform</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">The animal performs a variety of simple tricks, such as sitting up, rolling over, roaring or barking, and so on.</Pair>
+</Ability>
+<Ability id="seek" icon={["stairs-goal"]}>
+<Pair single id="seek">Seek</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">The animal moves into an area and looks around for anything that is obviously alive or animate.</Pair>
+</Ability>
+<Ability id="serve" icon={["stairs-goal"]}>
+<Pair single id="serve">Serve</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">An animal with this trick willingly takes orders from a creature you designate. If the creature you tell the animal to serve knows what tricks the animal has, it can instruct the animal to perform these tricks using your Handle Animal bonus on the check instead of its own. The animal treats the designated ally as friendly.</Pair>
+<Pair title="Special">An animal can unlearn this trick with 1 week of training. This trick can be taught to an animal multiple times. Each time it is taught, the animal can serve an additional creature you designate.</Pair>
+</Ability>
+<Ability id="sneak" icon={["armor-upgrade"]}>
+<Pair single id="sneak">Sneak</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">The animal can be ordered to make Stealth checks in order to stay hidden and to continue using Stealth even when circumstances or its natural instincts would normally cause it to abandon secrecy.</Pair>
+</Ability>
+<Ability id="stay" icon={["stairs-goal"]}>
+<Pair single id="stay">Stay</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">The animal stays in place, waiting for you to return. It does not challenge other creatures that come by, though it still defends itself if it needs to.</Pair>
+</Ability>
+<Ability id="throw-rider" icon={["mailed-fist"]}>
+<Pair single id="throw-rider">Throw Rider</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">The animal can attempt to fling a creature riding it to the ground. Treat this as a <Link to="/rule/trip">trip</Link> combat maneuver that applies to all creatures riding the animal, and that does not provoke attacks of opportunity. An animal that knows the <em>throw rider</em> and <InnerLink toTop to="ability-animal_tricks-exclusive">exclusive</InnerLink> tricks can be instructed to attempt to automatically throw anyone other than its trainer who attempts to ride it.</Pair>
+</Ability>
+<Ability id="track" icon={["stairs-goal"]}>
+<Pair single id="track">Track</Pair>
+<Pair title="Prerequisites">The animal must have the <Link to="/umr/scent">scent</Link> ability</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">The animal tracks the scent presented to it.</Pair>
+</Ability>
+<Ability id="watch" icon={["armor-upgrade"]}>
+<Pair single id="watch">Watch</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">The animal can be commanded to keep watch over a particular area, such as a campsite, and raise an alarm if it notices any sizable or dangerous creature entering the area. This trick is often included in the <InnerLink toTop to="ability-animal_tricks-guarding">Guarding</InnerLink> purpose.</Pair>
+</Ability>
+<Ability id="work" icon={["stairs-goal"]}>
+<Pair single id="work">Work</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">The animal pulls or pushes a medium or heavy load.</Pair>
+</Ability>
 <hr/>
 <h2 id="ability-animal_tricks-animal-training-purposes" data-hash-target>Animal Training Purposes</h2>
 <p>Rather than teaching an animal individual tricks, you can simply train it for a general purpose. Essentially, an animal's purpose represents a preselected set of known tricks that fit into a common scheme, such as guarding or heavy labor. The animal must meet all the normal prerequisites for all tricks included in the training package.</p>
-<h3 id="ability-animal_tricks-air-support" data-hash-target>Air Support (DC 20)</h3>
-<p>An animal trained in air support knows the <InnerLink toTop to="ability-animal_tricks-attack">attack</InnerLink>, <InnerLink toTop to="ability-animal_tricks-bombard">bombard</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-deliver">deliver</InnerLink> tricks.</p>
-<h3 id="ability-animal_tricks-burglar" data-hash-target>Burglar (DC 25)</h3>
-<p>An animal trained as a burglar knows the <InnerLink toTop to="ability-animal_tricks-come">come</InnerLink>, <InnerLink toTop to="ability-animal_tricks-fetch">fetch</InnerLink>, <InnerLink toTop to="ability-animal_tricks-maneuver">maneuver</InnerLink> (steal), <InnerLink toTop to="ability-animal_tricks-seek">seek</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-sneak">sneak</InnerLink> tricks. You can order it to steal a specific item you point out.</p>
-<h3 id="ability-animal_tricks-combat-training" data-hash-target>Combat Training (DC 20)</h3>
-<p>An animal trained to bear a rider into combat knows the tricks <InnerLink toTop to="ability-animal_tricks-attack">attack</InnerLink>, <InnerLink toTop to="ability-animal_tricks-come">come</InnerLink>, <InnerLink toTop to="ability-animal_tricks-defend">defend</InnerLink>, <InnerLink toTop to="ability-animal_tricks-down">down</InnerLink>, <InnerLink toTop to="ability-animal_tricks-guard">guard</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-heel">heel</InnerLink>. Training an animal for combat riding takes 6 weeks. You may also "upgrade" an animal trained for riding to one trained for combat by spending 3 weeks and making a successful DC 20 Handle Animal check. The new general purpose and tricks completely replace the animal's previous purpose and any tricks it once knew. Many horses and riding dogs are trained in this way.</p>
-<h3 id="ability-animal_tricks-fighting" data-hash-target>Fighting (DC 20)</h3>
-<p>An animal trained to engage in combat knows the tricks <InnerLink toTop to="ability-animal_tricks-attack">attack</InnerLink>, <InnerLink toTop to="ability-animal_tricks-down">down</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-stay">stay</InnerLink>. Training an animal for fighting takes 3 weeks.</p>
-<h3 id="ability-animal_tricks-guarding" data-hash-target>Guarding (DC 20)</h3>
-<p>An animal trained to guard knows the tricks <InnerLink toTop to="ability-animal_tricks-attack">attack</InnerLink>, <InnerLink toTop to="ability-animal_tricks-defend">defend</InnerLink>, <InnerLink toTop to="ability-animal_tricks-down">down</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-guard">guard</InnerLink>. Training an animal for guarding takes 4 weeks.</p>
-<h3 id="ability-animal_tricks-heavy-labor" data-hash-target>Heavy Labor (DC 15)</h3>
-<p>An animal trained for heavy labor knows the tricks <InnerLink toTop to="ability-animal_tricks-come">come</InnerLink> and <InnerLink toTop to="ability-animal_tricks-work">work</InnerLink>. Training an animal for heavy labor takes 2 weeks.</p>
-<h3 id="ability-animal_tricks-hunting" data-hash-target>Hunting (DC 20)</h3>
-<p>An animal trained for hunting knows the tricks <InnerLink toTop to="ability-animal_tricks-attack">attack</InnerLink>, <InnerLink toTop to="ability-animal_tricks-down">down</InnerLink>, <InnerLink toTop to="ability-animal_tricks-fetch">fetch</InnerLink>, <InnerLink toTop to="ability-animal_tricks-heel">heel</InnerLink>, <InnerLink toTop to="ability-animal_tricks-seek">seek</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-track">track</InnerLink>. Training an animal for hunting takes 6 weeks.</p>
-<h3 id="ability-animal_tricks-liberator" data-hash-target>Liberator (DC 25)</h3>
-<p>An animal trained in liberating knows the <InnerLink toTop to="ability-animal_tricks-break-out">break out</InnerLink>, <InnerLink toTop to="ability-animal_tricks-flee">flee</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-get-help">get help</InnerLink> tricks.</p>
-<h3 id="ability-animal_tricks-servant" data-hash-target>Servant (DC 20)</h3>
-<p>An animal trained as a servant knows the <InnerLink toTop to="ability-animal_tricks-deliver">deliver</InnerLink>, <InnerLink toTop to="ability-animal_tricks-exclusive">exclusive</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-serve">serve</InnerLink> tricks.</p>
-<h3 id="ability-animal_tricks-performance" data-hash-target>Performance (DC 15)</h3>
-<p>An animal trained for performance knows the tricks <InnerLink toTop to="ability-animal_tricks-come">come</InnerLink>, <InnerLink toTop to="ability-animal_tricks-fetch">fetch</InnerLink>, <InnerLink toTop to="ability-animal_tricks-heel">heel</InnerLink>, <InnerLink toTop to="ability-animal_tricks-perform">perform</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-stay">stay</InnerLink>. Training an animal for performance takes 5 weeks.</p>
-<h3 id="ability-animal_tricks-riding" data-hash-target>Riding (DC 15)</h3>
-<p>An animal trained to bear a rider knows the tricks <InnerLink toTop to="ability-animal_tricks-come">come</InnerLink>, <InnerLink toTop to="ability-animal_tricks-heel">heel</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-stay">stay</InnerLink>. Training an animal for riding takes 3 weeks.</p>
+<Ability id="air-support" icon={["mailed-fist","bowman","stairs-goal"]}>
+<Pair single id="air-support">Air Support</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">An animal trained in air support knows the <InnerLink toTop to="ability-animal_tricks-attack">attack</InnerLink>, <InnerLink toTop to="ability-animal_tricks-bombard">bombard</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-deliver">deliver</InnerLink> tricks.</Pair>
+<Pair title="Training Time">3 weeks</Pair>
+</Ability>
+<Ability id="burglar" icon={["stairs-goal","mailed-fist","armor-upgrade"]}>
+<Pair single id="burglar">Burglar</Pair>
+<Pair title="DC">25</Pair>
+<Pair title="Trick">An animal trained as a burglar knows the <InnerLink toTop to="ability-animal_tricks-come">come</InnerLink>, <InnerLink toTop to="ability-animal_tricks-fetch">fetch</InnerLink>, <InnerLink toTop to="ability-animal_tricks-maneuver">maneuver</InnerLink> (steal), <InnerLink toTop to="ability-animal_tricks-seek">seek</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-sneak">sneak</InnerLink> tricks. You can order it to steal a specific item you point out.</Pair>
+<Pair title="Training Time">5 weeks</Pair>
+</Ability>
+<Ability id="combat-training" icon={["mailed-fist","stairs-goal","shield-reflect","armor-upgrade"]}>
+<Pair single id="combat-training">Combat Training</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">An animal trained to bear a rider into combat knows the tricks <InnerLink toTop to="ability-animal_tricks-attack">attack</InnerLink>, <InnerLink toTop to="ability-animal_tricks-come">come</InnerLink>, <InnerLink toTop to="ability-animal_tricks-defend">defend</InnerLink>, <InnerLink toTop to="ability-animal_tricks-down">down</InnerLink>, <InnerLink toTop to="ability-animal_tricks-guard">guard</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-heel">heel</InnerLink>.</Pair>
+<Pair title="Training Time">6 weeks</Pair>
+<Pair title="Special">You may also "upgrade" an animal trained for riding to one trained for combat by spending 3 weeks and making a successful DC 20 Handle Animal check. The new general purpose and tricks completely replace the animal's previous purpose and any tricks it once knew. Many horses and riding dogs are trained in this way.</Pair>
+</Ability>
+<Ability id="fighting" icon={["mailed-fist","stairs-goal"]}>
+<Pair single id="fighting">Fighting</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">An animal trained to engage in combat knows the tricks <InnerLink toTop to="ability-animal_tricks-attack">attack</InnerLink>, <InnerLink toTop to="ability-animal_tricks-down">down</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-stay">stay</InnerLink>.</Pair>
+<Pair title="Training Time">3 weeks</Pair>
+</Ability>
+<Ability id="guarding" icon={["mailed-fist","armor-upgrade","shield-reflect","stairs-goal"]}>
+<Pair single id="guarding">Guarding</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">An animal trained to guard knows the tricks <InnerLink toTop to="ability-animal_tricks-attack">attack</InnerLink>, <InnerLink toTop to="ability-animal_tricks-defend">defend</InnerLink>, <InnerLink toTop to="ability-animal_tricks-down">down</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-guard">guard</InnerLink>.</Pair>
+<Pair title="Training Time">4 weeks</Pair>
+</Ability>
+<Ability id="heavy-labor" icon={["stairs-goal"]}>
+<Pair single id="heavy-labor">Heavy Labor</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">An animal trained for heavy labor knows the tricks <InnerLink toTop to="ability-animal_tricks-come">come</InnerLink> and <InnerLink toTop to="ability-animal_tricks-work">work</InnerLink>.</Pair>
+<Pair title="Training Time">2 weeks</Pair>
+</Ability>
+<Ability id="hunting" icon={["mailed-fist","stairs-goal"]}>
+<Pair single id="hunting">Hunting</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">An animal trained for hunting knows the tricks <InnerLink toTop to="ability-animal_tricks-attack">attack</InnerLink>, <InnerLink toTop to="ability-animal_tricks-down">down</InnerLink>, <InnerLink toTop to="ability-animal_tricks-fetch">fetch</InnerLink>, <InnerLink toTop to="ability-animal_tricks-heel">heel</InnerLink>, <InnerLink toTop to="ability-animal_tricks-seek">seek</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-track">track</InnerLink>.</Pair>
+<Pair title="Training Time">6 weeks</Pair>
+</Ability>
+<Ability id="liberator" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="liberator">Liberator</Pair>
+<Pair title="DC">25</Pair>
+<Pair title="Trick">An animal trained in liberating knows the <InnerLink toTop to="ability-animal_tricks-break-out">break out</InnerLink>, <InnerLink toTop to="ability-animal_tricks-flee">flee</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-get-help">get help</InnerLink> tricks.</Pair>
+<Pair title="Training Time">3 weeks</Pair>
+</Ability>
+<Ability id="servant" icon={["stairs-goal"]}>
+<Pair single id="servant">Servant</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">An animal trained as a servant knows the <InnerLink toTop to="ability-animal_tricks-deliver">deliver</InnerLink>, <InnerLink toTop to="ability-animal_tricks-exclusive">exclusive</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-serve">serve</InnerLink> tricks.</Pair>
+<Pair title="Training Time">3 weeks</Pair>
+</Ability>
+<Ability id="performance" icon={["stairs-goal"]}>
+<Pair single id="performance">Performance</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">An animal trained for performance knows the tricks <InnerLink toTop to="ability-animal_tricks-come">come</InnerLink>, <InnerLink toTop to="ability-animal_tricks-fetch">fetch</InnerLink>, <InnerLink toTop to="ability-animal_tricks-heel">heel</InnerLink>, <InnerLink toTop to="ability-animal_tricks-perform">perform</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-stay">stay</InnerLink>.</Pair>
+<Pair title="Training Time">5 weeks</Pair>
+</Ability>
+<Ability id="riding" icon={["stairs-goal"]}>
+<Pair single id="riding">Riding</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">An animal trained to bear a rider knows the tricks <InnerLink toTop to="ability-animal_tricks-come">come</InnerLink>, <InnerLink toTop to="ability-animal_tricks-heel">heel</InnerLink>, and <InnerLink toTop to="ability-animal_tricks-stay">stay</InnerLink>.</Pair>
+<Pair title="Training Time">3 weeks</Pair>
+</Ability>
 </>};
 const _companion_tricks = {hasJL:true,title: "Animal Companion Tricks", jsx: <><div className="jumpList" id="ability-companion_tricks-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="ability-companion_tricks-build-simple-structure">Build Simple Structure</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-demolish">Demolish</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-feint">Feint</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-guide">Guide</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-intimidate">Intimidate</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-mark-territory">Mark Territory</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-milk-venom">Milk Venom</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-receive-spell">Receive Spell</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-rescue">Rescue</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-speak">Speak</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-spin-silk">Spin Silk</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-cocoon">Cocoon</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-subdue">Subdue</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-take-root">Take Root</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-pose-as-scenery">Pose as Scenery</InnerLink></li><li><InnerLink toTop to="ability-companion_tricks-withhold-venom">Withhold Venom</InnerLink></li></ul></div><h2 id="ability-companion_tricks-animal-companion-tricks">Animal Companion Tricks</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 214</Link><br/>Certain <Link to="/ability/animal_tricks">animal tricks</Link> can only be taught to <Link to="/sidekick/animal_companion">animal companions</Link>, and often require the animal to have specific characteristics. They otherwise follow the rules for <Link to="/skill/handle_animal">teaching tricks</Link>.</p>
 <hr/>
-<h3 id="ability-companion_tricks-build-simple-structure" data-hash-target>Build Simple Structure (DC 25)</h3>
-<p>The companion can build simple structures on command, limited by its natural abilities and inclinations. The companion is able to build only structures that creatures of its type would naturally build on their own, and this trick merely allows the handler to direct the companion on when and where to build such structures. For example, a spider could be commanded to spin a web between two trees, but it could not be made to create a hammock or a tent out of silk. Similarly, a beaver could be ordered to make a dam or lodge, an alligator a dome-shaped nest, and any burrowing creature a small tunnel or hole. In general, this process takes 10 minutes for each 5-foot square the structure occupies, but depending on the terrain and the type of structure, it might take as little as 1 minute or as much as 1 hour or more, at the GM's discretion. Only companions that naturally build structures can learn this trick.</p>
-<h3 id="ability-companion_tricks-demolish" data-hash-target>Demolish (DC 15)</h3>
-<p>The companion can be commanded to attack and damage objects and structures. A companion must know the <strong>attack</strong> trick before it can be taught the demolish trick, and the companion must be trained to attack creatures of all types. The companion's handler can direct it either to make natural attacks against the object in question or to make a Strength check to attempt to break it (if applicable).</p>
-<h3 id="ability-companion_tricks-feint" data-hash-target>Feint (DC 20)</h3>
-<p>The companion is trained to feint against opponents. A companion must know the <strong>attack</strong> trick before it can be taught the feint trick, and it performs feints only against targets it would normally attack.</p>
-<h3 id="ability-companion_tricks-guide" data-hash-target>Guide (DC 15)</h3>
-<p>The companion can serve as a guide to a character that is blinded or otherwise unable to see. While serving as a guide, the companion remains adjacent to the guided creature at all times, readying an action each round to move when that creature moves. This allows the guided creature to automatically succeed at Acrobatics checks to move at more than half speed while blinded. Additionally, the companion identifies obstacles in the guided creature's path and pushes them, pulls them, or otherwise signals to the creature how to avoid them, allowing the guided creature to locate and move around obstacles such as hazards, opponents, and other terrain features as though she were able to see them (though she can't distinguish between obstacles). Finally, while serving as a guide, the companion indicates to the guided creature the presence and direction of any adjacent allies, allowing the guided creature to pinpoint the locations of such creatures. The companion can serve as a guide only as long as it is able to see in some fashion, and its ability to detect and avoid creatures and obstacles is limited by what it is able to perceive normally.</p>
-<h3 id="ability-companion_tricks-intimidate" data-hash-target>Intimidate (DC 15)</h3>
-<p>The companion bares its teeth, barks, bristles, growls, or otherwise threatens a creature you designate, or, alternatively, it can be trained to do so when it encounters any creature besides its handler. The companion takes a -4 penalty on Intimidate checks against creatures other than those with the animal or humanoid types unless it has also been trained to attack creatures of any type. A companion that knows this trick automatically uses the <Link to="/rule/aid_another">aid another</Link> action to assist Intimidate checks attempted by its handler, provided that it is within 15 feet of its handler at the time and has not been ordered to perform another task.</p>
-<h3 id="ability-companion_tricks-mark-territory" data-hash-target>Mark Territory (DC 25)</h3>
-<p>Whether by spraying musk, rubbing its back against trees and rocks, or simply howling loudly, the companion lets other nearby animals know that it has claimed an area. By spending 1 hour performing this trick, the companion can mark an area of up to half a square mile in this fashion. If it does so, after 24 hours, whenever there would be a random encounter within that area that involves a wild animal or other creature of Intelligence 2 or less (including vermin but not other mindless creatures, such as oozes and mindless undead), there is a 25% chance that the encounter doesn't actually occur, as creatures might be warded off by the markings. The companion must renew any territorial markings at least once per week, or they lose their effectiveness. There is also a 10% chance per week that the markings attract the attention of a powerful predator, which actively seeks out the companion to challenge it (and its master) for the territory.</p>
-<h3 id="ability-companion_tricks-milk-venom" data-hash-target>Milk Venom (DC 20)</h3>
-<p>The companion can be coaxed into providing a single dose of venom on command. This process takes 10 minutes, and it requires a vial or similar container in which to store the poison. A companion that has been specifically trained to be milked of its venom never bites, stings, or otherwise poisons its handler when being milked, although the handler must still succeed at a <Link to="/skill/handle_animal">Handle Animal</Link> check to successfully harvest the venom (see <Link to="/rule/harvesting_poisons">Harvesting Poisons</Link>). A companion must have the <strong>poison</strong> ability to be taught this trick.</p>
-<h3 id="ability-companion_tricks-receive-spell" data-hash-target>Receive Spell (DC 25)</h3>
-<p>The companion has been trained to be the recipient of a specific spell (chosen at the time the animal is taught the trick), allowing it to fully take advantage of the spell's effects. The spell should be one that grants the companion an ability it might not normally be intelligent enough to make use of or one that it might not even realize it has (such as <Link to="/spell/air_walk">air walk</Link>). The companion is able to recognize when it has been affected by this spell and can take full advantage of the spell's effects. At the GM's discretion, a companion can also be trained to receive certain non-spell effects, such as those granted by an <Link to="/magic-wondrous/elixir_of_fire_breath">elixir of fire breathing</Link>. The companion can be taught this trick multiple times; each time it learns this trick, it becomes trained to utilize a different spell effect.</p>
-<h3 id="ability-companion_tricks-rescue" data-hash-target>Rescue (DC 20)</h3>
-<p>The companion has been trained to drag its handler or another creature that the handler designates out of danger and to a safe place in the event that the handler or creature is incapacitated. If a creature that the companion is defending is rendered helpless or is slain, the companion will carry, drag, or otherwise move that creature out of danger. If the companion knows the get help trick, it will attempt to bring the creature it is rescuing to one of the creatures designated as "help." Otherwise, you can designate a single location in advance as a safe place, and the companion will attempt to bring the creature it is rescuing to that place. If it is unable to do either of these, the companion simply moves the creature to the nearest location of relative safety. A companion must have the <strong>deliver</strong> and <strong>guard</strong> tricks in order to learn this trick.</p>
-<h3 id="ability-companion_tricks-speak" data-hash-target>Speak (DC 25)</h3>
-<p>The companion is able to communicate very simple concepts through barks, gestures, whistles, or similar actions. The companion's vocabulary is extremely limited, generally restricted to "yes," "no," and counting up to three. The companion is also able to recognize and respond to up to two specific questions per point of Intelligence. The companion does not so much understand the words as recognize the sound of them, and it responds accordingly. This trick does not actually increase the companion's capacity to understand concepts and ideas; it can be taught a way to communicate the concept of "food," for example, but it won't distinguish cooked food from raw food, and it might not even recognize as food anything that is not part of its own diet. A companion must have an Intelligence score of 2 or higher to learn this trick.</p>
-<h3 id="ability-companion_tricks-spin-silk" data-hash-target>Spin Silk (DC 20)</h3>
-<p>The companion can create strands of delicate yet incredibly strong silk. Harvesting the silk takes 10 minutes, and it can be done once per day. This silk functions identically to a silk rope. The companion can produce a total number of feet of silk equal to 10 times its Constitution score per day, which can be divided as the handler chooses in 10-foot increments. Silk produced in this way degrades into uselessness after 24 hours. Only companions with the web ability can learn this trick.</p>
-<blockquote>
-<h4 id="ability-companion_tricks-cocoon" data-hash-target>Cocoon (DC 15)</h4>
-<p>The companion can cocoon an object or a helpless or willing Huge or smaller creature in webbing. The amount of time this takes depends on the size of the creature or object to be cocooned, as outlined on the following table.</p>
-<blockquote>
+<div style={{clear:"both"}}></div><Ability id="build-simple-structure" icon={["stairs-goal"]}>
+<Pair single id="build-simple-structure">Build Simple Structure</Pair>
+<Pair title="Prerequisites">The companion can naturally build structures</Pair>
+<Pair title="DC">25</Pair>
+<Pair title="Trick"><p>The companion can build simple structures on command, limited by its natural abilities and inclinations. The companion is able to build only structures that creatures of its type would naturally build on their own, and this trick merely allows the handler to direct the companion on when and where to build such structures. For example, a spider could be commanded to spin a web between two trees, but it could not be made to create a hammock or a tent out of silk. Similarly, a beaver could be ordered to make a dam or lodge, an alligator a dome-shaped nest, and any burrowing creature a small tunnel or hole.</p>
+<p>In general, this process takes 10 minutes for each 5-foot square the structure occupies, but depending on the terrain and the type of structure, it might take as little as 1 minute or as much as 1 hour or more, at the GM's discretion.</p>
+</Pair>
+</Ability>
+<Ability id="demolish" icon={["mailed-fist"]}>
+<Pair single id="demolish">Demolish</Pair>
+<Pair title="Prerequisites"><em>Attack</em> trick, trained to attack all creatures</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">The companion can be commanded to attack and damage objects and structures. The companion's handler can direct it either to make natural attacks against the object in question or to make a Strength check to attempt to break it (if applicable).</Pair>
+</Ability>
+<Ability id="feint" icon={["mailed-fist"]}>
+<Pair single id="feint">Feint</Pair>
+<Pair title="Prerequisites"><em>Attack</em> trick</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">The companion is trained to <Link to="/rule/feint">feint</Link> against opponents.</Pair>
+<Pair title="Special">A companion performs feints only against targets it would normally attack.</Pair>
+</Ability>
+<Ability id="guide" icon={["shield-reflect","remedy"]}>
+<Pair single id="guide">Guide</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick"><p>The companion can serve as a guide to a character that is blinded or otherwise unable to see. While serving as a guide, the companion remains adjacent to the guided creature at all times, <Link to="/rule/readying_an_action">readying an action</Link> each round to move when that creature moves. This allows the guided creature to automatically succeed at Acrobatics checks to move at more than half speed while blinded.</p>
+<p>Additionally, the companion identifies obstacles in the guided creature's path and pushes them, pulls them, or otherwise signals to the creature how to avoid them, allowing the guided creature to locate and move around obstacles such as hazards, opponents, and other terrain features as though she were able to see them (though she can't distinguish between obstacles).</p>
+<p>Finally, while serving as a guide, the companion indicates to the guided creature the presence and direction of any adjacent allies, allowing the guided creature to pinpoint the locations of such creatures.</p>
+</Pair>
+<Pair title="Special">The companion can serve as a guide only as long as it is able to see in some fashion, and its ability to detect and avoid creatures and obstacles is limited by what it is able to perceive normally.</Pair>
+</Ability>
+<Ability id="intimidate" icon={["mailed-fist"]}>
+<Pair single id="intimidate">Intimidate</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">The companion bares its teeth, barks, bristles, growls, or otherwise threatens a creature you designate, or, alternatively, it can be trained to do so when it encounters any creature besides its handler. The companion takes a -4 penalty on <Link to="/skill/intimidate">Intimidate</Link> checks against creatures other than those with the animal or humanoid types unless it has also been trained to attack creatures of any type.</Pair>
+<Pair title="Special">A companion that knows this trick automatically uses the <Link to="/rule/aid_another">aid another</Link> action to assist Intimidate checks attempted by its handler, provided that it is within 15 feet of its handler at the time and has not been ordered to perform another task.</Pair>
+</Ability>
+<Ability id="mark-territory" icon={["stairs-goal","shield-reflect"]}>
+<Pair single id="mark-territory">Mark Territory</Pair>
+<Pair title="DC">25</Pair>
+<Pair title="Trick">Whether by spraying musk, rubbing its back against trees and rocks, or simply howling loudly, the companion lets other nearby animals know that it has claimed an area. By spending 1 hour performing this trick, the companion can mark an area of up to half a square mile in this fashion. If it does so, after 24 hours, whenever there would be a random encounter within that area that involves a wild animal or other creature of Intelligence 2 or less (including vermin but not other mindless creatures, such as oozes and mindless undead), there is a 25% chance that the encounter doesn't actually occur, as creatures might be warded off by the markings.</Pair>
+<Pair title="Special">The companion must renew any territorial markings at least once per week, or they lose their effectiveness. There is also a 10% chance per week that the markings attract the attention of a powerful predator, which actively seeks out the companion to challenge it (and its master) for the territory.</Pair>
+</Ability>
+<Ability id="milk-venom" icon={["stairs-goal"]}>
+<Pair single id="milk-venom">Milk Venom</Pair>
+<Pair title="Prerequisites">Must have the <Link to="/umr/poison">poison</Link> ability</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">The companion can be coaxed into providing a single dose of venom on command. This process takes 10 minutes, and it requires a vial or similar container in which to store the poison. A companion that has been specifically trained to be milked of its venom never bites, stings, or otherwise poisons its handler when being milked, although the handler must still succeed at a <Link to="/skill/handle_animal">Handle Animal</Link> check to successfully harvest the venom (see <Link to="/rule/harvesting_poisons">Harvesting Poisons</Link>).</Pair>
+</Ability>
+<Ability id="receive-spell" icon={["stairs-goal"]}>
+<Pair single id="receive-spell">Receive Spell</Pair>
+<Pair title="DC">25</Pair>
+<Pair title="Trick">The companion has been trained to be the recipient of a specific spell (chosen at the time the animal is taught the trick), allowing it to fully take advantage of the spell's effects. The spell should be one that grants the companion an ability it might not normally be intelligent enough to make use of or one that it might not even realize it has (such as <Link to="/spell/air_walk">air walk</Link>). The companion is able to recognize when it has been affected by this spell and can take full advantage of the spell's effects. At the GM's discretion, a companion can also be trained to receive certain non-spell effects, such as those granted by an <Link to="/magic-wondrous/elixir_of_fire_breath">elixir of fire breathing</Link>.</Pair>
+<Pair title="Special">The companion can be taught this trick multiple times; each time it learns this trick, it becomes trained to utilize a different spell effect.</Pair>
+</Ability>
+<Ability id="rescue" icon={["shield-reflect"]}>
+<Pair single id="rescue">Rescue</Pair>
+<Pair title="Prerequisites">The <em>deliver</em> and <em>guard</em> tricks</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">The companion has been trained to drag its handler or another creature that the handler designates out of danger and to a safe place in the event that the handler or creature is incapacitated. If a creature that the companion is defending is rendered helpless or is slain, the companion will carry, drag, or otherwise move that creature out of danger.</Pair>
+<Pair title="Special">If the companion knows the <em>get help</em> trick, it will attempt to bring the creature it is rescuing to one of the creatures designated as "help." Otherwise, you can designate a single location in advance as a safe place, and the companion will attempt to bring the creature it is rescuing to that place. If it is unable to do either of these, the companion simply moves the creature to the nearest location of relative safety.</Pair>
+</Ability>
+<Ability id="speak" icon={["stairs-goal"]}>
+<Pair single id="speak">Speak</Pair>
+<Pair title="Prerequisites">Intelligence score of 2 or higher</Pair>
+<Pair title="DC">25</Pair>
+<Pair title="Trick">The companion is able to communicate very simple concepts through barks, gestures, whistles, or similar actions. The companion's vocabulary is extremely limited, generally restricted to "yes," "no," and counting up to three. The companion is also able to recognize and respond to up to two specific questions per point of Intelligence. The companion does not so much understand the words as recognize the sound of them, and it responds accordingly.</Pair>
+<Pair title="Special">This trick does not actually increase the companion's capacity to understand concepts and ideas; it can be taught a way to communicate the concept of "food," for example, but it won't distinguish cooked food from raw food, and it might not even recognize as food anything that is not part of its own diet.</Pair>
+</Ability>
+<Ability id="spin-silk" icon={["stairs-goal"]}>
+<Pair single id="spin-silk">Spin Silk</Pair>
+<Pair title="Prerequisites">Companion with the <Link to="/umr/web">web</Link> ability</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">The companion can create strands of delicate yet incredibly strong silk. Harvesting the silk takes 10 minutes, and it can be done once per day. This silk functions identically to a <Link to="/eq-misc/silk_rope">silk rope</Link>.</Pair>
+<Pair title="Special">The companion can produce a total number of feet of silk equal to 10 times its Constitution score per day, which can be divided as the handler chooses in 10-foot increments. Silk produced in this way degrades into uselessness after 24 hours.</Pair>
+</Ability>
+<Ability id="cocoon" extraClasses="indent" icon={["stairs-goal","mailed-fist"]}>
+<Pair single id="cocoon">Cocoon</Pair>
+<Pair title="Prerequisites"><em>Spin silk</em> trick</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick"><p>The companion can cocoon an object or a helpless or willing Huge or smaller creature in webbing. The amount of time this takes depends on the size of the creature or object to be cocooned, as outlined on the following table.</p>
 <ScrollContainer id="ability-companion_tricks--table-0"><table>
 <thead>
 <tr>
@@ -1094,19 +1298,33 @@ const _companion_tricks = {hasJL:true,title: "Animal Companion Tricks", jsx: <><
 <td>4 hours</td>
 </tr>
 </tbody></table></ScrollContainer>
-</blockquote>
-<p>The cocoon has hardness 2 and 10 hit points. A creature trapped within the cocoon is effectively pinned, and it can attempt an Escape Artist check or combat maneuver check as a full-round action to escape (DC = 20 + the companion's CMD). Alternatively, a DC 25 Strength check can break the cocoon. The companion must know the <strong>spin silk</strong> trick before it can learn this trick.</p>
-</blockquote>
-<h3 id="ability-companion_tricks-subdue" data-hash-target>Subdue (DC 15)</h3>
-<p>The companion can attempt to subdue opponents. Once the command is given, the companion makes all its natural attacks as nonlethal attacks (taking the typical -4 penalty on attack rolls when using normally lethal attacks) until ordered to do otherwise.</p>
-<h3 id="ability-companion_tricks-take-root" data-hash-target>Take Root (DC 15)</h3>
-<p>The companion extends its roots into the soil beneath it, anchoring itself in place and drawing water and nutrients from the soil. Taking root is a full-round action that provokes attacks of opportunity. While rooted, the companion cannot move, but it can otherwise act normally and gains a +4 bonus to CMD to resist bull rush, drag, overrun, reposition, and trip attempts. If the companion remains rooted for at least 1 hour, it absorbs enough water and nutrients to feed itself for a day. A separate command causes the companion to uproot itself as a full-round action. The companion can take root only in areas of soft soil. Only plant companions can learn this trick.</p>
-<blockquote>
-<h4 id="ability-companion_tricks-pose-as-scenery" data-hash-target>Pose as Scenery (DC 20)</h4>
-<p>The companion freezes in place, seeming to be a mundane plant rather than a plant creature. The companion must have taken root in order to use this trick. It attempts a Disguise check with a +8 circumstance bonus, opposed by the Perception checks of observers. If it succeeds at the opposed check, the observer mistakes it for an ordinary, harmless plant. The companion must have the take root trick in order to learn this trick. Only plant companions can learn this trick.</p>
-</blockquote>
-<h3 id="ability-companion_tricks-withhold-venom" data-hash-target>Withhold Venom (DC 20)</h3>
-<p>The companion can be ordered to avoid injecting poison into creatures it strikes with whatever natural attack would normally deliver venom. As long as the companion has been ordered to withhold its venom, successful hits with that natural attack deal damage as normal and convey all other effects that they normally would, but they do not expose the target to the companion's poison. Only companions with the <strong>poison</strong> special ability can learn this trick.</p>
+<p>The cocoon has hardness 2 and 10 hit points. A creature trapped within the cocoon is effectively <Link to="/rule/pinned">pinned</Link>, and it can attempt an Escape Artist check or combat maneuver check as a full-round action to escape (DC = 20 + the companion's CMD). Alternatively, a DC 25 Strength check can break the cocoon. </p>
+</Pair>
+</Ability>
+<Ability id="subdue" icon={["mailed-fist"]}>
+<Pair single id="subdue">Subdue</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">The companion can attempt to subdue opponents. Once the command is given, the companion makes all its natural attacks as <Link to="/rule/nonlethal_damage">nonlethal attacks</Link> (taking the typical -4 penalty on attack rolls when using normally lethal attacks) until ordered to do otherwise.</Pair>
+</Ability>
+<Ability id="take-root" icon={["stairs-goal","armor-upgrade"]}>
+<Pair single id="take-root">Take Root</Pair>
+<Pair title="Prerequisites">Must be a plant companion</Pair>
+<Pair title="DC">15</Pair>
+<Pair title="Trick">The companion extends its roots into the soil beneath it, anchoring itself in place and drawing water and nutrients from the soil. Taking root is a <strong className="hl">full-round action</strong> that provokes attacks of opportunity. While rooted, the companion cannot move, but it can otherwise act normally and gains a +4 bonus to CMD to resist bull rush, drag, overrun, reposition, and trip attempts. If the companion remains rooted for at least 1 hour, it absorbs enough water and nutrients to feed itself for a day. A separate command causes the companion to uproot itself as a full-round action.</Pair>
+<Pair title="Special">The companion can take root only in areas of soft soil.</Pair>
+</Ability>
+<Ability id="pose-as-scenery" extraClasses="indent" icon={["armor-upgrade"]}>
+<Pair single id="pose-as-scenery">Pose as Scenery</Pair>
+<Pair title="Prerequisites">Must be a plant companion with the <em>take root</em> trick</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">The companion freezes in place, seeming to be a mundane plant rather than a plant creature. The companion must have taken root in order to use this trick. It attempts a Disguise check with a +8 circumstance bonus, opposed by the Perception checks of observers. If it succeeds at the opposed check, the observer mistakes it for an ordinary, harmless plant.</Pair>
+</Ability>
+<Ability id="withhold-venom" icon={["mailed-fist"]}>
+<Pair single id="withhold-venom">Withhold Venom</Pair>
+<Pair title="Prerequisites">The <Link to="/umr/poison">poison</Link> special ability</Pair>
+<Pair title="DC">20</Pair>
+<Pair title="Trick">The companion can be ordered to avoid injecting poison into creatures it strikes with whatever natural attack would normally deliver venom. As long as the companion has been ordered to withhold its venom, successful hits with that natural attack deal damage as normal and convey all other effects that they normally would, but they do not expose the target to the companion's poison.</Pair>
+</Ability>
 </>};
 const _bardic_performances = {title: "Bardic Performances", topLink: ["Bard","class/bard"], jsx: <div className="compilation"><h2 id="ability-bardic_performances-bardic-performances">Bardic Performances</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 35</Link><br/>A bard is trained to use the Perform skill to create magical effects on those around him, including himself if desired. He can use this ability for a number of rounds per day equal to 4 + his Charisma modifier. At each level after 1st a bard can use bardic performance for 2 additional rounds per day. Each round, the bard can produce any one of the types of bardic performance that he has mastered, as indicated by his level.</p>
@@ -1145,7 +1363,7 @@ const _raging_song = {title: "Raging Song", topLink: ["Skald","class/skald"], js
 <p><strong>Song of the Fallen (Su)</strong>: At 14th level, a skald can temporarily revive dead allies to continue fighting, with the same limitations as <Link to="/spell/raise_dead">raise dead</Link>. The skald selects a dead ally within 60 feet and expends 1 round of raging song to bring that ally back to life. The revived ally is alive but <Link to="/misc/staggered">staggered</Link>. Each round, the skald may expend another 1 round of raging song to keep that ally alive for another round. The ally automatically dies if the skald ends this performance or is interrupted. The skald may revive multiple allies with this ability (either at the same time or over successive rounds) but must expend 1 round of raging song per revived ally per round to maintain the effect.</p>
 </blockquote>
 </>};
-const _familiars = {title: "Familiars", topLink: ["Wizard","class/wizard"], jsx: <><h2 id="ability-familiars-familiars">Familiars</h2>
+const _familiars = {hasJL:true,title: "Familiars", topLink: ["Wizard","class/wizard"], jsx: <><div className="jumpList" id="ability-familiars-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="ability-familiars-table-of-familiars">Table of Familiars</InnerLink></li></ul></div><h2 id="ability-familiars-familiars">Familiars</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook</Link><br/>A familiar is an animal chosen by a spellcaster to aid him in his study of magic. It retains the appearance, Hit Dice, base attack bonus, base save bonuses, skills, and feats of the normal animal it once was, but is now a magical beast for the purpose of effects that depend on its type. Only a normal, unmodified animal may become a familiar. An animal companion cannot also function as a familiar.</p>
 <p>A <Link to="/sidekick/familiar">familiar</Link> grants special abilities to its master, as given on the table below. These special abilities apply only when the master and familiar are within 1 mile of each other.</p>
 <p>Levels of different classes that are entitled to familiars stack for the purpose of determining any familiar abilities that depend on the master's level.</p>
@@ -1155,6 +1373,7 @@ const _familiars = {title: "Familiars", topLink: ["Wizard","class/wizard"], jsx:
 <p>Construct, plant, and vermin familiars gain an Intelligence score, and they lose the mindless trait if they had it. If such familiars lack a language, they communicate with their masters and other creatures of their kind (<Link to="/monster/greensting_scorpion">greensting scorpions</Link> with other scorpions, mobile plant creatures with other mobile plant creatures, and so on) by way of a strange combination of behaviors, slight changes in coloration, and sometimes even the excretion of scents or pheromones. Other types of creatures can't understand this communication without magical aid.</p>
 <p>Outsiders and undead creatures are normally available only with the <Link to="/feat/improved_familiar">Improved Familiar</Link> feat, and require no other special rules.</p>
 <p>Improved familiars <Link to="/ability/improved_familiars">are listed here.</Link></p>
+<h3 id="ability-familiars-table-of-familiars" data-hash-target>Table of Familiars</h3>
 <ScrollContainer id="ability-familiars--table-0"><table>
 <thead>
 <tr>
@@ -2034,46 +2253,68 @@ const _judgments = {hasJL:true,title: "Inquisitor Judgments", topLink: ["Inquisi
 <Pair title="At 10th Level">Your weapons also count as <Link to="/eq-material/adamantine">adamantine</Link> for the purpose of overcoming damage reduction (but not for reducing hardness).</Pair>
 </Ability>
 </>};
-const _capstones = {hasJL:true,title: "Alternate Capstones", topLink: ["Classes","main/classes"], jsx: <><div className="jumpList" id="ability-capstones-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="ability-capstones-arch-familiar-su">Arch-Familiar (Su)</InnerLink></li><li><InnerLink toTop to="ability-capstones-deep-magics-su">Deep Magics (Su)</InnerLink></li><li><InnerLink toTop to="ability-capstones-great-beast-su">Great Beast (Su)</InnerLink></li><li><InnerLink toTop to="ability-capstones-ki-sage-su">Ki Sage (Su)</InnerLink></li><li><InnerLink toTop to="ability-capstones-old-dog-new-tricks-ex">Old Dog, New Tricks (Ex)</InnerLink></li><li><InnerLink toTop to="ability-capstones-perfect-body-flawless-mind-ex">Perfect Body, Flawless Mind (Ex)</InnerLink></li><li><InnerLink toTop to="ability-capstones-soul-channel-su">Soul Channel (Su)</InnerLink></li><li><InnerLink toTop to="ability-capstones-the-boss-ex">The Boss (Ex)</InnerLink></li><li><InnerLink toTop to="ability-capstones-the-right-spot-ex">The Right Spot (Ex)</InnerLink></li><li><InnerLink toTop to="ability-capstones-walking-library-ex">Walking Library (Ex)</InnerLink></li><li><InnerLink toTop to="ability-capstones-with-this-sword-ex">With This Sword (Ex)</InnerLink></li><li><InnerLink toTop to="ability-capstones-wont-stay-dead-ex">Won't Stay Dead (Ex)</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 28</Link></p>
+const _capstones = {hasJL:true,title: "Alternate Capstones", topLink: ["Classes","main/classes"], jsx: <><div className="jumpList" id="ability-capstones-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="ability-capstones-arch-familiar-su">Arch-Familiar</InnerLink></li><li><InnerLink toTop to="ability-capstones-deep-magics-su">Deep Magics</InnerLink></li><li><InnerLink toTop to="ability-capstones-great-beast-su">Great Beast</InnerLink></li><li><InnerLink toTop to="ability-capstones-ki-sage-su">Ki Sage</InnerLink></li><li><InnerLink toTop to="ability-capstones-old-dog-new-tricks-ex">Old Dog, New Tricks</InnerLink></li><li><InnerLink toTop to="ability-capstones-perfect-body-flawless-mind-ex">Perfect Body, Flawless Mind</InnerLink></li><li><InnerLink toTop to="ability-capstones-soul-channel-su">Soul Channel</InnerLink></li><li><InnerLink toTop to="ability-capstones-the-boss-ex">The Boss</InnerLink></li><li><InnerLink toTop to="ability-capstones-the-right-spot-ex">The Right Spot</InnerLink></li><li><InnerLink toTop to="ability-capstones-walking-library-ex">Walking Library</InnerLink></li><li><InnerLink toTop to="ability-capstones-with-this-sword-ex">With This Sword</InnerLink></li><li><InnerLink toTop to="ability-capstones-wont-stay-dead-ex">Won't Stay Dead</InnerLink></li></ul></div><p><strong>Sources</strong> <Link to="/source/chronicle_of_legends">Chronicle of Legends pg. 28</Link></p>
 <p>When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides capstones for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class.</p>
 <p>In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with.</p>
 <p>The following does not contain class-specific capstones, just the ones that apply to multiple classes.</p>
-<h3 id="ability-capstones-arch-familiar-su" data-hash-target>Arch-Familiar (Su)</h3>
-<p>At 20th level, the character's <Link to="/sidekick/familiar">familiar</Link> is smarter and savvier than plenty of adventurers - and also more dangerous! The familiar's Intelligence increases by 5, and it gains 12 spells levels' worth of spell-like abilities (for example, three daily castings of <Link to="/spell/greater_invisibility">greater invisibility</Link>), drawn from spells its master can cast and using its master's caster levels, DCs, and so forth.</p>
-<p>This capstone is available to any class with a <Link to="/ability/familiar">familiar</Link>.</p>
-<h3 id="ability-capstones-deep-magics-su" data-hash-target>Deep Magics (Su)</h3>
-<p>At 20th level, the character's repertoire of spells deepens dramatically. She gains an additional spell known for each spell level she can cast.</p>
-<p>A character of any class with spells known can select this capstone.</p>
-<h3 id="ability-capstones-great-beast-su" data-hash-target>Great Beast (Su)</h3>
-<p>At 20th level, the character's <Link to="/sidekick/animal_companion">animal companion</Link> is a paragon of its kind - a hero and legend in its own right. The animal companion's Strength, Dexterity, Constitution, and Wisdom scores each increase by 4.</p>
-<p>This capstone is available to any class with an <Link to="/ability/animal_companion">animal companion</Link>.</p>
-<h3 id="ability-capstones-ki-sage-su" data-hash-target>Ki Sage (Su)</h3>
-<p>At 20th level, the character is fully attuned to his own body and the ki that flows within. The character gains two <Link to="/ability/ki_powers">ki powers</Link> from those available to the unchained monk, treating his character level as his monk level for the purpose of any requirements. In addition, his ki pool increases by four.</p>
-<p>This capstone is available to any class with a ki pool.</p>
-<h3 id="ability-capstones-old-dog-new-tricks-ex" data-hash-target>Old Dog, New Tricks (Ex)</h3>
-<p>At 20th level, the character shows that a true warrior always has one more surprise the enemy hasn't seen. The character gains four <Link to="/main/combat_feat">combat feats</Link>.</p>
-<p>This capstone is available to characters of any class that gains at least four bonus combat feats.</p>
-<h3 id="ability-capstones-perfect-body-flawless-mind-ex" data-hash-target>Perfect Body, Flawless Mind (Ex)</h3>
-<p>At 20th level, the character's endless training and study has resulted in an unmatched mastery of the self. The character increases her ability scores by a collective total of 8. For example, she can increase one score by 8, or one score by 5 and another by 3, or four scores by 2, and so on.</p>
-<p>Characters of <strong>any class</strong> can select this ability.</p>
-<h3 id="ability-capstones-soul-channel-su" data-hash-target>Soul Channel (Su)</h3>
-<p>At 20th level, the character can channel energy six additional times per day, and her channel energy dice increase by one step.</p>
-<p>This capstone is available to characters with the <Link to="/ability/channel_energy">channel energy</Link> class feature.</p>
-<h3 id="ability-capstones-the-boss-ex" data-hash-target>The Boss (Ex)</h3>
-<p>At 20th level, the character has become more than just a lone hero - she has become one of the senior figures of her field, with powers and responsibilities to match. The character becomes one of the leading figures in some manner of group or organization, as appropriate to the campaign and the setting. A wizard might become the dean of an arcane university or mages' guild, a fighter could command a mercenary army or a city guard, a cleric might lead a major temple or her own sect, and so forth. The player and the GM should work together to determine the specifics.</p>
+<div style={{clear:"both"}}></div><Ability id="arch-familiar-su" icon={["upgrade"]}>
+<Pair single id="arch-familiar-su">Arch-Familiar (Su)</Pair>
+<Pair title="Prerequisites">Has a familiar</Pair>
+<Pair title="At 20th Level">The character's <Link to="/sidekick/familiar">familiar</Link> is smarter and savvier than plenty of adventurers - and also more dangerous! The familiar's Intelligence increases by 5, and it gains 12 spells levels' worth of spell-like abilities (for example, three daily castings of <Link to="/spell/greater_invisibility">greater invisibility</Link>), drawn from spells its master can cast and using its master's caster levels, DCs, and so forth.</Pair>
+</Ability>
+<Ability id="deep-magics-su" icon={["spell-book"]}>
+<Pair single id="deep-magics-su">Deep Magics (Su)</Pair>
+<Pair title="Prerequisites">Has spells known</Pair>
+<Pair title="At 20th Level">The character's repertoire of spells deepens dramatically. She gains an additional spell known for each spell level she can cast.</Pair>
+</Ability>
+<Ability id="great-beast-su" icon={["upgrade"]}>
+<Pair single id="great-beast-su">Great Beast (Su)</Pair>
+<Pair title="Prerequisites">Has an <Link to="/ability/animal_companion">animal companion</Link></Pair>
+<Pair title="At 20th Level">The character's <Link to="/sidekick/animal_companion">animal companion</Link> is a paragon of its kind - a hero and legend in its own right. The animal companion's Strength, Dexterity, Constitution, and Wisdom scores each increase by 4.</Pair>
+</Ability>
+<Ability id="ki-sage-su" icon={["stairs-goal","upgrade"]}>
+<Pair single id="ki-sage-su">Ki Sage (Su)</Pair>
+<Pair title="Prerequisites">Has a ki pool</Pair>
+<Pair title="At 20th Level">The character is fully attuned to his own body and the ki that flows within. The character gains two <Link to="/ability/ki_powers">ki powers</Link> from those available to the unchained monk, treating his character level as his monk level for the purpose of any requirements.</Pair>
+<Pair title="Special">In addition, his ki pool increases by four.</Pair>
+</Ability>
+<Ability id="old-dog-new-tricks-ex" icon={["stairs-goal"]}>
+<Pair single id="old-dog-new-tricks-ex">Old Dog, New Tricks (Ex)</Pair>
+<Pair title="Prerequisites">Is of a class that gains at least four bonus combat feats</Pair>
+<Pair title="At 20th Level">The character shows that a true warrior always has one more surprise the enemy hasn't seen. The character gains four <Link to="/main/combat_feat">combat feats</Link>.</Pair>
+</Ability>
+<Ability id="perfect-body-flawless-mind-ex" icon={["upgrade"]}>
+<Pair single id="perfect-body-flawless-mind-ex">Perfect Body, Flawless Mind (Ex)</Pair>
+<Pair title="At 20th Level">The character's endless training and study has resulted in an unmatched mastery of the self. The character increases her ability scores by a collective total of 8. For example, she can increase one score by 8, or one score by 5 and another by 3, or four scores by 2, and so on.</Pair>
+</Ability>
+<Ability id="soul-channel-su" icon={["upgrade"]}>
+<Pair single id="soul-channel-su">Soul Channel (Su)</Pair>
+<Pair title="Prerequisites">Has the <Link to="/ability/channel_energy">channel energy</Link> class feature</Pair>
+<Pair title="At 20th Level">The character can channel energy six additional times per day, and her channel energy dice increase <Link to="/misc/by_one_step">by one step</Link>.</Pair>
+</Ability>
+<Ability id="the-boss-ex" icon={["stairs-goal"]}>
+<Pair single id="the-boss-ex">The Boss (Ex)</Pair>
+<Pair title="At 20th Level"><p>The character has become more than just a lone hero - she has become one of the senior figures of her field, with powers and responsibilities to match. The character becomes one of the leading figures in some manner of group or organization, as appropriate to the campaign and the setting. A wizard might become the dean of an arcane university or mages' guild, a fighter could command a mercenary army or a city guard, a cleric might lead a major temple or her own sect, and so forth. The player and the GM should work together to determine the specifics.</p>
 <p>The character gains the <Link to="/feat/leadership">Leadership</Link> feat if she does not already have it, and the number of followers that the feat grants is multiplied by 10 (although depending on the campaign and setting, the position may grant other powers as well). If multiple characters in a party select this capstone, the GM may consider pooling them to grant the players a particularly large and powerful organization, such as a small kingdom.</p>
-<p>Characters of <strong>any class</strong> can select this ability.</p>
-<h3 id="ability-capstones-the-right-spot-ex" data-hash-target>The Right Spot (Ex)</h3>
-<p>At 20th level, the character can hit an opponent's weak spot effortlessly. Once per round, the character can apply her sneak attack damage to an attack, even if the target is not flanked or denied its Dexterity bonus to AC. This does not allow the character to sneak attack targets that are immune to sneak attacks (such as oozes).</p>
-<p>This capstone is available for any class with the <Link to="/ability/sneak_attack">sneak attack</Link> class feature.</p>
-<h3 id="ability-capstones-walking-library-ex" data-hash-target>Walking Library (Ex)</h3>
-<p>At 20th level, the character becomes a small, mobile athenaeum of occult scraps and lore. The character adds 100 spell levels' worth of spells to his spellbook or familiar and gains a +4 insight bonus on all Knowledge skills.</p>
-<p>Characters of any class that prepares spells from a spellbook or familiar can select this ability.</p>
-<h3 id="ability-capstones-with-this-sword-ex" data-hash-target>With This Sword (Ex)</h3>
-<p>At 20th level, the character's blade has become as well-known as the character herself. The character selects one item she has - preferably something iconic and significant, such as a weapon or arcane bond. The item becomes a <Link to="/rule/artifacts">minor artifact</Link> and gains 100,000 gp worth of new powers. The player and the GM should work together to select the new powers, with an eye towards making something memorable yet campaign-appropriate.</p>
-<p>Characters of <strong>any class</strong> can select this ability.</p>
-<h3 id="ability-capstones-wont-stay-dead-ex" data-hash-target>Won't Stay Dead (Ex)</h3>
-<p>At 20th level, the character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely.</p>
-<p>Characters of <strong>any class</strong> can select this ability.</p>
+</Pair>
+</Ability>
+<Ability id="the-right-spot-ex" icon={["upgrade"]}>
+<Pair single id="the-right-spot-ex">The Right Spot (Ex)</Pair>
+<Pair title="Prerequisites">Has the <Link to="/ability/sneak_attack">sneak attack</Link> class feature</Pair>
+<Pair title="At 20th Level">The character can hit an opponent's weak spot effortlessly. Once per round, the character can apply her sneak attack damage to an attack, even if the target is not flanked or denied its Dexterity bonus to AC. This does not allow the character to sneak attack targets that are immune to sneak attacks (such as oozes).</Pair>
+</Ability>
+<Ability id="walking-library-ex" icon={["spell-book","upgrade"]}>
+<Pair single id="walking-library-ex">Walking Library (Ex)</Pair>
+<Pair title="Prerequisites">Prepares spells from a spellbook or familiar</Pair>
+<Pair title="At 20th Level">The character becomes a small, mobile athenaeum of occult scraps and lore. The character adds 100 spell levels' worth of spells to his spellbook or familiar and gains a +4 insight bonus on all Knowledge skills.</Pair>
+</Ability>
+<Ability id="with-this-sword-ex" icon={["upgrade"]}>
+<Pair single id="with-this-sword-ex">With This Sword (Ex)</Pair>
+<Pair title="At 20th Level">The character's blade has become as well-known as the character herself. The character selects one item she has - preferably something iconic and significant, such as a weapon or arcane bond. The item becomes a <Link to="/rule/artifacts">minor artifact</Link> and gains 100,000 gp worth of new powers. The player and the GM should work together to select the new powers, with an eye towards making something memorable yet campaign-appropriate.</Pair>
+</Ability>
+<Ability id="wont-stay-dead-ex" icon={["armor-upgrade"]}>
+<Pair single id="wont-stay-dead-ex">Won't Stay Dead (Ex)</Pair>
+<Pair title="At 20th Level">The character becomes a paragon of resilience. Once per week, if the character is killed, petrified, or otherwise removed from play, the character manages to survive by some dint of skill or luck and returns at the end of the combat or the scene (GM's discretion). The player and the GM should work together to ensure that the method of the character's survival is at least vaguely plausible, if unlikely.</Pair>
+</Ability>
 </>};
 export default {sagas:_sagas,sorcerer_bloodlines:_sorcerer_bloodlines,spirits:_spirits,evasion:_evasion,improved_evasion:_improved_evasion,uncanny_dodge:_uncanny_dodge,improved_uncanny_dodge:_improved_uncanny_dodge,wild_empathy:_wild_empathy,favored_enemy:_favored_enemy,favored_terrain:_favored_terrain,woodland_stride:_woodland_stride,trackless_step:_trackless_step,resist_natures_lure:_resist_natures_lure,poison_use:_poison_use,trapfinding:_trapfinding,lay_on_hands:_lay_on_hands,trap_sense:_trap_sense,sneak_attack:_sneak_attack,channel_energy:_channel_energy,rage_powers:_rage_powers,animal_tricks:_animal_tricks,companion_tricks:_companion_tricks,bardic_performances:_bardic_performances,raging_song:_raging_song,familiars:_familiars,improved_familiars:_improved_familiars,judgments:_judgments,capstones:_capstones}
