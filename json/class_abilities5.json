@@ -1627,7 +1627,7 @@
 			"",
 			":::blockquote{className=hanging}",
 			"",
-			"::ab[Road]{icon=boost passive=\"The creature gains a +10 foot enhancement bonus to its base speed while ‹rule/run«ning›, ‹rule/charging›, or ‹rule/withdrawing›.\" increment=\"This bonus~1~7~20~10\" incrementEnd=\" feet.\"}",
+			"::ab[Road]{icon=boost passive=\"The creature gains a +10 foot enhancement bonus to its base speed while ‹rule/run«ning›, ‹rule/charging›, or ‹rule/withdraw«ing›.\" increment=\"This bonus~1~7~20~10\" incrementEnd=\" feet.\"}",
 			"",
 			"::ab[Shrine]{icon=boost passive=\"The creature gains a +2 enhancement bonus to Wisdom.\" increment=\"This bonus~1~7~4~2\"}",
 			"",

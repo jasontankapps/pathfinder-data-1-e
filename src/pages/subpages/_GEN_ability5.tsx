@@ -3554,7 +3554,7 @@ const _ward_aspects = {title: "Ward Aspects", topLink: ["Hunter","class/hunter"]
 <blockquote className="hanging">
 <Ability id="road" icon={["upgrade"]}>
 <Pair single id="road">Road</Pair>
-<Pair title="Passive Ability">The creature gains a +10 foot enhancement bonus to its base speed while <Link to="/rule/run">running</Link>, <Link to="/rule/charging">charging</Link>, or <Link to="/rule/withdrawing">withdrawing</Link>.</Pair>
+<Pair title="Passive Ability">The creature gains a +10 foot enhancement bonus to its base speed while <Link to="/rule/run">running</Link>, <Link to="/rule/charging">charging</Link>, or <Link to="/rule/withdraw">withdrawing</Link>.</Pair>
 <Pair title="At 8th Level">This bonus becomes +20 feet.</Pair>
 <Pair title="At 15th Level">This bonus increases to +30 feet.</Pair>
 </Ability>

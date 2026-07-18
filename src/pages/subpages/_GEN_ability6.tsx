@@ -1218,7 +1218,7 @@ const _companion_tricks = {hasJL:true,title: "Animal Companion Tricks", jsx: <><
 <Ability id="guide" icon={["shield-reflect","remedy"]}>
 <Pair single id="guide">Guide</Pair>
 <Pair title="DC">15</Pair>
-<Pair title="Trick"><p>The companion can serve as a guide to a character that is blinded or otherwise unable to see. While serving as a guide, the companion remains adjacent to the guided creature at all times, <Link to="/rule/readying_an_action">readying an action</Link> each round to move when that creature moves. This allows the guided creature to automatically succeed at Acrobatics checks to move at more than half speed while blinded.</p>
+<Pair title="Trick"><p>The companion can serve as a guide to a character that is blinded or otherwise unable to see. While serving as a guide, the companion remains adjacent to the guided creature at all times, <Link to="/rule/ready">readying an action</Link> each round to move when that creature moves. This allows the guided creature to automatically succeed at Acrobatics checks to move at more than half speed while blinded.</p>
 <p>Additionally, the companion identifies obstacles in the guided creature's path and pushes them, pulls them, or otherwise signals to the creature how to avoid them, allowing the guided creature to locate and move around obstacles such as hazards, opponents, and other terrain features as though she were able to see them (though she can't distinguish between obstacles).</p>
 <p>Finally, while serving as a guide, the companion indicates to the guided creature the presence and direction of any adjacent allies, allowing the guided creature to pinpoint the locations of such creatures.</p>
 </Pair>
