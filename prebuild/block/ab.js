@@ -54,12 +54,13 @@ const parseAtts = (attrs, hl) => {
 const parseXYZ = (etc, logError, hl) => {
 	const result = {};
 	Object.entries(etc).forEach(([key, value]) => {
+		const v = typeof value === "number" ? String(value) : value;
 		["x","y","z","X","Y","Z"].some(x => {
 			if(key.startsWith(x)) {
 				if(result[x]) {
 					logError(`Duplicate ${x}... attr`);
 				}
-				result[x] = [value, key.slice(1).replace(/_/g, " "), hl.indexOf(x)];
+				result[x] = [v, key.slice(1).replace(/_/g, " "), hl.indexOf(x)];
 				return true;
 			}
 			return false;

@@ -302,7 +302,7 @@
 					{ "header": "Poison Resistance +6" },
 					{ "header": "Poison Immunity" },
 					{ "header": "Throw Anything" },
-					{ "header": "Weapon/Armor Proficiency" }
+					{ "header": "Weapon/*wbr*Armor Proficiency" }
 				],
 				"data": [
 					[ [ "Aerochemist", "aerochemist" ], null, "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", "X", "X", "X", "X", null, null, null, null, null, null ],
@@ -1169,7 +1169,7 @@
 					{ "header": "Mass Suggestion" },
 					{ "header": "Versatile Performance" },
 					{ "header": "2nd-level Versatile Performance" },
-					{ "header": "Weapon/Armor Proficiency" },
+					{ "header": "Weapon/*wbr*Armor Proficiency" },
 					{ "header": "Well-Versed" }
 				],
 				"data": [

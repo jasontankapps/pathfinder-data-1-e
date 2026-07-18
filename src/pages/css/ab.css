@@ -1,6 +1,6 @@
 /* Ability Boxes */
 
-div.ability {
+div.basicContent div.ability {
 	--ab-background: var(--ion-color-quaternary);
 	--ab-header: var(--ion-color-quaternary-header);
 	--ab-subheader: var(--ion-color-quaternary-subheader);
@@ -10,7 +10,7 @@ div.ability {
 	--ab-contrast-subheader: var(--ion-color-quinary-subheader);
 	--ab-contrast-border: var(--ion-color-quinary-border);
 }
-div.ability:nth-of-type(even) {
+div.basicContent :nth-child(even of div.ability) {
 	--ab-background: var(--ion-color-quinary);
 	--ab-header: var(--ion-color-quinary-header);
 	--ab-subheader: var(--ion-color-quinary-subheader);
@@ -20,7 +20,7 @@ div.ability:nth-of-type(even) {
 	--ab-contrast-subheader: var(--ion-color-quaternary-subheader);
 	--ab-contrast-border: var(--ion-color-quaternary-border);
 }
-div.ability {
+div.basicContent div.ability {
 	background: var(--ab-background);
 	margin-inline: 0.25rem;
 	display: grid;
@@ -29,39 +29,39 @@ div.ability {
 	justify-content: center;
 	border-radius: 0.75rem;
 }
-div.ability.indent {
+div.basicContent div.ability.indent {
 	margin-inline-start: 1.25rem;
 }
-div.ability.indent2 {
+div.basicContent div.ability.indent2 {
 	margin-inline-start: 2.25rem;
 }
-div.ability div.sideNoteWrap div.tableWrap {
+div.basicContent div.ability div.sideNoteWrap div.tableWrap {
 	max-inline-size: 100%;
 	inline-size: auto;
 }
-div.ability div.table {
+div.basicContent div.ability div.table {
 	border-color: var(--ab-contrast-subheader);
 	border-radius: 0.75rem;
 }
-div.ability div.table > .tr:first-child > .td {
+div.basicContent div.ability div.table > .tr:first-child > .td {
 	border-block-start-width: 0;	
 }
-div.ability div.table > .tr:last-child > .td {
+div.basicContent div.ability div.table > .tr:last-child > .td {
 	border-block-end-width: 0;	
 }
-div.ability div.table > .tr > .td:first-child {
+div.basicContent div.ability div.table > .tr > .td:first-child {
 	border-inline-start-width: 0;	
 }
-div.ability div.table > .tr > .td:last-child {
+div.basicContent div.ability div.table > .tr > .td:last-child {
 	border-inline-end-width: 0;	
 }
-div.ability div.table > .tr > .td,
-div.ability div.tableWrap table tr :is(td,th),
-div.ability div.tableWrap table {
+div.basicContent div.ability div.table > .tr > .td,
+div.basicContent div.ability div.tableWrap table tr :is(td,th),
+div.basicContent div.ability div.tableWrap table {
 	background: var(--ab-contrast-background);
 	border-color: var(--ab-contrast-border);
 }
-div.ability div.table.titled > .tr:first-child > .td:first-child {
+div.basicContent div.ability div.table.titled > .tr:first-child > .td:first-child {
 	background: var(--ab-contrast-header);
 }
 div.abIcon {
@@ -168,16 +168,16 @@ div.abPair,
 div.abStart {
 	min-block-size: 1.75rem;
 }
-div.ability.hasSubs {
+div.basicContent div.ability.hasSubs {
 	margin-block-start: 1rem;
 	margin-block-end: 0;
 	border-radius: 0.75rem 0.75rem 0 0.75rem;
 	counter-reset: subcount 0;
 }
-div.ability.hasSubs :is(div.abSingle:last-child, div.abPair:last-child) {
+div.basicContent div.ability.hasSubs :is(div.abSingle:last-child, div.abPair:last-child) {
 	border-block-end: 2px solid var(--ab-border);
 }
-div.subAbility {
+div.basicContent div.subAbility {
 	--ab-background: var(--ion-color-quaternary-bg);
 	--ab-header: var(--ion-color-quaternary-subheader);
 	--ab-subheader: var(--ion-color-quaternary);
@@ -188,19 +188,19 @@ div.subAbility {
 	border-radius: 0;
 	grid-template-columns: calc(2.5rem + 2px) 4fr;
 }
-div.ability:nth-of-type(even):is(div.subAbility) {
+div.basicContent :nth-child(even of div.ability):is(.subAbility) {
 	--ab-background: var(--ion-color-quinary-bg);
 	--ab-header: var(--ion-color-quinary-subheader);
 	--ab-subheader: var(--ion-color-quinary);
 }
-div.subAbility div.abIcon {
+div.basicContent div.subAbility div.abIcon {
 	grid-column: 1;
 	grid-row: 2 / span 19;
 }
-div.subAbility div.abIcon + div.abSingle {
+div.basicContent div.subAbility div.abIcon + div.abSingle {
 	grid-column: 1 / span 2;
 }
-div.subAbility div.abSingle.title {
+div.basicContent div.subAbility div.abSingle.title {
 	counter-increment: subcount 1;
 	text-align: start;
 	border-radius: 0;
@@ -208,33 +208,33 @@ div.subAbility div.abSingle.title {
 	align-items: center;
 	justify-content: flex-start;
 }
-div.subAbility.numbered div.abSingle.title {
+div.basicContent div.subAbility.numbered div.abSingle.title {
 	counter-increment: subcount 1;
 }
-div.subAbility + div.subAbility {
+div.basicContent div.subAbility + div.subAbility {
 	border-block-start: 2px solid var(--ab-border);
 }
-div.subAbility div.abSingle.title {
+div.basicContent div.subAbility div.abSingle.title {
 	counter-increment: subcount 1;
 }
-div.subAbility.numbered div.abSingle.title {
+div.basicContent div.subAbility.numbered div.abSingle.title {
 	counter-increment: subcount 1;
 }
-div.subAbility.numbered div.abSingle.title::before {
+div.basicContent div.subAbility.numbered div.abSingle.title::before {
 	padding-inline-start: 0.5rem;
 	content: "(" counter(subcount) ") ";
 }
 /* div.subAbility:not(div.subAbility + div.subAbility):has(+ *:not(div.subAbility)) */
-div.subAbility:has(+ *:not(div.subAbility)),
-div.subAbility:last-child {
+div.basicContent div.subAbility:has(+ *:not(div.subAbility)),
+div.basicContent div.subAbility:last-child {
 	margin-block-end: 1rem;
 	border-radius: 0 0 0.75rem 0.75rem;
 }
-div:is(.ability, .subAbility) div.box {
+div.basicContent div:is(.ability, .subAbility) div.box {
 	padding-block: 0.25rem;
 	padding-inline: 0.5rem;
 }
-div.ability div.box div.tableWrap {
+div.basicContent div.ability div.box div.tableWrap {
 	inline-size: auto;
 	max-inline-size: calc(
 		100vw
@@ -245,7 +245,7 @@ div.ability div.box div.tableWrap {
 		- 2px     /* Icon column border */
 	);
 }
-div.subAbility div.box div.tableWrap {
+div.basicContent div.subAbility div.box div.tableWrap {
 	max-inline-size: calc(
 		100vw
 		- 1rem    /* .box padding */

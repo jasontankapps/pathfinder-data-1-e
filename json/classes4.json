@@ -922,7 +922,7 @@
 					{ "header": "Spellcasting" },
 					{ "header": "Spiritual Bond" },
 					{ "header": "Spiritual Interference" },
-					{ "header": "Weapon/Armor Proficiency" }
+					{ "header": "Weapon/*wbr*Armor Proficiency" }
 				],
 				"data": [
 					[ [ "Drowned Channeler", "drowned_channeler" ], null, null, "X", "X", "X", "X", null, null, null, "X", "X", null, null, null, null, "X", null, null, "X", null, "X", null, "X", null, null, null, null ],

@@ -340,7 +340,7 @@
 					{ "header": "Spellcasting" },
 					{ "header": "Swift Tracker" },
 					{ "header": "Track" },
-					{ "header": "Weapon/Armor Proficiency" },
+					{ "header": "Weapon/*wbr*Armor Proficiency" },
 					{ "header": "Wild Empathy" },
 					{ "header": "Woodland Stride" }
 				],
@@ -1292,7 +1292,7 @@
 					{ "header": "Trap Sense +5" },
 					{ "header": "Uncanny Dodge" },
 					{ "header": "Improved Uncanny Dodge" },
-					{ "header": "Weapon/Armor Proficiency" }
+					{ "header": "Weapon/*wbr*Armor Proficiency" }
 				],
 				"data": [
 					[ [ "Armored Hulk", "armored_hulk" ], null, null, null, "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", null, null, null, null, null, "X", "X", null ],
@@ -1524,7 +1524,7 @@
 					{ "header": "Trap Sense" },
 					{ "header": "Uncanny Dodge" },
 					{ "header": "Improved Uncanny Dodge" },
-					{ "header": "Weapon/Armor Proficiency" }
+					{ "header": "Weapon/*wbr*Armor Proficiency" }
 				],
 				"data": [
 					[ [ "Armored Hulk", "armored_hulk" ], null, null, null, "X", null, null, null, null, null, null, null, null, null, null, null, null, null, "X", "X", "X", null ],

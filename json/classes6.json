@@ -374,7 +374,7 @@
 					{ "header": "Greater Resolve" },
 					{ "header": "True Resolve" },
 					{ "header": "Weapon Expertise" },
-					{ "header": "Weapon/Armor Proficiency" }
+					{ "header": "Weapon/*wbr*Armor Proficiency" }
 				],
 				"data": [
 					[ [ "Brawling Blademaster", "brawling_blademaster" ], null, "X", "X", null, null, null, null, "X", "X", null, null, null, null, "X", "X" ],

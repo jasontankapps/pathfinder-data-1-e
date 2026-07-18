@@ -319,7 +319,7 @@
 					{ "header": "Poison Use" },
 					{ "header": "Uncanny Dodge" },
 					{ "header": "Improved Uncanny Dodge" },
-					{ "header": "Weapon/Armor Proficiency" }
+					{ "header": "Weapon/*wbr*Armor Proficiency" }
 				],
 				"data": [
 					[ [ "Frozen Shadow", "frozen_shadow" ], "X", "X", null, null, null, null, null, "X", "X", null ],
@@ -752,7 +752,7 @@
 					{ "header": "Final Revelation" },
 					{ "header": "Oracle's Curse" },
 					{ "header": "Spellcasting" },
-					{ "header": "Weapon/Armor Proficiency" }
+					{ "header": "Weapon/*wbr*Armor Proficiency" }
 				],
 				"data": [
 					[ [ "Ancient Lorekeeper", "ancient_lorekeeper" ], null, null, "X", "X", "X", "X", "X", "X", "X", "X", null, null, "X", null, null, null, null, null, null, null, null, null, null ],
