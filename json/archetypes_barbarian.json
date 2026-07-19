@@ -727,7 +727,10 @@
 						"regex": "(.+?)(?:!-N-!)+\\*\\*Totem\\*\\* rage powers are only available.+$|^>*(.+?)",
 						"replacement": "$1$2"
 					},
-					"template": "!-BQ-!@hll[ragepower/!-TITLE-!:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[ragepower/!-TITLE-!:] !-^S-! !-DESC-!",
+					"replacements": [
+						[ "&TOTEM&", "" ]
+					]
 				}
 			]
 		}

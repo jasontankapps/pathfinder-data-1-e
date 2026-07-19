@@ -405,7 +405,7 @@ const _strong_side_boxer = {title: "Strong-Side Boxer", jsx: <><h2 id="arc-brawl
 <Ability id="shield-hand-ex" icon={["armor-upgrade"]}>
 <Pair single id="shield-hand-ex">Shield-Hand (Ex)</Pair>
 <Pair hl title="Replaces">The brawler's AC bonus</Pair>
-<Pair title="Ability">A strong-side boxer can use her off hand as if it were a <Link to="/eq-armor/buckler">buckler</Link>, gaining a natural armor bonus to her AC as long as she does not use her off hand to make attacks. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> her brawler level.</Pair>
+<Pair title="Ability">A strong-side boxer can use her off hand as if it were a <Link to="/eq-armor/buckler">buckler</Link>, gaining a natural armor bonus to her AC as long as she does not use her off hand to make attacks. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of her brawler level.</Pair>
 <Pair title="Special">While using her off hand in this manner, the strong-side boxer treats that hand as a buckler for the purposes of other feats and abilities (though she is also considered to have a free hand).</Pair>
 </Ability>
 <Ability id="strong-side-fist-ex" icon={["mailed-fist","upgrade"]}>

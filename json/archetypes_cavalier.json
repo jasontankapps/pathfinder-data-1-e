@@ -184,7 +184,7 @@
 			"‹SOURCE Ultimate Intrigue/24›  ",
 			"Some cavaliers strive to be just as effective at the court of a local lord as on the field of battle. These courtly knights are equally at home in a duel with words or swords.",
 			"",
-			"::ab[Social Presence (Ex)]{l=1 icon=boost passive=\"A courtly knight gains a bonus on all Bluff, Diplomacy, Intimidate, and Sense Motive checks. This bonus is equal to 1 + one-fourth of her cavalier level. A courtly knight starts any ‹rule/verbal duel<s› with an extra edge she can use for only the *presence* tactic unless she is at a significant or extreme disadvantage in the duel.\" replace=Tactician}",
+			"::ab[Social Presence (Ex)]{l=1 icon=boost passive=\"A courtly knight gains a bonus on all Bluff, Diplomacy, Intimidate, and Sense Motive checks. @B-4f1-cavalier. A courtly knight starts any ‹rule/verbal duel<s› with an extra edge she can use for only the *presence* tactic unless she is at a significant or extreme disadvantage in the duel.\" replace=Tactician}",
 			"",
 			"::ab[Imperious Attitude (Ex)]{l=9 icon=power flavor=\"A courtly knight develops a commanding demeanor, and the strength of her conviction is often enough to get others to do as she asks, merely because she expects it to be done.\" ability=\"In a social setting, the courtly knight can attempt Diplomacy checks to make a request of a creature whose attitude toward her is unfriendly, provided that creature does not intend to harm or oppose the courtly knight or her allies in the immediate future. Further, whenever she attempts a Diplomacy check to make a request, a courtly knight can first attempt an Intimidate check (DC = 20 + the creature's Charisma modifier). If she succeeds, she gains a +5 bonus on the subsequent Diplomacy check. Neither aspect of imperious attitude applies if the requested creature considers itself to be of an equal or higher social rank than the courtly knight, which includes creatures that don't understand or value the concept of social ranks.\" replace=\"Greater tactician\"}",
 			"",
@@ -834,7 +834,7 @@
 			"",
 			"::ab[Devoted Defender (Ex)]{l=3 icon=power flavor=\"Sisters-in-arms cling to their fellow Gray Maidens as closely as family and protect them with intense devotion.\" ability=\"A sister-in-arms gains ‹feat/Bodyguard› as a bonus feat (she does not need to meet the feat's prerequisite).\" replace=\"Cavalier's charge\"}",
 			"",
-			"::ab[Maiden's Loyalty (Ex)]{l=4 icon=def flavor=\"The loyalty of a sister-in-arms is absolute.\" passive=\"A sister-in-arms gains a bonus on Will saves against any effect that would compel her to attack or betray her allies. This bonus is equal to 1 + one-fourth her cavalier level.\" replace=\"Expert trainer\"}",
+			"::ab[Maiden's Loyalty (Ex)]{l=4 icon=def flavor=\"The loyalty of a sister-in-arms is absolute.\" passive=\"A sister-in-arms gains a bonus on Will saves against any effect that would compel her to attack or betray her allies. @B-4f1-cavalier-x.\" replace=\"Expert trainer\"}",
 			"",
 			"::ab[Dedicated Commander (Ex)]{flavor=\"A sister-in-arms can inspire and direct allies with great efficiency.\" l=11 icon=boost ability=\"The sister-in-arms can use *lion's call* (lion) or *strategy order* (dragon) as a @HLmove_action, rather than as a standard action.\" imp20=\"She can use *act as one* (dragon), *lion's call* (lion), or *strategy order* (dragon) as a @HLswift or @HLmove_action.\" replace=\"Mighty charge~supreme charge\"}"
 		]

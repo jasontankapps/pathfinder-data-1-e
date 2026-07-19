@@ -2216,7 +2216,7 @@ const _judgments = {hasJL:true,title: "Inquisitor Judgments", topLink: ["Inquisi
 </Ability>
 <Ability id="piercing" icon={["armor-upgrade"]}>
 <Pair single id="piercing">Piercing</Pair>
-<Pair title="Passive Ability">You gain a sacred bonus on <Link to="/rule/concentration">concentration</Link> checks and caster level checks made to overcome a target's spell resistance. This bonus is equal to 1 + <Link to="/misc/one_third">one-third</Link> of your inquisitor level.</Pair>
+<Pair title="Passive Ability">You gain a sacred bonus on <Link to="/rule/concentration">concentration</Link> checks and caster level checks made to overcome a target's spell resistance. This bonus is equal to 1 + one-third of your inquisitor level.</Pair>
 </Ability>
 <Ability id="protection" icon={["armor-upgrade"]}>
 <Pair single id="protection">Protection</Pair>

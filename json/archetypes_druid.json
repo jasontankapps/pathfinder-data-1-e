@@ -328,7 +328,7 @@
 			"",
 			"::ab[Enemy of the First World]{icon=down info=\"A defender of the true world cannot use ‹spell/summon nature's ally› to summon fey creatures.\" alter=\"Spontaneous casting\"}",
 			"",
-			"::ab[Fey Empathy (Ex)]{icon=boost passive=\"A defender of the true world gains a competence bonus on Bluff, Diplomacy, and Intimidate checks when interacting with fey creatures. This bonus is equal to 2 + ‹misc/one-fourth› of her druid level.\" replace=\"Wild empathy\"}",
+			"::ab[Fey Empathy (Ex)]{icon=boost passive=\"A defender of the true world gains a competence bonus on Bluff, Diplomacy, and Intimidate checks when interacting with fey creatures. @B-4f2-druid.\" replace=\"Wild empathy\"}",
 			"",
 			"::ab[Fey Stalker (Ex)]{l=3 icon=boost passive=\"The defender of the true world's animal companion and any creatures she summons with *summon nature's ally* gain a +1 morale bonus on attack and damage rolls against fey creatures.\" increment=\"The bonus~3~5\" replace=\"Trackless step\"}",
 			"",

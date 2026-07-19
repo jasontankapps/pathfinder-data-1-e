@@ -69,18 +69,27 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 				return fn({text: tag.slice(2), prefix, from, multi, makeNewMarkedInstance, flags});
 			} else if (tag.startsWith("B-")) {
 				// Bonus equal to fraction of level
-				//  @B-3mp?-class(-x)?
-				const m = tag.slice(2).match(/([234])([mfy])(p)?-([^- ]+)(-x)?$/);
+				//  @B-#[mfy]p?(#)-class(-x)?
+				//  @B-3m-cleric => This bonus...one-third of his cleric level (linked to misc/one_third)
+				//  @B-3yp-cleric => These bonuses...one-third of your cleric level (linked to misc/one_third)
+				//  @B-3f1-cleric-x => This bonus...1 + one-third of her cleric level (no link)
+				const m = tag.slice(2).match(/([23456])([mfy])(p)?([0-9])?-([^- ]+)(-x)?$/);
 				if(!m) {
 					logError(`Invalid [${tag}].`);
 					return "";
 				}
-				const [, n, g, p, c, nolink] = m;
-				const amount = n === "2" ? "half" : `one-${n === "3" ? "third" : "fourth"}`;
+				const [, n, g, p, x, c, nolink] = m;
+				const extra = x ? `${x} + ` : ""
+				const amount = n === "2" ? "half" : `one-${
+					n === "3" ? "third" : (
+						n === "4" ? "fourth" : (
+							n === "5" ? "fifth" : "sixth"
+						))
+				}`;
 				const pronoun = g === "m" ? "his" : (g === "f" ? "her" : "your");
 				flags.link = true;
 				const link = nolink  ? amount : `<Link to="/misc/${amount.replace(/-/g, "_")}">${amount}</Link>`;
-				return `${p ? "These bonuses are" : "This bonus is"} equal to ${link} of ${pronoun} ${c} level`;
+				return `${p ? "These bonuses are" : "This bonus is"} equal to ${extra}${link} of ${pronoun} ${c} level`;
 			} else if (tag === "list") {
 				const convertEncodedInfo = (input) => {
 					let m;

@@ -437,7 +437,7 @@
 			"",
 			"::list[Associated Deities]{hl link=faith all=Abadar~Nalinivati}",
 			"",
-			"::ab[Noble Visage (Su)]{replace=\"The ‹‹inspiring word/#word›› ability of the Nobility domain\" icon=boost passive=\"You gain a bonus on Charisma checks and Charisma-based skill checks against creatures that share your creature type (and subtype, if you are a humanoid). This bonus is equal to 1 + ‹misc/one-fifth› of your cleric level.\" standard=\"You can touch an ally to grant her your noble visage bonus against creatures that share her creature type (or subtype) for 1 minute. When you use this ability, you lose your noble visage bonus for 1 minute.\" useMod=Wis3 order=psu}",
+			"::ab[Noble Visage (Su)]{replace=\"The ‹‹inspiring word/#word›› ability of the Nobility domain\" icon=boost passive=\"You gain a bonus on Charisma checks and Charisma-based skill checks against creatures that share your creature type (and subtype, if you are a humanoid). @B-5y1-cleric.\" standard=\"You can touch an ally to grant her your noble visage bonus against creatures that share her creature type (or subtype) for 1 minute. When you use this ability, you lose your noble visage bonus for 1 minute.\" useMod=Wis3 order=psu}",
 			"",
 			"::spelllist[Replacement Domain Spells]{from=domain l3=\"enter image\" l9=\"overwhelming presence\"}",
 			"",

@@ -30,7 +30,7 @@
 			"‹SOURCE Ultimate Wilderness/86›  ",
 			"Avalanchers attack from overhead cliffs and mesas like a landslide of arrows and blades.",
 			"",
-			"::ab[Falling Strike (Ex)]{icon=boost flavor=\"An avalancher excels at dropping onto opponents from higher ground.\" passive=\"He gains a bonus on Stealth checks and attack and damage rolls when he falls at least 10 feet before attacking an opponent. These bonuses are equal to 1 + ‹misc/one-fifth› of his slayer level, and they stack with any bonuses the avalancher receives for ‹rule/charging› or attacking from ‹rule/higher ground›.\" replace=\"Studied target\"}",
+			"::ab[Falling Strike (Ex)]{icon=boost flavor=\"An avalancher excels at dropping onto opponents from higher ground.\" passive=\"He gains a bonus on Stealth checks and attack and damage rolls when he falls at least 10 feet before attacking an opponent. @B-5mp1-slayer, and they stack with any bonuses the avalancher receives for ‹rule/charging› or attacking from ‹rule/higher ground›.\" replace=\"Studied target\"}",
 			"",
 			"::ab[Cliff Jumper (Ex)]{icon=boost-def order=pa passive=\"An avalancher adds half his level on Acrobatics checks to jump or soften a fall.\" ability=\"Whenever he attempts an ‹skill/Acrobatics› check to soften an intentional fall, he reduces the falling damage he takes by an additional 1d6 for every increment of 10 by which his Acrobatics check result exceeds the DC (a 2d6 reduction at DC 25, 3d6 at DC 35, and so on).\" imp11=\"The avalancher reduces the DC of his Acrobatics checks to soften a fall by 5.\" replace=\"Track~swift tracker\"}",
 			"",

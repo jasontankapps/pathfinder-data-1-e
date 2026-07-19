@@ -329,7 +329,7 @@
 			"",
 			"::ab[Diminished Spirits (Ex)]{icon=down info=\"A storyteller does not receive his spirit's *seance* boon. He can't choose to channel a weaker spirit to reduce his influence from *spirit surge.* Because of his obsession with legends, he begins with 2 points of influence after a *seance* rather than 1.\" alter=Spirit}",
 			"",
-			"::ab[Knowledge of Tales (Ex)]{icon=boost passive=\"A storyteller gains a bonus on all Knowledge skill checks with Knowledge skills in which he's trained. This bonus is equal to 1 + ‹misc/one-fourth› of his medium level.\" replace=\"Spirit bonus\"}",
+			"::ab[Knowledge of Tales (Ex)]{icon=boost passive=\"A storyteller gains a bonus on all Knowledge skill checks with Knowledge skills in which he's trained. @B-4m1-medium.\" replace=\"Spirit bonus\"}",
 			"",
 			"::ab[Versatile Surge (Su)]{icon=power ability=\"A storyteller's *spirit surge* can be used after the storyteller fails any ability check, skill check, or saving throw.\" alter=\"Spirit surge\"}",
 			"",

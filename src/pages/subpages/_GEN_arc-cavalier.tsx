@@ -248,7 +248,7 @@ const _courtly_knight = {title: "Courtly Knight", jsx: <><h2 id="arc-cavalier-co
 <Pair single id="social-presence-ex">Social Presence (Ex)</Pair>
 <Pair hl title="Replaces">Tactician</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Passive Ability">A courtly knight gains a bonus on all Bluff, Diplomacy, Intimidate, and Sense Motive checks. This bonus is equal to 1 + one-fourth of her cavalier level. A courtly knight starts any <Link to="/rule/verbal_duels">verbal duel</Link> with an extra edge she can use for only the <em>presence</em> tactic unless she is at a significant or extreme disadvantage in the duel.</Pair>
+<Pair title="Passive Ability">A courtly knight gains a bonus on all Bluff, Diplomacy, Intimidate, and Sense Motive checks. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her cavalier level. A courtly knight starts any <Link to="/rule/verbal_duels">verbal duel</Link> with an extra edge she can use for only the <em>presence</em> tactic unless she is at a significant or extreme disadvantage in the duel.</Pair>
 </Ability>
 <Ability id="imperious-attitude-ex" icon={["stairs-goal"]}>
 <Pair single id="imperious-attitude-ex" flavor="A courtly knight develops a commanding demeanor, and the strength of her conviction is often enough to get others to do as she asks, merely because she expects it to be done.">Imperious Attitude (Ex)</Pair>
@@ -1235,7 +1235,7 @@ const _sister_in_arms = {title: "Sister-in-Arms", jsx: <><h2 id="arc-cavalier-si
 <Pair single id="maidens-loyalty-ex" flavor="The loyalty of a sister-in-arms is absolute.">Maiden's Loyalty (Ex)</Pair>
 <Pair hl title="Replaces">Expert trainer</Pair>
 <Pair title="Gained">At 4th Level</Pair>
-<Pair title="Passive Ability">A sister-in-arms gains a bonus on Will saves against any effect that would compel her to attack or betray her allies. This bonus is equal to 1 + one-fourth her cavalier level.</Pair>
+<Pair title="Passive Ability">A sister-in-arms gains a bonus on Will saves against any effect that would compel her to attack or betray her allies. This bonus is equal to 1 + one-fourth of her cavalier level.</Pair>
 </Ability>
 <Ability id="dedicated-commander-ex" icon={["upgrade"]}>
 <Pair single id="dedicated-commander-ex" flavor="A sister-in-arms can inspire and direct allies with great efficiency.">Dedicated Commander (Ex)</Pair>

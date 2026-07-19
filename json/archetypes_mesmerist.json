@@ -76,7 +76,7 @@
 			"",
 			"::ab[Insidious Personality (Ex)]{icon=boost passive=\"A cult master adds 1/2 his class level (minimum 1) as a bonus on all Diplomacy checks.\" replace=\"Consummate liar\"}",
 			"",
-			"::ab[Fanatical Stare (Su)]{l=1 icon=boost-protect order=ap flavor=\"A cult master can turn his gaze on a creature to fill it with fervent belief in the cult master.\" ability=\"The target of the gaze gains a competence bonus on attack rolls and weapon damage rolls. This bonus is equal to 1 + ‹misc/one-sixth› of his mesmerist level.\" passive=\"Instead of taking the *hypnotic stare's* penalty on Will saves, the target gains a bonus of an equal amount on Will saves. The bonuses don't apply to attacks against the cult master or on saves against the cult master's spells or abilities. The cult master can also suppress any penalties inflicted by his stare for the target.\" replace=\"Painful stare\"}",
+			"::ab[Fanatical Stare (Su)]{l=1 icon=boost-protect order=ap flavor=\"A cult master can turn his gaze on a creature to fill it with fervent belief in the cult master.\" ability=\"The target of the gaze gains a competence bonus on attack rolls and weapon damage rolls. @B-6m1-mesmerist.\" passive=\"Instead of taking the *hypnotic stare's* penalty on Will saves, the target gains a bonus of an equal amount on Will saves. The bonuses don't apply to attacks against the cult master or on saves against the cult master's spells or abilities. The cult master can also suppress any penalties inflicted by his stare for the target.\" replace=\"Painful stare\"}",
 			"",
 			"::ab[Cult Tricks (Su)]{head icon=power-info info=\"The following new tricks can be selected by a cult master. These tricks can be implanted only in a cohort or follower of the cult master.\"}",
 			"",

@@ -95,7 +95,7 @@
 			"",
 			":::",
 			"",
-			"::ab[Spirit Bonus (Su)]{jl=strip l=1 icon=boost passive=\"When you channel a spirit, you gain a bonus on certain checks and to certain statistics, depending on the spirit. This bonus is equal to 1 + ‹misc/one-fourth› of your medium level.\"}",
+			"::ab[Spirit Bonus (Su)]{jl=strip l=1 icon=boost passive=\"When you channel a spirit, you gain a bonus on certain checks and to certain statistics, depending on the spirit. @B-4y1-medium.\"}",
 			"",
 			"::ab[Spirit Surge (Su)]{jl=strip l=1 icon=def passive=\"After failing a d20 roll that was modified by your spirit bonus, you can allow your spirit to gain 1 additional point of influence over you in order to add 1d6 to the check's result without taking an action. This can cause the check to succeed instead of fail. You must be conscious and aware to use this ability, and you can use this ability at most once per round.\" imp10=\"Your spirit surge die increases to 1d8.\" imp20=\"You spirit surge die increases to 1d10.\"}",
 			"",
