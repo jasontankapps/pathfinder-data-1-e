@@ -1,13 +1,16 @@
-import { IonContent, IonItem, IonLabel, IonList, IonPage, IonSelect, IonSelectOption, IonText, IonToggle } from '@ionic/react';
+import {
+	IonContent, IonItem, IonLabel, IonList, IonPage,
+	IonSelect, IonSelectOption, IonText, IonToggle
+} from '@ionic/react';
 import { useAppDispatch, useAppSelector } from './store/hooks';
-import { setConstraint, toggleNoElephant, toggleNoMythic, toggleNoStamina } from './store/settingsSlice';
+import { setConstraint, setTheme, toggleNoElephant, toggleNoMythic, toggleNoStamina } from './store/settingsSlice';
 import PageHeader from './components/PageHeader';
 import PageFooter from './components/PageFooter';
 import Link from './components/Link';
 import './pages/css/Page.css';
 
 const SettingsPage: React.FC = () => {
-	const { noStamina, noMythic, noElephant, constraint = 0 } = useAppSelector(state => state.settings);
+	const { noStamina, noMythic, noElephant, constraint = 0, theme = 0 } = useAppSelector(state => state.settings);
 	const dispatch = useAppDispatch();
 
 	return (
@@ -15,6 +18,16 @@ const SettingsPage: React.FC = () => {
 			<PageHeader title="Settings" notBookmarkable />
 			<IonContent>
 				<IonList lines="full">
+					<IonItem lines="none">
+						<IonLabel><em>The app uses a dark or light color scheme based on your device preferences. You can change this behavior to use light mode or dark mode.</em></IonLabel>
+					</IonItem>
+					<IonItem className="mainItem basic selectTertiary">
+						<IonSelect label="Theme:" value={theme} onIonChange={(e) => dispatch(setTheme(e.detail.value))} justify="end">
+							<IonSelectOption value={0}>Use Device Settings</IonSelectOption>
+							<IonSelectOption value={1}>Use Dark Mode</IonSelectOption>
+							<IonSelectOption value={-1}>Use Light Mode</IonSelectOption>
+						</IonSelect>
+					</IonItem>
 					<IonItem lines="none" className="cnone">
 						<IonLabel><em>You can constrain the width of paragraphs if they are getting too wide to read on your screen.</em></IonLabel>
 					</IonItem>

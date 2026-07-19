@@ -8,6 +8,7 @@ export interface SettingsState {
 	noStamina: boolean
 	noElephant: boolean
 	constraint?: Constraints
+	theme?: -1 | 1
 }
 
 // Define the initial value for the slice state
@@ -59,6 +60,16 @@ export const settingsSlice = createSlice({
 			}
 			delete newState.constraint;
 			return newState;
+		},
+		setTheme: (state, action: PayloadAction<number>) => {
+			const n = action.payload;
+			const {...newState} = state;
+			if(n) {
+				newState.theme = n > 0 ? 1 : -1
+			} else {
+				delete newState.theme;
+			}
+			return newState;
 		}
 	}
 });
@@ -68,7 +79,8 @@ export const {
 	toggleNoStamina,
 	toggleNoMythic,
 	toggleNoElephant,
-	setConstraint
+	setConstraint,
+	setTheme
 } = settingsSlice.actions;
 
 // Export the slice reducer for use in the store configuration
