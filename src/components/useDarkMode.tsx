@@ -1,17 +1,13 @@
 // From: https://github.com/daveschumaker/react-dark-mode-hook
 //  (With minor mods)
 import { useState, useEffect, useCallback } from 'react';
-import { useAppSelector } from '../store/hooks';
 
 const useDarkMode = () => {
-	const {theme} = useAppSelector(state => state.settings);
 
 	const isClient = typeof window === 'object';
 
 	const getDarkMode = useCallback(() => {
-		if(theme) {
-			return theme > 0;
-		} else if (
+		if (
 			isClient &&
 			window.matchMedia &&
 			window.matchMedia('(prefers-color-scheme: dark)').matches
@@ -20,7 +16,7 @@ const useDarkMode = () => {
 		} else {
 			return false;
 		}
-	}, [isClient, theme]);
+	}, [isClient]);
 
 	const [darkMode, setDarkMode] = useState(getDarkMode);
 

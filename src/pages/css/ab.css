@@ -10,7 +10,7 @@ div.basicContent div.ability {
 	--ab-contrast-subheader: var(--ion-color-quinary-subheader);
 	--ab-contrast-border: var(--ion-color-quinary-border);
 }
-div.basicContent :nth-child(even of div.ability) {
+div.basicContent div.ability.alternate {
 	--ab-background: var(--ion-color-quinary);
 	--ab-header: var(--ion-color-quinary-header);
 	--ab-subheader: var(--ion-color-quinary-subheader);
@@ -194,7 +194,7 @@ div.basicContent div.subAbility {
 	border-radius: 0;
 	grid-template-columns: calc(2.5rem + 2px) 4fr;
 }
-div.basicContent :nth-child(even of div.ability):is(.subAbility) {
+div.basicContent div.ability.alternate.subAbility {
 	--ab-background: var(--ion-color-quinary-bg);
 	--ab-header: var(--ion-color-quinary-subheader);
 	--ab-subheader: var(--ion-color-quinary);

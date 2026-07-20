@@ -745,7 +745,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 			compilation.push(d.join("!-N-!"));
 			// check for shifts in level
 			if(i !== max) {
-				const next = pool[i + 1].level;
+				const next = pool[i + 1][1].level || 0;
 				const joiners = ["", ";;;", "!!!", "$$$"];
 				if(next > level) {
 					// Levels should only go up by 1
@@ -757,7 +757,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 					let l = level;
 					while (next < l) {
 						compilation.push(
-							+ "!-N-!" + joiners[l] + "!-N-!"
+							"!-N-!" + joiners[l] + "!-N-!"
 						);
 						l--;
 					}

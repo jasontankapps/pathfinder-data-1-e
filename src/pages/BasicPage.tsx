@@ -200,6 +200,18 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				setGoToTopFlag(storedPos < 200);
 			}
 		}, pageId + "/enter", 10);
+
+		// This is awful, but the CSS tricks aren't working anymore.
+		document.querySelectorAll("div.ability").forEach((node, i) => {
+			const cl = node.classList;
+			if(i % 2) {
+				// odd
+				cl.remove("alternate");
+			} else {
+				// even
+				cl.add("alternate");
+			}
+		});
 	}, [path, pageId, contentObject, storedPos]);
 	useEffect(() => {
 		scrollHook && scrollHook(contentObject);

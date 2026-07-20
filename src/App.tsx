@@ -1,4 +1,4 @@
-import { FC, Suspense, lazy, useState } from 'react';
+import { FC, Suspense, lazy, useEffect, useState } from 'react';
 import { IonApp, IonContent, IonSplitPane, setupIonicReact } from '@ionic/react';
 import { Route, Switch } from 'wouter';
 import { EdgeToEdge } from '@capawesome/capacitor-android-edge-to-edge-support';
@@ -33,6 +33,7 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import useDarkMode from './components/useDarkMode';
 
 setupIonicReact({
 	hardwareBackButton: false,
@@ -140,7 +141,17 @@ const UMRPage = lazy(() => import("./pages/UMRPage"));
 
 const App: FC = () => {
 	const [hasSet, setHasSet] = useState(false);
-	const { noStamina, noMythic, noElephant, constraint = 0 } = useAppSelector(state => state.settings);
+	const { noStamina, noMythic, noElephant, constraint = 0, theme } = useAppSelector(state => state.settings);
+	const isDark = useDarkMode();
+
+	useEffect(() => {
+		// Change the color palette as needed
+		if(theme ? theme > 0 : isDark) {
+			document.documentElement.classList.add("ion-palette-dark");
+			return;
+		}
+		document.documentElement.classList.remove("ion-palette-dark");
+	}, [isDark, theme]);
 
 	const classes = [];
 	noStamina && classes.push("noStamina");
