@@ -10,152 +10,137 @@
 	},
 	"animal_fury": {
 		"name": "Animal Fury",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "PRPG Core Rulebook" ] ],
 		"description": [
-			"While *raging,* the barbarian gains a bite attack. If used as part of a full attack action, the bite attack is made at the barbarian's full base attack bonus -5. If the bite hits, it deals 1d4 points of damage (assuming the barbarian is Medium; 1d3 points of damage if Small) plus half the barbarian's Strength modifier. A barbarian can make a bite attack as part of the action to maintain or break free from a grapple. This attack is resolved before the grapple check is made. If the bite attack hits, any grapple checks made by the barbarian against the target this round are at a +2 bonus."
+			"::ab{title=\"Animal Fury (Ex)\" icon=melee ability=\"While *raging,* the barbarian gains a ‹umr/bite attack›. If used as part of a full attack action, the bite attack is made at the barbarian's full base attack bonus -5. If the bite hits, it deals 1d4 points of damage (assuming the barbarian is Medium; 1d3 points of damage if Small) plus half the barbarian's Strength modifier.\" special=\"A barbarian can make a bite attack as part of the action to maintain or break free from a grapple. This attack is resolved before the grapple check is made. If the bite attack hits, any grapple checks made by the barbarian against the target this round are at a +2 bonus.\"}"
 		]
 	},
 	"greater_animal_fury": {
 		"name": "Greater Animal Fury",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Champions of Corruption" ] ],
 		"level": 1,
 		"description": [
-			"This power works as animal fury, but the barbarian's bite attack deals damage as if she were ‹misc/one size category larger›. A barbarian must have the ‹ragepower/animal fury› rage power to select this rage power."
+			"::ab{icon=boost title=\"&L&Greater Animal Fury (Ex)&FN&\" ability=\"This power works as *animal fury,* but the barbarian's bite attack deals damage as if she were ‹misc/one size category larger›.\" prereq=\"‹ragepower/Animal fury›\"}"
 		]
 	},
 	"bloody_bite": {
 		"name": "Bloody Bite",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Agents of Evil" ] ],
 		"level": 1,
 		"description": [
-			"This rage power is available to ‹race/half-orc› barbarians. The barbarian's bite attack deals 1d6 points of bleed damage in addition to its other effects. The barbarian must have the ‹ragepower/animal fury› rage power or a natural bite attack before selecting this power."
+			"::ab{icon=boost title=\"&L&Bloody Bite (Ex)&FN&\" prereq=\"‹race/Half-orc›, either ‹ragepower/animal fury› or a natural bite attack\" passive=\"The barbarian's bite attack deals 1d6 points of ‹rule/bleed› damage in addition to its other effects.\"}"
 		]
 	},
 	"feasting_bite": {
 		"name": "Feasting Bite",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Agents of Evil" ] ],
 		"level": 2,
 		"description": [
-			"This rage power is available to ‹race/half-orc› barbarians. When the barbarian confirms a critical hit with her bite attack, she regains a number of hit points equal to half the damage dealt. The barbarian must have the ‹ragepower/bloody bite› rage power and either the ‹ragepower/animal fury› rage power or a natural bite attack before selecting this power. Activating this ability consumes 1 round of *rage.*"
+			"::ab{icon=aid title=\"&L&Feasting Bite (Ex)&FN&\" prereq=\"‹race/Half-orc›, ‹ragepower/bloody bite›, either ‹ragepower/animal fury› or a natural bite attack\" passive=\"When the barbarian confirms a critical hit with her bite attack, she regains a number of hit points equal to half the damage dealt. Activating this ability consumes 1 round of *rage.*\"}"
 		]
 	},
 	"penetrating_bite": {
 		"name": "Penetrating Bite",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Champions of Corruption" ] ],
 		"level": 1,
 		"description": [
-			"When using the animal fury rage power while *raging,* the barbarian's bite is able to pierce most resistances. At 4th level, her bite is treated as a magic weapon for the purpose of overcoming damage reduction. At 7th level, her bite is also treated as cold iron and silver for the purpose of overcoming damage reduction. At 10th level, her bite is also treated as a chaotic weapon for the purpose of overcoming damage reduction. At 16th level, her bite is treated as an ‹eq-material/adamantine› weapon for the purpose of overcoming damage reduction and bypassing hardness. A barbarian must have the ‹ragepower/animal fury› rage power and be at least 4th level to select this rage power."
+			"::ab{icon=boost title=\"&L&Penetrating Bite (Ex)&FN&\" prereq=\"4th-level barbarian, ‹ragepower/animal fury›\" flavor=\"When using the *animal fury* rage power while *raging,* the barbarian's bite is able to pierce most resistances.\" l4=\"Her bite is treated as a magic weapon for the purpose of overcoming damage reduction.\" l7=\"Her bite is also treated as cold iron and silver for the purpose of overcoming damage reduction.\" l10=\"Her bite is also treated as a chaotic weapon for the purpose of overcoming damage reduction.\" l16=\"Her bite is treated as an ‹eq-material/adamantine› weapon for the purpose of overcoming damage reduction and bypassing hardness.\"}"
 		]
 	},
 	"savage_jaw": {
 		"name": "Savage Jaw",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Champions of Corruption" ] ],
 		"level": 1,
 		"description": [
-			"While *raging,* the barbarian can open her jaw wide and latch her teeth firmly onto her opponent. While using the animal fury power, the barbarian can activate this power as a free action and gain the ‹umr/grab› ability with her bite attack until the start of her next turn. This power can be used only once per *rage.* A barbarian must have the ‹ragepower/animal fury› rage power to select this rage power."
+			"::ab{icon=melee title=\"&L&Savage Jaw (Ex)&FN&\" flavor=\"While *raging,* the barbarian can open her jaw wide and latch her teeth firmly onto her opponent.\" free=\"While using the *animal fury* power, the barbarian can activate this power and gain the ‹umr/grab› ability with her bite attack until the start of her next turn.\" usage=\"Once per *rage*\" prereq=\"‹ragepower/Animal fury›\"}"
 		]
 	},
 	"vipers_kiss": {
 		"name": "Viper's Kiss",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Dirty Tactics Toolbox" ] ],
 		"level": 1,
 		"description": [
-			"The barbarian can drink 1 dose of an ingested poison as a move action (instead of a standard action) as long as she starts the turn with the poison in her hand. She can hold this dose within her mouth for a number of rounds equal to her Constitution modifier (minimum 1 round) without suffering harmful effects. If the barbarian still holds the poison in her mouth after this time, she consumes the poison. While the dose is held within her mouth, the barbarian's next successful bite attack applies the effect of the poison with an immediate onset; this consumes the dose. A barbarian must have a bite attack (at least when *raging,* such as that granted by ‹ragepower/animal fury›) to select this rage power."
+			"::ab{icon=melee title=\"&L&Viper's Kiss (Ex)&FN&\" ability=\"The barbarian can drink 1 dose of an ingested poison as a @HLmove_action (instead of a standard action) as long as she starts the turn with the poison in her hand. She can hold this dose within her mouth for a number of rounds equal to her Constitution modifier (minimum 1 round) without suffering harmful effects. If the barbarian still holds the poison in her mouth after this time, she consumes the poison.~~~While the dose is held within her mouth, the barbarian's next successful bite attack applies the effect of the poison with an immediate onset; this consumes the dose.\" prereq=\"‹ragepower/Animal fury› or a has bite attack while *raging*\"}"
 		]
 	},
 	"vipers_breath": {
 		"name": "Viper's Breath",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Dirty Tactics Toolbox" ] ],
 		"level": 2,
 		"description": [
-			"While holding a dose of poison in her mouth, the barbarian can exhale a 15-foot cone of inhaled poison. Anyone caught in the spray must succeed at a saving throw against the poison with a DC equal to the poison's DC - 4 or suffer the poison's effects with an immediate onset. A barbarian must have ‹ragepower/viper's kiss› to select this rage power."
+			"::ab{icon=cone title=\"&L&Viper's Breath (Ex)&FN&\" ability=\"While holding a dose of poison in her mouth, the barbarian can exhale a 15-foot cone of inhaled poison. Anyone caught in the spray must succeed at a saving throw against the poison with a DC equal to the poison's DC - 4 or suffer the poison's effects with an immediate onset.\" prereq=\"‹ragepower/Viper's kiss›\"}"
 		]
 	},
 	"enhance_venom": {
 		"name": "Enhance Venom",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Dirty Tactics Toolbox" ] ],
 		"level": 3,
 		"description": [
-			"The barbarian adds her Constitution modifier to the DC of any poison she delivers using viper's kiss or viper's breath. A barbarian must have ‹ragepower/viper's breath› and ‹ragepower/viper's kiss› to select this rage power."
+			"::ab{icon=boost title=\"&L&Enhance Venom (Ex)&FN&\" passive=\"The barbarian adds her Constitution modifier to the DC of any poison she delivers using *viper's kiss* or *viper's breath.*\" prereq=\"‹ragepower/Viper's kiss›, ‹ragepower/viper's breath›\"}"
 		]
 	},
 	"armor_ripper": {
 		"name": "Armor Ripper",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
 		"description": [
-			"While *raging,* you gain a +2 bonus on combat maneuver checks made to ‹rule/sunder› with any of your natural attacks. You must be ‹race/wereboar-kin› or be associated with wereboar-kin to select this rage power."
+			"::ab{icon=boost title=\"&L&Armor Ripper&FN&\" passive=\"While *raging,* you gain a +2 bonus on combat maneuver checks made to ‹rule/sunder› with any of your natural attacks.\" prereq=\"‹race/Wereboar-kin› or associated with wereboar-kin\"}"
 		]
 	},
 	"auspicious_mark": {
 		"name": "Auspicious Mark",
-		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [
-			"The barbarian has been marked by the spirits, as indicated by an impressive tattoo, scar, or birthmark she possesses. Once per *rage,* as a swift action that costs 2 rounds of *rage,* the barbarian can call upon the spirits' favor. Using auspicious mark grants her a +1d6 bonus on one d20 roll she has just made. She can call on the auspicious mark after seeing the result of the d20 roll."
+			"::ab{icon=boost title=\"&L&Auspicious Mark (Su)&FN&\" flavor=\"The barbarian has been marked by the spirits, as indicated by an impressive tattoo, scar, or birthmark she possesses.\" usage=\"Once per *rage*\" swift=\"By spending 2 rounds of *rage,* the barbarian can call upon the spirits' favor. Using *auspicious mark* grants her a +1d6 bonus on one d20 roll she has just made.\" special=\"She can call on the *auspicious* mark after seeing the result of the d20 roll.\"}"
 		]
 	},
 	"autumn_rage": {
 		"name": "Autumn Rage",
-		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"description": [
-			"The barbarian becomes a servant of the harvest. While *raging,* she gains a +2 bonus on combat maneuver checks to ‹rule/reposition› or ‹rule/trip›. She also gains this bonus on attack rolls to confirm critical hits. A barbarian can have only one season-themed rage power, choosing between ‹ragepower/spring<_rage›, ‹ragepower/summer<_rage›, autumn, or ‹ragepower/winter<_rage› rage."
+			"::ab{icon=boost title=\"&L&Autumn Rage (Su)&FN&\" flavor=\"The barbarian becomes a servant of the harvest.\" passive=\"While *raging,* she gains a +2 bonus on combat maneuver checks to ‹rule/reposition› or ‹rule/trip›. She also gains this bonus on attack rolls to confirm critical hits.\" special=\"A barbarian can have only one season-themed rage power, choosing between ‹ragepower/spring<_rage›, ‹ragepower/summer<_rage›, *autumn,* or ‹ragepower/winter<_rage› rage.\"}"
 		]
 	},
 	"bloody_fist": {
 		"name": "Bloody Fist",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Demon Hunter's Handbook" ] ],
 		"description": [
-			"While *raging,* the barbarian may attempt to punch through an opponent's flesh and rip out one of its vital organs. In order to do so, the barbarian must confirm a critical hit against an opponent with a natural attack or unarmed strike. The barbarian deals damage as normal for a critical hit and the opponent must succeed at a Fortitude save (DC = 10 + 1/2 the barbarian's class level + the barbarian's Strength modifier) or take 1d4 points of ‹rule/Constitution damage› as one of its vital organs is ripped free from its body. This power can only be used once per *rage.* A barbarian must be at least 12th level to select this rage power."
+			"::ab{icon=melee title=\"&L&Bloody Fist (Ex)&FN&\" ability=\"While *raging,* the barbarian may attempt to punch through an opponent's flesh and rip out one of its vital organs. In order to do so, the barbarian must confirm a critical hit against an opponent with a natural attack or unarmed strike. The barbarian deals damage as normal for a critical hit and the opponent must succeed at a Fortitude save (DC = 10 + 1/2 the barbarian's class level + the barbarian's Strength modifier) or take 1d4 points of ‹rule/Constitution damage› as one of its vital organs is ripped free from its body.\" usage=\"Once per *rage*\" prereq=\"12th-level barbarian\"}"
 		]
 	},
 	"feast_of_blood": {
 		"name": "Feast of Blood",
-		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Demon Hunter's Handbook" ] ],
 		"level": 1,
 		"description": [
-			"While *raging,* the barbarian may feast on the organs of her foes and absorb their power. After successfully ripping out a creature's vital organ, the barbarian may eat the organ within 1 minute of extracting it as a full-round action that provokes attacks of opportunity. Once the organ is consumed, the barbarian recovers a number of hit points equal to the Hit Dice of the organ's owner. In addition, the barbarian gains any energy immunities or resistances the victim had, though the effectiveness of these resistances is halved (for instance, a barbarian who eats the heart of a creature with resist cold 10 would gain resist cold 5; energy immunities are reduced to resist energy 20). This energy resistance lasts for a number of rounds equal to half the Hit Dice of the creature whose organ was consumed. A barbarian must have the ‹ragepower/bloody fist› rage power to select this rage power. A barbarian must be at least 14th level to select this rage power."
+			"::ab{icon=aid-def title=\"&L&Feast of Blood (Su)&FN&\" flavor=\"While *raging,* the barbarian may feast on the organs of her foes and absorb their power.\" provokes fullround=\"After successfully ripping out a creature's vital organ, the barbarian may eat the organ within 1 minute of extracting it. Once the organ is consumed, the barbarian recovers a number of hit points equal to the Hit Dice of the organ's owner.~~~In addition, the barbarian gains any energy immunities or resistances the victim had, though the effectiveness of these resistances is halved (for instance, a barbarian who eats the heart of a creature with ‹umr/resist› cold 10 would gain resist cold 5; energy immunities are reduced to resist energy 20). This energy resistance lasts for a number of rounds equal to half the Hit Dice of the creature whose organ was consumed.\" prereq=\"‹ragepower/Bloody fist›, 14th-level barbarian\"}"
 		]
 	},
 	"boars_charge": {
 		"name": "Boar's Charge",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
 		"description": [
-			"While *raging,* when you hit with a gore attack as part of a charge, you automatically score a critical threat. You must still confirm the critical hit as normal. You must be at least 12th level and be ‹race/wereboar-kin› or be associated with wereboar-kin to select this rage power."
+			"::ab{icon=melee-boost title=\"&L&Boar's Charge&FN&\" ability=\"While *raging,* when you hit with a gore attack as part of a ‹rule/charge›, you automatically score a critical threat. You must still confirm the critical hit as normal.\" prereq=\"12th-level barbarian, ‹race/wereboar-kin› or associated with wereboar-kin\"}"
 		]
 	},
 	"boasting_taunt": {
 		"name": "Boasting Taunt",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While *raging,* the barbarian can incite a creature to attack her by making an Intimidate check to demoralize. If the check succeeds, the target is also ‹misc/shaken› as long as the barbarian is visible and *raging* or until it makes a melee attack against the barbarian. The barbarian receives a +2 circumstance bonus on this check for every alcoholic drink she has consumed during this *rage.* This is a language-dependent mind-affecting effect, and it relies on audible components. The barbarian must be at least 6th level to select this power."
+			"::ab{icon=lower title=\"&L&Boasting Taunt (Ex)&FN&\" ability=\"While *raging,* the barbarian can incite a creature to attack her by making an ‹skill/Intimidate› check to demoralize. If the check succeeds, the target is also ‹misc/shaken› as long as the barbarian is visible and *raging* or until it makes a melee attack against the barbarian. The barbarian receives a +2 circumstance bonus on this check for every alcoholic drink she has consumed during this *rage.*\" special=\"This is a language-dependent mind-affecting effect, and it relies on audible components.\" prereq=\"6th-level barbarian\"}"
 		]
 	},
 	"body_bludgeon": {
 		"name": "Body Bludgeon",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [
-			"While *raging,* if the barbarian pins an opponent that is smaller than her, she can then use that opponent as a two-handed ‹misc/improvised weapon› that deals 1d8 points of bludgeoning damage, assuming the opponent is sized Small. Larger or smaller creatures used as a bludgeon deal damage based on their size using this base damage. A size Tiny creature deals 1d6 points of damage, a size Medium creature deals 1d10 points of damage, and so on. The barbarian can make a single attack using the pinned opponent as part of the action she uses to maintain the grapple, using her highest attack bonus. Whenever the barbarian hits using the pinned opponent as a weapon, she deals damage to her target normally, and the grappled opponent used as a bludgeon also takes the same damage she dealt to the target. If the pinned opponent is unable to resist being pinned for any reason, the barbarian can use that opponent as an improvised weapon without grappling or pinning the opponent, until the creature is reduced to 0 or fewer hit points, at which point the creature becomes useless as an improvised weapon. A barbarian must be at least 10th level before selecting this rage power."
+			"::ab{icon=melee title=\"&L&Body Bludgeon (Ex)&FN&\" ability=\"While *raging,* if the barbarian ‹rule/pin«s› an opponent that is smaller than her, she can then use that opponent as a two-handed ‹misc/improvised weapon› that deals 1d8 points of bludgeoning damage, assuming the opponent is sized Small. Larger or smaller creatures used as a bludgeon deal damage based on their size using this base damage. A size Tiny creature deals 1d6 points of damage, a size Medium creature deals 1d10 points of damage, ‹misc/and so on›.~~~The barbarian can make a single attack using the pinned opponent as part of the action she uses to maintain the grapple, using her highest attack bonus. Whenever the barbarian hits using the pinned opponent as a weapon, she deals damage to her target normally, and the grappled opponent used as a bludgeon also takes the same damage she dealt to the target.\" special=\"If the pinned opponent is unable to resist being pinned for any reason, the barbarian can use that opponent as an improvised weapon without grappling or pinning the opponent, until the creature is reduced to 0 or fewer hit points, at which point the creature becomes useless as an improvised weapon.\" prereq=\"10th-level barbarian\"}"
 		]
 	},
 	"brawler": {
 		"name": "Brawler",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While *raging,* the barbarian is treated as if she has ‹feat/Improved Unarmed Strike›. If she already has the feat, her unarmed strikes deal 1d6 points of damage (1d4 if she is Small)."
+			"::ab{icon=melee title=\"&L&Brawler&FN&\" ability=\"While *raging,* the barbarian is treated as if she has ‹feat/Improved Unarmed Strike›. If she already has the feat, her unarmed strikes deal 1d6 points of damage (1d4 if she is Small).\"}"
 		]
 	},
 	"greater_brawler": {
@@ -163,171 +148,154 @@
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"level": 1,
 		"description": [
-			"While *raging,* the barbarian is treated as if she has ‹feat/Two-Weapon Fighting› when making unarmed strike attacks. A barbarian must have the ‹ragepower/brawler› rage power to select this rage power."
+			"::ab{icon=melee title=\"&L&Greater Brawler&FN&\" ability=\"While *raging,* the barbarian is treated as if she has ‹feat/Two-Weapon Fighting› when making unarmed strike attacks.\" prereq=\"‹ragepower/Brawler›\"}"
 		]
 	},
 	"brawler_greater": { "redirect": "greater_brawler" },
 	"breathtaker": {
 		"name": "Breathtaker",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "People of the River" ] ],
 		"description": [
-			"The barbarian's blows take the air from her foes' lungs. While *raging,* whenever the barbarian makes a successful melee attack against an opponent that is holding its breath, in addition to any other effects caused by that attack, the opponent loses a number of rounds of breath equal to the barbarian's Strength modifier."
+			"::ab{icon=lower title=\"&L&Breathtaker (Ex)&FN&\" flavor=\"The barbarian's blows take the air from her foes' lungs.\" While *raging,* whenever the barbarian makes a successful melee attack against an opponent that is ‹misc/hold«ing» its breath›, in addition to any other effects caused by that attack, the opponent loses a number of rounds of breath equal to the barbarian's Strength modifier.\"}"
 		]
 	},
 	"clear_mind": {
 		"name": "Clear Mind",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "PRPG Core Rulebook" ] ],
 		"description": [
-			"A barbarian may reroll a failed Will save. This power is used as an immediate action after the first save is attempted, but before the results are revealed by the GM. The barbarian must take the second result, even if it is worse. A barbarian must be at least 8th level before selecting this power. This power can only be used once per *rage.*"
+			"::ab{icon=def-roll title=\"&L&Clear Mind (Ex)&FN&\" immediate=\"A barbarian may reroll a failed Will save. This power is used after the first save is attempted, but before the results are revealed by the GM. The barbarian must take the second result, even if it is worse.\" prereq=\"8th-level barbarian\" special=\"This power can only be used once per *rage.*\"}"
 		]
 	},
 	"come_and_get_me": {
 		"name": "Come and Get Me",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While *raging,* as a free action the barbarian may leave herself open to attack while preparing devastating counterattacks. Enemies gain a +4 bonus on attack and damage rolls against the barbarian until the beginning of her next turn, but every attack against the barbarian provokes an attack of opportunity from her, which is resolved prior to resolving each enemy attack. A barbarian must be at least 12th level to select this rage power."
+			"::ab{icon=down-melee title=\"&L&Come and Get Me (Ex)&FN&\" free=\"While *raging,* the barbarian may leave herself open to attack while preparing devastating counterattacks. Enemies gain a +4 bonus on attack and damage rolls against the barbarian until the beginning of her next turn, but every attack against the barbarian provokes an attack of opportunity from her, which is resolved prior to resolving each enemy attack.\" prereq=\"12th-level barbarian\"}"
 		]
 	},
 	"contagious_rage": {
 		"name": "Contagious Rage",
-		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"description": [
-			"The barbarian howls during combat, agitating nearby fauna. Willing animals and magical beasts within 30 feet of the barbarian gain the benefits of the ‹spell/rage› spell for as long as she maintains her *rage.* After the barbarian's *rage* ends, creatures affected by her *rage* are fatigued for the same number of rounds as the barbarian. A barbarian must be at least 6th level to choose this rage power."
+			"::ab{icon=boost title=\"&L&Contagious Rage (Su)&FN&\" flavor=\"The barbarian howls during combat, agitating nearby fauna.\" ability=\"Willing animals and magical beasts within 30 feet of the barbarian gain the benefits of the ‹spell/rage› spell for as long as she maintains her *rage.* After the barbarian's *rage* ends, creatures affected by her *rage* are ‹misc/fatigued› for the same number of rounds as the barbarian.\" prereq=\"6th-level barbarian\"}"
 		]
 	},
 	"deathless_frenzy": {
 		"name": "Deathless Frenzy",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
 		"description": [
-			"While *raging,* you ignore the effects of being at 0 or fewer hit points until you have been at 0 or fewer hit points for 1 round, at which point the appropriate consequences for your current hit point total take effect. Even death can be postponed this way, potentially allowing you to survive if you receive sufficient healing before the round is up. You must be at least 12th level and be ‹race/wereboar-kin› or be associated with wereboar-kin to select this rage power."
+			"::ab{icon=power title=\"&L&Deathless Frenzy&FN&\" passive=\"While *raging,* you ignore the effects of being at 0 or fewer hit points until you have been at 0 or fewer hit points for 1 round, at which point the appropriate consequences for your current hit point total take effect. Even death can be postponed this way, potentially allowing you to survive if you receive sufficient healing before the round is up.\" prereq=\"12th-level barbarian, ‹race/wereboar-kin› or associated with wereboar-kin\"}"
 		]
 	},
 	"disemboweling_tusks": {
 		"name": "Disemboweling Tusks",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
 		"description": [
-			"While *raging,* when you confirm a critical hit with your gore attack, you deal 1d4 points of ‹rule/Constitution damage› in addition to the normal damage for the gore attack. You must be at least 10th level and be ‹race/wereboar-kin› or be associated with wereboar-kin to select this rage power."
+			"::ab{icon=boost title=\"&L&Disemboweling Tusks&FN&\" ability=\"While *raging,* when you confirm a critical hit with your gore attack, you deal 1d4 points of ‹rule/Constitution damage› in addition to the normal damage for the gore attack.\" prereq=\"10th-level barbarian, ‹race/wereboar-kin› or associated with wereboar-kin\"}"
 		]
 	},
 	"dissipating_rage": {
 		"name": "Dissipating Rage",
-		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"description": [
-			"When the barbarian *rages,* her feverish frenzy and hot breath burn or blow fog, smoke and similar effects away from her. The barbarian and creatures adjacent to her do not gain ‹rule/concealment› from obfuscating effects like fog or precipitation. Magical effects that require more than a strong wind to dissipate are not affected by this rage power."
+			"::ab{icon=lower title=\"&L&Dissipating Rage (Su)&FN&\" passive=\"When the barbarian *rages,* her feverish frenzy and hot breath burn or blow fog, smoke and similar effects away from her. The barbarian and creatures adjacent to her do not gain ‹rule/concealment› from obfuscating effects like fog or precipitation.\" special=\"Magical effects that require more than a strong wind to dissipate are not affected by this rage power.\"}"
 		]
 	},
 	"eclipsing_rage": {
 		"name": "Eclipsing Rage",
-		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"description": [
-			"While the barbarian is *raging,* the ‹rule/light level› within 10 feet of her lowers by one step. She can't decrease the light level below normal darkness with this ability. Multiple barbarians with this rage power don't further reduce the light level. A barbarian must be at least 6th level to choose this rage power."
+			"::ab{icon=magic title=\"&L&Eclipsing Rage (Su)&FN&\" passive=\"While the barbarian is *raging,* the ‹rule/light level› within 10 feet of her lowers by one step. She can't decrease the light level below normal darkness with this ability.\" special=\"Multiple barbarians with this rage power don't further reduce the light level.\" prereq=\"6th-level barbarian\"}"
 		]
 	},
 	"greater_eclipsing_rage": {
 		"name": "Greater Eclipsing Rage",
-		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"level": 1,
 		"description": [
-			"Whenever the barbarian *rages,* the ‹rule/light level› within 20 feet of her lowers by two steps instead of one. She still can't decrease the light level below normal darkness with this ability. A barbarian must be at least 10th level and have the ‹ragepower/eclipsing rage› rage power to choose this rage power."
+			"::ab{icon=magic title=\"&L&Greater Eclipsing Rage (Su)&FN&\" passive=\"Whenever the barbarian *rages,* the ‹rule/light level› within 20 feet of her lowers by two steps instead of one. She still can't decrease the light level below normal darkness with this ability.\" prereq=\"10th-level barbarian, ‹ragepower/eclipsing rage›\"}"
 		]
 	},
 	"eclipsing_rage_greater": { "redirect": "greater_eclipsing_rage" },
 	"lesser_elemental_rage": {
 		"name": "Lesser Elemental Rage",
-		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"As a swift action, the barbarian can cause her melee attacks to deal an additional 1d6 points of energy damage (acid, cold, electricity, or fire) for 1 round. A barbarian must be at least 4th level to select this rage power. This power can only be used once per *rage.*"
+			"::ab{icon=boost title=\"&L&Lesser Elemental Rage (Su)&FN&\" swift=\"The barbarian can cause her melee attacks to deal an additional 1d6 points of energy damage (acid, cold, electricity, or fire) for 1 round.\" prereq=\"4th-level barbarian\" usage=\"Once per *rage*\"}"
 		]
 	},
 	"elemental_rage_lesser": { "redirect": "lesser_elemental_rage" },
 	"elemental_rage": {
 		"name": "Elemental Rage",
-		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"level": 1,
 		"description": [
-			"While *raging,* all of the barbarian's melee attacks deal an additional 1d6 points of energy damage (acid, cold, electricity, or fire). The type is chosen when the barbarian begins her *rage.* A barbarian must have the ‹ragepower/lesser elemental rage› power to select this rage power. A barbarian must be at least 8th level to select this rage power. Note that the barbarian can still use her lesser elemental rage power while using this rage power, but she must select a different energy type."
+			"::ab{icon=boost title=\"&L&Elemental Rage (Su)&FN&\" passive=\"While *raging,* all of the barbarian's melee attacks deal an additional 1d6 points of energy damage (acid, cold, electricity, or fire). The type is chosen when the barbarian begins her *rage.*\" prereq=\"8th-level barbarian,‹ragepower/lesser elemental rage›\" special=\"The barbarian can still use her *lesser elemental rage* power while using this rage power, but she must select a different energy type.\"}"
 		]
 	},
 	"greater_elemental_rage": {
 		"name": "Greater Elemental Rage",
-		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"level": 2,
 		"description": [
-			"While *raging,* all of the barbarian's critical hits made with melee weapons deal an additional 1d10 points of energy damage (2d10 if the weapon deals &times;3 damage on a critical hit, 3d10 if the weapon deals &times;4 on a critical hit). The type of this damage is the same as the type chosen for the elemental rage power. A barbarian must have the ‹ragepower/elemental rage› power to select this rage power. A barbarian must be at least 12th level to select this rage power."
+			"::ab{icon=boost title=\"&L&Greater Elemental Rage (Su)&FN&\" passive=\"While *raging,* all of the barbarian's critical hits made with melee weapons deal an additional 1d10 points of energy damage (2d10 if the weapon deals &times&3 damage on a critical hit, 3d10 if the weapon deals &times&4 on a critical hit). The type of this damage is the same as the type chosen for the *elemental rage* power.\" prereq=\"12th-level barbarian, ‹ragepower/elemental rage›\"}"
 		]
 	},
 	"elemental_rage_greater": { "redirect": "greater_elemental_rage" },
 	"lesser_elemental": { "redirect": "lesser_elemental_rage" },
 	"energy_resistance": {
 		"name": "Energy Resistance",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While *raging,* the barbarian gains resistance to one energy type (acid, cold, electricity, fire, or sonic) equal to 1/2 her barbarian level (minimum 1). The energy type is chosen when this rage power is selected and it cannot be changed. This rage power can be selected more than once. Its effects do not stack. Each time is applies to a different energy type."
+			"::ab{icon=def title=\"&L&Energy Resistance (Ex)&FN&\" passive=\"While *raging,* the barbarian gains ‹umr/resistance› to one energy type (acid, cold, electricity, fire, or sonic) equal to 1/2 her barbarian level (minimum 1).\" special=\"The energy type is chosen when this rage power is selected and it cannot be changed. This rage power can be selected more than once. Its effects do not stack. Each time is applies to a different energy type.\"}"
 		]
 	},
 	"greater_energy_resistance": {
 		"name": "Greater Energy Resistance",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"level": 1,
 		"description": [
-			"Once per *rage,* a barbarian can reduce damage by half from a single attack against which she has energy resistance (halve the damage, then apply resistance). A barbarian must have the ‹ragepower/energy resistance› rage power to select this rage power. A barbarian must be at least 8th level to select this rage power."
+			"::ab{icon=def title=\"&L&Greater Energy Resistance (Ex)&FN&\" ability=\"Once per *rage,* a barbarian can reduce damage by half from a single attack against which she has energy resistance (halve the damage, then apply resistance).\" prereq=\"8th-level barbarian, ‹ragepower/energy resistance›\"}"
 		]
 	},
 	"energy_resistance_greater": { "redirect": "greater_energy_resistance" },
 	"energy_absorption": {
 		"name": "Energy Absorption",
-		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"level": 2,
 		"description": [
-			"While *raging,* the barbarian can absorb energy from a single attack of her chosen energy type once per *rage.* She does not make a saving throw against the effect but takes no damage from it, instead gaining 1 temporary hit point per 3 points of damage the attack would have inflicted. These ‹rule/temporary hit points› last until the end of the barbarian's *rage.* A barbarian must have the ‹ragepower/greater energy resistance› rage power to select this rage power. A barbarian must be at least 12th level to select this rage power."
+			"::ab{icon=def title=\"&L&Energy Absorption (Su)&FN&\" ability=\"While *raging,* the barbarian can absorb energy from a single attack of her chosen energy type once per *rage.* She does not make a saving throw against the effect but takes no damage from it, instead gaining 1 temporary hit point per 3 points of damage the attack would have inflicted. These ‹rule/temporary hit points› last until the end of the barbarian's *rage.*\" prereq=\"12th-level barbarian, ‹ragepower/greater energy resistance›\"}"
 		]
 	},
 	"energy_eruption": {
 		"name": "Energy Eruption",
-		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"level": 3,
 		"description": [
-			"While *raging,* the barbarian can absorb energy from a single attack and unleash it upon her enemies once per *rage.* She does not make a saving throw against the effect but takes no damage from it. At any point during the remainder of her *rage* she can unleash the stored energy as a breath weapon in either a 60-foot line or 30-foot cone. The breath weapon inflicts damage equal to the damage from the attack absorbed by the barbarian, but creatures within the area may make a Reflex save (DC 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier) for half damage even if the original effect did not allow a save. A barbarian must have the ‹ragepower/energy absorption› rage power to select this rage power. A barbarian must be at least 16th level to select this rage power."
+			"::ab{icon=def-line-cone title=\"&L&Energy Eruption (Su)&FN&\" usage=\"Once per *rage*\" ability=\"While *raging,* the barbarian can absorb energy from a single attack and unleash it upon her enemies. She does not make a saving throw against the effect but takes no damage from it.~~~At any point during the remainder of her *rage* she can unleash the stored energy as a breath weapon in either a 60-foot line or 30-foot cone. The breath weapon inflicts damage equal to the damage from the attack absorbed by the barbarian, but creatures within the area may make a Reflex save (DC 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier) for half damage even if the original effect did not allow a save.\" prereq=\"16th-level barbarian, ‹ragepower/energy absorption›\"}"
 		]
 	},
 	"erratic_charge": {
 		"name": "Erratic Charge",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Villain Codex" ] ],
 		"description": [
-			"As part of the full-round action to perform a charge attack against a creature at least 20 feet away, the barbarian can move 5 feet in any direction before making the charge. This movement is not a 5-foot step and provokes attacks of opportunity as normal, and using this option reduces the maximum distance of the charge by 10 feet."
+			"::ab{icon=melee title=\"&L&Erratic Charge (Ex)&FN&\" ability=\"As part of the full-round action to perform a ‹rule/charge› attack against a creature at least 20 feet away, the barbarian can move 5 feet in any direction before making the charge. This movement is not a 5-foot step and provokes attacks of opportunity as normal, and using this option reduces the maximum distance of the charge by 10 feet.\"}"
 		]
 	},
 	"greater_erratic_charge": {
 		"name": "Greater Erratic Charge",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Villain Codex" ] ],
 		"level": 1,
 		"description": [
-			"The barbarian can move 10 feet when using erratic charge. If she does so, the creature she is charging must be at least 20 feet away and the movement reduces the maximum distance of her charge by 20 feet. A barbarian must be at least 8th level and must have the ‹ragepower/erratic charge› rage power before selecting this power."
+			"::ab{icon=melee title=\"&L&Greater Erratic Charge (Ex)&FN&\" ability=\"The barbarian can move 10 feet when using *erratic charge.* If she does so, the creature she is charging must be at least 20 feet away and the movement reduces the maximum distance of her charge by 20 feet.\" prereq=\"‹ragepower/Erratic charge›\"}"
 		]
 	},
 	"erratic_charge_greater": { "redirect": "greater_erratic_charge" },
 	"fearless_rage": {
 		"name": "Fearless Rage",
-		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "PRPG Core Rulebook" ] ],
 		"description": [
-			"While *raging,* the barbarian is immune to the shaken and frightened conditions. A barbarian must be at least 12th level before selecting this rage power."
+			"::ab{icon=def title=\"&L&Fearless Rage (Ex)&FN&\" passive=\"While *raging,* the barbarian is immune to the ‹misc/shaken› and ‹misc/frightened› conditions.\" prereq=\"12th-level barbarian\"}"
 		]
 	},
 	"ferocious_beast": {
@@ -1359,212 +1327,206 @@
 	},
 	"lesser_ancestor_totem": {
 		"name": "Lesser Ancestor Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"compilationSources": [ [ "Wilderness Origins" ] ],
 		"description": [
-			"When she enters a *rage,* the barbarian selects a skill of her choice, which must be one she can use while *raging,* such as Climb or Intimidate. While *raging,* she gains a +2 insight bonus to the chosen skill.",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=boost title=\"&L&Lesser Ancestor Totem (Su)&FN&\" passive=\"When she enters a *rage,* the barbarian selects a skill of her choice, which must be one she can use while *raging,* such as Climb or Intimidate. While *raging,* she gains a +2 insight bonus to the chosen skill.\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		]
 	},
 	"ancestor_totem_lesser": { "redirect": "lesser_ancestor_totem" },
 	"ancestor_totem": {
 		"name": "Ancestor Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 1,
 		"compilationSources": [ [ "Wilderness Origins" ] ],
 		"description": [
-			"The barbarian's insight bonus to her chosen skill increases to +4. The barbarian can now select any skill to receive this bonus, even a Charisma-, Dexterity-, or Intelligence-based skill or a skill that requires patience or concentration; if she selects such a skill, she can use it even while *raging.* A barbarian must have the ‹ragepower/lesser ancestor totem› rage power and be at least 6th level to select this rage power."
+			"::ab{icon=boost title=\"&L&Ancestor Totem (Su)&FN&\" passive=\"The barbarian's insight bonus to her chosen skill increases to +4. The barbarian can now select any skill to receive this bonus, even a Charisma-, Dexterity-, or Intelligence-based skill or a skill that requires patience or concentration; if she selects such a skill, she can use it even while *raging.*\" prereq=\"‹ragepower/Lesser ancestor totem›, 6th-level barbarian\"}"
 		]
 	},
 	"greater_ancestor_totem": {
 		"name": "Greater Ancestor Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 2,
 		"compilationSources": [ [ "Wilderness Origins" ] ],
 		"description": [
-			"The barbarian's insight bonus to her chosen skill increases to +6. Once per *rage,* she can spend one round of *rage* as an immediate action to reroll a skill check in the chosen skill. She must take the result of the second roll, even if it is lower. A barbarian must have the ‹ragepower/ancestor totem› rage power and be at least 10th level to select this rage power."
+			"::ab{icon=boost-roll title=\"&L&Greater Ancestor Totem (Su)&FN&\" order=pi passive=\"The barbarian's insight bonus to her chosen skill increases to +6.\" immediate=\"Once per *rage,* she can spend one round of *rage* to reroll a skill check in the chosen skill. She must take the result of the second roll, even if it is lower.\" prereq=\"‹ragepower/Ancestor totem›, 10th-level barbarian\"}"
 		]
 	},
 	"ancestor_totem_greater": { "redirect": "greater_ancestor_totem" },
 	"lesser_atavism_totem": {
 		"name": "Lesser Atavism Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"compilationSources": [ [ "Villain Codex" ] ],
 		"description": [
-			"The barbarian gains a bite attack; if she already has a bite attack, it deals damage as if the barbarian were one size larger.",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=melee title=\"&L&Lesser Atavism Totem (Su)&FN&\" ability=\"The barbarian gains a ‹umr/bite attack›; if she already has a bite attack, it deals damage as if the barbarian were one size larger.\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		]
 	},
 	"atavism_totem_lesser": { "redirect": "lesser_atavism_totem" },
 	"atavism_totem": {
 		"name": "Atavism Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 1,
 		"compilationSources": [ [ "Villain Codex" ] ],
 		"description": [
-			"The barbarian gains ‹umr/ferocity›. A barbarian must be at least 6th level and have the ‹ragepower/lesser atavism totem› to select this rage power."
+			"::ab{icon=power title=\"&L&Atavism Totem (Su)&FN&\" ability=\"The barbarian gains ‹umr/ferocity›.\" prereq=\"‹ragepower/Lesser atavism totem›, 6th-level barbarian\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"greater_atavism_totem": {
 		"name": "Greater Atavism Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 2,
 		"compilationSources": [ [ "Villain Codex" ] ],
 		"description": [
-			"The barbarian gains ‹umr/trample›. She must be at least 10th level and have the ‹ragepower/atavism totem› to select this rage power."
+			"::ab{icon=power-melee title=\"&L&Greater Atavism Totem (Su)&FN&\" ability=\"The barbarian gains ‹umr/trample›.\" prereq=\"‹ragepower/Atavism totem›, 10th-level barbarian\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"atavism_totem_greater": { "redirect": "greater_atavism_totem" },
 	"lesser_beast_totem": {
 		"name": "Lesser Beast Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While *raging,* the barbarian gains two claw attacks. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. The claws deal 1d6 points of slashing damage (1d4 if Small) plus the barbarian's Strength modifier.",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=melee title=\"&L&Lesser Beast Totem (Su)&FN&\" ability=\"While *raging,* the barbarian gains two ‹umr/claw attack«s›. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. The claws deal 1d6 points of slashing damage (1d4 if Small) plus the barbarian's Strength modifier.\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"beast_totem_lesser": { "redirect": "lesser_beast_totem" },
 	"beast_totem": {
 		"name": "Beast Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 1,
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While *raging,* the barbarian gains a +1 natural armor bonus. This bonus increases by +1 for every four levels the barbarian has attained. A barbarian must have the ‹ragepower/lesser beast totem› rage power to select this rage power. A barbarian must be at least 6th level to select this rage power."
+			"::ab{icon=def title=\"&L&Beast Totem (Su)&FN&\" passive=\"While *raging,* the barbarian gains a natural armor bonus. @B-4f1-barbarian.\" prereq=\"‹ragepower/Lesser beast totem›, 6th-level barbarian\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"greater_beast_totem": {
 		"name": "Greater Beast Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 2,
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While *raging,* the barbarian gains the ‹umr/pounce› special ability, allowing her to make a full attack at the end of a charge. In addition, the damage from her claws increases to 1d8 (1d6 if Small) and the claws deal &times;3 damage on a critical hit. A barbarian must have the ‹ragepower/beast totem› rage power to select this rage power. A barbarian must be at least 10th level to select this rage power."
+			"::ab{icon=melee-boost title=\"&L&Greater Beast Totem (Su)&FN&\" ability=\"While *raging,* the barbarian gains the ‹umr/pounce› special ability, allowing her to make a full attack at the end of a charge. In addition, the damage from her claws increases to 1d8 (1d6 if Small) and the claws deal &times&3 damage on a critical hit.\" prereq=\"‹ragepower/Beast totem›, 10th-level barbarian\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"beast_totem_greater": { "redirect": "greater_beast_totem" },
 	"lesser_celestial_totem": {
 		"name": "Lesser Celestial Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"compilationSources": [ [ "Champions of Purity" ] ],
 		"description": [
-			"While *raging,* the barbarian benefits from increased magical healing. Whenever she is subject to a spell that cures hit point damage, she heals 1 additional point of damage per caster level. In the case of non-spell healing effects (such as channeled energy or lay on hands), she heals a number of additional points equal to the class level of the character performing the magical healing. This does not affect fast healing or regeneration.",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=aid-boost title=\"&L&Lesser Celestial Totem (Su)&FN&\" passive=\"While *raging,* the barbarian benefits from increased magical healing. Whenever she is subject to a spell that cures hit point damage, she heals 1 additional point of damage per caster level. In the case of non-spell healing effects (such as ‹ability/channel«ed» energy› or ‹ability/lay on hands›), she heals a number of additional points equal to the class level of the character performing the magical healing. This does not affect fast healing or regeneration.\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"celestial_totem_lesser": { "redirect": "lesser_celestial_totem" },
 	"celestial_totem": {
 		"name": "Celestial Totem",
-		"nameSuffix": "(Su)",
 		"level": 1,
 		"category": "Totem",
 		"compilationSources": [ [ "Champions of Purity" ] ],
 		"description": [
-			"While *raging,* the barbarian shines with a righteous light. This effect bestows upon the barbarian a halo of gleaming light that shines as if it were ‹spell/daylight› and triggers an ‹spell/invisibility purge› effect in the barbarian's square and each adjacent square. The *invisibility purge* only affects nongood creatures. A barbarian must be at least 8th level and have the ‹ragepower/lesser celestial totem› to select this rage power."
+			"::ab{icon=magic title=\"&L&Celestial Totem (Su)&FN&\" ability=\"While *raging,* the barbarian shines with a righteous light. This effect bestows upon the barbarian a halo of gleaming light that shines as if it were ‹spell/daylight› and triggers an ‹spell/invisibility purge› effect in the barbarian's square and each adjacent square. The *invisibility purge* only affects nongood creatures.\" prereq=\"8th-level barbarian, ‹ragepower/lesser celestial totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"greater_celestial_totem": {
 		"name": "Greater Celestial Totem",
-		"nameSuffix": "(Su)",
 		"level": 2,
 		"category": "Totem",
 		"compilationSources": [ [ "Champions of Purity" ] ],
 		"description": [
-			"While *raging,* the barbarian gains spell resistance equal to 11 + the barbarian's class level against spells with the evil descriptor. She also gains a +2 bonus on all saving throws against spells and effects from evil creatures. A barbarian must have the ‹ragepower/celestial totem› rage power and be at least 12th level to select this rage power."
+			"::ab{icon=def title=\"&L&Greater Celestial Totem (Su)&FN&\" passive=\"While *raging,* the barbarian gains spell resistance equal to 11 + the barbarian's class level against spells with the evil descriptor. She also gains a +2 bonus on all saving throws against spells and effects from evil creatures.\" prereq=\"12th-level barbarian, ‹ragepower/celestial totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"celestial_totem_greater": { "redirect": "greater_celestial_totem" },
 	"lesser_chaos_totem": {
 		"name": "Lesser Chaos Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While *raging,* the barbarian gains a +1 deflection bonus to AC against the attacks of lawful creatures and a +1 resistance bonus on saving throws against confusion, insanity, polymorph, and effects with the lawful descriptor. This bonus increases by +1 for each chaos totem rage power she possesses.",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=def title=\"&L&Lesser Chaos Totem (Su)&FN&\" passive=\"While *raging,* the barbarian gains a +1 deflection bonus to AC against the attacks of lawful creatures and a +1 resistance bonus on saving throws against confusion, insanity, polymorph, and effects with the lawful descriptor. This bonus increases by +1 for each chaos totem rage power she possesses.\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"chaos_totem_lesser": { "redirect": "lesser_chaos_totem" },
 	"chaos_totem": {
 		"name": "Chaos Totem",
-		"nameSuffix": "(Su)",
 		"level": 1,
 		"category": "Totem",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While *raging,* the barbarian's form becomes infused with chaos. She gains a +4 bonus on Escape Artist checks and has a 25% chance to ignore extra damage from critical hits and sneak attacks. A barbarian must have the ‹ragepower/lesser chaos totem› rage power to select this rage power. A barbarian must be at least 6th level to select this rage power."
+			"::ab{icon=boost-def title=\"&L&Chaos Totem (Su)&FN&\" passive=\"While *raging,* the barbarian's form becomes infused with chaos. She gains a +4 bonus on Escape Artist checks and has a 25% chance to ignore extra damage from critical hits and sneak attacks.\" prereq=\"6th-level barbarian, ‹ragepower/lesser chaos totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"greater_chaos_totem": {
 		"name": "Greater Chaos Totem",
-		"nameSuffix": "(Su)",
 		"level": 2,
 		"category": "Totem",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While *raging,* the barbarian gains DR/lawful equal to 1/2 her barbarian level. Her weapons and natural weapons are considered chaotic for the purpose of overcoming damage reduction. A barbarian must have the ‹ragepower/chaos totem› rage power to select this rage power. A barbarian must be at least 10th level to select this rage power."
+			"::ab{icon=def-boost title=\"&L&Greater Chaos Totem (Su)&FN&\" passive=\"While *raging,* the barbarian gains DR/lawful equal to 1/2 her barbarian level. Her weapons and natural weapons are considered chaotic for the purpose of overcoming damage reduction.\" prereq=\"10th-level barbarian, ‹ragepower/chaos totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"chaos_totem_greater": { "redirect": "greater_chaos_totem" },
 	"lesser_cult_totem": {
 		"name": "Lesser Cult Totem",
-		"nameSuffix": "(Ex)",
 		"category": "Totem",
 		"compilationSources": [ [ "Horror Adventures" ] ],
 		"description": [
-			"While the barbarian is *raging,* any morale bonuses or bonuses for flanking she gains on attacks rolls are added to her damage rolls instead of her attack rolls. They are still morale bonuses, and they don't stack with other morale bonuses on damage rolls.",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=power title=\"&L&Lesser Cult Totem (Ex)&FN&\" passive=\"While the barbarian is *raging,* any morale bonuses or bonuses for ‹rule/flanking› she gains on attacks rolls are added to her damage rolls instead of her attack rolls. They are still morale bonuses, and they don't stack with other morale bonuses on damage rolls.\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"cult_totem_lesser": { "redirect": "lesser_cult_totem" },
 	"cult_totem": {
 		"name": "Cult Totem",
-		"nameSuffix": "(Ex)",
 		"level": 1,
 		"category": "Totem",
 		"compilationSources": [ [ "Horror Adventures" ] ],
 		"description": [
-			"The barbarian can make an attack of opportunity against a creature within her reach who damages an ally of the barbarian with a melee attack. Only the enemy, not the barbarian's ally, needs to be within the barbarian's melee reach in order for the barbarian to make this attack of opportunity. Once the barbarian makes an attack of opportunity against a creature with this ability, she can't use this ability to make an attack of opportunity against the same creature for 24 hours. A barbarian must be at least 6th level and have the ‹ragepower/lesser cult totem› rage power to select this rage power."
+			"::ab{icon=protect title=\"&L&Cult Totem (Ex)&FN&\" ability=\"The barbarian can make an attack of opportunity against a creature within her reach who damages an ally of the barbarian with a melee attack. Only the enemy, not the barbarian's ally, needs to be within the barbarian's melee reach in order for the barbarian to make this attack of opportunity.\" special=\"Once the barbarian makes an attack of opportunity against a creature with this ability, she can't use this ability to make an attack of opportunity against the same creature for 24 hours.\" prereq=\"6th-level barbarian, ‹ragepower/lesser cult totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"greater_cult_totem": {
 		"name": "Greater Cult Totem",
-		"nameSuffix": "(Ex)",
 		"level": 2,
 		"category": "Totem",
 		"compilationSources": [ [ "Horror Adventures" ] ],
 		"description": [
-			"While the barbarian is *raging,* when she takes hit point damage that would render her dying or dead, she remains conscious and *raging* until the end of her next turn after taking that damage, though she is ‹misc/disabled› during that turn. She becomes ‹misc/dying› or ‹misc/dead› at the end of her next turn as normal for her current hit point total. This ability has no effect if the barbarian dies from a cause other than hit point damage, such as from a death effect or if her Constitution damage exceeds her Constitution score. A barbarian must be at least 10th level and have the ‹ragepower/lesser cult totem› and ‹ragepower/cult totem› rage powers to select this rage power."
+			"::ab{icon=power title=\"&L&Greater Cult Totem (Ex)&FN&\" passive=\"While the barbarian is *raging,* when she takes hit point damage that would render her ‹misc/dying› or ‹misc/dead›, she remains conscious and *raging* until the end of her next turn after taking that damage, though she is ‹misc/disabled› during that turn. She becomes dying or dead at the end of her next turn as normal for her current hit point total.\" special=\"This ability has no effect if the barbarian dies from a cause other than hit point damage, such as from a death effect or if her Constitution damage exceeds her Constitution score.\" prereq=\"10th-level barbarian, ‹ragepower/lesser cult totem›, ‹ragepower/cult totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1574,277 +1536,266 @@
 		"compilationSources": [ [ "Horror Adventures" ] ],
 		"category": "Totem",
 		"description": [
-			"While *raging,* the barbarian gains a +2 bonus on saving throws against acid damage, death effects, disease, and poison. This bonus increases by 1 for each daemon totem rage power the barbarian has, excluding this one.",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=def title=\"&L&&FN&\" passive=\"While *raging,* the barbarian gains a +2 bonus on saving throws against acid damage, death effects, disease, and poison. This bonus increases by 1 for each daemon totem rage power the barbarian has, excluding this one.\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"daemon_totem_lesser": { "redirect": "lesser_daemon_totem" },
 	"daemon_totem": {
 		"name": "Daemon Totem",
-		"nameSuffix": "(Su)",
 		"level": 1,
 		"category": "Totem",
 		"compilationSources": [ [ "Horror Adventures" ] ],
 		"description": [
-			"While the barbarian is *raging,* her melee attacks impose a temporary negative level on her opponent on a successful critical hit. After 1 hour, these temporary negative levels disappear automatically (without a saving throw). A barbarian must be at least 6th level and have the ‹ragepower/lesser daemon totem› rage power to select this rage power."
+			"::ab{icon=lower title=\"&L&Daemon Totem (Su)&FN&\" ability=\"While the barbarian is *raging,* her melee attacks impose a temporary ‹rule/negative level› on her opponent on a successful critical hit. After 1 hour, these temporary negative levels disappear automatically (without a saving throw).\" prereq=\"6th-level barbarian, ‹ragepower/lesser daemon totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"greater_daemon_totem": {
 		"name": "Greater Daemon Totem",
-		"nameSuffix": "(Su)",
 		"level": 2,
 		"category": "Totem",
 		"compilationSources": [ [ "Horror Adventures" ] ],
 		"description": [
-			"If the barbarian kills an intelligent creature with a CR equal to at least half her character level while *raging,* she heals 5 hit points. If she is already at her maximum number of hit points, she instead gains 5 ‹rule/temporary hit points›, which don't stack if she kills multiple creatures. A barbarian must be at least 10th level and have the ‹ragepower/lesser daemon totem› and ‹ragepower/daemon totem› rage powers to select this rage power."
+			"::ab{icon=aid title=\"&L&Greater Daemon Totem (Su)&FN&\" ability=\"If the barbarian kills an intelligent creature with a CR equal to at least half her character level while *raging,* she heals 5 hit points. If she is already at her maximum number of hit points, she instead gains 5 ‹rule/temporary hit points›, which don't stack if she kills multiple creatures.\" prereq=\"10th level barbarian, ‹ragepower/lesser daemon totem›, ‹ragepower/daemon totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"daemon_totem_greater": { "redirect": "greater_daemon_totem" },
 	"dragon_totem": {
 		"name": "Dragon Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [
-			"The barbarian must select a single color of dragon (black, blue, brass, bronze, copper, gold, green, red, silver, or white) as her totem. While *raging,* she gains a +1 bonus on Perception checks and a +1 morale bonus on saving throws against fear, paralysis, and sleep effects. This bonus increases by +1 for each additional dragon totem rage power (such as dragon totem resilience and dragon totem wings) the barbarian possesses. A barbarian must have the ‹ragepower/animal fury› and ‹ragepower/intimidating glare› rage powers and be at least 6th level before selecting this rage power.",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=boost-def title=\"&L&Dragon Totem (Su)&FN&\" order=cp choice=\"The barbarian must select a single color of dragon (black, blue, brass, bronze, copper, gold, green, red, silver, or white) as her totem.\" passive=\"While *raging,* she gains a +1 bonus on Perception checks and a +1 morale bonus on saving throws against fear, paralysis, and sleep effects. This bonus increases by +1 for each additional dragon totem rage power (such as ‹ragepower/dragon totem resilience› and ‹ragepower/dragon totem wings›) the barbarian possesses.\" prereq=\"‹ragepower/Animal fury›, ‹ragepower/intimidating glare›, 6th-level barbarian\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"dragon_totem_resilience": {
 		"name": "Dragon Totem Resilience",
-		"nameSuffix": "(Su)",
 		"level": 1,
 		"category": "Totem",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [
-			"While *raging,* the barbarian gains resistance to the energy type that is associated with her dragon totem - acid (black, copper, green), cold (silver, white), electricity (blue, bronze), or fire (brass, gold, red). This resistance equals double her current DR/- from her barbarian damage reduction class feature; this energy resistance increases by 2 for each dragon totem rage power she possesses, including this one. A barbarian must have the ‹ragepower/dragon totem› rage power and be at least 8th level before selecting this rage power."
+			"::ab{icon=def title=\"&L&Dragon Totem Resilience (Su)&FN&\" passive=\"While *raging,* the barbarian gains resistance to the energy type that is associated with her dragon totem - acid (black, copper, green), cold (silver, white), electricity (blue, bronze), or fire (brass, gold, red). This resistance equals double her current DR/- from her barbarian *damage reduction* class feature; this energy resistance increases by 2 for each dragon totem rage power she possesses, including this one.\" prereq=\"‹ragepower/Dragon totem›, 8th-level barbarian\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"dragon_totem_wings": {
 		"name": "Dragon Totem Wings",
-		"nameSuffix": "(Su)",
-		"level": 1,
+		"level": 2,
 		"category": "Totem",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [
-			"When a barbarian selects this rage power, the Fly (Dex) skill becomes a class skill for her. While *raging* and wearing medium or lighter armor, the barbarian can spend a standard action to manifest a pair of spiritual dragon wings that grant her a fly speed equal to her base speed (average maneuverability). She can expend 2 rounds of her *rage* to instead spend an immediate action to gain this fly speed. She can end her fly speed at any time, even when it is not her turn. Each round she spends *raging* and flying counts as 2 rounds of *rage.* Her ability to fly ends automatically when she ceases *raging.* A barbarian must have the ‹ragepower/dragon totem› and ‹ragepower/dragon totem resilience› rage powers, and she must be at least 10th level before selecting this rage power."
+			"::ab{icon=skill-power title=\"&L&Dragon Totem Wings (Su)&FN&\" order=ps passive=\"When a barbarian selects this rage power, the ‹skill/Fly› (Dex) skill becomes a class skill for her.\" standard=\"While *raging* and wearing medium or lighter armor, the barbarian can manifest a pair of spiritual dragon wings that grant her a fly speed equal to her base speed (average maneuverability). She can expend 2 rounds of her *rage* to instead use an @HLimmediate_action to gain this fly speed.\" special=\"She can end her fly speed at any time, even when it is not her turn. Each round she spends *raging* and flying counts as 2 rounds of *rage.* Her ability to fly ends automatically when she ceases *raging.*\" prereq=\"‹ragepower/Dragon totem›, ‹ragepower/dragon totem resilience›, 10th-level barbarian\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"lesser_elemental_totem": {
 		"name": "Lesser Elemental Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"description": [
-			"The barbarian selects one elemental type (air, earth, fire, or water). Once selected, this choice cannot be changed. While *raging,* the barbarian gains a +1 bonus on saving throws against spells with the selected elemental descriptor. This bonus increases by 1 at 4th level and every 4 levels thereafter, to a maximum of +6 at 20th level. The barbarian gains access to the elemental totem rage power matching the element she selected.",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=def title=\"‹ragepower/Lesser Elemental Totem› (Su)&FN&\" choice=\"The barbarian selects one elemental type (air, earth, fire, or water). Once selected, this choice cannot be changed.\" passive=\"While *raging,* the barbarian gains a bonus on saving throws against spells with the selected elemental descriptor. @B-4f1-barbarian. The barbarian gains access to the elemental totem rage power matching the element she selected.\" order=cp &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"elemental_totem_lesser": { "redirect": "lesser_elemental_totem" },
 	"air_totem": {
 		"name": "Air Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 1,
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"description": [
-			"Once per *rage,* the barbarian can move for 1 round as if affected by ‹spell/air walk›. You must be at least 6th level and must have selected air when you gained the ‹ragepower/lesser elemental totem› rage power."
+			"::ab{icon=magic title=\"&L&Air Totem (Su)&FN&\" ability=\"Once per *rage,* the barbarian can move for 1 round as if affected by ‹spell/air walk›.\" prereq=\"6th-level barbarian, ‹ragepower/lesser elemental totem› (air)\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"greater_air_totem": {
 		"name": "Greater Air Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 2,
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"description": [
-			"While *raging,* the barbarian is surrounded by an aura of howling winds. Creatures attempting to cast spells while adjacent to the barbarian must succeed at a ‹rule/concentration› check (DC 15 + spell level), and ranged attack rolls against the barbarian take a -4 penalty. Creatures smaller than the barbarian that attack the barbarian in melee with a natural weapon or touch attack must succeed at a Fortitude save (DC 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier) or the attack fails and the creature is flung back 5 feet and knocked ‹rule/prone›. The barbarian can suspend this aura as a free action. You must be 10th level and have the ‹ragepower/air totem› rage power before you can select this."
+			"::ab{icon=aura-lower-def title=\"&L&Greater Air Totem (Su)&FN&\" passive=\"While *raging,* the barbarian is surrounded by an aura of howling winds. Creatures attempting to cast spells while adjacent to the barbarian must succeed at a ‹rule/concentration› check (DC 15 + spell level), and ranged attack rolls against the barbarian take a -4 penalty.~~~Creatures smaller than the barbarian that attack the barbarian in melee with a natural weapon or touch attack must succeed at a Fortitude save (DC 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier) or the attack fails and the creature is flung back 5 feet and knocked ‹rule/prone›.\" special=\"The barbarian can suspend this aura as a @HLfree_action.\" prereq=\"10th-level barbarian, ‹ragepower/air totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"air_totem_greater": { "redirect": "greater_air_totem" },
 	"earth_totem": {
 		"name": "Earth Totem",
-		"nameSuffix": "(Ex)",
 		"category": "Totem",
 		"level": 1,
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"description": [
-			"While *raging,* the barbarian can burrow through sand, loose soil, or gravel at a speed of 20 feet. This does not give the barbarian the ability to breathe underground. Loose material collapses behind the target 1 round after it leaves the area. You must be at least 6th level and must have selected earth when you gained the ‹ragepower/lesser elemental totem› rage power."
+			"::ab{icon=power title=\"&L&Earth Totem (Ex)&FN&\" ability=\"While *raging,* the barbarian can burrow through sand, loose soil, or gravel at a speed of 20 feet. This does not give the barbarian the ability to breathe underground. Loose material collapses behind the target 1 round after it leaves the area.\" prereq=\"6th-level barbarian, ‹ragepower/lesser elemental totem› (earth)\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"greater_earth_totem": {
 		"name": "Greater Earth Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 2,
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"description": [
-			"While *raging,* the barbarian's skin becomes as hard as stone. If the barbarian is hit with a manufactured weapon while *raging,* the weapon takes an amount of damage equal to half that dealt to the barbarian (ignoring damage reduction). You must be 10th level and have the ‹ragepower/earth totem› rage power before you can select this."
+			"::ab{icon=def title=\"&L&Greater Earth Totem (Su)&FN&\" passive=\"While *raging,* the barbarian's skin becomes as hard as stone. If the barbarian is hit with a manufactured weapon while *raging,* the weapon takes an amount of damage equal to half that dealt to the barbarian (ignoring damage reduction).\" prereq=\"10th-level barbarian, ‹ragepower/earth totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"earth_totem_greater": { "redirect": "greater_earth_totem" },
 	"fire_totem": {
 		"name": "Fire Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 1,
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"description": [
-			"While the barbarian is *raging,* any opponent that confirms a critical hit against her with a piercing or slashing melee weapon is sprayed with liquid fire. (Creatures with reach weapons are immune.) The attacker takes 1d6 points of fire damage per barbarian level (Reflex halves; DC 10 + 1/2 the barbarian's level + the barbarian's Con modifier). You must be at least 6th level and must have selected fire when you gained the ‹ragepower/lesser elemental totem› rage power."
+			"::ab{icon=def title=\"&L&Fire Totem (Su)&FN&\" passive=\"While the barbarian is *raging,* any opponent that confirms a critical hit against her with a piercing or slashing melee weapon is sprayed with liquid fire. (Creatures with reach weapons are immune.) The attacker takes 1d6 points of fire damage per barbarian level (Reflex halves; DC 10 + 1/2 the barbarian's level + the barbarian's Con modifier).\" prereq=\"6th-level barbarian, ‹ragepower/lesser elemental totem› (fire)\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"greater_fire_totem": {
 		"name": "Greater Fire Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 2,
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"description": [
-			"While *raging,* the barbarian can envelope herself in a cloud of smoke that fills a 10-foot-radius sphere and follows her as she moves. Creatures in the affected area must succeed at Fortitude saves each round or [suffer the effects of breathing heavy smoke](rule/forest_fires). The barbarian is immune to the smoke's effects, including vision obstruction. She can end this smoke as a free action, or it can be dispersed by wind in the same manner as a ‹spell/fog cloud› spell. You must be 10th level and have the ‹ragepower/fire totem› rage power before you can select this."
+			"::ab{icon=aura-lower title=\"&L&Greater Fire Totem (Su)&FN&\" passive=\"While *raging,* the barbarian can envelope herself in a cloud of smoke that fills a 10-foot-radius sphere and follows her as she moves. Creatures in the affected area must succeed at Fortitude saves each round or ‹rule/suffer the effects of breathing heavy smoke»<forest_fires›. The barbarian is immune to the smoke's effects, including vision obstruction. She can end this smoke as a @HLfree_action, or it can be dispersed by wind in the same manner as a ‹spell/fog cloud› spell.\" prereq=\"10th-level barbarian, ‹ragepower/fire totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"fire_totem_greater": { "redirect": "greater_fire_totem" },
 	"water_totem": {
 		"name": "Water Totem",
-		"nameSuffix": "(Ex)",
 		"category": "Totem",
 		"level": 1,
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"description": [
-			"While *raging,* the barbarian can breathe water as well as air. You must be at least 6th level and must have selected water when you gained the ‹ragepower/lesser elemental totem› rage power."
+			"::ab{icon=power title=\"&L&Water Totem (Ex)&FN&\" ability=\"While *raging,* the barbarian can breathe water as well as air.\" prereq=\"6th-level barbarian, ‹ragepower/lesser elemental totem› (water)\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"greater_water_totem": {
 		"name": "Greater Water Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 2,
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"description": [
-			"While *raging,* the barbarian gains ‹umr/tremorsense› to a range of 30 feet while underwater. She can attack and move underwater as if affected by ‹spell/freedom of movement›. You must be 10th level and have the ‹ragepower/water totem› rage power before you can select this."
+			"::ab{icon=power-boost title=\"&L&Greater Water Totem (Su)&FN&\" ability=\"While *raging,* the barbarian gains ‹umr/tremorsense› to a range of 30 feet while underwater. She can attack and move underwater as if affected by ‹spell/freedom of movement›.\" prereq=\"10th-level barbarian, ‹ragepower/water totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"water_totem_greater": { "redirect": "greater_water_totem" },
 	"lesser_fiend_totem": {
 		"name": "Lesser Fiend Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While *raging,* the barbarian grows a pair of large horns, gaining a gore attack. This attack is a primary attack (unless she is also attacking with weapons, in which case it is a secondary attack) and is made at the barbarian's full base attack bonus (-5 if it is a secondary attack). The gore attack deals 1d8 points of piercing damage (1d6 if Small) plus the barbarian's Strength modifier (1/2 if it is a secondary attack).",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=melee title=\"&L&Lesser Fiend Totem (Su)&FN&\" ability=\"While *raging,* the barbarian grows a pair of large horns, gaining a ‹umr/gore attack›. This attack is a primary attack (unless she is also attacking with weapons, in which case it is a secondary attack) and is made at the barbarian's full base attack bonus (-5 if it is a secondary attack). The gore attack deals 1d8 points of piercing damage (1d6 if Small) plus the barbarian's Strength modifier (1/2 if it is a secondary attack).\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"fiend_totem_lesser": { "redirect": "lesser_fiend_totem" },
 	"fiend_totem": {
 		"name": "Fiend Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 1,
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While *raging,* the barbarian sprouts dozens of wicked barbs from her body. Anyone striking the barbarian with a melee weapon, an unarmed strike, or a natural weapon takes 1d6 points of piercing damage. A barbarian must have the ‹ragepower/lesser fiend totem› rage power to select this rage power. A barbarian must be at least 6th level to select this rage power."
+			"::ab{icon=def title=\"&L&Fiend Totem (Su)&FN&\" passive=\"While *raging,* the barbarian sprouts dozens of wicked barbs from her body. Anyone striking the barbarian with a melee weapon, an unarmed strike, or a natural weapon takes 1d6 points of piercing damage.\" prereq=\"6th-level barbarian, ‹ragepower/lesser fiend totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"greater_fiend_totem": {
 		"name": "Greater Fiend Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 2,
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While *raging,* the barbarian is surrounded by an aura of menace. Good creatures adjacent to the barbarian are ‹misc/shaken› and take 2d6 points of slashing damage at the beginning of the barbarian's turn as dozens of small cuts open across their flesh. Neutral creatures that are adjacent to the barbarian are shaken, but do not take any damage. Evil creatures are unaffected. A barbarian must have the ‹ragepower/fiend totem› rage power to select this rage power. A barbarian must be at least 10th level to select this rage power."
+			"::ab{icon=aura-lower title=\"&L&Greater Fiend Totem (Su)&FN&\" passive=\"While *raging,* the barbarian is surrounded by an aura of menace. Good creatures adjacent to the barbarian are ‹misc/shaken› and take 2d6 points of slashing damage at the beginning of the barbarian's turn as dozens of small cuts open across their flesh. Neutral creatures that are adjacent to the barbarian are shaken, but do not take any damage. Evil creatures are unaffected.\" prereq=\"10th-level barbarian, ‹ragepower/fiend totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"fiend_totem_greater": { "redirect": "greater_fiend_totem" },
 	"hive_totem": {
 		"name": "Hive Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [
-			"While *raging,* the barbarian takes half damage from attacks by swarms of vermin, including spells and effects that act like a swarm of vermin (like ‹spell/summon swarm› used to summon spiders or ‹spell/insect plague›). She also gains a +1 bonus on Strength ability checks and to CMD against bull rush, drag, and trip attacks for every four barbarian levels she has (maximum +5). A barbarian must have the ‹ragepower/animal fury› rage power and be at least 4th level before selecting this rage power.",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=def-boost title=\"&L&Hive Totem (Su)&FN&\" passive=\"While *raging,* the barbarian takes half damage from attacks by swarms of vermin, including spells and effects that act like a swarm of vermin (like ‹spell/summon swarm› used to summon spiders or ‹spell/insect plague›).~~~She also gains a bonus on Strength ability checks and to CMD against bull rush, drag, and trip attacks equal to ‹misc/one-fourth› of her barbarian level.\" prereq=\"‹ragepower/Animal fury›, 4th level barbarian\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"hive_totem_resilience": {
 		"name": "Hive Totem Resilience",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 1,
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [
-			"While *raging,* the barbarian takes no damage from attacks by swarms of vermin, preventing harmful secondary effects of such attacks like poison or bleed. She also gains a +1 bonus on combat maneuver checks and to CMD when grappling for every four barbarian levels she has (maximum +5). A barbarian must have the ‹ragepower/hive totem› rage power and be at least 6th level before selecting this rage power."
+			"::ab{icon=def-def title=\"&L&Hive Totem Resilience (Su)&FN&\" passive=\"While *raging,* the barbarian takes no damage from attacks by swarms of vermin, preventing harmful secondary effects of such attacks like poison or bleed. She also gains a bonus on combat maneuver checks and to CMD when grappling equal to ‹misc/one-fourth› of her barbarian level.\" prereq=\"‹ragepower/Hive totem›, 6th-level barbarian\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"hive_totem_toxicity": {
 		"name": "Hive Totem Toxicity",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 2,
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [
-			"While *raging,* the barbarian increases her bite damage die type with the ‹ragepower/animal fury› rage power [by one die type](umr/natural_attacks) and decreases the penalty on attack rolls with that bite to -2. Once per *rage,* a bite that hits can deliver an injury toxin that has a frequency of once per round for 4 rounds, deals 1d3 points of ‹rule/Constitution damage›, and has a cure of one save. The saving throw has a Fortitude save DC of 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier. A barbarian must have the ‹ragepower/hive totem› and ‹ragepower/hive totem resilience› rage powers and be at least 8th level before selecting this rage power."
+			"::ab{icon=boost-melee-lower title=\"&L&Hive Totem Toxicity (Su)&FN&\" passive=\"While *raging,* the barbarian increases her bite damage die type with the ‹ragepower/animal fury› rage power ‹misc/by one die« type› and decreases the penalty on attack rolls with that bite to -2.\" ability=\"Once per *rage,* a bite that hits can deliver an injury ‹rule/toxin› that has a frequency of once per round for 4 rounds, deals 1d3 points of ‹rule/Constitution damage›, and has a cure of one save. The saving throw has a Fortitude save DC of 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier.\" order=pa prereq=\"‹ragepower/Hive totem›, ‹ragepower/hive totem resilience›, 8th-level barbarian\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"lesser_moon_totem": {
 		"name": "Lesser Moon Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"compilationSources": [ [ "Wilderness Origins" ] ],
 		"description": [
-			"While *raging,* the barbarian gains darkvision with a range of 30 feet. If the barbarian already has darkvision, the range of her darkvision increases by 30 feet while she is *raging.*",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=power title=\"&L&Lesser Moon Totem (Su)&FN&\" ability=\"While *raging,* the barbarian gains darkvision with a range of 30 feet. If the barbarian already has darkvision, the range of her darkvision increases by 30 feet while she is *raging.*\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"moon_totem_lesser": { "redirect": "lesser_moon_totem" },
 	"moon_totem": {
 		"name": "Moon Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 1,
 		"compilationSources": [ [ "Wilderness Origins" ] ],
 		"description": [
-			"While *raging,* the barbarian gains a bonus equal to half her level on Perception checks to pinpoint the location of an unseen creature, and unseen attackers gain no bonus on attacks against the barbarian. A barbarian must have the ‹ragepower/lesser moon totem› rage power and be at least 6th level to select this rage power."
+			"::ab{icon=boost-def title=\"&L&Moon Totem (Su)&FN&\" passive=\"While *raging,* the barbarian gains a bonus equal to ‹misc/half› her level on Perception checks to pinpoint the location of an unseen creature, and unseen attackers gain no bonus on attacks against the barbarian.\" prereq=\"6th-level barbarian, ‹ragepower/lesser moon totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"greater_moon_totem": {
 		"name": "Greater Moon Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 2,
 		"compilationSources": [ [ "Wilderness Origins" ] ],
 		"description": [
-			"While *raging,* the barbarian ignores the miss chance for ‹rule/concealment› and treats total concealment as concealment. She must have the ‹ragepower/moon totem› rage power and be at least 10th level to select this rage power."
+			"::ab{icon=boost title=\"&L&Greater Moon Totem (Su)&FN&\" passive=\"While *raging,* the barbarian ignores the miss chance for ‹rule/concealment› and treats total concealment as concealment.\" prereq=\"‹ragepower/Moon totem›, 10th-level barbarian\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1854,9 +1805,11 @@
 		"compilationSources": [ [ "Pathfinder #139: The Dead Road" ] ],
 		"category": "Totem",
 		"description": [
-			"While *raging,* the barbarian gains a +1 deflection bonus to AC against the attacks of undead creatures and a +1 bonus on saving throws against death effects, diseases, and poisons. This bonus increases by 1 for each psychopomp totem rage power she has, excepting this one.",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=def title=\"&L&&FN&\" passive=\"While *raging,* the barbarian gains a +1 deflection bonus to AC against the attacks of undead creatures and a +1 bonus on saving throws against death effects, diseases, and poisons. This bonus increases by 1 for each psychopomp totem rage power she has, excepting this one.\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1867,7 +1820,7 @@
 		"compilationSources": [ [ "Pathfinder #139: The Dead Road" ] ],
 		"category": "Totem",
 		"description": [
-			"The first time each round a creature with ‹umr/regeneration› or ‹umr/fast healing› is struck by the barbarian while she is *raging,* the creature must succeed at a Will save (DC = 10 + half the barbarian's level + the barbarian's Strength modifier) or that ability is suppressed for 1 round. A barbarian must have the ‹ragepower/lesser psychopomp totem› rage power and be at least 6th level to select this rage power."
+			"::ab{icon=lower title=\"&L&&FN&\" ability=\"The first time each round a creature with ‹umr/regeneration› or ‹umr/fast healing› is struck by the barbarian while she is *raging,* the creature must succeed at a Will save (DC = 10 + half the barbarian's level + the barbarian's Strength modifier) or that ability is suppressed for 1 round.\" prereq=\"6th-level barbarian, ‹ragepower/lesser psychopomp totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1877,186 +1830,181 @@
 		"compilationSources": [ [ "Pathfinder #139: The Dead Road" ] ],
 		"category": "Totem",
 		"description": [
-			"While *raging,* the barbarian can detect and locate undead creatures within 30 feet, just as if it had the ‹umr/blindsight› ability, and any weapons she wields are treated as if they had the ‹magic-enh/ghost touch› special ability. A barbarian must have the ‹ragepower/psychopomp totem› rage power and be at least 10th level to select this rage power."
+			"::ab{icon=power-boost title=\"&L&&FN&\" passive=\"While *raging,* the barbarian can detect and locate undead creatures within 30 feet, just as if it had the ‹umr/blindsight› ability, and any weapons she wields are treated as if they had the ‹magic-enh/ghost touch› special ability.\" prereq=\"10th-level barbarian, ‹ragepower/psychopomp totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"psychopomp_totem_greater": { "redirect": "greater_psychopomp_totem" },
 	"lesser_spire_totem": {
 		"name": "Lesser Spire Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"compilationSources": [ [ "Wilderness Origins" ] ],
 		"description": [
-			"While *raging,* the barbarian gains a +1 morale bonus on attacks against any creature that has targeted one of her allies with an attack or a harmful spell within the last round.",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=boost title=\"&L&Lesser Spire Totem (Su)&FN&\" passive=\"While *raging,* the barbarian gains a +1 morale bonus on attacks against any creature that has targeted one of her allies with an attack or a harmful spell within the last round.\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"spire_totem_lesser": { "redirect": "lesser_spire_totem" },
 	"spire_totem": {
 		"name": "Spire Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 1,
 		"compilationSources": [ [ "Wilderness Origins" ] ],
 		"description": [
-			"While *raging,* the barbarian takes no penalties for using a weapon to deal nonlethal damage. When dealing nonlethal damage, the barbarian adds a bonus equal to half her barbarian level on her damage rolls. A barbarian must have the ‹ragepower/lesser spire totem› rage power and be at least 6th level to select this rage power."
+			"::ab{icon=boost title=\"&L&Spire Totem (Su)&FN&\" passive=\"While *raging,* the barbarian takes no penalties for using a weapon to deal nonlethal damage. When dealing nonlethal damage, the barbarian adds a bonus equal to half her barbarian level on her damage rolls.\" prereq=\"6th-level barbarian, ‹ragepower/lesser spire totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"greater_spire_totem": {
 		"name": "Greater Spire Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 2,
 		"compilationSources": [ [ "Wilderness Origins" ] ],
 		"description": [
-			"While the barbarian is *raging,* all allies within 30 feet gain a +2 morale bonus on Will saves. When attempting a Will save against a fear effect, all allies within this area can roll twice and use the better result. A barbarian must have the ‹ragepower/spire totem› rage power and be at least 10th level to select this rage power."
+			"::ab{icon=def-protect-roll title=\"&L&Greater Spire Totem (Su)&FN&\" passive=\"While the barbarian is *raging,* all allies within 30 feet gain a +2 morale bonus on Will saves. When attempting a Will save against a fear effect, all allies within this area can roll twice and use the better result.\" prereq=\"10th-level barbarian, ‹ragepower/spire totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"spire_totem_greater": { "redirect": "greater_spire_totem" },
 	"lesser_spirit_totem": {
 		"name": "Lesser Spirit Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While *raging,* the barbarian is surrounded by spirit wisps that harass her foes. These spirits make one slam attack each round against a living foe that is adjacent to the barbarian. This slam attack is made using the barbarian's full base attack bonus, plus the barbarian's Charisma modifier. The slam deals 1d4 points of negative energy damage, plus the barbarian's Charisma modifier.",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=melee title=\"&L&Lesser Spirit Totem (Su)&FN&\" passive=\"While *raging,* the barbarian is surrounded by spirit wisps that harass her foes. These spirits make one slam attack each round against a living foe that is adjacent to the barbarian. This slam attack is made using the barbarian's full base attack bonus, plus the barbarian's Charisma modifier. The slam deals 1d4 points of negative energy damage, plus the barbarian's Charisma modifier.\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"spirit_totem_lesser": { "redirect": "lesser_spirit_totem" },
 	"spirit_totem": {
 		"name": "Spirit Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 1,
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While *raging,* the spirits that surround the barbarian make it difficult for her enemies to see her. The spirits grant the barbarian a 20% miss chance against ranged attacks and melee attacks made by creatures that are not adjacent to the barbarian (typically due to reach). A barbarian must have the ‹ragepower/lesser spirit totem› rage power to select this rage power. A barbarian must be at least 6th level to select this rage power."
+			"::ab{icon=def title=\"&L&Spirit Totem (Su)&FN&\" passive=\"While *raging,* the spirits that surround the barbarian make it difficult for her enemies to see her. The spirits grant the barbarian a 20% miss chance against ranged attacks and melee attacks made by creatures that are not adjacent to the barbarian (typically due to reach).\" prereq=\"6th-level barbarian, ‹ragepower/lesser spirit totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"greater_spirit_totem": {
 		"name": "Greater Spirit Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 2,
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While *raging,* the spirits that surround the barbarian become dangerous to any enemy adjacent to the barbarian. Living enemies adjacent to the barbarian at the start of her turn take 1d8 points of negative energy damage. In addition, the spirit wisps can now attack foes that are up to 15 feet away from the barbarian and the slam attack deals 1d6 points of negative energy damage. A barbarian must have the ‹ragepower/spirit totem› rage power and be at least 10th level to select this rage power."
+			"::ab{icon=aura-ranged title=\"&L&Greater Spirit Totem (Su)&FN&\" passive=\"While *raging,* the spirits that surround the barbarian become dangerous to any enemy adjacent to the barbarian. Living enemies adjacent to the barbarian at the start of her turn take 1d8 points of negative energy damage. In addition, the spirit wisps can now attack foes that are up to 15 feet away from the barbarian and the slam attack deals 1d6 points of negative energy damage.\" prereq=\"10th-level barbarian, ‹ragepower/spirit totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"spirit_totem_greater": { "redirect": "greater_spirit_totem" },
 	"lesser_sun_totem": {
 		"name": "Lesser Sun Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"compilationSources": [ [ "Qadira, Jewel of the East" ] ],
 		"description": [
-			"The sun's fire invigorates the barbarian. She is immune to environmental effects from ‹rule/heat« and severe heat›, and she gains a +2 bonus on Fortitude saves against the effects of extreme heat. In addition, the barbarian gains fire resistance 5 while *raging.*",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=def title=\"&L&Lesser Sun Totem (Su)&FN&\" passive=\"The sun's fire invigorates the barbarian. She is immune to environmental effects from ‹rule/heat« and severe heat›, and she gains a +2 bonus on Fortitude saves against the effects of extreme heat. In addition, the barbarian gains fire ‹umr/resistance› 5 while *raging.*\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"sun_totem_lesser": { "redirect": "lesser_sun_totem" },
 	"sun_totem": {
 		"name": "Sun Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 1,
 		"compilationSources": [ [ "Qadira, Jewel of the East" ] ],
 		"description": [
-			"The touch of flame fuels and bolsters the barbarian's *rage.* She gains fire resistance 10 when *raging.* In addition, for 1d6 rounds after coming in direct contact with open flame, her speed increases by 10 feet. A barbarian must have the ‹ragepower/lesser sun totem› rage power and be at least 6th level to select this rage power."
+			"::ab{icon=def-boost title=\"&L&Sun Totem (Su)&FN&\" passive=\"The touch of flame fuels and bolsters the barbarian's *rage.* She gains fire resistance 10 when *raging.* In addition, for 1d6 rounds after coming in direct contact with open flame, her speed increases by 10 feet.\" prereq=\"6th-level barbarian, ‹ragepower/lesser sun totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"greater_sun_totem": {
 		"name": "Greater Sun Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 2,
 		"compilationSources": [ [ "Qadira, Jewel of the East" ] ],
 		"description": [
-			"The barbarian takes on aspects of the sun. She gains fire resistance 20 when *raging.* While *raging,* she is surrounded by a halo of flame that deals 1d6 points of fire damage to anyone that hits her with a touch attack or unarmed attack or succeeds at a bull rush, drag, or grapple combat maneuver against her. Her unarmed strikes and attacks with natural weapons deal 1d6 additional points of fire damage. A barbarian must have the ‹ragepower/sun totem› rage power and be at least 10th level to select this rage power."
+			"::ab{icon=def-aura-melee title=\"&L&Greater Sun Totem (Su)&FN&\" passive=\"The barbarian takes on aspects of the sun. She gains fire resistance 20 when *raging.* While *raging,* she is surrounded by a halo of flame that deals 1d6 points of fire damage to anyone that hits her with a touch attack or unarmed attack or succeeds at a bull rush, drag, or grapple combat maneuver against her. Her unarmed strikes and attacks with natural weapons deal 1d6 additional points of fire damage.\" prereq=\"10th-level barbarian, ‹ragepower/sun totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"sun_totem_greater": { "redirect": "greater_sun_totem" },
 	"lesser_tyrant_totem": {
 		"name": "Lesser Tyrant Totem",
-		"nameSuffix": "(Ex)",
 		"category": "Totem",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"description": [
-			"While *raging,* the barbarian's bite attack deals damage as if the barbarian were [one size larger](umr/natural_attacks) than her actual size. The barbarian must have the ‹ragepower/animal fury› rage power or a natural bite attack to choose this rage power.",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=boost title=\"&L&Lesser Tyrant Totem (Ex)&FN&\" passive=\"While *raging,* the barbarian's bite attack deals damage as if the barbarian were ‹misc/one size larger› than her actual size.\" prereq=\"‹ragepower/Animal fury› rage power or a natural bite attack\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"tyrant_totem_lesser": { "redirect": "lesser_tyrant_totem" },
 	"tyrant_totem": {
 		"name": "Tyrant Totem",
-		"nameSuffix": "(Ex)",
 		"category": "Totem",
 		"level": 1,
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"description": [
-			"While *raging,* the barbarian can begin a ‹rule/grapple› as a free action against any creature she hits with her bite attack. A barbarian must be at least 8th level and have the ‹ragepower/lesser tyrant totem› to choose this rage power."
+			"::ab{icon=melee title=\"&L&Tyrant Totem (Ex)&FN&\" free=\"While *raging,* the barbarian can begin a ‹rule/grapple› against any creature she hits with her bite attack.\" prereq=\"8th-level barbarian, ‹ragepower/lesser tyrant totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"greater_tyrant_totem": {
 		"name": "Greater Tyrant Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 2,
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"description": [
-			"While *raging,* the barbarian gains ‹umr/swallow whole› as per the universal monster rule. A barbarian must be at least 12th level and have the ‹ragepower/tyrant totem› to choose this rage power."
+			"::ab{icon=melee title=\"&L&Greater Tyrant Totem (Su)&FN&\" ability=\"While *raging,* the barbarian gains ‹umr/swallow whole› as per the universal monster rule.\" prereq=\"12th-level barbarian, ‹ragepower/tyrant totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"tyrant_totem_greater": { "redirect": "greater_tyrant_totem" },
 	"world_serpent_totem": {
 		"name": "World Serpent Totem",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [
-			"While *raging,* the barbarian gains a +1 insight bonus to AC against outsiders and aberrations. This bonus increases by +1 for each world serpent rage power the barbarian possesses, excluding this one.",
-			"",
-			"**Totem** rage powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
+			"::ab{icon=def title=\"&L&World Serpent Totem (Su)&FN&\" passive=\"While *raging,* the barbarian gains a +1 insight bonus to AC against outsiders and aberrations. This bonus increases by +1 for each world serpent rage power the barbarian possesses, excluding this one.\" &Totem&}"
+		],
+		"replacements": [
+			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
+			["&(L|FN)&", ""]
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"world_serpent_spirit": {
 		"name": "World Serpent Spirit",
-		"nameSuffix": "(Su)",
 		"level": 1,
 		"category": "Totem",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [
-			"While *raging,* the barbarian considers her weapons to be chaotic-, evil-, good-, and lawful-aligned for the purposes of overcoming damage reduction. She also gains a +1 resistance bonus on saving throws against spells and effects that have an alignment descriptor or come from an outsider or aberration. This bonus increases by +1 for each world serpent rage power the barbarian possesses, excluding this one. A barbarian must have the ‹ragepower/world serpent totem› rage power and be at least 6th level before selecting this rage power."
+			"::ab{icon=boost-def title=\"&L&World Serpent Spirit (Su)&FN&\" passive=\"While *raging,* the barbarian considers her weapons to be chaotic-, evil-, good-, and lawful-aligned for the purposes of overcoming damage reduction. She also gains a +1 resistance bonus on saving throws against spells and effects that have an alignment descriptor or come from an outsider or aberration. This bonus increases by +1 for each world serpent rage power the barbarian possesses, excluding this one.\" prereq=\"6th-level barbarian, ‹ragepower/world serpent totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
 	"world_serpent_totem_unity": {
 		"name": "World Serpent Totem Unity",
-		"nameSuffix": "(Su)",
 		"category": "Totem",
 		"level": 2,
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [
-			"While *raging,* the barbarian doubles her fast movement bonus to land speed and cannot be knocked ‹rule/prone›. She also doubles her world serpent totem insight bonus to AC against attack rolls made by an outsider or aberration to confirm a critical hit against her. A barbarian must have the ‹ragepower/world serpent totem› and ‹ragepower/world serpent spirit› rage powers and be at least 10th level before selecting this rage power."
+			"::ab{icon=boost-def title=\"&L&World Serpent Totem Unity (Su)&FN&\" passive=\"While *raging,* the barbarian doubles her *fast movement* bonus to land speed and cannot be knocked ‹rule/prone›. She also doubles her world serpent totem insight bonus to AC against attack rolls made by an outsider or aberration to confirm a critical hit against her.\" prereq=\"10th-level barbarian, ‹ragepower/world serpent totem›, ‹ragepower/world serpent spirit›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},

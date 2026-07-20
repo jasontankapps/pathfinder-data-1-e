@@ -440,12 +440,7 @@
 				],
 				{
 					"limit": { "uncategorized": true },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+?)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[ragepower/!-TITLE-!:] !-^S-! !-DESC-!"
+					"join": "!-N-!"
 				},
 				[
 					"",
@@ -459,12 +454,10 @@
 				],
 				{
 					"limit": "Elemental",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "(.+?)(!-N-!)+\\*\\*Elemental Power:\\*\\*.+",
-						"replacement": "$1"
-					},
-					"template": "@hll[ragepower/!-TITLE-!:] !-^S-! !-DESC-!"
+					"join": "!-N-!",
+					"replacements": [
+						[ "&Elemental&", "" ]
+					]
 				},
 				[
 					"",
@@ -478,12 +471,10 @@
 				],
 				{
 					"limit": "Blood",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "(.+?)(?:!-N-!)+\\*\\*Blood\\*\\* rage powers grant powers in a theme\\..+$|^>*(.+)",
-						"replacement": "$1$2"
-					},
-					"template": "!-BQ-!@hll[ragepower/!-TITLE-!:] !-^S-! !-DESC-!"
+					"join": "!-N-!",
+					"replacements": [
+						[ "&Blood&", "" ]
+					]
 				}
 			]
 		},

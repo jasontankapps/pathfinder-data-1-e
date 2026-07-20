@@ -48,6 +48,8 @@ const makeNewMarkedInstance = (initialUse = { gfm: true }, ...midArguments) => {
 		getBlockDirectives($, "::"),
 		getContainerDirectives($, ":::"),
 		getContainerDirectives($, ";;;"),
+		getContainerDirectives($, "!!!"),
+		getContainerDirectives($, "$$$"),
 		getInlineDirectives($, "@")
 	]));
 	midArguments.forEach(option => marked.use(option));
@@ -146,8 +148,6 @@ const $ = {
 	parseSOURCE,
 	removeCurlyBrackets
 };
-const footnoteNames = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890".split('');
-footnoteNames.push(...footnoteNames.map(x => x + x));
 
 // Parse command-line arguments
 process.argv.forEach(bit => {
@@ -566,53 +566,10 @@ const convertRace = (temporaryFlags, dirtyDesc, prefix, tables, subraces, altern
 	return [desc, {...$.flags, block: true, race: true}];
 };
 
-// Convert compilation templates into descriptions
-const parseTemplate = (template, title, suffix, sourceText, d, split = true) => {
-	// !-DESC-! becomes the entry description
-	// !-TITLE-! becomes the entry title
-	// !-SUFFIX-! becomes the entry nameSuffix
-	// !-SOURCE-! becomes a {SOURCE ...} line
-	// !-N-! is a newline
-	// !-^S-! is a footnote leading to Source info (not handled in this function)
-	// !-BQ-! is a MarkDown blockquote notation (not handled in this function)
-	// ??SOURCE:...?? only adds "..." if a Source exists
-	// ??SUFFIX:...?? only adds "..." if a nameSuffix exists
-	let constructed = template;
-	let m;
-	while(m = constructed.match(/^(.*?)\?\?([A-Z]+):(.+?)\?\?(.*$)/)) {
-		const [, pre, looking, maybe, post] = m;
-		if(
-			(looking === "SOURCE" && sourceText)
-			|| (looking === "SUFFIX" && suffix)
-		) {
-			constructed = `${pre}${maybe}${post}`;
-		} else {
-			constructed = `${pre}${post}`;
-		}
-	}
-	let desc = d.join("!-N-!");
-	const double = (split ? "!-N-!!-N-!" : "!-N-!!-BQ-!!-N-!!-BQ-!");
-	if(m = d[0].match(/^\s*>*\s*::|;;;/)) {
-		// Add two newlines if the description starts with a block- or container-level directive.
-		desc = double + desc;
-	}
-	if(m = d[d.length - 1].match(/^\s*>*\s*(::|;;;)/)) {
-		// Ditto if it ends with a block- or container-level directive.
-		desc += double;
-	}
-	constructed = constructed
-		.replace(/!-DESC-!/g, desc)
-		.replace(/!-TITLE-!/g, title)
-		.replace(/!-SUFFIX-!/g, suffix)
-		.replace(/!-SOURCE-!/g, sourceText);
-
-	return split ? constructed.split("!-N-!") : constructed;
-};
-
 // Convert markdown code into HTML, updating `$.flags` to note the outside Tags being used
 const convertCompileableDescription = (
-	temporaryFlags, template, d, title, suffix,
-	prefix, compilationSources,
+	temporaryFlags, d, title, suffix,
+	prefix, compilationSources, replacements,
 	openTag = "", closeTag = ""
 ) => {
 	const desc = [...d];
@@ -630,6 +587,16 @@ const convertCompileableDescription = (
 		markedFootnote({prefixId: prefix})
 	);
 
+	// Handle replacements
+	if(replacements) {
+		const rxs = replacements.map(([rx, repl]) => [new RegExp(rx, "g"), repl]);
+		desc.forEach((line, i) => {
+			let q = line;
+			rxs.map(([rx, repl]) => { q = q.replace(rx, repl) });
+			desc[i] = q;
+		});
+	}
+
 	// Handle sources
 	const dSource = [];
 	compilationSources.forEach(s => {
@@ -642,10 +609,10 @@ const convertCompileableDescription = (
 	});
 	const sourceText = dSource.length > 0 ? `‹SOURCE ${dSource.join(";")}›` : "";
 
+	sourceText && desc.unshift(sourceText, "");
+
 	// Parse the text
-	const parsed = marked.parse(
-		convertLinks(parseTemplate(template, title, suffix, sourceText, desc)).join("\n")
-	);
+	const parsed = marked.parse(convertLinks(desc).join("\n"));
 	// Remove temporary flags from the output.
 	const flags = {...$.flags};
 	Object.keys(temporaryFlags).forEach(prop => {
@@ -663,147 +630,168 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 	const footnotes = { count: 0, found: [] };
 	targets.forEach(info => {
 		if(Array.isArray(info)) {
+			// Plain array of strings? Just insert it.
 			desc.push(...info);
-		} else {
-			const { limit, sort, pre, join, post, modifyDescription = {}, template } = info;
-			const [ender, ...mid] = join;
-			const beginner = mid.pop();
-			const { regex, replacement } = modifyDescription;
-			const pool = [];
-			if(typeof limit === "string") {
-				Object.values(found).forEach(v => {
-					v.category === limit && !v.redirect && pool.push(v);
-				});
-			} else if(limit.regex) {
-				const rx = new RegExp(limit.regex);
-				Object.values(found).forEach(v => {
-					!v.redirect && v.category.match(rx) && pool.push(v);
-				});
-			} else if(limit.uncategorized) {
-				Object.values(found).forEach(v => {
-					v.category === undefined && !v.redirect && !v.copyof && pool.push(v);
-				});
-			} else if (limit.omit) {
-				Object.entries(found).forEach(([prop, v]) => {
-					!limit.omit.includes(prop) && !v.redirect && !v.copyof && pool.push(v);
-				});
-			} else if (limit.only) {
-				pool.push(...limit.only.map(prop => found[prop]));
-			}
-			if(!pool.length) {
-				desc.push("[ERROR: Limit not found]");
-				return;
-			}
-			if(sort) {
-				sort.toReversed().forEach(method => {
-					const sorter = (
-						method === "match"
+			return;
+		}
+		// Get all the info from the compiler
+		const {
+			limit, sort, link,
+			join = "!-N-!",
+			replacements = [],
+			footnoteMarker = "&FN&",
+			linkMarker = "&L&"
+		} = info;
+		// Track down everything we've been asked for.
+		const pool = [];
+		if(typeof limit === "string") {
+			Object.entries(found).forEach(([p, v]) => {
+				v.category === limit && !v.redirect && pool.push([p, v]);
+			});
+		} else if(limit.regex) {
+			const rx = new RegExp(limit.regex);
+			Object.entries(found).forEach(([p, v]) => {
+				!v.redirect && v.category.match(rx) && pool.push([p, v]);
+			});
+		} else if(limit.uncategorized) {
+			Object.entries(found).forEach(([p, v]) => {
+				v.category === undefined && !v.redirect && !v.copyof && pool.push([p, v]);
+			});
+		} else if (limit.omit) {
+			Object.entries(found).forEach(([prop, v]) => {
+				!limit.omit.includes(prop) && !v.redirect && !v.copyof && pool.push([p, v]);
+			});
+		} else if (limit.only) {
+			pool.push(...limit.only.map(prop => [prop, found[prop]]));
+		}
+		// Check and verify that we found something to work with.
+		if(!pool.length) {
+			desc.push("[ERROR: Limit not found]");
+			return;
+		}
+		// Sort the pool if needed.
+		if(sort) {
+			sort.toReversed().forEach(method => {
+				const sorter = (
+					method === "match"
+						? (
+							// match
+							(a, b) => {
+								const rx = new RegExp(limit.regex || "^.*");
+								const x = (a[1].category.match(rx) || [""])[0];
+								const y = (b[1].category.match(rx) || [""])[0];
+								return x.localeCompare(y);
+							}
+						)
+						: method === "name"
 							? (
-								// match
-								(a, b) => {
-									const rx = new RegExp(limit.regex || "^.*");
-									const x = (a.category.match(rx) || [""])[0];
-									const y = (b.category.match(rx) || [""])[0];
-									return x.localeCompare(y);
-								}
+								// name
+								(a, b) => a[1].name.localeCompare(b[1].name)
 							)
-							: method === "name"
-								? (
-									// name
-									(a, b) => a.name.localeCompare(b.name)
-								)
-								: (
-									// category
-									(a, b) => a.category.localeCompare(b.category)
-								)
+							: (
+								// category
+								(a, b) => a[1].category.localeCompare(b[1].category)
+							)
+				);
+				pool.sort(sorter);
+			});
+		}
+		// Convert replacements array to RegExp/string combos
+		const rx = replacements.map(([regex, repl]) => {
+			return [ new RegExp(regex, "g"), repl ];
+		});
+		// Assemble the compilation.
+		const compilation = [];
+		const max = pool.length - 1;
+		pool.forEach((pair, i) => {
+			const [propname, obj] = pair
+			// Find indentation level and gather props
+			const {name: n, compilationSources, description, level = 0} = obj;
+			// Gather sources
+			const sources = compilationSources.map(source => {
+				const [title, pg] = source;
+				const link = pg ? `‹source/${title}› pg. ${pg}` : `‹source/${title}›`;
+				const counter = link + "count";
+				if(!footnotes[link]) {
+					const n = ++footnotes.count;
+					const plain = pg ? `${title} pg. ${pg}` : title;
+					footnotes[link] = n;
+					footnotes.found.push([title, link, plain]);
+					footnotes[counter] = 0;
+				}
+				return `@FN${footnotes[link]}${footnotes[counter]++ ? `-${footnotes[counter]}` : ""}`;
+			});
+			// Convert description
+			const sourceline = sources.length ? (" " +sources.join(" ")) : "";
+			const linkcharacter = `‹${source}/${propname}>«⮞› `;
+			const d = description.map(
+				(line, j) => {
+					// Run the replacements
+					let replaced = line;
+					rx.forEach(([regex, repl]) => {
+						replaced = replaced.replace(regex, repl);
+					});
+					return (
+						replaced
+							.replaceAll(footnoteMarker, sourceline)
+								// The protocol is confusingly named 'source'... it makes sense in context
+							.replaceAll(linkMarker, linkcharacter)
 					);
-					pool.sort(sorter);
-				});
-			}
-			const compilation = [];
-			const rx = regex && new RegExp(`^${regex}$`);
-			const max = pool.length - 1;
-			pool.forEach((obj, i) => {
-				const level = obj.level || 0;
-				let bq = "";
+				}
+			);
+			// Add the 'join' if needed
+			i && d.unshift(join);
+			// Add the description
+			compilation.push(d.join("!-N-!"));
+			// check for shifts in level
+			if(i !== max) {
+				const next = pool[i + 1].level;
+				const joiners = ["", ";;;", "!!!", "$$$"];
+				if(next > level) {
+					// Levels should only go up by 1
+					compilation.push(
+						"!-N-!" + joiners[next] + "div{className=abilityGroup}!-N-!"
+					);
+				} else if (next < level) {
+					// Levels may drop by any amount
+					let l = level;
+					while (next < l) {
+						compilation.push(
+							+ "!-N-!" + joiners[l] + "!-N-!"
+						);
+						l--;
+					}
+				}
+			} else {
+				// Final entry - close all open blocks
+				const joiners = ["", ";;;", "!!!", "$$$"];
 				let l = level;
-				while(l > 0) {
-					bq += ">";
+				while (l) {
+					compilation.push(
+						"!-N-!" + joiners[l]
+					);
 					l--;
 				}
-				// Handle the end-bits of `join`
-				const d = obj.description.map(
-					(line, j) => bq + (i || j ? "" : beginner) + line
-				).join("!-N-!") + (i === max ? "" : ender);
-				const sources = temporaryFlags.mainCompilation ? obj.compilationSources.map(arr => {
-					// main pages don't handle footnotes well, so ignore them
-					const [title, pg] = arr;
-					return pg === undefined ? title : `${title}/${pg}`;
-				}) : obj.compilationSources.map(arr => {
-					// set up footnotes info
-					const [title, pg] = arr;
-					const detail = pg ? `‹source/${title}« pg. ${pg}›` : `‹source/${title}›`;
-					if(!footnotes[detail]) {
-						const plain = pg ? `${title} pg. ${pg}` : title;
-						footnotes[detail] = `[^${footnoteNames[footnotes.count++]}]`;
-						footnotes.found.push([footnotes[detail], detail, plain, title]);
-					}
-					return footnotes[detail];
-				});
-				const dd = (rx ? d.replace(rx, replacement) : d).split("!-N-!");
-				const parsing = parseTemplate(
-					template,
-					obj.name,
-					obj.nameSuffix,
-					`‹SOURCE ${sources.join(";")}›`,
-					dd,
-					false
-				);
-				const final = parsing
-					.replace(/!-\^S-!/g, sources.join(" "))
-					.replace(/!-BQ-!/g, bq);
-				if(level && (i !== max)) {
-					const next = pool[i + 1].level;
-					if(next >= level) {
-						// next level is equal or bigger
-						compilation.push(final, ...mid.map(line => bq + line));
-					} else if (next) {
-						// next level is smaller, but still nonzero
-						const bq2 = bq.slice(1);
-						compilation.push(final, ...mid.map(line => bq2 + line));
-					} else {
-						// next level is zero
-						compilation.push(final, ...mid);
-					}
-				} else {
-					compilation.push(final);
-					i !== max && compilation.push(...mid);
-				}
-			});
-			if(pre && compilation.length) {
-				const bit = compilation.shift();
-				compilation.unshift(pre + bit);
 			}
-			if(post && compilation.length) {
-				const bit = compilation.pop();
-				compilation.push(bit + post);
-			}
-			const final = compilation.join("!-N-!");
-			desc.push(...final.split("!-N-!"));
-		}
+		});
+		const final = compilation.join("!-N-!");
+		desc.push(...final.split("!-N-!"));
 	});
 	if(footnotes.count > 0) {
 		const noted = {};
-		desc.push("");
-		footnotes.found.forEach(fn => {
-			const [letter, link, plain, title] = fn;
+		desc.push("", ":::fakeFootnotes", "");
+		footnotes.found.forEach((fn, i) => {
+			const [title, link, plain] = fn;
+			const multi = footnotes[link + "count"];
+			const ender = (multi === 1 ? "}" : ` multi=${multi}}`)
 			if(noted[title]) {
-				desc.push(`${letter}: ${plain}`);
+				desc.push(`@FN[${plain}]{from=${i+1}${ender}`);
 			} else {
-				desc.push(`${letter}: ${link}`);
+				desc.push(`@FN[${link}]{from=${i+1}${ender}`);
 				noted[title] = true;
 			}
 		});
+		desc.push("", ":::")
 	}
 	return convertDescription(temporaryFlags, desc, prefix, [], openTag, closeTag);
 };
@@ -975,7 +963,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	const copies = [];
 	const copyRecord = {};
 	const groupFlags = {};
-	const template = templates_by_link[link] || templates_by_link._basic;
+//	const template = templates_by_link[link] || templates_by_link._basic;
 	Object.entries(data).forEach(([prop, value]) => {
 		$.current = `${groupProp}/${prop}`;
 		// Temporary flags should NEVER match regular flags.
@@ -1000,7 +988,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 			name: n, title: t, description: d, copyof,
 			tables, topLink, parent_topics,
 			subtopics, siblings, noFinder, className,
-			nameSuffix, compilationSources, redirect,
+			replacements, compilationSources, redirect,
 			compileFrom, addenda, disambiguation, tree,
 			subraces, alternates
 		} = base;
@@ -1045,12 +1033,10 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 					info.tree = tree;
 					converted = convertCompileableDescription(
 						temporaryFlags,
-						template,
 						d,
-						n,
-						nameSuffix,
 						`${link}-${prop}-`,
-						compilationSources
+						compilationSources,
+						replacements
 					);
 				}
 				break;

@@ -29,6 +29,9 @@ div.basicContent div.ability {
 	justify-content: center;
 	border-radius: 0.75rem;
 }
+div.basicContent div.abilityGroup {
+	margin-inline-start: 1.25rem;
+}
 div.basicContent div.ability.indent {
 	margin-inline-start: 1.25rem;
 }
@@ -113,6 +116,9 @@ div.abSingle.title div.flavor {
 	font-size: 0.9em;
 	line-height: 1em;
 	text-align: center;
+}
+div.abSingle :is(a, .innerlink) {
+	text-decoration: none;
 }
 div.abPair {
 	grid-column: 2;

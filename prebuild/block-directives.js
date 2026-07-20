@@ -445,7 +445,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], logError);
 				flags.ability = true;
 				const marked2 = makeNewMarkedInstance();
-				const jlid = (attrs.id || makeValidID(text));
+				const jlid = (attrs.id || makeValidID(text || attrs.title));
 				if(attrs.jl) {
 					addToJumpList(text, prefix + jlid, attrs.jl);
 				}

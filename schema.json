@@ -75,7 +75,7 @@
 						"compileFrom": { "$ref": "#compileFrom" }
 					},
 					"required": [ "compileFrom", "title" ],
-					"unevaluatedProperties": false
+					"unevaluatedProperties": true
 				},
 				{
 					"$comment": "Basic redirect",
@@ -135,14 +135,32 @@
 							"unevaluatedItems": false
 						},
 						"description": { "$ref": "#descriptionArray" },
-						"addenda": { "$ref": "#stringArray" },
-						"tree": { "$ref": "#uniqueArray" },
+						"addenda": {
+							"$ref": "#stringArray",
+							"$comment": "Codewords used by a Page to add certain messages to an item."
+						},
+						"tree": {
+							"$ref": "#uniqueArray",
+							"$comment": "Codewords used by a Page to describe feat or ability trees."
+						},
 						"topLink": { "$ref": "#link" },
 						"level": {
 							"type": "number",
 							"minimum": 1,
 							"multipleOf": 1
-						}
+						},
+						"replacements": {
+							"type": "array",
+							"items": {
+								"type": "array",
+								"items": {
+									"type": "string"
+								},
+								"minItems": 2,
+								"maxItems": 2
+							},
+							"$comment": "This is an array of two-string arrays, the first string being a regex expression, the second being a replacement expression."
+						} 
 					},
 					"required": [ "description", "name", "compilationSources" ],
 					"unevaluatedProperties": false
@@ -444,7 +462,7 @@
 												"properties": {
 													"omit": {
 														"$ref": "#stringArray",
-														"$comment": "Items to ignore. All other items will be compiled."
+														"$comment": "Items (prop names) to ignore. All other items will be compiled."
 													}
 												},
 												"unevaluatedProperties": false
@@ -454,7 +472,7 @@
 												"properties": {
 													"only": {
 														"$ref": "#stringArray",
-														"$comment": "Only these items will be compiled."
+														"$comment": "Only these items (prop names) will be compiled."
 													}
 												},
 												"unevaluatedProperties": false
@@ -471,16 +489,9 @@
 											}
 										]
 									},
-									"pre": {
-										"type": "string",
-										"$comment": "This attaches to the beginning of the first item."
-									},
 									"join": {
-										"type": "array",
-										"$comment": "The first element attaches to the end of an item. The last element attaches to the beginning of the next item. Other items are placed in between as separate lines. No newline characters needed.",
-										"items": { "type": "string" },
-										"minItems": 2,
-										"unevaluatedItems": false
+										"type": "string",
+										"$comment": "Goes between two compiled items"
 									},
 									"sort": {
 										"type": "array",
@@ -490,28 +501,28 @@
 										"minItems": 1,
 										"unevaluatedItems": false
 									},
-									"post": {
-										"type": "string",
-										"$comment": "This attaches to the end of the final item."
-									},
-									"modifyDescription": {
-										"$comment": "The description is combined with newlines replaced by the string !-N-!, then matched against the regex, and combined into the form specified by the replacement.",
-										"type": "object",
-										"properties": {
-											"regex": {
-												"type": "string",
-												"$comment": "This will be modified to catch the ENTIRE description (no need to add ^ and $ at start and end)."
+									"replacements": {
+										"type": "array",
+										"items": {
+											"type": "array",
+											"items": {
+												"type": "string"
 											},
-											"replacement": {
-												"type": "string",
-												"$comment": "Takes the normal regex replacement expressions."
-											}
+											"minItems": 2,
+											"maxItems": 2
 										},
-										"required": [ "regex", "replacement" ]
+										"$comment": "This is an array of two-string arrays, the first string being a regex expression, the second being a replacement expression."
 									},
-									"template": { "type": "string" }
+									"footnoteMarker": {
+										"type": "string",
+										"$comment": "This overrides the normal footnote marker &FN&."
+									},
+									"linkMarker": {
+										"type": "string",
+										"$comment": "This overrides the normal link marker &L&."
+									}
 								},
-								"required": [ "join", "template", "limit" ],
+								"required": [ "join", "limit" ],
 								"unevaluatedProperties": false
 							}
 						]
@@ -519,7 +530,8 @@
 					"unevaluatedItems": false
 				}
 			},
-			"required": [ "source", "targets" ]
+			"required": [ "source", "targets" ],
+			"unevaluatedProperties": false
 		}
 	}
 }

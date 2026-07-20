@@ -189,7 +189,15 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 						}</td></tr></tbody></table></div>`
 					);
 				}
+				case "div": {
+					const {className} = attrs;
+					const marked2 = makeNewMarkedInstance();
+					return (
+						`<div${className ? ` className="${className}"` : ""}>\n${removeCurlyBrackets(marked2.parse(text))}\n</div>\n`
+					);
+				}
 			}
+			console.log("missing container directive [", n, "]");
 			return false;
 		}
 	};
