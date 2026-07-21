@@ -667,12 +667,7 @@
 				],
 				{
 					"limit": { "omit": [] },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "##.+!-N-!+(.+?)",
-						"replacement": "$1"
-					},
-					"template": "@hll[performance/!-TITLE-!« !-SUFFIX-!:] !-DESC-!"
+					"join": "!-N-!"
 				}
 			]
 		},

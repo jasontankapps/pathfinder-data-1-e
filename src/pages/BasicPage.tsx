@@ -191,17 +191,8 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const contextId = pageId.slice(1).replace(/[^-a-z0-9_]/g, "-").replace(/([^-])$/, "$1-");
 
 	useEffect(() => {
-		debounce(() => {
-			if(contentObject) {
-				// Stop this scroll event from triggering other scroll events
-				freezeDebounce(pageId);
-				// Do the scrolling
-				contentObject.scrollToPoint(0, storedPos);
-				setGoToTopFlag(storedPos < 200);
-			}
-		}, pageId + "/enter", 10);
-
 		// This is awful, but the CSS tricks aren't working anymore.
+		// This *should* only fire once a render...
 		document.querySelectorAll("div.ability").forEach((node, i) => {
 			const cl = node.classList;
 			if(i % 2) {
@@ -212,6 +203,17 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				cl.add("alternate");
 			}
 		});
+	}, []);
+	useEffect(() => {
+		debounce(() => {
+			if(contentObject) {
+				// Stop this scroll event from triggering other scroll events
+				freezeDebounce(pageId);
+				// Do the scrolling
+				contentObject.scrollToPoint(0, storedPos);
+				setGoToTopFlag(storedPos < 200);
+			}
+		}, pageId + "/enter", 10);
 	}, [path, pageId, contentObject, storedPos]);
 	useEffect(() => {
 		scrollHook && scrollHook(contentObject);

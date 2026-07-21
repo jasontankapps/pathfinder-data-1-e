@@ -958,6 +958,7 @@ const basic_data_groups = {
 	},
 	"class_ability_bardic_performances": {
 		data: performance,
+		datatype: "compileable",
 		searchgroup: 1, // classes
 		link: "performance",
 		num: 0,
@@ -1099,6 +1100,7 @@ const basic_data_groups = {
 	"class_ability_rage_powers": {
 		data: ragepower,
 		searchgroup: 1, // classes
+		datatype: "compileable",
 		link: "ragepower",
 		num: 0,
 		type: "Barbarian Rage Power"

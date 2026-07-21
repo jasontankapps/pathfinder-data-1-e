@@ -135,6 +135,7 @@
 							"unevaluatedItems": false
 						},
 						"description": { "$ref": "#descriptionArray" },
+						"disambiguation": { "type": "boolean" },
 						"addenda": {
 							"$ref": "#stringArray",
 							"$comment": "Codewords used by a Page to add certain messages to an item."
@@ -160,7 +161,15 @@
 								"maxItems": 2
 							},
 							"$comment": "This is an array of two-string arrays, the first string being a regex expression, the second being a replacement expression."
-						} 
+						},
+						"footnoteMarker": {
+							"type": "string",
+							"$comment": "This overrides the normal footnote marker &FN&."
+						},
+						"linkMarker": {
+							"type": "string",
+							"$comment": "This overrides the normal link marker &L&."
+						}
 					},
 					"required": [ "description", "name", "compilationSources" ],
 					"unevaluatedProperties": false
@@ -491,7 +500,7 @@
 									},
 									"join": {
 										"type": "string",
-										"$comment": "Goes between two compiled items"
+										"$comment": "Goes between two compiled items; defaults to !-N-! (a newline)"
 									},
 									"sort": {
 										"type": "array",
@@ -522,7 +531,7 @@
 										"$comment": "This overrides the normal link marker &L&."
 									}
 								},
-								"required": [ "join", "limit" ],
+								"required": [ "limit" ],
 								"unevaluatedProperties": false
 							}
 						]

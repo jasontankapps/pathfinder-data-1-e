@@ -49,7 +49,7 @@ const makeNewMarkedInstance = (initialUse = { gfm: true }, ...midArguments) => {
 		getContainerDirectives($, ":::"),
 		getContainerDirectives($, ";;;"),
 		getContainerDirectives($, "!!!"),
-		getContainerDirectives($, "$$$"),
+		getContainerDirectives($, "%%%"),
 		getInlineDirectives($, "@")
 	]));
 	midArguments.forEach(option => marked.use(option));
@@ -567,11 +567,12 @@ const convertRace = (temporaryFlags, dirtyDesc, prefix, tables, subraces, altern
 };
 
 // Convert markdown code into HTML, updating `$.flags` to note the outside Tags being used
-const convertCompileableDescription = (
-	temporaryFlags, d, title, suffix,
-	prefix, compilationSources, replacements,
+const convertCompileableDescription = ({
+	temporaryFlags, d, title,
+	prefix, compilationSources, replacements = [],
+	footnoteMarker = "&FN&", linkMarker = "&L&",
 	openTag = "", closeTag = ""
-) => {
+}) => {
 	const desc = [...d];
 	$.prefix = prefix;
 	$.flags = {...temporaryFlags};
@@ -588,14 +589,14 @@ const convertCompileableDescription = (
 	);
 
 	// Handle replacements
-	if(replacements) {
-		const rxs = replacements.map(([rx, repl]) => [new RegExp(rx, "g"), repl]);
-		desc.forEach((line, i) => {
-			let q = line;
-			rxs.map(([rx, repl]) => { q = q.replace(rx, repl) });
-			desc[i] = q;
-		});
-	}
+	const rxs = replacements.map(
+		([rx, repl]) => [new RegExp(rx, "g"), repl]
+	);
+	desc.forEach((line, i) => {
+		let q = line;
+		rxs.map(([rx, repl]) => { q = q.replace(rx, repl) });
+		desc[i] = q.replaceAll(footnoteMarker, "").replaceAll(linkMarker, "");
+	});
 
 	// Handle sources
 	const dSource = [];
@@ -658,11 +659,11 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 				v.category === undefined && !v.redirect && !v.copyof && pool.push([p, v]);
 			});
 		} else if (limit.omit) {
-			Object.entries(found).forEach(([prop, v]) => {
-				!limit.omit.includes(prop) && !v.redirect && !v.copyof && pool.push([p, v]);
+			Object.entries(found).forEach(([p, v]) => {
+				!limit.omit.includes(p) && !v.redirect && !v.copyof && pool.push([p, v]);
 			});
 		} else if (limit.only) {
-			pool.push(...limit.only.map(prop => [prop, found[prop]]));
+			pool.push(...limit.only.map(p => [p, found[p]]));
 		}
 		// Check and verify that we found something to work with.
 		if(!pool.length) {
@@ -746,7 +747,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 			// check for shifts in level
 			if(i !== max) {
 				const next = pool[i + 1][1].level || 0;
-				const joiners = ["", ";;;", "!!!", "$$$"];
+				const joiners = ["", ";;;", "!!!", "%%%"];
 				if(next > level) {
 					// Levels should only go up by 1
 					compilation.push(
@@ -764,7 +765,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 				}
 			} else {
 				// Final entry - close all open blocks
-				const joiners = ["", ";;;", "!!!", "$$$"];
+				const joiners = ["", ";;;", "!!!", "%%%"];
 				let l = level;
 				while (l) {
 					compilation.push(
@@ -988,7 +989,8 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 			name: n, title: t, description: d, copyof,
 			tables, topLink, parent_topics,
 			subtopics, siblings, noFinder, className,
-			replacements, compilationSources, redirect,
+			replacements, compilationSources,
+			footnoteMarker, linkMarker, redirect,
 			compileFrom, addenda, disambiguation, tree,
 			subraces, alternates
 		} = base;
@@ -1031,13 +1033,15 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 					info.topLink = topLink;
 					info.addenda = addenda;
 					info.tree = tree;
-					converted = convertCompileableDescription(
+					converted = convertCompileableDescription({
 						temporaryFlags,
 						d,
-						`${link}-${prop}-`,
+						prefix: `${link}-${prop}-`,
 						compilationSources,
-						replacements
-					);
+						replacements,
+						footnoteMarker,
+						linkMarker
+					});
 				}
 				break;
 			case "race":
