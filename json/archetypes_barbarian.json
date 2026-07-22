@@ -591,7 +591,7 @@
 			"",
 			"::ab[Tolerance (Ex)]{l=2 icon=def passive=\"A scarred rager who fails a save against an effect that causes her to become nauseated, sickened, fatigued, or exhausted can make a second save to negate the effect on the start of her next turn. Only one additional save is allowed. If the effect does not allow a saving throw, its duration is halved instead (minimum of 1 round).\" replace=\"Uncanny dodge\"}",
 			"",
-			"::ab[Scarification (Ex)]{l=3 icon=def passive=\"A scarred rager can ignore a number of points of bleed damage per round. This number is equal to one-third her barbarian level.\" imp15=\"A scarred rager can ignore 1 bleed effect each round.\" replace=\"Trap sense\"}",
+			"::ab[Scarification (Ex)]{l=3 icon=def passive=\"A scarred rager can ignore a number of points of bleed damage per round. @B-number-3f-barbarian-x.\" imp15=\"A scarred rager can ignore 1 bleed effect each round.\" replace=\"Trap sense\"}",
 			"",
 			"::ab[Improved Tolerance (Ex)]{l=5 icon=def passive=\"A scarred rager's *tolerance* ability also applies to effects that would cause her to become dazed, frightened, shaken, or stunned.\" replace=\"Improved uncanny dodge\"}",
 			"",

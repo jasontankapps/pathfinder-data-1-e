@@ -319,7 +319,8 @@ const _druid_domains = {title: "Druid Domains", topLink: ["Druid","class/druid"]
 <blockquote>
 <p><strong className="hl">Note:</strong> In addition to Animal and Terrain domains, this section contains any domain specific for Druid use.</p>
 </blockquote>
-<div className="columnar"><ul>
+<div className="columnar">
+<ul>
 <li><Link to="/druiddomain/aquatic">Aquatic</Link></li>
 <li><Link to="/druiddomain/arctic">Arctic</Link></li>
 <li><Link to="/druiddomain/badlands">Badlands</Link></li>

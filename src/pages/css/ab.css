@@ -159,10 +159,10 @@ div.abStart {
 div.abEnd li + li {
 	margin-block-start: 0.1rem;
 }
-div.abEnd.simple a {
+div.abPair.plain div.abEnd a {
 	text-decoration: none;
 }
-div.abStart:not(.plain) {
+div.abPair:not(.plain) div.abStart {
 	font-weight: bold;
 }
 div.abSingle:last-child,
@@ -261,6 +261,25 @@ div.basicContent div.subAbility div.box div.tableWrap {
 		- 2px     /* Icon column border */
 	);
 }
+
+
+div.basicContent div.compilation div.abIcon {
+	grid-row: 2 / span 19;
+}
+div.basicContent div.compilation div.abSingle {
+	grid-column: 1 / span 2;
+}
+div.basicContent div.compilation div.abSingle.title {
+	justify-content: flex-start;
+	text-align: start;
+	border-start-start-radius: 0.75rem;
+	padding-inline-start: 0.5rem;
+}
+div.basicContent div.compilation div.abSingle.title div.flavor {
+	text-align: start;
+	text-indent: 1rem;
+}
+
 
 ion-alert.levelPop div.alert-message table {
 	margin: 0 auto;

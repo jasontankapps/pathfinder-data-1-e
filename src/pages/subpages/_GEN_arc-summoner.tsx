@@ -755,7 +755,7 @@ const _unwavering_conduit = {title: "Unwavering Conduit", jsx: <><h2 id="arc-sum
 <Pair single id="eidolon-of-law">Eidolon of Law</Pair>
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Info">An unwavering conduit's eidolon must be of a lawful alignment. Once selected, the evolutions of the unwavering conduit's eidolon cannot be changed when a new class level is gained (though they can be altered normally with the <Link to="/spell/transmogrify">transmogrify</Link> spell). At least half the eidolon's skill points must be spent on skills in which the unwavering conduit also has ranks.</Pair>
-<Pair title="Passive Ability">The eidolon gains a resistance bonus on saving throws against spells and abilities of the conjuration, enchantment, and transmutation schools. This bonus is equal to 1 + <Link to="/misc/one_third">one-third</Link> of the summoner's class level.</Pair>
+<Pair title="Passive Ability">The eidolon gains a resistance bonus on saving throws against spells and abilities of the conjuration, enchantment, and transmutation schools. This bonus is equal to 1 + <Link to="/misc/one_third">one-third</Link> of the summoner's level.</Pair>
 <Pair title="Special">The eidolon has 1 fewer evolution point than normal for an eidolon of the unwavering conduit's summoner level.</Pair>
 </Ability>
 <Ability id="unwavering-monsters" icon={["info","armor-upgrade"]}>

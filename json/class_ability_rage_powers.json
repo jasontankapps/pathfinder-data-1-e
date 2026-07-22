@@ -12,7 +12,7 @@
 		"name": "Animal Fury",
 		"compilationSources": [ [ "PRPG Core Rulebook" ] ],
 		"description": [
-			"::ab{title=\"Animal Fury (Ex)\" icon=melee ability=\"While *raging,* the barbarian gains a ‹umr/bite attack›. If used as part of a full attack action, the bite attack is made at the barbarian's full base attack bonus -5. If the bite hits, it deals 1d4 points of damage (assuming the barbarian is Medium; 1d3 points of damage if Small) plus half the barbarian's Strength modifier.\" special=\"A barbarian can make a bite attack as part of the action to maintain or break free from a grapple. This attack is resolved before the grapple check is made. If the bite attack hits, any grapple checks made by the barbarian against the target this round are at a +2 bonus.\"}"
+			"::ab{title=\"&L&Animal Fury (Ex)&FN&\" icon=melee ability=\"While *raging,* the barbarian gains a ‹umr/bite attack›. If used as part of a full attack action, the bite attack is made at the barbarian's full base attack bonus -5. If the bite hits, it deals 1d4 points of damage (assuming the barbarian is Medium; 1d3 points of damage if Small) plus half the barbarian's Strength modifier.\" special=\"A barbarian can make a bite attack as part of the action to maintain or break free from a grapple. This attack is resolved before the grapple check is made. If the bite attack hits, any grapple checks made by the barbarian against the target this round are at a +2 bonus.\"}"
 		]
 	},
 	"greater_animal_fury": {
@@ -778,7 +778,7 @@
 		"name": "Powerful Blow",
 		"compilationSources": [ [ "PRPG Core Rulebook" ] ],
 		"description": [
-			"::ab{icon=boost title=\"&L&Powerful Blow (Ex)&FN&\" swift=\"The barbarian gains a bonus on a single damage roll. This bonus is equal to 1 + ‹misc/one-fourth› of her barbarian level. This power is used before the roll to hit is made.\" usage=\"Once per *rage*\"}"
+			"::ab{icon=boost title=\"&L&Powerful Blow (Ex)&FN&\" swift=\"The barbarian gains a bonus on a single damage roll. @B-4f1-barbarian. This power is used before the roll to hit is made.\" usage=\"Once per *rage*\"}"
 		]
 	},
 	"bleeding_blow": {
@@ -943,7 +943,7 @@
 		"name": "Rolling Dodge",
 		"compilationSources": [ [ "PRPG Core Rulebook" ] ],
 		"description": [
-			"::ab{icon=def title=\"&L&Rolling Dodge (Ex)&FN&\" move=\"The barbarian gains a dodge bonus to her Armor Class against ranged attacks for a number of rounds equal to the barbarian's current Constitution modifier (minimum 1). This bonus is equal to 1 + ‹misc/one-sixth› of her barbarian level.\" provokes=No}"
+			"::ab{icon=def title=\"&L&Rolling Dodge (Ex)&FN&\" move=\"The barbarian gains a dodge bonus to her Armor Class against ranged attacks for a number of rounds equal to the barbarian's current Constitution modifier (minimum 1). @B-6f1-barbarian.\" provokes=No}"
 		]
 	},
 	"reflexive_dodge": {
@@ -1083,7 +1083,7 @@
 		"name": "Superstition",
 		"compilationSources": [ [ "PRPG Core Rulebook" ] ],
 		"description": [
-			"::ab{icon=def-down title=\"&L&Superstition (Ex)&FN&\" passive=\"The barbarian gains a morale bonus on saving throws made to resist spells, supernatural abilities, and spell-like abilities. This bonus is equal to 2 + ‹misc/one-fourth› of her barbarian level.\" special=\"While *raging,* the barbarian cannot be a willing target of any spell and must make saving throws to resist all spells, even those cast by allies.\"}"
+			"::ab{icon=def-down title=\"&L&Superstition (Ex)&FN&\" passive=\"The barbarian gains a morale bonus on saving throws made to resist spells, supernatural abilities, and spell-like abilities. @B-4f2-barbarian.\" special=\"While *raging,* the barbarian cannot be a willing target of any spell and must make saving throws to resist all spells, even those cast by allies.\"}"
 		]
 	},
 	"disruptive": {
@@ -2164,7 +2164,7 @@
 		"category": "Stance",
 		"compilationSources": [ [ "Pathfinder Unchained" ] ],
 		"description": [
-			"::ab{icon=boost title=\"&L&Accurate Stance (Ex)&FN&\" flavor=\"The barbarian can focus her strikes.\" passive=\"She gains a competence bonus on melee attack rolls and thrown weapon attack rolls. This bonus is equal to 1 + ‹misc/one-fourth› of her barbarian level.\"}"
+			"::ab{icon=boost title=\"&L&Accurate Stance (Ex)&FN&\" flavor=\"The barbarian can focus her strikes.\" passive=\"She gains a competence bonus on melee attack rolls and thrown weapon attack rolls. @B-4f1-barbarian.\"}"
 		],
 		"topLink": ["Stance Rage Powers", "ability/stance_rage_powers"]
 	},
@@ -2191,7 +2191,7 @@
 		"category": "Stance",
 		"compilationSources": [ [ "Pathfinder Unchained" ] ],
 		"description": [
-			"::ab{icon=def title=\"&L&Guarded Stance (Ex)&FN&\" flavor=\"The barbarian can take on a more defensive posture.\" passive=\"This grants her a dodge bonus to her Armor Class for the duration of her current *rage.* This bonus is equal to 1 + ‹misc/one-fourth› of her barbarian level.\"}"
+			"::ab{icon=def title=\"&L&Guarded Stance (Ex)&FN&\" flavor=\"The barbarian can take on a more defensive posture.\" passive=\"This grants her a dodge bonus to her Armor Class for the duration of her current *rage.* @B-4f1-barbarian.\"}"
 		],
 		"topLink": ["Stance Rage Powers", "ability/stance_rage_powers"]
 	},
@@ -2209,7 +2209,7 @@
 		"category": "Stance",
 		"compilationSources": [ [ "Pathfinder Unchained" ] ],
 		"description": [
-			"::ab{icon=boost title=\"&L&Powerful Stance (Ex)&FN&\" flavor=\"The barbarian can focus her ferocity.\" passive=\"She gains a bonus on melee damage rolls and thrown weapon damage rolls. This bonus is equal to 1 + ‹misc/one-fourth› of her barbarian level.\"}"
+			"::ab{icon=boost title=\"&L&Powerful Stance (Ex)&FN&\" flavor=\"The barbarian can focus her ferocity.\" passive=\"She gains a bonus on melee damage rolls and thrown weapon damage rolls. @B-4f1-barbarian.\"}"
 		],
 		"topLink": ["Stance Rage Powers", "ability/stance_rage_powers"]
 	},

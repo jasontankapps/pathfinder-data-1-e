@@ -853,7 +853,7 @@ const _scarred_rager = {title: "Scarred Rager", jsx: <><h2 id="arc-barbarian-sca
 <Pair single id="scarification-ex">Scarification (Ex)</Pair>
 <Pair hl title="Replaces">Trap sense</Pair>
 <Pair title="Gained">At 3rd Level</Pair>
-<Pair title="Passive Ability">A scarred rager can ignore a number of points of bleed damage per round. This number is equal to one-third her barbarian level.</Pair>
+<Pair title="Passive Ability">A scarred rager can ignore a number of points of bleed damage per round. This number is equal to one-third of her barbarian level.</Pair>
 <Pair title="At 15th Level">A scarred rager can ignore 1 bleed effect each round.</Pair>
 </Ability>
 <Ability id="improved-tolerance-ex" icon={["armor-upgrade"]}>
@@ -1153,7 +1153,7 @@ const _totem_warrior = {title: "Totem Warrior", jsx: <div className="compilation
 <div className="abilityGroup">
 <Ability id="ragepowergreaterdaemontotem-greater-daemon-totem-su-fn5-6" icon={["remedy"]}>
 <Pair single id="ragepowergreaterdaemontotem-greater-daemon-totem-su-fn5-6"><Link to="/ragepower/greater_daemon_totem">⮞</Link> Greater Daemon Totem (Su) <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-5.6" id="arc-barbarian-totem_warrior-fake-fn-5.6" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-5-target">5</InnerLink></sup></Pair>
-<Pair title="Prerequisites">10th level barbarian, <Link to="/ragepower/lesser_daemon_totem">lesser daemon totem</Link>, <Link to="/ragepower/daemon_totem">daemon totem</Link></Pair>
+<Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/lesser_daemon_totem">lesser daemon totem</Link>, <Link to="/ragepower/daemon_totem">daemon totem</Link></Pair>
 <Pair title="Ability">If the barbarian kills an intelligent creature with a CR equal to at least half her character level while <em>raging,</em> she heals 5 hit points. If she is already at her maximum number of hit points, she instead gains 5 <Link to="/rule/temporary_hit_points">temporary hit points</Link>, which don't stack if she kills multiple creatures.</Pair>
 </Ability>
 </div>
@@ -1258,7 +1258,7 @@ const _totem_warrior = {title: "Totem Warrior", jsx: <div className="compilation
 </div>
 <Ability id="ragepowerhivetotem-hive-totem-su-fn6-4" icon={["armor-upgrade","upgrade"]}>
 <Pair single id="ragepowerhivetotem-hive-totem-su-fn6-4"><Link to="/ragepower/hive_totem">⮞</Link> Hive Totem (Su) <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-6.4" id="arc-barbarian-totem_warrior-fake-fn-6.4" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-6-target">6</InnerLink></sup></Pair>
-<Pair title="Prerequisites"><Link to="/ragepower/animal_fury">Animal fury</Link>, 4th level barbarian</Pair>
+<Pair title="Prerequisites"><Link to="/ragepower/animal_fury">Animal fury</Link>, 4th-level barbarian</Pair>
 <Pair title="Passive Ability"><p>While <em>raging,</em> the barbarian takes half damage from attacks by swarms of vermin, including spells and effects that act like a swarm of vermin (like <Link to="/spell/summon_swarm">summon swarm</Link> used to summon spiders or <Link to="/spell/insect_plague">insect plague</Link>).</p>
 <p>She also gains a bonus on Strength ability checks and to CMD against bull rush, drag, and trip attacks equal to <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level.</p>
 </Pair>

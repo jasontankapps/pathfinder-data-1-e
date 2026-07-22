@@ -38,11 +38,11 @@ const Pair: FC<PropsWithChildren<PairProps>> = (props) => {
 	}
 	const className = "box" + (hl ? " hl" : "");
 	return (
-		<div className="abPair">
-			<div className={"abStart" + (plain ? " plain" : "")}>
+		<div className={"abPair" + (plain ? " plain" : "")}>
+			<div className="abStart">
 				<div className={className}>{title}</div>
 			</div>
-			<div className={"abEnd" + (plain ? " simple" : "")}>
+			<div className="abEnd">
 				<div className="box">{children}</div>
 			</div>
 		</div>
