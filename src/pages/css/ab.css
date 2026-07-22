@@ -30,7 +30,7 @@ div.basicContent div.ability {
 	border-radius: 0.75rem;
 }
 div.basicContent div.abilityGroup {
-	margin-inline-start: 1.25rem;
+	margin-inline-start: var(--indent-size); /* Roughly 15% of screen real estate - see variables.css */
 }
 div.basicContent div.ability.indent {
 	margin-inline-start: 1.25rem;

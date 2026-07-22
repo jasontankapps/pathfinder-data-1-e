@@ -18,10 +18,7 @@
 		"compilationSources": [ [ "Occult Origins", 13 ] ],
 		"addenda": ["devilbane"],
 		"description": [
-			"::ab[Devilbane Binding]{icon=lower info=\"The *hypnotic stare* penalty also applies to all Charisma checks to escape ‹spell/planar binding› spells, and applies to the target's spell resistance against a planar binding spell.\"&Devilbane&}"
-		],
-		"replacements": [
-			["&Devilbane&", " special=\"Devilbane gazes tend to be more limited in their scope than standard *bold stare improvements,* but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the *hypnotic stare* penalty applied by the devilbane gaze improvement (but not the Will save penalty the original *hypnotic stare* imposes). Despite their moniker, devilbane gazes affect all outsiders equally well.\""]
+			"::ab[Devilbane Binding]{icon=lower info=\"The *hypnotic stare* penalty also applies to all Charisma checks to escape ‹spell/planar binding› spells, and applies to the target's spell resistance against a planar binding spell.\"}"
 		]
 	},
 	"devilbane_dampening": {
@@ -29,10 +26,7 @@
 		"compilationSources": [ [ "Occult Origins", 13 ] ],
 		"addenda": ["devilbane"],
 		"description": [
-			"::ab[Devilbane Dampening]{icon=lower info=\"The *hypnotic stare* penalty also applies to the target's resistance to a single form of energy, chosen by the mesmerist when he initiates the stare. If the mesmerist targets a form of energy to which his target has no resistance, this improvement has no effect.\"&Devilbane&}"
-		],
-		"replacements": [
-			["&Devilbane&", " special=\"Devilbane gazes tend to be more limited in their scope than standard *bold stare improvements,* but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the *hypnotic stare* penalty applied by the devilbane gaze improvement (but not the Will save penalty the original *hypnotic stare* imposes). Despite their moniker, devilbane gazes affect all outsiders equally well.\""]
+			"::ab[Devilbane Dampening]{icon=lower info=\"The *hypnotic stare* penalty also applies to the target's resistance to a single form of energy, chosen by the mesmerist when he initiates the stare. If the mesmerist targets a form of energy to which his target has no resistance, this improvement has no effect.\"}"
 		]
 	},
 	"devilbane_dismissal": {
@@ -40,10 +34,7 @@
 		"compilationSources": [ [ "Occult Origins", 13 ] ],
 		"addenda": ["devilbane"],
 		"description": [
-			"::ab[Devilbane Dismissal]{icon=lower info=\"The *hypnotic stare* reduces the duration of any conjuration (summoning) spells the target casts, or that are currently affecting the target, by half.\"&Devilbane&}"
-		],
-		"replacements": [
-			["&Devilbane&", " special=\"Devilbane gazes tend to be more limited in their scope than standard *bold stare improvements,* but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the *hypnotic stare* penalty applied by the devilbane gaze improvement (but not the Will save penalty the original *hypnotic stare* imposes). Despite their moniker, devilbane gazes affect all outsiders equally well.\""]
+			"::ab[Devilbane Dismissal]{icon=lower info=\"The *hypnotic stare* reduces the duration of any conjuration (summoning) spells the target casts, or that are currently affecting the target, by half.\"}"
 		]
 	},
 	"devilbane_impediment": {
@@ -51,10 +42,7 @@
 		"compilationSources": [ [ "Occult Origins", 13 ] ],
 		"addenda": ["devilbane"],
 		"description": [
-			"::ab[Devilbane Impediment]{icon=lower info=\"The target of your *hypnotic stare* must succeed at a ‹rule/concentration› check (DC = 15 + the level of the spell) to activate any of its spell-like abilities (but not standard spellcasting). If the target fails the check, the spell-like ability doesn't function but is still expended.\"&Devilbane&}"
-		],
-		"replacements": [
-			["&Devilbane&", " special=\"Devilbane gazes tend to be more limited in their scope than standard *bold stare improvements,* but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the *hypnotic stare* penalty applied by the devilbane gaze improvement (but not the Will save penalty the original *hypnotic stare* imposes). Despite their moniker, devilbane gazes affect all outsiders equally well.\""]
+			"::ab[Devilbane Impediment]{icon=lower info=\"The target of your *hypnotic stare* must succeed at a ‹rule/concentration› check (DC = 15 + the level of the spell) to activate any of its spell-like abilities (but not standard spellcasting). If the target fails the check, the spell-like ability doesn't function but is still expended.\"}"
 		]
 	},
 	"devilbane_mundanity": {
@@ -62,10 +50,7 @@
 		"compilationSources": [ [ "Occult Origins", 13 ] ],
 		"addenda": ["devilbane"],
 		"description": [
-			"::ab[Devilbane Mundanity]{icon=lower info=\"The *hypnotic stare* penalty also applies to the target's spell resistance. This ability doesn't stack with the ‹stare/sapped magic› bold stare improvement.\"&Devilbane&}"
-		],
-		"replacements": [
-			["&Devilbane&", " special=\"Devilbane gazes tend to be more limited in their scope than standard *bold stare improvements,* but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the *hypnotic stare* penalty applied by the devilbane gaze improvement (but not the Will save penalty the original *hypnotic stare* imposes). Despite their moniker, devilbane gazes affect all outsiders equally well.\""]
+			"::ab[Devilbane Mundanity]{icon=lower info=\"The *hypnotic stare* penalty also applies to the target's spell resistance. This ability doesn't stack with the ‹stare/sapped magic› bold stare improvement.\"}"
 		]
 	},
 	"devilbane_withering": {
@@ -73,10 +58,7 @@
 		"compilationSources": [ [ "Occult Origins", 13 ] ],
 		"addenda": ["devilbane"],
 		"description": [
-			"::ab[Devilbane Withering]{icon=lower info=\"The *hypnotic stare* penalty also applies to attack rolls and damage rolls, but only if the target is an outsider.\" special=\"&Devilbane&Unlike most devilbane gazes, this gaze has no effect on creatures not of the outsider type, and effect's penalty isn't doubled when it targets outsiders.\"}"
-		],
-		"replacements": [
-			["&Devilbane&", "Devilbane gazes tend to be more limited in their scope than standard *bold stare improvements,* but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the *hypnotic stare* penalty applied by the devilbane gaze improvement (but not the Will save penalty the original *hypnotic stare* imposes). "]
+			"::ab[Devilbane Withering]{icon=lower info=\"The *hypnotic stare* penalty also applies to attack rolls and damage rolls, but only if the target is an outsider.\" special=\"Unlike most devilbane gazes, this gaze has no effect on creatures not of the outsider type, and effect's penalty isn't doubled when it targets outsiders.\"}"
 		]
 	},
 	"disorientation": {

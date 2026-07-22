@@ -612,6 +612,7 @@
 			"getting_into_and_out_of_armor"
 		]
 	},
+	"don_armor": { "redirect": "getting_into_and_out_of_armor" },
 	"other_goods_and_services": {
 		"name": "Other Goods and Services",
 		"sources": [

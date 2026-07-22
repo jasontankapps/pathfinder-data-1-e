@@ -298,4 +298,13 @@ http://ionicframework.com/docs/theming/ */
   --ion-dynamic-font: var(--ion-default-dynamic-font);
 	--ion-font-family: 'Taviraj', 'Symbola', serif;
 	--ion-default-font: var(--ion-font-family);
+
+  --indent-size: 12vw;
 }
+@media (60rem < width) {
+	:root {
+	  /* Side panel opens at 60rem or greater, adds about 20rem */
+		--indent-size: calc((100vw - 20rem) * 0.12);
+	}
+}
+

@@ -748,10 +748,7 @@
 					""
 				],
 				{
-					"limit": { "omit": [] },
-					"replacements": [
-						["&Devilbane&", ""]
-					]
+					"limit": { "omit": [] }
 				}
 			]
 		},
@@ -771,9 +768,7 @@
 					""
 				],
 				{
-					"limit": { "omit": [] },
-					"join": [ "", "", "" ],
-					"template": "@hll[stylestrike/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!!-^S-!"
+					"limit": { "omit": [] }
 				}
 			]
 		},
@@ -878,13 +873,7 @@
 					""
 				],
 				{
-					"limit": "Avenger Talents",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[vigtalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Avenger Talents"
 				},
 				[
 					"",
@@ -894,13 +883,7 @@
 					""
 				],
 				{
-					"limit": "Stalker Talents",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[vigtalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Stalker Talents"
 				},
 				[
 					"",
@@ -910,13 +893,7 @@
 					""
 				],
 				{
-					"limit": "Hidden Strike Talents",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[vigtalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Hidden Strike Talents"
 				},
 				[
 					"",
@@ -926,13 +903,7 @@
 					""
 				],
 				{
-					"limit": "Other Talents",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[vigtalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Other Talents"
 				}
 			]
 		},
