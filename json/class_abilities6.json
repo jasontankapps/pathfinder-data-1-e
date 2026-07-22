@@ -616,7 +616,7 @@
 			"",
 			"::ab[Spin Silk]{jl icon=power order=xy yTrick=\"The companion can create strands of delicate yet incredibly strong silk. Harvesting the silk takes 10 minutes, and it can be done once per day. This silk functions identically to a ‹eq-misc/silk rope›.\" special=\"The companion can produce a total number of feet of silk equal to 10 times its Constitution score per day, which can be divided as the handler chooses in 10-foot increments. Silk produced in this way degrades into uselessness after 24 hours.\" prereq=\"Companion with the ‹umr/web› ability\" xDC=20}",
 			"",
-			":::ab{jl indent icon=power-melee order=xC title=\"Cocoon\" action=Trick xDC=15 prereq=\"*Spin silk* trick\"}",
+			":::ab{jl indent icon=power-melee order=xC title=Cocoon action=Trick xDC=15 prereq=\"*Spin silk* trick\"}",
 			"",
 			"The companion can cocoon an object or a helpless or willing Huge or smaller creature in webbing. The amount of time this takes depends on the size of the creature or object to be cocooned, as outlined on the following table.",
 			"",
