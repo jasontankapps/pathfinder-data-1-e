@@ -147,13 +147,7 @@
 					""
 				],
 				{
-					"limit": "Advanced Slayer Talents",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[slayertalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Advanced Slayer Talents"
 				}
 			]
 		},
@@ -372,13 +366,7 @@
 					""
 				],
 				{
-					"limit": { "omit": [] },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[arcanedisc/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": { "omit": [] }
 				}
 			]
 		},

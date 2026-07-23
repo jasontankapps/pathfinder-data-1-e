@@ -1608,7 +1608,7 @@ const _rage_powers = {hasJL:true,title: "Rage Powers", topLink: ["Barbarian","cl
 </div>
 <Ability id="ragepowerlesserundeadblood-lesser-undead-blood-su-fn13-30" icon={["armor-downgrade"]}>
 <Pair single id="ragepowerlesserundeadblood-lesser-undead-blood-su-fn13-30"><Link to="/ragepower/lesser_undead_blood">⮞</Link> Lesser Undead Blood (Su) <sup><InnerLink showBacklink="backlink-ability-rage_powers-fake-fn-13.30" id="ability-rage_powers-fake-fn-13.30" data-hash-target to="ability-rage_powers-fake-fn-13-target">13</InnerLink></sup></Pair>
-<Pair title="Ability">While <em>raging,</em> when the barbarian hits a creature with a <Link to="/misc/charge">charge</Link> attack, the creature she hit becomes <Link to="/misc/shaken">shaken</Link> for a number of rounds equal to 1/2 her barbarian level (minimum 1). This effect does not stack with other fear effects to cause a stronger condition.</Pair>
+<Pair title="Ability">While <em>raging,</em> when the barbarian hits a creature with a <Link to="/rule/charge">charge</Link> attack, the creature she hit becomes <Link to="/misc/shaken">shaken</Link> for a number of rounds equal to 1/2 her barbarian level (minimum 1). This effect does not stack with other fear effects to cause a stronger condition.</Pair>
 </Ability>
 <div className="abilityGroup">
 <Ability id="ragepowerundeadblood-undead-blood-su-fn13-31" icon={["upgrade"]}>

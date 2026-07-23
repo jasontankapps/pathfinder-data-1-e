@@ -4587,6 +4587,7 @@
 		"name": "Wire saw (common)",
 		"copyof": "wire_saw_adamantine"
 	},
+	"wire_saw": { "redirect": "wire_saw_common" },
 	"wire": {
 		"name": "Wire",
 		"sources": [ "Ultimate Equipment" ],

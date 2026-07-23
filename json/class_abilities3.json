@@ -476,13 +476,7 @@
 					""
 				],
 				{
-					"limit": "Primary Sneak Attack Talents",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[slayertalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Primary Sneak Attack Talents"
 				},
 				[
 					"",
@@ -492,13 +486,7 @@
 					""
 				],
 				{
-					"limit": "Other Sneak Attack Talents",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[slayertalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Other Sneak Attack Talents"
 				},
 				[
 					"",
@@ -508,13 +496,7 @@
 					""
 				],
 				{
-					"limit": "Studied Target Talents",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[slayertalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Studied Target Talents"
 				},
 				[
 					"",
@@ -522,13 +504,7 @@
 					""
 				],
 				{
-					"limit": "Other Talents",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[slayertalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Other Talents"
 				}
 			]
 		},

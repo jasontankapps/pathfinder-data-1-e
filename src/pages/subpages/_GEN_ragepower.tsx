@@ -1735,7 +1735,7 @@ const _greater_infernal_blood = {title: "Greater Infernal Blood", jsx: <><p><str
 const _lesser_undead_blood = {title: "Lesser Undead Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <Ability id="lesser-undead-blood-su" icon={["armor-downgrade"]}>
 <Pair single id="lesser-undead-blood-su">Lesser Undead Blood (Su)</Pair>
-<Pair title="Ability">While <em>raging,</em> when the barbarian hits a creature with a <Link to="/misc/charge">charge</Link> attack, the creature she hit becomes <Link to="/misc/shaken">shaken</Link> for a number of rounds equal to 1/2 her barbarian level (minimum 1). This effect does not stack with other fear effects to cause a stronger condition.</Pair>
+<Pair title="Ability">While <em>raging,</em> when the barbarian hits a creature with a <Link to="/rule/charge">charge</Link> attack, the creature she hit becomes <Link to="/misc/shaken">shaken</Link> for a number of rounds equal to 1/2 her barbarian level (minimum 1). This effect does not stack with other fear effects to cause a stronger condition.</Pair>
 <Pair title="Special"><strong>Blood</strong> rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.</Pair>
 </Ability>
 </>};
