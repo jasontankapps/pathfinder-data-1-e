@@ -11,7 +11,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/jump›, 4th - ‹spell/cat's grace›, 6th - ‹spell/haste›, 8th - ‹spell/freedom of movement›, 10th - ‹spell/polymorph›, 12th - ‹spell/mass cat's grace›, 14th - ‹spell/ethereal jaunt›, 16th - ‹spell/animal shapes›, 18th - ‹spell/shapechange›."
+			"::ab{title=\"&L&Agility&FN&\" icon=learn info=\"The Agility patron grants the following spells at the listed witch levels.\" s2=\"Jump\" s4=\"Cat's grace\" s6=\"Haste\" s8=\"Freedom of movement\" s10=\"Polymorph\" s12=\"Mass cat's grace\" s14=\"Ethereal jaunt\" s16=\"Animal shapes\" s18=\"Shapechange\"}"
 		]
 	},
 	"ancestors": {
@@ -19,7 +19,7 @@
 		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/bless›, 4th - ‹spell/aid›, 6th - ‹spell/prayer›, 8th - ‹spell/blessing of fervor›, 10th - ‹spell/commune›, 12th - ‹spell/greater heroism›, 14th - ‹spell/refuge›, 16th - ‹spell/euphoric tranquility›, 18th - ‹spell/weird›."
+			"::ab{title=\"&L&Ancestors&FN&\" icon=learn info=\"The Ancestors patron grants the following spells at the listed witch levels.\" s2=\"Bless\" s4=\"Aid\" s6=\"Prayer\" s8=\"Blessing of fervor\" s10=\"Commune\" s12=\"Greater heroism\" s14=\"Refuge\" s16=\"Euphoric tranquility\" s18=\"Weird\"}"
 		]
 	},
 	"animals": {
@@ -27,7 +27,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/charm animal›, 4th - ‹spell/speak with animals›, 6th - ‹spell/dominate animal›, 8th - ‹spell/summon nature's ally IV›, 10th - ‹spell/animal growth›, 12th - ‹spell/antilife shell›, 14th - ‹spell/beast shape IV›, 16th - ‹spell/animal shapes›, 18th - ‹spell/summon nature's ally IX›."
+			"::ab{title=\"&L&Animals&FN&\" icon=learn info=\"The Animals patron grants the following spells at the listed witch levels.\" s2=\"Charm animal\" s4=\"Speak with animals\" s6=\"Dominate animal\" s8=\"Summon nature's ally IV\" s10=\"Animal growth\" s12=\"Antilife shell\" s14=\"Beast shape IV\" s16=\"Animal shapes\" s18=\"Summon nature's ally IX\"}"
 		]
 	},
 	"aurora": {
@@ -35,7 +35,7 @@
 		"compilationSources": [ [ "Paths of the Righteous", 31 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/color spray›, 4th - ‹spell/hypnotic pattern›, 6th - ‹spell/wall of nausea›, 8th - ‹spell/rainbow pattern›, 10th - ‹spell/blazing rainbow›, 12th - ‹spell/programmed image›, 14th - ‹spell/prismatic spray›, 16th - ‹spell/prismatic wall›, 18th - ‹spell/polar midnight›."
+			"::ab{title=\"&L&Aurora&FN&\" icon=learn info=\"The Aurora patron grants the following spells at the listed witch levels.\" s2=\"Color spray\" s4=\"Hypnotic pattern\" s6=\"Wall of nausea\" s8=\"Rainbow pattern\" s10=\"Blazing rainbow\" s12=\"Programmed image\" s14=\"Prismatic spray\" s16=\"Prismatic wall\" s18=\"Polar midnight\"}"
 		]
 	},
 	"autumn": {
@@ -43,7 +43,7 @@
 		"compilationSources": [ [ "Ultimate Wilderness", 88 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/ray of enfeeblement›, 4th - ‹spell/create pit›, 6th - ‹spell/gentle repose›, 8th - ‹spell/vitriolic mist›, 10th - ‹spell/major creation›, 12th - ‹spell/acid fog›, 14th - ‹spell/caustic eruption›, 16th - ‹spell/horrid wilting›, 18th - ‹spell/wail of the banshee›."
+			"::ab{title=\"&L&Autumn&FN&\" icon=learn info=\"The Autumn patron grants the following spells at the listed witch levels.\" s2=\"Ray of enfeeblement\" s4=\"Create pit\" s6=\"Gentle repose\" s8=\"Vitriolic mist\" s10=\"Major creation\" s12=\"Acid fog\" s14=\"Caustic eruption\" s16=\"Horrid wilting\" s18=\"Wail of the banshee\"}"
 		]
 	},
 	"boundaries": {
@@ -51,7 +51,7 @@
 		"compilationSources": [ [ "Champions of Purity", 27 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/protection from evil›, 4th - ‹spell/see invisibility›, 6th - ‹spell/magic circle against evil›, 8th - ‹spell/dimensional anchor›, 10th - ‹spell/control summoned creature›, 12th - ‹spell/banishment›, 14th - ‹spell/ethereal jaunt›, 16th - ‹spell/dimensional lock›, 18th - ‹spell/gate›."
+			"::ab{title=\"&L&Boundaries&FN&\" icon=learn info=\"The Boundaries patron grants the following spells at the listed witch levels.\" s2=\"Protection from evil\" s4=\"See invisibility\" s6=\"Magic circle against evil\" s8=\"Dimensional anchor\" s10=\"Control summoned creature\" s12=\"Banishment\" s14=\"Ethereal jaunt\" s16=\"Dimensional lock\" s18=\"Gate\"}"
 		]
 	},
 	"conspiracies": {
@@ -59,7 +59,7 @@
 		"compilationSources": [ [ "Horror Adventures", 72 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/lock gaze›, 4th - ‹spell/disguise other›, 6th - ‹spell/tongues›, 8th - ‹spell/hypercognition›, 10th - ‹spell/dominate person›, 12th - ‹spell/symbol of persuasion›, 14th - ‹spell/vision›, 16th - ‹spell/frightful aspect›, 18th - ‹spell/overwhelming presence›."
+			"::ab{title=\"&L&Conspiracies&FN&\" icon=learn info=\"The Conspiracies patron grants the following spells at the listed witch levels.\" s2=\"Lock gaze\" s4=\"Disguise other\" s6=\"Tongues\" s8=\"Hypercognition\" s10=\"Dominate person\" s12=\"Symbol of persuasion\" s14=\"Vision\" s16=\"Frightful aspect\" s18=\"Overwhelming presence\"}"
 		]
 	},
 	"death": {
@@ -67,7 +67,7 @@
 		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/deathwatch›, 4th - ‹spell/blessing of courage and life›, 6th - ‹spell/speak with dead›, 8th - ‹spell/rest eternal›, 10th - ‹spell/suffocation›, 12th - ‹spell/circle of death›, 14th - ‹spell/finger of death›, 16th - ‹spell/symbol of death›, 18th - ‹spell/power word kill›."
+			"::ab{title=\"&L&Death&FN&\" icon=learn info=\"The Death patron grants the following spells at the listed witch levels.\" s2=\"Deathwatch\" s4=\"Blessing of courage and life\" s6=\"Speak with dead\" s8=\"Rest eternal\" s10=\"Suffocation\" s12=\"Circle of death\" s14=\"Finger of death\" s16=\"Symbol of death\" s18=\"Power word kill\"}"
 		]
 	},
 	"decadence": {
@@ -75,7 +75,7 @@
 		"compilationSources": [ [ "Horror Adventures", 72 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/negative reaction›, 4th - ‹spell/demand offering›, 6th - ‹spell/sepia snake sigil›, 8th - ‹spell/charm monster›, 10th - ‹spell/dream›, 12th - ‹spell/envious urge›, 14th - ‹spell/waves of ecstasy›, 16th - ‹spell/euphoric tranquility›, 18th - ‹spell/symbol of strife›."
+			"::ab{title=\"&L&Decadence&FN&\" icon=learn info=\"The Decadence patron grants the following spells at the listed witch levels.\" s2=\"Negative reaction\" s4=\"Demand offering\" s6=\"Sepia snake sigil\" s8=\"Charm monster\" s10=\"Dream\" s12=\"Envious urge\" s14=\"Waves of ecstasy\" s16=\"Euphoric tranquility\" s18=\"Symbol of strife\"}"
 		]
 	},
 	"deception": {
@@ -83,7 +83,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/ventriloquism›, 4th - ‹spell/invisibility›, 6th - ‹spell/blink›, 8th - ‹spell/confusion›, 10th - ‹spell/passwall›, 12th - ‹spell/programmed image›, 14th - ‹spell/mass invisibility›, 16th - ‹spell/scintillating pattern›, 18th - ‹spell/time stop›."
+			"::ab{title=\"&L&Deception&FN&\" icon=learn info=\"The Deception patron grants the following spells at the listed witch levels.\" s2=\"Ventriloquism\" s4=\"Invisibility\" s6=\"Blink\" s8=\"Confusion\" s10=\"Passwall\" s12=\"Programmed image\" s14=\"Mass invisibility\" s16=\"Scintillating pattern\" s18=\"Time stop\"}"
 		]
 	},
 	"devotion": {
@@ -91,7 +91,7 @@
 		"compilationSources": [ [ "Champions of Purity", 27 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/divine favor›, 4th - ‹spell/martyr's bargain›, 6th - ‹spell/magic vestment›, 8th - ‹spell/greater magic weapon›, 10th - ‹spell/flame strike›, 12th - ‹spell/mass bull's strength›, 14th - ‹spell/bestow grace of the champion›, 16th - ‹spell/holy aura›, 18th - ‹spell/mass heal›."
+			"::ab{title=\"&L&Devotion&FN&\" icon=learn info=\"The Devotion patron grants the following spells at the listed witch levels.\" s2=\"Divine favor\" s4=\"Martyr's bargain\" s6=\"Magic vestment\" s8=\"Greater magic weapon\" s10=\"Flame strike\" s12=\"Mass bull's strength\" s14=\"Bestow grace of the champion\" s16=\"Holy aura\" s18=\"Mass heal\"}"
 		]
 	},
 	"elements": {
@@ -99,7 +99,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/shocking grasp›, 4th - ‹spell/flaming sphere›, 6th - ‹spell/fireball›, 8th - ‹spell/wall of ice›, 10th - ‹spell/flame strike›, 12th - ‹spell/freezing sphere›, 14th - ‹spell/vortex›, 16th - ‹spell/fire storm›, 18th - ‹spell/meteor swarm›."
+			"::ab{title=\"&L&Elements&FN&\" icon=learn info=\"The Elements patron grants the following spells at the listed witch levels.\" s2=\"Shocking grasp\" s4=\"Flaming sphere\" s6=\"Fireball\" s8=\"Wall of ice\" s10=\"Flame strike\" s12=\"Freezing sphere\" s14=\"Vortex\" s16=\"Fire storm\" s18=\"Meteor swarm\"}"
 		]
 	},
 	"enchantment": {
@@ -107,7 +107,7 @@
 		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/unnatural lust›, 4th - ‹spell/calm emotions›, 6th - ‹spell/unadulterated loathing›, 8th - ‹spell/overwhelming grief›, 10th - ‹spell/dominate person›, 12th - ‹spell/geas›, 14th - ‹spell/euphoric tranquility›, 16th - ‹spell/demand›, 18th - ‹spell/dominate monster›."
+			"::ab{title=\"&L&Enchantment&FN&\" icon=learn info=\"The Enchantment patron grants the following spells at the listed witch levels.\" s2=\"Unnatural lust\" s4=\"Calm emotions\" s6=\"Unadulterated loathing\" s8=\"Overwhelming grief\" s10=\"Dominate person\" s12=\"Geas\" s14=\"Euphoric tranquility\" s16=\"Demand\" s18=\"Dominate monster\"}"
 		]
 	},
 	"endurance": {
@@ -115,7 +115,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/endure elements›, 4th - ‹spell/bear's endurance›, 6th - ‹spell/protection from energy›, 8th - ‹spell/spell immunity›, 10th - ‹spell/spell resistance›, 12th - ‹spell/mass bear's endurance›, 14th - ‹spell/greater restoration›, 16th - ‹spell/iron body›, 18th - ‹spell/miracle›."
+			"::ab{title=\"&L&Endurance&FN&\" icon=learn info=\"The Endurance patron grants the following spells at the listed witch levels.\" s2=\"Endure elements\" s4=\"Bear's endurance\" s6=\"Protection from energy\" s8=\"Spell immunity\" s10=\"Spell resistance\" s12=\"Mass bear's endurance\" s14=\"Greater restoration\" s16=\"Iron body\" s18=\"Miracle\"}"
 		]
 	},
 	"entropy": {
@@ -123,7 +123,7 @@
 		"compilationSources": [ [ "Horror Adventures", 72 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/lesser confusion›, 4th - ‹spell/plague carrier›, 6th - ‹spell/babble›, 8th - ‹spell/wandering star motes›, 10th - ‹spell/feeblemind›, 12th - ‹spell/antimagic field›, 14th - ‹spell/insanity›, 16th - ‹spell/symbol of insanity›, 18th - ‹spell/interplanetary teleport›."
+			"::ab{title=\"&L&Entropy&FN&\" icon=learn info=\"The Entropy patron grants the following spells at the listed witch levels.\" s2=\"Lesser confusion\" s4=\"Plague carrier\" s6=\"Babble\" s8=\"Wandering star motes\" s10=\"Feeblemind\" s12=\"Antimagic field\" s14=\"Insanity\" s16=\"Symbol of insanity\" s18=\"Interplanetary teleport\"}"
 		]
 	},
 	"ethereal": {
@@ -131,7 +131,7 @@
 		"compilationSources": [ [ "Occult Adventures", 125 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/detect undead›, 4th - ‹spell/see invisibility›, 6th - ‹spell/ectoplasmic snare›, 8th - ‹spell/condensed ether›, 10th - ‹spell/ethereal envelope›, 12th - ‹spell/ethereal jaunt›, 14th - ‹spell/ectoplasmic eruption›, 16th - ‹spell/ethereal envelopment›, 18th - ‹spell/etherealness›."
+			"::ab{title=\"&L&Ethereal&FN&\" icon=learn info=\"The Ethereal patron grants the following spells at the listed witch levels.\" s2=\"Detect undead\" s4=\"See invisibility\" s6=\"Ectoplasmic snare\" s8=\"Condensed ether\" s10=\"Ethereal envelope\" s12=\"Ethereal jaunt\" s14=\"Ectoplasmic eruption\" s16=\"Ethereal envelopment\" s18=\"Etherealness\"}"
 		]
 	},
 	"fate": {
@@ -139,7 +139,7 @@
 		"compilationSources": [ [ "Pathfinder #72: The Witch Queen's Revenge", 75 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/doom›, 4th - ‹spell/anticipate peril›, 6th - ‹spell/helping hand›, 8th - ‹spell/blessing of fervor›, 10th - ‹spell/greater forbid action›, 12th - ‹spell/contingency›, 14th - ‹spell/jolting portent›, 16th - ‹spell/maze›, 18th - ‹spell/wish›."
+			"::ab{title=\"&L&Fate&FN&\" icon=learn info=\"The Fate patron grants the following spells at the listed witch levels.\" s2=\"Doom\" s4=\"Anticipate peril\" s6=\"Helping hand\" s8=\"Blessing of fervor\" s10=\"Greater forbid action\" s12=\"Contingency\" s14=\"Jolting portent\" s16=\"Maze\" s18=\"Wish\"}"
 		]
 	},
 	"healing": {
@@ -147,7 +147,7 @@
 		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/remove fear›, 4th - ‹spell/lesser restoration›, 6th - ‹spell/remove disease›, 8th - ‹spell/restoration›, 10th - ‹spell/cleanse›, 12th - ‹spell/pillar of life›, 14th - ‹spell/greater restoration›, 16th - ‹spell/mass cure critical wounds›, 18th - ‹spell/true resurrection›."
+			"::ab{title=\"&L&Healing&FN&\" icon=learn info=\"The Healing patron grants the following spells at the listed witch levels.\" s2=\"Remove fear\" s4=\"Lesser restoration\" s6=\"Remove disease\" s8=\"Restoration\" s10=\"Cleanse\" s12=\"Pillar of life\" s14=\"Greater restoration\" s16=\"Mass cure critical wounds\" s18=\"True resurrection\"}"
 		]
 	},
 	"insanity": {
@@ -155,7 +155,7 @@
 		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/memory lapse›, 4th - ‹spell/hideous laughter›, 6th - ‹spell/distracting cacophony›, 8th - ‹spell/confusion›, 10th - ‹spell/mind fog›, 12th - ‹spell/envious urge›, 14th - ‹spell/insanity›, 16th - ‹spell/symbol of insanity›, 18th - ‹spell/overwhelming presence›."
+			"::ab{title=\"&L&Insanity&FN&\" icon=learn info=\"The Insanity patron grants the following spells at the listed witch levels.\" s2=\"Memory lapse\" s4=\"Hideous laughter\" s6=\"Distracting cacophony\" s8=\"Confusion\" s10=\"Mind fog\" s12=\"Envious urge\" s14=\"Insanity\" s16=\"Symbol of insanity\" s18=\"Overwhelming presence\"}"
 		]
 	},
 	"jynx": {
@@ -163,7 +163,7 @@
 		"compilationSources": [ [ "Blood of the Coven", 17 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/ill omen›, 4th - ‹spell/shatter›, 6th - ‹spell/bestow curse›, 8th - ‹spell/retribution›, 10th - ‹spell/mark of justice›, 12th - ‹spell/eyebite›, 14th - ‹spell/spell turning›, 16th - ‹spell/antipathy›, 18th - ‹spell/energy drain›."
+			"::ab{title=\"&L&Jynx&FN&\" icon=learn info=\"The Jynx patron grants the following spells at the listed witch levels.\" s2=\"Ill omen\" s4=\"Shatter\" s6=\"Bestow curse\" s8=\"Retribution\" s10=\"Mark of justice\" s12=\"Eyebite\" s14=\"Spell turning\" s16=\"Antipathy\" s18=\"Energy drain\"}"
 		]
 	},
 	"light": {
@@ -171,7 +171,7 @@
 		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/dancing lantern›, 4th - ‹spell/continual flame›, 6th - ‹spell/daylight›, 8th - ‹spell/rainbow pattern›, 10th - ‹spell/fire snake›, 12th - ‹spell/sirocco›, 14th - ‹spell/sunbeam›, 16th - ‹spell/sunburst›, 18th - ‹spell/fiery body›."
+			"::ab{title=\"&L&Light&FN&\" icon=learn info=\"The Light patron grants the following spells at the listed witch levels.\" s2=\"Dancing lantern\" s4=\"Continual flame\" s6=\"Daylight\" s8=\"Rainbow pattern\" s10=\"Fire snake\" s12=\"Sirocco\" s14=\"Sunbeam\" s16=\"Sunburst\" s18=\"Fiery body\"}"
 		]
 	},
 	"mercy": {
@@ -179,7 +179,7 @@
 		"compilationSources": [ [ "Blood of the Coven", 17 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/cure light wounds›, 4th - ‹spell/eagle's splendor›, 6th - ‹spell/remove curse›, 8th - ‹spell/restoration›, 10th - ‹spell/cleanse›, 12th - ‹spell/heroes' feast›, 14th - ‹spell/foe to friend›, 16th - ‹spell/euphoric tranquility›, 18th - ‹spell/true resurrection›."
+			"::ab{title=\"&L&Mercy&FN&\" icon=learn info=\"The Mercy patron grants the following spells at the listed witch levels.\" s2=\"Cure light wounds\" s4=\"Eagle's splendor\" s6=\"Remove curse\" s8=\"Restoration\" s10=\"Cleanse\" s12=\"Heroes' feast\" s14=\"Foe to friend\" s16=\"Euphoric tranquility\" s18=\"True resurrection\"}"
 		]
 	},
 	"mind": {
@@ -187,7 +187,7 @@
 		"compilationSources": [ [ "Occult Adventures", 125 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/mindlink›, 4th - ‹spell/mental block›, 6th - ‹spell/mindscape door›, 8th - ‹spell/create mindscape›, 10th - ‹spell/psychic asylum›, 12th - ‹spell/greater create mindscape›, 14th - ‹spell/psychic surgery›, 16th - ‹spell/moment of prescience›, 18th - ‹spell/microcosm›."
+			"::ab{title=\"&L&Mind&FN&\" icon=learn info=\"The Mind patron grants the following spells at the listed witch levels.\" s2=\"Mindlink\" s4=\"Mental block\" s6=\"Mindscape door\" s8=\"Create mindscape\" s10=\"Psychic asylum\" s12=\"Greater create mindscape\" s14=\"Psychic surgery\" s16=\"Moment of prescience\" s18=\"Microcosm\"}"
 		]
 	},
 	"moon": {
@@ -195,7 +195,7 @@
 		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/darkness›, 4th - ‹spell/darkvision›, 6th - ‹spell/owl's wisdom›, 8th - ‹spell/moonstruck›, 10th - ‹spell/aspect of the wolf›, 12th - ‹spell/control water›, 14th - ‹spell/lunar veil›, 16th - ‹spell/horrid wilting›, 18th - ‹spell/meteor swarm›."
+			"::ab{title=\"&L&Moon&FN&\" icon=learn info=\"The Moon patron grants the following spells at the listed witch levels.\" s2=\"Darkness\" s4=\"Darkvision\" s6=\"Owl's wisdom\" s8=\"Moonstruck\" s10=\"Aspect of the wolf\" s12=\"Control water\" s14=\"Lunar veil\" s16=\"Horrid wilting\" s18=\"Meteor swarm\"}"
 		]
 	},
 	"mountain": {
@@ -203,7 +203,7 @@
 		"compilationSources": [ [ "Heroes of the Wild", 13 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/stone fist›, 4th - ‹spell/stone call›, 6th - ‹spell/stone shape›, 8th - ‹spell/spike stones›, 10th - ‹spell/wall of stone›, 12th - ‹spell/flesh to stone›, 14th - ‹spell/stone tell›, 16th - ‹spell/repel metal or stone›, 18th - ‹spell/clashing rocks›."
+			"::ab{title=\"&L&Mountain&FN&\" icon=learn info=\"The Mountain patron grants the following spells at the listed witch levels.\" s2=\"Stone fist\" s4=\"Stone call\" s6=\"Stone shape\" s8=\"Spike stones\" s10=\"Wall of stone\" s12=\"Flesh to stone\" s14=\"Stone tell\" s16=\"Repel metal or stone\" s18=\"Clashing rocks\"}"
 		]
 	},
 	"nightmares": {
@@ -211,7 +211,7 @@
 		"compilationSources": [ [ "Horror Adventures", 72 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/sleep›, 4th - ‹spell/detect thoughts›, 6th - ‹spell/oneiric horror›, 8th - ‹spell/phantasmal killer›, 10th - ‹spell/nightmare›, 12th - ‹spell/dream travel›, 14th - ‹spell/symbol of weakness›, 16th - ‹spell/demand›, 18th - ‹spell/polar midnight›."
+			"::ab{title=\"&L&Nightmares&FN&\" icon=learn info=\"The Nightmares patron grants the following spells at the listed witch levels.\" s2=\"Sleep\" s4=\"Detect thoughts\" s6=\"Oneiric horror\" s8=\"Phantasmal killer\" s10=\"Nightmare\" s12=\"Dream travel\" s14=\"Symbol of weakness\" s16=\"Demand\" s18=\"Polar midnight\"}"
 		]
 	},
 	"occult": {
@@ -219,7 +219,7 @@
 		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/detect undead›, 4th - ‹spell/command undead›, 6th - ‹spell/twilight knife›, 8th - ‹spell/black tentacles›, 10th - ‹spell/snake staff›, 12th - ‹spell/create undead›, 14th - ‹spell/waves of exhaustion›, 16th - ‹spell/trap the soul›, 18th - ‹spell/gate›."
+			"::ab{title=\"&L&Occult&FN&\" icon=learn info=\"The Occult patron grants the following spells at the listed witch levels.\" s2=\"Detect undead\" s4=\"Command undead\" s6=\"Twilight knife\" s8=\"Black tentacles\" s10=\"Snake staff\" s12=\"Create undead\" s14=\"Waves of exhaustion\" s16=\"Trap the soul\" s18=\"Gate\"}"
 		]
 	},
 	"peace": {
@@ -227,7 +227,7 @@
 		"compilationSources": [ [ "Champions of Purity", 27 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/sanctuary›, 4th - ‹spell/calm emotions›, 6th - ‹spell/wind wall›, 8th - ‹spell/dismissal›, 10th - ‹spell/serenity›, 12th - ‹spell/word of recall›, 14th - ‹spell/forcecage›, 16th - ‹spell/euphoric tranquility›, 18th - ‹spell/antipathy›."
+			"::ab{title=\"&L&Peace&FN&\" icon=learn info=\"The Peace patron grants the following spells at the listed witch levels.\" s2=\"Sanctuary\" s4=\"Calm emotions\" s6=\"Wind wall\" s8=\"Dismissal\" s10=\"Serenity\" s12=\"Word of recall\" s14=\"Forcecage\" s16=\"Euphoric tranquility\" s18=\"Antipathy\"}"
 		]
 	},
 	"plague": {
@@ -235,7 +235,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/detect undead›, 4th - ‹spell/command undead›, 6th - ‹spell/contagion›, 8th - ‹spell/animate dead›, 10th - ‹spell/giant vermin›, 12th - ‹spell/create undead›, 14th - ‹spell/control undead›, 16th - ‹spell/create greater undead›, 18th - ‹spell/energy drain›."
+			"::ab{title=\"&L&Plague&FN&\" icon=learn info=\"The Plague patron grants the following spells at the listed witch levels.\" s2=\"Detect undead\" s4=\"Command undead\" s6=\"Contagion\" s8=\"Animate dead\" s10=\"Giant vermin\" s12=\"Create undead\" s14=\"Control undead\" s16=\"Create greater undead\" s18=\"Energy drain\"}"
 		]
 	},
 	"plant": {
@@ -243,7 +243,7 @@
 		"compilationSources": [ [ "Heroes of the Wild", 11 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/entangle›, 4th - ‹spell/accelerate poison›, 6th - ‹spell/lily pad stride›, 8th - ‹spell/grove of respite›, 10th - ‹spell/tree stride›, 12th - ‹spell/repel wood›, 14th - ‹spell/animate plants›, 16th - ‹spell/control plants›, 18th - ‹spell/shambler›."
+			"::ab{title=\"&L&Plant&FN&\" icon=learn info=\"The Plant patron grants the following spells at the listed witch levels.\" s2=\"Entangle\" s4=\"Accelerate poison\" s6=\"Lily pad stride\" s8=\"Grove of respite\" s10=\"Tree stride\" s12=\"Repel wood\" s14=\"Animate plants\" s16=\"Control plants\" s18=\"Shambler\"}"
 		]
 	},
 	"portents": {
@@ -251,7 +251,7 @@
 		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/ill omen›, 4th - ‹spell/locate object›, 6th - ‹spell/blood biography›, 8th - ‹spell/divination›, 10th - ‹spell/contact other plane›, 12th - ‹spell/legend lore›, 14th - ‹spell/vision›, 16th - ‹spell/moment of prescience›, 18th - ‹spell/foresight›."
+			"::ab{title=\"&L&Portents&FN&\" icon=learn info=\"The Portents patron grants the following spells at the listed witch levels.\" s2=\"Ill omen\" s4=\"Locate object\" s6=\"Blood biography\" s8=\"Divination\" s10=\"Contact other plane\" s12=\"Legend lore\" s14=\"Vision\" s16=\"Moment of prescience\" s18=\"Foresight\"}"
 		]
 	},
 	"protection": {
@@ -259,7 +259,7 @@
 		"compilationSources": [ [ "Heroes of the High Court", 9 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/sanctuary›, 4th - ‹spell/resist energy›, 6th - ‹spell/wrathful mantle›, 8th - ‹spell/stoneskin›, 10th - ‹spell/interposing hand›, 12th - ‹spell/forbiddance›, 14th - ‹spell/greater spell immunity›, 16th - ‹spell/prismatic wall›, 18th - ‹spell/freedom›."
+			"::ab{title=\"&L&Protection&FN&\" icon=learn info=\"The Protection patron grants the following spells at the listed witch levels.\" s2=\"Sanctuary\" s4=\"Resist energy\" s6=\"Wrathful mantle\" s8=\"Stoneskin\" s10=\"Interposing hand\" s12=\"Forbiddance\" s14=\"Greater spell immunity\" s16=\"Prismatic wall\" s18=\"Freedom\"}"
 		]
 	},
 	"recovery": {
@@ -267,7 +267,7 @@
 		"compilationSources": [ [ "Healer's Handbook", 16 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/liberating command›, 4th - ‹spell/remove paralysis›, 6th - ‹spell/sacred bond›, 8th - ‹spell/freedom of movement›, 10th - ‹spell/cleanse›, 12th - ‹spell/heroes' feast›, 14th - ‹spell/joyful rapture›, 16th - ‹spell/protection from spells›, 18th - ‹spell/mass heal›."
+			"::ab{title=\"&L&Recovery&FN&\" icon=learn info=\"The Recovery patron grants the following spells at the listed witch levels.\" s2=\"Liberating command\" s4=\"Remove paralysis\" s6=\"Sacred bond\" s8=\"Freedom of movement\" s10=\"Cleanse\" s12=\"Heroes' feast\" s14=\"Joyful rapture\" s16=\"Protection from spells\" s18=\"Mass heal\"}"
 		]
 	},
 	"revenge": {
@@ -275,7 +275,7 @@
 		"compilationSources": [ [ "Horror Adventures", 72 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/magic fang›, 4th - ‹spell/slipstream›, 6th - ‹spell/rage›, 8th - ‹spell/moonstruck›, 10th - ‹spell/beast shape III›, 12th - ‹spell/vengeful outrage›, 14th - ‹spell/phantasmal revenge›, 16th - ‹spell/seamantle›, 18th - ‹spell/storm of vengeance›."
+			"::ab{title=\"&L&Revenge&FN&\" icon=learn info=\"The Revenge patron grants the following spells at the listed witch levels.\" s2=\"Magic fang\" s4=\"Slipstream\" s6=\"Rage\" s8=\"Moonstruck\" s10=\"Beast shape III\" s12=\"Vengeful outrage\" s14=\"Phantasmal revenge\" s16=\"Seamantle\" s18=\"Storm of vengeance\"}"
 		]
 	},
 	"rot": {
@@ -283,7 +283,7 @@
 		"compilationSources": [ [ "Blood of the Coven", 17 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/decompose corpse›, 4th - ‹spell/warp wood›, 6th - ‹spell/fungal infestation›, 8th - ‹spell/fleshworm infestation›, 10th - ‹spell/plague carrier›, 12th - ‹spell/epidemic›, 14th - ‹spell/creeping doom›, 16th - ‹spell/horrid wilting›, 18th - ‹spell/cursed earth›."
+			"::ab{title=\"&L&Rot&FN&\" icon=learn info=\"The Rot patron grants the following spells at the listed witch levels.\" s2=\"Decompose corpse\" s4=\"Warp wood\" s6=\"Fungal infestation\" s8=\"Fleshworm infestation\" s10=\"Plague carrier\" s12=\"Epidemic\" s14=\"Creeping doom\" s16=\"Horrid wilting\" s18=\"Cursed earth\"}"
 		]
 	},
 	"shadow": {
@@ -291,7 +291,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/silent image›, 4th - ‹spell/darkness›, 6th - ‹spell/deeper darkness›, 8th - ‹spell/shadow conjuration›, 10th - ‹spell/shadow evocation›, 12th - ‹spell/shadow walk›, 14th - ‹spell/greater shadow conjuration›, 16th - ‹spell/greater shadow evocation›, 18th - ‹spell/shades›."
+			"::ab{title=\"&L&Shadow&FN&\" icon=learn info=\"The Shadow patron grants the following spells at the listed witch levels.\" s2=\"Silent image\" s4=\"Darkness\" s6=\"Deeper darkness\" s8=\"Shadow conjuration\" s10=\"Shadow evocation\" s12=\"Shadow walk\" s14=\"Greater shadow conjuration\" s16=\"Greater shadow evocation\" s18=\"Shades\"}"
 		]
 	},
 	"space": {
@@ -299,7 +299,7 @@
 		"compilationSources": [ [ "Horror Adventures", 72 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/mirror strike›, 4th - ‹spell/twisted space›, 6th - ‹spell/blink›, 8th - ‹spell/dimension door›, 10th - ‹spell/hostile juxtaposition›, 12th - ‹spell/repulsion›, 14th - ‹spell/walk through space›, 16th - ‹spell/bilocation›, 18th - ‹spell/teleportation circle›."
+			"::ab{title=\"&L&Space&FN&\" icon=learn info=\"The Space patron grants the following spells at the listed witch levels.\" s2=\"Mirror strike\" s4=\"Twisted space\" s6=\"Blink\" s8=\"Dimension door\" s10=\"Hostile juxtaposition\" s12=\"Repulsion\" s14=\"Walk through space\" s16=\"Bilocation\" s18=\"Teleportation circle\"}"
 		]
 	},
 	"spirits": {
@@ -307,7 +307,7 @@
 		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/ghostbane dirge›, 4th - ‹spell/invisibility›, 6th - ‹spell/speak with dead›, 8th - ‹spell/spiritual ally›, 10th - ‹spell/mass ghostbane dirge›, 12th - ‹spell/shadow walk›, 14th - ‹spell/ethereal jaunt›, 16th - ‹spell/planar ally›, 18th - ‹spell/etherealness›."
+			"::ab{title=\"&L&Spirits&FN&\" icon=learn info=\"The Spirits patron grants the following spells at the listed witch levels.\" s2=\"Ghostbane dirge\" s4=\"Invisibility\" s6=\"Speak with dead\" s8=\"Spiritual ally\" s10=\"Mass ghostbane dirge\" s12=\"Shadow walk\" s14=\"Ethereal jaunt\" s16=\"Planar ally\" s18=\"Etherealness\"}"
 		]
 	},
 	"spring": {
@@ -315,7 +315,7 @@
 		"compilationSources": [ [ "Ultimate Wilderness", 88 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/feather fall›, 4th - ‹spell/alter self›, 6th - ‹spell/pup shape›, 8th - ‹spell/true form›, 10th - ‹spell/lightning arc›, 12th - ‹spell/chain lightning›, 14th - ‹spell/control weather›, 16th - ‹spell/stormbolts›, 18th - ‹spell/time stop›."
+			"::ab{title=\"&L&Spring&FN&\" icon=learn info=\"The Spring patron grants the following spells at the listed witch levels.\" s2=\"Feather fall\" s4=\"Alter self\" s6=\"Pup shape\" s8=\"True form\" s10=\"Lightning arc\" s12=\"Chain lightning\" s14=\"Control weather\" s16=\"Stormbolts\" s18=\"Time stop\"}"
 		]
 	},
 	"stars": {
@@ -323,7 +323,7 @@
 		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/faerie fire›, 4th - ‹spell/dust of twilight›, 6th - ‹spell/guiding star›, 8th - ‹spell/wandering star motes›, 10th - ‹spell/dream›, 12th - ‹spell/cloak of dreams›, 14th - ‹spell/circle of clarity›, 16th - ‹spell/euphoric tranquility›, 18th - ‹spell/astral projection›."
+			"::ab{title=\"&L&Stars&FN&\" icon=learn info=\"The Stars patron grants the following spells at the listed witch levels.\" s2=\"Faerie fire\" s4=\"Dust of twilight\" s6=\"Guiding star\" s8=\"Wandering star motes\" s10=\"Dream\" s12=\"Cloak of dreams\" s14=\"Circle of clarity\" s16=\"Euphoric tranquility\" s18=\"Astral projection\"}"
 		]
 	},
 	"storms": {
@@ -331,7 +331,7 @@
 		"compilationSources": [ [ "Heroes of the Wild", 13 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/obscuring mist›, 4th - ‹spell/fog cloud›, 6th - ‹spell/call lightning›, 8th - ‹spell/ice storm›, 10th - ‹spell/call lightning storm›, 12th - ‹spell/wind walk›, 14th - ‹spell/control weather›, 16th - ‹spell/whirlwind›, 18th - ‹spell/storm of vengeance›."
+			"::ab{title=\"&L&Storms&FN&\" icon=learn info=\"The Storms patron grants the following spells at the listed witch levels.\" s2=\"Obscuring mist\" s4=\"Fog cloud\" s6=\"Call lightning\" s8=\"Ice storm\" s10=\"Call lightning storm\" s12=\"Wind walk\" s14=\"Control weather\" s16=\"Whirlwind\" s18=\"Storm of vengeance\"}"
 		]
 	},
 	"strength": {
@@ -339,23 +339,23 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/divine favor›, 4th - ‹spell/bull's strength›, 6th - ‹spell/greater magic weapon›, 8th - ‹spell/divine power›, 10th - ‹spell/righteous might›, 12th - ‹spell/mass bull's strength›, 14th - ‹spell/giant form I›, 16th - ‹spell/giant form II›, 18th - ‹spell/shapechange›."
+			"::ab{title=\"&L&Strength&FN&\" icon=learn info=\"The Strength patron grants the following spells at the listed witch levels.\" s2=\"Divine favor\" s4=\"Bull's strength\" s6=\"Greater magic weapon\" s8=\"Divine power\" s10=\"Righteous might\" s12=\"Mass bull's strength\" s14=\"Giant form I\" s16=\"Giant form II\" s18=\"Shapechange\"}"
 		]
 	},
 	"summer": {
 		"name": "Summer",
-		"compilationSources": [ [ "Heroes of the Wild", 13 ] ],
+		"compilationSources": [ [ "Heroes of the Wild", 13 ], [ "Ultimate Wilderness", 88 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/goodberry›, 4th - ‹spell/flaming sphere›, 6th - ‹spell/daylight›, 8th - ‹spell/greater flaming sphere›, 10th - ‹spell/wall of fire›, 12th - ‹spell/sirocco›, 14th - ‹spell/sunbeam›, 16th - ‹spell/sunburst›, 18th - ‹spell/fiery body›.[^D]"
+			"::ab{title=\"&L&Summer&FN&\" icon=learn info=\"The Summer patron grants the following spells at the listed witch levels.\" s2=\"Goodberry\" s4=\"Flaming sphere\" s6=\"Daylight\" s8=\"Greater flaming sphere\" s10=\"Wall of fire\" s12=\"Sirocco\" s14=\"Sunbeam\" s16=\"Sunburst\" s18=\"Fiery body\"}"
 		]
 	},
 	"thorns": {
 		"name": "Thorns",
-		"compilationSources": [ [ "Heroes of the Wild", 13 ] ],
+		"compilationSources": [ [ "Heroes of the Wild", 13 ], [ "Ultimate Wilderness", 88 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/thorn javelin›, 4th - ‹spell/wrath›, 6th - ‹spell/thorny entanglement›, 8th - ‹spell/thorn body›, 10th - ‹spell/wall of thorns›, 12th - ‹spell/blade barrier›, 14th - ‹spell/repulsion›, 16th - ‹spell/mage's sword›, 18th - ‹spell/wooden phalanx›.[^D]"
+			"::ab{title=\"&L&Thorns&FN&\" icon=learn info=\"The Thorns patron grants the following spells at the listed witch levels.\" s2=\"Thorn javelin\" s4=\"Wrath\" s6=\"Thorny entanglement\" s8=\"Thorn body\" s10=\"Wall of thorns\" s12=\"Blade barrier\" s14=\"Repulsion\" s16=\"Mage's sword\" s18=\"Wooden phalanx\"}"
 		]
 	},
 	"time": {
@@ -363,7 +363,7 @@
 		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/ventriloquism›, 4th - ‹spell/silence›, 6th - ‹spell/haste›, 8th - ‹spell/threefold aspect›, 10th - ‹spell/teleport›, 12th - ‹spell/disintegrate›, 14th - ‹spell/expend›, 16th - ‹spell/temporal stasis›, 18th - ‹spell/time stop›."
+			"::ab{title=\"&L&Time&FN&\" icon=learn info=\"The Time patron grants the following spells at the listed witch levels.\" s2=\"Ventriloquism\" s4=\"Silence\" s6=\"Haste\" s8=\"Threefold aspect\" s10=\"Teleport\" s12=\"Disintegrate\" s14=\"Expend\" s16=\"Temporal stasis\" s18=\"Time stop\"}"
 		]
 	},
 	"transformation": {
@@ -371,7 +371,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/jump›, 4th - ‹spell/bear's endurance›, 6th - ‹spell/beast shape I›, 8th - ‹spell/beast shape II›, 10th - ‹spell/beast shape III›, 12th - ‹spell/form of the dragon I›, 14th - ‹spell/form of the dragon II›, 16th - ‹spell/form of the dragon III›, 18th - ‹spell/shapechange›.",
+			"::ab{title=\"&L&Transformation&FN&\" icon=learn info=\"The Transformation patron grants the following spells at the listed witch levels.\" s2=\"Jump\" s4=\"Bear's endurance\" s6=\"Beast shape I\" s8=\"Beast shape II\" s10=\"Beast shape III\" s12=\"Form of the dragon I\" s14=\"Form of the dragon II\" s16=\"Form of the dragon III\" s18=\"Shapechange\"}",
 			"",
 			";;;aside",
 			"",
@@ -385,7 +385,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/animate rope›, 4th - ‹spell/mirror image›, 6th - ‹spell/major image›, 8th - ‹spell/hallucinatory terrain›, 10th - ‹spell/mirage arcana›, 12th - ‹spell/mislead›, 14th - ‹spell/reverse gravity›, 16th - ‹spell/screen›, 18th - ‹spell/time stop›."
+			"::ab{title=\"&L&Trickery&FN&\" icon=learn info=\"The Trickery patron grants the following spells at the listed witch levels.\" s2=\"Animate rope\" s4=\"Mirror image\" s6=\"Major image\" s8=\"Hallucinatory terrain\" s10=\"Mirage arcana\" s12=\"Mislead\" s14=\"Reverse gravity\" s16=\"Screen\" s18=\"Time stop\"}"
 		]
 	},
 	"vengeance": {
@@ -393,7 +393,7 @@
 		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/burning hands›, 4th - ‹spell/burning gaze›, 6th - ‹spell/pain strike›, 8th - ‹spell/shout›, 10th - ‹spell/symbol of pain›, 12th - ‹spell/mass pain strike›, 14th - ‹spell/phantasmal revenge›, 16th - ‹spell/incendiary cloud›, 18th - ‹spell/winds of vengeance›."
+			"::ab{title=\"&L&Vengeance&FN&\" icon=learn info=\"The Vengeance patron grants the following spells at the listed witch levels.\" s2=\"Burning hands\" s4=\"Burning gaze\" s6=\"Pain strike\" s8=\"Shout\" s10=\"Symbol of pain\" s12=\"Mass pain strike\" s14=\"Phantasmal revenge\" s16=\"Incendiary cloud\" s18=\"Winds of vengeance\"}"
 		]
 	},
 	"water": {
@@ -401,15 +401,15 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/bless water›/‹spell/curse water›, 4th - ‹spell/slipstream›, 6th - ‹spell/water breathing›, 8th - ‹spell/control water›, 10th - ‹spell/geyser›, 12th - ‹spell/elemental body III« (water only)›, 14th - ‹spell/elemental body IV« (water only)›, 16th - ‹spell/seamantle›, 18th - ‹spell/tsunami›."
+			"::ab{title=\"&L&Water&FN&\" icon=learn info=\"The Water patron grants the following spells at the listed witch levels.\" s2=\"Bless water|(or ‹spell/curse water›)\" s4=\"Slipstream\" s6=\"Water breathing\" s8=\"Control water\" s10=\"Geyser\" s12=\"Elemental body III|(water only)\" s14=\"Elemental body IV|(water only)\" s16=\"Seamantle\" s18=\"Tsunami\"}"
 		]
 	},
 	"winter": {
 		"name": "Winter",
-		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
+		"compilationSources": [ [ "Ultimate Magic", 83 ], [ "Ultimate Wilderness", 88 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/unshakable chill›, 4th - ‹spell/resist energy« (cold only)›, 6th - ‹spell/ice storm›, 8th - ‹spell/wall of ice›, 10th - ‹spell/cone of cold›, 12th - ‹spell/freezing sphere›, 14th - ‹spell/control weather›, 16th - ‹spell/polar ray›, 18th - ‹spell/polar midnight›.[^D]"
+			"::ab{title=\"&L&Winter&FN&\" icon=learn info=\"The Winter patron grants the following spells at the listed witch levels.\" s2=\"Unshakable chill\" s4=\"Resist energy|(cold only)\" s6=\"Ice storm\" s8=\"Wall of ice\" s10=\"Cone of cold\" s12=\"Freezing sphere\" s14=\"Control weather\" s16=\"Polar ray\" s18=\"Polar midnight\"}"
 		]
 	},
 	"wisdom": {
@@ -417,7 +417,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/shield of faith›, 4th - ‹spell/owl's wisdom›, 6th - ‹spell/magic vestment›, 8th - ‹spell/lesser globe of invulnerability›, 10th - ‹spell/dream›, 12th - ‹spell/globe of invulnerability›, 14th - ‹spell/spell turning›, 16th - ‹spell/protection from spells›, 18th - ‹spell/mage's disjunction›."
+			"::ab{title=\"&L&Wisdom&FN&\" icon=learn info=\"The Wisdom patron grants the following spells at the listed witch levels.\" s2=\"Shield of faith\" s4=\"Owl's wisdom\" s6=\"Magic vestment\" s8=\"Lesser globe of invulnerability\" s10=\"Dream\" s12=\"Globe of invulnerability\" s14=\"Spell turning\" s16=\"Protection from spells\" s18=\"Mage's disjunction\"}"
 		]
 	},
 	"woodlands": {
@@ -425,7 +425,7 @@
 		"compilationSources": [ [ "Ultimate Wilderness", 89 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - ‹spell/entangle›, 4th - ‹spell/accelerate poison›, 6th - ‹spell/lily pad stride›, 8th - ‹spell/grove of respite›, 10th - ‹spell/tree stride›, 12th - ‹spell/repel wood›, 14th - ‹spell/animate plants›, 16th - ‹spell/control plants›, 18th - ‹spell/shambler›."
+			"::ab{title=\"&L&Woodlands&FN&\" icon=learn info=\"The Woodlands patron grants the following spells at the listed witch levels.\" s2=\"Entangle\" s4=\"Accelerate poison\" s6=\"Lily pad stride\" s8=\"Grove of respite\" s10=\"Tree stride\" s12=\"Repel wood\" s14=\"Animate plants\" s16=\"Control plants\" s18=\"Shambler\"}"
 		]
 	},
 	"celestial_agenda": {
@@ -434,11 +434,7 @@
 		"category": "unique",
 		"addenda": [ "uniquepatron" ],
 		"description": [
-			"While good deities and empyreal lords have organized faiths to carry out their wills, powerfully ranked ‹family/agathion«s›, ‹family/angel«s›, and ‹family/archon«s› - and occasional intersectional councils of good outsiders - sometimes invest white witches with celestial might to defend the weak and heal the sick. You gain the ‹hex/ward› hex at 1st level, but your patron holds you to a higher standard: you must be of good alignment, and you take a -2 penalty on Bluff, Intimidate, Sleight of Hand, and other skill checks to deceive or threaten others.",
-			"",
-			"**Available Patron Themes:** ‹patron/Endurance›, ‹patron/Healing›, ‹patron/Light›, ‹patron/Portents›",
-			"",
-			"**Spell Changes:** 4th-‹spell/castigate›, 10th-‹spell/rebuke›, 16th-‹spell/greater planar ally› (good outsiders only)."
+			"::ab{title=\"&L&Celestial Agenda&FN&\" icon=power-down-learn info=\"While good deities and empyreal lords have organized faiths to carry out their wills, powerfully ranked ‹family/agathion«s›, ‹family/angel«s›, and ‹family/archon«s› - and occasional intersectional councils of good outsiders - sometimes invest white witches with celestial might to defend the weak and heal the sick.\" order=napxy ability=\"You gain the ‹hex/ward› hex at 1st level.\" passive=\"Your patron holds you to a higher standard: you must be of good alignment, and you take a -2 penalty on Bluff, Intimidate, Sleight of Hand, and other skill checks to deceive or threaten others.\" xAvailable_Patron_Themes=\"‹patron/Endurance›, ‹patron/Healing›, ‹patron/Light›, ‹patron/Portents›\" yPatron_Spells=\"This unique patron grants these alternate spells at the listed witch levels.\" s4=\"Castigate\" s10=\"Rebuke\" s16=\"Greater planar ally|(good outsiders only)\"}"
 		]
 	},
 	"empath": {
@@ -447,11 +443,7 @@
 		"category": "unique",
 		"addenda": [ "uniquepatron" ],
 		"description": [
-			"Your patron is a manifestation of the collective living experience - mortal desire and purpose given direction by the beliefs of countless minds and hearts. You gain the ‹hex/tongues› hex at 1st level, but you cannot help but feel the despair, pain, and other negative emotions in those around you, taking a -5 penalty on saving throws against emotion effects.",
-			"",
-			"**Available Patron Themes:** ‹patron/Ancestors›, ‹patron/Mind›, ‹patron/Spirits›, ‹patron/Wisdom›",
-			"",
-			"**Spell Changes:** 2nd-‹spell/burst of insight›, 6th-‹spell/analyze aura›, 10th-‹spell/retrocognition›."
+			"::ab{title=\"&L&Empath&FN&\" icon=power-down-learn info=\"Your patron is a manifestation of the collective living experience - mortal desire and purpose given direction by the beliefs of countless minds and hearts.\" order=napxy ability=\"You gain the ‹hex/tongues› hex at 1st level\" passive=\"You cannot help but feel the despair, pain, and other negative emotions in those around you, taking a -5 penalty on saving throws against emotion effects.\" xAvailable_Patron_Themes=\"‹patron/Ancestors›, ‹patron/Mind›, ‹patron/Spirits›, ‹patron/Wisdom›\" yPatron_Spells=\"This unique patron grants these alternate spells at the listed witch levels.\" s2=\"Burst of insight\" s6=\"Analyze aura\" s10=\"Retrocognition\"}"
 		]
 	},
 	"fey_gifts": {
@@ -460,11 +452,7 @@
 		"category": "unique",
 		"addenda": [ "uniquepatron" ],
 		"description": [
-			"A powerful fey or other entity from the First World has offered you magic. You serve as an anchor and scrying focus in the Material Plane for your patron, but you also provide frequent amusement. You gain the ‹hex/charm› hex at 1st level, but your fey patron delights in your failure and injury and frequently jinxes you; once each day, the GM can demand you reroll a single ability check, attack roll, saving throw, or skill check and use the worse result.",
-			"",
-			"**Available Patron Themes:** ‹patron/Agility›, ‹patron/Enchantment›, ‹patron/Trickery›, ‹patron/Winter›",
-			"",
-			"**Spell Changes:** 2nd-‹spell/disguise self›, 4th-‹spell/hideous laughter›, 16th-‹spell/irresistible dance›."
+			"::ab{title=\"&L&Fey Gifts&FN&\" icon=power-down-learn info=\"A powerful fey or other entity from the First World has offered you magic. You serve as an anchor and scrying focus in the Material Plane for your patron, but you also provide frequent amusement.\" order=napxy ability=\"You gain the ‹hex/charm› hex at 1st level.\" passive=\"Your fey patron delights in your failure and injury and frequently jinxes you; once each day, the GM can demand you reroll a single ability check, attack roll, saving throw, or skill check and use the worse result.\" xAvailable_Patron_Themes=\"‹patron/Agility›, ‹patron/Enchantment›, ‹patron/Trickery›, ‹patron/Winter›\" yPatron_Spells=\"This unique patron grants these alternate spells at the listed witch levels.\" s2=\"Disguise self\" s4=\"Hideous laughter\" s16=\"Irresistible dance\"}"
 		]
 	},
 	"green_whispers": {
@@ -473,11 +461,7 @@
 		"category": "unique",
 		"addenda": [ "uniquepatron" ],
 		"description": [
-			"Your witch powers are a manifestation of the ‹faith/Green Faith› or bestowed by a representative of natural forces, such as an ancient ‹monster/treant› or nature spirit, who expects you to wield such gifts on its behalf. You gain the ‹hex/feral speech› hex at 1st level, but you cannot abide the touch of iron or steel; contact with either metal deals 1d3 points of damage each round, and wearing metal armor prevents you from casting spells until it is removed.",
-			"",
-			"**Available Patron Themes:** ‹patron/Animals›, ‹patron/Endurance›, ‹patron/Moon›, ‹patron/Transformation›",
-			"",
-			"**Spell Changes:** 2nd-‹spell/entangle›, 6th-‹spell/plant growth›, 10th-‹spell/tree stride›."
+			"::ab{title=\"&L&Green Whispers&FN&\" icon=power-down-learn info=\"Your witch powers are a manifestation of the ‹faith/Green Faith› or bestowed by a representative of natural forces, such as an ancient ‹monster/treant› or nature spirit, who expects you to wield such gifts on its behalf.\" order=napxy ability=\"You gain the ‹hex/feral speech› hex at 1st level.\" passive=\"You cannot abide the touch of iron or steel; contact with either metal deals 1d3 points of damage each round, and wearing metal armor prevents you from casting spells until it is removed.\" xAvailable_Patron_Themes=\"‹patron/Animals›, ‹patron/Endurance›, ‹patron/Moon›, ‹patron/Transformation›\" yPatron_Spells=\"This unique patron grants these alternate spells at the listed witch levels.\" s2=\"Entangle\" s6=\"Plant growth\" s10=\"Tree stride\"}"
 		]
 	},
 	"hags_calling": {
@@ -486,11 +470,7 @@
 		"category": "unique",
 		"addenda": [ "uniquepatron" ],
 		"description": [
-			"Hags of exceptional power - most often ‹monster/mute hag«s› and ‹monster/dreamthief hag«s› - sometimes invest mortal agents with the same well of ancient power they have mastered. Hags most often invest their ‹race/changeling› daughters with such power, either once they have proven loyal or else to tempt them into wickedness. You gain the ‹hex/coven› hex at 1st level, but you can neither use the ‹rule/aid another› action nor receive benefits from others' aid another actions.",
-			"",
-			"**Available Patron Themes:** ‹patron/Moon›, ‹patron/Plague›, ‹patron/Shadow›, ‹patron/Vengeance›",
-			"",
-			"**Spell Changes:** 2nd-‹spell/disguise self›, 8th-‹spell/sending›, 10th-‹spell/commune« (hag/patron rather than deity)›."
+			"::ab{title=\"&L&Hag's Calling&FN&\" icon=power-down-learn info=\"Hags of exceptional power - most often ‹monster/mute hag«s› and ‹monster/dreamthief hag«s› - sometimes invest mortal agents with the same well of ancient power they have mastered. Hags most often invest their ‹race/changeling› daughters with such power, either once they have proven loyal or else to tempt them into wickedness.\" order=napxy ability=\"You gain the ‹hex/coven› hex at 1st level.\" passive=\"You can neither use the ‹rule/aid another› action nor receive benefits from others' aid another actions.\" xAvailable_Patron_Themes=\"‹patron/Moon›, ‹patron/Plague›, ‹patron/Shadow›, ‹patron/Vengeance›\" yPatron_Spells=\"This unique patron grants these alternate spells at the listed witch levels.\" s2=\"Disguise self\" s8=\"Sending\" s10=\"Commune|(hag/patron rather than deity)\"}"
 		]
 	},
 	"infernal_contract": {
@@ -499,11 +479,7 @@
 		"category": "unique",
 		"addenda": [ "uniquepatron" ],
 		"description": [
-			"Your power was brokered from a powerful ‹family/daemon›, ‹family/demon›, or ‹family/devil› to speed the corruption and moral decay of mortals. When you die, your soul goes to Abaddon, the Abyss, or Hell, and you can't be raised or resurrected except by extraordinary means - though bold service may earn you a favored position in damnation. You gain the ‹hex/misfortune› hex at 1st level, but your magic requires sacrifice; each day when you prepare spells, you must deal 1d6 points of damage to yourself as part of your infernal ritual, feeding the lost blood to your familiar. At 5th level and every 5 levels thereafter, this damage increases by 1d6.",
-			"",
-			"**Available Patron Themes:** ‹patron/Enchantment›, ‹patron/Strength›, ‹patron/Trickery›, ‹patron/Vengeance›",
-			"",
-			"**Spell Changes:** 8th-‹spell/lesser planar ally›, 12th-‹spell/planar ally›, 16th-‹spell/greater planar ally« (your bonus spells can be used to summon only the type of outsider your patron represents)›."
+			"::ab{title=\"&L&Infernal Contract&FN&\" icon=power-down-learn info=\"Your power was brokered from a powerful ‹family/daemon›, ‹family/demon›, or ‹family/devil› to speed the corruption and moral decay of mortals. When you die, your soul goes to Abaddon, the Abyss, or Hell, and you can't be raised or resurrected except by extraordinary means - though bold service may earn you a favored position in damnation.\" order=napxy ability=\"You gain the ‹hex/misfortune› hex at 1st level.\" passive=\"Your magic requires sacrifice; each day when you prepare spells, you must deal 1d6 points of damage to yourself as part of your infernal ritual, feeding the lost blood to your familiar.\" incrementPlain=\"You must~0~5\" incrementDesc=deal incrementEnd=\"d6 damage to yourself to get your spells.\" xAvailable_Patron_Themes=\"‹patron/Enchantment›, ‹patron/Strength›, ‹patron/Trickery›, ‹patron/Vengeance›\" yPatron_Spells=\"This unique patron grants these alternate spells at the listed witch levels.\" s8=\"Lesser planar ally\" s12=\"Planar ally\" s16=\"Greater planar ally|(your bonus spells can be used to summon only the type of outsider your patron represents)\"}"
 		]
 	},
 	"shadowbound": {
@@ -512,11 +488,7 @@
 		"category": "unique",
 		"addenda": [ "uniquepatron" ],
 		"description": [
-			"Deep exposure to entities from the Plane of Shadow - ‹family/kyton«s›, ‹family/nightshade«s›, ‹monster/owb«s›, and similar ethereal forces - has infused you with shadow. You gain the ‹hex/disguise› hex at 1st level, but you also gain ‹umr/light blindness›.",
-			"",
-			"**Available Patron Themes:** ‹patron/Death›, ‹patron/Deception›, ‹patron/Ethereal›, ‹patron/Shadow›",
-			"",
-			"**Spell Changes:** 8th-‹spell/shadow conjuration›, 12th-‹spell/shadow walk›, 16th-‹spell/greater shadow evocation›."
+			"::ab{title=\"&L&Shadowbound&FN&\" icon=power-down-learn info=\"Deep exposure to entities from the Plane of Shadow - ‹family/kyton«s›, ‹family/nightshade«s›, ‹monster/owb«s›, and similar ethereal forces - has infused you with shadow.\" order=napxy ability=\"You gain the ‹hex/disguise› hex at 1st level.\" passive=\"You also gain ‹umr/light blindness›.\" xAvailable_Patron_Themes=\"‹patron/Death›, ‹patron/Deception›, ‹patron/Ethereal›, ‹patron/Shadow›\" yPatron_Spells=\"This unique patron grants these alternate spells at the listed witch levels.\" s8=\"Shadow conjuration\" s12=\"Shadow walk\" s16=\"Greater shadow evocation\"}"
 		]
 	},
 	"the_condition_of_all": {
@@ -525,11 +497,7 @@
 		"category": "unique",
 		"addenda": [ "uniquepatron" ],
 		"description": [
-			"‹family/Aeon«s› are often patrons to witches, seeking out mortals who share their vested interest in some agenda that helps them promote the cosmic balance. You gain the ‹hex/scar› hex at 1st level, but such service requires unwavering commitment to their cause, and you lose your spellcasting and hexes (but not your familiar) if your alignment changes after taking your first witch level; you regain your spellcasting and hexes once you revert to your original alignment.",
-			"",
-			"**Available Patron Themes:** ‹patron/Elements›, ‹patron/Time›, ‹patron/Transformation›, ‹patron/Wisdom›",
-			"",
-			"**Spell Changes:** 2nd-‹spell/forbid action›, 8th-‹spell/dismissal›, 12th-‹spell/geas/quest›."
+			"::ab{title=\"&L&The Condition of All&FN&\" icon=power-down-learn info=\"‹family/Aeon«s› are often patrons to witches, seeking out mortals who share their vested interest in some agenda that helps them promote the cosmic balance.\" order=napxy ability=\"You gain the ‹hex/scar› hex at 1st level.\" passive=\"Your patron requires unwavering commitment to their cause, and you lose your spellcasting and hexes (but not your familiar) if your alignment changes after taking your first witch level; you regain your spellcasting and hexes once you revert to your original alignment.\" xAvailable_Patron_Themes=\"‹patron/Elements›, ‹patron/Time›, ‹patron/Transformation›, ‹patron/Wisdom›\" yPatron_Spells=\"This unique patron grants these alternate spells at the listed witch levels.\" s2=\"Forbid action\" s8=\"Dismissal\" s12=\"Geas/quest\"}"
 		]
 	},
 	"touched_by_the_outer_gods": {
@@ -538,11 +506,7 @@
 		"category": "unique",
 		"addenda": [ "uniquepatron" ],
 		"description": [
-			"Your powers hail from an incomprehensible being from beyond the stars, whose motivations and needs erode your psyche. You gain the ‹hex/unnerve beasts› hex at 1st level, but you take a -2 penalty on saving throws against confusion and emotion effects and are affected by such effects for at least 1 round even on a successful saving throw.",
-			"",
-			"**Available Patron Themes:** ‹patron/Insanity›, ‹patron/Occult›, ‹patron/Stars›, ‹patron/Transformation›",
-			"",
-			"**Spell Changes:** 2nd-‹spell/lesser confusion›, 8th-‹spell/dreadscape›, 10th-‹spell/compelling rant›."
+			"::ab{title=\"&L&Touched by the Outer Gods&FN&\" icon=power-down-learn info=\"Your powers hail from an incomprehensible being from beyond the stars, whose motivations and needs erode your psyche.\" order=napxy ability=\"You gain the ‹hex/unnerve beasts› hex at 1st level.\" passive=\"You take a -2 penalty on saving throws against confusion and emotion effects and are affected by such effects for at least 1 round even on a successful saving throw.\" xAvailable_Patron_Themes=\"‹patron/Insanity›, ‹patron/Occult›, ‹patron/Stars›, ‹patron/Transformation›\" yPatron_Spells=\"This unique patron grants these alternate spells at the listed witch levels.\" s2=\"Lesser confusion\" s8=\"Dreadscape\" s10=\"Compelling rant\"}"
 		]
 	}
 }

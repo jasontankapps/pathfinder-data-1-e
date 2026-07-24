@@ -18,9 +18,7 @@
 					""
 				],
 				{
-					"limit": "basic",
-					"join": [ "", "!-N-!---!-N-!", "" ],
-					"template": "@hll[patron/!-TITLE-!:] !-^S-! !-DESC-!"
+					"limit": "basic"
 				},
 				[
 					"",
@@ -34,13 +32,7 @@
 					"The various published witch patron themes present a wide array of concepts and priorities to align with a large variety of supernatural beings. Some specific patrons, however, might offer variations within the spells they grant. Special patrons swap out the spells normally provided by a patron theme at specific levels, and grant a specific ‹ability/hex<es› and drawback at 1st level. Once a specific patron has been selected, a witch cannot change her patron or raise a hand against that entity without losing her spellcasting, hexes, and familiar. These categories are limited in the patron themes they can provide; their witches must select from one of the four listed for each entry. These patrons are extraordinary examples of their kind, often invested with unique or mythic powers and pursuing long-term agendas measured in centuries or eons."
 				],
 				{
-					"limit": "unique",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "(.+?)(!-N-!.+)",
-						"replacement": "$1 !-^S-!$2"
-					},
-					"template": "!-N-!!-N-!#### !-TITLE-!!-N-!!-N-!!-DESC-!!-N-!!-N-!>*Bookmarkable page: @hll[patron/!-TITLE-!]*"
+					"limit": "unique"
 				}
 			]
 		},
