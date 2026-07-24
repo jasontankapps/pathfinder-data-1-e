@@ -790,6 +790,7 @@
 		]
 	},
 	"vehicle_rules": { "redirect": "vehicle_basics" },
+	"driving_check": { "redirect": "vehicle_basics" },
 	"full_vehicle_rules": {
 		"name": "Full Vehicle Rules",
 		"sources": [ "Ultimate Combat" ],

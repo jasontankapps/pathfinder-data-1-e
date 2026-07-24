@@ -281,8 +281,6 @@ const _rogue_and_ninja_advanced_talents = {title: "Rogue and Ninja Advanced Tale
 <Pair single id="rogue-and-ninja-advanced-talents">Rogue and Ninja Advanced Talents</Pair>
 <Pair title="Ability"><p>A slayer can select one of the following rogue <em>advanced talents</em> or ninja <em>master tricks</em> in place of a slayer advanced talent.</p>
 <p><strong className="hl">Advanced rogue talents:</strong> <Link to="/talent/aligned_disguise">aligned disguise</Link>, <Link to="/talent/blinding_strike">blinding strike</Link>, <Link to="/talent/dance_of_disorienting_shadows">dance of disorienting shadows</Link>, <Link to="/talent/deadly_sneak">deadly sneak</Link>, <Link to="/talent/feat">feat</Link>, <Link to="/talent/hunters_surprise">hunter's surprise</Link>, <Link to="/talent/improved_shadows_chill">improved shadow's chill</Link>, <Link to="/talent/knock_out_blow">knock-out blow</Link>, <Link to="/talent/master_of_disguise">master of disguise</Link>, <Link to="/talent/opportunist">opportunist</Link>, <Link to="/talent/reflexive_shadow_shield">reflexive shadow shield</Link>, <Link to="/talent/see_in_darkness">see in darkness</Link>, <Link to="/talent/stealthy_sniper">stealthy sniper</Link>.</p>
-<blockquote>
-</blockquote>
 <p><strong className="hl">Master Tricks:</strong> <Link to="/ninjatrick/evasion">evasion</Link>, <Link to="/ninjatrick/feat">feat</Link>.</p>
 </Pair>
 <Pair title="Special">A slayer can select multiple rogue advanced talents or ninja master tricks by taking this slayer advanced talent multiple times, but can't select the same one more than once.</Pair>

@@ -196,8 +196,12 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 						`<div${className ? ` className="${className}"` : ""}>\n${removeCurlyBrackets(marked2.parse(text))}\n</div>\n`
 					);
 				}
+				case "blockquote": {
+					// Known tag
+					return false;
+				}
 			}
-			console.log("missing container directive [", n, "]");
+			console.log("missing container directive [", n, "] in [", prefix, "]");
 			return false;
 		}
 	};
