@@ -1016,5 +1016,89 @@
 			"| @ripple[emotionalfocus/Zeal] | A phantom with this emotional focus fixates on every task given as if it were the phantom's last. |"
 		],
 		"topLink": [ "Spiritualist", "class/spiritualist" ]
+	},
+	"ranger_traps": {
+		"name": "Ranger Traps",
+		"sources": [ "Ultimate Magic" ],
+		"compileFrom": {
+			"source": "rangertrap",
+			"targets": [
+				[
+					"## Ranger Traps",
+					"",
+					"‹SOURCE Ultimate Magic›  ",
+					"Rangers are legendary for their ability to hunt down and capture their prey. Some rangers can create elaborate ‹rule/traps› out of scraps, vines, and perhaps a little bit of specialized magic. Characters can learn how to set these traps by taking the ‹feat/Learn Ranger Trap› feat or by having the ‹arc-ranger/trapper› ranger archetype.",
+					"",
+					"Setting a trap is a @HL[full-round action] that provokes attacks of opportunity. A trap fills a single 5-foot square, and cannot be placed in the same area as another ranger trap or a magical trap such as a glyph of warding. The ranger only needs simple materials to create the trap, such as a piece of cloth, a small amount of metal (such as a dagger, iron spike, or a few nails), a foot of rope or vine, and so on. The DCs for Perception checks to notice the trap, Disable Device checks to disable it, and for saving throws to avoid it are equal to 10 + 1/2 the character's level + the character's Wisdom bonus. All ranger traps are *Trigger: location,* and *Reset: none.*",
+					"",
+					"Ranger traps are either extraordinary or supernatural; extraordinary traps are *Type: mechanical,* and supernatural traps are *Type: magic.*",
+					"",
+					"Some of the traps listed below may be set as extraordinary traps or as magical (supernatural) traps; learning such a trap lets a ranger set it either way. An extraordinary trap has a -2 penalty to its DC. An extraordinary trap lasts 1 day per ranger level or until it is triggered, whichever comes first. A magical trap lasts only 1 hour per level or until triggered, whichever comes first. A trap's DC decreases by 1 for each full day (or hour, for a magical trap) that passes after it is set.",
+					"",
+					"Certain traps add to or modify the effects of another trap; a ranger can add one of these @HL[modifications] to any standard ranger trap (this costs 1 additional use of the trap ability).",
+					"",
+					"Some supernatural traps can be created by a character who isn't a ranger (but who has the ‹feat/Learn Ranger Trap› feat) through including an additional @HL[magical component]. This component - usually a scroll, potion, or oil - is expended at the time of the trap's creation. Including it increases the time to lay the trap to 1 full minute."
+				],
+				{
+					"limit": { "omit": [] },
+					"replacements": [
+						["\\{(title=\\\"&L&([^&(]+) )", "{jl=\"$2\" $1"]
+					]
+				}
+			]
+		},
+		"topLink": [ "Trapper (Ranger Archetype)", "arc-ranger/trapper" ]
+	},
+	"slayer_talents": {
+		"name": "Slayer Talents",
+		"sources": [ "Advanced Class Guide" ],
+		"compileFrom": {
+			"source": "slayertalent",
+			"targets": [
+				[
+					"## Slayer Talents",
+					"",
+					"‹SOURCE Advanced Class Guide/53›  ",
+					"As a slayer gains experience, he learns a number of talents that aid him and confound his foes. Starting at 2nd level and every 2 levels thereafter, a slayer gains one slayer talent. Unless otherwise noted, a slayer cannot select an individual talent more than once.",
+					"",
+					"::h3[Primary Sneak Attack Talents]{jl}",
+					"",
+					"These talents add effects to a slayer's ‹ability/sneak attack›. Only one of these talents can be applied to an individual attack, and the decision of which to use must be made before the attack roll is made.",
+					""
+				],
+				{
+					"limit": "Primary Sneak Attack Talents"
+				},
+				[
+					"",
+					"::h3[Other Sneak Attack Talents]{jl}",
+					"",
+					"These talents add effects to a slayer's sneak attack, but do not have the limitations of the Primary Sneak Attack Talents above.",
+					""
+				],
+				{
+					"limit": "Other Sneak Attack Talents"
+				},
+				[
+					"",
+					"::h3[Studied Target Talents]{jl}",
+					"",
+					"These talents operate using the Studied Target ability of the slayer.",
+					""
+				],
+				{
+					"limit": "Studied Target Talents"
+				},
+				[
+					"",
+					"::h3[Other Talents]{jl}",
+					""
+				],
+				{
+					"limit": "Other Talents"
+				}
+			]
+		},
+		"topLink": [ "Slayer", "class/slayer" ]
 	}
 }
