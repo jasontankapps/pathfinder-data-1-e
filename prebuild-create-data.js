@@ -334,11 +334,13 @@ const postprocess = (tables) => {
 			// Redo Footnotes header
 			.replace(/<h2([^>]+)>Footnotes<[/]h2>/g, "<h3$1>Footnotes</h3>")
 			// Replace unneeded HTML entity for the apostrophe
-			.replace(/&#39;/g, "'")
+			.replaceAll("&#39;", "'")
 			// Replace unneeded HTML entity for the open and close brackets
-			.replace(/&#91;/g, "[").replace(/&#93;/g, "]")
+			.replaceAll("&#91;", "[").replaceAll("&#93;", "]")
 			// Fix incorrect React syntax on ordered lists
 			.replace(/(<ol [^>]*start=)"([0-9])"([^>]*>)/g, "$1{$2}$3")
+			// Change special text into <wbr/> tag
+			.replaceAll("&amp;wbr&amp;", "<wbr />")
 			// Remove whitespace at start and end
 			.trim();
 		let output = "";

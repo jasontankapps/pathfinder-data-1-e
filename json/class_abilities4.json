@@ -294,13 +294,7 @@
 					""
 				],
 				{
-					"limit": "MajorAmp",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[phrenicamp/!-TITLE-!:] !-DESC-! !-^S-!"
+					"limit": "MajorAmp"
 				}
 			]
 		},

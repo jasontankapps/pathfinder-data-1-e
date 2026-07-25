@@ -186,6 +186,7 @@ table tbody tr td:first-child {
 	background: var(--table-bg);
 	z-index: 2;
 }
+div.table > .tr > .td > p > a,
 div.table > .tr > .td > a,
 table tr td a {
 	text-decoration: none;
@@ -242,6 +243,9 @@ div.table + div.table {
 }
 div.table.skills {
 	max-inline-size: 20em !important;
+}
+div.table.minimal {
+	grid-template-columns: min-content 1fr;
 }
 div.table.simple {
 	grid-template-columns: max-content 1fr;

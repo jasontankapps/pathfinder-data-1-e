@@ -11,8 +11,26 @@ const convertEncodedInfo = (input) => {
 		test = post;
 	}
 	return (output + test)
-		.replace(/&(times|quot|[nm]dash|deg|[dD]agger|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;")
+		.replace(/&(times|quot|emsp|[nm]dash|deg|amp|[dD]agger|[aeiou](?:acute|grave|circ|uml)|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;")
 		.replace(/-=NR=-/g, "\n");
+};
+
+const convertLinks = (input) => {
+	let m;
+	let test = input.replace(/\n/g, "-=NR=-");
+	let output = "";
+	while(m = checkForEncodedLink(test)) {
+		const {pre, link, text, post} = m;
+		output += `${pre}[${text}](${link})`;
+		test = post;
+	}
+	return (output + test)
+		.replaceAll("-=NR=-", "\n");
+};
+
+const convertEntities = (input) => {
+	return (input)
+		.replace(/&(times|quot|emsp|[nm]dash|deg|amp|[dD]agger|[aeiou](?:acute|grave|circ|uml)|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;");
 };
 
 const getContainerDirectives = (globalVariable, marker = ":::") => {
@@ -78,14 +96,15 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 				case "block": {
 					flags.block = true;
 					const marked2 = makeNewMarkedInstance();
-					const {title, hl, classes, size, clear} = attrs;
+					const {title, hl, classes, size, clear, jl} = attrs;
 					let base = "";
 					switch(size) {
-						case "simple":
-						case "tiny":
-						case "big":
-						case "giant":
-						case "small":
+						case "minimal": // min-content :: 1
+						case "simple":  // max-content :: 1
+						case "tiny":  // 1 :: 7
+						case "big":   // 2 :: 3
+						case "giant": // 7 :: 1
+						case "small": // 1 :: 5
 							base = ` size="${size}"`;
 					}
 					const props = (
@@ -95,15 +114,27 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 					) + (
 						classes ? ` classes="${classes}"` : ""
 					);
+					let id = "";
+					if(title && jl) {
+						id = (
+							attrs.id
+							|| title.toLowerCase()
+								.replace(/ +/g, "-")
+								.replace(/[^-a-z0-9]/g, "")
+						);
+						addToJumpList(title, prefix + id, jl);
+					}
 					return (
 						(clear ? `<div style={{clear:"both"}}></div>\n` : "") + 
 						(title ? (
-							`<Block titled${props}><Row><Cell>${title}</Cell></Row>${
-								removeCurlyBrackets(marked2.parse(text))
+							`<Block titled${props}><Row><Cell${id ? ` id="${id}"` : ""}>${
+								convertEntities(marked2.parse(convertLinks(title)))
+							}</Cell></Row>${
+								convertEntities(marked2.parse(convertLinks(text)))
 							}</Block>\n`
 						) : (
 							`<Block${props}>${
-								removeCurlyBrackets(marked2.parse(text))
+								convertEntities(marked2.parse(convertLinks(text)))
 							}</Block>\n`
 						))
 					);

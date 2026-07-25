@@ -159,13 +159,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(UR_)?Primary Sneak Attack Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(UR_)?Primary Sneak Attack Talents" }
 				},
 				[
 					"",
@@ -175,13 +169,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(UR_)?Other Sneak Attack Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(UR_)?Other Sneak Attack Talents" }
 				},
 				[
 					"",
@@ -189,13 +177,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(UR_)?Poison Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(UR_)?Poison Talents" }
 				},
 				[
 					"",
@@ -203,13 +185,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(UR_)?Spellcasting Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(UR_)?Spellcasting Talents" }
 				},
 				[
 					"",
@@ -217,13 +193,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(UR_)?Use Magic Device Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(UR_)?Use Magic Device Talents" }
 				},
 				[
 					"",
@@ -231,13 +201,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(UR_)?Other Magic-Related Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(UR_)?Other Magic-Related Talents" }
 				},
 				[
 					"",
@@ -245,13 +209,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(UR_)?Ally-Related Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(UR_)?Ally-Related Talents" }
 				},
 				[
 					"",
@@ -259,13 +217,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(UR_)?Combat Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(UR_)?Combat Talents" }
 				},
 				[
 					"",
@@ -273,13 +225,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(UR_)?Trap Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(UR_)?Trap Talents" }
 				},
 				[
 					"",
@@ -287,13 +233,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(UR_)?Disable Device Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(UR_)?Disable Device Talents" }
 				},
 				[
 					"",
@@ -301,13 +241,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(UR_)?Deception Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(UR_)?Deception Talents" }
 				},
 				[
 					"",
@@ -315,13 +249,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(UR_)?Other Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(UR_)?Other Talents" }
 				}
 			]
 		},
@@ -346,13 +274,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(UR_)?Advanced Primary Sneak Attack Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(UR_)?Advanced Primary Sneak Attack Talents" }
 				},
 				[
 					"",
@@ -360,13 +282,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(UR_)?Advanced Magical Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(UR_)?Advanced Magical Talents" }
 				},
 				[
 					"",
@@ -374,13 +290,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(UR_)?Advanced Combat Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(UR_)?Advanced Combat Talents" }
 				},
 				[
 					"",
@@ -388,13 +298,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(UR_)?Advanced Other Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(UR_)?Advanced Other Talents" }
 				}
 			]
 		},

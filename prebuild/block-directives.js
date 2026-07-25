@@ -45,7 +45,7 @@ const convertEncodedInfo = (input) => {
 		test = post;
 	}
 	return (output + test)
-		.replace(/&(times|quot|[nm]dash|deg|[dD]agger|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;");
+		.replace(/&(times|quot|emsp|[nm]dash|deg|amp|[dD]agger|[aeiou](?:acute|grave|circ|uml)|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;");
 };
 
 const getBlockDirectives = (globalVariable, marker = "::") => {

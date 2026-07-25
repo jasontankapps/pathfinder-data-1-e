@@ -52,13 +52,7 @@
 					""
 				],
 				{
-					"limit": { "uncategorized": true },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[phrenicamp/!-TITLE-!:] !-DESC-! !-^S-!"
+					"limit": { "uncategorized": true }
 				}
 			]
 		},
@@ -111,26 +105,23 @@
 					"## Ranger Traps",
 					"",
 					"‹SOURCE Ultimate Magic›  ",
-					"Rangers are legendary for their ability to hunt down and capture their prey. Some rangers can create elaborate traps out of scraps, vines, and perhaps a little bit of specialized magic. Characters can learn how to set these traps by taking the ‹feat/Learn Ranger Trap› feat or by having the ‹arc-ranger/trapper› ranger archetype.",
+					"Rangers are legendary for their ability to hunt down and capture their prey. Some rangers can create elaborate ‹rule/traps› out of scraps, vines, and perhaps a little bit of specialized magic. Characters can learn how to set these traps by taking the ‹feat/Learn Ranger Trap› feat or by having the ‹arc-ranger/trapper› ranger archetype.",
 					"",
-					"Setting a trap is a full-round action that provokes attacks of opportunity. A trap fills a single 5-foot square, and cannot be placed in the same area as another ranger trap or a magical trap such as a glyph of warding. The ranger only needs simple materials to create the trap, such as a piece of cloth, a small amount of metal (such as a dagger, iron spike, or a few nails), a foot of rope or vine, and so on. The DCs for Perception checks to notice the trap, Disable Device checks to disable it, and for saving throws to avoid it are equal to 10 + 1/2 the character's level + the character's Wisdom bonus. All ranger traps are Trigger: location, and Reset: none.",
+					"Setting a trap is a @HL[full-round action] that provokes attacks of opportunity. A trap fills a single 5-foot square, and cannot be placed in the same area as another ranger trap or a magical trap such as a glyph of warding. The ranger only needs simple materials to create the trap, such as a piece of cloth, a small amount of metal (such as a dagger, iron spike, or a few nails), a foot of rope or vine, and so on. The DCs for Perception checks to notice the trap, Disable Device checks to disable it, and for saving throws to avoid it are equal to 10 + 1/2 the character's level + the character's Wisdom bonus. All ranger traps are *Trigger: location,* and *Reset: none.*",
 					"",
-					"Ranger traps are either extraordinary or supernatural; extraordinary traps are Type: mechanical, and supernatural traps are Type: magic.",
+					"Ranger traps are either extraordinary or supernatural; extraordinary traps are *Type: mechanical,* and supernatural traps are *Type: magic.*",
 					"",
 					"Some of the traps listed below may be set as extraordinary traps or as magical (supernatural) traps; learning such a trap lets a ranger set it either way. An extraordinary trap has a -2 penalty to its DC. An extraordinary trap lasts 1 day per ranger level or until it is triggered, whichever comes first. A magical trap lasts only 1 hour per level or until triggered, whichever comes first. A trap's DC decreases by 1 for each full day (or hour, for a magical trap) that passes after it is set.",
 					"",
-					"Certain traps add to or modify the effects of another trap; a ranger can add one of these trap types to any standard ranger trap (this costs 1 additional use of the trap ability).",
+					"Certain traps add to or modify the effects of another trap; a ranger can add one of these @HL[modifications] to any standard ranger trap (this costs 1 additional use of the trap ability).",
 					"",
-					"Some supernatural traps can be created by a character who isn't a ranger (but who has the ‹feat/Learn Ranger Trap› feat) through including an additional magical component. This component - usually a scroll, potion, or oil - is expended at the time of the trap's creation. Including it increases the time to lay the trap to 1 full minute."
+					"Some supernatural traps can be created by a character who isn't a ranger (but who has the ‹feat/Learn Ranger Trap› feat) through including an additional @HL[magical component]. This component - usually a scroll, potion, or oil - is expended at the time of the trap's creation. Including it increases the time to lay the trap to 1 full minute."
 				],
 				{
 					"limit": { "omit": [] },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "(.+?)(!-N-!.+$)|^(.+)",
-						"replacement": "$1$3!-^S-!$2"
-					},
-					"template": "!-N-!!-N-!::h3[!-TITLE-!??SUFFIX: !-SUFFIX-!??]{jl}!-N-!!-N-!!-DESC-!!-N-!!-N-!>*Bookmarkable page: @hll[rangertrap/!-TITLE-!]*"
+					"replacements": [
+						["\\{(title=\\\"&L&([^&(]+) )", "{jl=\"$2\" $1"]
+					]
 				}
 			]
 		},
@@ -156,13 +147,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(R_)?Primary Sneak Attack Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(R_)?Primary Sneak Attack Talents" }
 				},
 				[
 					"",
@@ -172,13 +157,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(R_)?Other Sneak Attack Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(R_)?Other Sneak Attack Talents" }
 				},
 				[
 					"",
@@ -186,13 +165,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(R_)?Poison Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(R_)?Poison Talents" }
 				},
 				[
 					"",
@@ -200,13 +173,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(R_)?Catfolk Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(R_)?Catfolk Talents" }
 				},
 				[
 					"",
@@ -214,13 +181,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(R_)?Spellcasting Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(R_)?Spellcasting Talents" }
 				},
 				[
 					"",
@@ -228,13 +189,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(R_)?Use Magic Device Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(R_)?Use Magic Device Talents" }
 				},
 				[
 					"",
@@ -242,13 +197,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(R_)?Other Magic-Related Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(R_)?Other Magic-Related Talents" }
 				},
 				[
 					"",
@@ -256,13 +205,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(R_)?Ally-Related Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(R_)?Ally-Related Talents" }
 				},
 				[
 					"",
@@ -270,13 +213,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(R_)?Combat Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(R_)?Combat Talents" }
 				},
 				[
 					"",
@@ -284,13 +221,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(R_)?Trap Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(R_)?Trap Talents" }
 				},
 				[
 					"",
@@ -298,13 +229,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(R_)?Disable Device Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(R_)?Disable Device Talents" }
 				},
 				[
 					"",
@@ -312,13 +237,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(R_)?Deception Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(R_)?Deception Talents" }
 				},
 				[
 					"",
@@ -326,13 +245,7 @@
 					""
 				],
 				{
-					"limit": { "regex": "^(R_)?Other Talents" },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": { "regex": "^(R_)?Other Talents" }
 				}
 			]
 		},
@@ -349,19 +262,13 @@
 					"‹SOURCE Advanced Class Guide›  ",
 					"A shaman learns a number of magical tricks, called hexes, which grant her powers or weaken foes. At 2nd level, a shaman learns one hex. At 4th, 8th, 10th, 12th, 16th, 18th, and 20th level, the shaman learns new hexes. A shaman can select from any of the following hexes or from any of the hexes listed in the description of her chosen spirit. A shaman cannot select a hex more than once unless noted otherwise.",
 					"",
-					"Using a hex is a standard action that doesn't provoke an attack of opportunity unless otherwise noted. The saving throw DC to resist a hex is equal to 10 + 1/2 the shaman's level + the shaman's Wisdom modifier.",
+					"Using a hex is a @HL[standard action] that doesn't provoke an attack of opportunity unless otherwise noted. The saving throw DC to resist a hex is equal to 10 + 1/2 the shaman's level + the shaman's Wisdom modifier.",
 					"",
 					"---",
 					""
 				],
 				{
-					"limit": { "omit": [] },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[shamanhex/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": { "omit": [] }
 				}
 			]
 		},
@@ -518,13 +425,7 @@
 					""
 				],
 				{
-					"limit": { "omit": [] },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[soctalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": { "omit": [] }
 				}
 			]
 		},

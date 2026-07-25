@@ -1,7 +1,7 @@
 import Link from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
-const _not_found = {title: "Unknown", jsx: <><p>Unable to find the requested unchained eidolon subtype.</p>
+const _not_found = {title: "Unknown", jsx: <><p>Unable to find the requested witch patron.</p>
 </>};
 const _agility = {title: "Agility", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 70</Link></p>
 <Ability id="agility" icon={["spell-book"]}>

@@ -1020,7 +1020,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Trap Talents",
 		"description": [
-			"::ab{title=\"&L&Cunning Trigger (Ex)&FN&\" icon=power swift=\"A rogue with this talent set off any trap within 30 feet that she constructed.\"}"
+			"::ab{title=\"&L&Cunning Trigger (Ex)&FN&\" icon=power swift=\"A rogue with this talent can set off any trap within 30 feet that she constructed.\"}"
 		]
 	},
 	"quick_trapsmith": {
