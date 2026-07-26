@@ -82,6 +82,7 @@
     "fs": "^0.0.1-security",
     "glob": "^13.0.6",
     "globals": "^16.4.0",
+    "js-md5": "^0.9.2",
     "jsdom": "^22.1.0",
     "marked": "^16.4.1",
     "marked-directive": "^1.0.7",
