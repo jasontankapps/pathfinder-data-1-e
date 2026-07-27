@@ -18,13 +18,7 @@
 					""
 				],
 				{
-					"limit": "Primary Bomb Discoveries",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[discovery/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Primary Bomb Discoveries"
 				},
 				[
 					"",
@@ -32,13 +26,7 @@
 					""
 				],
 				{
-					"limit": "Other Bomb Discoveries",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[discovery/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Other Bomb Discoveries"
 				},
 				[
 					"",
@@ -46,13 +34,7 @@
 					""
 				],
 				{
-					"limit": "Extract Discoveries",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[discovery/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Extract Discoveries"
 				},
 				[
 					"",
@@ -60,13 +42,7 @@
 					""
 				],
 				{
-					"limit": "Mutagen Discoveries",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[discovery/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Mutagen Discoveries"
 				},
 				[
 					"",
@@ -74,13 +50,7 @@
 					""
 				],
 				{
-					"limit": "Poison Discoveries",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[discovery/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Poison Discoveries"
 				},
 				[
 					"",
@@ -88,13 +58,7 @@
 					""
 				],
 				{
-					"limit": "Potion/Elixir Discoveries",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[discovery/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Potion/Elixir Discoveries"
 				},
 				[
 					"",
@@ -102,13 +66,7 @@
 					""
 				],
 				{
-					"limit": "Other Discoveries",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[discovery/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Other Discoveries"
 				}
 			]
 		},
@@ -130,9 +88,7 @@
 					""
 				],
 				{
-					"limit": "Grand Discoveries",
-					"join": [ "", "", "" ],
-					"template": "@hll[discovery/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Grand Discoveries"
 				}
 			]
 		},

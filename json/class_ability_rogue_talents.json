@@ -2004,7 +2004,7 @@
 		"category": "Advanced Other Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
-			"::ab{title=\"&L&See in Darkness (Su)&FN&\" icon=power ability=\"The rogue gains the ‹umr/see in darkness› ability.\" prereq=\"Darkvision\"}"
+			"::ab{title=\"&L&See in Darkness (Su)&FN&\" icon=power ability=\"The rogue gains the ‹umr/see in darkness› ability.\" prereq=Darkvision}"
 		]
 	},
 	"skill_mastery": {
