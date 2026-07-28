@@ -143,5 +143,11 @@ export default defineConfig({
   },
   build: {
     chunkSizeWarningLimit: 750,
+    rollupOptions: {
+      output: {
+        chunkFileNames: "assets/[name].js",
+        assetFileNames: "assets/[name][extname]"
+      }
+    }
   }
 })
