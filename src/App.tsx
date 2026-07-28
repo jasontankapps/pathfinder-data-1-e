@@ -190,7 +190,11 @@ const App: FC = () => {
 					<Switch>
 						<Route path="/about"><AboutOnlyPage /></Route>
 						<Route path="/icons/:icon"><Icons /></Route>
-						<Route path="/settings"><SettingsPage /></Route>
+						<Route path="/settings">
+							<Suspense fallback={<Loading />}>
+								<SettingsPage />
+							</Suspense>
+						</Route>
 						<Route path="/main/:mainpage">
 							<Suspense fallback={<Loading />}>
 								<MainPage />
