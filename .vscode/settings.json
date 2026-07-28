@@ -38,5 +38,6 @@
 			],
 			"url": "./schemaColors.json"
 		}
-	]
+	],
+	"search.useIgnoreFiles": false
 }

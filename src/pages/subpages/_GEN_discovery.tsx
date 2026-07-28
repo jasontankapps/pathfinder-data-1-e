@@ -948,7 +948,7 @@ const _eternal_potion = {title: "Eternal Potion", jsx: <><p><strong>Sources</str
 const _lasting_tinctures = {title: "Lasting Tinctures", jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
 <Ability id="lasting-tinctures" icon={["upgrade"]}>
 <Pair single id="lasting-tinctures">Lasting Tinctures</Pair>
-<Pair title="Ability"><p>The alchemist knows how to make <Link to="/main/equipment_alchemical_that_last_much_longer_than_normal_the_durations_of_the_effects_of_any_tinctures_the_alchemist_brews_using_the_skill_craft">tinctures</Link> skill are doubled.</p>
+<Pair title="Ability"><p>The alchemist knows how to make <Link to="/main/equipment_alchemical">tinctures</Link> that last much longer than normal. The durations of the effects of any tinctures the alchemist brews using the <Link to="/skill/craft">Craft</Link> skill are doubled.</p>
 <p>When the alchemist uses this discovery to brew a longer-lasting tincture, the tincture imposes its normal penalties on the alchemist even if the alchemist has an ability that reduces tinctures' penalties (such as the <em>substance tolerance</em> ability of the <Link to="/arc-alchemist/fermenter">fermenter alchemist archetype</Link>).</p>
 </Pair>
 <Pair title="Special">An alchemist with this discovery can brew tinctures with normal durations.</Pair>

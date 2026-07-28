@@ -1209,7 +1209,7 @@
 		"compilationSources": [ [ "Potions and Poisons" ] ],
 		"category": "Potion/Elixir Discoveries",
 		"description": [
-			"::ab{title=\"&L&Lasting Tinctures&FN&\" icon=boost ability=\"The alchemist knows how to make ‹main/tinctures»<equipment_alchemical) that last much longer than normal. The durations of the effects of any tinctures the alchemist brews using the ‹skill/Craft› skill are doubled.~~~When the alchemist uses this discovery to brew a longer-lasting tincture, the tincture imposes its normal penalties on the alchemist even if the alchemist has an ability that reduces tinctures' penalties (such as the *substance tolerance* ability of the ‹arc-alchemist/fermenter« alchemist archetype›).\" special=\"An alchemist with this discovery can brew tinctures with normal durations.\"}"
+			"::ab{title=\"&L&Lasting Tinctures&FN&\" icon=boost ability=\"The alchemist knows how to make ‹main/tinctures»<equipment_alchemical› that last much longer than normal. The durations of the effects of any tinctures the alchemist brews using the ‹skill/Craft› skill are doubled.~~~When the alchemist uses this discovery to brew a longer-lasting tincture, the tincture imposes its normal penalties on the alchemist even if the alchemist has an ability that reduces tinctures' penalties (such as the *substance tolerance* ability of the ‹arc-alchemist/fermenter« alchemist archetype›).\" special=\"An alchemist with this discovery can brew tinctures with normal durations.\"}"
 		]
 	},
 	"air_lung": {
