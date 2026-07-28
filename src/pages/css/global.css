@@ -191,7 +191,8 @@ aside p {
 aside p:first-child::first-letter {
 	font-size: 1.25rem;
 }
-aside p + p {
+aside p + p,
+aside + aside {
 	margin-block-start: 0.5rem;
 }
 div.tableWrap + aside {

@@ -10,7 +10,7 @@
 		"name": "Allure",
 		"compilationSources": [ [ "Occult Adventures", 42 ] ],
 		"description": [
-			"::ab[Allure]{icon=lower info=\"The *hypnotic stare* penalty also applies on initiative checks and Perception checks.\"}"
+			"::ab{title=\"&L&Allure&FN&\" icon=lower info=\"The *hypnotic stare* penalty also applies on initiative checks and Perception checks.\"}"
 		]
 	},
 	"devilbane_binding": {
@@ -18,7 +18,7 @@
 		"compilationSources": [ [ "Occult Origins", 13 ] ],
 		"addenda": ["devilbane"],
 		"description": [
-			"::ab[Devilbane Binding]{icon=lower info=\"The *hypnotic stare* penalty also applies to all Charisma checks to escape ‹spell/planar binding› spells, and applies to the target's spell resistance against a planar binding spell.\"}"
+			"::ab{title=\"&L&Devilbane Binding&FN&\" icon=lower info=\"The *hypnotic stare* penalty also applies to all Charisma checks to escape ‹spell/planar binding› spells, and applies to the target's spell resistance against a planar binding spell.\"}"
 		]
 	},
 	"devilbane_dampening": {
@@ -26,7 +26,7 @@
 		"compilationSources": [ [ "Occult Origins", 13 ] ],
 		"addenda": ["devilbane"],
 		"description": [
-			"::ab[Devilbane Dampening]{icon=lower info=\"The *hypnotic stare* penalty also applies to the target's resistance to a single form of energy, chosen by the mesmerist when he initiates the stare. If the mesmerist targets a form of energy to which his target has no resistance, this improvement has no effect.\"}"
+			"::ab{title=\"&L&Devilbane Dampening&FN&\" icon=lower info=\"The *hypnotic stare* penalty also applies to the target's resistance to a single form of energy, chosen by the mesmerist when he initiates the stare. If the mesmerist targets a form of energy to which his target has no resistance, this improvement has no effect.\"}"
 		]
 	},
 	"devilbane_dismissal": {
@@ -34,7 +34,7 @@
 		"compilationSources": [ [ "Occult Origins", 13 ] ],
 		"addenda": ["devilbane"],
 		"description": [
-			"::ab[Devilbane Dismissal]{icon=lower info=\"The *hypnotic stare* reduces the duration of any conjuration (summoning) spells the target casts, or that are currently affecting the target, by half.\"}"
+			"::ab{title=\"&L&Devilbane Dismissal&FN&\" icon=lower info=\"The *hypnotic stare* reduces the duration of any conjuration (summoning) spells the target casts, or that are currently affecting the target, by half.\"}"
 		]
 	},
 	"devilbane_impediment": {
@@ -42,7 +42,7 @@
 		"compilationSources": [ [ "Occult Origins", 13 ] ],
 		"addenda": ["devilbane"],
 		"description": [
-			"::ab[Devilbane Impediment]{icon=lower info=\"The target of your *hypnotic stare* must succeed at a ‹rule/concentration› check (DC = 15 + the level of the spell) to activate any of its spell-like abilities (but not standard spellcasting). If the target fails the check, the spell-like ability doesn't function but is still expended.\"}"
+			"::ab{title=\"&L&Devilbane Impediment&FN&\" icon=lower info=\"The target of your *hypnotic stare* must succeed at a ‹rule/concentration› check (DC = 15 + the level of the spell) to activate any of its spell-like abilities (but not standard spellcasting). If the target fails the check, the spell-like ability doesn't function but is still expended.\"}"
 		]
 	},
 	"devilbane_mundanity": {
@@ -50,7 +50,7 @@
 		"compilationSources": [ [ "Occult Origins", 13 ] ],
 		"addenda": ["devilbane"],
 		"description": [
-			"::ab[Devilbane Mundanity]{icon=lower info=\"The *hypnotic stare* penalty also applies to the target's spell resistance. This ability doesn't stack with the ‹stare/sapped magic› bold stare improvement.\"}"
+			"::ab{title=\"&L&Devilbane Mundanity&FN&\" icon=lower info=\"The *hypnotic stare* penalty also applies to the target's spell resistance. This ability doesn't stack with the ‹stare/sapped magic› bold stare improvement.\"}"
 		]
 	},
 	"devilbane_withering": {
@@ -58,126 +58,126 @@
 		"compilationSources": [ [ "Occult Origins", 13 ] ],
 		"addenda": ["devilbane"],
 		"description": [
-			"::ab[Devilbane Withering]{icon=lower info=\"The *hypnotic stare* penalty also applies to attack rolls and damage rolls, but only if the target is an outsider.\" special=\"Unlike most devilbane gazes, this gaze has no effect on creatures not of the outsider type, and effect's penalty isn't doubled when it targets outsiders.\"}"
+			"::ab{title=\"&L&Devilbane Withering&FN&\" icon=lower info=\"The *hypnotic stare* penalty also applies to attack rolls and damage rolls, but only if the target is an outsider.\" special=\"Unlike most devilbane gazes, this gaze has no effect on creatures not of the outsider type, and effect's penalty isn't doubled when it targets outsiders.\"}"
 		]
 	},
 	"disorientation": {
 		"name": "Disorientation",
 		"compilationSources": [ [ "Occult Adventures", 42 ] ],
 		"description": [
-			"::ab[Disorientation]{icon=lower info=\"The *hypnotic stare* penalty also applies on attack rolls.\"}"
+			"::ab{title=\"&L&Disorientation&FN&\" icon=lower info=\"The *hypnotic stare* penalty also applies on attack rolls.\"}"
 		]
 	},
 	"disquiet": {
 		"name": "Disquiet",
 		"compilationSources": [ [ "Occult Realms", 16 ] ],
 		"description": [
-			"::ab[Disquiet]{icon=lower info=\"The target of the *hypnotic stare* is ‹misc/shaken› while in areas of total darkness.\"}"
+			"::ab{title=\"&L&Disquiet&FN&\" icon=lower info=\"The target of the *hypnotic stare* is ‹misc/shaken› while in areas of total darkness.\"}"
 		]
 	},
 	"distracted": {
 		"name": "Distracted",
 		"compilationSources": [ [ "Heroes of Golarion", 9 ] ],
 		"description": [
-			"::ab[Distracted]{icon=lower info=\"The *hypnotic stare* penalty also applies to ‹rule/concentration› checks.\"}"
+			"::ab{title=\"&L&Distracted&FN&\" icon=lower info=\"The *hypnotic stare* penalty also applies to ‹rule/concentration› checks.\"}"
 		]
 	},
 	"infiltration": {
 		"name": "Infiltration",
 		"compilationSources": [ [ "Occult Realms", 16 ] ],
 		"description": [
-			"::ab[Infiltration]{icon=lower info=\"The *hypnotic stare* penalty also applies to the target's Perception checks and CMD.\"}"
+			"::ab{title=\"&L&Infiltration&FN&\" icon=lower info=\"The *hypnotic stare* penalty also applies to the target's Perception checks and CMD.\"}"
 		]
 	},
 	"lethality": {
 		"name": "Lethality",
 		"compilationSources": [ [ "Occult Realms", 16 ] ],
 		"description": [
-			"::ab[Lethality]{icon=lower info=\"The *hypnotic stare* penalty also applies to the target's Fortitude saves versus poison and diseases.\"}"
+			"::ab{title=\"&L&Lethality&FN&\" icon=lower info=\"The *hypnotic stare* penalty also applies to the target's Fortitude saves versus poison and diseases.\"}"
 		]
 	},
 	"nightblindness": {
 		"name": "Nightblindness",
 		"compilationSources": [ [ "Occult Realms", 16 ] ],
 		"description": [
-			"::ab[Nightblindness]{icon=lower info=\"The darkvision range of the *hypnotic stare'*s target decreases by 10 feet.\"}"
+			"::ab{title=\"&L&Nightblindness&FN&\" icon=lower info=\"The darkvision range of the *hypnotic stare'*s target decreases by 10 feet.\"}"
 		]
 	},
 	"nightmare": {
 		"name": "Nightmare",
 		"compilationSources": [ [ "Occult Realms", 16 ] ],
 		"description": [
-			"::ab[Nightmare]{icon=lower-roll info=\"The target of the *hypnotic stare* rolls twice on all Will saves versus fear, taking the lower result.\"}"
+			"::ab{title=\"&L&Nightmare&FN&\" icon=lower-roll info=\"The target of the *hypnotic stare* rolls twice on all Will saves versus fear, taking the lower result.\"}"
 		]
 	},
 	"oscillation": {
 		"name": "Oscillation",
 		"compilationSources": [ [ "Occult Realms", 16 ] ],
 		"description": [
-			"::ab[Oscillation]{icon=lower info=\"The target of the *hypnotic stare* treats all enemies beyond 30 feet (except the mesmerist) as having ‹rule/concealment› (20% miss chance).\"}"
+			"::ab{title=\"&L&Oscillation&FN&\" icon=lower info=\"The target of the *hypnotic stare* treats all enemies beyond 30 feet (except the mesmerist) as having ‹rule/concealment› (20% miss chance).\"}"
 		]
 	},
 	"psychic_inception": {
 		"name": "Psychic Inception",
 		"compilationSources": [ [ "Occult Adventures", 43 ] ],
 		"description": [
-			"::ab[Psychic Inception]{icon=boost info=\"The *hypnotic stare* and its penalty can affect creatures that are mindless or immune to mind-affecting effects (such as an undead or vermin). The mesmerist can also partially affect such a creature with his mind-affecting spells and abilities if it's under the effect of his *hypnotic stare;* it gains a +2 bonus on its saving throw (if any), and if affected, it still has a 50% chance each round of ignoring the effect. Ignoring the effect doesn't end the effect, but does allow the creature to act normally for that round.\"}"
+			"::ab{title=\"&L&Psychic Inception&FN&\" icon=boost info=\"The *hypnotic stare* and its penalty can affect creatures that are mindless or immune to mind-affecting effects (such as an undead or vermin). The mesmerist can also partially affect such a creature with his mind-affecting spells and abilities if it's under the effect of his *hypnotic stare;* it gains a +2 bonus on its saving throw (if any), and if affected, it still has a 50% chance each round of ignoring the effect. Ignoring the effect doesn't end the effect, but does allow the creature to act normally for that round.\"}"
 		]
 	},
 	"restriction": {
 		"name": "Restriction",
 		"compilationSources": [ [ "Occult Realms", 16 ] ],
 		"description": [
-			"::ab[Restriction]{icon=lower info=\"The target of the *hypnotic stare* treats all areas of ‹rule/dim light› or darker as ‹rule/difficult terrain›.\"}"
+			"::ab{title=\"&L&Restriction&FN&\" icon=lower info=\"The target of the *hypnotic stare* treats all areas of ‹rule/dim light› or darker as ‹rule/difficult terrain›.\"}"
 		]
 	},
 	"sabotage": {
 		"name": "Sabotage",
 		"compilationSources": [ [ "Occult Realms", 16 ] ],
 		"description": [
-			"::ab[Sabotage]{icon=lower info=\"The *hypnotic stare* penalty also applies to Diplomacy and Intimidate checks.\"}"
+			"::ab{title=\"&L&Sabotage&FN&\" icon=lower info=\"The *hypnotic stare* penalty also applies to Diplomacy and Intimidate checks.\"}"
 		]
 	},
 	"sapped_magic": {
 		"name": "Sapped Magic",
 		"compilationSources": [ [ "Occult Adventures", 43 ] ],
 		"description": [
-			"::ab[Sapped Magic]{icon=lower info=\"The *hypnotic stare* penalty also applies to the DCs of spells and spell-like abilities used by the target, and to the target's spell resistance (if any).\"}"
+			"::ab{title=\"&L&Sapped Magic&FN&\" icon=lower info=\"The *hypnotic stare* penalty also applies to the DCs of spells and spell-like abilities used by the target, and to the target's spell resistance (if any).\"}"
 		]
 	},
 	"sensed": {
 		"name": "Sensed",
 		"compilationSources": [ [ "Heroes of Golarion", 9 ] ],
 		"description": [
-			"::ab[Sensed]{icon=lower info=\"The *hypnotic stare* penalty also applies to Stealth checks.\"}"
+			"::ab{title=\"&L&Sensed&FN&\" icon=lower info=\"The *hypnotic stare* penalty also applies to Stealth checks.\"}"
 		]
 	},
 	"sluggishness": {
 		"name": "Sluggishness",
 		"compilationSources": [ [ "Occult Adventures", 43 ] ],
 		"description": [
-			"::ab[Sluggishness]{icon=lower info=\"The target of the *hypnotic stare* has all of its speeds reduced by 5 feet (to a minimum of 5 feet), and the *hypnotic stare* penalty also applies to the target's Reflex saving throws.\"}"
+			"::ab{title=\"&L&Sluggishness&FN&\" icon=lower info=\"The target of the *hypnotic stare* has all of its speeds reduced by 5 feet (to a minimum of 5 feet), and the *hypnotic stare* penalty also applies to the target's Reflex saving throws.\"}"
 		]
 	},
 	"susceptibility": {
 		"name": "Susceptibility",
 		"compilationSources": [ [ "Occult Adventures", 43 ] ],
 		"description": [
-			"::ab[Susceptibility]{icon=lower info=\"The *hypnotic stare* penalty also applies to the target's Sense Motive checks to oppose Bluff checks, and to the DCs of Diplomacy and Intimidate checks made against the target.\"}"
+			"::ab{title=\"&L&Susceptibility&FN&\" icon=lower info=\"The *hypnotic stare* penalty also applies to the target's Sense Motive checks to oppose Bluff checks, and to the DCs of Diplomacy and Intimidate checks made against the target.\"}"
 		]
 	},
 	"timidity": {
 		"name": "Timidity",
 		"compilationSources": [ [ "Occult Adventures", 43 ] ],
 		"description": [
-			"::ab[Timidity]{icon=lower info=\"The *hypnotic stare* penalty also applies to damage rolls.\"}"
+			"::ab{title=\"&L&Timidity&FN&\" icon=lower info=\"The *hypnotic stare* penalty also applies to damage rolls.\"}"
 		]
 	},
 	"unaided": {
 		"name": "Unaided",
 		"compilationSources": [ [ "Heroes of Golarion", 9 ] ],
 		"description": [
-			"::ab[Unaided]{icon=lower info=\"The target of the *hypnotic stare* is not able to grant or receive ‹rule/flanking› bonuses.\"}"
+			"::ab{title=\"&L&Unaided&FN&\" icon=lower info=\"The target of the *hypnotic stare* is not able to grant or receive ‹rule/flanking› bonuses.\"}"
 		]
 	}
 }

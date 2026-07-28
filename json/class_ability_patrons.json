@@ -371,13 +371,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
 		"category": "basic",
 		"description": [
-			"::ab{title=\"&L&Transformation&FN&\" icon=learn info=\"The Transformation patron grants the following spells at the listed witch levels.\" s2=Jump s4=\"Bear's endurance\" s6=\"Beast shape I\" s8=\"Beast shape II\" s10=\"Beast shape III\" s12=\"Form of the dragon I\" s14=\"Form of the dragon II\" s16=\"Form of the dragon III\" s18=Shapechange}",
-			"",
-			";;;aside",
-			"",
-			"When a witch with a Transformation patron gains the ability to choose a major hex, they may learn an ‹ability/annointing<s› in place of a new hex.",
-			"",
-			";;;"
+			"::ab{title=\"&L&Transformation&FN&\" icon=learn info=\"The Transformation patron grants the following spells at the listed witch levels.\" s2=Jump s4=\"Bear's endurance\" s6=\"Beast shape I\" s8=\"Beast shape II\" s10=\"Beast shape III\" s12=\"Form of the dragon I\" s14=\"Form of the dragon II\" s16=\"Form of the dragon III\" s18=Shapechange special=\"When a witch with a Transformation patron gains the ability to choose a major hex, they may learn an ‹ability/annointing<s› in place of a new hex.\"}"
 		]
 	},
 	"trickery": {

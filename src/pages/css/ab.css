@@ -272,8 +272,10 @@ div.basicContent div.compilation div.abSingle {
 div.basicContent div.compilation div.abSingle.title {
 	justify-content: flex-start;
 	text-align: start;
-	border-start-start-radius: 0.75rem;
 	padding-inline-start: 0.5rem;
+}
+div.basicContent div.compilation div.ability:not(.subAbility) div.abSingle.title {
+	border-start-start-radius: 0.75rem;
 }
 div.basicContent div.compilation div.abSingle.title div.flavor {
 	text-align: start;

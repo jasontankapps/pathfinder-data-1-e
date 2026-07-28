@@ -606,9 +606,9 @@ const _patrons = {hasJL:true,title: "Witch Patrons", topLink: ["Witch","class/wi
 <Pair plain title="14th"><Link to="/spell/form_of_the_dragon_ii">Form of the dragon II</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/form_of_the_dragon_iii">Form of the dragon III</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/shapechange">Shapechange</Link></Pair>
+<Pair title="Special">When a witch with a Transformation patron gains the ability to choose a major hex, they may learn an <Link to="/ability/annointings">annointing</Link> in place of a new hex.</Pair>
 </Ability>
-<aside><p>When a witch with a Transformation patron gains the ability to choose a major hex, they may learn an <Link to="/ability/annointings">annointing</Link> in place of a new hex.</p>
-</aside><Ability id="patrontrickery-trickery-fn1-10" icon={["spell-book"]}>
+<Ability id="patrontrickery-trickery-fn1-10" icon={["spell-book"]}>
 <Pair single id="patrontrickery-trickery-fn1-10"><Link to="/patron/trickery">⮞</Link> Trickery <sup><InnerLink showBacklink="backlink-ability-patrons-fake-fn-1.10" id="ability-patrons-fake-fn-1.10" data-hash-target to="ability-patrons-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Info">The Trickery patron grants the following spells at the listed witch levels.</Pair>
 <Pair plain title="2nd"><Link to="/spell/animate_rope">Animate rope</Link></Pair>

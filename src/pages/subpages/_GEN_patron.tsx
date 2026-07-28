@@ -691,9 +691,9 @@ const _transformation = {title: "Transformation", jsx: <><p><strong>Sources</str
 <Pair plain title="14th"><Link to="/spell/form_of_the_dragon_ii">Form of the dragon II</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/form_of_the_dragon_iii">Form of the dragon III</Link></Pair>
 <Pair plain title="18th"><Link to="/spell/shapechange">Shapechange</Link></Pair>
+<Pair title="Special">When a witch with a Transformation patron gains the ability to choose a major hex, they may learn an <Link to="/ability/annointings">annointing</Link> in place of a new hex.</Pair>
 </Ability>
-<aside><p>When a witch with a Transformation patron gains the ability to choose a major hex, they may learn an <Link to="/ability/annointings">annointing</Link> in place of a new hex.</p>
-</aside></>};
+</>};
 const _trickery = {title: "Trickery", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 70</Link></p>
 <Ability id="trickery" icon={["spell-book"]}>
 <Pair single id="trickery">Trickery</Pair>

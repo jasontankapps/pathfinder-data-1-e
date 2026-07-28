@@ -2571,101 +2571,101 @@ const _stares = {title: "Mesmerist Stares", topLink: ["Mesmerist","class/mesmeri
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 13</Link><br/>Chelish mesmerists have refined their hypnotic stares to include a suite of gaze attacks useful for negotiating with or undermining outsiders. In the decades since, these secrets have begun to slip beyond the Hell-bound nation's borders, and now can be found throughout the Inner Sea region, especially in areas that interact frequently with outsiders.</p>
 <p>Devilbane gazes (stares that start with "Devilbane" below) can be selected beginning at 3rd level as options for the mesmerist's bold stare improvements. They tend to be more limited in their scope than standard bold stare improvements, but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the hypnotic stare penalty applied by the devilbane gaze improvement (but not the Will save penalty the original hypnotic stare imposes). Despite their moniker, devilbane gazes affect all outsiders equally well.</p>
 <hr/>
-<Ability id="allure" icon={["armor-downgrade"]}>
-<Pair single id="allure">Allure</Pair>
+<Ability id="stareallure-allure-fn1" icon={["armor-downgrade"]}>
+<Pair single id="stareallure-allure-fn1"><Link to="/stare/allure">⮞</Link> Allure <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-1" id="ability-stares-fake-fn-1" data-hash-target to="ability-stares-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies on initiative checks and Perception checks.</Pair>
 </Ability>
-<Ability id="devilbane-binding" icon={["armor-downgrade"]}>
-<Pair single id="devilbane-binding">Devilbane Binding</Pair>
+<Ability id="staredevilbanebinding-devilbane-binding-fn2" icon={["armor-downgrade"]}>
+<Pair single id="staredevilbanebinding-devilbane-binding-fn2"><Link to="/stare/devilbane_binding">⮞</Link> Devilbane Binding <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-2" id="ability-stares-fake-fn-2" data-hash-target to="ability-stares-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to all Charisma checks to escape <Link to="/spell/planar_binding">planar binding</Link> spells, and applies to the target's spell resistance against a planar binding spell.</Pair>
 </Ability>
-<Ability id="devilbane-dampening" icon={["armor-downgrade"]}>
-<Pair single id="devilbane-dampening">Devilbane Dampening</Pair>
+<Ability id="staredevilbanedampening-devilbane-dampening-fn2-2" icon={["armor-downgrade"]}>
+<Pair single id="staredevilbanedampening-devilbane-dampening-fn2-2"><Link to="/stare/devilbane_dampening">⮞</Link> Devilbane Dampening <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-2.2" id="ability-stares-fake-fn-2.2" data-hash-target to="ability-stares-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to the target's resistance to a single form of energy, chosen by the mesmerist when he initiates the stare. If the mesmerist targets a form of energy to which his target has no resistance, this improvement has no effect.</Pair>
 </Ability>
-<Ability id="devilbane-dismissal" icon={["armor-downgrade"]}>
-<Pair single id="devilbane-dismissal">Devilbane Dismissal</Pair>
+<Ability id="staredevilbanedismissal-devilbane-dismissal-fn2-3" icon={["armor-downgrade"]}>
+<Pair single id="staredevilbanedismissal-devilbane-dismissal-fn2-3"><Link to="/stare/devilbane_dismissal">⮞</Link> Devilbane Dismissal <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-2.3" id="ability-stares-fake-fn-2.3" data-hash-target to="ability-stares-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> reduces the duration of any conjuration (summoning) spells the target casts, or that are currently affecting the target, by half.</Pair>
 </Ability>
-<Ability id="devilbane-impediment" icon={["armor-downgrade"]}>
-<Pair single id="devilbane-impediment">Devilbane Impediment</Pair>
+<Ability id="staredevilbaneimpediment-devilbane-impediment-fn2-4" icon={["armor-downgrade"]}>
+<Pair single id="staredevilbaneimpediment-devilbane-impediment-fn2-4"><Link to="/stare/devilbane_impediment">⮞</Link> Devilbane Impediment <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-2.4" id="ability-stares-fake-fn-2.4" data-hash-target to="ability-stares-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Info">The target of your <em>hypnotic stare</em> must succeed at a <Link to="/rule/concentration">concentration</Link> check (DC = 15 + the level of the spell) to activate any of its spell-like abilities (but not standard spellcasting). If the target fails the check, the spell-like ability doesn't function but is still expended.</Pair>
 </Ability>
-<Ability id="devilbane-mundanity" icon={["armor-downgrade"]}>
-<Pair single id="devilbane-mundanity">Devilbane Mundanity</Pair>
+<Ability id="staredevilbanemundanity-devilbane-mundanity-fn2-5" icon={["armor-downgrade"]}>
+<Pair single id="staredevilbanemundanity-devilbane-mundanity-fn2-5"><Link to="/stare/devilbane_mundanity">⮞</Link> Devilbane Mundanity <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-2.5" id="ability-stares-fake-fn-2.5" data-hash-target to="ability-stares-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to the target's spell resistance. This ability doesn't stack with the <Link to="/stare/sapped_magic">sapped magic</Link> bold stare improvement.</Pair>
 </Ability>
-<Ability id="devilbane-withering" icon={["armor-downgrade"]}>
-<Pair single id="devilbane-withering">Devilbane Withering</Pair>
+<Ability id="staredevilbanewithering-devilbane-withering-fn2-6" icon={["armor-downgrade"]}>
+<Pair single id="staredevilbanewithering-devilbane-withering-fn2-6"><Link to="/stare/devilbane_withering">⮞</Link> Devilbane Withering <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-2.6" id="ability-stares-fake-fn-2.6" data-hash-target to="ability-stares-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to attack rolls and damage rolls, but only if the target is an outsider.</Pair>
 <Pair title="Special">Unlike most devilbane gazes, this gaze has no effect on creatures not of the outsider type, and effect's penalty isn't doubled when it targets outsiders.</Pair>
 </Ability>
-<Ability id="disorientation" icon={["armor-downgrade"]}>
-<Pair single id="disorientation">Disorientation</Pair>
+<Ability id="staredisorientation-disorientation-fn1-2" icon={["armor-downgrade"]}>
+<Pair single id="staredisorientation-disorientation-fn1-2"><Link to="/stare/disorientation">⮞</Link> Disorientation <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-1.2" id="ability-stares-fake-fn-1.2" data-hash-target to="ability-stares-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies on attack rolls.</Pair>
 </Ability>
-<Ability id="disquiet" icon={["armor-downgrade"]}>
-<Pair single id="disquiet">Disquiet</Pair>
+<Ability id="staredisquiet-disquiet-fn3" icon={["armor-downgrade"]}>
+<Pair single id="staredisquiet-disquiet-fn3"><Link to="/stare/disquiet">⮞</Link> Disquiet <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-3" id="ability-stares-fake-fn-3" data-hash-target to="ability-stares-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Info">The target of the <em>hypnotic stare</em> is <Link to="/misc/shaken">shaken</Link> while in areas of total darkness.</Pair>
 </Ability>
-<Ability id="distracted" icon={["armor-downgrade"]}>
-<Pair single id="distracted">Distracted</Pair>
+<Ability id="staredistracted-distracted-fn4" icon={["armor-downgrade"]}>
+<Pair single id="staredistracted-distracted-fn4"><Link to="/stare/distracted">⮞</Link> Distracted <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-4" id="ability-stares-fake-fn-4" data-hash-target to="ability-stares-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to <Link to="/rule/concentration">concentration</Link> checks.</Pair>
 </Ability>
-<Ability id="infiltration" icon={["armor-downgrade"]}>
-<Pair single id="infiltration">Infiltration</Pair>
+<Ability id="stareinfiltration-infiltration-fn3-2" icon={["armor-downgrade"]}>
+<Pair single id="stareinfiltration-infiltration-fn3-2"><Link to="/stare/infiltration">⮞</Link> Infiltration <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-3.2" id="ability-stares-fake-fn-3.2" data-hash-target to="ability-stares-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to the target's Perception checks and CMD.</Pair>
 </Ability>
-<Ability id="lethality" icon={["armor-downgrade"]}>
-<Pair single id="lethality">Lethality</Pair>
+<Ability id="starelethality-lethality-fn3-3" icon={["armor-downgrade"]}>
+<Pair single id="starelethality-lethality-fn3-3"><Link to="/stare/lethality">⮞</Link> Lethality <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-3.3" id="ability-stares-fake-fn-3.3" data-hash-target to="ability-stares-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to the target's Fortitude saves versus poison and diseases.</Pair>
 </Ability>
-<Ability id="nightblindness" icon={["armor-downgrade"]}>
-<Pair single id="nightblindness">Nightblindness</Pair>
+<Ability id="starenightblindness-nightblindness-fn3-4" icon={["armor-downgrade"]}>
+<Pair single id="starenightblindness-nightblindness-fn3-4"><Link to="/stare/nightblindness">⮞</Link> Nightblindness <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-3.4" id="ability-stares-fake-fn-3.4" data-hash-target to="ability-stares-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Info">The darkvision range of the *hypnotic stare'*s target decreases by 10 feet.</Pair>
 </Ability>
-<Ability id="nightmare" icon={["armor-downgrade","rolling-dices"]}>
-<Pair single id="nightmare">Nightmare</Pair>
+<Ability id="starenightmare-nightmare-fn3-5" icon={["armor-downgrade","rolling-dices"]}>
+<Pair single id="starenightmare-nightmare-fn3-5"><Link to="/stare/nightmare">⮞</Link> Nightmare <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-3.5" id="ability-stares-fake-fn-3.5" data-hash-target to="ability-stares-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Info">The target of the <em>hypnotic stare</em> rolls twice on all Will saves versus fear, taking the lower result.</Pair>
 </Ability>
-<Ability id="oscillation" icon={["armor-downgrade"]}>
-<Pair single id="oscillation">Oscillation</Pair>
+<Ability id="stareoscillation-oscillation-fn3-6" icon={["armor-downgrade"]}>
+<Pair single id="stareoscillation-oscillation-fn3-6"><Link to="/stare/oscillation">⮞</Link> Oscillation <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-3.6" id="ability-stares-fake-fn-3.6" data-hash-target to="ability-stares-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Info">The target of the <em>hypnotic stare</em> treats all enemies beyond 30 feet (except the mesmerist) as having <Link to="/rule/concealment">concealment</Link> (20% miss chance).</Pair>
 </Ability>
-<Ability id="psychic-inception" icon={["upgrade"]}>
-<Pair single id="psychic-inception">Psychic Inception</Pair>
+<Ability id="starepsychicinception-psychic-inception-fn5" icon={["upgrade"]}>
+<Pair single id="starepsychicinception-psychic-inception-fn5"><Link to="/stare/psychic_inception">⮞</Link> Psychic Inception <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-5" id="ability-stares-fake-fn-5" data-hash-target to="ability-stares-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> and its penalty can affect creatures that are mindless or immune to mind-affecting effects (such as an undead or vermin). The mesmerist can also partially affect such a creature with his mind-affecting spells and abilities if it's under the effect of his <em>hypnotic stare;</em> it gains a +2 bonus on its saving throw (if any), and if affected, it still has a 50% chance each round of ignoring the effect. Ignoring the effect doesn't end the effect, but does allow the creature to act normally for that round.</Pair>
 </Ability>
-<Ability id="restriction" icon={["armor-downgrade"]}>
-<Pair single id="restriction">Restriction</Pair>
+<Ability id="starerestriction-restriction-fn3-7" icon={["armor-downgrade"]}>
+<Pair single id="starerestriction-restriction-fn3-7"><Link to="/stare/restriction">⮞</Link> Restriction <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-3.7" id="ability-stares-fake-fn-3.7" data-hash-target to="ability-stares-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Info">The target of the <em>hypnotic stare</em> treats all areas of <Link to="/rule/dim_light">dim light</Link> or darker as <Link to="/rule/difficult_terrain">difficult terrain</Link>.</Pair>
 </Ability>
-<Ability id="sabotage" icon={["armor-downgrade"]}>
-<Pair single id="sabotage">Sabotage</Pair>
+<Ability id="staresabotage-sabotage-fn3-8" icon={["armor-downgrade"]}>
+<Pair single id="staresabotage-sabotage-fn3-8"><Link to="/stare/sabotage">⮞</Link> Sabotage <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-3.8" id="ability-stares-fake-fn-3.8" data-hash-target to="ability-stares-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to Diplomacy and Intimidate checks.</Pair>
 </Ability>
-<Ability id="sapped-magic" icon={["armor-downgrade"]}>
-<Pair single id="sapped-magic">Sapped Magic</Pair>
+<Ability id="staresappedmagic-sapped-magic-fn5-2" icon={["armor-downgrade"]}>
+<Pair single id="staresappedmagic-sapped-magic-fn5-2"><Link to="/stare/sapped_magic">⮞</Link> Sapped Magic <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-5.2" id="ability-stares-fake-fn-5.2" data-hash-target to="ability-stares-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to the DCs of spells and spell-like abilities used by the target, and to the target's spell resistance (if any).</Pair>
 </Ability>
-<Ability id="sensed" icon={["armor-downgrade"]}>
-<Pair single id="sensed">Sensed</Pair>
+<Ability id="staresensed-sensed-fn4-2" icon={["armor-downgrade"]}>
+<Pair single id="staresensed-sensed-fn4-2"><Link to="/stare/sensed">⮞</Link> Sensed <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-4.2" id="ability-stares-fake-fn-4.2" data-hash-target to="ability-stares-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to Stealth checks.</Pair>
 </Ability>
-<Ability id="sluggishness" icon={["armor-downgrade"]}>
-<Pair single id="sluggishness">Sluggishness</Pair>
+<Ability id="staresluggishness-sluggishness-fn5-3" icon={["armor-downgrade"]}>
+<Pair single id="staresluggishness-sluggishness-fn5-3"><Link to="/stare/sluggishness">⮞</Link> Sluggishness <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-5.3" id="ability-stares-fake-fn-5.3" data-hash-target to="ability-stares-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Info">The target of the <em>hypnotic stare</em> has all of its speeds reduced by 5 feet (to a minimum of 5 feet), and the <em>hypnotic stare</em> penalty also applies to the target's Reflex saving throws.</Pair>
 </Ability>
-<Ability id="susceptibility" icon={["armor-downgrade"]}>
-<Pair single id="susceptibility">Susceptibility</Pair>
+<Ability id="staresusceptibility-susceptibility-fn5-4" icon={["armor-downgrade"]}>
+<Pair single id="staresusceptibility-susceptibility-fn5-4"><Link to="/stare/susceptibility">⮞</Link> Susceptibility <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-5.4" id="ability-stares-fake-fn-5.4" data-hash-target to="ability-stares-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to the target's Sense Motive checks to oppose Bluff checks, and to the DCs of Diplomacy and Intimidate checks made against the target.</Pair>
 </Ability>
-<Ability id="timidity" icon={["armor-downgrade"]}>
-<Pair single id="timidity">Timidity</Pair>
+<Ability id="staretimidity-timidity-fn5-5" icon={["armor-downgrade"]}>
+<Pair single id="staretimidity-timidity-fn5-5"><Link to="/stare/timidity">⮞</Link> Timidity <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-5.5" id="ability-stares-fake-fn-5.5" data-hash-target to="ability-stares-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Info">The <em>hypnotic stare</em> penalty also applies to damage rolls.</Pair>
 </Ability>
-<Ability id="unaided" icon={["armor-downgrade"]}>
-<Pair single id="unaided">Unaided</Pair>
+<Ability id="stareunaided-unaided-fn4-3" icon={["armor-downgrade"]}>
+<Pair single id="stareunaided-unaided-fn4-3"><Link to="/stare/unaided">⮞</Link> Unaided <sup><InnerLink showBacklink="backlink-ability-stares-fake-fn-4.3" id="ability-stares-fake-fn-4.3" data-hash-target to="ability-stares-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Info">The target of the <em>hypnotic stare</em> is not able to grant or receive <Link to="/rule/flanking">flanking</Link> bonuses.</Pair>
 </Ability>
 <section data-footnotes><h3 id="ability-stares-label">Footnotes</h3><ol>
