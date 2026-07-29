@@ -196,9 +196,7 @@
 					""
 				],
 				{
-					"limit": "1",
-					"join": [ "", "", "" ],
-					"template": "@hll[deed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
+					"limit": "1"
 				},
 				[
 					"",
@@ -206,9 +204,7 @@
 					""
 				],
 				{
-					"limit": "3",
-					"join": [ "", "", "" ],
-					"template": "@hll[deed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
+					"limit": "3"
 				},
 				[
 					"",
@@ -216,9 +212,7 @@
 					""
 				],
 				{
-					"limit": "7",
-					"join": [ "", "", "" ],
-					"template": "@hll[deed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
+					"limit": "7"
 				},
 				[
 					"",
@@ -226,9 +220,7 @@
 					""
 				],
 				{
-					"limit": "11",
-					"join": [ "", "", "" ],
-					"template": "@hll[deed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
+					"limit": "11"
 				},
 				[
 					"",
@@ -236,9 +228,7 @@
 					""
 				],
 				{
-					"limit": "15",
-					"join": [ "", "", "" ],
-					"template": "@hll[deed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
+					"limit": "15"
 				},
 				[
 					"",
@@ -246,9 +236,7 @@
 					""
 				],
 				{
-					"limit": "19",
-					"join": [ "", "", "" ],
-					"template": "@hll[deed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
+					"limit": "19"
 				}
 			]
 		},
@@ -288,15 +276,15 @@
 					"## Hellknight Disciplines",
 					"",
 					"‹SOURCE Adventurer's Guide›  ",
-					"At 3rd level, a Hellknight gains access to his first discipline, choosing one associated with his specific order. At 6th level, the Hellknight gains a second discipline, choosing from any listed as being available to \"any order.\" At 9th level, the Hellknight gains his third discipline, choosing this one from any of the disciplines listed below, even those from another order, with the exception of pentamic faith. When applicable, the save DC to resist a discipline's effect is equal to 10 + the Hellknight's level + his Charisma modifier. The Hellknight can use any one discipline a number of times per day equal to the total number of disciplines he has access to, so at 3rd level he can use his discipline once per day. At 6th level, he can use both disciplines twice per day each. At 9th level, he can use all three of his disciplines three times per day.",
+					"At 3rd level, a Hellknight gains access to his first discipline, choosing one associated with his specific order. At 6th level, the Hellknight gains a second discipline, choosing from any listed as being available to \"any order.\" At 9th level, the Hellknight gains his third discipline, choosing this one from any of the disciplines listed below, even those from another order, with the exception of *pentamic faith.*",
+					"",
+					"When applicable, the save DC to resist a discipline's effect is equal to 10 + the Hellknight's level + his Charisma modifier. The Hellknight can use any one discipline a number of times per day equal to the total number of disciplines he has access to, so at 3rd level he can use his discipline once per day, at 6th level he can use both disciplines twice per day each, and at 9th level he can use all three of his disciplines three times per day.",
 					"",
 					"---",
 					""
 				],
 				{
-					"limit": { "omit": [] },
-					"join": [ "", "", "" ],
-					"template": "@hll[hkdiscipline/!-TITLE-!] **!-SUFFIX-!:** !-DESC-!"
+					"limit": { "omit": [] }
 				}
 			]
 		},
