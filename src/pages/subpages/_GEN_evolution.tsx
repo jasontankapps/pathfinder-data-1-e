@@ -149,7 +149,7 @@ const _scent = {title: "Scent", addenda: ["1pt"], jsx: <><p><strong>Sources</str
 <Ability id="scent-ex" icon={["stairs-goal"]}>
 <Pair single id="scent-ex" flavor="An eidolon's sense of smell becomes quite acute.">Scent (Ex)</Pair>
 <Pair title="Ability"><p>The eidolon gains the <Link to="/umr/scent">scent</Link> special quality, allowing it to detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents can be detected at twice the normal range.</p>
-<p>Scent does not allow the eidolon to precisely locate the creature, only to detect its presence. It can detect the direction with a <strong className="hl">move action</strong>. The eidolon can pinpoint the creature's location if it is within 5 feet. The eidolon can use <em>scent</em> to track creatures.</p>
+<p><em>Scent</em> does not allow the eidolon to precisely locate the creature, only to detect its presence. It can detect the direction with a <strong className="hl">move action</strong>. The eidolon can pinpoint the creature's location if it is within 5 feet. The eidolon can use <em>scent</em> to track creatures.</p>
 </Pair>
 </Ability>
 </>};
@@ -567,9 +567,9 @@ const _incorporeal_form = {title: "Incorporeal Form", addenda: ["4pts"], jsx: <>
 const _large = {title: "Large", addenda: ["4pts"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 64</Link></p>
 <Ability id="large-ex" icon={["upgrade","armor-upgrade","broken-shield"]}>
 <Pair single id="large-ex">Large (Ex)</Pair>
-<Pair title="Prerequisites">13th-level summoner, The eidolon must be Medium</Pair>
+<Pair title="Prerequisites">8th-level summoner, eidolon is Medium-sized</Pair>
 <Pair title="Ability">An eidolon grows in size, becoming Large. The eidolon gains a +8 bonus to Strength, a +4 bonus to Constitution, and a +2 bonus to its natural armor. It takes a -2 penalty to its Dexterity. This size change also gives the creature a -1 size penalty to its AC and on attack rolls, a +1 bonus to its CMB and CMD, a -2 penalty on Fly skill checks, and a -4 penalty on Stealth skill checks. If the eidolon has the biped base form, it also gains 10-foot reach. Any <Link to="/evolution/reach">reach</Link> evolutions the eidolon possesses are added to this total.</Pair>
-<Pair title="Ability">If 6 additional evolution points are spent, the eidolon instead becomes Huge. The eidolon gains a +16 bonus to Strength, a +8 bonus to Constitution, and a +5 bonus to its natural armor. It takes a -4 penalty to its Dexterity. This size change also give the creature a -2 size penalty to its AC and attack rolls, a +2 bonus to its CMB and CMD, 10-foot reach, a -4 penalty on Fly skill checks, and a -8 penalty on Stealth skill checks. If the eidolon has the biped base form, its reach increases to 15 feet (10 feet for all other base forms). Any reach evolutions the eidolon possesses are added to this total. These bonuses and penalties replace, and do not stack with, those gained from becoming Large.</Pair>
+<Pair title="At 13th Level">If 6 additional evolution points are spent, the eidolon instead becomes Huge. The eidolon gains a +16 bonus to Strength, a +8 bonus to Constitution, and a +5 bonus to its natural armor. It takes a -4 penalty to its Dexterity. This size change also give the creature a -2 size penalty to its AC and attack rolls, a +2 bonus to its CMB and CMD, 10-foot reach, a -4 penalty on Fly skill checks, and a -8 penalty on Stealth skill checks. If the eidolon has the biped base form, its reach increases to 15 feet (10 feet for all other base forms). Any <em>reach</em> evolutions the eidolon possesses are added to this total. These bonuses and penalties replace, and do not stack with, those gained from becoming Large.</Pair>
 <Pair title="Special">The <Link to="/evolution/ability_increase">ability increase</Link> evolution costs twice as much (4 evolution points) when adding to the Strength or Constitution scores of a Large or Huge eidolon.</Pair>
 </Ability>
 </>};

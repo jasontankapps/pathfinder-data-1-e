@@ -1059,6 +1059,7 @@
 	"bite_attack": { "redirect": "natural_attacks" },
 	"hoof_attack": { "redirect": "natural_attacks" },
 	"sting_attack": { "redirect": "natural_attacks" },
+	"pincer_attack": { "redirect": "natural_attacks" },
 	"tail_slap_attack": { "redirect": "natural_attacks" },
 	"wing_buffet_attack": { "redirect": "natural_attacks" },
 	"spell_like_abilities": {
