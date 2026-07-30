@@ -46,7 +46,6 @@ const _pistol_whip = {title: "Pistol-Whip", jsx: <><p><strong>Sources</strong> <
 </Ability>
 </>};
 const _utility_shot = {title: "Utility Shot", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 11</Link></p>
-<p>:</p>
 <Ability id="utility-shot-ex" extraClasses="hasSubs" icon={["bowman","remedy"]}>
 <Pair single id="utility-shot-ex">Utility Shot (Ex)</Pair>
 <Pair title="Prerequisites">3rd-level gunslinger</Pair>

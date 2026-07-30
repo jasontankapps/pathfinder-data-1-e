@@ -266,13 +266,7 @@
 					""
 				],
 				{
-					"limit": "majorhex",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[hex/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "majorhex"
 				}
 			]
 		},
