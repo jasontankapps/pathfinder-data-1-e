@@ -13,15 +13,15 @@
 					"",
 					"As a summoner gains levels, his eidolon gains specific evolutions based on its subtype. Each subtype entry below includes the following information.",
 					"",
-					"**Name:** This is the name of the eidolon's subtype. The eidolon gains this as a subtype, but unless otherwise noted, it does not gain any of the features, abilities, or weaknesses of that subtype.",
+					"@HL[Name:] This is the name of the eidolon's subtype. The eidolon gains this as a subtype, but unless otherwise noted, it does not gain any of the features, abilities, or weaknesses of that subtype.",
 					"",
-					"**Description:** This gives a basic overview of eidolons of this subtype, including general guidelines on appearance and personality.",
+					"@HL[Description:] This gives a basic overview of eidolons of this subtype, including general guidelines on appearance and personality.",
 					"",
-					"**Alignment:** The eidolon is a creature of this alignment. If its alignment is chaotic, evil, lawful, or good, it gains that subtype.",
+					"@HL[Alignment:] The eidolon is a creature of this alignment. If its alignment is chaotic, evil, lawful, or good, it gains that subtype.",
 					"",
-					"**Base Form:** Eidolons of some subtypes are restricted in their choice of base form. Restrictions are spelled out here. The evolutions listed here are gained automatically, and do not cost points from the eidolon's evolution pool.",
+					"@HL[Base Form:] Eidolons of some subtypes are restricted in their choice of base form. Restrictions are spelled out here. The evolutions listed here are gained automatically, and do not cost points from the eidolon's evolution pool.",
 					"",
-					"**Base Evolutions:** This describes the base evolutions possessed by all eidolons of this subtype. Following the entry is a list of evolutions gained as the summoner gains levels; these evolutions are gained automatically, and do not cost points from the eidolon's evolution pool. In some cases, eidolons of certain subtypes will gain abilities that are not evolutions. Unless otherwise noted, such abilities function as described in the [Universal Monster Rules](main/umr).",
+					"@HL[Base Evolutions:] This describes the base evolutions possessed by all eidolons of this subtype. Following the entry is a list of evolutions gained as the summoner gains levels; these evolutions are gained automatically, and do not cost points from the eidolon's evolution pool. In some cases, eidolons of certain subtypes will gain abilities that are not evolutions. Unless otherwise noted, such abilities function as described in the [Universal Monster Rules](main/umr).",
 					"",
 					"#### Eidolons and Alignment",
 					"",
@@ -29,13 +29,7 @@
 					"Generally, the summoner controls the actions of his eidolon, even during combat, either through verbal commands or through the link ability, but this does not mean that the eidolon is a puppet that follows every command without question. Eidolons have been known to refuse actions that are against their ethoses or alignments (subject to the GM's discretion) and are quick to chide the summoner about such requests. In addition, should the action of the summoner cause a shift in alignment such that the summoner's alignment is more than one step away from the eidolon's, the eidolon refuses the call of the summoner (although the summoner can still use his summon monster class feature). If the summoner manages to restore his alignment, the eidolon returns to his service."
 				],
 				{
-					"limit": { "omit": [] },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "(.+?)((?:!-N-!)+)(.+)",
-						"replacement": "$1!-^S-!$2$2$3"
-					},
-					"template": "!-N-!::h3[!-TITLE-!]{jl}!-N-!!-N-!!-DESC-!!-N-!!-N-!>*Bookmarkable page: @hll[eidolon/!-TITLE-!]*"
+					"limit": { "omit": [] }
 				}
 			]
 		},
@@ -59,13 +53,7 @@
 					""
 				],
 				{
-					"limit": "Studied Strike Talents",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Studied Strike Talents"
 				},
 				[
 					"",
@@ -75,13 +63,7 @@
 					""
 				],
 				{
-					"limit": "Other Studied Strike Talents",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Other Studied Strike Talents"
 				},
 				[
 					"",
@@ -91,13 +73,7 @@
 					""
 				],
 				{
-					"limit": "Inspiration Talents",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Inspiration Talents"
 				},
 				[
 					"",
@@ -107,13 +83,7 @@
 					""
 				],
 				{
-					"limit": "Alchemist and Poison Talents",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Alchemist and Poison Talents"
 				},
 				[
 					"",
@@ -121,13 +91,7 @@
 					""
 				],
 				{
-					"limit": "Other Talents",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Other Talents"
 				}
 			]
 		},
@@ -148,13 +112,7 @@
 					""
 				],
 				{
-					"limit": { "omit": [] },
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[kipower/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": { "omit": [] }
 				}
 			]
 		},

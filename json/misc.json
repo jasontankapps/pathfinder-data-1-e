@@ -906,6 +906,7 @@
 		"type": "Rules (Combat)",
 		"topLink": [ "Critical Hits", "rule/critical_hits" ]
 	},
+	"precision_based_attacks": { "redirect": "precision_damage" },
 	"languages": {
 		"name": "Languages",
 		"description": [

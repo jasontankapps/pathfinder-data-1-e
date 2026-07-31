@@ -336,7 +336,7 @@
 		"category": "2",
 		"addenda": [ "2pts" ],
 		"description": [
-			":::ab{title=\"&L&Poison (Ex)&FN&\" icon=boost flavor=\"The eidolon secretes toxic venom, gaining a poison attack.\" action=\"Ability\" prereq=\"7th-level unchained summoner; ‹eidolon/daemon›, ‹eidolon/demon›, ‹eidolon/devil›, ‹eidolon/elemental›, or ‹eidolon/protean› subtype; ‹unchevolution/bite› or ‹unchevolution/sting›\" special=\"For 2 additional evolution points, this poison deals Constitution damage instead. This poison can be used no more than once per round.\"}",
+			":::ab{title=\"&L&Poison (Ex)&FN&\" icon=boost flavor=\"The eidolon secretes toxic venom, gaining a poison attack.\" action=Ability prereq=\"7th-level unchained summoner; ‹eidolon/daemon›, ‹eidolon/demon›, ‹eidolon/devil›, ‹eidolon/elemental›, or ‹eidolon/protean› subtype; ‹unchevolution/bite› or ‹unchevolution/sting›\" special=\"For 2 additional evolution points, this poison deals Constitution damage instead. This poison can be used no more than once per round.\"}",
 			"",
 			"Select one bite or sting attack. Whenever the selected attack hits, the target is poisoned.",
 			"",

@@ -1166,11 +1166,10 @@ const _ymeris_pyre = {title: "Ymeri's Pyre", jsx: <><p><strong>Sources</strong> 
 <Pair title="Ability">Once per day, the barbarian can expend 5 rounds of <em>rage</em> to attempt a new saving throw against each non-permanent effect currently affecting her. Each successful saving throw ends the related effect, and she can choose not to make a save against an effect.</Pair>
 </Ability>
 </>};
-const _lesser_ancestor_totem = {title: "Lesser Ancestor Totem", jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
+const _lesser_ancestor_totem = {title: "Lesser Ancestor Totem", addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
 <Ability id="lesser-ancestor-totem-su" icon={["upgrade"]}>
 <Pair single id="lesser-ancestor-totem-su">Lesser Ancestor Totem (Su)</Pair>
 <Pair title="Passive Ability">When she enters a <em>rage,</em> the barbarian selects a skill of her choice, which must be one she can use while <em>raging,</em> such as Climb or Intimidate. While <em>raging,</em> she gains a +2 insight bonus to the chosen skill.</Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _ancestor_totem = {title: "Ancestor Totem", jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
@@ -1188,11 +1187,10 @@ const _greater_ancestor_totem = {title: "Greater Ancestor Totem", jsx: <><p><str
 <Pair title="Immediate Action">Once per <em>rage,</em> she can spend one round of <em>rage</em> to reroll a skill check in the chosen skill. She must take the result of the second roll, even if it is lower.</Pair>
 </Ability>
 </>};
-const _lesser_atavism_totem = {title: "Lesser Atavism Totem", jsx: <><p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex</Link></p>
+const _lesser_atavism_totem = {title: "Lesser Atavism Totem", addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex</Link></p>
 <Ability id="lesser-atavism-totem-su" icon={["mailed-fist"]}>
 <Pair single id="lesser-atavism-totem-su">Lesser Atavism Totem (Su)</Pair>
 <Pair title="Ability">The barbarian gains a <Link to="/umr/bite_attack">bite attack</Link>; if she already has a bite attack, it deals damage as if the barbarian were one size larger.</Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _atavism_totem = {title: "Atavism Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex</Link></p>
@@ -1209,11 +1207,10 @@ const _greater_atavism_totem = {title: "Greater Atavism Totem", topLink: ["Totem
 <Pair title="Ability">The barbarian gains <Link to="/umr/trample">trample</Link>.</Pair>
 </Ability>
 </>};
-const _lesser_beast_totem = {title: "Lesser Beast Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
+const _lesser_beast_totem = {title: "Lesser Beast Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="lesser-beast-totem-su" icon={["mailed-fist"]}>
 <Pair single id="lesser-beast-totem-su">Lesser Beast Totem (Su)</Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian gains two <Link to="/umr/claw_attack">claw attacks</Link>. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. The claws deal 1d6 points of slashing damage (1d4 if Small) plus the barbarian's Strength modifier.</Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _beast_totem = {title: "Beast Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -1230,11 +1227,10 @@ const _greater_beast_totem = {title: "Greater Beast Totem", topLink: ["Totem War
 <Pair title="Ability">While <em>raging,</em> the barbarian gains the <Link to="/umr/pounce">pounce</Link> special ability, allowing her to make a full attack at the end of a charge. In addition, the damage from her claws increases to 1d8 (1d6 if Small) and the claws deal &times;3 damage on a critical hit.</Pair>
 </Ability>
 </>};
-const _lesser_celestial_totem = {title: "Lesser Celestial Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
+const _lesser_celestial_totem = {title: "Lesser Celestial Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
 <Ability id="lesser-celestial-totem-su" icon={["remedy","upgrade"]}>
 <Pair single id="lesser-celestial-totem-su">Lesser Celestial Totem (Su)</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian benefits from increased magical healing. Whenever she is subject to a spell that cures hit point damage, she heals 1 additional point of damage per caster level. In the case of non-spell healing effects (such as <Link to="/ability/channel_energy">channeled energy</Link> or <Link to="/ability/lay_on_hands">lay on hands</Link>), she heals a number of additional points equal to the class level of the character performing the magical healing. This does not affect fast healing or regeneration.</Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _celestial_totem = {title: "Celestial Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
@@ -1251,11 +1247,10 @@ const _greater_celestial_totem = {title: "Greater Celestial Totem", topLink: ["T
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains spell resistance equal to 11 + the barbarian's class level against spells with the evil descriptor. She also gains a +2 bonus on all saving throws against spells and effects from evil creatures.</Pair>
 </Ability>
 </>};
-const _lesser_chaos_totem = {title: "Lesser Chaos Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
+const _lesser_chaos_totem = {title: "Lesser Chaos Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="lesser-chaos-totem-su" icon={["armor-upgrade"]}>
 <Pair single id="lesser-chaos-totem-su">Lesser Chaos Totem (Su)</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a +1 deflection bonus to AC against the attacks of lawful creatures and a +1 resistance bonus on saving throws against confusion, insanity, polymorph, and effects with the lawful descriptor. This bonus increases by +1 for each chaos totem rage power she possesses.</Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _chaos_totem = {title: "Chaos Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -1272,11 +1267,10 @@ const _greater_chaos_totem = {title: "Greater Chaos Totem", topLink: ["Totem War
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains DR/lawful equal to 1/2 her barbarian level. Her weapons and natural weapons are considered chaotic for the purpose of overcoming damage reduction.</Pair>
 </Ability>
 </>};
-const _lesser_cult_totem = {title: "Lesser Cult Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
+const _lesser_cult_totem = {title: "Lesser Cult Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
 <Ability id="lesser-cult-totem-ex" icon={["stairs-goal"]}>
 <Pair single id="lesser-cult-totem-ex">Lesser Cult Totem (Ex)</Pair>
 <Pair title="Passive Ability">While the barbarian is <em>raging,</em> any morale bonuses or bonuses for <Link to="/rule/flanking">flanking</Link> she gains on attacks rolls are added to her damage rolls instead of her attack rolls. They are still morale bonuses, and they don't stack with other morale bonuses on damage rolls.</Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _cult_totem = {title: "Cult Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
@@ -1295,11 +1289,10 @@ const _greater_cult_totem = {title: "Greater Cult Totem", topLink: ["Totem Warri
 <Pair title="Special">This ability has no effect if the barbarian dies from a cause other than hit point damage, such as from a death effect or if her Constitution damage exceeds her Constitution score.</Pair>
 </Ability>
 </>};
-const _lesser_daemon_totem = {title: "Lesser Daemon Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
+const _lesser_daemon_totem = {title: "Lesser Daemon Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
 <Ability id="undefined" icon={["armor-upgrade"]}>
 <Pair single id="undefined"></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a +2 bonus on saving throws against acid damage, death effects, disease, and poison. This bonus increases by 1 for each daemon totem rage power the barbarian has, excluding this one.</Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _daemon_totem = {title: "Daemon Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
@@ -1316,13 +1309,12 @@ const _greater_daemon_totem = {title: "Greater Daemon Totem", topLink: ["Totem W
 <Pair title="Ability">If the barbarian kills an intelligent creature with a CR equal to at least half her character level while <em>raging,</em> she heals 5 hit points. If she is already at her maximum number of hit points, she instead gains 5 <Link to="/rule/temporary_hit_points">temporary hit points</Link>, which don't stack if she kills multiple creatures.</Pair>
 </Ability>
 </>};
-const _dragon_totem = {title: "Dragon Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat</Link></p>
+const _dragon_totem = {title: "Dragon Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat</Link></p>
 <Ability id="dragon-totem-su" icon={["upgrade","armor-upgrade"]}>
 <Pair single id="dragon-totem-su">Dragon Totem (Su)</Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/animal_fury">Animal fury</Link>, <Link to="/ragepower/intimidating_glare">intimidating glare</Link>, 6th-level barbarian</Pair>
 <Pair title="Choice">The barbarian must select a single color of dragon (black, blue, brass, bronze, copper, gold, green, red, silver, or white) as her totem.</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> she gains a +1 bonus on Perception checks and a +1 morale bonus on saving throws against fear, paralysis, and sleep effects. This bonus increases by +1 for each additional dragon totem rage power (such as <Link to="/ragepower/dragon_totem_resilience">dragon totem resilience</Link> and <Link to="/ragepower/dragon_totem_wings">dragon totem wings</Link>) the barbarian possesses.</Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _dragon_totem_resilience = {title: "Dragon Totem Resilience", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat</Link></p>
@@ -1341,12 +1333,11 @@ const _dragon_totem_wings = {title: "Dragon Totem Wings", topLink: ["Totem Warri
 <Pair title="Special">She can end her fly speed at any time, even when it is not her turn. Each round she spends <em>raging</em> and flying counts as 2 rounds of <em>rage.</em> Her ability to fly ends automatically when she ceases <em>raging.</em></Pair>
 </Ability>
 </>};
-const _lesser_elemental_totem = {title: "Lesser Elemental Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
+const _lesser_elemental_totem = {title: "Lesser Elemental Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
 <Ability id="ragepowerlesser-elemental-totem-su" icon={["armor-upgrade"]}>
 <Pair single id="ragepowerlesser-elemental-totem-su"><Link to="/ragepower/lesser_elemental_totem">Lesser Elemental Totem</Link> (Su)</Pair>
 <Pair title="Choice">The barbarian selects one elemental type (air, earth, fire, or water). Once selected, this choice cannot be changed.</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a bonus on saving throws against spells with the selected elemental descriptor. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level. The barbarian gains access to the elemental totem rage power matching the element she selected.</Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _air_totem = {title: "Air Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -1408,11 +1399,10 @@ const _greater_water_totem = {title: "Greater Water Totem", topLink: ["Totem War
 <Pair title="Ability">While <em>raging,</em> the barbarian gains <Link to="/umr/tremorsense">tremorsense</Link> to a range of 30 feet while underwater. She can attack and move underwater as if affected by <Link to="/spell/freedom_of_movement">freedom of movement</Link>.</Pair>
 </Ability>
 </>};
-const _lesser_fiend_totem = {title: "Lesser Fiend Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
+const _lesser_fiend_totem = {title: "Lesser Fiend Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="lesser-fiend-totem-su" icon={["mailed-fist"]}>
 <Pair single id="lesser-fiend-totem-su">Lesser Fiend Totem (Su)</Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian grows a pair of large horns, gaining a <Link to="/umr/gore_attack">gore attack</Link>. This attack is a primary attack (unless she is also attacking with weapons, in which case it is a secondary attack) and is made at the barbarian's full base attack bonus (-5 if it is a secondary attack). The gore attack deals 1d8 points of piercing damage (1d6 if Small) plus the barbarian's Strength modifier (1/2 if it is a secondary attack).</Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _fiend_totem = {title: "Fiend Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -1429,14 +1419,13 @@ const _greater_fiend_totem = {title: "Greater Fiend Totem", topLink: ["Totem War
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian is surrounded by an aura of menace. Good creatures adjacent to the barbarian are <Link to="/misc/shaken">shaken</Link> and take 2d6 points of slashing damage at the beginning of the barbarian's turn as dozens of small cuts open across their flesh. Neutral creatures that are adjacent to the barbarian are shaken, but do not take any damage. Evil creatures are unaffected.</Pair>
 </Ability>
 </>};
-const _hive_totem = {title: "Hive Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat</Link></p>
+const _hive_totem = {title: "Hive Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat</Link></p>
 <Ability id="hive-totem-su" icon={["armor-upgrade","upgrade"]}>
 <Pair single id="hive-totem-su">Hive Totem (Su)</Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/animal_fury">Animal fury</Link>, 4th-level barbarian</Pair>
 <Pair title="Passive Ability"><p>While <em>raging,</em> the barbarian takes half damage from attacks by swarms of vermin, including spells and effects that act like a swarm of vermin (like <Link to="/spell/summon_swarm">summon swarm</Link> used to summon spiders or <Link to="/spell/insect_plague">insect plague</Link>).</p>
 <p>She also gains a bonus on Strength ability checks and to CMD against bull rush, drag, and trip attacks equal to <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level.</p>
 </Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _hive_totem_resilience = {title: "Hive Totem Resilience", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat</Link></p>
@@ -1454,11 +1443,10 @@ const _hive_totem_toxicity = {title: "Hive Totem Toxicity", topLink: ["Totem War
 <Pair title="Ability">Once per <em>rage,</em> a bite that hits can deliver an injury <Link to="/rule/toxin">toxin</Link> that has a frequency of once per round for 4 rounds, deals 1d3 points of <Link to="/rule/constitution_damage">Constitution damage</Link>, and has a cure of one save. The saving throw has a Fortitude save DC of 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier.</Pair>
 </Ability>
 </>};
-const _lesser_moon_totem = {title: "Lesser Moon Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
+const _lesser_moon_totem = {title: "Lesser Moon Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
 <Ability id="lesser-moon-totem-su" icon={["stairs-goal"]}>
 <Pair single id="lesser-moon-totem-su">Lesser Moon Totem (Su)</Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian gains darkvision with a range of 30 feet. If the barbarian already has darkvision, the range of her darkvision increases by 30 feet while she is <em>raging.</em></Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _moon_totem = {title: "Moon Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
@@ -1475,11 +1463,10 @@ const _greater_moon_totem = {title: "Greater Moon Totem", topLink: ["Totem Warri
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian ignores the miss chance for <Link to="/rule/concealment">concealment</Link> and treats total concealment as concealment.</Pair>
 </Ability>
 </>};
-const _lesser_psychopomp_totem = {title: "Lesser Psychopomp Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_139_the_dead_road">Pathfinder #139: The Dead Road</Link></p>
+const _lesser_psychopomp_totem = {title: "Lesser Psychopomp Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_139_the_dead_road">Pathfinder #139: The Dead Road</Link></p>
 <Ability id="undefined" icon={["armor-upgrade"]}>
 <Pair single id="undefined"></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a +1 deflection bonus to AC against the attacks of undead creatures and a +1 bonus on saving throws against death effects, diseases, and poisons. This bonus increases by 1 for each psychopomp totem rage power she has, excepting this one.</Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _psychopomp_totem = {title: "Psychopomp Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_139_the_dead_road">Pathfinder #139: The Dead Road</Link></p>
@@ -1496,11 +1483,10 @@ const _greater_psychopomp_totem = {title: "Greater Psychopomp Totem", topLink: [
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian can detect and locate undead creatures within 30 feet, just as if it had the <Link to="/umr/blindsight">blindsight</Link> ability, and any weapons she wields are treated as if they had the <Link to="/magic-enh/ghost_touch">ghost touch</Link> special ability.</Pair>
 </Ability>
 </>};
-const _lesser_spire_totem = {title: "Lesser Spire Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
+const _lesser_spire_totem = {title: "Lesser Spire Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
 <Ability id="lesser-spire-totem-su" icon={["upgrade"]}>
 <Pair single id="lesser-spire-totem-su">Lesser Spire Totem (Su)</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a +1 morale bonus on attacks against any creature that has targeted one of her allies with an attack or a harmful spell within the last round.</Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _spire_totem = {title: "Spire Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
@@ -1517,11 +1503,10 @@ const _greater_spire_totem = {title: "Greater Spire Totem", topLink: ["Totem War
 <Pair title="Passive Ability">While the barbarian is <em>raging,</em> all allies within 30 feet gain a +2 morale bonus on Will saves. When attempting a Will save against a fear effect, all allies within this area can roll twice and use the better result.</Pair>
 </Ability>
 </>};
-const _lesser_spirit_totem = {title: "Lesser Spirit Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
+const _lesser_spirit_totem = {title: "Lesser Spirit Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="lesser-spirit-totem-su" icon={["mailed-fist"]}>
 <Pair single id="lesser-spirit-totem-su">Lesser Spirit Totem (Su)</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian is surrounded by spirit wisps that harass her foes. These spirits make one slam attack each round against a living foe that is adjacent to the barbarian. This slam attack is made using the barbarian's full base attack bonus, plus the barbarian's Charisma modifier. The slam deals 1d4 points of negative energy damage, plus the barbarian's Charisma modifier.</Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _spirit_totem = {title: "Spirit Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -1538,11 +1523,10 @@ const _greater_spirit_totem = {title: "Greater Spirit Totem", topLink: ["Totem W
 <Pair title="Passive Ability">While <em>raging,</em> the spirits that surround the barbarian become dangerous to any enemy adjacent to the barbarian. Living enemies adjacent to the barbarian at the start of her turn take 1d8 points of negative energy damage. In addition, the spirit wisps can now attack foes that are up to 15 feet away from the barbarian and the slam attack deals 1d6 points of negative energy damage.</Pair>
 </Ability>
 </>};
-const _lesser_sun_totem = {title: "Lesser Sun Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East</Link></p>
+const _lesser_sun_totem = {title: "Lesser Sun Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East</Link></p>
 <Ability id="lesser-sun-totem-su" icon={["armor-upgrade"]}>
 <Pair single id="lesser-sun-totem-su">Lesser Sun Totem (Su)</Pair>
 <Pair title="Passive Ability">The sun's fire invigorates the barbarian. She is immune to environmental effects from <Link to="/rule/heat">heat and severe heat</Link>, and she gains a +2 bonus on Fortitude saves against the effects of extreme heat. In addition, the barbarian gains fire <Link to="/umr/resistance">resistance</Link> 5 while <em>raging.</em></Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _sun_totem = {title: "Sun Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East</Link></p>
@@ -1559,12 +1543,11 @@ const _greater_sun_totem = {title: "Greater Sun Totem", topLink: ["Totem Warrior
 <Pair title="Passive Ability">The barbarian takes on aspects of the sun. She gains fire resistance 20 when <em>raging.</em> While <em>raging,</em> she is surrounded by a halo of flame that deals 1d6 points of fire damage to anyone that hits her with a touch attack or unarmed attack or succeeds at a bull rush, drag, or grapple combat maneuver against her. Her unarmed strikes and attacks with natural weapons deal 1d6 additional points of fire damage.</Pair>
 </Ability>
 </>};
-const _lesser_tyrant_totem = {title: "Lesser Tyrant Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness</Link></p>
+const _lesser_tyrant_totem = {title: "Lesser Tyrant Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness</Link></p>
 <Ability id="lesser-tyrant-totem-ex" icon={["upgrade"]}>
 <Pair single id="lesser-tyrant-totem-ex">Lesser Tyrant Totem (Ex)</Pair>
 <Pair title="Prerequisites"><Link to="/ragepower/animal_fury">Animal fury</Link> rage power or a natural bite attack</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian's bite attack deals damage as if the barbarian were <Link to="/misc/one_size_larger">one size larger</Link> than her actual size.</Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _tyrant_totem = {title: "Tyrant Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness</Link></p>
@@ -1581,11 +1564,10 @@ const _greater_tyrant_totem = {title: "Greater Tyrant Totem", topLink: ["Totem W
 <Pair title="Ability">While <em>raging,</em> the barbarian gains <Link to="/umr/swallow_whole">swallow whole</Link> as per the universal monster rule.</Pair>
 </Ability>
 </>};
-const _world_serpent_totem = {title: "World Serpent Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat</Link></p>
+const _world_serpent_totem = {title: "World Serpent Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat</Link></p>
 <Ability id="world-serpent-totem-su" icon={["armor-upgrade"]}>
 <Pair single id="world-serpent-totem-su">World Serpent Totem (Su)</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a +1 insight bonus to AC against outsiders and aberrations. This bonus increases by +1 for each world serpent rage power the barbarian possesses, excluding this one.</Pair>
-<Pair title="Special"><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/totem_warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</Pair>
 </Ability>
 </>};
 const _world_serpent_spirit = {title: "World Serpent Spirit", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat</Link></p>
@@ -1602,11 +1584,10 @@ const _world_serpent_totem_unity = {title: "World Serpent Totem Unity", topLink:
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian doubles her <em>fast movement</em> bonus to land speed and cannot be knocked <Link to="/rule/prone">prone</Link>. She also doubles her world serpent totem insight bonus to AC against attack rolls made by an outsider or aberration to confirm a critical hit against her.</Pair>
 </Ability>
 </>};
-const _lesser_abyssal_blood = {title: "Lesser Abyssal Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
+const _lesser_abyssal_blood = {title: "Lesser Abyssal Blood", addenda: ["blood"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <Ability id="lesser-abyssal-blood-su" icon={["stairs-goal"]}>
 <Pair single id="lesser-abyssal-blood-su">Lesser Abyssal Blood (Su)</Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian gains two <Link to="/umr/claw_attack">claw attacks</Link>. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.</Pair>
-<Pair title="Special"><strong>Blood</strong> rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.</Pair>
 </Ability>
 </>};
 const _abyssal_blood = {title: "Abyssal Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
@@ -1623,11 +1604,10 @@ const _greater_abyssal_blood = {title: "Greater Abyssal Blood", jsx: <><p><stron
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains <Link to="/umr/resistance">resistance</Link> 5 to acid, cold, and fire.</Pair>
 </Ability>
 </>};
-const _lesser_celestial_blood = {title: "Lesser Celestial Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
+const _lesser_celestial_blood = {title: "Lesser Celestial Blood", addenda: ["blood"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <Ability id="lesser-celestial-blood-su" icon={["upgrade"]}>
 <Pair single id="lesser-celestial-blood-su">Lesser Celestial Blood (Su)</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian's melee attacks are considered good-aligned weapons for the purpose of bypassing damage reduction. Furthermore, the barbarian deals an additional 1d6 points of damage when she damages an evil outsider with a melee attack.</Pair>
-<Pair title="Special"><strong>Blood</strong> rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.</Pair>
 </Ability>
 </>};
 const _celestial_blood = {title: "Celestial Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
@@ -1644,11 +1624,10 @@ const _greater_celestial_blood = {title: "Greater Celestial Blood", jsx: <><p><s
 <Pair title="Ability">Once per <em>rage,</em> the barbarian can reroll one ability check, skill check, or saving throw she just made. She must take the second result, even if it's lower. She must decide to use this ability after the die is rolled but before results are revealed.</Pair>
 </Ability>
 </>};
-const _lesser_draconic_blood = {title: "Lesser Draconic Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
+const _lesser_draconic_blood = {title: "Lesser Draconic Blood", addenda: ["blood"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <Ability id="lesser-draconic-blood-su" icon={["stairs-goal"]}>
 <Pair single id="lesser-draconic-blood-su">Lesser Draconic Blood (Su)</Pair>
 <Pair title="Ability">While <em>raging,</em> the barbarian gains two <Link to="/umr/claw_attack">claw attacks</Link>. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.</Pair>
-<Pair title="Special"><strong>Blood</strong> rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.</Pair>
 </Ability>
 </>};
 const _draconic_blood = {title: "Draconic Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
@@ -1666,13 +1645,12 @@ const _greater_draconic_blood = {title: "Greater Draconic Blood", jsx: <><p><str
 <Pair title="Ability">While <em>raging,</em> the barbarian gains a breath weapon that she can use once per day. For every 2 barbarian levels, this breath weapon deals 1d6 points of damage of the energy type she choose for the draconic blood power, either in a 30-foot cone (if cold or fire) or a 60-foot line (if acid or electricity). Those caught in the area of the breath can attempt a Reflex saving throw for half damage. The DC of this save is equal to 10 + 1/2 the barbarian's level + her Constitution modifier.</Pair>
 </Ability>
 </>};
-const _lesser_elemental_blood = {title: "Lesser Elemental Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
+const _lesser_elemental_blood = {title: "Lesser Elemental Blood", addenda: ["blood"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <Ability id="lesser-elemental-blood-su" icon={["upgrade"]}>
 <Pair single id="lesser-elemental-blood-su">Lesser Elemental Blood (Su)</Pair>
 <Pair title="Choice">Choose an energy type: acid, cold, fire, or electricity.</Pair>
 <Pair title="Swift Action">While <em>raging,</em> the barbarian can imbue her melee attacks with elemental energy, dealing an additional 1d6 points of damage of the chosen energy type for 1 round.</Pair>
 <Pair title="Usage">3 times/day</Pair>
-<Pair title="Special"><strong>Blood</strong> rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.</Pair>
 </Ability>
 </>};
 const _elemental_blood = {title: "Elemental Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
@@ -1689,11 +1667,11 @@ const _greater_elemental_blood = {title: "Greater Elemental Blood", jsx: <><p><s
 <Pair title="Ability">While <em>raging,</em> the barbarian gains a special movement type or bonus based on her chosen element: <strong>acid</strong> grants a burrow speed of 30 feet, <strong>cold</strong> grants a swim speed of 60 feet, <strong>fire</strong> grants an increase of 30 feet to her base land speed, and <strong>electricity</strong> grants a fly speed of 60 feet (good maneuverability).</Pair>
 </Ability>
 </>};
-const _lesser_fey_blood = {title: "Lesser Fey Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
+const _lesser_fey_blood = {title: "Lesser Fey Blood", addenda: ["blood"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <Ability id="lesser-fey-blood-su" icon={["armor-downgrade"]}>
 <Pair single id="lesser-fey-blood-su">Lesser Fey Blood (Su)</Pair>
 <Pair title="Ability">While <em>raging,</em> each time the barbarian confirms a critical hit, the target must succeed at a Will saving throw (DC = 10 + 1/2 the barbarian's level + her Constitution modifier) or be <Link to="/misc/confused">confused</Link> for one round.</Pair>
-<Pair title="Special"><strong>Blood</strong> rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.</Pair>
+<Pair title="Special">This is a mind-affecting compulsion effect.</Pair>
 </Ability>
 </>};
 const _fey_blood = {title: "Fey Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
@@ -1710,12 +1688,11 @@ const _greater_fey_blood = {title: "Greater Fey Blood", jsx: <><p><strong>Source
 <Pair title="Ability">While <em>raging,</em> as long as the barbarian moves at least 10 feet, she gain the effects of <Link to="/spell/blur">blur</Link> for 1 round.</Pair>
 </Ability>
 </>};
-const _lesser_infernal_blood = {title: "Lesser Infernal Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
+const _lesser_infernal_blood = {title: "Lesser Infernal Blood", addenda: ["blood"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <Ability id="lesser-infernal-blood-su" icon={["mailed-fist"]}>
 <Pair single id="lesser-infernal-blood-su">Lesser Infernal Blood (Su)</Pair>
 <Pair title="Usage">3 times/day</Pair>
 <Pair title="Swift Action">While <em>raging,</em> the barbarian can infuse her attacks with hellfire for 1 round. During this time, all of her melee attacks gain the <Link to="/magic-enh/flaming">flaming</Link> magic weapon special ability.</Pair>
-<Pair title="Special"><strong>Blood</strong> rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.</Pair>
 </Ability>
 </>};
 const _infernal_blood = {title: "Infernal Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
@@ -1732,11 +1709,10 @@ const _greater_infernal_blood = {title: "Greater Infernal Blood", jsx: <><p><str
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a +4 bonus against enchantment and fear effects.</Pair>
 </Ability>
 </>};
-const _lesser_undead_blood = {title: "Lesser Undead Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
+const _lesser_undead_blood = {title: "Lesser Undead Blood", addenda: ["blood"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>
 <Ability id="lesser-undead-blood-su" icon={["armor-downgrade"]}>
 <Pair single id="lesser-undead-blood-su">Lesser Undead Blood (Su)</Pair>
 <Pair title="Ability">While <em>raging,</em> when the barbarian hits a creature with a <Link to="/rule/charge">charge</Link> attack, the creature she hit becomes <Link to="/misc/shaken">shaken</Link> for a number of rounds equal to 1/2 her barbarian level (minimum 1). This effect does not stack with other fear effects to cause a stronger condition.</Pair>
-<Pair title="Special"><strong>Blood</strong> rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.</Pair>
 </Ability>
 </>};
 const _undead_blood = {title: "Undead Blood", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide</Link></p>

@@ -1263,12 +1263,9 @@
 		"name": "Lesser Ancestor Totem",
 		"category": "Totem",
 		"compilationSources": [ [ "Wilderness Origins" ] ],
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=boost title=\"&L&Lesser Ancestor Totem (Su)&FN&\" passive=\"When she enters a *rage,* the barbarian selects a skill of her choice, which must be one she can use while *raging,* such as Climb or Intimidate. While *raging,* she gains a +2 insight bonus to the chosen skill.\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=boost title=\"&L&Lesser Ancestor Totem (Su)&FN&\" passive=\"When she enters a *rage,* the barbarian selects a skill of her choice, which must be one she can use while *raging,* such as Climb or Intimidate. While *raging,* she gains a +2 insight bonus to the chosen skill.\"}"
 		]
 	},
 	"ancestor_totem_lesser": { "redirect": "lesser_ancestor_totem" },
@@ -1295,12 +1292,9 @@
 		"name": "Lesser Atavism Totem",
 		"category": "Totem",
 		"compilationSources": [ [ "Villain Codex" ] ],
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=melee title=\"&L&Lesser Atavism Totem (Su)&FN&\" ability=\"The barbarian gains a ‹umr/bite attack›; if she already has a bite attack, it deals damage as if the barbarian were one size larger.\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=melee title=\"&L&Lesser Atavism Totem (Su)&FN&\" ability=\"The barbarian gains a ‹umr/bite attack›; if she already has a bite attack, it deals damage as if the barbarian were one size larger.\"}"
 		]
 	},
 	"atavism_totem_lesser": { "redirect": "lesser_atavism_totem" },
@@ -1329,12 +1323,9 @@
 		"name": "Lesser Beast Totem",
 		"category": "Totem",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=melee title=\"&L&Lesser Beast Totem (Su)&FN&\" ability=\"While *raging,* the barbarian gains two ‹umr/claw attack«s›. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. The claws deal 1d6 points of slashing damage (1d4 if Small) plus the barbarian's Strength modifier.\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=melee title=\"&L&Lesser Beast Totem (Su)&FN&\" ability=\"While *raging,* the barbarian gains two ‹umr/claw attack«s›. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. The claws deal 1d6 points of slashing damage (1d4 if Small) plus the barbarian's Strength modifier.\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1364,12 +1355,9 @@
 		"name": "Lesser Celestial Totem",
 		"category": "Totem",
 		"compilationSources": [ [ "Champions of Purity" ] ],
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=aid-boost title=\"&L&Lesser Celestial Totem (Su)&FN&\" passive=\"While *raging,* the barbarian benefits from increased magical healing. Whenever she is subject to a spell that cures hit point damage, she heals 1 additional point of damage per caster level. In the case of non-spell healing effects (such as ‹ability/channel«ed» energy› or ‹ability/lay on hands›), she heals a number of additional points equal to the class level of the character performing the magical healing. This does not affect fast healing or regeneration.\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=aid-boost title=\"&L&Lesser Celestial Totem (Su)&FN&\" passive=\"While *raging,* the barbarian benefits from increased magical healing. Whenever she is subject to a spell that cures hit point damage, she heals 1 additional point of damage per caster level. In the case of non-spell healing effects (such as ‹ability/channel«ed» energy› or ‹ability/lay on hands›), she heals a number of additional points equal to the class level of the character performing the magical healing. This does not affect fast healing or regeneration.\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1399,12 +1387,9 @@
 		"name": "Lesser Chaos Totem",
 		"category": "Totem",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=def title=\"&L&Lesser Chaos Totem (Su)&FN&\" passive=\"While *raging,* the barbarian gains a +1 deflection bonus to AC against the attacks of lawful creatures and a +1 resistance bonus on saving throws against confusion, insanity, polymorph, and effects with the lawful descriptor. This bonus increases by +1 for each chaos totem rage power she possesses.\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=def title=\"&L&Lesser Chaos Totem (Su)&FN&\" passive=\"While *raging,* the barbarian gains a +1 deflection bonus to AC against the attacks of lawful creatures and a +1 resistance bonus on saving throws against confusion, insanity, polymorph, and effects with the lawful descriptor. This bonus increases by +1 for each chaos totem rage power she possesses.\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1434,12 +1419,9 @@
 		"name": "Lesser Cult Totem",
 		"category": "Totem",
 		"compilationSources": [ [ "Horror Adventures" ] ],
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=power title=\"&L&Lesser Cult Totem (Ex)&FN&\" passive=\"While the barbarian is *raging,* any morale bonuses or bonuses for ‹rule/flanking› she gains on attacks rolls are added to her damage rolls instead of her attack rolls. They are still morale bonuses, and they don't stack with other morale bonuses on damage rolls.\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=power title=\"&L&Lesser Cult Totem (Ex)&FN&\" passive=\"While the barbarian is *raging,* any morale bonuses or bonuses for ‹rule/flanking› she gains on attacks rolls are added to her damage rolls instead of her attack rolls. They are still morale bonuses, and they don't stack with other morale bonuses on damage rolls.\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1469,12 +1451,9 @@
 		"name": "Lesser Daemon Totem",
 		"compilationSources": [ [ "Horror Adventures" ] ],
 		"category": "Totem",
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=def title=\"&L&&FN&\" passive=\"While *raging,* the barbarian gains a +2 bonus on saving throws against acid damage, death effects, disease, and poison. This bonus increases by 1 for each daemon totem rage power the barbarian has, excluding this one.\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=def title=\"&L&&FN&\" passive=\"While *raging,* the barbarian gains a +2 bonus on saving throws against acid damage, death effects, disease, and poison. This bonus increases by 1 for each daemon totem rage power the barbarian has, excluding this one.\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1504,12 +1483,9 @@
 		"name": "Dragon Totem",
 		"category": "Totem",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=boost-def title=\"&L&Dragon Totem (Su)&FN&\" order=cp choice=\"The barbarian must select a single color of dragon (black, blue, brass, bronze, copper, gold, green, red, silver, or white) as her totem.\" passive=\"While *raging,* she gains a +1 bonus on Perception checks and a +1 morale bonus on saving throws against fear, paralysis, and sleep effects. This bonus increases by +1 for each additional dragon totem rage power (such as ‹ragepower/dragon totem resilience› and ‹ragepower/dragon totem wings›) the barbarian possesses.\" prereq=\"‹ragepower/Animal fury›, ‹ragepower/intimidating glare›, 6th-level barbarian\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=boost-def title=\"&L&Dragon Totem (Su)&FN&\" order=cp choice=\"The barbarian must select a single color of dragon (black, blue, brass, bronze, copper, gold, green, red, silver, or white) as her totem.\" passive=\"While *raging,* she gains a +1 bonus on Perception checks and a +1 morale bonus on saving throws against fear, paralysis, and sleep effects. This bonus increases by +1 for each additional dragon totem rage power (such as ‹ragepower/dragon totem resilience› and ‹ragepower/dragon totem wings›) the barbarian possesses.\" prereq=\"‹ragepower/Animal fury›, ‹ragepower/intimidating glare›, 6th-level barbarian\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1537,12 +1513,9 @@
 		"name": "Lesser Elemental Totem",
 		"category": "Totem",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=def title=\"‹ragepower/Lesser Elemental Totem› (Su)&FN&\" choice=\"The barbarian selects one elemental type (air, earth, fire, or water). Once selected, this choice cannot be changed.\" passive=\"While *raging,* the barbarian gains a bonus on saving throws against spells with the selected elemental descriptor. @B-4f1-barbarian. The barbarian gains access to the elemental totem rage power matching the element she selected.\" order=cp &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=def title=\"‹ragepower/Lesser Elemental Totem› (Su)&FN&\" choice=\"The barbarian selects one elemental type (air, earth, fire, or water). Once selected, this choice cannot be changed.\" passive=\"While *raging,* the barbarian gains a bonus on saving throws against spells with the selected elemental descriptor. @B-4f1-barbarian. The barbarian gains access to the elemental totem rage power matching the element she selected.\" order=cp}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1635,12 +1608,9 @@
 		"name": "Lesser Fiend Totem",
 		"category": "Totem",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=melee title=\"&L&Lesser Fiend Totem (Su)&FN&\" ability=\"While *raging,* the barbarian grows a pair of large horns, gaining a ‹umr/gore attack›. This attack is a primary attack (unless she is also attacking with weapons, in which case it is a secondary attack) and is made at the barbarian's full base attack bonus (-5 if it is a secondary attack). The gore attack deals 1d8 points of piercing damage (1d6 if Small) plus the barbarian's Strength modifier (1/2 if it is a secondary attack).\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=melee title=\"&L&Lesser Fiend Totem (Su)&FN&\" ability=\"While *raging,* the barbarian grows a pair of large horns, gaining a ‹umr/gore attack›. This attack is a primary attack (unless she is also attacking with weapons, in which case it is a secondary attack) and is made at the barbarian's full base attack bonus (-5 if it is a secondary attack). The gore attack deals 1d8 points of piercing damage (1d6 if Small) plus the barbarian's Strength modifier (1/2 if it is a secondary attack).\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1670,12 +1640,9 @@
 		"name": "Hive Totem",
 		"category": "Totem",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=def-boost title=\"&L&Hive Totem (Su)&FN&\" passive=\"While *raging,* the barbarian takes half damage from attacks by swarms of vermin, including spells and effects that act like a swarm of vermin (like ‹spell/summon swarm› used to summon spiders or ‹spell/insect plague›).~~~She also gains a bonus on Strength ability checks and to CMD against bull rush, drag, and trip attacks equal to ‹misc/one-fourth› of her barbarian level.\" prereq=\"‹ragepower/Animal fury›, 4th-level barbarian\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=def-boost title=\"&L&Hive Totem (Su)&FN&\" passive=\"While *raging,* the barbarian takes half damage from attacks by swarms of vermin, including spells and effects that act like a swarm of vermin (like ‹spell/summon swarm› used to summon spiders or ‹spell/insect plague›).~~~She also gains a bonus on Strength ability checks and to CMD against bull rush, drag, and trip attacks equal to ‹misc/one-fourth› of her barbarian level.\" prereq=\"‹ragepower/Animal fury›, 4th-level barbarian\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1703,12 +1670,9 @@
 		"name": "Lesser Moon Totem",
 		"category": "Totem",
 		"compilationSources": [ [ "Wilderness Origins" ] ],
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=power title=\"&L&Lesser Moon Totem (Su)&FN&\" ability=\"While *raging,* the barbarian gains darkvision with a range of 30 feet. If the barbarian already has darkvision, the range of her darkvision increases by 30 feet while she is *raging.*\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=power title=\"&L&Lesser Moon Totem (Su)&FN&\" ability=\"While *raging,* the barbarian gains darkvision with a range of 30 feet. If the barbarian already has darkvision, the range of her darkvision increases by 30 feet while she is *raging.*\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1738,12 +1702,9 @@
 		"name": "Lesser Psychopomp Totem",
 		"compilationSources": [ [ "Pathfinder #139: The Dead Road" ] ],
 		"category": "Totem",
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=def title=\"&L&&FN&\" passive=\"While *raging,* the barbarian gains a +1 deflection bonus to AC against the attacks of undead creatures and a +1 bonus on saving throws against death effects, diseases, and poisons. This bonus increases by 1 for each psychopomp totem rage power she has, excepting this one.\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=def title=\"&L&&FN&\" passive=\"While *raging,* the barbarian gains a +1 deflection bonus to AC against the attacks of undead creatures and a +1 bonus on saving throws against death effects, diseases, and poisons. This bonus increases by 1 for each psychopomp totem rage power she has, excepting this one.\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1773,12 +1734,9 @@
 		"name": "Lesser Spire Totem",
 		"category": "Totem",
 		"compilationSources": [ [ "Wilderness Origins" ] ],
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=boost title=\"&L&Lesser Spire Totem (Su)&FN&\" passive=\"While *raging,* the barbarian gains a +1 morale bonus on attacks against any creature that has targeted one of her allies with an attack or a harmful spell within the last round.\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=boost title=\"&L&Lesser Spire Totem (Su)&FN&\" passive=\"While *raging,* the barbarian gains a +1 morale bonus on attacks against any creature that has targeted one of her allies with an attack or a harmful spell within the last round.\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1808,12 +1766,9 @@
 		"name": "Lesser Spirit Totem",
 		"category": "Totem",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=melee title=\"&L&Lesser Spirit Totem (Su)&FN&\" passive=\"While *raging,* the barbarian is surrounded by spirit wisps that harass her foes. These spirits make one slam attack each round against a living foe that is adjacent to the barbarian. This slam attack is made using the barbarian's full base attack bonus, plus the barbarian's Charisma modifier. The slam deals 1d4 points of negative energy damage, plus the barbarian's Charisma modifier.\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=melee title=\"&L&Lesser Spirit Totem (Su)&FN&\" passive=\"While *raging,* the barbarian is surrounded by spirit wisps that harass her foes. These spirits make one slam attack each round against a living foe that is adjacent to the barbarian. This slam attack is made using the barbarian's full base attack bonus, plus the barbarian's Charisma modifier. The slam deals 1d4 points of negative energy damage, plus the barbarian's Charisma modifier.\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1843,12 +1798,9 @@
 		"name": "Lesser Sun Totem",
 		"category": "Totem",
 		"compilationSources": [ [ "Qadira, Jewel of the East" ] ],
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=def title=\"&L&Lesser Sun Totem (Su)&FN&\" passive=\"The sun's fire invigorates the barbarian. She is immune to environmental effects from ‹rule/heat« and severe heat›, and she gains a +2 bonus on Fortitude saves against the effects of extreme heat. In addition, the barbarian gains fire ‹umr/resistance› 5 while *raging.*\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=def title=\"&L&Lesser Sun Totem (Su)&FN&\" passive=\"The sun's fire invigorates the barbarian. She is immune to environmental effects from ‹rule/heat« and severe heat›, and she gains a +2 bonus on Fortitude saves against the effects of extreme heat. In addition, the barbarian gains fire ‹umr/resistance› 5 while *raging.*\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1878,12 +1830,9 @@
 		"name": "Lesser Tyrant Totem",
 		"category": "Totem",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=boost title=\"&L&Lesser Tyrant Totem (Ex)&FN&\" passive=\"While *raging,* the barbarian's bite attack deals damage as if the barbarian were ‹misc/one size larger› than her actual size.\" prereq=\"‹ragepower/Animal fury› rage power or a natural bite attack\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=boost title=\"&L&Lesser Tyrant Totem (Ex)&FN&\" passive=\"While *raging,* the barbarian's bite attack deals damage as if the barbarian were ‹misc/one size larger› than her actual size.\" prereq=\"‹ragepower/Animal fury› rage power or a natural bite attack\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1913,12 +1862,9 @@
 		"name": "World Serpent Totem",
 		"category": "Totem",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
+		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=def title=\"&L&World Serpent Totem (Su)&FN&\" passive=\"While *raging,* the barbarian gains a +1 insight bonus to AC against outsiders and aberrations. This bonus increases by +1 for each world serpent rage power the barbarian possesses, excluding this one.\" &Totem&}"
-		],
-		"replacements": [
-			["&Totem&", "special=\"@HLTotem_rage_powers are only available to barbarians taking the ‹arc-barbarian/Totem Warrior› archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with &quot&dragon totem&quot& in its title).\""],
-			["&(L|FN)&", ""]
+			"::ab{icon=def title=\"&L&World Serpent Totem (Su)&FN&\" passive=\"While *raging,* the barbarian gains a +1 insight bonus to AC against outsiders and aberrations. This bonus increases by +1 for each world serpent rage power the barbarian possesses, excluding this one.\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1946,11 +1892,9 @@
 		"name": "Lesser Abyssal Blood",
 		"category": "Blood",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
+		"addenda": [ "blood" ],
 		"description": [
-			"::ab{icon=power title=\"&L&Lesser Abyssal Blood (Su)&FN&\" ability=\"While *raging,* the barbarian gains two ‹umr/claw attack«s›. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.\" &Blood&}"
-		],
-		"replacements": [
-			["&Blood&", "special=\"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.\""]
+			"::ab{icon=power title=\"&L&Lesser Abyssal Blood (Su)&FN&\" ability=\"While *raging,* the barbarian gains two ‹umr/claw attack«s›. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.\"}"
 		]
 	},
 	"abyssal_blood_lesser": { "redirect": "lesser_abyssal_blood" },
@@ -1977,11 +1921,9 @@
 		"name": "Lesser Celestial Blood",
 		"category": "Blood",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
+		"addenda": [ "blood" ],
 		"description": [
-			"::ab{icon=boost title=\"&L&Lesser Celestial Blood (Su)&FN&\" passive=\"While *raging,* the barbarian's melee attacks are considered good-aligned weapons for the purpose of bypassing damage reduction. Furthermore, the barbarian deals an additional 1d6 points of damage when she damages an evil outsider with a melee attack.\" &Blood&}"
-		],
-		"replacements": [
-			["&Blood&", "special=\"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.\""]
+			"::ab{icon=boost title=\"&L&Lesser Celestial Blood (Su)&FN&\" passive=\"While *raging,* the barbarian's melee attacks are considered good-aligned weapons for the purpose of bypassing damage reduction. Furthermore, the barbarian deals an additional 1d6 points of damage when she damages an evil outsider with a melee attack.\"}"
 		]
 	},
 	"celestial_blood_lesser": { "redirect": "lesser_celestial_blood" },
@@ -2008,11 +1950,9 @@
 		"name": "Lesser Draconic Blood",
 		"category": "Blood",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
+		"addenda": [ "blood" ],
 		"description": [
-			"::ab{icon=power title=\"&L&Lesser Draconic Blood (Su)&FN&\" ability=\"While *raging,* the barbarian gains two ‹umr/claw attack«s›. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.\" &Blood&}"
-		],
-		"replacements": [
-			["&Blood&", "special=\"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.\""]
+			"::ab{icon=power title=\"&L&Lesser Draconic Blood (Su)&FN&\" ability=\"While *raging,* the barbarian gains two ‹umr/claw attack«s›. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.\"}"
 		]
 	},
 	"draconic_blood_lesser": { "redirect": "lesser_draconic_blood" },
@@ -2039,11 +1979,9 @@
 		"name": "Lesser Elemental Blood",
 		"category": "Blood",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
+		"addenda": [ "blood" ],
 		"description": [
-			"::ab{icon=boost title=\"&L&Lesser Elemental Blood (Su)&FN&\" choice=\"Choose an energy type: acid, cold, fire, or electricity.\" order=cwu swift=\"While *raging,* the barbarian can imbue her melee attacks with elemental energy, dealing an additional 1d6 points of damage of the chosen energy type for 1 round.\" usage=\"3 times/day\" &Blood&}"
-		],
-		"replacements": [
-			["&Blood&", "special=\"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.\""]
+			"::ab{icon=boost title=\"&L&Lesser Elemental Blood (Su)&FN&\" choice=\"Choose an energy type: acid, cold, fire, or electricity.\" order=cwu swift=\"While *raging,* the barbarian can imbue her melee attacks with elemental energy, dealing an additional 1d6 points of damage of the chosen energy type for 1 round.\" usage=\"3 times/day\"}"
 		]
 	},
 	"elemental_blood_lesser": { "redirect": "lesser_elemental_blood" },
@@ -2070,11 +2008,9 @@
 		"name": "Lesser Fey Blood",
 		"category": "Blood",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
+		"addenda": [ "blood" ],
 		"description": [
-			"::ab{icon=lower title=\"&L&Lesser Fey Blood (Su)&FN&\" ability=\"While *raging,* each time the barbarian confirms a critical hit, the target must succeed at a Will saving throw (DC = 10 + 1/2 the barbarian's level + her Constitution modifier) or be ‹misc/confused› for one round.\" special=\"This is a mind-affecting compulsion effect.\" &Blood&}"
-		],
-		"replacements": [
-			["&Blood&", "special=\"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.\""]
+			"::ab{icon=lower title=\"&L&Lesser Fey Blood (Su)&FN&\" ability=\"While *raging,* each time the barbarian confirms a critical hit, the target must succeed at a Will saving throw (DC = 10 + 1/2 the barbarian's level + her Constitution modifier) or be ‹misc/confused› for one round.\" special=\"This is a mind-affecting compulsion effect.\"}"
 		]
 	},
 	"fey_blood_lesser": { "redirect": "lesser_fey_blood" },
@@ -2101,11 +2037,9 @@
 		"name": "Lesser Infernal Blood",
 		"category": "Blood",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
+		"addenda": [ "blood" ],
 		"description": [
-			"::ab{icon=melee title=\"&L&Lesser Infernal Blood (Su)&FN&\" swift=\"While *raging,* the barbarian can infuse her attacks with hellfire for 1 round. During this time, all of her melee attacks gain the ‹magic-enh/flaming› magic weapon special ability.\" usage=\"3 times/day\" &Blood&}"
-		],
-		"replacements": [
-			["&Blood&", "special=\"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.\""]
+			"::ab{icon=melee title=\"&L&Lesser Infernal Blood (Su)&FN&\" swift=\"While *raging,* the barbarian can infuse her attacks with hellfire for 1 round. During this time, all of her melee attacks gain the ‹magic-enh/flaming› magic weapon special ability.\" usage=\"3 times/day\"}"
 		]
 	},
 	"infernal_blood_lesser": { "redirect": "lesser_infernal_blood" },
@@ -2132,11 +2066,9 @@
 		"name": "Lesser Undead Blood",
 		"category": "Blood",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
+		"addenda": [ "blood" ],
 		"description": [
-			"::ab{icon=lower title=\"&L&Lesser Undead Blood (Su)&FN&\" ability=\"While *raging,* when the barbarian hits a creature with a ‹rule/charge› attack, the creature she hit becomes ‹misc/shaken› for a number of rounds equal to 1/2 her barbarian level (minimum 1). This effect does not stack with other fear effects to cause a stronger condition.\" &Blood&}"
-		],
-		"replacements": [
-			["&Blood&", "special=\"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.\""]
+			"::ab{icon=lower title=\"&L&Lesser Undead Blood (Su)&FN&\" ability=\"While *raging,* when the barbarian hits a creature with a ‹rule/charge› attack, the creature she hit becomes ‹misc/shaken› for a number of rounds equal to 1/2 her barbarian level (minimum 1). This effect does not stack with other fear effects to cause a stronger condition.\"}"
 		]
 	},
 	"undead_blood_lesser": { "redirect": "lesser_undead_blood" },

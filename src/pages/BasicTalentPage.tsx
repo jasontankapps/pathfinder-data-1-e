@@ -16,7 +16,7 @@ interface BasicTalentProps {
 	tree?: string[]
 	things: Gen<string, string>
 	addenda?: string[]
-	addendaObj: GenStrict<string, string>
+	addendaObj: GenStrict<string, ReactElement | string>
 }
 
 const BasicTalentPage: FC<PropsWithChildren<BasicTalentProps>> = (props) => {

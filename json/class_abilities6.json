@@ -471,10 +471,7 @@
 				],
 				{
 					"limit": "Blood",
-					"join": "!-N-!",
-					"replacements": [
-						[ "&Blood&", "" ]
-					]
+					"join": "!-N-!"
 				}
 			]
 		},
