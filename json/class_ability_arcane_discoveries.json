@@ -38,7 +38,7 @@
 		"name": "Bonded Mask",
 		"compilationSources": [ [ "Pathfinder #80: Empty Graves", 26 ] ],
 		"description": [
-			"::ab{title=\"&L&Bonded Mask&FN&\" icon=def order=ap ability=\"Your devotion to the Forgotten Pharaoh enables you to select a mask - typically an Osirian funerary mask - as your bonded item. The mask must be worn to have effect, and occupies the ‹rule/head slot›.\" passive=\"In addition, the mask shields you from notice. While wearing your bonded mask, efforts to use the Diplomacy skill to gather information about you take a -1 penalty, and you gain a +1 competence bonus on all saving throws against scrying and mind-reading effects that allow saving throws.\"}"
+			"::ab{title=\"&L&Bonded Mask&FN&\" icon=def order=ap ability=\"Your devotion to the Forgotten Pharaoh enables you to select a mask - typically an Osirian funerary mask - as your bonded item. The mask must be worn to have effect, and occupies the ‹rule/head slot›.\" passive=\"In addition, the mask shields you from notice. While wearing your *bonded mask,* efforts to use the Diplomacy skill to gather information about you take a -1 penalty, and you gain a +1 competence bonus on all saving throws against scrying and mind-reading effects that allow saving throws.\"}"
 		]
 	},
 	"creative_destruction": {
@@ -201,7 +201,7 @@
 		"name": "Werewolf Shape",
 		"compilationSources": [ [ "Blood of the Moon", 25 ] ],
 		"description": [
-			"::ab{title=\"&L&Werewolf Shape&FN&\" prereq=\"15th-level wizard\" icon=boost ability=\"When you cast ‹spell/beast shape IV› or ‹spell/shapechange›, you can choose to take the shape of a werewolf in addition to the other shapes available. While in werewolf shape, you gain all the effects of the ‹template/lycanthrope› template instead of the spell's normal benefits. You act in all respects as a natural lycanthrope for the duration of the spell, including the ability to inflict the ‹umr/curse of lycanthropy› using the spell's save DC.\"}"
+			"::ab{title=\"&L&Werewolf Shape&FN&\" prereq=\"15th-level wizard\" icon=boost ability=\"When you cast ‹spell/beast shape IV› or ‹spell/shapechange›, you can choose to take the shape of a werewolf in addition to the other shapes available. While in *werewolf shape,* you gain all the effects of the ‹template/lycanthrope› template instead of the spell's normal benefits. You act in all respects as a natural lycanthrope for the duration of the spell, including the ability to inflict the ‹umr/curse of lycanthropy› using the spell's save DC.\"}"
 		]
 	},
 	"yuelrals_blessing": {

@@ -262,19 +262,13 @@
 					"## Masterful Tricks",
 					"",
 					"‹SOURCE Occult Adventures›  ",
-					"At 12th level, a mesmerist can choose one of the following masterful tricks in place of a mesmerist trick. He gains an additional masterful trick every 2 levels thereafter. Using a masterful trick consumes two uses of the mesmerist trick class feature instead of one.",
+					"At 12th level, a mesmerist can choose one of the following masterful tricks in place of a mesmerist trick. He gains an additional masterful trick every 2 levels thereafter. Using a masterful trick consumes two uses of the *mesmerist trick* class feature instead of one.",
 					"",
 					"---",
 					""
 				],
 				{
-					"limit": "masterfultrick",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[trick/!-TITLE-!:] !-DESC-! !-^S-!"
+					"limit": "masterfultrick"
 				}
 			]
 		},
@@ -373,13 +367,7 @@
 					""
 				],
 				{
-					"limit": "3",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "@hll[mercy/!-TITLE-!:] !-DESC-!!-^S-!"
+					"limit": "3"
 				},
 				[
 					"",
@@ -387,13 +375,7 @@
 					""
 				],
 				{
-					"limit": "6",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "@hll[mercy/!-TITLE-!:] !-DESC-!!-^S-!"
+					"limit": "6"
 				},
 				[
 					"",
@@ -401,13 +383,7 @@
 					""
 				],
 				{
-					"limit": "9",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "@hll[mercy/!-TITLE-!:] !-DESC-!!-^S-!"
+					"limit": "9"
 				},
 				[
 					"",
@@ -415,13 +391,7 @@
 					""
 				],
 				{
-					"limit": "12",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "@hll[mercy/!-TITLE-!:] !-DESC-!!-^S-!"
+					"limit": "12"
 				}
 			]
 		},
@@ -625,9 +595,7 @@
 					""
 				],
 				{
-					"limit": "1",
-					"join": [ "", "", "" ],
-					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
+					"limit": "1"
 				},
 				[
 					"",
@@ -635,9 +603,7 @@
 					""
 				],
 				{
-					"limit": "3",
-					"join": [ "", "", "" ],
-					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
+					"limit": "3"
 				},
 				[
 					"",
@@ -645,9 +611,7 @@
 					""
 				],
 				{
-					"limit": "7",
-					"join": [ "", "", "" ],
-					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
+					"limit": "7"
 				},
 				[
 					"",
@@ -655,9 +619,7 @@
 					""
 				],
 				{
-					"limit": "11",
-					"join": [ "", "", "" ],
-					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
+					"limit": "11"
 				},
 				[
 					"",
@@ -665,9 +627,7 @@
 					""
 				],
 				{
-					"limit": "15",
-					"join": [ "", "", "" ],
-					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
+					"limit": "15"
 				},
 				[
 					"",
@@ -675,9 +635,7 @@
 					""
 				],
 				{
-					"limit": "19",
-					"join": [ "", "", "" ],
-					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
+					"limit": "19"
 				}
 			]
 		},
@@ -739,13 +697,7 @@
 					""
 				],
 				{
-					"limit": "trick",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[trick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "trick"
 				}
 			]
 		},

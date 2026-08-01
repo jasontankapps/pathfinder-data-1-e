@@ -2013,7 +2013,7 @@
 		"category": "R_Advanced Other Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
-			"::ab{title=\"&L&Skill Mastery&FN&\" icon=boost flavor=\"The rogue becomes so confident in the use of certain skills that she can use them reliably even under adverse conditions.\" choice=\"Upon gaining this ability, the rogue selects a number of skills equal to 3 + her Intelligence modifier.\" ability=\"When making a skill check with one of these skills, she may take 10 even if stress and distractions would normally prevent her from doing so.\" order=ca special=\"A rogue may gain this special ability multiple times, selecting additional skills for skill mastery to apply to each time.\"}"
+			"::ab{title=\"&L&Skill Mastery&FN&\" icon=boost flavor=\"The rogue becomes so confident in the use of certain skills that she can use them reliably even under adverse conditions.\" choice=\"Upon gaining this ability, the rogue selects a number of skills equal to 3 + her Intelligence modifier.\" ability=\"When making a skill check with one of these skills, she may take 10 even if stress and distractions would normally prevent her from doing so.\" order=ca special=\"A rogue may gain this special ability multiple times, selecting additional skills for *skill mastery* to apply to each time.\"}"
 		]
 	},
 	"skill_mastery_unchained_rogue": {
@@ -2022,7 +2022,7 @@
 		"category": "UR_Advanced Other Talents",
 		"topLink": [ "Advanced Unchained Rogue Talents", "ability/advanced_unchained_rogue_talents" ],
 		"description": [
-			"::ab{title=\"&L&Skill Mastery&FN&\" icon=boost flavor=\"The rogue becomes so confident in the use of certain skills that she can use them reliably even under adverse conditions.\" choice=\"The rogue selects a number of skills equal to her Intelligence modifier.\" ability=\"When making a skill check with one of the selected skills (or any of the skills selected through the *rogue's edge* class feature), she can take 10 even if stress and distractions would normally prevent her from doing so.\" order=ca special=\"A rogue can gain this special ability multiple times, selecting additional skills for skill mastery to apply to each time.\"}"
+			"::ab{title=\"&L&Skill Mastery&FN&\" icon=boost flavor=\"The rogue becomes so confident in the use of certain skills that she can use them reliably even under adverse conditions.\" choice=\"The rogue selects a number of skills equal to her Intelligence modifier.\" ability=\"When making a skill check with one of the selected skills (or any of the skills selected through the *rogue's edge* class feature), she can take 10 even if stress and distractions would normally prevent her from doing so.\" order=ca special=\"A rogue can gain this special ability multiple times, selecting additional skills for *skill mastery* to apply to each time.\"}"
 		]
 	},
 	"stalker_talent": {

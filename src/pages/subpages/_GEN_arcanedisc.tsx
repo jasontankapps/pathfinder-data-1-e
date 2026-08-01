@@ -37,7 +37,7 @@ const _bonded_mask = {title: "Bonded Mask", jsx: <><p><strong>Sources</strong> <
 <Ability id="bonded-mask" icon={["armor-upgrade"]}>
 <Pair single id="bonded-mask">Bonded Mask</Pair>
 <Pair title="Ability">Your devotion to the Forgotten Pharaoh enables you to select a mask - typically an Osirian funerary mask - as your bonded item. The mask must be worn to have effect, and occupies the <Link to="/rule/head_slot">head slot</Link>.</Pair>
-<Pair title="Passive Ability">In addition, the mask shields you from notice. While wearing your bonded mask, efforts to use the Diplomacy skill to gather information about you take a -1 penalty, and you gain a +1 competence bonus on all saving throws against scrying and mind-reading effects that allow saving throws.</Pair>
+<Pair title="Passive Ability">In addition, the mask shields you from notice. While wearing your <em>bonded mask,</em> efforts to use the Diplomacy skill to gather information about you take a -1 penalty, and you gain a +1 competence bonus on all saving throws against scrying and mind-reading effects that allow saving throws.</Pair>
 </Ability>
 </>};
 const _creative_destruction = {title: "Creative Destruction", jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance pg. 21</Link></p>
@@ -199,7 +199,7 @@ const _werewolf_shape = {title: "Werewolf Shape", jsx: <><p><strong>Sources</str
 <Ability id="werewolf-shape" icon={["upgrade"]}>
 <Pair single id="werewolf-shape">Werewolf Shape</Pair>
 <Pair title="Prerequisites">15th-level wizard</Pair>
-<Pair title="Ability">When you cast <Link to="/spell/beast_shape_iv">beast shape IV</Link> or <Link to="/spell/shapechange">shapechange</Link>, you can choose to take the shape of a werewolf in addition to the other shapes available. While in werewolf shape, you gain all the effects of the <Link to="/template/lycanthrope">lycanthrope</Link> template instead of the spell's normal benefits. You act in all respects as a natural lycanthrope for the duration of the spell, including the ability to inflict the <Link to="/umr/curse_of_lycanthropy">curse of lycanthropy</Link> using the spell's save DC.</Pair>
+<Pair title="Ability">When you cast <Link to="/spell/beast_shape_iv">beast shape IV</Link> or <Link to="/spell/shapechange">shapechange</Link>, you can choose to take the shape of a werewolf in addition to the other shapes available. While in <em>werewolf shape,</em> you gain all the effects of the <Link to="/template/lycanthrope">lycanthrope</Link> template instead of the spell's normal benefits. You act in all respects as a natural lycanthrope for the duration of the spell, including the ability to inflict the <Link to="/umr/curse_of_lycanthropy">curse of lycanthropy</Link> using the spell's save DC.</Pair>
 </Ability>
 </>};
 const _yuelrals_blessing = {title: "Yuelral's Blessing", jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity pg. 27</Link></p>

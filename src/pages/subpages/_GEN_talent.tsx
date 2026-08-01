@@ -846,7 +846,7 @@ const _canny_observer = {title: "Canny Observer", jsx: <><p><strong>Sources</str
 const _cunning_trigger = {title: "Cunning Trigger", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 130</Link></p>
 <Ability id="cunning-trigger-ex" icon={["stairs-goal"]}>
 <Pair single id="cunning-trigger-ex">Cunning Trigger (Ex)</Pair>
-<Pair title="Swift Action">A rogue with this talent set off any trap within 30 feet that she constructed.</Pair>
+<Pair title="Swift Action">A rogue with this talent can set off any trap within 30 feet that she constructed.</Pair>
 </Ability>
 </>};
 const _quick_trapsmith = {title: "Quick Trapsmith", jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 131</Link></p>
@@ -969,7 +969,7 @@ const _honeyed_words = {title: "Honeyed Words", jsx: <><p><strong>Sources</stron
 </>};
 const _innocuous_servant = {title: "Innocuous Servant", jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 32</Link></p>
 <Ability id="innocuous-servant-ex" icon={["upgrade"]}>
-<Pair single id="innocuous-servant-ex" flavor="The rogue is an expert at appearing to be an unimportant servant, be it an attach&amp;eacute&amp;, bodyguard, driver, maid, kitchen assistant, or similar staff member.">Innocuous Servant (Ex)</Pair>
+<Pair single id="innocuous-servant-ex" flavor="The rogue is an expert at appearing to be an unimportant servant, be it an attach&eacute;, bodyguard, driver, maid, kitchen assistant, or similar staff member.">Innocuous Servant (Ex)</Pair>
 <Pair title="Passive Ability"><p>The rogue gains a +2 bonus on <Link to="/skill/disguise">Disguise</Link> checks to appear to be a servant, but not to impersonate a particular servant. She also gains a +2 bonus on <Link to="/skill/bluff">Bluff</Link> checks to lie to maintain this guise.</p>
 <p>While disguised as a servant, she gains a +2 bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to gather information among servants. Because she is easily overlooked as a servant, she can gather information from those she serves without asking them questions directly or alerting them to her interest. Doing so takes 1d4 days and requires a successful Bluff check instead of a Diplomacy check.</p>
 </Pair>
@@ -1648,7 +1648,7 @@ const _skill_mastery = {title: "Skill Mastery", topLink: ["Advanced Rogue Talent
 <Pair single id="skill-mastery" flavor="The rogue becomes so confident in the use of certain skills that she can use them reliably even under adverse conditions.">Skill Mastery</Pair>
 <Pair title="Choice">Upon gaining this ability, the rogue selects a number of skills equal to 3 + her Intelligence modifier.</Pair>
 <Pair title="Ability">When making a skill check with one of these skills, she may take 10 even if stress and distractions would normally prevent her from doing so.</Pair>
-<Pair title="Special">A rogue may gain this special ability multiple times, selecting additional skills for skill mastery to apply to each time.</Pair>
+<Pair title="Special">A rogue may gain this special ability multiple times, selecting additional skills for <em>skill mastery</em> to apply to each time.</Pair>
 </Ability>
 </>};
 const _skill_mastery_unchained_rogue = {title: "Skill Mastery", topLink: ["Advanced Unchained Rogue Talents","ability/advanced_unchained_rogue_talents"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 24</Link></p>
@@ -1656,7 +1656,7 @@ const _skill_mastery_unchained_rogue = {title: "Skill Mastery", topLink: ["Advan
 <Pair single id="skill-mastery" flavor="The rogue becomes so confident in the use of certain skills that she can use them reliably even under adverse conditions.">Skill Mastery</Pair>
 <Pair title="Choice">The rogue selects a number of skills equal to her Intelligence modifier.</Pair>
 <Pair title="Ability">When making a skill check with one of the selected skills (or any of the skills selected through the <em>rogue's edge</em> class feature), she can take 10 even if stress and distractions would normally prevent her from doing so.</Pair>
-<Pair title="Special">A rogue can gain this special ability multiple times, selecting additional skills for skill mastery to apply to each time.</Pair>
+<Pair title="Special">A rogue can gain this special ability multiple times, selecting additional skills for <em>skill mastery</em> to apply to each time.</Pair>
 </Ability>
 </>};
 const _stalker_talent = {title: "Stalker Talent", topLink: ["Advanced Rogue Talents","ability/advanced_rogue_talents"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 44</Link></p>

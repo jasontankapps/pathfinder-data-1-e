@@ -408,13 +408,13 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					+ `</div>\n`
 				);
 			} else if (n === "row") {
-				churn(n, attrs, ["clear","info"], [], logError);
+				churn(n, attrs, ["clear","info","title"], [], logError);
 				// ::row should only be called inside :::block, so no need to modify flags
 				const marked2 = makeNewMarkedInstance();
 				return (
 					`\n<Row><Cell>${
 						removeCurlyBrackets(marked2.parseInline(
-							convertEncodedInfo(text || "MISSING")
+							convertEncodedInfo(text || attrs.title || "MISSING")
 						))
 					}</Cell><Cell>${
 						removeCurlyBrackets(marked2.parseInline(

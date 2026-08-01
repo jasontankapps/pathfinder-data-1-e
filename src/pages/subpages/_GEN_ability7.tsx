@@ -1915,7 +1915,7 @@ const _advanced_unchained_rogue_talents = {hasJL:true,title: "Advanced Unchained
 <Pair single id="talentskillmasteryunchainedrogue-skill-mastery-fn5-5" flavor="The rogue becomes so confident in the use of certain skills that she can use them reliably even under adverse conditions."><Link to="/talent/skill_mastery_unchained_rogue">⮞</Link> Skill Mastery <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-5.5" id="ability-advanced_unchained_rogue_talents-fake-fn-5.5" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Choice">The rogue selects a number of skills equal to her Intelligence modifier.</Pair>
 <Pair title="Ability">When making a skill check with one of the selected skills (or any of the skills selected through the <em>rogue's edge</em> class feature), she can take 10 even if stress and distractions would normally prevent her from doing so.</Pair>
-<Pair title="Special">A rogue can gain this special ability multiple times, selecting additional skills for skill mastery to apply to each time.</Pair>
+<Pair title="Special">A rogue can gain this special ability multiple times, selecting additional skills for <em>skill mastery</em> to apply to each time.</Pair>
 </Ability>
 <Ability id="talentstalkertalent-stalker-talent-fn16" icon={["stairs-goal"]}>
 <Pair single id="talentstalkertalent-stalker-talent-fn16"><Link to="/talent/stalker_talent">⮞</Link> Stalker Talent <sup><InnerLink showBacklink="backlink-ability-advanced_unchained_rogue_talents-fake-fn-16" id="ability-advanced_unchained_rogue_talents-fake-fn-16" data-hash-target to="ability-advanced_unchained_rogue_talents-fake-fn-16-target">16</InnerLink></sup></Pair>
