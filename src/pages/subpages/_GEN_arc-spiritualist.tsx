@@ -233,22 +233,22 @@ const _fractured_mind = {title: "Fractured Mind", jsx: <><h2 id="arc-spiritualis
 <Pair plain title="9th"><Link to="/spell/entropic_shield">Entropic shield</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/spell_immunity">Spell immunity</Link></Pair>
 </Ability>
-<Ability id="undefined" extraClasses="subAbility" icon={["magic-swirl"]}>
-<Pair single id="undefined">Kindness<sup><InnerLink showBacklink="backlink-arc-spiritualist-fractured_mind-fake-fn-1" id="arc-spiritualist-fractured_mind-fake-fn-1" data-hash-target to="arc-spiritualist-fractured_mind-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Ability id="kindnessfn1" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="kindnessfn1">Kindness<sup><InnerLink showBacklink="backlink-arc-spiritualist-fractured_mind-fake-fn-1" id="arc-spiritualist-fractured_mind-fake-fn-1" data-hash-target to="arc-spiritualist-fractured_mind-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair plain title="5th"><Link to="/spell/bless">Bless</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/calm_emotions">Calm emotions</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/heroism">Heroism</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/good_hope">Good hope</Link></Pair>
 </Ability>
-<Ability id="undefined" extraClasses="subAbility" icon={["magic-swirl"]}>
-<Pair single id="undefined">Remorse<sup><InnerLink showBacklink="backlink-arc-spiritualist-fractured_mind-fake-fn-2" id="arc-spiritualist-fractured_mind-fake-fn-2" data-hash-target to="arc-spiritualist-fractured_mind-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Ability id="remorsefn2" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="remorsefn2">Remorse<sup><InnerLink showBacklink="backlink-arc-spiritualist-fractured_mind-fake-fn-2" id="arc-spiritualist-fractured_mind-fake-fn-2" data-hash-target to="arc-spiritualist-fractured_mind-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair plain title="5th"><Link to="/spell/doom">Doom</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/inflict_pain">Inflict pain</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/stricken_heart">Stricken heart</Link></Pair>
 <Pair plain title="16th"><Link to="/spell/mind_fog">Mind fog</Link></Pair>
 </Ability>
-<Ability id="undefined" extraClasses="subAbility" icon={["magic-swirl"]}>
-<Pair single id="undefined">Whimsey<sup><InnerLink showBacklink="backlink-arc-spiritualist-fractured_mind-fake-fn-3" id="arc-spiritualist-fractured_mind-fake-fn-3" data-hash-target to="arc-spiritualist-fractured_mind-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Ability id="whimseyfn3" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="whimseyfn3">Whimsey<sup><InnerLink showBacklink="backlink-arc-spiritualist-fractured_mind-fake-fn-3" id="arc-spiritualist-fractured_mind-fake-fn-3" data-hash-target to="arc-spiritualist-fractured_mind-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair plain title="5th"><Link to="/spell/ventriloquism">Ventriloquism</Link></Pair>
 <Pair plain title="7th"><Link to="/spell/absurdity">Absurdity</Link></Pair>
 <Pair plain title="9th"><Link to="/spell/major_image">Major image</Link></Pair>

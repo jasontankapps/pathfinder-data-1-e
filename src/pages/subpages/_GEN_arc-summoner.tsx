@@ -280,7 +280,8 @@ const _leshy_caller = {title: "Leshy Caller", jsx: <><h2 id="arc-summoner-leshy_
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Info"><p>The leshy caller chooses one of the base forms listed below for her eidolon. When the eidolon is summoned in an environment matching one of these base forms, the leshy caller can change the eidolon's base form to the matching form by sacrificing one daily use of her <em>summon nature's ally</em> ability as a <strong className="hl">free action</strong>.</p>
 <p>Plant eidolon base forms are as follows.</p>
-<Block titled><Row><Cell>Cactus (Desert)</Cell></Row>
+<Block titled><Row><Cell><p>Cactus (Desert)</p>
+</Cell></Row>
 <Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
 <Row><Cell>Speed</Cell><Cell>30 ft.</Cell></Row>
 <Row><Cell>AC</Cell><Cell>+2 natural armor</Cell></Row>
@@ -288,7 +289,8 @@ const _leshy_caller = {title: "Leshy Caller", jsx: <><h2 id="arc-summoner-leshy_
 <Row><Cell>Attack</Cell><Cell>sting (1d4)</Cell></Row>
 <Row><Cell>Ability Scores</Cell><Cell>Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11</Cell></Row>
 <Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/sting">sting</Link></Cell></Row></Block>
-<Block titled><Row><Cell>Conifer (Forest, Mountain)</Cell></Row>
+<Block titled><Row><Cell><p>Conifer (Forest, Mountain)</p>
+</Cell></Row>
 <Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
 <Row><Cell>Speed</Cell><Cell>30 ft.</Cell></Row>
 <Row><Cell>AC</Cell><Cell>+2 natural armor</Cell></Row>
@@ -296,7 +298,8 @@ const _leshy_caller = {title: "Leshy Caller", jsx: <><h2 id="arc-summoner-leshy_
 <Row><Cell>Attack</Cell><Cell>2 claws (1d4)</Cell></Row>
 <Row><Cell>Ability Scores</Cell><Cell>Str 14, Dex 12, Con 15, Int 7, Wis 10, Cha 11</Cell></Row>
 <Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/claws">claws</Link>, <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs)</Cell></Row></Block>
-<Block titled><Row><Cell>Fungus (Swamp, Underground)</Cell></Row>
+<Block titled><Row><Cell><p>Fungus (Swamp, Underground)</p>
+</Cell></Row>
 <Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
 <Row><Cell>Speed</Cell><Cell>30 ft.</Cell></Row>
 <Row><Cell>AC</Cell><Cell>+2 natural armor</Cell></Row>
@@ -304,7 +307,8 @@ const _leshy_caller = {title: "Leshy Caller", jsx: <><h2 id="arc-summoner-leshy_
 <Row><Cell>Attack</Cell><Cell>bite (1d6)</Cell></Row>
 <Row><Cell>Ability Scores</Cell><Cell>Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11</Cell></Row>
 <Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/bite">bite</Link>, <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs)</Cell></Row></Block>
-<Block titled><Row><Cell>Leaf (Forest, Jungle, Swamp)</Cell></Row>
+<Block titled><Row><Cell><p>Leaf (Forest, Jungle, Swamp)</p>
+</Cell></Row>
 <Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
 <Row><Cell>Speed</Cell><Cell>30 ft.</Cell></Row>
 <Row><Cell>AC</Cell><Cell>+2 natural armor</Cell></Row>
@@ -312,7 +316,8 @@ const _leshy_caller = {title: "Leshy Caller", jsx: <><h2 id="arc-summoner-leshy_
 <Row><Cell>Attack</Cell><Cell>slam (1d8)</Cell></Row>
 <Row><Cell>Ability Scores</Cell><Cell>Str 16, Dex 12, Con 13, Int 7, Wis 10, Cha 11</Cell></Row>
 <Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/slam">slam</Link></Cell></Row></Block>
-<Block titled><Row><Cell>Seaweed (Aquatic)</Cell></Row>
+<Block titled><Row><Cell><p>Seaweed (Aquatic)</p>
+</Cell></Row>
 <Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
 <Row><Cell>Speed</Cell><Cell>20 ft., swim 40 ft.</Cell></Row>
 <Row><Cell>AC</Cell><Cell>+2 natural armor</Cell></Row>
@@ -833,7 +838,8 @@ const _wild_caller_hotw = {title: "Wild Caller (HotW)", jsx: <><h2 id="arc-summo
 <Pair hl title="Alters">Eidolon</Pair>
 <Pair title="Info"><p>The wild caller chooses one of the base forms listed below for his plant eidolon. When the eidolon is summoned in an environment matching one of these base forms, the wild caller can choose to change the eidolon's base form to the matching form by sacrificing one daily use of his <em>summon nature's ally</em> ability as a <strong className="hl">free action</strong>.</p>
 <p>Plant eidolon base forms are as follows.</p>
-<Block titled><Row><Cell>Cactus (desert)</Cell></Row>
+<Block titled><Row><Cell><p>Cactus (desert)</p>
+</Cell></Row>
 <Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
 <Row><Cell>Speed</Cell><Cell>30 ft.</Cell></Row>
 <Row><Cell>AC</Cell><Cell>+2 natural armor</Cell></Row>
@@ -841,7 +847,8 @@ const _wild_caller_hotw = {title: "Wild Caller (HotW)", jsx: <><h2 id="arc-summo
 <Row><Cell>Attack</Cell><Cell>slam (1d8), sting (1d4)</Cell></Row>
 <Row><Cell>Ability Scores</Cell><Cell>Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11</Cell></Row>
 <Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/sting">sting</Link>, <Link to="/evolution/tail">tail</Link></Cell></Row></Block>
-<Block titled><Row><Cell>Conifer (forest, mountain)</Cell></Row>
+<Block titled><Row><Cell><p>Conifer (forest, mountain)</p>
+</Cell></Row>
 <Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
 <Row><Cell>Speed</Cell><Cell>30 ft.</Cell></Row>
 <Row><Cell>AC</Cell><Cell>+2 natural armor</Cell></Row>
@@ -849,7 +856,8 @@ const _wild_caller_hotw = {title: "Wild Caller (HotW)", jsx: <><h2 id="arc-summo
 <Row><Cell>Attack</Cell><Cell>2 claws (1d4)</Cell></Row>
 <Row><Cell>Ability Scores</Cell><Cell>Str 14, Dex 12, Con 15, Int 7, Wis 10, Cha 11; Resist cold 10</Cell></Row>
 <Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/claws">claws</Link>, <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/resistance">resistance</Link> (cold)</Cell></Row></Block>
-<Block titled><Row><Cell>Mushroom (swamp, underground)</Cell></Row>
+<Block titled><Row><Cell><p>Mushroom (swamp, underground)</p>
+</Cell></Row>
 <Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
 <Row><Cell>Speed</Cell><Cell>20 ft.</Cell></Row>
 <Row><Cell>AC</Cell><Cell>+2 natural armor</Cell></Row>
@@ -857,7 +865,8 @@ const _wild_caller_hotw = {title: "Wild Caller (HotW)", jsx: <><h2 id="arc-summo
 <Row><Cell>Attack</Cell><Cell>bite (1d6) plus poison</Cell></Row>
 <Row><Cell>Ability Scores</Cell><Cell>Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11</Cell></Row>
 <Row><Cell>Free Evolutions</Cell><Cell><Link to="/evolution/bite">bite</Link>, <Link to="/evolution/limbs">limbs</Link> (arms), limbs (legs), <Link to="/evolution/poison">poison</Link></Cell></Row></Block>
-<Block titled><Row><Cell>Tree (forest, jungle, swamp)</Cell></Row>
+<Block titled><Row><Cell><p>Tree (forest, jungle, swamp)</p>
+</Cell></Row>
 <Row><Cell>Size</Cell><Cell>Medium</Cell></Row>
 <Row><Cell>Speed</Cell><Cell>20 ft.</Cell></Row>
 <Row><Cell>AC</Cell><Cell>+4 natural armor</Cell></Row>

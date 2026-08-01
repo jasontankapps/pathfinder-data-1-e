@@ -3835,9 +3835,51 @@ const _elephant_overview = {title: "Overview", parent_topics: ["optional_skill_c
 </div>
 <h3 id="rule-elephant_overview-feats-altered-slightly">Feats Altered Slightly</h3>
 <p>These feats have had wording tweaked or their prerequisites modified, but generally work the same.</p>
-<blockquote className="showIfNoElephant">
-<p><em>You have toggled <em>Elephant</em>-related information off on the <Link to="/settings">settings page</Link>. You will need to toggle it back on to see the changes in the feats linked below.</em></p>
-</blockquote>
+<div className="columnar">
+<ul>
+<li><Link to="/feat/awesome_blow">Awesome Blow</Link></li>
+<li><Link to="/feat/cleave">Cleave</Link></li>
+<li><Link to="/feat/dazzling_display">Dazzling Display</Link></li>
+<li><Link to="/feat/deadly_stroke">Deadly Stroke</Link></li>
+<li><Link to="/feat/elemental_spell">Elemental Spell</Link></li>
+<li><Link to="/feat/far_shot">Far Shot</Link></li>
+<li><Link to="/feat/gorgons_fist">Gorgon's Fist</Link></li>
+<li><Link to="/feat/great_cleave">Great Cleave</Link></li>
+<li><Link to="/feat/greater_bull_rush">Greater Bull Rush</Link></li>
+<li><Link to="/feat/greater_disarm">Greater Disarm</Link></li>
+<li><Link to="/feat/greater_feint">Greater Feint</Link></li>
+<li><Link to="/feat/greater_grapple">Greater Grapple</Link></li>
+<li><Link to="/feat/greater_overrun">Greater Overrun</Link></li>
+<li><Link to="/feat/greater_penetrating_strike">Greater Penetrating Strike</Link></li>
+<li><Link to="/feat/greater_sunder">Greater Sunder</Link></li>
+<li><Link to="/feat/greater_trip">Greater Trip</Link></li>
+<li><Link to="/feat/greater_weapon_focus">Greater Weapon Focus</Link></li>
+<li><Link to="/feat/greater_weapon_specialization">Greater Weapon Specialization</Link></li>
+<li><Link to="/feat/improved_critical">Improved Critical</Link></li>
+<li><Link to="/feat/manyshot">Manyshot</Link></li>
+<li><Link to="/feat/medusas_wrath">Medusa's Wrath</Link></li>
+<li><Link to="/feat/parting_shot">Parting Shot</Link></li>
+<li><Link to="/feat/penetrating_strike">Penetrating Strike</Link></li>
+<li><Link to="/feat/point_blank_master">Point-Blank Master</Link></li>
+<li><Link to="/feat/point_blank_shot">Point-Blank Shot</Link></li>
+<li><Link to="/feat/precise_shot">Precise Shot</Link></li>
+<li><Link to="/feat/rapid_shot">Rapid Shot</Link></li>
+<li><Link to="/feat/shatter_defenses">Shatter Defenses</Link></li>
+<li><Link to="/feat/shield_master">Shield Master</Link></li>
+<li><Link to="/feat/shield_slam">Shield Slam</Link></li>
+<li><Link to="/feat/shot_on_the_run">Shot on the Run</Link></li>
+<li><Link to="/feat/snatch_arrows">Snatch Arrows</Link></li>
+<li><Link to="/feat/spirited_charge">Spirited Charge</Link></li>
+<li><Link to="/feat/spring_attack">Spring Attack</Link></li>
+<li><Link to="/feat/stunning_fist">Stunning Fist</Link></li>
+<li><Link to="/feat/two_weapon_defense">Two-Weapon Defense</Link></li>
+<li><Link to="/feat/two_weapon_rend">Two-Weapon Rend</Link></li>
+<li><Link to="/feat/unseat">Unseat</Link></li>
+<li><Link to="/feat/weapon_focus">Weapon Focus</Link></li>
+<li><Link to="/feat/weapon_specialization">Weapon Specialization</Link></li>
+<li><Link to="/feat/whirlwind_attack">Whirlwind Attack</Link></li>
+</ul>
+</div>
 <h3 id="rule-elephant_overview-other-feats">Other Feats</h3>
 <p>These feats are specifically reprinted in <em>The Elephant in the Room.</em> GMs should use this info when considering how feats not in this list should behave under the <em>Elephant</em> rules.</p>
 <div className="columnar">

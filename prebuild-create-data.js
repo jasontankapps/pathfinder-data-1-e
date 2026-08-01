@@ -216,11 +216,11 @@ $.skipColors || (() => {
 	const {light, dark} = colorJSON;
 	const colors = Object.keys(light);
 	const filename = './src/components/_GEN_Bookmarks.css';
-	const prefix = `ion-icon, ion-item, ion-text, ion-toggle {\n`;
+	const prefix = `:is(ion-icon, ion-item, ion-text, ion-toggle) {\n`;
 	const output =
 		`${prefix}\t${colors.map(c => `--${c}: ${light[c]}`).join(";\n\t")};\n}\n\n`
-		+`@media (prefers-color-scheme: dark) {\n\t${prefix}\t\t`
-		+`${colors.map(c => `--${c}: ${dark[c]}`).join(";\n\t\t")};\n\t}\n}\n`
+		+`.ion-palette-dark ${prefix}\t`
+		+`${colors.map(c => `--${c}: ${dark[c]}`).join(";\n\t")};\n}\n`
 	;
 	const test = get(filename).trim();
 	if(test !== output.trim()) {
