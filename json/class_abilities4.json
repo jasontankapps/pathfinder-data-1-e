@@ -292,13 +292,7 @@
 					""
 				],
 				{
-					"limit": "Master Sneak Attack Trick",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Master Sneak Attack Trick"
 				},
 				[
 					"",
@@ -308,13 +302,7 @@
 					""
 				],
 				{
-					"limit": "Master Improved Tricks",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Master Improved Tricks"
 				},
 				[
 					"",
@@ -325,12 +313,10 @@
 				],
 				{
 					"limit": "Master Ki Tricks",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"replacements": [
+						[ "&Next1&", "" ],
+						[ "&Next2&", "" ]
+					]
 				},
 				[
 					"",
@@ -338,13 +324,7 @@
 					""
 				],
 				{
-					"limit": "Master Other Tricks",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"limit": "Master Other Tricks"
 				}
 			]
 		},
@@ -521,13 +501,7 @@
 					""
 				],
 				{
-					"limit": "Primary Sneak Attack Tricks",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": "Primary Sneak Attack Tricks"
 				},
 				[
 					"",
@@ -537,13 +511,7 @@
 					""
 				],
 				{
-					"limit": "Other Sneak Attack Tricks",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": "Other Sneak Attack Tricks"
 				},
 				[
 					"",
@@ -553,13 +521,7 @@
 					""
 				],
 				{
-					"limit": "Ki Tricks",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": "Ninja Ki Tricks"
 				},
 				[
 					"",
@@ -567,13 +529,7 @@
 					""
 				],
 				{
-					"limit": "Other Tricks",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": ">*(.+)",
-						"replacement": "$1"
-					},
-					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"limit": "Other Ninja Tricks"
 				}
 			]
 		},

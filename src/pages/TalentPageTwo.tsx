@@ -34,7 +34,8 @@ const addendaObj: GenStrict<string, string> = {
 	studiedstrike: "This type of talent adds effects to an investigator's studied combat or studied strike, and has this limitation: Only one of these talents can be applied to an individual attack, but the decision can be made when the damage is dealt.",
 	avenger: "This talent can only be taken by avenger vigilantes.",
 	stalker: "This talent can only be taken by stalker vigilantes.",
-	hiddenstrike: "This type of talent can only be taken by stalker vigilantes, and it has a limitation: only one talent of this type can be added to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted."
+	hiddenstrike: "This type of talent can only be taken by stalker vigilantes, and it has a limitation: only one talent of this type can be added to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted.",
+	ninjasneak: "This type of talent adds effects to a ninja's sneak attack, and has this limitation: Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made."
 };
 
 const TalentPage: React.FC<{ prefix: Talent }> = ({prefix}) => {
