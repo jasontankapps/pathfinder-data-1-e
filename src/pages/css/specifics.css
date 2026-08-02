@@ -32,77 +32,203 @@ ion-list.aboutPage {
 }
 ion-list.aboutPage p.icons {
 	display: grid;
-	gap: 0.75rem;
 	justify-items: center;
 	justify-content: space-around;
 }
-ion-list.aboutPage p.icons {
+ion-list.aboutPage p.icons ion-icon {
+	margin: 0.75rem
+}
+ion-list.aboutPage p.icons:not(.icons19):not(.icons29) {
 	grid-template-columns: repeat( auto-fit, minmax(2.75rem, 1fr) );
 }
-@media (width >= 87.5rem) { /* Base */
-	ion-list.aboutPage p.icons.icons24 {
-		grid-template-columns: repeat(24, 1fr);
+@media (width >= 37.5rem) { /* Base (10 / 9 / 10) */
+	ion-list.aboutPage p.icons.icons29 {
+		grid-template-areas:
+			"aa aa aa aa aa aa aa aa aa ab ab ab ab ab ab ab ab ab ac ac ac ac ac ac ac ac ac ad ad ad ad ad ad ad ad ad ae ae ae ae ae ae ae ae ae af af af af af af af af af ag ag ag ag ag ag ag ag ag ah ah ah ah ah ah ah ah ah ai ai ai ai ai ai ai ai ai aj aj aj aj aj aj aj aj aj"
+			"ak ak ak ak ak ak ak ak ak ak al al al al al al al al al al am am am am am am am am am am an an an an an an an an an an ao ao ao ao ao ao ao ao ao ao ap ap ap ap ap ap ap ap ap ap aq aq aq aq aq aq aq aq aq aq ar ar ar ar ar ar ar ar ar ar as as as as as as as as as as"
+			"at at at at at at at at at au au au au au au au au au av av av av av av av av av aw aw aw aw aw aw aw aw aw ax ax ax ax ax ax ax ax ax ay ay ay ay ay ay ay ay ay az az az az az az az az az ba ba ba ba ba ba ba ba ba bb bb bb bb bb bb bb bb bb bc bc bc bc bc bc bc bc bc";
 	}
 }
-@media (35.5rem <= width < 87.5rem) { /* 12 per row */
-	ion-list.aboutPage p.icons.icons24 {
-		grid-template-columns: repeat(12, 1fr);
-		grid-template-rows: repeat(2, auto);
+@media (30.5rem <= width < 37.5rem) { /* 7 / 8 / 7 / 7 */
+	ion-list.aboutPage p.icons.icons29 {
+		grid-template-areas:
+			"aa aa aa aa aa aa aa aa ab ab ab ab ab ab ab ab ac ac ac ac ac ac ac ac ad ad ad ad ad ad ad ad ae ae ae ae ae ae ae ae af af af af af af af af ag ag ag ag ag ag ag ag"
+			"ah ah ah ah ah ah ah ai ai ai ai ai ai ai aj aj aj aj aj aj aj ak ak ak ak ak ak ak al al al al al al al am am am am am am am an an an an an an an ao ao ao ao ao ao ao"
+			"ap ap ap ap ap ap ap aq aq aq aq aq aq aq aq ar ar ar ar ar ar ar ar as as as as as as as as at at at at at at at at au au au au au au au au au av av av av av av av av"
+			"aw aw aw aw aw aw aw aw ax ax ax ax ax ax ax ax ay ay ay ay ay ay ay ay az az az az az az az az ba ba ba ba ba ba ba ba bb bb bb bb bb bb bb bb bc bc bc bc bc bc bc bc";
 	}
 }
-@media (23.5rem <= width < 35.5rem) { /* 8 per row */
-	ion-list.aboutPage p.icons.icons24 {
-		grid-template-columns: repeat(8, 1fr);
-		grid-template-rows: repeat(3, auto);
+@media (23rem <= width < 30.5rem) { /* 6 / 6 / 6 / 6 / 5 */
+	ion-list.aboutPage p.icons.icons29 {
+		grid-template-areas:
+			"aa aa aa aa aa ab ab ab ab ab ac ac ac ac ac ad ad ad ad ad ae ae ae ae ae af af af af af"
+			"ag ag ag ag ag ah ah ah ah ah ai ai ai ai ai aj aj aj aj aj ak ak ak ak ak al al al al al"
+			"am am am am am an an an an an ao ao ao ao ao ap ap ap ap ap aq aq aq aq aq ar ar ar ar ar"
+			"as as as as as at at at at at au au au au au av av av av av aw aw aw aw aw ax ax ax ax ax"
+			"ay ay ay ay ay ay az az az az az az ba ba ba ba ba ba bb bb bb bb bb bb bc bc bc bc bc bc";
 	}
 }
-@media (17.5rem <= width < 23.5rem) { /* 6 per row */
-	ion-list.aboutPage p.icons.icons24 {
-		grid-template-columns: repeat(6, 1fr);
-		grid-template-rows: repeat(4, auto);
+@media (20rem <= width < 23rem) { /* 5 / 5 / 5 / 5 / 5 / 4 */
+	ion-list.aboutPage p.icons.icons29 {
+		grid-template-areas:
+			"aa aa aa aa ab ab ab ab ac ac ac ac ad ad ad ad ae ae ae ae"
+			"af af af af ag ag ag ag ah ah ah ah ai ai ai ai aj aj aj aj"
+			"ak ak ak ak al al al al am am am am an an an an ao ao ao ao"
+			"ap ap ap ap aq aq aq aq ar ar ar ar as as as as at at at at"
+			"au au au au av av av av aw aw aw aw ax ax ax ax ay ay ay ay"
+			"az az az az az ba ba ba ba ba bb bb bb bb bb bc bc bc bc bc";
 	}
 }
-@media (15.5rem <= width < 17.5rem) { /* 4 per row */
-	ion-list.aboutPage p.icons.icons24 {
-		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: repeat(6, auto);
+@media (16rem <= width < 20rem) { /* 3 / 4 / 3 / 3 / 3 / 3 / 3 / 4 / 3 */
+	ion-list.aboutPage p.icons.icons29 {
+		grid-template-areas:
+			"aa aa aa aa ab ab ab ab ac ac ac ac"
+			"ad ad ad ae ae ae af af af ag ag ag"
+			"ah ah ah ah ai ai ai ai aj aj aj aj"
+			"ak ak ak ak al al al al am am am am"
+			"an an an an ao ao ao ao ap ap ap ap"
+			"aq aq aq aq ar ar ar ar as as as as"
+			"at at at at au au au au av av av av"
+			"aw aw aw ax ax ax ay ay ay az az az"
+			"ba ba ba ba bb bb bb bb bc bc bc bc";
+	}
+}
+@media (width < 16rem) { /* free-for-all */
+	ion-list.aboutPage p.icons.icons29 {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: stretch;
 	}
 }
 @media (width > 78rem) { /* Base */
-	ion-list.aboutPage p.icons.icons16 {
-		grid-template-columns: repeat(16, 1fr);
+	ion-list.aboutPage p.icons.icons19 {
+		grid-template-areas: "aa ab ac ad ae af ag ah ai aj ak al am an ao ap aq ar as";
 	}
 }
-@media (60rem <= width <= 78rem) { /* 8 per row */
-	ion-list.aboutPage p.icons.icons16 {
-		grid-template-columns: repeat(8, 1fr);
-		grid-template-rows: repeat(2, auto);
+@media (37.5rem <= width <= 78rem) { /* 10 / 9 */
+	ion-list.aboutPage p.icons.icons19 {
+		grid-template-areas:
+			"aa aa aa aa aa aa aa aa aa ab ab ab ab ab ab ab ab ab ac ac ac ac ac ac ac ac ac ad ad ad ad ad ad ad ad ad ae ae ae ae ae ae ae ae ae af af af af af af af af af ag ag ag ag ag ag ag ag ag ah ah ah ah ah ah ah ah ah ai ai ai ai ai ai ai ai ai aj aj aj aj aj aj aj aj aj"
+			"ak ak ak ak ak ak ak ak ak ak al al al al al al al al al al am am am am am am am am am am an an an an an an an an an an ao ao ao ao ao ao ao ao ao ao ap ap ap ap ap ap ap ap ap ap aq aq aq aq aq aq aq aq aq aq ar ar ar ar ar ar ar ar ar ar as as as as as as as as as as";
 	}
 }
-@media (57.5rem < width < 60rem) { /* Base, again */
-	ion-list.aboutPage p.icons.icons16 {
-		grid-template-columns: repeat(16, 1fr);
-		grid-template-rows: auto;
+@media (27.5rem <= width < 37.5rem) { /* 6 / 7 / 6 */
+	ion-list.aboutPage p.icons.icons19 {
+		grid-template-areas:
+			"aa aa aa aa aa aa aa ab ab ab ab ab ab ab ac ac ac ac ac ac ac ad ad ad ad ad ad ad ae ae ae ae ae ae ae af af af af af af af"
+			"ag ag ag ag ag ag ah ah ah ah ah ah ai ai ai ai ai ai aj aj aj aj aj aj ak ak ak ak ak ak al al al al al al am am am am am am"
+			"an an an an an an an ao ao ao ao ao ao ao ap ap ap ap ap ap ap aq aq aq aq aq aq aq ar ar ar ar ar ar ar as as as as as as as";
 	}
 }
-@media (23.5rem <= width < 57.5rem) { /* 8 per row */
-	ion-list.aboutPage p.icons.icons16 {
-		grid-template-columns: repeat(8, 1fr);
-		grid-template-rows: repeat(2, auto);
+@media (19.5rem <= width < 27.5rem) { /* 5 / 5 / 5 / 4 */
+	ion-list.aboutPage p.icons.icons19 {
+		grid-template-areas:
+			"aa aa aa aa ab ab ab ab ac ac ac ac ad ad ad ad ae ae ae ae"
+			"af af af af ag ag ag ag ah ah ah ah ai ai ai ai aj aj aj aj"
+			"ak ak ak ak al al al al am am am am an an an an ao ao ao ao"
+			"ap ap ap ap ap aq aq aq aq aq ar ar ar ar ar as as as as as";
 	}
 }
-@media (23.5rem <= width < 42.5rem) { /* 8 per row */
-	ion-list.aboutPage p.icons.icons16 {
-		grid-template-columns: repeat(8, 1fr);
-		grid-template-rows: repeat(2, auto);
+@media (width < 19.5rem) { /* free-for-all */
+	ion-list.aboutPage p.icons.icons19 {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: stretch;
 	}
 }
-@media (15.5rem <= width < 23.5rem) { /* 4 per row */
-	ion-list.aboutPage p.icons.icons16 {
-		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: repeat(4, auto);
-	}
+
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:first-child {
+	grid-area: aa;
 }
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(2) {
+	grid-area: ab;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(3) {
+	grid-area: ac;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(4) {
+	grid-area: ad;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(5) {
+	grid-area: ae;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(6) {
+	grid-area: af;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(7) {
+	grid-area: ag;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(8) {
+	grid-area: ah;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(9) {
+	grid-area: ai;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(10) {
+	grid-area: aj;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(11) {
+	grid-area: ak;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(12) {
+	grid-area: al;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(13) {
+	grid-area: am;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(14) {
+	grid-area: an;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(15) {
+	grid-area: ao;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(16) {
+	grid-area: ap;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(17) {
+	grid-area: aq;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(18) {
+	grid-area: ar;
+}
+ion-list.aboutPage p.icons:is(.icons19,.icons29) ion-icon:nth-child(19) {
+	grid-area: as;
+}
+ion-list.aboutPage p.icons.icons29 ion-icon:nth-child(20) {
+	grid-area: at;
+}
+ion-list.aboutPage p.icons.icons29 ion-icon:nth-child(21) {
+	grid-area: au;
+}
+ion-list.aboutPage p.icons.icons29 ion-icon:nth-child(22) {
+	grid-area: av;
+}
+ion-list.aboutPage p.icons.icons29 ion-icon:nth-child(23) {
+	grid-area: aw;
+}
+ion-list.aboutPage p.icons.icons29 ion-icon:nth-child(24) {
+	grid-area: ax;
+}
+ion-list.aboutPage p.icons.icons29 ion-icon:nth-child(25) {
+	grid-area: ay;
+}
+ion-list.aboutPage p.icons.icons29 ion-icon:nth-child(26) {
+	grid-area: az;
+}
+ion-list.aboutPage p.icons.icons29 ion-icon:nth-child(27) {
+	grid-area: ba;
+}
+ion-list.aboutPage p.icons.icons29 ion-icon:nth-child(28) {
+	grid-area: bb;
+}
+ion-list.aboutPage p.icons.icons29 ion-icon:nth-child(29) {
+	grid-area: bc;
+}
+
+
+
 ion-list.aboutPage ion-icon {
 	color: var(--ion-text-color);
 	width: 2rem;
