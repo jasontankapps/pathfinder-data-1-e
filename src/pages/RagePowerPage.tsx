@@ -14,7 +14,7 @@ type Data = typeof rage_powers;
 type Params = { id?: keyof Data };
 
 const addendaObj: GenStrict<string, ReactElement> = {
-	blood: <><strong className="hl">Blood rage powers</strong> grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers."</>,
+	blood: <><strong className="hl">Blood rage powers</strong> grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.</>,
 	totem: <><strong className="hl">Totem rage powers</strong> are only available to barbarians taking the <Link to="/arc-barbarian/Totem Warrior">Totem Warrior</Link> archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a <em>beast</em> totem rage power cannot later choose to gain any of the <em>dragon</em> totem rage powers (any rage power with "dragon totem" in its title).</>
 };
 const empty = {};

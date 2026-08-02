@@ -1453,7 +1453,7 @@
 		"category": "Totem",
 		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=def title=\"&L&&FN&\" passive=\"While *raging,* the barbarian gains a +2 bonus on saving throws against acid damage, death effects, disease, and poison. This bonus increases by 1 for each daemon totem rage power the barbarian has, excluding this one.\"}"
+			"::ab{icon=def title=\"&L&Lesser Daemon Totem&FN&\" passive=\"While *raging,* the barbarian gains a +2 bonus on saving throws against acid damage, death effects, disease, and poison. This bonus increases by 1 for each daemon totem rage power the barbarian has, excluding this one.\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1515,7 +1515,7 @@
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=def title=\"‹ragepower/Lesser Elemental Totem› (Su)&FN&\" choice=\"The barbarian selects one elemental type (air, earth, fire, or water). Once selected, this choice cannot be changed.\" passive=\"While *raging,* the barbarian gains a bonus on saving throws against spells with the selected elemental descriptor. @B-4f1-barbarian. The barbarian gains access to the elemental totem rage power matching the element she selected.\" order=cp}"
+			"::ab{icon=def title=\"&L&Lesser Elemental Totem (Su)&FN&\" choice=\"The barbarian selects one elemental type (air, earth, fire, or water). Once selected, this choice cannot be changed.\" passive=\"While *raging,* the barbarian gains a bonus on saving throws against spells with the selected elemental descriptor. @B-4f1-barbarian. The barbarian gains access to the elemental totem rage power matching the element she selected.\" order=cp}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1704,7 +1704,7 @@
 		"category": "Totem",
 		"addenda": [ "totem" ],
 		"description": [
-			"::ab{icon=def title=\"&L&&FN&\" passive=\"While *raging,* the barbarian gains a +1 deflection bonus to AC against the attacks of undead creatures and a +1 bonus on saving throws against death effects, diseases, and poisons. This bonus increases by 1 for each psychopomp totem rage power she has, excepting this one.\"}"
+			"::ab{icon=def title=\"&L&Lesser Psychopomp Totem&FN&\" passive=\"While *raging,* the barbarian gains a +1 deflection bonus to AC against the attacks of undead creatures and a +1 bonus on saving throws against death effects, diseases, and poisons. This bonus increases by 1 for each psychopomp totem rage power she has, excepting this one.\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1715,7 +1715,7 @@
 		"compilationSources": [ [ "Pathfinder #139: The Dead Road" ] ],
 		"category": "Totem",
 		"description": [
-			"::ab{icon=lower title=\"&L&&FN&\" ability=\"The first time each round a creature with ‹umr/regeneration› or ‹umr/fast healing› is struck by the barbarian while she is *raging,* the creature must succeed at a Will save (DC = 10 + half the barbarian's level + the barbarian's Strength modifier) or that ability is suppressed for 1 round.\" prereq=\"6th-level barbarian, ‹ragepower/lesser psychopomp totem›\"}"
+			"::ab{icon=lower title=\"&L&Psychopomp Totem&FN&\" ability=\"The first time each round a creature with ‹umr/regeneration› or ‹umr/fast healing› is struck by the barbarian while she is *raging,* the creature must succeed at a Will save (DC = 10 + half the barbarian's level + the barbarian's Strength modifier) or that ability is suppressed for 1 round.\" prereq=\"6th-level barbarian, ‹ragepower/lesser psychopomp totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1725,7 +1725,7 @@
 		"compilationSources": [ [ "Pathfinder #139: The Dead Road" ] ],
 		"category": "Totem",
 		"description": [
-			"::ab{icon=power-boost title=\"&L&&FN&\" passive=\"While *raging,* the barbarian can detect and locate undead creatures within 30 feet, just as if it had the ‹umr/blindsight› ability, and any weapons she wields are treated as if they had the ‹magic-enh/ghost touch› special ability.\" prereq=\"10th-level barbarian, ‹ragepower/psychopomp totem›\"}"
+			"::ab{icon=power-boost title=\"&L&Greater Psychopomp Totem&FN&\" passive=\"While *raging,* the barbarian can detect and locate undead creatures within 30 feet, just as if it had the ‹umr/blindsight› ability, and any weapons she wields are treated as if they had the ‹magic-enh/ghost touch› special ability.\" prereq=\"10th-level barbarian, ‹ragepower/psychopomp totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},

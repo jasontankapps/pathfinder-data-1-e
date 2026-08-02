@@ -1290,8 +1290,8 @@ const _greater_cult_totem = {title: "Greater Cult Totem", topLink: ["Totem Warri
 </Ability>
 </>};
 const _lesser_daemon_totem = {title: "Lesser Daemon Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures</Link></p>
-<Ability id="undefined" icon={["armor-upgrade"]}>
-<Pair single id="undefined"></Pair>
+<Ability id="lesser-daemon-totem" icon={["armor-upgrade"]}>
+<Pair single id="lesser-daemon-totem">Lesser Daemon Totem</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a +2 bonus on saving throws against acid damage, death effects, disease, and poison. This bonus increases by 1 for each daemon totem rage power the barbarian has, excluding this one.</Pair>
 </Ability>
 </>};
@@ -1334,8 +1334,8 @@ const _dragon_totem_wings = {title: "Dragon Totem Wings", topLink: ["Totem Warri
 </Ability>
 </>};
 const _lesser_elemental_totem = {title: "Lesser Elemental Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
-<Ability id="ragepowerlesser-elemental-totem-su" icon={["armor-upgrade"]}>
-<Pair single id="ragepowerlesser-elemental-totem-su"><Link to="/ragepower/lesser_elemental_totem">Lesser Elemental Totem</Link> (Su)</Pair>
+<Ability id="lesser-elemental-totem-su" icon={["armor-upgrade"]}>
+<Pair single id="lesser-elemental-totem-su">Lesser Elemental Totem (Su)</Pair>
 <Pair title="Choice">The barbarian selects one elemental type (air, earth, fire, or water). Once selected, this choice cannot be changed.</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a bonus on saving throws against spells with the selected elemental descriptor. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level. The barbarian gains access to the elemental totem rage power matching the element she selected.</Pair>
 </Ability>
@@ -1464,21 +1464,21 @@ const _greater_moon_totem = {title: "Greater Moon Totem", topLink: ["Totem Warri
 </Ability>
 </>};
 const _lesser_psychopomp_totem = {title: "Lesser Psychopomp Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], addenda: ["totem"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_139_the_dead_road">Pathfinder #139: The Dead Road</Link></p>
-<Ability id="undefined" icon={["armor-upgrade"]}>
-<Pair single id="undefined"></Pair>
+<Ability id="lesser-psychopomp-totem" icon={["armor-upgrade"]}>
+<Pair single id="lesser-psychopomp-totem">Lesser Psychopomp Totem</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a +1 deflection bonus to AC against the attacks of undead creatures and a +1 bonus on saving throws against death effects, diseases, and poisons. This bonus increases by 1 for each psychopomp totem rage power she has, excepting this one.</Pair>
 </Ability>
 </>};
 const _psychopomp_totem = {title: "Psychopomp Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_139_the_dead_road">Pathfinder #139: The Dead Road</Link></p>
-<Ability id="undefined" icon={["armor-downgrade"]}>
-<Pair single id="undefined"></Pair>
+<Ability id="psychopomp-totem" icon={["armor-downgrade"]}>
+<Pair single id="psychopomp-totem">Psychopomp Totem</Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/lesser_psychopomp_totem">lesser psychopomp totem</Link></Pair>
 <Pair title="Ability">The first time each round a creature with <Link to="/umr/regeneration">regeneration</Link> or <Link to="/umr/fast_healing">fast healing</Link> is struck by the barbarian while she is <em>raging,</em> the creature must succeed at a Will save (DC = 10 + half the barbarian's level + the barbarian's Strength modifier) or that ability is suppressed for 1 round.</Pair>
 </Ability>
 </>};
 const _greater_psychopomp_totem = {title: "Greater Psychopomp Totem", topLink: ["Totem Warrior","arc-barbarian/totem_warrior"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_139_the_dead_road">Pathfinder #139: The Dead Road</Link></p>
-<Ability id="undefined" icon={["stairs-goal","upgrade"]}>
-<Pair single id="undefined"></Pair>
+<Ability id="greater-psychopomp-totem" icon={["stairs-goal","upgrade"]}>
+<Pair single id="greater-psychopomp-totem">Greater Psychopomp Totem</Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/psychopomp_totem">psychopomp totem</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian can detect and locate undead creatures within 30 feet, just as if it had the <Link to="/umr/blindsight">blindsight</Link> ability, and any weapons she wields are treated as if they had the <Link to="/magic-enh/ghost_touch">ghost touch</Link> special ability.</Pair>
 </Ability>

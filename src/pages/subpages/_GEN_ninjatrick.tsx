@@ -355,7 +355,7 @@ const _acceleration_of_form = {title: "Acceleration of Form", topLink: ["Master 
 </Ability>
 </>};
 const _deep_cover = {title: "Deep Cover", topLink: ["Master Ninja Tricks","ability/master_tricks"], jsx: <><p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook</Link></p>
-<Ability id="deep-cover-ex" icon={["stairs-goal"]}>
+<Ability id="deep-cover-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="deep-cover-ex">Deep Cover (Ex)</Pair>
 <Pair title="Ability">A ninja with this trick gains the <em>dual identity</em> and <em>seamless guise</em> class feature as a <Link to="/class/vigilante">vigilante</Link>, except that the ninja can spend 1 ki point to change identities as a <strong className="hl">move action</strong>. The ninja's identities are referred to as social and ninja, rather than social and vigilante.</Pair>
 </Ability>

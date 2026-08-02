@@ -1140,8 +1140,8 @@ const _totem_warrior = {title: "Totem Warrior", jsx: <div className="compilation
 </Ability>
 </div>
 </div>
-<Ability id="ragepowerlesserdaemontotem-fn5-4" icon={["armor-upgrade"]}>
-<Pair single id="ragepowerlesserdaemontotem-fn5-4"><Link to="/ragepower/lesser_daemon_totem">⮞</Link>  <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-5.4" id="arc-barbarian-totem_warrior-fake-fn-5.4" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Ability id="ragepowerlesserdaemontotem-lesser-daemon-totem-fn5-4" icon={["armor-upgrade"]}>
+<Pair single id="ragepowerlesserdaemontotem-lesser-daemon-totem-fn5-4"><Link to="/ragepower/lesser_daemon_totem">⮞</Link> Lesser Daemon Totem <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-5.4" id="arc-barbarian-totem_warrior-fake-fn-5.4" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a +2 bonus on saving throws against acid damage, death effects, disease, and poison. This bonus increases by 1 for each daemon totem rage power the barbarian has, excluding this one.</Pair>
 </Ability>
 <div className="abilityGroup">
@@ -1180,8 +1180,8 @@ const _totem_warrior = {title: "Totem Warrior", jsx: <div className="compilation
 </Ability>
 </div>
 </div>
-<Ability id="ragepowerlesser-elemental-totem-su-fn7" icon={["armor-upgrade"]}>
-<Pair single id="ragepowerlesser-elemental-totem-su-fn7"><Link to="/ragepower/lesser_elemental_totem">Lesser Elemental Totem</Link> (Su) <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-7" id="arc-barbarian-totem_warrior-fake-fn-7" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Ability id="ragepowerlesserelementaltotem-lesser-elemental-totem-su-fn7" icon={["armor-upgrade"]}>
+<Pair single id="ragepowerlesserelementaltotem-lesser-elemental-totem-su-fn7"><Link to="/ragepower/lesser_elemental_totem">⮞</Link> Lesser Elemental Totem (Su) <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-7" id="arc-barbarian-totem_warrior-fake-fn-7" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Choice">The barbarian selects one elemental type (air, earth, fire, or water). Once selected, this choice cannot be changed.</Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a bonus on saving throws against spells with the selected elemental descriptor. This bonus is equal to 1 + <Link to="/misc/one_fourth">one-fourth</Link> of her barbarian level. The barbarian gains access to the elemental totem rage power matching the element she selected.</Pair>
 </Ability>
@@ -1296,19 +1296,19 @@ const _totem_warrior = {title: "Totem Warrior", jsx: <div className="compilation
 </Ability>
 </div>
 </div>
-<Ability id="ragepowerlesserpsychopomptotem-fn8" icon={["armor-upgrade"]}>
-<Pair single id="ragepowerlesserpsychopomptotem-fn8"><Link to="/ragepower/lesser_psychopomp_totem">⮞</Link>  <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-8" id="arc-barbarian-totem_warrior-fake-fn-8" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Ability id="ragepowerlesserpsychopomptotem-lesser-psychopomp-totem-fn8" icon={["armor-upgrade"]}>
+<Pair single id="ragepowerlesserpsychopomptotem-lesser-psychopomp-totem-fn8"><Link to="/ragepower/lesser_psychopomp_totem">⮞</Link> Lesser Psychopomp Totem <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-8" id="arc-barbarian-totem_warrior-fake-fn-8" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian gains a +1 deflection bonus to AC against the attacks of undead creatures and a +1 bonus on saving throws against death effects, diseases, and poisons. This bonus increases by 1 for each psychopomp totem rage power she has, excepting this one.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowerpsychopomptotem-fn8-2" icon={["armor-downgrade"]}>
-<Pair single id="ragepowerpsychopomptotem-fn8-2"><Link to="/ragepower/psychopomp_totem">⮞</Link>  <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-8.2" id="arc-barbarian-totem_warrior-fake-fn-8.2" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Ability id="ragepowerpsychopomptotem-psychopomp-totem-fn8-2" icon={["armor-downgrade"]}>
+<Pair single id="ragepowerpsychopomptotem-psychopomp-totem-fn8-2"><Link to="/ragepower/psychopomp_totem">⮞</Link> Psychopomp Totem <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-8.2" id="arc-barbarian-totem_warrior-fake-fn-8.2" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Prerequisites">6th-level barbarian, <Link to="/ragepower/lesser_psychopomp_totem">lesser psychopomp totem</Link></Pair>
 <Pair title="Ability">The first time each round a creature with <Link to="/umr/regeneration">regeneration</Link> or <Link to="/umr/fast_healing">fast healing</Link> is struck by the barbarian while she is <em>raging,</em> the creature must succeed at a Will save (DC = 10 + half the barbarian's level + the barbarian's Strength modifier) or that ability is suppressed for 1 round.</Pair>
 </Ability>
 <div className="abilityGroup">
-<Ability id="ragepowergreaterpsychopomptotem-fn8-3" icon={["stairs-goal","upgrade"]}>
-<Pair single id="ragepowergreaterpsychopomptotem-fn8-3"><Link to="/ragepower/greater_psychopomp_totem">⮞</Link>  <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-8.3" id="arc-barbarian-totem_warrior-fake-fn-8.3" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Ability id="ragepowergreaterpsychopomptotem-greater-psychopomp-totem-fn8-3" icon={["stairs-goal","upgrade"]}>
+<Pair single id="ragepowergreaterpsychopomptotem-greater-psychopomp-totem-fn8-3"><Link to="/ragepower/greater_psychopomp_totem">⮞</Link> Greater Psychopomp Totem <sup><InnerLink showBacklink="backlink-arc-barbarian-totem_warrior-fake-fn-8.3" id="arc-barbarian-totem_warrior-fake-fn-8.3" data-hash-target to="arc-barbarian-totem_warrior-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Prerequisites">10th-level barbarian, <Link to="/ragepower/psychopomp_totem">psychopomp totem</Link></Pair>
 <Pair title="Passive Ability">While <em>raging,</em> the barbarian can detect and locate undead creatures within 30 feet, just as if it had the <Link to="/umr/blindsight">blindsight</Link> ability, and any weapons she wields are treated as if they had the <Link to="/magic-enh/ghost_touch">ghost touch</Link> special ability.</Pair>
 </Ability>

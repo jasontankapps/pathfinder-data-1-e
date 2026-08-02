@@ -5,6 +5,7 @@ import {Block,Row,Cell} from '../../components/Block';
 const _not_found = {title: "Unknown", jsx: <><p>Unable to find the requested unchained eidolon subtype.</p>
 </>};
 const _aberrant = {title: "Aberrant", jsx: <><p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms pg. 18</Link></p>
+<h2>Aberrant</h2>
 <p>Alien entities from the farthest stars, the lightless depths of the Darklands, the sea itself, or even a lunatic's nightmares have long intrigued summoners who become obsessed with the monstrous form. While most summoners call upon outsiders from the Great Beyond, some discover the secret to summoning alien entities from strange corners of the Material Plane. These summoned minions are known as aberrant eidolons. Aberrant eidolons share many abilities and physical features with the nonoutsider aberrations that dwell in forgotten or nameless reaches of reality, but these malformed entities are still outsiders like any other eidolon for the purposes of determining which spells affect them.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic evil, chaotic neutral, neutral, or neutral evil.</Cell></Row>
@@ -20,6 +21,7 @@ const _aberrant = {title: "Aberrant", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _aeon = {title: "Aeon", jsx: <><p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook pg. 24</Link></p>
+<h2>Aeon</h2>
 <p>Created to monitor a specific duality, an aeon eidolon often proves frustratingly headstrong in enforcing its own interpretation of balance.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral.</Cell></Row>
@@ -39,6 +41,7 @@ const _aeon = {title: "Aeon", jsx: <><p><strong>Sources</strong> <Link to="/sour
 </Ability>
 </>};
 const _agathion = {title: "Agathion", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 29</Link></p>
+<h2>Agathion</h2>
 <p>Patient and enlightened liaisons of the good-aligned Outer Planes, <Link to="/family/agathion">agathion</Link> eidolons seek to vanquish evil and protect that which is good. Agathion eidolons always have aspects of a single animal or creature, rather than a hodgepodge of several. Though they have patience for summoners with unorthodox methods and even those who stray from the path of good, they will not brook their powers being used for evil ends. An agathion eidolon seeks to bring its summoner closer to its own enlightenment.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral good.</Cell></Row>
@@ -54,6 +57,7 @@ const _agathion = {title: "Agathion", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _ancestor = {title: "Ancestor", jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 31</Link></p>
+<h2>Ancestor</h2>
 <p>Whether created by bonding with the soul of a petitioner that was the summoner's ancestor in life or calling upon the impressions of such a soul left behind on the Ethereal Plane or the Akashic Record, ancestor eidolons are outsiders cast in the mold of mortals, and exhibit extraordinary skill and talent. They usually appear as idealized versions of the bodies they possessed while still alive, but distinctive and proud. Ancestor eidolons lend whatever aid they can to their summoner, who typically has some form of familial connection with the eidolon, be it by blood, honor, or devotion.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any. Ancestor eidolons don't have any alignment subtypes.</Cell></Row>
@@ -69,6 +73,7 @@ const _ancestor = {title: "Ancestor", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _angel = {title: "Angel", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 30</Link></p>
+<h2>Angel</h2>
 <p>Hailing from the higher planes, <Link to="/family/angel">angel</Link> eidolons are creatures of exquisite beauty. They usually appear in idealized humanoid forms, with smooth skin, shining hair, and bright eyes. Angel eidolons are impeccably honorable, trustworthy, and diplomatic, but they do not shy away from confrontation when facing off against evil and its minions.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any good.</Cell></Row>
@@ -84,6 +89,7 @@ const _angel = {title: "Angel", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _archon = {title: "Archon", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 30</Link></p>
+<h2>Archon</h2>
 <p>Summoned from heaven, <Link to="/family/archon">archon</Link> eidolons are the embodiments of righteousness. They often take on powerful, graceful forms, rippling with muscles but refined in their movements. Archon eidolons are totally dedicated to the cause of good, and have little patience for those who violate their oaths and ideals - including the summoner who called them. Archons will do whatever it takes to stop the advance of evil and protect the innocent.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Lawful good.</Cell></Row>
@@ -99,6 +105,7 @@ const _archon = {title: "Archon", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _astral = {title: "Astral", jsx: <><p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook pg. 24</Link></p>
+<h2>Astral</h2>
 <p>While some resemble ouroboroses, most astral eidolons are spun from raw thought or the husks of Astral travelers whose silver cords broke.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral.</Cell></Row>
@@ -122,6 +129,7 @@ const _astral = {title: "Astral", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _azata = {title: "Azata", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 30</Link></p>
+<h2>Azata</h2>
 <p>Embodiments of the untamable beauty and noble passion of Elysium, <Link to="/family/azata">azata</Link> eidolons have wild and beautiful features. They often take graceful forms reminiscent of elves or fey, but they occasionally appear like lillends, with serpentine tails. Azata eidolons are flighty and independent, and they often have their own ideas about how to defeat evil or have a good time. Thus, an azata eidolon is likely to balk if its summoner commands it to perform offensive or nefarious actions. On the other hand, an azata eidolon in sync with its summoner is a passionate and devoted companion.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic good.</Cell></Row>
@@ -137,6 +145,7 @@ const _azata = {title: "Azata", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _daemon = {title: "Daemon", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 31</Link></p>
+<h2>Daemon</h2>
 <p>The agents of horrible deaths, <Link to="/family/daemon">daemon</Link> eidolons desire the utter annihilation of all things. Their forms vary wildly depending on which type of death they embody, and daemon eidolons sometimes represent a more obscure kind of death than the most famous daemons. Daemon eidolons wish to sow death and misery through a variety of means. Most are capable of seeing the big picture, and will obediently follow even a neutral summoner. Ending lives is a typical part of an adventurer's career, so following along with a summoner gives a daemon eidolon many opportunities to gather mortal soul energy for its own dark and inscrutable purposes.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral evil.</Cell></Row>
@@ -152,6 +161,7 @@ const _daemon = {title: "Daemon", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _deepwater = {title: "Deepwater", jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 23</Link></p>
+<h2>Deepwater</h2>
 <p>The vast, lightless reaches of the sea are home to creatures of unimaginable power with connections to dangerous planes. A few rare summoners attempt to conjure forth eidolons from these cold, alien depths, drawing forth utterly inhuman allies with squirming tentacles and gnashing beaks. Although these eidolons may superficially resemble primeval beasts such as <Link to="/monster/aboleth">aboleths</Link>, <Link to="/monster/kraken">krakens</Link>, or monstrous squids or eels - if they resemble any previously encountered deep-sea life-form at all - they are outsiders like any other eidolon for the purposes of spells and effects that affect them.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic evil, chaotic neutral, neutral, or neutral evil.</Cell></Row>
@@ -167,6 +177,7 @@ const _deepwater = {title: "Deepwater", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _demon = {title: "Demon", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 31</Link></p>
+<h2>Demon</h2>
 <p>Raw destruction given material substance, <Link to="/family/demon">demon</Link> eidolons form out of the Abyss's stew of soul energy, leading some scholars to speculate that the summoner's arts are related to the magical tampering that gave rise to the first demons. Demon eidolons revel in causing destruction and inflicting suffering, and they will do so for their summoners without question, taking pleasure in whatever havoc they can create. For a demon eidolon, the means justify the ends.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic evil.</Cell></Row>
@@ -182,6 +193,7 @@ const _demon = {title: "Demon", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _devil = {title: "Devil", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 32</Link></p>
+<h2>Devil</h2>
 <p>Corruptors, tempters, and despoilers, <Link to="/family/devil">devil</Link> eidolons often serve their summoners obediently and efficiently, all in a long-term attempt to damn the summoner's soul to the deepest depths of Hell. While some types of devils have truly unusual forms, devil eidolons have found that the more traditional bipedal form allows them to build up a strong rapport with their summoners - and consequently to corrupt them - more easily than if they possessed a more monstrous appearance.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Lawful evil.</Cell></Row>
@@ -197,6 +209,7 @@ const _devil = {title: "Devil", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _div = {title: "Div", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 32</Link></p>
+<h2>Div</h2>
 <p>Formed of hatred and spite, <Link to="/family/div">div</Link> eidolons seek to despoil and ruin all things beautiful and joyous. Div eidolons particularly resent having mortal masters, and seek to doom their summoners to existences full of suffering and loss. Each div eidolon has a unique compulsion it must follow - usually something similar to the <Link to="/monster/doru">doru's</Link> obsession with secrets - that leads it to bargain its loyalty for something the summoner provides. The div's summoner uses his eidolon's compulsion to entrap and control the eidolon. Still, div eidolons never fully give in, and continue to plot ways they might corrupt that which their masters hold dearest.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral evil.</Cell></Row>
@@ -212,6 +225,7 @@ const _div = {title: "Div", jsx: <><p><strong>Sources</strong> <Link to="/source
 </Ability>
 </>};
 const _elemental = {title: "Elemental", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 33</Link></p>
+<h2>Elemental</h2>
 <p>Pulled in from one of the four elemental planes, these eidolons are linked to one of the four elements: air, earth, fire, or water. Generally, an <Link to="/family/elemental">elemental</Link> eidolon appears as a creature made entirely of one element, but there is some variation. Elemental eidolons are decidedly moderate in their views and actions. They tend to avoid the conflicts of others when they can and seek to maintain balance. The only exception is when facing off against emissaries of their opposing elements, which they hate utterly.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral.</Cell></Row>
@@ -228,6 +242,7 @@ const _elemental = {title: "Elemental", jsx: <><p><strong>Sources</strong> <Link
 </Ability>
 </>};
 const _genie = {title: "Genie", jsx: <><p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook pg. 27</Link></p>
+<h2>Genie</h2>
 <p>Genies are elemental beings that take humanoid forms, and <Link to="/family/genie">genie</Link> eidolons often vacillate between humble kowtowing and biting observations about the summoner's foibles that make the eidolon look superior.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic good, chaotic neutral, lawful evil, lawful neutral, or neutral.</Cell></Row>
@@ -243,6 +258,7 @@ const _genie = {title: "Genie", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _inevitable = {title: "Inevitable", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 33</Link></p>
+<h2>Inevitable</h2>
 <p>Implacable and ceaseless in their fight against chaos and those who break natural laws, <Link to="/family/inevitable">inevitables</Link> make loyal, if literal-minded, companions for lawful summoners. Summoners of inevitables generally get along well with axiomites, who share their understanding of the process of forging and modifying an inevitable. Inevitable eidolons appear as a mixture between clockwork constructs and idealized humanoid statues.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Lawful neutral.</Cell></Row>
@@ -258,6 +274,7 @@ const _inevitable = {title: "Inevitable", jsx: <><p><strong>Sources</strong> <Li
 </Ability>
 </>};
 const _kami = {title: "Kami", jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 18</Link></p>
+<h2>Kami</h2>
 <p><Link to="/family/kami">Kami</Link> eidolons are spirits of nature bound to an unchained summoner. They seek to protect their wards, but because of their summoner's bond, they have more flexibility choosing their wards than most of their kind.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any non-evil. Kami eidolons do not have an alignment subtype, instead having the <Link to="/subtype/native">native</Link> subtype.</Cell></Row>
@@ -273,6 +290,7 @@ const _kami = {title: "Kami", jsx: <><p><strong>Sources</strong> <Link to="/sour
 </Ability>
 </>};
 const _kyton = {title: "Kyton", jsx: <><p><strong>Sources</strong> <Link to="/source/curse_of_the_crimson_throne">Curse of the Crimson Throne pg. 431</Link></p>
+<h2>Kyton</h2>
 <p>Scholars of the exquisiteness of agony and explorers of the limitations of the flesh, <Link to="/family/kyton">kytons</Link> understand the mortal form is a blank canvas aching for transformation. They appear as humanoids, save that they are covered in piercings, draped with chains, and bear grisly body modifications. Kyton eidolons gain access to the <Link to="/unchevolution/tentacle">tentacle</Link> and <Link to="/unchevolution/web">web</Link> evolutions, but kyton eidolon tentacles and webs always appear as animated chains.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Lawful evil.</Cell></Row>
@@ -290,6 +308,7 @@ const _kyton = {title: "Kyton", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _plant = {title: "Plant", jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 95</Link></p>
+<h2>Plant</h2>
 <p>Plant eidolons consist of vegetable matter infused with raw natural spiritual power.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any. Plant eidolons don't have alignment subtypes.</Cell></Row>
@@ -305,6 +324,7 @@ const _plant = {title: "Plant", jsx: <><p><strong>Sources</strong> <Link to="/so
 </Ability>
 </>};
 const _protean = {title: "Protean", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 33</Link></p>
+<h2>Protean</h2>
 <p>Serpentine beings of pure chaos, <Link to="/family/protean">proteans</Link> seek to reshape reality. Protean eidolons appreciate creative summoners who often rebuild their forms and make liberal use of the <Link to="/spell/transmogrify">transmogrify</Link> spell. Beyond that, protean eidolons are happy to work with their summoners for any purpose, though they are quick to remind their summoners that while they have a mutually beneficial relationship, they are not servants.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Chaotic neutral.</Cell></Row>
@@ -320,6 +340,7 @@ const _protean = {title: "Protean", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _psychopomp = {title: "Psychopomp", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 34</Link></p>
+<h2>Psychopomp</h2>
 <p>Stewards, chroniclers, and guides of all things that die, <Link to="/family/psychopomp">psychopomps</Link> make dispassionate yet loyal eidolons. When they deal with the world of mortals, psychopomp eidolons nearly always wear masks. They do not tolerate summoners who traffic with daemons, undead, and other entities that interfere with the transmigration of souls, but otherwise they are comfortable with most actions on the summoner's part. When the summoner dies, a psychopomp eidolon personally escorts him to the afterlife and serves as an expert witness when it is time for him to be judged.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral.</Cell></Row>
@@ -335,6 +356,7 @@ const _psychopomp = {title: "Psychopomp", jsx: <><p><strong>Sources</strong> <Li
 </Ability>
 </>};
 const _radiant = {title: "Radiant", jsx: <><p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook pg. 25</Link></p>
+<h2>Radiant</h2>
 <p>Practically glowing with the Positive Energy Plane's potential, radiant eidolons make for passionate, if judgmental, companions that often have avian features.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral.</Cell></Row>
@@ -350,6 +372,7 @@ const _radiant = {title: "Radiant", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _shadow = {title: "Shadow", jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_shadows">Blood of Shadows pg. 11</Link></p>
+<h2>Shadow</h2>
 <p>Summoned from the dreary shadowscapes of the Shadow Plane, shadow eidolons are grim, colorless mockeries of creatures that inhabit the Material Plane. Shadow eidolons resent being pulled into the unbearable brightness of the Material Plane. Despite this, shadow eidolons serve their summoners with somberness, acknowledging that shadow cannot exist without light.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any nongood.</Cell></Row>
@@ -365,6 +388,7 @@ const _shadow = {title: "Shadow", jsx: <><p><strong>Sources</strong> <Link to="/
 </Ability>
 </>};
 const _storykin = {title: "Storykin", jsx: <><p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook pg. 26</Link></p>
+<h2>Storykin</h2>
 <p>The storykin are avatars of the harrow deck's cards, brought to life through the power of the <Link to="/rule/harrowed_realm">Harrowed Realm</Link>. Most of the storykin are limited in their autonomy, spending their lives acting out the roles in the stories they originated from. The form and alignment of a storykin eidolon is dependent on the harrow card the eidolon is based on. You can reference an actual <Link to="/eq-misc/harrow_deck">harrow deck</Link> for these eidolons, but you can also simulate the suit and alignment of an eidolon from a harrow deck.</p>
 <Block size="simple">
 <Row><Cell>Restriction</Cell><Cell>To select a storykin eidolon, the player must possess a Harrow Deck or Deluxe Harrow Deck.</Cell></Row>
@@ -382,6 +406,7 @@ const _storykin = {title: "Storykin", jsx: <><p><strong>Sources</strong> <Link t
 </Ability>
 </>};
 const _twinned = {title: "Twinned", jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 18</Link></p>
+<h2>Twinned</h2>
 <p>Just like a summoner, a twinned eidolon learns to use weapons and magic. While twinned eidolons are ethically more flexible than most eidolons, they are quite adamant about being treated as equals and not as servants. They demonstrate an eerie consistency with the summoner's manner of thinking, providing similar answers to questions and reacting similarly to startling events. This subtype is restricted to <Link to="/arc-unchained_summoner/twinned_summoner">twinned summoners</Link>.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Any.</Cell></Row>
@@ -397,6 +422,7 @@ const _twinned = {title: "Twinned", jsx: <><p><strong>Sources</strong> <Link to=
 </Ability>
 </>};
 const _void = {title: "Void", jsx: <><p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook pg. 25</Link></p>
+<h2>Void</h2>
 <p>Like the sharp-angled <Link to="/monster/sceaduinar">sceaduinars</Link> they resemble, void eidolons exult in entropy and resent anything bearing even a hint of life - including their summoners.</p>
 <Block size="simple">
 <Row><Cell>Alignment</Cell><Cell>Neutral or neutral evil.</Cell></Row>

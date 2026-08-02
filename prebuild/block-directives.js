@@ -172,19 +172,20 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				}
 				return `${maybeClear}${output}info="${text}" />`;
 			} else if ((n.length === 2) && (("h2h3h4h5h6".indexOf(n) % 2) === 0)) {
-				churn(n, attrs, ["clear","jl","id","extra","anchor"], [], logError);
+				churn(n, attrs, ["clear","jl","id","extra","anchor","text"], [], logError);
+				const content = makeNewMarkedInstance().parseInline(convertEncodedInfo(text || attrs.text || "MISSING"));
 				if(attrs.jl) {
 					const id = prefix + (attrs.id || makeValidID(text));
-					addToJumpList(text, id, attrs.jl);
+					addToJumpList(content, id, attrs.jl);
 					if(attrs.extra) {
-						return `${maybeClear}<${n} id="${id}" data-hash-target>${text} ${attrs.extra}</${n}>\n`;
+						return `${maybeClear}<${n} id="${id}" data-hash-target>${content} ${attrs.extra}</${n}>\n`;
 					}
-					return `${maybeClear}<${n} id="${id}" data-hash-target>${text}</${n}>\n`;
+					return `${maybeClear}<${n} id="${id}" data-hash-target>${content}</${n}>\n`;
 				} else if (attrs.anchor) {
-					const id = prefix + (attrs.id || makeValidID(text));
-					return `${maybeClear}<${n} id="${id}" data-hash-target>${text}</${n}>\n`;
+					const id = prefix + (attrs.id || makeValidID(content));
+					return `${maybeClear}<${n} id="${id}" data-hash-target>${content}</${n}>\n`;
 				}
-				return `${maybeClear}<${n}>${text}</${n}>\n`;
+				return `${maybeClear}<${n}>${content}</${n}>\n`;
 			} else if ((n.length === 3) && (("hl2hl3hl4hl5hl6".indexOf(n) % 3) === 0)) {
 				churn(n, attrs, ["clear","pre","post","jl","id"], [], logError);
 				const m = checkForEncodedLink(text, { bare: true });
