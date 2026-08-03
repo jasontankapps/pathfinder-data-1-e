@@ -30,9 +30,11 @@ const Ability: FC<PropsWithChildren<AbilityProps>> = (props) => {
 	const cId = useContext(IdContext) + id;
 	return (
 		<div className={className}>
-			<div className="abIcon">
-				<Icon icon={icon} id={cId} />
-			</div>
+			{icon.length ? (
+				<div className="abIcon">
+					<Icon icon={icon} id={cId} />
+				</div>
+			) : ""}
 			{children}
 		</div>
 	);

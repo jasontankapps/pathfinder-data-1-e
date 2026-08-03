@@ -11,6 +11,7 @@ import makeMonsterStatisticsBlock from './block/mstats.js';
 import makeMonsterEcologyBlock from './block/meco.js';
 import makePrerequisiteBlock from './block/prereq.js';
 import makeAbilityBlock from './block/ab.js';
+import makeTraitBlock from './block/trait.js';
 import makeSpellAbilityBlock from './block/spellAb.js';
 import makeSpellListBlock from './block/spelllist.js';
 import makeListBlock from './block/list.js';
@@ -451,6 +452,25 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					addToJumpList(text, prefix + jlid, attrs.jl);
 				}
 				return makeAbilityBlock({
+					marked2, prefix, jlid, text,
+					convertEncodedInfo, maybeClear,
+					attrs, logError, flags
+				});
+			} else if (n === "trait") {
+				//
+				churn(n, attrs, [
+					"clear", "jl", "id", "type",
+					"campaign", "religion", "region",
+					"title", "benefit", "req", "flavor",
+					"sub", "subs", "head", "indent"
+				], [], logError);
+				flags.ability = true;
+				const marked2 = makeNewMarkedInstance();
+				const jlid = (attrs.id || makeValidID(text || attrs.title));
+				if(attrs.jl) {
+					addToJumpList(text, prefix + jlid, attrs.jl);
+				}
+				return makeTraitBlock({
 					marked2, prefix, jlid, text,
 					convertEncodedInfo, maybeClear,
 					attrs, logError, flags
