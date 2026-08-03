@@ -11,13 +11,7 @@
 				],
 				{
 					"limit": "Generic Race",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -34,23 +28,11 @@
 				],
 				{
 					"limit": { "regex": "\\bDwarf\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bDwarf-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -67,23 +49,11 @@
 				],
 				{
 					"limit": { "regex": "\\bElf\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bElf-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -100,13 +70,7 @@
 				],
 				{
 					"limit": "Gnome",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -123,23 +87,11 @@
 				],
 				{
 					"limit": { "regex": "\\bHalf-elf\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bHalf-elf-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -156,23 +108,11 @@
 				],
 				{
 					"limit": { "regex": "\\bHalf-orc\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bHalf-orc-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -189,23 +129,11 @@
 				],
 				{
 					"limit": { "regex": "\\bHalfling\\b(?!-| Deities)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bHalfling-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -228,13 +156,7 @@
 				],
 				{
 					"limit": { "regex": "\\bHuman\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				[
 					"",
@@ -280,13 +202,7 @@
 				],
 				{
 					"limit": { "regex": "\\bHuman-Chelaxian\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -303,13 +219,7 @@
 				],
 				{
 					"limit": "Human-Garundi",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -326,13 +236,7 @@
 				],
 				{
 					"limit": "Human-Keleshite",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -349,13 +253,7 @@
 				],
 				{
 					"limit": "Human-Kellid",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -372,13 +270,7 @@
 				],
 				{
 					"limit": "Human-Mwangi",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -395,13 +287,7 @@
 				],
 				{
 					"limit": { "regex": "\\bHuman-Shoanti\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -418,13 +304,7 @@
 				],
 				{
 					"limit": "Human-Taldan",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -441,13 +321,7 @@
 				],
 				{
 					"limit": "Human-Tian",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -464,13 +338,7 @@
 				],
 				{
 					"limit": "Human-Ulfen",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -487,13 +355,7 @@
 				],
 				{
 					"limit": "Human-Varisian",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -510,13 +372,7 @@
 				],
 				{
 					"limit": "Human-Vudrani",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -533,13 +389,7 @@
 				],
 				{
 					"limit": { "regex": "\\bHuman-Misc-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -556,23 +406,11 @@
 				],
 				{
 					"limit": { "regex": "\\bAasimar\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bAasimar-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -589,13 +427,7 @@
 				],
 				{
 					"limit": "Android",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -612,13 +444,7 @@
 				],
 				{
 					"limit": "Catfolk",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -635,13 +461,7 @@
 				],
 				{
 					"limit": "Changeling",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -658,23 +478,11 @@
 				],
 				{
 					"limit": { "regex": "\\bDhampir\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bDhampir-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -691,13 +499,7 @@
 				],
 				{
 					"limit": "Drow",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -714,13 +516,7 @@
 				],
 				{
 					"limit": "Fetchling",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -743,23 +539,11 @@
 				],
 				{
 					"limit": { "regex": "\\bGeniekin\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bGeniekin-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -776,13 +560,7 @@
 				],
 				{
 					"limit": "Goblin",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -799,13 +577,7 @@
 				],
 				{
 					"limit": "Kasatha",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -822,13 +594,7 @@
 				],
 				{
 					"limit": "Kitsune",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -845,23 +611,11 @@
 				],
 				{
 					"limit": { "regex": "\\bKobold\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bKobold-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -878,13 +632,7 @@
 				],
 				{
 					"limit": "Lashunta",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -901,13 +649,7 @@
 				],
 				{
 					"limit": { "regex": "\\bOrc\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -924,13 +666,7 @@
 				],
 				{
 					"limit": "Ratfolk",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -947,23 +683,11 @@
 				],
 				{
 					"limit": { "regex": "\\bSkinwalker\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bSkinwalker-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -980,23 +704,11 @@
 				],
 				{
 					"limit": { "regex": "\\bTiefling\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bTiefling-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -1013,13 +725,7 @@
 				],
 				{
 					"limit": "Triaxian",
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				}
 			]
 		}
@@ -1036,13 +742,7 @@
 				],
 				{
 					"limit": { "regex": "\\bVampire-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -1059,13 +759,7 @@
 				],
 				{
 					"limit": { "regex": "\\bOther Races-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
