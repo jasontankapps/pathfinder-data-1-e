@@ -11,23 +11,11 @@
 				],
 				{
 					"limit": { "regex": "\\bTian Xia\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bTian Xia-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -44,13 +32,7 @@
 				],
 				{
 					"limit": { "regex": "\\bNCAvistan-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -67,13 +49,7 @@
 				],
 				{
 					"limit": { "regex": "\\bCasmaron-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -90,13 +66,7 @@
 				],
 				{
 					"limit": { "regex": "\\bWestAvistan-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -113,13 +83,7 @@
 				],
 				{
 					"limit": { "regex": "\\bNEAvistan-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -136,13 +100,7 @@
 				],
 				{
 					"limit": { "regex": "\\bSEAvistan-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -159,13 +117,7 @@
 				],
 				{
 					"limit": { "regex": "\\bSWAvistan-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -182,23 +134,11 @@
 				],
 				{
 					"limit": { "regex": "\\bDarklands\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bDarklands-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -215,13 +155,7 @@
 				],
 				{
 					"limit": { "regex": "\\bExtraplanar-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -238,23 +172,11 @@
 				],
 				{
 					"limit": { "regex": "\\bEye of Abendego\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bEye of Abendego-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -271,13 +193,7 @@
 				],
 				{
 					"limit": { "regex": "\\bGeneric-[^,]+\\b" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -294,13 +210,7 @@
 				],
 				{
 					"limit": { "regex": "\\bNWGarund-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -317,13 +227,7 @@
 				],
 				{
 					"limit": { "regex": "\\bNEGarund-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -340,23 +244,11 @@
 				],
 				{
 					"limit": { "regex": "\\bLung Wa\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bLung Wa-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -373,23 +265,11 @@
 				],
 				{
 					"limit": { "regex": "\\bMana Wastes\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bMana Wastes-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -406,23 +286,11 @@
 				],
 				{
 					"limit": { "regex": "\\bMwangi Expanse\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bMwangi Expanse-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -439,23 +307,11 @@
 				],
 				{
 					"limit": { "regex": "\\bRiver Kingdoms\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bRiver Kingdoms-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}

@@ -655,13 +655,7 @@
 		"compilationSources": [ [ "Giant Hunter's Handbook" ] ],
 		"category": "Generic-tundra",
 		"description": [
-			"type=\"Regional\" region=\"tundra\" ",
-			"",
-			"You were part of a group that was mercilessly attacked by giants of the tundra, who may have gone so far as to eat the dead and dying. After that, little can faze you, but you strongly prefer to finish fights with giants quickly to prevent anything like that from happening again. You gain a +2 trait bonus on attack rolls to confirm critical hits against giants and on saving throws against fear effects.",
-			"",
-			"Likely Regions: Brevoy, Irrisen, Lands of the Linnorm Kings, Mendev, Realm of the Mammoth Lords.",
-			"",
-			"Likely giants: Cloud, Frost, River, Rune, Taiga"
+			"::trait{title=\"&L&Chilled by Brutality&FN&\" type=\"Regional\" region=\"tundra\" flavor=\"You were part of a group that was mercilessly attacked by giants of the tundra, who may have gone so far as to eat the dead and dying. After that, little can faze you, but you strongly prefer to finish fights with giants quickly to prevent anything like that from happening again.\" benefit=\"You gain a +2 trait bonus on attack rolls to confirm critical hits against giants and on saving throws against fear effects.~~~**Likely Regions:** Brevoy, Irrisen, Lands of the Linnorm Kings, Mendev, Realm of the Mammoth Lords.~~~**Likely giants:** Cloud, Frost, River, Rune, Taiga\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1251,11 +1245,7 @@
 		"compilationSources": [ [ "Giant Hunter's Handbook" ] ],
 		"category": "Generic-forest jungle or taiga",
 		"description": [
-			"type=\"Regional\" region=\"forest, jungle, or taiga\" ",
-			"",
-			"You are familiar with the primeval magic of forest-dwelling giants and have witnessed their close attention to the natural world around them, whether because your tribe engaged in trade with those giants or because you stumbled into their territory. The experience opened your eyes to the workings of nature and magic. You gain a +1 trait bonus on Survival checks and Spellcraft checks. You can always take 10 on Spellcraft checks to identify spell-like abilities.",
-			"",
-			"Likely Regions: Kyonin, Lands of the Linnorm Kings, Mwangi Expanse, Nirmathas, River Kingdoms, Taldor."
+			"::trait{title=\"&L&Enchanted by Giants&FN&\" type=\"Regional\" region=\"forest, jungle, or taiga\" flavor=\"You are familiar with the primeval magic of forest-dwelling giants and have witnessed their close attention to the natural world around them, whether because your tribe engaged in trade with those giants or because you stumbled into their territory. The experience opened your eyes to the workings of nature and magic.\" benefit=\"You gain a +1 trait bonus on Survival checks and Spellcraft checks. You can always take 10 on Spellcraft checks to identify spell-like abilities.~~~**Likely Regions:** Kyonin, Lands of the Linnorm Kings, Mwangi Expanse, Nirmathas, River Kingdoms, Taldor.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1591,13 +1581,7 @@
 		"compilationSources": [ [ "Giant Hunter's Handbook" ] ],
 		"category": "Generic-temperate highlands",
 		"description": [
-			"type=\"Regional\" region=\"temperate highlands\" ",
-			"",
-			"You witnessed or were otherwise strongly influenced by two separate acts by giants, one of great beneficence and one of great violence. You reflexively gauge the intentions of powerful creatures in case they turn to violence. You gain a +1 trait bonus on initiative checks. You also gain a +1 trait bonus on Sense Motive checks, and a +2 trait bonus on Perception checks to not be surprised in a surprise round of combat.",
-			"",
-			"Likely Regions: Isger, Molthune, Numeria, Realm of the Mammoth Lords, Varisia.",
-			"",
-			"Likely giants: Cloud, Hill, River, Stone"
+			"::trait{title=\"&L&Giant Ambivalence&FN&\" type=\"Regional\" region=\"temperate highlands\" flavor=\"You witnessed or were otherwise strongly influenced by two separate acts by giants, one of great beneficence and one of great violence. You reflexively gauge the intentions of powerful creatures in case they turn to violence.\" benefit=\"You gain a +1 trait bonus on initiative checks. You also gain a +1 trait bonus on Sense Motive checks, and a +2 trait bonus on Perception checks to not be surprised in a surprise round of combat.~~~**Likely Regions:** Isger, Molthune, Numeria, Realm of the Mammoth Lords, Varisia.~~~**Likely giants:** Cloud, Hill, River, Stone\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1606,13 +1590,7 @@
 		"compilationSources": [ [ "Giant Hunter's Handbook" ] ],
 		"category": "Generic-desert",
 		"description": [
-			"type=\"Regional\" region=\"desert\" ",
-			"",
-			"In your youth, you were chased by giants for trespassing - or for sport - and you have learned to evade the reach of your opponents. You gain a +3 bonus on Acrobatics checks to avoid provoking an attack of opportunity when moving out of a threatened space.",
-			"",
-			"Likely Regions: Katapesh, Osirion, Qadira, Rahadoum, Thuvia.",
-			"",
-			"Likely giants: Cliff, Desert, River"
+			"::trait{title=\"&L&Giant Dodger&FN&\" type=\"Regional\" region=\"desert\" flavor=\"In your youth, you were chased by giants for trespassing - or for sport - and you have learned to evade the reach of your opponents.\" benefit=\"You gain a +3 bonus on Acrobatics checks to avoid provoking an attack of opportunity when moving out of a threatened space.~~~**Likely Regions:** Katapesh, Osirion, Qadira, Rahadoum, Thuvia.~~~**Likely giants:** Cliff, Desert, River\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1621,13 +1599,7 @@
 		"compilationSources": [ [ "Giant Hunter's Handbook" ] ],
 		"category": "Generic-coastal",
 		"description": [
-			"type=\"Regional\" region=\"coastal\" ",
-			"",
-			"As a result of your attempts to understand a rare encounter with the unearthly divine magic or secretive movements of coast-dwelling giants, you have learned to carefully consider all facts related to a mystery and form deductions after taking time to mull over an unanswered question. Whenever you fail a Knowledge (local) or Knowledge (religion) check, you can attempt the check again in 24 hours with a +2 bonus to represent your careful formation of a new deduction. Additionally, you can attempt such skill checks untrained when the checks involve giants.",
-			"",
-			"Likely Regions: Katapesh, Lands of the Linnorm Kings, Mwangi Expanse, Rahadoum, the Shackles, Varisia.",
-			"",
-			"Likely giants: Marsh, Ocean, River, Storm, Taiga"
+			"::trait{title=\"&L&Giant Investigator&FN&\" type=\"Regional\" region=\"coastal\" flavor=\"As a result of your attempts to understand a rare encounter with the unearthly divine magic or secretive movements of coast-dwelling giants, you have learned to carefully consider all facts related to a mystery and form deductions after taking time to mull over an unanswered question.\" benefit=\"Whenever you fail a Knowledge (local) or Knowledge (religion) check, you can attempt the check again in 24 hours with a +2 bonus to represent your careful formation of a new deduction. Additionally, you can attempt such skill checks untrained when the checks involve giants.~~~**Likely Regions:** Katapesh, Lands of the Linnorm Kings, Mwangi Expanse, Rahadoum, the Shackles, Varisia.~~~**Likely giants:** Marsh, Ocean, River, Storm, Taiga\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1636,13 +1608,7 @@
 		"compilationSources": [ [ "Giant Hunter's Handbook" ] ],
 		"category": "Generic-wasteland",
 		"description": [
-			"type=\"Regional\" region=\"wasteland\" ",
-			"",
-			"You were robbed by giants or nearly killed by a giant's prank, and the experience gave you a keen instinct for outmaneuvering bigger creatures. You gain a +1 trait bonus on combat maneuver checks against creatures larger than you and a +1 trait bonus to CMD against such creatures.",
-			"",
-			"Likely Regions: Geb, Mana Wastes, Nex, Nidal, Numeria.",
-			"",
-			"Likely giants: Ash, Hill, River, Shadow"
+			"::trait{title=\"&L&Giant-Harried&FN&\" type=\"Regional\" region=\"wasteland\" flavor=\"You were robbed by giants or nearly killed by a giant's prank, and the experience gave you a keen instinct for outmaneuvering bigger creatures.\" benefit=\"You gain a +1 trait bonus on combat maneuver checks against creatures larger than you and a +1 trait bonus to CMD against such creatures.~~~**Likely Regions:** Geb, Mana Wastes, Nex, Nidal, Numeria.~~~**Likely giants:** Ash, Hill, River, Shadow\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -2221,7 +2187,7 @@
 		"compilationSources": [ [ "Dungeoneer's Handbook" ] ],
 		"category": "Generic-settlement near a famous dungeon",
 		"description": [
-			"::trait{title=\"&L&Lost Role Model&FN&\" type=\"Regional\" region=\"settlement near a famous dungeon\" benefit=\"As a youth, you marveled at the crusaders, spelunkers, and lore seekers who came through your town on their way to the nearby dungeon, tomb, or ruins. One such intrepid role model in particular was of great import to you. On the last day you ever saw your hero, the adventurer gave you a unique dungeon guide worth no more than 750 gp and with an accuracy modifier of no greater than +2.~~~**Suggestion:** With the help of your GM and using the ‹equipment_misc/example dungeon guides»<equipment_misc›, construct a unique dungeon guide tied to the dungeon near where you grew up.\"}"
+			"::trait{title=\"&L&Lost Role Model&FN&\" type=\"Regional\" region=\"settlement near a famous dungeon\" benefit=\"As a youth, you marveled at the crusaders, spelunkers, and lore seekers who came through your town on their way to the nearby dungeon, tomb, or ruins. One such intrepid role model in particular was of great import to you. On the last day you ever saw your hero, the adventurer gave you a unique dungeon guide worth no more than 750 gp and with an accuracy modifier of no greater than +2.~~~**Suggestion:** With the help of your GM and using the ‹main/example dungeon guides»<equipment_misc›, construct a unique dungeon guide tied to the dungeon near where you grew up.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -2906,13 +2872,7 @@
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
 		"category": "WestAvistan-Varisia",
 		"description": [
-			"type=\"Regional\" region=\"Varisia\" ",
-			"",
-			"Although you live some distance from the city-state your community owes fealty to, you've been influenced by its sophisticated urban ways. Determine the city-state of which your home is a holding. You gain a +1 trait bonus on checks with one Profession skill and one of the following benefits.",
-			"",
-			"- **Korvosa:** Gain Infernal as a bonus language. If you already have this language, gain a +1 trait bonus on Diplomacy checks.  ",
-			"- **Magnimar:** Gain one random ‹eq-misc/Varisian idol›.  ",
-			"- **Riddleport:** Gain a +1 trait bonus on Swim checks."
+			"::trait{title=\"&L&Regional Influence&FN&\" type=\"Regional\" region=\"Varisia\" flavor=\"Although you live some distance from the city-state your community owes fealty to, you've been influenced by its sophisticated urban ways.\" singleBreaks benefit=\"Determine the city-state of which your home is a holding. You gain a +1 trait bonus on checks with one Profession skill and one of the following benefits.~~~~~~- **Korvosa:** Gain Infernal as a bonus language. If you already have this language, gain a +1 trait bonus on Diplomacy checks.~~~- **Magnimar:** Gain one random ‹eq-misc/Varisian idol›.~~~- **Riddleport:** Gain a +1 trait bonus on Swim checks.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -2921,15 +2881,7 @@
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
 		"category": "WestAvistan-Varisia",
 		"description": [
-			"type=\"Regional\" region=\"Varisia\" ",
-			"",
-			"Your home community prides itself on remaining independent from Varisia's city-states. Choose one of Varisia's unaffiliated settlements from this list below. You gain a +1 trait bonus on Survival checks and one of the following benefits.",
-			"",
-			"- **Arsmeril or Crying Leaf:** Gain a +1 trait bonus on Perception checks made at night.  ",
-			"- **Ilsurian:** Gain proficiency with light shields.  ",
-			"- **Sanos Forest or Whistledown:** Gain Gnome as a bonus language. If you already have this language, gain a +1 trait bonus on Stealth checks made in forested areas.  ",
-			"- **Turtleback Ferry:** Gain a +1 bonus to damage on all attacks against creatures of the giant type.  ",
-			"- **Urglin:** Gain Orc as a bonus language. If you already know this language, gain a +1 trait bonus on Intimidate checks."
+			"::trait{title=\"&L&Regional Recluse&FN&\" type=\"Regional\" region=\"Varisia\" singleBreaks flavor=\"Your home community prides itself on remaining independent from Varisia's city-states.\" benefit=\"Choose one of Varisia's unaffiliated settlements from this list below. You gain a +1 trait bonus on Survival checks and one of the following benefits.~~~~~~- **Arsmeril or Crying Leaf:** Gain a +1 trait bonus on Perception checks made at night.~~~- **Ilsurian:** Gain proficiency with light shields.~~~- **Sanos Forest or Whistledown:** Gain Gnome as a bonus language. If you already have this language, gain a +1 trait bonus on Stealth checks made in forested areas.~~~- **Turtleback Ferry:** Gain a +1 bonus to damage on all attacks against creatures of the giant type.~~~- **Urglin:** Gain Orc as a bonus language. If you already know this language, gain a +1 trait bonus on Intimidate checks.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3093,13 +3045,7 @@
 		"compilationSources": [ [ "Giant Hunter's Handbook" ] ],
 		"category": "Generic-mountains",
 		"description": [
-			"type=\"Regional\" region=\"mountains\" ",
-			"",
-			"You were hired or captured by giants and found yourself frequently scrambling up and down giant-sized furniture or slave pit walls. As a result, you are an agile climber. You retain your Dexterity bonus to Armor Class while climbing and gain a +1 trait bonus on Climb checks.",
-			"",
-			"Likely Regions: Osirion, Rahadoum, the Shackles, Thuvia, Varisia.",
-			"",
-			"Likely giants: Cave, Fire, River, Slag, Storm"
+			"::trait{title=\"&L&Scrambling Servant&FN&\" type=\"Regional\" region=\"mountains\" flavor=\"You were hired or captured by giants and found yourself frequently scrambling up and down giant-sized furniture or slave pit walls. As a result, you are an agile climber.\" benefit=\"You retain your Dexterity bonus to Armor Class while climbing and gain a +1 trait bonus on Climb checks.~~~**Likely Regions:** Osirion, Rahadoum, the Shackles, Thuvia, Varisia.~~~**Likely giants:** Cave, Fire, River, Slag, Storm\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3432,13 +3378,7 @@
 		"compilationSources": [ [ "People of the North" ] ],
 		"category": "WestAvistan-Realm of the Mammoth Lords",
 		"description": [
-			"type=\"Regional\" region=\"Realm of the Mammoth Lords\" ",
-			"",
-			"A spirit animal watches over you. Choose one of the following spirit animals. The benefit you receive depends on which of the following spirit animals you choose.",
-			"",
-			"- **Mammoth:** You gain a +1 trait bonus on Fortitude saves.  ",
-			"- **Smilodon:** You gain a +1 trait bonus on Reflex saves.  ",
-			"- **Woolly Rhinoceros:** You gain a +1 trait bonus on Will saves."
+			"::trait{title=\"&L&Spirit Animal&FN&\" type=\"Regional\" region=\"Realm of the Mammoth Lords\" singleBreaks flavor=\"A spirit animal watches over you.\" benefit=\"Choose one of the following spirit animals. The benefit you receive depends on which of the following spirit animals you choose.~~~~~~- **Mammoth:** You gain a +1 trait bonus on Fortitude saves.~~~- **Smilodon:** You gain a +1 trait bonus on Reflex saves.~~~- **Woolly Rhinoceros:** You gain a +1 trait bonus on Will saves.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},

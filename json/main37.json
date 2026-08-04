@@ -10,13 +10,7 @@
 					""
 				],
 				{
-					"limit": "Generic Campaign",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Generic Campaign"
 				}
 			]
 		}
@@ -32,13 +26,7 @@
 					""
 				],
 				{
-					"limit": "Carrion Crown",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Carrion Crown"
 				}
 			]
 		}
@@ -54,13 +42,7 @@
 					""
 				],
 				{
-					"limit": "Council of Thieves",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Council of Thieves"
 				}
 			]
 		}
@@ -76,13 +58,7 @@
 					""
 				],
 				{
-					"limit": "Curse of the Crimson Throne",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Curse of the Crimson Throne"
 				}
 			]
 		}
@@ -98,13 +74,7 @@
 					""
 				],
 				{
-					"limit": "Giantslayer",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Giantslayer"
 				}
 			]
 		}
@@ -120,13 +90,7 @@
 					""
 				],
 				{
-					"limit": "Hell's Rebels",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Hell's Rebels"
 				}
 			]
 		}
@@ -142,13 +106,7 @@
 					""
 				],
 				{
-					"limit": "Hell's Vengeance",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Hell's Vengeance"
 				}
 			]
 		}
@@ -164,13 +122,7 @@
 					""
 				],
 				{
-					"limit": "Iron Gods",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Iron Gods"
 				}
 			]
 		}
@@ -186,13 +138,7 @@
 					""
 				],
 				{
-					"limit": "Ironfang Invasion",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Ironfang Invasion"
 				}
 			]
 		}
@@ -208,13 +154,7 @@
 					""
 				],
 				{
-					"limit": "Jade Regent",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Jade Regent"
 				}
 			]
 		}
@@ -230,13 +170,7 @@
 					""
 				],
 				{
-					"limit": "Kingmaker",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Kingmaker"
 				}
 			]
 		}
@@ -252,13 +186,7 @@
 					""
 				],
 				{
-					"limit": "Legacy of Fire",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Legacy of Fire"
 				}
 			]
 		}
@@ -274,13 +202,7 @@
 					""
 				],
 				{
-					"limit": "Mummy's Mask",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Mummy's Mask"
 				}
 			]
 		}
@@ -296,13 +218,7 @@
 					""
 				],
 				{
-					"limit": "Reign of Winter",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Reign of Winter"
 				}
 			]
 		}
@@ -318,13 +234,7 @@
 					""
 				],
 				{
-					"limit": "Return of the Runelords",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Return of the Runelords"
 				}
 			]
 		}
@@ -340,13 +250,7 @@
 					""
 				],
 				{
-					"limit": "Rise of the Runelords",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Rise of the Runelords"
 				}
 			]
 		}
@@ -362,13 +266,7 @@
 					""
 				],
 				{
-					"limit": "Ruins of Azlant",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Ruins of Azlant"
 				}
 			]
 		}
@@ -384,13 +282,7 @@
 					""
 				],
 				{
-					"limit": "Second Darkness",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Second Darkness"
 				}
 			]
 		}
@@ -406,13 +298,7 @@
 					""
 				],
 				{
-					"limit": "Serpent's Skull",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Serpent's Skull"
 				}
 			]
 		}
@@ -428,13 +314,7 @@
 					""
 				],
 				{
-					"limit": "Shattered Star",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Shattered Star"
 				}
 			]
 		}
@@ -450,13 +330,7 @@
 					""
 				],
 				{
-					"limit": "Skull and Shackles",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Skull and Shackles"
 				}
 			]
 		}
@@ -472,13 +346,7 @@
 					""
 				],
 				{
-					"limit": "Strange Aeons",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Strange Aeons"
 				}
 			]
 		}
@@ -494,13 +362,7 @@
 					""
 				],
 				{
-					"limit": "Tyrant's Grasp",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Tyrant's Grasp"
 				}
 			]
 		}
@@ -516,13 +378,7 @@
 					""
 				],
 				{
-					"limit": "War for the Crown",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "War for the Crown"
 				}
 			]
 		}
@@ -538,13 +394,7 @@
 					""
 				],
 				{
-					"limit": "Wrath of the Righteous",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Wrath of the Righteous"
 				}
 			]
 		}

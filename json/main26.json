@@ -10,13 +10,7 @@
 					""
 				],
 				{
-					"limit": "Combat",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Combat"
 				}
 			]
 		}
@@ -32,13 +26,7 @@
 					""
 				],
 				{
-					"limit": "Faith",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Faith"
 				}
 			]
 		}
@@ -54,13 +42,7 @@
 					""
 				],
 				{
-					"limit": "Social",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Social"
 				}
 			]
 		}
@@ -76,13 +58,7 @@
 					""
 				],
 				{
-					"limit": "Magic",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Magic"
 				}
 			]
 		}

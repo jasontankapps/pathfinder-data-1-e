@@ -46,12 +46,12 @@ const convertEncodedInfo = (input) => {
 		test = post;
 	}
 	return (output + test)
-		.replace(/&(times|quot|emsp|[nm]dash|deg|amp|[dD]agger|[aeiou](?:acute|grave|circ|uml)|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;");
+		.replace(/&(times|quot|emsp|[nm]dash|deg|amp|shy|[dD]agger|[aeiou](?:acute|grave|circ|uml)|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;");
 };
 
 const getBlockDirectives = (globalVariable, marker = "::") => {
 	const $ = globalVariable;
-	const makeValidID = (input) => input.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, "");
+	const makeValidID = (input) => (input || "").toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, "");
 	return {
 		level: "block",
 		marker,
@@ -462,7 +462,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"clear", "jl", "id", "type",
 					"campaign", "religion", "region",
 					"title", "benefit", "req", "flavor",
-					"sub", "subs", "head", "indent"
+					"sub", "subs", "head", "indent",
+					"singleBreaks"
 				], [], logError);
 				flags.ability = true;
 				const marked2 = makeNewMarkedInstance();

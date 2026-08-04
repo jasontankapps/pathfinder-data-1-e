@@ -142,13 +142,7 @@
 					""
 				],
 				{
-					"limit": "Drawback",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Drawback"
 				}
 			]
 		}
@@ -267,13 +261,7 @@
 					""
 				],
 				{
-					"limit": "Equipment",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Equipment"
 				}
 			]
 		}
@@ -289,13 +277,7 @@
 					""
 				],
 				{
-					"limit": "Family",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Family"
 				}
 			]
 		}
@@ -311,13 +293,7 @@
 					""
 				],
 				{
-					"limit": "Mount",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Mount"
 				}
 			]
 		}
@@ -333,13 +309,7 @@
 					""
 				],
 				{
-					"limit": "Cosmic",
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"limit": "Cosmic"
 				}
 			]
 		}
@@ -1069,23 +1039,11 @@
 				],
 				{
 					"limit": { "regex": "\\bEmpyreal Lords\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bEmpyreal Lords-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -1102,23 +1060,11 @@
 				],
 				{
 					"limit": { "regex": "\\bDwarven Deities\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bDwarven Deities-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -1135,23 +1081,11 @@
 				],
 				{
 					"limit": { "regex": "\\bElven Deities\\b(?!-)" },
-					"sort": [ "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "name" ]
 				},
 				{
 					"limit": { "regex": "\\bElven Deities-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -1168,13 +1102,7 @@
 				],
 				{
 					"limit": { "regex": "\\bAzlanti-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -1191,13 +1119,7 @@
 				],
 				{
 					"limit": { "regex": "\\bPantheons-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -1214,13 +1136,7 @@
 				],
 				{
 					"limit": { "regex": "\\bHalfling Deities-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -1237,13 +1153,7 @@
 				],
 				{
 					"limit": { "regex": "\\bGoblin Deities-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -1260,13 +1170,7 @@
 				],
 				{
 					"limit": { "regex": "\\bPlanet-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}
@@ -1283,13 +1187,7 @@
 				],
 				{
 					"limit": { "regex": "\\bOther-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"sort": [ "match", "name" ]
 				}
 			]
 		}

@@ -449,7 +449,9 @@ const postprocess = (tables) => {
 			let div = `<div className="jumpList" id="${prefix}jumplist"><h2>Jump to:</h2><ul>`;
 			flags.implicitJumplist.forEach(pair => {
 				const [text, id] = pair;
-				div += `<li><InnerLink toTop to="${id}">${text}</InnerLink></li>`;
+				div += `<li><InnerLink toTop to="${id}">${
+					text.replaceAll("&quot;", "\"").replaceAll("&#39;", "'")
+				}</InnerLink></li>`;
 			});
 			div += `</ul></div>`;
 			flags.jumplist = true;

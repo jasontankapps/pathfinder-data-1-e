@@ -71,6 +71,17 @@ const Icons: FC = () => {
 					<Icon incoming={icon} icon="remedy">Some sort of healing or otherwise helpful action.</Icon>
 					<Icon incoming={icon} icon="armor-downgrade">An effect that lowers the capabilities of non-allies.</Icon>
 					<Icon incoming={icon} icon="broken-shield">A downgrade of your own abilities, or an ally's; or a drawback trait.</Icon>
+					<Icon incoming={icon} icon="crossed-sabres">Combat trait</Icon>
+					<Icon incoming={icon} icon="bolt-eye">Faith trait</Icon>
+					<Icon incoming={icon} icon="village">Social trait</Icon>
+					<Icon incoming={icon} icon="treasure-map">Campaign trait</Icon>
+					<Icon incoming={icon} icon="person">Race trait</Icon>
+					<Icon incoming={icon} icon="prayer">Religion trait</Icon>
+					<Icon incoming={icon} icon="planet-conquest">Regional trait</Icon>
+					<Icon incoming={icon} icon="battle-gear">Equipment trait</Icon>
+					<Icon incoming={icon} icon="relationship-bounds">Family trait</Icon>
+					<Icon incoming={icon} icon="cavalry">Mount trait</Icon>
+					<Icon incoming={icon} icon="night-sky">Cosmic trait</Icon>
 				</IonList>
 			</IonContent>
 			<PageFooter />
