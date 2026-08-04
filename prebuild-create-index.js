@@ -138,6 +138,7 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 			name: n,
 			title,
 			sources,
+			compilationSources,
 			copyof,
 			redirect,
 			subtitle,
@@ -211,7 +212,8 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 				s: searchgroup
 			};
 			$dataIndex.push(obj);
-			sources && sources.forEach(source => {
+			const sourceInfo = (sources || []).concat(compilationSources ? compilationSources.map(cs => cs[0]) : [])
+			sourceInfo.length && sourceInfo.forEach(source => {
 				const s = convertTextToLink(source);
 				if(!$sources[source]) {
 					$sources[source] = [];

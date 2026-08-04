@@ -94,6 +94,7 @@ const SourcePage: FC = () => {
 	const { id } = useParams<Params>();
 	const index = Sources[id];
 	useEffect(() => {
+		// eslint-disable-next-line react-hooks/set-state-in-effect
 		setGroup($empty);
 		axios.get(`/_SOURCE_group${index}.json`).then(res => {
 			const grouping = res.data;
