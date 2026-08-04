@@ -135,7 +135,7 @@ div.basicContent div.ability.trait div.abSingle p:last-child {
 }
 div.abSingle {
 	font-size: 1rem;
-	line-height: 1.15em;
+	line-height: 1.25em;
 	grid-column: 2;
 	place-self: stretch;
 	border-style: solid;
@@ -174,7 +174,7 @@ div.abPair {
 	position: relative;
 }
 div:is(.abStart,.abEnd),
-div.abEnd p {
+div:is(.abSingle,.abEnd) p {
 	font-size: 1rem;
 	line-height: 1.25em;
 	border-width: 0;
