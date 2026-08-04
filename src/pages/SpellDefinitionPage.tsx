@@ -3,7 +3,6 @@ import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
 import defs from './subpages/_GEN_spelldef';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 type Data = typeof defs;
 

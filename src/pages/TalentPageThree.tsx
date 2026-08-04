@@ -8,7 +8,6 @@ import unchevolution from './subpages/_GEN_unchevolution';
 import eidolon from './subpages/_GEN_eidolon';
 import BasicTalentPage from './BasicTalentPage';
 import { Gen, GenStrict } from '../types';
-import './css/Page.css';
 
 const allTalents = {
 	hex,

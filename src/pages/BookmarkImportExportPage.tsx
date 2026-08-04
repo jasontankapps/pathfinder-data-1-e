@@ -29,7 +29,6 @@ import { BookmarkDB, BookmarkGroup, importBookmarkGroups } from '../store/bookma
 import { DispatchType, useAppDispatch, useAppSelector } from '../store/hooks';
 import { GenStrict } from "../types";
 import BasicPage from './BasicPage';
-import './css/Page.css';
 import parseImport from "./parseImport";
 
 const toggle = (item: string, all: string[]): string[] => {

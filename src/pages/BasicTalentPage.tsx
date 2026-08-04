@@ -3,7 +3,6 @@ import { convertTextToLink } from '../components/convertLinks';
 import Link from '../components/Link';
 import { Gen, GenStrict, Hierarchy } from '../types';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 interface BasicTalentProps {
 	id: string

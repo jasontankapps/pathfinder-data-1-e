@@ -3,7 +3,6 @@ import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
 import oaths from './subpages/_GEN_oath';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 type Data = typeof oaths;
 

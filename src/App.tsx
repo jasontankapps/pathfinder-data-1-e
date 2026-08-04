@@ -14,6 +14,7 @@ import Loading from './Loading';
 import FrontPage from './FrontPage';
 import AboutOnlyPage from './AboutOnlyPage';
 import Icons from './Icons';
+import useDarkMode from './components/useDarkMode';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -33,7 +34,9 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
-import useDarkMode from './components/useDarkMode';
+
+/* App CSS */
+import './pages/css/Page.css';
 
 setupIonicReact({
 	hardwareBackButton: false,

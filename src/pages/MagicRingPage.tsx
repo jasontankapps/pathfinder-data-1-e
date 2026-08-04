@@ -3,7 +3,6 @@ import getItem from '../components/getItem';
 import magic from './subpages/_GEN_magic-ring';
 import BasicPage from './BasicPage';
 import { Hierarchy } from '../types';
-import './css/Page.css';
 
 type Data = typeof magic;
 

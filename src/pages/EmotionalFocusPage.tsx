@@ -3,7 +3,6 @@ import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
 import emotionalfocus from './subpages/_GEN_emotionalfocus';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 type Data = typeof emotionalfocus;
 

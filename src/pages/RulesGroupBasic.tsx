@@ -1,7 +1,6 @@
 import data from '../json/_GEN_rule.json';
 import { GenStrict, JsonRulesProps } from '../types';
 import BasicRulesPage from './BasicRulesPage';
-import './css/Page.css';
 
 type Basic = GenStrict<string, unknown>;
 interface RulesProps {

@@ -3,7 +3,6 @@ import { IonContent, IonIcon, IonItem, IonLabel, IonList, IonPage } from '@ionic
 import { useParams } from 'wouter';
 import PageHeader from './components/PageHeader';
 import PageFooter from './components/PageFooter';
-import './pages/css/Page.css';
 
 type Params = { icon?: string };
 

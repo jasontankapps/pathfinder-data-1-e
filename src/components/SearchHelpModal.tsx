@@ -11,7 +11,6 @@ import {
 	IonToolbar
 } from '@ionic/react';
 import { closeCircle, close } from 'ionicons/icons';
-import '../pages/css/Page.css';
 
 interface PageProps {
 	open: boolean

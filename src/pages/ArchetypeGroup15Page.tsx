@@ -1,7 +1,6 @@
 import { lazy } from 'react';
 import data from '../json/_GEN_arc-bard.json';
 import ErrorPage from './ErrorPage';
-import './css/Page.css';
 
 const ArchetypeGroup15Subgroup1Page = lazy(() => import("./ArchetypeGroup15Subgroup1Page"));
 const ArchetypeGroup15Subgroup2Page = lazy(() => import("./ArchetypeGroup15Subgroup2Page"));

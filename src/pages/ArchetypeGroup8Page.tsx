@@ -3,7 +3,6 @@ import brawler from './subpages/_GEN_arc-brawler';
 import mesmerist from './subpages/_GEN_arc-mesmerist';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},

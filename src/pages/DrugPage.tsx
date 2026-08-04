@@ -3,7 +3,6 @@ import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
 import drugs from './subpages/_GEN_drug';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 type Data = typeof drugs;
 

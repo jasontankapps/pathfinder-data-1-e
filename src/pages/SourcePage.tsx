@@ -6,7 +6,6 @@ import Sources from './subpages/_GEN_sourceIndex';
 import ErrorPage from './ErrorPage';
 import BasicPage from './BasicPage';
 import Loading from '../Loading';
-import './css/Page.css';
 
 type Pairing = [string, string];
 type Pairings = Pairing[];

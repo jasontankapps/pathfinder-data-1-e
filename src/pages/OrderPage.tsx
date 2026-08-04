@@ -3,7 +3,6 @@ import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
 import orders from './subpages/_GEN_order';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 type Data = typeof orders;
 

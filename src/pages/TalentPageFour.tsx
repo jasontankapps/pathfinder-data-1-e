@@ -8,7 +8,6 @@ import mercy from './subpages/_GEN_mercy';
 import performance from './subpages/_GEN_performance';
 import BasicTalentPage from './BasicTalentPage';
 import { Gen, GenStrict } from '../types';
-import './css/Page.css';
 
 const allTalents = {
 	trick,

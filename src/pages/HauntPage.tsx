@@ -3,7 +3,6 @@ import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
 import haunts from './subpages/_GEN_haunt';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 type Data = typeof haunts;
 

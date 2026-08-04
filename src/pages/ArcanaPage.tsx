@@ -3,7 +3,6 @@ import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
 import arcana from './subpages/_GEN_arcana';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 type Data = typeof arcana;
 

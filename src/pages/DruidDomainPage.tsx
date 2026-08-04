@@ -3,7 +3,6 @@ import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
 import domains from './subpages/_GEN_druiddomain';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 type Data = typeof domains;
 

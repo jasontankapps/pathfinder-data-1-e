@@ -2,7 +2,6 @@ import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import talents from './subpages/_GEN_kinetic';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 type Data = typeof talents;
 

@@ -5,7 +5,6 @@ import Link from '../components/Link';
 import rage_powers from './subpages/_GEN_ragepower';
 import BasicTalentPage from './BasicTalentPage';
 import { GenStrict, Hierarchy } from '../types';
-import './css/Page.css';
 
 const tL: Hierarchy = ["Rage Powers", "ability/rage_powers"];
 

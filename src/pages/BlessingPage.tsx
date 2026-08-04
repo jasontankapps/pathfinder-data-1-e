@@ -3,7 +3,6 @@ import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
 import blessings from './subpages/_GEN_blessing';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 type Data = typeof blessings;
 

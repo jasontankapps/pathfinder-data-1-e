@@ -3,7 +3,6 @@ import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
 import aspects from './subpages/_GEN_aspect';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 type Data = typeof aspects;
 

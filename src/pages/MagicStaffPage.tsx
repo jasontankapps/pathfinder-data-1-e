@@ -3,7 +3,6 @@ import getItem from '../components/getItem';
 import magic from './subpages/_GEN_magic-staff';
 import BasicPage from './BasicPage';
 import { Hierarchy } from '../types';
-import './css/Page.css';
 
 const topLink: Hierarchy = ["Magic Staves", "main/magic_staves"];
 

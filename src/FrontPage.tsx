@@ -3,7 +3,6 @@ import PageHeader from './components/PageHeader';
 import PageFooter from './components/PageFooter';
 import { AboutInfo } from './AboutOnlyPage';
 import MainLink from './components/MainLink';
-import './pages/css/Page.css';
 
 const FrontPage: React.FC = () => {
 

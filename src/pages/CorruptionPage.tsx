@@ -3,7 +3,6 @@ import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
 import corruptions from './subpages/_GEN_corruption';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 type Data = typeof corruptions;
 

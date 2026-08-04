@@ -2,7 +2,6 @@ import getItem from '../components/getItem';
 import inquisitor from './subpages/_GEN_arc-inquisitor';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested inquisitor archetype.</p></>, title: "Unknown"},

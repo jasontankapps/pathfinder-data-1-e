@@ -3,7 +3,6 @@ import getItem from '../components/getItem';
 import skills from './subpages/_GEN_skill';
 import BasicPage from './BasicPage';
 import { Hierarchy } from '../types';
-import './css/Page.css';
 
 type Data = typeof skills;
 

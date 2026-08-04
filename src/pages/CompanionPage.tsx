@@ -3,7 +3,6 @@ import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
 import companions from './subpages/_GEN_companion';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 type Data = typeof companions;
 

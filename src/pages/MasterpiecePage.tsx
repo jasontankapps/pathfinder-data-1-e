@@ -3,7 +3,6 @@ import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
 import masterpieces from './subpages/_GEN_masterpiece';
 import BasicPage from './BasicPage';
-import './css/Page.css';
 
 type Data = typeof masterpieces;
 
