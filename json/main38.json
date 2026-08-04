@@ -394,27 +394,6 @@
 			]
 		}
 	},
-	"traits_race_aasimar": {
-		"title": "Aasimar Traits",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Race Traits]{to=main/traits_race rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bAasimar\\b(?!-)" },
-					"sort": [ "name" ]
-				},
-				{
-					"limit": { "regex": "\\bAasimar-[^,]+" },
-					"sort": [ "match", "name" ]
-				}
-			]
-		}
-	},
 	"traits_race_android": {
 		"title": "Android Traits",
 		"searchgroup": "trait",
@@ -687,27 +666,6 @@
 				},
 				{
 					"limit": { "regex": "\\bSkinwalker-[^,]+" },
-					"sort": [ "match", "name" ]
-				}
-			]
-		}
-	},
-	"traits_race_tiefling": {
-		"title": "Tiefling Traits",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Race Traits]{to=main/traits_race rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bTiefling\\b(?!-)" },
-					"sort": [ "name" ]
-				},
-				{
-					"limit": { "regex": "\\bTiefling-[^,]+" },
 					"sort": [ "match", "name" ]
 				}
 			]

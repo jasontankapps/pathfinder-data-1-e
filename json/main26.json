@@ -31,22 +31,6 @@
 			]
 		}
 	},
-	"traits_social": {
-		"title": "Social Traits",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Traits]{to=main/traits rev}",
-					""
-				],
-				{
-					"limit": "Social"
-				}
-			]
-		}
-	},
 	"traits_magic": {
 		"title": "Magic Traits",
 		"searchgroup": "trait",

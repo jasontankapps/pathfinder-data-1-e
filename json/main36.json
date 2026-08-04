@@ -1,25 +1,4 @@
 {
-	"traits_tian_xia": {
-		"title": "Regional Traits: Tian Xia",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bTian Xia\\b(?!-)" },
-					"sort": [ "name" ]
-				},
-				{
-					"limit": { "regex": "\\bTian Xia-[^,]+" },
-					"sort": [ "match", "name" ]
-				}
-			]
-		}
-	},
 	"traits_north_central_avistan": {
 		"title": "Regional Traits: North Central Avistan",
 		"searchgroup": "trait",
@@ -32,23 +11,6 @@
 				],
 				{
 					"limit": { "regex": "\\bNCAvistan-[^,]+" },
-					"sort": [ "match", "name" ]
-				}
-			]
-		}
-	},
-	"traits_casmaron": {
-		"title": "Regional Traits: Casmaron",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bCasmaron-[^,]+" },
 					"sort": [ "match", "name" ]
 				}
 			]
@@ -227,27 +189,6 @@
 				],
 				{
 					"limit": { "regex": "\\bNEGarund-[^,]+" },
-					"sort": [ "match", "name" ]
-				}
-			]
-		}
-	},
-	"traits_lung_wa": {
-		"title": "Regional Traits: Former Lung Wa Empire",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bLung Wa\\b(?!-)" },
-					"sort": [ "name" ]
-				},
-				{
-					"limit": { "regex": "\\bLung Wa-[^,]+" },
 					"sort": [ "match", "name" ]
 				}
 			]

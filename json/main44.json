@@ -1,0 +1,119 @@
+{
+	"traits_social": {
+		"title": "Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Traits]{to=main/traits rev}",
+					""
+				],
+				{
+					"limit": "Social"
+				}
+			]
+		}
+	},
+	"traits_casmaron": {
+		"title": "Regional Traits: Casmaron",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bCasmaron-[^,]+" },
+					"sort": [ "match", "name" ]
+				}
+			]
+		}
+	},
+	"traits_tian_xia": {
+		"title": "Regional Traits: Tian Xia",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bTian Xia\\b(?!-)" },
+					"sort": [ "name" ]
+				},
+				{
+					"limit": { "regex": "\\bTian Xia-[^,]+" },
+					"sort": [ "match", "name" ]
+				}
+			]
+		}
+	},
+	"traits_lung_wa": {
+		"title": "Regional Traits: Former Lung Wa Empire",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bLung Wa\\b(?!-)" },
+					"sort": [ "name" ]
+				},
+				{
+					"limit": { "regex": "\\bLung Wa-[^,]+" },
+					"sort": [ "match", "name" ]
+				}
+			]
+		}
+	},
+	"traits_race_aasimar": {
+		"title": "Aasimar Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bAasimar\\b(?!-)" },
+					"sort": [ "name" ]
+				},
+				{
+					"limit": { "regex": "\\bAasimar-[^,]+" },
+					"sort": [ "match", "name" ]
+				}
+			]
+		}
+	},
+	"traits_race_tiefling": {
+		"title": "Tiefling Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bTiefling\\b(?!-)" },
+					"sort": [ "name" ]
+				},
+				{
+					"limit": { "regex": "\\bTiefling-[^,]+" },
+					"sort": [ "match", "name" ]
+				}
+			]
+		}
+	}
+}
