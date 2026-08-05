@@ -8,7 +8,8 @@ const _absalom_bouncer = {title: "Absalom Bouncer", topLink: ["Combat Traits","m
 <Ability id="absalom-bouncer" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="absalom-bouncer">Absalom Bouncer</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="absalom-bouncer-benefit">You learned to fight while serving as a bodyguard in the taverns of Absalom, where keeping the patrons alive through bloody bar brawls was just part of your job. When you make an attack that deals nonlethal damage with an unarmed strike, you gain a +1 bonus on your damage roll.</Pair>
+<Pair single="flavor" id="absalom-bouncer-flavor">You learned to fight while serving as a bodyguard in the taverns of Absalom, where keeping the patrons alive through bloody bar brawls was just part of your job.</Pair>
+<Pair single="benefit" id="absalom-bouncer-benefit">When you make an attack that deals nonlethal damage with an unarmed strike, you gain a +1 bonus on your damage roll.</Pair>
 </Ability>
 </>};
 const _absolute_loyalty = {title: "Absolute Loyalty", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
@@ -22,49 +23,55 @@ const _accelerated_drinker = {title: "Accelerated Drinker", topLink: ["Combat Tr
 <Ability id="accelerated-drinker" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="accelerated-drinker">Accelerated Drinker</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="accelerated-drinker-benefit">You know how to drink a potion efficiently, such as by not using your hands, tossing it in the air and catching it in your mouth, or opening it with your teeth. You may drink a potion as a move action instead of a standard as long as you start your turn with the potion in your hand.</Pair>
+<Pair single="flavor" id="accelerated-drinker-flavor">You know how to drink a potion efficiently, such as by not using your hands, tossing it in the air and catching it in your mouth, or opening it with your teeth.</Pair>
+<Pair single="benefit" id="accelerated-drinker-benefit">You may drink a potion as a <strong className="hl">move action</strong> instead of a standard as long as you start your turn with the potion in your hand.</Pair>
 </Ability>
 </>};
 const _aldori_caution = {title: "Aldori Caution", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
 <Ability id="aldori-caution" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="aldori-caution">Aldori Caution</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="aldori-caution-benefit">You learned defensive moves from Aldori trainers. You gain an additional +1 dodge bonus to Armor Class while you fight defensively or use the total defense action.</Pair>
+<Pair single="flavor" id="aldori-caution-flavor">You learned defensive moves from Aldori trainers.</Pair>
+<Pair single="benefit" id="aldori-caution-benefit">You gain an additional +1 dodge bonus to Armor Class while you <Link to="/misc/fight_defensively">fight defensively</Link> or use the <Link to="/misc/total_defense">total defense</Link> action.</Pair>
 </Ability>
 </>};
 const _ambush_training = {title: "Ambush Training", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_society_primer">Pathfinder Society Primer</Link></p>
 <Ability id="ambush-training" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="ambush-training">Ambush Training</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="ambush-training-benefit">You've learned that taking an enemy by surprise can end a combat before it begins. You gain a +1 trait bonus on initiative checks and a +1 trait bonus on weapon damage rolls during any surprise round in which you act.</Pair>
+<Pair single="flavor" id="ambush-training-flavor">You've learned that taking an enemy by surprise can end a combat before it begins.</Pair>
+<Pair single="benefit" id="ambush-training-benefit">You gain a +1 trait bonus on initiative checks and a +1 trait bonus on weapon damage rolls during any surprise round in which you act.</Pair>
 </Ability>
 </>};
 const _anatomist = {title: "Anatomist", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
 <Ability id="anatomist" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="anatomist">Anatomist</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="anatomist-benefit">You have studied the workings of anatomy, either as a student at university or as an apprentice mortician or necromancer. You know where to aim your blows to strike vital organs. You gain a +1 trait bonus on all rolls made to confirm critical hits.</Pair>
+<Pair single="flavor" id="anatomist-flavor">You have studied the workings of anatomy, either as a student at university or as an apprentice mortician or necromancer. You know where to aim your blows to strike vital organs.</Pair>
+<Pair single="benefit" id="anatomist-benefit">You gain a +1 trait bonus on all rolls made to confirm critical hits.</Pair>
 </Ability>
 </>};
 const _armed_grit = {title: "Armed Grit", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
 <Ability id="armed-grit" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="armed-grit">Armed Grit</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="armed-grit-benefit">You make an impression during a standoff. As long as you have a firearm drawn, you gain a +2 trait bonus on saving throws against fear and the DCs of Intimidate checks to demoralize you increase by 2.</Pair>
+<Pair single="flavor" id="armed-grit-flavor">You make an impression during a standoff.</Pair>
+<Pair single="benefit" id="armed-grit-benefit">As long as you have a firearm drawn, you gain a +2 trait bonus on saving throws against fear and the DCs of <Link to="/skill/intimidate">Intimidate</Link> checks to demoralize you increase by 2.</Pair>
 </Ability>
 </>};
 const _armor_expert = {title: "Armor Expert", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="armor-expert" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="armor-expert">Armor Expert</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="armor-expert-benefit">You have worn armor as long as you can remember, either as part of your training to become a knight's squire or simply because you were seeking to emulate a hero. Your childhood armor wasn't the real thing as far as protection, but it did encumber you as much as real armor would have, and you've grown used to moving in such suits with relative grace. When you wear armor of any sort, reduce that suit's armor check penalty by 1, to a minimum check penalty of 0.</Pair>
+<Pair single="flavor" id="armor-expert-flavor">You have worn armor as long as you can remember, either as part of your training to become a knight's squire or simply because you were seeking to emulate a hero. Your childhood armor wasn't the real thing as far as protection, but it did encumber you as much as real armor would have, and you've grown used to moving in such suits with relative grace.</Pair>
+<Pair single="benefit" id="armor-expert-benefit">When you wear armor of any sort, reduce that suit's armor check penalty by 1, to a minimum check penalty of 0.</Pair>
 </Ability>
 </>};
 const _armored_rider = {title: "Armored Rider", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
 <Ability id="armored-rider" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="armored-rider">Armored Rider</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="armored-rider-benefit">You gain a +1 trait bonus on Ride checks, and Ride is a class skill for you. You don't take an armor check penalty on Ride checks while wearing light or medium armor.</Pair>
+<Pair single="benefit" id="armored-rider-benefit">You gain a +1 trait bonus on <Link to="/skill/ride">Ride</Link> checks, and Ride is a class skill for you. You don't take an armor check penalty on Ride checks while wearing light or medium armor.</Pair>
 </Ability>
 </>};
 const _armored_soul = {title: "Armored Soul", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
@@ -78,14 +85,16 @@ const _arodenite_sword_training = {title: "Arodenite Sword Training", topLink: [
 <Ability id="arodenite-sword-training" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="arodenite-sword-training">Arodenite Sword Training</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="arodenite-sword-training-benefit">Your family has passed down training in Aroden's favored weapon, even though the god no longer answers their prayers. You are proficient with the longsword. If your class grants longsword proficiency as well, you gain a +1 trait bonus on attacks of opportunity with longswords.</Pair>
+<Pair single="flavor" id="arodenite-sword-training-flavor">Your family has passed down training in <Link to="/faith/aroden">Aroden's</Link> favored weapon, even though the god no longer answers their prayers.</Pair>
+<Pair single="benefit" id="arodenite-sword-training-benefit">You are proficient with the <Link to="/eq-weapon/longsword">longsword</Link>. If your class grants longsword proficiency as well, you gain a +1 trait bonus on attacks of opportunity with longswords.</Pair>
 </Ability>
 </>};
 const _axe_to_grind = {title: "Axe to Grind", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="axe-to-grind" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="axe-to-grind">Axe to Grind</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="axe-to-grind-benefit">There is a fire in your heart that can't be quenched. You gain a +1 trait bonus on damage against foes who are threatened by only you.</Pair>
+<Pair single="flavor" id="axe-to-grind-flavor">There is a fire in your heart that can't be quenched.</Pair>
+<Pair single="benefit" id="axe-to-grind-benefit">You gain a +1 trait bonus on damage against foes who are threatened by only you.</Pair>
 </Ability>
 </>};
 const _back_for_more = {title: "Back for More", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
@@ -99,7 +108,8 @@ const _battlefield_disciple = {title: "Battlefield Disciple", topLink: ["Combat 
 <Ability id="battlefield-disciple" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="battlefield-disciple">Battlefield Disciple</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="battlefield-disciple-benefit">You are skilled at supporting your allies in the heat of battle. You gain a +2 trait bonus on Heal checks made to stabilize a dying creature. In addition, when you successfully use the aid another action in combat to grant an ally a bonus on her next attack roll, the bonus you grant increases by 1.</Pair>
+<Pair single="flavor" id="battlefield-disciple-flavor">You are skilled at supporting your allies in the heat of battle.</Pair>
+<Pair single="benefit" id="battlefield-disciple-benefit">You gain a +2 trait bonus on Heal checks made to stabilize a <Link to="/misc/dying">dying</Link> creature. In addition, when you successfully use the <Link to="/rule/aid_another_2">aid another</Link> action in combat to grant an ally a bonus on her next attack roll, the bonus you grant increases by 1.</Pair>
 </Ability>
 </>};
 const _berserker_of_the_society = {title: "Berserker of the Society", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -107,35 +117,40 @@ const _berserker_of_the_society = {title: "Berserker of the Society", topLink: [
 <Pair single id="berserker-of-the-society">Berserker of the Society</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
-<Pair single="benefit" id="berserker-of-the-society-benefit">Your time spent as a Pathfinder has taught you new truths about the origins of the your rage ability. You may use your rage ability for 3 additional rounds per day.</Pair>
+<Pair single="flavor" id="berserker-of-the-society-flavor">Your time spent as a Pathfinder has taught you new truths about the origins of the your rage ability.</Pair>
+<Pair single="benefit" id="berserker-of-the-society-benefit">You may use your <em>rage</em> ability for 3 additional rounds per day.</Pair>
 </Ability>
 </>};
 const _black_powder_bravado = {title: "Black Powder Bravado", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="black-powder-bravado" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="black-powder-bravado">Black Powder Bravado</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="black-powder-bravado-benefit">You are particularly successful when using deeds. Once per day, when you perform a deed that requires an attack roll and you miss with that roll, you can reroll it. You must take the second result even if it is worse.</Pair>
+<Pair single="flavor" id="black-powder-bravado-flavor">You are particularly successful when using deeds.</Pair>
+<Pair single="benefit" id="black-powder-bravado-benefit">Once per day, when you perform a deed that requires an attack roll and you miss with that roll, you can reroll it. You must take the second result even if it is worse.</Pair>
 </Ability>
 </>};
 const _black_powder_fortune = {title: "Black Powder Fortune", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="black-powder-fortune" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="black-powder-fortune">Black Powder Fortune</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="black-powder-fortune-benefit">You have little to fear when there's a gun in your hand. As long as you are wielding a firearm, you gain a +2 trait bonus on all saving throws against curse, fear, and emotion effects.</Pair>
+<Pair single="flavor" id="black-powder-fortune-flavor">You have little to fear when there's a gun in your hand.</Pair>
+<Pair single="benefit" id="black-powder-fortune-benefit">As long as you are wielding a firearm, you gain a +2 trait bonus on all saving throws against curse, fear, and emotion effects.</Pair>
 </Ability>
 </>};
 const _black_powder_interjection = {title: "Black Powder Interjection", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="black-powder-interjection" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="black-powder-interjection">Black Powder Interjection</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="black-powder-interjection-benefit">Your confidence rises when you foil spellcasting. Once per day, when you interrupt the casting of a spell with a firearm attack, you may regain 1 grit point.</Pair>
+<Pair single="flavor" id="black-powder-interjection-flavor">Your confidence rises when you foil spellcasting.</Pair>
+<Pair single="benefit" id="black-powder-interjection-benefit">Once per day, when you interrupt the casting of a spell with a firearm attack, you may regain 1 grit point.</Pair>
 </Ability>
 </>};
 const _blackjacket_weapon_flair = {title: "Blackjacket Weapon Flair", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
 <Ability id="blackjacket-weapon-flair" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="blackjacket-weapon-flair">Blackjacket Weapon Flair</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="blackjacket-weapon-flair-benefit">You trained with the Blackjackets of Druma to make optimal use of magic weapons. Whenever you roll a natural 20 (the die shows a -20-) on a combat maneuver check with a magic weapon, you gain a +5 trait bonus on the check.</Pair>
+<Pair single="flavor" id="blackjacket-weapon-flair-flavor">You trained with the Blackjackets of Druma to make optimal use of magic weapons.</Pair>
+<Pair single="benefit" id="blackjacket-weapon-flair-benefit">Whenever you roll a natural 20 (the die shows a -20-) on a <Link to="/rule/combat_maneuvers">combat maneuver</Link> check with a magic weapon, you gain a +5 trait bonus on the check.</Pair>
 </Ability>
 </>};
 const _blade_of_the_society = {title: "Blade of the Society", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -143,77 +158,89 @@ const _blade_of_the_society = {title: "Blade of the Society", topLink: ["Combat 
 <Pair single id="blade-of-the-society">Blade of the Society</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
-<Pair single="benefit" id="blade-of-the-society-benefit">The Society gave you access to charts detailing the weak spots of hundreds of humanoids and monsters. You gain a +1 trait bonus on damage rolls from sneak attacks.</Pair>
+<Pair single="flavor" id="blade-of-the-society-flavor">The Society gave you access to charts detailing the weak spots of hundreds of humanoids and monsters.</Pair>
+<Pair single="benefit" id="blade-of-the-society-benefit">You gain a +1 trait bonus on damage rolls from sneak attacks.</Pair>
 </Ability>
 </>};
 const _blights_bane = {title: "Blight's Bane", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
 <Ability id="blights-bane" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="blights-bane">Blight's Bane</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="blights-bane-benefit">You are trained in the destruction of blights. You gain a +2 trait bonus to confirm critical hits against a creature that has a template affiliated with some kind of communicable condition, such as a blighted fey or a fungal creature.</Pair>
+<Pair single="flavor" id="blights-bane-flavor">You are trained in the destruction of blights.</Pair>
+<Pair single="benefit" id="blights-bane-benefit">You gain a +2 trait bonus to confirm critical hits against a creature that has a template affiliated with some kind of communicable condition, such as a <Link to="/template/blighted_fey">blighted fey</Link> or a <Link to="/template/fungal_creature">fungal creature</Link>.</Pair>
 </Ability>
 </>};
 const _bloodthirsty = {title: "Bloodthirsty", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="bloodthirsty" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="bloodthirsty">Bloodthirsty</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="bloodthirsty-benefit">You have a vicious streak, and nothing satisfies you more than warm blood on your hands and blade. Whenever you make an attack that reduces a foe to 0 hit points or fewer or you confirm a critical hit, your attack deals 1 additional point of damage. The additional damage is a trait bonus, and is multiplied by your weapon's critical hit multiplier.</Pair>
+<Pair single="flavor" id="bloodthirsty-flavor">You have a vicious streak, and nothing satisfies you more than warm blood on your hands and blade.</Pair>
+<Pair single="benefit" id="bloodthirsty-benefit">Whenever you make an attack that reduces a foe to 0 hit points or fewer or you confirm a critical hit, your attack deals 1 additional point of damage. The additional damage is a trait bonus, and is multiplied by your weapon's critical hit multiplier.</Pair>
 </Ability>
 </>};
 const _bloody_minded = {title: "Bloody-Minded", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
 <Ability id="bloody-minded" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="bloody-minded">Bloody-Minded</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="bloody-minded-benefit">You are always ready for bloodshed. You gain a +1 trait bonus on initiative and Intimidate checks.</Pair>
+<Pair single="flavor" id="bloody-minded-flavor">You are always ready for bloodshed.</Pair>
+<Pair single="benefit" id="bloody-minded-benefit">You gain a +1 trait bonus on initiative and <Link to="/skill/intimidate">Intimidate</Link> checks.</Pair>
 </Ability>
 </>};
 const _born_under_the_cradle = {title: "Born under the Cradle", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
 <Ability id="born-under-the-cradle" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="born-under-the-cradle">Born under the Cradle</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="born-under-the-cradle-benefit">Your birth sign aligned significantly with Bretheda on the day you were born, granting you a knack for cooperation in the heat of battle. You gain a +2 trait bonus on attack rolls to perform the aid another action.</Pair>
+<Pair single="flavor" id="born-under-the-cradle-flavor">Your birth sign aligned significantly with Bretheda on the day you were born, granting you a knack for cooperation in the heat of battle.</Pair>
+<Pair single="benefit" id="born-under-the-cradle-benefit">You gain a +2 trait bonus on attack rolls to perform the <Link to="/rule/aid_another_2">aid another</Link> action.</Pair>
 </Ability>
 </>};
 const _born_under_the_dreamer = {title: "Born under the Dreamer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
 <Ability id="born-under-the-dreamer" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="born-under-the-dreamer">Born under the Dreamer</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="born-under-the-dreamer-benefit">Your birth sign aligned significantly with Liavara on the day you were born, and you are touched by the instinctual dreaming spirit of that planet, making you naturally poised and hard to surprise. Once per day as a free action, you can take 10 on your initiative check.</Pair>
+<Pair single="flavor" id="born-under-the-dreamer-flavor">Your birth sign aligned significantly with Liavara on the day you were born, and you are touched by the instinctual dreaming spirit of that planet, making you naturally poised and hard to surprise.</Pair>
+<Pair single="benefit" id="born-under-the-dreamer-benefit">Once per day as a <strong className="hl">free action</strong>, you can take 10 on your initiative check.</Pair>
 </Ability>
 </>};
 const _born_under_the_stranger = {title: "Born under the Stranger", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
 <Ability id="born-under-the-stranger" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="born-under-the-stranger">Born under the Stranger</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="born-under-the-stranger-benefit">Your birth was marked by the alignment of Aucturn with your birth sign and by strange happenings, giving you a link to alien beings. When feinting against aberrations, you do not take a -4 penalty for feinting against a non-humanoid creature, and you take only a -4 penalty if you feint against an aberration of animal Intelligence (instead of -8). You still cannot feint against mindless creatures.</Pair>
+<Pair single="flavor" id="born-under-the-stranger-flavor">Your birth was marked by the alignment of Aucturn with your birth sign and by strange happenings, giving you a link to alien beings.</Pair>
+<Pair single="benefit" id="born-under-the-stranger-benefit">When <Link to="/rule/feint">feinting</Link> against aberrations, you do not take a -4 penalty for feinting against a non-humanoid creature, and you take only a -4 penalty if you feint against an aberration of animal Intelligence (instead of -8). You still cannot feint against mindless creatures.</Pair>
 </Ability>
 </>};
 const _broken_not_beaten = {title: "Broken, Not Beaten", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
 <Ability id="broken-not-beaten" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="broken-not-beaten">Broken, Not Beaten</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="broken-not-beaten-benefit">You automatically stabilize when reduced below 0 hit points. Once per day when brought below 0 hit points, you can accept 1 point of damage to regain consciousness for 1 round, though you remain staggered and only able to take a single move or standard action.</Pair>
+<Pair single="benefit" id="broken-not-beaten-benefit">You automatically <Link to="/misc/stabilize">stabilize</Link> when reduced below 0 hit points. Once per day when brought below 0 hit points, you can accept 1 point of damage to regain consciousness for 1 round, though you remain staggered and only able to take a single move or standard action.</Pair>
 </Ability>
 </>};
 const _bullied = {title: "Bullied", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="bullied" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="bullied">Bullied</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="bullied-benefit">You were bullied often as a child, and you are now constantly ready to defend yourself with your fists when an enemy comes near. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes. Note that this trait does not grant the ability to make attacks of opportunity with your unarmed strikes-you must have a level in monk, the <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> feat, or some other similar power to gain the use of this character trait. However, that doesn't prevent you from selecting this trait. You simply cannot make use of it until a later point if you do.</Pair>
+<Pair single="flavor" id="bullied-flavor">You were bullied often as a child, and you are now constantly ready to defend yourself with your fists when an enemy comes near.</Pair>
+<Pair single="benefit" id="bullied-benefit"><p>You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes.</p>
+<p>Note that this trait does not grant the ability to make attacks of opportunity with your unarmed strikes - you must have a level in monk, the <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> feat, or some other similar power to gain the use of this character trait. However, that doesn't prevent you from selecting this trait. You simply cannot make use of it until a later point if you do.</p>
+</Pair>
 </Ability>
 </>};
 const _careful_combatant = {title: "Careful Combatant", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
 <Ability id="careful-combatant" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="careful-combatant">Careful Combatant</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="careful-combatant-benefit">You have a strong sense of self-preservation, believing it is more important to safely extract yourself from a fight that has turned hopeless than to stubbornly stand your ground and risk death - for when you're dead, you can't protect the innocent. When using the withdraw action, both the first and second squares of your movement are not considered threatened by any opponents you can see, rather than just the first square.</Pair>
+<Pair single="flavor" id="careful-combatant-flavor">You have a strong sense of self-preservation, believing it is more important to safely extract yourself from a fight that has turned hopeless than to stubbornly stand your ground and risk death - for when you're dead, you can't protect the innocent.</Pair>
+<Pair single="benefit" id="careful-combatant-benefit">When using the <Link to="/rule/withdraw">withdraw</Link> action, both the first and second squares of your movement are not considered threatened by any opponents you can see, rather than just the first square.</Pair>
 </Ability>
 </>};
 const _clockwork_engineer = {title: "Clockwork Engineer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
 <Ability id="clockwork-engineer" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="clockwork-engineer">Clockwork Engineer</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="clockwork-engineer-benefit">You have experience with the ancient clockwork constructs that roam certain wastelands, and this has granted you an understanding of these guardians. You gain a +2 trait bonus on damage rolls against creatures with the clockwork subtype.</Pair>
+<Pair single="flavor" id="clockwork-engineer-flavor">You have experience with the ancient clockwork constructs that roam certain wastelands, and this has granted you an understanding of these guardians.</Pair>
+<Pair single="benefit" id="clockwork-engineer-benefit">You gain a +2 trait bonus on damage rolls against creatures with the <Link to="/subtype/clockwork">clockwork</Link> subtype.</Pair>
 </Ability>
 </>};
 const _coherent_rage = {title: "Coherent Rage", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -221,35 +248,40 @@ const _coherent_rage = {title: "Coherent Rage", topLink: ["Combat Traits","main/
 <Pair single id="coherent-rage">Coherent Rage</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl>Associated with the <Link to="/rule/ulfen_guard">Ulfen Guard</Link></Pair>
-<Pair single="benefit" id="coherent-rage-benefit">Your determination allows you to hold onto a shred of your rational mind at all times. Select one of the following skills: Bluff, Escape Artist, Handle Animal, or Stealth. You may use this skill normally while raging.</Pair>
+<Pair single="flavor" id="coherent-rage-flavor">Your determination allows you to hold onto a shred of your rational mind at all times.</Pair>
+<Pair single="benefit" id="coherent-rage-benefit">Select one of the following skills: <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/escape_artist">Escape Artist</Link>, <Link to="/skill/handle_animal">Handle Animal</Link>, or <Link to="/skill/stealth">Stealth</Link>. You may use this skill normally while raging.</Pair>
 </Ability>
 </>};
 const _cold_and_calculating = {title: "Cold and Calculating", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="cold-and-calculating" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="cold-and-calculating">Cold and Calculating</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="cold-and-calculating-benefit">You are adept at tricking <Link to="/ability/favored_enemies">favored enemies</Link> of your race or those related to your race. You gain a +1 trait bonus on all Bluff checks against favored enemies that share one of your subtypes. You also gain a +1 trait bonus on attack rolls made against such favored enemies during the surprise round.</Pair>
+<Pair single="flavor" id="cold-and-calculating-flavor">You are adept at tricking <Link to="/ability/favored_enemies">favored enemies</Link> of your race or those related to your race.</Pair>
+<Pair single="benefit" id="cold-and-calculating-benefit">You gain a +1 trait bonus on all <Link to="/skill/bluff">Bluff</Link> checks against favored enemies that share one of your subtypes. You also gain a +1 trait bonus on attack rolls made against such favored enemies during the surprise round.</Pair>
 </Ability>
 </>};
 const _courageous = {title: "Courageous", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="courageous" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="courageous">Courageous</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="courageous-benefit">Your childhood was brutal, but you persevered through force of will and faith. No matter how hard things got, you knew you'd make it through as long as you kept a level head. You gain a +2 trait bonus on saving throws against fear effects.</Pair>
+<Pair single="flavor" id="courageous-flavor">Your childhood was brutal, but you persevered through force of will and faith. No matter how hard things got, you knew you'd make it through as long as you kept a level head.</Pair>
+<Pair single="benefit" id="courageous-benefit">You gain a +2 trait bonus on saving throws against fear effects.</Pair>
 </Ability>
 </>};
 const _crimson_carapace = {title: "Crimson Carapace", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
 <Ability id="crimson-carapace" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="crimson-carapace">Crimson Carapace</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="crimson-carapace-benefit">A combination of armor and agility protects you from deadly attacks. When wearing light armor and fighting defensively or using <Link to="/feat/combat_expertise">Combat Expertise</Link>, you receive a +2 trait bonus to your AC against attack rolls to confirm a critical threat.</Pair>
+<Pair single="flavor" id="crimson-carapace-flavor">A combination of armor and agility protects you from deadly attacks.</Pair>
+<Pair single="benefit" id="crimson-carapace-benefit">When wearing light armor and <Link to="/misc/fighting_defensively">fighting defensively</Link> or using <Link to="/feat/combat_expertise">Combat Expertise</Link>, you receive a +2 trait bonus to your AC against attack rolls to confirm a critical threat.</Pair>
 </Ability>
 </>};
 const _crowd_dodger = {title: "Crowd Dodger", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="crowd-dodger" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="crowd-dodger">Crowd Dodger</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="crowd-dodger-benefit"><p>You spent much of your youth on crowded streets, dodging quickly around and under others. You gain a +2 trait bonus on Acrobatics checks to move through another creature's space and to avoid attacks of opportunity for leaving a threatened square.</p>
+<Pair single="flavor" id="crowd-dodger-flavor">You spent much of your youth on crowded streets, dodging quickly around and under others.</Pair>
+<Pair single="benefit" id="crowd-dodger-benefit"><p>You gain a +2 trait bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks to move through another creature's space and to avoid attacks of opportunity for leaving a threatened square.</p>
 <p><strong>Suggested Characters:</strong> Absalom natives, Chelaxians, Lion Blades.</p>
 </Pair>
 </Ability>
@@ -258,7 +290,8 @@ const _dedicated_defender = {title: "Dedicated Defender", topLink: ["Combat Trai
 <Ability id="dedicated-defender" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="dedicated-defender">Dedicated Defender</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="dedicated-defender-benefit">When a companion is down, you fight harder. You gain a +1 trait bonus on attack rolls and on checks made to overcome spell resistance while you are adjacent to a dying or disabled ally, animal companion, eidolon, familiar, or mount.</Pair>
+<Pair single="flavor" id="dedicated-defender-flavor">When a companion is down, you fight harder.</Pair>
+<Pair single="benefit" id="dedicated-defender-benefit">You gain a +1 trait bonus on attack rolls and on checks made to overcome spell resistance while you are adjacent to a <Link to="/misc/dying">dying</Link> or <Link to="/misc/disabled">disabled</Link> ally, animal companion, eidolon, familiar, or mount.</Pair>
 </Ability>
 </>};
 const _defender_of_the_society = {title: "Defender of the Society", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -266,14 +299,16 @@ const _defender_of_the_society = {title: "Defender of the Society", topLink: ["C
 <Pair single id="defender-of-the-society">Defender of the Society</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
-<Pair single="benefit" id="defender-of-the-society-benefit">Your time spent studying the greatest warriors of the Society taught you new defensive skills while wearing armor. You gain a +1 trait bonus to Armor Class when wearing medium or heavy armor.</Pair>
+<Pair single="flavor" id="defender-of-the-society-flavor">Your time spent studying the greatest warriors of the Society taught you new defensive skills while wearing armor.</Pair>
+<Pair single="benefit" id="defender-of-the-society-benefit">You gain a +1 trait bonus to Armor Class when wearing medium or heavy armor.</Pair>
 </Ability>
 </>};
 const _deft_dodger = {title: "Deft Dodger", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="deft-dodger" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="deft-dodger">Deft Dodger</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="deft-dodger-benefit">Growing up in a rough neighborhood or a dangerous environment has honed your senses. You gain a +1 trait bonus on Reflex saves.</Pair>
+<Pair single="flavor" id="deft-dodger-flavor">Growing up in a rough neighborhood or a dangerous environment has honed your senses.</Pair>
+<Pair single="benefit" id="deft-dodger-benefit">You gain a +1 trait bonus on Reflex saves.</Pair>
 </Ability>
 </>};
 const _demon_slayer = {title: "Demon Slayer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -281,42 +316,48 @@ const _demon_slayer = {title: "Demon Slayer", topLink: ["Combat Traits","main/tr
 <Pair single id="demon-slayer">Demon Slayer</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl>Mendev Crusaders</Pair>
-<Pair single="benefit" id="demon-slayer-benefit">By studying a demonic opponent, you can sense and target its weak spots. You can attempt a Knowledge (planes) check to find a demon's weak spot. (DC 10 + the demon's CR). If you succeed, you gain a +3 trait bonus on rolls to confirm critical hits against that demon until the end of the battle. This effect only works on demons.</Pair>
+<Pair single="flavor" id="demon-slayer-flavor">By studying a demonic opponent, you can sense and target its weak spots.</Pair>
+<Pair single="benefit" id="demon-slayer-benefit">You can attempt a <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> check to find a demon's weak spot. (DC 10 + the demon's CR). If you succeed, you gain a +3 trait bonus on rolls to confirm critical hits against that <Link to="/family/demon">demon</Link> until the end of the battle. This effect only works on demons.</Pair>
 </Ability>
 </>};
 const _demon_smiter = {title: "Demon Smiter", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
 <Ability id="demon-smiter" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="demon-smiter">Demon Smiter</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="demon-smiter-benefit">You grew up around those who fight the demons streaming out of the Worldwound, and from their stories you learned about the demons' weaknesses. You are likely from Mendev or have joined that nation's cause as a crusader. Once per day when fighting demons, you gain a +4 trait bonus on a single attack roll.</Pair>
+<Pair single="flavor" id="demon-smiter-flavor">You grew up around those who fight the demons streaming out of the Worldwound, and from their stories you learned about the demons' weaknesses. You are likely from Mendev or have joined that nation's cause as a crusader.</Pair>
+<Pair single="benefit" id="demon-smiter-benefit">Once per day when fighting <Link to="/family/demon">demons</Link>, you gain a +4 trait bonus on a single attack roll.</Pair>
 </Ability>
 </>};
 const _devil_fighter = {title: "Devil Fighter", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
 <Ability id="devil-fighter" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="devil-fighter">Devil Fighter</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="devil-fighter-benefit">Learning how devils think helps you resist their trickery. You gain a +1 trait bonus to your AC against attacks made by lawful outsiders.</Pair>
+<Pair single="flavor" id="devil-fighter-flavor">Learning how devils think helps you resist their trickery.</Pair>
+<Pair single="benefit" id="devil-fighter-benefit">You gain a +1 trait bonus to your AC against attacks made by lawful outsiders.</Pair>
 </Ability>
 </>};
 const _dirty_fighter_apg = {title: "Dirty Fighter (APG)", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="dirty-fighter-apg" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="dirty-fighter-apg">Dirty Fighter (APG)</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="dirty-fighter-apg-benefit">You wouldn't have lived to make it out of childhood without the aid of a sibling, friend, or companion you could always count on to distract your enemies long enough for you to do a little bit more damage than normal. That companion may be another PC or an NPC (who may even be recently departed from your side). When you hit a foe you are flanking, you deal 1 additional point of damage (this damage is added to your base damage, and is multiplied on a critical hit). This additional damage is a trait bonus.</Pair>
+<Pair single="flavor" id="dirty-fighter-apg-flavor">You wouldn't have lived to make it out of childhood without the aid of a sibling, friend, or companion you could always count on to distract your enemies long enough for you to do a little bit more damage than normal. That companion may be another PC or an NPC (who may even be recently departed from your side).</Pair>
+<Pair single="benefit" id="dirty-fighter-apg-benefit">When you hit a foe you are <Link to="/rule/flanking">flanking</Link>, you deal 1 additional point of damage (this damage is added to your base damage, and is multiplied on a critical hit). This additional damage is a trait bonus.</Pair>
 </Ability>
 </>};
 const _dirty_trickster = {title: "Dirty Trickster", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="dirty-trickster" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="dirty-trickster">Dirty Trickster</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="dirty-trickster-benefit">You learned early that there's no point in fighting fair when you're fighting for your life. Others may look down their noses at your tactics, but you know you wouldn't have survived this long without breaking a few conventions of fair play. You can take the <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link> feat without meeting its prerequisites, and you gain a +1 trait bonus on combat maneuver checks to attempt a dirty trick.</Pair>
+<Pair single="flavor" id="dirty-trickster-flavor">You learned early that there's no point in fighting fair when you're fighting for your life. Others may look down their noses at your tactics, but you know you wouldn't have survived this long without breaking a few conventions of fair play.</Pair>
+<Pair single="benefit" id="dirty-trickster-benefit">You can take the <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link> feat without meeting its prerequisites, and you gain a +1 trait bonus on combat maneuver checks to attempt a <Link to="/rule/dirty_trick">dirty trick</Link>.</Pair>
 </Ability>
 </>};
 const _disillusioned = {title: "Disillusioned", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="disillusioned" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="disillusioned">Disillusioned</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="disillusioned-benefit"><p>Your childhood was ended by a great disaster or atrocity that you witnessed. To cope with the horror, you have learned to reflexively suppress all emotion. You gain a +2 trait bonus on Will saving throws against emotion and fear effects.</p>
+<Pair single="flavor" id="disillusioned-flavor">Your childhood was ended by a great disaster or atrocity that you witnessed. To cope with the horror, you have learned to reflexively suppress all emotion.</Pair>
+<Pair single="benefit" id="disillusioned-benefit"><p>You gain a +2 trait bonus on Will saving throws against emotion and fear effects.</p>
 <p><strong>Suggested Characters:</strong> Galtans, <Link to="/rule/hellknights">Hellknights</Link>, Nidalese.</p>
 </Pair>
 </Ability>
@@ -325,49 +366,58 @@ const _dispelled_battler = {title: "Dispelled Battler", topLink: ["Combat Traits
 <Ability id="dispelled-battler" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="dispelled-battler">Dispelled Battler</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="dispelled-battler-benefit">When deprived of magic, you fight harder. You gain a +1 trait bonus on weapon attack and damage rolls while within an area of antimagic such as that created by an <Link to="/spell/antimagic_field">antimagic field</Link>. You also gain this bonus for 1 round after you are subject to an area or targeted <Link to="/spell/dispel_magic">dispel magic</Link> spell, regardless of the effect's success or failure in dispelling your spells and magical effects.</Pair>
+<Pair single="flavor" id="dispelled-battler-flavor">When deprived of magic, you fight harder.</Pair>
+<Pair single="benefit" id="dispelled-battler-benefit">You gain a +1 trait bonus on weapon attack and damage rolls while within an area of antimagic such as that created by an <Link to="/spell/antimagic_field">antimagic field</Link>. You also gain this bonus for 1 round after you are subject to an area or targeted <Link to="/spell/dispel_magic">dispel magic</Link> spell, regardless of the effect's success or failure in dispelling your spells and magical effects.</Pair>
 </Ability>
 </>};
 const _dormant_defense = {title: "Dormant Defense", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
 <Ability id="dormant-defense" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="dormant-defense">Dormant Defense</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="dormant-defense-benefit">Your body never lets down its defenses, even when you rest. The DC for Perception checks you attempt while asleep increases only by 7 (instead of the normal +10 increase). While you are dazed, stunned, or helpless, each critical hit or sneak attack scored against you has a 25% chance of being negated; when a critical hit or sneak attack is negated, roll its damage normally. This doesn't stack with the fortification armor special ability and similar effects.</Pair>
+<Pair single="flavor" id="dormant-defense-flavor">Your body never lets down its defenses, even when you rest.</Pair>
+<Pair single="benefit" id="dormant-defense-benefit"><p>The DC for <Link to="/skill/perception">Perception</Link> checks you attempt while asleep increases only by 7 (instead of the normal +10 increase). While you are <Link to="/misc/dazed">dazed</Link>, <Link to="/misc/stunned">stunned</Link>, or <Link to="/misc/helpless">helpless</Link>, each critical hit or sneak attack scored against you has a 25% chance of being negated; when a critical hit or sneak attack is negated, roll its damage normally.</p>
+<p>This doesn't stack with the <Link to="/magic-enh/fortification">fortification</Link> armor special ability and similar effects.</p>
+</Pair>
 </Ability>
 </>};
 const _dragon_armor = {title: "Dragon Armor", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
 <Ability id="dragon-armor" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="dragon-armor">Dragon Armor</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="dragon-armor-benefit">Xa Hoi's elite warriors are trained to deflect energy attacks. Choose an energy type (acid, cold, electricity, fire, or sonic) when you acquire this trait. When you are wearing medium or heavy armor, you gain a +2 trait bonus on Reflex saves against spells and effects of the chosen energy type.</Pair>
+<Pair single="flavor" id="dragon-armor-flavor">Xa Hoi's elite warriors are trained to deflect energy attacks.</Pair>
+<Pair single="benefit" id="dragon-armor-benefit">Choose an energy type (acid, cold, electricity, fire, or sonic) when you acquire this trait. When you are wearing medium or heavy armor, you gain a +2 trait bonus on Reflex saves against spells and effects of the chosen energy type.</Pair>
 </Ability>
 </>};
 const _dueling_cloak_adept = {title: "Dueling Cloak Adept", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
 <Ability id="dueling-cloak-adept" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="dueling-cloak-adept">Dueling Cloak Adept</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="dueling-cloak-adept-benefit">You are trained in using your cloak to disguise your body and deceive your enemies. While wearing a cloak and using an Aldori dueling sword, you gain a +2 trait bonus on Bluff checks made to feint. Additionally, every time you successfully feint while wearing a cloak, you gain a +1 dodge bonus to your Armor Class until your next turn.</Pair>
+<Pair single="flavor" id="dueling-cloak-adept-flavor">You are trained in using your cloak to disguise your body and deceive your enemies.</Pair>
+<Pair single="benefit" id="dueling-cloak-adept-benefit">While wearing a cloak and using an <Link to="/eq-weapon/aldori_dueling_sword">Aldori dueling sword</Link>, you gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks made to feint. Additionally, every time you successfully feint while wearing a cloak, you gain a +1 dodge bonus to your Armor Class until your next turn.</Pair>
 </Ability>
 </>};
 const _easy_way_or_the_hard_way = {title: "Easy Way or the Hard Way", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="easy-way-or-the-hard-way" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="easy-way-or-the-hard-way">Easy Way or the Hard Way</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="easy-way-or-the-hard-way-benefit">You are skilled at subduing your enemies. Whenever you attack one of your <Link to="/ability/favored_enemies">favored enemies</Link> with a weapon that deals lethal damage and choose to deal nonlethal damage, you take only a -2 penalty on the attack roll instead of the normal -4.</Pair>
+<Pair single="flavor" id="easy-way-or-the-hard-way-flavor">You are skilled at subduing your enemies.</Pair>
+<Pair single="benefit" id="easy-way-or-the-hard-way-benefit">Whenever you attack one of your <Link to="/ability/favored_enemies">favored enemies</Link> with a weapon that deals lethal damage and choose to deal nonlethal damage, you take only a -2 penalty on the attack roll instead of the normal -4.</Pair>
 </Ability>
 </>};
 const _elemental_apprentice = {title: "Elemental Apprentice", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook</Link></p>
 <Ability id="elemental-apprentice" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="elemental-apprentice">Elemental Apprentice</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="elemental-apprentice-benefit">You spent your childhood in a region of Golarion where the use of elemental magic is commonplace or the environment is heavily infused with elemental energies, such as the volcano Asuulek's Mouth or the hurricane-lashed Sodden Lands. Your time near raw elemental energies has inured you to taking damage from them. At character creation, select acid, cold, electricity, or fire (once chosen, this damage type can't be changed). Once per day as a free action, when you hit a creature with a melee weapon, you can convert an amount of damage dealt by your attack equal to your character level into the selected energy type. You cannot convert this damage if any damage from the attack would normally deal a different type of energy damage (such as that of a flaming weapon).</Pair>
+<Pair single="flavor" id="elemental-apprentice-flavor">You spent your childhood in a region of Golarion where the use of elemental magic is commonplace or the environment is heavily infused with elemental energies, such as the volcano Asuulek's Mouth or the hurricane-lashed Sodden Lands. Your time near raw elemental energies has inured you to taking damage from them.</Pair>
+<Pair single="benefit" id="elemental-apprentice-benefit">At character creation, select acid, cold, electricity, or fire (once chosen, this damage type can't be changed). Once per day as a <strong className="hl">free action</strong>, when you hit a creature with a melee weapon, you can convert an amount of damage dealt by your attack equal to your character level into the selected energy type. You cannot convert this damage if any damage from the attack would normally deal a different type of energy damage (such as that of a <Link to="/magic-enh/flaming">flaming</Link> weapon).</Pair>
 </Ability>
 </>};
 const _evasive_sting = {title: "Evasive Sting", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="evasive-sting" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="evasive-sting">Evasive Sting</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="evasive-sting-benefit">Larger enemies have a hard time striking you. You gain a +1 dodge bonus to AC against enemies that are both your <Link to="/ability/favored_enemy">favored enemy</Link> and at least two size categories larger than you.</Pair>
+<Pair single="flavor" id="evasive-sting-flavor">Larger enemies have a hard time striking you.</Pair>
+<Pair single="benefit" id="evasive-sting-benefit">You gain a +1 dodge bonus to AC against enemies that are both your <Link to="/ability/favored_enemy">favored enemy</Link> and at least two size categories larger than you.</Pair>
 </Ability>
 </>};
 const _excitable = {title: "Excitable", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
@@ -375,35 +425,40 @@ const _excitable = {title: "Excitable", topLink: ["Combat Traits","main/traits_c
 <Pair single id="excitable">Excitable</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
-<Pair single="benefit" id="excitable-benefit">You demand that everything must happen right now, no matter what, and are too impatient to wait for everyone else to catch up. You finish people's sentences, blurt out the punch lines to slowly-told jokes, rarely make plans, and leap headlong into anything that looks like it might get interesting. While this has sometimes gotten you in trouble, it's also trained you to start moving a split second before everyone else, and that's saved your hide a few times as well. You gain a +2 trait bonus on all Initiative checks.</Pair>
+<Pair single="flavor" id="excitable-flavor">You demand that everything must happen right now, no matter what, and are too impatient to wait for everyone else to catch up. You finish people's sentences, blurt out the punch lines to slowly-told jokes, rarely make plans, and leap headlong into anything that looks like it might get interesting. While this has sometimes gotten you in trouble, it's also trained you to start moving a split second before everyone else, and that's saved your hide a few times as well.</Pair>
+<Pair single="benefit" id="excitable-benefit">You gain a +2 trait bonus on all Initiative checks.</Pair>
 </Ability>
 </>};
 const _failed_aspirant = {title: "Failed Aspirant", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
 <Ability id="failed-aspirant" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="failed-aspirant">Failed Aspirant</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="failed-aspirant-benefit">You've failed the trials to gain entry to one of the <Link to="/rule/houses_of_perfection">Houses of Perfection</Link>. Though you are disappointed, you were able to pick up one trick from the monks. Choose a single combat maneuver. Once per day, you can perform that combat maneuver without provoking an attack of opportunity, and you gain a +2 bonus on that attempt.</Pair>
+<Pair single="flavor" id="failed-aspirant-flavor">You've failed the trials to gain entry to one of the <Link to="/rule/houses_of_perfection">Houses of Perfection</Link>. Though you are disappointed, you were able to pick up one trick from the monks.</Pair>
+<Pair single="benefit" id="failed-aspirant-benefit">Choose a single <Link to="/rule/combat_maneuver">combat maneuver</Link>. Once per day, you can perform that combat maneuver without provoking an attack of opportunity, and you gain a +2 bonus on that attempt.</Pair>
 </Ability>
 </>};
 const _faiths_hunter = {title: "Faith's Hunter", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="faiths-hunter" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="faiths-hunter">Faith's Hunter</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="faiths-hunter-benefit">Divine powers smile upon you each time you grievously wound a favored enemy. When you confirm a critical hit against a <Link to="/ability/favored_enemy">favored enemy</Link>, you may extend the duration of any divine spell affecting you by 1 round. The benefits from multiple critical hits stack. Divine spells with an instantaneous duration can't be extended in this manner.</Pair>
+<Pair single="flavor" id="faiths-hunter-flavor">Divine powers smile upon you each time you grievously wound a favored enemy.</Pair>
+<Pair single="benefit" id="faiths-hunter-benefit">When you confirm a critical hit against a <Link to="/ability/favored_enemy">favored enemy</Link>, you may extend the duration of any divine spell affecting you by 1 round. The benefits from multiple critical hits stack. Divine spells with an instantaneous duration can't be extended in this manner.</Pair>
 </Ability>
 </>};
 const _fencer = {title: "Fencer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
 <Ability id="fencer" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="fencer">Fencer</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="fencer-benefit">You trained with blades for long hours as a youth, either taking lessons in the genteel art of fencing from tutors paid for by your parents or being taken under the wing of a disenfranchised fencer who may have turned to a life of crime. You gain a +1 trait bonus on attack of opportunity attack rolls made with daggers, swords, and similar bladed weapons.</Pair>
+<Pair single="flavor" id="fencer-flavor">You trained with blades for long hours as a youth, either taking lessons in the genteel art of fencing from tutors paid for by your parents or being taken under the wing of a disenfranchised fencer who may have turned to a life of crime.</Pair>
+<Pair single="benefit" id="fencer-benefit">You gain a +1 trait bonus on attack of opportunity attack rolls made with daggers, swords, and similar bladed weapons.</Pair>
 </Ability>
 </>};
 const _firebug_qac = {title: "Firebug (QaC)", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="firebug-qac" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="firebug-qac">Firebug (QaC)</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="firebug-qac-benefit"><p>You were the child of a gunsmith or alchemist and always enjoyed experimenting with fiery alchemical items and minor explosives. You gain a +1 trait bonus on attack rolls made with <Link to="/rule/throw_splash_weapon">thrown splash weapons</Link> and alchemist bombs.</p>
+<Pair single="flavor" id="firebug-qac-flavor">You were the child of a gunsmith or alchemist and always enjoyed experimenting with fiery alchemical items and minor explosives.</Pair>
+<Pair single="benefit" id="firebug-qac-benefit"><p>You gain a +1 trait bonus on attack rolls made with <Link to="/rule/throw_splash_weapon">thrown splash weapons</Link> and <Link to="/class/alchemist">alchemist</Link> bombs.</p>
 <p><strong>Suggested Characters:</strong> Alkenstar natives, Katapeshi, Thuvians.</p>
 </Pair>
 </Ability>
@@ -412,49 +467,55 @@ const _fugitive = {title: "Fugitive", topLink: ["Combat Traits","main/traits_com
 <Ability id="fugitive" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="fugitive">Fugitive</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="fugitive-benefit">You crossed the law (or those in charge thought you did), and you are now a wanted criminal. As such, you have grown used to looking over your shoulder wherever you go. While in settlements, you gain a +3 trait bonus on Perception checks to determine awareness for the purpose of a surprise round.</Pair>
+<Pair single="flavor" id="fugitive-flavor">You crossed the law (or those in charge thought you did), and you are now a wanted criminal. As such, you have grown used to looking over your shoulder wherever you go.</Pair>
+<Pair single="benefit" id="fugitive-benefit">While in settlements, you gain a +3 trait bonus on <Link to="/skill/perception">Perception</Link> checks to determine awareness for the purpose of a surprise round.</Pair>
 </Ability>
 </>};
 const _guerrilla_tactics = {title: "Guerrilla Tactics", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
 <Ability id="guerrilla-tactics" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="guerrilla-tactics">Guerrilla Tactics</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="guerrilla-tactics-benefit">You gain a +2 trait bonus on Stealth checks and Initiative checks in forests.</Pair>
+<Pair single="benefit" id="guerrilla-tactics-benefit">You gain a +2 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks and Initiative checks in forests.</Pair>
 </Ability>
 </>};
 const _hard_to_kill = {title: "Hard to Kill", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
 <Ability id="hard-to-kill" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="hard-to-kill">Hard to Kill</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="hard-to-kill-benefit">Your strong will to live and spread good combined with your pure physicality makes you a tough opponent to take down. You may have discovered this as a child after a tragic accident or during the course of your first battle. When you are attempting a Constitution check to stabilize when dying, the penalty on the check is only half your negative hit point total instead of your full negative hit point total.</Pair>
+<Pair single="flavor" id="hard-to-kill-flavor">Your strong will to live and spread good combined with your pure physicality makes you a tough opponent to take down. You may have discovered this as a child after a tragic accident or during the course of your first battle.</Pair>
+<Pair single="benefit" id="hard-to-kill-benefit">When you are attempting a Constitution check to stabilize when <Link to="/misc/dying">dying</Link>, the penalty on the check is only half your negative hit point total instead of your full negative hit point total.</Pair>
 </Ability>
 </>};
 const _hellknight_devotion = {title: "Hellknight Devotion", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
 <Ability id="hellknight-devotion" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="hellknight-devotion">Hellknight Devotion</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="hellknight-devotion-benefit">Your family has strong ties to a <Link to="/rule/hellknights">Hellknight</Link> order, and you harness this belief as a weapon. Once per day as a swift action, you can empower the next single melee attack you make to be treated as lawful-aligned for the purpose of overcoming damage reduction.</Pair>
+<Pair single="flavor" id="hellknight-devotion-flavor">Your family has strong ties to a <Link to="/rule/hellknights">Hellknight</Link> order, and you harness this belief as a weapon.</Pair>
+<Pair single="benefit" id="hellknight-devotion-benefit">Once per day as a <strong className="hl">swift action</strong>, you can empower the next single melee attack you make to be treated as lawful-aligned for the purpose of overcoming damage reduction.</Pair>
 </Ability>
 </>};
 const _hellknight_initiate = {title: "Hellknight Initiate", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
 <Ability id="hellknight-initiate" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="hellknight-initiate">Hellknight Initiate</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="hellknight-initiate-benefit">You have laboriously studied the training rites of various <Link to="/rule/hellknights">Hellknight</Link> orders with the intent of joining one yourself. You gain a +2 trait bonus on damage rolls against outsiders summoned through conjuration (calling) and conjuration (summoning) spells and effects.</Pair>
+<Pair single="flavor" id="hellknight-initiate-flavor">You have laboriously studied the training rites of various <Link to="/rule/hellknights">Hellknight</Link> orders with the intent of joining one yourself.</Pair>
+<Pair single="benefit" id="hellknight-initiate-benefit">You gain a +2 trait bonus on damage rolls against outsiders summoned through conjuration (calling) and conjuration (summoning) spells and effects.</Pair>
 </Ability>
 </>};
 const _helpful_cop = {title: "Helpful (CoP)", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
 <Ability id="helpful-cop" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="helpful-cop">Helpful (CoP)</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="helpful-cop-benefit">You always know the best way to assist your companions, be it assisting them with a task, defending them in battle, or helping them place a well-aimed strike. When using the aid another action, you grant your ally a +3 bonus instead of a +2 bonus.</Pair>
+<Pair single="flavor" id="helpful-cop-flavor">You always know the best way to assist your companions, be it assisting them with a task, defending them in battle, or helping them place a well-aimed strike.</Pair>
+<Pair single="benefit" id="helpful-cop-benefit">When using the <Link to="/rule/aid_another">aid another</Link> action, you grant your ally a +3 bonus instead of a +2 bonus.</Pair>
 </Ability>
 </>};
 const _hidden_hand = {title: "Hidden Hand", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="hidden-hand" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="hidden-hand">Hidden Hand</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="hidden-hand-benefit">Your concealed weapons strike fast and true. You gain a +1 trait bonus on Sleight of Hand checks made to conceal light weapons and a +1 trait bonus on attack rolls when making an attack with a light weapon during a surprise round.</Pair>
+<Pair single="flavor" id="hidden-hand-flavor">Your concealed weapons strike fast and true.</Pair>
+<Pair single="benefit" id="hidden-hand-benefit">You gain a +1 trait bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks made to conceal light weapons and a +1 trait bonus on attack rolls when making an attack with a light weapon during a surprise round.</Pair>
 </Ability>
 </>};
 const _hill_fighter = {title: "Hill Fighter", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
@@ -462,14 +523,16 @@ const _hill_fighter = {title: "Hill Fighter", topLink: ["Combat Traits","main/tr
 <Pair single id="hill-fighter">Hill Fighter</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Region" hl>Sargava</Pair>
-<Pair single="benefit" id="hill-fighter-benefit">You are used to fighting in <Link to="/rule/hills_terrain">hilly environments</Link>. You may run or charge downhill on a steep slope (moving up to your base speed) without making an Acrobatics check to avoid stumbling - but if you travel farther than this distance, the normal rules for steep slopes apply.</Pair>
+<Pair single="flavor" id="hill-fighter-flavor">You are used to fighting in <Link to="/rule/hills_terrain">hilly environments</Link>.</Pair>
+<Pair single="benefit" id="hill-fighter-benefit">You may <Link to="/rule/run">run</Link> or <Link to="/rule/charge">charge</Link> downhill on a steep slope (moving up to your base speed) without making an <Link to="/skill/acrobatics">Acrobatics</Link> check to avoid stumbling - but if you travel farther than this distance, the normal rules for steep slopes apply.</Pair>
 </Ability>
 </>};
 const _holdout = {title: "Holdout", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="holdout" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="holdout">Holdout</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="holdout-benefit"><p>You were robbed at a young age by bullies, an experience that impressed upon you the importance of being able to hold on to whatever you cared to keep. You gain a +1 trait bonus to CMD against disarm and steal combat maneuvers.</p>
+<Pair single="flavor" id="holdout-flavor">You were robbed at a young age by bullies, an experience that impressed upon you the importance of being able to hold on to whatever you cared to keep.</Pair>
+<Pair single="benefit" id="holdout-benefit"><p>You gain a +1 trait bonus to CMD against disarm and steal combat maneuvers.</p>
 <p><strong>Suggested Characters:</strong> Half-orcs, River Kingdoms natives, Varisians.</p>
 </Pair>
 </Ability>
@@ -479,42 +542,48 @@ const _honored_fist_of_the_society = {title: "Honored Fist of the Society", topL
 <Pair single id="honored-fist-of-the-society">Honored Fist of the Society</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
-<Pair single="benefit" id="honored-fist-of-the-society-benefit">You have studied dozens of ancient texts on martial arts that only the Society possesses, and are more learned in these arts than most. You increase your ki pool by 1 point.</Pair>
+<Pair single="flavor" id="honored-fist-of-the-society-flavor">You have studied dozens of ancient texts on martial arts that only the Society possesses, and are more learned in these arts than most.</Pair>
+<Pair single="benefit" id="honored-fist-of-the-society-benefit">You increase your ki pool by 1 point.</Pair>
 </Ability>
 </>};
 const _hunters_knack = {title: "Hunter's Knack", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="hunters-knack" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="hunters-knack">Hunter's Knack</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="hunters-knack-benefit">When you watch and wait before attacking, your strike is true. You gain a +1 trait bonus on attack rolls against your <Link to="/ability/favored_enemies">favored enemies</Link> when you make such attacks as part of a readied action.</Pair>
+<Pair single="flavor" id="hunters-knack-flavor">When you watch and wait before attacking, your strike is true.</Pair>
+<Pair single="benefit" id="hunters-knack-benefit">You gain a +1 trait bonus on attack rolls against your <Link to="/ability/favored_enemies">favored enemies</Link> when you make such attacks as part of a <Link to="/rule/readied_action">readied action</Link>.</Pair>
 </Ability>
 </>};
 const _ichimeiyo_champion = {title: "Ichimeiyo Champion", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
 <Ability id="ichimeiyo-champion" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="ichimeiyo-champion">Ichimeiyo Champion</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="ichimeiyo-champion-benefit">You draw strength from adhering to the Ichimeiyo honor code in combat. Once per day, if an effect would compel you to harm an ally, abandon an ally, or break your word, you can attempt a Will save at the usual DC to end the effect. If the effect normally allows a Will save at this point, you can roll twice and take the better result.</Pair>
+<Pair single="flavor" id="ichimeiyo-champion-flavor">You draw strength from adhering to the Ichimeiyo honor code in combat.</Pair>
+<Pair single="benefit" id="ichimeiyo-champion-benefit">Once per day, if an effect would compel you to harm an ally, abandon an ally, or break your word, you can attempt a Will save at the usual DC to end the effect. If the effect normally allows a Will save at this point, you can roll twice and take the better result.</Pair>
 </Ability>
 </>};
 const _improvised_defense = {title: "Improvised Defense", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
 <Ability id="improvised-defense" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="improvised-defense">Improvised Defense</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="improvised-defense-benefit">You're never defenseless, even when you are caught off guard. Whenever you wield an improvised weapon, you gain a +1 shield bonus to AC. If you use the improvised weapon to attack, you lose this shield bonus until the beginning of your next turn.</Pair>
+<Pair single="flavor" id="improvised-defense-flavor">You're never defenseless, even when you are caught off guard.</Pair>
+<Pair single="benefit" id="improvised-defense-benefit">Whenever you wield an improvised weapon, you gain a +1 shield bonus to AC. If you use the improvised weapon to attack, you lose this shield bonus until the beginning of your next turn.</Pair>
 </Ability>
 </>};
 const _indelible_ire = {title: "Indelible Ire", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="indelible-ire" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="indelible-ire">Indelible Ire</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="indelible-ire-benefit">When you are gravely wounded, you're stirred to greater combat focus. Each time a critical hit is confirmed against you, you gain a +1 trait bonus on attack rolls for 1 round.</Pair>
+<Pair single="flavor" id="indelible-ire-flavor">When you are gravely wounded, you're stirred to greater combat focus.</Pair>
+<Pair single="benefit" id="indelible-ire-benefit">Each time a critical hit is confirmed against you, you gain a +1 trait bonus on attack rolls for 1 round.</Pair>
 </Ability>
 </>};
 const _inspiring = {title: "Inspiring", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="inspiring" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="inspiring">Inspiring</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="inspiring-benefit"><p>As a child, you learned the power of a simple expression of faith in another when you gave a hero the inspiration to fight on in the face of terrible odds and save you from danger. As a standard action, you can speak words of encouragement to grant a +1 morale bonus to an ally within 30 feet who can see and hear you. The ally can use this bonus on any d20 roll of her choice before the start of your next turn. You cannot use this trait to grant a bonus to yourself or to an ally who has already benefited from this trait within the last 24 hours.</p>
+<Pair single="flavor" id="inspiring-flavor">As a child, you learned the power of a simple expression of faith in another when you gave a hero the inspiration to fight on in the face of terrible odds and save you from danger.</Pair>
+<Pair single="benefit" id="inspiring-benefit"><p>As a <strong className="hl">standard action</strong>, you can speak words of encouragement to grant a +1 morale bonus to an ally within 30 feet who can see and hear you. The ally can use this bonus on any d20 roll of her choice before the start of your next turn. You cannot use this trait to grant a bonus to yourself or to an ally who has already benefited from this trait within the last 24 hours.</p>
 <p><strong>Suggested Characters:</strong> <Link to="/rule/eagle_knights">Eagle Knights</Link>, <Link to="/faith/iomedae">Iomedaeans</Link>, Mendevian crusaders.</p>
 </Pair>
 </Ability>
@@ -523,7 +592,8 @@ const _inspiring_rush = {title: "Inspiring Rush", topLink: ["Combat Traits","mai
 <Ability id="inspiring-rush" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="inspiring-rush">Inspiring Rush</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="inspiring-rush-benefit">Your charge inspires nearby companions to new heights of daring. Once per day when you make a charge attack, you gain a +1 trait bonus on both your attack and damage rolls, as do any allies who make a charge attack before the beginning of your next turn.</Pair>
+<Pair single="flavor" id="inspiring-rush-flavor">Your charge inspires nearby companions to new heights of daring.</Pair>
+<Pair single="benefit" id="inspiring-rush-benefit">Once per day when you make a <Link to="/rule/charge">charge</Link> attack, you gain a +1 trait bonus on both your attack and damage rolls, as do any allies who make a charge attack before the beginning of your next turn.</Pair>
 </Ability>
 </>};
 const _jacket_training = {title: "Jacket Training", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
@@ -545,147 +615,170 @@ const _just_like_new = {title: "Just Like New", topLink: ["Combat Traits","main/
 <Ability id="just-like-new" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="just-like-new">Just Like New</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="just-like-new-benefit">Broken firearms are not problems: they are challenges. Your first attempt to remove the broken condition from your starting firearm and to upgrade it to a masterwork weapon costs 150 gp instead of 300 gp. In addition, when wielding a firearm that has the broken condition or is treated as if it had the broken condition, you take a -1 penalty on attack rolls made with it instead of the normal -2.</Pair>
+<Pair single="flavor" id="just-like-new-flavor">Broken firearms are not problems: they are challenges.</Pair>
+<Pair single="benefit" id="just-like-new-benefit">Your first attempt to remove the broken condition from your starting firearm and to upgrade it to a masterwork weapon costs 150 gp instead of 300 gp. In addition, when wielding a firearm that has the broken condition or is treated as if it had the broken condition, you take a -1 penalty on attack rolls made with it instead of the normal -2.</Pair>
 </Ability>
 </>};
 const _killer = {title: "Killer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
 <Ability id="killer" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="killer">Killer</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="killer-benefit">You made your first kill at a very young age and found the task of war or murder to your liking. You either take particular pride in a well-placed blow, or find vile pleasure in twisting the blade to maximize your target's pain. You deal an amount of additional damage equal to your weapon's critical hit modifier when you score a successful critical hit with a weapon; this additional damage is added to the final total, and is not multiplied by the critical hit multiple itself. This extra damage is a trait bonus.</Pair>
+<Pair single="flavor" id="killer-flavor">You made your first kill at a very young age and found the task of war or murder to your liking. You either take particular pride in a well-placed blow, or find vile pleasure in twisting the blade to maximize your target's pain.</Pair>
+<Pair single="benefit" id="killer-benefit">You deal an amount of additional damage equal to your weapon's critical hit modifier when you score a successful critical hit with a weapon; this additional damage is added to the final total, and is not multiplied by the critical hit multiple itself. This extra damage is a trait bonus.</Pair>
 </Ability>
 </>};
 const _kin_guardian = {title: "Kin Guardian", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="kin-guardian" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="kin-guardian">Kin Guardian</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="kin-guardian-benefit">You are dedicated to defending members of your family. When you use the aid another action to give a member of your family a bonus to AC, increase the bonus by 2. This increase is a trait bonus (and therefore doesn't stack with increases granted by other family members using this trait). This trait has no effect when using the aid another action to increase a family member's next attack roll.</Pair>
+<Pair single="flavor" id="kin-guardian-flavor">You are dedicated to defending members of your family.</Pair>
+<Pair single="benefit" id="kin-guardian-benefit">When you use the <Link to="/rule/aid_another_2">aid another</Link> action to give a member of your family a bonus to AC, increase the bonus by 2. This increase is a trait bonus (and therefore doesn't stack with increases granted by other family members using this trait). This trait has no effect when using the aid another action to increase a family member's next attack roll.</Pair>
 </Ability>
 </>};
 const _larger_than_life = {title: "Larger Than Life", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="larger-than-life" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="larger-than-life">Larger Than Life</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="larger-than-life-benefit">You wield firearms with truly terrifying menace. When you use the Intimidate skill on a creature while wielding a firearm, you are considered one size category larger than your actual size.</Pair>
+<Pair single="flavor" id="larger-than-life-flavor">You wield firearms with truly terrifying menace.</Pair>
+<Pair single="benefit" id="larger-than-life-benefit">When you use the <Link to="/skill/intimidate">Intimidate</Link> skill on a creature while wielding a firearm, you are considered one size category larger than your actual size.</Pair>
 </Ability>
 </>};
 const _lastwall_defender = {title: "Lastwall Defender", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
 <Ability id="lastwall-defender" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="lastwall-defender">Lastwall Defender</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="lastwall-defender-benefit">Your military service in Lastwall taught you how to identify undead creatures, changing them in your mind from mysterious terrors to concrete foes you know how to deal with. You gain a +1 trait bonus on attack and damage rolls against undead creatures that you have personally identified using the Knowledge (religion) skill.</Pair>
+<Pair single="flavor" id="lastwall-defender-flavor">Your military service in Lastwall taught you how to identify undead creatures, changing them in your mind from mysterious terrors to concrete foes you know how to deal with.</Pair>
+<Pair single="benefit" id="lastwall-defender-benefit">You gain a +1 trait bonus on attack and damage rolls against undead creatures that you have personally identified using the <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> skill.</Pair>
 </Ability>
 </>};
 const _martial_performer = {title: "Martial Performer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="martial-performer" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="martial-performer">Martial Performer</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="martial-performer-benefit">Your training has made you a martial performer. When you gain a monk bonus feat, you may instead take a performance feat for which you meet the prerequisites.</Pair>
+<Pair single="flavor" id="martial-performer-flavor">Your training has made you a martial performer.</Pair>
+<Pair single="benefit" id="martial-performer-benefit">When you gain a monk bonus feat, you may instead take a <Link to="/main/feats_performance">performance feat</Link> for which you meet the prerequisites.</Pair>
 </Ability>
 </>};
 const _merciful_scimitar = {title: "Merciful Scimitar", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
 <Ability id="merciful-scimitar" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="merciful-scimitar">Merciful Scimitar</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="merciful-scimitar-benefit">You learned from worshipers of Sarenrae to cut foes with a scimitar without killing them. You can deal nonlethal damage with a scimitar without taking a penalty on your attack rolls.</Pair>
+<Pair single="flavor" id="merciful-scimitar-flavor">You learned from worshipers of <Link to="/faith/sarenrae">Sarenrae</Link> to cut foes with a scimitar without killing them.</Pair>
+<Pair single="benefit" id="merciful-scimitar-benefit">You can deal nonlethal damage with a scimitar without taking a penalty on your attack rolls.</Pair>
 </Ability>
 </>};
 const _monk_weapon_skill = {title: "Monk Weapon Skill", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
 <Ability id="monk-weapon-skill" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="monk-weapon-skill">Monk Weapon Skill</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="monk-weapon-skill-benefit">Your exposure to teaching from the <Link to="/rule/houses_of_perfection">Houses of Perfection</Link> makes your attacks with monk weapons even more deadly. Select one monk weapon with which you are proficient (unarmed attacks do not qualify for this purpose). You gain a +1 trait bonus on damage rolls with this weapon.</Pair>
+<Pair single="flavor" id="monk-weapon-skill-flavor">Your exposure to teaching from the <Link to="/rule/houses_of_perfection">Houses of Perfection</Link> makes your attacks with monk weapons even more deadly.</Pair>
+<Pair single="benefit" id="monk-weapon-skill-benefit">Select one <Link to="/class/monk">monk</Link> weapon with which you are proficient (unarmed attacks do not qualify for this purpose). You gain a +1 trait bonus on damage rolls with this weapon.</Pair>
 </Ability>
 </>};
 const _monster_challenger = {title: "Monster Challenger", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook</Link></p>
 <Ability id="monster-challenger" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="monster-challenger">Monster Challenger</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="monster-challenger-benefit">You have made it your mission to bring down a fearsome beast. Choose two of the following: aberrations, animals, dragons, fey, magical beasts, oozes, and vermin. You can move at full speed without penalty while using Survival to follow tracks left by your chosen creature types.</Pair>
+<Pair single="flavor" id="monster-challenger-flavor">You have made it your mission to bring down a fearsome beast.</Pair>
+<Pair single="benefit" id="monster-challenger-benefit">Choose two of the following: aberrations, animals, dragons, fey, magical beasts, oozes, and vermin. You can move at full speed without penalty while using <Link to="/skill/survival">Survival</Link> to follow tracks left by your chosen creature types.</Pair>
 </Ability>
 </>};
 const _monster_survivor = {title: "Monster Survivor", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook</Link></p>
 <Ability id="monster-survivor" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="monster-survivor">Monster Survivor</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="monster-survivor-benefit">You've escaped with your life after a terrible monster attack. You gain a +4 dodge bonus to AC against attacks of opportunity made against you by Large or larger opponents when you're making a withdraw action.</Pair>
+<Pair single="flavor" id="monster-survivor-flavor">You've escaped with your life after a terrible monster attack.</Pair>
+<Pair single="benefit" id="monster-survivor-benefit">You gain a +4 dodge bonus to AC against attacks of opportunity made against you by Large or larger opponents when you're making a <Link to="/rule/withdraw">withdraw</Link> action.</Pair>
 </Ability>
 </>};
 const _muscle_of_the_society = {title: "Muscle of the Society", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_society_primer">Pathfinder Society Primer</Link></p>
 <Ability id="muscle-of-the-society" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="muscle-of-the-society">Muscle of the Society</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="muscle-of-the-society-benefit">Your intense training with the Swords has taught you how to infiltrate otherwise inaccessible ruins and extract their treasures without too much exertion. You gain a +2 trait bonus on Strength checks made to break doors and lift portcullises, and you treat your Strength score as 2 higher for the purpose of determining your carrying capacity.</Pair>
+<Pair single="flavor" id="muscle-of-the-society-flavor">Your intense training with the Swords has taught you how to infiltrate otherwise inaccessible ruins and extract their treasures without too much exertion.</Pair>
+<Pair single="benefit" id="muscle-of-the-society-benefit">You gain a +2 trait bonus on Strength checks made to break doors and lift portcullises, and you treat your Strength score as 2 higher for the purpose of determining your carrying capacity.</Pair>
 </Ability>
 </>};
 const _natural_flyer = {title: "Natural Flyer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 29</Link></p>
 <Ability id="natural-flyer" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="natural-flyer">Natural Flyer</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="natural-flyer-benefit">All your life, the sky has beckoned to you, and you have dreamed of reveling in the freedom and bliss of flight. You gain a +1 trait bonus on Fly checks, as well as Acrobatics checks attempted while flying. Fly is always a class skill for you.</Pair>
+<Pair single="flavor" id="natural-flyer-flavor">All your life, the sky has beckoned to you, and you have dreamed of reveling in the freedom and bliss of flight.</Pair>
+<Pair single="benefit" id="natural-flyer-benefit">You gain a +1 trait bonus on <Link to="/skill/fly">Fly</Link> checks, as well as <Link to="/skill/acrobatics">Acrobatics</Link> checks attempted while flying. Fly is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _natures_mimic = {title: "Nature's Mimic", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="natures-mimic" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="natures-mimic">Nature's Mimic</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="natures-mimic-benefit">Your knowledge of nature informs your fighting style, and that style gives you insight into related aspects of the natural world. You gain a +1 trait bonus on all Knowledge (nature) checks, and Knowledge (nature) is always a class skill for you. You can make Knowledge (nature) checks pertaining to animals that correspond to your style feats untrained.</Pair>
+<Pair single="flavor" id="natures-mimic-flavor">Your knowledge of nature informs your fighting style, and that style gives you insight into related aspects of the natural world.</Pair>
+<Pair single="benefit" id="natures-mimic-benefit">You gain a +1 trait bonus on all <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> checks, and Knowledge (nature) is always a class skill for you. You can make Knowledge (nature) checks pertaining to animals that correspond to your style feats untrained.</Pair>
 </Ability>
 </>};
 const _never_stop_shooting = {title: "Never Stop Shooting", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="never-stop-shooting" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="never-stop-shooting">Never Stop Shooting</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="never-stop-shooting-benefit">Even when the chips are down, you keep on shooting. If your hit point total drops to 0 or lower but you are not dead, you may act as if disabled rather than dying (as if you possessed the <Link to="/feat/diehard">Diehard</Link> feat). However, you can use your actions only to draw a firearm, reload a firearm, or attack with a firearm. If you have the Diehard feat, this trait also allows you to substitute your Wisdom score for your Constitution score for the purpose of determining the negative hit point total at which you die.</Pair>
+<Pair single="flavor" id="never-stop-shooting-flavor">Even when the chips are down, you keep on shooting.</Pair>
+<Pair single="benefit" id="never-stop-shooting-benefit"><p>If your hit point total drops to 0 or lower but you are not dead, you may act as if <Link to="/misc/disabled">disabled</Link> rather than <Link to="/misc/dying">dying</Link> (as if you possessed the <Link to="/feat/diehard">Diehard</Link> feat). However, you can use your actions only to draw a firearm, reload a firearm, or attack with a firearm.</p>
+<p>If you have the Diehard feat, this trait also allows you to substitute your Wisdom score for your Constitution score for the purpose of determining the negative hit point total at which you die.</p>
+</Pair>
 </Ability>
 </>};
 const _no_escape = {title: "No Escape", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance</Link></p>
 <Ability id="no-escape" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="no-escape">No Escape</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="no-escape-benefit">Struggle as they might, ne'er-do-wells and vagrants are hard pressed to evade the law once in your clutches. You gain a +1 trait bonus on combat maneuver checks to lawfully and nonlethally restrain a creature you've witnessed commit a crime.</Pair>
+<Pair single="flavor" id="no-escape-flavor">Struggle as they might, ne'er-do-wells and vagrants are hard pressed to evade the law once in your clutches.</Pair>
+<Pair single="benefit" id="no-escape-benefit">You gain a +1 trait bonus on <Link to="/rule/combat_maneuvers">combat maneuver</Link> checks to lawfully and nonlethally restrain a creature you've witnessed commit a crime.</Pair>
 </Ability>
 </>};
 const _obari_veteran = {title: "Obari Veteran", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest</Link></p>
 <Ability id="obari-veteran" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="obari-veteran">Obari Veteran</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="obari-veteran-benefit">You've spent years aboard ships traveling the lucrative Obari Crossing, transporting Garundi and Vudrani goods. You gain +1 bonus on Profession (sailor) checks, and Profession (sailor) is a class skill for you. You also gain a +1 trait bonus on weapon damage rolls against creatures with the aquatic subtype.</Pair>
+<Pair single="flavor" id="obari-veteran-flavor">You've spent years aboard ships traveling the lucrative Obari Crossing, transporting Garundi and Vudrani goods.</Pair>
+<Pair single="benefit" id="obari-veteran-benefit">You gain +1 bonus on <Link to="/skill/profession">Profession</Link> (sailor) checks, and Profession (sailor) is a class skill for you. You also gain a +1 trait bonus on weapon damage rolls against creatures with the aquatic subtype.</Pair>
 </Ability>
 </>};
 const _ogre_avoidance = {title: "Ogre Avoidance", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
 <Ability id="ogre-avoidance" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="ogre-avoidance">Ogre Avoidance</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="ogre-avoidance-benefit">You have practiced defensive maneuvers to avoid being caught by ogres, whose grasps you know are tight and unforgiving. You gain a +2 trait bonus to CMD against bull rush and grapple combat maneuvers.</Pair>
+<Pair single="flavor" id="ogre-avoidance-flavor">You have practiced defensive maneuvers to avoid being caught by <Link to="/monster/ogre">ogres</Link>, whose grasps you know are tight and unforgiving.</Pair>
+<Pair single="benefit" id="ogre-avoidance-benefit">You gain a +2 trait bonus to CMD against <Link to="/rule/bull_rush">bull rush</Link> and <Link to="/rule/grapple">grapple</Link> combat maneuvers.</Pair>
 </Ability>
 </>};
 const _ozem_inspired = {title: "Ozem-Inspired", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
 <Ability id="ozem-inspired" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="ozem-inspired">Ozem-Inspired</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="ozem-inspired-benefit">Tales of the Knights of Ozem have inspired you since childhood to lash out reflexively against the undead. You gain a +1 trait bonus on attack rolls and damage rolls when making attacks of opportunity against undead. While you wield a shield, your shield bonus to AC improves by 1 against attacks of opportunity made by undead.</Pair>
+<Pair single="flavor" id="ozem-inspired-flavor">Tales of the Knights of Ozem have inspired you since childhood to lash out reflexively against the undead.</Pair>
+<Pair single="benefit" id="ozem-inspired-benefit">You gain a +1 trait bonus on attack rolls and damage rolls when making attacks of opportunity against undead. While you wield a shield, your shield bonus to AC improves by 1 against attacks of opportunity made by undead.</Pair>
 </Ability>
 </>};
 const _performers_surprise = {title: "Performer's Surprise", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
 <Ability id="performers-surprise" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="performers-surprise">Performer's Surprise</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="performers-surprise-benefit">You are practiced at the surprising combat tricks of Varisian wanderers. Against foes denied their Dexterity bonus to AC, you gain a +1 trait bonus on damage rolls with improvised weapons, exotic weapons, and thrown weapons.</Pair>
+<Pair single="flavor" id="performers-surprise-flavor">You are practiced at the surprising combat tricks of Varisian wanderers.</Pair>
+<Pair single="benefit" id="performers-surprise-benefit">Against foes denied their Dexterity bonus to AC, you gain a +1 trait bonus on damage rolls with <Link to="/misc/improvised_weapons">improvised weapons</Link>, exotic weapons, and thrown weapons.</Pair>
 </Ability>
 </>};
 const _permanent_scars = {title: "Permanent Scars", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
 <Ability id="permanent-scars" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="permanent-scars">Permanent Scars</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="permanent-scars-benefit">You carry the physical and emotional scars of your <Link to="/rule/gray_maidens">Gray Maiden</Link> initiation as mental armor. You receive a +2 trait bonus on saving throws against emotion and pain spells and effects.</Pair>
+<Pair single="flavor" id="permanent-scars-flavor">You carry the physical and emotional scars of your <Link to="/rule/gray_maidens">Gray Maiden</Link> initiation as mental armor.</Pair>
+<Pair single="benefit" id="permanent-scars-benefit">You receive a +2 trait bonus on saving throws against emotion and pain spells and effects.</Pair>
 </Ability>
 </>};
 const _pillager = {title: "Pillager", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="pillager" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="pillager">Pillager</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="pillager-benefit"><p>Growing up in a place where authorities, if there were any, rarely enforced property laws, you learned quickly that you have only what you can hold - but you gain whatever you can take. You gain a +1 trait bonus on combat maneuver checks to perform disarm and steal combat maneuvers.</p>
+<Pair single="flavor" id="pillager-flavor">Growing up in a place where authorities, if there were any, rarely enforced property laws, you learned quickly that you have only what you can hold - but you gain whatever you can take.</Pair>
+<Pair single="benefit" id="pillager-benefit"><p>You gain a +1 trait bonus on combat maneuver checks to perform <Link to="/rule/disarm">disarm</Link> and <Link to="/rule/steal">steal</Link> combat maneuvers.</p>
 <p><strong>Suggested Characters:</strong> Halflings, River Kingdoms natives, Shackles natives.</p>
 </Pair>
 </Ability>
@@ -694,56 +787,66 @@ const _promising = {title: "Promising", topLink: ["Combat Traits","main/traits_c
 <Ability id="promising" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="promising">Promising</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="promising-benefit">Your superiors have identified you as an <Link to="/rule/eagle_knights">Eagle Knights</Link> candidate, and their praise encourages you to strive to meet their expectations. Each day after getting a full night's sleep, you gain a +1 trait bonus to your AC when wearing armor or carrying a shield. This bonus lasts until you are first hit by an attack within the next 24 hours.</Pair>
+<Pair single="flavor" id="promising-flavor">Your superiors have identified you as an <Link to="/rule/eagle_knights">Eagle Knights</Link> candidate, and their praise encourages you to strive to meet their expectations.</Pair>
+<Pair single="benefit" id="promising-benefit">Each day after getting a full night's sleep, you gain a +1 trait bonus to your AC when wearing armor or carrying a shield. This bonus lasts until you are first hit by an attack within the next 24 hours.</Pair>
 </Ability>
 </>};
 const _punish_insurrection = {title: "Punish Insurrection", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
 <Ability id="punish-insurrection" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="punish-insurrection">Punish Insurrection</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="punish-insurrection-benefit">You relish reminding people who's in charge. Against members of the same organization or hierarchy who formally answer to you, you gain a +1 trait bonus on attack and damage rolls. You also gain this bonus against members who have openly defied the authority or rules of that body, provided the infraction is serious enough that their standing is now less than yours.</Pair>
+<Pair single="flavor" id="punish-insurrection-flavor">You relish reminding people who's in charge.</Pair>
+<Pair single="benefit" id="punish-insurrection-benefit"><p>Against members of the same organization or hierarchy who formally answer to you, you gain a +1 trait bonus on attack and damage rolls.</p>
+<p>You also gain this bonus against members who have openly defied the authority or rules of that body, provided the infraction is serious enough that their standing is now less than yours.</p>
+</Pair>
 </Ability>
 </>};
 const _reactionary = {title: "Reactionary", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
 <Ability id="reactionary" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="reactionary">Reactionary</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="reactionary-benefit">You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on initiative checks.</Pair>
+<Pair single="flavor" id="reactionary-flavor">You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly.</Pair>
+<Pair single="benefit" id="reactionary-benefit">You gain a +2 trait bonus on initiative checks.</Pair>
 </Ability>
 </>};
 const _reckless = {title: "Reckless", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="reckless" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="reckless">Reckless</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="reckless-benefit">You have a tendency for rash behavior, often disregarding your own safety as you move across the battlefield. You gain a +1 bonus on Acrobatics checks, and Acrobatics is always a class skill for you.</Pair>
+<Pair single="flavor" id="reckless-flavor">You have a tendency for rash behavior, often disregarding your own safety as you move across the battlefield.</Pair>
+<Pair single="benefit" id="reckless-benefit">You gain a +1 bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks, and Acrobatics is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _reckless_contempt = {title: "Reckless Contempt", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="reckless-contempt" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="reckless-contempt">Reckless Contempt</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="reckless-contempt-benefit">You do not fear the threat of lesser weapons. Whenever you provoke an attack of opportunity by firing a firearm, you gain a +1 trait bonus on the attack roll that provoked the attack of opportunity.</Pair>
+<Pair single="flavor" id="reckless-contempt-flavor">You do not fear the threat of lesser weapons.</Pair>
+<Pair single="benefit" id="reckless-contempt-benefit">Whenever you provoke an attack of opportunity by firing a firearm, you gain a +1 trait bonus on the attack roll that provoked the attack of opportunity.</Pair>
 </Ability>
 </>};
 const _red_mantis_bleeding = {title: "Red Mantis Bleeding", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
 <Ability id="red-mantis-bleeding" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="red-mantis-bleeding">Red Mantis Bleeding</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="red-mantis-bleeding-benefit">You witnessed the training of <Link to="/rule/red_mantis">Red Mantis</Link> assassins, either as a child on Mediogalti Island or as an aspirant, and learned to leave bleeding wounds. Whenever you confirm a critical hit with a slashing weapon, you also deal 1 point of bleed damage.</Pair>
+<Pair single="flavor" id="red-mantis-bleeding-flavor">You witnessed the training of <Link to="/rule/red_mantis">Red Mantis</Link> assassins, either as a child on Mediogalti Island or as an aspirant, and learned to leave bleeding wounds.</Pair>
+<Pair single="benefit" id="red-mantis-bleeding-benefit">Whenever you confirm a critical hit with a slashing weapon, you also deal 1 point of <Link to="/rule/bleed">bleed</Link> damage.</Pair>
 </Ability>
 </>};
 const _resilient = {title: "Resilient", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="resilient" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="resilient">Resilient</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="resilient-benefit">Growing up in a poor neighborhood or in the unforgiving wilds often forced you to subsist on food and water from doubtful sources. You've built up your constitution as a result, and gain a +1 trait bonus on Fortitude saves.</Pair>
+<Pair single="flavor" id="resilient-flavor">Growing up in a poor neighborhood or in the unforgiving wilds often forced you to subsist on food and water from doubtful sources.</Pair>
+<Pair single="benefit" id="resilient-benefit">You've built up your constitution as a result, and gain a +1 trait bonus on Fortitude saves.</Pair>
 </Ability>
 </>};
 const _resolve_of_the_rejected = {title: "Resolve of the Rejected", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="resolve-of-the-rejected" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="resolve-of-the-rejected">Resolve of the Rejected</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="resolve-of-the-rejected-benefit">Some disagree with your choice to wield a firearm, and their scorn has only hardened your resolve in battle. You gain a +1 trait bonus on all saving throws against charm and compulsion effects. Also, once per day when you succeed at a saving throw against such an effect, you regain 1 grit point.</Pair>
+<Pair single="flavor" id="resolve-of-the-rejected-flavor">Some disagree with your choice to wield a firearm, and their scorn has only hardened your resolve in battle.</Pair>
+<Pair single="benefit" id="resolve-of-the-rejected-benefit">You gain a +1 trait bonus on all saving throws against charm and compulsion effects. Also, once per day when you succeed at a saving throw against such an effect, you regain 1 grit point.</Pair>
 </Ability>
 </>};
 const _riders_bond = {title: "Rider's Bond", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link></p>
@@ -752,7 +855,8 @@ const _riders_bond = {title: "Rider's Bond", topLink: ["Combat Traits","main/tra
 <Pair title="Type">Combat</Pair>
 <Pair title="Region" hl>Lastwall</Pair>
 <Pair title="Requirements" hl>Associated with the court of Castle Overwatch</Pair>
-<Pair single="benefit" id="riders-bond-benefit">Your mount keenly understands your commands. If you gain a horse as an animal companion or mount as one of your class abilities, it gains two bonus tricks that don't count against the normal limit of tricks known by the animal.</Pair>
+<Pair single="flavor" id="riders-bond-flavor">Your mount keenly understands your commands.</Pair>
+<Pair single="benefit" id="riders-bond-benefit">If you gain a horse as an animal companion or mount as one of your class abilities, it gains two bonus tricks that don't count against the normal limit of tricks known by the animal.</Pair>
 </Ability>
 </>};
 const _river_fighter = {title: "River Fighter", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
@@ -760,35 +864,40 @@ const _river_fighter = {title: "River Fighter", topLink: ["Combat Traits","main/
 <Pair single id="river-fighter">River Fighter</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Region" hl>Sargava</Pair>
-<Pair single="benefit" id="river-fighter-benefit">You are used to fighting while swimming. You may swim downstream or cross-current as a charge if you make your Swim DC by 5 or more.</Pair>
+<Pair single="flavor" id="river-fighter-flavor">You are used to fighting while swimming.</Pair>
+<Pair single="benefit" id="river-fighter-benefit">You may swim downstream or cross-current as a <Link to="/rule/charge">charge</Link> if you make your <Link to="/skill/swim">Swim</Link> DC by 5 or more.</Pair>
 </Ability>
 </>};
 const _roving_range = {title: "Roving Range", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
 <Ability id="roving-range" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="roving-range">Roving Range</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="roving-range-benefit">You learned from pirates to make the most of ranged attacks as you close with targets. Increase the range increment of ranged weapons (but not thrown weapons) you wield by 5 feet.</Pair>
+<Pair single="flavor" id="roving-range-flavor">You learned from pirates to make the most of ranged attacks as you close with targets.</Pair>
+<Pair single="benefit" id="roving-range-benefit">Increase the range increment of ranged weapons (but not thrown weapons) you wield by 5 feet.</Pair>
 </Ability>
 </>};
 const _savanna_hunter = {title: "Savanna Hunter", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
 <Ability id="savanna-hunter" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="savanna-hunter">Savanna Hunter</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="savanna-hunter-benefit">You have been trained to hunt and fight on the open plains since birth. You gain a +1 trait bonus on attacks of opportunity attack rolls made with a shortspear, as well as a +1 racial bonus on Constitution checks to continue running and avoid nonlethal damage from a forced march</Pair>
+<Pair single="flavor" id="savanna-hunter-flavor">You have been trained to hunt and fight on the open plains since birth.</Pair>
+<Pair single="benefit" id="savanna-hunter-benefit">You gain a +1 trait bonus on attacks of opportunity attack rolls made with a <Link to="/eq-weapon/shortspear">shortspear</Link>, as well as a +1 racial bonus on Constitution checks to continue <Link to="/rule/run">running</Link> and avoid nonlethal damage from a <Link to="/rule/forced_march">forced march</Link>.</Pair>
 </Ability>
 </>};
 const _scarred_by_space_pirates = {title: "Scarred by Space Pirates", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
 <Ability id="scarred-by-space-pirates" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="scarred-by-space-pirates">Scarred by Space Pirates</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="scarred-by-space-pirates-benefit">You were attacked by Vercite space pirates in your youth, inspiring you to find ways to deal with the alien interlopers should they return. You gain a +1 trait bonus on attack rolls against humanoids from beyond Golarion, including androids, kasathas, Triaxians, and Vercites, among others.</Pair>
+<Pair single="flavor" id="scarred-by-space-pirates-flavor">You were attacked by Vercite space pirates in your youth, inspiring you to find ways to deal with the alien interlopers should they return.</Pair>
+<Pair single="benefit" id="scarred-by-space-pirates-benefit">You gain a +1 trait bonus on attack rolls against humanoids from beyond Golarion, including androids, kasathas, Triaxians, and Vercites, among others.</Pair>
 </Ability>
 </>};
 const _scarred_descendant = {title: "Scarred Descendant", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="scarred-descendant" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="scarred-descendant">Scarred Descendant</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="scarred-descendant-benefit">Your own people are your favored enemy. You gain a +1 trait bonus on rolls to confirm critical hits against favored enemies of your own subtype and on Survival checks made to track such creatures.</Pair>
+<Pair single="flavor" id="scarred-descendant-flavor">Your own people are your <Link to="/ability/favored_enemy">favored enemy</Link>.</Pair>
+<Pair single="benefit" id="scarred-descendant-benefit">You gain a +1 trait bonus on rolls to confirm critical hits against favored enemies of your own subtype and on Survival checks made to track such creatures.</Pair>
 </Ability>
 </>};
 const _shadow_trained = {title: "Shadow Trained", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link></p>
@@ -797,14 +906,16 @@ const _shadow_trained = {title: "Shadow Trained", topLink: ["Combat Traits","mai
 <Pair title="Type">Combat</Pair>
 <Pair title="Region" hl>Nidal</Pair>
 <Pair title="Requirements" hl>Associated with the Umbral Court of Nidal</Pair>
-<Pair single="benefit" id="shadow-trained-benefit">You have experience fighting in darkness. Your miss chance while fighting in areas of dim light is only 10%.</Pair>
+<Pair single="flavor" id="shadow-trained-flavor">You have experience fighting in darkness.</Pair>
+<Pair single="benefit" id="shadow-trained-benefit">Your miss chance while fighting in areas of dim light is only 10%.</Pair>
 </Ability>
 </>};
 const _siege_defender = {title: "Siege Defender", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology</Link></p>
 <Ability id="siege-defender" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="siege-defender">Siege Defender</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="siege-defender-benefit">Aroden taught the people of Absalom to survive any siege with proper preparation and cooperation, and those teachings were passed on to you. You gain a +1 trait bonus on melee damage rolls when you attack a target from higher ground.</Pair>
+<Pair single="flavor" id="siege-defender-flavor">Aroden taught the people of Absalom to survive any siege with proper preparation and cooperation, and those teachings were passed on to you.</Pair>
+<Pair single="benefit" id="siege-defender-benefit">You gain a +1 trait bonus on melee damage rolls when you attack a target from <Link to="/rule/higher_ground">higher ground</Link>.</Pair>
 </Ability>
 </>};
 const _slippery = {title: "Slippery", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -812,14 +923,16 @@ const _slippery = {title: "Slippery", topLink: ["Combat Traits","main/traits_com
 <Pair single id="slippery">Slippery</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/bellflower_network">Bellflower Network</Link></Pair>
-<Pair single="benefit" id="slippery-benefit">You have escaped from so many dangerous situations in your life that you've gotten quite good at not getting caught. You gain a +1 trait bonus on Stealth checks and Stealth is a class skill for you.</Pair>
+<Pair single="flavor" id="slippery-flavor">You have escaped from so many dangerous situations in your life that you've gotten quite good at not getting caught.</Pair>
+<Pair single="benefit" id="slippery-benefit">You gain a +1 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks and Stealth is a class skill for you.</Pair>
 </Ability>
 </>};
 const _soaring_sprinter = {title: "Soaring Sprinter", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="soaring-sprinter" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="soaring-sprinter">Soaring Sprinter</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="soaring-sprinter-benefit"><p>As a youth, you often leaped and ran at treacherous heights, either because it was the only place with enough freedom for you to play or because it was not a good idea to play any lower. You gain a +2 trait bonus on Acrobatics checks to keep your balance or jump, and Acrobatics becomes a class skill for you.</p>
+<Pair single="flavor" id="soaring-sprinter-flavor">As a youth, you often leaped and ran at treacherous heights, either because it was the only place with enough freedom for you to play or because it was not a good idea to play any lower.</Pair>
+<Pair single="benefit" id="soaring-sprinter-benefit"><p>You gain a +2 trait bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks to keep your balance or jump, and Acrobatics becomes a class skill for you.</p>
 <p><strong>Suggested Characters:</strong> Chelaxians, gnomes, Korvosans.</p>
 </Pair>
 </Ability>
@@ -828,21 +941,26 @@ const _solitary = {title: "Solitary", topLink: ["Combat Traits","main/traits_com
 <Ability id="solitary" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="solitary">Solitary</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="solitary-benefit">You are skilled at slipping away from crowds. Once per day, you can attempt a Bluff check to create a diversion to hide with a +2 trait bonus on the check, and if successful, you take only a -5 penalty on your Stealth check to get to an unobserved place while observers are distracted (instead of the normal -10 penalty).</Pair>
+<Pair single="flavor" id="solitary-flavor">You are skilled at slipping away from crowds.</Pair>
+<Pair single="benefit" id="solitary-benefit">Once per day, you can attempt a <Link to="/skill/bluff">Bluff</Link> check to create a diversion to hide with a +2 trait bonus on the check, and if successful, you take only a -5 penalty on your <Link to="/skill/stealth">Stealth</Link> check to get to an unobserved place while observers are distracted (instead of the normal -10 penalty).</Pair>
 </Ability>
 </>};
 const _spirit_of_the_law = {title: "Spirit of the Law", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="spirit-of-the-law" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="spirit-of-the-law">Spirit of the Law</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="spirit-of-the-law-benefit">You have seen the rules of society endlessly twisted in their implementation, and as such, you are especially wary of those who exploit the law to impose their own will. You gain a +1 trait bonus on attacks against lawful-aligned humanoids and a +2 trait bonus on saving throws against effects with the lawful descriptor.</Pair>
+<Pair single="flavor" id="spirit-of-the-law-flavor">You have seen the rules of society endlessly twisted in their implementation, and as such, you are especially wary of those who exploit the law to impose their own will.</Pair>
+<Pair single="benefit" id="spirit-of-the-law-benefit">You gain a +1 trait bonus on attacks against lawful-aligned humanoids and a +2 trait bonus on saving throws against effects with the lawful descriptor.</Pair>
 </Ability>
 </>};
 const _splash_attack = {title: "Splash Attack", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
 <Ability id="splash-attack" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="splash-attack">Splash Attack</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="splash-attack-benefit">You catch others off-guard when a confrontation escalates. As long as you are standing in or adjacent to water, or holding at least a pint of liquid (including insoluble liquids like oil or alchemist's fire), you can perform a dirty trick combat maneuver to blind a foe within reach without provoking an attack of opportunity. If you select the <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link> feat, you gain a +2 trait bonus on dirty trick combat maneuvers to blind foes as long as you are standing in or adjacent to water or holding a pint of liquid.</Pair>
+<Pair single="flavor" id="splash-attack-flavor">You catch others off-guard when a confrontation escalates.</Pair>
+<Pair single="benefit" id="splash-attack-benefit"><p>As long as you are standing in or adjacent to water, or holding at least a pint of liquid (including insoluble liquids like <Link to="/eq-misc/oil">oil</Link> or <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link>), you can perform a <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver to blind a foe within reach without provoking an attack of opportunity.</p>
+<p>If you select the <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link> feat, you gain a +2 trait bonus on dirty trick combat maneuvers to blind foes as long as you are standing in or adjacent to water or holding a pint of liquid.</p>
+</Pair>
 </Ability>
 </>};
 const _sprint = {title: "Sprint", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
@@ -850,49 +968,57 @@ const _sprint = {title: "Sprint", topLink: ["Combat Traits","main/traits_combat"
 <Pair single id="sprint">Sprint</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
-<Pair single="benefit" id="sprint-benefit">You were taught from a young age that the world is full of big, fast, dangerous foes, and that sometimes the best course of action is to put your head down and run. Your parents taught you how to make the most of a solid mid-length sprint and how to squeeze just a little extra speed out of yourself. If you do nothing but move in a turn (that is, if you run or use both of your actions in a round to move your speed) and you are in no armor or light armor, you may move an extra 5 feet.</Pair>
+<Pair single="flavor" id="sprint-flavor">You were taught from a young age that the world is full of big, fast, dangerous foes, and that sometimes the best course of action is to put your head down and run. Your parents taught you how to make the most of a solid mid-length sprint and how to squeeze just a little extra speed out of yourself.</Pair>
+<Pair single="benefit" id="sprint-benefit">If you do nothing but move in a turn (that is, if you <Link to="/rule/run">run</Link> or use both of your actions in a round to move your speed) and you are in no armor or light armor, you may move an extra 5 feet.</Pair>
 </Ability>
 </>};
 const _startling_report = {title: "Startling Report", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="startling-report" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="startling-report">Startling Report</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="startling-report-benefit">Through either perfect timing or the determination of your action, the sound of your firearm going off sets your enemies on edge. When you shoot a firearm, you gain a +2 trait bonus on Intimidate checks for 1 round against those who heard the shot.</Pair>
+<Pair single="flavor" id="startling-report-flavor">Through either perfect timing or the determination of your action, the sound of your firearm going off sets your enemies on edge.</Pair>
+<Pair single="benefit" id="startling-report-benefit">When you shoot a firearm, you gain a +2 trait bonus on Intimidate checks for 1 round against those who heard the shot.</Pair>
 </Ability>
 </>};
 const _steel_skin = {title: "Steel Skin", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
 <Ability id="steel-skin" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="steel-skin">Steel Skin</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="steel-skin-benefit">You gain the ability to don or remove heavy armor in half the normal time. Additionally, you begin play with a great helm bearing the iconography of your family (this helm grants no special defensive benefits). While wearing this helm with a suit of heavy armor, you gain a +2 trait bonus on Intimidate checks.</Pair>
+<Pair single="benefit" id="steel-skin-benefit"><p>You gain the ability to <Link to="/rule/don_armor">don or remove</Link> heavy armor in half the normal time.</p>
+<p>Additionally, you begin play with a great helm bearing the iconography of your family (this helm grants no special defensive benefits). While wearing this helm with a suit of heavy armor, you gain a +2 trait bonus on Intimidate checks.</p>
+</Pair>
 </Ability>
 </>};
 const _strong_arm_supple_wrist = {title: "Strong Arm, Supple Wrist", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East</Link>, <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
 <Ability id="strong-arm-supple-wrist" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="strong-arm-supple-wrist">Strong Arm, Supple Wrist</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="strong-arm-supple-wrist-benefit">You have been trained in the javelin and the spear, and you know how to make the best use of your momentum. When you move at least 10 feet before making an attack with a thrown weapon, you can add 10 feet to the range increment of the weapon thrown. You can gain this benefit only once per round.</Pair>
+<Pair single="flavor" id="strong-arm-supple-wrist-flavor">You have been trained in the javelin and the spear, and you know how to make the best use of your momentum.</Pair>
+<Pair single="benefit" id="strong-arm-supple-wrist-benefit">When you move at least 10 feet before making an attack with a thrown weapon, you can add 10 feet to the range increment of the weapon thrown. You can gain this benefit only once per round.</Pair>
 </Ability>
 </>};
 const _subjective_equilibrium = {title: "Subjective Equilibrium", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook</Link></p>
 <Ability id="subjective-equilibrium" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="subjective-equilibrium">Subjective Equilibrium</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="subjective-equilibrium-benefit">You understand that gravity is far from constant when traversing the Great Beyond. You gain a +2 trait bonus on Wisdom checks to move on a plane with subjective directional gravity, and you gain a +10-foot enhancement bonus to your speed when "falling" on such a plane.</Pair>
+<Pair single="flavor" id="subjective-equilibrium-flavor">You understand that gravity is far from constant when traversing the Great Beyond.</Pair>
+<Pair single="benefit" id="subjective-equilibrium-benefit">You gain a +2 trait bonus on Wisdom checks to move on a plane with <Link to="/rule/gravity_traits">subjective directional gravity</Link>, and you gain a +10-foot enhancement bonus to your speed when "falling" on such a plane.</Pair>
 </Ability>
 </>};
 const _surprise_weapon = {title: "Surprise Weapon", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="surprise-weapon" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="surprise-weapon">Surprise Weapon</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="surprise-weapon-benefit">You are skilled at fighting with objects not traditionally considered weapons. You gain a +2 trait bonus on attack rolls with improvised weapons.</Pair>
+<Pair single="flavor" id="surprise-weapon-flavor">You are skilled at fighting with objects not traditionally considered weapons.</Pair>
+<Pair single="benefit" id="surprise-weapon-benefit">You gain a +2 trait bonus on attack rolls with <Link to="/misc/improvised_weapons">improvised weapons</Link>.</Pair>
 </Ability>
 </>};
 const _sworn_enemy = {title: "Sworn Enemy", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="sworn-enemy" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="sworn-enemy">Sworn Enemy</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="sworn-enemy-benefit"><p>You were raised with defiance, fear, or hatred of a particular sort of foe. To make you ready to resist such foes, you were trained for long hours in the proper ways to defeat them. Choose a foe from the ranger's list of favored enemies. You gain a +1 trait bonus on attacks of opportunity against the chosen foe.</p>
+<Pair single="flavor" id="sworn-enemy-flavor">You were raised with defiance, fear, or hatred of a particular sort of foe. To make you ready to resist such foes, you were trained for long hours in the proper ways to defeat them.</Pair>
+<Pair single="benefit" id="sworn-enemy-benefit"><p>Choose a foe from the ranger's list of <Link to="/ability/favored_enemies">favored enemies</Link>. You gain a +1 trait bonus on attacks of opportunity against the chosen foe.</p>
 <p><strong>Suggested Characters:</strong> Dwarves, Isgeri, Mendevian crusaders.</p>
 </Pair>
 </Ability>
@@ -901,42 +1027,47 @@ const _tactician = {title: "Tactician", topLink: ["Combat Traits","main/traits_c
 <Ability id="tactician" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="tactician">Tactician</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="tactician-benefit">You know how to take advantage of enemies who are unprepared for your assault. You gain a +1 trait bonus on initiative checks. In addition, once per day when you make an attack of opportunity, you gain a +2 trait bonus on the attack roll.</Pair>
+<Pair single="flavor" id="tactician-flavor">You know how to take advantage of enemies who are unprepared for your assault.</Pair>
+<Pair single="benefit" id="tactician-benefit">You gain a +1 trait bonus on initiative checks. In addition, once per day when you make an attack of opportunity, you gain a +2 trait bonus on the attack roll.</Pair>
 </Ability>
 </>};
 const _tar_taargadth_trained = {title: "Tar Taargadth Trained", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 31</Link></p>
 <Ability id="tar-taargadth-trained" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="tar-taargadth-trained">Tar Taargadth Trained</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="tar-taargadth-trained-benefit">You know the ancient fighting techniques of the Tar Taargadth Empire. You gain a +1 trait bonus on damage rolls when using any weapon with the word "dwarven" in its name.</Pair>
+<Pair single="flavor" id="tar-taargadth-trained-flavor">You know the ancient fighting techniques of the Tar Taargadth Empire.</Pair>
+<Pair single="benefit" id="tar-taargadth-trained-benefit">You gain a +1 trait bonus on damage rolls when using any weapon with the word "dwarven" in its name.</Pair>
 </Ability>
 </>};
 const _tarnished_halls_runner = {title: "Tarnished Halls Runner", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets</Link></p>
 <Ability id="tarnished-halls-runner" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="tarnished-halls-runner">Tarnished Halls Runner</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="tarnished-halls-runner-benefit">You evaded Technic League patrols with the <Link to="/rule/tarnished_halls">Blood Gar pirates</Link>. When you move at least 10 feet, you gain a +1 trait bonus on attack rolls with firearms and technological weapons and a +1 dodge bonus to your AC against such weapons until the start of your next turn.</Pair>
+<Pair single="flavor" id="tarnished-halls-runner-flavor">You evaded Technic League patrols with the <Link to="/rule/tarnished_halls">Blood Gar pirates</Link>.</Pair>
+<Pair single="benefit" id="tarnished-halls-runner-benefit">When you move at least 10 feet, you gain a +1 trait bonus on attack rolls with firearms and technological weapons and a +1 dodge bonus to your AC against such weapons until the start of your next turn.</Pair>
 </Ability>
 </>};
 const _threatening_defender = {title: "Threatening Defender", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
 <Ability id="threatening-defender" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="threatening-defender">Threatening Defender</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="threatening-defender-benefit">You know how to avoid a blow while still maintaining your offensive posture. When you use <Link to="/feat/combat_expertise">Combat Expertise</Link>, reduce the number you subtract from your melee attack rolls by 1.</Pair>
+<Pair single="flavor" id="threatening-defender-flavor">You know how to avoid a blow while still maintaining your offensive posture.</Pair>
+<Pair single="benefit" id="threatening-defender-benefit">When you use <Link to="/feat/combat_expertise">Combat Expertise</Link>, reduce the number you subtract from your melee attack rolls by 1.</Pair>
 </Ability>
 </>};
 const _thunder_and_fang_performer = {title: "Thunder and Fang Performer", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/weapon_masters_handbook">Weapon Master's Handbook</Link></p>
 <Ability id="thunder-and-fang-performer" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="thunder-and-fang-performer">Thunder and Fang Performer</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="thunder-and-fang-performer-benefit">You learned from Shoanti champions to take advantage of the dramatic swings required by heavy weapons like the earth breaker. You gain a +2 trait bonus on Intimidate checks while wielding a two-handed melee weapon.</Pair>
+<Pair single="flavor" id="thunder-and-fang-performer-flavor">You learned from Shoanti champions to take advantage of the dramatic swings required by heavy weapons like the <Link to="/eq-weapon/earth_breaker">earth breaker</Link>.</Pair>
+<Pair single="benefit" id="thunder-and-fang-performer-benefit">You gain a +2 trait bonus on Intimidate checks while wielding a two-handed melee weapon.</Pair>
 </Ability>
 </>};
 const _to_the_last = {title: "To The Last", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>
 <Ability id="to-the-last" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="to-the-last">To The Last</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="to-the-last-benefit">Choose one type of medium or heavy armor (such as chainmail or half-plate). If you have no allies within 60 feet when you are wearing that type of armor, you gain DR 1/-. This stacks with any one other source of damage resistance you have.</Pair>
+<Pair single="benefit" id="to-the-last-benefit">Choose one type of medium or heavy armor (such as <Link to="/eq-armor/chainmail">chainmail</Link> or <Link to="/eq-armor/half_plate">half-plate</Link>). If you have no allies within 60 feet when you are wearing that type of armor, you gain DR 1/-. This stacks with any one other source of damage resistance you have.</Pair>
 </Ability>
 </>};
 const _tracker_of_the_society = {title: "Tracker of the Society", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -944,28 +1075,32 @@ const _tracker_of_the_society = {title: "Tracker of the Society", topLink: ["Com
 <Pair single id="tracker-of-the-society">Tracker of the Society</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
-<Pair single="benefit" id="tracker-of-the-society-benefit">Thanks to your time as a Pathfinder, you've mastered the art of tracking. You gain a +1 trait bonus on initiative checks and a +2 trait bonus on Survival checks made while traveling through any of your favored terrains. This is in addition to any bonuses you receive from your <Link to="/ability/favored_terrain">favored terrain</Link> class ability.</Pair>
+<Pair single="flavor" id="tracker-of-the-society-flavor">Thanks to your time as a Pathfinder, you've mastered the art of tracking.</Pair>
+<Pair single="benefit" id="tracker-of-the-society-benefit">You gain a +1 trait bonus on initiative checks and a +2 trait bonus on Survival checks made while traveling through any of your favored terrains. This is in addition to any bonuses you receive from your <Link to="/ability/favored_terrain">favored terrain</Link> class ability.</Pair>
 </Ability>
 </>};
 const _unblemished_barrel = {title: "Unblemished Barrel", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="unblemished-barrel" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="unblemished-barrel">Unblemished Barrel</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="unblemished-barrel-benefit">Your skill with firearms speeds your repair of such weapons. You gain a +1 trait bonus on Craft (alchemy) and Craft (weapons) checks, and it takes you only 30 minutes to remove the broken condition from a firearm.</Pair>
+<Pair single="flavor" id="unblemished-barrel-flavor">Your skill with firearms speeds your repair of such weapons.</Pair>
+<Pair single="benefit" id="unblemished-barrel-benefit">You gain a +1 trait bonus on <Link to="/skill/craft">Craft</Link> (alchemy) and Craft (weapons) checks, and it takes you only 30 minutes to remove the broken condition from a firearm.</Pair>
 </Ability>
 </>};
 const _undergrowth_specialist = {title: "Undergrowth Specialist", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
 <Ability id="undergrowth-specialist" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="undergrowth-specialist">Undergrowth Specialist</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="undergrowth-specialist-benefit">You've trained yourself to move in and out of undergrowth with ease. The DCs of Acrobatics checks don't increase for you when you're moving through light undergrowth, and the DCs of Acrobatics checks you attempt while you're moving through heavy undergrowth increase only by 2.</Pair>
+<Pair single="flavor" id="undergrowth-specialist-flavor">You've trained yourself to move in and out of undergrowth with ease.</Pair>
+<Pair single="benefit" id="undergrowth-specialist-benefit">The DCs of <Link to="/skill/acrobatics">Acrobatics</Link> checks don't increase for you when you're moving through light undergrowth, and the DCs of Acrobatics checks you attempt while you're moving through heavy undergrowth increase only by 2.</Pair>
 </Ability>
 </>};
 const _unpredictable_reactions = {title: "Unpredictable Reactions", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance</Link></p>
 <Ability id="unpredictable-reactions" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="unpredictable-reactions">Unpredictable Reactions</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="unpredictable-reactions-benefit">Your reactions to combat beginning aren't what people expect. You gain a +1 trait bonus on attack rolls made during the surprise round of combat.</Pair>
+<Pair single="flavor" id="unpredictable-reactions-flavor">Your reactions to combat beginning aren't what people expect.</Pair>
+<Pair single="benefit" id="unpredictable-reactions-benefit">You gain a +1 trait bonus on attack rolls made during the surprise round of combat.</Pair>
 </Ability>
 </>};
 const _vandal = {title: "Vandal", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
@@ -979,7 +1114,8 @@ const _vengeful_combat = {title: "Vengeful (Combat)", topLink: ["Combat Traits",
 <Ability id="vengeful-combat" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="vengeful-combat">Vengeful (Combat)</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="vengeful-combat-benefit"><p>During your childhood, you suffered occasional or frequent abuse from those too powerful for you to resist. Now you thrill at the chance to get back at those who wronged you. Whenever you strike the last creature that damaged you in the past 24 hours, you gain a +1 trait bonus on damage rolls against that creature.</p>
+<Pair single="flavor" id="vengeful-combat-flavor">During your childhood, you suffered occasional or frequent abuse from those too powerful for you to resist. Now you thrill at the chance to get back at those who wronged you.</Pair>
+<Pair single="benefit" id="vengeful-combat-benefit"><p>Whenever you strike the last creature that damaged you in the past 24 hours, you gain a +1 trait bonus on damage rolls against that creature.</p>
 <p><strong>Suggested Characters:</strong> Calistrians, Galtan refugees, Gyronna worshipers.</p>
 </Pair>
 </Ability>
@@ -988,35 +1124,44 @@ const _venom_resistance = {title: "Venom Resistance", topLink: ["Combat Traits",
 <Ability id="venom-resistance" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="venom-resistance">Venom Resistance</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="venom-resistance-benefit">You have spent considerable time in arid wastelands where girtablilus and other venomous creatures are common, and you have built up a resistance to poison. You gain a +2 trait bonus on Fortitude saving throws against poison, and once per day when attempting a saving throw to resist girtablilu poison, you can roll twice and take the higher result.</Pair>
+<Pair single="flavor" id="venom-resistance-flavor">You have spent considerable time in arid wastelands where girtablilus and other venomous creatures are common, and you have built up a resistance to poison.</Pair>
+<Pair single="benefit" id="venom-resistance-benefit">You gain a +2 trait bonus on Fortitude saving throws against poison, and once per day when attempting a saving throw to resist <Link to="/monster/girtablilu">girtablilu</Link> poison, you can roll twice and take the higher result.</Pair>
 </Ability>
 </>};
 const _vigilant_battler = {title: "Vigilant Battler", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="vigilant-battler" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="vigilant-battler">Vigilant Battler</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="vigilant-battler-benefit">You are hard to fool and harder to trick with a feint. You gain a +1 trait bonus on all Sense Motive checks. This trait bonus increases to +2 when used to counter a feint in combat.</Pair>
+<Pair single="flavor" id="vigilant-battler-flavor">You are hard to fool and harder to trick with a feint.</Pair>
+<Pair single="benefit" id="vigilant-battler-benefit">You gain a +1 trait bonus on all <Link to="/skill/sense_motive">Sense Motive</Link> checks. This trait bonus increases to +2 when used to counter a <Link to="/rule/feint">feint</Link> in combat.</Pair>
 </Ability>
 </>};
 const _volatile_fuse = {title: "Volatile Fuse", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
 <Ability id="volatile-fuse" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="volatile-fuse">Volatile Fuse</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="volatile-fuse-benefit">Firearms you wield are especially dangerous to you and everyone nearby. Whenever a firearm you wield misfires or explodes, roll a d%. On a result of 1-25, the misfire or explosion is delayed; reroll the attack with a -5 penalty (penalties from the broken condition are not applied to this reroll, and a firearm that was already broken does not explode). After the reroll is resolved, apply the effects of the misfire or explosion as normal. (If the d% roll result is 26 or higher, the misfire or explosion happens as normal.) Whenever a firearm you wield explodes due to a misfire, increase the explosion's damage by 1d6 plus 1d6 for every 4 character levels you have.</Pair>
+<Pair single="flavor" id="volatile-fuse-flavor">Firearms you wield are especially dangerous to you and everyone nearby.</Pair>
+<Pair single="benefit" id="volatile-fuse-benefit"><p>Whenever a firearm you wield misfires or explodes, roll a d%. On a result of 1-25, the misfire or explosion is delayed; reroll the attack with a -5 penalty (penalties from the broken condition are not applied to this reroll, and a firearm that was already broken does not explode). After the reroll is resolved, apply the effects of the misfire or explosion as normal. (If the d% roll result is 26 or higher, the misfire or explosion happens as normal.)</p>
+<p>Whenever a firearm you wield explodes due to a misfire, increase the explosion's damage by 1d6 plus 1d6 for every 4 character levels you have.</p>
+</Pair>
 </Ability>
 </>};
 const _wary_eye = {title: "Wary Eye", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="wary-eye" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="wary-eye">Wary Eye</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="wary-eye-benefit">You know that you could be exposed at any time. Even your closest friends could someday become enemies, and so you have trained yourself to never be surprised by a betrayal. At the beginning of combat, before initiative checks are revealed, you can select one opponent you are aware of to be the subject of this trait. If you succeed at a Wisdom check opposed by the subject's initiative check, you are not considered flat-footed against this subject for this combat, even if you normally would be. You can use this trait in a surprise round, even if you cannot otherwise act that round.</Pair>
+<Pair single="flavor" id="wary-eye-flavor">You know that you could be exposed at any time. Even your closest friends could someday become enemies, and so you have trained yourself to never be surprised by a betrayal.</Pair>
+<Pair single="benefit" id="wary-eye-benefit"><p>At the beginning of combat, before initiative checks are revealed, you can select one opponent you are aware of to be the subject of this trait. If you succeed at a Wisdom check opposed by the subject's initiative check, you are not considered <Link to="/rule/flat_footed">flat-footed</Link> against this subject for this combat, even if you normally would be.</p>
+<p>You can use this trait in a surprise round, even if you cannot otherwise act that round.</p>
+</Pair>
 </Ability>
 </>};
 const _weapon_of_peace = {title: "Weapon of Peace", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
 <Ability id="weapon-of-peace" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="weapon-of-peace">Weapon of Peace</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="weapon-of-peace-benefit">Even though you are a trained combatant, proficient with any number of weapons, you don't relish killing your enemies. It's not that you're afraid of seeing blood, but rather that disabling a foe is superior to killing someone capable of admitting defeat. When using a melee weapon that deals lethal damage to instead deal nonlethal damage, you take only a -2 penalty instead of -4.</Pair>
+<Pair single="flavor" id="weapon-of-peace-flavor">Even though you are a trained combatant, proficient with any number of weapons, you don't relish killing your enemies. It's not that you're afraid of seeing blood, but rather that disabling a foe is superior to killing someone capable of admitting defeat.</Pair>
+<Pair single="benefit" id="weapon-of-peace-benefit">When using a melee weapon that deals lethal damage to instead deal nonlethal damage, you take only a -2 penalty instead of -4.</Pair>
 </Ability>
 </>};
 const _witty_repartee = {title: "Witty Repartee", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -1024,14 +1169,16 @@ const _witty_repartee = {title: "Witty Repartee", topLink: ["Combat Traits","mai
 <Pair single id="witty-repartee">Witty Repartee</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair title="Requirements" hl><Link to="/rule/kitharodian_academy">Kitharodian Academy</Link></Pair>
-<Pair single="benefit" id="witty-repartee-benefit">You are quick with your tongue and have always possessed the talent to quickly admonish your enemies. You gain a +1 trait bonus on Bluff checks and Bluff is a class skill for you.</Pair>
+<Pair single="flavor" id="witty-repartee-flavor">You are quick with your tongue and have always possessed the talent to quickly admonish your enemies.</Pair>
+<Pair single="benefit" id="witty-repartee-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks and Bluff is a class skill for you.</Pair>
 </Ability>
 </>};
 const _youthful_infiltrator = {title: "Youthful Infiltrator", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="youthful-infiltrator" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="youthful-infiltrator">Youthful Infiltrator</Pair>
 <Pair title="Type">Combat</Pair>
-<Pair single="benefit" id="youthful-infiltrator-benefit">You were trained from a young age to ambush the enemies of your order or organization, which makes you hard to trust for most outside your organization if they learn your affiliation. You gain a +1 trait bonus on attack rolls against flat-footed foes, as long as they have not seen you make an attack with this bonus before.</Pair>
+<Pair single="flavor" id="youthful-infiltrator-flavor">You were trained from a young age to ambush the enemies of your order or organization, which makes you hard to trust for most outside your organization if they learn your affiliation.</Pair>
+<Pair single="benefit" id="youthful-infiltrator-benefit">You gain a +1 trait bonus on attack rolls against <Link to="/rule/flat_footed">flat-footed</Link> foes, as long as they have not seen you make an attack with this bonus before.</Pair>
 </Ability>
 </>};
 const _abject_belief = {title: "Abject Belief", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>

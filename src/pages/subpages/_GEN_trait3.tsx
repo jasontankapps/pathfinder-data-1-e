@@ -448,7 +448,7 @@ const _outlander = {title: "Outlander", topLink: ["Campaign Traits","main/traits
 </Ability>
 </>};
 const _augmented_disguise = {title: "Augmented Disguise", topLink: ["Equipment Traits","main/traits_equipment"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory</Link></p>
-<Ability id="augmented-disguise" extraClasses="trait" icon={["battle-gear"]}>
+<div style={{clear:"both"}}></div><Ability id="augmented-disguise" extraClasses="trait" icon={["battle-gear"]}>
 <Pair single id="augmented-disguise">Augmented Disguise</Pair>
 <Pair title="Type">Equipment</Pair>
 <Pair single="benefit" id="augmented-disguise-benefit">You are especially good at disguising yourself when you have props available. You gain a +2 trait bonus on Disguise checks when wearing a wig, false beard, or similar large prop, or if you are wearing a special costume or eye-catching bauble that reinforces your disguise.</Pair>

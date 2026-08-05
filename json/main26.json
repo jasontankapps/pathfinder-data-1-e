@@ -1,20 +1,4 @@
 {
-	"traits_combat": {
-		"title": "Combat Traits",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Traits]{to=main/traits rev}",
-					""
-				],
-				{
-					"limit": "Combat"
-				}
-			]
-		}
-	},
 	"traits_faith": {
 		"title": "Faith Traits",
 		"searchgroup": "trait",
