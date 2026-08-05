@@ -10,7 +10,9 @@
 					""
 				],
 				{
-					"limit": "Faith"
+					"limit": {
+						"regex": "^Faith"
+					}
 				}
 			]
 		}

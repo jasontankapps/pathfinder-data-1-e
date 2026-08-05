@@ -1185,14 +1185,16 @@ const _abject_belief = {title: "Abject Belief", topLink: ["Faith Traits","main/t
 <Ability id="abject-belief" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="abject-belief">Abject Belief</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="abject-belief-benefit">You cling tenaciously to a faith that is doubted by many, perhaps based around a god who has vanished, or was never a god in the first place. You refuse to forsake your beliefs despite all evidence, perhaps due to a need to belong, respect for tradition, or a religious experience. As a result, it is nearly impossible to convince you of your deity's absence. You gain a +2 trait bonus on Will saving throws against fear effects.</Pair>
+<Pair single="flavor" id="abject-belief-flavor">You cling tenaciously to a faith that is doubted by many, perhaps based around a god who has vanished, or was never a god in the first place. You refuse to forsake your beliefs despite all evidence, perhaps due to a need to belong, respect for tradition, or a religious experience. As a result, it is nearly impossible to convince you of your deity's absence.</Pair>
+<Pair single="benefit" id="abject-belief-benefit">You gain a +2 trait bonus on Will saving throws against fear effects.</Pair>
 </Ability>
 </>};
 const _acclimatize_alignment = {title: "Acclimatize Alignment", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook</Link></p>
 <Ability id="acclimatize-alignment" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="acclimatize-alignment">Acclimatize Alignment</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="acclimatize-alignment-benefit">Like a climber ascending a mountain, you gradually grow acclimatized to an opposing planar alignment. For each consecutive day you remain on a mildly aligned plane that opposes your alignment, reduce your penalty on Charisma-based checks by 1, to a minimum of 0. This does not affect the penalty from a strongly aligned plane.</Pair>
+<Pair single="flavor" id="acclimatize-alignment-flavor">Like a climber ascending a mountain, you gradually grow acclimatized to an opposing planar alignment.</Pair>
+<Pair single="benefit" id="acclimatize-alignment-benefit">For each consecutive day you remain on a <Link to="/rule/alignment_traits">mildly aligned plane</Link> that opposes your alignment, reduce your penalty on Charisma-based checks by 1, to a minimum of 0. This does not affect the penalty from a strongly aligned plane.</Pair>
 </Ability>
 </>};
 const _acolyte_of_apocrypha = {title: "Acolyte of Apocrypha", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -1206,77 +1208,79 @@ const _acolyte_of_apocrypha = {title: "Acolyte of Apocrypha", topLink: ["Faith T
 </Ability>
 <Ability id="domainalchemy-domainartificedomainmagic" extraClasses="trait subTrait" icon={[]}>
 <Pair single id="domainalchemy-domainartificedomainmagic"><Link to="/domain/alchemy">Alchemy</Link> (<Link to="/domain/artifice">Artifice</Link>/<Link to="/domain/magic">Magic</Link>)</Pair>
-<Pair single="benefit" id="domainalchemy-domainartificedomainmagic-benefit"><Link to="/faith/brigh">Brigh</Link>, <Link to="/faith/haagenti">Haagenti</Link>, <Link to="/faith/norgorber">Norgorber</Link>&#42; (Artifice only), <Link to="/faith/orgesh">Orgesh</Link>&#42; (Magic only), <Link to="/faith/qi_zhong">Qi Zhong</Link>)</Pair>
+<Pair title="Associated Gods"><Link to="/faith/brigh">Brigh</Link>, <Link to="/faith/haagenti">Haagenti</Link>, <Link to="/faith/norgorber">Norgorber</Link>&#42; (Artifice only), <Link to="/faith/orgesh">Orgesh</Link>&#42; (Magic only), <Link to="/faith/qi_zhong">Qi Zhong</Link>)</Pair>
 </Ability>
 <Ability id="domaincaptivation" extraClasses="trait subTrait" icon={[]}>
 <Pair single id="domaincaptivation"><Link to="/domain/captivation">Captivation</Link></Pair>
-<Pair single="benefit" id="domaincaptivation-benefit"><Link to="/faith/calistria">Calistria</Link>, <Link to="/faith/kofusachi">Kofusachi</Link>, <Link to="/faith/nalinivati">Nalinivati</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/shelyn">Shelyn</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/calistria">Calistria</Link>, <Link to="/faith/kofusachi">Kofusachi</Link>, <Link to="/faith/nalinivati">Nalinivati</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/shelyn">Shelyn</Link></Pair>
 </Ability>
 <Ability id="domainhubris-domainglorydomainnobility" extraClasses="trait subTrait" icon={[]}>
 <Pair single id="domainhubris-domainglorydomainnobility"><Link to="/domain/hubris">Hubris</Link> (<Link to="/domain/glory">Glory</Link>/<Link to="/domain/nobility">Nobility</Link>)</Pair>
-<Pair single="benefit" id="domainhubris-domainglorydomainnobility-benefit"><Link to="/faith/dispater">Dispater</Link>, <Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/jaidz">Jaidz</Link>, <Link to="/faith/lissala">Lissala</Link>, <Link to="/faith/olheon">Olheon</Link>, <Link to="/faith/ydersius">Ydersius</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/dispater">Dispater</Link>, <Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/jaidz">Jaidz</Link>, <Link to="/faith/lissala">Lissala</Link>, <Link to="/faith/olheon">Olheon</Link>, <Link to="/faith/ydersius">Ydersius</Link></Pair>
 </Ability>
 <Ability id="domaininsect" extraClasses="trait subTrait" icon={[]}>
 <Pair single id="domaininsect"><Link to="/domain/insect">Insect</Link></Pair>
-<Pair single="benefit" id="domaininsect-benefit"><Link to="/faith/achaekek">Achaekek</Link>&#42;, <Link to="/faith/aldinach">Aldinach</Link>, <Link to="/faith/deskari">Deskari</Link>&#42;, <Link to="/faith/ghlaunder">Ghlaunder</Link>, <Link to="/faith/kitumu">Kitumu</Link>, <Link to="/faith/mazmezz">Mazmezz</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/achaekek">Achaekek</Link>&#42;, <Link to="/faith/aldinach">Aldinach</Link>, <Link to="/faith/deskari">Deskari</Link>&#42;, <Link to="/faith/ghlaunder">Ghlaunder</Link>, <Link to="/faith/kitumu">Kitumu</Link>, <Link to="/faith/mazmezz">Mazmezz</Link></Pair>
 </Ability>
 <Ability id="domainlegend" extraClasses="trait subTrait" icon={[]}>
 <Pair single id="domainlegend"><Link to="/domain/legend">Legend</Link></Pair>
-<Pair single="benefit" id="domainlegend-benefit"><Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/shizuru">Shizuru</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/shizuru">Shizuru</Link></Pair>
 </Ability>
 <Ability id="domainlightning" extraClasses="trait subTrait" icon={[]}>
 <Pair single id="domainlightning"><Link to="/domain/lightning">Lightning</Link></Pair>
-<Pair single="benefit" id="domainlightning-benefit"><Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/hei_feng">Hei Feng</Link>, <Link to="/faith/rovagug">Rovagug</Link>, <Link to="/faith/rull">Rull</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/hei_feng">Hei Feng</Link>, <Link to="/faith/rovagug">Rovagug</Link>, <Link to="/faith/rull">Rull</Link></Pair>
 </Ability>
 <Ability id="domainmedicine" extraClasses="trait subTrait" icon={[]}>
 <Pair single id="domainmedicine"><Link to="/domain/medicine">Medicine</Link></Pair>
-<Pair single="benefit" id="domainmedicine-benefit"><Link to="/faith/dalenydra">Dalenydra</Link>, <Link to="/faith/immonhiel">Immonhiel</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/korada">Korada</Link>, <Link to="/faith/qi_zhong">Qi Zhong</Link>, <Link to="/faith/sarenrae">Sarenrae</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/dalenydra">Dalenydra</Link>, <Link to="/faith/immonhiel">Immonhiel</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/korada">Korada</Link>, <Link to="/faith/qi_zhong">Qi Zhong</Link>, <Link to="/faith/sarenrae">Sarenrae</Link></Pair>
 </Ability>
 <Ability id="domainmonsoon" extraClasses="trait subTrait" icon={[]}>
 <Pair single id="domainmonsoon"><Link to="/domain/monsoon">Monsoon</Link></Pair>
-<Pair single="benefit" id="domainmonsoon-benefit"><Link to="/faith/daikitsu">Daikitsu</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/hei_feng">Hei Feng</Link>, <Link to="/faith/rull">Rull</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/daikitsu">Daikitsu</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/hei_feng">Hei Feng</Link>, <Link to="/faith/rull">Rull</Link></Pair>
 </Ability>
 <Ability id="domainpetrification" extraClasses="trait subTrait" icon={[]}>
 <Pair single id="domainpetrification"><Link to="/domain/petrification">Petrification</Link></Pair>
-<Pair single="benefit" id="domainpetrification-benefit"><Link to="/faith/ayrzul">Ayrzul</Link>, <Link to="/faith/minderhal">Minderhal</Link>, <Link to="/faith/soralyon">Soralyon</Link>, <Link to="/faith/xoveron">Xoveron</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/ayrzul">Ayrzul</Link>, <Link to="/faith/minderhal">Minderhal</Link>, <Link to="/faith/soralyon">Soralyon</Link>, <Link to="/faith/xoveron">Xoveron</Link></Pair>
 </Ability>
 <Ability id="domainportal" extraClasses="trait subTrait" icon={[]}>
 <Pair single id="domainportal"><Link to="/domain/portal">Portal</Link></Pair>
-<Pair single="benefit" id="domainportal-benefit"><Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/alseta">Alseta</Link>&#42;, <Link to="/faith/barbatos">Barbatos</Link>, <Link to="/faith/yog_sothoth">Yog-Sothoth</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/alseta">Alseta</Link>&#42;, <Link to="/faith/barbatos">Barbatos</Link>, <Link to="/faith/yog_sothoth">Yog-Sothoth</Link></Pair>
 </Ability>
 <Ability id="domainrites" extraClasses="trait subTrait" icon={[]}>
 <Pair single id="domainrites"><Link to="/domain/rites">Rites</Link></Pair>
-<Pair single="benefit" id="domainrites-benefit"><Link to="/faith/abraxas">Abraxas</Link>, <Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/nalinivati">Nalinivati</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/nyarlathotep_black_pharaoh">Nyarlathotep</Link>, <Link to="/faith/sivanah">Sivanah</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/abraxas">Abraxas</Link>, <Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/nalinivati">Nalinivati</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/nyarlathotep_black_pharaoh">Nyarlathotep</Link>, <Link to="/faith/sivanah">Sivanah</Link></Pair>
 </Ability>
 <Ability id="domainself-realization-domainliberationdomainstrength" extraClasses="trait subTrait" icon={[]}>
 <Pair single id="domainself-realization-domainliberationdomainstrength"><Link to="/domain/self_realization">Self-Realization</Link> (<Link to="/domain/liberation">Liberation</Link>/<Link to="/domain/strength">Strength</Link>)</Pair>
-<Pair single="benefit" id="domainself-realization-domainliberationdomainstrength-benefit"><Link to="/faith/arshea">Arshea</Link>, <Link to="/faith/falayna">Falayna</Link>, <Link to="/faith/haagenti">Haagenti</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/kurgess">Kurgess</Link>, <Link to="/faith/shei">Shei</Link>, <Link to="/faith/urgathoa">Urgathoa</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/arshea">Arshea</Link>, <Link to="/faith/falayna">Falayna</Link>, <Link to="/faith/haagenti">Haagenti</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/kurgess">Kurgess</Link>, <Link to="/faith/shei">Shei</Link>, <Link to="/faith/urgathoa">Urgathoa</Link></Pair>
 </Ability>
 <Ability id="domainthirst" extraClasses="trait subTrait" icon={[]}>
 <Pair single id="domainthirst"><Link to="/domain/thirst">Thirst</Link></Pair>
-<Pair single="benefit" id="domainthirst-benefit"><Link to="/faith/aldinach">Aldinach</Link>, <Link to="/faith/lalaci">Lalaci</Link>, <Link to="/faith/nurgal">Nurgal</Link>, <Link to="/faith/sarenrae">Sarenrae</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/aldinach">Aldinach</Link>, <Link to="/faith/lalaci">Lalaci</Link>, <Link to="/faith/nurgal">Nurgal</Link>, <Link to="/faith/sarenrae">Sarenrae</Link></Pair>
 </Ability>
 <Ability id="domainthorns" extraClasses="trait subTrait" icon={[]}>
 <Pair single id="domainthorns"><Link to="/domain/thorns">Thorns</Link></Pair>
-<Pair single="benefit" id="domainthorns-benefit"><Link to="/faith/the_green_mother">The Green Mother</Link>, <Link to="/faith/shub_niggurath">Shub-Niggurath</Link>, <Link to="/faith/zyphus">Zyphus</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/the_green_mother">The Green Mother</Link>, <Link to="/faith/shub_niggurath">Shub-Niggurath</Link>, <Link to="/faith/zyphus">Zyphus</Link></Pair>
 </Ability>
 <Ability id="domaintruth" extraClasses="trait subTrait" icon={[]}>
 <Pair single id="domaintruth"><Link to="/domain/truth">Truth</Link></Pair>
-<Pair single="benefit" id="domaintruth-benefit"><Link to="/faith/groetus">Groetus</Link>, <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/faith/sifkesh">Sifkesh</Link>, <Link to="/faith/sivanah">Sivanah</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/groetus">Groetus</Link>, <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/faith/sifkesh">Sifkesh</Link>, <Link to="/faith/sivanah">Sivanah</Link></Pair>
 </Ability>
 </>};
 const _apprentice = {title: "Apprentice", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
 <Ability id="apprentice" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="apprentice">Apprentice</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="apprentice-benefit">During your studies of The Majestic Book of the Prime Ascended, you learned some minor magical tricks. Select a single 0-level spell from the <Link to="/main/spells_wizard">sorcerer/wizard spell list</Link>. You can cast this spell 1 time per day as a spell-like ability.</Pair>
+<Pair single="flavor" id="apprentice-flavor">During your studies of The Majestic Book of the Prime Ascended, you learned some minor magical tricks.</Pair>
+<Pair single="benefit" id="apprentice-benefit">Select a single 0-level spell from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> spell list. You can cast this spell 1 time per day as a spell-like ability.</Pair>
 </Ability>
 </>};
 const _arcane_scholar = {title: "Arcane Scholar", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
 <Ability id="arcane-scholar" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="arcane-scholar">Arcane Scholar</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="arcane-scholar-benefit">Study of the "Prime Archmage" chapter has broadened your magical knowledge. Choose either Knowledge (arcana) or Spellcraft; you gain a +1 trait bonus on that skill and it is a class skill for you.</Pair>
+<Pair single="flavor" id="arcane-scholar-flavor">Study of the "Prime Archmage" chapter has broadened your magical knowledge.</Pair>
+<Pair single="benefit" id="arcane-scholar-benefit">Choose either <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> or <Link to="/skill/spellcraft">Spellcraft</Link>; you gain a +1 trait bonus on that skill and it is a class skill for you.</Pair>
 </Ability>
 </>};
 const _aspect_of_the_quah = {title: "Aspect of the Quah", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine</Link></p>
@@ -1287,40 +1291,41 @@ const _aspect_of_the_quah = {title: "Aspect of the Quah", topLink: ["Faith Trait
 <Pair single="flavor" id="aspect-of-the-quah-flavor">You call upon your quah's totem to grant you power. You gain a unique totem aspect that replaces one of the <em>animal aspects</em> granted to you by the <em>animal focus</em> feature.</Pair>
 <Pair single="benefit" id="aspect-of-the-quah-benefit">You must choose the Shoanti quah to which you belong. You gain access to the totem aspect listed for that clan, and you lose access to the animal aspect listed. Once made, this choice cannot be changed.</Pair>
 </Ability>
-<Ability id="cliff-shadde-quah-frog" extraClasses="trait subTrait" icon={[]}>
-<Pair single id="cliff-shadde-quah-frog">Cliff (Shadde-Quah, Frog)</Pair>
-<Pair single="benefit" id="cliff-shadde-quah-frog-benefit">The creature gains a +4 competence bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks to avoid falling and on Constitution checks to avoid drowning. This bonus increases to +4 at 8th level and +6 at 15th level.</Pair>
+<Ability id="cliff-shadde-quah" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="cliff-shadde-quah">Cliff (Shadde-Quah)</Pair>
+<Pair title="Frog Aspect">The creature gains a +4 competence bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks to avoid falling and on Constitution checks to avoid drowning. This bonus increases to +4 at 8th level and +6 at 15th level.</Pair>
 </Ability>
-<Ability id="emberstorm-sklar-quah-bear" extraClasses="trait subTrait" icon={[]}>
-<Pair single id="emberstorm-sklar-quah-bear">Emberstorm (Sklar-Quah, Bear)</Pair>
-<Pair single="benefit" id="emberstorm-sklar-quah-bear-benefit">The creature gains fire <Link to="/umr/resistance">resistance</Link> 5. This increases to fire resistance 10 at 8th level and fire resistance 15 at 15th level.</Pair>
+<Ability id="emberstorm-sklar-quah" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="emberstorm-sklar-quah">Emberstorm (Sklar-Quah)</Pair>
+<Pair title="Bear Aspect">The creature gains fire <Link to="/umr/resistance">resistance</Link> 5. This increases to fire resistance 10 at 8th level and fire resistance 15 at 15th level.</Pair>
 </Ability>
-<Ability id="horse-shriikirri-quah-owl" extraClasses="trait subTrait" icon={[]}>
-<Pair single id="horse-shriikirri-quah-owl">Horse (Shriikirri-Quah, Owl)</Pair>
-<Pair single="benefit" id="horse-shriikirri-quah-owl-benefit">The creature gains a +4 competence bonus on <Link to="/skill/ride">Ride</Link> checks. This bonus increases to +6 at 8th level and +8 at 15th level.</Pair>
+<Ability id="horse-shriikirri-quah" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="horse-shriikirri-quah">Horse (Shriikirri-Quah)</Pair>
+<Pair title="Owl Aspect">The creature gains a +4 competence bonus on <Link to="/skill/ride">Ride</Link> checks. This bonus increases to +6 at 8th level and +8 at 15th level.</Pair>
 </Ability>
-<Ability id="star-lyrune-quah-falcon" extraClasses="trait subTrait" icon={[]}>
-<Pair single id="star-lyrune-quah-falcon">Star (Lyrune-Quah, Falcon)</Pair>
-<Pair single="benefit" id="star-lyrune-quah-falcon-benefit">The creature gains low-light vision and a +2 competence bonus on <Link to="/skill/perception">Perception</Link> checks. This bonus increases to +4 at 8th level and +6 at 15th level.</Pair>
+<Ability id="star-lyrune-quah" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="star-lyrune-quah">Star (Lyrune-Quah)</Pair>
+<Pair title="Falcon Aspect">The creature gains low-light vision and a +2 competence bonus on <Link to="/skill/perception">Perception</Link> checks. This bonus increases to +4 at 8th level and +6 at 15th level.</Pair>
 </Ability>
-<Ability id="storm-tamiir-quah-snake" extraClasses="trait subTrait" icon={[]}>
-<Pair single id="storm-tamiir-quah-snake">Storm (Tamiir-Quah, Snake)</Pair>
-<Pair single="benefit" id="storm-tamiir-quah-snake-benefit">The creature gains a +4 bonus on saving throws against cold dangers, disease, heat dangers, starvation, and thirst. This bonus increases to +6 at 8th level and +8 at 15th level.</Pair>
+<Ability id="storm-tamiir-quah" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="storm-tamiir-quah">Storm (Tamiir-Quah)</Pair>
+<Pair title="Snake Aspect">The creature gains a +4 bonus on saving throws against cold dangers, disease, heat dangers, starvation, and thirst. This bonus increases to +6 at 8th level and +8 at 15th level.</Pair>
 </Ability>
-<Ability id="storm-roc-shundar-quah-mouse" extraClasses="trait subTrait" icon={[]}>
-<Pair single id="storm-roc-shundar-quah-mouse">Storm Roc (Shundar-Quah, Mouse)</Pair>
-<Pair single="benefit" id="storm-roc-shundar-quah-mouse-benefit">The creature gains a +2 enhancement bonus to Charisma. This bonus increases to +4 at 8th level and +6 at 15th level.</Pair>
+<Ability id="storm-roc-shundar-quah" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="storm-roc-shundar-quah">Storm Roc (Shundar-Quah)</Pair>
+<Pair title="Mouse Aspect">The creature gains a +2 enhancement bonus to Charisma. This bonus increases to +4 at 8th level and +6 at 15th level.</Pair>
 </Ability>
-<Ability id="will-o-wisp-skoan-quah-wolf" extraClasses="trait subTrait" icon={[]}>
-<Pair single id="will-o-wisp-skoan-quah-wolf">Will-o'-Wisp (Skoan-Quah, Wolf)</Pair>
-<Pair single="benefit" id="will-o-wisp-skoan-quah-wolf-benefit">The creature gains +2 bonus on saving throws against fear effects and mind-affecting effects. This bonus increases to +4 at 8th level and +6 at 15th level.</Pair>
+<Ability id="will-o-wisp-skoan-quah" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="will-o-wisp-skoan-quah">Will-o'-Wisp (Skoan-Quah)</Pair>
+<Pair title="Wolf Aspect">The creature gains +2 bonus on saving throws against fear effects and mind-affecting effects. This bonus increases to +4 at 8th level and +6 at 15th level.</Pair>
 </Ability>
 </>};
 const _authoritarian = {title: "Authoritarian", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="authoritarian" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="authoritarian">Authoritarian</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="authoritarian-benefit"><p>You spent much of your youth helping the clergy of your chosen faith perform their duties, and learned from them respect for authority. As long as you are acting in the service of a liege or leader you recognize as legitimate, you gain a +2 trait bonus on saving throws against fear and compulsion effects.</p>
+<Pair single="flavor" id="authoritarian-flavor">You spent much of your youth helping the clergy of your chosen faith perform their duties, and learned from them respect for authority.</Pair>
+<Pair single="benefit" id="authoritarian-benefit"><p>As long as you are acting in the service of a liege or leader you recognize as legitimate, you gain a +2 trait bonus on saving throws against fear and compulsion effects.</p>
 <p><strong>Suggested Characters:</strong> <Link to="/faith/abadar">Abadarans</Link>, <Link to="/rule/hellknights">Hellknights</Link>, Hermeans.</p>
 </Pair>
 </Ability>
@@ -1329,7 +1334,8 @@ const _beacon_of_faith = {title: "Beacon of Faith", topLink: ["Faith Traits","ma
 <Ability id="beacon-of-faith" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="beacon-of-faith">Beacon of Faith</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="beacon-of-faith-benefit">You wield the might of your faith with power and clarity. Once per day as a free action, you may treat your caster level as if it were 2 levels higher when using one of the granted powers of your domain or inquisition, or when casting one of your domain spells.</Pair>
+<Pair single="flavor" id="beacon-of-faith-flavor">You wield the might of your faith with power and clarity.</Pair>
+<Pair single="benefit" id="beacon-of-faith-benefit">Once per day as a <strong className="hl">free action</strong>, you may treat your caster level as if it were 2 levels higher when using one of the granted powers of your domain or inquisition, or when casting one of your domain spells.</Pair>
 </Ability>
 </>};
 const _birthmark = {title: "Birthmark", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -1343,35 +1349,40 @@ const _blessed = {title: "Blessed", topLink: ["Faith Traits","main/traits_faith"
 <Ability id="blessed" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="blessed">Blessed</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="blessed-benefit">Some divine agent watches over you and heeds your call. Once per day as a swift action, you gain a +1 trait bonus on all saving throws for 1 round.</Pair>
+<Pair single="flavor" id="blessed-flavor">Some divine agent watches over you and heeds your call.</Pair>
+<Pair single="benefit" id="blessed-benefit">Once per day as a <strong className="hl">swift action</strong>, you gain a +1 trait bonus on all saving throws for 1 round.</Pair>
 </Ability>
 </>};
 const _blessed_touch = {title: "Blessed Touch", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
 <Ability id="blessed-touch" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="blessed-touch">Blessed Touch</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="blessed-touch-benefit">You may have been raised in a devout family, studied the divine in a formal church environment, or even learned how to combine traditional healing techniques with those of divine casters. In so doing, you have focused yourself into being the perfect vessel for your deity. Divine power flows through you like a mountain stream, making your healing touch more potent than that of others. You heal 1 additional point of damage when using lay on hands, channeling energy, or casting a cure spell.</Pair>
+<Pair single="flavor" id="blessed-touch-flavor">You may have been raised in a devout family, studied the divine in a formal church environment, or even learned how to combine traditional healing techniques with those of divine casters. In so doing, you have focused yourself into being the perfect vessel for your deity. Divine power flows through you like a mountain stream, making your healing touch more potent than that of others.</Pair>
+<Pair single="benefit" id="blessed-touch-benefit">You heal 1 additional point of damage when using <Link to="/ability/lay_on_hands">lay on hands</Link>, <Link to="/ability/channel_energy">channeling energy</Link>, or casting a <Link to="/main/cure_spell">cure spell</Link>.</Pair>
 </Ability>
 </>};
 const _born_free = {title: "Born Free", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
 <Ability id="born-free" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="born-free">Born Free</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="born-free-benefit">You were introduced to an individualistic belief as a youth. Thriving under the promise of control of your own destiny, you soon began to demonstrate the truth of this ideal. Though others may mock you for your unwillingness to go along with a group or accept the easy security and comfort promised by more ecclesiastical faiths, you know that the revelations and destiny you seek can only be brought about through your own actions and individual search for meaning. Once per day, after you roll a saving throw against a compulsion effect, you can choose to roll again as an immediate action before the result of the saving throw is announced. You must keep the new roll, even if it is worse.</Pair>
+<Pair single="flavor" id="born-free-flavor">You were introduced to an individualistic belief as a youth. Thriving under the promise of control of your own destiny, you soon began to demonstrate the truth of this ideal. Though others may mock you for your unwillingness to go along with a group or accept the easy security and comfort promised by more ecclesiastical faiths, you know that the revelations and destiny you seek can only be brought about through your own actions and individual search for meaning.</Pair>
+<Pair single="benefit" id="born-free-benefit">Once per day, after you roll a saving throw against a compulsion effect, you can choose to roll again as an <strong className="hl">immediate action</strong> before the result of the saving throw is announced. You must keep the new roll, even if it is worse.</Pair>
 </Ability>
 </>};
 const _bound_by_honor = {title: "Bound by Honor", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
 <Ability id="bound-by-honor" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="bound-by-honor">Bound by Honor</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="bound-by-honor-benefit">Your code of honor, obligations, and taboos stem from the shame of a misspent youth. Now, a personal code reminds you how to live, and you have an impressive ability to resist temptation. Once per day, if a mind-affecting effect would compel you to take an action that would cause you to lose <Link to="/rule/honor_points">Honor Points</Link>, you may make a new saving throw against the original DC to end the effect.</Pair>
+<Pair single="flavor" id="bound-by-honor-flavor">Your code of honor, obligations, and taboos stem from the shame of a misspent youth. Now, a personal code reminds you how to live, and you have an impressive ability to resist temptation.</Pair>
+<Pair single="benefit" id="bound-by-honor-benefit">Once per day, if a mind-affecting effect would compel you to take an action that would cause you to lose <Link to="/rule/honor_points">Honor Points</Link>, you may make a new saving throw against the original DC to end the effect.</Pair>
 </Ability>
 </>};
 const _called = {title: "Called", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="called" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="called">Called</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="called-benefit"><p>Your deity or a powerful spirit spoke to you when you were young, dropping cryptic hints about the important destiny that lay before you and how you must win your fights if you are to achieve your predetermined greatness. Once per day upon rolling a natural 1 on an attack roll, you may reroll the die and take the second result instead.</p>
+<Pair single="flavor" id="called-flavor">Your deity or a powerful spirit spoke to you when you were young, dropping cryptic hints about the important destiny that lay before you and how you must win your fights if you are to achieve your predetermined greatness.</Pair>
+<Pair single="benefit" id="called-benefit"><p>Once per day upon rolling a natural 1 on an attack roll, you may reroll the die and take the second result instead.</p>
 <p><strong>Suggested Characters:</strong> Oracles, paladins, Ulfen.</p>
 </Pair>
 </Ability>
@@ -1380,63 +1391,74 @@ const _canon_of_coin = {title: "Canon of Coin", topLink: ["Faith Traits","main/t
 <Ability id="canon-of-coin" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="canon-of-coin">Canon of Coin</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="canon-of-coin-benefit">You find the pursuit of earning money to be a religious experience. Appraise is a class skill for you. So long as you are carrying coins worth an amount equal to at least 100 gp per character level you have, you gain a +1 trait bonus on Will saves. This bonus increases to +2 against effects that would force you to discard, drop, or give away coins, gems, or trade goods in your possession.</Pair>
+<Pair single="flavor" id="canon-of-coin-flavor">You find the pursuit of earning money to be a religious experience.</Pair>
+<Pair single="benefit" id="canon-of-coin-benefit"><Link to="/skill/appraise">Appraise</Link> is a class skill for you. So long as you are carrying coins worth an amount equal to at least 100 gp per character level you have, you gain a +1 trait bonus on Will saves. This bonus increases to +2 against effects that would force you to discard, drop, or give away coins, gems, or trade goods in your possession.</Pair>
 </Ability>
 </>};
 const _caretaker = {title: "Caretaker", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
 <Ability id="caretaker" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="caretaker">Caretaker</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="caretaker-benefit">As the child of an herbalist or an assistant in a temple infirmary, you often had to assist in tending to the sick and wounded. You gain a +1 trait bonus on Heal checks, and Heal is always a class skill for you.</Pair>
+<Pair single="flavor" id="caretaker-flavor">As the child of an herbalist or an assistant in a temple infirmary, you often had to assist in tending to the sick and wounded.</Pair>
+<Pair single="benefit" id="caretaker-benefit">You gain a +1 trait bonus on <Link to="/skill/heal">Heal</Link> checks, and Heal is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _child_of_the_temple = {title: "Child of the Temple", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="child-of-the-temple" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="child-of-the-temple">Child of the Temple</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="child-of-the-temple-benefit">You have long served at a temple in a city, where you picked up on many of the nobility's customs in addition to spending much time in the temple libraries studying your faith. You gain a +1 trait bonus on Knowledge (nobility) and Knowledge (religion) checks, and one of these skills (your choice) is always a class skill for you.</Pair>
+<Pair single="flavor" id="child-of-the-temple-flavor">You have long served at a temple in a city, where you picked up on many of the nobility's customs in addition to spending much time in the temple libraries studying your faith.</Pair>
+<Pair single="benefit" id="child-of-the-temple-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> and <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> checks, and one of these skills (your choice) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _chosen_of_iomedae = {title: "Chosen of Iomedae", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
 <Ability id="chosen-of-iomedae" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="chosen-of-iomedae">Chosen of Iomedae</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="chosen-of-iomedae-benefit">At your birth, your parents dedicated your soul to Iomedae to mold into a sword of her light. The goddess blessed you, granting you a gift of light to brighten your path through darkness and a fine sword with which to spread her will. You may cast <Link to="/spell/light">light</Link> once per day as a spell-like ability (caster level 1st), and you begin play with a masterwork longsword. In addition, whenever light is cast upon this sword, the radius of light and its duration is doubled.</Pair>
+<Pair single="flavor" id="chosen-of-iomedae-flavor">At your birth, your parents dedicated your soul to <Link to="/faith/iomedae">Iomedae</Link> to mold into a sword of her light. The goddess blessed you, granting you a gift of light to brighten your path through darkness and a fine sword with which to spread her will.</Pair>
+<Pair single="benefit" id="chosen-of-iomedae-benefit">You may cast <Link to="/spell/light">light</Link> once per day as a spell-like ability (caster level 1st), and you begin play with a <Link to="/rule/masterwork_w">masterwork</Link> <Link to="/eq-weapon/longsword">longsword</Link>. In addition, whenever <em>light</em> is cast upon this sword, the radius of light and its duration is doubled.</Pair>
 </Ability>
 </>};
 const _covert_channeler = {title: "Covert Channeler", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets</Link></p>
 <Ability id="covert-channeler" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="covert-channeler">Covert Channeler</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="covert-channeler-benefit">Your mentor in the <Link to="/rule/wagons_of_light">Wagons of Light</Link> taught you to hide holy symbols quickly. You can draw or stow a holy symbol as a swift action.</Pair>
+<Pair single="flavor" id="covert-channeler-flavor">Your mentor in the <Link to="/rule/wagons_of_light">Wagons of Light</Link> taught you to hide holy symbols quickly.</Pair>
+<Pair single="benefit" id="covert-channeler-benefit">You can draw or stow a holy symbol as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
 </>};
 const _crisis_of_faith = {title: "Crisis of Faith", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
 <Ability id="crisis-of-faith" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="crisis-of-faith">Crisis of Faith</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="crisis-of-faith-benefit">You were raised to uphold a specific set of tenets, and you never had reason to doubt their veracity. Recent events, however, have undermined that certainty, and you now find yourself wondering if any of the universal truths you once believed in can actually hold up to scrutiny. Perhaps you witnessed a mentor or church official fall from grace or violate your shared tenets. Maybe you watched a friend injured terribly despite (or because of) her pure faith. Whatever the case, your shaken confidence grants you a +1 trait bonus on saving throws against illusions. You may replace any other faith trait with the Crisis of Faith trait whenever you gain a level. This replacement is permanent until you receive atonement.</Pair>
+<Pair single="flavor" id="crisis-of-faith-flavor">You were raised to uphold a specific set of tenets, and you never had reason to doubt their veracity. Recent events, however, have undermined that certainty, and you now find yourself wondering if any of the universal truths you once believed in can actually hold up to scrutiny. Perhaps you witnessed a mentor or church official fall from grace or violate your shared tenets. Maybe you watched a friend injured terribly despite (or because of) her pure faith. Whatever the case, your confidence was shaken.</Pair>
+<Pair single="benefit" id="crisis-of-faith-benefit"><p>Your shaken confidence grants you a +1 trait bonus on saving throws against illusions.</p>
+<p>You may replace any other faith trait with the Crisis of Faith trait whenever you gain a level. This replacement is permanent until you receive <Link to="/spell/atonement">atonement</Link>.</p>
+</Pair>
 </Ability>
 </>};
 const _crusader = {title: "Crusader", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
 <Ability id="crusader" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="crusader">Crusader</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="crusader-benefit">From studying "Prime Commander" and reading accounts of the battles in the Worldwound, you have trained to be a crusader against demonic forces. You gain a +1 trait bonus on attack rolls against outsiders with the chaotic subtype.</Pair>
+<Pair single="flavor" id="crusader-flavor">From studying "Prime Commander" and reading accounts of the battles in the Worldwound, you have trained to be a crusader against demonic forces.</Pair>
+<Pair single="benefit" id="crusader-benefit">You gain a +1 trait bonus on attack rolls against outsiders with the chaotic subtype.</Pair>
 </Ability>
 </>};
 const _darkest_before_dawn = {title: "Darkest Before Dawn", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
 <Ability id="darkest-before-dawn" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="darkest-before-dawn">Darkest Before Dawn</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="darkest-before-dawn-benefit">Your devotion sustains you when others would fall to despair. You gain a +2 trait bonus on saving throws against spells with the emotion, fear, or pain descriptor. Once per day, you can increase this bonus to +4 for a single save, but you must make this decision before you attempt the saving throw.</Pair>
+<Pair single="flavor" id="darkest-before-dawn-flavor">Your devotion sustains you when others would fall to despair.</Pair>
+<Pair single="benefit" id="darkest-before-dawn-benefit">You gain a +2 trait bonus on saving throws against spells with the emotion, fear, or pain descriptor. Once per day, you can increase this bonus to +4 for a single save, but you must make this decision before you attempt the saving throw.</Pair>
 </Ability>
 </>};
 const _deep_faith = {title: "Deep Faith", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
 <Ability id="deep-faith" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="deep-faith">Deep Faith</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="deep-faith-benefit">Your deity was born of the depths, and you're a child of such realms. Whenever you cast a spell granted by the earth domain (or associated subdomains) while in the Darklands, that spell functions at 1 caster level higher than your actual caster level.</Pair>
+<Pair single="flavor" id="deep-faith-flavor">Your deity was born of the depths, and you're a child of such realms.</Pair>
+<Pair single="benefit" id="deep-faith-benefit">Whenever you cast a spell granted by the <Link to="/domain/earth">earth</Link> domain (or associated subdomains) while in the Darklands, that spell functions at 1 caster level higher than your actual caster level.</Pair>
 </Ability>
 </>};
 const _defy_madness = {title: "Defy Madness", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -1444,14 +1466,16 @@ const _defy_madness = {title: "Defy Madness", topLink: ["Faith Traits","main/tra
 <Pair single id="defy-madness">Defy Madness</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/rule/old_cults">Old Cults</Link></Pair>
-<Pair single="benefit" id="defy-madness-benefit">Your direct involvement with supernatural and alien forces has left you less vulnerable to the insanity they cause. You gain a +1 trait bonus on any saving throws against confusion, insanity, madness, and Wisdom damage and drain.</Pair>
+<Pair single="flavor" id="defy-madness-flavor">Your direct involvement with supernatural and alien forces has left you less vulnerable to the insanity they cause.</Pair>
+<Pair single="benefit" id="defy-madness-benefit">You gain a +1 trait bonus on any saving throws against confusion, insanity, madness, and <Link to="/rule/wisdom_damage">Wisdom damage and drain</Link>.</Pair>
 </Ability>
 </>};
 const _devoted_healer = {title: "Devoted Healer", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="devoted-healer" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="devoted-healer">Devoted Healer</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="devoted-healer-benefit"><p>Raised in the company of skilled healers, you were always encouraged to devote your time and energy to the welfare of others. Whenever you take 20 on a Heal check to treat deadly wounds, you restore an additional 1d4 hit points to those you aid.</p>
+<Pair single="flavor" id="devoted-healer-flavor">Raised in the company of skilled healers, you were always encouraged to devote your time and energy to the welfare of others.</Pair>
+<Pair single="benefit" id="devoted-healer-benefit"><p>Whenever you take 20 on a <Link to="/skill/heal">Heal</Link> check to treat deadly wounds, you restore an additional 1d4 hit points to those you aid.</p>
 <p><strong>Suggested Characters:</strong> Battle clerics, <Link to="/faith/iomedae">Iomedaeans</Link>, Kellids.</p>
 </Pair>
 </Ability>
@@ -1460,42 +1484,48 @@ const _devotee_of_the_green = {title: "Devotee of the Green", topLink: ["Faith T
 <Ability id="devotee-of-the-green" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="devotee-of-the-green">Devotee of the Green</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="devotee-of-the-green-benefit">Your faith in the natural world or one of the gods of nature makes it easy for you to pick up on related concepts. You gain a +1 trait bonus on Knowledge (geography) and Knowledge (nature) checks, and one of these skills (your choice) is always a class skill for you.</Pair>
+<Pair single="flavor" id="devotee-of-the-green-flavor">Your faith in the natural world or one of the gods of nature makes it easy for you to pick up on related concepts.</Pair>
+<Pair single="benefit" id="devotee-of-the-green-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> and <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> checks, and one of these skills (your choice) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _devout_visionary = {title: "Devout Visionary", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
 <Ability id="devout-visionary" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="devout-visionary">Devout Visionary</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="devout-visionary-benefit">As a child, you had a strange vision while suffering from a terrible illness, and only found your way back to the mundane world by following the call of a spiritual leader-perhaps a shaman's drum or a druid's lilting poetry. Since then, you have studied symbolism and dreams in the hope that you might understand your own vision, though your lessons prove just as helpful to others. You gain a +1 trait bonus on Will saving throws against spells and effects that grant the confused or dazed condition. Once per day as a full-round action, you may grant an adjacent ally a new Will saving throw to end an effect that grants the confused or dazed condition.</Pair>
+<Pair single="flavor" id="devout-visionary-flavor">As a child, you had a strange vision while suffering from a terrible illness, and only found your way back to the mundane world by following the call of a spiritual leader-perhaps a shaman's drum or a druid's lilting poetry. Since then, you have studied symbolism and dreams in the hope that you might understand your own vision, though your lessons prove just as helpful to others.</Pair>
+<Pair single="benefit" id="devout-visionary-benefit">You gain a +1 trait bonus on Will saving throws against spells and effects that grant the <Link to="/misc/confused">confused</Link> or <Link to="/misc/dazed">dazed</Link> condition. Once per day as a <strong className="hl">full-round action</strong>, you may grant an adjacent ally a new Will saving throw to end an effect that grants the confused or dazed condition.</Pair>
 </Ability>
 </>};
 const _disdainful_defender = {title: "Disdainful Defender", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="disdainful-defender" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="disdainful-defender">Disdainful Defender</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="disdainful-defender-benefit">You are resistant to the magic of other faiths. You gain a +2 trait bonus on all Will saves you attempt against divine spells. This bonus does not apply against divine spells cast by a caster who worships the same deity you do.</Pair>
+<Pair single="flavor" id="disdainful-defender-flavor">You are resistant to the magic of other faiths.</Pair>
+<Pair single="benefit" id="disdainful-defender-benefit">You gain a +2 trait bonus on all Will saves you attempt against divine spells. This bonus does not apply against divine spells cast by a caster who worships the same deity you do.</Pair>
 </Ability>
 </>};
 const _divine_confidante = {title: "Divine Confidante", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="divine-confidante" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="divine-confidante">Divine Confidante</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="divine-confidante-benefit">You were inspired with the reverence offered by worshipers to priests and other spiritual leaders, so you assisted them. You gain a +3 trait bonus on Sense Motive checks to get hunches about those who discuss matters of faith, mythology, morality, religion, or the Outer Planes with you. Sense Motive is a class skill for you.</Pair>
+<Pair single="flavor" id="divine-confidante-flavor">You were inspired with the reverence offered by worshipers to priests and other spiritual leaders, so you assisted them.</Pair>
+<Pair single="benefit" id="divine-confidante-benefit">You gain a +3 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to get hunches about those who discuss matters of faith, mythology, morality, religion, or the Outer Planes with you. Sense Motive is a class skill for you.</Pair>
 </Ability>
 </>};
 const _divine_denier = {title: "Divine Denier", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
 <Ability id="divine-denier" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="divine-denier">Divine Denier</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="divine-denier-benefit">You can't bring yourself to accept the authority of the gods, even though friends might hound you relentlessly to change your ways. Perhaps you're a Rahadoumi objecting on ideological grounds, or perhaps you just want to be left alone. Your doubt causes you to shrug off divine magic more quickly than others. Once per day when you are affected by a divine spell, you may reduce that spell's duration to half (minimum 1 round) for you alone.</Pair>
+<Pair single="flavor" id="divine-denier-flavor">You can't bring yourself to accept the authority of the gods, even though friends might hound you relentlessly to change your ways. Perhaps you're a Rahadoumi objecting on ideological grounds, or perhaps you just want to be left alone. Your doubt causes you to shrug off divine magic more quickly than others.</Pair>
+<Pair single="benefit" id="divine-denier-benefit">Once per day when you are affected by a divine spell, you may reduce that spell's duration to half (minimum 1 round) for you alone.</Pair>
 </Ability>
 </>};
 const _dogged = {title: "Dogged", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine</Link></p>
 <Ability id="dogged" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="dogged">Dogged</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="dogged-benefit">Drawing inspiration from the Cult of the Failed, you refuse to let setbacks stop you, no matter how disastrous. Once per day when you roll a natural 1 on an attack roll, saving throw, skill check, or ability check, you gain a +1 trait bonus on any one roll you attempt before the end of the next round.</Pair>
+<Pair single="flavor" id="dogged-flavor">Drawing inspiration from the Cult of the Failed, you refuse to let setbacks stop you, no matter how disastrous.</Pair>
+<Pair single="benefit" id="dogged-benefit">Once per day when you roll a natural 1 on an attack roll, saving throw, skill check, or ability check, you gain a +1 trait bonus on any one roll you attempt before the end of the next round.</Pair>
 </Ability>
 </>};
 const _earthbound = {title: "Earthbound", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
@@ -1503,14 +1533,15 @@ const _earthbound = {title: "Earthbound", topLink: ["Faith Traits","main/traits_
 <Pair single id="earthbound">Earthbound</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
-<Pair single="benefit" id="earthbound-benefit">Your druid spells use a handful of earth or sand as a divine focus in addition to the normal components. While you are touching the ground, you add a +2 trait bonus to saving throw DCs and on caster level checks to overcome spell resistance for all spells you cast against creatures with the air subtype.</Pair>
+<Pair single="benefit" id="earthbound-benefit">Your druid spells use a handful of earth or sand as a divine focus in addition to the normal components. While you are touching the ground, you add a +2 trait bonus to saving throw DCs and on caster level checks to overcome spell resistance for all spells you cast against creatures with the <Link to="/subtype/air">air</Link> subtype.</Pair>
 </Ability>
 </>};
 const _ease_of_faith = {title: "Ease of Faith", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="ease-of-faith" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="ease-of-faith">Ease of Faith</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="ease-of-faith-benefit">Your mentor, the person who invested your faith in you from an early age, took steps to ensure you understood that what powers your divine magic is no different from that which powers the magic of other religions. This philosophy makes it easier for you to interact with others who may not share your views. You gain a +1 bonus on Diplomacy checks, and Diplomacy is always a class skill for you.</Pair>
+<Pair single="flavor" id="ease-of-faith-flavor">Your mentor, the person who invested your faith in you from an early age, took steps to ensure you understood that what powers your divine magic is no different from that which powers the magic of other religions. This philosophy makes it easier for you to interact with others who may not share your views.</Pair>
+<Pair single="benefit" id="ease-of-faith-benefit">You gain a +1 bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks, and Diplomacy is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _eldritch_smith = {title: "Eldritch Smith", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
@@ -1518,14 +1549,16 @@ const _eldritch_smith = {title: "Eldritch Smith", topLink: ["Faith Traits","main
 <Pair single id="eldritch-smith">Eldritch Smith</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
-<Pair single="benefit" id="eldritch-smith-benefit">You are learned in the secret lore of the forge, rituals handed down for generations that some say come from Torag himself. Whenever you use the Craft skill or a crafting feat to make a stone or metal item, you reduce the cost of making the item by 5%. This includes metal-headed weapons with nonmetal parts, such as axes and spears.</Pair>
+<Pair single="flavor" id="eldritch-smith-flavor">You are learned in the secret lore of the forge, rituals handed down for generations that some say come from <Link to="/faith/torag">Torag</Link> himself.</Pair>
+<Pair single="benefit" id="eldritch-smith-benefit">Whenever you use the <Link to="/skill/craft">Craft</Link> skill or a crafting feat to make a stone or metal item, you reduce the cost of making the item by 5%. This includes metal-headed weapons with nonmetal parts, such as axes and spears.</Pair>
 </Ability>
 </>};
 const _empyreal_pantheon = {title: "Empyreal Pantheon", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/distant_shores">Distant Shores</Link></p>
 <Ability id="empyreal-pantheon" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="empyreal-pantheon">Empyreal Pantheon</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="empyreal-pantheon-benefit">Your faith in the empyreal lords accommodates numerous gods, and you are gifted at adapting their wide variety of focuses and lessons to your own life. Select either the law or chaos alignment descriptor. You may cast spells with that descriptor, even if your alignment or that of your god would normally not allow it. Doing so applies the good descriptor to the spell if it does not already apply.</Pair>
+<Pair single="flavor" id="empyreal-pantheon-flavor">Your faith in the empyreal lords accommodates numerous gods, and you are gifted at adapting their wide variety of focuses and lessons to your own life.</Pair>
+<Pair single="benefit" id="empyreal-pantheon-benefit">Select either the law or chaos alignment descriptor. You may cast spells with that descriptor, even if your alignment or that of your god would normally not allow it. Doing so applies the good descriptor to the spell if it does not already apply.</Pair>
 </Ability>
 </>};
 const _exalted_of_the_society = {title: "Exalted of the Society", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -1533,7 +1566,8 @@ const _exalted_of_the_society = {title: "Exalted of the Society", topLink: ["Fai
 <Pair single id="exalted-of-the-society">Exalted of the Society</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
-<Pair single="benefit" id="exalted-of-the-society-benefit">The vaults of the Grand Lodge in Absalom contain many secrets of the divine powers of the gods, and you have studied your deity extensively. You may channel energy one additional time per day.</Pair>
+<Pair single="flavor" id="exalted-of-the-society-flavor">The vaults of the Grand Lodge in Absalom contain many secrets of the divine powers of the gods, and you have studied your deity extensively.</Pair>
+<Pair single="benefit" id="exalted-of-the-society-benefit">You may <Link to="/ability/channel_energy">channel energy</Link> one additional time per day.</Pair>
 </Ability>
 </>};
 const _eye_for_the_wondrous = {title: "Eye for the Wondrous", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2</Link></p>
@@ -1541,7 +1575,8 @@ const _eye_for_the_wondrous = {title: "Eye for the Wondrous", topLink: ["Faith T
 <Pair single id="eye-for-the-wondrous">Eye for the Wondrous</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
-<Pair single="benefit" id="eye-for-the-wondrous-benefit">Your experience with magic items clues you in to their properties more quickly than others. You can identify the properties of a magic item using <Link to="/spell/detect_magic">detect magic</Link> in 1 round.</Pair>
+<Pair single="flavor" id="eye-for-the-wondrous-flavor">Your experience with magic items clues you in to their properties more quickly than others.</Pair>
+<Pair single="benefit" id="eye-for-the-wondrous-benefit">You can identify the properties of a magic item using <Link to="/spell/detect_magic">detect magic</Link> in 1 round.</Pair>
 </Ability>
 </>};
 const _faithful_feedback = {title: "Faithful Feedback", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -1549,43 +1584,49 @@ const _faithful_feedback = {title: "Faithful Feedback", topLink: ["Faith Traits"
 <Pair single id="faithful-feedback">Faithful Feedback</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl>Must have a religion</Pair>
-<Pair single="benefit" id="faithful-feedback-benefit">A shared religious fervor makes your healing magic more effective. Whenever you cast a spell belonging to the healing subschool on someone of your religion, increase the hit points healed by +1.</Pair>
+<Pair single="flavor" id="faithful-feedback-flavor">A shared religious fervor makes your healing magic more effective.</Pair>
+<Pair single="benefit" id="faithful-feedback-benefit">Whenever you cast a spell belonging to the healing subschool on someone of your religion, increase the hit points healed by +1.</Pair>
 </Ability>
 </>};
 const _fates_favored = {title: "Fate's Favored", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="fates-favored" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="fates-favored">Fate's Favored</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="fates-favored-benefit">The fates watch over you. Whenever you are under the effect of a luck bonus of any kind, that bonus increases by 1.</Pair>
+<Pair single="flavor" id="fates-favored-flavor">The fates watch over you.</Pair>
+<Pair single="benefit" id="fates-favored-benefit">Whenever you are under the effect of a luck bonus of any kind, that bonus increases by 1.</Pair>
 </Ability>
 </>};
 const _fearless_defiance = {title: "Fearless Defiance", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="fearless-defiance" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="fearless-defiance">Fearless Defiance</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="fearless-defiance-benefit">Upon overcoming your fear, you become a scourge to your enemies. You gain a +1 trait bonus on all saving throws against fear effects. In addition, if you successfully save against such an effect, you receive a +1 trait bonus on attack rolls against your <Link to="/ability/favored_enemies">favored enemies</Link> for 1 round.</Pair>
+<Pair single="flavor" id="fearless-defiance-flavor">Upon overcoming your fear, you become a scourge to your enemies.</Pair>
+<Pair single="benefit" id="fearless-defiance-benefit">You gain a +1 trait bonus on all saving throws against fear effects. In addition, if you successfully save against such an effect, you receive a +1 trait bonus on attack rolls against your <Link to="/ability/favored_enemies">favored enemies</Link> for 1 round.</Pair>
 </Ability>
 </>};
 const _first_memories = {title: "First Memories", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
 <Ability id="first-memories" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="first-memories">First Memories</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
-<Pair single="benefit" id="first-memories-benefit">For your whole life, you've felt there was a world just beyond the fabric of the material objects around you, and sometimes you can hear the north wind calling you or smell the dread taint of polluted water before you taste it. You do not gain the normal list of spell-like abilities for the gnome magic racial trait presented in the Pathfinder RPG Core Rulebook. Instead, if you have a Wisdom of 11 of higher, you gain the following spell-like abilities: 1/day-detect poison, know direction, stabilize, and speak with animals. The caster level for these effects is equal to your character level. The DC for these spells is equal to 10 + the spell's level + your Wisdom modifier.</Pair>
+<Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link> with the <em>gnome magic</em> racial trait</Pair>
+<Pair single="flavor" id="first-memories-flavor">For your whole life, you've felt there was a world just beyond the fabric of the material objects around you, and sometimes you can hear the north wind calling you or smell the dread taint of polluted water before you taste it.</Pair>
+<Pair single="benefit" id="first-memories-benefit">You do not gain the normal list of spell-like abilities for the <em>gnome magic</em> racial trait. Instead, if you have a Wisdom of 11 of higher, you gain the following spell-like abilities: 1/day-<Link to="/spell/detect_poison">detect poison</Link>, <Link to="/spell/know_direction">know direction</Link>, <Link to="/spell/stabilize">stabilize</Link>, and <Link to="/spell/speak_with_animals">speak with animals</Link>. The caster level for these effects is equal to your character level. The DC for these spells is equal to 10 + the spell's level + your Wisdom modifier.</Pair>
 </Ability>
 </>};
 const _focused_disciple = {title: "Focused Disciple", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="focused-disciple" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="focused-disciple">Focused Disciple</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="focused-disciple-benefit">When weaker wills falter, you keep a clear mind. You gain a +2 trait bonus on saving throws against charm and compulsion effects.</Pair>
+<Pair single="flavor" id="focused-disciple-flavor">When weaker wills falter, you keep a clear mind.</Pair>
+<Pair single="benefit" id="focused-disciple-benefit">You gain a +2 trait bonus on saving throws against charm and compulsion effects.</Pair>
 </Ability>
 </>};
 const _godclaw_disciple = {title: "Godclaw Disciple", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight</Link></p>
 <Ability id="godclaw-disciple" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="godclaw-disciple">Godclaw Disciple</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="godclaw-disciple-benefit">You worship the amalgamation of lawful deities known as the Godclaw. You gain a +2 trait bonus on Knowledge (religion) checks related to lawful deities, their clergy, their mythology, and their tenets. Additionally, Knowledge (religion) is a class skill for you.</Pair>
+<Pair single="flavor" id="godclaw-disciple-flavor">You worship the amalgamation of lawful deities known as <Link to="/main/the_godclaw">faiths_pantheon</Link>.</Pair>
+<Pair single="benefit" id="godclaw-disciple-benefit">You gain a +2 trait bonus on <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> checks related to lawful deities, their clergy, their mythology, and their tenets. Additionally, Knowledge (religion) is a class skill for you.</Pair>
 </Ability>
 </>};
 const _greater_adept_of_the_society = {title: "Greater Adept of the Society", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -1593,7 +1634,8 @@ const _greater_adept_of_the_society = {title: "Greater Adept of the Society", to
 <Pair single id="greater-adept-of-the-society">Greater Adept of the Society</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
-<Pair single="benefit" id="greater-adept-of-the-society-benefit">Months of meditation and practice with the greatest spellcasters of the Society have given you an increased capacity for arcane knowledge. You gain one additional 0-level spell slot.</Pair>
+<Pair single="flavor" id="greater-adept-of-the-society-flavor">Months of meditation and practice with the greatest spellcasters of the Society have given you an increased capacity for arcane knowledge.</Pair>
+<Pair single="benefit" id="greater-adept-of-the-society-benefit">You gain one additional 0-level spell slot.</Pair>
 </Ability>
 </>};
 const _havoc_of_the_society = {title: "Havoc of the Society", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -1601,49 +1643,55 @@ const _havoc_of_the_society = {title: "Havoc of the Society", topLink: ["Faith T
 <Pair single id="havoc-of-the-society">Havoc of the Society</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
-<Pair single="benefit" id="havoc-of-the-society-benefit">Through countless hours studying vast libraries of arcane power, you have learned how to cause greater damage to your foes. Whenever you cast a spell that deals damage, you gain a +1 trait bonus to the total damage dealt. This damage is considered force damage regardless of the type of damage dealt by the spell.</Pair>
+<Pair single="flavor" id="havoc-of-the-society-flavor">Through countless hours studying vast libraries of arcane power, you have learned how to cause greater damage to your foes.</Pair>
+<Pair single="benefit" id="havoc-of-the-society-benefit">Whenever you cast a spell that deals damage, you gain a +1 trait bonus to the total damage dealt. This damage is considered force damage regardless of the type of damage dealt by the spell.</Pair>
 </Ability>
 </>};
 const _heedful_readiness = {title: "Heedful Readiness", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
 <Ability id="heedful-readiness" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="heedful-readiness">Heedful Readiness</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="heedful-readiness-benefit">Your years of meditation and mindfulness allow you to act correctly on a moment's notice. Once per day, you can add your Wisdom modifier to an initiative check.</Pair>
+<Pair single="flavor" id="heedful-readiness-flavor">Your years of meditation and mindfulness allow you to act correctly on a moment's notice.</Pair>
+<Pair single="benefit" id="heedful-readiness-benefit">Once per day, you can add your Wisdom modifier to an initiative check.</Pair>
 </Ability>
 </>};
 const _hellknight_inquisitor = {title: "Hellknight Inquisitor", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight</Link></p>
 <Ability id="hellknight-inquisitor" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="hellknight-inquisitor">Hellknight Inquisitor</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="hellknight-inquisitor-benefit">If you are an inquisitor, you can select any inquisition associated with your preferred <Link to="/rule/hellknights">Hellknight</Link> order, as long as you and your patron deity are of a lawful alignment. Additionally, you gain a +1 trait bonus on saving throws against spells and effects with the chaos descriptor.</Pair>
+<Pair single="benefit" id="hellknight-inquisitor-benefit">If you are an inquisitor, you can select any <Link to="/ability/inquisitions">inquisition</Link> associated with your preferred <Link to="/rule/hellknights">Hellknight</Link> order, as long as you and your patron deity are of a lawful alignment. Additionally, you gain a +1 trait bonus on saving throws against spells and effects with the chaos descriptor.</Pair>
 </Ability>
 </>};
 const _heretics_caution = {title: "Heretic's Caution", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine</Link></p>
 <Ability id="heretics-caution" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="heretics-caution">Heretic's Caution</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="heretics-caution-benefit">You were raised in a faith that did not center on a traditional god or that followed a heretical interpretation of a traditional deity. You learned to deflect attention, especially from ecclesiastical figures. You gain a +1 trait bonus on Bluff checks. This bonus increases to +3 on Bluff checks opposed by religious authorities' Sense Motive checks.</Pair>
+<Pair single="flavor" id="heretics-caution-flavor">You were raised in a faith that did not center on a traditional god or that followed a heretical interpretation of a traditional deity. You learned to deflect attention, especially from ecclesiastical figures.</Pair>
+<Pair single="benefit" id="heretics-caution-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks. This bonus increases to +3 on Bluff checks opposed by religious authorities' Sense Motive checks.</Pair>
 </Ability>
 </>};
 const _hidden_faith = {title: "Hidden Faith", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="hidden-faith" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="hidden-faith">Hidden Faith</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="hidden-faith-benefit">You were raised in a religion forbidden by your government, and draw strength from your hidden faith. You gain a +1 trait bonus on saving throws against the divine spells of creatures that worship a god other than your own.</Pair>
+<Pair single="flavor" id="hidden-faith-flavor">You were raised in a religion forbidden by your government, and draw strength from your hidden faith.</Pair>
+<Pair single="benefit" id="hidden-faith-benefit">You gain a +1 trait bonus on saving throws against the divine spells of creatures that worship a god other than your own.</Pair>
 </Ability>
 </>};
 const _history_of_heresy = {title: "History of Heresy", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
 <Ability id="history-of-heresy" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="history-of-heresy">History of Heresy</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="history-of-heresy-benefit">You were raised with heretical views that have made it difficult for you to accept most religious beliefs and often caused you or those you love to be treated as pariahs. As a result, you have turned your back on religious teachings. As long as you do not possess any levels in a class that grants divine spellcasting power, you gain a +1 trait bonus on all saving throws against divine spells.</Pair>
+<Pair single="flavor" id="history-of-heresy-flavor">You were raised with heretical views that have made it difficult for you to accept most religious beliefs and often caused you or those you love to be treated as pariahs. As a result, you have turned your back on religious teachings.</Pair>
+<Pair single="benefit" id="history-of-heresy-benefit">As long as you do not possess any levels in a class that grants divine spellcasting power, you gain a +1 trait bonus on all saving throws against divine spells.</Pair>
 </Ability>
 </>};
 const _honest = {title: "Honest", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="honest" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="honest">Honest</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="honest-benefit"><p>A religious mentor instilled in you a sense of uncompromising integrity. You often speak your mind in defiance of any fear or hatred it might earn you, a habit that inspires others to trust you. You gain a +1 trait bonus on Diplomacy checks. This bonus increases to +2 when the Diplomacy check is made to influence those who are already friendly or helpful toward you.</p>
+<Pair single="flavor" id="honest-flavor">A religious mentor instilled in you a sense of uncompromising integrity. You often speak your mind in defiance of any fear or hatred it might earn you, a habit that inspires others to trust you.</Pair>
+<Pair single="benefit" id="honest-benefit"><p>You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks. This bonus increases to +2 when the Diplomacy check is made to influence those who are already friendly or helpful toward you.</p>
 <p><strong>Suggested Characters:</strong> <Link to="/pclass/diabolist">Diabolists</Link>, paladins, <Link to="/faith/sarenrae">Sarenrae</Link> worshipers.</p>
 </Pair>
 </Ability>
@@ -1652,14 +1700,16 @@ const _imperfect_recall = {title: "Imperfect Recall", topLink: ["Faith Traits","
 <Ability id="imperfect-recall" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="imperfect-recall">Imperfect Recall</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="imperfect-recall-benefit">Your belief in reincarnation, as taught by the Sangpotshi philosophy and in lands that were once Imperial Lung Wa, has been reinforced by personal experience. In moments of great stress, you sometimes experience flashes of deja vu in which you recall information you don't remember ever having known. Once per day while you are in danger or distracted, you gain a +3 bonus on a single Knowledge skill check.</Pair>
+<Pair single="flavor" id="imperfect-recall-flavor">Your belief in reincarnation, as taught by the Sangpotshi philosophy and in lands that were once Imperial Lung Wa, has been reinforced by personal experience. In moments of great stress, you sometimes experience flashes of deja vu in which you recall information you don't remember ever having known.</Pair>
+<Pair single="benefit" id="imperfect-recall-benefit">Once per day while you are in danger or distracted, you gain a +3 bonus on a single <Link to="/skill/knowledge">Knowledge</Link> skill check.</Pair>
 </Ability>
 </>};
 const _indomitable_faith = {title: "Indomitable Faith", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="indomitable-faith" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="indomitable-faith">Indomitable Faith</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="indomitable-faith-benefit">You were born in a region where your faith was not popular, but you still have never abandoned it. Your constant struggle to maintain your own faith has bolstered your drive. You gain a +1 trait bonus on Will saves.</Pair>
+<Pair single="flavor" id="indomitable-faith-flavor">You were born in a region where your faith was not popular, but you still have never abandoned it. Your constant struggle to maintain your own faith has bolstered your drive.</Pair>
+<Pair single="benefit" id="indomitable-faith-benefit">You gain a +1 trait bonus on Will saves.</Pair>
 </Ability>
 </>};
 const _inhabitant_of_illusion = {title: "Inhabitant of Illusion", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link></p>
@@ -1668,21 +1718,24 @@ const _inhabitant_of_illusion = {title: "Inhabitant of Illusion", topLink: ["Fai
 <Pair title="Type">Faith</Pair>
 <Pair title="Region" hl>Kyonin</Pair>
 <Pair title="Requirements" hl>Ascoiated with the court of Kyonin</Pair>
-<Pair single="benefit" id="inhabitant-of-illusion-benefit">Your experience with illusions allows you to discern them easily. When you first encounter an illusion, you can attempt a Will saving throw with a -2 penalty to disbelieve it, even if you don't suspect the illusion. The GM rolls this saving throw in secret.</Pair>
+<Pair single="flavor" id="inhabitant-of-illusion-flavor">Your experience with illusions allows you to discern them easily.</Pair>
+<Pair single="benefit" id="inhabitant-of-illusion-benefit">When you first encounter an illusion, you can attempt a Will saving throw with a -2 penalty to disbelieve it, even if you don't suspect the illusion. The GM rolls this saving throw in secret.</Pair>
 </Ability>
 </>};
 const _inspired = {title: "Inspired", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="inspired" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="inspired">Inspired</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="inspired-benefit">A positive force, philosophy, or divine presence fills you with hope, and is a guiding force of inspiration. Once per day as a free action, roll twice and take the better result on a skill check or ability check.</Pair>
+<Pair single="flavor" id="inspired-flavor">A positive force, philosophy, or divine presence fills you with hope, and is a guiding force of inspiration.</Pair>
+<Pair single="benefit" id="inspired-benefit">Once per day as a <strong className="hl">free action</strong>, roll twice and take the better result on a skill check or ability check.</Pair>
 </Ability>
 </>};
 const _irrepressible = {title: "Irrepressible", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="irrepressible" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="irrepressible">Irrepressible</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="irrepressible-benefit"><p>Your hope for a brighter future blessed by the gods, combined with your powerful personality, allows you to force your way free of spells that cloud the mind. You can use your Charisma modifier in place of your Wisdom modifier when attempting Will saving throws against charm and compulsion effects.</p>
+<Pair single="flavor" id="irrepressible-flavor">Your hope for a brighter future blessed by the gods, combined with your powerful personality, allows you to force your way free of spells that cloud the mind.</Pair>
+<Pair single="benefit" id="irrepressible-benefit"><p>You can use your Charisma modifier in place of your Wisdom modifier when attempting Will saving throws against charm and compulsion effects.</p>
 <p><strong>Suggested Characters:</strong> <Link to="/race/gnome">Gnomes</Link>, Keleshites, <Link to="/faith/shelyn">Shelyn</Link> worshipers.</p>
 </Pair>
 </Ability>
@@ -1691,7 +1744,8 @@ const _irreverent = {title: "Irreverent", topLink: ["Faith Traits","main/traits_
 <Ability id="irreverent" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="irreverent">Irreverent</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="benefit" id="irreverent-benefit">You are suspicious of those who lead spiritual lives and are quick to seek out the smallest hypocrisy in even the most pious individuals. Of course, you are also keenly aware of the power the faithful can draw from their worship, and you are stubbornly resistant to it. You gain a +2 trait bonus on saving throws against divine spells that target only you.</Pair>
+<Pair single="flavor" id="irreverent-flavor">You are suspicious of those who lead spiritual lives and are quick to seek out the smallest hypocrisy in even the most pious individuals. Of course, you are also keenly aware of the power the faithful can draw from their worship, and you are stubbornly resistant to it.</Pair>
+<Pair single="benefit" id="irreverent-benefit">You gain a +2 trait bonus on saving throws against divine spells that target only you.</Pair>
 </Ability>
 </>};
 const _jinx_eater = {title: "Jinx Eater", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast</Link></p>
