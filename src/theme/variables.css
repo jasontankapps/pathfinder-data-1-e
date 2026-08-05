@@ -190,14 +190,14 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-quaternary-subheader: #243742;
   --ion-color-quaternary-header: #2b4150;
   --ion-color-quaternary-bg: #162127;
-  --ion-color-quaternary-border: #486d84;
+  --ion-color-quaternary-border: #6293b1;
 
   /** quinary **/
   --ion-color-quinary: #112c24;
   --ion-color-quinary-subheader: #173b30;
   --ion-color-quinary-header: #1d493c;
   --ion-color-quinary-bg: #0b1d18;
-  --ion-color-quinary-border: #399378;
+  --ion-color-quinary-border: #43ae8e;
 
   --ion-color-success: #2fdf75;
   --ion-color-success-rgb: 47,223,117;

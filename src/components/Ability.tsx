@@ -18,7 +18,7 @@ const Icon: FC<IconProps> = ({icon, id}) => {
 	return icon.map(
 		(ic, i) => (
 			<Link to={"/icons/" + ic} key={`${id} icon ${ic} ${i}`}>
-				<IonIcon icon={`/icons/${ic}.svg`} color="secondary" />
+				<IonIcon icon={`/icons/${ic}.svg`} />
 			</Link>
 		)
 	);
