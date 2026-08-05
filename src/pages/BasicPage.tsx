@@ -202,7 +202,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				cl.add("alternate");
 			}
 		});
-	}, []);
+	}, [path]);
 	useEffect(() => {
 		debounce(() => {
 			if(contentObject) {
