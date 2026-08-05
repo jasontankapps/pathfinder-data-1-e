@@ -1,11 +1,10 @@
-import {IonList} from '@ionic/react';
+import {IonList,IonItemDivider} from '@ionic/react';
 import Link from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import MainLink from '../../components/MainLink';
 import InnerLink from '../../components/InnerLink';
-const _traits_combat = {title: "Combat Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><p>[ERROR: Limit not found]</p>
-</IonList>};
+const _traits_combat = {title: "Combat Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItemDivider className="mainItem divider"></IonItemDivider><MainLink to="/main/traits_combat_all" endem="(142 traits)" info="All Combat Traits" /><MainLink to="/main/traits_combat_off" className="indented" endem="(59 traits)" info="Offense-Focused Combat Traits" /><MainLink to="/main/traits_combat_def" className="indented" endem="(28 traits)" info="Defense-Focused Combat Traits" /><MainLink to="/main/traits_combat_offdef" className="indented" endem="(5 traits)" info="Combat Traits with Offensive and Defensive Benefits" /><MainLink to="/main/traits_combat_init" className="indented" endem="(8 traits)" info="Initiative-Focused Combat Traits" /><MainLink to="/main/traits_combat_class" className="indented" endem="(18 traits)" info="Class-Specific Combat Traits" /><MainLink to="/main/traits_combat_ab" className="indented" endem="(31 traits)" info="Skill/Feat/Ability-Focused Combat Traits" /></IonList>};
 const _traits_combat_all = {title: "All Combat Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_combat" className="reversed" info="Back to Combat Traits" /><Ability id="traitabsalombouncer-absalom-bouncer-fn1" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="traitabsalombouncer-absalom-bouncer-fn1"><Link to="/trait/absalom_bouncer">⮞</Link> Absalom Bouncer <sup><InnerLink showBacklink="backlink-main-traits_combat_all-fake-fn-1" id="main-traits_combat_all-fake-fn-1" data-hash-target to="main-traits_combat_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Combat</Pair>

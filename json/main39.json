@@ -7,38 +7,20 @@
 			"",
 			"::mhr",
 			"",
-			"::main[All Combat Traits]{to=rule/traits_combat_all endem=\"(142 traits)\"}",
+			"::main[All Combat Traits]{to=main/traits_combat_all endem=\"(142 traits)\"}",
 			"",
-			":::item",
+			"::main[Offense-Focused Combat Traits]{to=main/traits_combat_off ind endem=\"(59 traits)\"}",
 			"",
-			"For ease of reference, combat traits have been divided into several categories. Some traits appear in multiple categories.",
+			"::main[Defense-Focused Combat Traits]{to=main/traits_combat_def ind endem=\"(28 traits)\"}",
 			"",
-			":::",
+			"::main[Combat Traits with Offensive and Defensive Benefits]{to=main/traits_combat_offdef ind endem=\"(5 traits)\"}",
 			"",
-			"::main[Offense-Focused Combat Traits]{to=rule/traits_combat_off endem=\"(59 traits)\"}",
+			"::main[Initiative-Focused Combat Traits]{to=main/traits_combat_init ind endem=\"(8 traits)\"}",
 			"",
-			"::main[Defense-Focused Combat Traits]{to=rule/traits_combat_def endem=\"(28 traits)\"}",
+			"::main[Class-Specific Combat Traits]{to=main/traits_combat_class ind endem=\"(18 traits)\"}",
 			"",
-			"::main[Combat Traits with Offensive and Defensive Benefits]{to=rule/traits_combat_offdef endem=\"(5 traits)\"}",
-			"",
-			"::main[Initiative-Focused Combat Traits]{to=rule/traits_combat_init endem=\"(8 traits)\"}",
-			"",
-			"::main[Class-Specific Combat Traits]{to=rule/traits_combat_class endem=\"(18 traits)\"}",
-			"",
-			"::main[Skill/Feat/Ability-Focused Combat Traits]{to=rule/traits_combat_ab endem=\"(31 traits)\"}"
-		],
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Traits]{to=main/traits rev}",
-					""
-				],
-				{
-					"limit": "Combat"
-				}
-			]
-		}
+			"::main[Skill/Feat/Ability-Focused Combat Traits]{to=main/traits_combat_ab ind endem=\"(31 traits)\"}"
+		]
 	},
 	"traits_combat_all": {
 		"title": "All Combat Traits",
