@@ -9,17 +9,15 @@
 			"",
 			"::main[All Combat Traits]{to=main/traits_combat_all endem=\"(142 traits)\"}",
 			"",
-			"::main[Offense-Focused Combat Traits]{to=main/traits_combat_off ind endem=\"(59 traits)\"}",
+			"::main[Offense Traits]{to=main/traits_combat_off ind bottom=\"Affects attack rolls, damage, etc; 64 traits\"}",
 			"",
-			"::main[Defense-Focused Combat Traits]{to=main/traits_combat_def ind endem=\"(28 traits)\"}",
+			"::main[Defense Traits]{to=main/traits_combat_def ind bottom=\"Affects armor bonuses or saving throws; 33 traits\"}",
 			"",
-			"::main[Combat Traits with Offensive and Defensive Benefits]{to=main/traits_combat_offdef ind endem=\"(5 traits)\"}",
+			"::main[Initiative Traits]{to=main/traits_combat_init ind bottom=\"Affects initiative rolls; 8 traits\"}",
 			"",
-			"::main[Initiative-Focused Combat Traits]{to=main/traits_combat_init ind endem=\"(8 traits)\"}",
+			"::main[Class-Specific Traits]{to=main/traits_combat_class ind bottom=\"Requires a class ability to function; 18 traits\"}",
 			"",
-			"::main[Class-Specific Combat Traits]{to=main/traits_combat_class ind endem=\"(18 traits)\"}",
-			"",
-			"::main[Skill/Feat/Ability-Focused Combat Traits]{to=main/traits_combat_ab ind endem=\"(31 traits)\"}"
+			"::main[Skill/Feat/Ability Traits]{to=main/traits_combat_ab ind bottom=\"Affects a skill, feat, or ability; 31 traits\"}"
 		]
 	},
 	"traits_combat_all": {
@@ -41,7 +39,7 @@
 		}
 	},
 	"traits_combat_ab": {
-		"title": "Skill/Feat/Ability-Focused Combat Traits",
+		"title": "Skill/Feat/Ability Combat Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
@@ -59,7 +57,7 @@
 		}
 	},
 	"traits_combat_off": {
-		"title": "Offense-Focused Combat Traits",
+		"title": "Offense Combat Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
@@ -77,7 +75,7 @@
 		}
 	},
 	"traits_combat_def": {
-		"title": "Defense-Focused Combat Traits",
+		"title": "Defense Combat Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
@@ -89,24 +87,6 @@
 				{
 					"limit": {
 						"regex": "Combat.*-def"
-					}
-				}
-			]
-		}
-	},
-	"traits_combat_offdef": {
-		"title": "Combat Traits with Offensive and Defensive Benefits",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Combat Traits]{to=main/traits_combat rev}",
-					""
-				],
-				{
-					"limit": {
-						"regex": "Combat.*-offdef"
 					}
 				}
 			]
@@ -131,7 +111,7 @@
 		}
 	},
 	"traits_combat_init": {
-		"title": "Initiative-Focused Combat Traits",
+		"title": "Initiative Combat Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
