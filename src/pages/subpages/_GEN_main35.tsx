@@ -785,7 +785,7 @@ const _traits_faith_all = {title: "All Faith Traits", jsx: <IonList lines="full"
 <Pair single id="traittrickstergnome-trickster-gnome-fn19-3"><Link to="/trait/trickster_gnome">⮞</Link> Trickster (Gnome) <sup><InnerLink showBacklink="backlink-main-traits_faith_all-fake-fn-19.3" id="main-traits_faith_all-fake-fn-19.3" data-hash-target to="main-traits_faith_all-fake-fn-19-target">19</InnerLink></sup></Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
-<Pair single="flavor" id="traittrickstergnome-trickster-gnome-fn19-3-flavor">You are particularly adept with your racial spell-like abilities, and as child you quickly learned how dancing lights and ghost sound could be used to amuse your friends and fool your elders. This natural talent for illusion continued as you grew older, and before long you were being offered training in more advanced figments and glamers.</Pair>
+<Pair single="flavor" id="traittrickstergnome-trickster-gnome-fn19-3-flavor">You are particularly adept with your racial spell-like abilities, and as child you quickly learned how <Link to="/spell/dancing_lights">dancing lights</Link> and <Link to="/spell/ghost_sound">ghost sound</Link> could be used to amuse your friends and fool your elders. This natural talent for illusion continued as you grew older, and before long you were being offered training in more advanced figments and glamers.</Pair>
 <Pair single="benefit" id="traittrickstergnome-trickster-gnome-fn19-3-benefit">You gain a +1 trait bonus to your caster level when determining the duration, range, and area of all spells from the illusion school.</Pair>
 </Ability>
 <Ability id="traittwoworldmagic-two-world-magic-fn27" extraClasses="trait" icon={["bolt-eye"]}>
@@ -1275,7 +1275,7 @@ const _traits_faith_magic = {title: "Magic-Related Faith Traits", jsx: <IonList 
 <Pair single id="traittrickstergnome-trickster-gnome-fn5"><Link to="/trait/trickster_gnome">⮞</Link> Trickster (Gnome) <sup><InnerLink showBacklink="backlink-main-traits_faith_magic-fake-fn-5" id="main-traits_faith_magic-fake-fn-5" data-hash-target to="main-traits_faith_magic-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
-<Pair single="flavor" id="traittrickstergnome-trickster-gnome-fn5-flavor">You are particularly adept with your racial spell-like abilities, and as child you quickly learned how dancing lights and ghost sound could be used to amuse your friends and fool your elders. This natural talent for illusion continued as you grew older, and before long you were being offered training in more advanced figments and glamers.</Pair>
+<Pair single="flavor" id="traittrickstergnome-trickster-gnome-fn5-flavor">You are particularly adept with your racial spell-like abilities, and as child you quickly learned how <Link to="/spell/dancing_lights">dancing lights</Link> and <Link to="/spell/ghost_sound">ghost sound</Link> could be used to amuse your friends and fool your elders. This natural talent for illusion continued as you grew older, and before long you were being offered training in more advanced figments and glamers.</Pair>
 <Pair single="benefit" id="traittrickstergnome-trickster-gnome-fn5-benefit">You gain a +1 trait bonus to your caster level when determining the duration, range, and area of all spells from the illusion school.</Pair>
 </Ability>
 <Ability id="traitviledomain-vile-domain-fn6" extraClasses="trait" icon={["bolt-eye"]}>

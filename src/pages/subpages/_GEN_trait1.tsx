@@ -2178,7 +2178,7 @@ const _trickster_gnome = {title: "Trickster (Gnome)", topLink: ["Faith Traits","
 <Pair single id="trickster-gnome">Trickster (Gnome)</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
-<Pair single="flavor" id="trickster-gnome-flavor">You are particularly adept with your racial spell-like abilities, and as child you quickly learned how dancing lights and ghost sound could be used to amuse your friends and fool your elders. This natural talent for illusion continued as you grew older, and before long you were being offered training in more advanced figments and glamers.</Pair>
+<Pair single="flavor" id="trickster-gnome-flavor">You are particularly adept with your racial spell-like abilities, and as child you quickly learned how <Link to="/spell/dancing_lights">dancing lights</Link> and <Link to="/spell/ghost_sound">ghost sound</Link> could be used to amuse your friends and fool your elders. This natural talent for illusion continued as you grew older, and before long you were being offered training in more advanced figments and glamers.</Pair>
 <Pair single="benefit" id="trickster-gnome-benefit">You gain a +1 trait bonus to your caster level when determining the duration, range, and area of all spells from the illusion school.</Pair>
 </Ability>
 </>};

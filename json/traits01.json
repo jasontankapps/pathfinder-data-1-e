@@ -94,7 +94,7 @@
 		"description": [
 			"::trait{title=\"&L&Armored Rider&FN&\" type=\"Combat\" benefit=\"You gain a +1 trait bonus on ‹skill/Ride› checks, and Ride is a class skill for you. You don't take an armor check penalty on Ride checks while wearing light or medium armor.\"}"
 		],
-		"category": "Combat-ab",
+		"category": "Combat-ab-cs",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"armored_soul": {
@@ -823,7 +823,7 @@
 		"description": [
 			"::trait{title=\"&L&Natural Flyer&FN&\" type=\"Combat\" flavor=\"All your life, the sky has beckoned to you, and you have dreamed of reveling in the freedom and bliss of flight.\" benefit=\"You gain a +1 trait bonus on ‹skill/Fly› checks, as well as ‹skill/Acrobatics› checks attempted while flying. Fly is always a class skill for you.\"}"
 		],
-		"category": "Combat-ab",
+		"category": "Combat-ab-cs",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"natures_mimic": {
@@ -832,7 +832,7 @@
 		"description": [
 			"::trait{title=\"&L&Nature's Mimic&FN&\" type=\"Combat\" flavor=\"Your knowledge of nature informs your fighting style, and that style gives you insight into related aspects of the natural world.\" benefit=\"You gain a +1 trait bonus on all ‹skill/Knowledge (nature)› checks, and Knowledge (nature) is always a class skill for you. You can make Knowledge (nature) checks pertaining to animals that correspond to your style feats untrained.\"}"
 		],
-		"category": "Combat-ab",
+		"category": "Combat-ab-cs",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"never_stop_shooting": {
@@ -859,7 +859,7 @@
 		"description": [
 			"::trait{title=\"&L&Obari Veteran&FN&\" type=\"Combat\" flavor=\"You've spent years aboard ships traveling the lucrative Obari Crossing, transporting Garundi and Vudrani goods.\" benefit=\"You gain +1 bonus on ‹skill/Profession› (sailor) checks, and Profession (sailor) is a class skill for you. You also gain a +1 trait bonus on weapon damage rolls against creatures with the aquatic subtype.\"}"
 		],
-		"category": "Combat-off-ab",
+		"category": "Combat-off-ab-cs",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"ogre_avoidance": {
@@ -944,7 +944,7 @@
 		"description": [
 			"::trait{title=\"&L&Reckless&FN&\" type=\"Combat\" flavor=\"You have a tendency for rash behavior, often disregarding your own safety as you move across the battlefield.\" benefit=\"You gain a +1 bonus on ‹skill/Acrobatics› checks, and Acrobatics is always a class skill for you.\"}"
 		],
-		"category": "Combat-ab",
+		"category": "Combat-ab-cs",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"reckless_contempt": {
@@ -1065,7 +1065,7 @@
 		"description": [
 			"::trait{title=\"&L&Slippery&FN&\" type=\"Combat\" req=\"Member of The ‹rule/Bellflower Network›\" flavor=\"You have escaped from so many dangerous situations in your life that you've gotten quite good at not getting caught.\" benefit=\"You gain a +1 trait bonus on ‹skill/Stealth› checks and Stealth is a class skill for you.\"}"
 		],
-		"category": "Combat-ab",
+		"category": "Combat-ab-cs",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"soaring_sprinter": {
@@ -1074,7 +1074,7 @@
 		"description": [
 			"::trait{title=\"&L&Soaring Sprinter&FN&\" type=\"Combat\" flavor=\"As a youth, you often leaped and ran at treacherous heights, either because it was the only place with enough freedom for you to play or because it was not a good idea to play any lower.\" benefit=\"You gain a +2 trait bonus on ‹skill/Acrobatics› checks to keep your balance or jump, and Acrobatics becomes a class skill for you.~~~**Suggested Characters:** Chelaxians, gnomes, Korvosans.\"}"
 		],
-		"category": "Combat-ab",
+		"category": "Combat-ab-cs",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"solitary": {
@@ -1332,7 +1332,7 @@
 		"description": [
 			"::trait{title=\"&L&Witty Repartee&FN&\" type=\"Combat\" req=\"‹rule/Kitharodian Academy›\" flavor=\"You are quick with your tongue and have always possessed the talent to quickly admonish your enemies.\" benefit=\"You gain a +1 trait bonus on ‹skill/Bluff› checks and Bluff is a class skill for you.\"}"
 		],
-		"category": "Combat-ab",
+		"category": "Combat-ab-cs",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"youthful_infiltrator": {
@@ -1416,7 +1416,7 @@
 		"description": [
 			"::trait{title=\"&L&Arcane Scholar&FN&\" type=\"Faith\" flavor=\"Study of the &quot&Prime Archmage&quot& chapter has broadened your magical knowledge.\" benefit=\"Choose either ‹skill/Knowledge (arcana)› or ‹skill/Spellcraft›; you gain a +1 trait bonus on that skill and it is a class skill for you.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"aspect_of_the_quah": {
@@ -1524,7 +1524,7 @@
 		"description": [
 			"::trait{title=\"&L&Canon of Coin&FN&\" type=\"Faith\" flavor=\"You find the pursuit of earning money to be a religious experience.\" benefit=\"‹skill/Appraise› is a class skill for you. So long as you are carrying coins worth an amount equal to at least 100 gp per character level you have, you gain a +1 trait bonus on Will saves. This bonus increases to +2 against effects that would force you to discard, drop, or give away coins, gems, or trade goods in your possession.\"}"
 		],
-		"category": "Faith-ab-def",
+		"category": "Faith-ab-def-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"caretaker": {
@@ -1537,7 +1537,7 @@
 		"description": [
 			"::trait{title=\"&L&Caretaker&FN&\" type=\"Faith\" flavor=\"As the child of an herbalist or an assistant in a temple infirmary, you often had to assist in tending to the sick and wounded.\" benefit=\"You gain a +1 trait bonus on ‹skill/Heal› checks, and Heal is always a class skill for you.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"child_of_the_temple": {
@@ -1550,7 +1550,7 @@
 		"description": [
 			"::trait{title=\"&L&Child of the Temple&FN&\" type=\"Faith\" flavor=\"You have long served at a temple in a city, where you picked up on many of the nobility's customs in addition to spending much time in the temple libraries studying your faith.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (nobility)› and ‹skill/Knowledge (religion)› checks, and one of these skills (your choice) is always a class skill for you.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"chosen_of_iomedae": {
@@ -1559,7 +1559,7 @@
 		"description": [
 			"::trait{title=\"&L&Chosen of Iomedae&FN&\" type=\"Faith\" flavor=\"At your birth, your parents dedicated your soul to ‹faith/Iomedae› to mold into a sword of her light. The goddess blessed you, granting you a gift of light to brighten your path through darkness and a fine sword with which to spread her will.\" benefit=\"You may cast ‹spell/light› once per day as a spell-like ability (caster level 1st), and you begin play with a ‹rule/masterwork<_w› ‹eq-weapon/longsword›. In addition, whenever *light* is cast upon this sword, the radius of light and its duration is doubled.\"}"
 		],
-		"category": "Faith-spell-ab",
+		"category": "Faith-spell-ab-item",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"covert_channeler": {
@@ -1635,7 +1635,7 @@
 		"description": [
 			"::trait{title=\"&L&Devotee of the Green&FN&\" type=\"Faith\" flavor=\"Your faith in the natural world or one of the gods of nature makes it easy for you to pick up on related concepts.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (geography)› and ‹skill/Knowledge (nature)› checks, and one of these skills (your choice) is always a class skill for you.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"devout_visionary": {
@@ -1662,7 +1662,7 @@
 		"description": [
 			"::trait{title=\"&L&Divine Confidante&FN&\" type=\"Faith\" flavor=\"You were inspired with the reverence offered by worshipers to priests and other spiritual leaders, so you assisted them.\" benefit=\"You gain a +3 trait bonus on ‹skill/Sense Motive› checks to get hunches about those who discuss matters of faith, mythology, morality, religion, or the Outer Planes with you. Sense Motive is a class skill for you.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"divine_denier": {
@@ -1702,7 +1702,7 @@
 		"description": [
 			"::trait{title=\"&L&Ease of Faith&FN&\" type=\"Faith\" flavor=\"Your mentor, the person who invested your faith in you from an early age, took steps to ensure you understood that what powers your divine magic is no different from that which powers the magic of other religions. This philosophy makes it easier for you to interact with others who may not share your views.\" benefit=\"You gain a +1 bonus on ‹skill/Diplomacy› checks, and Diplomacy is always a class skill for you.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"eldritch_smith": {
@@ -1795,7 +1795,7 @@
 		"description": [
 			"::trait{title=\"&L&Godclaw Disciple&FN&\" type=\"Faith\" flavor=\"You worship the amalgamation of lawful deities known as ‹main/faiths_pantheons>«the Godclaw›.\" benefit=\"You gain a +2 trait bonus on ‹skill/Knowledge (religion)› checks related to lawful deities, their clergy, their mythology, and their tenets. Additionally, Knowledge (religion) is a class skill for you.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"greater_adept_of_the_society": {
@@ -2079,7 +2079,7 @@
 		"description": [
 			"::trait{title=\"&L&Omen&FN&\" type=\"Faith\" flavor=\"You are the harbinger of some future event. Whether this event bodes good or ill, you exude an ominous presence.\" benefit=\"You gain a +1 trait bonus on ‹skill/Intimidate› checks, and Intimidate is always a class skill for you. Once per day, you may attempt to demoralize an opponent as a @HLswift_action.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"pact_servant": {
@@ -2244,7 +2244,7 @@
 		"description": [
 			"::trait{title=\"&L&Scholar of the Great Beyond&FN&\" type=\"Faith\" flavor=\"Your greatest interests as a child did not lie with current events or the mundane; you have always felt out of place, as if you were born in the wrong era. You take to philosophical discussions of the Great Beyond and of historical events with ease.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (history)› and ‹skill/Knowledge (planes)› checks, and one of these skills (your choice) is always a class skill for you.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"schooled_inquisitor": {
@@ -2316,7 +2316,7 @@
 		"description": [
 			"::trait{title=\"&L&Spell Intuition&FN&\" type=\"Faith\" flavor=\"Blessed by a priest of a deity of magic at birth, you demonstrated a remarkable knack for guessing the nature of spells without the schooling of your instructors.\" benefit=\"You gain a +1 trait bonus on ‹skill/Spellcraft› checks, and Spellcraft becomes a class skill for you.~~~**Suggested Characters:** Gebbites, ‹faith/Nethys› worshipers, Nexians.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"spirit_sense": {
@@ -2373,7 +2373,7 @@
 		"description": [
 			"::trait{title=\"&L&Student of History&FN&\" type=\"Faith\" flavor=\"One can move toward enlightenment by understanding the mistakes of past generations.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (history)› checks, and Knowledge (history) is a class skill for you.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"tar_baphons_whisper": {
@@ -2412,14 +2412,14 @@
 		"description": [
 			"::trait{title=\"&L&Traditionalist&FN&\" type=\"Faith\" flavor=\"You attempt to maintain older traditions despite changing social norms, and find great value in the trappings and codes of the aristocracy.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (nobility)› checks, and Knowledge (nobility) is a class skill for you.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"trickster_gnome": {
 		"name": "Trickster (Gnome)",
 		"compilationSources": [ [ "Gnomes of Golarion" ] ],
 		"description": [
-			"::trait{title=\"&L&Trickster (Gnome)&FN&\" type=\"Faith\" req=\"‹race/Gnome›\" flavor=\"You are particularly adept with your racial spell-like abilities, and as child you quickly learned how dancing lights and ghost sound could be used to amuse your friends and fool your elders. This natural talent for illusion continued as you grew older, and before long you were being offered training in more advanced figments and glamers.\" benefit=\"You gain a +1 trait bonus to your caster level when determining the duration, range, and area of all spells from the illusion school.\"}"
+			"::trait{title=\"&L&Trickster (Gnome)&FN&\" type=\"Faith\" req=\"‹race/Gnome›\" flavor=\"You are particularly adept with your racial spell-like abilities, and as child you quickly learned how ‹spell/dancing lights› and ‹spell/ghost sound› could be used to amuse your friends and fool your elders. This natural talent for illusion continued as you grew older, and before long you were being offered training in more advanced figments and glamers.\" benefit=\"You gain a +1 trait bonus to your caster level when determining the duration, range, and area of all spells from the illusion school.\"}"
 		],
 		"category": "Faith-magic",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2448,7 +2448,7 @@
 		"description": [
 			"::trait{title=\"&L&Unnatural Presence&FN&\" type=\"Faith\" req=\"‹rule/Old Cults›\" flavor=\"Your prolonged association with alien forces leaks from your pores.\" benefit=\"You can use your ‹skill/Intimidate› skill to demoralize animals and vermin; Intimidate is a class skill for you.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"unshackled": {
@@ -2457,7 +2457,7 @@
 		"description": [
 			"::trait{title=\"&L&Unshackled&FN&\" type=\"Faith\" flavor=\"You have escaped slavery or other imprisonment and have vowed never to be shackled again.\" benefit=\"You gain a +1 trait bonus on ‹skill/Escape Artist› checks, and Escape Artist is a class skill for you.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"untrained_scholar": {
@@ -2475,7 +2475,7 @@
 		"description": [
 			"::trait{title=\"&L&Urban Acolyte&FN&\" type=\"Faith\" flavor=\"Growing up in a city has broadened your philosophy, and helped you interpret your patron's divine will in a novel way.\" benefit=\"You gain ‹skill/Knowledge (local)› as a class skill. Additionally, you can select one of the following subdomains using the normal rules for subdomains so long as your deity grants access to its associated domain: ‹domain/Competition›, ‹domain/Duels›, ‹domain/Espionage›, ‹domain/Fortifications›, ‹domain/Industry›, ‹domain/Legislation›, ‹domain/Plague›, or ‹domain/Riot›.\"}"
 		],
-		"category": "Faith-classcleric",
+		"category": "Faith-class-cleric-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"vile_domain": {
@@ -2511,7 +2511,7 @@
 		"description": [
 			"::trait{title=\"&L&Zealot&FN&\" type=\"Faith\" req=\"‹race/Gnome›, you must match the alignment of your chosen deity exactly\" flavor=\"You aren't just faithful to the worship of your patron deity - you are obsessively loyal to all of the faith's tenets and guidelines. Your devotion is an anchor that keeps you from drifting away into the throes of the Bleaching, and you cling to it like the life raft it is.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (religion)› checks, and that skill is a class skill for you. As long as you remain completely faithful to the tenets of your faith (as determined by the GM), you never suffer from the Bleaching.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-cs",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"zealots_bearing": {

@@ -951,4 +951,926 @@ const _traits_religion_ce = {title: "Religion Traits: Chaotic Evil", jsx: <IonLi
 <li id="main-traits_religion_ce-fake-fn-4-target"><p><Link to="/source/goblins_of_golarion">Goblins of Golarion</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_religion_ce-fake-fn-4" data-hash-target to="main-traits_religion_ce-fake-fn-4">↩</InnerLink></p></li>
 <li id="main-traits_religion_ce-fake-fn-5-target"><p><Link to="/source/ultimate_campaign">Ultimate Campaign</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_religion_ce-fake-fn-5" data-hash-target to="main-traits_religion_ce-fake-fn-5">↩</InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_religion_ce-fake-fn-5.2" data-hash-target to="main-traits_religion_ce-fake-fn-5.2">↩<sup>2</sup></InnerLink></p></li>
 </ol></section></IonList>};
-export default {traits_religion_lg:_traits_religion_lg,traits_religion_ln:_traits_religion_ln,traits_religion_le:_traits_religion_le,traits_religion_ng:_traits_religion_ng,traits_religion_nn:_traits_religion_nn,traits_religion_ne:_traits_religion_ne,traits_religion_cg:_traits_religion_cg,traits_religion_cn:_traits_religion_cn,traits_religion_ce:_traits_religion_ce}
+const _traits_casmaron = {title: "Regional Traits: Casmaron", jsx: <IonList lines="full"><MainLink to="/main/traits_regional" className="reversed" info="Back to Regional Traits" /><Ability id="traitcentaurvengeance-centaur-vengeance-fn1" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitcentaurvengeance-centaur-vengeance-fn1"><Link to="/trait/centaur_vengeance">⮞</Link> Centaur Vengeance <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-1" id="main-traits_casmaron-fake-fn-1" data-hash-target to="main-traits_casmaron-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Iobaria</Pair>
+<Pair single="benefit" id="traitcentaurvengeance-centaur-vengeance-fn1-benefit">Your nomadic tribe wanders the Ice Steppes of Iobaria. They live in constant fear of the great white wyrm Sjohvornor and feel helpless to stop the dragon's aggression. Your tribe is filled with wise sages and great warriors, and they resent being cowed by any foe. You vowed that one day you would not have to be afraid of Sjohvornor or any other wyrm. You gain a +2 bonus on saving throws against any dragon's frightful presence.</Pair>
+</Ability>
+<Ability id="traitiobariansurvivor-iobarian-survivor-fn2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitiobariansurvivor-iobarian-survivor-fn2"><Link to="/trait/iobarian_survivor">⮞</Link> Iobarian Survivor <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-2" id="main-traits_casmaron-fake-fn-2" data-hash-target to="main-traits_casmaron-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Iobaria</Pair>
+<Pair single="benefit" id="traitiobariansurvivor-iobarian-survivor-fn2-benefit">Whenever you are exposed to a disease while you are trying to treat an afflicted creature, you gain a +4 trait bonus on your Fortitude saving throw to resist contracting the disease yourself.</Pair>
+</Ability>
+<Ability id="traitalabasterodalisque-alabaster-odalisque-fn3" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitalabasterodalisque-alabaster-odalisque-fn3"><Link to="/trait/alabaster_odalisque">⮞</Link> Alabaster Odalisque <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-3" id="main-traits_casmaron-fake-fn-3" data-hash-target to="main-traits_casmaron-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Jalmeray</Pair>
+<Pair title="Requirements" hl><Link to="/race/oread">Oread</Link></Pair>
+<Pair single="benefit" id="traitalabasterodalisque-alabaster-odalisque-fn3-benefit">The rajahs of Jalmeray favored you for your stately physique and flawless skin, and so endorsed your candidacy for tutelage at the Conservatory on the island of Grand Sarret. Trained to be the perfect bard, courtesan, or undercover operative, you gain a +1 trait bonus on two Charisma-based skills of your choice. In addition, once per day as a swift action, you can brush your fingers against a closed door or stone wall up to 1 foot thick. Doing so allows you to ignore penalties on Perception checks to listen through the designated object for 1 minute.</Pair>
+</Ability>
+<Ability id="traitcandidateforperfection-candidate-for-perfection-fn4" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitcandidateforperfection-candidate-for-perfection-fn4"><Link to="/trait/candidate_for_perfection">⮞</Link> Candidate for Perfection <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-4" id="main-traits_casmaron-fake-fn-4" data-hash-target to="main-traits_casmaron-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Jalmeray</Pair>
+<Pair single="benefit" id="traitcandidateforperfection-candidate-for-perfection-fn4-benefit">You have begun training to enter one of the <Link to="/rule/houses_of_perfection">Houses of Perfection</Link>, and have honed your body, mind, and spirit into one well-trained weapon. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes.</Pair>
+</Ability>
+<Ability id="traitnagaemissary-naga-emissary-fn5" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitnagaemissary-naga-emissary-fn5"><Link to="/trait/naga_emissary">⮞</Link> Naga Emissary <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-5" id="main-traits_casmaron-fake-fn-5" data-hash-target to="main-traits_casmaron-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Jalmeray</Pair>
+<Pair title="Requirements" hl><Link to="/race/nagaji">Nagaji</Link></Pair>
+<Pair single="benefit" id="traitnagaemissary-naga-emissary-fn5-benefit">You were groomed from childhood to act as an emissary to Nagajor's allies in Jalmeray, and you understand much about the Jalmeri people as a result. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy is a class skill for you. In addition, you gain Vudrani as a bonus language.</Pair>
+</Ability>
+<Ability id="traitsecretoftheimpossiblekingdom-secret-of-the-impossible-kingdom-fn4-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitsecretoftheimpossiblekingdom-secret-of-the-impossible-kingdom-fn4-2"><Link to="/trait/secret_of_the_impossible_kingdom">⮞</Link> Secret of the Impossible Kingdom <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-4.2" id="main-traits_casmaron-fake-fn-4.2" data-hash-target to="main-traits_casmaron-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Jalmeray</Pair>
+<Pair single="benefit" id="traitsecretoftheimpossiblekingdom-secret-of-the-impossible-kingdom-fn4-2-benefit">You have studied the ancient lore of Vudra at a monastery in Jalmeray, and have learned a mystical secret that empowers your spellcasting. Pick one spell when you choose this trait - from this point on, whenever you cast that spell, you do so at +1 caster level.</Pair>
+</Ability>
+<Ability id="traitkeleshitetrader-keleshite-trader-fn6" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitkeleshitetrader-keleshite-trader-fn6"><Link to="/trait/keleshite_trader">⮞</Link> Keleshite Trader <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-6" id="main-traits_casmaron-fake-fn-6" data-hash-target to="main-traits_casmaron-fake-fn-6-target">6</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Kelesh or Qadira</Pair>
+<Pair single="benefit" id="traitkeleshitetrader-keleshite-trader-fn6-benefit">Your cosmopolitan upbringing has given you familiarity with many cultures. You gain two bonus languages and a +2 trait bonus on Knowledge (local) checks.</Pair>
+</Ability>
+<Ability id="traitbravewords-brave-words-fn7" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitbravewords-brave-words-fn7"><Link to="/trait/brave_words">⮞</Link> Brave Words <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-7" id="main-traits_casmaron-fake-fn-7" data-hash-target to="main-traits_casmaron-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Ninshaburian</Pair>
+<Pair single="benefit" id="traitbravewords-brave-words-fn7-benefit">You inherit your forebears' ability to fight off terror with bragging or insults. As a swift action, when you have the frightened condition, you can function as if you only have the shaken condition for 1 round by shouting at the source of your fear. You must be able to see the source of the fear condition. You can use this trait only once per fear effect. This trait grants no benefits against the shaken or panicked conditions.</Pair>
+</Ability>
+<Ability id="traitelementalpupil-elemental-pupil-fn8" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitelementalpupil-elemental-pupil-fn8"><Link to="/trait/elemental_pupil">⮞</Link> Elemental Pupil <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-8" id="main-traits_casmaron-fake-fn-8" data-hash-target to="main-traits_casmaron-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Qadira</Pair>
+<Pair single="benefit" id="traitelementalpupil-elemental-pupil-fn8-benefit">You have studied at the feet of the masters of Katheer's colleges of magic, and so increased your own mastery of the elements. Choose one of the following energy types: acid, cold, electricity, or fire. When casting a spell of 1st level or higher that deals damage of your chosen energy type, the spell deals 1 extra point of damage of this type.</Pair>
+</Ability>
+<Ability id="traitemberkinimposter-emberkin-imposter-fn6-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitemberkinimposter-emberkin-imposter-fn6-2"><Link to="/trait/emberkin_imposter">⮞</Link> Emberkin Imposter <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-6.2" id="main-traits_casmaron-fake-fn-6.2" data-hash-target to="main-traits_casmaron-fake-fn-6-target">6</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Qadira</Pair>
+<Pair single="benefit" id="traitemberkinimposter-emberkin-imposter-fn6-2-benefit">You have found it is easier to be mistaken for someone with celestial blood than to reveal your true nature. You gain a +5 trait bonus on Disguise checks when pretending to be an aasimar, and a +2 trait bonus on Diplomacy checks against those you have convinced of your supposed celestial nature.</Pair>
+</Ability>
+<Ability id="traitempathicdiplomat-empathic-diplomat-fn6-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitempathicdiplomat-empathic-diplomat-fn6-3"><Link to="/trait/empathic_diplomat">⮞</Link> Empathic Diplomat <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-6.3" id="main-traits_casmaron-fake-fn-6.3" data-hash-target to="main-traits_casmaron-fake-fn-6-target">6</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Qadira or Osirion</Pair>
+<Pair single="benefit" id="traitempathicdiplomat-empathic-diplomat-fn6-3-benefit">You have long followed the path of common sense and empathic insight when using diplomacy. You modify your Diplomacy checks using your Wisdom modifier, not your Charisma modifier.</Pair>
+</Ability>
+<Ability id="traitgeniecaller-genie-caller-fn4-3-fn8-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitgeniecaller-genie-caller-fn4-3-fn8-2"><Link to="/trait/genie_caller">⮞</Link> Genie-Caller <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-4.3" id="main-traits_casmaron-fake-fn-4.3" data-hash-target to="main-traits_casmaron-fake-fn-4-target">4</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-8.2" id="main-traits_casmaron-fake-fn-8.2" data-hash-target to="main-traits_casmaron-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Qadira</Pair>
+<Pair single="benefit" id="traitgeniecaller-genie-caller-fn4-3-fn8-2-benefit">Your exploration of the magic for calling genies has increased your overall aptitude for summoning. Once per day, you may cast one conjuration (summoning) spell as if your caster level were 2 higher than normal.</Pair>
+</Ability>
+<Ability id="traitkeeperoftheveil-keeper-of-the-veil-fn8-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitkeeperoftheveil-keeper-of-the-veil-fn8-3"><Link to="/trait/keeper_of_the_veil">⮞</Link> Keeper of the Veil <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-8.3" id="main-traits_casmaron-fake-fn-8.3" data-hash-target to="main-traits_casmaron-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Qadira</Pair>
+<Pair single="benefit" id="traitkeeperoftheveil-keeper-of-the-veil-fn8-3-benefit">Even when not cloaked in magic, your training has taught you how to conceal your true nature. You gain a +1 competence bonus on Bluff and Disguise checks, and one of these skills (your choice) is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitmerchantofkatheer-merchant-of-katheer-fn8-4" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitmerchantofkatheer-merchant-of-katheer-fn8-4"><Link to="/trait/merchant_of_katheer">⮞</Link> Merchant of Katheer <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-8.4" id="main-traits_casmaron-fake-fn-8.4" data-hash-target to="main-traits_casmaron-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Qadira</Pair>
+<Pair single="benefit" id="traitmerchantofkatheer-merchant-of-katheer-fn8-4-benefit">You grew up among the market stalls of the greatest trading post in all the world, and can almost smell the value of an item before you touch it. You gain a +1 trait bonus to Appraise checks, and Appraise is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitparaheenweaponsmith-paraheen-weaponsmith-fn6-4" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitparaheenweaponsmith-paraheen-weaponsmith-fn6-4"><Link to="/trait/paraheen_weaponsmith">⮞</Link> Paraheen Weaponsmith <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-6.4" id="main-traits_casmaron-fake-fn-6.4" data-hash-target to="main-traits_casmaron-fake-fn-6-target">6</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Qadira</Pair>
+<Pair single="benefit" id="traitparaheenweaponsmith-paraheen-weaponsmith-fn6-4-benefit">You are a descendant of a long line of skilled dwarven weapon makers or have apprenticed under such artisans. Either way, you learned their long-held secrets relating to the production of magical arms and armor. You treat your caster level as 1 higher for purposes of creating magical weapons, and gain a +1 trait bonus on Craft checks to create magical armor, shields, or weapons.</Pair>
+</Ability>
+<Ability id="traitriderofparesh-rider-of-paresh-fn4-4-fn8-5" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitriderofparesh-rider-of-paresh-fn4-4-fn8-5"><Link to="/trait/rider_of_paresh">⮞</Link> Rider of Paresh <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-4.4" id="main-traits_casmaron-fake-fn-4.4" data-hash-target to="main-traits_casmaron-fake-fn-4-target">4</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-8.5" id="main-traits_casmaron-fake-fn-8.5" data-hash-target to="main-traits_casmaron-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Qadira</Pair>
+<Pair title="Requirements" hl><Link to="/feat/mounted_combat">Mounted Combat</Link> feat</Pair>
+<Pair single="benefit" id="traitriderofparesh-rider-of-paresh-fn4-4-fn8-5-benefit">You call the Plains of Paresh home, whether you were born among the plains' tribes or in the glittering towers of Katheer. The horses are your kin. When mounted and making a charge, your mount's speed is increased by 10 feet.</Pair>
+</Ability>
+<Ability id="traitshaer-shaer-fn9" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitshaer-shaer-fn9"><Link to="/trait/shaer">⮞</Link> Shaer <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-9" id="main-traits_casmaron-fake-fn-9" data-hash-target to="main-traits_casmaron-fake-fn-9-target">9</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Qadira</Pair>
+<Pair title="Requirements" hl>Kelish</Pair>
+<Pair single="benefit" id="traitshaer-shaer-fn9-benefit">Qadira is a land of poetry, and you have grown up immersed in the words and language of that culture. Your facility with the language is evident to all when you speak. You gain a +2 trait bonus on Bluff and Diplomacy checks when speaking with anyone fluent in Kelish.</Pair>
+</Ability>
+<Ability id="traitskilledsurgeon-skilled-surgeon-fn2-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitskilledsurgeon-skilled-surgeon-fn2-2"><Link to="/trait/skilled_surgeon">⮞</Link> Skilled Surgeon <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-2.2" id="main-traits_casmaron-fake-fn-2.2" data-hash-target to="main-traits_casmaron-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Qadira or Ustalav</Pair>
+<Pair single="benefit" id="traitskilledsurgeon-skilled-surgeon-fn2-2-benefit">Whenever you perform surgery or otherwise must deal damage to remove a condition or affliction, you roll the damage but use the minimum result unless you rolled the maximum result. The amount of hit points or points of ability damage restored each day when you provide long-term care is increased by 1.</Pair>
+</Ability>
+<Ability id="traitvenicaanmedic-venicaan-medic-fn8-6" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitvenicaanmedic-venicaan-medic-fn8-6"><Link to="/trait/venicaan_medic">⮞</Link> Venicaan Medic <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-8.6" id="main-traits_casmaron-fake-fn-8.6" data-hash-target to="main-traits_casmaron-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Qadira</Pair>
+<Pair single="benefit" id="traitvenicaanmedic-venicaan-medic-fn8-6-benefit">You have studied at the College of Medicaments and Chirurgery, and know by sight the signs of ailments and toxins you might encounter. You gain a +2 trait bonus to Heal checks to treat diseases or poisons, and Heal is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitwalkingward-walking-ward-fn8-7" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitwalkingward-walking-ward-fn8-7"><Link to="/trait/walking_ward">⮞</Link> Walking Ward <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-8.7" id="main-traits_casmaron-fake-fn-8.7" data-hash-target to="main-traits_casmaron-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Qadira</Pair>
+<Pair single="benefit" id="traitwalkingward-walking-ward-fn8-7-benefit">Your training included constant exposure to elemental forces. Choose one of the following energy types: acid, cold, electricity, or fire; you gain a +1 bonus on saving throws against spells that deal damage of this type or have this subtype.</Pair>
+</Ability>
+<Ability id="traitwatchingtaldor-watching-taldor-fn6-5-fn8-8" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitwatchingtaldor-watching-taldor-fn6-5-fn8-8"><Link to="/trait/watching_taldor">⮞</Link> Watching Taldor <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-6.5" id="main-traits_casmaron-fake-fn-6.5" data-hash-target to="main-traits_casmaron-fake-fn-6-target">6</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-8.8" id="main-traits_casmaron-fake-fn-8.8" data-hash-target to="main-traits_casmaron-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Qadira</Pair>
+<Pair title="Requirements" hl>Characters from Qadira who have had family members, neighbors, or friends affected by Taldan aggression or who have fallen victim to this hatred themselves.</Pair>
+<Pair single="benefit" id="traitwatchingtaldor-watching-taldor-fn6-5-fn8-8-benefit">You have spent your adult life waiting for Taldor to give you an excuse to fight. You gain a +1 trait bonus on initiative checks, and if you are able to act during the surprise round of an encounter, you can draw a weapon (but not a potion or magic item) as a free action during that round.</Pair>
+</Ability>
+<section data-footnotes><h3 id="main-traits_casmaron-label">Footnotes</h3><ol>
+<li id="main-traits_casmaron-fake-fn-1-target"><p><Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_casmaron-fake-fn-1" data-hash-target to="main-traits_casmaron-fake-fn-1">↩</InnerLink></p></li>
+<li id="main-traits_casmaron-fake-fn-2-target"><p><Link to="/source/healers_handbook">Healer's Handbook</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_casmaron-fake-fn-2" data-hash-target to="main-traits_casmaron-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_casmaron-fake-fn-2.2" data-hash-target to="main-traits_casmaron-fake-fn-2.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_casmaron-fake-fn-3-target"><p><Link to="/source/blood_of_the_elements">Blood of the Elements</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_casmaron-fake-fn-3" data-hash-target to="main-traits_casmaron-fake-fn-3">↩</InnerLink></p></li>
+<li id="main-traits_casmaron-fake-fn-4-target"><p><Link to="/source/inner_sea_primer">Inner Sea Primer</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_casmaron-fake-fn-4" data-hash-target to="main-traits_casmaron-fake-fn-4">↩</InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_casmaron-fake-fn-4.2" data-hash-target to="main-traits_casmaron-fake-fn-4.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_casmaron-fake-fn-4.3" data-hash-target to="main-traits_casmaron-fake-fn-4.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_casmaron-fake-fn-4.4" data-hash-target to="main-traits_casmaron-fake-fn-4.4">↩<sup>4</sup></InnerLink></p></li>
+<li id="main-traits_casmaron-fake-fn-5-target"><p><Link to="/source/blood_of_the_beast">Blood of the Beast</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_casmaron-fake-fn-5" data-hash-target to="main-traits_casmaron-fake-fn-5">↩</InnerLink></p></li>
+<li id="main-traits_casmaron-fake-fn-6-target"><p><Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East</Link> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_casmaron-fake-fn-6" data-hash-target to="main-traits_casmaron-fake-fn-6">↩</InnerLink> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_casmaron-fake-fn-6.2" data-hash-target to="main-traits_casmaron-fake-fn-6.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_casmaron-fake-fn-6.3" data-hash-target to="main-traits_casmaron-fake-fn-6.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_casmaron-fake-fn-6.4" data-hash-target to="main-traits_casmaron-fake-fn-6.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_casmaron-fake-fn-6.5" data-hash-target to="main-traits_casmaron-fake-fn-6.5">↩<sup>5</sup></InnerLink></p></li>
+<li id="main-traits_casmaron-fake-fn-7-target"><p><Link to="/source/blood_of_the_ancients">Blood of the Ancients</Link> pg. 25 <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_casmaron-fake-fn-7" data-hash-target to="main-traits_casmaron-fake-fn-7">↩</InnerLink></p></li>
+<li id="main-traits_casmaron-fake-fn-8-target"><p><Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_casmaron-fake-fn-8" data-hash-target to="main-traits_casmaron-fake-fn-8">↩</InnerLink> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_casmaron-fake-fn-8.2" data-hash-target to="main-traits_casmaron-fake-fn-8.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_casmaron-fake-fn-8.3" data-hash-target to="main-traits_casmaron-fake-fn-8.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_casmaron-fake-fn-8.4" data-hash-target to="main-traits_casmaron-fake-fn-8.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_casmaron-fake-fn-8.5" data-hash-target to="main-traits_casmaron-fake-fn-8.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_casmaron-fake-fn-8.6" data-hash-target to="main-traits_casmaron-fake-fn-8.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_casmaron-fake-fn-8.7" data-hash-target to="main-traits_casmaron-fake-fn-8.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_casmaron-fake-fn-8.8" data-hash-target to="main-traits_casmaron-fake-fn-8.8">↩<sup>8</sup></InnerLink></p></li>
+<li id="main-traits_casmaron-fake-fn-9-target"><p><Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link> <InnerLink aria-label="Back to reference 9" id="backlink-main-traits_casmaron-fake-fn-9" data-hash-target to="main-traits_casmaron-fake-fn-9">↩</InnerLink></p></li>
+</ol></section></IonList>};
+const _traits_tian_xia = {title: "Regional Traits: Tian Xia", jsx: <IonList lines="full"><MainLink to="/main/traits_regional" className="reversed" info="Back to Regional Traits" /><Ability id="traiteducateddruggist-educated-druggist-fn1" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traiteducateddruggist-educated-druggist-fn1"><Link to="/trait/educated_druggist">⮞</Link> Educated Druggist <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-1" id="main-traits_tian_xia-fake-fn-1" data-hash-target to="main-traits_tian_xia-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Osibu, Thuvia, Tian Xia, or Ustalav</Pair>
+<Pair single="benefit" id="traiteducateddruggist-educated-druggist-fn1-benefit">Any alchemical remedies you administer that provide an alchemical bonus have that bonus increased by 1. These remedies also restore 1 hit point to the target in addition to their usual effects.</Pair>
+</Ability>
+<Ability id="traitheirofchuye-heir-of-chu-ye-fn1-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitheirofchuye-heir-of-chu-ye-fn1-2"><Link to="/trait/heir_of_chu_ye">⮞</Link> Heir of Chu Ye <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-1.2" id="main-traits_tian_xia-fake-fn-1.2" data-hash-target to="main-traits_tian_xia-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Tian Xia</Pair>
+<Pair single="benefit" id="traitheirofchuye-heir-of-chu-ye-fn1-2-benefit">If you would take a penalty for using the Heal skill to treat deadly wounds without one or more uses of a healer's kit, that penalty is reduced by 2 (minimum no penalty). Additionally, a creature can benefit from you treating its deadly wounds if you do so within 48 hours of its injury instead of within 24 hours.</Pair>
+</Ability>
+<Ability id="traitservitorofspirits-servitor-of-spirits-fn1-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitservitorofspirits-servitor-of-spirits-fn1-3"><Link to="/trait/servitor_of_spirits">⮞</Link> Servitor of Spirits <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-1.3" id="main-traits_tian_xia-fake-fn-1.3" data-hash-target to="main-traits_tian_xia-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Tian Xia</Pair>
+<Pair single="benefit" id="traitservitorofspirits-servitor-of-spirits-fn1-3-benefit">For as long as you can remember, the spirits have always whispered into your ears and guided you-provided that you appease them. At the start of each day, you can choose one <Link to="/ability/spirits">medium spirit</Link> and accept one of its taboos for 24 hours. As long as you don't break that taboo, once during the next 24 hours, you can add a +1 trait bonus to any one roll, check, or saving throw (but not to AC) listed under your chosen spirit's spirit bonus. Using this ability is a free action that you can use even if it isn't your turn. If you are a medium, the spirit you choose with this trait must be the same as the spirit you are channeling and vice versa</Pair>
+</Ability>
+<Ability id="traithoneyedtongue-honeyed-tongue-fn2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traithoneyedtongue-honeyed-tongue-fn2"><Link to="/trait/honeyed_tongue">⮞</Link> Honeyed Tongue <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2" id="main-traits_tian_xia-fake-fn-2" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Amanandar</Pair>
+<Pair single="benefit" id="traithoneyedtongue-honeyed-tongue-fn2-benefit">Having matured in the melting pot of New Oppara, you know the customs of the Tian-Shus as well as those of the Taldans, and you utilize this knowledge to create peace between rival groups. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitmilitia-militia-fn2-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitmilitia-militia-fn2-2"><Link to="/trait/militia">⮞</Link> Militia <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.2" id="main-traits_tian_xia-fake-fn-2.2" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Amanandar</Pair>
+<Pair single="benefit" id="traitmilitia-militia-fn2-2-benefit">As part of Amanandar's militia, you have trained extensively with groups. You gain a +1 trait bonus on attacks made while flanking an opponent.</Pair>
+</Ability>
+<Ability id="traitdtangmabloodline-dtang-ma-bloodline-fn2-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitdtangmabloodline-dtang-ma-bloodline-fn2-3"><Link to="/trait/dtang_ma_bloodline">⮞</Link> Dtang Ma Bloodline <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.3" id="main-traits_tian_xia-fake-fn-2.3" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Dtang Ma</Pair>
+<Pair single="benefit" id="traitdtangmabloodline-dtang-ma-bloodline-fn2-3-benefit">As you were born in Dtang Ma and possess one of the favored bloodlines, your sorcerous powers are particularly potent. Select one of the following sorcerer bloodlines: fey, maestro, starsoul, or stormborn. Once per day, you may use one of your bloodline powers as if your sorcerer level were 1 higher than normal. This trait does not give you access to bloodline powers whose level requirements you do not yet meet.</Pair>
+</Ability>
+<Ability id="traitguerilla-guerilla-fn2-4" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitguerilla-guerilla-fn2-4"><Link to="/trait/guerilla">⮞</Link> Guerilla <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.4" id="main-traits_tian_xia-fake-fn-2.4" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Dtang Ma</Pair>
+<Pair single="benefit" id="traitguerilla-guerilla-fn2-4-benefit">You have spent much time in the rainforests of Dtang Ma, and know its secrets. You gain a +1 trait bonus on Knowledge (nature) checks as well as Survival checks made in the rainforest. One of these skills becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitkamitalker-kami-talker-fn2-5" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitkamitalker-kami-talker-fn2-5"><Link to="/trait/kami_talker">⮞</Link> Kami Talker <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.5" id="main-traits_tian_xia-fake-fn-2.5" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Forest of Spirits</Pair>
+<Pair single="benefit" id="traitkamitalker-kami-talker-fn2-5-benefit">You have traversed the Forest of Spirits numerous times, and have learned how best to communicate with its otherworldly inhabitants. You gain a +2 trait bonus on Diplomacy and Intimidate checks made against outsiders that have the native subtype.</Pair>
+</Ability>
+<Ability id="traitspiritualforester-spiritual-forester-fn2-6" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitspiritualforester-spiritual-forester-fn2-6"><Link to="/trait/spiritual_forester">⮞</Link> Spiritual Forester <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.6" id="main-traits_tian_xia-fake-fn-2.6" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Forest of Spirits</Pair>
+<Pair single="benefit" id="traitspiritualforester-spiritual-forester-fn2-6-benefit">You grew up in a small settlement along the outskirts of the Forest of Spirits, and have learned much about the woods as well as about their supernatural inhabitants. You gain a +1 trait bonus on Knowledge (nature) and Knowledge (planes) checks, and one of these skills becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traithongalbloodrider-hongal-bloodrider-fn2-7" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traithongalbloodrider-hongal-bloodrider-fn2-7"><Link to="/trait/hongal_bloodrider">⮞</Link> Hongal Bloodrider <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.7" id="main-traits_tian_xia-fake-fn-2.7" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Hongal</Pair>
+<Pair single="benefit" id="traithongalbloodrider-hongal-bloodrider-fn2-7-benefit">You belong to one of the nomadic groups of horseback riders that range throughout Hongal. You gain a +1 trait bonus on Handle Animal and Ride checks.</Pair>
+</Ability>
+<Ability id="traitstormhunter-storm-hunter-fn2-8" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitstormhunter-storm-hunter-fn2-8"><Link to="/trait/storm_hunter">⮞</Link> Storm Hunter <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.8" id="main-traits_tian_xia-fake-fn-2.8" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Hongal</Pair>
+<Pair single="benefit" id="traitstormhunter-storm-hunter-fn2-8-benefit">You learned to hunt in the relentless winds of Hongal, and still make your arrows fly true. When fighting in windy weather, you treat the wind category as one level lower for the purposes of determining penalties on ranged attacks made with normal weapons.</Pair>
+</Ability>
+<Ability id="traitaltruisticdiplomat-altruistic-diplomat-fn2-9" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitaltruisticdiplomat-altruistic-diplomat-fn2-9"><Link to="/trait/altruistic_diplomat">⮞</Link> Altruistic Diplomat <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.9" id="main-traits_tian_xia-fake-fn-2.9" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Hwanggot</Pair>
+<Pair single="benefit" id="traitaltruisticdiplomat-altruistic-diplomat-fn2-9-benefit">Your upbringing in Hwanggot has influenced you to be both peaceful and wise, and your arguments are consistently sound. You gain a +2 trait bonus on Diplomacy checks.</Pair>
+</Ability>
+<Ability id="traithwanartist-hwan-artist-fn2-10" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traithwanartist-hwan-artist-fn2-10"><Link to="/trait/hwan_artist">⮞</Link> Hwan Artist <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.10" id="main-traits_tian_xia-fake-fn-2.10" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Hwanggot</Pair>
+<Pair single="benefit" id="traithwanartist-hwan-artist-fn2-10-benefit">You grew up in Hwanggot, and your artistic talents were cherished and honed from an early age. You have been nurtured on the artistic spirit of Hwanggot. Choose one Perform skill. You gain a +1 trait bonus on checks with that skill, and it becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitconscientiousminer-conscientious-miner-fn2-11" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitconscientiousminer-conscientious-miner-fn2-11"><Link to="/trait/conscientious_miner">⮞</Link> Conscientious Miner <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.11" id="main-traits_tian_xia-fake-fn-2.11" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Jinin</Pair>
+<Pair single="benefit" id="traitconscientiousminer-conscientious-miner-fn2-11-benefit">You were one of the mithral miners of Jinin, and learned how to extract the delicate ore as well as determine its value. You gain a +1 trait bonus on Appraise checks, and a +1 trait bonus on Profession (miner) checks. In addition, Profession (miner) becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitintrepiddelver-intrepid-delver-fn2-12" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitintrepiddelver-intrepid-delver-fn2-12"><Link to="/trait/intrepid_delver">⮞</Link> Intrepid Delver <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.12" id="main-traits_tian_xia-fake-fn-2.12" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Jinin</Pair>
+<Pair single="benefit" id="traitintrepiddelver-intrepid-delver-fn2-12-benefit">One of the elder elves in Ayajinbo told you many stories of the Darklands beneath the city, and your nerves have hardened to horrors others can hardly fathom. You gain a +2 trait bonus on saving throws against fear effects.</Pair>
+</Ability>
+<Ability id="traitborderguard-border-guard-fn2-13" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitborderguard-border-guard-fn2-13"><Link to="/trait/border_guard">⮞</Link> Border Guard <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.13" id="main-traits_tian_xia-fake-fn-2.13" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Kwanlai</Pair>
+<Pair single="benefit" id="traitborderguard-border-guard-fn2-13-benefit">You are one of the warriors on the front lines between Kwanlai and Wanshou, and excel at combat against water-dwelling foes. You gain a +2 trait bonus on rolls to confirm critical hits against foes with the aquatic subtype.</Pair>
+</Ability>
+<Ability id="traitkwanlaibeliever-kwanlai-believer-fn2-14" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitkwanlaibeliever-kwanlai-believer-fn2-14"><Link to="/trait/kwanlai_believer">⮞</Link> Kwanlai Believer <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.14" id="main-traits_tian_xia-fake-fn-2.14" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Kwanlai</Pair>
+<Pair single="benefit" id="traitkwanlaibeliever-kwanlai-believer-fn2-14-benefit">You were raised in Kwanlai in one of the devout tengu churches, and your dedication to your cause makes your divine abilities particularly potent. You gain a +2 trait bonus on <Link to="/rule/concentration">concentration</Link> checks made while casting divine spells.</Pair>
+</Ability>
+<Ability id="traitbelempirate-belem-pirate-fn2-15" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitbelempirate-belem-pirate-fn2-15"><Link to="/trait/belem_pirate">⮞</Link> Belem Pirate <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.15" id="main-traits_tian_xia-fake-fn-2.15" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Minata</Pair>
+<Pair single="benefit" id="traitbelempirate-belem-pirate-fn2-15-benefit">The hidden coves and bays of the island of Belem have been your home throughout most of your career as a pirate, and the winding waterways of Minata have trained you well in the art of sailing. You gain a +1 trait bonus on Knowledge (geography) checks and Profession (sailor) checks, and one of these skills becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitwayangspellhunter-wayang-spellhunter-fn2-16" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitwayangspellhunter-wayang-spellhunter-fn2-16"><Link to="/trait/wayang_spellhunter">⮞</Link> Wayang Spellhunter <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.16" id="main-traits_tian_xia-fake-fn-2.16" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Minata</Pair>
+<Pair single="benefit" id="traitwayangspellhunter-wayang-spellhunter-fn2-16-benefit">You grew up on one of the wayang-populated islands of Minata, and your use of magic while hunting has been a boon to you. Select a spell of 3rd level or below. When you use this spell with a metamagic feat, it uses up a spell slot one level lower than it normally would.</Pair>
+</Ability>
+<Ability id="traitinstigatorofrebellion-instigator-of-rebellion-fn2-17" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitinstigatorofrebellion-instigator-of-rebellion-fn2-17"><Link to="/trait/instigator_of_rebellion">⮞</Link> Instigator of Rebellion <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.17" id="main-traits_tian_xia-fake-fn-2.17" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Minkai</Pair>
+<Pair single="benefit" id="traitinstigatorofrebellion-instigator-of-rebellion-fn2-17-benefit">Your rage over the political repositioning within Minkai has led you to incite rage within your compatriots. You have become adept at organizing rallies in opposition to the government. You gain a +1 trait bonus on Diplomacy and Intimidate checks.</Pair>
+</Ability>
+<Ability id="traitminkaiadvocate-minkai-advocate-fn2-18" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitminkaiadvocate-minkai-advocate-fn2-18"><Link to="/trait/minkai_advocate">⮞</Link> Minkai Advocate <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.18" id="main-traits_tian_xia-fake-fn-2.18" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Minkai</Pair>
+<Pair single="benefit" id="traitminkaiadvocate-minkai-advocate-fn2-18-benefit">You possess strong ties to Minkai, and spread flattering words regarding your empire. You gain a +1 trait bonus on Bluff checks, and Bluff becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitjungleresilience-jungle-resilience-fn2-19" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitjungleresilience-jungle-resilience-fn2-19"><Link to="/trait/jungle_resilience">⮞</Link> Jungle Resilience <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.19" id="main-traits_tian_xia-fake-fn-2.19" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Nagajor</Pair>
+<Pair single="benefit" id="traitjungleresilience-jungle-resilience-fn2-19-benefit">Having grown up in Nagajor, you are used to the myriad poisons of its people, and have developed a strong immune system. You gain a +2 trait bonus on Fortitude saves against poison effects.</Pair>
+</Ability>
+<Ability id="traitsnakebleeder-snake-bleeder-fn2-20" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitsnakebleeder-snake-bleeder-fn2-20"><Link to="/trait/snake_bleeder">⮞</Link> Snake Bleeder <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.20" id="main-traits_tian_xia-fake-fn-2.20" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Nagajor</Pair>
+<Pair single="benefit" id="traitsnakebleeder-snake-bleeder-fn2-20-benefit">You were a nagaji vassal of knowledgeable nagas, and they taught you much regarding how they concoct their various poisons. You gain a +2 trait bonus on Craft (alchemy) checks when brewing poisons, and Craft (alchemy) becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitmutabiqiexplorer-mutabi-qi-explorer-fn2-21" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitmutabiqiexplorer-mutabi-qi-explorer-fn2-21"><Link to="/trait/mutabi_qi_explorer">⮞</Link> Mutabi-qi Explorer <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.21" id="main-traits_tian_xia-fake-fn-2.21" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Shanguang</Pair>
+<Pair single="benefit" id="traitmutabiqiexplorer-mutabi-qi-explorer-fn2-21-benefit">You belong to one of the nomadic Mutabi-qi tribes that wander the wastes of Shaguang, and you are adept at navigating the seemingly endless desert wastes. You gain a +1 trait bonus on Knowledge (geography) checks and Survival checks made in the desert.</Pair>
+</Ability>
+<Ability id="traitheavenlytouch-heavenly-touch-fn2-22" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitheavenlytouch-heavenly-touch-fn2-22"><Link to="/trait/heavenly_touch">⮞</Link> Heavenly Touch <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.22" id="main-traits_tian_xia-fake-fn-2.22" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Tianjing</Pair>
+<Pair single="benefit" id="traitheavenlytouch-heavenly-touch-fn2-22-benefit">Growing up, you were exposed to everyday miracles performed by your half-celestial friends, and some of this magic rubbed off. At will, you can touch a dying creature to stabilize it as a standard action.</Pair>
+</Ability>
+<Ability id="traittianjingtempleguard-tianjing-temple-guard-fn2-23" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traittianjingtempleguard-tianjing-temple-guard-fn2-23"><Link to="/trait/tianjing_temple_guard">⮞</Link> Tianjing Temple Guard <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.23" id="main-traits_tian_xia-fake-fn-2.23" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Tianjing</Pair>
+<Pair single="benefit" id="traittianjingtempleguard-tianjing-temple-guard-fn2-23-benefit">You were a stalwart guard of one of Tianjing's magnificent temple cities, and your resolve proved to be of great use during bandit raids. You gain a +1 trait bonus on attacks of opportunity made with polearm weapons.</Pair>
+</Ability>
+<Ability id="traitjunglediplomat-jungle-diplomat-fn2-24" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitjunglediplomat-jungle-diplomat-fn2-24"><Link to="/trait/jungle_diplomat">⮞</Link> Jungle Diplomat <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.24" id="main-traits_tian_xia-fake-fn-2.24" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Valashmai Jungle</Pair>
+<Pair single="benefit" id="traitjunglediplomat-jungle-diplomat-fn2-24-benefit">You know the ways and mores of the tribes of the Valashmai Jungle, and how to handle delicate communications with different groups of people. You gain a +1 trait bonus on Diplomacy and Sense Motive checks.</Pair>
+</Ability>
+<Ability id="traitvalashmaiveteran-valashmai-veteran-fn2-25" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitvalashmaiveteran-valashmai-veteran-fn2-25"><Link to="/trait/valashmai_veteran">⮞</Link> Valashmai Veteran <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.25" id="main-traits_tian_xia-fake-fn-2.25" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Valashmai Jungle</Pair>
+<Pair single="benefit" id="traitvalashmaiveteran-valashmai-veteran-fn2-25-benefit">You have traveled to the Valashmai Jungle on numerous occasions, and your prowess in traversing the jungle wilderness makes you a formidable guide and explorer. You gain a +1 trait bonus on Perception checks, and a +1 trait bonus on Survival checks in jungle terrain. One of these skills becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitmasterofpeaks-master-of-peaks-fn2-26" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitmasterofpeaks-master-of-peaks-fn2-26"><Link to="/trait/master_of_peaks">⮞</Link> Master of Peaks <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.26" id="main-traits_tian_xia-fake-fn-2.26" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Wall of Heaven</Pair>
+<Pair single="benefit" id="traitmasterofpeaks-master-of-peaks-fn2-26-benefit">You have made it to the summits of a number of the Wall of Heaven's peaks, and your body is used to the effects of both extreme cold and high altitude. You gain a +2 trait bonus on Fortitude saving throws made against the effects of <Link to="/rule/cold_dangers">cold dangers</Link> and <Link to="/rule/altitude_sickness">altitude sickness</Link>.</Pair>
+</Ability>
+<Ability id="traitseasonedclimber-seasoned-climber-fn2-27" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitseasonedclimber-seasoned-climber-fn2-27"><Link to="/trait/seasoned_climber">⮞</Link> Seasoned Climber <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.27" id="main-traits_tian_xia-fake-fn-2.27" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Wall of Heaven</Pair>
+<Pair single="benefit" id="traitseasonedclimber-seasoned-climber-fn2-27-benefit">Your time on the slopes of the Wall of Heaven has improved your ability to surmount great peaks. You gain a +1 trait bonus on Climb checks, and Climb becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitpearldiverxidao-pearl-diver-xidao-fn2-28" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitpearldiverxidao-pearl-diver-xidao-fn2-28"><Link to="/trait/pearl_diver_xidao">⮞</Link> Pearl Diver (Xidao) <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.28" id="main-traits_tian_xia-fake-fn-2.28" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Xidao</Pair>
+<Pair single="benefit" id="traitpearldiverxidao-pearl-diver-xidao-fn2-28-benefit">You were a pearl harvester for a nation bordering Xidao, and you know just what clues to look for when searching for a worthwhile haul in the briny shallows. You gain a +1 trait bonus on Appraise and Swim checks.</Pair>
+</Ability>
+<Ability id="traittrenchnavigator-trench-navigator-fn2-29" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traittrenchnavigator-trench-navigator-fn2-29"><Link to="/trait/trench_navigator">⮞</Link> Trench Navigator <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.29" id="main-traits_tian_xia-fake-fn-2.29" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Xidao</Pair>
+<Pair single="benefit" id="traittrenchnavigator-trench-navigator-fn2-29-benefit">You've sailed the treacherous waters of the Xidao Gulf in your past, and you can navigate their dangers adroitly. You gain a +1 trait bonus on Knowledge (geography) checks, and a +1 trait bonus on Profession (sailor) checks. One of these skills becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitdiscerningbeliefs-discerning-beliefs-fn2-30" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitdiscerningbeliefs-discerning-beliefs-fn2-30"><Link to="/trait/discerning_beliefs">⮞</Link> Discerning Beliefs <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.30" id="main-traits_tian_xia-fake-fn-2.30" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Zi Ha</Pair>
+<Pair single="benefit" id="traitdiscerningbeliefs-discerning-beliefs-fn2-30-benefit">You helped the samsarans maintain the magical boundaries around valleys in the Enlightened Peaks, and learned the secrets of avoiding such illusions yourself. You gain a +2 trait bonus on saving throws to disbelieve illusions.</Pair>
+</Ability>
+<Ability id="traitsoundofmind-sound-of-mind-fn2-31" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitsoundofmind-sound-of-mind-fn2-31"><Link to="/trait/sound_of_mind">⮞</Link> Sound of Mind <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.31" id="main-traits_tian_xia-fake-fn-2.31" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Zi Ha</Pair>
+<Pair single="benefit" id="traitsoundofmind-sound-of-mind-fn2-31-benefit">You have lived in the mountains of Zi Ha and found utter tranquility among the samsarans of the region. You gain a +2 trait bonus on saving throws against mind-affecting effects.</Pair>
+</Ability>
+<section data-footnotes><h3 id="main-traits_tian_xia-label">Footnotes</h3><ol>
+<li id="main-traits_tian_xia-fake-fn-1-target"><p><Link to="/source/healers_handbook">Healer's Handbook</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_tian_xia-fake-fn-1" data-hash-target to="main-traits_tian_xia-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_tian_xia-fake-fn-1.2" data-hash-target to="main-traits_tian_xia-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_tian_xia-fake-fn-1.3" data-hash-target to="main-traits_tian_xia-fake-fn-1.3">↩<sup>3</sup></InnerLink></p></li>
+<li id="main-traits_tian_xia-fake-fn-2-target"><p><Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2" data-hash-target to="main-traits_tian_xia-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.2" data-hash-target to="main-traits_tian_xia-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.3" data-hash-target to="main-traits_tian_xia-fake-fn-2.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.4" data-hash-target to="main-traits_tian_xia-fake-fn-2.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.5" data-hash-target to="main-traits_tian_xia-fake-fn-2.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.6" data-hash-target to="main-traits_tian_xia-fake-fn-2.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.7" data-hash-target to="main-traits_tian_xia-fake-fn-2.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.8" data-hash-target to="main-traits_tian_xia-fake-fn-2.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.9" data-hash-target to="main-traits_tian_xia-fake-fn-2.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.10" data-hash-target to="main-traits_tian_xia-fake-fn-2.10">↩<sup>10</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.11" data-hash-target to="main-traits_tian_xia-fake-fn-2.11">↩<sup>11</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.12" data-hash-target to="main-traits_tian_xia-fake-fn-2.12">↩<sup>12</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.13" data-hash-target to="main-traits_tian_xia-fake-fn-2.13">↩<sup>13</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.14" data-hash-target to="main-traits_tian_xia-fake-fn-2.14">↩<sup>14</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.15" data-hash-target to="main-traits_tian_xia-fake-fn-2.15">↩<sup>15</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.16" data-hash-target to="main-traits_tian_xia-fake-fn-2.16">↩<sup>16</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.17" data-hash-target to="main-traits_tian_xia-fake-fn-2.17">↩<sup>17</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.18" data-hash-target to="main-traits_tian_xia-fake-fn-2.18">↩<sup>18</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.19" data-hash-target to="main-traits_tian_xia-fake-fn-2.19">↩<sup>19</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.20" data-hash-target to="main-traits_tian_xia-fake-fn-2.20">↩<sup>20</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.21" data-hash-target to="main-traits_tian_xia-fake-fn-2.21">↩<sup>21</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.22" data-hash-target to="main-traits_tian_xia-fake-fn-2.22">↩<sup>22</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.23" data-hash-target to="main-traits_tian_xia-fake-fn-2.23">↩<sup>23</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.24" data-hash-target to="main-traits_tian_xia-fake-fn-2.24">↩<sup>24</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.25" data-hash-target to="main-traits_tian_xia-fake-fn-2.25">↩<sup>25</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.26" data-hash-target to="main-traits_tian_xia-fake-fn-2.26">↩<sup>26</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.27" data-hash-target to="main-traits_tian_xia-fake-fn-2.27">↩<sup>27</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.28" data-hash-target to="main-traits_tian_xia-fake-fn-2.28">↩<sup>28</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.29" data-hash-target to="main-traits_tian_xia-fake-fn-2.29">↩<sup>29</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.30" data-hash-target to="main-traits_tian_xia-fake-fn-2.30">↩<sup>30</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_tian_xia-fake-fn-2.31" data-hash-target to="main-traits_tian_xia-fake-fn-2.31">↩<sup>31</sup></InnerLink></p></li>
+</ol></section></IonList>};
+const _traits_lung_wa = {title: "Regional Traits: Former Lung Wa Empire", jsx: <IonList lines="full"><MainLink to="/main/traits_regional" className="reversed" info="Back to Regional Traits" /><Ability id="traitexhibitionfighter-exhibition-fighter-fn1" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitexhibitionfighter-exhibition-fighter-fn1"><Link to="/trait/exhibition_fighter">⮞</Link> Exhibition Fighter <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-1" id="main-traits_lung_wa-fake-fn-1" data-hash-target to="main-traits_lung_wa-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Lung Wa</Pair>
+<Pair single="benefit" id="traitexhibitionfighter-exhibition-fighter-fn1-benefit">You fight at your best in martial arts tournaments, such as those once popular in Lung Wa and still common in Quain. While others may attempt to cheat or chafe against the constraints placed upon them, you thrive under such limitations. You gain a +1 bonus on attack and damage rolls when fighting as part of a tournament or other structured setting with rules and restrictions, so long as you do not break these rules.</Pair>
+</Ability>
+<Ability id="traitgodlessresolve-godless-resolve-fn2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitgodlessresolve-godless-resolve-fn2"><Link to="/trait/godless_resolve">⮞</Link> Godless Resolve <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-2" id="main-traits_lung_wa-fake-fn-2" data-hash-target to="main-traits_lung_wa-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Bachuan, Rahadoum or Touvette</Pair>
+<Pair single="benefit" id="traitgodlessresolve-godless-resolve-fn2-benefit">Some brilliant and earnest speech or other performance inspired you to take charge of your own health rather than begging indifferent or outlawed deities for deliverance. Heal is a class skill for you, and you gain a +2 trait bonus on Heal checks to stabilize dying creatures and stop bleeding.</Pair>
+</Ability>
+<Ability id="traitszaezancragsminer-szaezan-crags-miner-fn3" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitszaezancragsminer-szaezan-crags-miner-fn3"><Link to="/trait/szaezan_crags_miner">⮞</Link> Szaezan Crags Miner <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3" id="main-traits_lung_wa-fake-fn-3" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Bachuan</Pair>
+<Pair single="benefit" id="traitszaezancragsminer-szaezan-crags-miner-fn3-benefit">You were a miner of the now-scarce ores of the Szaezan Crags, and have become adept at identifying minerals and gems. You gain a +1 trait bonus on Appraise checks, and Appraise becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traittigerbrigadier-tiger-brigadier-fn3-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traittigerbrigadier-tiger-brigadier-fn3-2"><Link to="/trait/tiger_brigadier">⮞</Link> Tiger Brigadier <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.2" id="main-traits_lung_wa-fake-fn-3.2" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Bachuan</Pair>
+<Pair single="benefit" id="traittigerbrigadier-tiger-brigadier-fn3-2-benefit">As a member of the Tiger Brigade, you are ready to guide the people of Bachuan and other nations. You gain a +2 trait bonus on Intimidate checks made against anyone whose age is one or more aging steps above yours, and Intimidate becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitacupuncturist-acupuncturist-fn3-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitacupuncturist-acupuncturist-fn3-3"><Link to="/trait/acupuncturist">⮞</Link> Acupuncturist <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.3" id="main-traits_lung_wa-fake-fn-3.3" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Chu Ye</Pair>
+<Pair single="benefit" id="traitacupuncturist-acupuncturist-fn3-3-benefit">You have studied the ancient art of acupuncture, and use it to pursue enlightenment and healing. You gain a +2 trait bonus on all Fortitude saves made against poison effects.</Pair>
+</Ability>
+<Ability id="traitmizukihikarirebel-mizu-ki-hikari-rebel-fn3-4" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitmizukihikarirebel-mizu-ki-hikari-rebel-fn3-4"><Link to="/trait/mizu_ki_hikari_rebel">⮞</Link> Mizu Ki Hikari Rebel <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.4" id="main-traits_lung_wa-fake-fn-3.4" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Chu Ye</Pair>
+<Pair single="benefit" id="traitmizukihikarirebel-mizu-ki-hikari-rebel-fn3-4-benefit">You have trained in martial arts under the banner of Mizu Ki Hikari rebels. You gain a +1 trait bonus on damage rolls made with unarmed attacks.</Pair>
+</Ability>
+<Ability id="traitcosmopolitan-cosmopolitan-fn3-5-fn4" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitcosmopolitan-cosmopolitan-fn3-5-fn4"><Link to="/trait/cosmopolitan">⮞</Link> Cosmopolitan <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.5" id="main-traits_lung_wa-fake-fn-3.5" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-4" id="main-traits_lung_wa-fake-fn-4" data-hash-target to="main-traits_lung_wa-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Goka</Pair>
+<Pair single="benefit" id="traitcosmopolitan-cosmopolitan-fn3-5-fn4-benefit">Your exposure to the many peoples intersecting in Goka and the tongues spoken there has given you a particular facility for speech. You gain a +1 trait bonus on Linguistics checks, and Linguistics becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitundermarketsmuggler-undermarket-smuggler-fn3-6" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitundermarketsmuggler-undermarket-smuggler-fn3-6"><Link to="/trait/undermarket_smuggler">⮞</Link> Undermarket Smuggler <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.6" id="main-traits_lung_wa-fake-fn-3.6" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Goka</Pair>
+<Pair single="benefit" id="traitundermarketsmuggler-undermarket-smuggler-fn3-6-benefit">You worked in Goka's Undermarket for a time, and have learned how to dodge the city's tax collectors and the port inspectors. You gain a +1 trait bonus on Bluff and Sleight of Hand checks.</Pair>
+</Ability>
+<Ability id="traitindenturedblacksmith-indentured-blacksmith-fn3-7" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitindenturedblacksmith-indentured-blacksmith-fn3-7"><Link to="/trait/indentured_blacksmith">⮞</Link> Indentured Blacksmith <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.7" id="main-traits_lung_wa-fake-fn-3.7" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Kaoling</Pair>
+<Pair single="benefit" id="traitindenturedblacksmith-indentured-blacksmith-fn3-7-benefit">As a former slave of the hobgoblins, you were forced to make many of the weapons and shields that your captors used in war. Choose either Craft (armor) or Craft (weapons). You gain a +1 trait bonus on the chosen skill, and it becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitprivilegedslave-privileged-slave-fn3-8" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitprivilegedslave-privileged-slave-fn3-8"><Link to="/trait/privileged_slave">⮞</Link> Privileged Slave <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.8" id="main-traits_lung_wa-fake-fn-3.8" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Kaoling</Pair>
+<Pair single="benefit" id="traitprivilegedslave-privileged-slave-fn3-8-benefit">You were enslaved by the hobgoblins of Kaoling, and obeyed your masters dutifully, turning your back on comrades in order to find favor with your slavers-all the while plotting your escape. You gain a +1 trait bonus on Bluff checks, and Bluff becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitheartofclay-heart-of-clay-fn3-9" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitheartofclay-heart-of-clay-fn3-9"><Link to="/trait/heart_of_clay">⮞</Link> Heart of Clay <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.9" id="main-traits_lung_wa-fake-fn-3.9" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Lingshen</Pair>
+<Pair single="benefit" id="traitheartofclay-heart-of-clay-fn3-9-benefit">You believe you are destined for an afterlife of service as part of King Huang's terra-cotta army, so you do not fear death as others do. You gain a +1 trait bonus on Fortitude saves.</Pair>
+</Ability>
+<Ability id="traitlingshensfinest-lingshens-finest-fn3-10" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitlingshensfinest-lingshens-finest-fn3-10"><Link to="/trait/lingshens_finest">⮞</Link> Lingshen's Finest <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.10" id="main-traits_lung_wa-fake-fn-3.10" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Lingshen</Pair>
+<Pair single="benefit" id="traitlingshensfinest-lingshens-finest-fn3-10-benefit">You are an elite soldier in one of Lingshen's numerous armies, and your discipline has made you a truly deadly foe. You gain a +1 trait bonus on all rolls to confirm critical hits.</Pair>
+</Ability>
+<Ability id="traitskyspiritworshipper-sky-spirit-worshipper-fn3-11" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitskyspiritworshipper-sky-spirit-worshipper-fn3-11"><Link to="/trait/sky_spirit_worshipper">⮞</Link> Sky Spirit Worshipper <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.11" id="main-traits_lung_wa-fake-fn-3.11" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Mutabi-qi</Pair>
+<Pair single="benefit" id="traitskyspiritworshipper-sky-spirit-worshipper-fn3-11-benefit">As the child of a Mutabi-qi shaman, you have seen the sky spirits that roam above and know that the world is rife with unexplainable and terrifying mysteries. You gain a +2 trait bonus on saves against fear effects.</Pair>
+</Ability>
+<Ability id="traitchosenchild-chosen-child-fn3-12" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitchosenchild-chosen-child-fn3-12"><Link to="/trait/chosen_child">⮞</Link> Chosen Child <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.12" id="main-traits_lung_wa-fake-fn-3.12" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Po Li</Pair>
+<Pair single="benefit" id="traitchosenchild-chosen-child-fn3-12-benefit">The oracles of Po Li smiled upon you when your parents claimed you were of divine right, and you were raised with privileges few Po Lians can fathom. Your starting money increases by 900 gp.</Pair>
+</Ability>
+<Ability id="traitpassionatebeliever-passionate-believer-fn3-13" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitpassionatebeliever-passionate-believer-fn3-13"><Link to="/trait/passionate_believer">⮞</Link> Passionate Believer <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.13" id="main-traits_lung_wa-fake-fn-3.13" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Po Li</Pair>
+<Pair single="benefit" id="traitpassionatebeliever-passionate-believer-fn3-13-benefit">Your faith was stifled while you lived in the religiously oppressive slums of Changdo, and the persecutions against you only spurred your own beliefs and made your convictions stronger. You gain a +1 trait bonus on saving throws against divine spells.</Pair>
+</Ability>
+<Ability id="traitquainmartialartist-quain-martial-artist-fn3-14" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitquainmartialartist-quain-martial-artist-fn3-14"><Link to="/trait/quain_martial_artist">⮞</Link> Quain Martial Artist <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.14" id="main-traits_lung_wa-fake-fn-3.14" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Quain</Pair>
+<Pair single="benefit" id="traitquainmartialartist-quain-martial-artist-fn3-14-benefit">Having grown up in Quain, you were taught under various schools of martial arts, and have used all you have learned to hone your fighting prowess. You gain a +1 trait bonus on damage rolls when using unarmed strikes.</Pair>
+</Ability>
+<Ability id="traitsilvertonguedeunuch-silvertongued-eunuch-fn3-15" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitsilvertonguedeunuch-silvertongued-eunuch-fn3-15"><Link to="/trait/silvertongued_eunuch">⮞</Link> Silvertongued Eunuch <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.15" id="main-traits_lung_wa-fake-fn-3.15" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Quain</Pair>
+<Pair single="benefit" id="traitsilvertonguedeunuch-silvertongued-eunuch-fn3-15-benefit">You were brought up as part of Quain's strictly eunuch bureaucracy, trading your sexual potency for education and tact. You gain a +1 trait bonus on Knowledge (nobility) and Diplomacy checks.</Pair>
+</Ability>
+<Ability id="traitaberrationhunter-aberration-hunter-fn3-16" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitaberrationhunter-aberration-hunter-fn3-16"><Link to="/trait/aberration_hunter">⮞</Link> Aberration Hunter <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.16" id="main-traits_lung_wa-fake-fn-3.16" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Shenmen</Pair>
+<Pair single="benefit" id="traitaberrationhunter-aberration-hunter-fn3-16-benefit">You refuse to give in to the monsters that feast on your people, and hunt them instead. You gain a +1 trait bonus on attacks of opportunity against aberrations.</Pair>
+</Ability>
+<Ability id="traitshenmenprospector-shenmen-prospector-fn3-17" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitshenmenprospector-shenmen-prospector-fn3-17"><Link to="/trait/shenmen_prospector">⮞</Link> Shenmen Prospector <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.17" id="main-traits_lung_wa-fake-fn-3.17" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Shenmen</Pair>
+<Pair single="benefit" id="traitshenmenprospector-shenmen-prospector-fn3-17-benefit">You were a talented laborer in the silver mines of Shenmen, and have seen many wonders in the haunted caverns beneath the surface of the cursed nation. You gain a +1 trait bonus on Appraise and Knowledge (dungeoneering) checks.</Pair>
+</Ability>
+<Ability id="traitfreedomfightershokuro-freedom-fighter-shokuro-fn3-18" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitfreedomfightershokuro-freedom-fighter-shokuro-fn3-18"><Link to="/trait/freedom_fighter_shokuro">⮞</Link> Freedom Fighter (Shokuro) <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.18" id="main-traits_lung_wa-fake-fn-3.18" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Shokuro</Pair>
+<Pair single="benefit" id="traitfreedomfightershokuro-freedom-fighter-shokuro-fn3-18-benefit">You come from a family of farmers, but are determined to fight for your rights. You gain a +1 trait bonus on attacks made with improvised weapons. If you do not possess the <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> or <Link to="/feat/throw_anything">Throw Anything</Link> feats, you still take penalties on these attack rolls as normal.</Pair>
+</Ability>
+<Ability id="traitrebelleader-rebel-leader-fn3-19" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitrebelleader-rebel-leader-fn3-19"><Link to="/trait/rebel_leader">⮞</Link> Rebel Leader <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.19" id="main-traits_lung_wa-fake-fn-3.19" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Shokuro</Pair>
+<Pair single="benefit" id="traitrebelleader-rebel-leader-fn3-19-benefit">A close relative was an important player in the rebellions that led to the independence of Shokuro, and passed on her passion to you. If you take the <Link to="/feat/leadership">Leadership</Link> feat, you receive a +1 trait bonus to your Leadership score.</Pair>
+</Ability>
+<Ability id="traitricerunner-rice-runner-fn3-20" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitricerunner-rice-runner-fn3-20"><Link to="/trait/rice_runner">⮞</Link> Rice Runner <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.20" id="main-traits_lung_wa-fake-fn-3.20" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Wanshou</Pair>
+<Pair single="benefit" id="traitricerunner-rice-runner-fn3-20-benefit">You grew up as a slave in Wanshou, harvesting rice for your kraken despot, and you know how to move agilely across sodden and unsteady ground. You gain a +1 trait bonus on Acrobatics checks, and Acrobatics becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitswamprebel-swamp-rebel-fn3-21" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitswamprebel-swamp-rebel-fn3-21"><Link to="/trait/swamp_rebel">⮞</Link> Swamp Rebel <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.21" id="main-traits_lung_wa-fake-fn-3.21" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Wanshou</Pair>
+<Pair single="benefit" id="traitswamprebel-swamp-rebel-fn3-21-benefit">You grew up hiding in the swamps from the monstrous overlords who enslaved you and your people. You gain a +2 trait bonus on Stealth checks in swampy terrain, and Stealth becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitclanartisan-clan-artisan-fn3-22" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitclanartisan-clan-artisan-fn3-22"><Link to="/trait/clan_artisan">⮞</Link> Clan Artisan <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.22" id="main-traits_lung_wa-fake-fn-3.22" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Xa Hoi</Pair>
+<Pair single="benefit" id="traitclanartisan-clan-artisan-fn3-22-benefit">You were raised in one of the numerous clans of Xa Hoi, and learned a valuable trade in your early years. Pick one Craft skill. You gain a +2 trait bonus on checks with that skill, and it becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitxahoisoldier-xa-hoi-soldier-fn3-23" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitxahoisoldier-xa-hoi-soldier-fn3-23"><Link to="/trait/xa_hoi_soldier">⮞</Link> Xa Hoi Soldier <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.23" id="main-traits_lung_wa-fake-fn-3.23" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Xa Hoi</Pair>
+<Pair single="benefit" id="traitxahoisoldier-xa-hoi-soldier-fn3-23-benefit">You were a soldier in one of Xa Hoi's extensive armies, trained under the oversight of one of Pham Duc Quan's draconic brethren. You gain a +1 trait bonus on Reflex saves.</Pair>
+</Ability>
+<section data-footnotes><h3 id="main-traits_lung_wa-label">Footnotes</h3><ol>
+<li id="main-traits_lung_wa-fake-fn-1-target"><p><Link to="/source/blood_of_the_ancients">Blood of the Ancients</Link> pg. 23 <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_lung_wa-fake-fn-1" data-hash-target to="main-traits_lung_wa-fake-fn-1">↩</InnerLink></p></li>
+<li id="main-traits_lung_wa-fake-fn-2-target"><p><Link to="/source/healers_handbook">Healer's Handbook</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_lung_wa-fake-fn-2" data-hash-target to="main-traits_lung_wa-fake-fn-2">↩</InnerLink></p></li>
+<li id="main-traits_lung_wa-fake-fn-3-target"><p><Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3" data-hash-target to="main-traits_lung_wa-fake-fn-3">↩</InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.2" data-hash-target to="main-traits_lung_wa-fake-fn-3.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.3" data-hash-target to="main-traits_lung_wa-fake-fn-3.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.4" data-hash-target to="main-traits_lung_wa-fake-fn-3.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.5" data-hash-target to="main-traits_lung_wa-fake-fn-3.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.6" data-hash-target to="main-traits_lung_wa-fake-fn-3.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.7" data-hash-target to="main-traits_lung_wa-fake-fn-3.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.8" data-hash-target to="main-traits_lung_wa-fake-fn-3.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.9" data-hash-target to="main-traits_lung_wa-fake-fn-3.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.10" data-hash-target to="main-traits_lung_wa-fake-fn-3.10">↩<sup>10</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.11" data-hash-target to="main-traits_lung_wa-fake-fn-3.11">↩<sup>11</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.12" data-hash-target to="main-traits_lung_wa-fake-fn-3.12">↩<sup>12</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.13" data-hash-target to="main-traits_lung_wa-fake-fn-3.13">↩<sup>13</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.14" data-hash-target to="main-traits_lung_wa-fake-fn-3.14">↩<sup>14</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.15" data-hash-target to="main-traits_lung_wa-fake-fn-3.15">↩<sup>15</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.16" data-hash-target to="main-traits_lung_wa-fake-fn-3.16">↩<sup>16</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.17" data-hash-target to="main-traits_lung_wa-fake-fn-3.17">↩<sup>17</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.18" data-hash-target to="main-traits_lung_wa-fake-fn-3.18">↩<sup>18</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.19" data-hash-target to="main-traits_lung_wa-fake-fn-3.19">↩<sup>19</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.20" data-hash-target to="main-traits_lung_wa-fake-fn-3.20">↩<sup>20</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.21" data-hash-target to="main-traits_lung_wa-fake-fn-3.21">↩<sup>21</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.22" data-hash-target to="main-traits_lung_wa-fake-fn-3.22">↩<sup>22</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_lung_wa-fake-fn-3.23" data-hash-target to="main-traits_lung_wa-fake-fn-3.23">↩<sup>23</sup></InnerLink></p></li>
+<li id="main-traits_lung_wa-fake-fn-4-target"><p><Link to="/source/inner_sea_primer">Inner Sea Primer</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_lung_wa-fake-fn-4" data-hash-target to="main-traits_lung_wa-fake-fn-4">↩</InnerLink></p></li>
+</ol></section></IonList>};
+const _traits_race_aasimar = {title: "Aasimar Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_race" className="reversed" info="Back to Race Traits" /><Ability id="traitadrift-adrift-fn1" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitadrift-adrift-fn1"><Link to="/trait/adrift">⮞</Link> Adrift <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1" id="main-traits_race_aasimar-fake-fn-1" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
+<Pair single="benefit" id="traitadrift-adrift-fn1-benefit">You never felt like you belonged in your family. You were different, an outsider, and you grew up unable to bond with the people around you. Now, as an adult, you are still a little odd and others have a hard time understanding what makes you tick. You receive a +1 trait bonus on saving throws made to resist charm and compulsion effects.</Pair>
+</Ability>
+<Ability id="traitcelestialcommunity-celestial-community-fn2" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitcelestialcommunity-celestial-community-fn2"><Link to="/trait/celestial_community">⮞</Link> Celestial Community <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-2" id="main-traits_race_aasimar-fake-fn-2" data-hash-target to="main-traits_race_aasimar-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
+<Pair single="benefit" id="traitcelestialcommunity-celestial-community-fn2-benefit">Having been raised among other aasimars, you have a stronger connection to your planar heritage than most of your kind, and have more thoroughly explored your magical talent. You may expend your once per day spell-like ability to spontaneously cast cure light wounds (CL equal to your character level), but doing so is draining and you take an amount of nonlethal damage equal to half the number of hit points you heal.</Pair>
+</Ability>
+<Ability id="traitcelestialcontact-celestial-contact-fn3" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitcelestialcontact-celestial-contact-fn3"><Link to="/trait/celestial_contact">⮞</Link> Celestial Contact <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-3" id="main-traits_race_aasimar-fake-fn-3" data-hash-target to="main-traits_race_aasimar-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
+<Pair single="benefit" id="traitcelestialcontact-celestial-contact-fn3-benefit">Witnessing a celestial intervention by your ancestor or a similar being inspired you with the power of good. Treat your caster level as 1 higher when you cast spells with the good descriptor.</Pair>
+</Ability>
+<Ability id="traitclergymember-clergy-member-fn1-2" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitclergymember-clergy-member-fn1-2"><Link to="/trait/clergy_member">⮞</Link> Clergy Member <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.2" id="main-traits_race_aasimar-fake-fn-1.2" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
+<Pair single="benefit" id="traitclergymember-clergy-member-fn1-2-benefit">You belong to a particular faith, and your religious leaders see you as a mortal aspect of their deity. You are treated with respect and graciousness whenever you visit a temple of your faith. You receive a +1 trait bonus on Diplomacy checks when interacting with ordained members of your religion, and once per week you can request aid from a temple of your faith. The GM has final say in what sort of aid you can reasonably request, but in general you may ask for the casting of a 1st-level spell or for a nonmagical item worth 50 gp or less.</Pair>
+</Ability>
+<Ability id="traitethicalleader-ethical-leader-fn1-3" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitethicalleader-ethical-leader-fn1-3"><Link to="/trait/ethical_leader">⮞</Link> Ethical Leader <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.3" id="main-traits_race_aasimar-fake-fn-1.3" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
+<Pair single="benefit" id="traitethicalleader-ethical-leader-fn1-3-benefit">You attract followers who agree with your philosophical outlook on life. Your followers and cohorts are more willing to serve you because of their confidence in your strong moral position. You gain a +1 trait bonus to your Leadership score if all your cohorts and followers have an alignment within one step of your alignment.</Pair>
+</Ability>
+<Ability id="traitfaithhealer-faith-healer-fn1-4" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitfaithhealer-faith-healer-fn1-4"><Link to="/trait/faith_healer">⮞</Link> Faith Healer <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.4" id="main-traits_race_aasimar-fake-fn-1.4" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
+<Pair single="benefit" id="traitfaithhealer-faith-healer-fn1-4-benefit">You have an unearthly appearance and soothing aura about you that make people believe you are gifted with divine powers. You learned at a young age to make use of your gift in order to make money, and you've found ways to ethically justify your work. You can make a Heal check weekly to earn money as though making a Profession check. In addition, you gain a +1 trait bonus on Heal checks.</Pair>
+</Ability>
+<Ability id="traitidealizedcampaigner-idealized-campaigner-fn3-2" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitidealizedcampaigner-idealized-campaigner-fn3-2"><Link to="/trait/idealized_campaigner">⮞</Link> Idealized Campaigner <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-3.2" id="main-traits_race_aasimar-fake-fn-3.2" data-hash-target to="main-traits_race_aasimar-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
+<Pair single="benefit" id="traitidealizedcampaigner-idealized-campaigner-fn3-2-benefit">Your celestial bloodline leads others to idealize you from afar. You gain a +1 trait bonus on all Charisma-based skill checks to interact with good-aligned creatures who have never met you before.</Pair>
+</Ability>
+<Ability id="traitinnocent-innocent-fn1-5" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitinnocent-innocent-fn1-5"><Link to="/trait/innocent">⮞</Link> Innocent <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.5" id="main-traits_race_aasimar-fake-fn-1.5" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
+<Pair single="benefit" id="traitinnocent-innocent-fn1-5-benefit">No one can believe someone as pure as you could be deceptive in any way. You have an air of innocence about you, and people have a hard time believing you could ever do anyone harm. When you make a Bluff check to tell a lie, your target always wants to believe you, granting you the standard +5 bonus on your Bluff check. This bonus only applies if the lie you tell is either believable or unlikely.</Pair>
+</Ability>
+<Ability id="traitmartyrsblood-martyrs-blood-fn4" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitmartyrsblood-martyrs-blood-fn4"><Link to="/trait/martyrs_blood">⮞</Link> Martyr's Blood <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-4" id="main-traits_race_aasimar-fake-fn-4" data-hash-target to="main-traits_race_aasimar-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
+<Pair single="benefit" id="traitmartyrsblood-martyrs-blood-fn4-benefit">You carry the blood of a self-sacrificing celestial, and strive to live up to your potential for heroism. As long as your current hit point total is less than half of your maximum hit points possible, you gain a +1 trait bonus on attack rolls against evil foes.</Pair>
+</Ability>
+<Ability id="traitplanarnegotiatorboa-planar-negotiator-boa-fn1-6" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitplanarnegotiatorboa-planar-negotiator-boa-fn1-6"><Link to="/trait/planar_negotiator_boa">⮞</Link> Planar Negotiator (BoA) <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.6" id="main-traits_race_aasimar-fake-fn-1.6" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
+<Pair single="benefit" id="traitplanarnegotiatorboa-planar-negotiator-boa-fn1-6-benefit">You are skilled at convincing outsiders that you require their aid. Whenever you cast <Link to="/spell/lesser_planar_ally">lesser planar ally</Link>, <Link to="/spell/planar_ally">planar ally</Link>, or <Link to="/spell/greater_planar_ally">greater planar ally</Link>, you receive a 10% discount on the monetary cost required by the summoned outsiders. This bonus has no effect on services the outsiders may demand in order to strike a bargain.</Pair>
+</Ability>
+<Ability id="traitselectivehealth-selective-health-fn1-7" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitselectivehealth-selective-health-fn1-7"><Link to="/trait/selective_health">⮞</Link> Selective Health <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.7" id="main-traits_race_aasimar-fake-fn-1.7" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
+<Pair single="benefit" id="traitselectivehealth-selective-health-fn1-7-benefit">You are resistant to most illnesses that strike those around you, but vulnerable to the contagions of evil. You gain a +2 trait bonus on Fortitude saves against diseases. However, whenever you must make a Fortitude saving throw against a disease inflicted by an undead creature or evil outsider (such as mummy rot or a vrock's spores), you do not gain this bonus, and instead take a -2 penalty on your Fortitude save.</Pair>
+</Ability>
+<Ability id="traitwaryboa-wary-boa-fn1-8" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitwaryboa-wary-boa-fn1-8"><Link to="/trait/wary_boa">⮞</Link> Wary (BoA) <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.8" id="main-traits_race_aasimar-fake-fn-1.8" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
+<Pair single="benefit" id="traitwaryboa-wary-boa-fn1-8-benefit">You grew up around people who were jealous of and hostile toward you. Perhaps your parents were not pleased to have a child touched by the divine - they may have berated or beaten you, or even sold you into slavery for an exorbitant price. You grew up mistrustful of others and believing your unique appearance to be a curse. You gain a +1 trait bonus on Disguise and Sense Motive checks.</Pair>
+</Ability>
+<Ability id="traitcelestialtracker-celestial-tracker-fn1-9" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitcelestialtracker-celestial-tracker-fn1-9"><Link to="/trait/celestial_tracker">⮞</Link> Celestial Tracker <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.9" id="main-traits_race_aasimar-fake-fn-1.9" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Angelkin</Pair>
+<Pair single="benefit" id="traitcelestialtracker-celestial-tracker-fn1-9-benefit">You share the same talent for tracking evildoers that your angelic ancestor possessed. You gain a +1 trait bonus on Survival checks made to follow tracks. In addition, you treat trails as being up to 24 hours fresher than they actually are when using the Survival skill to follow tracks.</Pair>
+</Ability>
+<Ability id="traitplanetarsvisions-planetars-visions-fn1-10" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitplanetarsvisions-planetars-visions-fn1-10"><Link to="/trait/planetars_visions">⮞</Link> Planetar's Visions <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.10" id="main-traits_race_aasimar-fake-fn-1.10" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Angelkin</Pair>
+<Pair single="benefit" id="traitplanetarsvisions-planetars-visions-fn1-10-benefit">Ever since you were a child, you've experienced vivid dreams of cutting down hordes of shrieking, twisted demons. Whenever you succeed at a critical hit with a melee weapon against an evil outsider, you ignore an amount of the outsider's damage reduction (if any) equal to the critical multiplier of your weapon (this cannot reduce a creature's damage reduction to below 0).</Pair>
+</Ability>
+<Ability id="traitburnishedskin-burnished-skin-fn1-11" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitburnishedskin-burnished-skin-fn1-11"><Link to="/trait/burnished_skin">⮞</Link> Burnished Skin <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.11" id="main-traits_race_aasimar-fake-fn-1.11" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Emberkin</Pair>
+<Pair single="benefit" id="traitburnishedskin-burnished-skin-fn1-11-benefit">Sometime during your adolescence, you suffered severe burns in a devastating fire. Along with your scars, you developed the uncanny ability to tell what is and isn't real, gaining a +2 trait bonus on saving throws made to disbelieve illusions.</Pair>
+</Ability>
+<Ability id="traitpyromancer-pyromancer-fn1-12" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitpyromancer-pyromancer-fn1-12"><Link to="/trait/pyromancer">⮞</Link> Pyromancer <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.12" id="main-traits_race_aasimar-fake-fn-1.12" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Emberkin</Pair>
+<Pair single="benefit" id="traitpyromancer-pyromancer-fn1-12-benefit">You're especially adept at casting flame-based spells. You gain a +1 trait bonus on damage rolls for any spell you cast with the fire descriptor. Spells that do not deal damage do not benefit from this trait.</Pair>
+</Ability>
+<Ability id="traitenlightenedwarrior-enlightened-warrior-fn1-13" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitenlightenedwarrior-enlightened-warrior-fn1-13"><Link to="/trait/enlightened_warrior">⮞</Link> Enlightened Warrior <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.13" id="main-traits_race_aasimar-fake-fn-1.13" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Idyllkin</Pair>
+<Pair single="benefit" id="traitenlightenedwarrior-enlightened-warrior-fn1-13-benefit">You have always found it easy to maintain inner peace and enlightenment that translate well to the battlefield. You may take levels in monk even while maintaining a neutral or neutral good alignment.</Pair>
+</Ability>
+<Ability id="traitspeechofthewilds-speech-of-the-wilds-fn1-14" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitspeechofthewilds-speech-of-the-wilds-fn1-14"><Link to="/trait/speech_of_the_wilds">⮞</Link> Speech of the Wilds <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.14" id="main-traits_race_aasimar-fake-fn-1.14" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Idyllkin</Pair>
+<Pair single="benefit" id="traitspeechofthewilds-speech-of-the-wilds-fn1-14-benefit">Like your agathion ancestor, you have a knack for communicating with other creatures, and you are adept at breaking down language barriers. You can speak one extra language.</Pair>
+</Ability>
+<Ability id="traitgoodinfluence-good-influence-fn1-15" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitgoodinfluence-good-influence-fn1-15"><Link to="/trait/good_influence">⮞</Link> Good Influence <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.15" id="main-traits_race_aasimar-fake-fn-1.15" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Lawbringer</Pair>
+<Pair single="benefit" id="traitgoodinfluence-good-influence-fn1-15-benefit">You possess an innate ability to motivate and inspire others to do the right thing. You gain a +1 trait bonus on Diplomacy checks when attempting to persuade a nongood creature to make a decision that benefits the cause of good, and when persuading a nonlawful creature to make a decision in line with the laws of the region. These bonuses stack if you attempt to persuade a nongood, nonlawful creature to take a lawful good action.</Pair>
+</Ability>
+<Ability id="traitlanternspirit-lantern-spirit-fn1-16" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitlanternspirit-lantern-spirit-fn1-16"><Link to="/trait/lantern_spirit">⮞</Link> Lantern Spirit <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.16" id="main-traits_race_aasimar-fake-fn-1.16" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Lawbringer</Pair>
+<Pair single="benefit" id="traitlanternspirit-lantern-spirit-fn1-16-benefit">Your celestial ancestor was a lantern archon for centuries before ascending to a higher rank. You feel a strange sense of nostalgia whenever you use your continual flame spell-like ability, and can use it as a move action instead of a standard action.</Pair>
+</Ability>
+<Ability id="traitbralanisstep-bralanis-step-fn1-17" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitbralanisstep-bralanis-step-fn1-17"><Link to="/trait/bralanis_step">⮞</Link> Bralani's Step <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.17" id="main-traits_race_aasimar-fake-fn-1.17" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Musetouched</Pair>
+<Pair single="benefit" id="traitbralanisstep-bralanis-step-fn1-17-benefit">Your ancestor was a bralani, an azata known for its untamed speed in battle. When in combat, you feel a fierce surge of energy through your limbs. Once per day, you may move an additional 5 feet as part of a move action.</Pair>
+</Ability>
+<Ability id="traitlillendsharp-lillends-harp-fn1-18" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitlillendsharp-lillends-harp-fn1-18"><Link to="/trait/lillends_harp">⮞</Link> Lillend's Harp <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.18" id="main-traits_race_aasimar-fake-fn-1.18" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Musetouched</Pair>
+<Pair single="benefit" id="traitlillendsharp-lillends-harp-fn1-18-benefit">Your ancestor was a lillend, a being of exceptional grace and singular musical talent. You gain a +1 trait bonus on Perform (string) checks. This bonus increases to +2 when you make a Perform check as part of a bardic performance.</Pair>
+</Ability>
+<Ability id="traitsnakehater-snake-hater-fn1-19" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitsnakehater-snake-hater-fn1-19"><Link to="/trait/snake_hater">⮞</Link> Snake Hater <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.19" id="main-traits_race_aasimar-fake-fn-1.19" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Plumekith</Pair>
+<Pair single="benefit" id="traitsnakehater-snake-hater-fn1-19-benefit">You've always loathed serpents and other slithering monsters, ever since you can remember, and have studied them extensively. You gain a +2 trait bonus on Knowledge (dungeoneering) checks and Knowledge (dungeoneering) is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traittoxophilite-toxophilite-fn1-20" extraClasses="trait" icon={["person"]}>
+<Pair single id="traittoxophilite-toxophilite-fn1-20"><Link to="/trait/toxophilite">⮞</Link> Toxophilite <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.20" id="main-traits_race_aasimar-fake-fn-1.20" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Plumekith</Pair>
+<Pair single="benefit" id="traittoxophilite-toxophilite-fn1-20-benefit">You've inherited some of your celestial ancestor's prowess with the bow, and gain a +2 trait bonus on attack rolls made to confirm critical hits with bows.</Pair>
+</Ability>
+<section data-footnotes><h3 id="main-traits_race_aasimar-label">Footnotes</h3><ol>
+<li id="main-traits_race_aasimar-fake-fn-1-target"><p><Link to="/source/blood_of_angels">Blood of Angels</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1" data-hash-target to="main-traits_race_aasimar-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.2" data-hash-target to="main-traits_race_aasimar-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.3" data-hash-target to="main-traits_race_aasimar-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.4" data-hash-target to="main-traits_race_aasimar-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.5" data-hash-target to="main-traits_race_aasimar-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.6" data-hash-target to="main-traits_race_aasimar-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.7" data-hash-target to="main-traits_race_aasimar-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.8" data-hash-target to="main-traits_race_aasimar-fake-fn-1.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.9" data-hash-target to="main-traits_race_aasimar-fake-fn-1.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.10" data-hash-target to="main-traits_race_aasimar-fake-fn-1.10">↩<sup>10</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.11" data-hash-target to="main-traits_race_aasimar-fake-fn-1.11">↩<sup>11</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.12" data-hash-target to="main-traits_race_aasimar-fake-fn-1.12">↩<sup>12</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.13" data-hash-target to="main-traits_race_aasimar-fake-fn-1.13">↩<sup>13</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.14" data-hash-target to="main-traits_race_aasimar-fake-fn-1.14">↩<sup>14</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.15" data-hash-target to="main-traits_race_aasimar-fake-fn-1.15">↩<sup>15</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.16" data-hash-target to="main-traits_race_aasimar-fake-fn-1.16">↩<sup>16</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.17" data-hash-target to="main-traits_race_aasimar-fake-fn-1.17">↩<sup>17</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.18" data-hash-target to="main-traits_race_aasimar-fake-fn-1.18">↩<sup>18</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.19" data-hash-target to="main-traits_race_aasimar-fake-fn-1.19">↩<sup>19</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_aasimar-fake-fn-1.20" data-hash-target to="main-traits_race_aasimar-fake-fn-1.20">↩<sup>20</sup></InnerLink></p></li>
+<li id="main-traits_race_aasimar-fake-fn-2-target"><p><Link to="/source/distant_shores">Distant Shores</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_race_aasimar-fake-fn-2" data-hash-target to="main-traits_race_aasimar-fake-fn-2">↩</InnerLink></p></li>
+<li id="main-traits_race_aasimar-fake-fn-3-target"><p><Link to="/source/inner_sea_races">Inner Sea Races</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_aasimar-fake-fn-3" data-hash-target to="main-traits_race_aasimar-fake-fn-3">↩</InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_aasimar-fake-fn-3.2" data-hash-target to="main-traits_race_aasimar-fake-fn-3.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_race_aasimar-fake-fn-4-target"><p><Link to="/source/bastards_of_golarion">Bastards of Golarion</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_race_aasimar-fake-fn-4" data-hash-target to="main-traits_race_aasimar-fake-fn-4">↩</InnerLink></p></li>
+</ol></section></IonList>};
+const _traits_race_tiefling = {title: "Tiefling Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_race" className="reversed" info="Back to Race Traits" /><Ability id="traitanticipateevil-anticipate-evil-fn1" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitanticipateevil-anticipate-evil-fn1"><Link to="/trait/anticipate_evil">⮞</Link> Anticipate Evil <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1" id="main-traits_race_tiefling-fake-fn-1" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitanticipateevil-anticipate-evil-fn1-benefit">You can read subtle clues in the body language of fiends, allowing you to react just a bit faster than normal when dealing with such beings. You gain a +1 trait bonus on opposed Dexterity-based skill checks against outsiders with the evil subtype. In addition, when your initiative is tied with such creatures, you always act first regardless of which of you has a higher initiative modifier.</Pair>
+</Ability>
+<Ability id="traitbeastbully-beast-bully-fn1-2" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitbeastbully-beast-bully-fn1-2"><Link to="/trait/beast_bully">⮞</Link> Beast Bully <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.2" id="main-traits_race_tiefling-fake-fn-1.2" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitbeastbully-beast-bully-fn1-2-benefit">You have learned how to exploit the fear felt by creatures of the natural world when they sense the shadow in your soul. You can make an Intimidate check instead of a Handle Animal check when trying to handle or push an animal.</Pair>
+</Ability>
+<Ability id="traitblessingofdarkness-blessing-of-darkness-fn1-3" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitblessingofdarkness-blessing-of-darkness-fn1-3"><Link to="/trait/blessing_of_darkness">⮞</Link> Blessing of Darkness <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.3" id="main-traits_race_tiefling-fake-fn-1.3" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitblessingofdarkness-blessing-of-darkness-fn1-3-benefit">Your innate connection with the powers of darkness serves you well when evil zealots pray on your behalf. Whenever a spellcaster capable of channeling negative energy casts a beneficial spell on you, she acts as if she were one level higher for the purpose of determining that spell's effects.</Pair>
+</Ability>
+<Ability id="traitborndamned-born-damned-fn1-4" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitborndamned-born-damned-fn1-4"><Link to="/trait/born_damned">⮞</Link> Born Damned <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.4" id="main-traits_race_tiefling-fake-fn-1.4" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitborndamned-born-damned-fn1-4-benefit">The inherent sacrilege that taints your soul sometimes crowds out lesser banes. You gain a +2 trait bonus on saving throws against curses and magical effects that produce curses.</Pair>
+</Ability>
+<Ability id="traitdarkmagicaffinity-dark-magic-affinity-fn1-5" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitdarkmagicaffinity-dark-magic-affinity-fn1-5"><Link to="/trait/dark_magic_affinity">⮞</Link> Dark Magic Affinity <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.5" id="main-traits_race_tiefling-fake-fn-1.5" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitdarkmagicaffinity-dark-magic-affinity-fn1-5-benefit">You have an instinctive talent for unleashing the vilest spells, letting the taint in your blood empower your malicious magic. Whenever you cast a spell with the evil descriptor, you act as if you were one level higher for the purpose of determining that spell's effects.</Pair>
+</Ability>
+<Ability id="traitenduringheritage-enduring-heritage-fn2" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitenduringheritage-enduring-heritage-fn2"><Link to="/trait/enduring_heritage">⮞</Link> Enduring Heritage <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-2" id="main-traits_race_tiefling-fake-fn-2" data-hash-target to="main-traits_race_tiefling-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitenduringheritage-enduring-heritage-fn2-benefit">You can channel your evil ancestry to take advantage of any effects for which such an identity would matter (such as <Link to="/spell/detect_evil">detect evil</Link>). You detect as an evil outsider with the same number of HD as you possess. You can begin or end this effect as a swift action. You can maintain this effect for a number of rounds per day equal to your HD.</Pair>
+</Ability>
+<Ability id="traiteverwary-ever-wary-fn1-6" extraClasses="trait" icon={["person"]}>
+<Pair single id="traiteverwary-ever-wary-fn1-6"><Link to="/trait/ever_wary">⮞</Link> Ever Wary <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.6" id="main-traits_race_tiefling-fake-fn-1.6" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traiteverwary-ever-wary-fn1-6-benefit">Constant fear that your fiendish nature might provoke a sudden attack ensures that you never completely let down your guard. During the surprise round and before your first action in combat, you can apply half your Dexterity bonus (if any) to your AC. You still count as flat-footed for the purposes of attacks and effects.</Pair>
+</Ability>
+<Ability id="traitfamilyconnections-family-connections-fn1-7" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitfamilyconnections-family-connections-fn1-7"><Link to="/trait/family_connections">⮞</Link> Family Connections <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.7" id="main-traits_race_tiefling-fake-fn-1.7" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitfamilyconnections-family-connections-fn1-7-benefit">Your dark ancestry gives you a special insight into how to motivate or placate fiends and their kin. You gain a +2 trait bonus on Bluff and Diplomacy checks made against outsiders belonging to the evil subtype.</Pair>
+</Ability>
+<Ability id="traitfiendishsniper-fiendish-sniper-fn3" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitfiendishsniper-fiendish-sniper-fn3"><Link to="/trait/fiendish_sniper">⮞</Link> Fiendish Sniper <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-3" id="main-traits_race_tiefling-fake-fn-3" data-hash-target to="main-traits_race_tiefling-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitfiendishsniper-fiendish-sniper-fn3-benefit">You instinctively hide after you shoot your opponents, waiting for an opportune moment to strike again. You gain a +5 trait bonus on Stealth checks following a sniping attack.</Pair>
+</Ability>
+<Ability id="traitfriendless-friendless-fn1-8" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitfriendless-friendless-fn1-8"><Link to="/trait/friendless">⮞</Link> Friendless <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.8" id="main-traits_race_tiefling-fake-fn-1.8" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitfriendless-friendless-fn1-8-benefit">You have grown used to looking after yourself without help. You can make Heal checks on yourself for the purposes of treating deadly wounds, diseases, and poisons.</Pair>
+</Ability>
+<Ability id="traithardtopindown-hard-to-pin-down-fn4" extraClasses="trait" icon={["person"]}>
+<Pair single id="traithardtopindown-hard-to-pin-down-fn4"><Link to="/trait/hard_to_pin_down">⮞</Link> Hard to Pin Down <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-4" id="main-traits_race_tiefling-fake-fn-4" data-hash-target to="main-traits_race_tiefling-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traithardtopindown-hard-to-pin-down-fn4-benefit">Only more pressing dangers kept bullies from victimizing you. You gain a +2 trait bonus to AC against attacks of opportunity made by opponents whom you flank and opponents denied their Dexterity bonus to AC against you.</Pair>
+</Ability>
+<Ability id="traitincitertiefling-inciter-tiefling-fn1-9" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitincitertiefling-inciter-tiefling-fn1-9"><Link to="/trait/inciter_tiefling">⮞</Link> Inciter (Tiefling) <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.9" id="main-traits_race_tiefling-fake-fn-1.9" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitincitertiefling-inciter-tiefling-fn1-9-benefit">You always seem to know the perfect words to sow discord. You gain a +2 trait bonus on Bluff checks made to convince creatures to attack each other.</Pair>
+</Ability>
+<Ability id="traitmaligninstrument-malign-instrument-fn2-2" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitmaligninstrument-malign-instrument-fn2-2"><Link to="/trait/malign_instrument">⮞</Link> Malign Instrument <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-2.2" id="main-traits_race_tiefling-fake-fn-2.2" data-hash-target to="main-traits_race_tiefling-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitmaligninstrument-malign-instrument-fn2-2-benefit">Select a good-aligned deity. Add 1 to the DCs of your spells' saves when targeting a good-aligned outsider or divine spellcaster who serves that deity.</Pair>
+</Ability>
+<Ability id="traitmotherless-motherless-fn1-10" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitmotherless-motherless-fn1-10"><Link to="/trait/motherless">⮞</Link> Motherless <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.10" id="main-traits_race_tiefling-fake-fn-1.10" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitmotherless-motherless-fn1-10-benefit">Your birth killed your mother, and you learned, even before words, how to manipulate others into looking after you. You gain a +2 trait bonus on Bluff and Disguise checks made for the purpose of making you seem injured, sickly, or weak in some other way.</Pair>
+</Ability>
+<Ability id="traitneutralizinggut-neutralizing-gut-fn5" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitneutralizinggut-neutralizing-gut-fn5"><Link to="/trait/neutralizing_gut">⮞</Link> Neutralizing Gut <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-5" id="main-traits_race_tiefling-fake-fn-5" data-hash-target to="main-traits_race_tiefling-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitneutralizinggut-neutralizing-gut-fn5-benefit">Your fiendish heritage has made you more resilient to the many poisonous threats in wastelands. You gain a +2 trait bonus on saving throws against contact and inhaled poisons, and a +3 trait bonus on saving throws against ingested poisons.</Pair>
+</Ability>
+<Ability id="traitpersecutedexpatriate-persecuted-expatriate-fn4-2" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitpersecutedexpatriate-persecuted-expatriate-fn4-2"><Link to="/trait/persecuted_expatriate">⮞</Link> Persecuted Expatriate <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-4.2" id="main-traits_race_tiefling-fake-fn-4.2" data-hash-target to="main-traits_race_tiefling-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitpersecutedexpatriate-persecuted-expatriate-fn4-2-benefit">You were born in a nation that persecuted you for your heritage. Although you were under terrible duress, you escaped either with the aid of family or by your own cunning. You gain a +1 bonus on one skill depending on your fiendish heritage: asura (Knowledge [local]), daemon (Sleight of Hand), demodand (Intimidate), demon (Perception), devil (Sense Motive), div (Diplomacy), kyton (Escape Artist), oni (Disguise), qlippoth (Survival), or rakshasa (Sense Motive). That skill is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitpridefultemper-prideful-temper-fn1-11" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitpridefultemper-prideful-temper-fn1-11"><Link to="/trait/prideful_temper">⮞</Link> Prideful Temper <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.11" id="main-traits_race_tiefling-fake-fn-1.11" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitpridefultemper-prideful-temper-fn1-11-benefit">Memories of the cruel abuse and taunts you suffered as a child cause you to strike back with great fury at anyone who slanders you. You gain a +1 trait bonus on attack rolls made against creatures that have insulted you until you actually succeed in dealing damage.</Pair>
+</Ability>
+<Ability id="traitprolongmagic-prolong-magic-fn1-12" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitprolongmagic-prolong-magic-fn1-12"><Link to="/trait/prolong_magic">⮞</Link> Prolong Magic <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.12" id="main-traits_race_tiefling-fake-fn-1.12" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitprolongmagic-prolong-magic-fn1-12-benefit">Constant drills and preparation allow you to get more out of your innate magic. Whenever you use a spell-like ability gained through your tiefling heritage, it automatically acts as if affected by the <Link to="/feat/extend_spell">Extend Spell</Link> metamagic feat.</Pair>
+</Ability>
+<Ability id="traitshadowstabber-shadow-stabber-fn1-13" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitshadowstabber-shadow-stabber-fn1-13"><Link to="/trait/shadow_stabber">⮞</Link> Shadow Stabber <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.13" id="main-traits_race_tiefling-fake-fn-1.13" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitshadowstabber-shadow-stabber-fn1-13-benefit">An instinct for dishonorable conduct serves you well when fighting opponents who are blind, oblivious, or blundering around in the dark. You gain a +2 trait bonus on melee weapon damage rolls made against foes that cannot see you.</Pair>
+</Ability>
+<Ability id="traitsuicidal-suicidal-fn1-14" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitsuicidal-suicidal-fn1-14"><Link to="/trait/suicidal">⮞</Link> Suicidal <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.14" id="main-traits_race_tiefling-fake-fn-1.14" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitsuicidal-suicidal-fn1-14-benefit">Shame and horror fill your subconscious, and you never stop looking for ways to grant yourself the peace of the grave. Once per day, as an immediate action, you can make yourself the target of any attack originally directed against a creature occupying an adjacent square.</Pair>
+</Ability>
+<Ability id="traittempterstongue-tempters-tongue-fn6" extraClasses="trait" icon={["person"]}>
+<Pair single id="traittempterstongue-tempters-tongue-fn6"><Link to="/trait/tempters_tongue">⮞</Link> Tempter's Tongue <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-6" id="main-traits_race_tiefling-fake-fn-6" data-hash-target to="main-traits_race_tiefling-fake-fn-6-target">6</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traittempterstongue-tempters-tongue-fn6-benefit">The blood of crafty, bargain-making fiends runs in your veins, and you have a talent for brokering deals of your own. You gain a +1 trait bonus on Diplomacy checks and on opposed Charisma checks to influence creatures you have charmed (such as with charm person).</Pair>
+</Ability>
+<Ability id="traittwilightzeal-twilight-zeal-fn1-15" extraClasses="trait" icon={["person"]}>
+<Pair single id="traittwilightzeal-twilight-zeal-fn1-15"><Link to="/trait/twilight_zeal">⮞</Link> Twilight Zeal <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.15" id="main-traits_race_tiefling-fake-fn-1.15" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traittwilightzeal-twilight-zeal-fn1-15-benefit">The gloom of night and of the places beyond the reach of the sun gives you comfort and courage. You gain a +1 trait bonus on Will saving throws when in dim light or darkness.</Pair>
+</Ability>
+<Ability id="traitunderling-underling-fn1-16" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitunderling-underling-fn1-16"><Link to="/trait/underling">⮞</Link> Underling <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.16" id="main-traits_race_tiefling-fake-fn-1.16" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
+<Pair single="benefit" id="traitunderling-underling-fn1-16-benefit">People tend to assume you either are, or are willing to become, a minor cog in some evil cabal or conspiracy. You gain a +2 trait bonus on Bluff and Diplomacy checks made to either join or imply that you already belong to an evil organization.</Pair>
+</Ability>
+<Ability id="traitbentbody-bent-body-fn1-17" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitbentbody-bent-body-fn1-17"><Link to="/trait/bent_body">⮞</Link> Bent Body <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.17" id="main-traits_race_tiefling-fake-fn-1.17" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Beastbrood</Pair>
+<Pair single="benefit" id="traitbentbody-bent-body-fn1-17-benefit">While nothing is actually reversed, your bones and limbs are slightly out of alignment. You gain a +2 trait bonus to CMD when resisting grapple attempts.</Pair>
+</Ability>
+<Ability id="traittoughskin-tough-skin-fn1-18" extraClasses="trait" icon={["person"]}>
+<Pair single id="traittoughskin-tough-skin-fn1-18"><Link to="/trait/tough_skin">⮞</Link> Tough Skin <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.18" id="main-traits_race_tiefling-fake-fn-1.18" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Beastbrood</Pair>
+<Pair single="benefit" id="traittoughskin-tough-skin-fn1-18-benefit">You retain a small amount of your ancestors' unyielding skin. You gain a +1 trait bonus to AC when opponents attempt to confirm critical hits with either bludgeoning or slashing weapons.</Pair>
+</Ability>
+<Ability id="traitarmsmaster-arms-master-fn1-19" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitarmsmaster-arms-master-fn1-19"><Link to="/trait/arms_master">⮞</Link> Arms Master <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.19" id="main-traits_race_tiefling-fake-fn-1.19" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Faultspawn</Pair>
+<Pair single="benefit" id="traitarmsmaster-arms-master-fn1-19-benefit">The legendary battle prowess of your ancestors ensures that you have a certain amount of innate martial skill. You take a -2 penalty on attack rolls made with weapons with which you are not proficient instead of the normal -4.</Pair>
+</Ability>
+<Ability id="traitprayerbreaker-prayer-breaker-fn1-20" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitprayerbreaker-prayer-breaker-fn1-20"><Link to="/trait/prayer_breaker">⮞</Link> Prayer Breaker <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.20" id="main-traits_race_tiefling-fake-fn-1.20" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Faultspawn</Pair>
+<Pair single="benefit" id="traitprayerbreaker-prayer-breaker-fn1-20-benefit">You have an instinctive flair for causing such pain to the faithful that they temporarily lose their connection with their god. If a divine spellcaster makes a <Link to="/rule/concentration">concentration</Link> check to avoid losing a spell because of an injury you caused, increase the DC of that check by +2.</Pair>
+</Ability>
+<Ability id="traitgodscorn-god-scorn-fn1-21" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitgodscorn-god-scorn-fn1-21"><Link to="/trait/god_scorn">⮞</Link> God Scorn <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.21" id="main-traits_race_tiefling-fake-fn-1.21" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Foulspawn</Pair>
+<Pair single="benefit" id="traitgodscorn-god-scorn-fn1-21-benefit">Your contempt for the gods and their sad little priests makes it easier to shake off the effects of their prayers. You gain a +1 trait bonus on saving throws against divine spells.</Pair>
+</Ability>
+<Ability id="traitrepulsive-repulsive-fn1-22" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitrepulsive-repulsive-fn1-22"><Link to="/trait/repulsive">⮞</Link> Repulsive <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.22" id="main-traits_race_tiefling-fake-fn-1.22" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Foulspawn</Pair>
+<Pair single="benefit" id="traitrepulsive-repulsive-fn1-22-benefit">Your repulsiveness causes people to almost instinctively shy away from making physical contact with you. You gain a +1 trait bonus on combat maneuver checks made to overrun and reposition opponents.</Pair>
+</Ability>
+<Ability id="traitdeathsdeputy-deaths-deputy-fn1-23" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitdeathsdeputy-deaths-deputy-fn1-23"><Link to="/trait/deaths_deputy">⮞</Link> Death's Deputy <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.23" id="main-traits_race_tiefling-fake-fn-1.23" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Grimspawn</Pair>
+<Pair single="benefit" id="traitdeathsdeputy-deaths-deputy-fn1-23-benefit">When you send opponents to death's door, you often hurl their corpses right across its threshold. You gain a +2 trait bonus on the damage dealt for any attack that would already reduce your target to negative hit points without this trait.</Pair>
+</Ability>
+<Ability id="traitsouleater-soul-eater-fn1-24" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitsouleater-soul-eater-fn1-24"><Link to="/trait/soul_eater">⮞</Link> Soul Eater <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.24" id="main-traits_race_tiefling-fake-fn-1.24" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Grimspawn</Pair>
+<Pair single="benefit" id="traitsouleater-soul-eater-fn1-24-benefit">The act of murder allows you to draw vitality from fleeing souls. Whenever you use a coup de grace action to kill a creature (either by damage or through a failed Fortitude save), you gain a number of temporary hit points equal to half your character level (minimum 1) for 1 minute. These temporary hit points do not stack with multiple coups de grace.</Pair>
+</Ability>
+<Ability id="traitbloodstalker-blood-stalker-fn1-25" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitbloodstalker-blood-stalker-fn1-25"><Link to="/trait/blood_stalker">⮞</Link> Blood Stalker <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.25" id="main-traits_race_tiefling-fake-fn-1.25" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Hellspawn</Pair>
+<Pair single="benefit" id="traitbloodstalker-blood-stalker-fn1-25-benefit">Some infernal instinct makes it much easier for you to locate creatures whose blood you have drawn. You gain a +4 trait bonus on Survival checks made to track or follow a trail so long as you have dealt damage to the creature you are hunting within the last week.</Pair>
+</Ability>
+<Ability id="traitunearthsecrets-unearth-secrets-fn1-26" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitunearthsecrets-unearth-secrets-fn1-26"><Link to="/trait/unearth_secrets">⮞</Link> Unearth Secrets <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.26" id="main-traits_race_tiefling-fake-fn-1.26" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Hellspawn</Pair>
+<Pair single="benefit" id="traitunearthsecrets-unearth-secrets-fn1-26-benefit">You have a gift for recognizing secret desires. You gain a +2 trait bonus on Sense Motive checks when trying to get a hunch that might reveal a target's hidden vice, dark impulse, or any other craving it would not want publicly revealed.</Pair>
+</Ability>
+<Ability id="traitbigboned-big-boned-fn1-27" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitbigboned-big-boned-fn1-27"><Link to="/trait/big_boned">⮞</Link> Big Boned <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.27" id="main-traits_race_tiefling-fake-fn-1.27" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Hungerseed</Pair>
+<Pair single="benefit" id="traitbigboned-big-boned-fn1-27-benefit">Your ancestors' great size has gifted you with an exceptionally sturdy frame. You gain a +1 trait bonus on combat maneuver checks made to overrun opponents, as well as a +1 trait bonus to your CMD against trip attempts.</Pair>
+</Ability>
+<Ability id="traitsuperiorclutch-superior-clutch-fn1-28" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitsuperiorclutch-superior-clutch-fn1-28"><Link to="/trait/superior_clutch">⮞</Link> Superior Clutch <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.28" id="main-traits_race_tiefling-fake-fn-1.28" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Hungerseed</Pair>
+<Pair single="benefit" id="traitsuperiorclutch-superior-clutch-fn1-28-benefit">Your hands not only are bigger than normal, but also have a strong grip useful for wielding large weapons. You gain a +1 trait bonus on damage rolls when using weapons intended for creatures of a larger size.</Pair>
+</Ability>
+<Ability id="traitdeadlyrush-deadly-rush-fn1-29" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitdeadlyrush-deadly-rush-fn1-29"><Link to="/trait/deadly_rush">⮞</Link> Deadly Rush <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.29" id="main-traits_race_tiefling-fake-fn-1.29" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Pitborn</Pair>
+<Pair single="benefit" id="traitdeadlyrush-deadly-rush-fn1-29-benefit">When you hurl yourself against a foe with reckless abandon, you often land particularly telling blows. You gain a +2 trait bonus on critical hit confirmation rolls made as part of a charge.</Pair>
+</Ability>
+<Ability id="traitflairfordestruction-flair-for-destruction-fn1-30" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitflairfordestruction-flair-for-destruction-fn1-30"><Link to="/trait/flair_for_destruction">⮞</Link> Flair for Destruction <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.30" id="main-traits_race_tiefling-fake-fn-1.30" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Pitborn</Pair>
+<Pair single="benefit" id="traitflairfordestruction-flair-for-destruction-fn1-30-benefit">You have a talent for striking objects at their weakest points. You gain a +1 trait bonus on weapon damage rolls made against objects and constructs.</Pair>
+</Ability>
+<Ability id="traitchainmaster-chain-master-fn1-31" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitchainmaster-chain-master-fn1-31"><Link to="/trait/chain_master">⮞</Link> Chain Master <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.31" id="main-traits_race_tiefling-fake-fn-1.31" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Shackleborn</Pair>
+<Pair single="benefit" id="traitchainmaster-chain-master-fn1-31-benefit">Your fiendish ancestry has granted you unnatural skill with the chain, and your enemies know to stay away when you wield it as a weapon. You gain a +2 trait bonus on combat maneuver checks made to trip opponents with a spiked chain or whip.</Pair>
+</Ability>
+<Ability id="traitpainartist-pain-artist-fn1-32" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitpainartist-pain-artist-fn1-32"><Link to="/trait/pain_artist">⮞</Link> Pain Artist <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.32" id="main-traits_race_tiefling-fake-fn-1.32" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Shackleborn</Pair>
+<Pair single="benefit" id="traitpainartist-pain-artist-fn1-32-benefit">Some trace of your kyton heritage makes people realize you are capable of anything, especially when they are bound and at your mercy. You gain a +2 trait bonus on Intimidate checks made against helpless creatures.</Pair>
+</Ability>
+<Ability id="traitburiedanxiety-buried-anxiety-fn1-33" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitburiedanxiety-buried-anxiety-fn1-33"><Link to="/trait/buried_anxiety">⮞</Link> Buried Anxiety <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.33" id="main-traits_race_tiefling-fake-fn-1.33" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Spitespawn</Pair>
+<Pair single="benefit" id="traitburiedanxiety-buried-anxiety-fn1-33-benefit">You laugh at what makes others tremble, but are secretly disturbed by a particular sort of mundane item. Pick a specific sort of object, color, sound, or similar relatively common phenomena. You gain a +2 trait bonus on saving throws made to resist fear effects except when you can see, hear, smell, or taste that which unnerves you.</Pair>
+</Ability>
+<Ability id="traitshifttheblame-shift-the-blame-fn1-34" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitshifttheblame-shift-the-blame-fn1-34"><Link to="/trait/shift_the_blame">⮞</Link> Shift the Blame <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.34" id="main-traits_race_tiefling-fake-fn-1.34" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Spitespawn</Pair>
+<Pair single="benefit" id="traitshifttheblame-shift-the-blame-fn1-34-benefit">You have learned many tricks to keep yourself from facing the consequences of your misdeeds. You gain a +1 trait bonus on Bluff and Diplomacy checks made to convince someone that another person is actually at fault for your actions.</Pair>
+</Ability>
+<Ability id="traitrepelsin-repel-sin-fn1-35" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitrepelsin-repel-sin-fn1-35"><Link to="/trait/repel_sin">⮞</Link> Repel Sin <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.35" id="main-traits_race_tiefling-fake-fn-1.35" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; The Motherless</Pair>
+<Pair single="benefit" id="traitrepelsin-repel-sin-fn1-35-benefit">You have an instinctive revulsion for the sins that led to the rise of demons and subsequent downfall of qlippoth. You gain a +2 trait bonus on saving throws made against spells and effects with the evil descriptor.</Pair>
+</Ability>
+<Ability id="traitvilekiss-vile-kiss-fn1-36" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitvilekiss-vile-kiss-fn1-36"><Link to="/trait/vile_kiss">⮞</Link> Vile Kiss <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.36" id="main-traits_race_tiefling-fake-fn-1.36" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; The Motherless</Pair>
+<Pair single="benefit" id="traitvilekiss-vile-kiss-fn1-36-benefit">You have learned how to exploit the natural disgust you provoke when in close proximity to others. You gain a +2 trait bonus on combat maneuver checks to perform a dirty trick combat maneuver for the purpose of making your opponent sickened.</Pair>
+</Ability>
+<section data-footnotes><h3 id="main-traits_race_tiefling-label">Footnotes</h3><ol>
+<li id="main-traits_race_tiefling-fake-fn-1-target"><p><Link to="/source/blood_of_fiends">Blood of Fiends</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1" data-hash-target to="main-traits_race_tiefling-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.2" data-hash-target to="main-traits_race_tiefling-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.3" data-hash-target to="main-traits_race_tiefling-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.4" data-hash-target to="main-traits_race_tiefling-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.5" data-hash-target to="main-traits_race_tiefling-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.6" data-hash-target to="main-traits_race_tiefling-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.7" data-hash-target to="main-traits_race_tiefling-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.8" data-hash-target to="main-traits_race_tiefling-fake-fn-1.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.9" data-hash-target to="main-traits_race_tiefling-fake-fn-1.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.10" data-hash-target to="main-traits_race_tiefling-fake-fn-1.10">↩<sup>10</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.11" data-hash-target to="main-traits_race_tiefling-fake-fn-1.11">↩<sup>11</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.12" data-hash-target to="main-traits_race_tiefling-fake-fn-1.12">↩<sup>12</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.13" data-hash-target to="main-traits_race_tiefling-fake-fn-1.13">↩<sup>13</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.14" data-hash-target to="main-traits_race_tiefling-fake-fn-1.14">↩<sup>14</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.15" data-hash-target to="main-traits_race_tiefling-fake-fn-1.15">↩<sup>15</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.16" data-hash-target to="main-traits_race_tiefling-fake-fn-1.16">↩<sup>16</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.17" data-hash-target to="main-traits_race_tiefling-fake-fn-1.17">↩<sup>17</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.18" data-hash-target to="main-traits_race_tiefling-fake-fn-1.18">↩<sup>18</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.19" data-hash-target to="main-traits_race_tiefling-fake-fn-1.19">↩<sup>19</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.20" data-hash-target to="main-traits_race_tiefling-fake-fn-1.20">↩<sup>20</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.21" data-hash-target to="main-traits_race_tiefling-fake-fn-1.21">↩<sup>21</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.22" data-hash-target to="main-traits_race_tiefling-fake-fn-1.22">↩<sup>22</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.23" data-hash-target to="main-traits_race_tiefling-fake-fn-1.23">↩<sup>23</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.24" data-hash-target to="main-traits_race_tiefling-fake-fn-1.24">↩<sup>24</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.25" data-hash-target to="main-traits_race_tiefling-fake-fn-1.25">↩<sup>25</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.26" data-hash-target to="main-traits_race_tiefling-fake-fn-1.26">↩<sup>26</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.27" data-hash-target to="main-traits_race_tiefling-fake-fn-1.27">↩<sup>27</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.28" data-hash-target to="main-traits_race_tiefling-fake-fn-1.28">↩<sup>28</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.29" data-hash-target to="main-traits_race_tiefling-fake-fn-1.29">↩<sup>29</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.30" data-hash-target to="main-traits_race_tiefling-fake-fn-1.30">↩<sup>30</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.31" data-hash-target to="main-traits_race_tiefling-fake-fn-1.31">↩<sup>31</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.32" data-hash-target to="main-traits_race_tiefling-fake-fn-1.32">↩<sup>32</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.33" data-hash-target to="main-traits_race_tiefling-fake-fn-1.33">↩<sup>33</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.34" data-hash-target to="main-traits_race_tiefling-fake-fn-1.34">↩<sup>34</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.35" data-hash-target to="main-traits_race_tiefling-fake-fn-1.35">↩<sup>35</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.36" data-hash-target to="main-traits_race_tiefling-fake-fn-1.36">↩<sup>36</sup></InnerLink></p></li>
+<li id="main-traits_race_tiefling-fake-fn-2-target"><p><Link to="/source/agents_of_evil">Agents of Evil</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_race_tiefling-fake-fn-2" data-hash-target to="main-traits_race_tiefling-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_race_tiefling-fake-fn-2.2" data-hash-target to="main-traits_race_tiefling-fake-fn-2.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_race_tiefling-fake-fn-3-target"><p><Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_tiefling-fake-fn-3" data-hash-target to="main-traits_race_tiefling-fake-fn-3">↩</InnerLink></p></li>
+<li id="main-traits_race_tiefling-fake-fn-4-target"><p><Link to="/source/inner_sea_races">Inner Sea Races</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_race_tiefling-fake-fn-4" data-hash-target to="main-traits_race_tiefling-fake-fn-4">↩</InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_race_tiefling-fake-fn-4.2" data-hash-target to="main-traits_race_tiefling-fake-fn-4.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_race_tiefling-fake-fn-5-target"><p><Link to="/source/people_of_the_wastes">People of the Wastes</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_race_tiefling-fake-fn-5" data-hash-target to="main-traits_race_tiefling-fake-fn-5">↩</InnerLink></p></li>
+<li id="main-traits_race_tiefling-fake-fn-6-target"><p><Link to="/source/bastards_of_golarion">Bastards of Golarion</Link> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_race_tiefling-fake-fn-6" data-hash-target to="main-traits_race_tiefling-fake-fn-6">↩</InnerLink></p></li>
+</ol></section></IonList>};
+export default {traits_religion_lg:_traits_religion_lg,traits_religion_ln:_traits_religion_ln,traits_religion_le:_traits_religion_le,traits_religion_ng:_traits_religion_ng,traits_religion_nn:_traits_religion_nn,traits_religion_ne:_traits_religion_ne,traits_religion_cg:_traits_religion_cg,traits_religion_cn:_traits_religion_cn,traits_religion_ce:_traits_religion_ce,traits_casmaron:_traits_casmaron,traits_tian_xia:_traits_tian_xia,traits_lung_wa:_traits_lung_wa,traits_race_aasimar:_traits_race_aasimar,traits_race_tiefling:_traits_race_tiefling}
