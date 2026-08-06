@@ -2536,9 +2536,9 @@
 		"name": "Acrobat",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Acrobat&FN&\" type=\"Social\" benefit=\"Having trained from a young age, you're capable of amazing feats of daring. You gain a +1 bonus on Acrobatics checks, and you take only a -2 penalty instead of the normal -5 penalty when using the Climb skill to attempt an accelerated climb.\"}"
+			"::trait{title=\"&L&Acrobat&FN&\" type=\"Social\" flavor=\"Having trained from a young age, you're capable of amazing feats of daring.\" benefit=\"You gain a +1 bonus on ‹skill/Acrobatics› checks, and you take only a -2 penalty instead of the normal -5 penalty when using the ‹skill/Climb› skill to attempt an accelerated climb.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"adopted": {
@@ -2551,151 +2551,151 @@
 		"description": [
 			"::trait{title=\"&L&Adopted&FN&\" type=\"Social\" benefit=\"You were adopted and raised by someone not of your race, and raised in a society not your own. As a result, you picked up a race trait from your adoptive parents and society, and may immediately select a ‹main/traits_>race« trait› from your adoptive parents' race.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"affable": {
 		"name": "Affable",
 		"compilationSources": [ [ "Champions of Purity" ] ],
 		"description": [
-			"::trait{title=\"&L&Affable&FN&\" type=\"Social\" benefit=\"You have a genial personality and make it a point to befriend and help people wherever you go. In your travels, you stop to aid others, tell interesting stories, and often buy rounds of drinks for patrons at the local taverns. You bring good cheer to those you encounter, and for this reason, you often find yourself attending important events or fruitful gatherings, and have even become an honorary member of many families. People find you trustworthy, and they are willing to share information with you. You gain a +2 trait bonus on Diplomacy checks to gather information, and can do so in half the normal time. In addition, Diplomacy and Knowledge (local) are always class skills for you.\"}"
+			"::trait{title=\"&L&Affable&FN&\" type=\"Social\" flavor=\"You have a genial personality and make it a point to befriend and help people wherever you go. In your travels, you stop to aid others, tell interesting stories, and often buy rounds of drinks for patrons at the local taverns. You bring good cheer to those you encounter, and for this reason, you often find yourself attending important events or fruitful gatherings, and have even become an honorary member of many families. People find you trustworthy, and they are willing to share information with you.\" benefit=\"You gain a +2 trait bonus on ‹skill/Diplomacy› checks to gather information, and can do so in half the normal time. In addition, Diplomacy and ‹skill/Knowledge (local)› are always class skills for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"allies_in_the_deep": {
 		"name": "Allies in the Deep",
 		"compilationSources": [ [ "Heroes of the Darklands" ] ],
 		"description": [
-			"::trait{title=\"&L&Allies in the Deep&FN&\" type=\"Social\" benefit=\"You've learned to deal amicably with individuals of questionable morals when necessary. You gain a +1 trait bonus on Charisma-based skill checks to influence evil creatures.\"}"
+			"::trait{title=\"&L&Allies in the Deep&FN&\" type=\"Social\" flavor=\"You've learned to deal amicably with individuals of questionable morals when necessary.\" benefit=\"You gain a +1 trait bonus on Charisma-based skill checks to influence evil creatures.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"ambitious": {
 		"name": "Ambitious",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Ambitious&FN&\" type=\"Social\" benefit=\"You exude confidence in the presence of those more powerful than you - sometimes unreasonably so. You gain a +4 trait bonus on Diplomacy checks made to influence creatures with at least 5 Hit Dice more than you possess.\"}"
+			"::trait{title=\"&L&Ambitious&FN&\" type=\"Social\" flavor=\"You exude confidence in the presence of those more powerful than you - sometimes unreasonably so.\" benefit=\"You gain a +4 trait bonus on ‹skill/Diplomacy› checks made to influence creatures with at least 5 Hit Dice more than you possess.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"amiable_blunder": {
 		"name": "Amiable Blunder",
 		"compilationSources": [ [ "Champions of Balance" ] ],
 		"description": [
-			"::trait{title=\"&L&Amiable Blunder&FN&\" type=\"Social\" benefit=\"Your easy-going demeanor allows you to sometimes recover from potentially awkward social situations or even condemnatory faux pas. Once per day when you fail a Diplomacy check by 5 or more and would cause an NPC's attitude toward you to worsen, you can immediately attempt another Diplomacy check against the same DC as a free action. If you succeed at this second Diplomacy check, the character's attitude doesn't change, as though you had failed the original check by 4 or less.\"}"
+			"::trait{title=\"&L&Amiable Blunder&FN&\" type=\"Social\" flavor=\"Your easy-going demeanor allows you to sometimes recover from potentially awkward social situations or even condemnatory faux pas.\" benefit=\"Once per day when you fail a ‹skill/Diplomacy› check by 5 or more and would cause an NPC's attitude toward you to worsen, you can immediately attempt another Diplomacy check against the same DC as a @HLfree_action. If you succeed at this second Diplomacy check, the character's attitude doesn't change, as though you had failed the original check by 4 or less.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"amiable_briber": {
 		"name": "Amiable Briber",
 		"compilationSources": [ [ "Adventurer's Armory 2" ] ],
 		"description": [
-			"::trait{title=\"&L&Amiable Briber&FN&\" type=\"Social\" region=\"Absalom\" benefit=\"Your attempts to bribe others usually come off as playful or as a gag. The first time someone refuses a bribe you offer, that person's attitude toward you doesn't worsen, even if the offer would normally offend the person (as though you had failed a Diplomacy check by 5 or more).\"}"
+			"::trait{title=\"&L&Amiable Briber&FN&\" type=\"Social\" region=\"Absalom\" flavor=\"Your attempts to bribe others usually come off as playful or as a gag.\" benefit=\"The first time someone refuses a bribe you offer, that person's attitude toward you doesn't worsen, even if the offer would normally offend the person (as though you had failed a ‹skill/Diplomacy› check by 5 or more).\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"ancestral_armor": {
 		"name": "Ancestral Armor",
 		"compilationSources": [ [ "Blood of the Ancients", 31 ] ],
 		"description": [
-			"::trait{title=\"&L&Ancestral Armor&FN&\" type=\"Social\" benefit=\"You inherited an ancient set of Tar Taargadth armor. You begin play with a set of masterwork armor of your choice. You must be proficient in wearing this armor, and the armor's total cost cannot exceed 300 gp.\"}"
+			"::trait{title=\"&L&Ancestral Armor&FN&\" type=\"Social\" flavor=\"You inherited an ancient set of Tar Taargadth armor.\" benefit=\"You begin play with a set of ‹rule/masterwork armor› of your choice. You must be proficient in wearing this armor, and the armor's total cost cannot exceed 300 gp.\"}"
 		],
-		"category": "Social",
+		"category": "Social-item",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"arodenite_historian": {
 		"name": "Arodenite Historian",
 		"compilationSources": [ [ "Arcane Anthology" ] ],
 		"description": [
-			"::trait{title=\"&L&Arodenite Historian&FN&\" type=\"Social\" benefit=\"You believe there is much useful information to glean from the mark Aroden left on history, and learn all you can about his exploits and teachings. This has given you significant insights on how different kinds of information are interconnected. If you fail a Knowledge (arcana, history, or religion) check, you can reroll the check 1 round later using your bonus for one of the other two skills.\"}"
+			"::trait{title=\"&L&Arodenite Historian&FN&\" type=\"Social\" flavor=\"You believe there is much useful information to glean from the mark Aroden left on history, and learn all you can about his exploits and teachings. This has given you significant insights on how different kinds of information are interconnected.\" benefit=\"If you fail a ‹skill/Knowledge› (arcana, history, or religion) check, you can reroll the check 1 round later using your bonus for one of the other two skills.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"artisan": {
 		"name": "Artisan",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Artisan&FN&\" type=\"Social\" benefit=\"You spent time working under artisans, or your parents were artisans who were particularly skilled at their trade. You gain a +2 trait bonus on a single Craft skill (your choice).\"}"
+			"::trait{title=\"&L&Artisan&FN&\" type=\"Social\" flavor=\"You spent time working under artisans, or your parents were artisans who were particularly skilled at their trade.\" benefit=\"You gain a +2 trait bonus on a single ‹skill/Craft› skill (your choice).\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"avid_reader": {
 		"name": "Avid Reader",
 		"compilationSources": [ [ "Quests and Campaigns" ] ],
 		"description": [
-			"::trait{title=\"&L&Avid Reader&FN&\" type=\"Social\" benefit=\"As a youth, you voraciously consumed books and scrolls provided by a member of an adventurer's guild or a learned organization like the ‹rule/Pathfinder Society›, and you have internalized these stories of bold adventurers. Choose one Knowledge skill. You can always choose to take 10 on checks with the chosen Knowledge skill, even when distracted or threatened.~~~**Suggested Characters:** Osirians, Pathfinders, Taldans.\"}"
+			"::trait{title=\"&L&Avid Reader&FN&\" type=\"Social\" flavor=\"As a youth, you voraciously consumed books and scrolls provided by a member of an adventurer's guild or a learned organization like the ‹rule/Pathfinder Society›, and you have internalized these stories of bold adventurers.\" benefit=\"Choose one ‹skill/Knowledge› skill. You can always choose to take 10 on checks with the chosen Knowledge skill, even when distracted or threatened.~~~**Suggested Characters:** Osirians, Pathfinders, Taldans.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"balanced_determination": {
 		"name": "Balanced Determination",
 		"compilationSources": [ [ "Legacy of Dragons" ] ],
 		"description": [
-			"::trait{title=\"&L&Balanced Determination&FN&\" type=\"Social\" benefit=\"You've come to appreciate the balanced approach taken by sovereign dragons. Once per day, before attempting a saving throw against a spell ability originating from another creature, you can invoke the determination of those dragons. You take 10 on the saving throw (treat the d20 die result as if it were a 10).\"}"
+			"::trait{title=\"&L&Balanced Determination&FN&\" type=\"Social\" flavor=\"You've come to appreciate the balanced approach taken by sovereign dragons.\" benefit=\"Once per day, before attempting a saving throw against a spell ability originating from another creature, you can invoke the determination of ‹family/sovereign dragon«s›. You take 10 on the saving throw (treat the d20 die result as if it were a 10).\"}"
 		],
-		"category": "Social",
+		"category": "Social-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"bastard_uc": {
 		"name": "Bastard (UC)",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Bastard (UC)&FN&\" type=\"Social\" benefit=\"You were born out of wedlock. You have always been an outsider in society, and in your own family. This perspective has sharpened your insight. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you.\"}"
+			"::trait{title=\"&L&Bastard (UC)&FN&\" type=\"Social\" flavor=\"You were born out of wedlock. You have always been an outsider in society, and in your own family. This perspective has sharpened your insight.\" benefit=\"You gain a +1 trait bonus on ‹skill/Sense Motive› checks, and Sense Motive is always a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"beast_bond": {
 		"name": "Beast Bond",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Beast Bond&FN&\" type=\"Social\" benefit=\"You share a close bond with animals. You gain a +1 bonus on Handle Animal checks and Ride checks. One of these skills (your choice) is always a class skill for you.\"}"
+			"::trait{title=\"&L&Beast Bond&FN&\" type=\"Social\" flavor=\"You share a close bond with animals.\" benefit=\"You gain a +1 bonus on ‹skill/Handle Animal› checks and ‹skill/Ride› checks. One of these skills (your choice) is always a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"beastkin": {
 		"name": "Beastkin",
 		"compilationSources": [ [ "Heroes of the Wild" ] ],
 		"description": [
-			"::trait{title=\"&L&Beastkin&FN&\" type=\"Social\" benefit=\"Select one specific type of animal (such as wolves or apes). You were raised from infancy by an animal or pack of animals of that type. You learned their ways and have more in common with your beastly kin than members of any humanoid race. You gain a +1 trait bonus on Survival checks and can use ‹spell/speak with animals› as a spell-like ability at will to communicate with the type of animal that raised you.\"}"
+			"::trait{title=\"&L&Beastkin&FN&\" type=\"Social\" benefit=\"Select one specific type of animal (such as wolves or apes). You were raised from infancy by an animal or pack of animals of that type. You learned their ways and have more in common with your beastly kin than members of any humanoid race.~~~You gain a +1 trait bonus on ‹skill/Survival› checks and can use ‹spell/speak with animals› as a spell-like ability at will to communicate with the type of animal that raised you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-spell",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"binders_blood": {
 		"name": "Binder's Blood",
 		"compilationSources": [ [ "Monster Summoner's Handbook" ] ],
 		"description": [
-			"::trait{title=\"&L&Binder's Blood&FN&\" type=\"Social\" benefit=\"Your lineage features a large number of genie callers, granting you insight into the intricacies of genie binding. You gain a +2 trait bonus on any Charisma-based checks when directly interacting with a genie.\"}"
+			"::trait{title=\"&L&Binder's Blood&FN&\" type=\"Social\" flavor=\"Your lineage features a large number of genie callers, granting you insight into the intricacies of genie binding.\" benefit=\"You gain a +2 trait bonus on any Charisma-based checks when directly interacting with a genie.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"brastlewark_businessman_gog": {
 		"name": "Brastlewark Businessman (GoG)",
 		"compilationSources": [ [ "Gnomes of Golarion" ] ],
 		"description": [
-			"::trait{title=\"&L&Brastlewark Businessman (GoG)&FN&\" type=\"Social\" req=\"‹race/Gnome›\" benefit=\"Your time among the gnome elite of Brastlewark in Cheliax has led to an extensive knowledge of alchemy and ready connections in the business. You gain a +2 trait bonus on all Craft (alchemy) checks.\"}"
+			"::trait{title=\"&L&Brastlewark Businessman (GoG)&FN&\" type=\"Social\" req=\"‹race/Gnome›\" flavor=\"Your time among the gnome elite of Brastlewark in Cheliax has led to an extensive knowledge of alchemy and ready connections in the business.\" benefit=\"You gain a +2 trait bonus on all ‹skill/Craft› (alchemy) checks.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"bruising_intellect": {
 		"name": "Bruising Intellect",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Bruising Intellect&FN&\" type=\"Social\" benefit=\"Your sharp intellect and rapier-like wit bruise egos. Intimidate is always a class skill for you, and you may use your Intelligence modifier when making Intimidate checks instead of your Charisma modifier.\"}"
+			"::trait{title=\"&L&Bruising Intellect&FN&\" type=\"Social\" flavor=\"Your sharp intellect and rapier-like wit bruise egos.\" benefit=\"‹skill/Intimidate› is always a class skill for you, and you may use your Intelligence modifier when making Intimidate checks instead of your Charisma modifier.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"bully": {
@@ -2706,36 +2706,36 @@
 			[ "Advanced Player's Guide" ]
 		],
 		"description": [
-			"::trait{title=\"&L&Bully&FN&\" type=\"Social\" benefit=\"You grew up in an environment where the meek were ignored and you often had to resort to threats or violence to be heard. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you.\"}"
+			"::trait{title=\"&L&Bully&FN&\" type=\"Social\" flavor=\"You grew up in an environment where the meek were ignored and you often had to resort to threats or violence to be heard.\" benefit=\"You gain a +1 trait bonus on ‹skill/Intimidate› checks, and Intimidate is always a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"bureaucrats_favored": {
 		"name": "Bureaucrat's Favored",
 		"compilationSources": [ [ "Heroes of the High Court" ] ],
 		"description": [
-			"::trait{title=\"&L&Bureaucrat's Favored&FN&\" type=\"Social\" region=\"Osirion\" req=\"Associated with the court of the Black Dome\" benefit=\"You have gained favor with the government of Sothis. Once per week, you can attempt a DC 20 Diplomacy or Intimidate check to gain access to an exclusive site or event, such as a government building or an aristocrat's ball.\"}"
+			"::trait{title=\"&L&Bureaucrat's Favored&FN&\" type=\"Social\" region=\"Osirion\" req=\"Associated with the court of the Black Dome\" flavor=\"You have gained favor with the government of Sothis.\" benefit=\"Once per week, you can attempt a DC 20 ‹skill/Diplomacy› or ‹skill/Intimidate› check to gain access to an exclusive site or event, such as a government building or an aristocrat's ball.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"calculated_bribe": {
 		"name": "Calculated Bribe",
 		"compilationSources": [ [ "Knights of the Inner Sea" ] ],
 		"description": [
-			"::trait{title=\"&L&Calculated Bribe&FN&\" type=\"Social\" req=\"Code of Perseverance\" benefit=\"If you follow this code, you are keenly aware of the value of actions as well as goods. Once per day while haggling with a merchant or striking a bargain with another intelligent creature, you can spend a number of gold pieces equal to your level &times& 10 in order to reroll a Diplomacy check you just made, before the results are revealed. You must take the result of the reroll, even if it's worse than the original roll. In addition, you begin play with a set of extravagant noble's clothes worth 100 gp.\"}"
+			"::trait{title=\"&L&Calculated Bribe&FN&\" type=\"Social\" singleBreaks surs=\"Code of Perseverance~Knights who follow the code of perseverance believe that to truly serve a purpose, an organization or group of individuals must first look to its own survival. Deeds are temporary and forgotten with time. For an organization to be influential, it must persist. These knights collect power and wealth, always looking to the future. Their vows are as follows.~~~~~~- I will take on no challenges out of charity. Any task that I undertake for another individual will have an associated price, though it may not be monetary in nature.~~~- I shall let neither compassion nor hatred rob me of wealth. I will not give wealth away to those who have done nothing for me, nor shall I engage in needless destruction of potential resources.~~~- I will set aside a fraction of all my spoils to guard against any chances of future poverty.~~~- If I have an opportunity to seize power, I will not hesitate to take it if it will strengthen my position.~~~- I will not take unnecessary risks that place my future or the future of my organization in jeopardy.~hl\" flavor=\"If you follow this code, you are keenly aware of the value of actions as well as goods.\" benefit=\"Once per day while haggling with a merchant or striking a bargain with another intelligent creature, you can spend a number of gold pieces equal to your level &times& 10 in order to reroll a ‹skill/Diplomacy› check you just made, before the results are revealed. You must take the result of the reroll, even if it's worse than the original roll.~~~~~~In addition, you begin play with a set of extravagant noble's clothes worth 100 gp.\" subs=\"Penance~Knights who violate this code must perform penance by placing money into a fund to guard against their order's future poverty. The amount required for a knight to set aside is 100 gold &times& the knight's current level.~hl\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-item-code",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"callous": {
 		"name": "Callous",
 		"compilationSources": [ [ "Antihero's Handbook" ] ],
 		"description": [
-			"::trait{title=\"&L&Callous&FN&\" type=\"Social\" benefit=\"You have endured many hardships throughout your life, and this has hardened you to the suffering of others to the point that you are not easily swayed by a sad story. You gain a +4 trait bonus on Sense Motive checks that oppose the Bluff checks of creatures that attempt to deceive you by winning your sympathy.\"}"
+			"::trait{title=\"&L&Callous&FN&\" type=\"Social\" flavor=\"You have endured many hardships throughout your life, and this has hardened you to the suffering of others to the point that you are not easily swayed by a sad story.\" benefit=\"You gain a +4 trait bonus on ‹skill/Sense Motive› checks that oppose the ‹skill/Bluff› checks of creatures that attempt to deceive you by winning your sympathy.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"canter": {
@@ -2746,18 +2746,18 @@
 			[ "Second Darkness Player's Guide" ]
 		],
 		"description": [
-			"::trait{title=\"&L&Canter&FN&\" type=\"Social\" benefit=\"You grew up among thieves and scoundrels, and their unusual speech patterns and turns of phrase don't faze you in the slightest. Anyone who attempts to use Bluff to deliver a secret message to you gains a +5 bonus on her Bluff check. When you attempt to intercept a secret message using Sense Motive, you gain a +5 trait bonus on the attempt.\"}"
+			"::trait{title=\"&L&Canter&FN&\" type=\"Social\" flavor=\"You grew up among thieves and scoundrels, and their unusual speech patterns and turns of phrase don't faze you in the slightest.\" benefit=\"Anyone who attempts to use ‹skill/Bluff› to deliver a secret message to you gains a +5 bonus on her Bluff check. When you attempt to intercept a secret message using ‹skill/Sense Motive›, you gain a +5 trait bonus on the attempt.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"carnal_attraction": {
 		"name": "Carnal Attraction",
 		"compilationSources": [ [ "Agents of Evil" ] ],
 		"description": [
-			"::trait{title=\"&L&Carnal Attraction&FN&\" type=\"Social\" benefit=\"You know how to ask the wrong questions the right way, granting you a +2 trait bonus on Diplomacy (gather information) and Knowledge (local) checks regarding whichever vice fascinates you: drugs, forbidden lore, gambling, illegal fighting, or a similar debauchery or indecency.\"}"
+			"::trait{title=\"&L&Carnal Attraction&FN&\" type=\"Social\" benefit=\"You know how to ask the wrong questions the right way, granting you a +2 trait bonus on ‹skill/Diplomacy› (gather information) and ‹skill/Knowledge (local)› checks regarding whichever vice fascinates you: drugs, forbidden lore, gambling, illegal fighting, or a similar debauchery or indecency.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"charming": {
@@ -2768,18 +2768,18 @@
 			[ "Advanced Player's Guide" ]
 		],
 		"description": [
-			"::trait{title=\"&L&Charming&FN&\" type=\"Social\" benefit=\"Blessed with good looks, you've come to depend on the fact that others find you attractive. You gain a +1 trait bonus when you use Bluff or Diplomacy on a character that is (or could be) sexually attracted to you, and a +1 trait bonus to the save DC of any language-dependent spell you cast on such characters or creatures.\"}"
+			"::trait{title=\"&L&Charming&FN&\" type=\"Social\" flavor=\"Blessed with good looks, you've come to depend on the fact that others find you attractive.\" benefit=\"You gain a +1 trait bonus when you use ‹skill/Bluff› or ‹skill/Diplomacy› on a character that is (or could be) sexually attracted to you, and a +1 trait bonus to the save DC of any language-dependent spell you cast on such characters or creatures.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-magic",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"chelish_sympathizer": {
 		"name": "Chelish Sympathizer",
 		"compilationSources": [ [ "Spymaster's Handbook" ] ],
 		"description": [
-			"::trait{title=\"&L&Chelish Sympathizer&FN&\" type=\"Social\" benefit=\"You feed intelligence to the Thrice-Damned House of Thrune for your own gain or ideological reasons and are given valuable clues gathered by other Chelish spies in exchange. Once per month while in an Inner Sea region settlement of at least 2,000 people, you can call upon these connections to gain an edge in a verbal duel or gain a +2 bonus on one Bluff, Diplomacy, or Intimidate check.\"}"
+			"::trait{title=\"&L&Chelish Sympathizer&FN&\" type=\"Social\" flavor=\"You feed intelligence to the Thrice-Damned House of Thrune for your own gain or ideological reasons and are given valuable clues gathered by other Chelish spies in exchange.\" benefit=\"Once per month while in an Inner Sea region settlement of at least 2,000 people, you can call upon your connections to gain an edge in a ‹rule/verbal duel<s› or gain a +2 bonus on one ‹skill/Bluff›, ‹skill/Diplomacy›, or ‹skill/Intimidate› check.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"child_of_the_streets": {
@@ -2790,324 +2790,324 @@
 			[ "Second Darkness Player's Guide" ]
 		],
 		"description": [
-			"::trait{title=\"&L&Child of the Streets&FN&\" type=\"Social\" benefit=\"You grew up on the streets of a large city, and as a result you have developed a knack for picking pockets and hiding small objects on your person. You gain a +1 trait bonus on Sleight of Hand checks, and Sleight of Hand is always a class skill for you.\"}"
+			"::trait{title=\"&L&Child of the Streets&FN&\" type=\"Social\" flavor=\"You grew up on the streets of a large city, and as a result you have developed a knack for picking pockets and hiding small objects on your person.\" benefit=\"You gain a +1 trait bonus on ‹skill/Sleight of Hand› checks, and Sleight of Hand is always a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"chip_on_the_shoulder": {
 		"name": "Chip on the Shoulder",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
 		"description": [
-			"::trait{title=\"&L&Chip on the Shoulder&FN&\" type=\"Social\" benefit=\"When someone pushes you, you push back. Whenever a creature fails an Intimidate check against you, you gain a +2 trait bonus on your next Intimidate check against that creature. Intimidate becomes a class skill for you.\"}"
+			"::trait{title=\"&L&Chip on the Shoulder&FN&\" type=\"Social\" flavor=\"When someone pushes you, you push back.\" benefit=\"Whenever a creature fails an ‹skill/Intimidate› check against you, you gain a +2 trait bonus on your next Intimidate check against that creature. Intimidate becomes a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"civilized": {
 		"name": "Civilized",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Civilized&FN&\" type=\"Social\" benefit=\"You are well versed in the local laws, customs, and politics. You gain a +1 trait bonus on Knowledge (nobility) checks and Knowledge (local) checks. Knowledge (local) is always a class skill for you.\"}"
+			"::trait{title=\"&L&Civilized&FN&\" type=\"Social\" flavor=\"You are well versed in the local laws, customs, and politics.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (nobility)› checks and ‹skill/Knowledge (local)› checks. Knowledge (local) is always a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"clever_wordplay": {
 		"name": "Clever Wordplay",
 		"compilationSources": [ [ "Pathfinder Society Primer" ] ],
 		"description": [
-			"::trait{title=\"&L&Clever Wordplay&FN&\" type=\"Social\" benefit=\"Your cunning and logic are more than a match for another's confidence and poise. Choose one Charisma-based skill. You attempt checks with that skill using your Intelligence modifier instead of your Charisma modifier.\"}"
+			"::trait{title=\"&L&Clever Wordplay&FN&\" type=\"Social\" flavor=\"Your cunning and logic are more than a match for another's confidence and poise.\" benefit=\"Choose one Charisma-based skill. You attempt checks with that skill using your Intelligence modifier instead of your Charisma modifier.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"collector": {
 		"name": "Collector",
 		"compilationSources": [ [ "Gnomes of Golarion" ] ],
 		"description": [
-			"::trait{title=\"&L&Collector&FN&\" type=\"Social\" req=\"‹race/Gnome›\" benefit=\"You have a small, bizarre collection of apparently worthless items, such as rusty nails, animal droppings, clockwork cogs, or bent spoons. You find this strange menagerie useful in ways no non-gnome could understand. Seeking new items to add to this collection is endlessly fascinating to you, and while no one else may understand why a Chelish horsenail is worthy to add to your collection when a dwarven wheelbarrow nail is not, it all makes sense to you. Select one of the following skills: Craft (any one), Disable Device, Escape Artist, Perform (any one), or Spellcraft. Whenever you have your collection within 5 feet of you, you gain a +2 trait bonus on all checks made with the selected skill. Once this skill has been selected, it cannot be changed, nor can you gain it for any other collection you begin amassing.\"}"
+			"::trait{title=\"&L&Collector&FN&\" type=\"Social\" req=\"‹race/Gnome›\" flavor=\"You have a small, bizarre collection of apparently worthless items, such as rusty nails, animal droppings, clockwork cogs, or bent spoons. You find this strange menagerie useful in ways no non-gnome could understand. Seeking new items to add to this collection is endlessly fascinating to you, and while no one else may understand why a Chelish horsenail is worthy to add to your collection when a dwarven wheelbarrow nail is not, it all makes sense to you.\" benefit=\"Select one of the following skills: ‹skill/Craft› (any one), ‹skill/Disable Device›, ‹skill/Escape Artist›, ‹skill/Perform› (any one), or ‹skill/Spellcraft›. Whenever you have your collection within 5 feet of you, you gain a +2 trait bonus on all checks made with the selected skill.~~~Once this skill has been selected, it cannot be changed, nor can you gain it for any other collection you begin amassing.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"competitive": {
 		"name": "Competitive",
 		"compilationSources": [ [ "Quests and Campaigns" ] ],
 		"description": [
-			"::trait{title=\"&L&Competitive&FN&\" type=\"Social\" benefit=\"You grew up and were raised around fabulous sporting events, and your youth was consumed with a driving need to be better than everyone else. Any hint of a contest spurs you to your greatest heights of potential. Whenever another creature within 30 feet attempts a skill check and you attempt a check with the same skill before the start of that creature's next turn, you gain a +1 trait bonus on your check (this includes attempting an opposed skill check against the creature).~~~**Suggested Characters:** Brevans, Kurgess worshipers, Sargavans.\"}"
+			"::trait{title=\"&L&Competitive&FN&\" type=\"Social\" flavor=\"You grew up and were raised around fabulous sporting events, and your youth was consumed with a driving need to be better than everyone else. Any hint of a contest spurs you to your greatest heights of potential.\" benefit=\"Whenever another creature within 30 feet attempts a skill check and you attempt a check with the same skill before the start of that creature's next turn, you gain a +1 trait bonus on your check (this includes attempting an opposed skill check against the creature).~~~**Suggested Characters:** Brevans, Kurgess worshipers, Sargavans.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"contagious_mettle": {
 		"name": "Contagious Mettle",
 		"compilationSources": [ [ "Knights of the Inner Sea" ] ],
 		"description": [
-			"::trait{title=\"&L&Contagious Mettle&FN&\" type=\"Social\" req=\"Code of Valor\" benefit=\"If you follow this code, you gain a +1 trait bonus on Will saves against fear. In addition, any allies adjacent to you receive a +1 morale bonus on Will saves against fear.\"}"
+			"::trait{title=\"&L&Contagious Mettle&FN&\" type=\"Social\" singleBreaks surs=\"Code of Valor~Knights who follow the code of valor believe that nothing is more important than courage in battle. The strength of knights is determined by their willingness to stand in the face of overwhelming odds. Without valor, knighthood is merely a title. Their vows are as follows.~~~~~~- I will accept any challenge to combat if given honorably, regardless of my opponent.~~~- If I know combat to be the best course of action, I shall not let an enemy discourage me from it with a threat of overwhelming force.~~~- Once battle is a forgone conclusion, I will be among the first of my allies to charge and engage our foes.~~~- I shall not willingly succumb to fear. If retreat is a necessity, I will be among the last of my allies to leave the field of battle.~~~- I will not leave any of my allies on the field, nor will I abandon them while they are in immediate danger.~hl\" benefit=\"If you follow this code, you gain a +1 trait bonus on Will saves against fear. In addition, any allies adjacent to you receive a +1 morale bonus on Will saves against fear.\" subs=\"Penance~Knights who violate this code must perform penance by volunteering their service to a local militia, army, or fighting company for at least 1 week, whether by performing unusual missions, leading troops into battle, or assisting in the training of soldiers.~hl\"}"
 		],
-		"category": "Social",
+		"category": "Social-def-code",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"contemptuous": {
 		"name": "Contemptuous",
 		"compilationSources": [ [ "Antihero's Handbook" ] ],
 		"description": [
-			"::trait{title=\"&L&Contemptuous&FN&\" type=\"Social\" benefit=\"Whether you are a commoner who has come to despise the haughty upper crust or a holier-than-thou noble who can't stand being around the unwashed masses, your contempt drives you to study carefully, making sure you always have the upper hand in social exchanges with them. You gain a +1 trait bonus on Knowledge (local) checks and Knowledge (nobility) checks, and one of these skills becomes a class skill for you.\"}"
+			"::trait{title=\"&L&Contemptuous&FN&\" type=\"Social\" flavor=\"Whether you are a commoner who has come to despise the haughty upper crust or a holier-than-thou noble who can't stand being around the unwashed masses, your contempt drives you to study carefully, making sure you always have the upper hand in social exchanges with them.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (local) ›checks and ‹skill/Knowledge (nobility)› checks, and one of these skills becomes a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"convincing_liar": {
 		"name": "Convincing Liar",
 		"compilationSources": [ [ "Faction Guide" ] ],
 		"description": [
-			"::trait{title=\"&L&Convincing Liar&FN&\" type=\"Social\" req=\"Member of The ‹rule/Bellflower Network›\" benefit=\"You've spent your life perfecting the art of half-truths in order to accomplish what you need to. You gain a +1 trait bonus on Bluff or Intimidate checks and one of these skills (your choice) is a class skill for you.\"}"
+			"::trait{title=\"&L&Convincing Liar&FN&\" type=\"Social\" req=\"Member of The ‹rule/Bellflower Network›\" flavor=\"You've spent your life perfecting the art of half-truths in order to accomplish what you need to.\" benefit=\"You gain a +1 trait bonus on ‹skill/Bluff› or ‹skill/Intimidate› checks and one of these skills (your choice) is a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"criminal": {
 		"name": "Criminal",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Criminal&FN&\" type=\"Social\" benefit=\"You spent your early life robbing and stealing to get by. Select one of the following skills: Disable Device, Intimidate, or Sleight of Hand. You gain a +1 trait bonus on that skill, and it is always a class skill for you.\"}"
+			"::trait{title=\"&L&Criminal&FN&\" type=\"Social\" flavor=\"You spent your early life robbing and stealing to get by.\" benefit=\"Select one of the following skills: ‹skill/Disable Device›, ‹skill/Intimidate›, or ‹skill/Sleight of Hand›. You gain a +1 trait bonus on that skill, and it is always a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"criminal_roots": {
 		"name": "Criminal Roots",
 		"compilationSources": [ [ "Spymaster's Handbook" ] ],
 		"description": [
-			"::trait{title=\"&L&Criminal Roots&FN&\" type=\"Social\" benefit=\"Your family has long operated outside the law. You gain a +2 trait bonus on Diplomacy checks to influence criminals and on Intimidate checks to influence law-abiding citizens, but take a -2 penalty on Diplomacy checks to influence law-abiding citizens. Diplomacy or Intimidate (your choice) is a class skill for you.\"}"
+			"::trait{title=\"&L&Criminal Roots&FN&\" type=\"Social\" flavor=\"Your family has long operated outside the law.\" benefit=\"You gain a +2 trait bonus on ‹skill/Diplomacy› checks to influence criminals and on ‹skill/Intimidate› checks to influence law-abiding citizens, but take a -2 penalty on Diplomacy checks to influence law-abiding citizens. Diplomacy or Intimidate (your choice) is a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"criminally_connected": {
 		"name": "Criminally Connected",
 		"compilationSources": [ [ "Antihero's Handbook" ] ],
 		"description": [
-			"::trait{title=\"&L&Criminally Connected&FN&\" type=\"Social\" benefit=\"You have spent a lot of time dealing with the criminal underworld - so much that it might be hard for observers to see you as distinct from it. However, this familiarity gives you a leg up on heroes who refuse to muddy their reputation. While in settlements, you gain a +1 trait bonus on Knowledge (local) checks and on Diplomacy checks to gather information.\"}"
+			"::trait{title=\"&L&Criminally Connected&FN&\" type=\"Social\" flavor=\"You have spent a lot of time dealing with the criminal underworld - so much that it might be hard for observers to see you as distinct from it. However, this familiarity gives you a leg up on heroes who refuse to muddy their reputation.\" benefit=\"While in settlements, you gain a +1 trait bonus on ‹skill/Knowledge (local)› checks and on ‹skill/Diplomacy› checks to gather information.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"cutting_condescension": {
 		"name": "Cutting Condescension",
 		"compilationSources": [ [ "Heroes of the Streets" ] ],
 		"description": [
-			"::trait{title=\"&L&Cutting Condescension&FN&\" type=\"Social\" benefit=\"The Sable Company has taught you to quickly get compliance from those in your way. You gain a +2 trait bonus on Intimidate checks to force a creature to act friendly towards you, and can attempt such checks in half the normal time.\"}"
+			"::trait{title=\"&L&Cutting Condescension&FN&\" type=\"Social\" flavor=\"The Sable Company has taught you to quickly get compliance from those in your way.\" benefit=\"You gain a +2 trait bonus on ‹skill/Intimidate› checks to force a creature to act friendly towards you, and can attempt such checks in half the normal time.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"cynical": {
 		"name": "Cynical",
 		"compilationSources": [ [ "Antihero's Handbook" ] ],
 		"description": [
-			"::trait{title=\"&L&Cynical&FN&\" type=\"Social\" benefit=\"You have seen many heroes in your time, but you see only their capacity for failure and the ways they fall short of being truly good. This practice in looking past facades has proven a useful skill. You gain a +1 trait bonus on saving throws against illusions and charm effects.\"}"
+			"::trait{title=\"&L&Cynical&FN&\" type=\"Social\" flavor=\"You have seen many heroes in your time, but you see only their capacity for failure and the ways they fall short of being truly good. This practice in looking past facades has proven a useful skill.\" benefit=\"You gain a +1 trait bonus on saving throws against illusions and charm effects.\"}"
 		],
-		"category": "Social",
+		"category": "Social-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"cynical_ear": {
 		"name": "Cynical Ear",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
 		"description": [
-			"::trait{title=\"&L&Cynical Ear&FN&\" type=\"Social\" benefit=\"Neither honeyed tongues or righteous wrath move you much. Add 2 when determining your Hit Dice for Intimidate checks, and increase the DC or all Diplomacy checks against you by 2.\"}"
+			"::trait{title=\"&L&Cynical Ear&FN&\" type=\"Social\" flavor=\"Neither honeyed tongues or righteous wrath move you much.\" benefit=\"Add 2 when determining your Hit Dice for ‹skill/Intimidate› checks, and increase the DC or all ‹skill/Diplomacy› checks against you by 2.\"}"
 		],
-		"category": "Social",
+		"category": "Social-def-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"darklands_scholar": {
 		"name": "Darklands Scholar",
 		"compilationSources": [ [ "Heroes of the Darklands" ] ],
 		"description": [
-			"::trait{title=\"&L&Darklands Scholar&FN&\" type=\"Social\" benefit=\"Unsatisfied with mere stories, you have spent years researching journals and firsthand accounts of those who explored the Darklands before you. You gain a +2 trait bonus on Knowledge checks to identify the weaknesses of Darklands creatures.\"}"
+			"::trait{title=\"&L&Darklands Scholar&FN&\" type=\"Social\" flavor=\"Unsatisfied with mere stories, you have spent years researching journals and firsthand accounts of those who explored the Darklands before you.\" benefit=\"You gain a +2 trait bonus on ‹skill/Knowledge› checks to identify the weaknesses of Darklands creatures.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"darklands_trader": {
 		"name": "Darklands Trader",
 		"compilationSources": [ [ "Heroes of the Darklands" ] ],
 		"description": [
-			"::trait{title=\"&L&Darklands Trader&FN&\" type=\"Social\" benefit=\"You're familiar with Nar-Voth's trade routes and negotiation involving the denizens of the Darklands. You gain a +1 trait bonus on Diplomacy checks relating to subterranean trade and on Knowledge (dungeoneering) checks relating to subterranean creatures. Select one of these skills to be a class skill for you.\"}"
+			"::trait{title=\"&L&Darklands Trader&FN&\" type=\"Social\" flavor=\"You're familiar with Nar-Voth's trade routes and negotiation involving the denizens of the Darklands.\" benefit=\"You gain a +1 trait bonus on ‹skill/Diplomacy› checks relating to subterranean trade and on ‹skill/Knowledge (dungeoneering)› checks relating to subterranean creatures. Select one of these skills to be a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"debauchery_defier": {
 		"name": "Debauchery Defier",
 		"compilationSources": [ [ "Heroes of the High Court" ] ],
 		"description": [
-			"::trait{title=\"&L&Debauchery Defier&FN&\" type=\"Social\" region=\"Taldor\" req=\"Associated with the court of the Imperial Palace of Taldor\" benefit=\"You are particularly adept at resisting addiction. You must fail two saving throws in a row to become addicted to a drug.\"}"
+			"::trait{title=\"&L&Debauchery Defier&FN&\" type=\"Social\" region=\"Taldor\" req=\"Associated with the court of the Imperial Palace of Taldor\" flavor=\"You are particularly adept at resisting addiction.\" benefit=\"You must fail two saving throws in a row to become addicted to a drug.\"}"
 		],
-		"category": "Social",
+		"category": "Social-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"deep_cover": {
 		"name": "Deep Cover",
 		"compilationSources": [ [ "Spymaster's Handbook" ] ],
 		"description": [
-			"::trait{title=\"&L&Deep Cover&FN&\" type=\"Social\" benefit=\"You have lived a double life since your youth, perhaps to avoid persecution for your true identity or in service to an enemy of the people or group associated with your cover identity. You can always take 10 on Bluff and Disguise checks to assume and maintain your cover identity. Bluff or Disguise (your choice) is a class skill for you.\"}"
+			"::trait{title=\"&L&Deep Cover&FN&\" type=\"Social\" flavor=\"You have lived a double life since your youth, perhaps to avoid persecution for your true identity or in service to an enemy of the people or group associated with your cover identity.\" benefit=\"You can always take 10 on ‹skill/Bluff› and ‹skill/Disguise› checks to assume and maintain your cover identity. Bluff or Disguise (your choice) is a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"destined_diplomat": {
 		"name": "Destined Diplomat",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Destined Diplomat&FN&\" type=\"Social\" benefit=\"Your relationship with your eidolon gives you some clout with other outsiders. You gain a +2 trait bonus on Diplomacy checks toward outsiders, and Diplomacy is always a class skill for you.\"}"
+			"::trait{title=\"&L&Destined Diplomat&FN&\" type=\"Social\" flavor=\"Your relationship with your eidolon gives you some clout with other outsiders.\" benefit=\"You gain a +2 trait bonus on ‹skill/Diplomacy› checks toward outsiders, and Diplomacy is always a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-cs-class-summ",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"detect_disobedience": {
 		"name": "Detect Disobedience",
 		"compilationSources": [ [ "Champions of Corruption" ] ],
 		"description": [
-			"::trait{title=\"&L&Detect Disobedience&FN&\" type=\"Social\" benefit=\"You have an uncanny ability to spot a mutiny brewing. You gain a +2 trait bonus on Sense Motive checks to detect when an underling is trying to hide something from you, and can attempt such checks instead of Perception checks to notice and react to a subordinate's surprise attack against you.\"}"
+			"::trait{title=\"&L&Detect Disobedience&FN&\" type=\"Social\" flavor=\"You have an uncanny ability to spot a mutiny brewing.\" benefit=\"You gain a +2 trait bonus on ‹skill/Sense Motive› checks to detect when an underling is trying to hide something from you, and can attempt such checks instead of Perception checks to notice and react to a subordinate's surprise attack against you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"dismantle_order": {
 		"name": "Dismantle Order",
 		"compilationSources": [ [ "Knights of the Inner Sea" ] ],
 		"description": [
-			"::trait{title=\"&L&Dismantle Order&FN&\" type=\"Social\" req=\"Code of Revolution\" benefit=\"If you follow this code, your appreciation for unfettered social freedom allows you to locate supporters of law with supernatural ease. Once per day, you can use ‹spell/detect law› as a spell-like ability (caster level 1st). If you have levels in a class that can cast detect law, your caster level for this spell-like ability is equal to that class level.\"}"
+			"::trait{title=\"&L&Dismantle Order&FN&\" type=\"Social\" surs=\"Code of Revolution~Knights who follow the code of revolution believe that strict laws are an unnecessary bulwark standing in the way of social progress. According to these knights, intelligent and civilized people are inherently good-natured, and if left to their own devices, individuals would prove more wholesome and attuned to the natural order of things than when tainted by the unnatural strictures of organized society. Their vows are as follows.~~~~~~- The wicked must be punished, though not by the hands of corrupted officials or easily swayed politicians.~~~- I shall not let stand acts of unfairness performed by governments or their harbingers. Those who contribute to an organized system of cruelty shall feel my wrath.~~~- All prisoners, regardless of whether they were convicted or not, deserve a second chance.~~~- Tribal or lawless societies exemplify the natural order, and under my watch shall not come to harm from those who would seek to rule them.~~~- Those creatures who live free shall see no harm fall to them by myself or my sword.~~~- I shall not place unnecessary value on material possessions, as such things are fleeting, whereas deeds are immortal.~hl\" flavor=\"If you follow this code, your appreciation for unfettered social freedom allows you to locate supporters of law with supernatural ease.\" benefit=\"Once per day, you can use ‹spell/detect law› as a spell-like ability (caster level 1st). If you have levels in a class that can cast *detect law,* your caster level for this spell-like ability is equal to that class level.\" subs=\"Penance~Knights who follow this code and violate one of its tenets must separate themselves from society in order to atone for their misdoing. The minimum amount of time spent wholly isolated from civilization is 1 week, though this time might be increased to up to 1 month, depending on the transgression.~hl\"}"
 		],
-		"category": "Social",
+		"category": "Social-code-spell",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"doublespeak": {
 		"name": "Doublespeak",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
 		"description": [
-			"::trait{title=\"&L&Doublespeak&FN&\" type=\"Social\" benefit=\"It isn't what you say - it's how you say it. You gain a +2 trait bonus on Bluff checks to pass along secret messages.\"}"
+			"::trait{title=\"&L&Doublespeak&FN&\" type=\"Social\" flavor=\"It isn't what you say - it's how you say it.\" benefit=\"You gain a +2 trait bonus on ‹skill/Bluff› checks to pass along secret messages.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"draconic_destiny": {
 		"name": "Draconic Destiny",
 		"compilationSources": [ [ "Legacy of Dragons" ] ],
 		"description": [
-			"::trait{title=\"&L&Draconic Destiny&FN&\" type=\"Social\" benefit=\"Whether you are aware of it or not, the moment of your birth was but one part of a far-reaching machination in a dragon's grand design, and the influence of that mysterious plan makes you a little harder to kill. When dying, you gain a +2 trait bonus on Constitution checks to become stable. In addition, you die from hit point loss only once your hit points equal or exceed a negative amount equal to your Constitution score + 2.\"}"
+			"::trait{title=\"&L&Draconic Destiny&FN&\" type=\"Social\" flavor=\"Whether you are aware of it or not, the moment of your birth was but one part of a far-reaching machination in a dragon's grand design, and the influence of that mysterious plan makes you a little harder to kill.\" benefit=\"When ‹misc/dying›, you gain a +2 trait bonus on Constitution checks to become stable. In addition, you die from hit point loss only once your hit points equal or exceed a negative amount equal to your Constitution score + 2.\"}"
 		],
-		"category": "Social",
+		"category": "Social-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"dragon_hunted": {
 		"name": "Dragon-Hunted",
 		"compilationSources": [ [ "Legacy of Dragons" ] ],
 		"description": [
-			"::trait{title=\"&L&Dragon-Hunted&FN&\" type=\"Social\" benefit=\"You've survived being hunted by the draconic nightmares on the Shackles islands of Dahak's Fang, Dahak's Horn, or Dahak's Tooth. You gain a +1 trait bonus on Will saves against fear effects, and against any saving throw from a spell or effect created by a dragon.\"}"
+			"::trait{title=\"&L&Dragon-Hunted&FN&\" type=\"Social\" flavor=\"You've survived being hunted by the draconic nightmares on the Shackles islands of Dahak's Fang, Dahak's Horn, or Dahak's Tooth.\" benefit=\"You gain a +1 trait bonus on Will saves against fear effects, and against any saving throw from a spell or effect created by a dragon.\"}"
 		],
-		"category": "Social",
+		"category": "Social-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"dragon_pact": {
 		"name": "Dragon Pact",
 		"compilationSources": [ [ "Legacy of Dragons" ] ],
 		"description": [
-			"::trait{title=\"&L&Dragon Pact&FN&\" type=\"Social\" benefit=\"At some point your family served a dragon, and acted as its emissary to others. Some members of your family have benefited from this arrangement, gaining some small fraction of that dragon's noble bearing. Choose one category of true dragon (chromatic, metallic, primal, etc.). You gain a +1 trait bonus on Diplomacy checks against that category of dragon and a +1 trait bonus on Intimidate checks against all creatures of the dragon type that are not of the same category of true dragon.\"}"
+			"::trait{title=\"&L&Dragon Pact&FN&\" type=\"Social\" flavor=\"At some point your family served a dragon, and acted as its emissary to others. Some members of your family have benefited from this arrangement, gaining some small fraction of that dragon's noble bearing.\" benefit=\"Choose one category of ‹family/true dragon› (chromatic, metallic, primal, etc.). You gain a +1 trait bonus on ‹skill/Diplomacy› checks against that category of dragon and a +1 trait bonus on ‹skill/Intimidate› checks against all creatures of the dragon type that are not of the same category of true dragon.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"drake_anatomist": {
 		"name": "Drake Anatomist",
 		"compilationSources": [ [ "Legacy of Dragons" ] ],
 		"description": [
-			"::trait{title=\"&L&Drake Anatomist&FN&\" type=\"Social\" benefit=\"You gain a +1 trait bonus on damage rolls against creatures with the dragon creature type, and a +2 trait bonus on Knowledge (arcana) checks to identify dragons and their special powers and vulnerabilities.\"}"
+			"::trait{title=\"&L&Drake Anatomist&FN&\" type=\"Social\" benefit=\"You gain a +1 trait bonus on damage rolls against creatures with the dragon creature type, and a +2 trait bonus on ‹skill/Knowledge (arcana)› checks to identify dragons and their special powers and vulnerabilities.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-off",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"dusk_market_bribery": {
 		"name": "Dusk Market Bribery",
 		"compilationSources": [ [ "Black Markets" ] ],
 		"description": [
-			"::trait{title=\"&L&Dusk Market Bribery&FN&\" type=\"Social\" benefit=\"You learned how to bribe by watching ‹rule/Dusk Market› merchants interact with Westcrown's dottari guards. Reduce the amount of gold you must spend to bribe a guard or official or compensate a conjured creature by 5%.\"}"
+			"::trait{title=\"&L&Dusk Market Bribery&FN&\" type=\"Social\" flavor=\"You learned how to bribe by watching ‹rule/Dusk Market› merchants interact with Westcrown's dottari guards.\" benefit=\"Reduce the amount of gold you must spend to bribe a guard or official or compensate a conjured creature by 5%.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"ecumenical": {
 		"name": "Ecumenical",
 		"compilationSources": [ [ "Disciple's Doctrine" ] ],
 		"description": [
-			"::trait{title=\"&L&Ecumenical&FN&\" type=\"Social\" benefit=\"Your childhood in Magnimar (or in a similar cosmopolitan city) taught you to recognize signs of worship of demigods such as empyreal lords. You gain a +2 trait bonus on Knowledge (religion) checks involving entities other than the most influential gods. You also gain a +2 trait bonus on Diplomacy checks to influence worshipers of such entities.\"}"
+			"::trait{title=\"&L&Ecumenical&FN&\" type=\"Social\" flavor=\"Your childhood in Magnimar (or in a similar cosmopolitan city) taught you to recognize signs of worship of demigods such as empyreal lords.\" benefit=\"You gain a +2 trait bonus on ‹skill/Knowledge (religion)› checks involving entities other than the most influential gods. You also gain a +2 trait bonus on ‹skill/Diplomacy› checks to influence worshipers of such entities.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"elemental_negotiator": {
 		"name": "Elemental Negotiator",
 		"compilationSources": [ [ "Elemental Master's Handbook" ] ],
 		"description": [
-			"::trait{title=\"&L&Elemental Negotiator&FN&\" type=\"Social\" benefit=\"You have traveled to the Elemental Planes under the protection of a powerful group of merchants or spellcasters. At character creation, you learn one of the following languages as a bonus language: Aquan, Auran, Ignan, or Terran. Additionally, your options for bonus languages from having a high Intelligence score include the other three elemental languages, in addition to those language options allowed by your race and class. You gain a +2 trait bonus on Diplomacy and Bluff checks when using one of these languages to communicate with a creature originating from the language's corresponding Elemental Plane.\"}"
+			"::trait{title=\"&L&Elemental Negotiator&FN&\" type=\"Social\" flavor=\"You have traveled to the Elemental Planes under the protection of a powerful group of merchants or spellcasters.\" benefit=\"At character creation, you learn one of the following languages as a bonus language: Aquan, Auran, Ignan, or Terran. Additionally, your options for bonus languages from having a high Intelligence score include the other three elemental languages, in addition to those language options allowed by your race and class.~~~You gain a +2 trait bonus on ‹skill/Diplomacy› and ‹skill/Bluff› checks when using one of these languages to communicate with a creature originating from the language's corresponding Elemental Plane.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"enemy_of_slavers": {
 		"name": "Enemy of Slavers",
 		"compilationSources": [ [ "Knights of the Inner Sea" ] ],
 		"description": [
-			"::trait{title=\"&L&Enemy of Slavers&FN&\" type=\"Social\" req=\"Code of Freedom\" benefit=\"If you follow this code, you are known to be single-minded with regard to slavery, and this fervent belief is easily perceived by others. Those who deal in flesh have a greater desire to appease you before matters escalate to confrontation, knowing that your wrath will be unwavering and swift. You gain a +2 trait bonus on Diplomacy and Intimidate checks made to sway the minds of slavers and anyone who otherwise keeps innocent people against their will.\"}"
+			"::trait{title=\"&L&Enemy of Slavers&FN&\" type=\"Social\" singleBreaks surs=\"Code of Freedom~Knights who follow the code of freedom believe that no man, woman, or child should be owned by another individual. They believe that all of the humanoid races, even those of monstrous descent, deserve to be given a chance to make their own decisions in life. Their vows are as follows.~~~~~~- I will not tolerate slavery in any form. If I witness one individual being sold to another, I will intervene with words or actions as necessary.~~~- If I encounter any escaped slaves, I will make it my duty to take them under my care until they find a safe home.~~~- I shall not willingly deal with any who support or benefit from slavery.~~~- I keep no slaves. Those who wait upon me do so of their own volition or because they are in my employ and are treated with the utmost respect.~~~- When visiting others who keep servants, I will treat them honorably. I shall inquire as to their happiness and treatment. Those who are treated as no more than slaves will gain my strength to support them.~~~- Shackles and bonds are forbidden unless used on an individual convicted of a crime. Placing another person in chains is akin to being a slaver.~hl\" benefit=\"If you follow this code, you are known to be single-minded with regard to slavery, and this fervent belief is easily perceived by others. Those who deal in flesh have a greater desire to appease you before matters escalate to confrontation, knowing that your wrath will be unwavering and swift.~~~You gain a +2 trait bonus on ‹skill/Diplomacy› and ‹skill/Intimidate› checks made to sway the minds of slavers and anyone who otherwise keeps innocent people against their will.\" subs=\"Penance~Knights who violate any of this code's tenets must perform penance by placing themselves in servitude to the individual who was wronged. If the exact individual cannot be found, a person of equivalent social class is sufficient. The length of servitude is dependent on the severity of the transgression. Minor transgressions require a day. If an entire family was enslaved as a result of the knight's actions (or inaction), up to a month of servitude might be required.~hl\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-code",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"escaped_captive": {
 		"name": "Escaped Captive",
 		"compilationSources": [ [ "Heroes of the Darklands" ] ],
 		"description": [
-			"::trait{title=\"&L&Escaped Captive&FN&\" type=\"Social\" benefit=\"Whether you were on your way to becoming a drow slave or slated for the ghoul chattel pits, you very narrowly avoided a life of miserable captivity. You make a habit of avoiding restraints or tight spaces, gaining a +1 trait bonus on Escape Artist checks and a +2 trait bonus to CMD to avoid being pinned.\"}"
+			"::trait{title=\"&L&Escaped Captive&FN&\" type=\"Social\" flavor=\"Whether you were on your way to becoming a drow slave or slated for the ghoul chattel pits, you very narrowly avoided a life of miserable captivity.\" benefit=\"You make a habit of avoiding restraints or tight spaces, gaining a +1 trait bonus on ‹skill/Escape Artist› checks and a +2 trait bonus to CMD to avoid being pinned.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"etymologist": {
 		"name": "Etymologist",
 		"compilationSources": [ [ "Gnomes of Golarion" ] ],
 		"description": [
-			"::trait{title=\"&L&Etymologist&FN&\" type=\"Social\" req=\"‹race/Gnome›\" benefit=\"When you, like all other young gnomes, were taught the hodgepodge Gnome language, you became curious about the original meaning of each word and what language it was derived from. Anytime you come across a new language, you are immediately absorbed by both how it works and what words you can co-opt from it for the Gnome language. You gain a +1 trait bonus on Linguistics checks, know one additional bonus language, and treat Linguistics as a class skill.\"}"
+			"::trait{title=\"&L&Etymologist&FN&\" type=\"Social\" req=\"‹race/Gnome›\" flavor=\"When you, like all other young gnomes, were taught the hodgepodge Gnome language, you became curious about the original meaning of each word and what language it was derived from. Anytime you come across a new language, you are immediately absorbed by both how it works and what words you can co-opt from it for the Gnome language.\" benefit=\"You gain a +1 trait bonus on ‹skill/Linguistics› checks, know one additional bonus language, and treat Linguistics as a class skill.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"excellent_penmanship": {
 		"name": "Excellent Penmanship",
 		"compilationSources": [ [ "Blood of the Ancients", 23 ] ],
 		"description": [
-			"::trait{title=\"&L&Excellent Penmanship&FN&\" type=\"Social\" benefit=\"You are a master of calligraphy, an art once highly valued in Lung Wa and still held in high esteem in Lingshen. The DC to detect forgeries you create increases by 2. If you attempt to persuade someone via a written message, you gain a +2 bonus on any Bluff, Diplomacy, or Intimidate check attempted for that communication. Linguistics is always a class skill for you.\"}"
+			"::trait{title=\"&L&Excellent Penmanship&FN&\" type=\"Social\" flavor=\"You are a master of calligraphy, an art once highly valued in Lung Wa and still held in high esteem in Lingshen.\" benefit=\"The DC to detect forgeries you create increases by 2. If you attempt to persuade someone via a written message, you gain a +2 bonus on any ‹skill/Bluff›, ‹skill/Diplomacy›, or ‹skill/Intimidate› check attempted for that communication. ‹skill/Linguistics› is always a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"explorer": {
 		"name": "Explorer",
 		"compilationSources": [ [ "Gnomes of Golarion" ] ],
 		"description": [
-			"::trait{title=\"&L&Explorer&FN&\" type=\"Social\" req=\"‹race/Gnome›\" benefit=\"Though many gnomes settle down in communities large enough and interesting enough to provide them with all the stimulation they need to ward off the Bleaching, you're never going to be one of them. You are always looking around the next bend in the road or over the next hill, past the borders of where you are to where you want to be. At the beginning of each character level, select one desired terrain type from the following list: cold, desert, forest, jungle, mountains (including hills), plains, planes (other than the Material Plane), swamp, underground (including caves and dungeons), urban, or water. You gain a +2 bonus on all Survival checks made in your desired terrain type. At the beginning of each level, you must select a new desired terrain type to replace the old one (you cannot take the same desired terrain type two levels in a row).\"}"
+			"::trait{title=\"&L&Explorer&FN&\" type=\"Social\" req=\"‹race/Gnome›\" flavor=\"Though many gnomes settle down in communities large enough and interesting enough to provide them with all the stimulation they need to ward off the Bleaching, you're never going to be one of them. You are always looking around the next bend in the road or over the next hill, past the borders of where you are to where you want to be.\" benefit=\"At the beginning of each character level, select one desired terrain type from the following list: cold, desert, forest, jungle, mountains (including hills), plains, planes (other than the Material Plane), swamp, underground (including caves and dungeons), urban, or water. You gain a +2 bonus on all ‹skill/Survival› checks made in your desired terrain type.~~~At the beginning of each level, you must select a new desired terrain type to replace the old one (you cannot take the same desired terrain type two levels in a row).\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"expressive_pantomime": {
 		"name": "Expressive Pantomime",
 		"compilationSources": [ [ "Monster Summoner's Handbook" ] ],
 		"description": [
-			"::trait{title=\"&L&Expressive Pantomime&FN&\" type=\"Social\" benefit=\"You have learned to express yourself without having to depend on words. When attempting a Bluff check to deliver a secret message, you can take a -5 penalty on the check to communicate a simple message even to creatures that do not share a language with you. You cannot communicate with mindless creatures.\"}"
+			"::trait{title=\"&L&Expressive Pantomime&FN&\" type=\"Social\" flavor=\"You have learned to express yourself without having to depend on words.\" benefit=\"When attempting a ‹skill/Bluff› check to deliver a secret message, you can take a -5 penalty on the check to communicate a simple message even to creatures that do not share a language with you. You cannot communicate with mindless creatures.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"fast_talker": {
@@ -3118,261 +3118,261 @@
 			[ "Advanced Player's Guide" ]
 		],
 		"description": [
-			"::trait{title=\"&L&Fast Talker&FN&\" type=\"Social\" benefit=\"You had a knack for getting yourself into trouble as a child, and as a result developed a silver tongue at an early age. You gain a +1 trait bonus on Bluff checks, and Bluff is always a class skill for you.\"}"
+			"::trait{title=\"&L&Fast Talker&FN&\" type=\"Social\" flavor=\"You had a knack for getting yourself into trouble as a child, and as a result developed a silver tongue at an early age.\" benefit=\"You gain a +1 trait bonus on ‹skill/Bluff› checks, and Bluff is always a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"feral_speech": {
 		"name": "Feral Speech",
 		"compilationSources": [ [ "Heroes of the Wild" ] ],
 		"description": [
-			"::trait{title=\"&L&Feral Speech&FN&\" type=\"Social\" benefit=\"You were raised in a community that included numerous individuals who spoke with creatures of the wild. You gain one of the following languages of your choice as a bonus language: Aklo, Aquan, Auran, Giant, Ignan, or Sylvan. With your GM's permission, you can instead select Druidic, but druids are protective of their language - you are likely to find yourself hunted by druids wishing to eliminate you as a threat to their sole ownership of their secrets.\"}"
+			"::trait{title=\"&L&Feral Speech&FN&\" type=\"Social\" flavor=\"You were raised in a community that included numerous individuals who spoke with creatures of the wild.\" benefit=\"You gain one of the following languages of your choice as a bonus language: Aklo, Aquan, Auran, Giant, Ignan, or Sylvan. With your GM's permission, you can instead select Druidic, but druids are protective of their language - you are likely to find yourself hunted by druids wishing to eliminate you as a threat to their sole ownership of their secrets.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"for_the_money": {
 		"name": "For the Money",
 		"compilationSources": [ [ "Agents of Evil" ] ],
 		"description": [
-			"::trait{title=\"&L&For the Money&FN&\" type=\"Social\" benefit=\"You gain a +2 trait bonus on skill checks to haggle prices or negotiate payment; this bonus increases to +4 if you are in a position of military or economic power over your target. You also gain a +1 trait bonus on Appraise checks and Appraise is always a class skill for you.\"}"
+			"::trait{title=\"&L&For the Money&FN&\" type=\"Social\" benefit=\"You gain a +2 trait bonus on skill checks to haggle prices or negotiate payment; this bonus increases to +4 if you are in a position of military or economic power over your target. You also gain a +1 trait bonus on ‹skill/Appraise› checks and Appraise is always a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"founders_heritage": {
 		"name": "Founders' Heritage",
 		"compilationSources": [ [ "Arcane Anthology" ] ],
 		"description": [
-			"::trait{title=\"&L&Founders' Heritage&FN&\" type=\"Social\" benefit=\"You can trace your family line back to one of the founding families of Absalom that was called by Aroden to aid him in establishing the city because of their vision and potential. You gain a +1 trait bonus on Charisma-based skill checks to influence citizens of Absalom.\"}"
+			"::trait{title=\"&L&Founders' Heritage&FN&\" type=\"Social\" flavor=\"You can trace your family line back to one of the founding families of Absalom that was called by Aroden to aid him in establishing the city because of their vision and potential.\" benefit=\"You gain a +1 trait bonus on Charisma-based skill checks to influence citizens of Absalom.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"free_spirit": {
 		"name": "Free Spirit",
 		"compilationSources": [ [ "Quests and Campaigns" ] ],
 		"description": [
-			"::trait{title=\"&L&Free Spirit&FN&\" type=\"Social\" benefit=\"You respect the freedom of others to speak as they will. Your rough-and-tumble youth taught you that everyone deserves a chance to say her piece. After all, you can always simply choose to ignore the speaker. You gain a +1 trait bonus on saving throws against language-dependent and effects with the sonic descriptor. In addition, the DC to Intimidate you increases by 2.~~~**Suggested Characters:** Andorens, Desnans, Erastil worshipers.\"}"
+			"::trait{title=\"&L&Free Spirit&FN&\" type=\"Social\" flavor=\"You respect the freedom of others to speak as they will. Your rough-and-tumble youth taught you that everyone deserves a chance to say her piece. After all, you can always simply choose to ignore the speaker.\" benefit=\"You gain a +1 trait bonus on saving throws against language-dependent and effects with the sonic descriptor. In addition, the DC to ‹skill/Intimidate› you increases by 2.~~~**Suggested Characters:** Andorens, Desnans, Erastil worshipers.\"}"
 		],
-		"category": "Social",
+		"category": "Social-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"friend_in_every_town": {
 		"name": "Friend in Every Town",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Friend in Every Town&FN&\" type=\"Social\" benefit=\"You have no problem making friends and learning information from them wherever you go. You gain a +1 trait bonus on all Knowledge (local) checks and Diplomacy checks. One of these skills (your choice) is always a class skill for you.\"}"
+			"::trait{title=\"&L&Friend in Every Town&FN&\" type=\"Social\" flavor=\"You have no problem making friends and learning information from them wherever you go.\" benefit=\"You gain a +1 trait bonus on all ‹skill/Knowledge (local)› checks and ‹skill/Diplomacy› checks. One of these skills (your choice) is always a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"friends_in_high_places": {
 		"name": "Friends in High Places",
 		"compilationSources": [ [ "Quests and Campaigns" ] ],
 		"description": [
-			"::trait{title=\"&L&Friends in High Places&FN&\" type=\"Social\" benefit=\"You have often seen lawbreakers go free when they demonstrate they have friends in high places, and so you put special effort into befriending powerful people yourself. Whenever you are in an area in which you have used the Diplomacy skill to gather information, you gain a +1 trait bonus on Diplomacy and Intimidate checks. This bonus increases to +2 when dealing with government officials.~~~**Suggested Characters:** Absalom natives, ‹rule/Aspis Consortium› agents, Taldans.\"}"
+			"::trait{title=\"&L&Friends in High Places&FN&\" type=\"Social\" flavor=\"You have often seen lawbreakers go free when they demonstrate they have friends in high places, and so you put special effort into befriending powerful people yourself.\" benefit=\"Whenever you are in an area in which you have used the ‹skill/Diplomacy› skill to gather information, you gain a +1 trait bonus on Diplomacy and ‹skill/Intimidate› checks. This bonus increases to +2 when dealing with government officials.~~~**Suggested Characters:** Absalom natives, ‹rule/Aspis Consortium› agents, Taldans.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"friends_in_low_places": {
 		"name": "Friends in Low Places",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
 		"description": [
-			"::trait{title=\"&L&Friends in Low Places&FN&\" type=\"Social\" benefit=\"Outcasts know their own, and that knowledge opens doors and loosens tongues. Gathering information in lower quarters, such as vice dens and poorer districts, takes you 1d2 hours (instead of 1d4 hours). In addition, the attitudes of any destitute or impoverished NPCs you interact with begin one step closer to helpful.\"}"
+			"::trait{title=\"&L&Friends in Low Places&FN&\" type=\"Social\" flavor=\"Outcasts know their own, and that knowledge opens doors and loosens tongues.\" benefit=\"‹skill/diplomacy>«Gathering information› in lower quarters, such as vice dens and poorer districts, takes you 1d2 hours (instead of 1d4 hours). In addition, the attitudes of any destitute or impoverished NPCs you interact with begin one step closer to helpful.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"fury_of_the_red": {
 		"name": "Fury of the Red",
 		"compilationSources": [ [ "Legacy of Dragons" ] ],
 		"description": [
-			"::trait{title=\"&L&Fury of the Red&FN&\" type=\"Social\" benefit=\"Somewhere in your family line, the mystic power of red dragons was infused into one of your relatives. If you ever take a class that requires you to select a draconic heritage, you must select a red dragon as your type. After successfully completing a charge attack, you gain a +2 trait bonus on Will saves for a full round.\"}"
+			"::trait{title=\"&L&Fury of the Red&FN&\" type=\"Social\" flavor=\"Somewhere in your family line, the mystic power of red dragons was infused into one of your relatives.\" benefit=\"If you ever take a class that requires you to select a draconic heritage, you must select a red dragon as your type. After successfully completing a ‹rule/charge› attack, you gain a +2 trait bonus on Will saves for a full round.\"}"
 		],
-		"category": "Social",
+		"category": "Social-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"gesture_expertise": {
 		"name": "Gesture Expertise",
 		"compilationSources": [ [ "Black Markets" ] ],
 		"description": [
-			"::trait{title=\"&L&Gesture Expertise&FN&\" type=\"Social\" benefit=\"You are adept at nonverbal communication. You can use a sign language or gestural system to send complex messages quickly in combat, and with a successful DC 15 Linguistics check, you can express yourself clearly enough to communicate basic messages to people who do not understand your gestures. You gain a +2 trait bonus to send secret messages via gestures using the Bluff skill, and to understand gestures with the Linguistics skill.\"}"
+			"::trait{title=\"&L&Gesture Expertise&FN&\" type=\"Social\" flavor=\"You are adept at nonverbal communication.\" benefit=\"You can use a sign language or gestural system to send complex messages quickly in combat, and with a successful DC 15 ‹skill/Linguistics› check, you can express yourself clearly enough to communicate basic messages to people who do not understand your gestures. You gain a +2 trait bonus to send secret messages via gestures using the ‹skill/Bluff› skill, and to understand gestures with the Linguistics skill.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"gifted_smuggler": {
 		"name": "Gifted Smuggler",
 		"compilationSources": [ [ "Adventurer's Armory 2" ] ],
 		"description": [
-			"::trait{title=\"&L&Gifted Smuggler&FN&\" type=\"Social\" region=\"Ostenso\" benefit=\"You have a knack for hiding goods on your person. Any small object you attempt to hide on your body is treated as an extraordinarily small object for the purpose of Sleight of Hand checks.\"}"
+			"::trait{title=\"&L&Gifted Smuggler&FN&\" type=\"Social\" region=\"Ostenso\" flavor=\"You have a knack for hiding goods on your person.\" benefit=\"Any small object you attempt to hide on your body is treated as an extraordinarily small object for the purpose of ‹skill/Sleight of Hand› checks.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"gregarious": {
 		"name": "Gregarious",
 		"compilationSources": [ [ "Quests and Campaigns" ] ],
 		"description": [
-			"::trait{title=\"&L&Gregarious&FN&\" type=\"Social\" benefit=\"At least once in your childhood, your family moved for a reason you didn't understand and you were forced to leave behind your old friends and make new ones. Ever since, you have always been the first to meet strangers, make new friends, and welcome travelers. You learned that first impressions are the most important, and have a knack for making a good one. Once per day, when you attempt a Diplomacy check to improve a creature's attitude toward you, you may choose to reroll the check after the first roll is made but before the results are revealed. You must take the second result, even if it is worse.~~~**Suggested Characters:** ‹rule/Eagle Knights›, Garundi, Pathfinders.\"}"
+			"::trait{title=\"&L&Gregarious&FN&\" type=\"Social\" flavor=\"At least once in your childhood, your family moved for a reason you didn't understand and you were forced to leave behind your old friends and make new ones. Ever since, you have always been the first to meet strangers, make new friends, and welcome travelers. You learned that first impressions are the most important, and have a knack for making a good one.\" benefit=\"Once per day, when you attempt a ‹skill/Diplomacy› check to improve a creature's attitude toward you, you may choose to reroll the check after the first roll is made but before the results are revealed. You must take the second result, even if it is worse.~~~**Suggested Characters:** ‹rule/Eagle Knights›, Garundi, Pathfinders.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"grief_filled": {
 		"name": "Grief-Filled",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Grief-Filled&FN&\" type=\"Social\" benefit=\"You are no stranger to loss and intense emotions. You gain a +2 trait bonus on all saving throws against emotion spells and effects.\"}"
+			"::trait{title=\"&L&Grief-Filled&FN&\" type=\"Social\" flavor=\"You are no stranger to loss and intense emotions.\" benefit=\"You gain a +2 trait bonus on all saving throws against emotion spells and effects.\"}"
 		],
-		"category": "Social",
+		"category": "Social-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"grim_optimism": {
 		"name": "Grim Optimism",
 		"compilationSources": [ [ "Quests and Campaigns" ] ],
 		"description": [
-			"::trait{title=\"&L&Grim Optimism&FN&\" type=\"Social\" benefit=\"Growing up with no one to rely on but yourself, you learned to keep a realistic view of your situation and avoid falling into the trap of cynicism with a healthy dose of wit. As a standard action, you can joke about a troublesome situation to lighten the load of dealing with it for yourself and others. You and all allies within 30 feet who can hear you gain a +2 morale bonus on saving throws against fear and pain effects for 1d4 rounds. A character cannot benefit from this effect more than once in 24 hours.~~~**Suggested Characters:** Galtans, Rahadoumi, Ustalavs.\"}"
+			"::trait{title=\"&L&Grim Optimism&FN&\" type=\"Social\" flavor=\"Growing up with no one to rely on but yourself, you learned to keep a realistic view of your situation and avoid falling into the trap of cynicism with a healthy dose of wit.\" benefit=\"As a @HLstandard_action, you can joke about a troublesome situation to lighten the load of dealing with it for yourself and others. You and all allies within 30 feet who can hear you gain a +2 morale bonus on saving throws against fear and pain effects for 1d4 rounds. A character cannot benefit from this effect more than once in 24 hours.~~~**Suggested Characters:** Galtans, Rahadoumi, Ustalavs.\"}"
 		],
-		"category": "Social",
+		"category": "Social-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"hardly_a_fool": {
 		"name": "Hardly a Fool",
 		"compilationSources": [ [ "Champions of Purity" ] ],
 		"description": [
-			"::trait{title=\"&L&Hardly a Fool&FN&\" type=\"Social\" benefit=\"You have always been able to ferret out lies and deception. Maybe you worked as an investigator for a time, you came from a place rife with lies, or you've studied the human condition long enough to read a person's face and get to the heart of his message. You gain a +1 trait bonus on Sense Motive checks and a +1 trait bonus on saving throws against illusion effects.\"}"
+			"::trait{title=\"&L&Hardly a Fool&FN&\" type=\"Social\" flavor=\"You have always been able to ferret out lies and deception. Maybe you worked as an investigator for a time, you came from a place rife with lies, or you've studied the human condition long enough to read a person's face and get to the heart of his message.\" benefit=\"You gain a +1 trait bonus on ‹skill/Sense Motive› checks and a +1 trait bonus on saving throws against illusion effects.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"harvester": {
 		"name": "Harvester",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Harvester&FN&\" type=\"Social\" benefit=\"You were trained to harvest all parts of an animal with care and precision. You gain a +1 trait bonus on Profession (tanner) or Profession (trapper) checks, and you may make these checks as if you were trained in the skill even if you have no ranks. Additionally, you do not risk poisoning yourself whenever you handle or apply poison taken from a venomous creature.\"}"
+			"::trait{title=\"&L&Harvester&FN&\" type=\"Social\" flavor=\"You were trained to harvest all parts of an animal with care and precision.\" benefit=\"You gain a +1 trait bonus on ‹skill/Profession› (tanner) or Profession (trapper) checks, and you may make these checks as if you were trained in the skill even if you have no ranks. Additionally, you do not risk poisoning yourself whenever you handle or apply poison taken from a venomous creature.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"heart_of_two_worlds": {
 		"name": "Heart of Two Worlds",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
 		"description": [
-			"::trait{title=\"&L&Heart of Two Worlds&FN&\" type=\"Social\" benefit=\"Born into a world split in twain, you are particularly skilled at understanding and empathizing with those around you. You gain a +2 trait bonus on Diplomacy and Sense Motive checks involving creatures that belong to the same race (or, if human, ethnicity) as your mother or father.\"}"
+			"::trait{title=\"&L&Heart of Two Worlds&FN&\" type=\"Social\" flavor=\"Born into a world split in twain, you are particularly skilled at understanding and empathizing with those around you.\" benefit=\"You gain a +2 trait bonus on ‹skill/Diplomacy› and ‹skill/Sense Motive› checks involving creatures that belong to the same race (or, if human, ethnicity) as your mother or father.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"hellknight_ancestry": {
 		"name": "Hellknight Ancestry",
 		"compilationSources": [ [ "Cheliax, Empire of Devils" ] ],
 		"description": [
-			"::trait{title=\"&L&Hellknight Ancestry&FN&\" type=\"Social\" benefit=\"At least one of your parents was a ‹rule/Hellknight<s›, and you see the orders as the embodiment of civic virtue. You gain a +2 trait bonus on Diplomacy checks to influence Hellknights and a +2 trait bonus on Intimidate checks to influence enemies of the Hellknights.\"}"
+			"::trait{title=\"&L&Hellknight Ancestry&FN&\" type=\"Social\" flavor=\"At least one of your parents was a ‹rule/Hellknight<s›, and you see the orders as the embodiment of civic virtue.\" benefit=\"You gain a +2 trait bonus on ‹skill/Diplomacy› checks to influence Hellknights and a +2 trait bonus on ‹skill/Intimidate› checks to influence enemies of the Hellknights.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"imposing_scion": {
 		"name": "Imposing Scion",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Imposing Scion&FN&\" type=\"Social\" benefit=\"The reputation of your bloodline grants you a degree of fearful respect. You gain a +1 trait bonus on Intimidate checks. If your bloodline is keyed to a specific creature type, your trait bonus increases to +2 when interacting with creatures of that type.\"}"
+			"::trait{title=\"&L&Imposing Scion&FN&\" type=\"Social\" flavor=\"The reputation of your bloodline grants you a degree of fearful respect.\" benefit=\"You gain a +1 trait bonus on ‹skill/Intimidate› checks. If your bloodline is keyed to a specific creature type, your trait bonus increases to +2 when interacting with creatures of that type.\"}"
 		],
-		"category": "Social",
+		"category": "Social-class-sorc",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"inexorable_authority": {
 		"name": "Inexorable Authority",
 		"compilationSources": [ [ "Champions of Balance" ] ],
 		"description": [
-			"::trait{title=\"&L&Inexorable Authority&FN&\" type=\"Social\" benefit=\"When you speak with the full weight of law, your conviction lends you a terrible presence. You gain a +2 trait bonus on Intimidate checks when enforcing or pronouncing a lawful judgment that you're legitimately deputed to enforce or pronounce.\"}"
+			"::trait{title=\"&L&Inexorable Authority&FN&\" type=\"Social\" flavor=\"When you speak with the full weight of law, your conviction lends you a terrible presence.\" benefit=\"You gain a +2 trait bonus on ‹skill/Intimidate› checks when enforcing or pronouncing a lawful judgment that you're legitimately deputed to enforce or pronounce.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"infernal_colleague": {
 		"name": "Infernal Colleague",
 		"compilationSources": [ [ "Heroes of the High Court" ] ],
 		"description": [
-			"::trait{title=\"&L&Infernal Colleague&FN&\" type=\"Social\" region=\"Cheliax\" req=\"Associated with the court of the Imperial Palace in Cheliax\" benefit=\"Your experience working with devils has given you nerves of steel. You gain a +2 trait bonus on Will saves to resist fear effects created by outsiders.\"}"
+			"::trait{title=\"&L&Infernal Colleague&FN&\" type=\"Social\" region=\"Cheliax\" req=\"Associated with the court of the Imperial Palace in Cheliax\" flavor=\"Your experience working with devils has given you nerves of steel.\" benefit=\"You gain a +2 trait bonus on Will saves to resist fear effects created by outsiders.\"}"
 		],
-		"category": "Social",
+		"category": "Social-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"influence": {
 		"name": "Influence",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Influence&FN&\" type=\"Social\" benefit=\"Your position in society grants you special insight into others, and special consideration or outright awe from others. Choose one of the following skills: Diplomacy, Intimidate, or Sense Motive. You gain a +1 trait bonus on that skill, and it is always a class skill for you.\"}"
+			"::trait{title=\"&L&Influence&FN&\" type=\"Social\" flavor=\"Your position in society grants you special insight into others, and special consideration or outright awe from others.\" benefit=\"Choose one of the following skills: ‹skill/Diplomacy›, ‹skill/Intimidate›, or ‹skill/Sense Motive›. You gain a +1 trait bonus on that skill, and it is always a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"jistkan_scholar": {
 		"name": "Jistkan Scholar",
 		"compilationSources": [ [ "Blood of the Ancients", 19 ] ],
 		"description": [
-			"::trait{title=\"&L&Jistkan Scholar&FN&\" type=\"Social\" benefit=\"You have specialized in studying Jistkan history and culture. You gain Jistka as a bonus language and a +1 trait bonus on all Knowledge checks related to the Jistka Imperium.\"}"
+			"::trait{title=\"&L&Jistkan Scholar&FN&\" type=\"Social\" flavor=\"You have specialized in studying Jistkan history and culture.\" benefit=\"You gain Jistka as a bonus language and a +1 trait bonus on all ‹skill/Knowledge› checks related to the Jistka Imperium.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"keleshite_princess": {
 		"name": "Keleshite Princess",
 		"compilationSources": [ [ "Qadira, Gateway to the East" ] ],
 		"description": [
-			"::trait{title=\"&L&Keleshite Princess&FN&\" type=\"Social\" region=\"Qadira\" req=\"Keleshite; female\" benefit=\"You have been raised to expect obedience from those around you, regardless of their station, and are not shy about demanding what you want. You gain a +1 trait bonus to Diplomacy and Intimidate checks, and one of these skills (your choice) is always a class skill for you.\"}"
+			"::trait{title=\"&L&Keleshite Princess&FN&\" type=\"Social\" region=\"Qadira\" req=\"Keleshite; female\" flavor=\"You have been raised to expect obedience from those around you, regardless of their station, and are not shy about demanding what you want.\" benefit=\"You gain a +1 trait bonus to ‹skill/Diplomacy› and ‹skill/Intimidate› checks, and one of these skills (your choice) is always a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"king_in_waiting": {
 		"name": "King in Waiting",
 		"compilationSources": [ [ "Legacy of Dragons" ] ],
 		"description": [
-			"::trait{title=\"&L&King in Waiting&FN&\" type=\"Social\" benefit=\"You've been raised with tales of the great linnorms, and taught that the death curses of these vile dragons cannot stop the truly mighty. You gain a +1 trait bonus on saves to resist curses and spells with the curse descriptor and a +3 trait bonus on saves to resist curses originating from a linnorm.\"}"
+			"::trait{title=\"&L&King in Waiting&FN&\" type=\"Social\" flavor=\"You've been raised with tales of the great linnorms, and taught that the death curses of these vile dragons cannot stop the truly mighty.\" benefit=\"You gain a +1 trait bonus on saves to resist curses and spells with the curse descriptor and a +3 trait bonus on saves to resist curses originating from a ‹family/linnorm›.\"}"
 		],
-		"category": "Social",
+		"category": "Social-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"knowing_the_enemy": {
 		"name": "Knowing the Enemy",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Knowing the Enemy&FN&\" type=\"Social\" benefit=\"You know a good deal about your most dire enemies. You gain a +1 trait bonus on checks with the Knowledge skill corresponding to your first ‹ability/favored enemy› choice, and that Knowledge skill is always a class skill for you.\"}"
+			"::trait{title=\"&L&Knowing the Enemy&FN&\" type=\"Social\" flavor=\"You know a good deal about your most dire enemies.\" benefit=\"You gain a +1 trait bonus on checks with the ‹skill/Knowledge› skill corresponding to your first ‹ability/favored enemy› choice, and that Knowledge skill is always a class skill for you.\"}"
 		],
-		"category": "Social",
+		"category": "Social-class-ranger-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"law_enforcer": {
 		"name": "Law Enforcer",
 		"compilationSources": [ [ "Knights of the Inner Sea" ] ],
 		"description": [
-			"::trait{title=\"&L&Law Enforcer&FN&\" type=\"Social\" req=\"Code of Vigilance\" benefit=\"If you follow this code, you are always alert to those who transgress against the laws of civilization. You receive a +2 bonus on Sense Motive checks to gain a hunch from social situations, and begin play with a pair of masterwork manacles.\"}"
+			"::trait{title=\"&L&Law Enforcer&FN&\" type=\"Social\" surs=\"Code of Vigilance~Knights who follow the code of vigilance believe that people are prone to chaos and society will eventually devolve into anarchy if given the opportunity. In order for society to continue, these knights must constantly remind people of the law, and take it upon themselves to enforce it in the absence of other authority figures. Their vows are as follows.~~~~~~- I will be familiar with local laws and adhere to them strictly.~~~- If I witness a crime, I will attempt to capture the criminal and report his actions to the authorities.~~~- If any I meet are known to be escaped criminals, I will attempt to apprehend them by any means necessary.~~~- I shall mete out appropriate punishment for those who violate the law, but only if no acceptable authority is readily available.~~~- I shall remember that none are above the law, and that law is absolute. There shall be no mitigating circumstances for any individual, regardless of station or position.~hl\" benefit=\"If you follow this code, you are always alert to those who transgress against the laws of civilization. You receive a +2 bonus on ‹skill/Sense Motive› checks to gain a hunch from social situations, and begin play with a pair of ‹eq-misc/masterwork manacles›.\" subs=\"Penance~Knights who follow this code and violate one of its tenets must perform penance based on the violation. If they are disgraced for violating the law when it was not acceptable, they must voluntarily surrender to the appropriate authority and receive proper punishment. If they allowed a criminal to escape, they must assist in the capture and punishment of the criminal.~hl\"}"
 		],
-		"category": "Social",
+		"category": "Social-ab-item",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"life_of_toil": {
 		"name": "Life of Toil",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Life of Toil&FN&\" type=\"Social\" benefit=\"You have lived a physically taxing life, working long hours for a master or to support a trade. Hard physical labor has toughened your body and mind. You gain a +1 trait bonus on Fortitude saves.\"}"
+			"::trait{title=\"&L&Life of Toil&FN&\" type=\"Social\" flavor=\"You have lived a physically taxing life, working long hours for a master or to support a trade. Hard physical labor has toughened your body and mind.\" benefit=\"You gain a +1 trait bonus on Fortitude saves.\"}"
 		],
-		"category": "Social",
+		"category": "Social-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"lost_nobility": {
 		"name": "Lost Nobility",
 		"compilationSources": [ [ "Cheliax, Empire of Devils" ] ],
 		"description": [
-			"::trait{title=\"&L&Lost Nobility&FN&\" type=\"Social\" benefit=\"Your family was prominent before the rise of Thrune, but that legacy is now forgotten by all but you. You hold every Chelish government official (including ‹rule/Hellknights›) personally responsible for your lost glory. You gain a +1 trait bonus on attack and damage rolls against these officials.\"}"
+			"::trait{title=\"&L&Lost Nobility&FN&\" type=\"Social\" flavor=\"Your family was prominent before the rise of Thrune, but that legacy is now forgotten by all but you.\" benefit=\"You hold every Chelish government official (including ‹rule/Hellknights›) personally responsible for your lost glory.You gain a +1 trait bonus on attack and damage rolls against these officials.\"}"
 		],
-		"category": "Social",
+		"category": "Social-off",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"maestro_of_the_society": {
@@ -3382,9 +3382,9 @@
 			[ "Faction Guide" ]
 		],
 		"description": [
-			"::trait{title=\"&L&Maestro of the Society&FN&\" type=\"Social\" req=\"Member of The ‹rule/Pathfinder Society›\" benefit=\"The skills of Golarion's greatest musicians are at your fingertips, thanks to the vast treasure trove of musical knowledge in the vaults beneath the Grand Lodge in Absalom. Studying this knowledge gives you the ability to use your bardic performance an additional 3 rounds per day.\"}"
+			"::trait{title=\"&L&Maestro of the Society&FN&\" type=\"Social\" req=\"Member of The ‹rule/Pathfinder Society›\" benefit=\"The skills of Golarion's greatest musicians are at your fingertips, thanks to the vast treasure trove of musical knowledge in the vaults beneath the Grand Lodge in Absalom. Studying this knowledge gives you the ability to use your ‹ability/bardic performance› an additional 3 rounds per day.\"}"
 		],
-		"category": "Social",
+		"category": "Social-class-bard",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"malevolent_temptations": {

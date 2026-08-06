@@ -2285,7 +2285,8 @@ const _acrobat = {title: "Acrobat", topLink: ["Social Traits","main/traits_socia
 <Ability id="acrobat" extraClasses="trait" icon={["village"]}>
 <Pair single id="acrobat">Acrobat</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="acrobat-benefit">Having trained from a young age, you're capable of amazing feats of daring. You gain a +1 bonus on Acrobatics checks, and you take only a -2 penalty instead of the normal -5 penalty when using the Climb skill to attempt an accelerated climb.</Pair>
+<Pair single="flavor" id="acrobat-flavor">Having trained from a young age, you're capable of amazing feats of daring.</Pair>
+<Pair single="benefit" id="acrobat-benefit">You gain a +1 bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks, and you take only a -2 penalty instead of the normal -5 penalty when using the <Link to="/skill/climb">Climb</Link> skill to attempt an accelerated climb.</Pair>
 </Ability>
 </>};
 const _adopted = {title: "Adopted", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -2299,28 +2300,32 @@ const _affable = {title: "Affable", topLink: ["Social Traits","main/traits_socia
 <Ability id="affable" extraClasses="trait" icon={["village"]}>
 <Pair single id="affable">Affable</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="affable-benefit">You have a genial personality and make it a point to befriend and help people wherever you go. In your travels, you stop to aid others, tell interesting stories, and often buy rounds of drinks for patrons at the local taverns. You bring good cheer to those you encounter, and for this reason, you often find yourself attending important events or fruitful gatherings, and have even become an honorary member of many families. People find you trustworthy, and they are willing to share information with you. You gain a +2 trait bonus on Diplomacy checks to gather information, and can do so in half the normal time. In addition, Diplomacy and Knowledge (local) are always class skills for you.</Pair>
+<Pair single="flavor" id="affable-flavor">You have a genial personality and make it a point to befriend and help people wherever you go. In your travels, you stop to aid others, tell interesting stories, and often buy rounds of drinks for patrons at the local taverns. You bring good cheer to those you encounter, and for this reason, you often find yourself attending important events or fruitful gatherings, and have even become an honorary member of many families. People find you trustworthy, and they are willing to share information with you.</Pair>
+<Pair single="benefit" id="affable-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to gather information, and can do so in half the normal time. In addition, Diplomacy and <Link to="/skill/knowledge_local">Knowledge (local)</Link> are always class skills for you.</Pair>
 </Ability>
 </>};
 const _allies_in_the_deep = {title: "Allies in the Deep", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
 <Ability id="allies-in-the-deep" extraClasses="trait" icon={["village"]}>
 <Pair single id="allies-in-the-deep">Allies in the Deep</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="allies-in-the-deep-benefit">You've learned to deal amicably with individuals of questionable morals when necessary. You gain a +1 trait bonus on Charisma-based skill checks to influence evil creatures.</Pair>
+<Pair single="flavor" id="allies-in-the-deep-flavor">You've learned to deal amicably with individuals of questionable morals when necessary.</Pair>
+<Pair single="benefit" id="allies-in-the-deep-benefit">You gain a +1 trait bonus on Charisma-based skill checks to influence evil creatures.</Pair>
 </Ability>
 </>};
 const _ambitious = {title: "Ambitious", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="ambitious" extraClasses="trait" icon={["village"]}>
 <Pair single id="ambitious">Ambitious</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="ambitious-benefit">You exude confidence in the presence of those more powerful than you - sometimes unreasonably so. You gain a +4 trait bonus on Diplomacy checks made to influence creatures with at least 5 Hit Dice more than you possess.</Pair>
+<Pair single="flavor" id="ambitious-flavor">You exude confidence in the presence of those more powerful than you - sometimes unreasonably so.</Pair>
+<Pair single="benefit" id="ambitious-benefit">You gain a +4 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks made to influence creatures with at least 5 Hit Dice more than you possess.</Pair>
 </Ability>
 </>};
 const _amiable_blunder = {title: "Amiable Blunder", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance</Link></p>
 <Ability id="amiable-blunder" extraClasses="trait" icon={["village"]}>
 <Pair single id="amiable-blunder">Amiable Blunder</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="amiable-blunder-benefit">Your easy-going demeanor allows you to sometimes recover from potentially awkward social situations or even condemnatory faux pas. Once per day when you fail a Diplomacy check by 5 or more and would cause an NPC's attitude toward you to worsen, you can immediately attempt another Diplomacy check against the same DC as a free action. If you succeed at this second Diplomacy check, the character's attitude doesn't change, as though you had failed the original check by 4 or less.</Pair>
+<Pair single="flavor" id="amiable-blunder-flavor">Your easy-going demeanor allows you to sometimes recover from potentially awkward social situations or even condemnatory faux pas.</Pair>
+<Pair single="benefit" id="amiable-blunder-benefit">Once per day when you fail a <Link to="/skill/diplomacy">Diplomacy</Link> check by 5 or more and would cause an NPC's attitude toward you to worsen, you can immediately attempt another Diplomacy check against the same DC as a <strong className="hl">free action</strong>. If you succeed at this second Diplomacy check, the character's attitude doesn't change, as though you had failed the original check by 4 or less.</Pair>
 </Ability>
 </>};
 const _amiable_briber = {title: "Amiable Briber", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2</Link></p>
@@ -2328,35 +2333,40 @@ const _amiable_briber = {title: "Amiable Briber", topLink: ["Social Traits","mai
 <Pair single id="amiable-briber">Amiable Briber</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Absalom</Pair>
-<Pair single="benefit" id="amiable-briber-benefit">Your attempts to bribe others usually come off as playful or as a gag. The first time someone refuses a bribe you offer, that person's attitude toward you doesn't worsen, even if the offer would normally offend the person (as though you had failed a Diplomacy check by 5 or more).</Pair>
+<Pair single="flavor" id="amiable-briber-flavor">Your attempts to bribe others usually come off as playful or as a gag.</Pair>
+<Pair single="benefit" id="amiable-briber-benefit">The first time someone refuses a bribe you offer, that person's attitude toward you doesn't worsen, even if the offer would normally offend the person (as though you had failed a <Link to="/skill/diplomacy">Diplomacy</Link> check by 5 or more).</Pair>
 </Ability>
 </>};
 const _ancestral_armor = {title: "Ancestral Armor", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 31</Link></p>
 <Ability id="ancestral-armor" extraClasses="trait" icon={["village"]}>
 <Pair single id="ancestral-armor">Ancestral Armor</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="ancestral-armor-benefit">You inherited an ancient set of Tar Taargadth armor. You begin play with a set of masterwork armor of your choice. You must be proficient in wearing this armor, and the armor's total cost cannot exceed 300 gp.</Pair>
+<Pair single="flavor" id="ancestral-armor-flavor">You inherited an ancient set of Tar Taargadth armor.</Pair>
+<Pair single="benefit" id="ancestral-armor-benefit">You begin play with a set of <Link to="/rule/masterwork_armor">masterwork armor</Link> of your choice. You must be proficient in wearing this armor, and the armor's total cost cannot exceed 300 gp.</Pair>
 </Ability>
 </>};
 const _arodenite_historian = {title: "Arodenite Historian", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology</Link></p>
 <Ability id="arodenite-historian" extraClasses="trait" icon={["village"]}>
 <Pair single id="arodenite-historian">Arodenite Historian</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="arodenite-historian-benefit">You believe there is much useful information to glean from the mark Aroden left on history, and learn all you can about his exploits and teachings. This has given you significant insights on how different kinds of information are interconnected. If you fail a Knowledge (arcana, history, or religion) check, you can reroll the check 1 round later using your bonus for one of the other two skills.</Pair>
+<Pair single="flavor" id="arodenite-historian-flavor">You believe there is much useful information to glean from the mark Aroden left on history, and learn all you can about his exploits and teachings. This has given you significant insights on how different kinds of information are interconnected.</Pair>
+<Pair single="benefit" id="arodenite-historian-benefit">If you fail a <Link to="/skill/knowledge">Knowledge</Link> (arcana, history, or religion) check, you can reroll the check 1 round later using your bonus for one of the other two skills.</Pair>
 </Ability>
 </>};
 const _artisan = {title: "Artisan", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="artisan" extraClasses="trait" icon={["village"]}>
 <Pair single id="artisan">Artisan</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="artisan-benefit">You spent time working under artisans, or your parents were artisans who were particularly skilled at their trade. You gain a +2 trait bonus on a single Craft skill (your choice).</Pair>
+<Pair single="flavor" id="artisan-flavor">You spent time working under artisans, or your parents were artisans who were particularly skilled at their trade.</Pair>
+<Pair single="benefit" id="artisan-benefit">You gain a +2 trait bonus on a single <Link to="/skill/craft">Craft</Link> skill (your choice).</Pair>
 </Ability>
 </>};
 const _avid_reader = {title: "Avid Reader", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="avid-reader" extraClasses="trait" icon={["village"]}>
 <Pair single id="avid-reader">Avid Reader</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="avid-reader-benefit"><p>As a youth, you voraciously consumed books and scrolls provided by a member of an adventurer's guild or a learned organization like the <Link to="/rule/pathfinder_society">Pathfinder Society</Link>, and you have internalized these stories of bold adventurers. Choose one Knowledge skill. You can always choose to take 10 on checks with the chosen Knowledge skill, even when distracted or threatened.</p>
+<Pair single="flavor" id="avid-reader-flavor">As a youth, you voraciously consumed books and scrolls provided by a member of an adventurer's guild or a learned organization like the <Link to="/rule/pathfinder_society">Pathfinder Society</Link>, and you have internalized these stories of bold adventurers.</Pair>
+<Pair single="benefit" id="avid-reader-benefit"><p>Choose one <Link to="/skill/knowledge">Knowledge</Link> skill. You can always choose to take 10 on checks with the chosen Knowledge skill, even when distracted or threatened.</p>
 <p><strong>Suggested Characters:</strong> Osirians, Pathfinders, Taldans.</p>
 </Pair>
 </Ability>
@@ -2365,35 +2375,41 @@ const _balanced_determination = {title: "Balanced Determination", topLink: ["Soc
 <Ability id="balanced-determination" extraClasses="trait" icon={["village"]}>
 <Pair single id="balanced-determination">Balanced Determination</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="balanced-determination-benefit">You've come to appreciate the balanced approach taken by sovereign dragons. Once per day, before attempting a saving throw against a spell ability originating from another creature, you can invoke the determination of those dragons. You take 10 on the saving throw (treat the d20 die result as if it were a 10).</Pair>
+<Pair single="flavor" id="balanced-determination-flavor">You've come to appreciate the balanced approach taken by sovereign dragons.</Pair>
+<Pair single="benefit" id="balanced-determination-benefit">Once per day, before attempting a saving throw against a spell ability originating from another creature, you can invoke the determination of <Link to="/family/sovereign_dragon">sovereign dragons</Link>. You take 10 on the saving throw (treat the d20 die result as if it were a 10).</Pair>
 </Ability>
 </>};
 const _bastard_uc = {title: "Bastard (UC)", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="bastard-uc" extraClasses="trait" icon={["village"]}>
 <Pair single id="bastard-uc">Bastard (UC)</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="bastard-uc-benefit">You were born out of wedlock. You have always been an outsider in society, and in your own family. This perspective has sharpened your insight. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you.</Pair>
+<Pair single="flavor" id="bastard-uc-flavor">You were born out of wedlock. You have always been an outsider in society, and in your own family. This perspective has sharpened your insight.</Pair>
+<Pair single="benefit" id="bastard-uc-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks, and Sense Motive is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _beast_bond = {title: "Beast Bond", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="beast-bond" extraClasses="trait" icon={["village"]}>
 <Pair single id="beast-bond">Beast Bond</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="beast-bond-benefit">You share a close bond with animals. You gain a +1 bonus on Handle Animal checks and Ride checks. One of these skills (your choice) is always a class skill for you.</Pair>
+<Pair single="flavor" id="beast-bond-flavor">You share a close bond with animals.</Pair>
+<Pair single="benefit" id="beast-bond-benefit">You gain a +1 bonus on <Link to="/skill/handle_animal">Handle Animal</Link> checks and <Link to="/skill/ride">Ride</Link> checks. One of these skills (your choice) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _beastkin = {title: "Beastkin", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
 <Ability id="beastkin" extraClasses="trait" icon={["village"]}>
 <Pair single id="beastkin">Beastkin</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="beastkin-benefit">Select one specific type of animal (such as wolves or apes). You were raised from infancy by an animal or pack of animals of that type. You learned their ways and have more in common with your beastly kin than members of any humanoid race. You gain a +1 trait bonus on Survival checks and can use <Link to="/spell/speak_with_animals">speak with animals</Link> as a spell-like ability at will to communicate with the type of animal that raised you.</Pair>
+<Pair single="benefit" id="beastkin-benefit"><p>Select one specific type of animal (such as wolves or apes). You were raised from infancy by an animal or pack of animals of that type. You learned their ways and have more in common with your beastly kin than members of any humanoid race.</p>
+<p>You gain a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks and can use <Link to="/spell/speak_with_animals">speak with animals</Link> as a spell-like ability at will to communicate with the type of animal that raised you.</p>
+</Pair>
 </Ability>
 </>};
 const _binders_blood = {title: "Binder's Blood", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
 <Ability id="binders-blood" extraClasses="trait" icon={["village"]}>
 <Pair single id="binders-blood">Binder's Blood</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="binders-blood-benefit">Your lineage features a large number of genie callers, granting you insight into the intricacies of genie binding. You gain a +2 trait bonus on any Charisma-based checks when directly interacting with a genie.</Pair>
+<Pair single="flavor" id="binders-blood-flavor">Your lineage features a large number of genie callers, granting you insight into the intricacies of genie binding.</Pair>
+<Pair single="benefit" id="binders-blood-benefit">You gain a +2 trait bonus on any Charisma-based checks when directly interacting with a genie.</Pair>
 </Ability>
 </>};
 const _brastlewark_businessman_gog = {title: "Brastlewark Businessman (GoG)", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
@@ -2401,21 +2417,24 @@ const _brastlewark_businessman_gog = {title: "Brastlewark Businessman (GoG)", to
 <Pair single id="brastlewark-businessman-gog">Brastlewark Businessman (GoG)</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
-<Pair single="benefit" id="brastlewark-businessman-gog-benefit">Your time among the gnome elite of Brastlewark in Cheliax has led to an extensive knowledge of alchemy and ready connections in the business. You gain a +2 trait bonus on all Craft (alchemy) checks.</Pair>
+<Pair single="flavor" id="brastlewark-businessman-gog-flavor">Your time among the gnome elite of Brastlewark in Cheliax has led to an extensive knowledge of alchemy and ready connections in the business.</Pair>
+<Pair single="benefit" id="brastlewark-businessman-gog-benefit">You gain a +2 trait bonus on all <Link to="/skill/craft">Craft</Link> (alchemy) checks.</Pair>
 </Ability>
 </>};
 const _bruising_intellect = {title: "Bruising Intellect", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="bruising-intellect" extraClasses="trait" icon={["village"]}>
 <Pair single id="bruising-intellect">Bruising Intellect</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="bruising-intellect-benefit">Your sharp intellect and rapier-like wit bruise egos. Intimidate is always a class skill for you, and you may use your Intelligence modifier when making Intimidate checks instead of your Charisma modifier.</Pair>
+<Pair single="flavor" id="bruising-intellect-flavor">Your sharp intellect and rapier-like wit bruise egos.</Pair>
+<Pair single="benefit" id="bruising-intellect-benefit"><Link to="/skill/intimidate">Intimidate</Link> is always a class skill for you, and you may use your Intelligence modifier when making Intimidate checks instead of your Charisma modifier.</Pair>
 </Ability>
 </>};
 const _bully = {title: "Bully", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="bully" extraClasses="trait" icon={["village"]}>
 <Pair single id="bully">Bully</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="bully-benefit">You grew up in an environment where the meek were ignored and you often had to resort to threats or violence to be heard. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you.</Pair>
+<Pair single="flavor" id="bully-flavor">You grew up in an environment where the meek were ignored and you often had to resort to threats or violence to be heard.</Pair>
+<Pair single="benefit" id="bully-benefit">You gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks, and Intimidate is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _bureaucrats_favored = {title: "Bureaucrat's Favored", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link></p>
@@ -2424,78 +2443,99 @@ const _bureaucrats_favored = {title: "Bureaucrat's Favored", topLink: ["Social T
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Osirion</Pair>
 <Pair title="Requirements" hl>Associated with the court of the Black Dome</Pair>
-<Pair single="benefit" id="bureaucrats-favored-benefit">You have gained favor with the government of Sothis. Once per week, you can attempt a DC 20 Diplomacy or Intimidate check to gain access to an exclusive site or event, such as a government building or an aristocrat's ball.</Pair>
+<Pair single="flavor" id="bureaucrats-favored-flavor">You have gained favor with the government of Sothis.</Pair>
+<Pair single="benefit" id="bureaucrats-favored-benefit">Once per week, you can attempt a DC 20 <Link to="/skill/diplomacy">Diplomacy</Link> or <Link to="/skill/intimidate">Intimidate</Link> check to gain access to an exclusive site or event, such as a government building or an aristocrat's ball.</Pair>
 </Ability>
 </>};
 const _calculated_bribe = {title: "Calculated Bribe", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
 <Ability id="calculated-bribe" extraClasses="trait" icon={["village"]}>
 <Pair single id="calculated-bribe">Calculated Bribe</Pair>
 <Pair title="Type">Social</Pair>
-<Pair title="Requirements" hl>Code of Perseverance</Pair>
-<Pair single="benefit" id="calculated-bribe-benefit">If you follow this code, you are keenly aware of the value of actions as well as goods. Once per day while haggling with a merchant or striking a bargain with another intelligent creature, you can spend a number of gold pieces equal to your level &times; 10 in order to reroll a Diplomacy check you just made, before the results are revealed. You must take the result of the reroll, even if it's worse than the original roll. In addition, you begin play with a set of extravagant noble's clothes worth 100 gp.</Pair>
+<Pair title="Code of Perseverance" hl><p>Knights who follow the code of perseverance believe that to truly serve a purpose, an organization or group of individuals must first look to its own survival. Deeds are temporary and forgotten with time. For an organization to be influential, it must persist. These knights collect power and wealth, always looking to the future. Their vows are as follows.</p>
+<ul>
+<li>I will take on no challenges out of charity. Any task that I undertake for another individual will have an associated price, though it may not be monetary in nature.</li>
+<li>I shall let neither compassion nor hatred rob me of wealth. I will not give wealth away to those who have done nothing for me, nor shall I engage in needless destruction of potential resources.</li>
+<li>I will set aside a fraction of all my spoils to guard against any chances of future poverty.</li>
+<li>If I have an opportunity to seize power, I will not hesitate to take it if it will strengthen my position.</li>
+<li>I will not take unnecessary risks that place my future or the future of my organization in jeopardy.</li>
+</ul>
+</Pair>
+<Pair single="flavor" id="calculated-bribe-flavor">If you follow this code, you are keenly aware of the value of actions as well as goods.</Pair>
+<Pair single="benefit" id="calculated-bribe-benefit"><p>Once per day while haggling with a merchant or striking a bargain with another intelligent creature, you can spend a number of gold pieces equal to your level &times; 10 in order to reroll a <Link to="/skill/diplomacy">Diplomacy</Link> check you just made, before the results are revealed. You must take the result of the reroll, even if it's worse than the original roll.</p>
+<p>In addition, you begin play with a set of extravagant noble's clothes worth 100 gp.</p>
+</Pair>
+<Pair title="Penance" hl>Knights who violate this code must perform penance by placing money into a fund to guard against their order's future poverty. The amount required for a knight to set aside is 100 gold &times; the knight's current level.</Pair>
 </Ability>
 </>};
 const _callous = {title: "Callous", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="callous" extraClasses="trait" icon={["village"]}>
 <Pair single id="callous">Callous</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="callous-benefit">You have endured many hardships throughout your life, and this has hardened you to the suffering of others to the point that you are not easily swayed by a sad story. You gain a +4 trait bonus on Sense Motive checks that oppose the Bluff checks of creatures that attempt to deceive you by winning your sympathy.</Pair>
+<Pair single="flavor" id="callous-flavor">You have endured many hardships throughout your life, and this has hardened you to the suffering of others to the point that you are not easily swayed by a sad story.</Pair>
+<Pair single="benefit" id="callous-benefit">You gain a +4 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks that oppose the <Link to="/skill/bluff">Bluff</Link> checks of creatures that attempt to deceive you by winning your sympathy.</Pair>
 </Ability>
 </>};
 const _canter = {title: "Canter", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
 <Ability id="canter" extraClasses="trait" icon={["village"]}>
 <Pair single id="canter">Canter</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="canter-benefit">You grew up among thieves and scoundrels, and their unusual speech patterns and turns of phrase don't faze you in the slightest. Anyone who attempts to use Bluff to deliver a secret message to you gains a +5 bonus on her Bluff check. When you attempt to intercept a secret message using Sense Motive, you gain a +5 trait bonus on the attempt.</Pair>
+<Pair single="flavor" id="canter-flavor">You grew up among thieves and scoundrels, and their unusual speech patterns and turns of phrase don't faze you in the slightest.</Pair>
+<Pair single="benefit" id="canter-benefit">Anyone who attempts to use <Link to="/skill/bluff">Bluff</Link> to deliver a secret message to you gains a +5 bonus on her Bluff check. When you attempt to intercept a secret message using <Link to="/skill/sense_motive">Sense Motive</Link>, you gain a +5 trait bonus on the attempt.</Pair>
 </Ability>
 </>};
 const _carnal_attraction = {title: "Carnal Attraction", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
 <Ability id="carnal-attraction" extraClasses="trait" icon={["village"]}>
 <Pair single id="carnal-attraction">Carnal Attraction</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="carnal-attraction-benefit">You know how to ask the wrong questions the right way, granting you a +2 trait bonus on Diplomacy (gather information) and Knowledge (local) checks regarding whichever vice fascinates you: drugs, forbidden lore, gambling, illegal fighting, or a similar debauchery or indecency.</Pair>
+<Pair single="benefit" id="carnal-attraction-benefit">You know how to ask the wrong questions the right way, granting you a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> (gather information) and <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks regarding whichever vice fascinates you: drugs, forbidden lore, gambling, illegal fighting, or a similar debauchery or indecency.</Pair>
 </Ability>
 </>};
 const _charming = {title: "Charming", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="charming" extraClasses="trait" icon={["village"]}>
 <Pair single id="charming">Charming</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="charming-benefit">Blessed with good looks, you've come to depend on the fact that others find you attractive. You gain a +1 trait bonus when you use Bluff or Diplomacy on a character that is (or could be) sexually attracted to you, and a +1 trait bonus to the save DC of any language-dependent spell you cast on such characters or creatures.</Pair>
+<Pair single="flavor" id="charming-flavor">Blessed with good looks, you've come to depend on the fact that others find you attractive.</Pair>
+<Pair single="benefit" id="charming-benefit">You gain a +1 trait bonus when you use <Link to="/skill/bluff">Bluff</Link> or <Link to="/skill/diplomacy">Diplomacy</Link> on a character that is (or could be) sexually attracted to you, and a +1 trait bonus to the save DC of any language-dependent spell you cast on such characters or creatures.</Pair>
 </Ability>
 </>};
 const _chelish_sympathizer = {title: "Chelish Sympathizer", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="chelish-sympathizer" extraClasses="trait" icon={["village"]}>
 <Pair single id="chelish-sympathizer">Chelish Sympathizer</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="chelish-sympathizer-benefit">You feed intelligence to the Thrice-Damned House of Thrune for your own gain or ideological reasons and are given valuable clues gathered by other Chelish spies in exchange. Once per month while in an Inner Sea region settlement of at least 2,000 people, you can call upon these connections to gain an edge in a verbal duel or gain a +2 bonus on one Bluff, Diplomacy, or Intimidate check.</Pair>
+<Pair single="flavor" id="chelish-sympathizer-flavor">You feed intelligence to the Thrice-Damned House of Thrune for your own gain or ideological reasons and are given valuable clues gathered by other Chelish spies in exchange.</Pair>
+<Pair single="benefit" id="chelish-sympathizer-benefit">Once per month while in an Inner Sea region settlement of at least 2,000 people, you can call upon your connections to gain an edge in a <Link to="/rule/verbal_duels">verbal duel</Link> or gain a +2 bonus on one <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, or <Link to="/skill/intimidate">Intimidate</Link> check.</Pair>
 </Ability>
 </>};
 const _child_of_the_streets = {title: "Child of the Streets", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
 <Ability id="child-of-the-streets" extraClasses="trait" icon={["village"]}>
 <Pair single id="child-of-the-streets">Child of the Streets</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="child-of-the-streets-benefit">You grew up on the streets of a large city, and as a result you have developed a knack for picking pockets and hiding small objects on your person. You gain a +1 trait bonus on Sleight of Hand checks, and Sleight of Hand is always a class skill for you.</Pair>
+<Pair single="flavor" id="child-of-the-streets-flavor">You grew up on the streets of a large city, and as a result you have developed a knack for picking pockets and hiding small objects on your person.</Pair>
+<Pair single="benefit" id="child-of-the-streets-benefit">You gain a +1 trait bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks, and Sleight of Hand is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _chip_on_the_shoulder = {title: "Chip on the Shoulder", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
 <Ability id="chip-on-the-shoulder" extraClasses="trait" icon={["village"]}>
 <Pair single id="chip-on-the-shoulder">Chip on the Shoulder</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="chip-on-the-shoulder-benefit">When someone pushes you, you push back. Whenever a creature fails an Intimidate check against you, you gain a +2 trait bonus on your next Intimidate check against that creature. Intimidate becomes a class skill for you.</Pair>
+<Pair single="flavor" id="chip-on-the-shoulder-flavor">When someone pushes you, you push back.</Pair>
+<Pair single="benefit" id="chip-on-the-shoulder-benefit">Whenever a creature fails an <Link to="/skill/intimidate">Intimidate</Link> check against you, you gain a +2 trait bonus on your next Intimidate check against that creature. Intimidate becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _civilized = {title: "Civilized", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="civilized" extraClasses="trait" icon={["village"]}>
 <Pair single id="civilized">Civilized</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="civilized-benefit">You are well versed in the local laws, customs, and politics. You gain a +1 trait bonus on Knowledge (nobility) checks and Knowledge (local) checks. Knowledge (local) is always a class skill for you.</Pair>
+<Pair single="flavor" id="civilized-flavor">You are well versed in the local laws, customs, and politics.</Pair>
+<Pair single="benefit" id="civilized-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> checks and <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks. Knowledge (local) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _clever_wordplay = {title: "Clever Wordplay", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_society_primer">Pathfinder Society Primer</Link></p>
 <Ability id="clever-wordplay" extraClasses="trait" icon={["village"]}>
 <Pair single id="clever-wordplay">Clever Wordplay</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="clever-wordplay-benefit">Your cunning and logic are more than a match for another's confidence and poise. Choose one Charisma-based skill. You attempt checks with that skill using your Intelligence modifier instead of your Charisma modifier.</Pair>
+<Pair single="flavor" id="clever-wordplay-flavor">Your cunning and logic are more than a match for another's confidence and poise.</Pair>
+<Pair single="benefit" id="clever-wordplay-benefit">Choose one Charisma-based skill. You attempt checks with that skill using your Intelligence modifier instead of your Charisma modifier.</Pair>
 </Ability>
 </>};
 const _collector = {title: "Collector", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
@@ -2503,14 +2543,18 @@ const _collector = {title: "Collector", topLink: ["Social Traits","main/traits_s
 <Pair single id="collector">Collector</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
-<Pair single="benefit" id="collector-benefit">You have a small, bizarre collection of apparently worthless items, such as rusty nails, animal droppings, clockwork cogs, or bent spoons. You find this strange menagerie useful in ways no non-gnome could understand. Seeking new items to add to this collection is endlessly fascinating to you, and while no one else may understand why a Chelish horsenail is worthy to add to your collection when a dwarven wheelbarrow nail is not, it all makes sense to you. Select one of the following skills: Craft (any one), Disable Device, Escape Artist, Perform (any one), or Spellcraft. Whenever you have your collection within 5 feet of you, you gain a +2 trait bonus on all checks made with the selected skill. Once this skill has been selected, it cannot be changed, nor can you gain it for any other collection you begin amassing.</Pair>
+<Pair single="flavor" id="collector-flavor">You have a small, bizarre collection of apparently worthless items, such as rusty nails, animal droppings, clockwork cogs, or bent spoons. You find this strange menagerie useful in ways no non-gnome could understand. Seeking new items to add to this collection is endlessly fascinating to you, and while no one else may understand why a Chelish horsenail is worthy to add to your collection when a dwarven wheelbarrow nail is not, it all makes sense to you.</Pair>
+<Pair single="benefit" id="collector-benefit"><p>Select one of the following skills: <Link to="/skill/craft">Craft</Link> (any one), <Link to="/skill/disable_device">Disable Device</Link>, <Link to="/skill/escape_artist">Escape Artist</Link>, <Link to="/skill/perform">Perform</Link> (any one), or <Link to="/skill/spellcraft">Spellcraft</Link>. Whenever you have your collection within 5 feet of you, you gain a +2 trait bonus on all checks made with the selected skill.</p>
+<p>Once this skill has been selected, it cannot be changed, nor can you gain it for any other collection you begin amassing.</p>
+</Pair>
 </Ability>
 </>};
 const _competitive = {title: "Competitive", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="competitive" extraClasses="trait" icon={["village"]}>
 <Pair single id="competitive">Competitive</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="competitive-benefit"><p>You grew up and were raised around fabulous sporting events, and your youth was consumed with a driving need to be better than everyone else. Any hint of a contest spurs you to your greatest heights of potential. Whenever another creature within 30 feet attempts a skill check and you attempt a check with the same skill before the start of that creature's next turn, you gain a +1 trait bonus on your check (this includes attempting an opposed skill check against the creature).</p>
+<Pair single="flavor" id="competitive-flavor">You grew up and were raised around fabulous sporting events, and your youth was consumed with a driving need to be better than everyone else. Any hint of a contest spurs you to your greatest heights of potential.</Pair>
+<Pair single="benefit" id="competitive-benefit"><p>Whenever another creature within 30 feet attempts a skill check and you attempt a check with the same skill before the start of that creature's next turn, you gain a +1 trait bonus on your check (this includes attempting an opposed skill check against the creature).</p>
 <p><strong>Suggested Characters:</strong> Brevans, Kurgess worshipers, Sargavans.</p>
 </Pair>
 </Ability>
@@ -2519,15 +2563,25 @@ const _contagious_mettle = {title: "Contagious Mettle", topLink: ["Social Traits
 <Ability id="contagious-mettle" extraClasses="trait" icon={["village"]}>
 <Pair single id="contagious-mettle">Contagious Mettle</Pair>
 <Pair title="Type">Social</Pair>
-<Pair title="Requirements" hl>Code of Valor</Pair>
+<Pair title="Code of Valor" hl><p>Knights who follow the code of valor believe that nothing is more important than courage in battle. The strength of knights is determined by their willingness to stand in the face of overwhelming odds. Without valor, knighthood is merely a title. Their vows are as follows.</p>
+<ul>
+<li>I will accept any challenge to combat if given honorably, regardless of my opponent.</li>
+<li>If I know combat to be the best course of action, I shall not let an enemy discourage me from it with a threat of overwhelming force.</li>
+<li>Once battle is a forgone conclusion, I will be among the first of my allies to charge and engage our foes.</li>
+<li>I shall not willingly succumb to fear. If retreat is a necessity, I will be among the last of my allies to leave the field of battle.</li>
+<li>I will not leave any of my allies on the field, nor will I abandon them while they are in immediate danger.</li>
+</ul>
+</Pair>
 <Pair single="benefit" id="contagious-mettle-benefit">If you follow this code, you gain a +1 trait bonus on Will saves against fear. In addition, any allies adjacent to you receive a +1 morale bonus on Will saves against fear.</Pair>
+<Pair title="Penance" hl>Knights who violate this code must perform penance by volunteering their service to a local militia, army, or fighting company for at least 1 week, whether by performing unusual missions, leading troops into battle, or assisting in the training of soldiers.</Pair>
 </Ability>
 </>};
 const _contemptuous = {title: "Contemptuous", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="contemptuous" extraClasses="trait" icon={["village"]}>
 <Pair single id="contemptuous">Contemptuous</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="contemptuous-benefit">Whether you are a commoner who has come to despise the haughty upper crust or a holier-than-thou noble who can't stand being around the unwashed masses, your contempt drives you to study carefully, making sure you always have the upper hand in social exchanges with them. You gain a +1 trait bonus on Knowledge (local) checks and Knowledge (nobility) checks, and one of these skills becomes a class skill for you.</Pair>
+<Pair single="flavor" id="contemptuous-flavor">Whether you are a commoner who has come to despise the haughty upper crust or a holier-than-thou noble who can't stand being around the unwashed masses, your contempt drives you to study carefully, making sure you always have the upper hand in social exchanges with them.</Pair>
+<Pair single="benefit" id="contemptuous-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_local_">Knowledge (local) </Link>checks and <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> checks, and one of these skills becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _convincing_liar = {title: "Convincing Liar", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -2535,63 +2589,72 @@ const _convincing_liar = {title: "Convincing Liar", topLink: ["Social Traits","m
 <Pair single id="convincing-liar">Convincing Liar</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/bellflower_network">Bellflower Network</Link></Pair>
-<Pair single="benefit" id="convincing-liar-benefit">You've spent your life perfecting the art of half-truths in order to accomplish what you need to. You gain a +1 trait bonus on Bluff or Intimidate checks and one of these skills (your choice) is a class skill for you.</Pair>
+<Pair single="flavor" id="convincing-liar-flavor">You've spent your life perfecting the art of half-truths in order to accomplish what you need to.</Pair>
+<Pair single="benefit" id="convincing-liar-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> or <Link to="/skill/intimidate">Intimidate</Link> checks and one of these skills (your choice) is a class skill for you.</Pair>
 </Ability>
 </>};
 const _criminal = {title: "Criminal", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="criminal" extraClasses="trait" icon={["village"]}>
 <Pair single id="criminal">Criminal</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="criminal-benefit">You spent your early life robbing and stealing to get by. Select one of the following skills: Disable Device, Intimidate, or Sleight of Hand. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
+<Pair single="flavor" id="criminal-flavor">You spent your early life robbing and stealing to get by.</Pair>
+<Pair single="benefit" id="criminal-benefit">Select one of the following skills: <Link to="/skill/disable_device">Disable Device</Link>, <Link to="/skill/intimidate">Intimidate</Link>, or <Link to="/skill/sleight_of_hand">Sleight of Hand</Link>. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _criminal_roots = {title: "Criminal Roots", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="criminal-roots" extraClasses="trait" icon={["village"]}>
 <Pair single id="criminal-roots">Criminal Roots</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="criminal-roots-benefit">Your family has long operated outside the law. You gain a +2 trait bonus on Diplomacy checks to influence criminals and on Intimidate checks to influence law-abiding citizens, but take a -2 penalty on Diplomacy checks to influence law-abiding citizens. Diplomacy or Intimidate (your choice) is a class skill for you.</Pair>
+<Pair single="flavor" id="criminal-roots-flavor">Your family has long operated outside the law.</Pair>
+<Pair single="benefit" id="criminal-roots-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to influence criminals and on <Link to="/skill/intimidate">Intimidate</Link> checks to influence law-abiding citizens, but take a -2 penalty on Diplomacy checks to influence law-abiding citizens. Diplomacy or Intimidate (your choice) is a class skill for you.</Pair>
 </Ability>
 </>};
 const _criminally_connected = {title: "Criminally Connected", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="criminally-connected" extraClasses="trait" icon={["village"]}>
 <Pair single id="criminally-connected">Criminally Connected</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="criminally-connected-benefit">You have spent a lot of time dealing with the criminal underworld - so much that it might be hard for observers to see you as distinct from it. However, this familiarity gives you a leg up on heroes who refuse to muddy their reputation. While in settlements, you gain a +1 trait bonus on Knowledge (local) checks and on Diplomacy checks to gather information.</Pair>
+<Pair single="flavor" id="criminally-connected-flavor">You have spent a lot of time dealing with the criminal underworld - so much that it might be hard for observers to see you as distinct from it. However, this familiarity gives you a leg up on heroes who refuse to muddy their reputation.</Pair>
+<Pair single="benefit" id="criminally-connected-benefit">While in settlements, you gain a +1 trait bonus on <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks and on <Link to="/skill/diplomacy">Diplomacy</Link> checks to gather information.</Pair>
 </Ability>
 </>};
 const _cutting_condescension = {title: "Cutting Condescension", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
 <Ability id="cutting-condescension" extraClasses="trait" icon={["village"]}>
 <Pair single id="cutting-condescension">Cutting Condescension</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="cutting-condescension-benefit">The Sable Company has taught you to quickly get compliance from those in your way. You gain a +2 trait bonus on Intimidate checks to force a creature to act friendly towards you, and can attempt such checks in half the normal time.</Pair>
+<Pair single="flavor" id="cutting-condescension-flavor">The Sable Company has taught you to quickly get compliance from those in your way.</Pair>
+<Pair single="benefit" id="cutting-condescension-benefit">You gain a +2 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks to force a creature to act friendly towards you, and can attempt such checks in half the normal time.</Pair>
 </Ability>
 </>};
 const _cynical = {title: "Cynical", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="cynical" extraClasses="trait" icon={["village"]}>
 <Pair single id="cynical">Cynical</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="cynical-benefit">You have seen many heroes in your time, but you see only their capacity for failure and the ways they fall short of being truly good. This practice in looking past facades has proven a useful skill. You gain a +1 trait bonus on saving throws against illusions and charm effects.</Pair>
+<Pair single="flavor" id="cynical-flavor">You have seen many heroes in your time, but you see only their capacity for failure and the ways they fall short of being truly good. This practice in looking past facades has proven a useful skill.</Pair>
+<Pair single="benefit" id="cynical-benefit">You gain a +1 trait bonus on saving throws against illusions and charm effects.</Pair>
 </Ability>
 </>};
 const _cynical_ear = {title: "Cynical Ear", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
 <Ability id="cynical-ear" extraClasses="trait" icon={["village"]}>
 <Pair single id="cynical-ear">Cynical Ear</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="cynical-ear-benefit">Neither honeyed tongues or righteous wrath move you much. Add 2 when determining your Hit Dice for Intimidate checks, and increase the DC or all Diplomacy checks against you by 2.</Pair>
+<Pair single="flavor" id="cynical-ear-flavor">Neither honeyed tongues or righteous wrath move you much.</Pair>
+<Pair single="benefit" id="cynical-ear-benefit">Add 2 when determining your Hit Dice for <Link to="/skill/intimidate">Intimidate</Link> checks, and increase the DC or all <Link to="/skill/diplomacy">Diplomacy</Link> checks against you by 2.</Pair>
 </Ability>
 </>};
 const _darklands_scholar = {title: "Darklands Scholar", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
 <Ability id="darklands-scholar" extraClasses="trait" icon={["village"]}>
 <Pair single id="darklands-scholar">Darklands Scholar</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="darklands-scholar-benefit">Unsatisfied with mere stories, you have spent years researching journals and firsthand accounts of those who explored the Darklands before you. You gain a +2 trait bonus on Knowledge checks to identify the weaknesses of Darklands creatures.</Pair>
+<Pair single="flavor" id="darklands-scholar-flavor">Unsatisfied with mere stories, you have spent years researching journals and firsthand accounts of those who explored the Darklands before you.</Pair>
+<Pair single="benefit" id="darklands-scholar-benefit">You gain a +2 trait bonus on <Link to="/skill/knowledge">Knowledge</Link> checks to identify the weaknesses of Darklands creatures.</Pair>
 </Ability>
 </>};
 const _darklands_trader = {title: "Darklands Trader", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
 <Ability id="darklands-trader" extraClasses="trait" icon={["village"]}>
 <Pair single id="darklands-trader">Darklands Trader</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="darklands-trader-benefit">You're familiar with Nar-Voth's trade routes and negotiation involving the denizens of the Darklands. You gain a +1 trait bonus on Diplomacy checks relating to subterranean trade and on Knowledge (dungeoneering) checks relating to subterranean creatures. Select one of these skills to be a class skill for you.</Pair>
+<Pair single="flavor" id="darklands-trader-flavor">You're familiar with Nar-Voth's trade routes and negotiation involving the denizens of the Darklands.</Pair>
+<Pair single="benefit" id="darklands-trader-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks relating to subterranean trade and on <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> checks relating to subterranean creatures. Select one of these skills to be a class skill for you.</Pair>
 </Ability>
 </>};
 const _debauchery_defier = {title: "Debauchery Defier", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link></p>
@@ -2600,107 +2663,150 @@ const _debauchery_defier = {title: "Debauchery Defier", topLink: ["Social Traits
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Taldor</Pair>
 <Pair title="Requirements" hl>Associated with the court of the Imperial Palace of Taldor</Pair>
-<Pair single="benefit" id="debauchery-defier-benefit">You are particularly adept at resisting addiction. You must fail two saving throws in a row to become addicted to a drug.</Pair>
+<Pair single="flavor" id="debauchery-defier-flavor">You are particularly adept at resisting addiction.</Pair>
+<Pair single="benefit" id="debauchery-defier-benefit">You must fail two saving throws in a row to become addicted to a drug.</Pair>
 </Ability>
 </>};
 const _deep_cover = {title: "Deep Cover", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="deep-cover" extraClasses="trait" icon={["village"]}>
 <Pair single id="deep-cover">Deep Cover</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="deep-cover-benefit">You have lived a double life since your youth, perhaps to avoid persecution for your true identity or in service to an enemy of the people or group associated with your cover identity. You can always take 10 on Bluff and Disguise checks to assume and maintain your cover identity. Bluff or Disguise (your choice) is a class skill for you.</Pair>
+<Pair single="flavor" id="deep-cover-flavor">You have lived a double life since your youth, perhaps to avoid persecution for your true identity or in service to an enemy of the people or group associated with your cover identity.</Pair>
+<Pair single="benefit" id="deep-cover-benefit">You can always take 10 on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/disguise">Disguise</Link> checks to assume and maintain your cover identity. Bluff or Disguise (your choice) is a class skill for you.</Pair>
 </Ability>
 </>};
 const _destined_diplomat = {title: "Destined Diplomat", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="destined-diplomat" extraClasses="trait" icon={["village"]}>
 <Pair single id="destined-diplomat">Destined Diplomat</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="destined-diplomat-benefit">Your relationship with your eidolon gives you some clout with other outsiders. You gain a +2 trait bonus on Diplomacy checks toward outsiders, and Diplomacy is always a class skill for you.</Pair>
+<Pair single="flavor" id="destined-diplomat-flavor">Your relationship with your eidolon gives you some clout with other outsiders.</Pair>
+<Pair single="benefit" id="destined-diplomat-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks toward outsiders, and Diplomacy is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _detect_disobedience = {title: "Detect Disobedience", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
 <Ability id="detect-disobedience" extraClasses="trait" icon={["village"]}>
 <Pair single id="detect-disobedience">Detect Disobedience</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="detect-disobedience-benefit">You have an uncanny ability to spot a mutiny brewing. You gain a +2 trait bonus on Sense Motive checks to detect when an underling is trying to hide something from you, and can attempt such checks instead of Perception checks to notice and react to a subordinate's surprise attack against you.</Pair>
+<Pair single="flavor" id="detect-disobedience-flavor">You have an uncanny ability to spot a mutiny brewing.</Pair>
+<Pair single="benefit" id="detect-disobedience-benefit">You gain a +2 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to detect when an underling is trying to hide something from you, and can attempt such checks instead of Perception checks to notice and react to a subordinate's surprise attack against you.</Pair>
 </Ability>
 </>};
 const _dismantle_order = {title: "Dismantle Order", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
 <Ability id="dismantle-order" extraClasses="trait" icon={["village"]}>
 <Pair single id="dismantle-order">Dismantle Order</Pair>
 <Pair title="Type">Social</Pair>
-<Pair title="Requirements" hl>Code of Revolution</Pair>
-<Pair single="benefit" id="dismantle-order-benefit">If you follow this code, your appreciation for unfettered social freedom allows you to locate supporters of law with supernatural ease. Once per day, you can use <Link to="/spell/detect_law">detect law</Link> as a spell-like ability (caster level 1st). If you have levels in a class that can cast detect law, your caster level for this spell-like ability is equal to that class level.</Pair>
+<Pair title="Code of Revolution" hl><p>Knights who follow the code of revolution believe that strict laws are an unnecessary bulwark standing in the way of social progress. According to these knights, intelligent and civilized people are inherently good-natured, and if left to their own devices, individuals would prove more wholesome and attuned to the natural order of things than when tainted by the unnatural strictures of organized society. Their vows are as follows.</p>
+<ul>
+<li><p>The wicked must be punished, though not by the hands of corrupted officials or easily swayed politicians.</p>
+</li>
+<li><p>I shall not let stand acts of unfairness performed by governments or their harbingers. Those who contribute to an organized system of cruelty shall feel my wrath.</p>
+</li>
+<li><p>All prisoners, regardless of whether they were convicted or not, deserve a second chance.</p>
+</li>
+<li><p>Tribal or lawless societies exemplify the natural order, and under my watch shall not come to harm from those who would seek to rule them.</p>
+</li>
+<li><p>Those creatures who live free shall see no harm fall to them by myself or my sword.</p>
+</li>
+<li><p>I shall not place unnecessary value on material possessions, as such things are fleeting, whereas deeds are immortal.</p>
+</li>
+</ul>
+</Pair>
+<Pair single="flavor" id="dismantle-order-flavor">If you follow this code, your appreciation for unfettered social freedom allows you to locate supporters of law with supernatural ease.</Pair>
+<Pair single="benefit" id="dismantle-order-benefit">Once per day, you can use <Link to="/spell/detect_law">detect law</Link> as a spell-like ability (caster level 1st). If you have levels in a class that can cast <em>detect law,</em> your caster level for this spell-like ability is equal to that class level.</Pair>
+<Pair title="Penance" hl>Knights who follow this code and violate one of its tenets must separate themselves from society in order to atone for their misdoing. The minimum amount of time spent wholly isolated from civilization is 1 week, though this time might be increased to up to 1 month, depending on the transgression.</Pair>
 </Ability>
 </>};
 const _doublespeak = {title: "Doublespeak", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
 <Ability id="doublespeak" extraClasses="trait" icon={["village"]}>
 <Pair single id="doublespeak">Doublespeak</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="doublespeak-benefit">It isn't what you say - it's how you say it. You gain a +2 trait bonus on Bluff checks to pass along secret messages.</Pair>
+<Pair single="flavor" id="doublespeak-flavor">It isn't what you say - it's how you say it.</Pair>
+<Pair single="benefit" id="doublespeak-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks to pass along secret messages.</Pair>
 </Ability>
 </>};
 const _draconic_destiny = {title: "Draconic Destiny", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
 <Ability id="draconic-destiny" extraClasses="trait" icon={["village"]}>
 <Pair single id="draconic-destiny">Draconic Destiny</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="draconic-destiny-benefit">Whether you are aware of it or not, the moment of your birth was but one part of a far-reaching machination in a dragon's grand design, and the influence of that mysterious plan makes you a little harder to kill. When dying, you gain a +2 trait bonus on Constitution checks to become stable. In addition, you die from hit point loss only once your hit points equal or exceed a negative amount equal to your Constitution score + 2.</Pair>
+<Pair single="flavor" id="draconic-destiny-flavor">Whether you are aware of it or not, the moment of your birth was but one part of a far-reaching machination in a dragon's grand design, and the influence of that mysterious plan makes you a little harder to kill.</Pair>
+<Pair single="benefit" id="draconic-destiny-benefit">When <Link to="/misc/dying">dying</Link>, you gain a +2 trait bonus on Constitution checks to become stable. In addition, you die from hit point loss only once your hit points equal or exceed a negative amount equal to your Constitution score + 2.</Pair>
 </Ability>
 </>};
 const _dragon_hunted = {title: "Dragon-Hunted", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
 <Ability id="dragon-hunted" extraClasses="trait" icon={["village"]}>
 <Pair single id="dragon-hunted">Dragon-Hunted</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="dragon-hunted-benefit">You've survived being hunted by the draconic nightmares on the Shackles islands of Dahak's Fang, Dahak's Horn, or Dahak's Tooth. You gain a +1 trait bonus on Will saves against fear effects, and against any saving throw from a spell or effect created by a dragon.</Pair>
+<Pair single="flavor" id="dragon-hunted-flavor">You've survived being hunted by the draconic nightmares on the Shackles islands of Dahak's Fang, Dahak's Horn, or Dahak's Tooth.</Pair>
+<Pair single="benefit" id="dragon-hunted-benefit">You gain a +1 trait bonus on Will saves against fear effects, and against any saving throw from a spell or effect created by a dragon.</Pair>
 </Ability>
 </>};
 const _dragon_pact = {title: "Dragon Pact", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
 <Ability id="dragon-pact" extraClasses="trait" icon={["village"]}>
 <Pair single id="dragon-pact">Dragon Pact</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="dragon-pact-benefit">At some point your family served a dragon, and acted as its emissary to others. Some members of your family have benefited from this arrangement, gaining some small fraction of that dragon's noble bearing. Choose one category of true dragon (chromatic, metallic, primal, etc.). You gain a +1 trait bonus on Diplomacy checks against that category of dragon and a +1 trait bonus on Intimidate checks against all creatures of the dragon type that are not of the same category of true dragon.</Pair>
+<Pair single="flavor" id="dragon-pact-flavor">At some point your family served a dragon, and acted as its emissary to others. Some members of your family have benefited from this arrangement, gaining some small fraction of that dragon's noble bearing.</Pair>
+<Pair single="benefit" id="dragon-pact-benefit">Choose one category of <Link to="/family/true_dragon">true dragon</Link> (chromatic, metallic, primal, etc.). You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks against that category of dragon and a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks against all creatures of the dragon type that are not of the same category of true dragon.</Pair>
 </Ability>
 </>};
 const _drake_anatomist = {title: "Drake Anatomist", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
 <Ability id="drake-anatomist" extraClasses="trait" icon={["village"]}>
 <Pair single id="drake-anatomist">Drake Anatomist</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="drake-anatomist-benefit">You gain a +1 trait bonus on damage rolls against creatures with the dragon creature type, and a +2 trait bonus on Knowledge (arcana) checks to identify dragons and their special powers and vulnerabilities.</Pair>
+<Pair single="benefit" id="drake-anatomist-benefit">You gain a +1 trait bonus on damage rolls against creatures with the dragon creature type, and a +2 trait bonus on <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> checks to identify dragons and their special powers and vulnerabilities.</Pair>
 </Ability>
 </>};
 const _dusk_market_bribery = {title: "Dusk Market Bribery", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets</Link></p>
 <Ability id="dusk-market-bribery" extraClasses="trait" icon={["village"]}>
 <Pair single id="dusk-market-bribery">Dusk Market Bribery</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="dusk-market-bribery-benefit">You learned how to bribe by watching <Link to="/rule/dusk_market">Dusk Market</Link> merchants interact with Westcrown's dottari guards. Reduce the amount of gold you must spend to bribe a guard or official or compensate a conjured creature by 5%.</Pair>
+<Pair single="flavor" id="dusk-market-bribery-flavor">You learned how to bribe by watching <Link to="/rule/dusk_market">Dusk Market</Link> merchants interact with Westcrown's dottari guards.</Pair>
+<Pair single="benefit" id="dusk-market-bribery-benefit">Reduce the amount of gold you must spend to bribe a guard or official or compensate a conjured creature by 5%.</Pair>
 </Ability>
 </>};
 const _ecumenical = {title: "Ecumenical", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine</Link></p>
 <Ability id="ecumenical" extraClasses="trait" icon={["village"]}>
 <Pair single id="ecumenical">Ecumenical</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="ecumenical-benefit">Your childhood in Magnimar (or in a similar cosmopolitan city) taught you to recognize signs of worship of demigods such as empyreal lords. You gain a +2 trait bonus on Knowledge (religion) checks involving entities other than the most influential gods. You also gain a +2 trait bonus on Diplomacy checks to influence worshipers of such entities.</Pair>
+<Pair single="flavor" id="ecumenical-flavor">Your childhood in Magnimar (or in a similar cosmopolitan city) taught you to recognize signs of worship of demigods such as empyreal lords.</Pair>
+<Pair single="benefit" id="ecumenical-benefit">You gain a +2 trait bonus on <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> checks involving entities other than the most influential gods. You also gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to influence worshipers of such entities.</Pair>
 </Ability>
 </>};
 const _elemental_negotiator = {title: "Elemental Negotiator", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook</Link></p>
 <Ability id="elemental-negotiator" extraClasses="trait" icon={["village"]}>
 <Pair single id="elemental-negotiator">Elemental Negotiator</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="elemental-negotiator-benefit">You have traveled to the Elemental Planes under the protection of a powerful group of merchants or spellcasters. At character creation, you learn one of the following languages as a bonus language: Aquan, Auran, Ignan, or Terran. Additionally, your options for bonus languages from having a high Intelligence score include the other three elemental languages, in addition to those language options allowed by your race and class. You gain a +2 trait bonus on Diplomacy and Bluff checks when using one of these languages to communicate with a creature originating from the language's corresponding Elemental Plane.</Pair>
+<Pair single="flavor" id="elemental-negotiator-flavor">You have traveled to the Elemental Planes under the protection of a powerful group of merchants or spellcasters.</Pair>
+<Pair single="benefit" id="elemental-negotiator-benefit"><p>At character creation, you learn one of the following languages as a bonus language: Aquan, Auran, Ignan, or Terran. Additionally, your options for bonus languages from having a high Intelligence score include the other three elemental languages, in addition to those language options allowed by your race and class.</p>
+<p>You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/bluff">Bluff</Link> checks when using one of these languages to communicate with a creature originating from the language's corresponding Elemental Plane.</p>
+</Pair>
 </Ability>
 </>};
 const _enemy_of_slavers = {title: "Enemy of Slavers", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
 <Ability id="enemy-of-slavers" extraClasses="trait" icon={["village"]}>
 <Pair single id="enemy-of-slavers">Enemy of Slavers</Pair>
 <Pair title="Type">Social</Pair>
-<Pair title="Requirements" hl>Code of Freedom</Pair>
-<Pair single="benefit" id="enemy-of-slavers-benefit">If you follow this code, you are known to be single-minded with regard to slavery, and this fervent belief is easily perceived by others. Those who deal in flesh have a greater desire to appease you before matters escalate to confrontation, knowing that your wrath will be unwavering and swift. You gain a +2 trait bonus on Diplomacy and Intimidate checks made to sway the minds of slavers and anyone who otherwise keeps innocent people against their will.</Pair>
+<Pair title="Code of Freedom" hl><p>Knights who follow the code of freedom believe that no man, woman, or child should be owned by another individual. They believe that all of the humanoid races, even those of monstrous descent, deserve to be given a chance to make their own decisions in life. Their vows are as follows.</p>
+<ul>
+<li>I will not tolerate slavery in any form. If I witness one individual being sold to another, I will intervene with words or actions as necessary.</li>
+<li>If I encounter any escaped slaves, I will make it my duty to take them under my care until they find a safe home.</li>
+<li>I shall not willingly deal with any who support or benefit from slavery.</li>
+<li>I keep no slaves. Those who wait upon me do so of their own volition or because they are in my employ and are treated with the utmost respect.</li>
+<li>When visiting others who keep servants, I will treat them honorably. I shall inquire as to their happiness and treatment. Those who are treated as no more than slaves will gain my strength to support them.</li>
+<li>Shackles and bonds are forbidden unless used on an individual convicted of a crime. Placing another person in chains is akin to being a slaver.</li>
+</ul>
+</Pair>
+<Pair single="benefit" id="enemy-of-slavers-benefit"><p>If you follow this code, you are known to be single-minded with regard to slavery, and this fervent belief is easily perceived by others. Those who deal in flesh have a greater desire to appease you before matters escalate to confrontation, knowing that your wrath will be unwavering and swift.
+You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks made to sway the minds of slavers and anyone who otherwise keeps innocent people against their will.</p>
+</Pair>
+<Pair title="Penance" hl>Knights who violate any of this code's tenets must perform penance by placing themselves in servitude to the individual who was wronged. If the exact individual cannot be found, a person of equivalent social class is sufficient. The length of servitude is dependent on the severity of the transgression. Minor transgressions require a day. If an entire family was enslaved as a result of the knight's actions (or inaction), up to a month of servitude might be required.</Pair>
 </Ability>
 </>};
 const _escaped_captive = {title: "Escaped Captive", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
 <Ability id="escaped-captive" extraClasses="trait" icon={["village"]}>
 <Pair single id="escaped-captive">Escaped Captive</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="escaped-captive-benefit">Whether you were on your way to becoming a drow slave or slated for the ghoul chattel pits, you very narrowly avoided a life of miserable captivity. You make a habit of avoiding restraints or tight spaces, gaining a +1 trait bonus on Escape Artist checks and a +2 trait bonus to CMD to avoid being pinned.</Pair>
+<Pair single="flavor" id="escaped-captive-flavor">Whether you were on your way to becoming a drow slave or slated for the ghoul chattel pits, you very narrowly avoided a life of miserable captivity.</Pair>
+<Pair single="benefit" id="escaped-captive-benefit">You make a habit of avoiding restraints or tight spaces, gaining a +1 trait bonus on <Link to="/skill/escape_artist">Escape Artist</Link> checks and a +2 trait bonus to CMD to avoid being pinned.</Pair>
 </Ability>
 </>};
 const _etymologist = {title: "Etymologist", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
@@ -2708,14 +2814,16 @@ const _etymologist = {title: "Etymologist", topLink: ["Social Traits","main/trai
 <Pair single id="etymologist">Etymologist</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
-<Pair single="benefit" id="etymologist-benefit">When you, like all other young gnomes, were taught the hodgepodge Gnome language, you became curious about the original meaning of each word and what language it was derived from. Anytime you come across a new language, you are immediately absorbed by both how it works and what words you can co-opt from it for the Gnome language. You gain a +1 trait bonus on Linguistics checks, know one additional bonus language, and treat Linguistics as a class skill.</Pair>
+<Pair single="flavor" id="etymologist-flavor">When you, like all other young gnomes, were taught the hodgepodge Gnome language, you became curious about the original meaning of each word and what language it was derived from. Anytime you come across a new language, you are immediately absorbed by both how it works and what words you can co-opt from it for the Gnome language.</Pair>
+<Pair single="benefit" id="etymologist-benefit">You gain a +1 trait bonus on <Link to="/skill/linguistics">Linguistics</Link> checks, know one additional bonus language, and treat Linguistics as a class skill.</Pair>
 </Ability>
 </>};
 const _excellent_penmanship = {title: "Excellent Penmanship", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 23</Link></p>
 <Ability id="excellent-penmanship" extraClasses="trait" icon={["village"]}>
 <Pair single id="excellent-penmanship">Excellent Penmanship</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="excellent-penmanship-benefit">You are a master of calligraphy, an art once highly valued in Lung Wa and still held in high esteem in Lingshen. The DC to detect forgeries you create increases by 2. If you attempt to persuade someone via a written message, you gain a +2 bonus on any Bluff, Diplomacy, or Intimidate check attempted for that communication. Linguistics is always a class skill for you.</Pair>
+<Pair single="flavor" id="excellent-penmanship-flavor">You are a master of calligraphy, an art once highly valued in Lung Wa and still held in high esteem in Lingshen.</Pair>
+<Pair single="benefit" id="excellent-penmanship-benefit">The DC to detect forgeries you create increases by 2. If you attempt to persuade someone via a written message, you gain a +2 bonus on any <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, or <Link to="/skill/intimidate">Intimidate</Link> check attempted for that communication. <Link to="/skill/linguistics">Linguistics</Link> is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _explorer = {title: "Explorer", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
@@ -2723,49 +2831,57 @@ const _explorer = {title: "Explorer", topLink: ["Social Traits","main/traits_soc
 <Pair single id="explorer">Explorer</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
-<Pair single="benefit" id="explorer-benefit">Though many gnomes settle down in communities large enough and interesting enough to provide them with all the stimulation they need to ward off the Bleaching, you're never going to be one of them. You are always looking around the next bend in the road or over the next hill, past the borders of where you are to where you want to be. At the beginning of each character level, select one desired terrain type from the following list: cold, desert, forest, jungle, mountains (including hills), plains, planes (other than the Material Plane), swamp, underground (including caves and dungeons), urban, or water. You gain a +2 bonus on all Survival checks made in your desired terrain type. At the beginning of each level, you must select a new desired terrain type to replace the old one (you cannot take the same desired terrain type two levels in a row).</Pair>
+<Pair single="flavor" id="explorer-flavor">Though many gnomes settle down in communities large enough and interesting enough to provide them with all the stimulation they need to ward off the Bleaching, you're never going to be one of them. You are always looking around the next bend in the road or over the next hill, past the borders of where you are to where you want to be.</Pair>
+<Pair single="benefit" id="explorer-benefit"><p>At the beginning of each character level, select one desired terrain type from the following list: cold, desert, forest, jungle, mountains (including hills), plains, planes (other than the Material Plane), swamp, underground (including caves and dungeons), urban, or water. You gain a +2 bonus on all <Link to="/skill/survival">Survival</Link> checks made in your desired terrain type.</p>
+<p>At the beginning of each level, you must select a new desired terrain type to replace the old one (you cannot take the same desired terrain type two levels in a row).</p>
+</Pair>
 </Ability>
 </>};
 const _expressive_pantomime = {title: "Expressive Pantomime", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
 <Ability id="expressive-pantomime" extraClasses="trait" icon={["village"]}>
 <Pair single id="expressive-pantomime">Expressive Pantomime</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="expressive-pantomime-benefit">You have learned to express yourself without having to depend on words. When attempting a Bluff check to deliver a secret message, you can take a -5 penalty on the check to communicate a simple message even to creatures that do not share a language with you. You cannot communicate with mindless creatures.</Pair>
+<Pair single="flavor" id="expressive-pantomime-flavor">You have learned to express yourself without having to depend on words.</Pair>
+<Pair single="benefit" id="expressive-pantomime-benefit">When attempting a <Link to="/skill/bluff">Bluff</Link> check to deliver a secret message, you can take a -5 penalty on the check to communicate a simple message even to creatures that do not share a language with you. You cannot communicate with mindless creatures.</Pair>
 </Ability>
 </>};
 const _fast_talker = {title: "Fast Talker", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="fast-talker" extraClasses="trait" icon={["village"]}>
 <Pair single id="fast-talker">Fast Talker</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="fast-talker-benefit">You had a knack for getting yourself into trouble as a child, and as a result developed a silver tongue at an early age. You gain a +1 trait bonus on Bluff checks, and Bluff is always a class skill for you.</Pair>
+<Pair single="flavor" id="fast-talker-flavor">You had a knack for getting yourself into trouble as a child, and as a result developed a silver tongue at an early age.</Pair>
+<Pair single="benefit" id="fast-talker-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks, and Bluff is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _feral_speech = {title: "Feral Speech", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
 <Ability id="feral-speech" extraClasses="trait" icon={["village"]}>
 <Pair single id="feral-speech">Feral Speech</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="feral-speech-benefit">You were raised in a community that included numerous individuals who spoke with creatures of the wild. You gain one of the following languages of your choice as a bonus language: Aklo, Aquan, Auran, Giant, Ignan, or Sylvan. With your GM's permission, you can instead select Druidic, but druids are protective of their language - you are likely to find yourself hunted by druids wishing to eliminate you as a threat to their sole ownership of their secrets.</Pair>
+<Pair single="flavor" id="feral-speech-flavor">You were raised in a community that included numerous individuals who spoke with creatures of the wild.</Pair>
+<Pair single="benefit" id="feral-speech-benefit">You gain one of the following languages of your choice as a bonus language: Aklo, Aquan, Auran, Giant, Ignan, or Sylvan. With your GM's permission, you can instead select Druidic, but druids are protective of their language - you are likely to find yourself hunted by druids wishing to eliminate you as a threat to their sole ownership of their secrets.</Pair>
 </Ability>
 </>};
 const _for_the_money = {title: "For the Money", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
 <Ability id="for-the-money" extraClasses="trait" icon={["village"]}>
 <Pair single id="for-the-money">For the Money</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="for-the-money-benefit">You gain a +2 trait bonus on skill checks to haggle prices or negotiate payment; this bonus increases to +4 if you are in a position of military or economic power over your target. You also gain a +1 trait bonus on Appraise checks and Appraise is always a class skill for you.</Pair>
+<Pair single="benefit" id="for-the-money-benefit">You gain a +2 trait bonus on skill checks to haggle prices or negotiate payment; this bonus increases to +4 if you are in a position of military or economic power over your target. You also gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> checks and Appraise is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _founders_heritage = {title: "Founders' Heritage", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology</Link></p>
 <Ability id="founders-heritage" extraClasses="trait" icon={["village"]}>
 <Pair single id="founders-heritage">Founders' Heritage</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="founders-heritage-benefit">You can trace your family line back to one of the founding families of Absalom that was called by Aroden to aid him in establishing the city because of their vision and potential. You gain a +1 trait bonus on Charisma-based skill checks to influence citizens of Absalom.</Pair>
+<Pair single="flavor" id="founders-heritage-flavor">You can trace your family line back to one of the founding families of Absalom that was called by Aroden to aid him in establishing the city because of their vision and potential.</Pair>
+<Pair single="benefit" id="founders-heritage-benefit">You gain a +1 trait bonus on Charisma-based skill checks to influence citizens of Absalom.</Pair>
 </Ability>
 </>};
 const _free_spirit = {title: "Free Spirit", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="free-spirit" extraClasses="trait" icon={["village"]}>
 <Pair single id="free-spirit">Free Spirit</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="free-spirit-benefit"><p>You respect the freedom of others to speak as they will. Your rough-and-tumble youth taught you that everyone deserves a chance to say her piece. After all, you can always simply choose to ignore the speaker. You gain a +1 trait bonus on saving throws against language-dependent and effects with the sonic descriptor. In addition, the DC to Intimidate you increases by 2.</p>
+<Pair single="flavor" id="free-spirit-flavor">You respect the freedom of others to speak as they will. Your rough-and-tumble youth taught you that everyone deserves a chance to say her piece. After all, you can always simply choose to ignore the speaker.</Pair>
+<Pair single="benefit" id="free-spirit-benefit"><p>You gain a +1 trait bonus on saving throws against language-dependent and effects with the sonic descriptor. In addition, the DC to <Link to="/skill/intimidate">Intimidate</Link> you increases by 2.</p>
 <p><strong>Suggested Characters:</strong> Andorens, Desnans, Erastil worshipers.</p>
 </Pair>
 </Ability>
@@ -2774,14 +2890,16 @@ const _friend_in_every_town = {title: "Friend in Every Town", topLink: ["Social 
 <Ability id="friend-in-every-town" extraClasses="trait" icon={["village"]}>
 <Pair single id="friend-in-every-town">Friend in Every Town</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="friend-in-every-town-benefit">You have no problem making friends and learning information from them wherever you go. You gain a +1 trait bonus on all Knowledge (local) checks and Diplomacy checks. One of these skills (your choice) is always a class skill for you.</Pair>
+<Pair single="flavor" id="friend-in-every-town-flavor">You have no problem making friends and learning information from them wherever you go.</Pair>
+<Pair single="benefit" id="friend-in-every-town-benefit">You gain a +1 trait bonus on all <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks and <Link to="/skill/diplomacy">Diplomacy</Link> checks. One of these skills (your choice) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _friends_in_high_places = {title: "Friends in High Places", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="friends-in-high-places" extraClasses="trait" icon={["village"]}>
 <Pair single id="friends-in-high-places">Friends in High Places</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="friends-in-high-places-benefit"><p>You have often seen lawbreakers go free when they demonstrate they have friends in high places, and so you put special effort into befriending powerful people yourself. Whenever you are in an area in which you have used the Diplomacy skill to gather information, you gain a +1 trait bonus on Diplomacy and Intimidate checks. This bonus increases to +2 when dealing with government officials.</p>
+<Pair single="flavor" id="friends-in-high-places-flavor">You have often seen lawbreakers go free when they demonstrate they have friends in high places, and so you put special effort into befriending powerful people yourself.</Pair>
+<Pair single="benefit" id="friends-in-high-places-benefit"><p>Whenever you are in an area in which you have used the <Link to="/skill/diplomacy">Diplomacy</Link> skill to gather information, you gain a +1 trait bonus on Diplomacy and <Link to="/skill/intimidate">Intimidate</Link> checks. This bonus increases to +2 when dealing with government officials.</p>
 <p><strong>Suggested Characters:</strong> Absalom natives, <Link to="/rule/aspis_consortium">Aspis Consortium</Link> agents, Taldans.</p>
 </Pair>
 </Ability>
@@ -2790,21 +2908,24 @@ const _friends_in_low_places = {title: "Friends in Low Places", topLink: ["Socia
 <Ability id="friends-in-low-places" extraClasses="trait" icon={["village"]}>
 <Pair single id="friends-in-low-places">Friends in Low Places</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="friends-in-low-places-benefit">Outcasts know their own, and that knowledge opens doors and loosens tongues. Gathering information in lower quarters, such as vice dens and poorer districts, takes you 1d2 hours (instead of 1d4 hours). In addition, the attitudes of any destitute or impoverished NPCs you interact with begin one step closer to helpful.</Pair>
+<Pair single="flavor" id="friends-in-low-places-flavor">Outcasts know their own, and that knowledge opens doors and loosens tongues.</Pair>
+<Pair single="benefit" id="friends-in-low-places-benefit"><Link to="/skill/diplomacy">Gathering information</Link> in lower quarters, such as vice dens and poorer districts, takes you 1d2 hours (instead of 1d4 hours). In addition, the attitudes of any destitute or impoverished NPCs you interact with begin one step closer to helpful.</Pair>
 </Ability>
 </>};
 const _fury_of_the_red = {title: "Fury of the Red", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
 <Ability id="fury-of-the-red" extraClasses="trait" icon={["village"]}>
 <Pair single id="fury-of-the-red">Fury of the Red</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="fury-of-the-red-benefit">Somewhere in your family line, the mystic power of red dragons was infused into one of your relatives. If you ever take a class that requires you to select a draconic heritage, you must select a red dragon as your type. After successfully completing a charge attack, you gain a +2 trait bonus on Will saves for a full round.</Pair>
+<Pair single="flavor" id="fury-of-the-red-flavor">Somewhere in your family line, the mystic power of red dragons was infused into one of your relatives.</Pair>
+<Pair single="benefit" id="fury-of-the-red-benefit">If you ever take a class that requires you to select a draconic heritage, you must select a red dragon as your type. After successfully completing a <Link to="/rule/charge">charge</Link> attack, you gain a +2 trait bonus on Will saves for a full round.</Pair>
 </Ability>
 </>};
 const _gesture_expertise = {title: "Gesture Expertise", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets</Link></p>
 <Ability id="gesture-expertise" extraClasses="trait" icon={["village"]}>
 <Pair single id="gesture-expertise">Gesture Expertise</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="gesture-expertise-benefit">You are adept at nonverbal communication. You can use a sign language or gestural system to send complex messages quickly in combat, and with a successful DC 15 Linguistics check, you can express yourself clearly enough to communicate basic messages to people who do not understand your gestures. You gain a +2 trait bonus to send secret messages via gestures using the Bluff skill, and to understand gestures with the Linguistics skill.</Pair>
+<Pair single="flavor" id="gesture-expertise-flavor">You are adept at nonverbal communication.</Pair>
+<Pair single="benefit" id="gesture-expertise-benefit">You can use a sign language or gestural system to send complex messages quickly in combat, and with a successful DC 15 <Link to="/skill/linguistics">Linguistics</Link> check, you can express yourself clearly enough to communicate basic messages to people who do not understand your gestures. You gain a +2 trait bonus to send secret messages via gestures using the <Link to="/skill/bluff">Bluff</Link> skill, and to understand gestures with the Linguistics skill.</Pair>
 </Ability>
 </>};
 const _gifted_smuggler = {title: "Gifted Smuggler", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2</Link></p>
@@ -2812,14 +2933,16 @@ const _gifted_smuggler = {title: "Gifted Smuggler", topLink: ["Social Traits","m
 <Pair single id="gifted-smuggler">Gifted Smuggler</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Ostenso</Pair>
-<Pair single="benefit" id="gifted-smuggler-benefit">You have a knack for hiding goods on your person. Any small object you attempt to hide on your body is treated as an extraordinarily small object for the purpose of Sleight of Hand checks.</Pair>
+<Pair single="flavor" id="gifted-smuggler-flavor">You have a knack for hiding goods on your person.</Pair>
+<Pair single="benefit" id="gifted-smuggler-benefit">Any small object you attempt to hide on your body is treated as an extraordinarily small object for the purpose of <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks.</Pair>
 </Ability>
 </>};
 const _gregarious = {title: "Gregarious", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="gregarious" extraClasses="trait" icon={["village"]}>
 <Pair single id="gregarious">Gregarious</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="gregarious-benefit"><p>At least once in your childhood, your family moved for a reason you didn't understand and you were forced to leave behind your old friends and make new ones. Ever since, you have always been the first to meet strangers, make new friends, and welcome travelers. You learned that first impressions are the most important, and have a knack for making a good one. Once per day, when you attempt a Diplomacy check to improve a creature's attitude toward you, you may choose to reroll the check after the first roll is made but before the results are revealed. You must take the second result, even if it is worse.</p>
+<Pair single="flavor" id="gregarious-flavor">At least once in your childhood, your family moved for a reason you didn't understand and you were forced to leave behind your old friends and make new ones. Ever since, you have always been the first to meet strangers, make new friends, and welcome travelers. You learned that first impressions are the most important, and have a knack for making a good one.</Pair>
+<Pair single="benefit" id="gregarious-benefit"><p>Once per day, when you attempt a <Link to="/skill/diplomacy">Diplomacy</Link> check to improve a creature's attitude toward you, you may choose to reroll the check after the first roll is made but before the results are revealed. You must take the second result, even if it is worse.</p>
 <p><strong>Suggested Characters:</strong> <Link to="/rule/eagle_knights">Eagle Knights</Link>, Garundi, Pathfinders.</p>
 </Pair>
 </Ability>
@@ -2828,14 +2951,16 @@ const _grief_filled = {title: "Grief-Filled", topLink: ["Social Traits","main/tr
 <Ability id="grief-filled" extraClasses="trait" icon={["village"]}>
 <Pair single id="grief-filled">Grief-Filled</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="grief-filled-benefit">You are no stranger to loss and intense emotions. You gain a +2 trait bonus on all saving throws against emotion spells and effects.</Pair>
+<Pair single="flavor" id="grief-filled-flavor">You are no stranger to loss and intense emotions.</Pair>
+<Pair single="benefit" id="grief-filled-benefit">You gain a +2 trait bonus on all saving throws against emotion spells and effects.</Pair>
 </Ability>
 </>};
 const _grim_optimism = {title: "Grim Optimism", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="grim-optimism" extraClasses="trait" icon={["village"]}>
 <Pair single id="grim-optimism">Grim Optimism</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="grim-optimism-benefit"><p>Growing up with no one to rely on but yourself, you learned to keep a realistic view of your situation and avoid falling into the trap of cynicism with a healthy dose of wit. As a standard action, you can joke about a troublesome situation to lighten the load of dealing with it for yourself and others. You and all allies within 30 feet who can hear you gain a +2 morale bonus on saving throws against fear and pain effects for 1d4 rounds. A character cannot benefit from this effect more than once in 24 hours.</p>
+<Pair single="flavor" id="grim-optimism-flavor">Growing up with no one to rely on but yourself, you learned to keep a realistic view of your situation and avoid falling into the trap of cynicism with a healthy dose of wit.</Pair>
+<Pair single="benefit" id="grim-optimism-benefit"><p>As a <strong className="hl">standard action</strong>, you can joke about a troublesome situation to lighten the load of dealing with it for yourself and others. You and all allies within 30 feet who can hear you gain a +2 morale bonus on saving throws against fear and pain effects for 1d4 rounds. A character cannot benefit from this effect more than once in 24 hours.</p>
 <p><strong>Suggested Characters:</strong> Galtans, Rahadoumi, Ustalavs.</p>
 </Pair>
 </Ability>
@@ -2844,42 +2969,48 @@ const _hardly_a_fool = {title: "Hardly a Fool", topLink: ["Social Traits","main/
 <Ability id="hardly-a-fool" extraClasses="trait" icon={["village"]}>
 <Pair single id="hardly-a-fool">Hardly a Fool</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="hardly-a-fool-benefit">You have always been able to ferret out lies and deception. Maybe you worked as an investigator for a time, you came from a place rife with lies, or you've studied the human condition long enough to read a person's face and get to the heart of his message. You gain a +1 trait bonus on Sense Motive checks and a +1 trait bonus on saving throws against illusion effects.</Pair>
+<Pair single="flavor" id="hardly-a-fool-flavor">You have always been able to ferret out lies and deception. Maybe you worked as an investigator for a time, you came from a place rife with lies, or you've studied the human condition long enough to read a person's face and get to the heart of his message.</Pair>
+<Pair single="benefit" id="hardly-a-fool-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks and a +1 trait bonus on saving throws against illusion effects.</Pair>
 </Ability>
 </>};
 const _harvester = {title: "Harvester", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="harvester" extraClasses="trait" icon={["village"]}>
 <Pair single id="harvester">Harvester</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="harvester-benefit">You were trained to harvest all parts of an animal with care and precision. You gain a +1 trait bonus on Profession (tanner) or Profession (trapper) checks, and you may make these checks as if you were trained in the skill even if you have no ranks. Additionally, you do not risk poisoning yourself whenever you handle or apply poison taken from a venomous creature.</Pair>
+<Pair single="flavor" id="harvester-flavor">You were trained to harvest all parts of an animal with care and precision.</Pair>
+<Pair single="benefit" id="harvester-benefit">You gain a +1 trait bonus on <Link to="/skill/profession">Profession</Link> (tanner) or Profession (trapper) checks, and you may make these checks as if you were trained in the skill even if you have no ranks. Additionally, you do not risk poisoning yourself whenever you handle or apply poison taken from a venomous creature.</Pair>
 </Ability>
 </>};
 const _heart_of_two_worlds = {title: "Heart of Two Worlds", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
 <Ability id="heart-of-two-worlds" extraClasses="trait" icon={["village"]}>
 <Pair single id="heart-of-two-worlds">Heart of Two Worlds</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="heart-of-two-worlds-benefit">Born into a world split in twain, you are particularly skilled at understanding and empathizing with those around you. You gain a +2 trait bonus on Diplomacy and Sense Motive checks involving creatures that belong to the same race (or, if human, ethnicity) as your mother or father.</Pair>
+<Pair single="flavor" id="heart-of-two-worlds-flavor">Born into a world split in twain, you are particularly skilled at understanding and empathizing with those around you.</Pair>
+<Pair single="benefit" id="heart-of-two-worlds-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks involving creatures that belong to the same race (or, if human, ethnicity) as your mother or father.</Pair>
 </Ability>
 </>};
 const _hellknight_ancestry = {title: "Hellknight Ancestry", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
 <Ability id="hellknight-ancestry" extraClasses="trait" icon={["village"]}>
 <Pair single id="hellknight-ancestry">Hellknight Ancestry</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="hellknight-ancestry-benefit">At least one of your parents was a <Link to="/rule/hellknights">Hellknight</Link>, and you see the orders as the embodiment of civic virtue. You gain a +2 trait bonus on Diplomacy checks to influence Hellknights and a +2 trait bonus on Intimidate checks to influence enemies of the Hellknights.</Pair>
+<Pair single="flavor" id="hellknight-ancestry-flavor">At least one of your parents was a <Link to="/rule/hellknights">Hellknight</Link>, and you see the orders as the embodiment of civic virtue.</Pair>
+<Pair single="benefit" id="hellknight-ancestry-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to influence Hellknights and a +2 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks to influence enemies of the Hellknights.</Pair>
 </Ability>
 </>};
 const _imposing_scion = {title: "Imposing Scion", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="imposing-scion" extraClasses="trait" icon={["village"]}>
 <Pair single id="imposing-scion">Imposing Scion</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="imposing-scion-benefit">The reputation of your bloodline grants you a degree of fearful respect. You gain a +1 trait bonus on Intimidate checks. If your bloodline is keyed to a specific creature type, your trait bonus increases to +2 when interacting with creatures of that type.</Pair>
+<Pair single="flavor" id="imposing-scion-flavor">The reputation of your bloodline grants you a degree of fearful respect.</Pair>
+<Pair single="benefit" id="imposing-scion-benefit">You gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks. If your bloodline is keyed to a specific creature type, your trait bonus increases to +2 when interacting with creatures of that type.</Pair>
 </Ability>
 </>};
 const _inexorable_authority = {title: "Inexorable Authority", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance</Link></p>
 <Ability id="inexorable-authority" extraClasses="trait" icon={["village"]}>
 <Pair single id="inexorable-authority">Inexorable Authority</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="inexorable-authority-benefit">When you speak with the full weight of law, your conviction lends you a terrible presence. You gain a +2 trait bonus on Intimidate checks when enforcing or pronouncing a lawful judgment that you're legitimately deputed to enforce or pronounce.</Pair>
+<Pair single="flavor" id="inexorable-authority-flavor">When you speak with the full weight of law, your conviction lends you a terrible presence.</Pair>
+<Pair single="benefit" id="inexorable-authority-benefit">You gain a +2 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks when enforcing or pronouncing a lawful judgment that you're legitimately deputed to enforce or pronounce.</Pair>
 </Ability>
 </>};
 const _infernal_colleague = {title: "Infernal Colleague", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link></p>
@@ -2888,21 +3019,24 @@ const _infernal_colleague = {title: "Infernal Colleague", topLink: ["Social Trai
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Cheliax</Pair>
 <Pair title="Requirements" hl>Associated with the court of the Imperial Palace in Cheliax</Pair>
-<Pair single="benefit" id="infernal-colleague-benefit">Your experience working with devils has given you nerves of steel. You gain a +2 trait bonus on Will saves to resist fear effects created by outsiders.</Pair>
+<Pair single="flavor" id="infernal-colleague-flavor">Your experience working with devils has given you nerves of steel.</Pair>
+<Pair single="benefit" id="infernal-colleague-benefit">You gain a +2 trait bonus on Will saves to resist fear effects created by outsiders.</Pair>
 </Ability>
 </>};
 const _influence = {title: "Influence", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="influence" extraClasses="trait" icon={["village"]}>
 <Pair single id="influence">Influence</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="influence-benefit">Your position in society grants you special insight into others, and special consideration or outright awe from others. Choose one of the following skills: Diplomacy, Intimidate, or Sense Motive. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
+<Pair single="flavor" id="influence-flavor">Your position in society grants you special insight into others, and special consideration or outright awe from others.</Pair>
+<Pair single="benefit" id="influence-benefit">Choose one of the following skills: <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/intimidate">Intimidate</Link>, or <Link to="/skill/sense_motive">Sense Motive</Link>. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _jistkan_scholar = {title: "Jistkan Scholar", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 19</Link></p>
 <Ability id="jistkan-scholar" extraClasses="trait" icon={["village"]}>
 <Pair single id="jistkan-scholar">Jistkan Scholar</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="jistkan-scholar-benefit">You have specialized in studying Jistkan history and culture. You gain Jistka as a bonus language and a +1 trait bonus on all Knowledge checks related to the Jistka Imperium.</Pair>
+<Pair single="flavor" id="jistkan-scholar-flavor">You have specialized in studying Jistkan history and culture.</Pair>
+<Pair single="benefit" id="jistkan-scholar-benefit">You gain Jistka as a bonus language and a +1 trait bonus on all <Link to="/skill/knowledge">Knowledge</Link> checks related to the Jistka Imperium.</Pair>
 </Ability>
 </>};
 const _keleshite_princess = {title: "Keleshite Princess", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
@@ -2911,43 +3045,62 @@ const _keleshite_princess = {title: "Keleshite Princess", topLink: ["Social Trai
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Qadira</Pair>
 <Pair title="Requirements" hl>Keleshite; female</Pair>
-<Pair single="benefit" id="keleshite-princess-benefit">You have been raised to expect obedience from those around you, regardless of their station, and are not shy about demanding what you want. You gain a +1 trait bonus to Diplomacy and Intimidate checks, and one of these skills (your choice) is always a class skill for you.</Pair>
+<Pair single="flavor" id="keleshite-princess-flavor">You have been raised to expect obedience from those around you, regardless of their station, and are not shy about demanding what you want.</Pair>
+<Pair single="benefit" id="keleshite-princess-benefit">You gain a +1 trait bonus to <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks, and one of these skills (your choice) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _king_in_waiting = {title: "King in Waiting", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
 <Ability id="king-in-waiting" extraClasses="trait" icon={["village"]}>
 <Pair single id="king-in-waiting">King in Waiting</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="king-in-waiting-benefit">You've been raised with tales of the great linnorms, and taught that the death curses of these vile dragons cannot stop the truly mighty. You gain a +1 trait bonus on saves to resist curses and spells with the curse descriptor and a +3 trait bonus on saves to resist curses originating from a linnorm.</Pair>
+<Pair single="flavor" id="king-in-waiting-flavor">You've been raised with tales of the great linnorms, and taught that the death curses of these vile dragons cannot stop the truly mighty.</Pair>
+<Pair single="benefit" id="king-in-waiting-benefit">You gain a +1 trait bonus on saves to resist curses and spells with the curse descriptor and a +3 trait bonus on saves to resist curses originating from a <Link to="/family/linnorm">linnorm</Link>.</Pair>
 </Ability>
 </>};
 const _knowing_the_enemy = {title: "Knowing the Enemy", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="knowing-the-enemy" extraClasses="trait" icon={["village"]}>
 <Pair single id="knowing-the-enemy">Knowing the Enemy</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="knowing-the-enemy-benefit">You know a good deal about your most dire enemies. You gain a +1 trait bonus on checks with the Knowledge skill corresponding to your first <Link to="/ability/favored_enemy">favored enemy</Link> choice, and that Knowledge skill is always a class skill for you.</Pair>
+<Pair single="flavor" id="knowing-the-enemy-flavor">You know a good deal about your most dire enemies.</Pair>
+<Pair single="benefit" id="knowing-the-enemy-benefit">You gain a +1 trait bonus on checks with the <Link to="/skill/knowledge">Knowledge</Link> skill corresponding to your first <Link to="/ability/favored_enemy">favored enemy</Link> choice, and that Knowledge skill is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _law_enforcer = {title: "Law Enforcer", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
 <Ability id="law-enforcer" extraClasses="trait" icon={["village"]}>
 <Pair single id="law-enforcer">Law Enforcer</Pair>
 <Pair title="Type">Social</Pair>
-<Pair title="Requirements" hl>Code of Vigilance</Pair>
-<Pair single="benefit" id="law-enforcer-benefit">If you follow this code, you are always alert to those who transgress against the laws of civilization. You receive a +2 bonus on Sense Motive checks to gain a hunch from social situations, and begin play with a pair of masterwork manacles.</Pair>
+<Pair title="Code of Vigilance" hl><p>Knights who follow the code of vigilance believe that people are prone to chaos and society will eventually devolve into anarchy if given the opportunity. In order for society to continue, these knights must constantly remind people of the law, and take it upon themselves to enforce it in the absence of other authority figures. Their vows are as follows.</p>
+<ul>
+<li><p>I will be familiar with local laws and adhere to them strictly.</p>
+</li>
+<li><p>If I witness a crime, I will attempt to capture the criminal and report his actions to the authorities.</p>
+</li>
+<li><p>If any I meet are known to be escaped criminals, I will attempt to apprehend them by any means necessary.</p>
+</li>
+<li><p>I shall mete out appropriate punishment for those who violate the law, but only if no acceptable authority is readily available.</p>
+</li>
+<li><p>I shall remember that none are above the law, and that law is absolute. There shall be no mitigating circumstances for any individual, regardless of station or position.</p>
+</li>
+</ul>
+</Pair>
+<Pair single="benefit" id="law-enforcer-benefit">If you follow this code, you are always alert to those who transgress against the laws of civilization. You receive a +2 bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to gain a hunch from social situations, and begin play with a pair of <Link to="/eq-misc/masterwork_manacles">masterwork manacles</Link>.</Pair>
+<Pair title="Penance" hl>Knights who follow this code and violate one of its tenets must perform penance based on the violation. If they are disgraced for violating the law when it was not acceptable, they must voluntarily surrender to the appropriate authority and receive proper punishment. If they allowed a criminal to escape, they must assist in the capture and punishment of the criminal.</Pair>
 </Ability>
 </>};
 const _life_of_toil = {title: "Life of Toil", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="life-of-toil" extraClasses="trait" icon={["village"]}>
 <Pair single id="life-of-toil">Life of Toil</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="life-of-toil-benefit">You have lived a physically taxing life, working long hours for a master or to support a trade. Hard physical labor has toughened your body and mind. You gain a +1 trait bonus on Fortitude saves.</Pair>
+<Pair single="flavor" id="life-of-toil-flavor">You have lived a physically taxing life, working long hours for a master or to support a trade. Hard physical labor has toughened your body and mind.</Pair>
+<Pair single="benefit" id="life-of-toil-benefit">You gain a +1 trait bonus on Fortitude saves.</Pair>
 </Ability>
 </>};
 const _lost_nobility = {title: "Lost Nobility", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
 <Ability id="lost-nobility" extraClasses="trait" icon={["village"]}>
 <Pair single id="lost-nobility">Lost Nobility</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="lost-nobility-benefit">Your family was prominent before the rise of Thrune, but that legacy is now forgotten by all but you. You hold every Chelish government official (including <Link to="/rule/hellknights">Hellknights</Link>) personally responsible for your lost glory. You gain a +1 trait bonus on attack and damage rolls against these officials.</Pair>
+<Pair single="flavor" id="lost-nobility-flavor">Your family was prominent before the rise of Thrune, but that legacy is now forgotten by all but you.</Pair>
+<Pair single="benefit" id="lost-nobility-benefit">You hold every Chelish government official (including <Link to="/rule/hellknights">Hellknights</Link>) personally responsible for your lost glory.You gain a +1 trait bonus on attack and damage rolls against these officials.</Pair>
 </Ability>
 </>};
 const _maestro_of_the_society = {title: "Maestro of the Society", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -2955,7 +3108,7 @@ const _maestro_of_the_society = {title: "Maestro of the Society", topLink: ["Soc
 <Pair single id="maestro-of-the-society">Maestro of the Society</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
-<Pair single="benefit" id="maestro-of-the-society-benefit">The skills of Golarion's greatest musicians are at your fingertips, thanks to the vast treasure trove of musical knowledge in the vaults beneath the Grand Lodge in Absalom. Studying this knowledge gives you the ability to use your bardic performance an additional 3 rounds per day.</Pair>
+<Pair single="benefit" id="maestro-of-the-society-benefit">The skills of Golarion's greatest musicians are at your fingertips, thanks to the vast treasure trove of musical knowledge in the vaults beneath the Grand Lodge in Absalom. Studying this knowledge gives you the ability to use your <Link to="/ability/bardic_performance">bardic performance</Link> an additional 3 rounds per day.</Pair>
 </Ability>
 </>};
 const _malevolent_temptations = {title: "Malevolent Temptations", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>

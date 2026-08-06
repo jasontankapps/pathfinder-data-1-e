@@ -462,7 +462,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"clear", "jl", "id", "type",
 					"campaign", "religion", "region",
 					"title", "benefit", "req", "flavor",
-					"sub", "subs", "head", "indent",
+					"sub", "subs", "surs", "head", "indent",
 					"singleBreaks"
 				], [], logError);
 				flags.ability = true;
