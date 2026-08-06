@@ -1,22 +1,4 @@
 {
-	"traits_faith": {
-		"title": "Faith Traits",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Traits]{to=main/traits rev}",
-					""
-				],
-				{
-					"limit": {
-						"regex": "^Faith"
-					}
-				}
-			]
-		}
-	},
 	"traits_magic": {
 		"title": "Magic Traits",
 		"searchgroup": "trait",
