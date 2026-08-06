@@ -20,7 +20,7 @@ const makeTraitBlock = ({
 		id, type, req, flavor,
 		campaign, religion, region,
 		title, benefit,
-		sub, head, subs, indent,
+		sub, head, subs, surs, indent,
 		singleBreaks
 	} = attrs;
 	const text = txt || title;
@@ -125,6 +125,19 @@ const makeTraitBlock = ({
 		+ "</Pair>"
 	);
 	//
+	// SURS
+	//
+	if(surs) {
+		surs.split(/(?<!~)~~(?!~)/).forEach(bit => {
+			const [title, body, hl] = bit.split(/(?<!~)~(?!~)/);
+			output.push(
+				`<Pair title="${title}"${hl ? " hl" : ""}>`
+				+ doParse(body, true)
+				+ "</Pair>"
+			);
+		});
+	}
+	//
 	// FLAVOR TEXT
 	//
 	flavor && output.push(
@@ -145,9 +158,9 @@ const makeTraitBlock = ({
 	//
 	if(subs) {
 		subs.split(/(?<!~)~~(?!~)/).forEach(bit => {
-			const [title, body] = bit.split(/(?<!~)~(?!~)/);
+			const [title, body, hl] = bit.split(/(?<!~)~(?!~)/);
 			output.push(
-				`<Pair title="${title}">`
+				`<Pair title="${title}"${hl ? " hl" : ""}>`
 				+ doParse(body, true)
 				+ "</Pair>"
 			);
