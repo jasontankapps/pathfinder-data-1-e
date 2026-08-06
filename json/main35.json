@@ -7,19 +7,19 @@
 			"",
 			"::mhr",
 			"",
-			"::main[All Faith Traits]{to=main/traits_faith_all endem=\"(142 traits)\"}",
+			"::main[All Faith Traits]{to=main/traits_faith_all endem=\"(121 traits)\"}",
 			"",
 			"::main[Defense Traits]{to=main/traits_faith_def ind bottom=\"Affects armor bonuses or saving throws; 33 traits\"}",
 			"",
-			"::main[Other Combat-Related Traits]{to=main/traits_faith_combat ind bottom=\"Affects attack rolls, damage, initiative, etc; 64 traits\"}",
+			"::main[Other Combat-Related Traits]{to=main/traits_faith_combat ind bottom=\"Affects attack rolls, damage, initiative, etc; 6 traits\"}",
 			"",
-			"::main[Spell Ability Traits]{to=main/traits_faith_spell ind bottom=\"Grants a spell, spell-like-ability, or an ability that duplicates a spell; 8 traits\"}",
+			"::main[Spell Ability Traits]{to=main/traits_faith_spell ind bottom=\"Grants a spell, spell-like-ability, or an ability that duplicates a spell; 10 traits\"}",
 			"",
-			"::main[Magic-Related Traits]{to=main/traits_faith_magic ind bottom=\"Affects caster level or spellcasting ability; 8 traits\"}",
+			"::main[Magic-Related Traits]{to=main/traits_faith_magic ind bottom=\"Affects caster level or spellcasting ability; 6 traits\"}",
 			"",
-			"::main[Class-Specific Traits]{to=main/traits_faith_class ind bottom=\"Requires a class ability to function; 18 traits\"}",
+			"::main[Class-Specific Traits]{to=main/traits_faith_class ind bottom=\"Requires a class ability to function; 24 traits\"}",
 			"",
-			"::main[Skill/Feat/Ability Traits]{to=main/traits_faith_ab ind bottom=\"Affects a skill, feat, or ability; 31 traits\"}"
+			"::main[Skill/Feat/Ability Traits]{to=main/traits_faith_ab ind bottom=\"Affects a skill, feat, or ability; 50 traits\"}"
 		]
 	},
 	"traits_faith_all": {
