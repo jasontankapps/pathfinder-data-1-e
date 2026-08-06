@@ -1486,7 +1486,7 @@
 		"name": "Blessed Touch",
 		"compilationSources": [ [ "Champions of Purity" ] ],
 		"description": [
-			"::trait{title=\"&L&Blessed Touch&FN&\" type=\"Faith\" flavor=\"You may have been raised in a devout family, studied the divine in a formal church environment, or even learned how to combine traditional healing techniques with those of divine casters. In so doing, you have focused yourself into being the perfect vessel for your deity. Divine power flows through you like a mountain stream, making your healing touch more potent than that of others.\" benefit=\"You heal 1 additional point of damage when using ‹ability/lay on hands›, ‹ability/channel«ing» energy›, or casting a ‹main/cure spell›.\"}"
+			"::trait{title=\"&L&Blessed Touch&FN&\" type=\"Faith\" flavor=\"You may have been raised in a devout family, studied the divine in a formal church environment, or even learned how to combine traditional healing techniques with those of divine casters. In so doing, you have focused yourself into being the perfect vessel for your deity. Divine power flows through you like a mountain stream, making your healing touch more potent than that of others.\" benefit=\"You heal 1 additional point of damage when using ‹ability/lay on hands›, ‹ability/channel«ing» energy›, or casting a ‹main/cure spell<s›.\"}"
 		],
 		"category": "Faith-class-cleric-paladin",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -1793,7 +1793,7 @@
 		"name": "Godclaw Disciple",
 		"compilationSources": [ [ "Path of the Hellknight" ] ],
 		"description": [
-			"::trait{title=\"&L&Godclaw Disciple&FN&\" type=\"Faith\" flavor=\"You worship the amalgamation of lawful deities known as ‹main/faiths_pantheon»<the Godclaw›.\" benefit=\"You gain a +2 trait bonus on ‹skill/Knowledge (religion)› checks related to lawful deities, their clergy, their mythology, and their tenets. Additionally, Knowledge (religion) is a class skill for you.\"}"
+			"::trait{title=\"&L&Godclaw Disciple&FN&\" type=\"Faith\" flavor=\"You worship the amalgamation of lawful deities known as ‹main/faiths_pantheons>«the Godclaw›.\" benefit=\"You gain a +2 trait bonus on ‹skill/Knowledge (religion)› checks related to lawful deities, their clergy, their mythology, and their tenets. Additionally, Knowledge (religion) is a class skill for you.\"}"
 		],
 		"category": "Faith-ab",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]

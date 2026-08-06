@@ -116,7 +116,7 @@ const AboutOnlyPage: React.FC = () => {
 
 	return (
 		<IonPage>
-			<PageHeader title="About Pf Data 1e" />
+			<PageHeader title="About Pf Data 1e" notBookmarkable />
 			<IonContent>
 				<AboutInfo className="basicContent" />
 			</IonContent>

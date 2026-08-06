@@ -54,7 +54,7 @@ const Bookmarks: FC<{location: string}> = ({location}) => {
 				</IonItem>
 			);
 		});
-	}, [db, order, location, bookmarked, dispatch]);
+	}, [db, order, location, bookmarked, dispatch, getPageName]);
 	const className = bookmarked.length ? `color-${db[bookmarked[bookmarked.length - 1]].color}` : undefined;
 	const trigger = `${location}bookmarker`;
 	return (

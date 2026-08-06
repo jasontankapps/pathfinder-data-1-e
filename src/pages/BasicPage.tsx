@@ -158,6 +158,12 @@ const doFocus = (
 	});
 };
 
+const $lastSearch = {
+	text: "",
+	separateWordSearch: false,
+	caseSensitive: false
+};
+
 const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const {
 		hasJL,
@@ -231,13 +237,16 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const [isMatch] = error ? [true] : usingRoute;
 	const cN = "basicContent " + (className || "simple") + (topLink ? " hasInset" : "");
 
-	const onInput = useCallback((input: FormEvent<HTMLIonSearchbarElement> | null) => {
-		const text = String((input && input.currentTarget && input.currentTarget.value) || "");
+	const onInput = useCallback((input: FormEvent<HTMLIonSearchbarElement> | null | "update") => {
+		const text = input === "update"
+			? $lastSearch.text
+			: ((input && input.currentTarget && String(input.currentTarget.value)) || "");
 		if(marker) {
 			debounce(() => {
 				marker.unmark({
 					done: () => {
 						if(text) {
+							$lastSearch.text = text;
 							marker.mark(text, {
 								...markerConfig,
 								separateWordSearch,
@@ -266,6 +275,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 								}
 							});
 						} else {
+							$lastSearch.text = "";
 							setNumberOfTextsFound(0);
 							setMarkers([]);
 							setHighlightedText(-1);
@@ -340,7 +350,22 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 						color={separateWordSearch || caseSensitive || wholeWords ? "tertiary" : "dark"}
 						size="small"
 					><IonIcon slot="icon-only" icon={options} /></IonButton>
-					<IonPopover trigger={`${pageId}finderSettings`} side="bottom" alignment="start">
+					<IonPopover
+						trigger={`${pageId}finderSettings`}
+						side="bottom"
+						alignment="start"
+						onDidPresent={() => {
+							// Save current state of affairs
+							$lastSearch.caseSensitive = caseSensitive;
+							$lastSearch.separateWordSearch = separateWordSearch;
+						}}
+						onWillDismiss={() => (
+							(// Only update if there's been a change.
+								$lastSearch.caseSensitive !== caseSensitive
+								|| $lastSearch.separateWordSearch !== separateWordSearch
+							) && onInput("update")
+						)}
+					>
 						<IonContent>
 							<IonList lines="full">
 								<IonItem>

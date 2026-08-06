@@ -1358,7 +1358,7 @@ const _blessed_touch = {title: "Blessed Touch", topLink: ["Faith Traits","main/t
 <Pair single id="blessed-touch">Blessed Touch</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="blessed-touch-flavor">You may have been raised in a devout family, studied the divine in a formal church environment, or even learned how to combine traditional healing techniques with those of divine casters. In so doing, you have focused yourself into being the perfect vessel for your deity. Divine power flows through you like a mountain stream, making your healing touch more potent than that of others.</Pair>
-<Pair single="benefit" id="blessed-touch-benefit">You heal 1 additional point of damage when using <Link to="/ability/lay_on_hands">lay on hands</Link>, <Link to="/ability/channel_energy">channeling energy</Link>, or casting a <Link to="/main/cure_spell">cure spell</Link>.</Pair>
+<Pair single="benefit" id="blessed-touch-benefit">You heal 1 additional point of damage when using <Link to="/ability/lay_on_hands">lay on hands</Link>, <Link to="/ability/channel_energy">channeling energy</Link>, or casting a <Link to="/main/cure_spells">cure spell</Link>.</Pair>
 </Ability>
 </>};
 const _born_free = {title: "Born Free", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link></p>
@@ -1625,7 +1625,7 @@ const _godclaw_disciple = {title: "Godclaw Disciple", topLink: ["Faith Traits","
 <Ability id="godclaw-disciple" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="godclaw-disciple">Godclaw Disciple</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="flavor" id="godclaw-disciple-flavor">You worship the amalgamation of lawful deities known as <Link to="/main/the_godclaw">faiths_pantheon</Link>.</Pair>
+<Pair single="flavor" id="godclaw-disciple-flavor">You worship the amalgamation of lawful deities known as <Link to="/main/faiths_pantheons">the Godclaw</Link>.</Pair>
 <Pair single="benefit" id="godclaw-disciple-benefit">You gain a +2 trait bonus on <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> checks related to lawful deities, their clergy, their mythology, and their tenets. Additionally, Knowledge (religion) is a class skill for you.</Pair>
 </Ability>
 </>};
