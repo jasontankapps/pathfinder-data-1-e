@@ -128,15 +128,18 @@ div.basicContent ion-list div.ability.trait div.abIcon {
 	background: var(--ion-item-background)
 }
 div.basicContent div.ability.trait:not(.subTrait) div:is(.abStart, .abSingle) {
-	padding-inline-start: calc(2.5rem + 4px);
+	padding-inline-start: calc(2.5rem + 2px);
 }
 div.basicContent div.ability.trait div.abStart {
-	min-inline-size: calc(100% - 2.5rem - 4px) / 4;
-	max-inline-size: calc(100% - 2.5rem - 4px) / 4 * 3;
+	min-inline-size: calc((100% - 2.5rem - 2px) / 4);
+	max-inline-size: calc((100% - 2.5rem - 2px) / 4 * 3);
+}
+div.basicContent div.ability.trait div.abEnd {
+	padding-inline-start: calc(2.5rem + 2px);
 }
 div.basicContent div.ability.trait div.abSingle.flavor {
 	font-style: italic;
-	text-indent: 2.5rem;
+	text-indent: 1.5rem;
 }
 div.basicContent div.ability.trait div.abSingle p:first-child {
 	margin-block-start: 0;

@@ -4,7 +4,7 @@ import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import MainLink from '../../components/MainLink';
 import InnerLink from '../../components/InnerLink';
-const _traits_faith = {title: "Faith Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItemDivider className="mainItem divider"></IonItemDivider><MainLink to="/main/traits_faith_all" endem="(121 traits)" info="All Faith Traits" /><MainLink to="/main/traits_faith_def" className="indented" bottom="Affects armor bonuses or saving throws; 33 traits" info="Defense Traits" /><MainLink to="/main/traits_faith_combat" className="indented" bottom="Affects attack rolls, damage, initiative, etc; 6 traits" info="Other Combat-Related Traits" /><MainLink to="/main/traits_faith_spell" className="indented" bottom="Grants a spell, spell-like-ability, or an ability that duplicates a spell; 10 traits" info="Spell Ability Traits" /><MainLink to="/main/traits_faith_magic" className="indented" bottom="Affects caster level or spellcasting ability; 6 traits" info="Magic-Related Traits" /><MainLink to="/main/traits_faith_class" className="indented" bottom="Requires a class ability to function; 24 traits" info="Class-Specific Traits" /><MainLink to="/main/traits_faith_ab" className="indented" bottom="Affects a skill, feat, or ability; 50 traits" info="Skill/Feat/Ability Traits" /></IonList>};
+const _traits_faith = {title: "Faith Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItemDivider className="mainItem divider"></IonItemDivider><MainLink to="/main/traits_faith_all" endem="(121 traits)" info="All Faith Traits" /><MainLink to="/main/traits_faith_def" className="indented" bottom="Affects armor bonuses or saving throws; 33 traits" info="Defense Traits" /><MainLink to="/main/traits_faith_combat" className="indented" bottom="Affects attack rolls, damage, initiative, etc; 7 traits" info="Other Combat-Related Traits" /><MainLink to="/main/traits_faith_spell" className="indented" bottom="Grants a spell, spell-like-ability, or an ability that duplicates a spell; 10 traits" info="Spell Ability Traits" /><MainLink to="/main/traits_faith_magic" className="indented" bottom="Affects caster level or spellcasting ability; 6 traits" info="Magic-Related Traits" /><MainLink to="/main/traits_faith_class" className="indented" bottom="Requires a class ability to function; 24 traits" info="Class-Specific Traits" /><MainLink to="/main/traits_faith_ab" className="indented" bottom="Affects a skill, feat, or ability; 50 traits" info="Skill/Feat/Ability Traits" /></IonList>};
 const _traits_faith_all = {title: "All Faith Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><Ability id="traitabjectbelief-abject-belief-fn1" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="traitabjectbelief-abject-belief-fn1"><Link to="/trait/abject_belief">⮞</Link> Abject Belief <sup><InnerLink showBacklink="backlink-main-traits_faith_all-fake-fn-1" id="main-traits_faith_all-fake-fn-1" data-hash-target to="main-traits_faith_all-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Faith</Pair>
@@ -1154,6 +1154,12 @@ const _traits_faith_combat = {title: "Combat-Related Faith Traits", jsx: <IonLis
 <Pair single="flavor" id="traitheedfulreadiness-heedful-readiness-fn2-2-flavor">Your years of meditation and mindfulness allow you to act correctly on a moment's notice.</Pair>
 <Pair single="benefit" id="traitheedfulreadiness-heedful-readiness-fn2-2-benefit">Once per day, you can add your Wisdom modifier to an initiative check.</Pair>
 </Ability>
+<Ability id="traitpersuasiveinsight-persuasive-insight-fn5" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitpersuasiveinsight-persuasive-insight-fn5"><Link to="/trait/persuasive_insight">⮞</Link> Persuasive Insight <sup><InnerLink showBacklink="backlink-main-traits_faith_combat-fake-fn-5" id="main-traits_faith_combat-fake-fn-5" data-hash-target to="main-traits_faith_combat-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitpersuasiveinsight-persuasive-insight-fn5-flavor">You were converted to your faith or taught to bargain with spirits for magic by a figure of inspiring insight who taught you to use keen observation in all dealings.</Pair>
+<Pair single="benefit" id="traitpersuasiveinsight-persuasive-insight-fn5-benefit">You can use your Wisdom modifier in place of your Charisma modifier on <Link to="/skill/diplomacy">Diplomacy</Link> checks to ask favors or gain influence. During a <Link to="/rule/verbal_duels">verbal duel</Link>, you can use your Wisdom modifier in place of your Charisma modifier when using tactics you assigned to Diplomacy or Wisdom-based skills.</Pair>
+</Ability>
 <Ability id="traitstrengthofsubmission-strength-of-submission-fn2-3" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="traitstrengthofsubmission-strength-of-submission-fn2-3"><Link to="/trait/strength_of_submission">⮞</Link> Strength of Submission <sup><InnerLink showBacklink="backlink-main-traits_faith_combat-fake-fn-2.3" id="main-traits_faith_combat-fake-fn-2.3" data-hash-target to="main-traits_faith_combat-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Faith</Pair>
@@ -1165,6 +1171,7 @@ const _traits_faith_combat = {title: "Combat-Related Faith Traits", jsx: <IonLis
 <li id="main-traits_faith_combat-fake-fn-2-target"><p><Link to="/source/divine_anthology">Divine Anthology</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_faith_combat-fake-fn-2" data-hash-target to="main-traits_faith_combat-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_faith_combat-fake-fn-2.2" data-hash-target to="main-traits_faith_combat-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_faith_combat-fake-fn-2.3" data-hash-target to="main-traits_faith_combat-fake-fn-2.3">↩<sup>3</sup></InnerLink></p></li>
 <li id="main-traits_faith_combat-fake-fn-3-target"><p><Link to="/source/disciples_doctrine">Disciple's Doctrine</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_faith_combat-fake-fn-3" data-hash-target to="main-traits_faith_combat-fake-fn-3">↩</InnerLink></p></li>
 <li id="main-traits_faith_combat-fake-fn-4-target"><p><Link to="/source/ultimate_campaign">Ultimate Campaign</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_faith_combat-fake-fn-4" data-hash-target to="main-traits_faith_combat-fake-fn-4">↩</InnerLink></p></li>
+<li id="main-traits_faith_combat-fake-fn-5-target"><p><Link to="/source/spymasters_handbook">Spymaster's Handbook</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_faith_combat-fake-fn-5" data-hash-target to="main-traits_faith_combat-fake-fn-5">↩</InnerLink></p></li>
 </ol></section></IonList>};
 const _traits_faith_spell = {title: "Spell Ability Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><Ability id="traitapprentice-apprentice-fn1" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="traitapprentice-apprentice-fn1"><Link to="/trait/apprentice">⮞</Link> Apprentice <sup><InnerLink showBacklink="backlink-main-traits_faith_spell-fake-fn-1" id="main-traits_faith_spell-fake-fn-1" data-hash-target to="main-traits_faith_spell-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -1880,4 +1887,372 @@ const _traits_faith_ab = {title: "Skill/Feat/Ability Faith Traits", jsx: <IonLis
 <li id="main-traits_faith_ab-fake-fn-17-target"><p><Link to="/source/people_of_the_river">People of the River</Link> <InnerLink aria-label="Back to reference 17" id="backlink-main-traits_faith_ab-fake-fn-17" data-hash-target to="main-traits_faith_ab-fake-fn-17">↩</InnerLink></p></li>
 <li id="main-traits_faith_ab-fake-fn-18-target"><p><Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link> <InnerLink aria-label="Back to reference 18" id="backlink-main-traits_faith_ab-fake-fn-18" data-hash-target to="main-traits_faith_ab-fake-fn-18">↩</InnerLink></p></li>
 </ol></section></IonList>};
-export default {traits_faith:_traits_faith,traits_faith_all:_traits_faith_all,traits_faith_def:_traits_faith_def,traits_faith_combat:_traits_faith_combat,traits_faith_spell:_traits_faith_spell,traits_faith_magic:_traits_faith_magic,traits_faith_class:_traits_faith_class,traits_faith_ab:_traits_faith_ab}
+const _traits_social_phys = {title: "Physical Skill Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><Ability id="traitacrobat-acrobat-fn1" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitacrobat-acrobat-fn1"><Link to="/trait/acrobat">⮞</Link> Acrobat <sup><InnerLink showBacklink="backlink-main-traits_social_phys-fake-fn-1" id="main-traits_social_phys-fake-fn-1" data-hash-target to="main-traits_social_phys-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitacrobat-acrobat-fn1-flavor">Having trained from a young age, you're capable of amazing feats of daring.</Pair>
+<Pair single="benefit" id="traitacrobat-acrobat-fn1-benefit">You gain a +1 bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks, and you take only a -2 penalty instead of the normal -5 penalty when using the <Link to="/skill/climb">Climb</Link> skill to attempt an accelerated climb.</Pair>
+</Ability>
+<Ability id="traitchildofthestreets-child-of-the-streets-fn1-2-fn2-fn3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitchildofthestreets-child-of-the-streets-fn1-2-fn2-fn3"><Link to="/trait/child_of_the_streets">⮞</Link> Child of the Streets <sup><InnerLink showBacklink="backlink-main-traits_social_phys-fake-fn-1.2" id="main-traits_social_phys-fake-fn-1.2" data-hash-target to="main-traits_social_phys-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_phys-fake-fn-2" id="main-traits_social_phys-fake-fn-2" data-hash-target to="main-traits_social_phys-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_phys-fake-fn-3" id="main-traits_social_phys-fake-fn-3" data-hash-target to="main-traits_social_phys-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitchildofthestreets-child-of-the-streets-fn1-2-fn2-fn3-flavor">You grew up on the streets of a large city, and as a result you have developed a knack for picking pockets and hiding small objects on your person.</Pair>
+<Pair single="benefit" id="traitchildofthestreets-child-of-the-streets-fn1-2-fn2-fn3-benefit">You gain a +1 trait bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks, and Sleight of Hand is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitcollector-collector-fn4" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitcollector-collector-fn4"><Link to="/trait/collector">⮞</Link> Collector <sup><InnerLink showBacklink="backlink-main-traits_social_phys-fake-fn-4" id="main-traits_social_phys-fake-fn-4" data-hash-target to="main-traits_social_phys-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
+<Pair single="flavor" id="traitcollector-collector-fn4-flavor">You have a small, bizarre collection of apparently worthless items, such as rusty nails, animal droppings, clockwork cogs, or bent spoons. You find this strange menagerie useful in ways no non-gnome could understand. Seeking new items to add to this collection is endlessly fascinating to you, and while no one else may understand why a Chelish horsenail is worthy to add to your collection when a dwarven wheelbarrow nail is not, it all makes sense to you.</Pair>
+<Pair single="benefit" id="traitcollector-collector-fn4-benefit"><p>Select one of the following skills: <Link to="/skill/craft">Craft</Link> (any one), <Link to="/skill/disable_device">Disable Device</Link>, <Link to="/skill/escape_artist">Escape Artist</Link>, <Link to="/skill/perform">Perform</Link> (any one), or <Link to="/skill/spellcraft">Spellcraft</Link>. Whenever you have your collection within 5 feet of you, you gain a +2 trait bonus on all checks made with the selected skill.</p>
+<p>Once this skill has been selected, it cannot be changed, nor can you gain it for any other collection you begin amassing.</p>
+</Pair>
+</Ability>
+<Ability id="traitcriminal-criminal-fn1-3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitcriminal-criminal-fn1-3"><Link to="/trait/criminal">⮞</Link> Criminal <sup><InnerLink showBacklink="backlink-main-traits_social_phys-fake-fn-1.3" id="main-traits_social_phys-fake-fn-1.3" data-hash-target to="main-traits_social_phys-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitcriminal-criminal-fn1-3-flavor">You spent your early life robbing and stealing to get by.</Pair>
+<Pair single="benefit" id="traitcriminal-criminal-fn1-3-benefit">Select one of the following skills: <Link to="/skill/disable_device">Disable Device</Link>, <Link to="/skill/intimidate">Intimidate</Link>, or <Link to="/skill/sleight_of_hand">Sleight of Hand</Link>. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitdeepcover-deep-cover-fn5" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitdeepcover-deep-cover-fn5"><Link to="/trait/deep_cover">⮞</Link> Deep Cover <sup><InnerLink showBacklink="backlink-main-traits_social_phys-fake-fn-5" id="main-traits_social_phys-fake-fn-5" data-hash-target to="main-traits_social_phys-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitdeepcover-deep-cover-fn5-flavor">You have lived a double life since your youth, perhaps to avoid persecution for your true identity or in service to an enemy of the people or group associated with your cover identity.</Pair>
+<Pair single="benefit" id="traitdeepcover-deep-cover-fn5-benefit">You can always take 10 on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/disguise">Disguise</Link> checks to assume and maintain your cover identity. Bluff or Disguise (your choice) is a class skill for you.</Pair>
+</Ability>
+<Ability id="traitescapedcaptive-escaped-captive-fn6" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitescapedcaptive-escaped-captive-fn6"><Link to="/trait/escaped_captive">⮞</Link> Escaped Captive <sup><InnerLink showBacklink="backlink-main-traits_social_phys-fake-fn-6" id="main-traits_social_phys-fake-fn-6" data-hash-target to="main-traits_social_phys-fake-fn-6-target">6</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitescapedcaptive-escaped-captive-fn6-flavor">Whether you were on your way to becoming a drow slave or slated for the ghoul chattel pits, you very narrowly avoided a life of miserable captivity.</Pair>
+<Pair single="benefit" id="traitescapedcaptive-escaped-captive-fn6-benefit">You make a habit of avoiding restraints or tight spaces, gaining a +1 trait bonus on <Link to="/skill/escape_artist">Escape Artist</Link> checks and a +2 trait bonus to CMD to avoid being pinned.</Pair>
+</Ability>
+<Ability id="traitgiftedsmuggler-gifted-smuggler-fn7" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitgiftedsmuggler-gifted-smuggler-fn7"><Link to="/trait/gifted_smuggler">⮞</Link> Gifted Smuggler <sup><InnerLink showBacklink="backlink-main-traits_social_phys-fake-fn-7" id="main-traits_social_phys-fake-fn-7" data-hash-target to="main-traits_social_phys-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Region" hl>Ostenso</Pair>
+<Pair single="flavor" id="traitgiftedsmuggler-gifted-smuggler-fn7-flavor">You have a knack for hiding goods on your person.</Pair>
+<Pair single="benefit" id="traitgiftedsmuggler-gifted-smuggler-fn7-benefit">Any small object you attempt to hide on your body is treated as an extraordinarily small object for the purpose of <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks.</Pair>
+</Ability>
+<Ability id="traitordinary-ordinary-fn1-4" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitordinary-ordinary-fn1-4"><Link to="/trait/ordinary">⮞</Link> Ordinary <sup><InnerLink showBacklink="backlink-main-traits_social_phys-fake-fn-1.4" id="main-traits_social_phys-fake-fn-1.4" data-hash-target to="main-traits_social_phys-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitordinary-ordinary-fn1-4-flavor">The only thing extraordinary about your appearance is its ordinariness. You carry yourself in an understated way, and many people who see your face soon forget it.</Pair>
+<Pair single="benefit" id="traitordinary-ordinary-fn1-4-benefit">You gain a +4 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks whenever you attempt to hide in a crowd.</Pair>
+</Ability>
+<Ability id="traitslaverunner-slave-runner-fn5-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitslaverunner-slave-runner-fn5-2"><Link to="/trait/slave_runner">⮞</Link> Slave Runner <sup><InnerLink showBacklink="backlink-main-traits_social_phys-fake-fn-5.2" id="main-traits_social_phys-fake-fn-5.2" data-hash-target to="main-traits_social_phys-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitslaverunner-slave-runner-fn5-2-flavor">You witnessed or were party to the rescue of a halfling from Chelish slavery by the <Link to="/rule/bellflower_network">Bellflower Network</Link> or <Link to="/rule/eagle_knights">Eagle Knights</Link>.</Pair>
+<Pair single="benefit" id="traitslaverunner-slave-runner-fn5-2-benefit">Once per day when attempting to directly free a slave, you gain a +2 trait bonus on your choice of an <Link to="/skill/acrobatics">Acrobatics</Link> check, an <Link to="/skill/escape_artist">Escape Artist</Link> check, a <Link to="/skill/stealth">Stealth</Link> check, or a skill check attempted as part of a <Link to="/rule/heists">heist</Link> or <Link to="/rule/pursuit">pursuit</Link></Pair>
+</Ability>
+<Ability id="traitunwelcomebusiness-unwelcome-business-fn8" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitunwelcomebusiness-unwelcome-business-fn8"><Link to="/trait/unwelcome_business">⮞</Link> Unwelcome Business <sup><InnerLink showBacklink="backlink-main-traits_social_phys-fake-fn-8" id="main-traits_social_phys-fake-fn-8" data-hash-target to="main-traits_social_phys-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitunwelcomebusiness-unwelcome-business-fn8-flavor">You specialize in delivering or procuring shipments where those commodities are not allowed or where your identity would elicit negative bias.</Pair>
+<Pair single="benefit" id="traitunwelcomebusiness-unwelcome-business-fn8-benefit">You gain a +1 trait bonus on <Link to="/skill/disguise">Disguise</Link> or <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks, and that skill becomes a class skill for you. In addition, choose one humanoid species; you ignore the -2 penalty on Disguise checks to disguise yourself as a member of that species.</Pair>
+</Ability>
+<section data-footnotes><h3 id="main-traits_social_phys-label">Footnotes</h3><ol>
+<li id="main-traits_social_phys-fake-fn-1-target"><p><Link to="/source/ultimate_campaign">Ultimate Campaign</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_phys-fake-fn-1" data-hash-target to="main-traits_social_phys-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_phys-fake-fn-1.2" data-hash-target to="main-traits_social_phys-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_phys-fake-fn-1.3" data-hash-target to="main-traits_social_phys-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_phys-fake-fn-1.4" data-hash-target to="main-traits_social_phys-fake-fn-1.4">↩<sup>4</sup></InnerLink></p></li>
+<li id="main-traits_social_phys-fake-fn-2-target"><p><Link to="/source/advanced_players_guide">Advanced Player's Guide</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_phys-fake-fn-2" data-hash-target to="main-traits_social_phys-fake-fn-2">↩</InnerLink></p></li>
+<li id="main-traits_social_phys-fake-fn-3-target"><p><Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_social_phys-fake-fn-3" data-hash-target to="main-traits_social_phys-fake-fn-3">↩</InnerLink></p></li>
+<li id="main-traits_social_phys-fake-fn-4-target"><p><Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_social_phys-fake-fn-4" data-hash-target to="main-traits_social_phys-fake-fn-4">↩</InnerLink></p></li>
+<li id="main-traits_social_phys-fake-fn-5-target"><p><Link to="/source/spymasters_handbook">Spymaster's Handbook</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_phys-fake-fn-5" data-hash-target to="main-traits_social_phys-fake-fn-5">↩</InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_phys-fake-fn-5.2" data-hash-target to="main-traits_social_phys-fake-fn-5.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_social_phys-fake-fn-6-target"><p><Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_social_phys-fake-fn-6" data-hash-target to="main-traits_social_phys-fake-fn-6">↩</InnerLink></p></li>
+<li id="main-traits_social_phys-fake-fn-7-target"><p><Link to="/source/adventurers_armory_2">Adventurer's Armory 2</Link> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_social_phys-fake-fn-7" data-hash-target to="main-traits_social_phys-fake-fn-7">↩</InnerLink></p></li>
+<li id="main-traits_social_phys-fake-fn-8-target"><p><Link to="/source/merchants_manifest">Merchant's Manifest</Link> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_social_phys-fake-fn-8" data-hash-target to="main-traits_social_phys-fake-fn-8">↩</InnerLink></p></li>
+</ol></section></IonList>};
+const _traits_social_mental = {title: "Mental Skill Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><Ability id="traitcollector-collector-fn1" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitcollector-collector-fn1"><Link to="/trait/collector">⮞</Link> Collector <sup><InnerLink showBacklink="backlink-main-traits_social_mental-fake-fn-1" id="main-traits_social_mental-fake-fn-1" data-hash-target to="main-traits_social_mental-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
+<Pair single="flavor" id="traitcollector-collector-fn1-flavor">You have a small, bizarre collection of apparently worthless items, such as rusty nails, animal droppings, clockwork cogs, or bent spoons. You find this strange menagerie useful in ways no non-gnome could understand. Seeking new items to add to this collection is endlessly fascinating to you, and while no one else may understand why a Chelish horsenail is worthy to add to your collection when a dwarven wheelbarrow nail is not, it all makes sense to you.</Pair>
+<Pair single="benefit" id="traitcollector-collector-fn1-benefit"><p>Select one of the following skills: <Link to="/skill/craft">Craft</Link> (any one), <Link to="/skill/disable_device">Disable Device</Link>, <Link to="/skill/escape_artist">Escape Artist</Link>, <Link to="/skill/perform">Perform</Link> (any one), or <Link to="/skill/spellcraft">Spellcraft</Link>. Whenever you have your collection within 5 feet of you, you gain a +2 trait bonus on all checks made with the selected skill.</p>
+<p>Once this skill has been selected, it cannot be changed, nor can you gain it for any other collection you begin amassing.</p>
+</Pair>
+</Ability>
+<Ability id="traitetymologist-etymologist-fn1-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitetymologist-etymologist-fn1-2"><Link to="/trait/etymologist">⮞</Link> Etymologist <sup><InnerLink showBacklink="backlink-main-traits_social_mental-fake-fn-1.2" id="main-traits_social_mental-fake-fn-1.2" data-hash-target to="main-traits_social_mental-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
+<Pair single="flavor" id="traitetymologist-etymologist-fn1-2-flavor">When you, like all other young gnomes, were taught the hodgepodge Gnome language, you became curious about the original meaning of each word and what language it was derived from. Anytime you come across a new language, you are immediately absorbed by both how it works and what words you can co-opt from it for the Gnome language.</Pair>
+<Pair single="benefit" id="traitetymologist-etymologist-fn1-2-benefit">You gain a +1 trait bonus on <Link to="/skill/linguistics">Linguistics</Link> checks, know one additional bonus language, and treat Linguistics as a class skill.</Pair>
+</Ability>
+<Ability id="traitexcellentpenmanship-excellent-penmanship-fn2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitexcellentpenmanship-excellent-penmanship-fn2"><Link to="/trait/excellent_penmanship">⮞</Link> Excellent Penmanship <sup><InnerLink showBacklink="backlink-main-traits_social_mental-fake-fn-2" id="main-traits_social_mental-fake-fn-2" data-hash-target to="main-traits_social_mental-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitexcellentpenmanship-excellent-penmanship-fn2-flavor">You are a master of calligraphy, an art once highly valued in Lung Wa and still held in high esteem in Lingshen.</Pair>
+<Pair single="benefit" id="traitexcellentpenmanship-excellent-penmanship-fn2-benefit">The DC to detect forgeries you create increases by 2. If you attempt to persuade someone via a written message, you gain a +2 bonus on any <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, or <Link to="/skill/intimidate">Intimidate</Link> check attempted for that communication. <Link to="/skill/linguistics">Linguistics</Link> is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitforthemoney-for-the-money-fn3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitforthemoney-for-the-money-fn3"><Link to="/trait/for_the_money">⮞</Link> For the Money <sup><InnerLink showBacklink="backlink-main-traits_social_mental-fake-fn-3" id="main-traits_social_mental-fake-fn-3" data-hash-target to="main-traits_social_mental-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="benefit" id="traitforthemoney-for-the-money-fn3-benefit">You gain a +2 trait bonus on skill checks to haggle prices or negotiate payment; this bonus increases to +4 if you are in a position of military or economic power over your target. You also gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> checks and Appraise is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitgestureexpertise-gesture-expertise-fn4" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitgestureexpertise-gesture-expertise-fn4"><Link to="/trait/gesture_expertise">⮞</Link> Gesture Expertise <sup><InnerLink showBacklink="backlink-main-traits_social_mental-fake-fn-4" id="main-traits_social_mental-fake-fn-4" data-hash-target to="main-traits_social_mental-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitgestureexpertise-gesture-expertise-fn4-flavor">You are adept at nonverbal communication.</Pair>
+<Pair single="benefit" id="traitgestureexpertise-gesture-expertise-fn4-benefit">You can use a sign language or gestural system to send complex messages quickly in combat, and with a successful DC 15 <Link to="/skill/linguistics">Linguistics</Link> check, you can express yourself clearly enough to communicate basic messages to people who do not understand your gestures. You gain a +2 trait bonus to send secret messages via gestures using the <Link to="/skill/bluff">Bluff</Link> skill, and to understand gestures with the Linguistics skill.</Pair>
+</Ability>
+<Ability id="traitmerchant-merchant-fn5" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitmerchant-merchant-fn5"><Link to="/trait/merchant">⮞</Link> Merchant <sup><InnerLink showBacklink="backlink-main-traits_social_mental-fake-fn-5" id="main-traits_social_mental-fake-fn-5" data-hash-target to="main-traits_social_mental-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitmerchant-merchant-fn5-flavor">You lived your life as a merchant, buying and selling goods.</Pair>
+<Pair single="benefit" id="traitmerchant-merchant-fn5-benefit">You gain a +1 trait bonus on any <Link to="/skill/appraise">Appraise</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks you attempt while bargaining for the price of goods. Appraise is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traittirelesslogic-tireless-logic-fn5-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traittirelesslogic-tireless-logic-fn5-2"><Link to="/trait/tireless_logic">⮞</Link> Tireless Logic <sup><InnerLink showBacklink="backlink-main-traits_social_mental-fake-fn-5.2" id="main-traits_social_mental-fake-fn-5.2" data-hash-target to="main-traits_social_mental-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traittirelesslogic-tireless-logic-fn5-2-flavor">Your curious mind figures out even the most complex problems.</Pair>
+<Pair single="benefit" id="traittirelesslogic-tireless-logic-fn5-2-benefit">Once per day when you make an Intelligence-based skill check or ability check, you can roll twice and take the better result.</Pair>
+</Ability>
+<Ability id="traitunintentionallinguist-unintentional-linguist-fn5-3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitunintentionallinguist-unintentional-linguist-fn5-3"><Link to="/trait/unintentional_linguist">⮞</Link> Unintentional Linguist <sup><InnerLink showBacklink="backlink-main-traits_social_mental-fake-fn-5.3" id="main-traits_social_mental-fake-fn-5.3" data-hash-target to="main-traits_social_mental-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitunintentionallinguist-unintentional-linguist-fn5-3-flavor">You can speak with outsiders.</Pair>
+<Pair single="benefit" id="traitunintentionallinguist-unintentional-linguist-fn5-3-benefit">You gain a +1 trait bonus on all <Link to="/skill/linguistics">Linguistics</Link> checks, and you begin play knowing one of the following languages (in addition to those granted by your race and Intelligence modifier): Abyssal, Aquan, Celestial, Ignan, Infernal, Protean, or Terran.</Pair>
+</Ability>
+<Ability id="traitweatheredemissary-weathered-emissary-fn5-4" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitweatheredemissary-weathered-emissary-fn5-4"><Link to="/trait/weathered_emissary">⮞</Link> Weathered Emissary <sup><InnerLink showBacklink="backlink-main-traits_social_mental-fake-fn-5.4" id="main-traits_social_mental-fake-fn-5.4" data-hash-target to="main-traits_social_mental-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitweatheredemissary-weathered-emissary-fn5-4-flavor">Your travels in the wildlands gave you insight into how to survive their dangers and communicate with their inhabitants.</Pair>
+<Pair single="benefit" id="traitweatheredemissary-weathered-emissary-fn5-4-benefit">You gain a +1 trait bonus on all <Link to="/skill/linguistics">Linguistics</Link> and <Link to="/skill/survival">Survival</Link> checks, and Linguistics is always a class skill for you.</Pair>
+</Ability>
+<section data-footnotes><h3 id="main-traits_social_mental-label">Footnotes</h3><ol>
+<li id="main-traits_social_mental-fake-fn-1-target"><p><Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_mental-fake-fn-1" data-hash-target to="main-traits_social_mental-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_mental-fake-fn-1.2" data-hash-target to="main-traits_social_mental-fake-fn-1.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_social_mental-fake-fn-2-target"><p><Link to="/source/blood_of_the_ancients">Blood of the Ancients</Link> pg. 23 <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_mental-fake-fn-2" data-hash-target to="main-traits_social_mental-fake-fn-2">↩</InnerLink></p></li>
+<li id="main-traits_social_mental-fake-fn-3-target"><p><Link to="/source/agents_of_evil">Agents of Evil</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_social_mental-fake-fn-3" data-hash-target to="main-traits_social_mental-fake-fn-3">↩</InnerLink></p></li>
+<li id="main-traits_social_mental-fake-fn-4-target"><p><Link to="/source/black_markets">Black Markets</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_social_mental-fake-fn-4" data-hash-target to="main-traits_social_mental-fake-fn-4">↩</InnerLink></p></li>
+<li id="main-traits_social_mental-fake-fn-5-target"><p><Link to="/source/ultimate_campaign">Ultimate Campaign</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_mental-fake-fn-5" data-hash-target to="main-traits_social_mental-fake-fn-5">↩</InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_mental-fake-fn-5.2" data-hash-target to="main-traits_social_mental-fake-fn-5.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_mental-fake-fn-5.3" data-hash-target to="main-traits_social_mental-fake-fn-5.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_mental-fake-fn-5.4" data-hash-target to="main-traits_social_mental-fake-fn-5.4">↩<sup>4</sup></InnerLink></p></li>
+</ol></section></IonList>};
+const _traits_social_cha = {title: "Charisma Skill Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><Ability id="traitalliesinthedeep-allies-in-the-deep-fn1" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitalliesinthedeep-allies-in-the-deep-fn1"><Link to="/trait/allies_in_the_deep">⮞</Link> Allies in the Deep <sup><InnerLink showBacklink="backlink-main-traits_social_cha-fake-fn-1" id="main-traits_social_cha-fake-fn-1" data-hash-target to="main-traits_social_cha-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitalliesinthedeep-allies-in-the-deep-fn1-flavor">You've learned to deal amicably with individuals of questionable morals when necessary.</Pair>
+<Pair single="benefit" id="traitalliesinthedeep-allies-in-the-deep-fn1-benefit">You gain a +1 trait bonus on Charisma-based skill checks to influence evil creatures.</Pair>
+</Ability>
+<Ability id="traitbindersblood-binders-blood-fn2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitbindersblood-binders-blood-fn2"><Link to="/trait/binders_blood">⮞</Link> Binder's Blood <sup><InnerLink showBacklink="backlink-main-traits_social_cha-fake-fn-2" id="main-traits_social_cha-fake-fn-2" data-hash-target to="main-traits_social_cha-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitbindersblood-binders-blood-fn2-flavor">Your lineage features a large number of genie callers, granting you insight into the intricacies of genie binding.</Pair>
+<Pair single="benefit" id="traitbindersblood-binders-blood-fn2-benefit">You gain a +2 trait bonus on any Charisma-based checks when directly interacting with a genie.</Pair>
+</Ability>
+<Ability id="traitcleverwordplay-clever-wordplay-fn3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitcleverwordplay-clever-wordplay-fn3"><Link to="/trait/clever_wordplay">⮞</Link> Clever Wordplay <sup><InnerLink showBacklink="backlink-main-traits_social_cha-fake-fn-3" id="main-traits_social_cha-fake-fn-3" data-hash-target to="main-traits_social_cha-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitcleverwordplay-clever-wordplay-fn3-flavor">Your cunning and logic are more than a match for another's confidence and poise.</Pair>
+<Pair single="benefit" id="traitcleverwordplay-clever-wordplay-fn3-benefit">Choose one Charisma-based skill. You attempt checks with that skill using your Intelligence modifier instead of your Charisma modifier.</Pair>
+</Ability>
+<Ability id="traitfoundersheritage-founders-heritage-fn4" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitfoundersheritage-founders-heritage-fn4"><Link to="/trait/founders_heritage">⮞</Link> Founders' Heritage <sup><InnerLink showBacklink="backlink-main-traits_social_cha-fake-fn-4" id="main-traits_social_cha-fake-fn-4" data-hash-target to="main-traits_social_cha-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitfoundersheritage-founders-heritage-fn4-flavor">You can trace your family line back to one of the founding families of Absalom that was called by Aroden to aid him in establishing the city because of their vision and potential.</Pair>
+<Pair single="benefit" id="traitfoundersheritage-founders-heritage-fn4-benefit">You gain a +1 trait bonus on Charisma-based skill checks to influence citizens of Absalom.</Pair>
+</Ability>
+<Ability id="traitpacksavvy-pack-savvy-fn5" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitpacksavvy-pack-savvy-fn5"><Link to="/trait/pack_savvy">⮞</Link> Pack Savvy <sup><InnerLink showBacklink="backlink-main-traits_social_cha-fake-fn-5" id="main-traits_social_cha-fake-fn-5" data-hash-target to="main-traits_social_cha-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="benefit" id="traitpacksavvy-pack-savvy-fn5-benefit">You have learned how to gain the respect of gnolls in your region, and you know something of their social structure.`You gain a +3 trait bonus on Charisma-based skill checks when dealing with <Link to="/monster/gnoll">gnolls</Link>.</Pair>
+</Ability>
+<section data-footnotes><h3 id="main-traits_social_cha-label">Footnotes</h3><ol>
+<li id="main-traits_social_cha-fake-fn-1-target"><p><Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_cha-fake-fn-1" data-hash-target to="main-traits_social_cha-fake-fn-1">↩</InnerLink></p></li>
+<li id="main-traits_social_cha-fake-fn-2-target"><p><Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_cha-fake-fn-2" data-hash-target to="main-traits_social_cha-fake-fn-2">↩</InnerLink></p></li>
+<li id="main-traits_social_cha-fake-fn-3-target"><p><Link to="/source/pathfinder_society_primer">Pathfinder Society Primer</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_social_cha-fake-fn-3" data-hash-target to="main-traits_social_cha-fake-fn-3">↩</InnerLink></p></li>
+<li id="main-traits_social_cha-fake-fn-4-target"><p><Link to="/source/arcane_anthology">Arcane Anthology</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_social_cha-fake-fn-4" data-hash-target to="main-traits_social_cha-fake-fn-4">↩</InnerLink></p></li>
+<li id="main-traits_social_cha-fake-fn-5-target"><p><Link to="/source/people_of_the_wastes">People of the Wastes</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_cha-fake-fn-5" data-hash-target to="main-traits_social_cha-fake-fn-5">↩</InnerLink></p></li>
+</ol></section></IonList>};
+const _traits_social_prod = {title: "Productive Skill Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><Ability id="traitartisan-artisan-fn1" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitartisan-artisan-fn1"><Link to="/trait/artisan">⮞</Link> Artisan <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-1" id="main-traits_social_prod-fake-fn-1" data-hash-target to="main-traits_social_prod-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitartisan-artisan-fn1-flavor">You spent time working under artisans, or your parents were artisans who were particularly skilled at their trade.</Pair>
+<Pair single="benefit" id="traitartisan-artisan-fn1-benefit">You gain a +2 trait bonus on a single <Link to="/skill/craft">Craft</Link> skill (your choice).</Pair>
+</Ability>
+<Ability id="traitbrastlewarkbusinessmangog-brastlewark-businessman-gog-fn2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitbrastlewarkbusinessmangog-brastlewark-businessman-gog-fn2"><Link to="/trait/brastlewark_businessman_gog">⮞</Link> Brastlewark Businessman (GoG) <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-2" id="main-traits_social_prod-fake-fn-2" data-hash-target to="main-traits_social_prod-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
+<Pair single="flavor" id="traitbrastlewarkbusinessmangog-brastlewark-businessman-gog-fn2-flavor">Your time among the gnome elite of Brastlewark in Cheliax has led to an extensive knowledge of alchemy and ready connections in the business.</Pair>
+<Pair single="benefit" id="traitbrastlewarkbusinessmangog-brastlewark-businessman-gog-fn2-benefit">You gain a +2 trait bonus on all <Link to="/skill/craft">Craft</Link> (alchemy) checks.</Pair>
+</Ability>
+<Ability id="traitcollector-collector-fn2-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitcollector-collector-fn2-2"><Link to="/trait/collector">⮞</Link> Collector <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-2.2" id="main-traits_social_prod-fake-fn-2.2" data-hash-target to="main-traits_social_prod-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
+<Pair single="flavor" id="traitcollector-collector-fn2-2-flavor">You have a small, bizarre collection of apparently worthless items, such as rusty nails, animal droppings, clockwork cogs, or bent spoons. You find this strange menagerie useful in ways no non-gnome could understand. Seeking new items to add to this collection is endlessly fascinating to you, and while no one else may understand why a Chelish horsenail is worthy to add to your collection when a dwarven wheelbarrow nail is not, it all makes sense to you.</Pair>
+<Pair single="benefit" id="traitcollector-collector-fn2-2-benefit"><p>Select one of the following skills: <Link to="/skill/craft">Craft</Link> (any one), <Link to="/skill/disable_device">Disable Device</Link>, <Link to="/skill/escape_artist">Escape Artist</Link>, <Link to="/skill/perform">Perform</Link> (any one), or <Link to="/skill/spellcraft">Spellcraft</Link>. Whenever you have your collection within 5 feet of you, you gain a +2 trait bonus on all checks made with the selected skill.</p>
+<p>Once this skill has been selected, it cannot be changed, nor can you gain it for any other collection you begin amassing.</p>
+</Pair>
+</Ability>
+<Ability id="traitharvester-harvester-fn1-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitharvester-harvester-fn1-2"><Link to="/trait/harvester">⮞</Link> Harvester <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-1.2" id="main-traits_social_prod-fake-fn-1.2" data-hash-target to="main-traits_social_prod-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitharvester-harvester-fn1-2-flavor">You were trained to harvest all parts of an animal with care and precision.</Pair>
+<Pair single="benefit" id="traitharvester-harvester-fn1-2-benefit">You gain a +1 trait bonus on <Link to="/skill/profession">Profession</Link> (tanner) or Profession (trapper) checks, and you may make these checks as if you were trained in the skill even if you have no ranks. Additionally, you do not risk poisoning yourself whenever you handle or apply poison taken from a venomous creature.</Pair>
+</Ability>
+<Ability id="traitmentored-mentored-fn1-3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitmentored-mentored-fn1-3"><Link to="/trait/mentored">⮞</Link> Mentored <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-1.3" id="main-traits_social_prod-fake-fn-1.3" data-hash-target to="main-traits_social_prod-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitmentored-mentored-fn1-3-flavor">A tutor or private instructor guided you in learning your art, profession, or trade, and through your education, you became capable of teaching and guiding others.</Pair>
+<Pair single="benefit" id="traitmentored-mentored-fn1-3-benefit">Choose a single <Link to="/skill/craft">Craft</Link>, <Link to="/skill/perform">Perform</Link>, or <Link to="/skill/profession">Profession</Link> skill. You gain a +1 trait bonus on checks with that skill. You also gain a +1 trait bonus when you <Link to="/rule/aid_another">aid another's</Link> skill check with any skill.</Pair>
+</Ability>
+<Ability id="traitnoblesavage-noble-savage-fn3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitnoblesavage-noble-savage-fn3"><Link to="/trait/noble_savage">⮞</Link> Noble Savage <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-3" id="main-traits_social_prod-fake-fn-3" data-hash-target to="main-traits_social_prod-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Requirements" hl>Associated with the <Link to="/rule/ulfen_guard">Ulfen Guard</Link></Pair>
+<Pair single="flavor" id="traitnoblesavage-noble-savage-fn3-flavor">You hail from the fringes of civilization or the bottommost strata of society, but something in your character makes that seem endearing.</Pair>
+<Pair single="benefit" id="traitnoblesavage-noble-savage-fn3-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/perform">Perform</Link> checks when dealing with people of high social standing.</Pair>
+</Ability>
+<Ability id="traitobnoxious-obnoxious-fn4" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitobnoxious-obnoxious-fn4"><Link to="/trait/obnoxious">⮞</Link> Obnoxious <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-4" id="main-traits_social_prod-fake-fn-4" data-hash-target to="main-traits_social_prod-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitobnoxious-obnoxious-fn4-flavor">You have long since forgotten to care what people think about you - though your interactions are always memorable, at the very least.</Pair>
+<Pair single="benefit" id="traitobnoxious-obnoxious-fn4-benefit">Choose <Link to="/skill/perform">Perform</Link> (act), Perform (comedy), Perform (oratory), or Perform (sing); you gain a +1 trait bonus on checks with the chosen skill and gain it as a class skill.</Pair>
+</Ability>
+<Ability id="traitsavant-savant-fn3-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitsavant-savant-fn3-2"><Link to="/trait/savant">⮞</Link> Savant <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-3.2" id="main-traits_social_prod-fake-fn-3.2" data-hash-target to="main-traits_social_prod-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Requirements" hl><Link to="/rule/kitharodian_academy">Kitharodian Academy</Link></Pair>
+<Pair single="flavor" id="traitsavant-savant-fn3-2-flavor">From a very young age, the ability to master performance types has come quite naturally to you.</Pair>
+<Pair single="benefit" id="traitsavant-savant-fn3-2-benefit">Choose a performance type. You gain a +2 trait bonus on all <Link to="/skill/perform">Perform</Link> checks made using that performance type. Perform is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitselfreliant-self-reliant-fn5" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitselfreliant-self-reliant-fn5"><Link to="/trait/self_reliant">⮞</Link> Self-Reliant <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-5" id="main-traits_social_prod-fake-fn-5" data-hash-target to="main-traits_social_prod-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitselfreliant-self-reliant-fn5-flavor">You know how to work with your hands and aren't dependent on complex tools.</Pair>
+<Pair single="benefit" id="traitselfreliant-self-reliant-fn5-benefit">When attempting <Link to="/skill/craft">Craft</Link> checks, you take no penalty when using improvised tools. At the GM's discretion, you can attempt certain Craft checks even when no tools are available, though you take a -2 penalty.</Pair>
+</Ability>
+<Ability id="traitsimpledisciple-simple-disciple-fn1-4" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitsimpledisciple-simple-disciple-fn1-4"><Link to="/trait/simple_disciple">⮞</Link> Simple Disciple <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-1.4" id="main-traits_social_prod-fake-fn-1.4" data-hash-target to="main-traits_social_prod-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitsimpledisciple-simple-disciple-fn1-4-flavor">You picked up skill in a craft or a profession during your time at a monastery.</Pair>
+<Pair single="benefit" id="traitsimpledisciple-simple-disciple-fn1-4-benefit">You gain a +1 trait bonus on checks with a <Link to="/skill/profession">Profession</Link> or <Link to="/skill/craft">Craft</Link> skill of your choice.</Pair>
+</Ability>
+<Ability id="traittalented-talented-fn1-5" extraClasses="trait" icon={["village"]}>
+<Pair single id="traittalented-talented-fn1-5"><Link to="/trait/talented">⮞</Link> Talented <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-1.5" id="main-traits_social_prod-fake-fn-1.5" data-hash-target to="main-traits_social_prod-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traittalented-talented-fn1-5-flavor">You are a virtuoso musician, actor, or storyteller.</Pair>
+<Pair single="benefit" id="traittalented-talented-fn1-5-benefit">You gain a +1 trait bonus on checks with a single <Link to="/skill/perform">Perform</Link> skill (your choice), and all Perform skills are always class skills for you.</Pair>
+</Ability>
+<section data-footnotes><h3 id="main-traits_social_prod-label">Footnotes</h3><ol>
+<li id="main-traits_social_prod-fake-fn-1-target"><p><Link to="/source/ultimate_campaign">Ultimate Campaign</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_prod-fake-fn-1" data-hash-target to="main-traits_social_prod-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_prod-fake-fn-1.2" data-hash-target to="main-traits_social_prod-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_prod-fake-fn-1.3" data-hash-target to="main-traits_social_prod-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_prod-fake-fn-1.4" data-hash-target to="main-traits_social_prod-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_prod-fake-fn-1.5" data-hash-target to="main-traits_social_prod-fake-fn-1.5">↩<sup>5</sup></InnerLink></p></li>
+<li id="main-traits_social_prod-fake-fn-2-target"><p><Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_prod-fake-fn-2" data-hash-target to="main-traits_social_prod-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_prod-fake-fn-2.2" data-hash-target to="main-traits_social_prod-fake-fn-2.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_social_prod-fake-fn-3-target"><p><Link to="/source/faction_guide">Faction Guide</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_social_prod-fake-fn-3" data-hash-target to="main-traits_social_prod-fake-fn-3">↩</InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_social_prod-fake-fn-3.2" data-hash-target to="main-traits_social_prod-fake-fn-3.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_social_prod-fake-fn-4-target"><p><Link to="/source/antiheros_handbook">Antihero's Handbook</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_social_prod-fake-fn-4" data-hash-target to="main-traits_social_prod-fake-fn-4">↩</InnerLink></p></li>
+<li id="main-traits_social_prod-fake-fn-5-target"><p><Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_prod-fake-fn-5" data-hash-target to="main-traits_social_prod-fake-fn-5">↩</InnerLink></p></li>
+</ol></section></IonList>};
+const _traits_social_other = {title: "Other Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><Ability id="traitadopted-adopted-fn1-fn2-fn3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitadopted-adopted-fn1-fn2-fn3"><Link to="/trait/adopted">⮞</Link> Adopted <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-1" id="main-traits_social_other-fake-fn-1" data-hash-target to="main-traits_social_other-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-2" id="main-traits_social_other-fake-fn-2" data-hash-target to="main-traits_social_other-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-3" id="main-traits_social_other-fake-fn-3" data-hash-target to="main-traits_social_other-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="benefit" id="traitadopted-adopted-fn1-fn2-fn3-benefit">You were adopted and raised by someone not of your race, and raised in a society not your own. As a result, you picked up a race trait from your adoptive parents and society, and may immediately select a <Link to="/main/traits_race">race trait</Link> from your adoptive parents' race.</Pair>
+</Ability>
+<Ability id="traitancestralarmor-ancestral-armor-fn4" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitancestralarmor-ancestral-armor-fn4"><Link to="/trait/ancestral_armor">⮞</Link> Ancestral Armor <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-4" id="main-traits_social_other-fake-fn-4" data-hash-target to="main-traits_social_other-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitancestralarmor-ancestral-armor-fn4-flavor">You inherited an ancient set of Tar Taargadth armor.</Pair>
+<Pair single="benefit" id="traitancestralarmor-ancestral-armor-fn4-benefit">You begin play with a set of <Link to="/rule/masterwork_armor">masterwork armor</Link> of your choice. You must be proficient in wearing this armor, and the armor's total cost cannot exceed 300 gp.</Pair>
+</Ability>
+<Ability id="traitcompetitive-competitive-fn5" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitcompetitive-competitive-fn5"><Link to="/trait/competitive">⮞</Link> Competitive <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-5" id="main-traits_social_other-fake-fn-5" data-hash-target to="main-traits_social_other-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitcompetitive-competitive-fn5-flavor">You grew up and were raised around fabulous sporting events, and your youth was consumed with a driving need to be better than everyone else. Any hint of a contest spurs you to your greatest heights of potential.</Pair>
+<Pair single="benefit" id="traitcompetitive-competitive-fn5-benefit"><p>Whenever another creature within 30 feet attempts a skill check and you attempt a check with the same skill before the start of that creature's next turn, you gain a +1 trait bonus on your check (this includes attempting an opposed skill check against the creature).</p>
+<p><strong>Suggested Characters:</strong> Brevans, Kurgess worshipers, Sargavans.</p>
+</Pair>
+</Ability>
+<Ability id="traitduskmarketbribery-dusk-market-bribery-fn6" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitduskmarketbribery-dusk-market-bribery-fn6"><Link to="/trait/dusk_market_bribery">⮞</Link> Dusk Market Bribery <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-6" id="main-traits_social_other-fake-fn-6" data-hash-target to="main-traits_social_other-fake-fn-6-target">6</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitduskmarketbribery-dusk-market-bribery-fn6-flavor">You learned how to bribe by watching <Link to="/rule/dusk_market">Dusk Market</Link> merchants interact with Westcrown's dottari guards.</Pair>
+<Pair single="benefit" id="traitduskmarketbribery-dusk-market-bribery-fn6-benefit">Reduce the amount of gold you must spend to bribe a guard or official or compensate a conjured creature by 5%.</Pair>
+</Ability>
+<Ability id="traitmentored-mentored-fn1-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitmentored-mentored-fn1-2"><Link to="/trait/mentored">⮞</Link> Mentored <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-1.2" id="main-traits_social_other-fake-fn-1.2" data-hash-target to="main-traits_social_other-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitmentored-mentored-fn1-2-flavor">A tutor or private instructor guided you in learning your art, profession, or trade, and through your education, you became capable of teaching and guiding others.</Pair>
+<Pair single="benefit" id="traitmentored-mentored-fn1-2-benefit">Choose a single <Link to="/skill/craft">Craft</Link>, <Link to="/skill/perform">Perform</Link>, or <Link to="/skill/profession">Profession</Link> skill. You gain a +1 trait bonus on checks with that skill. You also gain a +1 trait bonus when you <Link to="/rule/aid_another">aid another's</Link> skill check with any skill.</Pair>
+</Ability>
+<Ability id="traitmonsterstalker-monster-stalker-fn7" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitmonsterstalker-monster-stalker-fn7"><Link to="/trait/monster_stalker">⮞</Link> Monster Stalker <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-7" id="main-traits_social_other-fake-fn-7" data-hash-target to="main-traits_social_other-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitmonsterstalker-monster-stalker-fn7-flavor">You've been raised to hunt certain beasts.</Pair>
+<Pair single="benefit" id="traitmonsterstalker-monster-stalker-fn7-benefit">Choose either aberrations, animals, dragons, fey, magical beasts, oozes, or vermin. You gain a limited version of the <Link to="/umr/scent">scent</Link> ability (15 feet normal, 30 feet upwind, 5 feet downwind) that detects only your chosen creature type.</Pair>
+</Ability>
+<Ability id="traitnaturalbornleadersocial-natural-born-leader-social-fn1-3-fn3-2-fn2-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitnaturalbornleadersocial-natural-born-leader-social-fn1-3-fn3-2-fn2-2"><Link to="/trait/natural_born_leader_social">⮞</Link> Natural-Born Leader (Social) <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-1.3" id="main-traits_social_other-fake-fn-1.3" data-hash-target to="main-traits_social_other-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-3.2" id="main-traits_social_other-fake-fn-3.2" data-hash-target to="main-traits_social_other-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-2.2" id="main-traits_social_other-fake-fn-2.2" data-hash-target to="main-traits_social_other-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitnaturalbornleadersocial-natural-born-leader-social-fn1-3-fn3-2-fn2-2-flavor">You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not.</Pair>
+<Pair single="benefit" id="traitnaturalbornleadersocial-natural-born-leader-social-fn1-3-fn3-2-fn2-2-benefit">All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the <Link to="/feat/leadership">Leadership</Link> feat, you gain a +1 trait bonus to your Leadership score.</Pair>
+</Ability>
+<Ability id="traitnumerianfluidindulger-numerian-fluid-indulger-fn8" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitnumerianfluidindulger-numerian-fluid-indulger-fn8"><Link to="/trait/numerian_fluid_indulger">⮞</Link> Numerian Fluid Indulger <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-8" id="main-traits_social_other-fake-fn-8" data-hash-target to="main-traits_social_other-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Region" hl>Numeria</Pair>
+<Pair title="Requirements" hl>Associated with the court of the Palace of Fallen Stars in Numeria</Pair>
+<Pair single="flavor" id="traitnumerianfluidindulger-numerian-fluid-indulger-fn8-flavor">You have tasted <Link to="/drug/numerian_fluids">Numerian fluids</Link> many times.</Pair>
+<Pair single="benefit" id="traitnumerianfluidindulger-numerian-fluid-indulger-fn8-benefit">Once per day after rolling to determine the side effects of consuming a Numerian fluid, you can roll on the table again, but you must take the second result.</Pair>
+</Ability>
+<Ability id="traitreassuringadvice-reassuring-advice-fn9" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitreassuringadvice-reassuring-advice-fn9"><Link to="/trait/reassuring_advice">⮞</Link> Reassuring Advice <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-9" id="main-traits_social_other-fake-fn-9" data-hash-target to="main-traits_social_other-fake-fn-9-target">9</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitreassuringadvice-reassuring-advice-fn9-flavor">You've studied the speeches and writings of a leader or thinker who served as a reassuring voice in her community in the turbulent times after Aroden died, painfully learning which portions of Aroden's advice no longer applied and what of his writings could still be usefully applied.</Pair>
+<Pair single="benefit" id="traitreassuringadvice-reassuring-advice-fn9-benefit">Once per day, you can speak Aroden's words of encouragement to grant any human a +1 insight bonus on any attack roll, saving throw, or skill check of his choice within the following hour. The choice to use the insight bonus must be made before the related roll is made.</Pair>
+</Ability>
+<Ability id="traitrichparents-rich-parents-fn1-4-fn3-3-fn2-3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitrichparents-rich-parents-fn1-4-fn3-3-fn2-3"><Link to="/trait/rich_parents">⮞</Link> Rich Parents <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-1.4" id="main-traits_social_other-fake-fn-1.4" data-hash-target to="main-traits_social_other-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-3.3" id="main-traits_social_other-fake-fn-3.3" data-hash-target to="main-traits_social_other-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-2.3" id="main-traits_social_other-fake-fn-2.3" data-hash-target to="main-traits_social_other-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="benefit" id="traitrichparents-rich-parents-fn1-4-fn3-3-fn2-3-benefit">You were born into a rich family, perhaps even the nobility, and even though you turned to a life of adventure, you enjoy a one-time benefit to your initial finances: your starting wealth increases to 900 gp.</Pair>
+</Ability>
+<Ability id="traitslaverunner-slave-runner-fn10" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitslaverunner-slave-runner-fn10"><Link to="/trait/slave_runner">⮞</Link> Slave Runner <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-10" id="main-traits_social_other-fake-fn-10" data-hash-target to="main-traits_social_other-fake-fn-10-target">10</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitslaverunner-slave-runner-fn10-flavor">You witnessed or were party to the rescue of a halfling from Chelish slavery by the <Link to="/rule/bellflower_network">Bellflower Network</Link> or <Link to="/rule/eagle_knights">Eagle Knights</Link>.</Pair>
+<Pair single="benefit" id="traitslaverunner-slave-runner-fn10-benefit">Once per day when attempting to directly free a slave, you gain a +2 trait bonus on your choice of an <Link to="/skill/acrobatics">Acrobatics</Link> check, an <Link to="/skill/escape_artist">Escape Artist</Link> check, a <Link to="/skill/stealth">Stealth</Link> check, or a skill check attempted as part of a <Link to="/rule/heists">heist</Link> or <Link to="/rule/pursuit">pursuit</Link></Pair>
+</Ability>
+<Ability id="traitsupportive-supportive-fn5-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitsupportive-supportive-fn5-2"><Link to="/trait/supportive">⮞</Link> Supportive <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-5.2" id="main-traits_social_other-fake-fn-5.2" data-hash-target to="main-traits_social_other-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitsupportive-supportive-fn5-2-flavor">You were forced to get by in an isolated enclave, whether surrounded by a community that feared and suspected you or in a remote locale far from other people, and you became practiced at assisting your friends.</Pair>
+<Pair single="benefit" id="traitsupportive-supportive-fn5-2-benefit"><p>You gain a +1 trait bonus on skill checks to use the <Link to="/rule/aid_another">aid another</Link> action.</p>
+<p><strong>Suggested Characters:</strong> Halflings, Mwangi, Tians.</p>
+</Pair>
+</Ability>
+<Ability id="traitvoicesinyourhead-voices-in-your-head-fn11" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitvoicesinyourhead-voices-in-your-head-fn11"><Link to="/trait/voices_in_your_head">⮞</Link> Voices in your Head <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-11" id="main-traits_social_other-fake-fn-11" data-hash-target to="main-traits_social_other-fake-fn-11-target">11</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitvoicesinyourhead-voices-in-your-head-fn11-flavor">Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness.</Pair>
+<Pair single="benefit" id="traitvoicesinyourhead-voices-in-your-head-fn11-benefit">Once per day as an <strong className="hl">immediate action</strong>, you can issue a command to a <Link to="/misc/confused">confused</Link> creature within 30 feet. This allows the creature to immediately reroll on the <Link to="/misc/confused">confused condition table</Link>, and you can pick which of the two actions - the action of its initial roll or that of the reroll - the creature takes. Confused creatures do not need to understand you for this trait to take effect.</Pair>
+</Ability>
+<Ability id="traitwanderlust-wanderlust-fn5-3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitwanderlust-wanderlust-fn5-3"><Link to="/trait/wanderlust">⮞</Link> Wanderlust <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-5.3" id="main-traits_social_other-fake-fn-5.3" data-hash-target to="main-traits_social_other-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitwanderlust-wanderlust-fn5-3-flavor">Your childhood was brightened by the new places you constantly saw as you traveled with your parents, who were merchants. Still excited by travel, you gain great energy when traveling overland.</Pair>
+<Pair single="benefit" id="traitwanderlust-wanderlust-fn5-3-benefit"><p>Treat your base land speed as 10 feet higher when determining your overland speed.</p>
+<p><strong>Suggested Characters:</strong> Desnans, halflings, Varisians.</p>
+</Pair>
+</Ability>
+<Ability id="traitwickedleader-wicked-leader-fn12" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitwickedleader-wicked-leader-fn12"><Link to="/trait/wicked_leader">⮞</Link> Wicked Leader <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-12" id="main-traits_social_other-fake-fn-12" data-hash-target to="main-traits_social_other-fake-fn-12-target">12</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="benefit" id="traitwickedleader-wicked-leader-fn12-benefit">You gain a +1 trait bonus on Charisma checks against evil creatures. If you select the <Link to="/feat/leadership">Leadership</Link> feat or the <Link to="/feat/vile_leadership">Vile Leadership</Link> feat at any point when you meet the prerequisites for that feat, you can recruit a cohort who is up to 1 level lower than you (instead of the normal requirement that your cohort must be 2 or more levels lower than you are) as long as your cohort is evil.</Pair>
+</Ability>
+<Ability id="traitworldly-worldly-fn1-5" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitworldly-worldly-fn1-5"><Link to="/trait/worldly">⮞</Link> Worldly <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-1.5" id="main-traits_social_other-fake-fn-1.5" data-hash-target to="main-traits_social_other-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitworldly-worldly-fn1-5-flavor">You have acquired an unusual breadth of life experience - more than others of your age, race, or culture.</Pair>
+<Pair single="benefit" id="traitworldly-worldly-fn1-5-benefit">Once per day when attempting a skill check for a skill you're untrained in, you can roll twice and take the better result.</Pair>
+</Ability>
+<section data-footnotes><h3 id="main-traits_social_other-label">Footnotes</h3><ol>
+<li id="main-traits_social_other-fake-fn-1-target"><p><Link to="/source/ultimate_campaign">Ultimate Campaign</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_other-fake-fn-1" data-hash-target to="main-traits_social_other-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_other-fake-fn-1.2" data-hash-target to="main-traits_social_other-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_other-fake-fn-1.3" data-hash-target to="main-traits_social_other-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_other-fake-fn-1.4" data-hash-target to="main-traits_social_other-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_other-fake-fn-1.5" data-hash-target to="main-traits_social_other-fake-fn-1.5">↩<sup>5</sup></InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-2-target"><p><Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_other-fake-fn-2" data-hash-target to="main-traits_social_other-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_other-fake-fn-2.2" data-hash-target to="main-traits_social_other-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_other-fake-fn-2.3" data-hash-target to="main-traits_social_other-fake-fn-2.3">↩<sup>3</sup></InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-3-target"><p><Link to="/source/advanced_players_guide">Advanced Player's Guide</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_social_other-fake-fn-3" data-hash-target to="main-traits_social_other-fake-fn-3">↩</InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_social_other-fake-fn-3.2" data-hash-target to="main-traits_social_other-fake-fn-3.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_social_other-fake-fn-3.3" data-hash-target to="main-traits_social_other-fake-fn-3.3">↩<sup>3</sup></InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-4-target"><p><Link to="/source/blood_of_the_ancients">Blood of the Ancients</Link> pg. 31 <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_social_other-fake-fn-4" data-hash-target to="main-traits_social_other-fake-fn-4">↩</InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-5-target"><p><Link to="/source/quests_and_campaigns">Quests and Campaigns</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_other-fake-fn-5" data-hash-target to="main-traits_social_other-fake-fn-5">↩</InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_other-fake-fn-5.2" data-hash-target to="main-traits_social_other-fake-fn-5.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_other-fake-fn-5.3" data-hash-target to="main-traits_social_other-fake-fn-5.3">↩<sup>3</sup></InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-6-target"><p><Link to="/source/black_markets">Black Markets</Link> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_social_other-fake-fn-6" data-hash-target to="main-traits_social_other-fake-fn-6">↩</InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-7-target"><p><Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook</Link> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_social_other-fake-fn-7" data-hash-target to="main-traits_social_other-fake-fn-7">↩</InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-8-target"><p><Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_social_other-fake-fn-8" data-hash-target to="main-traits_social_other-fake-fn-8">↩</InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-9-target"><p><Link to="/source/arcane_anthology">Arcane Anthology</Link> <InnerLink aria-label="Back to reference 9" id="backlink-main-traits_social_other-fake-fn-9" data-hash-target to="main-traits_social_other-fake-fn-9">↩</InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-10-target"><p><Link to="/source/spymasters_handbook">Spymaster's Handbook</Link> <InnerLink aria-label="Back to reference 10" id="backlink-main-traits_social_other-fake-fn-10" data-hash-target to="main-traits_social_other-fake-fn-10">↩</InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-11-target"><p><Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link> <InnerLink aria-label="Back to reference 11" id="backlink-main-traits_social_other-fake-fn-11" data-hash-target to="main-traits_social_other-fake-fn-11">↩</InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-12-target"><p><Link to="/source/champions_of_corruption">Champions of Corruption</Link> <InnerLink aria-label="Back to reference 12" id="backlink-main-traits_social_other-fake-fn-12" data-hash-target to="main-traits_social_other-fake-fn-12">↩</InnerLink></p></li>
+</ol></section></IonList>};
+export default {traits_faith:_traits_faith,traits_faith_all:_traits_faith_all,traits_faith_def:_traits_faith_def,traits_faith_combat:_traits_faith_combat,traits_faith_spell:_traits_faith_spell,traits_faith_magic:_traits_faith_magic,traits_faith_class:_traits_faith_class,traits_faith_ab:_traits_faith_ab,traits_social_phys:_traits_social_phys,traits_social_mental:_traits_social_mental,traits_social_cha:_traits_social_cha,traits_social_prod:_traits_social_prod,traits_social_other:_traits_social_other}

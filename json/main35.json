@@ -11,7 +11,7 @@
 			"",
 			"::main[Defense Traits]{to=main/traits_faith_def ind bottom=\"Affects armor bonuses or saving throws; 33 traits\"}",
 			"",
-			"::main[Other Combat-Related Traits]{to=main/traits_faith_combat ind bottom=\"Affects attack rolls, damage, initiative, etc; 6 traits\"}",
+			"::main[Other Combat-Related Traits]{to=main/traits_faith_combat ind bottom=\"Affects attack rolls, damage, initiative, etc; 7 traits\"}",
 			"",
 			"::main[Spell Ability Traits]{to=main/traits_faith_spell ind bottom=\"Grants a spell, spell-like-ability, or an ability that duplicates a spell; 10 traits\"}",
 			"",
@@ -143,6 +143,96 @@
 				{
 					"limit": {
 						"regex": "^Faith.*-ab"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_phys": {
+		"title": "Physical Skill Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-(acro|climb|stl|ea|dd|soh|dis)\\b"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_mental": {
+		"title": "Mental Skill Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-(int|app|spc|ling)\\b"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_cha": {
+		"title": "Charisma Skill Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-cha"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_prod": {
+		"title": "Productive Skill Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-(perf|prof|craft)"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_other": {
+		"title": "Other Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-other"
 					}
 				}
 			]

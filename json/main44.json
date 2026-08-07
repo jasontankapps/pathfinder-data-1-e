@@ -2,15 +2,278 @@
 	"traits_social": {
 		"title": "Social Traits",
 		"searchgroup": "trait",
+		"description": [
+			"::main[Back to Traits]{to=main/traits rev}",
+			"",
+			"::mhr",
+			"",
+			"::main[All Social Traits]{to=main/traits_social_all endem=\"(163 traits)\"}",
+			"",
+			"::main[Offense Traits]{to=main/traits_social_off ind bottom=\"Affects attack rolls, damage, etc; 7 traits\"}",
+			"",
+			"::main[Defense Traits]{to=main/traits_social_def ind bottom=\"Affects armor bonuses, saving throws, etc; 26 traits\"}",
+			"",
+			"::main[Class-Specific Traits]{to=main/traits_social_class ind bottom=\"Requires a class ability to function; 5 traits\"}",
+			"",
+			"::main[Spell/Magic-Related Traits]{to=main/traits_social_magic ind bottom=\"Grants a spell or spell-like-ability, or affects caster level or spellcasting ability; 7 traits\"}",
+			"",
+			"::main[Knightly Code Traits]{to=main/traits_social_code ind bottom=\"Presents a &quot&code of conduct&quot& that must be followed; 5 traits\"}",
+			"",
+			"::main[Language Traits]{to=main/traits_social_lang ind bottom=\"Affects languages known; 5 traits\"}",
+			"",
+			"::main[Bluff Traits]{to=main/traits_social_bluff ind bottom=\"Affects the Bluff skill; 18 traits\"}",
+			"",
+			"::main[Diplomacy Traits]{to=main/traits_social_diplo ind bottom=\"Affects the Diplomacy skill; 38 traits\"}",
+			"",
+			"::main[Intimidate Traits]{to=main/traits_social_intm ind bottom=\"Affects the Intimidate skill; 24 traits\"}",
+			"",
+			"::main[Knowledge Traits]{to=main/traits_social_k ind bottom=\"Affects any of the Knowledge skills; 20 traits\"}",
+			"",
+			"::main[Sense Motive Traits]{to=main/traits_social_sm ind bottom=\"Affects the Sense Motive skill; 13 traits\"}",
+			"",
+			"::main[Survival and Perception Traits]{to=main/traits_social_sur_per ind bottom=\"Affects the Survival or Perception skills; 12 traits\"}",
+			"",
+			"::main[Physical Skill Traits]{to=main/traits_social_phys ind bottom=\"Affects Acrobatics, Climb, Disable Device, Disguise, Escape Artist, Sleight of Hand, or Stealth; 10 traits\"}",
+			"",
+			"::main[Mental Skill Traits]{to=main/traits_social_mental ind bottom=\"Affects Appraise, Linguistics, Spellcraft, or any Intelligence-based skill; 9 traits\"}",
+			"",
+			"::main[Charisma Skill Traits]{to=main/traits_social_cha ind bottom=\"Affects any Charisma-based skills; 5 traits\"}",
+			"",
+			"::main[Productive Skill Traits]{to=main/traits_social_prod ind bottom=\"Affects Craft, Perform, or Profession skills; 11 traits\"}",
+			"",
+			"::main[Other Social Traits]{to=main/traits_social_other ind bottom=\"Affects other skills/feats/abilities; 15 traits\"}"
+		]
+	},
+	"traits_social_all": {
+		"title": "All Social Traits",
+		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
 				[
-					"::main[Back to Traits]{to=main/traits rev}",
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
 					""
 				],
 				{
-					"limit": "Social"
+					"limit": {
+						"regex": "^Social"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_off": {
+		"title": "Offense Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-off"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_def": {
+		"title": "Defense Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-def"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_class": {
+		"title": "Class-Specific Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-class"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_magic": {
+		"title": "Spell/Magic-Related Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-(spell|magic)"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_code": {
+		"title": "Knightly Code Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-code"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_lang": {
+		"title": "Language Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-lang"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_bluff": {
+		"title": "Bluff Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-bluff"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_diplo": {
+		"title": "Diplomacy Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-diplo"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_intm": {
+		"title": "Intimidate Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-intm"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_k": {
+		"title": "Knowledge Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-k.?.?\\b"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_sm": {
+		"title": "Sense Motive Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-sm"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_sur_per": {
+		"title": "Survival and Perception Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "Social.*-(sur|per)\\b"
+					}
 				}
 			]
 		}

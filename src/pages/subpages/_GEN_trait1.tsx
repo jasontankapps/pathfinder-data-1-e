@@ -2581,7 +2581,7 @@ const _contemptuous = {title: "Contemptuous", topLink: ["Social Traits","main/tr
 <Pair single id="contemptuous">Contemptuous</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="contemptuous-flavor">Whether you are a commoner who has come to despise the haughty upper crust or a holier-than-thou noble who can't stand being around the unwashed masses, your contempt drives you to study carefully, making sure you always have the upper hand in social exchanges with them.</Pair>
-<Pair single="benefit" id="contemptuous-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_local_">Knowledge (local) </Link>checks and <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> checks, and one of these skills becomes a class skill for you.</Pair>
+<Pair single="benefit" id="contemptuous-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks and <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> checks, and one of these skills becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _convincing_liar = {title: "Convincing Liar", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -3100,7 +3100,7 @@ const _lost_nobility = {title: "Lost Nobility", topLink: ["Social Traits","main/
 <Pair single id="lost-nobility">Lost Nobility</Pair>
 <Pair title="Type">Social</Pair>
 <Pair single="flavor" id="lost-nobility-flavor">Your family was prominent before the rise of Thrune, but that legacy is now forgotten by all but you.</Pair>
-<Pair single="benefit" id="lost-nobility-benefit">You hold every Chelish government official (including <Link to="/rule/hellknights">Hellknights</Link>) personally responsible for your lost glory.You gain a +1 trait bonus on attack and damage rolls against these officials.</Pair>
+<Pair single="benefit" id="lost-nobility-benefit">You hold every Chelish government official (including <Link to="/rule/hellknights">Hellknights</Link>) personally responsible for your lost glory. You gain a +1 trait bonus on attack and damage rolls against these officials.</Pair>
 </Ability>
 </>};
 const _maestro_of_the_society = {title: "Maestro of the Society", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -3115,14 +3115,16 @@ const _malevolent_temptations = {title: "Malevolent Temptations", topLink: ["Soc
 <Ability id="malevolent-temptations" extraClasses="trait" icon={["village"]}>
 <Pair single id="malevolent-temptations">Malevolent Temptations</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="malevolent-temptations-benefit">You have resisted or escaped the temptations of a disguised hag, and you learned much from your encounter. You gain a +1 trait bonus on Sense Motive checks and a +2 trait bonus on saving throws to disbelieve illusions.</Pair>
+<Pair single="flavor" id="malevolent-temptations-flavor">You have resisted or escaped the temptations of a disguised <Link to="/family/hag">hag</Link>, and you learned much from your encounter.</Pair>
+<Pair single="benefit" id="malevolent-temptations-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks and a +2 trait bonus on saving throws to disbelieve illusions.</Pair>
 </Ability>
 </>};
 const _marked_by_unknown_forces = {title: "Marked by Unknown Forces", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
 <Ability id="marked-by-unknown-forces" extraClasses="trait" icon={["village"]}>
 <Pair single id="marked-by-unknown-forces">Marked by Unknown Forces</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="marked-by-unknown-forces-benefit">That which has marked you for power has also given you proof to show others. You may cast <Link to="/spell/light">light</Link> three times per day as a spell-like ability, but this ability only targets the palm of your hand, and it manifests as a glowing sigil representing your ominous birth - a holy or unholy symbol, a demonic symbol, or perhaps some other distinctive marking established by you and your GM. Those who recognize this symbol have a starting attitude toward you of one step closer to friendly (if they are followers of or scholars studying the sign) or one step closer to hostile (if they are opposed to the sign or its followers).</Pair>
+<Pair single="flavor" id="marked-by-unknown-forces-flavor">That which has marked you for power has also given you proof to show others.</Pair>
+<Pair single="benefit" id="marked-by-unknown-forces-benefit">You may cast <Link to="/spell/light">light</Link> three times per day as a spell-like ability, but this ability only targets the palm of your hand, and it manifests as a glowing sigil representing your ominous birth - a holy or unholy symbol, a demonic symbol, or perhaps some other distinctive marking established by you and your GM. Those who recognize this symbol have a <Link to="/skill/diplomacy">starting attitude</Link> toward you of one step closer to friendly (if they are followers of or scholars studying the sign) or one step closer to hostile (if they are opposed to the sign or its followers).</Pair>
 </Ability>
 </>};
 const _master_messenger = {title: "Master Messenger", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2</Link></p>
@@ -3130,21 +3132,24 @@ const _master_messenger = {title: "Master Messenger", topLink: ["Social Traits",
 <Pair single id="master-messenger">Master Messenger</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Riddleport</Pair>
-<Pair single="benefit" id="master-messenger-benefit">Your secret messages are rarely misunderstood. If you fail your Bluff check to pass a simple message by 5 or more, you deliver no message instead of delivering the wrong message.</Pair>
+<Pair single="flavor" id="master-messenger-flavor">Your secret messages are rarely misunderstood.</Pair>
+<Pair single="benefit" id="master-messenger-benefit">If you fail your <Link to="/skill/bluff">Bluff</Link> check to pass a simple message by 5 or more, you deliver no message instead of delivering the wrong message.</Pair>
 </Ability>
 </>};
 const _mediator = {title: "Mediator", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
 <Ability id="mediator" extraClasses="trait" icon={["village"]}>
 <Pair single id="mediator">Mediator</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="mediator-benefit">You have a way with calming tempers, using cool logic to sooth heated disagreements, and you were always the one to settle arguments among your friends, family, and community. You receive a +1 trait bonus on Diplomacy checks. In addition, you receive a +1 trait bonus to the DC of any charm or compulsion effect that does not provide ongoing control and results in peaceful acts, such as calm emotions, sleep, or a suggestion to lay down arms.</Pair>
+<Pair single="flavor" id="mediator-flavor">You have a way with calming tempers, using cool logic to sooth heated disagreements, and you were always the one to settle arguments among your friends, family, and community.</Pair>
+<Pair single="benefit" id="mediator-benefit">You receive a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks. In addition, you receive a +1 trait bonus to the DC of any charm or compulsion effect that does not provide ongoing control and results in peaceful acts, such as <Link to="/spell/calm_emotions">calm emotions</Link>, <Link to="/spell/sleep">sleep</Link>, or a <Link to="/spell/suggestion">suggestion</Link> to lay down arms.</Pair>
 </Ability>
 </>};
 const _memorable = {title: "Memorable", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="memorable" extraClasses="trait" icon={["village"]}>
 <Pair single id="memorable">Memorable</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="memorable-benefit"><p>Growing up amid a large number of children, you learned quickly how to get others' attention and keep it. When you modify a character's attitude with the Diplomacy or Intimidate skill, the attitude change lasts 1-1/2 times longer than it otherwise would. Whenever you create a fear or mind-affecting effect that imposes a penalty or bonus with a duration of at least 2 rounds, it lasts 1 additional round after it would normally end. For example, if you demoralize a foe with an Intimidate check and beat the DC by 5, the victim is shaken for 3 rounds instead of the usual 2 rounds.</p>
+<Pair single="flavor" id="memorable-flavor">Growing up amid a large number of children, you learned quickly how to get others' attention and keep it.</Pair>
+<Pair single="benefit" id="memorable-benefit"><p>When you modify a character's attitude with the <Link to="/skill/diplomacy">Diplomacy</Link> or <Link to="/skill/intimidate">Intimidate</Link> skill, the attitude change lasts 1-1/2 times longer than it otherwise would. Whenever you create a fear or mind-affecting effect that imposes a penalty or bonus with a duration of at least 2 rounds, it lasts 1 additional round after it would normally end. For example, if you demoralize a foe with an Intimidate check and beat the DC by 5, the victim is <Link to="/misc/shaken">shaken</Link> for 3 rounds instead of the usual 2 rounds.</p>
 <p><strong>Suggested Characters:</strong> Free Captains, gnomes, Keleshites.</p>
 </Pair>
 </Ability>
@@ -3153,56 +3158,63 @@ const _mentored = {title: "Mentored", topLink: ["Social Traits","main/traits_soc
 <Ability id="mentored" extraClasses="trait" icon={["village"]}>
 <Pair single id="mentored">Mentored</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="mentored-benefit">A tutor or private instructor guided you in learning your art, profession, or trade, and through your education, you became capable of teaching and guiding others. Choose a single Craft, Perform, or Profession skill. You gain a +1 trait bonus on checks with that skill. You also gain a +1 trait bonus when you aid another's skill check with any skill.</Pair>
+<Pair single="flavor" id="mentored-flavor">A tutor or private instructor guided you in learning your art, profession, or trade, and through your education, you became capable of teaching and guiding others.</Pair>
+<Pair single="benefit" id="mentored-benefit">Choose a single <Link to="/skill/craft">Craft</Link>, <Link to="/skill/perform">Perform</Link>, or <Link to="/skill/profession">Profession</Link> skill. You gain a +1 trait bonus on checks with that skill. You also gain a +1 trait bonus when you <Link to="/rule/aid_another">aid another's</Link> skill check with any skill.</Pair>
 </Ability>
 </>};
 const _mercenary = {title: "Mercenary", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="mercenary" extraClasses="trait" icon={["village"]}>
 <Pair single id="mercenary">Mercenary</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="mercenary-benefit">For everything there is a price, and you are a negotiator at heart. You gain a +2 trait bonus on Diplomacy, Intimidate, and Sense Motive checks made while negotiating payment for a quest or a service that you provide.</Pair>
+<Pair single="flavor" id="mercenary-flavor">For everything there is a price, and you are a negotiator at heart.</Pair>
+<Pair single="benefit" id="mercenary-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/intimidate">Intimidate</Link>, and <Link to="/skill/sense_motive">Sense Motive</Link> checks made while negotiating payment for a quest or a service that you provide.</Pair>
 </Ability>
 </>};
 const _merchant = {title: "Merchant", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="merchant" extraClasses="trait" icon={["village"]}>
 <Pair single id="merchant">Merchant</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="merchant-benefit">You lived your life as a merchant, buying and selling goods. You gain a +1 trait bonus on any Appraise and Sense Motive checks you attempt while bargaining for the price of goods. Appraise is always a class skill for you.</Pair>
+<Pair single="flavor" id="merchant-flavor">You lived your life as a merchant, buying and selling goods.</Pair>
+<Pair single="benefit" id="merchant-benefit">You gain a +1 trait bonus on any <Link to="/skill/appraise">Appraise</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks you attempt while bargaining for the price of goods. Appraise is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _mock_gladiator = {title: "Mock Gladiator", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
 <Ability id="mock-gladiator" extraClasses="trait" icon={["village"]}>
 <Pair single id="mock-gladiator">Mock Gladiator</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="mock-gladiator-benefit">You have learned how to work a crowd in Magnimar's mock-gladiator fights. Choose one weapon. You take no penalty on attack rolls when dealing nonlethal damage with that weapon, and once per day if you score a critical hit with the weapon, you can immediately attempt an Intimidate check to demoralize your target.</Pair>
+<Pair single="flavor" id="mock-gladiator-flavor">You have learned how to work a crowd in Magnimar's mock-gladiator fights.</Pair>
+<Pair single="benefit" id="mock-gladiator-benefit">Choose one weapon. You take no penalty on attack rolls when dealing nonlethal damage with that weapon, and once per day if you score a critical hit with the weapon, you can immediately attempt an <Link to="/skill/intimidate">Intimidate</Link> check to demoralize your target.</Pair>
 </Ability>
 </>};
 const _monster_scholar = {title: "Monster Scholar", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook</Link></p>
 <Ability id="monster-scholar" extraClasses="trait" icon={["village"]}>
 <Pair single id="monster-scholar">Monster Scholar</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="monster-scholar-benefit">Your study of monsters keeps you well informed. Choose either Knowledge (arcana), Knowledge (dungeoneering), or Knowledge (nature). Whenever you succeed at a Knowledge check to identify a creature and its special powers - or vulnerabilities - with the chosen skill, you gain one additional piece of useful information (as if your skill check result had been 5 higher).</Pair>
+<Pair single="flavor" id="monster-scholar-flavor">Your study of monsters keeps you well informed.</Pair>
+<Pair single="benefit" id="monster-scholar-benefit">Choose either <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link>, <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link>, or <Link to="/skill/knowledge_nature">Knowledge (nature)</Link>. Whenever you succeed at a Knowledge check to identify a creature and its special powers - or vulnerabilities - with the chosen skill, you gain one additional piece of useful information (as if your skill check result had been 5 higher).</Pair>
 </Ability>
 </>};
 const _monster_stalker = {title: "Monster Stalker", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook</Link></p>
 <Ability id="monster-stalker" extraClasses="trait" icon={["village"]}>
 <Pair single id="monster-stalker">Monster Stalker</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="monster-stalker-benefit">You've been raised to hunt certain beasts. Choose either aberrations, animals, dragons, fey, magical beasts, oozes, or vermin. You gain a limited version of the scent ability (15 feet normal, 30 feet upwind, 5 feet downwind) that detects only your chosen creature type.</Pair>
+<Pair single="flavor" id="monster-stalker-flavor">You've been raised to hunt certain beasts.</Pair>
+<Pair single="benefit" id="monster-stalker-benefit">Choose either aberrations, animals, dragons, fey, magical beasts, oozes, or vermin. You gain a limited version of the <Link to="/umr/scent">scent</Link> ability (15 feet normal, 30 feet upwind, 5 feet downwind) that detects only your chosen creature type.</Pair>
 </Ability>
 </>};
 const _natural_born_leader_social = {title: "Natural-Born Leader (Social)", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
 <Ability id="natural-born-leader-social" extraClasses="trait" icon={["village"]}>
 <Pair single id="natural-born-leader-social">Natural-Born Leader (Social)</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="natural-born-leader-social-benefit">You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not. All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the <Link to="/feat/leadership">Leadership</Link> feat, you gain a +1 trait bonus to your Leadership score.</Pair>
+<Pair single="flavor" id="natural-born-leader-social-flavor">You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not.</Pair>
+<Pair single="benefit" id="natural-born-leader-social-benefit">All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the <Link to="/feat/leadership">Leadership</Link> feat, you gain a +1 trait bonus to your Leadership score.</Pair>
 </Ability>
 </>};
 const _nightstalls_navigator = {title: "Nightstalls Navigator", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets</Link></p>
 <Ability id="nightstalls-navigator" extraClasses="trait" icon={["village"]}>
 <Pair single id="nightstalls-navigator">Nightstalls Navigator</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="nightstalls-navigator-benefit">Long exposure to the endless variety of the <Link to="/rule/nightstalls">Nightstalls</Link> grants you a +2 trait bonus on Diplomacy checks to gather information and on Knowledge (local) checks to recall information about criminal activities. One of these (your choice) is always a class skill for you.</Pair>
+<Pair single="benefit" id="nightstalls-navigator-benefit">Long exposure to the endless variety of the <Link to="/rule/nightstalls">Nightstalls</Link> grants you a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to gather information and on <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks to recall information about criminal activities. One of these (your choice) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _noble_savage = {title: "Noble Savage", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -3210,14 +3222,16 @@ const _noble_savage = {title: "Noble Savage", topLink: ["Social Traits","main/tr
 <Pair single id="noble-savage">Noble Savage</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl>Associated with the <Link to="/rule/ulfen_guard">Ulfen Guard</Link></Pair>
-<Pair single="benefit" id="noble-savage-benefit">You hail from the fringes of civilization or the bottommost strata of society, but something in your character makes that seem endearing. You gain a +2 trait bonus on Diplomacy and Perform checks when dealing with people of high social standing.</Pair>
+<Pair single="flavor" id="noble-savage-flavor">You hail from the fringes of civilization or the bottommost strata of society, but something in your character makes that seem endearing.</Pair>
+<Pair single="benefit" id="noble-savage-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/perform">Perform</Link> checks when dealing with people of high social standing.</Pair>
 </Ability>
 </>};
 const _nonchalant_thuggery = {title: "Nonchalant Thuggery", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
 <Ability id="nonchalant-thuggery" extraClasses="trait" icon={["village"]}>
 <Pair single id="nonchalant-thuggery">Nonchalant Thuggery</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="nonchalant-thuggery-benefit">You are adept at keeping witnesses from noticing that anything is wrong. You gain a +4 trait bonus on Bluff checks to keep others from noticing your aggressive actions.</Pair>
+<Pair single="flavor" id="nonchalant-thuggery-flavor">You are adept at keeping witnesses from noticing that anything is wrong.</Pair>
+<Pair single="benefit" id="nonchalant-thuggery-benefit">You gain a +4 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks to keep others from noticing your aggressive actions.</Pair>
 </Ability>
 </>};
 const _numerian_fluid_indulger = {title: "Numerian Fluid Indulger", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link></p>
@@ -3226,112 +3240,129 @@ const _numerian_fluid_indulger = {title: "Numerian Fluid Indulger", topLink: ["S
 <Pair title="Type">Social</Pair>
 <Pair title="Region" hl>Numeria</Pair>
 <Pair title="Requirements" hl>Associated with the court of the Palace of Fallen Stars in Numeria</Pair>
-<Pair single="benefit" id="numerian-fluid-indulger-benefit">You have tasted Numerian fluids many times. Once per day after rolling to determine the side effects of consuming a Numerian fluid, you can roll on the table again, but you must take the second result.</Pair>
+<Pair single="flavor" id="numerian-fluid-indulger-flavor">You have tasted <Link to="/drug/numerian_fluids">Numerian fluids</Link> many times.</Pair>
+<Pair single="benefit" id="numerian-fluid-indulger-benefit">Once per day after rolling to determine the side effects of consuming a Numerian fluid, you can roll on the table again, but you must take the second result.</Pair>
 </Ability>
 </>};
 const _obnoxious = {title: "Obnoxious", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="obnoxious" extraClasses="trait" icon={["village"]}>
 <Pair single id="obnoxious">Obnoxious</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="obnoxious-benefit">You have long since forgotten to care what people think about you - though your interactions are always memorable, at the very least. Choose Perform (act), Perform (comedy), Perform (oratory), or Perform (sing); you gain a +1 trait bonus on checks with the chosen skill and gain it as a class skill.</Pair>
+<Pair single="flavor" id="obnoxious-flavor">You have long since forgotten to care what people think about you - though your interactions are always memorable, at the very least.</Pair>
+<Pair single="benefit" id="obnoxious-benefit">Choose <Link to="/skill/perform">Perform</Link> (act), Perform (comedy), Perform (oratory), or Perform (sing); you gain a +1 trait bonus on checks with the chosen skill and gain it as a class skill.</Pair>
 </Ability>
 </>};
 const _official_ties = {title: "Official Ties", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="official-ties" extraClasses="trait" icon={["village"]}>
 <Pair single id="official-ties">Official Ties</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="official-ties-benefit">You maintain a friendship with one or more figures of authority. You have minor sway with one of these figures if your game uses individual influence. You gain a +2 trait bonus on Diplomacy checks to influence people in positions of authority aware of your contact and who have an attitude of no worse than indifferent toward the government the contact represents. You also take a -2 penalty on Diplomacy checks to influence criminals and agents of opposing governments, if those characters are aware of your association with authorities. If you lose your contact, you lose the benefits of this trait for 1 month, after which you can make a new contact.</Pair>
+<Pair single="flavor" id="official-ties-flavor">You maintain a friendship with one or more figures of authority. You have minor sway with one of these figures if your game uses <Link to="/rule/individual_influence">individual influence</Link>.</Pair>
+<Pair single="benefit" id="official-ties-benefit"><p>You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to influence people in positions of authority aware of your contact and who have an attitude of no worse than indifferent toward the government the contact represents. You also take a -2 penalty on Diplomacy checks to influence criminals and agents of opposing governments, if those characters are aware of your association with authorities.</p>
+<p>If you lose your contact, you lose the benefits of this trait for 1 month, after which you can make a new contact.</p>
+</Pair>
 </Ability>
 </>};
 const _ordinary = {title: "Ordinary", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="ordinary" extraClasses="trait" icon={["village"]}>
 <Pair single id="ordinary">Ordinary</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="ordinary-benefit">The only thing extraordinary about your appearance is its ordinariness. You carry yourself in an understated way, and many people who see your face soon forget it. You gain a +4 trait bonus on Stealth checks whenever you attempt to hide in a crowd.</Pair>
+<Pair single="flavor" id="ordinary-flavor">The only thing extraordinary about your appearance is its ordinariness. You carry yourself in an understated way, and many people who see your face soon forget it.</Pair>
+<Pair single="benefit" id="ordinary-benefit">You gain a +4 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks whenever you attempt to hide in a crowd.</Pair>
 </Ability>
 </>};
 const _orphaned = {title: "Orphaned", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="orphaned" extraClasses="trait" icon={["village"]}>
 <Pair single id="orphaned">Orphaned</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="orphaned-benefit">You grew up separated from your birth parents, and had to learn to watch out for yourself. You gain a +1 trait bonus on Survival checks, and Survival is always a class skill for you.</Pair>
+<Pair single="flavor" id="orphaned-flavor">You grew up separated from your birth parents, and had to learn to watch out for yourself.</Pair>
+<Pair single="benefit" id="orphaned-benefit">You gain a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks, and Survival is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _outsider_enemy = {title: "Outsider Enemy", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 29</Link></p>
 <Ability id="outsider-enemy" extraClasses="trait" icon={["village"]}>
 <Pair single id="outsider-enemy">Outsider Enemy</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="outsider-enemy-benefit">One of your ancestors was a conjurer who specialized in binding outsiders of a particular type. You have inherited some of his skills, but also some of his enemies. Choose a single outsider subtype. The DC of your spells increases by 1 against outsiders of the chosen subtype. Outsiders of the chosen subtype gain a +1 morale bonus on attack and damage rolls made against you, and their starting attitude toward you is reduced by one step.</Pair>
+<Pair single="flavor" id="outsider-enemy-flavor">One of your ancestors was a conjurer who specialized in binding outsiders of a particular type. You have inherited some of his skills, but also some of his enemies. Choose a single outsider subtype.</Pair>
+<Pair single="benefit" id="outsider-enemy-benefit">The DC of your spells increases by 1 against outsiders of the chosen subtype. Outsiders of the chosen subtype gain a +1 morale bonus on attack and damage rolls made against you, and their starting attitude toward you is reduced by one step.</Pair>
 </Ability>
 </>};
 const _pack_savvy = {title: "Pack Savvy", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
 <Ability id="pack-savvy" extraClasses="trait" icon={["village"]}>
 <Pair single id="pack-savvy">Pack Savvy</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="pack-savvy-benefit">You have learned how to gain the respect of gnolls in your region, and you know something of their social structure. You gain a +3 trait bonus on Charisma-based skill checks when dealing with gnolls.</Pair>
+<Pair single="benefit" id="pack-savvy-benefit">You have learned how to gain the respect of gnolls in your region, and you know something of their social structure.`You gain a +3 trait bonus on Charisma-based skill checks when dealing with <Link to="/monster/gnoll">gnolls</Link>.</Pair>
 </Ability>
 </>};
 const _passionate_inertia = {title: "Passionate Inertia", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
 <Ability id="passionate-inertia" extraClasses="trait" icon={["village"]}>
 <Pair single id="passionate-inertia">Passionate Inertia</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="passionate-inertia-benefit">Your passions drive your thinking so irresistibly that even magic struggles to change your mind. You gain a +2 trait bonus on Will saves to resist having your mind changed about something, but you take a -1 penalty on Will saves to resist temptation and compulsions you might reasonably be already inclined toward.</Pair>
+<Pair single="flavor" id="passionate-inertia-flavor">Your passions drive your thinking so irresistibly that even magic struggles to change your mind.</Pair>
+<Pair single="benefit" id="passionate-inertia-benefit">You gain a +2 trait bonus on Will saves to resist having your mind changed about something, but you take a -1 penalty on Will saves to resist temptation and compulsions you might reasonably be already inclined toward.</Pair>
 </Ability>
 </>};
 const _poverty_stricken = {title: "Poverty-Stricken", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="poverty-stricken" extraClasses="trait" icon={["village"]}>
 <Pair single id="poverty-stricken">Poverty-Stricken</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="poverty-stricken-benefit">Your childhood was tough, and your parents always had to make every copper piece count. Hunger was your constant companion, and you often had to live off the land or sleep in the wild. You gain a +1 bonus on Survival checks, and Survival is always a class skill for you.</Pair>
+<Pair single="flavor" id="poverty-stricken-flavor">Your childhood was tough, and your parents always had to make every copper piece count. Hunger was your constant companion, and you often had to live off the land or sleep in the wild.</Pair>
+<Pair single="benefit" id="poverty-stricken-benefit">You gain a +1 bonus on <Link to="/skill/survival">Survival</Link> checks, and Survival is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _practiced_disruptor = {title: "Practiced Disruptor", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
 <Ability id="practiced-disruptor" extraClasses="trait" icon={["village"]}>
 <Pair single id="practiced-disruptor">Practiced Disruptor</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="practiced-disruptor-benefit">You are experienced at facing off against spellcasters. You can attempt Knowledge (arcana) checks untrained; if you have ranks in that skill, you instead gain a +1 trait bonus on those checks. The concentration DC to cast a spell defensively in your threatened area increases by 1.</Pair>
+<Pair single="flavor" id="practiced-disruptor-flavor">You are experienced at facing off against spellcasters.</Pair>
+<Pair single="benefit" id="practiced-disruptor-benefit">You can attempt <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> checks untrained; if you have ranks in that skill, you instead gain a +1 trait bonus on those checks. The concentration DC to <Link to="/rule/cast_defensively">cast a spell defensively</Link> in your threatened area increases by 1.</Pair>
 </Ability>
 </>};
 const _preternatural_awareness = {title: "Preternatural Awareness", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
 <Ability id="preternatural-awareness" extraClasses="trait" icon={["village"]}>
 <Pair single id="preternatural-awareness">Preternatural Awareness</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="preternatural-awareness-benefit">Multiple encounters with fell magic have left you wary. You gain a +2 trait bonus on Perception and Sense Motive checks to notice cursed objects, haunts, and magically disguised creatures.</Pair>
+<Pair single="flavor" id="preternatural-awareness-flavor">Multiple encounters with fell magic have left you wary.</Pair>
+<Pair single="benefit" id="preternatural-awareness-benefit">You gain a +2 trait bonus on <Link to="/skill/perception">Perception</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks to notice cursed objects, haunts, and magically disguised creatures.</Pair>
 </Ability>
 </>};
 const _questing_hellknight = {title: "Questing Hellknight", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight</Link></p>
 <Ability id="questing-hellknight" extraClasses="trait" icon={["village"]}>
 <Pair single id="questing-hellknight">Questing Hellknight</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="questing-hellknight-benefit">You are a quick study when it comes to local laws. Once per day, you can attempt a Knowledge (local) check untrained to recall information about local laws, rulers, and popular locations. Additionally, you gain a +1 trait bonus on Knowledge (local) checks, and Knowledge (local) is a class skill for you.</Pair>
+<Pair single="flavor" id="questing-hellknight-flavor">You are a quick study when it comes to local laws.</Pair>
+<Pair single="benefit" id="questing-hellknight-benefit">Once per day, you can attempt a <Link to="/skill/knowledge_local">Knowledge (local)</Link> check untrained to recall information about local laws, rulers, and popular locations. Additionally, you gain a +1 trait bonus on Knowledge (local) checks, and Knowledge (local) is a class skill for you.</Pair>
 </Ability>
 </>};
 const _reassuring_advice = {title: "Reassuring Advice", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/arcane_anthology">Arcane Anthology</Link></p>
 <Ability id="reassuring-advice" extraClasses="trait" icon={["village"]}>
 <Pair single id="reassuring-advice">Reassuring Advice</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="reassuring-advice-benefit">You've studied the speeches and writings of a leader or thinker who served as a reassuring voice in her community in the turbulent times after Aroden died, painfully learning which portions of Aroden's advice no longer applied and what of his writings could still be usefully applied. Once per day, you can speak Aroden's words of encouragement to grant any human a +1 insight bonus on any attack roll, saving throw, or skill check of his choice within the following hour. The choice to use the insight bonus must be made before the related roll is made.</Pair>
+<Pair single="flavor" id="reassuring-advice-flavor">You've studied the speeches and writings of a leader or thinker who served as a reassuring voice in her community in the turbulent times after Aroden died, painfully learning which portions of Aroden's advice no longer applied and what of his writings could still be usefully applied.</Pair>
+<Pair single="benefit" id="reassuring-advice-benefit">Once per day, you can speak Aroden's words of encouragement to grant any human a +1 insight bonus on any attack roll, saving throw, or skill check of his choice within the following hour. The choice to use the insight bonus must be made before the related roll is made.</Pair>
 </Ability>
 </>};
 const _red_silk_frankness = {title: "Red Silk Frankness", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets</Link></p>
 <Ability id="red-silk-frankness" extraClasses="trait" icon={["village"]}>
 <Pair single id="red-silk-frankness">Red Silk Frankness</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="red-silk-frankness-benefit">You learned from the <Link to="/rule/red_silk_route">Forthright Men</Link>, the Coins' peace-keeping thieves' guild, to use candor to avoid trouble. You gain a +5 trait bonus on Diplomacy checks to convince others to overlook offensive or illegal acts. Diplomacy is always a class skill for you.</Pair>
+<Pair single="flavor" id="red-silk-frankness-flavor">You learned from the <Link to="/rule/red_silk_route">Forthright Men</Link>, the Coins' peace-keeping thieves' guild, to use candor to avoid trouble.</Pair>
+<Pair single="benefit" id="red-silk-frankness-benefit">You gain a +5 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to convince others to overlook offensive or illegal acts. Diplomacy is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _relic_proof = {title: "Relic-Proof", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_society_primer">Pathfinder Society Primer</Link></p>
 <Ability id="relic-proof" extraClasses="trait" icon={["village"]}>
 <Pair single id="relic-proof">Relic-Proof</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="relic-proof-benefit">Your experiments - both your successes and failures - have inured you to the effects of stored magic. You gain a +1 trait bonus on saving throws against effects produced by spell completion and spell trigger items.</Pair>
+<Pair single="flavor" id="relic-proof-flavor">Your experiments - both your successes and failures - have inured you to the effects of stored magic.</Pair>
+<Pair single="benefit" id="relic-proof-benefit">You gain a +1 trait bonus on saving throws against effects produced by <Link to="/misc/spell_completion">spell completion</Link> and <Link to="/misc/spell_trigger">spell trigger</Link> items.</Pair>
 </Ability>
 </>};
 const _rest_for_the_wicked = {title: "Rest for the Wicked", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
 <Ability id="rest-for-the-wicked" extraClasses="trait" icon={["village"]}>
 <Pair single id="rest-for-the-wicked">Rest for the Wicked</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="rest-for-the-wicked-benefit">Often forced to go without food or stimulation for days at a time, you have learned to use prolonged sleep as a means of escape and a way to heal your wounds. You heal temporary ability damage at a rate of 3 points per day of complete <Link to="/rule/bed_rest">bed rest</Link>. A normal night of rest (8 hours) still heals you at a rate of only 1 point of temporary ability damage per night of rest.</Pair>
+<Pair single="flavor" id="rest-for-the-wicked-flavor">Often forced to go without food or stimulation for days at a time, you have learned to use prolonged sleep as a means of escape and a way to heal your wounds.</Pair>
+<Pair single="benefit" id="rest-for-the-wicked-benefit">You heal temporary ability damage at a rate of 3 points per day of complete <Link to="/rule/bed_rest">bed rest</Link>. A normal night of rest (8 hours) still heals you at a rate of only 1 point of temporary ability damage per night of rest.</Pair>
 </Ability>
 </>};
 const _rich_parents = {title: "Rich Parents", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
@@ -3345,14 +3376,15 @@ const _rugged_dragon_hunter = {title: "Rugged Dragon Hunter", topLink: ["Social 
 <Ability id="rugged-dragon-hunter" extraClasses="trait" icon={["village"]}>
 <Pair single id="rugged-dragon-hunter">Rugged Dragon Hunter</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="rugged-dragon-hunter-benefit">You gain a +2 trait bonus on Survival checks to track dragons. If you have the <Link to="/ability/favored_terrain">favored terrain</Link> class ability, add a +1 bonus to check for skills affected by this ability, as long as you're using these skills in regards to a dragon.</Pair>
+<Pair single="benefit" id="rugged-dragon-hunter-benefit">You gain a +2 trait bonus on <Link to="/skill/survival">Survival</Link> checks to track dragons. If you have the <Link to="/ability/favored_terrain">favored terrain</Link> class ability, add a +1 bonus to check for skills affected by this ability, as long as you're using these skills in regards to a dragon.</Pair>
 </Ability>
 </>};
 const _savage = {title: "Savage", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="savage" extraClasses="trait" icon={["village"]}>
 <Pair single id="savage">Savage</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="savage-benefit">You were born and raised in untamed lands far from civilization. You learned to survive in the elements among brutal humanoids and beasts. You gain a +1 trait bonus on Knowledge (nature) checks and a +1 trait bonus on Survival checks to get along in the wild. Knowledge (nature) is always a class skill for you.</Pair>
+<Pair single="flavor" id="savage-flavor">You were born and raised in untamed lands far from civilization. You learned to survive in the elements among brutal humanoids and beasts.</Pair>
+<Pair single="benefit" id="savage-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> checks and a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks to get along in the wild. Knowledge (nature) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _savant = {title: "Savant", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/faction_guide">Faction Guide</Link></p>
@@ -3360,21 +3392,24 @@ const _savant = {title: "Savant", topLink: ["Social Traits","main/traits_social"
 <Pair single id="savant">Savant</Pair>
 <Pair title="Type">Social</Pair>
 <Pair title="Requirements" hl><Link to="/rule/kitharodian_academy">Kitharodian Academy</Link></Pair>
-<Pair single="benefit" id="savant-benefit">From a very young age, the ability to master performance types has come quite naturally to you. Choose a performance type. You gain a +2 trait bonus on all Perform checks made using that performance type. Perform is always a class skill for you.</Pair>
+<Pair single="flavor" id="savant-flavor">From a very young age, the ability to master performance types has come quite naturally to you.</Pair>
+<Pair single="benefit" id="savant-benefit">Choose a performance type. You gain a +2 trait bonus on all <Link to="/skill/perform">Perform</Link> checks made using that performance type. Perform is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _seafaring_reputation = {title: "Seafaring Reputation", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
 <Ability id="seafaring-reputation" extraClasses="trait" icon={["village"]}>
 <Pair single id="seafaring-reputation">Seafaring Reputation</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="seafaring-reputation-benefit">The Wave Riders' fame helps you convince seafarers to cooperate. You gain a +1 trait bonus on Diplomacy and Intimidate checks against sailors and residents of Absalom.</Pair>
+<Pair single="flavor" id="seafaring-reputation-flavor">The Wave Riders' fame helps you convince seafarers to cooperate.</Pair>
+<Pair single="benefit" id="seafaring-reputation-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks against sailors and residents of Absalom.</Pair>
 </Ability>
 </>};
 const _secret_keeper_qac = {title: "Secret-Keeper (QaC)", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="secret-keeper-qac" extraClasses="trait" icon={["village"]}>
 <Pair single id="secret-keeper-qac">Secret-Keeper (QaC)</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="secret-keeper-qac-benefit"><p>Growing up in a land where paranoia fills the air and any accusation of heresy or dissent can spell doom for whole families, you learned very quickly to keep a secret. You gain a +1 trait bonus on Bluff checks and a +1 trait bonus on saving throws against divinations, domination effects, and effects that would compel you to speak the truth.</p>
+<Pair single="flavor" id="secret-keeper-qac-flavor">Growing up in a land where paranoia fills the air and any accusation of heresy or dissent can spell doom for whole families, you learned very quickly to keep a secret.</Pair>
+<Pair single="benefit" id="secret-keeper-qac-benefit"><p>You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks and a +1 trait bonus on saving throws against divinations, domination effects, and effects that would compel you to speak the truth.</p>
 <p><strong>Suggested Characters:</strong> Chelaxians, Galtans, Nidalese.</p>
 </Pair>
 </Ability>
@@ -3383,42 +3418,48 @@ const _seeker = {title: "Seeker", topLink: ["Social Traits","main/traits_social"
 <Ability id="seeker" extraClasses="trait" icon={["village"]}>
 <Pair single id="seeker">Seeker</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="seeker-benefit">You are always on the lookout for reward and danger. You gain a +1 trait bonus on Perception checks, and Perception is always a class skill for you.</Pair>
+<Pair single="flavor" id="seeker-flavor">You are always on the lookout for reward and danger.</Pair>
+<Pair single="benefit" id="seeker-benefit">You gain a +1 trait bonus on <Link to="/skill/perception">Perception</Link> checks, and Perception is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _self_reliant = {title: "Self-Reliant", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
 <Ability id="self-reliant" extraClasses="trait" icon={["village"]}>
 <Pair single id="self-reliant">Self-Reliant</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="self-reliant-benefit">You know how to work with your hands and aren't dependent on complex tools. When attempting Craft checks, you take no penalty when using improvised tools. At the GM's discretion, you can attempt certain Craft checks even when no tools are available, though you take a -2 penalty.</Pair>
+<Pair single="flavor" id="self-reliant-flavor">You know how to work with your hands and aren't dependent on complex tools.</Pair>
+<Pair single="benefit" id="self-reliant-benefit">When attempting <Link to="/skill/craft">Craft</Link> checks, you take no penalty when using improvised tools. At the GM's discretion, you can attempt certain Craft checks even when no tools are available, though you take a -2 penalty.</Pair>
 </Ability>
 </>};
 const _signature_moves = {title: "Signature Moves", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
 <Ability id="signature-moves" extraClasses="trait" icon={["village"]}>
 <Pair single id="signature-moves">Signature Moves</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="signature-moves-benefit">You're known for some unique item that has become your trademark. Your starting equipment includes a single masterwork item worth less than 900 gp, and you gain a +1 trait bonus on Bluff and Intimidate checks while wielding this item in one or both hands.</Pair>
+<Pair single="flavor" id="signature-moves-flavor">You're known for some unique item that has become your trademark.</Pair>
+<Pair single="benefit" id="signature-moves-benefit">Your starting equipment includes a single masterwork item worth less than 900 gp, and you gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks while wielding this item in one or both hands.</Pair>
 </Ability>
 </>};
 const _simple_disciple = {title: "Simple Disciple", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="simple-disciple" extraClasses="trait" icon={["village"]}>
 <Pair single id="simple-disciple">Simple Disciple</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="simple-disciple-benefit">You picked up skill in a craft or a profession during your time at a monastery. You gain a +1 trait bonus on checks with a Profession or Craft skill of your choice.</Pair>
+<Pair single="flavor" id="simple-disciple-flavor">You picked up skill in a craft or a profession during your time at a monastery.</Pair>
+<Pair single="benefit" id="simple-disciple-benefit">You gain a +1 trait bonus on checks with a <Link to="/skill/profession">Profession</Link> or <Link to="/skill/craft">Craft</Link> skill of your choice.</Pair>
 </Ability>
 </>};
 const _slave_runner = {title: "Slave Runner", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="slave-runner" extraClasses="trait" icon={["village"]}>
 <Pair single id="slave-runner">Slave Runner</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="slave-runner-benefit">You witnessed or were party to the rescue of a halfling from Chelish slavery by the <Link to="/rule/bellflower_network">Bellflower Network</Link> or <Link to="/rule/eagle_knights">Eagle Knights</Link>. Once per day when attempting to directly free a slave, you gain a +2 trait bonus on your choice of an Acrobatics check, an Escape Artist check, a Stealth check, or a skill check attempted as part of a heist or pursuit</Pair>
+<Pair single="flavor" id="slave-runner-flavor">You witnessed or were party to the rescue of a halfling from Chelish slavery by the <Link to="/rule/bellflower_network">Bellflower Network</Link> or <Link to="/rule/eagle_knights">Eagle Knights</Link>.</Pair>
+<Pair single="benefit" id="slave-runner-benefit">Once per day when attempting to directly free a slave, you gain a +2 trait bonus on your choice of an <Link to="/skill/acrobatics">Acrobatics</Link> check, an <Link to="/skill/escape_artist">Escape Artist</Link> check, a <Link to="/skill/stealth">Stealth</Link> check, or a skill check attempted as part of a <Link to="/rule/heists">heist</Link> or <Link to="/rule/pursuit">pursuit</Link></Pair>
 </Ability>
 </>};
 const _snowbound = {title: "Snowbound", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="snowbound" extraClasses="trait" icon={["village"]}>
 <Pair single id="snowbound">Snowbound</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="snowbound-benefit"><p>You came of age in a place with harsh winters amid a culture that rewarded you for testing your limits in the cold. You gain a +1 trait bonus on saving throws against cold effects and a +2 trait bonus on Fortitude saves against the effects of cold weather.</p>
+<Pair single="flavor" id="snowbound-flavor">You came of age in a place with harsh winters amid a culture that rewarded you for testing your limits in the cold.</Pair>
+<Pair single="benefit" id="snowbound-benefit"><p>You gain a +1 trait bonus on saving throws against cold effects and a +2 trait bonus on Fortitude saves against the effects of cold weather.</p>
 <p><strong>Suggested Characters:</strong> Irriseni, Kellids, Ulfen.</p>
 </Pair>
 </Ability>
@@ -3427,28 +3468,34 @@ const _student_of_philosophy = {title: "Student of Philosophy", topLink: ["Socia
 <Ability id="student-of-philosophy" extraClasses="trait" icon={["village"]}>
 <Pair single id="student-of-philosophy">Student of Philosophy</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="student-of-philosophy-benefit">You were trained in a now-defunct philosophical tradition - such as that of the now-destroyed Galtan universities or Lirgeni astrologers - and learned to use logic and reason to persuade others. You can use your Intelligence modifier in place of your Charisma modifier on Diplomacy checks to persuade others and on Bluff checks to convince others that a lie is true. (This trait does not affect Diplomacy checks to gather information or Bluff checks to feint in combat.) Suggested Characters: Arodenites, Galtans, Sodden Lands natives.</Pair>
+<Pair single="flavor" id="student-of-philosophy-flavor">You were trained in a now-defunct philosophical tradition - such as that of the now-destroyed Galtan universities or Lirgeni astrologers - and learned to use logic and reason to persuade others.</Pair>
+<Pair single="benefit" id="student-of-philosophy-benefit">You can use your Intelligence modifier in place of your Charisma modifier on <Link to="/skill/diplomacy">Diplomacy</Link> checks to persuade others and on <Link to="/skill/bluff">Bluff</Link> checks to convince others that a lie is true. (This trait does not affect Diplomacy checks to gather information or Bluff checks to feint in combat.) Suggested Characters: Arodenites, Galtans, Sodden Lands natives.</Pair>
 </Ability>
 </>};
 const _style_sage = {title: "Style Sage", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="style-sage" extraClasses="trait" icon={["village"]}>
 <Pair single id="style-sage">Style Sage</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="style-sage-benefit">You have a passion for history and news concerning monastic disciplines. You gain a +1 trait bonus on checks with your choice of either Knowledge (local) or Knowledge (history), and the one you choose is always a class skill for you. In addition, you gain a +1 trait bonus on Diplomacy checks made to gather information about any person with levels in monk.</Pair>
+<Pair single="flavor" id="style-sage-flavor">You have a passion for history and news concerning monastic disciplines.</Pair>
+<Pair single="benefit" id="style-sage-benefit"><p>You gain a +1 trait bonus on checks with your choice of either <Link to="/skill/knowledge_local">Knowledge (local)</Link> or <Link to="/skill/knowledge_history">Knowledge (history)</Link>, and the one you choose is always a class skill for you.</p>
+<p>In addition, you gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks made to gather information about any person with levels in monk.</p>
+</Pair>
 </Ability>
 </>};
 const _subjective_truth = {title: "Subjective Truth", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
 <Ability id="subjective-truth" extraClasses="trait" icon={["village"]}>
 <Pair single id="subjective-truth">Subjective Truth</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="subjective-truth-benefit">You are able to divorce your knowledge of the facts from your beliefs about the truth, and thus from your facial expressions and body language. You gain a +2 trait bonus on Bluff checks to lie, provided the person you're lying to has never known you to lie to him. Failing this check counts as being caught in a lie by the target, negating any future use of this bonus against that person.</Pair>
+<Pair single="flavor" id="subjective-truth-flavor">You are able to divorce your knowledge of the facts from your beliefs about the truth, and thus from your facial expressions and body language.</Pair>
+<Pair single="benefit" id="subjective-truth-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks to lie, provided the person you're lying to has never known you to lie to him. Failing this check counts as being caught in a lie by the target, negating any future use of this bonus against that person.</Pair>
 </Ability>
 </>};
 const _supportive = {title: "Supportive", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="supportive" extraClasses="trait" icon={["village"]}>
 <Pair single id="supportive">Supportive</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="supportive-benefit"><p>You were forced to get by in an isolated enclave, whether surrounded by a community that feared and suspected you or in a remote locale far from other people, and you became practiced at assisting your friends. You gain a +1 trait bonus on skill checks to use the aid another action.</p>
+<Pair single="flavor" id="supportive-flavor">You were forced to get by in an isolated enclave, whether surrounded by a community that feared and suspected you or in a remote locale far from other people, and you became practiced at assisting your friends.</Pair>
+<Pair single="benefit" id="supportive-benefit"><p>You gain a +1 trait bonus on skill checks to use the <Link to="/rule/aid_another">aid another</Link> action.</p>
 <p><strong>Suggested Characters:</strong> Halflings, Mwangi, Tians.</p>
 </Pair>
 </Ability>
@@ -3457,35 +3504,40 @@ const _suspicious = {title: "Suspicious", topLink: ["Social Traits","main/traits
 <Ability id="suspicious" extraClasses="trait" icon={["village"]}>
 <Pair single id="suspicious">Suspicious</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="suspicious-benefit">You discovered at an early age that someone you trusted, perhaps an older sibling or a parent, had lied to you, and lied often, about something you had taken for granted, leaving you quick to question the claims of others. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you.</Pair>
+<Pair single="flavor" id="suspicious-flavor">You discovered at an early age that someone you trusted, perhaps an older sibling or a parent, had lied to you, and lied often, about something you had taken for granted, leaving you quick to question the claims of others.</Pair>
+<Pair single="benefit" id="suspicious-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks, and Sense Motive is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _talented = {title: "Talented", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="talented" extraClasses="trait" icon={["village"]}>
 <Pair single id="talented">Talented</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="talented-benefit">You are a virtuoso musician, actor, or storyteller. You gain a +1 trait bonus on checks with a single Perform skill (your choice), and all Perform skills are always class skills for you.</Pair>
+<Pair single="flavor" id="talented-flavor">You are a virtuoso musician, actor, or storyteller.</Pair>
+<Pair single="benefit" id="talented-benefit">You gain a +1 trait bonus on checks with a single <Link to="/skill/perform">Perform</Link> skill (your choice), and all Perform skills are always class skills for you.</Pair>
 </Ability>
 </>};
 const _tireless_logic = {title: "Tireless Logic", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="tireless-logic" extraClasses="trait" icon={["village"]}>
 <Pair single id="tireless-logic">Tireless Logic</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="tireless-logic-benefit">Your curious mind figures out even the most complex problems. Once per day when you make an Intelligence-based skill check or ability check, you can roll twice and take the better result.</Pair>
+<Pair single="flavor" id="tireless-logic-flavor">Your curious mind figures out even the most complex problems.</Pair>
+<Pair single="benefit" id="tireless-logic-benefit">Once per day when you make an Intelligence-based skill check or ability check, you can roll twice and take the better result.</Pair>
 </Ability>
 </>};
 const _triaxus_trained = {title: "Triaxus-Trained", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
 <Ability id="triaxus-trained" extraClasses="trait" icon={["village"]}>
 <Pair single id="triaxus-trained">Triaxus-Trained</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="triaxus-trained-benefit">You have been trained in intricate dragon-handling techniques that originated on Triaxus. You gain a +1 trait bonus on Perception checks, and a +1 trait bonus on skill checks attempted as part of trying to influence a dragon.</Pair>
+<Pair single="flavor" id="triaxus-trained-flavor">You have been trained in intricate dragon-handling techniques that originated on Triaxus.</Pair>
+<Pair single="benefit" id="triaxus-trained-benefit">You gain a +1 trait bonus on <Link to="/skill/perception">Perception</Link> checks, and a +1 trait bonus on skill checks attempted as part of trying to influence a dragon.</Pair>
 </Ability>
 </>};
 const _tropical_upbringing = {title: "Tropical Upbringing", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="tropical-upbringing" extraClasses="trait" icon={["village"]}>
 <Pair single id="tropical-upbringing">Tropical Upbringing</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="tropical-upbringing-benefit"><p>You were raised in searing-hot deserts, plains, jungles, or other areas, and developed an impressive resistance to heat. You gain a +1 trait bonus on saving throws against fire effects and a +2 trait bonus on Fortitude saves against the effects of hot weather.</p>
+<Pair single="flavor" id="tropical-upbringing-flavor">You were raised in searing-hot deserts, plains, jungles, or other areas, and developed an impressive resistance to heat.</Pair>
+<Pair single="benefit" id="tropical-upbringing-benefit"><p>You gain a +1 trait bonus on saving throws against fire effects and a +2 trait bonus on Fortitude saves against the effects of hot weather.</p>
 <p><strong>Suggested Characters:</strong> Garundi, Keleshites, Mwangi.</p>
 </Pair>
 </Ability>
@@ -3494,21 +3546,26 @@ const _trustworthy = {title: "Trustworthy", topLink: ["Social Traits","main/trai
 <Ability id="trustworthy" extraClasses="trait" icon={["village"]}>
 <Pair single id="trustworthy">Trustworthy</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="trustworthy-benefit">People find it easy to put their faith in you. You gain a +1 trait bonus on Bluff checks made to fool someone. You also gain a +1 trait bonus on Diplomacy checks, and Diplomacy is always a class skill for you.</Pair>
+<Pair single="flavor" id="trustworthy-flavor">People find it easy to put their faith in you.</Pair>
+<Pair single="benefit" id="trustworthy-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks made to fool someone. You also gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks, and Diplomacy is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _truths_agent = {title: "Truth's Agent", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="truths-agent" extraClasses="trait" icon={["village"]}>
 <Pair single id="truths-agent">Truth's Agent</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="truths-agent-benefit">You are skilled at weeding out information. You gain a +1 trait bonus on all Diplomacy checks made to gather information and all Knowledge (local) checks. Knowledge (local) is always a class skill for you.</Pair>
+<Pair single="flavor" id="truths-agent-flavor">You are skilled at weeding out information.</Pair>
+<Pair single="benefit" id="truths-agent-benefit">You gain a +1 trait bonus on all <Link to="/skill/diplomacy">Diplomacy</Link> checks made to gather information and all <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks. Knowledge (local) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _unabashed_gall = {title: "Unabashed Gall", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance</Link></p>
 <Ability id="unabashed-gall" extraClasses="trait" icon={["village"]}>
 <Pair single id="unabashed-gall">Unabashed Gall</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="unabashed-gall-benefit">Your total indifference to the law even as you're breaking it is such that those watching you are stunned. Whenever you commit an unexpected and outrageously unlawful act (such as knowingly destroying or stealing something) that would elicit a hostile response from another creature, you may attempt a Bluff check opposed by the opponent's Sense Motive check. If you're successful, you and any allies who were willfully expecting your unlawful deed may act in a surprise round. For each ally willfully expecting your unlawful deed, you take a cumulative -2 penalty on your Bluff check. If your Bluff check fails, there is no surprise round. Regardless of whether your Bluff check succeeds, you and any allies willfully taking advantage of your unlawful deed treat your initiative checks for the duration of combat as though you had each rolled a 1.</Pair>
+<Pair single="flavor" id="unabashed-gall-flavor">Your total indifference to the law even as you're breaking it is such that those watching you are stunned.</Pair>
+<Pair single="benefit" id="unabashed-gall-benefit"><p>Whenever you commit an unexpected and outrageously unlawful act (such as knowingly destroying or stealing something) that would elicit a hostile response from another creature, you may attempt a <Link to="/skill/bluff">Bluff</Link> check opposed by the opponent's <Link to="/skill/sense_motive">Sense Motive</Link> check. If you're successful, you and any allies who were willfully expecting your unlawful deed may act in a surprise round.</p>
+<p>For each ally willfully expecting your unlawful deed, you take a cumulative -2 penalty on your Bluff check. If your Bluff check fails, there is no surprise round. Regardless of whether your Bluff check succeeds, you and any allies willfully taking advantage of your unlawful deed treat your initiative checks for the duration of combat as though you had each rolled a 1.</p>
+</Pair>
 </Ability>
 </>};
 const _unbalanced_insight = {title: "Unbalanced Insight", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
@@ -3522,70 +3579,79 @@ const _unintentional_linguist = {title: "Unintentional Linguist", topLink: ["Soc
 <Ability id="unintentional-linguist" extraClasses="trait" icon={["village"]}>
 <Pair single id="unintentional-linguist">Unintentional Linguist</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="unintentional-linguist-benefit">You can speak with outsiders. You gain a +1 trait bonus on all Linguistics checks, and you begin play knowing one of the following languages (in addition to those granted by your race and Intelligence modifier): Abyssal, Aquan, Celestial, Ignan, Infernal, Protean, or Terran.</Pair>
+<Pair single="flavor" id="unintentional-linguist-flavor">You can speak with outsiders.</Pair>
+<Pair single="benefit" id="unintentional-linguist-benefit">You gain a +1 trait bonus on all <Link to="/skill/linguistics">Linguistics</Link> checks, and you begin play knowing one of the following languages (in addition to those granted by your race and Intelligence modifier): Abyssal, Aquan, Celestial, Ignan, Infernal, Protean, or Terran.</Pair>
 </Ability>
 </>};
 const _unnatural_revenge = {title: "Unnatural Revenge", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="unnatural-revenge" extraClasses="trait" icon={["village"]}>
 <Pair single id="unnatural-revenge">Unnatural Revenge</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="unnatural-revenge-benefit">You gain a +2 trait bonus on all Intimidate checks against creatures of the animal, fey, or plant type, and Intimidate is always a class skill for you.</Pair>
+<Pair single="benefit" id="unnatural-revenge-benefit">You gain a +2 trait bonus on all <Link to="/skill/intimidate">Intimidate</Link> checks against creatures of the animal, fey, or plant type, and Intimidate is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _unpredictable = {title: "Unpredictable", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="unpredictable" extraClasses="trait" icon={["village"]}>
 <Pair single id="unpredictable">Unpredictable</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="unpredictable-benefit">Your actions often seem random and chaotic to others, but there is a method to your madness. You gain a +1 trait bonus on Bluff checks, and Bluff is always a class skill for you.</Pair>
+<Pair single="flavor" id="unpredictable-flavor">Your actions often seem random and chaotic to others, but there is a method to your madness.</Pair>
+<Pair single="benefit" id="unpredictable-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks, and Bluff is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _untapped_potential = {title: "Untapped Potential", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
 <Ability id="untapped-potential" extraClasses="trait" icon={["village"]}>
 <Pair single id="untapped-potential">Untapped Potential</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="untapped-potential-benefit">You've been part of one of Mengkare's minor experiments. Once per day, you can cast <Link to="/spell/detect_psychic_significance">detect psychic significance</Link> or <Link to="/spell/telekinetic_projectile">telekinetic projectile</Link> as a spell-like ability, with a caster level equal to your character level.</Pair>
+<Pair single="flavor" id="untapped-potential-flavor">You've been part of one of Mengkare's minor experiments.</Pair>
+<Pair single="benefit" id="untapped-potential-benefit">Once per day, you can cast <Link to="/spell/detect_psychic_significance">detect psychic significance</Link> or <Link to="/spell/telekinetic_projectile">telekinetic projectile</Link> as a spell-like ability, with a caster level equal to your character level.</Pair>
 </Ability>
 </>};
 const _unwelcome_business = {title: "Unwelcome Business", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest</Link></p>
 <Ability id="unwelcome-business" extraClasses="trait" icon={["village"]}>
 <Pair single id="unwelcome-business">Unwelcome Business</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="unwelcome-business-benefit">You specialize in delivering or procuring shipments where those commodities are not allowed or where your identity would elicit negative bias. You gain a +1 trait bonus on Disguise or Sleight of Hand checks, and that skill becomes a class skill for you. In addition, choose one humanoid species; you ignore the -2 penalty on Disguise checks to disguise yourself as a member of that species.</Pair>
+<Pair single="flavor" id="unwelcome-business-flavor">You specialize in delivering or procuring shipments where those commodities are not allowed or where your identity would elicit negative bias.</Pair>
+<Pair single="benefit" id="unwelcome-business-benefit">You gain a +1 trait bonus on <Link to="/skill/disguise">Disguise</Link> or <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks, and that skill becomes a class skill for you. In addition, choose one humanoid species; you ignore the -2 penalty on Disguise checks to disguise yourself as a member of that species.</Pair>
 </Ability>
 </>};
 const _veiled_disciple = {title: "Veiled Disciple", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="veiled-disciple" extraClasses="trait" icon={["village"]}>
 <Pair single id="veiled-disciple">Veiled Disciple</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="veiled-disciple-benefit">Trained in espionage, you're skilled at passing messages and staying on task. You gain a +1 trait bonus on Bluff checks made to pass secret messages and a +1 trait bonus on saving throws against charm and compulsion effects.</Pair>
+<Pair single="flavor" id="veiled-disciple-flavor">Trained in espionage, you're skilled at passing messages and staying on task.</Pair>
+<Pair single="benefit" id="veiled-disciple-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks made to pass secret messages and a +1 trait bonus on saving throws against charm and compulsion effects.</Pair>
 </Ability>
 </>};
 const _vengeful_social = {title: "Vengeful (Social)", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="vengeful-social" extraClasses="trait" icon={["village"]}>
 <Pair single id="vengeful-social">Vengeful (Social)</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="vengeful-social-benefit">You were brutally betrayed, and you have dedicated yourself to pursuing revenge. Choose a humanoid subtype that is not your own from the following list: dwarf, elf, gnome, halfling, or human. You gain a +2 trait bonus on Intimidate checks against creatures with that subtype.</Pair>
+<Pair single="flavor" id="vengeful-social-flavor">You were brutally betrayed, and you have dedicated yourself to pursuing revenge.</Pair>
+<Pair single="benefit" id="vengeful-social-benefit">Choose a humanoid subtype that is not your own from the following list: dwarf, elf, gnome, halfling, or human. You gain a +2 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks against creatures with that subtype.</Pair>
 </Ability>
 </>};
 const _vigilant_spycatcher = {title: "Vigilant Spycatcher", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
 <Ability id="vigilant-spycatcher" extraClasses="trait" icon={["village"]}>
 <Pair single id="vigilant-spycatcher">Vigilant Spycatcher</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="vigilant-spycatcher-benefit">Paranoid parents or a military trainer taught you to keep vigilant for spies. If you roll less than 10 on Perception checks to see through disguises, determine your result as if you had rolled 10.</Pair>
+<Pair single="flavor" id="vigilant-spycatcher-flavor">Paranoid parents or a military trainer taught you to keep vigilant for spies.</Pair>
+<Pair single="benefit" id="vigilant-spycatcher-benefit">If you roll less than 10 on <Link to="/skill/perception">Perception</Link> checks to see through disguises, determine your result as if you had rolled 10.</Pair>
 </Ability>
 </>};
 const _voices_in_your_head = {title: "Voices in your Head", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
 <Ability id="voices-in-your-head" extraClasses="trait" icon={["village"]}>
 <Pair single id="voices-in-your-head">Voices in your Head</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="voices-in-your-head-benefit">Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness. Once per day as an immediate action, you can issue a command to a confused creature within 30 feet. This allows the creature to immediately reroll on the <Link to="/misc/confused">confused condition table</Link>, and you can pick which of the two actions - the action of its initial roll or that of the reroll - the creature takes. Confused creatures do not need to understand you for this trait to take effect.</Pair>
+<Pair single="flavor" id="voices-in-your-head-flavor">Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness.</Pair>
+<Pair single="benefit" id="voices-in-your-head-benefit">Once per day as an <strong className="hl">immediate action</strong>, you can issue a command to a <Link to="/misc/confused">confused</Link> creature within 30 feet. This allows the creature to immediately reroll on the <Link to="/misc/confused">confused condition table</Link>, and you can pick which of the two actions - the action of its initial roll or that of the reroll - the creature takes. Confused creatures do not need to understand you for this trait to take effect.</Pair>
 </Ability>
 </>};
 const _wanderlust = {title: "Wanderlust", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="wanderlust" extraClasses="trait" icon={["village"]}>
 <Pair single id="wanderlust">Wanderlust</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="wanderlust-benefit"><p>Your childhood was brightened by the new places you constantly saw as you traveled with your parents, who were merchants. Still excited by travel, you gain great energy when traveling overland. Treat your base land speed as 10 feet higher when determining your overland speed.</p>
+<Pair single="flavor" id="wanderlust-flavor">Your childhood was brightened by the new places you constantly saw as you traveled with your parents, who were merchants. Still excited by travel, you gain great energy when traveling overland.</Pair>
+<Pair single="benefit" id="wanderlust-benefit"><p>Treat your base land speed as 10 feet higher when determining your overland speed.</p>
 <p><strong>Suggested Characters:</strong> Desnans, halflings, Varisians.</p>
 </Pair>
 </Ability>
@@ -3594,14 +3660,16 @@ const _wasteland_vargrant = {title: "Wasteland Vargrant", topLink: ["Social Trai
 <Ability id="wasteland-vargrant" extraClasses="trait" icon={["village"]}>
 <Pair single id="wasteland-vargrant">Wasteland Vargrant</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="wasteland-vargrant-benefit">You have spent most of your life learning how to survive in wastelands, and a lack of normal survival resources apparent in the environment is not a problem for you. When you gain this trait, pick one type of wasteland from the following list: blighted, Abyssal, desert, or waterlogged. You gain a +2 trait bonus on Survival checks in that type of wasteland terrain. (The GM determines whether terrain falls into the chosen type of wasteland.) Once you choose a type of wasteland terrain to gain this benefit in, you cannot change it later.</Pair>
+<Pair single="flavor" id="wasteland-vargrant-flavor">You have spent most of your life learning how to survive in wastelands, and a lack of normal survival resources apparent in the environment is not a problem for you.</Pair>
+<Pair single="benefit" id="wasteland-vargrant-benefit">When you gain this trait, pick one type of wasteland from the following list: blighted, Abyssal, desert, or waterlogged. You gain a +2 trait bonus on <Link to="/skill/survival">Survival</Link> checks in that type of wasteland terrain. (The GM determines whether terrain falls into the chosen type of wasteland.) Once you choose a type of wasteland terrain to gain this benefit in, you cannot change it later.</Pair>
 </Ability>
 </>};
 const _weathered_emissary = {title: "Weathered Emissary", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="weathered-emissary" extraClasses="trait" icon={["village"]}>
 <Pair single id="weathered-emissary">Weathered Emissary</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="weathered-emissary-benefit">Your travels in the wildlands gave you insight into how to survive their dangers and communicate with their inhabitants. You gain a +1 trait bonus on all Linguistics and Survival checks, and Linguistics is always a class skill for you.</Pair>
+<Pair single="flavor" id="weathered-emissary-flavor">Your travels in the wildlands gave you insight into how to survive their dangers and communicate with their inhabitants.</Pair>
+<Pair single="benefit" id="weathered-emissary-benefit">You gain a +1 trait bonus on all <Link to="/skill/linguistics">Linguistics</Link> and <Link to="/skill/survival">Survival</Link> checks, and Linguistics is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _wicked_leader = {title: "Wicked Leader", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
@@ -3615,14 +3683,16 @@ const _wiscrani_ear = {title: "Wiscrani Ear", topLink: ["Social Traits","main/tr
 <Ability id="wiscrani-ear" extraClasses="trait" icon={["village"]}>
 <Pair single id="wiscrani-ear">Wiscrani Ear</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="wiscrani-ear-benefit">You have a keen ear for the movements of thieves and monsters. You can always take 10 on Perception checks, even when stress and distractions would normally prevent you from doing so.</Pair>
+<Pair single="flavor" id="wiscrani-ear-flavor">You have a keen ear for the movements of thieves and monsters.</Pair>
+<Pair single="benefit" id="wiscrani-ear-benefit">You can always take 10 on <Link to="/skill/perception">Perception</Link> checks, even when stress and distractions would normally prevent you from doing so.</Pair>
 </Ability>
 </>};
 const _worldly = {title: "Worldly", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="worldly" extraClasses="trait" icon={["village"]}>
 <Pair single id="worldly">Worldly</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="worldly-benefit">You have acquired an unusual breadth of life experience - more than others of your age, race, or culture. Once per day when attempting a skill check for a skill you're untrained in, you can roll twice and take the better result.</Pair>
+<Pair single="flavor" id="worldly-flavor">You have acquired an unusual breadth of life experience - more than others of your age, race, or culture.</Pair>
+<Pair single="benefit" id="worldly-benefit">Once per day when attempting a skill check for a skill you're untrained in, you can roll twice and take the better result.</Pair>
 </Ability>
 </>};
 export default {not_found:_not_found,absalom_bouncer:_absalom_bouncer,absolute_loyalty:_absolute_loyalty,accelerated_drinker:_accelerated_drinker,aldori_caution:_aldori_caution,ambush_training:_ambush_training,anatomist:_anatomist,armed_grit:_armed_grit,armor_expert:_armor_expert,armored_rider:_armored_rider,armored_soul:_armored_soul,arodenite_sword_training:_arodenite_sword_training,axe_to_grind:_axe_to_grind,back_for_more:_back_for_more,battlefield_disciple:_battlefield_disciple,berserker_of_the_society:_berserker_of_the_society,black_powder_bravado:_black_powder_bravado,black_powder_fortune:_black_powder_fortune,black_powder_interjection:_black_powder_interjection,blackjacket_weapon_flair:_blackjacket_weapon_flair,blade_of_the_society:_blade_of_the_society,blights_bane:_blights_bane,bloodthirsty:_bloodthirsty,bloody_minded:_bloody_minded,born_under_the_cradle:_born_under_the_cradle,born_under_the_dreamer:_born_under_the_dreamer,born_under_the_stranger:_born_under_the_stranger,broken_not_beaten:_broken_not_beaten,bullied:_bullied,careful_combatant:_careful_combatant,clockwork_engineer:_clockwork_engineer,coherent_rage:_coherent_rage,cold_and_calculating:_cold_and_calculating,courageous:_courageous,crimson_carapace:_crimson_carapace,crowd_dodger:_crowd_dodger,dedicated_defender:_dedicated_defender,defender_of_the_society:_defender_of_the_society,deft_dodger:_deft_dodger,demon_slayer:_demon_slayer,demon_smiter:_demon_smiter,devil_fighter:_devil_fighter,dirty_fighter_apg:_dirty_fighter_apg,dirty_trickster:_dirty_trickster,disillusioned:_disillusioned,dispelled_battler:_dispelled_battler,dormant_defense:_dormant_defense,dragon_armor:_dragon_armor,dueling_cloak_adept:_dueling_cloak_adept,easy_way_or_the_hard_way:_easy_way_or_the_hard_way,elemental_apprentice:_elemental_apprentice,evasive_sting:_evasive_sting,excitable:_excitable,failed_aspirant:_failed_aspirant,faiths_hunter:_faiths_hunter,fencer:_fencer,firebug_qac:_firebug_qac,fugitive:_fugitive,guerrilla_tactics:_guerrilla_tactics,hard_to_kill:_hard_to_kill,hellknight_devotion:_hellknight_devotion,hellknight_initiate:_hellknight_initiate,helpful_cop:_helpful_cop,hidden_hand:_hidden_hand,hill_fighter:_hill_fighter,holdout:_holdout,honored_fist_of_the_society:_honored_fist_of_the_society,hunters_knack:_hunters_knack,ichimeiyo_champion:_ichimeiyo_champion,improvised_defense:_improvised_defense,indelible_ire:_indelible_ire,inspiring:_inspiring,inspiring_rush:_inspiring_rush,jacket_training:_jacket_training,jungle_fighter:_jungle_fighter,just_like_new:_just_like_new,killer:_killer,kin_guardian:_kin_guardian,larger_than_life:_larger_than_life,lastwall_defender:_lastwall_defender,martial_performer:_martial_performer,merciful_scimitar:_merciful_scimitar,monk_weapon_skill:_monk_weapon_skill,monster_challenger:_monster_challenger,monster_survivor:_monster_survivor,muscle_of_the_society:_muscle_of_the_society,natural_flyer:_natural_flyer,natures_mimic:_natures_mimic,never_stop_shooting:_never_stop_shooting,no_escape:_no_escape,obari_veteran:_obari_veteran,ogre_avoidance:_ogre_avoidance,ozem_inspired:_ozem_inspired,performers_surprise:_performers_surprise,permanent_scars:_permanent_scars,pillager:_pillager,promising:_promising,punish_insurrection:_punish_insurrection,reactionary:_reactionary,reckless:_reckless,reckless_contempt:_reckless_contempt,red_mantis_bleeding:_red_mantis_bleeding,resilient:_resilient,resolve_of_the_rejected:_resolve_of_the_rejected,riders_bond:_riders_bond,river_fighter:_river_fighter,roving_range:_roving_range,savanna_hunter:_savanna_hunter,scarred_by_space_pirates:_scarred_by_space_pirates,scarred_descendant:_scarred_descendant,shadow_trained:_shadow_trained,siege_defender:_siege_defender,slippery:_slippery,soaring_sprinter:_soaring_sprinter,solitary:_solitary,spirit_of_the_law:_spirit_of_the_law,splash_attack:_splash_attack,sprint:_sprint,startling_report:_startling_report,steel_skin:_steel_skin,strong_arm_supple_wrist:_strong_arm_supple_wrist,subjective_equilibrium:_subjective_equilibrium,surprise_weapon:_surprise_weapon,sworn_enemy:_sworn_enemy,tactician:_tactician,tar_taargadth_trained:_tar_taargadth_trained,tarnished_halls_runner:_tarnished_halls_runner,threatening_defender:_threatening_defender,thunder_and_fang_performer:_thunder_and_fang_performer,to_the_last:_to_the_last,tracker_of_the_society:_tracker_of_the_society,unblemished_barrel:_unblemished_barrel,undergrowth_specialist:_undergrowth_specialist,unpredictable_reactions:_unpredictable_reactions,vandal:_vandal,vengeful_combat:_vengeful_combat,venom_resistance:_venom_resistance,vigilant_battler:_vigilant_battler,volatile_fuse:_volatile_fuse,wary_eye:_wary_eye,weapon_of_peace:_weapon_of_peace,witty_repartee:_witty_repartee,youthful_infiltrator:_youthful_infiltrator,abject_belief:_abject_belief,acclimatize_alignment:_acclimatize_alignment,acolyte_of_apocrypha:_acolyte_of_apocrypha,apprentice:_apprentice,arcane_scholar:_arcane_scholar,aspect_of_the_quah:_aspect_of_the_quah,authoritarian:_authoritarian,beacon_of_faith:_beacon_of_faith,birthmark:_birthmark,blessed:_blessed,blessed_touch:_blessed_touch,born_free:_born_free,bound_by_honor:_bound_by_honor,called:_called,canon_of_coin:_canon_of_coin,caretaker:_caretaker,child_of_the_temple:_child_of_the_temple,chosen_of_iomedae:_chosen_of_iomedae,covert_channeler:_covert_channeler,crisis_of_faith:_crisis_of_faith,crusader:_crusader,darkest_before_dawn:_darkest_before_dawn,deep_faith:_deep_faith,defy_madness:_defy_madness,devoted_healer:_devoted_healer,devotee_of_the_green:_devotee_of_the_green,devout_visionary:_devout_visionary,disdainful_defender:_disdainful_defender,divine_confidante:_divine_confidante,divine_denier:_divine_denier,dogged:_dogged,earthbound:_earthbound,ease_of_faith:_ease_of_faith,eldritch_smith:_eldritch_smith,empyreal_pantheon:_empyreal_pantheon,exalted_of_the_society:_exalted_of_the_society,eye_for_the_wondrous:_eye_for_the_wondrous,faithful_feedback:_faithful_feedback,fates_favored:_fates_favored,fearless_defiance:_fearless_defiance,first_memories:_first_memories,focused_disciple:_focused_disciple,godclaw_disciple:_godclaw_disciple,greater_adept_of_the_society:_greater_adept_of_the_society,havoc_of_the_society:_havoc_of_the_society,heedful_readiness:_heedful_readiness,hellknight_inquisitor:_hellknight_inquisitor,heretics_caution:_heretics_caution,hidden_faith:_hidden_faith,history_of_heresy:_history_of_heresy,honest:_honest,imperfect_recall:_imperfect_recall,indomitable_faith:_indomitable_faith,inhabitant_of_illusion:_inhabitant_of_illusion,inspired:_inspired,irrepressible:_irrepressible,irreverent:_irreverent,jinx_eater:_jinx_eater,kalistocratic_prophecy:_kalistocratic_prophecy,light_in_the_darkness:_light_in_the_darkness,loyalty_across_lifetimes:_loyalty_across_lifetimes,lucid_dreamer:_lucid_dreamer,martial_manuscript:_martial_manuscript,masked:_masked,meditative_rest:_meditative_rest,monastic:_monastic,mystery_initiate:_mystery_initiate,natural_ritualist:_natural_ritualist,naturally_gifted:_naturally_gifted,nature_worshiper:_nature_worshiper,necrotic_aura:_necrotic_aura,oathbound:_oathbound,omen:_omen,pact_servant:_pact_servant,patient_calm:_patient_calm,perpetual_companion:_perpetual_companion,persuasive_insight:_persuasive_insight,planar_savant:_planar_savant,priest_blessed:_priest_blessed,principled:_principled,prophesied:_prophesied,proxy_of_many:_proxy_of_many,rebuke_the_curse:_rebuke_the_curse,redeemer:_redeemer,reincarnated:_reincarnated,religious_reformer:_religious_reformer,river_acumen:_river_acumen,sacred_conduit:_sacred_conduit,sacred_touch:_sacred_touch,scholar_of_the_great_beyond:_scholar_of_the_great_beyond,schooled_inquisitor:_schooled_inquisitor,scourge_of_the_darkness:_scourge_of_the_darkness,second_tongue:_second_tongue,secret_keeper:_secret_keeper,self_actualization:_self_actualization,self_sustaining:_self_sustaining,soul_searchers_strength:_soul_searchers_strength,spell_intuition:_spell_intuition,spirit_sense:_spirit_sense,st_clydwells_ward:_st_clydwells_ward,stalwart_of_the_society:_stalwart_of_the_society,strength_of_submission:_strength_of_submission,strength_of_the_land:_strength_of_the_land,student_of_history:_student_of_history,tar_baphons_whisper:_tar_baphons_whisper,tireless_avenger:_tireless_avenger,totemist:_totemist,traditionalist:_traditionalist,trickster_gnome:_trickster_gnome,two_world_magic:_two_world_magic,undaunted:_undaunted,unnatural_presence:_unnatural_presence,unshackled:_unshackled,untrained_scholar:_untrained_scholar,urban_acolyte:_urban_acolyte,vile_domain:_vile_domain,wanderers_shroud:_wanderers_shroud,wendifa_apprentice:_wendifa_apprentice,zealot:_zealot,zealots_bearing:_zealots_bearing,zealous_striker:_zealous_striker,acrobat:_acrobat,adopted:_adopted,affable:_affable,allies_in_the_deep:_allies_in_the_deep,ambitious:_ambitious,amiable_blunder:_amiable_blunder,amiable_briber:_amiable_briber,ancestral_armor:_ancestral_armor,arodenite_historian:_arodenite_historian,artisan:_artisan,avid_reader:_avid_reader,balanced_determination:_balanced_determination,bastard_uc:_bastard_uc,beast_bond:_beast_bond,beastkin:_beastkin,binders_blood:_binders_blood,brastlewark_businessman_gog:_brastlewark_businessman_gog,bruising_intellect:_bruising_intellect,bully:_bully,bureaucrats_favored:_bureaucrats_favored,calculated_bribe:_calculated_bribe,callous:_callous,canter:_canter,carnal_attraction:_carnal_attraction,charming:_charming,chelish_sympathizer:_chelish_sympathizer,child_of_the_streets:_child_of_the_streets,chip_on_the_shoulder:_chip_on_the_shoulder,civilized:_civilized,clever_wordplay:_clever_wordplay,collector:_collector,competitive:_competitive,contagious_mettle:_contagious_mettle,contemptuous:_contemptuous,convincing_liar:_convincing_liar,criminal:_criminal,criminal_roots:_criminal_roots,criminally_connected:_criminally_connected,cutting_condescension:_cutting_condescension,cynical:_cynical,cynical_ear:_cynical_ear,darklands_scholar:_darklands_scholar,darklands_trader:_darklands_trader,debauchery_defier:_debauchery_defier,deep_cover:_deep_cover,destined_diplomat:_destined_diplomat,detect_disobedience:_detect_disobedience,dismantle_order:_dismantle_order,doublespeak:_doublespeak,draconic_destiny:_draconic_destiny,dragon_hunted:_dragon_hunted,dragon_pact:_dragon_pact,drake_anatomist:_drake_anatomist,dusk_market_bribery:_dusk_market_bribery,ecumenical:_ecumenical,elemental_negotiator:_elemental_negotiator,enemy_of_slavers:_enemy_of_slavers,escaped_captive:_escaped_captive,etymologist:_etymologist,excellent_penmanship:_excellent_penmanship,explorer:_explorer,expressive_pantomime:_expressive_pantomime,fast_talker:_fast_talker,feral_speech:_feral_speech,for_the_money:_for_the_money,founders_heritage:_founders_heritage,free_spirit:_free_spirit,friend_in_every_town:_friend_in_every_town,friends_in_high_places:_friends_in_high_places,friends_in_low_places:_friends_in_low_places,fury_of_the_red:_fury_of_the_red,gesture_expertise:_gesture_expertise,gifted_smuggler:_gifted_smuggler,gregarious:_gregarious,grief_filled:_grief_filled,grim_optimism:_grim_optimism,hardly_a_fool:_hardly_a_fool,harvester:_harvester,heart_of_two_worlds:_heart_of_two_worlds,hellknight_ancestry:_hellknight_ancestry,imposing_scion:_imposing_scion,inexorable_authority:_inexorable_authority,infernal_colleague:_infernal_colleague,influence:_influence,jistkan_scholar:_jistkan_scholar,keleshite_princess:_keleshite_princess,king_in_waiting:_king_in_waiting,knowing_the_enemy:_knowing_the_enemy,law_enforcer:_law_enforcer,life_of_toil:_life_of_toil,lost_nobility:_lost_nobility,maestro_of_the_society:_maestro_of_the_society,malevolent_temptations:_malevolent_temptations,marked_by_unknown_forces:_marked_by_unknown_forces,master_messenger:_master_messenger,mediator:_mediator,memorable:_memorable,mentored:_mentored,mercenary:_mercenary,merchant:_merchant,mock_gladiator:_mock_gladiator,monster_scholar:_monster_scholar,monster_stalker:_monster_stalker,natural_born_leader_social:_natural_born_leader_social,nightstalls_navigator:_nightstalls_navigator,noble_savage:_noble_savage,nonchalant_thuggery:_nonchalant_thuggery,numerian_fluid_indulger:_numerian_fluid_indulger,obnoxious:_obnoxious,official_ties:_official_ties,ordinary:_ordinary,orphaned:_orphaned,outsider_enemy:_outsider_enemy,pack_savvy:_pack_savvy,passionate_inertia:_passionate_inertia,poverty_stricken:_poverty_stricken,practiced_disruptor:_practiced_disruptor,preternatural_awareness:_preternatural_awareness,questing_hellknight:_questing_hellknight,reassuring_advice:_reassuring_advice,red_silk_frankness:_red_silk_frankness,relic_proof:_relic_proof,rest_for_the_wicked:_rest_for_the_wicked,rich_parents:_rich_parents,rugged_dragon_hunter:_rugged_dragon_hunter,savage:_savage,savant:_savant,seafaring_reputation:_seafaring_reputation,secret_keeper_qac:_secret_keeper_qac,seeker:_seeker,self_reliant:_self_reliant,signature_moves:_signature_moves,simple_disciple:_simple_disciple,slave_runner:_slave_runner,snowbound:_snowbound,student_of_philosophy:_student_of_philosophy,style_sage:_style_sage,subjective_truth:_subjective_truth,supportive:_supportive,suspicious:_suspicious,talented:_talented,tireless_logic:_tireless_logic,triaxus_trained:_triaxus_trained,tropical_upbringing:_tropical_upbringing,trustworthy:_trustworthy,truths_agent:_truths_agent,unabashed_gall:_unabashed_gall,unbalanced_insight:_unbalanced_insight,unintentional_linguist:_unintentional_linguist,unnatural_revenge:_unnatural_revenge,unpredictable:_unpredictable,untapped_potential:_untapped_potential,unwelcome_business:_unwelcome_business,veiled_disciple:_veiled_disciple,vengeful_social:_vengeful_social,vigilant_spycatcher:_vigilant_spycatcher,voices_in_your_head:_voices_in_your_head,wanderlust:_wanderlust,wasteland_vargrant:_wasteland_vargrant,weathered_emissary:_weathered_emissary,wicked_leader:_wicked_leader,wiscrani_ear:_wiscrani_ear,worldly:_worldly}
