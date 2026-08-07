@@ -6,112 +6,159 @@ const _acadamae_neophyte = {title: "Acadamae Neophyte", topLink: ["Magic Traits"
 <Ability id="acadamae-neophyte" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="acadamae-neophyte">Acadamae Neophyte</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="acadamae-neophyte-benefit">You have shown a significant talent for the magical arts, gaining the attention of the famed Acadamae of Korvosa. Whenever you succeed at a Knowledge (planes) check to identify a creature and its special powers or vulnerabilities, you gain one additional piece of useful information (as if your skill check result had been 5 higher).</Pair>
+<Pair single="flavor" id="acadamae-neophyte-flavor">You have shown a significant talent for the magical arts, gaining the attention of the famed Acadamae of Korvosa.</Pair>
+<Pair single="benefit" id="acadamae-neophyte-benefit">Whenever you succeed at a <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> check to identify a creature and its special powers or vulnerabilities, you gain one additional piece of useful information (as if your skill check result had been 5 higher).</Pair>
 </Ability>
 </>};
 const _aeromantic_affinity = {title: "Aeromantic Affinity", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 29</Link></p>
 <Ability id="aeromantic-affinity" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="aeromantic-affinity">Aeromantic Affinity</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="aeromantic-affinity-benefit">One of your distant ancestors was either a powerful aeromancer or a creature of elemental air, granting you greater skill with air magic. You treat your caster level as 1 higher when casting spells with the air or electricity descriptor.</Pair>
+<Pair single="flavor" id="aeromantic-affinity-flavor">One of your distant ancestors was either a powerful aeromancer or a creature of elemental air, granting you greater skill with air magic.</Pair>
+<Pair single="benefit" id="aeromantic-affinity-benefit">You treat your caster level as 1 higher when casting spells with the air or electricity descriptor.</Pair>
 </Ability>
 </>};
 const _air_touched = {title: "Air-Touched", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="air-touched" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="air-touched">Air-Touched</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="air-touched-benefit">You share an affinity with elemental air. You gain DR 1/- against creatures and attacks with the air type.</Pair>
+<Pair single="flavor" id="air-touched-flavor">You share an affinity with elemental air.</Pair>
+<Pair single="benefit" id="air-touched-benefit">You gain DR 1/- against creatures and attacks with the air type.</Pair>
 </Ability>
 </>};
 const _alchemical_adept = {title: "Alchemical Adept", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="alchemical-adept" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="alchemical-adept">Alchemical Adept</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="alchemical-adept-benefit">You are skilled in creating alchemical items. You gain a +2 trait bonus on all Craft (alchemy) checks made to craft alchemical items. Furthermore, when you fail a Craft (alchemy) check by 5 or more but don't roll a natural 1, you don't ruin any raw materials or have to pay that cost again.</Pair>
+<Pair single="flavor" id="alchemical-adept-flavor">You are skilled in creating alchemical items.</Pair>
+<Pair single="benefit" id="alchemical-adept-benefit">You gain a +2 trait bonus on all <Link to="/skill/craft">Craft</Link> (alchemy) checks made to craft alchemical items. Furthermore, when you fail a Craft (alchemy) check by 5 or more but don't roll a natural 1, you don't ruin any raw materials or have to pay that cost again.</Pair>
 </Ability>
 </>};
 const _alchemical_intuition = {title: "Alchemical Intuition", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="alchemical-intuition" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="alchemical-intuition">Alchemical Intuition</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="alchemical-intuition-benefit">You are often struck with epiphanies about alchemical processes and substances. Once per day as a free action, you may gain a trait bonus equal to your Charisma modifier (minimum 0) on a Craft (alchemy) check you make. You can apply this bonus after you roll the check, possibly turning a failure into a success.</Pair>
+<Pair single="flavor" id="alchemical-intuition-flavor">You are often struck with epiphanies about alchemical processes and substances.</Pair>
+<Pair single="benefit" id="alchemical-intuition-benefit">Once per day as a <strong className="hl">free action</strong>, you may gain a trait bonus equal to your Charisma modifier (minimum 0) on a <Link to="/skill/craft">Craft</Link> (alchemy) check you make. You can apply this bonus after you roll the check, possibly turning a failure into a success.</Pair>
 </Ability>
 </>};
 const _arcane_researcher = {title: "Arcane Researcher", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 29</Link></p>
 <Ability id="arcane-researcher" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="arcane-researcher">Arcane Researcher</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="arcane-researcher-benefit">Your curiosity and ingenuity have driven you to experiment and push new boundaries, and you have a knack for tampering with magic. You gain a +4 trait bonus on Knowledge (arcana) and Spellcraft checks to research, modify, and create new spells.</Pair>
+<Pair single="flavor" id="arcane-researcher-flavor">Your curiosity and ingenuity have driven you to experiment and push new boundaries, and you have a knack for tampering with magic.</Pair>
+<Pair single="benefit" id="arcane-researcher-benefit">You gain a +4 trait bonus on <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> and <Link to="/skill/spellcraft">Spellcraft</Link> checks to research, modify, and create new spells.</Pair>
 </Ability>
 </>};
 const _arcane_revitalization = {title: "Arcane Revitalization", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="arcane-revitalization" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="arcane-revitalization">Arcane Revitalization</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="arcane-revitalization-benefit">Your martial prowess can feed your arcane power. Once per day, when you confirm a critical hit with a weapon attack, you regain 1 arcane pool point. You can't exceed your maximum number of arcane pool points.</Pair>
+<Pair single="flavor" id="arcane-revitalization-flavor">Your martial prowess can feed your arcane power.</Pair>
+<Pair single="benefit" id="arcane-revitalization-benefit">Once per day, when you confirm a critical hit with a weapon attack, you regain 1 <em>arcane pool</em> point. You can't exceed your maximum number of <em>arcane pool</em> points.</Pair>
 </Ability>
 </>};
 const _arcane_temper = {title: "Arcane Temper", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="arcane-temper" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="arcane-temper">Arcane Temper</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="arcane-temper-benefit">You have quick reactions and fierce concentration. You gain a +1 trait bonus on concentration and initiative checks.</Pair>
+<Pair single="flavor" id="arcane-temper-flavor">You have quick reactions and fierce concentration.</Pair>
+<Pair single="benefit" id="arcane-temper-benefit">You gain a +1 trait bonus on concentration and initiative checks.</Pair>
 </Ability>
 </>};
 const _ascendant_recollection = {title: "Ascendant Recollection", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="ascendant-recollection" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="ascendant-recollection">Ascendant Recollection</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="ascendant-recollection-benefit">Your first bloodline power is particularly strong. Your sorcerer level is considered to be 1 level higher when determining the effects of your 1st-level bloodline power.</Pair>
+<Pair single="flavor" id="ascendant-recollection-flavor">Your first bloodline power is particularly strong.</Pair>
+<Pair single="benefit" id="ascendant-recollection-benefit">Your sorcerer level is considered to be 1 level higher when determining the effects of your 1st-level bloodline power.</Pair>
 </Ability>
 </>};
 const _balancers_banishing = {title: "Balancer's Banishing", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_balance">Champions of Balance</Link></p>
 <Ability id="balancers-banishing" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="balancers-banishing">Balancer's Banishing</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="balancers-banishing-benefit">The interference of the Outer Planes in mortal affairs angers you to no end and invigorates the potency of your magic. As long as you remain neutral, whenever you cast a spell that would send an outsider with the chaotic, evil, good, or lawful subtype back to its home plane, the spell's saving throw DC increases by 1.</Pair>
+<Pair single="flavor" id="balancers-banishing-flavor">The interference of the Outer Planes in mortal affairs angers you to no end and invigorates the potency of your magic.</Pair>
+<Pair single="benefit" id="balancers-banishing-benefit">As long as you remain neutral, whenever you cast a spell that would send an outsider with the chaotic, evil, good, or lawful subtype back to its home plane, the spell's saving throw DC increases by 1.</Pair>
+</Ability>
+</>};
+const _beast_of_the_society = {title: "Beast of the Society", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
+<Ability id="beast-of-the-society" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="beast-of-the-society">Beast of the Society</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
+<Pair single="flavor" id="beast-of-the-society-flavor">A druid at the Grand Lodge revealed to you secrets changing your form into that of an animal.</Pair>
+<Pair single="benefit" id="beast-of-the-society-benefit">Whenever you use your <em>wild shape</em> class ability to turn yourself into a Small or Medium animal, the effect lasts for 2 hours per druid level instead of 1 hour per druid level.</Pair>
 </Ability>
 </>};
 const _black_blood_heritage = {title: "Black Blood Heritage", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link></p>
 <Ability id="black-blood-heritage" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="black-blood-heritage">Black Blood Heritage</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="black-blood-heritage-benefit">One of your ancestors came in contact with the mystical <Link to="/magic-artifact/black_blood">black blood</Link>, granting you an affinity for the substance. You are immune to the negative effects of black blood. Once per day as a swift action, you can channel the essence of black blood, increasing your effective caster level by 1 for any 1st- or 2nd-level necromancy spell you cast. Your blood is pitch black as a result of this trait.</Pair>
+<Pair single="flavor" id="black-blood-heritage-flavor">One of your ancestors came in contact with the mystical black blood, granting you an affinity for the substance.</Pair>
+<Pair single="benefit" id="black-blood-heritage-benefit"><p>You are immune to the negative effects of <Link to="/magic-artifact/black_blood">black blood</Link>. Once per day as a <strong className="hl">swift action</strong>, you can channel the essence of <em>black blood,</em> increasing your effective caster level by 1 for any 1st- or 2nd-level necromancy spell you cast.</p>
+<p>Your blood is pitch black as a result of this trait.</p>
+</Pair>
 </Ability>
 </>};
 const _bladed_magic = {title: "Bladed Magic", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="bladed-magic" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="bladed-magic">Bladed Magic</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="bladed-magic-benefit">You have an innate talent for using magical weaponry and those weapons capable of becoming magical. You gain a +1 trait bonus on Craft checks made to craft magic or masterwork weapons. In addition, when you use your arcane pool class ability to grant a weapon an enhancement bonus, that bonus lasts for 2 minutes instead of 1.</Pair>
+<Pair single="flavor" id="bladed-magic-flavor">You have an innate talent for using magical weaponry and those weapons capable of becoming magical.</Pair>
+<Pair single="benefit" id="bladed-magic-benefit">You gain a +1 trait bonus on <Link to="/skill/craft">Craft</Link> checks made to craft magic or <Link to="/rule/masterwork_w">masterwork weapons</Link>. In addition, when you use your <em>arcane pool</em> class ability to grant a weapon an enhancement bonus, that bonus lasts for 2 minutes instead of 1.</Pair>
+</Ability>
+</>};
+const _bountiful_herb_lore = {title: "Bountiful Herb-Lore", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2</Link></p>
+<Ability id="bountiful-herb-lore" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="bountiful-herb-lore">Bountiful Herb-Lore</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair title="Region" hl>Cassomir</Pair>
+<Pair single="benefit" id="bountiful-herb-lore-benefit">Once per day after 10 minutes of foraging, you can sprinkle nutritious herbs into a magical consumable item (such as a potion of <Link to="/spell/cure_light_wounds">cure light wounds</Link>). If the item is consumed within 1 minute, it provides nourishment as if it were a normal meal to the creature that partakes of it.</Pair>
+</Ability>
+</>};
+const _charlatan = {title: "Charlatan", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
+<Ability id="charlatan" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="charlatan">Charlatan</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
+<Pair single="flavor" id="charlatan-flavor">Your talent for illusion goes beyond a mere knack for figments and phantasms. You can actually channel spell energy into simple illusions that augment your attempts at deception.</Pair>
+<Pair single="benefit" id="charlatan-benefit"><p>As a <strong className="hl">swift action</strong>, you may expend one prepared spell or spell slot to gain a bonus on the next Bluff check you make, provided the check takes place before the beginning of your next turn. The bonus on this check is equal to the level of the spell consumed.</p>
+<p>You may use this ability 3 times per day. Only gnomes of nonlawful alignment may take this trait.</p>
+</Pair>
 </Ability>
 </>};
 const _child_of_the_moon = {title: "Child of the Moon", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
 <Ability id="child-of-the-moon" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="child-of-the-moon">Child of the Moon</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="child-of-the-moon-benefit">Your lunar gift becomes much more powerful when the moon is full. Choose either Climb, Stealth, or Swim. You gain a +1 trait bonus on checks made with the chosen skill. On dates during and after the first quarter of a lunar phase but before end of the last quarter (the half of the lunar cycle where the moon is fuller), this bonus increases to +2. During the full moon, this bonus increases to +4.</Pair>
+<Pair single="flavor" id="child-of-the-moon-flavor">Your lunar gift becomes much more powerful when the moon is full.</Pair>
+<Pair single="benefit" id="child-of-the-moon-benefit">Choose either <Link to="/skill/climb">Climb</Link>, <Link to="/skill/stealth">Stealth</Link>, or <Link to="/skill/swim">Swim</Link>. You gain a +1 trait bonus on checks made with the chosen skill. On dates during and after the first quarter of a lunar phase but before end of the last quarter (the half of the lunar cycle where the moon is fuller), this bonus increases to +2. During the full moon, this bonus increases to +4.</Pair>
 </Ability>
 </>};
 const _classically_schooled = {title: "Classically Schooled", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link></p>
 <Ability id="classically-schooled" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="classically-schooled">Classically Schooled</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="classically-schooled-benefit">Your apprenticeship or early education was particularly focused on the direct application of magic. You gain a +1 trait bonus on Spellcraft checks, and Spellcraft is always a class skill for you.</Pair>
+<Pair single="flavor" id="classically-schooled-flavor">Your apprenticeship or early education was particularly focused on the direct application of magic.</Pair>
+<Pair single="benefit" id="classically-schooled-benefit">You gain a +1 trait bonus on <Link to="/skill/spellcraft">Spellcraft</Link> checks, and Spellcraft is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _coven_casting = {title: "Coven Casting", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
 <Ability id="coven-casting" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="coven-casting">Coven Casting</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="coven-casting-benefit">You have belonged to a coven or magical cabal and know how to coordinate your spellcasting with others. When within 30 feet of an allied spellcaster, you both gain a +2 trait bonus on <Link to="/rule/concentration">concentration</Link> checks.</Pair>
+<Pair title="Requirements" hl>Belong to a coven or magical cabal</Pair>
+<Pair single="flavor" id="coven-casting-flavor">You have belonged to a coven or magical cabal and know how to coordinate your spellcasting with others.</Pair>
+<Pair single="benefit" id="coven-casting-benefit">When within 30 feet of an allied spellcaster, you both gain a +2 trait bonus on <Link to="/rule/concentration">concentration</Link> checks.</Pair>
 </Ability>
 </>};
 const _cross_disciplined = {title: "Cross-Disciplined", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="cross-disciplined" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="cross-disciplined">Cross-Disciplined</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="cross-disciplined-benefit">Your dabbling has granted you greater insight into the proper casting of certain spells. Once per day, you may cast a spell you have prepared that appears on both the magus and wizard spell lists as if your caster level were 1 level higher.</Pair>
+<Pair single="flavor" id="cross-disciplined-flavor">Your dabbling has granted you greater insight into the proper casting of certain spells.</Pair>
+<Pair single="benefit" id="cross-disciplined-benefit">Once per day, you may cast a spell you have prepared that appears on both the magus and wizard spell lists as if your caster level were 1 level higher.</Pair>
 </Ability>
 </>};
 const _cross_knowledge = {title: "Cross-Knowledge", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
@@ -121,11 +168,136 @@ const _cross_knowledge = {title: "Cross-Knowledge", topLink: ["Magic Traits","ma
 <Pair single="benefit" id="cross-knowledge-benefit">Once per day, you may treat an extract you drink as if your caster level were 1 level higher as long as that extract appears on the wizard spell list and the alchemist list of formulae.</Pair>
 </Ability>
 </>};
+const _dangerously_curious = {title: "Dangerously Curious", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
+<Ability id="dangerously-curious" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="dangerously-curious">Dangerously Curious</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="dangerously-curious-flavor">You have always been intrigued by magic, possibly because you were the child of a magician or priest. You often snuck into your parent's laboratory or shrine to tinker with spell components and magic devices, and frequently caused quite a bit of damage and headaches for your parent as a result.</Pair>
+<Pair single="benefit" id="dangerously-curious-benefit">You gain a +1 bonus on <Link to="/skill/use_magic_device">Use Magic Device</Link> checks, and Use Magic Device is always a class skill for you.</Pair>
+</Ability>
+</>};
+const _deep_guardian = {title: "Deep Guardian", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
+<Ability id="deep-guardian" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="deep-guardian">Deep Guardian</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
+<Pair single="flavor" id="deep-guardian-flavor">The subtle power of the deep places of the world flows within you, and grants you mastery of summoning beings of earth and stone.</Pair>
+<Pair single="benefit" id="deep-guardian-benefit">Any creature you conjure with a summon spell that has the earth subtype or a burrow speed gains a +1 morale bonus on attack rolls and a +1 enhancement bonus to Armor Class for the duration of the spell that summoned it.</Pair>
+</Ability>
+</>};
+const _demonblight_reistance = {title: "Demonblight Reistance", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
+<Ability id="demonblight-reistance" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="demonblight-reistance">Demonblight Reistance</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="demonblight-reistance-flavor">Your exposure to powerful energies instilled in you a supernatural resistance to diseases, particularly those of a demonic bent.</Pair>
+<Pair single="benefit" id="demonblight-reistance-benefit">You gain a +3 trait bonus on saving throws against diseases you are exposed to while fighting one or more creatures of the <Link to="/subtype/demon">demon</Link> subtype, or while such a hostile creature is within 100 feet.</Pair>
+</Ability>
+</>};
+const _desperate_focus = {title: "Desperate Focus", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
+<Ability id="desperate-focus" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="desperate-focus">Desperate Focus</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="desperate-focus-flavor">You've often found yourself in situations where a lack of focus can lead to worse than a lost spell.</Pair>
+<Pair single="benefit" id="desperate-focus-benefit">You gain a +2 trait bonus on <Link to="/rule/concentration">concentration</Link> checks.</Pair>
+</Ability>
+</>};
+const _desperate_resolve = {title: "Desperate Resolve", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
+<Ability id="desperate-resolve" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="desperate-resolve">Desperate Resolve</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="desperate-resolve-flavor">You are adept at casting spells even in the most precarious situations.</Pair>
+<Pair single="benefit" id="desperate-resolve-benefit">You gain a +1 trait bonus on <Link to="/rule/concentration">concentration</Link> checks. This trait bonus increases to +4 when you are <Link to="/rule/grappled">grappled</Link>, pinned, in violent weather, or <Link to="/rule/entangled">entangled</Link>.</Pair>
+</Ability>
+</>};
+const _desperate_speed = {title: "Desperate Speed", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
+<Ability id="desperate-speed" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="desperate-speed">Desperate Speed</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="desperate-speed-flavor">Your eidolon excels at a movement type you do not possess.</Pair>
+<Pair single="benefit" id="desperate-speed-benefit">Your eidolon receives a +5-foot enhancement bonus to one type of speed it has that you do not, such as a climb or swim speed. If your eidolon doesn't already possess such a mode of movement, you may apply this trait bonus later if it gains an evolution that grants it such a mode. Once this bonus is applied to a mode of movement, it can't be switched to another mode.</Pair>
+</Ability>
+</>};
+const _diabolical_dabbler = {title: "Diabolical Dabbler", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
+<Ability id="diabolical-dabbler" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="diabolical-dabbler">Diabolical Dabbler</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="diabolical-dabbler-benefit">Each <Link to="/template/fiendish">fiendish</Link> animal you conjure with any summon spell gains +1 hit point per hit die for the duration of the spell that summoned it.</Pair>
+</Ability>
+</>};
+const _distance_aptitude = {title: "Distance Aptitude", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
+<Ability id="distance-aptitude" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="distance-aptitude">Distance Aptitude</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="distance-aptitude-flavor">You were exposed to the magic of an <Link to="/magic-artifact/elf_gate">elf gate</Link>, portal, or some other form of distance-spanning magic when you were young. This contact with ancient world-spanning magic has granted you insight into means to extend the range of your own spells.</Pair>
+<Pair single="benefit" id="distance-aptitude-benefit"><p>Treat your caster level as 1 higher for the purposes of determining the range of spells and spell-like abilities.</p>
+<p><strong>Suggested Characters:</strong> Elves, Numerians, Sarkorians.</p>
+</Pair>
+</Ability>
+</>};
+const _domineering = {title: "Domineering", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
+<Ability id="domineering" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="domineering">Domineering</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="domineering-flavor">When you were young, you attracted a group of devoted companions thanks to your impressive talent, and the experience inspired in you a powerful self-assurance and air of superiority. Your confidence is so strong that others feel naturally compelled to follow your commands.</Pair>
+<Pair single="benefit" id="domineering-benefit"><p>Choose one 1st-level enchantment spell you are capable of casting. The DC of that spell increases by 1.</p>
+<p><strong>Suggested Characters:</strong> Chelaxians, Irriseni, Mwangi.</p>
+</Pair>
+</Ability>
+</>};
+const _draconic_infusion = {title: "Draconic Infusion", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
+<Ability id="draconic-infusion" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="draconic-infusion">Draconic Infusion</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="draconic-infusion-flavor">You were exposed to an artifact or other powerful magic that infused you with the power of dragons.</Pair>
+<Pair single="benefit" id="draconic-infusion-benefit">Choose the acid, cold, electricity, or fire spell descriptor when you take this trait. Once per day for every 2 caster levels you have (minimum once per day), when you cast a spell that has your chosen elemental descriptor, you can deal an additional 1d4 points of damage of that energy type to one target of that spell.</Pair>
+</Ability>
+</>};
+const _earth_touched = {title: "Earth-Touched", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
+<Ability id="earth-touched" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="earth-touched">Earth-Touched</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="earth-touched-flavor">You share an affinity with elemental earth.</Pair>
+<Pair single="benefit" id="earth-touched-benefit">You gain DR 1/- against creatures and attacks with the earth type.</Pair>
+</Ability>
+</>};
+const _eldritch_auditor = {title: "Eldritch Auditor", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest</Link></p>
+<Ability id="eldritch-auditor" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="eldritch-auditor">Eldritch Auditor</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="eldritch-auditor-flavor">You are a magically adept merchant who has learned tricks to protect your own goods, or you serve a city as an impartial auditor who guards against arcane trickery in the bazaars.</Pair>
+<Pair single="benefit" id="eldritch-auditor-benefit">You gain a +2 trait bonus on <Link to="/skill/spellcraft">Spellcraft</Link> checks and Will saves to identify an item's true properties, such as against spells like <Link to="/spell/magic_aura">magic aura</Link>.</Pair>
+</Ability>
+</>};
+const _eldritch_delver = {title: "Eldritch Delver", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
+<Ability id="eldritch-delver" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="eldritch-delver">Eldritch Delver</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="eldritch-delver-flavor">You have an unquenchable thirst for knowledge about the world and desire to obtain it firsthand.</Pair>
+<Pair single="benefit" id="eldritch-delver-benefit">You gain a +1 trait bonus on all <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> and <Link to="/skill/knowledge_history">Knowledge (history)</Link> checks, and you may treat your caster level as 1 level higher for all conjuration spells of the teleportation subschool.</Pair>
+</Ability>
+</>};
+const _elemental_accident = {title: "Elemental Accident", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook</Link></p>
+<Ability id="elemental-accident" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="elemental-accident">Elemental Accident</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="elemental-accident-flavor">A traumatic experience in your childhood, such as surviving a violent earthquake, fleeing a shipwreck, escaping a devastating fire, or getting struck by lightning, caused you to develop a fear of the corresponding element. You can instinctively shield yourself against elemental dangers of that type.</Pair>
+<Pair single="benefit" id="elemental-accident-benefit">Select acid, cold, electricity, or fire at character creation (once chosen, this damage type can't be changed). Once per day when you are subjected to an attack or effect that deals energy damage of that type, you can gain <Link to="/umr/resistance">resistance</Link> 10 against that damage type for 1 round as an <strong className="hl">immediate action</strong>. This resistance does not stack with any existing resistance you might have against that energy type.</Pair>
+</Ability>
+</>};
+const _enduring_mutagen = {title: "Enduring Mutagen", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
+<Ability id="enduring-mutagen" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="enduring-mutagen">Enduring Mutagen</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="enduring-mutagen-flavor">Because of special training, your unique body chemistry, or the uncovering of an alchemical secret, your mutagens last longer.</Pair>
+<Pair single="benefit" id="enduring-mutagen-benefit">The bonuses and penalties granted by your mutagens last for 1 additional minute per alchemist level.</Pair>
+</Ability>
+</>};
 const _fey_protection = {title: "Fey Protection", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="fey-protection" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="fey-protection">Fey Protection</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="fey-protection-benefit"><p>Your birth brought an unexpected guest to your parents' home: a helpful fey who prophesied about your future and gave you a magical gift in exchange for your parents' hospitality, a cup of milk, and a drop of your blood. You gain a +1 trait bonus to AC against attacks of opportunities made by fey and a +1 trait bonus on saving throws against the effects of fey creatures.</p>
+<Pair single="flavor" id="fey-protection-flavor">Your birth brought an unexpected guest to your parents' home: a helpful fey who prophesied about your future and gave you a magical gift in exchange for your parents' hospitality, a cup of milk, and a drop of your blood.</Pair>
+<Pair single="benefit" id="fey-protection-benefit"><p>You gain a +1 trait bonus to AC against attacks of opportunities made by fey and a +1 trait bonus on saving throws against the effects of fey creatures.</p>
 <p><strong>Suggested Characters:</strong> Drumans, <Link to="/rule/eldest">Eldest</Link> worshipers, Ulfen.</p>
 </Pair>
 </Ability>
@@ -141,21 +313,24 @@ const _focused_burn = {title: "Focused Burn", topLink: ["Magic Traits","main/tra
 <Ability id="focused-burn" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="focused-burn">Focused Burn</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="focused-burn-benefit">You know the secret of making punishing fire bombs. Any bombs you have that deal fire damage deal 1 additional point of fire damage on a direct hit per 2d6 of fire damage normally dealt (minimum 1 point). This additional damage does not apply to the bomb's splash damage.</Pair>
+<Pair single="flavor" id="focused-burn-flavor">You know the secret of making punishing fire bombs.</Pair>
+<Pair single="benefit" id="focused-burn-benefit">Any bombs you have that deal fire damage deal 1 additional point of fire damage on a direct hit per 2d6 of fire damage normally dealt (minimum 1 point). This additional damage does not apply to the bomb's splash damage.</Pair>
 </Ability>
 </>};
 const _focused_mind = {title: "Focused Mind", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="focused-mind" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="focused-mind">Focused Mind</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="focused-mind-benefit">Your childhood was dominated either by lessons of some sort (whether musical, academic, or other) or by a horrible home life that encouraged your ability to block out distractions and focus on the immediate task at hand. You gain a +2 trait bonus on <Link to="/rule/concentration">concentration</Link> checks.</Pair>
+<Pair single="flavor" id="focused-mind-flavor">Your childhood was dominated either by lessons of some sort (whether musical, academic, or other) or by a horrible home life that encouraged your ability to block out distractions and focus on the immediate task at hand.</Pair>
+<Pair single="benefit" id="focused-mind-benefit">You gain a +2 trait bonus on <Link to="/rule/concentration">concentration</Link> checks.</Pair>
 </Ability>
 </>};
 const _fortunate = {title: "Fortunate", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="fortunate" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="fortunate">Fortunate</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="fortunate-benefit"><p>You are blessed by fate. Once per day when you use a spell or magic item with a randomized effect (such as confusion, mirror image, prismatic spray, or a bag of tricks), before you roll to determine the result, you may choose to roll twice and pick either result.</p>
+<Pair single="flavor" id="fortunate-flavor">You are blessed by fate.</Pair>
+<Pair single="benefit" id="fortunate-benefit"><p>Once per day when you use a spell or magic item with a randomized effect (such as <Link to="/spell/confusion">confusion</Link>, <Link to="/spell/mirror_image">mirror image</Link>, <Link to="/spell/prismatic_spray">prismatic spray</Link>, or a <Link to="/magic-wondrous/bag_of_tricks_tan">bag of tricks</Link>), before you roll to determine the result, you may choose to roll twice and pick either result.</p>
 <p><strong>Suggested Characters:</strong> Calistrians, harrow deck readers, Vudrani.</p>
 </Pair>
 </Ability>
@@ -164,42 +339,48 @@ const _gifted_adept = {title: "Gifted Adept", topLink: ["Magic Traits","main/tra
 <Ability id="gifted-adept" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="gifted-adept">Gifted Adept</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="gifted-adept-benefit">Your interest in magic was inspired by witnessing a spell being cast in a particularly dramatic method, perhaps even one that affected you physically or spiritually. This early exposure to magic has made it easier for you to work similar magic on your own. Pick one spell when you choose this trait - from this point on, whenever you cast that spell, its effects manifest at +1 caster level.</Pair>
+<Pair single="flavor" id="gifted-adept-flavor">Your interest in magic was inspired by witnessing a spell being cast in a particularly dramatic method, perhaps even one that affected you physically or spiritually. This early exposure to magic has made it easier for you to work similar magic on your own.</Pair>
+<Pair single="benefit" id="gifted-adept-benefit">Pick one spell when you choose this trait - from this point on, whenever you cast that spell, its effects manifest at +1 caster level.</Pair>
 </Ability>
 </>};
 const _greater_link = {title: "Greater Link", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="greater-link" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="greater-link">Greater Link</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="greater-link-benefit">The link between you and your eidolon is stronger than most. Your eidolon's current and maximum hit point totals are not reduced by 50% until you are separated by 110 feet or more. Your eidolon's current and maximum hit point totals are not reduced by 75% until you are separated by 1,100 feet or more. All other aspects of your life link class feature are unaffected.</Pair>
+<Pair single="flavor" id="greater-link-flavor">The link between you and your eidolon is stronger than most.</Pair>
+<Pair single="benefit" id="greater-link-benefit">Your eidolon's current and maximum hit point totals are not reduced by 50% until you are separated by 110 feet or more. Your eidolon's current and maximum hit point totals are not reduced by 75% until you are separated by 1,100 feet or more. All other aspects of your life link class feature are unaffected.</Pair>
 </Ability>
 </>};
 const _greater_purpose = {title: "Greater Purpose", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="greater-purpose" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="greater-purpose">Greater Purpose</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="greater-purpose-benefit">You are convinced you're alive to achieve a great purpose. You gain a +1 trait bonus on all saving throws to resist death effects and a +1 trait bonus on Constitution checks made to stabilize while dying.</Pair>
+<Pair single="flavor" id="greater-purpose-flavor">You are convinced you're alive to achieve a great purpose.</Pair>
+<Pair single="benefit" id="greater-purpose-benefit">You gain a +1 trait bonus on all saving throws to resist death effects and a +1 trait bonus on Constitution checks made to stabilize while <Link to="/misc/dying">dying</Link>.</Pair>
 </Ability>
 </>};
 const _green_blooded = {title: "Green-Blooded", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link></p>
 <Ability id="green-blooded" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="green-blooded">Green-Blooded</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="green-blooded-benefit">You are touched by the supernatural essence of nature, marking you since birth as something other than purely mortal. Choose a single 0-level <Link to="/main/druid_spell">druid spell</Link>. You can cast this spell once per day as a spell-like ability with a caster level equal to your character level.</Pair>
+<Pair single="flavor" id="green-blooded-flavor">You are touched by the supernatural essence of nature, marking you since birth as something other than purely mortal.</Pair>
+<Pair single="benefit" id="green-blooded-benefit">Choose a single 0-level <Link to="/main/druid_spell">druid spell</Link>. You can cast this spell once per day as a spell-like ability with a caster level equal to your character level.</Pair>
 </Ability>
 </>};
 const _guiding_spirit = {title: "Guiding Spirit", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook</Link></p>
 <Ability id="guiding-spirit" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="guiding-spirit">Guiding Spirit</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="guiding-spirit-benefit">Few understand the medium's willingness to harbor powerful spirits, but even if you aren't one of these talented few, you've always identified with their abilities. you've always felt that you were not alone in this world and that a mysterious guiding spirit watches over you with singular focus. You may have briefly glimpsed this strange spirit - or maybe you simply feel its presence in times of need. Once per day as a swift action, you can look to your guiding spirit for advice. The next time you roll a d20 in that same round, roll twice and pick the better result. If one of these two rolls is a natural 20, you can use this ability again that same day.</Pair>
+<Pair single="flavor" id="guiding-spirit-flavor">Few understand the medium's willingness to harbor powerful spirits, but even if you aren't one of these talented few, you've always identified with their abilities. you've always felt that you were not alone in this world and that a mysterious guiding spirit watches over you with singular focus. You may have briefly glimpsed this strange spirit - or maybe you simply feel its presence in times of need.</Pair>
+<Pair single="benefit" id="guiding-spirit-benefit">Once per day as a <strong className="hl">swift action</strong>, you can look to your guiding spirit for advice. The next time you roll a d20 in that same round, roll twice and pick the better result. If one of these two rolls is a natural 20, you can use this ability again that same day.</Pair>
 </Ability>
 </>};
 const _hedge_magician = {title: "Hedge Magician", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
 <Ability id="hedge-magician" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="hedge-magician">Hedge Magician</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="hedge-magician-benefit">You apprenticed for a time to an artisan who often built magic items, and he taught you many handy shortcuts and cost-saving techniques. Whenever you craft a magic item, you reduce the required gp cost to make the item by 5%.</Pair>
+<Pair single="flavor" id="hedge-magician-flavor">You apprenticed for a time to an artisan who often built magic items, and he taught you many handy shortcuts and cost-saving techniques.</Pair>
+<Pair single="benefit" id="hedge-magician-benefit">Whenever you craft a magic item, you reduce the required gp cost to make the item by 5%.</Pair>
 </Ability>
 </>};
 const _hex_proof = {title: "Hex-Proof", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets</Link></p>
@@ -213,21 +394,23 @@ const _horrifying_mind = {title: "Horrifying Mind", topLink: ["Magic Traits","ma
 <Ability id="horrifying-mind" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="horrifying-mind">Horrifying Mind</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="horrifying-mind-benefit">When a nonevil humanoid attempts to read your mind via a magical effect, the reader must attempt a Will save opposed by your Wisdom or Charisma check (your choice). If the reader fails this save, she is shaken for 1 round. If she fails by 10 or more, she is instead frightened for 1 round, then shaken for 1 round.</Pair>
+<Pair single="benefit" id="horrifying-mind-benefit">When a nonevil humanoid attempts to read your mind via a magical effect, the reader must attempt a Will save opposed by your Wisdom or Charisma check (your choice). If the reader fails this save, she is <Link to="/misc/shaken">shaken</Link> for 1 round. If she fails by 10 or more, she is instead frightened for 1 round, then shaken for 1 round.</Pair>
 </Ability>
 </>};
 const _house_of_green_mothers_pupil = {title: "House of Green Mothers Pupil", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/distant_shores">Distant Shores</Link></p>
 <Ability id="house-of-green-mothers-pupil" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="house-of-green-mothers-pupil">House of Green Mothers Pupil</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="house-of-green-mothers-pupil-benefit">You studied at Anuli's center for druidic magic long enough to begin bonding with a familiar. You gain a +1 trait bonus on Handle Animal checks. You may substitute this trait for <Link to="/feat/iron_will">Iron Will</Link> as the prerequisite for the <Link to="/feat/familiar_bond">Familiar Bond</Link> feat.</Pair>
+<Pair single="flavor" id="house-of-green-mothers-pupil-flavor">You studied at Anuli's center for druidic magic long enough to begin bonding with a familiar.</Pair>
+<Pair single="benefit" id="house-of-green-mothers-pupil-benefit">You gain a +1 trait bonus on <Link to="/skill/handle_animal">Handle Animal</Link> checks. You may substitute this trait for <Link to="/feat/iron_will">Iron Will</Link> as the prerequisite for the <Link to="/feat/familiar_bond">Familiar Bond</Link> feat.</Pair>
 </Ability>
 </>};
 const _insistent_benefactor = {title: "Insistent Benefactor", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_society_primer">Pathfinder Society Primer</Link></p>
 <Ability id="insistent-benefactor" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="insistent-benefactor">Insistent Benefactor</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="insistent-benefactor-benefit">Pathfinders of different backgrounds don't always realize what's best for them, and you have perfected the art of forcing your magical boons on your allies. Whenever you cast a harmless spell, you gain a +2 trait bonus on caster level checks to overcome spell resistance, and the saving throw DC of the spell (if any) is increased by 2.</Pair>
+<Pair single="flavor" id="insistent-benefactor-flavor">Pathfinders of different backgrounds don't always realize what's best for them, and you have perfected the art of forcing your magical boons on your allies.</Pair>
+<Pair single="benefit" id="insistent-benefactor-benefit">Whenever you cast a harmless spell, you gain a +2 trait bonus on caster level checks to overcome spell resistance, and the saving throw DC of the spell (if any) is increased by 2.</Pair>
 </Ability>
 </>};
 const _internal_compass = {title: "Internal Compass", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook</Link></p>
@@ -241,7 +424,8 @@ const _inured_to_death = {title: "Inured to Death", topLink: ["Magic Traits","ma
 <Ability id="inured-to-death" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="inured-to-death">Inured to Death</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="inured-to-death-benefit"><p>You have been around death or the undead all of your life; you have become accustomed to its shadowy presence, and are no longer overwhelmed by it. You gain a +2 trait bonus on saving throws against death effects.</p>
+<Pair single="flavor" id="inured-to-death-flavor">You have been around death or the undead all of your life; you have become accustomed to its shadowy presence, and are no longer overwhelmed by it.</Pair>
+<Pair single="benefit" id="inured-to-death-benefit"><p>You gain a +2 trait bonus on saving throws against death effects.</p>
 <p><strong>Suggested Characters:</strong> Gebbites, Urgathoans, Ustalavs.</p>
 </Pair>
 </Ability>
@@ -250,7 +434,8 @@ const _keen_appraiser = {title: "Keen Appraiser", topLink: ["Magic Traits","main
 <Ability id="keen-appraiser" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="keen-appraiser">Keen Appraiser</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="keen-appraiser-benefit"><p>Your frequent handling of magic items, artifacts, and other enchanted goods has made you an expert at determining when something has magical properties. You gain a +1 trait bonus on Appraise checks. In addition, you need only exceed the DC of an Appraise check by 2 in order to determine whether the item in question has magic properties (although success still does not grant knowledge of the magic item's abilities).</p>
+<Pair single="flavor" id="keen-appraiser-flavor">Your frequent handling of magic items, artifacts, and other enchanted goods has made you an expert at determining when something has magical properties.</Pair>
+<Pair single="benefit" id="keen-appraiser-benefit"><p>You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> checks. In addition, you need only exceed the DC of an Appraise check by 2 in order to determine whether the item in question has magic properties (although success still does not grant knowledge of the magic item's abilities).</p>
 <p><strong>Suggested Characters:</strong> Drumans, dwarves, Torag worshipers.</p>
 </Pair>
 </Ability>
@@ -259,21 +444,21 @@ const _kin_bond = {title: "Kin Bond", topLink: ["Magic Traits","main/traits_magi
 <Ability id="kin-bond" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="kin-bond">Kin Bond</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="kin-bond-benefit">The bond between you and a close sibling is nearly mystical. Choose a single sibling with whom to share this bond. Once per day when you fail a saving throw while your sibling is within 30 feet, you may reroll that saving throw using your sibling's saving throw modifier. If you and the sibling are twins or otherwise part of a multiple birth, you gain a +2 trait bonus on the rerolled saving throw. Your sibling must be willing to grant you the reroll. If you fail the saving throw, you and your sibling are dazed for 1 round.</Pair>
+<Pair single="benefit" id="kin-bond-benefit">The bond between you and a close sibling is nearly mystical.``Choose a single sibling with whom to share this bond. Once per day when you fail a saving throw while your sibling is within 30 feet, you may reroll that saving throw using your sibling's saving throw modifier. If you and the sibling are twins or otherwise part of a multiple birth, you gain a +2 trait bonus on the rerolled saving throw. Your sibling must be willing to grant you the reroll. If you fail the saving throw, you and your sibling are <Link to="/misc/dazed">dazed</Link> for 1 round.</Pair>
 </Ability>
 </>};
 const _knowledgeable_caster = {title: "Knowledgeable Caster", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="knowledgeable-caster" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="knowledgeable-caster">Knowledgeable Caster</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="knowledgeable-caster-benefit">Once per day when you cast a divination spell, you can cast that spell as if your caster level were 1 level higher in the appropriate class. You also gain a +1 trait bonus on any Knowledge checks associated with your sorcerer bloodline, if any.</Pair>
+<Pair single="benefit" id="knowledgeable-caster-benefit">Once per day when you cast a divination spell, you can cast that spell as if your caster level were 1 level higher in the appropriate class. You also gain a +1 trait bonus on any <code>Knowledge</code> checks associated with your sorcerer bloodline, if any.</Pair>
 </Ability>
 </>};
 const _lamias_bane = {title: "Lamia's Bane", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
 <Ability id="lamias-bane" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="lamias-bane">Lamia's Bane</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="lamias-bane-benefit">You have been exposed to the magical energies of lamias in your past, or you have heard innumerable stories about your family's dealings with lamias, and you have built up a resistance to their charms. You gain a +1 trait bonus on saving throws against enchantment effects and a +2 trait bonus on saving throws against the spells and spell-like abilities of lamias.</Pair>
+<Pair single="benefit" id="lamias-bane-benefit">You have been exposed to the magical energies of lamias in your past, or you have heard innumerable stories about your family's dealings with lamias, and you have built up a resistance to their charms.``You gain a +1 trait bonus on saving throws against enchantment effects and a +2 trait bonus on saving throws against the spells and spell-like abilities of <Link to="/monster/lamia">lamias</Link>.</Pair>
 </Ability>
 </>};
 const _less_effort = {title: "Less Effort", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
@@ -301,7 +486,7 @@ const _lunar_birth = {title: "Lunar Birth", topLink: ["Magic Traits","main/trait
 <Ability id="lunar-birth" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="lunar-birth">Lunar Birth</Pair>
 <Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="lunar-birth-benefit">Born during a lunar eclipse, you were forever marked by the moon's mysterious and ancient magic. You gain a +1 trait bonus on saving throws against the spells and spell-like abilities cast by humans.</Pair>
+<Pair single="benefit" id="lunar-birth-benefit">Born during a lunar eclipse, you were forever marked by the moon's mysterious and ancient magic.``You gain a +1 trait bonus on saving throws against the spells and spell-like abilities cast by humans.</Pair>
 </Ability>
 </>};
 const _magic_crafter = {title: "Magic Crafter", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
@@ -367,6 +552,87 @@ const _meticulous_concoction = {title: "Meticulous Concoction", topLink: ["Magic
 <Pair single id="meticulous-concoction">Meticulous Concoction</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="benefit" id="meticulous-concoction-benefit">Your meticulous carefulness makes your bombs and extracts more potent. Once per day, you can either add a +2 trait bonus to the save DC for one bomb you throw or extend the duration of one extract you imbibe by 2 rounds. Extracts with an instantaneous duration are not affected by this trait.</Pair>
+</Ability>
+</>};
+const _mutant_eye = {title: "Mutant Eye", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
+<Ability id="mutant-eye" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="mutant-eye">Mutant Eye</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="mutant-eye-benefit"><p>One of your parents was exposed to uncontrolled magic or arcane pollution before you were born, causing you to develop a minor mutation that has marked you as different all your life. You have a third eye on your forehead. As long as it is uncovered and open, you can get a clearer sense of the emotions of those you see, granting you a +2 trait bonus on Sense Motive checks that increases to +4 on checks to notice whether a character is under a mind-affecting effect. However, the eye is unsettling, and you take a -1 penalty on Bluff and Diplomacy checks against humanoids who can see it.</p>
+<p><strong>Suggested Characters:</strong> Lamashtans, Mana Wastes natives, Nexians.</p>
+</Pair>
+</Ability>
+</>};
+const _outcasts_intuition = {title: "Outcast's Intuition", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
+<Ability id="outcasts-intuition" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="outcasts-intuition">Outcast's Intuition</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="outcasts-intuition-benefit">You are able to sense the motives of others and use that sense to bolster your magic against dispelling. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you. In addition, your caster level is treated as 1 level higher for the purposes of any attempts to dispel your magic.</Pair>
+</Ability>
+</>};
+const _outer_dragon_blood = {title: "Outer Dragon Blood", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
+<Ability id="outer-dragon-blood" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="outer-dragon-blood">Outer Dragon Blood</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="outer-dragon-blood-flavor">The blood of outer dragons courses through your veins, and you've inherited a portion of their magic.</Pair>
+<Pair single="benefit" id="outer-dragon-blood-benefit"><p>You gain Draconic as a bonus language. In addition, if you are a sorcerer with the <Link to="/sorcbloodline/draconic">draconic</Link> bloodline, you can select one of the <Link to="/family/outer_dragon">outer dragon</Link> types for your bloodline powers; this affects your resistances and the type of energy damage dealt by a number of your abilities.</p>
+<ul>
+<li><strong>Lunar:</strong> Cold energy, 60-foot line</li>
+<li><strong>Solar:</strong> Fire energy, 60-foot line</li>
+<li><strong>Time:</strong> Electricity energy, 30-foot cone</li>
+<li><strong>Void:</strong> Cold energy, 30-foot cone</li>
+<li><strong>Vortex:</strong> Fire energy, 30-foot cone</li>
+</ul>
+</Pair>
+</Ability>
+</>};
+const _outsider_ties = {title: "Outsider Ties", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
+<Ability id="outsider-ties" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="outsider-ties">Outsider Ties</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="outsider-ties-benefit">An outsider visited you at a young age, and you have had a significant affinity with that type of outsider ever since. Choose a subtype of outsider, such as <Link to="/subtype/angel">angel</Link> or <Link to="/subtype/elemental">elemental</Link>. When you summon an outsider of that subtype via <Link to="/spell/summon_monster">summon monster</Link>, <Link to="/spell/planar_ally">planar ally</Link>, <Link to="/spell/planar_binding">planar binding</Link>, or similar spells and abilities, the summoned creature gains a number of temporary hit points equal to the level of spell used to summon it.</Pair>
+</Ability>
+</>};
+const _overwhelming_beauty = {title: "Overwhelming Beauty", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
+<Ability id="overwhelming-beauty" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="overwhelming-beauty">Overwhelming Beauty</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="overwhelming-beauty-benefit">Your wiles are particularly potent against people who share a race with you, as your beauty is often held up as a symbol of perfection. The DC of your mind-affecting effects increases by 1 against creatures that have at least one of the same subtypes as you.</Pair>
+</Ability>
+</>};
+const _partial_protege = {title: "Partial Protege", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
+<Ability id="partial-protege" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="partial-protege">Partial Protege</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="partial-protege-benefit">You are adept at disguising your true talents. You gain a +1 trait bonus on Bluff checks and on Use Magic Device checks made to emulate a class feature.</Pair>
+</Ability>
+</>};
+const _pathfinders_focus = {title: "Pathfinder's Focus", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_society_primer">Pathfinder Society Primer</Link></p>
+<Ability id="pathfinders-focus" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="pathfinders-focus">Pathfinder's Focus</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="pathfinders-focus-benefit">You can select a magnetic compass for your arcane bond class feature; this compass is nonmagical, but you can later spend 250 gp to upgrade it into a <Link to="/magic-wondrous/wayfinder">wayfinder</Link>. Choosing this trait allows you to upgrade this wayfinder to a variant or unique wayfinder per the normal rules for <Link to="/rule/adding_new_abilities">improving magic items</Link>. A bonded wayfinder must be held in your hand to grant the benefits of being a bonded object.</Pair>
+</Ability>
+</>};
+const _perfectionists_brew = {title: "Perfectionist's Brew", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
+<Ability id="perfectionists-brew" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="perfectionists-brew">Perfectionist's Brew</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="perfectionists-brew-benefit">You know that potion recipes should be followed with exact precision. You gain a +2 trait bonus on all Craft (alchemy) checks and on Spellcraft checks made to brew potions.</Pair>
+</Ability>
+</>};
+const _planar_escapee = {title: "Planar Escapee", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook</Link></p>
+<Ability id="planar-escapee" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="planar-escapee">Planar Escapee</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="planar-escapee-benefit">You were a prisoner or slave in a city on the Elemental Planes, such as the cruel efreet's City of Brass on the Plane of Fire or the dwarven city of Urgashaz on the Plane of Earth. When you escaped that city, you had to use your captors' weapons and magic against them in addition to your sheer wits, and you learned how to find weaknesses in their natural resistances. At character creation, select acid, cold, electricity, or fire (once chosen, this selection can't be changed). Once per day as a swift action, you can choose a single creature that is within 30 feet of you and within your line of sight; treat that creature's resistance against your chosen energy as 5 lower than its normal energy resistance for 1 round. This ability has no effect if the creature has no resistance to the chosen energy or if the creature has immunity to the chosen energy.</Pair>
+</Ability>
+</>};
+const _possessed = {title: "Possessed", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
+<Ability id="possessed" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="possessed">Possessed</Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="possessed-benefit">You were, or are, possessed in some way by another entity that grants you occasional access to its knowledge. Once per day, you can attempt a Knowledge check of your choice even if you are not trained in that skill and it is not usually possible to use that skill untrained. If you can normally use that skill untrained, you gain a +2 trait bonus on the check.</Pair>
 </Ability>
 </>};
 const _pragmatic_activator = {title: "Pragmatic Activator", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
@@ -511,189 +777,6 @@ const _theoretical_magician = {title: "Theoretical Magician", topLink: ["Magic T
 <Pair single="benefit" id="theoretical-magician-benefit">You've studied more magic than what you can actually perform. You gain a +2 trait bonus on Spellcraft checks, or a +3 bonus if you aren't a spellcaster.</Pair>
 </Ability>
 </>};
-const _dangerously_curious = {title: "Dangerously Curious", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="dangerously-curious" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="dangerously-curious">Dangerously Curious</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="dangerously-curious-benefit">You have always been intrigued by magic, possibly because you were the child of a magician or priest. You often snuck into your parent's laboratory or shrine to tinker with spell components and magic devices, and frequently caused quite a bit of damage and headaches for your parent as a result. You gain a +1 bonus on Use Magic Device checks, and Use Magic Device is always a class skill for you.</Pair>
-</Ability>
-</>};
-const _demonblight_reistance = {title: "Demonblight Reistance", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
-<Ability id="demonblight-reistance" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="demonblight-reistance">Demonblight Reistance</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="demonblight-reistance-benefit">Your exposure to powerful energies instilled in you a supernatural resistance to diseases, particularly those of a demonic bent. You gain a +3 trait bonus on saving throws against diseases you are exposed to while fighting one or more creatures of the demon subtype, or while such a hostile creature is within 100 feet.</Pair>
-</Ability>
-</>};
-const _desperate_focus = {title: "Desperate Focus", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="desperate-focus" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="desperate-focus">Desperate Focus</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="desperate-focus-benefit">You've often found yourself in situations where a lack of focus can lead to worse than a lost spell. You gain a +2 trait bonus on <Link to="/rule/concentration">concentration</Link> checks.</Pair>
-</Ability>
-</>};
-const _desperate_resolve = {title: "Desperate Resolve", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="desperate-resolve" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="desperate-resolve">Desperate Resolve</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="desperate-resolve-benefit">You are adept at casting spells even in the most precarious situations. You gain a +1 trait bonus on <Link to="/rule/concentration">concentration</Link> checks. This trait bonus increases to +4 when you are grappled, pinned, in violent weather, or entangled.</Pair>
-</Ability>
-</>};
-const _desperate_speed = {title: "Desperate Speed", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="desperate-speed" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="desperate-speed">Desperate Speed</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="desperate-speed-benefit">Your eidolon excels at a movement type you do not possess. Your eidolon receives a +5-foot enhancement bonus to one type of speed it has that you do not, such as a climb or swim speed. If your eidolon doesn't already possess such a mode of movement, you may apply this trait bonus later if it gains an evolution that grants it such a mode. Once this bonus is applied to a mode of movement, it can't be switched to another mode.</Pair>
-</Ability>
-</>};
-const _diabolical_dabbler = {title: "Diabolical Dabbler", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
-<Ability id="diabolical-dabbler" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="diabolical-dabbler">Diabolical Dabbler</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="diabolical-dabbler-benefit">Each fiendish animal you conjure with any summon spell gains +1 hit point per hit die for the duration of the spell that summoned it.</Pair>
-</Ability>
-</>};
-const _distance_aptitude = {title: "Distance Aptitude", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="distance-aptitude" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="distance-aptitude">Distance Aptitude</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="distance-aptitude-benefit"><p>You were exposed to the magic of an elf gate, portal, or some other form of distance-spanning magic when you were young. This contact with ancient world-spanning magic has granted you insight into means to extend the range of your own spells. Treat your caster level as 1 higher for the purposes of determining the range of spells and spell-like abilities.</p>
-<p><strong>Suggested Characters:</strong> Elves, Numerians, Sarkorians.</p>
-</Pair>
-</Ability>
-</>};
-const _domineering = {title: "Domineering", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="domineering" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="domineering">Domineering</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="domineering-benefit"><p>When you were young, you attracted a group of devoted companions thanks to your impressive talent, and the experience inspired in you a powerful self-assurance and air of superiority. Your confidence is so strong that others feel naturally compelled to follow your commands. Choose one 1st-level enchantment spell you are capable of casting. The DC of that spell increases by 1.</p>
-<p><strong>Suggested Characters:</strong> Chelaxians, Irriseni, Mwangi.</p>
-</Pair>
-</Ability>
-</>};
-const _draconic_infusion = {title: "Draconic Infusion", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_dragons">Legacy of Dragons</Link></p>
-<Ability id="draconic-infusion" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="draconic-infusion">Draconic Infusion</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="draconic-infusion-benefit">You were exposed to an artifact or other powerful magic that infused you with the power of dragons. Choose the acid, cold, electricity, or fire spell descriptor when you take this trait. Once per day for every 2 caster levels you have (minimum once per day), when you cast a spell that has your chosen elemental descriptor, you can deal an additional 1d4 points of damage of that energy type to one target of that spell.</Pair>
-</Ability>
-</>};
-const _earth_touched = {title: "Earth-Touched", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="earth-touched" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="earth-touched">Earth-Touched</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="earth-touched-benefit">You share an affinity with elemental earth. You gain DR 1/- against creatures and attacks with the earth type.</Pair>
-</Ability>
-</>};
-const _eldritch_auditor = {title: "Eldritch Auditor", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest</Link></p>
-<Ability id="eldritch-auditor" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="eldritch-auditor">Eldritch Auditor</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="eldritch-auditor-benefit">You are a magically adept merchant who has learned tricks to protect your own goods, or you serve a city as an impartial auditor who guards against arcane trickery in the bazaars. You gain a +2 trait bonus on Spellcraft checks and Will saves to identify an item's true properties, such as against spells like magic aura.</Pair>
-</Ability>
-</>};
-const _eldritch_delver = {title: "Eldritch Delver", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="eldritch-delver" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="eldritch-delver">Eldritch Delver</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="eldritch-delver-benefit">You have an unquenchable thirst for knowledge about the world and desire to obtain it firsthand. You gain a +1 trait bonus on all Knowledge (dungeoneering) and Knowledge (history) checks, and you may treat your caster level as 1 level higher for all conjuration spells of the teleportation subschool.</Pair>
-</Ability>
-</>};
-const _elemental_accident = {title: "Elemental Accident", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook</Link></p>
-<Ability id="elemental-accident" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="elemental-accident">Elemental Accident</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="elemental-accident-benefit">A traumatic experience in your childhood, such as surviving a violent earthquake, fleeing a shipwreck, escaping a devastating fire, or getting struck by lightning, caused you to develop a fear of the corresponding element. You can instinctively shield yourself against elemental dangers of that type. Select acid, cold, electricity, or fire at character creation (once chosen, this damage type can't be changed). Once per day when you are subjected to an attack or effect that deals energy damage of that type, you can gain resistance 10 against that damage type for 1 round as an immediate action. This resistance does not stack with any existing resistance you might have against that energy type.</Pair>
-</Ability>
-</>};
-const _enduring_mutagen = {title: "Enduring Mutagen", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="enduring-mutagen" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="enduring-mutagen">Enduring Mutagen</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="enduring-mutagen-benefit">Because of special training, your unique body chemistry, or the uncovering of an alchemical secret, your mutagens last longer. The bonuses and penalties granted by your mutagens last for 1 additional minute per alchemist level.</Pair>
-</Ability>
-</>};
-const _outcasts_intuition = {title: "Outcast's Intuition", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="outcasts-intuition" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="outcasts-intuition">Outcast's Intuition</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="outcasts-intuition-benefit">You are able to sense the motives of others and use that sense to bolster your magic against dispelling. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you. In addition, your caster level is treated as 1 level higher for the purposes of any attempts to dispel your magic.</Pair>
-</Ability>
-</>};
-const _outer_dragon_blood = {title: "Outer Dragon Blood", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
-<Ability id="outer-dragon-blood" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="outer-dragon-blood">Outer Dragon Blood</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="flavor" id="outer-dragon-blood-flavor">The blood of outer dragons courses through your veins, and you've inherited a portion of their magic.</Pair>
-<Pair single="benefit" id="outer-dragon-blood-benefit"><p>You gain Draconic as a bonus language. In addition, if you are a sorcerer with the <Link to="/sorcbloodline/draconic">draconic</Link> bloodline, you can select one of the <Link to="/family/outer_dragon">outer dragon</Link> types for your bloodline powers; this affects your resistances and the type of energy damage dealt by a number of your abilities.</p>
-<ul>
-<li><strong>Lunar:</strong> Cold energy, 60-foot line</li>
-<li><strong>Solar:</strong> Fire energy, 60-foot line</li>
-<li><strong>Time:</strong> Electricity energy, 30-foot cone</li>
-<li><strong>Void:</strong> Cold energy, 30-foot cone</li>
-<li><strong>Vortex:</strong> Fire energy, 30-foot cone</li>
-</ul>
-</Pair>
-</Ability>
-</>};
-const _outsider_ties = {title: "Outsider Ties", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
-<Ability id="outsider-ties" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="outsider-ties">Outsider Ties</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="outsider-ties-benefit">An outsider visited you at a young age, and you have had a significant affinity with that type of outsider ever since. Choose a subtype of outsider, such as <Link to="/subtype/angel">angel</Link> or <Link to="/subtype/elemental">elemental</Link>. When you summon an outsider of that subtype via <Link to="/spell/summon_monster">summon monster</Link>, <Link to="/spell/planar_ally">planar ally</Link>, <Link to="/spell/planar_binding">planar binding</Link>, or similar spells and abilities, the summoned creature gains a number of temporary hit points equal to the level of spell used to summon it.</Pair>
-</Ability>
-</>};
-const _overwhelming_beauty = {title: "Overwhelming Beauty", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
-<Ability id="overwhelming-beauty" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="overwhelming-beauty">Overwhelming Beauty</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="overwhelming-beauty-benefit">Your wiles are particularly potent against people who share a race with you, as your beauty is often held up as a symbol of perfection. The DC of your mind-affecting effects increases by 1 against creatures that have at least one of the same subtypes as you.</Pair>
-</Ability>
-</>};
-const _partial_protege = {title: "Partial Protege", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="partial-protege" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="partial-protege">Partial Protege</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="partial-protege-benefit">You are adept at disguising your true talents. You gain a +1 trait bonus on Bluff checks and on Use Magic Device checks made to emulate a class feature.</Pair>
-</Ability>
-</>};
-const _pathfinders_focus = {title: "Pathfinder's Focus", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_society_primer">Pathfinder Society Primer</Link></p>
-<Ability id="pathfinders-focus" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="pathfinders-focus">Pathfinder's Focus</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="pathfinders-focus-benefit">You can select a magnetic compass for your arcane bond class feature; this compass is nonmagical, but you can later spend 250 gp to upgrade it into a <Link to="/magic-wondrous/wayfinder">wayfinder</Link>. Choosing this trait allows you to upgrade this wayfinder to a variant or unique wayfinder per the normal rules for <Link to="/rule/adding_new_abilities">improving magic items</Link>. A bonded wayfinder must be held in your hand to grant the benefits of being a bonded object.</Pair>
-</Ability>
-</>};
-const _perfectionists_brew = {title: "Perfectionist's Brew", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="perfectionists-brew" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="perfectionists-brew">Perfectionist's Brew</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="perfectionists-brew-benefit">You know that potion recipes should be followed with exact precision. You gain a +2 trait bonus on all Craft (alchemy) checks and on Spellcraft checks made to brew potions.</Pair>
-</Ability>
-</>};
-const _planar_escapee = {title: "Planar Escapee", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/elemental_masters_handbook">Elemental Master's Handbook</Link></p>
-<Ability id="planar-escapee" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="planar-escapee">Planar Escapee</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="planar-escapee-benefit">You were a prisoner or slave in a city on the Elemental Planes, such as the cruel efreet's City of Brass on the Plane of Fire or the dwarven city of Urgashaz on the Plane of Earth. When you escaped that city, you had to use your captors' weapons and magic against them in addition to your sheer wits, and you learned how to find weaknesses in their natural resistances. At character creation, select acid, cold, electricity, or fire (once chosen, this selection can't be changed). Once per day as a swift action, you can choose a single creature that is within 30 feet of you and within your line of sight; treat that creature's resistance against your chosen energy as 5 lower than its normal energy resistance for 1 round. This ability has no effect if the creature has no resistance to the chosen energy or if the creature has immunity to the chosen energy.</Pair>
-</Ability>
-</>};
-const _possessed = {title: "Possessed", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
-<Ability id="possessed" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="possessed">Possessed</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="possessed-benefit">You were, or are, possessed in some way by another entity that grants you occasional access to its knowledge. Once per day, you can attempt a Knowledge check of your choice even if you are not trained in that skill and it is not usually possible to use that skill untrained. If you can normally use that skill untrained, you gain a +2 trait bonus on the check.</Pair>
-</Ability>
-</>};
-const _mutant_eye = {title: "Mutant Eye", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
-<Ability id="mutant-eye" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="mutant-eye">Mutant Eye</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair single="benefit" id="mutant-eye-benefit"><p>One of your parents was exposed to uncontrolled magic or arcane pollution before you were born, causing you to develop a minor mutation that has marked you as different all your life. You have a third eye on your forehead. As long as it is uncovered and open, you can get a clearer sense of the emotions of those you see, granting you a +2 trait bonus on Sense Motive checks that increases to +4 on checks to notice whether a character is under a mind-affecting effect. However, the eye is unsettling, and you take a -1 penalty on Bluff and Diplomacy checks against humanoids who can see it.</p>
-<p><strong>Suggested Characters:</strong> Lamashtans, Mana Wastes natives, Nexians.</p>
-</Pair>
-</Ability>
-</>};
 const _transmuter_of_korada = {title: "Transmuter of Korada", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_purity">Champions of Purity</Link></p>
 <Ability id="transmuter-of-korada" extraClasses="trait" icon={["magic-swirl"]}>
 <Pair single id="transmuter-of-korada">Transmuter of Korada</Pair>
@@ -790,38 +873,6 @@ const _winter_witchcraft_survivor = {title: "Winter Witchcraft Survivor", topLin
 <Pair single id="winter-witchcraft-survivor">Winter Witchcraft Survivor</Pair>
 <Pair title="Type">Magic</Pair>
 <Pair single="benefit" id="winter-witchcraft-survivor-benefit">You narrowly escaped death when a Winter Witch punished you for supporting the Heralds. You gain cold resistance 5 against the first cold damage you take each day, and gain a +2 bonus on saving throws against the fear effects of creatures with the cold subtype.</Pair>
-</Ability>
-</>};
-const _beast_of_the_society = {title: "Beast of the Society", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
-<Ability id="beast-of-the-society" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="beast-of-the-society">Beast of the Society</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
-<Pair single="benefit" id="beast-of-the-society-benefit">A druid at the Grand Lodge revealed to you secrets changing your form into that of an animal. Whenever you use your wild shape class ability to turn yourself into a Small or Medium animal, the effect lasts for 2 hours per druid level instead of 1 hour per druid level.</Pair>
-</Ability>
-</>};
-const _bountiful_herb_lore = {title: "Bountiful Herb-Lore", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2</Link></p>
-<Ability id="bountiful-herb-lore" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="bountiful-herb-lore">Bountiful Herb-Lore</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair title="Region" hl>Cassomir</Pair>
-<Pair single="benefit" id="bountiful-herb-lore-benefit">Once per day after 10 minutes of foraging, you can sprinkle nutritious herbs into a magical consumable item (such as a potion of cure light wounds). If the item is consumed within 1 minute, it provides nourishment as if it were a normal meal to the creature that partakes of it.</Pair>
-</Ability>
-</>};
-const _charlatan = {title: "Charlatan", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link></p>
-<Ability id="charlatan" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="charlatan">Charlatan</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
-<Pair single="benefit" id="charlatan-benefit">Your talent for illusion goes beyond a mere knack for figments and phantasms. You can actually channel spell energy into simple illusions that augment your attempts at deception. As a swift action, you may expend one prepared spell or spell slot to gain a bonus on the next Bluff check you make, provided the check takes place before the beginning of your next turn. The bonus on this check is equal to the level of the spell consumed. You may use this ability 3 times per day. Only gnomes of nonlawful alignment may take this trait.</Pair>
-</Ability>
-</>};
-const _deep_guardian = {title: "Deep Guardian", topLink: ["Magic Traits","main/traits_magic"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
-<Ability id="deep-guardian" extraClasses="trait" icon={["magic-swirl"]}>
-<Pair single id="deep-guardian">Deep Guardian</Pair>
-<Pair title="Type">Magic</Pair>
-<Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
-<Pair single="benefit" id="deep-guardian-benefit">The subtle power of the deep places of the world flows within you, and grants you mastery of summoning beings of earth and stone. Any creature you conjure with a summon spell that has the earth subtype or a burrow speed gains a +1 morale bonus on attack rolls and a +1 enhancement bonus to Armor Class for the duration of the spell that summoned it.</Pair>
 </Ability>
 </>};
 const _chance_savior = {title: "Chance Savior", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/carrion_crown_players_guide">Carrion Crown Player's Guide</Link></p>
@@ -2392,4 +2443,4 @@ const _serpent_runner = {title: "Serpent Runner", topLink: ["Campaign Traits","m
 </Pair>
 </Ability>
 </>};
-export default {acadamae_neophyte:_acadamae_neophyte,aeromantic_affinity:_aeromantic_affinity,air_touched:_air_touched,alchemical_adept:_alchemical_adept,alchemical_intuition:_alchemical_intuition,arcane_researcher:_arcane_researcher,arcane_revitalization:_arcane_revitalization,arcane_temper:_arcane_temper,ascendant_recollection:_ascendant_recollection,balancers_banishing:_balancers_banishing,black_blood_heritage:_black_blood_heritage,bladed_magic:_bladed_magic,child_of_the_moon:_child_of_the_moon,classically_schooled:_classically_schooled,coven_casting:_coven_casting,cross_disciplined:_cross_disciplined,cross_knowledge:_cross_knowledge,fey_protection:_fey_protection,flame_touched:_flame_touched,focused_burn:_focused_burn,focused_mind:_focused_mind,fortunate:_fortunate,gifted_adept:_gifted_adept,greater_link:_greater_link,greater_purpose:_greater_purpose,green_blooded:_green_blooded,guiding_spirit:_guiding_spirit,hedge_magician:_hedge_magician,hex_proof:_hex_proof,horrifying_mind:_horrifying_mind,house_of_green_mothers_pupil:_house_of_green_mothers_pupil,insistent_benefactor:_insistent_benefactor,internal_compass:_internal_compass,inured_to_death:_inured_to_death,keen_appraiser:_keen_appraiser,kin_bond:_kin_bond,knowledgeable_caster:_knowledgeable_caster,lamias_bane:_lamias_bane,less_effort:_less_effort,linked_surge:_linked_surge,low_blow:_low_blow,lunar_birth:_lunar_birth,magic_crafter:_magic_crafter,magical_flair:_magical_flair,magical_knack:_magical_knack,magical_lineage:_magical_lineage,magical_talent:_magical_talent,malleable_magic:_malleable_magic,mathematical_prodigy:_mathematical_prodigy,mechanical_aptitude:_mechanical_aptitude,meticulous_concoction:_meticulous_concoction,pragmatic_activator:_pragmatic_activator,precise_treatment:_precise_treatment,radiant_healing:_radiant_healing,reluctant_apprentice:_reluctant_apprentice,resilient_caster:_resilient_caster,rivethun_adherent:_rivethun_adherent,scholar_of_the_analects:_scholar_of_the_analects,scorned_by_magic:_scorned_by_magic,secret_scrolls:_secret_scrolls,self_taught_scholar:_self_taught_scholar,shrouded_casting:_shrouded_casting,skeptic:_skeptic,spark_of_creation:_spark_of_creation,spiritual_attachment:_spiritual_attachment,stabbing_spells:_stabbing_spells,storm_touched:_storm_touched,strength_foretold:_strength_foretold,sun_blessed:_sun_blessed,tenacious_shifting:_tenacious_shifting,theoretical_magician:_theoretical_magician,dangerously_curious:_dangerously_curious,demonblight_reistance:_demonblight_reistance,desperate_focus:_desperate_focus,desperate_resolve:_desperate_resolve,desperate_speed:_desperate_speed,diabolical_dabbler:_diabolical_dabbler,distance_aptitude:_distance_aptitude,domineering:_domineering,draconic_infusion:_draconic_infusion,earth_touched:_earth_touched,eldritch_auditor:_eldritch_auditor,eldritch_delver:_eldritch_delver,elemental_accident:_elemental_accident,enduring_mutagen:_enduring_mutagen,outcasts_intuition:_outcasts_intuition,outer_dragon_blood:_outer_dragon_blood,outsider_ties:_outsider_ties,overwhelming_beauty:_overwhelming_beauty,partial_protege:_partial_protege,pathfinders_focus:_pathfinders_focus,perfectionists_brew:_perfectionists_brew,planar_escapee:_planar_escapee,possessed:_possessed,mutant_eye:_mutant_eye,transmuter_of_korada:_transmuter_of_korada,twinned_presence:_twinned_presence,twisted_tattoo:_twisted_tattoo,unscathed:_unscathed,unseen_but_not_undone:_unseen_but_not_undone,unstable_mutagen:_unstable_mutagen,volatile_conduit:_volatile_conduit,water_touched:_water_touched,winter_witchcraft_survivor:_winter_witchcraft_survivor,beast_of_the_society:_beast_of_the_society,bountiful_herb_lore:_bountiful_herb_lore,charlatan:_charlatan,deep_guardian:_deep_guardian,chance_savior:_chance_savior,inspired_by_greatness:_inspired_by_greatness,making_good_on_promises:_making_good_on_promises,on_the_payroll:_on_the_payroll,subject_of_study:_subject_of_study,teachers_pet:_teachers_pet,child_of_infamy:_child_of_infamy,conspiracy_hunter:_conspiracy_hunter,diabolist_raised:_diabolist_raised,infernal_bastard:_infernal_bastard,shadow_child:_shadow_child,the_pathfinders_exile:_the_pathfinders_exile,westcrown_firebrand:_westcrown_firebrand,betrayed_cotct:_betrayed_cotct,dockside_avenger:_dockside_avenger,drug_addict:_drug_addict,framed:_framed,love_lost:_love_lost,missing_child:_missing_child,unhappy_childhood:_unhappy_childhood,varisian_immunity:_varisian_immunity,artifact_hunter_gs:_artifact_hunter_gs,dragonfoe:_dragonfoe,dwarf_trained:_dwarf_trained,giant_blooded:_giant_blooded,giantslayer_scion:_giantslayer_scion,orphaned_by_giants:_orphaned_by_giants,roll_with_it:_roll_with_it,student_of_giantkind:_student_of_giantkind,trunau_native:_trunau_native,vexing_defender:_vexing_defender,child_of_kintargo:_child_of_kintargo,diva_in_training:_diva_in_training,ex_asmodean:_ex_asmodean,fed_up_citizen:_fed_up_citizen,gifted_satirist:_gifted_satirist,historian_of_the_rebellion:_historian_of_the_rebellion,natural_born_leader_hr:_natural_born_leader_hr,pattern_seeker:_pattern_seeker,star_struck:_star_struck,urban_sleuth:_urban_sleuth,amoral_mercenary:_amoral_mercenary,apprentice_devilbinder:_apprentice_devilbinder,asmodean_acolyte:_asmodean_acolyte,chelish_noble:_chelish_noble,erratic_malefactor:_erratic_malefactor,ex_iomedaean:_ex_iomedaean,good_slip:_good_slip,hellknight_aspirant:_hellknight_aspirant,local_tough:_local_tough,scion_of_the_nine_circles:_scion_of_the_nine_circles,thrune_informant:_thrune_informant,thrune_loyal_agent:_thrune_loyal_agent,against_the_technic_league:_against_the_technic_league,local_ties:_local_ties,numerian_archaeologist:_numerian_archaeologist,robot_slayer:_robot_slayer,skymetal_smith:_skymetal_smith,stargazer_ig:_stargazer_ig,animal_whisperer:_animal_whisperer,blight_burned:_blight_burned,chernasardo_hopeful:_chernasardo_hopeful,foxclaw_scout:_foxclaw_scout,frontier_healer:_frontier_healer,ironfang_survivor:_ironfang_survivor,kraggodan_castaway:_kraggodan_castaway,unbreakable_survivor:_unbreakable_survivor,world_weary:_world_weary,best_customer:_best_customer,best_friend:_best_friend,caravan_guard:_caravan_guard,childhood_crush:_childhood_crush,foreign_tongued:_foreign_tongued,foster_child:_foster_child,friend_of_the_family:_friend_of_the_family,hero_worship:_hero_worship,rescued:_rescued,student_survivalist:_student_survivalist,younger_sibling:_younger_sibling,bastard_km:_bastard_km,brigand:_brigand,issian:_issian,noble_born:_noble_born,pioneer:_pioneer,rostlander:_rostlander,sword_scion:_sword_scion,earning_your_freedom:_earning_your_freedom,finding_haleen:_finding_haleen,gnoll_killer:_gnoll_killer,missionary:_missionary,reclaiming_your_roots:_reclaiming_your_roots,seeking_adventure:_seeking_adventure,blood_of_pharaohs:_blood_of_pharaohs,devotee_of_the_old_gods:_devotee_of_the_old_gods,foreign_opportunist:_foreign_opportunist,inquisitive_archaeologist:_inquisitive_archaeologist,mummy_cursed:_mummy_cursed,resurrected:_resurrected,sphinx_riddler:_sphinx_riddler,trap_finder:_trap_finder,undead_crusader:_undead_crusader,wati_native:_wati_native,adaptive_magic:_adaptive_magic,blood_of_giants:_blood_of_giants,failed_winter_witch_apprentice:_failed_winter_witch_apprentice,northern_ancestry:_northern_ancestry,restless_wayfarer:_restless_wayfarer,vigilante_witch_hunter:_vigilante_witch_hunter,warded_against_witchery:_warded_against_witchery,accidental_clone:_accidental_clone,audrahnis_ally:_audrahnis_ally,close_allies:_close_allies,intrigued_by_thassilon:_intrigued_by_thassilon,scion_of_legend:_scion_of_legend,spirit_touched:_spirit_touched,time_lost:_time_lost,eager_performer:_eager_performer,family_ties_rotrl:_family_ties_rotrl,friends_and_enemies:_friends_and_enemies,giant_slayer:_giant_slayer,goblin_watcher:_goblin_watcher,hagfish_hopeful:_hagfish_hopeful,merchant_family:_merchant_family,monster_hunter:_monster_hunter,sandpoint_faithful:_sandpoint_faithful,scholar_of_the_ancients:_scholar_of_the_ancients,student_of_faith:_student_of_faith,thrill_seeker_rotr:_thrill_seeker_rotr,athletic:_athletic,azlanti_scholar_roapg:_azlanti_scholar_roapg,eagle_knight_recruit:_eagle_knight_recruit,employee:_employee,expert_explorer:_expert_explorer,following_in_the_footsteps:_following_in_the_footsteps,healthy:_healthy,pathfinder_recruit:_pathfinder_recruit,resourceful:_resourceful,seasoned_hunter:_seasoned_hunter,set_mind:_set_mind,skillful:_skillful,daring_doomsayer:_daring_doomsayer,fixer_of_odds:_fixer_of_odds,fools_for_friends:_fools_for_friends,into_enemy_territory:_into_enemy_territory,looking_for_work:_looking_for_work,optimistic_gambler:_optimistic_gambler,portentous_perception:_portentous_perception,researching_the_blot:_researching_the_blot,scouting_for_fiends:_scouting_for_fiends,boarded_in_cheliax:_boarded_in_cheliax,boarded_in_mediogalti:_boarded_in_mediogalti,boarded_in_mwangi_expanse:_boarded_in_mwangi_expanse,boarded_in_varisia:_boarded_in_varisia,boarded_in_the_shackles:_boarded_in_the_shackles,colonial:_colonial,get_the_cargo_through:_get_the_cargo_through,jenivere_crew:_jenivere_crew,mwangi_scholar:_mwangi_scholar,stowaway:_stowaway,alabaster_outcast:_alabaster_outcast,ex_sczarni:_ex_sczarni,exchange_agent:_exchange_agent,monument_scholar:_monument_scholar,nontraditional_native:_nontraditional_native,ruin_raider:_ruin_raider,serpent_runner:_serpent_runner}
+export default {acadamae_neophyte:_acadamae_neophyte,aeromantic_affinity:_aeromantic_affinity,air_touched:_air_touched,alchemical_adept:_alchemical_adept,alchemical_intuition:_alchemical_intuition,arcane_researcher:_arcane_researcher,arcane_revitalization:_arcane_revitalization,arcane_temper:_arcane_temper,ascendant_recollection:_ascendant_recollection,balancers_banishing:_balancers_banishing,beast_of_the_society:_beast_of_the_society,black_blood_heritage:_black_blood_heritage,bladed_magic:_bladed_magic,bountiful_herb_lore:_bountiful_herb_lore,charlatan:_charlatan,child_of_the_moon:_child_of_the_moon,classically_schooled:_classically_schooled,coven_casting:_coven_casting,cross_disciplined:_cross_disciplined,cross_knowledge:_cross_knowledge,dangerously_curious:_dangerously_curious,deep_guardian:_deep_guardian,demonblight_reistance:_demonblight_reistance,desperate_focus:_desperate_focus,desperate_resolve:_desperate_resolve,desperate_speed:_desperate_speed,diabolical_dabbler:_diabolical_dabbler,distance_aptitude:_distance_aptitude,domineering:_domineering,draconic_infusion:_draconic_infusion,earth_touched:_earth_touched,eldritch_auditor:_eldritch_auditor,eldritch_delver:_eldritch_delver,elemental_accident:_elemental_accident,enduring_mutagen:_enduring_mutagen,fey_protection:_fey_protection,flame_touched:_flame_touched,focused_burn:_focused_burn,focused_mind:_focused_mind,fortunate:_fortunate,gifted_adept:_gifted_adept,greater_link:_greater_link,greater_purpose:_greater_purpose,green_blooded:_green_blooded,guiding_spirit:_guiding_spirit,hedge_magician:_hedge_magician,hex_proof:_hex_proof,horrifying_mind:_horrifying_mind,house_of_green_mothers_pupil:_house_of_green_mothers_pupil,insistent_benefactor:_insistent_benefactor,internal_compass:_internal_compass,inured_to_death:_inured_to_death,keen_appraiser:_keen_appraiser,kin_bond:_kin_bond,knowledgeable_caster:_knowledgeable_caster,lamias_bane:_lamias_bane,less_effort:_less_effort,linked_surge:_linked_surge,low_blow:_low_blow,lunar_birth:_lunar_birth,magic_crafter:_magic_crafter,magical_flair:_magical_flair,magical_knack:_magical_knack,magical_lineage:_magical_lineage,magical_talent:_magical_talent,malleable_magic:_malleable_magic,mathematical_prodigy:_mathematical_prodigy,mechanical_aptitude:_mechanical_aptitude,meticulous_concoction:_meticulous_concoction,mutant_eye:_mutant_eye,outcasts_intuition:_outcasts_intuition,outer_dragon_blood:_outer_dragon_blood,outsider_ties:_outsider_ties,overwhelming_beauty:_overwhelming_beauty,partial_protege:_partial_protege,pathfinders_focus:_pathfinders_focus,perfectionists_brew:_perfectionists_brew,planar_escapee:_planar_escapee,possessed:_possessed,pragmatic_activator:_pragmatic_activator,precise_treatment:_precise_treatment,radiant_healing:_radiant_healing,reluctant_apprentice:_reluctant_apprentice,resilient_caster:_resilient_caster,rivethun_adherent:_rivethun_adherent,scholar_of_the_analects:_scholar_of_the_analects,scorned_by_magic:_scorned_by_magic,secret_scrolls:_secret_scrolls,self_taught_scholar:_self_taught_scholar,shrouded_casting:_shrouded_casting,skeptic:_skeptic,spark_of_creation:_spark_of_creation,spiritual_attachment:_spiritual_attachment,stabbing_spells:_stabbing_spells,storm_touched:_storm_touched,strength_foretold:_strength_foretold,sun_blessed:_sun_blessed,tenacious_shifting:_tenacious_shifting,theoretical_magician:_theoretical_magician,transmuter_of_korada:_transmuter_of_korada,twinned_presence:_twinned_presence,twisted_tattoo:_twisted_tattoo,unscathed:_unscathed,unseen_but_not_undone:_unseen_but_not_undone,unstable_mutagen:_unstable_mutagen,volatile_conduit:_volatile_conduit,water_touched:_water_touched,winter_witchcraft_survivor:_winter_witchcraft_survivor,chance_savior:_chance_savior,inspired_by_greatness:_inspired_by_greatness,making_good_on_promises:_making_good_on_promises,on_the_payroll:_on_the_payroll,subject_of_study:_subject_of_study,teachers_pet:_teachers_pet,child_of_infamy:_child_of_infamy,conspiracy_hunter:_conspiracy_hunter,diabolist_raised:_diabolist_raised,infernal_bastard:_infernal_bastard,shadow_child:_shadow_child,the_pathfinders_exile:_the_pathfinders_exile,westcrown_firebrand:_westcrown_firebrand,betrayed_cotct:_betrayed_cotct,dockside_avenger:_dockside_avenger,drug_addict:_drug_addict,framed:_framed,love_lost:_love_lost,missing_child:_missing_child,unhappy_childhood:_unhappy_childhood,varisian_immunity:_varisian_immunity,artifact_hunter_gs:_artifact_hunter_gs,dragonfoe:_dragonfoe,dwarf_trained:_dwarf_trained,giant_blooded:_giant_blooded,giantslayer_scion:_giantslayer_scion,orphaned_by_giants:_orphaned_by_giants,roll_with_it:_roll_with_it,student_of_giantkind:_student_of_giantkind,trunau_native:_trunau_native,vexing_defender:_vexing_defender,child_of_kintargo:_child_of_kintargo,diva_in_training:_diva_in_training,ex_asmodean:_ex_asmodean,fed_up_citizen:_fed_up_citizen,gifted_satirist:_gifted_satirist,historian_of_the_rebellion:_historian_of_the_rebellion,natural_born_leader_hr:_natural_born_leader_hr,pattern_seeker:_pattern_seeker,star_struck:_star_struck,urban_sleuth:_urban_sleuth,amoral_mercenary:_amoral_mercenary,apprentice_devilbinder:_apprentice_devilbinder,asmodean_acolyte:_asmodean_acolyte,chelish_noble:_chelish_noble,erratic_malefactor:_erratic_malefactor,ex_iomedaean:_ex_iomedaean,good_slip:_good_slip,hellknight_aspirant:_hellknight_aspirant,local_tough:_local_tough,scion_of_the_nine_circles:_scion_of_the_nine_circles,thrune_informant:_thrune_informant,thrune_loyal_agent:_thrune_loyal_agent,against_the_technic_league:_against_the_technic_league,local_ties:_local_ties,numerian_archaeologist:_numerian_archaeologist,robot_slayer:_robot_slayer,skymetal_smith:_skymetal_smith,stargazer_ig:_stargazer_ig,animal_whisperer:_animal_whisperer,blight_burned:_blight_burned,chernasardo_hopeful:_chernasardo_hopeful,foxclaw_scout:_foxclaw_scout,frontier_healer:_frontier_healer,ironfang_survivor:_ironfang_survivor,kraggodan_castaway:_kraggodan_castaway,unbreakable_survivor:_unbreakable_survivor,world_weary:_world_weary,best_customer:_best_customer,best_friend:_best_friend,caravan_guard:_caravan_guard,childhood_crush:_childhood_crush,foreign_tongued:_foreign_tongued,foster_child:_foster_child,friend_of_the_family:_friend_of_the_family,hero_worship:_hero_worship,rescued:_rescued,student_survivalist:_student_survivalist,younger_sibling:_younger_sibling,bastard_km:_bastard_km,brigand:_brigand,issian:_issian,noble_born:_noble_born,pioneer:_pioneer,rostlander:_rostlander,sword_scion:_sword_scion,earning_your_freedom:_earning_your_freedom,finding_haleen:_finding_haleen,gnoll_killer:_gnoll_killer,missionary:_missionary,reclaiming_your_roots:_reclaiming_your_roots,seeking_adventure:_seeking_adventure,blood_of_pharaohs:_blood_of_pharaohs,devotee_of_the_old_gods:_devotee_of_the_old_gods,foreign_opportunist:_foreign_opportunist,inquisitive_archaeologist:_inquisitive_archaeologist,mummy_cursed:_mummy_cursed,resurrected:_resurrected,sphinx_riddler:_sphinx_riddler,trap_finder:_trap_finder,undead_crusader:_undead_crusader,wati_native:_wati_native,adaptive_magic:_adaptive_magic,blood_of_giants:_blood_of_giants,failed_winter_witch_apprentice:_failed_winter_witch_apprentice,northern_ancestry:_northern_ancestry,restless_wayfarer:_restless_wayfarer,vigilante_witch_hunter:_vigilante_witch_hunter,warded_against_witchery:_warded_against_witchery,accidental_clone:_accidental_clone,audrahnis_ally:_audrahnis_ally,close_allies:_close_allies,intrigued_by_thassilon:_intrigued_by_thassilon,scion_of_legend:_scion_of_legend,spirit_touched:_spirit_touched,time_lost:_time_lost,eager_performer:_eager_performer,family_ties_rotrl:_family_ties_rotrl,friends_and_enemies:_friends_and_enemies,giant_slayer:_giant_slayer,goblin_watcher:_goblin_watcher,hagfish_hopeful:_hagfish_hopeful,merchant_family:_merchant_family,monster_hunter:_monster_hunter,sandpoint_faithful:_sandpoint_faithful,scholar_of_the_ancients:_scholar_of_the_ancients,student_of_faith:_student_of_faith,thrill_seeker_rotr:_thrill_seeker_rotr,athletic:_athletic,azlanti_scholar_roapg:_azlanti_scholar_roapg,eagle_knight_recruit:_eagle_knight_recruit,employee:_employee,expert_explorer:_expert_explorer,following_in_the_footsteps:_following_in_the_footsteps,healthy:_healthy,pathfinder_recruit:_pathfinder_recruit,resourceful:_resourceful,seasoned_hunter:_seasoned_hunter,set_mind:_set_mind,skillful:_skillful,daring_doomsayer:_daring_doomsayer,fixer_of_odds:_fixer_of_odds,fools_for_friends:_fools_for_friends,into_enemy_territory:_into_enemy_territory,looking_for_work:_looking_for_work,optimistic_gambler:_optimistic_gambler,portentous_perception:_portentous_perception,researching_the_blot:_researching_the_blot,scouting_for_fiends:_scouting_for_fiends,boarded_in_cheliax:_boarded_in_cheliax,boarded_in_mediogalti:_boarded_in_mediogalti,boarded_in_mwangi_expanse:_boarded_in_mwangi_expanse,boarded_in_varisia:_boarded_in_varisia,boarded_in_the_shackles:_boarded_in_the_shackles,colonial:_colonial,get_the_cargo_through:_get_the_cargo_through,jenivere_crew:_jenivere_crew,mwangi_scholar:_mwangi_scholar,stowaway:_stowaway,alabaster_outcast:_alabaster_outcast,ex_sczarni:_ex_sczarni,exchange_agent:_exchange_agent,monument_scholar:_monument_scholar,nontraditional_native:_nontraditional_native,ruin_raider:_ruin_raider,serpent_runner:_serpent_runner}
