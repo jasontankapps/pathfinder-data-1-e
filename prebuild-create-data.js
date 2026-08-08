@@ -393,7 +393,15 @@ const postprocess = (tables) => {
 			output += pre;
 			const index = parseInt(table);
 			if(index >= 0 && tables && index < tables.length) {
-				output += `<DisplayTable table={${JSON.stringify(tables[index])}} />`;
+				if(tables[index].data.some(arr => arr.some(obj => obj && obj.data && Array.isArray(obj.data)))) {
+					// TypeScript will assume ["str", "str"] is str[] if we don't explicitly tell it not to
+					const {data, ...etc} = tables[index];
+					const stringified = JSON.stringify(etc).slice(1); // Strip the initial curly-brace
+					output += `<DisplayTable table={{"data":${JSON.stringify(data)} as RawDatum[][],${stringified}} />`;
+					flags.rawdatum = true;
+				} else {
+					output += `<DisplayTable table={${JSON.stringify(tables[index])}} />`;
+				}
 				flags.displaytable = true;
 			} else {
 				output += `<p><code>‹table${table}›</code></p>`;
@@ -1130,6 +1138,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	groupFlags.icon && ionic.push("IonIcon");
 	ionic.length > 0 && imports.push(`import {${ionic.join(",")}} from '@ionic/react';`);
 	// Check groupFlags for other components
+	groupFlags.rawdatum && imports.push(`import { RawDatum } from '../../types';`);
 	groupFlags.displaytable && imports.push(`import DisplayTable from '../../components/DisplayTable';`);
 	groupFlags.header && imports.push(`import Header from '../../components/Header';`);
 	groupFlags.link ? imports.push(
