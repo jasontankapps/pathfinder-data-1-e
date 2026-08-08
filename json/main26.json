@@ -2,15 +2,248 @@
 	"traits_magic": {
 		"title": "Magic Traits",
 		"searchgroup": "trait",
+		"description": [
+			"::main[Back to Traits]{to=main/traits rev}",
+			"",
+			"::mhr",
+			"",
+			"::main[All Magic Traits]{to=main/traits_magic_all endem=\"(108 traits)\"}",
+			"",
+			"::main[Defense Traits]{to=main/traits_magic_def ind bottom=\"Affects armor bonuses, saving throws, DR, etc; 22 traits\"}",
+			"",
+			"::main[Spell Ability Traits]{to=main/traits_magic_spell ind bottom=\"Grants a spell, spell-like-ability, or an ability that duplicates a spell; 5 traits\"}",
+			"",
+			"::main[Class-Specific Traits]{to=main/traits_magic_class ind bottom=\"Requires a class ability to function; 21 traits\"}",
+			"",
+			"::main[Caster Level Traits]{to=main/traits_magic_cl ind bottom=\"Affects caster level; 14 traits\"}",
+			"",
+			"::main[Spell-Boosting Traits]{to=main/traits_magic_boost ind bottom=\"Affects spell variables; 11 traits\"}",
+			"",
+			"::main[Other Spellcasting Traits]{to=main/traits_magic_conconj ind bottom=\"Affects concentration or summoning; 8traits\"}",
+			"",
+			"::main[Other Magic-Related Traits]{to=main/traits_magic_general ind bottom=\"General magic-related effects; 6traits\"}",
+			"",
+			"::main[Intelligence-Based Skill Traits]{to=main/traits_magic_int ind bottom=\"Affects Appraise, Craft, Knowledge, Linguistics, or Spellcraft; 17 traits\"}",
+			"",
+			"::main[Charisma-Based Skill Traits]{to=main/traits_magic_cha ind bottom=\"Affects Bluff, Diplomacy, Handle Animal, Intimidate, or Use Magic Device; 8 traits\"}",
+			"",
+			"::main[Other Skill Traits]{to=main/traits_magic_ab ind bottom=\"Affects Climb, Disable Device, Heal, Sense Motive, or Swim; 6 traits\"}",
+			"",
+			"::main[Other Skill/Feat/Ability Traits]{to=main/traits_magic_other ind bottom=\"Affects skills, feats, languages known, or other abilities; 5 traits\"}"
+		]
+	},
+	"traits_magic_all": {
+		"title": "All Magic Traits",
+		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
 				[
-					"::main[Back to Traits]{to=main/traits rev}",
+					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
 					""
 				],
 				{
-					"limit": "Magic"
+					"limit": {
+						"regex": "^Magic"
+					}
+				}
+			]
+		}
+	},
+	"traits_magic_def": {
+		"title": "Defensive Magic Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^Magic.*-def\\b"
+					}
+				}
+			]
+		}
+	},
+	"traits_magic_spell": {
+		"title": "Spell Ability Magic Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^Magic.*-spell\\b"
+					}
+				}
+			]
+		}
+	},
+	"traits_magic_class": {
+		"title": "Class-Specific Magic Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^Magic.*-class\\b"
+					}
+				}
+			]
+		}
+	},
+	"traits_magic_cl": {
+		"title": "Caster Level Magic Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^Magic.*-cl\\b"
+					}
+				}
+			]
+		}
+	},
+	"traits_magic_boost": {
+		"title": "Spell-Boosting Magic Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^Magic.*-boost\\b"
+					}
+				}
+			]
+		}
+	},
+	"traits_magic_conconj": {
+		"title": "Other Spellcasting Magic Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^Magic.*-conj?\\b"
+					}
+				}
+			]
+		}
+	},
+	"traits_magic_general": {
+		"title": "Magic-Related Magic Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^Magic.*-general\\b"
+					}
+				}
+			]
+		}
+	},
+	"traits_magic_int": {
+		"title": "Intelligence-Based-Skill Magic Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^Magic.*-(craft|k.?.?|app|ling|spc)\\b"
+					}
+				}
+			]
+		}
+	},
+	"traits_magic_cha": {
+		"title": "Charisma-Based-Skill Magic Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^Magic.*-(bluff|diplo|ha|intm|umd)\\b"
+					}
+				}
+			]
+		}
+	},
+	"traits_magic_ab": {
+		"title": "Other Skill Magic Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^Magic.*-(climb|dd|heal|sm|swim)\\b"
+					}
+				}
+			]
+		}
+	},
+	"traits_magic_other": {
+		"title": "Other Skill/Feat/Ability Magic Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^Magic.*-other\\b"
+					}
 				}
 			]
 		}
