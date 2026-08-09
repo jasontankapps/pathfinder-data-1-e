@@ -1694,11 +1694,17 @@ const _traits_social_bluff = {title: "Bluff Social Traits", jsx: <IonList lines=
 <Pair single="flavor" id="traitmastermessenger-master-messenger-fn11-flavor">Your secret messages are rarely misunderstood.</Pair>
 <Pair single="benefit" id="traitmastermessenger-master-messenger-fn11-benefit">If you fail your <Link to="/skill/bluff">Bluff</Link> check to pass a simple message by 5 or more, you deliver no message instead of delivering the wrong message.</Pair>
 </Ability>
-<Ability id="traitsecretkeeperqac-secret-keeper-qac-fn12" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitsecretkeeperqac-secret-keeper-qac-fn12"><Link to="/trait/secret_keeper_qac">⮞</Link> Secret-Keeper (QaC) <sup><InnerLink showBacklink="backlink-main-traits_social_bluff-fake-fn-12" id="main-traits_social_bluff-fake-fn-12" data-hash-target to="main-traits_social_bluff-fake-fn-12-target">12</InnerLink></sup></Pair>
+<Ability id="traitnonchalantthuggery-nonchalant-thuggery-fn12" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitnonchalantthuggery-nonchalant-thuggery-fn12"><Link to="/trait/nonchalant_thuggery">⮞</Link> Nonchalant Thuggery <sup><InnerLink showBacklink="backlink-main-traits_social_bluff-fake-fn-12" id="main-traits_social_bluff-fake-fn-12" data-hash-target to="main-traits_social_bluff-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitsecretkeeperqac-secret-keeper-qac-fn12-flavor">Growing up in a land where paranoia fills the air and any accusation of heresy or dissent can spell doom for whole families, you learned very quickly to keep a secret.</Pair>
-<Pair single="benefit" id="traitsecretkeeperqac-secret-keeper-qac-fn12-benefit"><p>You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks and a +1 trait bonus on saving throws against divinations, domination effects, and effects that would compel you to speak the truth.</p>
+<Pair single="flavor" id="traitnonchalantthuggery-nonchalant-thuggery-fn12-flavor">You are adept at keeping witnesses from noticing that anything is wrong.</Pair>
+<Pair single="benefit" id="traitnonchalantthuggery-nonchalant-thuggery-fn12-benefit">You gain a +4 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks to keep others from noticing your aggressive actions.</Pair>
+</Ability>
+<Ability id="traitsecretkeeperqac-secret-keeper-qac-fn13" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitsecretkeeperqac-secret-keeper-qac-fn13"><Link to="/trait/secret_keeper_qac">⮞</Link> Secret-Keeper (QaC) <sup><InnerLink showBacklink="backlink-main-traits_social_bluff-fake-fn-13" id="main-traits_social_bluff-fake-fn-13" data-hash-target to="main-traits_social_bluff-fake-fn-13-target">13</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitsecretkeeperqac-secret-keeper-qac-fn13-flavor">Growing up in a land where paranoia fills the air and any accusation of heresy or dissent can spell doom for whole families, you learned very quickly to keep a secret.</Pair>
+<Pair single="benefit" id="traitsecretkeeperqac-secret-keeper-qac-fn13-benefit"><p>You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks and a +1 trait bonus on saving throws against divinations, domination effects, and effects that would compel you to speak the truth.</p>
 <p><strong>Suggested Characters:</strong> Chelaxians, Galtans, Nidalese.</p>
 </Pair>
 </Ability>
@@ -1708,17 +1714,17 @@ const _traits_social_bluff = {title: "Bluff Social Traits", jsx: <IonList lines=
 <Pair single="flavor" id="traitsignaturemoves-signature-moves-fn6-2-flavor">You're known for some unique item that has become your trademark.</Pair>
 <Pair single="benefit" id="traitsignaturemoves-signature-moves-fn6-2-benefit">Your starting equipment includes a single masterwork item worth less than 900 gp, and you gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks while wielding this item in one or both hands.</Pair>
 </Ability>
-<Ability id="traitstudentofphilosophy-student-of-philosophy-fn12-2" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitstudentofphilosophy-student-of-philosophy-fn12-2"><Link to="/trait/student_of_philosophy">⮞</Link> Student of Philosophy <sup><InnerLink showBacklink="backlink-main-traits_social_bluff-fake-fn-12.2" id="main-traits_social_bluff-fake-fn-12.2" data-hash-target to="main-traits_social_bluff-fake-fn-12-target">12</InnerLink></sup></Pair>
+<Ability id="traitstudentofphilosophy-student-of-philosophy-fn13-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitstudentofphilosophy-student-of-philosophy-fn13-2"><Link to="/trait/student_of_philosophy">⮞</Link> Student of Philosophy <sup><InnerLink showBacklink="backlink-main-traits_social_bluff-fake-fn-13.2" id="main-traits_social_bluff-fake-fn-13.2" data-hash-target to="main-traits_social_bluff-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitstudentofphilosophy-student-of-philosophy-fn12-2-flavor">You were trained in a now-defunct philosophical tradition - such as that of the now-destroyed Galtan universities or Lirgeni astrologers - and learned to use logic and reason to persuade others.</Pair>
-<Pair single="benefit" id="traitstudentofphilosophy-student-of-philosophy-fn12-2-benefit">You can use your Intelligence modifier in place of your Charisma modifier on <Link to="/skill/diplomacy">Diplomacy</Link> checks to persuade others and on <Link to="/skill/bluff">Bluff</Link> checks to convince others that a lie is true. (This trait does not affect Diplomacy checks to gather information or Bluff checks to feint in combat.) Suggested Characters: Arodenites, Galtans, Sodden Lands natives.</Pair>
+<Pair single="flavor" id="traitstudentofphilosophy-student-of-philosophy-fn13-2-flavor">You were trained in a now-defunct philosophical tradition - such as that of the now-destroyed Galtan universities or Lirgeni astrologers - and learned to use logic and reason to persuade others.</Pair>
+<Pair single="benefit" id="traitstudentofphilosophy-student-of-philosophy-fn13-2-benefit">You can use your Intelligence modifier in place of your Charisma modifier on <Link to="/skill/diplomacy">Diplomacy</Link> checks to persuade others and on <Link to="/skill/bluff">Bluff</Link> checks to convince others that a lie is true. (This trait does not affect Diplomacy checks to gather information or Bluff checks to feint in combat.) Suggested Characters: Arodenites, Galtans, Sodden Lands natives.</Pair>
 </Ability>
-<Ability id="traitsubjectivetruth-subjective-truth-fn13" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitsubjectivetruth-subjective-truth-fn13"><Link to="/trait/subjective_truth">⮞</Link> Subjective Truth <sup><InnerLink showBacklink="backlink-main-traits_social_bluff-fake-fn-13" id="main-traits_social_bluff-fake-fn-13" data-hash-target to="main-traits_social_bluff-fake-fn-13-target">13</InnerLink></sup></Pair>
+<Ability id="traitsubjectivetruth-subjective-truth-fn14" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitsubjectivetruth-subjective-truth-fn14"><Link to="/trait/subjective_truth">⮞</Link> Subjective Truth <sup><InnerLink showBacklink="backlink-main-traits_social_bluff-fake-fn-14" id="main-traits_social_bluff-fake-fn-14" data-hash-target to="main-traits_social_bluff-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitsubjectivetruth-subjective-truth-fn13-flavor">You are able to divorce your knowledge of the facts from your beliefs about the truth, and thus from your facial expressions and body language.</Pair>
-<Pair single="benefit" id="traitsubjectivetruth-subjective-truth-fn13-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks to lie, provided the person you're lying to has never known you to lie to him. Failing this check counts as being caught in a lie by the target, negating any future use of this bonus against that person.</Pair>
+<Pair single="flavor" id="traitsubjectivetruth-subjective-truth-fn14-flavor">You are able to divorce your knowledge of the facts from your beliefs about the truth, and thus from your facial expressions and body language.</Pair>
+<Pair single="benefit" id="traitsubjectivetruth-subjective-truth-fn14-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks to lie, provided the person you're lying to has never known you to lie to him. Failing this check counts as being caught in a lie by the target, negating any future use of this bonus against that person.</Pair>
 </Ability>
 <Ability id="traitunpredictable-unpredictable-fn1-4" extraClasses="trait" icon={["village"]}>
 <Pair single id="traitunpredictable-unpredictable-fn1-4"><Link to="/trait/unpredictable">⮞</Link> Unpredictable <sup><InnerLink showBacklink="backlink-main-traits_social_bluff-fake-fn-1.4" id="main-traits_social_bluff-fake-fn-1.4" data-hash-target to="main-traits_social_bluff-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -1744,8 +1750,9 @@ const _traits_social_bluff = {title: "Bluff Social Traits", jsx: <IonList lines=
 <li id="main-traits_social_bluff-fake-fn-9-target"><p><Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link> <InnerLink aria-label="Back to reference 9" id="backlink-main-traits_social_bluff-fake-fn-9" data-hash-target to="main-traits_social_bluff-fake-fn-9">↩</InnerLink></p></li>
 <li id="main-traits_social_bluff-fake-fn-10-target"><p><Link to="/source/black_markets">Black Markets</Link> <InnerLink aria-label="Back to reference 10" id="backlink-main-traits_social_bluff-fake-fn-10" data-hash-target to="main-traits_social_bluff-fake-fn-10">↩</InnerLink></p></li>
 <li id="main-traits_social_bluff-fake-fn-11-target"><p><Link to="/source/adventurers_armory_2">Adventurer's Armory 2</Link> <InnerLink aria-label="Back to reference 11" id="backlink-main-traits_social_bluff-fake-fn-11" data-hash-target to="main-traits_social_bluff-fake-fn-11">↩</InnerLink></p></li>
-<li id="main-traits_social_bluff-fake-fn-12-target"><p><Link to="/source/quests_and_campaigns">Quests and Campaigns</Link> <InnerLink aria-label="Back to reference 12" id="backlink-main-traits_social_bluff-fake-fn-12" data-hash-target to="main-traits_social_bluff-fake-fn-12">↩</InnerLink> <InnerLink aria-label="Back to reference 12" id="backlink-main-traits_social_bluff-fake-fn-12.2" data-hash-target to="main-traits_social_bluff-fake-fn-12.2">↩<sup>2</sup></InnerLink></p></li>
-<li id="main-traits_social_bluff-fake-fn-13-target"><p><Link to="/source/champions_of_corruption">Champions of Corruption</Link> <InnerLink aria-label="Back to reference 13" id="backlink-main-traits_social_bluff-fake-fn-13" data-hash-target to="main-traits_social_bluff-fake-fn-13">↩</InnerLink></p></li>
+<li id="main-traits_social_bluff-fake-fn-12-target"><p><Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link> <InnerLink aria-label="Back to reference 12" id="backlink-main-traits_social_bluff-fake-fn-12" data-hash-target to="main-traits_social_bluff-fake-fn-12">↩</InnerLink></p></li>
+<li id="main-traits_social_bluff-fake-fn-13-target"><p><Link to="/source/quests_and_campaigns">Quests and Campaigns</Link> <InnerLink aria-label="Back to reference 13" id="backlink-main-traits_social_bluff-fake-fn-13" data-hash-target to="main-traits_social_bluff-fake-fn-13">↩</InnerLink> <InnerLink aria-label="Back to reference 13" id="backlink-main-traits_social_bluff-fake-fn-13.2" data-hash-target to="main-traits_social_bluff-fake-fn-13.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_social_bluff-fake-fn-14-target"><p><Link to="/source/champions_of_corruption">Champions of Corruption</Link> <InnerLink aria-label="Back to reference 14" id="backlink-main-traits_social_bluff-fake-fn-14" data-hash-target to="main-traits_social_bluff-fake-fn-14">↩</InnerLink></p></li>
 </ol></section></IonList>};
 const _traits_social_diplo = {title: "Diplomacy Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><Ability id="traitaffable-affable-fn1" extraClasses="trait" icon={["village"]}>
 <Pair single id="traitaffable-affable-fn1"><Link to="/trait/affable">⮞</Link> Affable <sup><InnerLink showBacklink="backlink-main-traits_social_diplo-fake-fn-1" id="main-traits_social_diplo-fake-fn-1" data-hash-target to="main-traits_social_diplo-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -2357,191 +2364,4 @@ const _traits_social_k = {title: "Knowledge Social Traits", jsx: <IonList lines=
 <li id="main-traits_social_k-fake-fn-13-target"><p><Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link> <InnerLink aria-label="Back to reference 13" id="backlink-main-traits_social_k-fake-fn-13" data-hash-target to="main-traits_social_k-fake-fn-13">↩</InnerLink></p></li>
 <li id="main-traits_social_k-fake-fn-14-target"><p><Link to="/source/path_of_the_hellknight">Path of the Hellknight</Link> <InnerLink aria-label="Back to reference 14" id="backlink-main-traits_social_k-fake-fn-14" data-hash-target to="main-traits_social_k-fake-fn-14">↩</InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_social_sm = {title: "Sense Motive Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><Ability id="traitbastarduc-bastard-uc-fn1" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitbastarduc-bastard-uc-fn1"><Link to="/trait/bastard_uc">⮞</Link> Bastard (UC) <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-1" id="main-traits_social_sm-fake-fn-1" data-hash-target to="main-traits_social_sm-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitbastarduc-bastard-uc-fn1-flavor">You were born out of wedlock. You have always been an outsider in society, and in your own family. This perspective has sharpened your insight.</Pair>
-<Pair single="benefit" id="traitbastarduc-bastard-uc-fn1-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks, and Sense Motive is always a class skill for you.</Pair>
-</Ability>
-<Ability id="traitcallous-callous-fn2" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitcallous-callous-fn2"><Link to="/trait/callous">⮞</Link> Callous <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-2" id="main-traits_social_sm-fake-fn-2" data-hash-target to="main-traits_social_sm-fake-fn-2-target">2</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitcallous-callous-fn2-flavor">You have endured many hardships throughout your life, and this has hardened you to the suffering of others to the point that you are not easily swayed by a sad story.</Pair>
-<Pair single="benefit" id="traitcallous-callous-fn2-benefit">You gain a +4 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks that oppose the <Link to="/skill/bluff">Bluff</Link> checks of creatures that attempt to deceive you by winning your sympathy.</Pair>
-</Ability>
-<Ability id="traitcanter-canter-fn1-2-fn3-fn4" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitcanter-canter-fn1-2-fn3-fn4"><Link to="/trait/canter">⮞</Link> Canter <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-1.2" id="main-traits_social_sm-fake-fn-1.2" data-hash-target to="main-traits_social_sm-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-3" id="main-traits_social_sm-fake-fn-3" data-hash-target to="main-traits_social_sm-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-4" id="main-traits_social_sm-fake-fn-4" data-hash-target to="main-traits_social_sm-fake-fn-4-target">4</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitcanter-canter-fn1-2-fn3-fn4-flavor">You grew up among thieves and scoundrels, and their unusual speech patterns and turns of phrase don't faze you in the slightest.</Pair>
-<Pair single="benefit" id="traitcanter-canter-fn1-2-fn3-fn4-benefit">Anyone who attempts to use <Link to="/skill/bluff">Bluff</Link> to deliver a secret message to you gains a +5 bonus on her Bluff check. When you attempt to intercept a secret message using <Link to="/skill/sense_motive">Sense Motive</Link>, you gain a +5 trait bonus on the attempt.</Pair>
-</Ability>
-<Ability id="traitdetectdisobedience-detect-disobedience-fn5" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitdetectdisobedience-detect-disobedience-fn5"><Link to="/trait/detect_disobedience">⮞</Link> Detect Disobedience <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-5" id="main-traits_social_sm-fake-fn-5" data-hash-target to="main-traits_social_sm-fake-fn-5-target">5</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitdetectdisobedience-detect-disobedience-fn5-flavor">You have an uncanny ability to spot a mutiny brewing.</Pair>
-<Pair single="benefit" id="traitdetectdisobedience-detect-disobedience-fn5-benefit">You gain a +2 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to detect when an underling is trying to hide something from you, and can attempt such checks instead of Perception checks to notice and react to a subordinate's surprise attack against you.</Pair>
-</Ability>
-<Ability id="traithardlyafool-hardly-a-fool-fn6" extraClasses="trait" icon={["village"]}>
-<Pair single id="traithardlyafool-hardly-a-fool-fn6"><Link to="/trait/hardly_a_fool">⮞</Link> Hardly a Fool <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-6" id="main-traits_social_sm-fake-fn-6" data-hash-target to="main-traits_social_sm-fake-fn-6-target">6</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traithardlyafool-hardly-a-fool-fn6-flavor">You have always been able to ferret out lies and deception. Maybe you worked as an investigator for a time, you came from a place rife with lies, or you've studied the human condition long enough to read a person's face and get to the heart of his message.</Pair>
-<Pair single="benefit" id="traithardlyafool-hardly-a-fool-fn6-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks and a +1 trait bonus on saving throws against illusion effects.</Pair>
-</Ability>
-<Ability id="traitheartoftwoworlds-heart-of-two-worlds-fn7" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitheartoftwoworlds-heart-of-two-worlds-fn7"><Link to="/trait/heart_of_two_worlds">⮞</Link> Heart of Two Worlds <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-7" id="main-traits_social_sm-fake-fn-7" data-hash-target to="main-traits_social_sm-fake-fn-7-target">7</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitheartoftwoworlds-heart-of-two-worlds-fn7-flavor">Born into a world split in twain, you are particularly skilled at understanding and empathizing with those around you.</Pair>
-<Pair single="benefit" id="traitheartoftwoworlds-heart-of-two-worlds-fn7-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks involving creatures that belong to the same race (or, if human, ethnicity) as your mother or father.</Pair>
-</Ability>
-<Ability id="traitinfluence-influence-fn1-3" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitinfluence-influence-fn1-3"><Link to="/trait/influence">⮞</Link> Influence <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-1.3" id="main-traits_social_sm-fake-fn-1.3" data-hash-target to="main-traits_social_sm-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitinfluence-influence-fn1-3-flavor">Your position in society grants you special insight into others, and special consideration or outright awe from others.</Pair>
-<Pair single="benefit" id="traitinfluence-influence-fn1-3-benefit">Choose one of the following skills: <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/intimidate">Intimidate</Link>, or <Link to="/skill/sense_motive">Sense Motive</Link>. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
-</Ability>
-<Ability id="traitlawenforcer-law-enforcer-fn8" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitlawenforcer-law-enforcer-fn8"><Link to="/trait/law_enforcer">⮞</Link> Law Enforcer <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-8" id="main-traits_social_sm-fake-fn-8" data-hash-target to="main-traits_social_sm-fake-fn-8-target">8</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair title="Code of Vigilance" hl><p>Knights who follow the code of vigilance believe that people are prone to chaos and society will eventually devolve into anarchy if given the opportunity. In order for society to continue, these knights must constantly remind people of the law, and take it upon themselves to enforce it in the absence of other authority figures. Their vows are as follows.</p>
-<ul>
-<li><p>I will be familiar with local laws and adhere to them strictly.</p>
-</li>
-<li><p>If I witness a crime, I will attempt to capture the criminal and report his actions to the authorities.</p>
-</li>
-<li><p>If any I meet are known to be escaped criminals, I will attempt to apprehend them by any means necessary.</p>
-</li>
-<li><p>I shall mete out appropriate punishment for those who violate the law, but only if no acceptable authority is readily available.</p>
-</li>
-<li><p>I shall remember that none are above the law, and that law is absolute. There shall be no mitigating circumstances for any individual, regardless of station or position.</p>
-</li>
-</ul>
-</Pair>
-<Pair single="benefit" id="traitlawenforcer-law-enforcer-fn8-benefit">If you follow this code, you are always alert to those who transgress against the laws of civilization. You receive a +2 bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to gain a hunch from social situations, and begin play with a pair of <Link to="/eq-misc/masterwork_manacles">masterwork manacles</Link>.</Pair>
-<Pair title="Penance" hl>Knights who follow this code and violate one of its tenets must perform penance based on the violation. If they are disgraced for violating the law when it was not acceptable, they must voluntarily surrender to the appropriate authority and receive proper punishment. If they allowed a criminal to escape, they must assist in the capture and punishment of the criminal.</Pair>
-</Ability>
-<Ability id="traitmalevolenttemptations-malevolent-temptations-fn9" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitmalevolenttemptations-malevolent-temptations-fn9"><Link to="/trait/malevolent_temptations">⮞</Link> Malevolent Temptations <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-9" id="main-traits_social_sm-fake-fn-9" data-hash-target to="main-traits_social_sm-fake-fn-9-target">9</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitmalevolenttemptations-malevolent-temptations-fn9-flavor">You have resisted or escaped the temptations of a disguised <Link to="/family/hag">hag</Link>, and you learned much from your encounter.</Pair>
-<Pair single="benefit" id="traitmalevolenttemptations-malevolent-temptations-fn9-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks and a +2 trait bonus on saving throws to disbelieve illusions.</Pair>
-</Ability>
-<Ability id="traitmercenary-mercenary-fn1-4" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitmercenary-mercenary-fn1-4"><Link to="/trait/mercenary">⮞</Link> Mercenary <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-1.4" id="main-traits_social_sm-fake-fn-1.4" data-hash-target to="main-traits_social_sm-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitmercenary-mercenary-fn1-4-flavor">For everything there is a price, and you are a negotiator at heart.</Pair>
-<Pair single="benefit" id="traitmercenary-mercenary-fn1-4-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/intimidate">Intimidate</Link>, and <Link to="/skill/sense_motive">Sense Motive</Link> checks made while negotiating payment for a quest or a service that you provide.</Pair>
-</Ability>
-<Ability id="traitmerchant-merchant-fn1-5" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitmerchant-merchant-fn1-5"><Link to="/trait/merchant">⮞</Link> Merchant <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-1.5" id="main-traits_social_sm-fake-fn-1.5" data-hash-target to="main-traits_social_sm-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitmerchant-merchant-fn1-5-flavor">You lived your life as a merchant, buying and selling goods.</Pair>
-<Pair single="benefit" id="traitmerchant-merchant-fn1-5-benefit">You gain a +1 trait bonus on any <Link to="/skill/appraise">Appraise</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks you attempt while bargaining for the price of goods. Appraise is always a class skill for you.</Pair>
-</Ability>
-<Ability id="traitpreternaturalawareness-preternatural-awareness-fn9-2" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitpreternaturalawareness-preternatural-awareness-fn9-2"><Link to="/trait/preternatural_awareness">⮞</Link> Preternatural Awareness <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-9.2" id="main-traits_social_sm-fake-fn-9.2" data-hash-target to="main-traits_social_sm-fake-fn-9-target">9</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitpreternaturalawareness-preternatural-awareness-fn9-2-flavor">Multiple encounters with fell magic have left you wary.</Pair>
-<Pair single="benefit" id="traitpreternaturalawareness-preternatural-awareness-fn9-2-benefit">You gain a +2 trait bonus on <Link to="/skill/perception">Perception</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks to notice cursed objects, haunts, and magically disguised creatures.</Pair>
-</Ability>
-<Ability id="traitsuspicious-suspicious-fn1-6-fn4-2-fn3-2" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitsuspicious-suspicious-fn1-6-fn4-2-fn3-2"><Link to="/trait/suspicious">⮞</Link> Suspicious <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-1.6" id="main-traits_social_sm-fake-fn-1.6" data-hash-target to="main-traits_social_sm-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-4.2" id="main-traits_social_sm-fake-fn-4.2" data-hash-target to="main-traits_social_sm-fake-fn-4-target">4</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_sm-fake-fn-3.2" id="main-traits_social_sm-fake-fn-3.2" data-hash-target to="main-traits_social_sm-fake-fn-3-target">3</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitsuspicious-suspicious-fn1-6-fn4-2-fn3-2-flavor">You discovered at an early age that someone you trusted, perhaps an older sibling or a parent, had lied to you, and lied often, about something you had taken for granted, leaving you quick to question the claims of others.</Pair>
-<Pair single="benefit" id="traitsuspicious-suspicious-fn1-6-fn4-2-fn3-2-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks, and Sense Motive is always a class skill for you.</Pair>
-</Ability>
-<section data-footnotes><h3 id="main-traits_social_sm-label">Footnotes</h3><ol>
-<li id="main-traits_social_sm-fake-fn-1-target"><p><Link to="/source/ultimate_campaign">Ultimate Campaign</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_sm-fake-fn-1" data-hash-target to="main-traits_social_sm-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_sm-fake-fn-1.2" data-hash-target to="main-traits_social_sm-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_sm-fake-fn-1.3" data-hash-target to="main-traits_social_sm-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_sm-fake-fn-1.4" data-hash-target to="main-traits_social_sm-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_sm-fake-fn-1.5" data-hash-target to="main-traits_social_sm-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_sm-fake-fn-1.6" data-hash-target to="main-traits_social_sm-fake-fn-1.6">↩<sup>6</sup></InnerLink></p></li>
-<li id="main-traits_social_sm-fake-fn-2-target"><p><Link to="/source/antiheros_handbook">Antihero's Handbook</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_sm-fake-fn-2" data-hash-target to="main-traits_social_sm-fake-fn-2">↩</InnerLink></p></li>
-<li id="main-traits_social_sm-fake-fn-3-target"><p><Link to="/source/advanced_players_guide">Advanced Player's Guide</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_social_sm-fake-fn-3" data-hash-target to="main-traits_social_sm-fake-fn-3">↩</InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_social_sm-fake-fn-3.2" data-hash-target to="main-traits_social_sm-fake-fn-3.2">↩<sup>2</sup></InnerLink></p></li>
-<li id="main-traits_social_sm-fake-fn-4-target"><p><Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_social_sm-fake-fn-4" data-hash-target to="main-traits_social_sm-fake-fn-4">↩</InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_social_sm-fake-fn-4.2" data-hash-target to="main-traits_social_sm-fake-fn-4.2">↩<sup>2</sup></InnerLink></p></li>
-<li id="main-traits_social_sm-fake-fn-5-target"><p><Link to="/source/champions_of_corruption">Champions of Corruption</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_sm-fake-fn-5" data-hash-target to="main-traits_social_sm-fake-fn-5">↩</InnerLink></p></li>
-<li id="main-traits_social_sm-fake-fn-6-target"><p><Link to="/source/champions_of_purity">Champions of Purity</Link> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_social_sm-fake-fn-6" data-hash-target to="main-traits_social_sm-fake-fn-6">↩</InnerLink></p></li>
-<li id="main-traits_social_sm-fake-fn-7-target"><p><Link to="/source/bastards_of_golarion">Bastards of Golarion</Link> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_social_sm-fake-fn-7" data-hash-target to="main-traits_social_sm-fake-fn-7">↩</InnerLink></p></li>
-<li id="main-traits_social_sm-fake-fn-8-target"><p><Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_social_sm-fake-fn-8" data-hash-target to="main-traits_social_sm-fake-fn-8">↩</InnerLink></p></li>
-<li id="main-traits_social_sm-fake-fn-9-target"><p><Link to="/source/blood_of_the_coven">Blood of the Coven</Link> <InnerLink aria-label="Back to reference 9" id="backlink-main-traits_social_sm-fake-fn-9" data-hash-target to="main-traits_social_sm-fake-fn-9">↩</InnerLink> <InnerLink aria-label="Back to reference 9" id="backlink-main-traits_social_sm-fake-fn-9.2" data-hash-target to="main-traits_social_sm-fake-fn-9.2">↩<sup>2</sup></InnerLink></p></li>
-</ol></section></IonList>};
-const _traits_social_sur_per = {title: "Survival and Perception Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><Ability id="traitexplorer-explorer-fn1" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitexplorer-explorer-fn1"><Link to="/trait/explorer">⮞</Link> Explorer <sup><InnerLink showBacklink="backlink-main-traits_social_sur_per-fake-fn-1" id="main-traits_social_sur_per-fake-fn-1" data-hash-target to="main-traits_social_sur_per-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
-<Pair single="flavor" id="traitexplorer-explorer-fn1-flavor">Though many gnomes settle down in communities large enough and interesting enough to provide them with all the stimulation they need to ward off the Bleaching, you're never going to be one of them. You are always looking around the next bend in the road or over the next hill, past the borders of where you are to where you want to be.</Pair>
-<Pair single="benefit" id="traitexplorer-explorer-fn1-benefit"><p>At the beginning of each character level, select one desired terrain type from the following list: cold, desert, forest, jungle, mountains (including hills), plains, planes (other than the Material Plane), swamp, underground (including caves and dungeons), urban, or water. You gain a +2 bonus on all <Link to="/skill/survival">Survival</Link> checks made in your desired terrain type.</p>
-<p>At the beginning of each level, you must select a new desired terrain type to replace the old one (you cannot take the same desired terrain type two levels in a row).</p>
-</Pair>
-</Ability>
-<Ability id="traitorphaned-orphaned-fn2" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitorphaned-orphaned-fn2"><Link to="/trait/orphaned">⮞</Link> Orphaned <sup><InnerLink showBacklink="backlink-main-traits_social_sur_per-fake-fn-2" id="main-traits_social_sur_per-fake-fn-2" data-hash-target to="main-traits_social_sur_per-fake-fn-2-target">2</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitorphaned-orphaned-fn2-flavor">You grew up separated from your birth parents, and had to learn to watch out for yourself.</Pair>
-<Pair single="benefit" id="traitorphaned-orphaned-fn2-benefit">You gain a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks, and Survival is always a class skill for you.</Pair>
-</Ability>
-<Ability id="traitpovertystricken-poverty-stricken-fn2-2-fn3-fn4" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitpovertystricken-poverty-stricken-fn2-2-fn3-fn4"><Link to="/trait/poverty_stricken">⮞</Link> Poverty-Stricken <sup><InnerLink showBacklink="backlink-main-traits_social_sur_per-fake-fn-2.2" id="main-traits_social_sur_per-fake-fn-2.2" data-hash-target to="main-traits_social_sur_per-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_sur_per-fake-fn-3" id="main-traits_social_sur_per-fake-fn-3" data-hash-target to="main-traits_social_sur_per-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_sur_per-fake-fn-4" id="main-traits_social_sur_per-fake-fn-4" data-hash-target to="main-traits_social_sur_per-fake-fn-4-target">4</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitpovertystricken-poverty-stricken-fn2-2-fn3-fn4-flavor">Your childhood was tough, and your parents always had to make every copper piece count. Hunger was your constant companion, and you often had to live off the land or sleep in the wild.</Pair>
-<Pair single="benefit" id="traitpovertystricken-poverty-stricken-fn2-2-fn3-fn4-benefit">You gain a +1 bonus on <Link to="/skill/survival">Survival</Link> checks, and Survival is always a class skill for you.</Pair>
-</Ability>
-<Ability id="traitpreternaturalawareness-preternatural-awareness-fn5" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitpreternaturalawareness-preternatural-awareness-fn5"><Link to="/trait/preternatural_awareness">⮞</Link> Preternatural Awareness <sup><InnerLink showBacklink="backlink-main-traits_social_sur_per-fake-fn-5" id="main-traits_social_sur_per-fake-fn-5" data-hash-target to="main-traits_social_sur_per-fake-fn-5-target">5</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitpreternaturalawareness-preternatural-awareness-fn5-flavor">Multiple encounters with fell magic have left you wary.</Pair>
-<Pair single="benefit" id="traitpreternaturalawareness-preternatural-awareness-fn5-benefit">You gain a +2 trait bonus on <Link to="/skill/perception">Perception</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks to notice cursed objects, haunts, and magically disguised creatures.</Pair>
-</Ability>
-<Ability id="traitruggeddragonhunter-rugged-dragon-hunter-fn6" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitruggeddragonhunter-rugged-dragon-hunter-fn6"><Link to="/trait/rugged_dragon_hunter">⮞</Link> Rugged Dragon Hunter <sup><InnerLink showBacklink="backlink-main-traits_social_sur_per-fake-fn-6" id="main-traits_social_sur_per-fake-fn-6" data-hash-target to="main-traits_social_sur_per-fake-fn-6-target">6</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="benefit" id="traitruggeddragonhunter-rugged-dragon-hunter-fn6-benefit">You gain a +2 trait bonus on <Link to="/skill/survival">Survival</Link> checks to track dragons. If you have the <Link to="/ability/favored_terrain">favored terrain</Link> class ability, add a +1 bonus to check for skills affected by this ability, as long as you're using these skills in regards to a dragon.</Pair>
-</Ability>
-<Ability id="traitsavage-savage-fn2-3" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitsavage-savage-fn2-3"><Link to="/trait/savage">⮞</Link> Savage <sup><InnerLink showBacklink="backlink-main-traits_social_sur_per-fake-fn-2.3" id="main-traits_social_sur_per-fake-fn-2.3" data-hash-target to="main-traits_social_sur_per-fake-fn-2-target">2</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitsavage-savage-fn2-3-flavor">You were born and raised in untamed lands far from civilization. You learned to survive in the elements among brutal humanoids and beasts.</Pair>
-<Pair single="benefit" id="traitsavage-savage-fn2-3-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> checks and a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks to get along in the wild. Knowledge (nature) is always a class skill for you.</Pair>
-</Ability>
-<Ability id="traitseeker-seeker-fn2-4" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitseeker-seeker-fn2-4"><Link to="/trait/seeker">⮞</Link> Seeker <sup><InnerLink showBacklink="backlink-main-traits_social_sur_per-fake-fn-2.4" id="main-traits_social_sur_per-fake-fn-2.4" data-hash-target to="main-traits_social_sur_per-fake-fn-2-target">2</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitseeker-seeker-fn2-4-flavor">You are always on the lookout for reward and danger.</Pair>
-<Pair single="benefit" id="traitseeker-seeker-fn2-4-benefit">You gain a +1 trait bonus on <Link to="/skill/perception">Perception</Link> checks, and Perception is always a class skill for you.</Pair>
-</Ability>
-<Ability id="traittriaxustrained-triaxus-trained-fn6-2" extraClasses="trait" icon={["village"]}>
-<Pair single id="traittriaxustrained-triaxus-trained-fn6-2"><Link to="/trait/triaxus_trained">⮞</Link> Triaxus-Trained <sup><InnerLink showBacklink="backlink-main-traits_social_sur_per-fake-fn-6.2" id="main-traits_social_sur_per-fake-fn-6.2" data-hash-target to="main-traits_social_sur_per-fake-fn-6-target">6</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traittriaxustrained-triaxus-trained-fn6-2-flavor">You have been trained in intricate dragon-handling techniques that originated on Triaxus.</Pair>
-<Pair single="benefit" id="traittriaxustrained-triaxus-trained-fn6-2-benefit">You gain a +1 trait bonus on <Link to="/skill/perception">Perception</Link> checks, and a +1 trait bonus on skill checks attempted as part of trying to influence a dragon.</Pair>
-</Ability>
-<Ability id="traitvigilantspycatcher-vigilant-spycatcher-fn7" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitvigilantspycatcher-vigilant-spycatcher-fn7"><Link to="/trait/vigilant_spycatcher">⮞</Link> Vigilant Spycatcher <sup><InnerLink showBacklink="backlink-main-traits_social_sur_per-fake-fn-7" id="main-traits_social_sur_per-fake-fn-7" data-hash-target to="main-traits_social_sur_per-fake-fn-7-target">7</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitvigilantspycatcher-vigilant-spycatcher-fn7-flavor">Paranoid parents or a military trainer taught you to keep vigilant for spies.</Pair>
-<Pair single="benefit" id="traitvigilantspycatcher-vigilant-spycatcher-fn7-benefit">If you roll less than 10 on <Link to="/skill/perception">Perception</Link> checks to see through disguises, determine your result as if you had rolled 10.</Pair>
-</Ability>
-<Ability id="traitwastelandvargrant-wasteland-vargrant-fn8" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitwastelandvargrant-wasteland-vargrant-fn8"><Link to="/trait/wasteland_vargrant">⮞</Link> Wasteland Vargrant <sup><InnerLink showBacklink="backlink-main-traits_social_sur_per-fake-fn-8" id="main-traits_social_sur_per-fake-fn-8" data-hash-target to="main-traits_social_sur_per-fake-fn-8-target">8</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitwastelandvargrant-wasteland-vargrant-fn8-flavor">You have spent most of your life learning how to survive in wastelands, and a lack of normal survival resources apparent in the environment is not a problem for you.</Pair>
-<Pair single="benefit" id="traitwastelandvargrant-wasteland-vargrant-fn8-benefit">When you gain this trait, pick one type of wasteland from the following list: blighted, Abyssal, desert, or waterlogged. You gain a +2 trait bonus on <Link to="/skill/survival">Survival</Link> checks in that type of wasteland terrain. (The GM determines whether terrain falls into the chosen type of wasteland.) Once you choose a type of wasteland terrain to gain this benefit in, you cannot change it later.</Pair>
-</Ability>
-<Ability id="traitweatheredemissary-weathered-emissary-fn2-5" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitweatheredemissary-weathered-emissary-fn2-5"><Link to="/trait/weathered_emissary">⮞</Link> Weathered Emissary <sup><InnerLink showBacklink="backlink-main-traits_social_sur_per-fake-fn-2.5" id="main-traits_social_sur_per-fake-fn-2.5" data-hash-target to="main-traits_social_sur_per-fake-fn-2-target">2</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitweatheredemissary-weathered-emissary-fn2-5-flavor">Your travels in the wildlands gave you insight into how to survive their dangers and communicate with their inhabitants.</Pair>
-<Pair single="benefit" id="traitweatheredemissary-weathered-emissary-fn2-5-benefit">You gain a +1 trait bonus on all <Link to="/skill/linguistics">Linguistics</Link> and <Link to="/skill/survival">Survival</Link> checks, and Linguistics is always a class skill for you.</Pair>
-</Ability>
-<Ability id="traitwiscraniear-wiscrani-ear-fn7-2" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitwiscraniear-wiscrani-ear-fn7-2"><Link to="/trait/wiscrani_ear">⮞</Link> Wiscrani Ear <sup><InnerLink showBacklink="backlink-main-traits_social_sur_per-fake-fn-7.2" id="main-traits_social_sur_per-fake-fn-7.2" data-hash-target to="main-traits_social_sur_per-fake-fn-7-target">7</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair single="flavor" id="traitwiscraniear-wiscrani-ear-fn7-2-flavor">You have a keen ear for the movements of thieves and monsters.</Pair>
-<Pair single="benefit" id="traitwiscraniear-wiscrani-ear-fn7-2-benefit">You can always take 10 on <Link to="/skill/perception">Perception</Link> checks, even when stress and distractions would normally prevent you from doing so.</Pair>
-</Ability>
-<section data-footnotes><h3 id="main-traits_social_sur_per-label">Footnotes</h3><ol>
-<li id="main-traits_social_sur_per-fake-fn-1-target"><p><Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_sur_per-fake-fn-1" data-hash-target to="main-traits_social_sur_per-fake-fn-1">↩</InnerLink></p></li>
-<li id="main-traits_social_sur_per-fake-fn-2-target"><p><Link to="/source/ultimate_campaign">Ultimate Campaign</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_sur_per-fake-fn-2" data-hash-target to="main-traits_social_sur_per-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_sur_per-fake-fn-2.2" data-hash-target to="main-traits_social_sur_per-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_sur_per-fake-fn-2.3" data-hash-target to="main-traits_social_sur_per-fake-fn-2.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_sur_per-fake-fn-2.4" data-hash-target to="main-traits_social_sur_per-fake-fn-2.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_sur_per-fake-fn-2.5" data-hash-target to="main-traits_social_sur_per-fake-fn-2.5">↩<sup>5</sup></InnerLink></p></li>
-<li id="main-traits_social_sur_per-fake-fn-3-target"><p><Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_social_sur_per-fake-fn-3" data-hash-target to="main-traits_social_sur_per-fake-fn-3">↩</InnerLink></p></li>
-<li id="main-traits_social_sur_per-fake-fn-4-target"><p><Link to="/source/advanced_players_guide">Advanced Player's Guide</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_social_sur_per-fake-fn-4" data-hash-target to="main-traits_social_sur_per-fake-fn-4">↩</InnerLink></p></li>
-<li id="main-traits_social_sur_per-fake-fn-5-target"><p><Link to="/source/blood_of_the_coven">Blood of the Coven</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_sur_per-fake-fn-5" data-hash-target to="main-traits_social_sur_per-fake-fn-5">↩</InnerLink></p></li>
-<li id="main-traits_social_sur_per-fake-fn-6-target"><p><Link to="/source/legacy_of_dragons">Legacy of Dragons</Link> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_social_sur_per-fake-fn-6" data-hash-target to="main-traits_social_sur_per-fake-fn-6">↩</InnerLink> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_social_sur_per-fake-fn-6.2" data-hash-target to="main-traits_social_sur_per-fake-fn-6.2">↩<sup>2</sup></InnerLink></p></li>
-<li id="main-traits_social_sur_per-fake-fn-7-target"><p><Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_social_sur_per-fake-fn-7" data-hash-target to="main-traits_social_sur_per-fake-fn-7">↩</InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_social_sur_per-fake-fn-7.2" data-hash-target to="main-traits_social_sur_per-fake-fn-7.2">↩<sup>2</sup></InnerLink></p></li>
-<li id="main-traits_social_sur_per-fake-fn-8-target"><p><Link to="/source/people_of_the_wastes">People of the Wastes</Link> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_social_sur_per-fake-fn-8" data-hash-target to="main-traits_social_sur_per-fake-fn-8">↩</InnerLink></p></li>
-</ol></section></IonList>};
-export default {traits_social:_traits_social,traits_social_all:_traits_social_all,traits_social_off:_traits_social_off,traits_social_def:_traits_social_def,traits_social_class:_traits_social_class,traits_social_magic:_traits_social_magic,traits_social_code:_traits_social_code,traits_social_lang:_traits_social_lang,traits_social_bluff:_traits_social_bluff,traits_social_diplo:_traits_social_diplo,traits_social_intm:_traits_social_intm,traits_social_k:_traits_social_k,traits_social_sm:_traits_social_sm,traits_social_sur_per:_traits_social_sur_per}
+export default {traits_social:_traits_social,traits_social_all:_traits_social_all,traits_social_off:_traits_social_off,traits_social_def:_traits_social_def,traits_social_class:_traits_social_class,traits_social_magic:_traits_social_magic,traits_social_code:_traits_social_code,traits_social_lang:_traits_social_lang,traits_social_bluff:_traits_social_bluff,traits_social_diplo:_traits_social_diplo,traits_social_intm:_traits_social_intm,traits_social_k:_traits_social_k}

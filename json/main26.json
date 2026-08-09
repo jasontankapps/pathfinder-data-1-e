@@ -19,9 +19,9 @@
 			"",
 			"::main[Spell-Boosting Traits]{to=main/traits_magic_boost ind bottom=\"Affects spell variables; 11 traits\"}",
 			"",
-			"::main[Other Spellcasting Traits]{to=main/traits_magic_conconj ind bottom=\"Affects concentration or summoning; 8traits\"}",
+			"::main[Other Spellcasting Traits]{to=main/traits_magic_conconj ind bottom=\"Affects concentration or summoning; 8 traits\"}",
 			"",
-			"::main[Other Magic-Related Traits]{to=main/traits_magic_general ind bottom=\"General magic-related effects; 6traits\"}",
+			"::main[Other Magic-Related Traits]{to=main/traits_magic_general ind bottom=\"General magic-related effects; 6 traits\"}",
 			"",
 			"::main[Intelligence-Based Skill Traits]{to=main/traits_magic_int ind bottom=\"Affects Appraise, Craft, Knowledge, Linguistics, or Spellcraft; 17 traits\"}",
 			"",
@@ -152,7 +152,7 @@
 				],
 				{
 					"limit": {
-						"regex": "^Magic.*-conj?\\b"
+						"regex": "^Magic.*-con[jc]\\b"
 					}
 				}
 			]

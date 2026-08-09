@@ -206,5 +206,257 @@
 				}
 			]
 		}
+	},
+	"traits_spell": {
+		"title": "Spell Ability Basic Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Traits]{to=main/traits rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-spellX?\\b"
+					},
+					"sort": [ "name" ]
+				}
+			]
+		}
+	},
+	"traits_basic_magic": {
+		"title": "Magic-Related Basic Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Traits]{to=main/traits rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-magic\\b"
+					},
+					"sort": [ "name" ]
+				}
+			]
+		}
+	},
+	"traits_class": {
+		"title": "Clas-Specific Basic Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Traits]{to=main/traits rev}",
+					"",
+					":::item",
+					"",
+					"@HL[Note:] Other classes may select these traits if they have the same class ability being modified. For instance, swashbucklers can take gunslinger traits that modify deeds, and investigators may take alchemist traits that modify extracts.",
+					"",
+					":::",
+					"",
+					"::mainheader[Any Spellcaster]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class-caster\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Any with an Animal Companion]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class-anim\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Alchemist]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class-alch\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Barbarian]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class-barb\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Bard]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class-bard\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Cleric]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class-cleric\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Druid]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class\\b.*-druid\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Gunslinger]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class-guns\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Hunter]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class-hunter\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Inquisitor]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class\\b.*-inq\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Magus]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class-magus\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Monk]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class-monk\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Paladin]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class\\b.*-paladin\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Ranger]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class-ranger\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Rogue]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class-rogue\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Sorcerer]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class-sorc\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Summoner]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class-summ\\b"
+					},
+					"sort": [ "name" ]
+				},
+				[
+					"",
+					"::mainheader[Wizard]",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^(Faith|Social|Magic|Combat).*-class\\b.*-wiz\\b"
+					},
+					"sort": [ "name" ]
+				}
+			]
+		}
 	}
 }

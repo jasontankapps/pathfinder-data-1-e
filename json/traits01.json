@@ -23,7 +23,7 @@
 		"description": [
 			"::trait{title=\"&L&Absolute Loyalty&FN&\" type=\"Combat\" benefit=\"You gain the one-time ability to immediately cast ‹spell/atonement› upon yourself as a spell-like ability upon performing an act or being subjected to an effect that spell affects. This ability can only be used while you are acting in the service of your liege (an individual of higher social standing chosen when you take this feat).\"}"
 		],
-		"category": "Combat-ab",
+		"category": "Combat-ab-spell",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"accelerated_drinker": {
@@ -832,7 +832,7 @@
 		"description": [
 			"::trait{title=\"&L&Nature's Mimic&FN&\" type=\"Combat\" flavor=\"Your knowledge of nature informs your fighting style, and that style gives you insight into related aspects of the natural world.\" benefit=\"You gain a +1 trait bonus on all ‹skill/Knowledge (nature)› checks, and Knowledge (nature) is always a class skill for you. You can make Knowledge (nature) checks pertaining to animals that correspond to your style feats untrained.\"}"
 		],
-		"category": "Combat-ab-cs",
+		"category": "Combat-ab-cs-class-monk",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"never_stop_shooting": {
@@ -993,7 +993,7 @@
 		"description": [
 			"::trait{title=\"&L&Rider's Bond&FN&\" type=\"Combat\" region=\"Lastwall\" req=\"Associated with the court of Castle Overwatch\" flavor=\"Your mount keenly understands your commands.\" benefit=\"If you gain a horse as an animal companion or mount as one of your class abilities, it gains two bonus tricks that don't count against the normal limit of tricks known by the animal.\"}"
 		],
-		"category": "Combat-class-ranger-hunter-druid-cavalier-paladin",
+		"category": "Combat-class-anim",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"river_fighter": {
@@ -1210,9 +1210,9 @@
 		"name": "Thunder and Fang Performer",
 		"compilationSources": [ [ "Weapon Master's Handbook" ] ],
 		"description": [
-			"::trait{title=\"&L&Thunder and Fang Performer&FN&\" type=\"Combat\" flavor=\"You learned from Shoanti champions to take advantage of the dramatic swings required by heavy weapons like the ‹eq-weapon/earth breaker›.\" benefit=\"You gain a +2 trait bonus on Intimidate checks while wielding a two-handed melee weapon.\"}"
+			"::trait{title=\"&L&Thunder and Fang Performer&FN&\" type=\"Combat\" flavor=\"You learned from Shoanti champions to take advantage of the dramatic swings required by heavy weapons like the ‹eq-weapon/earth breaker›.\" benefit=\"You gain a +2 trait bonus on ‹skill/Intimidate› checks while wielding a two-handed melee weapon.\"}"
 		],
-		"category": "Combat-init",
+		"category": "Combat-ab",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"to_the_last": {
@@ -1759,7 +1759,7 @@
 		"description": [
 			"::trait{title=\"&L&Fate's Favored&FN&\" type=\"Faith\" flavor=\"The fates watch over you.\" benefit=\"Whenever you are under the effect of a luck bonus of any kind, that bonus increases by 1.\"}"
 		],
-		"category": "Faith-ab-combat",
+		"category": "Faith-ab-combat-off-def",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"fearless_defiance": {
@@ -2043,7 +2043,7 @@
 		"description": [
 			"::trait{title=\"&L&Naturally Gifted&FN&\" type=\"Faith\" req=\"‹race/Gnome› with the *gnome magic* racial trait\" flavor=\"For unknown reasons, you have deeper reserves of magical energy than those around you. Perhaps you are descended from a family of powerful arcane casters, or maybe you believe this trait marks you as destined for magical greatness.\" benefit=\"You gain an additional use of one of your *gnome magic* spell-like abilities each day. This does not always have to be the same spell-like ability - one day you might use ‹spell/dancing lights› twice, only to use the additional casting for ‹spell/speak with animals› the next day.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-spellX",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"nature_worshiper": {
@@ -2837,7 +2837,7 @@
 		"description": [
 			"::trait{title=\"&L&Competitive&FN&\" type=\"Social\" flavor=\"You grew up and were raised around fabulous sporting events, and your youth was consumed with a driving need to be better than everyone else. Any hint of a contest spurs you to your greatest heights of potential.\" benefit=\"Whenever another creature within 30 feet attempts a skill check and you attempt a check with the same skill before the start of that creature's next turn, you gain a +1 trait bonus on your check (this includes attempting an opposed skill check against the creature).~~~**Suggested Characters:** Brevans, Kurgess worshipers, Sargavans.\"}"
 		],
-		"category": "Social-ab-other-",
+		"category": "Social-ab-other",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"contagious_mettle": {
@@ -3523,7 +3523,7 @@
 		"description": [
 			"::trait{title=\"&L&Nonchalant Thuggery&FN&\" type=\"Social\" flavor=\"You are adept at keeping witnesses from noticing that anything is wrong.\" benefit=\"You gain a +4 trait bonus on ‹skill/Bluff› checks to keep others from noticing your aggressive actions.\"}"
 		],
-		"category": "Social-ab-bliff",
+		"category": "Social-ab-bluff",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"numerian_fluid_indulger": {

@@ -1060,7 +1060,7 @@ const _thunder_and_fang_performer = {title: "Thunder and Fang Performer", topLin
 <Pair single id="thunder-and-fang-performer">Thunder and Fang Performer</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="thunder-and-fang-performer-flavor">You learned from Shoanti champions to take advantage of the dramatic swings required by heavy weapons like the <Link to="/eq-weapon/earth_breaker">earth breaker</Link>.</Pair>
-<Pair single="benefit" id="thunder-and-fang-performer-benefit">You gain a +2 trait bonus on Intimidate checks while wielding a two-handed melee weapon.</Pair>
+<Pair single="benefit" id="thunder-and-fang-performer-benefit">You gain a +2 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks while wielding a two-handed melee weapon.</Pair>
 </Ability>
 </>};
 const _to_the_last = {title: "To The Last", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook</Link></p>

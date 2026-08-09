@@ -148,6 +148,42 @@
 			]
 		}
 	},
+	"traits_social_sm": {
+		"title": "Sense Motive Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^Social.*-sm"
+					}
+				}
+			]
+		}
+	},
+	"traits_social_sur_per": {
+		"title": "Survival and Perception Social Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "^Social.*-(sur|per)\\b"
+					}
+				}
+			]
+		}
+	},
 	"traits_social_phys": {
 		"title": "Physical Skill Social Traits",
 		"searchgroup": "trait",
@@ -160,7 +196,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Social.*-(acro|climb|stl|ea|dd|soh|dis)\\b"
+						"regex": "^Social.*-(acro|climb|stl|ea|dd|soh|dis)\\b"
 					}
 				}
 			]
@@ -178,7 +214,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Social.*-(int|app|spc|ling)\\b"
+						"regex": "^Social.*-(int|app|spc|ling)\\b"
 					}
 				}
 			]
@@ -196,7 +232,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Social.*-cha"
+						"regex": "^Social.*-cha"
 					}
 				}
 			]
@@ -214,7 +250,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Social.*-(perf|prof|craft)"
+						"regex": "^Social.*-(perf|prof|craft)"
 					}
 				}
 			]
@@ -232,7 +268,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Social.*-other"
+						"regex": "^Social.*-other"
 					}
 				}
 			]

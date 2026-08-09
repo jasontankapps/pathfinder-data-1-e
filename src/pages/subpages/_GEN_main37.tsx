@@ -1,8 +1,9 @@
-import {IonList} from '@ionic/react';
+import {IonList,IonItem,IonLabel,IonItemDivider} from '@ionic/react';
 import Link from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
 import MainLink from '../../components/MainLink';
+import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 const _traits_campaign_generic = {title: "Campaign Traits: Generic", jsx: <IonList lines="full"><MainLink to="/main/traits_campaign" className="reversed" info="Back to Campaign Traits" /><Ability id="traitblacksheep-black-sheep-fn1" extraClasses="trait" icon={["treasure-map"]}>
 <Pair single id="traitblacksheep-black-sheep-fn1"><Link to="/trait/black_sheep">⮞</Link> Black Sheep <sup><InnerLink showBacklink="backlink-main-traits_campaign_generic-fake-fn-1" id="main-traits_campaign_generic-fake-fn-1" data-hash-target to="main-traits_campaign_generic-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -883,4 +884,1108 @@ const _traits_campaign_mummys_mask = {title: "Campaign Traits: Mummy's Mask", js
 <li id="main-traits_campaign_mummys_mask-fake-fn-1-target"><p><Link to="/source/mummys_mask_players_guide">Mummy's Mask Player's Guide</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_mummys_mask-fake-fn-1" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_mummys_mask-fake-fn-1.2" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_mummys_mask-fake-fn-1.3" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_mummys_mask-fake-fn-1.4" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_mummys_mask-fake-fn-1.5" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_mummys_mask-fake-fn-1.6" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_mummys_mask-fake-fn-1.7" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_mummys_mask-fake-fn-1.8" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-1.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_mummys_mask-fake-fn-1.9" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-1.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_mummys_mask-fake-fn-1.10" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-1.10">↩<sup>10</sup></InnerLink></p></li>
 <li id="main-traits_campaign_mummys_mask-fake-fn-2-target"><p><Link to="/source/people_of_the_sands">People of the Sands</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_mummys_mask-fake-fn-2" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_mummys_mask-fake-fn-2.2" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_mummys_mask-fake-fn-2.3" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-2.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_mummys_mask-fake-fn-2.4" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-2.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_mummys_mask-fake-fn-2.5" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-2.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_mummys_mask-fake-fn-2.6" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-2.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_mummys_mask-fake-fn-2.7" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-2.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_mummys_mask-fake-fn-2.8" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-2.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_mummys_mask-fake-fn-2.9" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-2.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_mummys_mask-fake-fn-2.10" data-hash-target to="main-traits_campaign_mummys_mask-fake-fn-2.10">↩<sup>10</sup></InnerLink></p></li>
 </ol></section></IonList>};
-export default {traits_campaign_generic:_traits_campaign_generic,traits_campaign_carrion_crown:_traits_campaign_carrion_crown,traits_campaign_council_of_thieves:_traits_campaign_council_of_thieves,traits_campaign_curse_of_the_crimson_throne:_traits_campaign_curse_of_the_crimson_throne,traits_campaign_giantslayer:_traits_campaign_giantslayer,traits_campaign_hells_rebels:_traits_campaign_hells_rebels,traits_campaign_hells_vengeance:_traits_campaign_hells_vengeance,traits_campaign_iron_gods:_traits_campaign_iron_gods,traits_campaign_ironfang_invasion:_traits_campaign_ironfang_invasion,traits_campaign_jade_regent:_traits_campaign_jade_regent,traits_campaign_kingmaker:_traits_campaign_kingmaker,traits_campaign_legacy_of_fire:_traits_campaign_legacy_of_fire,traits_campaign_mummys_mask:_traits_campaign_mummys_mask}
+const _traits_spell = {title: "Spell Ability Basic Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><Ability id="traitabsoluteloyalty-absolute-loyalty-fn1" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traitabsoluteloyalty-absolute-loyalty-fn1"><Link to="/trait/absolute_loyalty">⮞</Link> Absolute Loyalty <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-1" id="main-traits_spell-fake-fn-1" data-hash-target to="main-traits_spell-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair single="benefit" id="traitabsoluteloyalty-absolute-loyalty-fn1-benefit">You gain the one-time ability to immediately cast <Link to="/spell/atonement">atonement</Link> upon yourself as a spell-like ability upon performing an act or being subjected to an effect that spell affects. This ability can only be used while you are acting in the service of your liege (an individual of higher social standing chosen when you take this feat).</Pair>
+</Ability>
+<Ability id="traitapprentice-apprentice-fn2" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitapprentice-apprentice-fn2"><Link to="/trait/apprentice">⮞</Link> Apprentice <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-2" id="main-traits_spell-fake-fn-2" data-hash-target to="main-traits_spell-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitapprentice-apprentice-fn2-flavor">During your studies of The Majestic Book of the Prime Ascended, you learned some minor magical tricks.</Pair>
+<Pair single="benefit" id="traitapprentice-apprentice-fn2-benefit">Select a single 0-level spell from the <Link to="/main/spells_sorcerer">sorcerer</Link>/<Link to="/main/spells_wizard">wizard</Link> spell list. You can cast this spell 1 time per day as a spell-like ability.</Pair>
+</Ability>
+<Ability id="traitbeastkin-beastkin-fn3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitbeastkin-beastkin-fn3"><Link to="/trait/beastkin">⮞</Link> Beastkin <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-3" id="main-traits_spell-fake-fn-3" data-hash-target to="main-traits_spell-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="benefit" id="traitbeastkin-beastkin-fn3-benefit"><p>Select one specific type of animal (such as wolves or apes). You were raised from infancy by an animal or pack of animals of that type. You learned their ways and have more in common with your beastly kin than members of any humanoid race.</p>
+<p>You gain a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks and can use <Link to="/spell/speak_with_animals">speak with animals</Link> as a spell-like ability at will to communicate with the type of animal that raised you.</p>
+</Pair>
+</Ability>
+<Ability id="traitchosenofiomedae-chosen-of-iomedae-fn4" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitchosenofiomedae-chosen-of-iomedae-fn4"><Link to="/trait/chosen_of_iomedae">⮞</Link> Chosen of Iomedae <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-4" id="main-traits_spell-fake-fn-4" data-hash-target to="main-traits_spell-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitchosenofiomedae-chosen-of-iomedae-fn4-flavor">At your birth, your parents dedicated your soul to <Link to="/faith/iomedae">Iomedae</Link> to mold into a sword of her light. The goddess blessed you, granting you a gift of light to brighten your path through darkness and a fine sword with which to spread her will.</Pair>
+<Pair single="benefit" id="traitchosenofiomedae-chosen-of-iomedae-fn4-benefit">You may cast <Link to="/spell/light">light</Link> once per day as a spell-like ability (caster level 1st), and you begin play with a <Link to="/rule/masterwork_w">masterwork</Link> <Link to="/eq-weapon/longsword">longsword</Link>. In addition, whenever <em>light</em> is cast upon this sword, the radius of light and its duration is doubled.</Pair>
+</Ability>
+<Ability id="traitdismantleorder-dismantle-order-fn1-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitdismantleorder-dismantle-order-fn1-2"><Link to="/trait/dismantle_order">⮞</Link> Dismantle Order <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-1.2" id="main-traits_spell-fake-fn-1.2" data-hash-target to="main-traits_spell-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Code of Revolution" hl><p>Knights who follow the code of revolution believe that strict laws are an unnecessary bulwark standing in the way of social progress. According to these knights, intelligent and civilized people are inherently good-natured, and if left to their own devices, individuals would prove more wholesome and attuned to the natural order of things than when tainted by the unnatural strictures of organized society. Their vows are as follows.</p>
+<ul>
+<li><p>The wicked must be punished, though not by the hands of corrupted officials or easily swayed politicians.</p>
+</li>
+<li><p>I shall not let stand acts of unfairness performed by governments or their harbingers. Those who contribute to an organized system of cruelty shall feel my wrath.</p>
+</li>
+<li><p>All prisoners, regardless of whether they were convicted or not, deserve a second chance.</p>
+</li>
+<li><p>Tribal or lawless societies exemplify the natural order, and under my watch shall not come to harm from those who would seek to rule them.</p>
+</li>
+<li><p>Those creatures who live free shall see no harm fall to them by myself or my sword.</p>
+</li>
+<li><p>I shall not place unnecessary value on material possessions, as such things are fleeting, whereas deeds are immortal.</p>
+</li>
+</ul>
+</Pair>
+<Pair single="flavor" id="traitdismantleorder-dismantle-order-fn1-2-flavor">If you follow this code, your appreciation for unfettered social freedom allows you to locate supporters of law with supernatural ease.</Pair>
+<Pair single="benefit" id="traitdismantleorder-dismantle-order-fn1-2-benefit">Once per day, you can use <Link to="/spell/detect_law">detect law</Link> as a spell-like ability (caster level 1st). If you have levels in a class that can cast <em>detect law,</em> your caster level for this spell-like ability is equal to that class level.</Pair>
+<Pair title="Penance" hl>Knights who follow this code and violate one of its tenets must separate themselves from society in order to atone for their misdoing. The minimum amount of time spent wholly isolated from civilization is 1 week, though this time might be increased to up to 1 month, depending on the transgression.</Pair>
+</Ability>
+<Ability id="traitfirstmemories-first-memories-fn5" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitfirstmemories-first-memories-fn5"><Link to="/trait/first_memories">⮞</Link> First Memories <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-5" id="main-traits_spell-fake-fn-5" data-hash-target to="main-traits_spell-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link> with the <em>gnome magic</em> racial trait</Pair>
+<Pair single="flavor" id="traitfirstmemories-first-memories-fn5-flavor">For your whole life, you've felt there was a world just beyond the fabric of the material objects around you, and sometimes you can hear the north wind calling you or smell the dread taint of polluted water before you taste it.</Pair>
+<Pair single="benefit" id="traitfirstmemories-first-memories-fn5-benefit">You do not gain the normal list of spell-like abilities for the <em>gnome magic</em> racial trait. Instead, if you have a Wisdom of 11 of higher, you gain the following spell-like abilities: 1/day-<Link to="/spell/detect_poison">detect poison</Link>, <Link to="/spell/know_direction">know direction</Link>, <Link to="/spell/stabilize">stabilize</Link>, and <Link to="/spell/speak_with_animals">speak with animals</Link>. The caster level for these effects is equal to your character level. The DC for these spells is equal to 10 + the spell's level + your Wisdom modifier.</Pair>
+</Ability>
+<Ability id="traitgreenblooded-green-blooded-fn3-2" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitgreenblooded-green-blooded-fn3-2"><Link to="/trait/green_blooded">⮞</Link> Green-Blooded <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-3.2" id="main-traits_spell-fake-fn-3.2" data-hash-target to="main-traits_spell-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitgreenblooded-green-blooded-fn3-2-flavor">You are touched by the supernatural essence of nature, marking you since birth as something other than purely mortal.</Pair>
+<Pair single="benefit" id="traitgreenblooded-green-blooded-fn3-2-benefit">Choose a single 0-level <Link to="/main/druid_spell">druid spell</Link>. You can cast this spell once per day as a spell-like ability with a caster level equal to your character level.</Pair>
+</Ability>
+<Ability id="traitmagicaltalent-magical-talent-fn6-fn7-fn8" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitmagicaltalent-magical-talent-fn6-fn7-fn8"><Link to="/trait/magical_talent">⮞</Link> Magical Talent <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-6" id="main-traits_spell-fake-fn-6" data-hash-target to="main-traits_spell-fake-fn-6-target">6</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-7" id="main-traits_spell-fake-fn-7" data-hash-target to="main-traits_spell-fake-fn-7-target">7</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-8" id="main-traits_spell-fake-fn-8" data-hash-target to="main-traits_spell-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitmagicaltalent-magical-talent-fn6-fn7-fn8-flavor">Either from inborn talent, the whimsy of the gods, or obsessive study of strange tomes, you have mastered the use of a cantrip.</Pair>
+<Pair single="benefit" id="traitmagicaltalent-magical-talent-fn6-fn7-fn8-benefit">Choose a 0-level spell. You may cast that spell once per day as a spell-like ability. This spell-like ability is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st. The spell-like ability's save DC is Charisma-based.</Pair>
+</Ability>
+<Ability id="traitmarkedbyunknownforces-marked-by-unknown-forces-fn9" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitmarkedbyunknownforces-marked-by-unknown-forces-fn9"><Link to="/trait/marked_by_unknown_forces">⮞</Link> Marked by Unknown Forces <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-9" id="main-traits_spell-fake-fn-9" data-hash-target to="main-traits_spell-fake-fn-9-target">9</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitmarkedbyunknownforces-marked-by-unknown-forces-fn9-flavor">That which has marked you for power has also given you proof to show others.</Pair>
+<Pair single="benefit" id="traitmarkedbyunknownforces-marked-by-unknown-forces-fn9-benefit">You may cast <Link to="/spell/light">light</Link> three times per day as a spell-like ability, but this ability only targets the palm of your hand, and it manifests as a glowing sigil representing your ominous birth - a holy or unholy symbol, a demonic symbol, or perhaps some other distinctive marking established by you and your GM. Those who recognize this symbol have a <Link to="/skill/diplomacy">starting attitude</Link> toward you of one step closer to friendly (if they are followers of or scholars studying the sign) or one step closer to hostile (if they are opposed to the sign or its followers).</Pair>
+</Ability>
+<Ability id="traitnaturallygifted-naturally-gifted-fn5-2" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitnaturallygifted-naturally-gifted-fn5-2"><Link to="/trait/naturally_gifted">⮞</Link> Naturally Gifted <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-5.2" id="main-traits_spell-fake-fn-5.2" data-hash-target to="main-traits_spell-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link> with the <em>gnome magic</em> racial trait</Pair>
+<Pair single="flavor" id="traitnaturallygifted-naturally-gifted-fn5-2-flavor">For unknown reasons, you have deeper reserves of magical energy than those around you. Perhaps you are descended from a family of powerful arcane casters, or maybe you believe this trait marks you as destined for magical greatness.</Pair>
+<Pair single="benefit" id="traitnaturallygifted-naturally-gifted-fn5-2-benefit">You gain an additional use of one of your <em>gnome magic</em> spell-like abilities each day. This does not always have to be the same spell-like ability - one day you might use <Link to="/spell/dancing_lights">dancing lights</Link> twice, only to use the additional casting for <Link to="/spell/speak_with_animals">speak with animals</Link> the next day.</Pair>
+</Ability>
+<Ability id="traitradianthealing-radiant-healing-fn10" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitradianthealing-radiant-healing-fn10"><Link to="/trait/radiant_healing">⮞</Link> Radiant Healing <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-10" id="main-traits_spell-fake-fn-10" data-hash-target to="main-traits_spell-fake-fn-10-target">10</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitradianthealing-radiant-healing-fn10-flavor">You've learned how to infuse your healing magic with lingering traces of light.</Pair>
+<Pair single="benefit" id="traitradianthealing-radiant-healing-fn10-benefit">Whenever you cast a spell from the conjuration (healing) school that has a casting time of a standard action, you can extend its casting time to a <strong className="hl">full-round action</strong> to imbue the target with light, as per <Link to="/spell/light">light</Link>, with a duration of 1 round per caster level.</Pair>
+</Ability>
+<Ability id="traitrebukethecurse-rebuke-the-curse-fn11" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitrebukethecurse-rebuke-the-curse-fn11"><Link to="/trait/rebuke_the_curse">⮞</Link> Rebuke the Curse <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-11" id="main-traits_spell-fake-fn-11" data-hash-target to="main-traits_spell-fake-fn-11-target">11</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="benefit" id="traitrebukethecurse-rebuke-the-curse-fn11-benefit"><p>Once per day, you can attempt to suppress the effects of a curse on a single creature with a touch. This functions as a <Link to="/spell/remove_curse">remove curse</Link> spell, treating your character level as your caster level. If you succeed at your caster level check against the curse, the curse's effects are negated for 1 minute.</p>
+<p>This trait does not allow a person burdened with a cursed item to remove or discard it. Use of this trait is a supernatural ability.</p>
+</Pair>
+</Ability>
+<Ability id="traitsacredtouch-sacred-touch-fn6-2-fn7-2-fn8-2" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitsacredtouch-sacred-touch-fn6-2-fn7-2-fn8-2"><Link to="/trait/sacred_touch">⮞</Link> Sacred Touch <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-6.2" id="main-traits_spell-fake-fn-6.2" data-hash-target to="main-traits_spell-fake-fn-6-target">6</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-7.2" id="main-traits_spell-fake-fn-7.2" data-hash-target to="main-traits_spell-fake-fn-7-target">7</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-8.2" id="main-traits_spell-fake-fn-8.2" data-hash-target to="main-traits_spell-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitsacredtouch-sacred-touch-fn6-2-fn7-2-fn8-2-flavor">You were exposed to a potent source of positive energy as a child, perhaps by being born under the right cosmic sign, or maybe because one of your parents was a gifted healer.</Pair>
+<Pair single="benefit" id="traitsacredtouch-sacred-touch-fn6-2-fn7-2-fn8-2-benefit">As a <strong className="hl">standard action</strong>, you may automatically <Link to="/spell/stabilize">stabilize</Link> a <Link to="/misc/dying">dying</Link> creature merely by touching it.</Pair>
+</Ability>
+<Ability id="traitscholaroftheanalects-scholar-of-the-analects-fn12" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitscholaroftheanalects-scholar-of-the-analects-fn12"><Link to="/trait/scholar_of_the_analects">⮞</Link> Scholar of the Analects <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-12" id="main-traits_spell-fake-fn-12" data-hash-target to="main-traits_spell-fake-fn-12-target">12</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitscholaroftheanalects-scholar-of-the-analects-fn12-flavor">You studied various Analects of Aroden from a young age and became skilled at using magic written by others.</Pair>
+<Pair single="benefit" id="traitscholaroftheanalects-scholar-of-the-analects-fn12-benefit">You can cast <Link to="/spell/read_magic">read magic</Link> as a spell-like ability three times per day, using your character level as your caster level.</Pair>
+</Ability>
+<Ability id="traitsecretscrolls-secret-scrolls-fn13" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitsecretscrolls-secret-scrolls-fn13"><Link to="/trait/secret_scrolls">⮞</Link> Secret Scrolls <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-13" id="main-traits_spell-fake-fn-13" data-hash-target to="main-traits_spell-fake-fn-13-target">13</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitsecretscrolls-secret-scrolls-fn13-flavor">You were inducted into a secret magical tradition such as the Esoteric Order of the Palatine Eye.</Pair>
+<Pair single="benefit" id="traitsecretscrolls-secret-scrolls-fn13-benefit">You can cast <Link to="/spell/read_magic">read magic</Link> once per day as a spell-like ability, and gain a +1 trait bonus on <Link to="/skill/use_magic_device">Use Magic Device</Link> checks to activate scrolls you cannot normally use.</Pair>
+</Ability>
+<Ability id="traitselfsustaining-self-sustaining-fn14" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitselfsustaining-self-sustaining-fn14"><Link to="/trait/self_sustaining">⮞</Link> Self-Sustaining <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-14" id="main-traits_spell-fake-fn-14" data-hash-target to="main-traits_spell-fake-fn-14-target">14</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Requirements" hl>See text</Pair>
+<Pair single="flavor" id="traitselfsustaining-self-sustaining-fn14-flavor">As a follower of Razmir, the <Link to="/rule/prophecies_of_kalistrade">Prophecies of Kalistrade</Link>, or some other tradition that preaches self-reliance, you make a point of not seeking divine aid for minor matters.</Pair>
+<Pair single="benefit" id="traitselfsustaining-self-sustaining-fn14-benefit">When you gain this trait, choose one of the following 0-level spells: <Link to="/spell/create_water">create water</Link>, <Link to="/spell/mending">mending</Link>, <Link to="/spell/purify_food_and_drink">purify food and drink</Link>, or <Link to="/spell/stabilize">stabilize</Link>. You can cast this spell once per day as a spell-like ability, using your character level as your caster level. Once chosen, this selection can't change.</Pair>
+</Ability>
+<Ability id="traitstclydwellsward-st-clydwells-ward-fn15" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitstclydwellsward-st-clydwells-ward-fn15"><Link to="/trait/st_clydwells_ward">⮞</Link> St. Clydwell's Ward <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-15" id="main-traits_spell-fake-fn-15" data-hash-target to="main-traits_spell-fake-fn-15-target">15</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Requirements" hl>Mendev Crusaders</Pair>
+<Pair single="flavor" id="traitstclydwellsward-st-clydwells-ward-fn15-flavor">You have learned the secrets of an ancient prayer that wards off the attacks of demons.</Pair>
+<Pair single="benefit" id="traitstclydwellsward-st-clydwells-ward-fn15-benefit">As a <strong className="hl">standard action</strong>, you can recite a holy chant that affects <Link to="/family/demon">demons</Link> as if you were under the effect of a <Link to="/spell/sanctuary">sanctuary</Link> spell (caster level equal to 1/2 your Hit Dice + your Charisma modifier).</Pair>
+</Ability>
+<Ability id="traittarbaphonswhisper-tar-baphons-whisper-fn15-2" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traittarbaphonswhisper-tar-baphons-whisper-fn15-2"><Link to="/trait/tar_baphons_whisper">⮞</Link> Tar-Baphon's Whisper <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-15.2" id="main-traits_spell-fake-fn-15.2" data-hash-target to="main-traits_spell-fake-fn-15-target">15</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Requirements" hl><Link to="/rule/whispering_way">Whispering Way</Link></Pair>
+<Pair single="flavor" id="traittarbaphonswhisper-tar-baphons-whisper-fn15-2-flavor">You have learned the secrets of <em>sotto voce,</em> the eerie, dry whispering voice used to pass on cult secrets.</Pair>
+<Pair single="benefit" id="traittarbaphonswhisper-tar-baphons-whisper-fn15-2-benefit">You may cast <Link to="/spell/sotto_voce">sotto voce</Link> as a spell-like ability three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st.</Pair>
+</Ability>
+<Ability id="traittotemist-totemist-fn16" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traittotemist-totemist-fn16"><Link to="/trait/totemist">⮞</Link> Totemist <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-16" id="main-traits_spell-fake-fn-16" data-hash-target to="main-traits_spell-fake-fn-16-target">16</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traittotemist-totemist-fn16-flavor">You grew up in a culture where the touch of totem spirits was felt in everyday life, their subtle urgings constantly guiding you and keeping you safe. As a result, you learned quickly to ask for their help when trouble arises.</Pair>
+<Pair single="benefit" id="traittotemist-totemist-fn16-benefit">Once per day, you may call upon your totem's wisdom as a <strong className="hl">standard action</strong>. You gain the benefits of <Link to="/spell/guidance">guidance</Link>, except that the granted competence bonus is equal to half your character level (minimum +1). This is a supernatural ability.</Pair>
+</Ability>
+<Ability id="traituntappedpotential-untapped-potential-fn17" extraClasses="trait" icon={["village"]}>
+<Pair single id="traituntappedpotential-untapped-potential-fn17"><Link to="/trait/untapped_potential">⮞</Link> Untapped Potential <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-17" id="main-traits_spell-fake-fn-17" data-hash-target to="main-traits_spell-fake-fn-17-target">17</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traituntappedpotential-untapped-potential-fn17-flavor">You've been part of one of Mengkare's minor experiments.</Pair>
+<Pair single="benefit" id="traituntappedpotential-untapped-potential-fn17-benefit">Once per day, you can cast <Link to="/spell/detect_psychic_significance">detect psychic significance</Link> or <Link to="/spell/telekinetic_projectile">telekinetic projectile</Link> as a spell-like ability, with a caster level equal to your character level.</Pair>
+</Ability>
+<Ability id="traitwendifaapprentice-wendifa-apprentice-fn16-2" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitwendifaapprentice-wendifa-apprentice-fn16-2"><Link to="/trait/wendifa_apprentice">⮞</Link> Wendifa Apprentice <sup><InnerLink showBacklink="backlink-main-traits_spell-fake-fn-16.2" id="main-traits_spell-fake-fn-16.2" data-hash-target to="main-traits_spell-fake-fn-16-target">16</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitwendifaapprentice-wendifa-apprentice-fn16-2-flavor">For a time during your childhood, you were left in the care of a juju oracle or wendifa, who saw your potential and taught you simple juju magic to influence the weakminded for brief periods of time.</Pair>
+<Pair single="benefit" id="traitwendifaapprentice-wendifa-apprentice-fn16-2-benefit">You can use <Link to="/spell/daze">daze</Link> as a spell-like ability once per day, using your character level as your caster level (minimum 1). The save DC of this effect is Charisma-based. The dazed individual looks ashen and deathly for the duration of the effect.</Pair>
+</Ability>
+<section data-footnotes><h3 id="main-traits_spell-label">Footnotes</h3><ol>
+<li id="main-traits_spell-fake-fn-1-target"><p><Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_spell-fake-fn-1" data-hash-target to="main-traits_spell-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_spell-fake-fn-1.2" data-hash-target to="main-traits_spell-fake-fn-1.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_spell-fake-fn-2-target"><p><Link to="/source/divine_anthology">Divine Anthology</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_spell-fake-fn-2" data-hash-target to="main-traits_spell-fake-fn-2">↩</InnerLink></p></li>
+<li id="main-traits_spell-fake-fn-3-target"><p><Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_spell-fake-fn-3" data-hash-target to="main-traits_spell-fake-fn-3">↩</InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_spell-fake-fn-3.2" data-hash-target to="main-traits_spell-fake-fn-3.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_spell-fake-fn-4-target"><p><Link to="/source/champions_of_purity">Champions of Purity</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_spell-fake-fn-4" data-hash-target to="main-traits_spell-fake-fn-4">↩</InnerLink></p></li>
+<li id="main-traits_spell-fake-fn-5-target"><p><Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_spell-fake-fn-5" data-hash-target to="main-traits_spell-fake-fn-5">↩</InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_spell-fake-fn-5.2" data-hash-target to="main-traits_spell-fake-fn-5.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_spell-fake-fn-6-target"><p><Link to="/source/ultimate_campaign">Ultimate Campaign</Link> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_spell-fake-fn-6" data-hash-target to="main-traits_spell-fake-fn-6">↩</InnerLink> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_spell-fake-fn-6.2" data-hash-target to="main-traits_spell-fake-fn-6.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_spell-fake-fn-7-target"><p><Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_spell-fake-fn-7" data-hash-target to="main-traits_spell-fake-fn-7">↩</InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_spell-fake-fn-7.2" data-hash-target to="main-traits_spell-fake-fn-7.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_spell-fake-fn-8-target"><p><Link to="/source/advanced_players_guide">Advanced Player's Guide</Link> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_spell-fake-fn-8" data-hash-target to="main-traits_spell-fake-fn-8">↩</InnerLink> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_spell-fake-fn-8.2" data-hash-target to="main-traits_spell-fake-fn-8.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_spell-fake-fn-9-target"><p><Link to="/source/bastards_of_golarion">Bastards of Golarion</Link> <InnerLink aria-label="Back to reference 9" id="backlink-main-traits_spell-fake-fn-9" data-hash-target to="main-traits_spell-fake-fn-9">↩</InnerLink></p></li>
+<li id="main-traits_spell-fake-fn-10-target"><p><Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link> <InnerLink aria-label="Back to reference 10" id="backlink-main-traits_spell-fake-fn-10" data-hash-target to="main-traits_spell-fake-fn-10">↩</InnerLink></p></li>
+<li id="main-traits_spell-fake-fn-11-target"><p><Link to="/source/blood_of_the_coven">Blood of the Coven</Link> <InnerLink aria-label="Back to reference 11" id="backlink-main-traits_spell-fake-fn-11" data-hash-target to="main-traits_spell-fake-fn-11">↩</InnerLink></p></li>
+<li id="main-traits_spell-fake-fn-12-target"><p><Link to="/source/arcane_anthology">Arcane Anthology</Link> <InnerLink aria-label="Back to reference 12" id="backlink-main-traits_spell-fake-fn-12" data-hash-target to="main-traits_spell-fake-fn-12">↩</InnerLink></p></li>
+<li id="main-traits_spell-fake-fn-13-target"><p><Link to="/source/spymasters_handbook">Spymaster's Handbook</Link> <InnerLink aria-label="Back to reference 13" id="backlink-main-traits_spell-fake-fn-13" data-hash-target to="main-traits_spell-fake-fn-13">↩</InnerLink></p></li>
+<li id="main-traits_spell-fake-fn-14-target"><p><Link to="/source/disciples_doctrine">Disciple's Doctrine</Link> <InnerLink aria-label="Back to reference 14" id="backlink-main-traits_spell-fake-fn-14" data-hash-target to="main-traits_spell-fake-fn-14">↩</InnerLink></p></li>
+<li id="main-traits_spell-fake-fn-15-target"><p><Link to="/source/faction_guide">Faction Guide</Link> <InnerLink aria-label="Back to reference 15" id="backlink-main-traits_spell-fake-fn-15" data-hash-target to="main-traits_spell-fake-fn-15">↩</InnerLink> <InnerLink aria-label="Back to reference 15" id="backlink-main-traits_spell-fake-fn-15.2" data-hash-target to="main-traits_spell-fake-fn-15.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_spell-fake-fn-16-target"><p><Link to="/source/faiths_and_philosophies">Faiths and Philosophies</Link> <InnerLink aria-label="Back to reference 16" id="backlink-main-traits_spell-fake-fn-16" data-hash-target to="main-traits_spell-fake-fn-16">↩</InnerLink> <InnerLink aria-label="Back to reference 16" id="backlink-main-traits_spell-fake-fn-16.2" data-hash-target to="main-traits_spell-fake-fn-16.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_spell-fake-fn-17-target"><p><Link to="/source/legacy_of_dragons">Legacy of Dragons</Link> <InnerLink aria-label="Back to reference 17" id="backlink-main-traits_spell-fake-fn-17" data-hash-target to="main-traits_spell-fake-fn-17">↩</InnerLink></p></li>
+</ol></section></IonList>};
+const _traits_basic_magic = {title: "Magic-Related Basic Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><Ability id="traitaeromanticaffinity-aeromantic-affinity-fn1" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitaeromanticaffinity-aeromantic-affinity-fn1"><Link to="/trait/aeromantic_affinity">⮞</Link> Aeromantic Affinity <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-1" id="main-traits_basic_magic-fake-fn-1" data-hash-target to="main-traits_basic_magic-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitaeromanticaffinity-aeromantic-affinity-fn1-flavor">One of your distant ancestors was either a powerful aeromancer or a creature of elemental air, granting you greater skill with air magic.</Pair>
+<Pair single="benefit" id="traitaeromanticaffinity-aeromantic-affinity-fn1-benefit">You treat your caster level as 1 higher when casting spells with the air or electricity descriptor.</Pair>
+</Ability>
+<Ability id="traitarcaneresearcher-arcane-researcher-fn1-2" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitarcaneresearcher-arcane-researcher-fn1-2"><Link to="/trait/arcane_researcher">⮞</Link> Arcane Researcher <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-1.2" id="main-traits_basic_magic-fake-fn-1.2" data-hash-target to="main-traits_basic_magic-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitarcaneresearcher-arcane-researcher-fn1-2-flavor">Your curiosity and ingenuity have driven you to experiment and push new boundaries, and you have a knack for tampering with magic.</Pair>
+<Pair single="benefit" id="traitarcaneresearcher-arcane-researcher-fn1-2-benefit">You gain a +4 trait bonus on <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> and <Link to="/skill/spellcraft">Spellcraft</Link> checks to research, modify, and create new spells.</Pair>
+</Ability>
+<Ability id="traitarcanetemper-arcane-temper-fn2" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitarcanetemper-arcane-temper-fn2"><Link to="/trait/arcane_temper">⮞</Link> Arcane Temper <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-2" id="main-traits_basic_magic-fake-fn-2" data-hash-target to="main-traits_basic_magic-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitarcanetemper-arcane-temper-fn2-flavor">You have quick reactions and fierce concentration.</Pair>
+<Pair single="benefit" id="traitarcanetemper-arcane-temper-fn2-benefit">You gain a +1 trait bonus on concentration and initiative checks.</Pair>
+</Ability>
+<Ability id="traitbalancersbanishing-balancers-banishing-fn3" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitbalancersbanishing-balancers-banishing-fn3"><Link to="/trait/balancers_banishing">⮞</Link> Balancer's Banishing <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-3" id="main-traits_basic_magic-fake-fn-3" data-hash-target to="main-traits_basic_magic-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitbalancersbanishing-balancers-banishing-fn3-flavor">The interference of the Outer Planes in mortal affairs angers you to no end and invigorates the potency of your magic.</Pair>
+<Pair single="benefit" id="traitbalancersbanishing-balancers-banishing-fn3-benefit">As long as you remain neutral, whenever you cast a spell that would send an outsider with the chaotic, evil, good, or lawful subtype back to its home plane, the spell's saving throw DC increases by 1.</Pair>
+</Ability>
+<Ability id="traitblackbloodheritage-black-blood-heritage-fn4" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitblackbloodheritage-black-blood-heritage-fn4"><Link to="/trait/black_blood_heritage">⮞</Link> Black Blood Heritage <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-4" id="main-traits_basic_magic-fake-fn-4" data-hash-target to="main-traits_basic_magic-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitblackbloodheritage-black-blood-heritage-fn4-flavor">One of your ancestors came in contact with the mystical black blood, granting you an affinity for the substance.</Pair>
+<Pair single="benefit" id="traitblackbloodheritage-black-blood-heritage-fn4-benefit"><p>You are immune to the negative effects of <Link to="/magic-artifact/black_blood">black blood</Link>. Once per day as a <strong className="hl">swift action</strong>, you can channel the essence of <em>black blood,</em> increasing your effective caster level by 1 for any 1st- or 2nd-level necromancy spell you cast.</p>
+<p>Your blood is pitch black as a result of this trait.</p>
+</Pair>
+</Ability>
+<Ability id="traitcharming-charming-fn2-2-fn5-fn6" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitcharming-charming-fn2-2-fn5-fn6"><Link to="/trait/charming">⮞</Link> Charming <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-2.2" id="main-traits_basic_magic-fake-fn-2.2" data-hash-target to="main-traits_basic_magic-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-5" id="main-traits_basic_magic-fake-fn-5" data-hash-target to="main-traits_basic_magic-fake-fn-5-target">5</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-6" id="main-traits_basic_magic-fake-fn-6" data-hash-target to="main-traits_basic_magic-fake-fn-6-target">6</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitcharming-charming-fn2-2-fn5-fn6-flavor">Blessed with good looks, you've come to depend on the fact that others find you attractive.</Pair>
+<Pair single="benefit" id="traitcharming-charming-fn2-2-fn5-fn6-benefit">You gain a +1 trait bonus when you use <Link to="/skill/bluff">Bluff</Link> or <Link to="/skill/diplomacy">Diplomacy</Link> on a character that is (or could be) sexually attracted to you, and a +1 trait bonus to the save DC of any language-dependent spell you cast on such characters or creatures.</Pair>
+</Ability>
+<Ability id="traitcovencasting-coven-casting-fn7" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitcovencasting-coven-casting-fn7"><Link to="/trait/coven_casting">⮞</Link> Coven Casting <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-7" id="main-traits_basic_magic-fake-fn-7" data-hash-target to="main-traits_basic_magic-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair title="Requirements" hl>Belong to a coven or magical cabal</Pair>
+<Pair single="flavor" id="traitcovencasting-coven-casting-fn7-flavor">You have belonged to a coven or magical cabal and know how to coordinate your spellcasting with others.</Pair>
+<Pair single="benefit" id="traitcovencasting-coven-casting-fn7-benefit">When within 30 feet of an allied spellcaster, you both gain a +2 trait bonus on <Link to="/rule/concentration">concentration</Link> checks.</Pair>
+</Ability>
+<Ability id="traitcrossdisciplined-cross-disciplined-fn2-3" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitcrossdisciplined-cross-disciplined-fn2-3"><Link to="/trait/cross_disciplined">⮞</Link> Cross-Disciplined <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-2.3" id="main-traits_basic_magic-fake-fn-2.3" data-hash-target to="main-traits_basic_magic-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitcrossdisciplined-cross-disciplined-fn2-3-flavor">Your dabbling has granted you greater insight into the proper casting of certain spells.</Pair>
+<Pair single="benefit" id="traitcrossdisciplined-cross-disciplined-fn2-3-benefit">Once per day, you may cast a spell you have prepared that appears on both the magus and wizard spell lists as if your caster level were 1 level higher.</Pair>
+</Ability>
+<Ability id="traitdeepguardian-deep-guardian-fn8" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitdeepguardian-deep-guardian-fn8"><Link to="/trait/deep_guardian">⮞</Link> Deep Guardian <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-8" id="main-traits_basic_magic-fake-fn-8" data-hash-target to="main-traits_basic_magic-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
+<Pair single="flavor" id="traitdeepguardian-deep-guardian-fn8-flavor">The subtle power of the deep places of the world flows within you, and grants you mastery of summoning beings of earth and stone.</Pair>
+<Pair single="benefit" id="traitdeepguardian-deep-guardian-fn8-benefit">Any creature you conjure with a summon spell that has the earth subtype or a burrow speed gains a +1 morale bonus on attack rolls and a +1 enhancement bonus to Armor Class for the duration of the spell that summoned it.</Pair>
+</Ability>
+<Ability id="traitdesperatefocus-desperate-focus-fn9" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitdesperatefocus-desperate-focus-fn9"><Link to="/trait/desperate_focus">⮞</Link> Desperate Focus <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-9" id="main-traits_basic_magic-fake-fn-9" data-hash-target to="main-traits_basic_magic-fake-fn-9-target">9</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitdesperatefocus-desperate-focus-fn9-flavor">You've often found yourself in situations where a lack of focus can lead to worse than a lost spell.</Pair>
+<Pair single="benefit" id="traitdesperatefocus-desperate-focus-fn9-benefit">You gain a +2 trait bonus on <Link to="/rule/concentration">concentration</Link> checks.</Pair>
+</Ability>
+<Ability id="traitdesperateresolve-desperate-resolve-fn2-4" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitdesperateresolve-desperate-resolve-fn2-4"><Link to="/trait/desperate_resolve">⮞</Link> Desperate Resolve <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-2.4" id="main-traits_basic_magic-fake-fn-2.4" data-hash-target to="main-traits_basic_magic-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitdesperateresolve-desperate-resolve-fn2-4-flavor">You are adept at casting spells even in the most precarious situations.</Pair>
+<Pair single="benefit" id="traitdesperateresolve-desperate-resolve-fn2-4-benefit">You gain a +1 trait bonus on <Link to="/rule/concentration">concentration</Link> checks. This trait bonus increases to +4 when you are <Link to="/rule/grappled">grappled</Link>, pinned, in violent weather, or <Link to="/rule/entangled">entangled</Link>.</Pair>
+</Ability>
+<Ability id="traitdiabolicaldabbler-diabolical-dabbler-fn9-2" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitdiabolicaldabbler-diabolical-dabbler-fn9-2"><Link to="/trait/diabolical_dabbler">⮞</Link> Diabolical Dabbler <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-9.2" id="main-traits_basic_magic-fake-fn-9.2" data-hash-target to="main-traits_basic_magic-fake-fn-9-target">9</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="traitdiabolicaldabbler-diabolical-dabbler-fn9-2-benefit">Each <Link to="/template/fiendish">fiendish</Link> animal you conjure with any summon spell gains +1 hit point per hit die for the duration of the spell that summoned it.</Pair>
+</Ability>
+<Ability id="traitdistanceaptitude-distance-aptitude-fn10" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitdistanceaptitude-distance-aptitude-fn10"><Link to="/trait/distance_aptitude">⮞</Link> Distance Aptitude <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-10" id="main-traits_basic_magic-fake-fn-10" data-hash-target to="main-traits_basic_magic-fake-fn-10-target">10</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitdistanceaptitude-distance-aptitude-fn10-flavor">You were exposed to the magic of an <Link to="/magic-artifact/elf_gate">elf gate</Link>, portal, or some other form of distance-spanning magic when you were young. This contact with ancient world-spanning magic has granted you insight into means to extend the range of your own spells.</Pair>
+<Pair single="benefit" id="traitdistanceaptitude-distance-aptitude-fn10-benefit"><p>Treat your caster level as 1 higher for the purposes of determining the range of spells and spell-like abilities.</p>
+<p><strong>Suggested Characters:</strong> Elves, Numerians, Sarkorians.</p>
+</Pair>
+</Ability>
+<Ability id="traitdomineering-domineering-fn10-2" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitdomineering-domineering-fn10-2"><Link to="/trait/domineering">⮞</Link> Domineering <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-10.2" id="main-traits_basic_magic-fake-fn-10.2" data-hash-target to="main-traits_basic_magic-fake-fn-10-target">10</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitdomineering-domineering-fn10-2-flavor">When you were young, you attracted a group of devoted companions thanks to your impressive talent, and the experience inspired in you a powerful self-assurance and air of superiority. Your confidence is so strong that others feel naturally compelled to follow your commands.</Pair>
+<Pair single="benefit" id="traitdomineering-domineering-fn10-2-benefit"><p>Choose one 1st-level enchantment spell you are capable of casting. The DC of that spell increases by 1.</p>
+<p><strong>Suggested Characters:</strong> Chelaxians, Irriseni, Mwangi.</p>
+</Pair>
+</Ability>
+<Ability id="traitdraconicinfusion-draconic-infusion-fn11" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitdraconicinfusion-draconic-infusion-fn11"><Link to="/trait/draconic_infusion">⮞</Link> Draconic Infusion <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-11" id="main-traits_basic_magic-fake-fn-11" data-hash-target to="main-traits_basic_magic-fake-fn-11-target">11</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitdraconicinfusion-draconic-infusion-fn11-flavor">You were exposed to an artifact or other powerful magic that infused you with the power of dragons.</Pair>
+<Pair single="benefit" id="traitdraconicinfusion-draconic-infusion-fn11-benefit">Choose the acid, cold, electricity, or fire spell descriptor when you take this trait. Once per day for every 2 caster levels you have (minimum once per day), when you cast a spell that has your chosen elemental descriptor, you can deal an additional 1d4 points of damage of that energy type to one target of that spell.</Pair>
+</Ability>
+<Ability id="traiteldritchdelver-eldritch-delver-fn2-5" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traiteldritchdelver-eldritch-delver-fn2-5"><Link to="/trait/eldritch_delver">⮞</Link> Eldritch Delver <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-2.5" id="main-traits_basic_magic-fake-fn-2.5" data-hash-target to="main-traits_basic_magic-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traiteldritchdelver-eldritch-delver-fn2-5-flavor">You have an unquenchable thirst for knowledge about the world and desire to obtain it firsthand.</Pair>
+<Pair single="benefit" id="traiteldritchdelver-eldritch-delver-fn2-5-benefit">You gain a +1 trait bonus on all <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> and <Link to="/skill/knowledge_history">Knowledge (history)</Link> checks, and you may treat your caster level as 1 level higher for all conjuration spells of the teleportation subschool.</Pair>
+</Ability>
+<Ability id="traiteyeforthewondrous-eye-for-the-wondrous-fn12" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traiteyeforthewondrous-eye-for-the-wondrous-fn12"><Link to="/trait/eye_for_the_wondrous">⮞</Link> Eye for the Wondrous <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-12" id="main-traits_basic_magic-fake-fn-12" data-hash-target to="main-traits_basic_magic-fake-fn-12-target">12</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Region" hl>Katapesh</Pair>
+<Pair single="flavor" id="traiteyeforthewondrous-eye-for-the-wondrous-fn12-flavor">Your experience with magic items clues you in to their properties more quickly than others.</Pair>
+<Pair single="benefit" id="traiteyeforthewondrous-eye-for-the-wondrous-fn12-benefit">You can identify the properties of a magic item using <Link to="/spell/detect_magic">detect magic</Link> in 1 round.</Pair>
+</Ability>
+<Ability id="traitfocusedmind-focused-mind-fn2-6-fn5-2-fn6-2" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitfocusedmind-focused-mind-fn2-6-fn5-2-fn6-2"><Link to="/trait/focused_mind">⮞</Link> Focused Mind <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-2.6" id="main-traits_basic_magic-fake-fn-2.6" data-hash-target to="main-traits_basic_magic-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-5.2" id="main-traits_basic_magic-fake-fn-5.2" data-hash-target to="main-traits_basic_magic-fake-fn-5-target">5</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-6.2" id="main-traits_basic_magic-fake-fn-6.2" data-hash-target to="main-traits_basic_magic-fake-fn-6-target">6</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitfocusedmind-focused-mind-fn2-6-fn5-2-fn6-2-flavor">Your childhood was dominated either by lessons of some sort (whether musical, academic, or other) or by a horrible home life that encouraged your ability to block out distractions and focus on the immediate task at hand.</Pair>
+<Pair single="benefit" id="traitfocusedmind-focused-mind-fn2-6-fn5-2-fn6-2-benefit">You gain a +2 trait bonus on <Link to="/rule/concentration">concentration</Link> checks.</Pair>
+</Ability>
+<Ability id="traitfortunate-fortunate-fn10-3" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitfortunate-fortunate-fn10-3"><Link to="/trait/fortunate">⮞</Link> Fortunate <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-10.3" id="main-traits_basic_magic-fake-fn-10.3" data-hash-target to="main-traits_basic_magic-fake-fn-10-target">10</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitfortunate-fortunate-fn10-3-flavor">You are blessed by fate.</Pair>
+<Pair single="benefit" id="traitfortunate-fortunate-fn10-3-benefit"><p>Once per day when you use a spell or magic item with a randomized effect (such as <Link to="/spell/confusion">confusion</Link>, <Link to="/spell/mirror_image">mirror image</Link>, <Link to="/spell/prismatic_spray">prismatic spray</Link>, or a <Link to="/magic-wondrous/bag_of_tricks_tan">bag of tricks</Link>), before you roll to determine the result, you may choose to roll twice and pick either result.</p>
+<p><strong>Suggested Characters:</strong> Calistrians, harrow deck readers, Vudrani.</p>
+</Pair>
+</Ability>
+<Ability id="traitgiftedadept-gifted-adept-fn2-7-fn6-3-fn5-3" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitgiftedadept-gifted-adept-fn2-7-fn6-3-fn5-3"><Link to="/trait/gifted_adept">⮞</Link> Gifted Adept <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-2.7" id="main-traits_basic_magic-fake-fn-2.7" data-hash-target to="main-traits_basic_magic-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-6.3" id="main-traits_basic_magic-fake-fn-6.3" data-hash-target to="main-traits_basic_magic-fake-fn-6-target">6</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-5.3" id="main-traits_basic_magic-fake-fn-5.3" data-hash-target to="main-traits_basic_magic-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitgiftedadept-gifted-adept-fn2-7-fn6-3-fn5-3-flavor">Your interest in magic was inspired by witnessing a spell being cast in a particularly dramatic method, perhaps even one that affected you physically or spiritually. This early exposure to magic has made it easier for you to work similar magic on your own.</Pair>
+<Pair single="benefit" id="traitgiftedadept-gifted-adept-fn2-7-fn6-3-fn5-3-benefit">Pick one spell when you choose this trait - from this point on, whenever you cast that spell, its effects manifest at +1 caster level.</Pair>
+</Ability>
+<Ability id="traithavocofthesociety-havoc-of-the-society-fn13-fn14" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traithavocofthesociety-havoc-of-the-society-fn13-fn14"><Link to="/trait/havoc_of_the_society">⮞</Link> Havoc of the Society <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-13" id="main-traits_basic_magic-fake-fn-13" data-hash-target to="main-traits_basic_magic-fake-fn-13-target">13</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-14" id="main-traits_basic_magic-fake-fn-14" data-hash-target to="main-traits_basic_magic-fake-fn-14-target">14</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
+<Pair single="flavor" id="traithavocofthesociety-havoc-of-the-society-fn13-fn14-flavor">Through countless hours studying vast libraries of arcane power, you have learned how to cause greater damage to your foes.</Pair>
+<Pair single="benefit" id="traithavocofthesociety-havoc-of-the-society-fn13-fn14-benefit">Whenever you cast a spell that deals damage, you gain a +1 trait bonus to the total damage dealt. This damage is considered force damage regardless of the type of damage dealt by the spell.</Pair>
+</Ability>
+<Ability id="traithedgemagician-hedge-magician-fn2-8-fn5-4-fn6-4" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traithedgemagician-hedge-magician-fn2-8-fn5-4-fn6-4"><Link to="/trait/hedge_magician">⮞</Link> Hedge Magician <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-2.8" id="main-traits_basic_magic-fake-fn-2.8" data-hash-target to="main-traits_basic_magic-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-5.4" id="main-traits_basic_magic-fake-fn-5.4" data-hash-target to="main-traits_basic_magic-fake-fn-5-target">5</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-6.4" id="main-traits_basic_magic-fake-fn-6.4" data-hash-target to="main-traits_basic_magic-fake-fn-6-target">6</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traithedgemagician-hedge-magician-fn2-8-fn5-4-fn6-4-flavor">You apprenticed for a time to an artisan who often built magic items, and he taught you many handy shortcuts and cost-saving techniques.</Pair>
+<Pair single="benefit" id="traithedgemagician-hedge-magician-fn2-8-fn5-4-fn6-4-benefit">Whenever you craft a magic item, you reduce the required gp cost to make the item by 5%.</Pair>
+</Ability>
+<Ability id="traitinsistentbenefactor-insistent-benefactor-fn15" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitinsistentbenefactor-insistent-benefactor-fn15"><Link to="/trait/insistent_benefactor">⮞</Link> Insistent Benefactor <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-15" id="main-traits_basic_magic-fake-fn-15" data-hash-target to="main-traits_basic_magic-fake-fn-15-target">15</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitinsistentbenefactor-insistent-benefactor-fn15-flavor">Pathfinders of different backgrounds don't always realize what's best for them, and you have perfected the art of forcing your magical boons on your allies.</Pair>
+<Pair single="benefit" id="traitinsistentbenefactor-insistent-benefactor-fn15-benefit">Whenever you cast a harmless spell, you gain a +2 trait bonus on caster level checks to overcome spell resistance, and the saving throw DC of the spell (if any) is increased by 2.</Pair>
+</Ability>
+<Ability id="traitknowledgeablecaster-knowledgeable-caster-fn2-9" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitknowledgeablecaster-knowledgeable-caster-fn2-9"><Link to="/trait/knowledgeable_caster">⮞</Link> Knowledgeable Caster <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-2.9" id="main-traits_basic_magic-fake-fn-2.9" data-hash-target to="main-traits_basic_magic-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="traitknowledgeablecaster-knowledgeable-caster-fn2-9-benefit">Once per day when you cast a divination spell, you can cast that spell as if your caster level were 1 level higher in the appropriate class. You also gain a +1 trait bonus on any <Link to="/skill/knowledge">Knowledge</Link> checks associated with your sorcerer bloodline, if any.</Pair>
+</Ability>
+<Ability id="traitlesseffort-less-effort-fn16" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitlesseffort-less-effort-fn16"><Link to="/trait/less_effort">⮞</Link> Less Effort <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-16" id="main-traits_basic_magic-fake-fn-16" data-hash-target to="main-traits_basic_magic-fake-fn-16-target">16</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="traitlesseffort-less-effort-fn16-benefit">Select one spell belonging to the abjuration or transmutation school on your spell list. When you cast that spell or it is cast on you, treat the caster level as 2 higher for the purpose of determining the duration.</Pair>
+</Ability>
+<Ability id="traitlowblow-low-blow-fn16-2" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitlowblow-low-blow-fn16-2"><Link to="/trait/low_blow">⮞</Link> Low Blow <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-16.2" id="main-traits_basic_magic-fake-fn-16.2" data-hash-target to="main-traits_basic_magic-fake-fn-16-target">16</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="traitlowblow-low-blow-fn16-2-benefit">When targeting a good-aligned creature with a spell or spell-like ability with the pain descriptor or that imposes a morale penalty, increase its effective caster level by 1. If you are of an evil alignment, increase the save DC of the effect by 1 as well.</Pair>
+</Ability>
+<Ability id="traitmagicalflair-magical-flair-fn10-4" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitmagicalflair-magical-flair-fn10-4"><Link to="/trait/magical_flair">⮞</Link> Magical Flair <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-10.4" id="main-traits_basic_magic-fake-fn-10.4" data-hash-target to="main-traits_basic_magic-fake-fn-10-target">10</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitmagicalflair-magical-flair-fn10-4-flavor">At a young age, you saw a witch burned by fearful peasants, druids falsely punished for demon worship, or another sort of spellcaster persecuted for merely practicing her dubious craft. Intent on not suffering the same fate, you approach spellcasting with a powerful desire to control how your magic is perceived by others.</Pair>
+<Pair single="benefit" id="traitmagicalflair-magical-flair-fn10-4-benefit"><p>You can cause spells you cast to manifest with strange visual, auditory, or olfactory features that make them hard to identify. Choose a school of magic. The <Link to="/skill/spellcraft">Spellcraft</Link> DC to identify spells you cast from that school of magic increases by 2. Onlookers who fail a Spellcraft check to identify your spell by 2 or less incorrectly identify the spell as another randomly selected spell of the same school and level.</p>
+<p><strong>Suggested Characters:</strong> Gnomes, Razmir worshipers, witches.</p>
+</Pair>
+</Ability>
+<Ability id="traitmagicalknack-magical-knack-fn2-10-fn5-5-fn6-5" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitmagicalknack-magical-knack-fn2-10-fn5-5-fn6-5"><Link to="/trait/magical_knack">⮞</Link> Magical Knack <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-2.10" id="main-traits_basic_magic-fake-fn-2.10" data-hash-target to="main-traits_basic_magic-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-5.5" id="main-traits_basic_magic-fake-fn-5.5" data-hash-target to="main-traits_basic_magic-fake-fn-5-target">5</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-6.5" id="main-traits_basic_magic-fake-fn-6.5" data-hash-target to="main-traits_basic_magic-fake-fn-6-target">6</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitmagicalknack-magical-knack-fn2-10-fn5-5-fn6-5-flavor">You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks.</Pair>
+<Pair single="benefit" id="traitmagicalknack-magical-knack-fn2-10-fn5-5-fn6-5-benefit">Pick a class when you gain this trait - your caster level in that class gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice.</Pair>
+</Ability>
+<Ability id="traitmagicallineage-magical-lineage-fn2-11-fn6-6-fn5-6" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitmagicallineage-magical-lineage-fn2-11-fn6-6-fn5-6"><Link to="/trait/magical_lineage">⮞</Link> Magical Lineage <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-2.11" id="main-traits_basic_magic-fake-fn-2.11" data-hash-target to="main-traits_basic_magic-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-6.6" id="main-traits_basic_magic-fake-fn-6.6" data-hash-target to="main-traits_basic_magic-fake-fn-6-target">6</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-5.6" id="main-traits_basic_magic-fake-fn-5.6" data-hash-target to="main-traits_basic_magic-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitmagicallineage-magical-lineage-fn2-11-fn6-6-fn5-6-flavor">One of your parents was a gifted spellcaster who not only used metamagic often, but also developed many magical items and perhaps even a new spell or two - and you have inherited a fragment of this greatness.</Pair>
+<Pair single="benefit" id="traitmagicallineage-magical-lineage-fn2-11-fn6-6-fn5-6-benefit">Pick one spell when you choose this trait. When you apply <Link to="/rule/metamagic_feats">metamagic feats</Link> to this spell that add at least 1 level to the spell, treat its actual level as 1 lower for determining the spell's final adjusted level.</Pair>
+</Ability>
+<Ability id="traitmediator-mediator-fn17" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitmediator-mediator-fn17"><Link to="/trait/mediator">⮞</Link> Mediator <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-17" id="main-traits_basic_magic-fake-fn-17" data-hash-target to="main-traits_basic_magic-fake-fn-17-target">17</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitmediator-mediator-fn17-flavor">You have a way with calming tempers, using cool logic to sooth heated disagreements, and you were always the one to settle arguments among your friends, family, and community.</Pair>
+<Pair single="benefit" id="traitmediator-mediator-fn17-benefit">You receive a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks. In addition, you receive a +1 trait bonus to the DC of any charm or compulsion effect that does not provide ongoing control and results in peaceful acts, such as <Link to="/spell/calm_emotions">calm emotions</Link>, <Link to="/spell/sleep">sleep</Link>, or a <Link to="/spell/suggestion">suggestion</Link> to lay down arms.</Pair>
+</Ability>
+<Ability id="traitoutcastsintuition-outcasts-intuition-fn2-12" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitoutcastsintuition-outcasts-intuition-fn2-12"><Link to="/trait/outcasts_intuition">⮞</Link> Outcast's Intuition <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-2.12" id="main-traits_basic_magic-fake-fn-2.12" data-hash-target to="main-traits_basic_magic-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitoutcastsintuition-outcasts-intuition-fn2-12-flavor">You are able to sense the motives of others and use that sense to bolster your magic against dispelling.</Pair>
+<Pair single="benefit" id="traitoutcastsintuition-outcasts-intuition-fn2-12-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks, and Sense Motive is always a class skill for you. In addition, your caster level is treated as 1 level higher for the purposes of any attempts to dispel your magic.</Pair>
+</Ability>
+<Ability id="traitoutsiderenemy-outsider-enemy-fn1-3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitoutsiderenemy-outsider-enemy-fn1-3"><Link to="/trait/outsider_enemy">⮞</Link> Outsider Enemy <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-1.3" id="main-traits_basic_magic-fake-fn-1.3" data-hash-target to="main-traits_basic_magic-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitoutsiderenemy-outsider-enemy-fn1-3-flavor">One of your ancestors was a conjurer who specialized in binding outsiders of a particular type. You have inherited some of his skills, but also some of his enemies. Choose a single outsider subtype.</Pair>
+<Pair single="benefit" id="traitoutsiderenemy-outsider-enemy-fn1-3-benefit">The DC of your spells increases by 1 against outsiders of the chosen subtype. Outsiders of the chosen subtype gain a +1 morale bonus on attack and damage rolls made against you, and their starting attitude toward you is reduced by one step.</Pair>
+</Ability>
+<Ability id="traitoutsiderties-outsider-ties-fn18" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitoutsiderties-outsider-ties-fn18"><Link to="/trait/outsider_ties">⮞</Link> Outsider Ties <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-18" id="main-traits_basic_magic-fake-fn-18" data-hash-target to="main-traits_basic_magic-fake-fn-18-target">18</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitoutsiderties-outsider-ties-fn18-flavor">An outsider visited you at a young age, and you have had a significant affinity with that type of outsider ever since.</Pair>
+<Pair single="benefit" id="traitoutsiderties-outsider-ties-fn18-benefit">Choose a subtype of outsider, such as <Link to="/subtype/angel">angel</Link> or <Link to="/subtype/elemental">elemental</Link>. When you summon an outsider of that subtype via <Link to="/spell/summon_monster">summon monster</Link>, <Link to="/spell/planar_ally">planar ally</Link>, <Link to="/spell/planar_binding">planar binding</Link>, or similar spells and abilities, the summoned creature gains a number of temporary hit points equal to the level of spell used to summon it.</Pair>
+</Ability>
+<Ability id="traitoverwhelmingbeauty-overwhelming-beauty-fn19" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitoverwhelmingbeauty-overwhelming-beauty-fn19"><Link to="/trait/overwhelming_beauty">⮞</Link> Overwhelming Beauty <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-19" id="main-traits_basic_magic-fake-fn-19" data-hash-target to="main-traits_basic_magic-fake-fn-19-target">19</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitoverwhelmingbeauty-overwhelming-beauty-fn19-flavor">Your wiles are particularly potent against people who share a race with you, as your beauty is often held up as a symbol of perfection.</Pair>
+<Pair single="benefit" id="traitoverwhelmingbeauty-overwhelming-beauty-fn19-benefit">The DC of your mind-affecting effects increases by 1 against creatures that have at least one of the same subtypes as you.</Pair>
+</Ability>
+<Ability id="traitradianthealing-radiant-healing-fn4-2" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitradianthealing-radiant-healing-fn4-2"><Link to="/trait/radiant_healing">⮞</Link> Radiant Healing <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-4.2" id="main-traits_basic_magic-fake-fn-4.2" data-hash-target to="main-traits_basic_magic-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitradianthealing-radiant-healing-fn4-2-flavor">You've learned how to infuse your healing magic with lingering traces of light.</Pair>
+<Pair single="benefit" id="traitradianthealing-radiant-healing-fn4-2-benefit">Whenever you cast a spell from the conjuration (healing) school that has a casting time of a standard action, you can extend its casting time to a <strong className="hl">full-round action</strong> to imbue the target with light, as per <Link to="/spell/light">light</Link>, with a duration of 1 round per caster level.</Pair>
+</Ability>
+<Ability id="traitresilientcaster-resilient-caster-fn2-13" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitresilientcaster-resilient-caster-fn2-13"><Link to="/trait/resilient_caster">⮞</Link> Resilient Caster <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-2.13" id="main-traits_basic_magic-fake-fn-2.13" data-hash-target to="main-traits_basic_magic-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitresilientcaster-resilient-caster-fn2-13-flavor">Your great force of will makes your magic harder to dispel.</Pair>
+<Pair single="benefit" id="traitresilientcaster-resilient-caster-fn2-13-benefit">Your caster level is treated as 1 level higher whenever someone attempts to dispel one of your spells.</Pair>
+</Ability>
+<Ability id="traitsecondtongue-second-tongue-fn14-2" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitsecondtongue-second-tongue-fn14-2"><Link to="/trait/second_tongue">⮞</Link> Second Tongue <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-14.2" id="main-traits_basic_magic-fake-fn-14.2" data-hash-target to="main-traits_basic_magic-fake-fn-14-target">14</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Requirements" hl><Link to="/rule/old_cults">Old Cults</Link></Pair>
+<Pair single="flavor" id="traitsecondtongue-second-tongue-fn14-2-flavor">Using an ancient and painful surgical technique, you've reshaped your tongue. These surgical mutilations permit you to speak ancient words unpronounceable to most mortals, enhancing your ability to work magic associated with the Great Old Ones.</Pair>
+<Pair single="benefit" id="traitsecondtongue-second-tongue-fn14-2-benefit">Any summoning or divination spell you cast to summon or contact a Great Old One or one of their minions is cast at +1 caster level.</Pair>
+</Ability>
+<Ability id="traitshroudedcasting-shrouded-casting-fn2-14" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitshroudedcasting-shrouded-casting-fn2-14"><Link to="/trait/shrouded_casting">⮞</Link> Shrouded Casting <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-2.14" id="main-traits_basic_magic-fake-fn-2.14" data-hash-target to="main-traits_basic_magic-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitshroudedcasting-shrouded-casting-fn2-14-flavor">You have learned the secret to casting some spells without lesser material components.</Pair>
+<Pair single="benefit" id="traitshroudedcasting-shrouded-casting-fn2-14-benefit">Choose one school of magic when you pick this trait. You can cast spells from that school as if you had the <Link to="/feat/eschew_materials">Eschew Materials</Link> feat.</Pair>
+</Ability>
+<Ability id="traitsparkofcreation-spark-of-creation-fn17-2" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitsparkofcreation-spark-of-creation-fn17-2"><Link to="/trait/spark_of_creation">⮞</Link> Spark of Creation <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-17.2" id="main-traits_basic_magic-fake-fn-17.2" data-hash-target to="main-traits_basic_magic-fake-fn-17-target">17</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitsparkofcreation-spark-of-creation-fn17-2-flavor">You have always had a knack for making useful things, and your talent as an artisan was evident even at an early age.</Pair>
+<Pair single="benefit" id="traitsparkofcreation-spark-of-creation-fn17-2-benefit">You gain a +1 trait bonus on <Link to="/skill/craft">Craft</Link> checks, and the cost of creating magic items is reduced by 5%.</Pair>
+</Ability>
+<Ability id="traitstabbingspells-stabbing-spells-fn20" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitstabbingspells-stabbing-spells-fn20"><Link to="/trait/stabbing_spells">⮞</Link> Stabbing Spells <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-20" id="main-traits_basic_magic-fake-fn-20" data-hash-target to="main-traits_basic_magic-fake-fn-20-target">20</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitstabbingspells-stabbing-spells-fn20-flavor">Aroden wrote much about ways to use weapons to enhance magic's effectiveness, and you have taken to heart the insights gleaned from his words.</Pair>
+<Pair single="benefit" id="traitstabbingspells-stabbing-spells-fn20-benefit">Whenever you strike a foe with a weapon, you gain a +2 trait bonus on caster level checks to overcome that foe's spell resistance until the end of your next turn.</Pair>
+</Ability>
+<Ability id="traitstrengthoftheland-strength-of-the-land-fn8-2" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitstrengthoftheland-strength-of-the-land-fn8-2"><Link to="/trait/strength_of_the_land">⮞</Link> Strength of the Land <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-8.2" id="main-traits_basic_magic-fake-fn-8.2" data-hash-target to="main-traits_basic_magic-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
+<Pair single="flavor" id="traitstrengthoftheland-strength-of-the-land-fn8-2-flavor">You are able to tap into the living energy of the world to shatter lesser magic.</Pair>
+<Pair single="benefit" id="traitstrengthoftheland-strength-of-the-land-fn8-2-benefit">You gain a +1 trait bonus on caster level checks while touching the ground or unworked stone. This includes <Link to="/spell/dispel_magic">dispel</Link> checks and checks to overcome spell resistance.</Pair>
+</Ability>
+<Ability id="traittenaciousshifting-tenacious-shifting-fn2-15" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traittenaciousshifting-tenacious-shifting-fn2-15"><Link to="/trait/tenacious_shifting">⮞</Link> Tenacious Shifting <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-2.15" id="main-traits_basic_magic-fake-fn-2.15" data-hash-target to="main-traits_basic_magic-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traittenaciousshifting-tenacious-shifting-fn2-15-flavor">You've discovered the secret of stable transmutations.</Pair>
+<Pair single="benefit" id="traittenaciousshifting-tenacious-shifting-fn2-15-benefit">Any transmutation spell you cast upon yourself has its duration increased by 2 rounds. Transmutation spells with an instantaneous duration are not affected by this trait.</Pair>
+</Ability>
+<Ability id="traittransmuterofkorada-transmuter-of-korada-fn17-3" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traittransmuterofkorada-transmuter-of-korada-fn17-3"><Link to="/trait/transmuter_of_korada">⮞</Link> Transmuter of Korada <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-17.3" id="main-traits_basic_magic-fake-fn-17.3" data-hash-target to="main-traits_basic_magic-fake-fn-17-target">17</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traittransmuterofkorada-transmuter-of-korada-fn17-3-flavor">You learned the secrets of transmutation from a follower of the empyreal lord <Link to="/faith/korada">Korada</Link>.</Pair>
+<Pair single="benefit" id="traittransmuterofkorada-transmuter-of-korada-fn17-3-benefit"><p>Whenever you cast a spell from the transmutation school, its effects manifest at +1 caster level.</p>
+<p>Additionally, select one of the following transmutation spells: <Link to="/spell/bears_endurance">bear's endurance</Link>, <Link to="/spell/bulls_strength">bull's strength</Link>, <Link to="/spell/cats_grace">cat's grace</Link>, <Link to="/spell/eagles_splendor">eagle's splendor</Link>, <Link to="/spell/foxs_cunning">fox's cunning</Link>, or <Link to="/spell/owls_wisdom">owl's wisdom</Link>. Once per day when you cast that spell, its duration is doubled. A spell affected by this trait cannot be modified further by the <Link to="/feat/extend_spell">Extend Spell</Link> metamagic feat or similar abilities.</p>
+</Pair>
+</Ability>
+<Ability id="traittrickstergnome-trickster-gnome-fn21" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traittrickstergnome-trickster-gnome-fn21"><Link to="/trait/trickster_gnome">⮞</Link> Trickster (Gnome) <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-21" id="main-traits_basic_magic-fake-fn-21" data-hash-target to="main-traits_basic_magic-fake-fn-21-target">21</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
+<Pair single="flavor" id="traittrickstergnome-trickster-gnome-fn21-flavor">You are particularly adept with your racial spell-like abilities, and as child you quickly learned how <Link to="/spell/dancing_lights">dancing lights</Link> and <Link to="/spell/ghost_sound">ghost sound</Link> could be used to amuse your friends and fool your elders. This natural talent for illusion continued as you grew older, and before long you were being offered training in more advanced figments and glamers.</Pair>
+<Pair single="benefit" id="traittrickstergnome-trickster-gnome-fn21-benefit">You gain a +1 trait bonus to your caster level when determining the duration, range, and area of all spells from the illusion school.</Pair>
+</Ability>
+<Ability id="traittwistedtattoo-twisted-tattoo-fn22" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traittwistedtattoo-twisted-tattoo-fn22"><Link to="/trait/twisted_tattoo">⮞</Link> Twisted Tattoo <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-22" id="main-traits_basic_magic-fake-fn-22" data-hash-target to="main-traits_basic_magic-fake-fn-22-target">22</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traittwistedtattoo-twisted-tattoo-fn22-flavor">Your exposure to eldritch phenomena has caused your skin to develop a strange pattern.</Pair>
+<Pair single="benefit" id="traittwistedtattoo-twisted-tattoo-fn22-benefit">Once per day as you cast a spell whose casting time is 1 round or less, you can roll 1d4-2 (no minimum) and add the result to that spell's effective caster level. In an area of <Link to="/rule/primal_magic">primal magic</Link>, the minimum result of this roll is 0, not -1.</Pair>
+</Ability>
+<Ability id="traitviledomain-vile-domain-fn18-2" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitviledomain-vile-domain-fn18-2"><Link to="/trait/vile_domain">⮞</Link> Vile Domain <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-18.2" id="main-traits_basic_magic-fake-fn-18.2" data-hash-target to="main-traits_basic_magic-fake-fn-18-target">18</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitviledomain-vile-domain-fn18-2-flavor">Your connection with a malignant force has granted you great power.</Pair>
+<Pair single="benefit" id="traitviledomain-vile-domain-fn18-2-benefit">Choose a domain granted by an evil aligned deity, such as an archdevil, demon lord, or Great Old One. You gain a +1 trait bonus to your caster level when casting spells that are granted by that domain. This doesn't grant you the ability to cast such spells-you must still have access to the spells through some other means.</Pair>
+</Ability>
+<Ability id="traitvolatileconduit-volatile-conduit-fn2-16" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitvolatileconduit-volatile-conduit-fn2-16"><Link to="/trait/volatile_conduit">⮞</Link> Volatile Conduit <sup><InnerLink showBacklink="backlink-main-traits_basic_magic-fake-fn-2.16" id="main-traits_basic_magic-fake-fn-2.16" data-hash-target to="main-traits_basic_magic-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitvolatileconduit-volatile-conduit-fn2-16-flavor">You discovered a secret that enhances the energy of some spells.</Pair>
+<Pair single="benefit" id="traitvolatileconduit-volatile-conduit-fn2-16-benefit">Once per day as a <strong className="hl">free action</strong>, when you cast a spell that deals acid, cold, electricity, or fire damage, you can enhance that spell with volatile energy. When you do, it deals 1d4 points of extra damage of the same energy type.</Pair>
+</Ability>
+<section data-footnotes><h3 id="main-traits_basic_magic-label">Footnotes</h3><ol>
+<li id="main-traits_basic_magic-fake-fn-1-target"><p><Link to="/source/blood_of_the_ancients">Blood of the Ancients</Link> pg. 29 <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_basic_magic-fake-fn-1" data-hash-target to="main-traits_basic_magic-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_basic_magic-fake-fn-1.2" data-hash-target to="main-traits_basic_magic-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_basic_magic-fake-fn-1.3" data-hash-target to="main-traits_basic_magic-fake-fn-1.3">↩<sup>3</sup></InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-2-target"><p><Link to="/source/ultimate_campaign">Ultimate Campaign</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_basic_magic-fake-fn-2" data-hash-target to="main-traits_basic_magic-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_basic_magic-fake-fn-2.2" data-hash-target to="main-traits_basic_magic-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_basic_magic-fake-fn-2.3" data-hash-target to="main-traits_basic_magic-fake-fn-2.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_basic_magic-fake-fn-2.4" data-hash-target to="main-traits_basic_magic-fake-fn-2.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_basic_magic-fake-fn-2.5" data-hash-target to="main-traits_basic_magic-fake-fn-2.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_basic_magic-fake-fn-2.6" data-hash-target to="main-traits_basic_magic-fake-fn-2.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_basic_magic-fake-fn-2.7" data-hash-target to="main-traits_basic_magic-fake-fn-2.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_basic_magic-fake-fn-2.8" data-hash-target to="main-traits_basic_magic-fake-fn-2.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_basic_magic-fake-fn-2.9" data-hash-target to="main-traits_basic_magic-fake-fn-2.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_basic_magic-fake-fn-2.10" data-hash-target to="main-traits_basic_magic-fake-fn-2.10">↩<sup>10</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_basic_magic-fake-fn-2.11" data-hash-target to="main-traits_basic_magic-fake-fn-2.11">↩<sup>11</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_basic_magic-fake-fn-2.12" data-hash-target to="main-traits_basic_magic-fake-fn-2.12">↩<sup>12</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_basic_magic-fake-fn-2.13" data-hash-target to="main-traits_basic_magic-fake-fn-2.13">↩<sup>13</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_basic_magic-fake-fn-2.14" data-hash-target to="main-traits_basic_magic-fake-fn-2.14">↩<sup>14</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_basic_magic-fake-fn-2.15" data-hash-target to="main-traits_basic_magic-fake-fn-2.15">↩<sup>15</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_basic_magic-fake-fn-2.16" data-hash-target to="main-traits_basic_magic-fake-fn-2.16">↩<sup>16</sup></InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-3-target"><p><Link to="/source/champions_of_balance">Champions of Balance</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_basic_magic-fake-fn-3" data-hash-target to="main-traits_basic_magic-fake-fn-3">↩</InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-4-target"><p><Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_basic_magic-fake-fn-4" data-hash-target to="main-traits_basic_magic-fake-fn-4">↩</InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_basic_magic-fake-fn-4.2" data-hash-target to="main-traits_basic_magic-fake-fn-4.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-5-target"><p><Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_basic_magic-fake-fn-5" data-hash-target to="main-traits_basic_magic-fake-fn-5">↩</InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_basic_magic-fake-fn-5.2" data-hash-target to="main-traits_basic_magic-fake-fn-5.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_basic_magic-fake-fn-5.3" data-hash-target to="main-traits_basic_magic-fake-fn-5.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_basic_magic-fake-fn-5.4" data-hash-target to="main-traits_basic_magic-fake-fn-5.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_basic_magic-fake-fn-5.5" data-hash-target to="main-traits_basic_magic-fake-fn-5.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_basic_magic-fake-fn-5.6" data-hash-target to="main-traits_basic_magic-fake-fn-5.6">↩<sup>6</sup></InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-6-target"><p><Link to="/source/advanced_players_guide">Advanced Player's Guide</Link> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_basic_magic-fake-fn-6" data-hash-target to="main-traits_basic_magic-fake-fn-6">↩</InnerLink> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_basic_magic-fake-fn-6.2" data-hash-target to="main-traits_basic_magic-fake-fn-6.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_basic_magic-fake-fn-6.3" data-hash-target to="main-traits_basic_magic-fake-fn-6.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_basic_magic-fake-fn-6.4" data-hash-target to="main-traits_basic_magic-fake-fn-6.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_basic_magic-fake-fn-6.5" data-hash-target to="main-traits_basic_magic-fake-fn-6.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_basic_magic-fake-fn-6.6" data-hash-target to="main-traits_basic_magic-fake-fn-6.6">↩<sup>6</sup></InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-7-target"><p><Link to="/source/blood_of_the_coven">Blood of the Coven</Link> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_basic_magic-fake-fn-7" data-hash-target to="main-traits_basic_magic-fake-fn-7">↩</InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-8-target"><p><Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_basic_magic-fake-fn-8" data-hash-target to="main-traits_basic_magic-fake-fn-8">↩</InnerLink> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_basic_magic-fake-fn-8.2" data-hash-target to="main-traits_basic_magic-fake-fn-8.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-9-target"><p><Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link> <InnerLink aria-label="Back to reference 9" id="backlink-main-traits_basic_magic-fake-fn-9" data-hash-target to="main-traits_basic_magic-fake-fn-9">↩</InnerLink> <InnerLink aria-label="Back to reference 9" id="backlink-main-traits_basic_magic-fake-fn-9.2" data-hash-target to="main-traits_basic_magic-fake-fn-9.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-10-target"><p><Link to="/source/quests_and_campaigns">Quests and Campaigns</Link> <InnerLink aria-label="Back to reference 10" id="backlink-main-traits_basic_magic-fake-fn-10" data-hash-target to="main-traits_basic_magic-fake-fn-10">↩</InnerLink> <InnerLink aria-label="Back to reference 10" id="backlink-main-traits_basic_magic-fake-fn-10.2" data-hash-target to="main-traits_basic_magic-fake-fn-10.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 10" id="backlink-main-traits_basic_magic-fake-fn-10.3" data-hash-target to="main-traits_basic_magic-fake-fn-10.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 10" id="backlink-main-traits_basic_magic-fake-fn-10.4" data-hash-target to="main-traits_basic_magic-fake-fn-10.4">↩<sup>4</sup></InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-11-target"><p><Link to="/source/legacy_of_dragons">Legacy of Dragons</Link> <InnerLink aria-label="Back to reference 11" id="backlink-main-traits_basic_magic-fake-fn-11" data-hash-target to="main-traits_basic_magic-fake-fn-11">↩</InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-12-target"><p><Link to="/source/adventurers_armory_2">Adventurer's Armory 2</Link> <InnerLink aria-label="Back to reference 12" id="backlink-main-traits_basic_magic-fake-fn-12" data-hash-target to="main-traits_basic_magic-fake-fn-12">↩</InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-13-target"><p><Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link> <InnerLink aria-label="Back to reference 13" id="backlink-main-traits_basic_magic-fake-fn-13" data-hash-target to="main-traits_basic_magic-fake-fn-13">↩</InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-14-target"><p><Link to="/source/faction_guide">Faction Guide</Link> <InnerLink aria-label="Back to reference 14" id="backlink-main-traits_basic_magic-fake-fn-14" data-hash-target to="main-traits_basic_magic-fake-fn-14">↩</InnerLink> <InnerLink aria-label="Back to reference 14" id="backlink-main-traits_basic_magic-fake-fn-14.2" data-hash-target to="main-traits_basic_magic-fake-fn-14.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-15-target"><p><Link to="/source/pathfinder_society_primer">Pathfinder Society Primer</Link> <InnerLink aria-label="Back to reference 15" id="backlink-main-traits_basic_magic-fake-fn-15" data-hash-target to="main-traits_basic_magic-fake-fn-15">↩</InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-16-target"><p><Link to="/source/agents_of_evil">Agents of Evil</Link> <InnerLink aria-label="Back to reference 16" id="backlink-main-traits_basic_magic-fake-fn-16" data-hash-target to="main-traits_basic_magic-fake-fn-16">↩</InnerLink> <InnerLink aria-label="Back to reference 16" id="backlink-main-traits_basic_magic-fake-fn-16.2" data-hash-target to="main-traits_basic_magic-fake-fn-16.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-17-target"><p><Link to="/source/champions_of_purity">Champions of Purity</Link> <InnerLink aria-label="Back to reference 17" id="backlink-main-traits_basic_magic-fake-fn-17" data-hash-target to="main-traits_basic_magic-fake-fn-17">↩</InnerLink> <InnerLink aria-label="Back to reference 17" id="backlink-main-traits_basic_magic-fake-fn-17.2" data-hash-target to="main-traits_basic_magic-fake-fn-17.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 17" id="backlink-main-traits_basic_magic-fake-fn-17.3" data-hash-target to="main-traits_basic_magic-fake-fn-17.3">↩<sup>3</sup></InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-18-target"><p><Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link> <InnerLink aria-label="Back to reference 18" id="backlink-main-traits_basic_magic-fake-fn-18" data-hash-target to="main-traits_basic_magic-fake-fn-18">↩</InnerLink> <InnerLink aria-label="Back to reference 18" id="backlink-main-traits_basic_magic-fake-fn-18.2" data-hash-target to="main-traits_basic_magic-fake-fn-18.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-19-target"><p><Link to="/source/bastards_of_golarion">Bastards of Golarion</Link> <InnerLink aria-label="Back to reference 19" id="backlink-main-traits_basic_magic-fake-fn-19" data-hash-target to="main-traits_basic_magic-fake-fn-19">↩</InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-20-target"><p><Link to="/source/arcane_anthology">Arcane Anthology</Link> <InnerLink aria-label="Back to reference 20" id="backlink-main-traits_basic_magic-fake-fn-20" data-hash-target to="main-traits_basic_magic-fake-fn-20">↩</InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-21-target"><p><Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link> <InnerLink aria-label="Back to reference 21" id="backlink-main-traits_basic_magic-fake-fn-21" data-hash-target to="main-traits_basic_magic-fake-fn-21">↩</InnerLink></p></li>
+<li id="main-traits_basic_magic-fake-fn-22-target"><p><Link to="/source/people_of_the_wastes">People of the Wastes</Link> <InnerLink aria-label="Back to reference 22" id="backlink-main-traits_basic_magic-fake-fn-22" data-hash-target to="main-traits_basic_magic-fake-fn-22">↩</InnerLink></p></li>
+</ol></section></IonList>};
+const _traits_class = {title: "Clas-Specific Basic Traits", jsx: <IonList lines="full"><MainLink to="/main/traits" className="reversed" info="Back to Traits" /><IonItem className="mainItem basic"><IonLabel><p><strong className="hl">Note:</strong> Other classes may select these traits if they have the same class ability being modified. For instance, swashbucklers can take gunslinger traits that modify deeds, and investigators may take alchemist traits that modify extracts.</p>
+</IonLabel></IonItem><IonItemDivider className="mainItem"><IonLabel>Any Spellcaster</IonLabel></IonItemDivider><Ability id="traitcharlatan-charlatan-fn1" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitcharlatan-charlatan-fn1"><Link to="/trait/charlatan">⮞</Link> Charlatan <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-1" id="main-traits_class-fake-fn-1" data-hash-target to="main-traits_class-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
+<Pair single="flavor" id="traitcharlatan-charlatan-fn1-flavor">Your talent for illusion goes beyond a mere knack for figments and phantasms. You can actually channel spell energy into simple illusions that augment your attempts at deception.</Pair>
+<Pair single="benefit" id="traitcharlatan-charlatan-fn1-benefit"><p>As a <strong className="hl">swift action</strong>, you may expend one prepared spell or spell slot to gain a bonus on the next <Link to="/skill/bluff">Bluff</Link> check you make, provided the check takes place before the beginning of your next turn. The bonus on this check is equal to the level of the spell consumed.</p>
+<p>You may use this ability 3 times per day. Only gnomes of nonlawful alignment may take this trait.</p>
+</Pair>
+</Ability>
+<Ability id="traitgreateradeptofthesociety-greater-adept-of-the-society-fn2-fn3" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitgreateradeptofthesociety-greater-adept-of-the-society-fn2-fn3"><Link to="/trait/greater_adept_of_the_society">⮞</Link> Greater Adept of the Society <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-2" id="main-traits_class-fake-fn-2" data-hash-target to="main-traits_class-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-3" id="main-traits_class-fake-fn-3" data-hash-target to="main-traits_class-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
+<Pair single="flavor" id="traitgreateradeptofthesociety-greater-adept-of-the-society-fn2-fn3-flavor">Months of meditation and practice with the greatest spellcasters of the Society have given you an increased capacity for arcane knowledge.</Pair>
+<Pair single="benefit" id="traitgreateradeptofthesociety-greater-adept-of-the-society-fn2-fn3-benefit">You gain one additional 0-level spell slot.</Pair>
+</Ability>
+<Ability id="traitmeditativerest-meditative-rest-fn4" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitmeditativerest-meditative-rest-fn4"><Link to="/trait/meditative_rest">⮞</Link> Meditative Rest <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-4" id="main-traits_class-fake-fn-4" data-hash-target to="main-traits_class-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="benefit" id="traitmeditativerest-meditative-rest-fn4-benefit">When you rest, you ignore the first time you are interrupted during that rest for the purposes of determining how long you need to rest in full to regain the capacity to regain spells, provided the interruption lasts no more than 15 minutes. If you cast spells during this interruption, you don't count these against your daily limit of spells when you wake and prepare spells.</Pair>
+</Ability>
+<Ability id="traittwoworldmagic-two-world-magic-fn5" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traittwoworldmagic-two-world-magic-fn5"><Link to="/trait/two_world_magic">⮞</Link> Two-World Magic <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-5" id="main-traits_class-fake-fn-5" data-hash-target to="main-traits_class-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Region" hl>Sargava</Pair>
+<Pair single="flavor" id="traittwoworldmagic-two-world-magic-fn5-flavor">You have bridged the gap between the natural magic of the Mwangi peoples and the refined magic of the Chelish colonists.</Pair>
+<Pair single="benefit" id="traittwoworldmagic-two-world-magic-fn5-benefit">Select one 0-level spell from a class spell list other than your own. This spell is a 0-level spell on your class spell list (or a 1st-level spell if your class doesn't have 0-level spells). For example, if you are a druid, you could select <Link to="/spell/mage_hand">mage hand</Link> and thereafter prepare it as a 0-level druid spell; if you are a sorcerer, you could select <Link to="/spell/know_direction">know direction</Link> as a 0-level sorcerer spell known.</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Any with an Animal Companion</IonLabel></IonItemDivider><Ability id="traitridersbond-riders-bond-fn6" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traitridersbond-riders-bond-fn6"><Link to="/trait/riders_bond">⮞</Link> Rider's Bond <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-6" id="main-traits_class-fake-fn-6" data-hash-target to="main-traits_class-fake-fn-6-target">6</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair title="Region" hl>Lastwall</Pair>
+<Pair title="Requirements" hl>Associated with the court of Castle Overwatch</Pair>
+<Pair single="flavor" id="traitridersbond-riders-bond-fn6-flavor">Your mount keenly understands your commands.</Pair>
+<Pair single="benefit" id="traitridersbond-riders-bond-fn6-benefit">If you gain a horse as an animal companion or mount as one of your class abilities, it gains two bonus tricks that don't count against the normal limit of tricks known by the animal.</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Alchemist</IonLabel></IonItemDivider><Ability id="traitcrossknowledge-cross-knowledge-fn7" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitcrossknowledge-cross-knowledge-fn7"><Link to="/trait/cross_knowledge">⮞</Link> Cross-Knowledge <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7" id="main-traits_class-fake-fn-7" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="traitcrossknowledge-cross-knowledge-fn7-benefit">Once per day, you may treat an extract you drink as if your caster level were 1 level higher as long as that extract appears on the wizard spell list and the alchemist list of formulae.</Pair>
+</Ability>
+<Ability id="traitenduringmutagen-enduring-mutagen-fn7-2" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitenduringmutagen-enduring-mutagen-fn7-2"><Link to="/trait/enduring_mutagen">⮞</Link> Enduring Mutagen <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.2" id="main-traits_class-fake-fn-7.2" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitenduringmutagen-enduring-mutagen-fn7-2-flavor">Because of special training, your unique body chemistry, or the uncovering of an alchemical secret, your mutagens last longer.</Pair>
+<Pair single="benefit" id="traitenduringmutagen-enduring-mutagen-fn7-2-benefit">The bonuses and penalties granted by your mutagens last for 1 additional minute per alchemist level.</Pair>
+</Ability>
+<Ability id="traitfirebugqac-firebug-qac-fn8" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traitfirebugqac-firebug-qac-fn8"><Link to="/trait/firebug_qac">⮞</Link> Firebug (QaC) <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-8" id="main-traits_class-fake-fn-8" data-hash-target to="main-traits_class-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair single="flavor" id="traitfirebugqac-firebug-qac-fn8-flavor">You were the child of a gunsmith or alchemist and always enjoyed experimenting with fiery alchemical items and minor explosives.</Pair>
+<Pair single="benefit" id="traitfirebugqac-firebug-qac-fn8-benefit"><p>You gain a +1 trait bonus on attack rolls made with <Link to="/rule/throw_splash_weapon">thrown splash weapons</Link> and <Link to="/class/alchemist">alchemist</Link> bombs.</p>
+<p><strong>Suggested Characters:</strong> Alkenstar natives, Katapeshi, Thuvians.</p>
+</Pair>
+</Ability>
+<Ability id="traitfocusedburn-focused-burn-fn7-3" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitfocusedburn-focused-burn-fn7-3"><Link to="/trait/focused_burn">⮞</Link> Focused Burn <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.3" id="main-traits_class-fake-fn-7.3" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitfocusedburn-focused-burn-fn7-3-flavor">You know the secret of making punishing fire bombs.</Pair>
+<Pair single="benefit" id="traitfocusedburn-focused-burn-fn7-3-benefit">Any bombs you have that deal fire damage deal 1 additional point of fire damage on a direct hit per 2d6 of fire damage normally dealt (minimum 1 point). This additional damage does not apply to the bomb's splash damage.</Pair>
+</Ability>
+<Ability id="traitmeticulousconcoction-meticulous-concoction-fn7-4" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitmeticulousconcoction-meticulous-concoction-fn7-4"><Link to="/trait/meticulous_concoction">⮞</Link> Meticulous Concoction <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.4" id="main-traits_class-fake-fn-7.4" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitmeticulousconcoction-meticulous-concoction-fn7-4-flavor">Your meticulous carefulness makes your bombs and extracts more potent.</Pair>
+<Pair single="benefit" id="traitmeticulousconcoction-meticulous-concoction-fn7-4-benefit">Once per day, you can either add a +2 trait bonus to the save DC for one bomb you throw or extend the duration of one extract you imbibe by 2 rounds. Extracts with an instantaneous duration are not affected by this trait.</Pair>
+</Ability>
+<Ability id="traitunstablemutagen-unstable-mutagen-fn7-5" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitunstablemutagen-unstable-mutagen-fn7-5"><Link to="/trait/unstable_mutagen">⮞</Link> Unstable Mutagen <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.5" id="main-traits_class-fake-fn-7.5" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitunstablemutagen-unstable-mutagen-fn7-5-flavor">You discovered or were given a secret to make your mutagens more unstable - but also more potent.</Pair>
+<Pair single="benefit" id="traitunstablemutagen-unstable-mutagen-fn7-5-benefit"><p>Once per day, you can create an <em>unstable mutagen.</em> It is like a normal mutagen in most ways, but also gains a single benefit or hindrance due to its instability. Roll 1d6 to determine the result of the instability.</p>
+<ScrollContainer id="main-traits_class--table-0"><table>
+<thead>
+<tr>
+<th>1d6</th>
+<th>Instability</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>The <em>unstable mutagen</em> lasts for 5 minutes per alchemist level.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>The <em>unstable mutagen</em> lasts for 20 minutes per alchemist level.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>The <em>unstable mutagen</em> does not grant a natural armor bonus.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>The natural armor bonus granted by the mutagen increases by 2.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>The penalty that the mutagen applies to the corresponding mental ability score increases by 2.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>The <em>unstable mutagen</em> does not apply a penalty to the corresponding mental ability score.</td>
+</tr>
+</tbody></table></ScrollContainer>
+</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Barbarian</IonLabel></IonItemDivider><Ability id="traitberserkerofthesociety-berserker-of-the-society-fn2-2-fn3-2" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traitberserkerofthesociety-berserker-of-the-society-fn2-2-fn3-2"><Link to="/trait/berserker_of_the_society">⮞</Link> Berserker of the Society <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-2.2" id="main-traits_class-fake-fn-2.2" data-hash-target to="main-traits_class-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-3.2" id="main-traits_class-fake-fn-3.2" data-hash-target to="main-traits_class-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
+<Pair single="flavor" id="traitberserkerofthesociety-berserker-of-the-society-fn2-2-fn3-2-flavor">Your time spent as a Pathfinder has taught you new truths about the origins of the your rage ability.</Pair>
+<Pair single="benefit" id="traitberserkerofthesociety-berserker-of-the-society-fn2-2-fn3-2-benefit">You may use your <em>rage</em> ability for 3 additional rounds per day.</Pair>
+</Ability>
+<Ability id="traitcoherentrage-coherent-rage-fn3-3" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traitcoherentrage-coherent-rage-fn3-3"><Link to="/trait/coherent_rage">⮞</Link> Coherent Rage <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-3.3" id="main-traits_class-fake-fn-3.3" data-hash-target to="main-traits_class-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair title="Requirements" hl>Associated with the <Link to="/rule/ulfen_guard">Ulfen Guard</Link></Pair>
+<Pair single="flavor" id="traitcoherentrage-coherent-rage-fn3-3-flavor">Your determination allows you to hold onto a shred of your rational mind at all times.</Pair>
+<Pair single="benefit" id="traitcoherentrage-coherent-rage-fn3-3-benefit">Select one of the following skills: <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/escape_artist">Escape Artist</Link>, <Link to="/skill/handle_animal">Handle Animal</Link>, or <Link to="/skill/stealth">Stealth</Link>. You may use this skill normally while raging.</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Bard</IonLabel></IonItemDivider><Ability id="traitmaestroofthesociety-maestro-of-the-society-fn2-3-fn3-4" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitmaestroofthesociety-maestro-of-the-society-fn2-3-fn3-4"><Link to="/trait/maestro_of_the_society">⮞</Link> Maestro of the Society <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-2.3" id="main-traits_class-fake-fn-2.3" data-hash-target to="main-traits_class-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-3.4" id="main-traits_class-fake-fn-3.4" data-hash-target to="main-traits_class-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
+<Pair single="benefit" id="traitmaestroofthesociety-maestro-of-the-society-fn2-3-fn3-4-benefit">The skills of Golarion's greatest musicians are at your fingertips, thanks to the vast treasure trove of musical knowledge in the vaults beneath the Grand Lodge in Absalom. Studying this knowledge gives you the ability to use your <Link to="/ability/bardic_performance">bardic performance</Link> an additional 3 rounds per day.</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Cleric</IonLabel></IonItemDivider><Ability id="traitacolyteofapocrypha-acolyte-of-apocrypha-fn4-2" extraClasses="trait hasSubs" icon={["bolt-eye"]}>
+<Pair single id="traitacolyteofapocrypha-acolyte-of-apocrypha-fn4-2"><Link to="/trait/acolyte_of_apocrypha">⮞</Link> Acolyte of Apocrypha <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-4.2" id="main-traits_class-fake-fn-4.2" data-hash-target to="main-traits_class-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitacolyteofapocrypha-acolyte-of-apocrypha-fn4-2-flavor">Your religious studies hinged on teachings rarely recognized by your faith.</Pair>
+<Pair single="benefit" id="traitacolyteofapocrypha-acolyte-of-apocrypha-fn4-2-benefit"><p>You can select one of the apocryphal subdomains detailed below, provided the subdomain is associated with your patron deity. In some cases, you can select a subdomain associated with a deity despite that deity not offering the associated domain - these exceptions are noted with an asterisk (&#42;), and you gain domain powers and domain spells from the associated domain as usual, even though your deity normally doesn't grant access to that domain.</p>
+<p>When selecting a subdomain associated with two domains, a priest can choose only a subdomain that modifies a domain to which he has access.</p>
+</Pair>
+</Ability>
+<Ability id="domainalchemy-domainartificedomainmagic" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="domainalchemy-domainartificedomainmagic"><Link to="/domain/alchemy">Alchemy</Link> (<Link to="/domain/artifice">Artifice</Link>/<Link to="/domain/magic">Magic</Link>)</Pair>
+<Pair title="Associated Gods"><Link to="/faith/brigh">Brigh</Link>, <Link to="/faith/haagenti">Haagenti</Link>, <Link to="/faith/norgorber">Norgorber</Link>&#42; (Artifice only), <Link to="/faith/orgesh">Orgesh</Link>&#42; (Magic only), <Link to="/faith/qi_zhong">Qi Zhong</Link>)</Pair>
+</Ability>
+<Ability id="domaincaptivation" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="domaincaptivation"><Link to="/domain/captivation">Captivation</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/calistria">Calistria</Link>, <Link to="/faith/kofusachi">Kofusachi</Link>, <Link to="/faith/nalinivati">Nalinivati</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/shelyn">Shelyn</Link></Pair>
+</Ability>
+<Ability id="domainhubris-domainglorydomainnobility" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="domainhubris-domainglorydomainnobility"><Link to="/domain/hubris">Hubris</Link> (<Link to="/domain/glory">Glory</Link>/<Link to="/domain/nobility">Nobility</Link>)</Pair>
+<Pair title="Associated Gods"><Link to="/faith/dispater">Dispater</Link>, <Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/jaidz">Jaidz</Link>, <Link to="/faith/lissala">Lissala</Link>, <Link to="/faith/olheon">Olheon</Link>, <Link to="/faith/ydersius">Ydersius</Link></Pair>
+</Ability>
+<Ability id="domaininsect" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="domaininsect"><Link to="/domain/insect">Insect</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/achaekek">Achaekek</Link>&#42;, <Link to="/faith/aldinach">Aldinach</Link>, <Link to="/faith/deskari">Deskari</Link>&#42;, <Link to="/faith/ghlaunder">Ghlaunder</Link>, <Link to="/faith/kitumu">Kitumu</Link>, <Link to="/faith/mazmezz">Mazmezz</Link></Pair>
+</Ability>
+<Ability id="domainlegend" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="domainlegend"><Link to="/domain/legend">Legend</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/general_susumu">General Susumu</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/shizuru">Shizuru</Link></Pair>
+</Ability>
+<Ability id="domainlightning" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="domainlightning"><Link to="/domain/lightning">Lightning</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/hei_feng">Hei Feng</Link>, <Link to="/faith/rovagug">Rovagug</Link>, <Link to="/faith/rull">Rull</Link></Pair>
+</Ability>
+<Ability id="domainmedicine" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="domainmedicine"><Link to="/domain/medicine">Medicine</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/dalenydra">Dalenydra</Link>, <Link to="/faith/immonhiel">Immonhiel</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/korada">Korada</Link>, <Link to="/faith/qi_zhong">Qi Zhong</Link>, <Link to="/faith/sarenrae">Sarenrae</Link></Pair>
+</Ability>
+<Ability id="domainmonsoon" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="domainmonsoon"><Link to="/domain/monsoon">Monsoon</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/daikitsu">Daikitsu</Link>, <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/hei_feng">Hei Feng</Link>, <Link to="/faith/rull">Rull</Link></Pair>
+</Ability>
+<Ability id="domainpetrification" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="domainpetrification"><Link to="/domain/petrification">Petrification</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/ayrzul">Ayrzul</Link>, <Link to="/faith/minderhal">Minderhal</Link>, <Link to="/faith/soralyon">Soralyon</Link>, <Link to="/faith/xoveron">Xoveron</Link></Pair>
+</Ability>
+<Ability id="domainportal" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="domainportal"><Link to="/domain/portal">Portal</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/alseta">Alseta</Link>&#42;, <Link to="/faith/barbatos">Barbatos</Link>, <Link to="/faith/yog_sothoth">Yog-Sothoth</Link></Pair>
+</Ability>
+<Ability id="domainrites" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="domainrites"><Link to="/domain/rites">Rites</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/abraxas">Abraxas</Link>, <Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/nalinivati">Nalinivati</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/nyarlathotep_black_pharaoh">Nyarlathotep</Link>, <Link to="/faith/sivanah">Sivanah</Link></Pair>
+</Ability>
+<Ability id="domainself-realization-domainliberationdomainstrength" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="domainself-realization-domainliberationdomainstrength"><Link to="/domain/self_realization">Self-Realization</Link> (<Link to="/domain/liberation">Liberation</Link>/<Link to="/domain/strength">Strength</Link>)</Pair>
+<Pair title="Associated Gods"><Link to="/faith/arshea">Arshea</Link>, <Link to="/faith/falayna">Falayna</Link>, <Link to="/faith/haagenti">Haagenti</Link>, <Link to="/faith/irori">Irori</Link>, <Link to="/faith/kurgess">Kurgess</Link>, <Link to="/faith/shei">Shei</Link>, <Link to="/faith/urgathoa">Urgathoa</Link></Pair>
+</Ability>
+<Ability id="domainthirst" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="domainthirst"><Link to="/domain/thirst">Thirst</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/aldinach">Aldinach</Link>, <Link to="/faith/lalaci">Lalaci</Link>, <Link to="/faith/nurgal">Nurgal</Link>, <Link to="/faith/sarenrae">Sarenrae</Link></Pair>
+</Ability>
+<Ability id="domainthorns" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="domainthorns"><Link to="/domain/thorns">Thorns</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/the_green_mother">The Green Mother</Link>, <Link to="/faith/shub_niggurath">Shub-Niggurath</Link>, <Link to="/faith/zyphus">Zyphus</Link></Pair>
+</Ability>
+<Ability id="domaintruth" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="domaintruth"><Link to="/domain/truth">Truth</Link></Pair>
+<Pair title="Associated Gods"><Link to="/faith/groetus">Groetus</Link>, <Link to="/faith/lamashtu">Lamashtu</Link>, <Link to="/faith/sifkesh">Sifkesh</Link>, <Link to="/faith/sivanah">Sivanah</Link></Pair>
+</Ability>
+<Ability id="traitbeaconoffaith-beacon-of-faith-fn7-6" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitbeaconoffaith-beacon-of-faith-fn7-6"><Link to="/trait/beacon_of_faith">⮞</Link> Beacon of Faith <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.6" id="main-traits_class-fake-fn-7.6" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitbeaconoffaith-beacon-of-faith-fn7-6-flavor">You wield the might of your faith with power and clarity.</Pair>
+<Pair single="benefit" id="traitbeaconoffaith-beacon-of-faith-fn7-6-benefit">Once per day as a <strong className="hl">free action</strong>, you may treat your caster level as if it were 2 levels higher when using one of the granted powers of your domain or inquisition, or when casting one of your domain spells.</Pair>
+</Ability>
+<Ability id="traitblessedtouch-blessed-touch-fn9" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitblessedtouch-blessed-touch-fn9"><Link to="/trait/blessed_touch">⮞</Link> Blessed Touch <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-9" id="main-traits_class-fake-fn-9" data-hash-target to="main-traits_class-fake-fn-9-target">9</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitblessedtouch-blessed-touch-fn9-flavor">You may have been raised in a devout family, studied the divine in a formal church environment, or even learned how to combine traditional healing techniques with those of divine casters. In so doing, you have focused yourself into being the perfect vessel for your deity. Divine power flows through you like a mountain stream, making your healing touch more potent than that of others.</Pair>
+<Pair single="benefit" id="traitblessedtouch-blessed-touch-fn9-benefit">You heal 1 additional point of damage when using <Link to="/ability/lay_on_hands">lay on hands</Link>, <Link to="/ability/channel_energy">channeling energy</Link>, or casting a <Link to="/main/cure_spells">cure spell</Link>.</Pair>
+</Ability>
+<Ability id="traitdeepfaith-deep-faith-fn10" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitdeepfaith-deep-faith-fn10"><Link to="/trait/deep_faith">⮞</Link> Deep Faith <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-10" id="main-traits_class-fake-fn-10" data-hash-target to="main-traits_class-fake-fn-10-target">10</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitdeepfaith-deep-faith-fn10-flavor">Your deity was born of the depths, and you're a child of such realms.</Pair>
+<Pair single="benefit" id="traitdeepfaith-deep-faith-fn10-benefit">Whenever you cast a spell granted by the <Link to="/domain/earth">earth</Link> domain (or associated subdomains) while in the Darklands, that spell functions at 1 caster level higher than your actual caster level.</Pair>
+</Ability>
+<Ability id="traitempyrealpantheon-empyreal-pantheon-fn11" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitempyrealpantheon-empyreal-pantheon-fn11"><Link to="/trait/empyreal_pantheon">⮞</Link> Empyreal Pantheon <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-11" id="main-traits_class-fake-fn-11" data-hash-target to="main-traits_class-fake-fn-11-target">11</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitempyrealpantheon-empyreal-pantheon-fn11-flavor">Your faith in the empyreal lords accommodates numerous gods, and you are gifted at adapting their wide variety of focuses and lessons to your own life.</Pair>
+<Pair single="benefit" id="traitempyrealpantheon-empyreal-pantheon-fn11-benefit">Select either the law or chaos alignment descriptor. You may cast spells with that descriptor, even if your alignment or that of your god would normally not allow it. Doing so applies the good descriptor to the spell if it does not already apply.</Pair>
+</Ability>
+<Ability id="traitexaltedofthesociety-exalted-of-the-society-fn2-4-fn3-5" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitexaltedofthesociety-exalted-of-the-society-fn2-4-fn3-5"><Link to="/trait/exalted_of_the_society">⮞</Link> Exalted of the Society <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-2.4" id="main-traits_class-fake-fn-2.4" data-hash-target to="main-traits_class-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-3.5" id="main-traits_class-fake-fn-3.5" data-hash-target to="main-traits_class-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
+<Pair single="flavor" id="traitexaltedofthesociety-exalted-of-the-society-fn2-4-fn3-5-flavor">The vaults of the Grand Lodge in Absalom contain many secrets of the divine powers of the gods, and you have studied your deity extensively.</Pair>
+<Pair single="benefit" id="traitexaltedofthesociety-exalted-of-the-society-fn2-4-fn3-5-benefit">You may <Link to="/ability/channel_energy">channel energy</Link> one additional time per day.</Pair>
+</Ability>
+<Ability id="traitfaithfulfeedback-faithful-feedback-fn3-6" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitfaithfulfeedback-faithful-feedback-fn3-6"><Link to="/trait/faithful_feedback">⮞</Link> Faithful Feedback <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-3.6" id="main-traits_class-fake-fn-3.6" data-hash-target to="main-traits_class-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Requirements" hl>Must have a religion</Pair>
+<Pair single="flavor" id="traitfaithfulfeedback-faithful-feedback-fn3-6-flavor">A shared religious fervor makes your healing magic more effective.</Pair>
+<Pair single="benefit" id="traitfaithfulfeedback-faithful-feedback-fn3-6-benefit">Whenever you cast a spell belonging to the healing subschool on someone of your religion, increase the hit points healed by +1.</Pair>
+</Ability>
+<Ability id="traitlightinthedarkness-light-in-the-darkness-fn10-2" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitlightinthedarkness-light-in-the-darkness-fn10-2"><Link to="/trait/light_in_the_darkness">⮞</Link> Light in the Darkness <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-10.2" id="main-traits_class-fake-fn-10.2" data-hash-target to="main-traits_class-fake-fn-10-target">10</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitlightinthedarkness-light-in-the-darkness-fn10-2-flavor">You're destined to bring light to the darkness and expunge the faithless from the deep.</Pair>
+<Pair single="benefit" id="traitlightinthedarkness-light-in-the-darkness-fn10-2-benefit">Whenever you cast a spell granted by the <Link to="/domain/sun">sun</Link> domain (or associated subdomains) while in the Darklands, the spell functions at 1 caster level higher than your actual caster level.</Pair>
+</Ability>
+<Ability id="traitpactservant-pact-servant-fn11-2" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitpactservant-pact-servant-fn11-2"><Link to="/trait/pact_servant">⮞</Link> Pact Servant <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-11.2" id="main-traits_class-fake-fn-11.2" data-hash-target to="main-traits_class-fake-fn-11-target">11</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitpactservant-pact-servant-fn11-2-flavor">The faith of Holomog focuses on finding the good in unusual places and appreciating the nuances of virtue in the world.</Pair>
+<Pair single="benefit" id="traitpactservant-pact-servant-fn11-2-benefit">You may treat <Link to="/faith/asmodeus">Asmodeus</Link> as if he were a lawful neutral deity for the purposes of determining your own alignment as a cleric, inquisitor, or other divine spellcaster. You may not select the evil domain unless your own alignment also contains an evil aspect.</Pair>
+</Ability>
+<Ability id="traitsacredconduit-sacred-conduit-fn7-7-fn12-fn13" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitsacredconduit-sacred-conduit-fn7-7-fn12-fn13"><Link to="/trait/sacred_conduit">⮞</Link> Sacred Conduit <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.7" id="main-traits_class-fake-fn-7.7" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-12" id="main-traits_class-fake-fn-12" data-hash-target to="main-traits_class-fake-fn-12-target">12</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-13" id="main-traits_class-fake-fn-13" data-hash-target to="main-traits_class-fake-fn-13-target">13</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitsacredconduit-sacred-conduit-fn7-7-fn12-fn13-flavor">Your birth was particularly painful and difficult for your mother, who needed potent divine magic to ensure that you survived (your mother may or may not have survived). In any event, that magic infused you from an early age, and you now channel divine energy with greater ease than most.</Pair>
+<Pair single="benefit" id="traitsacredconduit-sacred-conduit-fn7-7-fn12-fn13-benefit">Whenever you <Link to="/ability/channel_energy">channel energy</Link>, you gain a +1 trait bonus to the save DC of your channeled energy.</Pair>
+</Ability>
+<Ability id="traiturbanacolyte-urban-acolyte-fn14" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traiturbanacolyte-urban-acolyte-fn14"><Link to="/trait/urban_acolyte">⮞</Link> Urban Acolyte <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-14" id="main-traits_class-fake-fn-14" data-hash-target to="main-traits_class-fake-fn-14-target">14</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traiturbanacolyte-urban-acolyte-fn14-flavor">Growing up in a city has broadened your philosophy, and helped you interpret your patron's divine will in a novel way.</Pair>
+<Pair single="benefit" id="traiturbanacolyte-urban-acolyte-fn14-benefit">You gain <Link to="/skill/knowledge_local">Knowledge (local)</Link> as a class skill. Additionally, you can select one of the following subdomains using the normal rules for subdomains so long as your deity grants access to its associated domain: <Link to="/domain/competition">Competition</Link>, <Link to="/domain/duels">Duels</Link>, <Link to="/domain/espionage">Espionage</Link>, <Link to="/domain/fortifications">Fortifications</Link>, <Link to="/domain/industry">Industry</Link>, <Link to="/domain/legislation">Legislation</Link>, <Link to="/domain/plague">Plague</Link>, or <Link to="/domain/riot">Riot</Link>.</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Druid</IonLabel></IonItemDivider><Ability id="traitbeastofthesociety-beast-of-the-society-fn2-5-fn3-7" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitbeastofthesociety-beast-of-the-society-fn2-5-fn3-7"><Link to="/trait/beast_of_the_society">⮞</Link> Beast of the Society <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-2.5" id="main-traits_class-fake-fn-2.5" data-hash-target to="main-traits_class-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-3.7" id="main-traits_class-fake-fn-3.7" data-hash-target to="main-traits_class-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
+<Pair single="flavor" id="traitbeastofthesociety-beast-of-the-society-fn2-5-fn3-7-flavor">A druid at the Grand Lodge revealed to you secrets changing your form into that of an animal.</Pair>
+<Pair single="benefit" id="traitbeastofthesociety-beast-of-the-society-fn2-5-fn3-7-benefit">Whenever you use your <em>wild shape</em> class ability to turn yourself into a Small or Medium animal, the effect lasts for 2 hours per druid level instead of 1 hour per druid level.</Pair>
+</Ability>
+<Ability id="traitdeepfaith-deep-faith-fn10-3" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitdeepfaith-deep-faith-fn10-3"><Link to="/trait/deep_faith">⮞</Link> Deep Faith <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-10.3" id="main-traits_class-fake-fn-10.3" data-hash-target to="main-traits_class-fake-fn-10-target">10</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitdeepfaith-deep-faith-fn10-3-flavor">Your deity was born of the depths, and you're a child of such realms.</Pair>
+<Pair single="benefit" id="traitdeepfaith-deep-faith-fn10-3-benefit">Whenever you cast a spell granted by the <Link to="/domain/earth">earth</Link> domain (or associated subdomains) while in the Darklands, that spell functions at 1 caster level higher than your actual caster level.</Pair>
+</Ability>
+<Ability id="traitearthbound-earthbound-fn15" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitearthbound-earthbound-fn15"><Link to="/trait/earthbound">⮞</Link> Earthbound <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-15" id="main-traits_class-fake-fn-15" data-hash-target to="main-traits_class-fake-fn-15-target">15</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Requirements" hl><Link to="/race/dwarf">Dwarf</Link></Pair>
+<Pair single="benefit" id="traitearthbound-earthbound-fn15-benefit">Your druid spells use a handful of earth or sand as a divine focus in addition to the normal components. While you are touching the ground, you add a +2 trait bonus to saving throw DCs and on caster level checks to overcome spell resistance for all spells you cast against creatures with the <Link to="/subtype/air">air</Link> subtype.</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Gunslinger</IonLabel></IonItemDivider><Ability id="traitblackpowderbravado-black-powder-bravado-fn7-8" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traitblackpowderbravado-black-powder-bravado-fn7-8"><Link to="/trait/black_powder_bravado">⮞</Link> Black Powder Bravado <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.8" id="main-traits_class-fake-fn-7.8" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair single="flavor" id="traitblackpowderbravado-black-powder-bravado-fn7-8-flavor">You are particularly successful when using deeds.</Pair>
+<Pair single="benefit" id="traitblackpowderbravado-black-powder-bravado-fn7-8-benefit">Once per day, when you perform a deed that requires an attack roll and you miss with that roll, you can reroll it. You must take the second result even if it is worse.</Pair>
+</Ability>
+<Ability id="traitblackpowderinterjection-black-powder-interjection-fn7-9" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traitblackpowderinterjection-black-powder-interjection-fn7-9"><Link to="/trait/black_powder_interjection">⮞</Link> Black Powder Interjection <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.9" id="main-traits_class-fake-fn-7.9" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair single="flavor" id="traitblackpowderinterjection-black-powder-interjection-fn7-9-flavor">Your confidence rises when you foil spellcasting.</Pair>
+<Pair single="benefit" id="traitblackpowderinterjection-black-powder-interjection-fn7-9-benefit">Once per day, when you interrupt the casting of a spell with a firearm attack, you may regain 1 grit point.</Pair>
+</Ability>
+<Ability id="traitjustlikenew-just-like-new-fn7-10" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traitjustlikenew-just-like-new-fn7-10"><Link to="/trait/just_like_new">⮞</Link> Just Like New <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.10" id="main-traits_class-fake-fn-7.10" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair single="flavor" id="traitjustlikenew-just-like-new-fn7-10-flavor">Broken firearms are not problems: they are challenges.</Pair>
+<Pair single="benefit" id="traitjustlikenew-just-like-new-fn7-10-benefit">Your first attempt to remove the broken condition from your starting firearm and to upgrade it to a masterwork weapon costs 150 gp instead of 300 gp. In addition, when wielding a firearm that has the broken condition or is treated as if it had the broken condition, you take a -1 penalty on attack rolls made with it instead of the normal -2.</Pair>
+</Ability>
+<Ability id="traitresolveoftherejected-resolve-of-the-rejected-fn7-11" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traitresolveoftherejected-resolve-of-the-rejected-fn7-11"><Link to="/trait/resolve_of_the_rejected">⮞</Link> Resolve of the Rejected <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.11" id="main-traits_class-fake-fn-7.11" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair single="flavor" id="traitresolveoftherejected-resolve-of-the-rejected-fn7-11-flavor">Some disagree with your choice to wield a firearm, and their scorn has only hardened your resolve in battle.</Pair>
+<Pair single="benefit" id="traitresolveoftherejected-resolve-of-the-rejected-fn7-11-benefit">You gain a +1 trait bonus on all saving throws against charm and compulsion effects. Also, once per day when you succeed at a saving throw against such an effect, you regain 1 grit point.</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Hunter</IonLabel></IonItemDivider><Ability id="traitaspectofthequah-aspect-of-the-quah-fn16" extraClasses="trait hasSubs" icon={["bolt-eye"]}>
+<Pair single id="traitaspectofthequah-aspect-of-the-quah-fn16"><Link to="/trait/aspect_of_the_quah">⮞</Link> Aspect of the Quah <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-16" id="main-traits_class-fake-fn-16" data-hash-target to="main-traits_class-fake-fn-16-target">16</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Requirements" hl><Link to="/class/hunter">Hunter</Link> or have access to the <em>animal aspect</em> class feature; Shoanti</Pair>
+<Pair single="flavor" id="traitaspectofthequah-aspect-of-the-quah-fn16-flavor">You call upon your quah's totem to grant you power. You gain a unique totem aspect that replaces one of the <em>animal aspects</em> granted to you by the <em>animal focus</em> feature.</Pair>
+<Pair single="benefit" id="traitaspectofthequah-aspect-of-the-quah-fn16-benefit">You must choose the Shoanti quah to which you belong. You gain access to the totem aspect listed for that clan, and you lose access to the animal aspect listed. Once made, this choice cannot be changed.</Pair>
+</Ability>
+<Ability id="cliff-shadde-quah" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="cliff-shadde-quah">Cliff (Shadde-Quah)</Pair>
+<Pair title="Frog Aspect">The creature gains a +4 competence bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks to avoid falling and on Constitution checks to avoid drowning. This bonus increases to +4 at 8th level and +6 at 15th level.</Pair>
+</Ability>
+<Ability id="emberstorm-sklar-quah" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="emberstorm-sklar-quah">Emberstorm (Sklar-Quah)</Pair>
+<Pair title="Bear Aspect">The creature gains fire <Link to="/umr/resistance">resistance</Link> 5. This increases to fire resistance 10 at 8th level and fire resistance 15 at 15th level.</Pair>
+</Ability>
+<Ability id="horse-shriikirri-quah" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="horse-shriikirri-quah">Horse (Shriikirri-Quah)</Pair>
+<Pair title="Owl Aspect">The creature gains a +4 competence bonus on <Link to="/skill/ride">Ride</Link> checks. This bonus increases to +6 at 8th level and +8 at 15th level.</Pair>
+</Ability>
+<Ability id="star-lyrune-quah" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="star-lyrune-quah">Star (Lyrune-Quah)</Pair>
+<Pair title="Falcon Aspect">The creature gains low-light vision and a +2 competence bonus on <Link to="/skill/perception">Perception</Link> checks. This bonus increases to +4 at 8th level and +6 at 15th level.</Pair>
+</Ability>
+<Ability id="storm-tamiir-quah" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="storm-tamiir-quah">Storm (Tamiir-Quah)</Pair>
+<Pair title="Snake Aspect">The creature gains a +4 bonus on saving throws against cold dangers, disease, heat dangers, starvation, and thirst. This bonus increases to +6 at 8th level and +8 at 15th level.</Pair>
+</Ability>
+<Ability id="storm-roc-shundar-quah" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="storm-roc-shundar-quah">Storm Roc (Shundar-Quah)</Pair>
+<Pair title="Mouse Aspect">The creature gains a +2 enhancement bonus to Charisma. This bonus increases to +4 at 8th level and +6 at 15th level.</Pair>
+</Ability>
+<Ability id="will-o-wisp-skoan-quah" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="will-o-wisp-skoan-quah">Will-o'-Wisp (Skoan-Quah)</Pair>
+<Pair title="Wolf Aspect">The creature gains +2 bonus on saving throws against fear effects and mind-affecting effects. This bonus increases to +4 at 8th level and +6 at 15th level.</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Inquisitor</IonLabel></IonItemDivider><Ability id="traitbeaconoffaith-beacon-of-faith-fn7-12" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitbeaconoffaith-beacon-of-faith-fn7-12"><Link to="/trait/beacon_of_faith">⮞</Link> Beacon of Faith <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.12" id="main-traits_class-fake-fn-7.12" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitbeaconoffaith-beacon-of-faith-fn7-12-flavor">You wield the might of your faith with power and clarity.</Pair>
+<Pair single="benefit" id="traitbeaconoffaith-beacon-of-faith-fn7-12-benefit">Once per day as a <strong className="hl">free action</strong>, you may treat your caster level as if it were 2 levels higher when using one of the granted powers of your domain or inquisition, or when casting one of your domain spells.</Pair>
+</Ability>
+<Ability id="traithellknightinquisitor-hellknight-inquisitor-fn17" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traithellknightinquisitor-hellknight-inquisitor-fn17"><Link to="/trait/hellknight_inquisitor">⮞</Link> Hellknight Inquisitor <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-17" id="main-traits_class-fake-fn-17" data-hash-target to="main-traits_class-fake-fn-17-target">17</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="benefit" id="traithellknightinquisitor-hellknight-inquisitor-fn17-benefit">If you are an inquisitor, you can select any <Link to="/ability/inquisitions">inquisition</Link> associated with your preferred <Link to="/rule/hellknights">Hellknight</Link> order, as long as you and your patron deity are of a lawful alignment. Additionally, you gain a +1 trait bonus on saving throws against spells and effects with the chaos descriptor.</Pair>
+</Ability>
+<Ability id="traitpactservant-pact-servant-fn11-3" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitpactservant-pact-servant-fn11-3"><Link to="/trait/pact_servant">⮞</Link> Pact Servant <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-11.3" id="main-traits_class-fake-fn-11.3" data-hash-target to="main-traits_class-fake-fn-11-target">11</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitpactservant-pact-servant-fn11-3-flavor">The faith of Holomog focuses on finding the good in unusual places and appreciating the nuances of virtue in the world.</Pair>
+<Pair single="benefit" id="traitpactservant-pact-servant-fn11-3-benefit">You may treat <Link to="/faith/asmodeus">Asmodeus</Link> as if he were a lawful neutral deity for the purposes of determining your own alignment as a cleric, inquisitor, or other divine spellcaster. You may not select the evil domain unless your own alignment also contains an evil aspect.</Pair>
+</Ability>
+<Ability id="traitzealousstriker-zealous-striker-fn7-13" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitzealousstriker-zealous-striker-fn7-13"><Link to="/trait/zealous_striker">⮞</Link> Zealous Striker <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.13" id="main-traits_class-fake-fn-7.13" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitzealousstriker-zealous-striker-fn7-13-flavor">Your zeal is a danger to those of "lesser" faiths.</Pair>
+<Pair single="benefit" id="traitzealousstriker-zealous-striker-fn7-13-benefit">While you have the destruction <Link to="/ability/judgments">judgment</Link> active, you gain a +1 trait bonus on damage rolls when attacking a foe who can cast divine spells and worships a different deity than you.</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Magus</IonLabel></IonItemDivider><Ability id="traitarcanerevitalization-arcane-revitalization-fn7-14" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitarcanerevitalization-arcane-revitalization-fn7-14"><Link to="/trait/arcane_revitalization">⮞</Link> Arcane Revitalization <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.14" id="main-traits_class-fake-fn-7.14" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitarcanerevitalization-arcane-revitalization-fn7-14-flavor">Your martial prowess can feed your arcane power.</Pair>
+<Pair single="benefit" id="traitarcanerevitalization-arcane-revitalization-fn7-14-benefit">Once per day, when you confirm a critical hit with a weapon attack, you regain 1 <em>arcane pool</em> point. You can't exceed your maximum number of <em>arcane pool</em> points.</Pair>
+</Ability>
+<Ability id="traitbladedmagic-bladed-magic-fn7-15" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitbladedmagic-bladed-magic-fn7-15"><Link to="/trait/bladed_magic">⮞</Link> Bladed Magic <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.15" id="main-traits_class-fake-fn-7.15" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitbladedmagic-bladed-magic-fn7-15-flavor">You have an innate talent for using magical weaponry and those weapons capable of becoming magical.</Pair>
+<Pair single="benefit" id="traitbladedmagic-bladed-magic-fn7-15-benefit">You gain a +1 trait bonus on <Link to="/skill/craft">Craft</Link> checks made to craft magic or <Link to="/rule/masterwork_w">masterwork weapons</Link>. In addition, when you use your <em>arcane pool</em> class ability to grant a weapon an enhancement bonus, that bonus lasts for 2 minutes instead of 1.</Pair>
+</Ability>
+<Ability id="traitcrossdisciplined-cross-disciplined-fn7-16" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitcrossdisciplined-cross-disciplined-fn7-16"><Link to="/trait/cross_disciplined">⮞</Link> Cross-Disciplined <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.16" id="main-traits_class-fake-fn-7.16" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitcrossdisciplined-cross-disciplined-fn7-16-flavor">Your dabbling has granted you greater insight into the proper casting of certain spells.</Pair>
+<Pair single="benefit" id="traitcrossdisciplined-cross-disciplined-fn7-16-benefit">Once per day, you may cast a spell you have prepared that appears on both the magus and wizard spell lists as if your caster level were 1 level higher.</Pair>
+</Ability>
+<Ability id="traitmalleablemagic-malleable-magic-fn7-17" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitmalleablemagic-malleable-magic-fn7-17"><Link to="/trait/malleable_magic">⮞</Link> Malleable Magic <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.17" id="main-traits_class-fake-fn-7.17" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="traitmalleablemagic-malleable-magic-fn7-17-benefit">Once per day as a <strong className="hl">swift action</strong>, you can lose a single 1st-, 2nd- or 3rd-level magus spell to regain 1 <em>arcane pool</em> point. You can't exceed the maximum number of <em>arcane pool</em> points in your <em>arcane pool</em> by using this trait.</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Monk</IonLabel></IonItemDivider><Ability id="traithonoredfistofthesociety-honored-fist-of-the-society-fn2-6-fn3-8" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traithonoredfistofthesociety-honored-fist-of-the-society-fn2-6-fn3-8"><Link to="/trait/honored_fist_of_the_society">⮞</Link> Honored Fist of the Society <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-2.6" id="main-traits_class-fake-fn-2.6" data-hash-target to="main-traits_class-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-3.8" id="main-traits_class-fake-fn-3.8" data-hash-target to="main-traits_class-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
+<Pair single="flavor" id="traithonoredfistofthesociety-honored-fist-of-the-society-fn2-6-fn3-8-flavor">You have studied dozens of ancient texts on martial arts that only the Society possesses, and are more learned in these arts than most.</Pair>
+<Pair single="benefit" id="traithonoredfistofthesociety-honored-fist-of-the-society-fn2-6-fn3-8-benefit">You increase your ki pool by 1 point.</Pair>
+</Ability>
+<Ability id="traitmartialmanuscript-martial-manuscript-fn7-18" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitmartialmanuscript-martial-manuscript-fn7-18"><Link to="/trait/martial_manuscript">⮞</Link> Martial Manuscript <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.18" id="main-traits_class-fake-fn-7.18" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitmartialmanuscript-martial-manuscript-fn7-18-flavor">You either carry or have memorized a sacred text from your school, temple, or monastery, and its wisdom gives you insight that makes your attacks more devastating.</Pair>
+<Pair single="benefit" id="traitmartialmanuscript-martial-manuscript-fn7-18-benefit">You gain a +2 trait bonus on rolls to confirm critical hits when you're using an unarmed strike or monk weapon.</Pair>
+</Ability>
+<Ability id="traitmartialperformer-martial-performer-fn7-19" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traitmartialperformer-martial-performer-fn7-19"><Link to="/trait/martial_performer">⮞</Link> Martial Performer <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.19" id="main-traits_class-fake-fn-7.19" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair single="flavor" id="traitmartialperformer-martial-performer-fn7-19-flavor">Your training has made you a martial performer.</Pair>
+<Pair single="benefit" id="traitmartialperformer-martial-performer-fn7-19-benefit">When you gain a monk bonus feat, you may instead take a <Link to="/main/feats_performance">performance feat</Link> for which you meet the prerequisites.</Pair>
+</Ability>
+<Ability id="traitnaturesmimic-natures-mimic-fn7-20" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traitnaturesmimic-natures-mimic-fn7-20"><Link to="/trait/natures_mimic">⮞</Link> Nature's Mimic <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.20" id="main-traits_class-fake-fn-7.20" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair single="flavor" id="traitnaturesmimic-natures-mimic-fn7-20-flavor">Your knowledge of nature informs your fighting style, and that style gives you insight into related aspects of the natural world.</Pair>
+<Pair single="benefit" id="traitnaturesmimic-natures-mimic-fn7-20-benefit">You gain a +1 trait bonus on all <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> checks, and Knowledge (nature) is always a class skill for you. You can make Knowledge (nature) checks pertaining to animals that correspond to your style feats untrained.</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Paladin</IonLabel></IonItemDivider><Ability id="traitblessedtouch-blessed-touch-fn9-2" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitblessedtouch-blessed-touch-fn9-2"><Link to="/trait/blessed_touch">⮞</Link> Blessed Touch <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-9.2" id="main-traits_class-fake-fn-9.2" data-hash-target to="main-traits_class-fake-fn-9-target">9</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitblessedtouch-blessed-touch-fn9-2-flavor">You may have been raised in a devout family, studied the divine in a formal church environment, or even learned how to combine traditional healing techniques with those of divine casters. In so doing, you have focused yourself into being the perfect vessel for your deity. Divine power flows through you like a mountain stream, making your healing touch more potent than that of others.</Pair>
+<Pair single="benefit" id="traitblessedtouch-blessed-touch-fn9-2-benefit">You heal 1 additional point of damage when using <Link to="/ability/lay_on_hands">lay on hands</Link>, <Link to="/ability/channel_energy">channeling energy</Link>, or casting a <Link to="/main/cure_spells">cure spell</Link>.</Pair>
+</Ability>
+<Ability id="traitempyrealpantheon-empyreal-pantheon-fn11-4" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitempyrealpantheon-empyreal-pantheon-fn11-4"><Link to="/trait/empyreal_pantheon">⮞</Link> Empyreal Pantheon <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-11.4" id="main-traits_class-fake-fn-11.4" data-hash-target to="main-traits_class-fake-fn-11-target">11</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitempyrealpantheon-empyreal-pantheon-fn11-4-flavor">Your faith in the empyreal lords accommodates numerous gods, and you are gifted at adapting their wide variety of focuses and lessons to your own life.</Pair>
+<Pair single="benefit" id="traitempyrealpantheon-empyreal-pantheon-fn11-4-benefit">Select either the law or chaos alignment descriptor. You may cast spells with that descriptor, even if your alignment or that of your god would normally not allow it. Doing so applies the good descriptor to the spell if it does not already apply.</Pair>
+</Ability>
+<Ability id="traitstalwartofthesociety-stalwart-of-the-society-fn2-7-fn3-9" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitstalwartofthesociety-stalwart-of-the-society-fn2-7-fn3-9"><Link to="/trait/stalwart_of_the_society">⮞</Link> Stalwart of the Society <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-2.7" id="main-traits_class-fake-fn-2.7" data-hash-target to="main-traits_class-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-3.9" id="main-traits_class-fake-fn-3.9" data-hash-target to="main-traits_class-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
+<Pair single="flavor" id="traitstalwartofthesociety-stalwart-of-the-society-fn2-7-fn3-9-flavor">The courageous powers of Golarion's ancient paladin orders are open to you thanks to the Society's records of heroic deeds.</Pair>
+<Pair single="benefit" id="traitstalwartofthesociety-stalwart-of-the-society-fn2-7-fn3-9-benefit">Your <em>aura of courage</em> class ability grants an additional +1 trait bonus on saving throws against fear effects.</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Ranger</IonLabel></IonItemDivider><Ability id="traitcoldandcalculating-cold-and-calculating-fn7-21" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traitcoldandcalculating-cold-and-calculating-fn7-21"><Link to="/trait/cold_and_calculating">⮞</Link> Cold and Calculating <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.21" id="main-traits_class-fake-fn-7.21" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair single="flavor" id="traitcoldandcalculating-cold-and-calculating-fn7-21-flavor">You are adept at tricking <Link to="/ability/favored_enemies">favored enemies</Link> of your race or those related to your race.</Pair>
+<Pair single="benefit" id="traitcoldandcalculating-cold-and-calculating-fn7-21-benefit">You gain a +1 trait bonus on all <Link to="/skill/bluff">Bluff</Link> checks against favored enemies that share one of your subtypes. You also gain a +1 trait bonus on attack rolls made against such favored enemies during the surprise round.</Pair>
+</Ability>
+<Ability id="traiteasywayorthehardway-easy-way-or-the-hard-way-fn7-22" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traiteasywayorthehardway-easy-way-or-the-hard-way-fn7-22"><Link to="/trait/easy_way_or_the_hard_way">⮞</Link> Easy Way or the Hard Way <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.22" id="main-traits_class-fake-fn-7.22" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair single="flavor" id="traiteasywayorthehardway-easy-way-or-the-hard-way-fn7-22-flavor">You are skilled at subduing your enemies.</Pair>
+<Pair single="benefit" id="traiteasywayorthehardway-easy-way-or-the-hard-way-fn7-22-benefit">Whenever you attack one of your <Link to="/ability/favored_enemies">favored enemies</Link> with a weapon that deals lethal damage and choose to deal nonlethal damage, you take only a -2 penalty on the attack roll instead of the normal -4.</Pair>
+</Ability>
+<Ability id="traitevasivesting-evasive-sting-fn7-23" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traitevasivesting-evasive-sting-fn7-23"><Link to="/trait/evasive_sting">⮞</Link> Evasive Sting <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.23" id="main-traits_class-fake-fn-7.23" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair single="flavor" id="traitevasivesting-evasive-sting-fn7-23-flavor">Larger enemies have a hard time striking you.</Pair>
+<Pair single="benefit" id="traitevasivesting-evasive-sting-fn7-23-benefit">You gain a +1 dodge bonus to AC against enemies that are both your <Link to="/ability/favored_enemy">favored enemy</Link> and at least two size categories larger than you.</Pair>
+</Ability>
+<Ability id="traitfaithshunter-faiths-hunter-fn7-24" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traitfaithshunter-faiths-hunter-fn7-24"><Link to="/trait/faiths_hunter">⮞</Link> Faith's Hunter <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.24" id="main-traits_class-fake-fn-7.24" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair single="flavor" id="traitfaithshunter-faiths-hunter-fn7-24-flavor">Divine powers smile upon you each time you grievously wound a favored enemy.</Pair>
+<Pair single="benefit" id="traitfaithshunter-faiths-hunter-fn7-24-benefit">When you confirm a critical hit against a <Link to="/ability/favored_enemy">favored enemy</Link>, you may extend the duration of any divine spell affecting you by 1 round. The benefits from multiple critical hits stack. Divine spells with an instantaneous duration can't be extended in this manner.</Pair>
+</Ability>
+<Ability id="traitfearlessdefiance-fearless-defiance-fn7-25" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitfearlessdefiance-fearless-defiance-fn7-25"><Link to="/trait/fearless_defiance">⮞</Link> Fearless Defiance <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.25" id="main-traits_class-fake-fn-7.25" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitfearlessdefiance-fearless-defiance-fn7-25-flavor">Upon overcoming your fear, you become a scourge to your enemies.</Pair>
+<Pair single="benefit" id="traitfearlessdefiance-fearless-defiance-fn7-25-benefit">You gain a +1 trait bonus on all saving throws against fear effects. In addition, if you successfully save against such an effect, you receive a +1 trait bonus on attack rolls against your <Link to="/ability/favored_enemies">favored enemies</Link> for 1 round.</Pair>
+</Ability>
+<Ability id="traithuntersknack-hunters-knack-fn7-26" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traithuntersknack-hunters-knack-fn7-26"><Link to="/trait/hunters_knack">⮞</Link> Hunter's Knack <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.26" id="main-traits_class-fake-fn-7.26" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair single="flavor" id="traithuntersknack-hunters-knack-fn7-26-flavor">When you watch and wait before attacking, your strike is true.</Pair>
+<Pair single="benefit" id="traithuntersknack-hunters-knack-fn7-26-benefit">You gain a +1 trait bonus on attack rolls against your <Link to="/ability/favored_enemies">favored enemies</Link> when you make such attacks as part of a <Link to="/rule/readied_action">readied action</Link>.</Pair>
+</Ability>
+<Ability id="traitknowingtheenemy-knowing-the-enemy-fn7-27" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitknowingtheenemy-knowing-the-enemy-fn7-27"><Link to="/trait/knowing_the_enemy">⮞</Link> Knowing the Enemy <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.27" id="main-traits_class-fake-fn-7.27" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitknowingtheenemy-knowing-the-enemy-fn7-27-flavor">You know a good deal about your most dire enemies.</Pair>
+<Pair single="benefit" id="traitknowingtheenemy-knowing-the-enemy-fn7-27-benefit">You gain a +1 trait bonus on checks with the <Link to="/skill/knowledge">Knowledge</Link> skill corresponding to your first <Link to="/ability/favored_enemy">favored enemy</Link> choice, and that Knowledge skill is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitruggeddragonhunter-rugged-dragon-hunter-fn18" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitruggeddragonhunter-rugged-dragon-hunter-fn18"><Link to="/trait/rugged_dragon_hunter">⮞</Link> Rugged Dragon Hunter <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-18" id="main-traits_class-fake-fn-18" data-hash-target to="main-traits_class-fake-fn-18-target">18</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="benefit" id="traitruggeddragonhunter-rugged-dragon-hunter-fn18-benefit">You gain a +2 trait bonus on <Link to="/skill/survival">Survival</Link> checks to track dragons. If you have the <Link to="/ability/favored_terrain">favored terrain</Link> class ability, add a +1 bonus to check for skills affected by this ability, as long as you're using these skills in regards to a dragon.</Pair>
+</Ability>
+<Ability id="traitscarreddescendant-scarred-descendant-fn7-28" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traitscarreddescendant-scarred-descendant-fn7-28"><Link to="/trait/scarred_descendant">⮞</Link> Scarred Descendant <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.28" id="main-traits_class-fake-fn-7.28" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair single="flavor" id="traitscarreddescendant-scarred-descendant-fn7-28-flavor">Your own people are your <Link to="/ability/favored_enemy">favored enemy</Link>.</Pair>
+<Pair single="benefit" id="traitscarreddescendant-scarred-descendant-fn7-28-benefit">You gain a +1 trait bonus on rolls to confirm critical hits against favored enemies of your own subtype and on Survival checks made to track such creatures.</Pair>
+</Ability>
+<Ability id="traittirelessavenger-tireless-avenger-fn7-29" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traittirelessavenger-tireless-avenger-fn7-29"><Link to="/trait/tireless_avenger">⮞</Link> Tireless Avenger <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.29" id="main-traits_class-fake-fn-7.29" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traittirelessavenger-tireless-avenger-fn7-29-flavor">You restlessly pursue your enemies.</Pair>
+<Pair single="benefit" id="traittirelessavenger-tireless-avenger-fn7-29-benefit">When you're in pursuit of one of your <Link to="/ability/favored_enemies">favored enemies</Link>, the DC for the Constitution check to avoid taking lethal damage during a <Link to="/rule/forced_march">forced march</Link> is 10 + 1 per extra hour, instead of 10 + 2 per extra hour.</Pair>
+</Ability>
+<Ability id="traittrackerofthesociety-tracker-of-the-society-fn2-8-fn3-10" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traittrackerofthesociety-tracker-of-the-society-fn2-8-fn3-10"><Link to="/trait/tracker_of_the_society">⮞</Link> Tracker of the Society <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-2.8" id="main-traits_class-fake-fn-2.8" data-hash-target to="main-traits_class-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-3.10" id="main-traits_class-fake-fn-3.10" data-hash-target to="main-traits_class-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
+<Pair single="flavor" id="traittrackerofthesociety-tracker-of-the-society-fn2-8-fn3-10-flavor">Thanks to your time as a Pathfinder, you've mastered the art of tracking.</Pair>
+<Pair single="benefit" id="traittrackerofthesociety-tracker-of-the-society-fn2-8-fn3-10-benefit">You gain a +1 trait bonus on initiative checks and a +2 trait bonus on Survival checks made while traveling through any of your favored terrains. This is in addition to any bonuses you receive from your <Link to="/ability/favored_terrain">favored terrain</Link> class ability.</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Rogue</IonLabel></IonItemDivider><Ability id="traitbladeofthesociety-blade-of-the-society-fn2-9-fn3-11" extraClasses="trait" icon={["crossed-sabres"]}>
+<Pair single id="traitbladeofthesociety-blade-of-the-society-fn2-9-fn3-11"><Link to="/trait/blade_of_the_society">⮞</Link> Blade of the Society <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-2.9" id="main-traits_class-fake-fn-2.9" data-hash-target to="main-traits_class-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-3.11" id="main-traits_class-fake-fn-3.11" data-hash-target to="main-traits_class-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Combat</Pair>
+<Pair title="Requirements" hl>Member of The <Link to="/rule/pathfinder_society">Pathfinder Society</Link></Pair>
+<Pair single="flavor" id="traitbladeofthesociety-blade-of-the-society-fn2-9-fn3-11-flavor">The Society gave you access to charts detailing the weak spots of hundreds of humanoids and monsters.</Pair>
+<Pair single="benefit" id="traitbladeofthesociety-blade-of-the-society-fn2-9-fn3-11-benefit">You gain a +1 trait bonus on damage rolls from sneak attacks.</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Sorcerer</IonLabel></IonItemDivider><Ability id="traitascendantrecollection-ascendant-recollection-fn7-30" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitascendantrecollection-ascendant-recollection-fn7-30"><Link to="/trait/ascendant_recollection">⮞</Link> Ascendant Recollection <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.30" id="main-traits_class-fake-fn-7.30" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitascendantrecollection-ascendant-recollection-fn7-30-flavor">Your first bloodline power is particularly strong.</Pair>
+<Pair single="benefit" id="traitascendantrecollection-ascendant-recollection-fn7-30-benefit">Your sorcerer level is considered to be 1 level higher when determining the effects of your 1st-level bloodline power.</Pair>
+</Ability>
+<Ability id="traitimposingscion-imposing-scion-fn7-31" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitimposingscion-imposing-scion-fn7-31"><Link to="/trait/imposing_scion">⮞</Link> Imposing Scion <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.31" id="main-traits_class-fake-fn-7.31" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitimposingscion-imposing-scion-fn7-31-flavor">The reputation of your bloodline grants you a degree of fearful respect.</Pair>
+<Pair single="benefit" id="traitimposingscion-imposing-scion-fn7-31-benefit">You gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks. If your bloodline is keyed to a specific creature type, your trait bonus increases to +2 when interacting with creatures of that type.</Pair>
+</Ability>
+<Ability id="traitknowledgeablecaster-knowledgeable-caster-fn7-32" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitknowledgeablecaster-knowledgeable-caster-fn7-32"><Link to="/trait/knowledgeable_caster">⮞</Link> Knowledgeable Caster <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.32" id="main-traits_class-fake-fn-7.32" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="traitknowledgeablecaster-knowledgeable-caster-fn7-32-benefit">Once per day when you cast a divination spell, you can cast that spell as if your caster level were 1 level higher in the appropriate class. You also gain a +1 trait bonus on any <Link to="/skill/knowledge">Knowledge</Link> checks associated with your sorcerer bloodline, if any.</Pair>
+</Ability>
+<Ability id="traitouterdragonblood-outer-dragon-blood-fn19" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitouterdragonblood-outer-dragon-blood-fn19"><Link to="/trait/outer_dragon_blood">⮞</Link> Outer Dragon Blood <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-19" id="main-traits_class-fake-fn-19" data-hash-target to="main-traits_class-fake-fn-19-target">19</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitouterdragonblood-outer-dragon-blood-fn19-flavor">The blood of outer dragons courses through your veins, and you've inherited a portion of their magic.</Pair>
+<Pair single="benefit" id="traitouterdragonblood-outer-dragon-blood-fn19-benefit"><p>You gain Draconic as a bonus language. In addition, if you are a sorcerer with the <Link to="/sorcbloodline/draconic">draconic</Link> bloodline, you can select one of the <Link to="/family/outer_dragon">outer dragon</Link> types for your bloodline powers; this affects your resistances and the type of energy damage dealt by a number of your abilities.</p>
+<ul>
+<li><strong>Lunar:</strong> Cold energy, 60-foot line</li>
+<li><strong>Solar:</strong> Fire energy, 60-foot line</li>
+<li><strong>Time:</strong> Electricity energy, 30-foot cone</li>
+<li><strong>Void:</strong> Cold energy, 30-foot cone</li>
+<li><strong>Vortex:</strong> Fire energy, 30-foot cone</li>
+</ul>
+</Pair>
+</Ability>
+<Ability id="traitstrengthforetold-strength-foretold-fn7-33" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitstrengthforetold-strength-foretold-fn7-33"><Link to="/trait/strength_foretold">⮞</Link> Strength Foretold <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.33" id="main-traits_class-fake-fn-7.33" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitstrengthforetold-strength-foretold-fn7-33-flavor">You can channel extra power into one of your bloodline spells.</Pair>
+<Pair single="benefit" id="traitstrengthforetold-strength-foretold-fn7-33-benefit">Once per day as a <strong className="hl">free action</strong>, you gain a +1 trait bonus to the DC of the saving throw of one of your bonus bloodline spells.</Pair>
+</Ability>
+<Ability id="traitunseenbutnotundone-unseen-but-not-undone-fn7-34" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitunseenbutnotundone-unseen-but-not-undone-fn7-34"><Link to="/trait/unseen_but_not_undone">⮞</Link> Unseen but Not Undone <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.34" id="main-traits_class-fake-fn-7.34" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitunseenbutnotundone-unseen-but-not-undone-fn7-34-flavor">Without a single gesture, you can unleash a bloodline spell.</Pair>
+<Pair single="benefit" id="traitunseenbutnotundone-unseen-but-not-undone-fn7-34-benefit">Once per day, you can cast a bloodline spell as if you had the <Link to="/feat/still_spell">Still Spell</Link> feat. Using this trait does not modify the spell's level.</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Summoner</IonLabel></IonItemDivider><Ability id="traitdesperatespeed-desperate-speed-fn7-35" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitdesperatespeed-desperate-speed-fn7-35"><Link to="/trait/desperate_speed">⮞</Link> Desperate Speed <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.35" id="main-traits_class-fake-fn-7.35" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitdesperatespeed-desperate-speed-fn7-35-flavor">Your eidolon excels at a movement type you do not possess.</Pair>
+<Pair single="benefit" id="traitdesperatespeed-desperate-speed-fn7-35-benefit">Your eidolon receives a +5-foot enhancement bonus to one type of speed it has that you do not, such as a climb or swim speed. If your eidolon doesn't already possess such a mode of movement, you may apply this trait bonus later if it gains an evolution that grants it such a mode. Once this bonus is applied to a mode of movement, it can't be switched to another mode.</Pair>
+</Ability>
+<Ability id="traitdestineddiplomat-destined-diplomat-fn7-36" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitdestineddiplomat-destined-diplomat-fn7-36"><Link to="/trait/destined_diplomat">⮞</Link> Destined Diplomat <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.36" id="main-traits_class-fake-fn-7.36" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitdestineddiplomat-destined-diplomat-fn7-36-flavor">Your relationship with your eidolon gives you some clout with other outsiders.</Pair>
+<Pair single="benefit" id="traitdestineddiplomat-destined-diplomat-fn7-36-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks toward outsiders, and Diplomacy is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitgreaterlink-greater-link-fn7-37" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitgreaterlink-greater-link-fn7-37"><Link to="/trait/greater_link">⮞</Link> Greater Link <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.37" id="main-traits_class-fake-fn-7.37" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitgreaterlink-greater-link-fn7-37-flavor">The link between you and your eidolon is stronger than most.</Pair>
+<Pair single="benefit" id="traitgreaterlink-greater-link-fn7-37-benefit">Your eidolon's current and maximum hit point totals are not reduced by 50% until you are separated by 110 feet or more. Your eidolon's current and maximum hit point totals are not reduced by 75% until you are separated by 1,100 feet or more. All other aspects of your life link class feature are unaffected.</Pair>
+</Ability>
+<Ability id="traitlinkedsurge-linked-surge-fn7-38" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitlinkedsurge-linked-surge-fn7-38"><Link to="/trait/linked_surge">⮞</Link> Linked Surge <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.38" id="main-traits_class-fake-fn-7.38" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="traitlinkedsurge-linked-surge-fn7-38-benefit">Once per day, you may make a Strength- or Constitution-based ability check or skill check using you eidolon's ability score in place of your own. Your eidolon must be summoned and with 30 feet for you to use this trait.</Pair>
+</Ability>
+<Ability id="traitloyaltyacrosslifetimes-loyalty-across-lifetimes-fn7-39" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitloyaltyacrosslifetimes-loyalty-across-lifetimes-fn7-39"><Link to="/trait/loyalty_across_lifetimes">⮞</Link> Loyalty across Lifetimes <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.39" id="main-traits_class-fake-fn-7.39" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitloyaltyacrosslifetimes-loyalty-across-lifetimes-fn7-39-flavor">You and your eidolon share a link that seems to span multiple lifetimes.</Pair>
+<Pair single="benefit" id="traitloyaltyacrosslifetimes-loyalty-across-lifetimes-fn7-39-benefit">Your eidolon treats its Constitution score as if it were 2 points higher for the purposes of determining when its negative hit point total sends it back to its home plane. In addition, your eidolon gains a +1 trait bonus on Will saves against enchantment spells and effects.</Pair>
+</Ability>
+<Ability id="traitperpetualcompanion-perpetual-companion-fn7-40" extraClasses="trait" icon={["bolt-eye"]}>
+<Pair single id="traitperpetualcompanion-perpetual-companion-fn7-40"><Link to="/trait/perpetual_companion">⮞</Link> Perpetual Companion <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.40" id="main-traits_class-fake-fn-7.40" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Faith</Pair>
+<Pair single="flavor" id="traitperpetualcompanion-perpetual-companion-fn7-40-flavor">You are bolstered against fear when your eidolon is near.</Pair>
+<Pair single="benefit" id="traitperpetualcompanion-perpetual-companion-fn7-40-benefit">You gain a +2 trait bonus on all saving throws against fear effects whenever your eidolon is within 30 feet.</Pair>
+</Ability>
+<Ability id="traittwinnedpresence-twinned-presence-fn7-41" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traittwinnedpresence-twinned-presence-fn7-41"><Link to="/trait/twinned_presence">⮞</Link> Twinned Presence <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.41" id="main-traits_class-fake-fn-7.41" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traittwinnedpresence-twinned-presence-fn7-41-flavor">Your eidolon - and your connection to it - makes others ill at ease.</Pair>
+<Pair single="benefit" id="traittwinnedpresence-twinned-presence-fn7-41-benefit">You gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks, and Intimidate is always a class skill for you. In addition, if your eidolon is summoned and within 30 feet, and its size exceeds your own, use its size modifier on any Intimidate checks you make.</Pair>
+</Ability>
+<IonItemDivider className="mainItem"><IonLabel>Wizard</IonLabel></IonItemDivider><Ability id="traitcrossdisciplined-cross-disciplined-fn7-42" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitcrossdisciplined-cross-disciplined-fn7-42"><Link to="/trait/cross_disciplined">⮞</Link> Cross-Disciplined <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-7.42" id="main-traits_class-fake-fn-7.42" data-hash-target to="main-traits_class-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="flavor" id="traitcrossdisciplined-cross-disciplined-fn7-42-flavor">Your dabbling has granted you greater insight into the proper casting of certain spells.</Pair>
+<Pair single="benefit" id="traitcrossdisciplined-cross-disciplined-fn7-42-benefit">Once per day, you may cast a spell you have prepared that appears on both the magus and wizard spell lists as if your caster level were 1 level higher.</Pair>
+</Ability>
+<Ability id="traitpathfindersfocus-pathfinders-focus-fn20" extraClasses="trait" icon={["magic-swirl"]}>
+<Pair single id="traitpathfindersfocus-pathfinders-focus-fn20"><Link to="/trait/pathfinders_focus">⮞</Link> Pathfinder's Focus <sup><InnerLink showBacklink="backlink-main-traits_class-fake-fn-20" id="main-traits_class-fake-fn-20" data-hash-target to="main-traits_class-fake-fn-20-target">20</InnerLink></sup></Pair>
+<Pair title="Type">Magic</Pair>
+<Pair single="benefit" id="traitpathfindersfocus-pathfinders-focus-fn20-benefit">You can select a magnetic compass for your <em>arcane bond</em> class feature; this compass is nonmagical, but you can later spend 250 gp to upgrade it into a <Link to="/magic-wondrous/wayfinder">wayfinder</Link>. Choosing this trait allows you to upgrade this wayfinder to a variant or unique wayfinder per the normal rules for <Link to="/rule/adding_new_abilities">improving magic items</Link>. A bonded wayfinder must be held in your hand to grant the benefits of being a <em>bonded object.</em></Pair>
+</Ability>
+<section data-footnotes><h3 id="main-traits_class-label">Footnotes</h3><ol>
+<li id="main-traits_class-fake-fn-1-target"><p><Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_class-fake-fn-1" data-hash-target to="main-traits_class-fake-fn-1">↩</InnerLink></p></li>
+<li id="main-traits_class-fake-fn-2-target"><p><Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_class-fake-fn-2" data-hash-target to="main-traits_class-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_class-fake-fn-2.2" data-hash-target to="main-traits_class-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_class-fake-fn-2.3" data-hash-target to="main-traits_class-fake-fn-2.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_class-fake-fn-2.4" data-hash-target to="main-traits_class-fake-fn-2.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_class-fake-fn-2.5" data-hash-target to="main-traits_class-fake-fn-2.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_class-fake-fn-2.6" data-hash-target to="main-traits_class-fake-fn-2.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_class-fake-fn-2.7" data-hash-target to="main-traits_class-fake-fn-2.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_class-fake-fn-2.8" data-hash-target to="main-traits_class-fake-fn-2.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_class-fake-fn-2.9" data-hash-target to="main-traits_class-fake-fn-2.9">↩<sup>9</sup></InnerLink></p></li>
+<li id="main-traits_class-fake-fn-3-target"><p><Link to="/source/faction_guide">Faction Guide</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_class-fake-fn-3" data-hash-target to="main-traits_class-fake-fn-3">↩</InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_class-fake-fn-3.2" data-hash-target to="main-traits_class-fake-fn-3.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_class-fake-fn-3.3" data-hash-target to="main-traits_class-fake-fn-3.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_class-fake-fn-3.4" data-hash-target to="main-traits_class-fake-fn-3.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_class-fake-fn-3.5" data-hash-target to="main-traits_class-fake-fn-3.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_class-fake-fn-3.6" data-hash-target to="main-traits_class-fake-fn-3.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_class-fake-fn-3.7" data-hash-target to="main-traits_class-fake-fn-3.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_class-fake-fn-3.8" data-hash-target to="main-traits_class-fake-fn-3.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_class-fake-fn-3.9" data-hash-target to="main-traits_class-fake-fn-3.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_class-fake-fn-3.10" data-hash-target to="main-traits_class-fake-fn-3.10">↩<sup>10</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_class-fake-fn-3.11" data-hash-target to="main-traits_class-fake-fn-3.11">↩<sup>11</sup></InnerLink></p></li>
+<li id="main-traits_class-fake-fn-4-target"><p><Link to="/source/divine_anthology">Divine Anthology</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_class-fake-fn-4" data-hash-target to="main-traits_class-fake-fn-4">↩</InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_class-fake-fn-4.2" data-hash-target to="main-traits_class-fake-fn-4.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_class-fake-fn-5-target"><p><Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_class-fake-fn-5" data-hash-target to="main-traits_class-fake-fn-5">↩</InnerLink></p></li>
+<li id="main-traits_class-fake-fn-6-target"><p><Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_class-fake-fn-6" data-hash-target to="main-traits_class-fake-fn-6">↩</InnerLink></p></li>
+<li id="main-traits_class-fake-fn-7-target"><p><Link to="/source/ultimate_campaign">Ultimate Campaign</Link> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7" data-hash-target to="main-traits_class-fake-fn-7">↩</InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.2" data-hash-target to="main-traits_class-fake-fn-7.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.3" data-hash-target to="main-traits_class-fake-fn-7.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.4" data-hash-target to="main-traits_class-fake-fn-7.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.5" data-hash-target to="main-traits_class-fake-fn-7.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.6" data-hash-target to="main-traits_class-fake-fn-7.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.7" data-hash-target to="main-traits_class-fake-fn-7.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.8" data-hash-target to="main-traits_class-fake-fn-7.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.9" data-hash-target to="main-traits_class-fake-fn-7.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.10" data-hash-target to="main-traits_class-fake-fn-7.10">↩<sup>10</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.11" data-hash-target to="main-traits_class-fake-fn-7.11">↩<sup>11</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.12" data-hash-target to="main-traits_class-fake-fn-7.12">↩<sup>12</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.13" data-hash-target to="main-traits_class-fake-fn-7.13">↩<sup>13</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.14" data-hash-target to="main-traits_class-fake-fn-7.14">↩<sup>14</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.15" data-hash-target to="main-traits_class-fake-fn-7.15">↩<sup>15</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.16" data-hash-target to="main-traits_class-fake-fn-7.16">↩<sup>16</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.17" data-hash-target to="main-traits_class-fake-fn-7.17">↩<sup>17</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.18" data-hash-target to="main-traits_class-fake-fn-7.18">↩<sup>18</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.19" data-hash-target to="main-traits_class-fake-fn-7.19">↩<sup>19</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.20" data-hash-target to="main-traits_class-fake-fn-7.20">↩<sup>20</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.21" data-hash-target to="main-traits_class-fake-fn-7.21">↩<sup>21</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.22" data-hash-target to="main-traits_class-fake-fn-7.22">↩<sup>22</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.23" data-hash-target to="main-traits_class-fake-fn-7.23">↩<sup>23</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.24" data-hash-target to="main-traits_class-fake-fn-7.24">↩<sup>24</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.25" data-hash-target to="main-traits_class-fake-fn-7.25">↩<sup>25</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.26" data-hash-target to="main-traits_class-fake-fn-7.26">↩<sup>26</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.27" data-hash-target to="main-traits_class-fake-fn-7.27">↩<sup>27</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.28" data-hash-target to="main-traits_class-fake-fn-7.28">↩<sup>28</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.29" data-hash-target to="main-traits_class-fake-fn-7.29">↩<sup>29</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.30" data-hash-target to="main-traits_class-fake-fn-7.30">↩<sup>30</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.31" data-hash-target to="main-traits_class-fake-fn-7.31">↩<sup>31</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.32" data-hash-target to="main-traits_class-fake-fn-7.32">↩<sup>32</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.33" data-hash-target to="main-traits_class-fake-fn-7.33">↩<sup>33</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.34" data-hash-target to="main-traits_class-fake-fn-7.34">↩<sup>34</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.35" data-hash-target to="main-traits_class-fake-fn-7.35">↩<sup>35</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.36" data-hash-target to="main-traits_class-fake-fn-7.36">↩<sup>36</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.37" data-hash-target to="main-traits_class-fake-fn-7.37">↩<sup>37</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.38" data-hash-target to="main-traits_class-fake-fn-7.38">↩<sup>38</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.39" data-hash-target to="main-traits_class-fake-fn-7.39">↩<sup>39</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.40" data-hash-target to="main-traits_class-fake-fn-7.40">↩<sup>40</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.41" data-hash-target to="main-traits_class-fake-fn-7.41">↩<sup>41</sup></InnerLink> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_class-fake-fn-7.42" data-hash-target to="main-traits_class-fake-fn-7.42">↩<sup>42</sup></InnerLink></p></li>
+<li id="main-traits_class-fake-fn-8-target"><p><Link to="/source/quests_and_campaigns">Quests and Campaigns</Link> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_class-fake-fn-8" data-hash-target to="main-traits_class-fake-fn-8">↩</InnerLink></p></li>
+<li id="main-traits_class-fake-fn-9-target"><p><Link to="/source/champions_of_purity">Champions of Purity</Link> <InnerLink aria-label="Back to reference 9" id="backlink-main-traits_class-fake-fn-9" data-hash-target to="main-traits_class-fake-fn-9">↩</InnerLink> <InnerLink aria-label="Back to reference 9" id="backlink-main-traits_class-fake-fn-9.2" data-hash-target to="main-traits_class-fake-fn-9.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_class-fake-fn-10-target"><p><Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link> <InnerLink aria-label="Back to reference 10" id="backlink-main-traits_class-fake-fn-10" data-hash-target to="main-traits_class-fake-fn-10">↩</InnerLink> <InnerLink aria-label="Back to reference 10" id="backlink-main-traits_class-fake-fn-10.2" data-hash-target to="main-traits_class-fake-fn-10.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 10" id="backlink-main-traits_class-fake-fn-10.3" data-hash-target to="main-traits_class-fake-fn-10.3">↩<sup>3</sup></InnerLink></p></li>
+<li id="main-traits_class-fake-fn-11-target"><p><Link to="/source/distant_shores">Distant Shores</Link> <InnerLink aria-label="Back to reference 11" id="backlink-main-traits_class-fake-fn-11" data-hash-target to="main-traits_class-fake-fn-11">↩</InnerLink> <InnerLink aria-label="Back to reference 11" id="backlink-main-traits_class-fake-fn-11.2" data-hash-target to="main-traits_class-fake-fn-11.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 11" id="backlink-main-traits_class-fake-fn-11.3" data-hash-target to="main-traits_class-fake-fn-11.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 11" id="backlink-main-traits_class-fake-fn-11.4" data-hash-target to="main-traits_class-fake-fn-11.4">↩<sup>4</sup></InnerLink></p></li>
+<li id="main-traits_class-fake-fn-12-target"><p><Link to="/source/advanced_players_guide">Advanced Player's Guide</Link> <InnerLink aria-label="Back to reference 12" id="backlink-main-traits_class-fake-fn-12" data-hash-target to="main-traits_class-fake-fn-12">↩</InnerLink></p></li>
+<li id="main-traits_class-fake-fn-13-target"><p><Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link> <InnerLink aria-label="Back to reference 13" id="backlink-main-traits_class-fake-fn-13" data-hash-target to="main-traits_class-fake-fn-13">↩</InnerLink></p></li>
+<li id="main-traits_class-fake-fn-14-target"><p><Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link> <InnerLink aria-label="Back to reference 14" id="backlink-main-traits_class-fake-fn-14" data-hash-target to="main-traits_class-fake-fn-14">↩</InnerLink></p></li>
+<li id="main-traits_class-fake-fn-15-target"><p><Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link> <InnerLink aria-label="Back to reference 15" id="backlink-main-traits_class-fake-fn-15" data-hash-target to="main-traits_class-fake-fn-15">↩</InnerLink></p></li>
+<li id="main-traits_class-fake-fn-16-target"><p><Link to="/source/disciples_doctrine">Disciple's Doctrine</Link> <InnerLink aria-label="Back to reference 16" id="backlink-main-traits_class-fake-fn-16" data-hash-target to="main-traits_class-fake-fn-16">↩</InnerLink></p></li>
+<li id="main-traits_class-fake-fn-17-target"><p><Link to="/source/path_of_the_hellknight">Path of the Hellknight</Link> <InnerLink aria-label="Back to reference 17" id="backlink-main-traits_class-fake-fn-17" data-hash-target to="main-traits_class-fake-fn-17">↩</InnerLink></p></li>
+<li id="main-traits_class-fake-fn-18-target"><p><Link to="/source/legacy_of_dragons">Legacy of Dragons</Link> <InnerLink aria-label="Back to reference 18" id="backlink-main-traits_class-fake-fn-18" data-hash-target to="main-traits_class-fake-fn-18">↩</InnerLink></p></li>
+<li id="main-traits_class-fake-fn-19-target"><p><Link to="/source/people_of_the_stars">People of the Stars</Link> <InnerLink aria-label="Back to reference 19" id="backlink-main-traits_class-fake-fn-19" data-hash-target to="main-traits_class-fake-fn-19">↩</InnerLink></p></li>
+<li id="main-traits_class-fake-fn-20-target"><p><Link to="/source/pathfinder_society_primer">Pathfinder Society Primer</Link> <InnerLink aria-label="Back to reference 20" id="backlink-main-traits_class-fake-fn-20" data-hash-target to="main-traits_class-fake-fn-20">↩</InnerLink></p></li>
+</ol></section></IonList>};
+export default {traits_campaign_generic:_traits_campaign_generic,traits_campaign_carrion_crown:_traits_campaign_carrion_crown,traits_campaign_council_of_thieves:_traits_campaign_council_of_thieves,traits_campaign_curse_of_the_crimson_throne:_traits_campaign_curse_of_the_crimson_throne,traits_campaign_giantslayer:_traits_campaign_giantslayer,traits_campaign_hells_rebels:_traits_campaign_hells_rebels,traits_campaign_hells_vengeance:_traits_campaign_hells_vengeance,traits_campaign_iron_gods:_traits_campaign_iron_gods,traits_campaign_ironfang_invasion:_traits_campaign_ironfang_invasion,traits_campaign_jade_regent:_traits_campaign_jade_regent,traits_campaign_kingmaker:_traits_campaign_kingmaker,traits_campaign_legacy_of_fire:_traits_campaign_legacy_of_fire,traits_campaign_mummys_mask:_traits_campaign_mummys_mask,traits_spell:_traits_spell,traits_basic_magic:_traits_basic_magic,traits_class:_traits_class}

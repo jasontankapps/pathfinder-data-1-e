@@ -13,11 +13,11 @@
 			"",
 			"::main[Defense Traits]{to=main/traits_combat_def ind bottom=\"Affects armor bonuses or saving throws; 33 traits\"}",
 			"",
-			"::main[Initiative Traits]{to=main/traits_combat_init ind bottom=\"Affects initiative rolls; 8 traits\"}",
+			"::main[Initiative Traits]{to=main/traits_combat_init ind bottom=\"Affects initiative or the surprise round; 7 traits\"}",
 			"",
 			"::main[Class-Specific Traits]{to=main/traits_combat_class ind bottom=\"Requires a class ability to function; 18 traits\"}",
 			"",
-			"::main[Skill/Feat/Ability Traits]{to=main/traits_combat_ab ind bottom=\"Affects a skill, feat, or ability; 31 traits\"}"
+			"::main[Skill/Feat/Ability Traits]{to=main/traits_combat_ab ind bottom=\"Affects a skill, feat, or ability; 32 traits\"}"
 		]
 	},
 	"traits_combat_all": {
@@ -50,7 +50,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Combat.*-ab"
+						"regex": "^Combat.*-ab"
 					}
 				}
 			]
@@ -68,7 +68,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Combat.*-off(?!d)"
+						"regex": "^Combat.*-off(?!d)"
 					}
 				}
 			]
@@ -86,7 +86,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Combat.*-def"
+						"regex": "^Combat.*-def"
 					}
 				}
 			]
@@ -104,7 +104,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Combat.*-class"
+						"regex": "^Combat.*-class"
 					}
 				}
 			]
@@ -122,7 +122,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Combat.*-init"
+						"regex": "^Combat.*-init"
 					}
 				}
 			]

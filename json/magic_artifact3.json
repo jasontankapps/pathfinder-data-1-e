@@ -1615,6 +1615,7 @@
 			"**Combination:** The most secure (and powerful) gates require a combination of keys to open. Finding the secret behind one of these gates' operation can be a life-long quest, even for an elf."
 		]
 	},
+	"elf_gate": { "redirect": "aiudara" },
 	"black_blood_of_orv": {
 		"name": "Black Blood of Orv",
 		"sources": [

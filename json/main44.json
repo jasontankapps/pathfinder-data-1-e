@@ -74,7 +74,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Social.*-off"
+						"regex": "^Social.*-off"
 					}
 				}
 			]
@@ -92,7 +92,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Social.*-def"
+						"regex": "^Social.*-def"
 					}
 				}
 			]
@@ -110,7 +110,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Social.*-class"
+						"regex": "^Social.*-class"
 					}
 				}
 			]
@@ -128,7 +128,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Social.*-(spell|magic)"
+						"regex": "^Social.*-(spell|magic)"
 					}
 				}
 			]
@@ -146,7 +146,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Social.*-code"
+						"regex": "^Social.*-code"
 					}
 				}
 			]
@@ -164,7 +164,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Social.*-lang"
+						"regex": "^Social.*-lang"
 					}
 				}
 			]
@@ -182,7 +182,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Social.*-bluff"
+						"regex": "^Social.*-bluff"
 					}
 				}
 			]
@@ -200,7 +200,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Social.*-diplo"
+						"regex": "^Social.*-diplo"
 					}
 				}
 			]
@@ -218,7 +218,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Social.*-intm"
+						"regex": "^Social.*-intm"
 					}
 				}
 			]
@@ -236,43 +236,7 @@
 				],
 				{
 					"limit": {
-						"regex": "Social.*-k.?.?\\b"
-					}
-				}
-			]
-		}
-	},
-	"traits_social_sm": {
-		"title": "Sense Motive Social Traits",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Social Traits]{to=main/traits_social rev}",
-					""
-				],
-				{
-					"limit": {
-						"regex": "Social.*-sm"
-					}
-				}
-			]
-		}
-	},
-	"traits_social_sur_per": {
-		"title": "Survival and Perception Social Traits",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Social Traits]{to=main/traits_social rev}",
-					""
-				],
-				{
-					"limit": {
-						"regex": "Social.*-(sur|per)\\b"
+						"regex": "^Social.*-k.?.?\\b"
 					}
 				}
 			]
