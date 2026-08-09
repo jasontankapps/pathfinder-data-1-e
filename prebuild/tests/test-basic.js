@@ -326,9 +326,30 @@ const basicsTest = (files, patterns, tree) => {
 			// We're only searching the feats tree
 			return { data: [] };
 		}
+		// We're searching everything.
 		const [$Basics, $Whats] = get();
+		const filechecks = $Basics.map((data, i) => isGood(data, $Whats[i], false));
+		// Search for duplicate prop names
+		const $found = {};
+		const bad = [];
+		Object.entries(basic_data_groups).forEach(([prop, obj]) => {
+			const {data, link} = obj;
+			if(!$found[link]) {
+				$found[link] = {};
+			}
+			const $ = $found[link];
+			Object.keys(data).forEach(key => {
+				if($[key]) {
+					bad.push(`>>>> Duplicate [${key}] found in [${prop}].`);
+				} else {
+					$[key] = true;
+				}
+			});
+		});
+		filechecks.push(bad.length ? [true, "Dupe-checker", bad] : [false, "Dupe-checker", []]);
+		// Send info
 		return {
-			data: $Basics.map((data, i) => isGood(data, $Whats[i], false))
+			data: filechecks
 		};
 	}
 	const check = [];
