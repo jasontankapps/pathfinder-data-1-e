@@ -114,7 +114,7 @@ const _traits_combat_all = {title: "All Combat Traits", jsx: <IonList lines="ful
 <Pair single id="traitblackjacketweaponflair-blackjacket-weapon-flair-fn4-3"><Link to="/trait/blackjacket_weapon_flair">⮞</Link> Blackjacket Weapon Flair <sup><InnerLink showBacklink="backlink-main-traits_combat_all-fake-fn-4.3" id="main-traits_combat_all-fake-fn-4.3" data-hash-target to="main-traits_combat_all-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="traitblackjacketweaponflair-blackjacket-weapon-flair-fn4-3-flavor">You trained with the Blackjackets of Druma to make optimal use of magic weapons.</Pair>
-<Pair single="benefit" id="traitblackjacketweaponflair-blackjacket-weapon-flair-fn4-3-benefit">Whenever you roll a natural 20 (the die shows a -20-) on a <Link to="/rule/combat_maneuvers">combat maneuver</Link> check with a magic weapon, you gain a +5 trait bonus on the check.</Pair>
+<Pair single="benefit" id="traitblackjacketweaponflair-blackjacket-weapon-flair-fn4-3-benefit">Whenever you roll a natural 20 (the die shows a 20) on a <Link to="/rule/combat_maneuvers">combat maneuver</Link> check with a magic weapon, you gain a +5 trait bonus on the check.</Pair>
 </Ability>
 <Ability id="traitbladeofthesociety-blade-of-the-society-fn12-2-fn13-2" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="traitbladeofthesociety-blade-of-the-society-fn12-2-fn13-2"><Link to="/trait/blade_of_the_society">⮞</Link> Blade of the Society <sup><InnerLink showBacklink="backlink-main-traits_combat_all-fake-fn-12.2" id="main-traits_combat_all-fake-fn-12.2" data-hash-target to="main-traits_combat_all-fake-fn-12-target">12</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_combat_all-fake-fn-13.2" id="main-traits_combat_all-fake-fn-13.2" data-hash-target to="main-traits_combat_all-fake-fn-13-target">13</InnerLink></sup></Pair>
@@ -1197,7 +1197,7 @@ const _traits_combat_off = {title: "Offense Combat Traits", jsx: <IonList lines=
 <Pair single id="traitblackjacketweaponflair-blackjacket-weapon-flair-fn8"><Link to="/trait/blackjacket_weapon_flair">⮞</Link> Blackjacket Weapon Flair <sup><InnerLink showBacklink="backlink-main-traits_combat_off-fake-fn-8" id="main-traits_combat_off-fake-fn-8" data-hash-target to="main-traits_combat_off-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="traitblackjacketweaponflair-blackjacket-weapon-flair-fn8-flavor">You trained with the Blackjackets of Druma to make optimal use of magic weapons.</Pair>
-<Pair single="benefit" id="traitblackjacketweaponflair-blackjacket-weapon-flair-fn8-benefit">Whenever you roll a natural 20 (the die shows a -20-) on a <Link to="/rule/combat_maneuvers">combat maneuver</Link> check with a magic weapon, you gain a +5 trait bonus on the check.</Pair>
+<Pair single="benefit" id="traitblackjacketweaponflair-blackjacket-weapon-flair-fn8-benefit">Whenever you roll a natural 20 (the die shows a 20) on a <Link to="/rule/combat_maneuvers">combat maneuver</Link> check with a magic weapon, you gain a +5 trait bonus on the check.</Pair>
 </Ability>
 <Ability id="traitblightsbane-blights-bane-fn9" extraClasses="trait" icon={["crossed-sabres"]}>
 <Pair single id="traitblightsbane-blights-bane-fn9"><Link to="/trait/blights_bane">⮞</Link> Blight's Bane <sup><InnerLink showBacklink="backlink-main-traits_combat_off-fake-fn-9" id="main-traits_combat_off-fake-fn-9" data-hash-target to="main-traits_combat_off-fake-fn-9-target">9</InnerLink></sup></Pair>

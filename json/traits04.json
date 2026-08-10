@@ -4,7 +4,7 @@
 		"compilationSources": [ [ "People of the Stars" ] ],
 		"category": "Planet-Aballon",
 		"description": [
-			"::trait{title=\"&L&Aballonian Resilience&FN&\" type=\"Regional\" region=\"Aballon\" benefit=\"You spent at least part of your youth in Horsethroat and are acclimated to the frigid cold of Aballon's Ice Wells. You gain a +4 trait bonus on saves to avoid nonlethal damage from cold environments. In addition, you begin play with a cold-weather outfit at no cost.\"}"
+			"::trait{title=\"&L&Aballonian Resilience&FN&\" type=\"Regional\" region=\"Aballon\" benefit=\"You spent at least part of your youth in Horsethroat and are acclimated to the frigid cold of Aballon's Ice Wells. You gain a +4 trait bonus on saves to avoid nonlethal damage from cold environments. In addition, you begin play with a ‹eq-misc/cold-weather outfit› at no cost.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},

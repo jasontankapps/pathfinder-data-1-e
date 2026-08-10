@@ -902,7 +902,7 @@ const _charges_doses_and_multiple_uses = {title: "Charges, Doses, and Multiple U
 <p>Many items, particularly wands and staves, are limited in power by the number of charges they hold. Normally, charged items have 50 charges at most (10 for staves). If such an item is found as a random part of a treasure, roll d% and divide by 2 to determine the number of charges left (round down, minimum 1). If the item has a maximum number of charges other than 50, roll randomly to determine how many charges are left.</p>
 <p>Prices listed are always for fully charged items. (When an item is created, it is fully charged.) For an item that's worthless when its charges run out (which is the case for almost all charged items), the value of the partially used item is proportional to the number of charges left. For an item that has usefulness in addition to its charges, only part of the item's value is based on the number of charges left.</p>
 </>};
-const _purchasing_magic_items = {title: "Purchasing Magic Items", parent_topics: ["basics","magic_items"], siblings: ["magic_items_and_detect_magic","using_items","size_and_magic_items","magic_items_on_the_body","saving_throws_against_magic_item_powers","damaging_magic_items","repairing_magic_items","charges_doses_and_multiple_uses","purchasing_magic_items","magic_item_descriptions","intelligent_items","cursed_items","artifacts","magic_item_creation"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 460</Link></p>
+const _purchasing_magic_items = {title: "Purchasing Magic Items", parent_topics: ["basics","magic_items"], siblings: ["magic_items_and_detect_magic","using_items","size_and_magic_items","magic_items_on_the_body","saving_throws_against_magic_item_powers","damaging_magic_items","repairing_magic_items","charges_doses_and_multiple_uses","purchasing_magic_items","magic_item_descriptions","intelligent_items","cursed_items","artifacts","magic_item_creation"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 460</Link>, <Link to="/source/gamemastery_guide">GameMastery Guide pg. 203</Link></p>
 <p>Magic items are valuable, and most major cities have at least one or two purveyors of magic items, from a simple potion merchant to a weapon smith that specializes in magic swords. Of course, not every item is available in every town.</p>
 <p>The following guidelines are presented to help GMs determine what items are available in a given community. These guidelines assume a setting with an average level of magic. Some cities might deviate wildly from these baselines, subject to GM discretion. The GM should keep a list of what items are available from each merchant and should replenish the stocks on occasion to represent new acquisitions.</p>
 <p>The number and types of magic items available in a community depend upon its size. Each community has a base value associated with it (see Table 15-1). There is a 75% chance that any item of that value or lower can be found for sale with little effort in that community. In addition, the community has a number of other items for sale. These items are randomly determined and are broken down by category (minor, medium, or major). After determining the number of items available in each category, refer to Table 15-2 to determine the type of each item (potion, scroll, ring, weapon, etc.) before moving on to the individual charts to determine the exact item. Reroll any items that fall below the community's base value.</p>
@@ -914,6 +914,7 @@ const _purchasing_magic_items = {title: "Purchasing Magic Items", parent_topics:
 <thead>
 <tr>
 <th>Community Size</th>
+<th>Population</th>
 <th>Base Value</th>
 <th>Minor</th>
 <th>Medium</th>
@@ -922,6 +923,7 @@ const _purchasing_magic_items = {title: "Purchasing Magic Items", parent_topics:
 </thead>
 <tbody><tr>
 <td>Thorp</td>
+<td>Fewer than 20</td>
 <td>50 gp</td>
 <td>1d4 items</td>
 <td>-</td>
@@ -929,6 +931,7 @@ const _purchasing_magic_items = {title: "Purchasing Magic Items", parent_topics:
 </tr>
 <tr>
 <td>Hamlet</td>
+<td>21-60</td>
 <td>200 gp</td>
 <td>1d6 items</td>
 <td>-</td>
@@ -936,6 +939,7 @@ const _purchasing_magic_items = {title: "Purchasing Magic Items", parent_topics:
 </tr>
 <tr>
 <td>Village</td>
+<td>61-200</td>
 <td>500 gp</td>
 <td>2d4 items</td>
 <td>1d4 items</td>
@@ -943,6 +947,7 @@ const _purchasing_magic_items = {title: "Purchasing Magic Items", parent_topics:
 </tr>
 <tr>
 <td>Small town</td>
+<td>201-2,000</td>
 <td>1,000 gp</td>
 <td>3d4 items</td>
 <td>1d6 items</td>
@@ -950,6 +955,7 @@ const _purchasing_magic_items = {title: "Purchasing Magic Items", parent_topics:
 </tr>
 <tr>
 <td>Large town</td>
+<td>2,001-5,000</td>
 <td>2,000 gp</td>
 <td>3d4 items</td>
 <td>2d4 items</td>
@@ -957,6 +963,7 @@ const _purchasing_magic_items = {title: "Purchasing Magic Items", parent_topics:
 </tr>
 <tr>
 <td>Small city</td>
+<td>5,001-10,000</td>
 <td>4,000 gp</td>
 <td>4d4 items</td>
 <td>3d4 items</td>
@@ -964,6 +971,7 @@ const _purchasing_magic_items = {title: "Purchasing Magic Items", parent_topics:
 </tr>
 <tr>
 <td>Large city</td>
+<td>10,001-25,000</td>
 <td>8,000 gp</td>
 <td>4d4 items</td>
 <td>3d4 items</td>
@@ -971,6 +979,7 @@ const _purchasing_magic_items = {title: "Purchasing Magic Items", parent_topics:
 </tr>
 <tr>
 <td>Metropolis</td>
+<td>More than 25,000</td>
 <td>16,000 gp</td>
 <td>*</td>
 <td>4d4 items</td>

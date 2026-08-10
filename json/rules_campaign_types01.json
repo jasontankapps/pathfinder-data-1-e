@@ -1945,6 +1945,8 @@
 			"officers_teams_and_allies_mt"
 		]
 	},
+	"organization_check": { "redirect": "organization_checks_mt" },
+	"organization_checks": { "redirect": "organization_checks_mt" },
 	"focus_mt": {
 		"name": "Focus",
 		"subtitle": "Militia Terminology",
@@ -3991,7 +3993,7 @@
 			"",
 			"@HL[Double Agent\\*:] Someone in the militia is betraying the PCs. The militia cannot take the ‹rule/Secure Cache› action in the next Activity phase. The militia takes a -2 penalty on Secrecy checks. *Twice:* This event becomes persistent.",
 			"",
-			"@HL[Week of Pain:] For the next week, the militia takes a -1 penalty on all ‹rule/organization checks<_mt›, and its ‹rule/training<_mt› score decreases by double the normal amount during the next week's Upkeep phase. *Twice:* There is no additional effect."
+			"@HL[Week of Pain:] For the next week, the militia takes a -1 penalty on all ‹rule/organization checks›, and its ‹rule/training<_mt› score decreases by double the normal amount during the next week's Upkeep phase. *Twice:* There is no additional effect."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",

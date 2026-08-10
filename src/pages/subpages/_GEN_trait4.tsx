@@ -6,7 +6,7 @@ const _aballonian_resilience = {title: "Aballonian Resilience", topLink: ["Regio
 <Pair single id="aballonian-resilience">Aballonian Resilience</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Aballon</Pair>
-<Pair single="benefit" id="aballonian-resilience-benefit">You spent at least part of your youth in Horsethroat and are acclimated to the frigid cold of Aballon's Ice Wells. You gain a +4 trait bonus on saves to avoid nonlethal damage from cold environments. In addition, you begin play with a cold-weather outfit at no cost.</Pair>
+<Pair single="benefit" id="aballonian-resilience-benefit">You spent at least part of your youth in Horsethroat and are acclimated to the frigid cold of Aballon's Ice Wells. You gain a +4 trait bonus on saves to avoid nonlethal damage from cold environments. In addition, you begin play with a <Link to="/eq-misc/cold_weather_outfit">cold-weather outfit</Link> at no cost.</Pair>
 </Ability>
 </>};
 const _abendego_pilot = {title: "Abendego Pilot", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>

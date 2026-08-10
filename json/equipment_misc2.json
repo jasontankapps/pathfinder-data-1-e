@@ -2340,6 +2340,7 @@
 		"copyof": "horse_heavy"
 	},
 	"heavy_horse_combat_trained": { "redirect": "horse_heavy_combat_trained" },
+	"heavy_combat_trained_horse": { "redirect": "horse_heavy_combat_trained" },
 	"horse_light": {
 		"name": "Horse (light)",
 		"copyof": "horse_heavy"

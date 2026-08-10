@@ -1104,6 +1104,7 @@
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
+	"star_candle_fireworks": { "redirect": "firework_star_candle" },
 	"firework_starfountain": {
 		"name": "Firework (starfountain)",
 		"sources": [

@@ -1620,7 +1620,7 @@ const _traits_planet = {title: "Regional Traits: Planets", jsx: <IonList lines="
 <Pair single id="traitaballonianresilience-aballonian-resilience-fn1"><Link to="/trait/aballonian_resilience">⮞</Link> Aballonian Resilience <sup><InnerLink showBacklink="backlink-main-traits_planet-fake-fn-1" id="main-traits_planet-fake-fn-1" data-hash-target to="main-traits_planet-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Aballon</Pair>
-<Pair single="benefit" id="traitaballonianresilience-aballonian-resilience-fn1-benefit">You spent at least part of your youth in Horsethroat and are acclimated to the frigid cold of Aballon's Ice Wells. You gain a +4 trait bonus on saves to avoid nonlethal damage from cold environments. In addition, you begin play with a cold-weather outfit at no cost.</Pair>
+<Pair single="benefit" id="traitaballonianresilience-aballonian-resilience-fn1-benefit">You spent at least part of your youth in Horsethroat and are acclimated to the frigid cold of Aballon's Ice Wells. You gain a +4 trait bonus on saves to avoid nonlethal damage from cold environments. In addition, you begin play with a <Link to="/eq-misc/cold_weather_outfit">cold-weather outfit</Link> at no cost.</Pair>
 </Ability>
 <Ability id="traitakitonianferocity-akitonian-ferocity-fn1-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitakitonianferocity-akitonian-ferocity-fn1-2"><Link to="/trait/akitonian_ferocity">⮞</Link> Akitonian Ferocity <sup><InnerLink showBacklink="backlink-main-traits_planet-fake-fn-1.2" id="main-traits_planet-fake-fn-1.2" data-hash-target to="main-traits_planet-fake-fn-1-target">1</InnerLink></sup></Pair>

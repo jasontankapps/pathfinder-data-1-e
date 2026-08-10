@@ -150,7 +150,7 @@ const _blackjacket_weapon_flair = {title: "Blackjacket Weapon Flair", topLink: [
 <Pair single id="blackjacket-weapon-flair">Blackjacket Weapon Flair</Pair>
 <Pair title="Type">Combat</Pair>
 <Pair single="flavor" id="blackjacket-weapon-flair-flavor">You trained with the Blackjackets of Druma to make optimal use of magic weapons.</Pair>
-<Pair single="benefit" id="blackjacket-weapon-flair-benefit">Whenever you roll a natural 20 (the die shows a -20-) on a <Link to="/rule/combat_maneuvers">combat maneuver</Link> check with a magic weapon, you gain a +5 trait bonus on the check.</Pair>
+<Pair single="benefit" id="blackjacket-weapon-flair-benefit">Whenever you roll a natural 20 (the die shows a 20) on a <Link to="/rule/combat_maneuvers">combat maneuver</Link> check with a magic weapon, you gain a +5 trait bonus on the check.</Pair>
 </Ability>
 </>};
 const _blade_of_the_society = {title: "Blade of the Society", topLink: ["Combat Traits","main/traits_combat"], jsx: <><p><strong>Sources</strong> <Link to="/source/shattered_star_players_guide">Shattered Star Player's Guide</Link>, <Link to="/source/faction_guide">Faction Guide</Link></p>
