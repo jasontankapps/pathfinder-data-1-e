@@ -545,7 +545,9 @@
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook",
-			"Adventurer's Armory"
+			"Adventurer's Armory",
+			"Knights of the Inner Sea",
+			"Wilderness Origins"
 		],
 		"description": [
 			"## Dog",
@@ -558,7 +560,22 @@
 			"",
 			"**Lap Dog:** These tiny dogs are commonly kept as pets. They cannot be combat trained, but can serve as noisy-but-skittish watch creatures. Lap dogs have the same statistics as ‹monster/fox«es›.",
 			"",
-			"**Riding Dog:** This Medium dog is bred for carrying Small riders, and is combat trained. Breeders select dogs with strong backs, endurance, and loyal dispositions and train them for riding and combat before sale. Reputable breeders can be found in major cities."
+			"**Riding Dog:** This Medium dog is bred for carrying Small riders, and is combat trained. Breeders select dogs with strong backs, endurance, and loyal dispositions and train them for riding and combat before sale. Reputable breeders can be found in major cities.",
+			"",
+			"::h3[Specific Mounts]{jl}",
+			"",
+			"‹SOURCE Knights of the Inner Sea/33;Wilderness Origins/23›  ",
+			"Each of the following listings details a specific breed of riding animal and provides a trait that grants an additional boon to the mount or its rider. The trait granted to a mount counts against a character's total maximum number of traits. If a knight replaces his mount, he effectively loses the old trait and gains the new mount's trait.",
+			"",
+			":::aside",
+			"",
+			"These specific breeds do not have published prices. Consult your GM if you wish to buy one.",
+			"",
+			":::",
+			"",
+			"@HL[Erutaki Husky:] Typically used by natives of the Crown of the World to pull dog sleds across the arctic tundra, Erutaki huskies can also serve as mounts for smaller riders. @HL[Associated Trait:] ‹trait/Weather-Beaten›.",
+			"",
+			"@HL[Lucky Hound:] Dogs are sacred to ‹faith/Cayden Cailean›, and as a result some of his temples take an interest in rescuing and caring for dogs. While many of these fortunate animals remain at the temple, others are given as gifts to those who have earned the Accidental God's favor. Despite the name, most lucky hounds are not hounds but mutts of unclear heritage. @HL[Associated Trait:] ‹trait/Blessed Mutt›."
 		]
 	},
 	"guard_dog": { "redirect": "dog_guard" },
@@ -3071,14 +3088,30 @@
 	},
 	"pig": {
 		"name": "Pig",
-		"sources": [ "Ultimate Equipment" ],
+		"sources": [
+			"Ultimate Equipment",
+			"Wilderness Origins"
+		],
 		"description": [
 			"## Pig",
 			"‹SOURCE Ultimate Equipment/80;Ultimate Equipment/93›  ",
 			"**Price** 3-10 gp; **Weight** 100-300 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"Domesticated pigs are the descendents of wild boars, and are raised for their meat and hide, being among the most versatile and common farm animals."
+			"Domesticated pigs are the descendents of wild boars, and are raised for their meat and hide, being among the most versatile and common farm animals.",
+			"",
+			"::h3[Specific Mounts]{jl}",
+			"",
+			"‹SOURCE Wilderness Origins/23›  ",
+			"Each of the following listings details a specific breed of riding animal and provides a trait that grants an additional boon to the mount or its rider. The trait granted to a mount counts against a character's total maximum number of traits. If a knight replaces his mount, he effectively loses the old trait and gains the new mount's trait.",
+			"",
+			"@HL[Warthog:] Hailing from the Mwangi Expanse, these broad-faced boars are considered unusually ugly, with enormous tusks and large \"warts\" (in truth, these fleshy facial protrusions are protective ridges). Despite that, those who have worked with them find warthogs easier to deal with than the wild boars of more northerly climes, as warthogs are more prone to flight than aggression. @HL[Associated Trait:] ‹trait/Running Pig›.",
+			"",
+			":::aside",
+			"",
+			"Warthogs use the stats of ‹monster/boar«s› and do not have published prices. They have been placed in the \"pig\" entry because of their similar nature. Consult your GM if you wish to buy one.",
+			"",
+			":::"
 		]
 	},
 	"pirate_clothes_basic": {

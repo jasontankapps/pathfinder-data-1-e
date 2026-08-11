@@ -3607,14 +3607,33 @@
 	},
 	"camel": {
 		"name": "Camel",
-		"sources": [ "Ultimate Equipment" ],
+		"sources": [
+			"Ultimate Equipment",
+			"Knights of the Inner Sea",
+			"Wilderness Origins"
+		],
 		"description": [
 			"## Camel",
 			"‹SOURCE Ultimate Equipment/81›  ",
 			"**Price** 150 gp; **Weight** 1,500 lbs  ",
 			"**Category** Mounts/Pets",
 			"",
-			"Due to their incredible endurance, these Large animals are the preferred mounts of desert-dwelling people. ‹monster/Camel«s› tend to be ill-tempered beasts."
+			"Due to their incredible endurance, these Large animals are the preferred mounts of desert-dwelling people. ‹monster/Camel«s› tend to be ill-tempered beasts.",
+			"",
+			"::h3[Specific Mounts]{jl}",
+			"",
+			"‹SOURCE Knights of the Inner Sea/33;Wilderness Origins/23›  ",
+			"Each of the following listings details a specific breed of riding animal and provides a trait that grants an additional boon to the mount or its rider. The trait granted to a mount counts against a character's total maximum number of traits. If a knight replaces his mount, he effectively loses the old trait and gains the new mount's trait.",
+			"",
+			":::aside",
+			"",
+			"These specific breeds do not have published prices. Consult your GM if you wish to buy one.",
+			"",
+			":::",
+			"",
+			"@HL[Keleshite Trade Camel:] The camels of the Padishah Empire are larger and shaggier than their Qadiran cousins, with two humps and long hair. They are also ill-tempered even by camel standards, with a penchant for spitting when annoyed. @HL[Associated Trait:] ‹trait/Nauseating Spit›.",
+			"",
+			"@HL[Qadiran Dromedary:] These hardy beasts of burden are capable of running long distances and going without water for days on end. @HL[Associated Trait:] ‹trait/Relentless Fortitude›."
 		]
 	},
 	"camouflage_blanket": {

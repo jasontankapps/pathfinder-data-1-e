@@ -753,7 +753,7 @@ const _herd_animal_elk = {title: "Elk (Herd Animal)", jsx: <><p><em>This majesti
 </div>
 <Header sub>Description</Header>
 <p>Elk range in great herds throughout the plains, hills, and forests of many wilderness areas. Their size, strength, and antlers allow them to contend with most of their environment's dangers, though herds generally favor flight to combat. Elk also prove exceptionally adaptable survivors, capable of living through severe weather changes without concern. Most breeds of elk stand between 3 and 5 feet tall and weigh between 350 and 550 pounds, with females far slighter than the males.</p>
-<p>Numerous species of elk exist. Some larger species can stand up to 6 feet tall at the shoulder and can be used as mounts by Medium humanoids; these elk have 3 Hit Dice and are Large. One particularly unusual species of elk, the river elk, is an excellent swimmer - these elk gain a swim speed of 30 feet. All elk of this size are CR 2 creatures.</p>
+<p>Numerous species of elk exist. Some larger species can stand up to 6 feet tall at the shoulder and can be used as mounts by Medium humanoids; these elk have 3 Hit Dice and are Large. One particularly unusual species of elk, the <strong className="hl">river elk,</strong> is an excellent swimmer - these elk gain a swim speed of 30 feet. All elk of this size are CR 2 creatures.</p>
 <p><strong>Family:</strong> <Link to="/family/herd_animal">Herd Animal</Link></p>
 </>};
 const _herd_animal_giraffe = {title: "Giraffe (Herd Animal)", jsx: <><p><em>This animal, covered in a spotted pattern, has a disproportionately long neck that allows it to tower over other animals.</em></p>

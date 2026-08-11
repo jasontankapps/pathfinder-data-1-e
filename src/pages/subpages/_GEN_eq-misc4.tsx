@@ -1,6 +1,7 @@
 import {IonRippleEffect} from '@ionic/react';
 import Link from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
+import InnerLink from '../../components/InnerLink';
 import AffInfo from '../../components/AfflictionInfo';
 const _aquatic_animals = {title: "Aquatic Animals", jsx: <><h2 id="eq-misc-aquatic_animals-aquatic-animals">Aquatic Animals</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 14</Link><br/><strong>Price</strong> Varies; <strong>Weight</strong> -<br/><strong>Category</strong> Mounts/Pets</p>
@@ -265,12 +266,17 @@ const _dodgers_draught = {title: "Dodger's draught", jsx: <><h2 id="eq-misc-dodg
 <p>This dark green liquid has a pungent odor. For 1 hour after you drink this tincture, your muscles instinctively react to danger and you gain a +2 dodge bonus to AC. Your involuntary muscle movement causes you to take a -2 penalty on attack rolls for the same duration.</p>
 <p><strong>Construction:</strong> Craft (Alchemy) DC 25</p>
 </>};
-const _dog_guard = {title: "Dog (guard)", jsx: <><h2 id="eq-misc-dog_guard-dog">Dog</h2>
+const _dog_guard = {hasJL:true,title: "Dog (guard)", jsx: <><div className="jumpList" id="eq-misc-dog_guard-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-dog_guard-specific-mounts">Specific Mounts</InnerLink></li></ul></div><h2 id="eq-misc-dog_guard-dog">Dog</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link><br/><strong>Price</strong> 25 gp (guard), 15 gp (lap), 150 gp (riding); <strong>Weight</strong> 25 lbs. (guard), 5 lbs. (lap), 50 lbs. (riding)</p>
 <p>Most dogs fall into one of the following categories.</p>
 <p><strong>Guard Dog:</strong> This Small, combat-trained dog is bred for battle; breeders favor strength, a thick body, and a low center of gravity. Guard dogs are sold in most large cities and some cultures use them for sport fighting or in some armies' special infantry.</p>
 <p><strong>Lap Dog:</strong> These tiny dogs are commonly kept as pets. They cannot be combat trained, but can serve as noisy-but-skittish watch creatures. Lap dogs have the same statistics as <Link to="/monster/fox">foxes</Link>.</p>
 <p><strong>Riding Dog:</strong> This Medium dog is bred for carrying Small riders, and is combat trained. Breeders select dogs with strong backs, endurance, and loyal dispositions and train them for riding and combat before sale. Reputable breeders can be found in major cities.</p>
+<h3 id="eq-misc-dog_guard-specific-mounts" data-hash-target>Specific Mounts</h3>
+<p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea pg. 33</Link>, <Link to="/source/wilderness_origins">Wilderness Origins pg. 23</Link><br/>Each of the following listings details a specific breed of riding animal and provides a trait that grants an additional boon to the mount or its rider. The trait granted to a mount counts against a character's total maximum number of traits. If a knight replaces his mount, he effectively loses the old trait and gains the new mount's trait.</p>
+<aside><p>These specific breeds do not have published prices. Consult your GM if you wish to buy one.</p>
+</aside><p><strong className="hl">Erutaki Husky:</strong> Typically used by natives of the Crown of the World to pull dog sleds across the arctic tundra, Erutaki huskies can also serve as mounts for smaller riders. <strong className="hl">Associated Trait:</strong> <Link to="/trait/weather_beaten">Weather-Beaten</Link>.</p>
+<p><strong className="hl">Lucky Hound:</strong> Dogs are sacred to <Link to="/faith/cayden_cailean">Cayden Cailean</Link>, and as a result some of his temples take an interest in rescuing and caring for dogs. While many of these fortunate animals remain at the temple, others are given as gifts to those who have earned the Accidental God's favor. Despite the name, most lucky hounds are not hounds but mutts of unclear heritage. <strong className="hl">Associated Trait:</strong> <Link to="/trait/blessed_mutt">Blessed Mutt</Link>.</p>
 </>};
 const _dog_sled = {title: "Dog sled", jsx: <><h2 id="eq-misc-dog_sled-dog-sled">Dog sled</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>, <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link><br/><strong>Price</strong> 20 gp; <strong>Price of Passage</strong> (per mile) 3 cp<br/><strong>Category</strong> Transport, Land</p>
@@ -1055,10 +1061,14 @@ const _pig_grease = {title: "Pig grease", jsx: <><h2 id="eq-misc-pig_grease-pig-
 <p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion pg. 12</Link><br/><strong>Price</strong> 1 sp; <strong>Weight</strong> 1 lb.<br/><strong>Category</strong> Tools</p>
 <p>Maybe it's the wide heads, but more likely it's the lack of common sense that causes goblins to so often get stuck in narrow spaces. In such cases, a dose of pig grease is really helpful. An application of pig grease applied to the body grants a +2 circumstance bonus on all Escape Artist checks for 1 hour.</p>
 </>};
-const _pig = {title: "Pig", jsx: <><h2 id="eq-misc-pig-pig">Pig</h2>
+const _pig = {hasJL:true,title: "Pig", jsx: <><div className="jumpList" id="eq-misc-pig-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-pig-specific-mounts">Specific Mounts</InnerLink></li></ul></div><h2 id="eq-misc-pig-pig">Pig</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 93</Link><br/><strong>Price</strong> 3-10 gp; <strong>Weight</strong> 100-300 lbs.<br/><strong>Category</strong> Mounts/Pets</p>
 <p>Domesticated pigs are the descendents of wild boars, and are raised for their meat and hide, being among the most versatile and common farm animals.</p>
-</>};
+<h3 id="eq-misc-pig-specific-mounts" data-hash-target>Specific Mounts</h3>
+<p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins pg. 23</Link><br/>Each of the following listings details a specific breed of riding animal and provides a trait that grants an additional boon to the mount or its rider. The trait granted to a mount counts against a character's total maximum number of traits. If a knight replaces his mount, he effectively loses the old trait and gains the new mount's trait.</p>
+<p><strong className="hl">Warthog:</strong> Hailing from the Mwangi Expanse, these broad-faced boars are considered unusually ugly, with enormous tusks and large "warts" (in truth, these fleshy facial protrusions are protective ridges). Despite that, those who have worked with them find warthogs easier to deal with than the wild boars of more northerly climes, as warthogs are more prone to flight than aggression. <strong className="hl">Associated Trait:</strong> <Link to="/trait/running_pig">Running Pig</Link>.</p>
+<aside><p>Warthogs use the stats of <Link to="/monster/boar">boars</Link> and do not have published prices. They have been placed in the "pig" entry because of their similar nature. Consult your GM if you wish to buy one.</p>
+</aside></>};
 const _pirate_clothes_basic = {title: "Pirate clothes (basic)", jsx: <><h2 id="eq-misc-pirate_clothes_basic-pirate-clothes">Pirate clothes</h2>
 <p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 21</Link><br/><strong>Price</strong> 1 sp (basic), 30 gp (fancy); <strong>Weight</strong> 2 lbs. (basic), 6 lbs. (fancy)</p>
 <p>Pirates can appear in a variety of clothing styles, but most wear a basic outfit consisting of a linen shirt, canvas knee-breeches, cotton stockings, and leather shoes (though some pirates prefer to go barefoot at sea). In addition, well-to-do pirates, particularly pirate captains, often add fancy touches to their outfits, such as colorful jackets of velvet or silk done up with brass buttons, tall leather boots, ruffled collars, and plumed hats. Sailors in warmer climates may instead go shirtless and wear nothing but loose pantaloons.</p>

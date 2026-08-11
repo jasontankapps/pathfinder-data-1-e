@@ -1,5 +1,6 @@
 import Link from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
+import InnerLink from '../../components/InnerLink';
 const _not_found = {title: "Unknown", jsx: <><h2 id="eq-misc-not_found-error">Error</h2>
 <p>Unable to find the requested equipment.</p>
 </>};
@@ -1289,9 +1290,14 @@ const _calumet = {title: "Calumet", jsx: <><h2 id="eq-misc-calumet-calumet">Calu
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 203</Link><br/><strong>Price</strong> 20 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Adventuring Gear</p>
 <p>A calumet is a two-piece ceremonial smoking pipe with a bowl shaped from stone or clay and an intricately carved wooden stem decorated with dangling fetishes. The pipe is typically carried in a special leather pouch festooned with beads, patterns, and trinkets. The pipe is used to smoke various herbal mixtures required for certain rituals. The communal smoking of a calumet is sometimes incorporated into diplomatic meetings as a sign of solidarity between various parties. You gain a +1 circumstance bonus on Diplomacy checks against anyone you share your calumet with in this way.</p>
 </>};
-const _camel = {title: "Camel", jsx: <><h2 id="eq-misc-camel-camel">Camel</h2>
+const _camel = {hasJL:true,title: "Camel", jsx: <><div className="jumpList" id="eq-misc-camel-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-camel-specific-mounts">Specific Mounts</InnerLink></li></ul></div><h2 id="eq-misc-camel-camel">Camel</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link><br/><strong>Price</strong> 150 gp; <strong>Weight</strong> 1,500 lbs<br/><strong>Category</strong> Mounts/Pets</p>
 <p>Due to their incredible endurance, these Large animals are the preferred mounts of desert-dwelling people. <Link to="/monster/camel">Camels</Link> tend to be ill-tempered beasts.</p>
+<h3 id="eq-misc-camel-specific-mounts" data-hash-target>Specific Mounts</h3>
+<p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea pg. 33</Link>, <Link to="/source/wilderness_origins">Wilderness Origins pg. 23</Link><br/>Each of the following listings details a specific breed of riding animal and provides a trait that grants an additional boon to the mount or its rider. The trait granted to a mount counts against a character's total maximum number of traits. If a knight replaces his mount, he effectively loses the old trait and gains the new mount's trait.</p>
+<aside><p>These specific breeds do not have published prices. Consult your GM if you wish to buy one.</p>
+</aside><p><strong className="hl">Keleshite Trade Camel:</strong> The camels of the Padishah Empire are larger and shaggier than their Qadiran cousins, with two humps and long hair. They are also ill-tempered even by camel standards, with a penchant for spitting when annoyed. <strong className="hl">Associated Trait:</strong> <Link to="/trait/nauseating_spit">Nauseating Spit</Link>.</p>
+<p><strong className="hl">Qadiran Dromedary:</strong> These hardy beasts of burden are capable of running long distances and going without water for days on end. <strong className="hl">Associated Trait:</strong> <Link to="/trait/relentless_fortitude">Relentless Fortitude</Link>.</p>
 </>};
 const _camouflage_blanket = {title: "Camouflage blanket", jsx: <><h2 id="eq-misc-camouflage_blanket-camouflage-blanket">Camouflage blanket</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 20</Link><br/><strong>Price</strong> 12 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Adventuring Gear</p>

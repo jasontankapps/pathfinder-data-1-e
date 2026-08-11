@@ -1179,14 +1179,30 @@
 	},
 	"goat": {
 		"name": "Goat",
-		"sources": [ "Ultimate Equipment" ],
+		"sources": [
+			"Ultimate Equipment",
+			"Wilderness Origins"
+		],
 		"description": [
 			"## Goat",
 			"‹SOURCE Ultimate Equipment/80;Ultimate Equipment/93›  ",
 			"**Price** 1-6 gp; **Weight** 50 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"As an agricultural animal, goats provide milk, meat, hair, and hide, and they are sometimes used to clear fields of weeds and shrubbery. Some spellcasters bond with them as familiars."
+			"As an agricultural animal, goats provide milk, meat, hair, and hide, and they are sometimes used to clear fields of weeds and shrubbery. Some spellcasters bond with them as familiars.",
+			"",
+			"::h3[Specific Mounts]{jl}",
+			"",
+			"‹SOURCE Wilderness Origins/23›  ",
+			"Each of the following listings details a specific breed of riding animal and provides a trait that grants an additional boon to the mount or its rider. The trait granted to a mount counts against a character's total maximum number of traits. If a knight replaces his mount, he effectively loses the old trait and gains the new mount's trait.",
+			"",
+			"@HL[Mindspin Mountain Goat:] The goats of the Mindspin Mountains are known for being sure-footed climbers, scaling vertical peaks that would give a monkey pause. @HL[Associated Trait:] ‹trait/Clamber›.",
+			"",
+			":::aside",
+			"",
+			"Mindspin Mountain Goats use the stats of ‹monster/ram«s› and do not have published prices. They have been placed in the \"goat\" entry because of their similar nature. Consult your GM if you wish to buy one.",
+			"",
+			":::"
 		]
 	},
 	"goblin_fishing_lure": {
@@ -2312,7 +2328,8 @@
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook",
-			"Adventurer's Armory"
+			"Adventurer's Armory",
+			"Knights of the Inner Sea"
 		],
 		"description": [
 			"## Horse",
@@ -2320,6 +2337,8 @@
 			"**Price** 200 gp (heavy), 300 gp (heavy, combat trained), 75 gp (light), 110 gp (light, combat trained), 30 gp (pony), 45 gp (pony, combat trained); **Weight** 2,000 lbs. (heavy), 3,000 lbs. (heavy, combat trained), 900 lbs. (light), 1,200 lbs. (light, combat trained), 800 lbs. (pony), 900 lbs. (pony, combat trained)",
 			"",
 			"This Large quadruped is used as a mount and pack animal. Horses can be trained for combat but otherwise are skittish around battle. Many cultures support breeding programs and often consider their horse the best at whatever task they breed it to perform.",
+			"",
+			"@HL[Stat blocks:] ‹monster/Horse›, ‹monster/Pony›.",
 			"",
 			"**Heavy Horse:** These horses are often used as portage animals, pulling significant loads across great distances.",
 			"",
@@ -2331,7 +2350,36 @@
 			"",
 			"**Pony:** These creatures are typically used for carting goods along narrow mountain trails or as steeds for young or Small riders.",
 			"",
-			"**Pony (Combat Trained):** Ponies can be trained for combat just as effectively as their larger, more mature brethren. Such steeds often serve Small riders that expect to face battle."
+			"**Pony (Combat Trained):** Ponies can be trained for combat just as effectively as their larger, more mature brethren. Such steeds often serve Small riders that expect to face battle.",
+			"",
+			"::h3[Specific Mounts]{jl}",
+			"",
+			"‹SOURCE Knights of the Inner Sea/33›  ",
+			"Each of the following listings details a specific breed of riding animal and provides a trait that grants an additional boon to the mount or its rider. The trait granted to a mount counts against a character's total maximum number of traits. If a knight replaces his mount, he effectively loses the old trait and gains the new mount's trait.",
+			"",
+			":::aside",
+			"",
+			"These specific breeds do not have published prices. Consult your GM if you wish to buy one.",
+			"",
+			":::",
+			"",
+			"@HL[Chiardmar:] Wild horses found only in the hilly countryside of northern Nidal, chiardmars are renowned for their speed and grace, and are particularly prized by Nidalese couriers and traveling agents of the Umbral Court. @HL[Associated Trait:] ‹trait/Fleet of foot›.",
+			"",
+			"@HL[Dort Charger:] Held in particularly high esteem by the crusaders of Lastwall, Dort chargers are sturdy warhorses, and can often be found among the front lines on both sides of the battlefield. @HL[Associated Trait:] ‹trait/Burst of Speed›.",
+			"",
+			"@HL[Fell Pony:] Bred in the dour county of Amaans in south-central Ustalav, fell ponies have dark brown fur and are noted especially for their surefootedness. @HL[Associated Trait:] ‹trait/Black as Night›.",
+			"",
+			"@HL[Lastwall Jasper:] Named after the famed horse Jasper of the city of Vigil - which mistakenly thought its rider was drowning during the swimming portion of the Steeplechase and swam across the entire Path River trying to save him - these brown-and-white horses are prized for their impressive water-faring capabilities. @HL[Associated Trait:] ‹trait/Water-Trained›.",
+			"",
+			"@HL[Taldor Jennet:] Taldor jennets typically sport white or tan coats, and have a slimmer frame than other purebreds. Despite their seemingly fragile builds, they pull their own weight when pressed into battle and are remarkably intelligent to boot. @HL[Associated Trait:] ‹trait/Cunning Breed›.",
+			"",
+			"@HL[Chernasardo Riding Elk:] Native to the southwestern corner of the Fangwood in Nirmathas, Chernasardo riding elk are prized by the rangers who reside in that region. @HL[Associated Trait:] ‹trait/Stalwart Elk›.",
+			"",
+			":::aside",
+			"",
+			"Chernasardo Riding Elk use the stats of ‹monster/river »elk› and do not have published prices, nor any published confirmation of whether it uses the Large or Medium version of the elk. They have been placed in the \"horse\" entry because of their similar nature. Consult your GM if you wish to buy one.",
+			"",
+			":::"
 		]
 	},
 	"heavy_horse": { "redirect": "horse_heavy" },
