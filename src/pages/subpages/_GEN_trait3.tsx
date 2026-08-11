@@ -825,7 +825,8 @@ const _a_shining_beacon = {title: "A Shining Beacon", topLink: ["Religion Traits
 <Pair single id="a-shining-beacon">A Shining Beacon</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/iomedae">Iomedae</Link></Pair>
-<Pair single="benefit" id="a-shining-beacon-benefit">You carry a burning hatred in your heart for all things demonic, and have studied their weaknesses carefully. You deal an amount of additional damage equal to your weapon's critical hit modifier when you score a successful critical hit with a weapon against a demon. This damage is added only after the damage is totaled, and is not multiplied by the critical hit multiplier.</Pair>
+<Pair single="flavor" id="a-shining-beacon-flavor">You carry a burning hatred in your heart for all things demonic, and have studied their weaknesses carefully.</Pair>
+<Pair single="benefit" id="a-shining-beacon-benefit">You deal an amount of additional damage equal to your weapon's critical hit modifier when you score a successful critical hit with a weapon against a <Link to="/family/demon">demon</Link>. This damage is added only after the damage is totaled, and is not multiplied by the critical hit multiplier.</Pair>
 </Ability>
 </>};
 const _accident_resistant = {title: "Accident Resistant", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -833,7 +834,8 @@ const _accident_resistant = {title: "Accident Resistant", topLink: ["Religion Tr
 <Pair single id="accident-resistant">Accident Resistant</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zyphus">Zyphus</Link></Pair>
-<Pair single="benefit" id="accident-resistant-benefit">Your understanding of pointless and unexpected death grants you a special awareness. You gain a +2 trait bonus on Reflex saves when denied your Dexterity bonus or during a surprise round.</Pair>
+<Pair single="flavor" id="accident-resistant-flavor">Your understanding of pointless and unexpected death grants you a special awareness.</Pair>
+<Pair single="benefit" id="accident-resistant-benefit">You gain a +2 trait bonus on Reflex saves when denied your Dexterity bonus or during a surprise round.</Pair>
 </Ability>
 </>};
 const _adherent_of_ancient_osirion = {title: "Adherent of Ancient Osirion", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast</Link></p>
@@ -843,7 +845,8 @@ const _adherent_of_ancient_osirion = {title: "Adherent of Ancient Osirion", topL
 <Pair title="Religion" hl><Link to="/faith/bastet">Bastet</Link></Pair>
 <Pair title="Region" hl>Osirion</Pair>
 <Pair title="Requirements" hl><Link to="/race/catfolk">Catfolk</Link></Pair>
-<Pair single="benefit" id="adherent-of-ancient-osirion-benefit">Although Bastet has been all but forgotten by the native Osirians, you either sojourned with or were raised in a cult dedicated to the cat-headed goddess of Ancient Osirion. You treat the tekko-kagi as a martial weapon instead of an exotic weapon. You also treat the tekko-kagi as if it were a set of claw blades when determining how it interacts with other effects.</Pair>
+<Pair single="flavor" id="adherent-of-ancient-osirion-flavor">Although Bastet has been all but forgotten by the native Osirians, you either sojourned with or were raised in a cult dedicated to the cat-headed goddess of Ancient Osirion.</Pair>
+<Pair single="benefit" id="adherent-of-ancient-osirion-benefit">You treat the <Link to="/eq-weapon/tekko_kagi">tekko-kagi</Link> as a martial weapon instead of an exotic weapon. You also treat the tekko-kagi as if it were a set of <Link to="/eq-weapon/claw_blades">claw blades</Link> when determining how it interacts with other effects.</Pair>
 </Ability>
 </>};
 const _adventurous_imbiber = {title: "Adventurous Imbiber", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -851,7 +854,8 @@ const _adventurous_imbiber = {title: "Adventurous Imbiber", topLink: ["Religion 
 <Pair single id="adventurous-imbiber">Adventurous Imbiber</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/cayden_cailean">Cayden Cailean</Link></Pair>
-<Pair single="benefit" id="adventurous-imbiber-benefit">You've never been afraid of good, strong drink, and that has prepared you for the perils of more dangerous substances. You gain a +1 trait bonus on saving throws against poison.</Pair>
+<Pair single="flavor" id="adventurous-imbiber-flavor">You've never been afraid of good, strong drink, and that has prepared you for the perils of more dangerous substances.</Pair>
+<Pair single="benefit" id="adventurous-imbiber-benefit">You gain a +1 trait bonus on saving throws against poison.</Pair>
 </Ability>
 </>};
 const _affinity_for_the_elements = {title: "Affinity for the Elements", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -867,7 +871,8 @@ const _agent_of_chance = {title: "Agent of Chance", topLink: ["Religion Traits",
 <Pair single id="agent-of-chance">Agent of Chance</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/nivi_rhombodazzle">Nivi Rhombodazzle</Link></Pair>
-<Pair single="benefit" id="agent-of-chance-benefit">You can change the fortunes of others, typically for the better. Once per day, you can allow an adjacent ally to reroll a skill check as an immediate action before the result is revealed. The ally must take the second roll, even if it is worse.</Pair>
+<Pair single="flavor" id="agent-of-chance-flavor">You can change the fortunes of others, typically for the better.</Pair>
+<Pair single="benefit" id="agent-of-chance-benefit">Once per day, you can allow an adjacent ally to reroll a skill check as an <strong className="hl">immediate action</strong> before the result is revealed. The ally must take the second roll, even if it is worse.</Pair>
 </Ability>
 </>};
 const _alluring = {title: "Alluring", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
@@ -875,7 +880,8 @@ const _alluring = {title: "Alluring", topLink: ["Religion Traits","main/traits_r
 <Pair single id="alluring">Alluring</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/bolka">Bolka</Link></Pair>
-<Pair single="benefit" id="alluring-benefit">You have the art of turning a passing glance into love. You receive a +2 trait bonus on Diplomacy checks with those who find you attractive. You can use <Link to="/spell/daze">daze</Link> once per day as a spell-like ability, with a caster level equal to your character level.</Pair>
+<Pair single="flavor" id="alluring-flavor">You have the art of turning a passing glance into love.</Pair>
+<Pair single="benefit" id="alluring-benefit">You receive a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks with those who find you attractive. You can use <Link to="/spell/daze">daze</Link> once per day as a spell-like ability, with a caster level equal to your character level.</Pair>
 </Ability>
 </>};
 const _always_threatening = {title: "Always Threatening", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -883,7 +889,8 @@ const _always_threatening = {title: "Always Threatening", topLink: ["Religion Tr
 <Pair single id="always-threatening">Always Threatening</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/thamir_gixx">Thamir Gixx</Link></Pair>
-<Pair single="benefit" id="always-threatening-benefit">You are fast on the draw. As a move action, you can draw a light, concealed weapon for which you have <Link to="/feat/weapon_focus">Weapon Focus</Link>. If you have the <Link to="/feat/quick_draw">Quick Draw</Link> feat, drawing this weapon is a free action.</Pair>
+<Pair single="flavor" id="always-threatening-flavor">You are fast on the draw.</Pair>
+<Pair single="benefit" id="always-threatening-benefit">As a <strong className="hl">move action</strong>, you can draw a light, concealed weapon for which you have <Link to="/feat/weapon_focus">Weapon Focus</Link>. If you have the <Link to="/feat/quick_draw">Quick Draw</Link> feat, drawing this weapon is a <strong className="hl">free action</strong>.</Pair>
 </Ability>
 </>};
 const _ambassador = {title: "Ambassador", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
@@ -891,7 +898,8 @@ const _ambassador = {title: "Ambassador", topLink: ["Religion Traits","main/trai
 <Pair single id="ambassador">Ambassador</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
-<Pair single="benefit" id="ambassador-benefit">Your natural abilities at mediation and compromise manifested at a young age. For as long as you can remember, you were always more able to solve disputes and carefully settle violent disagreements than others. You gain a +2 trait bonus to Diplomacy checks.</Pair>
+<Pair single="flavor" id="ambassador-flavor">Your natural abilities at mediation and compromise manifested at a young age. For as long as you can remember, you were always more able to solve disputes and carefully settle violent disagreements than others.</Pair>
+<Pair single="benefit" id="ambassador-benefit">You gain a +2 trait bonus to <Link to="/skill/diplomacy">Diplomacy</Link> checks.</Pair>
 </Ability>
 </>};
 const _ancestors_blade = {title: "Ancestor's Blade", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -899,7 +907,8 @@ const _ancestors_blade = {title: "Ancestor's Blade", topLink: ["Religion Traits"
 <Pair single id="ancestors-blade">Ancestor's Blade</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shizuru">Shizuru</Link></Pair>
-<Pair single="benefit" id="ancestors-blade-benefit">You were trained by your family with a weapon passed down from a venerable ancestor. You begin play with an heirloom masterwork weapon worth up to 400 gp. You gain a +1 trait bonus on attack rolls with weapons of this type (not just your initial heirloom weapon) when you smite evil.</Pair>
+<Pair single="flavor" id="ancestors-blade-flavor">You were trained by your family with a weapon passed down from a venerable ancestor.</Pair>
+<Pair single="benefit" id="ancestors-blade-benefit">You begin play with an heirloom <Link to="/rule/masterwork_w">masterwork weapon</Link> worth up to 400 gp. You gain a +1 trait bonus on attack rolls with weapons of this type (not just your initial heirloom weapon) when you <em>smite evil.</em></Pair>
 </Ability>
 </>};
 const _andolettas_consolation = {title: "Andoletta's Consolation", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -907,7 +916,8 @@ const _andolettas_consolation = {title: "Andoletta's Consolation", topLink: ["Re
 <Pair single id="andolettas-consolation">Andoletta's Consolation</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/andoletta">Andoletta</Link></Pair>
-<Pair single="benefit" id="andolettas-consolation-benefit">You had a close encounter with a servant or worshiper of Andoletta who provided you with a memorable, if unconventional, consolation after a loss. As a result, you gain a +2 trait bonus on saving throws against emotion and fear effects. If you are immune to fear, you instead gain a +4 trait bonus on saves against emotion effects.</Pair>
+<Pair single="flavor" id="andolettas-consolation-flavor">You had a close encounter with a servant or worshiper of Andoletta who provided you with a memorable, if unconventional, consolation after a loss.</Pair>
+<Pair single="benefit" id="andolettas-consolation-benefit">You gain a +2 trait bonus on saving throws against emotion and fear effects. If you are immune to fear, you instead gain a +4 trait bonus on saves against emotion effects.</Pair>
 </Ability>
 </>};
 const _angradds_flame = {title: "Angradd's Flame", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
@@ -915,7 +925,8 @@ const _angradds_flame = {title: "Angradd's Flame", topLink: ["Religion Traits","
 <Pair single id="angradds-flame">Angradd's Flame</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link></Pair>
-<Pair single="benefit" id="angradds-flame-benefit">Your faith in the Forge-Fire fans the passionate flames of war in your heart. Whenever you confirm a critical hit, you deal 1 additional point of damage to your target. This damage is considered precision damage.</Pair>
+<Pair single="flavor" id="angradds-flame-flavor">Your faith in the Forge-Fire fans the passionate flames of war in your heart.</Pair>
+<Pair single="benefit" id="angradds-flame-benefit">Whenever you confirm a critical hit, you deal 1 additional point of damage to your target. This damage is considered <Link to="/misc/precision_damage">precision damage</Link>.</Pair>
 </Ability>
 </>};
 const _angradds_valor = {title: "Angradd's Valor", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -923,7 +934,8 @@ const _angradds_valor = {title: "Angradd's Valor", topLink: ["Religion Traits","
 <Pair single id="angradds-valor">Angradd's Valor</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link></Pair>
-<Pair single="benefit" id="angradds-valor-benefit">You hope to earn a place at Angradd's side after death and are inspired to charge with all your might into any righteous battle. You gain a +1 trait bonus on all melee attack rolls when you charge.</Pair>
+<Pair single="flavor" id="angradds-valor-flavor">You hope to earn a place at Angradd's side after death and are inspired to charge with all your might into any righteous battle.</Pair>
+<Pair single="benefit" id="angradds-valor-benefit">You gain a +1 trait bonus on all melee attack rolls when you charge.</Pair>
 </Ability>
 </>};
 const _arcane_depth = {title: "Arcane Depth", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -931,7 +943,8 @@ const _arcane_depth = {title: "Arcane Depth", topLink: ["Religion Traits","main/
 <Pair single id="arcane-depth">Arcane Depth</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/nethys">Nethys</Link></Pair>
-<Pair single="benefit" id="arcane-depth-benefit">You have studied the great masters of spellcraft, and your knowledge is exceptional. You gain a bonus of either +1 on Spellcraft checks or +2 on Knowledge (arcana) checks. You must choose which bonus you receive when you take the trait; once chosen, it cannot be changed.</Pair>
+<Pair single="flavor" id="arcane-depth-flavor">You have studied the great masters of spellcraft, and your knowledge is exceptional.</Pair>
+<Pair single="benefit" id="arcane-depth-benefit">You gain a bonus of either +1 on <Link to="/skill/spellcraft">Spellcraft</Link> checks or +2 on <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> checks. You must choose which bonus you receive when you take the trait; once chosen, it cannot be changed.</Pair>
 </Ability>
 </>};
 const _avowed_inspiration = {title: "Avowed Inspiration", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -939,7 +952,8 @@ const _avowed_inspiration = {title: "Avowed Inspiration", topLink: ["Religion Tr
 <Pair single id="avowed-inspiration">Avowed Inspiration</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ragathiel">Ragathiel</Link></Pair>
-<Pair single="benefit" id="avowed-inspiration-benefit">In emulation of the empyreal lord's intensely channeled rage, you are an inspiration on the battlefield. Once per day, when you attack a foe who injured you during the same combat, you can inspire allies who can see you as a move action. Each other ally within 30 feet who can see you gains a +2 morale bonus on her next attack roll.</Pair>
+<Pair single="flavor" id="avowed-inspiration-flavor">In emulation of the empyreal lord's intensely channeled rage, you are an inspiration on the battlefield.</Pair>
+<Pair single="benefit" id="avowed-inspiration-benefit">Once per day, when you attack a foe who injured you during the same combat, you can inspire allies who can see you as a <strong className="hl">move action</strong>. Each other ally within 30 feet who can see you gains a +2 morale bonus on her next attack roll.</Pair>
 </Ability>
 </>};
 const _backstabber = {title: "Backstabber", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
@@ -948,7 +962,8 @@ const _backstabber = {title: "Backstabber", topLink: ["Religion Traits","main/tr
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/thamir_gixx">Thamir Gixx</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="backstabber-benefit">Pledging your faith to Norgorber's lethal shadow gives you the skill to make a brutal attack against an opponent who cannot fully fend you off. When you hit a foe you are flanking, you deal an additional 1 point of damage (this damage is added to your base damage, and is multiplied on a critical hit). This additional damage is a trait bonus.</Pair>
+<Pair single="flavor" id="backstabber-flavor">Pledging your faith to <Link to="/faith/norgorber">Norgorber's</Link> lethal shadow gives you the skill to make a brutal attack against an opponent who cannot fully fend you off.</Pair>
+<Pair single="benefit" id="backstabber-benefit">When you hit a foe you are <Link to="/rule/flanking">flanking</Link>, you deal an additional 1 point of damage (this damage is added to your base damage, and is multiplied on a critical hit). This additional damage is a trait bonus.</Pair>
 </Ability>
 </>};
 const _battlefield_caster = {title: "Battlefield Caster", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
@@ -956,7 +971,8 @@ const _battlefield_caster = {title: "Battlefield Caster", topLink: ["Religion Tr
 <Pair single id="battlefield-caster">Battlefield Caster</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/torag">Torag</Link>, or <Link to="/faith/trudd">Trudd</Link></Pair>
-<Pair single="benefit" id="battlefield-caster-benefit">Your faith protects you even as you unleash spells in the thick of battle. You receive a +1 trait bonus on <Link to="/rule/concentration">concentration</Link> checks to cast defensively and a +1 trait bonus to AC against attacks provoked by or readied against spellcasting.</Pair>
+<Pair single="flavor" id="battlefield-caster-flavor">Your faith protects you even as you unleash spells in the thick of battle.</Pair>
+<Pair single="benefit" id="battlefield-caster-benefit">You receive a +1 trait bonus on <Link to="/rule/concentration">concentration</Link> checks to cast defensively and a +1 trait bonus to AC against attacks provoked by or readied against spellcasting.</Pair>
 </Ability>
 </>};
 const _battlefield_surgeon = {title: "Battlefield Surgeon", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -964,7 +980,8 @@ const _battlefield_surgeon = {title: "Battlefield Surgeon", topLink: ["Religion 
 <Pair single id="battlefield-surgeon">Battlefield Surgeon</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zon_kuthon">Zon-Kuthon</Link></Pair>
-<Pair single="benefit" id="battlefield-surgeon-benefit">You're skilled at both dealing and repairing wounds. Heal is a class skill for you, and you can use the treat deadly wounds aspect of Heal 1 additional time per creature per day.</Pair>
+<Pair single="flavor" id="battlefield-surgeon-flavor">You're skilled at both dealing and repairing wounds.</Pair>
+<Pair single="benefit" id="battlefield-surgeon-benefit"><Link to="/skill/heal">Heal</Link> is a class skill for you, and you can use the <em>treat deadly wounds</em> aspect of Heal 1 additional time per creature per day.</Pair>
 </Ability>
 </>};
 const _besmaras_name = {title: "Besmara's Name", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -972,7 +989,8 @@ const _besmaras_name = {title: "Besmara's Name", topLink: ["Religion Traits","ma
 <Pair single id="besmaras-name">Besmara's Name</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/besmara">Besmara</Link></Pair>
-<Pair single="benefit" id="besmaras-name-benefit">Besmara sometimes answers your call. Once per day when casting a divine spell, you can speak or whisper her name in place of using a divine focus.</Pair>
+<Pair single="flavor" id="besmaras-name-flavor">Besmara sometimes answers your call.</Pair>
+<Pair single="benefit" id="besmaras-name-benefit">Once per day when casting a divine spell, you can speak or whisper her name in place of using a divine focus.</Pair>
 </Ability>
 </>};
 const _besmaras_strength = {title: "Besmara's Strength", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
@@ -980,7 +998,8 @@ const _besmaras_strength = {title: "Besmara's Strength", topLink: ["Religion Tra
 <Pair single id="besmaras-strength">Besmara's Strength</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/besmara">Besmara</Link></Pair>
-<Pair single="benefit" id="besmaras-strength-benefit">The Pirate Queen sometimes answers your calls when you tread dangerous waters. Once per day when attempting a Swim check, you can treat the water as if it were one category calmer (as if stormy water were rough water or rough water were calm water).</Pair>
+<Pair single="flavor" id="besmaras-strength-flavor">The Pirate Queen sometimes answers your calls when you tread dangerous waters.</Pair>
+<Pair single="benefit" id="besmaras-strength-benefit">Once per day when attempting a <Link to="/skill/swim">Swim</Link> check, you can treat the water as if it were one category calmer (as if stormy water were rough water or rough water were calm water).</Pair>
 </Ability>
 </>};
 const _bestial_wrath = {title: "Bestial Wrath", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -988,7 +1007,8 @@ const _bestial_wrath = {title: "Bestial Wrath", topLink: ["Religion Traits","mai
 <Pair single id="bestial-wrath">Bestial Wrath</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/rovagug">Rovagug</Link></Pair>
-<Pair single="benefit" id="bestial-wrath-benefit">When you strike hard, you strike deep. You gain a +2 trait bonus on critical confirmation rolls.</Pair>
+<Pair single="flavor" id="bestial-wrath-flavor">When you strike hard, you strike deep.</Pair>
+<Pair single="benefit" id="bestial-wrath-benefit">You gain a +2 trait bonus on critical confirmation rolls.</Pair>
 </Ability>
 </>};
 const _blade_of_mercy = {title: "Blade of Mercy", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
@@ -996,7 +1016,8 @@ const _blade_of_mercy = {title: "Blade of Mercy", topLink: ["Religion Traits","m
 <Pair single id="blade-of-mercy">Blade of Mercy</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
-<Pair single="benefit" id="blade-of-mercy-benefit">You know that within the heart of even the most hateful and cruel living creature exists a sliver of shame and hope for redemption. You have trained long on martial techniques to use bladed weapons not to kill, but to subdue. When striking to inflict nonlethal damage with any slashing weapon, you do not take the normal -4 penalty on your attack roll, and gain a +1 trait bonus to any nonlethal damage you inflict with a slashing weapon.</Pair>
+<Pair single="flavor" id="blade-of-mercy-flavor">You know that within the heart of even the most hateful and cruel living creature exists a sliver of shame and hope for redemption. You have trained long on martial techniques to use bladed weapons not to kill, but to subdue.</Pair>
+<Pair single="benefit" id="blade-of-mercy-benefit">When striking to inflict nonlethal damage with any slashing weapon, you do not take the normal -4 penalty on your attack roll, and gain a +1 trait bonus to any nonlethal damage you inflict with a slashing weapon.</Pair>
 </Ability>
 </>};
 const _blessed_orphan = {title: "Blessed Orphan", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1004,7 +1025,8 @@ const _blessed_orphan = {title: "Blessed Orphan", topLink: ["Religion Traits","m
 <Pair single id="blessed-orphan">Blessed Orphan</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/folgrit">Folgrit</Link></Pair>
-<Pair single="benefit" id="blessed-orphan-benefit">As an orphan, you have always looked to Folgrit for protection. Once per day, you gain a +1 trait bonus on any saving throw. You must use this ability after the roll is made but before the result is revealed.</Pair>
+<Pair single="flavor" id="blessed-orphan-flavor">As an orphan, you have always looked to Folgrit for protection.</Pair>
+<Pair single="benefit" id="blessed-orphan-benefit">Once per day, you gain a +1 trait bonus on any saving throw. You must use this ability after the roll is made but before the result is revealed.</Pair>
 </Ability>
 </>};
 const _blessing_of_the_feast = {title: "Blessing of the Feast", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
@@ -1012,7 +1034,8 @@ const _blessing_of_the_feast = {title: "Blessing of the Feast", topLink: ["Relig
 <Pair single id="blessing-of-the-feast">Blessing of the Feast</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zura">Zura</Link></Pair>
-<Pair single="benefit" id="blessing-of-the-feast-benefit">You come from a cannibal tribe, and find strength in the flesh of your foes. Whenever you eat the flesh or drink the blood of another orc - a full-round action that provokes attacks of opportunity - you gain the favor of Zura and receive a +1 natural armor bonus for 1 minute/level. You can only receive this benefit once per day.</Pair>
+<Pair single="flavor" id="blessing-of-the-feast-flavor">You come from a cannibal tribe, and find strength in the flesh of your foes.</Pair>
+<Pair single="benefit" id="blessing-of-the-feast-benefit">Whenever you eat the flesh or drink the blood of another orc - a <strong className="hl">full-round action</strong> that provokes attacks of opportunity - you gain the favor of Zura and receive a +1 natural armor bonus for 1 minute/level. You can only receive this benefit once per day.</Pair>
 </Ability>
 </>};
 const _blind_zeal = {title: "Blind Zeal", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -1020,7 +1043,8 @@ const _blind_zeal = {title: "Blind Zeal", topLink: ["Religion Traits","main/trai
 <Pair single id="blind-zeal">Blind Zeal</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/vildeis">Vildeis</Link></Pair>
-<Pair single="benefit" id="blind-zeal-benefit">You are blind but trained by followers of Vildeis to sense your surroundings by sound and touch. You need not attempt a skill check to move at full speed. You take a -4 penalty from blindness on only Acrobatics, Ride, Sleight of Hand, and Stealth checks. You gain <Link to="/feat/blind_fight">Blind-Fight</Link> as a bonus feat. You lose the benefits of this trait whenever you can see, but regain them if you once again become blind.</Pair>
+<Pair single="flavor" id="blind-zeal-flavor">You are blind but trained by followers of Vildeis to sense your surroundings by sound and touch. You need not attempt a skill check to move at full speed.</Pair>
+<Pair single="benefit" id="blind-zeal-benefit">You take a -4 penalty from <Link to="/misc/blindness">blindness</Link> on only <Link to="/skill/acrobatics">Acrobatics</Link>, <Link to="/skill/ride">Ride</Link>, <Link to="/skill/sleight_of_hand">Sleight of Hand</Link>, and <Link to="/skill/stealth">Stealth</Link> checks. You gain <Link to="/feat/blind_fight">Blind-Fight</Link> as a bonus feat. You lose the benefits of this trait whenever you can see, but regain them if you once again become blind.</Pair>
 </Ability>
 </>};
 const _bloody_vengeance = {title: "Bloody Vengeance", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
@@ -1028,7 +1052,8 @@ const _bloody_vengeance = {title: "Bloody Vengeance", topLink: ["Religion Traits
 <Pair single id="bloody-vengeance">Bloody Vengeance</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/vildeis">Vildeis</Link></Pair>
-<Pair single="benefit" id="bloody-vengeance-benefit">You were slain by evil forces as a child, but a follower of Vildeis restored you to life. Now you live on in service to the Cardinal Martyr, battling the forces of evil so no other child will know the icy grip of death. You gain a +2 trait bonus on attack rolls to confirm critical hits against any creature that has at least a faint evil aura (see <Link to="/spell/detect_evil">detect evil</Link>).</Pair>
+<Pair single="flavor" id="bloody-vengeance-flavor">You were slain by evil forces as a child, but a follower of Vildeis restored you to life. Now you live on in service to the Cardinal Martyr, battling the forces of evil so no other child will know the icy grip of death.</Pair>
+<Pair single="benefit" id="bloody-vengeance-benefit">You gain a +2 trait bonus on attack rolls to confirm critical hits against any creature that has at least a faint evil aura (see <Link to="/spell/detect_evil">detect evil</Link>).</Pair>
 </Ability>
 </>};
 const _brighs_insight = {title: "Brigh's Insight", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
@@ -1036,7 +1061,8 @@ const _brighs_insight = {title: "Brigh's Insight", topLink: ["Religion Traits","
 <Pair single id="brighs-insight">Brigh's Insight</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/brigh">Brigh</Link></Pair>
-<Pair single="benefit" id="brighs-insight-benefit">You hear Brigh's whisper in the workings of technology, granting you better understanding of and insight into constructs. You gain a +2 trait bonus on caster level checks to overcome the spell resistance of constructs.</Pair>
+<Pair single="flavor" id="brighs-insight-flavor">You hear Brigh's whisper in the workings of technology, granting you better understanding of and insight into constructs.</Pair>
+<Pair single="benefit" id="brighs-insight-benefit">You gain a +2 trait bonus on caster level checks to overcome the spell resistance of constructs.</Pair>
 </Ability>
 </>};
 const _broken_mind = {title: "Broken Mind", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -1052,7 +1078,8 @@ const _calistrian_courtesan = {title: "Calistrian Courtesan", topLink: ["Religio
 <Pair single id="calistrian-courtesan">Calistrian Courtesan</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/calistria">Calistria</Link></Pair>
-<Pair single="benefit" id="calistrian-courtesan-benefit">You worked in one of Calistria's temples as a sacred courtesan, and you know how to flatter, please, and (most of all) listen. You gain a +1 trait bonus on Sense Motive checks and Diplomacy checks to gather information, and one of these skills (your choice) is always a class skill for you.</Pair>
+<Pair single="flavor" id="calistrian-courtesan-flavor">You worked in one of Calistria's temples as a sacred courtesan, and you know how to flatter, please, and (most of all) listen.</Pair>
+<Pair single="benefit" id="calistrian-courtesan-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks and <Link to="/skill/diplomacy">Diplomacy</Link> checks to gather information, and one of these skills (your choice) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _call_for_help = {title: "Call for Help", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
@@ -1061,7 +1088,8 @@ const _call_for_help = {title: "Call for Help", topLink: ["Religion Traits","mai
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira_zuzaristan">Chaldira Zuzaristan</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="call-for-help-benefit">Offering your devotion to and modeling your life on Desna's impetuous companion means you frequently find yourself in a jam but also ensures that you can always rely upon your friends to bail you out. When you take the total defense action, allies gain a +1 trait bonus on rolls made against a creature threatening you.</Pair>
+<Pair single="flavor" id="call-for-help-flavor">Offering your devotion to and modeling your life on <Link to="/faith/desna">Desna's</Link> impetuous companion means you frequently find yourself in a jam but also ensures that you can always rely upon your friends to bail you out.</Pair>
+<Pair single="benefit" id="call-for-help-benefit">When you take the <Link to="/misc/total_defense">total defense</Link> action, allies gain a +1 trait bonus on rolls made against a creature threatening you.</Pair>
 </Ability>
 </>};
 const _centered = {title: "Centered", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -1069,7 +1097,8 @@ const _centered = {title: "Centered", topLink: ["Religion Traits","main/traits_r
 <Pair single id="centered">Centered</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/irori">Irori</Link></Pair>
-<Pair single="benefit" id="centered-benefit">Having anchored yourself in your faith and your knowledge of yourself, you've made it difficult for others to dominate you. You gain a +1 trait bonus on saving throws against charm and compulsion effects, and the DC of any attempts to use the Intimidate skill on you increases by 1.</Pair>
+<Pair single="flavor" id="centered-flavor">Having anchored yourself in your faith and your knowledge of yourself, you've made it difficult for others to dominate you.</Pair>
+<Pair single="benefit" id="centered-benefit">You gain a +1 trait bonus on saving throws against charm and compulsion effects, and the DC of any attempts to use the <Link to="/skill/intimidate">Intimidate</Link> skill on you increases by 1.</Pair>
 </Ability>
 </>};
 const _chaldiras_luck = {title: "Chaldira's Luck", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -1077,7 +1106,8 @@ const _chaldiras_luck = {title: "Chaldira's Luck", topLink: ["Religion Traits","
 <Pair single id="chaldiras-luck">Chaldira's Luck</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira">Chaldira</Link></Pair>
-<Pair single="benefit" id="chaldiras-luck-benefit">You found yourself in deep trouble in your youth but stumbled upon an unlikely way out after praying to Chaldira Zuzaristan for luck. Once per day, you can roll twice and take the better result on a skill check.</Pair>
+<Pair single="flavor" id="chaldiras-luck-flavor">You found yourself in deep trouble in your youth but stumbled upon an unlikely way out after praying to Chaldira Zuzaristan for luck.</Pair>
+<Pair single="benefit" id="chaldiras-luck-benefit">Once per day, you can roll twice and take the better result on a skill check.</Pair>
 </Ability>
 </>};
 const _cheat_death = {title: "Cheat Death", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
@@ -1085,7 +1115,8 @@ const _cheat_death = {title: "Cheat Death", topLink: ["Religion Traits","main/tr
 <Pair single id="cheat-death">Cheat Death</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/besmara">Besmara</Link></Pair>
-<Pair single="benefit" id="cheat-death-benefit">Even Besmara's most faithful worshipers usually call upon her only in times of greatest need. Sometimes Besmara intervenes on behalf of her faithful; other times, she turns her face away as they sink beneath the waves. Once per day, when you would be reduced to 0 or fewer hit points as a result of a failed ability check, skill check, or saving throw on your part, you may invoke this ability in order to reroll the failed check. You must take the result of the second roll, even if it is worse than the original.</Pair>
+<Pair single="flavor" id="cheat-death-flavor">Even Besmara's most faithful worshipers usually call upon her only in times of greatest need. Sometimes Besmara intervenes on behalf of her faithful; other times, she turns her face away as they sink beneath the waves.</Pair>
+<Pair single="benefit" id="cheat-death-benefit">Once per day, when you would be reduced to 0 or fewer hit points as a result of a failed ability check, skill check, or saving throw on your part, you may invoke this ability in order to reroll the failed check. You must take the result of the second roll, even if it is worse than the original.</Pair>
 </Ability>
 </>};
 const _child_of_nature = {title: "Child of Nature", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link>, <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -1093,7 +1124,8 @@ const _child_of_nature = {title: "Child of Nature", topLink: ["Religion Traits",
 <Pair single id="child-of-nature">Child of Nature</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gozreh">Gozreh</Link></Pair>
-<Pair single="benefit" id="child-of-nature-benefit">The wild places are your home, and provide everything you need to be happy. You gain a +2 trait bonus on Survival checks, and Survival is a class skill for you.</Pair>
+<Pair single="flavor" id="child-of-nature-flavor">The wild places are your home, and provide everything you need to be happy.</Pair>
+<Pair single="benefit" id="child-of-nature-benefit">You gain a +2 trait bonus on <Link to="/skill/survival">Survival</Link> checks, and Survival is a class skill for you.</Pair>
 </Ability>
 </>};
 const _cleansing_light = {title: "Cleansing Light", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
@@ -1101,7 +1133,8 @@ const _cleansing_light = {title: "Cleansing Light", topLink: ["Religion Traits",
 <Pair single id="cleansing-light">Cleansing Light</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
-<Pair single="benefit" id="cleansing-light-benefit">Your faith is pure and strong, and your positive energy purges undead. When dealing damage to undead with your channel energy ability, you can reroll any damage die roll that results in a natural 1.</Pair>
+<Pair single="flavor" id="cleansing-light-flavor">Your faith is pure and strong, and your positive energy purges undead.</Pair>
+<Pair single="benefit" id="cleansing-light-benefit">When dealing damage to undead with your <Link to="/ability/channel_energy">channel energy</Link> ability, you can reroll any damage die roll that results in a natural 1.</Pair>
 </Ability>
 </>};
 const _cleansing_the_twisted = {title: "Cleansing the Twisted", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
@@ -1109,7 +1142,8 @@ const _cleansing_the_twisted = {title: "Cleansing the Twisted", topLink: ["Relig
 <Pair single id="cleansing-the-twisted">Cleansing the Twisted</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
-<Pair single="benefit" id="cleansing-the-twisted-benefit">You have studied well the many religious texts that chronicle Sarenrae's neverending struggle against Rovagug and his monstrous offspring. Your fighting style works particularly well when you utilize slashing weapons against aberrations. You gain a +1 trait bonus to slashing weapon damage against all aberrations.</Pair>
+<Pair single="flavor" id="cleansing-the-twisted-flavor">You have studied well the many religious texts that chronicle Sarenrae's neverending struggle against <Link to="/faith/rovagug">Rovagug</Link> and his monstrous offspring. Your fighting style works particularly well when you utilize slashing weapons against aberrations.</Pair>
+<Pair single="benefit" id="cleansing-the-twisted-benefit">You gain a +1 trait bonus to slashing weapon damage against all aberrations.</Pair>
 </Ability>
 </>};
 const _clockwork_surgeon = {title: "Clockwork Surgeon", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 13</Link></p>
@@ -1117,7 +1151,10 @@ const _clockwork_surgeon = {title: "Clockwork Surgeon", topLink: ["Religion Trai
 <Pair single id="clockwork-surgeon">Clockwork Surgeon</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/aesocar">Aesocar</Link></Pair>
-<Pair single="benefit" id="clockwork-surgeon-benefit">Thanks to your medical innovations, you can perform especially comprehensive or speedy surgeries. You begin play with a special healer's kit at no cost and can fully restock your kit by expending materials worth 10 gp and spending 8 hours assembling medical devices. When using this healer's kit to treat deadly wounds, you can either halve the time required to perform the action or add your Intelligence modifier to the number of hit points healed.</Pair>
+<Pair single="flavor" id="clockwork-surgeon-flavor">Thanks to your medical innovations, you can perform especially comprehensive or speedy surgeries.</Pair>
+<Pair single="benefit" id="clockwork-surgeon-benefit"><p>You begin play with a special <Link to="/eq-misc/healers_kit">healer's kit</Link> at no cost and can fully restock your kit by expending materials worth 10 gp and spending 8 hours assembling medical devices.</p>
+<p>When using this healer's kit to treat deadly wounds, you can either halve the time required to perform the action or add your Intelligence modifier to the number of hit points healed.</p>
+</Pair>
 </Ability>
 </>};
 const _contract_master = {title: "Contract Master", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -1125,7 +1162,8 @@ const _contract_master = {title: "Contract Master", topLink: ["Religion Traits",
 <Pair single id="contract-master">Contract Master</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/asmodeus">Asmodeus</Link></Pair>
-<Pair single="benefit" id="contract-master-benefit">Your facility with contracts makes you good at understanding dense text and obfuscating your intent. You gain a +1 trait bonus on Linguistics checks, and Linguistics is a class skill for you.</Pair>
+<Pair single="flavor" id="contract-master-flavor">Your facility with contracts makes you good at understanding dense text and obfuscating your intent.</Pair>
+<Pair single="benefit" id="contract-master-benefit">You gain a +1 trait bonus on <Link to="/skill/linguistics">Linguistics</Link> checks, and Linguistics is a class skill for you.</Pair>
 </Ability>
 </>};
 const _corpse_cannibal = {title: "Corpse Cannibal", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
@@ -1133,7 +1171,8 @@ const _corpse_cannibal = {title: "Corpse Cannibal", topLink: ["Religion Traits",
 <Pair single id="corpse-cannibal">Corpse Cannibal</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/urgathoa">Urgathoa</Link></Pair>
-<Pair single="benefit" id="corpse-cannibal-benefit">Your faith encourages you to indulge a variety of perverse hungers, leading you to shrug at even some of the darkest taboos. You gain a +2 trait bonus on Fortitude saves against diseases and can gain sustenance from rotting flesh with no negative side effects.</Pair>
+<Pair single="flavor" id="corpse-cannibal-flavor">Your faith encourages you to indulge a variety of perverse hungers, leading you to shrug at even some of the darkest taboos.</Pair>
+<Pair single="benefit" id="corpse-cannibal-benefit">You gain a +2 trait bonus on Fortitude saves against diseases and can gain sustenance from rotting flesh with no negative side effects.</Pair>
 </Ability>
 </>};
 const _corpse_hunter = {title: "Corpse Hunter", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -1158,7 +1197,8 @@ const _dawn_renewal = {title: "Dawn Renewal", topLink: ["Religion Traits","main/
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="dawn-renewal-benefit">Your morning prayers often send a welcome spark of divine vitality into your most recent patients. When you use the Heal skill to provide long-term care, your patients heal an extra 2 hit points at sunrise.</Pair>
+<Pair single="flavor" id="dawn-renewal-flavor">Your morning prayers often send a welcome spark of divine vitality into your most recent patients.</Pair>
+<Pair single="benefit" id="dawn-renewal-benefit">When you use the <Link to="/skill/heal">Heal</Link> skill to provide long-term care, your patients heal an extra 2 hit points at sunrise.</Pair>
 </Ability>
 </>};
 const _deadeye_bowman = {title: "Deadeye Bowman", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1174,7 +1214,7 @@ const _deathspeaker = {title: "Deathspeaker", topLink: ["Religion Traits","main/
 <Pair single id="deathspeaker">Deathspeaker</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/urgathoa">Urgathoa</Link></Pair>
-<Pair single="benefit" id="deathspeaker-benefit">Your experience with undead creatures gives you a +2 trait bonus on Diplomacy checks when dealing with undead, as well as a +2 trait bonus on Charisma checks to influence undead (such as with the command undead spell).</Pair>
+<Pair single="benefit" id="deathspeaker-benefit">Your experience with undead creatures gives you a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks when dealing with undead, as well as a +2 trait bonus on Charisma checks to influence undead (such as with the <Link to="/spell/command_undead">command undead</Link> spell).</Pair>
 </Ability>
 </>};
 const _deck_fighter = {title: "Deck Fighter", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -1190,7 +1230,8 @@ const _deep_wounding = {title: "Deep Wounding", topLink: ["Religion Traits","mai
 <Pair single id="deep-wounding">Deep Wounding</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/achaekek">Achaekek</Link></Pair>
-<Pair single="benefit" id="deep-wounding-benefit">You have learned the bloody secret of striking true and deep. When you deal bleed damage with a melee weapon, a successful DC 20 Heal check is required to stop the bleed damage. Magical healing stops the damage as normal.</Pair>
+<Pair single="flavor" id="deep-wounding-flavor">You have learned the bloody secret of striking true and deep.</Pair>
+<Pair single="benefit" id="deep-wounding-benefit">When you deal <Link to="/rule/bleed">bleed</Link> damage with a melee weapon, a successful DC 20 <Link to="/skill/heal">Heal</Link> check is required to stop the bleed damage. Magical healing stops the damage as normal.</Pair>
 </Ability>
 </>};
 const _defensive_strategist = {title: "Defensive Strategist", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
@@ -1198,7 +1239,8 @@ const _defensive_strategist = {title: "Defensive Strategist", topLink: ["Religio
 <Pair single id="defensive-strategist">Defensive Strategist</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/torag">Torag</Link></Pair>
-<Pair single="benefit" id="defensive-strategist-benefit">Your study of dwarven history has trained you in defensive strategy. You aren't flat-footed during a surprise round that you don't get to act in or before you get to act at the start of a battle.</Pair>
+<Pair single="flavor" id="defensive-strategist-flavor">Your study of dwarven history has trained you in defensive strategy.</Pair>
+<Pair single="benefit" id="defensive-strategist-benefit">You aren't <Link to="/rule/flat_footed">flat-footed</Link> during a surprise round that you don't get to act in or before you get to act at the start of a battle.</Pair>
 </Ability>
 </>};
 const _deformed = {title: "Deformed", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -1206,7 +1248,7 @@ const _deformed = {title: "Deformed", topLink: ["Religion Traits","main/traits_r
 <Pair single id="deformed">Deformed</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lamashtu">Lamashtu</Link></Pair>
-<Pair single="benefit" id="deformed-benefit">Your monstrous deformities grant you a +1 trait bonus on Intimidate checks, and Intimidate is a class skill for you.</Pair>
+<Pair single="benefit" id="deformed-benefit">Your monstrous deformities grant you a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks, and Intimidate is a class skill for you.</Pair>
 </Ability>
 </>};
 const _demon_hunter = {title: "Demon Hunter", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link>, <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
@@ -1214,7 +1256,8 @@ const _demon_hunter = {title: "Demon Hunter", topLink: ["Religion Traits","main/
 <Pair single id="demon-hunter">Demon Hunter</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/asmodeus">Asmodeus</Link></Pair>
-<Pair single="benefit" id="demon-hunter-benefit">Raised in the church (whether or not you are currently a follower), you've focused your indoctrinated fervor primarily on the elimination of demons. You gain a +3 trait bonus on Knowledge (planes) checks about demons and a +2 trait bonus on Will saves against mind-affecting spells and effects from demons.</Pair>
+<Pair single="flavor" id="demon-hunter-flavor">Raised in the church (whether or not you are currently a follower), you've focused your indoctrinated fervor primarily on the elimination of demons.</Pair>
+<Pair single="benefit" id="demon-hunter-benefit">You gain a +3 trait bonus on <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> checks about <Link to="/family/demon">demons</Link> and a +2 trait bonus on Will saves against mind-affecting spells and effects from demons.</Pair>
 </Ability>
 </>};
 const _demonic_persuasion = {title: "Demonic Persuasion", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -1222,7 +1265,8 @@ const _demonic_persuasion = {title: "Demonic Persuasion", topLink: ["Religion Tr
 <Pair single id="demonic-persuasion">Demonic Persuasion</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Demon Lords</Pair>
-<Pair single="benefit" id="demonic-persuasion-benefit">Your lord's favor aids you in your interactions with demonic creatures. You gain a +2 trait bonus on Diplomacy and Intimidate checks when dealing with creatures of the demon subtype.</Pair>
+<Pair single="flavor" id="demonic-persuasion-flavor">Your lord's favor aids you in your interactions with demonic creatures.</Pair>
+<Pair single="benefit" id="demonic-persuasion-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks when dealing with creatures of the <Link to="/subtype/demon">demon</Link> subtype.</Pair>
 </Ability>
 </>};
 const _demoralizing_presence = {title: "Demoralizing Presence", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1230,7 +1274,8 @@ const _demoralizing_presence = {title: "Demoralizing Presence", topLink: ["Relig
 <Pair single id="demoralizing-presence">Demoralizing Presence</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zon_kuthon">Zon-Kuthon</Link></Pair>
-<Pair single="benefit" id="demoralizing-presence-benefit">Your very existence is unsettling to your foes. You gain a +2 trait bonus on Intimidate checks made to demoralize opponents.</Pair>
+<Pair single="flavor" id="demoralizing-presence-flavor">Your very existence is unsettling to your foes.</Pair>
+<Pair single="benefit" id="demoralizing-presence-benefit">You gain a +2 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks made to demoralize opponents.</Pair>
 </Ability>
 </>};
 const _denial_of_fate = {title: "Denial of Fate", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1238,7 +1283,8 @@ const _denial_of_fate = {title: "Denial of Fate", topLink: ["Religion Traits","m
 <Pair single id="denial-of-fate">Denial of Fate</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/urgathoa">Urgathoa</Link></Pair>
-<Pair single="benefit" id="denial-of-fate-benefit">The Pallid Princess has blessed you with the ability to avoid the final fate. Once per day while you are below 0 hit points, at the start of your turn you can choose to stabilize without needing to succeed at a Constitution check.</Pair>
+<Pair single="flavor" id="denial-of-fate-flavor">The Pallid Princess has blessed you with the ability to avoid the final fate.</Pair>
+<Pair single="benefit" id="denial-of-fate-benefit">Once per day while you are below 0 hit points, at the start of your turn you can choose to stabilize without needing to succeed at a Constitution check.</Pair>
 </Ability>
 </>};
 const _destructive_blows = {title: "Destructive Blows", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -1246,7 +1292,8 @@ const _destructive_blows = {title: "Destructive Blows", topLink: ["Religion Trai
 <Pair single id="destructive-blows">Destructive Blows</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/rovagug">Rovagug</Link></Pair>
-<Pair single="benefit" id="destructive-blows-benefit">Your faith strengthens your powers of destruction. You gain a +2 trait bonus on Strength checks to break objects, as well as on combat maneuver checks to sunder.</Pair>
+<Pair single="flavor" id="destructive-blows-flavor">Your faith strengthens your powers of destruction.</Pair>
+<Pair single="benefit" id="destructive-blows-benefit">You gain a +2 trait bonus on Strength checks to break objects, as well as on combat maneuver checks to <Link to="/rule/sunder">sunder</Link>.</Pair>
 </Ability>
 </>};
 const _devotee_of_a_dead_god = {title: "Devotee of a Dead God", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
@@ -1254,7 +1301,8 @@ const _devotee_of_a_dead_god = {title: "Devotee of a Dead God", topLink: ["Relig
 <Pair single id="devotee-of-a-dead-god">Devotee of a Dead God</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/aroden">Aroden</Link></Pair>
-<Pair single="benefit" id="devotee-of-a-dead-god-benefit">You simply cannot and will not accept that Aroden is dead. Your faith in his teachings and religion are stronger than ever. You gain a +1 trait bonus on Diplomacy checks and Knowledge (religion) checks. One of these skills (your choice) is always a class skill for you.</Pair>
+<Pair single="flavor" id="devotee-of-a-dead-god-flavor">You simply cannot and will not accept that Aroden is dead. Your faith in his teachings and religion are stronger than ever.</Pair>
+<Pair single="benefit" id="devotee-of-a-dead-god-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks and <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> checks. One of these skills (your choice) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _diseased_heart = {title: "Diseased Heart", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1262,7 +1310,8 @@ const _diseased_heart = {title: "Diseased Heart", topLink: ["Religion Traits","m
 <Pair single id="diseased-heart">Diseased Heart</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ghlaunder">Ghlaunder</Link></Pair>
-<Pair single="benefit" id="diseased-heart-benefit">Your work with infections has infused your spirit with disease. Any creature that performs a blood drain or swallow whole attack on you must succeed at a Fortitude saving throw (DC = 10 + your character level + your Constitution modifier) or become infected with filth fever. This is a poison effect.</Pair>
+<Pair single="flavor" id="diseased-heart-flavor">Your work with infections has infused your spirit with disease.</Pair>
+<Pair single="benefit" id="diseased-heart-benefit">Any creature that performs a <Link to="/umr/blood_drain">blood drain</Link> or <Link to="/umr/swallow_whole">swallow whole</Link> attack on you must succeed at a Fortitude saving throw (DC = 10 + your character level + your Constitution modifier) or become infected with <Link to="/disease/filth_fever">filth fever</Link>. This is a poison effect.</Pair>
 </Ability>
 </>};
 const _divine_warrior = {title: "Divine Warrior", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -1270,7 +1319,8 @@ const _divine_warrior = {title: "Divine Warrior", topLink: ["Religion Traits","m
 <Pair single id="divine-warrior">Divine Warrior</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/iomedae">Iomedae</Link></Pair>
-<Pair single="benefit" id="divine-warrior-benefit">From an early age, you were trained by a militaristic order of clerics. You are devoted to the teachings of Iomedae and to spreading those teachings by force. Whenever you cast a divine spell that affects any melee weapons, choose one of those weapons; it gains a +1 trait bonus on damage rolls for the duration of the spell.</Pair>
+<Pair single="flavor" id="divine-warrior-flavor">From an early age, you were trained by a militaristic order of clerics. You are devoted to the teachings of Iomedae and to spreading those teachings by force.</Pair>
+<Pair single="benefit" id="divine-warrior-benefit">Whenever you cast a divine spell that affects any melee weapons, choose one of those weapons; it gains a +1 trait bonus on damage rolls for the duration of the spell.</Pair>
 </Ability>
 </>};
 const _dragon_tracker = {title: "Dragon Tracker", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1278,7 +1328,8 @@ const _dragon_tracker = {title: "Dragon Tracker", topLink: ["Religion Traits","m
 <Pair single id="dragon-tracker">Dragon Tracker</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/dahak">Dahak</Link></Pair>
-<Pair single="benefit" id="dragon-tracker-benefit">You have been taught to identify the subtle and not-so-subtle signs of a dragon's passage. You gain a +2 trait bonus on Survival checks to track dragons, and you can track a dragon with Survival untrained if the check's DC is 15 or lower.</Pair>
+<Pair single="flavor" id="dragon-tracker-flavor">You have been taught to identify the subtle and not-so-subtle signs of a dragon's passage.</Pair>
+<Pair single="benefit" id="dragon-tracker-benefit">You gain a +2 trait bonus on <Link to="/skill/survival">Survival</Link> checks to track dragons, and you can track a dragon with Survival untrained if the check's DC is 15 or lower.</Pair>
 </Ability>
 </>};
 const _dragonslayer = {title: "Dragonslayer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -1286,7 +1337,8 @@ const _dragonslayer = {title: "Dragonslayer", topLink: ["Religion Traits","main/
 <Pair single id="dragonslayer">Dragonslayer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/dahak">Dahak</Link></Pair>
-<Pair single="benefit" id="dragonslayer-benefit">You're greatly skilled in hunting and slaying those who resemble your lord's favored prey. You gain a +1 trait bonus on attack rolls against creatures of the dragon type.</Pair>
+<Pair single="flavor" id="dragonslayer-flavor">You're greatly skilled in hunting and slaying those who resemble your lord's favored prey.</Pair>
+<Pair single="benefit" id="dragonslayer-benefit">You gain a +1 trait bonus on attack rolls against creatures of the dragon type.</Pair>
 </Ability>
 </>};
 const _ear_for_music = {title: "Ear for Music", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -1294,7 +1346,8 @@ const _ear_for_music = {title: "Ear for Music", topLink: ["Religion Traits","mai
 <Pair single id="ear-for-music">Ear for Music</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shelyn">Shelyn</Link></Pair>
-<Pair single="benefit" id="ear-for-music-benefit">You spent countless hours of your youth in one of Shelyn's temples, listening to wonderful musicians and singers. You gain a +1 trait bonus on one category of Perform checks and a +2 trait bonus on Knowledge (local) checks that deal with the local art or music scene.</Pair>
+<Pair single="flavor" id="ear-for-music-flavor">You spent countless hours of your youth in one of Shelyn's temples, listening to wonderful musicians and singers.</Pair>
+<Pair single="benefit" id="ear-for-music-benefit">You gain a +1 trait bonus on one category of <Link to="/skill/perform">Perform</Link> checks and a +2 trait bonus on <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks that deal with the local art or music scene.</Pair>
 </Ability>
 </>};
 const _elemental_resilience = {title: "Elemental Resilience", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1310,7 +1363,7 @@ const _elven_polytheist = {title: "Elven Polytheist", topLink: ["Religion Traits
 <Pair single id="elven-polytheist">Elven Polytheist</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Elven Deities</Pair>
-<Pair single="benefit" id="elven-polytheist-benefit">Your knowledge of the elven gods has given you a broad perspective, thus granting you a +1 trait bonus on all Knowledge (religion) skill checks, and Knowledge (religion) is always a class skill for you.</Pair>
+<Pair single="benefit" id="elven-polytheist-benefit">Your knowledge of the elven gods has given you a broad perspective, thus granting you a +1 trait bonus on all <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> skill checks, and Knowledge (religion) is always a class skill for you.</Pair>
 </Ability>
 <aside><p>This trait was published as "Elven Pantheist" in <em>Faiths and Purity</em>.</p>
 </aside></>};
@@ -1327,7 +1380,8 @@ const _empyreal_focus = {title: "Empyreal Focus", topLink: ["Religion Traits","m
 <Pair single id="empyreal-focus">Empyreal Focus</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Empyreal Lords</Pair>
-<Pair single="benefit" id="empyreal-focus-benefit">The empyreal lord you worship rewards your devotion by granting you an occasional boon. Once per day, before you attempt a skill check, you can use this boon to gain a +2 trait bonus on that skill check.</Pair>
+<Pair single="flavor" id="empyreal-focus-flavor">The empyreal lord you worship rewards your devotion by granting you an occasional boon.</Pair>
+<Pair single="benefit" id="empyreal-focus-benefit">Once per day, before you attempt a skill check, you can use this boon to gain a +2 trait bonus on that skill check.</Pair>
 </Ability>
 </>};
 const _enchanting_conniver = {title: "Enchanting Conniver", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1335,7 +1389,7 @@ const _enchanting_conniver = {title: "Enchanting Conniver", topLink: ["Religion 
 <Pair single id="enchanting-conniver">Enchanting Conniver</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/calistria">Calistria</Link></Pair>
-<Pair single="benefit" id="enchanting-conniver-benefit">You gain a +2 trait bonus on Bluff and Diplomacy checks against creatures affected by one of your charm or compulsion effects.</Pair>
+<Pair single="benefit" id="enchanting-conniver-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/diplomacy">Diplomacy</Link> checks against creatures affected by one of your charm or compulsion effects.</Pair>
 </Ability>
 </>};
 const _enemy_of_delusion = {title: "Enemy of Delusion", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -1343,7 +1397,8 @@ const _enemy_of_delusion = {title: "Enemy of Delusion", topLink: ["Religion Trai
 <Pair single id="enemy-of-delusion">Enemy of Delusion</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/andoletta">Andoletta</Link></Pair>
-<Pair single="benefit" id="enemy-of-delusion-benefit">You were once faced with a grave injustice committed by an ignorant or delusional person, and righteous indignation moved you to correct the mistaken party. Once per day, when you confirm a critical hit against, successfully use a smite attack on, or use lay on hands on a creature that is affected by a charm or compulsion effect, you can invoke Andoletta to open the target's eyes. If the effect originally allowed a saving throw to resist it, the target can attempt a new saving throw against the charm or compulsion; if she's successful, the effect ends immediately.</Pair>
+<Pair single="flavor" id="enemy-of-delusion-flavor">You were once faced with a grave injustice committed by an ignorant or delusional person, and righteous indignation moved you to correct the mistaken party.</Pair>
+<Pair single="benefit" id="enemy-of-delusion-benefit">Once per day, when you confirm a critical hit against, successfully use a <em>smite</em> attack on, or use <Link to="/ability/lay_on_hands">lay on hands</Link> on a creature that is affected by a charm or compulsion effect, you can invoke Andoletta to open the target's eyes. If the effect originally allowed a saving throw to resist it, the target can attempt a new saving throw against the charm or compulsion; if she's successful, the effect ends immediately.</Pair>
 </Ability>
 </>};
 const _envoy_of_healing = {title: "Envoy of Healing", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
@@ -1351,7 +1406,8 @@ const _envoy_of_healing = {title: "Envoy of Healing", topLink: ["Religion Traits
 <Pair single id="envoy-of-healing">Envoy of Healing</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
-<Pair single="benefit" id="envoy-of-healing-benefit">You strive to spread the Dawnflower's message of kindness and compassion throughout the land, no matter how dangerous the road may be. Whenever you use channel energy, fervor, or lay on hands to heal a living creature, you can reroll any healing die roll that results in a natural 1 (you must use the new result).</Pair>
+<Pair single="flavor" id="envoy-of-healing-flavor">You strive to spread the Dawnflower's message of kindness and compassion throughout the land, no matter how dangerous the road may be.</Pair>
+<Pair single="benefit" id="envoy-of-healing-benefit">Whenever you use <Link to="/ability/channel_energy">channel energy</Link>, <em>fervor,</em> or <Link to="/ability/lay_on_hands">lay on hands</Link> to heal a living creature, you can reroll any healing die roll that results in a natural 1 (you must use the new result).</Pair>
 </Ability>
 </>};
 const _erastils_speaker = {title: "Erastil's Speaker", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
@@ -1359,7 +1415,8 @@ const _erastils_speaker = {title: "Erastil's Speaker", topLink: ["Religion Trait
 <Pair single id="erastils-speaker">Erastil's Speaker</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/erastil">Erastil</Link></Pair>
-<Pair single="benefit" id="erastils-speaker-benefit">You understand the importance of keeping the peace in your community, and you have learned how to speak to the faithful in ways that they understand. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy is a class skill for you.</Pair>
+<Pair single="flavor" id="erastils-speaker-flavor">You understand the importance of keeping the peace in your community, and you have learned how to speak to the faithful in ways that they understand.</Pair>
+<Pair single="benefit" id="erastils-speaker-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks, and Diplomacy is a class skill for you.</Pair>
 </Ability>
 </>};
 const _eternal_understanding = {title: "Eternal Understanding", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1367,7 +1424,8 @@ const _eternal_understanding = {title: "Eternal Understanding", topLink: ["Relig
 <Pair single id="eternal-understanding">Eternal Understanding</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/irori">Irori</Link></Pair>
-<Pair single="benefit" id="eternal-understanding-benefit">Though you haven't been traditionally educated, you're blessed with potent observation and discernment. You can attempt Knowledge checks with a DC of 15 or lower untrained.</Pair>
+<Pair single="flavor" id="eternal-understanding-flavor">Though you haven't been traditionally educated, you're blessed with potent observation and discernment.</Pair>
+<Pair single="benefit" id="eternal-understanding-benefit">You can attempt <Link to="/skill/knowledge">Knowledge</Link> checks with a DC of 15 or lower untrained.</Pair>
 </Ability>
 </>};
 const _expert_boarder = {title: "Expert Boarder", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
@@ -1375,7 +1433,8 @@ const _expert_boarder = {title: "Expert Boarder", topLink: ["Religion Traits","m
 <Pair single id="expert-boarder">Expert Boarder</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/besmara">Besmara</Link></Pair>
-<Pair single="benefit" id="expert-boarder-benefit">Besmara rewards those who board other vessels and take what they want. While fighting on the deck of a ship, you gain a +1 bonus on all attacks made with one-handed weapons.</Pair>
+<Pair single="flavor" id="expert-boarder-flavor">Besmara rewards those who board other vessels and take what they want.</Pair>
+<Pair single="benefit" id="expert-boarder-benefit">While fighting on the deck of a ship, you gain a +1 bonus on all attacks made with one-handed weapons.</Pair>
 </Ability>
 </>};
 const _extended_toil = {title: "Extended Toil", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1383,7 +1442,8 @@ const _extended_toil = {title: "Extended Toil", topLink: ["Religion Traits","mai
 <Pair single id="extended-toil">Extended Toil</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/droskar">Droskar</Link></Pair>
-<Pair single="benefit" id="extended-toil-benefit">Your faith teaches you to push magical servants to the limit. When you cast a spell that creates a loyal servant to fulfill a specific or mindless task (such as unseen servant, mount, or spiritual weapon, but not summon monster spells), you may choose to increase its duration by 50%. This does not stack with the <Link to="/feat/extend_spell">Extend Spell</Link> feat. The effect weakens the spell, however; dispel checks against spells you cast in this manner gain a +4 bonus.</Pair>
+<Pair single="flavor" id="extended-toil-flavor">Your faith teaches you to push magical servants to the limit.</Pair>
+<Pair single="benefit" id="extended-toil-benefit">When you cast a spell that creates a loyal servant to fulfill a specific or mindless task (such as <Link to="/spell/unseen_servant">unseen servant</Link>, <Link to="/spell/mount">mount</Link>, or <Link to="/spell/spiritual_weapon">spiritual weapon</Link>, but not <Link to="/spell/summon_monster">summon monster</Link> spells), you may choose to increase its duration by 50%. This does not stack with the <Link to="/feat/extend_spell">Extend Spell</Link> feat. The effect weakens the spell, however; dispel checks against spells you cast in this manner gain a +4 bonus.</Pair>
 </Ability>
 </>};
 const _eye_for_quality = {title: "Eye for Quality", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1391,7 +1451,8 @@ const _eye_for_quality = {title: "Eye for Quality", topLink: ["Religion Traits",
 <Pair single id="eye-for-quality">Eye for Quality</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/abadar">Abadar</Link></Pair>
-<Pair single="benefit" id="eye-for-quality-benefit">Your deity has granted you an uncanny ability to find the true worth of items. You gain a +1 trait bonus on Appraise checks, you don't suffer the effects of failing such checks by 5 or more, and Appraise is a class skill for you.</Pair>
+<Pair single="flavor" id="eye-for-quality-flavor">Your deity has granted you an uncanny ability to find the true worth of items.</Pair>
+<Pair single="benefit" id="eye-for-quality-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> checks, you don't suffer the effects of failing such checks by 5 or more, and Appraise is a class skill for you.</Pair>
 </Ability>
 </>};
 const _eye_of_arqueros = {title: "Eye of Arqueros", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -1399,7 +1460,8 @@ const _eye_of_arqueros = {title: "Eye of Arqueros", topLink: ["Religion Traits",
 <Pair single id="eye-of-arqueros">Eye of Arqueros</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/arqueros">Arqueros</Link></Pair>
-<Pair single="benefit" id="eye-of-arqueros-benefit">You once fell asleep during a task that required your attention. A vision of Arqueros awakened you just in time to avoid failing at your task. You gain a +3 trait bonus on Perception checks attempted while you are alone on guard duty.</Pair>
+<Pair single="flavor" id="eye-of-arqueros-flavor">You once fell asleep during a task that required your attention. A vision of Arqueros awakened you just in time to avoid failing at your task.</Pair>
+<Pair single="benefit" id="eye-of-arqueros-benefit">You gain a +3 trait bonus on <Link to="/skill/perception">Perception</Link> checks attempted while you are alone on guard duty.</Pair>
 </Ability>
 </>};
 const _eye_of_the_father = {title: "Eye of the Father", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
@@ -1407,7 +1469,8 @@ const _eye_of_the_father = {title: "Eye of the Father", topLink: ["Religion Trai
 <Pair single id="eye-of-the-father">Eye of the Father</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/torag">Torag</Link></Pair>
-<Pair single="benefit" id="eye-of-the-father-benefit">You have an innate sense of what is right and wrong in the works you craft, based on your years studying with the church elders at their forges. Choose one Craft skill; you gain a +1 trait bonus on Craft checks of the selected type.</Pair>
+<Pair single="flavor" id="eye-of-the-father-flavor">You have an innate sense of what is right and wrong in the works you craft, based on your years studying with the church elders at their forges.</Pair>
+<Pair single="benefit" id="eye-of-the-father-benefit">Choose one <Link to="/skill/craft">Craft</Link> skill; you gain a +1 trait bonus on Craft checks of the selected type.</Pair>
 </Ability>
 </>};
 const _eyes_and_ears_of_the_city = {title: "Eyes and Ears of the City", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
@@ -1415,7 +1478,8 @@ const _eyes_and_ears_of_the_city = {title: "Eyes and Ears of the City", topLink:
 <Pair single id="eyes-and-ears-of-the-city">Eyes and Ears of the City</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/abadar">Abadar</Link></Pair>
-<Pair single="benefit" id="eyes-and-ears-of-the-city-benefit">Your religious training involved serving in the city watch of a large city, the primary duty of which was standing sentinel on a city wall. You gain a +1 trait bonus on Perception checks, and Perception is always a class skill for you.</Pair>
+<Pair single="flavor" id="eyes-and-ears-of-the-city-flavor">Your religious training involved serving in the city watch of a large city, the primary duty of which was standing sentinel on a city wall.</Pair>
+<Pair single="benefit" id="eyes-and-ears-of-the-city-benefit">You gain a +1 trait bonus on <Link to="/skill/perception">Perception</Link> checks, and Perception is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _eyes_of_the_wild = {title: "Eyes of the Wild", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -1423,7 +1487,8 @@ const _eyes_of_the_wild = {title: "Eyes of the Wild", topLink: ["Religion Traits
 <Pair single id="eyes-of-the-wild">Eyes of the Wild</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/green_faith">Green Faith</Link></Pair>
-<Pair single="benefit" id="eyes-of-the-wild-benefit">Having spent much time immersed in the wilderness, you're now attuned to its ways. You gain a +2 trait bonus on Perception checks in natural settings.</Pair>
+<Pair single="flavor" id="eyes-of-the-wild-flavor">Having spent much time immersed in the wilderness, you're now attuned to its ways.</Pair>
+<Pair single="benefit" id="eyes-of-the-wild-benefit">You gain a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks in natural settings.</Pair>
 </Ability>
 </>};
 const _faithful_arodenite = {title: "Faithful Arodenite", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
@@ -1431,7 +1496,8 @@ const _faithful_arodenite = {title: "Faithful Arodenite", topLink: ["Religion Tr
 <Pair single id="faithful-arodenite">Faithful Arodenite</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/aroden">Aroden</Link></Pair>
-<Pair single="benefit" id="faithful-arodenite-benefit">You worship a dead god, and are skilled at making that sound reasonable. You gain a +1 trait bonus on Diplomacy checks; this bonus increases to +3 if you are dealing with a follower of Aroden or Iomedae.</Pair>
+<Pair single="flavor" id="faithful-arodenite-flavor">You worship a dead god, and are skilled at making that sound reasonable.</Pair>
+<Pair single="benefit" id="faithful-arodenite-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks; this bonus increases to +3 if you are dealing with a follower of Aroden or <Link to="/faith/iomedae">Iomedae</Link>.</Pair>
 </Ability>
 </>};
 const _faithful_artist = {title: "Faithful Artist", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
@@ -1439,7 +1505,8 @@ const _faithful_artist = {title: "Faithful Artist", topLink: ["Religion Traits",
 <Pair single id="faithful-artist">Faithful Artist</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/desna">Desna</Link></Pair>
-<Pair single="benefit" id="faithful-artist-benefit">With Desna's blessing, you have pursued an artistic path. Choose one Perform skill; you gain a +1 trait bonus on Perform checks of the selected type, and Perform is a class skill for you.</Pair>
+<Pair single="flavor" id="faithful-artist-flavor">With Desna's blessing, you have pursued an artistic path.</Pair>
+<Pair single="benefit" id="faithful-artist-benefit">Choose one <Link to="/skill/perform">Perform</Link> skill; you gain a +1 trait bonus on Perform checks of the selected type, and Perform is a class skill for you.</Pair>
 </Ability>
 </>};
 const _fatal_trapper = {title: "Fatal Trapper", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -1447,7 +1514,8 @@ const _fatal_trapper = {title: "Fatal Trapper", topLink: ["Religion Traits","mai
 <Pair single id="fatal-trapper">Fatal Trapper</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zyphus">Zyphus</Link></Pair>
-<Pair single="benefit" id="fatal-trapper-benefit">Your patron grants you expertise at creating or disabling traps. You gain a +1 trait bonus on Craft (traps) checks, as well as a +1 trait bonus on Disable Device checks to disable traps.</Pair>
+<Pair single="flavor" id="fatal-trapper-flavor">Your patron grants you expertise at creating or disabling traps.</Pair>
+<Pair single="benefit" id="fatal-trapper-benefit">You gain a +1 trait bonus on <Link to="/skill/craft">Craft</Link> (traps) checks, as well as a +1 trait bonus on <Link to="/skill/disable_device">Disable Device</Link> checks to disable traps.</Pair>
 </Ability>
 </>};
 const _favored_prey = {title: "Favored Prey", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1455,7 +1523,8 @@ const _favored_prey = {title: "Favored Prey", topLink: ["Religion Traits","main/
 <Pair single id="favored-prey">Favored Prey</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ketephys">Ketephys</Link></Pair>
-<Pair single="benefit" id="favored-prey-benefit">Those you track feel the sting of your arrows. You gain a +1 trait bonus on damage rolls when making bow attacks against a creature whose tracks you have successfully followed in the last hour.</Pair>
+<Pair single="flavor" id="favored-prey-flavor">Those you track feel the sting of your arrows.</Pair>
+<Pair single="benefit" id="favored-prey-benefit">You gain a +1 trait bonus on damage rolls when making bow attacks against a creature whose tracks you have successfully followed in the last hour.</Pair>
 </Ability>
 </>};
 const _fiendish_confidence = {title: "Fiendish Confidence", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -1463,7 +1532,8 @@ const _fiendish_confidence = {title: "Fiendish Confidence", topLink: ["Religion 
 <Pair single id="fiendish-confidence">Fiendish Confidence</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/asmodeus">Asmodeus</Link></Pair>
-<Pair single="benefit" id="fiendish-confidence-benefit">You expect to be obeyed, and are rarely proven wrong. You gain a +1 trait bonus on Intimidate checks, and Intimidate is a class skill for you.</Pair>
+<Pair single="flavor" id="fiendish-confidence-flavor">You expect to be obeyed, and are rarely proven wrong.</Pair>
+<Pair single="benefit" id="fiendish-confidence-benefit">You gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks, and Intimidate is a class skill for you.</Pair>
 </Ability>
 </>};
 const _flame_of_the_dawnflower = {title: "Flame of the Dawnflower", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -1471,7 +1541,8 @@ const _flame_of_the_dawnflower = {title: "Flame of the Dawnflower", topLink: ["R
 <Pair single id="flame-of-the-dawnflower">Flame of the Dawnflower</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
-<Pair single="benefit" id="flame-of-the-dawnflower-benefit">You have been raised to view yourself as a blade in Sarenrae's service, or you have taken on that duty for yourself. Whenever you score a critical hit with a scimitar, you deal 2 additional points of fire damage to your target.</Pair>
+<Pair single="flavor" id="flame-of-the-dawnflower-flavor">You have been raised to view yourself as a blade in Sarenrae's service, or you have taken on that duty for yourself.</Pair>
+<Pair single="benefit" id="flame-of-the-dawnflower-benefit">Whenever you score a critical hit with a <Link to="/eq-weapon/scimitar">scimitar</Link>, you deal 2 additional points of fire damage to your target.</Pair>
 </Ability>
 </>};
 const _flames_of_hell = {title: "Flames of Hell", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -1479,7 +1550,8 @@ const _flames_of_hell = {title: "Flames of Hell", topLink: ["Religion Traits","m
 <Pair single id="flames-of-hell">Flames of Hell</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Archdevils</Pair>
-<Pair single="benefit" id="flames-of-hell-benefit">Your bond with the archdevil you worship strengthens your ability to channel powers of the divine. Add 1 to the DC of saving throws made to resist the effects of your channel energy ability.</Pair>
+<Pair single="flavor" id="flames-of-hell-flavor">Your bond with the archdevil you worship strengthens your ability to channel powers of the divine.</Pair>
+<Pair single="benefit" id="flames-of-hell-benefit">Add 1 to the DC of saving throws made to resist the effects of your <Link to="/ability/channel_energy">channel energy</Link> ability.</Pair>
 </Ability>
 </>};
 const _flounderer = {title: "Flounderer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
@@ -1488,7 +1560,8 @@ const _flounderer = {title: "Flounderer", topLink: ["Religion Traits","main/trai
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zogmugot">Zogmugot</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
-<Pair single="benefit" id="flounderer-benefit">You are adept at swimming and holding your breath. You gain a +1 trait bonus on Swim checks, and can <Link to="/misc/hold_your_breath">hold your breath</Link> for a number of rounds equal to three times your Constitution score before you risk drowning.</Pair>
+<Pair single="flavor" id="flounderer-flavor">You are adept at swimming and holding your breath.</Pair>
+<Pair single="benefit" id="flounderer-benefit">You gain a +1 trait bonus on <Link to="/skill/swim">Swim</Link> checks, and can <Link to="/misc/hold_your_breath">hold your breath</Link> for a number of rounds equal to three times your Constitution score before you risk drowning.</Pair>
 </Ability>
 </>};
 const _folgrits_bounty = {title: "Folgrit's Bounty", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -1496,7 +1569,8 @@ const _folgrits_bounty = {title: "Folgrit's Bounty", topLink: ["Religion Traits"
 <Pair single id="folgrits-bounty">Folgrit's Bounty</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/folgrit">Folgrit</Link></Pair>
-<Pair single="benefit" id="folgrits-bounty-benefit">You were taught to tend the sacred hearth-fire and cook nourishing meals as a child. You gain a +1 trait bonus on Profession (cook) checks and can prepare a nourishing meal of up to eight portions with 1 hour of effort at a cost of 20 gp. Anyone who eats a portion within 1 day (which takes 10 minutes) gains a +1 morale bonus that can be applied to any one skill check or attack roll in the next 8 hours. The bonus must be applied before the roll is made and cannot be renewed by another meal for 1 day.</Pair>
+<Pair single="flavor" id="folgrits-bounty-flavor">You were taught to tend the sacred hearth-fire and cook nourishing meals as a child.</Pair>
+<Pair single="benefit" id="folgrits-bounty-benefit">You gain a +1 trait bonus on <Link to="/skill/profession">Profession</Link> (cook) checks and can prepare a nourishing meal of up to eight portions with 1 hour of effort at a cost of 20 gp. Anyone who eats a portion within 1 day (which takes 10 minutes) gains a +1 morale bonus that can be applied to any one skill check or attack roll in the next 8 hours. The bonus must be applied before the roll is made and cannot be renewed by another meal for 1 day.</Pair>
 </Ability>
 </>};
 const _folgrits_mercy = {title: "Folgrit's Mercy", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -1504,7 +1578,8 @@ const _folgrits_mercy = {title: "Folgrit's Mercy", topLink: ["Religion Traits","
 <Pair single id="folgrits-mercy">Folgrit's Mercy</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/folgrit">Folgrit</Link></Pair>
-<Pair single="benefit" id="folgrits-mercy-benefit">You were called upon to defend your home or family at a vulnerable time and led with a clarity of mind you did not know you had. Once per day when you use lay on hands, you also cure the target of 1d4 points of Intelligence, Wisdom, or Charisma damage. You choose which ability score gains the healing effect.</Pair>
+<Pair single="flavor" id="folgrits-mercy-flavor">You were called upon to defend your home or family at a vulnerable time and led with a clarity of mind you did not know you had.</Pair>
+<Pair single="benefit" id="folgrits-mercy-benefit">Once per day when you use <Link to="/ability/lay_on_hands">lay on hands</Link>, you also cure the target of 1d4 points of Intelligence, Wisdom, or Charisma damage. You choose which ability score gains the healing effect.</Pair>
 </Ability>
 </>};
 const _follower_of_the_stars = {title: "Follower of the Stars", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
@@ -1512,7 +1587,7 @@ const _follower_of_the_stars = {title: "Follower of the Stars", topLink: ["Relig
 <Pair single id="follower-of-the-stars">Follower of the Stars</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/desna">Desna</Link></Pair>
-<Pair single="benefit" id="follower-of-the-stars-benefit">You gain a +4 trait bonus when using Survival to navigate under clear skies.</Pair>
+<Pair single="benefit" id="follower-of-the-stars-benefit">You gain a +4 trait bonus when using <Link to="/skill/survival">Survival</Link> to navigate under clear skies.</Pair>
 </Ability>
 </>};
 const _fortified_drinker = {title: "Fortified Drinker", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -1520,7 +1595,8 @@ const _fortified_drinker = {title: "Fortified Drinker", topLink: ["Religion Trai
 <Pair single id="fortified-drinker">Fortified Drinker</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/cayden_cailean">Cayden Cailean</Link></Pair>
-<Pair single="benefit" id="fortified-drinker-benefit">Cayden Cailean's holy brews invigorate your mind, making you less susceptible to mental attacks. Whenever you imbibe any alcoholic beverage, you gain a +2 trait bonus on saves against mind-affecting effects for 1 hour.</Pair>
+<Pair single="flavor" id="fortified-drinker-flavor">Cayden Cailean's holy brews invigorate your mind, making you less susceptible to mental attacks.</Pair>
+<Pair single="benefit" id="fortified-drinker-benefit">Whenever you imbibe any alcoholic beverage, you gain a +2 trait bonus on saves against mind-affecting effects for 1 hour.</Pair>
 </Ability>
 </>};
 const _frightening_speed = {title: "Frightening Speed", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -1528,7 +1604,8 @@ const _frightening_speed = {title: "Frightening Speed", topLink: ["Religion Trai
 <Pair single id="frightening-speed">Frightening Speed</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/achaekek">Achaekek</Link></Pair>
-<Pair single="benefit" id="frightening-speed-benefit">Your careful study of Achaekek's kills has unlocked a divine speed in you. Once per day during a combat encounter, you can move an additional 5 feet as a part of a move action without penalty.</Pair>
+<Pair single="flavor" id="frightening-speed-flavor">Your careful study of Achaekek's kills has unlocked a divine speed in you.</Pair>
+<Pair single="benefit" id="frightening-speed-benefit">Once per day during a combat encounter, you can move an additional 5 feet as a part of a move action without penalty.</Pair>
 </Ability>
 </>};
 const _fruits_of_your_labor = {title: "Fruits of Your Labor", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 13</Link></p>
@@ -1536,7 +1613,10 @@ const _fruits_of_your_labor = {title: "Fruits of Your Labor", topLink: ["Religio
 <Pair single id="fruits-of-your-labor">Fruits of Your Labor</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/jaidi">Jaidi</Link></Pair>
-<Pair single="benefit" id="fruits-of-your-labor-benefit">You take pride in providing for your community. Once per day you can serve a meal comprising food you have produced, purchased, or foraged to yourself and up to six other creatures. Serving and consuming this meal takes 10 minutes, during which the other participants can also partake in light activity such as conversation, reading, and keeping watch. Each creature regains 1d3 hit points at the end of the meal, and gains a +1 trait bonus on its next d20 roll using the aid another action to assist other creatures who consumed the meal. The +1 trait bonus lasts 24 hours, and a creature can gain that bonus on its next d20 roll to assist other creatures from this trait only once per day.</Pair>
+<Pair single="flavor" id="fruits-of-your-labor-flavor">You take pride in providing for your community.</Pair>
+<Pair single="benefit" id="fruits-of-your-labor-benefit"><p>Once per day you can serve a meal comprising food you have produced, purchased, or foraged to yourself and up to six other creatures. Serving and consuming this meal takes 10 minutes, during which the other participants can also partake in light activity such as conversation, reading, and keeping watch.</p>
+<p>Each creature regains 1d3 hit points at the end of the meal, and gains a +1 trait bonus on its next d20 roll using the <Link to="/rule/aid_another">aid another</Link> action to assist other creatures who consumed the meal. The +1 trait bonus lasts 24 hours, and a creature can gain that bonus on its next d20 roll to assist other creatures from this trait only once per day.</p>
+</Pair>
 </Ability>
 </>};
 const _furious_vengeance = {title: "Furious Vengeance", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1544,7 +1624,8 @@ const _furious_vengeance = {title: "Furious Vengeance", topLink: ["Religion Trai
 <Pair single id="furious-vengeance">Furious Vengeance</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/dranngvit">Dranngvit</Link></Pair>
-<Pair single="benefit" id="furious-vengeance-benefit">Once wronged, your vengeance can be swift and brutal. Once per day as an immediate action, you gain a +1 trait bonus on a single attack roll. In addition, if the target has damaged you within the last round, you deal 1 additional point of damage on a successful hit. You must choose to use this ability before making the attack roll.</Pair>
+<Pair single="flavor" id="furious-vengeance-flavor">Once wronged, your vengeance can be swift and brutal.</Pair>
+<Pair single="benefit" id="furious-vengeance-benefit">Once per day as an <strong className="hl">immediate action</strong>, you gain a +1 trait bonus on a single attack roll. In addition, if the target has damaged you within the last round, you deal 1 additional point of damage on a successful hit. You must choose to use this ability before making the attack roll.</Pair>
 </Ability>
 </>};
 const _fury = {title: "Fury", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
@@ -1552,7 +1633,8 @@ const _fury = {title: "Fury", topLink: ["Religion Traits","main/traits_religion"
 <Pair single id="fury">Fury</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/rovagug">Rovagug</Link></Pair>
-<Pair single="benefit" id="fury-benefit">The flood of battle and destruction stirs deep within you. When wielding a greataxe, you receive a +2 trait bonus on attack rolls to confirm critical hits.</Pair>
+<Pair single="flavor" id="fury-flavor">The flood of battle and destruction stirs deep within you.</Pair>
+<Pair single="benefit" id="fury-benefit">When wielding a <Link to="/eq-weapon/greataxe">greataxe</Link>, you receive a +2 trait bonus on attack rolls to confirm critical hits.</Pair>
 </Ability>
 </>};
 const _gemstone_collector = {title: "Gemstone Collector", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>

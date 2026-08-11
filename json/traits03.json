@@ -752,7 +752,7 @@
 		],
 		"category": "LG-Iomedae",
 		"description": [
-			"::trait{title=\"&L&A Shining Beacon&FN&\" type=\"Religion\" religion=\"‹faith/Iomedae›\" benefit=\"You carry a burning hatred in your heart for all things demonic, and have studied their weaknesses carefully. You deal an amount of additional damage equal to your weapon's critical hit modifier when you score a successful critical hit with a weapon against a demon. This damage is added only after the damage is totaled, and is not multiplied by the critical hit multiplier.\"}"
+			"::trait{title=\"&L&A Shining Beacon&FN&\" type=\"Religion\" religion=\"‹faith/Iomedae›\" flavor=\"You carry a burning hatred in your heart for all things demonic, and have studied their weaknesses carefully.\" benefit=\"You deal an amount of additional damage equal to your weapon's critical hit modifier when you score a successful critical hit with a weapon against a ‹family/demon›. This damage is added only after the damage is totaled, and is not multiplied by the critical hit multiplier.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -761,7 +761,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "NE-Zyphus",
 		"description": [
-			"::trait{title=\"&L&Accident Resistant&FN&\" type=\"Religion\" religion=\"‹faith/Zyphus›\" benefit=\"Your understanding of pointless and unexpected death grants you a special awareness. You gain a +2 trait bonus on Reflex saves when denied your Dexterity bonus or during a surprise round.\"}"
+			"::trait{title=\"&L&Accident Resistant&FN&\" type=\"Religion\" religion=\"‹faith/Zyphus›\" flavor=\"Your understanding of pointless and unexpected death grants you a special awareness.\" benefit=\"You gain a +2 trait bonus on Reflex saves when denied your Dexterity bonus or during a surprise round.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -770,7 +770,7 @@
 		"compilationSources": [ [ "Blood of the Beast" ] ],
 		"category": "CN-Bastet",
 		"description": [
-			"::trait{title=\"&L&Adherent of Ancient Osirion&FN&\" type=\"Religion\" religion=\"‹faith/Bastet›\" region=\"Osirion\" req=\"‹race/Catfolk›\" benefit=\"Although Bastet has been all but forgotten by the native Osirians, you either sojourned with or were raised in a cult dedicated to the cat-headed goddess of Ancient Osirion. You treat the tekko-kagi as a martial weapon instead of an exotic weapon. You also treat the tekko-kagi as if it were a set of claw blades when determining how it interacts with other effects.\"}"
+			"::trait{title=\"&L&Adherent of Ancient Osirion&FN&\" type=\"Religion\" religion=\"‹faith/Bastet›\" region=\"Osirion\" req=\"‹race/Catfolk›\" flavor=\"Although Bastet has been all but forgotten by the native Osirians, you either sojourned with or were raised in a cult dedicated to the cat-headed goddess of Ancient Osirion.\" benefit=\"You treat the ‹eq-weapon/tekko-kagi› as a martial weapon instead of an exotic weapon. You also treat the tekko-kagi as if it were a set of ‹eq-weapon/claw blades› when determining how it interacts with other effects.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -779,7 +779,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "CG-Cayden Cailean",
 		"description": [
-			"::trait{title=\"&L&Adventurous Imbiber&FN&\" type=\"Religion\" religion=\"‹faith/Cayden Cailean›\" benefit=\"You've never been afraid of good, strong drink, and that has prepared you for the perils of more dangerous substances. You gain a +1 trait bonus on saving throws against poison.\"}"
+			"::trait{title=\"&L&Adventurous Imbiber&FN&\" type=\"Religion\" religion=\"‹faith/Cayden Cailean›\" flavor=\"You've never been afraid of good, strong drink, and that has prepared you for the perils of more dangerous substances.\" benefit=\"You gain a +1 trait bonus on saving throws against poison.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -803,7 +803,7 @@
 		],
 		"category": "NN-Nivi Rhombodazzle",
 		"description": [
-			"::trait{title=\"&L&Agent of Chance&FN&\" type=\"Religion\" religion=\"‹faith/Nivi Rhombodazzle›\" benefit=\"You can change the fortunes of others, typically for the better. Once per day, you can allow an adjacent ally to reroll a skill check as an immediate action before the result is revealed. The ally must take the second roll, even if it is worse.\"}"
+			"::trait{title=\"&L&Agent of Chance&FN&\" type=\"Religion\" religion=\"‹faith/Nivi Rhombodazzle›\" flavor=\"You can change the fortunes of others, typically for the better.\" benefit=\"Once per day, you can allow an adjacent ally to reroll a skill check as an @HLimmediate_action before the result is revealed. The ally must take the second roll, even if it is worse.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -812,7 +812,7 @@
 		"compilationSources": [ [ "Dwarves of Golarion" ] ],
 		"category": "Dwarven Deities-Bolka",
 		"description": [
-			"::trait{title=\"&L&Alluring&FN&\" type=\"Religion\" religion=\"‹faith/Bolka›\" benefit=\"You have the art of turning a passing glance into love. You receive a +2 trait bonus on Diplomacy checks with those who find you attractive. You can use ‹spell/daze› once per day as a spell-like ability, with a caster level equal to your character level.\"}"
+			"::trait{title=\"&L&Alluring&FN&\" type=\"Religion\" religion=\"‹faith/Bolka›\" flavor=\"You have the art of turning a passing glance into love.\" benefit=\"You receive a +2 trait bonus on ‹skill/Diplomacy› checks with those who find you attractive. You can use ‹spell/daze› once per day as a spell-like ability, with a caster level equal to your character level.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -821,7 +821,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "Halfling Deities-Thamir Gixx",
 		"description": [
-			"::trait{title=\"&L&Always Threatening&FN&\" type=\"Religion\" religion=\"‹faith/Thamir Gixx›\" benefit=\"You are fast on the draw. As a move action, you can draw a light, concealed weapon for which you have ‹feat/Weapon Focus›. If you have the ‹feat/Quick Draw› feat, drawing this weapon is a free action.\"}"
+			"::trait{title=\"&L&Always Threatening&FN&\" type=\"Religion\" religion=\"‹faith/Thamir Gixx›\" flavor=\"You are fast on the draw.\" benefit=\"As a @HLmove_action, you can draw a light, concealed weapon for which you have ‹feat/Weapon Focus›. If you have the ‹feat/Quick Draw› feat, drawing this weapon is a @HLfree_action.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -830,7 +830,7 @@
 		"compilationSources": [ [ "Taldor, Echoes of Glory" ] ],
 		"category": "NG-Sarenrae",
 		"description": [
-			"::trait{title=\"&L&Ambassador&FN&\" type=\"Religion\" religion=\"‹faith/Sarenrae›\" benefit=\"Your natural abilities at mediation and compromise manifested at a young age. For as long as you can remember, you were always more able to solve disputes and carefully settle violent disagreements than others. You gain a +2 trait bonus to Diplomacy checks.\"}"
+			"::trait{title=\"&L&Ambassador&FN&\" type=\"Religion\" religion=\"‹faith/Sarenrae›\" flavor=\"Your natural abilities at mediation and compromise manifested at a young age. For as long as you can remember, you were always more able to solve disputes and carefully settle violent disagreements than others.\" benefit=\"You gain a +2 trait bonus to ‹skill/Diplomacy› checks.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -839,7 +839,7 @@
 		"compilationSources": [ [ "Divine Anthology" ] ],
 		"category": "LG-Shizuru",
 		"description": [
-			"::trait{title=\"&L&Ancestor's Blade&FN&\" type=\"Religion\" religion=\"‹faith/Shizuru›\" benefit=\"You were trained by your family with a weapon passed down from a venerable ancestor. You begin play with an heirloom masterwork weapon worth up to 400 gp. You gain a +1 trait bonus on attack rolls with weapons of this type (not just your initial heirloom weapon) when you smite evil.\"}"
+			"::trait{title=\"&L&Ancestor's Blade&FN&\" type=\"Religion\" religion=\"‹faith/Shizuru›\" flavor=\"You were trained by your family with a weapon passed down from a venerable ancestor.\" benefit=\"You begin play with an heirloom ‹rule/masterwork w«eapon› worth up to 400 gp. You gain a +1 trait bonus on attack rolls with weapons of this type (not just your initial heirloom weapon) when you *smite evil.*\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -848,7 +848,7 @@
 		"compilationSources": [ [ "Divine Anthology" ] ],
 		"category": "Empyreal Lords-Andoletta",
 		"description": [
-			"::trait{title=\"&L&Andoletta's Consolation&FN&\" type=\"Religion\" religion=\"‹faith/Andoletta›\" benefit=\"You had a close encounter with a servant or worshiper of Andoletta who provided you with a memorable, if unconventional, consolation after a loss. As a result, you gain a +2 trait bonus on saving throws against emotion and fear effects. If you are immune to fear, you instead gain a +4 trait bonus on saves against emotion effects.\"}"
+			"::trait{title=\"&L&Andoletta's Consolation&FN&\" type=\"Religion\" religion=\"‹faith/Andoletta›\" flavor=\"You had a close encounter with a servant or worshiper of Andoletta who provided you with a memorable, if unconventional, consolation after a loss.\" benefit=\"You gain a +2 trait bonus on saving throws against emotion and fear effects. If you are immune to fear, you instead gain a +4 trait bonus on saves against emotion effects.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -857,7 +857,7 @@
 		"compilationSources": [ [ "People of the Wastes" ] ],
 		"category": "Dwarven Deities-Angradd",
 		"description": [
-			"::trait{title=\"&L&Angradd's Flame&FN&\" type=\"Religion\" religion=\"‹faith/Angradd›\" benefit=\"Your faith in the Forge-Fire fans the passionate flames of war in your heart. Whenever you confirm a critical hit, you deal 1 additional point of damage to your target. This damage is considered precision damage.\"}"
+			"::trait{title=\"&L&Angradd's Flame&FN&\" type=\"Religion\" religion=\"‹faith/Angradd›\" flavor=\"Your faith in the Forge-Fire fans the passionate flames of war in your heart.\" benefit=\"Whenever you confirm a critical hit, you deal 1 additional point of damage to your target. This damage is considered ‹misc/precision damage›.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -866,7 +866,7 @@
 		"compilationSources": [ [ "Divine Anthology" ] ],
 		"category": "Dwarven Deities-Angradd",
 		"description": [
-			"::trait{title=\"&L&Angradd's Valor&FN&\" type=\"Religion\" religion=\"‹faith/Angradd›\" benefit=\"You hope to earn a place at Angradd's side after death and are inspired to charge with all your might into any righteous battle. You gain a +1 trait bonus on all melee attack rolls when you charge.\"}"
+			"::trait{title=\"&L&Angradd's Valor&FN&\" type=\"Religion\" religion=\"‹faith/Angradd›\" flavor=\"You hope to earn a place at Angradd's side after death and are inspired to charge with all your might into any righteous battle.\" benefit=\"You gain a +1 trait bonus on all melee attack rolls when you charge.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -878,7 +878,7 @@
 		],
 		"category": "NN-Nethys",
 		"description": [
-			"::trait{title=\"&L&Arcane Depth&FN&\" type=\"Religion\" religion=\"‹faith/Nethys›\" benefit=\"You have studied the great masters of spellcraft, and your knowledge is exceptional. You gain a bonus of either +1 on Spellcraft checks or +2 on Knowledge (arcana) checks. You must choose which bonus you receive when you take the trait; once chosen, it cannot be changed.\"}"
+			"::trait{title=\"&L&Arcane Depth&FN&\" type=\"Religion\" religion=\"‹faith/Nethys›\" flavor=\"You have studied the great masters of spellcraft, and your knowledge is exceptional.\" benefit=\"You gain a bonus of either +1 on ‹skill/Spellcraft› checks or +2 on ‹skill/Knowledge (arcana)› checks. You must choose which bonus you receive when you take the trait; once chosen, it cannot be changed.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -887,7 +887,7 @@
 		"compilationSources": [ [ "Divine Anthology" ] ],
 		"category": "Empyreal Lords-Ragathiel",
 		"description": [
-			"::trait{title=\"&L&Avowed Inspiration&FN&\" type=\"Religion\" religion=\"‹faith/Ragathiel›\" benefit=\"In emulation of the empyreal lord's intensely channeled rage, you are an inspiration on the battlefield. Once per day, when you attack a foe who injured you during the same combat, you can inspire allies who can see you as a move action. Each other ally within 30 feet who can see you gains a +2 morale bonus on her next attack roll.\"}"
+			"::trait{title=\"&L&Avowed Inspiration&FN&\" type=\"Religion\" religion=\"‹faith/Ragathiel›\" flavor=\"In emulation of the empyreal lord's intensely channeled rage, you are an inspiration on the battlefield.\" benefit=\"Once per day, when you attack a foe who injured you during the same combat, you can inspire allies who can see you as a @HLmove_action. Each other ally within 30 feet who can see you gains a +2 morale bonus on her next attack roll.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -896,7 +896,7 @@
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
 		"category": "Halfling Deities-Thamir Gixx",
 		"description": [
-			"::trait{title=\"&L&Backstabber&FN&\" type=\"Religion\" religion=\"‹faith/Thamir Gixx›\" req=\"‹race/Halfling›\" benefit=\"Pledging your faith to Norgorber's lethal shadow gives you the skill to make a brutal attack against an opponent who cannot fully fend you off. When you hit a foe you are flanking, you deal an additional 1 point of damage (this damage is added to your base damage, and is multiplied on a critical hit). This additional damage is a trait bonus.\"}"
+			"::trait{title=\"&L&Backstabber&FN&\" type=\"Religion\" religion=\"‹faith/Thamir Gixx›\" req=\"‹race/Halfling›\" flavor=\"Pledging your faith to ‹faith/Norgorber«'s› lethal shadow gives you the skill to make a brutal attack against an opponent who cannot fully fend you off.\" benefit=\"When you hit a foe you are ‹rule/flanking›, you deal an additional 1 point of damage (this damage is added to your base damage, and is multiplied on a critical hit). This additional damage is a trait bonus.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -905,7 +905,7 @@
 		"compilationSources": [ [ "Dwarves of Golarion" ] ],
 		"category": "Dwarven Deities-Angradd, Gorum, Torag, Dwarven Deities-Trudd",
 		"description": [
-			"::trait{title=\"&L&Battlefield Caster&FN&\" type=\"Religion\" religion=\"‹faith/Angradd›, ‹faith/Gorum›, ‹faith/Torag›, or ‹faith/Trudd›\" benefit=\"Your faith protects you even as you unleash spells in the thick of battle. You receive a +1 trait bonus on ‹rule/concentration› checks to cast defensively and a +1 trait bonus to AC against attacks provoked by or readied against spellcasting.\"}"
+			"::trait{title=\"&L&Battlefield Caster&FN&\" type=\"Religion\" religion=\"‹faith/Angradd›, ‹faith/Gorum›, ‹faith/Torag›, or ‹faith/Trudd›\" flavor=\"Your faith protects you even as you unleash spells in the thick of battle.\" benefit=\"You receive a +1 trait bonus on ‹rule/concentration› checks to cast defensively and a +1 trait bonus to AC against attacks provoked by or readied against spellcasting.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -917,7 +917,7 @@
 		],
 		"category": "LE-Zon-Kuthon",
 		"description": [
-			"::trait{title=\"&L&Battlefield Surgeon&FN&\" type=\"Religion\" religion=\"‹faith/Zon-Kuthon›\" benefit=\"You're skilled at both dealing and repairing wounds. Heal is a class skill for you, and you can use the treat deadly wounds aspect of Heal 1 additional time per creature per day.\"}"
+			"::trait{title=\"&L&Battlefield Surgeon&FN&\" type=\"Religion\" religion=\"‹faith/Zon-Kuthon›\" flavor=\"You're skilled at both dealing and repairing wounds.\" benefit=\"‹skill/Heal› is a class skill for you, and you can use the *treat deadly wounds* aspect of Heal 1 additional time per creature per day.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -926,7 +926,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "CN-Besmara",
 		"description": [
-			"::trait{title=\"&L&Besmara's Name&FN&\" type=\"Religion\" religion=\"‹faith/Besmara›\" benefit=\"Besmara sometimes answers your call. Once per day when casting a divine spell, you can speak or whisper her name in place of using a divine focus.\"}"
+			"::trait{title=\"&L&Besmara's Name&FN&\" type=\"Religion\" religion=\"‹faith/Besmara›\" flavor=\"Besmara sometimes answers your call.\" benefit=\"Once per day when casting a divine spell, you can speak or whisper her name in place of using a divine focus.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -935,7 +935,7 @@
 		"compilationSources": [ [ "People of the Wastes" ] ],
 		"category": "CN-Besmara",
 		"description": [
-			"::trait{title=\"&L&Besmara's Strength&FN&\" type=\"Religion\" religion=\"‹faith/Besmara›\" benefit=\"The Pirate Queen sometimes answers your calls when you tread dangerous waters. Once per day when attempting a Swim check, you can treat the water as if it were one category calmer (as if stormy water were rough water or rough water were calm water).\"}"
+			"::trait{title=\"&L&Besmara's Strength&FN&\" type=\"Religion\" religion=\"‹faith/Besmara›\" flavor=\"The Pirate Queen sometimes answers your calls when you tread dangerous waters.\" benefit=\"Once per day when attempting a ‹skill/Swim› check, you can treat the water as if it were one category calmer (as if stormy water were rough water or rough water were calm water).\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -944,7 +944,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "CE-Rovagug",
 		"description": [
-			"::trait{title=\"&L&Bestial Wrath&FN&\" type=\"Religion\" religion=\"‹faith/Rovagug›\" benefit=\"When you strike hard, you strike deep. You gain a +2 trait bonus on critical confirmation rolls.\"}"
+			"::trait{title=\"&L&Bestial Wrath&FN&\" type=\"Religion\" religion=\"‹faith/Rovagug›\" flavor=\"When you strike hard, you strike deep.\" benefit=\"You gain a +2 trait bonus on critical confirmation rolls.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -953,7 +953,7 @@
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
 		"category": "NG-Sarenrae",
 		"description": [
-			"::trait{title=\"&L&Blade of Mercy&FN&\" type=\"Religion\" religion=\"‹faith/Sarenrae›\" benefit=\"You know that within the heart of even the most hateful and cruel living creature exists a sliver of shame and hope for redemption. You have trained long on martial techniques to use bladed weapons not to kill, but to subdue. When striking to inflict nonlethal damage with any slashing weapon, you do not take the normal -4 penalty on your attack roll, and gain a +1 trait bonus to any nonlethal damage you inflict with a slashing weapon.\"}"
+			"::trait{title=\"&L&Blade of Mercy&FN&\" type=\"Religion\" religion=\"‹faith/Sarenrae›\" flavor=\"You know that within the heart of even the most hateful and cruel living creature exists a sliver of shame and hope for redemption. You have trained long on martial techniques to use bladed weapons not to kill, but to subdue.\" benefit=\"When striking to inflict nonlethal damage with any slashing weapon, you do not take the normal -4 penalty on your attack roll, and gain a +1 trait bonus to any nonlethal damage you inflict with a slashing weapon.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -962,7 +962,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "Dwarven Deities-Folgrit",
 		"description": [
-			"::trait{title=\"&L&Blessed Orphan&FN&\" type=\"Religion\" religion=\"‹faith/Folgrit›\" benefit=\"As an orphan, you have always looked to Folgrit for protection. Once per day, you gain a +1 trait bonus on any saving throw. You must use this ability after the roll is made but before the result is revealed.\"}"
+			"::trait{title=\"&L&Blessed Orphan&FN&\" type=\"Religion\" religion=\"‹faith/Folgrit›\" flavor=\"As an orphan, you have always looked to Folgrit for protection.\" benefit=\"Once per day, you gain a +1 trait bonus on any saving throw. You must use this ability after the roll is made but before the result is revealed.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -971,7 +971,7 @@
 		"compilationSources": [ [ "Orcs of Golarion" ] ],
 		"category": "Pantheons-Demon Lords-Zura",
 		"description": [
-			"::trait{title=\"&L&Blessing of the Feast&FN&\" type=\"Religion\" religion=\"‹faith/Zura›\" benefit=\"You come from a cannibal tribe, and find strength in the flesh of your foes. Whenever you eat the flesh or drink the blood of another orc - a full-round action that provokes attacks of opportunity - you gain the favor of Zura and receive a +1 natural armor bonus for 1 minute/level. You can only receive this benefit once per day.\"}"
+			"::trait{title=\"&L&Blessing of the Feast&FN&\" type=\"Religion\" religion=\"‹faith/Zura›\" flavor=\"You come from a cannibal tribe, and find strength in the flesh of your foes.\" benefit=\"Whenever you eat the flesh or drink the blood of another orc - a @HLfull-round_action that provokes attacks of opportunity - you gain the favor of Zura and receive a +1 natural armor bonus for 1 minute/level. You can only receive this benefit once per day.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -980,7 +980,7 @@
 		"compilationSources": [ [ "Divine Anthology" ] ],
 		"category": "Empyreal Lords-Vildeis",
 		"description": [
-			"::trait{title=\"&L&Blind Zeal&FN&\" type=\"Religion\" religion=\"‹faith/Vildeis›\" benefit=\"You are blind but trained by followers of Vildeis to sense your surroundings by sound and touch. You need not attempt a skill check to move at full speed. You take a -4 penalty from blindness on only Acrobatics, Ride, Sleight of Hand, and Stealth checks. You gain ‹feat/Blind-Fight› as a bonus feat. You lose the benefits of this trait whenever you can see, but regain them if you once again become blind.\"}"
+			"::trait{title=\"&L&Blind Zeal&FN&\" type=\"Religion\" religion=\"‹faith/Vildeis›\" flavor=\"You are blind but trained by followers of Vildeis to sense your surroundings by sound and touch. You need not attempt a skill check to move at full speed.\" benefit=\"You take a -4 penalty from ‹misc/blindness› on only ‹skill/Acrobatics›, ‹skill/Ride›, ‹skill/Sleight of Hand›, and ‹skill/Stealth› checks. You gain ‹feat/Blind-Fight› as a bonus feat. You lose the benefits of this trait whenever you can see, but regain them if you once again become blind.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -989,7 +989,7 @@
 		"compilationSources": [ [ "Healer's Handbook" ] ],
 		"category": "Empyreal Lords-Vildeis",
 		"description": [
-			"::trait{title=\"&L&Bloody Vengeance&FN&\" type=\"Religion\" religion=\"‹faith/Vildeis›\" benefit=\"You were slain by evil forces as a child, but a follower of Vildeis restored you to life. Now you live on in service to the Cardinal Martyr, battling the forces of evil so no other child will know the icy grip of death. You gain a +2 trait bonus on attack rolls to confirm critical hits against any creature that has at least a faint evil aura (see ‹spell/detect evil›).\"}"
+			"::trait{title=\"&L&Bloody Vengeance&FN&\" type=\"Religion\" religion=\"‹faith/Vildeis›\" flavor=\"You were slain by evil forces as a child, but a follower of Vildeis restored you to life. Now you live on in service to the Cardinal Martyr, battling the forces of evil so no other child will know the icy grip of death.\" benefit=\"You gain a +2 trait bonus on attack rolls to confirm critical hits against any creature that has at least a faint evil aura (see ‹spell/detect evil›).\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -998,7 +998,7 @@
 		"compilationSources": [ [ "People of the Wastes" ] ],
 		"category": "NN-Brigh",
 		"description": [
-			"::trait{title=\"&L&Brigh's Insight&FN&\" type=\"Religion\" religion=\"‹faith/Brigh›\" benefit=\"You hear Brigh's whisper in the workings of technology, granting you better understanding of and insight into constructs. You gain a +2 trait bonus on caster level checks to overcome the spell resistance of constructs.\"}"
+			"::trait{title=\"&L&Brigh's Insight&FN&\" type=\"Religion\" religion=\"‹faith/Brigh›\" flavor=\"You hear Brigh's whisper in the workings of technology, granting you better understanding of and insight into constructs.\" benefit=\"You gain a +2 trait bonus on caster level checks to overcome the spell resistance of constructs.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1023,7 +1023,7 @@
 		],
 		"category": "CN-Calistria",
 		"description": [
-			"::trait{title=\"&L&Calistrian Courtesan&FN&\" type=\"Religion\" religion=\"‹faith/Calistria›\" benefit=\"You worked in one of Calistria's temples as a sacred courtesan, and you know how to flatter, please, and (most of all) listen. You gain a +1 trait bonus on Sense Motive checks and Diplomacy checks to gather information, and one of these skills (your choice) is always a class skill for you.\"}"
+			"::trait{title=\"&L&Calistrian Courtesan&FN&\" type=\"Religion\" religion=\"‹faith/Calistria›\" flavor=\"You worked in one of Calistria's temples as a sacred courtesan, and you know how to flatter, please, and (most of all) listen.\" benefit=\"You gain a +1 trait bonus on ‹skill/Sense Motive› checks and ‹skill/Diplomacy› checks to gather information, and one of these skills (your choice) is always a class skill for you.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1032,7 +1032,7 @@
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
 		"category": "Halfling Deities-Chaldira Zuzaristan",
 		"description": [
-			"::trait{title=\"&L&Call for Help&FN&\" type=\"Religion\" religion=\"‹faith/Chaldira Zuzaristan›\" req=\"‹race/Halfling›\" benefit=\"Offering your devotion to and modeling your life on Desna's impetuous companion means you frequently find yourself in a jam but also ensures that you can always rely upon your friends to bail you out. When you take the total defense action, allies gain a +1 trait bonus on rolls made against a creature threatening you.\"}"
+			"::trait{title=\"&L&Call for Help&FN&\" type=\"Religion\" religion=\"‹faith/Chaldira Zuzaristan›\" req=\"‹race/Halfling›\" flavor=\"Offering your devotion to and modeling your life on ‹faith/Desna«'s› impetuous companion means you frequently find yourself in a jam but also ensures that you can always rely upon your friends to bail you out.\" benefit=\"When you take the ‹misc/total defense› action, allies gain a +1 trait bonus on rolls made against a creature threatening you.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1044,7 +1044,7 @@
 		],
 		"category": "LN-Irori",
 		"description": [
-			"::trait{title=\"&L&Centered&FN&\" type=\"Religion\" religion=\"‹faith/Irori›\" benefit=\"Having anchored yourself in your faith and your knowledge of yourself, you've made it difficult for others to dominate you. You gain a +1 trait bonus on saving throws against charm and compulsion effects, and the DC of any attempts to use the Intimidate skill on you increases by 1.\"}"
+			"::trait{title=\"&L&Centered&FN&\" type=\"Religion\" religion=\"‹faith/Irori›\" flavor=\"Having anchored yourself in your faith and your knowledge of yourself, you've made it difficult for others to dominate you.\" benefit=\"You gain a +1 trait bonus on saving throws against charm and compulsion effects, and the DC of any attempts to use the ‹skill/Intimidate› skill on you increases by 1.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1053,7 +1053,7 @@
 		"compilationSources": [ [ "Divine Anthology" ] ],
 		"category": "Halfling Deities-Chaldira Zuzaristan",
 		"description": [
-			"::trait{title=\"&L&Chaldira's Luck&FN&\" type=\"Religion\" religion=\"‹faith/Chaldira›\" benefit=\"You found yourself in deep trouble in your youth but stumbled upon an unlikely way out after praying to Chaldira Zuzaristan for luck. Once per day, you can roll twice and take the better result on a skill check.\"}"
+			"::trait{title=\"&L&Chaldira's Luck&FN&\" type=\"Religion\" religion=\"‹faith/Chaldira›\" flavor=\"You found yourself in deep trouble in your youth but stumbled upon an unlikely way out after praying to Chaldira Zuzaristan for luck.\" benefit=\"Once per day, you can roll twice and take the better result on a skill check.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1062,7 +1062,7 @@
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
 		"category": "CN-Besmara",
 		"description": [
-			"::trait{title=\"&L&Cheat Death&FN&\" type=\"Religion\" religion=\"‹faith/Besmara›\" benefit=\"Even Besmara's most faithful worshipers usually call upon her only in times of greatest need. Sometimes Besmara intervenes on behalf of her faithful; other times, she turns her face away as they sink beneath the waves. Once per day, when you would be reduced to 0 or fewer hit points as a result of a failed ability check, skill check, or saving throw on your part, you may invoke this ability in order to reroll the failed check. You must take the result of the second roll, even if it is worse than the original.\"}"
+			"::trait{title=\"&L&Cheat Death&FN&\" type=\"Religion\" religion=\"‹faith/Besmara›\" flavor=\"Even Besmara's most faithful worshipers usually call upon her only in times of greatest need. Sometimes Besmara intervenes on behalf of her faithful; other times, she turns her face away as they sink beneath the waves.\" benefit=\"Once per day, when you would be reduced to 0 or fewer hit points as a result of a failed ability check, skill check, or saving throw on your part, you may invoke this ability in order to reroll the failed check. You must take the result of the second roll, even if it is worse than the original.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1076,7 +1076,7 @@
 		],
 		"category": "NN-Gozreh",
 		"description": [
-			"::trait{title=\"&L&Child of Nature&FN&\" type=\"Religion\" religion=\"‹faith/Gozreh›\" benefit=\"The wild places are your home, and provide everything you need to be happy. You gain a +2 trait bonus on Survival checks, and Survival is a class skill for you.\"}"
+			"::trait{title=\"&L&Child of Nature&FN&\" type=\"Religion\" religion=\"‹faith/Gozreh›\" flavor=\"The wild places are your home, and provide everything you need to be happy.\" benefit=\"You gain a +2 trait bonus on ‹skill/Survival› checks, and Survival is a class skill for you.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1088,7 +1088,7 @@
 		],
 		"category": "NG-Sarenrae",
 		"description": [
-			"::trait{title=\"&L&Cleansing Light&FN&\" type=\"Religion\" religion=\"‹faith/Sarenrae›\" benefit=\"Your faith is pure and strong, and your positive energy purges undead. When dealing damage to undead with your channel energy ability, you can reroll any damage die roll that results in a natural 1.\"}"
+			"::trait{title=\"&L&Cleansing Light&FN&\" type=\"Religion\" religion=\"‹faith/Sarenrae›\" flavor=\"Your faith is pure and strong, and your positive energy purges undead.\" benefit=\"When dealing damage to undead with your ‹ability/channel energy› ability, you can reroll any damage die roll that results in a natural 1.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1097,7 +1097,7 @@
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
 		"category": "NG-Sarenrae",
 		"description": [
-			"::trait{title=\"&L&Cleansing the Twisted&FN&\" type=\"Religion\" religion=\"‹faith/Sarenrae›\" benefit=\"You have studied well the many religious texts that chronicle Sarenrae's neverending struggle against Rovagug and his monstrous offspring. Your fighting style works particularly well when you utilize slashing weapons against aberrations. You gain a +1 trait bonus to slashing weapon damage against all aberrations.\"}"
+			"::trait{title=\"&L&Cleansing the Twisted&FN&\" type=\"Religion\" religion=\"‹faith/Sarenrae›\" flavor=\"You have studied well the many religious texts that chronicle Sarenrae's neverending struggle against ‹faith/Rovagug› and his monstrous offspring. Your fighting style works particularly well when you utilize slashing weapons against aberrations.\" benefit=\"You gain a +1 trait bonus to slashing weapon damage against all aberrations.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1106,7 +1106,7 @@
 		"compilationSources": [ [ "Blood of the Ancients", 13 ] ],
 		"category": "Azlanti-Aesocar",
 		"description": [
-			"::trait{title=\"&L&Clockwork Surgeon&FN&\" type=\"Religion\" religion=\"‹faith/Aesocar›\" benefit=\"Thanks to your medical innovations, you can perform especially comprehensive or speedy surgeries. You begin play with a special healer's kit at no cost and can fully restock your kit by expending materials worth 10 gp and spending 8 hours assembling medical devices. When using this healer's kit to treat deadly wounds, you can either halve the time required to perform the action or add your Intelligence modifier to the number of hit points healed.\"}"
+			"::trait{title=\"&L&Clockwork Surgeon&FN&\" type=\"Religion\" religion=\"‹faith/Aesocar›\" flavor=\"Thanks to your medical innovations, you can perform especially comprehensive or speedy surgeries.\" benefit=\"You begin play with a special ‹eq-misc/healer's kit› at no cost and can fully restock your kit by expending materials worth 10 gp and spending 8 hours assembling medical devices.~~~When using this healer's kit to treat deadly wounds, you can either halve the time required to perform the action or add your Intelligence modifier to the number of hit points healed.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1118,7 +1118,7 @@
 		],
 		"category": "LE-Asmodeus",
 		"description": [
-			"::trait{title=\"&L&Contract Master&FN&\" type=\"Religion\" religion=\"‹faith/Asmodeus›\" benefit=\"Your facility with contracts makes you good at understanding dense text and obfuscating your intent. You gain a +1 trait bonus on Linguistics checks, and Linguistics is a class skill for you.\"}"
+			"::trait{title=\"&L&Contract Master&FN&\" type=\"Religion\" religion=\"‹faith/Asmodeus›\" flavor=\"Your facility with contracts makes you good at understanding dense text and obfuscating your intent.\" benefit=\"You gain a +1 trait bonus on ‹skill/Linguistics› checks, and Linguistics is a class skill for you.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1127,7 +1127,7 @@
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"category": "NE-Urgathoa",
 		"description": [
-			"::trait{title=\"&L&Corpse Cannibal&FN&\" type=\"Religion\" religion=\"‹faith/Urgathoa›\" benefit=\"Your faith encourages you to indulge a variety of perverse hungers, leading you to shrug at even some of the darkest taboos. You gain a +2 trait bonus on Fortitude saves against diseases and can gain sustenance from rotting flesh with no negative side effects.\"}"
+			"::trait{title=\"&L&Corpse Cannibal&FN&\" type=\"Religion\" religion=\"‹faith/Urgathoa›\" flavor=\"Your faith encourages you to indulge a variety of perverse hungers, leading you to shrug at even some of the darkest taboos.\" benefit=\"You gain a +2 trait bonus on Fortitude saves against diseases and can gain sustenance from rotting flesh with no negative side effects.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1160,7 +1160,7 @@
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
 		"category": "NG-Sarenrae",
 		"description": [
-			"::trait{title=\"&L&Dawn Renewal&FN&\" type=\"Religion\" religion=\"‹faith/Sarenrae›\" req=\"‹race/Halfling›\" benefit=\"Your morning prayers often send a welcome spark of divine vitality into your most recent patients. When you use the Heal skill to provide long-term care, your patients heal an extra 2 hit points at sunrise.\"}"
+			"::trait{title=\"&L&Dawn Renewal&FN&\" type=\"Religion\" religion=\"‹faith/Sarenrae›\" req=\"‹race/Halfling›\" flavor=\"Your morning prayers often send a welcome spark of divine vitality into your most recent patients.\" benefit=\"When you use the ‹skill/Heal› skill to provide long-term care, your patients heal an extra 2 hit points at sunrise.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1181,7 +1181,7 @@
 		],
 		"category": "NE-Urgathoa",
 		"description": [
-			"::trait{title=\"&L&Deathspeaker&FN&\" type=\"Religion\" religion=\"‹faith/Urgathoa›\" benefit=\"Your experience with undead creatures gives you a +2 trait bonus on Diplomacy checks when dealing with undead, as well as a +2 trait bonus on Charisma checks to influence undead (such as with the command undead spell).\"}"
+			"::trait{title=\"&L&Deathspeaker&FN&\" type=\"Religion\" religion=\"‹faith/Urgathoa›\" benefit=\"Your experience with undead creatures gives you a +2 trait bonus on ‹skill/Diplomacy› checks when dealing with undead, as well as a +2 trait bonus on Charisma checks to influence undead (such as with the ‹spell/command undead› spell).\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1202,7 +1202,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "LE-Achaekek",
 		"description": [
-			"::trait{title=\"&L&Deep Wounding&FN&\" type=\"Religion\" religion=\"‹faith/Achaekek›\" benefit=\"You have learned the bloody secret of striking true and deep. When you deal bleed damage with a melee weapon, a successful DC 20 Heal check is required to stop the bleed damage. Magical healing stops the damage as normal.\"}"
+			"::trait{title=\"&L&Deep Wounding&FN&\" type=\"Religion\" religion=\"‹faith/Achaekek›\" flavor=\"You have learned the bloody secret of striking true and deep.\" benefit=\"When you deal ‹rule/bleed› damage with a melee weapon, a successful DC 20 ‹skill/Heal› check is required to stop the bleed damage. Magical healing stops the damage as normal.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1214,7 +1214,7 @@
 		],
 		"category": "LG-Torag",
 		"description": [
-			"::trait{title=\"&L&Defensive Strategist&FN&\" type=\"Religion\" religion=\"‹faith/Torag›\" benefit=\"Your study of dwarven history has trained you in defensive strategy. You aren't flat-footed during a surprise round that you don't get to act in or before you get to act at the start of a battle.\"}"
+			"::trait{title=\"&L&Defensive Strategist&FN&\" type=\"Religion\" religion=\"‹faith/Torag›\" flavor=\"Your study of dwarven history has trained you in defensive strategy.\" benefit=\"You aren't ‹rule/flat-footed› during a surprise round that you don't get to act in or before you get to act at the start of a battle.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1226,7 +1226,7 @@
 		],
 		"category": "CE-Lamashtu",
 		"description": [
-			"::trait{title=\"&L&Deformed&FN&\" type=\"Religion\" religion=\"‹faith/Lamashtu›\" benefit=\"Your monstrous deformities grant you a +1 trait bonus on Intimidate checks, and Intimidate is a class skill for you.\"}"
+			"::trait{title=\"&L&Deformed&FN&\" type=\"Religion\" religion=\"‹faith/Lamashtu›\" benefit=\"Your monstrous deformities grant you a +1 trait bonus on ‹skill/Intimidate› checks, and Intimidate is a class skill for you.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1239,7 +1239,7 @@
 		],
 		"category": "LE-Asmodeus",
 		"description": [
-			"::trait{title=\"&L&Demon Hunter&FN&\" type=\"Religion\" religion=\"‹faith/Asmodeus›\" benefit=\"Raised in the church (whether or not you are currently a follower), you've focused your indoctrinated fervor primarily on the elimination of demons. You gain a +3 trait bonus on Knowledge (planes) checks about demons and a +2 trait bonus on Will saves against mind-affecting spells and effects from demons.\"}"
+			"::trait{title=\"&L&Demon Hunter&FN&\" type=\"Religion\" religion=\"‹faith/Asmodeus›\" flavor=\"Raised in the church (whether or not you are currently a follower), you've focused your indoctrinated fervor primarily on the elimination of demons.\" benefit=\"You gain a +3 trait bonus on ‹skill/Knowledge (planes)› checks about ‹family/demon«s› and a +2 trait bonus on Will saves against mind-affecting spells and effects from demons.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1251,7 +1251,7 @@
 		],
 		"category": "Pantheons-Demon Lords",
 		"description": [
-			"::trait{title=\"&L&Demonic Persuasion&FN&\" type=\"Religion\" religion=\"Demon Lords\" benefit=\"Your lord's favor aids you in your interactions with demonic creatures. You gain a +2 trait bonus on Diplomacy and Intimidate checks when dealing with creatures of the demon subtype.\"}"
+			"::trait{title=\"&L&Demonic Persuasion&FN&\" type=\"Religion\" religion=\"Demon Lords\" flavor=\"Your lord's favor aids you in your interactions with demonic creatures.\" benefit=\"You gain a +2 trait bonus on ‹skill/Diplomacy› and ‹skill/Intimidate› checks when dealing with creatures of the ‹subtype/demon› subtype.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1260,7 +1260,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "LE-Zon-Kuthon",
 		"description": [
-			"::trait{title=\"&L&Demoralizing Presence&FN&\" type=\"Religion\" religion=\"‹faith/Zon-Kuthon›\" benefit=\"Your very existence is unsettling to your foes. You gain a +2 trait bonus on Intimidate checks made to demoralize opponents.\"}"
+			"::trait{title=\"&L&Demoralizing Presence&FN&\" type=\"Religion\" religion=\"‹faith/Zon-Kuthon›\" flavor=\"Your very existence is unsettling to your foes.\" benefit=\"You gain a +2 trait bonus on ‹skill/Intimidate› checks made to demoralize opponents.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1269,7 +1269,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "NE-Urgathoa",
 		"description": [
-			"::trait{title=\"&L&Denial of Fate&FN&\" type=\"Religion\" religion=\"‹faith/Urgathoa›\" benefit=\"The Pallid Princess has blessed you with the ability to avoid the final fate. Once per day while you are below 0 hit points, at the start of your turn you can choose to stabilize without needing to succeed at a Constitution check.\"}"
+			"::trait{title=\"&L&Denial of Fate&FN&\" type=\"Religion\" religion=\"‹faith/Urgathoa›\" flavor=\"The Pallid Princess has blessed you with the ability to avoid the final fate.\" benefit=\"Once per day while you are below 0 hit points, at the start of your turn you can choose to stabilize without needing to succeed at a Constitution check.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1281,7 +1281,7 @@
 		],
 		"category": "CE-Rovagug",
 		"description": [
-			"::trait{title=\"&L&Destructive Blows&FN&\" type=\"Religion\" religion=\"‹faith/Rovagug›\" benefit=\"Your faith strengthens your powers of destruction. You gain a +2 trait bonus on Strength checks to break objects, as well as on combat maneuver checks to sunder.\"}"
+			"::trait{title=\"&L&Destructive Blows&FN&\" type=\"Religion\" religion=\"‹faith/Rovagug›\" flavor=\"Your faith strengthens your powers of destruction.\" benefit=\"You gain a +2 trait bonus on Strength checks to break objects, as well as on combat maneuver checks to ‹rule/sunder›.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1290,7 +1290,7 @@
 		"compilationSources": [ [ "Taldor, Echoes of Glory" ] ],
 		"category": "Azlanti-Aroden",
 		"description": [
-			"::trait{title=\"&L&Devotee of a Dead God&FN&\" type=\"Religion\" religion=\"‹faith/Aroden›\" benefit=\"You simply cannot and will not accept that Aroden is dead. Your faith in his teachings and religion are stronger than ever. You gain a +1 trait bonus on Diplomacy checks and Knowledge (religion) checks. One of these skills (your choice) is always a class skill for you.\"}"
+			"::trait{title=\"&L&Devotee of a Dead God&FN&\" type=\"Religion\" religion=\"‹faith/Aroden›\" flavor=\"You simply cannot and will not accept that Aroden is dead. Your faith in his teachings and religion are stronger than ever.\" benefit=\"You gain a +1 trait bonus on ‹skill/Diplomacy› checks and ‹skill/Knowledge (religion)› checks. One of these skills (your choice) is always a class skill for you.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1299,7 +1299,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "CE-Ghlaunder",
 		"description": [
-			"::trait{title=\"&L&Diseased Heart&FN&\" type=\"Religion\" religion=\"‹faith/Ghlaunder›\" benefit=\"Your work with infections has infused your spirit with disease. Any creature that performs a blood drain or swallow whole attack on you must succeed at a Fortitude saving throw (DC = 10 + your character level + your Constitution modifier) or become infected with filth fever. This is a poison effect.\"}"
+			"::trait{title=\"&L&Diseased Heart&FN&\" type=\"Religion\" religion=\"‹faith/Ghlaunder›\" flavor=\"Your work with infections has infused your spirit with disease.\" benefit=\"Any creature that performs a ‹umr/blood drain› or ‹umr/swallow whole› attack on you must succeed at a Fortitude saving throw (DC = 10 + your character level + your Constitution modifier) or become infected with ‹disease/filth fever›. This is a poison effect.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1312,7 +1312,7 @@
 		],
 		"category": "LG-Iomedae",
 		"description": [
-			"::trait{title=\"&L&Divine Warrior&FN&\" type=\"Religion\" religion=\"‹faith/Iomedae›\" benefit=\"From an early age, you were trained by a militaristic order of clerics. You are devoted to the teachings of Iomedae and to spreading those teachings by force. Whenever you cast a divine spell that affects any melee weapons, choose one of those weapons; it gains a +1 trait bonus on damage rolls for the duration of the spell.\"}"
+			"::trait{title=\"&L&Divine Warrior&FN&\" type=\"Religion\" religion=\"‹faith/Iomedae›\" flavor=\"From an early age, you were trained by a militaristic order of clerics. You are devoted to the teachings of Iomedae and to spreading those teachings by force.\" benefit=\"Whenever you cast a divine spell that affects any melee weapons, choose one of those weapons; it gains a +1 trait bonus on damage rolls for the duration of the spell.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1321,7 +1321,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "CE-Dahak",
 		"description": [
-			"::trait{title=\"&L&Dragon Tracker&FN&\" type=\"Religion\" religion=\"‹faith/Dahak›\" benefit=\"You have been taught to identify the subtle and not-so-subtle signs of a dragon's passage. You gain a +2 trait bonus on Survival checks to track dragons, and you can track a dragon with Survival untrained if the check's DC is 15 or lower.\"}"
+			"::trait{title=\"&L&Dragon Tracker&FN&\" type=\"Religion\" religion=\"‹faith/Dahak›\" flavor=\"You have been taught to identify the subtle and not-so-subtle signs of a dragon's passage.\" benefit=\"You gain a +2 trait bonus on ‹skill/Survival› checks to track dragons, and you can track a dragon with Survival untrained if the check's DC is 15 or lower.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1333,7 +1333,7 @@
 		],
 		"category": "CE-Dahak",
 		"description": [
-			"::trait{title=\"&L&Dragonslayer&FN&\" type=\"Religion\" religion=\"‹faith/Dahak›\" benefit=\"You're greatly skilled in hunting and slaying those who resemble your lord's favored prey. You gain a +1 trait bonus on attack rolls against creatures of the dragon type.\"}"
+			"::trait{title=\"&L&Dragonslayer&FN&\" type=\"Religion\" religion=\"‹faith/Dahak›\" flavor=\"You're greatly skilled in hunting and slaying those who resemble your lord's favored prey.\" benefit=\"You gain a +1 trait bonus on attack rolls against creatures of the dragon type.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1345,7 +1345,7 @@
 		],
 		"category": "NG-Shelyn",
 		"description": [
-			"::trait{title=\"&L&Ear for Music&FN&\" type=\"Religion\" religion=\"‹faith/Shelyn›\" benefit=\"You spent countless hours of your youth in one of Shelyn's temples, listening to wonderful musicians and singers. You gain a +1 trait bonus on one category of Perform checks and a +2 trait bonus on Knowledge (local) checks that deal with the local art or music scene.\"}"
+			"::trait{title=\"&L&Ear for Music&FN&\" type=\"Religion\" religion=\"‹faith/Shelyn›\" flavor=\"You spent countless hours of your youth in one of Shelyn's temples, listening to wonderful musicians and singers.\" benefit=\"You gain a +1 trait bonus on one category of ‹skill/Perform› checks and a +2 trait bonus on ‹skill/Knowledge (local)› checks that deal with the local art or music scene.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1367,7 +1367,7 @@
 		],
 		"category": "Elven Deities",
 		"description": [
-			"::trait{title=\"&L&Elven Polytheist&FN&\" type=\"Religion\" religion=\"Elven Deities\" benefit=\"Your knowledge of the elven gods has given you a broad perspective, thus granting you a +1 trait bonus on all Knowledge (religion) skill checks, and Knowledge (religion) is always a class skill for you.\"}",
+			"::trait{title=\"&L&Elven Polytheist&FN&\" type=\"Religion\" religion=\"Elven Deities\" benefit=\"Your knowledge of the elven gods has given you a broad perspective, thus granting you a +1 trait bonus on all ‹skill/Knowledge (religion)› skill checks, and Knowledge (religion) is always a class skill for you.\"}",
 			"",
 			":::aside",
 			"",
@@ -1397,7 +1397,7 @@
 		],
 		"category": "Empyreal Lords",
 		"description": [
-			"::trait{title=\"&L&Empyreal Focus&FN&\" type=\"Religion\" religion=\"Empyreal Lords\" benefit=\"The empyreal lord you worship rewards your devotion by granting you an occasional boon. Once per day, before you attempt a skill check, you can use this boon to gain a +2 trait bonus on that skill check.\"}"
+			"::trait{title=\"&L&Empyreal Focus&FN&\" type=\"Religion\" religion=\"Empyreal Lords\" flavor=\"The empyreal lord you worship rewards your devotion by granting you an occasional boon.\" benefit=\"Once per day, before you attempt a skill check, you can use this boon to gain a +2 trait bonus on that skill check.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1406,7 +1406,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "CN-Calistria",
 		"description": [
-			"::trait{title=\"&L&Enchanting Conniver&FN&\" type=\"Religion\" religion=\"‹faith/Calistria›\" benefit=\"You gain a +2 trait bonus on Bluff and Diplomacy checks against creatures affected by one of your charm or compulsion effects.\"}"
+			"::trait{title=\"&L&Enchanting Conniver&FN&\" type=\"Religion\" religion=\"‹faith/Calistria›\" benefit=\"You gain a +2 trait bonus on ‹skill/Bluff› and ‹skill/Diplomacy› checks against creatures affected by one of your charm or compulsion effects.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1415,7 +1415,7 @@
 		"compilationSources": [ [ "Divine Anthology" ] ],
 		"category": "Empyreal Lords-Andoletta",
 		"description": [
-			"::trait{title=\"&L&Enemy of Delusion&FN&\" type=\"Religion\" religion=\"‹faith/Andoletta›\" benefit=\"You were once faced with a grave injustice committed by an ignorant or delusional person, and righteous indignation moved you to correct the mistaken party. Once per day, when you confirm a critical hit against, successfully use a smite attack on, or use lay on hands on a creature that is affected by a charm or compulsion effect, you can invoke Andoletta to open the target's eyes. If the effect originally allowed a saving throw to resist it, the target can attempt a new saving throw against the charm or compulsion; if she's successful, the effect ends immediately.\"}"
+			"::trait{title=\"&L&Enemy of Delusion&FN&\" type=\"Religion\" religion=\"‹faith/Andoletta›\" flavor=\"You were once faced with a grave injustice committed by an ignorant or delusional person, and righteous indignation moved you to correct the mistaken party.\" benefit=\"Once per day, when you confirm a critical hit against, successfully use a *smite* attack on, or use ‹ability/lay on hands› on a creature that is affected by a charm or compulsion effect, you can invoke Andoletta to open the target's eyes. If the effect originally allowed a saving throw to resist it, the target can attempt a new saving throw against the charm or compulsion; if she's successful, the effect ends immediately.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1424,7 +1424,7 @@
 		"compilationSources": [ [ "Healer's Handbook" ] ],
 		"category": "NG-Sarenrae",
 		"description": [
-			"::trait{title=\"&L&Envoy of Healing&FN&\" type=\"Religion\" religion=\"‹faith/Sarenrae›\" benefit=\"You strive to spread the Dawnflower's message of kindness and compassion throughout the land, no matter how dangerous the road may be. Whenever you use channel energy, fervor, or lay on hands to heal a living creature, you can reroll any healing die roll that results in a natural 1 (you must use the new result).\"}"
+			"::trait{title=\"&L&Envoy of Healing&FN&\" type=\"Religion\" religion=\"‹faith/Sarenrae›\" flavor=\"You strive to spread the Dawnflower's message of kindness and compassion throughout the land, no matter how dangerous the road may be.\" benefit=\"Whenever you use ‹ability/channel energy›, *fervor,* or ‹ability/lay on hands› to heal a living creature, you can reroll any healing die roll that results in a natural 1 (you must use the new result).\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1436,7 +1436,7 @@
 		],
 		"category": "LG-Erastil",
 		"description": [
-			"::trait{title=\"&L&Erastil's Speaker&FN&\" type=\"Religion\" religion=\"‹faith/Erastil›\" benefit=\"You understand the importance of keeping the peace in your community, and you have learned how to speak to the faithful in ways that they understand. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy is a class skill for you.\"}"
+			"::trait{title=\"&L&Erastil's Speaker&FN&\" type=\"Religion\" religion=\"‹faith/Erastil›\" flavor=\"You understand the importance of keeping the peace in your community, and you have learned how to speak to the faithful in ways that they understand.\" benefit=\"You gain a +1 trait bonus on ‹skill/Diplomacy› checks, and Diplomacy is a class skill for you.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1445,7 +1445,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "LN-Irori",
 		"description": [
-			"::trait{title=\"&L&Eternal Understanding&FN&\" type=\"Religion\" religion=\"‹faith/Irori›\" benefit=\"Though you haven't been traditionally educated, you're blessed with potent observation and discernment. You can attempt Knowledge checks with a DC of 15 or lower untrained.\"}"
+			"::trait{title=\"&L&Eternal Understanding&FN&\" type=\"Religion\" religion=\"‹faith/Irori›\" flavor=\"Though you haven't been traditionally educated, you're blessed with potent observation and discernment.\" benefit=\"You can attempt ‹skill/Knowledge› checks with a DC of 15 or lower untrained.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1454,7 +1454,7 @@
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
 		"category": "CN-Besmara",
 		"description": [
-			"::trait{title=\"&L&Expert Boarder&FN&\" type=\"Religion\" religion=\"‹faith/Besmara›\" benefit=\"Besmara rewards those who board other vessels and take what they want. While fighting on the deck of a ship, you gain a +1 bonus on all attacks made with one-handed weapons.\"}"
+			"::trait{title=\"&L&Expert Boarder&FN&\" type=\"Religion\" religion=\"‹faith/Besmara›\" flavor=\"Besmara rewards those who board other vessels and take what they want.\" benefit=\"While fighting on the deck of a ship, you gain a +1 bonus on all attacks made with one-handed weapons.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1463,7 +1463,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "Dwarven Deities-Droskar",
 		"description": [
-			"::trait{title=\"&L&Extended Toil&FN&\" type=\"Religion\" religion=\"‹faith/Droskar›\" benefit=\"Your faith teaches you to push magical servants to the limit. When you cast a spell that creates a loyal servant to fulfill a specific or mindless task (such as unseen servant, mount, or spiritual weapon, but not summon monster spells), you may choose to increase its duration by 50%. This does not stack with the ‹feat/Extend Spell› feat. The effect weakens the spell, however; dispel checks against spells you cast in this manner gain a +4 bonus.\"}"
+			"::trait{title=\"&L&Extended Toil&FN&\" type=\"Religion\" religion=\"‹faith/Droskar›\" flavor=\"Your faith teaches you to push magical servants to the limit.\" benefit=\"When you cast a spell that creates a loyal servant to fulfill a specific or mindless task (such as ‹spell/unseen servant›, ‹spell/mount›, or ‹spell/spiritual weapon›, but not ‹spell/summon monster› spells), you may choose to increase its duration by 50%. This does not stack with the ‹feat/Extend Spell› feat. The effect weakens the spell, however; dispel checks against spells you cast in this manner gain a +4 bonus.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1472,7 +1472,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "LN-Abadar",
 		"description": [
-			"::trait{title=\"&L&Eye for Quality&FN&\" type=\"Religion\" religion=\"‹faith/Abadar›\" benefit=\"Your deity has granted you an uncanny ability to find the true worth of items. You gain a +1 trait bonus on Appraise checks, you don't suffer the effects of failing such checks by 5 or more, and Appraise is a class skill for you.\"}"
+			"::trait{title=\"&L&Eye for Quality&FN&\" type=\"Religion\" religion=\"‹faith/Abadar›\" flavor=\"Your deity has granted you an uncanny ability to find the true worth of items.\" benefit=\"You gain a +1 trait bonus on ‹skill/Appraise› checks, you don't suffer the effects of failing such checks by 5 or more, and Appraise is a class skill for you.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1481,7 +1481,7 @@
 		"compilationSources": [ [ "Divine Anthology" ] ],
 		"category": "Empyreal Lords-Arqueros",
 		"description": [
-			"::trait{title=\"&L&Eye of Arqueros&FN&\" type=\"Religion\" religion=\"‹faith/Arqueros›\" benefit=\"You once fell asleep during a task that required your attention. A vision of Arqueros awakened you just in time to avoid failing at your task. You gain a +3 trait bonus on Perception checks attempted while you are alone on guard duty.\"}"
+			"::trait{title=\"&L&Eye of Arqueros&FN&\" type=\"Religion\" religion=\"‹faith/Arqueros›\" flavor=\"You once fell asleep during a task that required your attention. A vision of Arqueros awakened you just in time to avoid failing at your task.\" benefit=\"You gain a +3 trait bonus on ‹skill/Perception› checks attempted while you are alone on guard duty.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1493,7 +1493,7 @@
 		],
 		"category": "LG-Torag",
 		"description": [
-			"::trait{title=\"&L&Eye of the Father&FN&\" type=\"Religion\" religion=\"‹faith/Torag›\" benefit=\"You have an innate sense of what is right and wrong in the works you craft, based on your years studying with the church elders at their forges. Choose one Craft skill; you gain a +1 trait bonus on Craft checks of the selected type.\"}"
+			"::trait{title=\"&L&Eye of the Father&FN&\" type=\"Religion\" religion=\"‹faith/Torag›\" flavor=\"You have an innate sense of what is right and wrong in the works you craft, based on your years studying with the church elders at their forges.\" benefit=\"Choose one ‹skill/Craft› skill; you gain a +1 trait bonus on Craft checks of the selected type.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1506,7 +1506,7 @@
 		],
 		"category": "LN-Abadar",
 		"description": [
-			"::trait{title=\"&L&Eyes and Ears of the City&FN&\" type=\"Religion\" religion=\"‹faith/Abadar›\" benefit=\"Your religious training involved serving in the city watch of a large city, the primary duty of which was standing sentinel on a city wall. You gain a +1 trait bonus on Perception checks, and Perception is always a class skill for you.\"}"
+			"::trait{title=\"&L&Eyes and Ears of the City&FN&\" type=\"Religion\" religion=\"‹faith/Abadar›\" flavor=\"Your religious training involved serving in the city watch of a large city, the primary duty of which was standing sentinel on a city wall.\" benefit=\"You gain a +1 trait bonus on ‹skill/Perception› checks, and Perception is always a class skill for you.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1518,7 +1518,7 @@
 		],
 		"category": "NN-Green Faith",
 		"description": [
-			"::trait{title=\"&L&Eyes of the Wild&FN&\" type=\"Religion\" religion=\"‹faith/Green Faith›\" benefit=\"Having spent much time immersed in the wilderness, you're now attuned to its ways. You gain a +2 trait bonus on Perception checks in natural settings.\"}"
+			"::trait{title=\"&L&Eyes of the Wild&FN&\" type=\"Religion\" religion=\"‹faith/Green Faith›\" flavor=\"Having spent much time immersed in the wilderness, you're now attuned to its ways.\" benefit=\"You gain a +2 trait bonus on ‹skill/Perception› checks in natural settings.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1527,7 +1527,7 @@
 		"compilationSources": [ [ "Sargava, the Lost Colony" ] ],
 		"category": "Azlanti-Aroden",
 		"description": [
-			"::trait{title=\"&L&Faithful Arodenite&FN&\" type=\"Religion\" religion=\"‹faith/Aroden›\" benefit=\"You worship a dead god, and are skilled at making that sound reasonable. You gain a +1 trait bonus on Diplomacy checks; this bonus increases to +3 if you are dealing with a follower of Aroden or Iomedae.\"}"
+			"::trait{title=\"&L&Faithful Arodenite&FN&\" type=\"Religion\" religion=\"‹faith/Aroden›\" flavor=\"You worship a dead god, and are skilled at making that sound reasonable.\" benefit=\"You gain a +1 trait bonus on ‹skill/Diplomacy› checks; this bonus increases to +3 if you are dealing with a follower of Aroden or ‹faith/Iomedae›.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1539,7 +1539,7 @@
 		],
 		"category": "CG-Desna",
 		"description": [
-			"::trait{title=\"&L&Faithful Artist&FN&\" type=\"Religion\" religion=\"‹faith/Desna›\" benefit=\"With Desna's blessing, you have pursued an artistic path. Choose one Perform skill; you gain a +1 trait bonus on Perform checks of the selected type, and Perform is a class skill for you.\"}"
+			"::trait{title=\"&L&Faithful Artist&FN&\" type=\"Religion\" religion=\"‹faith/Desna›\" flavor=\"With Desna's blessing, you have pursued an artistic path.\" benefit=\"Choose one ‹skill/Perform› skill; you gain a +1 trait bonus on Perform checks of the selected type, and Perform is a class skill for you.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1551,7 +1551,7 @@
 		],
 		"category": "NE-Zyphus",
 		"description": [
-			"::trait{title=\"&L&Fatal Trapper&FN&\" type=\"Religion\" religion=\"‹faith/Zyphus›\" benefit=\"Your patron grants you expertise at creating or disabling traps. You gain a +1 trait bonus on Craft (traps) checks, as well as a +1 trait bonus on Disable Device checks to disable traps.\"}"
+			"::trait{title=\"&L&Fatal Trapper&FN&\" type=\"Religion\" religion=\"‹faith/Zyphus›\" flavor=\"Your patron grants you expertise at creating or disabling traps.\" benefit=\"You gain a +1 trait bonus on ‹skill/Craft› (traps) checks, as well as a +1 trait bonus on ‹skill/Disable Device› checks to disable traps.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1560,7 +1560,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "Elven Deities-Ketephys",
 		"description": [
-			"::trait{title=\"&L&Favored Prey&FN&\" type=\"Religion\" religion=\"‹faith/Ketephys›\" benefit=\"Those you track feel the sting of your arrows. You gain a +1 trait bonus on damage rolls when making bow attacks against a creature whose tracks you have successfully followed in the last hour.\"}"
+			"::trait{title=\"&L&Favored Prey&FN&\" type=\"Religion\" religion=\"‹faith/Ketephys›\" flavor=\"Those you track feel the sting of your arrows.\" benefit=\"You gain a +1 trait bonus on damage rolls when making bow attacks against a creature whose tracks you have successfully followed in the last hour.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1572,7 +1572,7 @@
 		],
 		"category": "LE-Asmodeus",
 		"description": [
-			"::trait{title=\"&L&Fiendish Confidence&FN&\" type=\"Religion\" religion=\"‹faith/Asmodeus›\" benefit=\"You expect to be obeyed, and are rarely proven wrong. You gain a +1 trait bonus on Intimidate checks, and Intimidate is a class skill for you.\"}"
+			"::trait{title=\"&L&Fiendish Confidence&FN&\" type=\"Religion\" religion=\"‹faith/Asmodeus›\" flavor=\"You expect to be obeyed, and are rarely proven wrong.\" benefit=\"You gain a +1 trait bonus on ‹skill/Intimidate› checks, and Intimidate is a class skill for you.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1585,7 +1585,7 @@
 		],
 		"category": "NG-Sarenrae",
 		"description": [
-			"::trait{title=\"&L&Flame of the Dawnflower&FN&\" type=\"Religion\" religion=\"‹faith/Sarenrae›\" benefit=\"You have been raised to view yourself as a blade in Sarenrae's service, or you have taken on that duty for yourself. Whenever you score a critical hit with a scimitar, you deal 2 additional points of fire damage to your target.\"}"
+			"::trait{title=\"&L&Flame of the Dawnflower&FN&\" type=\"Religion\" religion=\"‹faith/Sarenrae›\" flavor=\"You have been raised to view yourself as a blade in Sarenrae's service, or you have taken on that duty for yourself.\" benefit=\"Whenever you score a critical hit with a ‹eq-weapon/scimitar›, you deal 2 additional points of fire damage to your target.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1597,7 +1597,7 @@
 		],
 		"category": "Pantheons-Archdevils",
 		"description": [
-			"::trait{title=\"&L&Flames of Hell&FN&\" type=\"Religion\" religion=\"Archdevils\" benefit=\"Your bond with the archdevil you worship strengthens your ability to channel powers of the divine. Add 1 to the DC of saving throws made to resist the effects of your channel energy ability.\"}"
+			"::trait{title=\"&L&Flames of Hell&FN&\" type=\"Religion\" religion=\"Archdevils\" flavor=\"Your bond with the archdevil you worship strengthens your ability to channel powers of the divine.\" benefit=\"Add 1 to the DC of saving throws made to resist the effects of your ‹ability/channel energy› ability.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1606,7 +1606,7 @@
 		"compilationSources": [ [ "Goblins of Golarion" ] ],
 		"category": "Goblin Deities-Zogmugot",
 		"description": [
-			"::trait{title=\"&L&Flounderer&FN&\" type=\"Religion\" religion=\"‹faith/Zogmugot›\" req=\"‹race/Goblin›\" benefit=\"You are adept at swimming and holding your breath. You gain a +1 trait bonus on Swim checks, and can ‹misc/hold your breath› for a number of rounds equal to three times your Constitution score before you risk drowning.\"}"
+			"::trait{title=\"&L&Flounderer&FN&\" type=\"Religion\" religion=\"‹faith/Zogmugot›\" req=\"‹race/Goblin›\" flavor=\"You are adept at swimming and holding your breath.\" benefit=\"You gain a +1 trait bonus on ‹skill/Swim› checks, and can ‹misc/hold your breath› for a number of rounds equal to three times your Constitution score before you risk drowning.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1615,7 +1615,7 @@
 		"compilationSources": [ [ "Divine Anthology" ] ],
 		"category": "Dwarven Deities-Folgrit",
 		"description": [
-			"::trait{title=\"&L&Folgrit's Bounty&FN&\" type=\"Religion\" religion=\"‹faith/Folgrit›\" benefit=\"You were taught to tend the sacred hearth-fire and cook nourishing meals as a child. You gain a +1 trait bonus on Profession (cook) checks and can prepare a nourishing meal of up to eight portions with 1 hour of effort at a cost of 20 gp. Anyone who eats a portion within 1 day (which takes 10 minutes) gains a +1 morale bonus that can be applied to any one skill check or attack roll in the next 8 hours. The bonus must be applied before the roll is made and cannot be renewed by another meal for 1 day.\"}"
+			"::trait{title=\"&L&Folgrit's Bounty&FN&\" type=\"Religion\" religion=\"‹faith/Folgrit›\" flavor=\"You were taught to tend the sacred hearth-fire and cook nourishing meals as a child.\" benefit=\"You gain a +1 trait bonus on ‹skill/Profession› (cook) checks and can prepare a nourishing meal of up to eight portions with 1 hour of effort at a cost of 20 gp. Anyone who eats a portion within 1 day (which takes 10 minutes) gains a +1 morale bonus that can be applied to any one skill check or attack roll in the next 8 hours. The bonus must be applied before the roll is made and cannot be renewed by another meal for 1 day.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1624,7 +1624,7 @@
 		"compilationSources": [ [ "Divine Anthology" ] ],
 		"category": "Dwarven Deities-Folgrit",
 		"description": [
-			"::trait{title=\"&L&Folgrit's Mercy&FN&\" type=\"Religion\" religion=\"‹faith/Folgrit›\" benefit=\"You were called upon to defend your home or family at a vulnerable time and led with a clarity of mind you did not know you had. Once per day when you use lay on hands, you also cure the target of 1d4 points of Intelligence, Wisdom, or Charisma damage. You choose which ability score gains the healing effect.\"}"
+			"::trait{title=\"&L&Folgrit's Mercy&FN&\" type=\"Religion\" religion=\"‹faith/Folgrit›\" flavor=\"You were called upon to defend your home or family at a vulnerable time and led with a clarity of mind you did not know you had.\" benefit=\"Once per day when you use ‹ability/lay on hands›, you also cure the target of 1d4 points of Intelligence, Wisdom, or Charisma damage. You choose which ability score gains the healing effect.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1633,7 +1633,7 @@
 		"compilationSources": [ [ "Wilderness Origins" ] ],
 		"category": "CG-Desna",
 		"description": [
-			"::trait{title=\"&L&Follower of the Stars&FN&\" type=\"Religion\" religion=\"‹faith/Desna›\" benefit=\"You gain a +4 trait bonus when using Survival to navigate under clear skies.\"}"
+			"::trait{title=\"&L&Follower of the Stars&FN&\" type=\"Religion\" religion=\"‹faith/Desna›\" benefit=\"You gain a +4 trait bonus when using ‹skill/Survival› to navigate under clear skies.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1645,7 +1645,7 @@
 		],
 		"category": "CG-Cayden Cailean",
 		"description": [
-			"::trait{title=\"&L&Fortified Drinker&FN&\" type=\"Religion\" religion=\"‹faith/Cayden Cailean›\" benefit=\"Cayden Cailean's holy brews invigorate your mind, making you less susceptible to mental attacks. Whenever you imbibe any alcoholic beverage, you gain a +2 trait bonus on saves against mind-affecting effects for 1 hour.\"}"
+			"::trait{title=\"&L&Fortified Drinker&FN&\" type=\"Religion\" religion=\"‹faith/Cayden Cailean›\" flavor=\"Cayden Cailean's holy brews invigorate your mind, making you less susceptible to mental attacks.\" benefit=\"Whenever you imbibe any alcoholic beverage, you gain a +2 trait bonus on saves against mind-affecting effects for 1 hour.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1657,7 +1657,7 @@
 		],
 		"category": "LE-Achaekek",
 		"description": [
-			"::trait{title=\"&L&Frightening Speed&FN&\" type=\"Religion\" religion=\"‹faith/Achaekek›\" benefit=\"Your careful study of Achaekek's kills has unlocked a divine speed in you. Once per day during a combat encounter, you can move an additional 5 feet as a part of a move action without penalty.\"}"
+			"::trait{title=\"&L&Frightening Speed&FN&\" type=\"Religion\" religion=\"‹faith/Achaekek›\" flavor=\"Your careful study of Achaekek's kills has unlocked a divine speed in you.\" benefit=\"Once per day during a combat encounter, you can move an additional 5 feet as a part of a move action without penalty.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1666,7 +1666,7 @@
 		"compilationSources": [ [ "Blood of the Ancients", 13 ] ],
 		"category": "Azlanti-Jaidi",
 		"description": [
-			"::trait{title=\"&L&Fruits of Your Labor&FN&\" type=\"Religion\" religion=\"‹faith/Jaidi›\" benefit=\"You take pride in providing for your community. Once per day you can serve a meal comprising food you have produced, purchased, or foraged to yourself and up to six other creatures. Serving and consuming this meal takes 10 minutes, during which the other participants can also partake in light activity such as conversation, reading, and keeping watch. Each creature regains 1d3 hit points at the end of the meal, and gains a +1 trait bonus on its next d20 roll using the aid another action to assist other creatures who consumed the meal. The +1 trait bonus lasts 24 hours, and a creature can gain that bonus on its next d20 roll to assist other creatures from this trait only once per day.\"}"
+			"::trait{title=\"&L&Fruits of Your Labor&FN&\" type=\"Religion\" religion=\"‹faith/Jaidi›\" flavor=\"You take pride in providing for your community.\" benefit=\"Once per day you can serve a meal comprising food you have produced, purchased, or foraged to yourself and up to six other creatures. Serving and consuming this meal takes 10 minutes, during which the other participants can also partake in light activity such as conversation, reading, and keeping watch.~~~Each creature regains 1d3 hit points at the end of the meal, and gains a +1 trait bonus on its next d20 roll using the ‹rule/aid another› action to assist other creatures who consumed the meal. The +1 trait bonus lasts 24 hours, and a creature can gain that bonus on its next d20 roll to assist other creatures from this trait only once per day.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1675,7 +1675,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "Dwarven Deities-Dranngvit",
 		"description": [
-			"::trait{title=\"&L&Furious Vengeance&FN&\" type=\"Religion\" religion=\"‹faith/Dranngvit›\" benefit=\"Once wronged, your vengeance can be swift and brutal. Once per day as an immediate action, you gain a +1 trait bonus on a single attack roll. In addition, if the target has damaged you within the last round, you deal 1 additional point of damage on a successful hit. You must choose to use this ability before making the attack roll.\"}"
+			"::trait{title=\"&L&Furious Vengeance&FN&\" type=\"Religion\" religion=\"‹faith/Dranngvit›\" flavor=\"Once wronged, your vengeance can be swift and brutal.\" benefit=\"Once per day as an @HLimmediate_action, you gain a +1 trait bonus on a single attack roll. In addition, if the target has damaged you within the last round, you deal 1 additional point of damage on a successful hit. You must choose to use this ability before making the attack roll.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1684,7 +1684,7 @@
 		"compilationSources": [ [ "Orcs of Golarion" ] ],
 		"category": "CE-Rovagug",
 		"description": [
-			"::trait{title=\"&L&Fury&FN&\" type=\"Religion\" religion=\"‹faith/Rovagug›\" benefit=\"The flood of battle and destruction stirs deep within you. When wielding a greataxe, you receive a +2 trait bonus on attack rolls to confirm critical hits.\"}"
+			"::trait{title=\"&L&Fury&FN&\" type=\"Religion\" religion=\"‹faith/Rovagug›\" flavor=\"The flood of battle and destruction stirs deep within you.\" benefit=\"When wielding a ‹eq-weapon/greataxe›, you receive a +2 trait bonus on attack rolls to confirm critical hits.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -2932,6 +2932,19 @@
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
+
+
+
+
+
+
+
+
+
+
+
+
+
 	"anxious": {
 		"name": "Anxious",
 		"compilationSources": [ [ "Quests and Campaigns" ] ],
@@ -3526,6 +3539,12 @@
 		"category": "Drawback",
 		"topLink": [ "Drawback Traits", "main/traits_drawback" ]
 	},
+
+
+
+
+
+
 	"the_thrush": {
 		"name": "The Thrush",
 		"compilationSources": [ [ "Occult Mysteries", 37 ] ],

@@ -1155,25 +1155,29 @@ const _traits_religion_empyreal_lords = {title: "Religion Traits: Empyreal Lords
 <Pair single id="traitempyrealfocus-empyreal-focus-fn1-fn2"><Link to="/trait/empyreal_focus">⮞</Link> Empyreal Focus <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-1" id="main-traits_religion_empyreal_lords-fake-fn-1" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-2" id="main-traits_religion_empyreal_lords-fake-fn-2" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Empyreal Lords</Pair>
-<Pair single="benefit" id="traitempyrealfocus-empyreal-focus-fn1-fn2-benefit">The empyreal lord you worship rewards your devotion by granting you an occasional boon. Once per day, before you attempt a skill check, you can use this boon to gain a +2 trait bonus on that skill check.</Pair>
+<Pair single="flavor" id="traitempyrealfocus-empyreal-focus-fn1-fn2-flavor">The empyreal lord you worship rewards your devotion by granting you an occasional boon.</Pair>
+<Pair single="benefit" id="traitempyrealfocus-empyreal-focus-fn1-fn2-benefit">Once per day, before you attempt a skill check, you can use this boon to gain a +2 trait bonus on that skill check.</Pair>
 </Ability>
 <Ability id="traitandolettasconsolation-andolettas-consolation-fn3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitandolettasconsolation-andolettas-consolation-fn3"><Link to="/trait/andolettas_consolation">⮞</Link> Andoletta's Consolation <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-3" id="main-traits_religion_empyreal_lords-fake-fn-3" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/andoletta">Andoletta</Link></Pair>
-<Pair single="benefit" id="traitandolettasconsolation-andolettas-consolation-fn3-benefit">You had a close encounter with a servant or worshiper of Andoletta who provided you with a memorable, if unconventional, consolation after a loss. As a result, you gain a +2 trait bonus on saving throws against emotion and fear effects. If you are immune to fear, you instead gain a +4 trait bonus on saves against emotion effects.</Pair>
+<Pair single="flavor" id="traitandolettasconsolation-andolettas-consolation-fn3-flavor">You had a close encounter with a servant or worshiper of Andoletta who provided you with a memorable, if unconventional, consolation after a loss.</Pair>
+<Pair single="benefit" id="traitandolettasconsolation-andolettas-consolation-fn3-benefit">You gain a +2 trait bonus on saving throws against emotion and fear effects. If you are immune to fear, you instead gain a +4 trait bonus on saves against emotion effects.</Pair>
 </Ability>
 <Ability id="traitenemyofdelusion-enemy-of-delusion-fn3-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitenemyofdelusion-enemy-of-delusion-fn3-2"><Link to="/trait/enemy_of_delusion">⮞</Link> Enemy of Delusion <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-3.2" id="main-traits_religion_empyreal_lords-fake-fn-3.2" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/andoletta">Andoletta</Link></Pair>
-<Pair single="benefit" id="traitenemyofdelusion-enemy-of-delusion-fn3-2-benefit">You were once faced with a grave injustice committed by an ignorant or delusional person, and righteous indignation moved you to correct the mistaken party. Once per day, when you confirm a critical hit against, successfully use a smite attack on, or use lay on hands on a creature that is affected by a charm or compulsion effect, you can invoke Andoletta to open the target's eyes. If the effect originally allowed a saving throw to resist it, the target can attempt a new saving throw against the charm or compulsion; if she's successful, the effect ends immediately.</Pair>
+<Pair single="flavor" id="traitenemyofdelusion-enemy-of-delusion-fn3-2-flavor">You were once faced with a grave injustice committed by an ignorant or delusional person, and righteous indignation moved you to correct the mistaken party.</Pair>
+<Pair single="benefit" id="traitenemyofdelusion-enemy-of-delusion-fn3-2-benefit">Once per day, when you confirm a critical hit against, successfully use a <em>smite</em> attack on, or use <Link to="/ability/lay_on_hands">lay on hands</Link> on a creature that is affected by a charm or compulsion effect, you can invoke Andoletta to open the target's eyes. If the effect originally allowed a saving throw to resist it, the target can attempt a new saving throw against the charm or compulsion; if she's successful, the effect ends immediately.</Pair>
 </Ability>
 <Ability id="traiteyeofarqueros-eye-of-arqueros-fn3-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traiteyeofarqueros-eye-of-arqueros-fn3-3"><Link to="/trait/eye_of_arqueros">⮞</Link> Eye of Arqueros <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-3.3" id="main-traits_religion_empyreal_lords-fake-fn-3.3" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/arqueros">Arqueros</Link></Pair>
-<Pair single="benefit" id="traiteyeofarqueros-eye-of-arqueros-fn3-3-benefit">You once fell asleep during a task that required your attention. A vision of Arqueros awakened you just in time to avoid failing at your task. You gain a +3 trait bonus on Perception checks attempted while you are alone on guard duty.</Pair>
+<Pair single="flavor" id="traiteyeofarqueros-eye-of-arqueros-fn3-3-flavor">You once fell asleep during a task that required your attention. A vision of Arqueros awakened you just in time to avoid failing at your task.</Pair>
+<Pair single="benefit" id="traiteyeofarqueros-eye-of-arqueros-fn3-3-benefit">You gain a +3 trait bonus on <Link to="/skill/perception">Perception</Link> checks attempted while you are alone on guard duty.</Pair>
 </Ability>
 <Ability id="traitlivingbulwark-living-bulwark-fn3-4" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitlivingbulwark-living-bulwark-fn3-4"><Link to="/trait/living_bulwark">⮞</Link> Living Bulwark <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-3.4" id="main-traits_religion_empyreal_lords-fake-fn-3.4" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3-target">3</InnerLink></sup></Pair>
@@ -1191,7 +1195,8 @@ const _traits_religion_empyreal_lords = {title: "Religion Traits: Empyreal Lords
 <Pair single id="traitavowedinspiration-avowed-inspiration-fn3-5"><Link to="/trait/avowed_inspiration">⮞</Link> Avowed Inspiration <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-3.5" id="main-traits_religion_empyreal_lords-fake-fn-3.5" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ragathiel">Ragathiel</Link></Pair>
-<Pair single="benefit" id="traitavowedinspiration-avowed-inspiration-fn3-5-benefit">In emulation of the empyreal lord's intensely channeled rage, you are an inspiration on the battlefield. Once per day, when you attack a foe who injured you during the same combat, you can inspire allies who can see you as a move action. Each other ally within 30 feet who can see you gains a +2 morale bonus on her next attack roll.</Pair>
+<Pair single="flavor" id="traitavowedinspiration-avowed-inspiration-fn3-5-flavor">In emulation of the empyreal lord's intensely channeled rage, you are an inspiration on the battlefield.</Pair>
+<Pair single="benefit" id="traitavowedinspiration-avowed-inspiration-fn3-5-benefit">Once per day, when you attack a foe who injured you during the same combat, you can inspire allies who can see you as a <strong className="hl">move action</strong>. Each other ally within 30 feet who can see you gains a +2 morale bonus on her next attack roll.</Pair>
 </Ability>
 <Ability id="traitredeemedbyragathiel-redeemed-by-ragathiel-fn3-6" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitredeemedbyragathiel-redeemed-by-ragathiel-fn3-6"><Link to="/trait/redeemed_by_ragathiel">⮞</Link> Redeemed by Ragathiel <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-3.6" id="main-traits_religion_empyreal_lords-fake-fn-3.6" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3-target">3</InnerLink></sup></Pair>
@@ -1203,13 +1208,15 @@ const _traits_religion_empyreal_lords = {title: "Religion Traits: Empyreal Lords
 <Pair single id="traitblindzeal-blind-zeal-fn3-7"><Link to="/trait/blind_zeal">⮞</Link> Blind Zeal <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-3.7" id="main-traits_religion_empyreal_lords-fake-fn-3.7" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/vildeis">Vildeis</Link></Pair>
-<Pair single="benefit" id="traitblindzeal-blind-zeal-fn3-7-benefit">You are blind but trained by followers of Vildeis to sense your surroundings by sound and touch. You need not attempt a skill check to move at full speed. You take a -4 penalty from blindness on only Acrobatics, Ride, Sleight of Hand, and Stealth checks. You gain <Link to="/feat/blind_fight">Blind-Fight</Link> as a bonus feat. You lose the benefits of this trait whenever you can see, but regain them if you once again become blind.</Pair>
+<Pair single="flavor" id="traitblindzeal-blind-zeal-fn3-7-flavor">You are blind but trained by followers of Vildeis to sense your surroundings by sound and touch. You need not attempt a skill check to move at full speed.</Pair>
+<Pair single="benefit" id="traitblindzeal-blind-zeal-fn3-7-benefit">You take a -4 penalty from <Link to="/misc/blindness">blindness</Link> on only <Link to="/skill/acrobatics">Acrobatics</Link>, <Link to="/skill/ride">Ride</Link>, <Link to="/skill/sleight_of_hand">Sleight of Hand</Link>, and <Link to="/skill/stealth">Stealth</Link> checks. You gain <Link to="/feat/blind_fight">Blind-Fight</Link> as a bonus feat. You lose the benefits of this trait whenever you can see, but regain them if you once again become blind.</Pair>
 </Ability>
 <Ability id="traitbloodyvengeance-bloody-vengeance-fn4-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitbloodyvengeance-bloody-vengeance-fn4-2"><Link to="/trait/bloody_vengeance">⮞</Link> Bloody Vengeance <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-4.2" id="main-traits_religion_empyreal_lords-fake-fn-4.2" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/vildeis">Vildeis</Link></Pair>
-<Pair single="benefit" id="traitbloodyvengeance-bloody-vengeance-fn4-2-benefit">You were slain by evil forces as a child, but a follower of Vildeis restored you to life. Now you live on in service to the Cardinal Martyr, battling the forces of evil so no other child will know the icy grip of death. You gain a +2 trait bonus on attack rolls to confirm critical hits against any creature that has at least a faint evil aura (see <Link to="/spell/detect_evil">detect evil</Link>).</Pair>
+<Pair single="flavor" id="traitbloodyvengeance-bloody-vengeance-fn4-2-flavor">You were slain by evil forces as a child, but a follower of Vildeis restored you to life. Now you live on in service to the Cardinal Martyr, battling the forces of evil so no other child will know the icy grip of death.</Pair>
+<Pair single="benefit" id="traitbloodyvengeance-bloody-vengeance-fn4-2-benefit">You gain a +2 trait bonus on attack rolls to confirm critical hits against any creature that has at least a faint evil aura (see <Link to="/spell/detect_evil">detect evil</Link>).</Pair>
 </Ability>
 <Ability id="traitresilientmartyr-resilient-martyr-fn3-8" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitresilientmartyr-resilient-martyr-fn3-8"><Link to="/trait/resilient_martyr">⮞</Link> Resilient Martyr <sup><InnerLink showBacklink="backlink-main-traits_religion_empyreal_lords-fake-fn-3.8" id="main-traits_religion_empyreal_lords-fake-fn-3.8" data-hash-target to="main-traits_religion_empyreal_lords-fake-fn-3-target">3</InnerLink></sup></Pair>
@@ -1233,19 +1240,22 @@ const _traits_religion_dwarven = {title: "Religion Traits: Dwarven Deities", jsx
 <Pair single id="traitangraddsflame-angradds-flame-fn3"><Link to="/trait/angradds_flame">⮞</Link> Angradd's Flame <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-3" id="main-traits_religion_dwarven-fake-fn-3" data-hash-target to="main-traits_religion_dwarven-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link></Pair>
-<Pair single="benefit" id="traitangraddsflame-angradds-flame-fn3-benefit">Your faith in the Forge-Fire fans the passionate flames of war in your heart. Whenever you confirm a critical hit, you deal 1 additional point of damage to your target. This damage is considered precision damage.</Pair>
+<Pair single="flavor" id="traitangraddsflame-angradds-flame-fn3-flavor">Your faith in the Forge-Fire fans the passionate flames of war in your heart.</Pair>
+<Pair single="benefit" id="traitangraddsflame-angradds-flame-fn3-benefit">Whenever you confirm a critical hit, you deal 1 additional point of damage to your target. This damage is considered <Link to="/misc/precision_damage">precision damage</Link>.</Pair>
 </Ability>
 <Ability id="traitangraddsvalor-angradds-valor-fn4" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitangraddsvalor-angradds-valor-fn4"><Link to="/trait/angradds_valor">⮞</Link> Angradd's Valor <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-4" id="main-traits_religion_dwarven-fake-fn-4" data-hash-target to="main-traits_religion_dwarven-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link></Pair>
-<Pair single="benefit" id="traitangraddsvalor-angradds-valor-fn4-benefit">You hope to earn a place at Angradd's side after death and are inspired to charge with all your might into any righteous battle. You gain a +1 trait bonus on all melee attack rolls when you charge.</Pair>
+<Pair single="flavor" id="traitangraddsvalor-angradds-valor-fn4-flavor">You hope to earn a place at Angradd's side after death and are inspired to charge with all your might into any righteous battle.</Pair>
+<Pair single="benefit" id="traitangraddsvalor-angradds-valor-fn4-benefit">You gain a +1 trait bonus on all melee attack rolls when you charge.</Pair>
 </Ability>
 <Ability id="traitbattlefieldcaster-battlefield-caster-fn5" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitbattlefieldcaster-battlefield-caster-fn5"><Link to="/trait/battlefield_caster">⮞</Link> Battlefield Caster <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-5" id="main-traits_religion_dwarven-fake-fn-5" data-hash-target to="main-traits_religion_dwarven-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link>, <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/torag">Torag</Link>, or <Link to="/faith/trudd">Trudd</Link></Pair>
-<Pair single="benefit" id="traitbattlefieldcaster-battlefield-caster-fn5-benefit">Your faith protects you even as you unleash spells in the thick of battle. You receive a +1 trait bonus on <Link to="/rule/concentration">concentration</Link> checks to cast defensively and a +1 trait bonus to AC against attacks provoked by or readied against spellcasting.</Pair>
+<Pair single="flavor" id="traitbattlefieldcaster-battlefield-caster-fn5-flavor">Your faith protects you even as you unleash spells in the thick of battle.</Pair>
+<Pair single="benefit" id="traitbattlefieldcaster-battlefield-caster-fn5-benefit">You receive a +1 trait bonus on <Link to="/rule/concentration">concentration</Link> checks to cast defensively and a +1 trait bonus to AC against attacks provoked by or readied against spellcasting.</Pair>
 </Ability>
 <Ability id="traitrousingcourage-rousing-courage-fn4-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitrousingcourage-rousing-courage-fn4-2"><Link to="/trait/rousing_courage">⮞</Link> Rousing Courage <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-4.2" id="main-traits_religion_dwarven-fake-fn-4.2" data-hash-target to="main-traits_religion_dwarven-fake-fn-4-target">4</InnerLink></sup></Pair>
@@ -1263,7 +1273,8 @@ const _traits_religion_dwarven = {title: "Religion Traits: Dwarven Deities", jsx
 <Pair single id="traitalluring-alluring-fn5-2"><Link to="/trait/alluring">⮞</Link> Alluring <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-5.2" id="main-traits_religion_dwarven-fake-fn-5.2" data-hash-target to="main-traits_religion_dwarven-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/bolka">Bolka</Link></Pair>
-<Pair single="benefit" id="traitalluring-alluring-fn5-2-benefit">You have the art of turning a passing glance into love. You receive a +2 trait bonus on Diplomacy checks with those who find you attractive. You can use <Link to="/spell/daze">daze</Link> once per day as a spell-like ability, with a caster level equal to your character level.</Pair>
+<Pair single="flavor" id="traitalluring-alluring-fn5-2-flavor">You have the art of turning a passing glance into love.</Pair>
+<Pair single="benefit" id="traitalluring-alluring-fn5-2-benefit">You receive a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks with those who find you attractive. You can use <Link to="/spell/daze">daze</Link> once per day as a spell-like ability, with a caster level equal to your character level.</Pair>
 </Ability>
 <Ability id="traitweddedbliss-wedded-bliss-fn1-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitweddedbliss-wedded-bliss-fn1-3"><Link to="/trait/wedded_bliss">⮞</Link> Wedded Bliss <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-1.3" id="main-traits_religion_dwarven-fake-fn-1.3" data-hash-target to="main-traits_religion_dwarven-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -1275,13 +1286,15 @@ const _traits_religion_dwarven = {title: "Religion Traits: Dwarven Deities", jsx
 <Pair single id="traitfuriousvengeance-furious-vengeance-fn1-4"><Link to="/trait/furious_vengeance">⮞</Link> Furious Vengeance <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-1.4" id="main-traits_religion_dwarven-fake-fn-1.4" data-hash-target to="main-traits_religion_dwarven-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/dranngvit">Dranngvit</Link></Pair>
-<Pair single="benefit" id="traitfuriousvengeance-furious-vengeance-fn1-4-benefit">Once wronged, your vengeance can be swift and brutal. Once per day as an immediate action, you gain a +1 trait bonus on a single attack roll. In addition, if the target has damaged you within the last round, you deal 1 additional point of damage on a successful hit. You must choose to use this ability before making the attack roll.</Pair>
+<Pair single="flavor" id="traitfuriousvengeance-furious-vengeance-fn1-4-flavor">Once wronged, your vengeance can be swift and brutal.</Pair>
+<Pair single="benefit" id="traitfuriousvengeance-furious-vengeance-fn1-4-benefit">Once per day as an <strong className="hl">immediate action</strong>, you gain a +1 trait bonus on a single attack roll. In addition, if the target has damaged you within the last round, you deal 1 additional point of damage on a successful hit. You must choose to use this ability before making the attack roll.</Pair>
 </Ability>
 <Ability id="traitextendedtoil-extended-toil-fn1-5" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitextendedtoil-extended-toil-fn1-5"><Link to="/trait/extended_toil">⮞</Link> Extended Toil <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-1.5" id="main-traits_religion_dwarven-fake-fn-1.5" data-hash-target to="main-traits_religion_dwarven-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/droskar">Droskar</Link></Pair>
-<Pair single="benefit" id="traitextendedtoil-extended-toil-fn1-5-benefit">Your faith teaches you to push magical servants to the limit. When you cast a spell that creates a loyal servant to fulfill a specific or mindless task (such as unseen servant, mount, or spiritual weapon, but not summon monster spells), you may choose to increase its duration by 50%. This does not stack with the <Link to="/feat/extend_spell">Extend Spell</Link> feat. The effect weakens the spell, however; dispel checks against spells you cast in this manner gain a +4 bonus.</Pair>
+<Pair single="flavor" id="traitextendedtoil-extended-toil-fn1-5-flavor">Your faith teaches you to push magical servants to the limit.</Pair>
+<Pair single="benefit" id="traitextendedtoil-extended-toil-fn1-5-benefit">When you cast a spell that creates a loyal servant to fulfill a specific or mindless task (such as <Link to="/spell/unseen_servant">unseen servant</Link>, <Link to="/spell/mount">mount</Link>, or <Link to="/spell/spiritual_weapon">spiritual weapon</Link>, but not <Link to="/spell/summon_monster">summon monster</Link> spells), you may choose to increase its duration by 50%. This does not stack with the <Link to="/feat/extend_spell">Extend Spell</Link> feat. The effect weakens the spell, however; dispel checks against spells you cast in this manner gain a +4 bonus.</Pair>
 </Ability>
 <Ability id="traitresigned-resigned-fn5-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitresigned-resigned-fn5-3"><Link to="/trait/resigned">⮞</Link> Resigned <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-5.3" id="main-traits_religion_dwarven-fake-fn-5.3" data-hash-target to="main-traits_religion_dwarven-fake-fn-5-target">5</InnerLink></sup></Pair>
@@ -1299,19 +1312,22 @@ const _traits_religion_dwarven = {title: "Religion Traits: Dwarven Deities", jsx
 <Pair single id="traitblessedorphan-blessed-orphan-fn1-6"><Link to="/trait/blessed_orphan">⮞</Link> Blessed Orphan <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-1.6" id="main-traits_religion_dwarven-fake-fn-1.6" data-hash-target to="main-traits_religion_dwarven-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/folgrit">Folgrit</Link></Pair>
-<Pair single="benefit" id="traitblessedorphan-blessed-orphan-fn1-6-benefit">As an orphan, you have always looked to Folgrit for protection. Once per day, you gain a +1 trait bonus on any saving throw. You must use this ability after the roll is made but before the result is revealed.</Pair>
+<Pair single="flavor" id="traitblessedorphan-blessed-orphan-fn1-6-flavor">As an orphan, you have always looked to Folgrit for protection.</Pair>
+<Pair single="benefit" id="traitblessedorphan-blessed-orphan-fn1-6-benefit">Once per day, you gain a +1 trait bonus on any saving throw. You must use this ability after the roll is made but before the result is revealed.</Pair>
 </Ability>
 <Ability id="traitfolgritsbounty-folgrits-bounty-fn4-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitfolgritsbounty-folgrits-bounty-fn4-3"><Link to="/trait/folgrits_bounty">⮞</Link> Folgrit's Bounty <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-4.3" id="main-traits_religion_dwarven-fake-fn-4.3" data-hash-target to="main-traits_religion_dwarven-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/folgrit">Folgrit</Link></Pair>
-<Pair single="benefit" id="traitfolgritsbounty-folgrits-bounty-fn4-3-benefit">You were taught to tend the sacred hearth-fire and cook nourishing meals as a child. You gain a +1 trait bonus on Profession (cook) checks and can prepare a nourishing meal of up to eight portions with 1 hour of effort at a cost of 20 gp. Anyone who eats a portion within 1 day (which takes 10 minutes) gains a +1 morale bonus that can be applied to any one skill check or attack roll in the next 8 hours. The bonus must be applied before the roll is made and cannot be renewed by another meal for 1 day.</Pair>
+<Pair single="flavor" id="traitfolgritsbounty-folgrits-bounty-fn4-3-flavor">You were taught to tend the sacred hearth-fire and cook nourishing meals as a child.</Pair>
+<Pair single="benefit" id="traitfolgritsbounty-folgrits-bounty-fn4-3-benefit">You gain a +1 trait bonus on <Link to="/skill/profession">Profession</Link> (cook) checks and can prepare a nourishing meal of up to eight portions with 1 hour of effort at a cost of 20 gp. Anyone who eats a portion within 1 day (which takes 10 minutes) gains a +1 morale bonus that can be applied to any one skill check or attack roll in the next 8 hours. The bonus must be applied before the roll is made and cannot be renewed by another meal for 1 day.</Pair>
 </Ability>
 <Ability id="traitfolgritsmercy-folgrits-mercy-fn4-4" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitfolgritsmercy-folgrits-mercy-fn4-4"><Link to="/trait/folgrits_mercy">⮞</Link> Folgrit's Mercy <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-4.4" id="main-traits_religion_dwarven-fake-fn-4.4" data-hash-target to="main-traits_religion_dwarven-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/folgrit">Folgrit</Link></Pair>
-<Pair single="benefit" id="traitfolgritsmercy-folgrits-mercy-fn4-4-benefit">You were called upon to defend your home or family at a vulnerable time and led with a clarity of mind you did not know you had. Once per day when you use lay on hands, you also cure the target of 1d4 points of Intelligence, Wisdom, or Charisma damage. You choose which ability score gains the healing effect.</Pair>
+<Pair single="flavor" id="traitfolgritsmercy-folgrits-mercy-fn4-4-flavor">You were called upon to defend your home or family at a vulnerable time and led with a clarity of mind you did not know you had.</Pair>
+<Pair single="benefit" id="traitfolgritsmercy-folgrits-mercy-fn4-4-benefit">Once per day when you use <Link to="/ability/lay_on_hands">lay on hands</Link>, you also cure the target of 1d4 points of Intelligence, Wisdom, or Charisma damage. You choose which ability score gains the healing effect.</Pair>
 </Ability>
 <Ability id="traithoneyedwords-honeyed-words-fn5-5" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traithoneyedwords-honeyed-words-fn5-5"><Link to="/trait/honeyed_words">⮞</Link> Honeyed Words <sup><InnerLink showBacklink="backlink-main-traits_religion_dwarven-fake-fn-5.5" id="main-traits_religion_dwarven-fake-fn-5.5" data-hash-target to="main-traits_religion_dwarven-fake-fn-5-target">5</InnerLink></sup></Pair>
@@ -1378,7 +1394,7 @@ const _traits_religion_elven = {title: "Religion Traits: Elven Deities", jsx: <I
 <Pair single id="traitelvenpolytheist-elven-polytheist-fn1-fn2"><Link to="/trait/elven_polytheist">⮞</Link> Elven Polytheist <sup><InnerLink showBacklink="backlink-main-traits_religion_elven-fake-fn-1" id="main-traits_religion_elven-fake-fn-1" data-hash-target to="main-traits_religion_elven-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_elven-fake-fn-2" id="main-traits_religion_elven-fake-fn-2" data-hash-target to="main-traits_religion_elven-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Elven Deities</Pair>
-<Pair single="benefit" id="traitelvenpolytheist-elven-polytheist-fn1-fn2-benefit">Your knowledge of the elven gods has given you a broad perspective, thus granting you a +1 trait bonus on all Knowledge (religion) skill checks, and Knowledge (religion) is always a class skill for you.</Pair>
+<Pair single="benefit" id="traitelvenpolytheist-elven-polytheist-fn1-fn2-benefit">Your knowledge of the elven gods has given you a broad perspective, thus granting you a +1 trait bonus on all <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> skill checks, and Knowledge (religion) is always a class skill for you.</Pair>
 </Ability>
 <aside><p>This trait was published as "Elven Pantheist" in <em>Faiths and Purity</em>.</p>
 </aside><Ability id="traitsovyrianpantheist-sovyrian-pantheist-fn3" extraClasses="trait" icon={["prayer"]}>
@@ -1398,7 +1414,8 @@ const _traits_religion_elven = {title: "Religion Traits: Elven Deities", jsx: <I
 <Pair single id="traitfavoredprey-favored-prey-fn2-3"><Link to="/trait/favored_prey">⮞</Link> Favored Prey <sup><InnerLink showBacklink="backlink-main-traits_religion_elven-fake-fn-2.3" id="main-traits_religion_elven-fake-fn-2.3" data-hash-target to="main-traits_religion_elven-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ketephys">Ketephys</Link></Pair>
-<Pair single="benefit" id="traitfavoredprey-favored-prey-fn2-3-benefit">Those you track feel the sting of your arrows. You gain a +1 trait bonus on damage rolls when making bow attacks against a creature whose tracks you have successfully followed in the last hour.</Pair>
+<Pair single="flavor" id="traitfavoredprey-favored-prey-fn2-3-flavor">Those you track feel the sting of your arrows.</Pair>
+<Pair single="benefit" id="traitfavoredprey-favored-prey-fn2-3-benefit">You gain a +1 trait bonus on damage rolls when making bow attacks against a creature whose tracks you have successfully followed in the last hour.</Pair>
 </Ability>
 <Ability id="traitgemstonecollector-gemstone-collector-fn4" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitgemstonecollector-gemstone-collector-fn4"><Link to="/trait/gemstone_collector">⮞</Link> Gemstone Collector <sup><InnerLink showBacklink="backlink-main-traits_religion_elven-fake-fn-4" id="main-traits_religion_elven-fake-fn-4" data-hash-target to="main-traits_religion_elven-fake-fn-4-target">4</InnerLink></sup></Pair>
@@ -1428,19 +1445,24 @@ const _traits_religion_azlanti = {title: "Religion Traits: Azlanti Gods", jsx: <
 <Pair single id="traitclockworksurgeon-clockwork-surgeon-fn1"><Link to="/trait/clockwork_surgeon">⮞</Link> Clockwork Surgeon <sup><InnerLink showBacklink="backlink-main-traits_religion_azlanti-fake-fn-1" id="main-traits_religion_azlanti-fake-fn-1" data-hash-target to="main-traits_religion_azlanti-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/aesocar">Aesocar</Link></Pair>
-<Pair single="benefit" id="traitclockworksurgeon-clockwork-surgeon-fn1-benefit">Thanks to your medical innovations, you can perform especially comprehensive or speedy surgeries. You begin play with a special healer's kit at no cost and can fully restock your kit by expending materials worth 10 gp and spending 8 hours assembling medical devices. When using this healer's kit to treat deadly wounds, you can either halve the time required to perform the action or add your Intelligence modifier to the number of hit points healed.</Pair>
+<Pair single="flavor" id="traitclockworksurgeon-clockwork-surgeon-fn1-flavor">Thanks to your medical innovations, you can perform especially comprehensive or speedy surgeries.</Pair>
+<Pair single="benefit" id="traitclockworksurgeon-clockwork-surgeon-fn1-benefit"><p>You begin play with a special <Link to="/eq-misc/healers_kit">healer's kit</Link> at no cost and can fully restock your kit by expending materials worth 10 gp and spending 8 hours assembling medical devices.</p>
+<p>When using this healer's kit to treat deadly wounds, you can either halve the time required to perform the action or add your Intelligence modifier to the number of hit points healed.</p>
+</Pair>
 </Ability>
 <Ability id="traitdevoteeofadeadgod-devotee-of-a-dead-god-fn2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitdevoteeofadeadgod-devotee-of-a-dead-god-fn2"><Link to="/trait/devotee_of_a_dead_god">⮞</Link> Devotee of a Dead God <sup><InnerLink showBacklink="backlink-main-traits_religion_azlanti-fake-fn-2" id="main-traits_religion_azlanti-fake-fn-2" data-hash-target to="main-traits_religion_azlanti-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/aroden">Aroden</Link></Pair>
-<Pair single="benefit" id="traitdevoteeofadeadgod-devotee-of-a-dead-god-fn2-benefit">You simply cannot and will not accept that Aroden is dead. Your faith in his teachings and religion are stronger than ever. You gain a +1 trait bonus on Diplomacy checks and Knowledge (religion) checks. One of these skills (your choice) is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitdevoteeofadeadgod-devotee-of-a-dead-god-fn2-flavor">You simply cannot and will not accept that Aroden is dead. Your faith in his teachings and religion are stronger than ever.</Pair>
+<Pair single="benefit" id="traitdevoteeofadeadgod-devotee-of-a-dead-god-fn2-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks and <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> checks. One of these skills (your choice) is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traitfaithfularodenite-faithful-arodenite-fn3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitfaithfularodenite-faithful-arodenite-fn3"><Link to="/trait/faithful_arodenite">⮞</Link> Faithful Arodenite <sup><InnerLink showBacklink="backlink-main-traits_religion_azlanti-fake-fn-3" id="main-traits_religion_azlanti-fake-fn-3" data-hash-target to="main-traits_religion_azlanti-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/aroden">Aroden</Link></Pair>
-<Pair single="benefit" id="traitfaithfularodenite-faithful-arodenite-fn3-benefit">You worship a dead god, and are skilled at making that sound reasonable. You gain a +1 trait bonus on Diplomacy checks; this bonus increases to +3 if you are dealing with a follower of Aroden or Iomedae.</Pair>
+<Pair single="flavor" id="traitfaithfularodenite-faithful-arodenite-fn3-flavor">You worship a dead god, and are skilled at making that sound reasonable.</Pair>
+<Pair single="benefit" id="traitfaithfularodenite-faithful-arodenite-fn3-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks; this bonus increases to +3 if you are dealing with a follower of Aroden or <Link to="/faith/iomedae">Iomedae</Link>.</Pair>
 </Ability>
 <Ability id="traitsacredorienteer-sacred-orienteer-fn1-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitsacredorienteer-sacred-orienteer-fn1-2"><Link to="/trait/sacred_orienteer">⮞</Link> Sacred Orienteer <sup><InnerLink showBacklink="backlink-main-traits_religion_azlanti-fake-fn-1.2" id="main-traits_religion_azlanti-fake-fn-1.2" data-hash-target to="main-traits_religion_azlanti-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -1452,7 +1474,10 @@ const _traits_religion_azlanti = {title: "Religion Traits: Azlanti Gods", jsx: <
 <Pair single id="traitfruitsofyourlabor-fruits-of-your-labor-fn1-3"><Link to="/trait/fruits_of_your_labor">⮞</Link> Fruits of Your Labor <sup><InnerLink showBacklink="backlink-main-traits_religion_azlanti-fake-fn-1.3" id="main-traits_religion_azlanti-fake-fn-1.3" data-hash-target to="main-traits_religion_azlanti-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/jaidi">Jaidi</Link></Pair>
-<Pair single="benefit" id="traitfruitsofyourlabor-fruits-of-your-labor-fn1-3-benefit">You take pride in providing for your community. Once per day you can serve a meal comprising food you have produced, purchased, or foraged to yourself and up to six other creatures. Serving and consuming this meal takes 10 minutes, during which the other participants can also partake in light activity such as conversation, reading, and keeping watch. Each creature regains 1d3 hit points at the end of the meal, and gains a +1 trait bonus on its next d20 roll using the aid another action to assist other creatures who consumed the meal. The +1 trait bonus lasts 24 hours, and a creature can gain that bonus on its next d20 roll to assist other creatures from this trait only once per day.</Pair>
+<Pair single="flavor" id="traitfruitsofyourlabor-fruits-of-your-labor-fn1-3-flavor">You take pride in providing for your community.</Pair>
+<Pair single="benefit" id="traitfruitsofyourlabor-fruits-of-your-labor-fn1-3-benefit"><p>Once per day you can serve a meal comprising food you have produced, purchased, or foraged to yourself and up to six other creatures. Serving and consuming this meal takes 10 minutes, during which the other participants can also partake in light activity such as conversation, reading, and keeping watch.</p>
+<p>Each creature regains 1d3 hit points at the end of the meal, and gains a +1 trait bonus on its next d20 roll using the <Link to="/rule/aid_another">aid another</Link> action to assist other creatures who consumed the meal. The +1 trait bonus lasts 24 hours, and a creature can gain that bonus on its next d20 roll to assist other creatures from this trait only once per day.</p>
+</Pair>
 </Ability>
 <Ability id="traitloreseeker-loreseeker-fn4" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitloreseeker-loreseeker-fn4"><Link to="/trait/loreseeker">⮞</Link> Loreseeker <sup><InnerLink showBacklink="backlink-main-traits_religion_azlanti-fake-fn-4" id="main-traits_religion_azlanti-fake-fn-4" data-hash-target to="main-traits_religion_azlanti-fake-fn-4-target">4</InnerLink></sup></Pair>
@@ -1482,19 +1507,22 @@ const _traits_religion_pantheons = {title: "Religion Traits: Other Groupings", j
 <Pair single id="traitflamesofhell-flames-of-hell-fn1-fn2"><Link to="/trait/flames_of_hell">⮞</Link> Flames of Hell <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-1" id="main-traits_religion_pantheons-fake-fn-1" data-hash-target to="main-traits_religion_pantheons-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-2" id="main-traits_religion_pantheons-fake-fn-2" data-hash-target to="main-traits_religion_pantheons-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Archdevils</Pair>
-<Pair single="benefit" id="traitflamesofhell-flames-of-hell-fn1-fn2-benefit">Your bond with the archdevil you worship strengthens your ability to channel powers of the divine. Add 1 to the DC of saving throws made to resist the effects of your channel energy ability.</Pair>
+<Pair single="flavor" id="traitflamesofhell-flames-of-hell-fn1-fn2-flavor">Your bond with the archdevil you worship strengthens your ability to channel powers of the divine.</Pair>
+<Pair single="benefit" id="traitflamesofhell-flames-of-hell-fn1-fn2-benefit">Add 1 to the DC of saving throws made to resist the effects of your <Link to="/ability/channel_energy">channel energy</Link> ability.</Pair>
 </Ability>
 <Ability id="traitdemonicpersuasion-demonic-persuasion-fn1-2-fn2-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitdemonicpersuasion-demonic-persuasion-fn1-2-fn2-2"><Link to="/trait/demonic_persuasion">⮞</Link> Demonic Persuasion <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-1.2" id="main-traits_religion_pantheons-fake-fn-1.2" data-hash-target to="main-traits_religion_pantheons-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-2.2" id="main-traits_religion_pantheons-fake-fn-2.2" data-hash-target to="main-traits_religion_pantheons-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Demon Lords</Pair>
-<Pair single="benefit" id="traitdemonicpersuasion-demonic-persuasion-fn1-2-fn2-2-benefit">Your lord's favor aids you in your interactions with demonic creatures. You gain a +2 trait bonus on Diplomacy and Intimidate checks when dealing with creatures of the demon subtype.</Pair>
+<Pair single="flavor" id="traitdemonicpersuasion-demonic-persuasion-fn1-2-fn2-2-flavor">Your lord's favor aids you in your interactions with demonic creatures.</Pair>
+<Pair single="benefit" id="traitdemonicpersuasion-demonic-persuasion-fn1-2-fn2-2-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks when dealing with creatures of the <Link to="/subtype/demon">demon</Link> subtype.</Pair>
 </Ability>
 <Ability id="traitblessingofthefeast-blessing-of-the-feast-fn3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitblessingofthefeast-blessing-of-the-feast-fn3"><Link to="/trait/blessing_of_the_feast">⮞</Link> Blessing of the Feast <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-3" id="main-traits_religion_pantheons-fake-fn-3" data-hash-target to="main-traits_religion_pantheons-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zura">Zura</Link></Pair>
-<Pair single="benefit" id="traitblessingofthefeast-blessing-of-the-feast-fn3-benefit">You come from a cannibal tribe, and find strength in the flesh of your foes. Whenever you eat the flesh or drink the blood of another orc - a full-round action that provokes attacks of opportunity - you gain the favor of Zura and receive a +1 natural armor bonus for 1 minute/level. You can only receive this benefit once per day.</Pair>
+<Pair single="flavor" id="traitblessingofthefeast-blessing-of-the-feast-fn3-flavor">You come from a cannibal tribe, and find strength in the flesh of your foes.</Pair>
+<Pair single="benefit" id="traitblessingofthefeast-blessing-of-the-feast-fn3-benefit">Whenever you eat the flesh or drink the blood of another orc - a <strong className="hl">full-round action</strong> that provokes attacks of opportunity - you gain the favor of Zura and receive a +1 natural armor bonus for 1 minute/level. You can only receive this benefit once per day.</Pair>
 </Ability>
 <Ability id="traitshaperofreality-shaper-of-reality-fn1-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitshaperofreality-shaper-of-reality-fn1-3"><Link to="/trait/shaper_of_reality">⮞</Link> Shaper of Reality <sup><InnerLink showBacklink="backlink-main-traits_religion_pantheons-fake-fn-1.3" id="main-traits_religion_pantheons-fake-fn-1.3" data-hash-target to="main-traits_religion_pantheons-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -1555,13 +1583,15 @@ const _traits_religion_halfling = {title: "Religion Traits: Halfling Deities", j
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira_zuzaristan">Chaldira Zuzaristan</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitcallforhelp-call-for-help-fn1-benefit">Offering your devotion to and modeling your life on Desna's impetuous companion means you frequently find yourself in a jam but also ensures that you can always rely upon your friends to bail you out. When you take the total defense action, allies gain a +1 trait bonus on rolls made against a creature threatening you.</Pair>
+<Pair single="flavor" id="traitcallforhelp-call-for-help-fn1-flavor">Offering your devotion to and modeling your life on <Link to="/faith/desna">Desna's</Link> impetuous companion means you frequently find yourself in a jam but also ensures that you can always rely upon your friends to bail you out.</Pair>
+<Pair single="benefit" id="traitcallforhelp-call-for-help-fn1-benefit">When you take the <Link to="/misc/total_defense">total defense</Link> action, allies gain a +1 trait bonus on rolls made against a creature threatening you.</Pair>
 </Ability>
 <Ability id="traitchaldirasluck-chaldiras-luck-fn2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitchaldirasluck-chaldiras-luck-fn2"><Link to="/trait/chaldiras_luck">⮞</Link> Chaldira's Luck <sup><InnerLink showBacklink="backlink-main-traits_religion_halfling-fake-fn-2" id="main-traits_religion_halfling-fake-fn-2" data-hash-target to="main-traits_religion_halfling-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira">Chaldira</Link></Pair>
-<Pair single="benefit" id="traitchaldirasluck-chaldiras-luck-fn2-benefit">You found yourself in deep trouble in your youth but stumbled upon an unlikely way out after praying to Chaldira Zuzaristan for luck. Once per day, you can roll twice and take the better result on a skill check.</Pair>
+<Pair single="flavor" id="traitchaldirasluck-chaldiras-luck-fn2-flavor">You found yourself in deep trouble in your youth but stumbled upon an unlikely way out after praying to Chaldira Zuzaristan for luck.</Pair>
+<Pair single="benefit" id="traitchaldirasluck-chaldiras-luck-fn2-benefit">Once per day, you can roll twice and take the better result on a skill check.</Pair>
 </Ability>
 <Ability id="traitlessonsofchaldira-lessons-of-chaldira-fn3-fn4" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitlessonsofchaldira-lessons-of-chaldira-fn3-fn4"><Link to="/trait/lessons_of_chaldira">⮞</Link> Lessons of Chaldira <sup><InnerLink showBacklink="backlink-main-traits_religion_halfling-fake-fn-3" id="main-traits_religion_halfling-fake-fn-3" data-hash-target to="main-traits_religion_halfling-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_halfling-fake-fn-4" id="main-traits_religion_halfling-fake-fn-4" data-hash-target to="main-traits_religion_halfling-fake-fn-4-target">4</InnerLink></sup></Pair>
@@ -1585,14 +1615,16 @@ const _traits_religion_halfling = {title: "Religion Traits: Halfling Deities", j
 <Pair single id="traitalwaysthreatening-always-threatening-fn3-3"><Link to="/trait/always_threatening">⮞</Link> Always Threatening <sup><InnerLink showBacklink="backlink-main-traits_religion_halfling-fake-fn-3.3" id="main-traits_religion_halfling-fake-fn-3.3" data-hash-target to="main-traits_religion_halfling-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/thamir_gixx">Thamir Gixx</Link></Pair>
-<Pair single="benefit" id="traitalwaysthreatening-always-threatening-fn3-3-benefit">You are fast on the draw. As a move action, you can draw a light, concealed weapon for which you have <Link to="/feat/weapon_focus">Weapon Focus</Link>. If you have the <Link to="/feat/quick_draw">Quick Draw</Link> feat, drawing this weapon is a free action.</Pair>
+<Pair single="flavor" id="traitalwaysthreatening-always-threatening-fn3-3-flavor">You are fast on the draw.</Pair>
+<Pair single="benefit" id="traitalwaysthreatening-always-threatening-fn3-3-benefit">As a <strong className="hl">move action</strong>, you can draw a light, concealed weapon for which you have <Link to="/feat/weapon_focus">Weapon Focus</Link>. If you have the <Link to="/feat/quick_draw">Quick Draw</Link> feat, drawing this weapon is a <strong className="hl">free action</strong>.</Pair>
 </Ability>
 <Ability id="traitbackstabber-backstabber-fn1-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitbackstabber-backstabber-fn1-2"><Link to="/trait/backstabber">⮞</Link> Backstabber <sup><InnerLink showBacklink="backlink-main-traits_religion_halfling-fake-fn-1.2" id="main-traits_religion_halfling-fake-fn-1.2" data-hash-target to="main-traits_religion_halfling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/thamir_gixx">Thamir Gixx</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitbackstabber-backstabber-fn1-2-benefit">Pledging your faith to Norgorber's lethal shadow gives you the skill to make a brutal attack against an opponent who cannot fully fend you off. When you hit a foe you are flanking, you deal an additional 1 point of damage (this damage is added to your base damage, and is multiplied on a critical hit). This additional damage is a trait bonus.</Pair>
+<Pair single="flavor" id="traitbackstabber-backstabber-fn1-2-flavor">Pledging your faith to <Link to="/faith/norgorber">Norgorber's</Link> lethal shadow gives you the skill to make a brutal attack against an opponent who cannot fully fend you off.</Pair>
+<Pair single="benefit" id="traitbackstabber-backstabber-fn1-2-benefit">When you hit a foe you are <Link to="/rule/flanking">flanking</Link>, you deal an additional 1 point of damage (this damage is added to your base damage, and is multiplied on a critical hit). This additional damage is a trait bonus.</Pair>
 </Ability>
 <section data-footnotes><h3 id="main-traits_religion_halfling-label">Footnotes</h3><ol>
 <li id="main-traits_religion_halfling-fake-fn-1-target"><p><Link to="/source/halflings_of_golarion">Halflings of Golarion</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_halfling-fake-fn-1" data-hash-target to="main-traits_religion_halfling-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_halfling-fake-fn-1.2" data-hash-target to="main-traits_religion_halfling-fake-fn-1.2">↩<sup>2</sup></InnerLink></p></li>
@@ -1626,7 +1658,8 @@ const _traits_religion_goblin = {title: "Religion Traits: Goblin Deities", jsx: 
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zogmugot">Zogmugot</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
-<Pair single="benefit" id="traitflounderer-flounderer-fn1-4-benefit">You are adept at swimming and holding your breath. You gain a +1 trait bonus on Swim checks, and can <Link to="/misc/hold_your_breath">hold your breath</Link> for a number of rounds equal to three times your Constitution score before you risk drowning.</Pair>
+<Pair single="flavor" id="traitflounderer-flounderer-fn1-4-flavor">You are adept at swimming and holding your breath.</Pair>
+<Pair single="benefit" id="traitflounderer-flounderer-fn1-4-benefit">You gain a +1 trait bonus on <Link to="/skill/swim">Swim</Link> checks, and can <Link to="/misc/hold_your_breath">hold your breath</Link> for a number of rounds equal to three times your Constitution score before you risk drowning.</Pair>
 </Ability>
 <section data-footnotes><h3 id="main-traits_religion_goblin-label">Footnotes</h3><ol>
 <li id="main-traits_religion_goblin-fake-fn-1-target"><p><Link to="/source/goblins_of_golarion">Goblins of Golarion</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_goblin-fake-fn-1" data-hash-target to="main-traits_religion_goblin-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_goblin-fake-fn-1.2" data-hash-target to="main-traits_religion_goblin-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_goblin-fake-fn-1.3" data-hash-target to="main-traits_religion_goblin-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_goblin-fake-fn-1.4" data-hash-target to="main-traits_religion_goblin-fake-fn-1.4">↩<sup>4</sup></InnerLink></p></li>
