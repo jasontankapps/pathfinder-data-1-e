@@ -196,7 +196,7 @@
 				],
 				{
 					"limit": {
-						"regex": "^Social.*-(acro|climb|stl|ea|dd|soh|dis)\\b"
+						"regex": "^Social.*-(acro|climb|ride|ha|stl|ea|dd|soh|dis)\\b"
 					}
 				}
 			]

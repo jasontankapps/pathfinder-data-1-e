@@ -505,7 +505,7 @@
 									"sort": {
 										"type": "array",
 										"items": {
-											"enum": [ "category", "match", "name" ]
+											"enum": [ "category", "match",  "match-p", "name" ]
 										},
 										"minItems": 1,
 										"unevaluatedItems": false

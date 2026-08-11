@@ -143,7 +143,7 @@
 		"description": [
 			"::trait{title=\"&L&Child of the Moon&FN&\" type=\"Magic\" flavor=\"Your lunar gift becomes much more powerful when the moon is full.\" benefit=\"Choose either ‹skill/Climb›, ‹skill/Stealth›, or ‹skill/Swim›. You gain a +1 trait bonus on checks made with the chosen skill. On dates during and after the first quarter of a lunar phase but before end of the last quarter (the half of the lunar cycle where the moon is fuller), this bonus increases to +2. During the full moon, this bonus increases to +4.\"}"
 		],
-		"category": "Magic-ab-climb-swim-stl",
+		"category": "Magic-ab-climb!-swim!-stl!",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
 	"classically_schooled": {
@@ -156,7 +156,7 @@
 		"description": [
 			"::trait{title=\"&L&Classically Schooled&FN&\" type=\"Magic\" flavor=\"Your apprenticeship or early education was particularly focused on the direct application of magic.\" benefit=\"You gain a +1 trait bonus on ‹skill/Spellcraft› checks, and Spellcraft is always a class skill for you.\"}"
 		],
-		"category": "Magic-ab-spc-cs",
+		"category": "Magic-ab-spc!-cs",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
 	"coven_casting": {
@@ -196,7 +196,7 @@
 		"description": [
 			"::trait{title=\"&L&Dangerously Curious&FN&\" type=\"Magic\" flavor=\"You have always been intrigued by magic, possibly because you were the child of a magician or priest. You often snuck into your parent's laboratory or shrine to tinker with spell components and magic devices, and frequently caused quite a bit of damage and headaches for your parent as a result.\" benefit=\"You gain a +1 bonus on ‹skill/Use Magic Device› checks, and Use Magic Device is always a class skill for you.\"}"
 		],
-		"category": "Magic-ab-umd-cs",
+		"category": "Magic-ab-umd!-cs",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
 	"deep_guardian": {
@@ -304,7 +304,7 @@
 		"description": [
 			"::trait{title=\"&L&Eldritch Delver&FN&\" type=\"Magic\" flavor=\"You have an unquenchable thirst for knowledge about the world and desire to obtain it firsthand.\" benefit=\"You gain a +1 trait bonus on all ‹skill/Knowledge (dungeoneering)› and ‹skill/Knowledge (history)› checks, and you may treat your caster level as 1 level higher for all conjuration spells of the teleportation subschool.\"}"
 		],
-		"category": "Magic-ab-kd-kh-magic-cl",
+		"category": "Magic-ab-kd!-kh!-magic-cl",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
 	"elemental_accident": {
@@ -460,7 +460,7 @@
 		"description": [
 			"::trait{title=\"&L&House of Green Mothers Pupil&FN&\" type=\"Magic\" flavor=\"You studied at Anuli's center for druidic magic long enough to begin bonding with a familiar.\" benefit=\"You gain a +1 trait bonus on ‹skill/Handle Animal› checks. You may substitute this trait for ‹feat/Iron Will› as the prerequisite for the ‹feat/Familiar Bond› feat.\"}"
 		],
-		"category": "Magic-ab-ha-other",
+		"category": "Magic-ab-ha!-other",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
 	"insistent_benefactor": {
@@ -496,7 +496,7 @@
 		"description": [
 			"::trait{title=\"&L&Keen Appraiser&FN&\" type=\"Magic\" flavor=\"Your frequent handling of magic items, artifacts, and other enchanted goods has made you an expert at determining when something has magical properties.\" benefit=\"You gain a +1 trait bonus on ‹skill/Appraise› checks. In addition, you need only exceed the DC of an Appraise check by 2 in order to determine whether the item in question has magic properties (although success still does not grant knowledge of the magic item's abilities).~~~**Suggested Characters:** Drumans, dwarves, Torag worshipers.\"}"
 		],
-		"category": "Magic-ab-app",
+		"category": "Magic-ab-app!",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
 	"kin_bond": {
@@ -568,7 +568,7 @@
 		"description": [
 			"::trait{title=\"&L&Magic Crafter&FN&\" type=\"Magic\" flavor=\"Your early magical training involved study of the properties and creation of magic items.\" benefit=\"You gain a +1 trait bonus on ‹skill/Appraise› checks and a +1 bonus on any ‹skill/Craft› checks attempted while making magic items.\"}"
 		],
-		"category": "Magic-ab-craft-app",
+		"category": "Magic-ab-craft-app!",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
 	"magical_flair": {
@@ -638,7 +638,7 @@
 		"description": [
 			"::trait{title=\"&L&Mathematical Prodigy&FN&\" type=\"Magic\" flavor=\"Mathematics has always come easily for you, and you have always been able to &quot&see the math&quot& in the physical and magical world.\" benefit=\"You gain a +1 bonus on ‹skill/Knowledge (arcana)› and ‹skill/Knowledge (engineering)› checks, and one of these skills (your choice) is always a class skill for you.\"}"
 		],
-		"category": "Magic-ab-cs-ka-ke",
+		"category": "Magic-ab-cs-ka!-ke!",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
 	"mechanical_aptitude": {
@@ -674,7 +674,7 @@
 		"description": [
 			"::trait{title=\"&L&Outcast's Intuition&FN&\" type=\"Magic\" flavor=\"You are able to sense the motives of others and use that sense to bolster your magic against dispelling.\" benefit=\"You gain a +1 trait bonus on ‹skill/Sense Motive› checks, and Sense Motive is always a class skill for you. In addition, your caster level is treated as 1 level higher for the purposes of any attempts to dispel your magic.\"}"
 		],
-		"category": "Magic-magic-cl-ab-sm-cs",
+		"category": "Magic-magic-cl-ab-sm!-cs",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
 	"outer_dragon_blood": {
@@ -764,7 +764,7 @@
 		"description": [
 			"::trait{title=\"&L&Precise Treatment&FN&\" type=\"Magic\" flavor=\"You treat others with a clear and calculating intellect.\" benefit=\"You gain a +1 trait bonus on all ‹skill/Heal› checks, and you may use your Intelligence modifier when making Heal checks instead of your Wisdom modifier.\"}"
 		],
-		"category": "Magic-ab-heal",
+		"category": "Magic-ab-heal!",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
 	"radiant_healing": {
@@ -782,7 +782,7 @@
 		"description": [
 			"::trait{title=\"&L&Reluctant Apprentice&FN&\" type=\"Magic\" flavor=\"Your early training grants you knowledge of the arcane.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (arcana)› checks, and are considered trained in that skill even if you have no ranks in it.\"}"
 		],
-		"category": "Magic-ab-ka",
+		"category": "Magic-ab-ka!",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
 	"resilient_caster": {
@@ -867,7 +867,7 @@
 		"description": [
 			"::trait{title=\"&L&Spark of Creation&FN&\" type=\"Magic\" flavor=\"You have always had a knack for making useful things, and your talent as an artisan was evident even at an early age.\" benefit=\"You gain a +1 trait bonus on ‹skill/Craft› checks, and the cost of creating magic items is reduced by 5%.\"}"
 		],
-		"category": "Magic-ab-craft-magic-general",
+		"category": "Magic-ab-craft!-magic-general",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
 	"spiritual_attachment": {
@@ -930,7 +930,7 @@
 		"description": [
 			"::trait{title=\"&L&Theoretical Magician&FN&\" type=\"Magic\" flavor=\"You've studied more magic than what you can actually perform.\" benefit=\"You gain a +2 trait bonus on ‹skill/Spellcraft› checks, or a +3 bonus if you aren't a spellcaster.\"}"
 		],
-		"category": "Magic-ab-spc",
+		"category": "Magic-ab-spc!",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
 	"transmuter_of_korada": {

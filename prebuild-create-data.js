@@ -696,15 +696,34 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 								return x.localeCompare(y);
 							}
 						)
-						: method === "name"
+						: method === "match-p"
 							? (
-								// name
-								(a, b) => a[1].name.localeCompare(b[1].name)
+								// match, but use first matched parentheses
+								(a, b) => {
+									const rx = new RegExp(limit.regex || "^.*");
+									const xx = (a[1].category.match(rx) || []).slice(1);
+									const yy = (b[1].category.match(rx) || []).slice(1);
+									const getFirst = (input) => {
+										let x = "";
+										while (input.length && !x) {
+											x = input.shift();
+										}
+										return x || "";
+									};
+									const x = getFirst(xx);
+									const y = getFirst(yy);
+									return x.localeCompare(y);
+								}
 							)
-							: (
-								// category
-								(a, b) => a[1].category.localeCompare(b[1].category)
-							)
+							: method === "name"
+								? (
+									// name
+									(a, b) => a[1].name.localeCompare(b[1].name)
+								)
+								: (
+									// category
+									(a, b) => a[1].category.localeCompare(b[1].category)
+								)
 				);
 				pool.sort(sorter);
 			});

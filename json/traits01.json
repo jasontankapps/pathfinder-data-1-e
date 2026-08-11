@@ -94,7 +94,7 @@
 		"description": [
 			"::trait{title=\"&L&Armored Rider&FN&\" type=\"Combat\" benefit=\"You gain a +1 trait bonus on ‹skill/Ride› checks, and Ride is a class skill for you. You don't take an armor check penalty on Ride checks while wearing light or medium armor.\"}"
 		],
-		"category": "Combat-ab-cs",
+		"category": "Combat-ab-cs-ride",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"armored_soul": {
@@ -226,7 +226,7 @@
 		"description": [
 			"::trait{title=\"&L&Bloody-Minded&FN&\" type=\"Combat\" flavor=\"You are always ready for bloodshed.\" benefit=\"You gain a +1 trait bonus on initiative and ‹skill/Intimidate› checks.\"}"
 		],
-		"category": "Combat-off-init",
+		"category": "Combat-off-init-intm",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"born_under_the_cradle": {
@@ -564,7 +564,7 @@
 		"description": [
 			"::trait{title=\"&L&Guerrilla Tactics&FN&\" type=\"Combat\" benefit=\"You gain a +2 trait bonus on ‹skill/Stealth› checks and Initiative checks in forests.\"}"
 		],
-		"category": "Combat-ab",
+		"category": "Combat-ab-stl",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"hard_to_kill": {
@@ -823,7 +823,7 @@
 		"description": [
 			"::trait{title=\"&L&Natural Flyer&FN&\" type=\"Combat\" flavor=\"All your life, the sky has beckoned to you, and you have dreamed of reveling in the freedom and bliss of flight.\" benefit=\"You gain a +1 trait bonus on ‹skill/Fly› checks, as well as ‹skill/Acrobatics› checks attempted while flying. Fly is always a class skill for you.\"}"
 		],
-		"category": "Combat-ab-cs",
+		"category": "Combat-ab-cs-fly",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"natures_mimic": {
@@ -944,7 +944,7 @@
 		"description": [
 			"::trait{title=\"&L&Reckless&FN&\" type=\"Combat\" flavor=\"You have a tendency for rash behavior, often disregarding your own safety as you move across the battlefield.\" benefit=\"You gain a +1 bonus on ‹skill/Acrobatics› checks, and Acrobatics is always a class skill for you.\"}"
 		],
-		"category": "Combat-ab-cs",
+		"category": "Combat-ab-cs-acro",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"reckless_contempt": {
@@ -1065,7 +1065,7 @@
 		"description": [
 			"::trait{title=\"&L&Slippery&FN&\" type=\"Combat\" req=\"Member of The ‹rule/Bellflower Network›\" flavor=\"You have escaped from so many dangerous situations in your life that you've gotten quite good at not getting caught.\" benefit=\"You gain a +1 trait bonus on ‹skill/Stealth› checks and Stealth is a class skill for you.\"}"
 		],
-		"category": "Combat-ab-cs",
+		"category": "Combat-ab-cs-stl",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"soaring_sprinter": {
@@ -1242,7 +1242,7 @@
 		"description": [
 			"::trait{title=\"&L&Unblemished Barrel&FN&\" type=\"Combat\" flavor=\"Your skill with firearms speeds your repair of such weapons.\" benefit=\"You gain a +1 trait bonus on ‹skill/Craft› (alchemy) and Craft (weapons) checks, and it takes you only 30 minutes to remove the broken condition from a firearm.\"}"
 		],
-		"category": "Combat-ab",
+		"category": "Combat-ab-craft",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"undergrowth_specialist": {
@@ -1296,7 +1296,7 @@
 		"description": [
 			"::trait{title=\"&L&Vigilant Battler&FN&\" type=\"Combat\" flavor=\"You are hard to fool and harder to trick with a feint.\" benefit=\"You gain a +1 trait bonus on all ‹skill/Sense Motive› checks. This trait bonus increases to +2 when used to counter a ‹rule/feint› in combat.\"}"
 		],
-		"category": "Combat-ab-def",
+		"category": "Combat-ab-def-sm",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"volatile_fuse": {
@@ -1332,7 +1332,7 @@
 		"description": [
 			"::trait{title=\"&L&Witty Repartee&FN&\" type=\"Combat\" req=\"‹rule/Kitharodian Academy›\" flavor=\"You are quick with your tongue and have always possessed the talent to quickly admonish your enemies.\" benefit=\"You gain a +1 trait bonus on ‹skill/Bluff› checks and Bluff is a class skill for you.\"}"
 		],
-		"category": "Combat-ab-cs",
+		"category": "Combat-ab-cs-bluff",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
 	"youthful_infiltrator": {
@@ -1416,7 +1416,7 @@
 		"description": [
 			"::trait{title=\"&L&Arcane Scholar&FN&\" type=\"Faith\" flavor=\"Study of the &quot&Prime Archmage&quot& chapter has broadened your magical knowledge.\" benefit=\"Choose either ‹skill/Knowledge (arcana)› or ‹skill/Spellcraft›; you gain a +1 trait bonus on that skill and it is a class skill for you.\"}"
 		],
-		"category": "Faith-ab-cs",
+		"category": "Faith-ab-cs-ka-spc",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"aspect_of_the_quah": {
@@ -1537,7 +1537,7 @@
 		"description": [
 			"::trait{title=\"&L&Caretaker&FN&\" type=\"Faith\" flavor=\"As the child of an herbalist or an assistant in a temple infirmary, you often had to assist in tending to the sick and wounded.\" benefit=\"You gain a +1 trait bonus on ‹skill/Heal› checks, and Heal is always a class skill for you.\"}"
 		],
-		"category": "Faith-ab-cs",
+		"category": "Faith-ab-cs-heal",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"child_of_the_temple": {
@@ -1550,7 +1550,7 @@
 		"description": [
 			"::trait{title=\"&L&Child of the Temple&FN&\" type=\"Faith\" flavor=\"You have long served at a temple in a city, where you picked up on many of the nobility's customs in addition to spending much time in the temple libraries studying your faith.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (nobility)› and ‹skill/Knowledge (religion)› checks, and one of these skills (your choice) is always a class skill for you.\"}"
 		],
-		"category": "Faith-ab-cs",
+		"category": "Faith-ab-cs-kno-kr",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"chosen_of_iomedae": {
@@ -1635,7 +1635,7 @@
 		"description": [
 			"::trait{title=\"&L&Devotee of the Green&FN&\" type=\"Faith\" flavor=\"Your faith in the natural world or one of the gods of nature makes it easy for you to pick up on related concepts.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (geography)› and ‹skill/Knowledge (nature)› checks, and one of these skills (your choice) is always a class skill for you.\"}"
 		],
-		"category": "Faith-ab-cs",
+		"category": "Faith-ab-cs-kg-kna",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"devout_visionary": {
@@ -1702,7 +1702,7 @@
 		"description": [
 			"::trait{title=\"&L&Ease of Faith&FN&\" type=\"Faith\" flavor=\"Your mentor, the person who invested your faith in you from an early age, took steps to ensure you understood that what powers your divine magic is no different from that which powers the magic of other religions. This philosophy makes it easier for you to interact with others who may not share your views.\" benefit=\"You gain a +1 bonus on ‹skill/Diplomacy› checks, and Diplomacy is always a class skill for you.\"}"
 		],
-		"category": "Faith-ab-cs",
+		"category": "Faith-ab-cs-diplo",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"eldritch_smith": {
@@ -1846,7 +1846,7 @@
 		"description": [
 			"::trait{title=\"&L&Heretic's Caution&FN&\" type=\"Faith\" flavor=\"You were raised in a faith that did not center on a traditional god or that followed a heretical interpretation of a traditional deity. You learned to deflect attention, especially from ecclesiastical figures.\" benefit=\"You gain a +1 trait bonus on ‹skill/Bluff› checks. This bonus increases to +3 on Bluff checks opposed by religious authorities' Sense Motive checks.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-bluff",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"hidden_faith": {
@@ -1877,7 +1877,7 @@
 		"description": [
 			"::trait{title=\"&L&Honest&FN&\" type=\"Faith\" flavor=\"A religious mentor instilled in you a sense of uncompromising integrity. You often speak your mind in defiance of any fear or hatred it might earn you, a habit that inspires others to trust you.\" benefit=\"You gain a +1 trait bonus on ‹skill/Diplomacy› checks. This bonus increases to +2 when the Diplomacy check is made to influence those who are already friendly or helpful toward you.~~~**Suggested Characters:** ‹pclass/Diabolist«s›, paladins, ‹faith/Sarenrae› worshipers.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-ab-diplo",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"imperfect_recall": {
@@ -1980,7 +1980,7 @@
 		"description": [
 			"::trait{title=\"&L&Lucid Dreamer&FN&\" type=\"Faith\" req=\"Varisian wanderers or Wonderseekers\" flavor=\"Your dreams are a special place of power that only you get to enjoy; driving away threats to your subconscious is as easy as slamming a door.\" benefit=\"You receive a +1 trait bonus on ‹skill/Knowledge (planes)› checks and a +2 trait bonus on Will saves against effects on your dreaming mind or subconscious, such as a ‹monster/night hag«'s› dream haunting ability, the ‹spell/nightmare› spell, and illusions of the ‹spelldef/phantasm› subschool.\"}"
 		],
-		"category": "Faith-ab-def",
+		"category": "Faith-ab-def-kp",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"martial_manuscript": {
@@ -2079,7 +2079,7 @@
 		"description": [
 			"::trait{title=\"&L&Omen&FN&\" type=\"Faith\" flavor=\"You are the harbinger of some future event. Whether this event bodes good or ill, you exude an ominous presence.\" benefit=\"You gain a +1 trait bonus on ‹skill/Intimidate› checks, and Intimidate is always a class skill for you. Once per day, you may attempt to demoralize an opponent as a @HLswift_action.\"}"
 		],
-		"category": "Faith-ab-cs",
+		"category": "Faith-ab-cs-intm",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"pact_servant": {
@@ -2244,7 +2244,7 @@
 		"description": [
 			"::trait{title=\"&L&Scholar of the Great Beyond&FN&\" type=\"Faith\" flavor=\"Your greatest interests as a child did not lie with current events or the mundane; you have always felt out of place, as if you were born in the wrong era. You take to philosophical discussions of the Great Beyond and of historical events with ease.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (history)› and ‹skill/Knowledge (planes)› checks, and one of these skills (your choice) is always a class skill for you.\"}"
 		],
-		"category": "Faith-ab-cs",
+		"category": "Faith-ab-cs-kh-kp",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"schooled_inquisitor": {
@@ -2316,7 +2316,7 @@
 		"description": [
 			"::trait{title=\"&L&Spell Intuition&FN&\" type=\"Faith\" flavor=\"Blessed by a priest of a deity of magic at birth, you demonstrated a remarkable knack for guessing the nature of spells without the schooling of your instructors.\" benefit=\"You gain a +1 trait bonus on ‹skill/Spellcraft› checks, and Spellcraft becomes a class skill for you.~~~**Suggested Characters:** Gebbites, ‹faith/Nethys› worshipers, Nexians.\"}"
 		],
-		"category": "Faith-ab-cs",
+		"category": "Faith-ab-cs-spc",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"spirit_sense": {
@@ -2373,7 +2373,7 @@
 		"description": [
 			"::trait{title=\"&L&Student of History&FN&\" type=\"Faith\" flavor=\"One can move toward enlightenment by understanding the mistakes of past generations.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (history)› checks, and Knowledge (history) is a class skill for you.\"}"
 		],
-		"category": "Faith-ab-cs",
+		"category": "Faith-ab-cs-kh",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"tar_baphons_whisper": {
@@ -2412,7 +2412,7 @@
 		"description": [
 			"::trait{title=\"&L&Traditionalist&FN&\" type=\"Faith\" flavor=\"You attempt to maintain older traditions despite changing social norms, and find great value in the trappings and codes of the aristocracy.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (nobility)› checks, and Knowledge (nobility) is a class skill for you.\"}"
 		],
-		"category": "Faith-ab-cs",
+		"category": "Faith-ab-cs-kno",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"trickster_gnome": {
@@ -2439,7 +2439,7 @@
 		"description": [
 			"::trait{title=\"&L&Undaunted&FN&\" type=\"Faith\" flavor=\"Following the path of freedom has resulted in you being threatened by ruffians and bullies throughout your childhood, and it now takes a lot to rattle you.\" benefit=\"You increase the DC to demoralize you with an ‹skill/Intimidate› check by 2.\"}"
 		],
-		"category": "Faith-ab",
+		"category": "Faith-def",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"unnatural_presence": {
@@ -2457,7 +2457,7 @@
 		"description": [
 			"::trait{title=\"&L&Unshackled&FN&\" type=\"Faith\" flavor=\"You have escaped slavery or other imprisonment and have vowed never to be shackled again.\" benefit=\"You gain a +1 trait bonus on ‹skill/Escape Artist› checks, and Escape Artist is a class skill for you.\"}"
 		],
-		"category": "Faith-ab-cs",
+		"category": "Faith-ab-cs-ea",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"untrained_scholar": {
@@ -2511,7 +2511,7 @@
 		"description": [
 			"::trait{title=\"&L&Zealot&FN&\" type=\"Faith\" req=\"‹race/Gnome›, you must match the alignment of your chosen deity exactly\" flavor=\"You aren't just faithful to the worship of your patron deity - you are obsessively loyal to all of the faith's tenets and guidelines. Your devotion is an anchor that keeps you from drifting away into the throes of the Bleaching, and you cling to it like the life raft it is.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (religion)› checks, and that skill is a class skill for you. As long as you remain completely faithful to the tenets of your faith (as determined by the GM), you never suffer from the Bleaching.\"}"
 		],
-		"category": "Faith-ab-cs",
+		"category": "Faith-ab-cs-kr",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
 	"zealots_bearing": {
@@ -2538,7 +2538,7 @@
 		"description": [
 			"::trait{title=\"&L&Acrobat&FN&\" type=\"Social\" flavor=\"Having trained from a young age, you're capable of amazing feats of daring.\" benefit=\"You gain a +1 bonus on ‹skill/Acrobatics› checks, and you take only a -2 penalty instead of the normal -5 penalty when using the ‹skill/Climb› skill to attempt an accelerated climb.\"}"
 		],
-		"category": "Social-ab-acro-climb",
+		"category": "Social-ab-acro!-climb",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"adopted": {
@@ -2623,7 +2623,7 @@
 		"description": [
 			"::trait{title=\"&L&Artisan&FN&\" type=\"Social\" flavor=\"You spent time working under artisans, or your parents were artisans who were particularly skilled at their trade.\" benefit=\"You gain a +2 trait bonus on a single ‹skill/Craft› skill (your choice).\"}"
 		],
-		"category": "Social-ab-craft",
+		"category": "Social-ab-craft!",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"avid_reader": {
@@ -2650,7 +2650,7 @@
 		"description": [
 			"::trait{title=\"&L&Bastard (UC)&FN&\" type=\"Social\" flavor=\"You were born out of wedlock. You have always been an outsider in society, and in your own family. This perspective has sharpened your insight.\" benefit=\"You gain a +1 trait bonus on ‹skill/Sense Motive› checks, and Sense Motive is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-sm-cs",
+		"category": "Social-ab-sm!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"beast_bond": {
@@ -2659,7 +2659,7 @@
 		"description": [
 			"::trait{title=\"&L&Beast Bond&FN&\" type=\"Social\" flavor=\"You share a close bond with animals.\" benefit=\"You gain a +1 bonus on ‹skill/Handle Animal› checks and ‹skill/Ride› checks. One of these skills (your choice) is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-cs",
+		"category": "Social-ab-cs-ride!-ha!",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"beastkin": {
@@ -2668,7 +2668,7 @@
 		"description": [
 			"::trait{title=\"&L&Beastkin&FN&\" type=\"Social\" benefit=\"Select one specific type of animal (such as wolves or apes). You were raised from infancy by an animal or pack of animals of that type. You learned their ways and have more in common with your beastly kin than members of any humanoid race.~~~You gain a +1 trait bonus on ‹skill/Survival› checks and can use ‹spell/speak with animals› as a spell-like ability at will to communicate with the type of animal that raised you.\"}"
 		],
-		"category": "Social-ab-spell",
+		"category": "Social-ab-spell-sur!",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"binders_blood": {
@@ -2708,7 +2708,7 @@
 		"description": [
 			"::trait{title=\"&L&Bully&FN&\" type=\"Social\" flavor=\"You grew up in an environment where the meek were ignored and you often had to resort to threats or violence to be heard.\" benefit=\"You gain a +1 trait bonus on ‹skill/Intimidate› checks, and Intimidate is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-intm-cs",
+		"category": "Social-ab-intm!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"bureaucrats_favored": {
@@ -2792,7 +2792,7 @@
 		"description": [
 			"::trait{title=\"&L&Child of the Streets&FN&\" type=\"Social\" flavor=\"You grew up on the streets of a large city, and as a result you have developed a knack for picking pockets and hiding small objects on your person.\" benefit=\"You gain a +1 trait bonus on ‹skill/Sleight of Hand› checks, and Sleight of Hand is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-soh-cs",
+		"category": "Social-ab-soh!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"chip_on_the_shoulder": {
@@ -2810,7 +2810,7 @@
 		"description": [
 			"::trait{title=\"&L&Civilized&FN&\" type=\"Social\" flavor=\"You are well versed in the local laws, customs, and politics.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (nobility)› checks and ‹skill/Knowledge (local)› checks. Knowledge (local) is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-kno-kl-cs",
+		"category": "Social-ab-kno!-kl!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"clever_wordplay": {
@@ -2855,7 +2855,7 @@
 		"description": [
 			"::trait{title=\"&L&Contemptuous&FN&\" type=\"Social\" flavor=\"Whether you are a commoner who has come to despise the haughty upper crust or a holier-than-thou noble who can't stand being around the unwashed masses, your contempt drives you to study carefully, making sure you always have the upper hand in social exchanges with them.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (local)› checks and ‹skill/Knowledge (nobility)› checks, and one of these skills becomes a class skill for you.\"}"
 		],
-		"category": "Social-ab-kl-kno-cs",
+		"category": "Social-ab-kl!-kno!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"convincing_liar": {
@@ -2864,7 +2864,7 @@
 		"description": [
 			"::trait{title=\"&L&Convincing Liar&FN&\" type=\"Social\" req=\"Member of The ‹rule/Bellflower Network›\" flavor=\"You've spent your life perfecting the art of half-truths in order to accomplish what you need to.\" benefit=\"You gain a +1 trait bonus on ‹skill/Bluff› or ‹skill/Intimidate› checks and one of these skills (your choice) is a class skill for you.\"}"
 		],
-		"category": "Social-ab-bluff-intm-cs",
+		"category": "Social-ab-bluff!-intm!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"criminal": {
@@ -2873,7 +2873,7 @@
 		"description": [
 			"::trait{title=\"&L&Criminal&FN&\" type=\"Social\" flavor=\"You spent your early life robbing and stealing to get by.\" benefit=\"Select one of the following skills: ‹skill/Disable Device›, ‹skill/Intimidate›, or ‹skill/Sleight of Hand›. You gain a +1 trait bonus on that skill, and it is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-dd-intm-soh-cs",
+		"category": "Social-ab-dd!-intm!-soh!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"criminal_roots": {
@@ -3071,7 +3071,7 @@
 		"description": [
 			"::trait{title=\"&L&Escaped Captive&FN&\" type=\"Social\" flavor=\"Whether you were on your way to becoming a drow slave or slated for the ghoul chattel pits, you very narrowly avoided a life of miserable captivity.\" benefit=\"You make a habit of avoiding restraints or tight spaces, gaining a +1 trait bonus on ‹skill/Escape Artist› checks and a +2 trait bonus to CMD to avoid being pinned.\"}"
 		],
-		"category": "Social-ab-ea-def",
+		"category": "Social-ab-ea!-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"etymologist": {
@@ -3080,7 +3080,7 @@
 		"description": [
 			"::trait{title=\"&L&Etymologist&FN&\" type=\"Social\" req=\"‹race/Gnome›\" flavor=\"When you, like all other young gnomes, were taught the hodgepodge Gnome language, you became curious about the original meaning of each word and what language it was derived from. Anytime you come across a new language, you are immediately absorbed by both how it works and what words you can co-opt from it for the Gnome language.\" benefit=\"You gain a +1 trait bonus on ‹skill/Linguistics› checks, know one additional bonus language, and treat Linguistics as a class skill.\"}"
 		],
-		"category": "Social-ab-ling-cs",
+		"category": "Social-ab-ling!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"excellent_penmanship": {
@@ -3120,7 +3120,7 @@
 		"description": [
 			"::trait{title=\"&L&Fast Talker&FN&\" type=\"Social\" flavor=\"You had a knack for getting yourself into trouble as a child, and as a result developed a silver tongue at an early age.\" benefit=\"You gain a +1 trait bonus on ‹skill/Bluff› checks, and Bluff is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-bluff-cs",
+		"category": "Social-ab-bluff!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"feral_speech": {
@@ -3138,7 +3138,7 @@
 		"description": [
 			"::trait{title=\"&L&For the Money&FN&\" type=\"Social\" benefit=\"You gain a +2 trait bonus on skill checks to haggle prices or negotiate payment; this bonus increases to +4 if you are in a position of military or economic power over your target. You also gain a +1 trait bonus on ‹skill/Appraise› checks and Appraise is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-app-cs",
+		"category": "Social-ab-app!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"founders_heritage": {
@@ -3165,7 +3165,7 @@
 		"description": [
 			"::trait{title=\"&L&Friend in Every Town&FN&\" type=\"Social\" flavor=\"You have no problem making friends and learning information from them wherever you go.\" benefit=\"You gain a +1 trait bonus on all ‹skill/Knowledge (local)› checks and ‹skill/Diplomacy› checks. One of these skills (your choice) is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-kl-diplo-cs",
+		"category": "Social-ab-kl!-diplo!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"friends_in_high_places": {
@@ -3246,7 +3246,7 @@
 		"description": [
 			"::trait{title=\"&L&Hardly a Fool&FN&\" type=\"Social\" flavor=\"You have always been able to ferret out lies and deception. Maybe you worked as an investigator for a time, you came from a place rife with lies, or you've studied the human condition long enough to read a person's face and get to the heart of his message.\" benefit=\"You gain a +1 trait bonus on ‹skill/Sense Motive› checks and a +1 trait bonus on saving throws against illusion effects.\"}"
 		],
-		"category": "Social-ab-sm-def",
+		"category": "Social-ab-sm!-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"harvester": {
@@ -3309,7 +3309,7 @@
 		"description": [
 			"::trait{title=\"&L&Influence&FN&\" type=\"Social\" flavor=\"Your position in society grants you special insight into others, and special consideration or outright awe from others.\" benefit=\"Choose one of the following skills: ‹skill/Diplomacy›, ‹skill/Intimidate›, or ‹skill/Sense Motive›. You gain a +1 trait bonus on that skill, and it is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-diplo-intm-sm-cs",
+		"category": "Social-ab-diplo!-intm!-sm!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"jistkan_scholar": {
@@ -3327,7 +3327,7 @@
 		"description": [
 			"::trait{title=\"&L&Keleshite Princess&FN&\" type=\"Social\" region=\"Qadira\" req=\"Keleshite; female\" flavor=\"You have been raised to expect obedience from those around you, regardless of their station, and are not shy about demanding what you want.\" benefit=\"You gain a +1 trait bonus to ‹skill/Diplomacy› and ‹skill/Intimidate› checks, and one of these skills (your choice) is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-diplo-intm-cs",
+		"category": "Social-ab-diplo!-intm!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"king_in_waiting": {
@@ -3393,7 +3393,7 @@
 		"description": [
 			"::trait{title=\"&L&Malevolent Temptations&FN&\" type=\"Social\" flavor=\"You have resisted or escaped the temptations of a disguised ‹family/hag›, and you learned much from your encounter.\" benefit=\"You gain a +1 trait bonus on ‹skill/Sense Motive› checks and a +2 trait bonus on saving throws to disbelieve illusions.\"}"
 		],
-		"category": "Social-ab-sm-def",
+		"category": "Social-ab-sm!-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"marked_by_unknown_forces": {
@@ -3420,7 +3420,7 @@
 		"description": [
 			"::trait{title=\"&L&Mediator&FN&\" type=\"Social\" flavor=\"You have a way with calming tempers, using cool logic to sooth heated disagreements, and you were always the one to settle arguments among your friends, family, and community.\" benefit=\"You receive a +1 trait bonus on ‹skill/Diplomacy› checks. In addition, you receive a +1 trait bonus to the DC of any charm or compulsion effect that does not provide ongoing control and results in peaceful acts, such as ‹spell/calm emotions›, ‹spell/sleep›, or a ‹spell/suggestion› to lay down arms.\"}"
 		],
-		"category": "Social-ab-diplo-magic",
+		"category": "Social-ab-diplo!-magic",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"memorable": {
@@ -3438,7 +3438,7 @@
 		"description": [
 			"::trait{title=\"&L&Mentored&FN&\" type=\"Social\" flavor=\"A tutor or private instructor guided you in learning your art, profession, or trade, and through your education, you became capable of teaching and guiding others.\" benefit=\"Choose a single ‹skill/Craft›, ‹skill/Perform›, or ‹skill/Profession› skill. You gain a +1 trait bonus on checks with that skill. You also gain a +1 trait bonus when you ‹rule/aid another«'s› skill check with any skill.\"}"
 		],
-		"category": "Social-ab-craft-perf-prof-other",
+		"category": "Social-ab-craft!-perf!-prof!-other",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"mercenary": {
@@ -3541,7 +3541,7 @@
 		"description": [
 			"::trait{title=\"&L&Obnoxious&FN&\" type=\"Social\" flavor=\"You have long since forgotten to care what people think about you - though your interactions are always memorable, at the very least.\" benefit=\"Choose ‹skill/Perform› (act), Perform (comedy), Perform (oratory), or Perform (sing); you gain a +1 trait bonus on checks with the chosen skill and gain it as a class skill.\"}"
 		],
-		"category": "Social-ab-perf-cs",
+		"category": "Social-ab-perf!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"official_ties": {
@@ -3568,7 +3568,7 @@
 		"description": [
 			"::trait{title=\"&L&Orphaned&FN&\" type=\"Social\" flavor=\"You grew up separated from your birth parents, and had to learn to watch out for yourself.\" benefit=\"You gain a +1 trait bonus on ‹skill/Survival› checks, and Survival is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-sur-cs",
+		"category": "Social-ab-sur!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"outsider_enemy": {
@@ -3608,7 +3608,7 @@
 		"description": [
 			"::trait{title=\"&L&Poverty-Stricken&FN&\" type=\"Social\" flavor=\"Your childhood was tough, and your parents always had to make every copper piece count. Hunger was your constant companion, and you often had to live off the land or sleep in the wild.\" benefit=\"You gain a +1 bonus on ‹skill/Survival› checks, and Survival is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-sur",
+		"category": "Social-ab-sur!",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"practiced_disruptor": {
@@ -3617,7 +3617,7 @@
 		"description": [
 			"::trait{title=\"&L&Practiced Disruptor&FN&\" type=\"Social\" flavor=\"You are experienced at facing off against spellcasters.\" benefit=\"You can attempt ‹skill/Knowledge (arcana)› checks untrained; if you have ranks in that skill, you instead gain a +1 trait bonus on those checks. The concentration DC to ‹rule/cast« a spell» defensively› in your threatened area increases by 1.\"}"
 		],
-		"category": "Social-off-ab-ka",
+		"category": "Social-off-ab-ka!",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"preternatural_awareness": {
@@ -3702,7 +3702,7 @@
 		"description": [
 			"::trait{title=\"&L&Savage&FN&\" type=\"Social\" flavor=\"You were born and raised in untamed lands far from civilization. You learned to survive in the elements among brutal humanoids and beasts.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (nature)› checks and a +1 trait bonus on ‹skill/Survival› checks to get along in the wild. Knowledge (nature) is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-kna-sur-cs",
+		"category": "Social-ab-kna!-sur-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"savant": {
@@ -3711,7 +3711,7 @@
 		"description": [
 			"::trait{title=\"&L&Savant&FN&\" type=\"Social\" req=\"‹rule/Kitharodian Academy›\" flavor=\"From a very young age, the ability to master performance types has come quite naturally to you.\" benefit=\"Choose a performance type. You gain a +2 trait bonus on all ‹skill/Perform› checks made using that performance type. Perform is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-perf-cs",
+		"category": "Social-ab-perf!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"seafaring_reputation": {
@@ -3729,7 +3729,7 @@
 		"description": [
 			"::trait{title=\"&L&Secret-Keeper (QaC)&FN&\" type=\"Social\" flavor=\"Growing up in a land where paranoia fills the air and any accusation of heresy or dissent can spell doom for whole families, you learned very quickly to keep a secret.\" benefit=\"You gain a +1 trait bonus on ‹skill/Bluff› checks and a +1 trait bonus on saving throws against divinations, domination effects, and effects that would compel you to speak the truth.~~~**Suggested Characters:** Chelaxians, Galtans, Nidalese.\"}"
 		],
-		"category": "Social-ab-bluff-def",
+		"category": "Social-ab-bluff!-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"seeker": {
@@ -3738,7 +3738,7 @@
 		"description": [
 			"::trait{title=\"&L&Seeker&FN&\" type=\"Social\" flavor=\"You are always on the lookout for reward and danger.\" benefit=\"You gain a +1 trait bonus on ‹skill/Perception› checks, and Perception is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-per-cs",
+		"category": "Social-ab-per!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"self_reliant": {
@@ -3765,7 +3765,7 @@
 		"description": [
 			"::trait{title=\"&L&Simple Disciple&FN&\" type=\"Social\" flavor=\"You picked up skill in a craft or a profession during your time at a monastery.\" benefit=\"You gain a +1 trait bonus on checks with a ‹skill/Profession› or ‹skill/Craft› skill of your choice.\"}"
 		],
-		"category": "Social-ab-prof-craft",
+		"category": "Social-ab-prof!-craft!",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"slave_runner": {
@@ -3801,7 +3801,7 @@
 		"description": [
 			"::trait{title=\"&L&Style Sage&FN&\" type=\"Social\" flavor=\"You have a passion for history and news concerning monastic disciplines.\" benefit=\"You gain a +1 trait bonus on checks with your choice of either ‹skill/Knowledge (local)› or ‹skill/Knowledge (history)›, and the one you choose is always a class skill for you.~~~In addition, you gain a +1 trait bonus on ‹skill/Diplomacy› checks made to gather information about any person with levels in monk.\"}"
 		],
-		"category": "Social-ab-kl-kh-cs",
+		"category": "Social-ab-kl!-kh!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"subjective_truth": {
@@ -3832,7 +3832,7 @@
 		"description": [
 			"::trait{title=\"&L&Suspicious&FN&\" type=\"Social\" flavor=\"You discovered at an early age that someone you trusted, perhaps an older sibling or a parent, had lied to you, and lied often, about something you had taken for granted, leaving you quick to question the claims of others.\" benefit=\"You gain a +1 trait bonus on ‹skill/Sense Motive› checks, and Sense Motive is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-sm-cs",
+		"category": "Social-ab-sm!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"talented": {
@@ -3841,7 +3841,7 @@
 		"description": [
 			"::trait{title=\"&L&Talented&FN&\" type=\"Social\" flavor=\"You are a virtuoso musician, actor, or storyteller.\" benefit=\"You gain a +1 trait bonus on checks with a single ‹skill/Perform› skill (your choice), and all Perform skills are always class skills for you.\"}"
 		],
-		"category": "Social-ab-perf-cs",
+		"category": "Social-ab-perf!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"tireless_logic": {
@@ -3859,7 +3859,7 @@
 		"description": [
 			"::trait{title=\"&L&Triaxus-Trained&FN&\" type=\"Social\" flavor=\"You have been trained in intricate dragon-handling techniques that originated on Triaxus.\" benefit=\"You gain a +1 trait bonus on ‹skill/Perception› checks, and a +1 trait bonus on skill checks attempted as part of trying to influence a dragon.\"}"
 		],
-		"category": "Social-ab-per",
+		"category": "Social-ab-per!",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"tropical_upbringing": {
@@ -3877,7 +3877,7 @@
 		"description": [
 			"::trait{title=\"&L&Trustworthy&FN&\" type=\"Social\" flavor=\"People find it easy to put their faith in you.\" benefit=\"You gain a +1 trait bonus on ‹skill/Bluff› checks made to fool someone. You also gain a +1 trait bonus on ‹skill/Diplomacy› checks, and Diplomacy is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-diplo-cs",
+		"category": "Social-ab-diplo!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"truths_agent": {
@@ -3886,7 +3886,7 @@
 		"description": [
 			"::trait{title=\"&L&Truth's Agent&FN&\" type=\"Social\" flavor=\"You are skilled at weeding out information.\" benefit=\"You gain a +1 trait bonus on all ‹skill/Diplomacy› checks made to gather information and all ‹skill/Knowledge (local)› checks. Knowledge (local) is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-diplo-kl-cs",
+		"category": "Social-ab-diplo-kl!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"unabashed_gall": {
@@ -3913,7 +3913,7 @@
 		"description": [
 			"::trait{title=\"&L&Unintentional Linguist&FN&\" type=\"Social\" flavor=\"You can speak with outsiders.\" benefit=\"You gain a +1 trait bonus on all ‹skill/Linguistics› checks, and you begin play knowing one of the following languages (in addition to those granted by your race and Intelligence modifier): Abyssal, Aquan, Celestial, Ignan, Infernal, Protean, or Terran.\"}"
 		],
-		"category": "Social-ab-lang-ling",
+		"category": "Social-ab-lang-ling!",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"unnatural_revenge": {
@@ -3931,7 +3931,7 @@
 		"description": [
 			"::trait{title=\"&L&Unpredictable&FN&\" type=\"Social\" flavor=\"Your actions often seem random and chaotic to others, but there is a method to your madness.\" benefit=\"You gain a +1 trait bonus on ‹skill/Bluff› checks, and Bluff is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-bluff-cs",
+		"category": "Social-ab-bluff!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"untapped_potential": {
@@ -3949,7 +3949,7 @@
 		"description": [
 			"::trait{title=\"&L&Unwelcome Business&FN&\" type=\"Social\" flavor=\"You specialize in delivering or procuring shipments where those commodities are not allowed or where your identity would elicit negative bias.\" benefit=\"You gain a +1 trait bonus on ‹skill/Disguise› or ‹skill/Sleight of Hand› checks, and that skill becomes a class skill for you. In addition, choose one humanoid species; you ignore the -2 penalty on Disguise checks to disguise yourself as a member of that species.\"}"
 		],
-		"category": "Social-ab-dis-soh-cs",
+		"category": "Social-ab-dis!-soh!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"veiled_disciple": {
@@ -4012,7 +4012,7 @@
 		"description": [
 			"::trait{title=\"&L&Weathered Emissary&FN&\" type=\"Social\" flavor=\"Your travels in the wildlands gave you insight into how to survive their dangers and communicate with their inhabitants.\" benefit=\"You gain a +1 trait bonus on all ‹skill/Linguistics› and ‹skill/Survival› checks, and Linguistics is always a class skill for you.\"}"
 		],
-		"category": "Social-ab-ling-sur-cs",
+		"category": "Social-ab-ling!-sur!-cs",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
 	"wicked_leader": {

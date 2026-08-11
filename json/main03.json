@@ -58,7 +58,19 @@
 			"",
 			"::main[Spell Ability Traits]{to=main/traits_spell bottom=\"Grants a spell, spell-like-ability, or an ability that duplicates a spell; 21 traits\"}",
 			"",
-			"::main[Magic-Related Traits]{to=main/traits_basic_magic bottom=\"Affects caster level, or other spellcasting ability; 47 traits\"}"
+			"::main[Magic-Related Traits]{to=main/traits_basic_magic bottom=\"Affects caster level, or other spellcasting ability; 47 traits\"}",
+			"",
+			"::mainheader[Basic Traits by Straight Skill Bonus]",
+			"",
+			"::main[Strength/Dexterity Traits]{to=main/traits_sk_str bottom=\"Gives plain bonus to Acrobatics, Climb, Disable Device, Escape Artist, Fly, Ride, Sleight of Hand, Stealth, or Swim; 16 traits\"}",
+			"",
+			"::main[Socializing Traits]{to=main/traits_sk_soc bottom=\"Gives plain bonus to Bluff, Diplomacy, Intimidate, or Sense Motive; 25 traits\"}",
+			"",
+			"::main[Knowledge Traits]{to=main/traits_sk_k bottom=\"Gives plain bonus to a Knowledge skill; 26 traits\"}",
+			"",
+			"::main[Observational Traits]{to=main/traits_sk_obs bottom=\"Gives plain bonus to Appraise, Linguistics, Perception, Spellcraft, or Survival; 16 traits\"}",
+			"",
+			"::main[Talent Traits]{to=main/traits_sk_tal bottom=\"Gives plain bonus to Craft, Heal, Disguise, Handle Animal, Perform, Profession, or Use Magic Device; 17 traits\"}"
 		],
 		"searchgroup": "trait"
 	},
@@ -2120,5 +2132,100 @@
 				]
 			}
 		]
+	},
+	"traits_sk_str": {
+		"title": "Strength/Dexterity Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Traits]{to=main/traits rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "(?:(?:Magic|Social).*?-(acro|climb|dd|ea|ride|soh|stl|swim)\\b!|(?:Faith|Combat).*?-(acro|ea|fly|ride|stl)\\b)"
+					},
+					"sort": [ "match-p", "name" ]
+				}
+			]
+		}
+	},
+	"traits_sk_soc": {
+		"title": "Socializing Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Traits]{to=main/traits rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "(?:(?:Magic|Social).*?-(bluff|diplo|intm|sm)\\b!|(?:Faith|Combat).*?-(bluff|diplo|intm|sm)\\b)"
+					},
+					"sort": [ "match-p", "name" ]
+				}
+			]
+		}
+	},
+	"traits_sk_k": {
+		"title": "Knowledge Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Traits]{to=main/traits rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "(?:(?:Magic|Social).*?-(k[adehl]|kn[ao])\\b!|(?:Faith|Combat).*?-(k[aghpr]|kn[ao])\\b)"
+					},
+					"sort": [ "match-p", "name" ]
+				}
+			]
+		}
+	},
+	"traits_sk_obs": {
+		"title": "Observational Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Traits]{to=main/traits rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "(?:(?:Magic|Social).*?-(app|ling|per|spc|sur)\\b!|(?:Faith|Combat).*?-(spc)\\b)"
+					},
+					"sort": [ "match-p", "name" ]
+				}
+			]
+		}
+	},
+	"traits_sk_tal": {
+		"title": "Talent Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Traits]{to=main/traits rev}",
+					""
+				],
+				{
+					"limit": {
+						"regex": "(?:(?:Magic|Social).*?-(craft|dis|ha|heal|perf|prof|umd)\\b!|(?:Faith|Combat).*?-(craft|heal)\\b)"
+					},
+					"sort": [ "match-p", "name" ]
+				}
+			]
+		}
 	}
 }
