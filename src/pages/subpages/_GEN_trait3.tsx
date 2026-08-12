@@ -1642,7 +1642,8 @@ const _gemstone_collector = {title: "Gemstone Collector", topLink: ["Religion Tr
 <Pair single id="gemstone-collector">Gemstone Collector</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/yuelral">Yuelral</Link></Pair>
-<Pair single="benefit" id="gemstone-collector-benefit">You have long found focus and inspiration in the natural beauty of rare gemstones. As long as you carry bejeweled objects worth a total combined value of 200 gp &times; your character level, you gain a +1 trait bonus on all Will saving throws and a +2 trait bonus on a single Charisma-based skill check of your choice.</Pair>
+<Pair single="flavor" id="gemstone-collector-flavor">You have long found focus and inspiration in the natural beauty of rare gemstones.</Pair>
+<Pair single="benefit" id="gemstone-collector-benefit">As long as you carry bejeweled objects worth a total combined value of 200 gp &times; your character level, you gain a +1 trait bonus on all Will saving throws and a +2 trait bonus on a single Charisma-based skill check of your choice.</Pair>
 </Ability>
 </>};
 const _gifted_medium = {title: "Gifted Medium", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1650,7 +1651,8 @@ const _gifted_medium = {title: "Gifted Medium", topLink: ["Religion Traits","mai
 <Pair single id="gifted-medium">Gifted Medium</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/magrim">Magrim</Link></Pair>
-<Pair single="benefit" id="gifted-medium-benefit">Your understanding of Magrim's teachings makes you a perfect conduit for mystical forces. You gain a +1 trait bonus on your caster level when using divinations to reach out to other entities, such as <Link to="/spell/commune">commune</Link> or speak with dead.</Pair>
+<Pair single="flavor" id="gifted-medium-flavor">Your understanding of Magrim's teachings makes you a perfect conduit for mystical forces.</Pair>
+<Pair single="benefit" id="gifted-medium-benefit">You gain a +1 trait bonus on your caster level when using divinations to reach out to other entities, such as <Link to="/spell/commune">commune</Link> or <Link to="/spell/speak_with_dead">speak with dead</Link>.</Pair>
 </Ability>
 </>};
 const _good_dreams = {title: "Good Dreams", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
@@ -1659,7 +1661,10 @@ const _good_dreams = {title: "Good Dreams", topLink: ["Religion Traits","main/tr
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/desna">Desna</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="good-dreams-benefit">Your dreams often give you a hint of possible dangers you might face during your day - such as a fall, a blast of fire, or a poisonous snake - and this hint sometimes makes all the difference. Each time you sleep, the GM tells you of a dangerous dream you had. Once per day, if you have to make a saving throw against a threat related or similar to that dream, you can roll twice and take the more favorable result. If you do not encounter circumstances similar to the threat or situation you dreamed, this trait has no effect that day. If you have the Halfling Jinx alternate racial trait, you cannot select this trait, and vice versa.</Pair>
+<Pair single="flavor" id="good-dreams-flavor">Your dreams often give you a hint of possible dangers you might face during your day - such as a fall, a blast of fire, or a poisonous snake - and this hint sometimes makes all the difference.</Pair>
+<Pair single="benefit" id="good-dreams-benefit"><p>Each time you sleep, the GM tells you of a dangerous dream you had. Once per day, if you have to make a saving throw against a threat related or similar to that dream, you can roll twice and take the more favorable result. If you do not encounter circumstances similar to the threat or situation you dreamed, this trait has no effect that day.</p>
+<p>If you have the <em>Halfling Jinx</em> alternate racial trait, you cannot select this trait, and vice versa.</p>
+</Pair>
 </Ability>
 </>};
 const _good_natured = {title: "Good-Natured", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
@@ -1667,7 +1672,8 @@ const _good_natured = {title: "Good-Natured", topLink: ["Religion Traits","main/
 <Pair single id="good-natured">Good-Natured</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/cayden_cailean">Cayden Cailean</Link></Pair>
-<Pair single="benefit" id="good-natured-benefit">You have an unusually sunny spirit, and it takes something truly intimidating to dampen your mood. You gain a +2 trait bonus on saving throws against fear effects.</Pair>
+<Pair single="flavor" id="good-natured-flavor">You have an unusually sunny spirit, and it takes something truly intimidating to dampen your mood.</Pair>
+<Pair single="benefit" id="good-natured-benefit">You gain a +2 trait bonus on saving throws against fear effects.</Pair>
 </Ability>
 </>};
 const _gozrehs_sight = {title: "Gozreh's Sight", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
@@ -1675,7 +1681,8 @@ const _gozrehs_sight = {title: "Gozreh's Sight", topLink: ["Religion Traits","ma
 <Pair single id="gozrehs-sight">Gozreh's Sight</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gozreh">Gozreh</Link></Pair>
-<Pair single="benefit" id="gozrehs-sight-benefit">Your faith in the Wind and the Waves helps you navigate through all manner of mist or haze. You can see normally up to 5 feet away in areas of nonmagical fog, mist, rain, or similar conditions (such as the spray of a waterfall). Your sight is still obscured beyond 5 feet as normal in these conditions.</Pair>
+<Pair single="flavor" id="gozrehs-sight-flavor">Your faith in the Wind and the Waves helps you navigate through all manner of mist or haze.</Pair>
+<Pair single="benefit" id="gozrehs-sight-benefit">You can see normally up to 5 feet away in areas of nonmagical <Link to="/rule/fog">fog</Link>, mist, <Link to="/rule/rain">rain</Link>, or similar conditions (such as the spray of a waterfall). Your sight is still obscured beyond 5 feet as normal in these conditions.</Pair>
 </Ability>
 </>};
 const _guardian_smite = {title: "Guardian Smite", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -1683,7 +1690,8 @@ const _guardian_smite = {title: "Guardian Smite", topLink: ["Religion Traits","m
 <Pair single id="guardian-smite">Guardian Smite</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/trudd">Trudd</Link></Pair>
-<Pair single="benefit" id="guardian-smite-benefit">Paladins of Trudd taught you to be a blessed, living barrier against enemies who threaten those you hold dear. Once per day, when you strike a foe with smite evil, you can halve the total damage dealt to the foe to reduce that foe's speed to 5 feet for 1 round.</Pair>
+<Pair single="flavor" id="guardian-smite-flavor">Paladins of Trudd taught you to be a blessed, living barrier against enemies who threaten those you hold dear.</Pair>
+<Pair single="benefit" id="guardian-smite-benefit">Once per day, when you strike a foe with <em>smite evil,</em> you can halve the total damage dealt to the foe to reduce that foe's speed to 5 feet for 1 round.</Pair>
 </Ability>
 </>};
 const _guardian_of_the_forge = {title: "Guardian of the Forge", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -1691,7 +1699,8 @@ const _guardian_of_the_forge = {title: "Guardian of the Forge", topLink: ["Relig
 <Pair single id="guardian-of-the-forge">Guardian of the Forge</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/torag">Torag</Link></Pair>
-<Pair single="benefit" id="guardian-of-the-forge-benefit">Torag's sacred duties are to protect the faithful, take lessons from the great craftsmen and strategists of the past, and prepare against dark times. You receive a +1 trait bonus on Knowledge (engineering) and Knowledge (history) checks. One of these skills (your choice) is a class skill for you.</Pair>
+<Pair single="flavor" id="guardian-of-the-forge-flavor">Torag's sacred duties are to protect the faithful, take lessons from the great craftsmen and strategists of the past, and prepare against dark times.</Pair>
+<Pair single="benefit" id="guardian-of-the-forge-benefit">You receive a +1 trait bonus on <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> and <Link to="/skill/knowledge_history">Knowledge (history)</Link> checks. One of these skills (your choice) is a class skill for you.</Pair>
 </Ability>
 </>};
 const _hatred_of_the_gods = {title: "Hatred of the Gods", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -1699,7 +1708,8 @@ const _hatred_of_the_gods = {title: "Hatred of the Gods", topLink: ["Religion Tr
 <Pair single id="hatred-of-the-gods">Hatred of the Gods</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/rovagug">Rovagug</Link></Pair>
-<Pair single="benefit" id="hatred-of-the-gods-benefit">Your god's own hatred of other deities is reflected in your ability to withstand the attacks of their followers. You gain a +1 trait bonus on saving throws made against divine spells.</Pair>
+<Pair single="flavor" id="hatred-of-the-gods-flavor">Your god's own hatred of other deities is reflected in your ability to withstand the attacks of their followers.</Pair>
+<Pair single="benefit" id="hatred-of-the-gods-benefit">You gain a +1 trait bonus on saving throws made against divine spells.</Pair>
 </Ability>
 </>};
 const _holy_schemer = {title: "Holy Schemer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -1707,7 +1717,8 @@ const _holy_schemer = {title: "Holy Schemer", topLink: ["Religion Traits","main/
 <Pair single id="holy-schemer">Holy Schemer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/calistria">Calistria</Link></Pair>
-<Pair single="benefit" id="holy-schemer-benefit">You are well versed in the arts of misdirection, plotting, and intrigue, and you know how to recognize these tactics when they're used against you. You receive a +1 trait bonus on Sense Motive checks, and Sense Motive is a class skill for you.</Pair>
+<Pair single="flavor" id="holy-schemer-flavor">You are well versed in the arts of misdirection, plotting, and intrigue, and you know how to recognize these tactics when they're used against you.</Pair>
+<Pair single="benefit" id="holy-schemer-benefit">You receive a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks, and Sense Motive is a class skill for you.</Pair>
 </Ability>
 </>};
 const _honey_tongued = {title: "Honey-Tongued", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -1715,7 +1726,7 @@ const _honey_tongued = {title: "Honey-Tongued", topLink: ["Religion Traits","mai
 <Pair single id="honey-tongued">Honey-Tongued</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/abadar">Abadar</Link></Pair>
-<Pair single="benefit" id="honey-tongued-benefit">Your deep understanding of human nature and social philosophy grants you a +1 trait bonus on Diplomacy or Bluff checks when dealing with agents of the law, such as judges, guards, and paladins.</Pair>
+<Pair single="benefit" id="honey-tongued-benefit">Your deep understanding of human nature and social philosophy grants you a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> or <Link to="/skill/bluff">Bluff</Link> checks when dealing with agents of the law, such as judges, guards, and paladins.</Pair>
 </Ability>
 </>};
 const _honeyed_words = {title: "Honeyed Words", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
@@ -1723,7 +1734,8 @@ const _honeyed_words = {title: "Honeyed Words", topLink: ["Religion Traits","mai
 <Pair single id="honeyed-words">Honeyed Words</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/grundinnar">Grundinnar</Link></Pair>
-<Pair single="benefit" id="honeyed-words-benefit">Your tact soothes bristling tempers and cools heated blood. You receive a +1 trait bonus on Diplomacy checks. In addition, you receive a +1 trait bonus to the DC of any charm or compulsion that does not provide ongoing control and results in peaceful acts, such as calm emotions, sleep, or a suggestion to lay down arms.</Pair>
+<Pair single="flavor" id="honeyed-words-flavor">Your tact soothes bristling tempers and cools heated blood.</Pair>
+<Pair single="benefit" id="honeyed-words-benefit">You receive a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks. In addition, you receive a +1 trait bonus to the DC of any charm or compulsion that does not provide ongoing control and results in peaceful acts, such as <Link to="/spell/calm_emotions">calm emotions</Link>, <Link to="/spell/sleep">sleep</Link>, or a <Link to="/spell/suggestion">suggestion</Link> to lay down arms.</Pair>
 </Ability>
 </>};
 const _illuminator = {title: "Illuminator", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
@@ -1731,7 +1743,8 @@ const _illuminator = {title: "Illuminator", topLink: ["Religion Traits","main/tr
 <Pair single id="illuminator">Illuminator</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
-<Pair single="benefit" id="illuminator-benefit">When you are filled with the light of Sarenrae, your speech takes on a fiery eloquence. You gain a +2 trait bonus on Diplomacy checks, and Diplomacy is a class skill for you.</Pair>
+<Pair single="flavor" id="illuminator-flavor">When you are filled with the light of Sarenrae, your speech takes on a fiery eloquence.</Pair>
+<Pair single="benefit" id="illuminator-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks, and Diplomacy is a class skill for you.</Pair>
 </Ability>
 </>};
 const _inheritors_immunity = {title: "Inheritor's Immunity", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
@@ -1739,7 +1752,8 @@ const _inheritors_immunity = {title: "Inheritor's Immunity", topLink: ["Religion
 <Pair single id="inheritors-immunity">Inheritor's Immunity</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/iomedae">Iomedae</Link></Pair>
-<Pair single="benefit" id="inheritors-immunity-benefit">Iomedae's valor fills you with divine energy, allowing you to stave off even the worst plague. Once per day, you can reroll a saving throw against a disease or poison. You must take the second result, even if it is worse.</Pair>
+<Pair single="flavor" id="inheritors-immunity-flavor">Iomedae's valor fills you with divine energy, allowing you to stave off even the worst plague.</Pair>
+<Pair single="benefit" id="inheritors-immunity-benefit">Once per day, you can reroll a saving throw against a disease or poison. You must take the second result, even if it is worse.</Pair>
 </Ability>
 </>};
 const _inner_beauty = {title: "Inner Beauty", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
@@ -1747,7 +1761,7 @@ const _inner_beauty = {title: "Inner Beauty", topLink: ["Religion Traits","main/
 <Pair single id="inner-beauty">Inner Beauty</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shelyn">Shelyn</Link></Pair>
-<Pair single="benefit" id="inner-beauty-benefit">Once per day when you manifest your faith in your goddess, you gain a +4 trait bonus on a single Bluff, Craft, Diplomacy, or Perform skill check. You must choose to use this trait immediately after rolling the skill check but before the result is revealed by the GM.</Pair>
+<Pair single="benefit" id="inner-beauty-benefit">Once per day when you manifest your faith in your goddess, you gain a +4 trait bonus on a single <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/craft">Craft</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, or <Link to="/skill/perform">Perform</Link> skill check. You must choose to use this trait immediately after rolling the skill check but before the result is revealed by the GM.</Pair>
 </Ability>
 </>};
 const _inoculated = {title: "Inoculated", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -1763,7 +1777,8 @@ const _inspiring_leader = {title: "Inspiring Leader", topLink: ["Religion Traits
 <Pair single id="inspiring-leader">Inspiring Leader</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/apsu">Apsu</Link></Pair>
-<Pair single="benefit" id="inspiring-leader-benefit">Imitating the leadership of your deity, you spur others on to great deeds. When you cast a spell that grants allies a morale bonus, you cast that spell at +1 caster level.</Pair>
+<Pair single="flavor" id="inspiring-leader-flavor">Imitating the leadership of your deity, you spur others on to great deeds.</Pair>
+<Pair single="benefit" id="inspiring-leader-benefit">When you cast a spell that grants allies a morale bonus, you cast that spell at +1 caster level.</Pair>
 </Ability>
 </>};
 const _intense_artist = {title: "Intense Artist", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
@@ -1771,7 +1786,8 @@ const _intense_artist = {title: "Intense Artist", topLink: ["Religion Traits","m
 <Pair single id="intense-artist">Intense Artist</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shelyn">Shelyn</Link></Pair>
-<Pair single="benefit" id="intense-artist-benefit">Your devotion to Shelyn has caused you to delve more deeply into your art. Choose two Perform skills; you gain a +1 trait bonus on Perform checks of the selected types, and Perform is a class skill for you.</Pair>
+<Pair single="flavor" id="intense-artist-flavor">Your devotion to Shelyn has caused you to delve more deeply into your art.</Pair>
+<Pair single="benefit" id="intense-artist-benefit">Choose two <Link to="/skill/perform">Perform</Link> skills; you gain a +1 trait bonus on Perform checks of the selected types, and Perform is a class skill for you.</Pair>
 </Ability>
 </>};
 const _iron_grip = {title: "Iron Grip", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -1779,7 +1795,8 @@ const _iron_grip = {title: "Iron Grip", topLink: ["Religion Traits","main/traits
 <Pair single id="iron-grip">Iron Grip</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gorum">Gorum</Link></Pair>
-<Pair single="benefit" id="iron-grip-benefit">You and your weapon are practically one. You receive a +2 trait bonus to your CMD against disarm attempts.</Pair>
+<Pair single="flavor" id="iron-grip-flavor">You and your weapon are practically one.</Pair>
+<Pair single="benefit" id="iron-grip-benefit">You receive a +2 trait bonus to your CMD against <Link to="/rule/disarm">disarm</Link> attempts.</Pair>
 </Ability>
 </>};
 const _know_the_land = {title: "Know the Land", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -1787,7 +1804,7 @@ const _know_the_land = {title: "Know the Land", topLink: ["Religion Traits","mai
 <Pair single id="know-the-land">Know the Land</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/green_faith">Green Faith</Link></Pair>
-<Pair single="benefit" id="know-the-land-benefit">Your familiarity with the plants and animals of a variety of environments gives you a +1 trait bonus on Knowledge (nature) and Survival checks, and one of these skills is a class skill for you.</Pair>
+<Pair single="benefit" id="know-the-land-benefit">Your familiarity with the plants and animals of a variety of environments gives you a +1 trait bonus on <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> and <Link to="/skill/survival">Survival</Link> checks, and one of these skills is a class skill for you.</Pair>
 </Ability>
 </>};
 const _kuthite_caster = {title: "Kuthite Caster", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -1803,7 +1820,8 @@ const _lessons_of_chaldira = {title: "Lessons of Chaldira", topLink: ["Religion 
 <Pair single id="lessons-of-chaldira">Lessons of Chaldira</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira_zuzaristan">Chaldira Zuzaristan</Link></Pair>
-<Pair single="benefit" id="lessons-of-chaldira-benefit">Your studies of Chaldira Zuzaristan's exploits have given you a knack for avoiding trouble. Once per day before the result of a saving throw is known, you can reroll that saving throw. You must take the second result even if it is worse.</Pair>
+<Pair single="flavor" id="lessons-of-chaldira-flavor">Your studies of Chaldira Zuzaristan's exploits have given you a knack for avoiding trouble.</Pair>
+<Pair single="benefit" id="lessons-of-chaldira-benefit">Once per day before the result of a saving throw is known, you can reroll that saving throw. You must take the second result even if it is worse.</Pair>
 </Ability>
 </>};
 const _liars_tongue = {title: "Liar's Tongue", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1811,7 +1829,8 @@ const _liars_tongue = {title: "Liar's Tongue", topLink: ["Religion Traits","main
 <Pair single id="liars-tongue">Liar's Tongue</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/asmodeus">Asmodeus</Link></Pair>
-<Pair single="benefit" id="liars-tongue-benefit">Thanks to your friendly mien and sly tongue, your lies are often believed. You gain a +1 trait bonus on Bluff checks, and Bluff is a class skill for you.</Pair>
+<Pair single="flavor" id="liars-tongue-flavor">Thanks to your friendly mien and sly tongue, your lies are often believed.</Pair>
+<Pair single="benefit" id="liars-tongue-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks, and Bluff is a class skill for you.</Pair>
 </Ability>
 </>};
 const _light_sleeper = {title: "Light Sleeper", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1819,7 +1838,8 @@ const _light_sleeper = {title: "Light Sleeper", topLink: ["Religion Traits","mai
 <Pair single id="light-sleeper">Light Sleeper</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/hanspur">Hanspur</Link></Pair>
-<Pair single="benefit" id="light-sleeper-benefit">Because of a blessing from your god, or worries inspired by the way he died as a mortal, you are a light sleeper. Your modifier to Perception DCs when sleeping is +5 instead of +10.</Pair>
+<Pair single="flavor" id="light-sleeper-flavor">Because of a blessing from your god, or worries inspired by the way he died as a mortal, you are a light sleeper.</Pair>
+<Pair single="benefit" id="light-sleeper-benefit">Your modifier to <Link to="/skill/perception">Perception</Link> DCs when sleeping is +5 instead of +10.</Pair>
 </Ability>
 </>};
 const _light_bringer = {title: "Light-Bringer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1827,7 +1847,8 @@ const _light_bringer = {title: "Light-Bringer", topLink: ["Religion Traits","mai
 <Pair single id="light-bringer">Light-Bringer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
-<Pair single="benefit" id="light-bringer-benefit">You were born with a blessing of the Dawnflower. Once per day, you can use <Link to="/spell/light">light</Link> as a spell-like ability. Your caster level is equal to your character level.</Pair>
+<Pair single="flavor" id="light-bringer-flavor">You were born with a blessing of the Dawnflower.</Pair>
+<Pair single="benefit" id="light-bringer-benefit">Once per day, you can use <Link to="/spell/light">light</Link> as a spell-like ability. Your caster level is equal to your character level.</Pair>
 </Ability>
 </>};
 const _living_bulwark = {title: "Living Bulwark", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -1835,7 +1856,8 @@ const _living_bulwark = {title: "Living Bulwark", topLink: ["Religion Traits","m
 <Pair single id="living-bulwark">Living Bulwark</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/arqueros">Arqueros</Link></Pair>
-<Pair single="benefit" id="living-bulwark-benefit">The Golden Bulwark inspires you to give your all for those you protect. Once per day, when an adjacent ally is targeted by an attack but before the attack roll is attempted, you can interpose yourself as an immediate action. You become the target of the attack instead.</Pair>
+<Pair single="flavor" id="living-bulwark-flavor">The Golden Bulwark inspires you to give your all for those you protect.</Pair>
+<Pair single="benefit" id="living-bulwark-benefit">Once per day, when an adjacent ally is targeted by an attack but before the attack roll is attempted, you can interpose yourself as an <strong className="hl">immediate action</strong>. You become the target of the attack instead.</Pair>
 </Ability>
 </>};
 const _loreseeker = {title: "Loreseeker", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -1843,7 +1865,7 @@ const _loreseeker = {title: "Loreseeker", topLink: ["Religion Traits","main/trai
 <Pair single id="loreseeker">Loreseeker</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lissala">Lissala</Link></Pair>
-<Pair single="benefit" id="loreseeker-benefit">You gain a +2 trait bonus on Spellcraft checks made to identify magical items.</Pair>
+<Pair single="benefit" id="loreseeker-benefit">You gain a +2 trait bonus on <Link to="/skill/spellcraft">Spellcraft</Link> checks made to identify magical items.</Pair>
 </Ability>
 </>};
 const _lover_of_the_law = {title: "Lover of the Law", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -1851,7 +1873,8 @@ const _lover_of_the_law = {title: "Lover of the Law", topLink: ["Religion Traits
 <Pair single id="lover-of-the-law">Lover of the Law</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/abadar">Abadar</Link></Pair>
-<Pair single="benefit" id="lover-of-the-law-benefit">You have a strong belief in the righteousness of law and justice. You receive a +1 trait bonus on saving throws against charm and compulsion effects, and may attempt a new saving throw with an additional +1 bonus (for a total of +2) if you are directed to break the law.</Pair>
+<Pair single="flavor" id="lover-of-the-law-flavor">You have a strong belief in the righteousness of law and justice.</Pair>
+<Pair single="benefit" id="lover-of-the-law-benefit">You receive a +1 trait bonus on saving throws against charm and compulsion effects, and may attempt a new saving throw with an additional +1 bonus (for a total of +2) if you are directed to break the law.</Pair>
 </Ability>
 </>};
 const _loyal_bond = {title: "Loyal Bond", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1859,7 +1882,8 @@ const _loyal_bond = {title: "Loyal Bond", topLink: ["Religion Traits","main/trai
 <Pair single id="loyal-bond">Loyal Bond</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/grundinnar">Grundinnar</Link></Pair>
-<Pair single="benefit" id="loyal-bond-benefit">You are at your best when you serve others. When you cast spells that offer protection to an ally at your expense (such as <Link to="/spell/shield_other">shield other</Link>) or spells whose duration is divided when shared among many (such as water breathing or any of the communal spells), you do so at +1 caster level.</Pair>
+<Pair single="flavor" id="loyal-bond-flavor">You are at your best when you serve others.</Pair>
+<Pair single="benefit" id="loyal-bond-benefit">When you cast spells that offer protection to an ally at your expense (such as <Link to="/spell/shield_other">shield other</Link>) or spells whose duration is divided when shared among many (such as <Link to="/spell/water_breathing">water breathing</Link> or any of the <em>communal</em> spells), you do so at +1 caster level.</Pair>
 </Ability>
 </>};
 const _magic_is_life = {title: "Magic Is Life", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
@@ -1867,7 +1891,8 @@ const _magic_is_life = {title: "Magic Is Life", topLink: ["Religion Traits","mai
 <Pair single id="magic-is-life">Magic Is Life</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/nethys">Nethys</Link></Pair>
-<Pair single="benefit" id="magic-is-life-benefit">Your faith in magic allows you to reflexively use the energy of any spell effect currently on you to save you from death. As long as you are under the effects of a spell, you gain a +2 trait bonus on saving throws against death effects. If you are reduced to negative hit points while you are under the effects of any spell, you automatically confirm stabilization checks to stop bleeding.</Pair>
+<Pair single="flavor" id="magic-is-life-flavor">Your faith in magic allows you to reflexively use the energy of any spell effect currently on you to save you from death.</Pair>
+<Pair single="benefit" id="magic-is-life-benefit">As long as you are under the effects of a spell, you gain a +2 trait bonus on saving throws against death effects. If you are reduced to negative hit points while you are under the effects of any spell, you automatically confirm stabilization checks to stop bleeding.</Pair>
 </Ability>
 </>};
 const _magics_might = {title: "Magic's Might", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1875,7 +1900,8 @@ const _magics_might = {title: "Magic's Might", topLink: ["Religion Traits","main
 <Pair single id="magics-might">Magic's Might</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/yuelral">Yuelral</Link></Pair>
-<Pair single="benefit" id="magics-might-benefit">Your natural affinity for magic allows you to affect even those who resist it. You gain a +1 trait bonus on caster level checks to overcome spell resistance.</Pair>
+<Pair single="flavor" id="magics-might-flavor">Your natural affinity for magic allows you to affect even those who resist it.</Pair>
+<Pair single="benefit" id="magics-might-benefit">You gain a +1 trait bonus on caster level checks to overcome spell resistance.</Pair>
 </Ability>
 </>};
 const _mighty_protector = {title: "Mighty Protector", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -1883,7 +1909,8 @@ const _mighty_protector = {title: "Mighty Protector", topLink: ["Religion Traits
 <Pair single id="mighty-protector">Mighty Protector</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/trudd">Trudd</Link></Pair>
-<Pair single="benefit" id="mighty-protector-benefit">When you were too young to fight, you witnessed a great tragedy befall an innocent and you swore to Trudd you'd become strong enough to prevent something like that from happening again. Once per day when you hit a foe with a melee attack, you can attempt an aid another action as a free action to increase an adjacent ally's AC against that foe. If you succeed, you grant the ally a +4 bonus to AC instead of a +2 bonus for that round.</Pair>
+<Pair single="flavor" id="mighty-protector-flavor">When you were too young to fight, you witnessed a great tragedy befall an innocent and you swore to Trudd you'd become strong enough to prevent something like that from happening again.</Pair>
+<Pair single="benefit" id="mighty-protector-benefit">Once per day when you hit a foe with a melee attack, you can attempt an <Link to="/rule/aid_another_2">aid another</Link> action as a <strong className="hl">free action</strong> to increase an adjacent ally's AC against that foe. If you succeed, you grant the ally a +4 bonus to AC instead of a +2 bonus for that round.</Pair>
 </Ability>
 </>};
 const _mischievous_smile = {title: "Mischievous Smile", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -1891,7 +1918,8 @@ const _mischievous_smile = {title: "Mischievous Smile", topLink: ["Religion Trai
 <Pair single id="mischievous-smile">Mischievous Smile</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira">Chaldira</Link></Pair>
-<Pair single="benefit" id="mischievous-smile-benefit">You consider mischief a sacred rite in humbling enemies. You do not provoke attacks of opportunity when performing a dirty trick combat maneuver while your smite evil bonus applies to combat maneuver checks. If you already do not provoke such attacks of opportunity (such as by having <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link>), you instead gain a +2 trait bonus on dirty trick combat maneuver checks against creatures that are the targets of your smite.</Pair>
+<Pair single="flavor" id="mischievous-smile-flavor">You consider mischief a sacred rite in humbling enemies.</Pair>
+<Pair single="benefit" id="mischievous-smile-benefit">You do not provoke attacks of opportunity when performing a <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver while your <em>smite evil</em> bonus applies to combat maneuver checks. If you already do not provoke such attacks of opportunity (such as by having <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link>), you instead gain a +2 trait bonus on dirty trick combat maneuver checks against creatures that are the targets of your <em>smite.</em></Pair>
 </Ability>
 </>};
 const _mothers_rage = {title: "Mother's Rage", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
@@ -1899,7 +1927,8 @@ const _mothers_rage = {title: "Mother's Rage", topLink: ["Religion Traits","main
 <Pair single id="mothers-rage">Mother's Rage</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lamashtu">Lamashtu</Link></Pair>
-<Pair single="benefit" id="mothers-rage-benefit">The blood of the beast runs thick in your veins, and your appearance is bestial. You receive a +1 trait bonus on Survival checks, and you treat your caster level as +1 higher when summoning creatures.</Pair>
+<Pair single="flavor" id="mothers-rage-flavor">The blood of the beast runs thick in your veins, and your appearance is bestial.</Pair>
+<Pair single="benefit" id="mothers-rage-benefit">You receive a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks, and you treat your caster level as +1 higher when summoning creatures.</Pair>
 </Ability>
 </>};
 const _mothers_teeth = {title: "Mother's Teeth", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
@@ -1908,7 +1937,8 @@ const _mothers_teeth = {title: "Mother's Teeth", topLink: ["Religion Traits","ma
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lamashtu">Lamashtu</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
-<Pair single="benefit" id="mothers-teeth-benefit">Your teeth are more jagged and pointed than normal. You can make a bite attack for 1d2 points of damage as a secondary attack.</Pair>
+<Pair single="flavor" id="mothers-teeth-flavor">Your teeth are more jagged and pointed than normal.</Pair>
+<Pair single="benefit" id="mothers-teeth-benefit">You can make a <Link to="/umr/bite_attack">bite attack</Link> for 1d2 points of damage as a secondary attack.</Pair>
 </Ability>
 </>};
 const _natural_magic = {title: "Natural Magic", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -1916,7 +1946,8 @@ const _natural_magic = {title: "Natural Magic", topLink: ["Religion Traits","mai
 <Pair single id="natural-magic">Natural Magic</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/yuelral">Yuelral</Link></Pair>
-<Pair single="benefit" id="natural-magic-benefit">Yuelral's teachings revealed to you that all magic can ultimately be traced back to nature. Choose two 0-level druid spells. You treat each spell as being on your class spell list and as a spell known for all spellcasting classes you have.</Pair>
+<Pair single="flavor" id="natural-magic-flavor">Yuelral's teachings revealed to you that all magic can ultimately be traced back to nature.</Pair>
+<Pair single="benefit" id="natural-magic-benefit">Choose two 0-level <Link to="/main/druid_spell">druid spells</Link>. You treat each spell as being on your class spell list and as a spell known for all spellcasting classes you have.</Pair>
 </Ability>
 </>};
 const _natural_philosopher = {title: "Natural Philosopher", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1924,7 +1955,8 @@ const _natural_philosopher = {title: "Natural Philosopher", topLink: ["Religion 
 <Pair single id="natural-philosopher">Natural Philosopher</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gozreh">Gozreh</Link></Pair>
-<Pair single="benefit" id="natural-philosopher-benefit">You study the outdoors, and leave books for dusty libraries. You can attempt Knowledge (geography) and Knowledge (nature) checks as if you were trained.</Pair>
+<Pair single="flavor" id="natural-philosopher-flavor">You study the outdoors, and leave books for dusty libraries.</Pair>
+<Pair single="benefit" id="natural-philosopher-benefit">You can attempt <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> and <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> checks as if you were trained.</Pair>
 </Ability>
 </>};
 const _nimble_fingers_keen_mind = {title: "Nimble Fingers, Keen Mind", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -1932,7 +1964,7 @@ const _nimble_fingers_keen_mind = {title: "Nimble Fingers, Keen Mind", topLink: 
 <Pair single id="nimble-fingers-keen-mind">Nimble Fingers, Keen Mind</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/brigh">Brigh</Link></Pair>
-<Pair single="benefit" id="nimble-fingers-keen-mind-benefit">Your study of clockwork mechanisms and other mechanical wonders grants you a +1 trait bonus on Disable Device checks, and Disable Device is a class skill for you.</Pair>
+<Pair single="benefit" id="nimble-fingers-keen-mind-benefit">Your study of clockwork mechanisms and other mechanical wonders grants you a +1 trait bonus on <Link to="/skill/disable_device">Disable Device</Link> checks, and Disable Device is a class skill for you.</Pair>
 </Ability>
 </>};
 const _oathkeepers_vow = {title: "Oathkeeper's Vow", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -1940,7 +1972,8 @@ const _oathkeepers_vow = {title: "Oathkeeper's Vow", topLink: ["Religion Traits"
 <Pair single id="oathkeepers-vow">Oathkeeper's Vow</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/kols">Kols</Link></Pair>
-<Pair single="benefit" id="oathkeepers-vow-benefit">The clergy of Kols trained you to make unbreakable vows. You add the following spells to the paladin spell list at the indicated levels: <Link to="/spell/command">command</Link> (1st), <Link to="/spell/forbid_action">forbid action</Link> (1st), <Link to="/spell/suggestion">suggestion</Link> (to fulfill a prior promise only; 2nd), <Link to="/spell/lesser_geas">lesser geas</Link> (3rd), <Link to="/spell/geas_quest">geas/quest</Link> (4th).</Pair>
+<Pair single="flavor" id="oathkeepers-vow-flavor">The clergy of Kols trained you to make unbreakable vows.</Pair>
+<Pair single="benefit" id="oathkeepers-vow-benefit">You add the following spells to the paladin spell list at the indicated levels: <Link to="/spell/command">command</Link> (1st), <Link to="/spell/forbid_action">forbid action</Link> (1st), <Link to="/spell/suggestion">suggestion</Link> (to fulfill a prior promise only; 2nd), <Link to="/spell/lesser_geas">lesser geas</Link> (3rd), <Link to="/spell/geas_quest">geas/quest</Link> (4th).</Pair>
 </Ability>
 </>};
 const _opener_of_doors = {title: "Opener of Doors", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -1948,7 +1981,8 @@ const _opener_of_doors = {title: "Opener of Doors", topLink: ["Religion Traits",
 <Pair single id="opener-of-doors">Opener of Doors</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/alseta">Alseta</Link></Pair>
-<Pair single="benefit" id="opener-of-doors-benefit">Because of your devotion to Alseta, you are blessed with the ability to find hidden portals. You gain a +2 trait bonus on Perception checks to find secret doors.</Pair>
+<Pair single="flavor" id="opener-of-doors-flavor">Because of your devotion to Alseta, you are blessed with the ability to find hidden portals.</Pair>
+<Pair single="benefit" id="opener-of-doors-benefit">You gain a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks to find secret doors.</Pair>
 </Ability>
 </>};
 const _opportune_slayer = {title: "Opportune Slayer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1956,7 +1990,8 @@ const _opportune_slayer = {title: "Opportune Slayer", topLink: ["Religion Traits
 <Pair single id="opportune-slayer">Opportune Slayer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lamashtu">Lamashtu</Link></Pair>
-<Pair single="benefit" id="opportune-slayer-benefit">Those who open themselves to your attacks feel your wrath. You gain a +2 trait bonus on damage rolls against those you hit with attacks of opportunity.</Pair>
+<Pair single="flavor" id="opportune-slayer-flavor">Those who open themselves to your attacks feel your wrath.</Pair>
+<Pair single="benefit" id="opportune-slayer-benefit">You gain a +2 trait bonus on damage rolls against those you hit with attacks of opportunity.</Pair>
 </Ability>
 </>};
 const _opportunistic = {title: "Opportunistic", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -1964,7 +1999,8 @@ const _opportunistic = {title: "Opportunistic", topLink: ["Religion Traits","mai
 <Pair single id="opportunistic">Opportunistic</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/calistria">Calistria</Link></Pair>
-<Pair single="benefit" id="opportunistic-benefit">You have learned to recognize openings that your foes leave, and you know how to take advantage of them. You gain a +1 trait bonus on attacks of opportunity when using a dagger, sword, or whip.</Pair>
+<Pair single="flavor" id="opportunistic-flavor">You have learned to recognize openings that your foes leave, and you know how to take advantage of them.</Pair>
+<Pair single="benefit" id="opportunistic-benefit">You gain a +1 trait bonus on attacks of opportunity when using a <Link to="/eq-weapon/dagger">dagger</Link>, sword, or <Link to="/eq-weapon/whip">whip</Link>.</Pair>
 </Ability>
 </>};
 const _pain_is_pleasure = {title: "Pain Is Pleasure", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
@@ -1972,7 +2008,8 @@ const _pain_is_pleasure = {title: "Pain Is Pleasure", topLink: ["Religion Traits
 <Pair single id="pain-is-pleasure">Pain Is Pleasure</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zon_kuthon">Zon-Kuthon</Link></Pair>
-<Pair single="benefit" id="pain-is-pleasure-benefit">You have discovered a hint of the dark truths that lay hidden within blood and flesh. You gain a +1 trait bonus on Fortitude and Will saves whenever you have fewer than half your maximum number of hit points.</Pair>
+<Pair single="flavor" id="pain-is-pleasure-flavor">You have discovered a hint of the dark truths that lay hidden within blood and flesh.</Pair>
+<Pair single="benefit" id="pain-is-pleasure-benefit">You gain a +1 trait bonus on Fortitude and Will saves whenever you have fewer than half your maximum number of hit points.</Pair>
 </Ability>
 </>};
 const _patient_optimist = {title: "Patient Optimist", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
@@ -1980,7 +2017,8 @@ const _patient_optimist = {title: "Patient Optimist", topLink: ["Religion Traits
 <Pair single id="patient-optimist">Patient Optimist</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/erastil">Erastil</Link></Pair>
-<Pair single="benefit" id="patient-optimist-benefit">You know that all things pass in time, and are used to having to repeat arguments multiple times to convince stubborn believers. You gain a +2 trait bonus on Diplomacy checks to influence hostile or unfriendly creatures, and if you fail at such an attempt, you may retry it once.</Pair>
+<Pair single="flavor" id="patient-optimist-flavor">You know that all things pass in time, and are used to having to repeat arguments multiple times to convince stubborn believers.</Pair>
+<Pair single="benefit" id="patient-optimist-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to influence hostile or unfriendly creatures, and if you fail at such an attempt, you may retry it once.</Pair>
 </Ability>
 </>};
 const _planar_wayfarer = {title: "Planar Wayfarer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 13</Link></p>
@@ -1988,7 +2026,8 @@ const _planar_wayfarer = {title: "Planar Wayfarer", topLink: ["Religion Traits",
 <Pair single id="planar-wayfarer">Planar Wayfarer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/onos">Onos</Link></Pair>
-<Pair single="benefit" id="planar-wayfarer-benefit">The countless natural hazards of the planes cannot deter you from witnessing their grandeur. Once per day you can meditate on the nature of the planes for 1 hour to gain energy resistance 2 against acid, cold, electricity, fire, or sonic damage. This resistance lasts 24 hours or until you perform this meditation again and choose a new resistance.</Pair>
+<Pair single="flavor" id="planar-wayfarer-flavor">The countless natural hazards of the planes cannot deter you from witnessing their grandeur.</Pair>
+<Pair single="benefit" id="planar-wayfarer-benefit">Once per day you can meditate on the nature of the planes for 1 hour to gain <Link to="/umr/resistance">energy resistance</Link> 2 against acid, cold, electricity, fire, or sonic damage. This resistance lasts 24 hours or until you perform this meditation again and choose a new resistance.</Pair>
 </Ability>
 </>};
 const _poisonous_slayer = {title: "Poisonous Slayer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -1996,7 +2035,8 @@ const _poisonous_slayer = {title: "Poisonous Slayer", topLink: ["Religion Traits
 <Pair single id="poisonous-slayer">Poisonous Slayer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/norgorber">Norgorber</Link></Pair>
-<Pair single="benefit" id="poisonous-slayer-benefit">You know the secret of plunging a poisoned weapon in just the right spot. You gain a +1 trait bonus on attack rolls when you are wielding a weapon treated with poison.</Pair>
+<Pair single="flavor" id="poisonous-slayer-flavor">You know the secret of plunging a poisoned weapon in just the right spot.</Pair>
+<Pair single="benefit" id="poisonous-slayer-benefit">You gain a +1 trait bonus on attack rolls when you are wielding a weapon treated with poison.</Pair>
 </Ability>
 </>};
 const _potent_concoctions = {title: "Potent Concoctions", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -2004,7 +2044,8 @@ const _potent_concoctions = {title: "Potent Concoctions", topLink: ["Religion Tr
 <Pair single id="potent-concoctions">Potent Concoctions</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ghlaunder">Ghlaunder</Link></Pair>
-<Pair single="benefit" id="potent-concoctions-benefit">You have dedicated your life to honoring famine and disease. Choose any two <Link to="/main/equipment_poisons">poisons</Link>; when you attempt to inflict either of these poisons on an enemy, the DC to resist it increases by 1.</Pair>
+<Pair single="flavor" id="potent-concoctions-flavor">You have dedicated your life to honoring famine and disease.</Pair>
+<Pair single="benefit" id="potent-concoctions-benefit">Choose any two <Link to="/main/equipment_poisons">poisons</Link>; when you attempt to inflict either of these poisons on an enemy, the DC to resist it increases by 1.</Pair>
 </Ability>
 </>};
 const _practiced_deception = {title: "Practiced Deception", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -2012,7 +2053,7 @@ const _practiced_deception = {title: "Practiced Deception", topLink: ["Religion 
 <Pair single id="practiced-deception">Practiced Deception</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/norgorber">Norgorber</Link></Pair>
-<Pair single="benefit" id="practiced-deception-benefit">You gain a +1 trait bonus on Disguise checks, and you can apply and remove a disguise in half the normal time.</Pair>
+<Pair single="benefit" id="practiced-deception-benefit">You gain a +1 trait bonus on <Link to="/skill/disguise">Disguise</Link> checks, and you can apply and remove a disguise in half the normal time.</Pair>
 </Ability>
 </>};
 const _pristine_reputation = {title: "Pristine Reputation", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -2020,7 +2061,8 @@ const _pristine_reputation = {title: "Pristine Reputation", topLink: ["Religion 
 <Pair single id="pristine-reputation">Pristine Reputation</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shizuru">Shizuru</Link></Pair>
-<Pair single="benefit" id="pristine-reputation-benefit">You come from an especially esteemed family, religious order, school, or other group that worships Shizuru, and draw upon that tradition to maintain your identity. The first time each day that you fail a saving throw against a charm or compulsion effect, you can reroll that saving throw. If you do so, you gain a +2 trait bonus on this roll and use this result as the actual result for that saving throw.</Pair>
+<Pair single="flavor" id="pristine-reputation-flavor">You come from an especially esteemed family, religious order, school, or other group that worships Shizuru, and draw upon that tradition to maintain your identity.</Pair>
+<Pair single="benefit" id="pristine-reputation-benefit">The first time each day that you fail a saving throw against a charm or compulsion effect, you can reroll that saving throw. If you do so, you gain a +2 trait bonus on this roll and use this result as the actual result for that saving throw.</Pair>
 </Ability>
 </>};
 const _propitiation = {title: "Propitiation", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
@@ -2028,7 +2070,8 @@ const _propitiation = {title: "Propitiation", topLink: ["Religion Traits","main/
 <Pair single id="propitiation">Propitiation</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Dwarven Deities</Pair>
-<Pair single="benefit" id="propitiation-benefit">Your knowledge of the dwarven pantheon tells you precisely which gods have jurisdiction over which aspects of your life, and you can call upon the appropriate deity for help even if that deity is not your patron. At the start of each day, pick one of the following skills: Appraise, Bluff, Craft (pick one craft skill), Diplomacy, Intimidate, or Knowledge (local). You gain a +2 trait bonus on that skill until the start of the next day.</Pair>
+<Pair single="flavor" id="propitiation-flavor">Your knowledge of the dwarven pantheon tells you precisely which gods have jurisdiction over which aspects of your life, and you can call upon the appropriate deity for help even if that deity is not your patron.</Pair>
+<Pair single="benefit" id="propitiation-benefit">At the start of each day, pick one of the following skills: <Link to="/skill/appraise">Appraise</Link>, <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/craft">Craft</Link> (pick one craft skill), <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/intimidate">Intimidate</Link>, or <Link to="/skill/knowledge_local">Knowledge (local)</Link>. You gain a +2 trait bonus on that skill until the start of the next day.</Pair>
 </Ability>
 </>};
 const _protective_faith = {title: "Protective Faith", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2036,7 +2079,8 @@ const _protective_faith = {title: "Protective Faith", topLink: ["Religion Traits
 <Pair single id="protective-faith">Protective Faith</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/torag">Torag</Link></Pair>
-<Pair single="benefit" id="protective-faith-benefit">Your faith in the Father of Creation strengthens your ability to shield others. When you use the aid another action to grant your ally a bonus to AC, you grant a +3 bonus to AC instead of the normal +2.</Pair>
+<Pair single="flavor" id="protective-faith-flavor">Your faith in the Father of Creation strengthens your ability to shield others.</Pair>
+<Pair single="benefit" id="protective-faith-benefit">When you use the <Link to="/rule/aid_another_2">aid another</Link> action to grant your ally a bonus to AC, you grant a +3 bonus to AC instead of the normal +2.</Pair>
 </Ability>
 </>};
 const _provider = {title: "Provider", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
@@ -2045,7 +2089,8 @@ const _provider = {title: "Provider", topLink: ["Religion Traits","main/traits_r
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/erastil">Erastil</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="provider-benefit">Few things exalt your faith more than feeding the hungry with your own honest sweat. You gain a +1 trait bonus on any d20 roll to acquire food or water for others. Though this bonus most often applies to Survival checks, it could also apply to attacking monsters that are safe and nutritious to eat (mainly animals and plants). However, Erastil takes a dim view of waste and of those who scorn his favor, and if you abuse this gift (for example, by using the bonus to defeat a bear, then only eating one bite of it), he punishes you with a -2 penalty on attacks, checks, and saves for 24 hours.</Pair>
+<Pair single="flavor" id="provider-flavor">Few things exalt your faith more than feeding the hungry with your own honest sweat.</Pair>
+<Pair single="benefit" id="provider-benefit">You gain a +1 trait bonus on any d20 roll to acquire food or water for others. Though this bonus most often applies to <Link to="/skill/survival">Survival</Link> checks, it could also apply to attacking monsters that are safe and nutritious to eat (mainly animals and plants). However, Erastil takes a dim view of waste and of those who scorn his favor, and if you abuse this gift (for example, by using the bonus to defeat a bear, then only eating one bite of it), he punishes you with a -2 penalty on attacks, checks, and saves for 24 hours.</Pair>
 </Ability>
 </>};
 const _purity_of_faith = {title: "Purity of Faith", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
@@ -2053,7 +2098,8 @@ const _purity_of_faith = {title: "Purity of Faith", topLink: ["Religion Traits",
 <Pair single id="purity-of-faith">Purity of Faith</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/iomedae">Iomedae</Link></Pair>
-<Pair single="benefit" id="purity-of-faith-benefit">Your soul is free from impurity, and you are deeply committed to fulfilling your duties to the church. You gain a +1 trait bonus on Will saving throws and a +1 trait bonus on saving throws against spells and effects originating from an outsider with the evil subtype.</Pair>
+<Pair single="flavor" id="purity-of-faith-flavor">Your soul is free from impurity, and you are deeply committed to fulfilling your duties to the church.</Pair>
+<Pair single="benefit" id="purity-of-faith-benefit">You gain a +1 trait bonus on Will saving throws and a +1 trait bonus on saving throws against spells and effects originating from an outsider with the evil subtype.</Pair>
 </Ability>
 </>};
 const _reckless_luck = {title: "Reckless Luck", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2061,7 +2107,8 @@ const _reckless_luck = {title: "Reckless Luck", topLink: ["Religion Traits","mai
 <Pair single id="reckless-luck">Reckless Luck</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/chaldira_zuzaristan">Chaldira Zuzaristan</Link></Pair>
-<Pair single="benefit" id="reckless-luck-benefit">Like your deity, you charge in when others fall back. When you make a charge attack in the surprise round or first round of combat, you gain a +2 trait bonus to your AC for 1 round.</Pair>
+<Pair single="flavor" id="reckless-luck-flavor">Like your deity, you charge in when others fall back.</Pair>
+<Pair single="benefit" id="reckless-luck-benefit">When you make a <Link to="/rule/charge">charge</Link> attack in the surprise round or first round of combat, you gain a +2 trait bonus to your AC for 1 round.</Pair>
 </Ability>
 </>};
 const _redeemed_by_ragathiel = {title: "Redeemed by Ragathiel", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -2069,7 +2116,8 @@ const _redeemed_by_ragathiel = {title: "Redeemed by Ragathiel", topLink: ["Relig
 <Pair single id="redeemed-by-ragathiel">Redeemed by Ragathiel</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ragathiel">Ragathiel</Link></Pair>
-<Pair single="benefit" id="redeemed-by-ragathiel-benefit">You were born into a family, nation, or other group that tried to impress evil ideals upon you, but you were inspired by Ragathiel to live a moral life despite their influence. You gain a +2 trait bonus on Sense Motive checks to see through an evil creature's Bluff attempts.</Pair>
+<Pair single="flavor" id="redeemed-by-ragathiel-flavor">You were born into a family, nation, or other group that tried to impress evil ideals upon you, but you were inspired by Ragathiel to live a moral life despite their influence.</Pair>
+<Pair single="benefit" id="redeemed-by-ragathiel-benefit">You gain a +2 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to see through an evil creature's <Link to="/skill/bluff">Bluff</Link> attempts.</Pair>
 </Ability>
 </>};
 const _regal_presence = {title: "Regal Presence", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2077,7 +2125,8 @@ const _regal_presence = {title: "Regal Presence", topLink: ["Religion Traits","m
 <Pair single id="regal-presence">Regal Presence</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/iomedae">Iomedae</Link></Pair>
-<Pair single="benefit" id="regal-presence-benefit">You've always had a presence that people respect. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy is a class skill for you.</Pair>
+<Pair single="flavor" id="regal-presence-flavor">You've always had a presence that people respect.</Pair>
+<Pair single="benefit" id="regal-presence-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks, and Diplomacy is a class skill for you.</Pair>
 </Ability>
 </>};
 const _rejected_emperor = {title: "Rejected Emperor", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 23</Link></p>
@@ -2085,7 +2134,8 @@ const _rejected_emperor = {title: "Rejected Emperor", topLink: ["Religion Traits
 <Pair single id="rejected-emperor">Rejected Emperor</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>The Eternal Emperor</Pair>
-<Pair single="benefit" id="rejected-emperor-benefit">When you were young, your parents presented you to the oracles of Po Li, claiming a divine sign showed you were the reincarnation of Lung Wa's Eternal Emperor. The oracles did not support the claim, but you are not untouched by celestial influence. You may use Knowledge (nobility) or Knowledge (religion) in place of Knowledge (planes) to identify outsiders, and nonevil outsiders you encounter begin with an attitude that is one step better than normal.</Pair>
+<Pair single="flavor" id="rejected-emperor-flavor">When you were young, your parents presented you to the oracles of Po Li, claiming a divine sign showed you were the reincarnation of Lung Wa's Eternal Emperor. The oracles did not support the claim, but you are not untouched by celestial influence.</Pair>
+<Pair single="benefit" id="rejected-emperor-benefit">You may use <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> or <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> in place of <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> to identify outsiders, and nonevil outsiders you encounter begin with an <Link to="/skill/diplomacy">attitude</Link> that is one step better than normal.</Pair>
 </Ability>
 </>};
 const _relentless_duty = {title: "Relentless Duty", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -2093,7 +2143,8 @@ const _relentless_duty = {title: "Relentless Duty", topLink: ["Religion Traits",
 <Pair single id="relentless-duty">Relentless Duty</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/kols">Kols</Link></Pair>
-<Pair single="benefit" id="relentless-duty-benefit">You were raised with the mantra that fulfilling your duty must always come first. Now living up to a promise comes as easily as breathing. Once per day, you can take 10 on a skill check attempted as part of fulfilling a prior promise even if you are distracted or in combat.</Pair>
+<Pair single="flavor" id="relentless-duty-flavor">You were raised with the mantra that fulfilling your duty must always come first. Now living up to a promise comes as easily as breathing.</Pair>
+<Pair single="benefit" id="relentless-duty-benefit">Once per day, you can take 10 on a skill check attempted as part of fulfilling a prior promise even if you are distracted or in combat.</Pair>
 </Ability>
 </>};
 const _resigned = {title: "Resigned", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
@@ -2101,7 +2152,8 @@ const _resigned = {title: "Resigned", topLink: ["Religion Traits","main/traits_r
 <Pair single id="resigned">Resigned</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/droskar">Droskar</Link></Pair>
-<Pair single="benefit" id="resigned-benefit">Existence is little more than unending toil. By laboring unto exhaustion, greatness can be achieved. You receive a +1 trait bonus when retrying a previously failed skill check or ability check, as well as when taking 20 on skill checks and ability checks.</Pair>
+<Pair single="flavor" id="resigned-flavor">Existence is little more than unending toil. By laboring unto exhaustion, greatness can be achieved.</Pair>
+<Pair single="benefit" id="resigned-benefit">You receive a +1 trait bonus when retrying a previously failed skill check or ability check, as well as when taking 20 on skill checks and ability checks.</Pair>
 </Ability>
 </>};
 const _resilient_martyr = {title: "Resilient Martyr", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -2109,7 +2161,8 @@ const _resilient_martyr = {title: "Resilient Martyr", topLink: ["Religion Traits
 <Pair single id="resilient-martyr">Resilient Martyr</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/vildeis">Vildeis</Link></Pair>
-<Pair single="benefit" id="resilient-martyr-benefit">You interposed yourself between an innocent and a dangerous evil monster or force, lost a great deal of blood as a result, and barely survived. Now, your blood seems to replenish with blessed speed, a sure sign of Vildeis's favor. You <Link to="/rule/recover_hit_points">recover twice as many hit points</Link> and points of ability damage as normal when you rest, or three times as many when you take total bed rest.</Pair>
+<Pair single="flavor" id="resilient-martyr-flavor">You interposed yourself between an innocent and a dangerous evil monster or force, lost a great deal of blood as a result, and barely survived. Now, your blood seems to replenish with blessed speed, a sure sign of Vildeis's favor.</Pair>
+<Pair single="benefit" id="resilient-martyr-benefit">You <Link to="/rule/recover_hit_points">recover twice as many hit points</Link> and points of ability damage as normal when you rest, or three times as many when you take total bed rest.</Pair>
 </Ability>
 </>};
 const _restless_hunger = {title: "Restless Hunger", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
@@ -2118,7 +2171,7 @@ const _restless_hunger = {title: "Restless Hunger", topLink: ["Religion Traits",
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/venkelvore">Venkelvore</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
-<Pair single="benefit" id="restless-hunger-benefit">If you have a piece of food (or something a goblin might consider food), you can quickly eat it as part of a charge attack once per day. Doing so increases your speed by 10 feet for 1 round.</Pair>
+<Pair single="benefit" id="restless-hunger-benefit">If you have a piece of food (or something a goblin might consider food), you can quickly eat it as part of a <Link to="/rule/charge">charge</Link> attack once per day. Doing so increases your speed by 10 feet for 1 round.</Pair>
 </Ability>
 </>};
 const _river_freedom = {title: "River Freedom", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -2126,7 +2179,8 @@ const _river_freedom = {title: "River Freedom", topLink: ["Religion Traits","mai
 <Pair single id="river-freedom">River Freedom</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/hanspur">Hanspur</Link></Pair>
-<Pair single="benefit" id="river-freedom-benefit">The freedom of water inspires you. While touching flowing water, you gain a +2 trait bonus on saving throws against effects that would hamper your movement.</Pair>
+<Pair single="flavor" id="river-freedom-flavor">The freedom of water inspires you.</Pair>
+<Pair single="benefit" id="river-freedom-benefit">While touching flowing water, you gain a +2 trait bonus on saving throws against effects that would hamper your movement.</Pair>
 </Ability>
 </>};
 const _rousing_courage = {title: "Rousing Courage", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/divine_anthology">Divine Anthology</Link></p>
@@ -2134,7 +2188,8 @@ const _rousing_courage = {title: "Rousing Courage", topLink: ["Religion Traits",
 <Pair single id="rousing-courage">Rousing Courage</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link></Pair>
-<Pair single="benefit" id="rousing-courage-benefit">A dwarven warrior's simple act of courage in Angradd's name inspired you during one of your first battles. Now, you strive to be equally inspiring to others. Once per day, when you generate an effect that grants a morale bonus, increase that bonus by 1 for all creatures affected.</Pair>
+<Pair single="flavor" id="rousing-courage-flavor">A dwarven warrior's simple act of courage in Angradd's name inspired you during one of your first battles. Now, you strive to be equally inspiring to others.</Pair>
+<Pair single="benefit" id="rousing-courage-benefit">Once per day, when you generate an effect that grants a morale bonus, increase that bonus by 1 for all creatures affected.</Pair>
 </Ability>
 </>};
 const _sacred_avenger = {title: "Sacred Avenger", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
@@ -2143,7 +2198,8 @@ const _sacred_avenger = {title: "Sacred Avenger", topLink: ["Religion Traits","m
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/calistria">Calistria</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
-<Pair single="benefit" id="sacred-avenger-benefit">You have a special connection between you and Calistria that enhances your ability to achieve vengeance. When a creature damages you with a weapon, on your next turn you gain a +1 trait bonus on weapon damage against that creature. If this creature is your <em>ilduliel</em> (a personal, mutual nemesis), this bonus increases to +2.</Pair>
+<Pair single="flavor" id="sacred-avenger-flavor">You have a special connection between you and Calistria that enhances your ability to achieve vengeance.</Pair>
+<Pair single="benefit" id="sacred-avenger-benefit">When a creature damages you with a weapon, on your next turn you gain a +1 trait bonus on weapon damage against that creature. If this creature is your <em>ilduliel</em> (a personal, mutual nemesis), this bonus increases to +2.</Pair>
 </Ability>
 </>};
 const _sacred_orienteer = {title: "Sacred Orienteer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 13</Link></p>
@@ -2151,7 +2207,10 @@ const _sacred_orienteer = {title: "Sacred Orienteer", topLink: ["Religion Traits
 <Pair single id="sacred-orienteer">Sacred Orienteer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/elion">Elion</Link></Pair>
-<Pair single="benefit" id="sacred-orienteer-benefit">You have traveled far with only your compass and faith as your guides. You begin play with a compass, and any compass or wayfinder in your possession also functions as a holy symbol of Elion. Either Knowledge (geography) or Survival becomes a class skill for you. Once per day you can consult your compass or wayfinder as a full-round action to gain a +2 trait bonus on one Knowledge (geography) or Survival check.</Pair>
+<Pair single="flavor" id="sacred-orienteer-flavor">You have traveled far with only your compass and faith as your guides.</Pair>
+<Pair single="benefit" id="sacred-orienteer-benefit"><p>You begin play with a <Link to="/eq-misc/compass">compass</Link>, and any compass or <Link to="/magic-wondrous/wayfinder">wayfinder</Link> in your possession also functions as a holy symbol of Elion. Either <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> or <Link to="/skill/survival">Survival</Link> becomes a class skill for you.</p>
+<p>Once per day you can consult your compass or wayfinder as a <strong className="hl">full-round action</strong> to gain a +2 trait bonus on one Knowledge (geography) or Survival check.</p>
+</Pair>
 </Ability>
 </>};
 const _sacred_smasher = {title: "Sacred Smasher", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
@@ -2159,7 +2218,8 @@ const _sacred_smasher = {title: "Sacred Smasher", topLink: ["Religion Traits","m
 <Pair single id="sacred-smasher">Sacred Smasher</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/rovagug">Rovagug</Link></Pair>
-<Pair single="benefit" id="sacred-smasher-benefit">Your love of carnage extends even to the defenseless, inanimate objects around you. Whenever you make an attempt to break an object, you receive a +2 trait bonus on your Strength check.</Pair>
+<Pair single="flavor" id="sacred-smasher-flavor">Your love of carnage extends even to the defenseless, inanimate objects around you.</Pair>
+<Pair single="benefit" id="sacred-smasher-benefit">Whenever you make an attempt to break an object, you receive a +2 trait bonus on your Strength check.</Pair>
 </Ability>
 </>};
 const _scaly_ally = {title: "Scaly Ally", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
@@ -2167,7 +2227,7 @@ const _scaly_ally = {title: "Scaly Ally", topLink: ["Religion Traits","main/trai
 <Pair single id="scaly-ally">Scaly Ally</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/apsu">Apsu</Link></Pair>
-<Pair single="benefit" id="scaly-ally-benefit">Because of your devotion to Apsu, you gain a +2 trait bonus on Diplomacy checks involving reptiles or those of draconic blood, whether they are good-aligned or not.</Pair>
+<Pair single="benefit" id="scaly-ally-benefit">Because of your devotion to Apsu, you gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks involving reptiles or those of draconic blood, whether they are good-aligned or not.</Pair>
 </Ability>
 </>};
 const _scarred_by_war = {title: "Scarred by War", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
@@ -2175,7 +2235,8 @@ const _scarred_by_war = {title: "Scarred by War", topLink: ["Religion Traits","m
 <Pair single id="scarred-by-war">Scarred by War</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/dalenydra">Dalenydra</Link></Pair>
-<Pair single="benefit" id="scarred-by-war-benefit">You have experienced firsthand the horrors of war, which have left you physically or mentally scarred. Now you have committed yourself to the teachings of the Blessed Attendant, seeking to heal those wounded in combat and to prevent battles from occurring whenever you can. You gain a +1 trait bonus on Diplomacy checks outside of combat. In addition, when you heal creatures other than yourself using class abilities, feats, spells, and spell completion or spell trigger magic items, you restore 1 additional hit point.</Pair>
+<Pair single="flavor" id="scarred-by-war-flavor">You have experienced firsthand the horrors of war, which have left you physically or mentally scarred. Now you have committed yourself to the teachings of the Blessed Attendant, seeking to heal those wounded in combat and to prevent battles from occurring whenever you can.</Pair>
+<Pair single="benefit" id="scarred-by-war-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks outside of combat. In addition, when you heal creatures other than yourself using class abilities, feats, spells, and spell completion or spell trigger magic items, you restore 1 additional hit point.</Pair>
 </Ability>
 </>};
 const _searing_beacon = {title: "Searing Beacon", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
@@ -2192,7 +2253,7 @@ const _secret_knowledge = {title: "Secret Knowledge", topLink: ["Religion Traits
 <Pair single id="secret-knowledge">Secret Knowledge</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/norgorber">Norgorber</Link></Pair>
-<Pair single="benefit" id="secret-knowledge-benefit">At any point after taking this trait, you may choose one Knowledge skill. You gain a permanent +2 trait bonus on checks with that skill, and it is a class skill for you. Once this skill is chosen, it cannot be changed.</Pair>
+<Pair single="benefit" id="secret-knowledge-benefit">At any point after taking this trait, you may choose one <Link to="/skill/knowledge">Knowledge</Link> skill. You gain a permanent +2 trait bonus on checks with that skill, and it is a class skill for you. Once this skill is chosen, it cannot be changed.</Pair>
 </Ability>
 </>};
 const _seer_of_reality = {title: "Seer of Reality", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -2200,7 +2261,8 @@ const _seer_of_reality = {title: "Seer of Reality", topLink: ["Religion Traits",
 <Pair single id="seer-of-reality">Seer of Reality</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/irori">Irori</Link></Pair>
-<Pair single="benefit" id="seer-of-reality-benefit">You have a deep understanding of the world around you, and thus you are more perceptive about what belongs and what does not. You gain a +2 trait bonus on saving throws against illusion magic.</Pair>
+<Pair single="flavor" id="seer-of-reality-flavor">You have a deep understanding of the world around you, and thus you are more perceptive about what belongs and what does not.</Pair>
+<Pair single="benefit" id="seer-of-reality-benefit">You gain a +2 trait bonus on saving throws against illusion magic.</Pair>
 </Ability>
 </>};
 const _self_sacrifice = {title: "Self-Sacrifice", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
@@ -2209,7 +2271,8 @@ const _self_sacrifice = {title: "Self-Sacrifice", topLink: ["Religion Traits","m
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shelyn">Shelyn</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="self-sacrifice-benefit">You honor your goddess through your willingness to take risks for those you care about. As a move action, you can use your own body to grant soft cover to an adjacent ally regardless of the difference in your respective sizes.</Pair>
+<Pair single="flavor" id="self-sacrifice-flavor">You honor your goddess through your willingness to take risks for those you care about.</Pair>
+<Pair single="benefit" id="self-sacrifice-benefit">As a <strong className="hl">move action</strong>, you can use your own body to grant soft <Link to="/rule/cover">cover</Link> to an adjacent ally regardless of the difference in your respective sizes.</Pair>
 </Ability>
 </>};
 const _sense_of_order = {title: "Sense of Order", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
@@ -2218,7 +2281,8 @@ const _sense_of_order = {title: "Sense of Order", topLink: ["Religion Traits","m
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/abadar">Abadar</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="sense-of-order-benefit">Your ability to notice even the slightest change, and the discomfort it causes, made service to Abadar a logical choice. You gain a +3 trait bonus on any Perception check made to identify any changes to a location that have occurred since you last visited it.</Pair>
+<Pair single="flavor" id="sense-of-order-flavor">Your ability to notice even the slightest change, and the discomfort it causes, made service to Abadar a logical choice.</Pair>
+<Pair single="benefit" id="sense-of-order-benefit">You gain a +3 trait bonus on any <Link to="/skill/perception">Perception</Link> check made to identify any changes to a location that have occurred since you last visited it.</Pair>
 </Ability>
 </>};
 const _sensing_imperfection = {title: "Sensing Imperfection", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
@@ -2227,7 +2291,8 @@ const _sensing_imperfection = {title: "Sensing Imperfection", topLink: ["Religio
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/irori">Irori</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="sensing-imperfection-benefit">Your belief in Irori has honed your ability to recognize when someone lies or dissembles. Sense Motive is a class skill for you, and you gain a +1 trait bonus on Sense Motive checks.</Pair>
+<Pair single="flavor" id="sensing-imperfection-flavor">Your belief in Irori has honed your ability to recognize when someone lies or dissembles.</Pair>
+<Pair single="benefit" id="sensing-imperfection-benefit"><Link to="/skill/sense_motive">Sense Motive</Link> is a class skill for you, and you gain a +1 trait bonus on Sense Motive checks.</Pair>
 </Ability>
 </>};
 const _serpentine_squeeze = {title: "Serpentine Squeeze", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -2235,7 +2300,7 @@ const _serpentine_squeeze = {title: "Serpentine Squeeze", topLink: ["Religion Tr
 <Pair single id="serpentine-squeeze">Serpentine Squeeze</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ydersius">Ydersius</Link></Pair>
-<Pair single="benefit" id="serpentine-squeeze-benefit">You gain a +1 trait bonus on combat maneuver checks to grapple a foe, as well as a +1 trait bonus to your CMD whenever an opponent tries to grapple you.</Pair>
+<Pair single="benefit" id="serpentine-squeeze-benefit">You gain a +1 trait bonus on combat maneuver checks to <Link to="/rule/grapple">grapple</Link> a foe, as well as a +1 trait bonus to your CMD whenever an opponent tries to grapple you.</Pair>
 </Ability>
 </>};
 const _shadow_whispers = {title: "Shadow Whispers", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
@@ -2243,7 +2308,8 @@ const _shadow_whispers = {title: "Shadow Whispers", topLink: ["Religion Traits",
 <Pair single id="shadow-whispers">Shadow Whispers</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/norgorber">Norgorber</Link></Pair>
-<Pair single="benefit" id="shadow-whispers-benefit">You have a penchant for just knowing others' secrets. You gain a +1 trait bonus on Knowledge (local) checks and a +2 trait bonus on Intimidate checks made to demoralize opponents.</Pair>
+<Pair single="flavor" id="shadow-whispers-flavor">You have a penchant for just knowing others' secrets.</Pair>
+<Pair single="benefit" id="shadow-whispers-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks and a +2 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks made to demoralize opponents.</Pair>
 </Ability>
 </>};
 const _shaper_of_reality = {title: "Shaper of Reality", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2251,7 +2317,8 @@ const _shaper_of_reality = {title: "Shaper of Reality", topLink: ["Religion Trai
 <Pair single id="shaper-of-reality">Shaper of Reality</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/rule/eldest">Eldest</Link></Pair>
-<Pair single="benefit" id="shaper-of-reality-benefit">You can mimic the Eldest's ability to reshape the world. Once per day, you can cast either a conjuration spell or a transmutation spell at +1 caster level.</Pair>
+<Pair single="flavor" id="shaper-of-reality-flavor">You can mimic the Eldest's ability to reshape the world.</Pair>
+<Pair single="benefit" id="shaper-of-reality-benefit">Once per day, you can cast either a conjuration spell or a transmutation spell at +1 caster level.</Pair>
 </Ability>
 </>};
 const _shared_ancestors = {title: "Shared Ancestors", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 13</Link></p>
@@ -2259,7 +2326,8 @@ const _shared_ancestors = {title: "Shared Ancestors", topLink: ["Religion Traits
 <Pair single id="shared-ancestors">Shared Ancestors</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/myr">Myr</Link></Pair>
-<Pair single="benefit" id="shared-ancestors-benefit">Through your detailed study of your own lineage, you can better understand and honor even your most distant relatives. You gain a +1 trait bonus on Diplomacy, Knowledge (history), Knowledge (local), Knowledge (nobility), and Sense Motive checks associated with any creature who shares your type and at least one of your subtypes. One of these skills becomes a class skill.</Pair>
+<Pair single="flavor" id="shared-ancestors-flavor">Through your detailed study of your own lineage, you can better understand and honor even your most distant relatives.</Pair>
+<Pair single="benefit" id="shared-ancestors-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/knowledge_history">Knowledge (history)</Link>, <Link to="/skill/knowledge_local">Knowledge (local)</Link>, <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link>, and <Link to="/skill/sense_motive">Sense Motive</Link> checks associated with any creature who shares your type and at least one of your subtypes. One of these skills becomes a class skill.</Pair>
 </Ability>
 </>};
 const _shield_trained = {title: "Shield-Trained", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2267,7 +2335,8 @@ const _shield_trained = {title: "Shield-Trained", topLink: ["Religion Traits","m
 <Pair single id="shield-trained">Shield-Trained</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gorum">Gorum</Link></Pair>
-<Pair single="benefit" id="shield-trained-benefit">You were trained to use shields as weapons. Heavy and light shields are considered simple weapons rather than martial weapons for you. Heavy shields are considered light weapons for you.</Pair>
+<Pair single="flavor" id="shield-trained-flavor">You were trained to use shields as weapons.</Pair>
+<Pair single="benefit" id="shield-trained-benefit">Heavy and <Link to="/eq-armor/light_shield">light shields</Link> are considered simple weapons rather than martial weapons for you. <Link to="/eq-armor/heavy_shield">Heavy shields</Link> are considered light weapons for you.</Pair>
 </Ability>
 </>};
 const _sovyrian_pantheist = {title: "Sovyrian Pantheist", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
@@ -2276,7 +2345,8 @@ const _sovyrian_pantheist = {title: "Sovyrian Pantheist", topLink: ["Religion Tr
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Elven Deities</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
-<Pair single="benefit" id="sovyrian-pantheist-benefit">Strongly influenced by the elves' mysterious other realm, you embrace obscure elven deities that have little influence on Golarion. You gain a +1 trait bonus on Knowledge (history) checks to recognize or evaluate art, Knowledge (architecture and engineering) checks, Survival checks to hunt game, Constitution checks to run, and Spellcraft checks involving crystals or gems.</Pair>
+<Pair single="flavor" id="sovyrian-pantheist-flavor">Strongly influenced by the elves' mysterious other realm, you embrace obscure elven deities that have little influence on Golarion.</Pair>
+<Pair single="benefit" id="sovyrian-pantheist-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_history">Knowledge (history)</Link> checks to recognize or evaluate art, <Link to="/skill/knowledge_engineering">Knowledge (architecture and engineering)</Link> checks, <Link to="/skill/survival">Survival</Link> checks to hunt game, Constitution checks to <Link to="/rule/run">run</Link>, and <Link to="/skill/spellcraft">Spellcraft</Link> checks involving crystals or gems.</Pair>
 </Ability>
 </>};
 const _spirit_guide = {title: "Spirit Guide", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -2284,7 +2354,8 @@ const _spirit_guide = {title: "Spirit Guide", topLink: ["Religion Traits","main/
 <Pair single id="spirit-guide">Spirit Guide</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/pharasma">Pharasma</Link></Pair>
-<Pair single="benefit" id="spirit-guide-benefit">As someone who has performed or observed funeral rites for a wide variety of people, you have a basic understanding of many different religions. You gain a +2 trait bonus on Knowledge (religion) checks, and Knowledge (religion) is a class skill for you.</Pair>
+<Pair single="flavor" id="spirit-guide-flavor">As someone who has performed or observed funeral rites for a wide variety of people, you have a basic understanding of many different religions.</Pair>
+<Pair single="benefit" id="spirit-guide-benefit">You gain a +2 trait bonus on <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> checks, and Knowledge (religion) is a class skill for you.</Pair>
 </Ability>
 </>};
 const _spirit_talker = {title: "Spirit Talker", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
@@ -2292,7 +2363,8 @@ const _spirit_talker = {title: "Spirit Talker", topLink: ["Religion Traits","mai
 <Pair single id="spirit-talker">Spirit Talker</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Mwangi shamanistic faith</Pair>
-<Pair single="benefit" id="spirit-talker-benefit">You are a devotee of the shamanistic practices of the Mwangi, having little use for the deities of the colonials. You gain a +1 racial bonus on Will saves against divine spells and spell-like effects employed against you by clerics or paladins of Aroden, Abadar, Iomedae, Gozreh, and Shelyn - but you suffer a -1 penalty on Will saves against divine spells cast by devotees of Mwangi faiths.</Pair>
+<Pair single="flavor" id="spirit-talker-flavor">You are a devotee of the shamanistic practices of the Mwangi, having little use for the deities of the colonials.</Pair>
+<Pair single="benefit" id="spirit-talker-benefit">You gain a +1 racial bonus on Will saves against divine spells and spell-like effects employed against you by clerics or paladins of Aroden, Abadar, Iomedae, Gozreh, and Shelyn - but you suffer a -1 penalty on Will saves against divine spells cast by devotees of Mwangi faiths.</Pair>
 </Ability>
 </>};
 const _split_second_defense = {title: "Split-Second Defense", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2300,7 +2372,7 @@ const _split_second_defense = {title: "Split-Second Defense", topLink: ["Religio
 <Pair single id="split-second-defense">Split-Second Defense</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/milani">Milani</Link></Pair>
-<Pair single="benefit" id="split-second-defense-benefit">When you are the target of an attack by an opponent that is flanking you, as an immediate action once per day you can foil that opponent's attack. For that attack, the opponent does not gain any of the bonuses or effects that are associated with flanking.</Pair>
+<Pair single="benefit" id="split-second-defense-benefit">When you are the target of an attack by an opponent that is <Link to="/rule/flanking">flanking</Link> you, as an <strong className="hl">immediate action</strong> once per day you can foil that opponent's attack. For that attack, the opponent does not gain any of the bonuses or effects that are associated with flanking.</Pair>
 </Ability>
 </>};
 const _stabilizing_touch = {title: "Stabilizing Touch", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2308,7 +2380,8 @@ const _stabilizing_touch = {title: "Stabilizing Touch", topLink: ["Religion Trai
 <Pair single id="stabilizing-touch">Stabilizing Touch</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/pharasma">Pharasma</Link></Pair>
-<Pair single="benefit" id="stabilizing-touch-benefit">You were born with the ability to stop the passage to death's door. Once per day, you can use <Link to="/spell/stabilize">stabilize</Link> as a spell-like ability, but with a range of touch.</Pair>
+<Pair single="flavor" id="stabilizing-touch-flavor">You were born with the ability to stop the passage to death's door.</Pair>
+<Pair single="benefit" id="stabilizing-touch-benefit">Once per day, you can use <Link to="/spell/stabilize">stabilize</Link> as a spell-like ability, but with a range of touch.</Pair>
 </Ability>
 </>};
 const _starchild = {title: "Starchild", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/elves_of_golarion">Elves of Golarion</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -2316,7 +2389,8 @@ const _starchild = {title: "Starchild", topLink: ["Religion Traits","main/traits
 <Pair single id="starchild">Starchild</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/desna">Desna</Link></Pair>
-<Pair single="benefit" id="starchild-benefit">Desna sensed your love of travel and promised you would always be able to find your way home. You can automatically determine where true north is. You gain a +4 trait bonus on Survival checks to avoid becoming lost.</Pair>
+<Pair single="flavor" id="starchild-flavor">Desna sensed your love of travel and promised you would always be able to find your way home.</Pair>
+<Pair single="benefit" id="starchild-benefit">You can automatically determine where true north is. You gain a +4 trait bonus on <Link to="/skill/survival">Survival</Link> checks to avoid becoming lost.</Pair>
 </Ability>
 </>};
 const _starlit_hexer = {title: "Starlit Hexer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
@@ -2324,7 +2398,8 @@ const _starlit_hexer = {title: "Starlit Hexer", topLink: ["Religion Traits","mai
 <Pair single id="starlit-hexer">Starlit Hexer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Outer Gods</Pair>
-<Pair single="benefit" id="starlit-hexer-benefit">Your spellcasting powers are infused with the powers of the occult Outer Gods. Whenever you cast a spell or spell-like ability with the curse descriptor, increase the DC of the spell's saving throw by 1. If you cast such a spell or spell-like ability at night, as long as the sky is clear and the stars are visible, treat your caster level as 1 higher when determining the spell's duration.</Pair>
+<Pair single="flavor" id="starlit-hexer-flavor">Your spellcasting powers are infused with the powers of the occult Outer Gods.</Pair>
+<Pair single="benefit" id="starlit-hexer-benefit">Whenever you cast a spell or spell-like ability with the curse descriptor, increase the DC of the spell's saving throw by 1. If you cast such a spell or spell-like ability at night, as long as the sky is clear and the stars are visible, treat your caster level as 1 higher when determining the spell's duration.</Pair>
 </Ability>
 </>};
 const _steady_strength = {title: "Steady Strength", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2332,7 +2407,8 @@ const _steady_strength = {title: "Steady Strength", topLink: ["Religion Traits",
 <Pair single id="steady-strength">Steady Strength</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/trudd">Trudd</Link></Pair>
-<Pair single="benefit" id="steady-strength-benefit">Your strength training conditioned you to wearing heavy armor. When you wear medium or heavy armor, your armor check penalty on Strength-based skills is reduced by 2.</Pair>
+<Pair single="flavor" id="steady-strength-flavor">Your strength training conditioned you to wearing heavy armor.</Pair>
+<Pair single="benefit" id="steady-strength-benefit">When you wear medium or heavy armor, your armor check penalty on Strength-based skills is reduced by 2.</Pair>
 </Ability>
 </>};
 const _stoic_optimism = {title: "Stoic Optimism", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
@@ -2340,7 +2416,8 @@ const _stoic_optimism = {title: "Stoic Optimism", topLink: ["Religion Traits","m
 <Pair single id="stoic-optimism">Stoic Optimism</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/desna">Desna</Link></Pair>
-<Pair single="benefit" id="stoic-optimism-benefit">You realize that accepting the pain in life accentuates its joys by contrast, and so your hope sustains you where others despair. You receive a +2 trait bonus on saving throws against fear effects.</Pair>
+<Pair single="flavor" id="stoic-optimism-flavor">You realize that accepting the pain in life accentuates its joys by contrast, and so your hope sustains you where others despair.</Pair>
+<Pair single="benefit" id="stoic-optimism-benefit">You receive a +2 trait bonus on saving throws against fear effects.</Pair>
 </Ability>
 </>};
 const _strength_of_the_barghest = {title: "Strength of the Barghest", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
@@ -2349,7 +2426,8 @@ const _strength_of_the_barghest = {title: "Strength of the Barghest", topLink: [
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/hadregash">Hadregash</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
-<Pair single="benefit" id="strength-of-the-barghest-benefit">The blood of the barghests is strong in you. Once per day as a free action, you can gain a +2 trait bonus on any Strength check or Strength-based skill check.</Pair>
+<Pair single="flavor" id="strength-of-the-barghest-flavor">The blood of the barghests is strong in you.</Pair>
+<Pair single="benefit" id="strength-of-the-barghest-benefit">Once per day as a <strong className="hl">free action</strong>, you can gain a +2 trait bonus on any Strength check or Strength-based skill check.</Pair>
 </Ability>
 </>};
 const _strength_of_the_sun = {title: "Strength of the Sun", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
@@ -2357,7 +2435,8 @@ const _strength_of_the_sun = {title: "Strength of the Sun", topLink: ["Religion 
 <Pair single id="strength-of-the-sun">Strength of the Sun</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
-<Pair single="benefit" id="strength-of-the-sun-benefit">You take solace in the purifying light of the sun. During the day, you gain a +1 trait bonus on all Charisma-based checks.</Pair>
+<Pair single="flavor" id="strength-of-the-sun-flavor">You take solace in the purifying light of the sun.</Pair>
+<Pair single="benefit" id="strength-of-the-sun-benefit">During the day, you gain a +1 trait bonus on all Charisma-based checks.</Pair>
 </Ability>
 </>};
 const _strengths_fanfare = {title: "Strength's Fanfare", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2365,7 +2444,8 @@ const _strengths_fanfare = {title: "Strength's Fanfare", topLink: ["Religion Tra
 <Pair single id="strengths-fanfare">Strength's Fanfare</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/kurgess">Kurgess</Link></Pair>
-<Pair single="benefit" id="strengths-fanfare-benefit">Songs of your glory and prowess bolster your strength. When you are the subject of any sonic effect that grants a morale bonus on attack or damage rolls, you also gain a +1 trait bonus on Strength-based skill checks; on combat maneuver checks to bull rush, grapple, and reposition; and to your CMD against those combat maneuvers.</Pair>
+<Pair single="flavor" id="strengths-fanfare-flavor">Songs of your glory and prowess bolster your strength.</Pair>
+<Pair single="benefit" id="strengths-fanfare-benefit">When you are the subject of any sonic effect that grants a morale bonus on attack or damage rolls, you also gain a +1 trait bonus on Strength-based skill checks; on combat maneuver checks to <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/grapple">grapple</Link>, and <Link to="/rule/reposition">reposition</Link>; and to your CMD against those combat maneuvers.</Pair>
 </Ability>
 </>};
 const _strict_judgment = {title: "Strict Judgment", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2373,7 +2453,8 @@ const _strict_judgment = {title: "Strict Judgment", topLink: ["Religion Traits",
 <Pair single id="strict-judgment">Strict Judgment</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/kols">Kols</Link></Pair>
-<Pair single="benefit" id="strict-judgment-benefit">Your respect for the letter of the law bleeds into your spellcasting. Any spells you cast that prescribe certain behaviors with a consequence for breaking these directives (such as mark of justice or geas) have their save DC increased by 1.</Pair>
+<Pair single="flavor" id="strict-judgment-flavor">Your respect for the letter of the law bleeds into your spellcasting.</Pair>
+<Pair single="benefit" id="strict-judgment-benefit">Any spells you cast that prescribe certain behaviors with a consequence for breaking these directives (such as <Link to="/spell/mark_of_justice">mark of justice</Link> or <Link to="/spell/geas">geas</Link>) have their save DC increased by 1.</Pair>
 </Ability>
 </>};
 const _strip_the_veils = {title: "Strip the Veils", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -2381,7 +2462,8 @@ const _strip_the_veils = {title: "Strip the Veils", topLink: ["Religion Traits",
 <Pair single id="strip-the-veils">Strip the Veils</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sivanah">Sivanah</Link></Pair>
-<Pair single="benefit" id="strip-the-veils-benefit">You are unusually perceptive when dealing with others. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is a class skill for you.</Pair>
+<Pair single="flavor" id="strip-the-veils-flavor">You are unusually perceptive when dealing with others.</Pair>
+<Pair single="benefit" id="strip-the-veils-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks, and Sense Motive is a class skill for you.</Pair>
 </Ability>
 </>};
 const _strong_heart = {title: "Strong Heart", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -2389,7 +2471,8 @@ const _strong_heart = {title: "Strong Heart", topLink: ["Religion Traits","main/
 <Pair single id="strong-heart">Strong Heart</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gorum">Gorum</Link></Pair>
-<Pair single="benefit" id="strong-heart-benefit">You can stand firm against even the most terrifying foes. You gain a +1 trait bonus on saves against fear effects, and the DC of Intimidate checks against you increases by 2.</Pair>
+<Pair single="flavor" id="strong-heart-flavor">You can stand firm against even the most terrifying foes.</Pair>
+<Pair single="benefit" id="strong-heart-benefit">You gain a +1 trait bonus on saves against fear effects, and the DC of <Link to="/skill/intimidate">Intimidate</Link> checks against you increases by 2.</Pair>
 </Ability>
 </>};
 const _strong_swimmer = {title: "Strong Swimmer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -2397,7 +2480,8 @@ const _strong_swimmer = {title: "Strong Swimmer", topLink: ["Religion Traits","m
 <Pair single id="strong-swimmer">Strong Swimmer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gozreh">Gozreh</Link></Pair>
-<Pair single="benefit" id="strong-swimmer-benefit">Your faith in Gozreh's grace gives you the confidence to swim without fear. You gain a +2 trait bonus on Swim checks, and can <Link to="/misc/hold_your_breath">hold your breath</Link> for an extra 2 rounds when underwater.</Pair>
+<Pair single="flavor" id="strong-swimmer-flavor">Your faith in Gozreh's grace gives you the confidence to swim without fear.</Pair>
+<Pair single="benefit" id="strong-swimmer-benefit">You gain a +2 trait bonus on <Link to="/skill/swim">Swim</Link> checks, and can <Link to="/misc/hold_your_breath">hold your breath</Link> for an extra 2 rounds when underwater.</Pair>
 </Ability>
 </>};
 const _strong_willed = {title: "Strong-Willed", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_of_purity">Faiths of Purity</Link>, <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2405,7 +2489,8 @@ const _strong_willed = {title: "Strong-Willed", topLink: ["Religion Traits","mai
 <Pair single id="strong-willed">Strong-Willed</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/cayden_cailean">Cayden Cailean</Link></Pair>
-<Pair single="benefit" id="strong-willed-benefit">Your fervent desire to choose your own path gives you strong willpower. You receive a +2 trait bonus on saving throws against charm and compulsion effects.</Pair>
+<Pair single="flavor" id="strong-willed-flavor">Your fervent desire to choose your own path gives you strong willpower.</Pair>
+<Pair single="benefit" id="strong-willed-benefit">You receive a +2 trait bonus on saving throws against charm and compulsion effects.</Pair>
 </Ability>
 </>};
 const _structural_knowledge = {title: "Structural Knowledge", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2413,7 +2498,8 @@ const _structural_knowledge = {title: "Structural Knowledge", topLink: ["Religio
 <Pair single id="structural-knowledge">Structural Knowledge</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/findeladlara">Findeladlara</Link></Pair>
-<Pair single="benefit" id="structural-knowledge-benefit">You are blessed with an insight into architecture and artifice. You gain a +1 trait bonus on Knowledge (engineering) checks, and Knowledge (engineering) is a class skill for you.</Pair>
+<Pair single="flavor" id="structural-knowledge-flavor">You are blessed with an insight into architecture and artifice.</Pair>
+<Pair single="benefit" id="structural-knowledge-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> checks, and Knowledge (engineering) is a class skill for you.</Pair>
 </Ability>
 </>};
 const _talented_organizer = {title: "Talented Organizer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
@@ -2421,7 +2507,8 @@ const _talented_organizer = {title: "Talented Organizer", topLink: ["Religion Tr
 <Pair single id="talented-organizer">Talented Organizer</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/milani">Milani</Link></Pair>
-<Pair single="benefit" id="talented-organizer-benefit">You are both skilled and knowledgeable when at putting together strong resistance organizations, thanks to your keen sense of how to motivate people. You gain a +1 trait bonus on Sense Motive skill checks, and Sense Motive is a class skill for you.</Pair>
+<Pair single="flavor" id="talented-organizer-flavor">You are both skilled and knowledgeable when at putting together strong resistance organizations, thanks to your keen sense of how to motivate people.</Pair>
+<Pair single="benefit" id="talented-organizer-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> skill checks, and Sense Motive is a class skill for you.</Pair>
 </Ability>
 </>};
 const _the_city_protects = {title: "The City Protects", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
@@ -2429,7 +2516,10 @@ const _the_city_protects = {title: "The City Protects", topLink: ["Religion Trai
 <Pair single id="the-city-protects">The City Protects</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/abadar">Abadar</Link></Pair>
-<Pair single="benefit" id="the-city-protects-benefit">You feel safe and secure in urban environments, even in cities whose laws you find unjust - it is the physical fact of the city that you take solace in. In any settlement, you gain a +2 trait bonus against fear effects. If you fail a save against a fear effect, you may make a new save each round you remain in the city to overcome the fear effect as long as the fear effect persists. If you are a paladin, this ability to make additional saves to overcome fear extends to all allies within your aura of courage.</Pair>
+<Pair single="flavor" id="the-city-protects-flavor">You feel safe and secure in urban environments, even in cities whose laws you find unjust - it is the physical fact of the city that you take solace in.</Pair>
+<Pair single="benefit" id="the-city-protects-benefit"><p>In any settlement, you gain a +2 trait bonus against fear effects.</p>
+<p>If you fail a save against a fear effect, you may make a new save each round you remain in the city to overcome the fear effect as long as the fear effect persists. If you are a paladin, this ability to make additional saves to overcome fear extends to all allies within your <em>aura of courage.</em></p>
+</Pair>
 </Ability>
 </>};
 const _the_flexing_arm = {title: "The Flexing Arm", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
@@ -2437,7 +2527,8 @@ const _the_flexing_arm = {title: "The Flexing Arm", topLink: ["Religion Traits",
 <Pair single id="the-flexing-arm">The Flexing Arm</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/kurgess">Kurgess</Link></Pair>
-<Pair single="benefit" id="the-flexing-arm-benefit">You are practiced at using physical might to escape your bonds. You can use Strength instead of Dexterity as your base ability for Escape Artist skill checks to free yourself from bondage. Additionally, you gain a +1 trait bonus on such Escape Artist checks.</Pair>
+<Pair single="flavor" id="the-flexing-arm-flavor">You are practiced at using physical might to escape your bonds.</Pair>
+<Pair single="benefit" id="the-flexing-arm-benefit">You can use Strength instead of Dexterity as your base ability for <Link to="/skill/escape_artist">Escape Artist</Link> skill checks to free yourself from bondage. Additionally, you gain a +1 trait bonus on such Escape Artist checks.</Pair>
 </Ability>
 </>};
 const _thirst_for_knowledge = {title: "Thirst for Knowledge", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2445,7 +2536,8 @@ const _thirst_for_knowledge = {title: "Thirst for Knowledge", topLink: ["Religio
 <Pair single id="thirst-for-knowledge">Thirst for Knowledge</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/nethys">Nethys</Link></Pair>
-<Pair single="benefit" id="thirst-for-knowledge-benefit">You have a need to bring old knowledge into the light, no matter what language it's written in. You gain a +1 trait bonus on Linguistics checks, and Linguistics is a class skill for you.</Pair>
+<Pair single="flavor" id="thirst-for-knowledge-flavor">You have a need to bring old knowledge into the light, no matter what language it's written in.</Pair>
+<Pair single="benefit" id="thirst-for-knowledge-benefit">You gain a +1 trait bonus on <Link to="/skill/linguistics">Linguistics</Link> checks, and Linguistics is a class skill for you.</Pair>
 </Ability>
 </>};
 const _thrill_seeker_isg = {title: "Thrill-Seeker (ISG)", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2453,7 +2545,8 @@ const _thrill_seeker_isg = {title: "Thrill-Seeker (ISG)", topLink: ["Religion Tr
 <Pair single id="thrill-seeker-isg">Thrill-Seeker (ISG)</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/desna">Desna</Link></Pair>
-<Pair single="benefit" id="thrill-seeker-isg-benefit">Desna has blessed you not just with a love of taking chances, but also the fortune to come out of such risky situations unscathed. Once per day, when you attempt an Acrobatics check, you can roll twice and take the better result. You must choose to use this ability before making the check.</Pair>
+<Pair single="flavor" id="thrill-seeker-isg-flavor">Desna has blessed you not just with a love of taking chances, but also the fortune to come out of such risky situations unscathed.</Pair>
+<Pair single="benefit" id="thrill-seeker-isg-benefit">Once per day, when you attempt an <Link to="/skill/acrobatics">Acrobatics</Link> check, you can roll twice and take the better result. You must choose to use this ability before making the check.</Pair>
 </Ability>
 </>};
 const _toilcrafter = {title: "Toilcrafter", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
@@ -2461,7 +2554,8 @@ const _toilcrafter = {title: "Toilcrafter", topLink: ["Religion Traits","main/tr
 <Pair single id="toilcrafter">Toilcrafter</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/droskar">Droskar</Link></Pair>
-<Pair single="benefit" id="toilcrafter-benefit">You can craft passable if inferior magical weapons, armors, and shields through diligence and toil. Choose one Craft or Profession skill in which you have at least 1 rank. Ranks in your chosen skill count as your caster level for the purpose of qualifying for the <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link> feat. You may craft +1 armor, weapons, or shields (with no special qualities), substituting your rank in the chosen skill for your caster level. You must use the chosen skill for the check to create the item. Crafting in this fashion takes twice as long as normal. These items cannot be upgraded with new abilities.</Pair>
+<Pair single="flavor" id="toilcrafter-flavor">You can craft passable if inferior magical weapons, armors, and shields through diligence and toil.</Pair>
+<Pair single="benefit" id="toilcrafter-benefit">Choose one <Link to="/skill/craft">Craft</Link> or <Link to="/skill/profession">Profession</Link> skill in which you have at least 1 rank. Ranks in your chosen skill count as your caster level for the purpose of qualifying for the <Link to="/feat/craft_magic_arms_and_armor">Craft Magic Arms and Armor</Link> feat. You may craft +1 armor, weapons, or shields (with no special qualities), substituting your rank in the chosen skill for your caster level. You must use the chosen skill for the check to create the item. Crafting in this fashion takes twice as long as normal. These items cannot be upgraded with new abilities.</Pair>
 </Ability>
 </>};
 const _twisted_transformations = {title: "Twisted Transformations", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
@@ -2469,7 +2563,8 @@ const _twisted_transformations = {title: "Twisted Transformations", topLink: ["R
 <Pair single id="twisted-transformations">Twisted Transformations</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Great Old Ones</Pair>
-<Pair single="benefit" id="twisted-transformations-benefit">Whenever you are affected by a transmutation spell of the polymorph subschool, your new form is always in some way horrific, grotesque, or otherwise marked by the corruption of the Great Old Ones. While polymorphed, you gain a +2 trait bonus on Intimidate checks and increase the DC of spells you cast with the fear descriptor by 1. However, you also take a -2 penalty on Diplomacy checks while polymorphed.</Pair>
+<Pair single="flavor" id="twisted-transformations-flavor">Whenever you are affected by a transmutation spell of the polymorph subschool, your new form is always in some way horrific, grotesque, or otherwise marked by the corruption of the Great Old Ones.</Pair>
+<Pair single="benefit" id="twisted-transformations-benefit">While polymorphed, you gain a +2 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks and increase the DC of spells you cast with the fear descriptor by 1. However, you also take a -2 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> checks while polymorphed.</Pair>
 </Ability>
 </>};
 const _undead_slayer_pharasma = {title: "Undead Slayer (Pharasma)", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -2477,7 +2572,8 @@ const _undead_slayer_pharasma = {title: "Undead Slayer (Pharasma)", topLink: ["R
 <Pair single id="undead-slayer-pharasma">Undead Slayer (Pharasma)</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/pharasma">Pharasma</Link></Pair>
-<Pair single="benefit" id="undead-slayer-pharasma-benefit">Instructed at a young age in the tenets of the faith of Pharasma, you view the undead as abominations that must be destroyed so their souls can journey beyond to be judged. You gain a +1 trait bonus on weapon damage rolls against undead.</Pair>
+<Pair single="flavor" id="undead-slayer-pharasma-flavor">Instructed at a young age in the tenets of the faith of Pharasma, you view the undead as abominations that must be destroyed so their souls can journey beyond to be judged.</Pair>
+<Pair single="benefit" id="undead-slayer-pharasma-benefit">You gain a +1 trait bonus on weapon damage rolls against undead.</Pair>
 </Ability>
 </>};
 const _under_siege = {title: "Under Siege", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
@@ -2485,7 +2581,8 @@ const _under_siege = {title: "Under Siege", topLink: ["Religion Traits","main/tr
 <Pair single id="under-siege">Under Siege</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
-<Pair single="benefit" id="under-siege-benefit">In order to maintain your devotion to Sarenrae in Taldor and stay alive, you and your fellow worshipers developed a complex system of hand signs and facial gestures to identify yourselves as faithful in the Cult of the Dawnflower. You gain a +1 trait bonus on Bluff and Sense Motive checks. One of these skills (your choice) is always a class skill for you.</Pair>
+<Pair single="flavor" id="under-siege-flavor">In order to maintain your devotion to Sarenrae in Taldor and stay alive, you and your fellow worshipers developed a complex system of hand signs and facial gestures to identify yourselves as faithful in the Cult of the Dawnflower.</Pair>
+<Pair single="benefit" id="under-siege-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks. One of these skills (your choice) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _underlying_principles = {title: "Underlying Principles", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_balance">Faiths of Balance</Link></p>
@@ -2493,7 +2590,8 @@ const _underlying_principles = {title: "Underlying Principles", topLink: ["Relig
 <Pair single id="underlying-principles">Underlying Principles</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/nethys">Nethys</Link></Pair>
-<Pair single="benefit" id="underlying-principles-benefit">You've spent a large amount of time around magical items, and understand the similarities between many of them. You gain a +1 trait bonus on Use Magic Device checks, and Use Magic Device is a class skill for you.</Pair>
+<Pair single="flavor" id="underlying-principles-flavor">You've spent a large amount of time around magical items, and understand the similarities between many of them.</Pair>
+<Pair single="benefit" id="underlying-principles-benefit">You gain a +1 trait bonus on <Link to="/skill/use_magic_device">Use Magic Device</Link> checks, and Use Magic Device is a class skill for you.</Pair>
 </Ability>
 </>};
 const _unhinged_mentality = {title: "Unhinged Mentality", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -2509,7 +2607,7 @@ const _unspeakable_bond = {title: "Unspeakable Bond", topLink: ["Religion Traits
 <Pair single id="unspeakable-bond">Unspeakable Bond</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Great Old Ones or Outer Gods</Pair>
-<Pair single="benefit" id="unspeakable-bond-benefit">You are an ally of the unclean creatures of the world, and gain a +2 trait bonus on Diplomacy checks when dealing with creatures of the aberration type.</Pair>
+<Pair single="benefit" id="unspeakable-bond-benefit">You are an ally of the unclean creatures of the world, and gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks when dealing with creatures of the aberration type.</Pair>
 </Ability>
 </>};
 const _unswaying_love = {title: "Unswaying Love", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2517,7 +2615,8 @@ const _unswaying_love = {title: "Unswaying Love", topLink: ["Religion Traits","m
 <Pair single id="unswaying-love">Unswaying Love</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shelyn">Shelyn</Link></Pair>
-<Pair single="benefit" id="unswaying-love-benefit">Your resolute devotion to the unadulterated purity of your goddess protects you from those who would manipulate you. You gain a +2 trait bonus on saving throws against charm or compulsion effects.</Pair>
+<Pair single="flavor" id="unswaying-love-flavor">Your resolute devotion to the unadulterated purity of your goddess protects you from those who would manipulate you.</Pair>
+<Pair single="benefit" id="unswaying-love-benefit">You gain a +2 trait bonus on saving throws against charm or compulsion effects.</Pair>
 </Ability>
 </>};
 const _veils_upon_veils = {title: "Veils upon Veils", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2525,7 +2624,8 @@ const _veils_upon_veils = {title: "Veils upon Veils", topLink: ["Religion Traits
 <Pair single id="veils-upon-veils">Veils upon Veils</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sivanah">Sivanah</Link></Pair>
-<Pair single="benefit" id="veils-upon-veils-benefit">You have learned a holy secret that makes your illusions more powerful. Once per day when casting an illusion spell, you can do so at +1 caster level.</Pair>
+<Pair single="flavor" id="veils-upon-veils-flavor">You have learned a holy secret that makes your illusions more powerful.</Pair>
+<Pair single="benefit" id="veils-upon-veils-benefit">Once per day when casting an illusion spell, you can do so at +1 caster level.</Pair>
 </Ability>
 </>};
 const _venom_drenched = {title: "Venom-Drenched", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
@@ -2534,7 +2634,8 @@ const _venom_drenched = {title: "Venom-Drenched", topLink: ["Religion Traits","m
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/norgorber">Norgorber</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="venom-drenched-benefit">You have nothing to fear from one sort of poison. In fact, you can actually drink the toxic brew in order to make your blood dangerous. You are immune to one specific nonmagical poison. If you ingest a dose of that poison (even if it is a contact, inhaled, or injury poison), it remains in your system for 24 hours; any creature that bites you during that time is subject to the poison's effects.</Pair>
+<Pair single="flavor" id="venom-drenched-flavor">You have nothing to fear from one sort of poison. In fact, you can actually drink the toxic brew in order to make your blood dangerous.</Pair>
+<Pair single="benefit" id="venom-drenched-benefit">You are immune to one specific nonmagical <Link to="/rule/poisons">poison</Link>. If you ingest a dose of that poison (even if it is a contact, inhaled, or injury poison), it remains in your system for 24 hours; any creature that bites you during that time is subject to the poison's effects.</Pair>
 </Ability>
 </>};
 const _veteran_of_battle = {title: "Veteran of Battle", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -2542,7 +2643,8 @@ const _veteran_of_battle = {title: "Veteran of Battle", topLink: ["Religion Trai
 <Pair single id="veteran-of-battle">Veteran of Battle</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gorum">Gorum</Link></Pair>
-<Pair single="benefit" id="veteran-of-battle-benefit">You have fought in several battles, and each time felt the presence of Gorum guiding your sword-arm, making you ready to act at a moment's notice. You gain a +1 trait bonus on initiative checks, and if you are able to act during a surprise round, you may draw a weapon (but not a potion or magic item) as a free action during that round.</Pair>
+<Pair single="flavor" id="veteran-of-battle-flavor">You have fought in several battles, and each time felt the presence of Gorum guiding your sword-arm, making you ready to act at a moment's notice.</Pair>
+<Pair single="benefit" id="veteran-of-battle-benefit">You gain a +1 trait bonus on initiative checks, and if you are able to act during a surprise round, you may draw a weapon (but not a potion or magic item) as a <strong className="hl">free action</strong> during that round.</Pair>
 </Ability>
 </>};
 const _vindictive_strike = {title: "Vindictive Strike", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/faiths_of_corruption">Faiths of Corruption</Link></p>
@@ -2558,7 +2660,8 @@ const _voice_of_monsters = {title: "Voice of Monsters", topLink: ["Religion Trai
 <Pair single id="voice-of-monsters">Voice of Monsters</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lamashtu">Lamashtu</Link></Pair>
-<Pair single="benefit" id="voice-of-monsters-benefit">Your faith leads you to see the power and wonder in even the most horrible abominations. Once per day, you can cast speak with animals. When you cast this spell, it can affect animals (as normal) as well as aberrations and magical beasts with an Intelligence of 2 or lower.</Pair>
+<Pair single="flavor" id="voice-of-monsters-flavor">Your faith leads you to see the power and wonder in even the most horrible abominations.</Pair>
+<Pair single="benefit" id="voice-of-monsters-benefit">Once per day, you can cast <Link to="/spell/speak_with_animals">speak with animals</Link>. When you cast this spell, it can affect animals (as normal) as well as aberrations and magical beasts with an Intelligence of 2 or lower.</Pair>
 </Ability>
 </>};
 const _wasp_whisperer = {title: "Wasp Whisperer", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
@@ -2567,7 +2670,8 @@ const _wasp_whisperer = {title: "Wasp Whisperer", topLink: ["Religion Traits","m
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/calistria">Calistria</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
-<Pair single="benefit" id="wasp-whisperer-benefit">Your association with Calistria's church has toughened your flesh against venom and blessed you with the ability to influence wasps and similar insectile vermin. You gain a +1 trait bonus on Fortitude saving throws against poison. You may make Diplomacy checks (or <Link to="/ability/wild_empathy">wild empathy</Link> checks if you are a druid or ranger) to improve a Hostile or Unfriendly insectile vermin's attitude toward Indifferent.</Pair>
+<Pair single="flavor" id="wasp-whisperer-flavor">Your association with Calistria's church has toughened your flesh against venom and blessed you with the ability to influence wasps and similar insectile vermin.</Pair>
+<Pair single="benefit" id="wasp-whisperer-benefit">You gain a +1 trait bonus on Fortitude saving throws against poison. You may make <Link to="/skill/diplomacy">Diplomacy</Link> checks (or <Link to="/ability/wild_empathy">wild empathy</Link> checks if you are a druid or ranger) to improve a Hostile or Unfriendly insectile vermin's attitude toward Indifferent.</Pair>
 </Ability>
 </>};
 const _wedded_bliss = {title: "Wedded Bliss", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2583,7 +2687,8 @@ const _well_prepared = {title: "Well-Prepared", topLink: ["Religion Traits","mai
 <Pair single id="well-prepared">Well-Prepared</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/angradd">Angradd</Link></Pair>
-<Pair single="benefit" id="well-prepared-benefit">Angradd teaches that a good offense can be the best defense. You gain a +1 trait bonus on attack rolls made as part of a readied action, and a +1 trait bonus on caster level checks when casting a spell as a readied action.</Pair>
+<Pair single="flavor" id="well-prepared-flavor">Angradd teaches that a good offense can be the best defense.</Pair>
+<Pair single="benefit" id="well-prepared-benefit">You gain a +1 trait bonus on attack rolls made as part of a <Link to="/rule/readied_action">readied action</Link>, and a +1 trait bonus on caster level checks when casting a spell as a readied action.</Pair>
 </Ability>
 </>};
 const _wisdom_in_the_flesh = {title: "Wisdom in the Flesh", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -2591,7 +2696,8 @@ const _wisdom_in_the_flesh = {title: "Wisdom in the Flesh", topLink: ["Religion 
 <Pair single id="wisdom-in-the-flesh">Wisdom in the Flesh</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/irori">Irori</Link></Pair>
-<Pair single="benefit" id="wisdom-in-the-flesh-benefit">Your hours of meditation on inner perfection and the nature of strength and speed allow you to focus your thoughts to achieve things your body might not normally be able to do on its own. Select any Strength-, Constitution-, or Dexterity-based skill. You may make checks with that skill using your Wisdom modifier instead of the skill's normal ability score. That skill is always a class skill for you.</Pair>
+<Pair single="flavor" id="wisdom-in-the-flesh-flavor">Your hours of meditation on inner perfection and the nature of strength and speed allow you to focus your thoughts to achieve things your body might not normally be able to do on its own.</Pair>
+<Pair single="benefit" id="wisdom-in-the-flesh-benefit">Select any Strength-, Constitution-, or Dexterity-based skill. You may make checks with that skill using your Wisdom modifier instead of the skill's normal ability score. That skill is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _wise_teacher = {title: "Wise Teacher", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link>, <Link to="/source/faiths_of_purity">Faiths of Purity</Link></p>
@@ -2599,7 +2705,8 @@ const _wise_teacher = {title: "Wise Teacher", topLink: ["Religion Traits","main/
 <Pair single id="wise-teacher">Wise Teacher</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/erastil">Erastil</Link></Pair>
-<Pair single="benefit" id="wise-teacher-benefit">You are skilled in passing along knowledge of rural matters. If you have 4 or more ranks in Knowledge (Nature) or Survival, when you aid another with these skills, you grant a +4 bonus on the check you are aiding instead of the normal +2.</Pair>
+<Pair single="flavor" id="wise-teacher-flavor">You are skilled in passing along knowledge of rural matters.</Pair>
+<Pair single="benefit" id="wise-teacher-benefit">If you have 4 or more ranks in <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> or <Link to="/skill/survival">Survival</Link>, when you <Link to="/rule/aid_another">aid another</Link> with these skills, you grant a +4 bonus on the check you are aiding instead of the normal +2.</Pair>
 </Ability>
 </>};
 const _wolf_cub = {title: "Wolf Cub", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
@@ -2608,7 +2715,8 @@ const _wolf_cub = {title: "Wolf Cub", topLink: ["Religion Traits","main/traits_r
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zarongel">Zarongel</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
-<Pair single="benefit" id="wolf-cub-benefit">Your body has clumps of ugly fur, a sure sign of wolf blood! You win! Once per day as a standard action, you can take a deep breath through your nose to gain the scent ability for 1 minute.</Pair>
+<Pair single="flavor" id="wolf-cub-flavor">Your body has clumps of ugly fur, a sure sign of wolf blood! You win!</Pair>
+<Pair single="benefit" id="wolf-cub-benefit">Once per day as a <strong className="hl">standard action</strong>, you can take a deep breath through your nose to gain the <Link to="/umr/scent">scent</Link> ability for 1 minute.</Pair>
 </Ability>
 </>};
 const _worthless_pawn = {title: "Worthless Pawn", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2616,7 +2724,8 @@ const _worthless_pawn = {title: "Worthless Pawn", topLink: ["Religion Traits","m
 <Pair single id="worthless-pawn">Worthless Pawn</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Great Old Ones</Pair>
-<Pair single="benefit" id="worthless-pawn-benefit">Your existence is so meaningless to your chosen patron that it cares nothing for how you wield its power. You may prepare and cast spells whose alignment is in opposition to your patron's, but doing so causes you to take 1 point of Wisdom damage per spell level when the spell is cast. This does not permit you to use <Link to="/misc/spell_trigger">spell trigger</Link> or <Link to="/misc/spell_completion">spell completion</Link> items of opposing alignments.</Pair>
+<Pair single="flavor" id="worthless-pawn-flavor">Your existence is so meaningless to your chosen patron that it cares nothing for how you wield its power.</Pair>
+<Pair single="benefit" id="worthless-pawn-benefit">You may prepare and cast spells whose alignment is in opposition to your patron's, but doing so causes you to take 1 point of <Link to="/rule/wisdom_damage">Wisdom damage</Link> per spell level when the spell is cast. This does not permit you to use <Link to="/misc/spell_trigger">spell trigger</Link> or <Link to="/misc/spell_completion">spell completion</Link> items of opposing alignments.</Pair>
 </Ability>
 </>};
 const _wrecking_wrath = {title: "Wrecking Wrath", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
@@ -2624,7 +2733,8 @@ const _wrecking_wrath = {title: "Wrecking Wrath", topLink: ["Religion Traits","m
 <Pair single id="wrecking-wrath">Wrecking Wrath</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/rovagug">Rovagug</Link></Pair>
-<Pair single="benefit" id="wrecking-wrath-benefit">Your ferocity is devastating, sometimes even to your own weapons. Once per day, after successful hitting a foe with a melee weapon, you can add your Strength modifier to the damage roll a second time (your Strength Modifier is not doubled if you are using a two-handed weapon). Doing so has a 25% chance of giving your weapon the broken condition.</Pair>
+<Pair single="flavor" id="wrecking-wrath-flavor">Your ferocity is devastating, sometimes even to your own weapons.</Pair>
+<Pair single="benefit" id="wrecking-wrath-benefit">Once per day, after successful hitting a foe with a melee weapon, you can add your Strength modifier to the damage roll a second time (your Strength Modifier is not doubled if you are using a two-handed weapon). Doing so has a 25% chance of giving your weapon the <Link to="/misc/broken">broken</Link> condition.</Pair>
 </Ability>
 </>};
 const _wronged = {title: "Wronged", topLink: ["Religion Traits","main/traits_religion"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods</Link></p>
@@ -2632,14 +2742,16 @@ const _wronged = {title: "Wronged", topLink: ["Religion Traits","main/traits_rel
 <Pair single id="wronged">Wronged</Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gyronna">Gyronna</Link></Pair>
-<Pair single="benefit" id="wronged-benefit">Somewhere in your past, you were taken advantage of because of your gender. You gain a +2 trait bonus on Sense Motive checks against male creatures of your race, and the DC for men to intimidate you increases by 2.</Pair>
+<Pair single="flavor" id="wronged-flavor">Somewhere in your past, you were taken advantage of because of your gender.</Pair>
+<Pair single="benefit" id="wronged-benefit">You gain a +2 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks against male creatures of your race, and the DC for men to intimidate you increases by 2.</Pair>
 </Ability>
 </>};
 const _anxious = {title: "Anxious", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="anxious" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="anxious">Anxious</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="anxious-benefit">After suffering terribly for not being tightlipped enough as a child, such as when you accidentally exposed your family to enemy inquisitors, you developed a habit of being overly cautious with your words. You take a -2 penalty on Diplomacy checks and must speak slowly due to the concentration required. Unless stated otherwise, you are assumed to not be speaking at a volume above a whisper.</Pair>
+<Pair single="flavor" id="anxious-flavor">After suffering terribly for not being tightlipped enough as a child, such as when you accidentally exposed your family to enemy inquisitors, you developed a habit of being overly cautious with your words.</Pair>
+<Pair single="benefit" id="anxious-benefit">You take a -2 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> checks and must speak slowly due to the concentration required. Unless stated otherwise, you are assumed to not be speaking at a volume above a whisper.</Pair>
 </Ability>
 </>};
 const _arcane_malignancies = {title: "Arcane Malignancies", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
@@ -2658,7 +2770,7 @@ const _arcane_malignancies = {title: "Arcane Malignancies", topLink: ["Drawback 
 </thead>
 <tbody><tr>
 <td>01-02</td>
-<td>The smallest three toes on each of your feet have fused together. You take a -2 penalty on Acrobatics, Climb, and Perform (dance) checks.</td>
+<td>The smallest three toes on each of your feet have fused together. You take a -2 penalty on <Link to="/skill/acrobatics">Acrobatics</Link>, <Link to="/skill/climb">Climb</Link>, and <Link to="/skill/perform">Perform</Link> (dance) checks.</td>
 </tr>
 <tr>
 <td>03-04</td>
@@ -2666,7 +2778,7 @@ const _arcane_malignancies = {title: "Arcane Malignancies", topLink: ["Drawback 
 </tr>
 <tr>
 <td>05-07</td>
-<td>You have an extra digit on each hand, which hampers your fine motor skills. You take a -2 penalty on Craft, Disable Device, and Sleight of Hand checks.</td>
+<td>You have an extra digit on each hand, which hampers your fine motor skills. You take a -2 penalty on <Link to="/skill/craft">Craft</Link>, <Link to="/skill/disable_device">Disable Device</Link>, and <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks.</td>
 </tr>
 <tr>
 <td>08-10</td>
@@ -2674,35 +2786,35 @@ const _arcane_malignancies = {title: "Arcane Malignancies", topLink: ["Drawback 
 </tr>
 <tr>
 <td>11-13</td>
-<td>Your skin bears a sizable scarlet mark that flushes and lightens with your moods. You take a -2 penalty on Bluff and Disguise checks.</td>
+<td>Your skin bears a sizable scarlet mark that flushes and lightens with your moods. You take a -2 penalty on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/disguise">Disguise</Link> checks.</td>
 </tr>
 <tr>
 <td>14-16</td>
-<td>One of your eyes has grown enlarged and developed a pale, milky film. Daylight seems uncomfortably bright to you. You take a -2 penalty on saving throws against light-based spells and effects, and you are automatically dazzled for 1d6 rounds when exposed to bright light or sunlight.</td>
+<td>One of your eyes has grown enlarged and developed a pale, milky film. Daylight seems uncomfortably bright to you. You take a -2 penalty on saving throws against light-based spells and effects, and you are automatically <Link to="/misc/dazzled">dazzled</Link> for 1d6 rounds when exposed to bright light or sunlight.</td>
 </tr>
 <tr>
 <td>17-19</td>
-<td>The soles of your feet are flat, and you tire quickly. You can hustle for only a half hour before becoming fatigued, and every 4 hours spent traveling by foot in a day deals 1 point of Constitution damage.</td>
+<td>The soles of your feet are flat, and you tire quickly. You can <Link to="/rule/hustle">hustle</Link> for only a half hour before becoming fatigued, and every 4 hours spent traveling by foot in a day deals 1 point of <Link to="/rule/constitution_damage">Constitution damage</Link>.</td>
 </tr>
 <tr>
 <td>20-22</td>
-<td>Your already pallid complexion grows unusually sensitive to the rays of the sun. Exposure to direct sunlight for more than 1 hour at a time makes you sickened for 24 hours.</td>
+<td>Your already pallid complexion grows unusually sensitive to the rays of the sun. Exposure to direct sunlight for more than 1 hour at a time makes you <Link to="/misc/sickened">sickened</Link> for 24 hours.</td>
 </tr>
 <tr>
 <td>23-25</td>
-<td>The tip of your tongue is forked and stiff. You have difficulty making yourself understood. You take a -2 penalty on Bluff, Diplomacy, and Disguise checks to fool or persuade others.</td>
+<td>The tip of your tongue is forked and stiff. You have difficulty making yourself understood. You take a -2 penalty on Bluff, <Link to="/skill/diplomacy">Diplomacy</Link>, and Disguise checks to fool or persuade others.</td>
 </tr>
 <tr>
 <td>26-28</td>
-<td>The painful and stiff swelling of your joints puts you at a disadvantage in combat. You take a -2 penalty on combat maneuver checks and Escape Artist checks to free yourself when grappled or pinned.</td>
+<td>The painful and stiff swelling of your joints puts you at a disadvantage in combat. You take a -2 penalty on combat maneuver checks and <Link to="/skill/escape_artist">Escape Artist</Link> checks to free yourself when grappled or pinned.</td>
 </tr>
 <tr>
 <td>29-31</td>
-<td>Your ears have stretched to an abnormal size, making you overly sensitive to loud noises. Whenever you are dealt sonic damage, you take 1 additional point of damage, and you are deafened for 1 minute whenever you take damage from any sonic effect.</td>
+<td>Your ears have stretched to an abnormal size, making you overly sensitive to loud noises. Whenever you are dealt sonic damage, you take 1 additional point of damage, and you are <Link to="/misc/deafened">deafened</Link> for 1 minute whenever you take damage from any sonic effect.</td>
 </tr>
 <tr>
 <td>32-33</td>
-<td>The pupils of your eyes resemble a cat's, and beasts cannot abide your presence. You take a -2 penalty on Handle Animal and Ride checks.</td>
+<td>The pupils of your eyes resemble a cat's, and beasts cannot abide your presence. You take a -2 penalty on <Link to="/skill/handle_animal">Handle Animal</Link> and <Link to="/skill/ride">Ride</Link> checks.</td>
 </tr>
 <tr>
 <td>34-35</td>
@@ -2730,7 +2842,7 @@ const _arcane_malignancies = {title: "Arcane Malignancies", topLink: ["Drawback 
 </tr>
 <tr>
 <td>49-51</td>
-<td>Your thin, almost translucent skin is delicate and tears easily. You take 1 point of bleed damage from slashing attacks that deal at least 1 point of damage to you.</td>
+<td>Your thin, almost translucent skin is delicate and tears easily. You take 1 point of <Link to="/rule/bleed">bleed</Link> damage from slashing attacks that deal at least 1 point of damage to you.</td>
 </tr>
 <tr>
 <td>52-54</td>
@@ -2738,11 +2850,11 @@ const _arcane_malignancies = {title: "Arcane Malignancies", topLink: ["Drawback 
 </tr>
 <tr>
 <td>55-57</td>
-<td>Your unruly hair grows with alarming speed. If you do not spend 1 hour trimming and grooming your hair every 48 hours, it snarls in nearby foliage whenever you are outdoors, imposing a -2 penalty to your Armor Class and on attack rolls and Stealth checks.</td>
+<td>Your unruly hair grows with alarming speed. If you do not spend 1 hour trimming and grooming your hair every 48 hours, it snarls in nearby foliage whenever you are outdoors, imposing a -2 penalty to your Armor Class and on attack rolls and <Link to="/skill/stealth">Stealth</Link> checks.</td>
 </tr>
 <tr>
 <td>58-60</td>
-<td>Your limbs are thin and frail. You take a -2 penalty to CMD against disarm, grapple, and trip attempts.</td>
+<td>Your limbs are thin and frail. You take a -2 penalty to CMD against <Link to="/rule/disarm">disarm</Link>, <Link to="/rule/grapple">grapple</Link>, and <Link to="/rule/trip">trip</Link> attempts.</td>
 </tr>
 <tr>
 <td>61-63</td>
@@ -2762,7 +2874,7 @@ const _arcane_malignancies = {title: "Arcane Malignancies", topLink: ["Drawback 
 </tr>
 <tr>
 <td>70-72</td>
-<td>Your knees bend backward like a bird's, which makes many athletic movements difficult to master. You take a -2 penalty on Climb and Swim checks, and your running speed is only three times your regular walking speed.</td>
+<td>Your knees bend backward like a bird's, which makes many athletic movements difficult to master. You take a -2 penalty on <Link to="/skill/climb">Climb</Link> and <Link to="/skill/swim">Swim</Link> checks, and your <Link to="/rule/run">running</Link> speed is only three times your regular walking speed.</td>
 </tr>
 <tr>
 <td>73-75</td>
@@ -2778,7 +2890,7 @@ const _arcane_malignancies = {title: "Arcane Malignancies", topLink: ["Drawback 
 </tr>
 <tr>
 <td>81-83</td>
-<td>Your ears curl up like dried leaves, and you experience difficulty picking up sounds. You take a -2 penalty on hearing-based Perception checks.</td>
+<td>Your ears curl up like dried leaves, and you experience difficulty picking up sounds. You take a -2 penalty on hearing-based <Link to="/skill/perception">Perception</Link> checks.</td>
 </tr>
 <tr>
 <td>84-86</td>
@@ -2786,7 +2898,7 @@ const _arcane_malignancies = {title: "Arcane Malignancies", topLink: ["Drawback 
 </tr>
 <tr>
 <td>87-89</td>
-<td>One of your legs measures noticeably longer than the other, and you lose your balance easily. You take a -2 penalty to CMD against bull rush and trip attempts.</td>
+<td>One of your legs measures noticeably longer than the other, and you lose your balance easily. You take a -2 penalty to CMD against <Link to="/rule/bull_rush">bull rush</Link> and trip attempts.</td>
 </tr>
 <tr>
 <td>90-92</td>
@@ -2794,7 +2906,7 @@ const _arcane_malignancies = {title: "Arcane Malignancies", topLink: ["Drawback 
 </tr>
 <tr>
 <td>93-96</td>
-<td>You develop a shaggy pelt about your neck and shoulders that makes you overheat quickly. You take a -4 penalty on checks and saves to resist environmental heat effects.</td>
+<td>You develop a shaggy pelt about your neck and shoulders that makes you overheat quickly. You take a -4 penalty on checks and saves to resist environmental <Link to="/rule/heat">heat effects</Link>.</td>
 </tr>
 <tr>
 <td>97-98</td>
@@ -2802,7 +2914,7 @@ const _arcane_malignancies = {title: "Arcane Malignancies", topLink: ["Drawback 
 </tr>
 <tr>
 <td>99-100</td>
-<td>You grow vestigial gills. While they grant you no ability to breathe in water, they make it harder for you to catch your breath. When you are fatigued, it takes 12 hours of complete rest to recover. When you are exhausted, it takes 2 hours of complete rest to become fatigued.</td>
+<td>You grow vestigial gills. While they grant you no ability to breathe in water, they make it harder for you to catch your breath. When you are <Link to="/misc/fatigued">fatigued</Link>, it takes 12 hours of complete rest to recover. When you are <Link to="/misc/exhausted">exhausted</Link>, it takes 2 hours of complete rest to become fatigued.</td>
 </tr>
 </tbody></table></ScrollContainer>
 </Pair>
@@ -2813,357 +2925,410 @@ const _attached = {title: "Attached", topLink: ["Drawback Traits","main/traits_d
 <Pair single id="attached">Attached</Pair>
 <Pair title="Type">Drawback</Pair>
 <Pair single="flavor" id="attached-flavor">You have a strong emotional attachment to a person or object that you're terrified of losing.</Pair>
-<Pair single="benefit" id="attached-benefit">The GM chooses the object of your attachment. Whenever the object of your attachment is either threatened, in danger, or in someone else's possession, you take a -1 penalty on Will saves and a -2 penalty on saves against fear effects. If the person or object to which you're attached is ever lost, killed, or destroyed, exchange this drawback for the Doubt drawback.</Pair>
+<Pair single="benefit" id="attached-benefit">The GM chooses the object of your attachment. Whenever the object of your attachment is either threatened, in danger, or in someone else's possession, you take a -1 penalty on Will saves and a -2 penalty on saves against fear effects. If the person or object to which you're attached is ever lost, killed, or destroyed, exchange this drawback for the <Link to="/trait/doubt">Doubt</Link> drawback.</Pair>
 </Ability>
 </>};
 const _avarice = {title: "Avarice", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="avarice" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="avarice">Avarice</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="avarice-benefit">Deep, compulsive greed gnaws at you. Whenever monetary treasure is divided, you must end up with a greater share of that treasure than your companions or you're wracked with feelings of jealousy and ill will. When treasure is divided, if you do not end up with at least 10% more treasure than any other individual companion does, you have a hard time being helpful to your allies. You become irritable, and can't take the aid another action for the next week.</Pair>
+<Pair single="flavor" id="avarice-flavor">Deep, compulsive greed gnaws at you. Whenever monetary treasure is divided, you must end up with a greater share of that treasure than your companions or you're wracked with feelings of jealousy and ill will.</Pair>
+<Pair single="benefit" id="avarice-benefit">When treasure is divided, if you do not end up with at least 10% more treasure than any other individual companion does, you have a hard time being helpful to your allies. You become irritable, and can't take the <Link to="/rule/aid_another">aid another</Link> action for the next week.</Pair>
 </Ability>
 </>};
 const _betrayed_drawback = {title: "Betrayed (Drawback)", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="betrayed-drawback" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="betrayed-drawback">Betrayed (Drawback)</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="betrayed-drawback-benefit">You were reported to a dangerous authority such as the Gray Gardeners of Galt, the high inquisitors of Cheliax, or the Council of Mwanyisa of Mzali, and narrowly escaped death. You second-guess your instincts constantly, leaving you never sure whether or not to trust someone and endangered if you encounter that group's agents again. You can roll twice and take the lower result on Sense Motive checks to get hunches. You cannot reroll this result, even if you have another ability that would normally allow you to do so.</Pair>
+<Pair single="flavor" id="betrayed-drawback-flavor">You were reported to a dangerous authority such as the Gray Gardeners of Galt, the high inquisitors of Cheliax, or the Council of Mwanyisa of Mzali, and narrowly escaped death. You second-guess your instincts constantly, leaving you never sure whether or not to trust someone and endangered if you encounter that group's agents again.</Pair>
+<Pair single="benefit" id="betrayed-drawback-benefit">You can roll twice and take the lower result on <Link to="/skill/sense_motive">Sense Motive</Link> checks to get hunches. You cannot reroll this result, even if you have another ability that would normally allow you to do so.</Pair>
 </Ability>
 </>};
 const _bitter = {title: "Bitter", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="bitter" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="bitter">Bitter</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="bitter-benefit">You have been hurt repeatedly by those you trusted, and it has become difficult for you to accept help. When you receive healing from an ally's class feature, spell, or spell-like ability, reduce the amount of that healing by 1 hit point.</Pair>
+<Pair single="flavor" id="bitter-flavor">You have been hurt repeatedly by those you trusted, and it has become difficult for you to accept help.</Pair>
+<Pair single="benefit" id="bitter-benefit">When you receive healing from an ally's class feature, spell, or spell-like ability, reduce the amount of that healing by 1 hit point.</Pair>
 </Ability>
 </>};
 const _burned = {title: "Burned", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="burned" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="burned">Burned</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="burned-benefit">You were badly burned once by volcanic ash, torch-wielding mobs, or some fiery accident, and the scars pain you terribly you whenever you are too near to fire. You take a -1 penalty on saving throws against fire effects. In addition, whenever you are adjacent to open flames or are on fire, you take a -1 penalty on all attack rolls, saving throws, and skill checks until you spend an entire round away from fire. These penalties are not cumulative. (An instantaneous fire effect adjacent to you or affecting you causes this penalty to apply until 1 round after it is gone.)</Pair>
+<Pair single="flavor" id="burned-flavor">You were badly burned once by volcanic ash, torch-wielding mobs, or some fiery accident, and the scars pain you terribly you whenever you are too near to fire.</Pair>
+<Pair single="benefit" id="burned-benefit">You take a -1 penalty on saving throws against fire effects. In addition, whenever you are adjacent to open flames or are on fire, you take a -1 penalty on all attack rolls, saving throws, and skill checks until you spend an entire round away from fire. These penalties are not cumulative. (An instantaneous fire effect adjacent to you or affecting you causes this penalty to apply until 1 round after it is gone.)</Pair>
 </Ability>
 </>};
 const _condescending = {title: "Condescending", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="condescending" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="condescending">Condescending</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="condescending-benefit">Raised with the assurance that only those like you are truly worthy of respect, you have an offputting way of demonstrating that you look down on those not of your race and ethnicity or nationality. You take a -5 penalty on Diplomacy and Intimidate checks to improve other creatures' attitudes toward you.</Pair>
+<Pair single="flavor" id="condescending-flavor">Raised with the assurance that only those like you are truly worthy of respect, you have an offputting way of demonstrating that you look down on those not of your race and ethnicity or nationality.</Pair>
+<Pair single="benefit" id="condescending-benefit">You take a -5 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks to improve other creatures' attitudes toward you.</Pair>
 </Ability>
 </>};
 const _cowardly = {title: "Cowardly", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="cowardly" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="cowardly">Cowardly</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="cowardly-benefit">You might face dangerous situations with bravado, but you are constantly afraid. Your base speed when frightened and fleeing increases by 5 feet, and the penalties you take from having the cowering, frightened, panicked, or shaken conditions increase by 1. If you would normally be immune to fear, you do not take these penalties but instead lose your immunity to fear (regardless of its source).</Pair>
+<Pair single="flavor" id="cowardly-flavor">You might face dangerous situations with bravado, but you are constantly afraid.</Pair>
+<Pair single="benefit" id="cowardly-benefit"><p>Your base speed when <Link to="/misc/frightened">frightened</Link> and fleeing increases by 5 feet, and the penalties you take from having the <Link to="/misc/cowering">cowering</Link>, frightened, <Link to="/misc/panicked">panicked</Link>, or <Link to="/misc/shaken">shaken</Link> conditions increase by 1.</p>
+<p>If you would normally be immune to fear, you do not take these penalties but instead lose your immunity to fear (regardless of its source).</p>
+</Pair>
 </Ability>
 </>};
 const _cruelty = {title: "Cruelty", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="cruelty" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="cruelty">Cruelty</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="cruelty-benefit">You were rewarded as a child for flaunting your victory over others as completely as possible, and you discovered you enjoyed the feeling of rubbing your foes' faces in the dirt. Whenever you are engaged in combat and there are dying or helpless foes within 30 feet, you take a -2 penalty on attack rolls against foes who are neither dying nor helpless.</Pair>
+<Pair single="flavor" id="cruelty-flavor">You were rewarded as a child for flaunting your victory over others as completely as possible, and you discovered you enjoyed the feeling of rubbing your foes' faces in the dirt.</Pair>
+<Pair single="benefit" id="cruelty-benefit">Whenever you are engaged in combat and there are <Link to="/misc/dying">dying</Link> or <Link to="/misc/helpless">helpless</Link> foes within 30 feet, you take a -2 penalty on attack rolls against foes who are neither dying nor helpless.</Pair>
 </Ability>
 </>};
 const _dependent = {title: "Dependent", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="dependent" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="dependent">Dependent</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="dependent-benefit">You are dependent upon the acceptance of others. Whenever you fail a Diplomacy check, you become shaken for 1 hour.</Pair>
+<Pair single="flavor" id="dependent-flavor">You are dependent upon the acceptance of others.</Pair>
+<Pair single="benefit" id="dependent-benefit">Whenever you fail a <Link to="/skill/diplomacy">Diplomacy</Link> check, you become <Link to="/misc/shaken">shaken</Link> for 1 hour.</Pair>
 </Ability>
 </>};
 const _doubt = {title: "Doubt", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="doubt" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="doubt">Doubt</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="doubt-benefit">You lack confidence in your abilities or confidence in the universe at large. Whenever you fail a skill or ability check, you take a -4 penalty on that type of skill or ability check for the next hour.</Pair>
+<Pair single="flavor" id="doubt-flavor">You lack confidence in your abilities or confidence in the universe at large.</Pair>
+<Pair single="benefit" id="doubt-benefit">Whenever you fail a skill or ability check, you take a -4 penalty on that type of skill or ability check for the next hour.</Pair>
 </Ability>
 </>};
 const _empty_mask = {title: "Empty Mask", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="empty-mask" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="empty-mask">Empty Mask</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="empty-mask-benefit">You have spent so long hiding your true identity to escape political enemies that you have lost much of your sense of self. You take a -1 penalty on Will saving throws against compulsions. This penalty increases to -2 against foes who know your true identity.</Pair>
+<Pair single="flavor" id="empty-mask-flavor">You have spent so long hiding your true identity to escape political enemies that you have lost much of your sense of self.</Pair>
+<Pair single="benefit" id="empty-mask-benefit">You take a -1 penalty on Will saving throws against compulsions. This penalty increases to -2 against foes who know your true identity.</Pair>
 </Ability>
 </>};
 const _entomophobe = {title: "Entomophobe", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="entomophobe" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="entomophobe">Entomophobe</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="entomophobe-benefit">A harrowing experience with insects when you were young instilled in you a deep-seated fear of vermin of all description, especially when they swarm together. You take a -2 penalty on attacks against vermin, and you take a -2 penalty on saving throws against the nauseated condition of a swarm's distraction ability.</Pair>
+<Pair single="flavor" id="entomophobe-flavor">A harrowing experience with insects when you were young instilled in you a deep-seated fear of vermin of all description, especially when they swarm together.</Pair>
+<Pair single="benefit" id="entomophobe-benefit">You take a -2 penalty on attacks against vermin, and you take a -2 penalty on saving throws against the <Link to="/misc/nauseated">nauseated</Link> condition of a swarm's <em>distraction</em> ability.</Pair>
 </Ability>
 </>};
 const _envy = {title: "Envy", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="envy" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="envy">Envy</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="envy-benefit">You grew up in or near an opulent, decadent culture that valued nothing more than showing up the material wealth or accomplishments of others, causing the seed of envy to be planted in your heart. For each day you spend without stealing at least 10 gp worth of valuables or other wealth, attempt a DC 20 Will save. If you fail, you take a cumulative -1 penalty on Will and Reflex saving throws and <Link to="/rule/concentration">concentration</Link> checks (up to a -5 penalty). If you succeed, the penalty is reset to 0.</Pair>
+<Pair single="flavor" id="envy-flavor">You grew up in or near an opulent, decadent culture that valued nothing more than showing up the material wealth or accomplishments of others, causing the seed of envy to be planted in your heart.</Pair>
+<Pair single="benefit" id="envy-benefit">For each day you spend without stealing at least 10 gp worth of valuables or other wealth, attempt a DC 20 Will save. If you fail, you take a cumulative -1 penalty on Will and Reflex saving throws and <Link to="/rule/concentration">concentration</Link> checks (up to a -5 penalty). If you succeed, the penalty is reset to 0.</Pair>
 </Ability>
 </>};
 const _family_ties_drawback = {title: "Family Ties (Drawback)", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="family-ties-drawback" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="family-ties-drawback">Family Ties (Drawback)</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="family-ties-drawback-benefit">Your family is extremely important to you, and you feel disheartened when you can't do what they ask. When a family member makes a request of you, you must fulfill that request or take a -2 penalty on all Wisdom- and Charisma-based ability checks and skill checks until you either do what was requested or succeed at a DC 20 Will saving throw, which you can attempt once per day at the start of each day. You can't take this drawback if you have no family. If you ever lose your family or lose contact with your family, exchange this drawback for the Doubt drawback.</Pair>
+<Pair single="flavor" id="family-ties-drawback-flavor">Your family is extremely important to you, and you feel disheartened when you can't do what they ask.</Pair>
+<Pair single="benefit" id="family-ties-drawback-benefit"><p>When a family member makes a request of you, you must fulfill that request or take a -2 penalty on all Wisdom- and Charisma-based ability checks and skill checks until you either do what was requested or succeed at a DC 20 Will saving throw, which you can attempt once per day at the start of each day.</p>
+<p>You can't take this drawback if you have no family. If you ever lose your family or lose contact with your family, exchange this drawback for the <Link to="/trait/doubt">Doubt</Link> drawback.</p>
+</Pair>
 </Ability>
 </>};
 const _fey_taken = {title: "Fey-Taken", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="fey-taken" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="fey-taken">Fey-Taken</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="fey-taken-benefit">As a child, you were whisked away to the First World by mischievous fey for a time. When you returned, you were ever after considered odd and distant. You long to return there, and find the mortal world dull and at times revolting, so you do not eat as you should and do not question strange visions. You take a -2 penalty on saving throws against disease, illusions, and poison of all kinds, as well as against the spells, spell-like abilities, and supernatural abilities of fey.</Pair>
+<Pair single="flavor" id="fey-taken-flavor">As a child, you were whisked away to the First World by mischievous fey for a time. When you returned, you were ever after considered odd and distant. You long to return there, and find the mortal world dull and at times revolting, so you do not eat as you should and do not question strange visions.</Pair>
+<Pair single="benefit" id="fey-taken-benefit">You take a -2 penalty on saving throws against disease, illusions, and poison of all kinds, as well as against the spells, spell-like abilities, and supernatural abilities of fey.</Pair>
 </Ability>
 </>};
 const _forgetful = {title: "Forgetful", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="forgetful" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="forgetful">Forgetful</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="forgetful-benefit">You are easily distracted and prone to forgetting important things. Whenever you leave a location you have been at for longer than 1 hour, you must attempt a DC 10 Wisdom check. If you fail, you leave behind one random mundane item (a purse of money counts as an item).</Pair>
+<Pair single="flavor" id="forgetful-flavor">You are easily distracted and prone to forgetting important things.</Pair>
+<Pair single="benefit" id="forgetful-benefit">Whenever you leave a location you have been at for longer than 1 hour, you must attempt a DC 10 Wisdom check. If you fail, you leave behind one random mundane item (a purse of money counts as an item).</Pair>
 </Ability>
 </>};
 const _foul_brand = {title: "Foul Brand", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
 <Ability id="foul-brand" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="foul-brand">Foul Brand</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="foul-brand-benefit">You have the symbol of an evil deity burned into your flesh. If the symbol is on your hand, you take a -1 penalty on Disable Device, Disguise, and Sleight of Hand checks. If the symbol is on your face, you take a -2 penalty on Bluff, Diplomacy, and Disguise checks. This does not count as a holy symbol for the purposes of a divine focus for spellcasting.</Pair>
+<Pair single="benefit" id="foul-brand-benefit">You have the symbol of an evil deity burned into your flesh. If the symbol is on your hand, you take a -1 penalty on <Link to="/skill/disable_device">Disable Device</Link>, <Link to="/skill/disguise">Disguise</Link>, and <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks. If the symbol is on your face, you take a -2 penalty on <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, and Disguise checks. This does not count as a holy symbol for the purposes of a divine focus for spellcasting.</Pair>
 </Ability>
 </>};
 const _guilty_fraud = {title: "Guilty Fraud", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="guilty-fraud" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="guilty-fraud">Guilty Fraud</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="guilty-fraud-benefit">You received something through trickery that you did not deserve, and your guilt for the misdeed distracts you from dangers around you. You take a -4 penalty on Bluff checks against creatures with an attitude toward you of indifferent or better.</Pair>
+<Pair single="flavor" id="guilty-fraud-flavor">You received something through trickery that you did not deserve, and your guilt for the misdeed distracts you from dangers around you.</Pair>
+<Pair single="benefit" id="guilty-fraud-benefit">You take a -4 penalty on <Link to="/skill/bluff">Bluff</Link> checks against creatures with an attitude toward you of indifferent or better.</Pair>
 </Ability>
 </>};
 const _haunted = {title: "Haunted", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="haunted" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="haunted">Haunted</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="haunted-benefit">Something from your past - or a dark secret you presently hold - makes it difficult for you to ever be at peace, and your chronic worry that you might fall to evil influence has become a self-fulfilling prophecy. You take a -2 penalty on saves against spells with the evil descriptor.</Pair>
+<Pair single="flavor" id="haunted-flavor">Something from your past - or a dark secret you presently hold - makes it difficult for you to ever be at peace, and your chronic worry that you might fall to evil influence has become a self-fulfilling prophecy.</Pair>
+<Pair single="benefit" id="haunted-benefit">You take a -2 penalty on saves against spells with the evil descriptor.</Pair>
 </Ability>
 </>};
 const _haunting_regret = {title: "Haunting Regret", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="haunting-regret" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="haunting-regret">Haunting Regret</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="haunting-regret-benefit">When you were young, a relative with whom you had frequently quarreled passed away where his or her soul could not rest. Now, the unquiet spirit appears around you at inconvenient times, distracting you with regret for being unable to help. You take a -2 penalty on saving throws against the distraction ability of swarms and mind-affecting effects and on <Link to="/rule/concentration">concentration</Link> checks.</Pair>
+<Pair single="flavor" id="haunting-regret-flavor">When you were young, a relative with whom you had frequently quarreled passed away where his or her soul could not rest. Now, the unquiet spirit appears around you at inconvenient times, distracting you with regret for being unable to help.</Pair>
+<Pair single="benefit" id="haunting-regret-benefit">You take a -2 penalty on saving throws against the <em>distraction</em> ability of swarms and mind-affecting effects and on <Link to="/rule/concentration">concentration</Link> checks.</Pair>
 </Ability>
 </>};
 const _headstrong = {title: "Headstrong", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="headstrong" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="headstrong">Headstrong</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="headstrong-benefit">You feel compelled to correct every action and argument that contradicts your worldview. Whenever you witness an action or hear an argument that contradicts your alignment, you must attempt to stop or correct that action or argument. If you either don't try to stop it or fail in your attempt to stop it (as adjudicated by the GM), you are shaken for 1 hour.</Pair>
+<Pair single="flavor" id="headstrong-flavor">You feel compelled to correct every action and argument that contradicts your worldview.</Pair>
+<Pair single="benefit" id="headstrong-benefit">Whenever you witness an action or hear an argument that contradicts your alignment, you must attempt to stop or correct that action or argument. If you either don't try to stop it or fail in your attempt to stop it (as adjudicated by the GM), you are <Link to="/misc/shaken">shaken</Link> for 1 hour.</Pair>
 </Ability>
 </>};
 const _hedonistic = {title: "Hedonistic", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="hedonistic" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="hedonistic">Hedonistic</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="hedonistic-benefit">You are a creature of pleasure and comfort. Whenever you spend a day without gaining reward or treasure (at least 10 or more gold pieces) or spending an hour on entertainment or pleasure, attempt a DC 20 Fortitude save at the end of that day. If you fail, you begin the next day fatigued. This fatigue lasts 4 hours, or until you receive a reward or sufficient entertainment or pleasure.</Pair>
+<Pair single="flavor" id="hedonistic-flavor">You are a creature of pleasure and comfort.</Pair>
+<Pair single="benefit" id="hedonistic-benefit">Whenever you spend a day without gaining reward or treasure (at least 10 or more gold pieces) or spending an hour on entertainment or pleasure, attempt a DC 20 Fortitude save at the end of that day. If you fail, you begin the next day <Link to="/misc/fatigued">fatigued</Link>. This fatigue lasts 4 hours, or until you receive a reward or sufficient entertainment or pleasure.</Pair>
 </Ability>
 </>};
 const _helpless = {title: "Helpless", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="helpless" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="helpless">Helpless</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="helpless-benefit">You once stood helpless as great harm befell a loved one, and that paralysis sometimes returns when an ally is in a dire position. The first time per combat encounter that an ally within 30 feet falls unconscious or dies as the result of an attack, you are dazed until the end of your next turn.</Pair>
+<Pair single="flavor" id="helpless-flavor">You once stood helpless as great harm befell a loved one, and that paralysis sometimes returns when an ally is in a dire position.</Pair>
+<Pair single="benefit" id="helpless-benefit">The first time per combat encounter that an ally within 30 feet falls unconscious or dies as the result of an attack, you are <Link to="/misc/dazed">dazed</Link> until the end of your next turn.</Pair>
 </Ability>
 </>};
 const _impatient = {title: "Impatient", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="impatient" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="impatient">Impatient</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="impatient-benefit">You love leaping into battle at the earliest opportunity, and it frustrates you to wait for others to act. You can't delay or ready actions, and if you are the last of your allies to act in a round of combat, you take a -1 penalty on ability checks, attack rolls, saving throws, and skill checks.</Pair>
+<Pair single="flavor" id="impatient-flavor">You love leaping into battle at the earliest opportunity, and it frustrates you to wait for others to act.</Pair>
+<Pair single="benefit" id="impatient-benefit">You can't <Link to="/rule/delay">delay</Link> or <Link to="/rule/ready">ready</Link> actions, and if you are the last of your allies to act in a round of combat, you take a -1 penalty on ability checks, attack rolls, saving throws, and skill checks.</Pair>
 </Ability>
 </>};
 const _infamous = {title: "Infamous", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="infamous" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="infamous">Infamous</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="infamous-benefit">You were publicly linked, truthfully or not, to a crime of significant infamy. You draw attention wherever you go and risk imprisonment or worse in the jurisdiction where the crime was committed. You and your apparent allies take a -4 penalty on Diplomacy checks to interact with law-abiding citizens (except enemies of the authority that accused you).</Pair>
+<Pair single="flavor" id="infamous-flavor">You were publicly linked, truthfully or not, to a crime of significant infamy. You draw attention wherever you go and risk imprisonment or worse in the jurisdiction where the crime was committed.</Pair>
+<Pair single="benefit" id="infamous-benefit">You and your apparent allies take a -4 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> checks to interact with law-abiding citizens (except enemies of the authority that accused you).</Pair>
 </Ability>
 </>};
 const _information_overload = {title: "Information Overload", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="information-overload" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="information-overload">Information Overload</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="information-overload-benefit">You have had access to thousands of spy reports, many of which turned out to be based on faulty deductions or even intentionally false stories spread by opposed spy groups. At this point, you have been exposed to false knowledge as much as accurate information, and you can't always remember which is which. You take a -2 penalty on all Knowledge checks, and if you fail a Knowledge check by 5 or more, you can recall information that is diametrically opposed to the truth.</Pair>
+<Pair single="flavor" id="information-overload-flavor">You have had access to thousands of spy reports, many of which turned out to be based on faulty deductions or even intentionally false stories spread by opposed spy groups. At this point, you have been exposed to false knowledge as much as accurate information, and you can't always remember which is which.</Pair>
+<Pair single="benefit" id="information-overload-benefit">You take a -2 penalty on all <Link to="/skill/knowledge">Knowledge</Link> checks, and if you fail a Knowledge check by 5 or more, you can recall information that is diametrically opposed to the truth.</Pair>
 </Ability>
 </>};
 const _insatiable = {title: "Insatiable", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="insatiable" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="insatiable">Insatiable</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="insatiable-benefit">You have become so accustomed to binging on the finer things in life that you find going without such excess particularly strenuous. Goods and services cost you 10% more (and can't be paid for by allies), and you need twice as much food and liquid as normal for the purposes of preventing starvation and thirst.</Pair>
+<Pair single="flavor" id="insatiable-flavor">You have become so accustomed to binging on the finer things in life that you find going without such excess particularly strenuous.</Pair>
+<Pair single="benefit" id="insatiable-benefit">Goods and services cost you 10% more (and can't be paid for by allies), and you need twice as much food and liquid as normal for the purposes of preventing <Link to="/rule/starvation_and_thirst">starvation and thirst</Link>.</Pair>
 </Ability>
 </>};
 const _lonely = {title: "Lonely", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="lonely" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="lonely">Lonely</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="lonely-benefit">You are far too easily convinced of the friendly intentions of others. You take a -2 penalty on Sense Motive checks and on Perception checks to see through disguises, and on saving throws against charm spells and spell-like abilities.</Pair>
+<Pair single="flavor" id="lonely-flavor">You are far too easily convinced of the friendly intentions of others.</Pair>
+<Pair single="benefit" id="lonely-benefit">You take a -2 penalty on <Link to="/skill/sense_motive">Sense Motive</Link> checks and on <Link to="/skill/perception">Perception</Link> checks to see through disguises, and on saving throws against charm spells and spell-like abilities.</Pair>
 </Ability>
 </>};
 const _loner = {title: "Loner", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="loner" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="loner">Loner</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="loner-benefit">Raised by pirates, bandits, or other troublemakers unwilling to stick out their necks for you, you are accustomed to operating on your own. The presence of allies can easily become a distraction to you, and you do your best to keep them out of your space. You take a -1 penalty to AC and on attack rolls while adjacent to allies or when taking the aid another action.</Pair>
+<Pair single="flavor" id="loner-flavor">Raised by pirates, bandits, or other troublemakers unwilling to stick out their necks for you, you are accustomed to operating on your own. The presence of allies can easily become a distraction to you, and you do your best to keep them out of your space.</Pair>
+<Pair single="benefit" id="loner-benefit">You take a -1 penalty to AC and on attack rolls while adjacent to allies or when taking the <Link to="/rule/aid_another_2">aid another</Link> action.</Pair>
 </Ability>
 </>};
 const _lovesick = {title: "Lovesick", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="lovesick" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="lovesick">Lovesick</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="lovesick-benefit">Your love for another occupies your every thought, and you become despondent when you are away from that person. The person is chosen by your GM (with consideration to your roll on the Romantic Relationships table if you used the background generator). At the start of each day, if you are away from this person you take a -2 penalty on initiative checks and Perception checks. If you ever lose or fall out of love with this person, exchange this drawback for the Doubt drawback.</Pair>
+<Pair single="flavor" id="lovesick-flavor">Your love for another occupies your every thought, and you become despondent when you are away from that person.</Pair>
+<Pair single="benefit" id="lovesick-benefit">The person is chosen by your GM (with consideration to your roll on the Romantic Relationships table if you used the <Link to="/rule/background_generator">background generator</Link>). At the start of each day, if you are away from this person you take a -2 penalty on initiative checks and <Link to="/skill/perception">Perception</Link> checks. If you ever lose or fall out of love with this person, exchange this drawback for the <Link to="/trait/doubt">Doubt</Link> drawback.</Pair>
 </Ability>
 </>};
 const _magical_klutz = {title: "Magical Klutz", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="magical-klutz" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="magical-klutz">Magical Klutz</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="magical-klutz-benefit">You were born in a place with a plethora of strangely interacting magic, such as Geb, the Mana Wastes, or Nex, and magic is dangerously eager to surge into action around you. You roll twice and take the lower result on Use Magic Device checks to activate items blindly and on Reflex saving throws against effects produced by magic items.</Pair>
+<Pair single="flavor" id="magical-klutz-flavor">You were born in a place with a plethora of strangely interacting magic, such as Geb, the Mana Wastes, or Nex, and magic is dangerously eager to surge into action around you.</Pair>
+<Pair single="benefit" id="magical-klutz-benefit">You roll twice and take the lower result on <Link to="/skill/use_magic_device">Use Magic Device</Link> checks to activate items blindly and on Reflex saving throws against effects produced by magic items.</Pair>
 </Ability>
 </>};
 const _mark_of_slavery = {title: "Mark of Slavery", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="mark-of-slavery" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="mark-of-slavery">Mark of Slavery</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="mark-of-slavery-benefit">You were enslaved for part or all of your youth, and marked as such with a brand or tattoo that still reminds you of how you were punished whenever you failed to do what you should. Whenever you fail a skill check, you take a -2 penalty on any skill check or attack roll you attempt before the end of your next turn unless it is a part of retrying the failed skill check.</Pair>
+<Pair single="flavor" id="mark-of-slavery-flavor">You were enslaved for part or all of your youth, and marked as such with a brand or tattoo that still reminds you of how you were punished whenever you failed to do what you should.</Pair>
+<Pair single="benefit" id="mark-of-slavery-benefit">Whenever you fail a skill check, you take a -2 penalty on any skill check or attack roll you attempt before the end of your next turn unless it is a part of retrying the failed skill check.</Pair>
 </Ability>
 </>};
 const _meticulous = {title: "Meticulous", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="meticulous" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="meticulous">Meticulous</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="meticulous-benefit">You plan and prepare everything in detail, and aren't good at improvising when things don't go as planned. You take a -2 penalty on skill checks for skills with which you're untrained.</Pair>
+<Pair single="flavor" id="meticulous-flavor">You plan and prepare everything in detail, and aren't good at improvising when things don't go as planned.</Pair>
+<Pair single="benefit" id="meticulous-benefit">You take a -2 penalty on skill checks for skills with which you're untrained.</Pair>
 </Ability>
 </>};
 const _misbegotten = {title: "Misbegotten", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="misbegotten" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="misbegotten">Misbegotten</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="misbegotten-benefit">Whether due to the influence of malign magic, disease, or the scorn of the gods, you were born with a troublesome deformity that interferes with your movement. You take a -2 penalty on all Dexterity-based skill checks.</Pair>
+<Pair single="flavor" id="misbegotten-flavor">Whether due to the influence of malign magic, disease, or the scorn of the gods, you were born with a troublesome deformity that interferes with your movement.</Pair>
+<Pair single="benefit" id="misbegotten-benefit">You take a -2 penalty on all Dexterity-based skill checks.</Pair>
 </Ability>
 </>};
 const _naive = {title: "Naive", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="naive" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="naive">Naive</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="naive-benefit">Your perception that everyone is innately good does not bode well in the heat of battle, when less scrupulous foes might take advantage of your misguided optimism. You take a -2 penalty to AC against attacks with improvised weapons and a -2 penalty to CMD against dirty trick combat maneuvers.</Pair>
+<Pair single="flavor" id="naive-flavor">Your perception that everyone is innately good does not bode well in the heat of battle, when less scrupulous foes might take advantage of your misguided optimism.</Pair>
+<Pair single="benefit" id="naive-benefit">You take a -2 penalty to AC against attacks with <Link to="/misc/improvised_weapons">improvised weapons</Link> and a -2 penalty to CMD against <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuvers.</Pair>
 </Ability>
 </>};
 const _nervous = {title: "Nervous", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="nervous" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="nervous">Nervous</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="nervous-benefit">Living under constant threat of death or worse from your oppressive government, your nerves have frayed terribly. Whenever you take 10 on an ability check or skill check that imparts any penalty for failure (aside from wasted time), you treat your check as if you had rolled an 8 instead of a 10, even if you are able to take your time.</Pair>
+<Pair single="flavor" id="nervous-flavor">Living under constant threat of death or worse from your oppressive government, your nerves have frayed terribly.</Pair>
+<Pair single="benefit" id="nervous-benefit">Whenever you <Link to="/rule/take_10">take 10</Link> on an ability check or skill check that imparts any penalty for failure (aside from wasted time), you treat your check as if you had rolled an 8 instead of a 10, even if you are able to take your time.</Pair>
 </Ability>
 </>};
 const _oblivious = {title: "Oblivious", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="oblivious" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="oblivious">Oblivious</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="oblivious-benefit">Whether because you are an avid daydreamer or you are accustomed to everything being handed to you and spelled out for your benefit, you pay little attention to your surroundings and other people. You take a -2 penalty on Sense Motive and sight-based Perception checks.</Pair>
+<Pair single="flavor" id="oblivious-flavor">Whether because you are an avid daydreamer or you are accustomed to everything being handed to you and spelled out for your benefit, you pay little attention to your surroundings and other people.</Pair>
+<Pair single="benefit" id="oblivious-benefit">You take a -2 penalty on <Link to="/skill/sense_motive">Sense Motive</Link> and sight-based <Link to="/skill/perception">Perception</Link> checks.</Pair>
 </Ability>
 </>};
 const _occult_bargain = {title: "Occult Bargain", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="occult-bargain" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="occult-bargain">Occult Bargain</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="occult-bargain-benefit">You draw magical power from a source, such as a mysterious eidolon, shame-filled phantom, or First World patron, who insists that its identity remains secret. You take a -1 penalty on <Link to="/rule/concentration">concentration</Link> checks, and you must invoke the entity's name by word or text each day or be unable to regain spell slots that day. You must be able to cast 0-level and 1st-level spells as a class feature to select this drawback.</Pair>
+<Pair title="Requirements" hl>Able to cast 0-level and 1st-level spells as a class feature</Pair>
+<Pair single="benefit" id="occult-bargain-benefit">You draw magical power from a source, such as a mysterious eidolon, shame-filled phantom, or First World patron, who insists that its identity remains secret. You take a -1 penalty on <Link to="/rule/concentration">concentration</Link> checks, and you must invoke the entity's name by word or text each day or be unable to regain spell slots that day.</Pair>
 </Ability>
 </>};
 const _oppressive_expectations = {title: "Oppressive Expectations", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="oppressive-expectations" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="oppressive-expectations">Oppressive Expectations</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="oppressive-expectations-benefit">You were raised with the belief that your family was special, and that those of your status always succeed at whatever they do. Due to your concern about upholding the family name and your memories of the consequences for disappointing them (such as violence or unsettling disapproval), you are easily frustrated. When you fail at a skill check, you take a -2 penalty on checks with that skill until you succeed or until you fail at a different skill check, whichever comes first.</Pair>
+<Pair single="flavor" id="oppressive-expectations-flavor">You were raised with the belief that your family was special, and that those of your status always succeed at whatever they do. Due to your concern about upholding the family name and your memories of the consequences for disappointing them (such as violence or unsettling disapproval), you are easily frustrated.</Pair>
+<Pair single="benefit" id="oppressive-expectations-benefit">When you fail at a skill check, you take a -2 penalty on checks with that skill until you succeed or until you fail at a different skill check, whichever comes first.</Pair>
 </Ability>
 </>};
 const _overprotective = {title: "Overprotective", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="overprotective" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="overprotective">Overprotective</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="overprotective-benefit">In your youth, you saw a younger friend or loved one suffer a grievous injury or die, and you blamed yourself for not having been there to help, even if there was nothing you could have done. If one of your allies should fall unconscious from hit point damage, you take a -2 penalty on attack rolls and skill checks as long as you are farther than 10 feet away from your fallen ally.</Pair>
+<Pair single="flavor" id="overprotective-flavor">In your youth, you saw a younger friend or loved one suffer a grievous injury or die, and you blamed yourself for not having been there to help, even if there was nothing you could have done.</Pair>
+<Pair single="benefit" id="overprotective-benefit">If one of your allies should fall unconscious from hit point damage, you take a -2 penalty on attack rolls and skill checks as long as you are farther than 10 feet away from your fallen ally.</Pair>
 </Ability>
 </>};
 const _paranoid = {title: "Paranoid", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="paranoid" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="paranoid">Paranoid</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="paranoid-benefit">You believe that someone or something is always out to get you, so you have a hard time truly trusting anyone. Anyone who attempts an aid another action of any type to assist you must succeed at a DC 15 check instead of the normal DC 10 check.</Pair>
+<Pair single="flavor" id="paranoid-flavor">You believe that someone or something is always out to get you, so you have a hard time truly trusting anyone.</Pair>
+<Pair single="benefit" id="paranoid-benefit">Anyone who attempts an <Link to="/rule/aid_another_2">aid another</Link> action of any type to assist you must succeed at a DC 15 check instead of the normal DC 10 check.</Pair>
 </Ability>
 </>};
 const _power_hungry = {title: "Power-Hungry", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="power-hungry" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="power-hungry">Power-Hungry</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="power-hungry-benefit">You're addicted to power. You take a -2 penalty on Will saving throws against charm and compulsion effects if the creature creating the effect promises wealth or power.</Pair>
+<Pair single="flavor" id="power-hungry-flavor">You're addicted to power.</Pair>
+<Pair single="benefit" id="power-hungry-benefit">You take a -2 penalty on Will saving throws against charm and compulsion effects if the creature creating the effect promises wealth or power.</Pair>
 </Ability>
 </>};
 const _pride = {title: "Pride", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="pride" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="pride">Pride</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="pride-benefit">You can't abide challenges to your dignity, authority, or honor. When someone threatens, accuses, or challenges you, you take a -2 penalty on Diplomacy checks and Sense Motive checks involving that creature until the creature apologizes to you.</Pair>
+<Pair single="flavor" id="pride-flavor">You can't abide challenges to your dignity, authority, or honor.</Pair>
+<Pair single="benefit" id="pride-benefit">When someone threatens, accuses, or challenges you, you take a -2 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> checks and <Link to="/skill/sense_motive">Sense Motive</Link> checks involving that creature until the creature apologizes to you.</Pair>
 </Ability>
 </>};
 const _provincial = {title: "Provincial", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="provincial" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="provincial">Provincial</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="provincial-benefit">You have only one way of looking at things: the right way. You take a -2 penalty on Diplomacy checks and Sense Motive checks made against all creatures whose religion or alignment differs from your own.</Pair>
+<Pair single="flavor" id="provincial-flavor">You have only one way of looking at things: the right way.</Pair>
+<Pair single="benefit" id="provincial-benefit">You take a -2 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> checks and <Link to="/skill/sense_motive">Sense Motive</Link> checks made against all creatures whose religion or alignment differs from your own.</Pair>
 </Ability>
 </>};
 const _righteous_indignation = {title: "Righteous Indignation", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="righteous-indignation" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="righteous-indignation">Righteous Indignation</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="righteous-indignation-benefit">You have difficulty controlling your temper after living in inhuman conditions in Cheliax, Geb, Irrisen, Katapesh, or Qadira. Whenever a foe provokes an attack of opportunity from you, you must take it unless you succeed at a Will save against a DC equal to 10 + your level. You take a -1 penalty on Will saving throws against spells with the emotion descriptor that do not also have the fear descriptor.</Pair>
+<Pair single="flavor" id="righteous-indignation-flavor">You have difficulty controlling your temper after living in inhuman conditions in Cheliax, Geb, Irrisen, Katapesh, or Qadira.</Pair>
+<Pair single="benefit" id="righteous-indignation-benefit">Whenever a foe provokes an attack of opportunity from you, you must take it unless you succeed at a Will save against a DC equal to 10 + your level. You take a -1 penalty on Will saving throws against spells with the emotion descriptor that do not also have the fear descriptor.</Pair>
 </Ability>
 </>};
 const _scarred = {title: "Scarred", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="scarred" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="scarred">Scarred</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="scarred-benefit">An injury left you horribly, visibly scarred, making it more difficult for you to hide your true face, and also making most people distrustful of you merely due to your appearance. You take a -5 penalty on Disguise checks and a -2 penalty on Bluff checks.</Pair>
+<Pair single="flavor" id="scarred-flavor">An injury left you horribly, visibly scarred, making it more difficult for you to hide your true face, and also making most people distrustful of you merely due to your appearance.</Pair>
+<Pair single="benefit" id="scarred-benefit">You take a -5 penalty on <Link to="/skill/disguise">Disguise</Link> checks and a -2 penalty on <Link to="/skill/bluff">Bluff</Link> checks.</Pair>
 </Ability>
 </>};
 const _secret_shame = {title: "Secret Shame", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="secret-shame" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="secret-shame">Secret Shame</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="secret-shame-benefit">You have a terrible fear of the public at large, a group, or an important person (such as your order of knights, your liege lord, your family, or your lover) learning a shameful truth about you. You take a -1 penalty on saving throws against fear effects, and the DC of any Intimidate check to demoralize you is reduced by 1. If you would normally be immune to fear, you do not take these penalties, but instead lose your immunity to fear (regardless of its source).</Pair>
+<Pair single="flavor" id="secret-shame-flavor">You have a terrible fear of the public at large, a group, or an important person (such as your order of knights, your liege lord, your family, or your lover) learning a shameful truth about you.</Pair>
+<Pair single="benefit" id="secret-shame-benefit">You take a -1 penalty on saving throws against fear effects, and the DC of any <Link to="/skill/intimidate">Intimidate</Link> check to demoralize you is reduced by 1. If you would normally be immune to fear, you do not take these penalties, but instead lose your immunity to fear (regardless of its source).</Pair>
 </Ability>
 </>};
 const _self_doubting = {title: "Self-Doubting", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="self-doubting" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="self-doubting">Self-Doubting</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="self-doubting-benefit">Your ever-present fear of failure causes a downward spiral. The first time each day that you fail a Will saving throw or skill check, you take a -2 penalty on the next Will saving throw or skill check of that kind.</Pair>
+<Pair single="flavor" id="self-doubting-flavor">Your ever-present fear of failure causes a downward spiral.</Pair>
+<Pair single="benefit" id="self-doubting-benefit">The first time each day that you fail a Will saving throw or skill check, you take a -2 penalty on the next Will saving throw or skill check of that kind.</Pair>
 </Ability>
 </>};
 const _sentimental = {title: "Sentimental", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="sentimental" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="sentimental">Sentimental</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="sentimental-benefit">You are sentimental, and your thoughts often stray to the past at inappropriate times. You take a -2 penalty on Perception checks to avoid being surprised and on Reflex saving throws to avoid traps or hazards.</Pair>
+<Pair single="flavor" id="sentimental-flavor">You are sentimental, and your thoughts often stray to the past at inappropriate times.</Pair>
+<Pair single="benefit" id="sentimental-benefit">You take a -2 penalty on <Link to="/skill/perception">Perception</Link> checks to avoid being surprised and on Reflex saving throws to avoid traps or hazards.</Pair>
 </Ability>
 </>};
 const _shadow_scarred = {title: "Shadow-Scarred", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="shadow-scarred" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="shadow-scarred">Shadow-Scarred</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="shadow-scarred-benefit">You were touched by terrible horrors that live in the darkness just outside the human sphere, such as shadow-beasts or aberrations linked to the Dark Tapestry, and feel your life-force ebb away ever so slightly whenever you return to the shadows. Whenever you are in an area of dim light or darkness, you take a -1 penalty on saving throws.</Pair>
+<Pair single="flavor" id="shadow-scarred-flavor">You were touched by terrible horrors that live in the darkness just outside the human sphere, such as shadow-beasts or aberrations linked to the Dark Tapestry, and feel your life-force ebb away ever so slightly whenever you return to the shadows.</Pair>
+<Pair single="benefit" id="shadow-scarred-benefit">Whenever you are in an area of <Link to="/rule/dim_light">dim light</Link> or darkness, you take a -1 penalty on saving throws.</Pair>
 </Ability>
 </>};
 const _sheltered = {title: "Sheltered", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="sheltered" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="sheltered">Sheltered</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="sheltered-benefit">Brought up in courtly environments and knowing little of violence, you have trouble getting accustomed to it. Whenever you have less than half your maximum hit points, you are shaken.</Pair>
+<Pair single="flavor" id="sheltered-flavor">Brought up in courtly environments and knowing little of violence, you have trouble getting accustomed to it.</Pair>
+<Pair single="benefit" id="sheltered-benefit">Whenever you have less than half your maximum hit points, you are <Link to="/misc/shaken">shaken</Link>.</Pair>
 </Ability>
 </>};
 const _sleepy = {title: "Sleepy", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
@@ -3177,84 +3342,94 @@ const _spooked = {title: "Spooked", topLink: ["Drawback Traits","main/traits_dra
 <Ability id="spooked" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="spooked">Spooked</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="spooked-benefit">You had a traumatic experience with a spirit at a young age that colors your reactions to such creatures even to this day. Whenever you perceive a fey, outsider, or undead from within 60 feet, you become shaken for 1d4 rounds unless you succeed at a Will save with a DC equal to 15 + the creature's Charisma modifier. Immunity to fear effects does not allow you to forgo this saving throw; even if you are immune to fear, you must roll the Will saving throw for this drawback when applicable, albeit with a +4 bonus.</Pair>
+<Pair single="flavor" id="spooked-flavor">You had a traumatic experience with a spirit at a young age that colors your reactions to such creatures even to this day.</Pair>
+<Pair single="benefit" id="spooked-benefit">Whenever you perceive a fey, outsider, or undead from within 60 feet, you become <Link to="/misc/shaken">shaken</Link> for 1d4 rounds unless you succeed at a Will save with a DC equal to 15 + the creature's Charisma modifier. Immunity to fear effects does not allow you to forgo this saving throw; even if you are immune to fear, you must roll the Will saving throw for this drawback when applicable, albeit with a +4 bonus.</Pair>
 </Ability>
 </>};
 const _stigmatized = {title: "Stigmatized", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook</Link></p>
 <Ability id="stigmatized" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="stigmatized">Stigmatized</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="stigmatized-benefit">You were kept at the periphery of society for a long period of time, so that even when you are among strangers in a new place, you feel the weight of your missing socialization. You take a -3 penalty on Diplomacy checks to gather information or improve a creature's attitude.</Pair>
+<Pair single="flavor" id="stigmatized-flavor">You were kept at the periphery of society for a long period of time, so that even when you are among strangers in a new place, you feel the weight of your missing socialization.</Pair>
+<Pair single="benefit" id="stigmatized-benefit">You take a -3 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> checks to gather information or improve a creature's attitude.</Pair>
 </Ability>
 </>};
 const _superstitious_drawback = {title: "Superstitious (Drawback)", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="superstitious-drawback" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="superstitious-drawback">Superstitious (Drawback)</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="superstitious-drawback-benefit">Raised around those who regarded most magic as innately dangerous, no matter the source, you cannot bring yourself to submit to magic willingly even for your own good. Whenever you are affected with a harmless spell, there is a 50% chance that you must roll a saving throw to prevent that effect, even if it would benefit you. This does not apply to harmless spells cast by you upon yourself.</Pair>
+<Pair single="flavor" id="superstitious-drawback-flavor">Raised around those who regarded most magic as innately dangerous, no matter the source, you cannot bring yourself to submit to magic willingly even for your own good.</Pair>
+<Pair single="benefit" id="superstitious-drawback-benefit">Whenever you are affected with a harmless spell, there is a 50% chance that you must roll a saving throw to prevent that effect, even if it would benefit you. This does not apply to harmless spells cast by you upon yourself.</Pair>
 </Ability>
 </>};
 const _tainted_spirit = {title: "Tainted Spirit", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="tainted-spirit" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="tainted-spirit">Tainted Spirit</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="tainted-spirit-benefit">When you were a child, a parent or other person with authority over you made a minor pact with a fiend on your behalf, stealing some of your vitality in exchange for a minor boon. At the end of any combat, you must attempt a Fortitude saving throw. The DC is 10 + the number of rounds you acted in combat. If you fail this save, you become fatigued for 10 minutes per round you acted during that encounter.</Pair>
+<Pair single="flavor" id="tainted-spirit-flavor">When you were a child, a parent or other person with authority over you made a minor pact with a fiend on your behalf, stealing some of your vitality in exchange for a minor boon.</Pair>
+<Pair single="benefit" id="tainted-spirit-benefit">At the end of any combat, you must attempt a Fortitude saving throw. The DC is 10 + the number of rounds you acted in combat. If you fail this save, you become <Link to="/misc/fatigued">fatigued</Link> for 10 minutes per round you acted during that encounter.</Pair>
 </Ability>
 </>};
 const _too_many_secrets = {title: "Too Many Secrets", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="too-many-secrets" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="too-many-secrets">Too Many Secrets</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="too-many-secrets-benefit">You've told too many lies, and made up too many cover stories, and now even you can't keep it all straight. The lies have become reality to you, which makes it difficult to think of a new convincing lie. You hesitate at crucial moments when trying to fool those around you, and likely shouldn't be in the field at all anymore. You take a -2 penalty on Bluff checks and saving throws against illusions.</Pair>
+<Pair single="flavor" id="too-many-secrets-flavor">You've told too many lies, and made up too many cover stories, and now even you can't keep it all straight. The lies have become reality to you, which makes it difficult to think of a new convincing lie. You hesitate at crucial moments when trying to fool those around you, and likely shouldn't be in the field at all anymore.</Pair>
+<Pair single="benefit" id="too-many-secrets-benefit">You take a -2 penalty on <Link to="/skill/bluff">Bluff</Link> checks and saving throws against illusions.</Pair>
 </Ability>
 </>};
 const _umbral_unmasking = {title: "Umbral Unmasking", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
 <Ability id="umbral-unmasking" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="umbral-unmasking">Umbral Unmasking</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="umbral-unmasking-benefit">You cast no shadow whatsoever, or the shadow you do have is monstrous. Under normal lighted conditions, this is not hard to observe - but uncommon to notice. Creatures that succeed at a DC 15 Wisdom check notice it plainly (an additional Perception check may be required based on environmental conditions). This telltale sign of wickedness cannot be concealed by <Link to="/spell/misdirection">misdirection</Link>, <Link to="/spell/nondetection">nondetection</Link>, or illusions, except those that also affect shadows (such as <Link to="/spell/invisibility">invisibility</Link>).</Pair>
+<Pair single="benefit" id="umbral-unmasking-benefit">You cast no shadow whatsoever, or the shadow you do have is monstrous. Under normal lighted conditions, this is not hard to observe - but uncommon to notice. Creatures that succeed at a DC 15 Wisdom check notice it plainly (an additional <Link to="/skill/perception">Perception</Link> check may be required based on environmental conditions). This telltale sign of wickedness cannot be concealed by <Link to="/spell/misdirection">misdirection</Link>, <Link to="/spell/nondetection">nondetection</Link>, or illusions, except those that also affect shadows (such as <Link to="/spell/invisibility">invisibility</Link>).</Pair>
 </Ability>
 </>};
 const _unlearned = {title: "Unlearned", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/quests_and_campaigns">Quests and Campaigns</Link></p>
 <Ability id="unlearned" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="unlearned">Unlearned</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="unlearned-benefit">You have always had difficulty learning and retaining information, and know very little about the world beyond the obvious and what pertains to your profession. Choose one Knowledge skill. You cannot attempt untrained Knowledge checks with any other Knowledge skills, even if the check's DC is 10 or lower. If you have access to a library that covers a specific Knowledge skill, you may attempt an untrained Knowledge check with a -2 penalty.</Pair>
+<Pair single="flavor" id="unlearned-flavor">You have always had difficulty learning and retaining information, and know very little about the world beyond the obvious and what pertains to your profession.</Pair>
+<Pair single="benefit" id="unlearned-benefit">Choose one <Link to="/skill/knowledge">Knowledge</Link> skill. You cannot attempt untrained Knowledge checks with any other Knowledge skills, even if the check's DC is 10 or lower. If you have access to a library that covers a specific Knowledge skill, you may attempt an untrained Knowledge check with a -2 penalty.</Pair>
 </Ability>
 </>};
 const _vain = {title: "Vain", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="vain" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="vain">Vain</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="vain-benefit">You are sensitive about the way others perceive you. Whenever you fail an opposed Charisma-based check, you take a -2 penalty on all Charisma-based checks for the next 24 hours.</Pair>
+<Pair single="flavor" id="vain-flavor">You are sensitive about the way others perceive you.</Pair>
+<Pair single="benefit" id="vain-benefit">Whenever you fail an opposed Charisma-based check, you take a -2 penalty on all Charisma-based checks for the next 24 hours.</Pair>
 </Ability>
 </>};
 const _vainglory = {title: "Vainglory", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/spymasters_handbook">Spymaster's Handbook</Link></p>
 <Ability id="vainglory" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="vainglory">Vainglory</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="vainglory-benefit">You compulsively seek recognition for your deeds, making it hard to act with subtlety. You take a -1 penalty on Bluff, Disguise, and Stealth checks, and the save DC of any illusion you create is 1 lower than normal.</Pair>
+<Pair single="flavor" id="vainglory-flavor">You compulsively seek recognition for your deeds, making it hard to act with subtlety.</Pair>
+<Pair single="benefit" id="vainglory-benefit">You take a -1 penalty on <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/disguise">Disguise</Link>, and <Link to="/skill/stealth">Stealth</Link> checks, and the save DC of any illusion you create is 1 lower than normal.</Pair>
 </Ability>
 </>};
 const _warded_against_nature = {title: "Warded Against Nature", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
 <Ability id="warded-against-nature" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="warded-against-nature">Warded Against Nature</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="warded-against-nature-benefit">Animals do not willingly approach within 30 feet of you, unless you or the animal's master succeeds at a DC 20 Handle Animal, Ride, or <Link to="/ability/wild_empathy">wild empathy</Link> check. Animal companions, familiars, and mounts granted by your class abilities are immune to this effect.</Pair>
+<Pair single="benefit" id="warded-against-nature-benefit">Animals do not willingly approach within 30 feet of you, unless you or the animal's master succeeds at a DC 20 <Link to="/skill/handle_animal">Handle Animal</Link>, <Link to="/skill/ride">Ride</Link>, or <Link to="/ability/wild_empathy">wild empathy</Link> check. Animal companions, familiars, and mounts granted by your class abilities are immune to this effect.</Pair>
 </Ability>
 </>};
 const _xenophobic = {title: "Xenophobic", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="xenophobic" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="xenophobic">Xenophobic</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="xenophobic-benefit">You have a hard time understanding and trusting those with unfamiliar ways and appearances. You take a -2 penalty on Diplomacy and Sense Motive checks made against creatures of a different race or from a different culture.</Pair>
+<Pair single="flavor" id="xenophobic-flavor">You have a hard time understanding and trusting those with unfamiliar ways and appearances.</Pair>
+<Pair single="benefit" id="xenophobic-benefit">You take a -2 penalty on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks made against creatures of a different race or from a different culture.</Pair>
 </Ability>
 </>};
 const _zealous_drawback = {title: "Zealous (Drawback)", topLink: ["Drawback Traits","main/traits_drawback"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
 <Ability id="zealous-drawback" extraClasses="trait" icon={["broken-shield"]}>
 <Pair single id="zealous-drawback">Zealous (Drawback)</Pair>
 <Pair title="Type">Drawback</Pair>
-<Pair single="benefit" id="zealous-drawback-benefit">You are fanatical in your beliefs, ruled by emotion over reason. When you attack a creature that you know worships a different religion than you do, you take a -5 penalty on the attack roll and a +2 trait bonus on the damage roll with your first attack.</Pair>
+<Pair single="flavor" id="zealous-drawback-flavor">You are fanatical in your beliefs, ruled by emotion over reason.</Pair>
+<Pair single="benefit" id="zealous-drawback-benefit">When you attack a creature that you know worships a different religion than you do, you take a -5 penalty on the attack roll and a +2 trait bonus on the damage roll with your first attack.</Pair>
 </Ability>
 </>};
 const _the_thrush = {title: "The Thrush", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
@@ -3262,7 +3437,8 @@ const _the_thrush = {title: "The Thrush", topLink: ["Cosmic Traits","main/traits
 <Pair single id="the-thrush">The Thrush</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 18 Kuthona and 20 Abadius</Pair>
-<Pair single="benefit" id="the-thrush-benefit">Like the curious songbirds that welcome weary travelers, your voice rings with sweet clarity. You gain a +1 bonus on Perform (sing) checks, and Perform (sing) becomes a class skill for you.</Pair>
+<Pair single="flavor" id="the-thrush-flavor">Like the curious songbirds that welcome weary travelers, your voice rings with sweet clarity.</Pair>
+<Pair single="benefit" id="the-thrush-benefit">You gain a +1 bonus on <Link to="/skill/perform">Perform</Link> (sing) checks, and Perform (sing) becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _the_lantern_bearer = {title: "The Lantern Bearer", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
@@ -3270,7 +3446,8 @@ const _the_lantern_bearer = {title: "The Lantern Bearer", topLink: ["Cosmic Trai
 <Pair single id="the-lantern-bearer">The Lantern Bearer</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 21 Abadius and 16 Calistril</Pair>
-<Pair single="benefit" id="the-lantern-bearer-benefit">You are bathed in the light of the Lantern Bearer, who guides the Caravan through the darkest nights. You can cast <Link to="/spell/light">light</Link> three times per day as a spell-like ability, treating your character level as your caster level.</Pair>
+<Pair single="flavor" id="the-lantern-bearer-flavor">You are bathed in the light of the Lantern Bearer, who guides the Caravan through the darkest nights.</Pair>
+<Pair single="benefit" id="the-lantern-bearer-benefit">You can cast <Link to="/spell/light">light</Link> three times per day as a spell-like ability, treating your character level as your caster level.</Pair>
 </Ability>
 </>};
 const _the_newlyweds = {title: "The Newlyweds", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
@@ -3278,7 +3455,8 @@ const _the_newlyweds = {title: "The Newlyweds", topLink: ["Cosmic Traits","main/
 <Pair single id="the-newlyweds">The Newlyweds</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 17 Calistril and 11 Pharast</Pair>
-<Pair single="benefit" id="the-newlyweds-benefit">Your sign is of two lovers, intertwined as one. You gain a +2 bonus on Diplomacy checks to influence those who might be romantically attracted to you, and Diplomacy becomes a class skill for you.</Pair>
+<Pair single="flavor" id="the-newlyweds-flavor">Your sign is of two lovers, intertwined as one.</Pair>
+<Pair single="benefit" id="the-newlyweds-benefit">You gain a +2 bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to influence those who might be romantically attracted to you, and Diplomacy becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _the_bridge = {title: "The Bridge", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
@@ -3286,7 +3464,8 @@ const _the_bridge = {title: "The Bridge", topLink: ["Cosmic Traits","main/traits
 <Pair single id="the-bridge">The Bridge</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 12 Pharast and 18 Gozran</Pair>
-<Pair single="benefit" id="the-bridge-benefit">The Bridge spans the rushing waters that separate the darkness of winter from the warmth of spring. You gain a +1 trait bonus on saving throws against spells and effects with the cold or darkness descriptors.</Pair>
+<Pair single="flavor" id="the-bridge-flavor">The Bridge spans the rushing waters that separate the darkness of winter from the warmth of spring.</Pair>
+<Pair single="benefit" id="the-bridge-benefit">You gain a +1 trait bonus on saving throws against spells and effects with the cold or darkness descriptors.</Pair>
 </Ability>
 </>};
 const _the_daughter = {title: "The Daughter", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
@@ -3294,7 +3473,8 @@ const _the_daughter = {title: "The Daughter", topLink: ["Cosmic Traits","main/tr
 <Pair single id="the-daughter">The Daughter</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 19 Gozran and 13 Desnus</Pair>
-<Pair single="benefit" id="the-daughter-benefit">You are filled with the light-hearted joy of the Daughter, who dances her way into springtime. Every creature within 10 feet of you adds +2 moral bonuses to the DCs of checks to demoralize them.</Pair>
+<Pair single="flavor" id="the-daughter-flavor">You are filled with the light-hearted joy of the Daughter, who dances her way into springtime.</Pair>
+<Pair single="benefit" id="the-daughter-benefit">Every creature within 10 feet of you adds +2 moral bonuses to the DCs of checks to <Link to="/skill/demoralize">demoralize</Link> them.</Pair>
 </Ability>
 </>};
 const _the_rider = {title: "The Rider", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
@@ -3302,7 +3482,8 @@ const _the_rider = {title: "The Rider", topLink: ["Cosmic Traits","main/traits_c
 <Pair single id="the-rider">The Rider</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 14 Desnus and 20 Sarenith</Pair>
-<Pair single="benefit" id="the-rider-benefit">You are born under the auspice of the mounted caravan guard, whose very presence deters danger. Once per day, when you succeed at a Ride check, you can attempt an immediate Intimidate check against the nearest foe. If you fail this check, the DC of your next Intimidate check against that opponent does not increase (as it normally would).</Pair>
+<Pair single="flavor" id="the-rider-flavor">You are born under the auspice of the mounted caravan guard, whose very presence deters danger.</Pair>
+<Pair single="benefit" id="the-rider-benefit">Once per day, when you succeed at a <Link to="/skill/ride">Ride</Link> check, you can attempt an immediate <Link to="/skill/intimidate">Intimidate</Link> check against the nearest foe. If you fail this check, the DC of your next Intimidate check against that opponent does not increase (as it normally would).</Pair>
 </Ability>
 </>};
 const _the_patriarch = {title: "The Patriarch", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
@@ -3310,7 +3491,8 @@ const _the_patriarch = {title: "The Patriarch", topLink: ["Cosmic Traits","main/
 <Pair single id="the-patriarch">The Patriarch</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 21 Sarenith and 20 Erastus</Pair>
-<Pair single="benefit" id="the-patriarch-benefit">Like the father of the Cosmic Caravan, you have an innate sense of direction. Three times per day, you can use <Link to="/spell/know_direction">know direction</Link> as a spell-like ability, treating your character level as your caster level.</Pair>
+<Pair single="flavor" id="the-patriarch-flavor">Like the father of the Cosmic Caravan, you have an innate sense of direction.</Pair>
+<Pair single="benefit" id="the-patriarch-benefit">Three times per day, you can use <Link to="/spell/know_direction">know direction</Link> as a spell-like ability, treating your character level as your caster level.</Pair>
 </Ability>
 </>};
 const _the_wagon = {title: "The Wagon", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
@@ -3318,7 +3500,8 @@ const _the_wagon = {title: "The Wagon", topLink: ["Cosmic Traits","main/traits_c
 <Pair single id="the-wagon">The Wagon</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 21 Erastus and 10 Arodus</Pair>
-<Pair single="benefit" id="the-wagon-benefit">Like the vehicle that conveys travelers across the heavens, you are blessed with extraordinary movement capabilities. Once per day as a swift action, you can increase you move speed by 10 feet for 1 round.</Pair>
+<Pair single="flavor" id="the-wagon-flavor">Like the vehicle that conveys travelers across the heavens, you are blessed with extraordinary movement capabilities.</Pair>
+<Pair single="benefit" id="the-wagon-benefit">Once per day as a <strong className="hl">swift action</strong>, you can increase you move speed by 10 feet for 1 round.</Pair>
 </Ability>
 </>};
 const _the_pack = {title: "The Pack", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
@@ -3326,7 +3509,8 @@ const _the_pack = {title: "The Pack", topLink: ["Cosmic Traits","main/traits_cos
 <Pair single id="the-pack">The Pack</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 11 Arodus and 16 Rova</Pair>
-<Pair single="benefit" id="the-pack-benefit">You are blessed by the beasts that trail the caravan, which represent protection in numbers. You gain a +2 trait bonus on Handle Animal checks to teach animals tricks, and Handle Animal becomes a class skill for you.</Pair>
+<Pair single="flavor" id="the-pack-flavor">You are blessed by the beasts that trail the caravan, which represent protection in numbers.</Pair>
+<Pair single="benefit" id="the-pack-benefit">You gain a +2 trait bonus on <Link to="/skill/handle_animal">Handle Animal</Link> checks to teach animals tricks, and Handle Animal becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _the_mother = {title: "The Mother", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
@@ -3334,7 +3518,8 @@ const _the_mother = {title: "The Mother", topLink: ["Cosmic Traits","main/traits
 <Pair single id="the-mother">The Mother</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 17 Rova and 30 Lamashan</Pair>
-<Pair single="benefit" id="the-mother-benefit">Granting warmth and comfort against the forbidding cold of the wilderness, the Mother is the heart of the Caravan. Allies within 10 feet of you gain a +1 morale bonus on saving throws to resist fear effects. This trait functions only while you are conscious.</Pair>
+<Pair single="flavor" id="the-mother-flavor">Granting warmth and comfort against the forbidding cold of the wilderness, the Mother is the heart of the Caravan.</Pair>
+<Pair single="benefit" id="the-mother-benefit">Allies within 10 feet of you gain a +1 morale bonus on saving throws to resist fear effects. This trait functions only while you are conscious.</Pair>
 </Ability>
 </>};
 const _the_star_gazer = {title: "The Star Gazer", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
@@ -3342,7 +3527,8 @@ const _the_star_gazer = {title: "The Star Gazer", topLink: ["Cosmic Traits","mai
 <Pair single id="the-star-gazer">The Star Gazer</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 31 Lamashan and 20 Neth</Pair>
-<Pair single="benefit" id="the-star-gazer-benefit">With his head in the clouds, the Stargazer sees far-off events, but misses the pitfalls directly before him. When rolling initiative as part of a surprise round, you take a -2 penalty on initiative checks, but you gain a +2 luck bonus to AC during all surprise rounds.</Pair>
+<Pair single="flavor" id="the-star-gazer-flavor">With his head in the clouds, the Stargazer sees far-off events, but misses the pitfalls directly before him.</Pair>
+<Pair single="benefit" id="the-star-gazer-benefit">When rolling initiative as part of a surprise round, you take a -2 penalty on initiative checks, but you gain a +2 luck bonus to AC during all surprise rounds.</Pair>
 </Ability>
 </>};
 const _the_stranger = {title: "The Stranger", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
@@ -3350,7 +3536,8 @@ const _the_stranger = {title: "The Stranger", topLink: ["Cosmic Traits","main/tr
 <Pair single id="the-stranger">The Stranger</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 21 Neth and 29 Neth</Pair>
-<Pair single="benefit" id="the-stranger-benefit">Like the lone traveler that walks alongside the caravan for but a brief while, you have a way with strangers. You gain a +1 trait bonus on Diplomacy and Knowledge (local) checks to gather information. Additionally, either Diplomacy or Knowledge (local) becomes a class skill for you.</Pair>
+<Pair single="flavor" id="the-stranger-flavor">Like the lone traveler that walks alongside the caravan for but a brief while, you have a way with strangers.</Pair>
+<Pair single="benefit" id="the-stranger-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks to gather information. Additionally, either Diplomacy or Knowledge (local) becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _the_follower = {title: "The Follower", topLink: ["Cosmic Traits","main/traits_cosmic"], jsx: <><p><strong>Sources</strong> <Link to="/source/occult_mysteries">Occult Mysteries pg. 37</Link></p>
@@ -3358,7 +3545,8 @@ const _the_follower = {title: "The Follower", topLink: ["Cosmic Traits","main/tr
 <Pair single id="the-follower">The Follower</Pair>
 <Pair title="Type">Cosmic</Pair>
 <Pair title="Requirements" hl>Born between 30 Neth and 17 Kuthona</Pair>
-<Pair single="benefit" id="the-follower-benefit">You are born under the sign of the dark figure that trails the Caravan - the specter of death itself. You receive a +2 bonus on saving throws against death effects. All allies within 10 feet of you take a -1 penalty on saving throws against death effects.</Pair>
+<Pair single="flavor" id="the-follower-flavor">You are born under the sign of the dark figure that trails the Caravan - the specter of death itself.</Pair>
+<Pair single="benefit" id="the-follower-benefit">You receive a +2 bonus on saving throws against death effects. All allies within 10 feet of you take a -1 penalty on saving throws against death effects.</Pair>
 </Ability>
 </>};
 export default {ancient_explorer:_ancient_explorer,barroom_talespinner:_barroom_talespinner,besmaras_blessing:_besmaras_blessing,buccaneers_blood:_buccaneers_blood,dockside_brawler:_dockside_brawler,eye_for_plunder:_eye_for_plunder,ilizmagorti_native:_ilizmagorti_native,peg_leg:_peg_leg,ships_surgeon:_ships_surgeon,touched_by_the_sea:_touched_by_the_sea,driven_by_guilt:_driven_by_guilt,enduring_stoicism:_enduring_stoicism,foe_of_the_strange:_foe_of_the_strange,formerly_mind_swapped:_formerly_mind_swapped,methodical_mind:_methodical_mind,pugnacious:_pugnacious,ritualistic:_ritualistic,sensitive_mind:_sensitive_mind,true_devotion:_true_devotion,twitchy:_twitchy,the_artisan:_the_artisan,the_lawbringer:_the_lawbringer,the_optimist:_the_optimist,the_outsider:_the_outsider,the_pessimist:_the_pessimist,the_reclaimer:_the_reclaimer,the_snoop:_the_snoop,the_word:_the_word,athletic_champion:_athletic_champion,child_of_oppara:_child_of_oppara,disgraced_noble:_disgraced_noble,rising_star:_rising_star,senatorial_hopeful:_senatorial_hopeful,taldan_patriot:_taldan_patriot,young_reformer:_young_reformer,chance_encounter:_chance_encounter,child_of_the_crusades_wotr:_child_of_the_crusades_wotr,exposed_to_awfulness:_exposed_to_awfulness,riftwarden_orphan:_riftwarden_orphan,stolen_fury:_stolen_fury,touched_by_divinity:_touched_by_divinity,black_sheep:_black_sheep,favored_son_or_daughter:_favored_son_or_daughter,outlander:_outlander,augmented_disguise:_augmented_disguise,dealmaker:_dealmaker,extremely_fashionable:_extremely_fashionable,heirloom_weapon:_heirloom_weapon,improvisational_equipment:_improvisational_equipment,iron_liver:_iron_liver,power_of_suggestion:_power_of_suggestion,prehensile_whip:_prehensile_whip,quick_learner:_quick_learner,rough_and_ready:_rough_and_ready,stage_magic:_stage_magic,stealthy_escape:_stealthy_escape,thrown_together_fashion:_thrown_together_fashion,well_provisioned_adventurer:_well_provisioned_adventurer,betrayal_of_trust:_betrayal_of_trust,blood_resonance:_blood_resonance,family_resemblance:_family_resemblance,family_trade:_family_trade,honor_bound:_honor_bound,rivalry:_rivalry,tight_bonds:_tight_bonds,black_as_night:_black_as_night,blessed_mutt:_blessed_mutt,burst_of_speed:_burst_of_speed,clamber:_clamber,clever_mount:_clever_mount,cunning_breed:_cunning_breed,fleet_of_foot:_fleet_of_foot,nauseating_spit:_nauseating_spit,relentless_fortitude:_relentless_fortitude,running_pig:_running_pig,stalwart_elk:_stalwart_elk,water_trained:_water_trained,weather_beaten:_weather_beaten,a_shining_beacon:_a_shining_beacon,accident_resistant:_accident_resistant,adherent_of_ancient_osirion:_adherent_of_ancient_osirion,adventurous_imbiber:_adventurous_imbiber,affinity_for_the_elements:_affinity_for_the_elements,agent_of_chance:_agent_of_chance,alluring:_alluring,always_threatening:_always_threatening,ambassador:_ambassador,ancestors_blade:_ancestors_blade,andolettas_consolation:_andolettas_consolation,angradds_flame:_angradds_flame,angradds_valor:_angradds_valor,arcane_depth:_arcane_depth,avowed_inspiration:_avowed_inspiration,backstabber:_backstabber,battlefield_caster:_battlefield_caster,battlefield_surgeon:_battlefield_surgeon,besmaras_name:_besmaras_name,besmaras_strength:_besmaras_strength,bestial_wrath:_bestial_wrath,blade_of_mercy:_blade_of_mercy,blessed_orphan:_blessed_orphan,blessing_of_the_feast:_blessing_of_the_feast,blind_zeal:_blind_zeal,bloody_vengeance:_bloody_vengeance,brighs_insight:_brighs_insight,broken_mind:_broken_mind,calistrian_courtesan:_calistrian_courtesan,call_for_help:_call_for_help,centered:_centered,chaldiras_luck:_chaldiras_luck,cheat_death:_cheat_death,child_of_nature:_child_of_nature,cleansing_light:_cleansing_light,cleansing_the_twisted:_cleansing_the_twisted,clockwork_surgeon:_clockwork_surgeon,contract_master:_contract_master,corpse_cannibal:_corpse_cannibal,corpse_hunter:_corpse_hunter,covenant_of_abaddon:_covenant_of_abaddon,dawn_renewal:_dawn_renewal,deadeye_bowman:_deadeye_bowman,deathspeaker:_deathspeaker,deck_fighter:_deck_fighter,deep_wounding:_deep_wounding,defensive_strategist:_defensive_strategist,deformed:_deformed,demon_hunter:_demon_hunter,demonic_persuasion:_demonic_persuasion,demoralizing_presence:_demoralizing_presence,denial_of_fate:_denial_of_fate,destructive_blows:_destructive_blows,devotee_of_a_dead_god:_devotee_of_a_dead_god,diseased_heart:_diseased_heart,divine_warrior:_divine_warrior,dragon_tracker:_dragon_tracker,dragonslayer:_dragonslayer,ear_for_music:_ear_for_music,elemental_resilience:_elemental_resilience,elven_polytheist:_elven_polytheist,empty_heart_full_heart:_empty_heart_full_heart,empyreal_focus:_empyreal_focus,enchanting_conniver:_enchanting_conniver,enemy_of_delusion:_enemy_of_delusion,envoy_of_healing:_envoy_of_healing,erastils_speaker:_erastils_speaker,eternal_understanding:_eternal_understanding,expert_boarder:_expert_boarder,extended_toil:_extended_toil,eye_for_quality:_eye_for_quality,eye_of_arqueros:_eye_of_arqueros,eye_of_the_father:_eye_of_the_father,eyes_and_ears_of_the_city:_eyes_and_ears_of_the_city,eyes_of_the_wild:_eyes_of_the_wild,faithful_arodenite:_faithful_arodenite,faithful_artist:_faithful_artist,fatal_trapper:_fatal_trapper,favored_prey:_favored_prey,fiendish_confidence:_fiendish_confidence,flame_of_the_dawnflower:_flame_of_the_dawnflower,flames_of_hell:_flames_of_hell,flounderer:_flounderer,folgrits_bounty:_folgrits_bounty,folgrits_mercy:_folgrits_mercy,follower_of_the_stars:_follower_of_the_stars,fortified_drinker:_fortified_drinker,frightening_speed:_frightening_speed,fruits_of_your_labor:_fruits_of_your_labor,furious_vengeance:_furious_vengeance,fury:_fury,gemstone_collector:_gemstone_collector,gifted_medium:_gifted_medium,good_dreams:_good_dreams,good_natured:_good_natured,gozrehs_sight:_gozrehs_sight,guardian_smite:_guardian_smite,guardian_of_the_forge:_guardian_of_the_forge,hatred_of_the_gods:_hatred_of_the_gods,holy_schemer:_holy_schemer,honey_tongued:_honey_tongued,honeyed_words:_honeyed_words,illuminator:_illuminator,inheritors_immunity:_inheritors_immunity,inner_beauty:_inner_beauty,inoculated:_inoculated,inspiring_leader:_inspiring_leader,intense_artist:_intense_artist,iron_grip:_iron_grip,know_the_land:_know_the_land,kuthite_caster:_kuthite_caster,lessons_of_chaldira:_lessons_of_chaldira,liars_tongue:_liars_tongue,light_sleeper:_light_sleeper,light_bringer:_light_bringer,living_bulwark:_living_bulwark,loreseeker:_loreseeker,lover_of_the_law:_lover_of_the_law,loyal_bond:_loyal_bond,magic_is_life:_magic_is_life,magics_might:_magics_might,mighty_protector:_mighty_protector,mischievous_smile:_mischievous_smile,mothers_rage:_mothers_rage,mothers_teeth:_mothers_teeth,natural_magic:_natural_magic,natural_philosopher:_natural_philosopher,nimble_fingers_keen_mind:_nimble_fingers_keen_mind,oathkeepers_vow:_oathkeepers_vow,opener_of_doors:_opener_of_doors,opportune_slayer:_opportune_slayer,opportunistic:_opportunistic,pain_is_pleasure:_pain_is_pleasure,patient_optimist:_patient_optimist,planar_wayfarer:_planar_wayfarer,poisonous_slayer:_poisonous_slayer,potent_concoctions:_potent_concoctions,practiced_deception:_practiced_deception,pristine_reputation:_pristine_reputation,propitiation:_propitiation,protective_faith:_protective_faith,provider:_provider,purity_of_faith:_purity_of_faith,reckless_luck:_reckless_luck,redeemed_by_ragathiel:_redeemed_by_ragathiel,regal_presence:_regal_presence,rejected_emperor:_rejected_emperor,relentless_duty:_relentless_duty,resigned:_resigned,resilient_martyr:_resilient_martyr,restless_hunger:_restless_hunger,river_freedom:_river_freedom,rousing_courage:_rousing_courage,sacred_avenger:_sacred_avenger,sacred_orienteer:_sacred_orienteer,sacred_smasher:_sacred_smasher,scaly_ally:_scaly_ally,scarred_by_war:_scarred_by_war,searing_beacon:_searing_beacon,secret_knowledge:_secret_knowledge,seer_of_reality:_seer_of_reality,self_sacrifice:_self_sacrifice,sense_of_order:_sense_of_order,sensing_imperfection:_sensing_imperfection,serpentine_squeeze:_serpentine_squeeze,shadow_whispers:_shadow_whispers,shaper_of_reality:_shaper_of_reality,shared_ancestors:_shared_ancestors,shield_trained:_shield_trained,sovyrian_pantheist:_sovyrian_pantheist,spirit_guide:_spirit_guide,spirit_talker:_spirit_talker,split_second_defense:_split_second_defense,stabilizing_touch:_stabilizing_touch,starchild:_starchild,starlit_hexer:_starlit_hexer,steady_strength:_steady_strength,stoic_optimism:_stoic_optimism,strength_of_the_barghest:_strength_of_the_barghest,strength_of_the_sun:_strength_of_the_sun,strengths_fanfare:_strengths_fanfare,strict_judgment:_strict_judgment,strip_the_veils:_strip_the_veils,strong_heart:_strong_heart,strong_swimmer:_strong_swimmer,strong_willed:_strong_willed,structural_knowledge:_structural_knowledge,talented_organizer:_talented_organizer,the_city_protects:_the_city_protects,the_flexing_arm:_the_flexing_arm,thirst_for_knowledge:_thirst_for_knowledge,thrill_seeker_isg:_thrill_seeker_isg,toilcrafter:_toilcrafter,twisted_transformations:_twisted_transformations,undead_slayer_pharasma:_undead_slayer_pharasma,under_siege:_under_siege,underlying_principles:_underlying_principles,unhinged_mentality:_unhinged_mentality,unspeakable_bond:_unspeakable_bond,unswaying_love:_unswaying_love,veils_upon_veils:_veils_upon_veils,venom_drenched:_venom_drenched,veteran_of_battle:_veteran_of_battle,vindictive_strike:_vindictive_strike,voice_of_monsters:_voice_of_monsters,wasp_whisperer:_wasp_whisperer,wedded_bliss:_wedded_bliss,well_prepared:_well_prepared,wisdom_in_the_flesh:_wisdom_in_the_flesh,wise_teacher:_wise_teacher,wolf_cub:_wolf_cub,worthless_pawn:_worthless_pawn,wrecking_wrath:_wrecking_wrath,wronged:_wronged,anxious:_anxious,arcane_malignancies:_arcane_malignancies,attached:_attached,avarice:_avarice,betrayed_drawback:_betrayed_drawback,bitter:_bitter,burned:_burned,condescending:_condescending,cowardly:_cowardly,cruelty:_cruelty,dependent:_dependent,doubt:_doubt,empty_mask:_empty_mask,entomophobe:_entomophobe,envy:_envy,family_ties_drawback:_family_ties_drawback,fey_taken:_fey_taken,forgetful:_forgetful,foul_brand:_foul_brand,guilty_fraud:_guilty_fraud,haunted:_haunted,haunting_regret:_haunting_regret,headstrong:_headstrong,hedonistic:_hedonistic,helpless:_helpless,impatient:_impatient,infamous:_infamous,information_overload:_information_overload,insatiable:_insatiable,lonely:_lonely,loner:_loner,lovesick:_lovesick,magical_klutz:_magical_klutz,mark_of_slavery:_mark_of_slavery,meticulous:_meticulous,misbegotten:_misbegotten,naive:_naive,nervous:_nervous,oblivious:_oblivious,occult_bargain:_occult_bargain,oppressive_expectations:_oppressive_expectations,overprotective:_overprotective,paranoid:_paranoid,power_hungry:_power_hungry,pride:_pride,provincial:_provincial,righteous_indignation:_righteous_indignation,scarred:_scarred,secret_shame:_secret_shame,self_doubting:_self_doubting,sentimental:_sentimental,shadow_scarred:_shadow_scarred,sheltered:_sheltered,sleepy:_sleepy,spooked:_spooked,stigmatized:_stigmatized,superstitious_drawback:_superstitious_drawback,tainted_spirit:_tainted_spirit,too_many_secrets:_too_many_secrets,umbral_unmasking:_umbral_unmasking,unlearned:_unlearned,vain:_vain,vainglory:_vainglory,warded_against_nature:_warded_against_nature,xenophobic:_xenophobic,zealous_drawback:_zealous_drawback,the_thrush:_the_thrush,the_lantern_bearer:_the_lantern_bearer,the_newlyweds:_the_newlyweds,the_bridge:_the_bridge,the_daughter:_the_daughter,the_rider:_the_rider,the_patriarch:_the_patriarch,the_wagon:_the_wagon,the_pack:_the_pack,the_mother:_the_mother,the_star_gazer:_the_star_gazer,the_stranger:_the_stranger,the_follower:_the_follower}

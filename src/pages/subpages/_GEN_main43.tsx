@@ -8,13 +8,14 @@ const _traits_religion_lg = {title: "Religion Traits: Lawful Good", jsx: <IonLis
 <Pair single id="traitinspiringleader-inspiring-leader-fn1"><Link to="/trait/inspiring_leader">⮞</Link> Inspiring Leader <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-1" id="main-traits_religion_lg-fake-fn-1" data-hash-target to="main-traits_religion_lg-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/apsu">Apsu</Link></Pair>
-<Pair single="benefit" id="traitinspiringleader-inspiring-leader-fn1-benefit">Imitating the leadership of your deity, you spur others on to great deeds. When you cast a spell that grants allies a morale bonus, you cast that spell at +1 caster level.</Pair>
+<Pair single="flavor" id="traitinspiringleader-inspiring-leader-fn1-flavor">Imitating the leadership of your deity, you spur others on to great deeds.</Pair>
+<Pair single="benefit" id="traitinspiringleader-inspiring-leader-fn1-benefit">When you cast a spell that grants allies a morale bonus, you cast that spell at +1 caster level.</Pair>
 </Ability>
 <Ability id="traitscalyally-scaly-ally-fn1-2-fn2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitscalyally-scaly-ally-fn1-2-fn2"><Link to="/trait/scaly_ally">⮞</Link> Scaly Ally <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-1.2" id="main-traits_religion_lg-fake-fn-1.2" data-hash-target to="main-traits_religion_lg-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-2" id="main-traits_religion_lg-fake-fn-2" data-hash-target to="main-traits_religion_lg-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/apsu">Apsu</Link></Pair>
-<Pair single="benefit" id="traitscalyally-scaly-ally-fn1-2-fn2-benefit">Because of your devotion to Apsu, you gain a +2 trait bonus on Diplomacy checks involving reptiles or those of draconic blood, whether they are good-aligned or not.</Pair>
+<Pair single="benefit" id="traitscalyally-scaly-ally-fn1-2-fn2-benefit">Because of your devotion to Apsu, you gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks involving reptiles or those of draconic blood, whether they are good-aligned or not.</Pair>
 </Ability>
 <Ability id="traitdeadeyebowman-deadeye-bowman-fn1-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitdeadeyebowman-deadeye-bowman-fn1-3"><Link to="/trait/deadeye_bowman">⮞</Link> Deadeye Bowman <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-1.3" id="main-traits_religion_lg-fake-fn-1.3" data-hash-target to="main-traits_religion_lg-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -33,20 +34,23 @@ const _traits_religion_lg = {title: "Religion Traits: Lawful Good", jsx: <IonLis
 <Pair single id="traitpatientoptimist-patient-optimist-fn3-fn4-fn5"><Link to="/trait/patient_optimist">⮞</Link> Patient Optimist <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-3" id="main-traits_religion_lg-fake-fn-3" data-hash-target to="main-traits_religion_lg-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-4" id="main-traits_religion_lg-fake-fn-4" data-hash-target to="main-traits_religion_lg-fake-fn-4-target">4</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-5" id="main-traits_religion_lg-fake-fn-5" data-hash-target to="main-traits_religion_lg-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/erastil">Erastil</Link></Pair>
-<Pair single="benefit" id="traitpatientoptimist-patient-optimist-fn3-fn4-fn5-benefit">You know that all things pass in time, and are used to having to repeat arguments multiple times to convince stubborn believers. You gain a +2 trait bonus on Diplomacy checks to influence hostile or unfriendly creatures, and if you fail at such an attempt, you may retry it once.</Pair>
+<Pair single="flavor" id="traitpatientoptimist-patient-optimist-fn3-fn4-fn5-flavor">You know that all things pass in time, and are used to having to repeat arguments multiple times to convince stubborn believers.</Pair>
+<Pair single="benefit" id="traitpatientoptimist-patient-optimist-fn3-fn4-fn5-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to influence hostile or unfriendly creatures, and if you fail at such an attempt, you may retry it once.</Pair>
 </Ability>
 <Ability id="traitprovider-provider-fn6" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitprovider-provider-fn6"><Link to="/trait/provider">⮞</Link> Provider <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-6" id="main-traits_religion_lg-fake-fn-6" data-hash-target to="main-traits_religion_lg-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/erastil">Erastil</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitprovider-provider-fn6-benefit">Few things exalt your faith more than feeding the hungry with your own honest sweat. You gain a +1 trait bonus on any d20 roll to acquire food or water for others. Though this bonus most often applies to Survival checks, it could also apply to attacking monsters that are safe and nutritious to eat (mainly animals and plants). However, Erastil takes a dim view of waste and of those who scorn his favor, and if you abuse this gift (for example, by using the bonus to defeat a bear, then only eating one bite of it), he punishes you with a -2 penalty on attacks, checks, and saves for 24 hours.</Pair>
+<Pair single="flavor" id="traitprovider-provider-fn6-flavor">Few things exalt your faith more than feeding the hungry with your own honest sweat.</Pair>
+<Pair single="benefit" id="traitprovider-provider-fn6-benefit">You gain a +1 trait bonus on any d20 roll to acquire food or water for others. Though this bonus most often applies to <Link to="/skill/survival">Survival</Link> checks, it could also apply to attacking monsters that are safe and nutritious to eat (mainly animals and plants). However, Erastil takes a dim view of waste and of those who scorn his favor, and if you abuse this gift (for example, by using the bonus to defeat a bear, then only eating one bite of it), he punishes you with a -2 penalty on attacks, checks, and saves for 24 hours.</Pair>
 </Ability>
 <Ability id="traitwiseteacher-wise-teacher-fn1-5-fn2-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitwiseteacher-wise-teacher-fn1-5-fn2-3"><Link to="/trait/wise_teacher">⮞</Link> Wise Teacher <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-1.5" id="main-traits_religion_lg-fake-fn-1.5" data-hash-target to="main-traits_religion_lg-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-2.3" id="main-traits_religion_lg-fake-fn-2.3" data-hash-target to="main-traits_religion_lg-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/erastil">Erastil</Link></Pair>
-<Pair single="benefit" id="traitwiseteacher-wise-teacher-fn1-5-fn2-3-benefit">You are skilled in passing along knowledge of rural matters. If you have 4 or more ranks in Knowledge (Nature) or Survival, when you aid another with these skills, you grant a +4 bonus on the check you are aiding instead of the normal +2.</Pair>
+<Pair single="flavor" id="traitwiseteacher-wise-teacher-fn1-5-fn2-3-flavor">You are skilled in passing along knowledge of rural matters.</Pair>
+<Pair single="benefit" id="traitwiseteacher-wise-teacher-fn1-5-fn2-3-benefit">If you have 4 or more ranks in <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> or <Link to="/skill/survival">Survival</Link>, when you <Link to="/rule/aid_another">aid another</Link> with these skills, you grant a +4 bonus on the check you are aiding instead of the normal +2.</Pair>
 </Ability>
 <Ability id="traitashiningbeacon-a-shining-beacon-fn1-6-fn2-4" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitashiningbeacon-a-shining-beacon-fn1-6-fn2-4"><Link to="/trait/a_shining_beacon">⮞</Link> A Shining Beacon <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-1.6" id="main-traits_religion_lg-fake-fn-1.6" data-hash-target to="main-traits_religion_lg-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-2.4" id="main-traits_religion_lg-fake-fn-2.4" data-hash-target to="main-traits_religion_lg-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -66,19 +70,22 @@ const _traits_religion_lg = {title: "Religion Traits: Lawful Good", jsx: <IonLis
 <Pair single id="traitinheritorsimmunity-inheritors-immunity-fn8"><Link to="/trait/inheritors_immunity">⮞</Link> Inheritor's Immunity <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-8" id="main-traits_religion_lg-fake-fn-8" data-hash-target to="main-traits_religion_lg-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/iomedae">Iomedae</Link></Pair>
-<Pair single="benefit" id="traitinheritorsimmunity-inheritors-immunity-fn8-benefit">Iomedae's valor fills you with divine energy, allowing you to stave off even the worst plague. Once per day, you can reroll a saving throw against a disease or poison. You must take the second result, even if it is worse.</Pair>
+<Pair single="flavor" id="traitinheritorsimmunity-inheritors-immunity-fn8-flavor">Iomedae's valor fills you with divine energy, allowing you to stave off even the worst plague.</Pair>
+<Pair single="benefit" id="traitinheritorsimmunity-inheritors-immunity-fn8-benefit">Once per day, you can reroll a saving throw against a disease or poison. You must take the second result, even if it is worse.</Pair>
 </Ability>
 <Ability id="traitpurityoffaith-purity-of-faith-fn1-7-fn2-5" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitpurityoffaith-purity-of-faith-fn1-7-fn2-5"><Link to="/trait/purity_of_faith">⮞</Link> Purity of Faith <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-1.7" id="main-traits_religion_lg-fake-fn-1.7" data-hash-target to="main-traits_religion_lg-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-2.5" id="main-traits_religion_lg-fake-fn-2.5" data-hash-target to="main-traits_religion_lg-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/iomedae">Iomedae</Link></Pair>
-<Pair single="benefit" id="traitpurityoffaith-purity-of-faith-fn1-7-fn2-5-benefit">Your soul is free from impurity, and you are deeply committed to fulfilling your duties to the church. You gain a +1 trait bonus on Will saving throws and a +1 trait bonus on saving throws against spells and effects originating from an outsider with the evil subtype.</Pair>
+<Pair single="flavor" id="traitpurityoffaith-purity-of-faith-fn1-7-fn2-5-flavor">Your soul is free from impurity, and you are deeply committed to fulfilling your duties to the church.</Pair>
+<Pair single="benefit" id="traitpurityoffaith-purity-of-faith-fn1-7-fn2-5-benefit">You gain a +1 trait bonus on Will saving throws and a +1 trait bonus on saving throws against spells and effects originating from an outsider with the evil subtype.</Pair>
 </Ability>
 <Ability id="traitregalpresence-regal-presence-fn1-8" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitregalpresence-regal-presence-fn1-8"><Link to="/trait/regal_presence">⮞</Link> Regal Presence <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-1.8" id="main-traits_religion_lg-fake-fn-1.8" data-hash-target to="main-traits_religion_lg-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/iomedae">Iomedae</Link></Pair>
-<Pair single="benefit" id="traitregalpresence-regal-presence-fn1-8-benefit">You've always had a presence that people respect. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy is a class skill for you.</Pair>
+<Pair single="flavor" id="traitregalpresence-regal-presence-fn1-8-flavor">You've always had a presence that people respect.</Pair>
+<Pair single="benefit" id="traitregalpresence-regal-presence-fn1-8-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks, and Diplomacy is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitsearingbeacon-searing-beacon-fn9" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitsearingbeacon-searing-beacon-fn9"><Link to="/trait/searing_beacon">⮞</Link> Searing Beacon <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-9" id="main-traits_religion_lg-fake-fn-9" data-hash-target to="main-traits_religion_lg-fake-fn-9-target">9</InnerLink></sup></Pair>
@@ -98,7 +105,8 @@ const _traits_religion_lg = {title: "Religion Traits: Lawful Good", jsx: <IonLis
 <Pair single id="traitpristinereputation-pristine-reputation-fn10-2"><Link to="/trait/pristine_reputation">⮞</Link> Pristine Reputation <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-10.2" id="main-traits_religion_lg-fake-fn-10.2" data-hash-target to="main-traits_religion_lg-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shizuru">Shizuru</Link></Pair>
-<Pair single="benefit" id="traitpristinereputation-pristine-reputation-fn10-2-benefit">You come from an especially esteemed family, religious order, school, or other group that worships Shizuru, and draw upon that tradition to maintain your identity. The first time each day that you fail a saving throw against a charm or compulsion effect, you can reroll that saving throw. If you do so, you gain a +2 trait bonus on this roll and use this result as the actual result for that saving throw.</Pair>
+<Pair single="flavor" id="traitpristinereputation-pristine-reputation-fn10-2-flavor">You come from an especially esteemed family, religious order, school, or other group that worships Shizuru, and draw upon that tradition to maintain your identity.</Pair>
+<Pair single="benefit" id="traitpristinereputation-pristine-reputation-fn10-2-benefit">The first time each day that you fail a saving throw against a charm or compulsion effect, you can reroll that saving throw. If you do so, you gain a +2 trait bonus on this roll and use this result as the actual result for that saving throw.</Pair>
 </Ability>
 <Ability id="traitdefensivestrategist-defensive-strategist-fn1-9-fn2-6" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitdefensivestrategist-defensive-strategist-fn1-9-fn2-6"><Link to="/trait/defensive_strategist">⮞</Link> Defensive Strategist <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-1.9" id="main-traits_religion_lg-fake-fn-1.9" data-hash-target to="main-traits_religion_lg-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-2.6" id="main-traits_religion_lg-fake-fn-2.6" data-hash-target to="main-traits_religion_lg-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -118,13 +126,15 @@ const _traits_religion_lg = {title: "Religion Traits: Lawful Good", jsx: <IonLis
 <Pair single id="traitguardianoftheforge-guardian-of-the-forge-fn3-3-fn11-fn4-3"><Link to="/trait/guardian_of_the_forge">⮞</Link> Guardian of the Forge <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-3.3" id="main-traits_religion_lg-fake-fn-3.3" data-hash-target to="main-traits_religion_lg-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-11" id="main-traits_religion_lg-fake-fn-11" data-hash-target to="main-traits_religion_lg-fake-fn-11-target">11</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-4.3" id="main-traits_religion_lg-fake-fn-4.3" data-hash-target to="main-traits_religion_lg-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/torag">Torag</Link></Pair>
-<Pair single="benefit" id="traitguardianoftheforge-guardian-of-the-forge-fn3-3-fn11-fn4-3-benefit">Torag's sacred duties are to protect the faithful, take lessons from the great craftsmen and strategists of the past, and prepare against dark times. You receive a +1 trait bonus on Knowledge (engineering) and Knowledge (history) checks. One of these skills (your choice) is a class skill for you.</Pair>
+<Pair single="flavor" id="traitguardianoftheforge-guardian-of-the-forge-fn3-3-fn11-fn4-3-flavor">Torag's sacred duties are to protect the faithful, take lessons from the great craftsmen and strategists of the past, and prepare against dark times.</Pair>
+<Pair single="benefit" id="traitguardianoftheforge-guardian-of-the-forge-fn3-3-fn11-fn4-3-benefit">You receive a +1 trait bonus on <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> and <Link to="/skill/knowledge_history">Knowledge (history)</Link> checks. One of these skills (your choice) is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitprotectivefaith-protective-faith-fn1-11" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitprotectivefaith-protective-faith-fn1-11"><Link to="/trait/protective_faith">⮞</Link> Protective Faith <sup><InnerLink showBacklink="backlink-main-traits_religion_lg-fake-fn-1.11" id="main-traits_religion_lg-fake-fn-1.11" data-hash-target to="main-traits_religion_lg-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/torag">Torag</Link></Pair>
-<Pair single="benefit" id="traitprotectivefaith-protective-faith-fn1-11-benefit">Your faith in the Father of Creation strengthens your ability to shield others. When you use the aid another action to grant your ally a bonus to AC, you grant a +3 bonus to AC instead of the normal +2.</Pair>
+<Pair single="flavor" id="traitprotectivefaith-protective-faith-fn1-11-flavor">Your faith in the Father of Creation strengthens your ability to shield others.</Pair>
+<Pair single="benefit" id="traitprotectivefaith-protective-faith-fn1-11-benefit">When you use the <Link to="/rule/aid_another_2">aid another</Link> action to grant your ally a bonus to AC, you grant a +3 bonus to AC instead of the normal +2.</Pair>
 </Ability>
 <section data-footnotes><h3 id="main-traits_religion_lg-label">Footnotes</h3><ol>
 <li id="main-traits_religion_lg-fake-fn-1-target"><p><Link to="/source/inner_sea_gods">Inner Sea Gods</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_lg-fake-fn-1" data-hash-target to="main-traits_religion_lg-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_lg-fake-fn-1.2" data-hash-target to="main-traits_religion_lg-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_lg-fake-fn-1.3" data-hash-target to="main-traits_religion_lg-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_lg-fake-fn-1.4" data-hash-target to="main-traits_religion_lg-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_lg-fake-fn-1.5" data-hash-target to="main-traits_religion_lg-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_lg-fake-fn-1.6" data-hash-target to="main-traits_religion_lg-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_lg-fake-fn-1.7" data-hash-target to="main-traits_religion_lg-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_lg-fake-fn-1.8" data-hash-target to="main-traits_religion_lg-fake-fn-1.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_lg-fake-fn-1.9" data-hash-target to="main-traits_religion_lg-fake-fn-1.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_lg-fake-fn-1.10" data-hash-target to="main-traits_religion_lg-fake-fn-1.10">↩<sup>10</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_lg-fake-fn-1.11" data-hash-target to="main-traits_religion_lg-fake-fn-1.11">↩<sup>11</sup></InnerLink></p></li>
@@ -157,32 +167,38 @@ const _traits_religion_ln = {title: "Religion Traits: Lawful Neutral", jsx: <Ion
 <Pair single id="traithoneytongued-honey-tongued-fn1-2-fn5"><Link to="/trait/honey_tongued">⮞</Link> Honey-Tongued <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-1.2" id="main-traits_religion_ln-fake-fn-1.2" data-hash-target to="main-traits_religion_ln-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-5" id="main-traits_religion_ln-fake-fn-5" data-hash-target to="main-traits_religion_ln-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/abadar">Abadar</Link></Pair>
-<Pair single="benefit" id="traithoneytongued-honey-tongued-fn1-2-fn5-benefit">Your deep understanding of human nature and social philosophy grants you a +1 trait bonus on Diplomacy or Bluff checks when dealing with agents of the law, such as judges, guards, and paladins.</Pair>
+<Pair single="benefit" id="traithoneytongued-honey-tongued-fn1-2-fn5-benefit">Your deep understanding of human nature and social philosophy grants you a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> or <Link to="/skill/bluff">Bluff</Link> checks when dealing with agents of the law, such as judges, guards, and paladins.</Pair>
 </Ability>
 <Ability id="traitloverofthelaw-lover-of-the-law-fn1-3-fn5-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitloverofthelaw-lover-of-the-law-fn1-3-fn5-2"><Link to="/trait/lover_of_the_law">⮞</Link> Lover of the Law <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-1.3" id="main-traits_religion_ln-fake-fn-1.3" data-hash-target to="main-traits_religion_ln-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-5.2" id="main-traits_religion_ln-fake-fn-5.2" data-hash-target to="main-traits_religion_ln-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/abadar">Abadar</Link></Pair>
-<Pair single="benefit" id="traitloverofthelaw-lover-of-the-law-fn1-3-fn5-2-benefit">You have a strong belief in the righteousness of law and justice. You receive a +1 trait bonus on saving throws against charm and compulsion effects, and may attempt a new saving throw with an additional +1 bonus (for a total of +2) if you are directed to break the law.</Pair>
+<Pair single="flavor" id="traitloverofthelaw-lover-of-the-law-fn1-3-fn5-2-flavor">You have a strong belief in the righteousness of law and justice.</Pair>
+<Pair single="benefit" id="traitloverofthelaw-lover-of-the-law-fn1-3-fn5-2-benefit">You receive a +1 trait bonus on saving throws against charm and compulsion effects, and may attempt a new saving throw with an additional +1 bonus (for a total of +2) if you are directed to break the law.</Pair>
 </Ability>
 <Ability id="traitsenseoforder-sense-of-order-fn6" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitsenseoforder-sense-of-order-fn6"><Link to="/trait/sense_of_order">⮞</Link> Sense of Order <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-6" id="main-traits_religion_ln-fake-fn-6" data-hash-target to="main-traits_religion_ln-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/abadar">Abadar</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitsenseoforder-sense-of-order-fn6-benefit">Your ability to notice even the slightest change, and the discomfort it causes, made service to Abadar a logical choice. You gain a +3 trait bonus on any Perception check made to identify any changes to a location that have occurred since you last visited it.</Pair>
+<Pair single="flavor" id="traitsenseoforder-sense-of-order-fn6-flavor">Your ability to notice even the slightest change, and the discomfort it causes, made service to Abadar a logical choice.</Pair>
+<Pair single="benefit" id="traitsenseoforder-sense-of-order-fn6-benefit">You gain a +3 trait bonus on any <Link to="/skill/perception">Perception</Link> check made to identify any changes to a location that have occurred since you last visited it.</Pair>
 </Ability>
 <Ability id="traitthecityprotects-the-city-protects-fn4-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitthecityprotects-the-city-protects-fn4-2"><Link to="/trait/the_city_protects">⮞</Link> The City Protects <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-4.2" id="main-traits_religion_ln-fake-fn-4.2" data-hash-target to="main-traits_religion_ln-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/abadar">Abadar</Link></Pair>
-<Pair single="benefit" id="traitthecityprotects-the-city-protects-fn4-2-benefit">You feel safe and secure in urban environments, even in cities whose laws you find unjust - it is the physical fact of the city that you take solace in. In any settlement, you gain a +2 trait bonus against fear effects. If you fail a save against a fear effect, you may make a new save each round you remain in the city to overcome the fear effect as long as the fear effect persists. If you are a paladin, this ability to make additional saves to overcome fear extends to all allies within your aura of courage.</Pair>
+<Pair single="flavor" id="traitthecityprotects-the-city-protects-fn4-2-flavor">You feel safe and secure in urban environments, even in cities whose laws you find unjust - it is the physical fact of the city that you take solace in.</Pair>
+<Pair single="benefit" id="traitthecityprotects-the-city-protects-fn4-2-benefit"><p>In any settlement, you gain a +2 trait bonus against fear effects.</p>
+<p>If you fail a save against a fear effect, you may make a new save each round you remain in the city to overcome the fear effect as long as the fear effect persists. If you are a paladin, this ability to make additional saves to overcome fear extends to all allies within your <em>aura of courage.</em></p>
+</Pair>
 </Ability>
 <Ability id="traitopenerofdoors-opener-of-doors-fn1-4-fn5-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitopenerofdoors-opener-of-doors-fn1-4-fn5-3"><Link to="/trait/opener_of_doors">⮞</Link> Opener of Doors <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-1.4" id="main-traits_religion_ln-fake-fn-1.4" data-hash-target to="main-traits_religion_ln-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-5.3" id="main-traits_religion_ln-fake-fn-5.3" data-hash-target to="main-traits_religion_ln-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/alseta">Alseta</Link></Pair>
-<Pair single="benefit" id="traitopenerofdoors-opener-of-doors-fn1-4-fn5-3-benefit">Because of your devotion to Alseta, you are blessed with the ability to find hidden portals. You gain a +2 trait bonus on Perception checks to find secret doors.</Pair>
+<Pair single="flavor" id="traitopenerofdoors-opener-of-doors-fn1-4-fn5-3-flavor">Because of your devotion to Alseta, you are blessed with the ability to find hidden portals.</Pair>
+<Pair single="benefit" id="traitopenerofdoors-opener-of-doors-fn1-4-fn5-3-benefit">You gain a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks to find secret doors.</Pair>
 </Ability>
 <Ability id="traitcentered-centered-fn1-5-fn5-4" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitcentered-centered-fn1-5-fn5-4"><Link to="/trait/centered">⮞</Link> Centered <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-1.5" id="main-traits_religion_ln-fake-fn-1.5" data-hash-target to="main-traits_religion_ln-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-5.4" id="main-traits_religion_ln-fake-fn-5.4" data-hash-target to="main-traits_religion_ln-fake-fn-5-target">5</InnerLink></sup></Pair>
@@ -202,26 +218,30 @@ const _traits_religion_ln = {title: "Religion Traits: Lawful Neutral", jsx: <Ion
 <Pair single id="traitseerofreality-seer-of-reality-fn1-7-fn5-5"><Link to="/trait/seer_of_reality">⮞</Link> Seer of Reality <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-1.7" id="main-traits_religion_ln-fake-fn-1.7" data-hash-target to="main-traits_religion_ln-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-5.5" id="main-traits_religion_ln-fake-fn-5.5" data-hash-target to="main-traits_religion_ln-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/irori">Irori</Link></Pair>
-<Pair single="benefit" id="traitseerofreality-seer-of-reality-fn1-7-fn5-5-benefit">You have a deep understanding of the world around you, and thus you are more perceptive about what belongs and what does not. You gain a +2 trait bonus on saving throws against illusion magic.</Pair>
+<Pair single="flavor" id="traitseerofreality-seer-of-reality-fn1-7-fn5-5-flavor">You have a deep understanding of the world around you, and thus you are more perceptive about what belongs and what does not.</Pair>
+<Pair single="benefit" id="traitseerofreality-seer-of-reality-fn1-7-fn5-5-benefit">You gain a +2 trait bonus on saving throws against illusion magic.</Pair>
 </Ability>
 <Ability id="traitsensingimperfection-sensing-imperfection-fn6-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitsensingimperfection-sensing-imperfection-fn6-2"><Link to="/trait/sensing_imperfection">⮞</Link> Sensing Imperfection <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-6.2" id="main-traits_religion_ln-fake-fn-6.2" data-hash-target to="main-traits_religion_ln-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/irori">Irori</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitsensingimperfection-sensing-imperfection-fn6-2-benefit">Your belief in Irori has honed your ability to recognize when someone lies or dissembles. Sense Motive is a class skill for you, and you gain a +1 trait bonus on Sense Motive checks.</Pair>
+<Pair single="flavor" id="traitsensingimperfection-sensing-imperfection-fn6-2-flavor">Your belief in Irori has honed your ability to recognize when someone lies or dissembles.</Pair>
+<Pair single="benefit" id="traitsensingimperfection-sensing-imperfection-fn6-2-benefit"><Link to="/skill/sense_motive">Sense Motive</Link> is a class skill for you, and you gain a +1 trait bonus on Sense Motive checks.</Pair>
 </Ability>
 <Ability id="traitwisdomintheflesh-wisdom-in-the-flesh-fn2-2-fn4-3-fn3-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitwisdomintheflesh-wisdom-in-the-flesh-fn2-2-fn4-3-fn3-2"><Link to="/trait/wisdom_in_the_flesh">⮞</Link> Wisdom in the Flesh <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-2.2" id="main-traits_religion_ln-fake-fn-2.2" data-hash-target to="main-traits_religion_ln-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-4.3" id="main-traits_religion_ln-fake-fn-4.3" data-hash-target to="main-traits_religion_ln-fake-fn-4-target">4</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-3.2" id="main-traits_religion_ln-fake-fn-3.2" data-hash-target to="main-traits_religion_ln-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/irori">Irori</Link></Pair>
-<Pair single="benefit" id="traitwisdomintheflesh-wisdom-in-the-flesh-fn2-2-fn4-3-fn3-2-benefit">Your hours of meditation on inner perfection and the nature of strength and speed allow you to focus your thoughts to achieve things your body might not normally be able to do on its own. Select any Strength-, Constitution-, or Dexterity-based skill. You may make checks with that skill using your Wisdom modifier instead of the skill's normal ability score. That skill is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitwisdomintheflesh-wisdom-in-the-flesh-fn2-2-fn4-3-fn3-2-flavor">Your hours of meditation on inner perfection and the nature of strength and speed allow you to focus your thoughts to achieve things your body might not normally be able to do on its own.</Pair>
+<Pair single="benefit" id="traitwisdomintheflesh-wisdom-in-the-flesh-fn2-2-fn4-3-fn3-2-benefit">Select any Strength-, Constitution-, or Dexterity-based skill. You may make checks with that skill using your Wisdom modifier instead of the skill's normal ability score. That skill is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traitrejectedemperor-rejected-emperor-fn7" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitrejectedemperor-rejected-emperor-fn7"><Link to="/trait/rejected_emperor">⮞</Link> Rejected Emperor <sup><InnerLink showBacklink="backlink-main-traits_religion_ln-fake-fn-7" id="main-traits_religion_ln-fake-fn-7" data-hash-target to="main-traits_religion_ln-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>The Eternal Emperor</Pair>
-<Pair single="benefit" id="traitrejectedemperor-rejected-emperor-fn7-benefit">When you were young, your parents presented you to the oracles of Po Li, claiming a divine sign showed you were the reincarnation of Lung Wa's Eternal Emperor. The oracles did not support the claim, but you are not untouched by celestial influence. You may use Knowledge (nobility) or Knowledge (religion) in place of Knowledge (planes) to identify outsiders, and nonevil outsiders you encounter begin with an attitude that is one step better than normal.</Pair>
+<Pair single="flavor" id="traitrejectedemperor-rejected-emperor-fn7-flavor">When you were young, your parents presented you to the oracles of Po Li, claiming a divine sign showed you were the reincarnation of Lung Wa's Eternal Emperor. The oracles did not support the claim, but you are not untouched by celestial influence.</Pair>
+<Pair single="benefit" id="traitrejectedemperor-rejected-emperor-fn7-benefit">You may use <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> or <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> in place of <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> to identify outsiders, and nonevil outsiders you encounter begin with an <Link to="/skill/diplomacy">attitude</Link> that is one step better than normal.</Pair>
 </Ability>
 <section data-footnotes><h3 id="main-traits_religion_ln-label">Footnotes</h3><ol>
 <li id="main-traits_religion_ln-fake-fn-1-target"><p><Link to="/source/inner_sea_gods">Inner Sea Gods</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ln-fake-fn-1" data-hash-target to="main-traits_religion_ln-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ln-fake-fn-1.2" data-hash-target to="main-traits_religion_ln-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ln-fake-fn-1.3" data-hash-target to="main-traits_religion_ln-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ln-fake-fn-1.4" data-hash-target to="main-traits_religion_ln-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ln-fake-fn-1.5" data-hash-target to="main-traits_religion_ln-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ln-fake-fn-1.6" data-hash-target to="main-traits_religion_ln-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ln-fake-fn-1.7" data-hash-target to="main-traits_religion_ln-fake-fn-1.7">↩<sup>7</sup></InnerLink></p></li>
@@ -271,7 +291,8 @@ const _traits_religion_le = {title: "Religion Traits: Lawful Evil", jsx: <IonLis
 <Pair single id="traitliarstongue-liars-tongue-fn1-5"><Link to="/trait/liars_tongue">⮞</Link> Liar's Tongue <sup><InnerLink showBacklink="backlink-main-traits_religion_le-fake-fn-1.5" id="main-traits_religion_le-fake-fn-1.5" data-hash-target to="main-traits_religion_le-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/asmodeus">Asmodeus</Link></Pair>
-<Pair single="benefit" id="traitliarstongue-liars-tongue-fn1-5-benefit">Thanks to your friendly mien and sly tongue, your lies are often believed. You gain a +1 trait bonus on Bluff checks, and Bluff is a class skill for you.</Pair>
+<Pair single="flavor" id="traitliarstongue-liars-tongue-fn1-5-flavor">Thanks to your friendly mien and sly tongue, your lies are often believed.</Pair>
+<Pair single="benefit" id="traitliarstongue-liars-tongue-fn1-5-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks, and Bluff is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitbattlefieldsurgeon-battlefield-surgeon-fn1-6-fn2-4" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitbattlefieldsurgeon-battlefield-surgeon-fn1-6-fn2-4"><Link to="/trait/battlefield_surgeon">⮞</Link> Battlefield Surgeon <sup><InnerLink showBacklink="backlink-main-traits_religion_le-fake-fn-1.6" id="main-traits_religion_le-fake-fn-1.6" data-hash-target to="main-traits_religion_le-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_le-fake-fn-2.4" id="main-traits_religion_le-fake-fn-2.4" data-hash-target to="main-traits_religion_le-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -297,7 +318,8 @@ const _traits_religion_le = {title: "Religion Traits: Lawful Evil", jsx: <IonLis
 <Pair single id="traitpainispleasure-pain-is-pleasure-fn5-2"><Link to="/trait/pain_is_pleasure">⮞</Link> Pain Is Pleasure <sup><InnerLink showBacklink="backlink-main-traits_religion_le-fake-fn-5.2" id="main-traits_religion_le-fake-fn-5.2" data-hash-target to="main-traits_religion_le-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/zon_kuthon">Zon-Kuthon</Link></Pair>
-<Pair single="benefit" id="traitpainispleasure-pain-is-pleasure-fn5-2-benefit">You have discovered a hint of the dark truths that lay hidden within blood and flesh. You gain a +1 trait bonus on Fortitude and Will saves whenever you have fewer than half your maximum number of hit points.</Pair>
+<Pair single="flavor" id="traitpainispleasure-pain-is-pleasure-fn5-2-flavor">You have discovered a hint of the dark truths that lay hidden within blood and flesh.</Pair>
+<Pair single="benefit" id="traitpainispleasure-pain-is-pleasure-fn5-2-benefit">You gain a +1 trait bonus on Fortitude and Will saves whenever you have fewer than half your maximum number of hit points.</Pair>
 </Ability>
 <section data-footnotes><h3 id="main-traits_religion_le-label">Footnotes</h3><ol>
 <li id="main-traits_religion_le-fake-fn-1-target"><p><Link to="/source/inner_sea_gods">Inner Sea Gods</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_le-fake-fn-1" data-hash-target to="main-traits_religion_le-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_le-fake-fn-1.2" data-hash-target to="main-traits_religion_le-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_le-fake-fn-1.3" data-hash-target to="main-traits_religion_le-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_le-fake-fn-1.4" data-hash-target to="main-traits_religion_le-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_le-fake-fn-1.5" data-hash-target to="main-traits_religion_le-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_le-fake-fn-1.6" data-hash-target to="main-traits_religion_le-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_le-fake-fn-1.7" data-hash-target to="main-traits_religion_le-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_le-fake-fn-1.8" data-hash-target to="main-traits_religion_le-fake-fn-1.8">↩<sup>8</sup></InnerLink></p></li>
@@ -310,13 +332,15 @@ const _traits_religion_ng = {title: "Religion Traits: Neutral Good", jsx: <IonLi
 <Pair single id="traitstrengthsfanfare-strengths-fanfare-fn1"><Link to="/trait/strengths_fanfare">⮞</Link> Strength's Fanfare <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-1" id="main-traits_religion_ng-fake-fn-1" data-hash-target to="main-traits_religion_ng-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/kurgess">Kurgess</Link></Pair>
-<Pair single="benefit" id="traitstrengthsfanfare-strengths-fanfare-fn1-benefit">Songs of your glory and prowess bolster your strength. When you are the subject of any sonic effect that grants a morale bonus on attack or damage rolls, you also gain a +1 trait bonus on Strength-based skill checks; on combat maneuver checks to bull rush, grapple, and reposition; and to your CMD against those combat maneuvers.</Pair>
+<Pair single="flavor" id="traitstrengthsfanfare-strengths-fanfare-fn1-flavor">Songs of your glory and prowess bolster your strength.</Pair>
+<Pair single="benefit" id="traitstrengthsfanfare-strengths-fanfare-fn1-benefit">When you are the subject of any sonic effect that grants a morale bonus on attack or damage rolls, you also gain a +1 trait bonus on Strength-based skill checks; on combat maneuver checks to <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/grapple">grapple</Link>, and <Link to="/rule/reposition">reposition</Link>; and to your CMD against those combat maneuvers.</Pair>
 </Ability>
 <Ability id="traittheflexingarm-the-flexing-arm-fn1-2-fn2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traittheflexingarm-the-flexing-arm-fn1-2-fn2"><Link to="/trait/the_flexing_arm">⮞</Link> The Flexing Arm <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-1.2" id="main-traits_religion_ng-fake-fn-1.2" data-hash-target to="main-traits_religion_ng-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-2" id="main-traits_religion_ng-fake-fn-2" data-hash-target to="main-traits_religion_ng-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/kurgess">Kurgess</Link></Pair>
-<Pair single="benefit" id="traittheflexingarm-the-flexing-arm-fn1-2-fn2-benefit">You are practiced at using physical might to escape your bonds. You can use Strength instead of Dexterity as your base ability for Escape Artist skill checks to free yourself from bondage. Additionally, you gain a +1 trait bonus on such Escape Artist checks.</Pair>
+<Pair single="flavor" id="traittheflexingarm-the-flexing-arm-fn1-2-fn2-flavor">You are practiced at using physical might to escape your bonds.</Pair>
+<Pair single="benefit" id="traittheflexingarm-the-flexing-arm-fn1-2-fn2-benefit">You can use Strength instead of Dexterity as your base ability for <Link to="/skill/escape_artist">Escape Artist</Link> skill checks to free yourself from bondage. Additionally, you gain a +1 trait bonus on such Escape Artist checks.</Pair>
 </Ability>
 <Ability id="traitambassador-ambassador-fn3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitambassador-ambassador-fn3"><Link to="/trait/ambassador">⮞</Link> Ambassador <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-3" id="main-traits_religion_ng-fake-fn-3" data-hash-target to="main-traits_religion_ng-fake-fn-3-target">3</InnerLink></sup></Pair>
@@ -372,25 +396,29 @@ const _traits_religion_ng = {title: "Religion Traits: Neutral Good", jsx: <IonLi
 <Pair single id="traitilluminator-illuminator-fn1-4-fn2-3"><Link to="/trait/illuminator">⮞</Link> Illuminator <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-1.4" id="main-traits_religion_ng-fake-fn-1.4" data-hash-target to="main-traits_religion_ng-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-2.3" id="main-traits_religion_ng-fake-fn-2.3" data-hash-target to="main-traits_religion_ng-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
-<Pair single="benefit" id="traitilluminator-illuminator-fn1-4-fn2-3-benefit">When you are filled with the light of Sarenrae, your speech takes on a fiery eloquence. You gain a +2 trait bonus on Diplomacy checks, and Diplomacy is a class skill for you.</Pair>
+<Pair single="flavor" id="traitilluminator-illuminator-fn1-4-fn2-3-flavor">When you are filled with the light of Sarenrae, your speech takes on a fiery eloquence.</Pair>
+<Pair single="benefit" id="traitilluminator-illuminator-fn1-4-fn2-3-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks, and Diplomacy is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitlightbringer-light-bringer-fn1-5" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitlightbringer-light-bringer-fn1-5"><Link to="/trait/light_bringer">⮞</Link> Light-Bringer <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-1.5" id="main-traits_religion_ng-fake-fn-1.5" data-hash-target to="main-traits_religion_ng-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
-<Pair single="benefit" id="traitlightbringer-light-bringer-fn1-5-benefit">You were born with a blessing of the Dawnflower. Once per day, you can use <Link to="/spell/light">light</Link> as a spell-like ability. Your caster level is equal to your character level.</Pair>
+<Pair single="flavor" id="traitlightbringer-light-bringer-fn1-5-flavor">You were born with a blessing of the Dawnflower.</Pair>
+<Pair single="benefit" id="traitlightbringer-light-bringer-fn1-5-benefit">Once per day, you can use <Link to="/spell/light">light</Link> as a spell-like ability. Your caster level is equal to your character level.</Pair>
 </Ability>
 <Ability id="traitstrengthofthesun-strength-of-the-sun-fn4-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitstrengthofthesun-strength-of-the-sun-fn4-3"><Link to="/trait/strength_of_the_sun">⮞</Link> Strength of the Sun <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-4.3" id="main-traits_religion_ng-fake-fn-4.3" data-hash-target to="main-traits_religion_ng-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
-<Pair single="benefit" id="traitstrengthofthesun-strength-of-the-sun-fn4-3-benefit">You take solace in the purifying light of the sun. During the day, you gain a +1 trait bonus on all Charisma-based checks.</Pair>
+<Pair single="flavor" id="traitstrengthofthesun-strength-of-the-sun-fn4-3-flavor">You take solace in the purifying light of the sun.</Pair>
+<Pair single="benefit" id="traitstrengthofthesun-strength-of-the-sun-fn4-3-benefit">During the day, you gain a +1 trait bonus on all Charisma-based checks.</Pair>
 </Ability>
 <Ability id="traitundersiege-under-siege-fn3-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitundersiege-under-siege-fn3-2"><Link to="/trait/under_siege">⮞</Link> Under Siege <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-3.2" id="main-traits_religion_ng-fake-fn-3.2" data-hash-target to="main-traits_religion_ng-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sarenrae">Sarenrae</Link></Pair>
-<Pair single="benefit" id="traitundersiege-under-siege-fn3-2-benefit">In order to maintain your devotion to Sarenrae in Taldor and stay alive, you and your fellow worshipers developed a complex system of hand signs and facial gestures to identify yourselves as faithful in the Cult of the Dawnflower. You gain a +1 trait bonus on Bluff and Sense Motive checks. One of these skills (your choice) is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitundersiege-under-siege-fn3-2-flavor">In order to maintain your devotion to Sarenrae in Taldor and stay alive, you and your fellow worshipers developed a complex system of hand signs and facial gestures to identify yourselves as faithful in the Cult of the Dawnflower.</Pair>
+<Pair single="benefit" id="traitundersiege-under-siege-fn3-2-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks. One of these skills (your choice) is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traitearformusic-ear-for-music-fn7-2-fn9-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitearformusic-ear-for-music-fn7-2-fn9-2"><Link to="/trait/ear_for_music">⮞</Link> Ear for Music <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-7.2" id="main-traits_religion_ng-fake-fn-7.2" data-hash-target to="main-traits_religion_ng-fake-fn-7-target">7</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-9.2" id="main-traits_religion_ng-fake-fn-9.2" data-hash-target to="main-traits_religion_ng-fake-fn-9-target">9</InnerLink></sup></Pair>
@@ -403,26 +431,29 @@ const _traits_religion_ng = {title: "Religion Traits: Neutral Good", jsx: <IonLi
 <Pair single id="traitinnerbeauty-inner-beauty-fn1-6-fn2-4"><Link to="/trait/inner_beauty">⮞</Link> Inner Beauty <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-1.6" id="main-traits_religion_ng-fake-fn-1.6" data-hash-target to="main-traits_religion_ng-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-2.4" id="main-traits_religion_ng-fake-fn-2.4" data-hash-target to="main-traits_religion_ng-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shelyn">Shelyn</Link></Pair>
-<Pair single="benefit" id="traitinnerbeauty-inner-beauty-fn1-6-fn2-4-benefit">Once per day when you manifest your faith in your goddess, you gain a +4 trait bonus on a single Bluff, Craft, Diplomacy, or Perform skill check. You must choose to use this trait immediately after rolling the skill check but before the result is revealed by the GM.</Pair>
+<Pair single="benefit" id="traitinnerbeauty-inner-beauty-fn1-6-fn2-4-benefit">Once per day when you manifest your faith in your goddess, you gain a +4 trait bonus on a single <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/craft">Craft</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, or <Link to="/skill/perform">Perform</Link> skill check. You must choose to use this trait immediately after rolling the skill check but before the result is revealed by the GM.</Pair>
 </Ability>
 <Ability id="traitintenseartist-intense-artist-fn1-7-fn2-5" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitintenseartist-intense-artist-fn1-7-fn2-5"><Link to="/trait/intense_artist">⮞</Link> Intense Artist <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-1.7" id="main-traits_religion_ng-fake-fn-1.7" data-hash-target to="main-traits_religion_ng-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-2.5" id="main-traits_religion_ng-fake-fn-2.5" data-hash-target to="main-traits_religion_ng-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shelyn">Shelyn</Link></Pair>
-<Pair single="benefit" id="traitintenseartist-intense-artist-fn1-7-fn2-5-benefit">Your devotion to Shelyn has caused you to delve more deeply into your art. Choose two Perform skills; you gain a +1 trait bonus on Perform checks of the selected types, and Perform is a class skill for you.</Pair>
+<Pair single="flavor" id="traitintenseartist-intense-artist-fn1-7-fn2-5-flavor">Your devotion to Shelyn has caused you to delve more deeply into your art.</Pair>
+<Pair single="benefit" id="traitintenseartist-intense-artist-fn1-7-fn2-5-benefit">Choose two <Link to="/skill/perform">Perform</Link> skills; you gain a +1 trait bonus on Perform checks of the selected types, and Perform is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitselfsacrifice-self-sacrifice-fn5-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitselfsacrifice-self-sacrifice-fn5-2"><Link to="/trait/self_sacrifice">⮞</Link> Self-Sacrifice <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-5.2" id="main-traits_religion_ng-fake-fn-5.2" data-hash-target to="main-traits_religion_ng-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shelyn">Shelyn</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitselfsacrifice-self-sacrifice-fn5-2-benefit">You honor your goddess through your willingness to take risks for those you care about. As a move action, you can use your own body to grant soft cover to an adjacent ally regardless of the difference in your respective sizes.</Pair>
+<Pair single="flavor" id="traitselfsacrifice-self-sacrifice-fn5-2-flavor">You honor your goddess through your willingness to take risks for those you care about.</Pair>
+<Pair single="benefit" id="traitselfsacrifice-self-sacrifice-fn5-2-benefit">As a <strong className="hl">move action</strong>, you can use your own body to grant soft <Link to="/rule/cover">cover</Link> to an adjacent ally regardless of the difference in your respective sizes.</Pair>
 </Ability>
 <Ability id="traitunswayinglove-unswaying-love-fn1-8" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitunswayinglove-unswaying-love-fn1-8"><Link to="/trait/unswaying_love">⮞</Link> Unswaying Love <sup><InnerLink showBacklink="backlink-main-traits_religion_ng-fake-fn-1.8" id="main-traits_religion_ng-fake-fn-1.8" data-hash-target to="main-traits_religion_ng-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/shelyn">Shelyn</Link></Pair>
-<Pair single="benefit" id="traitunswayinglove-unswaying-love-fn1-8-benefit">Your resolute devotion to the unadulterated purity of your goddess protects you from those who would manipulate you. You gain a +2 trait bonus on saving throws against charm or compulsion effects.</Pair>
+<Pair single="flavor" id="traitunswayinglove-unswaying-love-fn1-8-flavor">Your resolute devotion to the unadulterated purity of your goddess protects you from those who would manipulate you.</Pair>
+<Pair single="benefit" id="traitunswayinglove-unswaying-love-fn1-8-benefit">You gain a +2 trait bonus on saving throws against charm or compulsion effects.</Pair>
 </Ability>
 <section data-footnotes><h3 id="main-traits_religion_ng-label">Footnotes</h3><ol>
 <li id="main-traits_religion_ng-fake-fn-1-target"><p><Link to="/source/inner_sea_gods">Inner Sea Gods</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ng-fake-fn-1" data-hash-target to="main-traits_religion_ng-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ng-fake-fn-1.2" data-hash-target to="main-traits_religion_ng-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ng-fake-fn-1.3" data-hash-target to="main-traits_religion_ng-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ng-fake-fn-1.4" data-hash-target to="main-traits_religion_ng-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ng-fake-fn-1.5" data-hash-target to="main-traits_religion_ng-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ng-fake-fn-1.6" data-hash-target to="main-traits_religion_ng-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ng-fake-fn-1.7" data-hash-target to="main-traits_religion_ng-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ng-fake-fn-1.8" data-hash-target to="main-traits_religion_ng-fake-fn-1.8">↩<sup>8</sup></InnerLink></p></li>
@@ -446,7 +477,7 @@ const _traits_religion_nn = {title: "Religion Traits: True Neutral", jsx: <IonLi
 <Pair single id="traitnimblefingerskeenmind-nimble-fingers-keen-mind-fn2-fn3"><Link to="/trait/nimble_fingers_keen_mind">⮞</Link> Nimble Fingers, Keen Mind <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-2" id="main-traits_religion_nn-fake-fn-2" data-hash-target to="main-traits_religion_nn-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-3" id="main-traits_religion_nn-fake-fn-3" data-hash-target to="main-traits_religion_nn-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/brigh">Brigh</Link></Pair>
-<Pair single="benefit" id="traitnimblefingerskeenmind-nimble-fingers-keen-mind-fn2-fn3-benefit">Your study of clockwork mechanisms and other mechanical wonders grants you a +1 trait bonus on Disable Device checks, and Disable Device is a class skill for you.</Pair>
+<Pair single="benefit" id="traitnimblefingerskeenmind-nimble-fingers-keen-mind-fn2-fn3-benefit">Your study of clockwork mechanisms and other mechanical wonders grants you a +1 trait bonus on <Link to="/skill/disable_device">Disable Device</Link> checks, and Disable Device is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitchildofnature-child-of-nature-fn2-2-fn3-2-fn4-fn5" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitchildofnature-child-of-nature-fn2-2-fn3-2-fn4-fn5"><Link to="/trait/child_of_nature">⮞</Link> Child of Nature <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-2.2" id="main-traits_religion_nn-fake-fn-2.2" data-hash-target to="main-traits_religion_nn-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-3.2" id="main-traits_religion_nn-fake-fn-3.2" data-hash-target to="main-traits_religion_nn-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-4" id="main-traits_religion_nn-fake-fn-4" data-hash-target to="main-traits_religion_nn-fake-fn-4-target">4</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-5" id="main-traits_religion_nn-fake-fn-5" data-hash-target to="main-traits_religion_nn-fake-fn-5-target">5</InnerLink></sup></Pair>
@@ -459,19 +490,22 @@ const _traits_religion_nn = {title: "Religion Traits: True Neutral", jsx: <IonLi
 <Pair single id="traitgozrehssight-gozrehs-sight-fn1-2"><Link to="/trait/gozrehs_sight">⮞</Link> Gozreh's Sight <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-1.2" id="main-traits_religion_nn-fake-fn-1.2" data-hash-target to="main-traits_religion_nn-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gozreh">Gozreh</Link></Pair>
-<Pair single="benefit" id="traitgozrehssight-gozrehs-sight-fn1-2-benefit">Your faith in the Wind and the Waves helps you navigate through all manner of mist or haze. You can see normally up to 5 feet away in areas of nonmagical fog, mist, rain, or similar conditions (such as the spray of a waterfall). Your sight is still obscured beyond 5 feet as normal in these conditions.</Pair>
+<Pair single="flavor" id="traitgozrehssight-gozrehs-sight-fn1-2-flavor">Your faith in the Wind and the Waves helps you navigate through all manner of mist or haze.</Pair>
+<Pair single="benefit" id="traitgozrehssight-gozrehs-sight-fn1-2-benefit">You can see normally up to 5 feet away in areas of nonmagical <Link to="/rule/fog">fog</Link>, mist, <Link to="/rule/rain">rain</Link>, or similar conditions (such as the spray of a waterfall). Your sight is still obscured beyond 5 feet as normal in these conditions.</Pair>
 </Ability>
 <Ability id="traitnaturalphilosopher-natural-philosopher-fn2-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitnaturalphilosopher-natural-philosopher-fn2-3"><Link to="/trait/natural_philosopher">⮞</Link> Natural Philosopher <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-2.3" id="main-traits_religion_nn-fake-fn-2.3" data-hash-target to="main-traits_religion_nn-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gozreh">Gozreh</Link></Pair>
-<Pair single="benefit" id="traitnaturalphilosopher-natural-philosopher-fn2-3-benefit">You study the outdoors, and leave books for dusty libraries. You can attempt Knowledge (geography) and Knowledge (nature) checks as if you were trained.</Pair>
+<Pair single="flavor" id="traitnaturalphilosopher-natural-philosopher-fn2-3-flavor">You study the outdoors, and leave books for dusty libraries.</Pair>
+<Pair single="benefit" id="traitnaturalphilosopher-natural-philosopher-fn2-3-benefit">You can attempt <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> and <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> checks as if you were trained.</Pair>
 </Ability>
 <Ability id="traitstrongswimmer-strong-swimmer-fn2-4-fn3-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitstrongswimmer-strong-swimmer-fn2-4-fn3-3"><Link to="/trait/strong_swimmer">⮞</Link> Strong Swimmer <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-2.4" id="main-traits_religion_nn-fake-fn-2.4" data-hash-target to="main-traits_religion_nn-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-3.3" id="main-traits_religion_nn-fake-fn-3.3" data-hash-target to="main-traits_religion_nn-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gozreh">Gozreh</Link></Pair>
-<Pair single="benefit" id="traitstrongswimmer-strong-swimmer-fn2-4-fn3-3-benefit">Your faith in Gozreh's grace gives you the confidence to swim without fear. You gain a +2 trait bonus on Swim checks, and can <Link to="/misc/hold_your_breath">hold your breath</Link> for an extra 2 rounds when underwater.</Pair>
+<Pair single="flavor" id="traitstrongswimmer-strong-swimmer-fn2-4-fn3-3-flavor">Your faith in Gozreh's grace gives you the confidence to swim without fear.</Pair>
+<Pair single="benefit" id="traitstrongswimmer-strong-swimmer-fn2-4-fn3-3-benefit">You gain a +2 trait bonus on <Link to="/skill/swim">Swim</Link> checks, and can <Link to="/misc/hold_your_breath">hold your breath</Link> for an extra 2 rounds when underwater.</Pair>
 </Ability>
 <Ability id="traiteyesofthewild-eyes-of-the-wild-fn2-5-fn3-4" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traiteyesofthewild-eyes-of-the-wild-fn2-5-fn3-4"><Link to="/trait/eyes_of_the_wild">⮞</Link> Eyes of the Wild <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-2.5" id="main-traits_religion_nn-fake-fn-2.5" data-hash-target to="main-traits_religion_nn-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-3.4" id="main-traits_religion_nn-fake-fn-3.4" data-hash-target to="main-traits_religion_nn-fake-fn-3-target">3</InnerLink></sup></Pair>
@@ -484,13 +518,14 @@ const _traits_religion_nn = {title: "Religion Traits: True Neutral", jsx: <IonLi
 <Pair single id="traitknowtheland-know-the-land-fn2-6-fn3-5"><Link to="/trait/know_the_land">⮞</Link> Know the Land <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-2.6" id="main-traits_religion_nn-fake-fn-2.6" data-hash-target to="main-traits_religion_nn-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-3.5" id="main-traits_religion_nn-fake-fn-3.5" data-hash-target to="main-traits_religion_nn-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/green_faith">Green Faith</Link></Pair>
-<Pair single="benefit" id="traitknowtheland-know-the-land-fn2-6-fn3-5-benefit">Your familiarity with the plants and animals of a variety of environments gives you a +1 trait bonus on Knowledge (nature) and Survival checks, and one of these skills is a class skill for you.</Pair>
+<Pair single="benefit" id="traitknowtheland-know-the-land-fn2-6-fn3-5-benefit">Your familiarity with the plants and animals of a variety of environments gives you a +1 trait bonus on <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> and <Link to="/skill/survival">Survival</Link> checks, and one of these skills is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitspirittalker-spirit-talker-fn6" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitspirittalker-spirit-talker-fn6"><Link to="/trait/spirit_talker">⮞</Link> Spirit Talker <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-6" id="main-traits_religion_nn-fake-fn-6" data-hash-target to="main-traits_religion_nn-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl>Mwangi shamanistic faith</Pair>
-<Pair single="benefit" id="traitspirittalker-spirit-talker-fn6-benefit">You are a devotee of the shamanistic practices of the Mwangi, having little use for the deities of the colonials. You gain a +1 racial bonus on Will saves against divine spells and spell-like effects employed against you by clerics or paladins of Aroden, Abadar, Iomedae, Gozreh, and Shelyn - but you suffer a -1 penalty on Will saves against divine spells cast by devotees of Mwangi faiths.</Pair>
+<Pair single="flavor" id="traitspirittalker-spirit-talker-fn6-flavor">You are a devotee of the shamanistic practices of the Mwangi, having little use for the deities of the colonials.</Pair>
+<Pair single="benefit" id="traitspirittalker-spirit-talker-fn6-benefit">You gain a +1 racial bonus on Will saves against divine spells and spell-like effects employed against you by clerics or paladins of Aroden, Abadar, Iomedae, Gozreh, and Shelyn - but you suffer a -1 penalty on Will saves against divine spells cast by devotees of Mwangi faiths.</Pair>
 </Ability>
 <Ability id="traitemptyheartfullheart-empty-heart-full-heart-fn2-7-fn3-6" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitemptyheartfullheart-empty-heart-full-heart-fn2-7-fn3-6"><Link to="/trait/empty_heart_full_heart">⮞</Link> Empty Heart, Full Heart <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-2.7" id="main-traits_religion_nn-fake-fn-2.7" data-hash-target to="main-traits_religion_nn-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-3.6" id="main-traits_religion_nn-fake-fn-3.6" data-hash-target to="main-traits_religion_nn-fake-fn-3-target">3</InnerLink></sup></Pair>
@@ -509,19 +544,22 @@ const _traits_religion_nn = {title: "Religion Traits: True Neutral", jsx: <IonLi
 <Pair single id="traitmagicislife-magic-is-life-fn4-2-fn5-2-fn7"><Link to="/trait/magic_is_life">⮞</Link> Magic Is Life <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-4.2" id="main-traits_religion_nn-fake-fn-4.2" data-hash-target to="main-traits_religion_nn-fake-fn-4-target">4</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-5.2" id="main-traits_religion_nn-fake-fn-5.2" data-hash-target to="main-traits_religion_nn-fake-fn-5-target">5</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-7" id="main-traits_religion_nn-fake-fn-7" data-hash-target to="main-traits_religion_nn-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/nethys">Nethys</Link></Pair>
-<Pair single="benefit" id="traitmagicislife-magic-is-life-fn4-2-fn5-2-fn7-benefit">Your faith in magic allows you to reflexively use the energy of any spell effect currently on you to save you from death. As long as you are under the effects of a spell, you gain a +2 trait bonus on saving throws against death effects. If you are reduced to negative hit points while you are under the effects of any spell, you automatically confirm stabilization checks to stop bleeding.</Pair>
+<Pair single="flavor" id="traitmagicislife-magic-is-life-fn4-2-fn5-2-fn7-flavor">Your faith in magic allows you to reflexively use the energy of any spell effect currently on you to save you from death.</Pair>
+<Pair single="benefit" id="traitmagicislife-magic-is-life-fn4-2-fn5-2-fn7-benefit">As long as you are under the effects of a spell, you gain a +2 trait bonus on saving throws against death effects. If you are reduced to negative hit points while you are under the effects of any spell, you automatically confirm stabilization checks to stop bleeding.</Pair>
 </Ability>
 <Ability id="traitthirstforknowledge-thirst-for-knowledge-fn2-9" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitthirstforknowledge-thirst-for-knowledge-fn2-9"><Link to="/trait/thirst_for_knowledge">⮞</Link> Thirst for Knowledge <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-2.9" id="main-traits_religion_nn-fake-fn-2.9" data-hash-target to="main-traits_religion_nn-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/nethys">Nethys</Link></Pair>
-<Pair single="benefit" id="traitthirstforknowledge-thirst-for-knowledge-fn2-9-benefit">You have a need to bring old knowledge into the light, no matter what language it's written in. You gain a +1 trait bonus on Linguistics checks, and Linguistics is a class skill for you.</Pair>
+<Pair single="flavor" id="traitthirstforknowledge-thirst-for-knowledge-fn2-9-flavor">You have a need to bring old knowledge into the light, no matter what language it's written in.</Pair>
+<Pair single="benefit" id="traitthirstforknowledge-thirst-for-knowledge-fn2-9-benefit">You gain a +1 trait bonus on <Link to="/skill/linguistics">Linguistics</Link> checks, and Linguistics is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitunderlyingprinciples-underlying-principles-fn2-10-fn3-8" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitunderlyingprinciples-underlying-principles-fn2-10-fn3-8"><Link to="/trait/underlying_principles">⮞</Link> Underlying Principles <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-2.10" id="main-traits_religion_nn-fake-fn-2.10" data-hash-target to="main-traits_religion_nn-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-3.8" id="main-traits_religion_nn-fake-fn-3.8" data-hash-target to="main-traits_religion_nn-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/nethys">Nethys</Link></Pair>
-<Pair single="benefit" id="traitunderlyingprinciples-underlying-principles-fn2-10-fn3-8-benefit">You've spent a large amount of time around magical items, and understand the similarities between many of them. You gain a +1 trait bonus on Use Magic Device checks, and Use Magic Device is a class skill for you.</Pair>
+<Pair single="flavor" id="traitunderlyingprinciples-underlying-principles-fn2-10-fn3-8-flavor">You've spent a large amount of time around magical items, and understand the similarities between many of them.</Pair>
+<Pair single="benefit" id="traitunderlyingprinciples-underlying-principles-fn2-10-fn3-8-benefit">You gain a +1 trait bonus on <Link to="/skill/use_magic_device">Use Magic Device</Link> checks, and Use Magic Device is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitagentofchance-agent-of-chance-fn2-11-fn8" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitagentofchance-agent-of-chance-fn2-11-fn8"><Link to="/trait/agent_of_chance">⮞</Link> Agent of Chance <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-2.11" id="main-traits_religion_nn-fake-fn-2.11" data-hash-target to="main-traits_religion_nn-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-8" id="main-traits_religion_nn-fake-fn-8" data-hash-target to="main-traits_religion_nn-fake-fn-8-target">8</InnerLink></sup></Pair>
@@ -540,31 +578,36 @@ const _traits_religion_nn = {title: "Religion Traits: True Neutral", jsx: <IonLi
 <Pair single id="traitspiritguide-spirit-guide-fn2-13-fn3-10"><Link to="/trait/spirit_guide">⮞</Link> Spirit Guide <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-2.13" id="main-traits_religion_nn-fake-fn-2.13" data-hash-target to="main-traits_religion_nn-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-3.10" id="main-traits_religion_nn-fake-fn-3.10" data-hash-target to="main-traits_religion_nn-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/pharasma">Pharasma</Link></Pair>
-<Pair single="benefit" id="traitspiritguide-spirit-guide-fn2-13-fn3-10-benefit">As someone who has performed or observed funeral rites for a wide variety of people, you have a basic understanding of many different religions. You gain a +2 trait bonus on Knowledge (religion) checks, and Knowledge (religion) is a class skill for you.</Pair>
+<Pair single="flavor" id="traitspiritguide-spirit-guide-fn2-13-fn3-10-flavor">As someone who has performed or observed funeral rites for a wide variety of people, you have a basic understanding of many different religions.</Pair>
+<Pair single="benefit" id="traitspiritguide-spirit-guide-fn2-13-fn3-10-benefit">You gain a +2 trait bonus on <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> checks, and Knowledge (religion) is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitstabilizingtouch-stabilizing-touch-fn2-14" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitstabilizingtouch-stabilizing-touch-fn2-14"><Link to="/trait/stabilizing_touch">⮞</Link> Stabilizing Touch <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-2.14" id="main-traits_religion_nn-fake-fn-2.14" data-hash-target to="main-traits_religion_nn-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/pharasma">Pharasma</Link></Pair>
-<Pair single="benefit" id="traitstabilizingtouch-stabilizing-touch-fn2-14-benefit">You were born with the ability to stop the passage to death's door. Once per day, you can use <Link to="/spell/stabilize">stabilize</Link> as a spell-like ability, but with a range of touch.</Pair>
+<Pair single="flavor" id="traitstabilizingtouch-stabilizing-touch-fn2-14-flavor">You were born with the ability to stop the passage to death's door.</Pair>
+<Pair single="benefit" id="traitstabilizingtouch-stabilizing-touch-fn2-14-benefit">Once per day, you can use <Link to="/spell/stabilize">stabilize</Link> as a spell-like ability, but with a range of touch.</Pair>
 </Ability>
 <Ability id="traitundeadslayerpharasma-undead-slayer-pharasma-fn4-3-fn5-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitundeadslayerpharasma-undead-slayer-pharasma-fn4-3-fn5-3"><Link to="/trait/undead_slayer_pharasma">⮞</Link> Undead Slayer (Pharasma) <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-4.3" id="main-traits_religion_nn-fake-fn-4.3" data-hash-target to="main-traits_religion_nn-fake-fn-4-target">4</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-5.3" id="main-traits_religion_nn-fake-fn-5.3" data-hash-target to="main-traits_religion_nn-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/pharasma">Pharasma</Link></Pair>
-<Pair single="benefit" id="traitundeadslayerpharasma-undead-slayer-pharasma-fn4-3-fn5-3-benefit">Instructed at a young age in the tenets of the faith of Pharasma, you view the undead as abominations that must be destroyed so their souls can journey beyond to be judged. You gain a +1 trait bonus on weapon damage rolls against undead.</Pair>
+<Pair single="flavor" id="traitundeadslayerpharasma-undead-slayer-pharasma-fn4-3-fn5-3-flavor">Instructed at a young age in the tenets of the faith of Pharasma, you view the undead as abominations that must be destroyed so their souls can journey beyond to be judged.</Pair>
+<Pair single="benefit" id="traitundeadslayerpharasma-undead-slayer-pharasma-fn4-3-fn5-3-benefit">You gain a +1 trait bonus on weapon damage rolls against undead.</Pair>
 </Ability>
 <Ability id="traitstriptheveils-strip-the-veils-fn2-15-fn3-11" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitstriptheveils-strip-the-veils-fn2-15-fn3-11"><Link to="/trait/strip_the_veils">⮞</Link> Strip the Veils <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-2.15" id="main-traits_religion_nn-fake-fn-2.15" data-hash-target to="main-traits_religion_nn-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-3.11" id="main-traits_religion_nn-fake-fn-3.11" data-hash-target to="main-traits_religion_nn-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sivanah">Sivanah</Link></Pair>
-<Pair single="benefit" id="traitstriptheveils-strip-the-veils-fn2-15-fn3-11-benefit">You are unusually perceptive when dealing with others. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is a class skill for you.</Pair>
+<Pair single="flavor" id="traitstriptheveils-strip-the-veils-fn2-15-fn3-11-flavor">You are unusually perceptive when dealing with others.</Pair>
+<Pair single="benefit" id="traitstriptheveils-strip-the-veils-fn2-15-fn3-11-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks, and Sense Motive is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitveilsuponveils-veils-upon-veils-fn2-16" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitveilsuponveils-veils-upon-veils-fn2-16"><Link to="/trait/veils_upon_veils">⮞</Link> Veils upon Veils <sup><InnerLink showBacklink="backlink-main-traits_religion_nn-fake-fn-2.16" id="main-traits_religion_nn-fake-fn-2.16" data-hash-target to="main-traits_religion_nn-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/sivanah">Sivanah</Link></Pair>
-<Pair single="benefit" id="traitveilsuponveils-veils-upon-veils-fn2-16-benefit">You have learned a holy secret that makes your illusions more powerful. Once per day when casting an illusion spell, you can do so at +1 caster level.</Pair>
+<Pair single="flavor" id="traitveilsuponveils-veils-upon-veils-fn2-16-flavor">You have learned a holy secret that makes your illusions more powerful.</Pair>
+<Pair single="benefit" id="traitveilsuponveils-veils-upon-veils-fn2-16-benefit">Once per day when casting an illusion spell, you can do so at +1 caster level.</Pair>
 </Ability>
 <section data-footnotes><h3 id="main-traits_religion_nn-label">Footnotes</h3><ol>
 <li id="main-traits_religion_nn-fake-fn-1-target"><p><Link to="/source/people_of_the_wastes">People of the Wastes</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_nn-fake-fn-1" data-hash-target to="main-traits_religion_nn-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_nn-fake-fn-1.2" data-hash-target to="main-traits_religion_nn-fake-fn-1.2">↩<sup>2</sup></InnerLink></p></li>
@@ -580,32 +623,35 @@ const _traits_religion_ne = {title: "Religion Traits: Neutral Evil", jsx: <IonLi
 <Pair single id="traitpoisonousslayer-poisonous-slayer-fn1"><Link to="/trait/poisonous_slayer">⮞</Link> Poisonous Slayer <sup><InnerLink showBacklink="backlink-main-traits_religion_ne-fake-fn-1" id="main-traits_religion_ne-fake-fn-1" data-hash-target to="main-traits_religion_ne-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/norgorber">Norgorber</Link></Pair>
-<Pair single="benefit" id="traitpoisonousslayer-poisonous-slayer-fn1-benefit">You know the secret of plunging a poisoned weapon in just the right spot. You gain a +1 trait bonus on attack rolls when you are wielding a weapon treated with poison.</Pair>
+<Pair single="flavor" id="traitpoisonousslayer-poisonous-slayer-fn1-flavor">You know the secret of plunging a poisoned weapon in just the right spot.</Pair>
+<Pair single="benefit" id="traitpoisonousslayer-poisonous-slayer-fn1-benefit">You gain a +1 trait bonus on attack rolls when you are wielding a weapon treated with poison.</Pair>
 </Ability>
 <Ability id="traitpracticeddeception-practiced-deception-fn1-2-fn2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitpracticeddeception-practiced-deception-fn1-2-fn2"><Link to="/trait/practiced_deception">⮞</Link> Practiced Deception <sup><InnerLink showBacklink="backlink-main-traits_religion_ne-fake-fn-1.2" id="main-traits_religion_ne-fake-fn-1.2" data-hash-target to="main-traits_religion_ne-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ne-fake-fn-2" id="main-traits_religion_ne-fake-fn-2" data-hash-target to="main-traits_religion_ne-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/norgorber">Norgorber</Link></Pair>
-<Pair single="benefit" id="traitpracticeddeception-practiced-deception-fn1-2-fn2-benefit">You gain a +1 trait bonus on Disguise checks, and you can apply and remove a disguise in half the normal time.</Pair>
+<Pair single="benefit" id="traitpracticeddeception-practiced-deception-fn1-2-fn2-benefit">You gain a +1 trait bonus on <Link to="/skill/disguise">Disguise</Link> checks, and you can apply and remove a disguise in half the normal time.</Pair>
 </Ability>
 <Ability id="traitsecretknowledge-secret-knowledge-fn1-3-fn2-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitsecretknowledge-secret-knowledge-fn1-3-fn2-2"><Link to="/trait/secret_knowledge">⮞</Link> Secret Knowledge <sup><InnerLink showBacklink="backlink-main-traits_religion_ne-fake-fn-1.3" id="main-traits_religion_ne-fake-fn-1.3" data-hash-target to="main-traits_religion_ne-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ne-fake-fn-2.2" id="main-traits_religion_ne-fake-fn-2.2" data-hash-target to="main-traits_religion_ne-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/norgorber">Norgorber</Link></Pair>
-<Pair single="benefit" id="traitsecretknowledge-secret-knowledge-fn1-3-fn2-2-benefit">At any point after taking this trait, you may choose one Knowledge skill. You gain a permanent +2 trait bonus on checks with that skill, and it is a class skill for you. Once this skill is chosen, it cannot be changed.</Pair>
+<Pair single="benefit" id="traitsecretknowledge-secret-knowledge-fn1-3-fn2-2-benefit">At any point after taking this trait, you may choose one <Link to="/skill/knowledge">Knowledge</Link> skill. You gain a permanent +2 trait bonus on checks with that skill, and it is a class skill for you. Once this skill is chosen, it cannot be changed.</Pair>
 </Ability>
 <Ability id="traitshadowwhispers-shadow-whispers-fn3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitshadowwhispers-shadow-whispers-fn3"><Link to="/trait/shadow_whispers">⮞</Link> Shadow Whispers <sup><InnerLink showBacklink="backlink-main-traits_religion_ne-fake-fn-3" id="main-traits_religion_ne-fake-fn-3" data-hash-target to="main-traits_religion_ne-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/norgorber">Norgorber</Link></Pair>
-<Pair single="benefit" id="traitshadowwhispers-shadow-whispers-fn3-benefit">You have a penchant for just knowing others' secrets. You gain a +1 trait bonus on Knowledge (local) checks and a +2 trait bonus on Intimidate checks made to demoralize opponents.</Pair>
+<Pair single="flavor" id="traitshadowwhispers-shadow-whispers-fn3-flavor">You have a penchant for just knowing others' secrets.</Pair>
+<Pair single="benefit" id="traitshadowwhispers-shadow-whispers-fn3-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks and a +2 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks made to demoralize opponents.</Pair>
 </Ability>
 <Ability id="traitvenomdrenched-venom-drenched-fn4" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitvenomdrenched-venom-drenched-fn4"><Link to="/trait/venom_drenched">⮞</Link> Venom-Drenched <sup><InnerLink showBacklink="backlink-main-traits_religion_ne-fake-fn-4" id="main-traits_religion_ne-fake-fn-4" data-hash-target to="main-traits_religion_ne-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/norgorber">Norgorber</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitvenomdrenched-venom-drenched-fn4-benefit">You have nothing to fear from one sort of poison. In fact, you can actually drink the toxic brew in order to make your blood dangerous. You are immune to one specific nonmagical poison. If you ingest a dose of that poison (even if it is a contact, inhaled, or injury poison), it remains in your system for 24 hours; any creature that bites you during that time is subject to the poison's effects.</Pair>
+<Pair single="flavor" id="traitvenomdrenched-venom-drenched-fn4-flavor">You have nothing to fear from one sort of poison. In fact, you can actually drink the toxic brew in order to make your blood dangerous.</Pair>
+<Pair single="benefit" id="traitvenomdrenched-venom-drenched-fn4-benefit">You are immune to one specific nonmagical <Link to="/rule/poisons">poison</Link>. If you ingest a dose of that poison (even if it is a contact, inhaled, or injury poison), it remains in your system for 24 hours; any creature that bites you during that time is subject to the poison's effects.</Pair>
 </Ability>
 <Ability id="traitcorpsecannibal-corpse-cannibal-fn3-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitcorpsecannibal-corpse-cannibal-fn3-2"><Link to="/trait/corpse_cannibal">⮞</Link> Corpse Cannibal <sup><InnerLink showBacklink="backlink-main-traits_religion_ne-fake-fn-3.2" id="main-traits_religion_ne-fake-fn-3.2" data-hash-target to="main-traits_religion_ne-fake-fn-3-target">3</InnerLink></sup></Pair>
@@ -671,13 +717,15 @@ const _traits_religion_cg = {title: "Religion Traits: Chaotic Good", jsx: <IonLi
 <Pair single id="traitgoodnatured-good-natured-fn1-2-fn4"><Link to="/trait/good_natured">⮞</Link> Good-Natured <sup><InnerLink showBacklink="backlink-main-traits_religion_cg-fake-fn-1.2" id="main-traits_religion_cg-fake-fn-1.2" data-hash-target to="main-traits_religion_cg-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_cg-fake-fn-4" id="main-traits_religion_cg-fake-fn-4" data-hash-target to="main-traits_religion_cg-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/cayden_cailean">Cayden Cailean</Link></Pair>
-<Pair single="benefit" id="traitgoodnatured-good-natured-fn1-2-fn4-benefit">You have an unusually sunny spirit, and it takes something truly intimidating to dampen your mood. You gain a +2 trait bonus on saving throws against fear effects.</Pair>
+<Pair single="flavor" id="traitgoodnatured-good-natured-fn1-2-fn4-flavor">You have an unusually sunny spirit, and it takes something truly intimidating to dampen your mood.</Pair>
+<Pair single="benefit" id="traitgoodnatured-good-natured-fn1-2-fn4-benefit">You gain a +2 trait bonus on saving throws against fear effects.</Pair>
 </Ability>
 <Ability id="traitstrongwilled-strong-willed-fn4-2-fn1-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitstrongwilled-strong-willed-fn4-2-fn1-3"><Link to="/trait/strong_willed">⮞</Link> Strong-Willed <sup><InnerLink showBacklink="backlink-main-traits_religion_cg-fake-fn-4.2" id="main-traits_religion_cg-fake-fn-4.2" data-hash-target to="main-traits_religion_cg-fake-fn-4-target">4</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_cg-fake-fn-1.3" id="main-traits_religion_cg-fake-fn-1.3" data-hash-target to="main-traits_religion_cg-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/cayden_cailean">Cayden Cailean</Link></Pair>
-<Pair single="benefit" id="traitstrongwilled-strong-willed-fn4-2-fn1-3-benefit">Your fervent desire to choose your own path gives you strong willpower. You receive a +2 trait bonus on saving throws against charm and compulsion effects.</Pair>
+<Pair single="flavor" id="traitstrongwilled-strong-willed-fn4-2-fn1-3-flavor">Your fervent desire to choose your own path gives you strong willpower.</Pair>
+<Pair single="benefit" id="traitstrongwilled-strong-willed-fn4-2-fn1-3-benefit">You receive a +2 trait bonus on saving throws against charm and compulsion effects.</Pair>
 </Ability>
 <Ability id="traitfaithfulartist-faithful-artist-fn1-4-fn4-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitfaithfulartist-faithful-artist-fn1-4-fn4-3"><Link to="/trait/faithful_artist">⮞</Link> Faithful Artist <sup><InnerLink showBacklink="backlink-main-traits_religion_cg-fake-fn-1.4" id="main-traits_religion_cg-fake-fn-1.4" data-hash-target to="main-traits_religion_cg-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_cg-fake-fn-4.3" id="main-traits_religion_cg-fake-fn-4.3" data-hash-target to="main-traits_religion_cg-fake-fn-4-target">4</InnerLink></sup></Pair>
@@ -697,37 +745,44 @@ const _traits_religion_cg = {title: "Religion Traits: Chaotic Good", jsx: <IonLi
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/desna">Desna</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitgooddreams-good-dreams-fn6-benefit">Your dreams often give you a hint of possible dangers you might face during your day - such as a fall, a blast of fire, or a poisonous snake - and this hint sometimes makes all the difference. Each time you sleep, the GM tells you of a dangerous dream you had. Once per day, if you have to make a saving throw against a threat related or similar to that dream, you can roll twice and take the more favorable result. If you do not encounter circumstances similar to the threat or situation you dreamed, this trait has no effect that day. If you have the Halfling Jinx alternate racial trait, you cannot select this trait, and vice versa.</Pair>
+<Pair single="flavor" id="traitgooddreams-good-dreams-fn6-flavor">Your dreams often give you a hint of possible dangers you might face during your day - such as a fall, a blast of fire, or a poisonous snake - and this hint sometimes makes all the difference.</Pair>
+<Pair single="benefit" id="traitgooddreams-good-dreams-fn6-benefit"><p>Each time you sleep, the GM tells you of a dangerous dream you had. Once per day, if you have to make a saving throw against a threat related or similar to that dream, you can roll twice and take the more favorable result. If you do not encounter circumstances similar to the threat or situation you dreamed, this trait has no effect that day.</p>
+<p>If you have the <em>Halfling Jinx</em> alternate racial trait, you cannot select this trait, and vice versa.</p>
+</Pair>
 </Ability>
 <Ability id="traitstarchild-starchild-fn2-2-fn7-fn3-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitstarchild-starchild-fn2-2-fn7-fn3-2"><Link to="/trait/starchild">⮞</Link> Starchild <sup><InnerLink showBacklink="backlink-main-traits_religion_cg-fake-fn-2.2" id="main-traits_religion_cg-fake-fn-2.2" data-hash-target to="main-traits_religion_cg-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_cg-fake-fn-7" id="main-traits_religion_cg-fake-fn-7" data-hash-target to="main-traits_religion_cg-fake-fn-7-target">7</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_cg-fake-fn-3.2" id="main-traits_religion_cg-fake-fn-3.2" data-hash-target to="main-traits_religion_cg-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/desna">Desna</Link></Pair>
-<Pair single="benefit" id="traitstarchild-starchild-fn2-2-fn7-fn3-2-benefit">Desna sensed your love of travel and promised you would always be able to find your way home. You can automatically determine where true north is. You gain a +4 trait bonus on Survival checks to avoid becoming lost.</Pair>
+<Pair single="flavor" id="traitstarchild-starchild-fn2-2-fn7-fn3-2-flavor">Desna sensed your love of travel and promised you would always be able to find your way home.</Pair>
+<Pair single="benefit" id="traitstarchild-starchild-fn2-2-fn7-fn3-2-benefit">You can automatically determine where true north is. You gain a +4 trait bonus on <Link to="/skill/survival">Survival</Link> checks to avoid becoming lost.</Pair>
 </Ability>
 <Ability id="traitstoicoptimism-stoic-optimism-fn1-5-fn4-4" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitstoicoptimism-stoic-optimism-fn1-5-fn4-4"><Link to="/trait/stoic_optimism">⮞</Link> Stoic Optimism <sup><InnerLink showBacklink="backlink-main-traits_religion_cg-fake-fn-1.5" id="main-traits_religion_cg-fake-fn-1.5" data-hash-target to="main-traits_religion_cg-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_cg-fake-fn-4.4" id="main-traits_religion_cg-fake-fn-4.4" data-hash-target to="main-traits_religion_cg-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/desna">Desna</Link></Pair>
-<Pair single="benefit" id="traitstoicoptimism-stoic-optimism-fn1-5-fn4-4-benefit">You realize that accepting the pain in life accentuates its joys by contrast, and so your hope sustains you where others despair. You receive a +2 trait bonus on saving throws against fear effects.</Pair>
+<Pair single="flavor" id="traitstoicoptimism-stoic-optimism-fn1-5-fn4-4-flavor">You realize that accepting the pain in life accentuates its joys by contrast, and so your hope sustains you where others despair.</Pair>
+<Pair single="benefit" id="traitstoicoptimism-stoic-optimism-fn1-5-fn4-4-benefit">You receive a +2 trait bonus on saving throws against fear effects.</Pair>
 </Ability>
 <Ability id="traitthrillseekerisg-thrill-seeker-isg-fn1-6" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitthrillseekerisg-thrill-seeker-isg-fn1-6"><Link to="/trait/thrill_seeker_isg">⮞</Link> Thrill-Seeker (ISG) <sup><InnerLink showBacklink="backlink-main-traits_religion_cg-fake-fn-1.6" id="main-traits_religion_cg-fake-fn-1.6" data-hash-target to="main-traits_religion_cg-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/desna">Desna</Link></Pair>
-<Pair single="benefit" id="traitthrillseekerisg-thrill-seeker-isg-fn1-6-benefit">Desna has blessed you not just with a love of taking chances, but also the fortune to come out of such risky situations unscathed. Once per day, when you attempt an Acrobatics check, you can roll twice and take the better result. You must choose to use this ability before making the check.</Pair>
+<Pair single="flavor" id="traitthrillseekerisg-thrill-seeker-isg-fn1-6-flavor">Desna has blessed you not just with a love of taking chances, but also the fortune to come out of such risky situations unscathed.</Pair>
+<Pair single="benefit" id="traitthrillseekerisg-thrill-seeker-isg-fn1-6-benefit">Once per day, when you attempt an <Link to="/skill/acrobatics">Acrobatics</Link> check, you can roll twice and take the better result. You must choose to use this ability before making the check.</Pair>
 </Ability>
 <Ability id="traitsplitseconddefense-split-second-defense-fn1-7" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitsplitseconddefense-split-second-defense-fn1-7"><Link to="/trait/split_second_defense">⮞</Link> Split-Second Defense <sup><InnerLink showBacklink="backlink-main-traits_religion_cg-fake-fn-1.7" id="main-traits_religion_cg-fake-fn-1.7" data-hash-target to="main-traits_religion_cg-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/milani">Milani</Link></Pair>
-<Pair single="benefit" id="traitsplitseconddefense-split-second-defense-fn1-7-benefit">When you are the target of an attack by an opponent that is flanking you, as an immediate action once per day you can foil that opponent's attack. For that attack, the opponent does not gain any of the bonuses or effects that are associated with flanking.</Pair>
+<Pair single="benefit" id="traitsplitseconddefense-split-second-defense-fn1-7-benefit">When you are the target of an attack by an opponent that is <Link to="/rule/flanking">flanking</Link> you, as an <strong className="hl">immediate action</strong> once per day you can foil that opponent's attack. For that attack, the opponent does not gain any of the bonuses or effects that are associated with flanking.</Pair>
 </Ability>
 <Ability id="traittalentedorganizer-talented-organizer-fn1-8-fn4-5" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traittalentedorganizer-talented-organizer-fn1-8-fn4-5"><Link to="/trait/talented_organizer">⮞</Link> Talented Organizer <sup><InnerLink showBacklink="backlink-main-traits_religion_cg-fake-fn-1.8" id="main-traits_religion_cg-fake-fn-1.8" data-hash-target to="main-traits_religion_cg-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_cg-fake-fn-4.5" id="main-traits_religion_cg-fake-fn-4.5" data-hash-target to="main-traits_religion_cg-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/milani">Milani</Link></Pair>
-<Pair single="benefit" id="traittalentedorganizer-talented-organizer-fn1-8-fn4-5-benefit">You are both skilled and knowledgeable when at putting together strong resistance organizations, thanks to your keen sense of how to motivate people. You gain a +1 trait bonus on Sense Motive skill checks, and Sense Motive is a class skill for you.</Pair>
+<Pair single="flavor" id="traittalentedorganizer-talented-organizer-fn1-8-fn4-5-flavor">You are both skilled and knowledgeable when at putting together strong resistance organizations, thanks to your keen sense of how to motivate people.</Pair>
+<Pair single="benefit" id="traittalentedorganizer-talented-organizer-fn1-8-fn4-5-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> skill checks, and Sense Motive is a class skill for you.</Pair>
 </Ability>
 <section data-footnotes><h3 id="main-traits_religion_cg-label">Footnotes</h3><ol>
 <li id="main-traits_religion_cg-fake-fn-1-target"><p><Link to="/source/inner_sea_gods">Inner Sea Gods</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_cg-fake-fn-1" data-hash-target to="main-traits_religion_cg-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_cg-fake-fn-1.2" data-hash-target to="main-traits_religion_cg-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_cg-fake-fn-1.3" data-hash-target to="main-traits_religion_cg-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_cg-fake-fn-1.4" data-hash-target to="main-traits_religion_cg-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_cg-fake-fn-1.5" data-hash-target to="main-traits_religion_cg-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_cg-fake-fn-1.6" data-hash-target to="main-traits_religion_cg-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_cg-fake-fn-1.7" data-hash-target to="main-traits_religion_cg-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_cg-fake-fn-1.8" data-hash-target to="main-traits_religion_cg-fake-fn-1.8">↩<sup>8</sup></InnerLink></p></li>
@@ -798,51 +853,59 @@ const _traits_religion_cn = {title: "Religion Traits: Chaotic Neutral", jsx: <Io
 <Pair single id="traitholyschemer-holy-schemer-fn2-4-fn5-2"><Link to="/trait/holy_schemer">⮞</Link> Holy Schemer <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-2.4" id="main-traits_religion_cn-fake-fn-2.4" data-hash-target to="main-traits_religion_cn-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-5.2" id="main-traits_religion_cn-fake-fn-5.2" data-hash-target to="main-traits_religion_cn-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/calistria">Calistria</Link></Pair>
-<Pair single="benefit" id="traitholyschemer-holy-schemer-fn2-4-fn5-2-benefit">You are well versed in the arts of misdirection, plotting, and intrigue, and you know how to recognize these tactics when they're used against you. You receive a +1 trait bonus on Sense Motive checks, and Sense Motive is a class skill for you.</Pair>
+<Pair single="flavor" id="traitholyschemer-holy-schemer-fn2-4-fn5-2-flavor">You are well versed in the arts of misdirection, plotting, and intrigue, and you know how to recognize these tactics when they're used against you.</Pair>
+<Pair single="benefit" id="traitholyschemer-holy-schemer-fn2-4-fn5-2-benefit">You receive a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks, and Sense Motive is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitopportunistic-opportunistic-fn2-5-fn5-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitopportunistic-opportunistic-fn2-5-fn5-3"><Link to="/trait/opportunistic">⮞</Link> Opportunistic <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-2.5" id="main-traits_religion_cn-fake-fn-2.5" data-hash-target to="main-traits_religion_cn-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-5.3" id="main-traits_religion_cn-fake-fn-5.3" data-hash-target to="main-traits_religion_cn-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/calistria">Calistria</Link></Pair>
-<Pair single="benefit" id="traitopportunistic-opportunistic-fn2-5-fn5-3-benefit">You have learned to recognize openings that your foes leave, and you know how to take advantage of them. You gain a +1 trait bonus on attacks of opportunity when using a dagger, sword, or whip.</Pair>
+<Pair single="flavor" id="traitopportunistic-opportunistic-fn2-5-fn5-3-flavor">You have learned to recognize openings that your foes leave, and you know how to take advantage of them.</Pair>
+<Pair single="benefit" id="traitopportunistic-opportunistic-fn2-5-fn5-3-benefit">You gain a +1 trait bonus on attacks of opportunity when using a <Link to="/eq-weapon/dagger">dagger</Link>, sword, or <Link to="/eq-weapon/whip">whip</Link>.</Pair>
 </Ability>
 <Ability id="traitsacredavenger-sacred-avenger-fn8-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitsacredavenger-sacred-avenger-fn8-2"><Link to="/trait/sacred_avenger">⮞</Link> Sacred Avenger <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-8.2" id="main-traits_religion_cn-fake-fn-8.2" data-hash-target to="main-traits_religion_cn-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/calistria">Calistria</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
-<Pair single="benefit" id="traitsacredavenger-sacred-avenger-fn8-2-benefit">You have a special connection between you and Calistria that enhances your ability to achieve vengeance. When a creature damages you with a weapon, on your next turn you gain a +1 trait bonus on weapon damage against that creature. If this creature is your <em>ilduliel</em> (a personal, mutual nemesis), this bonus increases to +2.</Pair>
+<Pair single="flavor" id="traitsacredavenger-sacred-avenger-fn8-2-flavor">You have a special connection between you and Calistria that enhances your ability to achieve vengeance.</Pair>
+<Pair single="benefit" id="traitsacredavenger-sacred-avenger-fn8-2-benefit">When a creature damages you with a weapon, on your next turn you gain a +1 trait bonus on weapon damage against that creature. If this creature is your <em>ilduliel</em> (a personal, mutual nemesis), this bonus increases to +2.</Pair>
 </Ability>
 <Ability id="traitwaspwhisperer-wasp-whisperer-fn8-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitwaspwhisperer-wasp-whisperer-fn8-3"><Link to="/trait/wasp_whisperer">⮞</Link> Wasp Whisperer <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-8.3" id="main-traits_religion_cn-fake-fn-8.3" data-hash-target to="main-traits_religion_cn-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/calistria">Calistria</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
-<Pair single="benefit" id="traitwaspwhisperer-wasp-whisperer-fn8-3-benefit">Your association with Calistria's church has toughened your flesh against venom and blessed you with the ability to influence wasps and similar insectile vermin. You gain a +1 trait bonus on Fortitude saving throws against poison. You may make Diplomacy checks (or <Link to="/ability/wild_empathy">wild empathy</Link> checks if you are a druid or ranger) to improve a Hostile or Unfriendly insectile vermin's attitude toward Indifferent.</Pair>
+<Pair single="flavor" id="traitwaspwhisperer-wasp-whisperer-fn8-3-flavor">Your association with Calistria's church has toughened your flesh against venom and blessed you with the ability to influence wasps and similar insectile vermin.</Pair>
+<Pair single="benefit" id="traitwaspwhisperer-wasp-whisperer-fn8-3-benefit">You gain a +1 trait bonus on Fortitude saving throws against poison. You may make <Link to="/skill/diplomacy">Diplomacy</Link> checks (or <Link to="/ability/wild_empathy">wild empathy</Link> checks if you are a druid or ranger) to improve a Hostile or Unfriendly insectile vermin's attitude toward Indifferent.</Pair>
 </Ability>
 <Ability id="traitirongrip-iron-grip-fn2-6-fn5-4" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitirongrip-iron-grip-fn2-6-fn5-4"><Link to="/trait/iron_grip">⮞</Link> Iron Grip <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-2.6" id="main-traits_religion_cn-fake-fn-2.6" data-hash-target to="main-traits_religion_cn-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-5.4" id="main-traits_religion_cn-fake-fn-5.4" data-hash-target to="main-traits_religion_cn-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gorum">Gorum</Link></Pair>
-<Pair single="benefit" id="traitirongrip-iron-grip-fn2-6-fn5-4-benefit">You and your weapon are practically one. You receive a +2 trait bonus to your CMD against disarm attempts.</Pair>
+<Pair single="flavor" id="traitirongrip-iron-grip-fn2-6-fn5-4-flavor">You and your weapon are practically one.</Pair>
+<Pair single="benefit" id="traitirongrip-iron-grip-fn2-6-fn5-4-benefit">You receive a +2 trait bonus to your CMD against <Link to="/rule/disarm">disarm</Link> attempts.</Pair>
 </Ability>
 <Ability id="traitshieldtrained-shield-trained-fn2-7" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitshieldtrained-shield-trained-fn2-7"><Link to="/trait/shield_trained">⮞</Link> Shield-Trained <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-2.7" id="main-traits_religion_cn-fake-fn-2.7" data-hash-target to="main-traits_religion_cn-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gorum">Gorum</Link></Pair>
-<Pair single="benefit" id="traitshieldtrained-shield-trained-fn2-7-benefit">You were trained to use shields as weapons. Heavy and light shields are considered simple weapons rather than martial weapons for you. Heavy shields are considered light weapons for you.</Pair>
+<Pair single="flavor" id="traitshieldtrained-shield-trained-fn2-7-flavor">You were trained to use shields as weapons.</Pair>
+<Pair single="benefit" id="traitshieldtrained-shield-trained-fn2-7-benefit">Heavy and <Link to="/eq-armor/light_shield">light shields</Link> are considered simple weapons rather than martial weapons for you. <Link to="/eq-armor/heavy_shield">Heavy shields</Link> are considered light weapons for you.</Pair>
 </Ability>
 <Ability id="traitstrongheart-strong-heart-fn2-8-fn5-5" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitstrongheart-strong-heart-fn2-8-fn5-5"><Link to="/trait/strong_heart">⮞</Link> Strong Heart <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-2.8" id="main-traits_religion_cn-fake-fn-2.8" data-hash-target to="main-traits_religion_cn-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-5.5" id="main-traits_religion_cn-fake-fn-5.5" data-hash-target to="main-traits_religion_cn-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gorum">Gorum</Link></Pair>
-<Pair single="benefit" id="traitstrongheart-strong-heart-fn2-8-fn5-5-benefit">You can stand firm against even the most terrifying foes. You gain a +1 trait bonus on saves against fear effects, and the DC of Intimidate checks against you increases by 2.</Pair>
+<Pair single="flavor" id="traitstrongheart-strong-heart-fn2-8-fn5-5-flavor">You can stand firm against even the most terrifying foes.</Pair>
+<Pair single="benefit" id="traitstrongheart-strong-heart-fn2-8-fn5-5-benefit">You gain a +1 trait bonus on saves against fear effects, and the DC of <Link to="/skill/intimidate">Intimidate</Link> checks against you increases by 2.</Pair>
 </Ability>
 <Ability id="traitveteranofbattle-veteran-of-battle-fn6-2-fn7-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitveteranofbattle-veteran-of-battle-fn6-2-fn7-2"><Link to="/trait/veteran_of_battle">⮞</Link> Veteran of Battle <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-6.2" id="main-traits_religion_cn-fake-fn-6.2" data-hash-target to="main-traits_religion_cn-fake-fn-6-target">6</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-7.2" id="main-traits_religion_cn-fake-fn-7.2" data-hash-target to="main-traits_religion_cn-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gorum">Gorum</Link></Pair>
-<Pair single="benefit" id="traitveteranofbattle-veteran-of-battle-fn6-2-fn7-2-benefit">You have fought in several battles, and each time felt the presence of Gorum guiding your sword-arm, making you ready to act at a moment's notice. You gain a +1 trait bonus on initiative checks, and if you are able to act during a surprise round, you may draw a weapon (but not a potion or magic item) as a free action during that round.</Pair>
+<Pair single="flavor" id="traitveteranofbattle-veteran-of-battle-fn6-2-fn7-2-flavor">You have fought in several battles, and each time felt the presence of Gorum guiding your sword-arm, making you ready to act at a moment's notice.</Pair>
+<Pair single="benefit" id="traitveteranofbattle-veteran-of-battle-fn6-2-fn7-2-benefit">You gain a +1 trait bonus on initiative checks, and if you are able to act during a surprise round, you may draw a weapon (but not a potion or magic item) as a <strong className="hl">free action</strong> during that round.</Pair>
 </Ability>
 <Ability id="traitbrokenmind-broken-mind-fn2-9-fn5-6" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitbrokenmind-broken-mind-fn2-9-fn5-6"><Link to="/trait/broken_mind">⮞</Link> Broken Mind <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-2.9" id="main-traits_religion_cn-fake-fn-2.9" data-hash-target to="main-traits_religion_cn-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-5.6" id="main-traits_religion_cn-fake-fn-5.6" data-hash-target to="main-traits_religion_cn-fake-fn-5-target">5</InnerLink></sup></Pair>
@@ -854,13 +917,15 @@ const _traits_religion_cn = {title: "Religion Traits: Chaotic Neutral", jsx: <Io
 <Pair single id="traitlightsleeper-light-sleeper-fn2-10"><Link to="/trait/light_sleeper">⮞</Link> Light Sleeper <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-2.10" id="main-traits_religion_cn-fake-fn-2.10" data-hash-target to="main-traits_religion_cn-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/hanspur">Hanspur</Link></Pair>
-<Pair single="benefit" id="traitlightsleeper-light-sleeper-fn2-10-benefit">Because of a blessing from your god, or worries inspired by the way he died as a mortal, you are a light sleeper. Your modifier to Perception DCs when sleeping is +5 instead of +10.</Pair>
+<Pair single="flavor" id="traitlightsleeper-light-sleeper-fn2-10-flavor">Because of a blessing from your god, or worries inspired by the way he died as a mortal, you are a light sleeper.</Pair>
+<Pair single="benefit" id="traitlightsleeper-light-sleeper-fn2-10-benefit">Your modifier to <Link to="/skill/perception">Perception</Link> DCs when sleeping is +5 instead of +10.</Pair>
 </Ability>
 <Ability id="traitriverfreedom-river-freedom-fn2-11-fn5-7" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitriverfreedom-river-freedom-fn2-11-fn5-7"><Link to="/trait/river_freedom">⮞</Link> River Freedom <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-2.11" id="main-traits_religion_cn-fake-fn-2.11" data-hash-target to="main-traits_religion_cn-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_cn-fake-fn-5.7" id="main-traits_religion_cn-fake-fn-5.7" data-hash-target to="main-traits_religion_cn-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/hanspur">Hanspur</Link></Pair>
-<Pair single="benefit" id="traitriverfreedom-river-freedom-fn2-11-fn5-7-benefit">The freedom of water inspires you. While touching flowing water, you gain a +2 trait bonus on saving throws against effects that would hamper your movement.</Pair>
+<Pair single="flavor" id="traitriverfreedom-river-freedom-fn2-11-fn5-7-flavor">The freedom of water inspires you.</Pair>
+<Pair single="benefit" id="traitriverfreedom-river-freedom-fn2-11-fn5-7-benefit">While touching flowing water, you gain a +2 trait bonus on saving throws against effects that would hamper your movement.</Pair>
 </Ability>
 <section data-footnotes><h3 id="main-traits_religion_cn-label">Footnotes</h3><ol>
 <li id="main-traits_religion_cn-fake-fn-1-target"><p><Link to="/source/blood_of_the_beast">Blood of the Beast</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_cn-fake-fn-1" data-hash-target to="main-traits_religion_cn-fake-fn-1">↩</InnerLink></p></li>
@@ -897,7 +962,8 @@ const _traits_religion_ce = {title: "Religion Traits: Chaotic Evil", jsx: <IonLi
 <Pair single id="traitpotentconcoctions-potent-concoctions-fn1-4-fn2-2"><Link to="/trait/potent_concoctions">⮞</Link> Potent Concoctions <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-1.4" id="main-traits_religion_ce-fake-fn-1.4" data-hash-target to="main-traits_religion_ce-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-2.2" id="main-traits_religion_ce-fake-fn-2.2" data-hash-target to="main-traits_religion_ce-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ghlaunder">Ghlaunder</Link></Pair>
-<Pair single="benefit" id="traitpotentconcoctions-potent-concoctions-fn1-4-fn2-2-benefit">You have dedicated your life to honoring famine and disease. Choose any two <Link to="/main/equipment_poisons">poisons</Link>; when you attempt to inflict either of these poisons on an enemy, the DC to resist it increases by 1.</Pair>
+<Pair single="flavor" id="traitpotentconcoctions-potent-concoctions-fn1-4-fn2-2-flavor">You have dedicated your life to honoring famine and disease.</Pair>
+<Pair single="benefit" id="traitpotentconcoctions-potent-concoctions-fn1-4-fn2-2-benefit">Choose any two <Link to="/main/equipment_poisons">poisons</Link>; when you attempt to inflict either of these poisons on an enemy, the DC to resist it increases by 1.</Pair>
 </Ability>
 <Ability id="traitvindictivestrike-vindictive-strike-fn2-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitvindictivestrike-vindictive-strike-fn2-3"><Link to="/trait/vindictive_strike">⮞</Link> Vindictive Strike <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-2.3" id="main-traits_religion_ce-fake-fn-2.3" data-hash-target to="main-traits_religion_ce-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -909,7 +975,8 @@ const _traits_religion_ce = {title: "Religion Traits: Chaotic Evil", jsx: <IonLi
 <Pair single id="traitwronged-wronged-fn1-5"><Link to="/trait/wronged">⮞</Link> Wronged <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-1.5" id="main-traits_religion_ce-fake-fn-1.5" data-hash-target to="main-traits_religion_ce-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/gyronna">Gyronna</Link></Pair>
-<Pair single="benefit" id="traitwronged-wronged-fn1-5-benefit">Somewhere in your past, you were taken advantage of because of your gender. You gain a +2 trait bonus on Sense Motive checks against male creatures of your race, and the DC for men to intimidate you increases by 2.</Pair>
+<Pair single="flavor" id="traitwronged-wronged-fn1-5-flavor">Somewhere in your past, you were taken advantage of because of your gender.</Pair>
+<Pair single="benefit" id="traitwronged-wronged-fn1-5-benefit">You gain a +2 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks against male creatures of your race, and the DC for men to intimidate you increases by 2.</Pair>
 </Ability>
 <Ability id="traitdeformed-deformed-fn1-6-fn2-4" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitdeformed-deformed-fn1-6-fn2-4"><Link to="/trait/deformed">⮞</Link> Deformed <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-1.6" id="main-traits_religion_ce-fake-fn-1.6" data-hash-target to="main-traits_religion_ce-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-2.4" id="main-traits_religion_ce-fake-fn-2.4" data-hash-target to="main-traits_religion_ce-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -921,20 +988,23 @@ const _traits_religion_ce = {title: "Religion Traits: Chaotic Evil", jsx: <IonLi
 <Pair single id="traitmothersrage-mothers-rage-fn3"><Link to="/trait/mothers_rage">⮞</Link> Mother's Rage <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-3" id="main-traits_religion_ce-fake-fn-3" data-hash-target to="main-traits_religion_ce-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lamashtu">Lamashtu</Link></Pair>
-<Pair single="benefit" id="traitmothersrage-mothers-rage-fn3-benefit">The blood of the beast runs thick in your veins, and your appearance is bestial. You receive a +1 trait bonus on Survival checks, and you treat your caster level as +1 higher when summoning creatures.</Pair>
+<Pair single="flavor" id="traitmothersrage-mothers-rage-fn3-flavor">The blood of the beast runs thick in your veins, and your appearance is bestial.</Pair>
+<Pair single="benefit" id="traitmothersrage-mothers-rage-fn3-benefit">You receive a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks, and you treat your caster level as +1 higher when summoning creatures.</Pair>
 </Ability>
 <Ability id="traitmothersteeth-mothers-teeth-fn4" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitmothersteeth-mothers-teeth-fn4"><Link to="/trait/mothers_teeth">⮞</Link> Mother's Teeth <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-4" id="main-traits_religion_ce-fake-fn-4" data-hash-target to="main-traits_religion_ce-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lamashtu">Lamashtu</Link></Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
-<Pair single="benefit" id="traitmothersteeth-mothers-teeth-fn4-benefit">Your teeth are more jagged and pointed than normal. You can make a bite attack for 1d2 points of damage as a secondary attack.</Pair>
+<Pair single="flavor" id="traitmothersteeth-mothers-teeth-fn4-flavor">Your teeth are more jagged and pointed than normal.</Pair>
+<Pair single="benefit" id="traitmothersteeth-mothers-teeth-fn4-benefit">You can make a <Link to="/umr/bite_attack">bite attack</Link> for 1d2 points of damage as a secondary attack.</Pair>
 </Ability>
 <Ability id="traitopportuneslayer-opportune-slayer-fn1-7" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitopportuneslayer-opportune-slayer-fn1-7"><Link to="/trait/opportune_slayer">⮞</Link> Opportune Slayer <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-1.7" id="main-traits_religion_ce-fake-fn-1.7" data-hash-target to="main-traits_religion_ce-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lamashtu">Lamashtu</Link></Pair>
-<Pair single="benefit" id="traitopportuneslayer-opportune-slayer-fn1-7-benefit">Those who open themselves to your attacks feel your wrath. You gain a +2 trait bonus on damage rolls against those you hit with attacks of opportunity.</Pair>
+<Pair single="flavor" id="traitopportuneslayer-opportune-slayer-fn1-7-flavor">Those who open themselves to your attacks feel your wrath.</Pair>
+<Pair single="benefit" id="traitopportuneslayer-opportune-slayer-fn1-7-benefit">You gain a +2 trait bonus on damage rolls against those you hit with attacks of opportunity.</Pair>
 </Ability>
 <Ability id="traitunhingedmentality-unhinged-mentality-fn1-8-fn2-5" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitunhingedmentality-unhinged-mentality-fn1-8-fn2-5"><Link to="/trait/unhinged_mentality">⮞</Link> Unhinged Mentality <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-1.8" id="main-traits_religion_ce-fake-fn-1.8" data-hash-target to="main-traits_religion_ce-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-2.5" id="main-traits_religion_ce-fake-fn-2.5" data-hash-target to="main-traits_religion_ce-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -946,7 +1016,8 @@ const _traits_religion_ce = {title: "Religion Traits: Chaotic Evil", jsx: <IonLi
 <Pair single id="traitvoiceofmonsters-voice-of-monsters-fn5"><Link to="/trait/voice_of_monsters">⮞</Link> Voice of Monsters <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-5" id="main-traits_religion_ce-fake-fn-5" data-hash-target to="main-traits_religion_ce-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/lamashtu">Lamashtu</Link></Pair>
-<Pair single="benefit" id="traitvoiceofmonsters-voice-of-monsters-fn5-benefit">Your faith leads you to see the power and wonder in even the most horrible abominations. Once per day, you can cast speak with animals. When you cast this spell, it can affect animals (as normal) as well as aberrations and magical beasts with an Intelligence of 2 or lower.</Pair>
+<Pair single="flavor" id="traitvoiceofmonsters-voice-of-monsters-fn5-flavor">Your faith leads you to see the power and wonder in even the most horrible abominations.</Pair>
+<Pair single="benefit" id="traitvoiceofmonsters-voice-of-monsters-fn5-benefit">Once per day, you can cast <Link to="/spell/speak_with_animals">speak with animals</Link>. When you cast this spell, it can affect animals (as normal) as well as aberrations and magical beasts with an Intelligence of 2 or lower.</Pair>
 </Ability>
 <Ability id="traitbestialwrath-bestial-wrath-fn1-9" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitbestialwrath-bestial-wrath-fn1-9"><Link to="/trait/bestial_wrath">⮞</Link> Bestial Wrath <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-1.9" id="main-traits_religion_ce-fake-fn-1.9" data-hash-target to="main-traits_religion_ce-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -973,25 +1044,28 @@ const _traits_religion_ce = {title: "Religion Traits: Chaotic Evil", jsx: <IonLi
 <Pair single id="traithatredofthegods-hatred-of-the-gods-fn1-11-fn2-7"><Link to="/trait/hatred_of_the_gods">⮞</Link> Hatred of the Gods <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-1.11" id="main-traits_religion_ce-fake-fn-1.11" data-hash-target to="main-traits_religion_ce-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-2.7" id="main-traits_religion_ce-fake-fn-2.7" data-hash-target to="main-traits_religion_ce-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/rovagug">Rovagug</Link></Pair>
-<Pair single="benefit" id="traithatredofthegods-hatred-of-the-gods-fn1-11-fn2-7-benefit">Your god's own hatred of other deities is reflected in your ability to withstand the attacks of their followers. You gain a +1 trait bonus on saving throws made against divine spells.</Pair>
+<Pair single="flavor" id="traithatredofthegods-hatred-of-the-gods-fn1-11-fn2-7-flavor">Your god's own hatred of other deities is reflected in your ability to withstand the attacks of their followers.</Pair>
+<Pair single="benefit" id="traithatredofthegods-hatred-of-the-gods-fn1-11-fn2-7-benefit">You gain a +1 trait bonus on saving throws made against divine spells.</Pair>
 </Ability>
 <Ability id="traitsacredsmasher-sacred-smasher-fn3-3" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitsacredsmasher-sacred-smasher-fn3-3"><Link to="/trait/sacred_smasher">⮞</Link> Sacred Smasher <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-3.3" id="main-traits_religion_ce-fake-fn-3.3" data-hash-target to="main-traits_religion_ce-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/rovagug">Rovagug</Link></Pair>
-<Pair single="benefit" id="traitsacredsmasher-sacred-smasher-fn3-3-benefit">Your love of carnage extends even to the defenseless, inanimate objects around you. Whenever you make an attempt to break an object, you receive a +2 trait bonus on your Strength check.</Pair>
+<Pair single="flavor" id="traitsacredsmasher-sacred-smasher-fn3-3-flavor">Your love of carnage extends even to the defenseless, inanimate objects around you.</Pair>
+<Pair single="benefit" id="traitsacredsmasher-sacred-smasher-fn3-3-benefit">Whenever you make an attempt to break an object, you receive a +2 trait bonus on your Strength check.</Pair>
 </Ability>
 <Ability id="traitwreckingwrath-wrecking-wrath-fn5-2" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitwreckingwrath-wrecking-wrath-fn5-2"><Link to="/trait/wrecking_wrath">⮞</Link> Wrecking Wrath <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-5.2" id="main-traits_religion_ce-fake-fn-5.2" data-hash-target to="main-traits_religion_ce-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/rovagug">Rovagug</Link></Pair>
-<Pair single="benefit" id="traitwreckingwrath-wrecking-wrath-fn5-2-benefit">Your ferocity is devastating, sometimes even to your own weapons. Once per day, after successful hitting a foe with a melee weapon, you can add your Strength modifier to the damage roll a second time (your Strength Modifier is not doubled if you are using a two-handed weapon). Doing so has a 25% chance of giving your weapon the broken condition.</Pair>
+<Pair single="flavor" id="traitwreckingwrath-wrecking-wrath-fn5-2-flavor">Your ferocity is devastating, sometimes even to your own weapons.</Pair>
+<Pair single="benefit" id="traitwreckingwrath-wrecking-wrath-fn5-2-benefit">Once per day, after successful hitting a foe with a melee weapon, you can add your Strength modifier to the damage roll a second time (your Strength Modifier is not doubled if you are using a two-handed weapon). Doing so has a 25% chance of giving your weapon the <Link to="/misc/broken">broken</Link> condition.</Pair>
 </Ability>
 <Ability id="traitserpentinesqueeze-serpentine-squeeze-fn1-12-fn2-8" extraClasses="trait" icon={["prayer"]}>
 <Pair single id="traitserpentinesqueeze-serpentine-squeeze-fn1-12-fn2-8"><Link to="/trait/serpentine_squeeze">⮞</Link> Serpentine Squeeze <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-1.12" id="main-traits_religion_ce-fake-fn-1.12" data-hash-target to="main-traits_religion_ce-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_religion_ce-fake-fn-2.8" id="main-traits_religion_ce-fake-fn-2.8" data-hash-target to="main-traits_religion_ce-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Religion</Pair>
 <Pair title="Religion" hl><Link to="/faith/ydersius">Ydersius</Link></Pair>
-<Pair single="benefit" id="traitserpentinesqueeze-serpentine-squeeze-fn1-12-fn2-8-benefit">You gain a +1 trait bonus on combat maneuver checks to grapple a foe, as well as a +1 trait bonus to your CMD whenever an opponent tries to grapple you.</Pair>
+<Pair single="benefit" id="traitserpentinesqueeze-serpentine-squeeze-fn1-12-fn2-8-benefit">You gain a +1 trait bonus on combat maneuver checks to <Link to="/rule/grapple">grapple</Link> a foe, as well as a +1 trait bonus to your CMD whenever an opponent tries to grapple you.</Pair>
 </Ability>
 <section data-footnotes><h3 id="main-traits_religion_ce-label">Footnotes</h3><ol>
 <li id="main-traits_religion_ce-fake-fn-1-target"><p><Link to="/source/inner_sea_gods">Inner Sea Gods</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ce-fake-fn-1" data-hash-target to="main-traits_religion_ce-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ce-fake-fn-1.2" data-hash-target to="main-traits_religion_ce-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ce-fake-fn-1.3" data-hash-target to="main-traits_religion_ce-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ce-fake-fn-1.4" data-hash-target to="main-traits_religion_ce-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ce-fake-fn-1.5" data-hash-target to="main-traits_religion_ce-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ce-fake-fn-1.6" data-hash-target to="main-traits_religion_ce-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ce-fake-fn-1.7" data-hash-target to="main-traits_religion_ce-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ce-fake-fn-1.8" data-hash-target to="main-traits_religion_ce-fake-fn-1.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ce-fake-fn-1.9" data-hash-target to="main-traits_religion_ce-fake-fn-1.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ce-fake-fn-1.10" data-hash-target to="main-traits_religion_ce-fake-fn-1.10">↩<sup>10</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ce-fake-fn-1.11" data-hash-target to="main-traits_religion_ce-fake-fn-1.11">↩<sup>11</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_religion_ce-fake-fn-1.12" data-hash-target to="main-traits_religion_ce-fake-fn-1.12">↩<sup>12</sup></InnerLink></p></li>
