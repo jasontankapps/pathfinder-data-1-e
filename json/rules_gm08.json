@@ -2158,6 +2158,7 @@
 		]
 	},
 	"snow": { "redirect": "rain_snow_sleet_and_hail" },
+	"rain": { "redirect": "rain_snow_sleet_and_hail" },
 	"storms": {
 		"name": "Storms",
 		"subtitle": "Weather",
