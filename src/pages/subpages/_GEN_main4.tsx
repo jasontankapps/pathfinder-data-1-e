@@ -1782,25 +1782,29 @@ const _traits_planet = {title: "Regional Traits: Planets", jsx: <IonList lines="
 <Pair single id="traitaballonianresilience-aballonian-resilience-fn1"><Link to="/trait/aballonian_resilience">⮞</Link> Aballonian Resilience <sup><InnerLink showBacklink="backlink-main-traits_planet-fake-fn-1" id="main-traits_planet-fake-fn-1" data-hash-target to="main-traits_planet-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Aballon</Pair>
-<Pair single="benefit" id="traitaballonianresilience-aballonian-resilience-fn1-benefit">You spent at least part of your youth in Horsethroat and are acclimated to the frigid cold of Aballon's Ice Wells. You gain a +4 trait bonus on saves to avoid nonlethal damage from cold environments. In addition, you begin play with a <Link to="/eq-misc/cold_weather_outfit">cold-weather outfit</Link> at no cost.</Pair>
+<Pair single="flavor" id="traitaballonianresilience-aballonian-resilience-fn1-flavor">You spent at least part of your youth in Horsethroat and are acclimated to the frigid cold of Aballon's Ice Wells.</Pair>
+<Pair single="benefit" id="traitaballonianresilience-aballonian-resilience-fn1-benefit">You gain a +4 trait bonus on saves to avoid nonlethal damage from <Link to="/rule/cold">cold environments</Link>. In addition, you begin play with a <Link to="/eq-misc/cold_weather_outfit">cold-weather outfit</Link> at no cost.</Pair>
 </Ability>
 <Ability id="traitakitonianferocity-akitonian-ferocity-fn1-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitakitonianferocity-akitonian-ferocity-fn1-2"><Link to="/trait/akitonian_ferocity">⮞</Link> Akitonian Ferocity <sup><InnerLink showBacklink="backlink-main-traits_planet-fake-fn-1.2" id="main-traits_planet-fake-fn-1.2" data-hash-target to="main-traits_planet-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Akiton</Pair>
-<Pair single="benefit" id="traitakitonianferocity-akitonian-ferocity-fn1-2-benefit">You were raised on Akiton, where you were hardened against the ravages of battle. Once per day, the first time you are brought below 0 hit points but not killed, you can fight on for 1 more round as if disabled. At the end of your next turn, unless brought to above 0 hit points, you immediately fall unconscious and begin dying.</Pair>
+<Pair single="flavor" id="traitakitonianferocity-akitonian-ferocity-fn1-2-flavor">You were raised on Akiton, where you were hardened against the ravages of battle.</Pair>
+<Pair single="benefit" id="traitakitonianferocity-akitonian-ferocity-fn1-2-benefit">Once per day, the first time you are brought below 0 hit points but not killed, you can fight on for 1 more round as if <Link to="/misc/disabled">disabled</Link>. At the end of your next turn, unless brought to above 0 hit points, you immediately fall unconscious and begin <Link to="/misc/dying">dying</Link>.</Pair>
 </Ability>
 <Ability id="traitawakenedfromstasis-awakened-from-stasis-fn1-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitawakenedfromstasis-awakened-from-stasis-fn1-3"><Link to="/trait/awakened_from_stasis">⮞</Link> Awakened from Stasis <sup><InnerLink showBacklink="backlink-main-traits_planet-fake-fn-1.3" id="main-traits_planet-fake-fn-1.3" data-hash-target to="main-traits_planet-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Apostae</Pair>
-<Pair single="benefit" id="traitawakenedfromstasis-awakened-from-stasis-fn1-3-benefit">Although you were born and lived on Golarion, you recently awakened in a strange vault with no memory of how you got there, surrounded by sleeping creatures of every shape and size in smooth glass eggs, all watched over by uncommunicative crab-like automatons. As a side effect of your stasis, you gain all the benefits of 8 hours of sleep in only 2 hours. This allows a spellcaster who must rest to prepare spells to do so after only 2 hours, but does not allow a spellcaster to prepare spells more than once per day.</Pair>
+<Pair single="flavor" id="traitawakenedfromstasis-awakened-from-stasis-fn1-3-flavor">Although you were born and lived on Golarion, you recently awakened in a strange vault with no memory of how you got there, surrounded by sleeping creatures of every shape and size in smooth glass eggs, all watched over by uncommunicative crab-like automatons.</Pair>
+<Pair single="benefit" id="traitawakenedfromstasis-awakened-from-stasis-fn1-3-benefit">As a side effect of your stasis, you gain all the benefits of 8 hours of sleep in only 2 hours. This allows a spellcaster who must rest to prepare spells to do so after only 2 hours, but does not allow a spellcaster to prepare spells more than once per day.</Pair>
 </Ability>
 <Ability id="traitbornunderthegreenstar-born-under-the-green-star-fn1-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitbornunderthegreenstar-born-under-the-green-star-fn1-4"><Link to="/trait/born_under_the_green_star">⮞</Link> Born under the Green Star <sup><InnerLink showBacklink="backlink-main-traits_planet-fake-fn-1.4" id="main-traits_planet-fake-fn-1.4" data-hash-target to="main-traits_planet-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Castrovel</Pair>
-<Pair single="benefit" id="traitbornunderthegreenstar-born-under-the-green-star-fn1-4-benefit">You were born on Castrovel and touched by the planet's profound psychic bounty. Treat your caster level as 1 higher when casting spells and spell-like abilities with the mind-affecting descriptor.</Pair>
+<Pair single="flavor" id="traitbornunderthegreenstar-born-under-the-green-star-fn1-4-flavor">You were born on Castrovel and touched by the planet's profound psychic bounty.</Pair>
+<Pair single="benefit" id="traitbornunderthegreenstar-born-under-the-green-star-fn1-4-benefit">Treat your caster level as 1 higher when casting spells and spell-like abilities with the mind-affecting descriptor.</Pair>
 </Ability>
 <Ability id="traitvoidchild-void-child-fn1-5" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitvoidchild-void-child-fn1-5"><Link to="/trait/void_child">⮞</Link> Void Child <sup><InnerLink showBacklink="backlink-main-traits_planet-fake-fn-1.5" id="main-traits_planet-fake-fn-1.5" data-hash-target to="main-traits_planet-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -1827,7 +1831,8 @@ const _traits_other = {title: "Regional Traits: Other", jsx: <IonList lines="ful
 <Pair single id="traitanuliengineer-anuli-engineer-fn1"><Link to="/trait/anuli_engineer">⮞</Link> Anuli Engineer <sup><InnerLink showBacklink="backlink-main-traits_other-fake-fn-1" id="main-traits_other-fake-fn-1" data-hash-target to="main-traits_other-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Anuli</Pair>
-<Pair single="benefit" id="traitanuliengineer-anuli-engineer-fn1-benefit">Your family helped to rebuild the ruined city of Anuli, and that tradition runs in your blood. You gain a +2 bonus on Perception checks to notice unusual stonework, traps, and hidden doors in worked stone and artificial constructions. Knowledge (engineering) is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitanuliengineer-anuli-engineer-fn1-flavor">Your family helped to rebuild the ruined city of Anuli, and that tradition runs in your blood.</Pair>
+<Pair single="benefit" id="traitanuliengineer-anuli-engineer-fn1-benefit">You gain a +2 bonus on <Link to="/skill/perception">Perception</Link> checks to notice unusual stonework, traps, and hidden doors in worked stone and artificial constructions. <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traitbalancededucation-balanced-education-fn1-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitbalancededucation-balanced-education-fn1-2"><Link to="/trait/balanced_education">⮞</Link> Balanced Education <sup><InnerLink showBacklink="backlink-main-traits_other-fake-fn-1.2" id="main-traits_other-fake-fn-1.2" data-hash-target to="main-traits_other-fake-fn-1-target">1</InnerLink></sup></Pair>

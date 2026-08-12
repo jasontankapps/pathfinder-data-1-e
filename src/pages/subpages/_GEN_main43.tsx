@@ -1091,13 +1091,17 @@ const _traits_casmaron = {title: "Regional Traits: Casmaron", jsx: <IonList line
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Jalmeray</Pair>
 <Pair title="Requirements" hl><Link to="/race/oread">Oread</Link></Pair>
-<Pair single="benefit" id="traitalabasterodalisque-alabaster-odalisque-fn3-benefit">The rajahs of Jalmeray favored you for your stately physique and flawless skin, and so endorsed your candidacy for tutelage at the Conservatory on the island of Grand Sarret. Trained to be the perfect bard, courtesan, or undercover operative, you gain a +1 trait bonus on two Charisma-based skills of your choice. In addition, once per day as a swift action, you can brush your fingers against a closed door or stone wall up to 1 foot thick. Doing so allows you to ignore penalties on Perception checks to listen through the designated object for 1 minute.</Pair>
+<Pair single="flavor" id="traitalabasterodalisque-alabaster-odalisque-fn3-flavor">The rajahs of Jalmeray favored you for your stately physique and flawless skin, and so endorsed your candidacy for tutelage at the Conservatory on the island of Grand Sarret.</Pair>
+<Pair single="benefit" id="traitalabasterodalisque-alabaster-odalisque-fn3-benefit"><p>Trained to be the perfect bard, courtesan, or undercover operative, you gain a +1 trait bonus on two Charisma-based skills of your choice.</p>
+<p>In addition, once per day as a <strong className="hl">swift action</strong>, you can brush your fingers against a closed door or stone wall up to 1 foot thick. Doing so allows you to ignore penalties on <Link to="/skill/perception">Perception</Link> checks to listen through the designated object for 1 minute.</p>
+</Pair>
 </Ability>
 <Ability id="traitcandidateforperfection-candidate-for-perfection-fn4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitcandidateforperfection-candidate-for-perfection-fn4"><Link to="/trait/candidate_for_perfection">⮞</Link> Candidate for Perfection <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-4" id="main-traits_casmaron-fake-fn-4" data-hash-target to="main-traits_casmaron-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Jalmeray</Pair>
-<Pair single="benefit" id="traitcandidateforperfection-candidate-for-perfection-fn4-benefit">You have begun training to enter one of the <Link to="/rule/houses_of_perfection">Houses of Perfection</Link>, and have honed your body, mind, and spirit into one well-trained weapon. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes.</Pair>
+<Pair single="flavor" id="traitcandidateforperfection-candidate-for-perfection-fn4-flavor">You have begun training to enter one of the <Link to="/rule/houses_of_perfection">Houses of Perfection</Link>, and have honed your body, mind, and spirit into one well-trained weapon.</Pair>
+<Pair single="benefit" id="traitcandidateforperfection-candidate-for-perfection-fn4-benefit">You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes.</Pair>
 </Ability>
 <Ability id="traitnagaemissary-naga-emissary-fn5" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitnagaemissary-naga-emissary-fn5"><Link to="/trait/naga_emissary">⮞</Link> Naga Emissary <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-5" id="main-traits_casmaron-fake-fn-5" data-hash-target to="main-traits_casmaron-fake-fn-5-target">5</InnerLink></sup></Pair>
@@ -1122,7 +1126,10 @@ const _traits_casmaron = {title: "Regional Traits: Casmaron", jsx: <IonList line
 <Pair single id="traitbravewords-brave-words-fn7"><Link to="/trait/brave_words">⮞</Link> Brave Words <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-7" id="main-traits_casmaron-fake-fn-7" data-hash-target to="main-traits_casmaron-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ninshaburian</Pair>
-<Pair single="benefit" id="traitbravewords-brave-words-fn7-benefit">You inherit your forebears' ability to fight off terror with bragging or insults. As a swift action, when you have the frightened condition, you can function as if you only have the shaken condition for 1 round by shouting at the source of your fear. You must be able to see the source of the fear condition. You can use this trait only once per fear effect. This trait grants no benefits against the shaken or panicked conditions.</Pair>
+<Pair single="flavor" id="traitbravewords-brave-words-fn7-flavor">You inherit your forebears' ability to fight off terror with bragging or insults.</Pair>
+<Pair single="benefit" id="traitbravewords-brave-words-fn7-benefit"><p>As a <strong className="hl">swift action</strong>, when you have the <Link to="/misc/frightened">frightened</Link> condition, you can function as if you only have the <Link to="/misc/shaken">shaken</Link> condition for 1 round by shouting at the source of your fear. You must be able to see the source of the fear condition.</p>
+<p>You can use this trait only once per fear effect. This trait grants no benefits against the shaken or <Link to="/misc/panicked">panicked</Link> conditions.</p>
+</Pair>
 </Ability>
 <Ability id="traitelementalpupil-elemental-pupil-fn8" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitelementalpupil-elemental-pupil-fn8"><Link to="/trait/elemental_pupil">⮞</Link> Elemental Pupil <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-8" id="main-traits_casmaron-fake-fn-8" data-hash-target to="main-traits_casmaron-fake-fn-8-target">8</InnerLink></sup></Pair>
@@ -1286,7 +1293,8 @@ const _traits_tian_xia = {title: "Regional Traits: Tian Xia", jsx: <IonList line
 <Pair single id="traitaltruisticdiplomat-altruistic-diplomat-fn2-9"><Link to="/trait/altruistic_diplomat">⮞</Link> Altruistic Diplomat <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.9" id="main-traits_tian_xia-fake-fn-2.9" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Hwanggot</Pair>
-<Pair single="benefit" id="traitaltruisticdiplomat-altruistic-diplomat-fn2-9-benefit">Your upbringing in Hwanggot has influenced you to be both peaceful and wise, and your arguments are consistently sound. You gain a +2 trait bonus on Diplomacy checks.</Pair>
+<Pair single="flavor" id="traitaltruisticdiplomat-altruistic-diplomat-fn2-9-flavor">Your upbringing in Hwanggot has influenced you to be both peaceful and wise, and your arguments are consistently sound.</Pair>
+<Pair single="benefit" id="traitaltruisticdiplomat-altruistic-diplomat-fn2-9-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks.</Pair>
 </Ability>
 <Ability id="traithwanartist-hwan-artist-fn2-10" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traithwanartist-hwan-artist-fn2-10"><Link to="/trait/hwan_artist">⮞</Link> Hwan Artist <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.10" id="main-traits_tian_xia-fake-fn-2.10" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1310,7 +1318,8 @@ const _traits_tian_xia = {title: "Regional Traits: Tian Xia", jsx: <IonList line
 <Pair single id="traitborderguard-border-guard-fn2-13"><Link to="/trait/border_guard">⮞</Link> Border Guard <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.13" id="main-traits_tian_xia-fake-fn-2.13" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kwanlai</Pair>
-<Pair single="benefit" id="traitborderguard-border-guard-fn2-13-benefit">You are one of the warriors on the front lines between Kwanlai and Wanshou, and excel at combat against water-dwelling foes. You gain a +2 trait bonus on rolls to confirm critical hits against foes with the aquatic subtype.</Pair>
+<Pair single="flavor" id="traitborderguard-border-guard-fn2-13-flavor">You are one of the warriors on the front lines between Kwanlai and Wanshou, and excel at combat against water-dwelling foes.</Pair>
+<Pair single="benefit" id="traitborderguard-border-guard-fn2-13-benefit">You gain a +2 trait bonus on rolls to confirm critical hits against foes with the aquatic subtype.</Pair>
 </Ability>
 <Ability id="traitkwanlaibeliever-kwanlai-believer-fn2-14" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitkwanlaibeliever-kwanlai-believer-fn2-14"><Link to="/trait/kwanlai_believer">⮞</Link> Kwanlai Believer <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.14" id="main-traits_tian_xia-fake-fn-2.14" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1322,7 +1331,8 @@ const _traits_tian_xia = {title: "Regional Traits: Tian Xia", jsx: <IonList line
 <Pair single id="traitbelempirate-belem-pirate-fn2-15"><Link to="/trait/belem_pirate">⮞</Link> Belem Pirate <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.15" id="main-traits_tian_xia-fake-fn-2.15" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Minata</Pair>
-<Pair single="benefit" id="traitbelempirate-belem-pirate-fn2-15-benefit">The hidden coves and bays of the island of Belem have been your home throughout most of your career as a pirate, and the winding waterways of Minata have trained you well in the art of sailing. You gain a +1 trait bonus on Knowledge (geography) checks and Profession (sailor) checks, and one of these skills becomes a class skill for you.</Pair>
+<Pair single="flavor" id="traitbelempirate-belem-pirate-fn2-15-flavor">The hidden coves and bays of the island of Belem have been your home throughout most of your career as a pirate, and the winding waterways of Minata have trained you well in the art of sailing.</Pair>
+<Pair single="benefit" id="traitbelempirate-belem-pirate-fn2-15-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> checks and <Link to="/skill/profession">Profession</Link> (sailor) checks, and one of these skills becomes a class skill for you.</Pair>
 </Ability>
 <Ability id="traitwayangspellhunter-wayang-spellhunter-fn2-16" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitwayangspellhunter-wayang-spellhunter-fn2-16"><Link to="/trait/wayang_spellhunter">⮞</Link> Wayang Spellhunter <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.16" id="main-traits_tian_xia-fake-fn-2.16" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1452,7 +1462,8 @@ const _traits_lung_wa = {title: "Regional Traits: Former Lung Wa Empire", jsx: <
 <Pair single id="traitacupuncturist-acupuncturist-fn3-3"><Link to="/trait/acupuncturist">⮞</Link> Acupuncturist <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.3" id="main-traits_lung_wa-fake-fn-3.3" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Chu Ye</Pair>
-<Pair single="benefit" id="traitacupuncturist-acupuncturist-fn3-3-benefit">You have studied the ancient art of acupuncture, and use it to pursue enlightenment and healing. You gain a +2 trait bonus on all Fortitude saves made against poison effects.</Pair>
+<Pair single="flavor" id="traitacupuncturist-acupuncturist-fn3-3-flavor">You have studied the ancient art of acupuncture, and use it to pursue enlightenment and healing.</Pair>
+<Pair single="benefit" id="traitacupuncturist-acupuncturist-fn3-3-benefit">You gain a +2 trait bonus on all Fortitude saves made against poison effects.</Pair>
 </Ability>
 <Ability id="traitmizukihikarirebel-mizu-ki-hikari-rebel-fn3-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitmizukihikarirebel-mizu-ki-hikari-rebel-fn3-4"><Link to="/trait/mizu_ki_hikari_rebel">⮞</Link> Mizu Ki Hikari Rebel <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.4" id="main-traits_lung_wa-fake-fn-3.4" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
@@ -1530,7 +1541,8 @@ const _traits_lung_wa = {title: "Regional Traits: Former Lung Wa Empire", jsx: <
 <Pair single id="traitaberrationhunter-aberration-hunter-fn3-16"><Link to="/trait/aberration_hunter">⮞</Link> Aberration Hunter <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.16" id="main-traits_lung_wa-fake-fn-3.16" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Shenmen</Pair>
-<Pair single="benefit" id="traitaberrationhunter-aberration-hunter-fn3-16-benefit">You refuse to give in to the monsters that feast on your people, and hunt them instead. You gain a +1 trait bonus on attacks of opportunity against aberrations.</Pair>
+<Pair single="flavor" id="traitaberrationhunter-aberration-hunter-fn3-16-flavor">You refuse to give in to the monsters that feast on your people, and hunt them instead.</Pair>
+<Pair single="benefit" id="traitaberrationhunter-aberration-hunter-fn3-16-benefit">You gain a +1 trait bonus on attacks of opportunity against aberrations.</Pair>
 </Ability>
 <Ability id="traitshenmenprospector-shenmen-prospector-fn3-17" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitshenmenprospector-shenmen-prospector-fn3-17"><Link to="/trait/shenmen_prospector">⮞</Link> Shenmen Prospector <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.17" id="main-traits_lung_wa-fake-fn-3.17" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
