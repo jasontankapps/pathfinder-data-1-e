@@ -6309,7 +6309,7 @@ const _settlements_in_play = {title: "Settlements in Play", parent_topics: ["gam
 <p>Presented below are basic rules for a more streamlined method of handling settlements in your game. Essentially, these rules treat settlements almost as characters of their own, complete with stat blocks. Using these rules, you can generate the vital data for a settlement quickly and efficiently, and with this data you can handle the majority of your players' interactions with the settlement.</p>
 <p>Note that for particularly large cities, you can use multiple settlement stat blocks to represent different districts within a city. This allows you to have neighborhoods with distinct characteristics inside one city's walls. GMs should feel free to add other new elements to create the cities they desire.</p>
 </>};
-const _the_settlement_stat_block = {title: "The Settlement Stat Block", parent_topics: ["gamemastery","gamemastery_guide","adventures","urban","settlements_in_play"], siblings: ["the_settlement_stat_block","settlement_modifiers","settlement_alignment","settlement_government","settlement_qualities","settlement_disadvantages"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 204</Link></p>
+const _the_settlement_stat_block = {title: "The Settlement Stat Block", parent_topics: ["gamemastery","gamemastery_guide","adventures","urban","settlements_in_play"], siblings: ["the_settlement_stat_block","settlement_modifiers","settlement_alignment","settlement_government","settlement_qualities","settlement_disadvantages"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 203-205, 207</Link></p>
 <p>A settlement stat block is organized as follows.</p>
 <p><strong className="hl">Name:</strong> The settlement's name is presented first.</p>
 <p><strong className="hl">Alignment and Type:</strong> A settlement's alignment is the general alignment of its citizens and government; individuals who dwell therein can still be of any alignment, but the majority of its citizens should be within one step of the settlement's overall alignment. <Link to="/rule/alignment">Alignment</Link> influences a city's modifiers. The type is the size category the settlement falls into, be it thorp, hamlet, village, town (small or large), city (small or large), or metropolis. In most cases, rules play off of a settlement's type rather than its exact population total. A settlement's type determines many of its statistics (see Table 7-36: Settlement Statistics).</p>
@@ -6328,6 +6328,7 @@ const _the_settlement_stat_block = {title: "The Settlement Stat Block", parent_t
 <thead>
 <tr>
 <th>Type</th>
+<th>Population</th>
 <th>Modifiers</th>
 <th>Qualities</th>
 <th>Danger</th>
@@ -6338,6 +6339,7 @@ const _the_settlement_stat_block = {title: "The Settlement Stat Block", parent_t
 </thead>
 <tbody><tr>
 <td>Thorp</td>
+<td>Fewer than 20</td>
 <td>-4</td>
 <td>1</td>
 <td>-10</td>
@@ -6347,6 +6349,7 @@ const _the_settlement_stat_block = {title: "The Settlement Stat Block", parent_t
 </tr>
 <tr>
 <td>Hamlet</td>
+<td>21-60</td>
 <td>-2</td>
 <td>1</td>
 <td>-5</td>
@@ -6356,6 +6359,7 @@ const _the_settlement_stat_block = {title: "The Settlement Stat Block", parent_t
 </tr>
 <tr>
 <td>Village</td>
+<td>61-200</td>
 <td>-1</td>
 <td>2</td>
 <td>0</td>
@@ -6365,6 +6369,7 @@ const _the_settlement_stat_block = {title: "The Settlement Stat Block", parent_t
 </tr>
 <tr>
 <td>Small town</td>
+<td>201-2,000</td>
 <td>0</td>
 <td>2</td>
 <td>0</td>
@@ -6374,6 +6379,7 @@ const _the_settlement_stat_block = {title: "The Settlement Stat Block", parent_t
 </tr>
 <tr>
 <td>Large town</td>
+<td>2,001-5,000</td>
 <td>0</td>
 <td>3</td>
 <td>5</td>
@@ -6383,6 +6389,7 @@ const _the_settlement_stat_block = {title: "The Settlement Stat Block", parent_t
 </tr>
 <tr>
 <td>Small city</td>
+<td>5,001-10,000</td>
 <td>+1</td>
 <td>4</td>
 <td>5</td>
@@ -6392,6 +6399,7 @@ const _the_settlement_stat_block = {title: "The Settlement Stat Block", parent_t
 </tr>
 <tr>
 <td>Large city</td>
+<td>10,001-25,000</td>
 <td>+2</td>
 <td>5</td>
 <td>10</td>
@@ -6401,6 +6409,7 @@ const _the_settlement_stat_block = {title: "The Settlement Stat Block", parent_t
 </tr>
 <tr>
 <td>Metropolis</td>
+<td>More than 25,000</td>
 <td>+4</td>
 <td>6</td>
 <td>10</td>
@@ -6459,7 +6468,7 @@ const _the_settlement_stat_block = {title: "The Settlement Stat Block", parent_t
 <td>Small city</td>
 <td>4,000 gp</td>
 <td>4d4 items</td>
-<td>3d6 items</td>
+<td>3d4 items</td>
 <td>1d6 items</td>
 </tr>
 <tr>
