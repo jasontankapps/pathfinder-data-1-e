@@ -17,20 +17,23 @@ const _traits_north_central_avistan = {title: "Regional Traits: North Central Av
 <Pair single id="traitdominator-dominator-fn2-fn3"><Link to="/trait/dominator">⮞</Link> Dominator <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-2" id="main-traits_north_central_avistan-fake-fn-2" data-hash-target to="main-traits_north_central_avistan-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-3" id="main-traits_north_central_avistan-fake-fn-3" data-hash-target to="main-traits_north_central_avistan-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Belkzen</Pair>
-<Pair single="benefit" id="traitdominator-dominator-fn2-fn3-benefit">The blood of dominance runs thick in the savage home of orcs. You receive a +2 trait bonus on all attempts to demoralize an opponent in combat using the Intimidate skill.</Pair>
+<Pair single="flavor" id="traitdominator-dominator-fn2-fn3-flavor">The blood of dominance runs thick in the savage home of orcs.</Pair>
+<Pair single="benefit" id="traitdominator-dominator-fn2-fn3-benefit">You receive a +2 trait bonus on all attempts to demoralize an opponent in combat using the <Link to="/skill/intimidate">Intimidate</Link> skill.</Pair>
 </Ability>
 <Ability id="traitlichblood-lichblood-fn4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitlichblood-lichblood-fn4"><Link to="/trait/lichblood">⮞</Link> Lichblood <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-4" id="main-traits_north_central_avistan-fake-fn-4" data-hash-target to="main-traits_north_central_avistan-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Belkzen</Pair>
-<Pair title="Requirements" hl><Link to="/race/orc">Orc</Link>, undead bloodrager bloodline</Pair>
-<Pair single="benefit" id="traitlichblood-lichblood-fn4-benefit">You are among the fabled lichblood orcs, and so you command respect among the orcs of Belkzen. You gain a +2 trait bonus on Diplomacy and Intimidate checks made against orcs of Belkzen. You must have the undead bloodrager bloodline to select this trait.</Pair>
+<Pair title="Requirements" hl><Link to="/race/orc">Orc</Link>, <Link to="/blrgbloodline/undead">undead</Link> bloodrager bloodline</Pair>
+<Pair single="flavor" id="traitlichblood-lichblood-fn4-flavor">You are among the fabled lichblood orcs, and so you command respect among the orcs of Belkzen.</Pair>
+<Pair single="benefit" id="traitlichblood-lichblood-fn4-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks made against orcs of Belkzen.</Pair>
 </Ability>
 <Ability id="traitlinebreaker-linebreaker-fn2-2-fn3-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitlinebreaker-linebreaker-fn2-2-fn3-2"><Link to="/trait/linebreaker">⮞</Link> Linebreaker <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-2.2" id="main-traits_north_central_avistan-fake-fn-2.2" data-hash-target to="main-traits_north_central_avistan-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-3.2" id="main-traits_north_central_avistan-fake-fn-3.2" data-hash-target to="main-traits_north_central_avistan-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Belkzen</Pair>
-<Pair single="benefit" id="traitlinebreaker-linebreaker-fn2-2-fn3-2-benefit">Growing up along the border between Belkzen and Lastwall has taught you how to storm enemy battle lines and quickly overwhelm them. When charging, add 10 feet to your base speed.</Pair>
+<Pair single="flavor" id="traitlinebreaker-linebreaker-fn2-2-fn3-2-flavor">Growing up along the border between Belkzen and Lastwall has taught you how to storm enemy battle lines and quickly overwhelm them.</Pair>
+<Pair single="benefit" id="traitlinebreaker-linebreaker-fn2-2-fn3-2-benefit">When <Link to="/rule/charging">charging</Link>, add 10 feet to your base speed.</Pair>
 </Ability>
 <Ability id="traitneardeathexperience-near-death-experience-fn5" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitneardeathexperience-near-death-experience-fn5"><Link to="/trait/near_death_experience">⮞</Link> Near-Death Experience <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-5" id="main-traits_north_central_avistan-fake-fn-5" data-hash-target to="main-traits_north_central_avistan-fake-fn-5-target">5</InnerLink></sup></Pair>
@@ -42,13 +45,15 @@ const _traits_north_central_avistan = {title: "Regional Traits: North Central Av
 <Pair single id="traitgloryofold-glory-of-old-fn6"><Link to="/trait/glory_of_old">⮞</Link> Glory of Old <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-6" id="main-traits_north_central_avistan-fake-fn-6" data-hash-target to="main-traits_north_central_avistan-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Five Kings Mountains</Pair>
-<Pair single="benefit" id="traitgloryofold-glory-of-old-fn6-benefit">In your veins flows the blood of dwarven heroes from Tar Taargadth. You receive a +1 trait bonus on saving throws against spells, spell-like abilities, and poison.</Pair>
+<Pair single="flavor" id="traitgloryofold-glory-of-old-fn6-flavor">In your veins flows the blood of dwarven heroes from Tar Taargadth.</Pair>
+<Pair single="benefit" id="traitgloryofold-glory-of-old-fn6-benefit">You receive a +1 trait bonus on saving throws against spells, spell-like abilities, and poison.</Pair>
 </Ability>
 <Ability id="traitmountainguide-mountain-guide-fn2-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitmountainguide-mountain-guide-fn2-3"><Link to="/trait/mountain_guide">⮞</Link> Mountain Guide <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-2.3" id="main-traits_north_central_avistan-fake-fn-2.3" data-hash-target to="main-traits_north_central_avistan-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Five Kings Mountains</Pair>
-<Pair single="benefit" id="traitmountainguide-mountain-guide-fn2-3-benefit">You are skilled at getting along in the mountains, enabling you to find hidden trails and secret entrances into the caverns beneath mountains. You gain a +1 trait bonus on Knowledge (geography) and Survival checks when in mountainous areas, and Knowledge (geography) is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitmountainguide-mountain-guide-fn2-3-flavor">You are skilled at getting along in the mountains, enabling you to find hidden trails and secret entrances into the caverns beneath mountains.</Pair>
+<Pair single="benefit" id="traitmountainguide-mountain-guide-fn2-3-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> and <Link to="/skill/survival">Survival</Link> checks when in mountainous areas, and Knowledge (geography) is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traitperseverance-perseverance-fn2-4-fn6-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitperseverance-perseverance-fn2-4-fn6-2"><Link to="/trait/perseverance">⮞</Link> Perseverance <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-2.4" id="main-traits_north_central_avistan-fake-fn-2.4" data-hash-target to="main-traits_north_central_avistan-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-6.2" id="main-traits_north_central_avistan-fake-fn-6.2" data-hash-target to="main-traits_north_central_avistan-fake-fn-6-target">6</InnerLink></sup></Pair>
@@ -60,19 +65,22 @@ const _traits_north_central_avistan = {title: "Regional Traits: North Central Av
 <Pair single id="traitcrusadertactician-crusader-tactician-fn2-5"><Link to="/trait/crusader_tactician">⮞</Link> Crusader Tactician <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-2.5" id="main-traits_north_central_avistan-fake-fn-2.5" data-hash-target to="main-traits_north_central_avistan-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lastwall</Pair>
-<Pair single="benefit" id="traitcrusadertactician-crusader-tactician-fn2-5-benefit">You have studied at Vigil's Crusader War College, and are skilled in both heraldry and siege tactics. You gain a +1 trait bonus on Knowledge (engineering) and Knowledge (nobility) checks, and one of these skills is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitcrusadertactician-crusader-tactician-fn2-5-flavor">You have studied at Vigil's Crusader War College, and are skilled in both heraldry and siege tactics.</Pair>
+<Pair single="benefit" id="traitcrusadertactician-crusader-tactician-fn2-5-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> and <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> checks, and one of these skills is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traitdraconicvigil-draconic-vigil-fn7" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitdraconicvigil-draconic-vigil-fn7"><Link to="/trait/draconic_vigil">⮞</Link> Draconic Vigil <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-7" id="main-traits_north_central_avistan-fake-fn-7" data-hash-target to="main-traits_north_central_avistan-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lastwall</Pair>
-<Pair single="benefit" id="traitdraconicvigil-draconic-vigil-fn7-benefit">As a defender of Lastwall, you have seen the damage the green dragon Zedoran has wrought upon the land. You gain a +1 bonus on initiative rolls when entering combat against creatures of the dragon type or humanoids of the orc subtype.</Pair>
+<Pair single="flavor" id="traitdraconicvigil-draconic-vigil-fn7-flavor">As a defender of Lastwall, you have seen the damage the green dragon Zedoran has wrought upon the land.</Pair>
+<Pair single="benefit" id="traitdraconicvigil-draconic-vigil-fn7-benefit">You gain a +1 bonus on initiative rolls when entering combat against creatures of the dragon type or humanoids of the orc subtype.</Pair>
 </Ability>
 <Ability id="traitlastwallcavalryrider-lastwall-cavalry-rider-fn2-6" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitlastwallcavalryrider-lastwall-cavalry-rider-fn2-6"><Link to="/trait/lastwall_cavalry_rider">⮞</Link> Lastwall Cavalry Rider <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-2.6" id="main-traits_north_central_avistan-fake-fn-2.6" data-hash-target to="main-traits_north_central_avistan-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lastwall</Pair>
-<Pair single="benefit" id="traitlastwallcavalryrider-lastwall-cavalry-rider-fn2-6-benefit">From the moment you were old enough to walk, you learned how to ride the mighty warhorses of Lastwall. You gain a +1 trait bonus on Ride checks, and Ride is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitlastwallcavalryrider-lastwall-cavalry-rider-fn2-6-flavor">From the moment you were old enough to walk, you learned how to ride the mighty warhorses of Lastwall.</Pair>
+<Pair single="benefit" id="traitlastwallcavalryrider-lastwall-cavalry-rider-fn2-6-benefit">You gain a +1 trait bonus on <Link to="/skill/ride">Ride</Link> checks, and Ride is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traitorcimpaler-orc-impaler-fn8" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitorcimpaler-orc-impaler-fn8"><Link to="/trait/orc_impaler">⮞</Link> Orc Impaler <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-8" id="main-traits_north_central_avistan-fake-fn-8" data-hash-target to="main-traits_north_central_avistan-fake-fn-8-target">8</InnerLink></sup></Pair>
@@ -92,31 +100,36 @@ const _traits_north_central_avistan = {title: "Regional Traits: North Central Av
 <Pair single id="traitcoinhoarder-coin-hoarder-fn6-4"><Link to="/trait/coin_hoarder">⮞</Link> Coin Hoarder <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-6.4" id="main-traits_north_central_avistan-fake-fn-6.4" data-hash-target to="main-traits_north_central_avistan-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mindspin Mountains</Pair>
-<Pair single="benefit" id="traitcoinhoarder-coin-hoarder-fn6-4-benefit">Everything has a price - and it's your job to know it. Your starting cash increases to 500 gp.</Pair>
+<Pair single="flavor" id="traitcoinhoarder-coin-hoarder-fn6-4-flavor">Everything has a price - and it's your job to know it.</Pair>
+<Pair single="benefit" id="traitcoinhoarder-coin-hoarder-fn6-4-benefit">Your starting cash increases to 500 gp.</Pair>
 </Ability>
 <Ability id="traitdarkblightsurvivor-darkblight-survivor-fn9" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitdarkblightsurvivor-darkblight-survivor-fn9"><Link to="/trait/darkblight_survivor">⮞</Link> Darkblight Survivor <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-9" id="main-traits_north_central_avistan-fake-fn-9" data-hash-target to="main-traits_north_central_avistan-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nirmathas</Pair>
-<Pair single="benefit" id="traitdarkblightsurvivor-darkblight-survivor-fn9-benefit">Your woodland home in Nirmathas struggles against the tenacious Darkblight, forcing you to steel yourself against its poisonous influence. You gain a +2 trait bonus on Fortitude saving throws against diseases and poisons inflicted by fey, plants, and forest-related hazards.</Pair>
+<Pair single="flavor" id="traitdarkblightsurvivor-darkblight-survivor-fn9-flavor">Your woodland home in Nirmathas struggles against the tenacious Darkblight, forcing you to steel yourself against its poisonous influence.</Pair>
+<Pair single="benefit" id="traitdarkblightsurvivor-darkblight-survivor-fn9-benefit">You gain a +2 trait bonus on Fortitude saving throws against diseases and poisons inflicted by fey, plants, and forest-related hazards.</Pair>
 </Ability>
 <Ability id="traitfangwooddiplomat-fangwood-diplomat-fn2-7" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitfangwooddiplomat-fangwood-diplomat-fn2-7"><Link to="/trait/fangwood_diplomat">⮞</Link> Fangwood Diplomat <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-2.7" id="main-traits_north_central_avistan-fake-fn-2.7" data-hash-target to="main-traits_north_central_avistan-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nirmathas</Pair>
-<Pair single="benefit" id="traitfangwooddiplomat-fangwood-diplomat-fn2-7-benefit">You've lived and worked among the disparate guerrilla groups of the Fangwood. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitfangwooddiplomat-fangwood-diplomat-fn2-7-flavor">You've lived and worked among the disparate guerrilla groups of the Fangwood.</Pair>
+<Pair single="benefit" id="traitfangwooddiplomat-fangwood-diplomat-fn2-7-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks, and Diplomacy is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traitfangwoodinsurgent-fangwood-insurgent-fn4-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitfangwoodinsurgent-fangwood-insurgent-fn4-2"><Link to="/trait/fangwood_insurgent">⮞</Link> Fangwood Insurgent <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-4.2" id="main-traits_north_central_avistan-fake-fn-4.2" data-hash-target to="main-traits_north_central_avistan-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nirmathas</Pair>
-<Pair single="benefit" id="traitfangwoodinsurgent-fangwood-insurgent-fn4-2-benefit">You have spent many years living under the canopy of the Southern Fangwood, during which you and your comrades clashed regularly with the soldiers of imperialist Molthune. After years of guerrilla warfare, you've learned to interpret the sounds of the forest to detect signs of enemies. You gain a +1 trait bonus on initiative checks when in a forest. Once per day when in a forest, you can designate yourself or an ally to roll twice for initiative and take either result.</Pair>
+<Pair single="flavor" id="traitfangwoodinsurgent-fangwood-insurgent-fn4-2-flavor">You have spent many years living under the canopy of the Southern Fangwood, during which you and your comrades clashed regularly with the soldiers of imperialist Molthune. After years of guerrilla warfare, you've learned to interpret the sounds of the forest to detect signs of enemies.</Pair>
+<Pair single="benefit" id="traitfangwoodinsurgent-fangwood-insurgent-fn4-2-benefit">You gain a +1 trait bonus on initiative checks when in a forest. Once per day when in a forest, you can designate yourself or an ally to roll twice for initiative and take either result.</Pair>
 </Ability>
 <Ability id="traitguerrillamender-guerrilla-mender-fn5-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitguerrillamender-guerrilla-mender-fn5-2"><Link to="/trait/guerrilla_mender">⮞</Link> Guerrilla Mender <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-5.2" id="main-traits_north_central_avistan-fake-fn-5.2" data-hash-target to="main-traits_north_central_avistan-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nirmathas</Pair>
-<Pair single="benefit" id="traitguerrillamender-guerrilla-mender-fn5-2-benefit">With the help of a druidic healer, you narrowly escaped death by disease or poisoning while on the run from Molthuni militias, whether contracting the ailment was an accident or you were the victim of more sinister forces. Whenever you successfully use the Heal skill to treat an ally's poison or disease, you grant the ally an additional +1 trait bonus on the saving throw against the disease or poison. Heal is a class skill for you.</Pair>
+<Pair single="flavor" id="traitguerrillamender-guerrilla-mender-fn5-2-flavor">With the help of a druidic healer, you narrowly escaped death by disease or poisoning while on the run from Molthuni militias, whether contracting the ailment was an accident or you were the victim of more sinister forces.</Pair>
+<Pair single="benefit" id="traitguerrillamender-guerrilla-mender-fn5-2-benefit">Whenever you successfully use the <Link to="/skill/heal">Heal</Link> skill to treat an ally's poison or disease, you grant the ally an additional +1 trait bonus on the saving throw against the disease or poison. Heal is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitnirmathimilitia-nirmathi-militia-fn2-8" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitnirmathimilitia-nirmathi-militia-fn2-8"><Link to="/trait/nirmathi_militia">⮞</Link> Nirmathi Militia <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-2.8" id="main-traits_north_central_avistan-fake-fn-2.8" data-hash-target to="main-traits_north_central_avistan-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -135,31 +148,35 @@ const _traits_north_central_avistan = {title: "Regional Traits: North Central Av
 <Pair single id="traitcorpsedodger-corpse-dodger-fn10"><Link to="/trait/corpse_dodger">⮞</Link> Corpse Dodger <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-10" id="main-traits_north_central_avistan-fake-fn-10" data-hash-target to="main-traits_north_central_avistan-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
-<Pair single="benefit" id="traitcorpsedodger-corpse-dodger-fn10-benefit">You spent your formative years in the town of Ravengro, where your proximity to both a prominent graveyard and an infamous prison left you no stranger to the occasional zombie or skeleton. As such, you developed unique methods of dodging these pests. Once per day, you can cast <Link to="/spell/hide_from_undead">hide from undead</Link> as a spell-like ability. The casting time is a swift action and the caster level for this effect is always 1st; this ability is otherwise identical to the spell.</Pair>
+<Pair single="flavor" id="traitcorpsedodger-corpse-dodger-fn10-flavor">You spent your formative years in the town of Ravengro, where your proximity to both a prominent graveyard and an infamous prison left you no stranger to the occasional zombie or skeleton. As such, you developed unique methods of dodging these pests.</Pair>
+<Pair single="benefit" id="traitcorpsedodger-corpse-dodger-fn10-benefit">Once per day, you can cast <Link to="/spell/hide_from_undead">hide from undead</Link> as a spell-like ability. The casting time is a <strong className="hl">swift action</strong> and the caster level for this effect is always 1st; this ability is otherwise identical to the spell.</Pair>
 </Ability>
 <Ability id="traitdreadfulforethought-dreadful-forethought-fn11" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitdreadfulforethought-dreadful-forethought-fn11"><Link to="/trait/dreadful_forethought">⮞</Link> Dreadful Forethought <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-11" id="main-traits_north_central_avistan-fake-fn-11" data-hash-target to="main-traits_north_central_avistan-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
-<Pair single="benefit" id="traitdreadfulforethought-dreadful-forethought-fn11-benefit">As a minor Ustalavic noble, you have friends linked to Karcau's fiendish cults. Your observations give you a keen insight into the blasphemies of the idle rich. You gain a +1 trait bonus on Knowledge (nobility) and Knowledge (planes) checks.</Pair>
+<Pair single="flavor" id="traitdreadfulforethought-dreadful-forethought-fn11-flavor">As a minor Ustalavic noble, you have friends linked to Karcau's fiendish cults. Your observations give you a keen insight into the blasphemies of the idle rich.</Pair>
+<Pair single="benefit" id="traitdreadfulforethought-dreadful-forethought-fn11-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> and <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> checks.</Pair>
 </Ability>
 <Ability id="traiteducateddruggist-educated-druggist-fn5-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traiteducateddruggist-educated-druggist-fn5-3"><Link to="/trait/educated_druggist">⮞</Link> Educated Druggist <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-5.3" id="main-traits_north_central_avistan-fake-fn-5.3" data-hash-target to="main-traits_north_central_avistan-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osibu, Thuvia, Tian Xia, or Ustalav</Pair>
-<Pair single="benefit" id="traiteducateddruggist-educated-druggist-fn5-3-benefit">Any alchemical remedies you administer that provide an alchemical bonus have that bonus increased by 1. These remedies also restore 1 hit point to the target in addition to their usual effects.</Pair>
+<Pair single="benefit" id="traiteducateddruggist-educated-druggist-fn5-3-benefit">Any <Link to="/main/equipment_alchemical">alchemical remedies</Link> you administer that provide an alchemical bonus have that bonus increased by 1. These remedies also restore 1 hit point to the target in addition to their usual effects.</Pair>
 </Ability>
 <Ability id="traitghostsurvivor-ghost-survivor-fn10-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitghostsurvivor-ghost-survivor-fn10-2"><Link to="/trait/ghost_survivor">⮞</Link> Ghost Survivor <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-10.2" id="main-traits_north_central_avistan-fake-fn-10.2" data-hash-target to="main-traits_north_central_avistan-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
-<Pair single="benefit" id="traitghostsurvivor-ghost-survivor-fn10-2-benefit">You spent a single night in Harrowstone and managed to survive the terrifying ordeal, though you bore witness to ghosts and numerous other horrors during your short stay. You gain a +2 trait bonus on Knowledge (religion) checks to identify incorporeal undead and a +2 trait bonus on Fortitude saving throws against effects that inflict negative levels.</Pair>
+<Pair single="flavor" id="traitghostsurvivor-ghost-survivor-fn10-2-flavor">You spent a single night in Harrowstone and managed to survive the terrifying ordeal, though you bore witness to ghosts and numerous other horrors during your short stay.</Pair>
+<Pair single="benefit" id="traitghostsurvivor-ghost-survivor-fn10-2-benefit">You gain a +2 trait bonus on <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> checks to identify incorporeal undead and a +2 trait bonus on Fortitude saving throws against effects that inflict negative levels.</Pair>
 </Ability>
 <Ability id="traitlepidstadtscar-lepidstadt-scar-fn4-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitlepidstadtscar-lepidstadt-scar-fn4-4"><Link to="/trait/lepidstadt_scar">⮞</Link> Lepidstadt Scar <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-4.4" id="main-traits_north_central_avistan-fake-fn-4.4" data-hash-target to="main-traits_north_central_avistan-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
-<Pair single="benefit" id="traitlepidstadtscar-lepidstadt-scar-fn4-4-benefit">You engaged in nonlethal duels at Fifthstones Hill so often that you gained a visible (though minor) scar on your face. Because of this experience, you're unflinching in the heat of combat, calmly analyzing how to lessen the impact of a foe's best attacks. You gain a +1 dodge bonus to AC against attack rolls made to confirm a critical threat against you.</Pair>
+<Pair single="flavor" id="traitlepidstadtscar-lepidstadt-scar-fn4-4-flavor">You engaged in nonlethal duels at Fifthstones Hill so often that you gained a visible (though minor) scar on your face. Because of this experience, you're unflinching in the heat of combat, calmly analyzing how to lessen the impact of a foe's best attacks.</Pair>
+<Pair single="benefit" id="traitlepidstadtscar-lepidstadt-scar-fn4-4-benefit">You gain a +1 dodge bonus to AC against attack rolls made to confirm a critical threat against you.</Pair>
 </Ability>
 <Ability id="traitshadowdealer-shadow-dealer-fn12" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitshadowdealer-shadow-dealer-fn12"><Link to="/trait/shadow_dealer">⮞</Link> Shadow Dealer <sup><InnerLink showBacklink="backlink-main-traits_north_central_avistan-fake-fn-12" id="main-traits_north_central_avistan-fake-fn-12" data-hash-target to="main-traits_north_central_avistan-fake-fn-12-target">12</InnerLink></sup></Pair>
@@ -223,25 +240,28 @@ const _traits_north_west_avistan = {title: "Regional Traits: Northwestern Avista
 <Pair single id="traitchillblightemissary-chillblight-emissary-fn2"><Link to="/trait/chillblight_emissary">⮞</Link> Chillblight Emissary <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-2" id="main-traits_north_west_avistan-fake-fn-2" data-hash-target to="main-traits_north_west_avistan-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Irrisen</Pair>
-<Pair single="benefit" id="traitchillblightemissary-chillblight-emissary-fn2-benefit">You have spent considerable time at Chillblight, but have escaped this unearthly fey outpost. You gain DR 1/cold iron but become sickened for 1 round if damaged by a cold iron weapon.</Pair>
+<Pair single="flavor" id="traitchillblightemissary-chillblight-emissary-fn2-flavor">You have spent considerable time at Chillblight, but have escaped this unearthly fey outpost.</Pair>
+<Pair single="benefit" id="traitchillblightemissary-chillblight-emissary-fn2-benefit">You gain DR 1/cold iron but become <Link to="/misc/sickened">sickened</Link> for 1 round if damaged by a cold iron weapon.</Pair>
 </Ability>
 <Ability id="traitdebttoawitch-debt-to-a-witch-fn3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitdebttoawitch-debt-to-a-witch-fn3"><Link to="/trait/debt_to_a_witch">⮞</Link> Debt to a Witch <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-3" id="main-traits_north_west_avistan-fake-fn-3" data-hash-target to="main-traits_north_west_avistan-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Irrisen</Pair>
-<Pair single="benefit" id="traitdebttoawitch-debt-to-a-witch-fn3-benefit">Your life was spared in youth by the magic of a White Witch healer who was using your survival to perpetuate her agenda. Her magic was painful, but it made your body stronger. You gain a +2 trait bonus on saving throws against spells with the cold descriptor and against the dangers of cold weather.</Pair>
+<Pair single="flavor" id="traitdebttoawitch-debt-to-a-witch-fn3-flavor">Your life was spared in youth by the magic of a White Witch healer who was using your survival to perpetuate her agenda. Her magic was painful, but it made your body stronger.</Pair>
+<Pair single="benefit" id="traitdebttoawitch-debt-to-a-witch-fn3-benefit">You gain a +2 trait bonus on saving throws against spells with the cold descriptor and against the dangers of <Link to="/rule/cold">cold weather</Link>.</Pair>
 </Ability>
 <Ability id="traitfeyhex-fey-hex-fn4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitfeyhex-fey-hex-fn4"><Link to="/trait/fey_hex">⮞</Link> Fey Hex <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-4" id="main-traits_north_west_avistan-fake-fn-4" data-hash-target to="main-traits_north_west_avistan-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Irrisen</Pair>
-<Pair single="benefit" id="traitfeyhex-fey-hex-fn4-benefit">You have learned to incorporate fey enchantments into your hexes to snare victims that shake off your curses. Once per day as a free action, when a creature succeeds at its saving throw against your hex that cannot target the same creature more than once per day, you can declare that creature to be subject to your fey hex. You can attempt the failed hex against the creature a second time, so long as you do so within 1 minute.</Pair>
+<Pair single="flavor" id="traitfeyhex-fey-hex-fn4-flavor">You have learned to incorporate fey enchantments into your hexes to snare victims that shake off your curses.</Pair>
+<Pair single="benefit" id="traitfeyhex-fey-hex-fn4-benefit">Once per day as a <strong className="hl">free action</strong>, when a creature succeeds at its saving throw against your hex that cannot target the same creature more than once per day, you can declare that creature to be subject to your fey hex. You can attempt the failed hex against the creature a second time, so long as you do so within 1 minute.</Pair>
 </Ability>
 <Ability id="traitjadwigamedicine-jadwiga-medicine-fn3-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitjadwigamedicine-jadwiga-medicine-fn3-2"><Link to="/trait/jadwiga_medicine">⮞</Link> Jadwiga Medicine <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-3.2" id="main-traits_north_west_avistan-fake-fn-3.2" data-hash-target to="main-traits_north_west_avistan-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Irrisen</Pair>
-<Pair single="benefit" id="traitjadwigamedicine-jadwiga-medicine-fn3-2-benefit">Once per day as an immediate action when you cast a spell of the healing subschool or a hex that produces the effect of such a spell, you can attempt an Intimidate check to demoralize your target or anyone who can see you within 30 feet. You gain a +2 trait bonus on this check.</Pair>
+<Pair single="benefit" id="traitjadwigamedicine-jadwiga-medicine-fn3-2-benefit">Once per day as an <strong className="hl">immediate action</strong> when you cast a spell of the healing subschool or a hex that produces the effect of such a spell, you can attempt an <Link to="/skill/intimidate">Intimidate</Link> check to demoralize your target or anyone who can see you within 30 feet. You gain a +2 trait bonus on this check.</Pair>
 </Ability>
 <Ability id="traitwhitethronegourmand-whitethrone-gourmand-fn2-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitwhitethronegourmand-whitethrone-gourmand-fn2-2"><Link to="/trait/whitethrone_gourmand">⮞</Link> Whitethrone Gourmand <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-2.2" id="main-traits_north_west_avistan-fake-fn-2.2" data-hash-target to="main-traits_north_west_avistan-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -285,19 +305,22 @@ const _traits_north_west_avistan = {title: "Regional Traits: Northwestern Avista
 <Pair single id="traitfriendofthefey-friend-of-the-fey-fn5-3"><Link to="/trait/friend_of_the_fey">⮞</Link> Friend of the Fey <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-5.3" id="main-traits_north_west_avistan-fake-fn-5.3" data-hash-target to="main-traits_north_west_avistan-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lands of the Linnorm Kings</Pair>
-<Pair single="benefit" id="traitfriendofthefey-friend-of-the-fey-fn5-3-benefit">You have a special relationship with the fey, having grown up in close proximity to them. You gain a +2 trait bonus on Diplomacy checks against fey creatures.</Pair>
+<Pair single="flavor" id="traitfriendofthefey-friend-of-the-fey-fn5-3-flavor">You have a special relationship with the fey, having grown up in close proximity to them.</Pair>
+<Pair single="benefit" id="traitfriendofthefey-friend-of-the-fey-fn5-3-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks against fey creatures.</Pair>
 </Ability>
 <Ability id="traitfrostborn-frostborn-fn7" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitfrostborn-frostborn-fn7"><Link to="/trait/frostborn">⮞</Link> Frostborn <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-7" id="main-traits_north_west_avistan-fake-fn-7" data-hash-target to="main-traits_north_west_avistan-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lands of the Linnorm Kings</Pair>
-<Pair single="benefit" id="traitfrostborn-frostborn-fn7-benefit">Long nights in the frigid winters of the north have inured you to cold. You gain a +4 trait bonus on any savings throws made to resist the effects of cold environments, as well as a +1 trait bonus on all saving throws against cold effects.</Pair>
+<Pair single="flavor" id="traitfrostborn-frostborn-fn7-flavor">Long nights in the frigid winters of the north have inured you to cold.</Pair>
+<Pair single="benefit" id="traitfrostborn-frostborn-fn7-benefit">You gain a +4 trait bonus on any savings throws made to resist the effects of <Link to="/rule/cold">cold environments</Link>, as well as a +1 trait bonus on all saving throws against cold effects.</Pair>
 </Ability>
 <Ability id="traithuldrasluck-huldras-luck-fn2-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traithuldrasluck-huldras-luck-fn2-4"><Link to="/trait/huldras_luck">⮞</Link> Huldra's Luck <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-2.4" id="main-traits_north_west_avistan-fake-fn-2.4" data-hash-target to="main-traits_north_west_avistan-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lands of the Linnorm Kings</Pair>
-<Pair single="benefit" id="traithuldrasluck-huldras-luck-fn2-4-benefit">At some point in your life, you were touched by a fey creature called a huldra and inherited a bit of its luck. Once per day, you may choose to gain a +1 luck bonus on a single saving throw, attack roll, or skill check.</Pair>
+<Pair single="flavor" id="traithuldrasluck-huldras-luck-fn2-4-flavor">At some point in your life, you were touched by a fey creature called a <Link to="/monster/huldra">huldra</Link> and inherited a bit of its luck.</Pair>
+<Pair single="benefit" id="traithuldrasluck-huldras-luck-fn2-4-benefit">Once per day, you may choose to gain a +1 luck bonus on a single saving throw, attack roll, or skill check.</Pair>
 </Ability>
 <Ability id="traitvikingblood-viking-blood-fn5-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitvikingblood-viking-blood-fn5-4"><Link to="/trait/viking_blood">⮞</Link> Viking Blood <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-5.4" id="main-traits_north_west_avistan-fake-fn-5.4" data-hash-target to="main-traits_north_west_avistan-fake-fn-5-target">5</InnerLink></sup></Pair>
@@ -327,7 +350,7 @@ const _traits_north_west_avistan = {title: "Regional Traits: Northwestern Avista
 <Pair single id="traitfeymediator-fey-mediator-fn4-2"><Link to="/trait/fey_mediator">⮞</Link> Fey Mediator <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-4.2" id="main-traits_north_west_avistan-fake-fn-4.2" data-hash-target to="main-traits_north_west_avistan-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Grungir Forest</Pair>
-<Pair single="benefit" id="traitfeymediator-fey-mediator-fn4-2-benefit">You gain Sylvan as a bonus language. Additionally, choose Bluff, Diplomacy, or Knowledge (nature). That skill is a class skill for you.</Pair>
+<Pair single="benefit" id="traitfeymediator-fey-mediator-fn4-2-benefit">You gain Sylvan as a bonus language. Additionally, choose <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, or <Link to="/skill/knowledge_nature">Knowledge (nature)</Link>. That skill is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitbiggamehunter-big-game-hunter-fn2-5" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitbiggamehunter-big-game-hunter-fn2-5"><Link to="/trait/big_game_hunter">⮞</Link> Big Game Hunter <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-2.5" id="main-traits_north_west_avistan-fake-fn-2.5" data-hash-target to="main-traits_north_west_avistan-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -341,13 +364,15 @@ const _traits_north_west_avistan = {title: "Regional Traits: Northwestern Avista
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Realm of the Mammoth Lords</Pair>
 <Pair title="Requirements" hl>Kellid</Pair>
-<Pair single="benefit" id="traitfreepeople-free-people-fn1-2-benefit">The independent tribes from the Realm of the Mammoth Lords hold little regard for the control others wield over free people. Their willful, independent streak makes them suspicious of any attempt to guide their behavior. You gain a +1 trait bonus on Sense Motive checks and on Will saves against mind-affecting effects.</Pair>
+<Pair single="flavor" id="traitfreepeople-free-people-fn1-2-flavor">The independent tribes from the Realm of the Mammoth Lords hold little regard for the control others wield over free people. Their willful, independent streak makes them suspicious of any attempt to guide their behavior.</Pair>
+<Pair single="benefit" id="traitfreepeople-free-people-fn1-2-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks and on Will saves against mind-affecting effects.</Pair>
 </Ability>
 <Ability id="traitmammothmaster-mammoth-master-fn5-5-fn9" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitmammothmaster-mammoth-master-fn5-5-fn9"><Link to="/trait/mammoth_master">⮞</Link> Mammoth Master <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-5.5" id="main-traits_north_west_avistan-fake-fn-5.5" data-hash-target to="main-traits_north_west_avistan-fake-fn-5-target">5</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-9" id="main-traits_north_west_avistan-fake-fn-9" data-hash-target to="main-traits_north_west_avistan-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Realm of the Mammoth Lords</Pair>
-<Pair single="benefit" id="traitmammothmaster-mammoth-master-fn5-5-fn9-benefit">You have experience trapping and training large creatures such as mammoths, mastodons, woolly rhinoceroses, and other megafauna. You gain a +4 trait bonus on Handle Animal checks related to these creatures.</Pair>
+<Pair single="flavor" id="traitmammothmaster-mammoth-master-fn5-5-fn9-flavor">You have experience trapping and training large creatures such as mammoths, mastodons, woolly rhinoceroses, and other megafauna.</Pair>
+<Pair single="benefit" id="traitmammothmaster-mammoth-master-fn5-5-fn9-benefit">You gain a +4 trait bonus on <Link to="/skill/handle_animal">Handle Animal</Link> checks related to these creatures.</Pair>
 </Ability>
 <Ability id="traitscreamingleap-screaming-leap-fn10" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitscreamingleap-screaming-leap-fn10"><Link to="/trait/screaming_leap">⮞</Link> Screaming Leap <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-10" id="main-traits_north_west_avistan-fake-fn-10" data-hash-target to="main-traits_north_west_avistan-fake-fn-10-target">10</InnerLink></sup></Pair>
@@ -384,7 +409,8 @@ const _traits_north_west_avistan = {title: "Regional Traits: Northwestern Avista
 <Pair single id="traitmordantheritage-mordant-heritage-fn5-8-fn11"><Link to="/trait/mordant_heritage">⮞</Link> Mordant Heritage <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-5.8" id="main-traits_north_west_avistan-fake-fn-5.8" data-hash-target to="main-traits_north_west_avistan-fake-fn-5-target">5</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-11" id="main-traits_north_west_avistan-fake-fn-11" data-hash-target to="main-traits_north_west_avistan-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Steaming Sea</Pair>
-<Pair single="benefit" id="traitmordantheritage-mordant-heritage-fn5-8-fn11-benefit">You have lived among the Mordant Spire elves and know their strange ways. You gain a +1 trait bonus on Swim checks and a +1 trait bonus on saving throws against enchantment effects.</Pair>
+<Pair single="flavor" id="traitmordantheritage-mordant-heritage-fn5-8-fn11-flavor">You have lived among the Mordant Spire elves and know their strange ways.</Pair>
+<Pair single="benefit" id="traitmordantheritage-mordant-heritage-fn5-8-fn11-benefit">You gain a +1 trait bonus on <Link to="/skill/swim">Swim</Link> checks and a +1 trait bonus on saving throws against enchantment effects.</Pair>
 </Ability>
 <Ability id="traitcaravannomad-caravan-nomad-fn12" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitcaravannomad-caravan-nomad-fn12"><Link to="/trait/caravan_nomad">⮞</Link> Caravan Nomad <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-12" id="main-traits_north_west_avistan-fake-fn-12" data-hash-target to="main-traits_north_west_avistan-fake-fn-12-target">12</InnerLink></sup></Pair>
@@ -399,45 +425,50 @@ const _traits_north_west_avistan = {title: "Regional Traits: Northwestern Avista
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion or Varisia</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitcheaptofeed-cheap-to-feed-fn13-benefit">Life in a big city taught the consequences of pride. Now you have no qualms about pointing out how little of a burden your upkeep would prove to potential employers, captors, innkeepers, or anyone else able to provide you with the necessities of life. You gain a +3 trait bonus on Bluff checks made in order to gain food, water, or shelter.</Pair>
+<Pair single="flavor" id="traitcheaptofeed-cheap-to-feed-fn13-flavor">Life in a big city taught the consequences of pride. Now you have no qualms about pointing out how little of a burden your upkeep would prove to potential employers, captors, innkeepers, or anyone else able to provide you with the necessities of life.</Pair>
+<Pair single="benefit" id="traitcheaptofeed-cheap-to-feed-fn13-benefit">You gain a +3 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks made in order to gain food, water, or shelter.</Pair>
 </Ability>
 <Ability id="traitcliffmaster-cliff-master-fn14" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitcliffmaster-cliff-master-fn14"><Link to="/trait/cliff_master">⮞</Link> Cliff-Master <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-14" id="main-traits_north_west_avistan-fake-fn-14" data-hash-target to="main-traits_north_west_avistan-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
-<Pair single="benefit" id="traitcliffmaster-cliff-master-fn14-benefit">You are adept at scavenging along the cliffs by the sea, and have become a skilled climber. You gain a +1 trait bonus on all Climb and Survival checks.</Pair>
+<Pair single="flavor" id="traitcliffmaster-cliff-master-fn14-flavor">You are adept at scavenging along the cliffs by the sea, and have become a skilled climber.</Pair>
+<Pair single="benefit" id="traitcliffmaster-cliff-master-fn14-benefit">You gain a +1 trait bonus on all <Link to="/skill/climb">Climb</Link> and <Link to="/skill/survival">Survival</Link> checks.</Pair>
 </Ability>
 <Ability id="traitgreenskinstalker-greenskin-stalker-fn10-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitgreenskinstalker-greenskin-stalker-fn10-2"><Link to="/trait/greenskin_stalker">⮞</Link> Greenskin Stalker <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-10.2" id="main-traits_north_west_avistan-fake-fn-10.2" data-hash-target to="main-traits_north_west_avistan-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Isger, River Kingdoms, or Varisia</Pair>
-<Pair single="benefit" id="traitgreenskinstalker-greenskin-stalker-fn10-2-benefit">You're a member of the Greenskin Stalkers. Due to your affiliation with this brotherhood of goblin slayers, you've learned to think and act like a goblin, as disturbing as that sounds. You receive a +1 trait bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against or concerning goblinoids. You can also attempt Knowledge checks concerning goblinoids untrained.</Pair>
+<Pair single="flavor" id="traitgreenskinstalker-greenskin-stalker-fn10-2-flavor">You're a member of the Greenskin Stalkers. Due to your affiliation with this brotherhood of goblin slayers, you've learned to think and act like a goblin, as disturbing as that sounds.</Pair>
+<Pair single="benefit" id="traitgreenskinstalker-greenskin-stalker-fn10-2-benefit">You receive a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/knowledge">Knowledge</Link>, <Link to="/skill/perception">Perception</Link>, <Link to="/skill/sense_motive">Sense Motive</Link>, and <Link to="/skill/survival">Survival</Link> checks against or concerning goblinoids. You can also attempt Knowledge checks concerning goblinoids untrained.</Pair>
 </Ability>
 <Ability id="traitholytattoo-holy-tattoo-fn15" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitholytattoo-holy-tattoo-fn15"><Link to="/trait/holy_tattoo">⮞</Link> Holy Tattoo <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-15" id="main-traits_north_west_avistan-fake-fn-15" data-hash-target to="main-traits_north_west_avistan-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
-<Pair single="benefit" id="traitholytattoo-holy-tattoo-fn15-benefit">When you had your deity's holy symbol tattooed on your body by a Sczarni tattooist years ago, you never imagined it would save your life. Your holy symbol tattoo functions in all ways as a holy symbol. When you use your holy symbol tattoo to keep a vampire at bay, the DC for the vampire to overcome its revulsion is 28 (rather than the normal 25).</Pair>
+<Pair single="benefit" id="traitholytattoo-holy-tattoo-fn15-benefit">When you had your deity's holy symbol tattooed on your body by a Sczarni tattooist years ago, you never imagined it would save your life. Your holy symbol tattoo functions in all ways as a holy symbol. When you use your holy symbol tattoo to keep a <Link to="/template/vampire">vampire</Link> at bay, the DC for the vampire to overcome its revulsion is 28 (rather than the normal 25).</Pair>
 </Ability>
 <Ability id="traithumblebeginnings-humble-beginnings-fn16" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traithumblebeginnings-humble-beginnings-fn16"><Link to="/trait/humble_beginnings">⮞</Link> Humble Beginnings <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-16" id="main-traits_north_west_avistan-fake-fn-16" data-hash-target to="main-traits_north_west_avistan-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
-<Pair single="benefit" id="traithumblebeginnings-humble-beginnings-fn16-benefit">You didn't have any intention of becoming an adventurer, but a single, unexpected confrontation changed everything. Choose one of the following: boot, bucket, frying pan, mug, rolling pin, spade, or stool. You are treated as having the Catch Off-Guard feat when wielding the chosen item. (These items should all be considered improvised melee weapons that deal 1d4 points of bludgeoning damage.)</Pair>
+<Pair single="flavor" id="traithumblebeginnings-humble-beginnings-fn16-flavor">You didn't have any intention of becoming an adventurer, but a single, unexpected confrontation changed everything.</Pair>
+<Pair single="benefit" id="traithumblebeginnings-humble-beginnings-fn16-benefit">Choose one of the following: boot, bucket, frying pan, mug, rolling pin, spade, or stool. You are treated as having the <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> feat when wielding the chosen item. (These items should all be considered improvised melee weapons that deal 1d4 points of bludgeoning damage.)</Pair>
 </Ability>
 <Ability id="traitleftbehind-left-behind-fn11-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitleftbehind-left-behind-fn11-2"><Link to="/trait/left_behind">⮞</Link> Left Behind <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-11.2" id="main-traits_north_west_avistan-fake-fn-11.2" data-hash-target to="main-traits_north_west_avistan-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse or Varisia</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
-<Pair single="benefit" id="traitleftbehind-left-behind-fn11-2-benefit">Having been born to those who chose to remain on Golarion during the Age of Darkness in the Mwangi Expanse, you understand the people of this world better than most elves. You gain a +1 trait bonus on Diplomacy checks when interacting with Forlorn elves and non-elf races.</Pair>
+<Pair single="flavor" id="traitleftbehind-left-behind-fn11-2-flavor">Having been born to those who chose to remain on Golarion during the Age of Darkness in the Mwangi Expanse, you understand the people of this world better than most elves.</Pair>
+<Pair single="benefit" id="traitleftbehind-left-behind-fn11-2-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks when interacting with Forlorn elves and non-elf races.</Pair>
 </Ability>
 <Ability id="traitlocalknowitall-local-know-it-all-fn16-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitlocalknowitall-local-know-it-all-fn16-2"><Link to="/trait/local_know_it_all">⮞</Link> Local Know-It-All <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-16.2" id="main-traits_north_west_avistan-fake-fn-16.2" data-hash-target to="main-traits_north_west_avistan-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
-<Pair single="benefit" id="traitlocalknowitall-local-know-it-all-fn16-2-benefit">Choose a community that you've lived in for at least 5 years. You gain a +2 trait bonus on Knowledge (local) checks related to that community.</Pair>
+<Pair single="benefit" id="traitlocalknowitall-local-know-it-all-fn16-2-benefit">Choose a community that you've lived in for at least 5 years. You gain a +2 trait bonus on <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks related to that community.</Pair>
 </Ability>
 <Ability id="traitregionalinfluence-regional-influence-fn16-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitregionalinfluence-regional-influence-fn16-3"><Link to="/trait/regional_influence">⮞</Link> Regional Influence <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-16.3" id="main-traits_north_west_avistan-fake-fn-16.3" data-hash-target to="main-traits_north_west_avistan-fake-fn-16-target">16</InnerLink></sup></Pair>
@@ -489,13 +520,15 @@ const _traits_north_west_avistan = {title: "Regional Traits: Northwestern Avista
 <Pair single id="traitcoincunning-coincunning-fn16-6"><Link to="/trait/coincunning">⮞</Link> Coincunning <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-16.6" id="main-traits_north_west_avistan-fake-fn-16.6" data-hash-target to="main-traits_north_west_avistan-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Janderhoff</Pair>
-<Pair single="benefit" id="traitcoincunning-coincunning-fn16-6-benefit">Whether from working with dwarven merchants or being one yourself, you've developed a distinctly dwarven business sense. You receive a +2 trait bonus on Perception checks to notice coins, gems, jewelry, and valuable trade goods. You gain a chance to notice such goods whenever you pass within 10 feet of them, whether or not you are actively looking.</Pair>
+<Pair single="flavor" id="traitcoincunning-coincunning-fn16-6-flavor">Whether from working with dwarven merchants or being one yourself, you've developed a distinctly dwarven business sense.</Pair>
+<Pair single="benefit" id="traitcoincunning-coincunning-fn16-6-benefit">You receive a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks to notice coins, gems, jewelry, and valuable trade goods. You gain a chance to notice such goods whenever you pass within 10 feet of them, whether or not you are actively looking.</Pair>
 </Ability>
 <Ability id="traitemissary-emissary-fn16-7" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitemissary-emissary-fn16-7"><Link to="/trait/emissary">⮞</Link> Emissary <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-16.7" id="main-traits_north_west_avistan-fake-fn-16.7" data-hash-target to="main-traits_north_west_avistan-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kaer Maga</Pair>
-<Pair single="benefit" id="traitemissary-emissary-fn16-7-benefit">Accustomed to the strange residents of Kaer Maga, you have few prejudices. You gain a +2 trait bonus on Diplomacy checks when dealing with aberrations, monstrous humanoids, undead, and creatures with the giant subtype.</Pair>
+<Pair single="flavor" id="traitemissary-emissary-fn16-7-flavor">Accustomed to the strange residents of Kaer Maga, you have few prejudices.</Pair>
+<Pair single="benefit" id="traitemissary-emissary-fn16-7-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks when dealing with aberrations, monstrous humanoids, undead, and creatures with the giant subtype.</Pair>
 </Ability>
 <Ability id="traitroofracer-roof-racer-fn16-8" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitroofracer-roof-racer-fn16-8"><Link to="/trait/roof_racer">⮞</Link> Roof Racer <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-16.8" id="main-traits_north_west_avistan-fake-fn-16.8" data-hash-target to="main-traits_north_west_avistan-fake-fn-16-target">16</InnerLink></sup></Pair>
@@ -513,7 +546,8 @@ const _traits_north_west_avistan = {title: "Regional Traits: Northwestern Avista
 <Pair single id="traitempyrealcultist-empyreal-cultist-fn16-10"><Link to="/trait/empyreal_cultist">⮞</Link> Empyreal Cultist <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-16.10" id="main-traits_north_west_avistan-fake-fn-16.10" data-hash-target to="main-traits_north_west_avistan-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Magnimar</Pair>
-<Pair single="benefit" id="traitempyrealcultist-empyreal-cultist-fn16-10-benefit">Your faith in the empyreal lords - a host of good demigods - and your fascination with the legendary Angel of the Arvensoar have you constantly on the hopeful lookout for celestial messengers. Choose an empyreal lord as your patron deity. You gain Celestial as a bonus language and a +1 trait bonus on Diplomacy checks when dealing with good-aligned humanoids.</Pair>
+<Pair single="flavor" id="traitempyrealcultist-empyreal-cultist-fn16-10-flavor">Your faith in the empyreal lords - a host of good demigods - and your fascination with the legendary Angel of the Arvensoar have you constantly on the hopeful lookout for celestial messengers.</Pair>
+<Pair single="benefit" id="traitempyrealcultist-empyreal-cultist-fn16-10-benefit">Choose an empyreal lord as your patron deity. You gain Celestial as a bonus language and a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks when dealing with good-aligned humanoids.</Pair>
 </Ability>
 <Ability id="traitunderbridgedweller-underbridge-dweller-fn16-11" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitunderbridgedweller-underbridge-dweller-fn16-11"><Link to="/trait/underbridge_dweller">⮞</Link> Underbridge Dweller <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-16.11" id="main-traits_north_west_avistan-fake-fn-16.11" data-hash-target to="main-traits_north_west_avistan-fake-fn-16-target">16</InnerLink></sup></Pair>
@@ -525,25 +559,28 @@ const _traits_north_west_avistan = {title: "Regional Traits: Northwestern Avista
 <Pair single id="traitcypherresistance-cypher-resistance-fn16-12"><Link to="/trait/cypher_resistance">⮞</Link> Cypher Resistance <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-16.12" id="main-traits_north_west_avistan-fake-fn-16.12" data-hash-target to="main-traits_north_west_avistan-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Riddleport</Pair>
-<Pair single="benefit" id="traitcypherresistance-cypher-resistance-fn16-12-benefit">You have grown up near the Cyphergate, passing under its arch countless times in your lifetime. You can recount the runes from memory, and repeated exposure has imbued you with a faint resistance to runic magic. You gain a +2 trait bonus on saving throws against spells with the word <Link to="/main/spell_groupings">"glyph" or "symbol"</Link> in their name.</Pair>
+<Pair single="flavor" id="traitcypherresistance-cypher-resistance-fn16-12-flavor">You have grown up near the Cyphergate, passing under its arch countless times in your lifetime. You can recount the runes from memory, and repeated exposure has imbued you with a faint resistance to runic magic.</Pair>
+<Pair single="benefit" id="traitcypherresistance-cypher-resistance-fn16-12-benefit">You gain a +2 trait bonus on saving throws against spells with the word <Link to="/main/spell_groupings">"glyph" or "symbol"</Link> in their name.</Pair>
 </Ability>
 <Ability id="traitcyphermagebacker-cyphermage-backer-fn17" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitcyphermagebacker-cyphermage-backer-fn17"><Link to="/trait/cyphermage_backer">⮞</Link> Cyphermage Backer <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-17" id="main-traits_north_west_avistan-fake-fn-17" data-hash-target to="main-traits_north_west_avistan-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Riddleport</Pair>
-<Pair single="benefit" id="traitcyphermagebacker-cyphermage-backer-fn17-benefit">You've sold relics to a <Link to="/rule/cyphermage">Cyphermage</Link> in the past, and she's agreed to assist you with future findings. When in Riddleport, you can use your contact to gain information about artifacts and history. Treat this ability as a single Knowledge (arcana) or Knowledge (history) check with a skill bonus of +15. You may make this check once per day that you spend in Riddleport. You can make a new check every day. Each time you do so, you can choose whether to use Knowledge (arcana) or Knowledge (history).</Pair>
+<Pair single="benefit" id="traitcyphermagebacker-cyphermage-backer-fn17-benefit">You've sold relics to a <Link to="/rule/cyphermage">Cyphermage</Link> in the past, and she's agreed to assist you with future findings. When in Riddleport, you can use your contact to gain information about artifacts and history. Treat this ability as a single <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> or <Link to="/skill/knowledge_history">Knowledge (history)</Link> check with a skill bonus of +15. You may make this check once per day that you spend in Riddleport. You can make a new check every day. Each time you do so, you can choose whether to use Knowledge (arcana) or Knowledge (history).</Pair>
 </Ability>
 <Ability id="traiteagercombatant-eager-combatant-fn17-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traiteagercombatant-eager-combatant-fn17-2"><Link to="/trait/eager_combatant">⮞</Link> Eager Combatant <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-17.2" id="main-traits_north_west_avistan-fake-fn-17.2" data-hash-target to="main-traits_north_west_avistan-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Riddleport</Pair>
-<Pair single="benefit" id="traiteagercombatant-eager-combatant-fn17-2-benefit">You're so excited to board other ships that you're frequently the first one over the rail, regardless of the danger. You gain a +1 trait bonus on attack rolls made while onboard an enemy ship.</Pair>
+<Pair single="flavor" id="traiteagercombatant-eager-combatant-fn17-2-flavor">You're so excited to board other ships that you're frequently the first one over the rail, regardless of the danger.</Pair>
+<Pair single="benefit" id="traiteagercombatant-eager-combatant-fn17-2-benefit">You gain a +1 trait bonus on attack rolls made while onboard an enemy ship.</Pair>
 </Ability>
 <Ability id="traitgoldgoblinregular-gold-goblin-regular-fn17-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitgoldgoblinregular-gold-goblin-regular-fn17-3"><Link to="/trait/gold_goblin_regular">⮞</Link> Gold Goblin Regular <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-17.3" id="main-traits_north_west_avistan-fake-fn-17.3" data-hash-target to="main-traits_north_west_avistan-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Riddleport</Pair>
-<Pair single="benefit" id="traitgoldgoblinregular-gold-goblin-regular-fn17-3-benefit">You're a frequent customer at the Gold Goblin Gambling Hall and enjoy some popularity within its walls. You gain a +1 trait bonus on Profession (gambling) checks and a +2 trait bonus on Diplomacy checks made to gather information when in Riddleport.</Pair>
+<Pair single="flavor" id="traitgoldgoblinregular-gold-goblin-regular-fn17-3-flavor">You're a frequent customer at the Gold Goblin Gambling Hall and enjoy some popularity within its walls.</Pair>
+<Pair single="benefit" id="traitgoldgoblinregular-gold-goblin-regular-fn17-3-benefit">You gain a +1 trait bonus on <Link to="/skill/profession">Profession</Link> (gambling) checks and a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks made to gather information when in Riddleport.</Pair>
 </Ability>
 <Ability id="traitshipboardcaster-shipboard-caster-fn17-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitshipboardcaster-shipboard-caster-fn17-4"><Link to="/trait/shipboard_caster">⮞</Link> Shipboard Caster <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-17.4" id="main-traits_north_west_avistan-fake-fn-17.4" data-hash-target to="main-traits_north_west_avistan-fake-fn-17-target">17</InnerLink></sup></Pair>
@@ -580,7 +617,8 @@ const _traits_north_east_avistan = {title: "Regional Traits: Northeastern Avista
 <Pair single id="traitissiannoble-issian-noble-fn1"><Link to="/trait/issian_noble">⮞</Link> Issian Noble <sup><InnerLink showBacklink="backlink-main-traits_north_east_avistan-fake-fn-1" id="main-traits_north_east_avistan-fake-fn-1" data-hash-target to="main-traits_north_east_avistan-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Brevoy</Pair>
-<Pair single="benefit" id="traitissiannoble-issian-noble-fn1-benefit">You are a scion of one of the warring noble houses of Brevoy, and are well versed in maneuvering though the cutthroat world of Brevic politics. You gain a +1 trait bonus on Knowledge (nobility) and Sense Motive checks.</Pair>
+<Pair single="flavor" id="traitissiannoble-issian-noble-fn1-flavor">You are a scion of one of the warring noble houses of Brevoy, and are well versed in maneuvering though the cutthroat world of Brevic politics.</Pair>
+<Pair single="benefit" id="traitissiannoble-issian-noble-fn1-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks.</Pair>
 </Ability>
 <Ability id="traitswordlordspage-swordlords-page-fn1-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitswordlordspage-swordlords-page-fn1-2"><Link to="/trait/swordlords_page">⮞</Link> Swordlord's Page <sup><InnerLink showBacklink="backlink-main-traits_north_east_avistan-fake-fn-1.2" id="main-traits_north_east_avistan-fake-fn-1.2" data-hash-target to="main-traits_north_east_avistan-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -592,13 +630,15 @@ const _traits_north_east_avistan = {title: "Regional Traits: Northeastern Avista
 <Pair single id="traitchildofthecrusadesisp-child-of-the-crusades-isp-fn1-3"><Link to="/trait/child_of_the_crusades_isp">⮞</Link> Child of the Crusades (ISP) <sup><InnerLink showBacklink="backlink-main-traits_north_east_avistan-fake-fn-1.3" id="main-traits_north_east_avistan-fake-fn-1.3" data-hash-target to="main-traits_north_east_avistan-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mendev</Pair>
-<Pair single="benefit" id="traitchildofthecrusadesisp-child-of-the-crusades-isp-fn1-3-benefit">Your parents stood strong against the demons of the Worldwound, facing down the worst of this world and the Great Beyond. You have inherited their indomitable spirit, and you gain a +2 trait bonus on all saves against fear.</Pair>
+<Pair single="flavor" id="traitchildofthecrusadesisp-child-of-the-crusades-isp-fn1-3-flavor">Your parents stood strong against the demons of the Worldwound, facing down the worst of this world and the Great Beyond.</Pair>
+<Pair single="benefit" id="traitchildofthecrusadesisp-child-of-the-crusades-isp-fn1-3-benefit">You have inherited your parents' indomitable spirit, and you gain a +2 trait bonus on all saves against fear.</Pair>
 </Ability>
 <Ability id="traitcynic-cynic-fn1-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitcynic-cynic-fn1-4"><Link to="/trait/cynic">⮞</Link> Cynic <sup><InnerLink showBacklink="backlink-main-traits_north_east_avistan-fake-fn-1.4" id="main-traits_north_east_avistan-fake-fn-1.4" data-hash-target to="main-traits_north_east_avistan-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mendev</Pair>
-<Pair single="benefit" id="traitcynic-cynic-fn1-4-benefit">As a Mendevian native, you have seen all manner of people claiming holy motives, and you have learned to judge them by their deeds, rather than their words. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitcynic-cynic-fn1-4-flavor">As a Mendevian native, you have seen all manner of people claiming holy motives, and you have learned to judge them by their deeds, rather than their words.</Pair>
+<Pair single="benefit" id="traitcynic-cynic-fn1-4-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks, and Sense Motive is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traitdemoneradicator-demon-eradicator-fn2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitdemoneradicator-demon-eradicator-fn2"><Link to="/trait/demon_eradicator">⮞</Link> Demon Eradicator <sup><InnerLink showBacklink="backlink-main-traits_north_east_avistan-fake-fn-2" id="main-traits_north_east_avistan-fake-fn-2" data-hash-target to="main-traits_north_east_avistan-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -610,7 +650,7 @@ const _traits_north_east_avistan = {title: "Regional Traits: Northeastern Avista
 <Pair single id="traitgallantimposter-gallant-imposter-fn2-2"><Link to="/trait/gallant_imposter">⮞</Link> Gallant Imposter <sup><InnerLink showBacklink="backlink-main-traits_north_east_avistan-fake-fn-2.2" id="main-traits_north_east_avistan-fake-fn-2.2" data-hash-target to="main-traits_north_east_avistan-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mendev</Pair>
-<Pair single="benefit" id="traitgallantimposter-gallant-imposter-fn2-2-benefit">You gain a +1 trait bonus on Knowledge (nobility) and Knowledge (religion) checks. In addition, you gain a +2 trait bonus on both Disguise and Bluff checks while attempting to impersonate a knight.</Pair>
+<Pair single="benefit" id="traitgallantimposter-gallant-imposter-fn2-2-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> and <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> checks. In addition, you gain a +2 trait bonus on both <Link to="/skill/disguise">Disguise</Link> and <Link to="/skill/bluff">Bluff</Link> checks while attempting to impersonate a knight.</Pair>
 </Ability>
 <Ability id="traitancestralweapon-ancestral-weapon-fn3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitancestralweapon-ancestral-weapon-fn3"><Link to="/trait/ancestral_weapon">⮞</Link> Ancestral Weapon <sup><InnerLink showBacklink="backlink-main-traits_north_east_avistan-fake-fn-3" id="main-traits_north_east_avistan-fake-fn-3" data-hash-target to="main-traits_north_east_avistan-fake-fn-3-target">3</InnerLink></sup></Pair>
@@ -677,13 +717,15 @@ const _traits_north_east_avistan = {title: "Regional Traits: Northeastern Avista
 <Pair single id="traitdemonproofmind-demon-proof-mind-fn8-2"><Link to="/trait/demon_proof_mind">⮞</Link> Demon-Proof Mind <sup><InnerLink showBacklink="backlink-main-traits_north_east_avistan-fake-fn-8.2" id="main-traits_north_east_avistan-fake-fn-8.2" data-hash-target to="main-traits_north_east_avistan-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Sarkoris or The Worldwound</Pair>
-<Pair single="benefit" id="traitdemonproofmind-demon-proof-mind-fn8-2-benefit">You are used to the maddening energy fluctuations emanating from the Worldwound, and have steeled your mind against their influence. You gain a +2 trait bonus on saving throws against the mind-affecting effects of evil outsiders.</Pair>
+<Pair single="flavor" id="traitdemonproofmind-demon-proof-mind-fn8-2-flavor">You are used to the maddening energy fluctuations emanating from the Worldwound, and have steeled your mind against their influence.</Pair>
+<Pair single="benefit" id="traitdemonproofmind-demon-proof-mind-fn8-2-benefit">You gain a +2 trait bonus on saving throws against the mind-affecting effects of evil outsiders.</Pair>
 </Ability>
 <Ability id="traitdemonbanesummoner-demonbane-summoner-fn9" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitdemonbanesummoner-demonbane-summoner-fn9"><Link to="/trait/demonbane_summoner">⮞</Link> Demonbane Summoner <sup><InnerLink showBacklink="backlink-main-traits_north_east_avistan-fake-fn-9" id="main-traits_north_east_avistan-fake-fn-9" data-hash-target to="main-traits_north_east_avistan-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Worldwound</Pair>
-<Pair single="benefit" id="traitdemonbanesummoner-demonbane-summoner-fn9-benefit">Your line is derived directly from the god callers of Sarkoris. You adamantly oppose the demonic forces of the Worldwound in hopes of reclaiming your lost lands. The attacks of creatures you summon are treated as cold iron for the purpose of overcoming damage reduction.</Pair>
+<Pair single="flavor" id="traitdemonbanesummoner-demonbane-summoner-fn9-flavor">Your line is derived directly from the god callers of Sarkoris. You adamantly oppose the demonic forces of the Worldwound in hopes of reclaiming your lost lands.</Pair>
+<Pair single="benefit" id="traitdemonbanesummoner-demonbane-summoner-fn9-benefit">The attacks of creatures you summon are treated as cold iron for the purpose of overcoming damage reduction.</Pair>
 </Ability>
 <Ability id="traitwardbreaker-wardbreaker-fn10" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitwardbreaker-wardbreaker-fn10"><Link to="/trait/wardbreaker">⮞</Link> Wardbreaker <sup><InnerLink showBacklink="backlink-main-traits_north_east_avistan-fake-fn-10" id="main-traits_north_east_avistan-fake-fn-10" data-hash-target to="main-traits_north_east_avistan-fake-fn-10-target">10</InnerLink></sup></Pair>
@@ -714,7 +756,8 @@ const _traits_south_east_avistan = {title: "Regional Traits: Southeastern Avista
 <Pair single id="traitdestinedforgreatness-destined-for-greatness-fn2"><Link to="/trait/destined_for_greatness">⮞</Link> Destined for Greatness <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-2" id="main-traits_south_east_avistan-fake-fn-2" data-hash-target to="main-traits_south_east_avistan-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Absalom</Pair>
-<Pair single="benefit" id="traitdestinedforgreatness-destined-for-greatness-fn2-benefit"><p>Ever since you were a child growing up in one of Absalom's vast city quarters, you've been obsessed with the Starstone Cathedral and the prospect of acquiring true divinity by passing the Test of the Starstone. Though it remains to be seen whether you will ever achieve your long-standing dream, your fascination with the would-be deities who enter the Starstone Cathedral and never come back has granted you no small measure of savvy when it comes to preparing to explore dungeons. You start with a kit worth no more than 300 gp, and the expendable contents of the kit are automatically restored to their original capacity at no cost to you whenever you enter a settlement with a population of at least 2,500.</p>
+<Pair single="flavor" id="traitdestinedforgreatness-destined-for-greatness-fn2-flavor">Ever since you were a child growing up in one of Absalom's vast city quarters, you've been obsessed with the Starstone Cathedral and the prospect of acquiring true divinity by passing the Test of the Starstone. Though it remains to be seen whether you will ever achieve your long-standing dream, your fascination with the would-be deities who enter the Starstone Cathedral and never come back has granted you no small measure of savvy when it comes to preparing to explore dungeons.</Pair>
+<Pair single="benefit" id="traitdestinedforgreatness-destined-for-greatness-fn2-benefit"><p>You start with a <Link to="/main/equipment_class_kits">kit</Link> worth no more than 300 gp, and the expendable contents of the <Link to="/main/equipment_tools">kit</Link> are automatically restored to their original capacity at no cost to you whenever you enter a settlement with a population of at least 2,500.</p>
 <p><strong>Suggestion:</strong> Consider playing a character who worships, reveres, or perhaps even envies one of the Ascended: <Link to="/faith/cayden_cailean">Cayden Cailean</Link>, <Link to="/faith/iomedae">Iomedae</Link>, or <Link to="/faith/norgorber">Norgorber</Link>.</p>
 </Pair>
 </Ability>
@@ -735,50 +778,58 @@ const _traits_south_east_avistan = {title: "Regional Traits: Southeastern Avista
 <Pair single id="traitchainbreaker-chainbreaker-fn4"><Link to="/trait/chainbreaker">⮞</Link> Chainbreaker <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-4" id="main-traits_south_east_avistan-fake-fn-4" data-hash-target to="main-traits_south_east_avistan-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
-<Pair single="benefit" id="traitchainbreaker-chainbreaker-fn4-benefit">You're an expert at rescuing slaves. You know that a few slaves freed from their chains can help turn the tide during a boarding action. You gain a +1 trait bonus on Disable Device checks made to open locks, Strength checks made to break chains or bars in order to free slaves, and combat maneuver checks made to sunder chains or bars in order to free slaves.</Pair>
+<Pair single="flavor" id="traitchainbreaker-chainbreaker-fn4-flavor">You're an expert at rescuing slaves. You know that a few slaves freed from their chains can help turn the tide during a boarding action.</Pair>
+<Pair single="benefit" id="traitchainbreaker-chainbreaker-fn4-benefit">You gain a +1 trait bonus on <Link to="/skill/disable_device">Disable Device</Link> checks made to open locks, Strength checks made to break chains or bars in order to free slaves, and combat maneuver checks made to <Link to="/rule/sunder">sunder</Link> chains or bars in order to free slaves.</Pair>
 </Ability>
 <Ability id="traitconfidantetotheoppressed-confidante-to-the-oppressed-fn5" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitconfidantetotheoppressed-confidante-to-the-oppressed-fn5"><Link to="/trait/confidante_to_the_oppressed">⮞</Link> Confidante to the Oppressed <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-5" id="main-traits_south_east_avistan-fake-fn-5" data-hash-target to="main-traits_south_east_avistan-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
-<Pair single="benefit" id="traitconfidantetotheoppressed-confidante-to-the-oppressed-fn5-benefit">Others recognize that you are filled with the Andoren spirit of liberty and equality. You gain a +2 trait bonus on Diplomacy checks to improve the attitude of oppressed, enslaved, or imprisoned subjects, and unless they have reason to distrust you, their starting attitude toward you is at least indifferent, if not better.</Pair>
+<Pair single="flavor" id="traitconfidantetotheoppressed-confidante-to-the-oppressed-fn5-flavor">Others recognize that you are filled with the Andoren spirit of liberty and equality.</Pair>
+<Pair single="benefit" id="traitconfidantetotheoppressed-confidante-to-the-oppressed-fn5-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to improve the attitude of oppressed, enslaved, or imprisoned subjects, and unless they have reason to distrust you, their starting attitude toward you is at least indifferent, if not better.</Pair>
 </Ability>
 <Ability id="traitequalityforall-equality-for-all-fn6" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitequalityforall-equality-for-all-fn6"><Link to="/trait/equality_for_all">⮞</Link> Equality for All <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-6" id="main-traits_south_east_avistan-fake-fn-6" data-hash-target to="main-traits_south_east_avistan-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitequalityforall-equality-for-all-fn6-benefit">Even when facing foes much larger than yourself, you still embody the Andoran ethos of liberty. You gain a +2 trait bonus to your CMB and your CMD when facing opponents who are at least two sizes larger than you.</Pair>
+<Pair single="flavor" id="traitequalityforall-equality-for-all-fn6-flavor">Even when facing foes much larger than yourself, you still embody the Andoran ethos of liberty.</Pair>
+<Pair single="benefit" id="traitequalityforall-equality-for-all-fn6-benefit">You gain a +2 trait bonus to your CMB and your CMD when facing opponents who are at least two sizes larger than you.</Pair>
 </Ability>
 <Ability id="traiteyeofthefalcon-eye-of-the-falcon-fn5-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traiteyeofthefalcon-eye-of-the-falcon-fn5-2"><Link to="/trait/eye_of_the_falcon">⮞</Link> Eye of the Falcon <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-5.2" id="main-traits_south_east_avistan-fake-fn-5.2" data-hash-target to="main-traits_south_east_avistan-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
-<Pair single="benefit" id="traiteyeofthefalcon-eye-of-the-falcon-fn5-2-benefit">You have a way of seeing right to the heart of things. You gain a +1 trait bonus on saving throws against illusion (phantasm) spells and a +1 trait bonus on Sense Motive checks to know when you are being lied to, so long as you are face to face with the speaker in question.</Pair>
+<Pair single="flavor" id="traiteyeofthefalcon-eye-of-the-falcon-fn5-2-flavor">You have a way of seeing right to the heart of things.</Pair>
+<Pair single="benefit" id="traiteyeofthefalcon-eye-of-the-falcon-fn5-2-benefit">You gain a +1 trait bonus on saving throws against illusion (phantasm) spells and a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to know when you are being lied to, so long as you are face to face with the speaker in question.</Pair>
 </Ability>
 <Ability id="traitfightforliberty-fight-for-liberty-fn4-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitfightforliberty-fight-for-liberty-fn4-2"><Link to="/trait/fight_for_liberty">⮞</Link> Fight for Liberty <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-4.2" id="main-traits_south_east_avistan-fake-fn-4.2" data-hash-target to="main-traits_south_east_avistan-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
-<Pair single="benefit" id="traitfightforliberty-fight-for-liberty-fn4-2-benefit">You inspire slaves to fight for freedom with a rousing battle cry. As a standard action, you may make a rallying cry with a DC 15 Perform (oratory) check. On a successful check, any unarmed ally within 30 feet who is able to hear you gains a +2 trait bonus on attack rolls with improvised weapons and unarmed strikes. This bonus lasts for 1 round per level.</Pair>
+<Pair single="flavor" id="traitfightforliberty-fight-for-liberty-fn4-2-flavor">You inspire slaves to fight for freedom with a rousing battle cry.</Pair>
+<Pair single="benefit" id="traitfightforliberty-fight-for-liberty-fn4-2-benefit">As a <strong className="hl">standard action</strong>, you may make a rallying cry with a DC 15 <Link to="/skill/perform">Perform</Link> (oratory) check. On a successful check, any unarmed ally within 30 feet who is able to hear you gains a +2 trait bonus on attack rolls with <Link to="/misc/improvised_weapons">improvised weapons</Link> and unarmed strikes. This bonus lasts for 1 round per level.</Pair>
 </Ability>
 <Ability id="traitfreedslaveandoran-freed-slave-andoran-fn1-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitfreedslaveandoran-freed-slave-andoran-fn1-3"><Link to="/trait/freed_slave_andoran">⮞</Link> Freed Slave (Andoran) <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-1.3" id="main-traits_south_east_avistan-fake-fn-1.3" data-hash-target to="main-traits_south_east_avistan-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
-<Pair single="benefit" id="traitfreedslaveandoran-freed-slave-andoran-fn1-3-benefit">You were either born or sold into slavery, but were freed by Andoren abolitionists. Your strong will helped you persevere in captivity, and gave you strength to start again from nothing in your new life in Andoran. You gain a +1 trait bonus on Will saves.</Pair>
+<Pair single="flavor" id="traitfreedslaveandoran-freed-slave-andoran-fn1-3-flavor">You were either born or sold into slavery, but were freed by Andoren abolitionists. Your strong will helped you persevere in captivity, and gave you strength to start again from nothing in your new life in Andoran.</Pair>
+<Pair single="benefit" id="traitfreedslaveandoran-freed-slave-andoran-fn1-3-benefit">You gain a +1 trait bonus on Will saves.</Pair>
 </Ability>
 <Ability id="traitfreedomfighterandoran-freedom-fighter-andoran-fn4-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitfreedomfighterandoran-freedom-fighter-andoran-fn4-3"><Link to="/trait/freedom_fighter_andoran">⮞</Link> Freedom Fighter (Andoran) <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-4.3" id="main-traits_south_east_avistan-fake-fn-4.3" data-hash-target to="main-traits_south_east_avistan-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
-<Pair single="benefit" id="traitfreedomfighterandoran-freedom-fighter-andoran-fn4-3-benefit">You've developed a reputation as a privateer who fights for freedom. You gain a +2 trait bonus on Diplomacy checks. This bonus becomes a -2 penalty when dealing with slavers or those who support the slave trade. Diplomacy becomes a class skill for you.</Pair>
+<Pair single="flavor" id="traitfreedomfighterandoran-freedom-fighter-andoran-fn4-3-flavor">You've developed a reputation as a privateer who fights for freedom.</Pair>
+<Pair single="benefit" id="traitfreedomfighterandoran-freedom-fighter-andoran-fn4-3-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks. This bonus becomes a -2 penalty when dealing with slavers or those who support the slave trade. Diplomacy becomes a class skill for you.</Pair>
 </Ability>
 <Ability id="traitkoboldsneighbor-kobolds-neighbor-fn7" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitkoboldsneighbor-kobolds-neighbor-fn7"><Link to="/trait/kobolds_neighbor">⮞</Link> Kobold's Neighbor <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-7" id="main-traits_south_east_avistan-fake-fn-7" data-hash-target to="main-traits_south_east_avistan-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
-<Pair single="benefit" id="traitkoboldsneighbor-kobolds-neighbor-fn7-benefit">You grew up in wilderness where kobolds make their homes. You learned early on how to find traps before they find you, how to disable them, and when you should just walk away. You gain a +2 trait bonus to Perception checks to discover traps and a +1 trait bonus to Disable Device checks.</Pair>
+<Pair single="flavor" id="traitkoboldsneighbor-kobolds-neighbor-fn7-flavor">You grew up in wilderness where kobolds make their homes. You learned early on how to find traps before they find you, how to disable them, and when you should just walk away.</Pair>
+<Pair single="benefit" id="traitkoboldsneighbor-kobolds-neighbor-fn7-benefit">You gain a +2 trait bonus to <Link to="/skill/perception">Perception</Link> checks to discover traps and a +1 trait bonus to <Link to="/skill/disable_device">Disable Device</Link> checks.</Pair>
 </Ability>
 <Ability id="traitpretendpirate-pretend-pirate-fn4-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitpretendpirate-pretend-pirate-fn4-4"><Link to="/trait/pretend_pirate">⮞</Link> Pretend Pirate <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-4.4" id="main-traits_south_east_avistan-fake-fn-4.4" data-hash-target to="main-traits_south_east_avistan-fake-fn-4-target">4</InnerLink></sup></Pair>
@@ -797,7 +848,7 @@ const _traits_south_east_avistan = {title: "Regional Traits: Southeastern Avista
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Bellis</Pair>
 <Pair single="flavor" id="traitbellisaxemaster-bellis-axe-master-fn7-3-flavor">No one knows how to swing an axe better than a Bellisian!</Pair>
-<Pair single="benefit" id="traitbellisaxemaster-bellis-axe-master-fn7-3-benefit">You gain a +2 trait bonus on all rolls made to confirm critical hits with axes (<Link to="/eq-weapon/battle_axe">battle axe</Link>, <Link to="/eq-weapon/hand_axe">hand axe</Link>, or <Link to="/eq-weapon/greataxe">greataxe</Link>).</Pair>
+<Pair single="benefit" id="traitbellisaxemaster-bellis-axe-master-fn7-3-benefit">You gain a +2 trait bonus on all rolls made to confirm critical hits with axes (<Link to="/eq-weapon/battleaxe">battleaxe</Link>, <Link to="/eq-weapon/hand_axe">hand axe</Link>, or <Link to="/eq-weapon/greataxe">greataxe</Link>).</Pair>
 </Ability>
 <Ability id="traitbellishoneyharvester-bellis-honey-harvester-fn7-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitbellishoneyharvester-bellis-honey-harvester-fn7-4"><Link to="/trait/bellis_honey_harvester">⮞</Link> Bellis Honey Harvester <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-7.4" id="main-traits_south_east_avistan-fake-fn-7.4" data-hash-target to="main-traits_south_east_avistan-fake-fn-7-target">7</InnerLink></sup></Pair>
@@ -856,7 +907,8 @@ const _traits_south_east_avistan = {title: "Regional Traits: Southeastern Avista
 <Pair single id="traitdevoteeofkalistrade-devotee-of-kalistrade-fn1-4"><Link to="/trait/devotee_of_kalistrade">⮞</Link> Devotee of Kalistrade <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-1.4" id="main-traits_south_east_avistan-fake-fn-1.4" data-hash-target to="main-traits_south_east_avistan-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Druma</Pair>
-<Pair single="benefit" id="traitdevoteeofkalistrade-devotee-of-kalistrade-fn1-4-benefit">As an adherent of the <Link to="/rule/prophecies_of_kalistrade">Prophecies of Kalistrade</Link>, you understand the importance of a good deal. You gain a +1 trait bonus on Appraise checks, and a +1 trait bonus on Bluff checks when trying to make a deal with nonbelievers.</Pair>
+<Pair single="flavor" id="traitdevoteeofkalistrade-devotee-of-kalistrade-fn1-4-flavor">As an adherent of the <Link to="/rule/prophecies_of_kalistrade">Prophecies of Kalistrade</Link>, you understand the importance of a good deal.</Pair>
+<Pair single="benefit" id="traitdevoteeofkalistrade-devotee-of-kalistrade-fn1-4-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> checks, and a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks when trying to make a deal with nonbelievers.</Pair>
 </Ability>
 <Ability id="traitprophetofburrows-prophet-of-burrows-fn9" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitprophetofburrows-prophet-of-burrows-fn9"><Link to="/trait/prophet_of_burrows">⮞</Link> Prophet of Burrows <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-9" id="main-traits_south_east_avistan-fake-fn-9" data-hash-target to="main-traits_south_east_avistan-fake-fn-9-target">9</InnerLink></sup></Pair>
@@ -875,13 +927,15 @@ const _traits_south_east_avistan = {title: "Regional Traits: Southeastern Avista
 <Pair single id="traitevidentsupporter-evident-supporter-fn10"><Link to="/trait/evident_supporter">⮞</Link> Evident Supporter <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-10" id="main-traits_south_east_avistan-fake-fn-10" data-hash-target to="main-traits_south_east_avistan-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Galt</Pair>
-<Pair single="benefit" id="traitevidentsupporter-evident-supporter-fn10-benefit">You know how best to appear supportive of the current regime despite the vagaries of a shifting government. The Sense Motive DC needed for a city guard, a politician, or other governmental functionary in a large town or larger settlement to gain a hunch about your trustworthiness is 25 (instead of 20). On a failed check, you're seen as trustworthy regardless of the situation.</Pair>
+<Pair single="flavor" id="traitevidentsupporter-evident-supporter-fn10-flavor">You know how best to appear supportive of the current regime despite the vagaries of a shifting government.</Pair>
+<Pair single="benefit" id="traitevidentsupporter-evident-supporter-fn10-benefit">The <Link to="/skill/sense_motive">Sense Motive</Link> DC needed for a city guard, a politician, or other governmental functionary in a large town or larger settlement to gain a hunch about your trustworthiness is 25 (instead of 20). On a failed check, you're seen as trustworthy regardless of the situation.</Pair>
 </Ability>
 <Ability id="traitinspiringspeaker-inspiring-speaker-fn1-6" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitinspiringspeaker-inspiring-speaker-fn1-6"><Link to="/trait/inspiring_speaker">⮞</Link> Inspiring Speaker <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-1.6" id="main-traits_south_east_avistan-fake-fn-1.6" data-hash-target to="main-traits_south_east_avistan-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Galt</Pair>
-<Pair single="benefit" id="traitinspiringspeaker-inspiring-speaker-fn1-6-benefit">You have learned the arts of oratory, and know how to speak to crowds to rile them up or to calm them down. You gain a +1 trait bonus on Bluff and Diplomacy checks when addressing crowds of 10 people or more.</Pair>
+<Pair single="flavor" id="traitinspiringspeaker-inspiring-speaker-fn1-6-flavor">You have learned the arts of oratory, and know how to speak to crowds to rile them up or to calm them down.</Pair>
+<Pair single="benefit" id="traitinspiringspeaker-inspiring-speaker-fn1-6-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/diplomacy">Diplomacy</Link> checks when addressing crowds of 10 people or more.</Pair>
 </Ability>
 <Ability id="traitrabblerebel-rabble-rebel-fn6-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitrabblerebel-rabble-rebel-fn6-2"><Link to="/trait/rabble_rebel">⮞</Link> Rabble Rebel <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-6.2" id="main-traits_south_east_avistan-fake-fn-6.2" data-hash-target to="main-traits_south_east_avistan-fake-fn-6-target">6</InnerLink></sup></Pair>
@@ -907,20 +961,23 @@ const _traits_south_east_avistan = {title: "Regional Traits: Southeastern Avista
 <Pair single id="traitelvenbitterness-elven-bitterness-fn12"><Link to="/trait/elven_bitterness">⮞</Link> Elven Bitterness <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-12" id="main-traits_south_east_avistan-fake-fn-12" data-hash-target to="main-traits_south_east_avistan-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kyonin</Pair>
-<Pair single="benefit" id="traitelvenbitterness-elven-bitterness-fn12-benefit">Only the most cunning scouts of Kyonin are selected to serve as guards along the border between the elven nation and the dreaded Tanglebriar. Most who are sent to patrol those blighted reaches go with the aid of potent magical items and under the cloak of arcane disguise. You are either close with some who have guarded the elven homeland or know of the magical defenses used by the elves against their demonic foes. When you cast an enchantment spell on a chaotic evil outsider, the DC of that spell is increased by 2.</Pair>
+<Pair single="flavor" id="traitelvenbitterness-elven-bitterness-fn12-flavor">Only the most cunning scouts of Kyonin are selected to serve as guards along the border between the elven nation and the dreaded Tanglebriar. Most who are sent to patrol those blighted reaches go with the aid of potent magical items and under the cloak of arcane disguise. You are either close with some who have guarded the elven homeland or know of the magical defenses used by the elves against their demonic foes.</Pair>
+<Pair single="benefit" id="traitelvenbitterness-elven-bitterness-fn12-benefit">When you cast an enchantment spell on a chaotic evil outsider, the DC of that spell is increased by 2.</Pair>
 </Ability>
 <Ability id="traitiadaranillusionist-iadaran-illusionist-fn1-8-fn13" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitiadaranillusionist-iadaran-illusionist-fn1-8-fn13"><Link to="/trait/iadaran_illusionist">⮞</Link> Iadaran Illusionist <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-1.8" id="main-traits_south_east_avistan-fake-fn-1.8" data-hash-target to="main-traits_south_east_avistan-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-13" id="main-traits_south_east_avistan-fake-fn-13" data-hash-target to="main-traits_south_east_avistan-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kyonin</Pair>
-<Pair single="benefit" id="traitiadaranillusionist-iadaran-illusionist-fn1-8-fn13-benefit">You have lived in Iadara for so long that you are very familiar with illusions. You gain a +1 trait bonus on caster level checks with illusion spells and a +1 trait bonus on Will saves to disbelieve illusions.</Pair>
+<Pair single="flavor" id="traitiadaranillusionist-iadaran-illusionist-fn1-8-fn13-flavor">You have lived in Iadara for so long that you are very familiar with illusions.</Pair>
+<Pair single="benefit" id="traitiadaranillusionist-iadaran-illusionist-fn1-8-fn13-benefit">You gain a +1 trait bonus on caster level checks with illusion spells and a +1 trait bonus on Will saves to disbelieve illusions.</Pair>
 </Ability>
 <Ability id="traitkyoningatekeeper-kyonin-gatekeeper-fn13-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitkyoningatekeeper-kyonin-gatekeeper-fn13-2"><Link to="/trait/kyonin_gatekeeper">⮞</Link> Kyonin Gatekeeper <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-13.2" id="main-traits_south_east_avistan-fake-fn-13.2" data-hash-target to="main-traits_south_east_avistan-fake-fn-13-target">13</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kyonin</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
-<Pair single="benefit" id="traitkyoningatekeeper-kyonin-gatekeeper-fn13-2-benefit">You helped maintain the elf gates and are familiar with the operation of teleportation magic. You gain a +1 trait bonus on Spellcraft checks to identify teleportation magic and a +1 trait bonus to caster level checks when casting teleportation spells. You know the proper commands to operate a particular elf gate (most likely an often-used elf gate, but at the GM's discretion it may be a less popular or out-of-the-way elf gate).</Pair>
+<Pair single="flavor" id="traitkyoningatekeeper-kyonin-gatekeeper-fn13-2-flavor">You helped maintain the <Link to="/magic-artifact/elf_gate">elf gates</Link> and are familiar with the operation of teleportation magic.</Pair>
+<Pair single="benefit" id="traitkyoningatekeeper-kyonin-gatekeeper-fn13-2-benefit">You gain a +1 trait bonus on <Link to="/skill/spellcraft">Spellcraft</Link> checks to identify teleportation magic and a +1 trait bonus to caster level checks when casting teleportation spells. You know the proper commands to operate a particular elf gate (most likely an often-used elf gate, but at the GM's discretion it may be a less popular or out-of-the-way elf gate).</Pair>
 </Ability>
 <Ability id="traittanglebriarguerrilla-tanglebriar-guerrilla-fn14" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traittanglebriarguerrilla-tanglebriar-guerrilla-fn14"><Link to="/trait/tanglebriar_guerrilla">⮞</Link> Tanglebriar Guerrilla <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-14" id="main-traits_south_east_avistan-fake-fn-14" data-hash-target to="main-traits_south_east_avistan-fake-fn-14-target">14</InnerLink></sup></Pair>
@@ -944,7 +1001,8 @@ const _traits_south_east_avistan = {title: "Regional Traits: Southeastern Avista
 <Pair single id="traitexpertsmuggler-expert-smuggler-fn16"><Link to="/trait/expert_smuggler">⮞</Link> Expert Smuggler <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-16" id="main-traits_south_east_avistan-fake-fn-16" data-hash-target to="main-traits_south_east_avistan-fake-fn-16-target">16</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Erages</Pair>
-<Pair single="benefit" id="traitexpertsmuggler-expert-smuggler-fn16-benefit">Years of smuggling and other unsavory work have trained you to hide your assets even when being actively searched. Other creatures never gain the +4 bonus on their Perception checks (opposed by your Sleight of Hand check) while frisking you.</Pair>
+<Pair single="flavor" id="traitexpertsmuggler-expert-smuggler-fn16-flavor">Years of smuggling and other unsavory work have trained you to hide your assets even when being actively searched.</Pair>
+<Pair single="benefit" id="traitexpertsmuggler-expert-smuggler-fn16-benefit">Other creatures never gain the +4 bonus on their <Link to="/skill/perception">Perception</Link> checks (opposed by your <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check) while frisking you.</Pair>
 </Ability>
 <Ability id="traitspellduelprodigy-spell-duel-prodigy-fn16-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitspellduelprodigy-spell-duel-prodigy-fn16-2"><Link to="/trait/spell_duel_prodigy">⮞</Link> Spell Duel Prodigy <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-16.2" id="main-traits_south_east_avistan-fake-fn-16.2" data-hash-target to="main-traits_south_east_avistan-fake-fn-16-target">16</InnerLink></sup></Pair>
@@ -956,19 +1014,22 @@ const _traits_south_east_avistan = {title: "Regional Traits: Southeastern Avista
 <Pair single id="traitchivalrous-chivalrous-fn1-10-fn17"><Link to="/trait/chivalrous">⮞</Link> Chivalrous <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-1.10" id="main-traits_south_east_avistan-fake-fn-1.10" data-hash-target to="main-traits_south_east_avistan-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-17" id="main-traits_south_east_avistan-fake-fn-17" data-hash-target to="main-traits_south_east_avistan-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Taldor</Pair>
-<Pair single="benefit" id="traitchivalrous-chivalrous-fn1-10-fn17-benefit">You were raised on tales of heroic knights and benevolent wizards from Taldor's Golden Age, and try to emulate their great deeds. You gain a +1 trait bonus on Diplomacy and Knowledge (history) checks.</Pair>
+<Pair single="flavor" id="traitchivalrous-chivalrous-fn1-10-fn17-flavor">You were raised on tales of heroic knights and benevolent wizards from Taldor's Golden Age, and you try to emulate their great deeds.</Pair>
+<Pair single="benefit" id="traitchivalrous-chivalrous-fn1-10-fn17-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/knowledge_history">Knowledge (history)</Link> checks.</Pair>
 </Ability>
 <Ability id="traitlionsaudacity-lions-audacity-fn18" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitlionsaudacity-lions-audacity-fn18"><Link to="/trait/lions_audacity">⮞</Link> Lion's Audacity <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-18" id="main-traits_south_east_avistan-fake-fn-18" data-hash-target to="main-traits_south_east_avistan-fake-fn-18-target">18</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Taldor</Pair>
-<Pair single="benefit" id="traitlionsaudacity-lions-audacity-fn18-benefit">You attack life with the ferocity of a charging lion and inspire others with your audacious deeds. Once per day when you make a charge attack, you can inspire allies within 30 feet. They gain an additional +2 trait bonus on attack and damage rolls when they make a charge attack before the beginning of your next turn.</Pair>
+<Pair single="flavor" id="traitlionsaudacity-lions-audacity-fn18-flavor">You attack life with the ferocity of a charging lion and inspire others with your audacious deeds.</Pair>
+<Pair single="benefit" id="traitlionsaudacity-lions-audacity-fn18-benefit">Once per day when you make a <Link to="/rule/charge">charge</Link> attack, you can inspire allies within 30 feet. They gain an additional +2 trait bonus on attack and damage rolls when they make a charge attack before the beginning of your next turn.</Pair>
 </Ability>
 <Ability id="traitmilitiaveteran-militia-veteran-fn19-fn20-fn17-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitmilitiaveteran-militia-veteran-fn19-fn20-fn17-2"><Link to="/trait/militia_veteran">⮞</Link> Militia Veteran <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-19" id="main-traits_south_east_avistan-fake-fn-19" data-hash-target to="main-traits_south_east_avistan-fake-fn-19-target">19</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-20" id="main-traits_south_east_avistan-fake-fn-20" data-hash-target to="main-traits_south_east_avistan-fake-fn-20-target">20</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-17.2" id="main-traits_south_east_avistan-fake-fn-17.2" data-hash-target to="main-traits_south_east_avistan-fake-fn-17-target">17</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Taldor or any town or village</Pair>
-<Pair single="benefit" id="traitmilitiaveteran-militia-veteran-fn19-fn20-fn17-2-benefit">Your first job was serving in a civilian militia in your hometown. The skills you learned through daily drilling and protecting your fellow townsfolk gave you special insight into military life. Select one of the following skills: Profession (soldier), Ride, or Survival. You gain a +1 trait bonus on checks with that skill, and it is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitmilitiaveteran-militia-veteran-fn19-fn20-fn17-2-flavor">Your first job was serving in a civilian militia in your hometown. The skills you learned through daily drilling and protecting your fellow townsfolk gave you special insight into military life.</Pair>
+<Pair single="benefit" id="traitmilitiaveteran-militia-veteran-fn19-fn20-fn17-2-benefit">Select one of the following skills: <Link to="/skill/profession">Profession</Link> (soldier), <Link to="/skill/ride">Ride</Link>, or <Link to="/skill/survival">Survival</Link>. You gain a +1 trait bonus on checks with that skill, and it is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traitnarrowssurvivor-narrows-survivor-fn17-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitnarrowssurvivor-narrows-survivor-fn17-3"><Link to="/trait/narrows_survivor">⮞</Link> Narrows Survivor <sup><InnerLink showBacklink="backlink-main-traits_south_east_avistan-fake-fn-17.3" id="main-traits_south_east_avistan-fake-fn-17.3" data-hash-target to="main-traits_south_east_avistan-fake-fn-17-target">17</InnerLink></sup></Pair>
@@ -1041,14 +1102,16 @@ const _traits_south_west_avistan = {title: "Regional Traits: Southwestern Avista
 <Pair single id="traitchelishguerrilla-chelish-guerrilla-fn3"><Link to="/trait/chelish_guerrilla">⮞</Link> Chelish Guerrilla <sup><InnerLink showBacklink="backlink-main-traits_south_west_avistan-fake-fn-3" id="main-traits_south_west_avistan-fake-fn-3" data-hash-target to="main-traits_south_west_avistan-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cheliax</Pair>
-<Pair single="benefit" id="traitchelishguerrilla-chelish-guerrilla-fn3-benefit">In overthrowing House Thrune, you've spent many years training to face the diabolist nobles and the devils they bind. You gain a +2 trait bonus on Knowledge checks to identify devils (and their special powers and weaknesses) and a +1 trait bonus on weapon damage rolls against devils.</Pair>
+<Pair single="flavor" id="traitchelishguerrilla-chelish-guerrilla-fn3-flavor">In overthrowing House Thrune, you've spent many years training to face the diabolist nobles and the devils they bind.</Pair>
+<Pair single="benefit" id="traitchelishguerrilla-chelish-guerrilla-fn3-benefit">You gain a +2 trait bonus on <Link to="/skill/knowledge_planes">Knowledge</Link> checks to identify <Link to="/family/devil">devils</Link> (and their special powers and weaknesses) and a +1 trait bonus on weapon damage rolls against devils.</Pair>
 </Ability>
 <Ability id="traitclumsyslave-clumsy-slave-fn4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitclumsyslave-clumsy-slave-fn4"><Link to="/trait/clumsy_slave">⮞</Link> Clumsy Slave <sup><InnerLink showBacklink="backlink-main-traits_south_west_avistan-fake-fn-4" id="main-traits_south_west_avistan-fake-fn-4" data-hash-target to="main-traits_south_west_avistan-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cheliax or Katapesh</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitclumsyslave-clumsy-slave-fn4-benefit">As a former slave, you learned how to conceal your malice toward your owner behind a facade of clumsiness. The first time you attack someone with an attack that deals nonlethal damage, your target must make a Sense Motive opposed by your Bluff check minus the damage dealt to realize you actually intended to harm him; failure means he believe the injury was an accident on your part instead (though he may still want to punish you for it).</Pair>
+<Pair single="flavor" id="traitclumsyslave-clumsy-slave-fn4-flavor">As a former slave, you learned how to conceal your malice toward your owner behind a facade of clumsiness.</Pair>
+<Pair single="benefit" id="traitclumsyslave-clumsy-slave-fn4-benefit">The first time you attack someone with an attack that deals nonlethal damage, your target must make a <Link to="/skill/sense_motive">Sense Motive</Link> opposed by your <Link to="/skill/bluff">Bluff</Link> check minus the damage dealt to realize you actually intended to harm him; failure means he believe the injury was an accident on your part instead (though he may still want to punish you for it).</Pair>
 </Ability>
 <Ability id="traitcoldheart-cold-heart-fn5" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitcoldheart-cold-heart-fn5"><Link to="/trait/cold_heart">⮞</Link> Cold Heart <sup><InnerLink showBacklink="backlink-main-traits_south_west_avistan-fake-fn-5" id="main-traits_south_west_avistan-fake-fn-5" data-hash-target to="main-traits_south_west_avistan-fake-fn-5-target">5</InnerLink></sup></Pair>
@@ -1084,13 +1147,15 @@ const _traits_south_west_avistan = {title: "Regional Traits: Southwestern Avista
 <Pair single id="traitcliffjumper-cliff-jumper-fn8"><Link to="/trait/cliff_jumper">⮞</Link> Cliff Jumper <sup><InnerLink showBacklink="backlink-main-traits_south_west_avistan-fake-fn-8" id="main-traits_south_west_avistan-fake-fn-8" data-hash-target to="main-traits_south_west_avistan-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cliffs of Fury</Pair>
-<Pair single="benefit" id="traitcliffjumper-cliff-jumper-fn8-benefit">You spent your early years exploring and foraging along the coastal cliffs. You gain a +1 trait bonus on Acrobatics and Climb checks, and on Reflex saves to avoid falling.</Pair>
+<Pair single="flavor" id="traitcliffjumper-cliff-jumper-fn8-flavor">You spent your early years exploring and foraging along the coastal cliffs.</Pair>
+<Pair single="benefit" id="traitcliffjumper-cliff-jumper-fn8-benefit">You gain a +1 trait bonus on <Link to="/skill/acrobatics">Acrobatics</Link> and <Link to="/skill/climb">Climb</Link> checks, and on Reflex saves to avoid falling.</Pair>
 </Ability>
 <Ability id="traitegorianschoolapprentice-egorian-school-apprentice-fn8-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitegorianschoolapprentice-egorian-school-apprentice-fn8-2"><Link to="/trait/egorian_school_apprentice">⮞</Link> Egorian School Apprentice <sup><InnerLink showBacklink="backlink-main-traits_south_west_avistan-fake-fn-8.2" id="main-traits_south_west_avistan-fake-fn-8.2" data-hash-target to="main-traits_south_west_avistan-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Egorian</Pair>
-<Pair single="benefit" id="traitegorianschoolapprentice-egorian-school-apprentice-fn8-2-benefit">You studied under one of the masters of the Egorian School style of architecture. You gain a +3 trait bonus on Knowledge (engineering) checks and a +2 trait bonus on Perception checks to find secret doors or traps in buildings built in the Egorian School style.</Pair>
+<Pair single="flavor" id="traitegorianschoolapprentice-egorian-school-apprentice-fn8-2-flavor">You studied under one of the masters of the Egorian School style of architecture.</Pair>
+<Pair single="benefit" id="traitegorianschoolapprentice-egorian-school-apprentice-fn8-2-benefit">You gain a +3 trait bonus on <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> checks and a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks to find secret doors or traps in buildings built in the Egorian School style.</Pair>
 </Ability>
 <Ability id="traitbountyhunter-bounty-hunter-fn1-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitbountyhunter-bounty-hunter-fn1-3"><Link to="/trait/bounty_hunter">⮞</Link> Bounty Hunter <sup><InnerLink showBacklink="backlink-main-traits_south_west_avistan-fake-fn-1.3" id="main-traits_south_west_avistan-fake-fn-1.3" data-hash-target to="main-traits_south_west_avistan-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -1103,20 +1168,23 @@ const _traits_south_west_avistan = {title: "Regional Traits: Southwestern Avista
 <Pair single id="traitgreenskinstalker-greenskin-stalker-fn9"><Link to="/trait/greenskin_stalker">⮞</Link> Greenskin Stalker <sup><InnerLink showBacklink="backlink-main-traits_south_west_avistan-fake-fn-9" id="main-traits_south_west_avistan-fake-fn-9" data-hash-target to="main-traits_south_west_avistan-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Isger, River Kingdoms, or Varisia</Pair>
-<Pair single="benefit" id="traitgreenskinstalker-greenskin-stalker-fn9-benefit">You're a member of the Greenskin Stalkers. Due to your affiliation with this brotherhood of goblin slayers, you've learned to think and act like a goblin, as disturbing as that sounds. You receive a +1 trait bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against or concerning goblinoids. You can also attempt Knowledge checks concerning goblinoids untrained.</Pair>
+<Pair single="flavor" id="traitgreenskinstalker-greenskin-stalker-fn9-flavor">You're a member of the Greenskin Stalkers. Due to your affiliation with this brotherhood of goblin slayers, you've learned to think and act like a goblin, as disturbing as that sounds.</Pair>
+<Pair single="benefit" id="traitgreenskinstalker-greenskin-stalker-fn9-benefit">You receive a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/knowledge">Knowledge</Link>, <Link to="/skill/perception">Perception</Link>, <Link to="/skill/sense_motive">Sense Motive</Link>, and <Link to="/skill/survival">Survival</Link> checks against or concerning goblinoids. You can also attempt Knowledge checks concerning goblinoids untrained.</Pair>
 </Ability>
 <Ability id="traitisgerfixer-isger-fixer-fn4-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitisgerfixer-isger-fixer-fn4-2"><Link to="/trait/isger_fixer">⮞</Link> Isger Fixer <sup><InnerLink showBacklink="backlink-main-traits_south_west_avistan-fake-fn-4.2" id="main-traits_south_west_avistan-fake-fn-4.2" data-hash-target to="main-traits_south_west_avistan-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Isger</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitisgerfixer-isger-fixer-fn4-2-benefit">Everyone in Isger knows how to make do with substandard equipment, and you can improvise tools and materials in order to keep a damaged object working for just a little bit longer. Once per day, you can tinker with a broken object to allow anyone who uses it to ignore the penalties for its broken condition for 24 hours (this does not affect the object's hit points). At the end of this time, it regains the broken condition (but you can use this trait on it over and over again).</Pair>
+<Pair single="flavor" id="traitisgerfixer-isger-fixer-fn4-2-flavor">Everyone in Isger knows how to make do with substandard equipment, and you can improvise tools and materials in order to keep a damaged object working for just a little bit longer.</Pair>
+<Pair single="benefit" id="traitisgerfixer-isger-fixer-fn4-2-benefit">Once per day, you can tinker with a <Link to="/misc/broken">broken</Link> object to allow anyone who uses it to ignore the penalties for its broken condition for 24 hours (this does not affect the object's hit points). At the end of this time, it regains the broken condition (but you can use this trait on it over and over again).</Pair>
 </Ability>
 <Ability id="traitisgeriorphan-isgeri-orphan-fn1-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitisgeriorphan-isgeri-orphan-fn1-4"><Link to="/trait/isgeri_orphan">⮞</Link> Isgeri Orphan <sup><InnerLink showBacklink="backlink-main-traits_south_west_avistan-fake-fn-1.4" id="main-traits_south_west_avistan-fake-fn-1.4" data-hash-target to="main-traits_south_west_avistan-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Isger</Pair>
-<Pair single="benefit" id="traitisgeriorphan-isgeri-orphan-fn1-4-benefit">You grew up in one of the many Asmodean orphanages that dot the Isgeri countryside. Whether or not you took to their teachings, your strict indoctrination at the hands of the "devil nuns" has toughened your body to punishment. You gain a +1 trait bonus on Fortitude saves.</Pair>
+<Pair single="flavor" id="traitisgeriorphan-isgeri-orphan-fn1-4-flavor">You grew up in one of the many <Link to="/faith/asmodeus">Asmodean</Link> orphanages that dot the Isgeri countryside. Whether or not you took to their teachings, your strict indoctrination at the hands of the "devil nuns" has toughened your body to punishment.</Pair>
+<Pair single="benefit" id="traitisgeriorphan-isgeri-orphan-fn1-4-benefit">You gain a +1 trait bonus on Fortitude saves.</Pair>
 </Ability>
 <Ability id="traitscionofgoblinblood-scion-of-goblinblood-fn10" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitscionofgoblinblood-scion-of-goblinblood-fn10"><Link to="/trait/scion_of_goblinblood">⮞</Link> Scion of Goblinblood <sup><InnerLink showBacklink="backlink-main-traits_south_west_avistan-fake-fn-10" id="main-traits_south_west_avistan-fake-fn-10" data-hash-target to="main-traits_south_west_avistan-fake-fn-10-target">10</InnerLink></sup></Pair>
@@ -1135,7 +1203,8 @@ const _traits_south_west_avistan = {title: "Regional Traits: Southwestern Avista
 <Pair single id="traitdumpsalvager-dump-salvager-fn8-4"><Link to="/trait/dump_salvager">⮞</Link> Dump Salvager <sup><InnerLink showBacklink="backlink-main-traits_south_west_avistan-fake-fn-8.4" id="main-traits_south_west_avistan-fake-fn-8.4" data-hash-target to="main-traits_south_west_avistan-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Westcrown</Pair>
-<Pair single="benefit" id="traitdumpsalvager-dump-salvager-fn8-4-benefit">You grew up in or around Westcrown's rubbish-strewn shores and spent your spare time digging through trash looking for things worth selling. You gain a +3 trait bonus on Perception checks to search for concealed items.</Pair>
+<Pair single="flavor" id="traitdumpsalvager-dump-salvager-fn8-4-flavor">You grew up in or around Westcrown's rubbish-strewn shores and spent your spare time digging through trash looking for things worth selling.</Pair>
+<Pair single="benefit" id="traitdumpsalvager-dump-salvager-fn8-4-benefit">You gain a +3 trait bonus on <Link to="/skill/perception">Perception</Link> checks to search for concealed items.</Pair>
 </Ability>
 <Ability id="traitwhisperwoodshunter-whisper-woods-hunter-fn8-5" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitwhisperwoodshunter-whisper-woods-hunter-fn8-5"><Link to="/trait/whisper_woods_hunter">⮞</Link> Whisper Woods Hunter <sup><InnerLink showBacklink="backlink-main-traits_south_west_avistan-fake-fn-8.5" id="main-traits_south_west_avistan-fake-fn-8.5" data-hash-target to="main-traits_south_west_avistan-fake-fn-8-target">8</InnerLink></sup></Pair>
@@ -1153,14 +1222,16 @@ const _traits_south_west_avistan = {title: "Regional Traits: Southwestern Avista
 <Pair single id="traitimperialsoldier-imperial-soldier-fn1-5"><Link to="/trait/imperial_soldier">⮞</Link> Imperial Soldier <sup><InnerLink showBacklink="backlink-main-traits_south_west_avistan-fake-fn-1.5" id="main-traits_south_west_avistan-fake-fn-1.5" data-hash-target to="main-traits_south_west_avistan-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Molthune</Pair>
-<Pair single="benefit" id="traitimperialsoldier-imperial-soldier-fn1-5-benefit">You've served in the Imperial Army of Molthune. Choose one of the following skills: Heal, Intimidate, or Ride. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitimperialsoldier-imperial-soldier-fn1-5-flavor">You've served in the Imperial Army of Molthune.</Pair>
+<Pair single="benefit" id="traitimperialsoldier-imperial-soldier-fn1-5-benefit">Choose one of the following skills: <Link to="/skill/heal">Heal</Link>, <Link to="/skill/intimidate">Intimidate</Link>, or <Link to="/skill/ride">Ride</Link>. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traitlegalisticliberation-legalistic-liberation-fn4-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitlegalisticliberation-legalistic-liberation-fn4-3"><Link to="/trait/legalistic_liberation">⮞</Link> Legalistic Liberation <sup><InnerLink showBacklink="backlink-main-traits_south_west_avistan-fake-fn-4.3" id="main-traits_south_west_avistan-fake-fn-4.3" data-hash-target to="main-traits_south_west_avistan-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Molthune or Osirion</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitlegalisticliberation-legalistic-liberation-fn4-3-benefit">You followed - or some might say exploited - the rules and earned your freedom by finding the loopholes within your homeland's labyrinthine codes regulating slavery and indentured servitude. You gain a +1 bonus on all Knowledge checks to find a legitimate way to avoid, negate, or escape an existing obligation.</Pair>
+<Pair single="flavor" id="traitlegalisticliberation-legalistic-liberation-fn4-3-flavor">You followed - or some might say exploited - the rules and earned your freedom by finding the loopholes within your homeland's labyrinthine codes regulating slavery and indentured servitude.</Pair>
+<Pair single="benefit" id="traitlegalisticliberation-legalistic-liberation-fn4-3-benefit">You gain a +1 bonus on all <Link to="/skill/knowledge">Knowledge</Link> checks to find a legitimate way to avoid, negate, or escape an existing obligation.</Pair>
 </Ability>
 <Ability id="traitsignaler-signaler-fn1-6" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitsignaler-signaler-fn1-6"><Link to="/trait/signaler">⮞</Link> Signaler <sup><InnerLink showBacklink="backlink-main-traits_south_west_avistan-fake-fn-1.6" id="main-traits_south_west_avistan-fake-fn-1.6" data-hash-target to="main-traits_south_west_avistan-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -1173,7 +1244,8 @@ const _traits_south_west_avistan = {title: "Regional Traits: Southwestern Avista
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nidal</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitduskdancer-dusk-dancer-fn4-4-benefit">Growing up in shadowy Nidal has given you the confidence to avoid hazards which you can barely see. You gain a +2 trait bonus on Reflex saves in dim light or darkness.</Pair>
+<Pair single="flavor" id="traitduskdancer-dusk-dancer-fn4-4-flavor">Growing up in shadowy Nidal has given you the confidence to avoid hazards which you can barely see.</Pair>
+<Pair single="benefit" id="traitduskdancer-dusk-dancer-fn4-4-benefit">You gain a +2 trait bonus on Reflex saves in <Link to="/rule/dim_light">dim light</Link> or darkness.</Pair>
 </Ability>
 <Ability id="traitnidaleseshadowcaster-nidalese-shadowcaster-fn1-7" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitnidaleseshadowcaster-nidalese-shadowcaster-fn1-7"><Link to="/trait/nidalese_shadowcaster">⮞</Link> Nidalese Shadowcaster <sup><InnerLink showBacklink="backlink-main-traits_south_west_avistan-fake-fn-1.7" id="main-traits_south_west_avistan-fake-fn-1.7" data-hash-target to="main-traits_south_west_avistan-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -1229,19 +1301,21 @@ const _traits_darklands = {title: "Regional Traits: Darklands", jsx: <IonList li
 <Pair single id="traitghoulishaffinity-ghoulish-affinity-fn1"><Link to="/trait/ghoulish_affinity">⮞</Link> Ghoulish Affinity <sup><InnerLink showBacklink="backlink-main-traits_darklands-fake-fn-1" id="main-traits_darklands-fake-fn-1" data-hash-target to="main-traits_darklands-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands</Pair>
-<Pair single="benefit" id="traitghoulishaffinity-ghoulish-affinity-fn1-benefit">Ever since you recovered from ghoul fever, the scars on your arms and hands itch whenever one of these vile creatures is nearby. You gain a +2 trait bonus on Perception checks to notice undead disguised as living creatures, and a +2 trait bonus on Fortitude saves against diseases and poisons inflicted by undead.</Pair>
+<Pair single="flavor" id="traitghoulishaffinity-ghoulish-affinity-fn1-flavor">Ever since you recovered from <Link to="/disease/ghoul_fever">ghoul fever</Link>, the scars on your arms and hands itch whenever one of these vile creatures is nearby.</Pair>
+<Pair single="benefit" id="traitghoulishaffinity-ghoulish-affinity-fn1-benefit">You gain a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks to notice undead disguised as living creatures, and a +2 trait bonus on Fortitude saves against diseases and poisons inflicted by undead.</Pair>
 </Ability>
 <Ability id="traitgravelwalker-gravelwalker-fn2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitgravelwalker-gravelwalker-fn2"><Link to="/trait/gravelwalker">⮞</Link> Gravelwalker <sup><InnerLink showBacklink="backlink-main-traits_darklands-fake-fn-2" id="main-traits_darklands-fake-fn-2" data-hash-target to="main-traits_darklands-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands</Pair>
-<Pair single="benefit" id="traitgravelwalker-gravelwalker-fn2-benefit">Having grown up navigating rockslides and picking your way through partially collapsed tunnels, you are able to determine the most stable path across difficult terrain caused by rubble or other debris. You can move normally through such obstructed spaces, and can run or charge though them with a successful Acrobatics check.</Pair>
+<Pair single="benefit" id="traitgravelwalker-gravelwalker-fn2-benefit">Having grown up navigating rockslides and picking your way through partially collapsed tunnels, you are able to determine the most stable path across difficult terrain caused by rubble or other debris. You can move normally through such obstructed spaces, and can run or charge though them with a successful <Link to="/skill/acrobatics">Acrobatics</Link> check.</Pair>
 </Ability>
 <Ability id="traitgritgoggles-grit-goggles-fn2-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitgritgoggles-grit-goggles-fn2-2"><Link to="/trait/grit_goggles">⮞</Link> Grit Goggles <sup><InnerLink showBacklink="backlink-main-traits_darklands-fake-fn-2.2" id="main-traits_darklands-fake-fn-2.2" data-hash-target to="main-traits_darklands-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands</Pair>
-<Pair single="benefit" id="traitgritgoggles-grit-goggles-fn2-2-benefit">Exposure to the constant hazards of airborne particles (such as during a sandstorm or cave-in) has made your eyes less susceptible to irritants, such as sand, dust, and even liquids and gases. You gain a +2 trait bonus against being blinded by foreign objects (such as from a Dirty Trick combat maneuver) and you halve any reductions in visibility from the environment (such as from certain storms) and their corresponding penalties. For example, if you were in a sandstorm that normally reduces visibility to 25 feet and imparts a -4 penalty on Perception checks, you reduce visibility to 50 feet and take only a -2 penalty on Perception checks.</Pair>
+<Pair single="flavor" id="traitgritgoggles-grit-goggles-fn2-2-flavor">Exposure to the constant hazards of airborne particles (such as during a sandstorm or cave-in) has made your eyes less susceptible to irritants, such as sand, dust, and even liquids and gases.</Pair>
+<Pair single="benefit" id="traitgritgoggles-grit-goggles-fn2-2-benefit">You gain a +2 trait bonus against being blinded by foreign objects (such as from a <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver) and you halve any reductions in visibility from the environment (such as from certain <Link to="/rule/storms">storms</Link>) and their corresponding penalties. For example, if you were in a sandstorm that normally reduces visibility to 25 feet and imparts a -4 penalty on <Link to="/skill/perception">Perception</Link> checks, you reduce visibility to 50 feet and take only a -2 penalty on Perception checks.</Pair>
 </Ability>
 <Ability id="traitironlungs-iron-lungs-fn2-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitironlungs-iron-lungs-fn2-3"><Link to="/trait/iron_lungs">⮞</Link> Iron Lungs <sup><InnerLink showBacklink="backlink-main-traits_darklands-fake-fn-2.3" id="main-traits_darklands-fake-fn-2.3" data-hash-target to="main-traits_darklands-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1284,7 +1358,8 @@ const _traits_darklands = {title: "Regional Traits: Darklands", jsx: <IonList li
 <Pair single id="traitdarklandsdelver-darklands-delver-fn4"><Link to="/trait/darklands_delver">⮞</Link> Darklands Delver <sup><InnerLink showBacklink="backlink-main-traits_darklands-fake-fn-4" id="main-traits_darklands-fake-fn-4" data-hash-target to="main-traits_darklands-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands beneath Tian Xia</Pair>
-<Pair single="benefit" id="traitdarklandsdelver-darklands-delver-fn4-benefit">You are familiar with the byways and passages of Tian Xia's underworld. You gain a +1 trait bonus on Knowledge (dungeoneering) checks, and a +1 trait bonus on Survival checks made in the Darklands. One of these skills becomes class skill for you.</Pair>
+<Pair single="flavor" id="traitdarklandsdelver-darklands-delver-fn4-flavor">You are familiar with the byways and passages of Tian Xia's underworld.</Pair>
+<Pair single="benefit" id="traitdarklandsdelver-darklands-delver-fn4-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> checks, and a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks made in the Darklands. One of these skills becomes class skill for you.</Pair>
 </Ability>
 <Ability id="traitslayerofthedeep-slayer-of-the-deep-fn4-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitslayerofthedeep-slayer-of-the-deep-fn4-2"><Link to="/trait/slayer_of_the_deep">⮞</Link> Slayer of the Deep <sup><InnerLink showBacklink="backlink-main-traits_darklands-fake-fn-4.2" id="main-traits_darklands-fake-fn-4.2" data-hash-target to="main-traits_darklands-fake-fn-4-target">4</InnerLink></sup></Pair>
@@ -1335,13 +1410,15 @@ const _traits_extraplanar = {title: "Regional Traits: Extraplanar", jsx: <IonLis
 <Pair single id="traitchanneltheearth-channel-the-earth-fn2-4"><Link to="/trait/channel_the_earth">⮞</Link> Channel the Earth <sup><InnerLink showBacklink="backlink-main-traits_extraplanar-fake-fn-2.4" id="main-traits_extraplanar-fake-fn-2.4" data-hash-target to="main-traits_extraplanar-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Plane of Earth</Pair>
-<Pair single="benefit" id="traitchanneltheearth-channel-the-earth-fn2-4-benefit">Perhaps you worship the Elemental Lord of Earth, or perhaps you have gleaned your fated powers via some other means of interacting with the Eternal Delve. Your divine powers are infused with the elemental powers of the Plane of Earth. Whenever you channel positive energy to heal living creatures, affected targets gain a +2 profane bonus to CMD to resist bull rush, reposition, and trip combat maneuvers. Alternately, if you channel negative energy to harm living creatures, affected targets take a -2 penalty to CMD against such combat maneuvers. This effect lasts 1 round.</Pair>
+<Pair single="flavor" id="traitchanneltheearth-channel-the-earth-fn2-4-flavor">Perhaps you worship the Elemental Lord of Earth, or perhaps you have gleaned your fated powers via some other means of interacting with the Eternal Delve. Your divine powers are infused with the elemental powers of the Plane of Earth.</Pair>
+<Pair single="benefit" id="traitchanneltheearth-channel-the-earth-fn2-4-benefit">Whenever you <Link to="/ability/channel_positive_energy">channel positive energy</Link> to heal living creatures, affected targets gain a +2 profane bonus to CMD to resist <Link to="/rule/bull_rush">bull rush</Link>, <Link to="/rule/reposition">reposition</Link>, and <Link to="/rule/trip">trip</Link> combat maneuvers. Alternately, if you <em>channel negative energy</em> to harm living creatures, affected targets take a -2 penalty to CMD against such combat maneuvers. This effect lasts 1 round.</Pair>
 </Ability>
 <Ability id="traitfierydominance-fiery-dominance-fn2-5" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitfierydominance-fiery-dominance-fn2-5"><Link to="/trait/fiery_dominance">⮞</Link> Fiery Dominance <sup><InnerLink showBacklink="backlink-main-traits_extraplanar-fake-fn-2.5" id="main-traits_extraplanar-fake-fn-2.5" data-hash-target to="main-traits_extraplanar-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Plane of Fire</Pair>
-<Pair single="benefit" id="traitfierydominance-fiery-dominance-fn2-5-benefit">Raised among the efreet of the Plane of Fire, you developed a similarly assured sense of superiority over people from other backgrounds. You gain a +1 trait bonus on Intimidate checks against humanoids of a subtype different from your own (or all non-human humanoids, if you are not a humanoid), and the DC for such creatures to demoralize you with Intimidate is 2 higher than usual.</Pair>
+<Pair single="flavor" id="traitfierydominance-fiery-dominance-fn2-5-flavor">Raised among the efreet of the Plane of Fire, you developed a similarly assured sense of superiority over people from other backgrounds.</Pair>
+<Pair single="benefit" id="traitfierydominance-fiery-dominance-fn2-5-benefit">You gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks against humanoids of a subtype different from your own (or all non-human humanoids, if you are not a humanoid), and the DC for such creatures to demoralize you with Intimidate is 2 higher than usual.</Pair>
 </Ability>
 <Ability id="traitthoughtfulwishmaker-thoughtful-wish-maker-fn2-6" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitthoughtfulwishmaker-thoughtful-wish-maker-fn2-6"><Link to="/trait/thoughtful_wish_maker">⮞</Link> Thoughtful Wish-Maker <sup><InnerLink showBacklink="backlink-main-traits_extraplanar-fake-fn-2.6" id="main-traits_extraplanar-fake-fn-2.6" data-hash-target to="main-traits_extraplanar-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1367,7 +1444,7 @@ const _traits_extraplanar = {title: "Regional Traits: Extraplanar", jsx: <IonLis
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Plane of Water</Pair>
 <Pair single="flavor" id="traitaquaticsurvivalist-aquatic-survivalist-fn2-9-flavor">For whatever reason, you spent much of your formative years fighting to keep yourself alive amid the fearsome creatures that inhabit the infinite oceans of the Plane of Water, and you learned how to stay hidden even against predators with unusual senses.</Pair>
-<Pair single="benefit" id="traitaquaticsurvivalist-aquatic-survivalist-fn2-9-benefit">You gain a +2 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks while underwater. Once per day, you can attempt a Stealth check to <em>hide in plain sight</em> (as the <Link to="/class/ranger">ranger</Link> class feature of the same name) while underwater. This is only effective against creatures that rely on <Link to="/umr/blindsense">blindsense</Link>, <Link to="/ur/blindsight">blindsight</Link>, or <Link to="/umr/tremorsense">tremorsense</Link>. Creatures with other senses perceive you normally.</Pair>
+<Pair single="benefit" id="traitaquaticsurvivalist-aquatic-survivalist-fn2-9-benefit">You gain a +2 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks while underwater. Once per day, you can attempt a Stealth check to <em>hide in plain sight</em> (as the <Link to="/class/ranger">ranger</Link> class feature of the same name) while underwater. This is only effective against creatures that rely on <Link to="/umr/blindsense">blindsense</Link>, <Link to="/umr/blindsight">blindsight</Link>, or <Link to="/umr/tremorsense">tremorsense</Link>. Creatures with other senses perceive you normally.</Pair>
 </Ability>
 <Ability id="traitvialeskhistorian-vialesk-historian-fn2-10" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitvialeskhistorian-vialesk-historian-fn2-10"><Link to="/trait/vialesk_historian">⮞</Link> Vialesk Historian <sup><InnerLink showBacklink="backlink-main-traits_extraplanar-fake-fn-2.10" id="main-traits_extraplanar-fake-fn-2.10" data-hash-target to="main-traits_extraplanar-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1398,13 +1475,15 @@ const _traits_eye_of_abendego = {title: "Regional Traits: Eye of Abendego", jsx:
 <Pair single id="traitcitizenofeleder-citizen-of-eleder-fn2"><Link to="/trait/citizen_of_eleder">⮞</Link> Citizen of Eleder <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-2" id="main-traits_eye_of_abendego-fake-fn-2" data-hash-target to="main-traits_eye_of_abendego-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Eleder</Pair>
-<Pair single="benefit" id="traitcitizenofeleder-citizen-of-eleder-fn2-benefit">You live and work in Eleder. You gain a +1 trait bonus on all Knowledge (local) and Knowledge (nobility) checks regarding Eleder.</Pair>
+<Pair single="flavor" id="traitcitizenofeleder-citizen-of-eleder-fn2-flavor">You live and work in Eleder.</Pair>
+<Pair single="benefit" id="traitcitizenofeleder-citizen-of-eleder-fn2-benefit">You gain a +1 trait bonus on all <Link to="/skill/knowledge_local">Knowledge (local)</Link> and <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> checks regarding Eleder.</Pair>
 </Ability>
 <Ability id="traitcitizenofkalabuto-citizen-of-kalabuto-fn2-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitcitizenofkalabuto-citizen-of-kalabuto-fn2-2"><Link to="/trait/citizen_of_kalabuto">⮞</Link> Citizen of Kalabuto <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-2.2" id="main-traits_eye_of_abendego-fake-fn-2.2" data-hash-target to="main-traits_eye_of_abendego-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kalabuto</Pair>
-<Pair single="benefit" id="traitcitizenofkalabuto-citizen-of-kalabuto-fn2-2-benefit">You live and work in Kalabuto. You gain a +1 trait bonus on all Knowledge (local) and Knowledge (history) checks regarding Kalabuto.</Pair>
+<Pair single="flavor" id="traitcitizenofkalabuto-citizen-of-kalabuto-fn2-2-flavor">You live and work in Kalabuto.</Pair>
+<Pair single="benefit" id="traitcitizenofkalabuto-citizen-of-kalabuto-fn2-2-benefit">You gain a +1 trait bonus on all <Link to="/skill/knowledge_local">Knowledge (local)</Link> and <Link to="/skill/knowledge_history">Knowledge (history)</Link> checks regarding Kalabuto.</Pair>
 </Ability>
 <Ability id="traitstargazerregion-stargazer-region-fn3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitstargazerregion-stargazer-region-fn3"><Link to="/trait/stargazer_region">⮞</Link> Stargazer (Region) <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-3" id="main-traits_eye_of_abendego-fake-fn-3" data-hash-target to="main-traits_eye_of_abendego-fake-fn-3-target">3</InnerLink></sup></Pair>
@@ -1422,26 +1501,30 @@ const _traits_eye_of_abendego = {title: "Regional Traits: Eye of Abendego", jsx:
 <Pair single id="traitcultistlineage-cultist-lineage-fn4"><Link to="/trait/cultist_lineage">⮞</Link> Cultist Lineage <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-4" id="main-traits_eye_of_abendego-fake-fn-4" data-hash-target to="main-traits_eye_of_abendego-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mediogalti</Pair>
-<Pair single="benefit" id="traitcultistlineage-cultist-lineage-fn4-benefit">Your parents were both Red Mantis assassins and your family has a long tradition of service in the <Link to="/rule/red_mantis">Red Mantis</Link> cult. Your strict, fanatical upbringing and familiarity with murder have bestowed upon you an air of confidence and menace. This grants you a +1 trait bonus on Intimidate checks. If you act during the surprise round, as a free action during that round you can draw a light weapon (or two if you have the <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link> feat).</Pair>
+<Pair single="flavor" id="traitcultistlineage-cultist-lineage-fn4-flavor">Your parents were both <Link to="/pclass/red_mantis_assassin">Red Mantis assassins</Link> and your family has a long tradition of service in the <Link to="/rule/red_mantis">Red Mantis</Link> cult. Your strict, fanatical upbringing and familiarity with murder have bestowed upon you an air of confidence and menace.</Pair>
+<Pair single="benefit" id="traitcultistlineage-cultist-lineage-fn4-benefit">You gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks. If you act during the surprise round, as a <strong className="hl">free action</strong> during that round you can draw a light weapon (or two if you have the <Link to="/feat/two_weapon_fighting">Two-Weapon Fighting</Link> feat).</Pair>
 </Ability>
 <Ability id="traitdevilfishdiver-devilfish-diver-fn5" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitdevilfishdiver-devilfish-diver-fn5"><Link to="/trait/devilfish_diver">⮞</Link> Devilfish Diver <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-5" id="main-traits_eye_of_abendego-fake-fn-5" data-hash-target to="main-traits_eye_of_abendego-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mediogalti</Pair>
-<Pair single="benefit" id="traitdevilfishdiver-devilfish-diver-fn5-benefit">You've swum with the devilfish along the Mediogaltian coast. You gain a +2 trait bonus on saving throws versus poison.</Pair>
+<Pair single="flavor" id="traitdevilfishdiver-devilfish-diver-fn5-flavor">You've swum with the <Link to="/monster/devilfish">devilfish</Link> along the Mediogaltian coast.</Pair>
+<Pair single="benefit" id="traitdevilfishdiver-devilfish-diver-fn5-benefit">You gain a +2 trait bonus on saving throws versus poison.</Pair>
 </Ability>
 <Ability id="traitdinosaurwhisperer-dinosaur-whisperer-fn5-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitdinosaurwhisperer-dinosaur-whisperer-fn5-2"><Link to="/trait/dinosaur_whisperer">⮞</Link> Dinosaur Whisperer <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-5.2" id="main-traits_eye_of_abendego-fake-fn-5.2" data-hash-target to="main-traits_eye_of_abendego-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mediogalti</Pair>
-<Pair single="benefit" id="traitdinosaurwhisperer-dinosaur-whisperer-fn5-2-benefit">After spending a month in the Mediogaltian jungle, you developed a knack for dealing with dinosaurs. You gain a +1 trait bonus on Knowledge (nature) and Survival checks concerning dinosaurs. You also gain a +1 trait bonus on <Link to="/ability/wild_empathy">wild empathy</Link> checks made to affect dinosaurs.</Pair>
+<Pair single="flavor" id="traitdinosaurwhisperer-dinosaur-whisperer-fn5-2-flavor">After spending a month in the Mediogaltian jungle, you developed a knack for dealing with dinosaurs.</Pair>
+<Pair single="benefit" id="traitdinosaurwhisperer-dinosaur-whisperer-fn5-2-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> and <Link to="/skill/survival">Survival</Link> checks concerning dinosaurs. You also gain a +1 trait bonus on <Link to="/ability/wild_empathy">wild empathy</Link> checks made to affect dinosaurs.</Pair>
 </Ability>
 <Ability id="traitmonkeygoblin-monkey-goblin-fn6" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitmonkeygoblin-monkey-goblin-fn6"><Link to="/trait/monkey_goblin">⮞</Link> Monkey Goblin <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-6" id="main-traits_eye_of_abendego-fake-fn-6" data-hash-target to="main-traits_eye_of_abendego-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mediogalti</Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
-<Pair single="benefit" id="traitmonkeygoblin-monkey-goblin-fn6-benefit">You are adept at arboreal activity, and are more at home in the branches of a tree than you are on the ground. You gain a +2 trait bonus on Acrobatics and Climb checks while climbing trees.</Pair>
+<Pair single="flavor" id="traitmonkeygoblin-monkey-goblin-fn6-flavor">You are adept at arboreal activity, and are more at home in the branches of a tree than you are on the ground.</Pair>
+<Pair single="benefit" id="traitmonkeygoblin-monkey-goblin-fn6-benefit">You gain a +2 trait bonus on <Link to="/skill/acrobatics">Acrobatics</Link> and <Link to="/skill/climb">Climb</Link> checks while climbing trees.</Pair>
 </Ability>
 <Ability id="traitpirateduelist-pirate-duelist-fn5-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitpirateduelist-pirate-duelist-fn5-3"><Link to="/trait/pirate_duelist">⮞</Link> Pirate Duelist <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-5.3" id="main-traits_eye_of_abendego-fake-fn-5.3" data-hash-target to="main-traits_eye_of_abendego-fake-fn-5-target">5</InnerLink></sup></Pair>
@@ -1459,7 +1542,8 @@ const _traits_eye_of_abendego = {title: "Regional Traits: Eye of Abendego", jsx:
 <Pair single id="traitjungleguide-jungle-guide-fn7"><Link to="/trait/jungle_guide">⮞</Link> Jungle Guide <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-7" id="main-traits_eye_of_abendego-fake-fn-7" data-hash-target to="main-traits_eye_of_abendego-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Sargava</Pair>
-<Pair single="benefit" id="traitjungleguide-jungle-guide-fn7-benefit">You've made your living outfitting and guiding expeditions deep into the Mwangi interior in search of ancient ruins and lost cities. You gain a +1 trait bonus on Handle Animal checks, and a +1 trait bonus on Survival checks in jungle terrain. One of these skills is a class skill for you.</Pair>
+<Pair single="flavor" id="traitjungleguide-jungle-guide-fn7-flavor">You've made your living outfitting and guiding expeditions deep into the Mwangi interior in search of ancient ruins and lost cities.</Pair>
+<Pair single="benefit" id="traitjungleguide-jungle-guide-fn7-benefit">You gain a +1 trait bonus on <Link to="/skill/handle_animal">Handle Animal</Link> checks, and a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks in jungle terrain. One of these skills is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitsargavanguard-sargavan-guard-fn7-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitsargavanguard-sargavan-guard-fn7-2"><Link to="/trait/sargavan_guard">⮞</Link> Sargavan Guard <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-7.2" id="main-traits_eye_of_abendego-fake-fn-7.2" data-hash-target to="main-traits_eye_of_abendego-fake-fn-7-target">7</InnerLink></sup></Pair>
@@ -1471,26 +1555,30 @@ const _traits_eye_of_abendego = {title: "Regional Traits: Eye of Abendego", jsx:
 <Pair single id="traitflotsam-flotsam-fn8"><Link to="/trait/flotsam">⮞</Link> Flotsam <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-8" id="main-traits_eye_of_abendego-fake-fn-8" data-hash-target to="main-traits_eye_of_abendego-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
-<Pair single="benefit" id="traitflotsam-flotsam-fn8-benefit">You were one of only a few that survived the destruction of the merchant vessel Vantage. Your crew was more than able to hold off the blundering pirate attackers, but their red dragon ally proved too much for your defenses. As you watched the sharks and eels feast on the bodies of your fallen comrades, you vowed to see Aashaq slain. You gain a +2 bonus on Reflex saves against spells and effects with the fire descriptor.</Pair>
+<Pair single="flavor" id="traitflotsam-flotsam-fn8-flavor">You were one of only a few that survived the destruction of the merchant vessel Vantage. Your crew was more than able to hold off the blundering pirate attackers, but their red dragon ally proved too much for your defenses. As you watched the sharks and eels feast on the bodies of your fallen comrades, you vowed to see Aashaq slain.</Pair>
+<Pair single="benefit" id="traitflotsam-flotsam-fn8-benefit">You gain a +2 bonus on Reflex saves against spells and effects with the fire descriptor.</Pair>
 </Ability>
 <Ability id="traitgoblinpirate-goblin-pirate-fn6-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitgoblinpirate-goblin-pirate-fn6-2"><Link to="/trait/goblin_pirate">⮞</Link> Goblin Pirate <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-6.2" id="main-traits_eye_of_abendego-fake-fn-6.2" data-hash-target to="main-traits_eye_of_abendego-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
-<Pair single="benefit" id="traitgoblinpirate-goblin-pirate-fn6-2-benefit">Although you might prefer life on board a ship, you often end up in the water for some odd reason. You gain a +1 trait bonus on Profession (sailor) and Swim checks, and Swim is always a class skill for you. You might also have a peg leg or a hook for a hand, but that's not so helpful.</Pair>
+<Pair single="flavor" id="traitgoblinpirate-goblin-pirate-fn6-2-flavor">Although you might prefer life on board a ship, you often end up in the water for some odd reason.</Pair>
+<Pair single="benefit" id="traitgoblinpirate-goblin-pirate-fn6-2-benefit">You gain a +1 trait bonus on <Link to="/skill/profession">Profession</Link> (sailor) and <Link to="/skill/swim">Swim</Link> checks, and Swim is always a class skill for you. You might also have a peg leg or a hook for a hand, but that's not so helpful.</Pair>
 </Ability>
 <Ability id="traithomeport-home-port-fn5-5" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traithomeport-home-port-fn5-5"><Link to="/trait/home_port">⮞</Link> Home Port <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-5.5" id="main-traits_eye_of_abendego-fake-fn-5.5" data-hash-target to="main-traits_eye_of_abendego-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
-<Pair single="benefit" id="traithomeport-home-port-fn5-5-benefit">You have a fondness for a particular port, and the people who live and do business there return the sentiment. You gain a +2 trait bonus on Diplomacy checks to gather information in your chosen home port.</Pair>
+<Pair single="flavor" id="traithomeport-home-port-fn5-5-flavor">You have a fondness for a particular port, and the people who live and do business there return the sentiment.</Pair>
+<Pair single="benefit" id="traithomeport-home-port-fn5-5-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to gather information in your chosen home port.</Pair>
 </Ability>
 <Ability id="traithurricanesavvy-hurricane-savvy-fn5-6" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traithurricanesavvy-hurricane-savvy-fn5-6"><Link to="/trait/hurricane_savvy">⮞</Link> Hurricane Savvy <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-5.6" id="main-traits_eye_of_abendego-fake-fn-5.6" data-hash-target to="main-traits_eye_of_abendego-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
-<Pair single="benefit" id="traithurricanesavvy-hurricane-savvy-fn5-6-benefit">You are used to sailing in the terrible winds that roll out from the Eye of Abendego, and can apply the skills you've learned to any storm. You treat wind effects as one wind force category less than they actually are, both for any personal checks you must make and for any you make to captain or steer a ship.</Pair>
+<Pair single="flavor" id="traithurricanesavvy-hurricane-savvy-fn5-6-flavor">You are used to sailing in the terrible winds that roll out from the Eye of Abendego, and can apply the skills you've learned to any storm.</Pair>
+<Pair single="benefit" id="traithurricanesavvy-hurricane-savvy-fn5-6-benefit">You treat <Link to="/rule/wind">wind</Link> effects as one wind force category less than they actually are, both for any personal checks you must make and for any you make to captain or steer a ship.</Pair>
 </Ability>
 <Ability id="traitnarrowescape-narrow-escape-fn5-7" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitnarrowescape-narrow-escape-fn5-7"><Link to="/trait/narrow_escape">⮞</Link> Narrow Escape <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-5.7" id="main-traits_eye_of_abendego-fake-fn-5.7" data-hash-target to="main-traits_eye_of_abendego-fake-fn-5-target">5</InnerLink></sup></Pair>
@@ -1583,7 +1671,7 @@ const _traits_generic = {title: "Regional Traits: Generic Terrains", jsx: <IonLi
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>coastal</Pair>
 <Pair single="flavor" id="traitgiantinvestigator-giant-investigator-fn2-flavor">As a result of your attempts to understand a rare encounter with the unearthly divine magic or secretive movements of coast-dwelling giants, you have learned to carefully consider all facts related to a mystery and form deductions after taking time to mull over an unanswered question.</Pair>
-<Pair single="benefit" id="traitgiantinvestigator-giant-investigator-fn2-benefit"><p>Whenever you fail a Knowledge (local) or Knowledge (religion) check, you can attempt the check again in 24 hours with a +2 bonus to represent your careful formation of a new deduction. Additionally, you can attempt such skill checks untrained when the checks involve giants.</p>
+<Pair single="benefit" id="traitgiantinvestigator-giant-investigator-fn2-benefit"><p>Whenever you fail a <Link to="/skill/knowledge_local">Knowledge (local)</Link> or <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> check, you can attempt the check again in 24 hours with a +2 bonus to represent your careful formation of a new deduction. Additionally, you can attempt such skill checks untrained when the checks involve giants.</p>
 <p><strong>Likely Regions:</strong> Katapesh, Lands of the Linnorm Kings, Mwangi Expanse, Rahadoum, the Shackles, Varisia.</p>
 <p><strong>Likely giants:</strong> Marsh, Ocean, River, Storm, Taiga</p>
 </Pair>
@@ -1605,14 +1693,15 @@ const _traits_generic = {title: "Regional Traits: Generic Terrains", jsx: <IonLi
 <Pair single id="traitdesertchild-desert-child-fn3-2-fn5-fn6-fn7"><Link to="/trait/desert_child">⮞</Link> Desert Child <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-3.2" id="main-traits_generic-fake-fn-3.2" data-hash-target to="main-traits_generic-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-5" id="main-traits_generic-fake-fn-5" data-hash-target to="main-traits_generic-fake-fn-5-target">5</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-6" id="main-traits_generic-fake-fn-6" data-hash-target to="main-traits_generic-fake-fn-6-target">6</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-7" id="main-traits_generic-fake-fn-7" data-hash-target to="main-traits_generic-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia, desert</Pair>
-<Pair single="benefit" id="traitdesertchild-desert-child-fn3-2-fn5-fn6-fn7-benefit">You were born and raised in rocky deserts, and are accustomed to high temperatures. You gain a +4 trait bonus on saving throws made to resist the effects of being in hot conditions and a +1 trait bonus on saving throws against fire effects.</Pair>
+<Pair single="flavor" id="traitdesertchild-desert-child-fn3-2-fn5-fn6-fn7-flavor">You were born and raised in rocky deserts, and are accustomed to high temperatures.</Pair>
+<Pair single="benefit" id="traitdesertchild-desert-child-fn3-2-fn5-fn6-fn7-benefit">You gain a +4 trait bonus on saving throws made to resist the effects of being in <Link to="/rule/heat">hot conditions</Link> and a +1 trait bonus on saving throws against fire effects.</Pair>
 </Ability>
 <Ability id="traitgiantdodger-giant-dodger-fn2-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitgiantdodger-giant-dodger-fn2-2"><Link to="/trait/giant_dodger">⮞</Link> Giant Dodger <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-2.2" id="main-traits_generic-fake-fn-2.2" data-hash-target to="main-traits_generic-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>desert</Pair>
 <Pair single="flavor" id="traitgiantdodger-giant-dodger-fn2-2-flavor">In your youth, you were chased by giants for trespassing - or for sport - and you have learned to evade the reach of your opponents.</Pair>
-<Pair single="benefit" id="traitgiantdodger-giant-dodger-fn2-2-benefit"><p>You gain a +3 bonus on Acrobatics checks to avoid provoking an attack of opportunity when moving out of a threatened space.</p>
+<Pair single="benefit" id="traitgiantdodger-giant-dodger-fn2-2-benefit"><p>You gain a +3 bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks to avoid provoking an attack of opportunity when moving out of a threatened space.</p>
 <p><strong>Likely Regions:</strong> Katapesh, Osirion, Qadira, Rahadoum, Thuvia.</p>
 <p><strong>Likely giants:</strong> Cliff, Desert, River</p>
 </Pair>
@@ -1633,7 +1722,8 @@ const _traits_generic = {title: "Regional Traits: Generic Terrains", jsx: <IonLi
 <Pair single id="traitlairsnake-lair-snake-fn9"><Link to="/trait/lair_snake">⮞</Link> Lair Snake <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-9" id="main-traits_generic-fake-fn-9" data-hash-target to="main-traits_generic-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>dragon's lair</Pair>
-<Pair single="benefit" id="traitlairsnake-lair-snake-fn9-benefit">You spent your formative years bowing and scraping in the presence of a dragon, witnessing the glory of the vast hoard... and squirreling away a few bits of coin for yourself. You gain a +1 trait bonus on Appraise checks, and your starting wealth increases by 200 gp.</Pair>
+<Pair single="flavor" id="traitlairsnake-lair-snake-fn9-flavor">You spent your formative years bowing and scraping in the presence of a dragon, witnessing the glory of the vast hoard... and squirreling away a few bits of coin for yourself.</Pair>
+<Pair single="benefit" id="traitlairsnake-lair-snake-fn9-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> checks, and your starting wealth increases by 200 gp.</Pair>
 </Ability>
 <Ability id="traitbriarbandit-briar-bandit-fn9-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitbriarbandit-briar-bandit-fn9-2"><Link to="/trait/briar_bandit">⮞</Link> Briar Bandit <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-9.2" id="main-traits_generic-fake-fn-9.2" data-hash-target to="main-traits_generic-fake-fn-9-target">9</InnerLink></sup></Pair>
@@ -1646,14 +1736,15 @@ const _traits_generic = {title: "Regional Traits: Generic Terrains", jsx: <IonLi
 <Pair single id="traitlogroller-log-roller-fn3-3-fn5-2"><Link to="/trait/log_roller">⮞</Link> Log Roller <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-3.3" id="main-traits_generic-fake-fn-3.3" data-hash-target to="main-traits_generic-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-5.2" id="main-traits_generic-fake-fn-5.2" data-hash-target to="main-traits_generic-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>forest</Pair>
-<Pair single="benefit" id="traitlogroller-log-roller-fn3-3-fn5-2-benefit">The time you spent leaping between slippery logs as they whirled down the river to market taught you how to keep your footing. You gain a +1 trait bonus on Acrobatics checks and a +1 trait bonus to your CMB when attempting to resist trip attacks.</Pair>
+<Pair single="flavor" id="traitlogroller-log-roller-fn3-3-fn5-2-flavor">The time you spent leaping between slippery logs as they whirled down the river to market taught you how to keep your footing.</Pair>
+<Pair single="benefit" id="traitlogroller-log-roller-fn3-3-fn5-2-benefit">You gain a +1 trait bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks and a +1 trait bonus to your CMB when attempting to resist <Link to="/rule/trip">trip</Link> attacks.</Pair>
 </Ability>
 <Ability id="traitenchantedbygiants-enchanted-by-giants-fn2-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitenchantedbygiants-enchanted-by-giants-fn2-3"><Link to="/trait/enchanted_by_giants">⮞</Link> Enchanted by Giants <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-2.3" id="main-traits_generic-fake-fn-2.3" data-hash-target to="main-traits_generic-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>forest, jungle, or taiga</Pair>
 <Pair single="flavor" id="traitenchantedbygiants-enchanted-by-giants-fn2-3-flavor">You are familiar with the primeval magic of forest-dwelling giants and have witnessed their close attention to the natural world around them, whether because your tribe engaged in trade with those giants or because you stumbled into their territory. The experience opened your eyes to the workings of nature and magic.</Pair>
-<Pair single="benefit" id="traitenchantedbygiants-enchanted-by-giants-fn2-3-benefit"><p>You gain a +1 trait bonus on Survival checks and Spellcraft checks. You can always take 10 on Spellcraft checks to identify spell-like abilities.</p>
+<Pair single="benefit" id="traitenchantedbygiants-enchanted-by-giants-fn2-3-benefit"><p>You gain a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks and <Link to="/skill/spellcraft">Spellcraft</Link> checks. You can always take 10 on Spellcraft checks to identify spell-like abilities.</p>
 <p><strong>Likely Regions:</strong> Kyonin, Lands of the Linnorm Kings, Mwangi Expanse, Nirmathas, River Kingdoms, Taldor.</p>
 </Pair>
 </Ability>
@@ -1661,13 +1752,15 @@ const _traits_generic = {title: "Regional Traits: Generic Terrains", jsx: <IonLi
 <Pair single id="traitfrontierforged-frontier-forged-fn3-4"><Link to="/trait/frontier_forged">⮞</Link> Frontier-Forged <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-3.4" id="main-traits_generic-fake-fn-3.4" data-hash-target to="main-traits_generic-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>frontier</Pair>
-<Pair single="benefit" id="traitfrontierforged-frontier-forged-fn3-4-benefit">A hard life on the edge of civilization has made you resourceful but has also given you a streak of self-preservation bordering on paranoia. You receive a +1 trait bonus on Perception checks and a +1 bonus on Survival checks made to get along in the wild.</Pair>
+<Pair single="flavor" id="traitfrontierforged-frontier-forged-fn3-4-flavor">A hard life on the edge of civilization has made you resourceful but has also given you a streak of self-preservation bordering on paranoia.</Pair>
+<Pair single="benefit" id="traitfrontierforged-frontier-forged-fn3-4-benefit">You receive a +1 trait bonus on <Link to="/skill/perception">Perception</Link> checks and a +1 bonus on <Link to="/skill/survival">Survival</Link> checks made to get along in the wild.</Pair>
 </Ability>
 <Ability id="traithighlander-highlander-fn3-5-fn5-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traithighlander-highlander-fn3-5-fn5-3"><Link to="/trait/highlander">⮞</Link> Highlander <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-3.5" id="main-traits_generic-fake-fn-3.5" data-hash-target to="main-traits_generic-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-5.3" id="main-traits_generic-fake-fn-5.3" data-hash-target to="main-traits_generic-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>hills or mountains</Pair>
-<Pair single="benefit" id="traithighlander-highlander-fn3-5-fn5-3-benefit">You were born and raised in rugged badlands or hills, and you've become something of an expert at evading the predators, monsters, and worse that haunt the highlands. You gain a +1 trait bonus on Stealth checks, and Stealth is always a class skill for you. This trait bonus increases to +2 in hilly or rocky areas.</Pair>
+<Pair single="flavor" id="traithighlander-highlander-fn3-5-fn5-3-flavor">You were born and raised in rugged badlands or hills, and you've become something of an expert at evading the predators, monsters, and worse that haunt the highlands.</Pair>
+<Pair single="benefit" id="traithighlander-highlander-fn3-5-fn5-3-benefit">You gain a +1 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks, and Stealth is always a class skill for you. This trait bonus increases to +2 in hilly or rocky areas.</Pair>
 </Ability>
 <Ability id="traitsurefootedascent-surefooted-ascent-fn4-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitsurefootedascent-surefooted-ascent-fn4-3"><Link to="/trait/surefooted_ascent">⮞</Link> Surefooted Ascent <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-4.3" id="main-traits_generic-fake-fn-4.3" data-hash-target to="main-traits_generic-fake-fn-4-target">4</InnerLink></sup></Pair>
@@ -1722,7 +1815,7 @@ const _traits_generic = {title: "Regional Traits: Generic Terrains", jsx: <IonLi
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>temperate highlands</Pair>
 <Pair single="flavor" id="traitgiantambivalence-giant-ambivalence-fn2-5-flavor">You witnessed or were otherwise strongly influenced by two separate acts by giants, one of great beneficence and one of great violence. You reflexively gauge the intentions of powerful creatures in case they turn to violence.</Pair>
-<Pair single="benefit" id="traitgiantambivalence-giant-ambivalence-fn2-5-benefit"><p>You gain a +1 trait bonus on initiative checks. You also gain a +1 trait bonus on Sense Motive checks, and a +2 trait bonus on Perception checks to not be surprised in a surprise round of combat.</p>
+<Pair single="benefit" id="traitgiantambivalence-giant-ambivalence-fn2-5-benefit"><p>You gain a +1 trait bonus on initiative checks. You also gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks, and a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks to not be surprised in a surprise round of combat.</p>
 <p><strong>Likely Regions:</strong> Isger, Molthune, Numeria, Realm of the Mammoth Lords, Varisia.</p>
 <p><strong>Likely giants:</strong> Cloud, Hill, River, Stone</p>
 </Pair>
@@ -1753,7 +1846,8 @@ const _traits_generic = {title: "Regional Traits: Generic Terrains", jsx: <IonLi
 <Pair single id="traitdungeondweller-dungeon-dweller-fn10-2"><Link to="/trait/dungeon_dweller">⮞</Link> Dungeon Dweller <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-10.2" id="main-traits_generic-fake-fn-10.2" data-hash-target to="main-traits_generic-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>underground</Pair>
-<Pair single="benefit" id="traitdungeondweller-dungeon-dweller-fn10-2-benefit"><p>Not only are you competent while deep underground, you thrive in these perilous environs. Whether you were born in one of the labyrinthine tunnels that riddle the islands of the Shackles or your mysterious parental figures brought you up in the sand-ridden corridors of some forgotten Osirian pyramid, your emergence on Golarion is somehow tied to one of the world's infamous subterranean dungeons. You start with one additional language chosen from the following list: Aklo, Dark Folk, Draconic, Goblin, Necril, Orc, or Undercommon. In addition, whenever you must attempt a Survival check to avoid getting lost in a dungeon, you may roll the check twice and take the better result.</p>
+<Pair single="flavor" id="traitdungeondweller-dungeon-dweller-fn10-2-flavor">Not only are you competent while deep underground, you thrive in these perilous environs. Whether you were born in one of the labyrinthine tunnels that riddle the islands of the Shackles or your mysterious parental figures brought you up in the sand-ridden corridors of some forgotten Osirian pyramid, your emergence on Golarion is somehow tied to one of the world's infamous subterranean dungeons.</Pair>
+<Pair single="benefit" id="traitdungeondweller-dungeon-dweller-fn10-2-benefit"><p>You start with one additional language chosen from the following list: Aklo, Dark Folk, Draconic, Goblin, Necril, Orc, or Undercommon. In addition, whenever you must attempt a <Link to="/skill/survival">Survival</Link> check to avoid getting lost in a dungeon, you may roll the check twice and take the better result.</p>
 <p><strong>Suggestion:</strong> Consider playing an uncommon race.</p>
 </Pair>
 </Ability>
@@ -1767,43 +1861,50 @@ const _traits_generic = {title: "Regional Traits: Generic Terrains", jsx: <IonLi
 <Pair single id="traitcharmedinnocent-charmed-innocent-fn12"><Link to="/trait/charmed_innocent">⮞</Link> Charmed Innocent <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-12" id="main-traits_generic-fake-fn-12" data-hash-target to="main-traits_generic-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
-<Pair single="benefit" id="traitcharmedinnocent-charmed-innocent-fn12-benefit">Your apparent good nature or playful charm makes nonevil creatures want to like you. Once per day, before you roll any Charisma check or Charisma-based skill check against a nonevil creature, you can roll twice and take the better result.</Pair>
+<Pair single="flavor" id="traitcharmedinnocent-charmed-innocent-fn12-flavor">Your apparent good nature or playful charm makes nonevil creatures want to like you.</Pair>
+<Pair single="benefit" id="traitcharmedinnocent-charmed-innocent-fn12-benefit">Once per day, before you roll any Charisma check or Charisma-based skill check against a nonevil creature, you can roll twice and take the better result.</Pair>
 </Ability>
 <Ability id="traitcloisteredupbringing-cloistered-upbringing-fn12-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitcloisteredupbringing-cloistered-upbringing-fn12-2"><Link to="/trait/cloistered_upbringing">⮞</Link> Cloistered Upbringing <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-12.2" id="main-traits_generic-fake-fn-12.2" data-hash-target to="main-traits_generic-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
-<Pair single="benefit" id="traitcloisteredupbringing-cloistered-upbringing-fn12-2-benefit">Growing up among acolytes or monks, you were exposed to their supernatural power. You gain a +1 trait bonus on saving throws against the supernatural effects of channeled energy or abilities powered by ki, and regain 1 additional hit point when healed by supernatural effects.</Pair>
+<Pair single="flavor" id="traitcloisteredupbringing-cloistered-upbringing-fn12-2-flavor">Growing up among acolytes or monks, you were exposed to their supernatural power.</Pair>
+<Pair single="benefit" id="traitcloisteredupbringing-cloistered-upbringing-fn12-2-benefit">You gain a +1 trait bonus on saving throws against the supernatural effects of <Link to="/ability/channel_energy">channeled energy</Link> or abilities powered by ki, and regain 1 additional hit point when healed by supernatural effects.</Pair>
 </Ability>
 <Ability id="traitcultivated-cultivated-fn12-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitcultivated-cultivated-fn12-3"><Link to="/trait/cultivated">⮞</Link> Cultivated <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-12.3" id="main-traits_generic-fake-fn-12.3" data-hash-target to="main-traits_generic-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
-<Pair single="benefit" id="traitcultivated-cultivated-fn12-3-benefit">You grew up speaking multiple <Link to="/misc/languages">languages</Link>. You learn one additional language. Additionally, when attempting a Diplomacy check to gather information using this language, you can do so in 1d6 &times; 10 minutes, rather than the normal 1d4 hours.</Pair>
+<Pair single="flavor" id="traitcultivated-cultivated-fn12-3-flavor">You grew up speaking multiple <Link to="/misc/languages">languages</Link>.</Pair>
+<Pair single="benefit" id="traitcultivated-cultivated-fn12-3-benefit">You learn one additional language. Additionally, when attempting a <Link to="/skill/diplomacy">Diplomacy</Link> check to gather information using this language, you can do so in 1d6 &times; 10 minutes, rather than the normal 1d4 hours.</Pair>
 </Ability>
 <Ability id="traitcunningliar-cunning-liar-fn12-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitcunningliar-cunning-liar-fn12-4"><Link to="/trait/cunning_liar">⮞</Link> Cunning Liar <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-12.4" id="main-traits_generic-fake-fn-12.4" data-hash-target to="main-traits_generic-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
-<Pair single="benefit" id="traitcunningliar-cunning-liar-fn12-4-benefit">You were forced into hiding or willingly went on the run at a young age, and learned to reading others' interests to inform your lies. You can use your Intelligence or Wisdom modifier in place of your Charisma modifier on Bluff checks.</Pair>
+<Pair single="flavor" id="traitcunningliar-cunning-liar-fn12-4-flavor">You were forced into hiding or willingly went on the run at a young age, and learned to reading others' interests to inform your lies.</Pair>
+<Pair single="benefit" id="traitcunningliar-cunning-liar-fn12-4-benefit">You can use your Intelligence or Wisdom modifier in place of your Charisma modifier on <Link to="/skill/bluff">Bluff</Link> checks.</Pair>
 </Ability>
 <Ability id="traitdiligence-diligence-fn12-5" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitdiligence-diligence-fn12-5"><Link to="/trait/diligence">⮞</Link> Diligence <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-12.5" id="main-traits_generic-fake-fn-12.5" data-hash-target to="main-traits_generic-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
-<Pair single="benefit" id="traitdiligence-diligence-fn12-5-benefit">You grew up helping with a family business or were mentored by an expert in some craft or profession, who taught you diligence. Select one specific Craft or Profession skill. You can take 20 with that skill in half the amount of time normally required to take 20.</Pair>
+<Pair single="flavor" id="traitdiligence-diligence-fn12-5-flavor">You grew up helping with a family business or were mentored by an expert in some craft or profession, who taught you diligence.</Pair>
+<Pair single="benefit" id="traitdiligence-diligence-fn12-5-benefit">Select one specific <Link to="/skill/craft">Craft</Link> or <Link to="/skill/profession">Profession</Link> skill. You can take 20 with that skill in half the amount of time normally required to take 20.</Pair>
 </Ability>
 <Ability id="traitgoodfolk-good-folk-fn12-6" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitgoodfolk-good-folk-fn12-6"><Link to="/trait/good_folk">⮞</Link> Good Folk <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-12.6" id="main-traits_generic-fake-fn-12.6" data-hash-target to="main-traits_generic-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
-<Pair single="benefit" id="traitgoodfolk-good-folk-fn12-6-benefit">People's faith in you tends to run deeper than their trust of others. You gain a +2 bonus on Charisma checks and Charisma-based skill checks with creatures that have a friendly or helpful attitude towards you.</Pair>
+<Pair single="flavor" id="traitgoodfolk-good-folk-fn12-6-flavor">People's faith in you tends to run deeper than their trust of others.</Pair>
+<Pair single="benefit" id="traitgoodfolk-good-folk-fn12-6-benefit">You gain a +2 bonus on Charisma checks and Charisma-based skill checks with creatures that have a friendly or helpful attitude towards you.</Pair>
 </Ability>
 <Ability id="traitlostorigins-lost-origins-fn12-7" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitlostorigins-lost-origins-fn12-7"><Link to="/trait/lost_origins">⮞</Link> Lost Origins <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-12.7" id="main-traits_generic-fake-fn-12.7" data-hash-target to="main-traits_generic-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
-<Pair single="benefit" id="traitlostorigins-lost-origins-fn12-7-benefit">You are disconnected from your heritage and do what you can to learn more about where your family is or where your people came from. Knowledge (local) is always a class skill for you, and you can always take 10 on Knowledge (local) checks, even when stress or distractions would normally prevent you from doing so.</Pair>
+<Pair single="flavor" id="traitlostorigins-lost-origins-fn12-7-flavor">You are disconnected from your heritage and do what you can to learn more about where your family is or where your people came from.</Pair>
+<Pair single="benefit" id="traitlostorigins-lost-origins-fn12-7-benefit"><Link to="/skill/knowledge_local">Knowledge (local)</Link> is always a class skill for you, and you can always take 10 on Knowledge (local) checks, even when stress or distractions would normally prevent you from doing so.</Pair>
 </Ability>
 <Ability id="traitstreetwary-street-wary-fn12-8" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitstreetwary-street-wary-fn12-8"><Link to="/trait/street_wary">⮞</Link> Street Wary <sup><InnerLink showBacklink="backlink-main-traits_generic-fake-fn-12.8" id="main-traits_generic-fake-fn-12.8" data-hash-target to="main-traits_generic-fake-fn-12-target">12</InnerLink></sup></Pair>
@@ -1853,25 +1954,30 @@ const _traits_northwest_garund = {title: "Regional Traits: Northwestern Garund",
 <Pair single id="traitcommunityminded-community-minded-fn1"><Link to="/trait/community_minded">⮞</Link> Community-Minded <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-1" id="main-traits_northwest_garund-fake-fn-1" data-hash-target to="main-traits_northwest_garund-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
-<Pair single="benefit" id="traitcommunityminded-community-minded-fn1-benefit">While some pray to the gods for mercy or prosperity, you follow a different tack-you believe in improving the lives of those around you through earnest labor and the efforts of you and your community. Your hard-earned discipline and the candor of your words affect all who bear witness. Any morale bonuses you confer upon your allies through your own abilities or spells last 2 additional rounds.</Pair>
+<Pair single="flavor" id="traitcommunityminded-community-minded-fn1-flavor">While some pray to the gods for mercy or prosperity, you follow a different tack - you believe in improving the lives of those around you through earnest labor and the efforts of you and your community. Your hard-earned discipline and the candor of your words affect all who bear witness.</Pair>
+<Pair single="benefit" id="traitcommunityminded-community-minded-fn1-benefit">Any morale bonuses you confer upon your allies through your own abilities or spells last 2 additional rounds.</Pair>
 </Ability>
 <Ability id="traitgodlessresolve-godless-resolve-fn2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitgodlessresolve-godless-resolve-fn2"><Link to="/trait/godless_resolve">⮞</Link> Godless Resolve <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-2" id="main-traits_northwest_garund-fake-fn-2" data-hash-target to="main-traits_northwest_garund-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Bachuan, Rahadoum or Touvette</Pair>
-<Pair single="benefit" id="traitgodlessresolve-godless-resolve-fn2-benefit">Some brilliant and earnest speech or other performance inspired you to take charge of your own health rather than begging indifferent or outlawed deities for deliverance. Heal is a class skill for you, and you gain a +2 trait bonus on Heal checks to stabilize dying creatures and stop bleeding.</Pair>
+<Pair single="benefit" id="traitgodlessresolve-godless-resolve-fn2-benefit">Some brilliant and earnest speech or other performance inspired you to take charge of your own health rather than begging indifferent or outlawed deities for deliverance. <Link to="/skill/heal">Heal</Link> is a class skill for you, and you gain a +2 trait bonus on Heal checks to stabilize dying creatures and stop bleeding.</Pair>
 </Ability>
 <Ability id="traitjusticiar-justiciar-fn3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitjusticiar-justiciar-fn3"><Link to="/trait/justiciar">⮞</Link> Justiciar <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-3" id="main-traits_northwest_garund-fake-fn-3" data-hash-target to="main-traits_northwest_garund-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
-<Pair single="benefit" id="traitjusticiar-justiciar-fn3-benefit">You are experienced in interpreting and applying legal doctrine, notably the Laws of Man, independent of any divine mandates. You gain a +1 trait bonus on Diplomacy and Knowledge (local) checks to settle disputes or arbitrate laws. Once per day if you succeed at an Intimidate check to demoralize a foe who has repudiated or ignored a pronounced judgment you've made, you may choose to cause the creature to be sickened instead of shaken. The duration of the effect remains the same.</Pair>
+<Pair single="flavor" id="traitjusticiar-justiciar-fn3-flavor">You are experienced in interpreting and applying legal doctrine, notably the Laws of Man, independent of any divine mandates.</Pair>
+<Pair single="benefit" id="traitjusticiar-justiciar-fn3-benefit"><p>You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks to settle disputes or arbitrate laws.</p>
+<p>Once per day if you succeed at an <Link to="/skill/intimidate">Intimidate</Link> check to demoralize a foe who has repudiated or ignored a pronounced judgment you've made, you may choose to cause the creature to be <Link to="/misc/sickened">sickened</Link> instead of <Link to="/misc/shaken">shaken</Link>. The duration of the effect remains the same.</p>
+</Pair>
 </Ability>
 <Ability id="traitliquidhealing-liquid-healing-fn4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitliquidhealing-liquid-healing-fn4"><Link to="/trait/liquid_healing">⮞</Link> Liquid Healing <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-4" id="main-traits_northwest_garund-fake-fn-4" data-hash-target to="main-traits_northwest_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
-<Pair single="benefit" id="traitliquidhealing-liquid-healing-fn4-benefit">Growing up in Rahadoum, you did not have access to clerics and other divine magic for healing, so you relied heavily on potions to cure your wounds. As a result, potions heal you more effectively. Whenever you consume a potion that heals any number of hit points, you heal 2 additional hit points.</Pair>
+<Pair single="flavor" id="traitliquidhealing-liquid-healing-fn4-flavor">Growing up in Rahadoum, you did not have access to clerics and other divine magic for healing, so you relied heavily on potions to cure your wounds. As a result, potions heal you more effectively.</Pair>
+<Pair single="benefit" id="traitliquidhealing-liquid-healing-fn4-benefit">Whenever you consume a potion that heals any number of hit points, you heal 2 additional hit points.</Pair>
 </Ability>
 <Ability id="traitpatronsboon-patrons-boon-fn2-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitpatronsboon-patrons-boon-fn2-2"><Link to="/trait/patrons_boon">⮞</Link> Patron's Boon <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-2.2" id="main-traits_northwest_garund-fake-fn-2.2" data-hash-target to="main-traits_northwest_garund-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1908,32 +2014,36 @@ const _traits_northwest_garund = {title: "Regional Traits: Northwestern Garund",
 <Pair single id="traitdesertchild-desert-child-fn7-fn8-fn9-fn5-3"><Link to="/trait/desert_child">⮞</Link> Desert Child <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-7" id="main-traits_northwest_garund-fake-fn-7" data-hash-target to="main-traits_northwest_garund-fake-fn-7-target">7</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-8" id="main-traits_northwest_garund-fake-fn-8" data-hash-target to="main-traits_northwest_garund-fake-fn-8-target">8</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-9" id="main-traits_northwest_garund-fake-fn-9" data-hash-target to="main-traits_northwest_garund-fake-fn-9-target">9</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-5.3" id="main-traits_northwest_garund-fake-fn-5.3" data-hash-target to="main-traits_northwest_garund-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia, desert</Pair>
-<Pair single="benefit" id="traitdesertchild-desert-child-fn7-fn8-fn9-fn5-3-benefit">You were born and raised in rocky deserts, and are accustomed to high temperatures. You gain a +4 trait bonus on saving throws made to resist the effects of being in hot conditions and a +1 trait bonus on saving throws against fire effects.</Pair>
+<Pair single="flavor" id="traitdesertchild-desert-child-fn7-fn8-fn9-fn5-3-flavor">You were born and raised in rocky deserts, and are accustomed to high temperatures.</Pair>
+<Pair single="benefit" id="traitdesertchild-desert-child-fn7-fn8-fn9-fn5-3-benefit">You gain a +4 trait bonus on saving throws made to resist the effects of being in <Link to="/rule/heat">hot conditions</Link> and a +1 trait bonus on saving throws against fire effects.</Pair>
 </Ability>
 <Ability id="traitdivhunter-div-hunter-fn10" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitdivhunter-div-hunter-fn10"><Link to="/trait/div_hunter">⮞</Link> Div Hunter <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-10" id="main-traits_northwest_garund-fake-fn-10" data-hash-target to="main-traits_northwest_garund-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
-<Pair single="benefit" id="traitdivhunter-div-hunter-fn10-benefit">Divs have tormented you and your loved ones for as long as you can remember. You've improved your skills to better oppose the creatures. You gain a +2 trait bonus on Knowledge checks to identify divs (and their special powers and weaknesses) and a +1 trait bonus on weapon damage rolls against divs.</Pair>
+<Pair single="flavor" id="traitdivhunter-div-hunter-fn10-flavor">Divs have tormented you and your loved ones for as long as you can remember. You've improved your skills to better oppose the creatures.</Pair>
+<Pair single="benefit" id="traitdivhunter-div-hunter-fn10-benefit">You gain a +2 trait bonus on Knowledge checks to identify <Link to="/family/div">divs</Link> (and their special powers and weaknesses) and a +1 trait bonus on weapon damage rolls against divs.</Pair>
 </Ability>
 <Ability id="traiteducateddruggist-educated-druggist-fn2-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traiteducateddruggist-educated-druggist-fn2-3"><Link to="/trait/educated_druggist">⮞</Link> Educated Druggist <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-2.3" id="main-traits_northwest_garund-fake-fn-2.3" data-hash-target to="main-traits_northwest_garund-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osibu, Thuvia, Tian Xia, or Ustalav</Pair>
-<Pair single="benefit" id="traiteducateddruggist-educated-druggist-fn2-3-benefit">Any alchemical remedies you administer that provide an alchemical bonus have that bonus increased by 1. These remedies also restore 1 hit point to the target in addition to their usual effects.</Pair>
+<Pair single="benefit" id="traiteducateddruggist-educated-druggist-fn2-3-benefit">Any <Link to="/main/equipment_alchemical">alchemical remedies</Link> you administer that provide an alchemical bonus have that bonus increased by 1. These remedies also restore 1 hit point to the target in addition to their usual effects.</Pair>
 </Ability>
 <Ability id="traitlamasaranperformer-lamasaran-performer-fn1-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitlamasaranperformer-lamasaran-performer-fn1-4"><Link to="/trait/lamasaran_performer">⮞</Link> Lamasaran Performer <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-1.4" id="main-traits_northwest_garund-fake-fn-1.4" data-hash-target to="main-traits_northwest_garund-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
-<Pair single="benefit" id="traitlamasaranperformer-lamasaran-performer-fn1-4-benefit">You are one of the famed performers of Lamasara, and your skill is known throughout Thuvia. Once per day when you start a bardic performance, you can increase the DC of the saving throw to resist your performance's effects by 1. This effect lasts until you switch performances or end your performance.</Pair>
+<Pair single="flavor" id="traitlamasaranperformer-lamasaran-performer-fn1-4-flavor">You are one of the famed performers of Lamasara, and your skill is known throughout Thuvia.</Pair>
+<Pair single="benefit" id="traitlamasaranperformer-lamasaran-performer-fn1-4-benefit">Once per day when you start a <Link to="/ability/bardic_performance">bardic performance</Link>, you can increase the DC of the saving throw to resist your performance's effects by 1. This effect lasts until you switch performances or end your performance.</Pair>
 </Ability>
 <Ability id="traitmerabianmentorship-merabian-mentorship-fn11" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitmerabianmentorship-merabian-mentorship-fn11"><Link to="/trait/merabian_mentorship">⮞</Link> Merabian Mentorship <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-11" id="main-traits_northwest_garund-fake-fn-11" data-hash-target to="main-traits_northwest_garund-fake-fn-11-target">11</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
 <Pair title="Requirements" hl><Link to="/race/suli">Suli</Link></Pair>
-<Pair single="benefit" id="traitmerabianmentorship-merabian-mentorship-fn11-benefit">You were apprenticed to a renowned alchemist of Merab, and she taught you how to recognize elemental reagents by taste. Upon imbibing a potion containing a spell on your formula list of a spell level you are capable of casting, you can attempt a Spellcraft check (DC 15 + extract level). On a success, you can immediately add the spell to your formula book.</Pair>
+<Pair single="flavor" id="traitmerabianmentorship-merabian-mentorship-fn11-flavor">You were apprenticed to a renowned alchemist of Merab, and she taught you how to recognize elemental reagents by taste.</Pair>
+<Pair single="benefit" id="traitmerabianmentorship-merabian-mentorship-fn11-benefit">Upon imbibing a potion containing a spell on your formula list of a spell level you are capable of casting, you can attempt a <Link to="/skill/spellcraft">Spellcraft</Link> check (DC 15 + extract level). On a success, you can immediately add the spell to your formula book.</Pair>
 </Ability>
 <Ability id="traitresourcefulalchemy-resourceful-alchemy-fn4-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitresourcefulalchemy-resourceful-alchemy-fn4-2"><Link to="/trait/resourceful_alchemy">⮞</Link> Resourceful Alchemy <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-4.2" id="main-traits_northwest_garund-fake-fn-4.2" data-hash-target to="main-traits_northwest_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
@@ -1986,38 +2096,45 @@ const _traits_northeast_garund = {title: "Regional Traits: Northeastern Garund",
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cheliax or Katapesh</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitclumsyslave-clumsy-slave-fn2-benefit">As a former slave, you learned how to conceal your malice toward your owner behind a facade of clumsiness. The first time you attack someone with an attack that deals nonlethal damage, your target must make a Sense Motive opposed by your Bluff check minus the damage dealt to realize you actually intended to harm him; failure means he believe the injury was an accident on your part instead (though he may still want to punish you for it).</Pair>
+<Pair single="flavor" id="traitclumsyslave-clumsy-slave-fn2-flavor">As a former slave, you learned how to conceal your malice toward your owner behind a facade of clumsiness.</Pair>
+<Pair single="benefit" id="traitclumsyslave-clumsy-slave-fn2-benefit">The first time you attack someone with an attack that deals nonlethal damage, your target must make a <Link to="/skill/sense_motive">Sense Motive</Link> opposed by your <Link to="/skill/bluff">Bluff</Link> check minus the damage dealt to realize you actually intended to harm him; failure means he believe the injury was an accident on your part instead (though he may still want to punish you for it).</Pair>
 </Ability>
 <Ability id="traitcommercialsavvy-commercial-savvy-fn3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitcommercialsavvy-commercial-savvy-fn3"><Link to="/trait/commercial_savvy">⮞</Link> Commercial Savvy <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-3" id="main-traits_northeast_garund-fake-fn-3" data-hash-target to="main-traits_northeast_garund-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
-<Pair single="benefit" id="traitcommercialsavvy-commercial-savvy-fn3-benefit">You excel at maximizing mercantile contacts and convincing merchants to dig just a bit deeper into their pockets for you. Whenever you buy from or sell to a merchant, you treat a settlement's Base Value and Purchase Limit as 10% higher.</Pair>
+<Pair single="flavor" id="traitcommercialsavvy-commercial-savvy-fn3-flavor">You excel at maximizing mercantile contacts and convincing merchants to dig just a bit deeper into their pockets for you.</Pair>
+<Pair single="benefit" id="traitcommercialsavvy-commercial-savvy-fn3-benefit">Whenever you buy from or sell to a merchant, you treat a settlement's <Link to="/rule/base_value_and_purchase_limit">Base Value and Purchase Limit</Link> as 10% higher.</Pair>
 </Ability>
 <Ability id="traitduskwalkeragent-duskwalker-agent-fn4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitduskwalkeragent-duskwalker-agent-fn4"><Link to="/trait/duskwalker_agent">⮞</Link> Duskwalker Agent <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4" id="main-traits_northeast_garund-fake-fn-4" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
-<Pair single="benefit" id="traitduskwalkeragent-duskwalker-agent-fn4-benefit">You spent a portion of your childhood working for the Duskwalkers, the guild responsible for policing and watching over all trade that takes place in Katapesh's notorious Nightstalls. You have quite a bit more spending cash than most others of your age as a result, and start with twice the normal amount of starting gold. In addition, your reputation remains strong in the Nightstalls, and any transactions you make there are always beneficial to you; items you sell net you an additional 10% profit, and items you purchase there are 10% cheaper than normal. This discount also applies to your starting gear.</Pair>
+<Pair single="benefit" id="traitduskwalkeragent-duskwalker-agent-fn4-benefit"><p>You spent a portion of your childhood working for the Duskwalkers, the guild responsible for policing and watching over all trade that takes place in Katapesh's notorious Nightstalls. You have quite a bit more spending cash than most others of your age as a result, and start with twice the normal amount of starting gold.</p>
+<p>In addition, your reputation remains strong in the Nightstalls, and any transactions you make there are always beneficial to you; items you sell net you an additional 10% profit, and items you purchase there are 10% cheaper than normal. This discount also applies to your starting gear.</p>
+</Pair>
 </Ability>
 <Ability id="traitfortunefound-fortune-found-fn5" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitfortunefound-fortune-found-fn5"><Link to="/trait/fortune_found">⮞</Link> Fortune Found <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-5" id="main-traits_northeast_garund-fake-fn-5" data-hash-target to="main-traits_northeast_garund-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
 <Pair title="Requirements" hl><Link to="/race/vanara">Vanara</Link></Pair>
-<Pair single="benefit" id="traitfortunefound-fortune-found-fn5-benefit">You have learned a great many tricks and techniques for bartering with humans. You gain a +1 trait bonus on Appraise and Diplomacy checks, and one of these skills (your choice) is a class skill for you.</Pair>
+<Pair single="flavor" id="traitfortunefound-fortune-found-fn5-flavor">You have learned a great many tricks and techniques for bartering with humans.</Pair>
+<Pair single="benefit" id="traitfortunefound-fortune-found-fn5-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> and <Link to="/skill/diplomacy">Diplomacy</Link> checks, and one of these skills (your choice) is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitfreedslavekatapesh-freed-slave-katapesh-fn4-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitfreedslavekatapesh-freed-slave-katapesh-fn4-2"><Link to="/trait/freed_slave_katapesh">⮞</Link> Freed Slave (Katapesh) <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.2" id="main-traits_northeast_garund-fake-fn-4.2" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
-<Pair single="benefit" id="traitfreedslavekatapesh-freed-slave-katapesh-fn4-2-benefit">You spent a significant portion of your childhood as a slave, but were freed from slavery several years ago by a benevolent master who purchased you from an auction after your previous master's death. Yet while the memories of your difficult childhood still haunt you, the hard life did toughen you. You gain a +1 trait bonus on Fortitude saves.</Pair>
+<Pair single="flavor" id="traitfreedslavekatapesh-freed-slave-katapesh-fn4-2-flavor">You spent a significant portion of your childhood as a slave, but were freed from slavery several years ago by a benevolent master who purchased you from an auction after your previous master's death. Yet while the memories of your difficult childhood still haunt you, the hard life did toughen you.</Pair>
+<Pair single="benefit" id="traitfreedslavekatapesh-freed-slave-katapesh-fn4-2-benefit">You gain a +1 trait bonus on Fortitude saves.</Pair>
 </Ability>
 <Ability id="traitmerchantschild-merchants-child-fn6-fn4-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitmerchantschild-merchants-child-fn6-fn4-3"><Link to="/trait/merchants_child">⮞</Link> Merchant's Child <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-6" id="main-traits_northeast_garund-fake-fn-6" data-hash-target to="main-traits_northeast_garund-fake-fn-6-target">6</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.3" id="main-traits_northeast_garund-fake-fn-4.3" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
-<Pair single="benefit" id="traitmerchantschild-merchants-child-fn6-fn4-3-benefit">One of your close relatives was a gifted merchant in the bustling bazaars of Katapesh, and taught you early in life how to see the innate value in any object. You gain a +1 trait bonus on Appraise checks, and Appraise is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitmerchantschild-merchants-child-fn6-fn4-3-flavor">One of your close relatives was a gifted merchant in the bustling bazaars of Katapesh, and taught you early in life how to see the innate value in any object.</Pair>
+<Pair single="benefit" id="traitmerchantschild-merchants-child-fn6-fn4-3-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> checks, and Appraise is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traitnightstallurchin-nightstall-urchin-fn4-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitnightstallurchin-nightstall-urchin-fn4-4"><Link to="/trait/nightstall_urchin">⮞</Link> Nightstall Urchin <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.4" id="main-traits_northeast_garund-fake-fn-4.4" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
@@ -2067,7 +2184,8 @@ const _traits_northeast_garund = {title: "Regional Traits: Northeastern Garund",
 <Pair single id="traitcruelmaster-cruel-master-fn10-2"><Link to="/trait/cruel_master">⮞</Link> Cruel Master <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-10.2" id="main-traits_northeast_garund-fake-fn-10.2" data-hash-target to="main-traits_northeast_garund-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Okeno</Pair>
-<Pair single="benefit" id="traitcruelmaster-cruel-master-fn10-2-benefit">You're a master of dominating slaves through body language and inflection, and this ability carries over into other lines of work as well. You gain a +1 trait bonus on Intimidate checks, and it becomes a class skill for you.</Pair>
+<Pair single="flavor" id="traitcruelmaster-cruel-master-fn10-2-flavor">You're a master of dominating slaves through body language and inflection, and this ability carries over into other lines of work as well.</Pair>
+<Pair single="benefit" id="traitcruelmaster-cruel-master-fn10-2-benefit">You gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks, and it becomes a class skill for you.</Pair>
 </Ability>
 <Ability id="traitslavetaker-slave-taker-fn10-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitslavetaker-slave-taker-fn10-3"><Link to="/trait/slave_taker">⮞</Link> Slave Taker <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-10.3" id="main-traits_northeast_garund-fake-fn-10.3" data-hash-target to="main-traits_northeast_garund-fake-fn-10-target">10</InnerLink></sup></Pair>
@@ -2093,7 +2211,8 @@ const _traits_northeast_garund = {title: "Regional Traits: Northeastern Garund",
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion or Varisia</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitcheaptofeed-cheap-to-feed-fn2-2-benefit">Life in a big city taught the consequences of pride. Now you have no qualms about pointing out how little of a burden your upkeep would prove to potential employers, captors, innkeepers, or anyone else able to provide you with the necessities of life. You gain a +3 trait bonus on Bluff checks made in order to gain food, water, or shelter.</Pair>
+<Pair single="flavor" id="traitcheaptofeed-cheap-to-feed-fn2-2-flavor">Life in a big city taught the consequences of pride. Now you have no qualms about pointing out how little of a burden your upkeep would prove to potential employers, captors, innkeepers, or anyone else able to provide you with the necessities of life.</Pair>
+<Pair single="benefit" id="traitcheaptofeed-cheap-to-feed-fn2-2-benefit">You gain a +3 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks made in order to gain food, water, or shelter.</Pair>
 </Ability>
 <Ability id="traitchildofmumia-child-of-mumia-fn11" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitchildofmumia-child-of-mumia-fn11"><Link to="/trait/child_of_mumia">⮞</Link> Child of Mumia <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-11" id="main-traits_northeast_garund-fake-fn-11" data-hash-target to="main-traits_northeast_garund-fake-fn-11-target">11</InnerLink></sup></Pair>
@@ -2105,7 +2224,8 @@ const _traits_northeast_garund = {title: "Regional Traits: Northeastern Garund",
 <Pair single id="traitchildofwati-child-of-wati-fn12"><Link to="/trait/child_of_wati">⮞</Link> Child of Wati <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-12" id="main-traits_northeast_garund-fake-fn-12" data-hash-target to="main-traits_northeast_garund-fake-fn-12-target">12</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
-<Pair single="benefit" id="traitchildofwati-child-of-wati-fn12-benefit">You were raised near the infamous necropolis of Wati, and even managed to sneak into these hallowed grounds on occasion. Entering the clergy of the Voices of the Spire in Wati was a natural choice as you grew older, and your past experiences made you a particularly well-informed disciple of the church. Your effective cleric level is 1 higher for the purposes of channeling positive energy to damage undead. Your effective cleric level cannot exceed your character level.</Pair>
+<Pair single="flavor" id="traitchildofwati-child-of-wati-fn12-flavor">You were raised near the infamous necropolis of Wati, and even managed to sneak into these hallowed grounds on occasion. Entering the clergy of the Voices of the Spire in Wati was a natural choice as you grew older, and your past experiences made you a particularly well-informed disciple of the church.</Pair>
+<Pair single="benefit" id="traitchildofwati-child-of-wati-fn12-benefit">Your effective cleric level is 1 higher for the purposes of <Link to="/ability/channel_positive_energy">channeling positive energy</Link> to damage undead. Your effective cleric level cannot exceed your character level.</Pair>
 </Ability>
 <Ability id="traitcursequeller-curse-queller-fn13" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitcursequeller-curse-queller-fn13"><Link to="/trait/curse_queller">⮞</Link> Curse Queller <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-13" id="main-traits_northeast_garund-fake-fn-13" data-hash-target to="main-traits_northeast_garund-fake-fn-13-target">13</InnerLink></sup></Pair>
@@ -2117,26 +2237,30 @@ const _traits_northeast_garund = {title: "Regional Traits: Northeastern Garund",
 <Pair single id="traitelementalendowment-elemental-endowment-fn3-2"><Link to="/trait/elemental_endowment">⮞</Link> Elemental Endowment <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-3.2" id="main-traits_northeast_garund-fake-fn-3.2" data-hash-target to="main-traits_northeast_garund-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
-<Pair single="benefit" id="traitelementalendowment-elemental-endowment-fn3-2-benefit">You see the interactions between elementals as the epitome of balance; you've studied the traditional elemental bindings of Ancient Osirion and can draw upon their power. As an immediate action, once per day when you cast a spell with the air, earth, fire, or water descriptor, you can gain a number of temporary hit points equal to the spell's level. This effect lasts for 1 minute.</Pair>
+<Pair single="flavor" id="traitelementalendowment-elemental-endowment-fn3-2-flavor">You see the interactions between elementals as the epitome of balance; you've studied the traditional elemental bindings of Ancient Osirion and can draw upon their power.</Pair>
+<Pair single="benefit" id="traitelementalendowment-elemental-endowment-fn3-2-benefit">As an <strong className="hl">immediate action</strong>, once per day when you cast a spell with the air, earth, fire, or water descriptor, you can gain a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the spell's level. This effect lasts for 1 minute.</Pair>
 </Ability>
 <Ability id="traitelementalties-elemental-ties-fn14" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitelementalties-elemental-ties-fn14"><Link to="/trait/elemental_ties">⮞</Link> Elemental Ties <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-14" id="main-traits_northeast_garund-fake-fn-14" data-hash-target to="main-traits_northeast_garund-fake-fn-14-target">14</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
-<Pair single="benefit" id="traitelementalties-elemental-ties-fn14-benefit">Interactions with elementals are commonplace for you. You gain a +1 trait bonus on Diplomacy checks when dealing with creatures of the elemental type, and you begin play knowing one of the following languages as an additional bonus language: Aquan, Auran, Ignan, or Terran.</Pair>
+<Pair single="flavor" id="traitelementalties-elemental-ties-fn14-flavor">Interactions with elementals are commonplace for you.</Pair>
+<Pair single="benefit" id="traitelementalties-elemental-ties-fn14-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks when dealing with creatures of the elemental type, and you begin play knowing one of the following languages as an additional bonus language: Aquan, Auran, Ignan, or Terran.</Pair>
 </Ability>
 <Ability id="traitempathicdiplomat-empathic-diplomat-fn15" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitempathicdiplomat-empathic-diplomat-fn15"><Link to="/trait/empathic_diplomat">⮞</Link> Empathic Diplomat <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-15" id="main-traits_northeast_garund-fake-fn-15" data-hash-target to="main-traits_northeast_garund-fake-fn-15-target">15</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira or Osirion</Pair>
-<Pair single="benefit" id="traitempathicdiplomat-empathic-diplomat-fn15-benefit">You have long followed the path of common sense and empathic insight when using diplomacy. You modify your Diplomacy checks using your Wisdom modifier, not your Charisma modifier.</Pair>
+<Pair single="flavor" id="traitempathicdiplomat-empathic-diplomat-fn15-flavor">You have long followed the path of common sense and empathic insight when using diplomacy.</Pair>
+<Pair single="benefit" id="traitempathicdiplomat-empathic-diplomat-fn15-benefit">You modify your <Link to="/skill/diplomacy">Diplomacy</Link> checks using your Wisdom modifier, not your Charisma modifier.</Pair>
 </Ability>
 <Ability id="traitlegalisticliberation-legalistic-liberation-fn2-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitlegalisticliberation-legalistic-liberation-fn2-3"><Link to="/trait/legalistic_liberation">⮞</Link> Legalistic Liberation <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-2.3" id="main-traits_northeast_garund-fake-fn-2.3" data-hash-target to="main-traits_northeast_garund-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Molthune or Osirion</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="traitlegalisticliberation-legalistic-liberation-fn2-3-benefit">You followed - or some might say exploited - the rules and earned your freedom by finding the loopholes within your homeland's labyrinthine codes regulating slavery and indentured servitude. You gain a +1 bonus on all Knowledge checks to find a legitimate way to avoid, negate, or escape an existing obligation.</Pair>
+<Pair single="flavor" id="traitlegalisticliberation-legalistic-liberation-fn2-3-flavor">You followed - or some might say exploited - the rules and earned your freedom by finding the loopholes within your homeland's labyrinthine codes regulating slavery and indentured servitude.</Pair>
+<Pair single="benefit" id="traitlegalisticliberation-legalistic-liberation-fn2-3-benefit">You gain a +1 bonus on all <Link to="/skill/knowledge">Knowledge</Link> checks to find a legitimate way to avoid, negate, or escape an existing obligation.</Pair>
 </Ability>
 <Ability id="traitnumerologist-numerologist-fn11-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitnumerologist-numerologist-fn11-2"><Link to="/trait/numerologist">⮞</Link> Numerologist <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-11.2" id="main-traits_northeast_garund-fake-fn-11.2" data-hash-target to="main-traits_northeast_garund-fake-fn-11-target">11</InnerLink></sup></Pair>
@@ -2207,37 +2331,43 @@ const _traits_mana_wastes = {title: "Regional Traits: Mana Wastes", jsx: <IonLis
 <Pair single id="traitmanawastesmedic-mana-wastes-medic-fn3"><Link to="/trait/mana_wastes_medic">⮞</Link> Mana Wastes Medic <sup><InnerLink showBacklink="backlink-main-traits_mana_wastes-fake-fn-3" id="main-traits_mana_wastes-fake-fn-3" data-hash-target to="main-traits_mana_wastes-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mana Wastes</Pair>
-<Pair single="benefit" id="traitmanawastesmedic-mana-wastes-medic-fn3-benefit">After witnessing a terrible disaster result from an attempt at magical healing in the Mana Wastes, you are careful and methodical when crafting your own healing tinctures. The amount of hit points restored by your Heal checks to treat deadly wounds and your extracts of the healing subschool is increased by 1.</Pair>
+<Pair single="flavor" id="traitmanawastesmedic-mana-wastes-medic-fn3-flavor">After witnessing a terrible disaster result from an attempt at magical healing in the Mana Wastes, you are careful and methodical when crafting your own healing tinctures.</Pair>
+<Pair single="benefit" id="traitmanawastesmedic-mana-wastes-medic-fn3-benefit">The amount of hit points restored by your <Link to="/skill/heal">Heal</Link> checks to treat deadly wounds and your extracts of the healing subschool is increased by 1.</Pair>
 </Ability>
 <Ability id="traitmanawastessurvivalist-mana-wastes-survivalist-fn1-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitmanawastessurvivalist-mana-wastes-survivalist-fn1-2"><Link to="/trait/mana_wastes_survivalist">⮞</Link> Mana Wastes Survivalist <sup><InnerLink showBacklink="backlink-main-traits_mana_wastes-fake-fn-1.2" id="main-traits_mana_wastes-fake-fn-1.2" data-hash-target to="main-traits_mana_wastes-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mana Wastes</Pair>
-<Pair single="benefit" id="traitmanawastessurvivalist-mana-wastes-survivalist-fn1-2-benefit">You grew up in the blasted badlands of the Mana Wastes, or have spent a lot of time there, and the harsh land has toughened your body. You gain a +1 trait bonus on Fortitude saves.</Pair>
+<Pair single="flavor" id="traitmanawastessurvivalist-mana-wastes-survivalist-fn1-2-flavor">You grew up in the blasted badlands of the Mana Wastes, or have spent a lot of time there, and the harsh land has toughened your body.</Pair>
+<Pair single="benefit" id="traitmanawastessurvivalist-mana-wastes-survivalist-fn1-2-benefit">You gain a +1 trait bonus on Fortitude saves.</Pair>
 </Ability>
 <Ability id="traitmechanicalexpertise-mechanical-expertise-fn4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitmechanicalexpertise-mechanical-expertise-fn4"><Link to="/trait/mechanical_expertise">⮞</Link> Mechanical Expertise <sup><InnerLink showBacklink="backlink-main-traits_mana_wastes-fake-fn-4" id="main-traits_mana_wastes-fake-fn-4" data-hash-target to="main-traits_mana_wastes-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Alkenstar</Pair>
-<Pair single="benefit" id="traitmechanicalexpertise-mechanical-expertise-fn4-benefit">Growing up bordering the Mana Wastes and living within the Grand Duchy of Alkenstar has made you familiar with tools and practical objects. You rely on mechanics to solve problems and are familiar with basic engineering concepts. Select one of the following skills: Craft (any), Disable Device, or Knowledge (engineering). You gain a +1 trait bonus on checks with that skill, and it is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitmechanicalexpertise-mechanical-expertise-fn4-flavor">Growing up bordering the Mana Wastes and living within the Grand Duchy of Alkenstar has made you familiar with tools and practical objects. You rely on mechanics to solve problems and are familiar with basic engineering concepts.</Pair>
+<Pair single="benefit" id="traitmechanicalexpertise-mechanical-expertise-fn4-benefit">Select one of the following skills: <Link to="/skill/craft">Craft</Link> (any), <Link to="/skill/disable_device">Disable Device</Link>, or <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link>. You gain a +1 trait bonus on checks with that skill, and it is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traitenemyoftheundead-enemy-of-the-undead-fn1-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitenemyoftheundead-enemy-of-the-undead-fn1-3"><Link to="/trait/enemy_of_the_undead">⮞</Link> Enemy of the Undead <sup><InnerLink showBacklink="backlink-main-traits_mana_wastes-fake-fn-1.3" id="main-traits_mana_wastes-fake-fn-1.3" data-hash-target to="main-traits_mana_wastes-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Geb</Pair>
-<Pair single="benefit" id="traitenemyoftheundead-enemy-of-the-undead-fn1-3-benefit">Your disgust at the way the undead aristocracy of Geb treats the living has inspired hatred in you. You gain a +2 trait bonus on saving throws against any spells or spell-like abilities from an undead creature.</Pair>
+<Pair single="flavor" id="traitenemyoftheundead-enemy-of-the-undead-fn1-3-flavor">Your disgust at the way the undead aristocracy of Geb treats the living has inspired hatred in you.</Pair>
+<Pair single="benefit" id="traitenemyoftheundead-enemy-of-the-undead-fn1-3-benefit">You gain a +2 trait bonus on saving throws against any spells or spell-like abilities from an undead creature.</Pair>
 </Ability>
 <Ability id="traitforbiddenknowledge-forbidden-knowledge-fn5" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitforbiddenknowledge-forbidden-knowledge-fn5"><Link to="/trait/forbidden_knowledge">⮞</Link> Forbidden Knowledge <sup><InnerLink showBacklink="backlink-main-traits_mana_wastes-fake-fn-5" id="main-traits_mana_wastes-fake-fn-5" data-hash-target to="main-traits_mana_wastes-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Geb</Pair>
-<Pair single="benefit" id="traitforbiddenknowledge-forbidden-knowledge-fn5-benefit">As a child, you somehow got your hands on a lurid, forbidden text written by a now-forgotten Blood Lord of ages past. You studied the details within intently, learning much about extraplanar undead from beyond this reality, and you developed a strange, almost macabre way of thinking because of this book's influence. Anytime you would roll a Knowledge (planes) check, you may roll a Knowledge (history) or Knowledge (religion) check instead.</Pair>
+<Pair single="flavor" id="traitforbiddenknowledge-forbidden-knowledge-fn5-flavor">As a child, you somehow got your hands on a lurid, forbidden text written by a now-forgotten Blood Lord of ages past. You studied the details within intently, learning much about extraplanar undead from beyond this reality, and you developed a strange, almost macabre way of thinking because of this book's influence.</Pair>
+<Pair single="benefit" id="traitforbiddenknowledge-forbidden-knowledge-fn5-benefit">Anytime you would roll a <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> check, you may roll a <Link to="/skill/knowledge_history">Knowledge (history)</Link> or <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> check instead.</Pair>
 </Ability>
 <Ability id="traitfriendofthedead-friend-of-the-dead-fn1-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitfriendofthedead-friend-of-the-dead-fn1-4"><Link to="/trait/friend_of_the_dead">⮞</Link> Friend of the Dead <sup><InnerLink showBacklink="backlink-main-traits_mana_wastes-fake-fn-1.4" id="main-traits_mana_wastes-fake-fn-1.4" data-hash-target to="main-traits_mana_wastes-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Geb</Pair>
-<Pair single="benefit" id="traitfriendofthedead-friend-of-the-dead-fn1-4-benefit">Your close association with the intelligent undead of Geb has imparted some of their otherworldly essence to you, and this essence helps you in your dealings with the undead. You gain a +2 trait bonus on Diplomacy checks against sentient undead.</Pair>
+<Pair single="flavor" id="traitfriendofthedead-friend-of-the-dead-fn1-4-flavor">Your close association with the intelligent undead of Geb has imparted some of their otherworldly essence to you, and this essence helps you in your dealings with the undead.</Pair>
+<Pair single="benefit" id="traitfriendofthedead-friend-of-the-dead-fn1-4-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks against sentient undead.</Pair>
 </Ability>
 <Ability id="traitnecrotoxinresistance-necrotoxin-resistance-fn6" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitnecrotoxinresistance-necrotoxin-resistance-fn6"><Link to="/trait/necrotoxin_resistance">⮞</Link> Necrotoxin Resistance <sup><InnerLink showBacklink="backlink-main-traits_mana_wastes-fake-fn-6" id="main-traits_mana_wastes-fake-fn-6" data-hash-target to="main-traits_mana_wastes-fake-fn-6-target">6</InnerLink></sup></Pair>
@@ -2255,7 +2385,8 @@ const _traits_mana_wastes = {title: "Regional Traits: Mana Wastes", jsx: <IonLis
 <Pair single id="traitexiledscholar-exiled-scholar-fn5-2"><Link to="/trait/exiled_scholar">⮞</Link> Exiled Scholar <sup><InnerLink showBacklink="backlink-main-traits_mana_wastes-fake-fn-5.2" id="main-traits_mana_wastes-fake-fn-5.2" data-hash-target to="main-traits_mana_wastes-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nex</Pair>
-<Pair single="benefit" id="traitexiledscholar-exiled-scholar-fn5-2-benefit">Since you were young, you've always been interested in the process of lichdom and what drives people to desire such a fate. Nexian officials marked you as a traitor and exiled you when they discovered your morbid fascination with the consummate undead, but you still benefit from your forbidden studies. You gain a +1 trait bonus on Knowledge (arcana) and (religion) checks. In addition, choose one Knowledge skill; you can attempt untrained checks with this skill as long as the DC is lower than 15.</Pair>
+<Pair single="flavor" id="traitexiledscholar-exiled-scholar-fn5-2-flavor">Since you were young, you've always been interested in the process of lichdom and what drives people to desire such a fate. Nexian officials marked you as a traitor and exiled you when they discovered your morbid fascination with the consummate undead, but you still benefit from your forbidden studies.</Pair>
+<Pair single="benefit" id="traitexiledscholar-exiled-scholar-fn5-2-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> and <Link to="/skill/knowledge_religion">(religion)</Link> checks. In addition, choose one <Link to="/skill/knowledge">Knowledge</Link> skill; you can attempt untrained checks with this skill as long as the DC is lower than 15.</Pair>
 </Ability>
 <Ability id="traitnexiancorpsehunter-nexian-corpse-hunter-fn8" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitnexiancorpsehunter-nexian-corpse-hunter-fn8"><Link to="/trait/nexian_corpse_hunter">⮞</Link> Nexian Corpse Hunter <sup><InnerLink showBacklink="backlink-main-traits_mana_wastes-fake-fn-8" id="main-traits_mana_wastes-fake-fn-8" data-hash-target to="main-traits_mana_wastes-fake-fn-8-target">8</InnerLink></sup></Pair>
@@ -2296,39 +2427,45 @@ const _traits_mwangi_expanse = {title: "Regional Traits: Mwangi Expanse", jsx: <
 <Pair single id="traitcharaukaslayer-charau-ka-slayer-fn2"><Link to="/trait/charau_ka_slayer">⮞</Link> Charau-Ka Slayer <sup><InnerLink showBacklink="backlink-main-traits_mwangi_expanse-fake-fn-2" id="main-traits_mwangi_expanse-fake-fn-2" data-hash-target to="main-traits_mwangi_expanse-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse</Pair>
-<Pair single="benefit" id="traitcharaukaslayer-charau-ka-slayer-fn2-benefit">As a native of the Mwangi Jungle, you've had frequent encounters with the charau-ka and learned how to fight against these coldly calculating demon worshipers. You gain a +1 trait bonus to AC against attacks made with thrown weapons.</Pair>
+<Pair single="flavor" id="traitcharaukaslayer-charau-ka-slayer-fn2-flavor">As a native of the Mwangi Jungle, you've had frequent encounters with the <Link to="/monster/charau_ka">charau-ka</Link> and learned how to fight against these coldly calculating demon worshipers.</Pair>
+<Pair single="benefit" id="traitcharaukaslayer-charau-ka-slayer-fn2-benefit">You gain a +1 trait bonus to AC against attacks made with thrown weapons.</Pair>
 </Ability>
 <Ability id="traitjunglenative-jungle-native-fn3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitjunglenative-jungle-native-fn3"><Link to="/trait/jungle_native">⮞</Link> Jungle Native <sup><InnerLink showBacklink="backlink-main-traits_mwangi_expanse-fake-fn-3" id="main-traits_mwangi_expanse-fake-fn-3" data-hash-target to="main-traits_mwangi_expanse-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse</Pair>
 <Pair title="Requirements" hl><Link to="/race/grippli">Grippli</Link></Pair>
-<Pair single="benefit" id="traitjunglenative-jungle-native-fn3-benefit">Your people have called the jungles home for generations, and they are extremely proficient in moving about in that terrain. You gain a +1 trait bonus on saving throws against diseases and poisons, a +1 trait bonus on initiative checks attempted in jungle terrain, and Survival is a class skill for you.</Pair>
+<Pair single="flavor" id="traitjunglenative-jungle-native-fn3-flavor">Your people have called the jungles home for generations, and they are extremely proficient in moving about in that terrain.</Pair>
+<Pair single="benefit" id="traitjunglenative-jungle-native-fn3-benefit">You gain a +1 trait bonus on saving throws against diseases and poisons, a +1 trait bonus on initiative checks attempted in jungle terrain, and <Link to="/skill/survival">Survival</Link> is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitjunglewalker-jungle-walker-fn1-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitjunglewalker-jungle-walker-fn1-2"><Link to="/trait/jungle_walker">⮞</Link> Jungle Walker <sup><InnerLink showBacklink="backlink-main-traits_mwangi_expanse-fake-fn-1.2" id="main-traits_mwangi_expanse-fake-fn-1.2" data-hash-target to="main-traits_mwangi_expanse-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse</Pair>
-<Pair single="benefit" id="traitjunglewalker-jungle-walker-fn1-2-benefit">You have learned how to navigate the darkest jungles of the Mwangi Expanse, and how to avoid the most dangerous hazards of the land. You gain a +2 trait bonus on Survival checks in jungle terrain.</Pair>
+<Pair single="flavor" id="traitjunglewalker-jungle-walker-fn1-2-flavor">You have learned how to navigate the darkest jungles of the Mwangi Expanse, and how to avoid the most dangerous hazards of the land.</Pair>
+<Pair single="benefit" id="traitjunglewalker-jungle-walker-fn1-2-benefit">You gain a +2 trait bonus on <Link to="/skill/survival">Survival</Link> checks in jungle terrain.</Pair>
 </Ability>
 <Ability id="traitleftbehind-left-behind-fn4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitleftbehind-left-behind-fn4"><Link to="/trait/left_behind">⮞</Link> Left Behind <sup><InnerLink showBacklink="backlink-main-traits_mwangi_expanse-fake-fn-4" id="main-traits_mwangi_expanse-fake-fn-4" data-hash-target to="main-traits_mwangi_expanse-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse or Varisia</Pair>
 <Pair title="Requirements" hl><Link to="/race/elf">Elf</Link></Pair>
-<Pair single="benefit" id="traitleftbehind-left-behind-fn4-benefit">Having been born to those who chose to remain on Golarion during the Age of Darkness in the Mwangi Expanse, you understand the people of this world better than most elves. You gain a +1 trait bonus on Diplomacy checks when interacting with Forlorn elves and non-elf races.</Pair>
+<Pair single="flavor" id="traitleftbehind-left-behind-fn4-flavor">Having been born to those who chose to remain on Golarion during the Age of Darkness in the Mwangi Expanse, you understand the people of this world better than most elves.</Pair>
+<Pair single="benefit" id="traitleftbehind-left-behind-fn4-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks when interacting with Forlorn elves and non-elf races.</Pair>
 </Ability>
 <Ability id="traitmwangiherbaltradition-mwangi-herbal-tradition-fn5" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitmwangiherbaltradition-mwangi-herbal-tradition-fn5"><Link to="/trait/mwangi_herbal_tradition">⮞</Link> Mwangi Herbal Tradition <sup><InnerLink showBacklink="backlink-main-traits_mwangi_expanse-fake-fn-5" id="main-traits_mwangi_expanse-fake-fn-5" data-hash-target to="main-traits_mwangi_expanse-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse</Pair>
-<Pair single="benefit" id="traitmwangiherbaltradition-mwangi-herbal-tradition-fn5-benefit">You are trained in a Mwangi tradition of herbalism dating back to the Age of Darkness and therefore have great insight into how to use the natural ingredients at your disposal to nurse an ailing body. You gain a +4 trait bonus on Heal checks when providing long-term care, and Heal is a class skill for you.</Pair>
+<Pair single="flavor" id="traitmwangiherbaltradition-mwangi-herbal-tradition-fn5-flavor">You are trained in a Mwangi tradition of herbalism dating back to the Age of Darkness and therefore have great insight into how to use the natural ingredients at your disposal to nurse an ailing body.</Pair>
+<Pair single="benefit" id="traitmwangiherbaltradition-mwangi-herbal-tradition-fn5-benefit">You gain a +4 trait bonus on <Link to="/skill/heal">Heal</Link> checks when providing long-term care, and Heal is a class skill for you.</Pair>
 </Ability>
 <Ability id="traitmwangilinguist-mwangi-linguist-fn6" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitmwangilinguist-mwangi-linguist-fn6"><Link to="/trait/mwangi_linguist">⮞</Link> Mwangi Linguist <sup><InnerLink showBacklink="backlink-main-traits_mwangi_expanse-fake-fn-6" id="main-traits_mwangi_expanse-fake-fn-6" data-hash-target to="main-traits_mwangi_expanse-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse</Pair>
-<Pair single="benefit" id="traitmwangilinguist-mwangi-linguist-fn6-benefit">The Mwangi Expanse is a land of dozens of languages, and you grew up speaking most of them. You gain Polyglot as a bonus language. In addition, you gain a +1 trait bonus on Linguistics checks when trying to communicate with someone who does not share a common language with you.</Pair>
+<Pair single="flavor" id="traitmwangilinguist-mwangi-linguist-fn6-flavor">The Mwangi Expanse is a land of dozens of languages, and you grew up speaking most of them.</Pair>
+<Pair single="benefit" id="traitmwangilinguist-mwangi-linguist-fn6-benefit">You gain Polyglot as a bonus language. In addition, you gain a +1 trait bonus on <Link to="/skill/linguistics">Linguistics</Link> checks when trying to communicate with someone who does not share a common language with you.</Pair>
 </Ability>
 <Ability id="traitscionoftheshory-scion-of-the-shory-fn7" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitscionoftheshory-scion-of-the-shory-fn7"><Link to="/trait/scion_of_the_shory">⮞</Link> Scion of the Shory <sup><InnerLink showBacklink="backlink-main-traits_mwangi_expanse-fake-fn-7" id="main-traits_mwangi_expanse-fake-fn-7" data-hash-target to="main-traits_mwangi_expanse-fake-fn-7-target">7</InnerLink></sup></Pair>
@@ -2346,7 +2483,7 @@ const _traits_mwangi_expanse = {title: "Regional Traits: Mwangi Expanse", jsx: <
 <Pair single id="traiteducateddruggist-educated-druggist-fn5-2"><Link to="/trait/educated_druggist">⮞</Link> Educated Druggist <sup><InnerLink showBacklink="backlink-main-traits_mwangi_expanse-fake-fn-5.2" id="main-traits_mwangi_expanse-fake-fn-5.2" data-hash-target to="main-traits_mwangi_expanse-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osibu, Thuvia, Tian Xia, or Ustalav</Pair>
-<Pair single="benefit" id="traiteducateddruggist-educated-druggist-fn5-2-benefit">Any alchemical remedies you administer that provide an alchemical bonus have that bonus increased by 1. These remedies also restore 1 hit point to the target in addition to their usual effects.</Pair>
+<Pair single="benefit" id="traiteducateddruggist-educated-druggist-fn5-2-benefit">Any <Link to="/main/equipment_alchemical">alchemical remedies</Link> you administer that provide an alchemical bonus have that bonus increased by 1. These remedies also restore 1 hit point to the target in addition to their usual effects.</Pair>
 </Ability>
 <section data-footnotes><h3 id="main-traits_mwangi_expanse-label">Footnotes</h3><ol>
 <li id="main-traits_mwangi_expanse-fake-fn-1-target"><p><Link to="/source/inner_sea_primer">Inner Sea Primer</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_mwangi_expanse-fake-fn-1" data-hash-target to="main-traits_mwangi_expanse-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_mwangi_expanse-fake-fn-1.2" data-hash-target to="main-traits_mwangi_expanse-fake-fn-1.2">↩<sup>2</sup></InnerLink></p></li>
@@ -2368,19 +2505,22 @@ const _traits_river_kingdoms = {title: "Regional Traits: River Kingdoms", jsx: <
 <Pair single id="traitexpertswimmer-expert-swimmer-fn2"><Link to="/trait/expert_swimmer">⮞</Link> Expert Swimmer <sup><InnerLink showBacklink="backlink-main-traits_river_kingdoms-fake-fn-2" id="main-traits_river_kingdoms-fake-fn-2" data-hash-target to="main-traits_river_kingdoms-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
-<Pair single="benefit" id="traitexpertswimmer-expert-swimmer-fn2-benefit">Most pirates on the ocean view falling overboard as a death sentence, but in the River Kingdoms, it's often a key part of the strategy. You gain a +1 trait bonus on Swim checks, and it becomes a class skill for you.</Pair>
+<Pair single="flavor" id="traitexpertswimmer-expert-swimmer-fn2-flavor">Most pirates on the ocean view falling overboard as a death sentence, but in the River Kingdoms, it's often a key part of the strategy.</Pair>
+<Pair single="benefit" id="traitexpertswimmer-expert-swimmer-fn2-benefit">You gain a +1 trait bonus on <Link to="/skill/swim">Swim</Link> checks, and it becomes a class skill for you.</Pair>
 </Ability>
 <Ability id="traitfreeagent-free-agent-fn2-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitfreeagent-free-agent-fn2-2"><Link to="/trait/free_agent">⮞</Link> Free Agent <sup><InnerLink showBacklink="backlink-main-traits_river_kingdoms-fake-fn-2.2" id="main-traits_river_kingdoms-fake-fn-2.2" data-hash-target to="main-traits_river_kingdoms-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
-<Pair single="benefit" id="traitfreeagent-free-agent-fn2-2-benefit">You embody the independent spirit of the River Kingdoms and do best when sailing under your own flag, in every sense. You gain a +2 trait bonus on Will saves to avoid charm and compulsion effects.</Pair>
+<Pair single="flavor" id="traitfreeagent-free-agent-fn2-2-flavor">You embody the independent spirit of the River Kingdoms and do best when sailing under your own flag, in every sense.</Pair>
+<Pair single="benefit" id="traitfreeagent-free-agent-fn2-2-benefit">You gain a +2 trait bonus on Will saves to avoid charm and compulsion effects.</Pair>
 </Ability>
 <Ability id="traitgreenskinstalker-greenskin-stalker-fn3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitgreenskinstalker-greenskin-stalker-fn3"><Link to="/trait/greenskin_stalker">⮞</Link> Greenskin Stalker <sup><InnerLink showBacklink="backlink-main-traits_river_kingdoms-fake-fn-3" id="main-traits_river_kingdoms-fake-fn-3" data-hash-target to="main-traits_river_kingdoms-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Isger, River Kingdoms, or Varisia</Pair>
-<Pair single="benefit" id="traitgreenskinstalker-greenskin-stalker-fn3-benefit">You're a member of the Greenskin Stalkers. Due to your affiliation with this brotherhood of goblin slayers, you've learned to think and act like a goblin, as disturbing as that sounds. You receive a +1 trait bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against or concerning goblinoids. You can also attempt Knowledge checks concerning goblinoids untrained.</Pair>
+<Pair single="flavor" id="traitgreenskinstalker-greenskin-stalker-fn3-flavor">You're a member of the Greenskin Stalkers. Due to your affiliation with this brotherhood of goblin slayers, you've learned to think and act like a goblin, as disturbing as that sounds.</Pair>
+<Pair single="benefit" id="traitgreenskinstalker-greenskin-stalker-fn3-benefit">You receive a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/knowledge">Knowledge</Link>, <Link to="/skill/perception">Perception</Link>, <Link to="/skill/sense_motive">Sense Motive</Link>, and <Link to="/skill/survival">Survival</Link> checks against or concerning goblinoids. You can also attempt Knowledge checks concerning goblinoids untrained.</Pair>
 </Ability>
 <Ability id="traitoutseanative-outsea-native-fn4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitoutseanative-outsea-native-fn4"><Link to="/trait/outsea_native">⮞</Link> Outsea Native <sup><InnerLink showBacklink="backlink-main-traits_river_kingdoms-fake-fn-4" id="main-traits_river_kingdoms-fake-fn-4" data-hash-target to="main-traits_river_kingdoms-fake-fn-4-target">4</InnerLink></sup></Pair>
@@ -2441,7 +2581,7 @@ const _traits_river_kingdoms = {title: "Regional Traits: River Kingdoms", jsx: <
 <Pair single id="traitcrusaderroadacolyte-crusader-road-acolyte-fn8-3"><Link to="/trait/crusader_road_acolyte">⮞</Link> Crusader Road Acolyte <sup><InnerLink showBacklink="backlink-main-traits_river_kingdoms-fake-fn-8.3" id="main-traits_river_kingdoms-fake-fn-8.3" data-hash-target to="main-traits_river_kingdoms-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Echo Wood or Thornkeep</Pair>
-<Pair single="benefit" id="traitcrusaderroadacolyte-crusader-road-acolyte-fn8-3-benefit">You trained with the <Link to="/rule/hellknights">Hellknights</Link> at Fort Inevitable or the paladins of Iomedae at Fort Riverwatch. If you trained with the Hellknights, you gain a +1 trait bonus on saving throws against chaotic spells and the spell-like abilities of chaotic outsiders. If you trained with the Iomedaean Paladins, you gain this bonus against evil spells and evil outsiders instead.</Pair>
+<Pair single="benefit" id="traitcrusaderroadacolyte-crusader-road-acolyte-fn8-3-benefit">You trained with the <Link to="/rule/hellknights">Hellknights</Link> at Fort Inevitable or the paladins of <Link to="/faith/iomedae">Iomedae</Link> at Fort Riverwatch. If you trained with the Hellknights, you gain a +1 trait bonus on saving throws against chaotic spells and the spell-like abilities of chaotic outsiders. If you trained with the Iomedaean Paladins, you gain this bonus against evil spells and evil outsiders instead.</Pair>
 </Ability>
 <Ability id="traitnobleinexile-noble-in-exile-fn8-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitnobleinexile-noble-in-exile-fn8-4"><Link to="/trait/noble_in_exile">⮞</Link> Noble-in-Exile <sup><InnerLink showBacklink="backlink-main-traits_river_kingdoms-fake-fn-8.4" id="main-traits_river_kingdoms-fake-fn-8.4" data-hash-target to="main-traits_river_kingdoms-fake-fn-8-target">8</InnerLink></sup></Pair>
@@ -2474,7 +2614,8 @@ const _traits_river_kingdoms = {title: "Regional Traits: River Kingdoms", jsx: <
 <Pair single id="traitmivoniduelist-mivoni-duelist-fn8-8"><Link to="/trait/mivoni_duelist">⮞</Link> Mivoni Duelist <sup><InnerLink showBacklink="backlink-main-traits_river_kingdoms-fake-fn-8.8" id="main-traits_river_kingdoms-fake-fn-8.8" data-hash-target to="main-traits_river_kingdoms-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mivon</Pair>
-<Pair single="benefit" id="traitmivoniduelist-mivoni-duelist-fn8-8-benefit">Your training in Aldori sword fighting included several bouts in the Sevier, which has taught you how to inflict further punishment in one-on-one fights. You gain a +1 trait bonus on damage rolls when you are the only one threatening your opponent.</Pair>
+<Pair single="flavor" id="traitmivoniduelist-mivoni-duelist-fn8-8-flavor">Your training in Aldori sword fighting included several bouts in the Sevier, which has taught you how to inflict further punishment in one-on-one fights.</Pair>
+<Pair single="benefit" id="traitmivoniduelist-mivoni-duelist-fn8-8-benefit">You gain a +1 trait bonus on damage rolls when you are the only one threatening your opponent.</Pair>
 </Ability>
 <Ability id="traitpitaxianimprovisation-pitaxian-improvisation-fn8-9" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitpitaxianimprovisation-pitaxian-improvisation-fn8-9"><Link to="/trait/pitaxian_improvisation">⮞</Link> Pitaxian Improvisation <sup><InnerLink showBacklink="backlink-main-traits_river_kingdoms-fake-fn-8.9" id="main-traits_river_kingdoms-fake-fn-8.9" data-hash-target to="main-traits_river_kingdoms-fake-fn-8-target">8</InnerLink></sup></Pair>
@@ -2493,7 +2634,8 @@ const _traits_river_kingdoms = {title: "Regional Traits: River Kingdoms", jsx: <
 <Pair single id="traitdivinedeceiver-divine-deceiver-fn9"><Link to="/trait/divine_deceiver">⮞</Link> Divine Deceiver <sup><InnerLink showBacklink="backlink-main-traits_river_kingdoms-fake-fn-9" id="main-traits_river_kingdoms-fake-fn-9" data-hash-target to="main-traits_river_kingdoms-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Razmiran</Pair>
-<Pair single="benefit" id="traitdivinedeceiver-divine-deceiver-fn9-benefit">You are trained in the methods of Razmir's priesthood, and can use your arcana to fuel minor healing powers. Once per day as a full-round action, you can sacrifice a prepared arcane spell or spell slot to manifest healing magic. This acts as cure light wounds, except you heal 1d6 points of damage per level of the spell or spell slot sacrificed (maximum 5d6) and the hit points healed are temporary (lasting 1 hour).</Pair>
+<Pair single="flavor" id="traitdivinedeceiver-divine-deceiver-fn9-flavor">You are trained in the methods of Razmir's priesthood, and can use your arcana to fuel minor healing powers.</Pair>
+<Pair single="benefit" id="traitdivinedeceiver-divine-deceiver-fn9-benefit">Once per day as a full-round action, you can sacrifice a prepared arcane spell or spell slot to manifest healing magic. This acts as <Link to="/spell/cure_light_wounds">cure light wounds</Link>, except you heal 1d6 points of damage per level of the spell or spell slot sacrificed (maximum 5d6) and the hit points healed are <Link to="/rule/temporary_hit_points">temporary</Link> (lasting 1 hour).</Pair>
 </Ability>
 <Ability id="traitpalmpotion-palm-potion-fn5-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitpalmpotion-palm-potion-fn5-2"><Link to="/trait/palm_potion">⮞</Link> Palm Potion <sup><InnerLink showBacklink="backlink-main-traits_river_kingdoms-fake-fn-5.2" id="main-traits_river_kingdoms-fake-fn-5.2" data-hash-target to="main-traits_river_kingdoms-fake-fn-5-target">5</InnerLink></sup></Pair>
@@ -2511,7 +2653,8 @@ const _traits_river_kingdoms = {title: "Regional Traits: River Kingdoms", jsx: <
 <Pair single id="traitfeywise-fey-wise-fn8-10"><Link to="/trait/fey_wise">⮞</Link> Fey-Wise <sup><InnerLink showBacklink="backlink-main-traits_river_kingdoms-fake-fn-8.10" id="main-traits_river_kingdoms-fake-fn-8.10" data-hash-target to="main-traits_river_kingdoms-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Sevenarches</Pair>
-<Pair single="benefit" id="traitfeywise-fey-wise-fn8-10-benefit">You grew up around fey and are accustomed to their tricks. You gain a +1 trait bonus on saving throws against the spell-like and supernatural abilities of fey and a +1 trait bonus on Sense Motive checks against fey.</Pair>
+<Pair single="flavor" id="traitfeywise-fey-wise-fn8-10-flavor">You grew up around fey and are accustomed to their tricks.</Pair>
+<Pair single="benefit" id="traitfeywise-fey-wise-fn8-10-benefit">You gain a +1 trait bonus on saving throws against the spell-like and supernatural abilities of fey and a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks against fey.</Pair>
 </Ability>
 <Ability id="traitsevenarchesseeker-sevenarches-seeker-fn8-11" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitsevenarchesseeker-sevenarches-seeker-fn8-11"><Link to="/trait/sevenarches_seeker">⮞</Link> Sevenarches Seeker <sup><InnerLink showBacklink="backlink-main-traits_river_kingdoms-fake-fn-8.11" id="main-traits_river_kingdoms-fake-fn-8.11" data-hash-target to="main-traits_river_kingdoms-fake-fn-8-target">8</InnerLink></sup></Pair>
@@ -2523,7 +2666,7 @@ const _traits_river_kingdoms = {title: "Regional Traits: River Kingdoms", jsx: <
 <Pair single id="traitgodlessresolve-godless-resolve-fn10"><Link to="/trait/godless_resolve">⮞</Link> Godless Resolve <sup><InnerLink showBacklink="backlink-main-traits_river_kingdoms-fake-fn-10" id="main-traits_river_kingdoms-fake-fn-10" data-hash-target to="main-traits_river_kingdoms-fake-fn-10-target">10</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Bachuan, Rahadoum or Touvette</Pair>
-<Pair single="benefit" id="traitgodlessresolve-godless-resolve-fn10-benefit">Some brilliant and earnest speech or other performance inspired you to take charge of your own health rather than begging indifferent or outlawed deities for deliverance. Heal is a class skill for you, and you gain a +2 trait bonus on Heal checks to stabilize dying creatures and stop bleeding.</Pair>
+<Pair single="benefit" id="traitgodlessresolve-godless-resolve-fn10-benefit">Some brilliant and earnest speech or other performance inspired you to take charge of your own health rather than begging indifferent or outlawed deities for deliverance. <Link to="/skill/heal">Heal</Link> is a class skill for you, and you gain a +2 trait bonus on Heal checks to stabilize dying creatures and stop bleeding.</Pair>
 </Ability>
 <Ability id="traitvalknaralumnus-valknar-alumnus-fn8-12" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitvalknaralumnus-valknar-alumnus-fn8-12"><Link to="/trait/valknar_alumnus">⮞</Link> Valknar Alumnus <sup><InnerLink showBacklink="backlink-main-traits_river_kingdoms-fake-fn-8.12" id="main-traits_river_kingdoms-fake-fn-8.12" data-hash-target to="main-traits_river_kingdoms-fake-fn-8-target">8</InnerLink></sup></Pair>

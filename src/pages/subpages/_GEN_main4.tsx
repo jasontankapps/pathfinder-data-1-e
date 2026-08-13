@@ -1816,7 +1816,8 @@ const _traits_planet = {title: "Regional Traits: Planets", jsx: <IonList lines="
 <Pair single id="traiteoxianexperiment-eoxian-experiment-fn1-6"><Link to="/trait/eoxian_experiment">⮞</Link> Eoxian Experiment <sup><InnerLink showBacklink="backlink-main-traits_planet-fake-fn-1.6" id="main-traits_planet-fake-fn-1.6" data-hash-target to="main-traits_planet-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Eox</Pair>
-<Pair single="benefit" id="traiteoxianexperiment-eoxian-experiment-fn1-6-benefit">You were raised on Eox, where you were overseen by alien forces and subjected to horrifying experimentation. You gain a +1 trait bonus on saving throws against pain effects and the spell-like abilities of undead.</Pair>
+<Pair single="flavor" id="traiteoxianexperiment-eoxian-experiment-fn1-6-flavor">You were raised on Eox, where you were overseen by alien forces and subjected to horrifying experimentation.</Pair>
+<Pair single="benefit" id="traiteoxianexperiment-eoxian-experiment-fn1-6-benefit">You gain a +1 trait bonus on saving throws against pain effects and the spell-like abilities of undead.</Pair>
 </Ability>
 <Ability id="traittriaxiantradition-triaxian-tradition-fn1-7" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traittriaxiantradition-triaxian-tradition-fn1-7"><Link to="/trait/triaxian_tradition">⮞</Link> Triaxian Tradition <sup><InnerLink showBacklink="backlink-main-traits_planet-fake-fn-1.7" id="main-traits_planet-fake-fn-1.7" data-hash-target to="main-traits_planet-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -1844,19 +1845,22 @@ const _traits_other = {title: "Regional Traits: Other", jsx: <IonList lines="ful
 <Pair single id="traitcliffstrider-cliff-strider-fn2"><Link to="/trait/cliff_strider">⮞</Link> Cliff Strider <sup><InnerLink showBacklink="backlink-main-traits_other-fake-fn-2" id="main-traits_other-fake-fn-2" data-hash-target to="main-traits_other-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Arcadia</Pair>
-<Pair single="benefit" id="traitcliffstrider-cliff-strider-fn2-benefit">You grew up along the Grinding Coast of Arcadia, scaling perilous cliffs and dealing with the dangerous creatures that live on these rocky surfaces. As a move action while climbing, you can climb 5 feet without provoking an attack of opportunity, even if you don't have a climb speed.</Pair>
+<Pair single="flavor" id="traitcliffstrider-cliff-strider-fn2-flavor">You grew up along the Grinding Coast of Arcadia, scaling perilous cliffs and dealing with the dangerous creatures that live on these rocky surfaces.</Pair>
+<Pair single="benefit" id="traitcliffstrider-cliff-strider-fn2-benefit">As a <strong className="hl">move action</strong> while climbing, you can climb 5 feet without provoking an attack of opportunity, even if you don't have a climb speed.</Pair>
 </Ability>
 <Ability id="traiterutakiskyreader-erutaki-sky-reader-fn3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traiterutakiskyreader-erutaki-sky-reader-fn3"><Link to="/trait/erutaki_sky_reader">⮞</Link> Erutaki Sky Reader <sup><InnerLink showBacklink="backlink-main-traits_other-fake-fn-3" id="main-traits_other-fake-fn-3" data-hash-target to="main-traits_other-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Crown of the World</Pair>
-<Pair single="benefit" id="traiterutakiskyreader-erutaki-sky-reader-fn3-benefit">Born in the Crown of the World, you learned to read the aurora and the night sky for portents. Once per day, you gain a +2 luck bonus on a single saving throw. You can apply this bonus after the saving throw is rolled but before the results are revealed.</Pair>
+<Pair single="flavor" id="traiterutakiskyreader-erutaki-sky-reader-fn3-flavor">Born in the Crown of the World, you learned to read the aurora and the night sky for portents.</Pair>
+<Pair single="benefit" id="traiterutakiskyreader-erutaki-sky-reader-fn3-benefit">Once per day, you gain a +2 luck bonus on a single saving throw. You can apply this bonus after the saving throw is rolled but before the results are revealed.</Pair>
 </Ability>
 <Ability id="traitfootstepsofaganhei-footsteps-of-aganhei-fn4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitfootstepsofaganhei-footsteps-of-aganhei-fn4"><Link to="/trait/footsteps_of_aganhei">⮞</Link> Footsteps of Aganhei <sup><InnerLink showBacklink="backlink-main-traits_other-fake-fn-4" id="main-traits_other-fake-fn-4" data-hash-target to="main-traits_other-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Crown of the World</Pair>
-<Pair single="benefit" id="traitfootstepsofaganhei-footsteps-of-aganhei-fn4-benefit">You are one of the brave travelers who have traversed the Path of Aganhei, a lucrative trade route from Tian Xia to Avistan that crosses the frigid Crown of the World. These voyages have left you hardier, granting you a +1 trait bonus on Fortitude saving throws to resist the effects of cold weather. Survival is a class skill for you, and you gain Hallit, Hon-La, Minkaian, Skald, or Tien as a bonus language.</Pair>
+<Pair single="flavor" id="traitfootstepsofaganhei-footsteps-of-aganhei-fn4-flavor">You are one of the brave travelers who have traversed the Path of Aganhei, a lucrative trade route from Tian Xia to Avistan that crosses the frigid Crown of the World. These voyages have left you hardier.</Pair>
+<Pair single="benefit" id="traitfootstepsofaganhei-footsteps-of-aganhei-fn4-benefit">You gain a +1 trait bonus on Fortitude saving throws to resist the effects of <Link to="/rule/cold">cold weather</Link>. <Link to="/skill/survival">Survival</Link> is a class skill for you, and you gain Hallit, Hon-La, Minkaian, Skald, or Tien as a bonus language.</Pair>
 </Ability>
 <section data-footnotes><h3 id="main-traits_other-label">Footnotes</h3><ol>
 <li id="main-traits_other-fake-fn-1-target"><p><Link to="/source/distant_shores">Distant Shores</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_other-fake-fn-1" data-hash-target to="main-traits_other-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_other-fake-fn-1.2" data-hash-target to="main-traits_other-fake-fn-1.2">↩<sup>2</sup></InnerLink></p></li>

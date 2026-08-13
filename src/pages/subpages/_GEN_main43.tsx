@@ -1078,7 +1078,8 @@ const _traits_casmaron = {title: "Regional Traits: Casmaron", jsx: <IonList line
 <Pair single id="traitcentaurvengeance-centaur-vengeance-fn1"><Link to="/trait/centaur_vengeance">⮞</Link> Centaur Vengeance <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-1" id="main-traits_casmaron-fake-fn-1" data-hash-target to="main-traits_casmaron-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Iobaria</Pair>
-<Pair single="benefit" id="traitcentaurvengeance-centaur-vengeance-fn1-benefit">Your nomadic tribe wanders the Ice Steppes of Iobaria. They live in constant fear of the great white wyrm Sjohvornor and feel helpless to stop the dragon's aggression. Your tribe is filled with wise sages and great warriors, and they resent being cowed by any foe. You vowed that one day you would not have to be afraid of Sjohvornor or any other wyrm. You gain a +2 bonus on saving throws against any dragon's frightful presence.</Pair>
+<Pair single="flavor" id="traitcentaurvengeance-centaur-vengeance-fn1-flavor">Your nomadic tribe wanders the Ice Steppes of Iobaria. They live in constant fear of the great white wyrm Sjohvornor and feel helpless to stop the dragon's aggression. Your tribe is filled with wise sages and great warriors, and they resent being cowed by any foe. You vowed that one day you would not have to be afraid of Sjohvornor or any other wyrm.</Pair>
+<Pair single="benefit" id="traitcentaurvengeance-centaur-vengeance-fn1-benefit">You gain a +2 bonus on saving throws against any dragon's <Link to="/umr/frightful_presence">frightful presence</Link>.</Pair>
 </Ability>
 <Ability id="traitiobariansurvivor-iobarian-survivor-fn2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitiobariansurvivor-iobarian-survivor-fn2"><Link to="/trait/iobarian_survivor">⮞</Link> Iobarian Survivor <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-2" id="main-traits_casmaron-fake-fn-2" data-hash-target to="main-traits_casmaron-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1120,7 +1121,8 @@ const _traits_casmaron = {title: "Regional Traits: Casmaron", jsx: <IonList line
 <Pair single id="traitkeleshitetrader-keleshite-trader-fn6"><Link to="/trait/keleshite_trader">⮞</Link> Keleshite Trader <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-6" id="main-traits_casmaron-fake-fn-6" data-hash-target to="main-traits_casmaron-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kelesh or Qadira</Pair>
-<Pair single="benefit" id="traitkeleshitetrader-keleshite-trader-fn6-benefit">Your cosmopolitan upbringing has given you familiarity with many cultures. You gain two bonus languages and a +2 trait bonus on Knowledge (local) checks.</Pair>
+<Pair single="flavor" id="traitkeleshitetrader-keleshite-trader-fn6-flavor">Your cosmopolitan upbringing has given you familiarity with many cultures.</Pair>
+<Pair single="benefit" id="traitkeleshitetrader-keleshite-trader-fn6-benefit">You gain two bonus languages and a +2 trait bonus on <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks.</Pair>
 </Ability>
 <Ability id="traitbravewords-brave-words-fn7" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitbravewords-brave-words-fn7"><Link to="/trait/brave_words">⮞</Link> Brave Words <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-7" id="main-traits_casmaron-fake-fn-7" data-hash-target to="main-traits_casmaron-fake-fn-7-target">7</InnerLink></sup></Pair>
@@ -1135,37 +1137,43 @@ const _traits_casmaron = {title: "Regional Traits: Casmaron", jsx: <IonList line
 <Pair single id="traitelementalpupil-elemental-pupil-fn8"><Link to="/trait/elemental_pupil">⮞</Link> Elemental Pupil <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-8" id="main-traits_casmaron-fake-fn-8" data-hash-target to="main-traits_casmaron-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
-<Pair single="benefit" id="traitelementalpupil-elemental-pupil-fn8-benefit">You have studied at the feet of the masters of Katheer's colleges of magic, and so increased your own mastery of the elements. Choose one of the following energy types: acid, cold, electricity, or fire. When casting a spell of 1st level or higher that deals damage of your chosen energy type, the spell deals 1 extra point of damage of this type.</Pair>
+<Pair single="flavor" id="traitelementalpupil-elemental-pupil-fn8-flavor">You have studied at the feet of the masters of Katheer's colleges of magic, and so increased your own mastery of the elements.</Pair>
+<Pair single="benefit" id="traitelementalpupil-elemental-pupil-fn8-benefit">Choose one of the following energy types: acid, cold, electricity, or fire. When casting a spell of 1st level or higher that deals damage of your chosen energy type, the spell deals 1 extra point of damage of this type.</Pair>
 </Ability>
 <Ability id="traitemberkinimposter-emberkin-imposter-fn6-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitemberkinimposter-emberkin-imposter-fn6-2"><Link to="/trait/emberkin_imposter">⮞</Link> Emberkin Imposter <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-6.2" id="main-traits_casmaron-fake-fn-6.2" data-hash-target to="main-traits_casmaron-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
-<Pair single="benefit" id="traitemberkinimposter-emberkin-imposter-fn6-2-benefit">You have found it is easier to be mistaken for someone with celestial blood than to reveal your true nature. You gain a +5 trait bonus on Disguise checks when pretending to be an aasimar, and a +2 trait bonus on Diplomacy checks against those you have convinced of your supposed celestial nature.</Pair>
+<Pair single="flavor" id="traitemberkinimposter-emberkin-imposter-fn6-2-flavor">You have found it is easier to be mistaken for someone with celestial blood than to reveal your true nature.</Pair>
+<Pair single="benefit" id="traitemberkinimposter-emberkin-imposter-fn6-2-benefit">You gain a +5 trait bonus on Disguise checks when pretending to be an aasimar, and a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks against those you have convinced of your supposed celestial nature.</Pair>
 </Ability>
 <Ability id="traitempathicdiplomat-empathic-diplomat-fn6-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitempathicdiplomat-empathic-diplomat-fn6-3"><Link to="/trait/empathic_diplomat">⮞</Link> Empathic Diplomat <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-6.3" id="main-traits_casmaron-fake-fn-6.3" data-hash-target to="main-traits_casmaron-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira or Osirion</Pair>
-<Pair single="benefit" id="traitempathicdiplomat-empathic-diplomat-fn6-3-benefit">You have long followed the path of common sense and empathic insight when using diplomacy. You modify your Diplomacy checks using your Wisdom modifier, not your Charisma modifier.</Pair>
+<Pair single="flavor" id="traitempathicdiplomat-empathic-diplomat-fn6-3-flavor">You have long followed the path of common sense and empathic insight when using diplomacy.</Pair>
+<Pair single="benefit" id="traitempathicdiplomat-empathic-diplomat-fn6-3-benefit">You modify your <Link to="/skill/diplomacy">Diplomacy</Link> checks using your Wisdom modifier, not your Charisma modifier.</Pair>
 </Ability>
 <Ability id="traitgeniecaller-genie-caller-fn4-3-fn8-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitgeniecaller-genie-caller-fn4-3-fn8-2"><Link to="/trait/genie_caller">⮞</Link> Genie-Caller <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-4.3" id="main-traits_casmaron-fake-fn-4.3" data-hash-target to="main-traits_casmaron-fake-fn-4-target">4</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-8.2" id="main-traits_casmaron-fake-fn-8.2" data-hash-target to="main-traits_casmaron-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
-<Pair single="benefit" id="traitgeniecaller-genie-caller-fn4-3-fn8-2-benefit">Your exploration of the magic for calling genies has increased your overall aptitude for summoning. Once per day, you may cast one conjuration (summoning) spell as if your caster level were 2 higher than normal.</Pair>
+<Pair single="flavor" id="traitgeniecaller-genie-caller-fn4-3-fn8-2-flavor">Your exploration of the magic for calling genies has increased your overall aptitude for summoning.</Pair>
+<Pair single="benefit" id="traitgeniecaller-genie-caller-fn4-3-fn8-2-benefit">Once per day, you may cast one conjuration (summoning) spell as if your caster level were 2 higher than normal.</Pair>
 </Ability>
 <Ability id="traitkeeperoftheveil-keeper-of-the-veil-fn8-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitkeeperoftheveil-keeper-of-the-veil-fn8-3"><Link to="/trait/keeper_of_the_veil">⮞</Link> Keeper of the Veil <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-8.3" id="main-traits_casmaron-fake-fn-8.3" data-hash-target to="main-traits_casmaron-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
-<Pair single="benefit" id="traitkeeperoftheveil-keeper-of-the-veil-fn8-3-benefit">Even when not cloaked in magic, your training has taught you how to conceal your true nature. You gain a +1 competence bonus on Bluff and Disguise checks, and one of these skills (your choice) is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitkeeperoftheveil-keeper-of-the-veil-fn8-3-flavor">Even when not cloaked in magic, your training has taught you how to conceal your true nature.</Pair>
+<Pair single="benefit" id="traitkeeperoftheveil-keeper-of-the-veil-fn8-3-benefit">You gain a +1 competence bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/disguise">Disguise</Link> checks, and one of these skills (your choice) is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traitmerchantofkatheer-merchant-of-katheer-fn8-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitmerchantofkatheer-merchant-of-katheer-fn8-4"><Link to="/trait/merchant_of_katheer">⮞</Link> Merchant of Katheer <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-8.4" id="main-traits_casmaron-fake-fn-8.4" data-hash-target to="main-traits_casmaron-fake-fn-8-target">8</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
-<Pair single="benefit" id="traitmerchantofkatheer-merchant-of-katheer-fn8-4-benefit">You grew up among the market stalls of the greatest trading post in all the world, and can almost smell the value of an item before you touch it. You gain a +1 trait bonus to Appraise checks, and Appraise is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitmerchantofkatheer-merchant-of-katheer-fn8-4-flavor">You grew up among the market stalls of the greatest trading post in all the world, and can almost smell the value of an item before you touch it.</Pair>
+<Pair single="benefit" id="traitmerchantofkatheer-merchant-of-katheer-fn8-4-benefit">You gain a +1 trait bonus to <Link to="/skill/appraise">Appraise</Link> checks, and Appraise is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traitparaheenweaponsmith-paraheen-weaponsmith-fn6-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitparaheenweaponsmith-paraheen-weaponsmith-fn6-4"><Link to="/trait/paraheen_weaponsmith">⮞</Link> Paraheen Weaponsmith <sup><InnerLink showBacklink="backlink-main-traits_casmaron-fake-fn-6.4" id="main-traits_casmaron-fake-fn-6.4" data-hash-target to="main-traits_casmaron-fake-fn-6-target">6</InnerLink></sup></Pair>
@@ -1227,13 +1235,13 @@ const _traits_tian_xia = {title: "Regional Traits: Tian Xia", jsx: <IonList line
 <Pair single id="traiteducateddruggist-educated-druggist-fn1"><Link to="/trait/educated_druggist">⮞</Link> Educated Druggist <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-1" id="main-traits_tian_xia-fake-fn-1" data-hash-target to="main-traits_tian_xia-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osibu, Thuvia, Tian Xia, or Ustalav</Pair>
-<Pair single="benefit" id="traiteducateddruggist-educated-druggist-fn1-benefit">Any alchemical remedies you administer that provide an alchemical bonus have that bonus increased by 1. These remedies also restore 1 hit point to the target in addition to their usual effects.</Pair>
+<Pair single="benefit" id="traiteducateddruggist-educated-druggist-fn1-benefit">Any <Link to="/main/equipment_alchemical">alchemical remedies</Link> you administer that provide an alchemical bonus have that bonus increased by 1. These remedies also restore 1 hit point to the target in addition to their usual effects.</Pair>
 </Ability>
 <Ability id="traitheirofchuye-heir-of-chu-ye-fn1-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitheirofchuye-heir-of-chu-ye-fn1-2"><Link to="/trait/heir_of_chu_ye">⮞</Link> Heir of Chu Ye <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-1.2" id="main-traits_tian_xia-fake-fn-1.2" data-hash-target to="main-traits_tian_xia-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Tian Xia</Pair>
-<Pair single="benefit" id="traitheirofchuye-heir-of-chu-ye-fn1-2-benefit">If you would take a penalty for using the Heal skill to treat deadly wounds without one or more uses of a healer's kit, that penalty is reduced by 2 (minimum no penalty). Additionally, a creature can benefit from you treating its deadly wounds if you do so within 48 hours of its injury instead of within 24 hours.</Pair>
+<Pair single="benefit" id="traitheirofchuye-heir-of-chu-ye-fn1-2-benefit">If you would take a penalty for using the <Link to="/skill/heal">Heal</Link> skill to treat deadly wounds without one or more uses of a <Link to="/eq-misc/healers_kit">healer's kit</Link>, that penalty is reduced by 2 (minimum no penalty). Additionally, a creature can benefit from you treating its deadly wounds if you do so within 48 hours of its injury instead of within 24 hours.</Pair>
 </Ability>
 <Ability id="traitservitorofspirits-servitor-of-spirits-fn1-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitservitorofspirits-servitor-of-spirits-fn1-3"><Link to="/trait/servitor_of_spirits">⮞</Link> Servitor of Spirits <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-1.3" id="main-traits_tian_xia-fake-fn-1.3" data-hash-target to="main-traits_tian_xia-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -1245,31 +1253,36 @@ const _traits_tian_xia = {title: "Regional Traits: Tian Xia", jsx: <IonList line
 <Pair single id="traithoneyedtongue-honeyed-tongue-fn2"><Link to="/trait/honeyed_tongue">⮞</Link> Honeyed Tongue <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2" id="main-traits_tian_xia-fake-fn-2" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Amanandar</Pair>
-<Pair single="benefit" id="traithoneyedtongue-honeyed-tongue-fn2-benefit">Having matured in the melting pot of New Oppara, you know the customs of the Tian-Shus as well as those of the Taldans, and you utilize this knowledge to create peace between rival groups. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy becomes a class skill for you.</Pair>
+<Pair single="flavor" id="traithoneyedtongue-honeyed-tongue-fn2-flavor">Having matured in the melting pot of New Oppara, you know the customs of the Tian-Shus as well as those of the Taldans, and you utilize this knowledge to create peace between rival groups.</Pair>
+<Pair single="benefit" id="traithoneyedtongue-honeyed-tongue-fn2-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks, and Diplomacy becomes a class skill for you.</Pair>
 </Ability>
 <Ability id="traitmilitia-militia-fn2-2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitmilitia-militia-fn2-2"><Link to="/trait/militia">⮞</Link> Militia <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.2" id="main-traits_tian_xia-fake-fn-2.2" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Amanandar</Pair>
-<Pair single="benefit" id="traitmilitia-militia-fn2-2-benefit">As part of Amanandar's militia, you have trained extensively with groups. You gain a +1 trait bonus on attacks made while flanking an opponent.</Pair>
+<Pair single="flavor" id="traitmilitia-militia-fn2-2-flavor">As part of Amanandar's militia, you have trained extensively with groups.</Pair>
+<Pair single="benefit" id="traitmilitia-militia-fn2-2-benefit">You gain a +1 trait bonus on attacks made while <Link to="/rule/flanking">flanking</Link> an opponent.</Pair>
 </Ability>
 <Ability id="traitdtangmabloodline-dtang-ma-bloodline-fn2-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitdtangmabloodline-dtang-ma-bloodline-fn2-3"><Link to="/trait/dtang_ma_bloodline">⮞</Link> Dtang Ma Bloodline <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.3" id="main-traits_tian_xia-fake-fn-2.3" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Dtang Ma</Pair>
-<Pair single="benefit" id="traitdtangmabloodline-dtang-ma-bloodline-fn2-3-benefit">As you were born in Dtang Ma and possess one of the favored bloodlines, your sorcerous powers are particularly potent. Select one of the following sorcerer bloodlines: fey, maestro, starsoul, or stormborn. Once per day, you may use one of your bloodline powers as if your sorcerer level were 1 higher than normal. This trait does not give you access to bloodline powers whose level requirements you do not yet meet.</Pair>
+<Pair single="flavor" id="traitdtangmabloodline-dtang-ma-bloodline-fn2-3-flavor">As you were born in Dtang Ma and possess one of the favored bloodlines, your sorcerous powers are particularly potent.</Pair>
+<Pair single="benefit" id="traitdtangmabloodline-dtang-ma-bloodline-fn2-3-benefit">Select one of the following sorcerer bloodlines: <Link to="/sorcbloodline/fey">fey</Link>, <Link to="/sorcbloodline/maestro">maestro</Link>, <Link to="/sorcbloodline/starsoul">starsoul</Link>, or <Link to="/sorcbloodline/stormborn">stormborn</Link>. Once per day, you may use one of your bloodline powers as if your sorcerer level were 1 higher than normal. This trait does not give you access to bloodline powers whose level requirements you do not yet meet.</Pair>
 </Ability>
 <Ability id="traitguerilla-guerilla-fn2-4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitguerilla-guerilla-fn2-4"><Link to="/trait/guerilla">⮞</Link> Guerilla <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.4" id="main-traits_tian_xia-fake-fn-2.4" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Dtang Ma</Pair>
-<Pair single="benefit" id="traitguerilla-guerilla-fn2-4-benefit">You have spent much time in the rainforests of Dtang Ma, and know its secrets. You gain a +1 trait bonus on Knowledge (nature) checks as well as Survival checks made in the rainforest. One of these skills becomes a class skill for you.</Pair>
+<Pair single="flavor" id="traitguerilla-guerilla-fn2-4-flavor">You have spent much time in the rainforests of Dtang Ma, and know its secrets.</Pair>
+<Pair single="benefit" id="traitguerilla-guerilla-fn2-4-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> checks as well as <Link to="/skill/survival">Survival</Link> checks made in the rainforest. One of these skills becomes a class skill for you.</Pair>
 </Ability>
 <Ability id="traitkamitalker-kami-talker-fn2-5" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitkamitalker-kami-talker-fn2-5"><Link to="/trait/kami_talker">⮞</Link> Kami Talker <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.5" id="main-traits_tian_xia-fake-fn-2.5" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Forest of Spirits</Pair>
-<Pair single="benefit" id="traitkamitalker-kami-talker-fn2-5-benefit">You have traversed the Forest of Spirits numerous times, and have learned how best to communicate with its otherworldly inhabitants. You gain a +2 trait bonus on Diplomacy and Intimidate checks made against outsiders that have the native subtype.</Pair>
+<Pair single="flavor" id="traitkamitalker-kami-talker-fn2-5-flavor">You have traversed the Forest of Spirits numerous times, and have learned how best to communicate with its otherworldly inhabitants.</Pair>
+<Pair single="benefit" id="traitkamitalker-kami-talker-fn2-5-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks made against outsiders that have the native subtype.</Pair>
 </Ability>
 <Ability id="traitspiritualforester-spiritual-forester-fn2-6" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitspiritualforester-spiritual-forester-fn2-6"><Link to="/trait/spiritual_forester">⮞</Link> Spiritual Forester <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.6" id="main-traits_tian_xia-fake-fn-2.6" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1281,7 +1294,8 @@ const _traits_tian_xia = {title: "Regional Traits: Tian Xia", jsx: <IonList line
 <Pair single id="traithongalbloodrider-hongal-bloodrider-fn2-7"><Link to="/trait/hongal_bloodrider">⮞</Link> Hongal Bloodrider <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.7" id="main-traits_tian_xia-fake-fn-2.7" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Hongal</Pair>
-<Pair single="benefit" id="traithongalbloodrider-hongal-bloodrider-fn2-7-benefit">You belong to one of the nomadic groups of horseback riders that range throughout Hongal. You gain a +1 trait bonus on Handle Animal and Ride checks.</Pair>
+<Pair single="flavor" id="traithongalbloodrider-hongal-bloodrider-fn2-7-flavor">You belong to one of the nomadic groups of horseback riders that range throughout Hongal.</Pair>
+<Pair single="benefit" id="traithongalbloodrider-hongal-bloodrider-fn2-7-benefit">You gain a +1 trait bonus on <Link to="/skill/handle_animal">Handle Animal</Link> and <Link to="/skill/ride">Ride</Link> checks.</Pair>
 </Ability>
 <Ability id="traitstormhunter-storm-hunter-fn2-8" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitstormhunter-storm-hunter-fn2-8"><Link to="/trait/storm_hunter">⮞</Link> Storm Hunter <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.8" id="main-traits_tian_xia-fake-fn-2.8" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1300,19 +1314,22 @@ const _traits_tian_xia = {title: "Regional Traits: Tian Xia", jsx: <IonList line
 <Pair single id="traithwanartist-hwan-artist-fn2-10"><Link to="/trait/hwan_artist">⮞</Link> Hwan Artist <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.10" id="main-traits_tian_xia-fake-fn-2.10" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Hwanggot</Pair>
-<Pair single="benefit" id="traithwanartist-hwan-artist-fn2-10-benefit">You grew up in Hwanggot, and your artistic talents were cherished and honed from an early age. You have been nurtured on the artistic spirit of Hwanggot. Choose one Perform skill. You gain a +1 trait bonus on checks with that skill, and it becomes a class skill for you.</Pair>
+<Pair single="flavor" id="traithwanartist-hwan-artist-fn2-10-flavor">You grew up in Hwanggot, and your artistic talents were cherished and honed from an early age. You have been nurtured on the artistic spirit of Hwanggot.</Pair>
+<Pair single="benefit" id="traithwanartist-hwan-artist-fn2-10-benefit">Choose one <Link to="/skill/perform">Perform</Link> skill. You gain a +1 trait bonus on checks with that skill, and it becomes a class skill for you.</Pair>
 </Ability>
 <Ability id="traitconscientiousminer-conscientious-miner-fn2-11" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitconscientiousminer-conscientious-miner-fn2-11"><Link to="/trait/conscientious_miner">⮞</Link> Conscientious Miner <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.11" id="main-traits_tian_xia-fake-fn-2.11" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Jinin</Pair>
-<Pair single="benefit" id="traitconscientiousminer-conscientious-miner-fn2-11-benefit">You were one of the mithral miners of Jinin, and learned how to extract the delicate ore as well as determine its value. You gain a +1 trait bonus on Appraise checks, and a +1 trait bonus on Profession (miner) checks. In addition, Profession (miner) becomes a class skill for you.</Pair>
+<Pair single="flavor" id="traitconscientiousminer-conscientious-miner-fn2-11-flavor">You were one of the mithral miners of Jinin, and learned how to extract the delicate ore as well as determine its value.</Pair>
+<Pair single="benefit" id="traitconscientiousminer-conscientious-miner-fn2-11-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> checks, and a +1 trait bonus on <Link to="/skill/profession">Profession</Link> (miner) checks. In addition, Profession (miner) becomes a class skill for you.</Pair>
 </Ability>
 <Ability id="traitintrepiddelver-intrepid-delver-fn2-12" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitintrepiddelver-intrepid-delver-fn2-12"><Link to="/trait/intrepid_delver">⮞</Link> Intrepid Delver <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.12" id="main-traits_tian_xia-fake-fn-2.12" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Jinin</Pair>
-<Pair single="benefit" id="traitintrepiddelver-intrepid-delver-fn2-12-benefit">One of the elder elves in Ayajinbo told you many stories of the Darklands beneath the city, and your nerves have hardened to horrors others can hardly fathom. You gain a +2 trait bonus on saving throws against fear effects.</Pair>
+<Pair single="flavor" id="traitintrepiddelver-intrepid-delver-fn2-12-flavor">One of the elder elves in Ayajinbo told you many stories of the Darklands beneath the city, and your nerves have hardened to horrors others can hardly fathom.</Pair>
+<Pair single="benefit" id="traitintrepiddelver-intrepid-delver-fn2-12-benefit">You gain a +2 trait bonus on saving throws against fear effects.</Pair>
 </Ability>
 <Ability id="traitborderguard-border-guard-fn2-13" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitborderguard-border-guard-fn2-13"><Link to="/trait/border_guard">⮞</Link> Border Guard <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.13" id="main-traits_tian_xia-fake-fn-2.13" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1325,7 +1342,8 @@ const _traits_tian_xia = {title: "Regional Traits: Tian Xia", jsx: <IonList line
 <Pair single id="traitkwanlaibeliever-kwanlai-believer-fn2-14"><Link to="/trait/kwanlai_believer">⮞</Link> Kwanlai Believer <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.14" id="main-traits_tian_xia-fake-fn-2.14" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kwanlai</Pair>
-<Pair single="benefit" id="traitkwanlaibeliever-kwanlai-believer-fn2-14-benefit">You were raised in Kwanlai in one of the devout tengu churches, and your dedication to your cause makes your divine abilities particularly potent. You gain a +2 trait bonus on <Link to="/rule/concentration">concentration</Link> checks made while casting divine spells.</Pair>
+<Pair single="flavor" id="traitkwanlaibeliever-kwanlai-believer-fn2-14-flavor">You were raised in Kwanlai in one of the devout tengu churches, and your dedication to your cause makes your divine abilities particularly potent.</Pair>
+<Pair single="benefit" id="traitkwanlaibeliever-kwanlai-believer-fn2-14-benefit">You gain a +2 trait bonus on <Link to="/rule/concentration">concentration</Link> checks made while casting divine spells.</Pair>
 </Ability>
 <Ability id="traitbelempirate-belem-pirate-fn2-15" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitbelempirate-belem-pirate-fn2-15"><Link to="/trait/belem_pirate">⮞</Link> Belem Pirate <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.15" id="main-traits_tian_xia-fake-fn-2.15" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1344,19 +1362,22 @@ const _traits_tian_xia = {title: "Regional Traits: Tian Xia", jsx: <IonList line
 <Pair single id="traitinstigatorofrebellion-instigator-of-rebellion-fn2-17"><Link to="/trait/instigator_of_rebellion">⮞</Link> Instigator of Rebellion <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.17" id="main-traits_tian_xia-fake-fn-2.17" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Minkai</Pair>
-<Pair single="benefit" id="traitinstigatorofrebellion-instigator-of-rebellion-fn2-17-benefit">Your rage over the political repositioning within Minkai has led you to incite rage within your compatriots. You have become adept at organizing rallies in opposition to the government. You gain a +1 trait bonus on Diplomacy and Intimidate checks.</Pair>
+<Pair single="flavor" id="traitinstigatorofrebellion-instigator-of-rebellion-fn2-17-flavor">Your rage over the political repositioning within Minkai has led you to incite rage within your compatriots. You have become adept at organizing rallies in opposition to the government.</Pair>
+<Pair single="benefit" id="traitinstigatorofrebellion-instigator-of-rebellion-fn2-17-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks.</Pair>
 </Ability>
 <Ability id="traitminkaiadvocate-minkai-advocate-fn2-18" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitminkaiadvocate-minkai-advocate-fn2-18"><Link to="/trait/minkai_advocate">⮞</Link> Minkai Advocate <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.18" id="main-traits_tian_xia-fake-fn-2.18" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Minkai</Pair>
-<Pair single="benefit" id="traitminkaiadvocate-minkai-advocate-fn2-18-benefit">You possess strong ties to Minkai, and spread flattering words regarding your empire. You gain a +1 trait bonus on Bluff checks, and Bluff becomes a class skill for you.</Pair>
+<Pair single="flavor" id="traitminkaiadvocate-minkai-advocate-fn2-18-flavor">You possess strong ties to Minkai, and spread flattering words regarding your empire.</Pair>
+<Pair single="benefit" id="traitminkaiadvocate-minkai-advocate-fn2-18-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks, and Bluff becomes a class skill for you.</Pair>
 </Ability>
 <Ability id="traitjungleresilience-jungle-resilience-fn2-19" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitjungleresilience-jungle-resilience-fn2-19"><Link to="/trait/jungle_resilience">⮞</Link> Jungle Resilience <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.19" id="main-traits_tian_xia-fake-fn-2.19" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nagajor</Pair>
-<Pair single="benefit" id="traitjungleresilience-jungle-resilience-fn2-19-benefit">Having grown up in Nagajor, you are used to the myriad poisons of its people, and have developed a strong immune system. You gain a +2 trait bonus on Fortitude saves against poison effects.</Pair>
+<Pair single="flavor" id="traitjungleresilience-jungle-resilience-fn2-19-flavor">Having grown up in Nagajor, you are used to the myriad poisons of its people, and have developed a strong immune system.</Pair>
+<Pair single="benefit" id="traitjungleresilience-jungle-resilience-fn2-19-benefit">You gain a +2 trait bonus on Fortitude saves against poison effects.</Pair>
 </Ability>
 <Ability id="traitsnakebleeder-snake-bleeder-fn2-20" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitsnakebleeder-snake-bleeder-fn2-20"><Link to="/trait/snake_bleeder">⮞</Link> Snake Bleeder <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.20" id="main-traits_tian_xia-fake-fn-2.20" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1368,13 +1389,15 @@ const _traits_tian_xia = {title: "Regional Traits: Tian Xia", jsx: <IonList line
 <Pair single id="traitmutabiqiexplorer-mutabi-qi-explorer-fn2-21"><Link to="/trait/mutabi_qi_explorer">⮞</Link> Mutabi-qi Explorer <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.21" id="main-traits_tian_xia-fake-fn-2.21" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Shanguang</Pair>
-<Pair single="benefit" id="traitmutabiqiexplorer-mutabi-qi-explorer-fn2-21-benefit">You belong to one of the nomadic Mutabi-qi tribes that wander the wastes of Shaguang, and you are adept at navigating the seemingly endless desert wastes. You gain a +1 trait bonus on Knowledge (geography) checks and Survival checks made in the desert.</Pair>
+<Pair single="flavor" id="traitmutabiqiexplorer-mutabi-qi-explorer-fn2-21-flavor">You belong to one of the nomadic Mutabi-qi tribes that wander the wastes of Shaguang, and you are adept at navigating the seemingly endless desert wastes.</Pair>
+<Pair single="benefit" id="traitmutabiqiexplorer-mutabi-qi-explorer-fn2-21-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> checks and <Link to="/skill/survival">Survival</Link> checks made in the desert.</Pair>
 </Ability>
 <Ability id="traitheavenlytouch-heavenly-touch-fn2-22" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitheavenlytouch-heavenly-touch-fn2-22"><Link to="/trait/heavenly_touch">⮞</Link> Heavenly Touch <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.22" id="main-traits_tian_xia-fake-fn-2.22" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Tianjing</Pair>
-<Pair single="benefit" id="traitheavenlytouch-heavenly-touch-fn2-22-benefit">Growing up, you were exposed to everyday miracles performed by your half-celestial friends, and some of this magic rubbed off. At will, you can touch a dying creature to stabilize it as a standard action.</Pair>
+<Pair single="flavor" id="traitheavenlytouch-heavenly-touch-fn2-22-flavor">Growing up, you were exposed to everyday miracles performed by your half-celestial friends, and some of this magic rubbed off.</Pair>
+<Pair single="benefit" id="traitheavenlytouch-heavenly-touch-fn2-22-benefit">At will, you can touch a dying creature to <Link to="/misc/stabilize">stabilize</Link> it as a <strong className="hl">standard action</strong>.</Pair>
 </Ability>
 <Ability id="traittianjingtempleguard-tianjing-temple-guard-fn2-23" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traittianjingtempleguard-tianjing-temple-guard-fn2-23"><Link to="/trait/tianjing_temple_guard">⮞</Link> Tianjing Temple Guard <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.23" id="main-traits_tian_xia-fake-fn-2.23" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1386,7 +1409,8 @@ const _traits_tian_xia = {title: "Regional Traits: Tian Xia", jsx: <IonList line
 <Pair single id="traitjunglediplomat-jungle-diplomat-fn2-24"><Link to="/trait/jungle_diplomat">⮞</Link> Jungle Diplomat <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.24" id="main-traits_tian_xia-fake-fn-2.24" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Valashmai Jungle</Pair>
-<Pair single="benefit" id="traitjunglediplomat-jungle-diplomat-fn2-24-benefit">You know the ways and mores of the tribes of the Valashmai Jungle, and how to handle delicate communications with different groups of people. You gain a +1 trait bonus on Diplomacy and Sense Motive checks.</Pair>
+<Pair single="flavor" id="traitjunglediplomat-jungle-diplomat-fn2-24-flavor">You know the ways and mores of the tribes of the Valashmai Jungle, and how to handle delicate communications with different groups of people.</Pair>
+<Pair single="benefit" id="traitjunglediplomat-jungle-diplomat-fn2-24-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks.</Pair>
 </Ability>
 <Ability id="traitvalashmaiveteran-valashmai-veteran-fn2-25" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitvalashmaiveteran-valashmai-veteran-fn2-25"><Link to="/trait/valashmai_veteran">⮞</Link> Valashmai Veteran <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.25" id="main-traits_tian_xia-fake-fn-2.25" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1398,7 +1422,8 @@ const _traits_tian_xia = {title: "Regional Traits: Tian Xia", jsx: <IonList line
 <Pair single id="traitmasterofpeaks-master-of-peaks-fn2-26"><Link to="/trait/master_of_peaks">⮞</Link> Master of Peaks <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.26" id="main-traits_tian_xia-fake-fn-2.26" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Wall of Heaven</Pair>
-<Pair single="benefit" id="traitmasterofpeaks-master-of-peaks-fn2-26-benefit">You have made it to the summits of a number of the Wall of Heaven's peaks, and your body is used to the effects of both extreme cold and high altitude. You gain a +2 trait bonus on Fortitude saving throws made against the effects of <Link to="/rule/cold_dangers">cold dangers</Link> and <Link to="/rule/altitude_sickness">altitude sickness</Link>.</Pair>
+<Pair single="flavor" id="traitmasterofpeaks-master-of-peaks-fn2-26-flavor">You have made it to the summits of a number of the Wall of Heaven's peaks, and your body is used to the effects of both extreme cold and high altitude.</Pair>
+<Pair single="benefit" id="traitmasterofpeaks-master-of-peaks-fn2-26-benefit">You gain a +2 trait bonus on Fortitude saving throws made against the effects of <Link to="/rule/cold_dangers">cold dangers</Link> and <Link to="/rule/altitude_sickness">altitude sickness</Link>.</Pair>
 </Ability>
 <Ability id="traitseasonedclimber-seasoned-climber-fn2-27" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitseasonedclimber-seasoned-climber-fn2-27"><Link to="/trait/seasoned_climber">⮞</Link> Seasoned Climber <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.27" id="main-traits_tian_xia-fake-fn-2.27" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1422,7 +1447,8 @@ const _traits_tian_xia = {title: "Regional Traits: Tian Xia", jsx: <IonList line
 <Pair single id="traitdiscerningbeliefs-discerning-beliefs-fn2-30"><Link to="/trait/discerning_beliefs">⮞</Link> Discerning Beliefs <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.30" id="main-traits_tian_xia-fake-fn-2.30" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Zi Ha</Pair>
-<Pair single="benefit" id="traitdiscerningbeliefs-discerning-beliefs-fn2-30-benefit">You helped the samsarans maintain the magical boundaries around valleys in the Enlightened Peaks, and learned the secrets of avoiding such illusions yourself. You gain a +2 trait bonus on saving throws to disbelieve illusions.</Pair>
+<Pair single="flavor" id="traitdiscerningbeliefs-discerning-beliefs-fn2-30-flavor">You helped the samsarans maintain the magical boundaries around valleys in the Enlightened Peaks, and learned the secrets of avoiding such illusions yourself.</Pair>
+<Pair single="benefit" id="traitdiscerningbeliefs-discerning-beliefs-fn2-30-benefit">You gain a +2 trait bonus on saving throws to disbelieve illusions.</Pair>
 </Ability>
 <Ability id="traitsoundofmind-sound-of-mind-fn2-31" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitsoundofmind-sound-of-mind-fn2-31"><Link to="/trait/sound_of_mind">⮞</Link> Sound of Mind <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-2.31" id="main-traits_tian_xia-fake-fn-2.31" data-hash-target to="main-traits_tian_xia-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1438,13 +1464,14 @@ const _traits_lung_wa = {title: "Regional Traits: Former Lung Wa Empire", jsx: <
 <Pair single id="traitexhibitionfighter-exhibition-fighter-fn1"><Link to="/trait/exhibition_fighter">⮞</Link> Exhibition Fighter <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-1" id="main-traits_lung_wa-fake-fn-1" data-hash-target to="main-traits_lung_wa-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lung Wa</Pair>
-<Pair single="benefit" id="traitexhibitionfighter-exhibition-fighter-fn1-benefit">You fight at your best in martial arts tournaments, such as those once popular in Lung Wa and still common in Quain. While others may attempt to cheat or chafe against the constraints placed upon them, you thrive under such limitations. You gain a +1 bonus on attack and damage rolls when fighting as part of a tournament or other structured setting with rules and restrictions, so long as you do not break these rules.</Pair>
+<Pair single="flavor" id="traitexhibitionfighter-exhibition-fighter-fn1-flavor">You fight at your best in martial arts tournaments, such as those once popular in Lung Wa and still common in Quain. While others may attempt to cheat or chafe against the constraints placed upon them, you thrive under such limitations.</Pair>
+<Pair single="benefit" id="traitexhibitionfighter-exhibition-fighter-fn1-benefit">You gain a +1 bonus on attack and damage rolls when fighting as part of a tournament or other structured setting with rules and restrictions, so long as you do not break these rules.</Pair>
 </Ability>
 <Ability id="traitgodlessresolve-godless-resolve-fn2" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitgodlessresolve-godless-resolve-fn2"><Link to="/trait/godless_resolve">⮞</Link> Godless Resolve <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-2" id="main-traits_lung_wa-fake-fn-2" data-hash-target to="main-traits_lung_wa-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Bachuan, Rahadoum or Touvette</Pair>
-<Pair single="benefit" id="traitgodlessresolve-godless-resolve-fn2-benefit">Some brilliant and earnest speech or other performance inspired you to take charge of your own health rather than begging indifferent or outlawed deities for deliverance. Heal is a class skill for you, and you gain a +2 trait bonus on Heal checks to stabilize dying creatures and stop bleeding.</Pair>
+<Pair single="benefit" id="traitgodlessresolve-godless-resolve-fn2-benefit">Some brilliant and earnest speech or other performance inspired you to take charge of your own health rather than begging indifferent or outlawed deities for deliverance. <Link to="/skill/heal">Heal</Link> is a class skill for you, and you gain a +2 trait bonus on Heal checks to stabilize dying creatures and stop bleeding.</Pair>
 </Ability>
 <Ability id="traitszaezancragsminer-szaezan-crags-miner-fn3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitszaezancragsminer-szaezan-crags-miner-fn3"><Link to="/trait/szaezan_crags_miner">⮞</Link> Szaezan Crags Miner <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3" id="main-traits_lung_wa-fake-fn-3" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
@@ -1469,13 +1496,15 @@ const _traits_lung_wa = {title: "Regional Traits: Former Lung Wa Empire", jsx: <
 <Pair single id="traitmizukihikarirebel-mizu-ki-hikari-rebel-fn3-4"><Link to="/trait/mizu_ki_hikari_rebel">⮞</Link> Mizu Ki Hikari Rebel <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.4" id="main-traits_lung_wa-fake-fn-3.4" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Chu Ye</Pair>
-<Pair single="benefit" id="traitmizukihikarirebel-mizu-ki-hikari-rebel-fn3-4-benefit">You have trained in martial arts under the banner of Mizu Ki Hikari rebels. You gain a +1 trait bonus on damage rolls made with unarmed attacks.</Pair>
+<Pair single="flavor" id="traitmizukihikarirebel-mizu-ki-hikari-rebel-fn3-4-flavor">You have trained in martial arts under the banner of Mizu Ki Hikari rebels.</Pair>
+<Pair single="benefit" id="traitmizukihikarirebel-mizu-ki-hikari-rebel-fn3-4-benefit">You gain a +1 trait bonus on damage rolls made with unarmed attacks.</Pair>
 </Ability>
 <Ability id="traitcosmopolitan-cosmopolitan-fn3-5-fn4" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitcosmopolitan-cosmopolitan-fn3-5-fn4"><Link to="/trait/cosmopolitan">⮞</Link> Cosmopolitan <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.5" id="main-traits_lung_wa-fake-fn-3.5" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-4" id="main-traits_lung_wa-fake-fn-4" data-hash-target to="main-traits_lung_wa-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Goka</Pair>
-<Pair single="benefit" id="traitcosmopolitan-cosmopolitan-fn3-5-fn4-benefit">Your exposure to the many peoples intersecting in Goka and the tongues spoken there has given you a particular facility for speech. You gain a +1 trait bonus on Linguistics checks, and Linguistics becomes a class skill for you.</Pair>
+<Pair single="flavor" id="traitcosmopolitan-cosmopolitan-fn3-5-fn4-flavor">Your exposure to the many peoples intersecting in Goka and the tongues spoken there has given you a particular facility for speech.</Pair>
+<Pair single="benefit" id="traitcosmopolitan-cosmopolitan-fn3-5-fn4-benefit">You gain a +1 trait bonus on <Link to="/skill/linguistics">Linguistics</Link> checks, and Linguistics becomes a class skill for you.</Pair>
 </Ability>
 <Ability id="traitundermarketsmuggler-undermarket-smuggler-fn3-6" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitundermarketsmuggler-undermarket-smuggler-fn3-6"><Link to="/trait/undermarket_smuggler">⮞</Link> Undermarket Smuggler <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.6" id="main-traits_lung_wa-fake-fn-3.6" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
@@ -1487,7 +1516,8 @@ const _traits_lung_wa = {title: "Regional Traits: Former Lung Wa Empire", jsx: <
 <Pair single id="traitindenturedblacksmith-indentured-blacksmith-fn3-7"><Link to="/trait/indentured_blacksmith">⮞</Link> Indentured Blacksmith <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.7" id="main-traits_lung_wa-fake-fn-3.7" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kaoling</Pair>
-<Pair single="benefit" id="traitindenturedblacksmith-indentured-blacksmith-fn3-7-benefit">As a former slave of the hobgoblins, you were forced to make many of the weapons and shields that your captors used in war. Choose either Craft (armor) or Craft (weapons). You gain a +1 trait bonus on the chosen skill, and it becomes a class skill for you.</Pair>
+<Pair single="flavor" id="traitindenturedblacksmith-indentured-blacksmith-fn3-7-flavor">As a former slave of the hobgoblins, you were forced to make many of the weapons and shields that your captors used in war.</Pair>
+<Pair single="benefit" id="traitindenturedblacksmith-indentured-blacksmith-fn3-7-benefit">Choose either <Link to="/skill/craft">Craft</Link> (armor) or Craft (weapons). You gain a +1 trait bonus on the chosen skill, and it becomes a class skill for you.</Pair>
 </Ability>
 <Ability id="traitprivilegedslave-privileged-slave-fn3-8" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitprivilegedslave-privileged-slave-fn3-8"><Link to="/trait/privileged_slave">⮞</Link> Privileged Slave <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.8" id="main-traits_lung_wa-fake-fn-3.8" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
@@ -1499,13 +1529,15 @@ const _traits_lung_wa = {title: "Regional Traits: Former Lung Wa Empire", jsx: <
 <Pair single id="traitheartofclay-heart-of-clay-fn3-9"><Link to="/trait/heart_of_clay">⮞</Link> Heart of Clay <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.9" id="main-traits_lung_wa-fake-fn-3.9" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lingshen</Pair>
-<Pair single="benefit" id="traitheartofclay-heart-of-clay-fn3-9-benefit">You believe you are destined for an afterlife of service as part of King Huang's terra-cotta army, so you do not fear death as others do. You gain a +1 trait bonus on Fortitude saves.</Pair>
+<Pair single="flavor" id="traitheartofclay-heart-of-clay-fn3-9-flavor">You believe you are destined for an afterlife of service as part of King Huang's terra-cotta army, so you do not fear death as others do.</Pair>
+<Pair single="benefit" id="traitheartofclay-heart-of-clay-fn3-9-benefit">You gain a +1 trait bonus on Fortitude saves.</Pair>
 </Ability>
 <Ability id="traitlingshensfinest-lingshens-finest-fn3-10" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitlingshensfinest-lingshens-finest-fn3-10"><Link to="/trait/lingshens_finest">⮞</Link> Lingshen's Finest <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.10" id="main-traits_lung_wa-fake-fn-3.10" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lingshen</Pair>
-<Pair single="benefit" id="traitlingshensfinest-lingshens-finest-fn3-10-benefit">You are an elite soldier in one of Lingshen's numerous armies, and your discipline has made you a truly deadly foe. You gain a +1 trait bonus on all rolls to confirm critical hits.</Pair>
+<Pair single="flavor" id="traitlingshensfinest-lingshens-finest-fn3-10-flavor">You are an elite soldier in one of Lingshen's numerous armies, and your discipline has made you a truly deadly foe.</Pair>
+<Pair single="benefit" id="traitlingshensfinest-lingshens-finest-fn3-10-benefit">You gain a +1 trait bonus on all rolls to confirm critical hits.</Pair>
 </Ability>
 <Ability id="traitskyspiritworshipper-sky-spirit-worshipper-fn3-11" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitskyspiritworshipper-sky-spirit-worshipper-fn3-11"><Link to="/trait/sky_spirit_worshipper">⮞</Link> Sky Spirit Worshipper <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.11" id="main-traits_lung_wa-fake-fn-3.11" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
@@ -1517,7 +1549,8 @@ const _traits_lung_wa = {title: "Regional Traits: Former Lung Wa Empire", jsx: <
 <Pair single id="traitchosenchild-chosen-child-fn3-12"><Link to="/trait/chosen_child">⮞</Link> Chosen Child <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.12" id="main-traits_lung_wa-fake-fn-3.12" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Po Li</Pair>
-<Pair single="benefit" id="traitchosenchild-chosen-child-fn3-12-benefit">The oracles of Po Li smiled upon you when your parents claimed you were of divine right, and you were raised with privileges few Po Lians can fathom. Your starting money increases by 900 gp.</Pair>
+<Pair single="flavor" id="traitchosenchild-chosen-child-fn3-12-flavor">The oracles of Po Li smiled upon you when your parents claimed you were of divine right, and you were raised with privileges few Po Lians can fathom.</Pair>
+<Pair single="benefit" id="traitchosenchild-chosen-child-fn3-12-benefit">Your starting money increases by 900 gp.</Pair>
 </Ability>
 <Ability id="traitpassionatebeliever-passionate-believer-fn3-13" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitpassionatebeliever-passionate-believer-fn3-13"><Link to="/trait/passionate_believer">⮞</Link> Passionate Believer <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.13" id="main-traits_lung_wa-fake-fn-3.13" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
@@ -1554,7 +1587,8 @@ const _traits_lung_wa = {title: "Regional Traits: Former Lung Wa Empire", jsx: <
 <Pair single id="traitfreedomfightershokuro-freedom-fighter-shokuro-fn3-18"><Link to="/trait/freedom_fighter_shokuro">⮞</Link> Freedom Fighter (Shokuro) <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.18" id="main-traits_lung_wa-fake-fn-3.18" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Shokuro</Pair>
-<Pair single="benefit" id="traitfreedomfightershokuro-freedom-fighter-shokuro-fn3-18-benefit">You come from a family of farmers, but are determined to fight for your rights. You gain a +1 trait bonus on attacks made with improvised weapons. If you do not possess the <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> or <Link to="/feat/throw_anything">Throw Anything</Link> feats, you still take penalties on these attack rolls as normal.</Pair>
+<Pair single="flavor" id="traitfreedomfightershokuro-freedom-fighter-shokuro-fn3-18-flavor">You come from a family of farmers, but are determined to fight for your rights.</Pair>
+<Pair single="benefit" id="traitfreedomfightershokuro-freedom-fighter-shokuro-fn3-18-benefit">You gain a +1 trait bonus on attacks made with <Link to="/misc/improvised_weapons">improvised weapons</Link>. If you do not possess the <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> or <Link to="/feat/throw_anything">Throw Anything</Link> feats, you still take penalties on these attack rolls as normal.</Pair>
 </Ability>
 <Ability id="traitrebelleader-rebel-leader-fn3-19" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitrebelleader-rebel-leader-fn3-19"><Link to="/trait/rebel_leader">⮞</Link> Rebel Leader <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.19" id="main-traits_lung_wa-fake-fn-3.19" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
@@ -1578,7 +1612,8 @@ const _traits_lung_wa = {title: "Regional Traits: Former Lung Wa Empire", jsx: <
 <Pair single id="traitclanartisan-clan-artisan-fn3-22"><Link to="/trait/clan_artisan">⮞</Link> Clan Artisan <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.22" id="main-traits_lung_wa-fake-fn-3.22" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Xa Hoi</Pair>
-<Pair single="benefit" id="traitclanartisan-clan-artisan-fn3-22-benefit">You were raised in one of the numerous clans of Xa Hoi, and learned a valuable trade in your early years. Pick one Craft skill. You gain a +2 trait bonus on checks with that skill, and it becomes a class skill for you.</Pair>
+<Pair single="flavor" id="traitclanartisan-clan-artisan-fn3-22-flavor">You were raised in one of the numerous clans of Xa Hoi, and learned a valuable trade in your early years.</Pair>
+<Pair single="benefit" id="traitclanartisan-clan-artisan-fn3-22-benefit">Pick one <Link to="/skill/craft">Craft</Link> skill. You gain a +2 trait bonus on checks with that skill, and it becomes a class skill for you.</Pair>
 </Ability>
 <Ability id="traitxahoisoldier-xa-hoi-soldier-fn3-23" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitxahoisoldier-xa-hoi-soldier-fn3-23"><Link to="/trait/xa_hoi_soldier">⮞</Link> Xa Hoi Soldier <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.23" id="main-traits_lung_wa-fake-fn-3.23" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
