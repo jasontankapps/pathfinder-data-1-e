@@ -139,11 +139,17 @@
 			"targets": [
 				[
 					"::main[Back to Traits]{to=main/traits rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Drawback"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -258,11 +264,20 @@
 			"targets": [
 				[
 					"::main[Back to Traits]{to=main/traits rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
-					"limit": "Equipment"
-				}
+					"limit": "Equipment",
+					"replacements": [
+						[ "\\bjl\\b[^ }]* *", "" ]
+					]
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -274,11 +289,17 @@
 			"targets": [
 				[
 					"::main[Back to Traits]{to=main/traits rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Family"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -290,11 +311,17 @@
 			"targets": [
 				[
 					"::main[Back to Traits]{to=main/traits rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Mount"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -306,11 +333,17 @@
 			"targets": [
 				[
 					"::main[Back to Traits]{to=main/traits rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Cosmic"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -1035,6 +1068,8 @@
 			"targets": [
 				[
 					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -1044,7 +1079,11 @@
 				{
 					"limit": { "regex": "\\bEmpyreal Lords-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -1056,6 +1095,8 @@
 			"targets": [
 				[
 					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -1065,7 +1106,11 @@
 				{
 					"limit": { "regex": "\\bDwarven Deities-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -1077,6 +1122,8 @@
 			"targets": [
 				[
 					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -1086,7 +1133,11 @@
 				{
 					"limit": { "regex": "\\bElven Deities-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -1098,12 +1149,18 @@
 			"targets": [
 				[
 					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bAzlanti-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -1115,12 +1172,18 @@
 			"targets": [
 				[
 					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bPantheons-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -1132,12 +1195,18 @@
 			"targets": [
 				[
 					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bHalfling Deities-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -1149,12 +1218,18 @@
 			"targets": [
 				[
 					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bGoblin Deities-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -1166,12 +1241,18 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bPlanet-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -1183,12 +1264,18 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bOther-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	}

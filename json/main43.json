@@ -7,12 +7,18 @@
 			"targets": [
 				[
 					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bLG-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -24,12 +30,18 @@
 			"targets": [
 				[
 					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bLN-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -41,12 +53,18 @@
 			"targets": [
 				[
 					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bLE-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -58,12 +76,18 @@
 			"targets": [
 				[
 					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bNG-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -75,12 +99,18 @@
 			"targets": [
 				[
 					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bNN-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -92,12 +122,18 @@
 			"targets": [
 				[
 					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bNE-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -109,12 +145,18 @@
 			"targets": [
 				[
 					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bCG-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -126,12 +168,18 @@
 			"targets": [
 				[
 					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bCN-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -143,12 +191,18 @@
 			"targets": [
 				[
 					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bCE-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -160,12 +214,18 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bCasmaron-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -177,6 +237,8 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -186,7 +248,11 @@
 				{
 					"limit": { "regex": "\\bTian Xia-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -198,6 +264,8 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -207,7 +275,11 @@
 				{
 					"limit": { "regex": "\\bLung Wa-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -219,6 +291,8 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -228,7 +302,11 @@
 				{
 					"limit": { "regex": "\\bAasimar-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -240,6 +318,8 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -249,7 +329,11 @@
 				{
 					"limit": { "regex": "\\bTiefling-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	}

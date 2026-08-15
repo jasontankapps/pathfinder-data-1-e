@@ -30,13 +30,19 @@
 			"targets": [
 				[
 					"::main[Back to Faith Traits]{to=main/traits_faith rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Faith"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -48,13 +54,19 @@
 			"targets": [
 				[
 					"::main[Back to Faith Traits]{to=main/traits_faith rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Faith.*-def"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -66,13 +78,19 @@
 			"targets": [
 				[
 					"::main[Back to Faith Traits]{to=main/traits_faith rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Faith.*-combat"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -84,13 +102,19 @@
 			"targets": [
 				[
 					"::main[Back to Faith Traits]{to=main/traits_faith rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Faith.*-spell"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -102,13 +126,19 @@
 			"targets": [
 				[
 					"::main[Back to Faith Traits]{to=main/traits_faith rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Faith.*-magic"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -120,13 +150,19 @@
 			"targets": [
 				[
 					"::main[Back to Faith Traits]{to=main/traits_faith rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Faith.*-class"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -138,13 +174,19 @@
 			"targets": [
 				[
 					"::main[Back to Faith Traits]{to=main/traits_faith rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Faith.*-ab"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -156,13 +198,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-sm"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -174,13 +222,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-(sur|per)\\b"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -192,13 +246,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-(acro|climb|ride|ha|stl|ea|dd|soh|dis)\\b"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -210,13 +270,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-(int|app|spc|ling)\\b"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -228,13 +294,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-cha"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -246,13 +318,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-(perf|prof|craft)"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -264,13 +342,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-other"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	}

@@ -52,13 +52,20 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social"
-					}
-				}
+					},
+					"join": "!-N-!%%%!-N-!!-N-!%%%item!-N-!!-N-!"
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -70,13 +77,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-off"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -88,13 +101,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-def"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -106,13 +125,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-class"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -124,13 +149,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-(spell|magic)"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -142,13 +173,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-code"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -160,13 +197,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-lang"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -178,13 +221,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-bluff"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -196,13 +245,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-diplo"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -214,13 +269,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-intm"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -232,13 +293,19 @@
 			"targets": [
 				[
 					"::main[Back to Social Traits]{to=main/traits_social rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Social.*-k.?.?\\b"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	}

@@ -28,13 +28,19 @@
 			"targets": [
 				[
 					"::main[Back to Combat Traits]{to=main/traits_combat rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Combat"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -46,13 +52,19 @@
 			"targets": [
 				[
 					"::main[Back to Combat Traits]{to=main/traits_combat rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Combat.*-ab"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -64,13 +76,19 @@
 			"targets": [
 				[
 					"::main[Back to Combat Traits]{to=main/traits_combat rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Combat.*-off(?!d)"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -82,13 +100,19 @@
 			"targets": [
 				[
 					"::main[Back to Combat Traits]{to=main/traits_combat rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Combat.*-def"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -100,13 +124,19 @@
 			"targets": [
 				[
 					"::main[Back to Combat Traits]{to=main/traits_combat rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Combat.*-class"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -118,13 +148,19 @@
 			"targets": [
 				[
 					"::main[Back to Combat Traits]{to=main/traits_combat rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Combat.*-init"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	}

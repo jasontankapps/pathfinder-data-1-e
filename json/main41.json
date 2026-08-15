@@ -7,11 +7,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Reign of Winter"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -23,11 +29,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Return of the Runelords"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -39,11 +51,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Rise of the Runelords"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -55,11 +73,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Ruins of Azlant"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -71,11 +95,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Second Darkness"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -87,11 +117,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Serpent's Skull"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -103,11 +139,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Shattered Star"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -119,11 +161,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Skull and Shackles"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -135,11 +183,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Strange Aeons"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -151,11 +205,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Tyrant's Grasp"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -167,11 +227,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "War for the Crown"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -183,11 +249,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Wrath of the Righteous"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	}

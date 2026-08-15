@@ -7,12 +7,18 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bNCAvistan-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -24,12 +30,18 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bWestAvistan-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -41,12 +53,18 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bNEAvistan-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -58,12 +76,18 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bSEAvistan-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -75,12 +99,18 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bSWAvistan-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -92,6 +122,8 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -101,7 +133,11 @@
 				{
 					"limit": { "regex": "\\bDarklands-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -113,12 +149,18 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bExtraplanar-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -130,6 +172,8 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -139,7 +183,11 @@
 				{
 					"limit": { "regex": "\\bEye of Abendego-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -151,12 +199,18 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bGeneric-[^,]+\\b" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -168,12 +222,18 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bNWGarund-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -185,12 +245,18 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bNEGarund-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -202,6 +268,8 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -211,7 +279,11 @@
 				{
 					"limit": { "regex": "\\bMana Wastes-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -223,6 +295,8 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -232,7 +306,11 @@
 				{
 					"limit": { "regex": "\\bMwangi Expanse-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -244,6 +322,8 @@
 			"targets": [
 				[
 					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -253,7 +333,11 @@
 				{
 					"limit": { "regex": "\\bRiver Kingdoms-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	}

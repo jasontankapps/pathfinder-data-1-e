@@ -7,12 +7,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Generic Race",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -24,6 +30,8 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -33,7 +41,11 @@
 				{
 					"limit": { "regex": "\\bDwarf-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -45,6 +57,8 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -54,7 +68,11 @@
 				{
 					"limit": { "regex": "\\bElf-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -66,12 +84,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Gnome",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -83,6 +107,8 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -92,7 +118,11 @@
 				{
 					"limit": { "regex": "\\bHalf-elf-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -104,6 +134,8 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -113,7 +145,11 @@
 				{
 					"limit": { "regex": "\\bHalf-orc-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -125,6 +161,8 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -134,7 +172,11 @@
 				{
 					"limit": { "regex": "\\bHalfling-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -152,6 +194,8 @@
 					"Below are some generic traits for all humans. Traits for humans [of various ethnicities](#ethnic) can be found below.",
 					"",
 					":::",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -159,6 +203,8 @@
 					"sort": [ "name" ]
 				},
 				[
+					"",
+					"%%%",
 					"",
 					"::mainheader[Human Ethnicities]{id=ethnic}",
 					"",
@@ -198,12 +244,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bHuman-Chelaxian\\b(?!-)" },
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -215,12 +267,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Human-Garundi",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -232,12 +290,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Human-Keleshite",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -249,12 +313,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Human-Kellid",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -266,12 +336,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Human-Mwangi",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -283,12 +359,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bHuman-Shoanti\\b(?!-)" },
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -300,12 +382,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Human-Taldan",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -317,12 +405,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Human-Tian",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -334,12 +428,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Human-Ulfen",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -351,12 +451,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Human-Varisian",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -368,12 +474,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Human-Vudrani",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -385,12 +497,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bHuman-Misc-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -402,12 +520,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Android",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -419,12 +543,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Catfolk",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -436,12 +566,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Changeling",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -453,6 +589,8 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -462,7 +600,11 @@
 				{
 					"limit": { "regex": "\\bDhampir-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -474,12 +616,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Drow",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -491,12 +639,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Fetchling",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -514,6 +668,8 @@
 					"\"Geniekin\" is a term than encompasses all of the races touched by the elemental planes: ifrits, oreads, suli, sylphs, and undines.",
 					"",
 					":::",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -523,7 +679,11 @@
 				{
 					"limit": { "regex": "\\bGeniekin-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -535,12 +695,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Goblin",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -552,12 +718,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Kasatha",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -569,12 +741,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Kitsune",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -586,6 +764,8 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -595,7 +775,11 @@
 				{
 					"limit": { "regex": "\\bKobold-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -607,12 +791,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Lashunta",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -624,12 +814,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bOrc\\b(?!-)" },
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -641,12 +837,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Ratfolk",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -658,6 +860,8 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -667,7 +871,11 @@
 				{
 					"limit": { "regex": "\\bSkinwalker-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -679,12 +887,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Triaxian",
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -696,12 +910,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bVampire-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -713,12 +933,18 @@
 			"targets": [
 				[
 					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": { "regex": "\\bOther Races-[^,]+" },
 					"sort": [ "match", "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	}

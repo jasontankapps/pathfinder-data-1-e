@@ -7,6 +7,8 @@
 			"targets": [
 				[
 					"::main[Back to Traits]{to=main/traits rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -14,7 +16,11 @@
 						"regex": "^(Faith|Social|Magic|Combat).*-off\\b"
 					},
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -26,6 +32,8 @@
 			"targets": [
 				[
 					"::main[Back to Traits]{to=main/traits rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -33,7 +41,11 @@
 						"regex": "^(Faith|Social|Magic|Combat).*-def\\b"
 					},
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -45,6 +57,8 @@
 			"targets": [
 				[
 					"::main[Back to Traits]{to=main/traits rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -52,7 +66,11 @@
 						"regex": "^(Faith|Social|Magic|Combat).*-init\\b"
 					},
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -64,6 +82,8 @@
 			"targets": [
 				[
 					"::main[Back to Traits]{to=main/traits rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -71,7 +91,11 @@
 						"regex": "^(Faith|Social|Magic|Combat).*-lang\\b"
 					},
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -83,6 +107,8 @@
 			"targets": [
 				[
 					"::main[Back to Traits]{to=main/traits rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -90,7 +116,11 @@
 						"regex": "^(Faith|Social|Magic|Combat).*-cs\\b"
 					},
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -102,6 +132,8 @@
 			"targets": [
 				[
 					"::main[Back to Traits]{to=main/traits rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -109,7 +141,11 @@
 						"regex": "^(Faith|Social|Magic|Combat).*-item\\b"
 					},
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	}

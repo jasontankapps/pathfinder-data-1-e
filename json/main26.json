@@ -40,13 +40,19 @@
 			"targets": [
 				[
 					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Magic"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -58,13 +64,19 @@
 			"targets": [
 				[
 					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Magic.*-def\\b"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -76,13 +88,19 @@
 			"targets": [
 				[
 					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Magic.*-spell\\b"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -94,13 +112,19 @@
 			"targets": [
 				[
 					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Magic.*-class\\b"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -112,13 +136,19 @@
 			"targets": [
 				[
 					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Magic.*-cl\\b"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -130,13 +160,19 @@
 			"targets": [
 				[
 					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Magic.*-boost\\b"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -148,13 +184,19 @@
 			"targets": [
 				[
 					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Magic.*-con[jc]\\b"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -166,13 +208,19 @@
 			"targets": [
 				[
 					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Magic.*-general\\b"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -184,13 +232,19 @@
 			"targets": [
 				[
 					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Magic.*-(craft|k.?.?|app|ling|spc)\\b"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -202,13 +256,19 @@
 			"targets": [
 				[
 					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Magic.*-(bluff|diplo|ha|intm|umd)\\b"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -220,13 +280,19 @@
 			"targets": [
 				[
 					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Magic.*-(climb|dd|heal|sm|swim)\\b"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -238,13 +304,19 @@
 			"targets": [
 				[
 					"::main[Back to Magic Traits]{to=main/traits_magic rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": {
 						"regex": "^Magic.*-other\\b"
 					}
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	}

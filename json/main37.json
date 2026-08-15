@@ -7,11 +7,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Generic Campaign"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -23,11 +29,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Carrion Crown"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -39,11 +51,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Council of Thieves"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -55,11 +73,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Curse of the Crimson Throne"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -71,11 +95,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Giantslayer"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -87,11 +117,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Hell's Rebels"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -103,11 +139,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Hell's Vengeance"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -119,11 +161,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Iron Gods"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -135,11 +183,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Ironfang Invasion"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -151,11 +205,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Jade Regent"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -167,11 +227,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Kingmaker"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -183,11 +249,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Legacy of Fire"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -199,11 +271,17 @@
 			"targets": [
 				[
 					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
 					"limit": "Mummy's Mask"
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -215,6 +293,8 @@
 			"targets": [
 				[
 					"::main[Back to Traits]{to=main/traits rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -222,7 +302,11 @@
 						"regex": "^(Faith|Social|Magic|Combat).*-spellX?\\b"
 					},
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -234,6 +318,8 @@
 			"targets": [
 				[
 					"::main[Back to Traits]{to=main/traits rev}",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -241,7 +327,11 @@
 						"regex": "^(Faith|Social|Magic|Combat).*-magic\\b"
 					},
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	},
@@ -261,6 +351,8 @@
 					":::",
 					"",
 					"::mainheader[Any Spellcaster]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -271,7 +363,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Any with an Animal Companion]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -282,7 +378,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Alchemist]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -293,7 +393,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Barbarian]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -304,7 +408,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Bard]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -315,7 +423,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Cleric]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -326,7 +438,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Druid]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -337,7 +453,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Gunslinger]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -348,7 +468,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Hunter]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -359,7 +483,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Inquisitor]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -370,7 +498,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Magus]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -381,7 +513,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Monk]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -392,7 +528,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Paladin]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -403,7 +543,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Ranger]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -414,7 +558,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Rogue]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -425,7 +573,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Sorcerer]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -436,7 +588,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Summoner]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -447,7 +603,11 @@
 				},
 				[
 					"",
+					"%%%",
+					"",
 					"::mainheader[Wizard]",
+					"",
+					"%%%item",
 					""
 				],
 				{
@@ -455,7 +615,11 @@
 						"regex": "^(Faith|Social|Magic|Combat).*-class\\b.*-wiz\\b"
 					},
 					"sort": [ "name" ]
-				}
+				},
+				[
+					"",
+					"%%%"
+				]
 			]
 		}
 	}
