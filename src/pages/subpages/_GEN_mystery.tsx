@@ -226,7 +226,7 @@ const _heavens = {title: "Heavens", jsx: <><h2 id="mystery-heavens-heavens">Heav
 <p><strong>Star Chart (Ex):</strong> Your copious notes contain a working model of the night sky expressed in artistic scribbles and arcane mathematical formulae. Once per day, you may spend 10 minutes contemplating your star chart to gain the benefit of the spell <Link to="/spell/commune">commune</Link>. You must be at least 7th level to select this revelation.</p>
 <h3 id="mystery-heavens-final-revelation">Final Revelation</h3>
 <p>Upon achieving 20th level, your rapport with the heavens grants you perfect harmony with the universe. You receive a bonus on all saving throws equal to your Charisma modifier. You automatically stabilize if you are below 0 hit points, are immune to fear effects, and automatically confirm all critical hits. Should you die, you are reborn 3 days later in the form of a star child, who matures over the course of 7 days (treat as the <Link to="/spell/reincarnate">reincarnate</Link> spell).</p>
-<aside><p>There is no such creature or template called "Star Child"; the line was intended as <a href="https://paizo.com/threads/rzs2l366?Oracle-of-Heavens-and-Star-Child#3">a flavorful way of saying "a reincarnated oracle"</a> (link opens in outside browser).</p>
+<aside><p>There is no such creature or template called "Star Child"; the line was intended as <a href="https://paizo.com/threads/rzs2l366?Oracle-of-Heavens-and-Star-Child#3" data-outgoing>a flavorful way of saying "a reincarnated oracle"</a>.</p>
 </aside></>};
 const _intrigue = {title: "Intrigue", jsx: <><h2 id="mystery-intrigue-intrigue">Intrigue</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 69</Link></p>

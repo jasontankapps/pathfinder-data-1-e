@@ -14,7 +14,7 @@ type MDspanProps = ClassAttributes<HTMLSpanElement> & HTMLAttributes<HTMLSpanEle
 const a = (props: MDaProps) => {
 	const { href = "", children, id, "aria-label": ariaLabel } = props;
 	if (href.match(/^http/)) {
-		return <a href={href} id={id} data-hash-target={id ? true : undefined} aria-label={ariaLabel}>{children}</a>
+		return <a href={href} data-outgoing id={id} data-hash-target={id ? true : undefined} aria-label={ariaLabel}>{children}</a>
 	} else if (href.match(/^#/)) {
 		// Hash indicates internal link
 		return <InnerLink data-hash-target={id ? true : undefined} aria-label={ariaLabel} id={id} to={href}>{children}</InnerLink>

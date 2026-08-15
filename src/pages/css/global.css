@@ -255,8 +255,15 @@ section[data-footnotes] ol li p {
 	font-size: 1.25em;
 }
 
-:is(.hlBlock strong, strong.hl, div.hl) a {
+:is(.hlBlock strong, strong.hl, div.hl) a,
+a[data-outgoing] {
 	color: var(--ion-color-secondary);
+}
+a[data-outgoing]::after {
+	content: url('/icons/link-external.svg');
+}
+:root.ion-palette-dark a[data-outgoing]::after {
+	content: url('/icons/link-external-dark.svg');
 }
 
 div.basicContent.simple,

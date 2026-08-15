@@ -1052,7 +1052,7 @@ const _sorrowsoul = {title: "Sorrowsoul", jsx: <><h2 id="arc-bard-sorrowsoul-sor
 </Ability>
 </>};
 const _sound_striker = {title: "Sound Striker", jsx: <><h2 id="arc-bard-sound_striker-sound-striker">Sound Striker</h2>
-<p><strong>Source</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 27</Link>, <a href="https://paizo.com/paizo/faq/v5748nruor1fz#v5748eaic9t4f">errata</a></p>
+<p><strong>Source</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 27</Link>, <a href="https://paizo.com/paizo/faq/v5748nruor1fz#v5748eaic9t4f" data-outgoing>errata</a></p>
 <p>They say that words can cut deeper than any blade, and the sound striker proves this true. Using music and words as a weapon, he can focus his performances into a deadly delivery.</p>
 <Ability id="bardic-performance" extraClasses="hasSubs" icon={["stairs-goal"]}>
 <Pair single id="bardic-performance">Bardic Performance</Pair>

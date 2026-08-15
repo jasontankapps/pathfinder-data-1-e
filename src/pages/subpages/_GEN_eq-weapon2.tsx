@@ -461,7 +461,7 @@ const _gnome_flick_mace = {title: "Gnome flick-mace", topLink: ["One-Handed Weap
 <p><strong>Sources</strong> <Link to="/source/gnomes_of_golarion">Gnomes of Golarion pg. 22</Link></p>
 <p>More a flail than a mace, this weapon has a short handle attached to a length of chain with a ball at the end. The ball is propelled to its reach with the flick of the wrist, the momentum of which brings the ball back to the wielder after the strike.</p>
 <p><strong>Cost</strong> 20 gp <strong>Weight</strong> 10 lbs.<br/><strong>Damage</strong> 1d6 (small), 1d8 (medium); <strong>Critical</strong> &times;2; <strong>Range</strong> -; <strong>Type</strong> B; <strong>Special</strong> <Link to="/misc/reach">reach</Link>, <Link to="/misc/trip">trip</Link><br/><strong>Category</strong> One-Handed; <strong>Proficiency</strong> Exotic</p>
-<p><strong>Note:</strong> The original source had no description. The description above is taken from the 2nd edition <a href="https://paizo.com/products/btq02ej2">Player Core</a> book, page 279 (link opens in outside browser).</p>
+<p><strong>Note:</strong> The original source had no description. The description above is taken from the 2nd edition <a href="https://paizo.com/products/btq02ej2" data-outgoing>Player Core</a> book, page 279.</p>
 </>};
 const _great_terbutje = {title: "Great terbutje", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-great_terbutje-great-terbutje">Great terbutje</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 20</Link></p>

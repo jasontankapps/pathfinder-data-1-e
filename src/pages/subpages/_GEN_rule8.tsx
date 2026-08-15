@@ -137,7 +137,7 @@ const _story_items = {title: "Story Items", parent_topics: ["gamemastery","gamem
 <h3 id="rule-story_items-label">Footnotes</h3>
 <ol>
 <li id="rule-story_items-M">
-<p>Wikipedia: <a href="https://en.wikipedia.com/wiki/MacGuffin">MacGuffin</a> (Link opens in outside browser.) <InnerLink id="backlink-rule-story_items-ref-M-1" data-hash-target to="rule-story_items-ref-M-1" aria-label="Back to reference M-1">↩</InnerLink></p>
+<p>Wikipedia: <a href="https://en.wikipedia.com/wiki/MacGuffin" data-outgoing>MacGuffin</a> <InnerLink id="backlink-rule-story_items-ref-M-1" data-hash-target to="rule-story_items-ref-M-1" aria-label="Back to reference M-1">↩</InnerLink></p>
 </li>
 </ol>
 </section>
@@ -217,7 +217,7 @@ const _making_basic_treasure_interesting = {title: "Making Basic Treasure Intere
 <h3 id="rule-making_basic_treasure_interesting-label">Footnotes</h3>
 <ol>
 <li id="rule-making_basic_treasure_interesting-B">
-<p>Wikipedia: <em><a href="https://en.wikipedia.org/wiki/Brewer%27s_Dictionary_of_Phrase_and_Fable">Brewer's Dictionary of Phrase and Fable</a></em> (Link opens in outside browser.) <InnerLink id="backlink-rule-making_basic_treasure_interesting-ref-B-1" data-hash-target to="rule-making_basic_treasure_interesting-ref-B-1" aria-label="Back to reference B-1">↩</InnerLink></p>
+<p>Wikipedia: <em><a href="https://en.wikipedia.org/wiki/Brewer%27s_Dictionary_of_Phrase_and_Fable" data-outgoing>Brewer's Dictionary of Phrase and Fable</a></em> <InnerLink id="backlink-rule-making_basic_treasure_interesting-ref-B-1" data-hash-target to="rule-making_basic_treasure_interesting-ref-B-1" aria-label="Back to reference B-1">↩</InnerLink></p>
 </li>
 </ol>
 </section>

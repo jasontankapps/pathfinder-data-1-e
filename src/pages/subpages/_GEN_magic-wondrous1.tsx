@@ -742,7 +742,7 @@ const _robe_of_bones = {title: "Robe of Bones", jsx: <><h2 id="magic-wondrous-ro
 <h3 id="magic-wondrous-robe_of_bones-label">Footnotes</h3>
 <ol>
 <li id="magic-wondrous-robe_of_bones-T">
-<p>No such zombie (or human) type exists. According to someone at Paizo, this should just be the default human zombie. Source: <a href="https://paizo.com/threads/rzs2kuwd?Tough-Human-Zombie-Statblock-and-additional">paizo.com forums</a> <em>(link opens in outside browser)</em> <InnerLink id="backlink-magic-wondrous-robe_of_bones-ref-T-1" data-hash-target to="magic-wondrous-robe_of_bones-ref-T-1" aria-label="Back to reference T-1">↩</InnerLink></p>
+<p>No such zombie (or human) type exists. According to someone at Paizo, this should just be the default human zombie. Source: <a href="https://paizo.com/threads/rzs2kuwd?Tough-Human-Zombie-Statblock-and-additional" data-outgoing>paizo.com forums</a> <InnerLink id="backlink-magic-wondrous-robe_of_bones-ref-T-1" data-hash-target to="magic-wondrous-robe_of_bones-ref-T-1" aria-label="Back to reference T-1">↩</InnerLink></p>
 </li>
 </ol>
 </section>

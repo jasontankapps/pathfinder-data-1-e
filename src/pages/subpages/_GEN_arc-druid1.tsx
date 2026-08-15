@@ -818,7 +818,7 @@ const _eagle_shaman = {title: "Eagle Shaman", jsx: <><h2 id="arc-druid-eagle_sha
 <Pair hl title="Replaces">Wild shape</Pair>
 <Pair title="Gained">At 6th Level</Pair>
 <Pair title="Passive Ability">An eagle shaman gains <em>wild shape,</em> but the ability functions at her druid level - 2. If she takes on the form of an eagle or roc, she instead uses her druid level + 2.</Pair>
-<Pair title="Special"><p><a href="https://paizo.com/paizo/faq/v5748nruor1fn#v5748eaic9raj">From the FAQ</a> (link opens in outside browser): The lack of suitable giant bird stat blocks in official Paizo products hinders the rules options for this archetype.</p>
+<Pair title="Special"><p><a href="https://paizo.com/paizo/faq/v5748nruor1fn#v5748eaic9raj" data-outgoing>From the FAQ</a> (link opens in outside browser): The lack of suitable giant bird stat blocks in official Paizo products hinders the rules options for this archetype.</p>
 <p>To remedy this problem, an eagle shaman druid can use <em>wild shape</em> to take the form of a Medium eagle (as if applying the giant creature simple template to a Small eagle), and can use <em>wild shape</em> to take the form of a Huge roc (as if applying the young creature simple template to a Gargantuan roc). Abilities of the assumed form are determined by which <em>beast shape</em> spell the <em>wild shape</em> ability functions as, as determined by the eagle shaman's effective druid level.</p>
 </Pair>
 </Ability>

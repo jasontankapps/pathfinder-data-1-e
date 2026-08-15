@@ -276,7 +276,7 @@ const renderer = (instance) => {
 			link: ({href, text}) => {
 				const parsedText = parseAndClean(text);
 				if (href.match(/^http/)) {
-					return `<a href="${href}">${parsedText}</a>`;
+					return `<a href="${href}" data-outgoing>${parsedText}</a>`;
 				} else if (href.match(/^#/)) {
 					// Hash indicates internal link, updating `$.flags` to note the outside Tag being used
 					$.flags.innerlink = true;

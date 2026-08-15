@@ -69,8 +69,8 @@ const DataParsed: FC<{group: Data, id: string}> = ({group, id}) => {
 	return (
 		<BasicPage title={title} pageId={"/source/" + id}>
 			<>
-				<p><strong>Please note:</strong> This link leads to an external site.</p>
-				<blockquote><em>{title}</em><br /><a href={url}>{url}</a></blockquote>
+				<h2>Source</h2>
+				<blockquote><em>{title}</em><br /><a href={url} data-outgoing>{url}</a></blockquote>
 				<hr/>
 				<p className="diminishNextHeader"><strong className="hl">Entries That Reference This Source:</strong></p>
 				{

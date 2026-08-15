@@ -641,7 +641,7 @@ const _siegebreaker = {title: "Siegebreaker", jsx: <><h2 id="arc-fighter-siegebr
 </Ability>
 </>};
 const _skirmisher = {title: "Skirmisher", jsx: <><h2 id="arc-fighter-skirmisher-skirmisher">Skirmisher</h2>
-<p><strong>Source</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 50</Link>, <a href="https://paizo.com/paizo/faq/v5748nruor1hj#v5748eaic9wc9">errata</a></p>
+<p><strong>Source</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 50</Link>, <a href="https://paizo.com/paizo/faq/v5748nruor1hj#v5748eaic9wc9" data-outgoing>errata</a></p>
 <p>Not all battles are fought between armies; sometimes, a settlement or nation faces a threat too dire to fight in the open. In order to repel a much larger enemy force, some soldiers must abandon equipment and tactics designed for open-field warfare and instead rely on ambushes, hit-and-run tactics, and sabotage to whittle down their enemies' strength and morale. Skirmishers use harsh weather and unforgiving terrain to their advantage, attacking isolated groups of enemies that cannot flee or fight back effectively. Many tribal warriors also employ small-unit tactics because it is part of their warrior culture, because they cannot field a large army, or simply because they refuse to fight on the enemy's terms.</p>
 <Ability id="armor-proficiency" icon={["broken-shield"]}>
 <Pair single id="armor-proficiency">Armor Proficiency</Pair>

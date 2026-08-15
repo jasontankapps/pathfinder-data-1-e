@@ -575,7 +575,7 @@ const _crypt_breaker = {title: "Crypt Breaker", jsx: <><h2 id="arc-alchemist-cry
 <Pair title="Passive Ability">A crypt breaker may take the following rogue talents as discoveries: <Link to="/talent/quick_disable">quick disable</Link>, <em>trap sense</em> (see below), and <Link to="/talent/trap_spotter">trap spotter</Link>. Treat the crypt breaker's alchemist level as his rogue level for these talents.</Pair>
 </Ability>
 <blockquote>
-<p><em>Per <a href="https://paizo.com/threads/rzs2mmn3?Inner-Sea-Magic">errata</a> (link opens in outside browser), Trap Sense refers to the rogue <Link to="/ability/trap_sense">class ability</Link>. The crypt breaker can take it as a discovery, and it improves as the crypt breaker levels up.</em></p>
+<p><em>Per <a href="https://paizo.com/threads/rzs2mmn3?Inner-Sea-Magic" data-outgoing>errata</a> (link opens in outside browser), Trap Sense refers to the rogue <Link to="/ability/trap_sense">class ability</Link>. The crypt breaker can take it as a discovery, and it improves as the crypt breaker levels up.</em></p>
 </blockquote>
 <Ability id="enhanced-alkahest-su" icon={["upgrade"]}>
 <Pair single id="enhanced-alkahest-su">Enhanced Alkahest (Su)</Pair>

@@ -29,7 +29,10 @@ const _claws = {title: "Claws", addenda: ["1pt"], jsx: <><p><strong>Sources</str
 <Pair title="Ability">The eidolon has a pair of vicious claws at the ends of its limbs, giving it two <Link to="/umr/claw_attack">claw attacks</Link>. These attacks are primary attacks. The claws deal 1d4 points of damage (1d6 if Large, 1d8 if Huge).</Pair>
 <Pair title="Special">This evolution can be selected more than once, up to the number of <em>limbs</em> evolutions the eidolon possesses. This evolution can be applied to any number of <em>limbs (arms)</em> evolutions, but no more than one <em>limbs (legs)</em> evolution.</Pair>
 </Ability>
-</>};
+<aside><p><a href="http://paizo.com/paizo/faq/v5748nruor1fo#v5748eaic9rdk" data-outgoing>FAQ</a> If you are a bipedal creature (roughly humanoid-shaped, with two arms and two legs), your claws must go on your hands; you can not assign them to any other limb or body part.</p>
+<p>If you are a quadruped (or have more than four legs), you can have claws on your feet. If you have claws on all of your feet, normally you can't use all of those claw attacks on your turn unless you have a special ability such as <Link to="/umr/pounce">pounce</Link> or <Link to="/umr/rake">rake</Link>.</p>
+<p>Talons are much like claws, but go on a creature's feet, usually a bipedal creature (especially a flying bipedal creature such as a <Link to="/monster/giant_eagle">giant eagle</Link> or <Link to="/monster/harpy">harpy</Link>). An ability that grants you claw attacks cannot be used as if they were talon attacks (in other words, you can't "re-skin" the ability's game mechanics so you can use it on a different limb).</p>
+</aside></>};
 const _climb = {title: "Climb", addenda: ["1pt"], jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_unchained">Pathfinder Unchained pg. 35</Link></p>
 <Ability id="climb-ex" icon={["stairs-goal","upgrade"]}>
 <Pair single id="climb-ex">Climb (Ex)</Pair>

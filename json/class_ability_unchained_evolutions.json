@@ -30,7 +30,17 @@
 		"category": "1",
 		"addenda": [ "1pt" ],
 		"description": [
-			"::ab{title=\"&L&Claws (Ex)&FN&\" icon=melee ability=\"The eidolon has a pair of vicious claws at the ends of its limbs, giving it two ‹umr/claw attack«s›. These attacks are primary attacks. The claws deal 1d4 points of damage (1d6 if Large, 1d8 if Huge).\" special=\"This evolution can be selected more than once, up to the number of *limbs* evolutions the eidolon possesses. This evolution can be applied to any number of *limbs (arms)* evolutions, but no more than one *limbs (legs)* evolution.\" prereq=\"‹eidolon/Agathion›, ‹eidolon/daemon›, ‹eidolon/demon›, ‹eidolon/devil›, ‹eidolon/div›, ‹eidolon/elemental›, ‹eidolon/protean›, or ‹eidolon/psychopomp› subtype; ‹unchevolution/limbs› evolution\"}"
+			"::ab{title=\"&L&Claws (Ex)&FN&\" icon=melee ability=\"The eidolon has a pair of vicious claws at the ends of its limbs, giving it two ‹umr/claw attack«s›. These attacks are primary attacks. The claws deal 1d4 points of damage (1d6 if Large, 1d8 if Huge).\" special=\"This evolution can be selected more than once, up to the number of *limbs* evolutions the eidolon possesses. This evolution can be applied to any number of *limbs (arms)* evolutions, but no more than one *limbs (legs)* evolution.\" prereq=\"‹eidolon/Agathion›, ‹eidolon/daemon›, ‹eidolon/demon›, ‹eidolon/devil›, ‹eidolon/div›, ‹eidolon/elemental›, ‹eidolon/protean›, or ‹eidolon/psychopomp› subtype; ‹unchevolution/limbs› evolution\"}",
+			"",
+			";;;aside",
+			"",
+			"[FAQ](http://paizo.com/paizo/faq/v5748nruor1fo#v5748eaic9rdk) If you are a bipedal creature (roughly humanoid-shaped, with two arms and two legs), your claws must go on your hands; you can not assign them to any other limb or body part.",
+			"",
+			"If you are a quadruped (or have more than four legs), you can have claws on your feet. If you have claws on all of your feet, normally you can't use all of those claw attacks on your turn unless you have a special ability such as ‹umr/pounce› or ‹umr/rake›.",
+			"",
+			"Talons are much like claws, but go on a creature's feet, usually a bipedal creature (especially a flying bipedal creature such as a ‹monster/giant eagle› or ‹monster/harpy›). An ability that grants you claw attacks cannot be used as if they were talon attacks (in other words, you can't \"re-skin\" the ability's game mechanics so you can use it on a different limb).",
+			"",
+			";;;"
 		]
 	},
 	"climb": {

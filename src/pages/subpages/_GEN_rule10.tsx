@@ -5276,7 +5276,7 @@ const _staff_and_patrons = {title: "Staff and Patrons", parent_topics: ["gamemas
 const _tavern_toolbox = {title: "Tavern Toolbox", parent_topics: ["gamemastery","gamemastery_guide","adventures","taverns"], siblings: ["services","staff_and_patrons","tavern_toolbox"], jsx: <><p><strong>Sources</strong> <Link to="/source/gamemastery_guide">GameMastery Guide pg. 200</Link></p>
 <p>Over the course of a campaign, the PCs might seek solace in a blur of inns and taverns. But with a little effort and the help of the following charts full of details, the PCs may soon develop essential stopping places and favorite watering holes.</p>
 <blockquote>
-<p><em>Side note: The developer of this app also created <a href="https://play.google.com/store/apps/details?id=net.jasontank.writingquirks&hl=en_US">Writing Quirks</a> (link opens in outside browser) which has a Tavern name generator tool. The app is free, with no ads.</em></p>
+<p><em>Side note: The developer of this app also created <a href="https://play.google.com/store/apps/details?id=net.jasontank.writingquirks&hl=en_US" data-outgoing>Writing Quirks</a> which has a Tavern name generator tool. The app is free, with no ads.</em></p>
 </blockquote>
 <h3 id="rule-tavern_toolbox-table-7-32-unique-tavern-traits">Table 7-32: Unique Tavern Traits</h3>
 <ScrollContainer id="rule-tavern_toolbox--table-0"><table>
