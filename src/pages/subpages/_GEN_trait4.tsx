@@ -2371,7 +2371,8 @@ const _naga_emissary = {title: "Naga Emissary", topLink: ["Regional Traits","mai
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Jalmeray</Pair>
 <Pair title="Requirements" hl><Link to="/race/nagaji">Nagaji</Link></Pair>
-<Pair single="benefit" id="naga-emissary-benefit">You were groomed from childhood to act as an emissary to Nagajor's allies in Jalmeray, and you understand much about the Jalmeri people as a result. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy is a class skill for you. In addition, you gain Vudrani as a bonus language.</Pair>
+<Pair single="flavor" id="naga-emissary-flavor">You were groomed from childhood to act as an emissary to Nagajor's allies in Jalmeray, and you understand much about the Jalmeri people as a result.</Pair>
+<Pair single="benefit" id="naga-emissary-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks, and Diplomacy is a class skill for you. In addition, you gain Vudrani as a bonus language.</Pair>
 </Ability>
 </>};
 const _narrow_escape = {title: "Narrow Escape", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
@@ -2379,7 +2380,8 @@ const _narrow_escape = {title: "Narrow Escape", topLink: ["Regional Traits","mai
 <Pair single id="narrow-escape">Narrow Escape</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
-<Pair single="benefit" id="narrow-escape-benefit">You were captured by kuru cannibals and nearly devoured in a sacrificial ritual. At the last second you wriggled free from your bonds and escaped into the jungle. Your narrow escape has left you with a paranoid fear of capture. You secretly conduct regular sessions in which you slip out of different types of knots. You gain a +1 trait bonus on Escape Artist checks, and Escape Artist becomes a class skill for you.</Pair>
+<Pair single="flavor" id="narrow-escape-flavor">You were captured by <Link to="/monster/kuru">kuru</Link> cannibals and nearly devoured in a sacrificial ritual. At the last second you wriggled free from your bonds and escaped into the jungle. Your narrow escape has left you with a paranoid fear of capture. You secretly conduct regular sessions in which you slip out of different types of knots.</Pair>
+<Pair single="benefit" id="narrow-escape-benefit">You gain a +1 trait bonus on <Link to="/skill/escape_artist">Escape Artist</Link> checks, and Escape Artist becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _narrows_survivor = {title: "Narrows Survivor", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
@@ -2387,7 +2389,8 @@ const _narrows_survivor = {title: "Narrows Survivor", topLink: ["Regional Traits
 <Pair single id="narrows-survivor">Narrows Survivor</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Taldor</Pair>
-<Pair single="benefit" id="narrows-survivor-benefit">You spent your childhood in the infamous Narrows district of Oppara. Years of living in violent squalor have sharpened your senses and given you an ardent distrust of humanity. You gain a +1 trait bonus to Initiative and Sense Motive checks. Sense Motive is always a class skill for you.</Pair>
+<Pair single="flavor" id="narrows-survivor-flavor">You spent your childhood in the infamous Narrows district of Oppara. Years of living in violent squalor have sharpened your senses and given you an ardent distrust of humanity.</Pair>
+<Pair single="benefit" id="narrows-survivor-benefit">You gain a +1 trait bonus to Initiative and <Link to="/skill/sense_motive">Sense Motive</Link> checks. Sense Motive is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _naturalist = {title: "Naturalist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 11</Link></p>
@@ -2395,7 +2398,8 @@ const _naturalist = {title: "Naturalist", topLink: ["Regional Traits","main/trai
 <Pair single id="naturalist">Naturalist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Yamasa</Pair>
-<Pair single="benefit" id="naturalist-benefit">Your ancestors taught you the importance of using what nature provides. You gain a +3 trait bonus on Survival checks when attempting to survive in the wilderness.</Pair>
+<Pair single="flavor" id="naturalist-flavor">Your ancestors taught you the importance of using what nature provides.</Pair>
+<Pair single="benefit" id="naturalist-benefit">You gain a +3 trait bonus on <Link to="/skill/survival">Survival</Link> checks when attempting to survive in the wilderness.</Pair>
 </Ability>
 </>};
 const _near_death_experience = {title: "Near-Death Experience", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
@@ -2403,7 +2407,8 @@ const _near_death_experience = {title: "Near-Death Experience", topLink: ["Regio
 <Pair single id="near-death-experience">Near-Death Experience</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Belkzen</Pair>
-<Pair single="benefit" id="near-death-experience-benefit">You had a close brush with death that you survived only thanks to one of the witch doctors of Belkzen, and your body has learned to cling to life in dire situations. You gain a +1 trait bonus on Constitution checks to stabilize, and you don't die until your hit points drop to a negative amount equal to 2 + your Constitution score.</Pair>
+<Pair single="flavor" id="near-death-experience-flavor">You had a close brush with death that you survived only thanks to one of the witch doctors of Belkzen, and your body has learned to cling to life in dire situations.</Pair>
+<Pair single="benefit" id="near-death-experience-benefit">You gain a +1 trait bonus on Constitution checks to <Link to="/misc/stabilize">stabilize</Link>, and you don't die until your hit points drop to a negative amount equal to 2 + your Constitution score.</Pair>
 </Ability>
 </>};
 const _necrotoxin_resistance = {title: "Necrotoxin Resistance", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
@@ -2411,7 +2416,8 @@ const _necrotoxin_resistance = {title: "Necrotoxin Resistance", topLink: ["Regio
 <Pair single id="necrotoxin-resistance">Necrotoxin Resistance</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Geb</Pair>
-<Pair single="benefit" id="necrotoxin-resistance-benefit">As a resident of the undead lands of Geb, you know well that the walking dead often carry deadly poisons and diseases within them. You gain a +3 trait bonus on saving throws against disease and poison abilities and effects inflicted by creatures of the undead type (such as ghoul fever or a vargouille's poison).</Pair>
+<Pair single="flavor" id="necrotoxin-resistance-flavor">As a resident of the undead lands of Geb, you know well that the walking dead often carry deadly poisons and diseases within them.</Pair>
+<Pair single="benefit" id="necrotoxin-resistance-benefit">You gain a +3 trait bonus on saving throws against disease and poison abilities and effects inflicted by creatures of the undead type (such as <Link to="/disease/ghoul_fever">ghoul fever</Link> or a <Link to="/monster/vargouille">vargouille's</Link> poison).</Pair>
 </Ability>
 </>};
 const _nexian_corpse_hunter = {title: "Nexian Corpse Hunter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
@@ -2419,7 +2425,8 @@ const _nexian_corpse_hunter = {title: "Nexian Corpse Hunter", topLink: ["Regiona
 <Pair single id="nexian-corpse-hunter">Nexian Corpse Hunter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nex</Pair>
-<Pair single="benefit" id="nexian-corpse-hunter-benefit">After years spent fighting the undead legions of Geb, you have developed a knack for killing undead creatures with magic. You gain a +1 bonus on damage rolls from your spells against undead.</Pair>
+<Pair single="flavor" id="nexian-corpse-hunter-flavor">After years spent fighting the undead legions of Geb, you have developed a knack for killing undead creatures with magic.</Pair>
+<Pair single="benefit" id="nexian-corpse-hunter-benefit">You gain a +1 bonus on damage rolls from your spells against undead.</Pair>
 </Ability>
 </>};
 const _nidalese_shadowcaster = {title: "Nidalese Shadowcaster", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -2427,7 +2434,8 @@ const _nidalese_shadowcaster = {title: "Nidalese Shadowcaster", topLink: ["Regio
 <Pair single id="nidalese-shadowcaster">Nidalese Shadowcaster</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nidal</Pair>
-<Pair single="benefit" id="nidalese-shadowcaster-benefit">You have studied with the feared shadowcasters of Nidal. Choose one spell with the shadow descriptor - from this point on, whenever you cast this spell, its effect manifest at +1 caster level.</Pair>
+<Pair single="flavor" id="nidalese-shadowcaster-flavor">You have studied with the feared shadowcasters of Nidal.</Pair>
+<Pair single="benefit" id="nidalese-shadowcaster-benefit">Choose one spell with the shadow descriptor - from this point on, whenever you cast this spell, its effect manifest at +1 caster level.</Pair>
 </Ability>
 </>};
 const _nightstall_urchin = {title: "Nightstall Urchin", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
@@ -2435,7 +2443,8 @@ const _nightstall_urchin = {title: "Nightstall Urchin", topLink: ["Regional Trai
 <Pair single id="nightstall-urchin">Nightstall Urchin</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
-<Pair single="benefit" id="nightstall-urchin-benefit">You grew up an orphan on the streets of Katapesh, and spent many years of childhood in the Nightstalls, Katapesh's most infamous market. The strange and often horrific sights you saw there forced you to grow up fast-there's little that can shock or unsettle you. You gain a +2 trait bonus on saves against fear effects, and when you do make a successful save against a fear effect, the resulting rush of bravado grants you a +1 trait bonus on attack rolls and all skill checks for the next minute.</Pair>
+<Pair single="flavor" id="nightstall-urchin-flavor">You grew up an orphan on the streets of Katapesh, and spent many years of childhood in the Nightstalls, Katapesh's most infamous market. The strange and often horrific sights you saw there forced you to grow up fast-there's little that can shock or unsettle you.</Pair>
+<Pair single="benefit" id="nightstall-urchin-benefit">You gain a +2 trait bonus on saves against fear effects, and when you do make a successful save against a fear effect, the resulting rush of bravado grants you a +1 trait bonus on attack rolls and all skill checks for the next minute.</Pair>
 </Ability>
 </>};
 const _nightstalls_escapee = {title: "Nightstalls Escapee", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -2444,7 +2453,8 @@ const _nightstalls_escapee = {title: "Nightstalls Escapee", topLink: ["Regional 
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
 <Pair title="Requirements" hl><Link to="/race/ifrit">Ifrit</Link></Pair>
-<Pair single="benefit" id="nightstalls-escapee-benefit">The slavers of Katapesh were determined to sell you as living property, but you had other plans. You know not whether your slavers hunt you still, but you are careful about whom you trust and you always sleep with one eye open. You need to sleep only 4 hours to get <Link to="/rule/healing">a full night's rest</Link> (restoring 1 hit point per character level). You do not receive extra benefits for sleeping additional hours, and you must still rest for 24 hours to receive the benefits of complete bed rest.</Pair>
+<Pair single="flavor" id="nightstalls-escapee-flavor">The slavers of Katapesh were determined to sell you as living property, but you had other plans. You know not whether your slavers hunt you still, but you are careful about whom you trust and you always sleep with one eye open.</Pair>
+<Pair single="benefit" id="nightstalls-escapee-benefit">You need to sleep only 4 hours to get <Link to="/rule/healing">a full night's rest</Link> (restoring 1 hit point per character level). You do not receive extra benefits for sleeping additional hours, and you must still rest for 24 hours to receive the benefits of complete bed rest.</Pair>
 </Ability>
 </>};
 const _nirmathi_militia = {title: "Nirmathi Militia", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -2452,7 +2462,8 @@ const _nirmathi_militia = {title: "Nirmathi Militia", topLink: ["Regional Traits
 <Pair single id="nirmathi-militia">Nirmathi Militia</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nirmathas</Pair>
-<Pair single="benefit" id="nirmathi-militia-benefit">You have served in one of the militia bands of Nirmathas, and have learned valuable skills. Select one of the following skills: Profession (soldier), Ride, or Survival. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
+<Pair single="flavor" id="nirmathi-militia-flavor">You have served in one of the militia bands of Nirmathas, and have learned valuable skills.</Pair>
+<Pair single="benefit" id="nirmathi-militia-benefit">Select one of the following skills: <Link to="/skill/profession">Profession</Link> (soldier), <Link to="/skill/ride">Ride</Link>, or <Link to="/skill/survival">Survival</Link>. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _noble_in_exile = {title: "Noble-in-Exile", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
@@ -2460,7 +2471,8 @@ const _noble_in_exile = {title: "Noble-in-Exile", topLink: ["Regional Traits","m
 <Pair single id="noble-in-exile">Noble-in-Exile</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Gralton</Pair>
-<Pair single="benefit" id="noble-in-exile-benefit">Though forced to live in the River Kingdoms, you never forget you're a Galtan noble. You gain a +1 trait bonus on Diplomacy checks while interacting with aristocrats and nobles, and a +1 trait bonus on Intimidate checks while interacting with commoners.</Pair>
+<Pair single="flavor" id="noble-in-exile-flavor">Though forced to live in the River Kingdoms, you never forget you're a Galtan noble.</Pair>
+<Pair single="benefit" id="noble-in-exile-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks while interacting with aristocrats and nobles, and a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks while interacting with commoners.</Pair>
 </Ability>
 </>};
 const _numerologist = {title: "Numerologist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
@@ -2468,7 +2480,8 @@ const _numerologist = {title: "Numerologist", topLink: ["Regional Traits","main/
 <Pair single id="numerologist">Numerologist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
-<Pair single="benefit" id="numerologist-benefit">Having studied the sciences and other formal academics in your formative years, you swiftly became interested in the esoteric numerological practices of the ancient Osirian mathematicians, and know how to apply this science to dungeons. Once per day, you can attempt a Perception check while studying a trap (a standard action). The DC of this check is equal to the Disable Device DC of the trap - 5. If you succeed, you identify the DC necessary to disable the trap, as well as the DC of the Reflex save (if any) to avoid its effects.</Pair>
+<Pair single="flavor" id="numerologist-flavor">Having studied the sciences and other formal academics in your formative years, you swiftly became interested in the esoteric numerological practices of the ancient Osirian mathematicians, and know how to apply this science to dungeons.</Pair>
+<Pair single="benefit" id="numerologist-benefit">Once per day, you can attempt a <Link to="/skill/perception">Perception</Link> check while studying a trap (a <strong className="hl">standard action</strong>). The DC of this check is equal to the <Link to="/skill/disable_device">Disable Device</Link> DC of the trap - 5. If you succeed, you identify the DC necessary to disable the trap, as well as the DC of the Reflex save (if any) to avoid its effects.</Pair>
 </Ability>
 </>};
 const _oagan_diver = {title: "Oagan Diver", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -2476,7 +2489,8 @@ const _oagan_diver = {title: "Oagan Diver", topLink: ["Regional Traits","main/tr
 <Pair single id="oagan-diver">Oagan Diver</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Sodden Lands</Pair>
-<Pair single="benefit" id="oagan-diver-benefit">You know how to operate the diving bells of Oagon at the mouth of the Black Flow. You've dived the streets of sunken Lirgen yourself, and you know what to expect. You gain a +1 trait bonus on Swim checks, and Swim is always a class skill for you.</Pair>
+<Pair single="flavor" id="oagan-diver-flavor">You know how to operate the diving bells of Oagon at the mouth of the Black Flow. You've dived the streets of sunken Lirgen yourself, and you know what to expect.</Pair>
+<Pair single="benefit" id="oagan-diver-benefit">You gain a +1 trait bonus on <Link to="/skill/swim">Swim</Link> checks, and Swim is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _obsequious_morsel = {title: "Obsequious Morsel", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
@@ -2484,7 +2498,8 @@ const _obsequious_morsel = {title: "Obsequious Morsel", topLink: ["Regional Trai
 <Pair single id="obsequious-morsel">Obsequious Morsel</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Geb</Pair>
-<Pair single="benefit" id="obsequious-morsel-benefit">Survival in Geb requires convincing your betters that you would be of more service to them if they let you live another day than if they turn you into an unliving thrall, and you have mastered the art of buying time against undead attacks. Once per day as a swift action, you can use <Link to="/spell/sanctuary">sanctuary</Link> as a spell-like ability (caster level = your highest caster level, or 1st if you have no caster level), with a DC equal to 10 + 1/2 your caster level (minimum 0) + your Charisma modifier. Only undead must save to attack you (other creature types are not affected). The effect ends as soon as you attack a creature, as normal.</Pair>
+<Pair single="flavor" id="obsequious-morsel-flavor">Survival in Geb requires convincing your betters that you would be of more service to them if they let you live another day than if they turn you into an unliving thrall, and you have mastered the art of buying time against undead attacks.</Pair>
+<Pair single="benefit" id="obsequious-morsel-benefit">Once per day as a <strong className="hl">swift action</strong>, you can use <Link to="/spell/sanctuary">sanctuary</Link> as a spell-like ability (caster level = your highest caster level, or 1st if you have no caster level), with a DC equal to 10 + 1/2 your caster level (minimum 0) + your Charisma modifier. Only undead must save to attack you (other creature types are not affected). The effect ends as soon as you attack a creature, as normal.</Pair>
 </Ability>
 </>};
 const _observant_archer = {title: "Observant Archer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link></p>
@@ -2492,7 +2507,8 @@ const _observant_archer = {title: "Observant Archer", topLink: ["Regional Traits
 <Pair single id="observant-archer">Observant Archer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>aquatic</Pair>
-<Pair single="benefit" id="observant-archer-benefit">Growing up in an aquatic environment, where three-dimensional movement and perception were necessary, has given you keen observational skills and the ability to notice and target unusual positions with ranged attacks. You gain a +1 trait bonus on ranged attack rolls when your target is at least 10 feet above or below you.</Pair>
+<Pair single="flavor" id="observant-archer-flavor">Growing up in an aquatic environment, where three-dimensional movement and perception were necessary, has given you keen observational skills and the ability to notice and target unusual positions with ranged attacks.</Pair>
+<Pair single="benefit" id="observant-archer-benefit">You gain a +1 trait bonus on ranged attack rolls when your target is at least 10 feet above or below you.</Pair>
 </Ability>
 </>};
 const _oenopion_alchemist = {title: "Oenopion Alchemist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -2500,7 +2516,8 @@ const _oenopion_alchemist = {title: "Oenopion Alchemist", topLink: ["Regional Tr
 <Pair single id="oenopion-alchemist">Oenopion Alchemist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nex</Pair>
-<Pair single="benefit" id="oenopion-alchemist-benefit">You studied with the alchemists of Oenopion, perfecting your craft in the homunculus factories, golemworks, and ooze colony. You gain a +1 trait bonus on Craft (alchemy) checks.</Pair>
+<Pair single="flavor" id="oenopion-alchemist-flavor">You studied with the alchemists of Oenopion, perfecting your craft in the homunculus factories, golemworks, and ooze colony.</Pair>
+<Pair single="benefit" id="oenopion-alchemist-benefit">You gain a +1 trait bonus on <Link to="/skill/craft">Craft</Link> (alchemy) checks.</Pair>
 </Ability>
 </>};
 const _offspring_of_the_ascension = {title: "Offspring of the Ascension", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
@@ -2508,7 +2525,8 @@ const _offspring_of_the_ascension = {title: "Offspring of the Ascension", topLin
 <Pair single id="offspring-of-the-ascension">Offspring of the Ascension</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
-<Pair single="benefit" id="offspring-of-the-ascension-benefit">You are descended from one of Ancient Osirion's pharaohs, and a sliver of her otherworldly power has been passed onto you. You gain a +1 trait bonus on Will saves against fear effects. Any time you become confused, reduce the duration of the effect by a number of rounds equal to your Wisdom modifier (to a minimum of 1 round of confusion).</Pair>
+<Pair single="flavor" id="offspring-of-the-ascension-flavor">You are descended from one of Ancient Osirion's pharaohs, and a sliver of her otherworldly power has been passed onto you.</Pair>
+<Pair single="benefit" id="offspring-of-the-ascension-benefit">You gain a +1 trait bonus on Will saves against fear effects. Any time you become <Link to="/misc/confused">confused</Link>, reduce the duration of the effect by a number of rounds equal to your Wisdom modifier (to a minimum of 1 round of confusion).</Pair>
 </Ability>
 </>};
 const _open_minded_explorer = {title: "Open-Minded Explorer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
@@ -2516,7 +2534,8 @@ const _open_minded_explorer = {title: "Open-Minded Explorer", topLink: ["Regiona
 <Pair single id="open-minded-explorer">Open-Minded Explorer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Averaka</Pair>
-<Pair single="benefit" id="open-minded-explorer-benefit">You grew up constantly interacting with people who speak unfamiliar languages and have diverse customs; your manners may not be polished, but your acceptance of others is genuine. You gain a +1 trait bonus on Diplomacy checks. This bonus increases to +2 when you're speaking the racial or ethnic language of the target creature.</Pair>
+<Pair single="flavor" id="open-minded-explorer-flavor">You grew up constantly interacting with people who speak unfamiliar languages and have diverse customs; your manners may not be polished, but your acceptance of others is genuine.</Pair>
+<Pair single="benefit" id="open-minded-explorer-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks. This bonus increases to +2 when you're speaking the racial or ethnic language of the target creature.</Pair>
 </Ability>
 </>};
 const _orc_impaler = {title: "Orc Impaler", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link></p>
@@ -2525,7 +2544,7 @@ const _orc_impaler = {title: "Orc Impaler", topLink: ["Regional Traits","main/tr
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lastwall</Pair>
 <Pair title="Requirements" hl>Knight of Ozem</Pair>
-<Pair single="benefit" id="orc-impaler-benefit">You gain a +2 trait bonus on rolls to confirm critical hits made as part of a charge. This bonus increases to +3 if the critical hit is made against a creature with the orc subtype.</Pair>
+<Pair single="benefit" id="orc-impaler-benefit">You gain a +2 trait bonus on rolls to confirm critical hits made as part of a <Link to="/rule/charge">charge</Link>. This bonus increases to +3 if the critical hit is made against a creature with the orc subtype.</Pair>
 </Ability>
 </>};
 const _oregent_desperation = {title: "Oregent Desperation", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/andoran_spirit_of_liberty">Andoran, Spirit of Liberty</Link></p>
@@ -2533,7 +2552,8 @@ const _oregent_desperation = {title: "Oregent Desperation", topLink: ["Regional 
 <Pair single id="oregent-desperation">Oregent Desperation</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Oregent</Pair>
-<Pair single="benefit" id="oregent-desperation-benefit">Your instinct to survive easily overpowers your intellect, and you consider this a more than fair trade. Once per day you can improve your condition from dying to disabled by taking 4 points of Intelligence damage.</Pair>
+<Pair single="flavor" id="oregent-desperation-flavor">Your instinct to survive easily overpowers your intellect, and you consider this a more than fair trade.</Pair>
+<Pair single="benefit" id="oregent-desperation-benefit">Once per day you can improve your condition from <Link to="/misc/dying">dying</Link> to <Link to="/misc/disabled">disabled</Link> by taking 4 points of <Link to="/rule/intelligence_damage">Intelligence damage</Link>.</Pair>
 </Ability>
 </>};
 const _oregent_timing = {title: "Oregent Timing", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/andoran_spirit_of_liberty">Andoran, Spirit of Liberty</Link></p>
@@ -2541,7 +2561,8 @@ const _oregent_timing = {title: "Oregent Timing", topLink: ["Regional Traits","m
 <Pair single id="oregent-timing">Oregent Timing</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Oregent</Pair>
-<Pair single="benefit" id="oregent-timing-benefit">After years of soul-numbing obedience to the schedules of others, you find synchronizing your actions with an ally second nature. Once per day when you take a readied action in combat, you gain a +3 trait bonus on the d20 roll for that action if it was triggered by an ally's action.</Pair>
+<Pair single="flavor" id="oregent-timing-flavor">After years of soul-numbing obedience to the schedules of others, you find synchronizing your actions with an ally second nature.</Pair>
+<Pair single="benefit" id="oregent-timing-benefit">Once per day when you take a <Link to="/rule/readied_action">readied action</Link> in combat, you gain a +3 trait bonus on the d20 roll for that action if it was triggered by an ally's action.</Pair>
 </Ability>
 </>};
 const _oregent_vandal = {title: "Oregent Vandal", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/andoran_spirit_of_liberty">Andoran, Spirit of Liberty</Link></p>
@@ -2549,7 +2570,8 @@ const _oregent_vandal = {title: "Oregent Vandal", topLink: ["Regional Traits","m
 <Pair single id="oregent-vandal">Oregent Vandal</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Oregent</Pair>
-<Pair single="benefit" id="oregent-vandal-benefit">You find it quite easy to apply your carefully honed instincts for building and repairing to destruction instead. You gain a +2 trait bonus on damage rolls made against targets with hardness. This bonus does not apply to attacks that ignore hardness.</Pair>
+<Pair single="flavor" id="oregent-vandal-flavor">You find it quite easy to apply your carefully honed instincts for building and repairing to destruction instead.</Pair>
+<Pair single="benefit" id="oregent-vandal-benefit">You gain a +2 trait bonus on damage rolls made against targets with hardness. This bonus does not apply to attacks that ignore hardness.</Pair>
 </Ability>
 </>};
 const _osirionologist = {title: "Osirionologist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -2557,7 +2579,8 @@ const _osirionologist = {title: "Osirionologist", topLink: ["Regional Traits","m
 <Pair single id="osirionologist">Osirionologist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion</Pair>
-<Pair single="benefit" id="osirionologist-benefit">You have studied the history of ancient Osirion, and may have even ventured inside one of the great pyramids. You gain a +1 trait bonus on Knowledge (engineering) and Knowledge (history) checks, and one of them is always a class skill for you. In addition, you may choose Ancient Osiriani as one of your bonus languages.</Pair>
+<Pair single="flavor" id="osirionologist-flavor">You have studied the history of ancient Osirion, and may have even ventured inside one of the great pyramids.</Pair>
+<Pair single="benefit" id="osirionologist-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> and <Link to="/skill/knowledge_history">Knowledge (history)</Link> checks, and one of them is always a class skill for you. In addition, you may choose Ancient Osiriani as one of your bonus languages.</Pair>
 </Ability>
 </>};
 const _outsea_native = {title: "Outsea Native", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -2566,7 +2589,8 @@ const _outsea_native = {title: "Outsea Native", topLink: ["Regional Traits","mai
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
 <Pair title="Requirements" hl><Link to="/race/undine">Undine</Link></Pair>
-<Pair single="benefit" id="outsea-native-benefit">Raised amid or near the transitive aquatic kingdom known as Outsea, your predilection for watery environs has been strong since birth and you know the types of creatures who call the ocean home. You gain a +2 trait bonus on Knowledge checks to identify aquatic monsters. Anytime you are looking through water and would take a penalty on vision-based Perception checks due to murkiness or other natural circumstances, reduce the penalty by 2.</Pair>
+<Pair single="flavor" id="outsea-native-flavor">Raised amid or near the transitive aquatic kingdom known as Outsea, your predilection for watery environs has been strong since birth and you know the types of creatures who call the ocean home.</Pair>
+<Pair single="benefit" id="outsea-native-benefit">You gain a +2 trait bonus on <Link to="/skill/knowledge">Knowledge</Link> checks to identify aquatic monsters. Anytime you are looking through water and would take a penalty on vision-based <Link to="/skill/perception">Perception</Link> checks due to murkiness or other natural circumstances, reduce the penalty by 2.</Pair>
 </Ability>
 </>};
 const _palm_potion = {title: "Palm Potion", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
@@ -2574,7 +2598,8 @@ const _palm_potion = {title: "Palm Potion", topLink: ["Regional Traits","main/tr
 <Pair single id="palm-potion">Palm Potion</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Razmiran</Pair>
-<Pair single="benefit" id="palm-potion-benefit">Priests of Razmiran often make subtle use of potions to hide the fact that they do not receive spells from their deity, and they have become quite adept at imbibing potions surreptitiously. You have mastered these techniques; whenever you consume a potion, you can attempt a Sleight of Hand check with a +2 trait bonus opposed by onlookers' Perception checks to hide the fact that you are drinking a potion (as if you were using Sleight of Hand to hide an object). The observer's success doesn't prevent you from drinking the potion, just from doing so unnoticed. This does not hide any visible effects that the potion might have on you, only the physical act of drinking the potion.</Pair>
+<Pair single="flavor" id="palm-potion-flavor">Priests of Razmiran often make subtle use of potions to hide the fact that they do not receive spells from their deity, and they have become quite adept at imbibing potions surreptitiously. You have mastered these techniques.</Pair>
+<Pair single="benefit" id="palm-potion-benefit">Whenever you consume a potion, you can attempt a <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check with a +2 trait bonus opposed by onlookers' <Link to="/skill/perception">Perception</Link> checks to hide the fact that you are drinking a potion (as if you were using Sleight of Hand to hide an object). The observer's success doesn't prevent you from drinking the potion, just from doing so unnoticed. This does not hide any visible effects that the potion might have on you, only the physical act of drinking the potion.</Pair>
 </Ability>
 </>};
 const _paraheen_weaponsmith = {title: "Paraheen Weaponsmith", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East</Link></p>
@@ -2582,7 +2607,8 @@ const _paraheen_weaponsmith = {title: "Paraheen Weaponsmith", topLink: ["Regiona
 <Pair single id="paraheen-weaponsmith">Paraheen Weaponsmith</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
-<Pair single="benefit" id="paraheen-weaponsmith-benefit">You are a descendant of a long line of skilled dwarven weapon makers or have apprenticed under such artisans. Either way, you learned their long-held secrets relating to the production of magical arms and armor. You treat your caster level as 1 higher for purposes of creating magical weapons, and gain a +1 trait bonus on Craft checks to create magical armor, shields, or weapons.</Pair>
+<Pair single="flavor" id="paraheen-weaponsmith-flavor">You are a descendant of a long line of skilled dwarven weapon makers or have apprenticed under such artisans. Either way, you learned their long-held secrets relating to the production of magical arms and armor.</Pair>
+<Pair single="benefit" id="paraheen-weaponsmith-benefit">You treat your caster level as 1 higher for purposes of creating magical weapons, and gain a +1 trait bonus on <Link to="/skill/craft">Craft</Link> checks to create magical armor, shields, or weapons.</Pair>
 </Ability>
 </>};
 const _passionate_believer = {title: "Passionate Believer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -2590,7 +2616,8 @@ const _passionate_believer = {title: "Passionate Believer", topLink: ["Regional 
 <Pair single id="passionate-believer">Passionate Believer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Po Li</Pair>
-<Pair single="benefit" id="passionate-believer-benefit">Your faith was stifled while you lived in the religiously oppressive slums of Changdo, and the persecutions against you only spurred your own beliefs and made your convictions stronger. You gain a +1 trait bonus on saving throws against divine spells.</Pair>
+<Pair single="flavor" id="passionate-believer-flavor">Your faith was stifled while you lived in the religiously oppressive slums of Changdo, and the persecutions against you only spurred your own beliefs and made your convictions stronger.</Pair>
+<Pair single="benefit" id="passionate-believer-benefit">You gain a +1 trait bonus on saving throws against divine spells.</Pair>
 </Ability>
 </>};
 const _patrons_boon = {title: "Patron's Boon", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
@@ -2598,7 +2625,8 @@ const _patrons_boon = {title: "Patron's Boon", topLink: ["Regional Traits","main
 <Pair single id="patrons-boon">Patron's Boon</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
-<Pair single="benefit" id="patrons-boon-benefit">In your youth, a Rahadoumi witch granted you a boon promoting your continued health and long life. The DCs of any Heal checks to stop bleed damage you are suffering are reduced by 4.</Pair>
+<Pair single="flavor" id="patrons-boon-flavor">In your youth, a Rahadoumi witch granted you a boon promoting your continued health and long life.</Pair>
+<Pair single="benefit" id="patrons-boon-benefit">The DCs of any <Link to="/skill/heal">Heal</Link> checks to stop <Link to="/rule/bleed">bleed</Link> damage you are suffering are reduced by 4.</Pair>
 </Ability>
 </>};
 const _pearl_diver_xidao = {title: "Pearl Diver (Xidao)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -2606,7 +2634,8 @@ const _pearl_diver_xidao = {title: "Pearl Diver (Xidao)", topLink: ["Regional Tr
 <Pair single id="pearl-diver-xidao">Pearl Diver (Xidao)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Xidao</Pair>
-<Pair single="benefit" id="pearl-diver-xidao-benefit">You were a pearl harvester for a nation bordering Xidao, and you know just what clues to look for when searching for a worthwhile haul in the briny shallows. You gain a +1 trait bonus on Appraise and Swim checks.</Pair>
+<Pair single="flavor" id="pearl-diver-xidao-flavor">You were a pearl harvester for a nation bordering Xidao, and you know just what clues to look for when searching for a worthwhile haul in the briny shallows.</Pair>
+<Pair single="benefit" id="pearl-diver-xidao-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> and <Link to="/skill/swim">Swim</Link> checks.</Pair>
 </Ability>
 </>};
 const _perseverance = {title: "Perseverance", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
@@ -2614,7 +2643,8 @@ const _perseverance = {title: "Perseverance", topLink: ["Regional Traits","main/
 <Pair single id="perseverance">Perseverance</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Five Kings Mountains</Pair>
-<Pair single="benefit" id="perseverance-benefit">Your time in the Five Kings Mountains has taught you that any obstacle can be endured and overcome. When you have more than one Will saving throw to overcome an effect (such as from greater command or hold person, or by using the good fortune ability of the Luck domain), you receive a +3 trait bonus on the extra Will saves against that effect.</Pair>
+<Pair single="flavor" id="perseverance-flavor">Your time in the Five Kings Mountains has taught you that any obstacle can be endured and overcome.</Pair>
+<Pair single="benefit" id="perseverance-benefit">When you have more than one Will saving throw to overcome an effect (such as from <Link to="/spell/greater_command">greater command</Link> or <Link to="/spell/hold_person">hold person</Link>, or by using the <em>good fortune</em> ability of the <Link to="/domain/luck">Luck</Link> domain), you receive a +3 trait bonus on the extra Will saves against that effect.</Pair>
 </Ability>
 </>};
 const _pesh_addict = {title: "Pesh Addict", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
@@ -2622,7 +2652,8 @@ const _pesh_addict = {title: "Pesh Addict", topLink: ["Regional Traits","main/tr
 <Pair single id="pesh-addict">Pesh Addict</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
-<Pair single="benefit" id="pesh-addict-benefit">You spent several years addicted to pesh, a habit that you may or may not have kicked. You start with only half of the normal starting cash, but your knowledge of the pesh lifestyle grants you a +1 trait bonus on Bluff, Knowledge (local), and Sense Motive checks. One of these skills (your choice) is always a class skill for you.</Pair>
+<Pair single="flavor" id="pesh-addict-flavor">You spent several years addicted to <Link to="/drug/pesh">pesh</Link>, a habit that you may or may not have kicked.</Pair>
+<Pair single="benefit" id="pesh-addict-benefit">You start with only half of the normal starting cash, but your knowledge of the pesh lifestyle grants you a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/knowledge_local">Knowledge (local)</Link>, and <Link to="/skill/sense_motive">Sense Motive</Link> checks. One of these skills (your choice) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _pesh_dealer = {title: "Pesh Dealer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
@@ -2630,7 +2661,8 @@ const _pesh_dealer = {title: "Pesh Dealer", topLink: ["Regional Traits","main/tr
 <Pair single id="pesh-dealer">Pesh Dealer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
-<Pair single="benefit" id="pesh-dealer-benefit">You worked for a pesh dealer, either by selling the drug on the street or helping to organize shipments to other regions, which involved a certain amount of smuggling. You gain a +1 trait bonus on Sleight of Hand checks, and Sleight of Hand is always a class skill for you.</Pair>
+<Pair single="flavor" id="pesh-dealer-flavor">You worked for a <Link to="/drug/pesh">pesh</Link> dealer, either by selling the drug on the street or helping to organize shipments to other regions, which involved a certain amount of smuggling.</Pair>
+<Pair single="benefit" id="pesh-dealer-benefit">You gain a +1 trait bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks, and Sleight of Hand is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _pirate_duelist = {title: "Pirate Duelist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
@@ -2638,7 +2670,8 @@ const _pirate_duelist = {title: "Pirate Duelist", topLink: ["Regional Traits","m
 <Pair single id="pirate-duelist">Pirate Duelist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mediogalti</Pair>
-<Pair single="benefit" id="pirate-duelist-benefit">You've rubbed elbows with pirates of all stripes in Ilizmagorti's taverns and convinced a few to show off their swordfighting skills. You gain a +1 trait bonus on attacks of opportunity made with daggers, short swords, cutlasses, rapiers, scimitars, or hook hands.</Pair>
+<Pair single="flavor" id="pirate-duelist-flavor">You've rubbed elbows with pirates of all stripes in Ilizmagorti's taverns and convinced a few to show off their swordfighting skills.</Pair>
+<Pair single="benefit" id="pirate-duelist-benefit">You gain a +1 trait bonus on attacks of opportunity made with <Link to="/eq-weapon/dagger">daggers</Link>, <Link to="/eq-weapon/short_sword">short swords</Link>, <Link to="/eq-weapon/cutlass">cutlasses</Link>, <Link to="/eq-weapon/rapier">rapiers</Link>, <Link to="/eq-weapon/scimitar">scimitars</Link>, or <Link to="/eq-weapon/hook_hand">hook hands</Link>.</Pair>
 </Ability>
 </>};
 const _pitaxian_improvisation = {title: "Pitaxian Improvisation", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
@@ -2646,7 +2679,8 @@ const _pitaxian_improvisation = {title: "Pitaxian Improvisation", topLink: ["Reg
 <Pair single id="pitaxian-improvisation">Pitaxian Improvisation</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Pitax</Pair>
-<Pair single="benefit" id="pitaxian-improvisation-benefit">Your quick hands can salvage even the most botched performance. Once per day after you attempt a Perform check and before the results of the roll are revealed by the GM, you can attempt a Bluff check and use the result of that check in place of your Perform check. You must use the result of that Bluff check, even if it is lower.</Pair>
+<Pair single="flavor" id="pitaxian-improvisation-flavor">Your quick hands can salvage even the most botched performance.</Pair>
+<Pair single="benefit" id="pitaxian-improvisation-benefit">Once per day after you attempt a <Link to="/skill/perform">Perform</Link> check and before the results of the roll are revealed by the GM, you can attempt a <Link to="/skill/bluff">Bluff</Link> check and use the result of that check in place of your Perform check. You must use the result of that Bluff check, even if it is lower.</Pair>
 </Ability>
 </>};
 const _plainsman = {title: "Plainsman", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony</Link></p>
@@ -2654,7 +2688,8 @@ const _plainsman = {title: "Plainsman", topLink: ["Regional Traits","main/traits
 <Pair single id="plainsman">Plainsman</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>M'neri Plains</Pair>
-<Pair single="benefit" id="plainsman-benefit">You live and work on the M'neri Plains. You gain a +1 trait bonus on all Knowledge (geography) and Survival checks regarding the M'neri Plains.</Pair>
+<Pair single="flavor" id="plainsman-flavor">You live and work on the M'neri Plains.</Pair>
+<Pair single="benefit" id="plainsman-benefit">You gain a +1 trait bonus on all <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> and <Link to="/skill/survival">Survival</Link> checks regarding the M'neri Plains.</Pair>
 </Ability>
 </>};
 const _planar_negotiator_dhh = {title: "Planar Negotiator (DHH)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
@@ -2662,7 +2697,8 @@ const _planar_negotiator_dhh = {title: "Planar Negotiator (DHH)", topLink: ["Reg
 <Pair single id="planar-negotiator-dhh">Planar Negotiator (DHH)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Abyss</Pair>
-<Pair single="benefit" id="planar-negotiator-dhh-benefit">You are used to dealing with outsiders that would fluster a less experienced negotiator. When dealing with an outsider within one step of your alignment, you gain a +1 trait bonus on Diplomacy and Sense Motive checks. Increase these bonuses to +2 if you and the outsider worship the same deity.</Pair>
+<Pair single="flavor" id="planar-negotiator-dhh-flavor">You are used to dealing with outsiders that would fluster a less experienced negotiator.</Pair>
+<Pair single="benefit" id="planar-negotiator-dhh-benefit">When dealing with an outsider within one step of your alignment, you gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks. Increase these bonuses to +2 if you and the outsider worship the same deity.</Pair>
 </Ability>
 </>};
 const _poison_connoisseur = {title: "Poison Connoisseur", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
@@ -2670,7 +2706,8 @@ const _poison_connoisseur = {title: "Poison Connoisseur", topLink: ["Regional Tr
 <Pair single id="poison-connoisseur">Poison Connoisseur</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Taldor</Pair>
-<Pair single="benefit" id="poison-connoisseur-benefit">When the ceaseless bickering and elaborate posturing of Taldan politics proves ineffective, it is not unheard of for the nobility of Taldor to turn to poison to solve their problems, and therefore many are taught to identify the telltale signs of commonly used toxins. You gain a +2 trait bonus on saving throws against ingested poisons. Additionally, you can cast <Link to="/spell/detect_poison">detect poison</Link> as a spell-like ability once per day, using your character level as your caster level.</Pair>
+<Pair single="flavor" id="poison-connoisseur-flavor">When the ceaseless bickering and elaborate posturing of Taldan politics proves ineffective, it is not unheard of for the nobility of Taldor to turn to poison to solve their problems, and therefore many are taught to identify the telltale signs of commonly used toxins.</Pair>
+<Pair single="benefit" id="poison-connoisseur-benefit">You gain a +2 trait bonus on saving throws against ingested poisons. Additionally, you can cast <Link to="/spell/detect_poison">detect poison</Link> as a spell-like ability once per day, using your character level as your caster level.</Pair>
 </Ability>
 </>};
 const _poisoned_blade_resistance = {title: "Poisoned Blade Resistance", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
@@ -2678,7 +2715,8 @@ const _poisoned_blade_resistance = {title: "Poisoned Blade Resistance", topLink:
 <Pair single id="poisoned-blade-resistance">Poisoned Blade Resistance</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
-<Pair single="benefit" id="poisoned-blade-resistance-benefit">In the River Kingdoms' Daggermark, odds are good that any given blade is coated in some kind of poison, and people there are used to both poisoning and being poisoned. You gain a +2 trait bonus on Fortitude saving throws against injury poisons. Additionally, you are immune to one specific nonmagical injury poison. You must choose this poison when you choose this trait and cannot change it.</Pair>
+<Pair single="flavor" id="poisoned-blade-resistance-flavor">In the River Kingdoms' Daggermark, odds are good that any given blade is coated in some kind of poison, and people there are used to both poisoning and being poisoned.</Pair>
+<Pair single="benefit" id="poisoned-blade-resistance-benefit">You gain a +2 trait bonus on Fortitude saving throws against injury <Link to="/rule/poisons">poisons</Link>. Additionally, you are immune to one specific nonmagical injury poison. You must choose this poison when you choose this trait and cannot change it.</Pair>
 </Ability>
 </>};
 const _pomp_and_pageantry = {title: "Pomp and Pageantry", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
@@ -2687,7 +2725,8 @@ const _pomp_and_pageantry = {title: "Pomp and Pageantry", topLink: ["Regional Tr
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Taldor</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="pomp-and-pageantry-benefit">Though others think you merely waste time, you know that those extra flourishes and ceremonial touches actually make your work just that much better. You gain a +1 trait bonus on Acrobatics, Diplomacy, Handle Animal, Intimidate, Perform, and Ride checks with class skills if you spend twice as long as it normally takes to make that check.</Pair>
+<Pair single="flavor" id="pomp-and-pageantry-flavor">Though others think you merely waste time, you know that those extra flourishes and ceremonial touches actually make your work just that much better.</Pair>
+<Pair single="benefit" id="pomp-and-pageantry-benefit">You gain a +1 trait bonus on <Link to="/skill/acrobatics">Acrobatics</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/handle_animal">Handle Animal</Link>, <Link to="/skill/intimidate">Intimidate</Link>, <Link to="/skill/perform">Perform</Link>, and <Link to="/skill/ride">Ride</Link> checks with class skills if you spend twice as long as it normally takes to make that check.</Pair>
 </Ability>
 </>};
 const _precocious_spellcaster = {title: "Precocious Spellcaster", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
@@ -2695,7 +2734,8 @@ const _precocious_spellcaster = {title: "Precocious Spellcaster", topLink: ["Reg
 <Pair single id="precocious-spellcaster">Precocious Spellcaster</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Taldor</Pair>
-<Pair single="benefit" id="precocious-spellcaster-benefit">Before you even began your training as a spellcaster, you spent a great deal of time studying cantrips and simple spells on your own. Because of this, you developed some innate magical abilities without any outside guidance. Select one cantrip and one 1st-level spell; when you cast these spells, they function at one caster level higher than your actual caster level.</Pair>
+<Pair single="flavor" id="precocious-spellcaster-flavor">Before you even began your training as a spellcaster, you spent a great deal of time studying cantrips and simple spells on your own. Because of this, you developed some innate magical abilities without any outside guidance.</Pair>
+<Pair single="benefit" id="precocious-spellcaster-benefit">Select one cantrip and one 1st-level spell; when you cast these spells, they function at one caster level higher than your actual caster level.</Pair>
 </Ability>
 </>};
 const _prestigious_healer = {title: "Prestigious Healer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
@@ -2703,7 +2743,7 @@ const _prestigious_healer = {title: "Prestigious Healer", topLink: ["Regional Tr
 <Pair single id="prestigious-healer">Prestigious Healer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cheliax</Pair>
-<Pair single="benefit" id="prestigious-healer-benefit">Once per day as an immediate action when you cast a spell of the healing subschool, you can attempt a Diplomacy check to improve the attitude of your target or anyone within 30 feet who can see you before the end of your next turn. You gain a +2 trait bonus on this check.</Pair>
+<Pair single="benefit" id="prestigious-healer-benefit">Once per day as an <strong className="hl">immediate action</strong> when you cast a spell of the healing subschool, you can attempt a <Link to="/skill/diplomacy">Diplomacy</Link> check to improve the attitude of your target or anyone within 30 feet who can see you before the end of your next turn. You gain a +2 trait bonus on this check.</Pair>
 </Ability>
 </>};
 const _pretend_pirate = {title: "Pretend Pirate", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
@@ -2711,7 +2751,8 @@ const _pretend_pirate = {title: "Pretend Pirate", topLink: ["Regional Traits","m
 <Pair single id="pretend-pirate">Pretend Pirate</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
-<Pair single="benefit" id="pretend-pirate-benefit">You enjoy luring slave ships to you. Sometimes you run a pirate flag to lull criminals into a false sense of security; other times you disguise yourself as a merchant ship. You gain a +2 bonus on Disguise checks made to disguise yourself as a pirate or merchant sailor. In addition, you can take 5 minutes to alter your ship's appearance to add +2 to the DC of any check made to identify your ship's allegiance or purpose.</Pair>
+<Pair single="flavor" id="pretend-pirate-flavor">You enjoy luring slave ships to you. Sometimes you run a pirate flag to lull criminals into a false sense of security; other times you disguise yourself as a merchant ship.</Pair>
+<Pair single="benefit" id="pretend-pirate-benefit">You gain a +2 bonus on <Link to="/skill/disguise">Disguise</Link> checks made to disguise yourself as a pirate or merchant sailor. In addition, you can take 5 minutes to alter your ship's appearance to add +2 to the DC of any check made to identify your ship's allegiance or purpose.</Pair>
 </Ability>
 </>};
 const _prismati_player = {title: "Prismati Player", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/andoran_spirit_of_liberty">Andoran, Spirit of Liberty</Link></p>
@@ -2719,7 +2760,8 @@ const _prismati_player = {title: "Prismati Player", topLink: ["Regional Traits",
 <Pair single id="prismati-player">Prismati Player</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Andoran</Pair>
-<Pair single="benefit" id="prismati-player-benefit">You've grown up playing the confusing game of prismati and throw stones with accuracy and ease. You gain a +1 trait bonus on attack rolls with fist-sized rocks or similarly shaped objects, and a +1 trait bonus on <Link to="/rule/concentration">concentration</Link> checks.</Pair>
+<Pair single="flavor" id="prismati-player-flavor">You've grown up playing the confusing game of prismati and throw stones with accuracy and ease.</Pair>
+<Pair single="benefit" id="prismati-player-benefit">You gain a +1 trait bonus on attack rolls with fist-sized rocks or similarly shaped objects, and a +1 trait bonus on <Link to="/rule/concentration">concentration</Link> checks.</Pair>
 </Ability>
 </>};
 const _privileged_slave = {title: "Privileged Slave", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -2727,7 +2769,8 @@ const _privileged_slave = {title: "Privileged Slave", topLink: ["Regional Traits
 <Pair single id="privileged-slave">Privileged Slave</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kaoling</Pair>
-<Pair single="benefit" id="privileged-slave-benefit">You were enslaved by the hobgoblins of Kaoling, and obeyed your masters dutifully, turning your back on comrades in order to find favor with your slavers-all the while plotting your escape. You gain a +1 trait bonus on Bluff checks, and Bluff becomes a class skill for you.</Pair>
+<Pair single="flavor" id="privileged-slave-flavor">You were enslaved by the hobgoblins of Kaoling, and obeyed your masters dutifully, turning your back on comrades in order to find favor with your slavers-all the while plotting your escape.</Pair>
+<Pair single="benefit" id="privileged-slave-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks, and Bluff becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _prophet_of_burrows = {title: "Prophet of Burrows", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast</Link></p>
@@ -2736,7 +2779,8 @@ const _prophet_of_burrows = {title: "Prophet of Burrows", topLink: ["Regional Tr
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Druma</Pair>
 <Pair title="Requirements" hl><Link to="/race/ratfolk">Ratfolk</Link></Pair>
-<Pair single="benefit" id="prophet-of-burrows-benefit">While you might not be a practicing follower of the <Link to="/rule/prophecies_of_kalistrade">Prophecies of Kalistrade</Link>, you value human coin more than most ratfolk do and have taken the mercantile practices of the Prophecies to heart. Whenever you roll a skill check to earn money, increase the amount of money that you earn by 5%.</Pair>
+<Pair single="flavor" id="prophet-of-burrows-flavor">While you might not be a practicing follower of the <Link to="/rule/prophecies_of_kalistrade">Prophecies of Kalistrade</Link>, you value human coin more than most ratfolk do and have taken the mercantile practices of the Prophecies to heart.</Pair>
+<Pair single="benefit" id="prophet-of-burrows-benefit">Whenever you roll a skill check to earn money, increase the amount of money that you earn by 5%.</Pair>
 </Ability>
 </>};
 const _purchased_loyalty = {title: "Purchased Loyalty", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -2744,7 +2788,8 @@ const _purchased_loyalty = {title: "Purchased Loyalty", topLink: ["Regional Trai
 <Pair single id="purchased-loyalty">Purchased Loyalty</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Druma</Pair>
-<Pair single="benefit" id="purchased-loyalty-benefit">As a member of Druma's Mercenary League, you are utterly loyal to the holder of your contract-at least until it expires. Once per day, when protecting someone who has bought your services, you may roll twice when making a Will save against charm effects and take the better result.</Pair>
+<Pair single="flavor" id="purchased-loyalty-flavor">As a member of Druma's Mercenary League, you are utterly loyal to the holder of your contract - at least until it expires.</Pair>
+<Pair single="benefit" id="purchased-loyalty-benefit">Once per day, when protecting someone who has bought your services, you may roll twice when making a Will save against charm effects and take the better result.</Pair>
 </Ability>
 </>};
 const _pure_legion_recruit = {title: "Pure Legion Recruit", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
@@ -2752,7 +2797,8 @@ const _pure_legion_recruit = {title: "Pure Legion Recruit", topLink: ["Regional 
 <Pair single id="pure-legion-recruit">Pure Legion Recruit</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
-<Pair single="benefit" id="pure-legion-recruit-benefit">You have spent time among the famed Pure Legion and understand some of their techniques for spotting signs of religion and the faithful. You gain a +2 trait bonus on Perception checks to see through disguises and mundane attempts to conceal religious iconography or dress. You also gain a +2 trait bonus on Sense Motive checks to see through lies about a target's religious beliefs and to understand secret messages relating to the gods.</Pair>
+<Pair single="flavor" id="pure-legion-recruit-flavor">You have spent time among the famed Pure Legion and understand some of their techniques for spotting signs of religion and the faithful.</Pair>
+<Pair single="benefit" id="pure-legion-recruit-benefit">You gain a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks to see through disguises and mundane attempts to conceal religious iconography or dress. You also gain a +2 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to see through lies about a target's religious beliefs and to understand secret messages relating to the gods.</Pair>
 </Ability>
 </>};
 const _quain_martial_artist = {title: "Quain Martial Artist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -2760,7 +2806,8 @@ const _quain_martial_artist = {title: "Quain Martial Artist", topLink: ["Regiona
 <Pair single id="quain-martial-artist">Quain Martial Artist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Quain</Pair>
-<Pair single="benefit" id="quain-martial-artist-benefit">Having grown up in Quain, you were taught under various schools of martial arts, and have used all you have learned to hone your fighting prowess. You gain a +1 trait bonus on damage rolls when using unarmed strikes.</Pair>
+<Pair single="flavor" id="quain-martial-artist-flavor">Having grown up in Quain, you were taught under various schools of martial arts, and have used all you have learned to hone your fighting prowess.</Pair>
+<Pair single="benefit" id="quain-martial-artist-benefit">You gain a +1 trait bonus on damage rolls when using unarmed strikes.</Pair>
 </Ability>
 </>};
 const _quantium_university_graduate = {title: "Quantium University Graduate", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -2768,7 +2815,8 @@ const _quantium_university_graduate = {title: "Quantium University Graduate", to
 <Pair single id="quantium-university-graduate">Quantium University Graduate</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nex</Pair>
-<Pair single="benefit" id="quantium-university-graduate-benefit">You graduated from one of Quantium's justly famous arcane academies, and the rigorous program of study has honed your mind. You gain a +2 trait bonus on <Link to="/rule/concentration">concentration</Link> checks when casting arcane spells.</Pair>
+<Pair single="flavor" id="quantium-university-graduate-flavor">You graduated from one of Quantium's justly famous arcane academies, and the rigorous program of study has honed your mind.</Pair>
+<Pair single="benefit" id="quantium-university-graduate-benefit">You gain a +2 trait bonus on <Link to="/rule/concentration">concentration</Link> checks when casting arcane spells.</Pair>
 </Ability>
 </>};
 const _rabble_rebel = {title: "Rabble Rebel", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion</Link></p>
@@ -2777,7 +2825,8 @@ const _rabble_rebel = {title: "Rabble Rebel", topLink: ["Regional Traits","main/
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Galt</Pair>
 <Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
-<Pair single="benefit" id="rabble-rebel-benefit">Your time spent amid angry mobs has taught you exactly how to use crowds of people to distract your opponents. If you have at least three allies threatening your opponent, you gain a +2 bonus on Bluff checks to feint him and a +2 bonus on Sleight of Hand checks against him.</Pair>
+<Pair single="flavor" id="rabble-rebel-flavor">Your time spent amid angry mobs has taught you exactly how to use crowds of people to distract your opponents.</Pair>
+<Pair single="benefit" id="rabble-rebel-benefit">If you have at least three allies threatening your opponent, you gain a +2 bonus on <Link to="/skill/bluff">Bluff</Link> checks to feint him and a +2 bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks against him.</Pair>
 </Ability>
 </>};
 const _rahadoumi_cultist = {title: "Rahadoumi Cultist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -2785,7 +2834,8 @@ const _rahadoumi_cultist = {title: "Rahadoumi Cultist", topLink: ["Regional Trai
 <Pair single id="rahadoumi-cultist">Rahadoumi Cultist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
-<Pair single="benefit" id="rahadoumi-cultist-benefit">You're a secret member of a forbidden faith in Rahadoum. You have learned to hide your beliefs and how to identify others of your faith. You gain a +5 trait bonus on Bluff checks to receive secret messages, and a +5 trait bonus on Sense Motive checks to intercept secret messages from others of your faith.</Pair>
+<Pair single="flavor" id="rahadoumi-cultist-flavor">You're a secret member of a forbidden faith in Rahadoum. You have learned to hide your beliefs and how to identify others of your faith.</Pair>
+<Pair single="benefit" id="rahadoumi-cultist-benefit">You gain a +5 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks to receive secret messages, and a +5 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to intercept secret messages from others of your faith.</Pair>
 </Ability>
 </>};
 const _rahadoumi_disbeliever = {title: "Rahadoumi Disbeliever", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -2793,7 +2843,8 @@ const _rahadoumi_disbeliever = {title: "Rahadoumi Disbeliever", topLink: ["Regio
 <Pair single id="rahadoumi-disbeliever">Rahadoumi Disbeliever</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Rahadoum</Pair>
-<Pair single="benefit" id="rahadoumi-disbeliever-benefit">As a Rahadoumi who rejects covenants with gods, your belief is strong enough to repel divine spells. You gain a +2 trait bonus on saving throws against divine spells, but you must make a saving throw even when that magic is beneficial to you.</Pair>
+<Pair single="flavor" id="rahadoumi-disbeliever-flavor">As a Rahadoumi who rejects covenants with gods, your belief is strong enough to repel divine spells.</Pair>
+<Pair single="benefit" id="rahadoumi-disbeliever-benefit">You gain a +2 trait bonus on saving throws against divine spells, but you must make a saving throw even when that magic is beneficial to you.</Pair>
 </Ability>
 </>};
 const _rebel_leader = {title: "Rebel Leader", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -2801,7 +2852,8 @@ const _rebel_leader = {title: "Rebel Leader", topLink: ["Regional Traits","main/
 <Pair single id="rebel-leader">Rebel Leader</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Shokuro</Pair>
-<Pair single="benefit" id="rebel-leader-benefit">A close relative was an important player in the rebellions that led to the independence of Shokuro, and passed on her passion to you. If you take the <Link to="/feat/leadership">Leadership</Link> feat, you receive a +1 trait bonus to your Leadership score.</Pair>
+<Pair single="flavor" id="rebel-leader-flavor">A close relative was an important player in the rebellions that led to the independence of Shokuro, and passed on her passion to you.</Pair>
+<Pair single="benefit" id="rebel-leader-benefit">If you take the <Link to="/feat/leadership">Leadership</Link> feat, you receive a +1 trait bonus to your Leadership score.</Pair>
 </Ability>
 </>};
 const _regional_influence = {title: "Regional Influence", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
@@ -2810,11 +2862,11 @@ const _regional_influence = {title: "Regional Influence", topLink: ["Regional Tr
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
 <Pair single="flavor" id="regional-influence-flavor">Although you live some distance from the city-state your community owes fealty to, you've been influenced by its sophisticated urban ways.</Pair>
-<Pair single="benefit" id="regional-influence-benefit"><p>Determine the city-state of which your home is a holding. You gain a +1 trait bonus on checks with one Profession skill and one of the following benefits.</p>
+<Pair single="benefit" id="regional-influence-benefit"><p>Determine the city-state of which your home is a holding. You gain a +1 trait bonus on checks with one <Link to="/skill/profession">Profession</Link> skill and one of the following benefits.</p>
 <ul>
-<li><strong>Korvosa:</strong> Gain Infernal as a bonus language. If you already have this language, gain a +1 trait bonus on Diplomacy checks.</li>
+<li><strong>Korvosa:</strong> Gain Infernal as a bonus language. If you already have this language, gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks.</li>
 <li><strong>Magnimar:</strong> Gain one random <Link to="/eq-misc/varisian_idol">Varisian idol</Link>.</li>
-<li><strong>Riddleport:</strong> Gain a +1 trait bonus on Swim checks.</li>
+<li><strong>Riddleport:</strong> Gain a +1 trait bonus on <Link to="/skill/swim">Swim</Link> checks.</li>
 </ul>
 </Pair>
 </Ability>
@@ -2825,13 +2877,13 @@ const _regional_recluse = {title: "Regional Recluse", topLink: ["Regional Traits
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
 <Pair single="flavor" id="regional-recluse-flavor">Your home community prides itself on remaining independent from Varisia's city-states.</Pair>
-<Pair single="benefit" id="regional-recluse-benefit"><p>Choose one of Varisia's unaffiliated settlements from this list below. You gain a +1 trait bonus on Survival checks and one of the following benefits.</p>
+<Pair single="benefit" id="regional-recluse-benefit"><p>Choose one of Varisia's unaffiliated settlements from this list below. You gain a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks and one of the following benefits.</p>
 <ul>
-<li><strong>Arsmeril or Crying Leaf:</strong> Gain a +1 trait bonus on Perception checks made at night.</li>
-<li><strong>Ilsurian:</strong> Gain proficiency with light shields.</li>
-<li><strong>Sanos Forest or Whistledown:</strong> Gain Gnome as a bonus language. If you already have this language, gain a +1 trait bonus on Stealth checks made in forested areas.</li>
+<li><strong>Arsmeril or Crying Leaf:</strong> Gain a +1 trait bonus on <Link to="/skill/perception">Perception</Link> checks made at night.</li>
+<li><strong>Ilsurian:</strong> Gain proficiency with <Link to="/eq-armor/light_shield">light shields</Link>.</li>
+<li><strong>Sanos Forest or Whistledown:</strong> Gain Gnome as a bonus language. If you already have this language, gain a +1 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks made in forested areas.</li>
 <li><strong>Turtleback Ferry:</strong> Gain a +1 bonus to damage on all attacks against creatures of the giant type.</li>
-<li><strong>Urglin:</strong> Gain Orc as a bonus language. If you already know this language, gain a +1 trait bonus on Intimidate checks.</li>
+<li><strong>Urglin:</strong> Gain Orc as a bonus language. If you already know this language, gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks.</li>
 </ul>
 </Pair>
 </Ability>
@@ -2841,7 +2893,8 @@ const _resourceful_alchemy = {title: "Resourceful Alchemy", topLink: ["Regional 
 <Pair single id="resourceful-alchemy">Resourceful Alchemy</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
-<Pair single="benefit" id="resourceful-alchemy-benefit">Alchemy is a point of national pride in Thuvia, home of the famous <Link to="/magic-artifact/sun_orchid_elixir">sun orchid elixir</Link>. But resources are often hard to come by in the blasted desert landscape, so you have found creative ways to create many of the tools you need to survive. You gain a +2 trait bonus on Craft (alchemy) skill checks. This bonus increases to +3 when you are using Craft (alchemy) to craft an alchemical item.</Pair>
+<Pair single="flavor" id="resourceful-alchemy-flavor">Alchemy is a point of national pride in Thuvia, home of the famous <Link to="/magic-artifact/sun_orchid_elixir">sun orchid elixir</Link>. But resources are often hard to come by in the blasted desert landscape, so you have found creative ways to create many of the tools you need to survive.</Pair>
+<Pair single="benefit" id="resourceful-alchemy-benefit">You gain a +2 trait bonus on <Link to="/skill/craft">Craft</Link> (alchemy) skill checks. This bonus increases to +3 when you are using Craft (alchemy) to craft an alchemical item.</Pair>
 </Ability>
 </>};
 const _resourceful_scavenger = {title: "Resourceful Scavenger", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link></p>
@@ -2849,7 +2902,8 @@ const _resourceful_scavenger = {title: "Resourceful Scavenger", topLink: ["Regio
 <Pair single id="resourceful-scavenger">Resourceful Scavenger</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Numeria</Pair>
-<Pair single="benefit" id="resourceful-scavenger-benefit">Living in Numeria required you to become an expert scavenger, searching through ruins and crash sites for valuables and sustenance. Years spent in this pursuit have given you a keen eye for finding valuables and potentially useful resources in the unlikeliest places. You gain a +2 trait bonus on Perception checks when you search a location for valuables or resources. Appraise is always a class skill for you.</Pair>
+<Pair single="flavor" id="resourceful-scavenger-flavor">Living in Numeria required you to become an expert scavenger, searching through ruins and crash sites for valuables and sustenance. Years spent in this pursuit have given you a keen eye for finding valuables and potentially useful resources in the unlikeliest places.</Pair>
+<Pair single="benefit" id="resourceful-scavenger-benefit">You gain a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks when you search a location for valuables or resources. <Link to="/skill/appraise">Appraise</Link> is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _rice_runner = {title: "Rice Runner", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -2857,7 +2911,8 @@ const _rice_runner = {title: "Rice Runner", topLink: ["Regional Traits","main/tr
 <Pair single id="rice-runner">Rice Runner</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Wanshou</Pair>
-<Pair single="benefit" id="rice-runner-benefit">You grew up as a slave in Wanshou, harvesting rice for your kraken despot, and you know how to move agilely across sodden and unsteady ground. You gain a +1 trait bonus on Acrobatics checks, and Acrobatics becomes a class skill for you.</Pair>
+<Pair single="flavor" id="rice-runner-flavor">You grew up as a slave in Wanshou, harvesting rice for your kraken despot, and you know how to move agilely across sodden and unsteady ground.</Pair>
+<Pair single="benefit" id="rice-runner-benefit">You gain a +1 trait bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks, and Acrobatics becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _rider_of_paresh = {title: "Rider of Paresh", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
@@ -2866,7 +2921,8 @@ const _rider_of_paresh = {title: "Rider of Paresh", topLink: ["Regional Traits",
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
 <Pair title="Requirements" hl><Link to="/feat/mounted_combat">Mounted Combat</Link> feat</Pair>
-<Pair single="benefit" id="rider-of-paresh-benefit">You call the Plains of Paresh home, whether you were born among the plains' tribes or in the glittering towers of Katheer. The horses are your kin. When mounted and making a charge, your mount's speed is increased by 10 feet.</Pair>
+<Pair single="flavor" id="rider-of-paresh-flavor">You call the Plains of Paresh home, whether you were born among the plains' tribes or in the glittering towers of Katheer. The horses are your kin.</Pair>
+<Pair single="benefit" id="rider-of-paresh-benefit">When mounted and making a <Link to="/rule/charge">charge</Link>, your mount's speed is increased by 10 feet.</Pair>
 </Ability>
 </>};
 const _river_navigator = {title: "River Navigator", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
@@ -2874,7 +2930,8 @@ const _river_navigator = {title: "River Navigator", topLink: ["Regional Traits",
 <Pair single id="river-navigator">River Navigator</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
-<Pair single="benefit" id="river-navigator-benefit">You grew up in the River Kingdoms and are familiar with the many winding streams that cross the land. You gain a +1 trait bonus on Survival checks or Profession (sailor) checks dealing with lakes, rivers, and their immediate surroundings, and one of these skills becomes a class skill for you.</Pair>
+<Pair single="flavor" id="river-navigator-flavor">You grew up in the River Kingdoms and are familiar with the many winding streams that cross the land.</Pair>
+<Pair single="benefit" id="river-navigator-benefit">You gain a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks or <Link to="/skill/profession">Profession</Link> (sailor) checks dealing with lakes, rivers, and their immediate surroundings, and one of these skills becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _river_rat = {title: "River Rat", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
@@ -2882,7 +2939,8 @@ const _river_rat = {title: "River Rat", topLink: ["Regional Traits","main/traits
 <Pair single id="river-rat">River Rat</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>swamp or river</Pair>
-<Pair single="benefit" id="river-rat-benefit">You learned to swim right after you learned to walk. When you were a youth, a gang of river pirates put you to work swimming in nighttime rivers and canals with a dagger between your teeth so you could sever the anchor ropes of merchant vessels. You gain a +1 trait bonus on damage rolls with a dagger and a +1 trait bonus on Swim checks. Swim is always a class skill for you.</Pair>
+<Pair single="flavor" id="river-rat-flavor">You learned to swim right after you learned to walk. When you were a youth, a gang of river pirates put you to work swimming in nighttime rivers and canals with a dagger between your teeth so you could sever the anchor ropes of merchant vessels.</Pair>
+<Pair single="benefit" id="river-rat-benefit">You gain a +1 trait bonus on damage rolls with a dagger and a +1 trait bonus on <Link to="/skill/swim">Swim</Link> checks. Swim is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _river_sniper = {title: "River Sniper", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
@@ -2890,7 +2948,8 @@ const _river_sniper = {title: "River Sniper", topLink: ["Regional Traits","main/
 <Pair single id="river-sniper">River Sniper</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
-<Pair single="benefit" id="river-sniper-benefit">Unlike seagoing pirates, you're used to fighting most of your ship-to-ship battles at close range, and understand the value of a well-placed arrow. When on the deck of a waterborne vessel, you gain a +1 trait bonus on attacks with ranged weapons.</Pair>
+<Pair single="flavor" id="river-sniper-flavor">Unlike seagoing pirates, you're used to fighting most of your ship-to-ship battles at close range, and understand the value of a well-placed arrow.</Pair>
+<Pair single="benefit" id="river-sniper-benefit">When on the deck of a waterborne vessel, you gain a +1 trait bonus on attacks with ranged weapons.</Pair>
 </Ability>
 </>};
 const _riverfolk = {title: "Riverfolk", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -2898,7 +2957,8 @@ const _riverfolk = {title: "Riverfolk", topLink: ["Regional Traits","main/traits
 <Pair single id="riverfolk">Riverfolk</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
-<Pair single="benefit" id="riverfolk-benefit">You've grown up on the tributaries of the Sellen River system, and are as comfortable on boats as on land. You gain a +2 trait bonus on Profession (sailor) checks and any skill checks involving rope use.</Pair>
+<Pair single="flavor" id="riverfolk-flavor">You've grown up on the tributaries of the Sellen River system, and are as comfortable on boats as on land.</Pair>
+<Pair single="benefit" id="riverfolk-benefit">You gain a +2 trait bonus on <Link to="/skill/profession">Profession</Link> (sailor) checks and any skill checks involving rope use.</Pair>
 </Ability>
 </>};
 const _roof_racer = {title: "Roof Racer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
@@ -2906,7 +2966,8 @@ const _roof_racer = {title: "Roof Racer", topLink: ["Regional Traits","main/trai
 <Pair single id="roof-racer">Roof Racer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Korvosa</Pair>
-<Pair single="benefit" id="roof-racer-benefit">You've spent more than your fair share of time among the strange sloping slums that cover the rooftops of much of Old Korvosa. When using the Acrobatics skill to make a long jump, you treat the DC of the skill check as if the distance being jumped were 5 feet shorter than it actually is.</Pair>
+<Pair single="flavor" id="roof-racer-flavor">You've spent more than your fair share of time among the strange sloping slums that cover the rooftops of much of Old Korvosa.</Pair>
+<Pair single="benefit" id="roof-racer-benefit">When using the <Link to="/skill/acrobatics">Acrobatics</Link> skill to make a long jump, you treat the DC of the skill check as if the distance being jumped were 5 feet shorter than it actually is.</Pair>
 </Ability>
 </>};
 const _runaway_slave = {title: "Runaway Slave", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
@@ -2914,7 +2975,8 @@ const _runaway_slave = {title: "Runaway Slave", topLink: ["Regional Traits","mai
 <Pair single id="runaway-slave">Runaway Slave</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Osirion, Thuvia, or Darklands-adjacent</Pair>
-<Pair single="benefit" id="runaway-slave-benefit">Though the ghouls of Nemret Noktoria and the drow of Zirnakaynin seldom darken the surface of Golarion, both have pacts with influential slavers and warlords who periodically provide the demon worshipers with kidnapped slaves. You were once one of these unfortunate victims and were destined to become a sacrifice to a dreadful demon lord, but you managed to slip your bonds and escape back to the surface. The horrors you witnessed were beyond fathoming, and though visions of imprisoned loved ones and friends plague your dreams, you are stronger for the experience. You gain a +1 trait bonus on saves against fear effects and gain low-light vision 10 feet. If you already have low-light vision, its range extends by 10 feet.</Pair>
+<Pair single="flavor" id="runaway-slave-flavor">Though the ghouls of Nemret Noktoria and the drow of Zirnakaynin seldom darken the surface of Golarion, both have pacts with influential slavers and warlords who periodically provide the demon worshipers with kidnapped slaves. You were once one of these unfortunate victims and were destined to become a sacrifice to a dreadful demon lord, but you managed to slip your bonds and escape back to the surface. The horrors you witnessed were beyond fathoming, and though visions of imprisoned loved ones and friends plague your dreams, you are stronger for the experience.</Pair>
+<Pair single="benefit" id="runaway-slave-benefit">You gain a +1 trait bonus on saves against fear effects and gain low-light vision 10 feet. If you already have low-light vision, its range extends by 10 feet.</Pair>
 </Ability>
 </>};
 const _sargavan_guard = {title: "Sargavan Guard", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -2922,15 +2984,17 @@ const _sargavan_guard = {title: "Sargavan Guard", topLink: ["Regional Traits","m
 <Pair single id="sargavan-guard">Sargavan Guard</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Sargava</Pair>
-<Pair single="benefit" id="sargavan-guard-benefit">You served in the Sargavan Guard, either as a colonial sub-praetor or as a native Mwangi regular, and have grown accustomed to marching in hot temperatures while wearing armor. When you wear armor of any sort, reduce the armor check penalty by 1, to a minimum penalty of 0.</Pair>
+<Pair single="flavor" id="sargavan-guard-flavor">You served in the Sargavan Guard, either as a colonial sub-praetor or as a native Mwangi regular, and have grown accustomed to marching in hot temperatures while wearing armor.</Pair>
+<Pair single="benefit" id="sargavan-guard-benefit">When you wear armor of any sort, reduce the armor check penalty by 1, to a minimum penalty of 0.</Pair>
 </Ability>
 </>};
-const _savage_breaker = {title: "Savage Breaker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
+const _savage_breaker = {title: "Savage Breaker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment</Link></p>
 <Ability id="savage-breaker" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="savage-breaker">Savage Breaker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Korvosa</Pair>
-<Pair single="benefit" id="savage-breaker-benefit">You openly despise the crude Shoanti and their backward ways. You gain a +2 trait bonus on combat maneuver checks made to sunder clubs, earth breakers, klars, hide armor, primitive armor and weapons, and any other equipment the GM deems "barbarian-made."</Pair>
+<Pair single="flavor" id="savage-breaker-flavor">You openly despise the crude Shoanti and their backward ways.</Pair>
+<Pair single="benefit" id="savage-breaker-benefit">You gain a +2 trait bonus on combat maneuver checks made to <Link to="/rule/sunder">sunder</Link> <Link to="/eq-weapon/club">clubs</Link>, <Link to="/eq-weapon/earth_breaker">earth breakers</Link>, <Link to="/eq-armor/klar">klars</Link>, <Link to="/eq-armor/hide">hide</Link> armor, primitive armor and weapons (those made of <Link to="/eq-material/bone">bone</Link>, <Link to="/eq-material/bronze">bronze</Link>, <Link to="/eq-material/glass">glass</Link>, <Link to="/eq-material/gold">gold</Link>, <Link to="/eq-material/obsidian">obsidian</Link>, or <Link to="/eq-material/stone">stone</Link>), and any other equipment the GM deems "barbarian-made."</Pair>
 </Ability>
 </>};
 const _savanna_child = {title: "Savanna Child", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link>, <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
@@ -2938,7 +3002,8 @@ const _savanna_child = {title: "Savanna Child", topLink: ["Regional Traits","mai
 <Pair single id="savanna-child">Savanna Child</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh, plains</Pair>
-<Pair single="benefit" id="savanna-child-benefit">You were born and raised in central Katapesh, among the rolling savannahs that dominate the nation's interior. You spent many of your youth exploring these vast reaches, and know much of the savannah's secrets. Pick one of the following skills: Handle Animal, Knowledge (nature), or Ride. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
+<Pair single="flavor" id="savanna-child-flavor">You were born and raised in central Katapesh, among the rolling savannahs that dominate the nation's interior. You spent many of your youth exploring these vast reaches, and know much of the savannah's secrets.</Pair>
+<Pair single="benefit" id="savanna-child-benefit">Pick one of the following skills: <Link to="/skill/handle_animal">Handle Animal</Link>, <Link to="/skill/knowledge_nature">Knowledge (nature)</Link>, or <Link to="/skill/ride">Ride</Link>. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _scion_of_goblinblood = {title: "Scion of Goblinblood", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion</Link></p>
@@ -2947,7 +3012,8 @@ const _scion_of_goblinblood = {title: "Scion of Goblinblood", topLink: ["Regiona
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Isger</Pair>
 <Pair title="Requirements" hl><Link to="/race/goblin">Goblin</Link></Pair>
-<Pair single="benefit" id="scion-of-goblinblood-benefit">The fury of the Goblinblood Wars still courses through your veins. Whenever you're within 60 feet of an enemy hobgoblin, you gain a +1 trait bonus on all weapon damage rolls.</Pair>
+<Pair single="flavor" id="scion-of-goblinblood-flavor">The fury of the Goblinblood Wars still courses through your veins.</Pair>
+<Pair single="benefit" id="scion-of-goblinblood-benefit">Whenever you're within 60 feet of an enemy hobgoblin, you gain a +1 trait bonus on all weapon damage rolls.</Pair>
 </Ability>
 </>};
 const _scion_of_the_shory = {title: "Scion of the Shory", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
@@ -2955,24 +3021,27 @@ const _scion_of_the_shory = {title: "Scion of the Shory", topLink: ["Regional Tr
 <Pair single id="scion-of-the-shory">Scion of the Shory</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse</Pair>
-<Pair single="benefit" id="scion-of-the-shory-benefit">The blood of a Shory aeromancer flows through your veins. You gain a +2 bonus on <Link to="/rule/concentration">concentration</Link> checks when casting flight spells such as <Link to="/spell/levitate">levitate</Link>, <Link to="/spell/fly">fly</Link>, or <Link to="/spell/overland_flight">overland flight</Link>. Once per day, you can use <Link to="/spell/message">message</Link> as a spell-like ability.</Pair>
+<Pair single="flavor" id="scion-of-the-shory-flavor">The blood of a Shory aeromancer flows through your veins.</Pair>
+<Pair single="benefit" id="scion-of-the-shory-benefit">You gain a +2 bonus on <Link to="/rule/concentration">concentration</Link> checks when casting flight spells such as <Link to="/spell/levitate">levitate</Link>, <Link to="/spell/fly">fly</Link>, or <Link to="/spell/overland_flight">overland flight</Link>. Once per day, you can use <Link to="/spell/message">message</Link> as a spell-like ability.</Pair>
 </Ability>
 </>};
-const _scourge_of_the_seas = {title: "Scourge of the Seas", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
+const _scourge_of_the_seas = {title: "Scourge of the Seas", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link>, <Link to="/source/inner_sea_npc_codex">Inner Sea NPC Codex pg. 20</Link></p>
 <Ability id="scourge-of-the-seas" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="scourge-of-the-seas">Scourge of the Seas</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
-<Pair single="benefit" id="scourge-of-the-seas-benefit">You have long appreciated the flamboyance and versatility of the whip, both as a weapon and a tool for enforcing discipline. When you wield a whip or scourge, you gain a +1 trait bonus on Intimidate checks. Additionally, once per day when you use a whip or scourge to perform a successful disarm or trip combat maneuver against an opponent, you regain 1 point of grit or panache.</Pair>
+<Pair single="flavor" id="scourge-of-the-seas-flavor">You have long appreciated the flamboyance and versatility of the whip, both as a weapon and a tool for enforcing discipline.</Pair>
+<Pair single="benefit" id="scourge-of-the-seas-benefit">When you wield a whip or scourge, you gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks. Additionally, once per day when you use a <Link to="/eq-weapon/whip">whip</Link> or <em>scourge</em> to perform a successful <Link to="/rule/disarm">disarm</Link> or <Link to="/rule/trip">trip</Link> combat maneuver against an opponent, you regain 1 point of grit or panache.</Pair>
 </Ability>
-</>};
+<aside><p>There are no official stats for a scourge, but the <Link to="/npc/duergar_slaver">Duergar Slaver</Link> describes a scourge as "a <Link to="/eq-weapon/cat_o_nine_tails">cat-o'-nine-tails</Link> that deals lethal damage." &mdash; <Link to="/source/inner_sea_npc_codex">Inner Sea NPC Codex pg. 20</Link></p>
+</aside></>};
 const _scrambling_servant = {title: "Scrambling Servant", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
 <Ability id="scrambling-servant" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="scrambling-servant">Scrambling Servant</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>mountains</Pair>
 <Pair single="flavor" id="scrambling-servant-flavor">You were hired or captured by giants and found yourself frequently scrambling up and down giant-sized furniture or slave pit walls. As a result, you are an agile climber.</Pair>
-<Pair single="benefit" id="scrambling-servant-benefit"><p>You retain your Dexterity bonus to Armor Class while climbing and gain a +1 trait bonus on Climb checks.</p>
+<Pair single="benefit" id="scrambling-servant-benefit"><p>You retain your Dexterity bonus to Armor Class while climbing and gain a +1 trait bonus on <Link to="/skill/climb">Climb</Link> checks.</p>
 <p><strong>Likely Regions:</strong> Osirion, Rahadoum, the Shackles, Thuvia, Varisia.</p>
 <p><strong>Likely giants:</strong> Cave, Fire, River, Slag, Storm</p>
 </Pair>
@@ -2983,7 +3052,8 @@ const _screaming_leap = {title: "Screaming Leap", topLink: ["Regional Traits","m
 <Pair single id="screaming-leap">Screaming Leap</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Realm of the Mammoth Lords</Pair>
-<Pair single="benefit" id="screaming-leap-benefit">The rocky foothills of your homeland are ideal for staging leaping ambushes that leave your victims battered and routed. You gain a +1 trait bonus on melee damage rolls when you make a charge attack from higher ground. Once per day, when you make a charge attack from higher ground, you can use the Intimidate skill to demoralize your target as a swift action.</Pair>
+<Pair single="flavor" id="screaming-leap-flavor">The rocky foothills of your homeland are ideal for staging leaping ambushes that leave your victims battered and routed.</Pair>
+<Pair single="benefit" id="screaming-leap-benefit">You gain a +1 trait bonus on melee damage rolls when you make a <Link to="/rule/charge">charge</Link> attack from higher ground. Once per day, when you make a charge attack from higher ground, you can use the <Link to="/skill/intimidate">Intimidate</Link> skill to demoralize your target as a <strong className="hl">swift action</strong>.</Pair>
 </Ability>
 </>};
 const _sea_souled = {title: "Sea-Souled", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
@@ -2991,7 +3061,8 @@ const _sea_souled = {title: "Sea-Souled", topLink: ["Regional Traits","main/trai
 <Pair single id="sea-souled">Sea-Souled</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>coastal or island</Pair>
-<Pair single="benefit" id="sea-souled-benefit">You are at home at sea. You receive a +1 trait bonus on Swim checks, and you can always take 10 while Swimming.</Pair>
+<Pair single="flavor" id="sea-souled-flavor">You are at home at sea.</Pair>
+<Pair single="benefit" id="sea-souled-benefit">You receive a +1 trait bonus on <Link to="/skill/swim">Swim</Link> checks, and you can always take 10 while Swimming.</Pair>
 </Ability>
 </>};
 const _seasoned_climber = {title: "Seasoned Climber", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -2999,7 +3070,8 @@ const _seasoned_climber = {title: "Seasoned Climber", topLink: ["Regional Traits
 <Pair single id="seasoned-climber">Seasoned Climber</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Wall of Heaven</Pair>
-<Pair single="benefit" id="seasoned-climber-benefit">Your time on the slopes of the Wall of Heaven has improved your ability to surmount great peaks. You gain a +1 trait bonus on Climb checks, and Climb becomes a class skill for you.</Pair>
+<Pair single="flavor" id="seasoned-climber-flavor">Your time on the slopes of the Wall of Heaven has improved your ability to surmount great peaks.</Pair>
+<Pair single="benefit" id="seasoned-climber-benefit">You gain a +1 trait bonus on <Link to="/skill/climb">Climb</Link> checks, and Climb becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _secret_revolutionary = {title: "Secret Revolutionary", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3007,7 +3079,8 @@ const _secret_revolutionary = {title: "Secret Revolutionary", topLink: ["Regiona
 <Pair single id="secret-revolutionary">Secret Revolutionary</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cheliax</Pair>
-<Pair single="benefit" id="secret-revolutionary-benefit">You seek to return Cheliax to its heyday before the rise of the House of the Thrune. You have trained yourself to resist any questioning or torture should you ever be caught. You gain a +1 trait bonus on Will saves against mind-affecting effects, and on Fortitude saves against drugs or poisons.</Pair>
+<Pair single="flavor" id="secret-revolutionary-flavor">You seek to return Cheliax to its heyday before the rise of the House of the Thrune. You have trained yourself to resist any questioning or torture should you ever be caught.</Pair>
+<Pair single="benefit" id="secret-revolutionary-benefit">You gain a +1 trait bonus on Will saves against mind-affecting effects, and on Fortitude saves against drugs or poisons.</Pair>
 </Ability>
 </>};
 const _secret_of_the_impossible_kingdom = {title: "Secret of the Impossible Kingdom", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3015,7 +3088,8 @@ const _secret_of_the_impossible_kingdom = {title: "Secret of the Impossible King
 <Pair single id="secret-of-the-impossible-kingdom">Secret of the Impossible Kingdom</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Jalmeray</Pair>
-<Pair single="benefit" id="secret-of-the-impossible-kingdom-benefit">You have studied the ancient lore of Vudra at a monastery in Jalmeray, and have learned a mystical secret that empowers your spellcasting. Pick one spell when you choose this trait - from this point on, whenever you cast that spell, you do so at +1 caster level.</Pair>
+<Pair single="flavor" id="secret-of-the-impossible-kingdom-flavor">You have studied the ancient lore of Vudra at a monastery in Jalmeray, and have learned a mystical secret that empowers your spellcasting.</Pair>
+<Pair single="benefit" id="secret-of-the-impossible-kingdom-benefit">Pick one spell when you choose this trait - from this point on, whenever you cast that spell, you do so at +1 caster level.</Pair>
 </Ability>
 </>};
 const _servitor_of_spirits = {title: "Servitor of Spirits", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
@@ -3023,7 +3097,10 @@ const _servitor_of_spirits = {title: "Servitor of Spirits", topLink: ["Regional 
 <Pair single id="servitor-of-spirits">Servitor of Spirits</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Tian Xia</Pair>
-<Pair single="benefit" id="servitor-of-spirits-benefit">For as long as you can remember, the spirits have always whispered into your ears and guided you-provided that you appease them. At the start of each day, you can choose one <Link to="/ability/spirits">medium spirit</Link> and accept one of its taboos for 24 hours. As long as you don't break that taboo, once during the next 24 hours, you can add a +1 trait bonus to any one roll, check, or saving throw (but not to AC) listed under your chosen spirit's spirit bonus. Using this ability is a free action that you can use even if it isn't your turn. If you are a medium, the spirit you choose with this trait must be the same as the spirit you are channeling and vice versa</Pair>
+<Pair single="flavor" id="servitor-of-spirits-flavor">For as long as you can remember, the spirits have always whispered into your ears and guided you-provided that you appease them.</Pair>
+<Pair single="benefit" id="servitor-of-spirits-benefit"><p>At the start of each day, you can choose one <Link to="/ability/spirits">medium spirit</Link> and accept one of its <em>taboos</em> for 24 hours. As long as you don't break that <em>taboo,</em> once during the next 24 hours, you can add a +1 trait bonus to any one roll, check, or saving throw (but not to AC) listed under your chosen spirit's <em>spirit bonus.</em> Using this ability is a <strong className="hl">free action</strong> that you can use even if it isn't your turn.</p>
+<p>If you are a <Link to="/class/medium">medium</Link>, the spirit you choose with this trait must be the same as the spirit you are channeling and vice versa</p>
+</Pair>
 </Ability>
 </>};
 const _sevenarches_seeker = {title: "Sevenarches Seeker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
@@ -3031,7 +3108,8 @@ const _sevenarches_seeker = {title: "Sevenarches Seeker", topLink: ["Regional Tr
 <Pair single id="sevenarches-seeker">Sevenarches Seeker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Sevenarches</Pair>
-<Pair single="benefit" id="sevenarches-seeker-benefit">You've long heard rumors about the mysterious archways of Sevenarches and have spent much of your life trying to unravel the mysteries behind the portals. You gain a +1 trait bonus on Knowledge (history) checks and Perception checks to notice secret doors, and Knowledge (history) becomes a class skill for you.</Pair>
+<Pair single="flavor" id="sevenarches-seeker-flavor">You've long heard rumors about the mysterious archways of Sevenarches and have spent much of your life trying to unravel the mysteries behind the portals.</Pair>
+<Pair single="benefit" id="sevenarches-seeker-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_history">Knowledge (history)</Link> checks and <Link to="/skill/perception">Perception</Link> checks to notice secret doors, and Knowledge (history) becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _shackles_seafarer = {title: "Shackles Seafarer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3039,7 +3117,8 @@ const _shackles_seafarer = {title: "Shackles Seafarer", topLink: ["Regional Trai
 <Pair single id="shackles-seafarer">Shackles Seafarer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
-<Pair single="benefit" id="shackles-seafarer-benefit">You're familiar with the treacherous coastlines, currents, and tides of the Shackles, and can use that knowledge anywhere. You gain a +1 trait bonus on Knowledge (nature) and Knowledge (geography) checks while on the ocean. You also gain a +1 trait bonus on Swim checks, and Swim is always a class skill for you.</Pair>
+<Pair single="flavor" id="shackles-seafarer-flavor">You're familiar with the treacherous coastlines, currents, and tides of the Shackles, and can use that knowledge anywhere.</Pair>
+<Pair single="benefit" id="shackles-seafarer-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> and <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> checks while on the ocean. You also gain a +1 trait bonus on <Link to="/skill/swim">Swim</Link> checks, and Swim is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _shadow_dealer = {title: "Shadow Dealer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
@@ -3047,7 +3126,8 @@ const _shadow_dealer = {title: "Shadow Dealer", topLink: ["Regional Traits","mai
 <Pair single id="shadow-dealer">Shadow Dealer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
-<Pair single="benefit" id="shadow-dealer-benefit">You have survived and thrived in the dark forests of Ustalav by knowing how to make deals with terrible things. You gain a +1 trait bonus on saving throws against fear effects and a +1 trait bonus on Bluff and Diplomacy skills checks against evil fey, monstrous humanoids, and undead.</Pair>
+<Pair single="flavor" id="shadow-dealer-flavor">You have survived and thrived in the dark forests of Ustalav by knowing how to make deals with terrible things.</Pair>
+<Pair single="benefit" id="shadow-dealer-benefit">You gain a +1 trait bonus on saving throws against fear effects and a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/diplomacy">Diplomacy</Link> skills checks against evil fey, monstrous humanoids, and undead.</Pair>
 </Ability>
 </>};
 const _shadow_dissident = {title: "Shadow Dissident", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link></p>
@@ -3055,7 +3135,8 @@ const _shadow_dissident = {title: "Shadow Dissident", topLink: ["Regional Traits
 <Pair single id="shadow-dissident">Shadow Dissident</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nidal</Pair>
-<Pair single="benefit" id="shadow-dissident-benefit">Lifelong encounters with conjured shadows have made you especially adept at piercing their dark veils. You gain a +2 trait bonus on saving throws against spells and effects with the shadow descriptor.</Pair>
+<Pair single="flavor" id="shadow-dissident-flavor">Lifelong encounters with conjured shadows have made you especially adept at piercing their dark veils.</Pair>
+<Pair single="benefit" id="shadow-dissident-benefit">You gain a +2 trait bonus on saving throws against spells and effects with the shadow descriptor.</Pair>
 </Ability>
 </>};
 const _shadow_shaman = {title: "Shadow Shaman", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
@@ -3063,7 +3144,8 @@ const _shadow_shaman = {title: "Shadow Shaman", topLink: ["Regional Traits","mai
 <Pair single id="shadow-shaman">Shadow Shaman</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nidal</Pair>
-<Pair single="benefit" id="shadow-shaman-benefit">Shamans in the shadowy kingdom of Nidal learn to speak with the spirits that live in shadow. Add silent image and blur to your shaman spell list as 1st- and 2nd-level spells, respectively.</Pair>
+<Pair single="flavor" id="shadow-shaman-flavor">Shamans in the shadowy kingdom of Nidal learn to speak with the spirits that live in shadow.</Pair>
+<Pair single="benefit" id="shadow-shaman-benefit">Add <Link to="/spell/silent_image">silent image</Link> and <Link to="/spell/blur">blur</Link> to your shaman spell list as 1st- and 2nd-level spells, respectively.</Pair>
 </Ability>
 </>};
 const _shadowsight = {title: "Shadowsight", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
@@ -3071,7 +3153,8 @@ const _shadowsight = {title: "Shadowsight", topLink: ["Regional Traits","main/tr
 <Pair single id="shadowsight">Shadowsight</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nidal</Pair>
-<Pair single="benefit" id="shadowsight-benefit">Your people's ancient compact with Zon-Kuthon manifests strongly in you. While the darkness remains fearsome, you can at least see what lurks there. As a swift action once per day, your eyes can pierce the surrounding darkness-you gain the benefit of low-light vision for a number of rounds equal to your level.</Pair>
+<Pair single="flavor" id="shadowsight-flavor">Your people's ancient compact with Zon-Kuthon manifests strongly in you. While the darkness remains fearsome, you can at least see what lurks there.</Pair>
+<Pair single="benefit" id="shadowsight-benefit">As a <strong className="hl">swift action</strong> once per day, your eyes can pierce the surrounding darkness - you gain the benefit of low-light vision for a number of rounds equal to your level.</Pair>
 </Ability>
 </>};
 const _shaer = {title: "Shaer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link></p>
@@ -3080,7 +3163,8 @@ const _shaer = {title: "Shaer", topLink: ["Regional Traits","main/traits_regiona
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
 <Pair title="Requirements" hl>Kelish</Pair>
-<Pair single="benefit" id="shaer-benefit">Qadira is a land of poetry, and you have grown up immersed in the words and language of that culture. Your facility with the language is evident to all when you speak. You gain a +2 trait bonus on Bluff and Diplomacy checks when speaking with anyone fluent in Kelish.</Pair>
+<Pair single="flavor" id="shaer-flavor">Qadira is a land of poetry, and you have grown up immersed in the words and language of that culture. Your facility with the language is evident to all when you speak.</Pair>
+<Pair single="benefit" id="shaer-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/diplomacy">Diplomacy</Link> checks when speaking with anyone fluent in Kelish.</Pair>
 </Ability>
 </>};
 const _sharp_eyes = {title: "Sharp Eyes", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
@@ -3088,7 +3172,7 @@ const _sharp_eyes = {title: "Sharp Eyes", topLink: ["Regional Traits","main/trai
 <Pair single id="sharp-eyes">Sharp Eyes</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>tundra</Pair>
-<Pair single="benefit" id="sharp-eyes-benefit">You are immune to the dazzled condition.</Pair>
+<Pair single="benefit" id="sharp-eyes-benefit">You are immune to the <Link to="/misc/dazzled">dazzled</Link> condition.</Pair>
 </Ability>
 </>};
 const _shenmen_prospector = {title: "Shenmen Prospector", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -3096,7 +3180,8 @@ const _shenmen_prospector = {title: "Shenmen Prospector", topLink: ["Regional Tr
 <Pair single id="shenmen-prospector">Shenmen Prospector</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Shenmen</Pair>
-<Pair single="benefit" id="shenmen-prospector-benefit">You were a talented laborer in the silver mines of Shenmen, and have seen many wonders in the haunted caverns beneath the surface of the cursed nation. You gain a +1 trait bonus on Appraise and Knowledge (dungeoneering) checks.</Pair>
+<Pair single="flavor" id="shenmen-prospector-flavor">You were a talented laborer in the silver mines of Shenmen, and have seen many wonders in the haunted caverns beneath the surface of the cursed nation.</Pair>
+<Pair single="benefit" id="shenmen-prospector-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> and <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> checks.</Pair>
 </Ability>
 </>};
 const _ship_aptitude = {title: "Ship Aptitude", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
@@ -3104,7 +3189,8 @@ const _ship_aptitude = {title: "Ship Aptitude", topLink: ["Regional Traits","mai
 <Pair single id="ship-aptitude">Ship Aptitude</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
-<Pair single="benefit" id="ship-aptitude-benefit">You are used to crewing on many of the different types of ships that sail the Shackles. As a result, you have a knack for quickly determining the weaknesses and strengths of any ship, even ones you've never set foot on before. You gain a +1 trait bonus on Profession (sailor) checks, and Profession (sailor) becomes a class skill for you.</Pair>
+<Pair single="flavor" id="ship-aptitude-flavor">You are used to crewing on many of the different types of ships that sail the Shackles. As a result, you have a knack for quickly determining the weaknesses and strengths of any ship, even ones you've never set foot on before.</Pair>
+<Pair single="benefit" id="ship-aptitude-benefit">You gain a +1 trait bonus on <Link to="/skill/profession">Profession</Link> (sailor) checks, and Profession (sailor) becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _shipboard_caster = {title: "Shipboard Caster", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
@@ -3112,7 +3198,8 @@ const _shipboard_caster = {title: "Shipboard Caster", topLink: ["Regional Traits
 <Pair single id="shipboard-caster">Shipboard Caster</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Riddleport</Pair>
-<Pair single="benefit" id="shipboard-caster-benefit">You feel an affinity with ships and the sea, and the rolling rhythm of the waves helps focus your mind. When on a ship or other water-going vessel, you gain a +3 bonus on <Link to="/rule/concentration">concentration</Link> checks.</Pair>
+<Pair single="flavor" id="shipboard-caster-flavor">You feel an affinity with ships and the sea, and the rolling rhythm of the waves helps focus your mind.</Pair>
+<Pair single="benefit" id="shipboard-caster-benefit">When on a ship or other water-going vessel, you gain a +3 bonus on <Link to="/rule/concentration">concentration</Link> checks.</Pair>
 </Ability>
 </>};
 const _shoanti_tribesman = {title: "Shoanti Tribesman", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3120,7 +3207,8 @@ const _shoanti_tribesman = {title: "Shoanti Tribesman", topLink: ["Regional Trai
 <Pair single id="shoanti-tribesman">Shoanti Tribesman</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
-<Pair single="benefit" id="shoanti-tribesman-benefit">You were born or adopted into a Shoanti tribe. Choose one of the following skills: Climb, Survival, or Swim. You gain a +1 trait bonus on this skill, and it is always a class skill for you.</Pair>
+<Pair single="flavor" id="shoanti-tribesman-flavor">You were born or adopted into a Shoanti tribe.</Pair>
+<Pair single="benefit" id="shoanti-tribesman-benefit">Choose one of the following skills: <Link to="/skill/climb">Climb</Link>, <Link to="/skill/survival">Survival</Link>, or <Link to="/skill/swim">Swim</Link>. You gain a +1 trait bonus on this skill, and it is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _signaler = {title: "Signaler", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3128,7 +3216,7 @@ const _signaler = {title: "Signaler", topLink: ["Regional Traits","main/traits_r
 <Pair single id="signaler">Signaler</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Molthune</Pair>
-<Pair single="benefit" id="signaler-benefit">By watching Imperial troops, you know how to use flags, smoke signals, and other methods to send secret messages, and gain a +5 trait bonus on Bluff checks to receive secret messages and a +5 trait bonus on Sense Motive checks to intercept messages.</Pair>
+<Pair single="benefit" id="signaler-benefit">By watching Imperial troops, you know how to use flags, smoke signals, and other methods to send secret messages, and gain a +5 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks to receive secret messages and a +5 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to intercept messages.</Pair>
 </Ability>
 </>};
 const _silent_watcher = {title: "Silent Watcher", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3136,7 +3224,8 @@ const _silent_watcher = {title: "Silent Watcher", topLink: ["Regional Traits","m
 <Pair single id="silent-watcher">Silent Watcher</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Galt</Pair>
-<Pair single="benefit" id="silent-watcher-benefit">You can sense an ugly mood brewing in a crowd, and know how to dodge wrathful mobs when they seek victims for their anger. You gain a +1 trait bonus on Sense Motive checks in crowds, and a +1 trait bonus on Stealth checks in city streets.</Pair>
+<Pair single="flavor" id="silent-watcher-flavor">You can sense an ugly mood brewing in a crowd, and know how to dodge wrathful mobs when they seek victims for their anger.</Pair>
+<Pair single="benefit" id="silent-watcher-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks in crowds, and a +1 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks in city streets.</Pair>
 </Ability>
 </>};
 const _silvertongued_eunuch = {title: "Silvertongued Eunuch", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -3144,7 +3233,8 @@ const _silvertongued_eunuch = {title: "Silvertongued Eunuch", topLink: ["Regiona
 <Pair single id="silvertongued-eunuch">Silvertongued Eunuch</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Quain</Pair>
-<Pair single="benefit" id="silvertongued-eunuch-benefit">You were brought up as part of Quain's strictly eunuch bureaucracy, trading your sexual potency for education and tact. You gain a +1 trait bonus on Knowledge (nobility) and Diplomacy checks.</Pair>
+<Pair single="flavor" id="silvertongued-eunuch-flavor">You were brought up as part of Quain's strictly eunuch bureaucracy, trading your sexual potency for education and tact.</Pair>
+<Pair single="benefit" id="silvertongued-eunuch-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> and <Link to="/skill/diplomacy">Diplomacy</Link> checks.</Pair>
 </Ability>
 </>};
 const _skilled_surgeon = {title: "Skilled Surgeon", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
@@ -3152,7 +3242,8 @@ const _skilled_surgeon = {title: "Skilled Surgeon", topLink: ["Regional Traits",
 <Pair single id="skilled-surgeon">Skilled Surgeon</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira or Ustalav</Pair>
-<Pair single="benefit" id="skilled-surgeon-benefit">Whenever you perform surgery or otherwise must deal damage to remove a condition or affliction, you roll the damage but use the minimum result unless you rolled the maximum result. The amount of hit points or points of ability damage restored each day when you provide long-term care is increased by 1.</Pair>
+<Pair single="flavor" id="skilled-surgeon-flavor">Whenever you perform surgery or otherwise must deal damage to remove a condition or affliction, you roll the damage but use the minimum result unless you rolled the maximum result.</Pair>
+<Pair single="benefit" id="skilled-surgeon-benefit">The amount of hit points or points of ability damage restored each day when you provide long-term care is increased by 1.</Pair>
 </Ability>
 </>};
 const _sky_spirit_worshipper = {title: "Sky Spirit Worshipper", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -3160,7 +3251,8 @@ const _sky_spirit_worshipper = {title: "Sky Spirit Worshipper", topLink: ["Regio
 <Pair single id="sky-spirit-worshipper">Sky Spirit Worshipper</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mutabi-qi</Pair>
-<Pair single="benefit" id="sky-spirit-worshipper-benefit">As the child of a Mutabi-qi shaman, you have seen the sky spirits that roam above and know that the world is rife with unexplainable and terrifying mysteries. You gain a +2 trait bonus on saves against fear effects.</Pair>
+<Pair single="flavor" id="sky-spirit-worshipper-flavor">As the child of a Mutabi-qi shaman, you have seen the sky spirits that roam above and know that the world is rife with unexplainable and terrifying mysteries.</Pair>
+<Pair single="benefit" id="sky-spirit-worshipper-benefit">You gain a +2 trait bonus on saves against fear effects.</Pair>
 </Ability>
 </>};
 const _skymetal_affinity = {title: "Skymetal Affinity", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
@@ -3168,7 +3260,7 @@ const _skymetal_affinity = {title: "Skymetal Affinity", topLink: ["Regional Trai
 <Pair single id="skymetal-affinity">Skymetal Affinity</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Numeria</Pair>
-<Pair single="benefit" id="skymetal-affinity-benefit">You gain a +2 trait bonus on Fortitude saves against the negative effects of <Link to="/eq-material/skymetal">skymetals</Link>, as well as a +2 trait bonus on Craft checks made to create weapons or armor out of skymetals.</Pair>
+<Pair single="benefit" id="skymetal-affinity-benefit">You gain a +2 trait bonus on Fortitude saves against the negative effects of <Link to="/eq-material/skymetal">skymetals</Link>, as well as a +2 trait bonus on <Link to="/skill/craft">Craft</Link> checks made to create weapons or armor out of skymetals.</Pair>
 </Ability>
 </>};
 const _slave_taker = {title: "Slave Taker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
@@ -3176,7 +3268,8 @@ const _slave_taker = {title: "Slave Taker", topLink: ["Regional Traits","main/tr
 <Pair single id="slave-taker">Slave Taker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Okeno</Pair>
-<Pair single="benefit" id="slave-taker-benefit">You specialize in disabling foes without wounding them, preserving their value as slaves. Whenever you deal nonlethal damage in combat, that damage increases by +1.</Pair>
+<Pair single="flavor" id="slave-taker-flavor">You specialize in disabling foes without wounding them, preserving their value as slaves.</Pair>
+<Pair single="benefit" id="slave-taker-benefit">Whenever you deal nonlethal damage in combat, that damage increases by +1.</Pair>
 </Ability>
 </>};
 const _slayer_of_the_deep = {title: "Slayer of the Deep", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -3184,7 +3277,8 @@ const _slayer_of_the_deep = {title: "Slayer of the Deep", topLink: ["Regional Tr
 <Pair single id="slayer-of-the-deep">Slayer of the Deep</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands beneath Tian Xia</Pair>
-<Pair single="benefit" id="slayer-of-the-deep-benefit">You have hunted monsters throughout the Darklands and know how to take advantage of their weaknesses. You gain a +1 trait bonus on damage rolls made against creatures of the aberration type.</Pair>
+<Pair single="flavor" id="slayer-of-the-deep-flavor">You have hunted monsters throughout the Darklands and know how to take advantage of their weaknesses.</Pair>
+<Pair single="benefit" id="slayer-of-the-deep-benefit">You gain a +1 trait bonus on damage rolls made against creatures of the aberration type.</Pair>
 </Ability>
 </>};
 const _snake_bleeder = {title: "Snake Bleeder", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -3192,7 +3286,8 @@ const _snake_bleeder = {title: "Snake Bleeder", topLink: ["Regional Traits","mai
 <Pair single id="snake-bleeder">Snake Bleeder</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nagajor</Pair>
-<Pair single="benefit" id="snake-bleeder-benefit">You were a nagaji vassal of knowledgeable nagas, and they taught you much regarding how they concoct their various poisons. You gain a +2 trait bonus on Craft (alchemy) checks when brewing poisons, and Craft (alchemy) becomes a class skill for you.</Pair>
+<Pair single="flavor" id="snake-bleeder-flavor">You were a nagaji vassal of knowledgeable nagas, and they taught you much regarding how they concoct their various poisons.</Pair>
+<Pair single="benefit" id="snake-bleeder-benefit">You gain a +2 trait bonus on <Link to="/skill/craft">Craft</Link> (alchemy) checks when brewing poisons, and Craft (alchemy) becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _snake_handler = {title: "Snake Handler", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link></p>
@@ -3201,7 +3296,8 @@ const _snake_handler = {title: "Snake Handler", topLink: ["Regional Traits","mai
 <Pair title="Type">Regional</Pair>
 <Pair title="Religion" hl><Link to="/faith/apep">Apep</Link> or <Link to="/faith/wadjet">Wadjet</Link></Pair>
 <Pair title="Region" hl>Osirion</Pair>
-<Pair single="benefit" id="snake-handler-benefit">You have spent time as a member of a cult of either Apep or Wadjet, the serpent gods of Osirion. Membership involved the handling of dangerous snakes during rituals, and you have learned how to keep yourself and others safe around them. You gain a +2 bonus on Fortitude saves against poison. Handle Animal is always a class skill for you.</Pair>
+<Pair single="flavor" id="snake-handler-flavor">You have spent time as a member of a cult of either Apep or Wadjet, the serpent gods of Osirion. Membership involved the handling of dangerous snakes during rituals, and you have learned how to keep yourself and others safe around them.</Pair>
+<Pair single="benefit" id="snake-handler-benefit">You gain a +2 bonus on Fortitude saves against poison. <Link to="/skill/handle_animal">Handle Animal</Link> is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _snowstride = {title: "Snowstride", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -3209,7 +3305,7 @@ const _snowstride = {title: "Snowstride", topLink: ["Regional Traits","main/trai
 <Pair single id="snowstride">Snowstride</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands</Pair>
-<Pair single="benefit" id="snowstride-benefit">The wide stance and sure footing you developed while traipsing over ice-covered rock and frozen earth provides you with a +1 trait bonus on Acrobatics checks made on slippery surfaces and enables you to trip or bull rush opponents two size categories larger than you instead of just one.</Pair>
+<Pair single="benefit" id="snowstride-benefit">The wide stance and sure footing you developed while traipsing over ice-covered rock and frozen earth provides you with a +1 trait bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks made on slippery surfaces and enables you to <Link to="/rule/trip">trip</Link> or <Link to="/rule/bull_rush">bull rush</Link> opponents two size categories larger than you instead of just one.</Pair>
 </Ability>
 </>};
 const _social_slaver = {title: "Social Slaver", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
@@ -3217,7 +3313,8 @@ const _social_slaver = {title: "Social Slaver", topLink: ["Regional Traits","mai
 <Pair single id="social-slaver">Social Slaver</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Cheliax</Pair>
-<Pair single="benefit" id="social-slaver-benefit">Your upbringing has accustomed you to commanding those you deem inferior. You gain a +2 trait bonus on Intimidate checks against creatures one or more size categories smaller than yourself. The DC of compulsion spells cast by you against smaller creatures increases by 1.</Pair>
+<Pair single="flavor" id="social-slaver-flavor">Your upbringing has accustomed you to commanding those you deem inferior.</Pair>
+<Pair single="benefit" id="social-slaver-benefit">You gain a +2 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks against creatures one or more size categories smaller than yourself. The DC of compulsion spells cast by you against smaller creatures increases by 1.</Pair>
 </Ability>
 </>};
 const _sodden_chld = {title: "Sodden Chld", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
@@ -3225,7 +3322,8 @@ const _sodden_chld = {title: "Sodden Chld", topLink: ["Regional Traits","main/tr
 <Pair single id="sodden-chld">Sodden Chld</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Sodden Lands</Pair>
-<Pair single="benefit" id="sodden-chld-benefit">You spent most of your life moving through murky bogs and have grown acclimated to the terrain. You move normally through shallow bogs (as long as the terrain hasn't been magically manipulated) but are still affected by deep bogs as normal.</Pair>
+<Pair single="flavor" id="sodden-chld-flavor">You spent most of your life moving through murky bogs and have grown acclimated to the terrain.</Pair>
+<Pair single="benefit" id="sodden-chld-benefit">You move normally through shallow bogs (as long as the terrain hasn't been magically manipulated) but are still affected by <Link to="/rule/deep_bog">deep bogs</Link> as normal.</Pair>
 </Ability>
 </>};
 const _soldier_of_the_faith = {title: "Soldier of the Faith", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3233,7 +3331,8 @@ const _soldier_of_the_faith = {title: "Soldier of the Faith", topLink: ["Regiona
 <Pair single id="soldier-of-the-faith">Soldier of the Faith</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Razmiran</Pair>
-<Pair single="benefit" id="soldier-of-the-faith-benefit">You have served Razmir as a faithful enforcer, or upon one of the "faith barges" plying the waters of Lake Encarthan, and have learned the enforcement techniques of Razmiran. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you.</Pair>
+<Pair single="flavor" id="soldier-of-the-faith-flavor">You have served Razmir as a faithful enforcer, or upon one of the "faith barges" plying the waters of Lake Encarthan, and have learned the enforcement techniques of Razmiran.</Pair>
+<Pair single="benefit" id="soldier-of-the-faith-benefit">You gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks, and Intimidate is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _solidarity = {title: "Solidarity", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -3241,7 +3340,8 @@ const _solidarity = {title: "Solidarity", topLink: ["Regional Traits","main/trai
 <Pair single id="solidarity">Solidarity</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>City of Brass</Pair>
-<Pair single="benefit" id="solidarity-benefit">While enslaved in the City of Brass, you watched too many of your friends fall victim to efreet tempers. Now, you help others avoid thorny situations whenever you are able. Any time you successfully use the aid another action to help an ally succeed at a Bluff or Escape Artist check, you add a +3 bonus to this check (rather than a +2 bonus).</Pair>
+<Pair single="flavor" id="solidarity-flavor">While enslaved in the City of Brass, you watched too many of your friends fall victim to efreet tempers. Now, you help others avoid thorny situations whenever you are able.</Pair>
+<Pair single="benefit" id="solidarity-benefit">Any time you successfully use the <Link to="/rule/aid_another">aid another</Link> action to help an ally succeed at a <Link to="/skill/bluff">Bluff</Link> or <Link to="/skill/escape_artist">Escape Artist</Link> check, you add a +3 bonus to this check (rather than a +2 bonus).</Pair>
 </Ability>
 </>};
 const _sophisticated_citizen = {title: "Sophisticated Citizen", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest</Link></p>
@@ -3249,7 +3349,8 @@ const _sophisticated_citizen = {title: "Sophisticated Citizen", topLink: ["Regio
 <Pair single id="sophisticated-citizen">Sophisticated Citizen</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Absalom</Pair>
-<Pair single="benefit" id="sophisticated-citizen-benefit">You grew up in Absalom, and as a child you learned trivia about people and places from all across the world. Choose Knowledge (geography), Knowledge (local), or Sense Motive; that skill is a class skill for you. In addition, you know one additional bonus language.</Pair>
+<Pair single="flavor" id="sophisticated-citizen-flavor">You grew up in Absalom, and as a child you learned trivia about people and places from all across the world.</Pair>
+<Pair single="benefit" id="sophisticated-citizen-benefit">Choose <Link to="/skill/knowledge_geography">Knowledge (geography)</Link>, <Link to="/skill/knowledge_local">Knowledge (local)</Link>, or <Link to="/skill/sense_motive">Sense Motive</Link>; that skill is a class skill for you. In addition, you know one additional bonus language.</Pair>
 </Ability>
 </>};
 const _sound_of_mind = {title: "Sound of Mind", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -3257,7 +3358,8 @@ const _sound_of_mind = {title: "Sound of Mind", topLink: ["Regional Traits","mai
 <Pair single id="sound-of-mind">Sound of Mind</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Zi Ha</Pair>
-<Pair single="benefit" id="sound-of-mind-benefit">You have lived in the mountains of Zi Ha and found utter tranquility among the samsarans of the region. You gain a +2 trait bonus on saving throws against mind-affecting effects.</Pair>
+<Pair single="flavor" id="sound-of-mind-flavor">You have lived in the mountains of Zi Ha and found utter tranquility among the samsarans of the region.</Pair>
+<Pair single="benefit" id="sound-of-mind-benefit">You gain a +2 trait bonus on saving throws against mind-affecting effects.</Pair>
 </Ability>
 </>};
 const _spell_duel_prodigy = {title: "Spell Duel Prodigy", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
@@ -3265,7 +3367,8 @@ const _spell_duel_prodigy = {title: "Spell Duel Prodigy", topLink: ["Regional Tr
 <Pair single id="spell-duel-prodigy">Spell Duel Prodigy</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Erages</Pair>
-<Pair single="benefit" id="spell-duel-prodigy-benefit">You've participated in many spell duels during your time at Erages Academy, and You've developed a keen talent for identifying magical arts. You gain a +2 trait bonus on Spellcraft checks to identify a spell as it is being cast and on dispel checks to counterspell a spell.</Pair>
+<Pair single="flavor" id="spell-duel-prodigy-flavor">You've participated in many spell duels during your time at Erages Academy, and You've developed a keen talent for identifying magical arts.</Pair>
+<Pair single="benefit" id="spell-duel-prodigy-benefit">You gain a +2 trait bonus on <Link to="/skill/spellcraft">Spellcraft</Link> checks to identify a spell as it is being cast and on dispel checks to <Link to="/rule/counterspells">counterspell</Link> a spell.</Pair>
 </Ability>
 </>};
 const _spirit_animal = {title: "Spirit Animal", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
@@ -3288,7 +3391,8 @@ const _spiritual_forester = {title: "Spiritual Forester", topLink: ["Regional Tr
 <Pair single id="spiritual-forester">Spiritual Forester</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Forest of Spirits</Pair>
-<Pair single="benefit" id="spiritual-forester-benefit">You grew up in a small settlement along the outskirts of the Forest of Spirits, and have learned much about the woods as well as about their supernatural inhabitants. You gain a +1 trait bonus on Knowledge (nature) and Knowledge (planes) checks, and one of these skills becomes a class skill for you.</Pair>
+<Pair single="flavor" id="spiritual-forester-flavor">You grew up in a small settlement along the outskirts of the Forest of Spirits, and have learned much about the woods as well as about their supernatural inhabitants.</Pair>
+<Pair single="benefit" id="spiritual-forester-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> and <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> checks, and one of these skills becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _star_reader = {title: "Star Reader", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
@@ -3296,7 +3400,8 @@ const _star_reader = {title: "Star Reader", topLink: ["Regional Traits","main/tr
 <Pair single id="star-reader">Star Reader</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Sodden Lands</Pair>
-<Pair single="benefit" id="star-reader-benefit">You are one of the few remaining descendants of the lost civilization of Lirgen. Growing up learning of your people's history has granted you a fine understanding of celestial divination as well as a deep-seated hatred of the demon-worshiping monsters that have come to rule your ancestral lands. While under starlight, the caster level of all your divination spells is increased by 1. If the target of your spell is a demon, the caster level is increased by 2.</Pair>
+<Pair single="flavor" id="star-reader-flavor">You are one of the few remaining descendants of the lost civilization of Lirgen. Growing up learning of your people's history has granted you a fine understanding of celestial divination as well as a deep-seated hatred of the demon-worshiping monsters that have come to rule your ancestral lands.</Pair>
+<Pair single="benefit" id="star-reader-benefit">While under starlight, the caster level of all your divination spells is increased by 1. If the target of your spell is a <Link to="/family/demon">demon</Link>, the caster level is increased by 2.</Pair>
 </Ability>
 </>};
 const _stargazer_region = {title: "Stargazer (Region)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_ancients">Blood of the Ancients pg. 11</Link></p>
@@ -3304,7 +3409,7 @@ const _stargazer_region = {title: "Stargazer (Region)", topLink: ["Regional Trai
 <Pair single id="stargazer-region">Stargazer (Region)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lirgen</Pair>
-<Pair single="benefit" id="stargazer-region-benefit">Having spent your youth staring at the night sky, you gain a +1 trait bonus on Knowledge (arcana) and Knowledge (nature) checks. One of these skills becomes a class skill for you.</Pair>
+<Pair single="benefit" id="stargazer-region-benefit">Having spent your youth staring at the night sky, you gain a +1 trait bonus on <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> and <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> checks. One of these skills becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _storm_hunter = {title: "Storm Hunter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -3312,7 +3417,8 @@ const _storm_hunter = {title: "Storm Hunter", topLink: ["Regional Traits","main/
 <Pair single id="storm-hunter">Storm Hunter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Hongal</Pair>
-<Pair single="benefit" id="storm-hunter-benefit">You learned to hunt in the relentless winds of Hongal, and still make your arrows fly true. When fighting in windy weather, you treat the wind category as one level lower for the purposes of determining penalties on ranged attacks made with normal weapons.</Pair>
+<Pair single="flavor" id="storm-hunter-flavor">You learned to hunt in the relentless winds of Hongal, and still make your arrows fly true.</Pair>
+<Pair single="benefit" id="storm-hunter-benefit">When fighting in <Link to="/rule/wind">windy weather</Link>, you treat the wind category as one level lower for the purposes of determining penalties on ranged attacks made with normal weapons.</Pair>
 </Ability>
 </>};
 const _stormrunner = {title: "Stormrunner", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3320,7 +3426,7 @@ const _stormrunner = {title: "Stormrunner", topLink: ["Regional Traits","main/tr
 <Pair single id="stormrunner">Stormrunner</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
-<Pair single="benefit" id="stormrunner-benefit">You have sailed on some of the roughest seas on Golarion, and have skirted the Eye of Abendego. You're accustomed to the pitch and yaw of sailing vessels, even in a storm, and gain a +2 trait bonus on Acrobatics checks to keep your footing on uneven ground or unsteady surfaces.</Pair>
+<Pair single="benefit" id="stormrunner-benefit">You have sailed on some of the roughest seas on Golarion, and have skirted the Eye of Abendego. You're accustomed to the pitch and yaw of sailing vessels, even in a storm, and gain a +2 trait bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks to keep your footing on uneven ground or unsteady surfaces.</Pair>
 </Ability>
 </>};
 const _stream_nomad = {title: "Stream Nomad", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -3328,7 +3434,8 @@ const _stream_nomad = {title: "Stream Nomad", topLink: ["Regional Traits","main/
 <Pair single id="stream-nomad">Stream Nomad</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands</Pair>
-<Pair single="benefit" id="stream-nomad-benefit">Digging tunnels near a body of rushing water has taught you how to use water as a means of travel and escape. Others whisper that you must have been born with webbed feet. You gain a +1 trait bonus on Swim checks, and Swim is always a class skill for you. You increase the speed of any raft, barge, keelboat, or rowboat you pilot by 4 miles per day (1/2 mile per hour).</Pair>
+<Pair single="flavor" id="stream-nomad-flavor">Digging tunnels near a body of rushing water has taught you how to use water as a means of travel and escape. Others whisper that you must have been born with webbed feet.</Pair>
+<Pair single="benefit" id="stream-nomad-benefit">You gain a +1 trait bonus on <Link to="/skill/swim">Swim</Link> checks, and Swim is always a class skill for you. You increase the speed of any <Link to="/rule/water_vehicles">raft, barge, keelboat, or rowboat</Link> you pilot by 4 miles per day (1/2 mile per hour).</Pair>
 </Ability>
 </>};
 const _street_wary = {title: "Street Wary", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link></p>
@@ -3336,7 +3443,8 @@ const _street_wary = {title: "Street Wary", topLink: ["Regional Traits","main/tr
 <Pair single id="street-wary">Street Wary</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
-<Pair single="benefit" id="street-wary-benefit">You learned to take care of yourself on the streets and know the warning signs of hostile intent. Sense Motive is always a class skill for you, and you gain a +2 trait bonus on Sense Motive checks to get a hunch.</Pair>
+<Pair single="flavor" id="street-wary-flavor">You learned to take care of yourself on the streets and know the warning signs of hostile intent.</Pair>
+<Pair single="benefit" id="street-wary-benefit"><Link to="/skill/sense_motive">Sense Motive</Link> is always a class skill for you, and you gain a +2 trait bonus on Sense Motive checks to get a hunch.</Pair>
 </Ability>
 </>};
 const _suck_in_your_gut = {title: "Suck in Your Gut", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -3344,7 +3452,7 @@ const _suck_in_your_gut = {title: "Suck in Your Gut", topLink: ["Regional Traits
 <Pair single id="suck-in-your-gut">Suck in Your Gut</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands</Pair>
-<Pair single="benefit" id="suck-in-your-gut-benefit">Because of the frequent need to move through the tight tunnels and other narrow spaces surrounding your tribe's lair, you're able to move normally when squeezing and take only a -2 penalty on attack rolls and to AC.</Pair>
+<Pair single="benefit" id="suck-in-your-gut-benefit">Because of the frequent need to move through the tight tunnels and other narrow spaces surrounding your tribe's lair, you're able to move normally when <Link to="/misc/squeezing">squeezing</Link> and take only a -2 penalty on attack rolls and to AC.</Pair>
 </Ability>
 </>};
 const _sun_orchid_harvester = {title: "Sun Orchid Harvester", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook</Link></p>
@@ -3352,7 +3460,8 @@ const _sun_orchid_harvester = {title: "Sun Orchid Harvester", topLink: ["Regiona
 <Pair single id="sun-orchid-harvester">Sun Orchid Harvester</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
-<Pair single="benefit" id="sun-orchid-harvester-benefit">You were employed briefly by the blue dragon Deyrubrujuan's alchemist cabal to harvest sun orchids deep in the Thuvian desert. Though you never worked your way deeper into the cabal, you retain the knowledge gained during your employment. You gain a +1 bonus on Knowledge (nature) and Survival checks made in desert environments.</Pair>
+<Pair single="flavor" id="sun-orchid-harvester-flavor">You were employed briefly by the blue dragon Deyrubrujuan's alchemist cabal to harvest sun orchids deep in the Thuvian desert. Though you never worked your way deeper into the cabal, you retain the knowledge gained during your employment.</Pair>
+<Pair single="benefit" id="sun-orchid-harvester-benefit">You gain a +1 bonus on <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> and <Link to="/skill/survival">Survival</Link> checks made in desert environments.</Pair>
 </Ability>
 </>};
 const _sun_blasted = {title: "Sun-Blasted", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
@@ -3360,7 +3469,8 @@ const _sun_blasted = {title: "Sun-Blasted", topLink: ["Regional Traits","main/tr
 <Pair single id="sun-blasted">Sun-Blasted</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>desert</Pair>
-<Pair single="benefit" id="sun-blasted-benefit">Desert orcs have learnt to survive with practically nothing in the desert. You receive a +2 trait bonus on Survival checks made in a desert, and resolve all checks at becoming lost in deserts as though you had proper navigational tools (a +4 bonus). The presence of such tools does not increase your ability, however.</Pair>
+<Pair single="flavor" id="sun-blasted-flavor">Desert orcs have learnt to survive with practically nothing in the desert.</Pair>
+<Pair single="benefit" id="sun-blasted-benefit">You receive a +2 trait bonus on <Link to="/skill/survival">Survival</Link> checks made in a desert, and resolve all checks at becoming lost in deserts as though you had proper navigational tools (a +4 bonus). The presence of such tools does not increase your ability, however.</Pair>
 </Ability>
 </>};
 const _superstitious_isp = {title: "Superstitious (ISP)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3368,7 +3478,8 @@ const _superstitious_isp = {title: "Superstitious (ISP)", topLink: ["Regional Tr
 <Pair single id="superstitious-isp">Superstitious (ISP)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Realm of the Mammoth Lords</Pair>
-<Pair single="benefit" id="superstitious-isp-benefit">You are distrustful of any magic that goes beyond your native shamanic ways. As long as you do not possess any levels in a class that grants arcane spellcasting power, you gain a +1 trait bonus on all saving throws against arcane spells.</Pair>
+<Pair single="flavor" id="superstitious-isp-flavor">You are distrustful of any magic that goes beyond your native shamanic ways.</Pair>
+<Pair single="benefit" id="superstitious-isp-benefit">As long as you do not possess any levels in a class that grants arcane spellcasting power, you gain a +1 trait bonus on all saving throws against arcane spells.</Pair>
 </Ability>
 </>};
 const _superstitious_ward = {title: "Superstitious Ward", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3376,7 +3487,8 @@ const _superstitious_ward = {title: "Superstitious Ward", topLink: ["Regional Tr
 <Pair single id="superstitious-ward">Superstitious Ward</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
-<Pair single="benefit" id="superstitious-ward-benefit">You're not frightened of the old wives' tales of vampires and ghosts, and though you try to avoid the undead, you've learned how to deal with them. You may cast <Link to="/spell/disrupt_undead">disrupt undead</Link> once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st.</Pair>
+<Pair single="flavor" id="superstitious-ward-flavor">You're not frightened of the old wives' tales of vampires and ghosts, and though you try to avoid the undead, you've learned how to deal with them.</Pair>
+<Pair single="benefit" id="superstitious-ward-benefit">You may cast <Link to="/spell/disrupt_undead">disrupt undead</Link> once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st.</Pair>
 </Ability>
 </>};
 const _surefooted_ascent = {title: "Surefooted Ascent", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
@@ -3384,7 +3496,7 @@ const _surefooted_ascent = {title: "Surefooted Ascent", topLink: ["Regional Trai
 <Pair single id="surefooted-ascent">Surefooted Ascent</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>hills or mountains</Pair>
-<Pair single="benefit" id="surefooted-ascent-benefit">You gain a +1 trait bonus on Acrobatics and Climb checks.</Pair>
+<Pair single="benefit" id="surefooted-ascent-benefit">You gain a +1 trait bonus on <Link to="/skill/acrobatics">Acrobatics</Link> and <Link to="/skill/climb">Climb</Link> checks.</Pair>
 </Ability>
 </>};
 const _surface_stranger = {title: "Surface Stranger", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
@@ -3392,7 +3504,8 @@ const _surface_stranger = {title: "Surface Stranger", topLink: ["Regional Traits
 <Pair single id="surface-stranger">Surface Stranger</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>underground</Pair>
-<Pair single="benefit" id="surface-stranger-benefit">You were born and raised in a subterranean home with little or no bright light. Your miss chance for <Link to="/rule/concealment">concealment</Link> or total concealment due to either mundane or magical darkness decreases by 10%. You are dazzled for 1 round when you are suddenly exposed to bright light.</Pair>
+<Pair single="flavor" id="surface-stranger-flavor">You were born and raised in a subterranean home with little or no bright light.</Pair>
+<Pair single="benefit" id="surface-stranger-benefit">Your miss chance for <Link to="/rule/concealment">concealment</Link> or total concealment due to either mundane or magical darkness decreases by 10%. You are <Link to="/misc/dazzled">dazzled</Link> for 1 round when you are suddenly exposed to bright light.</Pair>
 </Ability>
 </>};
 const _sustaining_performance = {title: "Sustaining Performance", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/healers_handbook">Healer's Handbook</Link></p>
@@ -3400,7 +3513,8 @@ const _sustaining_performance = {title: "Sustaining Performance", topLink: ["Reg
 <Pair single id="sustaining-performance">Sustaining Performance</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Shackles</Pair>
-<Pair single="benefit" id="sustaining-performance-benefit">Abandoned by a traditional healer at a critical time, you improvised a tale or jokes to keep up the spirits of someone in dire health. Once per day as a standard action, you can attempt a DC 15 Perform check with an audible component (such as comedy, oratory, sing, or with any instrument) to stabilize a dying creature that can hear you within 30 feet. You can also attempt Perform checks instead of Heal checks to provide long-term care.</Pair>
+<Pair single="flavor" id="sustaining-performance-flavor">Abandoned by a traditional healer at a critical time, you improvised a tale or jokes to keep up the spirits of someone in dire health.</Pair>
+<Pair single="benefit" id="sustaining-performance-benefit">Once per day as a <strong className="hl">standard action</strong>, you can attempt a DC 15 <Link to="/skill/perform">Perform</Link> check with an audible component (such as comedy, oratory, sing, or with any instrument) to stabilize a <Link to="/misc/dying">dying</Link> creature that can hear you within 30 feet. You can also attempt Perform checks instead of <Link to="/skill/heal">Heal</Link> checks to provide long-term care.</Pair>
 </Ability>
 </>};
 const _swamp_rebel = {title: "Swamp Rebel", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -3408,7 +3522,8 @@ const _swamp_rebel = {title: "Swamp Rebel", topLink: ["Regional Traits","main/tr
 <Pair single id="swamp-rebel">Swamp Rebel</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Wanshou</Pair>
-<Pair single="benefit" id="swamp-rebel-benefit">You grew up hiding in the swamps from the monstrous overlords who enslaved you and your people. You gain a +2 trait bonus on Stealth checks in swampy terrain, and Stealth becomes a class skill for you.</Pair>
+<Pair single="flavor" id="swamp-rebel-flavor">You grew up hiding in the swamps from the monstrous overlords who enslaved you and your people.</Pair>
+<Pair single="benefit" id="swamp-rebel-benefit">You gain a +2 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks in swampy terrain, and Stealth becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _swamp_recluse = {title: "Swamp Recluse", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
@@ -3424,7 +3539,8 @@ const _swamp_skulker = {title: "Swamp Skulker", topLink: ["Regional Traits","mai
 <Pair single id="swamp-skulker">Swamp Skulker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
-<Pair single="benefit" id="swamp-skulker-benefit">Terrible things prowl the moors of your homeland, and you are all too familiar with hiding or fleeing from them. You gain a +1 trait bonus on Stealth checks when you are in bog, marsh, or swamp terrain, and you treat shallow bogs and swamp undergrowth as normal terrain for the purposes of movement.</Pair>
+<Pair single="flavor" id="swamp-skulker-flavor">Terrible things prowl the moors of your homeland, and you are all too familiar with hiding or fleeing from them.</Pair>
+<Pair single="benefit" id="swamp-skulker-benefit">You gain a +1 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks when you are in bog, marsh, or swamp terrain, and you treat shallow bogs and swamp undergrowth as normal terrain for the purposes of movement.</Pair>
 </Ability>
 </>};
 const _swamp_survivor = {title: "Swamp Survivor", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook</Link></p>
@@ -3432,7 +3548,8 @@ const _swamp_survivor = {title: "Swamp Survivor", topLink: ["Regional Traits","m
 <Pair single id="swamp-survivor">Swamp Survivor</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
-<Pair single="benefit" id="swamp-survivor-benefit">Leaving Graidmere Swamp is forbidden, and to flee the mire is to court the black dragon Seryzilian's wrath. However, you are one of the few to successfully make it out of the swamp alive. Now, you're resolved to liberate your kinfolk. You gain a +2 bonus on Survival checks to find fresh water, and magical liquids in your possession gain a +2 bonus on Will saves to avoid being corrupted or otherwise spoiled.</Pair>
+<Pair single="flavor" id="swamp-survivor-flavor">Leaving Graidmere Swamp is forbidden, and to flee the mire is to court the black dragon Seryzilian's wrath. However, you are one of the few to successfully make it out of the swamp alive. Now, you're resolved to liberate your kinfolk.</Pair>
+<Pair single="benefit" id="swamp-survivor-benefit">You gain a +2 bonus on <Link to="/skill/survival">Survival</Link> checks to find fresh water, and magical liquids in your possession gain a +2 bonus on Will saves to avoid being corrupted or otherwise spoiled.</Pair>
 </Ability>
 </>};
 const _swordlords_page = {title: "Swordlord's Page", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3440,7 +3557,8 @@ const _swordlords_page = {title: "Swordlord's Page", topLink: ["Regional Traits"
 <Pair single id="swordlords-page">Swordlord's Page</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Brevoy</Pair>
-<Pair single="benefit" id="swordlords-page-benefit">You have trained under the Aldori swordlords, and though not yet a swordlord yourself, you have learned how to strike hard with your weapon. You gain a +1 attack bonus to confirm critical hits when using an edged weapon you are proficient with.</Pair>
+<Pair single="flavor" id="swordlords-page-flavor">You have trained under the Aldori swordlords, and though not yet a swordlord yourself, you have learned how to strike hard with your weapon.</Pair>
+<Pair single="benefit" id="swordlords-page-benefit">You gain a +1 attack bonus to confirm critical hits when using an edged weapon you are proficient with.</Pair>
 </Ability>
 </>};
 const _szaezan_crags_miner = {title: "Szaezan Crags Miner", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -3448,7 +3566,8 @@ const _szaezan_crags_miner = {title: "Szaezan Crags Miner", topLink: ["Regional 
 <Pair single id="szaezan-crags-miner">Szaezan Crags Miner</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Bachuan</Pair>
-<Pair single="benefit" id="szaezan-crags-miner-benefit">You were a miner of the now-scarce ores of the Szaezan Crags, and have become adept at identifying minerals and gems. You gain a +1 trait bonus on Appraise checks, and Appraise becomes a class skill for you.</Pair>
+<Pair single="flavor" id="szaezan-crags-miner-flavor">You were a miner of the now-scarce ores of the Szaezan Crags, and have become adept at identifying minerals and gems.</Pair>
+<Pair single="benefit" id="szaezan-crags-miner-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> checks, and Appraise becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _tanglebriar_guerrilla = {title: "Tanglebriar Guerrilla", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
@@ -3456,7 +3575,8 @@ const _tanglebriar_guerrilla = {title: "Tanglebriar Guerrilla", topLink: ["Regio
 <Pair single id="tanglebriar-guerrilla">Tanglebriar Guerrilla</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kyonin</Pair>
-<Pair single="benefit" id="tanglebriar-guerrilla-benefit">Your campaign against Treerazer has endeared you to Kyonin's rangers, who have taught you their ways. When you gain this trait, select one ranger trap that doesn't deal ability or hit point damage. You can use this trap once per day within a forest. The DC for your trap is equal to 10 + half your character level + your Wisdom modifier (minimum +0), and it lasts for 1 day. If you are not a ranger, you can set only extraordinary traps with this feat; like all extraordinary ranger traps, this decreases the trap DC by 2.</Pair>
+<Pair single="flavor" id="tanglebriar-guerrilla-flavor">Your campaign against <Link to="/monster/treerazer">Treerazer</Link> has endeared you to Kyonin's rangers, who have taught you their ways.</Pair>
+<Pair single="benefit" id="tanglebriar-guerrilla-benefit">When you gain this trait, select one <Link to="/ability/ranger_traps">ranger trap</Link> that doesn't deal ability or hit point damage. You can use this trap once per day within a forest. The DC for your trap is equal to 10 + half your character level + your Wisdom modifier (minimum +0), and it lasts for 1 day. If you are not a <Link to="/class/ranger">ranger</Link>, you can set only extraordinary traps with this feat; like all extraordinary ranger traps, this decreases the trap DC by 2.</Pair>
 </Ability>
 </>};
 const _technic_tinkerer = {title: "Technic Tinkerer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3464,7 +3584,8 @@ const _technic_tinkerer = {title: "Technic Tinkerer", topLink: ["Regional Traits
 <Pair single id="technic-tinkerer">Technic Tinkerer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Numeria</Pair>
-<Pair single="benefit" id="technic-tinkerer-benefit">You managed to uncover some lesser secrets of the Technic League, and have mastered a minor bit of magic. Choose a 0-level spell. You may cast that spell once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st.</Pair>
+<Pair single="flavor" id="technic-tinkerer-flavor">You managed to uncover some lesser secrets of the Technic League, and have mastered a minor bit of magic.</Pair>
+<Pair single="benefit" id="technic-tinkerer-benefit">Choose a 0-level spell. You may cast that spell once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st.</Pair>
 </Ability>
 </>};
 const _technological_brewmaster = {title: "Technological Brewmaster", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
@@ -3472,7 +3593,8 @@ const _technological_brewmaster = {title: "Technological Brewmaster", topLink: [
 <Pair single id="technological-brewmaster">Technological Brewmaster</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Numeria</Pair>
-<Pair single="benefit" id="technological-brewmaster-benefit">You have learned the secret of creating potions using advanced scientific techniques so strange that some might consider them alien. When brewing a potion, you can increase its base creation cost by 10% to brew it in half the normal amount of time. This trait does not grant the ability to brew potions.</Pair>
+<Pair single="flavor" id="technological-brewmaster-flavor">You have learned the secret of creating potions using advanced scientific techniques so strange that some might consider them alien.</Pair>
+<Pair single="benefit" id="technological-brewmaster-benefit">When brewing a potion, you can increase its base creation cost by 10% to brew it in half the normal amount of time. This trait does not grant the ability to brew potions.</Pair>
 </Ability>
 </>};
 const _the_vessel_between = {title: "The Vessel Between", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
@@ -3480,7 +3602,8 @@ const _the_vessel_between = {title: "The Vessel Between", topLink: ["Regional Tr
 <Pair single id="the-vessel-between">The Vessel Between</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Daggermark</Pair>
-<Pair single="benefit" id="the-vessel-between-benefit">The assassin ushers her victims from the kingdoms of the living to the kingdom of the dead. You gain a +1 trait bonus on attack rolls that would deal sneak attack damage on a hit.</Pair>
+<Pair single="flavor" id="the-vessel-between-flavor">The assassin ushers her victims from the kingdoms of the living to the kingdom of the dead.</Pair>
+<Pair single="benefit" id="the-vessel-between-benefit">You gain a +1 trait bonus on attack rolls that would deal <Link to="/ability/sneak_attack">sneak attack</Link> damage on a hit.</Pair>
 </Ability>
 </>};
 const _thoughtful_wish_maker = {title: "Thoughtful Wish-Maker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -3488,7 +3611,8 @@ const _thoughtful_wish_maker = {title: "Thoughtful Wish-Maker", topLink: ["Regio
 <Pair single id="thoughtful-wish-maker">Thoughtful Wish-Maker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Plane of Fire</Pair>
-<Pair single="benefit" id="thoughtful-wish-maker-benefit">You are well acquainted with the many ways words can be twisted. You gain a +2 trait bonus on Sense Motive checks. Furthermore, if you succeed at a DC 25 Sense Motive check prior to making any wish granted by an outsider, you become aware of your wish's potential pitfalls. If you succeed at this check by 5 or more, you figure out how to word your wish in such a way that your words are not twisted.</Pair>
+<Pair single="flavor" id="thoughtful-wish-maker-flavor">You are well acquainted with the many ways words can be twisted.</Pair>
+<Pair single="benefit" id="thoughtful-wish-maker-benefit">You gain a +2 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks. Furthermore, if you succeed at a DC 25 Sense Motive check prior to making any <Link to="/spell/wish">wish</Link> granted by an outsider, you become aware of your <em>wish's</em> potential pitfalls. If you succeed at this check by 5 or more, you figure out how to word your <em>wish</em> in such a way that your words are not twisted.</Pair>
 </Ability>
 </>};
 const _thuvian_merchant = {title: "Thuvian Merchant", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3496,7 +3620,8 @@ const _thuvian_merchant = {title: "Thuvian Merchant", topLink: ["Regional Traits
 <Pair single id="thuvian-merchant">Thuvian Merchant</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Thuvia</Pair>
-<Pair single="benefit" id="thuvian-merchant-benefit">You have traveled the great circular trade route around Thuvia, following the sale of the <Link to="/magic-artifact/sun_orchid_elixir">sun orchid elixir</Link> from city to city, and are used to haggling with foreigners. You gain a +1 trait bonus on Appraise, Bluff, and Sense Motive checks made for business deals and transactions.</Pair>
+<Pair single="flavor" id="thuvian-merchant-flavor">You have traveled the great circular trade route around Thuvia, following the sale of the <Link to="/magic-artifact/sun_orchid_elixir">sun orchid elixir</Link> from city to city, and are used to haggling with foreigners.</Pair>
+<Pair single="benefit" id="thuvian-merchant-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link>, <Link to="/skill/bluff">Bluff</Link>, and <Link to="/skill/sense_motive">Sense Motive</Link> checks made for business deals and transactions.</Pair>
 </Ability>
 </>};
 const _tianjing_temple_guard = {title: "Tianjing Temple Guard", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -3504,7 +3629,8 @@ const _tianjing_temple_guard = {title: "Tianjing Temple Guard", topLink: ["Regio
 <Pair single id="tianjing-temple-guard">Tianjing Temple Guard</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Tianjing</Pair>
-<Pair single="benefit" id="tianjing-temple-guard-benefit">You were a stalwart guard of one of Tianjing's magnificent temple cities, and your resolve proved to be of great use during bandit raids. You gain a +1 trait bonus on attacks of opportunity made with polearm weapons.</Pair>
+<Pair single="flavor" id="tianjing-temple-guard-flavor">You were a stalwart guard of one of Tianjing's magnificent temple cities, and your resolve proved to be of great use during bandit raids.</Pair>
+<Pair single="benefit" id="tianjing-temple-guard-benefit">You gain a +1 trait bonus on attacks of opportunity made with polearm weapons.</Pair>
 </Ability>
 </>};
 const _tiger_brigadier = {title: "Tiger Brigadier", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -3512,7 +3638,8 @@ const _tiger_brigadier = {title: "Tiger Brigadier", topLink: ["Regional Traits",
 <Pair single id="tiger-brigadier">Tiger Brigadier</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Bachuan</Pair>
-<Pair single="benefit" id="tiger-brigadier-benefit">As a member of the Tiger Brigade, you are ready to guide the people of Bachuan and other nations. You gain a +2 trait bonus on Intimidate checks made against anyone whose age is one or more aging steps above yours, and Intimidate becomes a class skill for you.</Pair>
+<Pair single="flavor" id="tiger-brigadier-flavor">As a member of the Tiger Brigade, you are ready to guide the people of Bachuan and other nations.</Pair>
+<Pair single="benefit" id="tiger-brigadier-benefit">You gain a +2 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks made against anyone whose <Link to="/rule/age">age</Link> is one or more aging steps above yours, and Intimidate becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _touched_by_the_sky = {title: "Touched by the Sky", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3520,7 +3647,8 @@ const _touched_by_the_sky = {title: "Touched by the Sky", topLink: ["Regional Tr
 <Pair single id="touched-by-the-sky">Touched by the Sky</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Numeria</Pair>
-<Pair single="benefit" id="touched-by-the-sky-benefit">Somehow, you managed to retrieve a rare vial of fluid from a piece of crashed wreckage on the plains of Numeria. Before you could be caught with the contraband, you drank it. You now have the ability to stabilize a dying creature with a touch as a standard action.</Pair>
+<Pair single="flavor" id="touched-by-the-sky-flavor">Somehow, you managed to retrieve a rare vial of fluid from a piece of crashed wreckage on the plains of Numeria. Before you could be caught with the contraband, you drank it.</Pair>
+<Pair single="benefit" id="touched-by-the-sky-benefit">You now have the ability to stabilize a <Link to="/misc/dying">dying</Link> creature with a touch as a <strong className="hl">standard action</strong>.</Pair>
 </Ability>
 </>};
 const _town_gossip = {title: "Town Gossip", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
@@ -3528,7 +3656,8 @@ const _town_gossip = {title: "Town Gossip", topLink: ["Regional Traits","main/tr
 <Pair single id="town-gossip">Town Gossip</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
-<Pair single="benefit" id="town-gossip-benefit">Choose a community that you've lived in for at least 5 years. You gain a +2 trait bonus on Diplomacy checks while in that community.</Pair>
+<Pair single="flavor" id="town-gossip-flavor">Choose a community that you've lived in for at least 5 years.</Pair>
+<Pair single="benefit" id="town-gossip-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks while in that community.</Pair>
 </Ability>
 </>};
 const _trap_savvy = {title: "Trap Savvy", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -3536,7 +3665,8 @@ const _trap_savvy = {title: "Trap Savvy", topLink: ["Regional Traits","main/trai
 <Pair single id="trap-savvy">Trap Savvy</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Darklands</Pair>
-<Pair single="benefit" id="trap-savvy-benefit">Growing up in a dangerous area, you were constantly surrounded by traps that had been set up to defend your lair from intruders. Sometimes these dangers were so densely packed that you couldn't go more than a couple feet down a tunnel without encountering a new way to die. You gain a +1 trait bonus on Craft (traps) checks, and gain a +1 bonus to AC against attacks by traps or on saving throws against effects created by traps.</Pair>
+<Pair single="flavor" id="trap-savvy-flavor">Growing up in a dangerous area, you were constantly surrounded by traps that had been set up to defend your lair from intruders. Sometimes these dangers were so densely packed that you couldn't go more than a couple feet down a tunnel without encountering a new way to die.</Pair>
+<Pair single="benefit" id="trap-savvy-benefit">You gain a +1 trait bonus on <Link to="/skill/craft">Craft</Link> (traps) checks, and gain a +1 bonus to AC against attacks by traps or on saving throws against effects created by traps.</Pair>
 </Ability>
 </>};
 const _treasure_mapper = {title: "Treasure Mapper", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
@@ -3544,7 +3674,8 @@ const _treasure_mapper = {title: "Treasure Mapper", topLink: ["Regional Traits",
 <Pair single id="treasure-mapper">Treasure Mapper</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mediogalti</Pair>
-<Pair single="benefit" id="treasure-mapper-benefit">You've spent a great deal of time hunting down and following treasure maps-most false, but a few with legitimate information. You gain a +2 bonus on Survival or Profession (sailor) checks made to navigate using a map or chart, and one of them becomes a class skill for you.</Pair>
+<Pair single="flavor" id="treasure-mapper-flavor">You've spent a great deal of time hunting down and following treasure maps-most false, but a few with legitimate information.</Pair>
+<Pair single="benefit" id="treasure-mapper-benefit">You gain a +2 bonus on <Link to="/skill/survival">Survival</Link> or <Link to="/skill/profession">Profession</Link> (sailor) checks made to navigate using a map or chart, and one of them becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _treerazers_bane = {title: "Treerazer's Bane", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/elves_of_golarion">Elves of Golarion</Link></p>
@@ -3552,7 +3683,8 @@ const _treerazers_bane = {title: "Treerazer's Bane", topLink: ["Regional Traits"
 <Pair single id="treerazers-bane">Treerazer's Bane</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kyonin</Pair>
-<Pair single="benefit" id="treerazers-bane-benefit">Having fought in many battles against the demon Treerazer, you have learned the best ways to kill the various creatures under his control. You gain a +2 trait bonus on weapon damage against demons, evil fey, and plants and animals corrupted by evil.</Pair>
+<Pair single="flavor" id="treerazers-bane-flavor">Having fought in many battles against the demon <Link to="/monster/treerazer">Treerazer</Link>, you have learned the best ways to kill the various creatures under his control.</Pair>
+<Pair single="benefit" id="treerazers-bane-benefit">You gain a +2 trait bonus on weapon damage against <Link to="/family/demon">demons</Link>, evil fey, and plants and animals corrupted by evil.</Pair>
 </Ability>
 </>};
 const _trench_navigator = {title: "Trench Navigator", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -3560,7 +3692,8 @@ const _trench_navigator = {title: "Trench Navigator", topLink: ["Regional Traits
 <Pair single id="trench-navigator">Trench Navigator</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Xidao</Pair>
-<Pair single="benefit" id="trench-navigator-benefit">You've sailed the treacherous waters of the Xidao Gulf in your past, and you can navigate their dangers adroitly. You gain a +1 trait bonus on Knowledge (geography) checks, and a +1 trait bonus on Profession (sailor) checks. One of these skills becomes a class skill for you.</Pair>
+<Pair single="flavor" id="trench-navigator-flavor">You've sailed the treacherous waters of the Xidao Gulf in your past, and you can navigate their dangers adroitly.</Pair>
+<Pair single="benefit" id="trench-navigator-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> checks, and a +1 trait bonus on <Link to="/skill/profession">Profession</Link> (sailor) checks. One of these skills becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _triaxian_tradition = {title: "Triaxian Tradition", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
@@ -3568,7 +3701,8 @@ const _triaxian_tradition = {title: "Triaxian Tradition", topLink: ["Regional Tr
 <Pair single id="triaxian-tradition">Triaxian Tradition</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Triaxus</Pair>
-<Pair single="benefit" id="triaxian-tradition-benefit">Your experience with one of the long Triaxian seasons has taught you much about the dangers of a long summer or winter. Choose disease or cold. You gain a +2 trait bonus on saves against spells and spell-like abilities with the chosen descriptor. If you choose disease, you gain the bonus on Fortitude saves against nonmagical diseases as well.</Pair>
+<Pair single="flavor" id="triaxian-tradition-flavor">Your experience with one of the long Triaxian seasons has taught you much about the dangers of a long summer or winter.</Pair>
+<Pair single="benefit" id="triaxian-tradition-benefit">Choose disease or cold. You gain a +2 trait bonus on saves against spells and spell-like abilities with the chosen descriptor. If you choose disease, you gain the bonus on Fortitude saves against nonmagical diseases as well.</Pair>
 </Ability>
 </>};
 const _true_name_caller = {title: "True Name Caller", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link></p>
@@ -3576,7 +3710,7 @@ const _true_name_caller = {title: "True Name Caller", topLink: ["Regional Traits
 <Pair single id="true-name-caller">True Name Caller</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Abyss</Pair>
-<Pair single="benefit" id="true-name-caller-benefit">You are skilled at discovering the true names of outsiders. Choose a plane other than the Material Plane. When attempting to discover the true name of an outsider from the chosen plane, you halve the amount of research time required and gain a +4 trait bonus on the Knowledge (planes) check made to learn the outsider's name.</Pair>
+<Pair single="benefit" id="true-name-caller-benefit">You are skilled at discovering the true names of outsiders. Choose a plane other than the Material Plane. When attempting to discover the true name of an outsider from the chosen plane, you halve the amount of research time required and gain a +4 trait bonus on the <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> check made to learn the outsider's name.</Pair>
 </Ability>
 </>};
 const _tundra_child = {title: "Tundra Child", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
@@ -3584,7 +3718,8 @@ const _tundra_child = {title: "Tundra Child", topLink: ["Regional Traits","main/
 <Pair single id="tundra-child">Tundra Child</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>tundra or other cold regions</Pair>
-<Pair single="benefit" id="tundra-child-benefit">You were born and raised in the cold wastes of the far north or far south, and are accustomed to low temperatures. You gain a +4 trait bonus on saving throws made to resist the effects of being in cold conditions and a +1 trait bonus on saving throws against cold effects.</Pair>
+<Pair single="flavor" id="tundra-child-flavor">You were born and raised in the cold wastes of the far north or far south, and are accustomed to low temperatures.</Pair>
+<Pair single="benefit" id="tundra-child-benefit">You gain a +4 trait bonus on saving throws made to resist the effects of being in <Link to="/rule/cold">cold conditions</Link> and a +1 trait bonus on saving throws against cold effects.</Pair>
 </Ability>
 </>};
 const _unafraid = {title: "Unafraid", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
@@ -3592,7 +3727,8 @@ const _unafraid = {title: "Unafraid", topLink: ["Regional Traits","main/traits_r
 <Pair single id="unafraid">Unafraid</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
-<Pair single="benefit" id="unafraid-benefit">The horrors of the fog-shrouded land of terror have hardened you. You receive a +2 bonus on all saving throws made against fear affects.</Pair>
+<Pair single="flavor" id="unafraid-flavor">The horrors of the fog-shrouded land of terror have hardened you.</Pair>
+<Pair single="benefit" id="unafraid-benefit">You receive a +2 bonus on all saving throws made against fear effects.</Pair>
 </Ability>
 </>};
 const _underbridge_dweller = {title: "Underbridge Dweller", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
@@ -3600,7 +3736,7 @@ const _underbridge_dweller = {title: "Underbridge Dweller", topLink: ["Regional 
 <Pair single id="underbridge-dweller">Underbridge Dweller</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Magnimar</Pair>
-<Pair single="benefit" id="underbridge-dweller-benefit">You were raised in the Shadow district of Magnimar beneath the Irespan, a veiled place the light of the sun touches for only 3 hours per day. Your well-founded suspicions grant you a +2 trait bonus on Perception checks in dim light, and Perception is always a class skill for you.</Pair>
+<Pair single="benefit" id="underbridge-dweller-benefit">You were raised in the Shadow district of Magnimar beneath the Irespan, a veiled place the light of the sun touches for only 3 hours per day. Your well-founded suspicions grant you a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks in <Link to="/rule/dim_light">dim light</Link>, and Perception is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _undermarket_smuggler = {title: "Undermarket Smuggler", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -3608,7 +3744,8 @@ const _undermarket_smuggler = {title: "Undermarket Smuggler", topLink: ["Regiona
 <Pair single id="undermarket-smuggler">Undermarket Smuggler</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Goka</Pair>
-<Pair single="benefit" id="undermarket-smuggler-benefit">You worked in Goka's Undermarket for a time, and have learned how to dodge the city's tax collectors and the port inspectors. You gain a +1 trait bonus on Bluff and Sleight of Hand checks.</Pair>
+<Pair single="flavor" id="undermarket-smuggler-flavor">You worked in Goka's Undermarket for a time, and have learned how to dodge the city's tax collectors and the port inspectors.</Pair>
+<Pair single="benefit" id="undermarket-smuggler-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks.</Pair>
 </Ability>
 </>};
 const _unflinching_faith = {title: "Unflinching Faith", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook</Link></p>
@@ -3616,7 +3753,8 @@ const _unflinching_faith = {title: "Unflinching Faith", topLink: ["Regional Trai
 <Pair single id="unflinching-faith">Unflinching Faith</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nidal</Pair>
-<Pair single="benefit" id="unflinching-faith-benefit">Numerous expeditions to accursed regions like Nidal's Finder's Gulch have reinforced your already steadfast faith. Once per day, you may reroll a Will saving throw made against an attack or effect that originates from an undead creature. You must decide to use this trait after the first saving throw is rolled, but before the results are revealed. You must take the result of the second roll, even if it is lower.</Pair>
+<Pair single="flavor" id="unflinching-faith-flavor">Numerous expeditions to accursed regions like Nidal's Finder's Gulch have reinforced your already steadfast faith.</Pair>
+<Pair single="benefit" id="unflinching-faith-benefit">Once per day, you may reroll a Will saving throw made against an attack or effect that originates from an undead creature. You must decide to use this trait after the first saving throw is rolled, but before the results are revealed. You must take the result of the second roll, even if it is lower.</Pair>
 </Ability>
 </>};
 const _unstuck = {title: "Unstuck", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World</Link></p>
@@ -3624,7 +3762,8 @@ const _unstuck = {title: "Unstuck", topLink: ["Regional Traits","main/traits_reg
 <Pair single id="unstuck">Unstuck</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Uringen</Pair>
-<Pair single="benefit" id="unstuck-benefit">Spending time in the "unstuck" part of Uringen has made you more adept at using warps in time and space. Increase your caster level by 2 when casting spells with the teleportation descriptor.</Pair>
+<Pair single="flavor" id="unstuck-flavor">Spending time in the "unstuck" part of Uringen has made you more adept at using warps in time and space.</Pair>
+<Pair single="benefit" id="unstuck-benefit">Increase your caster level by 2 when casting spells with the teleportation descriptor.</Pair>
 </Ability>
 </>};
 const _uskwood_hunter = {title: "Uskwood Hunter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3632,7 +3771,8 @@ const _uskwood_hunter = {title: "Uskwood Hunter", topLink: ["Regional Traits","m
 <Pair single id="uskwood-hunter">Uskwood Hunter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Nidal</Pair>
-<Pair single="benefit" id="uskwood-hunter-benefit">You have served the Umbral Court, discreetly following interlopers through the twilit city streets of Pangolais to pinpoint their locations for the authorities. You gain a +1 trait bonus on Stealth checks, and Stealth is always a class skill for you.</Pair>
+<Pair single="flavor" id="uskwood-hunter-flavor">You have served the Umbral Court, discreetly following interlopers through the twilit city streets of Pangolais to pinpoint their locations for the authorities.</Pair>
+<Pair single="benefit" id="uskwood-hunter-benefit">You gain a +1 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks, and Stealth is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _ustalavic_noble = {title: "Ustalavic Noble", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3640,7 +3780,8 @@ const _ustalavic_noble = {title: "Ustalavic Noble", topLink: ["Regional Traits",
 <Pair single id="ustalavic-noble">Ustalavic Noble</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ustalav</Pair>
-<Pair single="benefit" id="ustalavic-noble-benefit">You come from an aristocratic family, though your family has long since lost any power or prestige it once had. You gain a +1 trait bonus on Diplomacy and Knowledge (nobility) checks. In addition, your starting money is increased by 100 gp: your "birthright," such as it is.</Pair>
+<Pair single="flavor" id="ustalavic-noble-flavor">You come from an aristocratic family, though your family has long since lost any power or prestige it once had.</Pair>
+<Pair single="benefit" id="ustalavic-noble-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> checks. In addition, your starting money is increased by 100 gp: your "birthright," such as it is.</Pair>
 </Ability>
 </>};
 const _uwaga_highlander = {title: "Uwaga Highlander", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
@@ -3648,7 +3789,8 @@ const _uwaga_highlander = {title: "Uwaga Highlander", topLink: ["Regional Traits
 <Pair single id="uwaga-highlander">Uwaga Highlander</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
-<Pair single="benefit" id="uwaga-highlander-benefit">You were born and raised in western Katapesh, in the rugged badlands and hills of the Uwaga Highlands. Even if you were born in a city like Solku, you often had to travel the dangerous trails with your family. Predators, gnolls, and worse haunt the Uwaga Highlands, and you've become something of an expert at evading them. You gain a +1 trait bonus on Stealth checks. This trait bonus increases to +2 in hilly or rocky areas.</Pair>
+<Pair single="flavor" id="uwaga-highlander-flavor">You were born and raised in western Katapesh, in the rugged badlands and hills of the Uwaga Highlands. Even if you were born in a city like Solku, you often had to travel the dangerous trails with your family. Predators, gnolls, and worse haunt the Uwaga Highlands, and you've become something of an expert at evading them.</Pair>
+<Pair single="benefit" id="uwaga-highlander-benefit">You gain a +1 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks. This trait bonus increases to +2 in hilly or rocky areas.</Pair>
 </Ability>
 </>};
 const _vagabond_child = {title: "Vagabond Child", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link>, <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
@@ -3656,7 +3798,8 @@ const _vagabond_child = {title: "Vagabond Child", topLink: ["Regional Traits","m
 <Pair single id="vagabond-child">Vagabond Child</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>urban</Pair>
-<Pair single="benefit" id="vagabond-child-benefit">You grew up among the outcasts and outlaws of your society, learning to forage and survive in an urban environment. Select one of the following skills: Disable Device, Escape Artist, or Sleight of Hand. You gain a +1 trait bonus on checks with that skill, and it is always a class skill for you.</Pair>
+<Pair single="flavor" id="vagabond-child-flavor">You grew up among the outcasts and outlaws of your society, learning to forage and survive in an urban environment.</Pair>
+<Pair single="benefit" id="vagabond-child-benefit">Select one of the following skills: <Link to="/skill/disable_device">Disable Device</Link>, <Link to="/skill/escape_artist">Escape Artist</Link>, or <Link to="/skill/sleight_of_hand">Sleight of Hand</Link>. You gain a +1 trait bonus on checks with that skill, and it is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _valashmai_veteran = {title: "Valashmai Veteran", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -3664,7 +3807,8 @@ const _valashmai_veteran = {title: "Valashmai Veteran", topLink: ["Regional Trai
 <Pair single id="valashmai-veteran">Valashmai Veteran</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Valashmai Jungle</Pair>
-<Pair single="benefit" id="valashmai-veteran-benefit">You have traveled to the Valashmai Jungle on numerous occasions, and your prowess in traversing the jungle wilderness makes you a formidable guide and explorer. You gain a +1 trait bonus on Perception checks, and a +1 trait bonus on Survival checks in jungle terrain. One of these skills becomes a class skill for you.</Pair>
+<Pair single="flavor" id="valashmai-veteran-flavor">You have traveled to the Valashmai Jungle on numerous occasions, and your prowess in traversing the jungle wilderness makes you a formidable guide and explorer.</Pair>
+<Pair single="benefit" id="valashmai-veteran-benefit">You gain a +1 trait bonus on <Link to="/skill/perception">Perception</Link> checks, and a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks in jungle terrain. One of these skills becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _valknar_alumnus = {title: "Valknar Alumnus", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
@@ -3672,7 +3816,8 @@ const _valknar_alumnus = {title: "Valknar Alumnus", topLink: ["Regional Traits",
 <Pair single id="valknar-alumnus">Valknar Alumnus</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Tymon</Pair>
-<Pair single="benefit" id="valknar-alumnus-benefit">You trained at the exclusive Valknar Gladiatorial College. Select one combat maneuver when you take this trait. You gain a +1 trait bonus on performance combat checks and a +1 trait bonus on combat maneuver checks to perform the selected maneuver.</Pair>
+<Pair single="flavor" id="valknar-alumnus-flavor">You trained at the exclusive Valknar Gladiatorial College.</Pair>
+<Pair single="benefit" id="valknar-alumnus-benefit">Select one <Link to="/rule/combat_maneuvers">combat maneuver</Link> when you take this trait. You gain a +1 trait bonus on <Link to="/rule/performance_combat">performance combat</Link> checks and a +1 trait bonus on combat maneuver checks to perform the selected maneuver.</Pair>
 </Ability>
 </>};
 const _varisian_wanderer = {title: "Varisian Wanderer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3680,7 +3825,8 @@ const _varisian_wanderer = {title: "Varisian Wanderer", topLink: ["Regional Trai
 <Pair single id="varisian-wanderer">Varisian Wanderer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Varisia</Pair>
-<Pair single="benefit" id="varisian-wanderer-benefit">You were raised among or have spent time with a group of Varisian nomads, whether travelers, Sczarni criminals, or entertainers, and have learned their ways. Choose one of the following skills: Perform (choose one type), Profession (fortune-teller), or Sleight of Hand. You gain a +1 trait bonus on this skill, and it is always a class skill for you.</Pair>
+<Pair single="flavor" id="varisian-wanderer-flavor">You were raised among or have spent time with a group of Varisian nomads, whether travelers, Sczarni criminals, or entertainers, and have learned their ways.</Pair>
+<Pair single="benefit" id="varisian-wanderer-benefit">Choose one of the following skills: <Link to="/skill/perform">Perform</Link> (choose one type), <Link to="/skill/profession">Profession</Link> (fortune-teller), or <Link to="/skill/sleight_of_hand">Sleight of Hand</Link>. You gain a +1 trait bonus on this skill, and it is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _venicaan_medic = {title: "Venicaan Medic", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
@@ -3688,7 +3834,8 @@ const _venicaan_medic = {title: "Venicaan Medic", topLink: ["Regional Traits","m
 <Pair single id="venicaan-medic">Venicaan Medic</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
-<Pair single="benefit" id="venicaan-medic-benefit">You have studied at the College of Medicaments and Chirurgery, and know by sight the signs of ailments and toxins you might encounter. You gain a +2 trait bonus to Heal checks to treat diseases or poisons, and Heal is always a class skill for you.</Pair>
+<Pair single="flavor" id="venicaan-medic-flavor">You have studied at the College of Medicaments and Chirurgery, and know by sight the signs of ailments and toxins you might encounter.</Pair>
+<Pair single="benefit" id="venicaan-medic-benefit">You gain a +2 trait bonus to <Link to="/skill/heal">Heal</Link> checks to treat diseases or poisons, and Heal is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _vialesk_historian = {title: "Vialesk Historian", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -3696,7 +3843,8 @@ const _vialesk_historian = {title: "Vialesk Historian", topLink: ["Regional Trai
 <Pair single id="vialesk-historian">Vialesk Historian</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Plane of Water</Pair>
-<Pair single="benefit" id="vialesk-historian-benefit">Your long years of studious research into the drifting trade city of Vialesk, a neutral ground for planar travelers on the Elemental Plane of Water, has made you an expert on all manner of aquatic creatures. You gain a +2 trait bonus on Knowledge (planes) checks to identify outsiders with the water subtype. In addition, you treat your caster level as 1 higher when casting conjuration (summoning) spells to summon outsiders with the water subtype.</Pair>
+<Pair single="flavor" id="vialesk-historian-flavor">Your long years of studious research into the drifting trade city of Vialesk, a neutral ground for planar travelers on the Elemental Plane of Water, has made you an expert on all manner of aquatic creatures.</Pair>
+<Pair single="benefit" id="vialesk-historian-benefit">You gain a +2 trait bonus on <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> checks to identify outsiders with the water subtype. In addition, you treat your caster level as 1 higher when casting conjuration (summoning) spells to summon outsiders with the water subtype.</Pair>
 </Ability>
 </>};
 const _viking_blood = {title: "Viking Blood", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3704,7 +3852,8 @@ const _viking_blood = {title: "Viking Blood", topLink: ["Regional Traits","main/
 <Pair single id="viking-blood">Viking Blood</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lands of the Linnorm Kings</Pair>
-<Pair single="benefit" id="viking-blood-benefit">You have the imposing build of a Viking, and people of the south fear your unpredictable nature. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you.</Pair>
+<Pair single="flavor" id="viking-blood-flavor">You have the imposing build of a Viking, and people of the south fear your unpredictable nature.</Pair>
+<Pair single="benefit" id="viking-blood-benefit">You gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks, and Intimidate is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _voices_of_solid_things = {title: "Voices of Solid Things", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World</Link></p>
@@ -3712,7 +3861,8 @@ const _voices_of_solid_things = {title: "Voices of Solid Things", topLink: ["Reg
 <Pair single id="voices-of-solid-things">Voices of Solid Things</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Witchmarket</Pair>
-<Pair single="benefit" id="voices-of-solid-things-benefit">You traveled with the Witchmarket for a time, either willingly or as a result of a bargain made by some other buyer. In your time in the Witchmarket, you learned to listen to the whispers of items as though they were living creatures, giving you clues as to their function. Choose Appraise, Craft, Disable Device, or Spellcraft. You apply your Charisma modifier on checks with that skill instead of the skill's normal ability score. That skill is a class skill for you.</Pair>
+<Pair single="flavor" id="voices-of-solid-things-flavor">You traveled with the Witchmarket for a time, either willingly or as a result of a bargain made by some other buyer. In your time in the Witchmarket, you learned to listen to the whispers of items as though they were living creatures, giving you clues as to their function.</Pair>
+<Pair single="benefit" id="voices-of-solid-things-benefit">Choose <Link to="/skill/appraise">Appraise</Link>, <Link to="/skill/craft">Craft</Link>, <Link to="/skill/disable_device">Disable Device</Link>, or <Link to="/skill/spellcraft">Spellcraft</Link>. You apply your Charisma modifier on checks with that skill instead of the skill's normal ability score. That skill is a class skill for you.</Pair>
 </Ability>
 </>};
 const _void_child = {title: "Void Child", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
@@ -3720,7 +3870,8 @@ const _void_child = {title: "Void Child", topLink: ["Regional Traits","main/trai
 <Pair single id="void-child">Void Child</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Diaspora</Pair>
-<Pair single="benefit" id="void-child-benefit">You were raised in the Diaspora and are accustomed to being isolated from most other life in the vast void of space. You gain a +1 trait bonus on saves against fear; this bonus increases to +2 whenever you are 30 feet or farther from your nearest ally.</Pair>
+<Pair single="flavor" id="void-child-flavor">You were raised in the Diaspora and are accustomed to being isolated from most other life in the vast void of space.</Pair>
+<Pair single="benefit" id="void-child-benefit">You gain a +1 trait bonus on saves against fear; this bonus increases to +2 whenever you are 30 feet or farther from your nearest ally.</Pair>
 </Ability>
 </>};
 const _walking_ward = {title: "Walking Ward", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
@@ -3728,7 +3879,8 @@ const _walking_ward = {title: "Walking Ward", topLink: ["Regional Traits","main/
 <Pair single id="walking-ward">Walking Ward</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
-<Pair single="benefit" id="walking-ward-benefit">Your training included constant exposure to elemental forces. Choose one of the following energy types: acid, cold, electricity, or fire; you gain a +1 bonus on saving throws against spells that deal damage of this type or have this subtype.</Pair>
+<Pair single="flavor" id="walking-ward-flavor">Your training included constant exposure to elemental forces.</Pair>
+<Pair single="benefit" id="walking-ward-benefit">Choose one of the following energy types: acid, cold, electricity, or fire; you gain a +1 bonus on saving throws against spells that deal damage of this type or have this subtype.</Pair>
 </Ability>
 </>};
 const _wardbreaker = {title: "Wardbreaker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>
@@ -3736,7 +3888,10 @@ const _wardbreaker = {title: "Wardbreaker", topLink: ["Regional Traits","main/tr
 <Pair single id="wardbreaker">Wardbreaker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>The Worldwound</Pair>
-<Pair single="benefit" id="wardbreaker-benefit">You have studied techniques designed to pierce magical protections, with the goal of assisting your Abyssal masters in bringing down the wardstones that guard the borders of Mendev. Once per day, you can attempt a melee touch attack against an opponent that you believe has a deflection bonus to AC. If your attack is successful, your foe's deflection bonus to AC is halved (to a minimum of +0) for a number of rounds equal to your Charisma modifier. You can use this ability twice per day at 10th level and three times per day at 20th level.</Pair>
+<Pair single="flavor" id="wardbreaker-flavor">You have studied techniques designed to pierce magical protections, with the goal of assisting your Abyssal masters in bringing down the wardstones that guard the borders of Mendev.</Pair>
+<Pair single="benefit" id="wardbreaker-benefit"><p>Once per day, you can attempt a melee touch attack against an opponent that you believe has a deflection bonus to AC. If your attack is successful, your foe's deflection bonus to AC is halved (to a minimum of +0) for a number of rounds equal to your Charisma modifier.</p>
+<p>You can use this ability twice per day at 10th level and three times per day at 20th level.</p>
+</Pair>
 </Ability>
 </>};
 const _warrior_poet = {title: "Warrior Poet", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dwarves_of_golarion">Dwarves of Golarion</Link></p>
@@ -3744,7 +3899,8 @@ const _warrior_poet = {title: "Warrior Poet", topLink: ["Regional Traits","main/
 <Pair single id="warrior-poet">Warrior Poet</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lands of the Linnorm Kings</Pair>
-<Pair single="benefit" id="warrior-poet-benefit">You were trained by the skalds, keepers of the oral tradition of Kalsgard. You gain a +1 trait bonus on Knowledge checks related to dwarves (dwarven history, dwarven construction, and so on) and a +1 trait bonus on Fortitude saves in any round in which you use a bardic performance ability.</Pair>
+<Pair single="flavor" id="warrior-poet-flavor">You were trained by the skalds, keepers of the oral tradition of Kalsgard.</Pair>
+<Pair single="benefit" id="warrior-poet-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge">Knowledge</Link> checks related to dwarves (dwarven history, dwarven construction, and so on) and a +1 trait bonus on Fortitude saves in any round in which you use a <Link to="/ability/bardic_performance">bardic performance</Link> ability.</Pair>
 </Ability>
 </>};
 const _wary_potr = {title: "Wary (PotR)", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_river">People of the River</Link></p>
@@ -3752,7 +3908,8 @@ const _wary_potr = {title: "Wary (PotR)", topLink: ["Regional Traits","main/trai
 <Pair single id="wary-potr">Wary (PotR)</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Daggermark</Pair>
-<Pair single="benefit" id="wary-potr-benefit">You survived an assassination attempt once. You gain a +1 trait bonus on opposed Perception and Sense Motive checks. One of these skills is always a class skill for you.</Pair>
+<Pair single="flavor" id="wary-potr-flavor">You survived an assassination attempt once.</Pair>
+<Pair single="benefit" id="wary-potr-benefit">You gain a +1 trait bonus on opposed <Link to="/skill/perception">Perception</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks. One of these skills is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _watching_taldor = {title: "Watching Taldor", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East</Link>, <Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link></p>
@@ -3761,7 +3918,8 @@ const _watching_taldor = {title: "Watching Taldor", topLink: ["Regional Traits",
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Qadira</Pair>
 <Pair title="Requirements" hl>Characters from Qadira who have had family members, neighbors, or friends affected by Taldan aggression or who have fallen victim to this hatred themselves.</Pair>
-<Pair single="benefit" id="watching-taldor-benefit">You have spent your adult life waiting for Taldor to give you an excuse to fight. You gain a +1 trait bonus on initiative checks, and if you are able to act during the surprise round of an encounter, you can draw a weapon (but not a potion or magic item) as a free action during that round.</Pair>
+<Pair single="flavor" id="watching-taldor-flavor">You have spent your adult life waiting for Taldor to give you an excuse to fight.</Pair>
+<Pair single="benefit" id="watching-taldor-benefit">You gain a +1 trait bonus on initiative checks, and if you are able to act during the surprise round of an encounter, you can draw a weapon (but not a potion or magic item) as a <strong className="hl">free action</strong> during that round.</Pair>
 </Ability>
 </>};
 const _water_brave = {title: "Water Brave", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/orcs_of_golarion">Orcs of Golarion</Link></p>
@@ -3769,7 +3927,8 @@ const _water_brave = {title: "Water Brave", topLink: ["Regional Traits","main/tr
 <Pair single id="water-brave">Water Brave</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>River Kingdoms</Pair>
-<Pair single="benefit" id="water-brave-benefit">Travel through the dangerous waters of the River Kingdoms has given your tribe special skills in relation to them. You receive a +1 trait bonus on Swim checks, and it becomes a class skill.</Pair>
+<Pair single="flavor" id="water-brave-flavor">Travel through the dangerous waters of the River Kingdoms has given your tribe special skills in relation to them.</Pair>
+<Pair single="benefit" id="water-brave-benefit">You receive a +1 trait bonus on <Link to="/skill/swim">Swim</Link> checks, and it becomes a class skill.</Pair>
 </Ability>
 </>};
 const _wayang_spellhunter = {title: "Wayang Spellhunter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -3777,7 +3936,8 @@ const _wayang_spellhunter = {title: "Wayang Spellhunter", topLink: ["Regional Tr
 <Pair single id="wayang-spellhunter">Wayang Spellhunter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Minata</Pair>
-<Pair single="benefit" id="wayang-spellhunter-benefit">You grew up on one of the wayang-populated islands of Minata, and your use of magic while hunting has been a boon to you. Select a spell of 3rd level or below. When you use this spell with a metamagic feat, it uses up a spell slot one level lower than it normally would.</Pair>
+<Pair single="flavor" id="wayang-spellhunter-flavor">You grew up on one of the wayang-populated islands of Minata, and your use of magic while hunting has been a boon to you.</Pair>
+<Pair single="benefit" id="wayang-spellhunter-benefit">Select a spell of 3rd level or below. When you use this spell with a <Link to="/rule/metamagic_feats">metamagic feat</Link>, it uses up a spell slot one level lower than it normally would.</Pair>
 </Ability>
 </>};
 const _wealthy_dabbler = {title: "Wealthy Dabbler", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link>, <Link to="/source/taldor_echoes_of_glory">Taldor, Echoes of Glory</Link></p>
@@ -3785,7 +3945,8 @@ const _wealthy_dabbler = {title: "Wealthy Dabbler", topLink: ["Regional Traits",
 <Pair single id="wealthy-dabbler">Wealthy Dabbler</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Taldor</Pair>
-<Pair single="benefit" id="wealthy-dabbler-benefit">You study magic at one of Taldor's many social clubs, wowing your friends with your expertise in the simplest of magical exploits. Select two non-harmful arcane cantrips. You can cast these two cantrips once per day each (caster level 1st). If you have levels in a class that can cast these cantrips, your caster level for these cantrips is equal to that class level.</Pair>
+<Pair single="flavor" id="wealthy-dabbler-flavor">You study magic at one of Taldor's many social clubs, wowing your friends with your expertise in the simplest of magical exploits.</Pair>
+<Pair single="benefit" id="wealthy-dabbler-benefit">Select two non-harmful arcane cantrips. You can cast these two cantrips once per day each (caster level 1st). If you have levels in a class that can cast these cantrips, your caster level for these cantrips is equal to that class level.</Pair>
 </Ability>
 </>};
 const _weed_resistance = {title: "Weed Resistance", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons</Link></p>
@@ -3793,7 +3954,8 @@ const _weed_resistance = {title: "Weed Resistance", topLink: ["Regional Traits",
 <Pair single id="weed-resistance">Weed Resistance</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kyonin</Pair>
-<Pair single="benefit" id="weed-resistance-benefit">You have learned how to keep your flesh out of the way of the toxic thorns and vines that are often prevalent in verdant lands. You gain a +3 trait bonus on saving throws against poison and disease abilities and effects inflicted by creatures of the plant type (such as a basidirond's spores).</Pair>
+<Pair single="flavor" id="weed-resistance-flavor">You have learned how to keep your flesh out of the way of the toxic thorns and vines that are often prevalent in verdant lands.</Pair>
+<Pair single="benefit" id="weed-resistance-benefit">You gain a +3 trait bonus on saving throws against poison and disease abilities and effects inflicted by creatures of the plant type (such as a <Link to="/monster/basidirond">basidirond's</Link> spores).</Pair>
 </Ability>
 </>};
 const _well_bred = {title: "Well Bred", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook</Link></p>
@@ -3801,7 +3963,8 @@ const _well_bred = {title: "Well Bred", topLink: ["Regional Traits","main/traits
 <Pair single id="well-bred">Well Bred</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Hermea</Pair>
-<Pair single="benefit" id="well-bred-benefit">You are the product of generations of selective breeding, organized by the gold dragon Mengkare. Your education is top-notch, and you have a broad base of knowledge. Unfortunately, the isolation of Hermea has also made you slightly naive. You gain a +1 trait bonus on Knowledge (history) and Knowledge (religion) checks but take a -1 penalty on all Sense Motive checks.</Pair>
+<Pair single="flavor" id="well-bred-flavor">You are the product of generations of selective breeding, organized by the gold dragon Mengkare. Your education is top-notch, and you have a broad base of knowledge. Unfortunately, the isolation of Hermea has also made you slightly naive.</Pair>
+<Pair single="benefit" id="well-bred-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_history">Knowledge (history)</Link> and <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> checks but take a -1 penalty on all <Link to="/skill/sense_motive">Sense Motive</Link> checks.</Pair>
 </Ability>
 </>};
 const _wharf_rat = {title: "Wharf Rat", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
@@ -3809,7 +3972,8 @@ const _wharf_rat = {title: "Wharf Rat", topLink: ["Regional Traits","main/traits
 <Pair single id="wharf-rat">Wharf Rat</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Ostenso</Pair>
-<Pair single="benefit" id="wharf-rat-benefit">You may never have been on a boat larger than a garbage scow, but you've been helping them dock all your life. You gain a +2 trait bonus on skill checks involving climbing and rope use, and a +4 trait bonus on Appraise checks to determine the value of large quantities of bulk goods without opening their containers.</Pair>
+<Pair single="flavor" id="wharf-rat-flavor">You may never have been on a boat larger than a garbage scow, but you've been helping them dock all your life.</Pair>
+<Pair single="benefit" id="wharf-rat-benefit">You gain a +2 trait bonus on skill checks involving climbing and rope use, and a +4 trait bonus on <Link to="/skill/appraise">Appraise</Link> checks to determine the value of large quantities of bulk goods without opening their containers.</Pair>
 </Ability>
 </>};
 const _whip_specialist = {title: "Whip Specialist", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link></p>
@@ -3817,7 +3981,8 @@ const _whip_specialist = {title: "Whip Specialist", topLink: ["Regional Traits",
 <Pair single id="whip-specialist">Whip Specialist</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Okeno</Pair>
-<Pair single="benefit" id="whip-specialist-benefit">Your time spent lashing slaves has taught you how to get the most out of a whip. You deal +1 point of damage on all attacks made with a whip.</Pair>
+<Pair single="flavor" id="whip-specialist-flavor">Your time spent lashing slaves has taught you how to get the most out of a whip.</Pair>
+<Pair single="benefit" id="whip-specialist-benefit">You deal +1 point of damage on all attacks made with a <Link to="/eq-weapon/whip">whip</Link>.</Pair>
 </Ability>
 </>};
 const _whisper_woods_hunter = {title: "Whisper Woods Hunter", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/cheliax_empire_of_devils">Cheliax, Empire of Devils</Link></p>
@@ -3825,7 +3990,8 @@ const _whisper_woods_hunter = {title: "Whisper Woods Hunter", topLink: ["Regiona
 <Pair single id="whisper-woods-hunter">Whisper Woods Hunter</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Whisper Woods</Pair>
-<Pair single="benefit" id="whisper-woods-hunter-benefit">Your family prepared you for a life of evading or destroying fiendish creatures. You gain a +2 trait bonus on Survival checks to track evil outsiders and a +2 trait bonus on initiative checks when you know your opponent is an evil outsider.</Pair>
+<Pair single="flavor" id="whisper-woods-hunter-flavor">Your family prepared you for a life of evading or destroying fiendish creatures.</Pair>
+<Pair single="benefit" id="whisper-woods-hunter-benefit">You gain a +2 trait bonus on <Link to="/skill/survival">Survival</Link> checks to track evil outsiders and a +2 trait bonus on initiative checks when you know your opponent is an evil outsider.</Pair>
 </Ability>
 </>};
 const _whitethrone_gourmand = {title: "Whitethrone Gourmand", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
@@ -3833,7 +3999,8 @@ const _whitethrone_gourmand = {title: "Whitethrone Gourmand", topLink: ["Regiona
 <Pair single id="whitethrone-gourmand">Whitethrone Gourmand</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Irrisen</Pair>
-<Pair single="benefit" id="whitethrone-gourmand-benefit">You grew up privileged in the city of Whitethrone, and indulged in many exotic and unnerving pleasures. You gain a +1 trait bonus on saves against any effect causing the nauseated or sickened condition and against all ingested poisons.</Pair>
+<Pair single="flavor" id="whitethrone-gourmand-flavor">You grew up privileged in the city of Whitethrone, and indulged in many exotic and unnerving pleasures.</Pair>
+<Pair single="benefit" id="whitethrone-gourmand-benefit">You gain a +1 trait bonus on saves against any effect causing the <Link to="/misc/nauseated">nauseated</Link> or <Link to="/misc/sickened">sickened</Link> condition and against all ingested poisons.</Pair>
 </Ability>
 </>};
 const _whole_hearted = {title: "Whole-Hearted", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
@@ -3841,7 +4008,8 @@ const _whole_hearted = {title: "Whole-Hearted", topLink: ["Regional Traits","mai
 <Pair single id="whole-hearted">Whole-Hearted</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Averaka</Pair>
-<Pair single="benefit" id="whole-hearted-benefit">Though most outsiders expect your mind to be conflicted, full of self-doubt, and mired in resentment and suspicion, you're truly comfortable in your skin. You gain a +2 trait bonus on saving throws against charms and compulsions.</Pair>
+<Pair single="flavor" id="whole-hearted-flavor">Though most outsiders expect your mind to be conflicted, full of self-doubt, and mired in resentment and suspicion, you're truly comfortable in your skin.</Pair>
+<Pair single="benefit" id="whole-hearted-benefit">You gain a +2 trait bonus on saving throws against charms and compulsions.</Pair>
 </Ability>
 </>};
 const _wild_wanderer = {title: "Wild Wanderer", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_class_origins">Advanced Class Origins</Link></p>
@@ -3849,7 +4017,8 @@ const _wild_wanderer = {title: "Wild Wanderer", topLink: ["Regional Traits","mai
 <Pair single id="wild-wanderer">Wild Wanderer</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mwangi Expanse</Pair>
-<Pair single="benefit" id="wild-wanderer-benefit">You're a child of the wild, living on your own without need of others. Each time you attempt a Survival check to get along in the wild or resist severe weather, you can choose to gain a +4 trait bonus on that check. If you do so, you can't use that check to provide assistance to others, even if your result exceeds the DC.</Pair>
+<Pair single="flavor" id="wild-wanderer-flavor">You're a child of the wild, living on your own without need of others.</Pair>
+<Pair single="benefit" id="wild-wanderer-benefit">Each time you attempt a <Link to="/skill/survival">Survival</Link> check to get along in the wild or resist severe weather, you can choose to gain a +4 trait bonus on that check. If you do so, you can't use that check to provide assistance to others, even if your result exceeds the DC.</Pair>
 </Ability>
 </>};
 const _windspeaker = {title: "Windspeaker", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/wilderness_origins">Wilderness Origins</Link></p>
@@ -3857,7 +4026,7 @@ const _windspeaker = {title: "Windspeaker", topLink: ["Regional Traits","main/tr
 <Pair single id="windspeaker">Windspeaker</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>desert</Pair>
-<Pair single="benefit" id="windspeaker-benefit">You have a keen sense for weather patterns, and you always know 8 hours in advance when naturally occurring winds will reach high speeds.</Pair>
+<Pair single="benefit" id="windspeaker-benefit">You have a keen sense for weather patterns, and you always know 8 hours in advance when naturally occurring <Link to="/rule/winds">winds</Link> will reach high speeds.</Pair>
 </Ability>
 </>};
 const _winners_luck = {title: "Winner's Luck", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
@@ -3865,7 +4034,8 @@ const _winners_luck = {title: "Winner's Luck", topLink: ["Regional Traits","main
 <Pair single id="winners-luck">Winner's Luck</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Riddleport</Pair>
-<Pair single="benefit" id="winners-luck-benefit">Winning at the tables in Riddleport's gambling houses can be as devastating as losing. Years of dodging the jealous blows of card table patrons have given you a sixth sense for when your luck is about to run out. Whenever you succeed at a Reflex saving throw, you may draw a weapon as an immediate action, or a hidden weapon as a move action.</Pair>
+<Pair single="flavor" id="winners-luck-flavor">Winning at the tables in Riddleport's gambling houses can be as devastating as losing. Years of dodging the jealous blows of card table patrons have given you a sixth sense for when your luck is about to run out.</Pair>
+<Pair single="benefit" id="winners-luck-benefit">Whenever you succeed at a Reflex saving throw, you may draw a weapon as an <strong className="hl">immediate action</strong>, or a hidden weapon as a <strong className="hl">move action</strong>.</Pair>
 </Ability>
 </>};
 const _winter_warrior = {title: "Winter Warrior", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3873,7 +4043,8 @@ const _winter_warrior = {title: "Winter Warrior", topLink: ["Regional Traits","m
 <Pair single id="winter-warrior">Winter Warrior</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Irrisen</Pair>
-<Pair single="benefit" id="winter-warrior-benefit">You grew up in the icy lands of Irrisen, and surviving in the cold snows of winter is second nature to you. You gain a +1 trait bonus on Stealth and Survival checks in ice- or snow-covered terrain.</Pair>
+<Pair single="flavor" id="winter-warrior-flavor">You grew up in the icy lands of Irrisen, and surviving in the cold snows of winter is second nature to you.</Pair>
+<Pair single="benefit" id="winter-warrior-benefit"> You gain a +1 trait bonus on <Link to="/skill/stealth">Stealth</Link> and <Link to="/skill/survival">Survival</Link> checks in ice- or snow-covered terrain.</Pair>
 </Ability>
 </>};
 const _winters_soul = {title: "Winter's Soul", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_primer">Inner Sea Primer</Link></p>
@@ -3881,7 +4052,8 @@ const _winters_soul = {title: "Winter's Soul", topLink: ["Regional Traits","main
 <Pair single id="winters-soul">Winter's Soul</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Irrisen</Pair>
-<Pair single="benefit" id="winters-soul-benefit">The eternal winter of Irrisen is as much a part of you as it is the land. You may cast <Link to="/spell/ray_of_frost">ray of frost</Link> once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st.</Pair>
+<Pair single="flavor" id="winters-soul-flavor">The eternal winter of Irrisen is as much a part of you as it is the land.</Pair>
+<Pair single="benefit" id="winters-soul-benefit">You may cast <Link to="/spell/ray_of_frost">ray of frost</Link> once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st.</Pair>
 </Ability>
 </>};
 const _witch_tongued = {title: "Witch-Tongued", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven</Link></p>
@@ -3889,7 +4061,8 @@ const _witch_tongued = {title: "Witch-Tongued", topLink: ["Regional Traits","mai
 <Pair single id="witch-tongued">Witch-Tongued</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Irrisen</Pair>
-<Pair single="benefit" id="witch-tongued-benefit">Hailing from frozen Irrisen, where witches rule the land, you deal with others in a cool, calculated way. You gain a +1 trait bonus on Diplomacy checks, and you gain a +1 trait bonus on Intimidate checks against non-witches.</Pair>
+<Pair single="flavor" id="witch-tongued-flavor">Hailing from frozen Irrisen, where witches rule the land, you deal with others in a cool, calculated way.</Pair>
+<Pair single="benefit" id="witch-tongued-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks, and you gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks against non-witches.</Pair>
 </Ability>
 </>};
 const _xa_hoi_soldier = {title: "Xa Hoi Soldier", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/dragon_empires_primer">Dragon Empires Primer</Link></p>
@@ -3897,7 +4070,8 @@ const _xa_hoi_soldier = {title: "Xa Hoi Soldier", topLink: ["Regional Traits","m
 <Pair single id="xa-hoi-soldier">Xa Hoi Soldier</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Xa Hoi</Pair>
-<Pair single="benefit" id="xa-hoi-soldier-benefit">You were a soldier in one of Xa Hoi's extensive armies, trained under the oversight of one of Pham Duc Quan's draconic brethren. You gain a +1 trait bonus on Reflex saves.</Pair>
+<Pair single="flavor" id="xa-hoi-soldier-flavor">You were a soldier in one of Xa Hoi's extensive armies, trained under the oversight of one of Pham Duc Quan's draconic brethren.</Pair>
+<Pair single="benefit" id="xa-hoi-soldier-benefit">You gain a +1 trait bonus on Reflex saves.</Pair>
 </Ability>
 </>};
 export default {aballonian_resilience:_aballonian_resilience,abendego_pilot:_abendego_pilot,abendego_spellpiercer:_abendego_spellpiercer,aberration_hunter:_aberration_hunter,abolitionist_hunter:_abolitionist_hunter,absalom_hotspur:_absalom_hotspur,abyssal_eavesdropper:_abyssal_eavesdropper,accustomed_to_trickery:_accustomed_to_trickery,acolyte_of_razmir:_acolyte_of_razmir,acupuncturist:_acupuncturist,agent_of_the_sultana:_agent_of_the_sultana,airship_captain:_airship_captain,akitonian_ferocity:_akitonian_ferocity,alabaster_odalisque:_alabaster_odalisque,alchemical_fence:_alchemical_fence,alchemical_prodigy:_alchemical_prodigy,alien_origins:_alien_origins,alkenstar_defender:_alkenstar_defender,alkenstar_engineer:_alkenstar_engineer,altruistic_diplomat:_altruistic_diplomat,analytical:_analytical,ancestral_weapon:_ancestral_weapon,andoren_freedom_fighter:_andoren_freedom_fighter,animal_spirit_vitality:_animal_spirit_vitality,antiquities_smuggler:_antiquities_smuggler,anuli_engineer:_anuli_engineer,aquatic_survivalist:_aquatic_survivalist,armun_kelisk_scholar:_armun_kelisk_scholar,artifact_hunter_isp:_artifact_hunter_isp,ash_bane:_ash_bane,aspiring_hellknight:_aspiring_hellknight,awakened_from_stasis:_awakened_from_stasis,azlanti_scholar_hftf:_azlanti_scholar_hftf,balanced_education:_balanced_education,bandit:_bandit,beachcomber:_beachcomber,belem_pirate:_belem_pirate,bellflower_tiller:_bellflower_tiller,bellis_axe_master:_bellis_axe_master,bellis_honey_harvester:_bellis_honey_harvester,bellis_log_roller:_bellis_log_roller,betrayed_ex_noble:_betrayed_ex_noble,big_game_hunter:_big_game_hunter,black_eagle_recruit:_black_eagle_recruit,blackthorn_rancher:_blackthorn_rancher,blessed_of_the_norns:_blessed_of_the_norns,blighted_physiology:_blighted_physiology,blood_potion_brewer:_blood_potion_brewer,blooded:_blooded,border_guard:_border_guard,born_under_the_green_star:_born_under_the_green_star,bounty_hunter:_bounty_hunter,brave_words:_brave_words,brevoy_bandit:_brevoy_bandit,briar_bandit:_briar_bandit,call_of_the_longships:_call_of_the_longships,candidate_for_perfection:_candidate_for_perfection,caravan_nomad:_caravan_nomad,carpenden_lobber:_carpenden_lobber,carpenden_roof_runner:_carpenden_roof_runner,cavern_survivor:_cavern_survivor,centaur_vengeance:_centaur_vengeance,chainbreaker:_chainbreaker,channel_the_earth:_channel_the_earth,charau_ka_slayer:_charau_ka_slayer,charmed_innocent:_charmed_innocent,cheap_to_feed:_cheap_to_feed,chelish_guerrilla:_chelish_guerrilla,child_of_mumia:_child_of_mumia,child_of_wati:_child_of_wati,child_of_the_crusades_isp:_child_of_the_crusades_isp,chillblight_emissary:_chillblight_emissary,chilled_by_brutality:_chilled_by_brutality,chivalrous:_chivalrous,chosen_child:_chosen_child,citizen_of_eleder:_citizen_of_eleder,citizen_of_kalabuto:_citizen_of_kalabuto,clan_artisan:_clan_artisan,cliff_jumper:_cliff_jumper,cliff_strider:_cliff_strider,cliff_master:_cliff_master,cloistered_upbringing:_cloistered_upbringing,clumsy_slave:_clumsy_slave,coin_hoarder:_coin_hoarder,coincunning:_coincunning,cold_heart:_cold_heart,commercial_savvy:_commercial_savvy,community_minded:_community_minded,confidante_to_the_oppressed:_confidante_to_the_oppressed,conscientious_miner:_conscientious_miner,corpse_dodger:_corpse_dodger,cosmopolitan:_cosmopolitan,cruel_master:_cruel_master,crusader_road_acolyte:_crusader_road_acolyte,crusader_tactician:_crusader_tactician,cultist_lineage:_cultist_lineage,cultivated:_cultivated,cunning_liar:_cunning_liar,curse_queller:_curse_queller,cynic:_cynic,cypher_resistance:_cypher_resistance,cyphermage_backer:_cyphermage_backer,darkblight_survivor:_darkblight_survivor,darklands_delver:_darklands_delver,debt_to_a_witch:_debt_to_a_witch,demon_eradicator:_demon_eradicator,demon_proof_mind:_demon_proof_mind,demonbane_summoner:_demonbane_summoner,desert_child:_desert_child,destined_for_greatness:_destined_for_greatness,devilfish_diver:_devilfish_diver,devotee_of_kalistrade:_devotee_of_kalistrade,diligence:_diligence,dinosaur_whisperer:_dinosaur_whisperer,discerning_beliefs:_discerning_beliefs,div_hunter:_div_hunter,divine_deceiver:_divine_deceiver,dominator:_dominator,draconic_vigil:_draconic_vigil,dreadful_forethought:_dreadful_forethought,dtang_ma_bloodline:_dtang_ma_bloodline,dump_salvager:_dump_salvager,dungeon_dweller:_dungeon_dweller,dusk_dancer:_dusk_dancer,duskwalker_agent:_duskwalker_agent,eager_combatant:_eager_combatant,educated_druggist:_educated_druggist,egorian_school_apprentice:_egorian_school_apprentice,elemental_endowment:_elemental_endowment,elemental_pupil:_elemental_pupil,elemental_ties:_elemental_ties,elven_bitterness:_elven_bitterness,emberkin_imposter:_emberkin_imposter,emissary:_emissary,empathic_diplomat:_empathic_diplomat,empyreal_cultist:_empyreal_cultist,enchanted_by_giants:_enchanted_by_giants,enemy_of_the_undead:_enemy_of_the_undead,eoxian_experiment:_eoxian_experiment,equality_for_all:_equality_for_all,erutaki_sky_reader:_erutaki_sky_reader,evident_supporter:_evident_supporter,exhibition_fighter:_exhibition_fighter,exiled_scholar:_exiled_scholar,expert_smuggler:_expert_smuggler,expert_swimmer:_expert_swimmer,eye_of_the_falcon:_eye_of_the_falcon,fangwood_diplomat:_fangwood_diplomat,fangwood_insurgent:_fangwood_insurgent,fey_hex:_fey_hex,fey_mediator:_fey_mediator,fey_wise:_fey_wise,fiery_dominance:_fiery_dominance,fight_for_liberty:_fight_for_liberty,flotsam:_flotsam,footsteps_of_aganhei:_footsteps_of_aganhei,forbidden_knowledge:_forbidden_knowledge,fortune_found:_fortune_found,free_agent:_free_agent,free_people:_free_people,freed_slave_andoran:_freed_slave_andoran,freed_slave_katapesh:_freed_slave_katapesh,freedom_fighter_andoran:_freedom_fighter_andoran,freedom_fighter_shokuro:_freedom_fighter_shokuro,friend_of_the_dead:_friend_of_the_dead,friend_of_the_fey:_friend_of_the_fey,frontier_forged:_frontier_forged,frostborn:_frostborn,fruit_merchant:_fruit_merchant,gallant_imposter:_gallant_imposter,genie_caller:_genie_caller,ghost_survivor:_ghost_survivor,ghoulish_affinity:_ghoulish_affinity,giant_ambivalence:_giant_ambivalence,giant_dodger:_giant_dodger,giant_investigator:_giant_investigator,giant_harried:_giant_harried,glory_of_old:_glory_of_old,goblin_pirate:_goblin_pirate,godless_resolve:_godless_resolve,gold_goblin_regular:_gold_goblin_regular,good_folk:_good_folk,gravelwalker:_gravelwalker,greenskin_stalker:_greenskin_stalker,grit_goggles:_grit_goggles,guerilla:_guerilla,guerrilla_mender:_guerrilla_mender,heart_of_clay:_heart_of_clay,heavenly_touch:_heavenly_touch,heir_of_chu_ye:_heir_of_chu_ye,hermean_paragon:_hermean_paragon,highlander:_highlander,holy_tattoo:_holy_tattoo,home_port:_home_port,honeyed_tongue:_honeyed_tongue,hongal_bloodrider:_hongal_bloodrider,huldras_luck:_huldras_luck,humble_beginnings:_humble_beginnings,hurricane_savvy:_hurricane_savvy,hwan_artist:_hwan_artist,iadaran_illusionist:_iadaran_illusionist,imperial_soldier:_imperial_soldier,indentured_blacksmith:_indentured_blacksmith,inspiring_speaker:_inspiring_speaker,instigator_of_rebellion:_instigator_of_rebellion,intrepid_delver:_intrepid_delver,iobarian_survivor:_iobarian_survivor,iron_lungs:_iron_lungs,iron_mind:_iron_mind,isger_fixer:_isger_fixer,isgeri_orphan:_isgeri_orphan,issian_noble:_issian_noble,jadwiga_medicine:_jadwiga_medicine,jungle_diplomat:_jungle_diplomat,jungle_guide:_jungle_guide,jungle_native:_jungle_native,jungle_resilience:_jungle_resilience,jungle_walker:_jungle_walker,justiciar:_justiciar,kami_talker:_kami_talker,keeper_of_the_veil:_keeper_of_the_veil,keleshite_trader:_keleshite_trader,kobolds_neighbor:_kobolds_neighbor,kwanlai_believer:_kwanlai_believer,kyonin_gatekeeper:_kyonin_gatekeeper,lair_snake:_lair_snake,lamasaran_performer:_lamasaran_performer,lastwall_cavalry_rider:_lastwall_cavalry_rider,left_behind:_left_behind,legalistic_liberation:_legalistic_liberation,lepidstadt_scar:_lepidstadt_scar,lichblood:_lichblood,linebreaker:_linebreaker,lingshens_finest:_lingshens_finest,lions_audacity:_lions_audacity,liquid_healing:_liquid_healing,local_know_it_all:_local_know_it_all,log_roller:_log_roller,lost_origins:_lost_origins,lost_role_model:_lost_role_model,mammoth_master:_mammoth_master,mana_wastes_medic:_mana_wastes_medic,mana_wastes_survivalist:_mana_wastes_survivalist,master_of_peaks:_master_of_peaks,mechanical_expertise:_mechanical_expertise,merabian_mentorship:_merabian_mentorship,merchant_of_katheer:_merchant_of_katheer,merchants_child:_merchants_child,militia:_militia,militia_veteran:_militia_veteran,minkai_advocate:_minkai_advocate,mivoni_duelist:_mivoni_duelist,mizu_ki_hikari_rebel:_mizu_ki_hikari_rebel,monkey_goblin:_monkey_goblin,mordant_heritage:_mordant_heritage,mountain_guide:_mountain_guide,mutabi_qi_explorer:_mutabi_qi_explorer,mwangi_herbal_tradition:_mwangi_herbal_tradition,mwangi_linguist:_mwangi_linguist,naga_emissary:_naga_emissary,narrow_escape:_narrow_escape,narrows_survivor:_narrows_survivor,naturalist:_naturalist,near_death_experience:_near_death_experience,necrotoxin_resistance:_necrotoxin_resistance,nexian_corpse_hunter:_nexian_corpse_hunter,nidalese_shadowcaster:_nidalese_shadowcaster,nightstall_urchin:_nightstall_urchin,nightstalls_escapee:_nightstalls_escapee,nirmathi_militia:_nirmathi_militia,noble_in_exile:_noble_in_exile,numerologist:_numerologist,oagan_diver:_oagan_diver,obsequious_morsel:_obsequious_morsel,observant_archer:_observant_archer,oenopion_alchemist:_oenopion_alchemist,offspring_of_the_ascension:_offspring_of_the_ascension,open_minded_explorer:_open_minded_explorer,orc_impaler:_orc_impaler,oregent_desperation:_oregent_desperation,oregent_timing:_oregent_timing,oregent_vandal:_oregent_vandal,osirionologist:_osirionologist,outsea_native:_outsea_native,palm_potion:_palm_potion,paraheen_weaponsmith:_paraheen_weaponsmith,passionate_believer:_passionate_believer,patrons_boon:_patrons_boon,pearl_diver_xidao:_pearl_diver_xidao,perseverance:_perseverance,pesh_addict:_pesh_addict,pesh_dealer:_pesh_dealer,pirate_duelist:_pirate_duelist,pitaxian_improvisation:_pitaxian_improvisation,plainsman:_plainsman,planar_negotiator_dhh:_planar_negotiator_dhh,poison_connoisseur:_poison_connoisseur,poisoned_blade_resistance:_poisoned_blade_resistance,pomp_and_pageantry:_pomp_and_pageantry,precocious_spellcaster:_precocious_spellcaster,prestigious_healer:_prestigious_healer,pretend_pirate:_pretend_pirate,prismati_player:_prismati_player,privileged_slave:_privileged_slave,prophet_of_burrows:_prophet_of_burrows,purchased_loyalty:_purchased_loyalty,pure_legion_recruit:_pure_legion_recruit,quain_martial_artist:_quain_martial_artist,quantium_university_graduate:_quantium_university_graduate,rabble_rebel:_rabble_rebel,rahadoumi_cultist:_rahadoumi_cultist,rahadoumi_disbeliever:_rahadoumi_disbeliever,rebel_leader:_rebel_leader,regional_influence:_regional_influence,regional_recluse:_regional_recluse,resourceful_alchemy:_resourceful_alchemy,resourceful_scavenger:_resourceful_scavenger,rice_runner:_rice_runner,rider_of_paresh:_rider_of_paresh,river_navigator:_river_navigator,river_rat:_river_rat,river_sniper:_river_sniper,riverfolk:_riverfolk,roof_racer:_roof_racer,runaway_slave:_runaway_slave,sargavan_guard:_sargavan_guard,savage_breaker:_savage_breaker,savanna_child:_savanna_child,scion_of_goblinblood:_scion_of_goblinblood,scion_of_the_shory:_scion_of_the_shory,scourge_of_the_seas:_scourge_of_the_seas,scrambling_servant:_scrambling_servant,screaming_leap:_screaming_leap,sea_souled:_sea_souled,seasoned_climber:_seasoned_climber,secret_revolutionary:_secret_revolutionary,secret_of_the_impossible_kingdom:_secret_of_the_impossible_kingdom,servitor_of_spirits:_servitor_of_spirits,sevenarches_seeker:_sevenarches_seeker,shackles_seafarer:_shackles_seafarer,shadow_dealer:_shadow_dealer,shadow_dissident:_shadow_dissident,shadow_shaman:_shadow_shaman,shadowsight:_shadowsight,shaer:_shaer,sharp_eyes:_sharp_eyes,shenmen_prospector:_shenmen_prospector,ship_aptitude:_ship_aptitude,shipboard_caster:_shipboard_caster,shoanti_tribesman:_shoanti_tribesman,signaler:_signaler,silent_watcher:_silent_watcher,silvertongued_eunuch:_silvertongued_eunuch,skilled_surgeon:_skilled_surgeon,sky_spirit_worshipper:_sky_spirit_worshipper,skymetal_affinity:_skymetal_affinity,slave_taker:_slave_taker,slayer_of_the_deep:_slayer_of_the_deep,snake_bleeder:_snake_bleeder,snake_handler:_snake_handler,snowstride:_snowstride,social_slaver:_social_slaver,sodden_chld:_sodden_chld,soldier_of_the_faith:_soldier_of_the_faith,solidarity:_solidarity,sophisticated_citizen:_sophisticated_citizen,sound_of_mind:_sound_of_mind,spell_duel_prodigy:_spell_duel_prodigy,spirit_animal:_spirit_animal,spiritual_forester:_spiritual_forester,star_reader:_star_reader,stargazer_region:_stargazer_region,storm_hunter:_storm_hunter,stormrunner:_stormrunner,stream_nomad:_stream_nomad,street_wary:_street_wary,suck_in_your_gut:_suck_in_your_gut,sun_orchid_harvester:_sun_orchid_harvester,sun_blasted:_sun_blasted,superstitious_isp:_superstitious_isp,superstitious_ward:_superstitious_ward,surefooted_ascent:_surefooted_ascent,surface_stranger:_surface_stranger,sustaining_performance:_sustaining_performance,swamp_rebel:_swamp_rebel,swamp_recluse:_swamp_recluse,swamp_skulker:_swamp_skulker,swamp_survivor:_swamp_survivor,swordlords_page:_swordlords_page,szaezan_crags_miner:_szaezan_crags_miner,tanglebriar_guerrilla:_tanglebriar_guerrilla,technic_tinkerer:_technic_tinkerer,technological_brewmaster:_technological_brewmaster,the_vessel_between:_the_vessel_between,thoughtful_wish_maker:_thoughtful_wish_maker,thuvian_merchant:_thuvian_merchant,tianjing_temple_guard:_tianjing_temple_guard,tiger_brigadier:_tiger_brigadier,touched_by_the_sky:_touched_by_the_sky,town_gossip:_town_gossip,trap_savvy:_trap_savvy,treasure_mapper:_treasure_mapper,treerazers_bane:_treerazers_bane,trench_navigator:_trench_navigator,triaxian_tradition:_triaxian_tradition,true_name_caller:_true_name_caller,tundra_child:_tundra_child,unafraid:_unafraid,underbridge_dweller:_underbridge_dweller,undermarket_smuggler:_undermarket_smuggler,unflinching_faith:_unflinching_faith,unstuck:_unstuck,uskwood_hunter:_uskwood_hunter,ustalavic_noble:_ustalavic_noble,uwaga_highlander:_uwaga_highlander,vagabond_child:_vagabond_child,valashmai_veteran:_valashmai_veteran,valknar_alumnus:_valknar_alumnus,varisian_wanderer:_varisian_wanderer,venicaan_medic:_venicaan_medic,vialesk_historian:_vialesk_historian,viking_blood:_viking_blood,voices_of_solid_things:_voices_of_solid_things,void_child:_void_child,walking_ward:_walking_ward,wardbreaker:_wardbreaker,warrior_poet:_warrior_poet,wary_potr:_wary_potr,watching_taldor:_watching_taldor,water_brave:_water_brave,wayang_spellhunter:_wayang_spellhunter,wealthy_dabbler:_wealthy_dabbler,weed_resistance:_weed_resistance,well_bred:_well_bred,wharf_rat:_wharf_rat,whip_specialist:_whip_specialist,whisper_woods_hunter:_whisper_woods_hunter,whitethrone_gourmand:_whitethrone_gourmand,whole_hearted:_whole_hearted,wild_wanderer:_wild_wanderer,windspeaker:_windspeaker,winners_luck:_winners_luck,winter_warrior:_winter_warrior,winters_soul:_winters_soul,witch_tongued:_witch_tongued,xa_hoi_soldier:_xa_hoi_soldier}
