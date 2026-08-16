@@ -1666,85 +1666,99 @@ const _traits_race_aasimar = {title: "Aasimar Traits", jsx: <IonList lines="full
 <Pair single id="traitadrift-adrift-fn1"><Link to="/trait/adrift">⮞</Link> Adrift <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1" id="main-traits_race_aasimar-fake-fn-1" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
-<Pair single="benefit" id="traitadrift-adrift-fn1-benefit">You never felt like you belonged in your family. You were different, an outsider, and you grew up unable to bond with the people around you. Now, as an adult, you are still a little odd and others have a hard time understanding what makes you tick. You receive a +1 trait bonus on saving throws made to resist charm and compulsion effects.</Pair>
+<Pair single="flavor" id="traitadrift-adrift-fn1-flavor">You never felt like you belonged in your family. You were different, an outsider, and you grew up unable to bond with the people around you. Now, as an adult, you are still a little odd and others have a hard time understanding what makes you tick.</Pair>
+<Pair single="benefit" id="traitadrift-adrift-fn1-benefit">You receive a +1 trait bonus on saving throws made to resist charm and compulsion effects.</Pair>
 </Ability>
 <Ability id="traitcelestialcommunity-celestial-community-fn2" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitcelestialcommunity-celestial-community-fn2"><Link to="/trait/celestial_community">⮞</Link> Celestial Community <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-2" id="main-traits_race_aasimar-fake-fn-2" data-hash-target to="main-traits_race_aasimar-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
-<Pair single="benefit" id="traitcelestialcommunity-celestial-community-fn2-benefit">Having been raised among other aasimars, you have a stronger connection to your planar heritage than most of your kind, and have more thoroughly explored your magical talent. You may expend your once per day spell-like ability to spontaneously cast cure light wounds (CL equal to your character level), but doing so is draining and you take an amount of nonlethal damage equal to half the number of hit points you heal.</Pair>
+<Pair single="flavor" id="traitcelestialcommunity-celestial-community-fn2-flavor">Having been raised among other aasimars, you have a stronger connection to your planar heritage than most of your kind, and have more thoroughly explored your magical talent.</Pair>
+<Pair single="benefit" id="traitcelestialcommunity-celestial-community-fn2-benefit">You may expend your once-per-day spell-like ability to spontaneously cast <Link to="/spell/cure_light_wounds">cure light wounds</Link> (CL equal to your character level), but doing so is draining and you take an amount of nonlethal damage equal to half the number of hit points you heal.</Pair>
 </Ability>
 <Ability id="traitcelestialcontact-celestial-contact-fn3" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitcelestialcontact-celestial-contact-fn3"><Link to="/trait/celestial_contact">⮞</Link> Celestial Contact <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-3" id="main-traits_race_aasimar-fake-fn-3" data-hash-target to="main-traits_race_aasimar-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
-<Pair single="benefit" id="traitcelestialcontact-celestial-contact-fn3-benefit">Witnessing a celestial intervention by your ancestor or a similar being inspired you with the power of good. Treat your caster level as 1 higher when you cast spells with the good descriptor.</Pair>
+<Pair single="flavor" id="traitcelestialcontact-celestial-contact-fn3-flavor">Witnessing a celestial intervention by your ancestor or a similar being inspired you with the power of good.</Pair>
+<Pair single="benefit" id="traitcelestialcontact-celestial-contact-fn3-benefit">Treat your caster level as 1 higher when you cast spells with the good descriptor.</Pair>
 </Ability>
 <Ability id="traitclergymember-clergy-member-fn1-2" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitclergymember-clergy-member-fn1-2"><Link to="/trait/clergy_member">⮞</Link> Clergy Member <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.2" id="main-traits_race_aasimar-fake-fn-1.2" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
-<Pair single="benefit" id="traitclergymember-clergy-member-fn1-2-benefit">You belong to a particular faith, and your religious leaders see you as a mortal aspect of their deity. You are treated with respect and graciousness whenever you visit a temple of your faith. You receive a +1 trait bonus on Diplomacy checks when interacting with ordained members of your religion, and once per week you can request aid from a temple of your faith. The GM has final say in what sort of aid you can reasonably request, but in general you may ask for the casting of a 1st-level spell or for a nonmagical item worth 50 gp or less.</Pair>
+<Pair single="flavor" id="traitclergymember-clergy-member-fn1-2-flavor">You belong to a particular faith, and your religious leaders see you as a mortal aspect of their deity. You are treated with respect and graciousness whenever you visit a temple of your faith.</Pair>
+<Pair single="benefit" id="traitclergymember-clergy-member-fn1-2-benefit">You receive a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks when interacting with ordained members of your religion, and once per week you can request aid from a temple of your faith. The GM has final say in what sort of aid you can reasonably request, but in general you may ask for the casting of a 1st-level spell or for a nonmagical item worth 50 gp or less.</Pair>
 </Ability>
 <Ability id="traitethicalleader-ethical-leader-fn1-3" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitethicalleader-ethical-leader-fn1-3"><Link to="/trait/ethical_leader">⮞</Link> Ethical Leader <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.3" id="main-traits_race_aasimar-fake-fn-1.3" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
-<Pair single="benefit" id="traitethicalleader-ethical-leader-fn1-3-benefit">You attract followers who agree with your philosophical outlook on life. Your followers and cohorts are more willing to serve you because of their confidence in your strong moral position. You gain a +1 trait bonus to your Leadership score if all your cohorts and followers have an alignment within one step of your alignment.</Pair>
+<Pair single="flavor" id="traitethicalleader-ethical-leader-fn1-3-flavor">You attract followers who agree with your philosophical outlook on life. Your followers and cohorts are more willing to serve you because of their confidence in your strong moral position.</Pair>
+<Pair single="benefit" id="traitethicalleader-ethical-leader-fn1-3-benefit">You gain a +1 trait bonus to your <Link to="/feat/leadership">Leadership</Link> score if all your cohorts and followers have an alignment within one step of your alignment.</Pair>
 </Ability>
 <Ability id="traitfaithhealer-faith-healer-fn1-4" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitfaithhealer-faith-healer-fn1-4"><Link to="/trait/faith_healer">⮞</Link> Faith Healer <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.4" id="main-traits_race_aasimar-fake-fn-1.4" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
-<Pair single="benefit" id="traitfaithhealer-faith-healer-fn1-4-benefit">You have an unearthly appearance and soothing aura about you that make people believe you are gifted with divine powers. You learned at a young age to make use of your gift in order to make money, and you've found ways to ethically justify your work. You can make a Heal check weekly to earn money as though making a Profession check. In addition, you gain a +1 trait bonus on Heal checks.</Pair>
+<Pair single="flavor" id="traitfaithhealer-faith-healer-fn1-4-flavor">You have an unearthly appearance and soothing aura about you that make people believe you are gifted with divine powers. You learned at a young age to make use of your gift in order to make money, and you've found ways to ethically justify your work.</Pair>
+<Pair single="benefit" id="traitfaithhealer-faith-healer-fn1-4-benefit">You can make a <Link to="/skill/heal">Heal</Link> check weekly to earn money as though making a <Link to="/skill/profession">Profession</Link> check. In addition, you gain a +1 trait bonus on Heal checks.</Pair>
 </Ability>
 <Ability id="traitidealizedcampaigner-idealized-campaigner-fn3-2" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitidealizedcampaigner-idealized-campaigner-fn3-2"><Link to="/trait/idealized_campaigner">⮞</Link> Idealized Campaigner <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-3.2" id="main-traits_race_aasimar-fake-fn-3.2" data-hash-target to="main-traits_race_aasimar-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
-<Pair single="benefit" id="traitidealizedcampaigner-idealized-campaigner-fn3-2-benefit">Your celestial bloodline leads others to idealize you from afar. You gain a +1 trait bonus on all Charisma-based skill checks to interact with good-aligned creatures who have never met you before.</Pair>
+<Pair single="flavor" id="traitidealizedcampaigner-idealized-campaigner-fn3-2-flavor">Your celestial bloodline leads others to idealize you from afar.</Pair>
+<Pair single="benefit" id="traitidealizedcampaigner-idealized-campaigner-fn3-2-benefit">You gain a +1 trait bonus on all Charisma-based skill checks to interact with good-aligned creatures who have never met you before.</Pair>
 </Ability>
 <Ability id="traitinnocent-innocent-fn1-5" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitinnocent-innocent-fn1-5"><Link to="/trait/innocent">⮞</Link> Innocent <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.5" id="main-traits_race_aasimar-fake-fn-1.5" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
-<Pair single="benefit" id="traitinnocent-innocent-fn1-5-benefit">No one can believe someone as pure as you could be deceptive in any way. You have an air of innocence about you, and people have a hard time believing you could ever do anyone harm. When you make a Bluff check to tell a lie, your target always wants to believe you, granting you the standard +5 bonus on your Bluff check. This bonus only applies if the lie you tell is either believable or unlikely.</Pair>
+<Pair single="flavor" id="traitinnocent-innocent-fn1-5-flavor">No one can believe someone as pure as you could be deceptive in any way. You have an air of innocence about you, and people have a hard time believing you could ever do anyone harm.</Pair>
+<Pair single="benefit" id="traitinnocent-innocent-fn1-5-benefit">When you make a <Link to="/skill/bluff">Bluff</Link> check to tell a lie, your target always wants to believe you, granting you the standard +5 bonus on your Bluff check. This bonus only applies if the lie you tell is either believable or unlikely.</Pair>
 </Ability>
 <Ability id="traitmartyrsblood-martyrs-blood-fn4" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitmartyrsblood-martyrs-blood-fn4"><Link to="/trait/martyrs_blood">⮞</Link> Martyr's Blood <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-4" id="main-traits_race_aasimar-fake-fn-4" data-hash-target to="main-traits_race_aasimar-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
-<Pair single="benefit" id="traitmartyrsblood-martyrs-blood-fn4-benefit">You carry the blood of a self-sacrificing celestial, and strive to live up to your potential for heroism. As long as your current hit point total is less than half of your maximum hit points possible, you gain a +1 trait bonus on attack rolls against evil foes.</Pair>
+<Pair single="flavor" id="traitmartyrsblood-martyrs-blood-fn4-flavor">You carry the blood of a self-sacrificing celestial, and strive to live up to your potential for heroism.</Pair>
+<Pair single="benefit" id="traitmartyrsblood-martyrs-blood-fn4-benefit">As long as your current hit point total is less than half of your maximum hit points possible, you gain a +1 trait bonus on attack rolls against evil foes.</Pair>
 </Ability>
 <Ability id="traitplanarnegotiatorboa-planar-negotiator-boa-fn1-6" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitplanarnegotiatorboa-planar-negotiator-boa-fn1-6"><Link to="/trait/planar_negotiator_boa">⮞</Link> Planar Negotiator (BoA) <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.6" id="main-traits_race_aasimar-fake-fn-1.6" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
-<Pair single="benefit" id="traitplanarnegotiatorboa-planar-negotiator-boa-fn1-6-benefit">You are skilled at convincing outsiders that you require their aid. Whenever you cast <Link to="/spell/lesser_planar_ally">lesser planar ally</Link>, <Link to="/spell/planar_ally">planar ally</Link>, or <Link to="/spell/greater_planar_ally">greater planar ally</Link>, you receive a 10% discount on the monetary cost required by the summoned outsiders. This bonus has no effect on services the outsiders may demand in order to strike a bargain.</Pair>
+<Pair single="flavor" id="traitplanarnegotiatorboa-planar-negotiator-boa-fn1-6-flavor">You are skilled at convincing outsiders that you require their aid.</Pair>
+<Pair single="benefit" id="traitplanarnegotiatorboa-planar-negotiator-boa-fn1-6-benefit">Whenever you cast <Link to="/spell/lesser_planar_ally">lesser planar ally</Link>, <Link to="/spell/planar_ally">planar ally</Link>, or <Link to="/spell/greater_planar_ally">greater planar ally</Link>, you receive a 10% discount on the monetary cost required by the summoned outsiders. This bonus has no effect on services the outsiders may demand in order to strike a bargain.</Pair>
 </Ability>
 <Ability id="traitselectivehealth-selective-health-fn1-7" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitselectivehealth-selective-health-fn1-7"><Link to="/trait/selective_health">⮞</Link> Selective Health <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.7" id="main-traits_race_aasimar-fake-fn-1.7" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
-<Pair single="benefit" id="traitselectivehealth-selective-health-fn1-7-benefit">You are resistant to most illnesses that strike those around you, but vulnerable to the contagions of evil. You gain a +2 trait bonus on Fortitude saves against diseases. However, whenever you must make a Fortitude saving throw against a disease inflicted by an undead creature or evil outsider (such as mummy rot or a vrock's spores), you do not gain this bonus, and instead take a -2 penalty on your Fortitude save.</Pair>
+<Pair single="flavor" id="traitselectivehealth-selective-health-fn1-7-flavor">You are resistant to most illnesses that strike those around you, but vulnerable to the contagions of evil.</Pair>
+<Pair single="benefit" id="traitselectivehealth-selective-health-fn1-7-benefit">You gain a +2 trait bonus on Fortitude saves against diseases. However, whenever you must make a Fortitude saving throw against a disease inflicted by an undead creature or evil outsider (such as <Link to="/curse/mummy_rot">mummy rot</Link> or a <Link to="/monster/vrock">vrock's</Link> spores), you do not gain this bonus, and instead take a -2 penalty on your Fortitude save.</Pair>
 </Ability>
 <Ability id="traitwaryboa-wary-boa-fn1-8" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitwaryboa-wary-boa-fn1-8"><Link to="/trait/wary_boa">⮞</Link> Wary (BoA) <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.8" id="main-traits_race_aasimar-fake-fn-1.8" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link></Pair>
-<Pair single="benefit" id="traitwaryboa-wary-boa-fn1-8-benefit">You grew up around people who were jealous of and hostile toward you. Perhaps your parents were not pleased to have a child touched by the divine - they may have berated or beaten you, or even sold you into slavery for an exorbitant price. You grew up mistrustful of others and believing your unique appearance to be a curse. You gain a +1 trait bonus on Disguise and Sense Motive checks.</Pair>
+<Pair single="flavor" id="traitwaryboa-wary-boa-fn1-8-flavor">You grew up around people who were jealous of and hostile toward you. Perhaps your parents were not pleased to have a child touched by the divine - they may have berated or beaten you, or even sold you into slavery for an exorbitant price. You grew up mistrustful of others and believing your unique appearance to be a curse.</Pair>
+<Pair single="benefit" id="traitwaryboa-wary-boa-fn1-8-benefit">You gain a +1 trait bonus on <Link to="/skill/disguise">Disguise</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks.</Pair>
 </Ability>
 <Ability id="traitcelestialtracker-celestial-tracker-fn1-9" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitcelestialtracker-celestial-tracker-fn1-9"><Link to="/trait/celestial_tracker">⮞</Link> Celestial Tracker <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.9" id="main-traits_race_aasimar-fake-fn-1.9" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Angelkin</Pair>
-<Pair single="benefit" id="traitcelestialtracker-celestial-tracker-fn1-9-benefit">You share the same talent for tracking evildoers that your angelic ancestor possessed. You gain a +1 trait bonus on Survival checks made to follow tracks. In addition, you treat trails as being up to 24 hours fresher than they actually are when using the Survival skill to follow tracks.</Pair>
+<Pair single="flavor" id="traitcelestialtracker-celestial-tracker-fn1-9-flavor">You share the same talent for tracking evildoers that your angelic ancestor possessed.</Pair>
+<Pair single="benefit" id="traitcelestialtracker-celestial-tracker-fn1-9-benefit">You gain a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks made to follow tracks. In addition, you treat trails as being up to 24 hours fresher than they actually are when using the Survival skill to follow tracks.</Pair>
 </Ability>
 <Ability id="traitplanetarsvisions-planetars-visions-fn1-10" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitplanetarsvisions-planetars-visions-fn1-10"><Link to="/trait/planetars_visions">⮞</Link> Planetar's Visions <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.10" id="main-traits_race_aasimar-fake-fn-1.10" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Angelkin</Pair>
-<Pair single="benefit" id="traitplanetarsvisions-planetars-visions-fn1-10-benefit">Ever since you were a child, you've experienced vivid dreams of cutting down hordes of shrieking, twisted demons. Whenever you succeed at a critical hit with a melee weapon against an evil outsider, you ignore an amount of the outsider's damage reduction (if any) equal to the critical multiplier of your weapon (this cannot reduce a creature's damage reduction to below 0).</Pair>
+<Pair single="flavor" id="traitplanetarsvisions-planetars-visions-fn1-10-flavor">Ever since you were a child, you've experienced vivid dreams of cutting down hordes of shrieking, twisted demons.</Pair>
+<Pair single="benefit" id="traitplanetarsvisions-planetars-visions-fn1-10-benefit">Whenever you succeed at a critical hit with a melee weapon against an evil outsider, you ignore an amount of the outsider's damage reduction (if any) equal to the critical multiplier of your weapon (this cannot reduce a creature's damage reduction to below 0).</Pair>
 </Ability>
 <Ability id="traitburnishedskin-burnished-skin-fn1-11" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitburnishedskin-burnished-skin-fn1-11"><Link to="/trait/burnished_skin">⮞</Link> Burnished Skin <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.11" id="main-traits_race_aasimar-fake-fn-1.11" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -1756,49 +1770,57 @@ const _traits_race_aasimar = {title: "Aasimar Traits", jsx: <IonList lines="full
 <Pair single id="traitpyromancer-pyromancer-fn1-12"><Link to="/trait/pyromancer">⮞</Link> Pyromancer <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.12" id="main-traits_race_aasimar-fake-fn-1.12" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Emberkin</Pair>
-<Pair single="benefit" id="traitpyromancer-pyromancer-fn1-12-benefit">You're especially adept at casting flame-based spells. You gain a +1 trait bonus on damage rolls for any spell you cast with the fire descriptor. Spells that do not deal damage do not benefit from this trait.</Pair>
+<Pair single="flavor" id="traitpyromancer-pyromancer-fn1-12-flavor">You're especially adept at casting flame-based spells.</Pair>
+<Pair single="benefit" id="traitpyromancer-pyromancer-fn1-12-benefit">You gain a +1 trait bonus on damage rolls for any spell you cast with the fire descriptor. Spells that do not deal damage do not benefit from this trait.</Pair>
 </Ability>
 <Ability id="traitenlightenedwarrior-enlightened-warrior-fn1-13" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitenlightenedwarrior-enlightened-warrior-fn1-13"><Link to="/trait/enlightened_warrior">⮞</Link> Enlightened Warrior <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.13" id="main-traits_race_aasimar-fake-fn-1.13" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Idyllkin</Pair>
-<Pair single="benefit" id="traitenlightenedwarrior-enlightened-warrior-fn1-13-benefit">You have always found it easy to maintain inner peace and enlightenment that translate well to the battlefield. You may take levels in monk even while maintaining a neutral or neutral good alignment.</Pair>
+<Pair single="flavor" id="traitenlightenedwarrior-enlightened-warrior-fn1-13-flavor">You have always found it easy to maintain inner peace and enlightenment that translate well to the battlefield.</Pair>
+<Pair single="benefit" id="traitenlightenedwarrior-enlightened-warrior-fn1-13-benefit">You may take levels in <Link to="/class/monk">monk</Link> even while maintaining a neutral or neutral good alignment.</Pair>
 </Ability>
 <Ability id="traitspeechofthewilds-speech-of-the-wilds-fn1-14" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitspeechofthewilds-speech-of-the-wilds-fn1-14"><Link to="/trait/speech_of_the_wilds">⮞</Link> Speech of the Wilds <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.14" id="main-traits_race_aasimar-fake-fn-1.14" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Idyllkin</Pair>
-<Pair single="benefit" id="traitspeechofthewilds-speech-of-the-wilds-fn1-14-benefit">Like your agathion ancestor, you have a knack for communicating with other creatures, and you are adept at breaking down language barriers. You can speak one extra language.</Pair>
+<Pair single="flavor" id="traitspeechofthewilds-speech-of-the-wilds-fn1-14-flavor">Like your <Link to="/family/agathion">agathion</Link> ancestor, you have a knack for communicating with other creatures, and you are adept at breaking down language barriers.</Pair>
+<Pair single="benefit" id="traitspeechofthewilds-speech-of-the-wilds-fn1-14-benefit">You can speak one extra <Link to="/misc/languages">language</Link>.</Pair>
 </Ability>
 <Ability id="traitgoodinfluence-good-influence-fn1-15" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitgoodinfluence-good-influence-fn1-15"><Link to="/trait/good_influence">⮞</Link> Good Influence <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.15" id="main-traits_race_aasimar-fake-fn-1.15" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Lawbringer</Pair>
-<Pair single="benefit" id="traitgoodinfluence-good-influence-fn1-15-benefit">You possess an innate ability to motivate and inspire others to do the right thing. You gain a +1 trait bonus on Diplomacy checks when attempting to persuade a nongood creature to make a decision that benefits the cause of good, and when persuading a nonlawful creature to make a decision in line with the laws of the region. These bonuses stack if you attempt to persuade a nongood, nonlawful creature to take a lawful good action.</Pair>
+<Pair single="flavor" id="traitgoodinfluence-good-influence-fn1-15-flavor">You possess an innate ability to motivate and inspire others to do the right thing.</Pair>
+<Pair single="benefit" id="traitgoodinfluence-good-influence-fn1-15-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks when attempting to persuade a nongood creature to make a decision that benefits the cause of good, and when persuading a nonlawful creature to make a decision in line with the laws of the region. These bonuses stack if you attempt to persuade a nongood, nonlawful creature to take a lawful good action.</Pair>
 </Ability>
 <Ability id="traitlanternspirit-lantern-spirit-fn1-16" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitlanternspirit-lantern-spirit-fn1-16"><Link to="/trait/lantern_spirit">⮞</Link> Lantern Spirit <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.16" id="main-traits_race_aasimar-fake-fn-1.16" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Lawbringer</Pair>
-<Pair single="benefit" id="traitlanternspirit-lantern-spirit-fn1-16-benefit">Your celestial ancestor was a lantern archon for centuries before ascending to a higher rank. You feel a strange sense of nostalgia whenever you use your continual flame spell-like ability, and can use it as a move action instead of a standard action.</Pair>
+<Pair single="flavor" id="traitlanternspirit-lantern-spirit-fn1-16-flavor">Your celestial ancestor was a <Link to="/monster/lantern_archon">lantern archon</Link> for centuries before ascending to a higher rank.</Pair>
+<Pair single="benefit" id="traitlanternspirit-lantern-spirit-fn1-16-benefit">You feel a strange sense of nostalgia whenever you use your <Link to="/spell/continual_flame">continual flame</Link> spell-like ability, and can use it as a <strong className="hl">move action</strong> instead of a standard action.</Pair>
 </Ability>
 <Ability id="traitbralanisstep-bralanis-step-fn1-17" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitbralanisstep-bralanis-step-fn1-17"><Link to="/trait/bralanis_step">⮞</Link> Bralani's Step <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.17" id="main-traits_race_aasimar-fake-fn-1.17" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Musetouched</Pair>
-<Pair single="benefit" id="traitbralanisstep-bralanis-step-fn1-17-benefit">Your ancestor was a bralani, an azata known for its untamed speed in battle. When in combat, you feel a fierce surge of energy through your limbs. Once per day, you may move an additional 5 feet as part of a move action.</Pair>
+<Pair single="flavor" id="traitbralanisstep-bralanis-step-fn1-17-flavor">Your ancestor was a <Link to="/monster/bralani">bralani</Link>, an azata known for its untamed speed in battle. When in combat, you feel a fierce surge of energy through your limbs.</Pair>
+<Pair single="benefit" id="traitbralanisstep-bralanis-step-fn1-17-benefit">Once per day, you may move an additional 5 feet as part of a move action.</Pair>
 </Ability>
 <Ability id="traitlillendsharp-lillends-harp-fn1-18" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitlillendsharp-lillends-harp-fn1-18"><Link to="/trait/lillends_harp">⮞</Link> Lillend's Harp <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.18" id="main-traits_race_aasimar-fake-fn-1.18" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Musetouched</Pair>
-<Pair single="benefit" id="traitlillendsharp-lillends-harp-fn1-18-benefit">Your ancestor was a lillend, a being of exceptional grace and singular musical talent. You gain a +1 trait bonus on Perform (string) checks. This bonus increases to +2 when you make a Perform check as part of a bardic performance.</Pair>
+<Pair single="flavor" id="traitlillendsharp-lillends-harp-fn1-18-flavor">Your ancestor was a <Link to="/monster/lillend">lillend</Link>, a being of exceptional grace and singular musical talent.</Pair>
+<Pair single="benefit" id="traitlillendsharp-lillends-harp-fn1-18-benefit">You gain a +1 trait bonus on <Link to="/skill/perform">Perform</Link> (string) checks. This bonus increases to +2 when you make a Perform check as part of a <Link to="/ability/bardic_performance">bardic performance</Link>.</Pair>
 </Ability>
 <Ability id="traitsnakehater-snake-hater-fn1-19" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitsnakehater-snake-hater-fn1-19"><Link to="/trait/snake_hater">⮞</Link> Snake Hater <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.19" id="main-traits_race_aasimar-fake-fn-1.19" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/aasimar">Aasimar</Link>; Plumekith</Pair>
-<Pair single="benefit" id="traitsnakehater-snake-hater-fn1-19-benefit">You've always loathed serpents and other slithering monsters, ever since you can remember, and have studied them extensively. You gain a +2 trait bonus on Knowledge (dungeoneering) checks and Knowledge (dungeoneering) is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitsnakehater-snake-hater-fn1-19-flavor">You've always loathed serpents and other slithering monsters, ever since you can remember, and have studied them extensively.</Pair>
+<Pair single="benefit" id="traitsnakehater-snake-hater-fn1-19-benefit">You gain a +2 trait bonus on <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> checks and Knowledge (dungeoneering) is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traittoxophilite-toxophilite-fn1-20" extraClasses="trait" icon={["person"]}>
 <Pair single id="traittoxophilite-toxophilite-fn1-20"><Link to="/trait/toxophilite">⮞</Link> Toxophilite <sup><InnerLink showBacklink="backlink-main-traits_race_aasimar-fake-fn-1.20" id="main-traits_race_aasimar-fake-fn-1.20" data-hash-target to="main-traits_race_aasimar-fake-fn-1-target">1</InnerLink></sup></Pair>
