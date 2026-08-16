@@ -2583,7 +2583,7 @@
 			"",
 			"@HL[Complexity:] This value is the DC of the Research check required to reduce the library's kp.",
 			"",
-			"@HL[Languages:] This lists the ‹misc/languages› necessary to navigate the library without magical aid or Linguistic checks. If a library has multiple languages, and the researcher does not possess the ability to read all the listed languages, she can still attempt checks, but for each language she doesn't know, she takes a -2 penalty on Research checks.",
+			"@HL[Languages:] This lists the ‹misc/languages› necessary to navigate the library without magical aid or Linguistics checks. If a library has multiple languages, and the researcher does not possess the ability to read all the listed languages, she can still attempt checks, but for each language she doesn't know, she takes a -2 penalty on Research checks.",
 			"",
 			"@HL[Research Check:] This entry lists the skills (usually Knowledge skills) that can be used to attempt Research checks. If a library allows untrained Knowledge checks due to the extensiveness of its collections, that is noted in this section as well.",
 			"",

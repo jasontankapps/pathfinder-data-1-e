@@ -348,7 +348,7 @@ const _forensic_physician = {title: "Forensic Physician", jsx: <><h2 id="arc-inv
 <Pair hl title="Replaces">Trapfinding</Pair>
 <Pair hl title="Alters">Inspiration</Pair>
 <Pair title="Gained">At 1st Level</Pair>
-<Pair title="Ability">A forensic physician can use <em>inspiration</em> on any Heal checks without expending a use, if he is trained in the skill, but not on any Linguistics check. If he later takes the <Link to="/invtalent/expanded_inspiration">expanded inspiration</Link> investigator talent, he can use <em>inspiration</em> on Linguistic checks without expending a use, if he is trained in the skill.</Pair>
+<Pair title="Ability">A forensic physician can use <em>inspiration</em> on any <Link to="/skill/heal">Heal</Link> checks without expending a use, if he is trained in the skill, but not on any <Link to="/skill/linguistics">Linguistics</Link> check. If he later takes the <Link to="/invtalent/expanded_inspiration">expanded inspiration</Link> investigator talent, he can use <em>inspiration</em> on Linguistics checks without expending a use, if he is trained in the skill.</Pair>
 <Pair title="Passive Ability">A forensic physician adds half his investigator level (minimum 1) on Heal checks. This bonus doubles on Heal checks to notice tampering with medical evidence, such as those used to defeat <Link to="/spell/dress_corpse">dress corpse</Link>.</Pair>
 </Ability>
 <Ability id="disease-lore-ex" icon={["upgrade"]}>

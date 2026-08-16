@@ -199,7 +199,7 @@ const _forest_kit = {title: "Forest kit", jsx: <><h2 id="eq-misc-forest_kit-fore
 </>};
 const _forgers_kit = {title: "Forger's kit", jsx: <><h2 id="eq-misc-forgers_kit-forgers-kit">Forger's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> 6 lbs.<br/><strong>Category</strong> Tools</p>
-<p>These inks, pens, papers, templates for certificates, and tools for modifying or copying official seals facilitates the creation of counterfeit documents. It grants a +2 circumstance bonus on Linguistic checks made for the purpose of making forgeries.</p>
+<p>These inks, pens, papers, templates for certificates, and tools for modifying or copying official seals facilitates the creation of counterfeit documents. It grants a +2 circumstance bonus on Linguistics checks made for the purpose of making forgeries.</p>
 </>};
 const _formula_book = {title: "Formula book", jsx: <><h2 id="eq-misc-formula_book-formula-book">Formula book</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link><br/><strong>Price</strong> 15 gp; <strong>Weight</strong> 3 lbs.<br/><strong>Category</strong> Tools</p>
