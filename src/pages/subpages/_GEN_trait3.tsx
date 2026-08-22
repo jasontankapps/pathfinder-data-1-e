@@ -411,42 +411,63 @@ const _touched_by_divinity = {title: "Touched by Divinity", topLink: ["Campaign 
 </Ability>
 </>};
 const _black_sheep = {title: "Black Sheep", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="black-sheep" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="black-sheep" extraClasses="trait hasSubs" icon={["treasure-map"]}>
 <Pair single id="black-sheep">Black Sheep</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair single="flavor" id="black-sheep-flavor">You were born and raised in town. You know many of the region's secrets and the locals already know who you are. You aren't quite hated in town, but folk seem to think you're a troublemaker and a bastard and not to be trusted. The town's tougher folk respect you, but the law-abiding citizens don't.</Pair>
-<Pair single="benefit" id="black-sheep-benefit"><p>You gain a +1 trait bonus on <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks, and Knowledge (local) is a class skill for you. In addition, you can choose any one notorious citizen from below as an ally; depending on the person you pick, you'll get different benefits.</p>
-<ul>
-<li><strong>Apothecary:</strong> Everyone suspects the sweaty, shifty-eyed apothecary sells poisons from his cluttered, acrid smelling wreck of a shop. You're one of the few in town who know this for a fact. You start the game with 400 gp worth of poison, and the apothecary will continue to sell you poison as long as you don't spread the word.</li>
-<li><strong>Bitter Nobleman:</strong> A local unscrupulous family was hit hard recently, revealing criminal ties that damaged its reputation as well. One noble is eager to rebuild his presence in town, and you're one of the ones he's selected as an agent. Choose one of the following skills: <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/sleight_of_hand">Sleight of Hand</Link>, or <Link to="/skill/stealth">Stealth</Link>. Your work for the family gives you a +1 trait bonus on that skill, and it is always a class skill for you.</li>
-</ul>
-</Pair>
+<Pair single="benefit" id="black-sheep-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks, and Knowledge (local) is a class skill for you. In addition, you can choose any one notorious citizen from below as an ally; depending on the person you pick, you'll get different benefits.</Pair>
+</Ability>
+<Ability id="apothecary" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="apothecary">Apothecary</Pair>
+<Pair single="flavor" id="apothecary-flavor">Everyone suspects the sweaty, shifty-eyed apothecary sells poisons from his cluttered, acrid smelling wreck of a shop. You're one of the few in town who know this for a fact.</Pair>
+<Pair single="benefit" id="apothecary-benefit">You start the game with 400 gp worth of poison, and the apothecary will continue to sell you poison as long as you don't spread the word.</Pair>
+</Ability>
+<Ability id="bitter-nobleman" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="bitter-nobleman">Bitter Nobleman</Pair>
+<Pair single="flavor" id="bitter-nobleman-flavor">A local unscrupulous family was hit hard recently, revealing criminal ties that damaged its reputation as well. One noble is eager to rebuild his presence in town, and you're one of the ones he's selected as an agent.</Pair>
+<Pair single="benefit" id="bitter-nobleman-benefit">Choose one of the following skills: <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/sleight_of_hand">Sleight of Hand</Link>, or <Link to="/skill/stealth">Stealth</Link>. Your work for the family gives you a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _favored_son_or_daughter = {title: "Favored Son or Daughter", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="favored-son-or-daughter" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="favored-son-or-daughter" extraClasses="trait hasSubs" icon={["treasure-map"]}>
 <Pair single id="favored-son-or-daughter">Favored Son or Daughter</Pair>
 <Pair title="Type">Campaign</Pair>
-<Pair single="flavor" id="favored-son-or-daughter-flavor">You were born and raised in the town of Sandpoint or its surrounding farms. You know many of the region's secrets, and the locals already know who you are. You are well liked in town, and you'll have lots of friends in the region, but the town's tougher side sees you as a snitch or a pansy.</Pair>
-<Pair single="benefit" id="favored-son-or-daughter-benefit"><p>You gain a +1 trait bonus on <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks, and Knowledge (local) is always a class skill for you. In addition, you can choose any one law-abiding citizen of Sandpoint from below as an ally; depending on the person you pick, you'll get different benefits.</p>
-<ul>
-<li><strong>Tavern Owner:</strong> One of the town's most influential and beloved nobles. Her inn/tavern is the most popular in town, and as one of her friends, you're guaranteed a place to eat and sleep for free. She's got lots of great contacts with merchants as well, and she'll sell any of your loot for you - as a result, you gain an additional 10% over the amount of gp you normally would get from selling off treasure.</li>
-<li><strong>Sherrif:</strong> The no nonsense arm of the law, is like the uncle you never had. The benefits of being close friends with the town sheriff are extensive, and you can call in favors from him once per game session. A favor can either get you out of a legal jam, hook you up with a town guard for help, or give you a one-time +10 bonus on a <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, or <Link to="/skill/intimidate">Intimidate</Link> check made against any local person.</li>
-</ul>
-</Pair>
+<Pair single="flavor" id="favored-son-or-daughter-flavor">You were born and raised in a small town or its surrounding farms. You know many of the region's secrets, and the locals already know who you are. You are well liked in town, and you'll have lots of friends in the region, but the town's tougher side sees you as a snitch or a pansy.</Pair>
+<Pair single="benefit" id="favored-son-or-daughter-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks, and Knowledge (local) is always a class skill for you. In addition, you can choose any one law-abiding citizen from below as an ally; depending on the person you pick, you'll get different benefits.</Pair>
+</Ability>
+<Ability id="tavern-owner" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="tavern-owner">Tavern Owner</Pair>
+<Pair single="benefit" id="tavern-owner-benefit">One of the town's most influential and beloved nobles runs an establishment. Her inn/tavern is the most popular in town, and as one of her friends, you're guaranteed a place to eat and sleep for free. She's got lots of great contacts with merchants as well, and she'll sell any of your loot for you - as a result, you gain an additional 10% over the amount of gp you normally would get from selling off treasure.</Pair>
+</Ability>
+<Ability id="sherrif" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="sherrif">Sherrif</Pair>
+<Pair single="benefit" id="sherrif-benefit">The no-nonsense arm of the law is like the uncle you never had. The benefits of being close friends with the town sheriff are extensive, and you can call in favors from him once per game session. A favor can either get you out of a legal jam, hook you up with a town guard for help, or give you a one-time +10 bonus on a <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, or <Link to="/skill/intimidate">Intimidate</Link> check made against any local person.</Pair>
 </Ability>
 </>};
 const _outlander = {title: "Outlander", topLink: ["Campaign Traits","main/traits_campaign"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_players_guide">Advanced Player's Guide</Link></p>
-<Ability id="outlander" extraClasses="trait" icon={["treasure-map"]}>
+<Ability id="outlander" extraClasses="trait hasSubs" icon={["treasure-map"]}>
 <Pair single id="outlander">Outlander</Pair>
 <Pair title="Type">Campaign</Pair>
 <Pair single="flavor" id="outlander-flavor">You are not from town; you've recently come from somewhere else and are hoping to make your fortune here.</Pair>
-<Pair single="benefit" id="outlander-benefit"><p>Pick one of the following reasons to be a newcomer to the area.</p>
-<ul>
-<li><strong>Lore Seeker:</strong> The secrets of an ancient fallen civilization intrigue you, particularly the magical traditions of its highly mystical culture. You've studied magic intensely, and hope to increase that knowledge by adding ancient lore. You've come to the region to pursue that study, and chose the town as your base because it was out of the way of bigger cities - meaning less competition to study the ancient monuments in the region, you hope! You gain a +1 trait bonus on <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> checks, and Knowledge (arcana) is a class skill for you. If you cast arcane spells, pick three spells on your spell list. You are particularly adept at casting these spells, so they function at +1 caster level when you cast them, and their save DCs (if any) gain a +1 bonus.</li>
-<li><strong>Exile:</strong> For whatever reason, you were forced to flee your homeland. Chance or fate has brought you to town, and it's here that your money ran out, leaving you stranded in this small town. You are also being pursued by enemies from your homeland, and that has made you paranoid and quick to react to danger. You gain a +2 trait bonus on Initiative checks.</li>
-<li><strong>Missionary:</strong> You have come to town to see about expanding the presence of your chosen faith after receiving visions that told you your faith is needed in the region - what that need is, though, you're not quite sure. You gain a +1 trait bonus on <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> checks, and Knowledge (religion) is a class skill for you. If you cast divine spells, pick three spells on your spell list. You are particularly adept at casting these spells, so they function at +1 caster level when you cast them, and their save DCs (if any) gain a +1 bonus.</li>
-</ul>
+<Pair single="benefit" id="outlander-benefit">Pick one of the following reasons to be a newcomer to the area.</Pair>
+</Ability>
+<Ability id="lore-seeker" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="lore-seeker">Lore Seeker</Pair>
+<Pair single="flavor" id="lore-seeker-flavor">The secrets of an ancient fallen civilization intrigue you, particularly the magical traditions of its highly mystical culture. You've studied magic intensely, and hope to increase that knowledge by adding ancient lore. You've come to the region to pursue that study, and chose the town as your base because it was out of the way of bigger cities - meaning less competition to study the ancient monuments in the region, you hope!</Pair>
+<Pair single="benefit" id="lore-seeker-benefit"><p>You gain a +1 trait bonus on <Link to="/skill/knowledge_arcana">Knowledge (arcana)</Link> checks, and Knowledge (arcana) is a class skill for you.</p>
+<p>If you cast arcane spells, pick three spells on your spell list. You are particularly adept at casting these spells, so they function at +1 caster level when you cast them, and their save DCs (if any) gain a +1 bonus.</p>
+</Pair>
+</Ability>
+<Ability id="exile" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="exile">Exile</Pair>
+<Pair single="flavor" id="exile-flavor">For whatever reason, you were forced to flee your homeland. Chance or fate has brought you to town, and it's here that your money ran out, leaving you stranded in this small town. You are also being pursued by enemies from your homeland, and that has made you paranoid and quick to react to danger.</Pair>
+<Pair single="benefit" id="exile-benefit">You gain a +2 trait bonus on Initiative checks.</Pair>
+</Ability>
+<Ability id="missionary" extraClasses="trait subTrait" icon={[]}>
+<Pair single id="missionary">Missionary</Pair>
+<Pair single="flavor" id="missionary-flavor">You have come to town to see about expanding the presence of your chosen faith after receiving visions that told you your faith is needed in the region - what that need is, though, you're not quite sure.</Pair>
+<Pair single="benefit" id="missionary-benefit"><p>You gain a +1 trait bonus on <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> checks, and Knowledge (religion) is a class skill for you.</p>
+<p>If you cast divine spells, pick three spells on your spell list. You are particularly adept at casting these spells, so they function at +1 caster level when you cast them, and their save DCs (if any) gain a +1 bonus.</p>
 </Pair>
 </Ability>
 </>};
