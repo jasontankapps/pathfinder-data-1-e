@@ -1492,7 +1492,7 @@ const _devout_visionary = {title: "Devout Visionary", topLink: ["Faith Traits","
 <Ability id="devout-visionary" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="devout-visionary">Devout Visionary</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="flavor" id="devout-visionary-flavor">As a child, you had a strange vision while suffering from a terrible illness, and only found your way back to the mundane world by following the call of a spiritual leader-perhaps a shaman's drum or a druid's lilting poetry. Since then, you have studied symbolism and dreams in the hope that you might understand your own vision, though your lessons prove just as helpful to others.</Pair>
+<Pair single="flavor" id="devout-visionary-flavor">As a child, you had a strange vision while suffering from a terrible illness, and only found your way back to the mundane world by following the call of a spiritual leader - perhaps a shaman's drum or a druid's lilting poetry. Since then, you have studied symbolism and dreams in the hope that you might understand your own vision, though your lessons prove just as helpful to others.</Pair>
 <Pair single="benefit" id="devout-visionary-benefit">You gain a +1 trait bonus on Will saving throws against spells and effects that grant the <Link to="/misc/confused">confused</Link> or <Link to="/misc/dazed">dazed</Link> condition. Once per day as a <strong className="hl">full-round action</strong>, you may grant an adjacent ally a new Will saving throw to end an effect that grants the confused or dazed condition.</Pair>
 </Ability>
 </>};
@@ -1817,7 +1817,7 @@ const _monastic = {title: "Monastic", topLink: ["Faith Traits","main/traits_fait
 <Ability id="monastic" extraClasses="trait" icon={["bolt-eye"]}>
 <Pair single id="monastic">Monastic</Pair>
 <Pair title="Type">Faith</Pair>
-<Pair single="flavor" id="monastic-flavor">Either your parents sent you to be raised in a monastery, or you traveled there yourself later in life in order to escape the conflict and distractions of the greater world. There you learned to eschew the material concerns that plague so many and cloud their minds, instead embracing an ascetic lifestyle. You readily let go and step away from trouble, free from any tie or baggage that might slow your path to enlightenment-figuratively or literally.</Pair>
+<Pair single="flavor" id="monastic-flavor">Either your parents sent you to be raised in a monastery, or you traveled there yourself later in life in order to escape the conflict and distractions of the greater world. There you learned to eschew the material concerns that plague so many and cloud their minds, instead embracing an ascetic lifestyle. You readily let go and step away from trouble, free from any tie or baggage that might slow your path to enlightenment - figuratively or literally.</Pair>
 <Pair single="benefit" id="monastic-benefit">Once per day as a <strong className="hl">swift action</strong>, you gain a +1 trait bonus to Armor Class as long as you are wearing no armor, not using a shield, carrying a light load, and have nothing in your hands. This bonus lasts for 1 minute.</Pair>
 </Ability>
 </>};
@@ -2237,7 +2237,7 @@ const _vile_domain = {title: "Vile Domain", topLink: ["Faith Traits","main/trait
 <Pair single id="vile-domain">Vile Domain</Pair>
 <Pair title="Type">Faith</Pair>
 <Pair single="flavor" id="vile-domain-flavor">Your connection with a malignant force has granted you great power.</Pair>
-<Pair single="benefit" id="vile-domain-benefit">Choose a domain granted by an evil aligned deity, such as an archdevil, demon lord, or Great Old One. You gain a +1 trait bonus to your caster level when casting spells that are granted by that domain. This doesn't grant you the ability to cast such spells-you must still have access to the spells through some other means.</Pair>
+<Pair single="benefit" id="vile-domain-benefit">Choose a domain granted by an evil aligned deity, such as an archdevil, demon lord, or Great Old One. You gain a +1 trait bonus to your caster level when casting spells that are granted by that domain. This doesn't grant you the ability to cast such spells - you must still have access to the spells through some other means.</Pair>
 </Ability>
 </>};
 const _wanderers_shroud = {title: "Wanderer's Shroud", topLink: ["Faith Traits","main/traits_faith"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>

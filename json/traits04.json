@@ -412,7 +412,7 @@
 		"compilationSources": [ [ "Blood of the Coven" ] ],
 		"category": "WestAvistan-Lands of the Linnorm Kings",
 		"description": [
-			"::trait{title=\"&L&Blessed of the Norns&FN&\" type=\"Regional\" region=\"Lands of the Linnorm Kings\" flavor=\"You or one of your parents belonged to a coven that honored the norns-powerful fey seers - and you still bear their favor in the form of a subtle sense for danger.\" benefit=\"You gain a +2 trait bonus on ‹skill/Perception› checks to notice traps and ambushes, and a +1 trait bonus to your AC against traps and during any surprise round in which you are caught unaware.\"}"
+			"::trait{title=\"&L&Blessed of the Norns&FN&\" type=\"Regional\" region=\"Lands of the Linnorm Kings\" flavor=\"You or one of your parents belonged to a coven that honored the norns - powerful fey seers - and you still bear their favor in the form of a subtle sense for danger.\" benefit=\"You gain a +2 trait bonus on ‹skill/Perception› checks to notice traps and ambushes, and a +1 trait bonus to your AC against traps and during any surprise round in which you are caught unaware.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -2452,7 +2452,7 @@
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
 		"category": "NEGarund-Katapesh",
 		"description": [
-			"::trait{title=\"&L&Nightstall Urchin&FN&\" type=\"Regional\" region=\"Katapesh\" flavor=\"You grew up an orphan on the streets of Katapesh, and spent many years of childhood in the Nightstalls, Katapesh's most infamous market. The strange and often horrific sights you saw there forced you to grow up fast-there's little that can shock or unsettle you.\" benefit=\"You gain a +2 trait bonus on saves against fear effects, and when you do make a successful save against a fear effect, the resulting rush of bravado grants you a +1 trait bonus on attack rolls and all skill checks for the next minute.\"}"
+			"::trait{title=\"&L&Nightstall Urchin&FN&\" type=\"Regional\" region=\"Katapesh\" flavor=\"You grew up an orphan on the streets of Katapesh, and spent many years of childhood in the Nightstalls, Katapesh's most infamous market. The strange and often horrific sights you saw there forced you to grow up fast - there's little that can shock or unsettle you.\" benefit=\"You gain a +2 trait bonus on saves against fear effects, and when you do make a successful save against a fear effect, the resulting rush of bravado grants you a +1 trait bonus on attack rolls and all skill checks for the next minute.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -2782,7 +2782,7 @@
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
 		"category": "Lung Wa-Kaoling",
 		"description": [
-			"::trait{title=\"&L&Privileged Slave&FN&\" type=\"Regional\" region=\"Kaoling\" flavor=\"You were enslaved by the hobgoblins of Kaoling, and obeyed your masters dutifully, turning your back on comrades in order to find favor with your slavers-all the while plotting your escape.\" benefit=\"You gain a +1 trait bonus on ‹skill/Bluff› checks, and Bluff becomes a class skill for you.\"}"
+			"::trait{title=\"&L&Privileged Slave&FN&\" type=\"Regional\" region=\"Kaoling\" flavor=\"You were enslaved by the hobgoblins of Kaoling, and obeyed your masters dutifully, turning your back on comrades in order to find favor with your slavers - all the while plotting your escape.\" benefit=\"You gain a +1 trait bonus on ‹skill/Bluff› checks, and Bluff becomes a class skill for you.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3046,7 +3046,7 @@
 			"",
 			":::aside",
 			"",
-			"There are no official stats for a scourge, but the ‹npc/Duergar Slaver› describes a scourge as \"a ‹eq-weapon/cat-o'-nine-tails› that deals lethal damage.\" &mdash; ‹source/Inner Sea NPC Codex« pg. 20›",
+			"There are no official stats for a scourge, but the ‹npc/Duergar Slaver› describes a scourge as \"a ‹eq-weapon/cat-o'-nine-tails› that deals lethal damage.\"",
 			"",
 			":::"
 		],
@@ -3111,7 +3111,7 @@
 		"compilationSources": [ [ "Healer's Handbook" ] ],
 		"category": "Tian Xia",
 		"description": [
-			"::trait{title=\"&L&Servitor of Spirits&FN&\" type=\"Regional\" region=\"Tian Xia\" flavor=\"For as long as you can remember, the spirits have always whispered into your ears and guided you-provided that you appease them.\" benefit=\"At the start of each day, you can choose one ‹ability/medium »spirit<s› and accept one of its *taboos* for 24 hours. As long as you don't break that *taboo,* once during the next 24 hours, you can add a +1 trait bonus to any one roll, check, or saving throw (but not to AC) listed under your chosen spirit's *spirit bonus.* Using this ability is a @HLfree_action that you can use even if it isn't your turn.~~~If you are a ‹class/medium›, the spirit you choose with this trait must be the same as the spirit you are channeling and vice versa\"}"
+			"::trait{title=\"&L&Servitor of Spirits&FN&\" type=\"Regional\" region=\"Tian Xia\" flavor=\"For as long as you can remember, the spirits have always whispered into your ears and guided you - provided that you appease them.\" benefit=\"At the start of each day, you can choose one ‹ability/medium »spirit<s› and accept one of its *taboos* for 24 hours. As long as you don't break that *taboo,* once during the next 24 hours, you can add a +1 trait bonus to any one roll, check, or saving throw (but not to AC) listed under your chosen spirit's *spirit bonus.* Using this ability is a @HLfree_action that you can use even if it isn't your turn.~~~If you are a ‹class/medium›, the spirit you choose with this trait must be the same as the spirit you are channeling and vice versa\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3687,7 +3687,7 @@
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
 		"category": "Eye of Abendego-Mediogalti",
 		"description": [
-			"::trait{title=\"&L&Treasure Mapper&FN&\" type=\"Regional\" region=\"Mediogalti\" flavor=\"You've spent a great deal of time hunting down and following treasure maps-most false, but a few with legitimate information.\" benefit=\"You gain a +2 bonus on ‹skill/Survival› or ‹skill/Profession› (sailor) checks made to navigate using a map or chart, and one of them becomes a class skill for you.\"}"
+			"::trait{title=\"&L&Treasure Mapper&FN&\" type=\"Regional\" region=\"Mediogalti\" flavor=\"You've spent a great deal of time hunting down and following treasure maps - most false, but a few with legitimate information.\" benefit=\"You gain a +2 bonus on ‹skill/Survival› or ‹skill/Profession› (sailor) checks made to navigate using a map or chart, and one of them becomes a class skill for you.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},

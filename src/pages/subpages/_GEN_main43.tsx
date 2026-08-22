@@ -1256,7 +1256,7 @@ const _traits_tian_xia = {title: "Regional Traits: Tian Xia", jsx: <IonList line
 <Pair single id="traitservitorofspirits-servitor-of-spirits-fn1-3"><Link to="/trait/servitor_of_spirits">⮞</Link> Servitor of Spirits <sup><InnerLink showBacklink="backlink-main-traits_tian_xia-fake-fn-1.3" id="main-traits_tian_xia-fake-fn-1.3" data-hash-target to="main-traits_tian_xia-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Tian Xia</Pair>
-<Pair single="flavor" id="traitservitorofspirits-servitor-of-spirits-fn1-3-flavor">For as long as you can remember, the spirits have always whispered into your ears and guided you-provided that you appease them.</Pair>
+<Pair single="flavor" id="traitservitorofspirits-servitor-of-spirits-fn1-3-flavor">For as long as you can remember, the spirits have always whispered into your ears and guided you - provided that you appease them.</Pair>
 <Pair single="benefit" id="traitservitorofspirits-servitor-of-spirits-fn1-3-benefit"><p>At the start of each day, you can choose one <Link to="/ability/spirits">medium spirit</Link> and accept one of its <em>taboos</em> for 24 hours. As long as you don't break that <em>taboo,</em> once during the next 24 hours, you can add a +1 trait bonus to any one roll, check, or saving throw (but not to AC) listed under your chosen spirit's <em>spirit bonus.</em> Using this ability is a <strong className="hl">free action</strong> that you can use even if it isn't your turn.</p>
 <p>If you are a <Link to="/class/medium">medium</Link>, the spirit you choose with this trait must be the same as the spirit you are channeling and vice versa</p>
 </Pair>
@@ -1548,7 +1548,7 @@ const _traits_lung_wa = {title: "Regional Traits: Former Lung Wa Empire", jsx: <
 <Pair single id="traitprivilegedslave-privileged-slave-fn3-8"><Link to="/trait/privileged_slave">⮞</Link> Privileged Slave <sup><InnerLink showBacklink="backlink-main-traits_lung_wa-fake-fn-3.8" id="main-traits_lung_wa-fake-fn-3.8" data-hash-target to="main-traits_lung_wa-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kaoling</Pair>
-<Pair single="flavor" id="traitprivilegedslave-privileged-slave-fn3-8-flavor">You were enslaved by the hobgoblins of Kaoling, and obeyed your masters dutifully, turning your back on comrades in order to find favor with your slavers-all the while plotting your escape.</Pair>
+<Pair single="flavor" id="traitprivilegedslave-privileged-slave-fn3-8-flavor">You were enslaved by the hobgoblins of Kaoling, and obeyed your masters dutifully, turning your back on comrades in order to find favor with your slavers - all the while plotting your escape.</Pair>
 <Pair single="benefit" id="traitprivilegedslave-privileged-slave-fn3-8-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks, and Bluff becomes a class skill for you.</Pair>
 </Ability>
 <Ability id="traitheartofclay-heart-of-clay-fn3-9" extraClasses="trait" icon={["planet-conquest"]}>

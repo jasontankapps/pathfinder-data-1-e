@@ -418,7 +418,7 @@ const _blessed_of_the_norns = {title: "Blessed of the Norns", topLink: ["Regiona
 <Pair single id="blessed-of-the-norns">Blessed of the Norns</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lands of the Linnorm Kings</Pair>
-<Pair single="flavor" id="blessed-of-the-norns-flavor">You or one of your parents belonged to a coven that honored the norns-powerful fey seers - and you still bear their favor in the form of a subtle sense for danger.</Pair>
+<Pair single="flavor" id="blessed-of-the-norns-flavor">You or one of your parents belonged to a coven that honored the norns - powerful fey seers - and you still bear their favor in the form of a subtle sense for danger.</Pair>
 <Pair single="benefit" id="blessed-of-the-norns-benefit">You gain a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks to notice traps and ambushes, and a +1 trait bonus to your AC against traps and during any surprise round in which you are caught unaware.</Pair>
 </Ability>
 </>};
@@ -2443,7 +2443,7 @@ const _nightstall_urchin = {title: "Nightstall Urchin", topLink: ["Regional Trai
 <Pair single id="nightstall-urchin">Nightstall Urchin</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
-<Pair single="flavor" id="nightstall-urchin-flavor">You grew up an orphan on the streets of Katapesh, and spent many years of childhood in the Nightstalls, Katapesh's most infamous market. The strange and often horrific sights you saw there forced you to grow up fast-there's little that can shock or unsettle you.</Pair>
+<Pair single="flavor" id="nightstall-urchin-flavor">You grew up an orphan on the streets of Katapesh, and spent many years of childhood in the Nightstalls, Katapesh's most infamous market. The strange and often horrific sights you saw there forced you to grow up fast - there's little that can shock or unsettle you.</Pair>
 <Pair single="benefit" id="nightstall-urchin-benefit">You gain a +2 trait bonus on saves against fear effects, and when you do make a successful save against a fear effect, the resulting rush of bravado grants you a +1 trait bonus on attack rolls and all skill checks for the next minute.</Pair>
 </Ability>
 </>};
@@ -2769,7 +2769,7 @@ const _privileged_slave = {title: "Privileged Slave", topLink: ["Regional Traits
 <Pair single id="privileged-slave">Privileged Slave</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Kaoling</Pair>
-<Pair single="flavor" id="privileged-slave-flavor">You were enslaved by the hobgoblins of Kaoling, and obeyed your masters dutifully, turning your back on comrades in order to find favor with your slavers-all the while plotting your escape.</Pair>
+<Pair single="flavor" id="privileged-slave-flavor">You were enslaved by the hobgoblins of Kaoling, and obeyed your masters dutifully, turning your back on comrades in order to find favor with your slavers - all the while plotting your escape.</Pair>
 <Pair single="benefit" id="privileged-slave-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks, and Bluff becomes a class skill for you.</Pair>
 </Ability>
 </>};
@@ -3033,7 +3033,7 @@ const _scourge_of_the_seas = {title: "Scourge of the Seas", topLink: ["Regional 
 <Pair single="flavor" id="scourge-of-the-seas-flavor">You have long appreciated the flamboyance and versatility of the whip, both as a weapon and a tool for enforcing discipline.</Pair>
 <Pair single="benefit" id="scourge-of-the-seas-benefit">When you wield a whip or scourge, you gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks. Additionally, once per day when you use a <Link to="/eq-weapon/whip">whip</Link> or <em>scourge</em> to perform a successful <Link to="/rule/disarm">disarm</Link> or <Link to="/rule/trip">trip</Link> combat maneuver against an opponent, you regain 1 point of grit or panache.</Pair>
 </Ability>
-<aside><p>There are no official stats for a scourge, but the <Link to="/npc/duergar_slaver">Duergar Slaver</Link> describes a scourge as "a <Link to="/eq-weapon/cat_o_nine_tails">cat-o'-nine-tails</Link> that deals lethal damage." &mdash; <Link to="/source/inner_sea_npc_codex">Inner Sea NPC Codex pg. 20</Link></p>
+<aside><p>There are no official stats for a scourge, but the <Link to="/npc/duergar_slaver">Duergar Slaver</Link> describes a scourge as "a <Link to="/eq-weapon/cat_o_nine_tails">cat-o'-nine-tails</Link> that deals lethal damage."</p>
 </aside></>};
 const _scrambling_servant = {title: "Scrambling Servant", topLink: ["Regional Traits","main/traits_regional"], jsx: <><p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook</Link></p>
 <Ability id="scrambling-servant" extraClasses="trait" icon={["planet-conquest"]}>
@@ -3097,7 +3097,7 @@ const _servitor_of_spirits = {title: "Servitor of Spirits", topLink: ["Regional 
 <Pair single id="servitor-of-spirits">Servitor of Spirits</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Tian Xia</Pair>
-<Pair single="flavor" id="servitor-of-spirits-flavor">For as long as you can remember, the spirits have always whispered into your ears and guided you-provided that you appease them.</Pair>
+<Pair single="flavor" id="servitor-of-spirits-flavor">For as long as you can remember, the spirits have always whispered into your ears and guided you - provided that you appease them.</Pair>
 <Pair single="benefit" id="servitor-of-spirits-benefit"><p>At the start of each day, you can choose one <Link to="/ability/spirits">medium spirit</Link> and accept one of its <em>taboos</em> for 24 hours. As long as you don't break that <em>taboo,</em> once during the next 24 hours, you can add a +1 trait bonus to any one roll, check, or saving throw (but not to AC) listed under your chosen spirit's <em>spirit bonus.</em> Using this ability is a <strong className="hl">free action</strong> that you can use even if it isn't your turn.</p>
 <p>If you are a <Link to="/class/medium">medium</Link>, the spirit you choose with this trait must be the same as the spirit you are channeling and vice versa</p>
 </Pair>
@@ -3674,7 +3674,7 @@ const _treasure_mapper = {title: "Treasure Mapper", topLink: ["Regional Traits",
 <Pair single id="treasure-mapper">Treasure Mapper</Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mediogalti</Pair>
-<Pair single="flavor" id="treasure-mapper-flavor">You've spent a great deal of time hunting down and following treasure maps-most false, but a few with legitimate information.</Pair>
+<Pair single="flavor" id="treasure-mapper-flavor">You've spent a great deal of time hunting down and following treasure maps - most false, but a few with legitimate information.</Pair>
 <Pair single="benefit" id="treasure-mapper-benefit">You gain a +2 bonus on <Link to="/skill/survival">Survival</Link> or <Link to="/skill/profession">Profession</Link> (sailor) checks made to navigate using a map or chart, and one of them becomes a class skill for you.</Pair>
 </Ability>
 </>};

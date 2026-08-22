@@ -70,6 +70,7 @@
 		"name": "Alchemical coal (choking smoke)",
 		"copyof": "alchemical_coal_blinding_cinders"
 	},
+	"choking_smoke": { "redirect": "alchemical_coal_choking_smoke" },
 	"alchemists_fire": {
 		"name": "Alchemist's fire",
 		"sources": [
@@ -3669,6 +3670,7 @@
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
+	"starknives": { "redirect": "starknife" },
 	"switchblade_knife": {
 		"name": "Switchblade knife",
 		"sources": [ "Adventurer's Armory" ],

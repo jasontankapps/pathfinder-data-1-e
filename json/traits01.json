@@ -1642,7 +1642,7 @@
 		"name": "Devout Visionary",
 		"compilationSources": [ [ "Faiths and Philosophies" ] ],
 		"description": [
-			"::trait{title=\"&L&Devout Visionary&FN&\" type=\"Faith\" flavor=\"As a child, you had a strange vision while suffering from a terrible illness, and only found your way back to the mundane world by following the call of a spiritual leader-perhaps a shaman's drum or a druid's lilting poetry. Since then, you have studied symbolism and dreams in the hope that you might understand your own vision, though your lessons prove just as helpful to others.\" benefit=\"You gain a +1 trait bonus on Will saving throws against spells and effects that grant the ‹misc/confused› or ‹misc/dazed› condition. Once per day as a @HLfull-round_action, you may grant an adjacent ally a new Will saving throw to end an effect that grants the confused or dazed condition.\"}"
+			"::trait{title=\"&L&Devout Visionary&FN&\" type=\"Faith\" flavor=\"As a child, you had a strange vision while suffering from a terrible illness, and only found your way back to the mundane world by following the call of a spiritual leader - perhaps a shaman's drum or a druid's lilting poetry. Since then, you have studied symbolism and dreams in the hope that you might understand your own vision, though your lessons prove just as helpful to others.\" benefit=\"You gain a +1 trait bonus on Will saving throws against spells and effects that grant the ‹misc/confused› or ‹misc/dazed› condition. Once per day as a @HLfull-round_action, you may grant an adjacent ally a new Will saving throw to end an effect that grants the confused or dazed condition.\"}"
 		],
 		"category": "Faith-def",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2014,7 +2014,7 @@
 		"name": "Monastic",
 		"compilationSources": [ [ "Faiths and Philosophies" ] ],
 		"description": [
-			"::trait{title=\"&L&Monastic&FN&\" type=\"Faith\" flavor=\"Either your parents sent you to be raised in a monastery, or you traveled there yourself later in life in order to escape the conflict and distractions of the greater world. There you learned to eschew the material concerns that plague so many and cloud their minds, instead embracing an ascetic lifestyle. You readily let go and step away from trouble, free from any tie or baggage that might slow your path to enlightenment-figuratively or literally.\" benefit=\"Once per day as a @HLswift_action, you gain a +1 trait bonus to Armor Class as long as you are wearing no armor, not using a shield, carrying a light load, and have nothing in your hands. This bonus lasts for 1 minute.\"}"
+			"::trait{title=\"&L&Monastic&FN&\" type=\"Faith\" flavor=\"Either your parents sent you to be raised in a monastery, or you traveled there yourself later in life in order to escape the conflict and distractions of the greater world. There you learned to eschew the material concerns that plague so many and cloud their minds, instead embracing an ascetic lifestyle. You readily let go and step away from trouble, free from any tie or baggage that might slow your path to enlightenment - figuratively or literally.\" benefit=\"Once per day as a @HLswift_action, you gain a +1 trait bonus to Armor Class as long as you are wearing no armor, not using a shield, carrying a light load, and have nothing in your hands. This bonus lasts for 1 minute.\"}"
 		],
 		"category": "Faith-def",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2482,7 +2482,7 @@
 		"name": "Vile Domain",
 		"compilationSources": [ [ "Monster Summoner's Handbook" ] ],
 		"description": [
-			"::trait{title=\"&L&Vile Domain&FN&\" type=\"Faith\" flavor=\"Your connection with a malignant force has granted you great power.\" benefit=\"Choose a domain granted by an evil aligned deity, such as an archdevil, demon lord, or Great Old One. You gain a +1 trait bonus to your caster level when casting spells that are granted by that domain. This doesn't grant you the ability to cast such spells-you must still have access to the spells through some other means.\"}"
+			"::trait{title=\"&L&Vile Domain&FN&\" type=\"Faith\" flavor=\"Your connection with a malignant force has granted you great power.\" benefit=\"Choose a domain granted by an evil aligned deity, such as an archdevil, demon lord, or Great Old One. You gain a +1 trait bonus to your caster level when casting spells that are granted by that domain. This doesn't grant you the ability to cast such spells - you must still have access to the spells through some other means.\"}"
 		],
 		"category": "Faith-magic",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]

@@ -1852,7 +1852,7 @@ const _traits_race_geniekin = {title: "Geniekin Traits", jsx: <IonList lines="fu
 <Pair single id="traitdualborn-dualborn-fn2-5"><Link to="/trait/dualborn">⮞</Link> Dualborn <sup><InnerLink showBacklink="backlink-main-traits_race_geniekin-fake-fn-2.5" id="main-traits_race_geniekin-fake-fn-2.5" data-hash-target to="main-traits_race_geniekin-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/suli">Suli</Link></Pair>
-<Pair single="flavor" id="traitdualborn-dualborn-fn2-5-flavor">You were not born of a janni-your non-human heritage can instead be traced back to some dualistic power between elemental realms.</Pair>
+<Pair single="flavor" id="traitdualborn-dualborn-fn2-5-flavor">You were not born of a janni - your non-human heritage can instead be traced back to some dualistic power between elemental realms.</Pair>
 <Pair single="benefit" id="traitdualborn-dualborn-fn2-5-benefit">Choose two energy types other than sonic (acid, cold, electricity, or fire). Once made, this choice cannot be changed. You gain racial energy resistance only to the energy types you choose, and not to others. When using your <em>elemental assault</em> ability, you can only sheath your arms in the energy types selected, but you can choose to sheath your primary hand with one of the selected energy types and your off-hand with the other. Attacks made with each hand (or a weapon held in each hand) deal bonus energy damage of the selected type. While wielding a two-handed weapon, half of the bonus energy damage is one energy type and half is the other.</Pair>
 </Ability>
 <Ability id="traitelementalcaller-elemental-caller-fn1-5" extraClasses="trait" icon={["person"]}>

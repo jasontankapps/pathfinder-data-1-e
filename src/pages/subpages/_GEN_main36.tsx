@@ -304,7 +304,7 @@ const _traits_north_west_avistan = {title: "Regional Traits: Northwestern Avista
 <Pair single id="traitblessedofthenorns-blessed-of-the-norns-fn6-2"><Link to="/trait/blessed_of_the_norns">⮞</Link> Blessed of the Norns <sup><InnerLink showBacklink="backlink-main-traits_north_west_avistan-fake-fn-6.2" id="main-traits_north_west_avistan-fake-fn-6.2" data-hash-target to="main-traits_north_west_avistan-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Lands of the Linnorm Kings</Pair>
-<Pair single="flavor" id="traitblessedofthenorns-blessed-of-the-norns-fn6-2-flavor">You or one of your parents belonged to a coven that honored the norns-powerful fey seers - and you still bear their favor in the form of a subtle sense for danger.</Pair>
+<Pair single="flavor" id="traitblessedofthenorns-blessed-of-the-norns-fn6-2-flavor">You or one of your parents belonged to a coven that honored the norns - powerful fey seers - and you still bear their favor in the form of a subtle sense for danger.</Pair>
 <Pair single="benefit" id="traitblessedofthenorns-blessed-of-the-norns-fn6-2-benefit">You gain a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks to notice traps and ambushes, and a +1 trait bonus to your AC against traps and during any surprise round in which you are caught unaware.</Pair>
 </Ability>
 <Ability id="traitcallofthelongships-call-of-the-longships-fn2-3" extraClasses="trait" icon={["planet-conquest"]}>
@@ -1612,7 +1612,7 @@ const _traits_eye_of_abendego = {title: "Regional Traits: Eye of Abendego", jsx:
 <Pair single id="traittreasuremapper-treasure-mapper-fn5-4"><Link to="/trait/treasure_mapper">⮞</Link> Treasure Mapper <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-5.4" id="main-traits_eye_of_abendego-fake-fn-5.4" data-hash-target to="main-traits_eye_of_abendego-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Mediogalti</Pair>
-<Pair single="flavor" id="traittreasuremapper-treasure-mapper-fn5-4-flavor">You've spent a great deal of time hunting down and following treasure maps-most false, but a few with legitimate information.</Pair>
+<Pair single="flavor" id="traittreasuremapper-treasure-mapper-fn5-4-flavor">You've spent a great deal of time hunting down and following treasure maps - most false, but a few with legitimate information.</Pair>
 <Pair single="benefit" id="traittreasuremapper-treasure-mapper-fn5-4-benefit">You gain a +2 bonus on <Link to="/skill/survival">Survival</Link> or <Link to="/skill/profession">Profession</Link> (sailor) checks made to navigate using a map or chart, and one of them becomes a class skill for you.</Pair>
 </Ability>
 <Ability id="traitjungleguide-jungle-guide-fn7" extraClasses="trait" icon={["planet-conquest"]}>
@@ -1672,7 +1672,7 @@ const _traits_eye_of_abendego = {title: "Regional Traits: Eye of Abendego", jsx:
 <Pair single="flavor" id="traitscourgeoftheseas-scourge-of-the-seas-fn4-2-fn9-flavor">You have long appreciated the flamboyance and versatility of the whip, both as a weapon and a tool for enforcing discipline.</Pair>
 <Pair single="benefit" id="traitscourgeoftheseas-scourge-of-the-seas-fn4-2-fn9-benefit">When you wield a whip or scourge, you gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks. Additionally, once per day when you use a <Link to="/eq-weapon/whip">whip</Link> or <em>scourge</em> to perform a successful <Link to="/rule/disarm">disarm</Link> or <Link to="/rule/trip">trip</Link> combat maneuver against an opponent, you regain 1 point of grit or panache.</Pair>
 </Ability>
-<aside><p>There are no official stats for a scourge, but the <Link to="/npc/duergar_slaver">Duergar Slaver</Link> describes a scourge as "a <Link to="/eq-weapon/cat_o_nine_tails">cat-o'-nine-tails</Link> that deals lethal damage." &mdash; <Link to="/source/inner_sea_npc_codex">Inner Sea NPC Codex pg. 20</Link></p>
+<aside><p>There are no official stats for a scourge, but the <Link to="/npc/duergar_slaver">Duergar Slaver</Link> describes a scourge as "a <Link to="/eq-weapon/cat_o_nine_tails">cat-o'-nine-tails</Link> that deals lethal damage."</p>
 </aside><Ability id="traitshacklesseafarer-shackles-seafarer-fn7-3" extraClasses="trait" icon={["planet-conquest"]}>
 <Pair single id="traitshacklesseafarer-shackles-seafarer-fn7-3"><Link to="/trait/shackles_seafarer">⮞</Link> Shackles Seafarer <sup><InnerLink showBacklink="backlink-main-traits_eye_of_abendego-fake-fn-7.3" id="main-traits_eye_of_abendego-fake-fn-7.3" data-hash-target to="main-traits_eye_of_abendego-fake-fn-7-target">7</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
@@ -2246,7 +2246,7 @@ const _traits_northeast_garund = {title: "Regional Traits: Northeastern Garund",
 <Pair single id="traitnightstallurchin-nightstall-urchin-fn4-4"><Link to="/trait/nightstall_urchin">⮞</Link> Nightstall Urchin <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.4" id="main-traits_northeast_garund-fake-fn-4.4" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Regional</Pair>
 <Pair title="Region" hl>Katapesh</Pair>
-<Pair single="flavor" id="traitnightstallurchin-nightstall-urchin-fn4-4-flavor">You grew up an orphan on the streets of Katapesh, and spent many years of childhood in the Nightstalls, Katapesh's most infamous market. The strange and often horrific sights you saw there forced you to grow up fast-there's little that can shock or unsettle you.</Pair>
+<Pair single="flavor" id="traitnightstallurchin-nightstall-urchin-fn4-4-flavor">You grew up an orphan on the streets of Katapesh, and spent many years of childhood in the Nightstalls, Katapesh's most infamous market. The strange and often horrific sights you saw there forced you to grow up fast - there's little that can shock or unsettle you.</Pair>
 <Pair single="benefit" id="traitnightstallurchin-nightstall-urchin-fn4-4-benefit">You gain a +2 trait bonus on saves against fear effects, and when you do make a successful save against a fear effect, the resulting rush of bravado grants you a +1 trait bonus on attack rolls and all skill checks for the next minute.</Pair>
 </Ability>
 <Ability id="traitnightstallsescapee-nightstalls-escapee-fn7" extraClasses="trait" icon={["planet-conquest"]}>
