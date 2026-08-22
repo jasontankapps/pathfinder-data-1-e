@@ -12,7 +12,9 @@
 					""
 				],
 				{
-					"limit": "Generic Race",
+					"limit": {
+						"regex": "^Generic Race"
+					},
 					"sort": [ "name" ]
 				},
 				[

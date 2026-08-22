@@ -388,7 +388,7 @@
 	},
 	"black_sheep": {
 		"name": "Black Sheep",
-		"category": "Generic Campaign",
+		"category": "Generic Campaign-cs-kl-item-bluff-soh-stl",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
 			"::trait{title=\"&L&Black Sheep&FN&\" type=\"Campaign\" singleBreaks flavor=\"You were born and raised in town. You know many of the region's secrets and the locals already know who you are. You aren't quite hated in town, but folk seem to think you're a troublemaker and a bastard and not to be trusted. The town's tougher folk respect you, but the law-abiding citizens don't.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (local)› checks, and Knowledge (local) is a class skill for you. In addition, you can choose any one notorious citizen from below as an ally; depending on the person you pick, you'll get different benefits.~~~~~~- **Apothecary:** Everyone suspects the sweaty, shifty-eyed apothecary sells poisons from his cluttered, acrid smelling wreck of a shop. You're one of the few in town who know this for a fact. You start the game with 400 gp worth of poison, and the apothecary will continue to sell you poison as long as you don't spread the word.~~~- **Bitter Nobleman:** A local unscrupulous family was hit hard recently, revealing criminal ties that damaged its reputation as well. One noble is eager to rebuild his presence in town, and you're one of the ones he's selected as an agent. Choose one of the following skills: ‹skill/Bluff›, ‹skill/Sleight of Hand›, or ‹skill/Stealth›. Your work for the family gives you a +1 trait bonus on that skill, and it is always a class skill for you.\"}"
@@ -398,7 +398,7 @@
 	"favored_son_or_daughter": {
 		"name": "Favored Son or Daughter",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
-		"category": "Generic Campaign",
+		"category": "Generic Campaign-cs-kl",
 		"description": [
 			"::trait{title=\"&L&Favored Son or Daughter&FN&\" type=\"Campaign\" flavor=\"You were born and raised in the town of Sandpoint or its surrounding farms. You know many of the region's secrets, and the locals already know who you are. You are well liked in town, and you'll have lots of friends in the region, but the town's tougher side sees you as a snitch or a pansy.\" benefit=\"You gain a +1 trait bonus on ‹skill/Knowledge (local)› checks, and Knowledge (local) is always a class skill for you. In addition, you can choose any one law-abiding citizen of Sandpoint from below as an ally; depending on the person you pick, you'll get different benefits.~~~~~~- **Tavern Owner:** One of the town's most influential and beloved nobles. Her inn/tavern is the most popular in town, and as one of her friends, you're guaranteed a place to eat and sleep for free. She's got lots of great contacts with merchants as well, and she'll sell any of your loot for you - as a result, you gain an additional 10% over the amount of gp you normally would get from selling off treasure.~~~- **Sherrif:** The no nonsense arm of the law, is like the uncle you never had. The benefits of being close friends with the town sheriff are extensive, and you can call in favors from him once per game session. A favor can either get you out of a legal jam, hook you up with a town guard for help, or give you a one-time +10 bonus on a ‹skill/Bluff›, ‹skill/Diplomacy›, or ‹skill/Intimidate› check made against any local person.\" singleBreaks}"
 		],
@@ -407,7 +407,7 @@
 	"outlander": {
 		"name": "Outlander",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
-		"category": "Generic Campaign",
+		"category": "Generic Campaign-cs-ka-init-kr-magic",
 		"description": [
 			"::trait{title=\"&L&Outlander&FN&\" type=\"Campaign\" flavor=\"You are not from town; you've recently come from somewhere else and are hoping to make your fortune here.\" singleBreaks benefit=\"Pick one of the following reasons to be a newcomer to the area.~~~~~~- **Lore Seeker:** The secrets of an ancient fallen civilization intrigue you, particularly the magical traditions of its highly mystical culture. You've studied magic intensely, and hope to increase that knowledge by adding ancient lore. You've come to the region to pursue that study, and chose the town as your base because it was out of the way of bigger cities - meaning less competition to study the ancient monuments in the region, you hope! You gain a +1 trait bonus on ‹skill/Knowledge (arcana)› checks, and Knowledge (arcana) is a class skill for you. If you cast arcane spells, pick three spells on your spell list. You are particularly adept at casting these spells, so they function at +1 caster level when you cast them, and their save DCs (if any) gain a +1 bonus.~~~- **Exile:** For whatever reason, you were forced to flee your homeland. Chance or fate has brought you to town, and it's here that your money ran out, leaving you stranded in this small town. You are also being pursued by enemies from your homeland, and that has made you paranoid and quick to react to danger. You gain a +2 trait bonus on Initiative checks.~~~- **Missionary:** You have come to town to see about expanding the presence of your chosen faith after receiving visions that told you your faith is needed in the region - what that need is, though, you're not quite sure. You gain a +1 trait bonus on ‹skill/Knowledge (religion)› checks, and Knowledge (religion) is a class skill for you. If you cast divine spells, pick three spells on your spell list. You are particularly adept at casting these spells, so they function at +1 caster level when you cast them, and their save DCs (if any) gain a +1 bonus.\"}"
 		],
@@ -437,7 +437,7 @@
 		"description": [
 			"::trait{title=\"&L&Extremely Fashionable&FN&\" type=\"Equipment\" flavor=\"You really know how to make a good impression when you're dressed well.\" benefit=\"Whenever you are wearing clothing and/or jewelry worth at least 150 gp (and not otherwise covered in gore, sewage, or other things that mar your overall look), you gain a +1 trait bonus on ‹skill/Bluff›, ‹skill/Diplomacy›, and ‹skill/Intimidate› checks. One of these skills (your choice) is a class skill for you.\"}"
 		],
-		"category": "Equipment",
+		"category": "Equipment-cs",
 		"topLink": [ "Equipment Traits", "main/traits_equipment" ]
 	},
 	"heirloom_weapon": {
@@ -464,7 +464,7 @@
 		"description": [
 			"::trait{title=\"&L&Iron Liver&FN&\" type=\"Equipment\" flavor=\"Due to a lucky constitution or frequent exposure, your body is resistant to poison, including alcohol and drugs.\" benefit=\"You gain a +2 trait bonus on Fortitude saves against poison and drugs, and a +4 trait bonus on Fortitude saves to avoid the effects of alcohol.\"}"
 		],
-		"category": "Equipment",
+		"category": "Equipment-def",
 		"topLink": [ "Equipment Traits", "main/traits_equipment" ]
 	},
 	"power_of_suggestion": {
@@ -561,7 +561,7 @@
 			"",
 			"::trait[Wilderness Wanderer Package]{jl sub flavor=\"This equipment package is appropriate for any lightly-armored combatant in the wild, such as a barbarian, hunter, or ranger. If the PC can cast spells, add a ‹eq-misc/spell component pouch› and ‹eq-misc/holly and mistletoe›. The GM might consider altering which weapon is masterwork, based on the PC's specialization. For example, an archery-focused ranger might prefer a masterwork composite longbow over a masterwork greataxe.\" subs=\"Armor~‹eq-armor/Light wooden quickdraw shield›, masterwork ‹eq-armor/studded leather« armor›.~~Weapons~‹eq-material/Cold iron› ‹eq-weapon/heavy_>flail›, ‹eq-weapon/composite longbow› with 20 ‹eq-weapon/arrow«s›, masterwork ‹eq-weapon/greataxe›, ‹eq-weapon/short sword›.~~Combat Gear~‹eq-weapon/Alchemist's fire› (2), ‹eq-misc/antitoxin›, potion of ‹spell/keen senses›, ‹eq-misc/sunrod«s› (3).~~Other Gear~‹eq-misc/Backpack›, ‹eq-misc/bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/chalk› (5 pieces), ‹eq-misc/climber's kit›, ‹eq-misc/cold-weather outfit›, ‹eq-misc/fishhook›, ‹eq-misc/flint and steel›, ‹eq-misc/mess kit›, ‹eq-misc/pole› (10 ft.), ‹eq-misc/shovel›, ‹eq-misc/signal whistle›, ‹eq-misc/silk rope (50 ft.)›, ‹eq-misc/trail rations› (5 days), ‹eq-misc/waterskin›, 2 sp.~~Total Weight~108-1/2 lbs. (63-1/4 lbs. for a Small character).\"}"
 		],
-		"category": "Equipment",
+		"category": "Equipment-item",
 		"topLink": [ "Equipment Traits", "main/traits_equipment" ]
 	},
 	"betrayal_of_trust": {
@@ -3532,7 +3532,7 @@
 		"description": [
 			"::trait{title=\"&L&The Thrush&FN&\" type=\"Cosmic\" req=\"Born between 18 Kuthona and 20 Abadius\" flavor=\"Like the curious songbirds that welcome weary travelers, your voice rings with sweet clarity.\" benefit=\"You gain a +1 bonus on ‹skill/Perform› (sing) checks, and Perform (sing) becomes a class skill for you.\"}"
 		],
-		"category": "Cosmic",
+		"category": "Cosmic-perf",
 		"topLink": [ "Cosmic Traits", "main/traits_cosmic" ]
 	},
 	"the_lantern_bearer": {
@@ -3541,7 +3541,7 @@
 		"description": [
 			"::trait{title=\"&L&The Lantern Bearer&FN&\" type=\"Cosmic\" req=\"Born between 21 Abadius and 16 Calistril\" flavor=\"You are bathed in the light of the Lantern Bearer, who guides the Caravan through the darkest nights.\" benefit=\"You can cast ‹spell/light› three times per day as a spell-like ability, treating your character level as your caster level.\"}"
 		],
-		"category": "Cosmic",
+		"category": "Cosmic-spell",
 		"topLink": [ "Cosmic Traits", "main/traits_cosmic" ]
 	},
 	"the_newlyweds": {
@@ -3550,7 +3550,7 @@
 		"description": [
 			"::trait{title=\"&L&The Newlyweds&FN&\" type=\"Cosmic\" req=\"Born between 17 Calistril and 11 Pharast\" flavor=\"Your sign is of two lovers, intertwined as one.\" benefit=\"You gain a +2 bonus on ‹skill/Diplomacy› checks to influence those who might be romantically attracted to you, and Diplomacy becomes a class skill for you.\"}"
 		],
-		"category": "Cosmic",
+		"category": "Cosmic-cs",
 		"topLink": [ "Cosmic Traits", "main/traits_cosmic" ]
 	},
 	"the_bridge": {
@@ -3559,7 +3559,7 @@
 		"description": [
 			"::trait{title=\"&L&The Bridge&FN&\" type=\"Cosmic\" req=\"Born between 12 Pharast and 18 Gozran\" flavor=\"The Bridge spans the rushing waters that separate the darkness of winter from the warmth of spring.\" benefit=\"You gain a +1 trait bonus on saving throws against spells and effects with the cold or darkness descriptors.\"}"
 		],
-		"category": "Cosmic",
+		"category": "Cosmic-def",
 		"topLink": [ "Cosmic Traits", "main/traits_cosmic" ]
 	},
 	"the_daughter": {
@@ -3586,7 +3586,7 @@
 		"description": [
 			"::trait{title=\"&L&The Patriarch&FN&\" type=\"Cosmic\" req=\"Born between 21 Sarenith and 20 Erastus\" flavor=\"Like the father of the Cosmic Caravan, you have an innate sense of direction.\" benefit=\"Three times per day, you can use ‹spell/know direction› as a spell-like ability, treating your character level as your caster level.\"}"
 		],
-		"category": "Cosmic",
+		"category": "Cosmic-spell",
 		"topLink": [ "Cosmic Traits", "main/traits_cosmic" ]
 	},
 	"the_wagon": {
@@ -3604,7 +3604,7 @@
 		"description": [
 			"::trait{title=\"&L&The Pack&FN&\" type=\"Cosmic\" req=\"Born between 11 Arodus and 16 Rova\" flavor=\"You are blessed by the beasts that trail the caravan, which represent protection in numbers.\" benefit=\"You gain a +2 trait bonus on ‹skill/Handle Animal› checks to teach animals tricks, and Handle Animal becomes a class skill for you.\"}"
 		],
-		"category": "Cosmic",
+		"category": "Cosmic-cs",
 		"topLink": [ "Cosmic Traits", "main/traits_cosmic" ]
 	},
 	"the_mother": {
@@ -3631,7 +3631,7 @@
 		"description": [
 			"::trait{title=\"&L&The Stranger&FN&\" type=\"Cosmic\" req=\"Born between 21 Neth and 29 Neth\" flavor=\"Like the lone traveler that walks alongside the caravan for but a brief while, you have a way with strangers.\" benefit=\"You gain a +1 trait bonus on ‹skill/Diplomacy› and ‹skill/Knowledge (local)› checks to gather information. Additionally, either Diplomacy or Knowledge (local) becomes a class skill for you.\"}"
 		],
-		"category": "Cosmic",
+		"category": "Cosmic-cs",
 		"topLink": [ "Cosmic Traits", "main/traits_cosmic" ]
 	},
 	"the_follower": {
@@ -3640,7 +3640,7 @@
 		"description": [
 			"::trait{title=\"&L&The Follower&FN&\" type=\"Cosmic\" req=\"Born between 30 Neth and 17 Kuthona\" flavor=\"You are born under the sign of the dark figure that trails the Caravan - the specter of death itself.\" benefit=\"You receive a +2 bonus on saving throws against death effects. All allies within 10 feet of you take a -1 penalty on saving throws against death effects.\"}"
 		],
-		"category": "Cosmic",
+		"category": "Cosmic-def",
 		"topLink": [ "Cosmic Traits", "main/traits_cosmic" ]
 	}
 }

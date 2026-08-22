@@ -269,7 +269,9 @@
 					""
 				],
 				{
-					"limit": "Equipment",
+					"limit": {
+						"regex": "^Equipment"
+					},
 					"replacements": [
 						[ "\\bjl\\b[^ }]* *", "" ]
 					]
@@ -338,7 +340,9 @@
 					""
 				],
 				{
-					"limit": "Cosmic"
+					"limit": {
+						"regex": "^Cosmic"
+					}
 				},
 				[
 					"",

@@ -3823,7 +3823,7 @@
 	"blood_of_dragons": {
 		"name": "Blood of Dragons",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
-		"category": "Generic Race",
+		"category": "Generic Race-per-def",
 		"description": [
 			"::trait{title=\"&L&Blood of Dragons&FN&\" type=\"Race\" flavor=\"Long ago, your ancestors' blood mixed with that of dragons.\" benefit=\"Choose one of the following: gain a +1 trait bonus on ‹skill/Perception› checks, gain low-light vision, or gain a +2 trait bonus on saving throws against effects that cause sleep or paralysis.\"}"
 		],
@@ -3832,7 +3832,7 @@
 	"deathtouched": {
 		"name": "Deathtouched",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
-		"category": "Generic Race",
+		"category": "Generic Race-def",
 		"description": [
 			"::trait{title=\"&L&Deathtouched&FN&\" type=\"Race\" req=\"Any\" flavor=\"At some point you were tainted with the corruption of the undead, and you have gained some of their defenses.\" benefit=\"You gain either a +1 trait bonus on Fortitude saving throws or a +2 trait bonus on saving throws against mind-affecting effects (your choice).\"}"
 		],
@@ -3841,7 +3841,7 @@
 	"draconic_lineage": {
 		"name": "Draconic Lineage",
 		"compilationSources": [ [ "Legacy of Dragons" ] ],
-		"category": "Generic Race",
+		"category": "Generic Race-def",
 		"description": [
 			"::trait{title=\"&L&Draconic Lineage&FN&\" type=\"Race\" benefit=\"Somewhere in your family line, draconic power entered your bloodline. As a result of this lineage, you gain a +1 trait bonus on saving throws against fear and against any effect created by a creature of the dragon type. If you gain a bloodrager or sorcerer bloodline, you must choose *draconic.*\"}"
 		],
@@ -3850,7 +3850,7 @@
 	"fiend_blood": {
 		"name": "Fiend Blood",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
-		"category": "Generic Race",
+		"category": "Generic Race-cs-bluff-intm-kp",
 		"description": [
 			"::trait{title=\"&L&Fiend Blood&FN&\" type=\"Race\" req=\"Any\" flavor=\"The blood of fiends taints your line, manifesting physically, though it may be barely noticeable.\" benefit=\"Choose one of the following skills: ‹skill/Bluff›, ‹skill/Intimidate›, or ‹skill/Knowledge (planes)›. You gain a +1 trait bonus on checks with that skill, and it is always a class skill for you.\"}"
 		],

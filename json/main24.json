@@ -38,7 +38,7 @@
 				],
 				{
 					"limit": {
-						"regex": "^(Faith|Social|Magic|Combat).*-def\\b"
+						"regex": "^(Faith|Social|Magic|Combat|Generic Race|Equipment).*-def\\b"
 					},
 					"sort": [ "name" ]
 				},
@@ -63,7 +63,7 @@
 				],
 				{
 					"limit": {
-						"regex": "^(Faith|Social|Magic|Combat).*-init\\b"
+						"regex": "^(Faith|Social|Magic|Combat|Generic Campaign).*-init\\b"
 					},
 					"sort": [ "name" ]
 				},
@@ -113,7 +113,7 @@
 				],
 				{
 					"limit": {
-						"regex": "^(Faith|Social|Magic|Combat).*-cs\\b"
+						"regex": "^(Faith|Social|Magic|Combat|Cosmic|Generic (?:Campaign|Race)|Equipment).*-cs\\b"
 					},
 					"sort": [ "name" ]
 				},
@@ -138,7 +138,7 @@
 				],
 				{
 					"limit": {
-						"regex": "^(Faith|Social|Magic|Combat).*-item\\b"
+						"regex": "^(Faith|Social|Magic|Combat|Equipment|Generic Campaign).*-item\\b"
 					},
 					"sort": [ "name" ]
 				},

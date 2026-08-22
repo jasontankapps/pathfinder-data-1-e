@@ -44,33 +44,33 @@
 			"",
 			"::main[Offense Traits]{to=main/traits_off bottom=\"Affects attack rolls, damage, etc; 78 traits\"}",
 			"",
-			"::main[Defense Traits]{to=main/traits_def bottom=\"Affects armor bonuses, saving throws, etc; 115 traits\"}",
+			"::main[Defense Traits]{to=main/traits_def bottom=\"Affects armor bonuses, saving throws, etc; 120 traits\"}",
 			"",
-			"::main[Initiative Traits]{to=main/traits_init bottom=\"Affects initiative or the surprise round; 10 traits\"}",
+			"::main[Initiative Traits]{to=main/traits_init bottom=\"Affects initiative or the surprise round; 11 traits\"}",
 			"",
 			"::main[Class-Specific Traits]{to=main/traits_class bottom=\"Requires a class ability to function; organized by class; 68 traits\"}",
 			"",
 			"::main[Language Traits]{to=main/traits_lang bottom=\"Grants a bonus language; 6 traits\"}",
 			"",
-			"::main[Class Skill Traits]{to=main/traits_cs bottom=\"Grants a bonus class skill; 71 traits\"}",
+			"::main[Class Skill Traits]{to=main/traits_cs bottom=\"Grants a bonus class skill; 79 traits\"}",
 			"",
-			"::main[Bonus Gear Traits]{to=main/traits_item bottom=\"Gives free money or items; 6 traits\"}",
+			"::main[Bonus Gear Traits]{to=main/traits_item bottom=\"Gives free money or items; 8 traits\"}",
 			"",
-			"::main[Spell Ability Traits]{to=main/traits_spell bottom=\"Grants a spell, spell-like-ability, or an ability that duplicates a spell; 21 traits\"}",
+			"::main[Spell Ability Traits]{to=main/traits_spell bottom=\"Grants a spell, spell-like-ability, or an ability that duplicates a spell; 23 traits\"}",
 			"",
-			"::main[Magic-Related Traits]{to=main/traits_basic_magic bottom=\"Affects caster level, or other spellcasting ability; 47 traits\"}",
+			"::main[Magic-Related Traits]{to=main/traits_basic_magic bottom=\"Affects caster level, or other spellcasting ability; 48 traits\"}",
 			"",
 			"::mainheader[Basic Traits by Straight Skill Bonus]",
 			"",
-			"::main[Strength/Dexterity Traits]{to=main/traits_sk_str bottom=\"Gives plain bonus to Acrobatics, Climb, Disable Device, Escape Artist, Fly, Ride, Sleight of Hand, Stealth, or Swim; 16 traits\"}",
+			"::main[Strength/Dexterity Traits]{to=main/traits_sk_str bottom=\"Gives plain bonus to Acrobatics, Climb, Disable Device, Escape Artist, Fly, Ride, Sleight of Hand, Stealth, or Swim; 14 traits\"}",
 			"",
 			"::main[Socializing Traits]{to=main/traits_sk_soc bottom=\"Gives plain bonus to Bluff, Diplomacy, Intimidate, or Sense Motive; 25 traits\"}",
 			"",
-			"::main[Knowledge Traits]{to=main/traits_sk_k bottom=\"Gives plain bonus to a Knowledge skill; 26 traits\"}",
+			"::main[Knowledge Traits]{to=main/traits_sk_k bottom=\"Gives plain bonus to a Knowledge skill; 22 traits\"}",
 			"",
 			"::main[Observational Traits]{to=main/traits_sk_obs bottom=\"Gives plain bonus to Appraise, Linguistics, Perception, Spellcraft, or Survival; 16 traits\"}",
 			"",
-			"::main[Talent Traits]{to=main/traits_sk_tal bottom=\"Gives plain bonus to Craft, Heal, Disguise, Handle Animal, Perform, Profession, or Use Magic Device; 17 traits\"}"
+			"::main[Talent Traits]{to=main/traits_sk_tal bottom=\"Gives plain bonus to Craft, Heal, Disguise, Handle Animal, Perform, Profession, or Use Magic Device; 15 traits\"}"
 		],
 		"searchgroup": "trait"
 	},
@@ -2147,7 +2147,7 @@
 				],
 				{
 					"limit": {
-						"regex": "(?:(?:Magic|Social).*?-(acro|climb|dd|ea|ride|soh|stl|swim)\\b!|(?:Faith|Combat).*?-(acro|ea|fly|ride|stl)\\b)"
+						"regex": "(?:(?:Magic|Social).*?-(acro|climb|dd|ea|ride|soh|stl|swim)\\b!|(?:Faith|Combat|Generic Campaign).*?-(acro|ea|fly|ride|stl|soh)\\b)"
 					},
 					"sort": [ "match-p", "name" ]
 				},
@@ -2172,7 +2172,7 @@
 				],
 				{
 					"limit": {
-						"regex": "(?:(?:Magic|Social).*?-(bluff|diplo|intm|sm)\\b!|(?:Faith|Combat).*?-(bluff|diplo|intm|sm)\\b)"
+						"regex": "(?:(?:Magic|Social).*?-(bluff|diplo|intm|sm)\\b!|(?:Faith|Combat|Generic (?:Campaign|Race)).*?-(bluff|diplo|intm|sm)\\b)"
 					},
 					"sort": [ "match-p", "name" ]
 				},
@@ -2197,7 +2197,7 @@
 				],
 				{
 					"limit": {
-						"regex": "(?:(?:Magic|Social).*?-(k[adehl]|kn[ao])\\b!|(?:Faith|Combat).*?-(k[aghpr]|kn[ao])\\b)"
+						"regex": "(?:(?:Magic|Social).*?-(k[adehl]|kn[ao])\\b!|(?:Faith|Combat|Generic (?:Race|Campaign)).*?-(k[aghlpr]|kn[ao])\\b)"
 					},
 					"sort": [ "match-p", "name" ]
 				},
@@ -2222,7 +2222,7 @@
 				],
 				{
 					"limit": {
-						"regex": "(?:(?:Magic|Social).*?-(app|ling|per|spc|sur)\\b!|(?:Faith|Combat).*?-(spc)\\b)"
+						"regex": "(?:(?:Magic|Social).*?-(app|ling|per|spc|sur)\\b!|(?:Faith|Combat|Generic Race).*?-(spc|per)\\b)"
 					},
 					"sort": [ "match-p", "name" ]
 				},
@@ -2247,7 +2247,7 @@
 				],
 				{
 					"limit": {
-						"regex": "(?:(?:Magic|Social).*?-(craft|dis|ha|heal|perf|prof|umd)\\b!|(?:Faith|Combat).*?-(craft|heal)\\b)"
+						"regex": "(?:(?:Magic|Social).*?-(craft|dis|ha|heal|perf|prof|umd)\\b!|(?:Faith|Combat|Cosmic).*?-(craft|heal|perf)\\b)"
 					},
 					"sort": [ "match-p", "name" ]
 				},

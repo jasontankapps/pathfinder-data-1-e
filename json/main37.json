@@ -12,7 +12,9 @@
 					""
 				],
 				{
-					"limit": "Generic Campaign"
+					"limit": {
+						"regex": "^Generic Campaign"
+					}
 				},
 				[
 					"",
@@ -299,7 +301,7 @@
 				],
 				{
 					"limit": {
-						"regex": "^(Faith|Social|Magic|Combat).*-spellX?\\b"
+						"regex": "^(Faith|Social|Magic|Combat|Cosmic).*-spellX?\\b"
 					},
 					"sort": [ "name" ]
 				},
@@ -324,7 +326,7 @@
 				],
 				{
 					"limit": {
-						"regex": "^(Faith|Social|Magic|Combat).*-magic\\b"
+						"regex": "^(Faith|Social|Magic|Combat|Generic Campaign).*-magic\\b"
 					},
 					"sort": [ "name" ]
 				},
