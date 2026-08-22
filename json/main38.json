@@ -854,33 +854,6 @@
 			]
 		}
 	},
-	"traits_race_skinwalker": {
-		"title": "Skinwalker Traits",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Race Traits]{to=main/traits_race rev}",
-					"",
-					"%%%item",
-					""
-				],
-				{
-					"limit": { "regex": "\\bSkinwalker\\b(?!-)" },
-					"sort": [ "name" ]
-				},
-				{
-					"limit": { "regex": "\\bSkinwalker-[^,]+" },
-					"sort": [ "match", "name" ]
-				},
-				[
-					"",
-					"%%%"
-				]
-			]
-		}
-	},
 	"traits_race_triaxian": {
 		"title": "Triaxian Traits",
 		"searchgroup": "trait",
@@ -896,52 +869,6 @@
 				{
 					"limit": "Triaxian",
 					"sort": [ "name" ]
-				},
-				[
-					"",
-					"%%%"
-				]
-			]
-		}
-	},
-	"traits_race_vampire": {
-		"title": "Vampire Traits",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Race Traits]{to=main/traits_race rev}",
-					"",
-					"%%%item",
-					""
-				],
-				{
-					"limit": { "regex": "\\bVampire-[^,]+" },
-					"sort": [ "match", "name" ]
-				},
-				[
-					"",
-					"%%%"
-				]
-			]
-		}
-	},
-	"traits_race_other_races": {
-		"title": "Other Races Traits",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Race Traits]{to=main/traits_race rev}",
-					"",
-					"%%%item",
-					""
-				],
-				{
-					"limit": { "regex": "\\bOther Races-[^,]+" },
-					"sort": [ "match", "name" ]
 				},
 				[
 					"",

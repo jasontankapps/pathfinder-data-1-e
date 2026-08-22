@@ -1483,103 +1483,6 @@ const _traits_social_magic = {title: "Spell/Magic-Related Social Traits", jsx: <
 <li id="main-traits_social_magic-fake-fn-8-target"><p><Link to="/source/blood_of_the_ancients">Blood of the Ancients</Link> pg. 29 <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_social_magic-fake-fn-8" data-hash-target to="main-traits_social_magic-fake-fn-8">↩</InnerLink></p></li>
 <li id="main-traits_social_magic-fake-fn-9-target"><p><Link to="/source/legacy_of_dragons">Legacy of Dragons</Link> <InnerLink aria-label="Back to reference 9" id="backlink-main-traits_social_magic-fake-fn-9" data-hash-target to="main-traits_social_magic-fake-fn-9">↩</InnerLink></p></li>
 </ol></section></IonList>};
-const _traits_social_code = {title: "Knightly Code Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitcalculatedbribe-calculated-bribe-fn1" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitcalculatedbribe-calculated-bribe-fn1"><Link to="/trait/calculated_bribe">⮞</Link> Calculated Bribe <sup><InnerLink showBacklink="backlink-main-traits_social_code-fake-fn-1" id="main-traits_social_code-fake-fn-1" data-hash-target to="main-traits_social_code-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair title="Code of Perseverance" hl><p>Knights who follow the code of perseverance believe that to truly serve a purpose, an organization or group of individuals must first look to its own survival. Deeds are temporary and forgotten with time. For an organization to be influential, it must persist. These knights collect power and wealth, always looking to the future. Their vows are as follows.</p>
-<ul>
-<li>I will take on no challenges out of charity. Any task that I undertake for another individual will have an associated price, though it may not be monetary in nature.</li>
-<li>I shall let neither compassion nor hatred rob me of wealth. I will not give wealth away to those who have done nothing for me, nor shall I engage in needless destruction of potential resources.</li>
-<li>I will set aside a fraction of all my spoils to guard against any chances of future poverty.</li>
-<li>If I have an opportunity to seize power, I will not hesitate to take it if it will strengthen my position.</li>
-<li>I will not take unnecessary risks that place my future or the future of my organization in jeopardy.</li>
-</ul>
-</Pair>
-<Pair single="flavor" id="traitcalculatedbribe-calculated-bribe-fn1-flavor">If you follow this code, you are keenly aware of the value of actions as well as goods.</Pair>
-<Pair single="benefit" id="traitcalculatedbribe-calculated-bribe-fn1-benefit"><p>Once per day while haggling with a merchant or striking a bargain with another intelligent creature, you can spend a number of gold pieces equal to your level &times; 10 in order to reroll a <Link to="/skill/diplomacy">Diplomacy</Link> check you just made, before the results are revealed. You must take the result of the reroll, even if it's worse than the original roll.</p>
-<p>In addition, you begin play with a set of extravagant noble's clothes worth 100 gp.</p>
-</Pair>
-<Pair title="Penance" hl>Knights who violate this code must perform penance by placing money into a fund to guard against their order's future poverty. The amount required for a knight to set aside is 100 gold &times; the knight's current level.</Pair>
-</Ability>
-<Ability id="traitcontagiousmettle-contagious-mettle-fn1-2" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitcontagiousmettle-contagious-mettle-fn1-2"><Link to="/trait/contagious_mettle">⮞</Link> Contagious Mettle <sup><InnerLink showBacklink="backlink-main-traits_social_code-fake-fn-1.2" id="main-traits_social_code-fake-fn-1.2" data-hash-target to="main-traits_social_code-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair title="Code of Valor" hl><p>Knights who follow the code of valor believe that nothing is more important than courage in battle. The strength of knights is determined by their willingness to stand in the face of overwhelming odds. Without valor, knighthood is merely a title. Their vows are as follows.</p>
-<ul>
-<li>I will accept any challenge to combat if given honorably, regardless of my opponent.</li>
-<li>If I know combat to be the best course of action, I shall not let an enemy discourage me from it with a threat of overwhelming force.</li>
-<li>Once battle is a forgone conclusion, I will be among the first of my allies to charge and engage our foes.</li>
-<li>I shall not willingly succumb to fear. If retreat is a necessity, I will be among the last of my allies to leave the field of battle.</li>
-<li>I will not leave any of my allies on the field, nor will I abandon them while they are in immediate danger.</li>
-</ul>
-</Pair>
-<Pair single="benefit" id="traitcontagiousmettle-contagious-mettle-fn1-2-benefit">If you follow this code, you gain a +1 trait bonus on Will saves against fear. In addition, any allies adjacent to you receive a +1 morale bonus on Will saves against fear.</Pair>
-<Pair title="Penance" hl>Knights who violate this code must perform penance by volunteering their service to a local militia, army, or fighting company for at least 1 week, whether by performing unusual missions, leading troops into battle, or assisting in the training of soldiers.</Pair>
-</Ability>
-<Ability id="traitdismantleorder-dismantle-order-fn1-3" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitdismantleorder-dismantle-order-fn1-3"><Link to="/trait/dismantle_order">⮞</Link> Dismantle Order <sup><InnerLink showBacklink="backlink-main-traits_social_code-fake-fn-1.3" id="main-traits_social_code-fake-fn-1.3" data-hash-target to="main-traits_social_code-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair title="Code of Revolution" hl><p>Knights who follow the code of revolution believe that strict laws are an unnecessary bulwark standing in the way of social progress. According to these knights, intelligent and civilized people are inherently good-natured, and if left to their own devices, individuals would prove more wholesome and attuned to the natural order of things than when tainted by the unnatural strictures of organized society. Their vows are as follows.</p>
-<ul>
-<li><p>The wicked must be punished, though not by the hands of corrupted officials or easily swayed politicians.</p>
-</li>
-<li><p>I shall not let stand acts of unfairness performed by governments or their harbingers. Those who contribute to an organized system of cruelty shall feel my wrath.</p>
-</li>
-<li><p>All prisoners, regardless of whether they were convicted or not, deserve a second chance.</p>
-</li>
-<li><p>Tribal or lawless societies exemplify the natural order, and under my watch shall not come to harm from those who would seek to rule them.</p>
-</li>
-<li><p>Those creatures who live free shall see no harm fall to them by myself or my sword.</p>
-</li>
-<li><p>I shall not place unnecessary value on material possessions, as such things are fleeting, whereas deeds are immortal.</p>
-</li>
-</ul>
-</Pair>
-<Pair single="flavor" id="traitdismantleorder-dismantle-order-fn1-3-flavor">If you follow this code, your appreciation for unfettered social freedom allows you to locate supporters of law with supernatural ease.</Pair>
-<Pair single="benefit" id="traitdismantleorder-dismantle-order-fn1-3-benefit">Once per day, you can use <Link to="/spell/detect_law">detect law</Link> as a spell-like ability (caster level 1st). If you have levels in a class that can cast <em>detect law,</em> your caster level for this spell-like ability is equal to that class level.</Pair>
-<Pair title="Penance" hl>Knights who follow this code and violate one of its tenets must separate themselves from society in order to atone for their misdoing. The minimum amount of time spent wholly isolated from civilization is 1 week, though this time might be increased to up to 1 month, depending on the transgression.</Pair>
-</Ability>
-<Ability id="traitenemyofslavers-enemy-of-slavers-fn1-4" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitenemyofslavers-enemy-of-slavers-fn1-4"><Link to="/trait/enemy_of_slavers">⮞</Link> Enemy of Slavers <sup><InnerLink showBacklink="backlink-main-traits_social_code-fake-fn-1.4" id="main-traits_social_code-fake-fn-1.4" data-hash-target to="main-traits_social_code-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair title="Code of Freedom" hl><p>Knights who follow the code of freedom believe that no man, woman, or child should be owned by another individual. They believe that all of the humanoid races, even those of monstrous descent, deserve to be given a chance to make their own decisions in life. Their vows are as follows.</p>
-<ul>
-<li>I will not tolerate slavery in any form. If I witness one individual being sold to another, I will intervene with words or actions as necessary.</li>
-<li>If I encounter any escaped slaves, I will make it my duty to take them under my care until they find a safe home.</li>
-<li>I shall not willingly deal with any who support or benefit from slavery.</li>
-<li>I keep no slaves. Those who wait upon me do so of their own volition or because they are in my employ and are treated with the utmost respect.</li>
-<li>When visiting others who keep servants, I will treat them honorably. I shall inquire as to their happiness and treatment. Those who are treated as no more than slaves will gain my strength to support them.</li>
-<li>Shackles and bonds are forbidden unless used on an individual convicted of a crime. Placing another person in chains is akin to being a slaver.</li>
-</ul>
-</Pair>
-<Pair single="benefit" id="traitenemyofslavers-enemy-of-slavers-fn1-4-benefit"><p>If you follow this code, you are known to be single-minded with regard to slavery, and this fervent belief is easily perceived by others. Those who deal in flesh have a greater desire to appease you before matters escalate to confrontation, knowing that your wrath will be unwavering and swift.
-You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks made to sway the minds of slavers and anyone who otherwise keeps innocent people against their will.</p>
-</Pair>
-<Pair title="Penance" hl>Knights who violate any of this code's tenets must perform penance by placing themselves in servitude to the individual who was wronged. If the exact individual cannot be found, a person of equivalent social class is sufficient. The length of servitude is dependent on the severity of the transgression. Minor transgressions require a day. If an entire family was enslaved as a result of the knight's actions (or inaction), up to a month of servitude might be required.</Pair>
-</Ability>
-<Ability id="traitlawenforcer-law-enforcer-fn1-5" extraClasses="trait" icon={["village"]}>
-<Pair single id="traitlawenforcer-law-enforcer-fn1-5"><Link to="/trait/law_enforcer">⮞</Link> Law Enforcer <sup><InnerLink showBacklink="backlink-main-traits_social_code-fake-fn-1.5" id="main-traits_social_code-fake-fn-1.5" data-hash-target to="main-traits_social_code-fake-fn-1-target">1</InnerLink></sup></Pair>
-<Pair title="Type">Social</Pair>
-<Pair title="Code of Vigilance" hl><p>Knights who follow the code of vigilance believe that people are prone to chaos and society will eventually devolve into anarchy if given the opportunity. In order for society to continue, these knights must constantly remind people of the law, and take it upon themselves to enforce it in the absence of other authority figures. Their vows are as follows.</p>
-<ul>
-<li><p>I will be familiar with local laws and adhere to them strictly.</p>
-</li>
-<li><p>If I witness a crime, I will attempt to capture the criminal and report his actions to the authorities.</p>
-</li>
-<li><p>If any I meet are known to be escaped criminals, I will attempt to apprehend them by any means necessary.</p>
-</li>
-<li><p>I shall mete out appropriate punishment for those who violate the law, but only if no acceptable authority is readily available.</p>
-</li>
-<li><p>I shall remember that none are above the law, and that law is absolute. There shall be no mitigating circumstances for any individual, regardless of station or position.</p>
-</li>
-</ul>
-</Pair>
-<Pair single="benefit" id="traitlawenforcer-law-enforcer-fn1-5-benefit">If you follow this code, you are always alert to those who transgress against the laws of civilization. You receive a +2 bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to gain a hunch from social situations, and begin play with a pair of <Link to="/eq-misc/masterwork_manacles">masterwork manacles</Link>.</Pair>
-<Pair title="Penance" hl>Knights who follow this code and violate one of its tenets must perform penance based on the violation. If they are disgraced for violating the law when it was not acceptable, they must voluntarily surrender to the appropriate authority and receive proper punishment. If they allowed a criminal to escape, they must assist in the capture and punishment of the criminal.</Pair>
-</Ability>
-</IonLabel></IonItem><section data-footnotes><h3 id="main-traits_social_code-label">Footnotes</h3><ol>
-<li id="main-traits_social_code-fake-fn-1-target"><p><Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_code-fake-fn-1" data-hash-target to="main-traits_social_code-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_code-fake-fn-1.2" data-hash-target to="main-traits_social_code-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_code-fake-fn-1.3" data-hash-target to="main-traits_social_code-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_code-fake-fn-1.4" data-hash-target to="main-traits_social_code-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_code-fake-fn-1.5" data-hash-target to="main-traits_social_code-fake-fn-1.5">↩<sup>5</sup></InnerLink></p></li>
-</ol></section></IonList>};
 const _traits_social_lang = {title: "Language Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitelementalnegotiator-elemental-negotiator-fn1" extraClasses="trait" icon={["village"]}>
 <Pair single id="traitelementalnegotiator-elemental-negotiator-fn1"><Link to="/trait/elemental_negotiator">⮞</Link> Elemental Negotiator <sup><InnerLink showBacklink="backlink-main-traits_social_lang-fake-fn-1" id="main-traits_social_lang-fake-fn-1" data-hash-target to="main-traits_social_lang-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Social</Pair>
@@ -2364,4 +2267,4 @@ const _traits_social_k = {title: "Knowledge Social Traits", jsx: <IonList lines=
 <li id="main-traits_social_k-fake-fn-13-target"><p><Link to="/source/heroes_of_the_streets">Heroes of the Streets</Link> <InnerLink aria-label="Back to reference 13" id="backlink-main-traits_social_k-fake-fn-13" data-hash-target to="main-traits_social_k-fake-fn-13">↩</InnerLink></p></li>
 <li id="main-traits_social_k-fake-fn-14-target"><p><Link to="/source/path_of_the_hellknight">Path of the Hellknight</Link> <InnerLink aria-label="Back to reference 14" id="backlink-main-traits_social_k-fake-fn-14" data-hash-target to="main-traits_social_k-fake-fn-14">↩</InnerLink></p></li>
 </ol></section></IonList>};
-export default {traits_social:_traits_social,traits_social_all:_traits_social_all,traits_social_off:_traits_social_off,traits_social_def:_traits_social_def,traits_social_class:_traits_social_class,traits_social_magic:_traits_social_magic,traits_social_code:_traits_social_code,traits_social_lang:_traits_social_lang,traits_social_bluff:_traits_social_bluff,traits_social_diplo:_traits_social_diplo,traits_social_intm:_traits_social_intm,traits_social_k:_traits_social_k}
+export default {traits_social:_traits_social,traits_social_all:_traits_social_all,traits_social_off:_traits_social_off,traits_social_def:_traits_social_def,traits_social_class:_traits_social_class,traits_social_magic:_traits_social_magic,traits_social_lang:_traits_social_lang,traits_social_bluff:_traits_social_bluff,traits_social_diplo:_traits_social_diplo,traits_social_intm:_traits_social_intm,traits_social_k:_traits_social_k}

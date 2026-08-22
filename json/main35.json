@@ -309,53 +309,5 @@
 				]
 			]
 		}
-	},
-	"traits_social_prod": {
-		"title": "Productive Skill Social Traits",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Social Traits]{to=main/traits_social rev}",
-					"",
-					"%%%item",
-					""
-				],
-				{
-					"limit": {
-						"regex": "^Social.*-(perf|prof|craft)"
-					}
-				},
-				[
-					"",
-					"%%%"
-				]
-			]
-		}
-	},
-	"traits_social_other": {
-		"title": "Other Social Traits",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Social Traits]{to=main/traits_social rev}",
-					"",
-					"%%%item",
-					""
-				],
-				{
-					"limit": {
-						"regex": "^Social.*-other"
-					}
-				},
-				[
-					"",
-					"%%%"
-				]
-			]
-		}
 	}
 }

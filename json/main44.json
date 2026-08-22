@@ -165,30 +165,6 @@
 			]
 		}
 	},
-	"traits_social_code": {
-		"title": "Knightly Code Social Traits",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Social Traits]{to=main/traits_social rev}",
-					"",
-					"%%%item",
-					""
-				],
-				{
-					"limit": {
-						"regex": "^Social.*-code"
-					}
-				},
-				[
-					"",
-					"%%%"
-				]
-			]
-		}
-	},
 	"traits_social_lang": {
 		"title": "Language Social Traits",
 		"searchgroup": "trait",

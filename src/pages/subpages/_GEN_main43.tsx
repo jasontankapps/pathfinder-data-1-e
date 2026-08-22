@@ -2140,4 +2140,364 @@ const _traits_race_tiefling = {title: "Tiefling Traits", jsx: <IonList lines="fu
 <li id="main-traits_race_tiefling-fake-fn-5-target"><p><Link to="/source/people_of_the_wastes">People of the Wastes</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_race_tiefling-fake-fn-5" data-hash-target to="main-traits_race_tiefling-fake-fn-5">↩</InnerLink></p></li>
 <li id="main-traits_race_tiefling-fake-fn-6-target"><p><Link to="/source/bastards_of_golarion">Bastards of Golarion</Link> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_race_tiefling-fake-fn-6" data-hash-target to="main-traits_race_tiefling-fake-fn-6">↩</InnerLink></p></li>
 </ol></section></IonList>};
-export default {traits_religion_lg:_traits_religion_lg,traits_religion_ln:_traits_religion_ln,traits_religion_le:_traits_religion_le,traits_religion_ng:_traits_religion_ng,traits_religion_nn:_traits_religion_nn,traits_religion_ne:_traits_religion_ne,traits_religion_cg:_traits_religion_cg,traits_religion_cn:_traits_religion_cn,traits_religion_ce:_traits_religion_ce,traits_casmaron:_traits_casmaron,traits_tian_xia:_traits_tian_xia,traits_lung_wa:_traits_lung_wa,traits_race_aasimar:_traits_race_aasimar,traits_race_tiefling:_traits_race_tiefling}
+const _traits_race_vampire = {title: "Vampire Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_race" className="reversed" info="Back to Race Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitcalculatedrisk-calculated-risk-fn1" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitcalculatedrisk-calculated-risk-fn1"><Link to="/trait/calculated_risk">⮞</Link> Calculated Risk <sup><InnerLink showBacklink="backlink-main-traits_race_vampire-fake-fn-1" id="main-traits_race_vampire-fake-fn-1" data-hash-target to="main-traits_race_vampire-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl>Vampire; Jiang-shi</Pair>
+<Pair single="benefit" id="traitcalculatedrisk-calculated-risk-fn1-benefit">Once per day, you may voluntarily fail a saving throw against a harmful spell or effect. After using this ability, for the next minute you may add a +4 trait bonus on one saving throw, after which the bonus is expended. You may use this bonus on an additional saving throw against the spell or effect you voluntarily failed (such as a recurring poison save or a follow-up save against hold person). If you do not use this bonus within 1 minute, it is lost.</Pair>
+</Ability>
+<Ability id="traitintunewithlanguage-in-tune-with-language-fn1-2" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitintunewithlanguage-in-tune-with-language-fn1-2"><Link to="/trait/in_tune_with_language">⮞</Link> In Tune with Language <sup><InnerLink showBacklink="backlink-main-traits_race_vampire-fake-fn-1.2" id="main-traits_race_vampire-fake-fn-1.2" data-hash-target to="main-traits_race_vampire-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl>Vampire; Jiang-shi</Pair>
+<Pair single="benefit" id="traitintunewithlanguage-in-tune-with-language-fn1-2-benefit">Your keen ear for language grants you a +2 trait bonus on skill checks when decoding secret messages or finding hidden meaning in overheard conversations.</Pair>
+</Ability>
+<Ability id="traitproudprogenitor-proud-progenitor-fn1-3" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitproudprogenitor-proud-progenitor-fn1-3"><Link to="/trait/proud_progenitor">⮞</Link> Proud Progenitor <sup><InnerLink showBacklink="backlink-main-traits_race_vampire-fake-fn-1.3" id="main-traits_race_vampire-fake-fn-1.3" data-hash-target to="main-traits_race_vampire-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl>Vampire; Moroi</Pair>
+<Pair single="flavor" id="traitproudprogenitor-proud-progenitor-fn1-3-flavor">Your loneliness drove you to build your coven, and you zealously attack any who would harm it.</Pair>
+<Pair single="benefit" id="traitproudprogenitor-proud-progenitor-fn1-3-benefit">You gain a +1 trait bonus on damage rolls against creatures you have seen attack or harm any of your vampire spawn.</Pair>
+</Ability>
+<Ability id="traitweatherworn-weatherworn-fn1-4" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitweatherworn-weatherworn-fn1-4"><Link to="/trait/weatherworn">⮞</Link> Weatherworn <sup><InnerLink showBacklink="backlink-main-traits_race_vampire-fake-fn-1.4" id="main-traits_race_vampire-fake-fn-1.4" data-hash-target to="main-traits_race_vampire-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl>Vampire; Moroi</Pair>
+<Pair single="flavor" id="traitweatherworn-weatherworn-fn1-4-flavor">Lairing in desolate mountains or on coastal cliff tops has taught you to deal with the effects of strong winds.</Pair>
+<Pair single="benefit" id="traitweatherworn-weatherworn-fn1-4-benefit">You gain a +2 trait bonus against the effects of spells that create wind or move air, such as <Link to="/spell/gust_of_wind">gust of wind</Link>. You treat natural <Link to="/rule/weather">weather</Link> conditions as one step weaker. These abilities also apply when you are in gaseous form.</Pair>
+</Ability>
+<Ability id="traitrapiddrain-rapid-drain-fn1-5" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitrapiddrain-rapid-drain-fn1-5"><Link to="/trait/rapid_drain">⮞</Link> Rapid Drain <sup><InnerLink showBacklink="backlink-main-traits_race_vampire-fake-fn-1.5" id="main-traits_race_vampire-fake-fn-1.5" data-hash-target to="main-traits_race_vampire-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl>Vampire; Nosferatu</Pair>
+<Pair single="flavor" id="traitrapiddrain-rapid-drain-fn1-5-flavor">The ferocity of your hunger grants you the ability to draw life from your victims faster.</Pair>
+<Pair single="benefit" id="traitrapiddrain-rapid-drain-fn1-5-benefit">When you use your <em>blood drain</em> ability, you gain 7 temporary hit points instead of 5.</Pair>
+</Ability>
+<Ability id="traittelekineticdependence-telekinetic-dependence-fn1-6" extraClasses="trait" icon={["person"]}>
+<Pair single id="traittelekineticdependence-telekinetic-dependence-fn1-6"><Link to="/trait/telekinetic_dependence">⮞</Link> Telekinetic Dependence <sup><InnerLink showBacklink="backlink-main-traits_race_vampire-fake-fn-1.6" id="main-traits_race_vampire-fake-fn-1.6" data-hash-target to="main-traits_race_vampire-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl>Vampire; Nosferatu</Pair>
+<Pair single="flavor" id="traittelekineticdependence-telekinetic-dependence-fn1-6-flavor">Your body is so ancient you fear damaging it with exertion.</Pair>
+<Pair single="benefit" id="traittelekineticdependence-telekinetic-dependence-fn1-6-benefit">You gain a +1 trait bonus to your caster level when casting (or using as a spell-like ability) <Link to="/spell/fly">fly</Link>, <Link to="/spell/levitate">levitate</Link>, <Link to="/spell/mage_hand">mage hand</Link>, <Link to="/spell/telekinesis">telekinesis</Link>, and similar spells that move objects through sheer will.</Pair>
+</Ability>
+<Ability id="traitselfaware-self-aware-fn1-7" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitselfaware-self-aware-fn1-7"><Link to="/trait/self_aware">⮞</Link> Self-Aware <sup><InnerLink showBacklink="backlink-main-traits_race_vampire-fake-fn-1.7" id="main-traits_race_vampire-fake-fn-1.7" data-hash-target to="main-traits_race_vampire-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl>Vampire; Vetala</Pair>
+<Pair single="flavor" id="traitselfaware-self-aware-fn1-7-flavor">Wisdom stolen from an enlightened mortal has opened your own mind. Knowing yourself helps you to understand others.</Pair>
+<Pair single="benefit" id="traitselfaware-self-aware-fn1-7-benefit">You gain a +1 trait bonus on all <Link to="/skill/sense_motive">Sense Motive</Link> checks, and Sense Motive becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitstubborn-stubborn-fn1-8" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitstubborn-stubborn-fn1-8"><Link to="/trait/stubborn">⮞</Link> Stubborn <sup><InnerLink showBacklink="backlink-main-traits_race_vampire-fake-fn-1.8" id="main-traits_race_vampire-fake-fn-1.8" data-hash-target to="main-traits_race_vampire-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl>Vampire; Vetala</Pair>
+<Pair single="flavor" id="traitstubborn-stubborn-fn1-8-flavor">The angry child inside bolsters your will, and you often prove utterly defiant.</Pair>
+<Pair single="benefit" id="traitstubborn-stubborn-fn1-8-benefit">You gain a +2 trait bonus on saving throws against attempts to control you, such as <Link to="/spell/command_undead">command undead</Link>, <Link to="/spell/halt_undead">halt undead</Link>, or <Link to="/ability/channel_energy">channeled energy</Link> to turn or control undead.</Pair>
+</Ability>
+</IonLabel></IonItem><section data-footnotes><h3 id="main-traits_race_vampire-label">Footnotes</h3><ol>
+<li id="main-traits_race_vampire-fake-fn-1-target"><p><Link to="/source/blood_of_the_night">Blood of the Night</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_vampire-fake-fn-1" data-hash-target to="main-traits_race_vampire-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_vampire-fake-fn-1.2" data-hash-target to="main-traits_race_vampire-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_vampire-fake-fn-1.3" data-hash-target to="main-traits_race_vampire-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_vampire-fake-fn-1.4" data-hash-target to="main-traits_race_vampire-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_vampire-fake-fn-1.5" data-hash-target to="main-traits_race_vampire-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_vampire-fake-fn-1.6" data-hash-target to="main-traits_race_vampire-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_vampire-fake-fn-1.7" data-hash-target to="main-traits_race_vampire-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_vampire-fake-fn-1.8" data-hash-target to="main-traits_race_vampire-fake-fn-1.8">↩<sup>8</sup></InnerLink></p></li>
+</ol></section></IonList>};
+const _traits_race_other_races = {title: "Other Races Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_race" className="reversed" info="Back to Race Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitvermindriver-vermin-driver-fn1" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitvermindriver-vermin-driver-fn1"><Link to="/trait/vermin_driver">⮞</Link> Vermin Driver <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1" id="main-traits_race_other_races-fake-fn-1" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/duergar">Duergar</Link></Pair>
+<Pair single="benefit" id="traitvermindriver-vermin-driver-fn1-benefit">You were instructed in the subtle magic of enslaving vermin, and can train mindless vermin with the <Link to="/skill/handle_animal">Handle Animal</Link> skill as if they were animals with an Intelligence score of 1.</Pair>
+</Ability>
+<Ability id="traitcreativereality-creative-reality-fn2" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitcreativereality-creative-reality-fn2"><Link to="/trait/creative_reality">⮞</Link> Creative Reality <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-2" id="main-traits_race_other_races-fake-fn-2" data-hash-target to="main-traits_race_other_races-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/ganzi">Ganzi</Link></Pair>
+<Pair single="flavor" id="traitcreativereality-creative-reality-fn2-flavor">Straightforward answers bore you, for they only encourage people to depend on others rather than find out for themselves. You have grown adept over the years at convincing people of falsehoods and couching your honest answers in so much doublespeak they may as well be lies.</Pair>
+<Pair single="benefit" id="traitcreativereality-creative-reality-fn2-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks, which increases to +5 when attempting to convince someone an honest answer is a falsehood.</Pair>
+</Ability>
+<Ability id="traitfrustrating-frustrating-fn1-2" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitfrustrating-frustrating-fn1-2"><Link to="/trait/frustrating">⮞</Link> Frustrating <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.2" id="main-traits_race_other_races-fake-fn-1.2" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/gathlain">Gathlain</Link></Pair>
+<Pair single="flavor" id="traitfrustrating-frustrating-fn1-2-flavor">You can get anyone's attention, even when they are focused elsewhere.</Pair>
+<Pair single="benefit" id="traitfrustrating-frustrating-fn1-2-benefit">You can make <Link to="/skill/bluff">Bluff</Link> checks to create a diversion for allies within 30 feet to hide (provided they readied an action to hide), and you can make Bluff checks to feint for one adjacent ally of your choice. Either use of this ability is a <strong className="hl">standard action</strong>.</Pair>
+</Ability>
+<Ability id="traithonoredprovider-honored-provider-fn1-3" extraClasses="trait" icon={["person"]}>
+<Pair single id="traithonoredprovider-honored-provider-fn1-3"><Link to="/trait/honored_provider">⮞</Link> Honored Provider <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.3" id="main-traits_race_other_races-fake-fn-1.3" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/ghoran">Ghoran</Link></Pair>
+<Pair single="flavor" id="traithonoredprovider-honored-provider-fn1-3-flavor">Nex depends upon the food produced by ghorans, and you inspire gratitude in creatures you feed.</Pair>
+<Pair single="benefit" id="traithonoredprovider-honored-provider-fn1-3-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, and <Link to="/skill/sense_motive">Sense Motive</Link> checks to interact with a person to whom you have given needed food in the past 24 hours.</Pair>
+</Ability>
+<Ability id="traitazlantiinheritor-azlanti-inheritor-fn3-fn4" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitazlantiinheritor-azlanti-inheritor-fn3-fn4"><Link to="/trait/azlanti_inheritor">⮞</Link> Azlanti Inheritor <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-3" id="main-traits_race_other_races-fake-fn-3" data-hash-target to="main-traits_race_other_races-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-4" id="main-traits_race_other_races-fake-fn-4" data-hash-target to="main-traits_race_other_races-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/gillman">Gillman</Link></Pair>
+<Pair single="flavor" id="traitazlantiinheritor-azlanti-inheritor-fn3-fn4-flavor">You have prominent Azlanti features, which you can use to inspire confidence in your allies.</Pair>
+<Pair single="benefit" id="traitazlantiinheritor-azlanti-inheritor-fn3-fn4-benefit">Whenever you use the <Link to="/rule/aid_another_2">aid another</Link> action to aid an adjacent ally, increase the bonus you grant your ally by 1. This is a trait bonus.</Pair>
+</Ability>
+<Ability id="traitmemorymastery-memory-mastery-fn1-4" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitmemorymastery-memory-mastery-fn1-4"><Link to="/trait/memory_mastery">⮞</Link> Memory Mastery <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.4" id="main-traits_race_other_races-fake-fn-1.4" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/gillman">Gillman</Link></Pair>
+<Pair single="flavor" id="traitmemorymastery-memory-mastery-fn1-4-flavor">You can suppress your own memories to help tell more convincing lies.</Pair>
+<Pair single="benefit" id="traitmemorymastery-memory-mastery-fn1-4-benefit">Once per day as an <strong className="hl">immediate action</strong>, you can cause yourself to forget a single event or fact for a period of 10 minutes. Enemies reading your mind cannot learn the information. Until the memory returns, you gain a +10 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks to convince others that you do not know the information.</Pair>
+</Ability>
+<Ability id="traitcanopyshooter-canopy-shooter-fn1-5" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitcanopyshooter-canopy-shooter-fn1-5"><Link to="/trait/canopy_shooter">⮞</Link> Canopy Shooter <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.5" id="main-traits_race_other_races-fake-fn-1.5" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/grippli">Grippli</Link></Pair>
+<Pair single="flavor" id="traitcanopyshooter-canopy-shooter-fn1-5-flavor">Growing up in a dangerous jungle, you learned to take advantage of your mobility relative to larger predators and elusive prey.</Pair>
+<Pair single="benefit" id="traitcanopyshooter-canopy-shooter-fn1-5-benefit">You gain a +1 trait bonus on ranged weapon damage rolls when you are on higher ground than your target and are within 30 feet.</Pair>
+</Ability>
+<Ability id="traitinciterhobgoblin-inciter-hobgoblin-fn1-6" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitinciterhobgoblin-inciter-hobgoblin-fn1-6"><Link to="/trait/inciter_hobgoblin">⮞</Link> Inciter (Hobgoblin) <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.6" id="main-traits_race_other_races-fake-fn-1.6" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/hobgoblin">Hobgoblin</Link></Pair>
+<Pair single="flavor" id="traitinciterhobgoblin-inciter-hobgoblin-fn1-6-flavor">You witnessed or were part of a feud that turned close friends into hateful enemies.</Pair>
+<Pair single="benefit" id="traitinciterhobgoblin-inciter-hobgoblin-fn1-6-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks to convince others that their allies have wronged them and on <Link to="/skill/diplomacy">Diplomacy</Link> checks to persuade others to betray their allies' trust.</Pair>
+</Ability>
+<Ability id="traitguarded-guarded-fn1-7" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitguarded-guarded-fn1-7"><Link to="/trait/guarded">⮞</Link> Guarded <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.7" id="main-traits_race_other_races-fake-fn-1.7" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/merfolk">Merfolk</Link></Pair>
+<Pair single="flavor" id="traitguarded-guarded-fn1-7-flavor">You grew up believing air-breathers are not to be trusted.</Pair>
+<Pair single="benefit" id="traitguarded-guarded-fn1-7-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks against non-aquatic humanoids.</Pair>
+</Ability>
+<Ability id="traitlonglung-longlung-fn1-8" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitlonglung-longlung-fn1-8"><Link to="/trait/longlung">⮞</Link> Longlung <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.8" id="main-traits_race_other_races-fake-fn-1.8" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/monkey_goblin">Monkey goblin</Link></Pair>
+<Pair single="flavor" id="traitlonglung-longlung-fn1-8-flavor">You have spent long hours scouring shipwrecks and shoreline tide pools during low tide for shiny treasure.</Pair>
+<Pair single="benefit" id="traitlonglung-longlung-fn1-8-benefit">You gain a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks while underwater and can <Link to="/misc/hold_your_breath">hold your breath</Link> for a number of rounds equal to three times your Constitution score before you risk drowning.</Pair>
+</Ability>
+<Ability id="traitnagajinationalist-nagaji-nationalist-fn1-9" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitnagajinationalist-nagaji-nationalist-fn1-9"><Link to="/trait/nagaji_nationalist">⮞</Link> Nagaji Nationalist <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.9" id="main-traits_race_other_races-fake-fn-1.9" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/nagaji">Nagaji</Link></Pair>
+<Pair single="flavor" id="traitnagajinationalist-nagaji-nationalist-fn1-9-flavor">Your loyalty to the nagaji nation of Nagajor is powerful.</Pair>
+<Pair single="benefit" id="traitnagajinationalist-nagaji-nationalist-fn1-9-benefit">You gain a +1 trait bonus on attack rolls and saving throws against foes that directly threaten the safety of Nagajor.</Pair>
+</Ability>
+<Ability id="traitwallsofhalftruths-walls-of-half-truths-fn1-10" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitwallsofhalftruths-walls-of-half-truths-fn1-10"><Link to="/trait/walls_of_half_truths">⮞</Link> Walls of Half-Truths <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.10" id="main-traits_race_other_races-fake-fn-1.10" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/samsaran">Samsaran</Link></Pair>
+<Pair single="flavor" id="traitwallsofhalftruths-walls-of-half-truths-fn1-10-flavor">As soon as you made contact with other samsarans, they encouraged your talent for magic that befuddles foes.</Pair>
+<Pair single="benefit" id="traitwallsofhalftruths-walls-of-half-truths-fn1-10-benefit">Treat your caster level as 1 higher for the purpose of determining duration of your figment and glamer spells.</Pair>
+</Ability>
+<Ability id="traitaerialharrier-aerial-harrier-fn1-11" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitaerialharrier-aerial-harrier-fn1-11"><Link to="/trait/aerial_harrier">⮞</Link> Aerial Harrier <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.11" id="main-traits_race_other_races-fake-fn-1.11" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/strix">Strix</Link></Pair>
+<Pair single="flavor" id="traitaerialharrier-aerial-harrier-fn1-11-flavor">You are used to fighting enemies who cannot fly.</Pair>
+<Pair single="benefit" id="traitaerialharrier-aerial-harrier-fn1-11-benefit">While flying, you gain a +1 trait bonus to AC against melee attacks from creatures on the ground.</Pair>
+</Ability>
+<Ability id="traitsecretkeepersvirfneblin-secret-keeper-svirfneblin-fn1-12" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitsecretkeepersvirfneblin-secret-keeper-svirfneblin-fn1-12"><Link to="/trait/secret_keeper_svirfneblin">⮞</Link> Secret-Keeper (Svirfneblin) <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.12" id="main-traits_race_other_races-fake-fn-1.12" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/svirfneblin">Svirfneblin</Link></Pair>
+<Pair single="flavor" id="traitsecretkeepersvirfneblin-secret-keeper-svirfneblin-fn1-12-flavor">You trained from birth to never reveal secrets and never betray anyone's trust.</Pair>
+<Pair single="benefit" id="traitsecretkeepersvirfneblin-secret-keeper-svirfneblin-fn1-12-benefit">You gain a +2 trait bonus on saving throws against divinations or enchantments that would compel you to reveal a secret or allow anyone to read your mind.</Pair>
+</Ability>
+<Ability id="traitwingedaloofness-winged-aloofness-fn1-13" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitwingedaloofness-winged-aloofness-fn1-13"><Link to="/trait/winged_aloofness">⮞</Link> Winged Aloofness <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.13" id="main-traits_race_other_races-fake-fn-1.13" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/syrinx">Syrinx</Link></Pair>
+<Pair single="flavor" id="traitwingedaloofness-winged-aloofness-fn1-13-flavor">You learned from your syrinx elders that your race is better than non-winged races and you take care to keep above them physically as well.</Pair>
+<Pair single="benefit" id="traitwingedaloofness-winged-aloofness-fn1-13-benefit">You gain a +2 trait bonus on <Link to="/skill/fly">Fly</Link> checks. This bonus increases to +4 on checks to avoid losing altitude when damaged.</Pair>
+</Ability>
+<Ability id="traitseafaringslayer-seafaring-slayer-fn1-14" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitseafaringslayer-seafaring-slayer-fn1-14"><Link to="/trait/seafaring_slayer">⮞</Link> Seafaring Slayer <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.14" id="main-traits_race_other_races-fake-fn-1.14" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/tengu">Tengu</Link></Pair>
+<Pair single="flavor" id="traitseafaringslayer-seafaring-slayer-fn1-14-flavor">At a vulnerable age, you survived an encounter with a monstrous sea creature.</Pair>
+<Pair single="benefit" id="traitseafaringslayer-seafaring-slayer-fn1-14-benefit">You reduce any foe's <Link to="/rule/cover">cover</Link> bonus to AC from water by 2.</Pair>
+</Ability>
+<Ability id="traitmagicsurvivor-magic-survivor-fn1-15" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitmagicsurvivor-magic-survivor-fn1-15"><Link to="/trait/magic_survivor">⮞</Link> Magic Survivor <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.15" id="main-traits_race_other_races-fake-fn-1.15" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/trox">Trox</Link></Pair>
+<Pair single="flavor" id="traitmagicsurvivor-magic-survivor-fn1-15-flavor">You fought off devious magic in order to escape duergar captors.</Pair>
+<Pair single="benefit" id="traitmagicsurvivor-magic-survivor-fn1-15-benefit">Choose two of Fortitude, Reflex, or Will saves. You gain a +1 trait bonus on saves of the types you chose against spells and spell-like abilities, and you take a -1 penalty on all saves of the remaining type.</Pair>
+</Ability>
+<Ability id="traittrickstervanara-trickster-vanara-fn1-16" extraClasses="trait" icon={["person"]}>
+<Pair single id="traittrickstervanara-trickster-vanara-fn1-16"><Link to="/trait/trickster_vanara">⮞</Link> Trickster (Vanara) <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.16" id="main-traits_race_other_races-fake-fn-1.16" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/vanara">Vanara</Link></Pair>
+<Pair single="flavor" id="traittrickstervanara-trickster-vanara-fn1-16-flavor">You learned early that in order to get what you want, sometimes you have to act secretly.</Pair>
+<Pair single="benefit" id="traittrickstervanara-trickster-vanara-fn1-16-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/stealth">Stealth</Link> checks, and one of these skills (your choice) is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitaugmentedspellpoisons-augmented-spell-poisons-fn1-17" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitaugmentedspellpoisons-augmented-spell-poisons-fn1-17"><Link to="/trait/augmented_spell_poisons">⮞</Link> Augmented Spell Poisons <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.17" id="main-traits_race_other_races-fake-fn-1.17" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/vishkanya">Vishkanya</Link></Pair>
+<Pair single="flavor" id="traitaugmentedspellpoisons-augmented-spell-poisons-fn1-17-flavor">You can use your natural poison to augment the spells you cast.</Pair>
+<Pair single="benefit" id="traitaugmentedspellpoisons-augmented-spell-poisons-fn1-17-benefit">You can spend a use of your <em>toxic</em> racial trait and use a bit of your toxic saliva or blood as an additional material component for a spell with the poison descriptor to increase the spell's save DC by 1.</Pair>
+</Ability>
+<Ability id="traitwaterlurker-water-lurker-fn1-18" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitwaterlurker-water-lurker-fn1-18"><Link to="/trait/water_lurker">⮞</Link> Water Lurker <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.18" id="main-traits_race_other_races-fake-fn-1.18" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/wayang">Wayang</Link></Pair>
+<Pair single="flavor" id="traitwaterlurker-water-lurker-fn1-18-flavor">You grew up in a secretive community by the water, perhaps among the rivers of Shenmen or the islands of Minata.</Pair>
+<Pair single="benefit" id="traitwaterlurker-water-lurker-fn1-18-benefit">You gain a +1 trait bonus on <Link to="/skill/swim">Swim</Link> checks and a +2 bonus on <Link to="/skill/stealth">Stealth</Link> checks on watercraft and when at least half-submerged in water.</Pair>
+</Ability>
+<Ability id="traitresilientconstruction-resilient-construction-fn1-19" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitresilientconstruction-resilient-construction-fn1-19"><Link to="/trait/resilient_construction">⮞</Link> Resilient Construction <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.19" id="main-traits_race_other_races-fake-fn-1.19" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/wyrwood">Wyrwood</Link></Pair>
+<Pair single="flavor" id="traitresilientconstruction-resilient-construction-fn1-19-flavor">You spent a great deal of time around magical workshops, and the power of magic sustains you.</Pair>
+<Pair single="benefit" id="traitresilientconstruction-resilient-construction-fn1-19-benefit">Once per day, if you would be reduced to 0 or fewer hit points while under the effects of an ongoing spell you cast with a range of personal, you are not destroyed by the attack, but instead become inactive and helpless for 1 round, at negative hit points. If you take damage again during that time, or if you are still below 0 hit points at the end of that round, you are destroyed.</Pair>
+</Ability>
+<Ability id="traitfierceflanker-fierce-flanker-fn1-20" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitfierceflanker-fierce-flanker-fn1-20"><Link to="/trait/fierce_flanker">⮞</Link> Fierce Flanker <sup><InnerLink showBacklink="backlink-main-traits_race_other_races-fake-fn-1.20" id="main-traits_race_other_races-fake-fn-1.20" data-hash-target to="main-traits_race_other_races-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/wyvaran">Wyvaran</Link></Pair>
+<Pair single="flavor" id="traitfierceflanker-fierce-flanker-fn1-20-flavor">You were bullied in your youth but supported by one or more good friends, impressing upon you the importance of teamwork.</Pair>
+<Pair single="benefit" id="traitfierceflanker-fierce-flanker-fn1-20-benefit">You gain a +1 trait bonus on damage rolls against foes you <Link to="/rule/flank">flank</Link>.</Pair>
+</Ability>
+</IonLabel></IonItem><section data-footnotes><h3 id="main-traits_race_other_races-label">Footnotes</h3><ol>
+<li id="main-traits_race_other_races-fake-fn-1-target"><p><Link to="/source/inner_sea_races">Inner Sea Races</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1" data-hash-target to="main-traits_race_other_races-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.2" data-hash-target to="main-traits_race_other_races-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.3" data-hash-target to="main-traits_race_other_races-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.4" data-hash-target to="main-traits_race_other_races-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.5" data-hash-target to="main-traits_race_other_races-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.6" data-hash-target to="main-traits_race_other_races-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.7" data-hash-target to="main-traits_race_other_races-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.8" data-hash-target to="main-traits_race_other_races-fake-fn-1.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.9" data-hash-target to="main-traits_race_other_races-fake-fn-1.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.10" data-hash-target to="main-traits_race_other_races-fake-fn-1.10">↩<sup>10</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.11" data-hash-target to="main-traits_race_other_races-fake-fn-1.11">↩<sup>11</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.12" data-hash-target to="main-traits_race_other_races-fake-fn-1.12">↩<sup>12</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.13" data-hash-target to="main-traits_race_other_races-fake-fn-1.13">↩<sup>13</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.14" data-hash-target to="main-traits_race_other_races-fake-fn-1.14">↩<sup>14</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.15" data-hash-target to="main-traits_race_other_races-fake-fn-1.15">↩<sup>15</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.16" data-hash-target to="main-traits_race_other_races-fake-fn-1.16">↩<sup>16</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.17" data-hash-target to="main-traits_race_other_races-fake-fn-1.17">↩<sup>17</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.18" data-hash-target to="main-traits_race_other_races-fake-fn-1.18">↩<sup>18</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.19" data-hash-target to="main-traits_race_other_races-fake-fn-1.19">↩<sup>19</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_other_races-fake-fn-1.20" data-hash-target to="main-traits_race_other_races-fake-fn-1.20">↩<sup>20</sup></InnerLink></p></li>
+<li id="main-traits_race_other_races-fake-fn-2-target"><p><Link to="/source/distant_shores">Distant Shores</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_race_other_races-fake-fn-2" data-hash-target to="main-traits_race_other_races-fake-fn-2">↩</InnerLink></p></li>
+<li id="main-traits_race_other_races-fake-fn-3-target"><p><Link to="/source/bastards_of_golarion">Bastards of Golarion</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_other_races-fake-fn-3" data-hash-target to="main-traits_race_other_races-fake-fn-3">↩</InnerLink></p></li>
+<li id="main-traits_race_other_races-fake-fn-4-target"><p><Link to="/source/humans_of_golarion">Humans of Golarion</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_race_other_races-fake-fn-4" data-hash-target to="main-traits_race_other_races-fake-fn-4">↩</InnerLink></p></li>
+</ol></section></IonList>};
+const _traits_race_skinwalker = {title: "Skinwalker Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_race" className="reversed" info="Back to Race Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitcurseintheblood-curse-in-the-blood-fn1" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitcurseintheblood-curse-in-the-blood-fn1"><Link to="/trait/curse_in_the_blood">⮞</Link> Curse in the Blood <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-1" id="main-traits_race_skinwalker-fake-fn-1" data-hash-target to="main-traits_race_skinwalker-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link></Pair>
+<Pair single="flavor" id="traitcurseintheblood-curse-in-the-blood-fn1-flavor">You gain a +1 trait bonus on saving throws against curses.</Pair>
+<Pair single="benefit" id="traitcurseintheblood-curse-in-the-blood-fn1-benefit">You treat your caster level as 1 higher when casting spells and spell-like abilities with the curse descriptor.</Pair>
+</Ability>
+<Ability id="traitmarkedbynaturesmagic-marked-by-natures-magic-fn2" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitmarkedbynaturesmagic-marked-by-natures-magic-fn2"><Link to="/trait/marked_by_natures_magic">⮞</Link> Marked by Nature's Magic <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-2" id="main-traits_race_skinwalker-fake-fn-2" data-hash-target to="main-traits_race_skinwalker-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link></Pair>
+<Pair single="flavor" id="traitmarkedbynaturesmagic-marked-by-natures-magic-fn2-flavor">You hail from a community - perhaps in Arcadia or the Lands of the Linnorm Kings - that encouraged you to interact with fey.</Pair>
+<Pair single="benefit" id="traitmarkedbynaturesmagic-marked-by-natures-magic-fn2-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> checks involving fey and on <Link to="/skill/diplomacy">Diplomacy</Link> checks to influence fey. Knowledge (nature) is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitmasteryofform-mastery-of-form-fn3" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitmasteryofform-mastery-of-form-fn3"><Link to="/trait/mastery_of_form">⮞</Link> Mastery of Form <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3" id="main-traits_race_skinwalker-fake-fn-3" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link></Pair>
+<Pair single="flavor" id="traitmasteryofform-mastery-of-form-fn3-flavor">You've never had trouble changing shape between beast and humanoid, and your ability to control your form is unparalleled.</Pair>
+<Pair single="benefit" id="traitmasteryofform-mastery-of-form-fn3-benefit">You gain a +2 trait bonus on saving throws against polymorph effects.</Pair>
+</Ability>
+<Ability id="traittraumaticshift-traumatic-shift-fn3-2" extraClasses="trait" icon={["person"]}>
+<Pair single id="traittraumaticshift-traumatic-shift-fn3-2"><Link to="/trait/traumatic_shift">⮞</Link> Traumatic Shift <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.2" id="main-traits_race_skinwalker-fake-fn-3.2" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link></Pair>
+<Pair single="flavor" id="traittraumaticshift-traumatic-shift-fn3-2-flavor">Your first transformation was in a public place, observed by loved ones who later shunned you or townsfolk who chased you away. You have become good at hiding your nature.</Pair>
+<Pair single="benefit" id="traittraumaticshift-traumatic-shift-fn3-2-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks, and Bluff becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitfightwiththeflock-fight-with-the-flock-fn3-3" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitfightwiththeflock-fight-with-the-flock-fn3-3"><Link to="/trait/fight_with_the_flock">⮞</Link> Fight with the Flock <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.3" id="main-traits_race_skinwalker-fake-fn-3.3" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werebat-kin</Pair>
+<Pair single="flavor" id="traitfightwiththeflock-fight-with-the-flock-fn3-3-flavor">You have always been most comfortable in a group. Since awakening to your werebat powers, this feeling has only grown.</Pair>
+<Pair single="benefit" id="traitfightwiththeflock-fight-with-the-flock-fn3-3-benefit">As long as you are within 10 feet of at least two allies, you gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks and attack rolls to make attack of opportunity.</Pair>
+</Ability>
+<Ability id="traitprecisionhearing-precision-hearing-fn3-4" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitprecisionhearing-precision-hearing-fn3-4"><Link to="/trait/precision_hearing">⮞</Link> Precision Hearing <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.4" id="main-traits_race_skinwalker-fake-fn-3.4" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werebat-kin</Pair>
+<Pair single="flavor" id="traitprecisionhearing-precision-hearing-fn3-4-flavor">You have long relied on your enhanced hearing to warn you of those who would persecute you for your nature.</Pair>
+<Pair single="benefit" id="traitprecisionhearing-precision-hearing-fn3-4-benefit">Whenever you succeed at a <Link to="/skill/perception">Perception</Link> check to hear a creature you can't see and your check exceeds the DC by 10 or more, you can pinpoint the exact square where the sound originated.</Pair>
+</Ability>
+<Ability id="traitdurablechange-durable-change-fn3-5" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitdurablechange-durable-change-fn3-5"><Link to="/trait/durable_change">⮞</Link> Durable Change <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.5" id="main-traits_race_skinwalker-fake-fn-3.5" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werebear-kin</Pair>
+<Pair single="benefit" id="traitdurablechange-durable-change-fn3-5-benefit">When you use your <em>change shape</em> ability, you can choose to gain the benefits of the <Link to="/feat/endurance">Endurance</Link> feat rather than gaining a special ability.</Pair>
+</Ability>
+<Ability id="traitrevivingrest-reviving-rest-fn3-6" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitrevivingrest-reviving-rest-fn3-6"><Link to="/trait/reviving_rest">⮞</Link> Reviving Rest <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.6" id="main-traits_race_skinwalker-fake-fn-3.6" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werebear-kin</Pair>
+<Pair single="flavor" id="traitrevivingrest-reviving-rest-fn3-6-flavor">When you first demonstrated your werebear ancestry, you slept for a week and awoke feeling more refreshed than ever before.</Pair>
+<Pair single="benefit" id="traitrevivingrest-reviving-rest-fn3-6-benefit">Whenever you undergo complete <Link to="/rule/bed_rest">bed rest</Link> for 24 hours, you recover an amount of hit points equal to three times your character level.</Pair>
+</Ability>
+<Ability id="traitboarresilience-boar-resilience-fn3-7" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitboarresilience-boar-resilience-fn3-7"><Link to="/trait/boar_resilience">⮞</Link> Boar Resilience <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.7" id="main-traits_race_skinwalker-fake-fn-3.7" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wereboar-kin</Pair>
+<Pair single="flavor" id="traitboarresilience-boar-resilience-fn3-7-flavor">You were victimized by bullies or even abusive adults. Although the harassment got worse when your wereboar features became more obvious, those features also gave you fortitude that helped you resist it.</Pair>
+<Pair single="benefit" id="traitboarresilience-boar-resilience-fn3-7-benefit">You are unimpaired by being at exactly 0 hit points. In addition, you can ignore the <Link to="/feat/endurance">Endurance</Link> prerequisite for the <Link to="/feat/diehard">Diehard</Link> feat.</Pair>
+</Ability>
+<Ability id="traitstrengthofbody-strength-of-body-fn3-8" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitstrengthofbody-strength-of-body-fn3-8"><Link to="/trait/strength_of_body">⮞</Link> Strength of Body <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.8" id="main-traits_race_skinwalker-fake-fn-3.8" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wereboar-kin</Pair>
+<Pair single="flavor" id="traitstrengthofbody-strength-of-body-fn3-8-flavor">You took longer than most to learn control over your transforming abilities, but in that time you learned a trick to make the most of your strength.</Pair>
+<Pair single="benefit" id="traitstrengthofbody-strength-of-body-fn3-8-benefit">Once per day, you can use your Strength modifier in place of your Constitution modifier on a single Fortitude saving throw. You must announce that you are using this ability before you roll the saving throw.</Pair>
+</Ability>
+<Ability id="traitcrocodileswim-crocodile-swim-fn3-9" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitcrocodileswim-crocodile-swim-fn3-9"><Link to="/trait/crocodile_swim">⮞</Link> Crocodile Swim <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.9" id="main-traits_race_skinwalker-fake-fn-3.9" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werecrocodile-kin</Pair>
+<Pair single="flavor" id="traitcrocodileswim-crocodile-swim-fn3-9-flavor">You grew up near crocodiles, learning to move as they do.</Pair>
+<Pair single="benefit" id="traitcrocodileswim-crocodile-swim-fn3-9-benefit">You gain a +2 trait bonus on <Link to="/skill/swim">Swim</Link> and <Link to="/skill/stealth">Stealth</Link> checks while moving at half speed or less and mostly or completely underwater. One of these skills (your choice) becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitterrifyinglunge-terrifying-lunge-fn3-10" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitterrifyinglunge-terrifying-lunge-fn3-10"><Link to="/trait/terrifying_lunge">⮞</Link> Terrifying Lunge <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.10" id="main-traits_race_skinwalker-fake-fn-3.10" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werecrocodile-kin</Pair>
+<Pair single="flavor" id="traitterrifyinglunge-terrifying-lunge-fn3-10-flavor">Once badly bitten by a stronger werecrocodile-kin, you learned the importance of showing your strength.</Pair>
+<Pair single="benefit" id="traitterrifyinglunge-terrifying-lunge-fn3-10-benefit">Once per day, when you hit a <Link to="/rule/flat_footed">flat-footed</Link> foe with a melee attack, you can make an <Link to="/skill/intimidate">Intimidate</Link> check to demoralize that foe as a <strong className="hl">swift action</strong>. Intimidate becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitinuredtodisease-inured-to-disease-fn3-11" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitinuredtodisease-inured-to-disease-fn3-11"><Link to="/trait/inured_to_disease">⮞</Link> Inured to Disease <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.11" id="main-traits_race_skinwalker-fake-fn-3.11" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wererat-kin</Pair>
+<Pair single="flavor" id="traitinuredtodisease-inured-to-disease-fn3-11-flavor">The first sign of your wererat heritage was your seeming imperviousness to disease.</Pair>
+<Pair single="benefit" id="traitinuredtodisease-inured-to-disease-fn3-11-benefit">You gain a +2 trait bonus on Fortitude saving throws against diseases.</Pair>
+</Ability>
+<Ability id="traitratsqueeze-rat-squeeze-fn3-12" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitratsqueeze-rat-squeeze-fn3-12"><Link to="/trait/rat_squeeze">⮞</Link> Rat Squeeze <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.12" id="main-traits_race_skinwalker-fake-fn-3.12" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wererat-kin</Pair>
+<Pair single="flavor" id="traitratsqueeze-rat-squeeze-fn3-12-flavor">You first discovered your wererat-related abilities while escaping someone, whether the authorities or a rival, and ever since you have honed your ability to squeeze out of tight situations.</Pair>
+<Pair single="benefit" id="traitratsqueeze-rat-squeeze-fn3-12-benefit">Whenever you use your skinwalker ability to change shape into your bestial form, you can <Link to="/misc/squeeze">squeeze</Link> through narrow spaces at least half as wide as your normal space without slowing your movement; each move into or through a narrow space counts as 1 square, though you still take all the normal penalties associated with squeezing.</Pair>
+</Ability>
+<Ability id="traitsharkchild-sharkchild-fn3-13" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitsharkchild-sharkchild-fn3-13"><Link to="/trait/sharkchild">⮞</Link> Sharkchild <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.13" id="main-traits_race_skinwalker-fake-fn-3.13" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wereshark-kin</Pair>
+<Pair single="flavor" id="traitsharkchild-sharkchild-fn3-13-flavor">In your youth, you swam into the ocean as deep as you could, and had it not been for your wereshark ancestry you would have surely drowned.</Pair>
+<Pair single="benefit" id="traitsharkchild-sharkchild-fn3-13-benefit">You gain a +1 trait bonus on <Link to="/skill/swim">Swim</Link> checks. As long as you have a swim speed (such as that granted by your bestial form), you can use the run action to move up to five times your swim speed while swimming straight down from or straight up toward the surface of the water.</Pair>
+</Ability>
+<Ability id="traitshorelineskirmisher-shoreline-skirmisher-fn3-14" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitshorelineskirmisher-shoreline-skirmisher-fn3-14"><Link to="/trait/shoreline_skirmisher">⮞</Link> Shoreline Skirmisher <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.14" id="main-traits_race_skinwalker-fake-fn-3.14" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wereshark-kin</Pair>
+<Pair single="flavor" id="traitshorelineskirmisher-shoreline-skirmisher-fn3-14-flavor">You were raised without many toys or possessions, but you made do exploring every detail of the nearby seashore, and know how to spot potential tools or obstacles.</Pair>
+<Pair single="benefit" id="traitshorelineskirmisher-shoreline-skirmisher-fn3-14-benefit">You gain a +2 trait bonus on combat maneuver checks as long as you or your opponent is on sand or in water at least 6 inches deep.</Pair>
+</Ability>
+<Ability id="traitfelineinstinct-feline-instinct-fn3-15" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitfelineinstinct-feline-instinct-fn3-15"><Link to="/trait/feline_instinct">⮞</Link> Feline Instinct <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.15" id="main-traits_race_skinwalker-fake-fn-3.15" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Weretiger-kin</Pair>
+<Pair single="flavor" id="traitfelineinstinct-feline-instinct-fn3-15-flavor">When your weretiger heritage first manifested, you spent a period of time living off what you could catch, developing a sharp instinct to act when your foes were most vulnerable.</Pair>
+<Pair single="benefit" id="traitfelineinstinct-feline-instinct-fn3-15-benefit">In any combat in which you act during the surprise round, you gain a +3 trait bonus on your initiative check.</Pair>
+</Ability>
+<Ability id="traittigersclaw-tigers-claw-fn3-16" extraClasses="trait" icon={["person"]}>
+<Pair single id="traittigersclaw-tigers-claw-fn3-16"><Link to="/trait/tigers_claw">⮞</Link> Tiger's Claw <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.16" id="main-traits_race_skinwalker-fake-fn-3.16" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Weretiger-kin</Pair>
+<Pair single="flavor" id="traittigersclaw-tigers-claw-fn3-16-flavor">Your feline agility helps you inflict a devastating blow at the end of a charge.</Pair>
+<Pair single="benefit" id="traittigersclaw-tigers-claw-fn3-16-benefit">Whenever you use the <Link to="/rule/charge">charge</Link> action, you gain a +1 trait bonus on your weapon damage roll.</Pair>
+</Ability>
+<Ability id="traitlycanthropicbloodlust-lycanthropic-bloodlust-fn3-17" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitlycanthropicbloodlust-lycanthropic-bloodlust-fn3-17"><Link to="/trait/lycanthropic_bloodlust">⮞</Link> Lycanthropic Bloodlust <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.17" id="main-traits_race_skinwalker-fake-fn-3.17" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werewolf-kin</Pair>
+<Pair single="flavor" id="traitlycanthropicbloodlust-lycanthropic-bloodlust-fn3-17-flavor">When your lycanthropic heritage awakened, you thrilled at any excuse for violence. Although you might have learned to focus or suppress this urge, it still gives you energy in a fight.</Pair>
+<Pair single="benefit" id="traitlycanthropicbloodlust-lycanthropic-bloodlust-fn3-17-benefit">Once per day, when you deal damage to a foe with a natural attack, you may gain 1d6 <Link to="/rule/temporary_hit_points">temporary hit points</Link> as an <strong className="hl">immediate action</strong>. These temporary hit points last for 1 minute.</Pair>
+</Ability>
+<Ability id="traitsharedcurse-shared-curse-fn3-18" extraClasses="trait" icon={["person"]}>
+<Pair single id="traitsharedcurse-shared-curse-fn3-18"><Link to="/trait/shared_curse">⮞</Link> Shared Curse <sup><InnerLink showBacklink="backlink-main-traits_race_skinwalker-fake-fn-3.18" id="main-traits_race_skinwalker-fake-fn-3.18" data-hash-target to="main-traits_race_skinwalker-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Race</Pair>
+<Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werewolf-kin</Pair>
+<Pair single="flavor" id="traitsharedcurse-shared-curse-fn3-18-flavor">A portion of your ancestor's fell curse still courses through your blood.</Pair>
+<Pair single="benefit" id="traitsharedcurse-shared-curse-fn3-18-benefit">Once per day as a <strong className="hl">standard action</strong>, you can share a portion of your accursed heritage with a willing ally by dealing 1 point of damage to that ally with a natural weapon. The ally gains a natural bite attack, as if from your skinwalker ability, for 2 rounds.</Pair>
+</Ability>
+</IonLabel></IonItem><section data-footnotes><h3 id="main-traits_race_skinwalker-label">Footnotes</h3><ol>
+<li id="main-traits_race_skinwalker-fake-fn-1-target"><p><Link to="/source/bastards_of_golarion">Bastards of Golarion</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_skinwalker-fake-fn-1" data-hash-target to="main-traits_race_skinwalker-fake-fn-1">↩</InnerLink></p></li>
+<li id="main-traits_race_skinwalker-fake-fn-2-target"><p><Link to="/source/inner_sea_races">Inner Sea Races</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_race_skinwalker-fake-fn-2" data-hash-target to="main-traits_race_skinwalker-fake-fn-2">↩</InnerLink></p></li>
+<li id="main-traits_race_skinwalker-fake-fn-3-target"><p><Link to="/source/blood_of_the_moon">Blood of the Moon</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3" data-hash-target to="main-traits_race_skinwalker-fake-fn-3">↩</InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.2" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.3" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.4" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.5" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.6" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.7" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.8" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.9" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.10" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.10">↩<sup>10</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.11" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.11">↩<sup>11</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.12" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.12">↩<sup>12</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.13" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.13">↩<sup>13</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.14" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.14">↩<sup>14</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.15" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.15">↩<sup>15</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.16" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.16">↩<sup>16</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.17" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.17">↩<sup>17</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_race_skinwalker-fake-fn-3.18" data-hash-target to="main-traits_race_skinwalker-fake-fn-3.18">↩<sup>18</sup></InnerLink></p></li>
+</ol></section></IonList>};
+export default {traits_religion_lg:_traits_religion_lg,traits_religion_ln:_traits_religion_ln,traits_religion_le:_traits_religion_le,traits_religion_ng:_traits_religion_ng,traits_religion_nn:_traits_religion_nn,traits_religion_ne:_traits_religion_ne,traits_religion_cg:_traits_religion_cg,traits_religion_cn:_traits_religion_cn,traits_religion_ce:_traits_religion_ce,traits_casmaron:_traits_casmaron,traits_tian_xia:_traits_tian_xia,traits_lung_wa:_traits_lung_wa,traits_race_aasimar:_traits_race_aasimar,traits_race_tiefling:_traits_race_tiefling,traits_race_vampire:_traits_race_vampire,traits_race_other_races:_traits_race_other_races,traits_race_skinwalker:_traits_race_skinwalker}

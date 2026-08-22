@@ -853,4 +853,679 @@ const _traits_campaign_wrath_of_the_righteous = {title: "Campaign Traits: Wrath 
 <li id="main-traits_campaign_wrath_of_the_righteous-fake-fn-1-target"><p><Link to="/source/wrath_of_the_righteous_players_guide">Wrath of the Righteous Player's Guide</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1.2" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1.3" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1.4" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1.5" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-1.6" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-1.6">↩<sup>6</sup></InnerLink></p></li>
 <li id="main-traits_campaign_wrath_of_the_righteous-fake-fn-2-target"><p><Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2.2" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2.3" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2.4" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2.5" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_campaign_wrath_of_the_righteous-fake-fn-2.6" data-hash-target to="main-traits_campaign_wrath_of_the_righteous-fake-fn-2.6">↩<sup>6</sup></InnerLink></p></li>
 </ol></section></IonList>};
-export default {traits_campaign_reign_of_winter:_traits_campaign_reign_of_winter,traits_campaign_return_of_the_runelords:_traits_campaign_return_of_the_runelords,traits_campaign_rise_of_the_runelords:_traits_campaign_rise_of_the_runelords,traits_campaign_ruins_of_azlant:_traits_campaign_ruins_of_azlant,traits_campaign_second_darkness:_traits_campaign_second_darkness,traits_campaign_serpents_skull:_traits_campaign_serpents_skull,traits_campaign_shattered_star:_traits_campaign_shattered_star,traits_campaign_skull_and_shackles:_traits_campaign_skull_and_shackles,traits_campaign_strange_aeons:_traits_campaign_strange_aeons,traits_campaign_tyrants_grasp:_traits_campaign_tyrants_grasp,traits_campaign_war_for_the_crown:_traits_campaign_war_for_the_crown,traits_campaign_wrath_of_the_righteous:_traits_campaign_wrath_of_the_righteous}
+const _traits_northwest_garund = {title: "Regional Traits: Northwestern Garund", jsx: <IonList lines="full"><MainLink to="/main/traits_regional" className="reversed" info="Back to Regional Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitcommunityminded-community-minded-fn1" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitcommunityminded-community-minded-fn1"><Link to="/trait/community_minded">⮞</Link> Community-Minded <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-1" id="main-traits_northwest_garund-fake-fn-1" data-hash-target to="main-traits_northwest_garund-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Rahadoum</Pair>
+<Pair single="flavor" id="traitcommunityminded-community-minded-fn1-flavor">While some pray to the gods for mercy or prosperity, you follow a different tack - you believe in improving the lives of those around you through earnest labor and the efforts of you and your community. Your hard-earned discipline and the candor of your words affect all who bear witness.</Pair>
+<Pair single="benefit" id="traitcommunityminded-community-minded-fn1-benefit">Any morale bonuses you confer upon your allies through your own abilities or spells last 2 additional rounds.</Pair>
+</Ability>
+<Ability id="traitgodlessresolve-godless-resolve-fn2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitgodlessresolve-godless-resolve-fn2"><Link to="/trait/godless_resolve">⮞</Link> Godless Resolve <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-2" id="main-traits_northwest_garund-fake-fn-2" data-hash-target to="main-traits_northwest_garund-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Bachuan, Rahadoum or Touvette</Pair>
+<Pair single="benefit" id="traitgodlessresolve-godless-resolve-fn2-benefit">Some brilliant and earnest speech or other performance inspired you to take charge of your own health rather than begging indifferent or outlawed deities for deliverance. <Link to="/skill/heal">Heal</Link> is a class skill for you, and you gain a +2 trait bonus on Heal checks to stabilize dying creatures and stop bleeding.</Pair>
+</Ability>
+<Ability id="traitjusticiar-justiciar-fn3" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitjusticiar-justiciar-fn3"><Link to="/trait/justiciar">⮞</Link> Justiciar <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-3" id="main-traits_northwest_garund-fake-fn-3" data-hash-target to="main-traits_northwest_garund-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Rahadoum</Pair>
+<Pair single="flavor" id="traitjusticiar-justiciar-fn3-flavor">You are experienced in interpreting and applying legal doctrine, notably the Laws of Man, independent of any divine mandates.</Pair>
+<Pair single="benefit" id="traitjusticiar-justiciar-fn3-benefit"><p>You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks to settle disputes or arbitrate laws.</p>
+<p>Once per day if you succeed at an <Link to="/skill/intimidate">Intimidate</Link> check to demoralize a foe who has repudiated or ignored a pronounced judgment you've made, you may choose to cause the creature to be <Link to="/misc/sickened">sickened</Link> instead of <Link to="/misc/shaken">shaken</Link>. The duration of the effect remains the same.</p>
+</Pair>
+</Ability>
+<Ability id="traitliquidhealing-liquid-healing-fn4" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitliquidhealing-liquid-healing-fn4"><Link to="/trait/liquid_healing">⮞</Link> Liquid Healing <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-4" id="main-traits_northwest_garund-fake-fn-4" data-hash-target to="main-traits_northwest_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Rahadoum</Pair>
+<Pair single="flavor" id="traitliquidhealing-liquid-healing-fn4-flavor">Growing up in Rahadoum, you did not have access to clerics and other divine magic for healing, so you relied heavily on potions to cure your wounds. As a result, potions heal you more effectively.</Pair>
+<Pair single="benefit" id="traitliquidhealing-liquid-healing-fn4-benefit">Whenever you consume a potion that heals any number of hit points, you heal 2 additional hit points.</Pair>
+</Ability>
+<Ability id="traitpatronsboon-patrons-boon-fn2-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitpatronsboon-patrons-boon-fn2-2"><Link to="/trait/patrons_boon">⮞</Link> Patron's Boon <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-2.2" id="main-traits_northwest_garund-fake-fn-2.2" data-hash-target to="main-traits_northwest_garund-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Rahadoum</Pair>
+<Pair single="flavor" id="traitpatronsboon-patrons-boon-fn2-2-flavor">In your youth, a Rahadoumi witch granted you a boon promoting your continued health and long life.</Pair>
+<Pair single="benefit" id="traitpatronsboon-patrons-boon-fn2-2-benefit">The DCs of any <Link to="/skill/heal">Heal</Link> checks to stop <Link to="/rule/bleed">bleed</Link> damage you are suffering are reduced by 4.</Pair>
+</Ability>
+<Ability id="traitpurelegionrecruit-pure-legion-recruit-fn1-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitpurelegionrecruit-pure-legion-recruit-fn1-2"><Link to="/trait/pure_legion_recruit">⮞</Link> Pure Legion Recruit <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-1.2" id="main-traits_northwest_garund-fake-fn-1.2" data-hash-target to="main-traits_northwest_garund-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Rahadoum</Pair>
+<Pair single="flavor" id="traitpurelegionrecruit-pure-legion-recruit-fn1-2-flavor">You have spent time among the famed Pure Legion and understand some of their techniques for spotting signs of religion and the faithful.</Pair>
+<Pair single="benefit" id="traitpurelegionrecruit-pure-legion-recruit-fn1-2-benefit">You gain a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks to see through disguises and mundane attempts to conceal religious iconography or dress. You also gain a +2 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to see through lies about a target's religious beliefs and to understand secret messages relating to the gods.</Pair>
+</Ability>
+<Ability id="traitrahadoumicultist-rahadoumi-cultist-fn5" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitrahadoumicultist-rahadoumi-cultist-fn5"><Link to="/trait/rahadoumi_cultist">⮞</Link> Rahadoumi Cultist <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-5" id="main-traits_northwest_garund-fake-fn-5" data-hash-target to="main-traits_northwest_garund-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Rahadoum</Pair>
+<Pair single="flavor" id="traitrahadoumicultist-rahadoumi-cultist-fn5-flavor">You're a secret member of a forbidden faith in Rahadoum. You have learned to hide your beliefs and how to identify others of your faith.</Pair>
+<Pair single="benefit" id="traitrahadoumicultist-rahadoumi-cultist-fn5-benefit">You gain a +5 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks to receive secret messages, and a +5 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to intercept secret messages from others of your faith.</Pair>
+</Ability>
+<Ability id="traitrahadoumidisbeliever-rahadoumi-disbeliever-fn5-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitrahadoumidisbeliever-rahadoumi-disbeliever-fn5-2"><Link to="/trait/rahadoumi_disbeliever">⮞</Link> Rahadoumi Disbeliever <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-5.2" id="main-traits_northwest_garund-fake-fn-5.2" data-hash-target to="main-traits_northwest_garund-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Rahadoum</Pair>
+<Pair single="flavor" id="traitrahadoumidisbeliever-rahadoumi-disbeliever-fn5-2-flavor">As a Rahadoumi who rejects covenants with gods, your belief is strong enough to repel divine spells.</Pair>
+<Pair single="benefit" id="traitrahadoumidisbeliever-rahadoumi-disbeliever-fn5-2-benefit">You gain a +2 trait bonus on saving throws against divine spells, but you must make a saving throw even when that magic is beneficial to you.</Pair>
+</Ability>
+<Ability id="traitalchemicalprodigy-alchemical-prodigy-fn1-3-fn6" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitalchemicalprodigy-alchemical-prodigy-fn1-3-fn6"><Link to="/trait/alchemical_prodigy">⮞</Link> Alchemical Prodigy <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-1.3" id="main-traits_northwest_garund-fake-fn-1.3" data-hash-target to="main-traits_northwest_garund-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-6" id="main-traits_northwest_garund-fake-fn-6" data-hash-target to="main-traits_northwest_garund-fake-fn-6-target">6</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Thuvia</Pair>
+<Pair single="flavor" id="traitalchemicalprodigy-alchemical-prodigy-fn1-3-fn6-flavor">Early on in your life, you showed significant promise in the sciences and alchemical arts, and received extensive tutoring from those seeking to maximize your potential.</Pair>
+<Pair single="benefit" id="traitalchemicalprodigy-alchemical-prodigy-fn1-3-fn6-benefit">If you have the <em>alchemy</em> class feature, your alchemist level is considered 1 higher when calculating the duration of your extracts.</Pair>
+</Ability>
+<Ability id="traitdesertchild-desert-child-fn7-fn8-fn9-fn5-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitdesertchild-desert-child-fn7-fn8-fn9-fn5-3"><Link to="/trait/desert_child">⮞</Link> Desert Child <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-7" id="main-traits_northwest_garund-fake-fn-7" data-hash-target to="main-traits_northwest_garund-fake-fn-7-target">7</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-8" id="main-traits_northwest_garund-fake-fn-8" data-hash-target to="main-traits_northwest_garund-fake-fn-8-target">8</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-9" id="main-traits_northwest_garund-fake-fn-9" data-hash-target to="main-traits_northwest_garund-fake-fn-9-target">9</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-5.3" id="main-traits_northwest_garund-fake-fn-5.3" data-hash-target to="main-traits_northwest_garund-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Thuvia, desert</Pair>
+<Pair single="flavor" id="traitdesertchild-desert-child-fn7-fn8-fn9-fn5-3-flavor">You were born and raised in rocky deserts, and are accustomed to high temperatures.</Pair>
+<Pair single="benefit" id="traitdesertchild-desert-child-fn7-fn8-fn9-fn5-3-benefit">You gain a +4 trait bonus on saving throws made to resist the effects of being in <Link to="/rule/heat">hot conditions</Link> and a +1 trait bonus on saving throws against fire effects.</Pair>
+</Ability>
+<Ability id="traitdivhunter-div-hunter-fn10" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitdivhunter-div-hunter-fn10"><Link to="/trait/div_hunter">⮞</Link> Div Hunter <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-10" id="main-traits_northwest_garund-fake-fn-10" data-hash-target to="main-traits_northwest_garund-fake-fn-10-target">10</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Thuvia</Pair>
+<Pair single="flavor" id="traitdivhunter-div-hunter-fn10-flavor">Divs have tormented you and your loved ones for as long as you can remember. You've improved your skills to better oppose the creatures.</Pair>
+<Pair single="benefit" id="traitdivhunter-div-hunter-fn10-benefit">You gain a +2 trait bonus on Knowledge checks to identify <Link to="/family/div">divs</Link> (and their special powers and weaknesses) and a +1 trait bonus on weapon damage rolls against divs.</Pair>
+</Ability>
+<Ability id="traiteducateddruggist-educated-druggist-fn2-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traiteducateddruggist-educated-druggist-fn2-3"><Link to="/trait/educated_druggist">⮞</Link> Educated Druggist <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-2.3" id="main-traits_northwest_garund-fake-fn-2.3" data-hash-target to="main-traits_northwest_garund-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Osibu, Thuvia, Tian Xia, or Ustalav</Pair>
+<Pair single="benefit" id="traiteducateddruggist-educated-druggist-fn2-3-benefit">Any <Link to="/main/equipment_alchemical">alchemical remedies</Link> you administer that provide an alchemical bonus have that bonus increased by 1. These remedies also restore 1 hit point to the target in addition to their usual effects.</Pair>
+</Ability>
+<Ability id="traitlamasaranperformer-lamasaran-performer-fn1-4" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitlamasaranperformer-lamasaran-performer-fn1-4"><Link to="/trait/lamasaran_performer">⮞</Link> Lamasaran Performer <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-1.4" id="main-traits_northwest_garund-fake-fn-1.4" data-hash-target to="main-traits_northwest_garund-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Thuvia</Pair>
+<Pair single="flavor" id="traitlamasaranperformer-lamasaran-performer-fn1-4-flavor">You are one of the famed performers of Lamasara, and your skill is known throughout Thuvia.</Pair>
+<Pair single="benefit" id="traitlamasaranperformer-lamasaran-performer-fn1-4-benefit">Once per day when you start a <Link to="/ability/bardic_performance">bardic performance</Link>, you can increase the DC of the saving throw to resist your performance's effects by 1. This effect lasts until you switch performances or end your performance.</Pair>
+</Ability>
+<Ability id="traitmerabianmentorship-merabian-mentorship-fn11" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitmerabianmentorship-merabian-mentorship-fn11"><Link to="/trait/merabian_mentorship">⮞</Link> Merabian Mentorship <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-11" id="main-traits_northwest_garund-fake-fn-11" data-hash-target to="main-traits_northwest_garund-fake-fn-11-target">11</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Thuvia</Pair>
+<Pair title="Requirements" hl><Link to="/race/suli">Suli</Link></Pair>
+<Pair single="flavor" id="traitmerabianmentorship-merabian-mentorship-fn11-flavor">You were apprenticed to a renowned alchemist of Merab, and she taught you how to recognize elemental reagents by taste.</Pair>
+<Pair single="benefit" id="traitmerabianmentorship-merabian-mentorship-fn11-benefit">Upon imbibing a potion containing a spell on your formula list of a spell level you are capable of casting, you can attempt a <Link to="/skill/spellcraft">Spellcraft</Link> check (DC 15 + extract level). On a success, you can immediately add the spell to your formula book.</Pair>
+</Ability>
+<Ability id="traitresourcefulalchemy-resourceful-alchemy-fn4-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitresourcefulalchemy-resourceful-alchemy-fn4-2"><Link to="/trait/resourceful_alchemy">⮞</Link> Resourceful Alchemy <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-4.2" id="main-traits_northwest_garund-fake-fn-4.2" data-hash-target to="main-traits_northwest_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Thuvia</Pair>
+<Pair single="flavor" id="traitresourcefulalchemy-resourceful-alchemy-fn4-2-flavor">Alchemy is a point of national pride in Thuvia, home of the famous <Link to="/magic-artifact/sun_orchid_elixir">sun orchid elixir</Link>. But resources are often hard to come by in the blasted desert landscape, so you have found creative ways to create many of the tools you need to survive.</Pair>
+<Pair single="benefit" id="traitresourcefulalchemy-resourceful-alchemy-fn4-2-benefit">You gain a +2 trait bonus on <Link to="/skill/craft">Craft</Link> (alchemy) skill checks. This bonus increases to +3 when you are using Craft (alchemy) to craft an alchemical item.</Pair>
+</Ability>
+<Ability id="traitrunawayslave-runaway-slave-fn12" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitrunawayslave-runaway-slave-fn12"><Link to="/trait/runaway_slave">⮞</Link> Runaway Slave <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-12" id="main-traits_northwest_garund-fake-fn-12" data-hash-target to="main-traits_northwest_garund-fake-fn-12-target">12</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Osirion, Thuvia, or Darklands-adjacent</Pair>
+<Pair single="flavor" id="traitrunawayslave-runaway-slave-fn12-flavor">Though the ghouls of Nemret Noktoria and the drow of Zirnakaynin seldom darken the surface of Golarion, both have pacts with influential slavers and warlords who periodically provide the demon worshipers with kidnapped slaves. You were once one of these unfortunate victims and were destined to become a sacrifice to a dreadful demon lord, but you managed to slip your bonds and escape back to the surface. The horrors you witnessed were beyond fathoming, and though visions of imprisoned loved ones and friends plague your dreams, you are stronger for the experience.</Pair>
+<Pair single="benefit" id="traitrunawayslave-runaway-slave-fn12-benefit">You gain a +1 trait bonus on saves against fear effects and gain low-light vision 10 feet. If you already have low-light vision, its range extends by 10 feet.</Pair>
+</Ability>
+<Ability id="traitsunorchidharvester-sun-orchid-harvester-fn13" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitsunorchidharvester-sun-orchid-harvester-fn13"><Link to="/trait/sun_orchid_harvester">⮞</Link> Sun Orchid Harvester <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-13" id="main-traits_northwest_garund-fake-fn-13" data-hash-target to="main-traits_northwest_garund-fake-fn-13-target">13</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Thuvia</Pair>
+<Pair single="flavor" id="traitsunorchidharvester-sun-orchid-harvester-fn13-flavor">You were employed briefly by the blue dragon Deyrubrujuan's alchemist cabal to harvest sun orchids deep in the Thuvian desert. Though you never worked your way deeper into the cabal, you retain the knowledge gained during your employment.</Pair>
+<Pair single="benefit" id="traitsunorchidharvester-sun-orchid-harvester-fn13-benefit">You gain a +1 bonus on <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> and <Link to="/skill/survival">Survival</Link> checks made in desert environments.</Pair>
+</Ability>
+<Ability id="traitthuvianmerchant-thuvian-merchant-fn5-4" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitthuvianmerchant-thuvian-merchant-fn5-4"><Link to="/trait/thuvian_merchant">⮞</Link> Thuvian Merchant <sup><InnerLink showBacklink="backlink-main-traits_northwest_garund-fake-fn-5.4" id="main-traits_northwest_garund-fake-fn-5.4" data-hash-target to="main-traits_northwest_garund-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Thuvia</Pair>
+<Pair single="flavor" id="traitthuvianmerchant-thuvian-merchant-fn5-4-flavor">You have traveled the great circular trade route around Thuvia, following the sale of the <Link to="/magic-artifact/sun_orchid_elixir">sun orchid elixir</Link> from city to city, and are used to haggling with foreigners.</Pair>
+<Pair single="benefit" id="traitthuvianmerchant-thuvian-merchant-fn5-4-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link>, <Link to="/skill/bluff">Bluff</Link>, and <Link to="/skill/sense_motive">Sense Motive</Link> checks made for business deals and transactions.</Pair>
+</Ability>
+</IonLabel></IonItem><section data-footnotes><h3 id="main-traits_northwest_garund-label">Footnotes</h3><ol>
+<li id="main-traits_northwest_garund-fake-fn-1-target"><p><Link to="/source/people_of_the_sands">People of the Sands</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_northwest_garund-fake-fn-1" data-hash-target to="main-traits_northwest_garund-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_northwest_garund-fake-fn-1.2" data-hash-target to="main-traits_northwest_garund-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_northwest_garund-fake-fn-1.3" data-hash-target to="main-traits_northwest_garund-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_northwest_garund-fake-fn-1.4" data-hash-target to="main-traits_northwest_garund-fake-fn-1.4">↩<sup>4</sup></InnerLink></p></li>
+<li id="main-traits_northwest_garund-fake-fn-2-target"><p><Link to="/source/healers_handbook">Healer's Handbook</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_northwest_garund-fake-fn-2" data-hash-target to="main-traits_northwest_garund-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_northwest_garund-fake-fn-2.2" data-hash-target to="main-traits_northwest_garund-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_northwest_garund-fake-fn-2.3" data-hash-target to="main-traits_northwest_garund-fake-fn-2.3">↩<sup>3</sup></InnerLink></p></li>
+<li id="main-traits_northwest_garund-fake-fn-3-target"><p><Link to="/source/champions_of_balance">Champions of Balance</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_northwest_garund-fake-fn-3" data-hash-target to="main-traits_northwest_garund-fake-fn-3">↩</InnerLink></p></li>
+<li id="main-traits_northwest_garund-fake-fn-4-target"><p><Link to="/source/potions_and_poisons">Potions and Poisons</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_northwest_garund-fake-fn-4" data-hash-target to="main-traits_northwest_garund-fake-fn-4">↩</InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_northwest_garund-fake-fn-4.2" data-hash-target to="main-traits_northwest_garund-fake-fn-4.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_northwest_garund-fake-fn-5-target"><p><Link to="/source/inner_sea_primer">Inner Sea Primer</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_northwest_garund-fake-fn-5" data-hash-target to="main-traits_northwest_garund-fake-fn-5">↩</InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_northwest_garund-fake-fn-5.2" data-hash-target to="main-traits_northwest_garund-fake-fn-5.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_northwest_garund-fake-fn-5.3" data-hash-target to="main-traits_northwest_garund-fake-fn-5.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_northwest_garund-fake-fn-5.4" data-hash-target to="main-traits_northwest_garund-fake-fn-5.4">↩<sup>4</sup></InnerLink></p></li>
+<li id="main-traits_northwest_garund-fake-fn-6-target"><p><Link to="/source/qadira_gateway_to_the_east">Qadira, Gateway to the East</Link> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_northwest_garund-fake-fn-6" data-hash-target to="main-traits_northwest_garund-fake-fn-6">↩</InnerLink></p></li>
+<li id="main-traits_northwest_garund-fake-fn-7-target"><p><Link to="/source/ultimate_campaign">Ultimate Campaign</Link> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_northwest_garund-fake-fn-7" data-hash-target to="main-traits_northwest_garund-fake-fn-7">↩</InnerLink></p></li>
+<li id="main-traits_northwest_garund-fake-fn-8-target"><p><Link to="/source/advanced_players_guide">Advanced Player's Guide</Link> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_northwest_garund-fake-fn-8" data-hash-target to="main-traits_northwest_garund-fake-fn-8">↩</InnerLink></p></li>
+<li id="main-traits_northwest_garund-fake-fn-9-target"><p><Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link> <InnerLink aria-label="Back to reference 9" id="backlink-main-traits_northwest_garund-fake-fn-9" data-hash-target to="main-traits_northwest_garund-fake-fn-9">↩</InnerLink></p></li>
+<li id="main-traits_northwest_garund-fake-fn-10-target"><p><Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link> <InnerLink aria-label="Back to reference 10" id="backlink-main-traits_northwest_garund-fake-fn-10" data-hash-target to="main-traits_northwest_garund-fake-fn-10">↩</InnerLink></p></li>
+<li id="main-traits_northwest_garund-fake-fn-11-target"><p><Link to="/source/blood_of_the_elements">Blood of the Elements</Link> <InnerLink aria-label="Back to reference 11" id="backlink-main-traits_northwest_garund-fake-fn-11" data-hash-target to="main-traits_northwest_garund-fake-fn-11">↩</InnerLink></p></li>
+<li id="main-traits_northwest_garund-fake-fn-12-target"><p><Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link> <InnerLink aria-label="Back to reference 12" id="backlink-main-traits_northwest_garund-fake-fn-12" data-hash-target to="main-traits_northwest_garund-fake-fn-12">↩</InnerLink></p></li>
+<li id="main-traits_northwest_garund-fake-fn-13-target"><p><Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook</Link> <InnerLink aria-label="Back to reference 13" id="backlink-main-traits_northwest_garund-fake-fn-13" data-hash-target to="main-traits_northwest_garund-fake-fn-13">↩</InnerLink></p></li>
+</ol></section></IonList>};
+const _traits_northeast_garund = {title: "Regional Traits: Northeastern Garund", jsx: <IonList lines="full"><MainLink to="/main/traits_regional" className="reversed" info="Back to Regional Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitalchemicalfence-alchemical-fence-fn1" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitalchemicalfence-alchemical-fence-fn1"><Link to="/trait/alchemical_fence">⮞</Link> Alchemical Fence <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-1" id="main-traits_northeast_garund-fake-fn-1" data-hash-target to="main-traits_northeast_garund-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Katapesh</Pair>
+<Pair single="flavor" id="traitalchemicalfence-alchemical-fence-fn1-flavor">Growing up in the vast markets of Katapesh, you developed connections to a great many alchemists and poisoners all over the world. You know many of the right people in any given locale as well as how to get in touch with useful contacts.</Pair>
+<Pair single="benefit" id="traitalchemicalfence-alchemical-fence-fn1-benefit">When determining whether a given potion is available in a settlement, there is a 90% chance that it is available if it is within the settlement's base value for available magic items rather than a 75% chance. Additionally, when you use <Link to="/skill/diplomacy">Diplomacy</Link> to gather information about a topic related to alchemy or poisons (including making poisons), you gain a +3 trait bonus on the check.</Pair>
+</Ability>
+<Ability id="traitclumsyslave-clumsy-slave-fn2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitclumsyslave-clumsy-slave-fn2"><Link to="/trait/clumsy_slave">⮞</Link> Clumsy Slave <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-2" id="main-traits_northeast_garund-fake-fn-2" data-hash-target to="main-traits_northeast_garund-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Cheliax or Katapesh</Pair>
+<Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
+<Pair single="flavor" id="traitclumsyslave-clumsy-slave-fn2-flavor">As a former slave, you learned how to conceal your malice toward your owner behind a facade of clumsiness.</Pair>
+<Pair single="benefit" id="traitclumsyslave-clumsy-slave-fn2-benefit">The first time you attack someone with an attack that deals nonlethal damage, your target must make a <Link to="/skill/sense_motive">Sense Motive</Link> opposed by your <Link to="/skill/bluff">Bluff</Link> check minus the damage dealt to realize you actually intended to harm him; failure means he believe the injury was an accident on your part instead (though he may still want to punish you for it).</Pair>
+</Ability>
+<Ability id="traitcommercialsavvy-commercial-savvy-fn3" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitcommercialsavvy-commercial-savvy-fn3"><Link to="/trait/commercial_savvy">⮞</Link> Commercial Savvy <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-3" id="main-traits_northeast_garund-fake-fn-3" data-hash-target to="main-traits_northeast_garund-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Katapesh</Pair>
+<Pair single="flavor" id="traitcommercialsavvy-commercial-savvy-fn3-flavor">You excel at maximizing mercantile contacts and convincing merchants to dig just a bit deeper into their pockets for you.</Pair>
+<Pair single="benefit" id="traitcommercialsavvy-commercial-savvy-fn3-benefit">Whenever you buy from or sell to a merchant, you treat a settlement's <Link to="/rule/base_value_and_purchase_limit">Base Value and Purchase Limit</Link> as 10% higher.</Pair>
+</Ability>
+<Ability id="traitduskwalkeragent-duskwalker-agent-fn4" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitduskwalkeragent-duskwalker-agent-fn4"><Link to="/trait/duskwalker_agent">⮞</Link> Duskwalker Agent <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4" id="main-traits_northeast_garund-fake-fn-4" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Katapesh</Pair>
+<Pair single="benefit" id="traitduskwalkeragent-duskwalker-agent-fn4-benefit"><p>You spent a portion of your childhood working for the Duskwalkers, the guild responsible for policing and watching over all trade that takes place in Katapesh's notorious Nightstalls. You have quite a bit more spending cash than most others of your age as a result, and start with twice the normal amount of starting gold.</p>
+<p>In addition, your reputation remains strong in the Nightstalls, and any transactions you make there are always beneficial to you; items you sell net you an additional 10% profit, and items you purchase there are 10% cheaper than normal. This discount also applies to your starting gear.</p>
+</Pair>
+</Ability>
+<Ability id="traitfortunefound-fortune-found-fn5" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitfortunefound-fortune-found-fn5"><Link to="/trait/fortune_found">⮞</Link> Fortune Found <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-5" id="main-traits_northeast_garund-fake-fn-5" data-hash-target to="main-traits_northeast_garund-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Katapesh</Pair>
+<Pair title="Requirements" hl><Link to="/race/vanara">Vanara</Link></Pair>
+<Pair single="flavor" id="traitfortunefound-fortune-found-fn5-flavor">You have learned a great many tricks and techniques for bartering with humans.</Pair>
+<Pair single="benefit" id="traitfortunefound-fortune-found-fn5-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> and <Link to="/skill/diplomacy">Diplomacy</Link> checks, and one of these skills (your choice) is a class skill for you.</Pair>
+</Ability>
+<Ability id="traitfreedslavekatapesh-freed-slave-katapesh-fn4-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitfreedslavekatapesh-freed-slave-katapesh-fn4-2"><Link to="/trait/freed_slave_katapesh">⮞</Link> Freed Slave (Katapesh) <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.2" id="main-traits_northeast_garund-fake-fn-4.2" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Katapesh</Pair>
+<Pair single="flavor" id="traitfreedslavekatapesh-freed-slave-katapesh-fn4-2-flavor">You spent a significant portion of your childhood as a slave, but were freed from slavery several years ago by a benevolent master who purchased you from an auction after your previous master's death. Yet while the memories of your difficult childhood still haunt you, the hard life did toughen you.</Pair>
+<Pair single="benefit" id="traitfreedslavekatapesh-freed-slave-katapesh-fn4-2-benefit">You gain a +1 trait bonus on Fortitude saves.</Pair>
+</Ability>
+<Ability id="traitmerchantschild-merchants-child-fn6-fn4-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitmerchantschild-merchants-child-fn6-fn4-3"><Link to="/trait/merchants_child">⮞</Link> Merchant's Child <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-6" id="main-traits_northeast_garund-fake-fn-6" data-hash-target to="main-traits_northeast_garund-fake-fn-6-target">6</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.3" id="main-traits_northeast_garund-fake-fn-4.3" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Katapesh</Pair>
+<Pair single="flavor" id="traitmerchantschild-merchants-child-fn6-fn4-3-flavor">One of your close relatives was a gifted merchant in the bustling bazaars of Katapesh, and taught you early in life how to see the innate value in any object.</Pair>
+<Pair single="benefit" id="traitmerchantschild-merchants-child-fn6-fn4-3-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link> checks, and Appraise is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitnightstallurchin-nightstall-urchin-fn4-4" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitnightstallurchin-nightstall-urchin-fn4-4"><Link to="/trait/nightstall_urchin">⮞</Link> Nightstall Urchin <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.4" id="main-traits_northeast_garund-fake-fn-4.4" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Katapesh</Pair>
+<Pair single="flavor" id="traitnightstallurchin-nightstall-urchin-fn4-4-flavor">You grew up an orphan on the streets of Katapesh, and spent many years of childhood in the Nightstalls, Katapesh's most infamous market. The strange and often horrific sights you saw there forced you to grow up fast - there's little that can shock or unsettle you.</Pair>
+<Pair single="benefit" id="traitnightstallurchin-nightstall-urchin-fn4-4-benefit">You gain a +2 trait bonus on saves against fear effects, and when you do make a successful save against a fear effect, the resulting rush of bravado grants you a +1 trait bonus on attack rolls and all skill checks for the next minute.</Pair>
+</Ability>
+<Ability id="traitnightstallsescapee-nightstalls-escapee-fn7" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitnightstallsescapee-nightstalls-escapee-fn7"><Link to="/trait/nightstalls_escapee">⮞</Link> Nightstalls Escapee <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-7" id="main-traits_northeast_garund-fake-fn-7" data-hash-target to="main-traits_northeast_garund-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Katapesh</Pair>
+<Pair title="Requirements" hl><Link to="/race/ifrit">Ifrit</Link></Pair>
+<Pair single="flavor" id="traitnightstallsescapee-nightstalls-escapee-fn7-flavor">The slavers of Katapesh were determined to sell you as living property, but you had other plans. You know not whether your slavers hunt you still, but you are careful about whom you trust and you always sleep with one eye open.</Pair>
+<Pair single="benefit" id="traitnightstallsescapee-nightstalls-escapee-fn7-benefit">You need to sleep only 4 hours to get <Link to="/rule/healing">a full night's rest</Link> (restoring 1 hit point per character level). You do not receive extra benefits for sleeping additional hours, and you must still rest for 24 hours to receive the benefits of complete bed rest.</Pair>
+</Ability>
+<Ability id="traitpeshaddict-pesh-addict-fn6-2-fn4-5" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitpeshaddict-pesh-addict-fn6-2-fn4-5"><Link to="/trait/pesh_addict">⮞</Link> Pesh Addict <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-6.2" id="main-traits_northeast_garund-fake-fn-6.2" data-hash-target to="main-traits_northeast_garund-fake-fn-6-target">6</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.5" id="main-traits_northeast_garund-fake-fn-4.5" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Katapesh</Pair>
+<Pair single="flavor" id="traitpeshaddict-pesh-addict-fn6-2-fn4-5-flavor">You spent several years addicted to <Link to="/drug/pesh">pesh</Link>, a habit that you may or may not have kicked.</Pair>
+<Pair single="benefit" id="traitpeshaddict-pesh-addict-fn6-2-fn4-5-benefit">You start with only half of the normal starting cash, but your knowledge of the pesh lifestyle grants you a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/knowledge_local">Knowledge (local)</Link>, and <Link to="/skill/sense_motive">Sense Motive</Link> checks. One of these skills (your choice) is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitpeshdealer-pesh-dealer-fn4-6" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitpeshdealer-pesh-dealer-fn4-6"><Link to="/trait/pesh_dealer">⮞</Link> Pesh Dealer <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.6" id="main-traits_northeast_garund-fake-fn-4.6" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Katapesh</Pair>
+<Pair single="flavor" id="traitpeshdealer-pesh-dealer-fn4-6-flavor">You worked for a <Link to="/drug/pesh">pesh</Link> dealer, either by selling the drug on the street or helping to organize shipments to other regions, which involved a certain amount of smuggling.</Pair>
+<Pair single="benefit" id="traitpeshdealer-pesh-dealer-fn4-6-benefit">You gain a +1 trait bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks, and Sleight of Hand is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitsavannachild-savanna-child-fn8-fn9-fn4-7" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitsavannachild-savanna-child-fn8-fn9-fn4-7"><Link to="/trait/savanna_child">⮞</Link> Savanna Child <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-8" id="main-traits_northeast_garund-fake-fn-8" data-hash-target to="main-traits_northeast_garund-fake-fn-8-target">8</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-9" id="main-traits_northeast_garund-fake-fn-9" data-hash-target to="main-traits_northeast_garund-fake-fn-9-target">9</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.7" id="main-traits_northeast_garund-fake-fn-4.7" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Katapesh, plains</Pair>
+<Pair single="flavor" id="traitsavannachild-savanna-child-fn8-fn9-fn4-7-flavor">You were born and raised in central Katapesh, among the rolling savannahs that dominate the nation's interior. You spent many of your youth exploring these vast reaches, and know much of the savannah's secrets.</Pair>
+<Pair single="benefit" id="traitsavannachild-savanna-child-fn8-fn9-fn4-7-benefit">Pick one of the following skills: <Link to="/skill/handle_animal">Handle Animal</Link>, <Link to="/skill/knowledge_nature">Knowledge (nature)</Link>, or <Link to="/skill/ride">Ride</Link>. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traituwagahighlander-uwaga-highlander-fn4-8" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traituwagahighlander-uwaga-highlander-fn4-8"><Link to="/trait/uwaga_highlander">⮞</Link> Uwaga Highlander <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-4.8" id="main-traits_northeast_garund-fake-fn-4.8" data-hash-target to="main-traits_northeast_garund-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Katapesh</Pair>
+<Pair single="flavor" id="traituwagahighlander-uwaga-highlander-fn4-8-flavor">You were born and raised in western Katapesh, in the rugged badlands and hills of the Uwaga Highlands. Even if you were born in a city like Solku, you often had to travel the dangerous trails with your family. Predators, gnolls, and worse haunt the Uwaga Highlands, and you've become something of an expert at evading them.</Pair>
+<Pair single="benefit" id="traituwagahighlander-uwaga-highlander-fn4-8-benefit">You gain a +1 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks. This trait bonus increases to +2 in hilly or rocky areas.</Pair>
+</Ability>
+<Ability id="traitabolitionisthunter-abolitionist-hunter-fn10" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitabolitionisthunter-abolitionist-hunter-fn10"><Link to="/trait/abolitionist_hunter">⮞</Link> Abolitionist Hunter <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-10" id="main-traits_northeast_garund-fake-fn-10" data-hash-target to="main-traits_northeast_garund-fake-fn-10-target">10</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Okeno</Pair>
+<Pair single="flavor" id="traitabolitionisthunter-abolitionist-hunter-fn10-flavor">You hunt those who hunt slavers, whether as one of Captain Bhey's special task forces, or independently.</Pair>
+<Pair single="benefit" id="traitabolitionisthunter-abolitionist-hunter-fn10-benefit">You gain a +1 trait bonus on attack rolls when fighting abolitionists or those you have good reason to believe targeted you because of your slaver activities.</Pair>
+</Ability>
+<Ability id="traitcruelmaster-cruel-master-fn10-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitcruelmaster-cruel-master-fn10-2"><Link to="/trait/cruel_master">⮞</Link> Cruel Master <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-10.2" id="main-traits_northeast_garund-fake-fn-10.2" data-hash-target to="main-traits_northeast_garund-fake-fn-10-target">10</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Okeno</Pair>
+<Pair single="flavor" id="traitcruelmaster-cruel-master-fn10-2-flavor">You're a master of dominating slaves through body language and inflection, and this ability carries over into other lines of work as well.</Pair>
+<Pair single="benefit" id="traitcruelmaster-cruel-master-fn10-2-benefit">You gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks, and it becomes a class skill for you.</Pair>
+</Ability>
+<Ability id="traitslavetaker-slave-taker-fn10-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitslavetaker-slave-taker-fn10-3"><Link to="/trait/slave_taker">⮞</Link> Slave Taker <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-10.3" id="main-traits_northeast_garund-fake-fn-10.3" data-hash-target to="main-traits_northeast_garund-fake-fn-10-target">10</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Okeno</Pair>
+<Pair single="flavor" id="traitslavetaker-slave-taker-fn10-3-flavor">You specialize in disabling foes without wounding them, preserving their value as slaves.</Pair>
+<Pair single="benefit" id="traitslavetaker-slave-taker-fn10-3-benefit">Whenever you deal nonlethal damage in combat, that damage increases by +1.</Pair>
+</Ability>
+<Ability id="traitwhipspecialist-whip-specialist-fn10-4" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitwhipspecialist-whip-specialist-fn10-4"><Link to="/trait/whip_specialist">⮞</Link> Whip Specialist <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-10.4" id="main-traits_northeast_garund-fake-fn-10.4" data-hash-target to="main-traits_northeast_garund-fake-fn-10-target">10</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Okeno</Pair>
+<Pair single="flavor" id="traitwhipspecialist-whip-specialist-fn10-4-flavor">Your time spent lashing slaves has taught you how to get the most out of a whip.</Pair>
+<Pair single="benefit" id="traitwhipspecialist-whip-specialist-fn10-4-benefit">You deal +1 point of damage on all attacks made with a <Link to="/eq-weapon/whip">whip</Link>.</Pair>
+</Ability>
+<Ability id="traitantiquitiessmuggler-antiquities-smuggler-fn6-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitantiquitiessmuggler-antiquities-smuggler-fn6-3"><Link to="/trait/antiquities_smuggler">⮞</Link> Antiquities Smuggler <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-6.3" id="main-traits_northeast_garund-fake-fn-6.3" data-hash-target to="main-traits_northeast_garund-fake-fn-6-target">6</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Osirion</Pair>
+<Pair single="flavor" id="traitantiquitiessmuggler-antiquities-smuggler-fn6-3-flavor">You have moved contraband relics from Osirion's elder days for years, and have learned some tricks.</Pair>
+<Pair single="benefit" id="traitantiquitiessmuggler-antiquities-smuggler-fn6-3-benefit">Choose one of the following skills: <Link to="/skill/appraise">Appraise</Link>, <Link to="/skill/bluff">Bluff</Link>, or <Link to="/skill/sleight_of_hand">Sleight of Hand</Link>. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitcheaptofeed-cheap-to-feed-fn2-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitcheaptofeed-cheap-to-feed-fn2-2"><Link to="/trait/cheap_to_feed">⮞</Link> Cheap to Feed <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-2.2" id="main-traits_northeast_garund-fake-fn-2.2" data-hash-target to="main-traits_northeast_garund-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Osirion or Varisia</Pair>
+<Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
+<Pair single="flavor" id="traitcheaptofeed-cheap-to-feed-fn2-2-flavor">Life in a big city taught the consequences of pride. Now you have no qualms about pointing out how little of a burden your upkeep would prove to potential employers, captors, innkeepers, or anyone else able to provide you with the necessities of life.</Pair>
+<Pair single="benefit" id="traitcheaptofeed-cheap-to-feed-fn2-2-benefit">You gain a +3 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks made in order to gain food, water, or shelter.</Pair>
+</Ability>
+<Ability id="traitchildofmumia-child-of-mumia-fn11" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitchildofmumia-child-of-mumia-fn11"><Link to="/trait/child_of_mumia">⮞</Link> Child of Mumia <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-11" id="main-traits_northeast_garund-fake-fn-11" data-hash-target to="main-traits_northeast_garund-fake-fn-11-target">11</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Osirion</Pair>
+<Pair single="benefit" id="traitchildofmumia-child-of-mumia-fn11-benefit">During your childhood, you knew someone who was addicted to <Link to="/drug/mumia">mumia</Link>, a drug made from the flesh of the dead, whether that was a drug-addled parent, an unsavory employer, or a libertine childhood friend. Although you did not indulge in the ghoulish narcotic yourself, your exposure to it grants you a +1 trait bonus on saving throws against curses and diseases, including magical diseases.</Pair>
+</Ability>
+<Ability id="traitchildofwati-child-of-wati-fn12" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitchildofwati-child-of-wati-fn12"><Link to="/trait/child_of_wati">⮞</Link> Child of Wati <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-12" id="main-traits_northeast_garund-fake-fn-12" data-hash-target to="main-traits_northeast_garund-fake-fn-12-target">12</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Osirion</Pair>
+<Pair single="flavor" id="traitchildofwati-child-of-wati-fn12-flavor">You were raised near the infamous necropolis of Wati, and even managed to sneak into these hallowed grounds on occasion. Entering the clergy of the Voices of the Spire in Wati was a natural choice as you grew older, and your past experiences made you a particularly well-informed disciple of the church.</Pair>
+<Pair single="benefit" id="traitchildofwati-child-of-wati-fn12-benefit">Your effective cleric level is 1 higher for the purposes of <Link to="/ability/channel_positive_energy">channeling positive energy</Link> to damage undead. Your effective cleric level cannot exceed your character level.</Pair>
+</Ability>
+<Ability id="traitcursequeller-curse-queller-fn13" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitcursequeller-curse-queller-fn13"><Link to="/trait/curse_queller">⮞</Link> Curse Queller <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-13" id="main-traits_northeast_garund-fake-fn-13" data-hash-target to="main-traits_northeast_garund-fake-fn-13-target">13</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Osirion</Pair>
+<Pair single="benefit" id="traitcursequeller-curse-queller-fn13-benefit">Whenever a caster level check is required to treat an affliction with magic (such as when casting <Link to="/spell/remove_curse">remove curse</Link> on a cursed creature or object), you gain a +2 trait bonus on your caster level check. Additionally, you gain a +1 trait bonus on your saving throws against curses.</Pair>
+</Ability>
+<Ability id="traitelementalendowment-elemental-endowment-fn3-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitelementalendowment-elemental-endowment-fn3-2"><Link to="/trait/elemental_endowment">⮞</Link> Elemental Endowment <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-3.2" id="main-traits_northeast_garund-fake-fn-3.2" data-hash-target to="main-traits_northeast_garund-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Osirion</Pair>
+<Pair single="flavor" id="traitelementalendowment-elemental-endowment-fn3-2-flavor">You see the interactions between elementals as the epitome of balance; you've studied the traditional elemental bindings of Ancient Osirion and can draw upon their power.</Pair>
+<Pair single="benefit" id="traitelementalendowment-elemental-endowment-fn3-2-benefit">As an <strong className="hl">immediate action</strong>, once per day when you cast a spell with the air, earth, fire, or water descriptor, you can gain a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to the spell's level. This effect lasts for 1 minute.</Pair>
+</Ability>
+<Ability id="traitelementalties-elemental-ties-fn14" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitelementalties-elemental-ties-fn14"><Link to="/trait/elemental_ties">⮞</Link> Elemental Ties <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-14" id="main-traits_northeast_garund-fake-fn-14" data-hash-target to="main-traits_northeast_garund-fake-fn-14-target">14</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Osirion</Pair>
+<Pair single="flavor" id="traitelementalties-elemental-ties-fn14-flavor">Interactions with elementals are commonplace for you.</Pair>
+<Pair single="benefit" id="traitelementalties-elemental-ties-fn14-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks when dealing with creatures of the elemental type, and you begin play knowing one of the following languages as an additional bonus language: Aquan, Auran, Ignan, or Terran.</Pair>
+</Ability>
+<Ability id="traitempathicdiplomat-empathic-diplomat-fn15" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitempathicdiplomat-empathic-diplomat-fn15"><Link to="/trait/empathic_diplomat">⮞</Link> Empathic Diplomat <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-15" id="main-traits_northeast_garund-fake-fn-15" data-hash-target to="main-traits_northeast_garund-fake-fn-15-target">15</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Qadira or Osirion</Pair>
+<Pair single="flavor" id="traitempathicdiplomat-empathic-diplomat-fn15-flavor">You have long followed the path of common sense and empathic insight when using diplomacy.</Pair>
+<Pair single="benefit" id="traitempathicdiplomat-empathic-diplomat-fn15-benefit">You modify your <Link to="/skill/diplomacy">Diplomacy</Link> checks using your Wisdom modifier, not your Charisma modifier.</Pair>
+</Ability>
+<Ability id="traitlegalisticliberation-legalistic-liberation-fn2-3" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitlegalisticliberation-legalistic-liberation-fn2-3"><Link to="/trait/legalistic_liberation">⮞</Link> Legalistic Liberation <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-2.3" id="main-traits_northeast_garund-fake-fn-2.3" data-hash-target to="main-traits_northeast_garund-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Molthune or Osirion</Pair>
+<Pair title="Requirements" hl><Link to="/race/halfling">Halfling</Link></Pair>
+<Pair single="flavor" id="traitlegalisticliberation-legalistic-liberation-fn2-3-flavor">You followed - or some might say exploited - the rules and earned your freedom by finding the loopholes within your homeland's labyrinthine codes regulating slavery and indentured servitude.</Pair>
+<Pair single="benefit" id="traitlegalisticliberation-legalistic-liberation-fn2-3-benefit">You gain a +1 bonus on all <Link to="/skill/knowledge">Knowledge</Link> checks to find a legitimate way to avoid, negate, or escape an existing obligation.</Pair>
+</Ability>
+<Ability id="traitnumerologist-numerologist-fn11-2" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitnumerologist-numerologist-fn11-2"><Link to="/trait/numerologist">⮞</Link> Numerologist <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-11.2" id="main-traits_northeast_garund-fake-fn-11.2" data-hash-target to="main-traits_northeast_garund-fake-fn-11-target">11</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Osirion</Pair>
+<Pair single="flavor" id="traitnumerologist-numerologist-fn11-2-flavor">Having studied the sciences and other formal academics in your formative years, you swiftly became interested in the esoteric numerological practices of the ancient Osirian mathematicians, and know how to apply this science to dungeons.</Pair>
+<Pair single="benefit" id="traitnumerologist-numerologist-fn11-2-benefit">Once per day, you can attempt a <Link to="/skill/perception">Perception</Link> check while studying a trap (a <strong className="hl">standard action</strong>). The DC of this check is equal to the <Link to="/skill/disable_device">Disable Device</Link> DC of the trap - 5. If you succeed, you identify the DC necessary to disable the trap, as well as the DC of the Reflex save (if any) to avoid its effects.</Pair>
+</Ability>
+<Ability id="traitoffspringoftheascension-offspring-of-the-ascension-fn16" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitoffspringoftheascension-offspring-of-the-ascension-fn16"><Link to="/trait/offspring_of_the_ascension">⮞</Link> Offspring of the Ascension <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-16" id="main-traits_northeast_garund-fake-fn-16" data-hash-target to="main-traits_northeast_garund-fake-fn-16-target">16</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Osirion</Pair>
+<Pair single="flavor" id="traitoffspringoftheascension-offspring-of-the-ascension-fn16-flavor">You are descended from one of Ancient Osirion's pharaohs, and a sliver of her otherworldly power has been passed onto you.</Pair>
+<Pair single="benefit" id="traitoffspringoftheascension-offspring-of-the-ascension-fn16-benefit">You gain a +1 trait bonus on Will saves against fear effects. Any time you become <Link to="/misc/confused">confused</Link>, reduce the duration of the effect by a number of rounds equal to your Wisdom modifier (to a minimum of 1 round of confusion).</Pair>
+</Ability>
+<Ability id="traitosirionologist-osirionologist-fn6-4" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitosirionologist-osirionologist-fn6-4"><Link to="/trait/osirionologist">⮞</Link> Osirionologist <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-6.4" id="main-traits_northeast_garund-fake-fn-6.4" data-hash-target to="main-traits_northeast_garund-fake-fn-6-target">6</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Osirion</Pair>
+<Pair single="flavor" id="traitosirionologist-osirionologist-fn6-4-flavor">You have studied the history of ancient Osirion, and may have even ventured inside one of the great pyramids.</Pair>
+<Pair single="benefit" id="traitosirionologist-osirionologist-fn6-4-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> and <Link to="/skill/knowledge_history">Knowledge (history)</Link> checks, and one of them is always a class skill for you. In addition, you may choose Ancient Osiriani as one of your bonus languages.</Pair>
+</Ability>
+<Ability id="traitrunawayslave-runaway-slave-fn17" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitrunawayslave-runaway-slave-fn17"><Link to="/trait/runaway_slave">⮞</Link> Runaway Slave <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-17" id="main-traits_northeast_garund-fake-fn-17" data-hash-target to="main-traits_northeast_garund-fake-fn-17-target">17</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Region" hl>Osirion, Thuvia, or Darklands-adjacent</Pair>
+<Pair single="flavor" id="traitrunawayslave-runaway-slave-fn17-flavor">Though the ghouls of Nemret Noktoria and the drow of Zirnakaynin seldom darken the surface of Golarion, both have pacts with influential slavers and warlords who periodically provide the demon worshipers with kidnapped slaves. You were once one of these unfortunate victims and were destined to become a sacrifice to a dreadful demon lord, but you managed to slip your bonds and escape back to the surface. The horrors you witnessed were beyond fathoming, and though visions of imprisoned loved ones and friends plague your dreams, you are stronger for the experience.</Pair>
+<Pair single="benefit" id="traitrunawayslave-runaway-slave-fn17-benefit">You gain a +1 trait bonus on saves against fear effects and gain low-light vision 10 feet. If you already have low-light vision, its range extends by 10 feet.</Pair>
+</Ability>
+<Ability id="traitsnakehandler-snake-handler-fn18" extraClasses="trait" icon={["planet-conquest"]}>
+<Pair single id="traitsnakehandler-snake-handler-fn18"><Link to="/trait/snake_handler">⮞</Link> Snake Handler <sup><InnerLink showBacklink="backlink-main-traits_northeast_garund-fake-fn-18" id="main-traits_northeast_garund-fake-fn-18" data-hash-target to="main-traits_northeast_garund-fake-fn-18-target">18</InnerLink></sup></Pair>
+<Pair title="Type">Regional</Pair>
+<Pair title="Religion" hl><Link to="/faith/apep">Apep</Link> or <Link to="/faith/wadjet">Wadjet</Link></Pair>
+<Pair title="Region" hl>Osirion</Pair>
+<Pair single="flavor" id="traitsnakehandler-snake-handler-fn18-flavor">You have spent time as a member of a cult of either Apep or Wadjet, the serpent gods of Osirion. Membership involved the handling of dangerous snakes during rituals, and you have learned how to keep yourself and others safe around them.</Pair>
+<Pair single="benefit" id="traitsnakehandler-snake-handler-fn18-benefit">You gain a +2 bonus on Fortitude saves against poison. <Link to="/skill/handle_animal">Handle Animal</Link> is always a class skill for you.</Pair>
+</Ability>
+</IonLabel></IonItem><section data-footnotes><h3 id="main-traits_northeast_garund-label">Footnotes</h3><ol>
+<li id="main-traits_northeast_garund-fake-fn-1-target"><p><Link to="/source/potions_and_poisons">Potions and Poisons</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_northeast_garund-fake-fn-1" data-hash-target to="main-traits_northeast_garund-fake-fn-1">↩</InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-2-target"><p><Link to="/source/halflings_of_golarion">Halflings of Golarion</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_northeast_garund-fake-fn-2" data-hash-target to="main-traits_northeast_garund-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_northeast_garund-fake-fn-2.2" data-hash-target to="main-traits_northeast_garund-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_northeast_garund-fake-fn-2.3" data-hash-target to="main-traits_northeast_garund-fake-fn-2.3">↩<sup>3</sup></InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-3-target"><p><Link to="/source/champions_of_balance">Champions of Balance</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_northeast_garund-fake-fn-3" data-hash-target to="main-traits_northeast_garund-fake-fn-3">↩</InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_northeast_garund-fake-fn-3.2" data-hash-target to="main-traits_northeast_garund-fake-fn-3.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-4-target"><p><Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_northeast_garund-fake-fn-4" data-hash-target to="main-traits_northeast_garund-fake-fn-4">↩</InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_northeast_garund-fake-fn-4.2" data-hash-target to="main-traits_northeast_garund-fake-fn-4.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_northeast_garund-fake-fn-4.3" data-hash-target to="main-traits_northeast_garund-fake-fn-4.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_northeast_garund-fake-fn-4.4" data-hash-target to="main-traits_northeast_garund-fake-fn-4.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_northeast_garund-fake-fn-4.5" data-hash-target to="main-traits_northeast_garund-fake-fn-4.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_northeast_garund-fake-fn-4.6" data-hash-target to="main-traits_northeast_garund-fake-fn-4.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_northeast_garund-fake-fn-4.7" data-hash-target to="main-traits_northeast_garund-fake-fn-4.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_northeast_garund-fake-fn-4.8" data-hash-target to="main-traits_northeast_garund-fake-fn-4.8">↩<sup>8</sup></InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-5-target"><p><Link to="/source/blood_of_the_beast">Blood of the Beast</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_northeast_garund-fake-fn-5" data-hash-target to="main-traits_northeast_garund-fake-fn-5">↩</InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-6-target"><p><Link to="/source/inner_sea_primer">Inner Sea Primer</Link> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_northeast_garund-fake-fn-6" data-hash-target to="main-traits_northeast_garund-fake-fn-6">↩</InnerLink> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_northeast_garund-fake-fn-6.2" data-hash-target to="main-traits_northeast_garund-fake-fn-6.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_northeast_garund-fake-fn-6.3" data-hash-target to="main-traits_northeast_garund-fake-fn-6.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_northeast_garund-fake-fn-6.4" data-hash-target to="main-traits_northeast_garund-fake-fn-6.4">↩<sup>4</sup></InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-7-target"><p><Link to="/source/blood_of_the_elements">Blood of the Elements</Link> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_northeast_garund-fake-fn-7" data-hash-target to="main-traits_northeast_garund-fake-fn-7">↩</InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-8-target"><p><Link to="/source/ultimate_campaign">Ultimate Campaign</Link> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_northeast_garund-fake-fn-8" data-hash-target to="main-traits_northeast_garund-fake-fn-8">↩</InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-9-target"><p><Link to="/source/advanced_players_guide">Advanced Player's Guide</Link> <InnerLink aria-label="Back to reference 9" id="backlink-main-traits_northeast_garund-fake-fn-9" data-hash-target to="main-traits_northeast_garund-fake-fn-9">↩</InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-10-target"><p><Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea</Link> <InnerLink aria-label="Back to reference 10" id="backlink-main-traits_northeast_garund-fake-fn-10" data-hash-target to="main-traits_northeast_garund-fake-fn-10">↩</InnerLink> <InnerLink aria-label="Back to reference 10" id="backlink-main-traits_northeast_garund-fake-fn-10.2" data-hash-target to="main-traits_northeast_garund-fake-fn-10.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 10" id="backlink-main-traits_northeast_garund-fake-fn-10.3" data-hash-target to="main-traits_northeast_garund-fake-fn-10.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 10" id="backlink-main-traits_northeast_garund-fake-fn-10.4" data-hash-target to="main-traits_northeast_garund-fake-fn-10.4">↩<sup>4</sup></InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-11-target"><p><Link to="/source/people_of_the_sands">People of the Sands</Link> <InnerLink aria-label="Back to reference 11" id="backlink-main-traits_northeast_garund-fake-fn-11" data-hash-target to="main-traits_northeast_garund-fake-fn-11">↩</InnerLink> <InnerLink aria-label="Back to reference 11" id="backlink-main-traits_northeast_garund-fake-fn-11.2" data-hash-target to="main-traits_northeast_garund-fake-fn-11.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-12-target"><p><Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook</Link> <InnerLink aria-label="Back to reference 12" id="backlink-main-traits_northeast_garund-fake-fn-12" data-hash-target to="main-traits_northeast_garund-fake-fn-12">↩</InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-13-target"><p><Link to="/source/healers_handbook">Healer's Handbook</Link> <InnerLink aria-label="Back to reference 13" id="backlink-main-traits_northeast_garund-fake-fn-13" data-hash-target to="main-traits_northeast_garund-fake-fn-13">↩</InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-14-target"><p><Link to="/source/monster_summoners_handbook">Monster Summoner's Handbook</Link> <InnerLink aria-label="Back to reference 14" id="backlink-main-traits_northeast_garund-fake-fn-14" data-hash-target to="main-traits_northeast_garund-fake-fn-14">↩</InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-15-target"><p><Link to="/source/qadira_jewel_of_the_east">Qadira, Jewel of the East</Link> <InnerLink aria-label="Back to reference 15" id="backlink-main-traits_northeast_garund-fake-fn-15" data-hash-target to="main-traits_northeast_garund-fake-fn-15">↩</InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-16-target"><p><Link to="/source/people_of_the_stars">People of the Stars</Link> <InnerLink aria-label="Back to reference 16" id="backlink-main-traits_northeast_garund-fake-fn-16" data-hash-target to="main-traits_northeast_garund-fake-fn-16">↩</InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-17-target"><p><Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook</Link> <InnerLink aria-label="Back to reference 17" id="backlink-main-traits_northeast_garund-fake-fn-17" data-hash-target to="main-traits_northeast_garund-fake-fn-17">↩</InnerLink></p></li>
+<li id="main-traits_northeast_garund-fake-fn-18-target"><p><Link to="/source/heroes_from_the_fringe">Heroes from the Fringe</Link> <InnerLink aria-label="Back to reference 18" id="backlink-main-traits_northeast_garund-fake-fn-18" data-hash-target to="main-traits_northeast_garund-fake-fn-18">↩</InnerLink></p></li>
+</ol></section></IonList>};
+const _traits_social_prod = {title: "Productive Skill Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitartisan-artisan-fn1" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitartisan-artisan-fn1"><Link to="/trait/artisan">⮞</Link> Artisan <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-1" id="main-traits_social_prod-fake-fn-1" data-hash-target to="main-traits_social_prod-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitartisan-artisan-fn1-flavor">You spent time working under artisans, or your parents were artisans who were particularly skilled at their trade.</Pair>
+<Pair single="benefit" id="traitartisan-artisan-fn1-benefit">You gain a +2 trait bonus on a single <Link to="/skill/craft">Craft</Link> skill (your choice).</Pair>
+</Ability>
+<Ability id="traitbrastlewarkbusinessmangog-brastlewark-businessman-gog-fn2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitbrastlewarkbusinessmangog-brastlewark-businessman-gog-fn2"><Link to="/trait/brastlewark_businessman_gog">⮞</Link> Brastlewark Businessman (GoG) <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-2" id="main-traits_social_prod-fake-fn-2" data-hash-target to="main-traits_social_prod-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
+<Pair single="flavor" id="traitbrastlewarkbusinessmangog-brastlewark-businessman-gog-fn2-flavor">Your time among the gnome elite of Brastlewark in Cheliax has led to an extensive knowledge of alchemy and ready connections in the business.</Pair>
+<Pair single="benefit" id="traitbrastlewarkbusinessmangog-brastlewark-businessman-gog-fn2-benefit">You gain a +2 trait bonus on all <Link to="/skill/craft">Craft</Link> (alchemy) checks.</Pair>
+</Ability>
+<Ability id="traitcollector-collector-fn2-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitcollector-collector-fn2-2"><Link to="/trait/collector">⮞</Link> Collector <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-2.2" id="main-traits_social_prod-fake-fn-2.2" data-hash-target to="main-traits_social_prod-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Requirements" hl><Link to="/race/gnome">Gnome</Link></Pair>
+<Pair single="flavor" id="traitcollector-collector-fn2-2-flavor">You have a small, bizarre collection of apparently worthless items, such as rusty nails, animal droppings, clockwork cogs, or bent spoons. You find this strange menagerie useful in ways no non-gnome could understand. Seeking new items to add to this collection is endlessly fascinating to you, and while no one else may understand why a Chelish horsenail is worthy to add to your collection when a dwarven wheelbarrow nail is not, it all makes sense to you.</Pair>
+<Pair single="benefit" id="traitcollector-collector-fn2-2-benefit"><p>Select one of the following skills: <Link to="/skill/craft">Craft</Link> (any one), <Link to="/skill/disable_device">Disable Device</Link>, <Link to="/skill/escape_artist">Escape Artist</Link>, <Link to="/skill/perform">Perform</Link> (any one), or <Link to="/skill/spellcraft">Spellcraft</Link>. Whenever you have your collection within 5 feet of you, you gain a +2 trait bonus on all checks made with the selected skill.</p>
+<p>Once this skill has been selected, it cannot be changed, nor can you gain it for any other collection you begin amassing.</p>
+</Pair>
+</Ability>
+<Ability id="traitharvester-harvester-fn1-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitharvester-harvester-fn1-2"><Link to="/trait/harvester">⮞</Link> Harvester <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-1.2" id="main-traits_social_prod-fake-fn-1.2" data-hash-target to="main-traits_social_prod-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitharvester-harvester-fn1-2-flavor">You were trained to harvest all parts of an animal with care and precision.</Pair>
+<Pair single="benefit" id="traitharvester-harvester-fn1-2-benefit">You gain a +1 trait bonus on <Link to="/skill/profession">Profession</Link> (tanner) or Profession (trapper) checks, and you may make these checks as if you were trained in the skill even if you have no ranks. Additionally, you do not risk poisoning yourself whenever you handle or apply poison taken from a venomous creature.</Pair>
+</Ability>
+<Ability id="traitmentored-mentored-fn1-3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitmentored-mentored-fn1-3"><Link to="/trait/mentored">⮞</Link> Mentored <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-1.3" id="main-traits_social_prod-fake-fn-1.3" data-hash-target to="main-traits_social_prod-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitmentored-mentored-fn1-3-flavor">A tutor or private instructor guided you in learning your art, profession, or trade, and through your education, you became capable of teaching and guiding others.</Pair>
+<Pair single="benefit" id="traitmentored-mentored-fn1-3-benefit">Choose a single <Link to="/skill/craft">Craft</Link>, <Link to="/skill/perform">Perform</Link>, or <Link to="/skill/profession">Profession</Link> skill. You gain a +1 trait bonus on checks with that skill. You also gain a +1 trait bonus when you <Link to="/rule/aid_another">aid another's</Link> skill check with any skill.</Pair>
+</Ability>
+<Ability id="traitnoblesavage-noble-savage-fn3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitnoblesavage-noble-savage-fn3"><Link to="/trait/noble_savage">⮞</Link> Noble Savage <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-3" id="main-traits_social_prod-fake-fn-3" data-hash-target to="main-traits_social_prod-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Requirements" hl>Associated with the <Link to="/rule/ulfen_guard">Ulfen Guard</Link></Pair>
+<Pair single="flavor" id="traitnoblesavage-noble-savage-fn3-flavor">You hail from the fringes of civilization or the bottommost strata of society, but something in your character makes that seem endearing.</Pair>
+<Pair single="benefit" id="traitnoblesavage-noble-savage-fn3-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/perform">Perform</Link> checks when dealing with people of high social standing.</Pair>
+</Ability>
+<Ability id="traitobnoxious-obnoxious-fn4" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitobnoxious-obnoxious-fn4"><Link to="/trait/obnoxious">⮞</Link> Obnoxious <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-4" id="main-traits_social_prod-fake-fn-4" data-hash-target to="main-traits_social_prod-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitobnoxious-obnoxious-fn4-flavor">You have long since forgotten to care what people think about you - though your interactions are always memorable, at the very least.</Pair>
+<Pair single="benefit" id="traitobnoxious-obnoxious-fn4-benefit">Choose <Link to="/skill/perform">Perform</Link> (act), Perform (comedy), Perform (oratory), or Perform (sing); you gain a +1 trait bonus on checks with the chosen skill and gain it as a class skill.</Pair>
+</Ability>
+<Ability id="traitsavant-savant-fn3-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitsavant-savant-fn3-2"><Link to="/trait/savant">⮞</Link> Savant <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-3.2" id="main-traits_social_prod-fake-fn-3.2" data-hash-target to="main-traits_social_prod-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Requirements" hl><Link to="/rule/kitharodian_academy">Kitharodian Academy</Link></Pair>
+<Pair single="flavor" id="traitsavant-savant-fn3-2-flavor">From a very young age, the ability to master performance types has come quite naturally to you.</Pair>
+<Pair single="benefit" id="traitsavant-savant-fn3-2-benefit">Choose a performance type. You gain a +2 trait bonus on all <Link to="/skill/perform">Perform</Link> checks made using that performance type. Perform is always a class skill for you.</Pair>
+</Ability>
+<Ability id="traitselfreliant-self-reliant-fn5" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitselfreliant-self-reliant-fn5"><Link to="/trait/self_reliant">⮞</Link> Self-Reliant <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-5" id="main-traits_social_prod-fake-fn-5" data-hash-target to="main-traits_social_prod-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitselfreliant-self-reliant-fn5-flavor">You know how to work with your hands and aren't dependent on complex tools.</Pair>
+<Pair single="benefit" id="traitselfreliant-self-reliant-fn5-benefit">When attempting <Link to="/skill/craft">Craft</Link> checks, you take no penalty when using improvised tools. At the GM's discretion, you can attempt certain Craft checks even when no tools are available, though you take a -2 penalty.</Pair>
+</Ability>
+<Ability id="traitsimpledisciple-simple-disciple-fn1-4" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitsimpledisciple-simple-disciple-fn1-4"><Link to="/trait/simple_disciple">⮞</Link> Simple Disciple <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-1.4" id="main-traits_social_prod-fake-fn-1.4" data-hash-target to="main-traits_social_prod-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitsimpledisciple-simple-disciple-fn1-4-flavor">You picked up skill in a craft or a profession during your time at a monastery.</Pair>
+<Pair single="benefit" id="traitsimpledisciple-simple-disciple-fn1-4-benefit">You gain a +1 trait bonus on checks with a <Link to="/skill/profession">Profession</Link> or <Link to="/skill/craft">Craft</Link> skill of your choice.</Pair>
+</Ability>
+<Ability id="traittalented-talented-fn1-5" extraClasses="trait" icon={["village"]}>
+<Pair single id="traittalented-talented-fn1-5"><Link to="/trait/talented">⮞</Link> Talented <sup><InnerLink showBacklink="backlink-main-traits_social_prod-fake-fn-1.5" id="main-traits_social_prod-fake-fn-1.5" data-hash-target to="main-traits_social_prod-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traittalented-talented-fn1-5-flavor">You are a virtuoso musician, actor, or storyteller.</Pair>
+<Pair single="benefit" id="traittalented-talented-fn1-5-benefit">You gain a +1 trait bonus on checks with a single <Link to="/skill/perform">Perform</Link> skill (your choice), and all Perform skills are always class skills for you.</Pair>
+</Ability>
+</IonLabel></IonItem><section data-footnotes><h3 id="main-traits_social_prod-label">Footnotes</h3><ol>
+<li id="main-traits_social_prod-fake-fn-1-target"><p><Link to="/source/ultimate_campaign">Ultimate Campaign</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_prod-fake-fn-1" data-hash-target to="main-traits_social_prod-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_prod-fake-fn-1.2" data-hash-target to="main-traits_social_prod-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_prod-fake-fn-1.3" data-hash-target to="main-traits_social_prod-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_prod-fake-fn-1.4" data-hash-target to="main-traits_social_prod-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_prod-fake-fn-1.5" data-hash-target to="main-traits_social_prod-fake-fn-1.5">↩<sup>5</sup></InnerLink></p></li>
+<li id="main-traits_social_prod-fake-fn-2-target"><p><Link to="/source/gnomes_of_golarion">Gnomes of Golarion</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_prod-fake-fn-2" data-hash-target to="main-traits_social_prod-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_prod-fake-fn-2.2" data-hash-target to="main-traits_social_prod-fake-fn-2.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_social_prod-fake-fn-3-target"><p><Link to="/source/faction_guide">Faction Guide</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_social_prod-fake-fn-3" data-hash-target to="main-traits_social_prod-fake-fn-3">↩</InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_social_prod-fake-fn-3.2" data-hash-target to="main-traits_social_prod-fake-fn-3.2">↩<sup>2</sup></InnerLink></p></li>
+<li id="main-traits_social_prod-fake-fn-4-target"><p><Link to="/source/antiheros_handbook">Antihero's Handbook</Link> <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_social_prod-fake-fn-4" data-hash-target to="main-traits_social_prod-fake-fn-4">↩</InnerLink></p></li>
+<li id="main-traits_social_prod-fake-fn-5-target"><p><Link to="/source/heroes_of_the_wild">Heroes of the Wild</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_prod-fake-fn-5" data-hash-target to="main-traits_social_prod-fake-fn-5">↩</InnerLink></p></li>
+</ol></section></IonList>};
+const _traits_social_other = {title: "Other Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitadopted-adopted-fn1-fn2-fn3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitadopted-adopted-fn1-fn2-fn3"><Link to="/trait/adopted">⮞</Link> Adopted <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-1" id="main-traits_social_other-fake-fn-1" data-hash-target to="main-traits_social_other-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-2" id="main-traits_social_other-fake-fn-2" data-hash-target to="main-traits_social_other-fake-fn-2-target">2</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-3" id="main-traits_social_other-fake-fn-3" data-hash-target to="main-traits_social_other-fake-fn-3-target">3</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="benefit" id="traitadopted-adopted-fn1-fn2-fn3-benefit">You were adopted and raised by someone not of your race, and raised in a society not your own. As a result, you picked up a race trait from your adoptive parents and society, and may immediately select a <Link to="/main/traits_race">race trait</Link> from your adoptive parents' race.</Pair>
+</Ability>
+<Ability id="traitancestralarmor-ancestral-armor-fn4" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitancestralarmor-ancestral-armor-fn4"><Link to="/trait/ancestral_armor">⮞</Link> Ancestral Armor <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-4" id="main-traits_social_other-fake-fn-4" data-hash-target to="main-traits_social_other-fake-fn-4-target">4</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitancestralarmor-ancestral-armor-fn4-flavor">You inherited an ancient set of Tar Taargadth armor.</Pair>
+<Pair single="benefit" id="traitancestralarmor-ancestral-armor-fn4-benefit">You begin play with a set of <Link to="/rule/masterwork_armor">masterwork armor</Link> of your choice. You must be proficient in wearing this armor, and the armor's total cost cannot exceed 300 gp.</Pair>
+</Ability>
+<Ability id="traitcompetitive-competitive-fn5" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitcompetitive-competitive-fn5"><Link to="/trait/competitive">⮞</Link> Competitive <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-5" id="main-traits_social_other-fake-fn-5" data-hash-target to="main-traits_social_other-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitcompetitive-competitive-fn5-flavor">You grew up and were raised around fabulous sporting events, and your youth was consumed with a driving need to be better than everyone else. Any hint of a contest spurs you to your greatest heights of potential.</Pair>
+<Pair single="benefit" id="traitcompetitive-competitive-fn5-benefit"><p>Whenever another creature within 30 feet attempts a skill check and you attempt a check with the same skill before the start of that creature's next turn, you gain a +1 trait bonus on your check (this includes attempting an opposed skill check against the creature).</p>
+<p><strong>Suggested Characters:</strong> Brevans, Kurgess worshipers, Sargavans.</p>
+</Pair>
+</Ability>
+<Ability id="traitduskmarketbribery-dusk-market-bribery-fn6" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitduskmarketbribery-dusk-market-bribery-fn6"><Link to="/trait/dusk_market_bribery">⮞</Link> Dusk Market Bribery <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-6" id="main-traits_social_other-fake-fn-6" data-hash-target to="main-traits_social_other-fake-fn-6-target">6</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitduskmarketbribery-dusk-market-bribery-fn6-flavor">You learned how to bribe by watching <Link to="/rule/dusk_market">Dusk Market</Link> merchants interact with Westcrown's dottari guards.</Pair>
+<Pair single="benefit" id="traitduskmarketbribery-dusk-market-bribery-fn6-benefit">Reduce the amount of gold you must spend to bribe a guard or official or compensate a conjured creature by 5%.</Pair>
+</Ability>
+<Ability id="traitmentored-mentored-fn1-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitmentored-mentored-fn1-2"><Link to="/trait/mentored">⮞</Link> Mentored <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-1.2" id="main-traits_social_other-fake-fn-1.2" data-hash-target to="main-traits_social_other-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitmentored-mentored-fn1-2-flavor">A tutor or private instructor guided you in learning your art, profession, or trade, and through your education, you became capable of teaching and guiding others.</Pair>
+<Pair single="benefit" id="traitmentored-mentored-fn1-2-benefit">Choose a single <Link to="/skill/craft">Craft</Link>, <Link to="/skill/perform">Perform</Link>, or <Link to="/skill/profession">Profession</Link> skill. You gain a +1 trait bonus on checks with that skill. You also gain a +1 trait bonus when you <Link to="/rule/aid_another">aid another's</Link> skill check with any skill.</Pair>
+</Ability>
+<Ability id="traitmonsterstalker-monster-stalker-fn7" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitmonsterstalker-monster-stalker-fn7"><Link to="/trait/monster_stalker">⮞</Link> Monster Stalker <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-7" id="main-traits_social_other-fake-fn-7" data-hash-target to="main-traits_social_other-fake-fn-7-target">7</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitmonsterstalker-monster-stalker-fn7-flavor">You've been raised to hunt certain beasts.</Pair>
+<Pair single="benefit" id="traitmonsterstalker-monster-stalker-fn7-benefit">Choose either aberrations, animals, dragons, fey, magical beasts, oozes, or vermin. You gain a limited version of the <Link to="/umr/scent">scent</Link> ability (15 feet normal, 30 feet upwind, 5 feet downwind) that detects only your chosen creature type.</Pair>
+</Ability>
+<Ability id="traitnaturalbornleadersocial-natural-born-leader-social-fn1-3-fn3-2-fn2-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitnaturalbornleadersocial-natural-born-leader-social-fn1-3-fn3-2-fn2-2"><Link to="/trait/natural_born_leader_social">⮞</Link> Natural-Born Leader (Social) <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-1.3" id="main-traits_social_other-fake-fn-1.3" data-hash-target to="main-traits_social_other-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-3.2" id="main-traits_social_other-fake-fn-3.2" data-hash-target to="main-traits_social_other-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-2.2" id="main-traits_social_other-fake-fn-2.2" data-hash-target to="main-traits_social_other-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitnaturalbornleadersocial-natural-born-leader-social-fn1-3-fn3-2-fn2-2-flavor">You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not.</Pair>
+<Pair single="benefit" id="traitnaturalbornleadersocial-natural-born-leader-social-fn1-3-fn3-2-fn2-2-benefit">All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the <Link to="/feat/leadership">Leadership</Link> feat, you gain a +1 trait bonus to your Leadership score.</Pair>
+</Ability>
+<Ability id="traitnumerianfluidindulger-numerian-fluid-indulger-fn8" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitnumerianfluidindulger-numerian-fluid-indulger-fn8"><Link to="/trait/numerian_fluid_indulger">⮞</Link> Numerian Fluid Indulger <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-8" id="main-traits_social_other-fake-fn-8" data-hash-target to="main-traits_social_other-fake-fn-8-target">8</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Region" hl>Numeria</Pair>
+<Pair title="Requirements" hl>Associated with the court of the Palace of Fallen Stars in Numeria</Pair>
+<Pair single="flavor" id="traitnumerianfluidindulger-numerian-fluid-indulger-fn8-flavor">You have tasted <Link to="/drug/numerian_fluids">Numerian fluids</Link> many times.</Pair>
+<Pair single="benefit" id="traitnumerianfluidindulger-numerian-fluid-indulger-fn8-benefit">Once per day after rolling to determine the side effects of consuming a Numerian fluid, you can roll on the table again, but you must take the second result.</Pair>
+</Ability>
+<Ability id="traitreassuringadvice-reassuring-advice-fn9" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitreassuringadvice-reassuring-advice-fn9"><Link to="/trait/reassuring_advice">⮞</Link> Reassuring Advice <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-9" id="main-traits_social_other-fake-fn-9" data-hash-target to="main-traits_social_other-fake-fn-9-target">9</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitreassuringadvice-reassuring-advice-fn9-flavor">You've studied the speeches and writings of a leader or thinker who served as a reassuring voice in her community in the turbulent times after Aroden died, painfully learning which portions of Aroden's advice no longer applied and what of his writings could still be usefully applied.</Pair>
+<Pair single="benefit" id="traitreassuringadvice-reassuring-advice-fn9-benefit">Once per day, you can speak Aroden's words of encouragement to grant any human a +1 insight bonus on any attack roll, saving throw, or skill check of his choice within the following hour. The choice to use the insight bonus must be made before the related roll is made.</Pair>
+</Ability>
+<Ability id="traitrichparents-rich-parents-fn1-4-fn3-3-fn2-3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitrichparents-rich-parents-fn1-4-fn3-3-fn2-3"><Link to="/trait/rich_parents">⮞</Link> Rich Parents <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-1.4" id="main-traits_social_other-fake-fn-1.4" data-hash-target to="main-traits_social_other-fake-fn-1-target">1</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-3.3" id="main-traits_social_other-fake-fn-3.3" data-hash-target to="main-traits_social_other-fake-fn-3-target">3</InnerLink></sup> <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-2.3" id="main-traits_social_other-fake-fn-2.3" data-hash-target to="main-traits_social_other-fake-fn-2-target">2</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="benefit" id="traitrichparents-rich-parents-fn1-4-fn3-3-fn2-3-benefit">You were born into a rich family, perhaps even the nobility, and even though you turned to a life of adventure, you enjoy a one-time benefit to your initial finances: your starting wealth increases to 900 gp.</Pair>
+</Ability>
+<Ability id="traitslaverunner-slave-runner-fn10" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitslaverunner-slave-runner-fn10"><Link to="/trait/slave_runner">⮞</Link> Slave Runner <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-10" id="main-traits_social_other-fake-fn-10" data-hash-target to="main-traits_social_other-fake-fn-10-target">10</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitslaverunner-slave-runner-fn10-flavor">You witnessed or were party to the rescue of a halfling from Chelish slavery by the <Link to="/rule/bellflower_network">Bellflower Network</Link> or <Link to="/rule/eagle_knights">Eagle Knights</Link>.</Pair>
+<Pair single="benefit" id="traitslaverunner-slave-runner-fn10-benefit">Once per day when attempting to directly free a slave, you gain a +2 trait bonus on your choice of an <Link to="/skill/acrobatics">Acrobatics</Link> check, an <Link to="/skill/escape_artist">Escape Artist</Link> check, a <Link to="/skill/stealth">Stealth</Link> check, or a skill check attempted as part of a <Link to="/rule/heists">heist</Link> or <Link to="/rule/pursuit">pursuit</Link></Pair>
+</Ability>
+<Ability id="traitsupportive-supportive-fn5-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitsupportive-supportive-fn5-2"><Link to="/trait/supportive">⮞</Link> Supportive <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-5.2" id="main-traits_social_other-fake-fn-5.2" data-hash-target to="main-traits_social_other-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitsupportive-supportive-fn5-2-flavor">You were forced to get by in an isolated enclave, whether surrounded by a community that feared and suspected you or in a remote locale far from other people, and you became practiced at assisting your friends.</Pair>
+<Pair single="benefit" id="traitsupportive-supportive-fn5-2-benefit"><p>You gain a +1 trait bonus on skill checks to use the <Link to="/rule/aid_another">aid another</Link> action.</p>
+<p><strong>Suggested Characters:</strong> Halflings, Mwangi, Tians.</p>
+</Pair>
+</Ability>
+<Ability id="traitvoicesinyourhead-voices-in-your-head-fn11" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitvoicesinyourhead-voices-in-your-head-fn11"><Link to="/trait/voices_in_your_head">⮞</Link> Voices in your Head <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-11" id="main-traits_social_other-fake-fn-11" data-hash-target to="main-traits_social_other-fake-fn-11-target">11</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitvoicesinyourhead-voices-in-your-head-fn11-flavor">Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness.</Pair>
+<Pair single="benefit" id="traitvoicesinyourhead-voices-in-your-head-fn11-benefit">Once per day as an <strong className="hl">immediate action</strong>, you can issue a command to a <Link to="/misc/confused">confused</Link> creature within 30 feet. This allows the creature to immediately reroll on the <Link to="/misc/confused">confused condition table</Link>, and you can pick which of the two actions - the action of its initial roll or that of the reroll - the creature takes. Confused creatures do not need to understand you for this trait to take effect.</Pair>
+</Ability>
+<Ability id="traitwanderlust-wanderlust-fn5-3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitwanderlust-wanderlust-fn5-3"><Link to="/trait/wanderlust">⮞</Link> Wanderlust <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-5.3" id="main-traits_social_other-fake-fn-5.3" data-hash-target to="main-traits_social_other-fake-fn-5-target">5</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitwanderlust-wanderlust-fn5-3-flavor">Your childhood was brightened by the new places you constantly saw as you traveled with your parents, who were merchants. Still excited by travel, you gain great energy when traveling overland.</Pair>
+<Pair single="benefit" id="traitwanderlust-wanderlust-fn5-3-benefit"><p>Treat your base land speed as 10 feet higher when determining your overland speed.</p>
+<p><strong>Suggested Characters:</strong> Desnans, halflings, Varisians.</p>
+</Pair>
+</Ability>
+<Ability id="traitwickedleader-wicked-leader-fn12" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitwickedleader-wicked-leader-fn12"><Link to="/trait/wicked_leader">⮞</Link> Wicked Leader <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-12" id="main-traits_social_other-fake-fn-12" data-hash-target to="main-traits_social_other-fake-fn-12-target">12</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="benefit" id="traitwickedleader-wicked-leader-fn12-benefit">You gain a +1 trait bonus on Charisma checks against evil creatures. If you select the <Link to="/feat/leadership">Leadership</Link> feat or the <Link to="/feat/vile_leadership">Vile Leadership</Link> feat at any point when you meet the prerequisites for that feat, you can recruit a cohort who is up to 1 level lower than you (instead of the normal requirement that your cohort must be 2 or more levels lower than you are) as long as your cohort is evil.</Pair>
+</Ability>
+<Ability id="traitworldly-worldly-fn1-5" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitworldly-worldly-fn1-5"><Link to="/trait/worldly">⮞</Link> Worldly <sup><InnerLink showBacklink="backlink-main-traits_social_other-fake-fn-1.5" id="main-traits_social_other-fake-fn-1.5" data-hash-target to="main-traits_social_other-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair single="flavor" id="traitworldly-worldly-fn1-5-flavor">You have acquired an unusual breadth of life experience - more than others of your age, race, or culture.</Pair>
+<Pair single="benefit" id="traitworldly-worldly-fn1-5-benefit">Once per day when attempting a skill check for a skill you're untrained in, you can roll twice and take the better result.</Pair>
+</Ability>
+</IonLabel></IonItem><section data-footnotes><h3 id="main-traits_social_other-label">Footnotes</h3><ol>
+<li id="main-traits_social_other-fake-fn-1-target"><p><Link to="/source/ultimate_campaign">Ultimate Campaign</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_other-fake-fn-1" data-hash-target to="main-traits_social_other-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_other-fake-fn-1.2" data-hash-target to="main-traits_social_other-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_other-fake-fn-1.3" data-hash-target to="main-traits_social_other-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_other-fake-fn-1.4" data-hash-target to="main-traits_social_other-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_other-fake-fn-1.5" data-hash-target to="main-traits_social_other-fake-fn-1.5">↩<sup>5</sup></InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-2-target"><p><Link to="/source/second_darkness_players_guide">Second Darkness Player's Guide</Link> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_other-fake-fn-2" data-hash-target to="main-traits_social_other-fake-fn-2">↩</InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_other-fake-fn-2.2" data-hash-target to="main-traits_social_other-fake-fn-2.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 2" id="backlink-main-traits_social_other-fake-fn-2.3" data-hash-target to="main-traits_social_other-fake-fn-2.3">↩<sup>3</sup></InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-3-target"><p><Link to="/source/advanced_players_guide">Advanced Player's Guide</Link> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_social_other-fake-fn-3" data-hash-target to="main-traits_social_other-fake-fn-3">↩</InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_social_other-fake-fn-3.2" data-hash-target to="main-traits_social_other-fake-fn-3.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 3" id="backlink-main-traits_social_other-fake-fn-3.3" data-hash-target to="main-traits_social_other-fake-fn-3.3">↩<sup>3</sup></InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-4-target"><p><Link to="/source/blood_of_the_ancients">Blood of the Ancients</Link> pg. 31 <InnerLink aria-label="Back to reference 4" id="backlink-main-traits_social_other-fake-fn-4" data-hash-target to="main-traits_social_other-fake-fn-4">↩</InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-5-target"><p><Link to="/source/quests_and_campaigns">Quests and Campaigns</Link> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_other-fake-fn-5" data-hash-target to="main-traits_social_other-fake-fn-5">↩</InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_other-fake-fn-5.2" data-hash-target to="main-traits_social_other-fake-fn-5.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 5" id="backlink-main-traits_social_other-fake-fn-5.3" data-hash-target to="main-traits_social_other-fake-fn-5.3">↩<sup>3</sup></InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-6-target"><p><Link to="/source/black_markets">Black Markets</Link> <InnerLink aria-label="Back to reference 6" id="backlink-main-traits_social_other-fake-fn-6" data-hash-target to="main-traits_social_other-fake-fn-6">↩</InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-7-target"><p><Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook</Link> <InnerLink aria-label="Back to reference 7" id="backlink-main-traits_social_other-fake-fn-7" data-hash-target to="main-traits_social_other-fake-fn-7">↩</InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-8-target"><p><Link to="/source/heroes_of_the_high_court">Heroes of the High Court</Link> <InnerLink aria-label="Back to reference 8" id="backlink-main-traits_social_other-fake-fn-8" data-hash-target to="main-traits_social_other-fake-fn-8">↩</InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-9-target"><p><Link to="/source/arcane_anthology">Arcane Anthology</Link> <InnerLink aria-label="Back to reference 9" id="backlink-main-traits_social_other-fake-fn-9" data-hash-target to="main-traits_social_other-fake-fn-9">↩</InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-10-target"><p><Link to="/source/spymasters_handbook">Spymaster's Handbook</Link> <InnerLink aria-label="Back to reference 10" id="backlink-main-traits_social_other-fake-fn-10" data-hash-target to="main-traits_social_other-fake-fn-10">↩</InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-11-target"><p><Link to="/source/heroes_of_the_darklands">Heroes of the Darklands</Link> <InnerLink aria-label="Back to reference 11" id="backlink-main-traits_social_other-fake-fn-11" data-hash-target to="main-traits_social_other-fake-fn-11">↩</InnerLink></p></li>
+<li id="main-traits_social_other-fake-fn-12-target"><p><Link to="/source/champions_of_corruption">Champions of Corruption</Link> <InnerLink aria-label="Back to reference 12" id="backlink-main-traits_social_other-fake-fn-12" data-hash-target to="main-traits_social_other-fake-fn-12">↩</InnerLink></p></li>
+</ol></section></IonList>};
+const _traits_social_code = {title: "Knightly Code Social Traits", jsx: <IonList lines="full"><MainLink to="/main/traits_social" className="reversed" info="Back to Social Traits" /><IonItem className="mainItem basic"><IonLabel><Ability id="traitcalculatedbribe-calculated-bribe-fn1" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitcalculatedbribe-calculated-bribe-fn1"><Link to="/trait/calculated_bribe">⮞</Link> Calculated Bribe <sup><InnerLink showBacklink="backlink-main-traits_social_code-fake-fn-1" id="main-traits_social_code-fake-fn-1" data-hash-target to="main-traits_social_code-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Code of Perseverance" hl><p>Knights who follow the code of perseverance believe that to truly serve a purpose, an organization or group of individuals must first look to its own survival. Deeds are temporary and forgotten with time. For an organization to be influential, it must persist. These knights collect power and wealth, always looking to the future. Their vows are as follows.</p>
+<ul>
+<li>I will take on no challenges out of charity. Any task that I undertake for another individual will have an associated price, though it may not be monetary in nature.</li>
+<li>I shall let neither compassion nor hatred rob me of wealth. I will not give wealth away to those who have done nothing for me, nor shall I engage in needless destruction of potential resources.</li>
+<li>I will set aside a fraction of all my spoils to guard against any chances of future poverty.</li>
+<li>If I have an opportunity to seize power, I will not hesitate to take it if it will strengthen my position.</li>
+<li>I will not take unnecessary risks that place my future or the future of my organization in jeopardy.</li>
+</ul>
+</Pair>
+<Pair single="flavor" id="traitcalculatedbribe-calculated-bribe-fn1-flavor">If you follow this code, you are keenly aware of the value of actions as well as goods.</Pair>
+<Pair single="benefit" id="traitcalculatedbribe-calculated-bribe-fn1-benefit"><p>Once per day while haggling with a merchant or striking a bargain with another intelligent creature, you can spend a number of gold pieces equal to your level &times; 10 in order to reroll a <Link to="/skill/diplomacy">Diplomacy</Link> check you just made, before the results are revealed. You must take the result of the reroll, even if it's worse than the original roll.</p>
+<p>In addition, you begin play with a set of extravagant noble's clothes worth 100 gp.</p>
+</Pair>
+<Pair title="Penance" hl>Knights who violate this code must perform penance by placing money into a fund to guard against their order's future poverty. The amount required for a knight to set aside is 100 gold &times; the knight's current level.</Pair>
+</Ability>
+<Ability id="traitcontagiousmettle-contagious-mettle-fn1-2" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitcontagiousmettle-contagious-mettle-fn1-2"><Link to="/trait/contagious_mettle">⮞</Link> Contagious Mettle <sup><InnerLink showBacklink="backlink-main-traits_social_code-fake-fn-1.2" id="main-traits_social_code-fake-fn-1.2" data-hash-target to="main-traits_social_code-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Code of Valor" hl><p>Knights who follow the code of valor believe that nothing is more important than courage in battle. The strength of knights is determined by their willingness to stand in the face of overwhelming odds. Without valor, knighthood is merely a title. Their vows are as follows.</p>
+<ul>
+<li>I will accept any challenge to combat if given honorably, regardless of my opponent.</li>
+<li>If I know combat to be the best course of action, I shall not let an enemy discourage me from it with a threat of overwhelming force.</li>
+<li>Once battle is a forgone conclusion, I will be among the first of my allies to charge and engage our foes.</li>
+<li>I shall not willingly succumb to fear. If retreat is a necessity, I will be among the last of my allies to leave the field of battle.</li>
+<li>I will not leave any of my allies on the field, nor will I abandon them while they are in immediate danger.</li>
+</ul>
+</Pair>
+<Pair single="benefit" id="traitcontagiousmettle-contagious-mettle-fn1-2-benefit">If you follow this code, you gain a +1 trait bonus on Will saves against fear. In addition, any allies adjacent to you receive a +1 morale bonus on Will saves against fear.</Pair>
+<Pair title="Penance" hl>Knights who violate this code must perform penance by volunteering their service to a local militia, army, or fighting company for at least 1 week, whether by performing unusual missions, leading troops into battle, or assisting in the training of soldiers.</Pair>
+</Ability>
+<Ability id="traitdismantleorder-dismantle-order-fn1-3" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitdismantleorder-dismantle-order-fn1-3"><Link to="/trait/dismantle_order">⮞</Link> Dismantle Order <sup><InnerLink showBacklink="backlink-main-traits_social_code-fake-fn-1.3" id="main-traits_social_code-fake-fn-1.3" data-hash-target to="main-traits_social_code-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Code of Revolution" hl><p>Knights who follow the code of revolution believe that strict laws are an unnecessary bulwark standing in the way of social progress. According to these knights, intelligent and civilized people are inherently good-natured, and if left to their own devices, individuals would prove more wholesome and attuned to the natural order of things than when tainted by the unnatural strictures of organized society. Their vows are as follows.</p>
+<ul>
+<li><p>The wicked must be punished, though not by the hands of corrupted officials or easily swayed politicians.</p>
+</li>
+<li><p>I shall not let stand acts of unfairness performed by governments or their harbingers. Those who contribute to an organized system of cruelty shall feel my wrath.</p>
+</li>
+<li><p>All prisoners, regardless of whether they were convicted or not, deserve a second chance.</p>
+</li>
+<li><p>Tribal or lawless societies exemplify the natural order, and under my watch shall not come to harm from those who would seek to rule them.</p>
+</li>
+<li><p>Those creatures who live free shall see no harm fall to them by myself or my sword.</p>
+</li>
+<li><p>I shall not place unnecessary value on material possessions, as such things are fleeting, whereas deeds are immortal.</p>
+</li>
+</ul>
+</Pair>
+<Pair single="flavor" id="traitdismantleorder-dismantle-order-fn1-3-flavor">If you follow this code, your appreciation for unfettered social freedom allows you to locate supporters of law with supernatural ease.</Pair>
+<Pair single="benefit" id="traitdismantleorder-dismantle-order-fn1-3-benefit">Once per day, you can use <Link to="/spell/detect_law">detect law</Link> as a spell-like ability (caster level 1st). If you have levels in a class that can cast <em>detect law,</em> your caster level for this spell-like ability is equal to that class level.</Pair>
+<Pair title="Penance" hl>Knights who follow this code and violate one of its tenets must separate themselves from society in order to atone for their misdoing. The minimum amount of time spent wholly isolated from civilization is 1 week, though this time might be increased to up to 1 month, depending on the transgression.</Pair>
+</Ability>
+<Ability id="traitenemyofslavers-enemy-of-slavers-fn1-4" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitenemyofslavers-enemy-of-slavers-fn1-4"><Link to="/trait/enemy_of_slavers">⮞</Link> Enemy of Slavers <sup><InnerLink showBacklink="backlink-main-traits_social_code-fake-fn-1.4" id="main-traits_social_code-fake-fn-1.4" data-hash-target to="main-traits_social_code-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Code of Freedom" hl><p>Knights who follow the code of freedom believe that no man, woman, or child should be owned by another individual. They believe that all of the humanoid races, even those of monstrous descent, deserve to be given a chance to make their own decisions in life. Their vows are as follows.</p>
+<ul>
+<li>I will not tolerate slavery in any form. If I witness one individual being sold to another, I will intervene with words or actions as necessary.</li>
+<li>If I encounter any escaped slaves, I will make it my duty to take them under my care until they find a safe home.</li>
+<li>I shall not willingly deal with any who support or benefit from slavery.</li>
+<li>I keep no slaves. Those who wait upon me do so of their own volition or because they are in my employ and are treated with the utmost respect.</li>
+<li>When visiting others who keep servants, I will treat them honorably. I shall inquire as to their happiness and treatment. Those who are treated as no more than slaves will gain my strength to support them.</li>
+<li>Shackles and bonds are forbidden unless used on an individual convicted of a crime. Placing another person in chains is akin to being a slaver.</li>
+</ul>
+</Pair>
+<Pair single="benefit" id="traitenemyofslavers-enemy-of-slavers-fn1-4-benefit"><p>If you follow this code, you are known to be single-minded with regard to slavery, and this fervent belief is easily perceived by others. Those who deal in flesh have a greater desire to appease you before matters escalate to confrontation, knowing that your wrath will be unwavering and swift.
+You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks made to sway the minds of slavers and anyone who otherwise keeps innocent people against their will.</p>
+</Pair>
+<Pair title="Penance" hl>Knights who violate any of this code's tenets must perform penance by placing themselves in servitude to the individual who was wronged. If the exact individual cannot be found, a person of equivalent social class is sufficient. The length of servitude is dependent on the severity of the transgression. Minor transgressions require a day. If an entire family was enslaved as a result of the knight's actions (or inaction), up to a month of servitude might be required.</Pair>
+</Ability>
+<Ability id="traitlawenforcer-law-enforcer-fn1-5" extraClasses="trait" icon={["village"]}>
+<Pair single id="traitlawenforcer-law-enforcer-fn1-5"><Link to="/trait/law_enforcer">⮞</Link> Law Enforcer <sup><InnerLink showBacklink="backlink-main-traits_social_code-fake-fn-1.5" id="main-traits_social_code-fake-fn-1.5" data-hash-target to="main-traits_social_code-fake-fn-1-target">1</InnerLink></sup></Pair>
+<Pair title="Type">Social</Pair>
+<Pair title="Code of Vigilance" hl><p>Knights who follow the code of vigilance believe that people are prone to chaos and society will eventually devolve into anarchy if given the opportunity. In order for society to continue, these knights must constantly remind people of the law, and take it upon themselves to enforce it in the absence of other authority figures. Their vows are as follows.</p>
+<ul>
+<li><p>I will be familiar with local laws and adhere to them strictly.</p>
+</li>
+<li><p>If I witness a crime, I will attempt to capture the criminal and report his actions to the authorities.</p>
+</li>
+<li><p>If any I meet are known to be escaped criminals, I will attempt to apprehend them by any means necessary.</p>
+</li>
+<li><p>I shall mete out appropriate punishment for those who violate the law, but only if no acceptable authority is readily available.</p>
+</li>
+<li><p>I shall remember that none are above the law, and that law is absolute. There shall be no mitigating circumstances for any individual, regardless of station or position.</p>
+</li>
+</ul>
+</Pair>
+<Pair single="benefit" id="traitlawenforcer-law-enforcer-fn1-5-benefit">If you follow this code, you are always alert to those who transgress against the laws of civilization. You receive a +2 bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to gain a hunch from social situations, and begin play with a pair of <Link to="/eq-misc/masterwork_manacles">masterwork manacles</Link>.</Pair>
+<Pair title="Penance" hl>Knights who follow this code and violate one of its tenets must perform penance based on the violation. If they are disgraced for violating the law when it was not acceptable, they must voluntarily surrender to the appropriate authority and receive proper punishment. If they allowed a criminal to escape, they must assist in the capture and punishment of the criminal.</Pair>
+</Ability>
+</IonLabel></IonItem><section data-footnotes><h3 id="main-traits_social_code-label">Footnotes</h3><ol>
+<li id="main-traits_social_code-fake-fn-1-target"><p><Link to="/source/knights_of_the_inner_sea">Knights of the Inner Sea</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_code-fake-fn-1" data-hash-target to="main-traits_social_code-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_code-fake-fn-1.2" data-hash-target to="main-traits_social_code-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_code-fake-fn-1.3" data-hash-target to="main-traits_social_code-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_code-fake-fn-1.4" data-hash-target to="main-traits_social_code-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_social_code-fake-fn-1.5" data-hash-target to="main-traits_social_code-fake-fn-1.5">↩<sup>5</sup></InnerLink></p></li>
+</ol></section></IonList>};
+export default {traits_campaign_reign_of_winter:_traits_campaign_reign_of_winter,traits_campaign_return_of_the_runelords:_traits_campaign_return_of_the_runelords,traits_campaign_rise_of_the_runelords:_traits_campaign_rise_of_the_runelords,traits_campaign_ruins_of_azlant:_traits_campaign_ruins_of_azlant,traits_campaign_second_darkness:_traits_campaign_second_darkness,traits_campaign_serpents_skull:_traits_campaign_serpents_skull,traits_campaign_shattered_star:_traits_campaign_shattered_star,traits_campaign_skull_and_shackles:_traits_campaign_skull_and_shackles,traits_campaign_strange_aeons:_traits_campaign_strange_aeons,traits_campaign_tyrants_grasp:_traits_campaign_tyrants_grasp,traits_campaign_war_for_the_crown:_traits_campaign_war_for_the_crown,traits_campaign_wrath_of_the_righteous:_traits_campaign_wrath_of_the_righteous,traits_northwest_garund:_traits_northwest_garund,traits_northeast_garund:_traits_northeast_garund,traits_social_prod:_traits_social_prod,traits_social_other:_traits_social_other,traits_social_code:_traits_social_code}

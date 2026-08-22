@@ -214,52 +214,6 @@
 			]
 		}
 	},
-	"traits_northwest_garund": {
-		"title": "Regional Traits: Northwestern Garund",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					"",
-					"%%%item",
-					""
-				],
-				{
-					"limit": { "regex": "\\bNWGarund-[^,]+" },
-					"sort": [ "match", "name" ]
-				},
-				[
-					"",
-					"%%%"
-				]
-			]
-		}
-	},
-	"traits_northeast_garund": {
-		"title": "Regional Traits: Northeastern Garund",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					"",
-					"%%%item",
-					""
-				],
-				{
-					"limit": { "regex": "\\bNEGarund-[^,]+" },
-					"sort": [ "match", "name" ]
-				},
-				[
-					"",
-					"%%%"
-				]
-			]
-		}
-	},
 	"traits_mana_wastes": {
 		"title": "Regional Traits: Mana Wastes",
 		"searchgroup": "trait",
