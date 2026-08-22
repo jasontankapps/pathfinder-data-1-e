@@ -1838,73 +1838,84 @@ const _traits_race_tiefling = {title: "Tiefling Traits", jsx: <IonList lines="fu
 <Pair single id="traitanticipateevil-anticipate-evil-fn1"><Link to="/trait/anticipate_evil">⮞</Link> Anticipate Evil <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1" id="main-traits_race_tiefling-fake-fn-1" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitanticipateevil-anticipate-evil-fn1-benefit">You can read subtle clues in the body language of fiends, allowing you to react just a bit faster than normal when dealing with such beings. You gain a +1 trait bonus on opposed Dexterity-based skill checks against outsiders with the evil subtype. In addition, when your initiative is tied with such creatures, you always act first regardless of which of you has a higher initiative modifier.</Pair>
+<Pair single="flavor" id="traitanticipateevil-anticipate-evil-fn1-flavor">You can read subtle clues in the body language of fiends, allowing you to react just a bit faster than normal when dealing with such beings.</Pair>
+<Pair single="benefit" id="traitanticipateevil-anticipate-evil-fn1-benefit">You gain a +1 trait bonus on opposed Dexterity-based skill checks against outsiders with the evil subtype. In addition, when your initiative is tied with such creatures, you always act first regardless of which of you has a higher initiative modifier.</Pair>
 </Ability>
 <Ability id="traitbeastbully-beast-bully-fn1-2" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitbeastbully-beast-bully-fn1-2"><Link to="/trait/beast_bully">⮞</Link> Beast Bully <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.2" id="main-traits_race_tiefling-fake-fn-1.2" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitbeastbully-beast-bully-fn1-2-benefit">You have learned how to exploit the fear felt by creatures of the natural world when they sense the shadow in your soul. You can make an Intimidate check instead of a Handle Animal check when trying to handle or push an animal.</Pair>
+<Pair single="flavor" id="traitbeastbully-beast-bully-fn1-2-flavor">You have learned how to exploit the fear felt by creatures of the natural world when they sense the shadow in your soul.</Pair>
+<Pair single="benefit" id="traitbeastbully-beast-bully-fn1-2-benefit">You can make an <Link to="/skill/intimidate">Intimidate</Link> check instead of a <Link to="/skill/handle_animal">Handle Animal</Link> check when trying to handle or push an animal.</Pair>
 </Ability>
 <Ability id="traitblessingofdarkness-blessing-of-darkness-fn1-3" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitblessingofdarkness-blessing-of-darkness-fn1-3"><Link to="/trait/blessing_of_darkness">⮞</Link> Blessing of Darkness <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.3" id="main-traits_race_tiefling-fake-fn-1.3" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitblessingofdarkness-blessing-of-darkness-fn1-3-benefit">Your innate connection with the powers of darkness serves you well when evil zealots pray on your behalf. Whenever a spellcaster capable of channeling negative energy casts a beneficial spell on you, she acts as if she were one level higher for the purpose of determining that spell's effects.</Pair>
+<Pair single="flavor" id="traitblessingofdarkness-blessing-of-darkness-fn1-3-flavor">Your innate connection with the powers of darkness serves you well when evil zealots pray on your behalf.</Pair>
+<Pair single="benefit" id="traitblessingofdarkness-blessing-of-darkness-fn1-3-benefit">Whenever a spellcaster capable of channeling negative energy casts a beneficial spell on you, she acts as if she were one level higher for the purpose of determining that spell's effects.</Pair>
 </Ability>
 <Ability id="traitborndamned-born-damned-fn1-4" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitborndamned-born-damned-fn1-4"><Link to="/trait/born_damned">⮞</Link> Born Damned <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.4" id="main-traits_race_tiefling-fake-fn-1.4" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitborndamned-born-damned-fn1-4-benefit">The inherent sacrilege that taints your soul sometimes crowds out lesser banes. You gain a +2 trait bonus on saving throws against curses and magical effects that produce curses.</Pair>
+<Pair single="flavor" id="traitborndamned-born-damned-fn1-4-flavor">The inherent sacrilege that taints your soul sometimes crowds out lesser banes.</Pair>
+<Pair single="benefit" id="traitborndamned-born-damned-fn1-4-benefit">You gain a +2 trait bonus on saving throws against curses and magical effects that produce curses.</Pair>
 </Ability>
 <Ability id="traitdarkmagicaffinity-dark-magic-affinity-fn1-5" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitdarkmagicaffinity-dark-magic-affinity-fn1-5"><Link to="/trait/dark_magic_affinity">⮞</Link> Dark Magic Affinity <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.5" id="main-traits_race_tiefling-fake-fn-1.5" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitdarkmagicaffinity-dark-magic-affinity-fn1-5-benefit">You have an instinctive talent for unleashing the vilest spells, letting the taint in your blood empower your malicious magic. Whenever you cast a spell with the evil descriptor, you act as if you were one level higher for the purpose of determining that spell's effects.</Pair>
+<Pair single="flavor" id="traitdarkmagicaffinity-dark-magic-affinity-fn1-5-flavor">You have an instinctive talent for unleashing the vilest spells, letting the taint in your blood empower your malicious magic.</Pair>
+<Pair single="benefit" id="traitdarkmagicaffinity-dark-magic-affinity-fn1-5-benefit">Whenever you cast a spell with the evil descriptor, you act as if you were one level higher for the purpose of determining that spell's effects.</Pair>
 </Ability>
 <Ability id="traitenduringheritage-enduring-heritage-fn2" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitenduringheritage-enduring-heritage-fn2"><Link to="/trait/enduring_heritage">⮞</Link> Enduring Heritage <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-2" id="main-traits_race_tiefling-fake-fn-2" data-hash-target to="main-traits_race_tiefling-fake-fn-2-target">2</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitenduringheritage-enduring-heritage-fn2-benefit">You can channel your evil ancestry to take advantage of any effects for which such an identity would matter (such as <Link to="/spell/detect_evil">detect evil</Link>). You detect as an evil outsider with the same number of HD as you possess. You can begin or end this effect as a swift action. You can maintain this effect for a number of rounds per day equal to your HD.</Pair>
+<Pair single="benefit" id="traitenduringheritage-enduring-heritage-fn2-benefit">You can channel your evil ancestry to take advantage of any effects for which such an identity would matter (such as <Link to="/spell/detect_evil">detect evil</Link>). You detect as an evil outsider with the same number of HD as you possess. You can begin or end this effect as a <strong className="hl">swift action</strong>. You can maintain this effect for a number of rounds per day equal to your HD.</Pair>
 </Ability>
 <Ability id="traiteverwary-ever-wary-fn1-6" extraClasses="trait" icon={["person"]}>
 <Pair single id="traiteverwary-ever-wary-fn1-6"><Link to="/trait/ever_wary">⮞</Link> Ever Wary <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.6" id="main-traits_race_tiefling-fake-fn-1.6" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traiteverwary-ever-wary-fn1-6-benefit">Constant fear that your fiendish nature might provoke a sudden attack ensures that you never completely let down your guard. During the surprise round and before your first action in combat, you can apply half your Dexterity bonus (if any) to your AC. You still count as flat-footed for the purposes of attacks and effects.</Pair>
+<Pair single="flavor" id="traiteverwary-ever-wary-fn1-6-flavor">Constant fear that your fiendish nature might provoke a sudden attack ensures that you never completely let down your guard.</Pair>
+<Pair single="benefit" id="traiteverwary-ever-wary-fn1-6-benefit">During the surprise round and before your first action in combat, you can apply half your Dexterity bonus (if any) to your AC. You still count as <Link to="/rule/flat_footed">flat-footed</Link> for the purposes of attacks and effects.</Pair>
 </Ability>
 <Ability id="traitfamilyconnections-family-connections-fn1-7" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitfamilyconnections-family-connections-fn1-7"><Link to="/trait/family_connections">⮞</Link> Family Connections <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.7" id="main-traits_race_tiefling-fake-fn-1.7" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitfamilyconnections-family-connections-fn1-7-benefit">Your dark ancestry gives you a special insight into how to motivate or placate fiends and their kin. You gain a +2 trait bonus on Bluff and Diplomacy checks made against outsiders belonging to the evil subtype.</Pair>
+<Pair single="flavor" id="traitfamilyconnections-family-connections-fn1-7-flavor">Your dark ancestry gives you a special insight into how to motivate or placate fiends and their kin.</Pair>
+<Pair single="benefit" id="traitfamilyconnections-family-connections-fn1-7-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/diplomacy">Diplomacy</Link> checks made against outsiders belonging to the evil subtype.</Pair>
 </Ability>
 <Ability id="traitfiendishsniper-fiendish-sniper-fn3" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitfiendishsniper-fiendish-sniper-fn3"><Link to="/trait/fiendish_sniper">⮞</Link> Fiendish Sniper <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-3" id="main-traits_race_tiefling-fake-fn-3" data-hash-target to="main-traits_race_tiefling-fake-fn-3-target">3</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitfiendishsniper-fiendish-sniper-fn3-benefit">You instinctively hide after you shoot your opponents, waiting for an opportune moment to strike again. You gain a +5 trait bonus on Stealth checks following a sniping attack.</Pair>
+<Pair single="flavor" id="traitfiendishsniper-fiendish-sniper-fn3-flavor">You instinctively hide after you shoot your opponents, waiting for an opportune moment to strike again.</Pair>
+<Pair single="benefit" id="traitfiendishsniper-fiendish-sniper-fn3-benefit">You gain a +5 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks following a sniping attack.</Pair>
 </Ability>
 <Ability id="traitfriendless-friendless-fn1-8" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitfriendless-friendless-fn1-8"><Link to="/trait/friendless">⮞</Link> Friendless <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.8" id="main-traits_race_tiefling-fake-fn-1.8" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitfriendless-friendless-fn1-8-benefit">You have grown used to looking after yourself without help. You can make Heal checks on yourself for the purposes of treating deadly wounds, diseases, and poisons.</Pair>
+<Pair single="flavor" id="traitfriendless-friendless-fn1-8-flavor">You have grown used to looking after yourself without help.</Pair>
+<Pair single="benefit" id="traitfriendless-friendless-fn1-8-benefit">You can make <Link to="/skill/heal">Heal</Link> checks on yourself for the purposes of treating deadly wounds, diseases, and poisons.</Pair>
 </Ability>
 <Ability id="traithardtopindown-hard-to-pin-down-fn4" extraClasses="trait" icon={["person"]}>
 <Pair single id="traithardtopindown-hard-to-pin-down-fn4"><Link to="/trait/hard_to_pin_down">⮞</Link> Hard to Pin Down <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-4" id="main-traits_race_tiefling-fake-fn-4" data-hash-target to="main-traits_race_tiefling-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traithardtopindown-hard-to-pin-down-fn4-benefit">Only more pressing dangers kept bullies from victimizing you. You gain a +2 trait bonus to AC against attacks of opportunity made by opponents whom you flank and opponents denied their Dexterity bonus to AC against you.</Pair>
+<Pair single="flavor" id="traithardtopindown-hard-to-pin-down-fn4-flavor">Only more pressing dangers kept bullies from victimizing you.</Pair>
+<Pair single="benefit" id="traithardtopindown-hard-to-pin-down-fn4-benefit">You gain a +2 trait bonus to AC against attacks of opportunity made by opponents whom you <Link to="/rule/flank">flank</Link> and opponents denied their Dexterity bonus to AC against you.</Pair>
 </Ability>
 <Ability id="traitincitertiefling-inciter-tiefling-fn1-9" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitincitertiefling-inciter-tiefling-fn1-9"><Link to="/trait/inciter_tiefling">⮞</Link> Inciter (Tiefling) <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.9" id="main-traits_race_tiefling-fake-fn-1.9" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitincitertiefling-inciter-tiefling-fn1-9-benefit">You always seem to know the perfect words to sow discord. You gain a +2 trait bonus on Bluff checks made to convince creatures to attack each other.</Pair>
+<Pair single="flavor" id="traitincitertiefling-inciter-tiefling-fn1-9-flavor">You always seem to know the perfect words to sow discord.</Pair>
+<Pair single="benefit" id="traitincitertiefling-inciter-tiefling-fn1-9-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks made to convince creatures to attack each other.</Pair>
 </Ability>
 <Ability id="traitmaligninstrument-malign-instrument-fn2-2" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitmaligninstrument-malign-instrument-fn2-2"><Link to="/trait/malign_instrument">⮞</Link> Malign Instrument <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-2.2" id="main-traits_race_tiefling-fake-fn-2.2" data-hash-target to="main-traits_race_tiefling-fake-fn-2-target">2</InnerLink></sup></Pair>
@@ -1916,157 +1927,183 @@ const _traits_race_tiefling = {title: "Tiefling Traits", jsx: <IonList lines="fu
 <Pair single id="traitmotherless-motherless-fn1-10"><Link to="/trait/motherless">⮞</Link> Motherless <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.10" id="main-traits_race_tiefling-fake-fn-1.10" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitmotherless-motherless-fn1-10-benefit">Your birth killed your mother, and you learned, even before words, how to manipulate others into looking after you. You gain a +2 trait bonus on Bluff and Disguise checks made for the purpose of making you seem injured, sickly, or weak in some other way.</Pair>
+<Pair single="flavor" id="traitmotherless-motherless-fn1-10-flavor">Your birth killed your mother, and you learned, even before words, how to manipulate others into looking after you.</Pair>
+<Pair single="benefit" id="traitmotherless-motherless-fn1-10-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/disguise">Disguise</Link> checks made for the purpose of making you seem injured, sickly, or weak in some other way.</Pair>
 </Ability>
 <Ability id="traitneutralizinggut-neutralizing-gut-fn5" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitneutralizinggut-neutralizing-gut-fn5"><Link to="/trait/neutralizing_gut">⮞</Link> Neutralizing Gut <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-5" id="main-traits_race_tiefling-fake-fn-5" data-hash-target to="main-traits_race_tiefling-fake-fn-5-target">5</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitneutralizinggut-neutralizing-gut-fn5-benefit">Your fiendish heritage has made you more resilient to the many poisonous threats in wastelands. You gain a +2 trait bonus on saving throws against contact and inhaled poisons, and a +3 trait bonus on saving throws against ingested poisons.</Pair>
+<Pair single="flavor" id="traitneutralizinggut-neutralizing-gut-fn5-flavor">Your fiendish heritage has made you more resilient to the many poisonous threats in wastelands.</Pair>
+<Pair single="benefit" id="traitneutralizinggut-neutralizing-gut-fn5-benefit">You gain a +2 trait bonus on saving throws against contact and inhaled poisons, and a +3 trait bonus on saving throws against ingested poisons.</Pair>
 </Ability>
 <Ability id="traitpersecutedexpatriate-persecuted-expatriate-fn4-2" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitpersecutedexpatriate-persecuted-expatriate-fn4-2"><Link to="/trait/persecuted_expatriate">⮞</Link> Persecuted Expatriate <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-4.2" id="main-traits_race_tiefling-fake-fn-4.2" data-hash-target to="main-traits_race_tiefling-fake-fn-4-target">4</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitpersecutedexpatriate-persecuted-expatriate-fn4-2-benefit">You were born in a nation that persecuted you for your heritage. Although you were under terrible duress, you escaped either with the aid of family or by your own cunning. You gain a +1 bonus on one skill depending on your fiendish heritage: asura (Knowledge [local]), daemon (Sleight of Hand), demodand (Intimidate), demon (Perception), devil (Sense Motive), div (Diplomacy), kyton (Escape Artist), oni (Disguise), qlippoth (Survival), or rakshasa (Sense Motive). That skill is always a class skill for you.</Pair>
+<Pair single="flavor" id="traitpersecutedexpatriate-persecuted-expatriate-fn4-2-flavor">You were born in a nation that persecuted you for your heritage. Although you were under terrible duress, you escaped either with the aid of family or by your own cunning.</Pair>
+<Pair single="benefit" id="traitpersecutedexpatriate-persecuted-expatriate-fn4-2-benefit">You gain a +1 bonus on one skill depending on your fiendish heritage: asura (<Link to="/skill/knowledge_local">Knowledge (local)</Link>), daemon (<Link to="/skill/sleight_of_hand">Sleight of Hand</Link>), demodand (<Link to="/skill/intimidate">Intimidate</Link>), demon (<Link to="/skill/perception">Perception</Link>), devil (<Link to="/skill/sense_motive">Sense Motive</Link>), div (<Link to="/skill/diplomacy">Diplomacy</Link>), kyton (<Link to="/skill/escape_artist">Escape Artist</Link>), oni (<Link to="/skill/disguise">Disguise</Link>), qlippoth (<Link to="/skill/survival">Survival</Link>), or rakshasa (Sense Motive). That skill is always a class skill for you.</Pair>
 </Ability>
 <Ability id="traitpridefultemper-prideful-temper-fn1-11" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitpridefultemper-prideful-temper-fn1-11"><Link to="/trait/prideful_temper">⮞</Link> Prideful Temper <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.11" id="main-traits_race_tiefling-fake-fn-1.11" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitpridefultemper-prideful-temper-fn1-11-benefit">Memories of the cruel abuse and taunts you suffered as a child cause you to strike back with great fury at anyone who slanders you. You gain a +1 trait bonus on attack rolls made against creatures that have insulted you until you actually succeed in dealing damage.</Pair>
+<Pair single="flavor" id="traitpridefultemper-prideful-temper-fn1-11-flavor">Memories of the cruel abuse and taunts you suffered as a child cause you to strike back with great fury at anyone who slanders you.</Pair>
+<Pair single="benefit" id="traitpridefultemper-prideful-temper-fn1-11-benefit">You gain a +1 trait bonus on attack rolls made against creatures that have insulted you until you actually succeed in dealing damage.</Pair>
 </Ability>
 <Ability id="traitprolongmagic-prolong-magic-fn1-12" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitprolongmagic-prolong-magic-fn1-12"><Link to="/trait/prolong_magic">⮞</Link> Prolong Magic <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.12" id="main-traits_race_tiefling-fake-fn-1.12" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitprolongmagic-prolong-magic-fn1-12-benefit">Constant drills and preparation allow you to get more out of your innate magic. Whenever you use a spell-like ability gained through your tiefling heritage, it automatically acts as if affected by the <Link to="/feat/extend_spell">Extend Spell</Link> metamagic feat.</Pair>
+<Pair single="flavor" id="traitprolongmagic-prolong-magic-fn1-12-flavor">Constant drills and preparation allow you to get more out of your innate magic.</Pair>
+<Pair single="benefit" id="traitprolongmagic-prolong-magic-fn1-12-benefit">Whenever you use a spell-like ability gained through your tiefling heritage, it automatically acts as if affected by the <Link to="/feat/extend_spell">Extend Spell</Link> metamagic feat.</Pair>
 </Ability>
 <Ability id="traitshadowstabber-shadow-stabber-fn1-13" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitshadowstabber-shadow-stabber-fn1-13"><Link to="/trait/shadow_stabber">⮞</Link> Shadow Stabber <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.13" id="main-traits_race_tiefling-fake-fn-1.13" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitshadowstabber-shadow-stabber-fn1-13-benefit">An instinct for dishonorable conduct serves you well when fighting opponents who are blind, oblivious, or blundering around in the dark. You gain a +2 trait bonus on melee weapon damage rolls made against foes that cannot see you.</Pair>
+<Pair single="flavor" id="traitshadowstabber-shadow-stabber-fn1-13-flavor">An instinct for dishonorable conduct serves you well when fighting opponents who are blind, oblivious, or blundering around in the dark.</Pair>
+<Pair single="benefit" id="traitshadowstabber-shadow-stabber-fn1-13-benefit">You gain a +2 trait bonus on melee weapon damage rolls made against foes that cannot see you.</Pair>
 </Ability>
 <Ability id="traitsuicidal-suicidal-fn1-14" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitsuicidal-suicidal-fn1-14"><Link to="/trait/suicidal">⮞</Link> Suicidal <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.14" id="main-traits_race_tiefling-fake-fn-1.14" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitsuicidal-suicidal-fn1-14-benefit">Shame and horror fill your subconscious, and you never stop looking for ways to grant yourself the peace of the grave. Once per day, as an immediate action, you can make yourself the target of any attack originally directed against a creature occupying an adjacent square.</Pair>
+<Pair single="flavor" id="traitsuicidal-suicidal-fn1-14-flavor">Shame and horror fill your subconscious, and you never stop looking for ways to grant yourself the peace of the grave.</Pair>
+<Pair single="benefit" id="traitsuicidal-suicidal-fn1-14-benefit">Once per day, as an <strong className="hl">immediate action</strong>, you can make yourself the target of any attack originally directed against a creature occupying an adjacent square.</Pair>
 </Ability>
 <Ability id="traittempterstongue-tempters-tongue-fn6" extraClasses="trait" icon={["person"]}>
 <Pair single id="traittempterstongue-tempters-tongue-fn6"><Link to="/trait/tempters_tongue">⮞</Link> Tempter's Tongue <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-6" id="main-traits_race_tiefling-fake-fn-6" data-hash-target to="main-traits_race_tiefling-fake-fn-6-target">6</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traittempterstongue-tempters-tongue-fn6-benefit">The blood of crafty, bargain-making fiends runs in your veins, and you have a talent for brokering deals of your own. You gain a +1 trait bonus on Diplomacy checks and on opposed Charisma checks to influence creatures you have charmed (such as with charm person).</Pair>
+<Pair single="flavor" id="traittempterstongue-tempters-tongue-fn6-flavor">The blood of crafty, bargain-making fiends runs in your veins, and you have a talent for brokering deals of your own.</Pair>
+<Pair single="benefit" id="traittempterstongue-tempters-tongue-fn6-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks and on opposed Charisma checks to influence creatures you have charmed (such as with <Link to="/spell/charm_person">charm person</Link>).</Pair>
 </Ability>
 <Ability id="traittwilightzeal-twilight-zeal-fn1-15" extraClasses="trait" icon={["person"]}>
 <Pair single id="traittwilightzeal-twilight-zeal-fn1-15"><Link to="/trait/twilight_zeal">⮞</Link> Twilight Zeal <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.15" id="main-traits_race_tiefling-fake-fn-1.15" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traittwilightzeal-twilight-zeal-fn1-15-benefit">The gloom of night and of the places beyond the reach of the sun gives you comfort and courage. You gain a +1 trait bonus on Will saving throws when in dim light or darkness.</Pair>
+<Pair single="flavor" id="traittwilightzeal-twilight-zeal-fn1-15-flavor">The gloom of night and of the places beyond the reach of the sun gives you comfort and courage.</Pair>
+<Pair single="benefit" id="traittwilightzeal-twilight-zeal-fn1-15-benefit">You gain a +1 trait bonus on Will saving throws when in <Link to="/rule/dim_light">dim light</Link> or darkness.</Pair>
 </Ability>
 <Ability id="traitunderling-underling-fn1-16" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitunderling-underling-fn1-16"><Link to="/trait/underling">⮞</Link> Underling <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.16" id="main-traits_race_tiefling-fake-fn-1.16" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="traitunderling-underling-fn1-16-benefit">People tend to assume you either are, or are willing to become, a minor cog in some evil cabal or conspiracy. You gain a +2 trait bonus on Bluff and Diplomacy checks made to either join or imply that you already belong to an evil organization.</Pair>
+<Pair single="flavor" id="traitunderling-underling-fn1-16-flavor">People tend to assume you either are, or are willing to become, a minor cog in some evil cabal or conspiracy.</Pair>
+<Pair single="benefit" id="traitunderling-underling-fn1-16-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/diplomacy">Diplomacy</Link> checks made to either join or imply that you already belong to an evil organization.</Pair>
 </Ability>
 <Ability id="traitbentbody-bent-body-fn1-17" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitbentbody-bent-body-fn1-17"><Link to="/trait/bent_body">⮞</Link> Bent Body <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.17" id="main-traits_race_tiefling-fake-fn-1.17" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Beastbrood</Pair>
-<Pair single="benefit" id="traitbentbody-bent-body-fn1-17-benefit">While nothing is actually reversed, your bones and limbs are slightly out of alignment. You gain a +2 trait bonus to CMD when resisting grapple attempts.</Pair>
+<Pair single="flavor" id="traitbentbody-bent-body-fn1-17-flavor">While nothing is actually reversed, your bones and limbs are slightly out of alignment.</Pair>
+<Pair single="benefit" id="traitbentbody-bent-body-fn1-17-benefit">You gain a +2 trait bonus to CMD when resisting <Link to="/rule/grapple">grapple</Link> attempts.</Pair>
 </Ability>
 <Ability id="traittoughskin-tough-skin-fn1-18" extraClasses="trait" icon={["person"]}>
 <Pair single id="traittoughskin-tough-skin-fn1-18"><Link to="/trait/tough_skin">⮞</Link> Tough Skin <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.18" id="main-traits_race_tiefling-fake-fn-1.18" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Beastbrood</Pair>
-<Pair single="benefit" id="traittoughskin-tough-skin-fn1-18-benefit">You retain a small amount of your ancestors' unyielding skin. You gain a +1 trait bonus to AC when opponents attempt to confirm critical hits with either bludgeoning or slashing weapons.</Pair>
+<Pair single="flavor" id="traittoughskin-tough-skin-fn1-18-flavor">You retain a small amount of your ancestors' unyielding skin.</Pair>
+<Pair single="benefit" id="traittoughskin-tough-skin-fn1-18-benefit">You gain a +1 trait bonus to AC when opponents attempt to confirm critical hits with either bludgeoning or slashing weapons.</Pair>
 </Ability>
 <Ability id="traitarmsmaster-arms-master-fn1-19" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitarmsmaster-arms-master-fn1-19"><Link to="/trait/arms_master">⮞</Link> Arms Master <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.19" id="main-traits_race_tiefling-fake-fn-1.19" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Faultspawn</Pair>
-<Pair single="benefit" id="traitarmsmaster-arms-master-fn1-19-benefit">The legendary battle prowess of your ancestors ensures that you have a certain amount of innate martial skill. You take a -2 penalty on attack rolls made with weapons with which you are not proficient instead of the normal -4.</Pair>
+<Pair single="flavor" id="traitarmsmaster-arms-master-fn1-19-flavor">The legendary battle prowess of your ancestors ensures that you have a certain amount of innate martial skill.</Pair>
+<Pair single="benefit" id="traitarmsmaster-arms-master-fn1-19-benefit">You take a -2 penalty on attack rolls made with weapons with which you are not proficient instead of the normal -4.</Pair>
 </Ability>
 <Ability id="traitprayerbreaker-prayer-breaker-fn1-20" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitprayerbreaker-prayer-breaker-fn1-20"><Link to="/trait/prayer_breaker">⮞</Link> Prayer Breaker <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.20" id="main-traits_race_tiefling-fake-fn-1.20" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Faultspawn</Pair>
-<Pair single="benefit" id="traitprayerbreaker-prayer-breaker-fn1-20-benefit">You have an instinctive flair for causing such pain to the faithful that they temporarily lose their connection with their god. If a divine spellcaster makes a <Link to="/rule/concentration">concentration</Link> check to avoid losing a spell because of an injury you caused, increase the DC of that check by +2.</Pair>
+<Pair single="flavor" id="traitprayerbreaker-prayer-breaker-fn1-20-flavor">You have an instinctive flair for causing such pain to the faithful that they temporarily lose their connection with their god.</Pair>
+<Pair single="benefit" id="traitprayerbreaker-prayer-breaker-fn1-20-benefit">If a divine spellcaster makes a <Link to="/rule/concentration">concentration</Link> check to avoid losing a spell because of an injury you caused, increase the DC of that check by +2.</Pair>
 </Ability>
 <Ability id="traitgodscorn-god-scorn-fn1-21" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitgodscorn-god-scorn-fn1-21"><Link to="/trait/god_scorn">⮞</Link> God Scorn <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.21" id="main-traits_race_tiefling-fake-fn-1.21" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Foulspawn</Pair>
-<Pair single="benefit" id="traitgodscorn-god-scorn-fn1-21-benefit">Your contempt for the gods and their sad little priests makes it easier to shake off the effects of their prayers. You gain a +1 trait bonus on saving throws against divine spells.</Pair>
+<Pair single="flavor" id="traitgodscorn-god-scorn-fn1-21-flavor">Your contempt for the gods and their sad little priests makes it easier to shake off the effects of their prayers.</Pair>
+<Pair single="benefit" id="traitgodscorn-god-scorn-fn1-21-benefit">You gain a +1 trait bonus on saving throws against divine spells.</Pair>
 </Ability>
 <Ability id="traitrepulsive-repulsive-fn1-22" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitrepulsive-repulsive-fn1-22"><Link to="/trait/repulsive">⮞</Link> Repulsive <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.22" id="main-traits_race_tiefling-fake-fn-1.22" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Foulspawn</Pair>
-<Pair single="benefit" id="traitrepulsive-repulsive-fn1-22-benefit">Your repulsiveness causes people to almost instinctively shy away from making physical contact with you. You gain a +1 trait bonus on combat maneuver checks made to overrun and reposition opponents.</Pair>
+<Pair single="flavor" id="traitrepulsive-repulsive-fn1-22-flavor">Your repulsiveness causes people to almost instinctively shy away from making physical contact with you.</Pair>
+<Pair single="benefit" id="traitrepulsive-repulsive-fn1-22-benefit">You gain a +1 trait bonus on combat maneuver checks made to <Link to="/rule/overrun">overrun</Link> and <Link to="/rule/reposition">reposition</Link> opponents.</Pair>
 </Ability>
 <Ability id="traitdeathsdeputy-deaths-deputy-fn1-23" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitdeathsdeputy-deaths-deputy-fn1-23"><Link to="/trait/deaths_deputy">⮞</Link> Death's Deputy <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.23" id="main-traits_race_tiefling-fake-fn-1.23" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Grimspawn</Pair>
-<Pair single="benefit" id="traitdeathsdeputy-deaths-deputy-fn1-23-benefit">When you send opponents to death's door, you often hurl their corpses right across its threshold. You gain a +2 trait bonus on the damage dealt for any attack that would already reduce your target to negative hit points without this trait.</Pair>
+<Pair single="flavor" id="traitdeathsdeputy-deaths-deputy-fn1-23-flavor">When you send opponents to death's door, you often hurl their corpses right across its threshold.</Pair>
+<Pair single="benefit" id="traitdeathsdeputy-deaths-deputy-fn1-23-benefit">You gain a +2 trait bonus on the damage dealt for any attack that would already reduce your target to negative hit points without this trait.</Pair>
 </Ability>
 <Ability id="traitsouleater-soul-eater-fn1-24" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitsouleater-soul-eater-fn1-24"><Link to="/trait/soul_eater">⮞</Link> Soul Eater <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.24" id="main-traits_race_tiefling-fake-fn-1.24" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Grimspawn</Pair>
-<Pair single="benefit" id="traitsouleater-soul-eater-fn1-24-benefit">The act of murder allows you to draw vitality from fleeing souls. Whenever you use a coup de grace action to kill a creature (either by damage or through a failed Fortitude save), you gain a number of temporary hit points equal to half your character level (minimum 1) for 1 minute. These temporary hit points do not stack with multiple coups de grace.</Pair>
+<Pair single="flavor" id="traitsouleater-soul-eater-fn1-24-flavor">The act of murder allows you to draw vitality from fleeing souls.</Pair>
+<Pair single="benefit" id="traitsouleater-soul-eater-fn1-24-benefit">Whenever you use a <Link to="/misc/coup_de_grace">coup de grace</Link> action to kill a creature (either by damage or through a failed Fortitude save), you gain a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to half your character level (minimum 1) for 1 minute. These temporary hit points do not stack with multiple <em>coups de grace.</em></Pair>
 </Ability>
 <Ability id="traitbloodstalker-blood-stalker-fn1-25" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitbloodstalker-blood-stalker-fn1-25"><Link to="/trait/blood_stalker">⮞</Link> Blood Stalker <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.25" id="main-traits_race_tiefling-fake-fn-1.25" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Hellspawn</Pair>
-<Pair single="benefit" id="traitbloodstalker-blood-stalker-fn1-25-benefit">Some infernal instinct makes it much easier for you to locate creatures whose blood you have drawn. You gain a +4 trait bonus on Survival checks made to track or follow a trail so long as you have dealt damage to the creature you are hunting within the last week.</Pair>
+<Pair single="flavor" id="traitbloodstalker-blood-stalker-fn1-25-flavor">Some infernal instinct makes it much easier for you to locate creatures whose blood you have drawn.</Pair>
+<Pair single="benefit" id="traitbloodstalker-blood-stalker-fn1-25-benefit">You gain a +4 trait bonus on <Link to="/skill/survival">Survival</Link> checks made to track or follow a trail so long as you have dealt damage to the creature you are hunting within the last week.</Pair>
 </Ability>
 <Ability id="traitunearthsecrets-unearth-secrets-fn1-26" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitunearthsecrets-unearth-secrets-fn1-26"><Link to="/trait/unearth_secrets">⮞</Link> Unearth Secrets <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.26" id="main-traits_race_tiefling-fake-fn-1.26" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Hellspawn</Pair>
-<Pair single="benefit" id="traitunearthsecrets-unearth-secrets-fn1-26-benefit">You have a gift for recognizing secret desires. You gain a +2 trait bonus on Sense Motive checks when trying to get a hunch that might reveal a target's hidden vice, dark impulse, or any other craving it would not want publicly revealed.</Pair>
+<Pair single="flavor" id="traitunearthsecrets-unearth-secrets-fn1-26-flavor">You have a gift for recognizing secret desires.</Pair>
+<Pair single="benefit" id="traitunearthsecrets-unearth-secrets-fn1-26-benefit">You gain a +2 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks when trying to get a hunch that might reveal a target's hidden vice, dark impulse, or any other craving it would not want publicly revealed.</Pair>
 </Ability>
 <Ability id="traitbigboned-big-boned-fn1-27" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitbigboned-big-boned-fn1-27"><Link to="/trait/big_boned">⮞</Link> Big Boned <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.27" id="main-traits_race_tiefling-fake-fn-1.27" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Hungerseed</Pair>
-<Pair single="benefit" id="traitbigboned-big-boned-fn1-27-benefit">Your ancestors' great size has gifted you with an exceptionally sturdy frame. You gain a +1 trait bonus on combat maneuver checks made to overrun opponents, as well as a +1 trait bonus to your CMD against trip attempts.</Pair>
+<Pair single="flavor" id="traitbigboned-big-boned-fn1-27-flavor">Your ancestors' great size has gifted you with an exceptionally sturdy frame.</Pair>
+<Pair single="benefit" id="traitbigboned-big-boned-fn1-27-benefit">You gain a +1 trait bonus on combat maneuver checks made to <Link to="/rule/overrun">overrun</Link> opponents, as well as a +1 trait bonus to your CMD against <Link to="/rule/trip">trip</Link> attempts.</Pair>
 </Ability>
 <Ability id="traitsuperiorclutch-superior-clutch-fn1-28" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitsuperiorclutch-superior-clutch-fn1-28"><Link to="/trait/superior_clutch">⮞</Link> Superior Clutch <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.28" id="main-traits_race_tiefling-fake-fn-1.28" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Hungerseed</Pair>
-<Pair single="benefit" id="traitsuperiorclutch-superior-clutch-fn1-28-benefit">Your hands not only are bigger than normal, but also have a strong grip useful for wielding large weapons. You gain a +1 trait bonus on damage rolls when using weapons intended for creatures of a larger size.</Pair>
+<Pair single="flavor" id="traitsuperiorclutch-superior-clutch-fn1-28-flavor">Your hands not only are bigger than normal, but also have a strong grip useful for wielding large weapons.</Pair>
+<Pair single="benefit" id="traitsuperiorclutch-superior-clutch-fn1-28-benefit">You gain a +1 trait bonus on damage rolls when using weapons intended for creatures of a larger size.</Pair>
 </Ability>
 <Ability id="traitdeadlyrush-deadly-rush-fn1-29" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitdeadlyrush-deadly-rush-fn1-29"><Link to="/trait/deadly_rush">⮞</Link> Deadly Rush <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.29" id="main-traits_race_tiefling-fake-fn-1.29" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Pitborn</Pair>
-<Pair single="benefit" id="traitdeadlyrush-deadly-rush-fn1-29-benefit">When you hurl yourself against a foe with reckless abandon, you often land particularly telling blows. You gain a +2 trait bonus on critical hit confirmation rolls made as part of a charge.</Pair>
+<Pair single="flavor" id="traitdeadlyrush-deadly-rush-fn1-29-flavor">When you hurl yourself against a foe with reckless abandon, you often land particularly telling blows.</Pair>
+<Pair single="benefit" id="traitdeadlyrush-deadly-rush-fn1-29-benefit">You gain a +2 trait bonus on critical hit confirmation rolls made as part of a <Link to="/rule/charge">charge</Link>.</Pair>
 </Ability>
 <Ability id="traitflairfordestruction-flair-for-destruction-fn1-30" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitflairfordestruction-flair-for-destruction-fn1-30"><Link to="/trait/flair_for_destruction">⮞</Link> Flair for Destruction <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.30" id="main-traits_race_tiefling-fake-fn-1.30" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Pitborn</Pair>
-<Pair single="benefit" id="traitflairfordestruction-flair-for-destruction-fn1-30-benefit">You have a talent for striking objects at their weakest points. You gain a +1 trait bonus on weapon damage rolls made against objects and constructs.</Pair>
+<Pair single="flavor" id="traitflairfordestruction-flair-for-destruction-fn1-30-flavor">You have a talent for striking objects at their weakest points.</Pair>
+<Pair single="benefit" id="traitflairfordestruction-flair-for-destruction-fn1-30-benefit">You gain a +1 trait bonus on weapon damage rolls made against objects and constructs.</Pair>
 </Ability>
 <Ability id="traitchainmaster-chain-master-fn1-31" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitchainmaster-chain-master-fn1-31"><Link to="/trait/chain_master">⮞</Link> Chain Master <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.31" id="main-traits_race_tiefling-fake-fn-1.31" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Shackleborn</Pair>
-<Pair single="benefit" id="traitchainmaster-chain-master-fn1-31-benefit">Your fiendish ancestry has granted you unnatural skill with the chain, and your enemies know to stay away when you wield it as a weapon. You gain a +2 trait bonus on combat maneuver checks made to trip opponents with a spiked chain or whip.</Pair>
+<Pair single="flavor" id="traitchainmaster-chain-master-fn1-31-flavor">Your fiendish ancestry has granted you unnatural skill with the chain, and your enemies know to stay away when you wield it as a weapon.</Pair>
+<Pair single="benefit" id="traitchainmaster-chain-master-fn1-31-benefit">You gain a +2 trait bonus on combat maneuver checks made to <Link to="/rule/trip">trip</Link> opponents with a <Link to="/eq-weapon/spiked_chain">spiked chain</Link> or <Link to="/eq-weapon/whip">whip</Link>.</Pair>
 </Ability>
 <Ability id="traitpainartist-pain-artist-fn1-32" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitpainartist-pain-artist-fn1-32"><Link to="/trait/pain_artist">⮞</Link> Pain Artist <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.32" id="main-traits_race_tiefling-fake-fn-1.32" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Shackleborn</Pair>
-<Pair single="benefit" id="traitpainartist-pain-artist-fn1-32-benefit">Some trace of your kyton heritage makes people realize you are capable of anything, especially when they are bound and at your mercy. You gain a +2 trait bonus on Intimidate checks made against helpless creatures.</Pair>
+<Pair single="flavor" id="traitpainartist-pain-artist-fn1-32-flavor">Some trace of your kyton heritage makes people realize you are capable of anything, especially when they are bound and at your mercy.</Pair>
+<Pair single="benefit" id="traitpainartist-pain-artist-fn1-32-benefit">You gain a +2 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks made against <Link to="/misc/helpless">helpless</Link> creatures.</Pair>
 </Ability>
 <Ability id="traitburiedanxiety-buried-anxiety-fn1-33" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitburiedanxiety-buried-anxiety-fn1-33"><Link to="/trait/buried_anxiety">⮞</Link> Buried Anxiety <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.33" id="main-traits_race_tiefling-fake-fn-1.33" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
@@ -2078,19 +2115,22 @@ const _traits_race_tiefling = {title: "Tiefling Traits", jsx: <IonList lines="fu
 <Pair single id="traitshifttheblame-shift-the-blame-fn1-34"><Link to="/trait/shift_the_blame">⮞</Link> Shift the Blame <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.34" id="main-traits_race_tiefling-fake-fn-1.34" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Spitespawn</Pair>
-<Pair single="benefit" id="traitshifttheblame-shift-the-blame-fn1-34-benefit">You have learned many tricks to keep yourself from facing the consequences of your misdeeds. You gain a +1 trait bonus on Bluff and Diplomacy checks made to convince someone that another person is actually at fault for your actions.</Pair>
+<Pair single="flavor" id="traitshifttheblame-shift-the-blame-fn1-34-flavor">You have learned many tricks to keep yourself from facing the consequences of your misdeeds.</Pair>
+<Pair single="benefit" id="traitshifttheblame-shift-the-blame-fn1-34-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/diplomacy">Diplomacy</Link> checks made to convince someone that another person is actually at fault for your actions.</Pair>
 </Ability>
 <Ability id="traitrepelsin-repel-sin-fn1-35" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitrepelsin-repel-sin-fn1-35"><Link to="/trait/repel_sin">⮞</Link> Repel Sin <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.35" id="main-traits_race_tiefling-fake-fn-1.35" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; The Motherless</Pair>
-<Pair single="benefit" id="traitrepelsin-repel-sin-fn1-35-benefit">You have an instinctive revulsion for the sins that led to the rise of demons and subsequent downfall of qlippoth. You gain a +2 trait bonus on saving throws made against spells and effects with the evil descriptor.</Pair>
+<Pair single="flavor" id="traitrepelsin-repel-sin-fn1-35-flavor">You have an instinctive revulsion for the sins that led to the rise of demons and subsequent downfall of qlippoth.</Pair>
+<Pair single="benefit" id="traitrepelsin-repel-sin-fn1-35-benefit">You gain a +2 trait bonus on saving throws made against spells and effects with the evil descriptor.</Pair>
 </Ability>
 <Ability id="traitvilekiss-vile-kiss-fn1-36" extraClasses="trait" icon={["person"]}>
 <Pair single id="traitvilekiss-vile-kiss-fn1-36"><Link to="/trait/vile_kiss">⮞</Link> Vile Kiss <sup><InnerLink showBacklink="backlink-main-traits_race_tiefling-fake-fn-1.36" id="main-traits_race_tiefling-fake-fn-1.36" data-hash-target to="main-traits_race_tiefling-fake-fn-1-target">1</InnerLink></sup></Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; The Motherless</Pair>
-<Pair single="benefit" id="traitvilekiss-vile-kiss-fn1-36-benefit">You have learned how to exploit the natural disgust you provoke when in close proximity to others. You gain a +2 trait bonus on combat maneuver checks to perform a dirty trick combat maneuver for the purpose of making your opponent sickened.</Pair>
+<Pair single="flavor" id="traitvilekiss-vile-kiss-fn1-36-flavor">You have learned how to exploit the natural disgust you provoke when in close proximity to others.</Pair>
+<Pair single="benefit" id="traitvilekiss-vile-kiss-fn1-36-benefit">You gain a +2 trait bonus on combat maneuver checks to perform a <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver for the purpose of making your opponent <Link to="/misc/sickened">sickened</Link>.</Pair>
 </Ability>
 </IonLabel></IonItem><section data-footnotes><h3 id="main-traits_race_tiefling-label">Footnotes</h3><ol>
 <li id="main-traits_race_tiefling-fake-fn-1-target"><p><Link to="/source/blood_of_fiends">Blood of Fiends</Link> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1" data-hash-target to="main-traits_race_tiefling-fake-fn-1">↩</InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.2" data-hash-target to="main-traits_race_tiefling-fake-fn-1.2">↩<sup>2</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.3" data-hash-target to="main-traits_race_tiefling-fake-fn-1.3">↩<sup>3</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.4" data-hash-target to="main-traits_race_tiefling-fake-fn-1.4">↩<sup>4</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.5" data-hash-target to="main-traits_race_tiefling-fake-fn-1.5">↩<sup>5</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.6" data-hash-target to="main-traits_race_tiefling-fake-fn-1.6">↩<sup>6</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.7" data-hash-target to="main-traits_race_tiefling-fake-fn-1.7">↩<sup>7</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.8" data-hash-target to="main-traits_race_tiefling-fake-fn-1.8">↩<sup>8</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.9" data-hash-target to="main-traits_race_tiefling-fake-fn-1.9">↩<sup>9</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.10" data-hash-target to="main-traits_race_tiefling-fake-fn-1.10">↩<sup>10</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.11" data-hash-target to="main-traits_race_tiefling-fake-fn-1.11">↩<sup>11</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.12" data-hash-target to="main-traits_race_tiefling-fake-fn-1.12">↩<sup>12</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.13" data-hash-target to="main-traits_race_tiefling-fake-fn-1.13">↩<sup>13</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.14" data-hash-target to="main-traits_race_tiefling-fake-fn-1.14">↩<sup>14</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.15" data-hash-target to="main-traits_race_tiefling-fake-fn-1.15">↩<sup>15</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.16" data-hash-target to="main-traits_race_tiefling-fake-fn-1.16">↩<sup>16</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.17" data-hash-target to="main-traits_race_tiefling-fake-fn-1.17">↩<sup>17</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.18" data-hash-target to="main-traits_race_tiefling-fake-fn-1.18">↩<sup>18</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.19" data-hash-target to="main-traits_race_tiefling-fake-fn-1.19">↩<sup>19</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.20" data-hash-target to="main-traits_race_tiefling-fake-fn-1.20">↩<sup>20</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.21" data-hash-target to="main-traits_race_tiefling-fake-fn-1.21">↩<sup>21</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.22" data-hash-target to="main-traits_race_tiefling-fake-fn-1.22">↩<sup>22</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.23" data-hash-target to="main-traits_race_tiefling-fake-fn-1.23">↩<sup>23</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.24" data-hash-target to="main-traits_race_tiefling-fake-fn-1.24">↩<sup>24</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.25" data-hash-target to="main-traits_race_tiefling-fake-fn-1.25">↩<sup>25</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.26" data-hash-target to="main-traits_race_tiefling-fake-fn-1.26">↩<sup>26</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.27" data-hash-target to="main-traits_race_tiefling-fake-fn-1.27">↩<sup>27</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.28" data-hash-target to="main-traits_race_tiefling-fake-fn-1.28">↩<sup>28</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.29" data-hash-target to="main-traits_race_tiefling-fake-fn-1.29">↩<sup>29</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.30" data-hash-target to="main-traits_race_tiefling-fake-fn-1.30">↩<sup>30</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.31" data-hash-target to="main-traits_race_tiefling-fake-fn-1.31">↩<sup>31</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.32" data-hash-target to="main-traits_race_tiefling-fake-fn-1.32">↩<sup>32</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.33" data-hash-target to="main-traits_race_tiefling-fake-fn-1.33">↩<sup>33</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.34" data-hash-target to="main-traits_race_tiefling-fake-fn-1.34">↩<sup>34</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.35" data-hash-target to="main-traits_race_tiefling-fake-fn-1.35">↩<sup>35</sup></InnerLink> <InnerLink aria-label="Back to reference 1" id="backlink-main-traits_race_tiefling-fake-fn-1.36" data-hash-target to="main-traits_race_tiefling-fake-fn-1.36">↩<sup>36</sup></InnerLink></p></li>

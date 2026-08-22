@@ -2147,7 +2147,7 @@ const _bureaucracy_navigator = {title: "Bureaucracy Navigator", topLink: ["Race 
 <Pair single id="bureaucracy-navigator">Bureaucracy Navigator</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Tian</Pair>
-<Pair single="benefit" id="bureaucracy-navigator-benefit">Accustomed to wading through governmental bureaucracy, you gain a +2 trait bonus on Diplomacy checks against bureaucrats and on Knowledge (local) checks related to laws and their enforcers.</Pair>
+<Pair single="benefit" id="bureaucracy-navigator-benefit">Accustomed to wading through governmental bureaucracy, you gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks against bureaucrats and on <Link to="/skill/knowledge_local">Knowledge (local)</Link> checks related to laws and their enforcers.</Pair>
 </Ability>
 </>};
 const _keeper_of_the_ancestral_scrolls = {title: "Keeper of the Ancestral Scrolls", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
@@ -2155,7 +2155,8 @@ const _keeper_of_the_ancestral_scrolls = {title: "Keeper of the Ancestral Scroll
 <Pair single id="keeper-of-the-ancestral-scrolls">Keeper of the Ancestral Scrolls</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Tian</Pair>
-<Pair single="benefit" id="keeper-of-the-ancestral-scrolls-benefit">You take pride in recording the genealogy of your family, tracing your heritage on large scrolls dating back hundreds, if not thousands of years. You gain a +1 trait bonus on Knowledge (history), and Knowledge (nobility) checks, and one of these skills (your choice) is always a class skill for you.</Pair>
+<Pair single="flavor" id="keeper-of-the-ancestral-scrolls-flavor">You take pride in recording the genealogy of your family, tracing your heritage on large scrolls dating back hundreds, if not thousands of years.</Pair>
+<Pair single="benefit" id="keeper-of-the-ancestral-scrolls-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_history">Knowledge (history)</Link>, and <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link> checks, and one of these skills (your choice) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _master_of_the_sudden_strike = {title: "Master of the Sudden Strike", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
@@ -2163,7 +2164,8 @@ const _master_of_the_sudden_strike = {title: "Master of the Sudden Strike", topL
 <Pair single id="master-of-the-sudden-strike">Master of the Sudden Strike</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Tian</Pair>
-<Pair single="benefit" id="master-of-the-sudden-strike-benefit">You have mastered the deadly fighting arts of your people, and when you wield a masterwork version of any sword, you become one with its blade. If you act before your opponent during the surprise round, you gain a +2 trait bonus on weapon damage rolls for the surprise round only. This additional damage is precision damage.</Pair>
+<Pair single="flavor" id="master-of-the-sudden-strike-flavor">You have mastered the deadly fighting arts of your people, and when you wield a <Link to="/rule/masterwork_w">masterwork</Link> version of any sword, you become one with its blade.</Pair>
+<Pair single="benefit" id="master-of-the-sudden-strike-benefit">If you act before your opponent during the surprise round, you gain a +2 trait bonus on weapon damage rolls for the surprise round only. This additional damage is precision damage.</Pair>
 </Ability>
 </>};
 const _nearly_blinded = {title: "Nearly Blinded", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2171,7 +2173,8 @@ const _nearly_blinded = {title: "Nearly Blinded", topLink: ["Race Traits","main/
 <Pair single id="nearly-blinded">Nearly Blinded</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Tian</Pair>
-<Pair single="benefit" id="nearly-blinded-benefit">After a close call with <Link to="/rule/snow_blindness">snow blindness</Link> on the Crown of the World or the scouring winds of Hongal, you honed your instincts to protect your eyes. You gain a +2 trait bonus on saving throws to avoid being blinded or dazzled.</Pair>
+<Pair single="flavor" id="nearly-blinded-flavor">After a close call with <Link to="/rule/snow_blindness">snow blindness</Link> on the Crown of the World or the scouring winds of Hongal, you honed your instincts to protect your eyes.</Pair>
+<Pair single="benefit" id="nearly-blinded-benefit">You gain a +2 trait bonus on saving throws to avoid being <Link to="/misc/blinded">blinded</Link> or <Link to="/misc/dazzled">dazzled</Link>.</Pair>
 </Ability>
 </>};
 const _animalistic_affliction = {title: "Animalistic Affliction", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
@@ -2179,7 +2182,8 @@ const _animalistic_affliction = {title: "Animalistic Affliction", topLink: ["Rac
 <Pair single id="animalistic-affliction">Animalistic Affliction</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Ulfen</Pair>
-<Pair single="benefit" id="animalistic-affliction-benefit">You grew up with an affinity for predatory animals, and whispers amid your clan suggest somewhere in the past, lycanthropy afflicted an ancestor. Whether or not you share this affliction, you often have animalistic urges. You gain a +1 trait bonus on Handle Animal and <Link to="/ability/wild_empathy">Wild Empathy</Link> checks.</Pair>
+<Pair single="flavor" id="animalistic-affliction-flavor">You grew up with an affinity for predatory animals, and whispers amid your clan suggest somewhere in the past, lycanthropy afflicted an ancestor. Whether or not you share this affliction, you often have animalistic urges.</Pair>
+<Pair single="benefit" id="animalistic-affliction-benefit">You gain a +1 trait bonus on <Link to="/skill/handle_animal">Handle Animal</Link> and <Link to="/ability/wild_empathy">Wild Empathy</Link> checks.</Pair>
 </Ability>
 </>};
 const _glint_tongued = {title: "Glint-Tongued", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
@@ -2187,7 +2191,8 @@ const _glint_tongued = {title: "Glint-Tongued", topLink: ["Race Traits","main/tr
 <Pair single id="glint-tongued">Glint-Tongued</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Ulfen</Pair>
-<Pair single="benefit" id="glint-tongued-benefit">You have a gift for poetic turns of phrase and vicious streams of insults. You gain a +1 trait bonus on Charisma-based skill checks made to impress or persuade other Ulfen (or, at the GM's option, other poetically-minded people), and a +2 trait bonus on Intimidate checks.</Pair>
+<Pair single="flavor" id="glint-tongued-flavor">You have a gift for poetic turns of phrase and vicious streams of insults.</Pair>
+<Pair single="benefit" id="glint-tongued-benefit">You gain a +1 trait bonus on Charisma-based skill checks made to impress or persuade other Ulfen (or, at the GM's option, other poetically-minded people), and a +2 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks.</Pair>
 </Ability>
 </>};
 const _gruff_watcher = {title: "Gruff Watcher", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2195,7 +2200,8 @@ const _gruff_watcher = {title: "Gruff Watcher", topLink: ["Race Traits","main/tr
 <Pair single id="gruff-watcher">Gruff Watcher</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Ulfen</Pair>
-<Pair single="benefit" id="gruff-watcher-benefit">Having grown up among headstrong sailors and bloodthirsty raiders, you learned to keep quiet and pay attention. You gain a +1 trait bonus on initiative checks and Perception checks.</Pair>
+<Pair single="flavor" id="gruff-watcher-flavor">Having grown up among headstrong sailors and bloodthirsty raiders, you learned to keep quiet and pay attention.</Pair>
+<Pair single="benefit" id="gruff-watcher-benefit">You gain a +1 trait bonus on initiative checks and <Link to="/skill/perception">Perception</Link> checks.</Pair>
 </Ability>
 </>};
 const _honor_driven = {title: "Honor-Driven", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
@@ -2203,7 +2209,8 @@ const _honor_driven = {title: "Honor-Driven", topLink: ["Race Traits","main/trai
 <Pair single id="honor-driven">Honor-Driven</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Ulfen</Pair>
-<Pair single="benefit" id="honor-driven-benefit">Your honor is such a part of you that you can sense it (or its lack) in others. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you.</Pair>
+<Pair single="flavor" id="honor-driven-flavor">Your honor is such a part of you that you can sense it (or its lack) in others.</Pair>
+<Pair single="benefit" id="honor-driven-benefit">You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks, and Sense Motive is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _shield_bearer = {title: "Shield Bearer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
@@ -2211,7 +2218,8 @@ const _shield_bearer = {title: "Shield Bearer", topLink: ["Race Traits","main/tr
 <Pair single id="shield-bearer">Shield Bearer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Ulfen</Pair>
-<Pair single="benefit" id="shield-bearer-benefit">You have survived many battles thanks to your skill with your shield. When performing a shield bash, you deal 1 additional point of damage. Also, once per day on your turn as a free action, you may provide one adjacent ally a +2 trait bonus to his Armor Class. This bonus lasts for 1 round, so long as you and the target remain adjacent to one another. You can only use this ability if you are using a shield. You retain your shield bonus to your armor class when using this ability.</Pair>
+<Pair single="flavor" id="shield-bearer-flavor">You have survived many battles thanks to your skill with your shield.</Pair>
+<Pair single="benefit" id="shield-bearer-benefit">When performing a <Link to="/misc/shield_bash">shield bash</Link>, you deal 1 additional point of damage. Also, once per day on your turn as a <strong className="hl">free action</strong>, you may provide one adjacent ally a +2 trait bonus to his AC. This bonus lasts for 1 round, so long as you and the target remain adjacent to one another. You can only use this ability if you are using a shield. You retain your shield bonus to your armor class when using this ability.</Pair>
 </Ability>
 </>};
 const _weapon_training = {title: "Weapon Training", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2219,7 +2227,8 @@ const _weapon_training = {title: "Weapon Training", topLink: ["Race Traits","mai
 <Pair single id="weapon-training">Weapon Training</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Ulfen</Pair>
-<Pair single="benefit" id="weapon-training-benefit">As soon as you were old enough to hold it, you were trained to defend yourself with traditional Ulfen weapons. You gain a +1 trait bonus on damage rolls with the following weapons: <Link to="/eq-weapon/bastard_sword">bastard sword</Link>, <Link to="/eq-weapon/battleaxe">battleaxe</Link>, <Link to="/eq-weapon/greataxe">greataxe</Link>, <Link to="/eq-weapon/greatsword">greatsword</Link>, <Link to="/eq-weapon/handaxe">handaxe</Link>, <Link to="/eq-weapon/light_hammer">light hammer</Link>, <Link to="/eq-weapon/longbow">longbow</Link>, <Link to="/eq-weapon/longsword">longsword</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link>, <Link to="/eq-weapon/short_sword">short sword</Link>, <Link to="/eq-weapon/throwing_axe">throwing axe</Link>, and <Link to="/eq-weapon/warhammer">warhammer</Link>.</Pair>
+<Pair single="flavor" id="weapon-training-flavor">As soon as you were old enough to hold it, you were trained to defend yourself with traditional Ulfen weapons.</Pair>
+<Pair single="benefit" id="weapon-training-benefit">You gain a +1 trait bonus on damage rolls with the following weapons: <Link to="/eq-weapon/bastard_sword">bastard sword</Link>, <Link to="/eq-weapon/battleaxe">battleaxe</Link>, <Link to="/eq-weapon/greataxe">greataxe</Link>, <Link to="/eq-weapon/greatsword">greatsword</Link>, <Link to="/eq-weapon/handaxe">handaxe</Link>, <Link to="/eq-weapon/light_hammer">light hammer</Link>, <Link to="/eq-weapon/longbow">longbow</Link>, <Link to="/eq-weapon/longsword">longsword</Link>, <Link to="/eq-weapon/shortbow">shortbow</Link>, <Link to="/eq-weapon/short_sword">short sword</Link>, <Link to="/eq-weapon/throwing_axe">throwing axe</Link>, and <Link to="/eq-weapon/warhammer">warhammer</Link>.</Pair>
 </Ability>
 </>};
 const _harrow_born = {title: "Harrow Born", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
@@ -2227,7 +2236,8 @@ const _harrow_born = {title: "Harrow Born", topLink: ["Race Traits","main/traits
 <Pair single id="harrow-born">Harrow Born</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Varisian</Pair>
-<Pair single="benefit" id="harrow-born-benefit">You grew up around the mysterious fortune-tellers known throughout Ustalav and Varisia. You start play with a harrow deck passed down from a relative. Because of your skill with fortune-telling, you gain a +1 trait bonus on initiative checks.</Pair>
+<Pair single="flavor" id="harrow-born-flavor">You grew up around the mysterious fortune-tellers known throughout Ustalav and Varisia.</Pair>
+<Pair single="benefit" id="harrow-born-benefit">You start play with a <Link to="/eq-misc/harrow_deck">harrow deck</Link> passed down from a relative. Because of your skill with fortune-telling, you gain a +1 trait bonus on initiative checks.</Pair>
 </Ability>
 </>};
 const _harrow_chosen = {title: "Harrow Chosen", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
@@ -2235,7 +2245,10 @@ const _harrow_chosen = {title: "Harrow Chosen", topLink: ["Race Traits","main/tr
 <Pair single id="harrow-chosen">Harrow Chosen</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Varisian</Pair>
-<Pair single="benefit" id="harrow-chosen-benefit">All your life you've been drawn to the mysteries surrounding your family's harrow deck. You begin play with your family's heirloom harrow deck. If you use this specific harrow deck as an additional focus component when you cast a divination spell, your caster level is treated as being 2 levels higher. Additionally, twice per week, you can spend 10 minutes consulting this harrow deck on a particular action to gain the effects of the spell augury as a spellcaster of your character level. No one other than you gains these benefits from this harrow deck. If your harrow deck is destroyed, it cannot be replaced. However, by returning to your family, paying 300 gp on materials, and spending 1 week immersed in the songs and stories of your people, you can create a new harrow deck that grants half the benefits of the lost heirloom.</Pair>
+<Pair single="flavor" id="harrow-chosen-flavor">All your life you've been drawn to the mysteries surrounding your family's harrow deck.</Pair>
+<Pair single="benefit" id="harrow-chosen-benefit"><p>You begin play with your family's heirloom <Link to="/eq-misc/harrow_deck">harrow deck</Link>. If you use this specific harrow deck as an additional focus component when you cast a divination spell, your caster level is treated as being 2 levels higher. Additionally, twice per week, you can spend 10 minutes consulting this harrow deck on a particular action to gain the effects of the spell <Link to="/spell/augury">augury</Link> as a spellcaster of your character level. No one other than you gains these benefits from this harrow deck.</p>
+<p>If your harrow deck is destroyed, it cannot be replaced. However, by returning to your family, paying 300 gp on materials, and spending 1 week immersed in the songs and stories of your people, you can create a new harrow deck that grants half the benefits of the lost heirloom.</p>
+</Pair>
 </Ability>
 </>};
 const _practiced_gambler = {title: "Practiced Gambler", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2243,7 +2256,8 @@ const _practiced_gambler = {title: "Practiced Gambler", topLink: ["Race Traits",
 <Pair single id="practiced-gambler">Practiced Gambler</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Varisian</Pair>
-<Pair single="benefit" id="practiced-gambler-benefit">Your upbringing around the Sczarni has exposed you to games with cards and dice. You gain a +1 trait bonus on Bluff and Sleight of Hand checks; for the purpose of gambling, these bonuses increase by 1.</Pair>
+<Pair single="flavor" id="practiced-gambler-flavor">Your upbringing around the Sczarni has exposed you to games with cards and dice.</Pair>
+<Pair single="benefit" id="practiced-gambler-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks; for the purpose of gambling, these bonuses increase by 1.</Pair>
 </Ability>
 </>};
 const _stargazer_human = {title: "Stargazer (Human)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
@@ -2251,7 +2265,8 @@ const _stargazer_human = {title: "Stargazer (Human)", topLink: ["Race Traits","m
 <Pair single id="stargazer-human">Stargazer (Human)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Varisian</Pair>
-<Pair single="benefit" id="stargazer-human-benefit">You spent many years wandering the roads of Varisia and beyond, and during clear nights, you took to tracking the celestial bodies that adorn Golarion's skies. You gain a +1 trait bonus on Knowledge (geography) and Survival checks.</Pair>
+<Pair single="flavor" id="stargazer-human-flavor">You spent many years wandering the roads of Varisia and beyond, and during clear nights, you took to tracking the celestial bodies that adorn Golarion's skies.</Pair>
+<Pair single="benefit" id="stargazer-human-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_geography">Knowledge (geography)</Link> and <Link to="/skill/survival">Survival</Link> checks.</Pair>
 </Ability>
 </>};
 const _tattooed_focus = {title: "Tattooed Focus", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2259,7 +2274,8 @@ const _tattooed_focus = {title: "Tattooed Focus", topLink: ["Race Traits","main/
 <Pair single id="tattooed-focus">Tattooed Focus</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Varisian</Pair>
-<Pair single="benefit" id="tattooed-focus-benefit">You possess an intricate tattoo that proclaims your skill at your chosen vocation. Choose a Craft, Perform, or Profession skill. You gain a +2 trait bonus on checks with that skill, and it is always a class skill for you.</Pair>
+<Pair single="flavor" id="tattooed-focus-flavor">You possess an intricate tattoo that proclaims your skill at your chosen vocation.</Pair>
+<Pair single="benefit" id="tattooed-focus-benefit">Choose a <Link to="/skill/craft">Craft</Link>, <Link to="/skill/perform">Perform</Link>, or <Link to="/skill/profession">Profession</Link> skill. You gain a +2 trait bonus on checks with that skill, and it is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _varisian_tattoo = {title: "Varisian Tattoo", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends</Link></p>
@@ -2267,7 +2283,8 @@ const _varisian_tattoo = {title: "Varisian Tattoo", topLink: ["Race Traits","mai
 <Pair single id="varisian-tattoo">Varisian Tattoo</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Varisian</Pair>
-<Pair single="benefit" id="varisian-tattoo-benefit">You bear the elaborate tattoos of your people, marking you as a free son or daughter of the road. You gain a +1 trait bonus on saving throws against charm and compulsion effects. Additionally, you are proficient with bladed scarves and starknives.</Pair>
+<Pair single="flavor" id="varisian-tattoo-flavor">You bear the elaborate tattoos of your people, marking you as a free son or daughter of the road.</Pair>
+<Pair single="benefit" id="varisian-tattoo-benefit">You gain a +1 trait bonus on saving throws against charm and compulsion effects. Additionally, you are proficient with <Link to="/eq-weapon/bladed_scarves">bladed scarves</Link> and <Link to="/eq-weapon/starknives">starknives</Link>.</Pair>
 </Ability>
 </>};
 const _varki_landspeaker = {title: "Varki Landspeaker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North</Link></p>
@@ -2275,7 +2292,8 @@ const _varki_landspeaker = {title: "Varki Landspeaker", topLink: ["Race Traits",
 <Pair single id="varki-landspeaker">Varki Landspeaker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Varki</Pair>
-<Pair single="benefit" id="varki-landspeaker-benefit">You are deeply attuned to the lands your people call home and the spirits that live there. You gain a +1 trait bonus on Survival checks in arctic or cold terrain. In addition, while in such terrain, you may query the spirits of the land once per day to gain a +5 trait bonus on a single skill check to follow tracks, forage, or find shelter.</Pair>
+<Pair single="flavor" id="varki-landspeaker-flavor">You are deeply attuned to the lands your people call home and the spirits that live there.</Pair>
+<Pair single="benefit" id="varki-landspeaker-benefit">You gain a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks in arctic or cold terrain. In addition, while in such terrain, you may query the spirits of the land once per day to gain a +5 trait bonus on a single skill check to follow tracks, forage, or find shelter.</Pair>
 </Ability>
 </>};
 const _disciplined_body = {title: "Disciplined Body", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2283,7 +2301,8 @@ const _disciplined_body = {title: "Disciplined Body", topLink: ["Race Traits","m
 <Pair single id="disciplined-body">Disciplined Body</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Vudrani</Pair>
-<Pair single="benefit" id="disciplined-body-benefit">You respect your mind's mastery over your body's full potential. Once per day, you can use your Wisdom modifier instead of either your Strength or Dexterity modifier on an attack roll, a combat maneuver check, a Strength or Dexterity-based skill check, a Strength check, a Dexterity check, or a Reflex save. You must choose to use this trait before rolling.</Pair>
+<Pair single="flavor" id="disciplined-body-flavor">You respect your mind's mastery over your body's full potential.</Pair>
+<Pair single="benefit" id="disciplined-body-benefit">Once per day, you can use your Wisdom modifier instead of either your Strength or Dexterity modifier on an attack roll, a combat maneuver check, a Strength or Dexterity-based skill check, a Strength check, a Dexterity check, or a Reflex save. You must choose to use this trait before rolling.</Pair>
 </Ability>
 </>};
 const _latent_psion = {title: "Latent Psion", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/legacy_of_fire_players_guide">Legacy of Fire Player's Guide</Link></p>
@@ -2291,7 +2310,8 @@ const _latent_psion = {title: "Latent Psion", topLink: ["Race Traits","main/trai
 <Pair single id="latent-psion">Latent Psion</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Vudrani</Pair>
-<Pair single="benefit" id="latent-psion-benefit">The power to affect the world with the mind is very much a reality in your distant homeland. Although you may not even have been born in Vudra, this power remains potent in your mind as well and protects you from mental assault. You gain a +2 trait bonus on saves against mind-affecting effects.</Pair>
+<Pair single="flavor" id="latent-psion-flavor">The power to affect the world with the mind is very much a reality in your distant homeland. Although you may not even have been born in Vudra, this power remains potent in your mind as well and protects you from mental assault.</Pair>
+<Pair single="benefit" id="latent-psion-benefit">You gain a +2 trait bonus on saves against mind-affecting effects.</Pair>
 </Ability>
 </>};
 const _open_palm_of_irori = {title: "Open Palm of Irori", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
@@ -2299,7 +2319,8 @@ const _open_palm_of_irori = {title: "Open Palm of Irori", topLink: ["Race Traits
 <Pair single id="open-palm-of-irori">Open Palm of Irori</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Vudrani</Pair>
-<Pair single="benefit" id="open-palm-of-irori-benefit">Your practice of the tenets of Vudrani martial arts has granted you a perfect balance between body and spirit. You gain a +1 trait bonus on Acrobatics and Knowledge (religion) checks. If you have a ki pool, once per day as a swift action, you may channel your ki during an unarmed strike, gaining a +2 trait bonus on one damage roll. This additional damage is precision damage.</Pair>
+<Pair single="flavor" id="open-palm-of-irori-flavor">Your practice of the tenets of Vudrani martial arts has granted you a perfect balance between body and spirit.</Pair>
+<Pair single="benefit" id="open-palm-of-irori-benefit">You gain a +1 trait bonus on <Link to="/skill/acrobatics">Acrobatics</Link> and <Link to="/skill/knowledge_religion">Knowledge (religion)</Link> checks. If you have a <em>ki pool,</em> once per day as a <strong className="hl">swift action</strong>, you may channel your <em>ki</em> during an unarmed strike, gaining a +2 trait bonus on one damage roll. This additional damage is <Link to="/misc/precision_damage">precision damage</Link>.</Pair>
 </Ability>
 </>};
 const _sharp_wits = {title: "Sharp Wits", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2307,7 +2328,8 @@ const _sharp_wits = {title: "Sharp Wits", topLink: ["Race Traits","main/traits_r
 <Pair single id="sharp-wits">Sharp Wits</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Vudrani</Pair>
-<Pair single="benefit" id="sharp-wits-benefit">You were raised with a daily regimen to keep your mind sharp and your words fluid. You gain a +1 trait bonus on <Link to="/rule/concentration">concentration</Link> checks and on Bluff checks.</Pair>
+<Pair single="flavor" id="sharp-wits-flavor">You were raised with a daily regimen to keep your mind sharp and your words fluid.</Pair>
+<Pair single="benefit" id="sharp-wits-benefit">You gain a +1 trait bonus on <Link to="/rule/concentration">concentration</Link> checks and on <Link to="/skill/bluff">Bluff</Link> checks.</Pair>
 </Ability>
 </>};
 const _voice_of_velvet = {title: "Voice of Velvet", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/humans_of_golarion">Humans of Golarion</Link></p>
@@ -2315,7 +2337,8 @@ const _voice_of_velvet = {title: "Voice of Velvet", topLink: ["Race Traits","mai
 <Pair single id="voice-of-velvet">Voice of Velvet</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Vudrani</Pair>
-<Pair single="benefit" id="voice-of-velvet-benefit">You have the ability to sing a song and spin a story that captures the hearts of those around you. You gain a +1 trait bonus on Diplomacy and Perform (oratory) checks.</Pair>
+<Pair single="flavor" id="voice-of-velvet-flavor">You have the ability to sing a song and spin a story that captures the hearts of those around you.</Pair>
+<Pair single="benefit" id="voice-of-velvet-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> and <Link to="/skill/perform">Perform</Link> (oratory) checks.</Pair>
 </Ability>
 </>};
 const _expert_distractor = {title: "Expert Distractor", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -2323,7 +2346,7 @@ const _expert_distractor = {title: "Expert Distractor", topLink: ["Race Traits",
 <Pair single id="expert-distractor">Expert Distractor</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ifrit">Ifrit</Link></Pair>
-<Pair single="benefit" id="expert-distractor-benefit">Whenever you damage an opponent that is casting a spell with a melee attack that deals fire damage (such as a flaming weapon or a torch), the DC of the <Link to="/rule/concentration">concentration</Link> check for your opponent to cast the spell is equal to 10 + the non-fire damage dealt + double the fire damage dealt + the spell's level (instead of just 10 + the damage dealt + the spell's level).</Pair>
+<Pair single="benefit" id="expert-distractor-benefit">Whenever you damage an opponent that is casting a spell with a melee attack that deals fire damage (such as a <Link to="/magic-enh/flaming">flaming</Link> weapon or a <Link to="/eq-misc/torch">torch</Link>), the DC of the <Link to="/rule/concentration">concentration</Link> check for your opponent to cast the spell is equal to 10 + the non-fire damage dealt + double the fire damage dealt + the spell's level (instead of just 10 + the damage dealt + the spell's level).</Pair>
 </Ability>
 </>};
 const _fiery_glare = {title: "Fiery Glare", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
@@ -2331,7 +2354,8 @@ const _fiery_glare = {title: "Fiery Glare", topLink: ["Race Traits","main/traits
 <Pair single id="fiery-glare">Fiery Glare</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ifrit">Ifrit</Link></Pair>
-<Pair single="benefit" id="fiery-glare-benefit">You can use your unearthly nature to frighten others. You can always take 10 on Intimidate checks, even in combat.</Pair>
+<Pair single="flavor" id="fiery-glare-flavor">You can use your unearthly nature to frighten others.</Pair>
+<Pair single="benefit" id="fiery-glare-benefit">You can always take 10 on <Link to="/skill/intimidate">Intimidate</Link> checks, even in combat.</Pair>
 </Ability>
 </>};
 const _hot_headed = {title: "Hot Headed", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2339,7 +2363,8 @@ const _hot_headed = {title: "Hot Headed", topLink: ["Race Traits","main/traits_r
 <Pair single id="hot-headed">Hot Headed</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ifrit">Ifrit</Link></Pair>
-<Pair single="benefit" id="hot-headed-benefit">The constant threat of slavers in your youth taught you to attack first and ask questions later. Whenever you charge, you gain a +1 trait bonus on your damage roll.</Pair>
+<Pair single="flavor" id="hot-headed-flavor">The constant threat of slavers in your youth taught you to attack first and ask questions later.</Pair>
+<Pair single="benefit" id="hot-headed-benefit">Whenever you <Link to="/rule/charge">charge</Link>, you gain a +1 trait bonus on your damage roll.</Pair>
 </Ability>
 </>};
 const _snap_ignition = {title: "Snap Ignition", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
@@ -2347,7 +2372,8 @@ const _snap_ignition = {title: "Snap Ignition", topLink: ["Race Traits","main/tr
 <Pair single id="snap-ignition">Snap Ignition</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ifrit">Ifrit</Link></Pair>
-<Pair single="benefit" id="snap-ignition-benefit">You are a pyromaniac by nature and love nothing more than setting fires. As a full-round action, you can produce a small flame at the end of your finger that ignites combustible materials as a tindertwig. Alternatively, you can maintain a flame equivalent to a candle by spending a standard action each round to concentrate on it.</Pair>
+<Pair single="flavor" id="snap-ignition-flavor">You are a pyromaniac by nature and love nothing more than setting fires.</Pair>
+<Pair single="benefit" id="snap-ignition-benefit">As a <strong className="hl">full-round action</strong>, you can produce a small flame at the end of your finger that ignites combustible materials as a <Link to="/eq-misc/tindertwig">tindertwig</Link>. Alternatively, you can maintain a flame equivalent to a <Link to="/eq-misc/candle">candle</Link> by spending a <strong className="hl">standard action</strong> each round to concentrate on it.</Pair>
 </Ability>
 </>};
 const _unflappable_arrogance = {title: "Unflappable Arrogance", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -2355,7 +2381,8 @@ const _unflappable_arrogance = {title: "Unflappable Arrogance", topLink: ["Race 
 <Pair single id="unflappable-arrogance">Unflappable Arrogance</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ifrit">Ifrit</Link></Pair>
-<Pair single="benefit" id="unflappable-arrogance-benefit">You laugh in the face of your aggressors. The DC to demoralize you with the Intimidate skill increases by 5. If an opponent's Intimidate check would be high enough to cause you to become demoralized for more than 1 round, you are instead demoralized for only 1 round.</Pair>
+<Pair single="flavor" id="unflappable-arrogance-flavor">You laugh in the face of your aggressors.</Pair>
+<Pair single="benefit" id="unflappable-arrogance-benefit">The DC to demoralize you with the <Link to="/skill/intimidate">Intimidate</Link> skill increases by 5. If an opponent's Intimidate check would be high enough to cause you to become demoralized for more than 1 round, you are instead demoralized for only 1 round.</Pair>
 </Ability>
 </>};
 const _adroit = {title: "Adroit", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
@@ -2363,7 +2390,7 @@ const _adroit = {title: "Adroit", topLink: ["Race Traits","main/traits_race"], j
 <Pair single id="adroit">Adroit</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kasatha">Kasatha</Link></Pair>
-<Pair single="benefit" id="adroit-benefit">If one of your hands is free and your base attack bonus is +1 or higher, you can draw a weapon as a free action combined with any move action (including move actions to direct spells, manipulate items, stand up, and so on).</Pair>
+<Pair single="benefit" id="adroit-benefit">If one of your hands is free and your base attack bonus is +1 or higher, you can draw a weapon as a <strong className="hl">free action</strong> combined with any <strong className="hl">move action</strong> (including move actions to direct spells, manipulate items, stand up, and so on).</Pair>
 </Ability>
 </>};
 const _covered_sniper = {title: "Covered Sniper", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2371,7 +2398,8 @@ const _covered_sniper = {title: "Covered Sniper", topLink: ["Race Traits","main/
 <Pair single id="covered-sniper">Covered Sniper</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kasatha">Kasatha</Link></Pair>
-<Pair single="benefit" id="covered-sniper-benefit">You were attacked by strangers that threatened to expose your existence to dangerous forces and you defended yourself using cover. You gain a +1 trait bonus on ranged weapon damage rolls as long as you have cover from your opponent.</Pair>
+<Pair single="flavor" id="covered-sniper-flavor">You were attacked by strangers that threatened to expose your existence to dangerous forces and you defended yourself using cover.</Pair>
+<Pair single="benefit" id="covered-sniper-benefit">You gain a +1 trait bonus on ranged weapon damage rolls as long as you have <Link to="/rule/cover">cover</Link> from your opponent.</Pair>
 </Ability>
 </>};
 const _spidery_climber = {title: "Spidery Climber", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
@@ -2379,7 +2407,8 @@ const _spidery_climber = {title: "Spidery Climber", topLink: ["Race Traits","mai
 <Pair single id="spidery-climber">Spidery Climber</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kasatha">Kasatha</Link></Pair>
-<Pair single="benefit" id="spidery-climber-benefit">More hands means more handholds. You gain a +1 trait bonus on Climb checks. In addition, as long as you have two hands free, the DC to catch yourself on a wall while falling is equal to the wall's DC + 10, and the DC to catch yourself on a slope is equal to the slope's DC + 5.</Pair>
+<Pair single="flavor" id="spidery-climber-flavor">More hands means more handholds.</Pair>
+<Pair single="benefit" id="spidery-climber-benefit">You gain a +1 trait bonus on <Link to="/skill/climb">Climb</Link> checks. In addition, as long as you have two hands free, the DC to catch yourself on a wall while falling is equal to the wall's DC + 10, and the DC to catch yourself on a slope is equal to the slope's DC + 5.</Pair>
 </Ability>
 </>};
 const _among_humans = {title: "Among Humans", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox</Link></p>
@@ -2387,7 +2416,8 @@ const _among_humans = {title: "Among Humans", topLink: ["Race Traits","main/trai
 <Pair single id="among-humans">Among Humans</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kitsune">Kitsune</Link></Pair>
-<Pair single="benefit" id="among-humans-benefit">You have spent your entire life living among humans and are an expert at impersonating them. You gain a +2 trait bonus on Disguise checks to appear human while assuming your specific human form with the change shape racial trait, and Disguise is always a class skill for you.</Pair>
+<Pair single="flavor" id="among-humans-flavor">You have spent your entire life living among humans and are an expert at impersonating them.</Pair>
+<Pair single="benefit" id="among-humans-benefit">You gain a +2 trait bonus on <Link to="/skill/disguise">Disguise</Link> checks to appear human while assuming your specific human form with the <em>change shape</em> racial trait, and Disguise is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _kami_respect = {title: "Kami Respect", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2395,7 +2425,8 @@ const _kami_respect = {title: "Kami Respect", topLink: ["Race Traits","main/trai
 <Pair single id="kami-respect">Kami Respect</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kitsune">Kitsune</Link></Pair>
-<Pair single="benefit" id="kami-respect-benefit">Close contact with kami has given you an intuition for how to stay on their good side. Kami automatically have a starting attitude one step friendlier toward you, to a maximum of Friendly.</Pair>
+<Pair single="flavor" id="kami-respect-flavor">Close contact with kami has given you an intuition for how to stay on their good side.</Pair>
+<Pair single="benefit" id="kami-respect-benefit"><Link to="/family/kami">Kami</Link> automatically have a starting <Link to="/skill/attitude">attitude</Link> one step friendlier toward you, to a maximum of Friendly.</Pair>
 </Ability>
 </>};
 const _nine_tailed_scion = {title: "Nine-Tailed Scion", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox</Link></p>
@@ -2403,7 +2434,10 @@ const _nine_tailed_scion = {title: "Nine-Tailed Scion", topLink: ["Race Traits",
 <Pair single id="nine-tailed-scion">Nine-Tailed Scion</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kitsune">Kitsune</Link></Pair>
-<Pair single="benefit" id="nine-tailed-scion-benefit">You are talented with kitsune magic. You gain a +1 trait bonus on caster level checks for your racial spell-like abilities as well as those from the <Link to="/feat/magical_tail">Magical Tail</Link> feat. Additionally, you can select Magical Tail as a bonus feat whenever your favored class grants you a bonus bloodline feat, combat feat, or metamagic feat instead of the normal type of feat granted by that class. You cannot exchange specific feats granted by a class or race for Magical Tail in this manner; for instance, a monk cannot exchange his <Link to="/feat/stunning_fist">Stunning Fist</Link> feat for Magical Tail.</Pair>
+<Pair single="flavor" id="nine-tailed-scion-flavor">You are talented with kitsune magic.</Pair>
+<Pair single="benefit" id="nine-tailed-scion-benefit"><p>You gain a +1 trait bonus on caster level checks for your racial spell-like abilities as well as those from the <Link to="/feat/magical_tail">Magical Tail</Link> feat. Additionally, you can select Magical Tail as a bonus feat whenever your favored class grants you a bonus bloodline feat, combat feat, or metamagic feat instead of the normal type of feat granted by that class.</p>
+<p>You cannot exchange specific feats granted by a class or race for Magical Tail in this manner; for instance, a monk cannot exchange his <Link to="/feat/stunning_fist">Stunning Fist</Link> feat for Magical Tail.</p>
+</Pair>
 </Ability>
 </>};
 const _carnation_scales = {title: "Carnation Scales", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2411,7 +2445,8 @@ const _carnation_scales = {title: "Carnation Scales", topLink: ["Race Traits","m
 <Pair single id="carnation-scales">Carnation Scales</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link></Pair>
-<Pair single="benefit" id="carnation-scales-benefit">Though your light pink scales made you the subject of ridicule by your tribe, you can adapt to more environments than they can. You gain a +1 bonus on Survival checks, and Survival is always a class skill for you. Most kobolds with carnation scales also have the day raider alternate racial trait.</Pair>
+<Pair single="flavor" id="carnation-scales-flavor">Though your light pink scales made you the subject of ridicule by your tribe, you can adapt to more environments than they can.</Pair>
+<Pair single="benefit" id="carnation-scales-benefit">You gain a +1 bonus on <Link to="/skill/survival">Survival</Link> checks, and Survival is always a class skill for you. Most kobolds with carnation scales also have the <em>day raider</em> alternate racial trait.</Pair>
 </Ability>
 </>};
 const _golden_scales = {title: "Golden Scales", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2419,7 +2454,8 @@ const _golden_scales = {title: "Golden Scales", topLink: ["Race Traits","main/tr
 <Pair single id="golden-scales">Golden Scales</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link></Pair>
-<Pair single="benefit" id="golden-scales-benefit">Your distinctive golden scales strongly reflect the light, making other kobolds mistrust you, but aboveground races favor you. You take a -1 penalty on Bluff checks and Diplomacy checks when dealing with other kobolds, but a +2 bonus on Bluff checks and Diplomacy checks when dealing with non-reptilian humanoids.</Pair>
+<Pair single="flavor" id="golden-scales-flavor">Your distinctive golden scales strongly reflect the light, making other kobolds mistrust you, but aboveground races favor you.</Pair>
+<Pair single="benefit" id="golden-scales-benefit">You take a -1 penalty on <Link to="/skill/bluff">Bluff</Link> checks and <Link to="/skill/diplomacy">Diplomacy</Link> checks when dealing with other kobolds, but a +2 bonus on Bluff checks and Diplomacy checks when dealing with non-reptilian humanoids.</Pair>
 </Ability>
 </>};
 const _kobold_faith = {title: "Kobold Faith", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2427,7 +2463,8 @@ const _kobold_faith = {title: "Kobold Faith", topLink: ["Race Traits","main/trai
 <Pair single id="kobold-faith">Kobold Faith</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link></Pair>
-<Pair single="benefit" id="kobold-faith-benefit">You are one of the diehard kobold faithful, respected in your kobold community. You gain a +2 trait bonus on Diplomacy checks when dealing with other kobolds. Additionally, if your deity grants the Artifice, Earth, or Trickery domain, then your kobold faith unlocks a corresponding subdomain: Trap, Radiation, or Ambush.</Pair>
+<Pair single="flavor" id="kobold-faith-flavor">You are one of the diehard kobold faithful, respected in your kobold community.</Pair>
+<Pair single="benefit" id="kobold-faith-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks when dealing with other kobolds. Additionally, if your deity grants the <Link to="/domain/artifice">Artifice</Link>, <Link to="/domain/earth">Earth</Link>, or <Link to="/domain/trickery">Trickery</Link> domain, then your kobold faith unlocks a corresponding subdomain: Trap, Radiation, or Ambush.</Pair>
 </Ability>
 </>};
 const _purple_scales = {title: "Purple Scales", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2435,7 +2472,8 @@ const _purple_scales = {title: "Purple Scales", topLink: ["Race Traits","main/tr
 <Pair single id="purple-scales">Purple Scales</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link></Pair>
-<Pair single="benefit" id="purple-scales-benefit">Your outlandish purple scales made you an outcast from your tribe and forced you to survive in isolation at the edges of kobold society. While wandering alone through the Darklands, you contacted several other underground races and expanded your linguistic repertoire. In addition to speaking Draconic, you begin play with the ability to speak one of the following: Aklo, Dwarven, Goblin, or Undercommon.</Pair>
+<Pair single="flavor" id="purple-scales-flavor">Your outlandish purple scales made you an outcast from your tribe and forced you to survive in isolation at the edges of kobold society. While wandering alone through the Darklands, you contacted several other underground races and expanded your linguistic repertoire.</Pair>
+<Pair single="benefit" id="purple-scales-benefit">In addition to speaking Draconic, you begin play with the ability to speak one of the following: Aklo, Dwarven, Goblin, or Undercommon.</Pair>
 </Ability>
 </>};
 const _tribal_guide = {title: "Tribal Guide", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2443,7 +2481,8 @@ const _tribal_guide = {title: "Tribal Guide", topLink: ["Race Traits","main/trai
 <Pair single id="tribal-guide">Tribal Guide</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link></Pair>
-<Pair single="benefit" id="tribal-guide-benefit">You were trained to guide the movements of larger creatures, perhaps travelers from Ilizmagorti or transports under Absalom. You provide food and water or a bonus against severe weather for two additional creatures whenever you succeed at the appropriate Survival check, and Survival is a class skill for you.</Pair>
+<Pair single="flavor" id="tribal-guide-flavor">You were trained to guide the movements of larger creatures, perhaps travelers from Ilizmagorti or transports under Absalom.</Pair>
+<Pair single="benefit" id="tribal-guide-benefit">You provide food and water or a bonus against severe weather for two additional creatures whenever you succeed at the appropriate <Link to="/skill/survival">Survival</Link> check, and Survival is a class skill for you.</Pair>
 </Ability>
 </>};
 const _vexed = {title: "Vexed", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2451,7 +2490,8 @@ const _vexed = {title: "Vexed", topLink: ["Race Traits","main/traits_race"], jsx
 <Pair single id="vexed">Vexed</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link></Pair>
-<Pair single="benefit" id="vexed-benefit">You had multiple narrow escapes from gremlin saboteurs and learned to avoid their magic. You gain a +1 trait bonus on saving throws against curses and fear effects.</Pair>
+<Pair single="flavor" id="vexed-flavor">You had multiple narrow escapes from gremlin saboteurs and learned to avoid their magic.</Pair>
+<Pair single="benefit" id="vexed-benefit">You gain a +1 trait bonus on saving throws against curses and fear effects.</Pair>
 </Ability>
 </>};
 const _bog_scamp = {title: "Bog Scamp", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2459,7 +2499,8 @@ const _bog_scamp = {title: "Bog Scamp", topLink: ["Race Traits","main/traits_rac
 <Pair single id="bog-scamp">Bog Scamp</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Black-scaled</Pair>
-<Pair single="benefit" id="bog-scamp-benefit">You were raised in the sludgy swamps, and are used to moving through boggy terrain. You can swim through a deep bog at up to half your speed as a move action, instead of the normal quarter speed. Failing a swim check while in a deep bog doesn't cause you to go underwater, even if you fail by 5 or more, though such a failure still results in a lack of progress.</Pair>
+<Pair single="flavor" id="bog-scamp-flavor">You were raised in the sludgy swamps, and are used to moving through boggy terrain.</Pair>
+<Pair single="benefit" id="bog-scamp-benefit">You can swim through a <Link to="/rule/deep_bog">deep bog</Link> at up to half your speed as a move action, instead of the normal quarter speed. Failing a <Link to="/skill/swim">swim</Link> check while in a deep bog doesn't cause you to go underwater, even if you fail by 5 or more, though such a failure still results in a lack of progress.</Pair>
 </Ability>
 </>};
 const _ooze_defense = {title: "Ooze Defense", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2467,7 +2508,8 @@ const _ooze_defense = {title: "Ooze Defense", topLink: ["Race Traits","main/trai
 <Pair single id="ooze-defense">Ooze Defense</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Black-scaled</Pair>
-<Pair single="benefit" id="ooze-defense-benefit">The murky tunnels of your tribal home were infested with voracious oozes, which were a constant threat to your tribe. To protect yourselves, you and your tribespeople never strayed far without anti-ooze acid. You begin play with three alkali flasks. These don't count against your starting character wealth.</Pair>
+<Pair single="flavor" id="ooze-defense-flavor">The murky tunnels of your tribal home were infested with voracious oozes, which were a constant threat to your tribe. To protect yourselves, you and your tribespeople never strayed far without anti-ooze acid.</Pair>
+<Pair single="benefit" id="ooze-defense-benefit">You begin play with three <Link to="/eq-weapon/alkali_flask">alkali flasks</Link>. These don't count against your starting character wealth.</Pair>
 </Ability>
 </>};
 const _sneaky_swimmer = {title: "Sneaky Swimmer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2475,7 +2517,8 @@ const _sneaky_swimmer = {title: "Sneaky Swimmer", topLink: ["Race Traits","main/
 <Pair single id="sneaky-swimmer">Sneaky Swimmer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Black-scaled</Pair>
-<Pair single="benefit" id="sneaky-swimmer-benefit">Swimming comes naturally to you, as does hunting marsh vipers and other aquatic creatures. Increase the number of rounds you can <Link to="/misc/hold_your_breath">hold your breath</Link> underwater by an amount equal to your Constitution score. You gain a +2 bonus on Stealth checks in swamps and in underwater environments.</Pair>
+<Pair single="flavor" id="sneaky-swimmer-flavor">Swimming comes naturally to you, as does hunting marsh vipers and other aquatic creatures.</Pair>
+<Pair single="benefit" id="sneaky-swimmer-benefit">Increase the number of rounds you can <Link to="/misc/hold_your_breath">hold your breath</Link> underwater by an amount equal to your Constitution score. You gain a +2 bonus on <Link to="/skill/stealth">Stealth</Link> checks in swamps and in underwater environments.</Pair>
 </Ability>
 </>};
 const _draconic_echo = {title: "Draconic Echo", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2483,7 +2526,8 @@ const _draconic_echo = {title: "Draconic Echo", topLink: ["Race Traits","main/tr
 <Pair single id="draconic-echo">Draconic Echo</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Blue-scaled</Pair>
-<Pair single="benefit" id="draconic-echo-benefit">Like the blue dragons your tribe reveres, you have a touch of illusory magic. You are able to cast <Link to="/spell/ghost_sound">ghost sound</Link> twice per day as a spell-like ability. The caster level for this effect is equal to your character level. This spell-like ability's save DC is Intelligence-based.</Pair>
+<Pair single="flavor" id="draconic-echo-flavor">Like the blue dragons your tribe reveres, you have a touch of illusory magic.</Pair>
+<Pair single="benefit" id="draconic-echo-benefit">You are able to cast <Link to="/spell/ghost_sound">ghost sound</Link> twice per day as a spell-like ability. The caster level for this effect is equal to your character level. This spell-like ability's save DC is Intelligence-based.</Pair>
 </Ability>
 </>};
 const _elaborate_trapper = {title: "Elaborate Trapper", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2491,7 +2535,8 @@ const _elaborate_trapper = {title: "Elaborate Trapper", topLink: ["Race Traits",
 <Pair single id="elaborate-trapper">Elaborate Trapper</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Blue-scaled</Pair>
-<Pair single="benefit" id="elaborate-trapper-benefit">You're blessed with a devious mind, and the more elaborate your traps are, the more effective they become. When creating a trap, if your Craft (trap) roll exceeds the DC of the check by 5 or more, that trap's Disable Device DC increases by 2.</Pair>
+<Pair single="flavor" id="elaborate-trapper-flavor">You're blessed with a devious mind, and the more elaborate your traps are, the more effective they become.</Pair>
+<Pair single="benefit" id="elaborate-trapper-benefit">When creating a trap, if your <Link to="/skill/craft">Craft</Link> (trap) roll exceeds the DC of the check by 5 or more, that trap's Disable Device DC increases by 2.</Pair>
 </Ability>
 </>};
 const _lightning_blessed = {title: "Lightning Blessed", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2499,7 +2544,8 @@ const _lightning_blessed = {title: "Lightning Blessed", topLink: ["Race Traits",
 <Pair single id="lightning-blessed">Lightning Blessed</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Blue-scaled</Pair>
-<Pair single="benefit" id="lightning-blessed-benefit">You're favored by the lightning shaman of your tribe, and he gifted you several sacred items as a reminder of your origins. You begin play with three vials of bottled lighting. These don't count against your starting character wealth.</Pair>
+<Pair single="flavor" id="lightning-blessed-flavor">You're favored by the lightning shaman of your tribe, and he gifted you several sacred items as a reminder of your origins.</Pair>
+<Pair single="benefit" id="lightning-blessed-benefit">You begin play with three vials of <Link to="/eq-weapon/bottled_lightning">bottled lightning</Link>. These don't count against your starting character wealth.</Pair>
 </Ability>
 </>};
 const _liquid_tongued = {title: "Liquid-Tongued", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2507,7 +2553,8 @@ const _liquid_tongued = {title: "Liquid-Tongued", topLink: ["Race Traits","main/
 <Pair single id="liquid-tongued">Liquid-Tongued</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Blue-scaled</Pair>
-<Pair single="benefit" id="liquid-tongued-benefit">The magic-users in your tribe pride themselves on their ability to control the forces of water. Integral to this practice is the ability to study and communicate with visitors from the Elemental Plane of Water. In addition to speaking Draconic, you begin play with the ability to speak Aquan.</Pair>
+<Pair single="flavor" id="liquid-tongued-flavor">The magic-users in your tribe pride themselves on their ability to control the forces of water. Integral to this practice is the ability to study and communicate with visitors from the Elemental Plane of Water.</Pair>
+<Pair single="benefit" id="liquid-tongued-benefit">In addition to speaking Draconic, you begin play with the ability to speak Aquan.</Pair>
 </Ability>
 </>};
 const _alchemical_breath = {title: "Alchemical Breath", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2515,7 +2562,8 @@ const _alchemical_breath = {title: "Alchemical Breath", topLink: ["Race Traits",
 <Pair single id="alchemical-breath">Alchemical Breath</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Green-scaled</Pair>
-<Pair single="benefit" id="alchemical-breath-benefit">Your tribe, in an effort to emulate the green chromatic dragons they admire, goes to great lengths to secure alchemical coal. As a member of a green kobold tribe, you begin play with three pieces of the choking smoke variety of alchemical coal. Eating one of these pellets allows you to exhale noxious vapors, damaging and sickening your enemies. These pellets do not count against your starting character wealth.</Pair>
+<Pair single="flavor" id="alchemical-breath-flavor">Your tribe, in an effort to emulate the green chromatic dragons they admire, goes to great lengths to secure alchemical coal.</Pair>
+<Pair single="benefit" id="alchemical-breath-benefit">As a member of a green kobold tribe, you begin play with three pieces of the <Link to="/eq-weapon/choking_smoke">choking smoke</Link> variety of alchemical coal. Eating one of these pellets allows you to exhale noxious vapors, damaging and sickening your enemies. These pellets do not count against your starting character wealth.</Pair>
 </Ability>
 </>};
 const _kobold_herbalist = {title: "Kobold Herbalist", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2523,7 +2571,8 @@ const _kobold_herbalist = {title: "Kobold Herbalist", topLink: ["Race Traits","m
 <Pair single id="kobold-herbalist">Kobold Herbalist</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Green-scaled</Pair>
-<Pair single="benefit" id="kobold-herbalist-benefit">You are familiar with the flora of your native forest and have rudimentary skill as an herbalist. Once per day, you can attempt a DC 20 Survival check instead of a Craft (alchemy) check to create a single dose of scent cloak without paying any cost for raw materials. Any scent cloak created using this method must be used within 24 hours, or it becomes inert.</Pair>
+<Pair single="flavor" id="kobold-herbalist-flavor">You are familiar with the flora of your native forest and have rudimentary skill as an herbalist.</Pair>
+<Pair single="benefit" id="kobold-herbalist-benefit">Once per day, you can attempt a DC 20 <Link to="/skill/survival">Survival</Link> check instead of a <Link to="/skill/craft">Craft</Link> (alchemy) check to create a single dose of <Link to="/eq-misc/scent_cloak">scent cloak</Link> without paying any cost for raw materials. Any scent cloak created using this method must be used within 24 hours, or it becomes inert.</Pair>
 </Ability>
 </>};
 const _slithering_stride = {title: "Slithering Stride", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2531,7 +2580,8 @@ const _slithering_stride = {title: "Slithering Stride", topLink: ["Race Traits",
 <Pair single id="slithering-stride">Slithering Stride</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Green-scaled</Pair>
-<Pair single="benefit" id="slithering-stride-benefit">You were raised as a forest trapper, and are adept at moving quickly through underbrush. For 3 rounds per day, you can move through light or heavy undergrowth at full speed. This ability doesn't work in terrain that has been magically manipulated to impede motion.</Pair>
+<Pair single="flavor" id="slithering-stride-flavor">You were raised as a forest trapper, and are adept at moving quickly through underbrush.</Pair>
+<Pair single="benefit" id="slithering-stride-benefit">For 3 rounds per day, you can move through <Link to="/rule/heavy_undergrowth">light or heavy undergrowth</Link> at full speed. This ability doesn't work in terrain that has been magically manipulated to impede motion.</Pair>
 </Ability>
 </>};
 const _fire_tongued = {title: "Fire-Tongued", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2539,7 +2589,8 @@ const _fire_tongued = {title: "Fire-Tongued", topLink: ["Race Traits","main/trai
 <Pair single id="fire-tongued">Fire-Tongued</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Red-scaled</Pair>
-<Pair single="benefit" id="fire-tongued-benefit">The sorcerers of your tribe are adept at summoning and binding outsiders from the Elemental Plane of Fire. In order to communicate with their thralls, many in your tribe learned the rudiments of the outsiders' language. In addition to speaking Draconic, you begin play with the ability to speak Ignan.</Pair>
+<Pair single="flavor" id="fire-tongued-flavor">The sorcerers of your tribe are adept at summoning and binding outsiders from the Elemental Plane of Fire. In order to communicate with their thralls, many in your tribe learned the rudiments of the outsiders' language.</Pair>
+<Pair single="benefit" id="fire-tongued-benefit">In addition to speaking Draconic, you begin play with the ability to speak Ignan.</Pair>
 </Ability>
 </>};
 const _firebug_kobold = {title: "Firebug (Kobold)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2547,7 +2598,8 @@ const _firebug_kobold = {title: "Firebug (Kobold)", topLink: ["Race Traits","mai
 <Pair single id="firebug-kobold">Firebug (Kobold)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Red-scaled</Pair>
-<Pair single="benefit" id="firebug-kobold-benefit">Like the red dragons that inspire your tribe, you're blessed with a small spark of incendiary magic. You are able to cast <Link to="/spell/spark">spark</Link> three times per day as a spell-like ability. The caster level is equal to your character level. This spell-like ability's save DC is Intelligence-based.</Pair>
+<Pair single="flavor" id="firebug-kobold-flavor">Like the red dragons that inspire your tribe, you're blessed with a small spark of incendiary magic.</Pair>
+<Pair single="benefit" id="firebug-kobold-benefit">You are able to cast <Link to="/spell/spark">spark</Link> three times per day as a spell-like ability. The caster level is equal to your character level. This spell-like ability's save DC is Intelligence-based.</Pair>
 </Ability>
 </>};
 const _heat_fortitude = {title: "Heat Fortitude", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2555,7 +2607,8 @@ const _heat_fortitude = {title: "Heat Fortitude", topLink: ["Race Traits","main/
 <Pair single id="heat-fortitude">Heat Fortitude</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Red-scaled</Pair>
-<Pair single="benefit" id="heat-fortitude-benefit">You grew up close to sulfurous volcanic vents, which steeled you against heat dangers. You gain a +4 trait bonus on Fortitude saving throws against nonlethal damage from heat.</Pair>
+<Pair single="flavor" id="heat-fortitude-flavor">You grew up close to sulfurous volcanic vents, which steeled you against heat dangers.</Pair>
+<Pair single="benefit" id="heat-fortitude-benefit">You gain a +4 trait bonus on Fortitude saving throws against nonlethal damage from heat.</Pair>
 </Ability>
 </>};
 const _smoke_resistant = {title: "Smoke Resistant", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2563,7 +2616,8 @@ const _smoke_resistant = {title: "Smoke Resistant", topLink: ["Race Traits","mai
 <Pair single id="smoke-resistant">Smoke Resistant</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; Red-scaled</Pair>
-<Pair single="benefit" id="smoke-resistant-benefit">You've spent so much of your life around fires that smoke no longer affects you the way it does other creatures. Your vision isn't impaired by nonmagical smoke, and you gain a +5 trait bonus on Fortitude saves to avoid coughing and choking because of <Link to="/rule/forest_fires">smoke inhalation</Link>. This trait confers no benefits against magically created smoke, such as that produced by pyrotechnics.</Pair>
+<Pair single="flavor" id="smoke-resistant-flavor">You've spent so much of your life around fires that smoke no longer affects you the way it does other creatures.</Pair>
+<Pair single="benefit" id="smoke-resistant-benefit">Your vision isn't impaired by nonmagical smoke, and you gain a +5 trait bonus on Fortitude saves to avoid coughing and choking because of <Link to="/rule/forest_fires">smoke inhalation</Link>. This trait confers no benefits against magically created smoke, such as that produced by <Link to="/spell/pyrotechnics">pyrotechnics</Link>.</Pair>
 </Ability>
 </>};
 const _cold_fortitude = {title: "Cold Fortitude", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2571,7 +2625,8 @@ const _cold_fortitude = {title: "Cold Fortitude", topLink: ["Race Traits","main/
 <Pair single id="cold-fortitude">Cold Fortitude</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; White-scaled</Pair>
-<Pair single="benefit" id="cold-fortitude-benefit">The perpetually chilly environment of your youth made you exceptionally resilient in arctic climes. You gain a +4 trait bonus on Fortitude saving throws against nonlethal cold damage.</Pair>
+<Pair single="flavor" id="cold-fortitude-flavor">The perpetually chilly environment of your youth made you exceptionally resilient in arctic climes.</Pair>
+<Pair single="benefit" id="cold-fortitude-benefit">You gain a +4 trait bonus on Fortitude saving throws against nonlethal cold damage.</Pair>
 </Ability>
 </>};
 const _frost_spitter = {title: "Frost Spitter", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2579,7 +2634,8 @@ const _frost_spitter = {title: "Frost Spitter", topLink: ["Race Traits","main/tr
 <Pair single id="frost-spitter">Frost Spitter</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; White-scaled</Pair>
-<Pair single="benefit" id="frost-spitter-benefit">The icy breath of a white dragon fills your lungs. Once per day, you can quickly exhale to produce a frigid cloud of dense fog that quickly sinks to the ground. This freezing mist covers a 10-foot-square area with slippery ice that's as difficult to traverse as an ice sheet.</Pair>
+<Pair single="flavor" id="frost-spitter-flavor">The icy breath of a white dragon fills your lungs.</Pair>
+<Pair single="benefit" id="frost-spitter-benefit">Once per day, you can quickly exhale to produce a frigid cloud of dense fog that quickly sinks to the ground. This freezing mist covers a 10-foot-square area with slippery ice that's as difficult to traverse as an <Link to="/rule/cold">ice sheet</Link>.</Pair>
 </Ability>
 </>};
 const _icy_mementos = {title: "Icy Mementos", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2587,7 +2643,8 @@ const _icy_mementos = {title: "Icy Mementos", topLink: ["Race Traits","main/trai
 <Pair single id="icy-mementos">Icy Mementos</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; White-scaled</Pair>
-<Pair single="benefit" id="icy-mementos-benefit">As a parting gift, the shaman of your tribe gave you an alchemical concoction as a reminder of your icy home. You begin play with three bottles of liquid ice. These don't count against your starting character wealth.</Pair>
+<Pair single="flavor" id="icy-mementos-flavor">As a parting gift, the shaman of your tribe gave you an alchemical concoction as a reminder of your icy home.</Pair>
+<Pair single="benefit" id="icy-mementos-benefit">You begin play with three bottles of <Link to="/eq-weapon/liquid_ice">liquid ice</Link>. These don't count against your starting character wealth.</Pair>
 </Ability>
 </>};
 const _skaters_balance = {title: "Skater's Balance", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/kobolds_of_golarion">Kobolds of Golarion</Link></p>
@@ -2595,7 +2652,8 @@ const _skaters_balance = {title: "Skater's Balance", topLink: ["Race Traits","ma
 <Pair single id="skaters-balance">Skater's Balance</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/kobold">Kobold</Link>; White-scaled</Pair>
-<Pair single="benefit" id="skaters-balance-benefit">You grew up stalking across the frozen pools of water that dot your tribe's Darklands home. You don't need to spend extra movement to enter a square of an ice sheet, and the DCs of your Acrobatics checks on ice sheets don't increase by 5.</Pair>
+<Pair single="flavor" id="skaters-balance-flavor">You grew up stalking across the frozen pools of water that dot your tribe's Darklands home.</Pair>
+<Pair single="benefit" id="skaters-balance-benefit">You don't need to spend extra movement to enter a square of an <Link to="/rule/cold">ice sheet</Link>, and the DCs of your <Link to="/skill/acrobatics">Acrobatics</Link> checks on ice sheets don't increase by 5.</Pair>
 </Ability>
 </>};
 const _castrovel_gatekeeper = {title: "Castrovel Gatekeeper", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2603,7 +2661,8 @@ const _castrovel_gatekeeper = {title: "Castrovel Gatekeeper", topLink: ["Race Tr
 <Pair single id="castrovel-gatekeeper">Castrovel Gatekeeper</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/lashunta">Lashunta</Link></Pair>
-<Pair single="benefit" id="castrovel-gatekeeper-benefit">You helped maintain the interplanetary portals used for trade with other worlds. You gain a +2 trait bonus on Spellcraft checks to identify teleportation magic and a +1 trait bonus on caster level checks when casting teleportation spells. You know the proper commands to operate a particular interplanetary portal (it is up to the GM as to where it is and how it operates).</Pair>
+<Pair single="flavor" id="castrovel-gatekeeper-flavor">You helped maintain the interplanetary portals used for trade with other worlds.</Pair>
+<Pair single="benefit" id="castrovel-gatekeeper-benefit">You gain a +2 trait bonus on <Link to="/skill/spellcraft">Spellcraft</Link> checks to identify teleportation magic and a +1 trait bonus on caster level checks when casting teleportation spells. You know the proper commands to operate a particular interplanetary portal (it is up to the GM as to where it is and how it operates).</Pair>
 </Ability>
 </>};
 const _skilled_telepath = {title: "Skilled Telepath", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
@@ -2611,7 +2670,7 @@ const _skilled_telepath = {title: "Skilled Telepath", topLink: ["Race Traits","m
 <Pair single id="skilled-telepath">Skilled Telepath</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/lashunta">Lashunta</Link></Pair>
-<Pair single="benefit" id="skilled-telepath-benefit">The range of your limited telepathy racial ability increases by 5 feet.</Pair>
+<Pair single="benefit" id="skilled-telepath-benefit">The range of your <em>limited telepathy</em> racial ability increases by 5 feet.</Pair>
 </Ability>
 </>};
 const _tactile_telekinesis = {title: "Tactile Telekinesis", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
@@ -2619,7 +2678,7 @@ const _tactile_telekinesis = {title: "Tactile Telekinesis", topLink: ["Race Trai
 <Pair single id="tactile-telekinesis">Tactile Telekinesis</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/lashunta">Lashunta</Link></Pair>
-<Pair single="benefit" id="tactile-telekinesis-benefit">Once per day as a swift action, you can add a trait bonus equal to your Intelligence modifier on Strength checks and Strength-based skill checks you attempt before the beginning of your next turn.</Pair>
+<Pair single="benefit" id="tactile-telekinesis-benefit">Once per day as a <strong className="hl">swift action</strong>, you can add a trait bonus equal to your Intelligence modifier on Strength checks and Strength-based skill checks you attempt before the beginning of your next turn.</Pair>
 </Ability>
 </>};
 const _guarded = {title: "Guarded", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2627,7 +2686,8 @@ const _guarded = {title: "Guarded", topLink: ["Race Traits","main/traits_race"],
 <Pair single id="guarded">Guarded</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/merfolk">Merfolk</Link></Pair>
-<Pair single="benefit" id="guarded-benefit">You grew up believing air-breathers are not to be trusted. You gain a +2 trait bonus on Bluff and Sense Motive checks against non-aquatic humanoids.</Pair>
+<Pair single="flavor" id="guarded-flavor">You grew up believing air-breathers are not to be trusted.</Pair>
+<Pair single="benefit" id="guarded-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> checks against non-aquatic humanoids.</Pair>
 </Ability>
 </>};
 const _longlung = {title: "Longlung", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2635,7 +2695,8 @@ const _longlung = {title: "Longlung", topLink: ["Race Traits","main/traits_race"
 <Pair single id="longlung">Longlung</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/monkey_goblin">Monkey goblin</Link></Pair>
-<Pair single="benefit" id="longlung-benefit">You have spent long hours scouring shipwrecks and shoreline tide pools during low tide for shiny treasure. You gain a +2 trait bonus on Perception checks while underwater and can <Link to="/misc/hold_your_breath">hold your breath</Link> for a number of rounds equal to three times your Constitution score before you risk drowning.</Pair>
+<Pair single="flavor" id="longlung-flavor">You have spent long hours scouring shipwrecks and shoreline tide pools during low tide for shiny treasure.</Pair>
+<Pair single="benefit" id="longlung-benefit">You gain a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks while underwater and can <Link to="/misc/hold_your_breath">hold your breath</Link> for a number of rounds equal to three times your Constitution score before you risk drowning.</Pair>
 </Ability>
 </>};
 const _nagaji_nationalist = {title: "Nagaji Nationalist", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2643,7 +2704,8 @@ const _nagaji_nationalist = {title: "Nagaji Nationalist", topLink: ["Race Traits
 <Pair single id="nagaji-nationalist">Nagaji Nationalist</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/nagaji">Nagaji</Link></Pair>
-<Pair single="benefit" id="nagaji-nationalist-benefit">Your loyalty to the nagaji nation of Nagajor is powerful. You gain a +1 trait bonus on attack rolls and saving throws against foes that directly threaten the safety of Nagajor.</Pair>
+<Pair single="flavor" id="nagaji-nationalist-flavor">Your loyalty to the nagaji nation of Nagajor is powerful.</Pair>
+<Pair single="benefit" id="nagaji-nationalist-benefit">You gain a +1 trait bonus on attack rolls and saving throws against foes that directly threaten the safety of Nagajor.</Pair>
 </Ability>
 </>};
 const _animal_rustler = {title: "Animal Rustler", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2651,7 +2713,8 @@ const _animal_rustler = {title: "Animal Rustler", topLink: ["Race Traits","main/
 <Pair single id="animal-rustler">Animal Rustler</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/orc">Orc</Link></Pair>
-<Pair single="benefit" id="animal-rustler-benefit">You frequently helped capture and wrangle dangerous animals and megafauna for your tribe, and you had to control them well enough to avoid being killed. Once per day, you can add your Strength modifier in addition to your Charisma modifier when attempting a Handle Animal check.</Pair>
+<Pair single="flavor" id="animal-rustler-flavor">You frequently helped capture and wrangle dangerous animals and megafauna for your tribe, and you had to control them well enough to avoid being killed.</Pair>
+<Pair single="benefit" id="animal-rustler-benefit">Once per day, you can add your Strength modifier in addition to your Charisma modifier when attempting a <Link to="/skill/handle_animal">Handle Animal</Link> check.</Pair>
 </Ability>
 </>};
 const _brimstone_seer = {title: "Brimstone Seer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2659,7 +2722,7 @@ const _brimstone_seer = {title: "Brimstone Seer", topLink: ["Race Traits","main/
 <Pair single id="brimstone-seer">Brimstone Seer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/orc">Orc</Link></Pair>
-<Pair single="benefit" id="brimstone-seer-benefit">You were exposed to vision-granting caustic vapors by the oracles of the Brimstone Haruspex, whether because you had a pressing question or because a parent or chieftain considered you an expendable proxy. The vapors left scars that impose a -1 penalty on Charisma-based checks, but once per day you gain a flash of insight that allows you to roll twice on a Knowledge skill check or Intelligence check and take the better result. You must choose to use this trait before rolling.</Pair>
+<Pair single="benefit" id="brimstone-seer-benefit">You were exposed to vision-granting caustic vapors by the oracles of the Brimstone Haruspex, whether because you had a pressing question or because a parent or chieftain considered you an expendable proxy. The vapors left scars that impose a -1 penalty on Charisma-based checks, but once per day you gain a flash of insight that allows you to roll twice on a <Link to="/skill/knowledge">Knowledge</Link> skill check or Intelligence check and take the better result. You must choose to use this trait before rolling.</Pair>
 </Ability>
 </>};
 const _earthsense = {title: "Earthsense", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -2667,7 +2730,8 @@ const _earthsense = {title: "Earthsense", topLink: ["Race Traits","main/traits_r
 <Pair single id="earthsense">Earthsense</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/oread">Oread</Link></Pair>
-<Pair single="benefit" id="earthsense-benefit">You were inexplicably transformed in the womb by elemental forces, making your connection to the earth exceptionally strong. As a swift action, you can gain tremorsense to a range of 60 feet until the beginning of your next turn. You can use this ability once per day at 1st level, plus one additional time per day at 5th level and every 5 levels thereafter, to a maximum of five times per day at 20th level.</Pair>
+<Pair single="flavor" id="earthsense-flavor">You were inexplicably transformed in the womb by elemental forces, making your connection to the earth exceptionally strong.</Pair>
+<Pair single="benefit" id="earthsense-benefit">As a <strong className="hl">swift action</strong>, you can gain <Link to="/umr/tremorsense">tremorsense</Link> to a range of 60 feet until the beginning of your next turn. You can use this ability once per day at 1st level, plus one additional time per day at 5th level and every 5 levels thereafter, to a maximum of five times per day at 20th level.</Pair>
 </Ability>
 </>};
 const _loner_of_the_rocks = {title: "Loner of the Rocks", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2675,7 +2739,8 @@ const _loner_of_the_rocks = {title: "Loner of the Rocks", topLink: ["Race Traits
 <Pair single id="loner-of-the-rocks">Loner of the Rocks</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/oread">Oread</Link></Pair>
-<Pair single="benefit" id="loner-of-the-rocks-benefit">Feeling harried by flighty non-oreads, you chose to embrace the life of a hermit with few contacts beyond your rocky home. You gain a +1 trait bonus on Heal and Survival checks. Your bonus on Survival checks increases by 1 in underground or mountain environments.</Pair>
+<Pair single="flavor" id="loner-of-the-rocks-flavor">Feeling harried by flighty non-oreads, you chose to embrace the life of a hermit with few contacts beyond your rocky home.</Pair>
+<Pair single="benefit" id="loner-of-the-rocks-benefit">You gain a +1 trait bonus on <Link to="/skill/heal">Heal</Link> and <Link to="/skill/survival">Survival</Link> checks. Your bonus on Survival checks increases by 1 in underground or mountain environments.</Pair>
 </Ability>
 </>};
 const _sandy_ambush = {title: "Sandy Ambush", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
@@ -2683,7 +2748,8 @@ const _sandy_ambush = {title: "Sandy Ambush", topLink: ["Race Traits","main/trai
 <Pair single id="sandy-ambush">Sandy Ambush</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/oread">Oread</Link></Pair>
-<Pair single="benefit" id="sandy-ambush-benefit">You are skilled at blending in with the desert terrain and attacking creatures as they pass by. When prone in desert terrain, you gain a +2 trait bonus on Stealth checks and take only a -2 penalty on attack rolls (rather than -4) when attacking from prone.</Pair>
+<Pair single="flavor" id="sandy-ambush-flavor">You are skilled at blending in with the desert terrain and attacking creatures as they pass by.</Pair>
+<Pair single="benefit" id="sandy-ambush-benefit">When <Link to="/rule/prone">prone</Link> in desert terrain, you gain a +2 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks and take only a -2 penalty on attack rolls (rather than -4) when attacking from prone.</Pair>
 </Ability>
 </>};
 const _statuesque = {title: "Statuesque", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -2691,7 +2757,10 @@ const _statuesque = {title: "Statuesque", topLink: ["Race Traits","main/traits_r
 <Pair single id="statuesque">Statuesque</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/oread">Oread</Link></Pair>
-<Pair single="benefit" id="statuesque-benefit">You inherited the statuesque physical features of your shaitan parent. Disguise becomes a class skill for you, and you gain a +2 trait bonus on Disguise checks to disguise yourself as a statue made of a specific type of stone, such as marble, sandstone, or alabaster. Furthermore, you take none of the penalties normally associated with disguising yourself as a different type of creature. You must choose the type of stone you resemble when you take this trait; once chosen, it cannot be changed.</Pair>
+<Pair single="flavor" id="statuesque-flavor">You inherited the statuesque physical features of your shaitan parent.</Pair>
+<Pair single="benefit" id="statuesque-benefit"><p><Link to="/skill/disguise">Disguise</Link> becomes a class skill for you, and you gain a +2 trait bonus on Disguise checks to disguise yourself as a statue made of a specific type of stone, such as marble, sandstone, or alabaster. Furthermore, you take none of the penalties normally associated with disguising yourself as a different type of creature.</p>
+<p>You must choose the type of stone you resemble when you take this trait; once chosen, it cannot be changed.</p>
+</Pair>
 </Ability>
 </>};
 const _stoic_dignity = {title: "Stoic Dignity", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
@@ -2699,7 +2768,8 @@ const _stoic_dignity = {title: "Stoic Dignity", topLink: ["Race Traits","main/tr
 <Pair single id="stoic-dignity">Stoic Dignity</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/oread">Oread</Link></Pair>
-<Pair single="benefit" id="stoic-dignity-benefit">You are an unmoving rock for those who see you as an authority figure. As long as you are conscious, you and all allies within 10 feet gain a +1 bonus on saving throws against mind-affecting effects you are not already suffering from. This is a trait bonus for you and a morale bonus for your allies.</Pair>
+<Pair single="flavor" id="stoic-dignity-flavor">You are an unmoving rock for those who see you as an authority figure.</Pair>
+<Pair single="benefit" id="stoic-dignity-benefit">As long as you are conscious, you and all allies within 10 feet gain a +1 bonus on saving throws against mind-affecting effects you are not already suffering from. This is a trait bonus for you and a morale bonus for your allies.</Pair>
 </Ability>
 </>};
 const _bauble_fascination = {title: "Bauble Fascination", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox</Link></p>
@@ -2707,7 +2777,8 @@ const _bauble_fascination = {title: "Bauble Fascination", topLink: ["Race Traits
 <Pair single id="bauble-fascination">Bauble Fascination</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ratfolk">Ratfolk</Link></Pair>
-<Pair single="benefit" id="bauble-fascination-benefit">You are fond of eldritch baubles and are skilled at activating their wondrous powers. You gain a +1 trait bonus on Use Magic Device checks, and Use Magic Device is always a class skill for you.</Pair>
+<Pair single="flavor" id="bauble-fascination-flavor">You are fond of eldritch baubles and are skilled at activating their wondrous powers.</Pair>
+<Pair single="benefit" id="bauble-fascination-benefit">You gain a +1 trait bonus on <Link to="/skill/use_magic_device">Use Magic Device</Link> checks, and Use Magic Device is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _business_venturer = {title: "Business Venturer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox</Link></p>
@@ -2715,7 +2786,8 @@ const _business_venturer = {title: "Business Venturer", topLink: ["Race Traits",
 <Pair single id="business-venturer">Business Venturer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ratfolk">Ratfolk</Link></Pair>
-<Pair single="benefit" id="business-venturer-benefit">Your mercantile pursuits have sent you across Golarion, making you better traveled than most ratfolk. You gain a +1 trait bonus on Appraise, Knowledge (local), and Profession (merchant) checks, and one of these skills (your choice) is a class skill for you.</Pair>
+<Pair single="flavor" id="business-venturer-flavor">Your mercantile pursuits have sent you across Golarion, making you better traveled than most ratfolk.</Pair>
+<Pair single="benefit" id="business-venturer-benefit">You gain a +1 trait bonus on <Link to="/skill/appraise">Appraise</Link>, <Link to="/skill/knowledge_local">Knowledge (local)</Link>, and <Link to="/skill/profession">Profession</Link> (merchant) checks, and one of these skills (your choice) is a class skill for you.</Pair>
 </Ability>
 </>};
 const _ratfolk_avenger = {title: "Ratfolk Avenger", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2723,7 +2795,8 @@ const _ratfolk_avenger = {title: "Ratfolk Avenger", topLink: ["Race Traits","mai
 <Pair single id="ratfolk-avenger">Ratfolk Avenger</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ratfolk">Ratfolk</Link></Pair>
-<Pair single="benefit" id="ratfolk-avenger-benefit">You protect your own. You gain a +1 trait bonus on weapon damage rolls against opponents you have witnessed dealing damage to one of your allies.</Pair>
+<Pair single="flavor" id="ratfolk-avenger-flavor">You protect your own.</Pair>
+<Pair single="benefit" id="ratfolk-avenger-benefit">You gain a +1 trait bonus on weapon damage rolls against opponents you have witnessed dealing damage to one of your allies.</Pair>
 </Ability>
 </>};
 const _scamper = {title: "Scamper", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
@@ -2731,7 +2804,8 @@ const _scamper = {title: "Scamper", topLink: ["Race Traits","main/traits_race"],
 <Pair single id="scamper">Scamper</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/ratfolk">Ratfolk</Link></Pair>
-<Pair single="benefit" id="scamper-benefit">In desperate times, your adrenaline kicks in to help you avoid danger. During the first round of combat in which you can act, you ignore difficult terrain and gain an additional 5 feet of movement. This benefit does not apply when you are carrying a medium or heavier load.</Pair>
+<Pair single="flavor" id="scamper-flavor">In desperate times, your adrenaline kicks in to help you avoid danger.</Pair>
+<Pair single="benefit" id="scamper-benefit">During the first round of combat in which you can act, you ignore <Link to="/rule/difficult_terrain">difficult terrain</Link> and gain an additional 5 feet of movement. This benefit does not apply when you are carrying a medium or heavier load.</Pair>
 </Ability>
 </>};
 const _walls_of_half_truths = {title: "Walls of Half-Truths", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2739,7 +2813,8 @@ const _walls_of_half_truths = {title: "Walls of Half-Truths", topLink: ["Race Tr
 <Pair single id="walls-of-half-truths">Walls of Half-Truths</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/samsaran">Samsaran</Link></Pair>
-<Pair single="benefit" id="walls-of-half-truths-benefit">As soon as you made contact with other samsarans, they encouraged your talent for magic that befuddles foes. Treat your caster level as 1 higher for the purpose of determining duration of your figment and glamer spells.</Pair>
+<Pair single="flavor" id="walls-of-half-truths-flavor">As soon as you made contact with other samsarans, they encouraged your talent for magic that befuddles foes.</Pair>
+<Pair single="benefit" id="walls-of-half-truths-benefit">Treat your caster level as 1 higher for the purpose of determining duration of your figment and glamer spells.</Pair>
 </Ability>
 </>};
 const _curse_in_the_blood = {title: "Curse in the Blood", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
@@ -2747,7 +2822,8 @@ const _curse_in_the_blood = {title: "Curse in the Blood", topLink: ["Race Traits
 <Pair single id="curse-in-the-blood">Curse in the Blood</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link></Pair>
-<Pair single="benefit" id="curse-in-the-blood-benefit">You gain a +1 trait bonus on saving throws against curses. You treat your caster level as 1 higher when casting spells and spell-like abilities with the curse descriptor.</Pair>
+<Pair single="flavor" id="curse-in-the-blood-flavor">You gain a +1 trait bonus on saving throws against curses.</Pair>
+<Pair single="benefit" id="curse-in-the-blood-benefit">You treat your caster level as 1 higher when casting spells and spell-like abilities with the curse descriptor.</Pair>
 </Ability>
 </>};
 const _marked_by_natures_magic = {title: "Marked by Nature's Magic", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2755,7 +2831,8 @@ const _marked_by_natures_magic = {title: "Marked by Nature's Magic", topLink: ["
 <Pair single id="marked-by-natures-magic">Marked by Nature's Magic</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link></Pair>
-<Pair single="benefit" id="marked-by-natures-magic-benefit">You hail from a community-perhaps in Arcadia or the Lands of the Linnorm Kings-that encouraged you to interact with fey. You gain a +1 trait bonus on Knowledge (nature) checks involving fey and on Diplomacy checks to influence fey. Knowledge (nature) is always a class skill for you.</Pair>
+<Pair single="flavor" id="marked-by-natures-magic-flavor">You hail from a community - perhaps in Arcadia or the Lands of the Linnorm Kings - that encouraged you to interact with fey.</Pair>
+<Pair single="benefit" id="marked-by-natures-magic-benefit">You gain a +1 trait bonus on <Link to="/skill/knowledge_nature">Knowledge (nature)</Link> checks involving fey and on <Link to="/skill/diplomacy">Diplomacy</Link> checks to influence fey. Knowledge (nature) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _mastery_of_form = {title: "Mastery of Form", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2763,7 +2840,8 @@ const _mastery_of_form = {title: "Mastery of Form", topLink: ["Race Traits","mai
 <Pair single id="mastery-of-form">Mastery of Form</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link></Pair>
-<Pair single="benefit" id="mastery-of-form-benefit">You've never had trouble changing shape between beast and humanoid, and your ability to control your form is unparalleled. You gain a +2 trait bonus on saving throws against polymorph effects.</Pair>
+<Pair single="flavor" id="mastery-of-form-flavor">You've never had trouble changing shape between beast and humanoid, and your ability to control your form is unparalleled.</Pair>
+<Pair single="benefit" id="mastery-of-form-benefit">You gain a +2 trait bonus on saving throws against polymorph effects.</Pair>
 </Ability>
 </>};
 const _traumatic_shift = {title: "Traumatic Shift", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2771,7 +2849,8 @@ const _traumatic_shift = {title: "Traumatic Shift", topLink: ["Race Traits","mai
 <Pair single id="traumatic-shift">Traumatic Shift</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link></Pair>
-<Pair single="benefit" id="traumatic-shift-benefit">Your first transformation was in a public place, observed by loved ones who later shunned you or townsfolk who chased you away. You have become good at hiding your nature. You gain a +1 trait bonus on Bluff checks, and Bluff becomes a class skill for you.</Pair>
+<Pair single="flavor" id="traumatic-shift-flavor">Your first transformation was in a public place, observed by loved ones who later shunned you or townsfolk who chased you away. You have become good at hiding your nature.</Pair>
+<Pair single="benefit" id="traumatic-shift-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks, and Bluff becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _fight_with_the_flock = {title: "Fight with the Flock", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2779,7 +2858,8 @@ const _fight_with_the_flock = {title: "Fight with the Flock", topLink: ["Race Tr
 <Pair single id="fight-with-the-flock">Fight with the Flock</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werebat-kin</Pair>
-<Pair single="benefit" id="fight-with-the-flock-benefit">You have always been most comfortable in a group. Since awakening to your werebat powers, this feeling has only grown. As long as you are within 10 feet of at least two allies, you gain a +1 trait bonus on Intimidate checks and attack rolls to make attack of opportunity.</Pair>
+<Pair single="flavor" id="fight-with-the-flock-flavor">You have always been most comfortable in a group. Since awakening to your werebat powers, this feeling has only grown.</Pair>
+<Pair single="benefit" id="fight-with-the-flock-benefit">As long as you are within 10 feet of at least two allies, you gain a +1 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks and attack rolls to make attack of opportunity.</Pair>
 </Ability>
 </>};
 const _precision_hearing = {title: "Precision Hearing", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2787,7 +2867,8 @@ const _precision_hearing = {title: "Precision Hearing", topLink: ["Race Traits",
 <Pair single id="precision-hearing">Precision Hearing</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werebat-kin</Pair>
-<Pair single="benefit" id="precision-hearing-benefit">You have long relied on your enhanced hearing to warn you of those who would persecute you for your nature. Whenever you succeed at a Perception check to hear a creature you can't see and your check exceeds the DC by 10 or more, you can pinpoint the exact square where the sound originated.</Pair>
+<Pair single="flavor" id="precision-hearing-flavor">You have long relied on your enhanced hearing to warn you of those who would persecute you for your nature.</Pair>
+<Pair single="benefit" id="precision-hearing-benefit">Whenever you succeed at a <Link to="/skill/perception">Perception</Link> check to hear a creature you can't see and your check exceeds the DC by 10 or more, you can pinpoint the exact square where the sound originated.</Pair>
 </Ability>
 </>};
 const _durable_change = {title: "Durable Change", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2795,7 +2876,7 @@ const _durable_change = {title: "Durable Change", topLink: ["Race Traits","main/
 <Pair single id="durable-change">Durable Change</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werebear-kin</Pair>
-<Pair single="benefit" id="durable-change-benefit">When you use your change shape ability, you can choose to gain the benefits of the <Link to="/feat/endurance">Endurance</Link> feat rather than gaining a special ability.</Pair>
+<Pair single="benefit" id="durable-change-benefit">When you use your <em>change shape</em> ability, you can choose to gain the benefits of the <Link to="/feat/endurance">Endurance</Link> feat rather than gaining a special ability.</Pair>
 </Ability>
 </>};
 const _reviving_rest = {title: "Reviving Rest", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2803,7 +2884,8 @@ const _reviving_rest = {title: "Reviving Rest", topLink: ["Race Traits","main/tr
 <Pair single id="reviving-rest">Reviving Rest</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werebear-kin</Pair>
-<Pair single="benefit" id="reviving-rest-benefit">When you first demonstrated your werebear ancestry, you slept for a week and awoke feeling more refreshed than ever before. Whenever you undergo complete <Link to="/rule/bed_rest">bed rest</Link> for 24 hours, you recover an amount of hit points equal to three times your character level.</Pair>
+<Pair single="flavor" id="reviving-rest-flavor">When you first demonstrated your werebear ancestry, you slept for a week and awoke feeling more refreshed than ever before.</Pair>
+<Pair single="benefit" id="reviving-rest-benefit">Whenever you undergo complete <Link to="/rule/bed_rest">bed rest</Link> for 24 hours, you recover an amount of hit points equal to three times your character level.</Pair>
 </Ability>
 </>};
 const _boar_resilience = {title: "Boar Resilience", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2811,7 +2893,8 @@ const _boar_resilience = {title: "Boar Resilience", topLink: ["Race Traits","mai
 <Pair single id="boar-resilience">Boar Resilience</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wereboar-kin</Pair>
-<Pair single="benefit" id="boar-resilience-benefit">You were victimized by bullies or even abusive adults. Although the harassment got worse when your wereboar features became more obvious, those features also gave you fortitude that helped you resist it. You are unimpaired by being at exactly 0 hit points. In addition, you can ignore the <Link to="/feat/endurance">Endurance</Link> prerequisite for the <Link to="/feat/diehard">Diehard</Link> feat.</Pair>
+<Pair single="flavor" id="boar-resilience-flavor">You were victimized by bullies or even abusive adults. Although the harassment got worse when your wereboar features became more obvious, those features also gave you fortitude that helped you resist it.</Pair>
+<Pair single="benefit" id="boar-resilience-benefit">You are unimpaired by being at exactly 0 hit points. In addition, you can ignore the <Link to="/feat/endurance">Endurance</Link> prerequisite for the <Link to="/feat/diehard">Diehard</Link> feat.</Pair>
 </Ability>
 </>};
 const _strength_of_body = {title: "Strength of Body", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2819,7 +2902,8 @@ const _strength_of_body = {title: "Strength of Body", topLink: ["Race Traits","m
 <Pair single id="strength-of-body">Strength of Body</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wereboar-kin</Pair>
-<Pair single="benefit" id="strength-of-body-benefit">You took longer than most to learn control over your transforming abilities, but in that time you learned a trick to make the most of your strength. Once per day, you can use your Strength modifier in place of your Constitution modifier on a single Fortitude saving throw. You must announce that you are using this ability before you roll the saving throw.</Pair>
+<Pair single="flavor" id="strength-of-body-flavor">You took longer than most to learn control over your transforming abilities, but in that time you learned a trick to make the most of your strength.</Pair>
+<Pair single="benefit" id="strength-of-body-benefit">Once per day, you can use your Strength modifier in place of your Constitution modifier on a single Fortitude saving throw. You must announce that you are using this ability before you roll the saving throw.</Pair>
 </Ability>
 </>};
 const _crocodile_swim = {title: "Crocodile Swim", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2827,7 +2911,8 @@ const _crocodile_swim = {title: "Crocodile Swim", topLink: ["Race Traits","main/
 <Pair single id="crocodile-swim">Crocodile Swim</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werecrocodile-kin</Pair>
-<Pair single="benefit" id="crocodile-swim-benefit">You grew up near crocodiles, learning to move as they do. You gain a +2 trait bonus on Swim and Stealth checks while moving at half speed or less and mostly or completely underwater. One of these skills (your choice) becomes a class skill for you.</Pair>
+<Pair single="flavor" id="crocodile-swim-flavor">You grew up near crocodiles, learning to move as they do.</Pair>
+<Pair single="benefit" id="crocodile-swim-benefit">You gain a +2 trait bonus on <Link to="/skill/swim">Swim</Link> and <Link to="/skill/stealth">Stealth</Link> checks while moving at half speed or less and mostly or completely underwater. One of these skills (your choice) becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _terrifying_lunge = {title: "Terrifying Lunge", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2835,7 +2920,8 @@ const _terrifying_lunge = {title: "Terrifying Lunge", topLink: ["Race Traits","m
 <Pair single id="terrifying-lunge">Terrifying Lunge</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werecrocodile-kin</Pair>
-<Pair single="benefit" id="terrifying-lunge-benefit">Once badly bitten by a stronger werecrocodile-kin, you learned the importance of showing your strength. Once per day, when you hit a flat-footed foe with a melee attack, you can make an Intimidate check to demoralize that foe as a swift action. Intimidate becomes a class skill for you.</Pair>
+<Pair single="flavor" id="terrifying-lunge-flavor">Once badly bitten by a stronger werecrocodile-kin, you learned the importance of showing your strength.</Pair>
+<Pair single="benefit" id="terrifying-lunge-benefit">Once per day, when you hit a <Link to="/rule/flat_footed">flat-footed</Link> foe with a melee attack, you can make an <Link to="/skill/intimidate">Intimidate</Link> check to demoralize that foe as a <strong className="hl">swift action</strong>. Intimidate becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _inured_to_disease = {title: "Inured to Disease", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2843,7 +2929,8 @@ const _inured_to_disease = {title: "Inured to Disease", topLink: ["Race Traits",
 <Pair single id="inured-to-disease">Inured to Disease</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wererat-kin</Pair>
-<Pair single="benefit" id="inured-to-disease-benefit">The first sign of your wererat heritage was your seeming imperviousness to disease. You gain a +2 trait bonus on Fortitude saving throws against diseases.</Pair>
+<Pair single="flavor" id="inured-to-disease-flavor">The first sign of your wererat heritage was your seeming imperviousness to disease.</Pair>
+<Pair single="benefit" id="inured-to-disease-benefit">You gain a +2 trait bonus on Fortitude saving throws against diseases.</Pair>
 </Ability>
 </>};
 const _rat_squeeze = {title: "Rat Squeeze", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2851,7 +2938,8 @@ const _rat_squeeze = {title: "Rat Squeeze", topLink: ["Race Traits","main/traits
 <Pair single id="rat-squeeze">Rat Squeeze</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wererat-kin</Pair>
-<Pair single="benefit" id="rat-squeeze-benefit">You first discovered your wererat-related abilities while escaping someone, whether the authorities or a rival, and ever since you have honed your ability to squeeze out of tight situations. Whenever you use your skinwalker ability to change shape into your bestial form, you can squeeze through narrow spaces at least half as wide as your normal space without slowing your movement; each move into or through a narrow space counts as 1 square, though you still take all the normal penalties associated with squeezing.</Pair>
+<Pair single="flavor" id="rat-squeeze-flavor">You first discovered your wererat-related abilities while escaping someone, whether the authorities or a rival, and ever since you have honed your ability to squeeze out of tight situations.</Pair>
+<Pair single="benefit" id="rat-squeeze-benefit">Whenever you use your skinwalker ability to change shape into your bestial form, you can <Link to="/misc/squeeze">squeeze</Link> through narrow spaces at least half as wide as your normal space without slowing your movement; each move into or through a narrow space counts as 1 square, though you still take all the normal penalties associated with squeezing.</Pair>
 </Ability>
 </>};
 const _sharkchild = {title: "Sharkchild", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2859,7 +2947,8 @@ const _sharkchild = {title: "Sharkchild", topLink: ["Race Traits","main/traits_r
 <Pair single id="sharkchild">Sharkchild</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wereshark-kin</Pair>
-<Pair single="benefit" id="sharkchild-benefit">In your youth, you swam into the ocean as deep as you could, and had it not been for your wereshark ancestry you would have surely drowned. You gain a +1 trait bonus on Swim checks. As long as you have a swim speed (such as that granted by your bestial form), you can use the run action to move up to five times your swim speed while swimming straight down from or straight up toward the surface of the water.</Pair>
+<Pair single="flavor" id="sharkchild-flavor">In your youth, you swam into the ocean as deep as you could, and had it not been for your wereshark ancestry you would have surely drowned.</Pair>
+<Pair single="benefit" id="sharkchild-benefit">You gain a +1 trait bonus on <Link to="/skill/swim">Swim</Link> checks. As long as you have a swim speed (such as that granted by your bestial form), you can use the run action to move up to five times your swim speed while swimming straight down from or straight up toward the surface of the water.</Pair>
 </Ability>
 </>};
 const _shoreline_skirmisher = {title: "Shoreline Skirmisher", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2867,7 +2956,8 @@ const _shoreline_skirmisher = {title: "Shoreline Skirmisher", topLink: ["Race Tr
 <Pair single id="shoreline-skirmisher">Shoreline Skirmisher</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Wereshark-kin</Pair>
-<Pair single="benefit" id="shoreline-skirmisher-benefit">You were raised without many toys or possessions, but you made do exploring every detail of the nearby seashore, and know how to spot potential tools or obstacles. You gain a +2 trait bonus on combat maneuver checks as long as you or your opponent is on sand or in water at least 6 inches deep.</Pair>
+<Pair single="flavor" id="shoreline-skirmisher-flavor">You were raised without many toys or possessions, but you made do exploring every detail of the nearby seashore, and know how to spot potential tools or obstacles.</Pair>
+<Pair single="benefit" id="shoreline-skirmisher-benefit">You gain a +2 trait bonus on combat maneuver checks as long as you or your opponent is on sand or in water at least 6 inches deep.</Pair>
 </Ability>
 </>};
 const _feline_instinct = {title: "Feline Instinct", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2875,7 +2965,8 @@ const _feline_instinct = {title: "Feline Instinct", topLink: ["Race Traits","mai
 <Pair single id="feline-instinct">Feline Instinct</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Weretiger-kin</Pair>
-<Pair single="benefit" id="feline-instinct-benefit">When your weretiger heritage first manifested, you spent a period of time living off what you could catch, developing a sharp instinct to act when your foes were most vulnerable. In any combat in which you act during the surprise round, you gain a +3 trait bonus on your initiative check.</Pair>
+<Pair single="flavor" id="feline-instinct-flavor">When your weretiger heritage first manifested, you spent a period of time living off what you could catch, developing a sharp instinct to act when your foes were most vulnerable.</Pair>
+<Pair single="benefit" id="feline-instinct-benefit">In any combat in which you act during the surprise round, you gain a +3 trait bonus on your initiative check.</Pair>
 </Ability>
 </>};
 const _tigers_claw = {title: "Tiger's Claw", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2883,7 +2974,8 @@ const _tigers_claw = {title: "Tiger's Claw", topLink: ["Race Traits","main/trait
 <Pair single id="tigers-claw">Tiger's Claw</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Weretiger-kin</Pair>
-<Pair single="benefit" id="tigers-claw-benefit">Your feline agility helps you inflict a devastating blow at the end of a charge. Whenever you use the charge action, you gain a +1 trait bonus on your weapon damage roll.</Pair>
+<Pair single="flavor" id="tigers-claw-flavor">Your feline agility helps you inflict a devastating blow at the end of a charge.</Pair>
+<Pair single="benefit" id="tigers-claw-benefit">Whenever you use the <Link to="/rule/charge">charge</Link> action, you gain a +1 trait bonus on your weapon damage roll.</Pair>
 </Ability>
 </>};
 const _lycanthropic_bloodlust = {title: "Lycanthropic Bloodlust", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2891,7 +2983,8 @@ const _lycanthropic_bloodlust = {title: "Lycanthropic Bloodlust", topLink: ["Rac
 <Pair single id="lycanthropic-bloodlust">Lycanthropic Bloodlust</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werewolf-kin</Pair>
-<Pair single="benefit" id="lycanthropic-bloodlust-benefit">When your lycanthropic heritage awakened, you thrilled at any excuse for violence. Although you might have learned to focus or suppress this urge, it still gives you energy in a fight. Once per day, when you deal damage to a foe with a natural attack, you may gain 1d6 temporary hit points as an immediate action. These temporary hit points last for 1 minute.</Pair>
+<Pair single="flavor" id="lycanthropic-bloodlust-flavor">When your lycanthropic heritage awakened, you thrilled at any excuse for violence. Although you might have learned to focus or suppress this urge, it still gives you energy in a fight.</Pair>
+<Pair single="benefit" id="lycanthropic-bloodlust-benefit">Once per day, when you deal damage to a foe with a natural attack, you may gain 1d6 <Link to="/rule/temporary_hit_points">temporary hit points</Link> as an <strong className="hl">immediate action</strong>. These temporary hit points last for 1 minute.</Pair>
 </Ability>
 </>};
 const _shared_curse = {title: "Shared Curse", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_moon">Blood of the Moon</Link></p>
@@ -2899,7 +2992,8 @@ const _shared_curse = {title: "Shared Curse", topLink: ["Race Traits","main/trai
 <Pair single id="shared-curse">Shared Curse</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/skinwalker">Skinwalker</Link>; Werewolf-kin</Pair>
-<Pair single="benefit" id="shared-curse-benefit">A portion of your ancestor's fell curse still courses through your blood. Once per day as a standard action, you can share a portion of your accursed heritage with a willing ally by dealing 1 point of damage to that ally with a natural weapon. The ally gains a natural bite attack, as if from your skinwalker ability, for 2 rounds.</Pair>
+<Pair single="flavor" id="shared-curse-flavor">A portion of your ancestor's fell curse still courses through your blood.</Pair>
+<Pair single="benefit" id="shared-curse-benefit">Once per day as a <strong className="hl">standard action</strong>, you can share a portion of your accursed heritage with a willing ally by dealing 1 point of damage to that ally with a natural weapon. The ally gains a natural bite attack, as if from your skinwalker ability, for 2 rounds.</Pair>
 </Ability>
 </>};
 const _aerial_harrier = {title: "Aerial Harrier", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2907,7 +3001,8 @@ const _aerial_harrier = {title: "Aerial Harrier", topLink: ["Race Traits","main/
 <Pair single id="aerial-harrier">Aerial Harrier</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/strix">Strix</Link></Pair>
-<Pair single="benefit" id="aerial-harrier-benefit">You are used to fighting enemies who cannot fly. While flying, you gain a +1 trait bonus to AC against melee attacks from creatures on the ground.</Pair>
+<Pair single="flavor" id="aerial-harrier-flavor">You are used to fighting enemies who cannot fly.</Pair>
+<Pair single="benefit" id="aerial-harrier-benefit">While flying, you gain a +1 trait bonus to AC against melee attacks from creatures on the ground.</Pair>
 </Ability>
 </>};
 const _dowsing = {title: "Dowsing", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
@@ -2915,7 +3010,8 @@ const _dowsing = {title: "Dowsing", topLink: ["Race Traits","main/traits_race"],
 <Pair single id="dowsing">Dowsing</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/suli">Suli</Link></Pair>
-<Pair single="benefit" id="dowsing-benefit">You are sensitive to the presence of all elements, allowing you to find water, landmarks, and evidence of prior camps or settlements. You gain a +1 trait bonus on Survival checks. Whenever you succeed at a Survival check to follow tracks in desert terrain, you can always tell how long ago the tracks were made (though supernatural abilities and spells still impede this ability as appropriate).</Pair>
+<Pair single="flavor" id="dowsing-flavor">You are sensitive to the presence of all elements, allowing you to find water, landmarks, and evidence of prior camps or settlements.</Pair>
+<Pair single="benefit" id="dowsing-benefit">You gain a +1 trait bonus on <Link to="/skill/survival">Survival</Link> checks. Whenever you succeed at a Survival check to follow tracks in desert terrain, you can always tell how long ago the tracks were made (though supernatural abilities and spells still impede this ability as appropriate).</Pair>
 </Ability>
 </>};
 const _dualborn = {title: "Dualborn", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -2923,7 +3019,8 @@ const _dualborn = {title: "Dualborn", topLink: ["Race Traits","main/traits_race"
 <Pair single id="dualborn">Dualborn</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/suli">Suli</Link></Pair>
-<Pair single="benefit" id="dualborn-benefit">You were not born of a janni-your non-human heritage can instead be traced back to some dualistic power between elemental realms. Choose two energy types other than sonic (acid, cold, electricity, or fire). Once made, this choice cannot be changed. You gain racial energy resistance only to the energy types you choose, and not to others. When using your elemental assault ability, you can only sheath your arms in the energy types selected, but you can choose to sheath your primary hand with one of the selected energy types and your off-hand with the other. Attacks made with each hand (or a weapon held in each hand) deal bonus energy damage of the selected type. While wielding a two-handed weapon, half of the bonus energy damage is one energy type and half is the other.</Pair>
+<Pair single="flavor" id="dualborn-flavor">You were not born of a janni - your non-human heritage can instead be traced back to some dualistic power between elemental realms.</Pair>
+<Pair single="benefit" id="dualborn-benefit">Choose two energy types other than sonic (acid, cold, electricity, or fire). Once made, this choice cannot be changed. You gain racial energy resistance only to the energy types you choose, and not to others. When using your <em>elemental assault</em> ability, you can only sheath your arms in the energy types selected, but you can choose to sheath your primary hand with one of the selected energy types and your off-hand with the other. Attacks made with each hand (or a weapon held in each hand) deal bonus energy damage of the selected type. While wielding a two-handed weapon, half of the bonus energy damage is one energy type and half is the other.</Pair>
 </Ability>
 </>};
 const _elemental_caller = {title: "Elemental Caller", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2931,7 +3028,8 @@ const _elemental_caller = {title: "Elemental Caller", topLink: ["Race Traits","m
 <Pair single id="elemental-caller">Elemental Caller</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/suli">Suli</Link></Pair>
-<Pair single="benefit" id="elemental-caller-benefit">You learned conjuration magic in close contact with friendly elemental beings. Treat your caster level as 1 higher to determine the duration of spells you cast that call or summon genies or outsiders with the elemental subtype.</Pair>
+<Pair single="flavor" id="elemental-caller-flavor">You learned conjuration magic in close contact with friendly elemental beings.</Pair>
+<Pair single="benefit" id="elemental-caller-benefit">Treat your caster level as 1 higher to determine the duration of spells you cast that call or summon genies or outsiders with the elemental subtype.</Pair>
 </Ability>
 </>};
 const _instant_friendship = {title: "Instant Friendship", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -2939,7 +3037,8 @@ const _instant_friendship = {title: "Instant Friendship", topLink: ["Race Traits
 <Pair single id="instant-friendship">Instant Friendship</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/suli">Suli</Link></Pair>
-<Pair single="benefit" id="instant-friendship-benefit">You inherited your janni parent's knack for reversing a tense situation. Once per day, you can treat an Intimidate roll to improve a creature's attitude toward you as if you had used Diplomacy instead. You must use this ability after making the check but before the GM has revealed the result. If you continue threatening the target after making the check, the check automatically fails.</Pair>
+<Pair single="flavor" id="instant-friendship-flavor">You inherited your janni parent's knack for reversing a tense situation.</Pair>
+<Pair single="benefit" id="instant-friendship-benefit">Once per day, you can treat an <Link to="/skill/intimidate">Intimidate</Link> roll to improve a creature's attitude toward you as if you had used <Link to="/skill/diplomacy">Diplomacy</Link> instead. You must use this ability after making the check but before the GM has revealed the result. If you continue threatening the target after making the check, the check automatically fails.</Pair>
 </Ability>
 </>};
 const _practiced_impression = {title: "Practiced Impression", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
@@ -2947,7 +3046,8 @@ const _practiced_impression = {title: "Practiced Impression", topLink: ["Race Tr
 <Pair single id="practiced-impression">Practiced Impression</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/suli">Suli</Link></Pair>
-<Pair single="benefit" id="practiced-impression-benefit">You traveled constantly in your youth, and were forced to practice making a good first impression until you could do so effortlessly. You gain a +2 trait bonus on Diplomacy checks made against NPCs whom you have known for less than 1 hour.</Pair>
+<Pair single="flavor" id="practiced-impression-flavor">You traveled constantly in your youth, and were forced to practice making a good first impression until you could do so effortlessly.</Pair>
+<Pair single="benefit" id="practiced-impression-benefit">You gain a +2 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks made against NPCs whom you have known for less than 1 hour.</Pair>
 </Ability>
 </>};
 const _secret_keeper_svirfneblin = {title: "Secret-Keeper (Svirfneblin)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2955,7 +3055,8 @@ const _secret_keeper_svirfneblin = {title: "Secret-Keeper (Svirfneblin)", topLin
 <Pair single id="secret-keeper-svirfneblin">Secret-Keeper (Svirfneblin)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/svirfneblin">Svirfneblin</Link></Pair>
-<Pair single="benefit" id="secret-keeper-svirfneblin-benefit">You trained from birth to never reveal secrets and never betray anyone's trust. You gain a +2 trait bonus on saving throws against divinations or enchantments that would compel you to reveal a secret or allow anyone to read your mind.</Pair>
+<Pair single="flavor" id="secret-keeper-svirfneblin-flavor">You trained from birth to never reveal secrets and never betray anyone's trust.</Pair>
+<Pair single="benefit" id="secret-keeper-svirfneblin-benefit">You gain a +2 trait bonus on saving throws against divinations or enchantments that would compel you to reveal a secret or allow anyone to read your mind.</Pair>
 </Ability>
 </>};
 const _aerial_observer = {title: "Aerial Observer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
@@ -2963,7 +3064,8 @@ const _aerial_observer = {title: "Aerial Observer", topLink: ["Race Traits","mai
 <Pair single id="aerial-observer">Aerial Observer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/sylph">Sylph</Link></Pair>
-<Pair single="benefit" id="aerial-observer-benefit">You are practiced at noticing details from high up. You gain a +2 trait bonus on Perception checks while you are at least 30 feet above ground level.</Pair>
+<Pair single="flavor" id="aerial-observer-flavor">You are practiced at noticing details from high up.</Pair>
+<Pair single="benefit" id="aerial-observer-benefit">You gain a +2 trait bonus on <Link to="/skill/perception">Perception</Link> checks while you are at least 30 feet above ground level.</Pair>
 </Ability>
 </>};
 const _carrying_voice = {title: "Carrying Voice", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -2971,7 +3073,8 @@ const _carrying_voice = {title: "Carrying Voice", topLink: ["Race Traits","main/
 <Pair single id="carrying-voice">Carrying Voice</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/sylph">Sylph</Link></Pair>
-<Pair single="benefit" id="carrying-voice-benefit">You grew up amid powerful storms and mimicked the rolling thunder with your voice. Treat your caster level as 2 higher to determine the range of sonic spells and effects. Others do not suffer a penalty on Perception checks to hear your voice due to wind.</Pair>
+<Pair single="flavor" id="carrying-voice-flavor">You grew up amid powerful storms and mimicked the rolling thunder with your voice.</Pair>
+<Pair single="benefit" id="carrying-voice-benefit">Treat your caster level as 2 higher to determine the range of sonic spells and effects. Others do not suffer a penalty on <Link to="/skill/perception">Perception</Link> checks to hear your voice due to wind.</Pair>
 </Ability>
 </>};
 const _following_breeze = {title: "Following Breeze", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
@@ -2979,7 +3082,8 @@ const _following_breeze = {title: "Following Breeze", topLink: ["Race Traits","m
 <Pair single id="following-breeze">Following Breeze</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/sylph">Sylph</Link></Pair>
-<Pair single="benefit" id="following-breeze-benefit">You always seem to be chased by drafts of moving air, and know exactly the right moment and method to lift yourself upon the breezes. As long as you get a running start, you gain a +2 trait bonus on Acrobatics checks made to jump. Your speed increases by 5 feet when you use the run action.</Pair>
+<Pair single="flavor" id="following-breeze-flavor">You always seem to be chased by drafts of moving air, and know exactly the right moment and method to lift yourself upon the breezes.</Pair>
+<Pair single="benefit" id="following-breeze-benefit">As long as you get a running start, you gain a +2 trait bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks made to jump. Your speed increases by 5 feet when you use the <Link to="/rule/run">run</Link> action.</Pair>
 </Ability>
 </>};
 const _thunderborn = {title: "Thunderborn", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -2987,7 +3091,8 @@ const _thunderborn = {title: "Thunderborn", topLink: ["Race Traits","main/traits
 <Pair single id="thunderborn">Thunderborn</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/sylph">Sylph</Link></Pair>
-<Pair single="benefit" id="thunderborn-benefit">The rumble in your voice and the spark in your eyes hint at a lineage of lightning and thunder, possibly tracing back to lightning elementals from the Plane of Air, or else to a magic-touched birth during a powerful thunderstorm. Once per day when you cast a spell that deals electricity damage, you can choose to make half of the damage electricity damage and the other half sonic damage.</Pair>
+<Pair single="flavor" id="thunderborn-flavor">The rumble in your voice and the spark in your eyes hint at a lineage of lightning and thunder, possibly tracing back to lightning elementals from the Plane of Air, or else to a magic-touched birth during a powerful thunderstorm.</Pair>
+<Pair single="benefit" id="thunderborn-benefit">Once per day when you cast a spell that deals electricity damage, you can choose to make half of the damage electricity damage and the other half sonic damage.</Pair>
 </Ability>
 </>};
 const _wind_carried_voices = {title: "Wind-Carried Voices", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -2995,7 +3100,10 @@ const _wind_carried_voices = {title: "Wind-Carried Voices", topLink: ["Race Trai
 <Pair single id="wind-carried-voices">Wind-Carried Voices</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/sylph">Sylph</Link></Pair>
-<Pair single="benefit" id="wind-carried-voices-benefit">You are a master of seeing through falsehoods and sharing secrets - the wind itself seems to carry your voice to those you trust. You gain a +1 trait bonus on Sense Motive checks to tell when someone is lying to you. Additionally, at will, as long as you are outdoors or in an area where there is noticeable air movement, you can whisper to any creature from up to 30 feet away. You can only designate one person in sight to hear your voice, and nearby creatures can hear these messages with a successful DC 20 Perception check. This is an extraordinary ability that otherwise functions as message.</Pair>
+<Pair single="flavor" id="wind-carried-voices-flavor">You are a master of seeing through falsehoods and sharing secrets - the wind itself seems to carry your voice to those you trust.</Pair>
+<Pair single="benefit" id="wind-carried-voices-benefit"><p>You gain a +1 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks to tell when someone is lying to you.</p>
+<p>Additionally, at will, as long as you are outdoors or in an area where there is noticeable air movement, you can whisper to any creature from up to 30 feet away. You can only designate one person in sight to hear your voice, and nearby creatures can hear these messages with a successful DC 20 <Link to="/skill/perception">Perception</Link> check. This is an extraordinary ability that otherwise functions as message.</p>
+</Pair>
 </Ability>
 </>};
 const _winged_aloofness = {title: "Winged Aloofness", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -3003,7 +3111,8 @@ const _winged_aloofness = {title: "Winged Aloofness", topLink: ["Race Traits","m
 <Pair single id="winged-aloofness">Winged Aloofness</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/syrinx">Syrinx</Link></Pair>
-<Pair single="benefit" id="winged-aloofness-benefit">You learned from your syrinx elders that your race is better than non-winged races and you take care to keep above them physically as well. You gain a +2 trait bonus on Fly checks. This bonus increases to +4 on checks to avoid losing altitude when damaged.</Pair>
+<Pair single="flavor" id="winged-aloofness-flavor">You learned from your syrinx elders that your race is better than non-winged races and you take care to keep above them physically as well.</Pair>
+<Pair single="benefit" id="winged-aloofness-benefit">You gain a +2 trait bonus on <Link to="/skill/fly">Fly</Link> checks. This bonus increases to +4 on checks to avoid losing altitude when damaged.</Pair>
 </Ability>
 </>};
 const _seafaring_slayer = {title: "Seafaring Slayer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -3011,7 +3120,8 @@ const _seafaring_slayer = {title: "Seafaring Slayer", topLink: ["Race Traits","m
 <Pair single id="seafaring-slayer">Seafaring Slayer</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tengu">Tengu</Link></Pair>
-<Pair single="benefit" id="seafaring-slayer-benefit">At a vulnerable age, you survived an encounter with a monstrous sea creature. You reduce any foe's cover bonus to AC from water by 2.</Pair>
+<Pair single="flavor" id="seafaring-slayer-flavor">At a vulnerable age, you survived an encounter with a monstrous sea creature.</Pair>
+<Pair single="benefit" id="seafaring-slayer-benefit">You reduce any foe's <Link to="/rule/cover">cover</Link> bonus to AC from water by 2.</Pair>
 </Ability>
 </>};
 const _anticipate_evil = {title: "Anticipate Evil", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3019,7 +3129,8 @@ const _anticipate_evil = {title: "Anticipate Evil", topLink: ["Race Traits","mai
 <Pair single id="anticipate-evil">Anticipate Evil</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="anticipate-evil-benefit">You can read subtle clues in the body language of fiends, allowing you to react just a bit faster than normal when dealing with such beings. You gain a +1 trait bonus on opposed Dexterity-based skill checks against outsiders with the evil subtype. In addition, when your initiative is tied with such creatures, you always act first regardless of which of you has a higher initiative modifier.</Pair>
+<Pair single="flavor" id="anticipate-evil-flavor">You can read subtle clues in the body language of fiends, allowing you to react just a bit faster than normal when dealing with such beings.</Pair>
+<Pair single="benefit" id="anticipate-evil-benefit">You gain a +1 trait bonus on opposed Dexterity-based skill checks against outsiders with the evil subtype. In addition, when your initiative is tied with such creatures, you always act first regardless of which of you has a higher initiative modifier.</Pair>
 </Ability>
 </>};
 const _beast_bully = {title: "Beast Bully", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3027,7 +3138,8 @@ const _beast_bully = {title: "Beast Bully", topLink: ["Race Traits","main/traits
 <Pair single id="beast-bully">Beast Bully</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="beast-bully-benefit">You have learned how to exploit the fear felt by creatures of the natural world when they sense the shadow in your soul. You can make an Intimidate check instead of a Handle Animal check when trying to handle or push an animal.</Pair>
+<Pair single="flavor" id="beast-bully-flavor">You have learned how to exploit the fear felt by creatures of the natural world when they sense the shadow in your soul.</Pair>
+<Pair single="benefit" id="beast-bully-benefit">You can make an <Link to="/skill/intimidate">Intimidate</Link> check instead of a <Link to="/skill/handle_animal">Handle Animal</Link> check when trying to handle or push an animal.</Pair>
 </Ability>
 </>};
 const _blessing_of_darkness = {title: "Blessing of Darkness", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3035,7 +3147,8 @@ const _blessing_of_darkness = {title: "Blessing of Darkness", topLink: ["Race Tr
 <Pair single id="blessing-of-darkness">Blessing of Darkness</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="blessing-of-darkness-benefit">Your innate connection with the powers of darkness serves you well when evil zealots pray on your behalf. Whenever a spellcaster capable of channeling negative energy casts a beneficial spell on you, she acts as if she were one level higher for the purpose of determining that spell's effects.</Pair>
+<Pair single="flavor" id="blessing-of-darkness-flavor">Your innate connection with the powers of darkness serves you well when evil zealots pray on your behalf.</Pair>
+<Pair single="benefit" id="blessing-of-darkness-benefit">Whenever a spellcaster capable of channeling negative energy casts a beneficial spell on you, she acts as if she were one level higher for the purpose of determining that spell's effects.</Pair>
 </Ability>
 </>};
 const _born_damned = {title: "Born Damned", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3043,7 +3156,8 @@ const _born_damned = {title: "Born Damned", topLink: ["Race Traits","main/traits
 <Pair single id="born-damned">Born Damned</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="born-damned-benefit">The inherent sacrilege that taints your soul sometimes crowds out lesser banes. You gain a +2 trait bonus on saving throws against curses and magical effects that produce curses.</Pair>
+<Pair single="flavor" id="born-damned-flavor">The inherent sacrilege that taints your soul sometimes crowds out lesser banes.</Pair>
+<Pair single="benefit" id="born-damned-benefit">You gain a +2 trait bonus on saving throws against curses and magical effects that produce curses.</Pair>
 </Ability>
 </>};
 const _dark_magic_affinity = {title: "Dark Magic Affinity", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3051,7 +3165,8 @@ const _dark_magic_affinity = {title: "Dark Magic Affinity", topLink: ["Race Trai
 <Pair single id="dark-magic-affinity">Dark Magic Affinity</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="dark-magic-affinity-benefit">You have an instinctive talent for unleashing the vilest spells, letting the taint in your blood empower your malicious magic. Whenever you cast a spell with the evil descriptor, you act as if you were one level higher for the purpose of determining that spell's effects.</Pair>
+<Pair single="flavor" id="dark-magic-affinity-flavor">You have an instinctive talent for unleashing the vilest spells, letting the taint in your blood empower your malicious magic.</Pair>
+<Pair single="benefit" id="dark-magic-affinity-benefit">Whenever you cast a spell with the evil descriptor, you act as if you were one level higher for the purpose of determining that spell's effects.</Pair>
 </Ability>
 </>};
 const _enduring_heritage = {title: "Enduring Heritage", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
@@ -3059,7 +3174,7 @@ const _enduring_heritage = {title: "Enduring Heritage", topLink: ["Race Traits",
 <Pair single id="enduring-heritage">Enduring Heritage</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="enduring-heritage-benefit">You can channel your evil ancestry to take advantage of any effects for which such an identity would matter (such as <Link to="/spell/detect_evil">detect evil</Link>). You detect as an evil outsider with the same number of HD as you possess. You can begin or end this effect as a swift action. You can maintain this effect for a number of rounds per day equal to your HD.</Pair>
+<Pair single="benefit" id="enduring-heritage-benefit">You can channel your evil ancestry to take advantage of any effects for which such an identity would matter (such as <Link to="/spell/detect_evil">detect evil</Link>). You detect as an evil outsider with the same number of HD as you possess. You can begin or end this effect as a <strong className="hl">swift action</strong>. You can maintain this effect for a number of rounds per day equal to your HD.</Pair>
 </Ability>
 </>};
 const _ever_wary = {title: "Ever Wary", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3067,7 +3182,8 @@ const _ever_wary = {title: "Ever Wary", topLink: ["Race Traits","main/traits_rac
 <Pair single id="ever-wary">Ever Wary</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="ever-wary-benefit">Constant fear that your fiendish nature might provoke a sudden attack ensures that you never completely let down your guard. During the surprise round and before your first action in combat, you can apply half your Dexterity bonus (if any) to your AC. You still count as flat-footed for the purposes of attacks and effects.</Pair>
+<Pair single="flavor" id="ever-wary-flavor">Constant fear that your fiendish nature might provoke a sudden attack ensures that you never completely let down your guard.</Pair>
+<Pair single="benefit" id="ever-wary-benefit">During the surprise round and before your first action in combat, you can apply half your Dexterity bonus (if any) to your AC. You still count as <Link to="/rule/flat_footed">flat-footed</Link> for the purposes of attacks and effects.</Pair>
 </Ability>
 </>};
 const _family_connections = {title: "Family Connections", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3075,7 +3191,8 @@ const _family_connections = {title: "Family Connections", topLink: ["Race Traits
 <Pair single id="family-connections">Family Connections</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="family-connections-benefit">Your dark ancestry gives you a special insight into how to motivate or placate fiends and their kin. You gain a +2 trait bonus on Bluff and Diplomacy checks made against outsiders belonging to the evil subtype.</Pair>
+<Pair single="flavor" id="family-connections-flavor">Your dark ancestry gives you a special insight into how to motivate or placate fiends and their kin.</Pair>
+<Pair single="benefit" id="family-connections-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/diplomacy">Diplomacy</Link> checks made against outsiders belonging to the evil subtype.</Pair>
 </Ability>
 </>};
 const _fiendish_sniper = {title: "Fiendish Sniper", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox</Link></p>
@@ -3083,7 +3200,8 @@ const _fiendish_sniper = {title: "Fiendish Sniper", topLink: ["Race Traits","mai
 <Pair single id="fiendish-sniper">Fiendish Sniper</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="fiendish-sniper-benefit">You instinctively hide after you shoot your opponents, waiting for an opportune moment to strike again. You gain a +5 trait bonus on Stealth checks following a sniping attack.</Pair>
+<Pair single="flavor" id="fiendish-sniper-flavor">You instinctively hide after you shoot your opponents, waiting for an opportune moment to strike again.</Pair>
+<Pair single="benefit" id="fiendish-sniper-benefit">You gain a +5 trait bonus on <Link to="/skill/stealth">Stealth</Link> checks following a sniping attack.</Pair>
 </Ability>
 </>};
 const _friendless = {title: "Friendless", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3091,7 +3209,8 @@ const _friendless = {title: "Friendless", topLink: ["Race Traits","main/traits_r
 <Pair single id="friendless">Friendless</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="friendless-benefit">You have grown used to looking after yourself without help. You can make Heal checks on yourself for the purposes of treating deadly wounds, diseases, and poisons.</Pair>
+<Pair single="flavor" id="friendless-flavor">You have grown used to looking after yourself without help.</Pair>
+<Pair single="benefit" id="friendless-benefit">You can make <Link to="/skill/heal">Heal</Link> checks on yourself for the purposes of treating deadly wounds, diseases, and poisons.</Pair>
 </Ability>
 </>};
 const _hard_to_pin_down = {title: "Hard to Pin Down", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -3099,7 +3218,8 @@ const _hard_to_pin_down = {title: "Hard to Pin Down", topLink: ["Race Traits","m
 <Pair single id="hard-to-pin-down">Hard to Pin Down</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="hard-to-pin-down-benefit">Only more pressing dangers kept bullies from victimizing you. You gain a +2 trait bonus to AC against attacks of opportunity made by opponents whom you flank and opponents denied their Dexterity bonus to AC against you.</Pair>
+<Pair single="flavor" id="hard-to-pin-down-flavor">Only more pressing dangers kept bullies from victimizing you.</Pair>
+<Pair single="benefit" id="hard-to-pin-down-benefit">You gain a +2 trait bonus to AC against attacks of opportunity made by opponents whom you <Link to="/rule/flank">flank</Link> and opponents denied their Dexterity bonus to AC against you.</Pair>
 </Ability>
 </>};
 const _inciter_tiefling = {title: "Inciter (Tiefling)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3107,7 +3227,8 @@ const _inciter_tiefling = {title: "Inciter (Tiefling)", topLink: ["Race Traits",
 <Pair single id="inciter-tiefling">Inciter (Tiefling)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="inciter-tiefling-benefit">You always seem to know the perfect words to sow discord. You gain a +2 trait bonus on Bluff checks made to convince creatures to attack each other.</Pair>
+<Pair single="flavor" id="inciter-tiefling-flavor">You always seem to know the perfect words to sow discord.</Pair>
+<Pair single="benefit" id="inciter-tiefling-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> checks made to convince creatures to attack each other.</Pair>
 </Ability>
 </>};
 const _malign_instrument = {title: "Malign Instrument", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/agents_of_evil">Agents of Evil</Link></p>
@@ -3123,7 +3244,8 @@ const _motherless = {title: "Motherless", topLink: ["Race Traits","main/traits_r
 <Pair single id="motherless">Motherless</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="motherless-benefit">Your birth killed your mother, and you learned, even before words, how to manipulate others into looking after you. You gain a +2 trait bonus on Bluff and Disguise checks made for the purpose of making you seem injured, sickly, or weak in some other way.</Pair>
+<Pair single="flavor" id="motherless-flavor">Your birth killed your mother, and you learned, even before words, how to manipulate others into looking after you.</Pair>
+<Pair single="benefit" id="motherless-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/disguise">Disguise</Link> checks made for the purpose of making you seem injured, sickly, or weak in some other way.</Pair>
 </Ability>
 </>};
 const _neutralizing_gut = {title: "Neutralizing Gut", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes</Link></p>
@@ -3131,7 +3253,8 @@ const _neutralizing_gut = {title: "Neutralizing Gut", topLink: ["Race Traits","m
 <Pair single id="neutralizing-gut">Neutralizing Gut</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="neutralizing-gut-benefit">Your fiendish heritage has made you more resilient to the many poisonous threats in wastelands. You gain a +2 trait bonus on saving throws against contact and inhaled poisons, and a +3 trait bonus on saving throws against ingested poisons.</Pair>
+<Pair single="flavor" id="neutralizing-gut-flavor">Your fiendish heritage has made you more resilient to the many poisonous threats in wastelands.</Pair>
+<Pair single="benefit" id="neutralizing-gut-benefit">You gain a +2 trait bonus on saving throws against contact and inhaled poisons, and a +3 trait bonus on saving throws against ingested poisons.</Pair>
 </Ability>
 </>};
 const _persecuted_expatriate = {title: "Persecuted Expatriate", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -3139,7 +3262,8 @@ const _persecuted_expatriate = {title: "Persecuted Expatriate", topLink: ["Race 
 <Pair single id="persecuted-expatriate">Persecuted Expatriate</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="persecuted-expatriate-benefit">You were born in a nation that persecuted you for your heritage. Although you were under terrible duress, you escaped either with the aid of family or by your own cunning. You gain a +1 bonus on one skill depending on your fiendish heritage: asura (Knowledge [local]), daemon (Sleight of Hand), demodand (Intimidate), demon (Perception), devil (Sense Motive), div (Diplomacy), kyton (Escape Artist), oni (Disguise), qlippoth (Survival), or rakshasa (Sense Motive). That skill is always a class skill for you.</Pair>
+<Pair single="flavor" id="persecuted-expatriate-flavor">You were born in a nation that persecuted you for your heritage. Although you were under terrible duress, you escaped either with the aid of family or by your own cunning.</Pair>
+<Pair single="benefit" id="persecuted-expatriate-benefit">You gain a +1 bonus on one skill depending on your fiendish heritage: asura (<Link to="/skill/knowledge_local">Knowledge (local)</Link>), daemon (<Link to="/skill/sleight_of_hand">Sleight of Hand</Link>), demodand (<Link to="/skill/intimidate">Intimidate</Link>), demon (<Link to="/skill/perception">Perception</Link>), devil (<Link to="/skill/sense_motive">Sense Motive</Link>), div (<Link to="/skill/diplomacy">Diplomacy</Link>), kyton (<Link to="/skill/escape_artist">Escape Artist</Link>), oni (<Link to="/skill/disguise">Disguise</Link>), qlippoth (<Link to="/skill/survival">Survival</Link>), or rakshasa (Sense Motive). That skill is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _prideful_temper = {title: "Prideful Temper", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3147,7 +3271,8 @@ const _prideful_temper = {title: "Prideful Temper", topLink: ["Race Traits","mai
 <Pair single id="prideful-temper">Prideful Temper</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="prideful-temper-benefit">Memories of the cruel abuse and taunts you suffered as a child cause you to strike back with great fury at anyone who slanders you. You gain a +1 trait bonus on attack rolls made against creatures that have insulted you until you actually succeed in dealing damage.</Pair>
+<Pair single="flavor" id="prideful-temper-flavor">Memories of the cruel abuse and taunts you suffered as a child cause you to strike back with great fury at anyone who slanders you.</Pair>
+<Pair single="benefit" id="prideful-temper-benefit">You gain a +1 trait bonus on attack rolls made against creatures that have insulted you until you actually succeed in dealing damage.</Pair>
 </Ability>
 </>};
 const _prolong_magic = {title: "Prolong Magic", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3155,7 +3280,8 @@ const _prolong_magic = {title: "Prolong Magic", topLink: ["Race Traits","main/tr
 <Pair single id="prolong-magic">Prolong Magic</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="prolong-magic-benefit">Constant drills and preparation allow you to get more out of your innate magic. Whenever you use a spell-like ability gained through your tiefling heritage, it automatically acts as if affected by the <Link to="/feat/extend_spell">Extend Spell</Link> metamagic feat.</Pair>
+<Pair single="flavor" id="prolong-magic-flavor">Constant drills and preparation allow you to get more out of your innate magic.</Pair>
+<Pair single="benefit" id="prolong-magic-benefit">Whenever you use a spell-like ability gained through your tiefling heritage, it automatically acts as if affected by the <Link to="/feat/extend_spell">Extend Spell</Link> metamagic feat.</Pair>
 </Ability>
 </>};
 const _shadow_stabber = {title: "Shadow Stabber", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3163,7 +3289,8 @@ const _shadow_stabber = {title: "Shadow Stabber", topLink: ["Race Traits","main/
 <Pair single id="shadow-stabber">Shadow Stabber</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="shadow-stabber-benefit">An instinct for dishonorable conduct serves you well when fighting opponents who are blind, oblivious, or blundering around in the dark. You gain a +2 trait bonus on melee weapon damage rolls made against foes that cannot see you.</Pair>
+<Pair single="flavor" id="shadow-stabber-flavor">An instinct for dishonorable conduct serves you well when fighting opponents who are blind, oblivious, or blundering around in the dark.</Pair>
+<Pair single="benefit" id="shadow-stabber-benefit">You gain a +2 trait bonus on melee weapon damage rolls made against foes that cannot see you.</Pair>
 </Ability>
 </>};
 const _suicidal = {title: "Suicidal", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3171,7 +3298,8 @@ const _suicidal = {title: "Suicidal", topLink: ["Race Traits","main/traits_race"
 <Pair single id="suicidal">Suicidal</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="suicidal-benefit">Shame and horror fill your subconscious, and you never stop looking for ways to grant yourself the peace of the grave. Once per day, as an immediate action, you can make yourself the target of any attack originally directed against a creature occupying an adjacent square.</Pair>
+<Pair single="flavor" id="suicidal-flavor">Shame and horror fill your subconscious, and you never stop looking for ways to grant yourself the peace of the grave.</Pair>
+<Pair single="benefit" id="suicidal-benefit">Once per day, as an <strong className="hl">immediate action</strong>, you can make yourself the target of any attack originally directed against a creature occupying an adjacent square.</Pair>
 </Ability>
 </>};
 const _tempters_tongue = {title: "Tempter's Tongue", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
@@ -3179,7 +3307,8 @@ const _tempters_tongue = {title: "Tempter's Tongue", topLink: ["Race Traits","ma
 <Pair single id="tempters-tongue">Tempter's Tongue</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="tempters-tongue-benefit">The blood of crafty, bargain-making fiends runs in your veins, and you have a talent for brokering deals of your own. You gain a +1 trait bonus on Diplomacy checks and on opposed Charisma checks to influence creatures you have charmed (such as with charm person).</Pair>
+<Pair single="flavor" id="tempters-tongue-flavor">The blood of crafty, bargain-making fiends runs in your veins, and you have a talent for brokering deals of your own.</Pair>
+<Pair single="benefit" id="tempters-tongue-benefit">You gain a +1 trait bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks and on opposed Charisma checks to influence creatures you have charmed (such as with <Link to="/spell/charm_person">charm person</Link>).</Pair>
 </Ability>
 </>};
 const _twilight_zeal = {title: "Twilight Zeal", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3187,7 +3316,8 @@ const _twilight_zeal = {title: "Twilight Zeal", topLink: ["Race Traits","main/tr
 <Pair single id="twilight-zeal">Twilight Zeal</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="twilight-zeal-benefit">The gloom of night and of the places beyond the reach of the sun gives you comfort and courage. You gain a +1 trait bonus on Will saving throws when in dim light or darkness.</Pair>
+<Pair single="flavor" id="twilight-zeal-flavor">The gloom of night and of the places beyond the reach of the sun gives you comfort and courage.</Pair>
+<Pair single="benefit" id="twilight-zeal-benefit">You gain a +1 trait bonus on Will saving throws when in <Link to="/rule/dim_light">dim light</Link> or darkness.</Pair>
 </Ability>
 </>};
 const _underling = {title: "Underling", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3195,7 +3325,8 @@ const _underling = {title: "Underling", topLink: ["Race Traits","main/traits_rac
 <Pair single id="underling">Underling</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link></Pair>
-<Pair single="benefit" id="underling-benefit">People tend to assume you either are, or are willing to become, a minor cog in some evil cabal or conspiracy. You gain a +2 trait bonus on Bluff and Diplomacy checks made to either join or imply that you already belong to an evil organization.</Pair>
+<Pair single="flavor" id="underling-flavor">People tend to assume you either are, or are willing to become, a minor cog in some evil cabal or conspiracy.</Pair>
+<Pair single="benefit" id="underling-benefit">You gain a +2 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/diplomacy">Diplomacy</Link> checks made to either join or imply that you already belong to an evil organization.</Pair>
 </Ability>
 </>};
 const _bent_body = {title: "Bent Body", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3203,7 +3334,8 @@ const _bent_body = {title: "Bent Body", topLink: ["Race Traits","main/traits_rac
 <Pair single id="bent-body">Bent Body</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Beastbrood</Pair>
-<Pair single="benefit" id="bent-body-benefit">While nothing is actually reversed, your bones and limbs are slightly out of alignment. You gain a +2 trait bonus to CMD when resisting grapple attempts.</Pair>
+<Pair single="flavor" id="bent-body-flavor">While nothing is actually reversed, your bones and limbs are slightly out of alignment.</Pair>
+<Pair single="benefit" id="bent-body-benefit">You gain a +2 trait bonus to CMD when resisting <Link to="/rule/grapple">grapple</Link> attempts.</Pair>
 </Ability>
 </>};
 const _tough_skin = {title: "Tough Skin", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3211,7 +3343,8 @@ const _tough_skin = {title: "Tough Skin", topLink: ["Race Traits","main/traits_r
 <Pair single id="tough-skin">Tough Skin</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Beastbrood</Pair>
-<Pair single="benefit" id="tough-skin-benefit">You retain a small amount of your ancestors' unyielding skin. You gain a +1 trait bonus to AC when opponents attempt to confirm critical hits with either bludgeoning or slashing weapons.</Pair>
+<Pair single="flavor" id="tough-skin-flavor">You retain a small amount of your ancestors' unyielding skin.</Pair>
+<Pair single="benefit" id="tough-skin-benefit">You gain a +1 trait bonus to AC when opponents attempt to confirm critical hits with either bludgeoning or slashing weapons.</Pair>
 </Ability>
 </>};
 const _arms_master = {title: "Arms Master", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3219,7 +3352,8 @@ const _arms_master = {title: "Arms Master", topLink: ["Race Traits","main/traits
 <Pair single id="arms-master">Arms Master</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Faultspawn</Pair>
-<Pair single="benefit" id="arms-master-benefit">The legendary battle prowess of your ancestors ensures that you have a certain amount of innate martial skill. You take a -2 penalty on attack rolls made with weapons with which you are not proficient instead of the normal -4.</Pair>
+<Pair single="flavor" id="arms-master-flavor">The legendary battle prowess of your ancestors ensures that you have a certain amount of innate martial skill.</Pair>
+<Pair single="benefit" id="arms-master-benefit">You take a -2 penalty on attack rolls made with weapons with which you are not proficient instead of the normal -4.</Pair>
 </Ability>
 </>};
 const _prayer_breaker = {title: "Prayer Breaker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3227,7 +3361,8 @@ const _prayer_breaker = {title: "Prayer Breaker", topLink: ["Race Traits","main/
 <Pair single id="prayer-breaker">Prayer Breaker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Faultspawn</Pair>
-<Pair single="benefit" id="prayer-breaker-benefit">You have an instinctive flair for causing such pain to the faithful that they temporarily lose their connection with their god. If a divine spellcaster makes a <Link to="/rule/concentration">concentration</Link> check to avoid losing a spell because of an injury you caused, increase the DC of that check by +2.</Pair>
+<Pair single="flavor" id="prayer-breaker-flavor">You have an instinctive flair for causing such pain to the faithful that they temporarily lose their connection with their god.</Pair>
+<Pair single="benefit" id="prayer-breaker-benefit">If a divine spellcaster makes a <Link to="/rule/concentration">concentration</Link> check to avoid losing a spell because of an injury you caused, increase the DC of that check by +2.</Pair>
 </Ability>
 </>};
 const _god_scorn = {title: "God Scorn", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3235,7 +3370,8 @@ const _god_scorn = {title: "God Scorn", topLink: ["Race Traits","main/traits_rac
 <Pair single id="god-scorn">God Scorn</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Foulspawn</Pair>
-<Pair single="benefit" id="god-scorn-benefit">Your contempt for the gods and their sad little priests makes it easier to shake off the effects of their prayers. You gain a +1 trait bonus on saving throws against divine spells.</Pair>
+<Pair single="flavor" id="god-scorn-flavor">Your contempt for the gods and their sad little priests makes it easier to shake off the effects of their prayers.</Pair>
+<Pair single="benefit" id="god-scorn-benefit">You gain a +1 trait bonus on saving throws against divine spells.</Pair>
 </Ability>
 </>};
 const _repulsive = {title: "Repulsive", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3243,7 +3379,8 @@ const _repulsive = {title: "Repulsive", topLink: ["Race Traits","main/traits_rac
 <Pair single id="repulsive">Repulsive</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Foulspawn</Pair>
-<Pair single="benefit" id="repulsive-benefit">Your repulsiveness causes people to almost instinctively shy away from making physical contact with you. You gain a +1 trait bonus on combat maneuver checks made to overrun and reposition opponents.</Pair>
+<Pair single="flavor" id="repulsive-flavor">Your repulsiveness causes people to almost instinctively shy away from making physical contact with you.</Pair>
+<Pair single="benefit" id="repulsive-benefit">You gain a +1 trait bonus on combat maneuver checks made to <Link to="/rule/overrun">overrun</Link> and <Link to="/rule/reposition">reposition</Link> opponents.</Pair>
 </Ability>
 </>};
 const _deaths_deputy = {title: "Death's Deputy", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3251,7 +3388,8 @@ const _deaths_deputy = {title: "Death's Deputy", topLink: ["Race Traits","main/t
 <Pair single id="deaths-deputy">Death's Deputy</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Grimspawn</Pair>
-<Pair single="benefit" id="deaths-deputy-benefit">When you send opponents to death's door, you often hurl their corpses right across its threshold. You gain a +2 trait bonus on the damage dealt for any attack that would already reduce your target to negative hit points without this trait.</Pair>
+<Pair single="flavor" id="deaths-deputy-flavor">When you send opponents to death's door, you often hurl their corpses right across its threshold.</Pair>
+<Pair single="benefit" id="deaths-deputy-benefit">You gain a +2 trait bonus on the damage dealt for any attack that would already reduce your target to negative hit points without this trait.</Pair>
 </Ability>
 </>};
 const _soul_eater = {title: "Soul Eater", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3259,7 +3397,8 @@ const _soul_eater = {title: "Soul Eater", topLink: ["Race Traits","main/traits_r
 <Pair single id="soul-eater">Soul Eater</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Grimspawn</Pair>
-<Pair single="benefit" id="soul-eater-benefit">The act of murder allows you to draw vitality from fleeing souls. Whenever you use a coup de grace action to kill a creature (either by damage or through a failed Fortitude save), you gain a number of temporary hit points equal to half your character level (minimum 1) for 1 minute. These temporary hit points do not stack with multiple coups de grace.</Pair>
+<Pair single="flavor" id="soul-eater-flavor">The act of murder allows you to draw vitality from fleeing souls.</Pair>
+<Pair single="benefit" id="soul-eater-benefit">Whenever you use a <Link to="/misc/coup_de_grace">coup de grace</Link> action to kill a creature (either by damage or through a failed Fortitude save), you gain a number of <Link to="/rule/temporary_hit_points">temporary hit points</Link> equal to half your character level (minimum 1) for 1 minute. These temporary hit points do not stack with multiple <em>coups de grace.</em></Pair>
 </Ability>
 </>};
 const _blood_stalker = {title: "Blood Stalker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3267,7 +3406,8 @@ const _blood_stalker = {title: "Blood Stalker", topLink: ["Race Traits","main/tr
 <Pair single id="blood-stalker">Blood Stalker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Hellspawn</Pair>
-<Pair single="benefit" id="blood-stalker-benefit">Some infernal instinct makes it much easier for you to locate creatures whose blood you have drawn. You gain a +4 trait bonus on Survival checks made to track or follow a trail so long as you have dealt damage to the creature you are hunting within the last week.</Pair>
+<Pair single="flavor" id="blood-stalker-flavor">Some infernal instinct makes it much easier for you to locate creatures whose blood you have drawn.</Pair>
+<Pair single="benefit" id="blood-stalker-benefit">You gain a +4 trait bonus on <Link to="/skill/survival">Survival</Link> checks made to track or follow a trail so long as you have dealt damage to the creature you are hunting within the last week.</Pair>
 </Ability>
 </>};
 const _unearth_secrets = {title: "Unearth Secrets", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3275,7 +3415,8 @@ const _unearth_secrets = {title: "Unearth Secrets", topLink: ["Race Traits","mai
 <Pair single id="unearth-secrets">Unearth Secrets</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Hellspawn</Pair>
-<Pair single="benefit" id="unearth-secrets-benefit">You have a gift for recognizing secret desires. You gain a +2 trait bonus on Sense Motive checks when trying to get a hunch that might reveal a target's hidden vice, dark impulse, or any other craving it would not want publicly revealed.</Pair>
+<Pair single="flavor" id="unearth-secrets-flavor">You have a gift for recognizing secret desires.</Pair>
+<Pair single="benefit" id="unearth-secrets-benefit">You gain a +2 trait bonus on <Link to="/skill/sense_motive">Sense Motive</Link> checks when trying to get a hunch that might reveal a target's hidden vice, dark impulse, or any other craving it would not want publicly revealed.</Pair>
 </Ability>
 </>};
 const _big_boned = {title: "Big Boned", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3283,7 +3424,8 @@ const _big_boned = {title: "Big Boned", topLink: ["Race Traits","main/traits_rac
 <Pair single id="big-boned">Big Boned</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Hungerseed</Pair>
-<Pair single="benefit" id="big-boned-benefit">Your ancestors' great size has gifted you with an exceptionally sturdy frame. You gain a +1 trait bonus on combat maneuver checks made to overrun opponents, as well as a +1 trait bonus to your CMD against trip attempts.</Pair>
+<Pair single="flavor" id="big-boned-flavor">Your ancestors' great size has gifted you with an exceptionally sturdy frame.</Pair>
+<Pair single="benefit" id="big-boned-benefit">You gain a +1 trait bonus on combat maneuver checks made to <Link to="/rule/overrun">overrun</Link> opponents, as well as a +1 trait bonus to your CMD against <Link to="/rule/trip">trip</Link> attempts.</Pair>
 </Ability>
 </>};
 const _superior_clutch = {title: "Superior Clutch", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3291,7 +3433,8 @@ const _superior_clutch = {title: "Superior Clutch", topLink: ["Race Traits","mai
 <Pair single id="superior-clutch">Superior Clutch</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Hungerseed</Pair>
-<Pair single="benefit" id="superior-clutch-benefit">Your hands not only are bigger than normal, but also have a strong grip useful for wielding large weapons. You gain a +1 trait bonus on damage rolls when using weapons intended for creatures of a larger size.</Pair>
+<Pair single="flavor" id="superior-clutch-flavor">Your hands not only are bigger than normal, but also have a strong grip useful for wielding large weapons.</Pair>
+<Pair single="benefit" id="superior-clutch-benefit">You gain a +1 trait bonus on damage rolls when using weapons intended for creatures of a larger size.</Pair>
 </Ability>
 </>};
 const _deadly_rush = {title: "Deadly Rush", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3299,7 +3442,8 @@ const _deadly_rush = {title: "Deadly Rush", topLink: ["Race Traits","main/traits
 <Pair single id="deadly-rush">Deadly Rush</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Pitborn</Pair>
-<Pair single="benefit" id="deadly-rush-benefit">When you hurl yourself against a foe with reckless abandon, you often land particularly telling blows. You gain a +2 trait bonus on critical hit confirmation rolls made as part of a charge.</Pair>
+<Pair single="flavor" id="deadly-rush-flavor">When you hurl yourself against a foe with reckless abandon, you often land particularly telling blows.</Pair>
+<Pair single="benefit" id="deadly-rush-benefit">You gain a +2 trait bonus on critical hit confirmation rolls made as part of a <Link to="/rule/charge">charge</Link>.</Pair>
 </Ability>
 </>};
 const _flair_for_destruction = {title: "Flair for Destruction", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3307,7 +3451,8 @@ const _flair_for_destruction = {title: "Flair for Destruction", topLink: ["Race 
 <Pair single id="flair-for-destruction">Flair for Destruction</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Pitborn</Pair>
-<Pair single="benefit" id="flair-for-destruction-benefit">You have a talent for striking objects at their weakest points. You gain a +1 trait bonus on weapon damage rolls made against objects and constructs.</Pair>
+<Pair single="flavor" id="flair-for-destruction-flavor">You have a talent for striking objects at their weakest points.</Pair>
+<Pair single="benefit" id="flair-for-destruction-benefit">You gain a +1 trait bonus on weapon damage rolls made against objects and constructs.</Pair>
 </Ability>
 </>};
 const _chain_master = {title: "Chain Master", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3315,7 +3460,8 @@ const _chain_master = {title: "Chain Master", topLink: ["Race Traits","main/trai
 <Pair single id="chain-master">Chain Master</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Shackleborn</Pair>
-<Pair single="benefit" id="chain-master-benefit">Your fiendish ancestry has granted you unnatural skill with the chain, and your enemies know to stay away when you wield it as a weapon. You gain a +2 trait bonus on combat maneuver checks made to trip opponents with a spiked chain or whip.</Pair>
+<Pair single="flavor" id="chain-master-flavor">Your fiendish ancestry has granted you unnatural skill with the chain, and your enemies know to stay away when you wield it as a weapon.</Pair>
+<Pair single="benefit" id="chain-master-benefit">You gain a +2 trait bonus on combat maneuver checks made to <Link to="/rule/trip">trip</Link> opponents with a <Link to="/eq-weapon/spiked_chain">spiked chain</Link> or <Link to="/eq-weapon/whip">whip</Link>.</Pair>
 </Ability>
 </>};
 const _pain_artist = {title: "Pain Artist", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3323,7 +3469,8 @@ const _pain_artist = {title: "Pain Artist", topLink: ["Race Traits","main/traits
 <Pair single id="pain-artist">Pain Artist</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Shackleborn</Pair>
-<Pair single="benefit" id="pain-artist-benefit">Some trace of your kyton heritage makes people realize you are capable of anything, especially when they are bound and at your mercy. You gain a +2 trait bonus on Intimidate checks made against helpless creatures.</Pair>
+<Pair single="flavor" id="pain-artist-flavor">Some trace of your kyton heritage makes people realize you are capable of anything, especially when they are bound and at your mercy.</Pair>
+<Pair single="benefit" id="pain-artist-benefit">You gain a +2 trait bonus on <Link to="/skill/intimidate">Intimidate</Link> checks made against <Link to="/misc/helpless">helpless</Link> creatures.</Pair>
 </Ability>
 </>};
 const _buried_anxiety = {title: "Buried Anxiety", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3339,7 +3486,8 @@ const _shift_the_blame = {title: "Shift the Blame", topLink: ["Race Traits","mai
 <Pair single id="shift-the-blame">Shift the Blame</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; Spitespawn</Pair>
-<Pair single="benefit" id="shift-the-blame-benefit">You have learned many tricks to keep yourself from facing the consequences of your misdeeds. You gain a +1 trait bonus on Bluff and Diplomacy checks made to convince someone that another person is actually at fault for your actions.</Pair>
+<Pair single="flavor" id="shift-the-blame-flavor">You have learned many tricks to keep yourself from facing the consequences of your misdeeds.</Pair>
+<Pair single="benefit" id="shift-the-blame-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/diplomacy">Diplomacy</Link> checks made to convince someone that another person is actually at fault for your actions.</Pair>
 </Ability>
 </>};
 const _repel_sin = {title: "Repel Sin", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3347,7 +3495,8 @@ const _repel_sin = {title: "Repel Sin", topLink: ["Race Traits","main/traits_rac
 <Pair single id="repel-sin">Repel Sin</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; The Motherless</Pair>
-<Pair single="benefit" id="repel-sin-benefit">You have an instinctive revulsion for the sins that led to the rise of demons and subsequent downfall of qlippoth. You gain a +2 trait bonus on saving throws made against spells and effects with the evil descriptor.</Pair>
+<Pair single="flavor" id="repel-sin-flavor">You have an instinctive revulsion for the sins that led to the rise of demons and subsequent downfall of qlippoth.</Pair>
+<Pair single="benefit" id="repel-sin-benefit">You gain a +2 trait bonus on saving throws made against spells and effects with the evil descriptor.</Pair>
 </Ability>
 </>};
 const _vile_kiss = {title: "Vile Kiss", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends</Link></p>
@@ -3355,7 +3504,8 @@ const _vile_kiss = {title: "Vile Kiss", topLink: ["Race Traits","main/traits_rac
 <Pair single id="vile-kiss">Vile Kiss</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/tiefling">Tiefling</Link>; The Motherless</Pair>
-<Pair single="benefit" id="vile-kiss-benefit">You have learned how to exploit the natural disgust you provoke when in close proximity to others. You gain a +2 trait bonus on combat maneuver checks to perform a dirty trick combat maneuver for the purpose of making your opponent sickened.</Pair>
+<Pair single="flavor" id="vile-kiss-flavor">You have learned how to exploit the natural disgust you provoke when in close proximity to others.</Pair>
+<Pair single="benefit" id="vile-kiss-benefit">You gain a +2 trait bonus on combat maneuver checks to perform a <Link to="/rule/dirty_trick">dirty trick</Link> combat maneuver for the purpose of making your opponent <Link to="/misc/sickened">sickened</Link>.</Pair>
 </Ability>
 </>};
 const _dragon_friend = {title: "Dragon Friend", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -3363,7 +3513,8 @@ const _dragon_friend = {title: "Dragon Friend", topLink: ["Race Traits","main/tr
 <Pair single id="dragon-friend">Dragon Friend</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/triaxian">Triaxian</Link></Pair>
-<Pair single="benefit" id="dragon-friend-benefit">You know how dragons move and how they perceive body language. You gain a +1 trait bonus to your CMD against dragons, and whenever you encounter a particular dragon for the first time, you can make a Diplomacy check to improve its attitude toward you by a maximum of one step as a full-round action as long as you have not acted in a hostile manner toward it.</Pair>
+<Pair single="flavor" id="dragon-friend-flavor">You know how dragons move and how they perceive body language.</Pair>
+<Pair single="benefit" id="dragon-friend-benefit">You gain a +1 trait bonus to your CMD against dragons, and whenever you encounter a particular dragon for the first time, you can make a <Link to="/skill/diplomacy">Diplomacy</Link> check to improve its attitude toward you by a maximum of one step as a <strong className="hl">full-round action</strong> as long as you have not acted in a hostile manner toward it.</Pair>
 </Ability>
 </>};
 const _transitional = {title: "Transitional", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
@@ -3371,7 +3522,8 @@ const _transitional = {title: "Transitional", topLink: ["Race Traits","main/trai
 <Pair single id="transitional">Transitional</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/triaxian">Triaxian</Link></Pair>
-<Pair single="benefit" id="transitional-benefit">As a Transitional Triaxian, you are attuned to the weather no matter what world you stand upon. Once per day when you attempt a Survival check to predict the weather, you can add a trait bonus equal to 3 + 1/2 your character level. In addition, you gain a +1 trait bonus on Fortitude saves against the effects of cold and hot weather.</Pair>
+<Pair single="flavor" id="transitional-flavor">As a Transitional Triaxian, you are attuned to the weather no matter what world you stand upon.</Pair>
+<Pair single="benefit" id="transitional-benefit">Once per day when you attempt a <Link to="/skill/survival">Survival</Link> check to predict the weather, you can add a trait bonus equal to 3 + 1/2 your character level. In addition, you gain a +1 trait bonus on Fortitude saves against the effects of cold and hot weather.</Pair>
 </Ability>
 </>};
 const _triaxian_dragonslayer = {title: "Triaxian Dragonslayer", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars</Link></p>
@@ -3387,7 +3539,8 @@ const _magic_survivor = {title: "Magic Survivor", topLink: ["Race Traits","main/
 <Pair single id="magic-survivor">Magic Survivor</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/trox">Trox</Link></Pair>
-<Pair single="benefit" id="magic-survivor-benefit">You fought off devious magic in order to escape duergar captors. Choose two of Fortitude, Reflex, or Will saves. You gain a +1 trait bonus on saves of the types you chose against spells and spell-like abilities, and you take a -1 penalty on all saves of the remaining type.</Pair>
+<Pair single="flavor" id="magic-survivor-flavor">You fought off devious magic in order to escape duergar captors.</Pair>
+<Pair single="benefit" id="magic-survivor-benefit">Choose two of Fortitude, Reflex, or Will saves. You gain a +1 trait bonus on saves of the types you chose against spells and spell-like abilities, and you take a -1 penalty on all saves of the remaining type.</Pair>
 </Ability>
 </>};
 const _marids_fury = {title: "Marid's Fury", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -3395,7 +3548,8 @@ const _marids_fury = {title: "Marid's Fury", topLink: ["Race Traits","main/trait
 <Pair single id="marids-fury">Marid's Fury</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/undine">Undine</Link></Pair>
-<Pair single="benefit" id="marids-fury-benefit">Your marid ancestry is particularly strong, and magic runs thick through your veins. When you use your hydraulic push spell-like ability, it can extinguish magical fires as well as nonmagical fires as long as you succeed at an opposed caster level check (the DC is equal to 11 + the magical fire's caster level).</Pair>
+<Pair single="flavor" id="marids-fury-flavor">Your marid ancestry is particularly strong, and magic runs thick through your veins.</Pair>
+<Pair single="benefit" id="marids-fury-benefit">When you use your <Link to="/spell/hydraulic_push">hydraulic push</Link> spell-like ability, it can extinguish magical fires as well as nonmagical fires as long as you succeed at an opposed caster level check (the DC is equal to 11 + the magical fire's caster level).</Pair>
 </Ability>
 </>};
 const _slippery_step = {title: "Slippery Step", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/people_of_the_sands">People of the Sands</Link></p>
@@ -3403,7 +3557,8 @@ const _slippery_step = {title: "Slippery Step", topLink: ["Race Traits","main/tr
 <Pair single id="slippery-step">Slippery Step</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/undine">Undine</Link></Pair>
-<Pair single="benefit" id="slippery-step-benefit">You are used to walking on wet and slippery surfaces. You are always considered to have firm footing when fighting underwater, and you gain a +2 trait bonus on Acrobatics checks and Climb checks on wet surfaces or in wet terrain, including bogs, standing or running water, or a storm-tossed ship.</Pair>
+<Pair single="flavor" id="slippery-step-flavor">You are used to walking on wet and slippery surfaces.</Pair>
+<Pair single="benefit" id="slippery-step-benefit">You are always considered to have firm footing when <Link to="/rule/fighting_underwater">fighting underwater</Link>, and you gain a +2 trait bonus on <Link to="/skill/acrobatics">Acrobatics</Link> checks and <Link to="/skill/climb">Climb</Link> checks on wet surfaces or in wet terrain, including bogs, standing or running water, or a storm-tossed ship.</Pair>
 </Ability>
 </>};
 const _undine_loyalty = {title: "Undine Loyalty", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/bastards_of_golarion">Bastards of Golarion</Link></p>
@@ -3411,7 +3566,8 @@ const _undine_loyalty = {title: "Undine Loyalty", topLink: ["Race Traits","main/
 <Pair single id="undine-loyalty">Undine Loyalty</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/undine">Undine</Link></Pair>
-<Pair single="benefit" id="undine-loyalty-benefit">You learned early on that teamwork can help keep you safe from troublemakers. Choose one teamwork feat that requires an ally with the same feat to be adjacent to you. You may benefit from that teamwork feat as long as you have an ally within 10 feet of you (though your ally does not benefit from the teamwork feat unless it also has this trait or a similar ability).</Pair>
+<Pair single="flavor" id="undine-loyalty-flavor">You learned early on that teamwork can help keep you safe from troublemakers.</Pair>
+<Pair single="benefit" id="undine-loyalty-benefit">Choose one <Link to="/main/teamwork_feat">teamwork feat</Link> that requires an ally with the same feat to be adjacent to you. You may benefit from that teamwork feat as long as you have an ally within 10 feet of you (though your ally does not benefit from the teamwork feat unless it also has this trait or a similar ability).</Pair>
 </Ability>
 </>};
 const _water_shaping = {title: "Water Shaping", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -3419,7 +3575,8 @@ const _water_shaping = {title: "Water Shaping", topLink: ["Race Traits","main/tr
 <Pair single id="water-shaping">Water Shaping</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/undine">Undine</Link></Pair>
-<Pair single="benefit" id="water-shaping-benefit">Your tight-knit undine community helped you practice your water magic safely. Whenever you cast a spell or use a spell-like ability that has the cold or water descriptor and affects an area, you can choose one square within the area. The spell or spell-like ability does not affect that square or creatures in it.</Pair>
+<Pair single="flavor" id="water-shaping-flavor">Your tight-knit undine community helped you practice your water magic safely.</Pair>
+<Pair single="benefit" id="water-shaping-benefit">Whenever you cast a spell or use a spell-like ability that has the cold or water descriptor and affects an area, you can choose one square within the area. The spell or spell-like ability does not affect that square or creatures in it.</Pair>
 </Ability>
 </>};
 const _whiteout = {title: "Whiteout", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_elements">Blood of the Elements</Link></p>
@@ -3427,7 +3584,8 @@ const _whiteout = {title: "Whiteout", topLink: ["Race Traits","main/traits_race"
 <Pair single id="whiteout">Whiteout</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/undine">Undine</Link></Pair>
-<Pair single="benefit" id="whiteout-benefit">When the air is full of water, your elemental blood allows you to blend with your surroundings and become one with the precipitation. In areas of nonmagical fog, rain, snow, or similar conditions (such as the spray of a waterfall), you gain the effects of <Link to="/rule/concealment">concealment</Link>, but with a miss chance of 10%. If the precipitation would already grant you concealment, the miss chances stack.</Pair>
+<Pair single="flavor" id="whiteout-flavor">When the air is full of water, your elemental blood allows you to blend with your surroundings and become one with the precipitation.</Pair>
+<Pair single="benefit" id="whiteout-benefit">In areas of nonmagical fog, rain, snow, or similar conditions (such as the spray of a waterfall), you gain the effects of <Link to="/rule/concealment">concealment</Link>, but with a miss chance of 10%. If the precipitation would already grant you concealment, the miss chances stack.</Pair>
 </Ability>
 </>};
 const _calculated_risk = {title: "Calculated Risk", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
@@ -3451,7 +3609,8 @@ const _proud_progenitor = {title: "Proud Progenitor", topLink: ["Race Traits","m
 <Pair single id="proud-progenitor">Proud Progenitor</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Vampire; Moroi</Pair>
-<Pair single="benefit" id="proud-progenitor-benefit">Your loneliness drove you to build your coven, and you zealously attack any who would harm it. You gain a +1 trait bonus on damage rolls against creatures you have seen attack or harm any of your vampire spawn.</Pair>
+<Pair single="flavor" id="proud-progenitor-flavor">Your loneliness drove you to build your coven, and you zealously attack any who would harm it.</Pair>
+<Pair single="benefit" id="proud-progenitor-benefit">You gain a +1 trait bonus on damage rolls against creatures you have seen attack or harm any of your vampire spawn.</Pair>
 </Ability>
 </>};
 const _weatherworn = {title: "Weatherworn", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
@@ -3459,7 +3618,8 @@ const _weatherworn = {title: "Weatherworn", topLink: ["Race Traits","main/traits
 <Pair single id="weatherworn">Weatherworn</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Vampire; Moroi</Pair>
-<Pair single="benefit" id="weatherworn-benefit">Lairing in desolate mountains or on coastal cliff tops has taught you to deal with the effects of strong winds. You gain a +2 trait bonus against the effects of spells that create wind or move air, such as <Link to="/spell/gust_of_wind">gust of wind</Link>. You treat natural weather conditions as one step weaker. These abilities also apply when you are in gaseous form.</Pair>
+<Pair single="flavor" id="weatherworn-flavor">Lairing in desolate mountains or on coastal cliff tops has taught you to deal with the effects of strong winds.</Pair>
+<Pair single="benefit" id="weatherworn-benefit">You gain a +2 trait bonus against the effects of spells that create wind or move air, such as <Link to="/spell/gust_of_wind">gust of wind</Link>. You treat natural <Link to="/rule/weather">weather</Link> conditions as one step weaker. These abilities also apply when you are in gaseous form.</Pair>
 </Ability>
 </>};
 const _rapid_drain = {title: "Rapid Drain", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
@@ -3467,7 +3627,8 @@ const _rapid_drain = {title: "Rapid Drain", topLink: ["Race Traits","main/traits
 <Pair single id="rapid-drain">Rapid Drain</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Vampire; Nosferatu</Pair>
-<Pair single="benefit" id="rapid-drain-benefit">The ferocity of your hunger grants you the ability to draw life from your victims faster. When you use your blood drain ability, you gain 7 temporary hit points instead of 5.</Pair>
+<Pair single="flavor" id="rapid-drain-flavor">The ferocity of your hunger grants you the ability to draw life from your victims faster.</Pair>
+<Pair single="benefit" id="rapid-drain-benefit">When you use your <em>blood drain</em> ability, you gain 7 temporary hit points instead of 5.</Pair>
 </Ability>
 </>};
 const _telekinetic_dependence = {title: "Telekinetic Dependence", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
@@ -3475,7 +3636,8 @@ const _telekinetic_dependence = {title: "Telekinetic Dependence", topLink: ["Rac
 <Pair single id="telekinetic-dependence">Telekinetic Dependence</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Vampire; Nosferatu</Pair>
-<Pair single="benefit" id="telekinetic-dependence-benefit">Your body is so ancient you fear damaging it with exertion. You gain a +1 trait bonus to your caster level when casting (or using as a spell-like ability) <Link to="/spell/fly">fly</Link>, <Link to="/spell/levitate">levitate</Link>, <Link to="/spell/mage_hand">mage hand</Link>, <Link to="/spell/telekinesis">telekinesis</Link>, and similar spells that move objects through sheer will.</Pair>
+<Pair single="flavor" id="telekinetic-dependence-flavor">Your body is so ancient you fear damaging it with exertion.</Pair>
+<Pair single="benefit" id="telekinetic-dependence-benefit">You gain a +1 trait bonus to your caster level when casting (or using as a spell-like ability) <Link to="/spell/fly">fly</Link>, <Link to="/spell/levitate">levitate</Link>, <Link to="/spell/mage_hand">mage hand</Link>, <Link to="/spell/telekinesis">telekinesis</Link>, and similar spells that move objects through sheer will.</Pair>
 </Ability>
 </>};
 const _self_aware = {title: "Self-Aware", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
@@ -3483,7 +3645,8 @@ const _self_aware = {title: "Self-Aware", topLink: ["Race Traits","main/traits_r
 <Pair single id="self-aware">Self-Aware</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Vampire; Vetala</Pair>
-<Pair single="benefit" id="self-aware-benefit">Wisdom stolen from an enlightened mortal has opened your own mind. Knowing yourself helps you to understand others. You gain a +1 trait bonus on all Sense Motive checks, and Sense Motive becomes a class skill for you.</Pair>
+<Pair single="flavor" id="self-aware-flavor">Wisdom stolen from an enlightened mortal has opened your own mind. Knowing yourself helps you to understand others.</Pair>
+<Pair single="benefit" id="self-aware-benefit">You gain a +1 trait bonus on all <Link to="/skill/sense_motive">Sense Motive</Link> checks, and Sense Motive becomes a class skill for you.</Pair>
 </Ability>
 </>};
 const _stubborn = {title: "Stubborn", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/blood_of_the_night">Blood of the Night</Link></p>
@@ -3491,7 +3654,8 @@ const _stubborn = {title: "Stubborn", topLink: ["Race Traits","main/traits_race"
 <Pair single id="stubborn">Stubborn</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl>Vampire; Vetala</Pair>
-<Pair single="benefit" id="stubborn-benefit">The angry child inside bolsters your will, and you often prove utterly defiant. You gain a +2 trait bonus on saving throws against attempts to control you, such as command undead, halt undead, or channeled energy to turn or control undead.</Pair>
+<Pair single="flavor" id="stubborn-flavor">The angry child inside bolsters your will, and you often prove utterly defiant.</Pair>
+<Pair single="benefit" id="stubborn-benefit">You gain a +2 trait bonus on saving throws against attempts to control you, such as <Link to="/spell/command_undead">command undead</Link>, <Link to="/spell/halt_undead">halt undead</Link>, or <Link to="/ability/channel_energy">channeled energy</Link> to turn or control undead.</Pair>
 </Ability>
 </>};
 const _trickster_vanara = {title: "Trickster (Vanara)", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -3499,7 +3663,8 @@ const _trickster_vanara = {title: "Trickster (Vanara)", topLink: ["Race Traits",
 <Pair single id="trickster-vanara">Trickster (Vanara)</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/vanara">Vanara</Link></Pair>
-<Pair single="benefit" id="trickster-vanara-benefit">You learned early that in order to get what you want, sometimes you have to act secretly. You gain a +1 trait bonus on Bluff and Stealth checks, and one of these skills (your choice) is always a class skill for you.</Pair>
+<Pair single="flavor" id="trickster-vanara-flavor">You learned early that in order to get what you want, sometimes you have to act secretly.</Pair>
+<Pair single="benefit" id="trickster-vanara-benefit">You gain a +1 trait bonus on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/stealth">Stealth</Link> checks, and one of these skills (your choice) is always a class skill for you.</Pair>
 </Ability>
 </>};
 const _augmented_spell_poisons = {title: "Augmented Spell Poisons", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -3507,7 +3672,8 @@ const _augmented_spell_poisons = {title: "Augmented Spell Poisons", topLink: ["R
 <Pair single id="augmented-spell-poisons">Augmented Spell Poisons</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/vishkanya">Vishkanya</Link></Pair>
-<Pair single="benefit" id="augmented-spell-poisons-benefit">You can use your natural poison to augment the spells you cast. You can spend a use of your toxic racial trait and use a bit of your toxic saliva or blood as an additional material component for a spell with the poison descriptor to increase the spell's save DC by 1.</Pair>
+<Pair single="flavor" id="augmented-spell-poisons-flavor">You can use your natural poison to augment the spells you cast.</Pair>
+<Pair single="benefit" id="augmented-spell-poisons-benefit">You can spend a use of your <em>toxic</em> racial trait and use a bit of your toxic saliva or blood as an additional material component for a spell with the poison descriptor to increase the spell's save DC by 1.</Pair>
 </Ability>
 </>};
 const _water_lurker = {title: "Water Lurker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -3515,7 +3681,8 @@ const _water_lurker = {title: "Water Lurker", topLink: ["Race Traits","main/trai
 <Pair single id="water-lurker">Water Lurker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/wayang">Wayang</Link></Pair>
-<Pair single="benefit" id="water-lurker-benefit">You grew up in a secretive community by the water, perhaps among the rivers of Shenmen or the islands of Minata. You gain a +1 trait bonus on Swim checks and a +2 bonus on Stealth checks on watercraft and when at least half-submerged in water.</Pair>
+<Pair single="flavor" id="water-lurker-flavor">You grew up in a secretive community by the water, perhaps among the rivers of Shenmen or the islands of Minata.</Pair>
+<Pair single="benefit" id="water-lurker-benefit">You gain a +1 trait bonus on <Link to="/skill/swim">Swim</Link> checks and a +2 bonus on <Link to="/skill/stealth">Stealth</Link> checks on watercraft and when at least half-submerged in water.</Pair>
 </Ability>
 </>};
 const _resilient_construction = {title: "Resilient Construction", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -3523,7 +3690,8 @@ const _resilient_construction = {title: "Resilient Construction", topLink: ["Rac
 <Pair single id="resilient-construction">Resilient Construction</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/wyrwood">Wyrwood</Link></Pair>
-<Pair single="benefit" id="resilient-construction-benefit">You spent a great deal of time around magical workshops, and the power of magic sustains you. Once per day, if you would be reduced to 0 or fewer hit points while under the effects of an ongoing spell you cast with a range of personal, you are not destroyed by the attack, but instead become inactive and helpless for 1 round, at negative hit points. If you take damage again during that time, or if you are still below 0 hit points at the end of that round, you are destroyed.</Pair>
+<Pair single="flavor" id="resilient-construction-flavor">You spent a great deal of time around magical workshops, and the power of magic sustains you.</Pair>
+<Pair single="benefit" id="resilient-construction-benefit">Once per day, if you would be reduced to 0 or fewer hit points while under the effects of an ongoing spell you cast with a range of personal, you are not destroyed by the attack, but instead become inactive and helpless for 1 round, at negative hit points. If you take damage again during that time, or if you are still below 0 hit points at the end of that round, you are destroyed.</Pair>
 </Ability>
 </>};
 const _fierce_flanker = {title: "Fierce Flanker", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/inner_sea_races">Inner Sea Races</Link></p>
@@ -3531,7 +3699,8 @@ const _fierce_flanker = {title: "Fierce Flanker", topLink: ["Race Traits","main/
 <Pair single id="fierce-flanker">Fierce Flanker</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/wyvaran">Wyvaran</Link></Pair>
-<Pair single="benefit" id="fierce-flanker-benefit">You were bullied in your youth but supported by one or more good friends, impressing upon you the importance of teamwork. You gain a +1 trait bonus on damage rolls against foes you flank.</Pair>
+<Pair single="flavor" id="fierce-flanker-flavor">You were bullied in your youth but supported by one or more good friends, impressing upon you the importance of teamwork.</Pair>
+<Pair single="benefit" id="fierce-flanker-benefit">You gain a +1 trait bonus on damage rolls against foes you <Link to="/rule/flank">flank</Link>.</Pair>
 </Ability>
 </>};
 const _blood_of_dragons = {title: "Blood of Dragons", topLink: ["Race Traits","main/traits_race"], jsx: <><p><strong>Sources</strong> <Link to="/source/ultimate_campaign">Ultimate Campaign</Link></p>
