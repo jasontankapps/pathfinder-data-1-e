@@ -56,9 +56,13 @@ const sourcesTest = (incoming) => {
 		delete data.not_found;
 		Object.entries(data).forEach((pair) => {
 			const [item, entry] = pair;
-			const {sources: s, compileFrom, copyof, alternateOf, redirect, description = []} = entry;
+			const {sources: s, compileFrom, compilationSources: cs, copyof, alternateOf, redirect, description = []} = entry;
 			if(redirect || copyof || alternateOf) {
 				// These properties indicate we don't need to check sources or descriptions here.
+				return;
+			} else if (cs) {
+				// Compileable items rarely use their sources in their descriptions; they are
+				//   added in by whatever page uses them.
 				return;
 			} else if(compileFrom) {
 				const { targets = [] } = compileFrom;
