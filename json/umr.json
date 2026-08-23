@@ -1062,6 +1062,7 @@
 	"pincer_attack": { "redirect": "natural_attacks" },
 	"tail_slap_attack": { "redirect": "natural_attacks" },
 	"wing_buffet_attack": { "redirect": "natural_attacks" },
+	"talon_attack": { "redirect": "natural_attacks" },
 	"spell_like_abilities": {
 		"name": "Spell-Like Abilities",
 		"sources": [ "Bestiary 5" ],
