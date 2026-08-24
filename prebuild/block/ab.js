@@ -37,13 +37,13 @@ const parseAtts = (attrs, hl) => {
 	} else if (choice) {
 		return [choice, "Choice", hl.indexOf("c")];
 	} else if (benefit) {
-		return [choice, "Benefit", hl.indexOf("ben")];
+		return [choice, "Benefit", hl.indexOf("b")];
 	} else if (normal) {
 		return [normal, "Normal", hl.indexOf("normal")];
 	} else if (goal) {
 		return [goal, "Goal", hl.indexOf("goal")];
 	} else if (compbenefit) {
-		return [compbenefit, "Completion Benefit", hl.indexOf("compben")];
+		return [compbenefit, "Completion Benefit", hl.indexOf("cb")];
 	} else if (x || y || z || X || Y || Z) {
 		// These are already in [info, "title", index] format
 		return (x || y || z || X || Y || Z);
@@ -349,6 +349,7 @@ const makeAbilityBlock = ({
 			N: note,
 			c: choice,
 			C: containerInfo,
+			b: benefit,
 			x,
 			y,
 			z,
@@ -592,6 +593,10 @@ const makeAbilityBlock = ({
 				case "c":
 					title = "Choice";
 					what = choice;
+					break;
+				case "b":
+					title = "Benefit";
+					what = benefit;
 					break;
 				case "x":
 					title = x[1];

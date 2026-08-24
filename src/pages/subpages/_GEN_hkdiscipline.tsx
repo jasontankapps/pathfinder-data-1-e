@@ -91,8 +91,8 @@ const _pentamic_faith = {title: "Pentamic Faith", jsx: <><p><strong>Sources</str
 const _seek_the_taken = {title: "Seek the Taken", jsx: <><p><strong>Sources</strong> <Link to="/source/pathfinder_98_turn_of_the_torrent">Pathfinder #98: Turn of the Torrent pg. 67</Link></p>
 <Ability id="seek-the-taken" icon={["magic-swirl"]}>
 <Pair single id="seek-the-taken">Seek the Taken</Pair>
-<Pair title="Order"><Link to="/hkorder/order_of_the_torrent">Order of the Torrent</Link></Pair>
-<Pair title="Ability">When a member of the <em>Order of the Torrent</em> becomes a 3rd-level Hellknight, he gains his first discipline: <em>seek the taken.</em> This enables the Hellknight to use an <Link to="/feat/enlarged">enlarged</Link> <Link to="/spell/locate_creature">locate creature</Link> as a spell-like ability with a caster level equal to his total character level.</Pair>
+<Pair title="Order" hl><Link to="/hkorder/order_of_the_torrent">Order of the Torrent</Link></Pair>
+<Pair title="Ability" hl>When a member of the <em>Order of the Torrent</em> becomes a 3rd-level Hellknight, he gains his first discipline: <em>seek the taken.</em> This enables the Hellknight to use an <Link to="/feat/enlarged">enlarged</Link> <Link to="/spell/locate_creature">locate creature</Link> as a spell-like ability with a caster level equal to his total character level.</Pair>
 <Pair title="Special">When an <em>Order of the Torrent</em> Hellknight gains his third discipline, he cannot choose the <Link to="/hkdiscipline/summon_devil">summon devil</Link> discipline.</Pair>
 </Ability>
 </>};
