@@ -1,16 +1,44 @@
 import Link from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
+import {Block,Row,Cell} from '../../components/Block';
 import ScrollContainer from '../../components/ScrollContainer';
 const _not_found = {title: "Unknown", jsx: <><h2 id="discipline-not_found-error">Error</h2>
 <p>Unable to find the requested discipline.</p>
 </>};
 const _abomination = {title: "Abomination", jsx: <><h2 id="discipline-abomination-abomination">Abomination</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 64</Link><br/>Your mind is impure, tainted by outside forces. These might be monstrous ancestors whose blood still flows within you, or powerful and unknowable psychic forces that intrude upon your mind. Like a psychic disease, this influence consumes part of your brain, creating a dark counterpart to your normal self. Every time you call forth a psychic spell, you're drawing on this dangerous force - and potentially giving it a greater hold on you. This malign influence might stem from creatures like <Link to="/family/rakshasa">rakshasas</Link> and <Link to="/monster/aboleth">aboleths</Link>, or perhaps malign entities that dwell in the voids between the stars.</p>
-<p><strong className="hl">Phrenic Pool Ability:</strong> Charisma</p>
-<p><strong className="hl">Bonus Spells:</strong> <Link to="/spell/ray_of_enfeeblement">ray of enfeeblement</Link> (1st), <Link to="/spell/alter_self">alter self</Link> (4th), <Link to="/spell/excruciating_deformation">excruciating deformation</Link> (6th), <Link to="/spell/black_tentacles">black tentacles</Link> (8th), <Link to="/spell/explode_head">explode head</Link> (10th), <Link to="/spell/repulsion">repulsion</Link> (12th), <Link to="/spell/insanity">insanity</Link> (14th), <Link to="/spell/orb_of_the_void">orb of the void</Link> (16th), <Link to="/spell/telekinetic_storm">telekinetic storm</Link> (18th).</p>
-<p><strong className="hl">Discipline Powers:</strong> Your powers allow the dark influences to take over, and it can be difficult to come back from the brink.</p>
-<blockquote>
-<p><strong>Dark Half (Su):</strong> By allowing the dark forces to overcome you, you can enter a state of instinctual cruelty as a swift action. While you're manifesting your dark half, you increase the DCs of your psychic spells by 1, gain a +2 morale bonus on Will saves, and become immune to fear effects. Whenever you cast a spell that deals damage while manifesting your dark half, you can cause one creature that took damage from the spell to also take 1 point of <Link to="/rule/bleed">bleed</Link> damage. The amount of bleed damage increases to 2 points at 5th level and to 1d6 points at 13th level. While manifesting your dark half, you can't use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration other than casting spells using psychic magic, using phrenic amplifications, or attempting to return to normal. You can attempt to return to your normal self as a free action, but must succeed at a <Link to="/rule/concentration">concentration</Link> check with a DC equal to 10 + your caster level. If you fail, you continue to manifest your dark half and can't attempt to change back for 1 round. You can manifest your dark half for a number of rounds per day equal to 3 + 1/2 your psychic level + your Charisma modifier; when these rounds are expended, you return to your normal self without requiring a concentration check.</p>
-<p><strong>Morphic Form (Ex):</strong> At 5th level, while manifesting your dark half, you gain DR 5. This damage reduction can be overcome by a random type of damage each time you manifest your dark half, determined by rolling on the table below.</p>
+<Block size="simple">
+<Row><Cell>Phrenic Pool Ability</Cell><Cell>Charisma</Cell></Row></Block>
+<Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
+</Cell></Row>
+<Row><Cell>1st Level</Cell><Cell><Link to="/spell/ray_of_enfeeblement">Ray of enfeeblement</Link></Cell></Row>
+<Row><Cell>4th Level</Cell><Cell><Link to="/spell/alter_self">Alter self</Link></Cell></Row>
+<Row><Cell>6th Level</Cell><Cell><Link to="/spell/excruciating_deformation">Excruciating deformation</Link></Cell></Row>
+<Row><Cell>8th Level</Cell><Cell><Link to="/spell/black_tentacles">Black tentacles</Link></Cell></Row>
+<Row><Cell>10th Level</Cell><Cell><Link to="/spell/explode_head">Explode head</Link></Cell></Row>
+<Row><Cell>12th Level</Cell><Cell><Link to="/spell/repulsion">Repulsion</Link></Cell></Row>
+<Row><Cell>14th Level</Cell><Cell><Link to="/spell/insanity">Insanity</Link></Cell></Row>
+<Row><Cell>16th Level</Cell><Cell><Link to="/spell/orb_of_the_void">Orb of the void</Link></Cell></Row>
+<Row><Cell>18th Level</Cell><Cell><Link to="/spell/telekinetic_storm">Telekinetic storm</Link></Cell></Row></Block>
+<Ability id="discipline-powers" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="discipline-powers">Discipline Powers</Pair>
+<Pair title="Description">Your powers allow the dark influences to take over, and it can be difficult to come back from the brink.</Pair>
+</Ability>
+<Ability id="dark-half-su" extraClasses="subAbility" icon={["upgrade","armor-upgrade"]}>
+<Pair single id="dark-half-su">Dark Half (Su)</Pair>
+<Pair title="Swift Action"><p>By allowing the dark forces to overcome you, you can enter a state of instinctual cruelty. While you're manifesting your dark half, you increase the DCs of your psychic spells by 1, gain a +2 morale bonus on Will saves, and become immune to fear effects.</p>
+<p>Whenever you cast a spell that deals damage while manifesting your dark half, you can cause one creature that took damage from the spell to also take 1 point of <Link to="/rule/bleed">bleed</Link> damage. While manifesting your dark half, you can't use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration other than casting spells using psychic magic, using phrenic amplifications, or attempting to return to normal.</p>
+</Pair>
+<Pair title="Ability">You can attempt to return to your normal self as a <strong className="hl">free action</strong>, but must succeed at a <Link to="/rule/concentration">concentration</Link> check with a DC equal to 10 + your caster level. If you fail, you continue to manifest your dark half and can't attempt to change back for 1 round.</Pair>
+<Pair title="Usage">3 + &amp;frac12&amp; your Psychic level + Charisma modifier times/day</Pair>
+<Pair title="At 5th Level">The bleed damage increases to 2 points.</Pair>
+<Pair title="At 13th Level">The bleed damage becomes 1d6 points.</Pair>
+<Pair title="Special">When your <em>dark half</em> rounds are expended, you return to your normal self without requiring a concentration check.</Pair>
+</Ability>
+<Ability id="morphic-form-ex" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="morphic-form-ex">Morphic Form (Ex)</Pair>
+<Pair title="At 5th Level"><p>While manifesting your dark half, you gain DR 5. This damage reduction can be overcome by a random type of damage each time you manifest your dark half, determined by rolling on the table below.</p>
 <ScrollContainer id="discipline-abomination--table-0"><table>
 <thead>
 <tr>
@@ -31,31 +59,98 @@ const _abomination = {title: "Abomination", jsx: <><h2 id="discipline-abominatio
 <td>DR 5/magic</td>
 </tr>
 </tbody></table></ScrollContainer>
-<p><strong>Psychic Safeguard (Su):</strong> At 13th level, you project constant mental defenses, gaining spell resistance equal to 8 + your caster level. While manifesting your dark half, this spell resistance increases to 16 + your caster level.</p>
-</blockquote>
+</Pair>
+</Ability>
+<Ability id="psychic-safeguard-su" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="psychic-safeguard-su">Psychic Safeguard (Su)</Pair>
+<Pair title="At 13th Level">You project constant mental defenses, gaining spell resistance equal to 8 + your caster level. While manifesting your dark half, this spell resistance increases to 16 + your caster level.</Pair>
+</Ability>
 </>};
 const _bleaching = {title: "Bleaching", jsx: <><h2 id="discipline-bleaching-bleaching">Bleaching</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 18</Link><br/>You draw power from a void in your emotions, a yawning and empty chasm where your hopes and dreams and fears should be. It is very rare for any creature besides a <Link to="/race/gnome">gnome</Link> to have this psychic discipline - usually a bleachling or a gnome with a particularly strong fear of the Bleaching - but in occasional cases members of other races have been known to develop such a strong nihilistic ennui or depression that they can tap into the vitality-draining effects of this discipline as well.</p>
-<p><strong className="hl">Phrenic Pool Ability:</strong> Wisdom</p>
-<p><strong className="hl">Bonus Spells:</strong> <Link to="/spell/decrepit_disguise">decrepit disguise</Link> (1st), <Link to="/spell/steal_voice">steal voice</Link> (4th), <Link to="/spell/cup_of_dust">cup of dust</Link> (6th), <Link to="/spell/enervation">enervation</Link> (8th), <Link to="/spell/pessimism">pessimism</Link> (10th), <Link to="/spell/disintegrate">disintegrate</Link> (12th), <Link to="/spell/waves_of_exhaustion">waves of exhaustion</Link> (14th), <Link to="/spell/greater_spell_immunity">greater spell immunity</Link> (16th), <Link to="/spell/energy_drain">energy drain</Link> (18th).</p>
-<p><strong className="hl">Discipline Powers:</strong> Your emotional malaise combines with your psychic ability to allow you to drain the vibrancy from the world around you.</p>
-<blockquote>
-<p><strong>Draining Touch:</strong> As a standard action, you can make a melee touch attack to drain vitality from a creature. If the attack hits, the target must succeed at a Fortitude save (DC = 10 + half your psychic level + your Wisdom modifier) or take 1d2 points of <Link to="/rule/charisma_damage">Charisma damage</Link>. If a creature is affected, the colors of its skin, hair, and eyes dull and become less vibrant. Whether or not the save is successful, a creature cannot be the target of this power again for 24 hours. You regain 1 point in your phrenic pool each time you successfully drain a creature this way. You can use this ability a number of times per day equal to your Wisdom modifier.</p>
-<p><strong>Emotionally Distant:</strong> At 5th level, your emotions have atrophied such that you rarely have any genuine feelings at all. You gain a +4 bonus on saving throws to resist charm, emotion, and fear effects.</p>
-<p><strong>Drain Vibrancy:</strong> At 13th level, you can drain the color and vitality from the world around you. Three times per day, as a standard action you can drain vibrancy within a 30-foot radius, causing the area and all creatures within it to become pale and sallow. Each living creature in the area must succeed at a Fortitude save (DC = 10 + half your psychic level + your Wisdom modifier) or take 1 temporary <Link to="/rule/negative_level">negative level</Link> as their life force drains away. If you're at least 17th level, a creature that fails its saving throw takes 2 temporary negative levels instead.</p>
-</blockquote>
+<Block size="simple">
+<Row><Cell>Phrenic Pool Ability</Cell><Cell>Wisdom</Cell></Row></Block>
+<Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
+</Cell></Row>
+<Row><Cell>1st Level</Cell><Cell><Link to="/spell/decrepit_disguise">Decrepit disguise</Link></Cell></Row>
+<Row><Cell>4th Level</Cell><Cell><Link to="/spell/steal_voice">Steal voice</Link></Cell></Row>
+<Row><Cell>6th Level</Cell><Cell><Link to="/spell/cup_of_dust">Cup of dust</Link></Cell></Row>
+<Row><Cell>8th Level</Cell><Cell><Link to="/spell/enervation">Enervation</Link></Cell></Row>
+<Row><Cell>10th Level</Cell><Cell><Link to="/spell/pessimism">Pessimism</Link></Cell></Row>
+<Row><Cell>12th Level</Cell><Cell><Link to="/spell/disintegrate">Disintegrate</Link></Cell></Row>
+<Row><Cell>14th Level</Cell><Cell><Link to="/spell/waves_of_exhaustion">Waves of exhaustion</Link></Cell></Row>
+<Row><Cell>16th Level</Cell><Cell><Link to="/spell/greater_spell_immunity">Greater spell immunity</Link></Cell></Row>
+<Row><Cell>18th Level</Cell><Cell><Link to="/spell/energy_drain">Energy drain</Link></Cell></Row></Block>
+<Ability id="discipline-powers" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="discipline-powers">Discipline Powers</Pair>
+<Pair title="Description">Your emotional malaise combines with your psychic ability to allow you to drain the vibrancy from the world around you.</Pair>
+</Ability>
+<Ability id="draining-touch" extraClasses="subAbility" icon={["magic-palm"]}>
+<Pair single id="draining-touch">Draining Touch</Pair>
+<Pair title="Usage">Wisdom modifier times/day</Pair>
+<Pair title="Standard Action"><p>You can make a melee touch attack to drain vitality from a creature. If the attack hits, the target must succeed at a Fortitude save (DC = 10 + half your psychic level + your Wisdom modifier) or take 1d2 points of <Link to="/rule/charisma_damage">Charisma damage</Link>. If a creature is affected, the colors of its skin, hair, and eyes dull and become less vibrant.</p>
+<p>Whether or not the save is successful, a creature cannot be the target of this power again for 24 hours. You regain 1 point in your phrenic pool each time you successfully drain a creature this way.</p>
+</Pair>
+</Ability>
+<Ability id="emotionally-distant" extraClasses="subAbility" icon={["armor-upgrade"]}>
+<Pair single id="emotionally-distant" flavor="Your emotions have atrophied such that you rarely have any genuine feelings at all.">Emotionally Distant</Pair>
+<Pair title="At 5th Level">You gain a +4 bonus on saving throws to resist charm, emotion, and fear effects.</Pair>
+</Ability>
+<Ability id="drain-vibrancy" extraClasses="subAbility" icon={["aura"]}>
+<Pair single id="drain-vibrancy" flavor="You can drain the color and vitality from the world around you.">Drain Vibrancy</Pair>
+<Pair title="Gained">At 13th Level</Pair>
+<Pair title="Usage">3 times a day</Pair>
+<Pair title="Standard Action">You can drain vibrancy within a 30-foot radius, causing the area and all creatures within it to become pale and sallow. Each living creature in the area must succeed at a Fortitude save (DC = 10 + half your psychic level + your Wisdom modifier) or take 1 temporary <Link to="/rule/negative_level">negative level</Link> as their life force drains away.</Pair>
+<Pair title="At 17th Level">A creature that fails its saving throw takes 2 temporary negative levels instead.</Pair>
+</Ability>
 </>};
 const _dream = {title: "Dream", jsx: <><h2 id="discipline-dream-dream">Dream</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 65</Link><br/>You discover deeper and more powerful corners of your mind through journeys you make in your dreams. Your consciousness expands outward into other dreaming minds, allowing you to explore the psychic landscapes of unconsciousness or regions of nightmare and horror.</p>
-<p><strong className="hl">Phrenic Pool Ability:</strong> Charisma</p>
-<p><strong className="hl">Bonus Spells:</strong> <Link to="/spell/sleep">sleep</Link> (1st), <Link to="/spell/oneiric_horror">oneiric horror</Link> (4th), <Link to="/spell/deep_slumber">deep slumber</Link> (6th), <Link to="/spell/sleepwalk">sleepwalk</Link> (8th), <Link to="/spell/nightmare">nightmare</Link> (10th), <Link to="/spell/cloak_of_dreams">cloak of dreams</Link> (12th), <Link to="/spell/ethereal_jaunt">ethereal jaunt</Link> (14th), <Link to="/spell/dream_voyage">dream voyage</Link> (16th), <Link to="/spell/microcosm">microcosm</Link> (18th).</p>
-<p><strong className="hl">Discipline Powers:</strong> Your mind can powerfully influence dreaming consciousnesses.</p>
-<blockquote>
-<p><strong>Dream Leech (Su):</strong> While adjacent to a sleeping or unconscious creature, you can take a swift action to siphon that creature's dreams, thereby learning new things about your own mind. The creature can attempt a Will save to negate this effect; such creatures are never considered willing. Creatures that don't dream are immune to this effect. If the subject fails the save, you gain a +4 bonus on your next Bluff, Diplomacy, or Intimidate check against the subject within the next 24 hours, and you regain 1 point in your phrenic pool. You can use this ability a number of times per day equal to your Charisma modifier, but no more than once per hour and no more than once per creature per day.</p>
-<p><strong>Oneiromancy (Su):</strong> As a standard action, you can tamper with the minds of sleeping creatures. You plant a subconscious thought in a sleeping creature's mind by attempting a Diplomacy or Intimidate check to modify the sleeping creature's attitude or request a service from it. If you succeed, when the creature wakes it behaves in the way you dictated with the normal restrictions for the Diplomacy or Intimidate skill. The target of oneiromancy remains unaware of this manipulation, though if you fail your Diplomacy check the subject might have its starting attitude toward you negatively impacted, as normal. You must be adjacent to the sleeping creature to use this ability. Alternatively, you can use this ability as part of the casting of <Link to="/spell/dream">dream</Link>, <Link to="/spell/minor_dream">minor dream</Link>, or <Link to="/spell/nightmare">nightmare</Link>. In this case, the oneiromancy effect takes place when the spell is cast. You can use this ability a number of times per day equal to 3 + your Charisma modifier. Creatures that don't dream are immune to this effect.</p>
-<p><strong>Mind Heist (Sp):</strong> At 5th level, you can delve into the subconscious mind of a sleeping target. You can cast <Link to="/spell/detect_thoughts">detect thoughts</Link> as a spell-like ability on any adjacent sleeping creature. Additionally, you can gain the benefit of <em>detect thoughts</em> on a target of your <em>dream, minor dream,</em> or <em>nightmare</em> spells as if you had studied the target for 3 rounds. If you cast <Link to="/spell/dream_scan">dream scan</Link>, you know whether you received false information from the dream. A successful Will save negates mind heist. You can use this ability a number of times per day equal to your Charisma modifier.</p>
-<p><strong>Waking Dream (Sp):</strong> At 13th level, as a standard action, you can take control of the body of a sleeping creature within 30 feet for 1 hour per level. This ability functions like <Link to="/spell/magic_jar">magic jar</Link>, except that your soul travels directly into the sleeping target with no receptacle necessary and the target creature's consciousness remains dreaming and unaware of its body's actions. When waking dream ends or the host body is destroyed, you immediately wake up in your body regardless of the distance from the host body, provided your body hasn't been destroyed. You can use this ability a number of times per day equal to your Charisma bonus. Creatures that don't dream are immune to this effect.</p>
-</blockquote>
+<Block size="simple">
+<Row><Cell>Phrenic Pool Ability</Cell><Cell>Charisma</Cell></Row></Block>
+<Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
+</Cell></Row>
+<Row><Cell>1st Level</Cell><Cell><Link to="/spell/sleep">Sleep</Link></Cell></Row>
+<Row><Cell>4th Level</Cell><Cell><Link to="/spell/oneiric_horror">Oneiric horror</Link></Cell></Row>
+<Row><Cell>6th Level</Cell><Cell><Link to="/spell/deep_slumber">Deep slumber</Link></Cell></Row>
+<Row><Cell>8th Level</Cell><Cell><Link to="/spell/sleepwalk">Sleepwalk</Link></Cell></Row>
+<Row><Cell>10th Level</Cell><Cell><Link to="/spell/nightmare">Nightmare</Link></Cell></Row>
+<Row><Cell>12th Level</Cell><Cell><Link to="/spell/cloak_of_dreams">Cloak of dreams</Link></Cell></Row>
+<Row><Cell>14th Level</Cell><Cell><Link to="/spell/ethereal_jaunt">Ethereal jaunt</Link></Cell></Row>
+<Row><Cell>16th Level</Cell><Cell><Link to="/spell/dream_voyage">Dream voyage</Link></Cell></Row>
+<Row><Cell>18th Level</Cell><Cell><Link to="/spell/microcosm">Microcosm</Link></Cell></Row></Block>
+<Ability id="discipline-powers" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="discipline-powers">Discipline Powers</Pair>
+<Pair title="Description">Your mind can powerfully influence dreaming consciousnesses.</Pair>
+</Ability>
+<Ability id="dream-leech-su" extraClasses="subAbility" icon={["upgrade"]}>
+<Pair single id="dream-leech-su">Dream Leech (Su)</Pair>
+<Pair title="Swift Action"><p>While adjacent to a sleeping or unconscious creature, you can siphon that creature's dreams, thereby learning new things about your own mind. The creature can attempt a Will save to negate this effect; such creatures are never considered willing. Creatures that don't dream are immune to this effect.</p>
+<p>If the subject fails the save, you gain a +4 bonus on your next Bluff, Diplomacy, or Intimidate check against the subject within the next 24 hours, and you regain 1 point in your phrenic pool.</p>
+</Pair>
+<Pair title="Usage">Charisma modifier times/day</Pair>
+<Pair title="Special">You can use this ability no more than once per hour and no more than once per creature per day.</Pair>
+</Ability>
+<Ability id="oneiromancy-su" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="oneiromancy-su">Oneiromancy (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Standard Action"><p>You can tamper with the minds of sleeping creatures. You plant a subconscious thought in a sleeping creature's mind by attempting a <Link to="/skill/diplomacy">Diplomacy</Link> or <Link to="/skill/intimidate">Intimidate</Link> check to modify the sleeping creature's attitude or request a service from it. If you succeed, when the creature wakes it behaves in the way you dictated with the normal restrictions for the Diplomacy or Intimidate skill. The target of <em>oneiromancy</em> remains unaware of this manipulation, though if you fail your Diplomacy check the subject might have its starting attitude toward you negatively impacted, as normal. You must be adjacent to the sleeping creature to use this ability.</p>
+<p>Alternatively, you can use this ability as part of the casting of <Link to="/spell/dream">dream</Link>, <Link to="/spell/minor_dream">minor dream</Link>, or <Link to="/spell/nightmare">nightmare</Link>. In this case, the <em>oneiromancy</em> effect takes place when the spell is cast.</p>
+</Pair>
+<Pair title="Special">Creatures that don't dream are immune to this effect.</Pair>
+</Ability>
+<Ability id="mind-heist-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="mind-heist-sp" flavor="You can delve into the subconscious mind of a sleeping target.">Mind Heist (Sp)</Pair>
+<Pair title="At 5th Level">You can cast <Link to="/spell/detect_thoughts">detect thoughts</Link> as a spell-like ability on any adjacent sleeping creature. Additionally, you can gain the benefit of <em>detect thoughts</em> on a target of your <em>dream, minor dream,</em> or <em>nightmare</em> spells as if you had studied the target for 3 rounds. If you cast <Link to="/spell/dream_scan">dream scan</Link>, you know whether you received false information from the dream. A successful Will save negates <em>mind heist.</em></Pair>
+<Pair title="Usage">Charisma modifier times/day</Pair>
+</Ability>
+<Ability id="waking-dream-sp" extraClasses="subAbility" icon={["magic-swirl"]}>
+<Pair single id="waking-dream-sp">Waking Dream (Sp)</Pair>
+<Pair title="Gained">At 13th Level</Pair>
+<Pair title="Usage">Charisma modifier times/day</Pair>
+<Pair title="Standard Action">You can take control of the body of a sleeping creature within 30 feet for 1 hour per level. This ability functions like <Link to="/spell/magic_jar">magic jar</Link>, except that your soul travels directly into the sleeping target with no receptacle necessary and the target creature's consciousness remains dreaming and unaware of its body's actions. When *waking dream *ends or the host body is destroyed, you immediately wake up in your body regardless of the distance from the host body, provided your body hasn't been destroyed.</Pair>
+<Pair title="Special">Creatures that don't dream are immune to this effect.</Pair>
+</Ability>
 </>};
 const _enlightenment = {title: "Enlightenment", jsx: <><h2 id="discipline-enlightenment-enlightenment">Enlightenment</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 16</Link><br/>Your quest for enlightenment has opened your eyes to new concepts and heights of spiritual awareness. You seek learning that allows you to evolve in mind and spirit, improving your next incarnation.</p>
