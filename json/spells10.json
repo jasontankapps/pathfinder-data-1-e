@@ -2321,7 +2321,7 @@
 		"description": [
 			"## Transformation",
 			"",
-			"::spell{id=1 source=\"PRPG Core Rulebook/360\" transmutation alc=6 arc=6 inv=6 mag=6 occ=6 psy=6 sor=6 spr=6 wit=6 wiz=6 ctSt cV cS cMp=\"a potion of bull's strength, which you drink and whose effects are subsumed by the spell effects\" rPers target=you durRL=1}",
+			"::spell{id=1 source=\"PRPG Core Rulebook/360\" transmutation alc=6 arc=6 inv=6 mag=6 occ=6 psy=6 sor=6 spr=6 wit=6 wiz=6 ctSt cV cS cMp=\"a potion of ‹spell/bull's strength›, which you drink and whose effects are subsumed by the spell effects\" rPers target=you durRL=1}",
 			"",
 			"You become a fighting machine - stronger, tougher, faster, and more skilled in combat. Your mindset changes so that you relish combat and you can't cast spells, even from magic items.",
 			"",
