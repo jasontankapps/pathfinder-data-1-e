@@ -613,7 +613,7 @@
 			"",
 			"::ab[War Mind (minor)]{icon=boost-def l1=\"You can touch an ally and grant it a tactical advantage for 1 minute. At the start of its turn each round, it can select one of the following bonuses: +10 feet to base land speed, +1 dodge bonus to AC, +1 insight bonus on attack rolls, or a +1 luck bonus on saving throws. Each bonus selected lasts for 1 round.\"}",
 			"",
-			"::ab[Battle Lust (major)]{icon=boost l10=\"You can touch an ally and grant it a thirst for battle.``All of the ally's melee attacks are treated as if they had the ‹magic-enh/vicious› weapon special ability, but the additional damage dealt to the ally from that special ability is nonlethal. In addition, the ally receives a +4 insight bonus on attack rolls made to confirm critical hits. These benefits last for 1 minute.\"}"
+			"::ab[Battle Lust (major)]{icon=boost flavor=\"You can touch an ally and grant it a thirst for battle.\" l10=\"All of the ally's melee attacks are treated as if they had the ‹magic-enh/vicious› weapon special ability, but the additional damage dealt to the ally from that special ability is nonlethal. In addition, the ally receives a +4 insight bonus on attack rolls made to confirm critical hits. These benefits last for 1 minute.\"}"
 		]
 	},
 	"water": {
@@ -625,7 +625,7 @@
 			"‹SOURCE Advanced Class Guide/68›  ",
 			"@HL[Deities:] ‹faith/Gozreh›, ‹faith/Pharasma›",
 			"",
-			"::ab[Ice Strike (minor)]{icon=boost l1=\"You can touch one weapon and enhance it with the power of water.``For 1 minute, this weapon glows with a blue-white chill and deals an additional 1d4 points of cold damage with each strike. This additional damage doesn't stack with the additional damage from the ‹magic-enh/frost› or ‹magic-enh/icy burst› weapon special abilities.\"}",
+			"::ab[Ice Strike (minor)]{icon=boost flavor=\"You can touch one weapon and enhance it with the power of water.\" l1=\"For 1 minute, this weapon glows with a blue-white chill and deals an additional 1d4 points of cold damage with each strike. This additional damage doesn't stack with the additional damage from the ‹magic-enh/frost› or ‹magic-enh/icy burst› weapon special abilities.\"}",
 			"",
 			"::ab[Armor of Ice (major)]{icon=protect l10=\"You can touch any one ally and wreath it in freezing mist. This works as ‹spell/fire shield› (chill shield only) with a duration 1 minute.\"}"
 		]
@@ -639,7 +639,7 @@
 			"‹SOURCE Advanced Class Guide/68›  ",
 			"@HL[Deities:] ‹faith/Gozreh›, ‹faith/Rovagug›",
 			"",
-			"::ab[Storm Strike (minor)]{icon=boost l1=\"You can touch one weapon and grant it a blessing of stormy weather.``For 1 minute, this weapon glows with blue or yellow sparks and deals an additional 1d4 points of electricity damage with each hit. This additional damage doesn't stack with the additional damage from the ‹magic-enh/shock› or ‹magic-enh/shocking burst› weapon special abilities.\"}",
+			"::ab[Storm Strike (minor)]{icon=boost flavor=\"You can touch one weapon and grant it a blessing of stormy weather.\" l1=\"For 1 minute, this weapon glows with blue or yellow sparks and deals an additional 1d4 points of electricity damage with each hit. This additional damage doesn't stack with the additional damage from the ‹magic-enh/shock› or ‹magic-enh/shocking burst› weapon special abilities.\"}",
 			"",
 			"::ab[Wind Barrier (major)]{icon=magic l10=\"You can create a barrier of fast winds around yourself for 1 minute. This acts as a ‹spell/wind wall› on all sides of your square, protects you with ‹spell/feather fall›, and doesn't interfere with your ranged attacks.\"}"
 		]

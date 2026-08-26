@@ -524,15 +524,15 @@ const _war = {title: "War", jsx: <><h2 id="blessing-war-war">War</h2>
 <Pair title="At 1st Level">You can touch an ally and grant it a tactical advantage for 1 minute. At the start of its turn each round, it can select one of the following bonuses: +10 feet to base land speed, +1 dodge bonus to AC, +1 insight bonus on attack rolls, or a +1 luck bonus on saving throws. Each bonus selected lasts for 1 round.</Pair>
 </Ability>
 <Ability id="battle-lust-major" icon={["upgrade"]}>
-<Pair single id="battle-lust-major">Battle Lust (major)</Pair>
-<Pair title="At 10th Level">You can touch an ally and grant it a thirst for battle.``All of the ally's melee attacks are treated as if they had the <Link to="/magic-enh/vicious">vicious</Link> weapon special ability, but the additional damage dealt to the ally from that special ability is nonlethal. In addition, the ally receives a +4 insight bonus on attack rolls made to confirm critical hits. These benefits last for 1 minute.</Pair>
+<Pair single id="battle-lust-major" flavor="You can touch an ally and grant it a thirst for battle.">Battle Lust (major)</Pair>
+<Pair title="At 10th Level">All of the ally's melee attacks are treated as if they had the <Link to="/magic-enh/vicious">vicious</Link> weapon special ability, but the additional damage dealt to the ally from that special ability is nonlethal. In addition, the ally receives a +4 insight bonus on attack rolls made to confirm critical hits. These benefits last for 1 minute.</Pair>
 </Ability>
 </>};
 const _water = {title: "Water", jsx: <><h2 id="blessing-water-water">Water</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 68</Link><br/><strong className="hl">Deities:</strong> <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/pharasma">Pharasma</Link></p>
 <Ability id="ice-strike-minor" icon={["upgrade"]}>
-<Pair single id="ice-strike-minor">Ice Strike (minor)</Pair>
-<Pair title="At 1st Level">You can touch one weapon and enhance it with the power of water.``For 1 minute, this weapon glows with a blue-white chill and deals an additional 1d4 points of cold damage with each strike. This additional damage doesn't stack with the additional damage from the <Link to="/magic-enh/frost">frost</Link> or <Link to="/magic-enh/icy_burst">icy burst</Link> weapon special abilities.</Pair>
+<Pair single id="ice-strike-minor" flavor="You can touch one weapon and enhance it with the power of water.">Ice Strike (minor)</Pair>
+<Pair title="At 1st Level">For 1 minute, this weapon glows with a blue-white chill and deals an additional 1d4 points of cold damage with each strike. This additional damage doesn't stack with the additional damage from the <Link to="/magic-enh/frost">frost</Link> or <Link to="/magic-enh/icy_burst">icy burst</Link> weapon special abilities.</Pair>
 </Ability>
 <Ability id="armor-of-ice-major" icon={["shield-reflect"]}>
 <Pair single id="armor-of-ice-major">Armor of Ice (major)</Pair>
@@ -542,8 +542,8 @@ const _water = {title: "Water", jsx: <><h2 id="blessing-water-water">Water</h2>
 const _weather = {title: "Weather", jsx: <><h2 id="blessing-weather-weather">Weather</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 68</Link><br/><strong className="hl">Deities:</strong> <Link to="/faith/gozreh">Gozreh</Link>, <Link to="/faith/rovagug">Rovagug</Link></p>
 <Ability id="storm-strike-minor" icon={["upgrade"]}>
-<Pair single id="storm-strike-minor">Storm Strike (minor)</Pair>
-<Pair title="At 1st Level">You can touch one weapon and grant it a blessing of stormy weather.``For 1 minute, this weapon glows with blue or yellow sparks and deals an additional 1d4 points of electricity damage with each hit. This additional damage doesn't stack with the additional damage from the <Link to="/magic-enh/shock">shock</Link> or <Link to="/magic-enh/shocking_burst">shocking burst</Link> weapon special abilities.</Pair>
+<Pair single id="storm-strike-minor" flavor="You can touch one weapon and grant it a blessing of stormy weather.">Storm Strike (minor)</Pair>
+<Pair title="At 1st Level">For 1 minute, this weapon glows with blue or yellow sparks and deals an additional 1d4 points of electricity damage with each hit. This additional damage doesn't stack with the additional damage from the <Link to="/magic-enh/shock">shock</Link> or <Link to="/magic-enh/shocking_burst">shocking burst</Link> weapon special abilities.</Pair>
 </Ability>
 <Ability id="wind-barrier-major" icon={["magic-swirl"]}>
 <Pair single id="wind-barrier-major">Wind Barrier (major)</Pair>

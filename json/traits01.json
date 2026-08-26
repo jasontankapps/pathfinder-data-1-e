@@ -3584,7 +3584,7 @@
 		"name": "Pack Savvy",
 		"compilationSources": [ [ "People of the Wastes" ] ],
 		"description": [
-			"::trait{title=\"&L&Pack Savvy&FN&\" type=\"Social\" benefit=\"You have learned how to gain the respect of gnolls in your region, and you know something of their social structure.`You gain a +3 trait bonus on Charisma-based skill checks when dealing with ‹monster/gnoll«s›.\"}"
+			"::trait{title=\"&L&Pack Savvy&FN&\" type=\"Social\" flavor=\"You have learned how to gain the respect of gnolls in your region, and you know something of their social structure.\" benefit=\"You gain a +3 trait bonus on Charisma-based skill checks when dealing with ‹monster/gnoll«s›.\"}"
 		],
 		"category": "Social-ab-cha",
 		"topLink": [ "Social Traits", "main/traits_social" ]

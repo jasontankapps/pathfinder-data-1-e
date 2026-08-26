@@ -446,7 +446,7 @@ const _snake = {title: "Snake", jsx: <><h2 id="aspect-snake-snake">Snake</h2>
 <Row><Cell>Alternate Natural Attacks</Cell><Cell>Bite (B, P, S), tail slap (B)</Cell></Row></Block>
 </>};
 const _snapping_turtle = {title: "Snapping Turtle", jsx: <><h2 id="aspect-snapping_turtle-snapping-turtle">Snapping Turtle</h2>
-<p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 23</Link><br/>Long-lived and resilient, turtles embody wisdom and endurance in many cultures. Those who take this aspect gain profound insight as well as remarkable resilience. A snapping turtle's alternate attack is bite (B, P, S).</p>
+<p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 23</Link><br/>Long-lived and resilient, turtles embody wisdom and endurance in many cultures. Those who take this aspect gain profound insight as well as remarkable resilience.</p>
 <Ability id="minor-form" icon={["upgrade"]}>
 <Pair single id="minor-form">Minor Form</Pair>
 <Pair title="Passive Ability">You gain a +2 enhancement bonus to Wisdom.</Pair>

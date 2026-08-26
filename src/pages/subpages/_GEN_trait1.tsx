@@ -3290,7 +3290,8 @@ const _pack_savvy = {title: "Pack Savvy", topLink: ["Social Traits","main/traits
 <Ability id="pack-savvy" extraClasses="trait" icon={["village"]}>
 <Pair single id="pack-savvy">Pack Savvy</Pair>
 <Pair title="Type">Social</Pair>
-<Pair single="benefit" id="pack-savvy-benefit">You have learned how to gain the respect of gnolls in your region, and you know something of their social structure.`You gain a +3 trait bonus on Charisma-based skill checks when dealing with <Link to="/monster/gnoll">gnolls</Link>.</Pair>
+<Pair single="flavor" id="pack-savvy-flavor">You have learned how to gain the respect of gnolls in your region, and you know something of their social structure.</Pair>
+<Pair single="benefit" id="pack-savvy-benefit">You gain a +3 trait bonus on Charisma-based skill checks when dealing with <Link to="/monster/gnoll">gnolls</Link>.</Pair>
 </Ability>
 </>};
 const _passionate_inertia = {title: "Passionate Inertia", topLink: ["Social Traits","main/traits_social"], jsx: <><p><strong>Sources</strong> <Link to="/source/champions_of_corruption">Champions of Corruption</Link></p>

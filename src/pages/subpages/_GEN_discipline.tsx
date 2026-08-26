@@ -8,7 +8,7 @@ const _not_found = {title: "Unknown", jsx: <><h2 id="discipline-not_found-error"
 </>};
 const _abomination = {title: "Abomination", jsx: <><h2 id="discipline-abomination-abomination">Abomination</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 64</Link><br/>Your mind is impure, tainted by outside forces. These might be monstrous ancestors whose blood still flows within you, or powerful and unknowable psychic forces that intrude upon your mind. Like a psychic disease, this influence consumes part of your brain, creating a dark counterpart to your normal self. Every time you call forth a psychic spell, you're drawing on this dangerous force - and potentially giving it a greater hold on you. This malign influence might stem from creatures like <Link to="/family/rakshasa">rakshasas</Link> and <Link to="/monster/aboleth">aboleths</Link>, or perhaps malign entities that dwell in the voids between the stars.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Charisma</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -68,7 +68,7 @@ const _abomination = {title: "Abomination", jsx: <><h2 id="discipline-abominatio
 </>};
 const _bleaching = {title: "Bleaching", jsx: <><h2 id="discipline-bleaching-bleaching">Bleaching</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 18</Link><br/>You draw power from a void in your emotions, a yawning and empty chasm where your hopes and dreams and fears should be. It is very rare for any creature besides a <Link to="/race/gnome">gnome</Link> to have this psychic discipline - usually a bleachling or a gnome with a particularly strong fear of the Bleaching - but in occasional cases members of other races have been known to develop such a strong nihilistic ennui or depression that they can tap into the vitality-draining effects of this discipline as well.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Wisdom</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -106,7 +106,7 @@ const _bleaching = {title: "Bleaching", jsx: <><h2 id="discipline-bleaching-blea
 </>};
 const _dream = {title: "Dream", jsx: <><h2 id="discipline-dream-dream">Dream</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 65</Link><br/>You discover deeper and more powerful corners of your mind through journeys you make in your dreams. Your consciousness expands outward into other dreaming minds, allowing you to explore the psychic landscapes of unconsciousness or regions of nightmare and horror.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Charisma</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -154,7 +154,7 @@ const _dream = {title: "Dream", jsx: <><h2 id="discipline-dream-dream">Dream</h2
 </>};
 const _enlightenment = {title: "Enlightenment", jsx: <><h2 id="discipline-enlightenment-enlightenment">Enlightenment</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 16</Link><br/>Your quest for enlightenment has opened your eyes to new concepts and heights of spiritual awareness. You seek learning that allows you to evolve in mind and spirit, improving your next incarnation.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Wisdom</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -194,7 +194,7 @@ const _enlightenment = {title: "Enlightenment", jsx: <><h2 id="discipline-enligh
 </>};
 const _faith = {title: "Faith", jsx: <><h2 id="discipline-faith-faith">Faith</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 65</Link><br/>Your belief in a higher power fuels your psychic abilities. Whether your mental abilities truly come to you as a divine gift or are simply enhanced by the power of your belief, none can say. In many ways, you resemble a divine caster, and prayers often factor into your casting of psychic spells.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Wisdom</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -232,7 +232,7 @@ const _faith = {title: "Faith", jsx: <><h2 id="discipline-faith-faith">Faith</h2
 </>};
 const _ferocity = {title: "Ferocity", jsx: <><h2 id="discipline-ferocity-ferocity">Ferocity</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 92</Link><br/>You are in touch with the most primal part of your subconscious. Your training allows you to unlock animalistic senses and powers.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Wisdom</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -271,7 +271,7 @@ const _ferocity = {title: "Ferocity", jsx: <><h2 id="discipline-ferocity-ferocit
 </>};
 const _hag_called = {title: "Hag-Called", jsx: <><h2 id="discipline-hag_called-hag-called">Hag-Called</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_coven">Blood of the Coven pg. 23</Link><br/>A <Link to="/family/hag">hag's</Link> call echoes through your mind like a siren's song, enticing you to surrender and become something horrible. Even after you've resisted the call or even killed your hag mother, those echoes remain, shaping your mind into something else and telling you who you were meant to be. While you're almost certainly a <Link to="/race/changeling">changeling</Link>, you might be a latent psychic who came into accidental psychic contact with a hag's call through a changeling associate, or your dreams might have long been infested by a <Link to="/monster/night_hag">night hag's</Link> machinations.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Charisma</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -310,7 +310,7 @@ const _hag_called = {title: "Hag-Called", jsx: <><h2 id="discipline-hag_called-h
 </>};
 const _haunted = {title: "Haunted", jsx: <><h2 id="discipline-haunted-haunted">Haunted</h2>
 <p><strong>Sources</strong> <Link to="/source/haunted_heroes_handbook">Haunted Heroes Handbook pg. 18</Link><br/>You attract the attention of spirits as naturally as a lodestone attracts iron filings. Testing your power leads you to develop some control over undead forces, despite the inherent defenses such creatures have against psychic abilities. Meanwhile, those spirits clinging to your life essence become increasingly protective, channeling their abilities to aid you and warn of threats. Psychics of this discipline are most common in Ustalav and Shenmen, where so many spirits are stuck in the transition between life and death.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Charisma</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -344,7 +344,7 @@ const _haunted = {title: "Haunted", jsx: <><h2 id="discipline-haunted-haunted">H
 </>};
 const _lore = {title: "Lore", jsx: <><h2 id="discipline-lore-lore">Lore</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 66</Link><br/>By collecting expert information and reading all sorts of treatises and chapbooks on occult subjects, you learn proper techniques and rituals to empower your mental abilities. Your abilities become stronger through study and science, not instinct.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Wisdom</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -379,7 +379,7 @@ const _lore = {title: "Lore", jsx: <><h2 id="discipline-lore-lore">Lore</h2>
 <Pair title="At 5th Level">When attempting checks for the <Link to="/skill/automatic_writing">automatic writing</Link> occult skill unlock, you can treat your psychic level + your Wisdom bonus as your number of Linguistics skill ranks.</Pair>
 <Pair title="At 8th Level">You gain an additional option when using <em>automatic writing,</em> and can attempt a DC 35 check to gain information as though you'd used <Link to="/spell/commune">commune</Link> instead of <em>augury</em> or <Link to="/spell/divination">divination</Link>. This type of <em>commune</em> requires no material component, and the duration equals 1 round per psychic class level you possess. You connect to a distant being of great intellect, a fragment of the <Link to="/rule/akashic_record">Akashic Record</Link>, or a similar bastion of knowledge instead of to a deity.</Pair>
 </Ability>
-<Ability id="memory-palace-su" icon={["magic-swirl","upgrade"]}>
+<Ability id="memory-palace-su" extraClasses="subAbility" icon={["magic-swirl","upgrade"]}>
 <Pair single id="memory-palace-su">Memory Palace (Su)</Pair>
 <Pair title="Gained">At 13th Level</Pair>
 <Pair title="Usage">You can create your memory palace once per day.</Pair>
@@ -397,7 +397,7 @@ const _lore = {title: "Lore", jsx: <><h2 id="discipline-lore-lore">Lore</h2>
 </>};
 const _mindtech = {title: "Mindtech", jsx: <><h2 id="discipline-mindtech-mindtech">Mindtech</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_realms">Occult Realms pg. 13</Link><br/>You are innately tied to and can communicate with electronic machinery and similar technological objects, through which you can funnel your psychic power like flowing water. You can amplify and focus your psychic energies using the technology that surrounds you: even certain kinds of technology that might not be obvious to others.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Wisdom</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -430,7 +430,7 @@ const _mindtech = {title: "Mindtech", jsx: <><h2 id="discipline-mindtech-mindtec
 </>};
 const _pageantry = {title: "Pageantry", jsx: <><h2 id="discipline-pageantry-pageantry">Pageantry</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_high_court">Heroes of the High Court pg. 16</Link><br/>The act of ritual, no matter how ostentatious, can be a route to mental strength. By engaging in esoteric and intricate routines, you have unlocked potent psychic power.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Charisma</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -466,7 +466,7 @@ const _pageantry = {title: "Pageantry", jsx: <><h2 id="discipline-pageantry-page
 </>};
 const _pain = {title: "Pain", jsx: <><h2 id="discipline-pain-pain">Pain</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 67</Link><br/>Mental blocks prevent your immense inborn psychic energies from flowing freely. They are unleashed only when you suffer pain.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Charisma</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -507,7 +507,7 @@ const _pain = {title: "Pain", jsx: <><h2 id="discipline-pain-pain">Pain</h2>
 </>};
 const _psychedelia = {title: "Psychedelia", jsx: <><h2 id="discipline-psychedelia-psychedelia">Psychedelia</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 67</Link><br/>You ingest hallucinogens to expand your mind. Experimentation and study show you which ones will have the greatest effect. Your psychedelic forays put you into a different mental space from others, and normal people don't really understand you.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Wisdom</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -548,7 +548,7 @@ const _psychedelia = {title: "Psychedelia", jsx: <><h2 id="discipline-psychedeli
 </>};
 const _rapport = {title: "Rapport", jsx: <><h2 id="discipline-rapport-rapport">Rapport</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 68</Link><br/>Forging a close bond with other people brings out the best in you, making it easier for you to link your mind with theirs. Through bonding your psyche with another person, you're able to fill in your own mental gaps and develop new psychic powers.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Charisma</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -596,7 +596,7 @@ const _rapport = {title: "Rapport", jsx: <><h2 id="discipline-rapport-rapport">R
 </>};
 const _rebirth = {title: "Rebirth", jsx: <><h2 id="discipline-rebirth-rebirth">Rebirth</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 17</Link><br/>Your mind is forged from the most powerful memories of a multitude of lifetimes. You have fragmentary knowledge of your prior lives and can leverage the experience gained during these lifetimes into raw psychic power.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Charisma</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -636,7 +636,7 @@ const _rebirth = {title: "Rebirth", jsx: <><h2 id="discipline-rebirth-rebirth">R
 </>};
 const _rivethun = {title: "Rivethun", jsx: <><h2 id="discipline-rivethun-rivethun"><Link to="/rule/rivethun">Rivethun</Link></h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 168</Link><br/>You have embraced those aspects of your body that cause you agony, respecting the perspective they grant you if not necessarily the roles they've condemned you to in life.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Charisma</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -675,7 +675,7 @@ const _rivethun = {title: "Rivethun", jsx: <><h2 id="discipline-rivethun-rivethu
 </>};
 const _self_perfection = {title: "Self-Perfection", jsx: <><h2 id="discipline-self_perfection-self-perfection">Self-Perfection</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 68</Link><br/>You take a holistic view of psychic power, believing that you must hone both your mental and physical attributes to remain in balance. The focus you find while exercising, fasting, and otherwise tending to your body broadens your psychic powers.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Wisdom</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -722,7 +722,7 @@ const _self_perfection = {title: "Self-Perfection", jsx: <><h2 id="discipline-se
 </>};
 const _shadow = {title: "Shadow", jsx: <><h2 id="discipline-shadow-shadow">Shadow</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_shadows">Blood of Shadows pg. 17</Link><br/>You perceive the space between light and darkness, and draw power from it. Shadows conceal and protect you, while revealing the locations of those who dare to hide within them. Over time, you develop the ability to deny the warmth of light or life to your enemies.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Wisdom</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -756,7 +756,7 @@ const _shadow = {title: "Shadow", jsx: <><h2 id="discipline-shadow-shadow">Shado
 </>};
 const _sorrow = {title: "Sorrow", jsx: <><h2 id="discipline-sorrow-sorrow">Sorrow</h2>
 <p><strong>Sources</strong> <Link to="/source/legacy_of_the_first_world">Legacy of the First World pg. 22</Link><br/>You draw strength from deep feelings of abandonment, loneliness, and sadness, turning these emotions into a powerful weapon or a barrier that protects you.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Charisma</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -796,7 +796,7 @@ const _sorrow = {title: "Sorrow", jsx: <><h2 id="discipline-sorrow-sorrow">Sorro
 </>};
 const _superiority = {title: "Superiority", jsx: <><h2 id="discipline-superiority-superiority">Superiority</h2>
 <p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine pg. 19</Link><br/>You know that you are far better than average creatures of your kind. The more you leverage your psychic talents to prove yourself superior, the more powerful you become.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Charisma</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -831,7 +831,7 @@ const _superiority = {title: "Superiority", jsx: <><h2 id="discipline-superiorit
 </>};
 const _symbiosis = {title: "Symbiosis", jsx: <><h2 id="discipline-symbiosis-symbiosis">Symbiosis</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 93</Link><br/>Like pollen on the wind or the roots of plants in the ground, your thoughts permeate your surroundings, allowing you to study and manipulate the world around you.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Charisma</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -878,7 +878,7 @@ const _symbiosis = {title: "Symbiosis", jsx: <><h2 id="discipline-symbiosis-symb
 </>};
 const _tranquility = {title: "Tranquility", jsx: <><h2 id="discipline-tranquility-tranquility">Tranquility</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 69</Link><br/>Psychic magic flows through you when you attain a peaceful mental state. Regular meditation expands your mind, allowing new powers to develop.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Wisdom</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>
@@ -914,7 +914,7 @@ const _tranquility = {title: "Tranquility", jsx: <><h2 id="discipline-tranquilit
 </>};
 const _warp = {title: "Warp", jsx: <><h2 id="discipline-warp-warp">Warp</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_beast">Blood of the Beast pg. 24</Link><br/>Ratfolk mythology claims they were appointed by the gods to sniff out the ragged edges of creation. Whether the art of ranatagi descended from this glorious role or formed the source of such myths, this psychic tradition among the ratfolk of Vudra and eastern Casmaron unlocks the psychic potential in trainees, teaching them to sniff out folds and tears in reality. Ancient practitioners of ranatagi even claimed that the art once allowed ratfolk to guide great caravans to the stars.</p>
-<Block size="simple">
+<Block size="simple" hl>
 <Row><Cell>Phrenic Pool Ability</Cell><Cell>Charisma</Cell></Row></Block>
 <Block titled size="simple"><Row><Cell><p>Bonus Spells</p>
 </Cell></Row>

@@ -2077,7 +2077,8 @@ const _shoanti_steed = {title: "Shoanti Steed", topLink: ["Race Traits","main/tr
 <Pair single id="shoanti-steed">Shoanti Steed</Pair>
 <Pair title="Type">Race</Pair>
 <Pair title="Requirements" hl><Link to="/race/human">Human</Link>; Shoanti</Pair>
-<Pair single="benefit" id="shoanti-steed-benefit"><p>Your nomadic culture gives you a profound knowledge of and respect for the horses that roam your homelands.`You begin play with a combat trained <Link to="/eq-misc/light_horse">light horse</Link>. While riding this horse bareback, you are treated as though you were riding it with a <Link to="/eq-misc/riding_saddle">riding saddle</Link> (placing any actual saddle upon the horse negates this benefit). The horse can fend for itself outside of settlements in all but the most hostile environments. If whistled for outside of a community, the horse typically arrives within 1d6 minutes.</p>
+<Pair single="flavor" id="shoanti-steed-flavor">Your nomadic culture gives you a profound knowledge of and respect for the horses that roam your homelands.</Pair>
+<Pair single="benefit" id="shoanti-steed-benefit"><p>You begin play with a combat trained <Link to="/eq-misc/light_horse">light horse</Link>. While riding this horse bareback, you are treated as though you were riding it with a <Link to="/eq-misc/riding_saddle">riding saddle</Link> (placing any actual saddle upon the horse negates this benefit). The horse can fend for itself outside of settlements in all but the most hostile environments. If whistled for outside of a community, the horse typically arrives within 1d6 minutes.</p>
 <p>If your horse is slain, you may receive a new horse by returning to your clan and performing a vigil for its spirit (a rite that costs 100 gp in rare herbs and incense).</p>
 </Pair>
 </Ability>
