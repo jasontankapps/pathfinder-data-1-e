@@ -15,13 +15,13 @@
 			"",
 			"‹SOURCE Ultimate Magic/33›",
 			"",
-			"**Granted Powers:** You master the deeps of the sea, raging rivers, flowing falls, and relentless tides.",
+			"@HL[Granted Powers:] You master the deeps of the sea, raging rivers, flowing falls, and relentless tides.",
 			"",
-			"**Sealord (Su):** You can ‹ability/channel energy› (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the aquatic or water subtype or to command them (similar to using the ‹feat/Command Undead› feat against undead). You can take other feats to add to this ability, such as ‹feat/Extra Channel› and ‹feat/Improved Channel›, but not feats that alter this ability, such as ‹feat/Elemental Channel› and ‹feat/Alignment Channel›. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.",
+			"::ab[Sealord (Su)]{useMod=Charisma3 icon=aura-power ability=\"You can ‹ability/channel energy› (as a cleric of your druid level), but only to heal creatures with the aquatic or water subtype or to command them (similar to using the ‹feat/Command Undead› feat against undead). You can take other feats to add to this ability, such as ‹feat/Extra Channel› and ‹feat/Improved Channel›, but not feats that alter this ability, such as ‹feat/Elemental Channel› and ‹feat/Alignment Channel›. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.\"}",
 			"",
-			"**Seastrike (Su):** At 6th level, as a free action, you may use natural and manufactured weapons in water as if you had continuous *freedom of movement.* As a standard action, you can throw a weapon underwater without the normal penalties for throwing weapons; if your target is in or under the water, the weapon also acts as a ‹magic-enh/returning› weapon for that attack.",
+			"::ab[Seastrike (Su)]{l=6 icon=power-boost-ranged free=\"You may use natural and manufactured weapons in water as if you had continuous *freedom of movement.*\" standard=\"You can throw a weapon underwater without the normal penalties for throwing weapons; if your target is in or under the water, the weapon also acts as a ‹magic-enh/returning› weapon for that attack.\" order=fs}",
 			"",
-			"**Domain Spells:** 1st-‹spell/hydraulic push›, 2nd-‹spell/slipstream›, 3rd-‹spell/water breathing›, 4th-‹spell/freedom of movement›, 5th-‹spell/black tentacles›, 6th-‹spell/freezing sphere›, 7th-‹spell/animal shapes› (aquatic creatures only), 8th-‹spell/seamantle›, 9th-‹spell/tsunami›."
+			"::spelllist[Domain Spells]{all=\"hydraulic push~slipstream~water breathing~freedom of movement~black tentacles~freezing sphere~animal shapes|aquatic creatures only~seamantle~tsunami\"}"
 		]
 	},
 	"arctic": {
@@ -32,13 +32,13 @@
 			"",
 			"‹SOURCE Ultimate Magic/33›",
 			"",
-			"**Granted Powers:** You master the might of the endless, snow-covered wastes beneath the midnight sun, where icy polar winds blow.",
+			"@HL[Granted Powers:] You master the might of the endless, snow-covered wastes beneath the midnight sun, where icy polar winds blow.",
 			"",
-			"**Call Cold (Su):** You can ‹ability/channel energy› (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the cold subtype or to command them (similar to using the ‹feat/Command Undead› feat against undead). You can take other feats that add to this ability, such as ‹feat/Extra Channel› and ‹feat/Improved Channel›, but not feats that alter this ability, such as ‹feat/Elemental Channel› and ‹feat/Alignment Channel›. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.",
+			"::ab[Call Cold (Su)]{icon=aura-power useMod=Charisma3 ability=\"You can ‹ability/channel energy› (as a cleric of your druid level), but only to heal creatures with the cold subtype or to command them (similar to using the ‹feat/Command Undead› feat against undead). You can take other feats that add to this ability, such as ‹feat/Extra Channel› and ‹feat/Improved Channel›, but not feats that alter this ability, such as ‹feat/Elemental Channel› and ‹feat/Alignment Channel›. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.\"}",
 			"",
-			"**Banish Flame (Su):** At 6th level, you may use your call cold ability to damage creatures with the fire subtype (as a cleric channeling negative energy) or to cause them to flee from you (as the ‹feat/Turn Undead› feat). Alternatively, you may use this ability to negate magical fire effects as if using a targeted ‹spell/dispel magic›; at 12th level, this functions as targeted or area ‹spell/greater dispel magic› instead of dispel magic.",
+			"::ab[Banish Flame (Su)]{l=6 icon=aura ability=\"You may use your *call cold* ability to damage creatures with the fire subtype (as a cleric channeling negative energy) or to cause them to flee from you (as the ‹feat/Turn Undead› feat). Alternatively, you may use this ability to negate magical fire effects as if using a targeted ‹spell/dispel magic›.\" imp12=\"This functions as targeted or area ‹spell/greater dispel magic› instead of *dispel magic.*\"}",
 			"",
-			"**Domain Spells:** 1st-‹spell/frostbite›, 2nd-‹spell/aspect of the bear›, 3rd-‹spell/sleet storm›, 4th-‹spell/wall of ice›, 5th-‹spell/aspect of the wolf›, 6th-‹spell/freezing sphere›, 7th-‹spell/wind walk›, 8th-‹spell/polar ray›, 9th-‹spell/polar midnight›."
+			"::spelllist[Domain Spells]{all=\"frostbite~aspect of the bear~sleet storm~wall of ice~aspect of the wolf~freezing sphere~wind walk~polar ray~polar midnight\"}"
 		]
 	},
 	"badlands": {
@@ -49,17 +49,15 @@
 			"",
 			"‹SOURCE Faiths and Philosophies/24›",
 			"",
-			"**Granted Powers:** Your spirit knows both the harshness of the drying wind and the raw beauty of painted canyons.",
+			"@HL[Granted Powers:] Your spirit knows both the harshness of the drying wind and the raw beauty of painted canyons.",
 			"",
-			"**Subsistence (Ex):** You can survive on very little food or water while helping others survive in harsh climates. When determining how long you can withstand starvation and thirst, including checks to avoid nonlethal damage, treat your Constitution score as though it were 10 points higher. Additionally, you gain a bonus equal to one half your druid level (minimum 1) on Survival checks in dry hills or desert terrain.",
+			"::ab[Subsistence (Ex)]{icon=def-boost flavor=\"You can survive on very little food or water while helping others survive in harsh climates.\" passive=\"When determining how long you can withstand starvation and thirst, including checks to avoid nonlethal damage, treat your Constitution score as though it were 10 points higher. Additionally, you gain a bonus equal to one half your druid level (minimum 1) on ‹skill/Survival› checks in dry hills or desert terrain.\"}",
 			"",
-			"**Wasteland Stride (Ex):** At 2nd level, you may move through light or dense rubble, as well as up or down steep slopes, at your normal speed without suffering any impairment. Areas that have been magically manipulated to impede motion still affect you, however.",
+			"::ab[Wasteland Stride (Ex)]{l=2 icon=power ability=\"You may move through light or dense rubble, as well as up or down steep slopes, at your normal speed without suffering any impairment. Areas that have been magically manipulated to impede motion still affect you, however.\" replace=\"Woodland stride\"}",
 			"",
-			"This replaces @HL[woodland stride].",
+			"::ab[Badlands Spirit (Su)]{l=8 icon=magic ability=\"Whenever you use *wild shape* to take on the form of an earth elemental, you also gain ‹spell/geyser› as a spell-like ability.\" imp12=\"You also gain ‹spell/sirocco›.\" imp15=\"You also gain ‹spell/scouring winds›.\" special=\"Each spell-like ability is usable once per day.\"}",
 			"",
-			"**Badlands Spirit (Su):** At 8th level, whenever you use wild shape to take on the form of an earth elemental, you also gain the following spell-like abilities, depending on your druid class level: ‹spell/geyser› (8th); ‹spell/sirocco› (12th), ‹spell/scouring winds› (15th). Each spell-like ability is usable once per day.",
-			"",
-			"**Domain Spells:** 1st-‹spell/cloak of shade›, 2nd-‹spell/feast of ashes›, 3rd-‹spell/cloak of winds›, 4th-‹spell/spike stones›, 5th-‹spell/wind blades›, 6th-‹spell/find the path›, 7th-‹spell/fire storm›, 8th-‹spell/earthquake›, 9th-‹spell/storm of vengeance›."
+			"::spelllist[Domain Spells]{all=\"cloak of shade~feast of ashes~cloak of winds~spike stones~wind blades~find the path~fire storm~earthquake~storm of vengeance\"}"
 		]
 	},
 	"cave": {
@@ -70,13 +68,13 @@
 			"",
 			"‹SOURCE Ultimate Magic/33›",
 			"",
-			"**Granted Powers:** The wonders and dark secrets of the deepest caves give you strength.",
+			"@HL[Granted Powers:] The wonders and dark secrets of the deepest caves give you strength.",
 			"",
-			"**Cavesight (Sp):** You can grant darkvision 60 feet to a willing creature you touch. This effect lasts 1 minute, or 1 hour if used on yourself. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			"::ab[Cavesight (Sp)]{icon=power ability=\"You can grant darkvision 60 feet to a willing creature you touch. This effect lasts 1 minute, or 1 hour if used on yourself.\" useMod=Wisdom3}",
 			"",
-			"**Tremorsense (Ex):** At 6th level, you gain ‹umr/tremorsense› 30 feet. At 12th level, you gain tremorsense 60 feet.",
+			"::ab[Tremorsense (Ex)]{icon=power l6=\"You gain ‹umr/tremorsense› 30 feet.\" l12=\"You gain tremorsense 60 feet.\"}",
 			"",
-			"**Domain Spells:** 1st-‹spell/detect aberration›, 2nd-‹spell/stone call›, 3rd-‹spell/deeper darkness›, 4th-‹spell/echolocation›, 5th-‹spell/wall of stone›, 6th-‹spell/conjure black pudding›, 7th-‹spell/statue› (looking like a stalagmite or stalactite), 8th-‹spell/earthquake›, 9th-‹spell/imprisonment›."
+			"::spelllist[Domain Spells]{all=\"detect aberration~stone call~deeper darkness~echolocation~wall of stone~conjure black pudding~statue|looking like a stalagmite or stalactite~earthquake~imprisonment\"}"
 		]
 	},
 	"crocodile": {
@@ -87,15 +85,15 @@
 			"",
 			"‹SOURCE Faiths and Philosophies/24›",
 			"",
-			"**Granted Powers:** You are connected with the primal forces of creation and destruction and with the crocodile spirit's ancient wisdom.",
+			"@HL[Granted Powers:] You are connected with the primal forces of creation and destruction and with the crocodile spirit's ancient wisdom.",
 			"",
-			"**Familiar:** You gain a ‹monster/dwarf caiman› ‹sidekick/familiar›. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.",
+			"::ab[Familiar]{icon=power ability=\"You gain a ‹monster/dwarf caiman› ‹sidekick/familiar›. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.\"}",
 			"",
-			"**Death Roll (Ex):** While grappling an enemy up to one size category larger than you, you may make a grapple check to roll wildly, knocking your enemy prone and dealing 1d8 points of damage. When using this ability, you gain a bonus to your CMB equal to one half your druid level (minimum 1). You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			"::ab[Death Roll (Ex)]{icon=melee-boost ability=\"While grappling an enemy up to one size category larger than you, you may make a grapple check to roll wildly, knocking your enemy ‹rule/prone› and dealing 1d8 points of damage. When using this ability, you gain a bonus to your CMB equal to one half your druid level (minimum 1).\" useMod=Wisdom3}",
 			"",
-			"**Ambush (Ex):** At 6th level, you gain ‹ability/sneak attack› +1d6. This increase to sneak attack damage stacks with sneak attack damage you may have from other sources. This sneak attack damage increases by +1d6 for every 5 druid levels you possess beyond 6th, to a maximum of +3d6 at 16th level.",
+			"::ab[Ambush (Ex)]{l=6 icon=power ability=\"You gain ‹ability/sneak attack› +1d6. This increase to sneak attack damage stacks with sneak attack damage you may have from other sources.\" increment=\"This sneak attack damage~5~6\" incrementEnd=\"d6.\"}",
 			"",
-			"**Domain Spells:** 1st-‹spell/touch of the sea›, 2nd-‹spell/savage maw›, 3rd-‹spell/water walk›, 4th-‹spell/strong jaw›, 5th-‹spell/legend lore›, 6th-‹spell/mass owl's wisdom›, 7th-‹spell/true seeing›, 8th-‹spell/mass heal›, 9th-‹spell/regenerate›."
+			"::spelllist[Domain Spells]{all=\"touch of the sea~savage maw~water walk~strong jaw~legend lore~mass owl's wisdom~true seeing~mass heal~regenerate\"}"
 		]
 	},
 	"desert": {
@@ -106,13 +104,13 @@
 			"",
 			"‹SOURCE Ultimate Magic/34›",
 			"",
-			"**Granted Powers:** The spirits and secrets of the endless wastes are yours to command.",
+			"@HL[Granted Powers:] The spirits and secrets of the endless wastes are yours to command.",
 			"",
-			"**Heat Shimmer (Su):** As a free action, you can surround yourself with heat distortion that acts as the ‹spell/blur› spell. Creatures that strike you in melee while you're using this ability are ‹misc/dazzled› for 1 round (Fortitude negates). You may use this ability for a number of rounds per day equal to 3 + your Wisdom modifier. These rounds need not be consecutive.",
+			"::ab[Heat Shimmer (Su)]{icon=def free=\"You can surround yourself with heat distortion that acts as the ‹spell/blur› spell. Creatures that strike you in melee while you're using this ability are ‹misc/dazzled› for 1 round (Fortitude negates).\" useMod=Wisdom3 useUnit=round useNC}",
 			"",
-			"**Servant of the Sands (Sp):** At 8th level, once per day, you may call upon the aid of a ‹monster/janni› as if using ‹spell/lesser planar ally›. At 12th level, you may call upon the aid of any type of common (non-noble) ‹family/genie› as if using ‹spell/planar ally›. At 16th level, you may call upon the aid of a noble genie as if using ‹spell/greater planar ally›. If you use this power while in desert terrain, you need not make an offering to call the creature(s), and the cost of any service is halved.",
+			"::ab[Servant of the Sands (Sp)]{icon=magic l8=\"Once per day, you may call upon the aid of a ‹monster/janni› as if using ‹spell/lesser planar ally›.\" l12=\"You may call upon the aid of any type of common (non-noble) ‹family/genie› as if using ‹spell/planar ally›.\" l16=\"You may call upon the aid of a noble genie as if using ‹spell/greater planar ally›.\" special=\"If you use this power while in desert terrain, you need not make an offering to call the creature(s), and the cost of any service is halved.\"}",
 			"",
-			"**Domain Spells:** 1st-‹spell/cloak of shade›, 2nd-‹spell/shifting sand›, 3rd-‹spell/cup of dust›, 4th-‹spell/hallucinatory terrain›, 5th-‹spell/transmute rock to mud› (creates loose sand instead of mud), 6th-‹spell/sirocco›, 7th-‹spell/sunbeam›, 8th-‹spell/sunburst›, 9th-‹spell/horrid wilting›."
+			"::spelllist[Domain Spells]{all=\"cloak of shade~shifting sand~cup of dust~hallucinatory terrain~transmute rock to mud|creates loose sand instead of mud~sirocco~sunbeam~sunburst~horrid wilting\"}"
 		]
 	},
 	"eagle": {
@@ -123,15 +121,15 @@
 			"",
 			"‹SOURCE Ultimate Magic/34›",
 			"",
-			"**Granted Powers:** Your spirit soars with the mightiest and noblest of all winged creatures.",
+			"@HL[Granted Powers:] Your spirit soars with the mightiest and noblest of all winged creatures.",
 			"",
-			"**Familiar:** You gain a ‹monster/hawk› ‹sidekick/familiar›. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.",
+			"::ab[Familiar]{icon=power ability=\"You gain a ‹monster/hawk› ‹sidekick/familiar›. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.\"}",
 			"",
-			"**Hawkeye (Su):** As a swift action, you may add a bonus equal to half your druid level (minimum +1) on one ranged attack or on one Perception check. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			"::ab[Hawkeye (Su)]{icon=boost swift=\"You may add a bonus equal to ‹misc/half› your druid level (minimum +1) on one ranged attack or on one ‹skill/Perception› check.\" useMod=Wisdom3}",
 			"",
-			"**Aerial evasion (Ex):** At 6th level, you gain the ‹ability/evasion› ability (as a rogue) when you are flying. At 12th level, you gain ‹talent/improved evasion› while flying.",
+			"::ab[Aerial evasion (Ex)]{icon=def l6=\"You gain the ‹ability/evasion› ability (as a rogue) when you are flying.\" l12=\"You gain ‹talent/improved evasion› while flying.\"}",
 			"",
-			"**Domain Spells:** 1st-‹spell/aspect of the falcon›, 2nd-‹spell/eagle's splendor›, 3rd-‹spell/fly›, 4th-‹spell/river of wind›, 5th-‹spell/overland flight›, 6th-‹spell/eagle aerie›, 7th-‹spell/animal shapes› (birds only), 8th-‹spell/sunburst›, 9th-‹spell/winds of vengeance›."
+			"::spelllist[Domain Spells]{all=\"aspect of the falcon~eagle's splendor~fly~river of wind~overland flight~eagle aerie~animal shapes|birds only~sunburst~winds of vengeance\"}"
 		]
 	},
 	"erosion": {
@@ -142,13 +140,13 @@
 			"",
 			"‹SOURCE Ultimate Wilderness/46›",
 			"",
-			"**Granted Powers:** You command the crumbling of stone and revel in rust; the decay and destruction of metal and stone over time appeals to and delights you.",
+			"@HL[Granted Powers:] You command the crumbling of stone and revel in rust; the decay and destruction of metal and stone over time appeals to and delights you.",
 			"",
-			"**Rusting Touch (Su):** You can cause an opponent's metal armor or weapon to become dry and brittle as it magically corrodes and rusts. You make a melee touch attack against a creature wearing metal armor or wielding a metal weapon. If you hit, choose a metal weapon, suit of metal armor, or metal shield carried or worn by that creature. The object takes an amount of hit point damage equal to 1d6 + half your druid level. If the item is not magical, or if your caster level is greater than the item's caster level, this damage bypasses the item's hardness. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			"::ab[Rusting Touch (Su)]{icon=touch flavor=\"You can cause an opponent's metal armor or weapon to become dry and brittle as it magically corrodes and rusts.\" ability=\"You make a melee touch attack against a creature wearing metal armor or wielding a metal weapon. If you hit, choose a metal weapon, suit of metal armor, or metal shield carried or worn by that creature. The object takes an amount of hit point damage equal to 1d6 + ‹misc/half› your druid level. If the item is not magical, or if your caster level is greater than the item's caster level, this damage bypasses the item's hardness.\" useMod=Wisdom3}",
 			"",
-			"**Erosion Aura (Su):** At 8th level, you can project an aura of magically enhanced erosion as a standard action. Objects made primarily of metal or stone within this aura lose 10 points of hardness. Magic items retain a minimum hardness equal to twice their enhancement bonus and can attempt a Fortitude saving throw (DC = 10 + half your druid level + your Wisdom modifier) to negate this effect. A construct made primarily of metal or stone must succeed at a Fortitude save or lose all damage reduction and hardness for 1 round. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			"::ab[Erosion Aura (Su)]{l=8 icon=aura standard=\"You can project an aura of magically enhanced erosion. Objects made primarily of metal or stone within this aura lose 10 points of hardness. Magic items retain a minimum hardness equal to twice their enhancement bonus and can attempt a Fortitude saving throw (DC = 10 + half your druid level + your Wisdom modifier) to negate this effect. A construct made primarily of metal or stone must succeed at a Fortitude save or lose all damage reduction and hardness for 1 round.\" useMod=Wisdom3}",
 			"",
-			"**Domain Spells:** 1st-‹spell/expeditious excavation›, 2nd-‹spell/soften earth and stone›, 3rd-‹spell/disable construct›, 4th-‹spell/rusting grasp›, 5th-‹spell/transmute rock to mud›, 6th-‹spell/sympathetic vibration›, 7th-‹spell/disintegrate›, 8th-‹spell/earthquake›, 9th-‹spell/implosion›."
+			"::spelllist[Domain Spells]{all=\"expeditious excavation~soften earth and stone~disable construct~rusting grasp~transmute rock to mud~sympathetic vibration~disintegrate~earthquake~implosion\"}"
 		]
 	},
 	"frog": {
@@ -159,15 +157,15 @@
 			"",
 			"‹SOURCE Ultimate Magic/34›",
 			"",
-			"**Granted Powers:** You venerate the elder amphibians that first brought life to land.",
+			"@HL[Granted Powers:] You venerate the elder amphibians that first brought life to land.",
 			"",
-			"**Familiar:** You may gain a ‹monster/toad› ‹sidekick/familiar›. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.",
+			"::ab[Familiar]{icon=power ability=\"You may gain a ‹monster/toad› ‹sidekick/familiar›. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant ‹ability/familiar«s› when determining the powers of your familiar.\"}",
 			"",
-			"**Sticky Strike (Su):** As a standard action, you can attempt a ranged touch attack with a sticky tendril against a target up to 15 feet away, then use the ‹umr/pull› universal monster ability to pull the target 5 feet toward you. You gain a bonus on the pull's combat maneuver check equal to 1/2 your druid level. If the target is larger than you, you may pull yourself 5 feet toward the target without making a check. The target can remove the tendril by making an opposed Strength check as a standard action, or by dealing enough slashing damage to the tendril (hit points equal to your druid level, Armor Class equal to your touch Armor Class). You can dissolve the tendril as a free action. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			"::ab[Sticky Strike (Su)]{icon=zap standard=\"You can attempt a ranged touch attack with a sticky tendril against a target up to 15 feet away, then use the ‹umr/pull› universal monster ability to pull the target 5 feet toward you. You gain a bonus on the pull's combat maneuver check equal to 1/2 your druid level. If the target is larger than you, you may pull yourself 5 feet toward the target without making a check.~~~The target can remove the tendril by making an opposed Strength check as a standard action, or by dealing enough slashing damage to the tendril (hit points equal to your druid level, Armor Class equal to your touch Armor Class). You can dissolve the tendril as a @HLfree_action.\" useMod=Wisdom3}",
 			"",
-			"**Webfoot (Ex):** At 6th level, you gain the ‹umr/amphibious› special quality and a swim speed equal to your land speed. At 12th level, you gain a climb speed equal to your land speed.",
+			"::ab[Webfoot (Ex)]{icon=power l6=\"You gain the ‹umr/amphibious› special quality and a swim speed equal to your land speed.\" l12=\"You gain a climb speed equal to your land speed.\"}",
 			"",
-			"**Domain Spells:** 1st-‹spell/jump›, 2nd-‹spell/delay poison›, 3rd-‹spell/lily pad stride›, 4th-‹spell/shout›, 5th-‹spell/blessing of the salamander›, 6th-‹spell/confusion›, 7th-‹spell/animal shapes› (amphibians only), 8th-‹spell/greater shout›, 9th-‹spell/summon froghemoth›."
+			"::spelllist[Domain Spells]{all=\"jump~delay poison~lily pad stride~shout~blessing of the salamander~confusion~animal shapes|amphibians only~greater shout~summon froghemoth\"}"
 		]
 	},
 	"jungle": {
@@ -178,13 +176,13 @@
 			"",
 			"‹SOURCE Ultimate Magic/34›",
 			"",
-			"**Granted Powers:** The spirits of the jungle, both of natural guardians and lost civilizations, whisper in your heart.",
+			"@HL[Granted Powers:] The spirits of the jungle, both of natural guardians and lost civilizations, whisper in your heart.",
 			"",
-			"**Brachiation (Ex):** As a free action for a number of rounds per day equal to your druid level, you may climb with a climb speed equal to your land speed, and gain a bonus on Acrobatics checks equal to your druid level. These rounds do not have to be consecutive.",
+			"::ab[Brachiation (Ex)]{icon=power useL=druid useNC free=\"You may climb with a climb speed equal to your land speed, and gain a bonus on ‹skill/Acrobatics› checks equal to your druid level.\"}",
 			"",
-			"**Trap Sense (Ex):** At 3rd level, you gain the ‹ability/trap sense› ability. This is identical to the rogue class ability. Your effective rogue level is equal to your druid level for the purpose of determining your trap sense bonus. Trap sense bonuses gained from multiple classes stack.",
+			"::ab[Trap Sense (Ex)]{l=3 icon=def ability=\"You gain the ‹ability/trap sense› ability. This is identical to the rogue class ability. Your effective rogue level is equal to your druid level for the purpose of determining your trap sense bonus. Trap sense bonuses gained from multiple classes stack.\"}",
 			"",
-			"**Domain Spells:** 1st-‹spell/glide›, 2nd-‹spell/tar ball›, 3rd-‹spell/venomous bolt›, 4th-‹spell/arboreal hammer›, 5th-‹spell/blessing of the salamander›, 6th-‹spell/swarm skin›, 7th-‹spell/creeping doom›, 8th-‹spell/wall of lava›, 9th-‹spell/shambler›."
+			"::spelllist[Domain Spells]{all=\"glide~tar ball~venomous bolt~arboreal hammer~blessing of the salamander~swarm skin~creeping doom~wall of lava~shambler\"}"
 		]
 	},
 	"monkey": {
@@ -195,15 +193,15 @@
 			"",
 			"‹SOURCE Ultimate Magic/34›",
 			"",
-			"**Granted Powers:** The balanced wisdom, skill, agility, and playfulness of the monkey are the model for your spiritual discipline.",
+			"@HL[Granted Powers:] The balanced wisdom, skill, agility, and playfulness of the monkey are the model for your spiritual discipline.",
 			"",
-			"**Familiar:** You gain a ‹monster/monkey› ‹sidekick/familiar›. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.",
+			"::ab[Familiar]{icon=power ability=\"You gain a ‹monster/monkey› ‹sidekick/familiar›. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant ‹ability/familiar«s› when determining the powers of your familiar.\"}",
 			"",
-			"**Monkey Athletics (Su):** As a free action, you may add a competence bonus equal to half your druid level (minimum of +1) on one Acrobatics, Climb, Disable Device, or Sleight of Hand check. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			"::ab[Monkey Athletics (Su)]{icon=boost useMod=Wisdom3 free=\"You may add a competence bonus equal to half your druid level (minimum of +1) on one ‹skill/Acrobatics›, ‹skill/Climb›, ‹skill/Disable Device›, or ‹skill/Sleight of Hand› check.\"}",
 			"",
-			"**Ranged Legerdemain (Su):** At 6th level, you can use the Disable Device and Sleight of Hand skills at a range of 30 feet. Working at a distance increases the normal skill check DC by 5, and you cannot take 10 on this check. Any object to be manipulated must weigh 5 pounds or less. You can only use this ability if you have at least 1 rank in the skill being used.",
+			"::ab[Ranged Legerdemain (Su)]{l=6 icon=ranged ability=\"You can use the Disable Device and Sleight of Hand skills at a range of 30 feet. Working at a distance increases the normal skill check DC by 5, and you cannot take 10 on this check. Any object to be manipulated must weigh 5 pounds or less. You can only use this ability if you have at least 1 rank in the skill being used.\"}",
 			"",
-			"**Domain Spells:** 1st-‹spell/beguiling gift›, 2nd-‹spell/spider climb›, 3rd-‹spell/cacophonous call›, 4th-‹spell/freedom of movement›, 5th-‹spell/summon nature's ally V› (dire ape or girallon only), 6th-‹spell/confusion›, 7th-‹spell/animal shapes› (apes and monkeys only), 8th-‹spell/clenched fist›, 9th-‹spell/foresight›."
+			"::spelllist[Domain Spells]{all=\"beguiling gift~spider climb~cacophonous call~freedom of movement~summon nature's ally V|dire ape or girallon only~confusion~animal shapes|apes and monkeys only~clenched fist~foresight\"}"
 		]
 	},
 	"mountain": {
@@ -214,13 +212,13 @@
 			"",
 			"‹SOURCE Ultimate Magic/35›",
 			"",
-			"**Granted Powers:** You have mastered the mighty powers of the great mountains that pierce the sky and stand aloof above the lowlands.",
+			"@HL[Granted Powers:] You have mastered the mighty powers of the great mountains that pierce the sky and stand aloof above the lowlands.",
 			"",
-			"**Foothold (Su):** As a standard action, you can cause an adjacent stone surface up to 10 feet square to mold itself into ridges and creases. A foothold that is created on a horizontal surface is treated as ‹rule/difficult terrain›, and a Medium or smaller creature standing in the area or moving through it takes a -2 penalty on Acrobatics checks and to CMD due to poor footing. A foothold that is created on a vertical surface grants a +10 bonus on Climb checks to climb it. The stone remains altered for 1 hour. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			"::ab[Foothold (Su)]{icon=boost standard=\"You can cause an adjacent stone surface up to 10 feet square to mold itself into ridges and creases. A foothold that is created on a horizontal surface is treated as ‹rule/difficult terrain›, and a Medium or smaller creature standing in the area or moving through it takes a -2 penalty on ‹skill/Acrobatics› checks and to CMD due to poor footing. A foothold that is created on a vertical surface grants a +10 bonus on ‹skill/Climb› checks to climb it. The stone remains altered for 1 hour.\" useMod=Wisdom3}",
 			"",
-			"**Thin Air (Su):** At 8th level, as a free action, you can surround yourself with a 5-foot aura of supernaturally thin air that draws the breath from creatures adjacent to you. Creatures beginning their turn in the aura are ‹misc/fatigued› (Fortitude negates). A fatigued creature that begins its turn in the aura must save or suffer from ‹rule/altitude sickness›, taking 1 point of ability damage to all ability scores. At 16th level, the aura increases to 10 feet. Creatures that do not breathe are immune to this aura. You can use this ability for a number of rounds per day equal to your druid level; the rounds need not be consecutive.",
+			"::ab[Thin Air (Su)]{l=8 icon=lower-aura free=\"You can surround yourself with a 5-foot aura of supernaturally thin air that draws the breath from creatures adjacent to you. Creatures beginning their turn in the aura are ‹misc/fatigued› (Fortitude negates). A fatigued creature that begins its turn in the aura must save or suffer from ‹rule/altitude sickness›, taking 1 point of ability damage to all ability scores.\" imp16=\"The aura increases to 10 feet.\" special=\"Creatures that do not breathe are immune to this aura.\" useL=druid useNC}",
 			"",
-			"**Domain Spells:** 1st-‹spell/stone fist›, 2nd-‹spell/stone call›, 3rd-‹spell/cloak of winds›, 4th-‹spell/stoneskin›, 5th-‹spell/geyser›, 6th-‹spell/suffocation›, 7th-‹spell/flesh to stone›, 8th-‹spell/reverse gravity›, 9th-‹spell/clashing rocks›."
+			"::spelllist[Domain Spells]{all=\"stone fist~stone call~cloak of winds~stoneskin~geyser~suffocation~flesh to stone~reverse gravity~clashing rocks\"}"
 		]
 	},
 	"panther": {
@@ -231,13 +229,13 @@
 			"",
 			"‹SOURCE Faiths and Philosophies/25›",
 			"",
-			"**Granted Powers:** You share the power of the Hunter in Darkness. The potent magic of an ancient predator spirit flows through you.",
+			"@HL[Granted Powers:] You share the power of the Hunter in Darkness. The potent magic of an ancient predator spirit flows through you.",
 			"",
-			"**Hunter's Senses (Ex):** You gain the ability to augment your senses on command. As a standard action, you grant yourself the scent special ability and improved vision. If you have normal vision, you gain low-light vision. If you have low-light vision, you gain darkvision out to a range of 30 feet. If you have darkvision, the range of your darkvision increases by 30 feet. You may use this ability a number of minutes per day equal to your druid level, in 1 minute increments. Dismissing these augmented senses is a free action.",
+			"::ab[Hunter's Senses (Ex)]{icon=power-boost flavor=\"You gain the ability to augment your senses on command.\" standard=\"You grant yourself the ‹umr/scent› special ability and improved vision. If you have normal vision, you gain low-light vision. If you have low-light vision, you gain darkvision out to a range of 30 feet. If you have darkvision, the range of your darkvision increases by 30 feet. Dismissing these augmented senses is a @HLfree_action.\" useL=druid useUnit=minute useNC=1}",
 			"",
-			"**Move in Darkness (Ex):** At 8th level, in areas of normal or magical darkness, you gain a +2 bonus on Stealth skill checks and initiative checks for every 4 druid levels you possess, to a maximum bonus of +10 at 20th level.",
+			"::ab[Move in Darkness (Ex)]{l=8 icon=boost passive=\"In areas of normal or magical darkness, you gain a +4 bonus on Stealth skill checks and initiative checks.\" increment=\"This bonus~8~4~4~2\"}",
 			"",
-			"**Domain Spells:** 1st-‹spell/true strike›, 2nd-‹spell/darkness›, 3rd-‹spell/deeper darkness›, 4th-‹spell/moonstruck›, 5th-‹spell/commune with nature›, 6th-‹spell/mislead›, 7th-‹spell/true seeing›, 8th-‹spell/nine lives›, 9th-‹spell/greater spell immunity›."
+			"::spelllist[Domain Spells]{all=\"true strike~darkness~deeper darkness~moonstruck~commune with nature~mislead~true seeing~nine lives~greater spell immunity\"}"
 		]
 	},
 	"plains": {
@@ -248,13 +246,13 @@
 			"",
 			"‹SOURCE Ultimate Magic/35›",
 			"",
-			"**Granted Powers:** The wide open spaces of the prairie, savanna, and steppe are yours to master.",
+			"@HL[Granted Powers:] The wide open spaces of the prairie, savanna, and steppe are yours to master.",
 			"",
-			"**Migrating Herd (Su):** When you summon an ‹monster/aurochs«, bison›, ‹monster/elephant«, mastodon›, ‹monster/horse›, ‹monster/pony›, or similar quadruped herbivore with a summoning spell, the duration of the spell is increased by 100% (this does not stack with ‹feat/Extend Spell›). The creature's land speed is increased by 10 feet.",
+			"::ab[Migrating Herd (Su)]{icon=magic-boost ability=\"When you summon an ‹monster/aurochs«, bison›, ‹monster/elephant«, mastodon›, ‹monster/horse›, ‹monster/pony›, or similar quadruped herbivore with a summoning spell, the duration of the spell is increased by 100% (this does not stack with ‹feat/Extend Spell›). The creature's land speed is increased by 10 feet.\"}",
 			"",
-			"**Pounce (Ex):** At 6th level, you may use the ‹umr/pounce› special attack once per day. You may pounce one additional time per day for every 3 levels after 6th.",
+			"::ab[Pounce (Ex)]{l=6 icon=power ability=\"You may use the ‹umr/pounce› special attack once per day.\" incrementPlain=\"You can use this~6~3\" incrementDesc=ability incrementEnd=\" times a day.\"}",
 			"",
-			"**Domain Spells:** 1st-‹spell/mount›, 2nd-‹spell/chameleon stride›, 3rd-‹spell/haste›, 4th-‹spell/aspect of the stag›, 5th-‹spell/control winds›, 6th-‹spell/find the path›, 7th-‹spell/whirlwind›, 8th-‹spell/animal shapes›, 9th-‹spell/world wave›."
+			"::spelllist[Domain Spells]{all=\"mount~chameleon stride~haste~aspect of the stag~control winds~find the path~whirlwind~animal shapes~world wave\"}"
 		]
 	},
 	"plane_of_air": {
@@ -265,15 +263,21 @@
 			"",
 			"‹SOURCE Planes of Power/6›",
 			"",
-			"**Granted Powers:** You draw your power from the boundless expanse of air and clouds. In addition, Fly is a class skill for you, and you can take ranks in the skill even without first having a reliable means to fly or glide. In addition, you can use wild empathy to influence a creature with the air subtype if its Intelligence score is 1 or 2.",
+			"@HL[Granted Powers:] You draw your power from the [boundless expanse of air and clouds](rule/plane_of_air).",
 			"",
-			"**Aerial Agility (Ex):** You can navigate the air unhindered. As a free action, you automatically succeed at your Wisdom check to change your direction in an area of subjective gravity, and you can increase or decrease your falling speed by 10 feet per druid level during the first round after you change the direction of gravity. When you are in areas of light, normal, or heavy gravity, activating this ability instead grants you a bonus equal to your druid level on Fly checks and Acrobatics checks to jump for a number of rounds equal to your Wisdom modifier. You can use this ability a number of times equal to 3 + your Wisdom modifier.",
+			"::ab[Fly]{icon=skill info=\"‹skill/Fly› is a class skill for you, and you can take ranks in the skill even without first having a reliable means to fly or glide.\"}",
 			"",
-			"**Wind Savant (Su):** At 8th level, you treat the penalties from natural or magical wind effects as two steps less severe. In addition, you are surrounded by a cushion of air that grants you a bonus equal to 1/2 your druid level on saving throws against gases, gaseous breath weapons, inhaled poisons, and similar effects.",
+			"::ab[Wild Empathy]{icon=boost info=\"You can use ‹ability/wild empathy› to influence a creature with the air subtype if its Intelligence score is 1 or 2.\"}",
 			"",
-			"Alternatively, you can choose to gain a ‹monster/Small air elemental› as a ‹sidekick/familiar›. as if you possessed the ‹feat/Improved Familiar› feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a familiar.",
+			"::ab[Aerial Agility (Ex)]{icon=power-boost flavor=\"You can navigate the air unhindered.\" free=\"You automatically succeed at your Wisdom check to change your direction in an area of subjective gravity, and you can increase or decrease your falling speed by 10 feet per druid level during the first round after you change the direction of gravity.~~~When you are in areas of light, normal, or heavy gravity, activating this ability instead grants you a bonus equal to your druid level on Fly checks and ‹skill/Acrobatics› checks to jump for a number of rounds equal to your Wisdom modifier.\" useMod=Wisdom3}",
 			"",
-			"**Domain Spells:** 1st-‹spell/feather fall›, 2nd-‹spell/elemental speech›, 3rd-‹spell/fly›, 4th-‹spell/planar adaptation›, 5th-‹spell/overland flight›, 6th-‹spell/mass planar adaptation›, 7th-‹spell/mass fly›, 8th-‹spell/mass invisibility›, 9th-‹spell/winds of vengeance›."
+			"::ab[Wind Savant (Su)]{l=8 icon=boost-def-power choice=\"You can choose between one of two options.\" head}",
+			"",
+			"::ab[Wind Benefits]{icon=boost-def sub passive=\"You treat the penalties from natural or magical ‹rule/wind› effects as two steps less severe. In addition, you are surrounded by a cushion of air that grants you a bonus equal to 1/2 your druid level on saving throws against gases, gaseous breath weapons, inhaled poisons, and similar effects.\"}",
+			"",
+			"::ab[Familiar]{icon=power sub ability=\"You can choose to gain a ‹monster/Small air elemental› as a ‹sidekick/familiar› as if you possessed the ‹feat/Improved Familiar› feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a ‹ability/familiar›.\"}",
+			"",
+			"::spelllist[Domain Spells]{all=\"feather fall~elemental speech~fly~planar adaptation~overland flight~mass planar adaptation~mass fly~mass invisibility~winds of vengeance\"}"
 		]
 	},
 	"plane_of_earth": {
@@ -284,15 +288,19 @@
 			"",
 			"‹SOURCE Planes of Power/6›",
 			"",
-			"**Granted Powers:** You can navigate the untold wonders of the Plane of Earth with ease. In addition, you can use wild empathy to influence a creature with the earth subtype if its Intelligence score is 1 or 2.",
+			"@HL[Granted Powers:] You can navigate the untold wonders of the ‹rule/Plane of Earth› with ease.",
 			"",
-			"**Spelunker (Su):** You ably clamber through underground areas. As a free action, you can ignore ‹rule/difficult terrain› from stony surfaces, you take no penalties for squeezing through rocky areas, and you gain damage reduction 5/- against rocky hazards such as spike growth. This effect lasts for 1 round, and you can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			"::ab[Wild Empathy]{icon=boost info=\"You can use ‹ability/wild empathy› to influence a creature with the earth subtype if its Intelligence score is 1 or 2.\"}",
 			"",
-			"**One with the Stone (Su):** At 8th level as a swift action, you gain the ‹umr/earth glide› universal monster ability with a speed equal to your base speed. You can breathe normally while using this ability. You can use this ability for a number of rounds per day equal to your druid level, and these rounds don't need to be consecutive.",
+			"::ab[Spelunker (Su)]{icon=power-boost-def flavor=\"You ably clamber through underground areas.\" free=\"You can ignore ‹rule/difficult terrain› from stony surfaces, you take no penalties for squeezing through rocky areas, and you gain damage reduction 5/- against rocky hazards such as ‹spell/spike growth›. This effect lasts for 1 round.\" useMod=Wisdom3}",
 			"",
-			"Alternatively, you can choose to gain a ‹monster/Small earth elemental› as a ‹sidekick/familiar›. as if you possessed the ‹feat/Improved Familiar› feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a familiar.",
+			"::ab[One with the Stone (Su)]{l=8 icon=power choice=\"You can choose between one of two options.\" head}",
 			"",
-			"**Domain Spells:** 1st-‹spell/stone fist›, 2nd-‹spell/elemental speech›, 3rd-‹spell/burrow›, 4th-‹spell/planar adaptation›, 5th-‹spell/passwall›, 6th-‹spell/mass planar adaptation›, 7th-‹spell/stone to flesh›, 8th-‹spell/repel metal or stone›, 9th-‹spell/clashing rocks›."
+			"::ab[Earth Glide]{icon=power sub swift=\"You gain the ‹umr/earth glide› universal monster ability with a speed equal to your base speed. You can breathe normally while using this ability.\" useL=druid useNC}",
+			"",
+			"::ab[Familiar]{icon=power sub ability=\"You can choose to gain a ‹monster/Small earth elemental› as a ‹sidekick/familiar› as if you possessed the ‹feat/Improved Familiar› feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a ‹ability/familiar›.\"}",
+			"",
+			"::spelllist[Domain Spells]{all=\"stone fist~elemental speech~burrow~planar adaptation~passwall~mass planar adaptation~stone to flesh~repel metal or stone~clashing rocks\"}"
 		]
 	},
 	"plane_of_fire": {
@@ -303,15 +311,19 @@
 			"",
 			"‹SOURCE Planes of Power/7›",
 			"",
-			"**Granted Powers:** You embrace the destructive flames and ever-roaring volcanoes of the Plane of Fire, having proven yourself impervious to its heat. In addition, you can use wild empathy to influence a creature with the fire subtype if its Intelligence score is 1 or 2.",
+			"@HL[Granted Powers:] You embrace the destructive flames and ever-roaring volcanoes of the ‹rule/Plane of Fire›, having proven yourself impervious to its heat.",
 			"",
-			"**Fire Hardened (Ex):** You ignore fire damage from the fire-dominant planar trait, and you gain fire resistance 5. If you have natural fire resistance, it increases by 5 instead, and if you are naturally immune to fire, you heal hit points and ability damage at twice the normal rate when resting on a fire-dominant plane. You can touch a willing creature to grant these benefits for 1 hour. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			"::ab[Wild Empathy]{icon=boost info=\"You can use ‹ability/wild empathy› to influence a creature with the fire subtype if its Intelligence score is 1 or 2.\"}",
 			"",
-			"**All-Consuming Flames (Su):** At 8th level, you can channel the extraplanar heat into your allies' weapons within 30 feet as a standard action. For 1 minute, the affected weapons gain the cold-outsider-‹magic-enh/bane›, fire-outsider-bane, or ‹magic-enh/flaming› weapon special abilities. You must grant each weapon the same ability, and this ability affects no more than two of any ally's weapons. You can use this ability once per day, plus an additional time per day for every four levels beyond 8th.",
+			"::ab[Fire Hardened (Ex)]{icon=def passive=\"You ignore fire damage from the fire-dominant planar trait, and you gain fire resistance 5. If you have natural fire resistance, it increases by 5 instead, and if you are naturally immune to fire, you heal hit points and ‹rule/ability damage› at twice the normal rate when resting on a fire-dominant plane.\" ability=\"You can touch a willing creature to grant these benefits for 1 hour.\" order=pau useMod=Wisdom3}",
 			"",
-			"Alternatively, you can choose to gain a ‹monster/Small fire elemental› as a ‹sidekick/familiar›. as if you possessed the ‹feat/Improved Familiar› feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a familiar.",
+			"::ab[All-Consuming Flames (Su)]{l=8 icon=boost-def-power choice=\"You can choose between one of two options.\" head}",
 			"",
-			"**Domain Spells:** 1st-‹spell/obscuring mist› (creates smoke), 2nd-‹spell/elemental speech›, 3rd-‹spell/ash storm›, 4th-‹spell/planar adaptation›, 5th-‹spell/scorching ash form›, 6th-‹spell/mass planar adaptation›, 7th-‹spell/delayed blast fireball›, 8th-‹spell/destruction›, 9th-‹spell/fiery body›."
+			"::ab[Flaming Benefits]{icon=boost sub standard=\"You can channel the extraplanar heat into your allies' weapons within 30 feet. For 1 minute, the affected weapons gain the cold-outsider-‹magic-enh/bane›, fire-outsider-bane, or ‹magic-enh/flaming› weapon special abilities. You must grant each weapon the same ability, and this ability affects no more than two of any ally's weapons.\" useInc=druid~4~8}",
+			"",
+			"::ab[Familiar]{icon=power sub ability=\"You can choose to gain a ‹monster/Small fire elemental› as a ‹sidekick/familiar›. as if you possessed the ‹feat/Improved Familiar› feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a ‹ability/familiar›.\"}",
+			"",
+			"::spelllist[Domain Spells]{all=\"obscuring mist|creates smoke~elemental speech~ash storm~planar adaptation~scorching ash form~mass planar adaptation~delayed blast fireball~destruction~fiery body\"}"
 		]
 	},
 	"plane_of_water": {
@@ -322,15 +334,19 @@
 			"",
 			"‹SOURCE Planes of Power/7›",
 			"",
-			"**Granted Powers:** You are at one with the Plane of Water, able to navigate it and weaponize it at will. In addition, you can use wild empathy to influence a creature with the water subtype if its Intelligence score is 1 or 2.",
+			"@HL[Granted Powers:] You are at one with the Plane of Water, able to navigate it and weaponize it at will.",
 			"",
-			"**Aquatic Veil (Su):** As a standard action, you can sheathe your body in a thin layer of water for a number of rounds equal to your Wisdom modifier. This grants you a bonus on Swim checks equal to 1/2 your druid level and allows you to breathe normally underwater. You can end the effect when delivering a touch spell to create a pseudopod of water that extends your effective reach by 5 feet for that attack. When used underwater, the pseudopod instead increases your reach by 10 feet. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			"::ab[Wild Empathy]{icon=boost info=\"You can use ‹ability/wild empathy› to influence a creature with the water subtype if its Intelligence score is 1 or 2.\"}",
 			"",
-			"**Hydraulic Crush (Sp):** At 8th level, you can strike an area with a pressurized blast of water in a 5-foot-radius column 30 feet tall with a range of 60 feet. Creatures in the area take 1d6 bludgeoning damage per druid level and are knocked ‹rule/prone›. When used underwater, the radius and height double, and the effect instead creates a powerful eddy that causes affected creatures to lose their Dexterity bonus to Armor Class for 1 round instead of knocking them prone. A successful Reflex save halves the damage and prevents the secondary effect. You can use this ability once per day, plus an additional time for every 6 levels beyond 8th.",
+			"::ab[Aquatic Veil (Su)]{icon=boost standard=\"You can sheathe your body in a thin layer of water for a number of rounds equal to your Wisdom modifier. This grants you a bonus on ‹skill/Swim› checks equal to 1/2 your druid level and allows you to breathe normally underwater. You can end the effect when delivering a touch spell to create a pseudopod of water that extends your effective reach by 5 feet for that attack. When used underwater, the pseudopod instead increases your reach by 10 feet.\" useMod=Wisdom3}",
 			"",
-			"Alternatively, you can choose to gain a ‹monster/Small water elemental› as a ‹sidekick/familiar›. as if you possessed the ‹feat/Improved Familiar› feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a familiar.",
+			"::ab[Hydraulic Crush (Su)]{l=8 icon=boost-def-power choice=\"You can choose between one of two options.\" head}",
 			"",
-			"**Domain Spells:** 1st-‹spell/touch of the sea›, 2nd-‹spell/elemental speech›, 3rd-‹spell/water breathing›, 4th-‹spell/planar adaptation›, 5th-‹spell/solid fog› (functions underwater), 6th-‹spell/mass planar adaptation›, 7th-‹spell/fluid form›, 8th-‹spell/seamantle›, 9th-‹spell/tsunami›."
+			"::ab[Crushing Strike]{icon=ranged-lower sub passive=\"You can strike an area with a pressurized blast of water in a 5-foot-radius column 30 feet tall with a range of 60 feet. Creatures in the area take 1d6 bludgeoning damage per druid level and are knocked ‹rule/prone›.~~~When used underwater, the radius and height double, and the effect instead creates a powerful eddy that causes affected creatures to lose their Dexterity bonus to Armor Class for 1 round instead of knocking them prone.~~~A successful Reflex save halves the damage and prevents the secondary effect.\" useInc=druid~6~8}",
+			"",
+			"::ab[Familiar]{icon=power sub ability=\"You can choose to gain a ‹monster/Small water elemental› as a ‹sidekick/familiar›. as if you possessed the ‹feat/Improved Familiar› feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a ‹ability/familiar›.\"}",
+			"",
+			"::spelllist[Domain Spells]{all=\"touch of the sea~elemental speech~water breathing~planar adaptation~solid fog|functions underwater~mass planar adaptation~fluid form~seamantle~tsunami\"}"
 		]
 	},
 	"ruins": {
