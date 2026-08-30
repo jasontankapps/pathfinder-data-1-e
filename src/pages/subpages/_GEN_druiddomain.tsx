@@ -1,6 +1,8 @@
-import Link from '../../components/Link';
+import {IonIcon} from '@ionic/react';
+import Link, {ThLink} from '../../components/Link';
 import Pair from '../../components/AbPair';
 import Ability from '../../components/Ability';
+import ScrollContainer from '../../components/ScrollContainer';
 import SpellList from '../../components/SpellList';
 const _not_found = {title: "Unknown", jsx: <><h2 id="druiddomain-not_found-error">Error</h2>
 <p>Unable to find the requested druidic domain.</p>
@@ -380,54 +382,134 @@ const _plane_of_water = {title: "Plane of Water", jsx: <><h2 id="druiddomain-pla
 </>};
 const _ruins = {title: "Ruins", jsx: <><h2 id="druiddomain-ruins-ruins-domain">Ruins Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_monster_codex">Inner Sea Monster Codex pg. 35</Link></p>
-<p><strong>Granted Powers:</strong> You sense nature's creeping reclamation of what once belonged to the civilized world and understand how to ensure ruins that hold power or significance will persist.</p>
-<p><strong>Ruin Touch (Su):</strong> You can strengthen or weaken objects with your touch. With a melee touch attack, you can increase or decrease the hardness of an object (up to a 10-foot cube) or construct by an amount equal to half your druid level (minimum 1) for 1 minute. You cannot reduce an object's hardness below 0, and the same target cannot be affected by this ability more than once. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>
-<p><strong>Remembrance (Sp):</strong> At 4th level, when within a ruin or other structure that is no longer claimed by civilization, you can call upon the wisdom of the land and its long-dead residents. Once per day for every 4 druid levels you possess, you can cast <Link to="/spell/divination">divination</Link> as a spell-like ability. Additionally, if you are within ruins when you cast <Link to="/spell/commune_with_nature">commune with nature</Link>, you gain information about the crumbling structures around you as though they were part of nature.</p>
-<p><strong>Surefooted (Ex):</strong> At 8th level, your speed is not reduced by <Link to="/rule/difficult_terrain">difficult terrain</Link> unless the terrain has been magically manipulated to impede motion.</p>
-<p><strong>Domain Spells:</strong> 1st-<Link to="/spell/magic_stone">magic stone</Link>, 2nd-<Link to="/spell/stone_call">stone call</Link>, 3rd-<Link to="/spell/meld_into_stone">meld into stone</Link>, 4th-<Link to="/spell/rusting_grasp">rusting grasp</Link>, 5th-<em>commune with nature,</em> 6th-<Link to="/spell/stone_tell">stone tell</Link>, 7th-<Link to="/spell/statue">statue</Link>, 8th-<Link to="/spell/earthquake">earthquake</Link>, 9th-<Link to="/spell/clashing_rocks">clashing rocks</Link>.</p>
+<p><strong className="hl">Granted Powers:</strong> You sense nature's creeping reclamation of what once belonged to the civilized world and understand how to ensure ruins that hold power or significance will persist.</p>
+<Ability id="ruin-touch-su" icon={["magic-palm"]}>
+<Pair single id="ruin-touch-su" flavor="You can strengthen or weaken objects with your touch.">Ruin Touch (Su)</Pair>
+<Pair title="Usage">3 + Wisdom modifier times/day</Pair>
+<Pair title="Ability">With a melee touch attack, you can increase or decrease the hardness of an object (up to a 10-foot cube) or construct by an amount equal to half your druid level (minimum 1) for 1 minute. You cannot reduce an object's hardness below 0, and the same target cannot be affected by this ability more than once.</Pair>
+</Ability>
+<Ability id="remembrance-sp" icon={["magic-swirl"]}>
+<Pair single id="remembrance-sp" flavor="When within a ruin or other structure that is no longer claimed by civilization, you can call upon the wisdom of the land and its long-dead residents.">Remembrance (Sp)</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Usage">1 time/day per four druid levels</Pair>
+<Pair title="Ability">You can cast <Link to="/spell/divination">divination</Link> as a spell-like ability.</Pair>
+<Pair title="Special">Additionally, if you are within ruins when you cast <em>commune with nature,</em> you gain information about the crumbling structures around you as though they were part of nature.</Pair>
+</Ability>
+<Ability id="surefooted-ex" icon={["stairs-goal"]}>
+<Pair single id="surefooted-ex">Surefooted (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Passive Ability">Your speed is not reduced by <Link to="/rule/difficult_terrain">difficult terrain</Link> unless the terrain has been magically manipulated to impede motion.</Pair>
+</Ability>
+<SpellList id="domain-spells" links={[[1,"magic stone","magic_stone"],[2,"stone call","stone_call"],[3,"meld into stone","meld_into_stone"],[4,"rusting grasp","rusting_grasp"],[5,"commune with nature","commune_with_nature"],[6,"stone tell","stone_tell"],[7,"statue","statue"],[8,"earthquake","earthquake"],[9,"clashing rocks","clashing_rocks"]]}>Domain Spells</SpellList>
 </>};
 const _serpent = {title: "Serpent", jsx: <><h2 id="druiddomain-serpent-serpent-domain">Serpent Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 35</Link></p>
-<p><strong>Granted Powers:</strong> You serve ancient serpentine mysteries whose coils still encircle the world.</p>
-<p><strong>Familiar:</strong> You gain a <Link to="/monster/viper">viper</Link> <Link to="/sidekick/familiar">familiar</Link>. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</p>
-<p><strong>Slither (Ex):</strong> As a free action, you can distend and stretch your body to fit easily through narrow spaces for 1 round. You can move freely through a tight space that would normally require a creature of your size to <Link to="/misc/squeeze">squeeze</Link> through. While slithering, you gain a +2 dodge bonus to Armor Class against attacks of opportunity provoked by your movement and a +2 bonus on CMB and on Escape Artist checks made to escape from a grapple. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>
-<p><strong>Venom Immunity (Ex):</strong> At 6th level, you gain immunity to poisons from snakes, reptiles, and creatures with the reptilian subtype. At 12th level, you gain immunity to all poisons.</p>
-<p>This replaces <strong className="hl">venom immunity</strong>.</p>
-<p><strong>Domain Spells:</strong> 1st-<Link to="/spell/charm_animal">charm animal</Link>, 2nd-<Link to="/spell/animal_trance">animal trance</Link>, 3rd-<Link to="/spell/poison">poison</Link>, 4th-<Link to="/spell/strong_jaw">strong jaw</Link>, 5th-<Link to="/spell/snake_staff">snake staff</Link>, 6th-<Link to="/spell/charm_monster">charm monster</Link>, 7th-<Link to="/spell/animal_shapes">animal shapes</Link> (reptiles and snakes only), 8th-<Link to="/spell/scintillating_pattern">scintillating pattern</Link>, 9th-<Link to="/spell/crushing_hand">crushing hand</Link>.</p>
+<p><strong className="hl">Granted Powers:</strong> You serve ancient serpentine mysteries whose coils still encircle the world.</p>
+<Ability id="familiar" icon={["stairs-goal"]}>
+<Pair single id="familiar">Familiar</Pair>
+<Pair title="Ability">You gain a <Link to="/monster/viper">viper</Link> <Link to="/sidekick/familiar">familiar</Link>. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.</Pair>
+</Ability>
+<Ability id="slither-ex" icon={["stairs-goal","armor-upgrade","upgrade"]}>
+<Pair single id="slither-ex">Slither (Ex)</Pair>
+<Pair title="Usage">3 + Wisdom modifier times/day</Pair>
+<Pair title="Free Action">You can distend and stretch your body to fit easily through narrow spaces for 1 round. You can move freely through a tight space that would normally require a creature of your size to <Link to="/misc/squeeze">squeeze</Link> through. While slithering, you gain a +2 dodge bonus to Armor Class against attacks of opportunity provoked by your movement and a +2 bonus on CMB and on <Link to="/skill/escape_artist">Escape Artist</Link> checks made to escape from a <Link to="/rule/grapple">grapple</Link>.</Pair>
+</Ability>
+<Ability id="venom-immunity-ex" icon={["armor-upgrade"]}>
+<Pair single id="venom-immunity-ex">Venom Immunity (Ex)</Pair>
+<Pair hl title="Replaces">Venom immunity</Pair>
+<Pair title="At 6th Level">You gain immunity to poisons from snakes, reptiles, and creatures with the reptilian subtype.</Pair>
+<Pair title="At 12th Level">You gain immunity to all poisons.</Pair>
+</Ability>
+<SpellList id="domain-spells" links={[[1,"charm animal","charm_animal"],[2,"animal trance","animal_trance"],[3,"poison","poison"],[4,"strong jaw","strong_jaw"],[5,"snake staff","snake_staff"],[6,"charm monster","charm_monster"],[7,"animal shapes","animal_shapes",<>reptiles and snakes only</>],[8,"scintillating pattern","scintillating_pattern"],[9,"crushing hand","crushing_hand"]]}>Domain Spells</SpellList>
 </>};
 const _swamp = {title: "Swamp", jsx: <><h2 id="druiddomain-swamp-swamp-domain">Swamp Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 35</Link></p>
-<p><strong>Granted Powers:</strong> The sour-sweet depths of bogs, marshes, and swamps are your places of power.</p>
-<p><strong>Natural Healing (Su):</strong> You can <Link to="/ability/channel_energy">channel energy</Link> (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal animals, plants, and vermin. You may reduce the number of dice healed to cure ability damage (your choice) to all affected creatures, curing 1 point of ability damage for each d6 that the channel energy is reduced. You can take other feats to add to this ability, such as <Link to="/feat/extra_channel">Extra Channel</Link>, but not feats that alter this ability, such as <Link to="/feat/elemental_channel">Elemental Channel</Link> and <Link to="/feat/alignment_channel">Alignment Channel</Link>.</p>
-<p><strong>Reed Hunter (Ex):</strong> At 6th level, you gain <Link to="/umr/blindsense">blindsense</Link> 30 feet with respect to <Link to="/rule/concealment">concealment</Link> and <Link to="/rule/cover">cover</Link> from fog, vegetation, or water. At 12th level, this improves to <Link to="/umr/blindsight">blindsight</Link> 30 feet with respect to these conditions.</p>
-<p><strong>Domain Spells:</strong> 1st-<Link to="/spell/hydraulic_push">hydraulic push</Link>, 2nd-<Link to="/spell/burst_of_nettles">burst of nettles</Link>, 3rd-<Link to="/spell/lily_pad_stride">lily pad stride</Link>, 4th-<Link to="/spell/cape_of_wasps">cape of wasps</Link>, 5th-<Link to="/spell/insect_plague">insect plague</Link>, 6th-<Link to="/spell/mass_fester">mass fester</Link>, 7th-<Link to="/spell/animate_plants">animate plants</Link>, 8th-<Link to="/spell/blood_mist">blood mist</Link>, 9th-<Link to="/spell/shambler">shambler</Link>.</p>
+<p><strong className="hl">Granted Powers:</strong> The sour-sweet depths of bogs, marshes, and swamps are your places of power.</p>
+<Ability id="natural-healing-su" icon={["aura"]}>
+<Pair single id="natural-healing-su">Natural Healing (Su)</Pair>
+<Pair title="Usage">3 + Charisma modifier times/day</Pair>
+<Pair title="Ability">You can <Link to="/ability/channel_energy">channel energy</Link> (as a cleric of your druid level), but only to heal animals, plants, and vermin. You may reduce the number of dice healed to cure <Link to="/rule/ability_damage">ability damage</Link> (your choice) to all affected creatures, curing 1 point of ability damage for each d6 that the channel energy is reduced.</Pair>
+<Pair title="Special">You can take other feats to add to this ability, such as <Link to="/feat/extra_channel">Extra Channel</Link>, but not feats that alter this ability, such as <Link to="/feat/elemental_channel">Elemental Channel</Link> and <Link to="/feat/alignment_channel">Alignment Channel</Link>.</Pair>
+</Ability>
+<Ability id="reed-hunter-ex" icon={["stairs-goal"]}>
+<Pair single id="reed-hunter-ex">Reed Hunter (Ex)</Pair>
+<Pair title="At 6th Level">You gain <Link to="/umr/blindsense">blindsense</Link> 30 feet with respect to <Link to="/rule/concealment">concealment</Link> and <Link to="/rule/cover">cover</Link> from fog, vegetation, or water.</Pair>
+<Pair title="At 12th Level">This improves to <Link to="/umr/blindsight">blindsight</Link> 30 feet with respect to these conditions.</Pair>
+</Ability>
+<SpellList id="domain-spells" links={[[1,"hydraulic push","hydraulic_push"],[2,"burst of nettles","burst_of_nettles"],[3,"lily pad stride","lily_pad_stride"],[4,"cape of wasps","cape_of_wasps"],[5,"insect plague","insect_plague"],[6,"mass fester","mass_fester"],[7,"animate plants","animate_plants"],[8,"blood mist","blood_mist"],[9,"shambler","shambler"]]}>Domain Spells</SpellList>
 </>};
 const _the_uskbond = {title: "The Uskbond", jsx: <><h2 id="druiddomain-the_uskbond-the-uskbond-domain">The Uskbond Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_realms">Horror Realms pg. 45</Link></p>
-<p><strong>Granted Powers:</strong> The Uskbond functions as a unique domain with the granted powers and domain spells below. A druid who takes the Uskbond must be neutral evil and worship <Link to="/faith/zon_kuthon">Zon-Kuthon</Link>. A druid who has taken an archetype that alters or replaces nature bond cannot take the Uskbond.</p>
-<p><strong>Absorb Pain (Su):</strong> Whenever you take lethal damage, you can choose as an immediate action to convert a number of points of this damage equal to 1d6 + your Wisdom modifier into nonlethal damage. When you use this ability, you gain a +4 profane bonus on all saving throws versus pain effects during the following round. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>
-<p><strong>Gruesome Display (Ex):</strong> At 8th level, as a standard action you can alter your appearance in such intense, horrific ways that onlookers become <Link to="/misc/nauseated">nauseated</Link>. One creature you select within 30 feet who can see you must succeed at a Will save (DC = 10 + 1/2 your druid level + your Wisdom modifier) or be nauseated for a number of rounds equal to 1/2 your druid level. Every 2 levels beyond 8th, you can affect one additional creature, to a maximum of seven targets within 30 feet at 20th level. Each time you activate your gruesome display, you must affect at least one target, but you can choose to affect fewer targets than your maximum. Once you've targeted the maximum number of creatures granted by level (regardless of whether they successfully save to resist the effect or not), you cannot use gruesome display again for the remainder of the day. This is a mind-affecting fear effect.</p>
-<p><strong>Domain Spells:</strong> 1st-<Link to="/spell/delay_pain">delay pain</Link>, 2nd-<Link to="/spell/lesser_curse_terrain">lesser curse terrain</Link>, 3rd-<Link to="/spell/excruciating_deformation">excruciating deformation</Link>, 4th-<Link to="/spell/curse_terrain">curse terrain</Link>, 5th-<Link to="/spell/symbol_of_pain">symbol of pain</Link>, 6th-<Link to="/spell/greater_curse_terrain">greater curse terrain</Link>, 7th-<Link to="/spell/verminous_transformation">verminous transformation</Link>, 8th-<Link to="/spell/supreme_curse_terrain">supreme curse terrain</Link>, 9th-<Link to="/spell/maze_of_madness_and_suffering">maze of madness and suffering</Link> (haunted forest only).</p>
+<div className="sideNoteWrap startAlign singular delist"><ScrollContainer id="druiddomain-the_uskbond--table-0"><table><tbody><tr><ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink><td>Must be neutral evil, worship <Link to="/faith/zon_kuthon">Zon-Kuthon</Link>, and have the <em>nature bond</em> class feature.</td></tr></tbody></table></ScrollContainer></div><p><strong className="hl">Granted Powers:</strong> The Uskbond functions as a unique domain with the granted powers and domain spells below.</p>
+<Ability id="absorb-pain-su" icon={["armor-upgrade"]}>
+<Pair single id="absorb-pain-su">Absorb Pain (Su)</Pair>
+<Pair title="Usage">3 + Wisdom modifier times/day</Pair>
+<Pair title="Immediate Action">Whenever you take lethal damage, you can choose to convert a number of points of this damage equal to 1d6 + your Wisdom modifier into nonlethal damage. When you use this ability, you gain a +4 profane bonus on all saving throws versus pain effects during the following round.</Pair>
+</Ability>
+<Ability id="gruesome-display-ex" icon={["armor-downgrade"]}>
+<Pair single id="gruesome-display-ex">Gruesome Display (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Standard Action">You can alter your appearance in such intense, horrific ways that onlookers become <Link to="/misc/nauseated">nauseated</Link>. One creature you select within 30 feet who can see you must succeed at a Will save (DC = 10 + 1/2 your druid level + your Wisdom modifier) or be nauseated for a number of rounds equal to 1/2 your druid level.</Pair>
+<Pair title="At 10th Level">You can now affect 2 creatures.</Pair>
+<Pair title="At 12th Level">You can now affect 3 creatures.</Pair>
+<Pair title="At 14th Level">You can now affect 4 creatures.</Pair>
+<Pair title="At 16th Level">You can now affect 5 creatures.</Pair>
+<Pair title="At 18th Level">You can now affect 6 creatures.</Pair>
+<Pair title="At 20th Level">You can now affect 7 creatures.</Pair>
+<Pair title="Special">Each time you activate your <em>gruesome display,</em> you must affect at least one target, but you can choose to affect fewer targets than your maximum. Once you've targeted the maximum number of creatures granted by level (regardless of whether they successfully save to resist the effect or not), you cannot use <em>gruesome display</em> again for the remainder of the day. This is a mind-affecting fear effect.</Pair>
+</Ability>
+<SpellList id="domain-spells" links={[[1,"delay pain","delay_pain"],[2,"lesser curse terrain","lesser_curse_terrain"],[3,"excruciating deformation","excruciating_deformation"],[4,"curse terrain","curse_terrain"],[5,"symbol of pain","symbol_of_pain"],[6,"greater curse terrain","greater_curse_terrain"],[7,"verminous transformation","verminous_transformation"],[8,"supreme curse terrain","supreme_curse_terrain"],[9,"maze of madness and suffering","maze_of_madness_and_suffering",<>haunted forest only</>]]}>Domain Spells</SpellList>
 </>};
 const _vermin = {title: "Vermin", jsx: <><h2 id="druiddomain-vermin-vermin-domain">Vermin Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 46</Link>, <Link to="/source/inner_sea_monster_codex">Inner Sea Monster Codex pg. 35</Link></p>
-<p><strong>Granted Powers:</strong> You see the perfection of nature in the spindly limbs and strange forms of all vermin, great and small alike.</p>
-<p><strong>Vermin Whisperer (Su):</strong> You can use your <Link to="/ability/wild_empathy">wild empathy</Link> ability on vermin. When you do so, you impart a modicum of implanted intelligence on the vermin, allowing you to interact with vermin as if they were animals. Vermin whisperer functions only on vermin that are mindless or have an Intelligence score of 2 or lower.</p>
-<p><strong>Sudden Sting (Su):</strong> At 8th level, you can inflict a lingering, painful sting as a swift action that requires a successful melee touch attack. This sting deals 1d4 points of piercing damage plus 1 point for every 2 druid levels you have, and the target must succeed at a Fortitude save (DC = 10 + half your druid level + your Constitution modifier) or become staggered for 1 round. This is a pain effect. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>
-<p><strong>Domain Spells:</strong> 1st-<Link to="/spell/ant_haul">ant haul</Link>, 2nd-<Link to="/spell/summon_swarm">summon swarm</Link>, 3rd-<Link to="/spell/vermin_shape_i">vermin shape I</Link>, 4th-<Link to="/spell/vermin_shape_ii">vermin shape II</Link>, 5th-<Link to="/spell/insect_plague">insect plague</Link>, 6th-<Link to="/spell/swarm_skin">swarm skin</Link>, 7th-<Link to="/spell/creeping_doom">creeping doom</Link>, 8th-<Link to="/spell/verminous_transformation">verminous transformation</Link>, 9th-<Link to="/spell/summon_natures_ally_ix">summon nature's ally IX</Link> (1d3 purple worms only).</p>
+<p><strong className="hl">Granted Powers:</strong> You see the perfection of nature in the spindly limbs and strange forms of all vermin, great and small alike.</p>
+<Ability id="vermin-whisperer-su" icon={["stairs-goal"]}>
+<Pair single id="vermin-whisperer-su">Vermin Whisperer (Su)</Pair>
+<Pair title="Ability">You can use your <Link to="/ability/wild_empathy">wild empathy</Link> ability on vermin. When you do so, you impart a modicum of implanted intelligence on the vermin, allowing you to interact with vermin as if they were animals. <em>Vermin whisperer</em> functions only on vermin that are mindless or have an Intelligence score of 2 or lower.</Pair>
+</Ability>
+<Ability id="sudden-sting-su" icon={["magic-palm"]}>
+<Pair single id="sudden-sting-su">Sudden Sting (Su)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">3 + Wisdom modifier times/day</Pair>
+<Pair title="Swift Action">You can inflict a lingering, painful sting. This requires a successful melee touch attack. This sting deals 1d4 points of piercing damage plus 1 point for every 2 druid levels you have, and the target must succeed at a Fortitude save (DC = 10 + half your druid level + your Constitution modifier) or become <Link to="/misc/staggered">staggered</Link> for 1 round. This is a pain effect.</Pair>
+</Ability>
+<SpellList id="domain-spells" links={[[1,"ant haul","ant_haul"],[2,"summon swarm","summon_swarm"],[3,"vermin shape I","vermin_shape_i"],[4,"vermin shape II","vermin_shape_ii"],[5,"insect plague","insect_plague"],[6,"swarm skin","swarm_skin"],[7,"creeping doom","creeping_doom"],[8,"verminous transformation","verminous_transformation"],[9,"summon nature's ally IX","summon_natures_ally_ix",<>1d3 purple worms only</>]]}>Domain Spells</SpellList>
 </>};
 const _vulture = {title: "Vulture", jsx: <><h2 id="druiddomain-vulture-vulture-domain">Vulture Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies pg. 25</Link></p>
-<p><strong>Granted Powers:</strong> Yours is the power of death and rebirth. Your spirit soars above all and moves with the flow of unseen currents.</p>
-<p><strong>Death's Companion (Ex):</strong> Your totem grants you protection from the harbingers of death. As an immediate action, you gain a +2 bonus on saving throws against disease, death spells, and death effects that lasts a number of rounds equal to your druid level. This bonus increases by 2 at 6th level and every 5 levels thereafter, to a maximum of +8 at 16th level. You may use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>
-<p><strong>Agent of Rebirth (Sp):</strong> At 8th level, you may expend a quantity of special oils worth 1,000 gp to cast <Link to="/spell/reincarnate">reincarnate</Link> as a spell-like ability usable once per day. Additionally, when using this ability or casting reincarnate as a prepared spell, you have some influence over the physical form that the reincarnated spirit will take. When rolling against the spell's incarnation table, you may roll twice and choose between the two results.</p>
-<p><strong>Domain Spells:</strong> 1st-<Link to="/spell/deathwatch">deathwatch</Link>, 2nd-<Link to="/spell/glide">glide</Link>, 3rd-<Link to="/spell/death_knell">death knell</Link>, 4th-<Link to="/spell/death_ward">death ward</Link>, 5th-<Link to="/spell/breath_of_life">breath of life</Link>, 6th-<Link to="/spell/circle_of_death">circle of death</Link>, 7th-<Link to="/spell/resurrection">resurrection</Link>, 8th-<Link to="/spell/finger_of_death">finger of death</Link>, 9th-<Link to="/spell/winds_of_vengeance">winds of vengeance</Link>.</p>
+<p><strong className="hl">Granted Powers:</strong> Yours is the power of death and rebirth. Your spirit soars above all and moves with the flow of unseen currents.</p>
+<Ability id="deaths-companion-ex" icon={["armor-upgrade"]}>
+<Pair single id="deaths-companion-ex" flavor="Your totem grants you protection from the harbingers of death.">Death's Companion (Ex)</Pair>
+<Pair title="Usage">3 + Wisdom modifier times/day</Pair>
+<Pair title="Immediate Action">You gain a +2 bonus on saving throws against disease, death spells, and death effects that lasts a number of rounds equal to your druid level.</Pair>
+<Pair title="At 6th Level">This bonus becomes +4.</Pair>
+<Pair title="At 11th Level">This bonus increases to +6.</Pair>
+<Pair title="At 16th Level">This bonus becomes +8.</Pair>
+</Ability>
+<Ability id="agent-of-rebirth-sp" icon={["magic-swirl"]}>
+<Pair single id="agent-of-rebirth-sp">Agent of Rebirth (Sp)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability"><p>You may expend a quantity of special oils worth 1,000 gp to cast <Link to="/spell/reincarnate">reincarnate</Link> as a spell-like ability usable once per day.</p>
+<p>Additionally, when using this ability or casting <em>reincarnate</em> as a prepared spell, you have some influence over the physical form that the reincarnated spirit will take. When rolling against the spell's incarnation table, you may roll twice and choose between the two results.</p>
+</Pair>
+</Ability>
+<SpellList id="domain-spells" links={[[1,"deathwatch","deathwatch"],[2,"glide","glide"],[3,"death knell","death_knell"],[4,"death ward","death_ward"],[5,"breath of life","breath_of_life"],[6,"circle of death","circle_of_death"],[7,"resurrection","resurrection"],[8,"finger of death","finger_of_death"],[9,"winds of vengeance","winds_of_vengeance"]]}>Domain Spells</SpellList>
 </>};
 const _wolf = {title: "Wolf", jsx: <><h2 id="druiddomain-wolf-wolf-domain">Wolf Domain</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 36</Link></p>
-<p><strong>Granted Powers:</strong> You run with the pack and are the master of the cold hunt of your spirit totem.</p>
-<p><strong>Improved Trip:</strong> You gain <Link to="/feat/improved_trip">Improved Trip</Link> as a bonus feat.</p>
-<p><strong>Pack Tactics (Ex):</strong> At 8th level, as a free action on your turn, you can designate an adjacent square; your attacks are treated as coming from that square for the purposes of determining whether or not you are flanking (this applies even if that square is occupied by an object or creature). This ends at the start of your next turn or if you move. If you are flanking a creature without using this ability, you may add your Wisdom bonus to your attack roll rather than the normal +2 flanking bonus. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>
-<p><strong>Domain Spells:</strong> 1st-<Link to="/spell/hunters_howl">hunter's howl</Link>, 2nd-<Link to="/spell/bloodhound">bloodhound</Link>, 3rd-<Link to="/spell/aspect_of_the_wolf">aspect of the wolf</Link>, 4th-<Link to="/spell/strong_jaw">strong jaw</Link>, 5th-<Link to="/spell/tireless_pursuers">tireless pursuers</Link>, 6th-<Link to="/spell/find_the_path">find the path</Link>, 7th-<Link to="/spell/animal_shapes">animal shapes</Link> (canines only), 8th-<Link to="/spell/phantasmal_revenge">phantasmal revenge</Link>, 9th-<Link to="/spell/freedom">freedom</Link>.</p>
+<p><strong className="hl">Granted Powers:</strong> You run with the pack and are the master of the cold hunt of your spirit totem.</p>
+<Ability id="improved-trip" icon={["stairs-goal"]}>
+<Pair single id="improved-trip">Improved Trip</Pair>
+<Pair title="Ability">You gain <Link to="/feat/improved_trip">Improved Trip</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="pack-tactics-ex" icon={["mailed-fist","upgrade"]}>
+<Pair single id="pack-tactics-ex">Pack Tactics (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">3 + Wisdom modifier times/day</Pair>
+<Pair title="Free Action"><p>On your turn, you can designate an adjacent square; your attacks are treated as coming from that square for the purposes of determining whether or not you are <Link to="/rule/flanking">flanking</Link> (this applies even if that square is occupied by an object or creature). This ends at the start of your next turn or if you move.</p>
+<p>If you are flanking a creature without using this ability, you may add your Wisdom bonus to your attack roll rather than the normal +2 flanking bonus.</p>
+</Pair>
+</Ability>
+<SpellList id="domain-spells" links={[[1,"hunter's howl","hunters_howl"],[2,"bloodhound","bloodhound"],[3,"aspect of the wolf","aspect_of_the_wolf"],[4,"strong jaw","strong_jaw"],[5,"tireless pursuers","tireless_pursuers"],[6,"find the path","find_the_path"],[7,"animal shapes","animal_shapes",<>canines only</>],[8,"phantasmal revenge","phantasmal_revenge"],[9,"freedom","freedom"]]}>Domain Spells</SpellList>
 </>};
 export default {not_found:_not_found,aquatic:_aquatic,arctic:_arctic,badlands:_badlands,cave:_cave,crocodile:_crocodile,desert:_desert,eagle:_eagle,erosion:_erosion,frog:_frog,jungle:_jungle,monkey:_monkey,mountain:_mountain,panther:_panther,plains:_plains,plane_of_air:_plane_of_air,plane_of_earth:_plane_of_earth,plane_of_fire:_plane_of_fire,plane_of_water:_plane_of_water,ruins:_ruins,serpent:_serpent,swamp:_swamp,the_uskbond:_the_uskbond,vermin:_vermin,vulture:_vulture,wolf:_wolf}
