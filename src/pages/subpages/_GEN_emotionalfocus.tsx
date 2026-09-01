@@ -355,44 +355,127 @@ const _pride = {title: "Pride", jsx: <><h2 id="emotionalfocus-pride-pride">Pride
 </>};
 const _remorse = {title: "Remorse", jsx: <><h2 id="emotionalfocus-remorse-remorse">Remorse</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_origins">Occult Origins pg. 19</Link><br/>Spirits of creatures that died with heavy weights upon their consciences manifest with the remorse emotional focus. These phantoms, whose forms are often darkened by shadows, force foes to experience their regret and self-loathing. A spiritualist with the <Link to="/arc-spiritualist/fated_guide">fated guide</Link> archetype must choose remorse as her phantom's emotional focus, but other spiritualists can also select this emotional focus for their phantoms.</p>
-<p><strong>Skills:</strong> The phantom gains a number of ranks in Perception and Sense Motive equal to its Hit Dice. While confined in the spiritualist's consciousness, the phantom grants the spiritualist <Link to="/feat/skill_focus">Skill Focus</Link> in each of these skills.</p>
-<p><strong>Good Saves:</strong> Fortitude and Will.</p>
-<p><strong>Antagonistic:</strong> The phantom gains <Link to="/feat/antagonize">Antagonize</Link> as a bonus feat.</p>
-<p><strong>Long-Suffering Strike (Su):</strong> When a phantom with this focus hits a creature with its slam attack, that creature must succeed at a Will saving throw (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) or any attacks targeting the creature gain a +1 bonus on their attack rolls and damage rolls until the beginning of the phantom's next turn. Penalties from multiple hits don't stack with themselves.</p>
-<p><strong>Aura of Regret (Su):</strong> When the spiritualist reaches 7th level, her phantom can emit a 10-foot-radius aura of regret as a swift action. Enemies within the aura take a -2 penalty on skill checks, on caster level checks, on combat maneuver checks, and to CMD. Ending the aura is a free action. The phantom can use this ability in either ectoplasmic or incorporeal form.</p>
-<p><strong>Keening (Su):</strong> When the spiritualist reaches 12th level, her phantom can wail about its misdeeds once per day as a standard action, affecting all creatures within a 30-foot cone with the <Link to="/spell/terrible_remorse">terrible remorse</Link> spell. The phantom uses its Hit Dice as its caster level for the effect, and the DC equals 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier. The phantom can use this ability in either ectoplasmic or incorporeal form.</p>
-<p><strong>Utter Misery (Su):</strong> When the spiritualist reaches 17th level, her phantom's long-suffering strike also causes a creature that fails its save to become <Link to="/misc/stunned">stunned</Link> until the beginning of the phantom's next turn.</p>
+<Block size="simple">
+<Row><Cell>Skills</Cell><Cell>The phantom gains a number of ranks in <Link to="/skill/perception">Perception</Link> and <Link to="/skill/sense_motive">Sense Motive</Link> equal to its Hit Dice. While confined in its spiritualist's consciensness, it grants the spiritualist <Link to="/feat/skill_focus">Skill Focus</Link> in each of those skills.</Cell></Row>
+<Row><Cell>Good Saves</Cell><Cell>Fortitude and Will</Cell></Row></Block>
+<Ability id="antagonistic" icon={["stairs-goal"]}>
+<Pair single id="antagonistic">Antagonistic</Pair>
+<Pair title="Ability">The phantom gains <Link to="/feat/antagonize">Antagonize</Link> as a bonus feat.</Pair>
+</Ability>
+<Ability id="long-suffering-strike-su" icon={["armor-downgrade"]}>
+<Pair single id="long-suffering-strike-su">Long-Suffering Strike (Su)</Pair>
+<Pair title="Ability">When a phantom with this focus hits a creature with its slam attack, that creature must succeed at a Will saving throw (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) or any attacks targeting the creature gain a +1 bonus on their attack rolls and damage rolls until the beginning of the phantom's next turn. Penalties from multiple hits don't stack with themselves.</Pair>
+</Ability>
+<Ability id="aura-of-regret-su" icon={["aura","armor-downgrade"]}>
+<Pair single id="aura-of-regret-su">Aura of Regret (Su)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Swift Action">Her phantom can emit a 10-foot-radius aura of regret. Enemies within the aura take a -2 penalty on skill checks, on caster level checks, on combat maneuver checks, and to CMD. Ending the aura is a <strong className="hl">free action</strong>.</Pair>
+<Pair title="Special">The phantom can use this ability in either ectoplasmic or incorporeal form.</Pair>
+</Ability>
+<Ability id="keening-su" icon={["tornado-discs"]}>
+<Pair single id="keening-su">Keening (Su)</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Standard Action">Her phantom can wail about its misdeeds once per day, affecting all creatures within a 30-foot cone with the <Link to="/spell/terrible_remorse">terrible remorse</Link> spell. The phantom uses its Hit Dice as its caster level for the effect, and the DC equals 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier.</Pair>
+<Pair title="Special">The phantom can use this ability in either ectoplasmic or incorporeal form.</Pair>
+</Ability>
+<Ability id="utter-misery-su" icon={["upgrade"]}>
+<Pair single id="utter-misery-su">Utter Misery (Su)</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Ability">Her phantom's <em>long-suffering strike</em> also causes a creature that fails its save to become <Link to="/misc/stunned">stunned</Link> until the beginning of the phantom's next turn.</Pair>
+</Ability>
 </>};
 const _suffering = {title: "Suffering", jsx: <><h2 id="emotionalfocus-suffering-suffering">Suffering</h2>
 <p><strong>Sources</strong> <Link to="/source/antiheros_handbook">Antihero's Handbook pg. 18</Link><br/>Phantoms with this focus stand on trembling legs, with hands quivering and tears constantly streaming from their eyes. Their auras are typically a blue or purple, but the phantoms have vividly glowing scars and bruises that pulse and throb with their motion. When addressed, they tend to respond with only slight nods and other subtle gestures, rarely speaking beyond soft-spoken apologies and self-recriminations.</p>
 <p>While clearly in a state of constant pain, they show no concern for their own well-being, focusing entirely on protecting their masters and their masters' allies. Each time one of these phantoms uses its abilities to protect its allies from harm, new injuries manifest visibly upon it, which these phantoms wear like badges of honor.</p>
-<p><strong>Skills:</strong> The phantom gains a number of ranks in Climb and Heal equal to its number of Hit Dice. When confined in the spiritualist's consciousness, the phantom grants the spiritualist <Link to="/feat/skill_focus">Skill Focus</Link> in each of these skills.</p>
-<p><strong>Good Saves:</strong> Fortitude and Will.</p>
-<p><strong>Endurance:</strong> The phantom gains <Link to="/feat/endurance">Endurance</Link> as a bonus feat. Furthermore, when the phantom is confined in its master's consciousness, it grants the benefits of Endurance to its master if its master doesn't have that feat.</p>
-<p><strong>Repelling Strike (Ex):</strong> When the phantom deals damage with a melee attack, it can attempt to <Link to="/rule/bull_rush">bull rush</Link> the target as a swift action without provoking attacks of opportunity, using the result of its attack roll for the combat maneuver check. The phantom can push a creature back only 5 feet with this ability, regardless of the result of its combat maneuver check.</p>
-<p><strong>Numbing Aura (Su):</strong> When the spiritualist reaches 7th level, as a swift action, the phantom can emit a 20-foot aura of protection. Allies within this aura gain a +4 bonus on saving throws against curse, disease, evil, fear, pain, and poison effects. Deactivating the aura is a free action. The phantom can use this ability in either ectoplasmic or incorporeal form.</p>
-<p><strong>Suffer in Stead (Su):</strong> When the spiritualist reaches 12th level, as an immediate action when her phantom is fully manifested and within 30 feet of her, she can transfer any of the following conditions to the phantom that would afflict her: blinded, deafened, exhausted, fatigued, nauseated, paralyzed, sickened, staggered, or stunned. The spiritualist must choose to do this before the condition's duration begins. The spiritualist can't use this ability if any of the listed conditions are already affecting the phantom. Using this ability does not affect the duration of the transferred condition; it simply makes the condition affect the phantom instead of the spiritualist.</p>
-<p>When the spiritualist reaches 18th level, as an immediate action when fully manifested, the phantom can use this ability to transfer any of the listed conditions to itself when the condition would afflict any ally within 30 feet. Using the ability in this way requires no additional action from the spiritualist.</p>
-<p><strong>Willing Martyr (Su):</strong> When the spiritualist reaches 17th level, the phantom begins to anticipate when the spiritualist or her allies would fall into grave bodily danger and can take those wounds itself. Whenever the phantom is fully manifested and the spiritualist or an ally is reduced to one-quarter or fewer hit points, as long as the phantom is within 30 feet, it must take any hit point damage or ability score damage in place of the injured spiritualist or ally. This hit point damage or ability score damage bypasses the phantom's defensive abilities (although it is still subject to the defensive abilities of the originally targeted spiritualist or ally) and afflicts the phantom as it would the spiritualist or ally. After the phantom becomes the target of one attack or effect in place of the injured spiritualist or ally, the spiritualist can command the phantom to suppress this ability as a free action. Reactivating this ability is a swift action.</p>
+<Block size="simple">
+<Row><Cell>Skills</Cell><Cell>The phantom gains a number of ranks in <Link to="/skill/climb">Climb</Link> and <Link to="/skill/heal">Heal</Link> equal to its Hit Dice. While confined in its spiritualist's consciensness, it grants the spiritualist <Link to="/feat/skill_focus">Skill Focus</Link> in each of those skills.</Cell></Row>
+<Row><Cell>Good Saves</Cell><Cell>Fortitude and Will</Cell></Row></Block>
+<Ability id="endurance" icon={["stairs-goal"]}>
+<Pair single id="endurance">Endurance</Pair>
+<Pair title="Ability">The phantom gains <Link to="/feat/endurance">Endurance</Link> as a bonus feat. Furthermore, when the phantom is confined in its master's consciousness, it grants the benefits of Endurance to its master if its master doesn't have that feat.</Pair>
+</Ability>
+<Ability id="repelling-strike-ex" icon={["mailed-fist"]}>
+<Pair single id="repelling-strike-ex">Repelling Strike (Ex)</Pair>
+<Pair title="Swift Action">When the phantom deals damage with a melee attack, it can attempt to <Link to="/rule/bull_rush">bull rush</Link> the target without provoking attacks of opportunity, using the result of its attack roll for the combat maneuver check. The phantom can push a creature back only 5 feet with this ability, regardless of the result of its combat maneuver check.</Pair>
+</Ability>
+<Ability id="numbing-aura-su" icon={["aura","shield-reflect"]}>
+<Pair single id="numbing-aura-su">Numbing Aura (Su)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Swift Action">The phantom can emit a 20-foot aura of protection. Allies within this aura gain a +4 bonus on saving throws against curse, disease, evil, fear, pain, and poison effects. Deactivating the aura is a <strong className="hl">free action</strong>.</Pair>
+<Pair title="Special">The phantom can use this ability in either ectoplasmic or incorporeal form.</Pair>
+</Ability>
+<Ability id="suffer-in-stead-su" icon={["remedy"]}>
+<Pair single id="suffer-in-stead-su">Suffer in Stead (Su)</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Immediate Action">When her phantom is fully manifested and within 30 feet of her, she can transfer any of the following conditions to the phantom that would afflict her: blinded, deafened, exhausted, fatigued, nauseated, paralyzed, sickened, staggered, or stunned. The spiritualist must choose to do this before the condition's duration begins. The spiritualist can't use this ability if any of the listed conditions are already affecting the phantom. Using this ability does not affect the duration of the transferred condition; it simply makes the condition affect the phantom instead of the spiritualist.</Pair>
+<Pair title="At 18th Level">The phantom can use this ability as an <strong className="hl">immediate action</strong> to transfer any of the listed conditions to itself when the condition would afflict any ally within 30 feet. Using the ability in this way requires no additional action from the spiritualist.</Pair>
+</Ability>
+<Ability id="willing-martyr-su" icon={["shield-reflect"]}>
+<Pair single id="willing-martyr-su" flavor="The phantom begins to anticipate when the spiritualist or her allies would fall into grave bodily danger and can take those wounds itself.">Willing Martyr (Su)</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Passive Ability">Whenever the phantom is fully manifested and the spiritualist or an ally is reduced to one-quarter or fewer hit points, as long as the phantom is within 30 feet, it must take any hit point damage or ability score damage in place of the injured spiritualist or ally. This hit point damage or ability score damage bypasses the phantom's defensive abilities (although it is still subject to the defensive abilities of the originally targeted spiritualist or ally) and afflicts the phantom as it would the spiritualist or ally.</Pair>
+<Pair title="Special">After the phantom becomes the target of one attack or effect in place of the injured spiritualist or ally, the spiritualist can command the phantom to suppress this ability as a <strong className="hl">free action</strong>. Reactivating this ability is a <strong className="hl">swift action</strong>.</Pair>
+</Ability>
 </>};
 const _whimsey = {title: "Whimsey", jsx: <><h2 id="emotionalfocus-whimsey-whimsey">Whimsey</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 17</Link><br/>Phantoms with this emotional focus carry a simplistic, childlike wonder and are fond of games and playing tricks. Whimsical phantoms are often the ghosts of <Link to="/race/gnome">gnomes</Link>; in the case of bleachling spiritualists, the phantom may even be a psychic vestige of the bleachling's own lost childlike nature. Among other races, most phantoms with the whimsy focus are the spirits of those who died as children and carried their childlike nature into the afterlife.</p>
-<p><strong>Skills:</strong> The phantom gains a number of ranks in Acrobatics and Perception equal to its number of Hit Dice. While confined in the spiritualist's consciousness, the phantom grants the spiritualist <Link to="/feat/skill_focus">Skill Focus</Link> in each of these skills.</p>
-<p><strong>Good Saves:</strong> Reflex and Will</p>
-<p><strong>Tricky Combatant:</strong> A phantom with the whimsy focus gains <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link> as a bonus feat, even if it does not meet the prerequisites.</p>
-<p><strong>Colorful Burst (Sp):</strong> Once per day, a phantom with this focus can produce an explosion of bright colors in a 15-foot cone. This functions as the spell <Link to="/spell/color_spray">color spray</Link>, except that creatures with fewer HD than the phantom are treated as if they had 2 HD or less, creatures with HD equal to that of the phantom are treated as if they had 3 or 4 HD, and creatures with more HD than the phantom are treated as if they had 5 or more HD. A creature can negate this effect with a successful Will saving throw (DC = 10 + half the phantom's Hit Dice + the phantom's Charisma modifier).</p>
-<p><strong>Aura of Laughter (Sp):</strong> When the spiritualist reaches 7th level, the phantom can emit a 10-foot aura of childish laughter as a swift action. Enemies within the aura are distracted by the laughter, taking a -2 penalty on attack and damage rolls and a -5 penalty on Perception checks. This ability has no effect on creatures that cannot hear.</p>
-<p><strong>Telekinetic Prankster (Sp):</strong> When the spiritualist reaches 12th level, the phantom gains the ability to use limited telekinesis to trip up its foes. It can perform combat maneuvers against creatures up to 15 feet away. When doing so, it can use its Charisma modifier in place of its Strength modifier on its combat maneuver checks.</p>
-<p><strong>Invoke Laughter (Sp):</strong> When the spiritualist reaches 17th level, once per day as a standard action, the phantom can cause nearby creatures to fall into fits of uncontrollable laughter. Each creature in a 30-foot-radius <Link to="/misc/burst">burst</Link> centered on the phantom must succeed at a Will save (DC = 10 + half the phantom's Hit Dice + the phantom's Charisma modifier) or begin laughing uncontrollably, as the spell <Link to="/spell/hideous_laughter">hideous laughter</Link>. The phantom can use this ability in either ectoplasmic or incorporeal form.</p>
+<Block size="simple">
+<Row><Cell>Skills</Cell><Cell>The phantom gains a number of ranks in <Link to="/skill/acrobatics">Acrobatics</Link> and <Link to="/skill/perception">Perception</Link> equal to its Hit Dice. While confined in its spiritualist's consciensness, it grants the spiritualist <Link to="/feat/skill_focus">Skill Focus</Link> in each of those skills.</Cell></Row>
+<Row><Cell>Good Saves</Cell><Cell>Reflex and Will</Cell></Row></Block>
+<Ability id="tricky-combatant" icon={["stairs-goal"]}>
+<Pair single id="tricky-combatant">Tricky Combatant</Pair>
+<Pair title="Ability">A phantom with the whimsy focus gains <Link to="/feat/improved_dirty_trick">Improved Dirty Trick</Link> as a bonus feat, even if it does not meet the prerequisites.</Pair>
+</Ability>
+<Ability id="colorful-burst-sp" icon={["tornado-discs"]}>
+<Pair single id="colorful-burst-sp">Colorful Burst (Sp)</Pair>
+<Pair title="Ability">Once per day, a phantom with this focus can produce an explosion of bright colors in a 15-foot cone. This functions as the spell <Link to="/spell/color_spray">color spray</Link>, except that creatures with fewer HD than the phantom are treated as if they had 2 HD or less, creatures with HD equal to that of the phantom are treated as if they had 3 or 4 HD, and creatures with more HD than the phantom are treated as if they had 5 or more HD. A creature can negate this effect with a successful Will saving throw (DC = 10 + half the phantom's Hit Dice + the phantom's Charisma modifier).</Pair>
+</Ability>
+<Ability id="aura-of-laughter-sp" icon={["aura","armor-downgrade"]}>
+<Pair single id="aura-of-laughter-sp">Aura of Laughter (Sp)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Swift Action">The phantom can emit a 10-foot aura of childish laughter. Enemies within the aura are distracted by the laughter, taking a -2 penalty on attack and damage rolls and a -5 penalty on <Link to="/skill/perception">Perception</Link> checks. This ability has no effect on creatures that cannot hear.</Pair>
+</Ability>
+<Ability id="telekinetic-prankster-sp" icon={["bowman"]}>
+<Pair single id="telekinetic-prankster-sp" flavor="The phantom gains the ability to use limited telekinesis to trip up its foes.">Telekinetic Prankster (Sp)</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">The phantom can perform combat maneuvers against creatures up to 15 feet away. When doing so, it can use its Charisma modifier in place of its Strength modifier on its combat maneuver checks.</Pair>
+</Ability>
+<Ability id="invoke-laughter-sp" icon={["magic-swirl"]}>
+<Pair single id="invoke-laughter-sp">Invoke Laughter (Sp)</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Standard Action">Once per day, the phantom can cause nearby creatures to fall into fits of uncontrollable laughter. Each creature in a 30-foot-radius <Link to="/misc/burst">burst</Link> centered on the phantom must succeed at a Will save (DC = 10 + half the phantom's Hit Dice + the phantom's Charisma modifier) or begin laughing uncontrollably, as the spell <Link to="/spell/hideous_laughter">hideous laughter</Link>.</Pair>
+<Pair title="Special">The phantom can use this ability in either ectoplasmic or incorporeal form.</Pair>
+</Ability>
 </>};
 const _zeal = {title: "Zeal", jsx: <><h2 id="emotionalfocus-zeal-zeal">Zeal</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 83</Link><br/>A phantom with this emotional focus fixates on every task given as if it were the phantom's last. The most basic commands are treated as life-and-death situations, and the truly dangerous ones are faced with a resolve and tenacity that sometimes defies common sense. Zeal phantoms take the form of steadfast protectors or daring and manic creatures looking for the next challenge or opportunity to prove itself to either its master or itself. Often very prideful creatures, these phantoms display an orange aura upon completing their tasks. They are prone to boast about their accomplishments and chastise those around them for not accomplishing more.</p>
-<p><strong>Skills:</strong> The phantom gains a number of ranks in Acrobatics and Survival equal to its number of Hit Dice. While confined in the spiritualist's consciousness, the phantom grants the spiritualist <Link to="/feat/skill_focus">Skill Focus</Link> in each of these skills.</p>
-<p><strong>Good Saves:</strong> Fortitude and Reflex.</p>
-<p><strong>Tracking:</strong> The phantom adds half its number of Hit Dice (minimum 1) to Survival skill checks to follow tracks.</p>
-<p><strong>Ruthless Combatant (Su):</strong> The phantom threatens a critical hit with its slam attacks on a roll of 19-20. When the spiritualist reaches 11th level, the phantom's critical modifier with slam attacks increases to &times;3. This doesn't stack with <Link to="/feat/improved_critical">Improved Critical</Link> or similar effects.</p>
-<p><strong>Determination Aura (Su):</strong> When the spiritualist reaches 7th level, as a swift action, the phantom can emit a 20-foot-radius aura that grants its zeal to nearby allies. Allies within the aura gain a +2 competence bonus on attack rolls and saving throws. The phantom can use this ability in either ectoplasmic or incorporeal form.</p>
-<p><strong>Steadfast Servant (Su):</strong> When the spiritualist reaches 12th level, the phantom can stay manifested even when its spiritualist master is unconscious or asleep.</p>
-<p><strong>Zeal's Resolve (Su):</strong> When the spiritualist reaches 17th level, three times per day as a free action, when the phantom misses with an attack roll or fails a saving throw, it can reroll the failed attack or saving throw. It must take the new result, even if that result is worse.</p>
+<Block size="simple">
+<Row><Cell>Skills</Cell><Cell>The phantom gains a number of ranks in <Link to="/skill/acrobatics">Acrobatics</Link> and <Link to="/skill/survival">Survival</Link> equal to its Hit Dice. While confined in its spiritualist's consciousness, it grants the spiritualist <Link to="/feat/skill_focus">Skill Focus</Link> in each of those skills.</Cell></Row>
+<Row><Cell>Good Saves</Cell><Cell>Fortitude and Reflex</Cell></Row></Block>
+<Ability id="tracking" icon={["upgrade"]}>
+<Pair single id="tracking">Tracking</Pair>
+<Pair title="Passive Ability">The phantom adds half its number of Hit Dice (minimum 1) to <Link to="/skill/survival">Survival</Link> skill checks to follow tracks.</Pair>
+</Ability>
+<Ability id="ruthless-combatant-su" icon={["upgrade"]}>
+<Pair single id="ruthless-combatant-su">Ruthless Combatant (Su)</Pair>
+<Pair title="Ability">The phantom threatens a critical hit with its slam attacks on a roll of 19-20.</Pair>
+<Pair title="At 11th Level">The phantom's critical modifier with slam attacks increases to &times;3. This doesn't stack with <Link to="/feat/improved_critical">Improved Critical</Link> or similar effects.</Pair>
+</Ability>
+<Ability id="determination-aura-su" icon={["aura","upgrade","armor-upgrade"]}>
+<Pair single id="determination-aura-su">Determination Aura (Su)</Pair>
+<Pair title="Gained">At 7th Level</Pair>
+<Pair title="Swift Action">The phantom can emit a 20-foot-radius aura that grants its zeal to nearby allies. Allies within the aura gain a +2 competence bonus on attack rolls and saving throws.</Pair>
+<Pair title="Special">The phantom can use this ability in either ectoplasmic or incorporeal form.</Pair>
+</Ability>
+<Ability id="steadfast-servant-su" icon={["stairs-goal"]}>
+<Pair single id="steadfast-servant-su">Steadfast Servant (Su)</Pair>
+<Pair title="Gained">At 12th Level</Pair>
+<Pair title="Ability">The phantom can stay manifested even when its spiritualist master is unconscious or asleep.</Pair>
+</Ability>
+<Ability id="zeals-resolve-su" icon={["rolling-dices","upgrade","armor-upgrade"]}>
+<Pair single id="zeals-resolve-su">Zeal's Resolve (Su)</Pair>
+<Pair title="Gained">At 17th Level</Pair>
+<Pair title="Free Action">Three times per day, when the phantom misses with an attack roll or fails a saving throw, it can reroll the failed attack or saving throw. It must take the new result, even if that result is worse.</Pair>
+</Ability>
 </>};
 export default {not_found:_not_found,anger:_anger,dedication:_dedication,despair:_despair,desperation:_desperation,fear:_fear,greed:_greed,hatred:_hatred,jealousy:_jealousy,kindness:_kindness,lust:_lust,pride:_pride,remorse:_remorse,suffering:_suffering,whimsey:_whimsey,zeal:_zeal}
