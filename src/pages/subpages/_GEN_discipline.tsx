@@ -31,7 +31,7 @@ const _abomination = {title: "Abomination", jsx: <><h2 id="discipline-abominatio
 <p>Whenever you cast a spell that deals damage while manifesting your dark half, you can cause one creature that took damage from the spell to also take 1 point of <Link to="/rule/bleed">bleed</Link> damage. While manifesting your dark half, you can't use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration other than casting spells using psychic magic, using phrenic amplifications, or attempting to return to normal.</p>
 </Pair>
 <Pair title="Ability">You can attempt to return to your normal self as a <strong className="hl">free action</strong>, but must succeed at a <Link to="/rule/concentration">concentration</Link> check with a DC equal to 10 + your caster level. If you fail, you continue to manifest your dark half and can't attempt to change back for 1 round.</Pair>
-<Pair title="Usage">3 + &amp;frac12&amp; your Psychic level + Charisma modifier times/day</Pair>
+<Pair title="Usage">3 + &frac12; your Psychic level + Charisma modifier times/day</Pair>
 <Pair title="At 5th Level">The bleed damage increases to 2 points.</Pair>
 <Pair title="At 13th Level">The bleed damage becomes 1d6 points.</Pair>
 <Pair title="Special">When your <em>dark half</em> rounds are expended, you return to your normal self without requiring a concentration check.</Pair>
