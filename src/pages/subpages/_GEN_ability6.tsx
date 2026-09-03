@@ -2978,7 +2978,7 @@ const _judgments = {hasJL:true,title: "Inquisitor Judgments", topLink: ["Inquisi
 </Ability>
 <Ability id="justice" icon={["upgrade"]}>
 <Pair single id="justice">Justice</Pair>
-<Pair title="Passive Ability">You gain a sacred bonus on all attack rolls. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your cavalier level.</Pair>
+<Pair title="Passive Ability">You gain a sacred bonus on all attack rolls. This bonus is equal to 1 + <Link to="/misc/one_fifth">one-fifth</Link> of your inquisitor level.</Pair>
 <Pair title="At 10th Level">The bonus is now doubled on all attack rolls made to confirm critical hits.</Pair>
 </Ability>
 <Ability id="piercing" icon={["armor-upgrade"]}>
@@ -2987,12 +2987,12 @@ const _judgments = {hasJL:true,title: "Inquisitor Judgments", topLink: ["Inquisi
 </Ability>
 <Ability id="protection" icon={["armor-upgrade"]}>
 <Pair single id="protection">Protection</Pair>
-<Pair title="Passive Ability">You're surrounded by a protective aura, granting a sacred bonus to Armor Class. This bonus is equal to 1 + one-fifth of your cavalier level.</Pair>
+<Pair title="Passive Ability">You're surrounded by a protective aura, granting a sacred bonus to Armor Class. This bonus is equal to 1 + one-fifth of your inquisitor level.</Pair>
 <Pair title="At 10th Level">The bonus is now doubled against attack rolls made to confirm critical hits against you.</Pair>
 </Ability>
 <Ability id="purity" icon={["armor-upgrade"]}>
 <Pair single id="purity">Purity</Pair>
-<Pair title="Passive Ability">You gain a sacred bonus on all saving throws. This bonus is equal to 1 + one-fifth of your cavalier level.</Pair>
+<Pair title="Passive Ability">You gain a sacred bonus on all saving throws. This bonus is equal to 1 + one-fifth of your inquisitor level.</Pair>
 <Pair title="At 10th Level">The bonus is now doubled against curses, diseases, and poisons.</Pair>
 </Ability>
 <Ability id="resiliency" icon={["armor-upgrade"]}>
