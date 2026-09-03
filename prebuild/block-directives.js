@@ -303,10 +303,17 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				flags.spellinfo = true;
 				return makeSpellBlock(marked2, parseSOURCE, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "spelldeitynote") {
-				const marked2 = makeNewMarkedInstance();
-				return (
-					`<aside>${marked2.parse("Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- [Inner Sea Gods pg. 228](source/inner_sea_gods)")}</aside>`
-				);
+				flags.message = true;
+				return `<Message spelldeity />`;
+			} else if (n === "archetypeDesc") {
+				flags.message = true;
+				return `<Message arch />`;
+			} else if (n === "altCapstoneDesc") {
+				flags.message = true;
+				return `<Message capstone />`;
+			} else if (n === "lesserOrders") {
+				flags.message = true;
+				return `<Message lesserOrders />`;
 			} else if (n === "minfo") {
 				churn(n, attrs, [
 					"clear", "source", "xp", "al", "lg", "ln", "le", "ng", "n", "ne", "cg", "cn", "ce",

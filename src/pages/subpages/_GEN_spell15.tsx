@@ -3,6 +3,7 @@ import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import SpellInfo from '../../components/SpellInfo';
+import Message from '../../components/Message';
 const _produce_flame = {title: "Produce Flame", jsx: <><h2 id="spell-produce_flame-produce-flame">Produce Flame</h2>
 <SpellInfo id="1" source="PRPG Core Rulebook/326" school="evo" descriptors={["fire"]} drd={1} hnt={1} sha={1} ct="1 standard action" comp="V, S" rFt={0} effect="flame in your palm" dur="1 minute/level (D)" save="none" resist="yes" />
 <p>Flames as bright as a torch appear in your open hand. The flames harm neither you nor your equipment.</p>
@@ -455,8 +456,7 @@ const _secret_speech = {title: "Secret Speech", jsx: <><h2 id="spell-secret_spee
 <SpellInfo id="1" source="Inner Sea Gods/240;Pathfinder #17: A Memory of Darkness/62" school="div" arc={2} brd={1} clr={2} inq={1} orc={2} sha={2} skd={1} sor={2} war={2} wiz={2} faith="Calistria" ct="1 standard action" comp="V, S" rTouch target="creature touched" dur="10 minutes/level" save="Will negates (harmless)" resist="no (harmless)" />
 <p>This spell grants the target the ability to send secret messages embedded within normal speech. This is similar to the secret messages ability of the Bluff skill, but no check is needed; the speaker's intended recipient always understands the hidden message perfectly, but other listeners cannot perceive the message at all. The target can send only one message at a time, though it can send that message to multiple listeners. The secret message is considered to be in the same language the target is speaking, and intended recipients hear and understand both the actual speech and the secret message. The target can make itself understood as far as its voice carries.</p>
 <p>For example, at a fancy noble's wedding, a jealous former suitor casts this spell on himself before making a speech. Everyone hears his glowing words of praise, but only his allies hear his secret message instructing them to attack the groom.</p>
-<aside><p>Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- <Link to="/source/inner_sea_gods">Inner Sea Gods pg. 228</Link></p>
-</aside></>};
+<Message spelldeity /></>};
 const _secure_shelter = {title: "Secure Shelter", jsx: <><h2 id="spell-secure_shelter-secure-shelter">Secure Shelter</h2>
 <SpellInfo id="1" source="PRPG Core Rulebook/338" school="conj" subschools={["creat"]} arc={4} brd={4} skd={4} sor={4} wit={4} wiz={4} ct="10 minutes" comp="V, S, M (a chip of stone, sand, a drop of water, and a wood splinter)" rClose effect="20-ft.-square structure" dur="2 hours/level (D)" save="none" resist="no" />
 <p>You conjure a sturdy cottage or lodge made of material that is common in the area where the spell is cast. The floor is level, clean, and dry. The lodging resembles a normal cottage, with a sturdy door, two shuttered windows, and a small fireplace.</p>
@@ -467,8 +467,7 @@ const _secure_shelter = {title: "Secure Shelter", jsx: <><h2 id="spell-secure_sh
 const _seducers_eyes = {title: "Seducer's Eyes", jsx: <><h2 id="spell-seducers_eyes-seducers-eyes">Seducer's Eyes</h2>
 <SpellInfo id="1" source="Inner Sea Gods/240;Faiths of Balance/28" school="ench" subschools={["charm"]} descriptors={["mind"]} arc={2} brd={2} skd={2} sor={2} wit={2} wiz={2} faith="Calistria" ct="1 standard action" comp="V, S, DF" rPers target="you" dur="10 minutes/level (D)" />
 <p>You gain a bonus on Charisma-based skill checks equal to 1 + 1 for every 4 caster levels you possess (to a maximum of +5), but only when interacting with those who might conceivably find you sexually attractive. You do not gain this bonus against those you or your allies are attacking or threatening.</p>
-<aside><p>Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- <Link to="/source/inner_sea_gods">Inner Sea Gods pg. 228</Link></p>
-</aside></>};
+<Message spelldeity /></>};
 const _see_alignment = {title: "See Alignment", jsx: <><h2 id="spell-see_alignment-see-alignment">See Alignment</h2>
 <SpellInfo id="1" source="Ultimate Combat/243" school="div" alc={1} arc={1} brd={1} inv={1} psy={1} skd={1} sor={1} wiz={1} ct="1 standard action" comp="V, S, M (eye of newt)" rPers target="you" dur="1/round per level" />
 <p>When you cast this spell, select a single alignment (such as lawful good or chaotic evil). Creatures of that alignment glow with a ghostly radiance while they are within your vision. Though you can see this radiance, other creatures cannot.</p>

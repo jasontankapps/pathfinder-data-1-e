@@ -3,6 +3,7 @@ import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import SpellInfo from '../../components/SpellInfo';
+import Message from '../../components/Message';
 const _create_greater_undead = {title: "Create Greater Undead", jsx: <><h2 id="spell-create_greater_undead-create-greater-undead">Create Greater Undead</h2>
 <SpellInfo id="1" source="PRPG Core Rulebook/261" school="necro" descriptors={["evil"]} arc={8} clr={8} orc={8} sha={8} sor={8} wiz={8} ct="1 hour" comp="V, S, M (a clay pot filled with grave dirt and an onyx gem worth at least 50 gp per HD of the undead to be created)" rClose target="one corpse" dur="instantaneous" save="none" resist="no" />
 <p>This spell functions like create undead, except that you can create more powerful and intelligent sorts of undead: shadows, wraiths, spectres, and devourers. The type or types of undead created is based on caster level, as shown below.</p>
@@ -565,8 +566,7 @@ const _deadeyes_arrow = {title: "Deadeye's Arrow", jsx: <><h2 id="spell-deadeyes
 <p>You create an arrow made of crackling electricity, which you may use for one of two effects.</p>
 <p><em>Attack:</em> You may throw the arrow up to Medium range or fire it from a bow up to the bow's maximum range. Either use is a ranged touch attack. The arrow deals 1d6 points of electricity damage + 1 point per level (maximum +5).</p>
 <p><em>Beacon:</em> You throw or fire the arrow straight up. When it reaches maximum range or a solid surface (such as the roof of a cave) it explodes in a peal of thunder and forms a forked bolt of electricity resembling Erastil's holy symbol, which lingers for 1 round. The thunder and lightning are as loud and bright as natural thunder and lightning, but they do not harm any nearby creatures.</p>
-<aside><p>Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- <Link to="/source/inner_sea_gods">Inner Sea Gods pg. 228</Link></p>
-</aside></>};
+<Message spelldeity /></>};
 const _deadeyes_lore = {title: "Deadeye's Lore", jsx: <><h2 id="spell-deadeyes_lore-deadeyes-lore">Deadeye's Lore</h2>
 <SpellInfo id="1" source="Ultimate Combat/226;Faiths of Purity/28" school="div" brd={1} clr={1} drd={1} hnt={1} inq={1} orc={1} rgr={1} skd={1} war={1} ct="1 round" comp="V, S" rPers target="you" dur="1 hour/level" />
 <p>While subject to this spell, you take upon yourself the mantle of the hunter, channeling the insights of the spirits of the wild. You gain a +4 sacred bonus on all Survival checks for the duration of the spell, and you do not have to move at half your speed while traveling through the wilderness or while tracking.</p>
@@ -701,8 +701,7 @@ const _deeper_darkness = {title: "Deeper Darkness", jsx: <><h2 id="spell-deeper_
 const _defending_bone = {title: "Defending Bone", jsx: <><h2 id="spell-defending_bone-defending-bone">Defending Bone</h2>
 <SpellInfo id="1" source="Inner Sea Gods/232;Gods and Magic/31" school="necro" arc={2} clr={2} inq={2} mag={2} orc={2} sor={2} war={2} wit={2} wiz={2} faith="Pharasma" ct="1 standard action" comp="V, S, F (a Medium creature's skull or femur), DF" rPers target="you" dur="1 hour/level or until discharged" />
 <p>You animate a bone with necromantic energy, giving it the power to float near your body and interpose itself against physical attacks. This gives you damage reduction 5/bludgeoning. Once the bone has prevented a total of 5 points of damage per caster level (maximum 50 points), it is destroyed and the spell is discharged. This spell has no effect if you have damage reduction from another source.</p>
-<aside><p>Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- <Link to="/source/inner_sea_gods">Inner Sea Gods pg. 228</Link></p>
-</aside></>};
+<Message spelldeity /></>};
 const _defensive_grace = {title: "Defensive Grace", jsx: <><h2 id="spell-defensive_grace-defensive-grace">Defensive Grace</h2>
 <SpellInfo id="1" source="Advanced Class Origins/31" school="trans" inv={5} ct="1 standard action" comp="V, S, M (a living fly)" rPers target="you" dur="1 round/level (d; see below)" />
 <p>Each round you can roll an inspiration die without expending a use of inspiration and gain the result as a dodge bonus to AC for that round. You are immune to precision damage (including the extra damage from the precise strike deed, sneak attack, studied combat, and studied strike).</p>
