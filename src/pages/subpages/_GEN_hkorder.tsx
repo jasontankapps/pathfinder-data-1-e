@@ -239,7 +239,7 @@ const _order_of_the_rack = {title: "Order of the Rack", jsx: <><h2 id="hkorder-o
 <Ability id="1-mute-su" icon={["armor-downgrade"]}>
 <Pair single id="1-mute-su">1: Mute (Su)</Pair>
 <Pair title="Standard Action">Three times per day, you can target a single creature within 100 feet. If the creature fails a Will saving throw (DC = 10 + 1/2 your Hit Dice + your Charisma modifier), the creature cannot make any sounds for a number of rounds equal to your character level. This prevents the target from speaking, otherwise making noise, casting spells with verbal components, and using similar abilities with auditory effects.</Pair>
-<Pair title="Special">Each round on its turn, the target can attempt a new saving throw to end the effect. This effect is <Link to="/rule/dismissible">dismissible</Link>. It does not make the target immune to sonic or language-based attacks, spells, or effects.</Pair>
+<Pair title="Special">Each round on its turn, the target can attempt a new saving throw to end the effect. This effect is <Link to="/misc/dismissible">dismissible</Link>. It does not make the target immune to sonic or language-based attacks, spells, or effects.</Pair>
 </Ability>
 <Ability id="2-dismantle-su" icon={["magic-swirl"]}>
 <Pair single id="2-dismantle-su">2: Dismantle (Su)</Pair>
