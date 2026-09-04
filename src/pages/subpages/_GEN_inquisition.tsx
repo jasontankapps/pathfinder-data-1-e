@@ -1,66 +1,200 @@
 import Link from '../../components/Link';
+import Pair from '../../components/AbPair';
+import Ability from '../../components/Ability';
+import {Block,Row,Cell} from '../../components/Block';
 const _not_found = {title: "Unknown", jsx: <><h2 id="inquisition-not_found-error">Error</h2>
 <p>Unable to find the requested inquisition.</p>
 </>};
 const _anger = {title: "Anger", jsx: <><h2 id="inquisition-anger-anger">Anger</h2>
-<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 41</Link><br/><strong>Deities</strong> <Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/rovagug">Rovagug</Link></p>
-<p><strong>Granted Powers:</strong> Holy (or unholy) rage, granted by your patron deity, ensures that when you fight, the battle ends with a bloody victory.</p>
-<p><strong>Hateful Resort (Ex):</strong> Once per day, as an immediate action after you have been hit with a melee attack, you can make a melee attack against the creature that hit you. This melee attack is at your highest attack bonus, even if you've already attacked in the round.</p>
-<p><strong>Divine Anger (Ex):</strong> At 6th level, you gain the ability to rage like a <Link to="/class/barbarian">barbarian</Link>. Your effective barbarian level for this ability is your inquisitor level - 3. If you have levels in barbarian, these levels stack when determining the effect of your rage. You do not gain any rage powers from this granted power, though if you have rage powers from another class, you may use them with these rages. You can rage a number of rounds per day equal to your Wisdom bonus, plus 1 round for every inquisitor level above 4th.</p>
+<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 41</Link></p>
+<Block size="simple">
+<Row><Cell>Associated Deities</Cell><Cell><Link to="/faith/gorum">Gorum</Link>, <Link to="/faith/rovagug">Rovagug</Link></Cell></Row></Block>
+<h3 id="inquisition-anger-granted-powers">Granted Powers</h3>
+<p>Holy (or unholy) rage, granted by your patron deity, ensures that when you fight, the battle ends with a bloody victory.</p>
+<Ability id="hateful-resort-ex" icon={["mailed-fist"]}>
+<Pair single id="hateful-resort-ex">Hateful Resort (Ex)</Pair>
+<Pair title="Immediate Action">Once per day, after you have been hit with a melee attack, you can make a melee attack against the creature that hit you. This melee attack is at your highest attack bonus, even if you've already attacked in the round.</Pair>
+</Ability>
+<Ability id="divine-anger-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="divine-anger-ex">Divine Anger (Ex)</Pair>
+<Pair title="Gained">At 6th Level</Pair>
+<Pair title="Ability"><p>You gain the ability to <em>rage</em> like a <Link to="/class/barbarian">barbarian</Link>. Your effective barbarian level for this ability is your inquisitor level - 3. If you have levels in barbarian, these levels stack when determining the effect of your <em>rage.</em></p>
+<p>You do not gain any rage powers from this granted power, though if you have rage powers from another class, you may use them with these rages.</p>
+</Pair>
+<Pair title="Usage">You can <em>rage</em> a number of rounds per day equal to your Wisdom bonus, plus 1 round for every inquisitor level above 4th.</Pair>
+</Ability>
+<Ability id="rage-ex" extraClasses="subAbility" icon={["upgrade","broken-shield"]}>
+<Pair single id="rage-ex" flavor="Text from the barbarian class.">Rage (Ex)</Pair>
+<Pair title="Free Action">You can enter (or end) a <em>rage.</em> You gain a +4 morale bonus to your Strength and Constitution, as well as a +2 morale bonus on Will saves. The increase to Constitution grants you 2 hit points per Hit Dice, but these disappear when the <em>rage</em> ends and are not lost first like <Link to="/rule/temporary_hit_points">temporary hit points</Link>.</Pair>
+<Pair title="Passive Ability">While in <em>rage,</em> you take a -2 penalty to Armor Class, and you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration. You are <Link to="/misc/fatigued">fatigued</Link> after <em>rage</em> for a number of rounds equal to 2 times the number of rounds spent in the <em>rage.</em> You cannot enter a new <em>rage</em> while fatigued or <Link to="/misc/exhausted">exhausted</Link> but can otherwise enter <em>rage</em> multiple times during a single encounter or combat. If you fall unconscious, your <em>rage</em> immediately ends, placing you in peril of death.</Pair>
+<Pair title="Special">Temporary increases to Constitution, such as those gained from <em>rage</em> and spells like <Link to="/spell/bears_endurance">bear's endurance</Link>, do not increase the total number of rounds that a barbarian can <em>rage</em> per day. The total number of rounds of <em>rage</em> per day is renewed after resting for 8 hours, although these hours do not need to be consecutive.</Pair>
+</Ability>
 </>};
 const _banishment = {title: "Banishment", jsx: <><h2 id="inquisition-banishment-banishment">Banishment</h2>
-<p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels pg. 26</Link><br/><strong>Deities</strong> <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>, <Link to="/faith/torag">Torag</Link></p>
-<p><strong>Granted Powers:</strong> Your devotion to your deity is matched only by your hatred for fiends. You know the rites to cast evil outsiders back to the realms from which they hail.</p>
-<p><strong>Righteous Awe (Su):</strong> Whenever you make an unarmed touch attack against an evil creature, it must succeed at a Will save (DC 10 + 1/2 your inquisitor level + your Wisdom modifier) or become <Link to="/misc/shaken">shaken</Link> for 1d4 rounds. If the creature touched is an evil outsider, it becomes <Link to="/misc/frightened">frightened</Link> instead of shaken. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>
-<p><strong>Dismissive Touch (Sp):</strong> At 8th level, you can cast <Link to="/spell/dismissal">dismissal</Link> once per day as a spell-like ability (caster level equal to your inquisitor level) upon making a successful unarmed touch attack against an evil outsider. The DC to save against this ability increases by 2.</p>
+<p><strong>Sources</strong> <Link to="/source/blood_of_angels">Blood of Angels pg. 26</Link></p>
+<Block size="simple">
+<Row><Cell>Associated Deities</Cell><Cell><Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>, <Link to="/faith/torag">Torag</Link></Cell></Row></Block>
+<h3 id="inquisition-banishment-granted-powers">Granted Powers</h3>
+<p>Your devotion to your deity is matched only by your hatred for fiends. You know the rites to cast evil outsiders back to the realms from which they hail.</p>
+<Ability id="righteous-awe-su" icon={["magic-palm","armor-downgrade"]}>
+<Pair single id="righteous-awe-su">Righteous Awe (Su)</Pair>
+<Pair title="Usage">3 + Wisdom modifier times/day</Pair>
+<Pair title="Ability">Whenever you make an unarmed touch attack against an evil creature, it must succeed at a Will save (DC 10 + 1/2 your inquisitor level + your Wisdom modifier) or become <Link to="/misc/shaken">shaken</Link> for 1d4 rounds. If the creature touched is an evil outsider, it becomes <Link to="/misc/frightened">frightened</Link> instead of shaken.</Pair>
+</Ability>
+<Ability id="dismissive-touch-sp" icon={["magic-palm","magic-swirl"]}>
+<Pair single id="dismissive-touch-sp">Dismissive Touch (Sp)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">You can cast <Link to="/spell/dismissal">dismissal</Link> once per day as a spell-like ability (caster level equal to your inquisitor level) upon making a successful unarmed touch attack against an evil outsider. The DC to save against this ability increases by 2.</Pair>
+</Ability>
 </>};
 const _black_powder = {title: "Black Powder", jsx: <><h2 id="inquisition-black_powder-black-powder">Black Powder</h2>
-<p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 52</Link><br/><strong>Deities</strong> Any (with GM approval)</p>
-<p><strong>Granted Powers:</strong> You gain <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (firearms) and <Link to="/feat/gunsmithing">Gunsmithing</Link> as bonus feats. When you hit an arcane spellcaster or a creature that uses spell-like abilities with a firearm attack, that creature must succeed at a Fortitude saving throw. If the spellcaster fails, he takes a -4 penalty on <Link to="/rule/concentration">concentration</Link> checks for 1 round.</p>
+<p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 52</Link></p>
+<Block size="simple">
+<Row><Cell>Associated Deities</Cell><Cell>Any (with GM approval)</Cell></Row></Block>
+<Ability id="granted-powers" icon={["stairs-goal","armor-downgrade"]}>
+<Pair single id="granted-powers">Granted Powers</Pair>
+<Pair title="Ability"><p>You gain <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (firearms) and <Link to="/feat/gunsmithing">Gunsmithing</Link> as bonus feats.</p>
+<p>When you hit an arcane spellcaster or a creature that uses spell-like abilities with a firearm attack, that creature must succeed at a Fortitude saving throw. If the spellcaster fails, he takes a -4 penalty on <Link to="/rule/concentration">concentration</Link> checks for 1 round.</p>
+</Pair>
+</Ability>
 </>};
 const _chivalry = {title: "Chivalry", jsx: <><h2 id="inquisition-chivalry-chivalry">Chivalry</h2>
-<p><strong>Sources</strong> <Link to="/source/magical_marketplace">Magical Marketplace pg. 10</Link><br/><strong>Deities</strong> <Link to="/faith/erastil">Erastil</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>, <Link to="/faith/torag">Torag</Link></p>
-<p><strong>Granted Powers:</strong> You embrace the spirit of chivalry, guarding your honor and training a noble mount.</p>
-<p><strong>Mount (Ex):</strong> This ability acts as the <Link to="/class/cavalier">cavalier</Link> ability of the same name.</p>
-<p><strong>Faithful Steed (Su):</strong> At 8th level, when you use your judgment ability, your mount gains the benefit of one of your selected judgments. At 16th level, your mount gains the benefits of two of your selected judgments.</p>
+<p><strong>Sources</strong> <Link to="/source/magical_marketplace">Magical Marketplace pg. 10</Link></p>
+<Block size="simple">
+<Row><Cell>Associated Deities</Cell><Cell><Link to="/faith/erastil">Erastil</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>, <Link to="/faith/torag">Torag</Link></Cell></Row></Block>
+<h3 id="inquisition-chivalry-granted-powers">Granted Powers</h3>
+<p>You embrace the spirit of chivalry, guarding your honor and training a noble mount.</p>
+<Ability id="mount-ex" extraClasses="hasSubs" icon={["stairs-goal"]}>
+<Pair single id="mount-ex">Mount (Ex)</Pair>
+<Pair title="Ability">This ability acts as the <Link to="/class/cavalier">cavalier</Link> ability of the same name.</Pair>
+</Ability>
+<Ability id="mount-ex" extraClasses="subAbility" icon={["stairs-goal"]}>
+<Pair single id="mount-ex">Mount (Ex)</Pair>
+<Pair title="Gained">At 1st Level</Pair>
+<Pair title="Ability"><p>You gain the service of a loyal and trusty steed to carry you into battle. This mount functions as a druid's <Link to="/sidekick/animal_companion">animal companion</Link>, using your level as your effective druid level. The creature must be one that you are capable of riding and is suitable as a mount. This mount may come from the following list:</p>
+<p><strong>Medium Cavaliers:</strong> <Link to="/companion/axe_beak">Axe Beak</Link>, <Link to="/companion/camel">Camel</Link>, <Link to="/companion/elk">Elk</Link>, <Link to="/companion/giraffe">Giraffe</Link>, <Link to="/companion/horse">Horse</Link>, <Link to="/companion/giant_seahorse">Giant Seahorse</Link>, <Link to="/companion/giant_tortoise">Giant Tortoise</Link>, <Link to="/companion/zebra">Zebra</Link>; <strong>Small Cavaliers:</strong> <Link to="/companion/antelope">Antelope</Link>, <Link to="/companion/boar">Boar</Link> (requires 4th level), <Link to="/companion/capybara">Capybara</Link>, <Link to="/companion/dog">Dog</Link> (requires 4th level), <Link to="/companion/kangaroo">Kangaroo</Link>, <Link to="/companion/giant_gecko">Giant Gecko</Link>, <Link to="/companion/pony">Pony</Link>, <Link to="/companion/ram">Ram</Link>, Reindeer (uses elk statistics), <Link to="/companion/stag">Stag</Link>, <Link to="/companion/giant_weasel">Giant Weasel</Link>, <Link to="/companion/wolf">Wolf</Link>, <Link to="/companion/wolfdog">Wolfdog</Link></p>
+<p>The GM might approve other animals as suitable mounts.</p>
+<p>You do not take an armor check penalty on <Link to="/skill/ride">Ride</Link> checks while riding your mount. The mount is always considered combat trained and begins play with <Link to="/feat/light_armor_proficiency">Light Armor Proficiency</Link> as a bonus feat. Your mount does not gain the <em>share spells</em> special ability.</p>
+</Pair>
+<Pair title="Special">Your bond with your mount is strong, with the two of you learning to anticipate each other's moods and moves. Should your mount die, you may find another mount to serve you after 1 week of mourning. This new mount does not gain the <em>link, evasion, devotion,</em> or <em>improved evasion</em> special abilities until the next time you gain a level.</Pair>
+</Ability>
+<Ability id="faithful-steed-su" icon={["stairs-goal"]}>
+<Pair single id="faithful-steed-su">Faithful Steed (Su)</Pair>
+<Pair title="At 8th Level">When you use your <em>judgment</em> ability, your mount gains the benefit of one of your selected <em>judgments.</em></Pair>
+<Pair title="At 16th Level">Your mount gains the benefits of two of your selected <em>judgments.</em></Pair>
+</Ability>
 </>};
 const _clandestine = {title: "Clandestine", jsx: <><h2 id="inquisition-clandestine-clandestine">Clandestine</h2>
-<p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 30</Link><br/><strong>Deities</strong> <Link to="/faith/achaekek">Achaekek</Link>, <Link to="/faith/desna">Desna</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/milani">Milani</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>, <Link to="/faith/shelyn">Shelyn</Link>, <Link to="/faith/sivanah">Sivanah</Link></p>
-<p><strong>Granted Powers:</strong> Secrecy is required of the faithful in lands where your deity's worshipers are hunted. Sleight of Hand is a class skill for you.</p>
-<p><strong>Disappear (Sp):</strong> You can become invisible as per <Link to="/spell/invisibility">the spell</Link> as a standard action. The invisibility lasts for 1 round per inquisitor level or until you attack. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>
-<p><strong>Blessed Secrecy (Su):</strong> At 4th level, when you attempt a Bluff, Disguise, Sleight of Hand, or Stealth skill check, you can roll twice and take the more favorable result. You can use this ability a number of times per day equal to your Wisdom bonus.</p>
-<p><strong>Delayed Spells (Su):</strong> At 8th level, you can delay the effects of a spell you cast by up to 1 round per inquisitor level. You choose the duration of the delay when you cast the spell and can cause the spell to take effect immediately during the period of delay by concentrating as a standard action. You can use this ability once per day plus an additional time per day for every 4 inquisitor levels you have beyond 8th.</p>
+<p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 30</Link></p>
+<Block size="simple">
+<Row><Cell>Associated Deities</Cell><Cell><Link to="/faith/achaekek">Achaekek</Link>, <Link to="/faith/desna">Desna</Link>, <Link to="/faith/iomedae">Iomedae</Link>, <Link to="/faith/milani">Milani</Link>, <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/sarenrae">Sarenrae</Link>, <Link to="/faith/shelyn">Shelyn</Link>, <Link to="/faith/sivanah">Sivanah</Link></Cell></Row></Block>
+<h3 id="inquisition-clandestine-granted-powers">Granted Powers</h3>
+<p>Secrecy is required of the faithful in lands where your deity's worshipers are hunted.</p>
+<Ability icon={["skills"]} id="class-skills">
+<Pair id="class-skills" single>Class Skills</Pair>
+<Pair title="Alters" hl>Class skills</Pair><Pair title="New Class Skills"><Link to="/skill/sleight_of_hand">Sleight of Hand</Link> (DEX)</Pair></Ability>
+<Ability id="disappear-sp" icon={["armor-upgrade"]}>
+<Pair single id="disappear-sp">Disappear (Sp)</Pair>
+<Pair title="Usage">3 + Wisdom modifier times/day</Pair>
+<Pair title="Standard Action">You can become invisible as per <Link to="/spell/invisibility">the spell</Link>. The invisibility lasts for 1 round per inquisitor level or until you attack.</Pair>
+</Ability>
+<Ability id="blessed-secrecy-su" icon={["rolling-dices"]}>
+<Pair single id="blessed-secrecy-su">Blessed Secrecy (Su)</Pair>
+<Pair title="Gained">At 4th Level</Pair>
+<Pair title="Usage">Wisdom modifier times/day</Pair>
+<Pair title="Passive Ability">When you attempt a <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/disguise">Disguise</Link>, Sleight of Hand, or <Link to="/skill/stealth">Stealth</Link> skill check, you can roll twice and take the more favorable result.</Pair>
+</Ability>
+<Ability id="delayed-spells-su" icon={["magic-swirl"]}>
+<Pair single id="delayed-spells-su">Delayed Spells (Su)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Usage">1 time/day + 1 per four inquisitor levels beyond 8th</Pair>
+<Pair title="Ability">You can delay the effects of a spell you cast by up to 1 round per inquisitor level. You choose the duration of the delay when you cast the spell and can cause the spell to take effect immediately during the period of delay by concentrating as a <strong className="hl">standard action</strong>.</Pair>
+</Ability>
 </>};
 const _conversion = {title: "Conversion", jsx: <><h2 id="inquisition-conversion-conversion">Conversion</h2>
-<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 41</Link><br/><strong>Deities</strong> Any deity</p>
-<p><strong>Granted Powers:</strong> You are a powerful persuader. A honeyed tongue empowered by divine argumentation sways the indifferent and adversarial to your side.</p>
-<p><strong>Charm of Wisdom (Ex):</strong> You use your Wisdom modifier instead of your Charisma modifier when making Bluff, Diplomacy, and Intimidate checks.</p>
-<p><strong>Swaying Word (Sp):</strong> At 8th level, once per day you may speak a word of divinely inspired wisdom that causes a single creature to switch its alliance to you. The target must be within line of sight and able to hear you. If he fails his Will save, he is affected by <Link to="/spell/dominate_person">dominate person</Link>, except the duration is only 1 minute.</p>
+<p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 41</Link></p>
+<Block size="simple">
+<Row><Cell>Associated Deities</Cell><Cell>Any deity</Cell></Row></Block>
+<h3 id="inquisition-conversion-granted-powers">Granted Powers</h3>
+<p>You are a powerful persuader. A honeyed tongue empowered by divine argumentation sways the indifferent and adversarial to your side.</p>
+<Ability id="charm-of-wisdom-ex" icon={["upgrade"]}>
+<Pair single id="charm-of-wisdom-ex">Charm of Wisdom (Ex)</Pair>
+<Pair title="Ability">You use your Wisdom modifier instead of your Charisma modifier when making <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, and <Link to="/skill/intimidate">Intimidate</Link> checks.</Pair>
+</Ability>
+<Ability id="swaying-word-sp" icon={["magic-swirl"]}>
+<Pair single id="swaying-word-sp">Swaying Word (Sp)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">Once per day you may speak a word of divinely inspired wisdom that causes a single creature to switch its alliance to you. The target must be within line of sight and able to hear you. If he fails his Will save, he is affected by <Link to="/spell/dominate_person">dominate person</Link>, except the duration is only 1 minute.</Pair>
+</Ability>
 </>};
 const _crime = {title: "Crime", jsx: <><h2 id="inquisition-crime-crime">Crime</h2>
-<p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 28</Link><br/><strong>Deities</strong> <Link to="/faith/calistria">Calistria</Link>, <Link to="/faith/norgorber">Norgorber</Link></p>
-<p><strong>Granted Powers:</strong> Your connections to the criminal underworld run deeper than the physical, and your spiritual criminality grants you underhanded powers.</p>
-<p><strong>Criminal Minds (Sp):</strong> You can touch a creature and fill its mind with criminal impulses. This otherwise functions as per <Link to="/spell/crime_of_opportunity">crime of opportunity</Link>, though a target that fails its saving throw and acts on an impulse gets those desires out of its system and becomes immune to the effects of your criminal minds ability for 24 hours. You can use this ability a number of times per day equal to 3 + your Wisdom modifier (minimum 1).</p>
-<p><strong>Thief's Soul (Ex):</strong> At 8th level, you gain <Link to="/feat/improved_steal">Improved Steal</Link>, <Link to="/feat/greater_steal">Greater Steal</Link>, and <Link to="/feat/quick_steal">Quick Steal</Link> as bonus feats, even if you don't meet the prerequisites.</p>
+<p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 28</Link></p>
+<Block size="simple">
+<Row><Cell>Associated Deities</Cell><Cell><Link to="/faith/calistria">Calistria</Link>, <Link to="/faith/norgorber">Norgorber</Link></Cell></Row></Block>
+<h3 id="inquisition-crime-granted-powers">Granted Powers</h3>
+<p>Your connections to the criminal underworld run deeper than the physical, and your spiritual criminality grants you underhanded powers.</p>
+<Ability id="criminal-minds-sp" icon={["magic-palm"]}>
+<Pair single id="criminal-minds-sp">Criminal Minds (Sp)</Pair>
+<Pair title="Usage">3 + Wisdom modifier times/day (minimum 1)</Pair>
+<Pair title="Ability">You can touch a creature and fill its mind with criminal impulses. This otherwise functions as per <Link to="/spell/crime_of_opportunity">crime of opportunity</Link>, though a target that fails its saving throw and acts on an impulse gets those desires out of its system and becomes immune to the effects of your <em>criminal minds</em> ability for 24 hours.</Pair>
+</Ability>
+<Ability id="thiefs-soul-ex" icon={["stairs-goal"]}>
+<Pair single id="thiefs-soul-ex">Thief's Soul (Ex)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Ability">You gain <Link to="/feat/improved_steal">Improved Steal</Link>, <Link to="/feat/greater_steal">Greater Steal</Link>, and <Link to="/feat/quick_steal">Quick Steal</Link> as bonus feats, even if you don't meet the prerequisites.</Pair>
+</Ability>
 </>};
 const _damnation = {title: "Damnation", jsx: <><h2 id="inquisition-damnation-damnation">Damnation</h2>
-<p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends pg. 27</Link><br/><strong>Deities</strong> <Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/zon_kuthon">Zon-Kuthon</Link></p>
-<p><strong>Granted Powers:</strong> The prospect of an afterlife filled with torment can cause even the most stalwart to blanch - at least for a moment.</p>
-<p><strong>Fear the Flames (Su):</strong> You can give a creature you can see within 60 feet one chance to avoid an eternity of suffering by ordering it to carry out any one simple action that would take no more than 1 round to complete. Good and neutral creatures that refuse become shaken for 1 round (Will negates), while evil creatures that obey gain a +2 morale bonus on all rolls and checks made for 1 round. You can use this ability a number of times per day equal to 3 + your Wisdom modifier. This is a language-dependent, mind-affecting effect.</p>
-<p><strong>Collector of Souls (Sp):</strong> At 8th level, once per day as a standard action, you call forth an illusory fiend and order it to temporarily drag a living and sentient creature into an afterlife of pain and misery. This otherwise acts identically to <Link to="/spell/phantasmal_killer">phantasmal killer</Link>, except targets that fail their Fortitude saving throws become paralyzed for a number of rounds equal to 1d4 + your inquisitor level instead of dying.</p>
+<p><strong>Sources</strong> <Link to="/source/blood_of_fiends">Blood of Fiends pg. 27</Link></p>
+<Block size="simple">
+<Row><Cell>Associated Deities</Cell><Cell><Link to="/faith/asmodeus">Asmodeus</Link>, <Link to="/faith/pharasma">Pharasma</Link>, <Link to="/faith/zon_kuthon">Zon-Kuthon</Link></Cell></Row></Block>
+<h3 id="inquisition-damnation-granted-powers">Granted Powers</h3>
+<p>The prospect of an afterlife filled with torment can cause even the most stalwart to blanch - at least for a moment.</p>
+<Ability id="fear-the-flames-su" icon={["magic-swirl"]}>
+<Pair single id="fear-the-flames-su">Fear the Flames (Su)</Pair>
+<Pair title="Usage">3 + Wisdom modifier times/day</Pair>
+<Pair title="Ability">You can give a creature you can see within 60 feet one chance to avoid an eternity of suffering by ordering it to carry out any one simple action that would take no more than 1 round to complete. Good and neutral creatures that refuse become <Link to="/misc/shaken">shaken</Link> for 1 round (Will negates), while evil creatures that obey gain a +2 morale bonus on all rolls and checks made for 1 round.</Pair>
+<Pair title="Special">This is a language-dependent, mind-affecting effect.</Pair>
+</Ability>
+<Ability id="collector-of-souls-sp" icon={["magic-swirl"]}>
+<Pair single id="collector-of-souls-sp">Collector of Souls (Sp)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Standard Action">Once per day you call forth an illusory fiend and order it to temporarily drag a living and sentient creature into an afterlife of pain and misery. This otherwise acts identically to <Link to="/spell/phantasmal_killer">phantasmal killer</Link>, except targets that fail their Fortitude saving throws become <Link to="/rule/paralyzed">paralyzed</Link> for a number of rounds equal to 1d4 + your inquisitor level instead of dying.</Pair>
+</Ability>
 </>};
 const _excommunication = {title: "Excommunication", jsx: <><h2 id="inquisition-excommunication-excommunication">Excommunication</h2>
-<p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies pg. 23</Link><br/><strong>Deities</strong> Any</p>
+<p><strong>Sources</strong> <Link to="/source/faiths_and_philosophies">Faiths and Philosophies pg. 23</Link></p>
+<Block size="simple">
+<Row><Cell>Associated Deities</Cell><Cell>Any</Cell></Row></Block>
 <p>Marked by your deity for your impressive will, you are among the few with the wherewithal to carry out the necessary work of removing dangerous influences from your church.</p>
-<p><strong>Granted Powers:</strong> You can repulse the influence of confused divine servants.</p>
-<p><strong>Touch of Silence (Su):</strong> With a melee touch attack, you render a target silent (as the spell <Link to="/spell/silence">silence</Link>, but only affecting the target) for 1 round. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>
-<p><strong>Excommunicate (Su):</strong> At 8th level, once per day, you can silence a creature within 30 feet as a standard action. A Will save against DC = 10 + 1/2 your inquisitor level + your Wisdom modifier negates the effect. A creature that fails its save gets a second save 1 round later. If it fails the second save, the target cannot speak, provide verbal components for spells, make use of language-dependent effects, write, pantomime, or take any other action meant to communicate anything more complex than a simple affirmative or negative for 1 day.</p>
+<h3 id="inquisition-excommunication-granted-powers">Granted Powers</h3>
+<p>You can repulse the influence of confused divine servants.</p>
+<Ability id="touch-of-silence-su" icon={["magic-palm"]}>
+<Pair single id="touch-of-silence-su">Touch of Silence (Su)</Pair>
+<Pair title="Usage">3 + Wisdom modifier times/day</Pair>
+<Pair title="Ability">With a melee touch attack, you render a target silent (as the spell <Link to="/spell/silence">silence</Link>, but only affecting the target) for 1 round.</Pair>
+</Ability>
+<Ability id="excommunicate-su" icon={["armor-downgrade"]}>
+<Pair single id="excommunicate-su">Excommunicate (Su)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Standard Action">Once per day, you can silence a creature within 30 feet. A Will save against DC = 10 + 1/2 your inquisitor level + your Wisdom modifier negates the effect. A creature that fails its save gets a second save 1 round later. If it fails the second save, the target cannot speak, provide verbal components for spells, make use of language-dependent effects, write, pantomime, or take any other action meant to communicate anything more complex than a simple affirmative or negative for 1 day.</Pair>
+</Ability>
 </>};
 const _execution = {title: "Execution", jsx: <><h2 id="inquisition-execution-execution">Execution</h2>
-<p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 30</Link><br/><strong>Deities</strong> <Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/achaekek">Achaekek</Link>, <Link to="/faith/calistria">Calistria</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/pharasma">Pharasma</Link></p>
-<p><strong>Granted Powers:</strong> Your deity guides you when you deliver death to your chosen targets.</p>
-<p><strong>Chosen Victim (Sp):</strong> Once per day, you can designate a creature as your chosen victim. You gain a +2 bonus on Diplomacy checks to gather information about your target, on Bluff and Intimidate checks against your target, and on Survival checks to track your target. The benefits of your destruction, piercing, purity, and smiting judgments against your chosen victim increase as if your inquisitor level were 3 higher.</p>
-<p><strong>Executioner's Strike (Su):</strong> At 8th level, your precision in combat has become incredible, and you can strike a lethal blow if your target cannot defend itself properly. Once per day, you can make an attack as a standard action against your chosen victim. If the attack hits and the victim is denied its Dexterity bonus to AC against you, any critical threats are automatically confirmed.</p>
+<p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 30</Link></p>
+<Block size="simple">
+<Row><Cell>Associated Deities</Cell><Cell><Link to="/faith/abadar">Abadar</Link>, <Link to="/faith/achaekek">Achaekek</Link>, <Link to="/faith/calistria">Calistria</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/pharasma">Pharasma</Link></Cell></Row></Block>
+<h3 id="inquisition-execution-granted-powers">Granted Powers</h3>
+<p>Your deity guides you when you deliver death to your chosen targets.</p>
+<Ability id="chosen-victim-sp" icon={["upgrade"]}>
+<Pair single id="chosen-victim-sp">Chosen Victim (Sp)</Pair>
+<Pair title="Ability">Once per day, you can designate a creature as your <em>chosen victim.</em> You gain a +2 bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to gather information about your target, on <Link to="/skill/bluff">Bluff</Link> and <Link to="/skill/intimidate">Intimidate</Link> checks against your target, and on <Link to="/skill/survival">Survival</Link> checks to track your target. The benefits of your <em>destruction, piercing, purity,</em> and <em>smiting judgments</em> against your <em>chosen victim</em> increase as if your inquisitor level were 3 higher.</Pair>
+</Ability>
+<Ability id="executioners-strike-su" icon={["upgrade"]}>
+<Pair single id="executioners-strike-su" flavor="Your precision in combat has become incredible, and you can strike a lethal blow if your target cannot defend itself properly.">Executioner's Strike (Su)</Pair>
+<Pair title="Gained">At 8th Level</Pair>
+<Pair title="Standard Action">Once per day, you can make an attack against your <em>chosen victim.</em> If the attack hits and the victim is denied its Dexterity bonus to AC against you, any critical threats are automatically confirmed.</Pair>
+</Ability>
 </>};
 const _fate = {title: "Fate", jsx: <><h2 id="inquisition-fate-fate">Fate</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_magic">Ultimate Magic pg. 41</Link><br/><strong>Deities</strong> <Link to="/faith/nethys">Nethys</Link>, <Link to="/faith/norgorber">Norgorber</Link>, <Link to="/faith/pharasma">Pharasma</Link></p>
