@@ -20,6 +20,7 @@ import makeCapstoneBlock from './block/altCapstone.js';
 import makeRoomBlock from './block/room.js';
 import makeClassSkillsAbilityBlock from './block/cskill.js';
 import makeRacialTraitsBlock from './block/rtraits.js';
+import makeKineticTalentBlock from './block/kinetic.js';
 import noteTags from './noteTags.js';
 
 const churn = (n, attrs, list, regex, logError) => {
@@ -620,6 +621,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				flags.room = true;
 				return makeRoomBlock({marked2, convertEncodedInfo, id, maybeClear, text, attrs, logError});
 			} else if (n === "rtraits") {
+				// Racial Traits
 				churn(n, attrs, [
  					"clear",
 					"plural", "main"
@@ -628,6 +630,17 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				flags.duo = true;
 				const {plural, main} = attrs;
 				return makeRacialTraitsBlock({maybeClear, plural, main, convert: (x) => marked2.parseInline(convertEncodedInfo(x)), logError})
+			} else if (n === "kinetics") {
+				churn(n, attrs, [
+ 					"clear",
+					"el", "type", "l", "burn",
+					"prereq", "assoc", "btype", "dmg",
+					"save", "sr", "source"
+				], [], logError);
+				const id = makeValidID(text + "-kinetictalent");
+				flags.kinetic = true;
+				const marked2 = makeNewMarkedInstance();
+				return makeKineticTalentBlock({marked2, convertEncodedInfo, id, maybeClear, attrs, logError})
 			}
 			console.log(`Unknown block directive [::${n}][${prefix}]`);
 			return false;
