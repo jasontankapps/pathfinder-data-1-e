@@ -798,7 +798,11 @@
 			"",
 			"::kinetics{el=universal type=\"form infusion\" l=3 burn=2 assoc=any save=\"Reflex half, see text\" source=\"Wilderness Origins/28\"}",
 			"",
-			"You touch an area of natural ground, drawing up elemental energy that roils just below the surface, ready to explode when stepped on. This 5-foot square detonates when triggered by a weight of 10 pounds or more, affecting all creatures within 10 feet of the trap with your simple blast (or composite blast, if you have it). Any creature other than the one that triggered the elemental trap can attempt a Reflex save for half damage. The elemental trap lasts until the next time you use this wild talent or until it triggers. This counts as a magical trap with a Perception and Disable Device DC equal to 10 + your kineticist level + your Dexterity modifier. You can accept 2 points of burn, which cannot be reduced with gather power, to make a new trap without dismissing any previous traps. If you do, the trap lasts until the next time you recover burn."
+			"You touch an area of natural ground, drawing up elemental energy that roils just below the surface, ready to explode when stepped on. This 5-foot square detonates when triggered by a weight of 10 pounds or more, affecting all creatures within 10 feet of the trap with your simple blast (or composite blast, if you have it). Any creature other than the one that triggered the elemental trap can attempt a Reflex save for half damage.",
+			"",
+			"The elemental trap lasts until the next time you use this wild talent or until it triggers. This counts as a magical trap with a ‹skill/Perception› and ‹skill/Disable Device› DC equal to 10 + your kineticist level + your Dexterity modifier.",
+			"",
+			"You can accept 2 points of burn, which cannot be reduced with *gather power,* to make a new trap without dismissing any previous traps. If you do, the trap lasts until the next time you recover burn."
 		]
 	},
 	"energize_weapon": {
@@ -810,7 +814,11 @@
 			"",
 			"::kinetics{el=\"air, fire, void, water\" type=\"form infusion\" l=1 burn=1 assoc=\"‹kinetic/Blue Flame Blast›, ‹kinetic/Cold Blast›, ‹kinetic/Electric Blast›, ‹kinetic/Fire Blast›, ‹kinetic/Negative Blast›\" save=none source=\"Elemental Master's Handbook/22\"}",
 			"",
-			"Choose a manufactured weapon in your hand (not an unarmed strike or natural attack); if the weapon is a double weapon, you must choose one of its ends to receive this benefit. You imbue the chosen weapon with your elemental energy as part of an attack action, charge action, or full-attack action to add extra damage to each of your attacks with that weapon until the beginning of your next turn. Your attacks with the chosen weapon during that action deal 1d6 additional points of damage. At 7th level and every 6 levels thereafter, this bonus damage increases by 1d6 points. Blue flame blasts deal double this additional damage. The additional damage is of the same type as the infused blast's damage. This additional damage ignores spell resistance and doesn't apply any modifiers to your kinetic blast's damage (such as your Constitution modifier)."
+			"Choose a manufactured weapon in your hand (not an unarmed strike or natural attack); if the weapon is a double weapon, you must choose one of its ends to receive this benefit. You imbue the chosen weapon with your elemental energy as part of an attack action, ‹rule/charge› action, or full-attack action to add extra damage to each of your attacks with that weapon until the beginning of your next turn. Your attacks with the chosen weapon during that action deal 1d6 additional points of damage.",
+			"",
+			"At 7th level, this bonus damage becomes 2d6 points. At 13th level, it increases to 3d6, and at 19th level it becomes 4d6. *Blue flame blasts* deal double this additional damage. The additional damage is of the same type as the infused blast's damage.",
+			"",
+			"This additional damage ignores spell resistance and doesn't apply any modifiers to your kinetic blast's damage (such as your Constitution modifier)."
 		]
 	},
 	"enervating_infusion": {
@@ -822,7 +830,9 @@
 			"",
 			"::kinetics{el=void type=\"substance infusion\" l=7 burn=4 assoc=\"‹kinetic/Negative Blast›, ‹kinetic/Void Blast›\" save=\"Fortitude negates\" source=\"Occult Origins/6\"}",
 			"",
-			"Your kinetic blast drains life force. Foes that take damage from your infused blast also take 1 temporary negative level. Negative levels from this infusion fade after 24 hours and never become permanent."
+			"Your kinetic blast drains life force.",
+			"",
+			"Foes that take damage from your infused blast also take 1 temporary ‹rule/negative level›. Negative levels from this infusion fade after 24 hours and never become permanent."
 		]
 	},
 	"entangling_infusion": {
@@ -834,7 +844,11 @@
 			"",
 			"::kinetics{el=\"earth, water, wood\" type=\"substance infusion\" l=2 burn=2 assoc=\"‹kinetic/Blizzard Blast›, ‹kinetic/Cold Blast›, ‹kinetic/Earth Blast›, ‹kinetic/Ice Blast›, ‹kinetic/Magma Blast›, ‹kinetic/Metal Blast›, ‹kinetic/Mud Blast›, ‹kinetic/Sandstorm Blast›\" save=\"Reflex negates\" source=\"Occult Adventures/19\"}",
 			"",
-			"Your kinetic blast surrounds your foes in elemental matter. Whenever a blast with this infusion deals damage to a foe, that foe becomes ‹rule/entangled› for 1 minute. The foe can remove this condition as a standard action with a successful Escape Artist or Strength check (with the same DC as for saves against your kinetic blast) or by dealing an amount of damage to the entangling matter equal to double your kineticist level (the matter has hardness 0). If the foe was already entangled by this infusion and fails its save against a second instance of this infusion, the increased amount of elemental matter fuses to the ground, causing the foe to be rooted in place as though anchored to an immobile object."
+			"Your kinetic blast surrounds your foes in elemental matter.",
+			"",
+			"Whenever a blast with this infusion deals damage to a foe, that foe becomes ‹rule/entangled› for 1 minute. The foe can remove this condition as a @HL[standard action] with a successful ‹skill/Escape Artist› or Strength check (with the same DC as for saves against your kinetic blast) or by dealing an amount of damage to the entangling matter equal to double your kineticist level (the matter has hardness 0).",
+			"",
+			"If the foe was already entangled by this infusion and fails its save against a second instance of this infusion, the increased amount of elemental matter fuses to the ground, causing the foe to be rooted in place as though anchored to an immobile object."
 		]
 	},
 	"eruption": {
@@ -906,7 +920,9 @@
 			"",
 			"::kinetics{el=fire type=\"substance infusion\" l=4 burn=3 assoc=\"‹kinetic/Blue Flame Blast›, ‹kinetic/Fire Blast›, ‹kinetic/Plasma Blast›\" save=\"Will negates\" source=\"Occult Adventures/19\"}",
 			"",
-			"Your kinetic blast is so bright that it blinds your foes. Whenever an infused blast hits a foe and penetrates its spell resistance, that foe must succeed at a Will save or be ‹misc/blinded› for 1 round, regardless of whether it takes damage from the blast. You can reduce the blast's damage by half to increase the DC of this save by 2."
+			"Your kinetic blast is so bright that it blinds your foes.",
+			"",
+			"Whenever an infused blast hits a foe and penetrates its spell resistance, that foe must succeed at a Will save or be ‹misc/blinded› for 1 round, regardless of whether it takes damage from the blast. You can reduce the blast's damage by half to increase the DC of this save by 2."
 		]
 	},
 	"flurry_of_blasts": {
@@ -918,9 +934,11 @@
 			"",
 			"::kinetics{el=universal type=\"form infusion\" l=3 burn=2 prereq=\"‹kinetic/extended range›\" assoc=any save=none source=\"Occult Adventures/19\"}",
 			"",
-			"Instead of a single kinetic blast, you shoot two kinetic blasts at targets within 120 feet that each deal damage as if your kineticist level were 1st (effects or abilities that increase your kinetic blast's damage don't apply). At 10th level, you can shoot three blasts with flurry of blasts; this increases to four blasts at 16th level and to five blasts at 20th level. If you are under the effect of haste or similar magic that increases your number of attacks in a fullattack action, the number of kinetic blasts in your flurry of blasts increases by 1.",
+			"Instead of a single kinetic blast, you shoot two kinetic blasts at targets within 120 feet that each deal damage as if your kineticist level were 1st (effects or abilities that increase your kinetic blast's damage don't apply). At 10th level, you can shoot three blasts with *flurry of blasts;* this increases to four blasts at 16th level and to five blasts at 20th level. If you are under the effect of ‹spell/haste› or similar magic that increases your number of attacks in a full-attack action, the number of kinetic blasts in your *flurry of blasts* increases by 1.",
 			"",
-			"No two targets can be more than 30 feet apart. You must assign the targets of all your blasts before rolling any of the attacks. Any blast beyond the first that hits the same target adds 1d6 points of damage; bonuses and penalties to damage don't apply. If you are using a substance infusion that requires a saving throw, a target attempts its save only once (even if it was hit multiple times), but it takes a penalty on the save equal to the number of times it was hit beyond the first. If you are using a substance infusion that requires a caster level check or combat maneuver check, you roll the check only once against each target, but you gain a bonus on the check equal to the number of times that target was hit beyond the first. If you are using the ‹kinetic/pushing «substance »infusion›, the maximum distance of the push increases by 5 feet for each time the target was hit beyond the first."
+			"No two targets can be more than 30 feet apart. You must assign the targets of all your blasts before rolling any of the attacks. Any blast beyond the first that hits the same target adds 1d6 points of damage; bonuses and penalties to damage don't apply.",
+			"",
+			"If you are using a substance infusion that requires a saving throw, a target attempts its save only once (even if it was hit multiple times), but it takes a penalty on the save equal to the number of times it was hit beyond the first. If you are using a substance infusion that requires a caster level check or combat maneuver check, you roll the check only once against each target, but you gain a bonus on the check equal to the number of times that target was hit beyond the first. If you are using the ‹kinetic/pushing «substance »infusion›, the maximum distance of the push increases by 5 feet for each time the target was hit beyond the first."
 		]
 	},
 	"focused_blast": {
@@ -932,7 +950,9 @@
 			"",
 			"::kinetics{el=universal type=\"form infusion\" l=2 burn=2 assoc=any save=none source=\"Psychic Anthology/20\"}",
 			"",
-			"You focus your blast in a concentrated attack. You gain a +1 enhancement bonus on your attack roll with the blast and your caster level check to overcome spell resistance. You can increase the burn cost of this infusion by 2 to increase the enhancement bonus by 1, to a maximum of +5 for 10 burn. You can reduce your blast's total damage by half to reduce the burn cost of this infusion by half as well."
+			"You focus your blast in a concentrated attack.",
+			"",
+			"You gain a +1 enhancement bonus on your attack roll with the blast and your caster level check to overcome spell resistance. You can increase the burn cost of this infusion by 2 to increase the enhancement bonus by 1, to a maximum of +5 for 10 burn. You can reduce your blast's total damage by half to reduce the burn cost of this infusion by half as well."
 		]
 	},
 	"foe_throw": {
@@ -971,7 +991,7 @@
 			"",
 			"::kinetics{el=\"fire, wood\" type=\"substance infusion (Sp)\" l=3 burn=2 prereq=\"‹kinetic/foxfire› or ‹kinetic/positive blast›\" assoc=\"‹kinetic/Blue Flame Blast›, ‹kinetic/Fire Blast›, Positive Blast\" save=\"Will partial\" source=\"Ultimate Wilderness/58~;Psychic Anthology/20\"}",
 			"",
-			"Your blast leaves behind flickering flames that reveal the target's location as per ‹spell/faerie fire› for 1 minute (or until your next turn if the target succeeds at its save). This effect occurs even if the foe doesn't take damage, as long as the attack overcomes spell resistance (if any). You can reduce the blast's damage by half to increase the DC of this saving throw by 2. A creature can remove the revealing flames early by taking a full-round action to extinguish them."
+			"Your blast leaves behind flickering flames that reveal the target's location as per ‹spell/faerie fire› for 1 minute (or until your next turn if the target succeeds at its save). This effect occurs even if the foe doesn't take damage, as long as the attack overcomes spell resistance (if any). You can reduce the blast's damage by half to increase the DC of this saving throw by 2. A creature can remove the revealing flames early by taking a @HL[full-round action] to extinguish them."
 		]
 	},
 	"fragmentation": {
@@ -993,9 +1013,13 @@
 		"description": [
 			"## Grappling Infusion",
 			"",
-			"::kinetics{el=universal type=\"substance infusion\" l=5 burn=3 assoc=any save=none source=\"Occult Adventures/20\"}",
+			"::kinetics{el=universal type=\"substance infusion\" l=5 burn=3 prereq=\"‹kinetic/cloud›, ‹kinetic/deadly earth›, or ‹kinetic/wall›\" assoc=any save=none source=\"Occult Adventures/20\"}",
 			"",
-			"Your ‹kinetic/cloud›, ‹kinetic/deadly earth›, or ‹kinetic/wall› blast grows tendrils that hold your enemies in place. Whenever a creature takes damage from the infused blast, you can attempt a combat maneuver check to have the blast grapple that opponent. Your bonus on this check is equal to 2 + your kineticist level + your Constitution modifier (treat the blast as a Huge creature). The blast only grapples opponents; it can't perform other functions of grapple maneuvers such as pinning or moving the opponent. If the blast is already grappling an opponent, it receives a +5 bonus on its combat maneuver check to maintain the grapple, as normal. You can use this infusion only if you also use the cloud, deadly earth, or wall form infusion."
+			"Your *cloud, deadly earth,* or *wall* blast grows tendrils that hold your enemies in place.",
+			"",
+			"Whenever a creature takes damage from the infused blast, you can attempt a combat maneuver check to have the blast ‹rule/grapple› that opponent. Your bonus on this check is equal to 2 + your kineticist level + your Constitution modifier (treat the blast as a Huge creature). The blast only grapples opponents; it can't perform other functions of grapple maneuvers such as pinning or moving the opponent. If the blast is already grappling an opponent, it receives a +5 bonus on its combat maneuver check to maintain the grapple, as normal.",
+			"",
+			"You can use this infusion only if you also use the *cloud, deadly earth,* or *wall* form infusion."
 		]
 	},
 	"gusting_infusion": {
@@ -1019,7 +1043,9 @@
 			"",
 			"::kinetics{el=\"earth, water, wood\" type=\"form infusion\" l=3 burn=2 assoc=\"‹kinetic/Earth Blast›, ‹kinetic/Ice Blast›, ‹kinetic/Metal Blast›\" save=none source=\"Occult Adventures/20\"}",
 			"",
-			"You extend a long, sharp spike of elemental matter along a line, impaling multiple foes. Make a single attack roll against each creature or object in a 30-foot line, starting with the closest target. If the result is a critical threat, roll to confirm against only the first target you hit. Calculate damage against each target you hit, starting from the closest. If your attack hits a target but fails to deal physical damage to that target, the spike fails to penetrate and the infused blast doesn't continue. A blast with the impale infusion can penetrate solid barriers, but it must deal enough damage to destroy the barrier in order to continue through. Infused ‹kinetic/earth<_blast› and ‹kinetic/metal<_blast› blasts always deal piercing damage."
+			"You extend a long, sharp spike of elemental matter along a line, impaling multiple foes. Make a single attack roll against each creature or object in a 30-foot line, starting with the closest target. If the result is a critical threat, roll to confirm against only the first target you hit. Calculate damage against each target you hit, starting from the closest.",
+			"",
+			"If your attack hits a target but fails to deal physical damage to that target, the spike fails to penetrate and the infused blast doesn't continue. A blast with the *impale* infusion can penetrate solid barriers, but it must deal enough damage to destroy the barrier in order to continue through. Infused ‹kinetic/earth<_blast› and ‹kinetic/metal<_blast› blasts always deal piercing damage."
 		]
 	},
 	"kinetic_blade": {
@@ -1031,9 +1057,11 @@
 			"",
 			"::kinetics{el=universal type=\"form infusion\" l=1 burn=1 assoc=any save=none source=\"Occult Adventures/20\"}",
 			"",
-			"You form a weapon using your kinetic abilities. You create a non-reach, light or one-handed weapon in your hand formed of pure energy or elemental matter. (If you're a telekineticist, you instead transfer the power of your kinetic blast to any object held in one hand.) The kinetic blade's shape is purely cosmetic and doesn't affect the damage dice, critical threat range, or critical multiplier of the kinetic blade, nor does it grant the kinetic blade any weapon special features. The object held by a telekineticist for this form infusion doesn't prevent her from using gather power.",
+			"You form a weapon using your kinetic abilities. You create a non-‹misc/reach›, light or one-handed weapon in your hand formed of pure energy or elemental matter. (If you're a telekineticist, you instead transfer the power of your kinetic blast to any object held in one hand.) The *kinetic blade's* shape is purely cosmetic and doesn't affect the damage dice, critical threat range, or critical multiplier of the *kinetic blade,* nor does it grant the *kinetic blade* any weapon special features. The object held by a telekineticist for this form infusion doesn't prevent her from using *gather power.*",
 			"",
-			"You can use this form infusion once as part of an attack action, a charge action, or a full-attack action in order to make melee attacks with your kinetic blade. Since it's part of another action (and isn't an action itself), using this wild talent doesn't provoke any additional attacks of opportunity. The kinetic blade deals your kinetic blast damage on each hit (applying any modifiers to your kinetic blast's damage as normal, but not your Strength modifier). The blade disappears at the end of your turn. The weapon deals the same damage type that your kinetic blast deals, and it interacts with Armor Class and spell resistance as normal for a blast of its type. Even if a telekineticist uses this power on a magic weapon or another unusual object, the attack doesn't use any of the magic weapon's bonuses or effects and simply deals the telekineticist's blast damage. The kinetic blade doesn't add the damage bonus from elemental overflow."
+			"You can use this form infusion once as part of an attack action, a ‹rule/charge› action, or a full-attack action in order to make melee attacks with your *kinetic blade.* Since it's part of another action (and isn't an action itself), using this wild talent doesn't provoke any additional attacks of opportunity.",
+			"",
+			"The *kinetic blade* deals your kinetic blast damage on each hit (applying any modifiers to your kinetic blast's damage as normal, but not your Strength modifier). The *blade* disappears at the end of your turn. The weapon deals the same damage type that your kinetic blast deals, and it interacts with Armor Class and spell resistance as normal for a blast of its type. Even if a telekineticist uses this power on a magic weapon or another unusual object, the attack doesn't use any of the magic weapon's bonuses or effects and simply deals the telekineticist's blast damage. The *kinetic blade* doesn't add the damage bonus from *elemental overflow.*"
 		]
 	},
 	"kinetic_fist": {
@@ -1045,7 +1073,9 @@
 			"",
 			"::kinetics{el=universal type=\"form infusion\" l=1 burn=1 assoc=any save=none source=\"Occult Adventures/21\"}",
 			"",
-			"You surround your body with energy or elemental matter from your kinetic abilities. You can use this form infusion as part of an attack action, a charge action, or a full-attack action to add damage to each of your natural attacks and unarmed strikes until the beginning of your next turn. Since kinetic fist is part of another action, using this wild talent doesn't provoke any additional attack of opportunity. You deal an additional 1d6 points of damage per 3 dice of your kinetic blast's damage (minimum 1d6), and this damage is of the same type as your kinetic blast's damage. This extra damage ignores spell resistance and doesn't apply any modifiers to your kinetic blast's damage, such as your Constitution modifier."
+			"You surround your body with energy or elemental matter from your kinetic abilities. You can use this form infusion as part of an attack action, a ‹rule/charge› action, or a full-attack action to add damage to each of your natural attacks and unarmed strikes until the beginning of your next turn. Since *kinetic fist* is part of another action, using this wild talent doesn't provoke any additional attack of opportunity.",
+			"",
+			"You deal an additional 1d6 points of damage per 3 dice of your kinetic blast's damage (minimum 1d6), and this damage is of the same type as your kinetic blast's damage. This extra damage ignores spell resistance and doesn't apply any modifiers to your kinetic blast's damage, such as your Constitution modifier."
 		]
 	},
 	"kinetic_whip": {
@@ -1057,7 +1087,7 @@
 			"",
 			"::kinetics{el=universal type=\"form infusion\" l=3 burn=2 prereq=\"‹kinetic/kinetic blade›\" assoc=any save=none source=\"Occult Adventures/21\"}",
 			"",
-			"You form a long tendril of energy or elemental matter. This functions as kinetic blade but counts as a reach weapon appropriate for your size. Unlike most reach weapons, the kinetic whip can also attack nearby creatures. The kinetic whip disappears at the beginning of your next turn, but in the intervening time, it threatens all squares within its reach, allowing you to make attacks of opportunity that deal the whip's usual damage."
+			"You form a long tendril of energy or elemental matter. This functions as *kinetic blade* but counts as a ‹misc/reach› weapon appropriate for your size. Unlike most reach weapons, the *kinetic whip* can also attack nearby creatures. The *kinetic whip* disappears at the beginning of your next turn, but in the intervening time, it threatens all squares within its reach, allowing you to make attacks of opportunity that deal the whip's usual damage."
 		]
 	},
 	"kundalini_infusion": {
@@ -1069,7 +1099,7 @@
 			"",
 			"::kinetics{el=universal type=\"substance infusion\" l=2 burn=0 prereq=\"ki pool, ‹kinetic/kinetic fist›\" assoc=any save=\"Fortitude partial\" source=\"Martial Arts Handbook/29\"}",
 			"",
-			"You infuse your elemental energy with kundalini serpent fire. Choose a chakra you can currently open; you must accept an amount of burn equal to the chakra's number (1 for root, 2 for sacral, and so on). Your unarmed strikes with the infused blast cause the target to suffer the effects of blocking the chosen chakra as per the ‹feat/Block Chakras› or ‹feat/Block Upper Chakras› feat. You can use this infusion only while also using the kinetic fist form infusion."
+			"You infuse your elemental energy with kundalini serpent fire. Choose a ‹rule/chakra<s› you can currently open; you must accept an amount of burn equal to the chakra's number (1 for root, 2 for sacral, and so on). Your unarmed strikes with the infused blast cause the target to suffer the effects of blocking the chosen chakra as per the ‹feat/Block Chakras› or ‹feat/Block Upper Chakras› feat. You can use this infusion only while also using the *kinetic fist* form infusion."
 		]
 	},
 	"maelstrom": {
@@ -1081,7 +1111,11 @@
 			"",
 			"::kinetics{el=water type=\"substance infusion\" l=8 burn=4 prereq=\"‹kinetic/extended range›\" assoc=\"‹kinetic/Charged Water Blast›, ‹kinetic/Water Blast›\" save=\"Reflex partial\" source=\"Psychic Anthology/20\"}",
 			"",
-			"You create a 20-foot-radius whirling maelstrom in a body of water within 120 feet (the area of the maelstrom does not include any squares in the radius that aren't in the water). Any creature in the maelstrom immediately takes one-quarter your blast's normal damage regardless of whether it succeeds at its save. A creature that succeeds at its Reflex save can choose to exit the area at the closest space. A creature in the maelstrom must succeed at a DC 35 Swim check in order to swim, and any creature that enters the maelstrom or ends its turn in the maelstrom takes half your blast's normal damage. As a free action at the beginning of your turn, you can position each creature in the maelstrom anywhere you choose within the affected area. This effect lasts for a number of rounds equal to your Constitution modifier or until you use this infusion again. You can use grappling infusion with this infusion."
+			"You create a 20-foot-radius whirling *maelstrom* in a body of water within 120 feet (the area of the *maelstrom* does not include any squares in the radius that aren't in the water). Any creature in the *maelstrom* immediately takes one-quarter your blast's normal damage regardless of whether it succeeds at its save. A creature that succeeds at its Reflex save can choose to exit the area at the closest space.",
+			"",
+			"A creature in the *maelstrom* must succeed at a DC 35 ‹skill/Swim› check in order to swim, and any creature that enters the *maelstrom* or ends its turn in the *maelstrom* takes half your blast's normal damage. As a @HL[free action] at the beginning of your turn, you can position each creature in the *maelstrom* anywhere you choose within the affected area.",
+			"",
+			"This effect lasts for a number of rounds equal to your Constitution modifier or until you use this infusion again. You can use ‹kinetic/grappling infusion› with this infusion."
 		]
 	},
 	"magnetic_infusion": {
@@ -1117,7 +1151,13 @@
 			"",
 			"::kinetics{el=universal type=\"form infusion\" l=3 burn=2 assoc=any save=\"Reflex negates\" source=\"Occult Adventures/21\"}",
 			"",
-			"You send an elemental mass, energy ball, or object into a particular square within 30 feet, dealing 1/4 the normal amount of damage (or half the normal amount of damage, for an energy blast) to all creatures in that square. The mobile blast lasts until you dismiss it as a free action, lose consciousness, or move farther than 30 feet from it. Each round on your turn as a move action, you can move the mobile blast to another square within range; either way, it continues to deal damage to all creatures in its final square each round if they fail their saving throws. You can have only a single mobile blast in existence at a time. If the mobile blast's total burn cost before applying any reduction for gather power is 0, it has no maximum duration. Otherwise, it lasts for a maximum number of rounds equal to your Constitution modifier, and afterward you can't create another mobile blast for a number of minutes equal to the number of rounds it existed. A mobile blast is always extremely loud and visible. The saving throw DC is Dexterity-based."
+			"You send an elemental mass, energy ball, or object into a particular square within 30 feet, dealing ‹misc/one-fourth› of the normal amount of damage (or half the normal amount of damage, for an energy blast) to all creatures in that square.",
+			"",
+			"The *mobile blast* lasts until you dismiss it as a @HL[free action], lose consciousness, or move farther than 30 feet from it. Each round on your turn as a @HL[move action], you can move the *mobile blast* to another square within range; either way, it continues to deal damage to all creatures in its final square each round if they fail their saving throws.",
+			"",
+			"You can have only a single *mobile blast* in existence at a time. If the *mobile blast's* total burn cost before applying any reduction for *gather power* is 0, it has no maximum duration. Otherwise, it lasts for a maximum number of rounds equal to your Constitution modifier, and afterward you can't create another *mobile blast* for a number of minutes equal to the number of rounds it existed.",
+			"",
+			"A *mobile blast* is always extremely loud and visible. The saving throw DC is Dexterity-based."
 		]
 	},
 	"penetrating_infusion": {
@@ -1129,7 +1169,9 @@
 			"",
 			"::kinetics{el=\"air, fire, water\" type=\"substance infusion\" l=2 burn=2 assoc=\"‹kinetic/Blue Flame Blast›, ‹kinetic/Cold Blast›, ‹kinetic/Electric Blast›, ‹kinetic/Fire Blast›\" save=none source=\"Elemental Master's Handbook/22\"}",
 			"",
-			"The intensity of your blasts allows you to break through your foes' resistances. Treat your foe's cold, electricity, or fire resistance as if it were 5 lower for the purpose of determining the infused blast's damage; this doesn't stack with the reduction from ‹kinetic/searing flame›. You can increase the burn cost of this infusion to further reduce the foe's resistance against the infused blast by 5 per additional point of burn accepted. This has no effect on creatures with immunity."
+			"The intensity of your blasts allows you to break through your foes' resistances. Treat your foe's cold, electricity, or fire ‹umr/resistance› as if it were 5 lower for the purpose of determining the infused blast's damage; this doesn't stack with the reduction from ‹kinetic/searing flame›.",
+			"",
+			"You can increase the burn cost of this infusion to further reduce the foe's resistance against the infused blast by 5 per additional point of burn accepted. This has no effect on creatures with immunity."
 		]
 	},
 	"photokinetic_infusion": {
@@ -1177,7 +1219,9 @@
 			"",
 			"::kinetics{el=\"aether, air, earth, void, water, wood\" type=\"substance infusion\" l=1 burn=1 assoc=\"‹kinetic/Air Blast›, ‹kinetic/Blizzard Blast›, ‹kinetic/Charged Water Blast›, ‹kinetic/Earth Blast›, ‹kinetic/Gravity Blast›, ‹kinetic/Magma Blast›, ‹kinetic/Metal Blast›, ‹kinetic/Mud Blast›, ‹kinetic/Sandstorm Blast›, ‹kinetic/Steam Blast›, ‹kinetic/Telekinetic Blast›, ‹kinetic/Void Blast›, ‹kinetic/Water Blast›\" save=none source=\"Occult Adventures/21\"}",
 			"",
-			"The momentum of your kinetic blast knocks foes back. Attempt a ‹rule/bull rush› combat maneuver check against each target damaged by your infused blast, using your Constitution modifier instead of your Strength modifier to determine your bonus. This infusion can push a foe back by a maximum of 5 feet. You can increase the burn cost of this infusion to increase the maximum distance pushed by 5 feet per additional point of burn accepted. You can't use this infusion with a form infusion such as ‹kinetic/cloud› that causes your kinetic blast to lack a clear direction to push."
+			"The momentum of your kinetic blast knocks foes back. Attempt a ‹rule/bull rush› combat maneuver check against each target damaged by your infused blast, using your Constitution modifier instead of your Strength modifier to determine your bonus. This infusion can push a foe back by a maximum of 5 feet. You can increase the burn cost of this infusion to increase the maximum distance pushed by 5 feet per additional point of burn accepted.",
+			"",
+			"You can't use this infusion with a form infusion such as ‹kinetic/cloud› that causes your kinetic blast to lack a clear direction to push."
 		]
 	},
 	"quenching_infusion": {
@@ -1225,7 +1269,7 @@
 			"",
 			"::kinetics{el=void type=\"form infusion\" l=4 burn=3 assoc=\"‹kinetic/Gravity Blast›, ‹kinetic/Negative Blast›, ‹kinetic/Void Blast›\" save=\"Reflex half\" source=\"Occult Origins/7\"}",
 			"",
-			"You create a growing singularity. Choose a grid intersection within 30 feet. All creatures and objects in a 5-foot-radius ‹misc/burst› centered on the intersection take 1/4 your blast's normal amount of damage (or half damage for a negative blast). On your next turn, the singularity deals damage in a 10-foot-radius burst, and on your turn after that, it deals damage in a 15-foot-radius burst. The DC is Dexterity-based."
+			"You create a growing singularity. Choose a grid intersection within 30 feet. All creatures and objects in a 5-foot-radius ‹misc/burst› centered on the intersection take ‹misc/one-fourth› of your blast's normal amount of damage (or half damage for a *negative blast*). On your next turn, the singularity deals damage in a 10-foot-radius burst, and on your turn after that, it deals damage in a 15-foot-radius burst. The DC is Dexterity-based."
 		]
 	},
 	"slick_infusion": {
@@ -1237,7 +1281,7 @@
 			"",
 			"::kinetics{el=water type=\"substance infusion\" l=2 burn=2 prereq=\"‹kinetic/slick›\" assoc=\"‹kinetic/Blizzard Blast›, ‹kinetic/Charged Water Blast›, ‹kinetic/Cold Blast›, ‹kinetic/Ice Blast›, ‹kinetic/Water Blast›\" save=\"Reflex negates\" source=\"Psychic Anthology/21\"}",
 			"",
-			"Your blast leaves behind slippery water or ice in its area for as long as the blast is in that area and for 1 round thereafter, making the area ‹rule/difficult terrain› and increasing the DC of Acrobatics checks attempted in the area by 5. You can use this infusion only if you also use a form infusion that has an area of effect."
+			"Your blast leaves behind slippery water or ice in its area for as long as the blast is in that area and for 1 round thereafter, making the area ‹rule/difficult terrain› and increasing the DC of ‹skill/Acrobatics› checks attempted in the area by 5. You can use this infusion only if you also use a form infusion that has an area of effect."
 		]
 	},
 	"snake": {
@@ -1261,7 +1305,9 @@
 			"",
 			"::kinetics{el=universal type=\"form infusion\" l=2 burn=2 assoc=any save=\"Reflex negates (see text)\" source=\"Elemental Master's Handbook/22\"}",
 			"",
-			"You throw a long, roughly 5-foot-by-10-foot spindle of elemental matter or energy (or nearby unattended objects in the case of telekineticists) up to 30 feet away, damaging all creatures and objects within any two adjacent 5-foot squares unless they succeed at a Reflex save. An energy blast infused with spindle deals its normal damage to each target, while a physical blast infused with spindle deals half its normal damage to each target. The saving throw DC is Dexterity-based."
+			"You throw a long, roughly 5-foot-by-10-foot spindle of elemental matter or energy (or nearby unattended objects in the case of telekineticists) up to 30 feet away, damaging all creatures and objects within any two adjacent 5-foot squares unless they succeed at a Reflex save.",
+			"",
+			"An energy blast infused with *spindle* deals its normal damage to each target, while a physical blast infused with spindle deals ‹misc/half› its normal damage to each target. The saving throw DC is Dexterity-based."
 		]
 	},
 	"spore_infusion": {
@@ -1276,9 +1322,11 @@
 			"",
 			"::kinetics{el=wood type=\"substance infusion\" l=5 burn=3 assoc=\"‹kinetic/Autumn Blast›, ‹kinetic/Spring Blast›, ‹kinetic/Summer Blast›, ‹kinetic/Verdant Blast›, ‹kinetic/Winter Blast›, ‹kinetic/Wood Blast›\" save=\"Fortitude negates\" source=\"Ultimate Wilderness/60~;Psychic Anthology/21\"}",
 			"",
-			"Creatures that take piercing or slashing damage from your blast are infected with spores. If a target fails its Fortitude save, it takes 1d6 points of damage per round for 10 rounds as plants and fungi grow out of its body. At the end of that time, the target is exposed to the pulsing puffs disease. This infusion is a disease effect. When using a wood kinetic blast against a creature infected by this infusion, you gain a +2 bonus on attack rolls, to saving throw DCs, and on caster level checks to overcome spell resistance.",
+			"Creatures that take piercing or slashing damage from your blast are infected with spores. If a target fails its Fortitude save, it takes 1d6 points of damage per round for 10 rounds as plants and fungi grow out of its body. At the end of that time, the target is exposed to the *pulsing puffs* disease.",
 			"",
-			"::aff[Pulsing Puffs]{iconD type=Blast-injury saveF=18 onset=\"1 minute\" freq=\"1/day\" effDex=\"1d6\" cure2c}"
+			"::aff[Pulsing Puffs]{iconD type=Blast-injury saveF=18 onset=\"1 minute\" freq=\"1/day\" effDex=\"1d6\" cure2c}",
+			"",
+			"This infusion is a disease effect. When using a wood kinetic blast against a creature infected by this infusion, you gain a +2 bonus on attack rolls, to saving throw DCs, and on caster level checks to overcome spell resistance."
 		]
 	},
 	"spray": {
@@ -1290,7 +1338,7 @@
 			"",
 			"::kinetics{el=water type=\"form infusion\" l=4 burn=3 assoc=\"‹kinetic/Charged Water Blast›, ‹kinetic/Water Blast›\" save=\"Reflex half\" source=\"Occult Adventures/22\"}",
 			"",
-			"You diffuse your kinetic blast to spray out wildly. All creatures and objects in a 30-foot cone take half your normal amount of blast damage. The saving throw DC is Dexterity-based."
+			"You diffuse your kinetic blast to spray out wildly. All creatures and objects in a 30-foot cone take ‹misc/half› your normal amount of blast damage. The saving throw DC is Dexterity-based."
 		]
 	},
 	"stylish_infusion": {
@@ -1300,11 +1348,11 @@
 		"description": [
 			"## Stylish Infusion",
 			"",
-			"::kinetics{el=universal type=\"substance infusion\" l=3 burn=2 prereq=\"brawler's flurry or flurry of blows class feature, ‹kinetic/kinetic fist›\" assoc=any save=none source=\"Martial Arts Handbook/29\"}",
+			"::kinetics{el=universal type=\"substance infusion\" l=3 burn=2 prereq=\"*brawler's flurry* or *flurry of blows* class feature, ‹kinetic/kinetic fist›\" assoc=any save=none source=\"Martial Arts Handbook/29\"}",
 			"",
-			"When you learn this infusion, select an ‹ability/unchained monk »style strike<s›. You can use that style strike during a flurry of blows with your infused blast, though you must still follow the limitation of one style strike per flurry of blows (or two if you are a 15th-level ‹class/unchained monk›). If you select flying kick, the distance is equal to your elemental overflow bonus on attack rolls &times; 10 feet. You can use this infusion only while also using the kinetic fist form infusion.",
+			"When you learn this infusion, select an ‹ability/unchained monk »style strike<s›. You can use that style strike during a *flurry of blows* with your infused blast, though you must still follow the limitation of one style strike per *flurry of blows* (or two if you are a 15th-level ‹class/unchained monk›). If you select ‹stylestrike/flying kick›, the distance is equal to your *elemental overflow* bonus on attack rolls &times; 10 feet. You can use this infusion only while also using the *kinetic fist* form infusion.",
 			"",
-			"**Special:** You can select this infusion multiple times. Each time, you must select a different style strike."
+			"@HL[Special:] You can select this infusion multiple times. Each time, you must select a different style strike."
 		]
 	},
 	"synaptic_infusion": {
@@ -1316,7 +1364,7 @@
 			"",
 			"::kinetics{el=air type=\"substance infusion\" l=3 burn=2 assoc=\"‹kinetic/Electric Blast›, ‹kinetic/Charged Water Blast›, ‹kinetic/Thunderstorm Blast›\" save=\"Will negates\" source=\"Psychic Anthology/21\"}",
 			"",
-			"Your blast sends strange electric signals through the target's body, scrambling its synapses and causing it to become ‹misc/staggered› for 1 round. The target is aware it can choose to take a move action to remove the staggered condition inflicted by this infusion. This infusion is a mind-affecting effect."
+			"Your blast sends strange electric signals through the target's body, scrambling its synapses and causing it to become ‹misc/staggered› for 1 round. The target is aware it can choose to take a @HL[move action] to remove the staggered condition inflicted by this infusion. This infusion is a mind-affecting effect."
 		]
 	},
 	"telekinetic_boomerang": {
@@ -1328,7 +1376,9 @@
 			"",
 			"::kinetics{el=aether type=\"form infusion\" l=1 burn=1 assoc=\"‹kinetic/Telekinetic Blast›\" save=none source=\"Psychic Anthology/21\"}",
 			"",
-			"This functions as telekinetic blast, except you maintain an elastic strand of aether attached to the object you throw. This allows you to pull it back to you after the attack and catch it if you have enough free hands (and assuming it is small enough for you to carry). This prevents the object from taking damage, but it also prevents you from loosening the strands of aether (see telekinetic blast). Alternatively, if the attack missed, on your next turn as a standard action, you can you can snap the elastic strand back to make another attack with the same substance infusion and metakinesis, as if using a normal telekinetic blast (at which point the object takes damage and doesn't return to you, and you can't try again)."
+			"This functions as *telekinetic blast,* except you maintain an elastic strand of aether attached to the object you throw. This allows you to pull it back to you after the attack and catch it if you have enough free hands (and assuming it is small enough for you to carry). This prevents the object from taking damage, but it also prevents you from loosening the strands of aether (see *telekinetic blast*).",
+			"",
+			"Alternatively, if the attack missed, on your next turn as a @HL[standard action], you can you can snap the elastic strand back to make another attack with the same substance infusion and metakinesis, as if using a normal *telekinetic blast* (at which point the object takes damage and doesn't return to you, and you can't try again)."
 		]
 	},
 	"thundering_infusion": {
@@ -1340,7 +1390,9 @@
 			"",
 			"::kinetics{el=air type=\"substance infusion\" l=1 burn=1 assoc=\"‹kinetic/Electric Blast›, ‹kinetic/Thunderstorm Blast›\" save=\"Fortitude negates\" source=\"Occult Adventures/22\"}",
 			"",
-			"Your lightning brings with it a peal of thunder. Whenever your infused blast hits a foe and penetrates spell resistance, that foe becomes ‹misc/deafened›, even if the blast doesn't deal damage."
+			"Your lightning brings with it a peal of thunder.",
+			"",
+			"Whenever your infused blast hits a foe and penetrates spell resistance, that foe becomes ‹misc/deafened›, even if the blast doesn't deal damage."
 		]
 	},
 	"torrent": {
@@ -1352,7 +1404,7 @@
 			"",
 			"::kinetics{el=\"air, fire, water\" type=\"form infusion\" l=3 burn=2 assoc=\"‹kinetic/Air Blast›, ‹kinetic/Blizzard Blast›, ‹kinetic/Blue Flame Blast›, ‹kinetic/Charged Water Blast›, ‹kinetic/Fire Blast›, ‹kinetic/Magma Blast›, ‹kinetic/Mud Blast›, ‹kinetic/Plasma Blast›, ‹kinetic/Sandstorm Blast›, ‹kinetic/Steam Blast›, ‹kinetic/Thunderstorm Blast›, ‹kinetic/Water Blast›\" save=\"Reflex half\" source=\"Occult Adventures/22\"}",
 			"",
-			"A torrent of energy buffets or burns all foes in a 30-foot line, dealing half your normal amount of blast damage (or full damage for energy blasts). The saving throw DC is Dexterity-based."
+			"A torrent of energy buffets or burns all foes in a 30-foot line, dealing ‹misc/half› your normal amount of blast damage (or full damage for energy blasts). The saving throw DC is Dexterity-based."
 		]
 	},
 	"toxic_infusion": {
@@ -1409,7 +1461,7 @@
 			"",
 			"::kinetics{el=\"void, wood\" type=\"substance infusion\" l=4 burn=3 prereq=\"‹race/duskwalker›, or ‹feat/Planar Infusion› (Boneyard)\" assoc=\"‹kinetic/Positive Blast›, ‹kinetic/Negative Blast›\" save=\"Will negates\" source=\"Plane-Hopper's Handbook/8\"}",
 			"",
-			"Undead that take damage from a turning blast must succeed at a Will save or flee for 1 round. An undead creature that succeeds at its saving throw against a turning blast is immune to this effect for 24 hours."
+			"Undead that take damage from a *turning blast* must succeed at a Will save or flee for 1 round. An undead creature that succeeds at its saving throw against a *turning blast* is immune to this effect for 24 hours."
 		]
 	},
 	"unblinking_flame_infusion": {
@@ -1421,7 +1473,9 @@
 			"",
 			"::kinetics{el=fire type=\"substance infusion\" l=5 burn=3 prereq=\"‹kinetic/kinetic fist›, member of the Monastery of Unblinking Flame\" assoc=\"‹kinetic/Blue Flame Blast›, ‹kinetic/Fire Blast›\" save=none source=\"Martial Arts Handbook/30\"}",
 			"",
-			"The flame of your infused blast illuminates and reveals the target as it really is. If you hit the target with an unarmed strike with the infused blast, creatures can see the target as if using ‹spell/true seeing› for 1 round, although only the target is revealed in this way. You can use this infusion only while also using the kinetic fist form infusion."
+			"The flame of your infused blast illuminates and reveals the target as it really is.",
+			"",
+			"If you hit the target with an unarmed strike with the infused blast, creatures can see the target as if using ‹spell/true seeing› for 1 round, although only the target is revealed in this way. You can use this infusion only while also using the *kinetic fist* form infusion."
 		]
 	},
 	"unbreaking_waves_infusion": {
@@ -1433,7 +1487,7 @@
 			"",
 			"::kinetics{el=water type=\"substance infusion\" l=5 burn=3 prereq=\"‹kinetic/kinetic fist›, member of the Monastery of Unbreaking Waves\" assoc=\"‹kinetic/Ice Blast›, ‹kinetic/Water Blast›\" save=none source=\"Martial Arts Handbook/30\"}",
 			"",
-			"Your infused blast buffets and redirects enemies with waves. Attempt a ‹rule/reposition› or ‹rule/trip› combat maneuver check against each target damaged by your infused blast, using your Constitution modifier instead of your Strength modifier to determine your combat maneuver bonus. You can use this infusion only while also using the kinetic fist form infusion."
+			"Your infused blast buffets and redirects enemies with waves. Attempt a ‹rule/reposition› or ‹rule/trip› combat maneuver check against each target damaged by your infused blast, using your Constitution modifier instead of your Strength modifier to determine your combat maneuver bonus. You can use this infusion only while also using the *kinetic fist* form infusion."
 		]
 	},
 	"unfolding_wind_infusion": {
@@ -1445,7 +1499,9 @@
 			"",
 			"::kinetics{el=air type=\"substance infusion\" l=5 burn=3 prereq=\"‹kinetic/kinetic fist›, member of the Monastery of Unfolding Wind\" assoc=\"‹kinetic/Air Blast›, ‹kinetic/Thunderstorm Blast›\" save=none source=\"Martial Arts Handbook/30\"}",
 			"",
-			"Unfolding winds carry you along. Before your first attack and again after each unarmed strike with the infused blast, you can move 5 feet without provoking attacks of opportunity. You can use this infusion only while also using the kinetic fist form infusion."
+			"Unfolding winds carry you along.",
+			"",
+			"Before your first attack and again after each unarmed strike with the infused blast, you can move 5 feet without provoking attacks of opportunity. You can use this infusion only while also using the *kinetic fist* form infusion."
 		]
 	},
 	"unnerving_infusion": {
@@ -1457,7 +1513,9 @@
 			"",
 			"::kinetics{el=void type=\"substance infusion\" l=3 burn=2 assoc=\"‹kinetic/Negative Blast›, ‹kinetic/Void Blast›\" save=\"Will negates\" source=\"Elemental Master's Handbook/22\"}",
 			"",
-			"Your kinetic blast sends the fear of oblivion into your foes. Whenever an infused blast deals negative energy damage to a living foe, it is ‹misc/shaken› for 1 round. This shaken condition doesn't stack with itself."
+			"Your kinetic blast sends the fear of oblivion into your foes.",
+			"",
+			"Whenever an infused blast deals negative energy damage to a living foe, it is ‹misc/shaken› for 1 round. This shaken condition doesn't stack with itself."
 		]
 	},
 	"unraveling_infusion": {
@@ -1469,7 +1527,11 @@
 			"",
 			"::kinetics{el=fire type=\"substance infusion\" l=5 burn=3 assoc=\"‹kinetic/Blue Flame Blast›, ‹kinetic/Fire Blast›\" save=none source=\"Occult Adventures/22\"}",
 			"",
-			"Your kinetic blast burns so hot that it melts away your foe's magical effects. Whenever your infused blast hits a foe and penetrates its spell resistance, you can attempt a caster level check as if using a targeted ‹spell/dispel magic› before determining whether the foe takes damage from the blast. You can choose to reduce the blast's damage by half to increase your bonus on the caster level check by 2. If you don't choose a specific spell effect to attempt to dispel, you automatically attempt to dispel effects that would protect the target from fire damage before other spells."
+			"Your kinetic blast burns so hot that it melts away your foe's magical effects.",
+			"",
+			"Whenever your infused blast hits a foe and penetrates its spell resistance, you can attempt a caster level check as if using a targeted ‹spell/dispel magic› before determining whether the foe takes damage from the blast. You can choose to reduce the blast's damage by half to increase your bonus on the caster level check by 2.",
+			"",
+			"If you don't choose a specific spell effect to attempt to dispel, you automatically attempt to dispel effects that would protect the target from fire damage before other spells."
 		]
 	},
 	"untwisting_iron_infusion": {
@@ -1481,7 +1543,7 @@
 			"",
 			"::kinetics{el=earth type=\"substance infusion\" l=5 burn=3 prereq=\"‹kinetic/kinetic fist›, member of the Monastery of Untwisting Iron\" assoc=\"‹kinetic/Earth Blast›, ‹kinetic/Metal Blast›\" save=none source=\"Martial Arts Handbook/30\"}",
 			"",
-			"Each time you hit a foe with an unarmed strike with your infused blast, increase your DR/adamantine from ‹kinetic/flesh of stone› by 1 until the start of your next turn. You can use this infusion only while also using the kinetic fist form infusion."
+			"Each time you hit a foe with an unarmed strike with your infused blast, increase your DR/adamantine from ‹kinetic/flesh of stone› by 1 until the start of your next turn. You can use this infusion only while also using the *kinetic fist* form infusion."
 		]
 	},
 	"vampiric_infusion": {
@@ -1493,7 +1555,9 @@
 			"",
 			"::kinetics{el=void type=\"substance infusion\" l=5 burn=3 prereq=\"‹kinetic/void healer›\" assoc=\"‹kinetic/Negative Blast›, ‹kinetic/Void Blast›\" save=none source=\"Elemental Master's Handbook/22\"}",
 			"",
-			"Your kinetic blast can drain your foes' vitality to replenish your own. If your blast hits (or the enemy fails its saving throw against a blast without an attack roll), you can activate the void healer utility wild talent on yourself by accepting its burn cost; you don't need to take an action to do so. The void healer utility wild talent heals you when used in this way even if you are a living creature."
+			"Your kinetic blast can drain your foes' vitality to replenish your own.",
+			"",
+			"If your blast hits (or the enemy fails its saving throw against a blast without an attack roll), you can activate the *void healer* utility wild talent on yourself by accepting its burn cost; you don't need to take an action to do so. The *void healer* utility wild talent heals you when used in this way even if you are a living creature."
 		]
 	},
 	"venom_admixture": {
@@ -1542,7 +1606,9 @@
 			"",
 			"::kinetics{el=universal type=\"form infusion\" l=5 burn=3 assoc=any save=none source=\"Occult Adventures/22\"}",
 			"",
-			"You create a wall of churning elements, flensing debris, or roiling energy. The wall appears within 30 feet and can be either up to 10 feet high and up to 120 feet long or up to 20 feet high and up to 60 feet long. All creatures and objects in one of the wall's squares when you create it take 1/4 the normal damage from your blast with no saving throw (or half the normal damage for an energy blast). Anytime a creature crosses the wall, it takes half the normal damage from your blast (or full damage for an energy blast). The wall is not completely solid, but it does provide cover against attacks from the other side of the wall. The wall lasts for a number of rounds equal to your Constitution modifier or until you use a wall infusion again."
+			"You create a wall of churning elements, flensing debris, or roiling energy. The wall appears within 30 feet and can be either up to 10 feet high and up to 120 feet long or up to 20 feet high and up to 60 feet long. All creatures and objects in one of the wall's squares when you create it take ‹misc/one-fourth› of the normal damage from your blast with no saving throw (or half the normal damage for an energy blast). Anytime a creature crosses the wall, it takes half the normal damage from your blast (or full damage for an energy blast).",
+			"",
+			"The wall is not completely solid, but it does provide ‹rule/cover› against attacks from the other side of the wall. The wall lasts for a number of rounds equal to your Constitution modifier or until you use a *wall* infusion again."
 		]
 	},
 	"weighing_infusion": {
@@ -1566,7 +1632,7 @@
 			"",
 			"::kinetics{el=universal type=\"form infusion\" l=6 burn=4 prereq=\"‹kinetic/kinetic blade›, ‹kinetic/kinetic whip›, ‹kinetic/blade whirlwind›\" assoc=any save=none source=\"Psychic Anthology/22\"}",
 			"",
-			"As blade whirlwind, except it manifests a kinetic whip, and the whip lasts until the beginning of your next turn or until you use any form infusion that creates a blade or whip again, whichever comes first."
+			"As *blade whirlwind,* except it manifests a *kinetic whip,* and the whip lasts until the beginning of your next turn or until you use any form infusion that creates a blade or whip again, whichever comes first."
 		]
 	},
 	"absentia": {
